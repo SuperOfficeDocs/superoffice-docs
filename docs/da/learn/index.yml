@@ -208,7 +208,7 @@ conceptualContent:
       - text: Skriv e-mail
         itemType: list
         typeDesc: how-to-guide
-        url: ../email/learn/compose.md
+        url: ../email/inbox/learn/compose.md
       - text: Opret aftale
         itemType: list
         typeDesc: how-to-guide

@@ -3,7 +3,7 @@ uid: help-da-webtools
 title: WebTools
 description: Introduktion til SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-date: 12.04.2023
+date: 28.05.2025
 keywords: WebTools, dokument, e-mail, Mail Link
 topic: concept
 language: da
@@ -76,7 +76,7 @@ Dobbeltklik på SuperOffice-uglen i din værktøjslinje for at åbne WebTools p�
 
 ## Relateret indhold
 
-* [Sådan bruger du SuperOffice Indbakke][7] - FAQ
+* [Sådan bruger du SuperOffice Indbakke][7]
 * [Tilknyt e-mail, dokumenter og dagbog][8]
 * [Gem en e-mail i SuperOffice CRM][4]
 * [Opret et dokument i SuperOffice CRM][5]
@@ -88,7 +88,7 @@ Dobbeltklik på SuperOffice-uglen i din værktøjslinje for at åbne WebTools p�
 [3]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 [4]: ../../email/learn/index.md
 [5]: ../../document/learn/create.md
-[7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
+[7]: ../../email/inbox/learn/index.md
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
 [10]: ../../../en/ui/soprotocol/index.md

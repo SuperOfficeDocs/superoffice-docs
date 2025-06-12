@@ -1,8 +1,6 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skriv e-mail
-  href: compose.md
 - name: Skift standardmailklient i SuperOffice
   href: change-default-mail-client.md
 - name: Indbakke

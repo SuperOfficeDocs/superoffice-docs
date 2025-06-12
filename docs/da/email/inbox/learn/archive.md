@@ -1,43 +1,86 @@
 ---
 uid: help-da-email-inbox-archive
 title: Arkiver e-mails
-description: Arkiver e-mails
-keywords: e-mail
-author: SuperOffice RnD
-date: 07.04.2022
+description: Lær, hvordan du arkiverer e-mailbeskeder og vedhæftede filer fra SuperOffice Indbakke, herunder hvordan du gemmer dem som dokumenter i CRM.
+keywords: Arkiver-knap, gem e-mail, gem vedhæftet fil, indbakke, somail, dokumentdialog, e-mailvedhæftning, indgående e-mail, udgående e-mail, e-mail, arkiv
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Arkiver e-mails
+# Arkiver e-mailbeskeder <i class="ph ph-archive" aria-hidden="true"></i>
 
-## <a id="in"></a>Arkivere indgående e-mail
+Du kan gemme en e-mail eller en specifik vedhæftning i SuperOffice CRM ved at arkivere den. Dette sikrer, at indholdet bliver knyttet til det rigtige firma og den rigtige person – og eventuelt et projekt eller salg.
 
-Du kan arkivere en indgående e-mail (med eventuelle vedhæftede filer) som et dokument i SuperOffice CRM. Dette er en praktisk metode til lagring af oplysninger, som du har modtaget via e-mail sammen med andre oplysninger om firmaer/personer i SuperOffice CRM.
+## <a id="in"></a>Arkiver indgående e-mail
 
-1. Gå til indbakken eller den relevante mappe.
-2. Vælg den ønskede meddelelse.
-3. Klik på <i class="ph ph-archive" aria-hidden="true"></i> **Arkivér**.
-4. Klik på **Arkivér e-mail**. Dialogboksen [**Dokument** åbnes][1].
+Sådan gemmer du en modtaget e-mail i SuperOffice:
+
+1. Vælg en meddelelse i indbakken.
+
+1. Klik på knappen **Arkivér** (<i class="ph ph-archive" aria-hidden="true"></i>), og vælg **Arkivér e-mail**.
+
+   ![SuperOffice Indbakke med menuvalg for arkivering -screenshot][img1]
+
+1. Hvis afsenderen er ukendt, åbnes dialogboksen **Tilføj person til SuperOffice**.
+
+    * Begynd at skrive for at søge efter et eksisterende firma eller en kontaktperson.
+    * Eller, klik på **Opret nyt firma og kontaktperson** for at registrere begge.
+    * Hvis du vil springe registrering over, klik på **Tilføj ikke**.
+
+1. Dialogboksen [**Dokument**][1] åbnes med e-mailfilen (.somail) vedhæftet.
+
+    ![Dokumentdialog med .somail-fil vedhæftet -screenshot][img2]
+
+1. Foretag eventuelle ændringer, fx tilknyt e-mailen til et salg, projekt eller kategori.
+
+1. Klik på **Opret** for at arkivere meddelelsen.
 
 ## <a id="out"></a>Arkiver udgående e-mail
 
-Hvis du vil sende meddelelsen og arkivere den som et dokument i SuperOffice CRM, skal du klikke på **Send og arkiver**, når du [skriver en e-mail][3].
+Sådan arkiverer du en e-mail, du sender fra SuperOffice Indbakke:
+
+1. Skriv beskeden som normalt.
+1. Klik på **Send og arkiver** i stedet for **Send**.
+1. Dialogboksen [Dokument][1] åbnes, så du kan bekræfte arkivoplysningerne.
 
 > [!TIP]
-> Hvis du ikke arkiverer meddelelsen, når du sender den, kan du stadig gå til mappen Sendt og arkivere meddelelsen som beskrevet ovenfor.
+> Hvis du glemmer at arkivere beskeden ved afsendelse, kan du stadig arkivere den senere fra mappen **Sendt post** ved at følge de samme trin.
 
-## <a id="attachment"></a>Arkivering eller åbning af vedhæftede filer
+## <a id="attachment"></a>Arkiver en vedhæftet fil
 
-1. Gå til indbakken.
-2. Vælg den ønskede meddelelse i indbakken. Vedhæftede filer vises under brevhovedet og viser ikonet for navn og filtype (hvis det genkendes).
-3. Klik på pilen på den vedhæftede fil, du vil gemme eller åbne.
-4. Vælg en af følgende valgmuligheder:
-    * **Aktiv**: Den vedhæftede fil vises i din browser. Klik på den vedhæftede fil for at åbne den eller gemme den. Hvordan dette fungerer, afhænger af browseren.
-    * **Arkiver**: Dialogboksen [**Dokument** åbnes][1].
+Du kan også arkivere enkelte vedhæftninger separat fra selve e-mailteksten.
 
-[!include[Add contact](includes/add-contact-opens.md)]
+1. Vælg meddelelsen i indbakken.
+1. Under e-mailens brevhoved vises listen over vedhæftede filer.
+1. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden af filnavnet.
+1. Vælg **Arkivér** i menuen.
+
+    Dialogboksen [**Dokument**][1] åbnes med filen allerede vedhæftet.
+
+1. Klik på **Opret** for at arkivere vedhæftningen.
+
+Du kan også vælge **Download** for at gemme filen lokalt.
+
+## Relateret indhold
+
+* [Vis e-mailbeskeder][3]
+* [Opret opgave][4]
+* [Opret sag][5]
+* [Administrer afsendere][2]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
-[3]: compose.md
+[2]: manage-senders.md
+[3]: preview.md
+[4]: create-task.md
+[5]: create-request.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/email/inbox-archive-button.png
+[img2]: ../../../../media/loc/en/email/document-dialog-somail.png
