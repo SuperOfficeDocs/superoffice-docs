@@ -2,6 +2,7 @@
 uid: help-no-email-inbox-compose
 title: Skriv e-post
 description: Lær hvordan du skriver og sender e-post ved hjelp av SuperOffice-innboksen
+keywords: ny e-post, skriv melding, skriv e-post, e-postmelding
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
@@ -44,7 +45,8 @@ Bruk SuperOffice-innboksen til å skrive nye meldinger og svare på innkommende 
 
     ![Sett inn innhold i e-postmelding -screenshot][img2]
 
-1. Legg til vedlegg (valgfritt)
+1. Legg til vedlegg (valgfritt):
+
     * Klikk på **Last opp fil** eller dra og slipp filer.
     * Eller, klikk på **Velg et CRM-dokument** for å legge ved eksisterende dokumenter.
 

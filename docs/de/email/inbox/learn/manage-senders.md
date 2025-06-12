@@ -50,10 +50,10 @@ Wenn der Absender nicht erkannt wird, erscheint oberhalb der Vorschau ein gelber
 * [E-Mails archivieren][2]
 * [Über Personen][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: archive.md
 [3]: ../../../contact/learn/index.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
 [img2]: ../../../../media/loc/en/email/inbox-add-contact.png

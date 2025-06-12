@@ -105,14 +105,14 @@ Sie können Ihr aktuelles E-Mail-Konto trennen und bei Bedarf ein neues Konto ve
 * [Google-App-Passwort für 2-Faktor-Anmeldung generieren][12] – FAQ
 * [Standard-E-Mail-Client in SuperOffice ändern][8]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
 [8]: ../../learn/change-default-mail-client.md
 [9]: ../../../webtools/learn/index.md
 [11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
 [12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png

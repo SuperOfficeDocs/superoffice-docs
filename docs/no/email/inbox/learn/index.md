@@ -62,7 +62,7 @@ Innboks-skjermbildet er delt inn i to ruter:
 [3]: compose.md
 [4]: archive.md
 [5]: create-task.md
-[8]: ../learn/index.md
+[8]: ../../learn/index.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../../media/loc/en/email/inbox-preview-message.png

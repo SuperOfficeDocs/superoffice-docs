@@ -42,6 +42,6 @@ Die Folgeaufgabe wird in Ihrem Kalender übernommen und die Nachricht aus dem Po
 * [E-Mails archivieren][1]
 * [Über Einladungen][2]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: archive.md#attachment
 [2]: ../../../diary/learn/invitation/index.md

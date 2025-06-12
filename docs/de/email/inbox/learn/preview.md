@@ -101,14 +101,14 @@ Die Ordnerliste stammt von Ihrem E-Mail-Anbieter (z. B. Outlook oder Gmail). S
 3. Die Nachricht wird in einem Browserfenster zur Vorschau geöffnet.
 4. Verwenden Sie die **Drucken**-Funktion Ihres Browsers, um die Nachricht auszudrucken.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Absender verwalten][1]
 * [Einladungen empfangen][3]
 * [Aufgabe erstellen][4]
 * [Anfrage erstellen][5]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: manage-senders.md
 [2]: archive.md#attachment
 [3]: invitations.md
@@ -116,7 +116,7 @@ Die Ordnerliste stammt von Ihrem E-Mail-Anbieter (z. B. Outlook oder Gmail). S
 [5]: create-request.md
 [9]: ../../../contact/learn/index.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-preview-message.png
 [img2]: ../../../../media/loc/en/email/email-options-general.png
 [img3]: ../../../../media/loc/en/email/inbox-message-task-menu.png
