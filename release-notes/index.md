@@ -17,23 +17,26 @@ Here you will find all the small and big changes that has been released for Supe
 
 The latest release is [**version 11.2**][11] - 17.09.2025.
 
-* [11][11]
-* [10.5][9]
-* [10.3][8]
-* [10.2][6]
-* [10.1][5]
-* [10.0][4]
-* [9.2][1]
-* [9.1][2]
-* [8.5][3]
+* [Version 11][11]
+* Version 10
+  * [10.5][9]
+  * [10.3][8]
+  * [10.2][6]
+  * [10.1][5]
+  * [10.0][4]
+* Version 9
+  * [9.2][1]
+  * [9.1][2]
+* Version 8
+  * [8.5][3]
 
 ## Mobile CRM versions
 
 The latest release is [**version 11.1.0**][7] - 10.06.2025.
 
-* [11.1 -][7]
-* [11.0 -][7]
-* [10.0 - 10.3][7]
+* [Version 11.1][7]
+* [Version 11.0][7]
+* [Version 10.0 - 10.3][7]
 
 ## Integrations
 
