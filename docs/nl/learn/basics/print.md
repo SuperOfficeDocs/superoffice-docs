@@ -63,6 +63,6 @@ De algemene stappen voor het afdrukken van een record in SuperOffice CRM zijn gr
 [1]: ../getting-started/main-screen/navigator.md
 [2]: ../../search-options/selection/learn/howto/print.md
 [3]: ../../search-options/selection/learn/howto/print-labels.md
-[4]: ../../email/inbox/learn/print.md
+[4]: ../../email/inbox/learn/preview.md#print
 
 <!-- Referenced images -->

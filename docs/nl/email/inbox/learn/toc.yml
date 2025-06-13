@@ -3,28 +3,17 @@ items:
   href: index.md
 - name: Postvak IN instellen
   href: setup.md
-- name: Opties voor Postvak IN
-  href: inbox-options.md
 - name: E-mailbericht weergeven
   href: preview.md
-- name: Werken met e-mails
-  topicHref: compose.md
-  items:
-  - name: E-mail opstellen
-    href: compose.md
-  - name: Afzenders beheren
-    href: manage-senders.md
-  - name: E-mail naar map verplaatsen
-    href: move-email-to-folder.md
-  - name: E-mail markeren als gelezen/ongelezen
-    href: mark-as-read.md
-  - name: Uitnodiging accepteren
-    href: invitations.md
-  - name: E-mail archiveren
-    href: archive.md
-  - name: Taak maken
-    href: create-task.md
-  - name: Verzoek maken
-    href: create-request.md
-  - name: E-mail afdrukken
-    href: print.md
+- name: E-mail opstellen
+  href: compose.md
+- name: Afzenders beheren
+  href: manage-senders.md
+- name: Uitnodiging accepteren
+  href: invitations.md
+- name: E-mail archiveren
+  href: archive.md
+- name: Taak maken
+  href: create-task.md
+- name: Verzoek maken
+  href: create-request.md

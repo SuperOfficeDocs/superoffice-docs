@@ -107,7 +107,7 @@ Wanneer een activiteit in rode tekst wordt weergegeven, betekent dit dat de gepl
 [2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
-[5]: ../../email/learn/compose.md
+[5]: ../../email/inbox/learn/compose.md
 [7]: ../../diary/learn/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md

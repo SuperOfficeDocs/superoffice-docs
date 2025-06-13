@@ -1,47 +1,59 @@
 ---
 uid: help-nl-email-inbox-senders
-title: Afzenders beheren met SuperOffice Postvak IN
-description: Afzenders beheren met SuperOffice Postvak IN
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: e-mail
+title: Afzenders beheren
+description: Leer hoe u onbekende afzenders kunt registreren of koppelen in SuperOffice CRM
+keywords: onbekende afzender, afzender, contact toevoegen, e-mailkop, e-mailadres, SuperOffice Postvak IN, postvak
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Afzenders beheren
 
-## Afzender opzoeken in SuperOffice
+SuperOffice Postvak IN helpt u om e-mailafzenders te herkennen en te beheren. Als het e-mailadres nog niet is geregistreerd in SuperOffice CRM, krijgt u de mogelijkheid om dit toe te voegen als contactpersoon. U kunt ook gegevens van bekende afzenders bekijken of extra adressen registreren vanuit de e-mailkop.
 
-U kunt heel eenvoudig gegevens over een afzender opzoeken in SuperOffice CRM.
+## Bekende contactpersoon opzoeken
 
-1. Selecteer een e-mail in Postvak IN.
-2. Klik op de naam en het e-mailadres van de afzender in de koptekst van de e-mail.
-3. Wat daarna gebeurt, hangt ervan af of het e-mailadres van de afzender in SuperOffice wordt gevonden:
-    * Als het e-mailadres van een bedrijf/persoon is gevonden, wordt de bedrijfskaart/het visitekaartje van de persoon in SuperOffice CRM weergegeven.
-    * Als het e-mailadres bij meerdere bedrijven/personen is geregistreerd, wordt er een dialoogvenster weergegeven met de alternatieven die u kunt kiezen.
-    * Als het e-mailadres niet in SuperOffice CRM is geregistreerd, kunt u klikken op **Nieuw bedrijf en nieuwe persoon maken**.
+U kunt contactgegevens van afzenders en ontvangers in de e-mailkop bekijken.
 
-## Het e-mailadres van de afzender toevoegen aan een nieuwe of bestaande persoon in SuperOffice
+* **Beweeg met de muis** over de naam om een voorbeeld te zien met naam, functie, bedrijf en telefoonnummers.
+* **Klik** om de volledige persoonskaart te openen.
 
-1. Ga naar Postvak IN.
+Als het e-mailadres aan meerdere personen is gekoppeld, verschijnt er een lijst zodat u de juiste persoon kunt selecteren.
 
-2. Selecteer een bericht in Postvak IN.
+## Onbekende afzender toevoegen aan SuperOffice
 
-3. Klik op de naam en het e-mailadres van de afzender in de koptekst van de e-mail.
+Wanneer de afzender niet wordt herkend, verschijnt er een gele balk boven het voorbeeldvenster.
 
-4. Klik op **Nieuw bedrijf en nieuwe persoon maken**.
+1. Klik op de link **Onbekende afzender** in de balk om het dialoogvenster **Persoon toevoegen aan SuperOffice** te openen.
 
-5. Selecteer in het dialoogvenster **Persoon toevoegen aan SuperOffice** een van de volgende opties:
-    * Zoeken: Zoek naar een bedrijf of persoon waaraan u het e-mailadres van de afzender wilt toevoegen.
-    * **Deze persoon kan zijn...** : SuperOffice zal proberen de afzender te vergelijken met de bestaande contactpersonen in de database. Klik op een van de voorgestelde personen als deze overeenkomt met afzender.
-    * **Nieuw bedrijf en nieuwe persoon maken**: klik op deze knop als de afzender een nieuwe persoon is van een bedrijf dat niet eerder is geregistreerd in SuperOffice.
-    * **Geen persoon toevoegen aan SuperOffice**: Als u een e-mailbericht archiveert of een taak maakt, kunt u op deze knop klikken als u het e-mailadres van de afzender niet wilt registreren.
+    ![Gele balk met dialoogvenster Persoon toevoegen -screenshot][img1]
 
-6. Vul de relevante velden in en klik op **Toevoegen**.
+1. In het dialoogvenster kunt u:
 
-Als u een e-mailbericht archiveert of een taak maakt, wordt het dialoogvenster **Document** of **Taak** geopend.
+    * Zoeken naar een bestaande persoon of bedrijf.
+    * Een bedrijf selecteren onder **Deze persoon werkt mogelijk bij**, als er suggesties worden weergegeven.
+    * Klikken op **Nieuw bedrijf en nieuwe persoon maken** om beiden te registreren als de afzender nog niet in SuperOffice CRM staat.
+
+    ![Dialoogvenster Persoon toevoegen in SuperOffice Postvak IN -screenshot][img2]
+
+> [!TIP]
+> U kunt ook op een onbekend e-mailadres in de kop klikken, inclusief *Cc* of *Aan*. Hetzelfde dialoogvenster wordt geopend. Als het domein wordt herkend, worden overeenkomende bedrijven weergegeven. Zo niet, dan kunt u alsnog zoeken of een nieuw item aanmaken.
+
+## Gerelateerde inhoud
+
+* [E-mails archiveren][2]
+* [Over personen][3]
 
 <!-- Referenced links -->
+[2]: archive.md
+[3]: ../../../contact/learn/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
+[img2]: ../../../../media/loc/en/email/inbox-add-contact.png

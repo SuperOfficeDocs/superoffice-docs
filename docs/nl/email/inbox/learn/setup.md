@@ -1,90 +1,118 @@
 ---
 uid: help-nl-email-inbox-setup
 title: SuperOffice Postvak IN instellen
-description: SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met uw SuperOffice CRM voor e-mailclients die niet via WebTools kunnen worden verbonden. Leer hoe u het instelt en voor de eerste keer inlogt.
-keywords: e-mail, postvak IN
-author: SuperOffice Product and Engineering
-date: 05.12.2025
-version: 10.4
+description: Leer hoe u SuperOffice Postvak IN instelt en inlogt. Deze functie is een alternatief voor WebTools om uw e-mailaccount te koppelen aan SuperOffice CRM.
+keywords: SuperOffice Postvak IN, postvak instellen, e-mailinstellingen, IMAP, e-mailverbinding
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # SuperOffice Postvak IN instellen
 
-SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met uw SuperOffice CRM voor e-mailclients die niet via WebTools kunnen worden verbonden.
+SuperOffice Postvak IN is een alternatief voor het koppelen van uw e-mailaccount aan SuperOffice CRM. Deze functie is bedoeld voor gebruikers die geen gebruik kunnen maken van [WebTools][9]. Alleen IMAP-accounts worden ondersteund.
+
+> [!NOTE]
+> SuperOffice Postvak IN ondersteunt slechts **één** e-mailaccount per gebruiker. Als WebTools is geïnstalleerd en verbonden met uw e-mail, is Postvak IN niet beschikbaar.
 
 ## Voordat u begint
 
-* Zorg ervoor dat IMAP is ingeschakeld in uw e-mailclient. SuperOffice Postvak IN ondersteunt de meeste IMAP-e-mailservers.
+* Controleer of **SuperOffice CRM** is geselecteerd als uw [standaard e-mailclient][8] onder **Lokale instellingen**.
 
-* Om e-mails te kunnen verzenden vanuit SuperOffice CRM, moet u ervoor zorgen dat het e-mailadres dat u gaat gebruiken met SuperOffice Postvak IN hetzelfde is als het eerste e-mailadres dat is geregistreerd in uw persoonskaart/scherm.
+* Zorg ervoor dat **IMAP is ingeschakeld** in uw e-mailclient.
 
-![U kunt controleren welk e-mailadres u hebt geregistreerd op uw persoonskaart -screenshot][img2]
+* Bevestig dat het **e-mailadres** dat u wilt gebruiken overeenkomt met het primaire e-mailadres dat op uw [persoonskaart][1] in SuperOffice is geregistreerd.
 
-## E-mailaccount instellen
+## Uw e-mailaccount koppelen
 
-Als u toegang wilt tot e-mail, moet u eerst details over uw e-mailaccount opgeven.
+1. Klik op <i class="ph ph-at" aria-hidden="true"></i> **Postvak IN** in de navigator.
 
-<!-- Prev YT video tag QoAanZgQs5A -->
+    De eerste keer dat u het postvak opent, verschijnt het scherm **E-mailaccount instellen**.
 
-1. Klik op het pictogram Postvak IN in het navigatiemenu. Het scherm **E-mailaccount instellen** wordt weergegeven als u Postvak IN voor de eerste keer opent.
+    ![Scherm E-mailaccount instellen met e-mailadresveld en knop Volgende -screenshot][img1]
 
-1. Voer in het veld **E-mailaccount** het e-mailadres in van het account dat u wilt gebruiken in SuperOffice.
+1. Voer in het veld **E-mailaccount** het e-mailadres in dat u wilt gebruiken.
 
-    ![x -screenshot][img3]
+1. Klik op **Volgende**.
 
-1. Als u informatie wilt invoeren voor inkomende en uitgaande e-mail, klikt u op **Geavanceerde instellingen**. Als u dat niet wilt, klikt u op **Volgende**. SuperOffice zal dan proberen deze informatie voor u in te stellen.
+    * SuperOffice probeert uw e-mailprovider te detecteren en stuurt u door om in te loggen.
+    * Als uw wachtwoord al bij de provider is opgeslagen, wordt u mogelijk automatisch geverifieerd.
+    * Anders wordt u gevraagd uw wachtwoord rechtstreeks in te voeren bij uw provider (bijvoorbeeld Microsoft of Google).
+    * Na succesvolle verificatie keert u terug naar SuperOffice en wordt het postvak geopend.
 
-1. Voer in het veld **Wachtwoord** uw wachtwoord in.
+1. Als verificatie mislukt of de provider niet wordt herkend, verschijnt het scherm **Geavanceerde instellingen**. Voer dan handmatig de serverinstellingen in.
 
-1. Klik op **Aanmelden**.
+## Geavanceerde instellingen configureren
 
-    * Als SuperOffice de e-mailprovider herkent (zoals Gmail), worden de serverinstellingen automatisch ingesteld en wordt Postvak IN geladen.
-    * Als de gegevens niet correct zijn of als het e-mailadres en wachtwoord dat u hebt ingevoerd niet correct zijn, wordt het dialoogvenster **Geavanceerde instellingen** geopend. Voer handmatig configuratiegegevens in of controleer deze voor binnenkomende en uitgaande servers.
+Als automatische configuratie mislukt, moet u handmatig de e-mailservergegevens invoeren. Alle verplichte velden moeten worden ingevuld zodat e-mail verzonden en ontvangen kan worden via SuperOffice Postvak IN.
 
-## Handmatig servergegevens toevoegen
+1. Voer instellingen voor inkomende e-mail in:
 
-### Instellingen voor binnenkomende e-mail
+    * **Server voor inkomende e-mail:** Uw IMAP-serveradres
+    * **Gebruikersnaam:** Meestal uw volledige e-mailadres
+    * **Wachtwoord:** Het wachtwoord van uw e-mailaccount
+    * **SSL:** In- of uitschakelen volgens de vereisten van uw provider
 
-Als u uw e-mails wilt importeren in SuperOffice CRM, voert u de gegevens van uw IMAP-server in de instellingen van uw e-mailclient in.
+1. Voer instellingen voor uitgaande e-mail in:
 
-* Gebruikersnaam: uw volledige e-mailadres
-* Wachtwoord: het wachtwoord van uw e-mailaccount
-* SSL: Aan/Uit - afhankelijk van de instellingen van uw e-mailprovider (zie instellingen voor Outlook en Gmail)
+    * **Server voor uitgaande e-mail:** Uw SMTP-serveradres
+    * **Gebruikersnaam**, **Wachtwoord** en **SSL**: gelijk aan inkomend
 
-### Instellingen voor uitgaande e-mail
+1. Klik op **Opslaan** om uw account te koppelen.
 
-Als u e-mails wilt verzenden vanuit SuperOffice CRM, voert u de gegevens van uw SMTP-server in.
+![Geavanceerde instellingen voor e-mailaccount -screenshot][img4]
 
-* Gebruikersnaam: uw volledige e-mailadres
-* Wachtwoord: het wachtwoord van uw e-mailaccount
-* SSL: afhankelijk van de instellingen van uw e-mailprovider (zie instellingen voor Outlook en Gmail)
+## Uw e-mailaccount wijzigen of verwijderen
 
-![Geavanceerde instellingen - ga naar Postvak IN om handmatig de juiste e-mailservergegevens toe te voegen -screenshot][img4]
+U kunt uw huidige e-mailaccount ontkoppelen en eventueel vervangen door opnieuw te koppelen.
 
-## E-mailconfiguratie wijzigen in SuperOffice Postvak IN
+1. Klik op <i class="ph ph-user-circle" aria-label="Persoonlijke instellingen"></i> in de bovenste balk en kies **E-mailopties**.
 
-1. Als u uw gekoppelde e-mailaccount wilt bewerken of verwijderen, klikt u op uw profielpictogram in de rechterbovenhoek en kiest u **E-mailopties**.
+1. Ga naar het tabblad **E-mailaccount**.
 
-    ![E-mailopties -screenshot][img5]
+    ![Tabblad E-mailaccount met knop Bewerken/verwijderen -screenshot][img6]
 
-1. Selecteer het tabblad **E-mailaccount** en druk op de knop **Bewerken/verwijderen**.
+1. Klik op **Bewerken/verwijderen** om het huidige e-mailaccount te ontkoppelen.
 
-    ![E-mailopties -screenshot][img6]
+    * Dit opent hetzelfde dialoogvenster als bij het eerste instellen van uw account.
+    * Sluit het venster om de koppeling te verwijderen.
+    * Voer een nieuw e-mailadres in en volg de stappen om opnieuw te koppelen.
 
-## Waarom wordt de e-maillijst niet bijgewerkt?
+> [!NOTE]
+> Het verwijderen van het e-mailaccount verwijdert **niet** uw eigenlijke e-mailaccount (zoals Gmail of Outlook). Het verbreekt alleen de koppeling met SuperOffice.
 
-Sommige e-mailproviders, zoals Gmail, zullen pogingen tot aanmelding vanuit onbekende apps blokkeren. Controleer uw Postvak IN om te zien of uw e-mailprovider informatie naar u heeft verzonden over een onbevoegde aanmeldingspoging. Volg de instructies in de e-mail om SuperOffice toegang te geven tot uw account.
+## Tips voor probleemoplossing
+
+* SuperOffice Postvak IN ondersteunt **geen POP3**-accounts. Alleen IMAP wordt ondersteund.
+
+* Als het postvak niet wordt bijgewerkt, blokkeert uw e-mailprovider mogelijk de verbinding.
+  * Controleer uw e-mailaccount op berichten over een geblokkeerde of ongeautoriseerde aanmeldpoging.
+  * Volg de instructies om SuperOffice toegang te geven tot uw account.
+
+* **Gmail-gebruikers:** Sinds januari 2025 is IMAP standaard permanent ingeschakeld. Als u wordt gevraagd om een wachtwoord, gebruik dan een **app-wachtwoord** in plaats van uw gewone Gmail-wachtwoord.
 
 > [!TIP]
-> Als u toegang wilt tot de e-mailopties, gaat u naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **E-mailopties**.
+> Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **E-mailopties** > tabblad **Algemeen** om de lay-out, het lettertype of gedrag van berichten aan te passen.
+
+## Gerelateerde inhoud
+
+* [IMAP inschakelen op een Office 365-account][11] - FAQ
+* [Een Google app-wachtwoord genereren voor gebruik met SuperOffice Postvak IN][12] - FAQ
+* [Standaard e-mailclient wijzigen in SuperOffice][8]
 
 <!-- Referenced links -->
+[1]: ../../../contact/learn/index.md
+[8]: ../../learn/change-default-mail-client.md
+[9]: ../../../webtools/learn/index.md
+[11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
+[12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
-[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+[img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
-[img5]: ../../../../media/loc/en/email/email-options-general.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png

@@ -4,8 +4,8 @@ title: Microsoft 365-integratie als jouw oplossing
 description: Hoe je je Microsoft 365 e-mailaccount, documenten en agenda verbindt met SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, e-mail, document, agenda, uitnodigingen
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ Met Microsoft 365 als jouw oplossing zijn er verschillende manieren om je e-mail
 
 Kies een van de volgende opties:
 
-* [SuperOffice Inbox][1] (standaard). [Bekijk deze video om aan de slag te gaan][10].
+* [SuperOffice Inbox][1] (standaard).
 
 * [!include[SuperOffice voor Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -46,4 +46,3 @@ Kies een van de volgende opties:
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
 [3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

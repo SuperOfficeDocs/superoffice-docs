@@ -21,7 +21,7 @@ De functie Postvak IN in SuperOffice CRM hangt af van de client van SuperOffice 
 
 * [SuperOffice Postvak IN][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] - SuperOffice Mail Link (integratie met Outlook en Notes)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (integratie met Outlook)
 
 ## Een e-mail verzenden
 

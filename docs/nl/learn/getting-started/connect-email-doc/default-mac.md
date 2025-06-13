@@ -4,8 +4,8 @@ title: SuperOffice als jouw oplossing (macOS)
 description: Hoe je je e-mailaccount, documenten en agenda verbindt met SuperOffice op macOS.
 keywords: e-mail, document, agenda, uitnodigingen, mac
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -25,7 +25,7 @@ Dit is de standaardmanier om je e-mailaccount, documenten en agenda te verbinden
 
 Kies een van de volgende opties:
 
-* [SuperOffice Inbox][1] (standaard). [Bekijk deze video om aan de slag te gaan][10].
+* [SuperOffice Inbox][1] (standaard).
 
 * [!include[SuperOffice voor Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -50,4 +50,3 @@ Kies een van de volgende opties:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install-mac.md
 [9]: default-win.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A
