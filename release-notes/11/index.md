@@ -4,9 +4,11 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests
 author: SuperOffice AS – Product and Engineering
-date: 06.09.2025
+date: 06.17.2025
 version: 11
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # What's new in SuperOffice 11
@@ -19,50 +21,38 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
-## Details of new features
+## Feature updates
 
-Check out our **Product release** overview for more details in our [Community][30].
+* 11.2 (17.06.2025):
+  * [Selection - Board view for sales][4] in Core CRM and Sales
+  * [Request - Reply tools in Request properties][5] in Service
+  * [Request - Pin request lists to the tab bar][5] in Service
+  * [Request - Show all linked contacts][5] in Service
 
-### SuperOffice CRM
-
-* 11.1 (06.09.2025):
+* 11.1 (09.06.2025):
   * [System design - Setting a field as read-only][1] in Settings and maintenance
   * [Request - Search will give same result as in navigator search][3] in Service
 
-### Mobile CRM
+## Pilot programs
 
-* [Version 11.1][15] (06.10.2025)
+Some features are available to selected customers as part of ongoing pilots. See the [pilot program overview][17] for more details.
 
-## Product integrations - Details of new features
+## Related content
 
-### Office integrations
-
-* [See Integrations][13]
-
-### SuperOffice App Store
-
-Check out the overview for of the [App Store][34] and all the [new or updated apps][35]
-
-### Developer Portal
-
-* 2.2 (07.05.2025):
-  * Introducing the [Publish Status widget][20], which shows all pending requests to publish app configurations, partner profiles, and App Store information.
-
-## User guides
-
-* [See main overview][17] in Release notes
-
-## Ongoing pilot programs
-
-* [See main overview][17] (available from 10.3.4 - 09.04.2024)
+* [Mobile CRM version 11.1][15] (10.06.2025)
+* [Product integrations release overview][13]
+* [SuperOffice App Store][34]
+* [New or updated App Store apps][35]
+* [Release notes in the Community][30]
 
 <!-- Referenced links -->
 [1]: admin/11.1-update.md
 [3]: service/11.1-update.md
+[4]: core-crm/11.2-update.md
+[5]: service/11.2-update.md
 [13]: ../integrations/index.md
 [15]: ../mobile/index.md
 [17]: ../index.md
-[20]: ../../docs/en/developer-portal/widgets/index.md#publish-status
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
