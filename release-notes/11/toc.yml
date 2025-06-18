@@ -30,7 +30,7 @@ items:
   href: api/index.md
   items:
   - name: 11.1 update
-    href: api/11.1-update.md
+    href: api/11.1/11.1-update.md
     items:
     - name: Continuous Database Changes
       href: api/11.1/11.1-cdd-update.md
@@ -38,3 +38,5 @@ items:
       href: api/11.1/11.1-core-update.md
     - name: NetServer Services Changes
       href: api/11.1/11.1-services-update.md
+    - name: SuperOffice.WebApi
+      href: api/11.1/11.1-webapi-update.md
