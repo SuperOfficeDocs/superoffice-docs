@@ -5,7 +5,7 @@ items:
   href: 11.1.0-update.md
 - name: 11.0.3
   href: 11.0.3-update.md
-- name: Release 10.2
+- name: Version 10.2
   topicHref: 10.2.19-update.md
   items:
   - name: 10.2.19
@@ -26,7 +26,7 @@ items:
     href: 10.2.7-update.md
   - name: 10.2.2
     href: 10.2.2-update.md
-- name: Release 10.0 - 10.1
+- name: Version 10.1
   topicHref: 10.1.9-update.md
   items:
   - name: 10.1.9
@@ -39,6 +39,9 @@ items:
     href: 10.1.5-update.md
   - name: 10.1.4
     href: 10.1.4-update.md
+- name: Version 10.0
+  topicHref: 10.0.9-update.md
+  items:
   - name: 10.0.9
     href: 10.0.9-update.md
   - name: 10.0.7

@@ -1,7 +1,7 @@
 ---
-uid: news-integrations
-title: What's new in SuperOffice Integrations
-description: Release notes. What's new in SuperOffice Integrations
+uid: release-notes-integrations
+title: Product integration updates
+description: Release notes. What's new in SuperOffice integrations
 keywords: integration, app
 author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
@@ -10,7 +10,7 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# What's new for Product integrations - Details of new features
+# Product integration updates
 
 ## Office integrations
 

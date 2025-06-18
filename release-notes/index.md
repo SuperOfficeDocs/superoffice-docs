@@ -15,44 +15,38 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 11.2**][11] - 17.09.2025.
+The latest release is [**version 11.2**][11] - 17.06.2025.
 
-* [Version 11][11]
-* Version 10
-  * [10.5][9]
-  * [10.3][8]
-  * [10.2][6]
-  * [10.1][5]
-  * [10.0][4]
-* Version 9
-  * [9.2][1]
-  * [9.1][2]
-* Version 8
-  * [8.5][3]
+Recent versions:
+
+* [11.1][11]
+* [10.5][9]
+* [10.3][8]
+
+Older versions are listed in the table of contents.
 
 ## Mobile CRM versions
 
 The latest release is [**version 11.1.0**][7] - 10.06.2025.
 
-* [Version 11.1][7]
-* [Version 11.0][7]
-* [Version 10.0 - 10.3][7]
+## Product integrations
 
-## Integrations
+Different integration components are released on separate schedules. See the [integration release overview][12] for the latest versions.
 
-There is different releases for integrations, se the overview.
+## Developer Portal
 
-* [Integrations][12]
+* 2.3 (11.06.2025): Bug fixing release
 
-## Other highlights
+* 2.2 (07.05.2025):
+  * Introducing the [Publish Status widget][18], which shows all pending requests to publish app configurations, partner profiles, and App Store information.
 
-### User guides
+## User guides
 
-* User guide for [SuperOffice version 11][15] in Docs - available in six languages
-* User guide for [SuperOffice for Outlook][13] in Docs - available in six languages
-* User guide for [SuperOffice Mobile CRM][14] in Docs - English only
+* [SuperOffice version 11 user guide][15] (available in six languages)
+* [SuperOffice for Outlook user guide][13] (available in six languages)
+* [SuperOffice Mobile CRM user guide][14] (English only)
 
-### Ongoing pilot programs
+## Ongoing pilot programs
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
@@ -79,12 +73,6 @@ We use **pilot programs** to assess how well the features and functions meet our
     ![filter toc -screenshot][img3]
 
 <!-- Referenced links-->
-[1]: 9.2/index.md
-[2]: 9.1/index.md
-[3]: 8.5/index.md
-[4]: 10.0/index.md
-[5]: 10.1/index.md
-[6]: 10.2/index.md
 [7]: mobile/index.md
 [8]: 10.3/index.md
 [9]: 10.5/index.md
@@ -93,6 +81,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [13]: ../docs/en/email/superoffice-for-outlook/learn/index.md
 [14]: ../docs/en/mobile/superoffice-mobile/index.md
 [15]: ../docs/en/learn/index.yml
+[18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 
