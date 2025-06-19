@@ -4,7 +4,7 @@ title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
 author: Bergfrid Dias
-date: 03.11.2025
+date: 06.19.2025
 version: 10.5.3
 topic: concept
 license: serviceessentials
@@ -22,13 +22,6 @@ Vores ticket-system giver dig mulighed for effektivt at håndtere indgående sag
 Hver forespørgsel eller henvendelse defineres som en sag. Disse kan spænde fra supportproblemer og produktspørgsmål til fakturaforespørgsler. Når en sag oprettes, skal den håndteres hurtigt og effektivt med professionel kundeservice.
 
 ![Sag med liste over ikke fordelte sager med forhåndsvisning -screenshot][img1]
-
-Ny i sagsstyring i SuperOffice? Start med denne korte produktgennemgang for at få en introduktion til, hvad du kan forvente:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
-
-(Videolængde - 2:52)
 
 ## <a id="open"></a>Hvor kan jeg få adgang til sager?
 
