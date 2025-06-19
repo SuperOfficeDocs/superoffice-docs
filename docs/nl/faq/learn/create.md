@@ -6,6 +6,8 @@ keywords: Veelgestelde vragen
 author: Bergfrid Dias
 date: 03.14.2025
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -17,12 +19,6 @@ Door items in Veelgestelde vragen te maken, kan uw organisatie een uitgebreide v
 
 * Een gebruiker kan een item in Veelgestelde vragen maken op basis van communicatie met een klant in het scherm Verzoeken.
 * Een beheerder maakt een item in Veelgestelde vragen rechtstreeks in **Kennisdatabase** > **Veelgestelde vragen**.
-
-Bekijk deze video en ontdek hoe u veelgestelde vragen kunt maken en publiceren in het klantportaal of volg de stapsgewijze handleiding hieronder (videolengte - 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*Veelgestelde vragen maken en publiceren - Deze video is gemaakt voor versie 8, dus de how-to's kunnen enigszins verschillen van hoe het er vandaag uitziet, maar u zult begrijpen hoe u dezelfde stappen kunt uitvoeren in de versie van vandaag.*
 
 ## Eisen
 

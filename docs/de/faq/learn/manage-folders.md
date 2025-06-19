@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Ordner
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

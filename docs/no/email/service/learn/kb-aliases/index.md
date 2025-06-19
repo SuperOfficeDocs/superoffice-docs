@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.16.2023
 keywords: sak
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -14,6 +16,9 @@ language: no
 # Arbeide med e-postadresser
 
 Du kan opprette en liste over e-postadresser du bruker ofte, men som ikke er registrert på brukere eller personer i SuperOffice Service. For eksempel leverandører, partnere eller produktspesialister. Disse adressene er tilgjengelige de fleste steder der du sender e-post, for eksempel i skjermbildene **Ny sak** og **Legg til melding**.
+
+> [!NOTE]
+> Denne funksjonen krever brukerplanen Service-Premium.
 
 ## Oppgi e-postadresser
 

@@ -7,6 +7,8 @@ author: Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -17,6 +19,9 @@ language: no
 Du kan legge til dokumenter (inkludert bilder og andre filer) for å gjøre dem tilgjengelige for alle som bruker SuperOffice CRM, inkludert uregistrerte kunder. Dokumenter som du laster opp til kunnskapsbasen, er tilgjengelige når du skriver inn innhold i en melding som skal sendes til en kunde.
 
 Dette gjelder f.eks. når du bruker fanen **Melding** i forbindelse med [saksbehandling][1]. Her kan du skrive inn tekst på samme måte som i et tekstbehandlingsprogram. Du kan også sette inn bilder ved å klikke på **Bilde**-knappen på verktøylinjen, men da må bildet allerede ha vært lastet opp til **Eksterne dokumenter**. Når meldingen sendes, vil det genereres koblinger til filer under **Eksterne dokumenter**. Det samme gjelder f.eks. når du lager svarmaler og SuperOffice Markedsføring-meldinger.
+
+> [!NOTE]
+> Denne funksjonen krever brukerplanen Service-Premium.
 
 ## Vis dokument
 

@@ -7,6 +7,8 @@ author: Kirsti Aakerholt, Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
@@ -17,6 +19,9 @@ language: en
 You can add files to make them available to anyone using SuperOffice CRM, including unregistered customers. Files you upload to the knowledge base are available when you answer customer requests and create mailings.
 
 For example, when [answering requests][1], you can enter text in the **Message** tab the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
+
+> [!NOTE]
+> This feature requires the Service-Premium user plan.
 
 ## View file
 

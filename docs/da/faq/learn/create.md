@@ -6,6 +6,8 @@ keywords: FAQ
 author: Bergfrid Dias
 date: 02.25.2025
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -17,12 +19,6 @@ Ved at oprette FAQ-poster kan organisationen opbygge en omfattende samling spør
 
 * En sagsbehandler tager initiativ til, at der oprettes en FAQ-post baseret på kommunikation med en kunde i skærmbilledet Sager.
 * En administrator kan oprette en FAQ-post direkte i **Vidensbase** > **FAQ**.
-
-Se denne video, og find ud af, hvordan du opretter og udgiver ofte stillede spørgsmål i kundecenteret, eller følg den trinvise vejledning nedenfor (videoens længde - 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*Sådan opretter og udgiver du en FAQ - Denne video er oprettet til version 8, så vejledningerne kan afvige lidt fra, hvordan den ser ud i dag, men du vil forstå, hvordan du gør de samme trin i dagens version.*
 
 ## Krav
 

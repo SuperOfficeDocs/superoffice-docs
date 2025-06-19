@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: FAQ
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -17,12 +19,6 @@ Durch die Erstellung von FAQ-Einträgen kann Ihre Firma eine umfassende Sammlung
 
 * Ein Benutzer kann einen FAQ-Eintrag erstellen, der auf der Kommunikation mit einem Kunden in der Anzeige für die Bearbeitung von Anfragen basiert.
 * Ein Administrator kann einen FAQ-Eintrag direkt in **Wissensdatenbank** > **FAQ** erstellen.
-
-Sehen Sie sich dieses Video an und lernen Sie, wie Sie FAQs im Kundenzentrum erstellen und veröffentlichen können, oder folgen Sie der folgenden Schritt-für-Schritt-Anleitung (Videolänge - 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*Wie man eine FAQ erstellt und veröffentlicht - Dieses Video wurde für Version 8 erstellt, daher können die Anleitungen leicht von der heutigen Version abweichen. Sie werden trotzdem verstehen, wie Sie die gleichen Schritte in der heutigen Version ausführen können.*
 
 ## Anforderungen
 

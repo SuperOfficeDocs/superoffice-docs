@@ -7,6 +7,8 @@ author: Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -17,6 +19,9 @@ language: de
 Sie können Dokumente hinzufügen (einschließlich Bilder und anderen Dateien), damit diese für alle Personen (einschließlich nicht registrierten Kunden) verfügbar sind, die SuperOffice CRM verwenden. Die von Ihnen in der Wissensdatenbank hochgeladenen Dokumente sind verfügbar, wenn Sie Nachrichten an einen Kunden senden.
 
 Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei der [Beantwortung von Anfragen][1] einsetzen. Hier können Sie wie bei der Eingabe von Text in einem Textverarbeitungsprogramm vorgehen. Außerdem können Sie Bilder einfügen, indem Sie auf der Symbolleiste auf die Schaltfläche **Bild** klicken. Dafür muss das Bild aber vorher in **Externe Dokumente** hochgeladen worden sein. Beim Senden der Nachricht werden Verknüpfungen zu den Dateien unter **Externe Dokumente** erstellt. Dies ist zum Beispiel auch der Fall, wenn Sie eine Antwortvorlage und SuperOffice Marketing-Nachrichten erstellen.
+
+> [!NOTE]
+> Diese Funktion erfordert den Benutzerplan Service-Premium.
 
 ## Dokument anzeigen
 

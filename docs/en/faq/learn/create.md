@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: FAQ
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
@@ -17,12 +19,6 @@ By creating FAQ entries, your organization can build up a comprehensive collecti
 
 * A user can create an FAQ entry, based on communication with a customer in the Requests screen.
 * An administrator can create an FAQ entry directly in **Knowledge base** > **FAQ**.
-
-Watch this video and find out how to create and publish FAQs in the Customer Centre or follow the step-by-step guide below (video length - 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*How to create and publish a FAQ - This video is created for Version 8, so the how-tos might differ slightly from how it looks today, but you will understand how to do the same steps in todays version.*
 
 ## Requirements
 

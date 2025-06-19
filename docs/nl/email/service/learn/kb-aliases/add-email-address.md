@@ -6,6 +6,8 @@ keywords: verzoek, postbus
 author: SuperOffice RnD
 date: 06.29.2022
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
