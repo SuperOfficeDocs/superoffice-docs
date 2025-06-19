@@ -6,6 +6,8 @@ keywords: Veelgestelde vragen
 author: Bergfrid Dias
 date: 03.14.2025
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

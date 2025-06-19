@@ -6,6 +6,8 @@ keywords: FAQ
 author: Bergfrid Dias
 date: 02.25.2025
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -17,12 +19,6 @@ Genom att skapa FAQ-poster kan ditt företag bygga upp en omfattande samling fr�
 
 * En användare kan skapa en FAQ-post baserat på kommunikation med en kund i ärendefönstret.
 * En administratör kan skapa en FAQ-post direkt i **Kunskapsbas** > **FAQ**.
-
-Titta på den här filmen eller följ anvisningarna nedan om du vill skapa och publicera FAQ-artiklar i kundcentret (filmens längd: 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*Så skapar och publicerar du en FAQ. Den här filmen är skapad för version 8\. Instruktionerna kan därför skilja sig något från hur det ser ut idag, men du kommer att förstå hur du gör samma sak i dagens version.*
 
 ## Krav
 

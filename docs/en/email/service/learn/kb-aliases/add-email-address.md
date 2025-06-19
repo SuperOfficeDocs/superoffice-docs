@@ -6,6 +6,8 @@ author: SuperOffice RnD
 date: 06.29.2022
 keywords: request, mailbox
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

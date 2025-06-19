@@ -6,6 +6,8 @@ author: SuperOffice RnD
 date: 06.29.2022
 keywords: Anfrage, Postfach
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

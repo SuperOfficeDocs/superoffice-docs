@@ -6,6 +6,8 @@ author: SuperOffice RnD
 date: 03.16.2023
 keywords: Anfrage
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

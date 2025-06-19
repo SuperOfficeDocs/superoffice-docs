@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: FAQ
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

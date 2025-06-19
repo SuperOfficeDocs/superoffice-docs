@@ -6,6 +6,8 @@ keywords: ärende
 author: Bergfrid Dias
 date: 02.25.2025
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -14,6 +16,9 @@ language: sv
 # Arbeta med e-postadresser
 
 Du kan skapa en lista över e-postadresser som du använder ofta men som inte är registrerade för användare eller kontakter i SuperOffice Service. Till exempel leverantörer, partner eller produktspecialister. Dessa adresser blir tillgängliga på de flesta ställen där du skickar e-post, till exempel i fönstren **Nytt ärende** och **Lägg till meddelande**.
+
+> [!NOTE]
+> Den här funktionen kräver användarlicensen Service-Premium.
 
 ## Lista med e-postadresser
 

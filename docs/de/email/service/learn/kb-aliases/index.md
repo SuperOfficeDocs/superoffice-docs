@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.16.2023
 keywords: Anfrage
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -14,6 +16,9 @@ language: de
 # Mit E-Mail-Adressen arbeiten
 
 Sie können eine Liste mit E-Mail-Adressen erstellen, die Sie häufig verwenden, die aber für Benutzer oder Personen in SuperOffice Service nicht erfasst wurden. Zum Beispiel Lieferanten, Partnern oder Produktspezialisten. Diese Adressen sind in den meisten Situationen verfügbar, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**.
+
+> [!NOTE]
+> Diese Funktion erfordert den Benutzerplan Service-Premium.
 
 ## Liste der E-Mail-Adressen
 

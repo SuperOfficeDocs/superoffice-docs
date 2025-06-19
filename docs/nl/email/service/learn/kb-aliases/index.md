@@ -6,6 +6,8 @@ keywords: verzoek
 author: Bergfrid Dias
 date: 03.16.2023
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -14,6 +16,9 @@ language: nl
 # Werken met e-mailadressen
 
 U kunt een lijst maken met e-mailadressen die u vaak gebruikt, maar die niet in SuperOffice Service voor gebruikers of personen zijn geregistreerd. Bijvoorbeeld leveranciers, partners of productspecialisten. Deze adressen zijn toegankelijk op de meeste plaatsen waar u e-mails verzendt, zoals in de schermen **Nieuw verzoek** en **Bericht toevoegen**.
+
+> [!NOTE]
+> Deze functie vereist de gebruikerslicentie Service-Premium.
 
 ## E-mailadressen weergeven
 

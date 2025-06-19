@@ -7,6 +7,8 @@ author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -17,6 +19,9 @@ language: sv
 Du kan du lägga till dokument (inkl. bilder och andra filer) så att de blir tillgängliga för alla som använder SuperOffice Service, även oregistrerade kunder. De dokument som du laddar upp i kunskapsbasen blir tillgängliga när du skriver innehållet i ett meddelande till en kund.
 
 Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på ett ärende][1]. Här kan du skriva text på samma sätt som i ett ordbehandlingsprogram. Du kan även infoga bilder genom att klicka på knappen **Bild** i verktygsfältet men då måste bilden redan vara uppladdad till **Externa dokument**. När meddelandet skickas skapas länkar till filer under **Externa dokument**. Samma sak gäller när du t.ex. skapar svarsmallar och meddelanden i SuperOffice Marketing.
+
+> [!NOTE]
+> Den här funktionen kräver användarlicensen Service-Premium.
 
 ## Visa dokument
 

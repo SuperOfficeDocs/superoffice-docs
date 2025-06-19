@@ -7,6 +7,8 @@ author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -17,6 +19,9 @@ language: da
 Du kan tilføje dokumenter (inklusive billeder og andre filer), der skal være tilgængelige for alle, der bruger SuperOffice CRM, herunder ikke-registrerede kunder. Dokumenter, der uploades til vidensbasen, er tilgængelige, når du indtaster indhold i en meddelelse, der skal sendes til en kunde.
 
 Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sager][1]. Hér kan du indtaste tekst på samme måde som i et tekstbehandlingsprogram. Du kan også tilføje billeder ved at klikke på knappen **Billede** på værktøjslinjen, men i så fald skal billedet først være uploadet til **Eksterne dokumenter**. Når meddelelsen sendes, genereres der links til filer, der ligger under **Eksterne dokumenter**. Det samme gælder, f.eks. når du opretter svarskabeloner og SuperOffice Marketing-meddelelser.
+
+> [!NOTE]
+> Denne funktion kræver brugerplanen Service-Premium.
 
 ## Vis dokument
 

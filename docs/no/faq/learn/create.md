@@ -6,6 +6,8 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: FAQ
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -17,12 +19,6 @@ Ved å opprette FAQ-oppføringer kan organisasjonen bygge opp en omfattende saml
 
 * En bruker kan opprette en oppføring i FAQ, basert på kommunikasjon med en kunde i skjermbildet Saker.
 * En administrator kan opprette en FAQ-oppføring direkte i **kunnskapsbasen** > **FAQ**.
-
-Se denne videoen og finn ut hvordan du oppretter og publiserer FAQ-oppføringer i kundesenteret eller følg trinn-for-trinn-veiledningen nedenfor (videolengde - 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/TLOukelJp54]
-*Slik oppretter og publiserer du en FAQ - Denne videoen er laget for versjon 8, så veiledningen kan avvike litt fra hvordan den ser ut i dag, men du vil forstå hvordan du gjør de samme trinnene i dagens versjon.*
 
 ## Krav
 

@@ -6,6 +6,8 @@ keywords: sag
 author: Bergfrid Dias
 date: 03.16.2023
 topic: concept
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -14,6 +16,9 @@ language: da
 # Arbejde med e-mailadresser
 
 Du kan oprette en liste over e-mail-adresser, som du ofte har brug for, men som ikke er registreret på sagsbehandlere eller personer i SuperOffice Service. Dette kan for eksempel være underleverandører, samarbejdspartnere og produktspecialister. Disse adresser er tilgængelige de fleste steder, du har behov for at sende e-mails, f.eks. i skærmbillederne **Ny sag** og **Tilføj meddelelse**.
+
+> [!NOTE]
+> Denne funktion kræver brugerplanen Service-Premium.
 
 ## E-mailadresser
 

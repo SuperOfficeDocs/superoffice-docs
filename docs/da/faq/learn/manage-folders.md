@@ -6,6 +6,8 @@ keywords: FAQ, mappe
 author: Bergfrid Dias
 date: 02.25.2025
 topic: howto
+license: servicepremium
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
