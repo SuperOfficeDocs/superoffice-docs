@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-add-contact
 title: Kontakt zu SuperOffice hinzufügen
 description: Kontakt zu SuperOffice hinzufügen
-keywords: SuperOffice für Outlook, Outlook, E-Mail, Kontakt hinzufügen
+keywords: SuperOffice für Outlook, Outlook, E-Mail, Kontakt hinzufügen, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

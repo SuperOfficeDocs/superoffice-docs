@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-create-request
 title: Tilføj sag eller meddelelse
 description: Tilføj sag eller meddelelse
-keywords: SuperOffice for Outlook, Outlook, e-mail, tilføj sag, tilføj meddelelse
+keywords: SuperOffice for Outlook, Outlook, e-mail, tilføj sag, tilføj meddelelse, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 02.25.2025
 version_sofo: 2024.8.12

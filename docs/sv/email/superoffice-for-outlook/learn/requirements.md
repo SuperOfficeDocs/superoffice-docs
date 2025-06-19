@@ -2,7 +2,7 @@
 uid: help-sv-superoffice-for-outlook-requirements
 title: Krav
 description: Krav och begränsningar ved SuperOffice for Outlook tillägget
-keywords: SuperOffice for Outlook, Outlook, e-post
+keywords: SuperOffice for Outlook, Outlook, e-post, SOFO
 author: Frode B, Martin Pavlas
 date: 01.27.2025
 version_sofo: 2024.8.12

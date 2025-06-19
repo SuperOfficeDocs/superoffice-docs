@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-add-crm-data-to-event
 title: CRM-Daten zu Outlook-Ereignis hinzufügen
 description: CRM-Daten zu Outlook-Ereignis hinzufügen
-keywords: SuperOffice für Outlook, Outlook, E-Mail, Ereignis, Kalender, CRM-Daten
+keywords: SuperOffice für Outlook, Outlook, E-Mail, Ereignis, Kalender, CRM-Daten, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

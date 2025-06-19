@@ -2,7 +2,7 @@
 uid: help-en-email-outlook-create-sale
 title: Create sale
 description: Create sale
-keywords: SuperOffice for Outlook, Outlook, email, create sale
+keywords: SuperOffice for Outlook, Outlook, email, create sale, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

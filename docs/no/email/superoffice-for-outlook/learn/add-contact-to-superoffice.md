@@ -2,7 +2,7 @@
 uid: help-no-email-outlook-add-contact
 title: Legg til kontakt i SuperOffice
 description: Legg til kontakt i SuperOffice
-keywords: SuperOffice for Outlook, Outlook, e-post, legg til kontakt
+keywords: SuperOffice for Outlook, Outlook, e-post, legg til kontakt, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-sv-email-outlook-get
 title: Hämta tillägget
 description: Hämta SuperOffice for Outlook för ditt konto (1 anvendare).
-keywords: SuperOffice for Outlook, Outlook, e-post, hämta tillägg
+keywords: SuperOffice for Outlook, Outlook, e-post, hämta tillägg, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

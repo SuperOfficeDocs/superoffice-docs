@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-save-to-superoffice
 title: Speichern in SuperOffice
 description: Speichern in SuperOffice
-keywords: SuperOffice für Outlook, Outlook, E-Mail archivieren, E-Mail, speichern in SuperOffice, senden und archivieren, Anhänge speichern
+keywords: SuperOffice für Outlook, Outlook, E-Mail archivieren, E-Mail, speichern in SuperOffice, senden und archivieren, Anhänge speichern, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

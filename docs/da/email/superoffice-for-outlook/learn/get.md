@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-get
 title: Hent tilføjelsesprogrammet
 description: Hvordan installere SuperOffice for Outlook til din konto (1 bruger).
-keywords: SuperOffice for Outlook, Outlook, e-mail, hent tilføjelsesprogram
+keywords: SuperOffice for Outlook, Outlook, e-mail, hent tilføjelsesprogram, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

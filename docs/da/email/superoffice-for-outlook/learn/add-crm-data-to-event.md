@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-add-crm-data-to-event
 title: Tilføj CRM-data til Outlook-begivenhed
 description: Tilføj CRM-data til Outlook-begivenhed
-keywords: SuperOffice for Outlook, Outlook, email, begivenhed, kalendar, CRM-data
+keywords: SuperOffice for Outlook, Outlook, email, begivenhed, kalendar, CRM-data, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

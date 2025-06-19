@@ -2,7 +2,7 @@
 uid: help-no-email-outlook
 title: SuperOffice for Outlook
 description: Med SuperOffice for Outlook-tillegget kan du arbeide uanstrengt mellom Microsoft 365 og SuperOffice CRM-løsningen ved å gi deg tilgang til viktig informasjon og funksjoner fra SuperOffice direkte i e-posten.
-keywords: e-post, epost, SuperOffice for Outlook, Outlook, Outlook-tillegg
+keywords: e-post, epost, SuperOffice for Outlook, Outlook, Outlook-tillegg, SOFO
 author: Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# SuperOffice for Outlook
+# SuperOffice for Outlook (SOFO)
 
 [Se i SuperOffice App Store][11]
 

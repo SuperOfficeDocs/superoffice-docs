@@ -2,7 +2,7 @@
 uid: help-nl-email-outlook-add-crm-data-to-event
 title: CRM-gegevens toevoegen aan Outlook-evenement
 description: CRM-gegevens toevoegen aan Outlook-evenement
-keywords: SuperOffice voor Outlook, Outlook, e-mail, evenement, agenda, CRM-gegevens
+keywords: SuperOffice voor Outlook, Outlook, e-mail, evenement, agenda, CRM-gegevens, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-create-follow-up
 title: Opret opfølgning
 description: Opret opfølgning
-keywords: SuperOffice for Outlook, Outlook, e-mail, opret aftale, opret opgave, opfølgning
+keywords: SuperOffice for Outlook, Outlook, e-mail, opret aftale, opret opgave, opfølgning, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
