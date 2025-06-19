@@ -2,7 +2,7 @@
 uid: help-sv-email-outlook-add-crm-data-to-event
 title: Lägg till CRM-data i Outlook-händelse
 description: Lägg till CRM-data i Outlook-händelse
-keywords: SuperOffice for Outlook, Outlook, e-post, händelse, kalender, CRM data
+keywords: SuperOffice for Outlook, Outlook, e-post, händelse, kalender, CRM data, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

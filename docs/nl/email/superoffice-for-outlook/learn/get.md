@@ -2,7 +2,7 @@
 uid: help-nl-email-outlook-get
 title: Invoegtoepassing ophalen
 description: Hoe te SuperOffice voor Outlook voor invoegtoepassing ophalen uw account (1 gebruiker).
-keywords: SuperOffice voor Outlook, Outlook, e-mail, invoegtoepassing ophalen
+keywords: SuperOffice voor Outlook, Outlook, e-mail, invoegtoepassing ophalen, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

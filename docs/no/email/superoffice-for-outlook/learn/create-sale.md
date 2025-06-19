@@ -2,7 +2,7 @@
 uid: help-no-email-outlook-create-sale
 title: Opprett salg
 description: Opprett salg
-keywords: SuperOffice for Outlook, Outlook, e-post, opprett salg
+keywords: SuperOffice for Outlook, Outlook, e-post, opprett salg, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

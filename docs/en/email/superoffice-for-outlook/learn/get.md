@@ -2,7 +2,7 @@
 uid: help-en-email-outlook-get
 title: Get the add-in
 description: How to install SuperOffice for Outlook for your account (1 user).
-keywords: SuperOffice for Outlook, Outlook, email, get add-in
+keywords: SuperOffice for Outlook, Outlook, email, get add-in, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

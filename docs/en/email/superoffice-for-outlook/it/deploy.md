@@ -2,7 +2,7 @@
 uid: superoffice-for-outlook-deploy
 title: Centralized deployment
 description: How to deploy SuperOffice for Outlook through the Microsoft 365 Admin Center or PowerShell.
-keywords: SuperOffice for Outlook, Outlook, email, deploy, add-in, PowerShell, Microsoft 365 Admin Center.
+keywords: SuperOffice for Outlook, Outlook, email, deploy, add-in, PowerShell, Microsoft 365 Admin Center, SOFO
 author: Frode B, Martin Pavlas
 date: 03.14.2025
 version_sofo: 2024.8.12

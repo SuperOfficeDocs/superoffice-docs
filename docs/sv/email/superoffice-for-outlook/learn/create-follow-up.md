@@ -2,7 +2,7 @@
 uid: help-sv-email-outlook-create-follow-up
 title: Skapa händelse
 description: Skapa händelse
-keywords: SuperOffice for Outlook, Outlook, e-post, skapa möte, skapa uppgift, händelse
+keywords: SuperOffice for Outlook, Outlook, e-post, skapa möte, skapa uppgift, händelse, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

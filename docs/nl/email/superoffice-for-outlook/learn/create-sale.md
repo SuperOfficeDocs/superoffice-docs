@@ -2,7 +2,7 @@
 uid: help-nl-email-outlook-create-sale
 title: Verkoop aanmaken
 description: Verkoop aanmaken
-keywords: SuperOffice voor Outlook, Outlook, e-mail, verkoop aanmaken
+keywords: SuperOffice voor Outlook, Outlook, e-mail, verkoop aanmaken, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

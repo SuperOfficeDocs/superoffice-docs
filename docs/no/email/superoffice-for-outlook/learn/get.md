@@ -2,7 +2,7 @@
 uid: help-no-email-outlook-get
 title: Hent SuperOffice for Outlook-tillegget
 description: Hvordan installere SuperOffice for Outlook for din konto (1 bruker).
-keywords: SuperOffice for Outlook, Outlook, e-post, installer tillegg
+keywords: SuperOffice for Outlook, Outlook, e-post, installer tillegg, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

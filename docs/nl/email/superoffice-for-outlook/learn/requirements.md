@@ -2,7 +2,7 @@
 uid: help-nl-superoffice-for-outlook-requirements
 title: Vereisten
 description: Vereisten en beperkingen of SuperOffice voor Outlook invoegtoepassing
-keywords: SuperOffice voor Outlook, Outlook, e-mail
+keywords: SuperOffice voor Outlook, Outlook, e-mail, SOFO
 author: Frode B, Martin Pavlas
 date: 01.27.2025
 version_sofo: 2024.8.12

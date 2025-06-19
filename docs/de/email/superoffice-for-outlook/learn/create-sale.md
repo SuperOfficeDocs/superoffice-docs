@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-create-sale
 title: Verkauf erstellen
 description: Verkauf erstellen
-keywords: SuperOffice für Outlook, Outlook, E-Mail, Verkauf erstellen
+keywords: SuperOffice für Outlook, Outlook, E-Mail, Verkauf erstellen, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

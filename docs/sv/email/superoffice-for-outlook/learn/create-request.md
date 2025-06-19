@@ -2,7 +2,7 @@
 uid: help-sv-email-outlook-create-request
 title: Lägg till ärende eller meddelande
 description: Lägg till ärende eller meddelande
-keywords: SuperOffice for Outlook, Outlook, e-post, lägg till ärende, lägg till meddelande
+keywords: SuperOffice for Outlook, Outlook, e-post, lägg till ärende, lägg till meddelande, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 02.25.2025
 version_sofo: 2024.8.12

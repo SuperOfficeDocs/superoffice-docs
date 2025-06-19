@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-get
 title: Add-In herunterladen
 description: So installieren Sie das SuperOffice für Outlook Add-in für Ihr Konto (1 Benutser).
-keywords: SuperOffice for Outlook, Outlook, E-Mail, Add-In herunterladen
+keywords: SuperOffice for Outlook, Outlook, E-Mail, Add-In herunterladen, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-save-to-superoffice
 title: Gem til SuperOffice
 description: Gem til SuperOffice
-keywords: SuperOffice for Outlook, Outlook, arkiver e-mail, e-mail, gem til SuperOffice, send og arkiver, gem vedhæftning
+keywords: SuperOffice for Outlook, Outlook, arkiver e-mail, e-mail, gem til SuperOffice, send og arkiver, gem vedhæftning, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

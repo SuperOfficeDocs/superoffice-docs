@@ -2,7 +2,7 @@
 uid: help-nl-email-outlook
 title: SuperOffice voor Outlook
 description: Met de invoegtoepassing SuperOffice voor Outlook kunt u moeiteloos werken tussen uw Microsoft 365- en SuperOffice CRM-oplossing, door u rechtstreeks in uw e-mail toegang te geven tot belangrijke informatie en functies van SuperOffice.
-keywords: e-mail
+keywords: e-mail, SuperOffice for Outlook, Outlook, SOFO
 author: Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# SuperOffice voor Outlook
+# SuperOffice voor Outlook (SOFO)
 
 [Bekijk in de SuperOffice AppStore][11]
 

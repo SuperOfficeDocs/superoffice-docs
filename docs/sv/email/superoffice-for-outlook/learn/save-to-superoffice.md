@@ -2,7 +2,7 @@
 uid: help-sv-email-outlook-save-to-superoffice
 title: Spara till SuperOffice
 description: Spara till SuperOffice
-keywords: SuperOffice for Outlook, Outlook, arkivera e-post, e-post, spara till SuperOffice, skicka och arkivera, spara bilaga
+keywords: SuperOffice for Outlook, Outlook, arkivera e-post, e-post, spara till SuperOffice, skicka och arkivera, spara bilaga, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-da-email-outlook-create-sale
 title: Opret salg
 description: Opret salg
-keywords: SuperOffice for Outlook, Outlook, e-mail, opret salg
+keywords: SuperOffice for Outlook, Outlook, e-mail, opret salg, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

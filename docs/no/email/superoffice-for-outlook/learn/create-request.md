@@ -2,7 +2,7 @@
 uid: help-no-email-outlook-create-request
 title: Add request or message
 description: Add request or message
-keywords: SuperOffice for Outlook, Outlook, email, create request, add message
+keywords: SuperOffice for Outlook, Outlook, email, create request, add message, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-da-email-outlook
 title: SuperOffice for Outlook
 description: Med tilføjelsesprogrammet SuperOffice for Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
-keywords: e-mail, SuperOffice for Outlook, Outlook
+keywords: e-mail, SuperOffice for Outlook, Outlook, SOFO
 author: Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# SuperOffice for Outlook
+# SuperOffice for Outlook (SOFO)
 
 [Vis i SuperOffice AppStore][11]
 

@@ -2,7 +2,7 @@
 uid: help-en-superoffice-for-outlook-requirements
 title: Requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
-keywords: SuperOffice for Outlook, Outlook, email
+keywords: SuperOffice for Outlook, Outlook, email, SOFO
 author: Frode B, Martin Pavlas
 date: 01.27.2025
 version_sofo: 2024.8.12

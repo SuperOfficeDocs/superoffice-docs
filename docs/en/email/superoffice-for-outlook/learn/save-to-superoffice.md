@@ -2,7 +2,7 @@
 uid: help-en-email-outlook-save-to-superoffice
 title: Save to SuperOffice
 description: Save to SuperOffice
-keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment
+keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

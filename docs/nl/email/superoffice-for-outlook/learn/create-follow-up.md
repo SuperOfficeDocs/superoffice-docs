@@ -2,7 +2,7 @@
 uid: help-nl-email-outlook-create-follow-up
 title: Vervolgactiviteiten maken
 description: Vervolgactiviteiten maken
-keywords: SuperOffice voor Outlook, Outlook, e-mail, afspraak maken, taak maken, vervolgactiviteit
+keywords: SuperOffice voor Outlook, Outlook, e-mail, afspraak maken, taak maken, vervolgactiviteit, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

@@ -2,7 +2,7 @@
 uid: help-de-email-outlook-create-request
 title: Anfrage oder Nachricht hinzufügen
 description: Anfrage oder Nachricht hinzufügen
-keywords: SuperOffice für Outlook, Outlook, E-Mail, Anfrage erstellen, Nachricht hinzufügen
+keywords: SuperOffice für Outlook, Outlook, E-Mail, Anfrage erstellen, Nachricht hinzufügen, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12

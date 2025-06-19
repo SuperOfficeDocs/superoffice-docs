@@ -2,7 +2,7 @@
 uid: help-no-email-outlook-create-follow-up
 title: Opprett oppfølging
 description: Opprett oppfølging
-keywords: SuperOffice for Outlook, Outlook, e-post, oppret avtale, oppret oppgave, oppfølging
+keywords: SuperOffice for Outlook, Outlook, e-post, oppret avtale, oppret oppgave, oppfølging, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
