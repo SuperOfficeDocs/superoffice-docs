@@ -4,7 +4,7 @@ title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, sak, service
 author: Bergfrid Dias
-date: 03.11.2025
+date: 06.19.2025
 version: 10.5.3
 topic: concept
 license: serviceessentials
@@ -22,13 +22,6 @@ Vårt sakssystem lar deg effektivt håndtere innkommende saker og hjelper deg me
 Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttespørsmål og spørsmål om produktet og tjenestene, til spørsmål om fakturaer. Når en sak kommer inn, må du håndtere den så raskt og effektivt som mulig og yte profesjonell kundeservice.
 
 ![Sak med liste over ufordelte saker med forhåndsvisning -screenshot][img1]
-
-Helt ny innen sakshåndtering i SuperOffice? Start med denne korte produktomvisningen for en introduksjon til hva du kan forvente :
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
-
-(videolengde – 2:52)
 
 ## <a id="open"></a>Hvor får jeg tilgang til saker?
 

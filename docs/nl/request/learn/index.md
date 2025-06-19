@@ -4,7 +4,7 @@ title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
 author: Bergfrid Dias
-date: 03.14.2025
+date: 06.19.2025
 version: 10.5.3
 topic: concept
 license: serviceessentials
@@ -22,13 +22,6 @@ Ons ticketsysteem stelt u in staat om binnenkomende verzoeken efficiënt af te h
 Elke vraag en query kan worden gedefinieerd als een verzoek. Deze vragen variëren van ondersteuningsproblemen, vragen over het product en de diensten tot vragen over facturen. Wanneer er een verzoek binnenkomt, wilt u deze zo snel en efficiënt mogelijk afhandelen en een professionele klantenservice bieden.
 
 ![Aanvraag met niet-toegewezen aanvraaglijst met voorbeeld -screenshot][img1]
-
-Nieuw bij verzoekbeheer in SuperOffice? Begin met deze korte producttour om een introductie te krijgen van wat u kunt verwachten:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
-
-(videolengte - 2:52)
 
 ## <a id="open"></a>Waar heb ik toegang tot verzoeken?
 

@@ -4,7 +4,7 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: Bergfrid Dias
-date: 03.11.2025
+date: 06.19.2025
 version: 10.5.3
 topic: concept
 license: serviceessentials
@@ -22,13 +22,6 @@ Unser Ticketing-System ermöglicht Ihnen eine effiziente Bearbeitung eingehender
 Jede Kundenanfrage kann als Anfrage definiert werden. Diese reichen von Supportanfragen über Produkt- und Serviceanfragen bis hin zu Rechnungsanfragen. Ihr Ziel ist es, jede eingehende Anfrage so schnell, effizient und professionell wie möglich zu bearbeiten.
 
 ![Ansicht mit einer Liste nicht zugeordneter Anfragen und Vorschau -screenshot][img1]
-
-Ganz neu im Anfragenmanagement in SuperOffice? Sehen Sie sich diese kurze Produkttour an, um eine Einführung in die Funktionen zu erhalten:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
-
-(Videolänge: 2:52)
 
 ## <a id="open"></a>Wo finde ich Anfragen?
 

@@ -4,7 +4,7 @@ title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
 author: Bergfrid Dias
-date: 03.11.2025
+date: 06.19.2025
 version: 10.5.3
 topic: concept
 license: serviceessentials
@@ -22,13 +22,6 @@ Vårt ärendesystem gör att du effektivt kan hantera inkommande ärenden och le
 Varje fråga eller förfrågan kan registreras som ett ärende. Det kan vara supportfrågor, frågor om produkter och tjänster eller frågor om fakturor. När ett ärende kommer in vill du hantera det så snabbt och effektivt som möjligt för att säkerställa professionell kundservice.
 
 ![Ärende med lista över otilldelade ärenden och förhandsgranskning -screenshot][img1]
-
-Om du är ny inom ärendehantering i SuperOffice kan du börja med denna korta produktgenomgång:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
-
-(videolängd: 2:52)
 
 ## <a id="open"></a>Var hittar jag ärenden?
 
