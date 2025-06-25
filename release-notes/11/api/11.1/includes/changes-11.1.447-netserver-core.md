@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
