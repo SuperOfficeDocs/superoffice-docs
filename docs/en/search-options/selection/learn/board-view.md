@@ -45,7 +45,7 @@ Board view is currently available for **dynamic selections of sales**, and suppo
 
   ![Cursor pointing to the edit button on a sale card -screenshot][img4]
 
-* For more options, point to the card to reveal the **Task** menu <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>, then select it and choose from the available actions.
+* For more options, point to the card to reveal the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), then select it and choose from the available actions.
 
   * **Sales:** Edit, Create follow-up, Mark as sold/lost, Delete
   * **Projects:** Edit, Create follow-up, Create document, Mark as completed, Delete
@@ -70,7 +70,7 @@ To choose which columns appear:
 
     ![Group-by menu showing available sales fields such as Stage and Owner -screenshot][img7]
 
-1. Select the back arrow (<i class="ph ph-caret-left" aria-hidden="true"></i>) to return to the main settings.
+1. Select the back arrow (<i class="ph ph-caret-left" aria-hidden="true"></i>) to return to the settings overview.
 
 1. Optionally, choose a **Subgroup by** value to add swim lanes.
 
@@ -154,8 +154,7 @@ Use grouping and swim lanes creatively to organize and act on data efficiently.
 
 * **Cannot find a filter field:** Open **Settings** (<i class="ph ph-gear-six" aria-hidden="true"></i>) > **Filter toolbar** and enable the field you want to use.
 
-* **Need to edit the selection itself (not a card)?** Click <i class="ph ph-subtract-square" aria-label="Selection icon"></i>
- to return to selection view. Edit and task buttons for the selection are not available in board view.
+* **Need to edit the selection itself (not a card)?** Click <i class="ph ph-subtract-square" aria-label="Selection icon"></i> to return to selection view. Edit and task buttons for the selection are not available in board view.
 
 * **Search the board by name:** Use the **Filter by title** field at the top to narrow down visible cards by name.
 

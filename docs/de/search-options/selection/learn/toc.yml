@@ -11,6 +11,8 @@ items:
   href: add-remove-members-static.md
 - name: Mitglieder in eine andere Selektion kopieren
   href: copy-members-to.md
+- name: Board-Ansicht
+  href: board-view.md
 - name: Aufgaben in der Ansicht Selektion ausführen
   href: howto/toc.yml
   topicHref: howto/index.md
