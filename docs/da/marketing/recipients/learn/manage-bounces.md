@@ -108,12 +108,12 @@ Brug denne indstilling til permanent at slette e-mail-adresser fra databasen.
 2. Vælg **Handlinger** > **Slet valgte e-mail-adresser**.
 3. Klik på **OK** for at bekræfte.
 
-### Fjern markering af returpost
+### Fjern returpostflag
 
 Brug denne indstilling til at fjerne e-mailadresser fra listen, så de kan bruges til udsendelser. Det kan være relevant, hvis returneringerne skyldes forkert konfigurering eller midlertidige tekniske årsager, eller hvis du ved, at e-mailadresserne er korrekte, og gerne vil prøve at sende en gang til.
 
 1. Vælg de e-mailadresser, hvor du vil fjerne markeringer af returpost.
-2. Vælg **Handlinger** > **Fjern markering af returpost**.
+2. Vælg **Handlinger** > **Fjern returpostflag**.
 3. Klik på **OK** for at bekræfte.
 
 ### Angiv som fratrådt
