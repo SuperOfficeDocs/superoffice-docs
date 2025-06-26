@@ -4,8 +4,8 @@ title: Kalender
 description: Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Diese Anleitungen helfen Ihnen, sich im Kalender zurechtzufinden und effizient mit ihm zu arbeiten.
 keywords: Kalender öffnen, Kalenderansicht, Aktivitäten-Registerkarte, Aufgabenliste, To-do-Liste, Folgeaufgabe, Kalender
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -22,7 +22,7 @@ Die Kalenderansicht ist das zentrale Element in SuperOffice CRM zur Verwaltung v
 Der Kalender kombiniert die folgenden Hauptkomponenten:
 
 * **Kalender:** Zeigt Folgeaufgaben, die für bestimmte Tage und Uhrzeiten geplant sind. Ähnelt einem Terminplaner mit separaten Seiten für jeden Tag, jede Woche und jeden Monat.
-* **Aufgabenliste:** Zeigt (nicht abgeschlossene) Aktivitäten ohne bestimmte Uhrzeit, wie Anrufe, Aufgaben oder geplante Verkäufe. Dient als To-do-Liste.
+* **Aufgabenliste:** Zeigt (nicht abgeschlossene) Aktivitäten ohne bestimmte Uhrzeit, wie Aufgaben oder geplante Verkäufe.
 
 Durch die flexiblen Ansichten ermöglicht der Kalender eine nahtlose Zusammenarbeit und erleichtert die Planung von Tagen, Wochen oder Monaten.
 
