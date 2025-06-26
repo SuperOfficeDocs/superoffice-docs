@@ -87,7 +87,7 @@ For å opprette et skjema, gå til **Markedsføring** > **Skjemaer**. For detalj
 
 **Som flytredaktør:**
 
-1. På **Flytinnhold**-fanen, klikk på menyknappen ![ikon][img11] på e-posten du ønsker å oppdatere og velg **Rediger**.
+1. På **Flytinnhold**-fanen, klikk på menyknappen på e-posten du ønsker å oppdatere og velg **Rediger**.
 
 **Som flytadministrator:**
 
@@ -113,4 +113,3 @@ For å opprette et skjema, gå til **Markedsføring** > **Skjemaer**. For detalj
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

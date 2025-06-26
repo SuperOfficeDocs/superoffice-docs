@@ -49,7 +49,7 @@ In het zijpaneel kunt u elementen uit de sectie **Inhoud** naar het bericht slep
 
 ## Inhoud verplaatsen, kopiëren en verwijderen
 
-U kunt een sectie selecteren en de knoppen gebruiken om deze te verplaatsen (![pictogram][img6]), te dupliceren (![pictogram][img8]) en te verwijderen (![pictogram][img7]).
+U kunt een sectie selecteren en de knoppen gebruiken om deze te verplaatsen (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), te dupliceren (<i class="ph ph-copy" aria-label="Copy"></i>) en te verwijderen (<i class="ph ph-trash" aria-label="Delete icon"></i>).
 
 ## Indeling en layout bewerken
 
@@ -70,7 +70,7 @@ Het zijpaneel bevat de volgende hoofdsecties:
 | Pictogram | Naam | Functie |
 |:-:|---|---|
 | ![pictogram][img21] | Inhoud | Deze sectie bevat verschillende inhoudstypen, zoals kolommen, tekstsecties, afbeeldingen, menu's/buttons en SoMe-links. Inhoud van deze sectie naar het bericht slepen en neerzetten. [Klik op de inhoud om deze][5] in het zijpaneel te bewerken. |
-| ![pictogram][img22] | Blokken | Deze sectie bevat opgeslagen inhoudsblokken zoals kop- en voetteksten. Inhoud van deze sectie naar het bericht slepen en neerzetten.<br />Als u een inhoudsblok wilt opslaan, klikt u op een rij en selecteert u **Blok opslaan** ![pictogram][img9]. |
+| ![pictogram][img22] | Blokken | Deze sectie bevat opgeslagen inhoudsblokken zoals kop- en voetteksten. Inhoud van deze sectie naar het bericht slepen en neerzetten.<br />Als u een inhoudsblok wilt opslaan, klikt u op een rij en selecteert u **Blok opslaan** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>. |
 | ![pictogram][img23] | Hoofdtekst | In deze sectie kunt u de algemene eigenschappen en layout voor het bericht bewerken.<br />Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen. |
 | ![pictogram][img24] | Afbeeldingen | In deze sectie vindt u miljoenen [afbeeldingen om te gebruiken in uw mailing][6]. Inhoud van deze sectie naar het bericht slepen en neerzetten. |
 | ![icon][img25] | Audit | In deze sectie kunt u zoeken naar problemen in uw ontwerp en inhoud. |
@@ -86,7 +86,7 @@ In het algemene menu kunt u acties bekijken, ongedaan maken of herhalen en zien 
 
 | Pictogram | Naam | Functie |
 |:-:|---|---|
-| ![pictogram][img11] | Ongedaan maken/Opnieuw doen | Maakt de laatste actie ongedaan of voert een ongedaan gemaakte actie opnieuw uit. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Ongedaan maken/Opnieuw doen | Maakt de laatste actie ongedaan of voert een ongedaan gemaakte actie opnieuw uit. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Afdrukvoorbeeld | Opent een voorbeeld van het bericht op een desktop of mobiel scherm. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Weergeven in-/uitschakelen voor desktop of mobiele apparaten | Gebruikt om het uiterlijk op een desktop of smartphone te zien. |
 
@@ -96,11 +96,11 @@ Wanneer u op een sectie in een bericht klikt, krijgt u toegang tot verschillende
 
 | Pictogram | Naam | Functie |
 |:-:|---|---|
-| ![pictogram][img5] | Voeg een rij toe | Voegt een rij toe onder of boven de geselecteerde sectie. |
-| ![pictogram][img6] | Verplaatsen | Klik en sleep om de sectie te verplaatsen. |
-| ![pictogram][img7] | Verwijderen | Verwijdert de sectie. |
-| ![pictogram][img8] | Duplicaat | Maakt een kopie van de selectie. |
-| ![pictogram][img9] | Blok opslaan | Slaat de geselecteerde sectie op als een blok. Laat u inhoud (zoals kop- en voetteksten) opnieuw gebruiken voor berichten. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Voeg een rij toe | Voegt een rij toe onder of boven de geselecteerde sectie. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Verplaatsen | Klik en sleep om de sectie te verplaatsen. |
+| <i class="ph ph-trash" aria-label="Delete icon"></i> | Verwijderen | Verwijdert de sectie. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Duplicaat | Maakt een kopie van de selectie. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Blok opslaan | Slaat de geselecteerde sectie op als een blok. Laat u inhoud (zoals kop- en voetteksten) opnieuw gebruiken voor berichten. |
 
 ## <a id="variables"></a>Sjabloonvariabelen
 
@@ -159,12 +159,6 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

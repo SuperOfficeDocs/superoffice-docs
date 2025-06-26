@@ -144,4 +144,4 @@ For example, in the `Sale` Entity, the `Associate` property would refer to the `
 [11]: ../overview/netserver.md
 
 <!-- Referenced images -->
-[img5]: media/personrowsobject.gif
+[img5]: howto/media/personrowsobject.gif

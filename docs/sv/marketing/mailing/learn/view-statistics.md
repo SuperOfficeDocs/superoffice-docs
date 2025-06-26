@@ -60,7 +60,7 @@ När ditt utskick är klart kan du se hur vilket resultat ditt utskick gav på f
 
   * Dessutom visar SuperOffice Marknadsföring antalet mottagare baserat på deras status. Det innebär att du bland annat kan se hur många mottagare som läst utskicket, hur många som utskick som returnerats och hur många dubbletter ditt utskick innehöll.
 
-* **Mottagare**: Denna flik visar en [mottagarlista][2] för utskicket. Utskickets status (skickar, väntar, misslyckades, returnerat, läst osv.) för varje individuell mottagare visas här. Du kan filtrera översikten genom att markera kryssrutorna längst ned på skärmen. Du kan även välja och lägga till mottagare i urval och projekt med hjälp av ![ikon][img1] menyknappen.
+* **Mottagare**: Denna flik visar en [mottagarlista][2] för utskicket. Utskickets status (skickar, väntar, misslyckades, returnerat, läst osv.) för varje individuell mottagare visas här. Du kan filtrera översikten genom att markera kryssrutorna längst ned på skärmen. Du kan även välja och lägga till mottagare i urval och projekt med hjälp av menyknappen.
 
 * **Spårade länkar**: Denna flik visar [antalet klick på varje spårad länk][3] i utskicket. Klicka på en länk för att gå till fönstret **Visa länk**. Du kommer att se en lista över mottagarna som har klickat på länken och när de klickade på den. Använd denna lista för att göra ett urval eller ett projekt för vidare uppföljning.
 
@@ -75,5 +75,4 @@ När ditt utskick är klart kan du se hur vilket resultat ditt utskick gav på f
 [3]: ../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/marketing/summary-tab.png

@@ -49,7 +49,7 @@ In the side-panel, you can drag and drop elements from the **Content** section t
 
 ## Move, copy and delete content
 
-You can select a section and use the buttons to move ( ![icon][img6] ), duplicate ( ![icon][img8] ) and delete ( ![icon][img7] ) it.
+You can select a section and use the buttons to move (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), duplicate (<i class="ph ph-copy" aria-label="Copy"></i>) and delete (<i class="ph ph-trash" aria-label="Delete icon"></i>) it.
 
 ## Edit format and layout
 
@@ -70,7 +70,7 @@ The side-panel contains the following main sections:
 | Icon | Name | Function |
 |:-:|---|---|
 | ![icon][img21] | Content | This section contains various content types, such as columns, text sections, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. [Click the content to edit][5] it in the side panel. |
-| ![icon][img22] | Blocks | This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message.<br />To save a content block, click a row and select **Save block** ![icon][img9]. |
+| ![icon][img22] | Blocks | This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message.<br />To save a content block, click a row and select **Save block** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>. |
 | ![icon][img23] | Body | In this section you can edit the global properties and layout for the message.<br />If you have defined specific properties for individual sections, these are not overridden by global properties. |
 | ![icon][img24] | Images | In this section you can find millions of [images to use in your mailing][6]. Drag and drop content from this section to the message. |
 | ![icon][img25] | Audit | In this section you can check for issues in your design and content. |
@@ -86,7 +86,7 @@ From the global menu, you can preview, undo or repeat actions, and se how the me
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img11] | Undo/Redo | Undoes the last action or redoes an undone action. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Undo/Redo | Undoes the last action or redoes an undone action. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Preview | Opens a preview of the message on a desktop or mobile display. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Toggle showing for desktop or mobile devices | Used to see what the appearance is like on a desktop or smart phone. |
 
@@ -96,11 +96,11 @@ When you click a section in a message, you get access to various functions for t
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img5] | Add row | Adds a row below or above the selected section. |
-| ![icon][img6] | Move | Click and drag to move the section. |
-| ![icon][img7] | Delete | Deletes the section. |
-| ![icon][img8] | Duplicate | Creates a copy of the section. |
-| ![icon][img9] | Save block | Saves the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Add row | Adds a row below or above the selected section. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Move | Click and drag to move the section. |
+| <i class="ph ph-trash" aria-label="Delete icon"></i> | Delete | Deletes the section. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Duplicate | Creates a copy of the section. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Save block | Saves the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
 ## <a id="variables"></a>Placeholders
 
@@ -159,12 +159,6 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

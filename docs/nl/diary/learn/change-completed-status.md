@@ -21,7 +21,7 @@ Wanneer u vindt dat een activiteit is beëindigd, kunt u deze markeren als volto
 1. Voer een van de volgende handelingen uit:
 
     * Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
-    * Klik dan in het selectievakje in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**.
+    * Klik dan in het selectievakje in de kolom **Voltooid** <i class="ph ph-check" aria-label="Checkmark"></i> op het sectietabblad **Activiteiten**.
     * Open de activiteit en kies **Voltooid**.
 
 1. Vink/haal het selectievakje aan in de voettekst van het dialoogvenster.
@@ -34,5 +34,4 @@ Wanneer u vindt dat een activiteit is beëindigd, kunt u deze markeren als volto
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

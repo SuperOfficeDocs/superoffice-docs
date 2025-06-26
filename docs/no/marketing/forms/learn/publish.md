@@ -22,7 +22,7 @@ Når du har opprettet et skjema og (eventuelt) svaret på skjemaet, kan du publi
 
 2. Klikk på skjemaet for å åpne det i visningsmodus.
 
-3. Sett skjemaet til **Aktiv** ![icon][img1] i overskriften.
+3. Sett skjemaet til **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i overskriften.
 
 4. Gå til fanen **Publiser**.
 
@@ -50,5 +50,4 @@ Skjemaer kan deaktiveres manuelt, eller deaktiveres automatisk på en bestemt da
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

@@ -49,7 +49,7 @@ I sidopanelen kan du dra och släppa element från avsnittet **Innehåll** till 
 
 ## Flytta, kopiera och ta bort innehåll
 
-Du kan markera ett avsnitt och använda knapparna för att flytta ![ikon][img6], duplicera ![ikon][img8] eller ta bort det ![ikon][img7].
+Du kan markera ett avsnitt och använda knapparna för att flytta (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), duplicera (<i class="ph ph-copy" aria-label="Copy"></i>) eller ta bort det (<i class="ph ph-trash" aria-label="Delete icon"></i>).
 
 ## Redigera format och layout
 
@@ -70,7 +70,7 @@ Sidopanelen innehåller följande huvudavsnitt:
 | Ikon | Namn | Funktion |
 |:-:|---|---|
 | ![ikon][img21] | Innehåll | Detta avsnitt innehåller olika innehållstyper, som kolumner, textavsnitt, bilder, menyer/knappar och SoMe-länkar. Dra och släpp innehåll från det här avsnittet till meddelandet. [Klicka på innehållet för att redigera][5] det i sidopanelen. |
-| ![ikon][img22] | Block | Detta avsnitt innehåller sparade innehållsblock såsom sidhuvuden och sidfötter. Dra och släpp innehåll från det här avsnittet till meddelandet.<br />För att spara ett innehållsblock klickar du på en rad och väljer **Spara block** ![ikon][img9]. |
+| ![ikon][img22] | Block | Detta avsnitt innehåller sparade innehållsblock såsom sidhuvuden och sidfötter. Dra och släpp innehåll från det här avsnittet till meddelandet.<br />För att spara ett innehållsblock klickar du på en rad och väljer **Spara block** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>. |
 | ![ikon][img23] | Brödtext | I det här avsnittet kan du redigera de globala egenskaperna och layouten för meddelandet.<br />Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper. |
 | ![ikon][img24] | Bilder | I det här avsnittet hittar du miljontals [bilder som du kan använda i ditt utskick][6]. Dra och släpp innehåll från det här avsnittet till meddelandet. |
 | ![icon][img25] | Audit | I det här avsnittet kan du se efter problem i din design och ditt innehåll. |
@@ -86,7 +86,7 @@ Från den globala menyn kan du förhandsgranska, ångra eller göra om åtgärde
 
 | Ikon | Namn | Funktion |
 |:-:|---|---|
-| ![ikon][img11] | Ångra/gör om | Ångrar den senaste åtgärden eller gör om en åtgärd som du har ångrat. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Ångra/gör om | Ångrar den senaste åtgärden eller gör om en åtgärd som du har ångrat. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Förhandsgranskning | Öppnar en förhandsgranskning av meddelandet på en bordsdator- eller mobil skärm. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Byt visning för bordsdator eller mobila enheter | Används för att se hur utskicket ser ut på en bordsdator eller smarttelefon. |
 
@@ -96,11 +96,11 @@ När du klickar på ett avsnitt i ett meddelande får du tillgång till olika fu
 
 | Ikon | Namn | Funktion |
 |:-:|---|---|
-| ![ikon][img5] | Lägg till rad | Lägger till en rad under eller över det markerade avsnittet. |
-| ![ikon][img6] | Flytta | Klicka och dra för att flytta avsnittet. |
-| ![ikon][img7] | Radera | Tar bort avsnittet. |
-| ![ikon][img8] | Dubblett | Skapar en kopia av avsnittet. |
-| ![ikon][img9] | Spara block | Sparar det markerade avsnittet som ett block. Låter dig återanvända innehåll (som sidhuvuden och sidfötter) i meddelanden. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Lägg till rad | Lägger till en rad under eller över det markerade avsnittet. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Flytta | Klicka och dra för att flytta avsnittet. |
+| <i class="ph ph-trash" aria-label="Delete icon"></i> | Radera | Tar bort avsnittet. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Dubblett | Skapar en kopia av avsnittet. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Spara block | Sparar det markerade avsnittet som ett block. Låter dig återanvända innehåll (som sidhuvuden och sidfötter) i meddelanden. |
 
 ## <a id="variables"></a>Mallvariabler
 
@@ -159,12 +159,6 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

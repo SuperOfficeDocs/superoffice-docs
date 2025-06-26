@@ -22,7 +22,7 @@ När du har skapat formuläret och (om det är relevant) formulärsvaret kan du 
 
 2. Klicka på formuläret så att det öppnas i visningsläge.
 
-3. Ställ in formuläret som **Aktivt** ![ikon][img1] i rubriken.
+3. Ställ in formuläret som **Aktivt** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i rubriken.
 
 4. Gå till fliken **Publicera**.
 
@@ -50,5 +50,4 @@ Formulär kan avaktiveras manuellt eller avaktiveras automatiskt på ett specifi
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

@@ -40,7 +40,7 @@ Fra afsnittet **Indhold** kan du tilføje alle typer indhold, f.eks. kolonner, t
 
 Dette afsnit indeholder gemte indholdsblokke, f.eks. overskrifter og sidefødder. Træk og slip indhold fra dette afsnit til meddelelsen.
 
-Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** ![ikon][img13].
+Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>.
 
 ## Redigering af globalt layout ![ikon][img14]
 
@@ -83,5 +83,4 @@ Du kan også **tilføje særlige links** til din mailudsendelse. Afhængigt af h
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

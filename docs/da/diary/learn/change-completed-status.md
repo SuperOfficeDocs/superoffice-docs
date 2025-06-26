@@ -21,7 +21,7 @@ Når du mener, at en aktivitet er afsluttet, kan du markere den som fuldført.
 1. Udfør en af følgende handlinger:
 
     * Højreklik på aktiviteten, og vælg **Fuldført**.
-    * Klik på afkrydsningsfeltet i kolonnen **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**.
+    * Klik på afkrydsningsfeltet i kolonnen **Fuldført** <i class="ph ph-check" aria-label="Checkmark"></i> på detaljekortet **Aktiviteter**.
     * Åbn aktiviteten, og vælg **Afsluttet**.
 
 1. Markér/afmarker afkrydsningsfeltet i bunden af dialogen.
@@ -34,5 +34,4 @@ Når du mener, at en aktivitet er afsluttet, kan du markere den som fuldført.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

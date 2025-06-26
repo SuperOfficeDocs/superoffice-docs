@@ -17,15 +17,10 @@ Om en kontakt ber att få se all information som finns registrerad om denna i Su
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klicka på **Uppgift** ![ikon][img1] &gt; **Generera personuppgiftsrapport**.
+1. Klicka på **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) > **Generera personuppgiftsrapport**.
 
 1. I dialogrutan **Integritetsrapport** ser du informationen som registrerats om kontakten.
 
 1. Skicka rapporten som en e-postbilaga eller spara den som en PDF-fil.
 
 Rapporten arkiveras på detaljkortet **Aktiviteter**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

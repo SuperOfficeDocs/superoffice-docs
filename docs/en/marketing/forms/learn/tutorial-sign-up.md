@@ -147,7 +147,7 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Click **Save**. The form is saved and the **Edit form** dialog closes.
 
-1. Set the form to **Active** ![icon][img4] in the header.
+1. Set the form to **Active** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> in the header.
 
 1. Go to the **Publish** tab.
 
@@ -166,7 +166,6 @@ The example does not cover every field and option, but you can find comprehensiv
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

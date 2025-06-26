@@ -235,5 +235,5 @@ When working with sales and quotes, data will often intersect with the following
 [10]: ../../database/tables/saletypestagelink.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/stakeholders-section-tab.png
-[img2]: ../../../../media/loc/en/sale/enable-stakeholders.png
+[img1]: ../../../media/loc/en/sale/stakeholders-section-tab.png
+[img2]: ../../../media/loc/en/sale/enable-stakeholders.png

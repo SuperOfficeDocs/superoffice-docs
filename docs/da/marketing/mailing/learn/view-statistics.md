@@ -60,7 +60,7 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 
   * Derudover vil SuperOffice Marketing vise dig antal modtagere fordelt på status. Det betyder, at du blandt andet kan se, hvor mange modtagere der læser mailen, hvor mange der blev afvist, og hvor mange dubletter din mailing indeholdt.
 
-* **Modtagere**: I denne fane vises [en liste over modtagere][2] af din udsendelse. Her vises status (afsendelse, venter, mislykket, afvist, læst osv.) for udsendelsen til hver enkelt modtager. Oversigten kan filtreres ved at markere afkrydsningsfelterne nederst på skærmen. Du kan også udvælge og tilføje modtagere til udtræk og projekter ved hjælp af ![ikonet][img1] menuknappen.
+* **Modtagere**: I denne fane vises [en liste over modtagere][2] af din udsendelse. Her vises status (afsendelse, venter, mislykket, afvist, læst osv.) for udsendelsen til hver enkelt modtager. Oversigten kan filtreres ved at markere afkrydsningsfelterne nederst på skærmen. Du kan også udvælge og tilføje modtagere til udtræk og projekter ved hjælp af menuknappen.
 
 * **Sporede links**: I dette faneblad kan du se [antal klik på alle de sporede links][3] i udsendelsen. Klik på et link for at åbne skærmbilledet **Se link**. Du vil nu se en liste over de modtagere, der har klikket på linket, og hvornår de klikkede på dem. Brug denne liste til at foretage en udvælgelse eller definere et projekt til videre opfølgning.
 
@@ -75,5 +75,4 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 [3]: ../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/marketing/summary-tab.png

@@ -60,7 +60,7 @@ Nadat uw mailing is voltooid, kunt u zien hoe uw mailing heeft gepresteerd op he
 
   * Bovendien toont SuperOffice Marketing u de nummers van alle ontvangers op basis van hun status. Dit betekent dat u onder andere kunt zien hoeveel ontvangers de mailing hebben gelezen, hoeveel er zijn geretourneerd en hoeveel duplicaten uw mailing bevatte.
 
-* **Ontvangers**: Dit tabblad geeft een [lijst met de ontvangers][2] van de mailing weer. Hier wordt de status (verzenden, wachten, mislukt, geretourneerd, gelezen, enzovoort) van de mailing voor elke individuele ontvanger weergegeven. Het overzicht kan worden gefilterd door de selectievakjes onder aan het scherm te selecteren. U kunt ook ontvangers selecteren en toevoegen aan selecties en projecten met de ![pictogram][img1] menuknop.
+* **Ontvangers**: Dit tabblad geeft een [lijst met de ontvangers][2] van de mailing weer. Hier wordt de status (verzenden, wachten, mislukt, geretourneerd, gelezen, enzovoort) van de mailing voor elke individuele ontvanger weergegeven. Het overzicht kan worden gefilterd door de selectievakjes onder aan het scherm te selecteren. U kunt ook ontvangers selecteren en toevoegen aan selecties en projecten met de menuknop.
 
 * **Gevolgde koppelingen**: Dit tabblad geeft het [aantal klikken op elke gevolgde koppeling][3] in de mailing weer. Klik op een koppeling om het scherm **Koppeling weergeven** te openen. U ziet een lijst met de ontvangers die op de koppeling hebben geklikt en wanneer ze erop hebben geklikt. Gebruik deze lijst om een selectie of een project te maken voor verdere vervolgactiviteiten.
 
@@ -75,5 +75,4 @@ Nadat uw mailing is voltooid, kunt u zien hoe uw mailing heeft gepresteerd op he
 [3]: ../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/marketing/summary-tab.png

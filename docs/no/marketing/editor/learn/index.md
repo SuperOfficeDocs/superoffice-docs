@@ -49,7 +49,7 @@ I sidepanelet kan du dra og slippe elementer fra **Innhold**-seksjonen til meldi
 
 ## Flytte, kopiere og slette innhold
 
-Du kan velge en seksjon og bruke knappene til å flytte ( ![icon][img6] ), duplikere ( ![icon][img8] ) og slette ( ![icon][img7] ) den.
+Du kan velge en seksjon og bruke knappene til å flytte (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), duplikere (<i class="ph ph-copy" aria-label="Copy"></i>) og slette (<i class="ph ph-trash" aria-label="Delete icon"></i>) den.
 
 ## Redigere format og utseende
 
@@ -70,7 +70,7 @@ Sidepanelet inneholder følgende hovedområder:
 | Ikon | Navn | Funksjon |
 |:-:|---|---|
 | ![ikon][img21] | Innhold | Denne delen inneholder ulike innholdstyper, for eksempel kolonner, tekstområder, bilder, menyer/knapper og SoMe-koblinger. Dra og slipp innhold fra denne delen til meldingen. [Klikk på innholdet for å redigere][5] det i sidepanelet. |
-| ![ikon][img22] | Blokker | Denne delen inneholder lagrede innholdsblokker, slik som topptekster og bunntekster. Dra og slipp innhold fra denne delen til meldingen.<br />Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** ![ikon][img9]. |
+| ![ikon][img22] | Blokker | Denne delen inneholder lagrede innholdsblokker, slik som topptekster og bunntekster. Dra og slipp innhold fra denne delen til meldingen.<br />Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>. |
 | ![ikon][img23] | Brødtekst | I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.<br />Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper. |
 | ![ikon][img24] | Bilder | I denne delen finner du millioner av [bilder du kan bruke i utsendelsen din][6]. Dra og slipp innhold fra denne delen til meldingen. |
 | ![icon][img25] | Audit | I denne delen kan du se etter problemer i designet og innholdet ditt. |
@@ -86,7 +86,7 @@ Fra den globale menyen kan du forhåndsvise, angre eller gjenta handlinger og se
 
 | Icon | Navn | Funksjon |
 |:-:|---|---|
-| ![icon][img11] | Angre/gjøre om | Angrer den siste handlingen eller utfører en angret handling på nytt. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Angre/gjøre om | Angrer den siste handlingen eller utfører en angret handling på nytt. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Forhåndsvis | Åpner en forhåndsvisning av meldingen på en stasjonær eller mobil skjerm. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Bytt visning for stasjonære eller mobile enheter | Brukes til å se hvordan utseendet er på en datamaskin eller smarttelefon. |
 
@@ -96,11 +96,11 @@ Når du klikker på en seksjon i en melding får du tilgang til ulike funksjoner
 
 | Icon | Navn | Funksjon |
 |:-:|---|---|
-| ![icon][img5] | Legg til rad | Legger til en rad under eller over den merkede seksjonen. |
-| ![icon][img6] | Flytt | Klikk og dra for å flytte seksjonen. |
-| ![icon][img7] | Slett | Sletter seksjonen. |
-| ![icon][img8] | Dupliser | Oppretter en kopi av seksjonen. |
-| ![icon][img9] | Lagre blokk | Lagrer den merkede seksjonen som en blokk. Lar deg gjenbruke innhold (som topp- og bunntekster) på tvers av meldinger. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Legg til rad | Legger til en rad under eller over den merkede seksjonen. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Flytt | Klikk og dra for å flytte seksjonen. |
+| <i class="ph ph-trash" aria-label="Delete icon"></i> | Slett | Sletter seksjonen. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Dupliser | Oppretter en kopi av seksjonen. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Lagre blokk | Lagrer den merkede seksjonen som en blokk. Lar deg gjenbruke innhold (som topp- og bunntekster) på tvers av meldinger. |
 
 ## <a id="variables"></a>Malvariabler
 
@@ -159,12 +159,6 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

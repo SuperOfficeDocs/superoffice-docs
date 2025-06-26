@@ -22,7 +22,7 @@ Når du har oprettet formularen og (hvis relevant) formularsvaret, kan du udgive
 
 2. Klik på formularen for at åbne den i visningstilstand.
 
-3. Indstil formularen til **Aktiv** ![ikon][img1] i sidehovedet.
+3. Indstil formularen til **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i sidehovedet.
 
 4. Gå til fanen **Udgiv**.
 
@@ -51,5 +51,4 @@ Formularer kan deaktiveres manuelt eller deaktiveres automatisk på en bestemt d
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

@@ -22,7 +22,7 @@ Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, ku
 
 2. Klik op het formulier om het te openen in voorbeeldweergave.
 
-3. Stel het formulier in als **Actief** ![pictogram][img1] in de koptekst.
+3. Stel het formulier in als **Actief** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> in de koptekst.
 
 4. Ga naar het tabblad **Publiceren**.
 
@@ -51,5 +51,4 @@ Formulieren kunnen handmatig gedeactiveerd worden, of worden automatisch gedeact
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

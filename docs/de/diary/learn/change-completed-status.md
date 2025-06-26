@@ -21,7 +21,7 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 1. Führen Sie eine der folgenden Aktionen aus:
 
     * Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie *Abgeschlossen**.
-    * Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
+    * Klicken Sie auf das Kontrollkästchen in der Spalte <i class="ph ph-check" aria-label="Checkmark"></i> auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
     * Öffnen Sie die Aktivität und wählen Sie *Abgeschlossen**.
 
 1. Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
@@ -34,5 +34,4 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

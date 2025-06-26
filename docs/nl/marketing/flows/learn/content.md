@@ -87,7 +87,7 @@ Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 
 **Als een inhoud-editor:**
 
-1. Klik op het tabblad **Inhoud flow** op de menuknop ![icoon][img11] bij de e-mail die u wilt bijwerken en selecteer **Bewerken**.
+1. Klik op het tabblad **Inhoud flow** op de menuknop bij de e-mail die u wilt bijwerken en selecteer **Bewerken**.
 
 **Als een flow-administrator:**
 
@@ -113,4 +113,3 @@ Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

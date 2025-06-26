@@ -17,15 +17,10 @@ Hvis en person beder om at se al information, der er registreret om vedkommende 
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klik på **Opgave** ![ikon][img1] &gt; **Generer persondatarapport**.
+1. Klik på **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) > **Generer persondatarapport**.
 
 1. I dialogboksen **Rapport om beskyttelse af personlige oplysninger** ser du den information, der er registreret om personen.
 
 1. Send rapporten som en vedhæftet fil i en e-mail, eller gem rapporten som en PDF.
 
 Rapporten arkiveres i detaljekortet **Aktiviteter**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

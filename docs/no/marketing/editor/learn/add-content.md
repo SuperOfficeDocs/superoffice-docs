@@ -40,7 +40,7 @@ Fra **Innhold**-seksjonen kan du legge til alle typer innhold, som kolonner, tek
 
 Denne seksjonen inneholder lagrede innholdsblokker, som topptekster og bunntekster. Dra og slipp innhold fra denne seksjonen til meldingen.
 
-Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** ![icon][img13].
+Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>.
 
 ## Redigere globalt utseende [!icon][img14]
 
@@ -83,5 +83,4 @@ Du kan også **legge til spesielle koblinger** til utsendelsen din. Avhengig av 
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
