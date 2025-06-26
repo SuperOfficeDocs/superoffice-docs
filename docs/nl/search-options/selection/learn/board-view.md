@@ -39,7 +39,7 @@ De boardweergave is momenteel beschikbaar voor **selecties van verkopen**, en on
     ![Voorbeeldweergave van contactgegevens bij hover op een kaart -screenshot][img3]
 
 * Versleep kaarten tussen kolommen om het groeperingsveld bij te werken (zoals fase of eigenaar).
-  * Als subgroepen zijn ingeschakeld, kun je kaarten ook tussen swimlanes verplaatsen.
+  * Als subgroepen zijn ingeschakeld, kun je kaarten ook tussen rijen binnen elke kolom slepen.
 
 * Om een kaart te bewerken, wijs deze aan en klik op **Bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dezelfde bewerkdialoog wordt gebruikt als elders in SuperOffice CRM – zonder de boardweergave te verlaten.
 
@@ -72,7 +72,7 @@ Zo kies je welke kolommen worden weergegeven:
 
 1. Klik op de pijl naar links (<i class="ph ph-caret-left" aria-hidden="true"></i>) om terug te gaan naar het instellingenoverzicht.
 
-1. Kies optioneel een waarde voor **Subgroeperen op** om swimlanes toe te voegen.
+1. Kies optioneel een waarde voor **Subgroeperen op** om kaarten op te splitsen in aparte rijen binnen elke kolom.
 
 1. Kies eventueel **Instellingen alleen voor deze selectie opslaan** om wijzigingen alleen op dit board toe te passen.
 
@@ -142,7 +142,7 @@ De boardweergave ondersteunt verschillende rollen en werkwijzen. Hier zijn voorb
 * **Groepeer op eigenaar** om de werklast per verkoper te controleren en te herverdelen met drag-and-drop.
 * **Gebruik fase als groep en verkooptype als subgroep** voor strategisch overzicht per categorie en fase.
 
-Gebruik groepering en swimlanes creatief om efficiënt met gegevens te werken.
+Gebruik groepering creatief om efficiënt met gegevens te werken.
 
 ## Problemen oplossen en tips
 

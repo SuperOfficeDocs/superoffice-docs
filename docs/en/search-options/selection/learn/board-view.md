@@ -39,7 +39,7 @@ Board view is currently available for **selections of sales**, and support for *
     ![Hover preview showing contact details on a card -screenshot][img3]
 
 * Drag cards between columns to update the grouping field (such as stage or owner).
-  * If subgroups are enabled, you can also drag cards between swim lanes.
+  * If subgroups are enabled, you can also drag cards between rows.
 
 * To edit a card, point to it and select the **Edit** button (<i class="ph ph-pencil" aria-hidden="true"></i>). This opens the same edit dialog used elsewhere in SuperOffice CRM—without leaving the board view.
 
@@ -72,7 +72,7 @@ To choose which columns appear:
 
 1. Select the back arrow (<i class="ph ph-caret-left" aria-hidden="true"></i>) to return to the settings overview.
 
-1. Optionally, choose a **Subgroup by** value to add swim lanes.
+1. Optionally, choose a **Subgroup by** value to organize cards into separate rows within each column.
 
 1. Optionally, select **Save settings for current selection only** to apply changes only to this board view.
 
@@ -142,7 +142,7 @@ Board view supports different roles and workflows. Here are examples for sales r
 * **Group by owner** to check workload per sales rep and rebalance using drag and drop.
 * **Use stage as group and sale type as subgroup** to get a strategic overview by category and phase.
 
-Use grouping and swim lanes creatively to organize and act on data efficiently.
+Use grouping creatively to organize and act on data efficiently.
 
 ## Troubleshooting and tips
 

@@ -39,7 +39,7 @@ Tavlevy är för närvarande tillgänglig för **urval av försäljning**, och s
     ![Förhandsvisning vid hover med kontaktuppgifter på ett kort -screenshot][img3]
 
 * Dra kort mellan kolumner för att uppdatera grupperingsfältet (t.ex. fas eller ägare).
-  * Om undergrupper är aktiverade kan du även dra kort mellan swimlanes.
+  * Om undergrupper är aktiverade kan du även dra kort mellan rader i varje kolumn.
 
 * För att redigera ett kort, peka på det och välj knappen **Redigera** (<i class="ph ph-pencil" aria-hidden="true"></i>). Detta öppnar samma redigeringsdialog som används på andra ställen i SuperOffice CRM – utan att lämna tavlevyn.
 
@@ -72,7 +72,7 @@ Så här väljer du vilka kolumner som ska visas:
 
 1. Klicka på tillbakapilen (<i class="ph ph-caret-left" aria-hidden="true"></i>) för att återgå till översikten över inställningar.
 
-1. Välj eventuellt ett värde för **Dela inn i undergrupp baseart på** för att lägga till swimlanes.
+1. Välj eventuellt ett värde för **Dela inn i undergrupp baseart på** för att visa kort i separata rader i varje kolumn.
 
 1. Välj eventuellt **Spara kolumner endast för markerat urval** för att tillämpa ändringarna endast i denna tavlevy.
 
@@ -142,7 +142,7 @@ Tavlevy stödjer olika roller och arbetsflöden. Här är exempel för säljare 
 * **Gruppera efter ägare** för att granska arbetsbelastning per säljare och balansera med dra-och-släpp.
 * **Använd fas som grupp och försäljningstyp som undergrupp** för strategisk översikt.
 
-Använd gruppering och swimlanes kreativt för effektiv datahantering.
+Använd gruppering kreativt för effektiv datahantering.
 
 ## Felsökning och tips
 

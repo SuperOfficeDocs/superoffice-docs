@@ -39,7 +39,7 @@ Die Board-Ansicht ist derzeit für **Selektionen von Verkäufen** verfügbar. Di
     ![Vorschau beim Hover mit Kontaktdaten auf einer Karte -screenshot][img3]
 
 * Ziehen Sie Karten zwischen Spalten, um das Gruppierungsfeld zu aktualisieren (z. B. Stufe oder Besitzer).
-  * Wenn Untergruppen aktiviert sind, können Sie Karten auch zwischen Swimlanes verschieben.
+  * Wenn Untergruppen aktiviert sind, können Sie Karten auch zwischen Zeilen innerhalb jeder Spalte verschieben.
 
 * Um eine Karte zu bearbeiten, bewegen Sie die Maus darüber und klicken Sie auf **Bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dies öffnet denselben Bearbeitungsdialog wie an anderer Stelle in SuperOffice CRM – ohne die Board-Ansicht zu verlassen.
 
@@ -72,7 +72,7 @@ So wählen Sie aus, welche Spalten angezeigt werden:
 
 1. Klicken Sie auf den Zurück-Pfeil (<i class="ph ph-caret-left" aria-hidden="true"></i>), um zur Einstellungsübersicht zurückzukehren.
 
-1. Optional: Wählen Sie einen Wert für **Untergruppen nach**, um Swimlanes hinzuzufügen.
+1. Optional: Wählen Sie einen Wert für **Untergruppen nach**, um Karten in getrennte Zeilen innerhalb jeder Spalte zu organisieren.
 
 1. Optional: Wählen Sie **Einstellungen nur für diese Selektion speichern**, um die Änderungen nur für dieses Board zu übernehmen.
 
@@ -142,7 +142,7 @@ Die Board-Ansicht unterstützt verschiedene Rollen und Arbeitsweisen. Hier einig
 * **Gruppieren Sie nach Besitzer**, um die Auslastung pro Vertriebsperson zu prüfen und durch Drag-and-Drop auszugleichen.
 * **Verwenden Sie Stufe als Gruppe und Verkaufstyp als Untergruppe**, um eine strategische Übersicht nach Kategorie und Stufe zu erhalten.
 
-Nutzen Sie Gruppierung und Swimlanes kreativ, um Daten effizient zu organisieren und zu nutzen.
+Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen.
 
 ## Fehlerbehebung und Tipps
 

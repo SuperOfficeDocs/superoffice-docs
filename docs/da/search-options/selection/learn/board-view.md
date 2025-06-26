@@ -39,7 +39,7 @@ Tavlevisning er i øjeblikket tilgængelig for **udvalg af salg**, og understøt
     ![Visning af kontaktoplysninger på kort ved hover -screenshot][img3]
 
 * Træk kort mellem kolonner for at opdatere grupperingsfeltet (f.eks. fase eller ejer).
-  * Hvis undergrupper er aktiveret, kan du også trække kort mellem swimlanes.
+  * Hvis undergrupper er aktiveret, kan du også trække kort mellem rækker i hver kolonne.
 
 * For at redigere et kort, peg på det og vælg knappen **Rediger** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dette åbner den samme redigeringsdialog som andre steder i SuperOffice CRM – uden at forlade tavlevisningen.
 
@@ -72,7 +72,7 @@ Sådan vælger du hvilke kolonner der skal vises:
 
 1. Vælg tilbagepilen (<i class="ph ph-caret-left" aria-hidden="true"></i>) for at vende tilbage til oversigten over indstillinger.
 
-1. Vælg eventuelt en **Undergruppér efter**-værdi for at tilføje swimlanes.
+1. Vælg eventuelt en **Undergruppér efter**-værdi for at opdele kort i separate rækker i hver kolonne.
 
 1. Vælg eventuelt **Gem kun kolonner for det aktuelle udvalg** for kun at anvende ændringerne i denne tavlevisning.
 
@@ -142,7 +142,7 @@ Tavlevisning understøtter forskellige roller og arbejdsgange. Her er eksempler 
 * **Gruppér efter ejer** for at se belastning pr. sælger og juster via træk og slip.
 * **Brug fase som gruppe og salgstype som undergruppe** for at få et strategisk overblik efter kategori og fase.
 
-Brug gruppering og swimlanes kreativt for effektiv databehandling.
+Brug gruppering kreativt for effektiv databehandling.
 
 ## Fejlfinding og tips
 
