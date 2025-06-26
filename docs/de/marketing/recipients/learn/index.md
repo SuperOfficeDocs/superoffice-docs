@@ -1,15 +1,15 @@
 ---
 uid: help-de-mailing-targets
 title: Zielliste erstellen
-description: "Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wissen, was Sie mit Ihrer Kampagne erreichen wollen, müssen Sie eine spezifische Zielliste erstellen."
+description: Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wissen, was Sie mit Ihrer Kampagne erreichen wollen, müssen Sie eine spezifische Zielliste erstellen.
 keywords: Marketing, Kampagne
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Zielliste erstellen
@@ -40,7 +40,9 @@ Die DSGVO ist nicht nur ein Gesetz, sondern auch eine großartige Gelegenheit f�
 
 * **Einzelpersonen:** Sie können Personen nacheinander aus der Datenbank hinzufügen, indem Sie nach ihren Namen oder einem anderen Wert suchen. Sie können auch einzelne E-Mail-Adressen in Ihre Zielliste einfügen. Dies ist nützlich, wenn Sie kurz vor dem Senden jemanden hinzufügen möchten.
 
-* **Personenliste importieren:** Sie können Empfänger von einer Datei außerhalb von SuperOffice CRM importieren. Beachten Sie, dass Sie eine andere Option verwenden sollten, wenn Sie Ihre Ergebnisse aus der Kampagne auf einer Personenkarte in SuperOffice CRM anzeigen möchten. Sie können erwägen, die Personen zuerst in SuperOffice CRM zu importieren und dann eine Selektion zu erstellen. Die letztere Option gibt Ihnen die Möglichkeit, einen Kampagnenverlauf auf der Personenkarte zu erstellen.
+* **Personenliste importieren:** Sie können Empfänger von einer Datei außerhalb von SuperOffice CRM importieren.
+  * Sie sollten eine andere Option verwenden, wenn Sie Ihre Ergebnisse aus der Kampagne auf einer Personenkarte in SuperOffice CRM anzeigen möchten. Sie können erwägen, die Personen zuerst in SuperOffice CRM zu importieren und dann eine Selektion zu erstellen. Die letztere Option gibt Ihnen die Möglichkeit, einen Kampagnenverlauf auf der Personenkarte zu erstellen.
+  * Aufgrund der GDPR-Vorschriften dürfen nur Persone mit gültiger Einwilligung als Empfänger hinzugefügt werden. Bei der Listen-Importfunktion gleicht SuperOffice die Einträge mit CRM-Personen ab. Namen oder E-Mail-Adressen, die nicht in SuperOffice vorhanden sind, werden aus dem Versand ausgeschlossen.
 
 ## Zielliste eingrenzen
 

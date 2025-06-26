@@ -1,15 +1,15 @@
 ---
 uid: help-no-mailing-targets
 title: Opprette en målliste
-description: "Målet med utsendelsen din vil bestemme målgruppen din. Når du vet hva du vil oppnå med utsendelsen, må du opprette en bestemt målliste."
+description: Målet med utsendelsen din vil bestemme målgruppen din. Når du vet hva du vil oppnå med utsendelsen, må du opprette en bestemt målliste.
 keywords: Markedsføring, utsendelse
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Opprette en målliste
@@ -40,7 +40,9 @@ Ikke bare er GDPR en lov, men det er også en flott mulighet du kan bruke til å
 
 * **Enkeltpersoner:** Du kan legge til personer fra databasen én etter én ved å søke etter navnene deres eller en annen verdi. Du kan også lime e-postadresser enkeltvis inn i mållisten. Det er nyttig når du vil legge til noen rett før du sender.
 
-* **Importere en liste over personer:** Du kan importere mottakere fra en fil utenfor SuperOffice CRM. Vær oppmerksom på at hvis du ønsker at resultatene fra utsendelsen skal vises på et personkort i SuperOffice CRM, bør du bruke et annet alternativ. Du kan vurdere å importere personene til SuperOffice CRM først, og deretter opprette et utvalg. Det siste alternativet gir deg mulighet til å opprette historikk over utsendelser på personkortet.
+* **Importere en liste over personer:** Du kan importere mottakere fra en fil utenfor SuperOffice CRM.
+  * Hvis du ønsker at resultatene fra utsendelsen skal vises på et personkort i SuperOffice CRM, bør du bruke et annet alternativ. Du kan vurdere å importere personene til SuperOffice CRM først, og deretter opprette et utvalg. Det siste alternativet gir deg mulighet til å opprette historikk over utsendelser på personkortet.
+  * På grunn av GDPR-regler kan kun personer med gyldig samtykke legges til som mottakere. Når du importerer en liste, matcher SuperOffice oppføringen med personer i CRM-databasen. Navn eller e-postadresser som ikke finnes i SuperOffice, vil bli ekskludert fra utsendelsen.
 
 ## Begrens mållisten
 

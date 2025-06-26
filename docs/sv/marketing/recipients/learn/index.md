@@ -4,8 +4,8 @@ title: Skapa en mållista
 description: Målet med ditt utskick avgör vilken din målgrupp är. När du vet vad du vill uppnå med ditt utskick måste du skapa en specifik mållista.
 keywords: Marknadsföring, utskick
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -40,7 +40,9 @@ GDPR är inte bara en lag, utan det är också ett utmärkt tillfälle för dig 
 
 * **Enskilda kontakter:** Du kan lägga till personer från databasen en i taget genom att söka på deras namn eller ett annat värde. Du kan också klistra in enstaka e-postadresser i din mållista. Detta är användbart när du vill lägga till någon precis innan du skickar.
 
-* **Importera en lista med kontakter:** Du kan importera mottagare från en fil utanför SuperOffice CRM. Observera att om du vill att dina resultat från utskicket ska visas på ett kontaktkort i SuperOffice CRM ska du använda ett annat alternativ. Du kan importera kontakterna till SuperOffice CRM först och sedan skapa ett urval. Det senare alternativet ger dig möjlighet att skapa historik över utskick på kontaktkortet.
+* **Importera en lista med kontakter:** Du kan importera mottagare från en fil utanför SuperOffice CRM.
+  * Om du vill att dina resultat från utskicket ska visas på ett kontaktkort i SuperOffice CRM ska du använda ett annat alternativ. Du kan importera kontakterna till SuperOffice CRM först och sedan skapa ett urval. Det senare alternativet ger dig möjlighet att skapa historik över utskick på kontaktkortet.
+  * På grund av GDPR-regler får endast kontakter med giltigt samtycke läggas till som mottagare. När du importerar en lista matchar SuperOffice poster med kontakter i CRM-databasen. Namn eller e‑postadresser som inte finns i SuperOffice kommer att exkluderas från utskicket.
 
 ## Avgränsa din mållista
 

@@ -4,12 +4,12 @@ title: Create a target list
 description: The goal of your mailing will determine your target audience. After you know what you want to achieve with your mailing, you will need to create a specific target list.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Create a target list
@@ -40,7 +40,9 @@ Not only is the GDPR a law, but it is also a great opportunity for you to create
 
 * **Single contacts:** You can add persons from the database one by one by searching for their names or another value. You can also paste in single email addresses to your target list. This is useful when you want to add someone just before sending.
 
-* **Import a list of contacts:** You can import recipients from a file outside SuperOffice CRM. Please note that if you want your results from the mailing to show up on a Contact card in SuperOffice CRM, you should use another option. You can consider importing the contacts into SuperOffice CRM first, and then create a selection. The latter option gives you the possibility of creating history of mailings on the Contact card.
+* **Import a list of contacts:** You can import recipients from a file outside SuperOffice CRM.
+  * If you want your results from the mailing to show up on a Contact card in SuperOffice CRM, you should use another option. You can consider importing the contacts into SuperOffice CRM first, and then create a selection. The latter option gives you the possibility of creating history of mailings on the Contact card.
+  * Due to GDPR regulations, only contacts who have given valid consent can be added as recipients. When you import a list, SuperOffice will match entries with contacts in the CRM database. Any names or email addresses not found in SuperOffice will be excluded from the mailing.
 
 ## Narrow down your target list
 

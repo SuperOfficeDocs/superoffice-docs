@@ -4,8 +4,8 @@ title: Een doellijst maken
 description: Het doel van uw mailing bepaalt uw doelgroep. Nadat u weet wat u met uw mailing wilt bereiken, moet u een specifieke doellijst maken.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -40,7 +40,9 @@ Niet alleen is de AVG een wet, maar het is ook een geweldige kans voor u om zeer
 
 * **Individuele personen:** U kunt personen uit de database één voor één toevoegen door te zoeken naar hun naam of een andere waarde. U kunt ook afzonderlijke e-mailadressen in uw doellijst plakken. Dit is handig wanneer u iemand wilt toevoegen vlak voordat u verzendt.
 
-* **Een lijst met personen importeren:** U kunt ontvangers importeren uit een bestand buiten SuperOffice CRM. Houd er rekening mee dat als u wilt dat uw resultaten van de mailing worden weergegeven op een persoonskaart in SuperOffice CRM, u een andere optie moet gebruiken. U kunt overwegen de contactpersonen eerst in SuperOffice CRM te importeren en vervolgens een selectie te maken. De laatste optie geeft u de mogelijkheid om geschiedenis van mailings op de persoonskaart te maken.
+* **Een lijst met personen importeren:** U kunt ontvangers importeren uit een bestand buiten SuperOffice CRM.
+  * Als u wilt dat uw resultaten van de mailing worden weergegeven op een persoonskaart in SuperOffice CRM, u een andere optie moet gebruiken. U kunt overwegen de contactpersonen eerst in SuperOffice CRM te importeren en vervolgens een selectie te maken. De laatste optie geeft u de mogelijkheid om geschiedenis van mailings op de persoonskaart te maken.
+  * Vanwege GDPR-regelgeving mogen alleen personen met geldige toestemming als ontvangers worden toegevoegd. Bij het importeren van een lijst vergelijkt SuperOffice de invoer met personen in de CRM-database. Namen of e-mailadressen die niet in SuperOffice voorkomen, worden uitgesloten van de mailing.
 
 ## Beperk uw doellijst
 
