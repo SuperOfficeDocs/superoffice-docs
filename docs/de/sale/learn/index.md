@@ -4,8 +4,8 @@ title: Verkauf
 description: SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten.
 keywords: Verkaufskarte, Verkaufsansicht, Verkauf, Lead
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ Die **Verkauf**-Funktion in SuperOffice CRM hilft Ihnen, Verkaufschancen effizie
 
 Sie können Verkäufe mit Firmen, Personen und Projekten verknüpfen, um die Zusammenarbeit zwischen Teams zu optimieren. Verkäufe können zudem durch Verkaufsleitfäden gesteuert werden, sofern der gewählte Verkaufstyp einen definierten Leitfaden enthält.
 
-Sehen Sie sich dieses Video an und erfahren Sie, wie einfach es ist, Verkaufschancen mit SuperOffice CRM zu verfolgen:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(Videolänge – 2:16)
-
-Die Verkaufsansicht organisiert Verkäufe wie Karteikarten und bietet eine detaillierte Übersicht über jede Verkaufschance. Navigieren Sie zwischen Verkäufen mit den Schaltflächen **Zurück** und **Weiter** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) unten rechts in der Verkaufskarte. Standardmäßig werden alle Verkäufe angezeigt. Wenn Sie abgeschlossene Verkäufe (verkauft oder verloren) ausblenden möchten, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> und wählen Sie **Abgeschlossene Verkäufe überspringen**.
+Die Verkaufsansicht organisiert Verkäufe wie Karteikarten und bietet eine detaillierte Übersicht über jede Verkaufschance. Navigieren Sie zwischen Verkäufen mit den Schaltflächen **Zurück** und **Weiter** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) unten rechts in der Verkaufskarte. Standardmäßig werden alle Verkäufe angezeigt. Wenn Sie abgeschlossene Verkäufe (verkauft oder verloren) ausblenden möchten, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> und wählen Sie **Abgeschlossene Verkäufe überspringen**. Diese Option ist auch als Einstellung verfügbar unter <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Verkauf**.
 
 > [!TIP]
 > Verkäufe sind auch in der [Bereichsregisterkarte Verkäufe][13] in den Ansichten Firma, Person, Projekt und Kalender sichtbar. Doppelklicken Sie auf einen Verkauf in diesen Ansichten, um ihn in der Verkaufsansicht zu öffnen.

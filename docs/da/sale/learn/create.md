@@ -4,8 +4,8 @@ title: Registrer et salg
 description: Registrer salg i SuperOffice Sales for at samle alle dine muligheder og kundeoplysninger ét sted. Denne vejledning viser, hvordan du registrerer salg.
 keywords: opret salg, nyt salg, tilføj salg, registrer salg, salg
 author: SuperOffice RnD
-date: 03.07.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 license: salesessentials
 audience: person
@@ -15,12 +15,7 @@ language: da
 
 # Registrer et salg
 
-Du kan oprette et salg i SuperOffice CRM ved at bruge knappen **Ny** i toplinjen. Se denne video eller følg trinene nedenfor for at registrere et salg:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
-
-(videoens længde – 2:10)
+Du kan oprette et salg i SuperOffice CRM ved at bruge knappen **Ny** i toplinjen.
 
 ## Trin
 

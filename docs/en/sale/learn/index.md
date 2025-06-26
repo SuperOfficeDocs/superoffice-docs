@@ -4,8 +4,8 @@ title: Sale
 description: SuperOffice Sales helps sales teams stay in control of their sales pipelines and processes.
 keywords: Sale card, Sale screen, sale, lead
 author: Bergfrid Dias
-date: 01.06.2025
-version: 10.3.11
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ The **Sale** feature in SuperOffice CRM helps you manage sales opportunities eff
 
 You can link sales to companies, contacts, and projects, enabling seamless collaboration across teams. Sales can also be guided using sales guides, assuming the selected sale type has a guide defined.
 
-Watch this video and see how easy pursuing sales opportunities can be with SuperOffice CRM:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(video length - 2:16)
-
-The Sale screen organizes sales like index cards, providing a detailed overview of each opportunity. Navigate between sales using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the cards. By default all sales are displayed. If you do not want to show completed sales (sold or lost), click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Skip completed sales**.
+The Sale screen organizes sales like index cards, providing a detailed overview of each opportunity. Navigate between sales using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the cards. By default all sales are displayed. If you do not want to show completed sales (sold or lost), click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Skip completed sales**. This option is also available as a setting under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Sale**.
 
 > [!TIP]
 > Sales are also visible in the [Sales section tab][13] of the Company, Contact, Project, and Diary screens. Double-click a sale in these locations to open it in the Sale screen.
