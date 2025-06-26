@@ -1,11 +1,11 @@
 ---
 uid: help-en-basics-delete
-title: Deleting elements
+title: Delete and restore items
 description: How to merge, delete and restore elements.
 keywords: delete, restore, recycle bin
-author: SuperOffice
-date: 01.20.2025
-version: 10.5
+author: SuperOffice Product and Engineering
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ You also have an option to restore other users' deleted companies and contacts, 
 
 5. Click **Restore**. The companies and contacts are restored in SuperOffice.
 
+## Delete and restore requests
+
+Deleting and restoring requests works similarly to companies and contacts.
+
+To [delete a request][9], your user must belong to a role with the functional right **Service administration** or **General Administrator**.
+
+To restore a deleted request, it is sufficient to have the functional right **Edit all requests**. This gives access to view and restore all deleted requests from the recycle bin.
+
+1. Choose <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Recycle bin**.
+1. Select the **Requests** tab to view deleted requests.
+1. Select the requests you want to restore.
+1. Click **Restore**. The requests are restored in SuperOffice.
+
 ## Buttons
 
 | Button | Effect |
@@ -105,6 +118,7 @@ You also have an option to restore other users' deleted companies and contacts, 
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png

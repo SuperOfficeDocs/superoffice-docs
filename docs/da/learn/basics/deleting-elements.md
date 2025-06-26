@@ -1,11 +1,11 @@
 ---
 uid: help-da-basics-delete
-title: Sletning af elementer
+title: Slet og gendan elementer
 description: Sådan flettes, slettes og gendannes elementer.
 keywords: slette, genoprette, papirkurv
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ Du har også mulighed for at gendanne andre brugeres slettede firmaer og persone
 
 5. Klik på **Gendan**. Firmaerne og personerne gendannes i SuperOffice.
 
+## Slet og gendan sager
+
+Sletning og gendannelse af sager fungerer på samme måde som ved firmaer og personer.
+
+For at [slette en sag][9] skal brugeren tilhøre en rolle med den funktionelle rettighed **Serviceadministration** eller **Generel administrator**.
+
+For at gendanne en slettet sag er det nok at have den funktionelle rettighed **Redigere alle sager**. Dette giver adgang til at se og gendanne alle slettede sager fra papirkurven.
+
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Papirkurv**.
+1. Vælg fanen **Sager** for at se slettede sager.
+1. Marker de sager, du vil gendanne.
+1. Klik **Gendan**. Sagerne gendannes i SuperOffice.
+
 ## Knapper
 
 | Knap | Effekt |
@@ -105,6 +118,7 @@ Du har også mulighed for at gendanne andre brugeres slettede firmaer og persone
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
