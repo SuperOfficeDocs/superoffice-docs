@@ -4,8 +4,8 @@ title: Oprette en målliste
 description: Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste.
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -40,7 +40,9 @@ GDPR er ikke bare lovgivning, det er også en fantastisk mulighed for dig til at
 
 * **Enkeltstående kontakter:** Du kan tilføje personer fra databasen én efter én ved at søge på deres navn eller på en anden værdi. Du kan også indsætte specifikke e-mailadresser på din målliste. Det er smart, når du vil tilføje nogen lige inden, du sender ud.
 
-* **Importere kontaktliste:** Du kan importere modtagere fra en fil uden for SuperOffice CRM. Hvis du ønsker, at dine resultater fra mailudsendelsen skal vises på et kontaktkort i SuperOffice CRM, skal du vælge en anden mulighed. Du kan overveje først at importere kontakterne til SuperOffice CRM og derefter markere et udvalg. På den måde får du mulighed for at oprette en historik over mailudsendelser på kontaktkortet.
+* **Importere kontaktliste:** Du kan importere modtagere fra en fil uden for SuperOffice CRM.
+  * Hvis du ønsker, at dine resultater fra mailudsendelsen skal vises på et personkort i SuperOffice CRM, skal du vælge en anden mulighed. Du kan overveje først at importere personerne til SuperOffice CRM og derefter markere et udvalg. På den måde får du mulighed for at oprette en historik over mailudsendelser på personkortet.
+  * På grund af GDPR-regler må kun personer, der har givet gyldigt samtykke, tilføjes som modtagere. Når du importerer en liste, matcher SuperOffice posteringer med personer i CRM-databasen. Navne eller e-mailadresser, der ikke findes i SuperOffice, vil blive ekskluderet fra mailingen.
 
 ## Afgrænse mållisten
 
