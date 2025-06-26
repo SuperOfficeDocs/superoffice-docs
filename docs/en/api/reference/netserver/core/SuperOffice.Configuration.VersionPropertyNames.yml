@@ -5,6 +5,7 @@ items:
   id: VersionPropertyNames
   parent: SuperOffice.Configuration
   children:
+  - SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
   - SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   - SuperOffice.Configuration.VersionPropertyNames.DebugUser
@@ -165,6 +166,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SampleInCustomCrmScript As String = "SampleInCustomCrmScript"
+- uid: SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
+  id: AggregateApisInSnapshot
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: AggregateApisInSnapshot
+  nameWithType: VersionPropertyNames.AggregateApisInSnapshot
+  fullName: SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Collect aggregated data from API snapshots
+  example: []
+  syntax:
+    content: public const string AggregateApisInSnapshot = "AggregateApisInSnapshot"
+    return:
+      type: System.String
+    content.vb: Public Const AggregateApisInSnapshot As String = "AggregateApisInSnapshot"
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration

@@ -44,7 +44,7 @@ items:
 
     <br />
 
-    It should only be used for temporary, explorative code that we need to test in Prod, but want/nees to be able
+    It should only be used for temporary, explorative code that we need to test in Prod, but want/needs to be able
 
     to fine-tune or turn off entirely, perhaps in a hurry when we realise it wasn't such a good idea after all.
 

@@ -4,6 +4,9 @@ items:
   commentId: N:SuperOffice.WebApi.Data
   id: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+  - SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
+  - SuperOffice.WebApi.Data.AI_AnswerRequest
   - SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
   - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   - SuperOffice.WebApi.Data.AI_DetectLanguageRequest
@@ -18,6 +21,8 @@ items:
   - SuperOffice.WebApi.Data.AI_GetTrainingStatusRequest
   - SuperOffice.WebApi.Data.AI_GuessCategoryRequest
   - SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  - SuperOffice.WebApi.Data.AI_SearchRequest
+  - SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
   - SuperOffice.WebApi.Data.AI_SummarizeContactRequest
   - SuperOffice.WebApi.Data.AI_SummarizeSaleRequest
   - SuperOffice.WebApi.Data.AI_SummarizeTextRequest
@@ -409,6 +414,7 @@ items:
   - SuperOffice.WebApi.Data.Contact_CopyRequest
   - SuperOffice.WebApi.Data.Contact_CreateNewEntryRequest
   - SuperOffice.WebApi.Data.Contact_DeleteExpiredRequest
+  - SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
   - SuperOffice.WebApi.Data.Contact_GetAddressByCountryRequest
   - SuperOffice.WebApi.Data.Contact_GetAddressRequest
   - SuperOffice.WebApi.Data.Contact_GetContactSummaryRequest
@@ -424,6 +430,7 @@ items:
   - SuperOffice.WebApi.Data.Contact_GetNameDepartmentDuplicatesRequest
   - SuperOffice.WebApi.Data.Contact_GetPersonsRequest
   - SuperOffice.WebApi.Data.Contact_GetPreviewContactRequest
+  - SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest
   - SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
   - SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
   - SuperOffice.WebApi.Data.Contact_MergeRequest
@@ -548,6 +555,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForCurrentUserRequest
+  - SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
   - SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
@@ -1535,6 +1543,9 @@ items:
   - SuperOffice.WebApi.Data.Quote_ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest
   - SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
   - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  - SuperOffice.WebApi.Data.RagAnswer
+  - SuperOffice.WebApi.Data.RagResult
+  - SuperOffice.WebApi.Data.RagType
   - SuperOffice.WebApi.Data.Rating
   - SuperOffice.WebApi.Data.Reason
   - SuperOffice.WebApi.Data.ReasonSold
@@ -1743,6 +1754,7 @@ items:
   - SuperOffice.WebApi.Data.SystemMessageType
   - SuperOffice.WebApi.Data.SystemTemplateSettings
   - SuperOffice.WebApi.Data.TabOrder
+  - SuperOffice.WebApi.Data.TableManager
   - SuperOffice.WebApi.Data.TableRecord
   - SuperOffice.WebApi.Data.TableRight
   - SuperOffice.WebApi.Data.Tag
@@ -1945,6 +1957,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
   - SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
   - SuperOffice.WebApi.Data.UserPreferenceStrings.CloudServices
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DbOptimizations
@@ -2133,6 +2146,7 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
   - SuperOffice.WebApi.Data.WorkflowStepCreateRequest
   - SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  - SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
   - SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
   - SuperOffice.WebApi.Data.WorkflowStepNotifyBySMS
   - SuperOffice.WebApi.Data.WorkflowStepOptionBase
@@ -3952,6 +3966,13 @@ references:
   name: Contact_ValidateContactEntityRequest
   nameWithType: Contact_ValidateContactEntityRequest
   fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+- uid: SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest.html
+  name: Contact_EnrichContactEntityRequest
+  nameWithType: Contact_EnrichContactEntityRequest
+  fullName: SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
 - uid: SuperOffice.WebApi.Data.Contact_GetMyContactsRequest
   commentId: T:SuperOffice.WebApi.Data.Contact_GetMyContactsRequest
   isExternal: true
@@ -3987,6 +4008,13 @@ references:
   name: Contact_GetPreviewContactRequest
   nameWithType: Contact_GetPreviewContactRequest
   fullName: SuperOffice.WebApi.Data.Contact_GetPreviewContactRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest.html
+  name: Contact_GetPreviewEnrichContactRequest
+  nameWithType: Contact_GetPreviewEnrichContactRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest
 - uid: SuperOffice.WebApi.Data.ConsentInfo
   commentId: T:SuperOffice.WebApi.Data.ConsentInfo
   isExternal: true
@@ -9269,6 +9297,20 @@ references:
   name: Diagnostics_RemoveExpiredSystemMessagesRequest
   nameWithType: Diagnostics_RemoveExpiredSystemMessagesRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
+- uid: SuperOffice.WebApi.Data.TableManager
+  commentId: T:SuperOffice.WebApi.Data.TableManager
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TableManager.html
+  name: TableManager
+  nameWithType: TableManager
+  fullName: SuperOffice.WebApi.Data.TableManager
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest.html
+  name: Diagnostics_GetNextTableNumberRequest
+  nameWithType: Diagnostics_GetNextTableNumberRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest
 - uid: SuperOffice.WebApi.Data.Installation
   commentId: T:SuperOffice.WebApi.Data.Installation
   isExternal: true
@@ -15419,6 +15461,55 @@ references:
   name: AI_TranslateEntityRequest
   nameWithType: AI_TranslateEntityRequest
   fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+- uid: SuperOffice.WebApi.Data.RagAnswer
+  commentId: T:SuperOffice.WebApi.Data.RagAnswer
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagAnswer.html
+  name: RagAnswer
+  nameWithType: RagAnswer
+  fullName: SuperOffice.WebApi.Data.RagAnswer
+- uid: SuperOffice.WebApi.Data.AI_AnswerRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnswerRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerRequest.html
+  name: AI_AnswerRequest
+  nameWithType: AI_AnswerRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerRequest
+- uid: SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest.html
+  name: AI_AnswerFeedbackRequest
+  nameWithType: AI_AnswerFeedbackRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
+- uid: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest.html
+  name: AI_AnswerAcceptedRequest
+  nameWithType: AI_AnswerAcceptedRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+- uid: SuperOffice.WebApi.Data.RagResult
+  commentId: T:SuperOffice.WebApi.Data.RagResult
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagResult.html
+  name: RagResult
+  nameWithType: RagResult
+  fullName: SuperOffice.WebApi.Data.RagResult
+- uid: SuperOffice.WebApi.Data.AI_SearchRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_SearchRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_SearchRequest.html
+  name: AI_SearchRequest
+  nameWithType: AI_SearchRequest
+  fullName: SuperOffice.WebApi.Data.AI_SearchRequest
+- uid: SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_StartRagIndexingRequest.html
+  name: AI_StartRagIndexingRequest
+  nameWithType: AI_StartRagIndexingRequest
+  fullName: SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
 - uid: SuperOffice.WebApi.Data.Summarizer
   commentId: T:SuperOffice.WebApi.Data.Summarizer
   isExternal: true
@@ -15736,6 +15827,14 @@ references:
   name: WorkflowStepCreateSale
   nameWithType: WorkflowStepCreateSale
   fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+- uid: SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner.html
+  name: WorkflowStepDistributeToOwner
+  nameWithType: WorkflowStepDistributeToOwner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
 - uid: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
   parent: SuperOffice.WebApi.Data
@@ -17086,6 +17185,14 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.WebApi.Data.AiTextStyle
+- uid: SuperOffice.WebApi.Data.RagType
+  commentId: T:SuperOffice.WebApi.Data.RagType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.WebApi.Data.RagType
 - uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions
   commentId: T:SuperOffice.WebApi.Data.HtmlSanitizerOptions
   parent: SuperOffice.WebApi.Data
@@ -18984,6 +19091,33 @@ references:
     name: InApp
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.html
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  name: UserPreferenceStrings.Copilot
+  nameWithType: UserPreferenceStrings.Copilot
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+    name: Copilot
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.html
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+    name: Copilot
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.html
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter
   commentId: T:SuperOffice.WebApi.Data.CultureDataFormatter
   isExternal: true

@@ -15,6 +15,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.DeleteContactEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -33,6 +34,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent.GetNameDepartmentDuplicatesAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetPersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetPreviewContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.GetQuoteVersionAddressesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ContactAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -1227,6 +1229,44 @@ items:
   overload: SuperOffice.WebApi.Agents.ContactAgent.ValidateContactEntityAsync*
   implements:
   - SuperOffice.WebApi.Agents.IContactAgent.ValidateContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  id: EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: EnrichContactEntityAsync(ContactEntity, string, RequestOptions)
+  nameWithType: ContactAgent.EnrichContactEntityAsync(ContactEntity, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Enrich a contact with data from the AI Enrichment service. This will update the contact with address, phone number, and email.
+  example: []
+  syntax:
+    content: public Task<ContactEntity> EnrichContactEntityAsync(ContactEntity contactEntity, string enrichId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.WebApi.Data.ContactEntity
+      description: The contact entity to enrich.
+    - id: enrichId
+      type: System.String
+      description: Id from the EnrichContact provider
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactEntity}
+      description: Enriched contact entity with address, phone number, and email updated.
+    content.vb: Public Function EnrichContactEntityAsync(contactEntity As ContactEntity, enrichId As String, requestOptions As RequestOptions = Nothing) As Task(Of ContactEntity)
+  overload: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ContactAgent.EnrichContactEntityAsync(ContactEntity, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: EnrichContactEntityAsync(ContactEntity, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ContactAgent.GetContactListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ContactAgent.GetContactListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetContactListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -1350,7 +1390,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreviewContact}
-      description: Contact minimal contact suitable for preview
+      description: Minimal contact suitable for preview
     content.vb: Public Function GetPreviewContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreviewContact)
   overload: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewContactAsync*
   implements:
@@ -1358,6 +1398,41 @@ items:
   nameWithType.vb: ContactAgent.GetPreviewContactAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewContactAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetPreviewContactAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewEnrichContactAsync(string, RequestOptions)
+  nameWithType: ContactAgent.GetPreviewEnrichContactAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get a contact from its ID
+  example: []
+  syntax:
+    content: public Task<PreviewContact> GetPreviewEnrichContactAsync(string enrichId, RequestOptions requestOptions = null)
+    parameters:
+    - id: enrichId
+      type: System.String
+      description: Enrich Contact ID from the EnrichContact MDO list provider
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreviewContact}
+      description: Minimal contact suitable for preview
+    content.vb: Public Function GetPreviewEnrichContactAsync(enrichId As String, requestOptions As RequestOptions = Nothing) As Task(Of PreviewContact)
+  overload: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ContactAgent.GetPreviewEnrichContactAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPreviewEnrichContactAsync(String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -4960,6 +5035,70 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.StringDictionary.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ContactAgent.html#SuperOffice_WebApi_Agents_ContactAgent_EnrichContactEntityAsync_SuperOffice_WebApi_Data_ContactEntity_System_String_SuperOffice_WebApi_RequestOptions_
+  name: EnrichContactEntityAsync
+  nameWithType: ContactAgent.EnrichContactEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ContactAgent.EnrichContactEntityAsync
+- uid: SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IContactAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_EnrichContactEntityAsync_SuperOffice_WebApi_Data_ContactEntity_System_String_SuperOffice_WebApi_RequestOptions_
+  name: EnrichContactEntityAsync(ContactEntity, string, RequestOptions)
+  nameWithType: IContactAgent.EnrichContactEntityAsync(ContactEntity, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IContactAgent.EnrichContactEntityAsync(ContactEntity, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: EnrichContactEntityAsync(ContactEntity, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+    name: EnrichContactEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_EnrichContactEntityAsync_SuperOffice_WebApi_Data_ContactEntity_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ContactEntity
+    name: ContactEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ContactEntity.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IContactAgent.EnrichContactEntityAsync(SuperOffice.WebApi.Data.ContactEntity,System.String,SuperOffice.WebApi.RequestOptions)
+    name: EnrichContactEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_EnrichContactEntityAsync_SuperOffice_WebApi_Data_ContactEntity_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ContactEntity
+    name: ContactEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ContactEntity.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.ContactAgent.GetContactListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ContactAgent.GetContactListAsync
   isExternal: true
@@ -5194,6 +5333,58 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ContactAgent.html#SuperOffice_WebApi_Agents_ContactAgent_GetPreviewEnrichContactAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetPreviewEnrichContactAsync
+  nameWithType: ContactAgent.GetPreviewEnrichContactAsync
+  fullName: SuperOffice.WebApi.Agents.ContactAgent.GetPreviewEnrichContactAsync
+- uid: SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IContactAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_GetPreviewEnrichContactAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetPreviewEnrichContactAsync(string, RequestOptions)
+  nameWithType: IContactAgent.GetPreviewEnrichContactAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IContactAgent.GetPreviewEnrichContactAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPreviewEnrichContactAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPreviewEnrichContactAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_GetPreviewEnrichContactAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IContactAgent.GetPreviewEnrichContactAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPreviewEnrichContactAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IContactAgent.html#SuperOffice_WebApi_Agents_IContactAgent_GetPreviewEnrichContactAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: SuperOffice.WebApi.RequestOptions

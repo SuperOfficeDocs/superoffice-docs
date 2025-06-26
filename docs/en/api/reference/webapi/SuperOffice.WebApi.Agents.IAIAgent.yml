@@ -5,6 +5,9 @@ items:
   id: IAIAgent
   parent: SuperOffice.WebApi.Agents
   children:
+  - SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -19,6 +22,8 @@ items:
   - SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GuessCategoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.SummarizeContactAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.SummarizeSaleAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -589,6 +594,195 @@ items:
   nameWithType.vb: IAIAgent.TranslateEntityAsync(String, Integer, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync(String, Integer, String, SuperOffice.WebApi.RequestOptions)
   name.vb: TranslateEntityAsync(String, Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnswerAsync(string, string, RagType, int, RequestOptions)
+  nameWithType: IAIAgent.AnswerAsync(string, string, RagType, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(string, string, SuperOffice.WebApi.Data.RagType, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns an answer.
+  example: []
+  syntax:
+    content: Task<RagAnswer> AnswerAsync(string namespaceName, string query, RagType type, int top, RequestOptions requestOptions = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Defines the search domain used for generating answer. e.g. 'ServiceCopilot'
+    - id: query
+      type: System.String
+      description: Question. The search query to answer.
+    - id: type
+      type: SuperOffice.WebApi.Data.RagType
+      description: 'Filter results based on content type. Default: None = no filtering'
+    - id: top
+      type: System.Int32
+      description: Max Number of results to use in generating answer.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagAnswer}
+      description: Generated answer based on query.
+    content.vb: Function AnswerAsync(namespaceName As String, query As String, type As RagType, top As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RagAnswer)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync*
+  nameWithType.vb: IAIAgent.AnswerAsync(String, String, RagType, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(String, String, SuperOffice.WebApi.Data.RagType, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: AnswerAsync(String, String, RagType, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnswerFeedbackAsync(string, bool, RequestOptions)
+  nameWithType: IAIAgent.AnswerFeedbackAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Send feedback on answer - feedback is logged and used to improve the answer algorithm.
+  example: []
+  syntax:
+    content: Task AnswerFeedbackAsync(string trackingId, bool isThumbsUp, RequestOptions requestOptions = null)
+    parameters:
+    - id: trackingId
+      type: System.String
+      description: The id of the answer that you are giving feedback to.
+    - id: isThumbsUp
+      type: System.Boolean
+      description: True = Like, False = Dislike.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AnswerFeedbackAsync(trackingId As String, isThumbsUp As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync*
+  nameWithType.vb: IAIAgent.AnswerFeedbackAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: AnswerFeedbackAsync(String, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnswerAcceptedAsync(string, RequestOptions)
+  nameWithType: IAIAgent.AnswerAcceptedAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Signal that answer was inserted into response- feedback is logged and used to improve the answer algorithm.
+  example: []
+  syntax:
+    content: Task AnswerAcceptedAsync(string trackingId, RequestOptions requestOptions = null)
+    parameters:
+    - id: trackingId
+      type: System.String
+      description: The id of the answer that you are giving feedback to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AnswerAcceptedAsync(trackingId As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync*
+  nameWithType.vb: IAIAgent.AnswerAcceptedAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AnswerAcceptedAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SearchAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(string, string, RagType, int, RequestOptions)
+  nameWithType: IAIAgent.SearchAsync(string, string, RagType, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync(string, string, SuperOffice.WebApi.Data.RagType, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns semantic search results from vector database.
+  example: []
+  syntax:
+    content: Task<RagResult[]> SearchAsync(string namespaceName, string query, RagType type, int top, RequestOptions requestOptions = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Defines the search domain. e.g. 'ServiceCopilot'.
+    - id: query
+      type: System.String
+      description: Search query.
+    - id: type
+      type: SuperOffice.WebApi.Data.RagType
+      description: 'Filter results based on a specific content type. Default: None = no filtering'
+    - id: top
+      type: System.Int32
+      description: Max Number of results to return.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagResult[]}
+      description: Array containing vector search results
+    content.vb: Function SearchAsync(namespaceName As String, query As String, type As RagType, top As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RagResult())
+  overload: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync*
+  nameWithType.vb: IAIAgent.SearchAsync(String, String, RagType, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync(String, String, SuperOffice.WebApi.Data.RagType, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SearchAsync(String, String, RagType, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: StartRagIndexingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: StartRagIndexingAsync(string, string, RequestOptions)
+  nameWithType: IAIAgent.StartRagIndexingAsync(string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync(string, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Kicks off a batch task to update the RAG index
+  example: []
+  syntax:
+    content: Task<int> StartRagIndexingAsync(string namespaceName, string sourceId, RequestOptions requestOptions = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Defines the search domain. e.g. 'ServiceCopilot'.
+    - id: sourceId
+      type: System.String
+      description: (Optional) Identifies the data source to update. Blank = all sources
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The batch task id
+    content.vb: Function StartRagIndexingAsync(namespaceName As String, sourceId As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync*
+  nameWithType.vb: IAIAgent.StartRagIndexingAsync(String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync(String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: StartRagIndexingAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1432,6 +1626,134 @@ references:
   name: TranslateEntityAsync
   nameWithType: IAIAgent.TranslateEntityAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.TranslateEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_AnswerAsync_System_String_System_String_SuperOffice_WebApi_Data_RagType_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: AnswerAsync
+  nameWithType: IAIAgent.AnswerAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync
+- uid: SuperOffice.WebApi.Data.RagType
+  commentId: T:SuperOffice.WebApi.Data.RagType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.WebApi.Data.RagType
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagAnswer}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagAnswer}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RagAnswer>
+  nameWithType: Task<RagAnswer>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RagAnswer>
+  nameWithType.vb: Task(Of RagAnswer)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.RagAnswer)
+  name.vb: Task(Of RagAnswer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.RagAnswer
+    name: RagAnswer
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagAnswer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.RagAnswer
+    name: RagAnswer
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagAnswer.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_AnswerFeedbackAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: AnswerFeedbackAsync
+  nameWithType: IAIAgent.AnswerFeedbackAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_AnswerAcceptedAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: AnswerAcceptedAsync
+  nameWithType: IAIAgent.AnswerAcceptedAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SearchAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_SearchAsync_System_String_System_String_SuperOffice_WebApi_Data_RagType_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SearchAsync
+  nameWithType: IAIAgent.SearchAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.SearchAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagResult[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagResult[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RagResult[]>
+  nameWithType: Task<RagResult[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RagResult[]>
+  nameWithType.vb: Task(Of RagResult())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.RagResult())
+  name.vb: Task(Of RagResult())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.RagResult
+    name: RagResult
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagResult.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.RagResult
+    name: RagResult
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagResult.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_StartRagIndexingAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  name: StartRagIndexingAsync
+  nameWithType: IAIAgent.StartRagIndexingAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.StartRagIndexingAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.SummarizeTicketAsync
   isExternal: true

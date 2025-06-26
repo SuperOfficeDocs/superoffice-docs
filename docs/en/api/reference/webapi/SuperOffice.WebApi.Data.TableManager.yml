@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TableManager
+  commentId: T:SuperOffice.WebApi.Data.TableManager
+  id: TableManager
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TableManager.#ctor
+  langs:
+  - csharp
+  - vb
+  name: TableManager
+  nameWithType: TableManager
+  fullName: SuperOffice.WebApi.Data.TableManager
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for TableManager.
+
+    Operations related to table management
+  example: []
+  syntax:
+    content: 'public class TableManager : Carrier'
+    content.vb: Public Class TableManager Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DiagnosticsAgent
+    commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.TableManager.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TableManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TableManager
+  langs:
+  - csharp
+  - vb
+  name: TableManager()
+  nameWithType: TableManager.TableManager()
+  fullName: SuperOffice.WebApi.Data.TableManager.TableManager()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public TableManager()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.TableManager.#ctor*
+  nameWithType.vb: TableManager.New()
+  fullName.vb: SuperOffice.WebApi.Data.TableManager.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TableManager.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TableManager.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TableManager.html#SuperOffice_WebApi_Data_TableManager__ctor
+  name: TableManager
+  nameWithType: TableManager.TableManager
+  fullName: SuperOffice.WebApi.Data.TableManager.TableManager
+  nameWithType.vb: TableManager.New
+  fullName.vb: SuperOffice.WebApi.Data.TableManager.New
+  name.vb: New

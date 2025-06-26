@@ -248,105 +248,6 @@ references:
   name: FreetextStatusCache
   nameWithType: FreetextStatusCache
   fullName: SuperOffice.CRM.Cache.FreetextStatusCache
-- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
-  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  name: MDOListTableCacheBase
-  nameWithType: MDOListTableCacheBase
-  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
-- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  name: MDOListTableCacheBase.MDOCacheElement
-  nameWithType: MDOListTableCacheBase.MDOCacheElement
-  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
-    name: MDOListTableCacheBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-    name: MDOCacheElement
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
-    name: MDOListTableCacheBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-    name: MDOCacheElement
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
-- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
-  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
-  isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
-  name: MDOListTableCacheTypedBase<T>
-  nameWithType: MDOListTableCacheTypedBase<T>
-  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>
-  nameWithType.vb: MDOListTableCacheTypedBase(Of T)
-  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T)
-  name.vb: MDOListTableCacheTypedBase(Of T)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
-    name: MDOListTableCacheTypedBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
-    name: MDOListTableCacheTypedBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.Cache.MDOPreferenceCache
-  commentId: T:SuperOffice.CRM.Cache.MDOPreferenceCache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.MDOPreferenceCache.html
-  name: MDOPreferenceCache
-  nameWithType: MDOPreferenceCache
-  fullName: SuperOffice.CRM.Cache.MDOPreferenceCache
-- uid: SuperOffice.CRM.Cache.RelationDefinitionCache
-  commentId: T:SuperOffice.CRM.Cache.RelationDefinitionCache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.RelationDefinitionCache.html
-  name: RelationDefinitionCache
-  nameWithType: RelationDefinitionCache
-  fullName: SuperOffice.CRM.Cache.RelationDefinitionCache
-- uid: SuperOffice.CRM.Cache.RoleCache
-  commentId: T:SuperOffice.CRM.Cache.RoleCache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.RoleCache.html
-  name: RoleCache
-  nameWithType: RoleCache
-  fullName: SuperOffice.CRM.Cache.RoleCache
-- uid: SuperOffice.CRM.Cache.TicketPriorityCache
-  commentId: T:SuperOffice.CRM.Cache.TicketPriorityCache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.TicketPriorityCache.html
-  name: TicketPriorityCache
-  nameWithType: TicketPriorityCache
-  fullName: SuperOffice.CRM.Cache.TicketPriorityCache
-- uid: SuperOffice.CRM.Cache.TicketStatusCache
-  commentId: T:SuperOffice.CRM.Cache.TicketStatusCache
-  isExternal: true
-  href: SuperOffice.CRM.Cache.TicketStatusCache.html
-  name: TicketStatusCache
-  nameWithType: TicketStatusCache
-  fullName: SuperOffice.CRM.Cache.TicketStatusCache
 - uid: SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   commentId: T:SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   isExternal: true
@@ -676,6 +577,105 @@ references:
   name: MDOListTableCaches
   nameWithType: MDOListTableCaches
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
+  name: MDOListTableCacheBase
+  nameWithType: MDOListTableCacheBase
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
+  name: MDOListTableCacheBase.MDOCacheElement
+  nameWithType: MDOListTableCacheBase.MDOCacheElement
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
+    name: MDOListTableCacheBase
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    name: MDOCacheElement
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
+    name: MDOListTableCacheBase
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
+  - name: .
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    name: MDOCacheElement
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+  isExternal: true
+  href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
+  name: MDOListTableCacheTypedBase<T>
+  nameWithType: MDOListTableCacheTypedBase<T>
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>
+  nameWithType.vb: MDOListTableCacheTypedBase(Of T)
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T)
+  name.vb: MDOListTableCacheTypedBase(Of T)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    isExternal: true
+    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.Cache.MDOPreferenceCache
+  commentId: T:SuperOffice.CRM.Cache.MDOPreferenceCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.MDOPreferenceCache.html
+  name: MDOPreferenceCache
+  nameWithType: MDOPreferenceCache
+  fullName: SuperOffice.CRM.Cache.MDOPreferenceCache
+- uid: SuperOffice.CRM.Cache.RelationDefinitionCache
+  commentId: T:SuperOffice.CRM.Cache.RelationDefinitionCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.RelationDefinitionCache.html
+  name: RelationDefinitionCache
+  nameWithType: RelationDefinitionCache
+  fullName: SuperOffice.CRM.Cache.RelationDefinitionCache
+- uid: SuperOffice.CRM.Cache.RoleCache
+  commentId: T:SuperOffice.CRM.Cache.RoleCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.RoleCache.html
+  name: RoleCache
+  nameWithType: RoleCache
+  fullName: SuperOffice.CRM.Cache.RoleCache
+- uid: SuperOffice.CRM.Cache.TicketPriorityCache
+  commentId: T:SuperOffice.CRM.Cache.TicketPriorityCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.TicketPriorityCache.html
+  name: TicketPriorityCache
+  nameWithType: TicketPriorityCache
+  fullName: SuperOffice.CRM.Cache.TicketPriorityCache
+- uid: SuperOffice.CRM.Cache.TicketStatusCache
+  commentId: T:SuperOffice.CRM.Cache.TicketStatusCache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.TicketStatusCache.html
+  name: TicketStatusCache
+  nameWithType: TicketStatusCache
+  fullName: SuperOffice.CRM.Cache.TicketStatusCache
 - uid: SuperOffice.CRM.Cache.SystemEventCache
   commentId: T:SuperOffice.CRM.Cache.SystemEventCache
   isExternal: true

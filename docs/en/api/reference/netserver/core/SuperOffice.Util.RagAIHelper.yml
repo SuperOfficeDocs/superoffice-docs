@@ -1,0 +1,1702 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.RagAIHelper
+  commentId: T:SuperOffice.Util.RagAIHelper
+  id: RagAIHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
+  - SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+  - SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
+  - SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
+  - SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
+  - SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
+  - SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
+  - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
+  - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - SuperOffice.Util.RagAIHelper.ServiceCopilotNS
+  langs:
+  - csharp
+  - vb
+  name: RagAIHelper
+  nameWithType: RagAIHelper
+  fullName: SuperOffice.Util.RagAIHelper
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: >-
+    Call AI RAG backend services.
+
+    Requires ServiceCopilot feature toggle or
+
+    AiPlatform + AiTextServices/AiCategorization licenses.
+
+    Gets options from appsettings.json via RagConfiguration options.
+  example: []
+  syntax:
+    content: 'public class RagAIHelper : IAccessTokenProvider'
+    content.vb: Public Class RagAIHelper Implements IAccessTokenProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.RagAIHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Util.RagAIHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.RagAIHelper.ServiceCopilotNS
+  commentId: F:SuperOffice.Util.RagAIHelper.ServiceCopilotNS
+  id: ServiceCopilotNS
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: ServiceCopilotNS
+  nameWithType: RagAIHelper.ServiceCopilotNS
+  fullName: SuperOffice.Util.RagAIHelper.ServiceCopilotNS
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string ServiceCopilotNS = "ServiceCopilot"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceCopilotNS As String = "ServiceCopilot"
+- uid: SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
+  commentId: M:SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})'
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>)
+  nameWithType: RagAIHelper.RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>)
+  fullName: SuperOffice.Util.RagAIHelper.RagAIHelper(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.RagAIConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public RagAIHelper(IOptions<RagAIConfiguration> options, ILogger<RagAIHelper> logger)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
+    content.vb: Public Sub New(options As IOptions(Of RagAIConfiguration), logger As ILogger(Of RagAIHelper))
+  overload: SuperOffice.Util.RagAIHelper.#ctor*
+  nameWithType.vb: RagAIHelper.New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper))
+  fullName.vb: SuperOffice.Util.RagAIHelper.New(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.RagAIConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper))
+  name.vb: New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper))
+- uid: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
+  id: GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorizationTokenAsync(Uri, Dictionary<string, object>, CancellationToken)
+  nameWithType: RagAIHelper.GetAuthorizationTokenAsync(Uri, Dictionary<string, object>, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary<string, object>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<string> GetAuthorizationTokenAsync(Uri uri, Dictionary<string, object> additionalAuthenticationContext = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: uri
+      type: System.Uri
+    - id: additionalAuthenticationContext
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function GetAuthorizationTokenAsync(uri As Uri, additionalAuthenticationContext As Dictionary(Of String, Object) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync*
+  nameWithType.vb: RagAIHelper.GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary(Of String, Object), System.Threading.CancellationToken)
+  name.vb: GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
+  id: AnswerFeedbackAsync(System.String,System.Boolean)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: AnswerFeedbackAsync(string, bool)
+  nameWithType: RagAIHelper.AnswerFeedbackAsync(string, bool)
+  fullName: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(string, bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task AnswerFeedbackAsync(string trackingId, bool isThumbsUp)
+    parameters:
+    - id: trackingId
+      type: System.String
+    - id: isThumbsUp
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AnswerFeedbackAsync(trackingId As String, isThumbsUp As Boolean) As Task
+  overload: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync*
+  nameWithType.vb: RagAIHelper.AnswerFeedbackAsync(String, Boolean)
+  fullName.vb: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(String, Boolean)
+  name.vb: AnswerFeedbackAsync(String, Boolean)
+- uid: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
+  id: AnswerAcceptedAsync(System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: AnswerAcceptedAsync(string)
+  nameWithType: RagAIHelper.AnswerAcceptedAsync(string)
+  fullName: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task AnswerAcceptedAsync(string trackingId)
+    parameters:
+    - id: trackingId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AnswerAcceptedAsync(trackingId As String) As Task
+  overload: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync*
+  nameWithType.vb: RagAIHelper.AnswerAcceptedAsync(String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(String)
+  name.vb: AnswerAcceptedAsync(String)
+- uid: SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
+  id: IndexingStarted(System.String,System.String,System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: IndexingStarted(string, string, string)
+  nameWithType: RagAIHelper.IndexingStarted(string, string, string)
+  fullName: SuperOffice.Util.RagAIHelper.IndexingStarted(string, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task IndexingStarted(string namespaceName, string uid, string tag)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    - id: uid
+      type: System.String
+    - id: tag
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function IndexingStarted(namespaceName As String, uid As String, tag As String) As Task
+  overload: SuperOffice.Util.RagAIHelper.IndexingStarted*
+  nameWithType.vb: RagAIHelper.IndexingStarted(String, String, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingStarted(String, String, String)
+  name.vb: IndexingStarted(String, String, String)
+- uid: SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
+  id: IndexingFinished(System.String,System.String,System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: IndexingFinished(string, string, string)
+  nameWithType: RagAIHelper.IndexingFinished(string, string, string)
+  fullName: SuperOffice.Util.RagAIHelper.IndexingFinished(string, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task IndexingFinished(string namespaceName, string uid, string tag)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    - id: uid
+      type: System.String
+    - id: tag
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function IndexingFinished(namespaceName As String, uid As String, tag As String) As Task
+  overload: SuperOffice.Util.RagAIHelper.IndexingFinished*
+  nameWithType.vb: RagAIHelper.IndexingFinished(String, String, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingFinished(String, String, String)
+  name.vb: IndexingFinished(String, String, String)
+- uid: SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
+  id: InitNamespace(System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: InitNamespace(string)
+  nameWithType: RagAIHelper.InitNamespace(string)
+  fullName: SuperOffice.Util.RagAIHelper.InitNamespace(string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task InitNamespace(string namespaceName)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function InitNamespace(namespaceName As String) As Task
+  overload: SuperOffice.Util.RagAIHelper.InitNamespace*
+  nameWithType.vb: RagAIHelper.InitNamespace(String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.InitNamespace(String)
+  name.vb: InitNamespace(String)
+- uid: SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
+  id: DeleteNamespace(System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteNamespace(string)
+  nameWithType: RagAIHelper.DeleteNamespace(string)
+  fullName: SuperOffice.Util.RagAIHelper.DeleteNamespace(string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task DeleteNamespace(string namespaceName)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteNamespace(namespaceName As String) As Task
+  overload: SuperOffice.Util.RagAIHelper.DeleteNamespace*
+  nameWithType.vb: RagAIHelper.DeleteNamespace(String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.DeleteNamespace(String)
+  name.vb: DeleteNamespace(String)
+- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
+  nameWithType: RagAIHelper.PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
+  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task PutDocument(string namespaceName, string uid, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    - id: uid
+      type: System.String
+    - id: id
+      type: System.String
+    - id: documentContent
+      type: System.String
+    - id: ragType
+      type: SuperOffice.Data.RagType
+    - id: metadata
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function PutDocument(namespaceName As String, uid As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
+  overload: SuperOffice.Util.RagAIHelper.PutDocument*
+  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
+  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
+- uid: SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
+  id: Markdownize(System.Boolean,System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: Markdownize(bool, string)
+  nameWithType: RagAIHelper.Markdownize(bool, string)
+  fullName: SuperOffice.Util.RagAIHelper.Markdownize(bool, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<string> Markdownize(bool isHtml, string documentContent)
+    parameters:
+    - id: isHtml
+      type: System.Boolean
+    - id: documentContent
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function Markdownize(isHtml As Boolean, documentContent As String) As Task(Of String)
+  overload: SuperOffice.Util.RagAIHelper.Markdownize*
+  nameWithType.vb: RagAIHelper.Markdownize(Boolean, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.Markdownize(Boolean, String)
+  name.vb: Markdownize(Boolean, String)
+- uid: SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
+  id: Markdownize(System.String,System.String,System.String)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: Markdownize(string, string, string)
+  nameWithType: RagAIHelper.Markdownize(string, string, string)
+  fullName: SuperOffice.Util.RagAIHelper.Markdownize(string, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<string> Markdownize(string filename, string mimeType, string documentContent)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: mimeType
+      type: System.String
+    - id: documentContent
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function Markdownize(filename As String, mimeType As String, documentContent As String) As Task(Of String)
+  overload: SuperOffice.Util.RagAIHelper.Markdownize*
+  nameWithType.vb: RagAIHelper.Markdownize(String, String, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.Markdownize(String, String, String)
+  name.vb: Markdownize(String, String, String)
+- uid: SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
+  commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
+  id: Markdownize(System.String,System.String,System.IO.Stream)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: Markdownize(string, string, Stream)
+  nameWithType: RagAIHelper.Markdownize(string, string, Stream)
+  fullName: SuperOffice.Util.RagAIHelper.Markdownize(string, string, System.IO.Stream)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<string> Markdownize(string filename, string mimeType, Stream documentContent)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: mimeType
+      type: System.String
+    - id: documentContent
+      type: System.IO.Stream
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Function Markdownize(filename As String, mimeType As String, documentContent As Stream) As Task(Of String)
+  overload: SuperOffice.Util.RagAIHelper.Markdownize*
+  nameWithType.vb: RagAIHelper.Markdownize(String, String, Stream)
+  fullName.vb: SuperOffice.Util.RagAIHelper.Markdownize(String, String, System.IO.Stream)
+  name.vb: Markdownize(String, String, Stream)
+- uid: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: EnrichmentSearchAsync(string, string, CancellationToken)
+  nameWithType: RagAIHelper.EnrichmentSearchAsync(string, string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<List<(string, string)>> EnrichmentSearchAsync(string q, string isoCode, CancellationToken cancellationToken)
+    parameters:
+    - id: q
+      type: System.String
+    - id: isoCode
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}}
+    content.vb: Public Function EnrichmentSearchAsync(q As String, isoCode As String, cancellationToken As CancellationToken) As Task(Of List(Of (String, String)))
+  overload: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync*
+  nameWithType.vb: RagAIHelper.EnrichmentSearchAsync(String, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(String, String, System.Threading.CancellationToken)
+  name.vb: EnrichmentSearchAsync(String, String, CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+  commentId: P:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+  id: AllowedHostsValidator
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: AllowedHostsValidator
+  nameWithType: RagAIHelper.AllowedHostsValidator
+  fullName: SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public AllowedHostsValidator AllowedHostsValidator { get; }
+    parameters: []
+    return:
+      type: Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator
+    content.vb: Public ReadOnly Property AllowedHostsValidator As AllowedHostsValidator
+  overload: SuperOffice.Util.RagAIHelper.AllowedHostsValidator*
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider
+  commentId: '!:Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider'
+  isExternal: true
+  name: IAccessTokenProvider
+  nameWithType: IAccessTokenProvider
+  fullName: Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.RagAIHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RagAIHelper, To>(RagAIHelper)
+  nameWithType: EnumUtil.MapEnums<RagAIHelper, To>(RagAIHelper)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.RagAIHelper, To>(SuperOffice.Util.RagAIHelper)
+  nameWithType.vb: EnumUtil.MapEnums(Of RagAIHelper, To)(RagAIHelper)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.RagAIHelper, To)(SuperOffice.Util.RagAIHelper)
+  name.vb: MapEnums(Of RagAIHelper, To)(RagAIHelper)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RagAIHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RagAIHelper)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+- uid: SuperOffice.Util.RagAIHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RagAIHelper, To>(RagAIHelper)
+  nameWithType: Converters.MapEnums<RagAIHelper, To>(RagAIHelper)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.RagAIHelper, To>(SuperOffice.Util.RagAIHelper)
+  nameWithType.vb: Converters.MapEnums(Of RagAIHelper, To)(RagAIHelper)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.RagAIHelper, To)(SuperOffice.Util.RagAIHelper)
+  name.vb: MapEnums(Of RagAIHelper, To)(RagAIHelper)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RagAIHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RagAIHelper)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.RagAIHelper.#ctor*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.#ctor
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper__ctor_Microsoft_Extensions_Options_IOptions_SuperOffice_Util_RagAIConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_RagAIHelper__
+  name: RagAIHelper
+  nameWithType: RagAIHelper.RagAIHelper
+  fullName: SuperOffice.Util.RagAIHelper.RagAIHelper
+  nameWithType.vb: RagAIHelper.New
+  fullName.vb: SuperOffice.Util.RagAIHelper.New
+  name.vb: New
+- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration}
+  commentId: T:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<RagAIConfiguration>
+  nameWithType: IOptions<RagAIConfiguration>
+  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.RagAIConfiguration>
+  nameWithType.vb: IOptions(Of RagAIConfiguration)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.RagAIConfiguration)
+  name.vb: IOptions(Of RagAIConfiguration)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<RagAIHelper>
+  nameWithType: ILogger<RagAIHelper>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>
+  nameWithType.vb: ILogger(Of RagAIHelper)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper)
+  name.vb: ILogger(Of RagAIHelper)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIHelper
+    name: RagAIHelper
+    isExternal: true
+    href: SuperOffice.Util.RagAIHelper.html
+  - name: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - name: TOptions
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOptions
+  - name: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_GetAuthorizationTokenAsync_System_Uri_System_Collections_Generic_Dictionary_System_String_System_Object__System_Threading_CancellationToken_
+  name: GetAuthorizationTokenAsync
+  nameWithType: RagAIHelper.GetAuthorizationTokenAsync
+  fullName: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_AnswerFeedbackAsync_System_String_System_Boolean_
+  name: AnswerFeedbackAsync
+  nameWithType: RagAIHelper.AnswerFeedbackAsync
+  fullName: SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_AnswerAcceptedAsync_System_String_
+  name: AnswerAcceptedAsync
+  nameWithType: RagAIHelper.AnswerAcceptedAsync
+  fullName: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync
+- uid: SuperOffice.Util.RagAIHelper.IndexingStarted*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.IndexingStarted
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingStarted_System_String_System_String_System_String_
+  name: IndexingStarted
+  nameWithType: RagAIHelper.IndexingStarted
+  fullName: SuperOffice.Util.RagAIHelper.IndexingStarted
+- uid: SuperOffice.Util.RagAIHelper.IndexingFinished*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.IndexingFinished
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingFinished_System_String_System_String_System_String_
+  name: IndexingFinished
+  nameWithType: RagAIHelper.IndexingFinished
+  fullName: SuperOffice.Util.RagAIHelper.IndexingFinished
+- uid: SuperOffice.Util.RagAIHelper.InitNamespace*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.InitNamespace
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_InitNamespace_System_String_
+  name: InitNamespace
+  nameWithType: RagAIHelper.InitNamespace
+  fullName: SuperOffice.Util.RagAIHelper.InitNamespace
+- uid: SuperOffice.Util.RagAIHelper.DeleteNamespace*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.DeleteNamespace
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_DeleteNamespace_System_String_
+  name: DeleteNamespace
+  nameWithType: RagAIHelper.DeleteNamespace
+  fullName: SuperOffice.Util.RagAIHelper.DeleteNamespace
+- uid: SuperOffice.Util.RagAIHelper.PutDocument*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.PutDocument
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
+  name: PutDocument
+  nameWithType: RagAIHelper.PutDocument
+  fullName: SuperOffice.Util.RagAIHelper.PutDocument
+- uid: SuperOffice.Data.RagType
+  commentId: T:SuperOffice.Data.RagType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.Data.RagType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Util.RagAIHelper.Markdownize*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.Markdownize
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_Markdownize_System_Boolean_System_String_
+  name: Markdownize
+  nameWithType: RagAIHelper.Markdownize
+  fullName: SuperOffice.Util.RagAIHelper.Markdownize
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_EnrichmentSearchAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: EnrichmentSearchAsync
+  nameWithType: RagAIHelper.EnrichmentSearchAsync
+  fullName: SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<(string, string)>>
+  nameWithType: Task<List<(string, string)>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<(string, string)>>
+  nameWithType.vb: Task(Of List(Of (String, String)))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of (String, String)))
+  name.vb: Task(Of List(Of (String, String)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_AllowedHostsValidator
+  name: AllowedHostsValidator
+  nameWithType: RagAIHelper.AllowedHostsValidator
+  fullName: SuperOffice.Util.RagAIHelper.AllowedHostsValidator
+- uid: Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator
+  commentId: '!:Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator'
+  isExternal: true
+  name: AllowedHostsValidator
+  nameWithType: AllowedHostsValidator
+  fullName: Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator

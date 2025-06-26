@@ -825,6 +825,10 @@ items:
     name: QuoteVersionValidated
   - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState
     name: QuoteVersionWorkflowState
+  - uid: SuperOffice.CRM.Services.RagAnswer
+    name: RagAnswer
+  - uid: SuperOffice.CRM.Services.RagResult
+    name: RagResult
   - uid: SuperOffice.CRM.Services.Rating
     name: Rating
   - uid: SuperOffice.CRM.Services.Reason
@@ -971,6 +975,8 @@ items:
     name: SystemTemplateSettings
   - uid: SuperOffice.CRM.Services.TabOrder
     name: TabOrder
+  - uid: SuperOffice.CRM.Services.TableManager
+    name: TableManager
   - uid: SuperOffice.CRM.Services.TableRecord
     name: TableRecord
   - uid: SuperOffice.CRM.Services.Tag
@@ -1121,6 +1127,8 @@ items:
     name: WorkflowStepCreateRequest
   - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale
     name: WorkflowStepCreateSale
+  - uid: SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
+    name: WorkflowStepDistributeToOwner
   - uid: SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
     name: WorkflowStepNotifyByEmail
   - uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS

@@ -5,7 +5,7 @@ items:
   id: CacheFlusher
   parent: SuperOffice.Data.Cache
   children:
-  - SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},SuperOffice.CRM.Lists.ISoListProviderFactory,System.IServiceProvider)
+  - SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},System.IServiceProvider)
   - SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
   - SuperOffice.Data.Cache.CacheFlusher.Flush(System.String[])
   - SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
@@ -37,34 +37,32 @@ items:
   extensionMethods:
   - SuperOffice.Data.Cache.CacheFlusher.EnumUtil.MapEnums``2
   - SuperOffice.Data.Cache.CacheFlusher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},SuperOffice.CRM.Lists.ISoListProviderFactory,System.IServiceProvider)
-  commentId: M:SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},SuperOffice.CRM.Lists.ISoListProviderFactory,System.IServiceProvider)
-  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},SuperOffice.CRM.Lists.ISoListProviderFactory,System.IServiceProvider)'
+- uid: SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},System.IServiceProvider)
+  commentId: M:SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},System.IServiceProvider)
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher},System.IServiceProvider)'
   parent: SuperOffice.Data.Cache.CacheFlusher
   langs:
   - csharp
   - vb
-  name: CacheFlusher(ILogger<CacheFlusher>, ISoListProviderFactory, IServiceProvider)
-  nameWithType: CacheFlusher.CacheFlusher(ILogger<CacheFlusher>, ISoListProviderFactory, IServiceProvider)
-  fullName: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher(Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheFlusher>, SuperOffice.CRM.Lists.ISoListProviderFactory, System.IServiceProvider)
+  name: CacheFlusher(ILogger<CacheFlusher>, IServiceProvider)
+  nameWithType: CacheFlusher.CacheFlusher(ILogger<CacheFlusher>, IServiceProvider)
+  fullName: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher(Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheFlusher>, System.IServiceProvider)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data.Cache
   syntax:
-    content: public CacheFlusher(ILogger<CacheFlusher> logger, ISoListProviderFactory soListProviderFactory, IServiceProvider serviceProvider)
+    content: public CacheFlusher(ILogger<CacheFlusher> logger, IServiceProvider serviceProvider)
     parameters:
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher}
-    - id: soListProviderFactory
-      type: SuperOffice.CRM.Lists.ISoListProviderFactory
     - id: serviceProvider
       type: System.IServiceProvider
-    content.vb: Public Sub New(logger As ILogger(Of CacheFlusher), soListProviderFactory As ISoListProviderFactory, serviceProvider As IServiceProvider)
+    content.vb: Public Sub New(logger As ILogger(Of CacheFlusher), serviceProvider As IServiceProvider)
   overload: SuperOffice.Data.Cache.CacheFlusher.#ctor*
-  nameWithType.vb: CacheFlusher.New(ILogger(Of CacheFlusher), ISoListProviderFactory, IServiceProvider)
-  fullName.vb: SuperOffice.Data.Cache.CacheFlusher.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheFlusher), SuperOffice.CRM.Lists.ISoListProviderFactory, System.IServiceProvider)
-  name.vb: New(ILogger(Of CacheFlusher), ISoListProviderFactory, IServiceProvider)
+  nameWithType.vb: CacheFlusher.New(ILogger(Of CacheFlusher), IServiceProvider)
+  fullName.vb: SuperOffice.Data.Cache.CacheFlusher.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheFlusher), System.IServiceProvider)
+  name.vb: New(ILogger(Of CacheFlusher), IServiceProvider)
 - uid: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
   commentId: M:SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
   id: GetAllCaches
@@ -676,7 +674,7 @@ references:
 - uid: SuperOffice.Data.Cache.CacheFlusher.#ctor*
   commentId: Overload:SuperOffice.Data.Cache.CacheFlusher.#ctor
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheFlusher.html#SuperOffice_Data_Cache_CacheFlusher__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Data_Cache_CacheFlusher__SuperOffice_CRM_Lists_ISoListProviderFactory_System_IServiceProvider_
+  href: SuperOffice.Data.Cache.CacheFlusher.html#SuperOffice_Data_Cache_CacheFlusher__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Data_Cache_CacheFlusher__System_IServiceProvider_
   name: CacheFlusher
   nameWithType: CacheFlusher.CacheFlusher
   fullName: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher
@@ -718,14 +716,6 @@ references:
     isExternal: true
     href: SuperOffice.Data.Cache.CacheFlusher.html
   - name: )
-- uid: SuperOffice.CRM.Lists.ISoListProviderFactory
-  commentId: T:SuperOffice.CRM.Lists.ISoListProviderFactory
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListProviderFactory.html
-  name: ISoListProviderFactory
-  nameWithType: ISoListProviderFactory
-  fullName: SuperOffice.CRM.Lists.ISoListProviderFactory
 - uid: System.IServiceProvider
   commentId: T:System.IServiceProvider
   parent: System
@@ -799,43 +789,6 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
-- uid: SuperOffice.CRM.Lists
-  commentId: N:SuperOffice.CRM.Lists
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Lists
-  nameWithType: SuperOffice.CRM.Lists
-  fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches*
   commentId: Overload:SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
   isExternal: true

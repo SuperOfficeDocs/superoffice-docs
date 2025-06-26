@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
   - SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
   - SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
+  - SuperOffice.WebApi.Data.WorkflowStepType.DistributeToOwner
   - SuperOffice.WebApi.Data.WorkflowStepType.None
   - SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
   - SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
@@ -499,6 +500,37 @@ items:
       <EnumMember>
 
       RunScript = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.DistributeToOwner
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.DistributeToOwner
+  id: DistributeToOwner
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: DistributeToOwner
+  nameWithType: WorkflowStepType.DistributeToOwner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.DistributeToOwner
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '15: DistributeToOwner'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DistributeToOwner = 15
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: >-
+      <EnumMember>
+
+      DistributeToOwner = 15
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

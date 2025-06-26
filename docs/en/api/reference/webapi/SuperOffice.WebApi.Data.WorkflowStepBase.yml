@@ -36,6 +36,8 @@ items:
 
       [KnownType(typeof(WorkflowStepCreateSale))]
 
+      [KnownType(typeof(WorkflowStepDistributeToOwner))]
+
       [KnownType(typeof(WorkflowStepNotifyByEmail))]
 
       [KnownType(typeof(WorkflowStepNotifyBySMS))]
@@ -65,6 +67,8 @@ items:
       <KnownType(GetType(WorkflowStepCreateRequest))>
 
       <KnownType(GetType(WorkflowStepCreateSale))>
+
+      <KnownType(GetType(WorkflowStepDistributeToOwner))>
 
       <KnownType(GetType(WorkflowStepNotifyByEmail))>
 
@@ -97,6 +101,7 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
   - SuperOffice.WebApi.Data.WorkflowStepCreateRequest
   - SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  - SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
   - SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
   - SuperOffice.WebApi.Data.WorkflowStepNotifyBySMS
   - SuperOffice.WebApi.Data.WorkflowStepRemoveFromList
@@ -136,6 +141,11 @@ items:
     arguments:
     - type: System.Type
       value: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
   - type: System.Runtime.Serialization.KnownTypeAttribute
     ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
     arguments:

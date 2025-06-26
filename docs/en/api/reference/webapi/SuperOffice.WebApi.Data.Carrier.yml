@@ -321,6 +321,7 @@ items:
   - SuperOffice.WebApi.Data.SystemMessage
   - SuperOffice.WebApi.Data.SystemTemplateSettings
   - SuperOffice.WebApi.Data.TabOrder
+  - SuperOffice.WebApi.Data.TableManager
   - SuperOffice.WebApi.Data.TableRecord
   - SuperOffice.WebApi.Data.Tag
   - SuperOffice.WebApi.Data.TargetAssignment

@@ -23,6 +23,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.StandardFullName
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colAcademic
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colActiveErpLinks
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colAssociateFullName
@@ -1692,6 +1693,27 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Public Shared ReadOnly Property SupportLanguage As ArchiveColumnInfo
   overload: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage*
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: PersonExtenderBase.TicketPriority
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo TicketPriority { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared ReadOnly Property TicketPriority As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority*
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   id: DropStoppedContacts
@@ -6753,6 +6775,13 @@ references:
   name: SupportLanguage
   nameWithType: PersonExtenderBase.SupportLanguage
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_TicketPriority
+  name: TicketPriority
+  nameWithType: PersonExtenderBase.TicketPriority
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   isExternal: true
