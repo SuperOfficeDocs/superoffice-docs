@@ -117,63 +117,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 813,
+  "EjMessageId": 86,
   "Ticket": null,
-  "CreatedAt": "2008-06-20T17:54:03.7420683+02:00",
+  "CreatedAt": "2011-03-05T03:45:24.0298098+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 321,
-  "Body": "et",
-  "HtmlBody": "itaque",
-  "EmailHeader": "bonnie@rowemurray.com",
-  "DebugInfo": "ad",
-  "MailSorter": "modi",
+  "MessageId": "tenetur",
+  "TimeSpent": 668,
+  "Body": "blanditiis",
+  "HtmlBody": "nam",
+  "EmailHeader": "lorenzo@beier.co.uk",
+  "DebugInfo": "ducimus",
+  "MailSorter": "iste",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eos",
+  "SearchTitle": "accusantium",
   "MessageHeaders": [
     {
-      "Id": 145,
-      "Name": "Lowe, Toy and Powlowski",
-      "Value": "in",
+      "Id": 370,
+      "Name": "Berge, Wilkinson and Conn",
+      "Value": "impedit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 145,
-      "Name": "Lowe, Toy and Powlowski",
-      "Value": "in",
+      "Id": 370,
+      "Name": "Berge, Wilkinson and Conn",
+      "Value": "impedit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "facere",
-  "Sentiment": 228,
-  "SentimentConfidence": 211,
+  "Important": false,
+  "Language": "eligendi",
+  "Sentiment": 902,
+  "SentimentConfidence": 426,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 457,
-      "Name": "Kutch, Gleason and Welch",
-      "ContentType": "molestiae",
-      "AttSize": 733,
-      "InlineImage": false,
-      "ContentId": "illum",
-      "AuthKey": "ex",
+      "AttachmentId": 572,
+      "Name": "Homenick-Bogan",
+      "ContentType": "eum",
+      "AttSize": 540,
+      "InlineImage": true,
+      "ContentId": "ut",
+      "AuthKey": "occaecati",
       "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "omnis"
+    "CustomFields1": "culpa",
+    "CustomFields2": "fugit"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 733,
+  "EjMessageId": 37,
   "Ticket": null,
-  "CreatedAt": "1998-08-08T17:54:03.7576907+02:00",
+  "CreatedAt": "2013-07-29T03:45:24.0454344+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "occaecati",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nostrum",
-  "TimeSpent": 602,
-  "Body": "totam",
-  "HtmlBody": "libero",
-  "EmailHeader": "ernie.reichel@considinehyatt.name",
-  "DebugInfo": "modi",
-  "MailSorter": "molestiae",
+  "MessageId": "modi",
+  "TimeSpent": 701,
+  "Body": "quis",
+  "HtmlBody": "maiores",
+  "EmailHeader": "amos.fritsch@feest.co.uk",
+  "DebugInfo": "nihil",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fugiat",
+  "SearchTitle": "molestiae",
   "MessageHeaders": [
     {
-      "Id": 570,
-      "Name": "Koss, Jast and Conn",
-      "Value": "incidunt",
+      "Id": 997,
+      "Name": "Pollich-Heathcote",
+      "Value": "eaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 939
+          "FieldType": "System.Int32",
+          "FieldLength": 384
         }
       }
     }
   ],
   "Important": true,
-  "Language": "ut",
-  "Sentiment": 872,
-  "SentimentConfidence": 246,
+  "Language": "soluta",
+  "Sentiment": 308,
+  "SentimentConfidence": 604,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 594,
-      "Name": "Wisoky, Renner and Hoeger",
-      "ContentType": "molestias",
-      "AttSize": 585,
-      "InlineImage": true,
-      "ContentId": "sequi",
-      "AuthKey": "ducimus",
+      "AttachmentId": 49,
+      "Name": "Lubowitz, Ankunding and Raynor",
+      "ContentType": "tempora",
+      "AttSize": 621,
+      "InlineImage": false,
+      "ContentId": "perspiciatis",
+      "AuthKey": "nemo",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldLength": 885
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sed"
+    "CustomFields1": "ut",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 135
     }
   }
 }

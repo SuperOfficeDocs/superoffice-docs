@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234
+  "DocumentId": 168
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 847,
-      "ContactName": "Casper-Oberbrunner",
-      "PersonId": 803,
-      "PersonName": "Greenfelder-Green",
-      "AssociateId": 435,
-      "Address": "id",
-      "EmailId": 261,
+      "ContactId": 674,
+      "ContactName": "Mann, Thompson and Nitzsche",
+      "PersonId": 757,
+      "PersonName": "Jerde, Sipes and Windler",
+      "AssociateId": 615,
+      "Address": "consequatur",
+      "EmailId": 891,
       "DuplicatePersonIds": [
-        14,
-        553
+        342,
+        286
       ],
-      "Name": "Boyle Group",
+      "Name": "Hegmann-Harvey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 35
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 708,
-      "ContactName": "Kuvalis, Witting and Medhurst",
-      "PersonId": 15,
-      "PersonName": "Gulgowski Inc and Sons",
-      "AssociateId": 411,
-      "Address": "et",
-      "EmailId": 307,
+      "ContactId": 141,
+      "ContactName": "Spencer, Aufderhar and Kemmer",
+      "PersonId": 59,
+      "PersonName": "Jaskolski-Osinski",
+      "AssociateId": 461,
+      "Address": "ad",
+      "EmailId": 176,
       "DuplicatePersonIds": [
-        950,
-        683
+        970,
+        217
       ],
-      "Name": "Conroy Group",
+      "Name": "Schinner-Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 491
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 807,
-      "ContactName": "Douglas Inc and Sons",
-      "PersonId": 484,
-      "PersonName": "Williamson Inc and Sons",
-      "AssociateId": 716,
-      "Address": "sint",
-      "EmailId": 422,
+      "ContactId": 431,
+      "ContactName": "Ortiz-Schulist",
+      "PersonId": 708,
+      "PersonName": "Strosin LLC",
+      "AssociateId": 766,
+      "Address": "perspiciatis",
+      "EmailId": 650,
       "DuplicatePersonIds": [
-        491,
-        239
+        33,
+        265
       ],
-      "Name": "Littel-Osinski",
+      "Name": "O'Connell, Brekke and Schulist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 344
+          "FieldLength": 655
         }
       }
     }
   ],
-  "Subject": "molestiae",
-  "HTMLBody": "veniam",
+  "Subject": "corporis",
+  "HTMLBody": "quis",
   "From": null,
-  "Sent": "2025-03-28T17:54:03.0702097+01:00",
-  "Size": 759,
+  "Sent": "2015-12-11T03:45:23.389207+01:00",
+  "Size": 63,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "hic",
-  "PlainBody": "corrupti",
+  "MessageID": "error",
+  "PlainBody": "atque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 323,
+  "ServerId": 69,
   "Attachments": [
     {
-      "Description": "Realigned content-based knowledge user",
-      "Filename": "ab",
-      "Size": 24,
-      "Type": "saepe",
-      "Encoding": "iusto",
-      "Id": "ut",
-      "Disposition": "esse",
+      "Description": "Re-engineered static array",
+      "Filename": "sed",
+      "Size": 782,
+      "Type": "tenetur",
+      "Encoding": "quas",
+      "Id": "veniam",
+      "Disposition": "enim",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 364
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bins LLC",
+      "Name": "Haag-Feeney",
       "Values": [
-        "quas",
-        "non"
+        "nihil",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     },
     {
-      "Name": "Bins LLC",
+      "Name": "Haag-Feeney",
       "Values": [
-        "quas",
-        "non"
+        "nihil",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     }
   ],
-  "FolderName": "Bartoletti, Wintheiser and Shanahan",
-  "EmailItemId": 422,
-  "AccountId": 405,
-  "ReceivedAt": "2002-04-20T17:54:03.0702097+02:00",
+  "FolderName": "Jerde Group",
+  "EmailItemId": 618,
+  "AccountId": 409,
+  "ReceivedAt": "2023-09-20T03:45:23.389207+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-06-15T17:54:03.0702097+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2019-10-07T03:45:23.389207+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

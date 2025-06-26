@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewStateAsync(System.String,System.Threading.CancellationToken)
@@ -665,6 +666,32 @@ items:
       description: ''
     content.vb: Function RemoveExpiredSystemMessagesAsync(cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync(System.Threading.CancellationToken)
+  id: GetNextTableNumberAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextTableNumberAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetNextTableNumberAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Increment save and return NextTableNumber, to be used when creating new extra table
+  example: []
+  syntax:
+    content: Task<int> GetNextTableNumberAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: NextTableNumber of DatabaseModel
+    content.vb: Function GetNextTableNumberAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
   id: PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
@@ -1380,6 +1407,48 @@ references:
   name: RemoveExpiredSystemMessagesAsync
   nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetNextTableNumberAsync_System_Threading_CancellationToken_
+  name: GetNextTableNumberAsync
+  nameWithType: IDiagnosticsAgent.GetNextTableNumberAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetNextTableNumberAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
   isExternal: true

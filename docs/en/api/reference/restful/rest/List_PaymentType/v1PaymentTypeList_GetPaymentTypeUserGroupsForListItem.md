@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Johns-Weber",
-    "ToolTip": "Consequatur ea nam alias et ea ad.",
+    "Id": 293,
+    "Name": "Schuster-Abernathy",
+    "ToolTip": "Possimus ut rerum laudantium commodi dolore et non.",
     "Deleted": false,
-    "Rank": 394,
-    "Type": "explicabo",
-    "ColorBlock": 526,
-    "IconHint": "quasi",
+    "Rank": 288,
+    "Type": "dolores",
+    "ColorBlock": 99,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2017-06-01T17:54:08.9449229+02:00",
+    "LastChanged": "2007-06-23T03:45:29.0765432+02:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Rice LLC",
-        "ToolTip": "Ea accusantium est.",
+        "Id": 252,
+        "Name": "Schinner Group",
+        "ToolTip": "Ut ut nostrum dolorem alias.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "repellendus",
-        "ColorBlock": 278,
-        "IconHint": "nobis",
+        "Rank": 566,
+        "Type": "ea",
+        "ColorBlock": 576,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2000-07-18T17:54:08.9449229+02:00",
+        "LastChanged": "2023-12-28T03:45:29.0765432+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "nulla",
-        "Hidden": false,
-        "FullName": "Jimmie Gilberto Hilll DDS",
+        "ExtraInfo": "eum",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Dixie Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 422
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Thad Hansen",
+    "ExtraInfo": "et",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Maye Nikolaus IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 139
       }
     }
   }

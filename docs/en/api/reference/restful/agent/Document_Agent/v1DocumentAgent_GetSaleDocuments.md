@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 62
+  "SaleId": 604
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 1002,
-    "Attention": "perferendis",
-    "Header": "illum",
-    "Name": "Dibbert, Cummings and Bechtelar",
-    "OurRef": "earum",
-    "YourRef": "adipisci",
-    "Description": "Monitored neutral encryption",
-    "DocumentTemplate": "similique",
+    "DocumentId": 457,
+    "Attention": "magni",
+    "Header": "eum",
+    "Name": "Luettgen-Herzog",
+    "OurRef": "incidunt",
+    "YourRef": "aliquam",
+    "Description": "Fully-configurable reciprocal customer loyalty",
+    "DocumentTemplate": "architecto",
     "IsPublished": false,
-    "PersonId": 376,
-    "PersonFullName": "Freeda Reynolds III",
-    "AssociateFullName": "Julia Kuhlman",
-    "ContactId": 367,
-    "ContactName": "Reichel Group",
-    "ProjectId": 293,
-    "ProjectName": "Tillman-Hyatt",
-    "AssociateId": 371,
-    "Snum": 90,
-    "SaleId": 784,
-    "SaleName": "Johnston LLC",
+    "PersonId": 860,
+    "PersonFullName": "Jerald Huel",
+    "AssociateFullName": "Lulu Florine Nitzsche Sr.",
+    "ContactId": 705,
+    "ContactName": "Hyatt LLC",
+    "ProjectId": 801,
+    "ProjectName": "Kuphal-Veum",
+    "AssociateId": 782,
+    "Snum": 379,
+    "SaleId": 770,
+    "SaleName": "Larkin-Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldType": "System.String",
+        "FieldLength": 294
       }
     }
   }

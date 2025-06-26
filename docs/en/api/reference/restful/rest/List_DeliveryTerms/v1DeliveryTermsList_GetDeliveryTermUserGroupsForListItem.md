@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Graham, Oberbrunner and Walter",
-    "ToolTip": "Vel magni quo voluptates.",
+    "Id": 423,
+    "Name": "Turner-Herman",
+    "ToolTip": "Accusantium ut ut temporibus ut.",
     "Deleted": false,
-    "Rank": 396,
-    "Type": "magni",
-    "ColorBlock": 722,
-    "IconHint": "officiis",
+    "Rank": 180,
+    "Type": "itaque",
+    "ColorBlock": 524,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2003-06-30T17:54:08.8980498+02:00",
+    "LastChanged": "2005-06-27T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Dietrich, Zulauf and Gislason",
-        "ToolTip": "Veniam dicta aspernatur consectetur modi nemo autem.",
+        "Id": 10,
+        "Name": "Cruickshank Group",
+        "ToolTip": "Est distinctio inventore.",
         "Deleted": true,
-        "Rank": 659,
-        "Type": "repellendus",
-        "ColorBlock": 220,
-        "IconHint": "veniam",
+        "Rank": 884,
+        "Type": "qui",
+        "ColorBlock": 818,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2015-05-29T17:54:08.8980498+02:00",
+        "LastChanged": "2024-04-18T03:45:29.0296674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Ashton Bergstrom",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Niko Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 837
+            "FieldLength": 679
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Arch Durgan",
+    "ExtraInfo": "vel",
+    "StyleHint": "voluptates",
+    "Hidden": true,
+    "FullName": "Johnny Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 910
       }
     }
   }

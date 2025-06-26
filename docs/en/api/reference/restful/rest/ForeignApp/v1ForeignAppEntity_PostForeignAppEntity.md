@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 360,
-  "Name": "Jacobson-Bins",
-  "CreatedDate": "1998-10-05T17:54:08.2574567+02:00",
-  "UpdatedDate": "2007-07-11T17:54:08.2574567+02:00",
+  "ForeignAppId": 241,
+  "Name": "Hoeger, Orn and Durgan",
+  "CreatedDate": "2012-08-30T03:45:28.3578119+02:00",
+  "UpdatedDate": "2000-03-18T03:45:28.3578119+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 493,
-      "Name": "Turner LLC",
-      "CreatedDate": "2007-09-22T17:54:08.2574567+02:00",
-      "UpdatedDate": "2001-03-13T17:54:08.2574567+01:00",
-      "AssociateFullName": "Jaqueline Osvaldo Crona PhD",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "nobis",
-      "DeviceIdentifier": "minus",
-      "ForeignAppId": 221
+      "ForeignDeviceId": 561,
+      "Name": "Gutmann, Lakin and Jones",
+      "CreatedDate": "2004-04-27T03:45:28.3578119+02:00",
+      "UpdatedDate": "2004-11-17T03:45:28.3578119+01:00",
+      "AssociateFullName": "Ms. Forrest Alessandra Lynch",
+      "CreatedBy": "ullam",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "vel",
+      "ForeignAppId": 244
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 598,
-  "Name": "Wisoky-Lynch",
-  "CreatedDate": "2019-12-15T17:54:08.2574567+01:00",
-  "UpdatedDate": "2022-06-18T17:54:08.2574567+02:00",
+  "ForeignAppId": 109,
+  "Name": "Dickinson, Wintheiser and Thompson",
+  "CreatedDate": "2020-10-22T03:45:28.3578119+02:00",
+  "UpdatedDate": "2006-06-16T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 495,
-      "Name": "Lang Inc and Sons",
-      "CreatedDate": "2016-07-31T17:54:08.2574567+02:00",
-      "UpdatedDate": "2017-12-16T17:54:08.2574567+01:00",
-      "AssociateFullName": "Cathrine Kutch",
-      "CreatedBy": "dicta",
-      "UpdatedBy": "ea",
-      "DeviceIdentifier": "tempore",
-      "ForeignAppId": 790,
+      "ForeignDeviceId": 161,
+      "Name": "Buckridge Inc and Sons",
+      "CreatedDate": "2008-11-11T03:45:28.3578119+01:00",
+      "UpdatedDate": "2007-12-05T03:45:28.3578119+01:00",
+      "AssociateFullName": "Jessica Lemke",
+      "CreatedBy": "distinctio",
+      "UpdatedBy": "reiciendis",
+      "DeviceIdentifier": "veniam",
+      "ForeignAppId": 174,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 475
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 55
     }
   },
   "_Links": {

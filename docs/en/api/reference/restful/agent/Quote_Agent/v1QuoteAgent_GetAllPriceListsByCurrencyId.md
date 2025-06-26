@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 89,
-  "CurrencyId": 855
+  "QuoteConnectionId": 287,
+  "CurrencyId": 571
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 916,
-    "ERPPriceListKey": "nihil",
-    "QuoteConnectionId": 475,
-    "Name": "Franecki, Ondricka and Williamson",
-    "Description": "Visionary even-keeled protocol",
-    "Currency": "molestias",
-    "CurrencyName": "Hauck Inc and Sons",
-    "ValidFrom": "2021-12-16T17:54:03.5233118+01:00",
-    "ValidTo": "2020-09-01T17:54:03.5233118+02:00",
+    "PriceListId": 385,
+    "ERPPriceListKey": "consequatur",
+    "QuoteConnectionId": 483,
+    "Name": "Kemmer, Armstrong and Sawayn",
+    "Description": "Public-key global contingency",
+    "Currency": "nesciunt",
+    "CurrencyName": "Towne, Runolfsdottir and West",
+    "ValidFrom": "2023-02-22T03:45:23.8266945+01:00",
+    "ValidTo": "2021-06-27T03:45:23.8266945+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 961
       }
     }
   }

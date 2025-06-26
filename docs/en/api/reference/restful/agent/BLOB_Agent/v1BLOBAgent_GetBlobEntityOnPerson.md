@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 472
+  "PersonId": 511
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 583,
-  "BlobSize": 921,
-  "Description": "Innovative user-facing moratorium",
-  "ExtraInfo": "aut",
-  "IsEncrypted": true,
+  "BlobId": 972,
+  "BlobSize": 421,
+  "Description": "Secured 4th generation ability",
+  "ExtraInfo": "molestiae",
+  "IsEncrypted": false,
   "IsZipped": false,
   "MimeType": "autem",
-  "OriginalSize": 355,
-  "CreatedDate": "2015-10-29T17:54:02.6796032+01:00",
-  "UpdatedDate": "2012-11-06T17:54:02.6796032+01:00",
+  "OriginalSize": 362,
+  "CreatedDate": "2024-03-03T03:45:22.9985914+01:00",
+  "UpdatedDate": "2004-03-30T03:45:22.9985914+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "totam",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 705
     }
   }
 }

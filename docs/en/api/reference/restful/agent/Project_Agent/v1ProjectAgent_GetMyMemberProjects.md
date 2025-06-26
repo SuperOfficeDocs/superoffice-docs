@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 608,
-    "Name": "Wyman-Sipes",
-    "Description": "Open-source directional benchmark",
+    "ProjectId": 431,
+    "Name": "Walker Inc and Sons",
+    "Description": "Cross-platform mission-critical toolset",
     "URL": "http://www.example.com/",
-    "Type": "aliquam",
-    "AssociateId": 722,
-    "AssociateFullName": "Modesta Carroll",
-    "TypeId": 895,
-    "Updated": "2024-12-23T17:54:03.4920634+01:00",
-    "StatusId": 379,
-    "Status": "ut",
-    "TextId": 664,
-    "PublishTo": "2012-03-14T17:54:03.4920634+01:00",
-    "PublishFrom": "1998-08-06T17:54:03.4920634+02:00",
+    "Type": "tempore",
+    "AssociateId": 748,
+    "AssociateFullName": "Lyda Hudson",
+    "TypeId": 677,
+    "Updated": "2025-05-19T03:45:23.7798203+02:00",
+    "StatusId": 456,
+    "Status": "dolor",
+    "TextId": 80,
+    "PublishTo": "2018-05-12T03:45:23.7798203+02:00",
+    "PublishFrom": "2019-02-10T03:45:23.7798203+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "794607",
-    "ActiveErpLinks": 311,
+    "ProjectNumber": "1392967",
+    "ActiveErpLinks": 415,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 308
       }
     }
   }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=ad
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=molestiae
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 31 Aug 2008 17:54:08 G8T
+Last-Modified: Fri, 11 Apr 2003 03:45:28 G4T
 
 {
-  "Key": "dolores",
-  "Value": "ut",
-  "RecordId": 481,
-  "CreatedDate": "2015-08-02T17:54:08.2574567+02:00",
-  "UpdatedDate": "2008-08-31T17:54:08.2574567+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "illum",
-  "TableName": "Harvey, Kunde and Wilkinson",
+  "Key": "aut",
+  "Value": "facilis",
+  "RecordId": 289,
+  "CreatedDate": "2021-03-14T03:45:28.3578119+01:00",
+  "UpdatedDate": "2003-04-11T03:45:28.3578119+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "et",
+  "TableName": "Lesch Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 515
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 372,
-    "ColumnId": 188,
-    "FieldDefault": "quidem",
-    "FieldHeight": 824,
-    "FieldLabel": "dolores",
-    "FieldLeft": 321,
-    "FieldTop": 333,
+    "UDefFieldId": 878,
+    "ColumnId": 517,
+    "FieldDefault": "occaecati",
+    "FieldHeight": 724,
+    "FieldLabel": "quia",
+    "FieldLeft": 660,
+    "FieldTop": 44,
     "FieldType": "Checkbox",
-    "FieldWidth": 115,
-    "FormatMask": "aspernatur",
+    "FieldWidth": 216,
+    "FormatMask": "enim",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 200,
-    "LabelLeft": 522,
-    "LabelTop": 518,
-    "LabelWidth": 815,
-    "LastVersionId": 84,
-    "ListTableId": 503,
+    "LabelHeight": 125,
+    "LabelLeft": 997,
+    "LabelTop": 88,
+    "LabelWidth": 602,
+    "LastVersionId": 438,
+    "ListTableId": 347,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 729,
-    "ProgId": "beatae",
+    "Page1LineNo": 588,
+    "ProgId": "molestiae",
     "IsReadOnly": false,
-    "ShortLabel": "earum",
-    "TabOrder": 629,
-    "TextLength": 408,
-    "Tooltip": "porro",
-    "UdefIdentity": 558,
-    "UDListDefinitionId": 583,
+    "ShortLabel": "aspernatur",
+    "TabOrder": 394,
+    "TextLength": 763,
+    "Tooltip": "laborum",
+    "UdefIdentity": 603,
+    "UDListDefinitionId": 479,
     "Justification": "Center",
-    "Version": 851,
-    "TemplateVariableName": "Williamson, Steuber and Kutch",
+    "Version": 358,
+    "TemplateVariableName": "Reilly-Batz",
     "HasBeenPublished": false,
-    "MdoListName": "Kuhlman-O'Reilly",
+    "MdoListName": "Orn, Heidenreich and Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

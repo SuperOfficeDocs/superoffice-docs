@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "tempore",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempore",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 851,
-  "Name": "Langosh, Blick and Marks",
-  "Tooltip": "vel",
+  "RoleId": 268,
+  "Name": "Hodkiewicz-Champlin",
+  "Tooltip": "iure",
   "RoleType": "Anonymous",
-  "Deleted": 192,
-  "Rank": 577,
-  "Created": "2014-05-07T17:54:08.4136991+02:00",
-  "UseCategories": 22,
+  "Deleted": 873,
+  "Rank": 835,
+  "Created": "2021-01-17T03:45:28.5453063+01:00",
+  "UseCategories": 683,
   "CreatedBy": null,
-  "Updated": "2024-10-31T17:54:08.4136991+01:00",
+  "Updated": "2021-05-19T03:45:28.5453063+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 641
     }
   },
   "_Links": {

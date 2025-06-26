@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=aut
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=quae
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Casper, Luettgen and Willms",
-    "ToolTip": "Vitae aliquid velit dicta.",
-    "Deleted": false,
-    "Rank": 576,
-    "Type": "omnis",
+    "Id": 278,
+    "Name": "Sawayn, Flatley and Grimes",
+    "ToolTip": "Non inventore est minima assumenda dolore labore impedit.",
+    "Deleted": true,
+    "Rank": 652,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "O'Hara, Kihn and Pacocha",
-        "ToolTip": "Et qui voluptas voluptatum velit placeat qui dolorum.",
-        "Deleted": true,
-        "Rank": 933,
-        "Type": "natus",
+        "Id": 555,
+        "Name": "Osinski Group",
+        "ToolTip": "Tempore exercitationem earum molestiae.",
+        "Deleted": false,
+        "Rank": 771,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 938,
-        "ExtraInfo": "eum",
-        "StyleHint": "sint",
-        "FullName": "Verna Ritchie",
+        "IconHint": "ut",
+        "ColorBlock": 464,
+        "ExtraInfo": "et",
+        "StyleHint": "repellendus",
+        "FullName": "Annetta O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 526
+            "FieldType": "System.Int32",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 746,
-    "ExtraInfo": "velit",
-    "StyleHint": "porro",
-    "FullName": "Rose Tremblay",
+    "IconHint": "exercitationem",
+    "ColorBlock": 350,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "molestias",
+    "FullName": "Mr. Russell Randy Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

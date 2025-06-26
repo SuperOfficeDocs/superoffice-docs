@@ -70,6 +70,8 @@ generated: true
 
 * [POST Agents/Contact/ValidateContactEntity](v1ContactAgent_ValidateContactEntity.md)
 
+* [POST Agents/Contact/EnrichContactEntity](v1ContactAgent_EnrichContactEntity.md)
+
 * [POST Agents/Contact/GetContactList](v1ContactAgent_GetContactList.md)
 
 * [POST Agents/Contact/GetMyContacts](v1ContactAgent_GetMyContacts.md)
@@ -77,3 +79,5 @@ generated: true
 * [POST Agents/Contact/GetMyRecentContacts](v1ContactAgent_GetMyRecentContacts.md)
 
 * [POST Agents/Contact/GetPreviewContact](v1ContactAgent_GetPreviewContact.md)
+
+* [POST Agents/Contact/GetPreviewEnrichContact](v1ContactAgent_GetPreviewEnrichContact.md)

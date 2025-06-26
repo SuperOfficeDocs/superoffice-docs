@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Koss Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 635,
+  "Id": 561,
+  "Name": "Shields Inc and Sons",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 469,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Parker-Volkman",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 88,
+  "Id": 262,
+  "Name": "Fay LLC",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 771,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 240
     }
   }
 }

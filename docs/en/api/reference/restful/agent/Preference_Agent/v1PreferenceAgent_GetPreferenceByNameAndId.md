@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ex",
-  "PrefKey": "ut",
+  "PrefSection": "non",
+  "PrefKey": "molestiae",
   "PrefLevel": "Database",
-  "OwnerId": 253
+  "OwnerId": 596
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "assumenda",
+  "RawValue": "autem",
   "Specification": null,
-  "DisplayValue": "libero",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "dolorem",
+  "DisplayTooltip": "voluptates",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 279,
-  "PrefDescId": 55,
-  "TableName": "Stehr Group",
-  "UserPreferenceId": 646,
+  "TargetId": 454,
+  "PrefDescId": 821,
+  "TableName": "Runte-Dicki",
+  "UserPreferenceId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 731
     }
   }
 }

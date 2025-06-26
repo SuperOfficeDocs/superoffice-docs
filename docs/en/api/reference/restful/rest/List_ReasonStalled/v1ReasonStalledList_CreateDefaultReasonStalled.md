@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Conn Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 860,
-  "Rank": 968,
+  "Id": 788,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 717,
+  "Rank": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 348
     }
   }
 }

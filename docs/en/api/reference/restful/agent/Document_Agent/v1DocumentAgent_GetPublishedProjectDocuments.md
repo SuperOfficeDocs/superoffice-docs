@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 624
+  "ProjectId": 257
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 467,
-    "Attention": "reprehenderit",
-    "Header": "odio",
-    "Name": "Turcotte-Conn",
-    "OurRef": "illum",
-    "YourRef": "repudiandae",
-    "Description": "Reduced coherent knowledge user",
-    "DocumentTemplate": "magni",
-    "IsPublished": true,
-    "PersonId": 104,
-    "PersonFullName": "Hadley Orval Aufderhar II",
-    "AssociateFullName": "Erika Braun",
-    "ContactId": 168,
-    "ContactName": "Zulauf, Haag and Beier",
-    "ProjectId": 863,
-    "ProjectName": "Schaden-Kerluke",
-    "AssociateId": 660,
-    "Snum": 499,
-    "SaleId": 390,
-    "SaleName": "Schroeder, Moore and Green",
+    "DocumentId": 154,
+    "Attention": "optio",
+    "Header": "a",
+    "Name": "O'Connell-McKenzie",
+    "OurRef": "quia",
+    "YourRef": "animi",
+    "Description": "Integrated logistical toolset",
+    "DocumentTemplate": "tempore",
+    "IsPublished": false,
+    "PersonId": 214,
+    "PersonFullName": "Lauretta Ortiz",
+    "AssociateFullName": "Vaughn Tillman",
+    "ContactId": 995,
+    "ContactName": "Welch LLC",
+    "ProjectId": 72,
+    "ProjectName": "Kohler Group",
+    "AssociateId": 787,
+    "Snum": 726,
+    "SaleId": 611,
+    "SaleName": "Gleichner, Koelpin and Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 138
       }
     }
   }

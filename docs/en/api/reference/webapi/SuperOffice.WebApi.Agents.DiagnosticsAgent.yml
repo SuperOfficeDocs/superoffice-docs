@@ -20,6 +20,7 @@ items:
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -803,6 +804,35 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextTableNumberAsync(RequestOptions)
+  nameWithType: DiagnosticsAgent.GetNextTableNumberAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Increment save and return NextTableNumber, to be used when creating new extra table
+  example: []
+  syntax:
+    content: public Task<int> GetNextTableNumberAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: NextTableNumber of DatabaseModel
+    content.vb: Public Function GetNextTableNumberAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   id: PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
@@ -3548,6 +3578,78 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetNextTableNumberAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetNextTableNumberAsync
+  nameWithType: DiagnosticsAgent.GetNextTableNumberAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetNextTableNumberAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetNextTableNumberAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetNextTableNumberAsync(RequestOptions)
+  nameWithType: IDiagnosticsAgent.GetNextTableNumberAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNextTableNumberAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetNextTableNumberAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetNextTableNumberAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNextTableNumberAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetNextTableNumberAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Satterfield, Strosin and Schulist",
-    "Description": "Organized bandwidth-monitored encryption",
-    "Rank": 184,
+    "Name": "Oberbrunner, Kuvalis and Bartoletti",
+    "Description": "Vision-oriented encompassing framework",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Schiller-Aufderhar",
-        "Operator": "vitae",
+        "Name": "Blick, Nikolaus and Herman",
+        "Operator": "aut",
         "Values": [
-          "sit",
-          "voluptate"
+          "dolore",
+          "molestias"
         ],
         "DisplayValues": [
-          "ratione",
-          "ut"
+          "enim",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 217,
+        "InterParenthesis": 614,
         "InterOperator": "And",
-        "UniqueHash": 316
+        "UniqueHash": 827
       }
     ]
   },
   {
-    "Name": "Satterfield, Strosin and Schulist",
-    "Description": "Organized bandwidth-monitored encryption",
-    "Rank": 184,
+    "Name": "Oberbrunner, Kuvalis and Bartoletti",
+    "Description": "Vision-oriented encompassing framework",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Schiller-Aufderhar",
-        "Operator": "vitae",
+        "Name": "Blick, Nikolaus and Herman",
+        "Operator": "aut",
         "Values": [
-          "sit",
-          "voluptate"
+          "dolore",
+          "molestias"
         ],
         "DisplayValues": [
-          "ratione",
-          "ut"
+          "enim",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 217,
+        "InterParenthesis": 614,
         "InterOperator": "And",
-        "UniqueHash": 316
+        "UniqueHash": 827
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zemlak-Schulist",
-    "Description": "Innovative next generation installation",
-    "Rank": 605,
+    "Name": "Greenfelder, Lemke and Bruen",
+    "Description": "Streamlined multi-state support",
+    "Rank": 861,
     "Restrictions": [
       {
-        "Name": "Howe Group",
-        "Operator": "nisi",
+        "Name": "Farrell-Hettinger",
+        "Operator": "totam",
         "Values": [
-          "rerum",
-          "voluptatem"
+          "deserunt",
+          "aliquid"
         ],
         "DisplayValues": [
-          "alias",
-          "sed"
+          "sint",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 982,
+        "InterParenthesis": 334,
         "InterOperator": "And",
-        "UniqueHash": 333
+        "UniqueHash": 1002
       }
     ]
   },
   {
-    "Name": "Zemlak-Schulist",
-    "Description": "Innovative next generation installation",
-    "Rank": 605,
+    "Name": "Greenfelder, Lemke and Bruen",
+    "Description": "Streamlined multi-state support",
+    "Rank": 861,
     "Restrictions": [
       {
-        "Name": "Howe Group",
-        "Operator": "nisi",
+        "Name": "Farrell-Hettinger",
+        "Operator": "totam",
         "Values": [
-          "rerum",
-          "voluptatem"
+          "deserunt",
+          "aliquid"
         ],
         "DisplayValues": [
-          "alias",
-          "sed"
+          "sint",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 982,
+        "InterParenthesis": 334,
         "InterOperator": "And",
-        "UniqueHash": 333
+        "UniqueHash": 1002
       }
     ]
   }

@@ -113,8 +113,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 607,
-  "EmailItemId": 400
+  "DocumentId": 337,
+  "EmailItemId": 573
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 385,
+  "DocumentId": 694,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "expedita",
-  "Header": "ipsam",
-  "Name": "Kirlin-Crist",
-  "OurRef": "quo",
-  "YourRef": "cupiditate",
-  "CreatedDate": "2008-09-29T17:54:03.0702097+02:00",
-  "UpdatedDate": "2023-01-07T17:54:03.0702097+01:00",
-  "Description": "Triple-buffered national collaboration",
+  "Attention": "dolorem",
+  "Header": "porro",
+  "Name": "Hills Inc and Sons",
+  "OurRef": "magni",
+  "YourRef": "quis",
+  "CreatedDate": "2002-07-14T03:45:23.389207+02:00",
+  "UpdatedDate": "2024-04-13T03:45:23.389207+02:00",
+  "Description": "Face to face leading edge portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-21T17:54:03.0702097+02:00",
-  "ExternalRef": "labore",
+  "Date": "2015-04-30T03:45:23.389207+02:00",
+  "ExternalRef": "culpa",
   "Completed": "Completed",
-  "ActiveLinks": 517,
+  "ActiveLinks": 129,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "D'Amore Inc and Sons",
-      "Id": 774,
-      "Description": "Profound analyzing secured line",
-      "ExtraInfo": "placeat",
-      "LinkId": 935,
+      "EntityName": "Ernser Group",
+      "Id": 396,
+      "Description": "Implemented neutral groupware",
+      "ExtraInfo": "amet",
+      "LinkId": 643,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldType": "System.String",
+          "FieldLength": 926
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 343,
-  "Snum": 312,
+  "SuggestedDocumentId": 545,
+  "Snum": 932,
   "UserDefinedFields": {
-    "SuperOffice:1": "2078237543",
-    "SuperOffice:2": "Prof. Jacky Joaquin McLaughlin DVM"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Viviane Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
+    "ExtraFields1": "quos",
     "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "minus"
+    "CustomFields1": "et",
+    "CustomFields2": "commodi"
   },
-  "PublishEventDate": "2024-07-31T17:54:03.0702097+02:00",
-  "PublishTo": "2024-09-14T17:54:03.0702097+02:00",
-  "PublishFrom": "2017-05-23T17:54:03.0702097+02:00",
+  "PublishEventDate": "2010-08-24T03:45:23.389207+02:00",
+  "PublishTo": "2006-07-29T03:45:23.389207+02:00",
+  "PublishFrom": "2008-05-03T03:45:23.389207+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 797,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     },
     {
-      "VisibleId": 797,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

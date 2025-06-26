@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 721,
-  "StartTime": "2006-11-15T17:54:02.9452152+01:00",
-  "EndTime": "2005-01-16T17:54:02.9452152+01:00",
-  "Count": 813,
-  "DocumentTemplateId": 356
+  "ContactId": 318,
+  "StartTime": "2017-11-16T03:45:23.2798335+01:00",
+  "EndTime": "2010-05-08T03:45:23.2798335+02:00",
+  "Count": 870,
+  "DocumentTemplateId": 571
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 18,
-    "Attention": "illo",
-    "Header": "nihil",
-    "Name": "Crona Group",
-    "OurRef": "voluptatum",
-    "YourRef": "eveniet",
-    "Description": "Optional empowering time-frame",
-    "DocumentTemplate": "ab",
+    "DocumentId": 436,
+    "Attention": "in",
+    "Header": "quos",
+    "Name": "Schmidt-Hessel",
+    "OurRef": "perspiciatis",
+    "YourRef": "expedita",
+    "Description": "Up-sized well-modulated frame",
+    "DocumentTemplate": "expedita",
     "IsPublished": true,
-    "PersonId": 290,
-    "PersonFullName": "Flavie Herzog",
-    "AssociateFullName": "Lavina Rau III",
-    "ContactId": 851,
-    "ContactName": "White, Simonis and Orn",
-    "ProjectId": 658,
-    "ProjectName": "Bernhard, Johnson and Sauer",
-    "AssociateId": 823,
-    "Snum": 97,
-    "SaleId": 201,
-    "SaleName": "Wintheiser, Reichel and Wisozk",
+    "PersonId": 430,
+    "PersonFullName": "Margret Lindgren",
+    "AssociateFullName": "Mr. Kenny Eudora Altenwerth IV",
+    "ContactId": 960,
+    "ContactName": "Bauch-Ward",
+    "ProjectId": 329,
+    "ProjectName": "Walker, Casper and Orn",
+    "AssociateId": 970,
+    "Snum": 409,
+    "SaleId": 991,
+    "SaleName": "Zieme, Altenwerth and Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 357
       }
     }
   }

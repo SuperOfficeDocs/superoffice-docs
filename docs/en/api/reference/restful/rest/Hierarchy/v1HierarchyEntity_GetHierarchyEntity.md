@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 329,
+  "HierarchyId": 162,
   "Domain": "Dashboards",
-  "Name": "Willms-Hoppe",
-  "Fullname": "recusandae",
-  "ParentId": 347,
+  "Name": "Dietrich LLC",
+  "Fullname": "enim",
+  "ParentId": 698,
   "Children": [
     {
-      "HierarchyId": 872,
+      "HierarchyId": 445,
       "Domain": "Dashboards",
-      "Name": "Eichmann, Corwin and Welch",
-      "Fullname": "porro",
-      "ParentId": 978,
+      "Name": "Rolfson Group",
+      "Fullname": "id",
+      "ParentId": 920,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-04-01T17:54:08.2574567+02:00",
-      "RegisteredAssociateId": 21,
-      "Updated": "2003-01-12T17:54:08.2574567+01:00",
-      "UpdatedAssociateId": 535,
+      "Registered": "2006-08-23T03:45:28.3734363+02:00",
+      "RegisteredAssociateId": 417,
+      "Updated": "2024-04-11T03:45:28.3734363+02:00",
+      "UpdatedAssociateId": 982,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 103
         }
       }
     }
   ],
-  "Registered": "2023-07-16T17:54:08.2574567+02:00",
-  "RegisteredAssociateId": 510,
-  "Updated": "2018-01-06T17:54:08.2574567+01:00",
-  "UpdatedAssociateId": 25,
+  "Registered": "2016-11-19T03:45:28.3734363+01:00",
+  "RegisteredAssociateId": 89,
+  "Updated": "2014-02-01T03:45:28.3734363+01:00",
+  "UpdatedAssociateId": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 622
     }
   },
   "_Links": {

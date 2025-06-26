@@ -486,6 +486,18 @@ title: Services88.DiagnosticsAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetNextTableNumber">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNextTableNumberResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="PerformTasksAfterUpgrade">
         <xs:complexType>
           <xs:sequence />
@@ -950,6 +962,23 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetNextTableNumberRequest">
+    <wsdl:part name="parameters" element="tns:GetNextTableNumber" />
+  </wsdl:message>
+  <wsdl:message name="GetNextTableNumberRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNextTableNumberResponse">
+    <wsdl:part name="parameters" element="tns:GetNextTableNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNextTableNumberResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="PerformTasksAfterUpgradeRequest">
     <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgrade" />
   </wsdl:message>
@@ -1111,6 +1140,10 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:operation name="RemoveExpiredSystemMessages">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveExpiredSystemMessages" name="RemoveExpiredSystemMessagesRequest" message="tns:RemoveExpiredSystemMessagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveExpiredSystemMessagesResponse" name="RemoveExpiredSystemMessagesResponse" message="tns:RemoveExpiredSystemMessagesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNextTableNumber">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetNextTableNumber" name="GetNextTableNumberRequest" message="tns:GetNextTableNumberRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetNextTableNumberResponse" name="GetNextTableNumberResponse" message="tns:GetNextTableNumberResponse" />
     </wsdl:operation>
     <wsdl:operation name="PerformTasksAfterUpgrade">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
@@ -1436,6 +1469,22 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextTableNumber">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetNextTableNumber" style="document" />
+      <wsdl:input name="GetNextTableNumberRequest">
+        <soap:header message="tns:GetNextTableNumberRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetNextTableNumberRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetNextTableNumberRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetNextTableNumberResponse">
+        <soap:header message="tns:GetNextTableNumberResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetNextTableNumberResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetNextTableNumberResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetNextTableNumberResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

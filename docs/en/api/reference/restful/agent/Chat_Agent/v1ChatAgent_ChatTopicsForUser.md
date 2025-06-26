@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 110,
-    "Name": "Reinger-Raynor",
-    "Description": "Re-contextualized global artificial intelligence",
-    "WelcomeMessage": "id",
+    "ChatTopicId": 129,
+    "Name": "McKenzie, Gleason and Ondricka",
+    "Description": "Re-engineered well-modulated functionalities",
+    "WelcomeMessage": "velit",
     "Language": null,
-    "LastAccept": "2002-05-19T17:54:02.7421006+02:00",
-    "SecondsPrAccept": 947,
-    "AlertRecipient": "et",
+    "LastAccept": "2003-04-05T03:45:23.0610908+02:00",
+    "SecondsPrAccept": 74,
+    "AlertRecipient": "ex",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "deleniti",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "quo",
-    "WarnNewChatMinutes": 757,
-    "WarnManagerNewChatMinutes": 415,
-    "TicketEnabled": false,
+    "BadgeHeader": "necessitatibus",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "veritatis",
+    "WarnNewChatMinutes": 101,
+    "WarnManagerNewChatMinutes": 544,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": true,
@@ -131,20 +131,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 937,
-    "WarnManagerChatMessageMinutes": 925,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 110,
+    "WarnManagerChatMessageMinutes": 822,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 929,
-    "OfflineFormQueueLength": 530,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "non",
+    "OfflineFormTimeLimit": 57,
+    "OfflineFormQueueLength": 229,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 832
       }
     }
   }

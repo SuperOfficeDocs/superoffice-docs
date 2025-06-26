@@ -26,8 +26,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=eligendi
+GET /api/v1/List/LegalBase/MDOItems?flat=True
+GET /api/v1/List/LegalBase/MDOItems?query=voluptates
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Hilpert-Mante",
-    "ToolTip": "Officia molestias aut est.",
+    "Id": 930,
+    "Name": "Hessel, Schmitt and Kub",
+    "ToolTip": "Ut rerum sapiente ut quaerat totam.",
     "Deleted": false,
-    "Rank": 401,
-    "Type": "veritatis",
+    "Rank": 897,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "Schaden, Gaylord and Denesik",
-        "ToolTip": "At non.",
+        "Id": 396,
+        "Name": "Witting, Macejkovic and Reilly",
+        "ToolTip": "Est quis magni dolor culpa alias.",
         "Deleted": false,
-        "Rank": 982,
-        "Type": "magnam",
+        "Rank": 890,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 759,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "eos",
-        "FullName": "Miss Jeramy Jake Feeney",
+        "IconHint": "unde",
+        "ColorBlock": 642,
+        "ExtraInfo": "et",
+        "StyleHint": "velit",
+        "FullName": "Daniella Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 217
+            "FieldType": "System.String",
+            "FieldLength": 366
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 166,
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
-    "FullName": "Ms. Destini Weissnat",
+    "IconHint": "in",
+    "ColorBlock": 528,
+    "ExtraInfo": "natus",
+    "StyleHint": "laboriosam",
+    "FullName": "Mr. Brant Price MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 326
       }
     }
   }

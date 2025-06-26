@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Keebler-Conn",
-  "Comment": "facilis",
-  "StakeholderRoleId": 153,
-  "CountryId": 145,
-  "PersonId": 251,
-  "EmailDescription": "rosario_johns@stoltenberglowe.co.uk",
-  "EmailId": 184,
-  "EmailAddress": "nigel_orn@fritsch.name",
-  "PhoneId": 362,
-  "ContactName": "Schowalter Inc and Sons",
-  "ContactId": 855,
-  "SaleId": 727,
-  "Mrmrs": "dolores",
-  "Firstname": "Anya",
-  "MiddleName": "Greenholt, Gislason and Hand",
-  "Lastname": "Towne",
-  "SaleStakeholderId": 393,
-  "Rank": 687,
-  "Phone": "1-695-074-5830",
+  "StakeholderRoleName": "Corwin Group",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 155,
+  "CountryId": 189,
+  "PersonId": 247,
+  "EmailDescription": "morgan_reichert@davis.biz",
+  "EmailId": 699,
+  "EmailAddress": "frida@schamberger.ca",
+  "PhoneId": 522,
+  "ContactName": "Friesen LLC",
+  "ContactId": 491,
+  "SaleId": 920,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Gage",
+  "MiddleName": "Koss-Balistreri",
+  "Lastname": "Carroll",
+  "SaleStakeholderId": 223,
+  "Rank": 70,
+  "Phone": "697-617-9239 x73130",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

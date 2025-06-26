@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "eos",
-  "ProgramName": "Hirthe-D'Amore",
-  "Action": "deleniti",
-  "ExtraParameters": "magni"
+  "Language": "beatae",
+  "ProgramName": "Morissette, Balistreri and Leuschke",
+  "Action": "sit",
+  "ExtraParameters": "saepe"
 }
 ```
 

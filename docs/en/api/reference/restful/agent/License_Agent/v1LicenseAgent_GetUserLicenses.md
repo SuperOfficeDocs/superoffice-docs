@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 433
+  "AssociateId": 84
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collins-Senger",
-    "Description": "Devolved executive Graphical User Interface",
+    "Name": "Kunze, Swaniawski and Jaskolski",
+    "Description": "Virtual 6th generation intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 912,
-        "Tooltip": "voluptas",
+        "Unrestricted": false,
+        "Total": 718,
+        "Tooltip": "itaque",
         "CanAssign": false,
-        "Free": 742,
-        "InUse": 11,
+        "Free": 603,
+        "InUse": 81,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 826,
-        "Name": "Schneider-Kub",
-        "Description": "Extended intangible software",
-        "PrerequisiteModuleName": "Torp Group",
-        "SortOrder": 577,
-        "ExtraFlags": 631,
+        "Assigned": false,
+        "ModuleLicenseId": 795,
+        "Name": "Pollich-Osinski",
+        "Description": "Progressive multimedia pricing structure",
+        "PrerequisiteModuleName": "Stiedemann, Vandervort and Wuckert",
+        "SortOrder": 774,
+        "ExtraFlags": 855,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 940
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 111,
-        "Tooltip": "reprehenderit",
+        "Unrestricted": false,
+        "Total": 41,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 792,
-        "InUse": 713,
+        "Free": 708,
+        "InUse": 556,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 310,
-        "Name": "McDermott, Kautzer and Rowe",
-        "Description": "Function-based mobile workforce",
-        "PrerequisiteModuleName": "Dooley, Konopelski and Kemmer",
-        "SortOrder": 911,
-        "ExtraFlags": 984,
+        "ModuleLicenseId": 179,
+        "Name": "Runte-Wehner",
+        "Description": "Compatible fresh-thinking approach",
+        "PrerequisiteModuleName": "VonRueden, Miller and Bergstrom",
+        "SortOrder": 160,
+        "ExtraFlags": 953,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldType": "System.Int32",
+        "FieldLength": 463
       }
     }
   },
   {
-    "Name": "Collins-Senger",
-    "Description": "Devolved executive Graphical User Interface",
+    "Name": "Kunze, Swaniawski and Jaskolski",
+    "Description": "Virtual 6th generation intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 912,
-        "Tooltip": "voluptas",
+        "Unrestricted": false,
+        "Total": 718,
+        "Tooltip": "itaque",
         "CanAssign": false,
-        "Free": 742,
-        "InUse": 11,
+        "Free": 603,
+        "InUse": 81,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 826,
-        "Name": "Schneider-Kub",
-        "Description": "Extended intangible software",
-        "PrerequisiteModuleName": "Torp Group",
-        "SortOrder": 577,
-        "ExtraFlags": 631,
+        "Assigned": false,
+        "ModuleLicenseId": 795,
+        "Name": "Pollich-Osinski",
+        "Description": "Progressive multimedia pricing structure",
+        "PrerequisiteModuleName": "Stiedemann, Vandervort and Wuckert",
+        "SortOrder": 774,
+        "ExtraFlags": 855,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 940
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 111,
-        "Tooltip": "reprehenderit",
+        "Unrestricted": false,
+        "Total": 41,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 792,
-        "InUse": 713,
+        "Free": 708,
+        "InUse": 556,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 310,
-        "Name": "McDermott, Kautzer and Rowe",
-        "Description": "Function-based mobile workforce",
-        "PrerequisiteModuleName": "Dooley, Konopelski and Kemmer",
-        "SortOrder": 911,
-        "ExtraFlags": 984,
+        "ModuleLicenseId": 179,
+        "Name": "Runte-Wehner",
+        "Description": "Compatible fresh-thinking approach",
+        "PrerequisiteModuleName": "VonRueden, Miller and Bergstrom",
+        "SortOrder": 160,
+        "ExtraFlags": 953,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldType": "System.Int32",
+        "FieldLength": 463
       }
     }
   }

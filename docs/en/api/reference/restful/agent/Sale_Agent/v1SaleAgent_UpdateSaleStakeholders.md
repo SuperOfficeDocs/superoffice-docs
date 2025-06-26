@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Rohan Inc and Sons",
-      "Comment": "quae",
-      "StakeholderRoleId": 549,
-      "CountryId": 281,
-      "PersonId": 333,
-      "EmailDescription": "zander@bednarkuphal.ca",
-      "EmailId": 798,
-      "EmailAddress": "candace@hodkiewicz.info",
-      "PhoneId": 652,
-      "ContactName": "Moen-Rempel",
-      "ContactId": 440,
-      "SaleId": 931,
-      "Mrmrs": "quia",
-      "Firstname": "Josephine",
-      "MiddleName": "Jacobi, Kuvalis and Terry",
-      "Lastname": "Cronin",
-      "SaleStakeholderId": 920,
-      "Rank": 289,
-      "Phone": "1-736-357-9236 x908"
+      "StakeholderRoleName": "Smith LLC",
+      "Comment": "veritatis",
+      "StakeholderRoleId": 569,
+      "CountryId": 376,
+      "PersonId": 420,
+      "EmailDescription": "wayne_emard@heaney.uk",
+      "EmailId": 256,
+      "EmailAddress": "marietta_dooley@reynoldsschowalter.uk",
+      "PhoneId": 969,
+      "ContactName": "Barton, Altenwerth and Hilll",
+      "ContactId": 449,
+      "SaleId": 387,
+      "Mrmrs": "modi",
+      "Firstname": "Timothy",
+      "MiddleName": "Littel-Buckridge",
+      "Lastname": "West",
+      "SaleStakeholderId": 40,
+      "Rank": 869,
+      "Phone": "581.212.8706 x1183"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Yost-Bednar",
-    "Comment": "nihil",
-    "StakeholderRoleId": 4,
-    "CountryId": 754,
-    "PersonId": 228,
-    "EmailDescription": "russell_ondricka@fahey.us",
-    "EmailId": 403,
-    "EmailAddress": "alysa.terry@pagacsipes.uk",
-    "PhoneId": 865,
-    "ContactName": "Hills, Witting and Bernhard",
-    "ContactId": 200,
-    "SaleId": 107,
-    "Mrmrs": "aut",
-    "Firstname": "Godfrey",
-    "MiddleName": "Bergnaum-Marks",
-    "Lastname": "Wyman",
-    "SaleStakeholderId": 770,
-    "Rank": 213,
-    "Phone": "883-048-9746 x3174",
+    "StakeholderRoleName": "Konopelski, O'Reilly and Lesch",
+    "Comment": "eos",
+    "StakeholderRoleId": 614,
+    "CountryId": 342,
+    "PersonId": 576,
+    "EmailDescription": "lyda.king@lehnergislason.co.uk",
+    "EmailId": 442,
+    "EmailAddress": "lysanne.renner@olson.uk",
+    "PhoneId": 590,
+    "ContactName": "Kshlerin-Cronin",
+    "ContactId": 900,
+    "SaleId": 918,
+    "Mrmrs": "vel",
+    "Firstname": "Shany",
+    "MiddleName": "Kuphal Group",
+    "Lastname": "Powlowski",
+    "SaleStakeholderId": 614,
+    "Rank": 273,
+    "Phone": "(359)115-8417 x732",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 200
       }
     }
   }

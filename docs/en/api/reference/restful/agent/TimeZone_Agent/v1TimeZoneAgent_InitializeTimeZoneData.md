@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 686,
-    "Name": "Ryan-Ortiz",
-    "TZLocationCode": "eos",
-    "TZLocationCities": "esse",
-    "IsoNumber": 243,
+    "TZLocationID": 465,
+    "Name": "Schaefer Group",
+    "TZLocationCode": "et",
+    "TZLocationCities": "quia",
+    "IsoNumber": 965,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 685,
-        "StartMonth": 807,
-        "EndDay": 947,
-        "EndMonth": 364,
-        "TZOffset": 746,
-        "StartRulePattern": "sunt",
-        "EndRulePattern": "doloribus"
+        "StartDay": 678,
+        "StartMonth": 997,
+        "EndDay": 308,
+        "EndMonth": 450,
+        "TZOffset": 658,
+        "StartRulePattern": "sequi",
+        "EndRulePattern": "nulla"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 883,
-        "StartMonth": 558,
-        "EndDay": 474,
-        "EndMonth": 101,
-        "TZOffset": 823,
-        "StartRulePattern": "consequatur",
-        "EndRulePattern": "repellat"
+        "StartDay": 470,
+        "StartMonth": 902,
+        "EndDay": 103,
+        "EndMonth": 207,
+        "TZOffset": 824,
+        "StartRulePattern": "nostrum",
+        "EndRulePattern": "ut"
       }
     }
   }

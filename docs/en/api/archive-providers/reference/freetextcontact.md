@@ -373,7 +373,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactAssociate/usergroupId,contactSupportPerson/personId
+GET /api/v1/archive/FreetextContact?$select=streetAddress/line2,restrictionAddress/county,restrictionAddress/formattedAddress,contactAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

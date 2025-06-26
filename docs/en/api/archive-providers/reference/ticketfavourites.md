@@ -71,6 +71,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ownedBy/associateDbId|associate|Owner - ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/associateDbId|associate|Owner - ID| x |
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
@@ -167,7 +168,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=author,tags,createdBy/usergroupId
+GET /api/v1/archive/ticketfavourites?$select=closedAt,content,createdBy/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

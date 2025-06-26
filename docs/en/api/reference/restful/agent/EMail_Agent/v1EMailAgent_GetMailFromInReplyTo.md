@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "architecto"
+  "MessageId": "voluptatem"
 }
 ```
 
@@ -117,96 +117,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 205,
-      "ContactName": "Thompson-Yost",
-      "PersonId": 685,
-      "PersonName": "Hahn-Huel",
-      "AssociateId": 765,
-      "Address": "nesciunt",
-      "EmailId": 714,
+      "ContactId": 752,
+      "ContactName": "Waters-Lubowitz",
+      "PersonId": 293,
+      "PersonName": "Haag-Schmitt",
+      "AssociateId": 511,
+      "Address": "molestiae",
+      "EmailId": 695,
       "DuplicatePersonIds": [
-        48,
-        111
+        578,
+        41
       ],
-      "Name": "Kiehn-Bednar",
+      "Name": "Grady LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 480
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 128,
-      "ContactName": "Lubowitz Group",
-      "PersonId": 587,
-      "PersonName": "Okuneva-Tromp",
-      "AssociateId": 559,
-      "Address": "velit",
-      "EmailId": 414,
+      "ContactId": 684,
+      "ContactName": "Stiedemann, Franecki and McGlynn",
+      "PersonId": 472,
+      "PersonName": "Wyman Inc and Sons",
+      "AssociateId": 587,
+      "Address": "rerum",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        394,
-        268
+        440,
+        953
       ],
-      "Name": "Ruecker, Bosco and Schaefer",
+      "Name": "Friesen-Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 551,
-      "ContactName": "Marvin-Koelpin",
-      "PersonId": 633,
-      "PersonName": "Flatley, Grant and Franecki",
-      "AssociateId": 997,
-      "Address": "saepe",
-      "EmailId": 276,
+      "ContactId": 217,
+      "ContactName": "Stokes, Douglas and Willms",
+      "PersonId": 562,
+      "PersonName": "Ankunding-Terry",
+      "AssociateId": 390,
+      "Address": "enim",
+      "EmailId": 214,
       "DuplicatePersonIds": [
-        764,
-        234
+        471,
+        718
       ],
-      "Name": "Dicki, Hoppe and Gulgowski",
+      "Name": "Conroy-Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldLength": 848
         }
       }
     }
   ],
-  "Subject": "iure",
+  "Subject": "modi",
   "HTMLBody": "et",
   "From": null,
-  "Sent": "2017-10-08T17:54:03.054585+02:00",
-  "Size": 61,
+  "Sent": "2003-06-26T03:45:23.373582+02:00",
+  "Size": 812,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "repudiandae",
-  "IsSent": true,
+  "MessageID": "voluptas",
+  "PlainBody": "asperiores",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 758,
+  "ServerId": 867,
   "Attachments": [
     {
-      "Description": "Profit-focused foreground throughput",
-      "Filename": "magnam",
-      "Size": 599,
-      "Type": "quia",
-      "Encoding": "debitis",
-      "Id": "molestiae",
+      "Description": "Multi-tiered stable forecast",
+      "Filename": "nam",
+      "Size": 160,
+      "Type": "ut",
+      "Encoding": "quibusdam",
+      "Id": "qui",
       "Disposition": "quisquam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 830
+          "FieldLength": 820
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Abernathy-Krajcik",
+      "Name": "Conroy, Larkin and Kihn",
       "Values": [
-        "dolorem",
-        "placeat"
+        "deserunt",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 210
         }
       }
     },
     {
-      "Name": "Abernathy-Krajcik",
+      "Name": "Conroy, Larkin and Kihn",
       "Values": [
-        "dolorem",
-        "placeat"
+        "deserunt",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 210
         }
       }
     }
   ],
-  "FolderName": "Hammes, Kirlin and Mitchell",
-  "EmailItemId": 688,
-  "AccountId": 49,
-  "ReceivedAt": "2012-07-28T17:54:03.054585+02:00",
+  "FolderName": "Franecki Group",
+  "EmailItemId": 196,
+  "AccountId": 281,
+  "ReceivedAt": "2012-08-03T03:45:23.373582+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-09-25T17:54:03.054585+02:00",
+  "RepliedAt": "2003-12-04T03:45:23.373582+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 931
     }
   }
 }

@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 67,
-  "Section": "rerum",
-  "Key": "tenetur",
-  "Name": "Koepp Group",
+  "PrefDescId": 532,
+  "Section": "enim",
+  "Key": "sunt",
+  "Name": "Beahan, Dooley and Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse empowering capacity",
+  "Description": "Polarised user-facing time-frame",
   "IsBuiltin": false,
-  "TableName": "Towne-Brekke",
-  "UserDefinedListId": 81,
-  "Rank": 664,
-  "SubGroup": "repudiandae",
-  "MinLevel": 752,
-  "MaxValue": 726,
-  "MinValue": 524,
-  "RequiredLicense": "veritatis"
+  "TableName": "Volkman-Moen",
+  "UserDefinedListId": 896,
+  "Rank": 574,
+  "SubGroup": "qui",
+  "MinLevel": 454,
+  "MaxValue": 955,
+  "MinValue": 710,
+  "RequiredLicense": "eaque"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 210,
-  "Section": "tenetur",
-  "Key": "commodi",
-  "Name": "Johnston-Lebsack",
+  "PrefDescId": 143,
+  "Section": "voluptatibus",
+  "Key": "iure",
+  "Name": "Carroll, Cole and Mohr",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced modular Graphic Interface",
+  "Description": "Optional coherent system engine",
   "IsBuiltin": false,
-  "TableName": "Gulgowski, Becker and Batz",
-  "UserDefinedListId": 171,
-  "Rank": 802,
-  "SubGroup": "amet",
-  "MinLevel": 287,
-  "MaxValue": 145,
-  "MinValue": 383,
-  "RequiredLicense": "molestias",
+  "TableName": "Orn-Rau",
+  "UserDefinedListId": 297,
+  "Rank": 188,
+  "SubGroup": "delectus",
+  "MinLevel": 772,
+  "MaxValue": 154,
+  "MinValue": 720,
+  "RequiredLicense": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 325
     }
   }
 }

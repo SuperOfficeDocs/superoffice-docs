@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 709,
+  "HierarchyId": 820,
   "Domain": "Dashboards",
-  "Name": "Bashirian Group",
-  "Fullname": "iure",
-  "ParentId": 696,
+  "Name": "Purdy, Fritsch and Gutkowski",
+  "Fullname": "omnis",
+  "ParentId": 368,
   "Children": [
     {
-      "HierarchyId": 854,
+      "HierarchyId": 372,
       "Domain": "Dashboards",
-      "Name": "Rohan Inc and Sons",
-      "Fullname": "deleniti",
-      "ParentId": 824,
+      "Name": "Rempel Inc and Sons",
+      "Fullname": "perspiciatis",
+      "ParentId": 469,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-06-18T17:54:08.2574567+02:00",
-      "RegisteredAssociateId": 573,
-      "Updated": "2015-01-24T17:54:08.2574567+01:00",
-      "UpdatedAssociateId": 606,
+      "Registered": "2000-11-15T03:45:28.3734363+01:00",
+      "RegisteredAssociateId": 926,
+      "Updated": "2019-12-02T03:45:28.3734363+01:00",
+      "UpdatedAssociateId": 304,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 837
+          "FieldType": "System.Int32",
+          "FieldLength": 263
         }
       }
     }
   ],
-  "Registered": "2014-12-12T17:54:08.2574567+01:00",
-  "RegisteredAssociateId": 317,
-  "Updated": "2008-03-02T17:54:08.2574567+01:00",
-  "UpdatedAssociateId": 264,
+  "Registered": "1999-11-01T03:45:28.3734363+01:00",
+  "RegisteredAssociateId": 204,
+  "Updated": "2010-04-24T03:45:28.3734363+02:00",
+  "UpdatedAssociateId": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

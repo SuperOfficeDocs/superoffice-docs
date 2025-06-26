@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "totam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "totam",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 326,
+  "SystemEventId": 96,
   "Scope": "Database",
-  "Eta": "2009-09-05T17:54:08.5543174+02:00",
-  "Eventkey": "voluptas",
-  "Eventmess": "sint",
-  "ExtraInfo": 243,
-  "Owner": 614,
-  "UpdatedCount": 70,
-  "Registered": "2015-08-17T17:54:08.5543174+02:00",
+  "Eta": "2002-06-06T03:45:28.670306+02:00",
+  "Eventkey": "earum",
+  "Eventmess": "id",
+  "ExtraInfo": 613,
+  "Owner": 568,
+  "UpdatedCount": 621,
+  "Registered": "2021-11-16T03:45:28.670306+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   },
   "_Links": {

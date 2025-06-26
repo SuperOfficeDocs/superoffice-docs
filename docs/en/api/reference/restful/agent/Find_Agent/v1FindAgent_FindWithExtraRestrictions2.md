@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "accusantium",
-  "ProviderName": "Muller, Ullrich and Labadie",
-  "StorageKey": "laudantium",
-  "ExtraRestrictions": "dolorem",
-  "OrderBy": "culpa",
-  "DesiredColumns": "reprehenderit",
-  "PageSize": 286,
-  "PageNumber": 54
+  "StorageType": "dolores",
+  "ProviderName": "Armstrong-Kovacek",
+  "StorageKey": "dolor",
+  "ExtraRestrictions": "in",
+  "OrderBy": "natus",
+  "DesiredColumns": "ex",
+  "PageSize": 971,
+  "PageNumber": 900
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Moen, Feest and Davis",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "enim",
-      "CanOrderBy": true,
-      "Name": "Rutherford-Hackett",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolorem",
-      "RestrictionListName": "Jacobi Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "non",
-      "IconHint": "voluptates",
-      "HeadingIconHint": "neque"
+      "DisplayName": "Prosacco, Mosciski and Vandervort",
+      "DisplayTooltip": "debitis",
+      "DisplayType": "sit",
+      "CanOrderBy": false,
+      "Name": "Fahey, Klocko and Reilly",
+      "CanRestrictBy": true,
+      "RestrictionType": "perferendis",
+      "RestrictionListName": "Vandervort Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "rem",
+      "IconHint": "labore",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schulist, Marquardt and Legros",
-      "PrimaryKey": 453,
+      "EntityName": "Greenholt, Ankunding and Terry",
+      "PrimaryKey": 567,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "dolores",
-          "LinkHint": "quasi"
+          "DisplayValue": "sint",
+          "TooltipHint": "beatae",
+          "LinkHint": "tempora"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quae",
+      "LinkHint": "aliquam",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 425
         }
       }
     }
   ],
-  "RowCount": 488,
+  "RowCount": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

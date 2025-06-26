@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 936,
-  "ColumnId": 629,
-  "FieldDefault": "similique",
-  "FieldHeight": 367,
-  "FieldLabel": "quaerat",
-  "FieldLeft": 600,
-  "FieldTop": 848,
+  "UDefFieldId": 356,
+  "ColumnId": 965,
+  "FieldDefault": "tempora",
+  "FieldHeight": 883,
+  "FieldLabel": "sequi",
+  "FieldLeft": 592,
+  "FieldTop": 682,
   "FieldType": "Checkbox",
-  "FieldWidth": 957,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 89,
+  "FormatMask": "possimus",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 111,
-  "LabelLeft": 985,
-  "LabelTop": 888,
-  "LabelWidth": 246,
-  "LastVersionId": 690,
-  "ListTableId": 658,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 379,
+  "LabelLeft": 83,
+  "LabelTop": 548,
+  "LabelWidth": 357,
+  "LastVersionId": 517,
+  "ListTableId": 611,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 904,
-  "ProgId": "voluptates",
+  "Page1LineNo": 438,
+  "ProgId": "rerum",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 641,
-  "TextLength": 244,
-  "Tooltip": "laborum",
-  "UdefIdentity": 917,
-  "UDListDefinitionId": 227,
+  "ShortLabel": "ut",
+  "TabOrder": 142,
+  "TextLength": 690,
+  "Tooltip": "est",
+  "UdefIdentity": 3,
+  "UDListDefinitionId": 223,
   "Justification": "Center",
-  "Version": 620,
-  "TemplateVariableName": "Reichel-Ankunding",
+  "Version": 400,
+  "TemplateVariableName": "Bradtke, Torphy and Quitzon",
   "HasBeenPublished": false,
-  "MdoListName": "Wilderman, Conroy and Baumbach",
+  "MdoListName": "Deckow Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 156
     }
   }
 }

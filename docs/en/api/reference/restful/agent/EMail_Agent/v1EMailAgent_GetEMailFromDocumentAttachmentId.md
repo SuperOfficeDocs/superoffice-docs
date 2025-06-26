@@ -106,10 +106,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 282,
+  "DocId": 121,
   "AttachmentIds": [
-    "assumenda",
-    "rem"
+    "sunt",
+    "nostrum"
   ],
   "IncludeAttachments": false
 }
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 106,
-      "ContactName": "Stiedemann, Mohr and Strosin",
-      "PersonId": 538,
-      "PersonName": "Kertzmann-Kreiger",
-      "AssociateId": 261,
-      "Address": "rerum",
-      "EmailId": 406,
+      "ContactId": 623,
+      "ContactName": "Weimann, Wunsch and Stamm",
+      "PersonId": 681,
+      "PersonName": "Cronin-Herman",
+      "AssociateId": 110,
+      "Address": "ut",
+      "EmailId": 165,
       "DuplicatePersonIds": [
-        381,
-        455
+        866,
+        101
       ],
-      "Name": "Johnson-Bernhard",
+      "Name": "Marvin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 594
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 694,
-      "ContactName": "Parker Inc and Sons",
-      "PersonId": 252,
-      "PersonName": "Bartoletti LLC",
-      "AssociateId": 559,
-      "Address": "a",
-      "EmailId": 62,
+      "ContactId": 882,
+      "ContactName": "Herman, Mertz and Lesch",
+      "PersonId": 841,
+      "PersonName": "Mraz-Kautzer",
+      "AssociateId": 501,
+      "Address": "repellat",
+      "EmailId": 532,
       "DuplicatePersonIds": [
-        450,
-        574
+        224,
+        794
       ],
-      "Name": "Zemlak LLC",
+      "Name": "Sipes-Walker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 49
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 326,
-      "ContactName": "Reilly Inc and Sons",
-      "PersonId": 426,
-      "PersonName": "Bogan, Swift and Hilll",
-      "AssociateId": 202,
-      "Address": "officiis",
-      "EmailId": 950,
+      "ContactId": 693,
+      "ContactName": "Beer-Batz",
+      "PersonId": 181,
+      "PersonName": "Goldner, Kirlin and Goldner",
+      "AssociateId": 507,
+      "Address": "velit",
+      "EmailId": 268,
       "DuplicatePersonIds": [
-        357,
-        898
+        431,
+        292
       ],
-      "Name": "Howe, Wunsch and Ebert",
+      "Name": "Kirlin, D'Amore and Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 962
         }
       }
     }
   ],
-  "Subject": "quod",
-  "HTMLBody": "voluptates",
+  "Subject": "magnam",
+  "HTMLBody": "sunt",
   "From": null,
-  "Sent": "2017-10-26T17:54:03.1170817+02:00",
-  "Size": 847,
+  "Sent": "2016-09-13T03:45:23.4360809+02:00",
+  "Size": 389,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "praesentium",
-  "PlainBody": "architecto",
+  "MessageID": "ipsum",
+  "PlainBody": "quibusdam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 27,
+  "ServerId": 145,
   "Attachments": [
     {
-      "Description": "Progressive grid-enabled internet solution",
-      "Filename": "et",
-      "Size": 817,
-      "Type": "sint",
-      "Encoding": "optio",
-      "Id": "eaque",
-      "Disposition": "ab",
+      "Description": "Open-source eco-centric project",
+      "Filename": "veniam",
+      "Size": 478,
+      "Type": "sunt",
+      "Encoding": "aut",
+      "Id": "quis",
+      "Disposition": "ad",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 69
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Steuber, Schroeder and Blick",
+      "Name": "Macejkovic LLC",
       "Values": [
-        "rerum",
-        "aut"
+        "enim",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 109
         }
       }
     },
     {
-      "Name": "Steuber, Schroeder and Blick",
+      "Name": "Macejkovic LLC",
       "Values": [
-        "rerum",
-        "aut"
+        "enim",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 109
         }
       }
     }
   ],
-  "FolderName": "Leannon Inc and Sons",
-  "EmailItemId": 15,
-  "AccountId": 490,
-  "ReceivedAt": "2015-09-08T17:54:03.1170817+02:00",
+  "FolderName": "Will, Reinger and Anderson",
+  "EmailItemId": 443,
+  "AccountId": 482,
+  "ReceivedAt": "2025-01-29T03:45:23.4360809+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-01-30T17:54:03.1170817+01:00",
+  "RepliedAt": "2015-04-28T03:45:23.4360809+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

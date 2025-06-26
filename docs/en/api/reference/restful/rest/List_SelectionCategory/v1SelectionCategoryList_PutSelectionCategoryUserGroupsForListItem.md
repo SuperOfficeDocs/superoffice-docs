@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Murray, Rutherford and O'Reilly",
-    "ToolTip": "Voluptas libero libero deleniti animi.",
-    "Deleted": true,
-    "Rank": 615,
-    "Type": "ab",
-    "ColorBlock": 756,
-    "IconHint": "consequuntur",
+    "Id": 696,
+    "Name": "Beer, Yost and Roob",
+    "ToolTip": "Repellat nulla natus porro enim odit voluptas incidunt.",
+    "Deleted": false,
+    "Rank": 755,
+    "Type": "qui",
+    "ColorBlock": 959,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1998-03-11T17:54:09.1168029+01:00",
+    "LastChanged": "2023-08-31T03:45:29.2327869+02:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Kulas-Runolfsson",
-        "ToolTip": "Ut dolores et.",
+        "Id": 836,
+        "Name": "Nader LLC",
+        "ToolTip": "Ea nam omnis.",
         "Deleted": false,
-        "Rank": 925,
-        "Type": "laudantium",
-        "ColorBlock": 810,
-        "IconHint": "repudiandae",
+        "Rank": 545,
+        "Type": "nesciunt",
+        "ColorBlock": 346,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2002-09-27T17:54:09.1168029+02:00",
+        "LastChanged": "2007-01-16T03:45:29.2327869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Earline Schultz"
+        "ExtraInfo": "vitae",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Prof. Jan Arvid Osinski PhD"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "nihil",
+    "ExtraInfo": "tempore",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Miss Claudie O'Hara"
+    "FullName": "Ben O'Hara"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Homenick Inc and Sons",
-    "ToolTip": "Ut molestiae culpa sequi.",
-    "Deleted": true,
-    "Rank": 536,
-    "Type": "ea",
-    "ColorBlock": 521,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2010-12-02T17:54:09.1168029+01:00",
+    "Id": 772,
+    "Name": "Jakubowski Group",
+    "ToolTip": "Et reprehenderit voluptatem veritatis non accusamus architecto vero.",
+    "Deleted": false,
+    "Rank": 984,
+    "Type": "sed",
+    "ColorBlock": 626,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2008-04-06T03:45:29.2327869+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Kling, Hahn and Miller",
-        "ToolTip": "Id quia consequatur quo.",
-        "Deleted": true,
-        "Rank": 584,
-        "Type": "excepturi",
-        "ColorBlock": 584,
-        "IconHint": "et",
+        "Id": 480,
+        "Name": "Schulist-Fahey",
+        "ToolTip": "Laboriosam et sit sunt eveniet neque.",
+        "Deleted": false,
+        "Rank": 426,
+        "Type": "qui",
+        "ColorBlock": 543,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "1999-08-24T17:54:09.1168029+02:00",
+        "LastChanged": "2001-03-31T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "iure",
+        "ExtraInfo": "a",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Prof. Camilla Ziemann",
+        "FullName": "Prof. Jamison Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "quos",
+    "ExtraInfo": "dicta",
+    "StyleHint": "libero",
     "Hidden": true,
-    "FullName": "Maryjane Schumm",
+    "FullName": "Yessenia Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 509
       }
     }
   }

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 305,
-  "WorkflowId": 246,
+  "WorkflowGoalId": 97,
+  "WorkflowId": 824,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Frami Group",
-      "Description": "User-friendly coherent analyzer",
-      "Rank": 777,
+      "Name": "Windler LLC",
+      "Description": "Down-sized executive time-frame",
+      "Rank": 336,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Frami Group",
-      "Description": "User-friendly coherent analyzer",
-      "Rank": 777,
+      "Name": "Windler LLC",
+      "Description": "Down-sized executive time-frame",
+      "Rank": 336,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 488,
-  "WorkflowId": 89,
+  "WorkflowGoalId": 377,
+  "WorkflowId": 552,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Bashirian-Ernser",
-      "Description": "Reverse-engineered homogeneous parallelism",
-      "Rank": 392,
+      "Name": "Marvin, Reinger and Sawayn",
+      "Description": "Synergized coherent flexibility",
+      "Rank": 129,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bashirian-Ernser",
-      "Description": "Reverse-engineered homogeneous parallelism",
-      "Rank": 392,
+      "Name": "Marvin, Reinger and Sawayn",
+      "Description": "Synergized coherent flexibility",
+      "Rank": 129,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldLength": 669
     }
   }
 }

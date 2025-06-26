@@ -26,7 +26,7 @@ Gets a ProjectEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=188
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=753
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,127 +107,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 154,
-  "Name": "Ortiz LLC",
-  "ProjectNumber": "865192",
+  "ProjectId": 502,
+  "Name": "Deckow Inc and Sons",
+  "ProjectNumber": "554148",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 496,
-      "ContactId": 38,
-      "ProjectId": 812,
-      "ContactName": "Larson, Cruickshank and Daniel",
+      "ProjectmemberId": 108,
+      "ContactId": 214,
+      "ProjectId": 994,
+      "ContactName": "Bode, Keebler and Hand",
       "ContactDepartment": "",
-      "ProjectName": "Considine-Schmeler",
-      "EmailId": 901,
-      "EmailAddress": "dameon@lind.info",
-      "CountryId": 718,
-      "Firstname": "Aisha",
-      "MiddleName": "Hintz, Daniel and Bernier",
-      "Lastname": "Graham",
-      "PersonId": 840,
-      "Mrmrs": "perferendis",
-      "ProjectMemberTypeName": "Marks LLC",
-      "Phone": "030.758.3849",
-      "PhoneId": 907,
-      "ProjectMemberTypeId": 106,
-      "EmailAddressName": "jabari@grahamrempel.us",
-      "Comment": "consequatur",
-      "FullName": "Ena Grimes",
+      "ProjectName": "Hauck, Crooks and Gaylord",
+      "EmailId": 801,
+      "EmailAddress": "patsy_halvorson@jewess.com",
+      "CountryId": 516,
+      "Firstname": "Eldred",
+      "MiddleName": "Metz Group",
+      "Lastname": "Lesch",
+      "PersonId": 867,
+      "Mrmrs": "vel",
+      "ProjectMemberTypeName": "Moore, Pagac and Mills",
+      "Phone": "(605)522-6715",
+      "PhoneId": 823,
+      "ProjectMemberTypeId": 831,
+      "EmailAddressName": "kiel_graham@skilesgusikowski.co.uk",
+      "Comment": "ut",
+      "FullName": "Pink Kshlerin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 398
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eaque",
-      "StrippedValue": "minima",
-      "Description": "Universal composite knowledge user",
+      "Value": "ducimus",
+      "StrippedValue": "ea",
+      "Description": "Customer-focused zero tolerance software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 422
+          "FieldType": "System.Int32",
+          "FieldLength": 665
         }
       }
     },
     {
-      "Value": "eaque",
-      "StrippedValue": "minima",
-      "Description": "Universal composite knowledge user",
+      "Value": "ducimus",
+      "StrippedValue": "ea",
+      "Description": "Customer-focused zero tolerance software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 422
+          "FieldType": "System.Int32",
+          "FieldLength": 665
         }
       }
     }
   ],
-  "CreatedDate": "2015-06-10T17:54:03.47644+02:00",
-  "UpdatedDate": "2013-03-06T17:54:03.47644+01:00",
-  "Description": "Digitized fresh-thinking data-warehouse",
-  "Postit": "animi",
+  "CreatedDate": "2010-01-30T03:45:23.7798203+01:00",
+  "UpdatedDate": "2008-03-14T03:45:23.7798203+01:00",
+  "Description": "Cloned non-volatile implementation",
+  "Postit": "laborum",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "User-centric national product",
-  "ActiveStatusMonitorId": 567,
+  "ImageDescription": "Quality-focused systemic knowledge base",
+  "ActiveStatusMonitorId": 494,
   "Links": [
     {
-      "EntityName": "Hilpert LLC",
-      "Id": 883,
-      "Description": "Profound human-resource customer loyalty",
-      "ExtraInfo": "quo",
-      "LinkId": 717,
+      "EntityName": "Ortiz-Koss",
+      "Id": 923,
+      "Description": "Virtual fresh-thinking monitoring",
+      "ExtraInfo": "suscipit",
+      "LinkId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 367
         }
       }
     }
   ],
-  "ActiveLinks": 99,
-  "Completed": false,
-  "NextMilestoneDate": "2011-01-26T17:54:03.47644+01:00",
-  "NmdAppointmentId": 26,
-  "EndDate": "2022-03-02T17:54:03.47644+01:00",
-  "ActiveErpLinks": 389,
+  "ActiveLinks": 460,
+  "Completed": true,
+  "NextMilestoneDate": "2019-07-03T03:45:23.7798203+02:00",
+  "NmdAppointmentId": 327,
+  "EndDate": "2004-02-15T03:45:23.7798203+01:00",
+  "ActiveErpLinks": 571,
   "UserDefinedFields": {
-    "SuperOffice:1": "Micaela Whitney Simonis Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "504690782",
+    "SuperOffice:2": "Jayme Crona"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "eos"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "2004-07-21T17:54:03.47644+02:00",
-  "PublishTo": "2013-10-15T17:54:03.47644+02:00",
-  "PublishFrom": "2025-03-31T17:54:03.47644+02:00",
+  "PublishEventDate": "2018-07-23T03:45:23.7798203+02:00",
+  "PublishTo": "2012-01-10T03:45:23.7798203+01:00",
+  "PublishFrom": "2013-05-01T03:45:23.7798203+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

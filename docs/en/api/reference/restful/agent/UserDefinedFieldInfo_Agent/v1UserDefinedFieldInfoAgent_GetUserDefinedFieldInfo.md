@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=253
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=440
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 427,
-  "ColumnId": 986,
-  "FieldDefault": "sit",
-  "FieldHeight": 42,
-  "FieldLabel": "accusantium",
-  "FieldLeft": 309,
-  "FieldTop": 18,
+  "UDefFieldId": 919,
+  "ColumnId": 874,
+  "FieldDefault": "deserunt",
+  "FieldHeight": 989,
+  "FieldLabel": "magnam",
+  "FieldLeft": 329,
+  "FieldTop": 235,
   "FieldType": "Checkbox",
-  "FieldWidth": 220,
-  "FormatMask": "aliquid",
-  "HideLabel": false,
+  "FieldWidth": 172,
+  "FormatMask": "quia",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 755,
-  "LabelLeft": 349,
-  "LabelTop": 101,
-  "LabelWidth": 698,
-  "LastVersionId": 211,
-  "ListTableId": 598,
-  "IsMandatory": false,
+  "LabelHeight": 725,
+  "LabelLeft": 138,
+  "LabelTop": 624,
+  "LabelWidth": 964,
+  "LastVersionId": 268,
+  "ListTableId": 796,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 699,
-  "ProgId": "odit",
+  "Page1LineNo": 722,
+  "ProgId": "aspernatur",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 557,
-  "TextLength": 733,
-  "Tooltip": "iste",
-  "UdefIdentity": 752,
-  "UDListDefinitionId": 45,
+  "ShortLabel": "perspiciatis",
+  "TabOrder": 189,
+  "TextLength": 725,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 712,
+  "UDListDefinitionId": 869,
   "Justification": "Center",
-  "Version": 782,
-  "TemplateVariableName": "Osinski, Jacobs and Hamill",
-  "HasBeenPublished": false,
-  "MdoListName": "Schulist, Nolan and Barrows",
+  "Version": 590,
+  "TemplateVariableName": "Mante Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Rohan, Thompson and Reichert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

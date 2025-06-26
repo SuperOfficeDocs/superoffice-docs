@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 520,
-  "ColumnId": 816,
-  "FieldDefault": "quia",
-  "FieldHeight": 609,
-  "FieldLabel": "aspernatur",
-  "FieldLeft": 894,
-  "FieldTop": 643,
+  "UDefFieldId": 832,
+  "ColumnId": 155,
+  "FieldDefault": "enim",
+  "FieldHeight": 637,
+  "FieldLabel": "nobis",
+  "FieldLeft": 207,
+  "FieldTop": 559,
   "FieldType": "Checkbox",
-  "FieldWidth": 489,
-  "FormatMask": "quos",
+  "FieldWidth": 484,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 677,
-  "LabelLeft": 802,
-  "LabelTop": 847,
-  "LabelWidth": 397,
-  "LastVersionId": 824,
-  "ListTableId": 429,
+  "LabelHeight": 793,
+  "LabelLeft": 278,
+  "LabelTop": 219,
+  "LabelWidth": 30,
+  "LastVersionId": 258,
+  "ListTableId": 959,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 304,
-  "ProgId": "architecto",
+  "Page1LineNo": 759,
+  "ProgId": "a",
   "IsReadOnly": true,
-  "ShortLabel": "facilis",
-  "TabOrder": 453,
-  "TextLength": 719,
-  "Tooltip": "dolore",
-  "UdefIdentity": 183,
-  "UDListDefinitionId": 35,
+  "ShortLabel": "eum",
+  "TabOrder": 99,
+  "TextLength": 240,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 392,
+  "UDListDefinitionId": 468,
   "Justification": "Center",
-  "Version": 328,
-  "TemplateVariableName": "Price, Rogahn and Hermann",
-  "HasBeenPublished": false,
-  "MdoListName": "Stracke, McClure and Kemmer",
+  "Version": 55,
+  "TemplateVariableName": "Corkery LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Klocko-Romaguera",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

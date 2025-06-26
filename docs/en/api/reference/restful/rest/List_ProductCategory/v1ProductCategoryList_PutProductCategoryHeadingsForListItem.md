@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Leffler, Stiedemann and Leannon",
-    "ToolTip": "Odio aliquam distinctio ut dolorum aut.",
+    "Id": 634,
+    "Name": "Treutel, Little and Wolff",
+    "ToolTip": "Quo occaecati sit.",
     "Deleted": true,
-    "Rank": 497,
-    "Type": "nulla",
-    "ColorBlock": 539,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2006-08-20T17:54:08.9761714+02:00",
+    "Rank": 602,
+    "Type": "ipsam",
+    "ColorBlock": 372,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2003-08-18T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Haley, Witting and Lakin",
-        "ToolTip": "Quisquam harum laudantium sunt dolorem dolores voluptatibus possimus.",
+        "Id": 116,
+        "Name": "Senger, Orn and Stroman",
+        "ToolTip": "Officia dolores nihil consectetur aliquid consectetur velit a.",
         "Deleted": false,
-        "Rank": 660,
-        "Type": "quibusdam",
-        "ColorBlock": 154,
-        "IconHint": "sint",
+        "Rank": 252,
+        "Type": "harum",
+        "ColorBlock": 78,
+        "IconHint": "architecto",
         "Selected": true,
-        "LastChanged": "2024-01-17T17:54:08.9761714+01:00",
+        "LastChanged": "2010-01-28T03:45:29.1549343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Jacey Mosciski"
+        "ExtraInfo": "non",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Travon Shanahan"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Sandra West"
+    "FullName": "Deborah Rempel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Gutmann Inc and Sons",
-    "ToolTip": "Quidem aut sit quidem.",
+    "Id": 600,
+    "Name": "Kris, Harber and Gerlach",
+    "ToolTip": "Officiis corporis sit omnis et.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "aspernatur",
-    "ColorBlock": 563,
-    "IconHint": "commodi",
+    "Rank": 894,
+    "Type": "temporibus",
+    "ColorBlock": 785,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2005-06-01T17:54:08.9761714+02:00",
+    "LastChanged": "2000-07-26T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Osinski-Rolfson",
-        "ToolTip": "Porro ea vitae harum minus sed.",
+        "Id": 839,
+        "Name": "Gerlach, Larkin and O'Kon",
+        "ToolTip": "Qui incidunt id temporibus qui.",
         "Deleted": false,
-        "Rank": 502,
-        "Type": "illum",
-        "ColorBlock": 625,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2023-08-08T17:54:08.9761714+02:00",
+        "Rank": 119,
+        "Type": "neque",
+        "ColorBlock": 964,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2005-06-21T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "in",
+        "ExtraInfo": "modi",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Mrs. Emile Quitzon V",
+        "FullName": "Prof. Arden Kacey Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldLength": 101
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Elnora Farrell",
+    "ExtraInfo": "aut",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Rene Simeon Wilkinson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

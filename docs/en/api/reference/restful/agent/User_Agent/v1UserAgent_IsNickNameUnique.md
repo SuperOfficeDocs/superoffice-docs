@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 905,
-  "NickName": "Kling, Mohr and Spinka"
+  "AssociateId": 932,
+  "NickName": "Feest LLC"
 }
 ```
 

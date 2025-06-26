@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "tempora",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "tempora",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 305,
-  "Name": "Beer, Hudson and Bashirian",
-  "Tooltip": "itaque",
+  "Id": 997,
+  "Name": "Macejkovic Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 508,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 281,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "architecto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 709
     }
   },
   "_Links": {

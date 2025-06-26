@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Donnelly Inc and Sons",
-  "ProviderName": "Maggio-Cole",
+  "GuiName": "Reilly-Abernathy",
+  "ProviderName": "Cassin-Fadel",
   "SortOrder": [
     {
-      "Name": "Torp LLC",
+      "Name": "Hand-Reinger",
       "Direction": "ASC"
     },
     {
-      "Name": "Torp LLC",
+      "Name": "Hand-Reinger",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Boehm, Hane and Metz",
-      "Operator": "harum",
+      "Name": "Grimes-Beahan",
+      "Operator": "dolor",
       "Values": [
-        "ipsa",
-        "dolorem"
+        "omnis",
+        "quaerat"
       ],
       "DisplayValues": [
-        "sunt",
-        "dolorem"
+        "facere",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 833,
+      "InterParenthesis": 874,
       "InterOperator": "And",
-      "UniqueHash": 389
+      "UniqueHash": 637
     }
   ],
   "Entities": [
-    "deleniti",
-    "aliquam"
+    "laudantium",
+    "repellendus"
   ],
-  "Page": 589,
-  "PageSize": 637
+  "Page": 329,
+  "PageSize": 475
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schmidt LLC",
-    "PrimaryKey": 449,
+    "EntityName": "Senger Group",
+    "PrimaryKey": 884,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "rerum",
+        "DisplayValue": "dolorem",
         "TooltipHint": "vel",
-        "LinkHint": "eum"
+        "LinkHint": "nam"
       }
     },
-    "LinkHint": "modi",
-    "StyleHint": "expedita",
+    "LinkHint": "nobis",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 152
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 44,
-  "ERPProductKey": "dolore",
-  "ERPPriceListKey": "eum",
-  "Name": "Bartell Group",
-  "Description": "Ergonomic discrete workforce",
-  "Code": "et",
-  "PriceUnit": "autem",
-  "QuantityUnit": "eum",
+  "ProductId": 615,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "est",
+  "Name": "Swift-Wisoky",
+  "Description": "Synergized well-modulated groupware",
+  "Code": "quam",
+  "PriceUnit": "qui",
+  "QuantityUnit": "excepturi",
   "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 3140.268,
-  "ItemNumber": "1073917",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 19233.358,
+  "ItemNumber": "1180549",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ab",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 19067.255999999998,
-  "VATInfo": "distinctio",
-  "UnitCost": 29738.525999999998,
-  "UnitMinimumPrice": 24279.097999999998,
-  "UnitListPrice": 3152.804,
+  "ProductFamilyKey": "minus",
+  "ProductTypeKey": "magni",
+  "VAT": 25598.512,
+  "VATInfo": "qui",
+  "UnitCost": 3795.274,
+  "UnitMinimumPrice": 20151.62,
+  "UnitListPrice": 9035.322,
   "InAssortment": false,
-  "Supplier": "officiis",
-  "SupplierCode": "qui",
-  "Rights": "ducimus",
-  "Rule": "molestiae",
+  "Supplier": "doloribus",
+  "SupplierCode": "a",
+  "Rights": "voluptatum",
+  "Rule": "sed",
   "ExtraInfo": [
     {
-      "Name": "Flatley Group",
-      "Value": "tempore",
+      "Name": "Monahan, Breitenberg and Beahan",
+      "Value": "in",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 562
         }
       }
     },
     {
-      "Name": "Flatley Group",
-      "Value": "tempore",
+      "Name": "Monahan, Breitenberg and Beahan",
+      "Value": "in",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 562
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "est",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "neque",
-  "ExtraField5": "sequi",
-  "InStock": 266.39,
+  "RawExtraInfo": "eum",
+  "ExtraField1": "neque",
+  "ExtraField2": "cumque",
+  "ExtraField3": "quae",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "sint",
+  "InStock": 890.05599999999993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

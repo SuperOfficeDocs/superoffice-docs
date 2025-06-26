@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,97 +97,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 479,
-      "ContactName": "Greenfelder LLC",
-      "PersonId": 230,
-      "PersonName": "Padberg-Gerhold",
-      "AssociateId": 657,
-      "Address": "cupiditate",
-      "EmailId": 512,
+      "ContactId": 955,
+      "ContactName": "Spinka-Hessel",
+      "PersonId": 76,
+      "PersonName": "Hodkiewicz-Shields",
+      "AssociateId": 695,
+      "Address": "iure",
+      "EmailId": 20,
       "DuplicatePersonIds": [
-        918,
-        881
+        516,
+        639
       ],
-      "Name": "Powlowski Inc and Sons",
+      "Name": "Marquardt LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldLength": 347
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 135,
-      "ContactName": "Boyer, Kohler and Will",
-      "PersonId": 456,
-      "PersonName": "Goyette Inc and Sons",
-      "AssociateId": 971,
-      "Address": "voluptates",
-      "EmailId": 426,
+      "ContactId": 476,
+      "ContactName": "Lueilwitz Inc and Sons",
+      "PersonId": 121,
+      "PersonName": "Flatley-Hintz",
+      "AssociateId": 23,
+      "Address": "dicta",
+      "EmailId": 592,
       "DuplicatePersonIds": [
-        645,
-        444
+        839,
+        268
       ],
-      "Name": "Ziemann, Baumbach and Skiles",
+      "Name": "Jewess-Batz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 561,
-      "ContactName": "Ryan, Ondricka and Mann",
-      "PersonId": 989,
-      "PersonName": "Pacocha Inc and Sons",
-      "AssociateId": 649,
-      "Address": "debitis",
-      "EmailId": 184,
+      "ContactId": 534,
+      "ContactName": "Bradtke, Ferry and Upton",
+      "PersonId": 453,
+      "PersonName": "Crist LLC",
+      "AssociateId": 957,
+      "Address": "labore",
+      "EmailId": 180,
       "DuplicatePersonIds": [
-        244,
-        805
+        517,
+        786
       ],
-      "Name": "Cronin LLC",
+      "Name": "Kessler-Hammes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 180
         }
       }
     }
   ],
-  "Subject": "perferendis",
-  "HTMLBody": "porro",
+  "Subject": "non",
+  "HTMLBody": "corrupti",
   "From": null,
-  "Sent": "2019-01-10T17:54:03.0858331+01:00",
-  "Size": 396,
+  "Sent": "2023-02-02T03:45:23.4048314+01:00",
+  "Size": 526,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "illum",
-  "PlainBody": "quia",
+  "MessageID": "eaque",
+  "PlainBody": "eum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 321,
+  "ServerId": 325,
   "Attachments": [
     {
-      "Description": "Switchable zero defect parallelism",
-      "Filename": "laudantium",
-      "Size": 630,
-      "Type": "pariatur",
-      "Encoding": "nisi",
-      "Id": "non",
-      "Disposition": "amet",
+      "Description": "Future-proofed composite support",
+      "Filename": "voluptatem",
+      "Size": 484,
+      "Type": "quis",
+      "Encoding": "quasi",
+      "Id": "iure",
+      "Disposition": "provident",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -195,49 +195,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldLength": 633
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Runte, Crooks and Skiles",
+      "Name": "King, Douglas and Rath",
       "Values": [
-        "fugit",
-        "veritatis"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 643
         }
       }
     },
     {
-      "Name": "Runte, Crooks and Skiles",
+      "Name": "King, Douglas and Rath",
       "Values": [
-        "fugit",
-        "veritatis"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 643
         }
       }
     }
   ],
-  "FolderName": "Barton-Gibson",
-  "EmailItemId": 84,
-  "AccountId": 972,
-  "ReceivedAt": "2000-06-08T17:54:03.0858331+02:00",
+  "FolderName": "Waters-Morissette",
+  "EmailItemId": 203,
+  "AccountId": 811,
+  "ReceivedAt": "2024-01-11T03:45:23.4048314+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-05-29T17:54:03.0858331+02:00",
+  "RepliedAt": "2007-04-07T03:45:23.4048314+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -245,8 +245,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

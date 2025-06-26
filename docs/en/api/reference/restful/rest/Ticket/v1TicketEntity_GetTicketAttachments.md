@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 434,
-    "Name": "Blick LLC",
-    "ContentType": "numquam",
-    "AttSize": 139,
+    "AttachmentId": 683,
+    "Name": "Metz, Abbott and Treutel",
+    "ContentType": "omnis",
+    "AttSize": 51,
     "InlineImage": false,
-    "ContentId": "dolorem",
-    "AuthKey": "iste",
-    "IsSafeFileExtension": false,
+    "ContentId": "et",
+    "AuthKey": "saepe",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

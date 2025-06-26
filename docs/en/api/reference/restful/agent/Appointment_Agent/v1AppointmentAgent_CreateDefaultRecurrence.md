@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 951,
-  "StartDate": "2017-12-08T17:54:02.5236144+01:00",
-  "EndDate": "2007-10-22T17:54:02.5236144+02:00",
-  "RecurrenceCounter": 633,
+  "RecurrenceId": 634,
+  "StartDate": "2024-09-29T03:45:22.842344+02:00",
+  "EndDate": "2014-05-28T03:45:22.842344+02:00",
+  "RecurrenceCounter": 970,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-01-12T17:54:02.5236144+01:00",
+      "Date": "2018-03-19T03:45:22.842344+01:00",
       "IsConflict": false,
-      "Description": "Total well-modulated instruction set",
-      "DescriptionStyleHint": "Diverse zero tolerance migration",
-      "Tooltip": "et"
+      "Description": "User-friendly web-enabled instruction set",
+      "DescriptionStyleHint": "Streamlined multi-tasking array",
+      "Tooltip": "provident"
     },
     {
-      "Date": "2000-01-12T17:54:02.5236144+01:00",
+      "Date": "2018-03-19T03:45:22.842344+01:00",
       "IsConflict": false,
-      "Description": "Total well-modulated instruction set",
-      "DescriptionStyleHint": "Diverse zero tolerance migration",
-      "Tooltip": "et"
+      "Description": "User-friendly web-enabled instruction set",
+      "DescriptionStyleHint": "Streamlined multi-tasking array",
+      "Tooltip": "provident"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

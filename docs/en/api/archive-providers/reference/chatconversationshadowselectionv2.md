@@ -492,7 +492,7 @@ Shadow contact provider for the ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=person/whenUpdatedByWorkflow,person/phone/formattedNumber,person/personDirectFax/formattedNumber,contact/contactExtra/x_contact_default_integer,contact/contactExtra/x_contact_datetime
+GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=person/birthDay,person/personRegisteredDate,person/personUrl/URLAddress,person/personExtra/x_person_user_relation,person/personExtra/y_rental/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

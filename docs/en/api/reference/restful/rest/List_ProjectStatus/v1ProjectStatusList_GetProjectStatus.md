@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Goodwin, McClure and Mohr",
-  "Tooltip": "eius",
+  "Id": 607,
+  "Name": "Schoen, Wolf and Prohaska",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 48,
-  "Rank": 588,
+  "UdListDefinitionId": 312,
+  "Rank": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

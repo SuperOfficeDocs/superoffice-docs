@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 459,
+  "PersonId": 295,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schamberger-Pacocha",
-    "SaleDate": "2023-04-26T17:54:03.5858088+02:00",
-    "SaleId": 359,
-    "Probability": 986,
-    "Title": "tempora",
-    "Amount": 2839.404,
-    "Currency": "in",
-    "ProjectName": "O'Connell-Boyer",
-    "AssociateFullName": "Cade Carroll",
-    "Description": "Robust transitional conglomeration",
+    "ContactName": "Herman, Prosacco and Lind",
+    "SaleDate": "2022-09-12T03:45:23.8735682+02:00",
+    "SaleId": 18,
+    "Probability": 726,
+    "Title": "qui",
+    "Amount": 6130.1039999999994,
+    "Currency": "eos",
+    "ProjectName": "Hilpert Inc and Sons",
+    "AssociateFullName": "Taurean Gulgowski",
+    "Description": "Progressive real-time software",
     "Status": "Lost",
-    "WeightedAmount": 24836.95,
-    "ProjectId": 164,
-    "EarningPercent": 28325.092,
-    "Earning": 4575.6399999999994,
-    "ContactId": 931,
-    "AssociateId": 561,
-    "PersonId": 105,
-    "SaleTypeId": 686,
-    "SaleTypeName": "Predovic-Rogahn",
-    "PersonFullName": "Jaron Ritchie",
+    "WeightedAmount": 10194.902,
+    "ProjectId": 754,
+    "EarningPercent": 7537.2699999999995,
+    "Earning": 12507.794,
+    "ContactId": 641,
+    "AssociateId": 262,
+    "PersonId": 304,
+    "SaleTypeId": 38,
+    "SaleTypeName": "Rodriguez LLC",
+    "PersonFullName": "Serena Durgan",
     "Completed": "Completed",
-    "ActiveErpLinks": 864,
-    "NextDueDate": "2005-12-07T17:54:03.5858088+01:00",
-    "Number": "431892",
+    "ActiveErpLinks": 242,
+    "NextDueDate": "2018-03-23T03:45:23.8735682+01:00",
+    "Number": "1206512",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 922
       }
     }
   }

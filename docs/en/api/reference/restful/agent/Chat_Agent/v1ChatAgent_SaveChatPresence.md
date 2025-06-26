@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 128,
-      "DisplayName": "Feest LLC",
-      "OngoingChats": 65,
+      "UserId": 488,
+      "DisplayName": "Predovic Group",
+      "OngoingChats": 377,
       "Present": false,
       "ChatTopics": [
-        990,
-        73
+        423,
+        668
       ]
     },
     {
-      "UserId": 128,
-      "DisplayName": "Feest LLC",
-      "OngoingChats": 65,
+      "UserId": 488,
+      "DisplayName": "Predovic Group",
+      "OngoingChats": 377,
       "Present": false,
       "ChatTopics": [
-        990,
-        73
+        423,
+        668
       ]
     }
   ]

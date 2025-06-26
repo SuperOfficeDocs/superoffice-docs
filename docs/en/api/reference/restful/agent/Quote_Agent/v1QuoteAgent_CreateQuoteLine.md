@@ -126,8 +126,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 169,
-  "ERPProductKey": "delectus"
+  "QuoteAlternativeId": 848,
+  "ERPProductKey": "omnis"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 756,
-  "ERPQuoteLineKey": "nobis",
-  "QuoteAlternativeId": 311,
-  "ERPProductKey": "est",
+  "QuoteLineId": 728,
+  "ERPQuoteLineKey": "sint",
+  "QuoteAlternativeId": 192,
+  "ERPProductKey": "eum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29133.664,
-  "DeliveredQuantity": 6734.9659999999994,
-  "Rank": 314,
-  "Name": "Roberts-Flatley",
-  "Description": "Universal context-sensitive architecture",
-  "Code": "voluptas",
-  "QuantityUnit": "et",
-  "PriceUnit": "optio",
-  "ItemNumber": "1120053",
+  "Quantity": 20806.626,
+  "DeliveredQuantity": 1037.354,
+  "Rank": 198,
+  "Name": "Roob, Schumm and Bartell",
+  "Description": "Self-enabling object-oriented open system",
+  "Code": "est",
+  "QuantityUnit": "id",
+  "PriceUnit": "consequatur",
+  "ItemNumber": "1261186",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatem",
-  "ProductTypeKey": "earum",
-  "Supplier": "voluptatem",
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "voluptatem",
+  "Supplier": "nihil",
   "SupplierCode": "aut",
-  "Thumbnail": "et",
-  "VATInfo": "sequi",
-  "VAT": 11031.68,
-  "UnitCost": 25059.464,
-  "UnitMinimumPrice": 28168.392,
-  "UnitListPrice": 22473.914,
+  "Thumbnail": "aut",
+  "VATInfo": "voluptatem",
+  "VAT": 21430.291999999998,
+  "UnitCost": 4412.672,
+  "UnitMinimumPrice": 16851.518,
+  "UnitListPrice": 21311.2,
   "ExtraInfo": [
     {
-      "Name": "Thiel-Little",
-      "Value": "quis",
+      "Name": "Schroeder LLC",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldLength": 386
         }
       }
     },
     {
-      "Name": "Thiel-Little",
-      "Value": "quis",
+      "Name": "Schroeder LLC",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldLength": 386
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptas",
-  "SubscriptionQuantity": 3886.16,
-  "SubscriptionStart": "2007-02-16T17:54:03.5389365+01:00",
-  "ERPDiscountPercent": 5644.334,
-  "ERPDiscountAmount": 24131.8,
-  "DiscountPercent": 19252.162,
-  "DiscountAmount": 30130.275999999998,
+  "RawExtraInfo": "delectus",
+  "IsSubscription": true,
+  "SubscriptionUnit": "maxime",
+  "SubscriptionQuantity": 8270.626,
+  "SubscriptionStart": "2004-06-12T03:45:23.8266945+02:00",
+  "ERPDiscountPercent": 26507.372,
+  "ERPDiscountAmount": 14018.382,
+  "DiscountPercent": 16165.171999999999,
+  "DiscountAmount": 3437.998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 26466.629999999997,
-  "EarningAmount": 3629.172,
-  "SubTotal": 2999.238,
-  "TotalPrice": 17108.506,
-  "Rights": "quisquam",
-  "Rule": "nam",
-  "ExtraField1": "quia",
-  "ExtraField2": "quo",
-  "ExtraField3": "dolores",
-  "ExtraField4": "ut",
-  "ExtraField5": "quo",
+  "EarningPercent": 16603.932,
+  "EarningAmount": 17086.568,
+  "SubTotal": 20399.206,
+  "TotalPrice": 4221.498,
+  "Rights": "saepe",
+  "Rule": "et",
+  "ExtraField1": "modi",
+  "ExtraField2": "quidem",
+  "ExtraField3": "quis",
+  "ExtraField4": "nam",
+  "ExtraField5": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 50
     }
   }
 }

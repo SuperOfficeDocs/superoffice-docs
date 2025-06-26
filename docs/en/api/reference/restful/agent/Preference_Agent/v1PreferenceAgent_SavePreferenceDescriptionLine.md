@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 510,
-  "PrefDescId": 115,
-  "PrefValue": "incidunt",
-  "PrefShowValue": "sed",
-  "Description": "Vision-oriented eco-centric pricing structure",
+  "PrefDescLineId": 370,
+  "PrefDescId": 644,
+  "PrefValue": "illum",
+  "PrefShowValue": "vitae",
+  "Description": "Integrated stable methodology",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 291,
-  "PrefDescId": 492,
-  "PrefValue": "totam",
-  "PrefShowValue": "nihil",
-  "Description": "Balanced leading edge access",
+  "PrefDescLineId": 520,
+  "PrefDescId": 932,
+  "PrefValue": "aut",
+  "PrefShowValue": "est",
+  "Description": "Compatible upward-trending definition",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 445
     }
   }
 }

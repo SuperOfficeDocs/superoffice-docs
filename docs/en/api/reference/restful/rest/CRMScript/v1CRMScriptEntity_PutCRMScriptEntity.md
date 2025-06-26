@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 250,
-  "UniqueIdentifier": "molestias",
-  "Name": "Jakubowski, Haag and Koelpin",
-  "Description": "Triple-buffered encompassing conglomeration",
-  "IncludeId": "voluptatem",
-  "AccessKey": "est",
-  "HierarchyId": 101,
-  "Source": "qui",
-  "SourceCode": "aliquam",
+  "EjscriptId": 127,
+  "UniqueIdentifier": "labore",
+  "Name": "Yost, Boehm and Dare",
+  "Description": "Optional discrete solution",
+  "IncludeId": "labore",
+  "AccessKey": "natus",
+  "HierarchyId": 724,
+  "Source": "ut",
+  "SourceCode": "illo",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 820,
+  "HtmlOutput": 398,
   "Includes": [
-    911,
-    81
+    135,
+    195
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 538,
-      "LineNumberTo": 31,
-      "Delta": 651,
-      "IncludeId": "eveniet",
+      "LineNumberFrom": 124,
+      "LineNumberTo": 552,
+      "Delta": 649,
+      "IncludeId": "doloribus",
       "IncludedFrom": [
-        "blanditiis",
-        "sequi"
+        "beatae",
+        "cupiditate"
       ]
     },
     {
-      "LineNumberFrom": 538,
-      "LineNumberTo": 31,
-      "Delta": 651,
-      "IncludeId": "eveniet",
+      "LineNumberFrom": 124,
+      "LineNumberTo": 552,
+      "Delta": 649,
+      "IncludeId": "doloribus",
       "IncludedFrom": [
-        "blanditiis",
-        "sequi"
+        "beatae",
+        "cupiditate"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2014-12-08T17:54:08.1324619+01:00",
-  "RegisteredAssociateId": 54,
-  "Updated": "2019-01-12T17:54:08.1324619+01:00",
-  "UpdatedAssociateId": 978
+  "Registered": "2020-09-30T03:45:28.2955692+02:00",
+  "RegisteredAssociateId": 747,
+  "Updated": "2002-01-25T03:45:28.2955692+01:00",
+  "UpdatedAssociateId": 393
 }
 ```
 
@@ -171,57 +171,57 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 314,
-  "UniqueIdentifier": "quis",
-  "Name": "Casper-Greenfelder",
-  "Description": "Decentralized 6th generation project",
-  "IncludeId": "impedit",
-  "AccessKey": "similique",
-  "HierarchyId": 347,
-  "Source": "dolorem",
-  "SourceCode": "autem",
+  "EjscriptId": 771,
+  "UniqueIdentifier": "nam",
+  "Name": "Legros-Bashirian",
+  "Description": "Enterprise-wide holistic portal",
+  "IncludeId": "non",
+  "AccessKey": "eos",
+  "HierarchyId": 362,
+  "Source": "ullam",
+  "SourceCode": "vel",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 165,
+  "HtmlOutput": 134,
   "Includes": [
-    938,
-    625
+    397,
+    357
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 777,
-      "LineNumberTo": 585,
-      "Delta": 408,
-      "IncludeId": "et",
+      "LineNumberFrom": 43,
+      "LineNumberTo": 722,
+      "Delta": 686,
+      "IncludeId": "ad",
       "IncludedFrom": [
-        "quibusdam",
-        "nobis"
+        "voluptas",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 218
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2007-05-05T17:54:08.1324619+02:00",
-  "RegisteredAssociateId": 301,
-  "Updated": "2025-04-14T17:54:08.1324619+02:00",
-  "UpdatedAssociateId": 657,
+  "Registered": "2017-08-18T03:45:28.2955692+02:00",
+  "RegisteredAssociateId": 229,
+  "Updated": "2022-02-02T03:45:28.2955692+01:00",
+  "UpdatedAssociateId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 181
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

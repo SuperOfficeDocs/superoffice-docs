@@ -116,7 +116,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,128 +124,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Feb 2007 17:54:07 G2T
+Last-Modified: Mon, 08 Jan 2001 03:45:28 G1T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-02-24T17:54:07.9137227+01:00",
-  "AppointmentId": 277,
-  "Description": "Total static open architecture",
-  "Title": "occaecati",
-  "Agenda": "ipsam",
-  "InternalNotes": "voluptas",
-  "StartDate": "2016-06-09T17:54:07.9137227+02:00",
-  "EndDate": "2006-12-12T17:54:07.9137227+01:00",
+  "CreatedDate": "2017-12-21T03:45:28.0296999+01:00",
+  "AppointmentId": 244,
+  "Description": "Self-enabling 6th generation focus group",
+  "Title": "voluptate",
+  "Agenda": "nemo",
+  "InternalNotes": "quam",
+  "StartDate": "2014-06-18T03:45:28.0296999+02:00",
+  "EndDate": "2014-11-04T03:45:28.0296999+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 11,
+  "MotherId": 943,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-02-05T17:54:07.9137227+01:00",
+  "UpdatedDate": "2001-01-08T03:45:28.0296999+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 726,
+  "ActiveLinks": 787,
   "Links": [
     {
-      "EntityName": "Lynch, Bayer and Miller",
-      "Id": 562,
-      "Description": "Reactive bi-directional definition",
-      "ExtraInfo": "neque",
-      "LinkId": 51,
+      "EntityName": "Dietrich-Kemmer",
+      "Id": 843,
+      "Description": "Secured zero tolerance system engine",
+      "ExtraInfo": "ex",
+      "LinkId": 405,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldType": "System.String",
+          "FieldLength": 239
         }
       }
     }
   ],
-  "AlarmLeadTime": "praesentium",
-  "HasAlarm": true,
-  "ColorIndex": 652,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "quia",
-  "LeadTime": "eum",
-  "Location": "et",
-  "RejectCounter": 493,
+  "AlarmLeadTime": "maxime",
+  "HasAlarm": false,
+  "ColorIndex": 614,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "quod",
+  "LeadTime": "reiciendis",
+  "Location": "occaecati",
+  "RejectCounter": 606,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 753,
-      "PersonId": 502,
-      "ContactId": 494,
-      "EmailId": 768,
-      "SendEmail": true,
+      "AssociateId": 931,
+      "PersonId": 252,
+      "ContactId": 707,
+      "EmailId": 326,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "victoria_cole@kubrodriguez.us",
-      "Description": "Distributed fresh-thinking internet solution"
+      "EmailAddress": "holly_rice@stokes.name",
+      "Description": "Innovative dynamic pricing structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-10-04T17:54:07.9137227+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2000-05-24T03:45:28.0296999+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 579,
+  "PreferredTZLocation": 764,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 149,
+  "SuggestedAppointmentId": 421,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "nulla",
   "UserDefinedFields": {
-    "SuperOffice:1": "1172088199",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Hollis Waters",
+    "SuperOffice:2": "1534089375"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "nulla"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "2004-10-14T17:54:07.9137227+02:00",
-  "PublishTo": "2020-03-13T17:54:07.9137227+01:00",
-  "PublishFrom": "2017-08-23T17:54:07.9137227+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-11-03T03:45:28.0296999+01:00",
+  "PublishTo": "2005-04-20T03:45:28.0296999+02:00",
+  "PublishFrom": "2021-07-04T03:45:28.0296999+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 387,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     },
     {
-      "VisibleId": 387,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
@@ -255,7 +255,7 @@ Last-Modified: Mon, 05 Feb 2007 17:54:07 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 372
     }
   }
 }

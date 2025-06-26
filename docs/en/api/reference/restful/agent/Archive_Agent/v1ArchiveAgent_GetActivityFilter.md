@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-07-02T17:54:02.6483551+02:00",
-  "ToDate": "2005-08-09T17:54:02.6483551+02:00",
+  "FromDate": "2010-01-25T03:45:22.967341+01:00",
+  "ToDate": "2018-04-06T03:45:22.967341+02:00",
   "AssociateList": [
     {
-      "Id": 905,
-      "Name": "Franecki-Walker",
-      "ToolTip": "Voluptatem omnis itaque doloremque.",
+      "Id": 555,
+      "Name": "Prosacco, Runolfsdottir and Block",
+      "ToolTip": "Rerum doloremque aut voluptatem atque.",
       "Deleted": true,
-      "Rank": 801,
-      "Type": "eaque",
-      "ColorBlock": 303,
-      "IconHint": "maiores",
+      "Rank": 166,
+      "Type": "consequuntur",
+      "ColorBlock": 313,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2000-09-23T17:54:02.6483551+02:00",
+      "LastChanged": "2019-10-19T03:45:22.967341+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "incidunt",
-      "StyleHint": "corrupti",
+      "ExtraInfo": "et",
+      "StyleHint": "tempora",
       "Hidden": false,
-      "FullName": "Sigurd Bechtelar",
+      "FullName": "Bernardo Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 661
+          "FieldLength": 245
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 526,
-      "Name": "Sipes, Haley and Hodkiewicz",
-      "ToolTip": "Qui corrupti sapiente odit veritatis officiis.",
+      "Id": 59,
+      "Name": "Oberbrunner, Kovacek and Gutmann",
+      "ToolTip": "Molestiae dolorem nulla aliquid assumenda.",
       "Deleted": false,
-      "Rank": 97,
-      "Type": "facilis",
-      "ColorBlock": 11,
-      "IconHint": "sapiente",
-      "Selected": true,
-      "LastChanged": "2024-07-04T17:54:02.6483551+02:00",
+      "Rank": 550,
+      "Type": "eum",
+      "ColorBlock": 890,
+      "IconHint": "vel",
+      "Selected": false,
+      "LastChanged": "1999-08-30T03:45:22.967341+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "totam",
-      "Hidden": false,
-      "FullName": "Ms. Alfreda Volkman",
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "velit",
+      "Hidden": true,
+      "FullName": "Sonny Leuschke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 579
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 775,
-      "Name": "Koelpin, Stamm and O'Keefe",
-      "ToolTip": "Voluptate dolor ea natus sed ab.",
-      "Deleted": true,
-      "Rank": 306,
-      "Type": "eos",
+      "Id": 250,
+      "Name": "Kulas-Kling",
+      "ToolTip": "Labore omnis ad.",
+      "Deleted": false,
+      "Rank": 179,
+      "Type": "optio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "harum",
-      "ColorBlock": 936,
-      "ExtraInfo": "quo",
-      "StyleHint": "consectetur",
-      "FullName": "Brigitte Crist",
+      "IconHint": "voluptas",
+      "ColorBlock": 991,
+      "ExtraInfo": "beatae",
+      "StyleHint": "molestiae",
+      "FullName": "Arlene Volkman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 266
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

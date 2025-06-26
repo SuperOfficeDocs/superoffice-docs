@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatem",
-  "Key": "qui",
+  "Section": "eum",
+  "Key": "amet",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 874,
-  "Section": "neque",
-  "Key": "laudantium",
-  "Name": "Greenfelder Inc and Sons",
+  "PrefDescId": 125,
+  "Section": "maxime",
+  "Key": "aliquid",
+  "Name": "Bartoletti Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized intermediate internet solution",
-  "IsBuiltin": false,
-  "TableName": "Schoen LLC",
-  "UserDefinedListId": 883,
-  "Rank": 95,
-  "SubGroup": "laboriosam",
-  "MinLevel": 348,
-  "MaxValue": 917,
-  "MinValue": 639,
-  "RequiredLicense": "aliquam",
+  "Description": "Innovative multi-state application",
+  "IsBuiltin": true,
+  "TableName": "Ledner, Fadel and Donnelly",
+  "UserDefinedListId": 358,
+  "Rank": 113,
+  "SubGroup": "sit",
+  "MinLevel": 565,
+  "MaxValue": 20,
+  "MinValue": 564,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

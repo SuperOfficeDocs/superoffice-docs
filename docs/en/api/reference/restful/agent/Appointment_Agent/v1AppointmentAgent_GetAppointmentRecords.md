@@ -129,12 +129,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 975,
-  "RecurrenceRuleId": 976
+  "MotherId": 186,
+  "RecurrenceRuleId": 570
 }
 ```
 
@@ -146,66 +146,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 318,
-    "StartDate": "1999-01-23T17:54:02.3983677+01:00",
-    "EndDate": "2010-11-24T17:54:02.3983677+01:00",
+    "AppointmentId": 657,
+    "StartDate": "2006-08-23T03:45:22.7017267+02:00",
+    "EndDate": "2013-11-03T03:45:22.7017267+01:00",
     "Type": "BookingForChecklist",
-    "Task": "magni",
-    "AssociateFullName": "Mertie Beer",
-    "ContactName": "Hamill, Strosin and Lowe",
-    "Description": "Inverse leading edge extranet",
-    "PersonFullName": "Karine Mitchell",
-    "PersonId": 919,
-    "ContactId": 944,
-    "ProjectId": 704,
-    "ProjectName": "Hansen-Wiegand",
+    "Task": "rerum",
+    "AssociateFullName": "Elmore Streich IV",
+    "ContactName": "Lowe Group",
+    "Description": "Right-sized demand-driven moratorium",
+    "PersonFullName": "Royce Crist",
+    "PersonId": 840,
+    "ContactId": 851,
+    "ProjectId": 861,
+    "ProjectName": "Reichel-Nienow",
     "IsPublished": false,
-    "AssociateId": 86,
-    "ColorIndex": 599,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 702,
+    "ColorIndex": 352,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 663,
-    "PriorityName": "Brakus Group",
+    "PriorityId": 890,
+    "PriorityName": "Hauck, Durgan and VonRueden",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-03-01T17:54:02.3983677+01:00",
+    "ActiveDate": "2002-03-12T03:45:22.7017267+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-02-17T17:54:02.3983677+01:00",
-    "RecurringEndDate": "2019-10-12T17:54:02.3983677+02:00",
-    "MotherId": 631,
-    "AssignedBy": 788,
-    "AssignedByFullName": "Miss Bruce Marisol Collins PhD",
+    "RecurringStartDate": "2012-07-08T03:45:22.7017267+02:00",
+    "RecurringEndDate": "2002-11-11T03:45:22.7017267+01:00",
+    "MotherId": 646,
+    "AssignedBy": 657,
+    "AssignedByFullName": "Seth Dietrich",
     "RejectReason": "",
-    "Location": "modi",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 995,
-    "SaleName": "Franecki-Prosacco",
-    "AssociateName": "Reinger Group",
-    "CreatedDate": "2015-05-25T17:54:02.3983677+02:00",
-    "CreatedBy": "quos",
-    "CreatedByFullName": "Miss Rahsaan Brooks Funk",
-    "CreatedByAssociateId": 247,
+    "Location": "adipisci",
+    "AlarmLeadTime": "dolorem",
+    "SaleId": 437,
+    "SaleName": "Powlowski LLC",
+    "AssociateName": "Schulist Group",
+    "CreatedDate": "2011-04-29T03:45:22.7017267+02:00",
+    "CreatedBy": "dolore",
+    "CreatedByFullName": "Kayleigh Stiedemann",
+    "CreatedByAssociateId": 46,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 741,
-    "Title": "earum",
-    "Agenda": "eum",
-    "InternalNotes": "sit",
+    "PreferredTZLocation": 742,
+    "Title": "tempora",
+    "Agenda": "culpa",
+    "InternalNotes": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 908
       }
     }
   }

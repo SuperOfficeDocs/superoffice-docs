@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 938,
-  "Name": "Torp-Rutherford",
-  "Tooltip": "esse",
-  "Rank": 48,
+  "SaleTypeId": 463,
+  "Name": "Sanford-Armstrong",
+  "Tooltip": "sed",
+  "Rank": 554,
   "DurationUnit": "Century",
-  "SaleDuration": 224,
-  "SaleTypeCatId": 521,
+  "SaleDuration": 571,
+  "SaleTypeCatId": 63,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 411,
-  "QuoteLinesTemplate": 177,
-  "ConfirmationLinesTemplate": 515,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 619,
-  "MinEarningPercent": 169,
-  "GroupQuoteLinesBy": 707,
-  "SortGroupLinesBy": 299,
+  "DefaultQuoteValidity": 288,
+  "QuoteLinesTemplate": 100,
+  "ConfirmationLinesTemplate": 263,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 753,
+  "MinEarningPercent": 226,
+  "GroupQuoteLinesBy": 834,
+  "SortGroupLinesBy": 894,
   "Stages": [
     {
-      "Id": 522,
-      "Name": "Brakus-Shanahan",
-      "ToolTip": "Eligendi voluptas impedit suscipit molestias et.",
+      "Id": 212,
+      "Name": "Feil-Buckridge",
+      "ToolTip": "Voluptas corporis.",
       "Deleted": false,
-      "Rank": 565,
-      "Type": "rerum",
-      "ColorBlock": 452,
-      "IconHint": "rerum",
+      "Rank": 983,
+      "Type": "nulla",
+      "ColorBlock": 417,
+      "IconHint": "cum",
       "Selected": true,
-      "LastChanged": "2022-04-29T17:54:09.1011806+02:00",
+      "LastChanged": "2018-08-07T03:45:29.2171623+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Tamara Rogahn",
+      "ExtraInfo": "eum",
+      "StyleHint": "temporibus",
+      "Hidden": false,
+      "FullName": "Ms. Rebecca Bechtelar V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 238
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

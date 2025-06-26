@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 339,
-  "Name": "Greenholt LLC",
-  "Tooltip": "ducimus",
+  "Id": 935,
+  "Name": "Bruen Group",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 997,
+  "Rank": 445,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   },
   "_Links": {

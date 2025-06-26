@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Block, Okuneva and Gorczany",
-    "Tooltip": "assumenda",
+    "Id": 22,
+    "Name": "Blanda-Keebler",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 568
+    "UdListDefinitionId": 100,
+    "Rank": 624
   },
   {
-    "Id": 994,
-    "Name": "Block, Okuneva and Gorczany",
-    "Tooltip": "assumenda",
+    "Id": 22,
+    "Name": "Blanda-Keebler",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 568
+    "UdListDefinitionId": 100,
+    "Rank": 624
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Greenholt, Farrell and Gerhold",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 461,
-    "Rank": 991,
+    "Id": 542,
+    "Name": "Franecki LLC",
+    "Tooltip": "a",
+    "Deleted": false,
+    "UdListDefinitionId": 241,
+    "Rank": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 621
       }
     }
   }

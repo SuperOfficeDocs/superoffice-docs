@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Konopelski-Emard",
-  "Tooltip": "est",
+  "Id": 805,
+  "Name": "Armstrong-Batz",
+  "Tooltip": "deserunt",
   "Deleted": true,
-  "Rank": 494,
-  "IsCustomList": true,
+  "Rank": 553,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 332
     }
   },
   "_Links": {

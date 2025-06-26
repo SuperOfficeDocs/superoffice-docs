@@ -94,40 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 869,
-    "Name": "Pfeffer LLC",
-    "Rank": 75,
-    "Tooltip": "dolores",
-    "Icon": "ipsam",
-    "DefaultTicketStatus": 876,
+    "TicketTypeId": 89,
+    "Name": "Wiegand Group",
+    "Rank": 20,
+    "Tooltip": "eveniet",
+    "Icon": "occaecati",
+    "DefaultTicketStatus": 282,
     "TicketStatuses": [
-      91,
-      169
+      352,
+      701
     ],
-    "DefaultTicketPriority": 360,
+    "DefaultTicketPriority": 133,
     "TicketPriorities": [
-      421,
-      266
+      760,
+      307
     ],
-    "ReplyTemplate": 396,
+    "ReplyTemplate": 260,
     "IsExternalVisible": false,
     "IsDefault": false,
     "ShowInNew": true,
-    "ExcludeSignature": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      197,
-      277
+      259,
+      66
     ],
-    "ReplyForwardNoSignature": true,
+    "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

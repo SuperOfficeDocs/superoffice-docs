@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 313,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "vero",
-  "Rank": 355,
-  "Rate": 7236.406,
-  "Units": 31158.228,
+  "CurrencyId": 505,
+  "Name": "Schumm, Hudson and Braun",
+  "Tooltip": "excepturi",
+  "Rank": 622,
+  "Rate": 10323.395999999999,
+  "Units": 13914.96,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 33
     }
   }
 }

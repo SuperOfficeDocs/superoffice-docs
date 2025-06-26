@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Roob LLC",
-  "Tooltip": "vel",
+  "Id": 924,
+  "Name": "Macejkovic, Boyle and Upton",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 382,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 237,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ex",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldLength": 925
     }
   },
   "_Links": {

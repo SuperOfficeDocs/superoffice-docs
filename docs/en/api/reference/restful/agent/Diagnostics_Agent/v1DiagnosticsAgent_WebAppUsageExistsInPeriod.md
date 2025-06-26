@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 108,
-  "ViewState": "sit",
-  "FromDate": "2020-05-14T17:54:02.9452152+02:00"
+  "AssociateId": 658,
+  "ViewState": "enim",
+  "FromDate": "2008-02-21T03:45:23.2798335+01:00"
 }
 ```
 

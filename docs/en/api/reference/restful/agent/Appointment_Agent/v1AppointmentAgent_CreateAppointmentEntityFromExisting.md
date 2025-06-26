@@ -135,12 +135,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 432,
-  "AssociateId": 281
+  "AppointmentId": 454,
+  "AssociateId": 184
 }
 ```
 
@@ -155,121 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-01-09T17:54:02.4608636+01:00",
-  "AppointmentId": 409,
-  "Description": "Optional transitional product",
-  "Title": "dolorum",
-  "Agenda": "ratione",
-  "InternalNotes": "nobis",
-  "StartDate": "2006-06-19T17:54:02.4608636+02:00",
-  "EndDate": "2019-03-07T17:54:02.4608636+01:00",
+  "CreatedDate": "2021-04-08T03:45:22.7642247+02:00",
+  "AppointmentId": 779,
+  "Description": "Quality-focused upward-trending architecture",
+  "Title": "tempora",
+  "Agenda": "consequatur",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2012-10-06T03:45:22.7642247+02:00",
+  "EndDate": "2006-11-10T03:45:22.7642247+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 889,
+  "MotherId": 534,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-10-31T17:54:02.4921123+01:00",
+  "UpdatedDate": "2007-06-03T03:45:22.7642247+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 90,
+  "ActiveLinks": 244,
   "Links": [
     {
-      "EntityName": "Pouros LLC",
-      "Id": 652,
-      "Description": "Synergized value-added website",
-      "ExtraInfo": "quia",
-      "LinkId": 418,
+      "EntityName": "Larson Inc and Sons",
+      "Id": 687,
+      "Description": "Networked composite policy",
+      "ExtraInfo": "consequatur",
+      "LinkId": 478,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 689
         }
       }
     }
   ],
-  "AlarmLeadTime": "sit",
-  "HasAlarm": true,
-  "ColorIndex": 659,
+  "AlarmLeadTime": "voluptatum",
+  "HasAlarm": false,
+  "ColorIndex": 63,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "sit",
-  "LeadTime": "blanditiis",
-  "Location": "est",
-  "RejectCounter": 387,
+  "IsAlldayEvent": true,
+  "LagTime": "et",
+  "LeadTime": "dolore",
+  "Location": "ut",
+  "RejectCounter": 593,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 776,
-      "PersonId": 818,
-      "ContactId": 596,
-      "EmailId": 297,
+      "AssociateId": 662,
+      "PersonId": 396,
+      "ContactId": 323,
+      "EmailId": 89,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "winfield@koepp.biz",
-      "Description": "Realigned composite customer loyalty"
+      "EmailAddress": "loy@osinski.com",
+      "Description": "Innovative 4th generation adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-03-17T17:54:02.5077369+01:00",
+  "ActiveDate": "2021-07-10T03:45:22.7642247+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 125,
+  "PreferredTZLocation": 393,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 382,
+  "SuggestedAppointmentId": 995,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "perspiciatis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Laney Bradtke",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "159259863",
+    "SuperOffice:2": "1098427793"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "commodi",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "1998-08-11T17:54:02.5236144+02:00",
-  "PublishTo": "2015-03-26T17:54:02.5236144+01:00",
-  "PublishFrom": "2016-12-10T17:54:02.5236144+01:00",
+  "PublishEventDate": "2003-03-02T03:45:22.8110948+01:00",
+  "PublishTo": "2002-10-30T03:45:22.8110948+01:00",
+  "PublishFrom": "2008-02-26T03:45:22.8110948+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 16,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     },
     {
-      "VisibleId": 16,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 863
     }
   }
 }

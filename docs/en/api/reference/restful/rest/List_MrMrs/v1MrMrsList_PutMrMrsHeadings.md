@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Ankunding, Botsford and Dibbert",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 772,
-    "UdListDefinitionId": 753
+    "HeadingId": 900,
+    "Name": "Bednar Inc and Sons",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 133,
+    "UdListDefinitionId": 671
   },
   {
-    "HeadingId": 452,
-    "Name": "Ankunding, Botsford and Dibbert",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 772,
-    "UdListDefinitionId": 753
+    "HeadingId": 900,
+    "Name": "Bednar Inc and Sons",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 133,
+    "UdListDefinitionId": 671
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 982,
-    "Name": "Wuckert-Schaefer",
-    "Tooltip": "ad",
+    "HeadingId": 926,
+    "Name": "Blanda LLC",
+    "Tooltip": "minus",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 994,
+    "Rank": 793,
+    "UdListDefinitionId": 858,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 160
       }
     }
   }

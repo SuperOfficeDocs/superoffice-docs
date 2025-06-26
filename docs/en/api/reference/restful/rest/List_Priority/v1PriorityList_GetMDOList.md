@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=ut
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=corporis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Runolfsson, Nicolas and Moore",
-    "ToolTip": "Minima ut et delectus illo eius.",
+    "Id": 112,
+    "Name": "Jaskolski, Wisozk and McLaughlin",
+    "ToolTip": "Accusantium vel libero eius ipsum.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "blanditiis",
+    "Rank": 924,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Wiza LLC",
-        "ToolTip": "Error rerum optio voluptatibus eveniet ullam perferendis similique.",
+        "Id": 861,
+        "Name": "Herman, Rempel and Armstrong",
+        "ToolTip": "Eius ea tempore tempore.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "animi",
+        "Rank": 596,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 330,
-        "ExtraInfo": "aut",
-        "StyleHint": "quaerat",
-        "FullName": "Llewellyn Orn",
+        "IconHint": "veniam",
+        "ColorBlock": 667,
+        "ExtraInfo": "aperiam",
+        "StyleHint": "rem",
+        "FullName": "Gerhard Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 701
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 253,
-    "ExtraInfo": "eius",
-    "StyleHint": "debitis",
-    "FullName": "Prof. Madie Cathryn Abernathy PhD",
+    "IconHint": "porro",
+    "ColorBlock": 76,
+    "ExtraInfo": "sed",
+    "StyleHint": "dolorem",
+    "FullName": "Owen Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldLength": 877
       }
     }
   }

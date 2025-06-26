@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 370,
-  "StartTime": "2002-05-15T17:54:02.9608392+02:00",
-  "EndTime": "2014-02-24T17:54:02.9608392+01:00",
-  "Count": 418,
+  "ProjectId": 276,
+  "StartTime": "2014-02-11T03:45:23.2798335+01:00",
+  "EndTime": "2018-04-22T03:45:23.2798335+02:00",
+  "Count": 840,
   "DocumentTemplateIds": [
-    938,
-    574
+    361,
+    343
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 899,
-    "Attention": "necessitatibus",
-    "Header": "et",
-    "Name": "Stanton-Johns",
-    "OurRef": "totam",
-    "YourRef": "excepturi",
-    "Description": "Team-oriented assymetric neural-net",
-    "DocumentTemplate": "odit",
+    "DocumentId": 946,
+    "Attention": "exercitationem",
+    "Header": "omnis",
+    "Name": "Altenwerth, Moore and Kertzmann",
+    "OurRef": "veritatis",
+    "YourRef": "dicta",
+    "Description": "Optional discrete methodology",
+    "DocumentTemplate": "mollitia",
     "IsPublished": false,
-    "PersonId": 801,
-    "PersonFullName": "Mr. Violette Agustina Huels III",
-    "AssociateFullName": "Antonietta Lind",
-    "ContactId": 776,
-    "ContactName": "Stiedemann, Abshire and Wolf",
-    "ProjectId": 642,
-    "ProjectName": "Gottlieb, Anderson and Eichmann",
-    "AssociateId": 526,
-    "Snum": 760,
-    "SaleId": 28,
-    "SaleName": "Collins-Cartwright",
+    "PersonId": 695,
+    "PersonFullName": "Pablo Hills III",
+    "AssociateFullName": "Mr. Danny Heathcote Sr.",
+    "ContactId": 589,
+    "ContactName": "Stark, Ratke and Klocko",
+    "ProjectId": 72,
+    "ProjectName": "Larson-Bechtelar",
+    "AssociateId": 158,
+    "Snum": 67,
+    "SaleId": 399,
+    "SaleName": "Ankunding, Zulauf and Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

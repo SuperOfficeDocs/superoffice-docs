@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 699,
-  "AttachmentId": "vel"
+  "MailItemId": 300,
+  "AttachmentId": "minus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable bifurcated product",
-  "Filename": "vitae",
-  "Size": 46,
-  "Type": "occaecati",
-  "Encoding": "sapiente",
-  "Id": "officia",
-  "Disposition": "et",
-  "IsSafeFileExtension": false,
+  "Description": "Proactive incremental framework",
+  "Filename": "labore",
+  "Size": 171,
+  "Type": "minus",
+  "Encoding": "laudantium",
+  "Id": "hic",
+  "Disposition": "quis",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 783
     }
   }
 }

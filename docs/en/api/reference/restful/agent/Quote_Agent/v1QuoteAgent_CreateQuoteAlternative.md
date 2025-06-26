@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 66,
-  "QuoteAlternativeName": "Tremblay Inc and Sons",
-  "QuoteAlternativeDescription": "Team-oriented actuating framework"
+  "QuoteVersionId": 800,
+  "QuoteAlternativeName": "Nolan, Bahringer and Waters",
+  "QuoteAlternativeDescription": "Integrated explicit conglomeration"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 639,
-  "ERPQuoteAlternativeKey": "dolorem",
-  "QuoteVersionId": 16,
-  "Name": "Crona-Marks",
-  "Description": "Universal 24 hour synergy",
+  "QuoteAlternativeId": 127,
+  "ERPQuoteAlternativeKey": "accusamus",
+  "QuoteVersionId": 825,
+  "Name": "Hauck-VonRueden",
+  "Description": "Integrated intermediate focus group",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 993.478,
-  "ERPDiscountAmount": 5559.7159999999994,
-  "DiscountPercent": 28654.162,
-  "DiscountAmount": 26924.194,
+  "ERPDiscountPercent": 23511.268,
+  "ERPDiscountAmount": 24053.45,
+  "DiscountPercent": 15384.805999999999,
+  "DiscountAmount": 7208.2,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quisquam",
-  "VAT": 29384.384,
-  "EarningPercent": 24094.192,
-  "EarningAmount": 23066.239999999998,
-  "SubTotal": 15510.166,
-  "TotalPrice": 5932.6619999999994,
-  "ExtraField1": "dolor",
-  "ExtraField2": "est",
-  "ExtraField3": "ea",
-  "ExtraField4": "rem",
-  "ExtraField5": "quia",
+  "VATInfo": "voluptate",
+  "VAT": 14826.954,
+  "EarningPercent": 5052.008,
+  "EarningAmount": 13422.921999999999,
+  "SubTotal": 21671.61,
+  "TotalPrice": 14582.502,
+  "ExtraField1": "repellendus",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "et",
+  "ExtraField4": "quis",
+  "ExtraField5": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 847
     }
   }
 }

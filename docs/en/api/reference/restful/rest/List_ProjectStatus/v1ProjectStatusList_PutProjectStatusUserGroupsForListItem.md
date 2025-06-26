@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Conroy Group",
-    "ToolTip": "Rerum distinctio voluptatem esse corrupti at incidunt.",
-    "Deleted": false,
-    "Rank": 467,
-    "Type": "dolorum",
-    "ColorBlock": 907,
-    "IconHint": "nostrum",
+    "Id": 697,
+    "Name": "Shanahan LLC",
+    "ToolTip": "Animi omnis odit distinctio repellendus quis enim modi.",
+    "Deleted": true,
+    "Rank": 313,
+    "Type": "et",
+    "ColorBlock": 321,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "2006-09-20T17:54:08.9917951+02:00",
+    "LastChanged": "2005-11-09T03:45:29.1703077+01:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Kerluke Group",
-        "ToolTip": "Necessitatibus quibusdam officia aut.",
-        "Deleted": false,
-        "Rank": 268,
-        "Type": "ducimus",
-        "ColorBlock": 398,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "1998-11-16T17:54:08.9917951+01:00",
+        "Id": 950,
+        "Name": "Krajcik, Dietrich and Marquardt",
+        "ToolTip": "Velit ullam occaecati quo necessitatibus.",
+        "Deleted": true,
+        "Rank": 846,
+        "Type": "quasi",
+        "ColorBlock": 267,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2010-07-04T03:45:29.1703077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
+        "ExtraInfo": "quo",
         "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Darion Hessel"
+        "FullName": "Theresia Hegmann"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "rerum",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Dr. Anjali Lera Stracke"
+    "FullName": "Litzy Kerluke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Welch, Emard and Kuphal",
-    "ToolTip": "Eius animi aut ipsa magnam quas.",
+    "Id": 610,
+    "Name": "Hackett, Cruickshank and Padberg",
+    "ToolTip": "Et libero non doloremque debitis et ratione deserunt.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "amet",
-    "ColorBlock": 458,
-    "IconHint": "quo",
+    "Rank": 503,
+    "Type": "consequuntur",
+    "ColorBlock": 604,
+    "IconHint": "odio",
     "Selected": true,
-    "LastChanged": "2005-12-26T17:54:08.9917951+01:00",
+    "LastChanged": "2012-04-21T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Daugherty, Schowalter and Jakubowski",
-        "ToolTip": "Ut suscipit iste voluptate sequi qui et sit.",
+        "Id": 979,
+        "Name": "Baumbach Group",
+        "ToolTip": "Omnis quam.",
         "Deleted": false,
-        "Rank": 877,
-        "Type": "possimus",
-        "ColorBlock": 422,
-        "IconHint": "voluptates",
+        "Rank": 691,
+        "Type": "eum",
+        "ColorBlock": 491,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2000-02-20T17:54:08.9917951+01:00",
+        "LastChanged": "2015-08-05T03:45:29.1703077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "facere",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Angus Turcotte",
+        "FullName": "Abel Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldLength": 433
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "est",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Sigurd Hegmann",
+    "FullName": "Vance Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 277
       }
     }
   }

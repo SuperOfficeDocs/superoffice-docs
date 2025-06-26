@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    561,
-    921
+    707,
+    593
   ]
 }
 ```

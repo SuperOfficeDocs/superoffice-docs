@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessageSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 951,
-  "ReplyTemplateId": 976,
+  "TicketMessageEntityId": 386,
+  "ReplyTemplateId": 629,
   "Sms": [
-    "provident",
-    "sequi"
+    "aut",
+    "nobis"
   ]
 }
 ```

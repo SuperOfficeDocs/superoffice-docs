@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.RagResult
+  commentId: T:SuperOffice.CRM.Services.RagResult
+  id: RagResult
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.RagResult.#ctor
+  - SuperOffice.CRM.Services.RagResult.Chunk
+  - SuperOffice.CRM.Services.RagResult.Id
+  - SuperOffice.CRM.Services.RagResult.Metadata
+  - SuperOffice.CRM.Services.RagResult.Score
+  - SuperOffice.CRM.Services.RagResult.Title
+  - SuperOffice.CRM.Services.RagResult.ToString
+  - SuperOffice.CRM.Services.RagResult.ToString(System.String)
+  - SuperOffice.CRM.Services.RagResult.Type
+  langs:
+  - csharp
+  - vb
+  name: RagResult
+  nameWithType: RagResult
+  fullName: SuperOffice.CRM.Services.RagResult
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Contains the result of an AI search, with relevance score, document refernce, relevant text chunk.
+
+    <p></p>
+
+    Carrier object for RagResult.
+
+    Services for the RagResult Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+
+      public class RagResult
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+
+      Public Class RagResult
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+- uid: SuperOffice.CRM.Services.RagResult.#ctor
+  commentId: M:SuperOffice.CRM.Services.RagResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: RagResult()
+  nameWithType: RagResult.RagResult()
+  fullName: SuperOffice.CRM.Services.RagResult.RagResult()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public RagResult()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.RagResult.#ctor*
+  nameWithType.vb: RagResult.New()
+  fullName.vb: SuperOffice.CRM.Services.RagResult.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.RagResult.ToString
+  commentId: M:SuperOffice.CRM.Services.RagResult.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RagResult.ToString()
+  fullName: SuperOffice.CRM.Services.RagResult.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.RagResult.ToString*
+- uid: SuperOffice.CRM.Services.RagResult.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.RagResult.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: RagResult.ToString(string)
+  fullName: SuperOffice.CRM.Services.RagResult.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.RagResult.ToString*
+  nameWithType.vb: RagResult.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.RagResult.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.RagResult.Chunk
+  commentId: P:SuperOffice.CRM.Services.RagResult.Chunk
+  id: Chunk
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Chunk
+  nameWithType: RagResult.Chunk
+  fullName: SuperOffice.CRM.Services.RagResult.Chunk
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Markdown text that matched query.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Chunk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Chunk As String
+  overload: SuperOffice.CRM.Services.RagResult.Chunk*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagResult.Title
+  commentId: P:SuperOffice.CRM.Services.RagResult.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: RagResult.Title
+  fullName: SuperOffice.CRM.Services.RagResult.Title
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Title or filename of matched document, extracted from the Metadata
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.RagResult.Title*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagResult.Id
+  commentId: P:SuperOffice.CRM.Services.RagResult.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RagResult.Id
+  fullName: SuperOffice.CRM.Services.RagResult.Id
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Matched document's unique id. Typically a URI.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Id As String
+  overload: SuperOffice.CRM.Services.RagResult.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagResult.Type
+  commentId: P:SuperOffice.CRM.Services.RagResult.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: RagResult.Type
+  fullName: SuperOffice.CRM.Services.RagResult.Type
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Content type (web/faq/ticket/...)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual RagType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RagType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Type As RagType
+  overload: SuperOffice.CRM.Services.RagResult.Type*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagResult.Score
+  commentId: P:SuperOffice.CRM.Services.RagResult.Score
+  id: Score
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: RagResult.Score
+  fullName: SuperOffice.CRM.Services.RagResult.Score
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Relevancy score (0-1). How close this chunk of the document matched the query.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual double Score { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Score As Double
+  overload: SuperOffice.CRM.Services.RagResult.Score*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagResult.Metadata
+  commentId: P:SuperOffice.CRM.Services.RagResult.Metadata
+  id: Metadata
+  parent: SuperOffice.CRM.Services.RagResult
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: RagResult.Metadata
+  fullName: SuperOffice.CRM.Services.RagResult.Metadata
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Dictionary of metadata for this result. Keys depend on the source of the document. e.g. 'Title', 'Filename', 'Url', etc.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual StringObjectDictionary Metadata { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringObjectDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Metadata As StringObjectDictionary
+  overload: SuperOffice.CRM.Services.RagResult.Metadata*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.RagResult.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult__ctor
+  name: RagResult
+  nameWithType: RagResult.RagResult
+  fullName: SuperOffice.CRM.Services.RagResult.RagResult
+  nameWithType.vb: RagResult.New
+  fullName.vb: SuperOffice.CRM.Services.RagResult.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.RagResult.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_ToString
+  name: ToString
+  nameWithType: RagResult.ToString
+  fullName: SuperOffice.CRM.Services.RagResult.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.RagResult.Chunk*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Chunk
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Chunk
+  name: Chunk
+  nameWithType: RagResult.Chunk
+  fullName: SuperOffice.CRM.Services.RagResult.Chunk
+- uid: SuperOffice.CRM.Services.RagResult.Title*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Title
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Title
+  name: Title
+  nameWithType: RagResult.Title
+  fullName: SuperOffice.CRM.Services.RagResult.Title
+- uid: SuperOffice.CRM.Services.RagResult.Id*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Id
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Id
+  name: Id
+  nameWithType: RagResult.Id
+  fullName: SuperOffice.CRM.Services.RagResult.Id
+- uid: SuperOffice.CRM.Services.RagResult.Type*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Type
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Type
+  name: Type
+  nameWithType: RagResult.Type
+  fullName: SuperOffice.CRM.Services.RagResult.Type
+- uid: SuperOffice.Data.RagType
+  isExternal: true
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.Data.RagType
+- uid: SuperOffice.CRM.Services.RagResult.Score*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Score
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Score
+  name: Score
+  nameWithType: RagResult.Score
+  fullName: SuperOffice.CRM.Services.RagResult.Score
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: SuperOffice.CRM.Services.RagResult.Metadata*
+  commentId: Overload:SuperOffice.CRM.Services.RagResult.Metadata
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html#SuperOffice_CRM_Services_RagResult_Metadata
+  name: Metadata
+  nameWithType: RagResult.Metadata
+  fullName: SuperOffice.CRM.Services.RagResult.Metadata
+- uid: SuperOffice.CRM.Services.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: SuperOffice.CRM.Services.StringObjectDictionary

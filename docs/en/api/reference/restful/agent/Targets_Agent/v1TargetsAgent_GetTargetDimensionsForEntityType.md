@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 419,
+    "TargetDimensionId": 330,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "ad",
-    "DimensionListName": "Cummerata Inc and Sons",
-    "DimensionListId": 315,
-    "DimensionListLabel": "incidunt",
+    "DimensionListField": "perspiciatis",
+    "DimensionListName": "Fay, Rempel and Jacobson",
+    "DimensionListId": 613,
+    "DimensionListLabel": "molestiae",
     "SelectedDimensions": [
-      806,
-      87
+      121,
+      664
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 876
       }
     }
   }

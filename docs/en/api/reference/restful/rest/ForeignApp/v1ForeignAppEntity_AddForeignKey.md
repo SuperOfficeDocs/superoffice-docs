@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sit",
-  "Value": "pariatur",
-  "RecordId": 961,
-  "CreatedDate": "2018-05-07T17:54:08.2574567+02:00",
-  "UpdatedDate": "2010-05-27T17:54:08.2574567+02:00",
-  "UpdatedBy": "nulla",
-  "CreatedBy": "reiciendis",
-  "TableName": "West, Lynch and Kemmer"
+  "Key": "dolores",
+  "Value": "maiores",
+  "RecordId": 271,
+  "CreatedDate": "2016-10-13T03:45:28.3578119+02:00",
+  "UpdatedDate": "2001-11-07T03:45:28.3578119+01:00",
+  "UpdatedBy": "quod",
+  "CreatedBy": "est",
+  "TableName": "Spencer-Farrell"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "ea",
-  "RecordId": 59,
-  "CreatedDate": "2006-05-08T17:54:08.2574567+02:00",
-  "UpdatedDate": "2016-01-03T17:54:08.2574567+01:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "perspiciatis",
-  "TableName": "Farrell, O'Hara and Homenick",
+  "Key": "qui",
+  "Value": "neque",
+  "RecordId": 998,
+  "CreatedDate": "2003-03-23T03:45:28.3578119+01:00",
+  "UpdatedDate": "2012-11-18T03:45:28.3578119+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "ex",
+  "TableName": "Shields-Wilkinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 660
     }
   }
 }

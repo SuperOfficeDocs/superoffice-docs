@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 20 Jun 2003 17:54:08 G6T
+Last-Modified: Fri, 16 Jun 2017 03:45:28 G6T
 
 [
   {
-    "ForeignDeviceId": 707,
-    "Name": "Kessler-Jerde",
-    "CreatedDate": "2009-09-03T17:54:08.2574567+02:00",
-    "UpdatedDate": "2003-06-20T17:54:08.2574567+02:00",
-    "AssociateFullName": "Michelle Watsica",
-    "CreatedBy": "est",
-    "UpdatedBy": "voluptatem",
-    "DeviceIdentifier": "sapiente",
-    "ForeignAppId": 921,
+    "ForeignDeviceId": 434,
+    "Name": "Bayer Inc and Sons",
+    "CreatedDate": "2015-05-27T03:45:28.3578119+02:00",
+    "UpdatedDate": "2017-06-16T03:45:28.3578119+02:00",
+    "AssociateFullName": "Miss Nettie Ashlynn Larkin DVM",
+    "CreatedBy": "ipsam",
+    "UpdatedBy": "minima",
+    "DeviceIdentifier": "quam",
+    "ForeignAppId": 817,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

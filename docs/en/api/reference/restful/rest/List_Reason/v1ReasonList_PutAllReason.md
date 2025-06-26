@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Schinner Inc and Sons",
-    "Tooltip": "esse",
+    "Id": 320,
+    "Name": "Hammes LLC",
+    "Tooltip": "blanditiis",
     "Deleted": true,
-    "UdListDefinitionId": 372,
-    "Rank": 65
+    "UdListDefinitionId": 870,
+    "Rank": 580
   },
   {
-    "Id": 357,
-    "Name": "Schinner Inc and Sons",
-    "Tooltip": "esse",
+    "Id": 320,
+    "Name": "Hammes LLC",
+    "Tooltip": "blanditiis",
     "Deleted": true,
-    "UdListDefinitionId": 372,
-    "Rank": 65
+    "UdListDefinitionId": 870,
+    "Rank": 580
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Mueller-Predovic",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "UdListDefinitionId": 330,
-    "Rank": 878,
+    "Id": 357,
+    "Name": "Trantow-Bruen",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "UdListDefinitionId": 44,
+    "Rank": 660,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

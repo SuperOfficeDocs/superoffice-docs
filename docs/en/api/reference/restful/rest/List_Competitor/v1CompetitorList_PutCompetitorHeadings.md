@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Runte-Hilpert",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 121,
-    "UdListDefinitionId": 402
+    "HeadingId": 75,
+    "Name": "Welch Group",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 606,
+    "UdListDefinitionId": 716
   },
   {
-    "HeadingId": 877,
-    "Name": "Runte-Hilpert",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 121,
-    "UdListDefinitionId": 402
+    "HeadingId": 75,
+    "Name": "Welch Group",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 606,
+    "UdListDefinitionId": 716
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 665,
-    "Name": "Miller-Rath",
-    "Tooltip": "labore",
+    "HeadingId": 611,
+    "Name": "Wisozk, Kilback and Skiles",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 693,
-    "UdListDefinitionId": 722,
+    "Rank": 23,
+    "UdListDefinitionId": 893,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 108
       }
     }
   }

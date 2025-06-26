@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nihil",
+  "RawValue": "magnam",
   "Specification": null,
-  "DisplayValue": "odio",
-  "DisplayTooltip": "impedit",
+  "DisplayValue": "fugiat",
+  "DisplayTooltip": "dicta",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 606,
-  "PrefDescId": 413,
-  "TableName": "Johnson, Kuphal and Grady",
-  "UserPreferenceId": 727,
+  "TargetId": 750,
+  "PrefDescId": 834,
+  "TableName": "Collier, Ledner and Thiel",
+  "UserPreferenceId": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

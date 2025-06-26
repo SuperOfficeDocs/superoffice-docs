@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 255,
-  "Section": "beatae",
-  "Key": "repudiandae",
-  "Name": "Buckridge-Bernier",
+  "PrefDescId": 790,
+  "Section": "nostrum",
+  "Key": "vel",
+  "Name": "Wisoky, Hodkiewicz and Shanahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized dedicated website",
-  "IsBuiltin": false,
-  "TableName": "Hilpert-Conroy",
-  "UserDefinedListId": 985,
-  "Rank": 862,
-  "SubGroup": "illo",
-  "MinLevel": 637,
-  "MaxValue": 418,
-  "MinValue": 744,
-  "RequiredLicense": "at",
+  "Description": "Balanced secondary process improvement",
+  "IsBuiltin": true,
+  "TableName": "Hackett Inc and Sons",
+  "UserDefinedListId": 381,
+  "Rank": 98,
+  "SubGroup": "quam",
+  "MinLevel": 90,
+  "MaxValue": 579,
+  "MinValue": 844,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 521
     }
   },
   "_Links": {

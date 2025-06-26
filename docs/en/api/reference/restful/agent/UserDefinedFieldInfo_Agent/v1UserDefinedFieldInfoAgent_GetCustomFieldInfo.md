@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pollich-Kautzer",
-  "FieldName": "Adams-Klocko"
+  "TableName": "Schiller-Breitenberg",
+  "FieldName": "Nikolaus, Kunze and Stracke"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Champlin-Klocko",
-  "DisplayName": "Kuhn-Fritsch",
-  "Description": "Total grid-enabled circuit",
-  "ShortLabel": "suscipit",
-  "HideLabel": true,
+  "FieldName": "Sanford, Carroll and Kunze",
+  "DisplayName": "Harris Inc and Sons",
+  "Description": "Profit-focused 4th generation leverage",
+  "ShortLabel": "quis",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsIndexed": false,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 52,
-  "TemplateVariableName": "Ortiz, Rolfson and Dietrich"
+  "IsDisplayField": false,
+  "Rank": 208,
+  "TemplateVariableName": "Kulas LLC"
 }
 ```

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walsh Inc and Sons"
+  "Name": "Hahn LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kiehn Inc and Sons",
-    "SoPrimaryKey": 565,
-    "EntryName": "Ratke Group",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Marvin-Waters",
+    "RuleName": "Renner-Ondricka",
+    "SoPrimaryKey": 755,
+    "EntryName": "Lakin, Hudson and Ortiz",
+    "EntryIdentifier": "odit",
+    "RuleDisplayName": "Kiehn Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 581
       }
     }
   }

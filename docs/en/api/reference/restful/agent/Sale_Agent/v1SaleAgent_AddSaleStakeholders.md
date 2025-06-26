@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 485,
+  "SaleId": 113,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Satterfield, Pagac and Osinski",
-      "Comment": "cum",
-      "StakeholderRoleId": 292,
-      "CountryId": 474,
-      "PersonId": 931,
-      "EmailDescription": "kianna_upton@kuhlman.com",
-      "EmailId": 307,
-      "EmailAddress": "torrey@klockobashirian.biz",
-      "PhoneId": 226,
-      "ContactName": "Langworth LLC",
-      "ContactId": 893,
-      "SaleId": 36,
-      "Mrmrs": "iure",
-      "Firstname": "Davin",
-      "MiddleName": "Moore, Bode and Mosciski",
-      "Lastname": "Haley",
-      "SaleStakeholderId": 305,
-      "Rank": 260,
-      "Phone": "708-338-3550 x8723"
+      "StakeholderRoleName": "Dooley, Kris and Schinner",
+      "Comment": "architecto",
+      "StakeholderRoleId": 17,
+      "CountryId": 806,
+      "PersonId": 715,
+      "EmailDescription": "odell@feil.us",
+      "EmailId": 989,
+      "EmailAddress": "imogene_dooley@crona.info",
+      "PhoneId": 398,
+      "ContactName": "Stracke Inc and Sons",
+      "ContactId": 883,
+      "SaleId": 645,
+      "Mrmrs": "aut",
+      "Firstname": "Marcel",
+      "MiddleName": "Tromp, Mraz and Christiansen",
+      "Lastname": "Robel",
+      "SaleStakeholderId": 311,
+      "Rank": 334,
+      "Phone": "549.449.9491"
     }
   ]
 }

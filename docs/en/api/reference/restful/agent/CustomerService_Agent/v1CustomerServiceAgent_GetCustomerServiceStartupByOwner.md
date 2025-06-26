@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 782
+  "UserId": 318
 }
 ```
 
@@ -91,28 +91,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": true,
-  "TZOffset": 960,
-  "RecaptchaSiteKey": "quo",
+  "TimezoneEnabled": false,
+  "TZOffset": 798,
+  "RecaptchaSiteKey": "consectetur",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "dolorem",
+      "RawValue": "corrupti",
       "Specification": null,
-      "DisplayValue": "voluptates",
-      "DisplayTooltip": "fugiat",
+      "DisplayValue": "laudantium",
+      "DisplayTooltip": "nam",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 1000,
-      "PrefDescId": 483,
-      "TableName": "Bogan-Emard",
-      "UserPreferenceId": 446,
+      "TargetId": 841,
+      "PrefDescId": 732,
+      "TableName": "Boehm, Wolff and Reichel",
+      "UserPreferenceId": 321,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 642
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

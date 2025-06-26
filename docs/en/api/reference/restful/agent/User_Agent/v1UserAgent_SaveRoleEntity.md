@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 139,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "nulla",
+  "RoleId": 349,
+  "Name": "Mertz-Simonis",
+  "Tooltip": "ducimus",
   "RoleType": "Anonymous",
-  "Deleted": 745,
-  "Rank": 573,
-  "Created": "2010-10-12T17:54:03.8670455+02:00",
-  "UseCategories": 901,
+  "Deleted": 829,
+  "Rank": 530,
+  "Created": "2009-07-14T03:45:24.1548097+02:00",
+  "UseCategories": 541,
   "CreatedBy": null,
-  "Updated": "2015-12-01T17:54:03.8670455+01:00",
+  "Updated": "2008-08-09T03:45:24.1548097+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 487,
-  "Name": "Weimann, Schiller and Mraz",
-  "Tooltip": "rerum",
+  "RoleId": 324,
+  "Name": "Cruickshank, Satterfield and Kuhic",
+  "Tooltip": "ullam",
   "RoleType": "Anonymous",
-  "Deleted": 778,
-  "Rank": 476,
-  "Created": "2015-03-01T17:54:03.8670455+01:00",
-  "UseCategories": 599,
+  "Deleted": 255,
+  "Rank": 470,
+  "Created": "2024-10-20T03:45:24.1548097+02:00",
+  "UseCategories": 521,
   "CreatedBy": null,
-  "Updated": "2006-10-24T17:54:03.8670455+02:00",
+  "Updated": "2010-07-08T03:45:24.1548097+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

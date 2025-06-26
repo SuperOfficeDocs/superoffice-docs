@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 819,
-    "Name": "Treutel-Wuckert",
-    "Tooltip": "dicta",
+    "HeadingId": 409,
+    "Name": "Koelpin-Dooley",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 564,
+    "Rank": 599,
+    "UdListDefinitionId": 917,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

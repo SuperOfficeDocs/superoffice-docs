@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.DynamicContactExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.DynamicContactExtender.TableName
   - SuperOffice.CRM.ArchiveLists.DynamicContactExtender._colNameAndDepartment
+  - SuperOffice.CRM.ArchiveLists.DynamicContactExtender._colTicketPriority
   langs:
   - csharp
   - vb
@@ -239,6 +240,27 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colNameAndDepartment As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.DynamicContactExtender._colTicketPriority
+  commentId: F:SuperOffice.CRM.ArchiveLists.DynamicContactExtender._colTicketPriority
+  id: _colTicketPriority
+  parent: SuperOffice.CRM.ArchiveLists.DynamicContactExtender
+  langs:
+  - csharp
+  - vb
+  name: _colTicketPriority
+  nameWithType: DynamicContactExtender._colTicketPriority
+  fullName: SuperOffice.CRM.ArchiveLists.DynamicContactExtender._colTicketPriority
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Service priority for a company
+  example: []
+  syntax:
+    content: protected ArchiveColumnInfo _colTicketPriority
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colTicketPriority As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.DynamicContactExtender.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.DynamicContactExtender.#ctor
   id: '#ctor'

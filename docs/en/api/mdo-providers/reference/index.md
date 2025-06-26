@@ -159,6 +159,7 @@ so.envir: onsite, online
 | [emailfromtype](emailfromtype.md) |MDO provider for the EmailFromType enum|
 | [emailphone](emailphone.md) |List of e-mail addresses and phone numbers matching the search valu|
 | [emailreplytotype](emailreplytotype.md) |MDO provider for the EmailReplyToType enum|
+| [enrichcontact](enrichcontact.md) |List of possible contacts to import from outside sources.|
 | [erpactortype](erpactortype.md) ||
 | [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|
 | [erpconnectors](erpconnectors.md) |Retrieve the list of all defined Erp Connectors (not Connections, that's another list)|

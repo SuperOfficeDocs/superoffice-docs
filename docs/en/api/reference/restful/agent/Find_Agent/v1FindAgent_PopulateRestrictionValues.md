@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Corkery Group",
-      "Operator": "veritatis",
+      "Name": "Funk-Lueilwitz",
+      "Operator": "quia",
       "Values": [
-        "non",
-        "repellat"
+        "inventore",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "dolores",
-        "qui"
+        "et",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 511,
+      "InterParenthesis": 380,
       "InterOperator": "And",
-      "UniqueHash": 502
+      "UniqueHash": 368
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rutherford-Kerluke",
-    "Operator": "et",
+    "Name": "Hyatt LLC",
+    "Operator": "praesentium",
     "Values": [
-      "aut",
-      "in"
+      "culpa",
+      "quia"
     ],
     "DisplayValues": [
-      "molestias",
-      "et"
+      "ullam",
+      "consectetur"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Langworth, Marvin and Watsica",
-        "Operator": "architecto",
+        "Name": "Gutmann, Bahringer and Metz",
+        "Operator": "maxime",
         "Values": [
-          "quo",
-          "ea"
+          "tempore",
+          "quasi"
         ],
         "DisplayValues": [
-          "totam",
-          "quisquam"
+          "eius",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 390,
+        "InterParenthesis": 625,
         "InterOperator": "And",
-        "UniqueHash": 727
+        "UniqueHash": 910
       }
     ],
-    "InterParenthesis": 20,
+    "InterParenthesis": 494,
     "InterOperator": "And",
-    "UniqueHash": 594
+    "UniqueHash": 868
   }
 ]
 ```

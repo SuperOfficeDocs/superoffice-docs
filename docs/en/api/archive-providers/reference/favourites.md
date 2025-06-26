@@ -796,6 +796,7 @@ Archive provider for the list of favourites
 |content| *None* |Content: Search for content in messages related to requests|  |
 |messageLanguage| *None* |Language: Recognized language in messages|  |
 |sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
+|sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence|  |
 |suggestedCategory| *None* |Suggested category: Suggested service category|  |
 |createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
 |createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name|  |
@@ -856,11 +857,11 @@ Archive provider for the list of favourites
 |ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
 |ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |ownedBy/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?|  |
-|ownedBy/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
 |ownedBy/portraitThumbnail| *None* |Owner - Person image: Person image|  |
 |ownedBy/otherGroups| *None* |Owner - Other groups: Other groups|  |
 |ownedBy/userName| *None* |Owner - User name: User name|  |
@@ -887,7 +888,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=associate/usergroupId,saleUdef/SuperOffice:1,country,contactAssociate/firstName,personAssociate/isActive
+GET /api/v1/archive/Favourites?$select=name,postAddress/addressId,streetAddress/wgs84longitude,personPager/description,project/projectEvent/hasSignOn
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

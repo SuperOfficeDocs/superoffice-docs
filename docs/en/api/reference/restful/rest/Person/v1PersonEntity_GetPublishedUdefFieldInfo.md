@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 29,
-  "ColumnId": 240,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 215,
-  "FieldLabel": "distinctio",
-  "FieldLeft": 723,
-  "FieldTop": 614,
+  "UDefFieldId": 813,
+  "ColumnId": 886,
+  "FieldDefault": "laudantium",
+  "FieldHeight": 593,
+  "FieldLabel": "beatae",
+  "FieldLeft": 272,
+  "FieldTop": 583,
   "FieldType": "Checkbox",
-  "FieldWidth": 199,
-  "FormatMask": "sint",
+  "FieldWidth": 488,
+  "FormatMask": "provident",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 147,
-  "LabelLeft": 81,
-  "LabelTop": 677,
-  "LabelWidth": 719,
-  "LastVersionId": 364,
-  "ListTableId": 628,
-  "IsMandatory": false,
+  "LabelHeight": 792,
+  "LabelLeft": 271,
+  "LabelTop": 947,
+  "LabelWidth": 88,
+  "LastVersionId": 493,
+  "ListTableId": 922,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 967,
-  "ProgId": "voluptas",
+  "Page1LineNo": 16,
+  "ProgId": "id",
   "IsReadOnly": true,
-  "ShortLabel": "atque",
-  "TabOrder": 709,
-  "TextLength": 524,
-  "Tooltip": "sapiente",
-  "UdefIdentity": 606,
-  "UDListDefinitionId": 609,
+  "ShortLabel": "soluta",
+  "TabOrder": 743,
+  "TextLength": 433,
+  "Tooltip": "autem",
+  "UdefIdentity": 124,
+  "UDListDefinitionId": 165,
   "Justification": "Center",
-  "Version": 369,
-  "TemplateVariableName": "Aufderhar Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Emmerich-Bailey",
+  "Version": 379,
+  "TemplateVariableName": "Goyette Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "O'Conner, Daniel and Bins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 802
     }
   }
 }

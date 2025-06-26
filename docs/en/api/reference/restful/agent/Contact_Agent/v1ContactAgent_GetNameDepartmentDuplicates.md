@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller-Morar",
+  "Name": "Jones Group",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kemmer, Jakubowski and Ward",
-    "SoPrimaryKey": 374,
-    "EntryName": "Boyer-Hettinger",
-    "EntryIdentifier": "neque",
-    "RuleDisplayName": "Murphy-Langosh",
+    "RuleName": "Hills-Price",
+    "SoPrimaryKey": 871,
+    "EntryName": "Cormier, Kulas and Kozey",
+    "EntryIdentifier": "atque",
+    "RuleDisplayName": "Terry Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 616
       }
     }
   }

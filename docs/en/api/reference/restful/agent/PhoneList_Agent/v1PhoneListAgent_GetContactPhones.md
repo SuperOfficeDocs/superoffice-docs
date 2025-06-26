@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 584
+  "ContactId": 729
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(063)077-3366 x14609",
-    "PersonCellPhone": "354.516.8389 x4899",
-    "PersonPrivatePhone": "798-965-5175 x085",
-    "PersonFaxNumber": "1135982",
-    "PersonPagerNumber": "1694962",
-    "PersonEmail": "annabel.stamm@nicolascarter.info",
-    "Id": 632,
-    "Name": "Ziemann Inc and Sons",
-    "Tooltip": "et",
-    "UniqueId": "iste",
+    "PersonDirectPhone": "1-951-564-5925 x0357",
+    "PersonCellPhone": "(371)481-7371 x20358",
+    "PersonPrivatePhone": "894.327.8090 x40301",
+    "PersonFaxNumber": "1314667",
+    "PersonPagerNumber": "397426",
+    "PersonEmail": "brain_ledner@jacobson.info",
+    "Id": 731,
+    "Name": "Ortiz-Nienow",
+    "Tooltip": "eum",
+    "UniqueId": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 152
       }
     }
   }

@@ -10,6 +10,7 @@ items:
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
+  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
@@ -232,6 +233,27 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property HugoAI As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI*
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
+  commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
+  id: RagAI
+  parent: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  langs:
+  - csharp
+  - vb
+  name: RagAI
+  nameWithType: HttpHelper.HttpServiceJwtConfig.RagAI
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static HttpHelper.HttpServiceJwtConfig RagAI { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    content.vb: Public Shared ReadOnly Property RagAI As HttpHelper.HttpServiceJwtConfig
+  overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI*
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   id: ZFD
@@ -1073,6 +1095,13 @@ references:
   name: HugoAI
   nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI
   fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI*
+  commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
+  isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_RagAI
+  name: RagAI
+  nameWithType: HttpHelper.HttpServiceJwtConfig.RagAI
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.ZFD
   isExternal: true

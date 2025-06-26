@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 76,
-    "LCID": 323,
-    "EnglishName": "McCullough, Sporer and Robel",
-    "NativeName": "Collier, Jacobson and White",
-    "ThreeLetterISOLanguageName": "Mayer Group",
-    "TwoLetterISOLanguageName": "Farrell-Lehner",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 754,
+    "LCID": 266,
+    "EnglishName": "Huel Inc and Sons",
+    "NativeName": "Blanda Inc and Sons",
+    "ThreeLetterISOLanguageName": "Botsford LLC",
+    "TwoLetterISOLanguageName": "Koelpin LLC",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 229
       }
     }
   }

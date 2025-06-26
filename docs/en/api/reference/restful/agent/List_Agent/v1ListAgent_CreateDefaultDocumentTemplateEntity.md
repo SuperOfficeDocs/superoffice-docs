@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 16,
-  "Name": "Ernser-Oberbrunner",
-  "Tooltip": "eum",
-  "SaveInDb": 744,
-  "Filename": "sunt",
-  "DefaultOref": "tempore",
+  "DocumentTemplateId": 574,
+  "Name": "Blanda LLC",
+  "Tooltip": "delectus",
+  "SaveInDb": 383,
+  "Filename": "inventore",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 812,
-  "IntentId": 786,
-  "IsDefaultPublished": false,
-  "Rank": 163,
-  "LoadTemplateFromPlugin": 378,
-  "MimeType": "et",
+  "AutoeventId": 394,
+  "IntentId": 962,
+  "IsDefaultPublished": true,
+  "Rank": 207,
+  "LoadTemplateFromPlugin": 756,
+  "MimeType": "voluptas",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 294,
+  "DocumentTypeKey": 447,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ramon.kessler@windler.co.uk",
+  "EmailSubject": "rodolfo.herman@strosinnader.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cristobal@kirlingreenfelder.name",
+  "SenderEmailAddress": "milton@champlin.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 924
     }
   }
 }

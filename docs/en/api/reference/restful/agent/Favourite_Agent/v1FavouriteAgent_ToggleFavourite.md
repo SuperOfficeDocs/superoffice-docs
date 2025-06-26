@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mann-Schaden",
-  "RecordId": 522,
-  "AssociateId": 875,
-  "ExtraInfo": "eos"
+  "TableName": "Reynolds Group",
+  "RecordId": 288,
+  "AssociateId": 438,
+  "ExtraInfo": "itaque"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

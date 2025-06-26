@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    351,
-    82
+    455,
+    409
   ],
-  "MoveToFolder": "expedita"
+  "MoveToFolder": "voluptatem"
 }
 ```
 

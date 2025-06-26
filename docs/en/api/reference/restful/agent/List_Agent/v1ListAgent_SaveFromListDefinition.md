@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "UdListDefinitionId": 211,
+  "Id": 643,
+  "UdListDefinitionId": 375,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Huel, Weber and Huel",
-  "Tooltip": "quaerat",
+  "Id": 255,
+  "Name": "Shields, Pouros and Gibson",
+  "Tooltip": "modi",
   "Deleted": false,
-  "UdListDefinitionId": 932,
-  "Rank": 517,
+  "UdListDefinitionId": 356,
+  "Rank": 942,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldLength": 904
     }
   }
 }

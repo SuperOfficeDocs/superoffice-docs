@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 26
+  "QuoteVersionId": 514
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 780,
-  "ERPQuoteVersionKey": "voluptates",
-  "QuoteId": 431,
-  "Description": "Phased 5th generation migration",
-  "Number": "410579",
+  "QuoteVersionId": 388,
+  "ERPQuoteVersionKey": "temporibus",
+  "QuoteId": 751,
+  "Description": "Organic incremental info-mediaries",
+  "Number": "591483",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 477,
-  "SentDate": "2001-08-27T17:54:03.5076876+02:00",
-  "FollowupId": 521,
-  "ExpirationDate": "2006-10-06T17:54:03.5076876+02:00",
-  "DeliveryCountryId": 950,
+  "LikelyQuoteAlternativeId": 437,
+  "SentDate": "1999-10-02T03:45:23.7954455+02:00",
+  "FollowupId": 508,
+  "ExpirationDate": "2000-10-01T03:45:23.7954455+02:00",
+  "DeliveryCountryId": 990,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 835,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "accusantium",
-  "ERPPaymentTypeKey": "earum",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "labore",
-  "Rank": 935,
-  "ApprovedBy": 811,
-  "ApprovedText": "at",
-  "ApprovedRegisteredBy": 472,
-  "ApprovedRegisteredDate": "2012-12-22T17:54:03.5076876+01:00",
-  "ExtraField1": "neque",
-  "ExtraField2": "iure",
-  "ExtraField3": "dolore",
-  "ExtraField4": "ea",
-  "ExtraField5": "dolor",
-  "LastRecalculated": "2008-10-12T17:54:03.5076876+02:00",
-  "Updated": "2003-07-12T17:54:03.5076876+02:00",
-  "UpdatedAssociateId": 752,
-  "Registered": "2012-02-01T17:54:03.5076876+01:00",
-  "RegisteredAssociateId": 765,
-  "RequestAssociateId": 630,
-  "RequestComment": "tempora",
+  "InvoiceCountryId": 241,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "pariatur",
+  "ERPPaymentTypeKey": "nobis",
+  "ERPDeliveryTermsKey": "odio",
+  "ERPDeliveryTypeKey": "molestiae",
+  "Rank": 12,
+  "ApprovedBy": 691,
+  "ApprovedText": "alias",
+  "ApprovedRegisteredBy": 976,
+  "ApprovedRegisteredDate": "2001-12-21T03:45:23.7954455+01:00",
+  "ExtraField1": "similique",
+  "ExtraField2": "soluta",
+  "ExtraField3": "et",
+  "ExtraField4": "aliquid",
+  "ExtraField5": "at",
+  "LastRecalculated": "2016-05-21T03:45:23.7954455+02:00",
+  "Updated": "2017-08-13T03:45:23.7954455+02:00",
+  "UpdatedAssociateId": 20,
+  "Registered": "2010-10-07T03:45:23.7954455+02:00",
+  "RegisteredAssociateId": 33,
+  "RequestAssociateId": 567,
+  "RequestComment": "consequatur",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 107,
-      "ERPQuoteAlternativeKey": "et",
-      "QuoteVersionId": 835,
-      "Name": "Lesch, Gerlach and Muller",
-      "Description": "Persevering maximized support",
+      "QuoteAlternativeId": 846,
+      "ERPQuoteAlternativeKey": "quas",
+      "QuoteVersionId": 761,
+      "Name": "Becker LLC",
+      "Description": "Ameliorated attitude-oriented initiative",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 463.832,
-      "ERPDiscountAmount": 7205.066,
-      "DiscountPercent": 1059.292,
-      "DiscountAmount": 27679.487999999998,
+      "ERPDiscountPercent": 15184.23,
+      "ERPDiscountAmount": 2604.354,
+      "DiscountPercent": 22981.622,
+      "DiscountAmount": 20308.32,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "cumque",
-      "VAT": 15168.56,
-      "EarningPercent": 24156.872,
-      "EarningAmount": 13103.253999999999,
-      "SubTotal": 21104.356,
-      "TotalPrice": 6465.442,
-      "ExtraField1": "reprehenderit",
-      "ExtraField2": "vel",
-      "ExtraField3": "ab",
-      "ExtraField4": "omnis",
-      "ExtraField5": "omnis",
+      "VATInfo": "sunt",
+      "VAT": 26588.856,
+      "EarningPercent": 30832.291999999998,
+      "EarningAmount": 14306.71,
+      "SubTotal": 2024.5639999999999,
+      "TotalPrice": 26150.095999999998,
+      "ExtraField1": "repellat",
+      "ExtraField2": "enim",
+      "ExtraField3": "quidem",
+      "ExtraField4": "neque",
+      "ExtraField5": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 375
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

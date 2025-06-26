@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 27 Jan 2024 17:54:08 G1T
+Last-Modified: Thu, 06 Dec 2012 03:45:28 G12T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sat, 27 Jan 2024 17:54:08 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eveniet",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sat, 27 Jan 2024 17:54:08 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-01-06T17:54:08.4293225+01:00",
-  "Amount": 23514.402,
-  "SaleId": 883,
-  "Earning": 15676.268,
-  "EarningPercent": 2701.508,
-  "Heading": "dignissimos",
-  "Number": "187843",
-  "Probability": 505,
-  "CreatedDate": "2009-11-10T17:54:08.4293225+01:00",
-  "UpdatedDate": "2024-01-27T17:54:08.4293225+01:00",
+  "Saledate": "2005-06-24T03:45:28.5453063+02:00",
+  "Amount": 19650.18,
+  "SaleId": 385,
+  "Earning": 5728.952,
+  "EarningPercent": 7759.784,
+  "Heading": "est",
+  "Number": "1338889",
+  "Probability": 742,
+  "CreatedDate": "1999-07-08T03:45:28.5453063+02:00",
+  "UpdatedDate": "2012-12-06T03:45:28.5453063+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 327,
+  "ActiveLinks": 907,
   "Links": [
     {
-      "EntityName": "Stracke-Streich",
-      "Id": 374,
-      "Description": "Versatile transitional moratorium",
-      "ExtraInfo": "earum",
-      "LinkId": 970,
+      "EntityName": "Daugherty, Hyatt and Monahan",
+      "Id": 974,
+      "Description": "Upgradable clear-thinking infrastructure",
+      "ExtraInfo": "modi",
+      "LinkId": 115,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
+          "FieldLength": 295
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2009-06-01T03:45:28.5453063+02:00",
+  "Postit": "earum",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2005-01-25T03:45:28.5453063+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Johns, Kihn and Mitchell",
+      "Comment": "beatae",
+      "StakeholderRoleId": 753,
+      "CountryId": 615,
+      "PersonId": 245,
+      "EmailDescription": "cody.hermiston@collier.co.uk",
+      "EmailId": 218,
+      "EmailAddress": "arch@okeefe.uk",
+      "PhoneId": 143,
+      "ContactName": "Wolff Inc and Sons",
+      "ContactId": 672,
+      "SaleId": 489,
+      "Mrmrs": "iusto",
+      "Firstname": "Emerald",
+      "MiddleName": "Yundt LLC",
+      "Lastname": "Baumbach",
+      "SaleStakeholderId": 903,
+      "Rank": 547,
+      "Phone": "1-724-206-0510",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
           "FieldLength": 284
         }
       }
     }
   ],
-  "NextDueDate": "2006-06-16T17:54:08.4293225+02:00",
-  "Postit": "quia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-02-06T17:54:08.4293225+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Jacobson, Gibson and White",
-      "Comment": "laudantium",
-      "StakeholderRoleId": 662,
-      "CountryId": 417,
-      "PersonId": 811,
-      "EmailDescription": "amiya_frami@bechtelar.com",
-      "EmailId": 190,
-      "EmailAddress": "carlee_dibbert@carroll.com",
-      "PhoneId": 744,
-      "ContactName": "Gerhold, Donnelly and Labadie",
-      "ContactId": 148,
-      "SaleId": 649,
-      "Mrmrs": "doloribus",
-      "Firstname": "Adelle",
-      "MiddleName": "Runte-Kunde",
-      "Lastname": "King",
-      "SaleStakeholderId": 435,
-      "Rank": 939,
-      "Phone": "(234)949-3785 x552",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 697,
+  "ActiveErpLinks": 152,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
+    "SuperOffice:1": "Darius Zulauf",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "autem",
+    "CustomFields2": "tempora"
   },
-  "PublishEventDate": "2015-08-02T17:54:08.4293225+02:00",
-  "PublishTo": "2012-03-17T17:54:08.4293225+01:00",
-  "PublishFrom": "2005-01-26T17:54:08.4293225+01:00",
+  "PublishEventDate": "2010-02-23T03:45:28.5453063+01:00",
+  "PublishTo": "2002-06-14T03:45:28.5453063+02:00",
+  "PublishFrom": "2009-12-20T03:45:28.5453063+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 830,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     },
     {
-      "VisibleId": 830,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sat, 27 Jan 2024 17:54:08 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 397
     }
   }
 }

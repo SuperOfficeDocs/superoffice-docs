@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 779,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 706,
-  "Filename": "sunt",
-  "Parameters": "maiores",
-  "Workdir": "quia",
+  "ExtAppId": 590,
+  "Name": "Crona, Lakin and Spencer",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 407,
+  "Filename": "est",
+  "Parameters": "accusamus",
+  "Workdir": "nam",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 217,
-  "WaitToFinish": true,
+  "Icon": 636,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "iure",
+  "Path": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

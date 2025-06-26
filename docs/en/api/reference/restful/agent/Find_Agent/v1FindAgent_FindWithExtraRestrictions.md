@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "enim",
-  "ProviderName": "Yost, O'Reilly and Effertz",
-  "StorageKey": "sed",
+  "StorageType": "porro",
+  "ProviderName": "Brekke-Stiedemann",
+  "StorageKey": "laborum",
   "ExtraRestrictions": [
     {
-      "Name": "Sawayn LLC",
-      "Operator": "enim",
+      "Name": "Gerlach Inc and Sons",
+      "Operator": "deserunt",
       "Values": [
-        "qui",
-        "quasi"
+        "omnis",
+        "recusandae"
       ],
       "DisplayValues": [
-        "at",
-        "sunt"
+        "qui",
+        "modi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 608,
+      "InterParenthesis": 590,
       "InterOperator": "And",
-      "UniqueHash": 533
+      "UniqueHash": 107
     }
   ],
   "OrderBy": [
     {
-      "Name": "O'Conner, Kessler and Heathcote",
+      "Name": "Brakus, Gislason and Hermann",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Conner, Kessler and Heathcote",
+      "Name": "Brakus, Gislason and Hermann",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "ratione",
-    "repudiandae"
+    "earum",
+    "laudantium"
   ],
-  "PageSize": 670,
-  "PageNumber": 290
+  "PageSize": 351,
+  "PageNumber": 705
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gottlieb LLC",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "autem",
-      "CanOrderBy": false,
-      "Name": "Tremblay-Langosh",
+      "DisplayName": "Rohan Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "molestiae",
+      "CanOrderBy": true,
+      "Name": "Mueller-Crist",
       "CanRestrictBy": true,
-      "RestrictionType": "numquam",
-      "RestrictionListName": "Rogahn LLC",
-      "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "id",
-      "IconHint": "vel",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "reprehenderit",
+      "RestrictionListName": "Wiegand, Schultz and Brown",
+      "IsVisible": true,
+      "ExtraInfo": "eos",
+      "Width": "nam",
+      "IconHint": "magnam",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Okuneva, Pouros and Jones",
-      "PrimaryKey": 20,
+      "EntityName": "O'Connell-Schultz",
+      "PrimaryKey": 332,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "saepe",
-          "TooltipHint": "quidem",
-          "LinkHint": "quos"
+          "DisplayValue": "animi",
+          "TooltipHint": "dicta",
+          "LinkHint": "sunt"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "nesciunt",
+      "LinkHint": "explicabo",
+      "StyleHint": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldLength": 141
         }
       }
     }
   ],
-  "RowCount": 695,
+  "RowCount": 630,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 762
     }
   }
 }

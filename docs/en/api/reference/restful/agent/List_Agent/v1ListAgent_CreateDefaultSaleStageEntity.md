@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 970,
-  "Value": "voluptatem",
-  "Tooltip": "et",
-  "Probability": 360,
+  "SaleStageId": 24,
+  "Value": "autem",
+  "Tooltip": "ipsa",
+  "Probability": 242,
   "Deleted": false,
-  "Rank": 657,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

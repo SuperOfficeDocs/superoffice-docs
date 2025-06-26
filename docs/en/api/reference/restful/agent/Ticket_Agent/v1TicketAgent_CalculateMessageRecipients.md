@@ -79,9 +79,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 984,
+  "TicketId": 484,
   "ActionType": "Forward",
-  "MessageId": 514
+  "MessageId": 633
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "doloremque",
-    "DisplayValue": "veritatis"
+    "Value": "rem",
+    "DisplayValue": "et"
   },
   {
     "Type": "BCC",
-    "Value": "doloremque",
-    "DisplayValue": "veritatis"
+    "Value": "rem",
+    "DisplayValue": "et"
   }
 ]
 ```

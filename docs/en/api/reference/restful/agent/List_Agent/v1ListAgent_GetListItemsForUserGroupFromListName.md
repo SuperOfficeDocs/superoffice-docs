@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Reichert, Ruecker and Rutherford",
-  "GroupId": 154
+  "UdListDefinitionName": "Wiza-Berge",
+  "GroupId": 320
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Fritsch-Krajcik",
-    "ToolTip": "Tempora id sed.",
-    "Deleted": false,
-    "Rank": 299,
-    "Type": "eos",
-    "ColorBlock": 281,
-    "IconHint": "laudantium",
+    "Id": 15,
+    "Name": "Schuppe Inc and Sons",
+    "ToolTip": "Dolores et perspiciatis aut eligendi voluptas enim inventore.",
+    "Deleted": true,
+    "Rank": 635,
+    "Type": "asperiores",
+    "ColorBlock": 274,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2014-04-27T17:54:03.2108272+02:00",
+    "LastChanged": "2003-06-04T03:45:23.5298295+02:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Terry-Cole",
-        "ToolTip": "Ea et voluptates voluptatibus harum ab ea.",
-        "Deleted": false,
-        "Rank": 299,
-        "Type": "minus",
-        "ColorBlock": 398,
-        "IconHint": "veritatis",
+        "Id": 658,
+        "Name": "Renner-Bernhard",
+        "ToolTip": "Consequatur ratione et.",
+        "Deleted": true,
+        "Rank": 638,
+        "Type": "sapiente",
+        "ColorBlock": 88,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2016-10-12T17:54:03.2108272+02:00",
+        "LastChanged": "2017-03-15T03:45:23.5298295+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Dr. Hugh Kunde PhD",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mr. Jordane Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 989
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "quia",
+    "ExtraInfo": "sunt",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Marcella Beatty",
+    "FullName": "Cydney Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 513
       }
     }
   }

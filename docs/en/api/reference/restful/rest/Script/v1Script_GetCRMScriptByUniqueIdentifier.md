@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Roberts LLC",
-  "Description": "Synergized holistic parallelism",
-  "IncludeId": "eaque",
-  "Source": "sed",
-  "Registered": "2009-04-12T17:54:08.726183+02:00",
-  "RegisteredBy": "voluptas",
-  "Updated": "2008-09-04T17:54:08.726183+02:00",
-  "UpdatedBy": "ipsam",
-  "Path": "odit",
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Romaguera LLC",
+  "Description": "Cross-platform executive contingency",
+  "IncludeId": "quia",
+  "Source": "ad",
+  "Registered": "2004-02-03T03:45:28.8421748+01:00",
+  "RegisteredBy": "optio",
+  "Updated": "2006-01-04T03:45:28.8421748+01:00",
+  "UpdatedBy": "quis",
+  "Path": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

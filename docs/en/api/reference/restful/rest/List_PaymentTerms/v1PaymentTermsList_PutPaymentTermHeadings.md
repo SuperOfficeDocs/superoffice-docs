@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 365,
-    "Name": "Jacobi LLC",
-    "Tooltip": "magnam",
-    "Deleted": false,
-    "Rank": 759,
-    "UdListDefinitionId": 809
+    "HeadingId": 280,
+    "Name": "Botsford, Russel and White",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 832,
+    "UdListDefinitionId": 471
   },
   {
-    "HeadingId": 365,
-    "Name": "Jacobi LLC",
-    "Tooltip": "magnam",
-    "Deleted": false,
-    "Rank": 759,
-    "UdListDefinitionId": 809
+    "HeadingId": 280,
+    "Name": "Botsford, Russel and White",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 832,
+    "UdListDefinitionId": 471
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 677,
-    "Name": "Kassulke Inc and Sons",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 539,
-    "UdListDefinitionId": 948,
+    "HeadingId": 1001,
+    "Name": "Haag-Steuber",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 666,
+    "UdListDefinitionId": 88,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

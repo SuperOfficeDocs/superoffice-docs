@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Dickinson LLC",
-  "Tooltip": "magni",
+  "Id": 144,
+  "Name": "Bins-Balistreri",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 37,
-  "Rank": 494,
+  "UdListDefinitionId": 674,
+  "Rank": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

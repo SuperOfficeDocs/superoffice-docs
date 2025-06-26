@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Collins Inc and Sons",
-    "ToolTip": "Voluptatibus magnam cum dolor eius tenetur.",
-    "Deleted": true,
-    "Rank": 647,
-    "Type": "repellat",
+    "Id": 282,
+    "Name": "Ondricka, Shields and Jenkins",
+    "ToolTip": "Voluptas error dicta.",
+    "Deleted": false,
+    "Rank": 328,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Krajcik, Kovacek and Rutherford",
-        "ToolTip": "Consequatur reprehenderit.",
-        "Deleted": false,
-        "Rank": 91,
-        "Type": "ab",
+        "Id": 306,
+        "Name": "Simonis, Mayer and Rippin",
+        "ToolTip": "Laudantium voluptatibus non labore ipsum sequi ad.",
+        "Deleted": true,
+        "Rank": 592,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 552,
-        "ExtraInfo": "aliquid",
-        "StyleHint": "qui",
-        "FullName": "Prof. Nestor Kelly McDermott",
+        "IconHint": "qui",
+        "ColorBlock": 572,
+        "ExtraInfo": "nihil",
+        "StyleHint": "laboriosam",
+        "FullName": "Eloisa Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldType": "System.Int32",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 400,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quia",
-    "FullName": "Maxwell Hamill Sr.",
+    "IconHint": "animi",
+    "ColorBlock": 215,
+    "ExtraInfo": "numquam",
+    "StyleHint": "quae",
+    "FullName": "Prof. Brandyn Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 149
       }
     }
   }

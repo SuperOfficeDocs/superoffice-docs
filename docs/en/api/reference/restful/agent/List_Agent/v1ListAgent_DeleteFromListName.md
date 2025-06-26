@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "UdListDefinitionName": "Anderson Inc and Sons"
+  "Id": 798,
+  "UdListDefinitionName": "Okuneva, Weissnat and Rowe"
 }
 ```
 

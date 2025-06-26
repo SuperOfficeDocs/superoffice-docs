@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 102
+  "UdListDefinitionId": 754
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 865,
-  "Name": "Sawayn Group",
-  "Tooltip": "adipisci",
+  "HeadingId": 143,
+  "Name": "McLaughlin-Carroll",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 521,
+  "Rank": 510,
+  "UdListDefinitionId": 663,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 325
     }
   }
 }

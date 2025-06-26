@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Grimes-Jacobi",
-    "AssociateId": 53,
-    "DetailsTable": 574,
-    "DetailsRecord": 546,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 38,
+    "Name": "Towne, Steuber and Ernser",
+    "AssociateId": 831,
+    "DetailsTable": 378,
+    "DetailsRecord": 57,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "et"
+      "ParameterObject1": "maiores",
+      "ParameterObject2": "odio"
     },
-    "LastStarted": "2020-01-22T17:54:08.6793184+01:00",
-    "Created": "2016-10-29T17:54:08.6793184+02:00",
-    "StartCount": 859,
-    "DatabaseSerialNumber": "146286",
-    "Context": "sapiente",
-    "Result": "sint",
+    "LastStarted": "1998-04-05T03:45:28.7952992+02:00",
+    "Created": "2025-01-24T03:45:28.7952992+01:00",
+    "StartCount": 24,
+    "DatabaseSerialNumber": "812005",
+    "Context": "blanditiis",
+    "Result": "ex",
     "State": "All",
-    "Description": "Multi-tiered clear-thinking service-desk",
-    "Response": "a",
-    "Request": "rerum",
-    "ProgressDescription": "Distributed context-sensitive implementation",
-    "ProgressPercent": 416,
-    "FileName": "Mayert, Roob and Corkery",
+    "Description": "Robust coherent ability",
+    "Response": "quae",
+    "Request": "eos",
+    "ProgressDescription": "Cross-platform systematic flexibility",
+    "ProgressPercent": 818,
+    "FileName": "Lakin LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 657
       }
     }
   }

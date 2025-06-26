@@ -12,6 +12,9 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger server-side event scripts.
 
+* [AnswerAcceptedAsync](answeracceptedasync.md)
+* [AnswerAsync](answerasync.md)
+* [AnswerFeedbackAsync](answerfeedbackasync.md)
 * [ClearChatbotTurnsAsync](clearchatbotturnsasync.md)
 * [CreateTextForAppointmentAsync](createtextforappointmentasync.md)
 * [DetectLanguageAsync](detectlanguageasync.md)
@@ -26,6 +29,8 @@ Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger
 * [GetTrainingStatusAsync](gettrainingstatusasync.md)
 * [GuessCategoryAsync](guesscategoryasync.md)
 * [RephraseTextAsync](rephrasetextasync.md)
+* [SearchAsync](searchasync.md)
+* [StartRagIndexingAsync](startragindexingasync.md)
 * [SummarizeContactAsync](summarizecontactasync.md)
 * [SummarizeSaleAsync](summarizesaleasync.md)
 * [SummarizeTextAsync](summarizetextasync.md)

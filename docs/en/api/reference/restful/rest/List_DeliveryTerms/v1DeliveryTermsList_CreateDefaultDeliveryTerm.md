@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Waters, Ziemann and Murazik",
-  "Tooltip": "officia",
+  "Id": 32,
+  "Name": "Dooley-Barton",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 285,
-  "Rank": 570,
+  "UdListDefinitionId": 338,
+  "Rank": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   }
 }

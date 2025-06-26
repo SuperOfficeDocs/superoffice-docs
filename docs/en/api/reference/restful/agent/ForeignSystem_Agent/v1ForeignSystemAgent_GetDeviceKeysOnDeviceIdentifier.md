@@ -86,9 +86,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Adams-Hayes",
-  "DeviceName": "Zemlak, Stokes and Huel",
-  "DeviceIdentifier": "asperiores"
+  "ApplicationName": "McDermott, Buckridge and Hayes",
+  "DeviceName": "Monahan Inc and Sons",
+  "DeviceIdentifier": "quam"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aliquid",
-    "Value": "odit",
-    "RecordId": 774,
-    "CreatedDate": "2021-09-29T17:54:03.1795788+02:00",
-    "UpdatedDate": "2000-02-04T17:54:03.1795788+01:00",
-    "UpdatedBy": "voluptatibus",
-    "CreatedBy": "sit",
-    "TableName": "Parker-Hand",
+    "Key": "animi",
+    "Value": "quaerat",
+    "RecordId": 481,
+    "CreatedDate": "2011-03-22T03:45:23.498579+01:00",
+    "UpdatedDate": "2018-09-03T03:45:23.498579+02:00",
+    "UpdatedBy": "perferendis",
+    "CreatedBy": "laboriosam",
+    "TableName": "Koch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 941
       }
     }
   }

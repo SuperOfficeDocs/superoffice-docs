@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 644,
+  "TargetDimensionId": 705,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aspernatur",
-  "DimensionListName": "Schuppe-Swift",
-  "DimensionListId": 209,
-  "DimensionListLabel": "numquam",
+  "DimensionListField": "cupiditate",
+  "DimensionListName": "Conroy-Hegmann",
+  "DimensionListId": 257,
+  "DimensionListLabel": "aliquam",
   "SelectedDimensions": [
-    685,
-    804
+    940,
+    769
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldLength": 502
     }
   }
 }

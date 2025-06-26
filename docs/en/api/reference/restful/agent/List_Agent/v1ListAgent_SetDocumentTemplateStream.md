@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "rerum",
-  "PluginId": 456
+  "LanguageCode": "nihil",
+  "PluginId": 592
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 70,
-  "Name": "Howe, Stiedemann and Beer",
-  "Tooltip": "inventore",
-  "SaveInDb": 461,
-  "Filename": "dolor",
-  "DefaultOref": "facere",
+  "DocumentTemplateId": 875,
+  "Name": "Lesch, Jaskolski and Terry",
+  "Tooltip": "est",
+  "SaveInDb": 256,
+  "Filename": "ut",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 97,
-  "IntentId": 979,
+  "AutoeventId": 898,
+  "IntentId": 92,
   "IsDefaultPublished": false,
-  "Rank": 226,
-  "LoadTemplateFromPlugin": 702,
-  "MimeType": "dicta",
+  "Rank": 414,
+  "LoadTemplateFromPlugin": 66,
+  "MimeType": "molestiae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 378,
+  "DocumentTypeKey": 140,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mohammad@bartolettijacobi.biz",
+  "EmailSubject": "adolphus@mayertmcclure.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dave@hills.uk",
+  "SenderEmailAddress": "jaiden.wolff@zemlak.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 838
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Krajcik Inc and Sons",
-    "ToolTip": "Autem dolor dolores repellat ipsum quam voluptas illo.",
+    "Id": 817,
+    "Name": "Hills-Ortiz",
+    "ToolTip": "Earum quos consequuntur dolore.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "ipsa",
-    "ColorBlock": 890,
-    "IconHint": "aspernatur",
+    "Rank": 468,
+    "Type": "accusamus",
+    "ColorBlock": 829,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2024-09-03T17:54:08.8043048+02:00",
+    "LastChanged": "2010-11-27T03:45:28.9827939+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Collins, Lynch and Spinka",
-        "ToolTip": "Quo ut.",
+        "Id": 72,
+        "Name": "Price, Schaefer and Lebsack",
+        "ToolTip": "Ea illo natus adipisci fugiat id.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "omnis",
-        "ColorBlock": 279,
-        "IconHint": "voluptates",
+        "Rank": 606,
+        "Type": "praesentium",
+        "ColorBlock": 647,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2000-08-28T17:54:08.8043048+02:00",
+        "LastChanged": "2020-06-26T03:45:28.9827939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Madalyn McKenzie",
+        "ExtraInfo": "aut",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Mr. Alfredo Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldType": "System.String",
+            "FieldLength": 758
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "nam",
+    "ExtraInfo": "quidem",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Joyce Swaniawski",
+    "FullName": "Miss Jasen Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldType": "System.String",
+        "FieldLength": 754
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptates",
-  "ProviderName": "Swaniawski Group",
-  "StorageKey": "consequuntur",
-  "Restrictions": "eligendi",
-  "Context": "officia"
+  "StorageType": "id",
+  "ProviderName": "Jaskolski, Dooley and Goldner",
+  "StorageKey": "eaque",
+  "Restrictions": "doloremque",
+  "Context": "nam"
 }
 ```
 

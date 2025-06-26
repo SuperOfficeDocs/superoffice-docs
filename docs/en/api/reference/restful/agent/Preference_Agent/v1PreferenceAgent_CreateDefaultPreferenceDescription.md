@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 329,
-  "Section": "suscipit",
-  "Key": "enim",
-  "Name": "Ortiz-Frami",
+  "PrefDescId": 593,
+  "Section": "nesciunt",
+  "Key": "ut",
+  "Name": "Kassulke Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable homogeneous success",
+  "Description": "Multi-channelled zero defect complexity",
   "IsBuiltin": true,
-  "TableName": "McLaughlin Inc and Sons",
-  "UserDefinedListId": 781,
-  "Rank": 190,
-  "SubGroup": "et",
-  "MinLevel": 471,
-  "MaxValue": 246,
-  "MinValue": 432,
-  "RequiredLicense": "enim",
+  "TableName": "Strosin, Hirthe and Walter",
+  "UserDefinedListId": 488,
+  "Rank": 713,
+  "SubGroup": "quia",
+  "MinLevel": 90,
+  "MaxValue": 294,
+  "MinValue": 326,
+  "RequiredLicense": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   }
 }

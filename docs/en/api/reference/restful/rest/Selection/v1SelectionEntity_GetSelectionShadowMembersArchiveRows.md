@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "deleniti",
+  "odata.nextLink": "distinctio",
   "value": [
     {
-      "PrimaryKey": 9058,
-      "EntityName": "sale",
-      "saleId": 9058,
-      "contactId": 3582,
-      "name": "Wehner Group"
+      "PrimaryKey": 3144,
+      "EntityName": "person",
+      "personId": 3144,
+      "fullName": "Lance Ebert"
     },
     {
-      "PrimaryKey": 4932,
-      "EntityName": "sale",
-      "saleId": 4932,
-      "contactId": 6281,
-      "name": "Hoeger, Herman and Kirlin"
+      "PrimaryKey": 5311,
+      "EntityName": "person",
+      "personId": 5311,
+      "fullName": "Aylin Little"
     }
   ]
 }

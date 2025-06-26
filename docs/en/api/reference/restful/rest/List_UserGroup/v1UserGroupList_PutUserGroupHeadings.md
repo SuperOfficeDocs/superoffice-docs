@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Stoltenberg-Purdy",
-    "Tooltip": "nihil",
+    "HeadingId": 377,
+    "Name": "Nitzsche, Reynolds and Gorczany",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 559
+    "Rank": 56,
+    "UdListDefinitionId": 685
   },
   {
-    "HeadingId": 30,
-    "Name": "Stoltenberg-Purdy",
-    "Tooltip": "nihil",
+    "HeadingId": 377,
+    "Name": "Nitzsche, Reynolds and Gorczany",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 559
+    "Rank": 56,
+    "UdListDefinitionId": 685
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 91,
-    "Name": "Legros Group",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 13,
-    "UdListDefinitionId": 890,
+    "HeadingId": 361,
+    "Name": "Koch-Schulist",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 279,
+    "UdListDefinitionId": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

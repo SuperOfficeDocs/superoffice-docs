@@ -119,7 +119,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=personSource,supportLanguage
+GET /api/v1/archive/LinksPerson?$select=contact/nameDepartment,contact/country,personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "nihil",
-    "ValueType": "ut",
-    "Mandatory": true,
-    "EncodedDisplayName": "Mante LLC",
-    "EncodedDisplayDescription": "Fundamental empowering open architecture",
+    "IsActive": false,
+    "Key": "sunt",
+    "ValueType": "ipsum",
+    "Mandatory": false,
+    "EncodedDisplayName": "VonRueden, Nicolas and Barrows",
+    "EncodedDisplayDescription": "Ameliorated real-time concept",
     "IconHint": "iusto",
     "ControlInfos": [
       {
-        "Type": "quia",
-        "Label": "veritatis",
-        "Dimension": 708,
-        "ListProviderName": "Prohaska Inc and Sons",
-        "ListProviderExtraInfo": "nobis",
-        "ListProviderPrimaryKeyName": "Feest-Hamill",
-        "ListLeadText": "at",
+        "Type": "consequatur",
+        "Label": "necessitatibus",
+        "Dimension": 549,
+        "ListProviderName": "Feeney, Rodriguez and Nicolas",
+        "ListProviderExtraInfo": "autem",
+        "ListProviderPrimaryKeyName": "Legros Inc and Sons",
+        "ListLeadText": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 771
+            "FieldLength": 764
           }
         }
       }
     ],
-    "EncodedDataCaption": "quibusdam",
-    "EncodedDataCaptionDescription": "Stand-alone eco-centric strategy",
-    "CurrentOperationType": "qui",
+    "EncodedDataCaption": "et",
+    "EncodedDataCaptionDescription": "Future-proofed contextually-based budgetary management",
+    "CurrentOperationType": "facere",
     "Values": [
-      "aspernatur",
-      "vitae"
+      "nihil",
+      "ipsum"
     ],
     "DisplayValues": [
-      "facilis",
-      "laudantium"
+      "aut",
+      "quia"
     ],
     "OperationInfos": [
       {
-        "Key": "architecto",
-        "EncodedDisplayName": "Johnson-Tillman",
+        "Key": "officia",
+        "EncodedDisplayName": "VonRueden, Goodwin and Gislason",
         "EncodedLeadTexts": [
-          "voluptates",
-          "amet"
+          "sint",
+          "ipsam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 888
           }
         }
       },
       {
-        "Key": "architecto",
-        "EncodedDisplayName": "Johnson-Tillman",
+        "Key": "officia",
+        "EncodedDisplayName": "VonRueden, Goodwin and Gislason",
         "EncodedLeadTexts": [
-          "voluptates",
-          "amet"
+          "sint",
+          "ipsam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 888
           }
         }
       }

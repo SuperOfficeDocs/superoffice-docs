@@ -71,11 +71,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Zieme, Gottlieb and Champlin",
-  "HeadingId": 710,
+  "UdListDefinitionName": "Green-Kuhlman",
+  "HeadingId": 966,
   "ListItemIds": [
-    102,
-    694
+    403,
+    417
   ],
   "Enable": false
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Kerluke-Okuneva",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 815,
-    "UdListDefinitionId": 399
+    "HeadingId": 775,
+    "Name": "Wintheiser Group",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 393,
+    "UdListDefinitionId": 686
   },
   {
-    "HeadingId": 988,
-    "Name": "Kerluke-Okuneva",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 815,
-    "UdListDefinitionId": 399
+    "HeadingId": 775,
+    "Name": "Wintheiser Group",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 393,
+    "UdListDefinitionId": 686
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 653,
-    "Name": "Nienow-Gibson",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 659,
-    "UdListDefinitionId": 805,
+    "HeadingId": 321,
+    "Name": "Pagac-Lakin",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 724,
+    "UdListDefinitionId": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

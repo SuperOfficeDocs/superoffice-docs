@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Feil-Quigley",
-  "Id": 76
+  "HistoryName": "Satterfield-Hyatt",
+  "Id": 839
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 813,
-  "Id": 192,
-  "HistoryName": "Walker, West and Douglas",
-  "HistoryId": 213,
-  "AssociateId": 222,
-  "Name": "Quigley Inc and Sons",
-  "ItemInfo": "eveniet",
+  "Rank": 485,
+  "Id": 544,
+  "HistoryName": "Waters Group",
+  "HistoryId": 287,
+  "AssociateId": 964,
+  "Name": "Schuppe, O'Hara and Kuhlman",
+  "ItemInfo": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

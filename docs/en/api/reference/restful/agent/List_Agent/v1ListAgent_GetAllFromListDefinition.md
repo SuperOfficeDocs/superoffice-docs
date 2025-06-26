@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 461,
+  "UdListDefinitionId": 254,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Kunde, Waelchi and Swift",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "UdListDefinitionId": 3,
-    "Rank": 865,
+    "Id": 723,
+    "Name": "Predovic LLC",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 940,
+    "Rank": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldLength": 220
       }
     }
   }

@@ -71,6 +71,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "mollitia"
+  "Message": "qui"
 }
 ```

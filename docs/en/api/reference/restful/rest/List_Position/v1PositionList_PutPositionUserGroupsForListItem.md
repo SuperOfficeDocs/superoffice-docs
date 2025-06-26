@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Dibbert, Wiza and Skiles",
-    "ToolTip": "Praesentium non pariatur.",
+    "Id": 254,
+    "Name": "Kertzmann-Roberts",
+    "ToolTip": "Esse id.",
     "Deleted": false,
-    "Rank": 453,
-    "Type": "voluptatem",
-    "ColorBlock": 943,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2025-05-10T17:54:08.9605465+02:00",
+    "Rank": 509,
+    "Type": "vero",
+    "ColorBlock": 447,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2017-09-11T03:45:29.0765432+02:00",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "Daugherty-Feeney",
-        "ToolTip": "Quisquam et vitae tempora molestiae.",
-        "Deleted": true,
-        "Rank": 866,
-        "Type": "nemo",
-        "ColorBlock": 108,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2005-07-19T17:54:08.9605465+02:00",
+        "Id": 220,
+        "Name": "Pacocha, Lebsack and McGlynn",
+        "ToolTip": "Quo est mollitia est sit rerum.",
+        "Deleted": false,
+        "Rank": 901,
+        "Type": "suscipit",
+        "ColorBlock": 13,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2012-08-16T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "tempora",
+        "ExtraInfo": "eos",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Elinor Zelda Goyette I"
+        "FullName": "Reuben Jones"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "sint",
+    "ExtraInfo": "qui",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Fabiola Parker"
+    "FullName": "Sam Osinski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Hammes, Gleason and Smitham",
-    "ToolTip": "Architecto odit mollitia.",
-    "Deleted": true,
-    "Rank": 328,
-    "Type": "ut",
-    "ColorBlock": 457,
-    "IconHint": "doloremque",
+    "Id": 304,
+    "Name": "Hodkiewicz Group",
+    "ToolTip": "Temporibus sed velit hic fuga et.",
+    "Deleted": false,
+    "Rank": 485,
+    "Type": "fugit",
+    "ColorBlock": 203,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2008-09-15T17:54:08.9605465+02:00",
+    "LastChanged": "2005-05-28T03:45:29.0765432+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Lind-Gutkowski",
-        "ToolTip": "Corporis et quidem.",
+        "Id": 689,
+        "Name": "Grady-Ritchie",
+        "ToolTip": "Perferendis quia quas eum ea.",
         "Deleted": true,
-        "Rank": 913,
-        "Type": "harum",
-        "ColorBlock": 463,
-        "IconHint": "assumenda",
+        "Rank": 28,
+        "Type": "voluptate",
+        "ColorBlock": 852,
+        "IconHint": "cum",
         "Selected": true,
-        "LastChanged": "2004-10-22T17:54:08.9605465+02:00",
+        "LastChanged": "1999-03-17T03:45:29.0765432+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "totam",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Johnnie Vernie Marquardt",
+        "FullName": "Alvis Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 250
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "sed",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Jairo Kertzmann",
+    "FullName": "Jaquelin Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

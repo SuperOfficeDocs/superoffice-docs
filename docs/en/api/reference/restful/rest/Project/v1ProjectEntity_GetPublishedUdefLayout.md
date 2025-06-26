@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 558,
-    "ColumnId": 413,
-    "FieldDefault": "aut",
-    "FieldHeight": 280,
-    "FieldLabel": "laudantium",
-    "FieldLeft": 736,
-    "FieldTop": 632,
+    "UDefFieldId": 241,
+    "ColumnId": 580,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 513,
+    "FieldLabel": "id",
+    "FieldLeft": 620,
+    "FieldTop": 293,
     "FieldType": "Checkbox",
-    "FieldWidth": 401,
-    "FormatMask": "libero",
+    "FieldWidth": 865,
+    "FormatMask": "incidunt",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 332,
-    "LabelLeft": 262,
-    "LabelTop": 667,
-    "LabelWidth": 564,
-    "LastVersionId": 940,
-    "ListTableId": 200,
+    "LabelHeight": 92,
+    "LabelLeft": 348,
+    "LabelTop": 527,
+    "LabelWidth": 172,
+    "LastVersionId": 588,
+    "ListTableId": 641,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 661,
-    "ProgId": "suscipit",
-    "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 156,
-    "TextLength": 118,
-    "Tooltip": "repellendus",
-    "UdefIdentity": 341,
-    "UDListDefinitionId": 778,
+    "Page1LineNo": 769,
+    "ProgId": "numquam",
+    "IsReadOnly": false,
+    "ShortLabel": "incidunt",
+    "TabOrder": 484,
+    "TextLength": 817,
+    "Tooltip": "beatae",
+    "UdefIdentity": 591,
+    "UDListDefinitionId": 494,
     "Justification": "Center",
-    "Version": 763,
-    "TemplateVariableName": "Bernier, Romaguera and Schinner",
-    "HasBeenPublished": false,
-    "MdoListName": "Monahan-Bednar",
+    "Version": 236,
+    "TemplateVariableName": "Heidenreich Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Farrell, Lakin and Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 216
       }
     }
   }

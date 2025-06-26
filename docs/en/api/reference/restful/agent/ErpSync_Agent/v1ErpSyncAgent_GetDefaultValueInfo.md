@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 217
+  "ErpFieldId": 98
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 23,
-  "DefaultValue": "neque",
+  "ErpFieldId": 529,
+  "DefaultValue": "unde",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "laboriosam",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "itaque",
+  "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "est",
+  "ErpFieldKey": "et",
   "FieldType": "Checkbox",
-  "ListName": "Towne, Nitzsche and Oberbrunner",
+  "ListName": "Runte Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 854
     }
   }
 }

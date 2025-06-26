@@ -111,47 +111,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 552,
-  "Name": "Streich LLC",
-  "Tooltip": "et",
-  "Rank": 474,
+  "SaleTypeId": 923,
+  "Name": "Hoeger, Yost and Heaney",
+  "Tooltip": "consequatur",
+  "Rank": 96,
   "DurationUnit": "Century",
-  "SaleDuration": 377,
-  "SaleTypeCatId": 546,
+  "SaleDuration": 227,
+  "SaleTypeCatId": 728,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 62,
-  "QuoteLinesTemplate": 563,
-  "ConfirmationLinesTemplate": 6,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 43,
+  "QuoteLinesTemplate": 586,
+  "ConfirmationLinesTemplate": 91,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 106,
-  "MinEarningPercent": 831,
-  "GroupQuoteLinesBy": 187,
-  "SortGroupLinesBy": 843,
+  "MaxDiscountPercent": 390,
+  "MinEarningPercent": 508,
+  "GroupQuoteLinesBy": 274,
+  "SortGroupLinesBy": 744,
   "Stages": [
     {
-      "Id": 806,
-      "Name": "Feeney, Friesen and Hammes",
-      "ToolTip": "Qui molestias commodi.",
+      "Id": 717,
+      "Name": "Howell-Moore",
+      "ToolTip": "Nihil necessitatibus eos nisi eveniet aut excepturi porro.",
       "Deleted": false,
-      "Rank": 262,
-      "Type": "quia",
-      "ColorBlock": 953,
-      "IconHint": "animi",
-      "Selected": true,
-      "LastChanged": "2021-06-04T17:54:09.1011806+02:00",
+      "Rank": 223,
+      "Type": "rerum",
+      "ColorBlock": 349,
+      "IconHint": "labore",
+      "Selected": false,
+      "LastChanged": "2009-12-19T03:45:29.2171623+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "et",
+      "ExtraInfo": "vel",
+      "StyleHint": "excepturi",
       "Hidden": true,
-      "FullName": "Ignatius White"
+      "FullName": "Celestino Kunde"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 584,
-  "Name": "McCullough, Hartmann and Herman",
-  "Tooltip": "iure",
-  "Rank": 28,
+  "SaleTypeId": 70,
+  "Name": "Lesch Group",
+  "Tooltip": "quia",
+  "Rank": 51,
   "DurationUnit": "Century",
-  "SaleDuration": 103,
-  "SaleTypeCatId": 418,
+  "SaleDuration": 214,
+  "SaleTypeCatId": 301,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 651,
-  "QuoteLinesTemplate": 403,
-  "ConfirmationLinesTemplate": 345,
-  "MaxDiscountPercentSet": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 703,
+  "QuoteLinesTemplate": 166,
+  "ConfirmationLinesTemplate": 673,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 954,
-  "MinEarningPercent": 736,
-  "GroupQuoteLinesBy": 220,
-  "SortGroupLinesBy": 264,
+  "MaxDiscountPercent": 246,
+  "MinEarningPercent": 490,
+  "GroupQuoteLinesBy": 497,
+  "SortGroupLinesBy": 189,
   "Stages": [
     {
-      "Id": 867,
-      "Name": "Bosco Group",
-      "ToolTip": "Voluptatibus nihil asperiores delectus qui.",
+      "Id": 464,
+      "Name": "Walsh Inc and Sons",
+      "ToolTip": "Voluptatem eos dolorum distinctio.",
       "Deleted": true,
-      "Rank": 509,
-      "Type": "ex",
-      "ColorBlock": 840,
-      "IconHint": "reprehenderit",
-      "Selected": true,
-      "LastChanged": "2004-08-17T17:54:09.1011806+02:00",
+      "Rank": 36,
+      "Type": "eum",
+      "ColorBlock": 219,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2019-05-10T03:45:29.2171623+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "quos",
-      "Hidden": true,
-      "FullName": "Baron Williamson Sr.",
+      "ExtraInfo": "sequi",
+      "StyleHint": "omnis",
+      "Hidden": false,
+      "FullName": "Deja Nils Becker DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 654
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldLength": 485
     }
   }
 }

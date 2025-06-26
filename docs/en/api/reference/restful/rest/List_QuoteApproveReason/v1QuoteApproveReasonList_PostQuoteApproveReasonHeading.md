@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 115,
-  "Name": "Reichel, Mueller and Schmidt",
-  "Tooltip": "et",
+  "HeadingId": 897,
+  "Name": "Lang, Streich and Pagac",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 860,
-  "UdListDefinitionId": 930
+  "Rank": 633,
+  "UdListDefinitionId": 612
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 257,
-  "Name": "Goldner-Hartmann",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "Rank": 348,
-  "UdListDefinitionId": 491,
+  "HeadingId": 764,
+  "Name": "Hills-Yundt",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "Rank": 410,
+  "UdListDefinitionId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

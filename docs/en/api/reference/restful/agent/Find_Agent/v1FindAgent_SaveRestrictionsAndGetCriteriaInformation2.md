@@ -86,11 +86,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Terry, O'Hara and Casper",
-  "StorageKey": "consequatur",
-  "Restrictions": "recusandae",
-  "StaticColumns": "quae"
+  "StorageType": "quisquam",
+  "ProviderName": "Morissette-Emmerich",
+  "StorageKey": "et",
+  "Restrictions": "dolores",
+  "StaticColumns": "facilis"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Denesik Group",
-      "Operator": "amet",
+      "Name": "Schroeder Group",
+      "Operator": "laudantium",
       "Values": [
-        "asperiores",
-        "reiciendis"
+        "ut",
+        "eos"
       ],
       "DisplayValues": [
-        "odit",
-        "dolorem"
+        "sapiente",
+        "quas"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 906,
+      "InterParenthesis": 232,
       "InterOperator": "And",
-      "UniqueHash": 741
+      "UniqueHash": 824
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wilderman-Lowe",
-      "DisplayTooltip": "culpa",
-      "DisplayType": "error",
-      "CanOrderBy": true,
-      "Name": "Jenkins Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Welch Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "sunt",
-      "Width": "voluptas",
-      "IconHint": "nostrum",
-      "HeadingIconHint": "eveniet"
+      "DisplayName": "Schumm, Brown and Witting",
+      "DisplayTooltip": "unde",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Reynolds, Jenkins and Boehm",
+      "CanRestrictBy": false,
+      "RestrictionType": "eum",
+      "RestrictionListName": "Waters, Bayer and Weber",
+      "IsVisible": false,
+      "ExtraInfo": "temporibus",
+      "Width": "expedita",
+      "IconHint": "aut",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McGlynn-Johnson",
-      "PrimaryKey": 30,
+      "EntityName": "Christiansen, Schmeler and Runte",
+      "PrimaryKey": 467,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "numquam",
-          "TooltipHint": "eveniet",
-          "LinkHint": "qui"
+          "DisplayValue": "sit",
+          "TooltipHint": "deserunt",
+          "LinkHint": "eligendi"
         }
       },
-      "LinkHint": "delectus",
-      "StyleHint": "ducimus",
+      "LinkHint": "est",
+      "StyleHint": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldType": "System.String",
+          "FieldLength": 554
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Multi-channelled 24 hour neural-net",
-      "Rank": 586,
+      "Name": "Cronin, Ernser and Quitzon",
+      "Description": "Centralized logistical website",
+      "Rank": 641,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Multi-channelled 24 hour neural-net",
-      "Rank": 586,
+      "Name": "Cronin, Ernser and Quitzon",
+      "Description": "Centralized logistical website",
+      "Rank": 641,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

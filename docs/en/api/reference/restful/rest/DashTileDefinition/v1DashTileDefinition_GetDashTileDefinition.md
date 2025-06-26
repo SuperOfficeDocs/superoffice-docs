@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 915,
-  "Name": "Rolfson, Armstrong and Keeling",
-  "Description": "Horizontal tertiary parallelism",
-  "DefaultHeight": 649,
-  "DefaultWidth": 293,
+  "DashboardTileDefinitionId": 134,
+  "Name": "Emard Group",
+  "Description": "Open-architected system-worthy hierarchy",
+  "DefaultHeight": 705,
+  "DefaultWidth": 938,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Maggio Group",
-  "SelectionId": 671,
+  "EntityName": "Rogahn Inc and Sons",
+  "SelectionId": 905,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "dolor",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "beatae",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 703,
-  "MeasureByField": "sed",
+  "MeasureField": "odit",
+  "SortBy": "et",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 360,
+  "MeasureByField": "sit",
   "Usage": "Dashboard",
-  "ProviderName": "Reilly-Hettinger",
+  "ProviderName": "Purdy, Schulist and Lemke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 501
     }
   },
   "_Links": {

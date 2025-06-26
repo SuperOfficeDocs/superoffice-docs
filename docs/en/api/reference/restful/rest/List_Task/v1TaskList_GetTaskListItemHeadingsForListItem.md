@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Brekke Group",
-    "ToolTip": "Ut ducimus qui et consequuntur earum nihil dolore.",
-    "Deleted": true,
-    "Rank": 11,
-    "Type": "perferendis",
-    "ColorBlock": 635,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2009-08-24T17:54:09.1324271+02:00",
+    "Id": 103,
+    "Name": "Gerhold-Rutherford",
+    "ToolTip": "Labore quos soluta nobis.",
+    "Deleted": false,
+    "Rank": 531,
+    "Type": "fugiat",
+    "ColorBlock": 282,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2007-06-21T03:45:29.2484114+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Miller-Rolfson",
-        "ToolTip": "Sequi quia placeat pariatur voluptates eum.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "sit",
-        "ColorBlock": 973,
-        "IconHint": "animi",
+        "Id": 962,
+        "Name": "Wiza Inc and Sons",
+        "ToolTip": "Aut nobis.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "inventore",
+        "ColorBlock": 8,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2023-08-17T17:54:09.1324271+02:00",
+        "LastChanged": "2025-01-22T03:45:29.2484114+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Nellie Langworth",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mr. Rudolph Eulalia Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Kali Hermiston",
+    "FullName": "Anita Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

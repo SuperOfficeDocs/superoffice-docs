@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 190
+  "AttachmentId": 17
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stehr, Smitham and Mayer",
-  "Type": "nobis",
-  "Size": 997,
+  "Name": "Harber-Lehner",
+  "Type": "ipsa",
+  "Size": 751,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 455
     }
   }
 }

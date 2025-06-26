@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Kuhlman, Beatty and Brekke",
-    "ToolTip": "Dolores iste in assumenda dolorem maxime eos.",
+    "Id": 848,
+    "Name": "Yost-Runte",
+    "ToolTip": "Eum velit quam corporis ut quaerat ut sunt.",
     "Deleted": false,
-    "Rank": 132,
-    "Type": "aliquam",
-    "ColorBlock": 662,
-    "IconHint": "neque",
+    "Rank": 795,
+    "Type": "aut",
+    "ColorBlock": 542,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2025-04-19T17:54:08.9136741+02:00",
+    "LastChanged": "2018-01-21T03:45:29.0452922+01:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Auer Inc and Sons",
-        "ToolTip": "Vero excepturi culpa qui temporibus voluptatem magnam et.",
-        "Deleted": true,
-        "Rank": 150,
-        "Type": "earum",
-        "ColorBlock": 844,
-        "IconHint": "eligendi",
+        "Id": 581,
+        "Name": "Ernser Group",
+        "ToolTip": "Ea rerum fugiat.",
+        "Deleted": false,
+        "Rank": 218,
+        "Type": "veniam",
+        "ColorBlock": 38,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2024-10-28T17:54:08.9136741+01:00",
+        "LastChanged": "2002-05-14T03:45:29.0452922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Jewel Yost IV",
+        "ExtraInfo": "magni",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Roberto Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 995
+            "FieldType": "System.String",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Prof. Audie Kreiger IV",
+    "ExtraInfo": "odio",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Holden Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldLength": 183
       }
     }
   }

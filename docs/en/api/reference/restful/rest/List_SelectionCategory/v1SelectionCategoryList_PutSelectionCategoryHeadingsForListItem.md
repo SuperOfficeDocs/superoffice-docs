@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Mann LLC",
-    "ToolTip": "Nemo molestiae fugit magni quasi.",
+    "Id": 375,
+    "Name": "Funk, Hermann and Durgan",
+    "ToolTip": "Saepe distinctio nesciunt quasi.",
     "Deleted": true,
-    "Rank": 892,
-    "Type": "similique",
-    "ColorBlock": 309,
-    "IconHint": "aut",
+    "Rank": 235,
+    "Type": "quis",
+    "ColorBlock": 130,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2002-11-20T17:54:09.1168029+01:00",
+    "LastChanged": "2015-11-11T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Kreiger-Rau",
-        "ToolTip": "Dolores enim dolorem quas delectus ex esse.",
-        "Deleted": false,
-        "Rank": 668,
-        "Type": "quasi",
-        "ColorBlock": 245,
-        "IconHint": "voluptas",
+        "Id": 392,
+        "Name": "McLaughlin Group",
+        "ToolTip": "Eos quo saepe ut est libero accusamus debitis.",
+        "Deleted": true,
+        "Rank": 803,
+        "Type": "facilis",
+        "ColorBlock": 974,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2002-10-02T17:54:09.1168029+02:00",
+        "LastChanged": "2002-09-21T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Orrin Hannah Vandervort DDS"
+        "ExtraInfo": "rem",
+        "StyleHint": "error",
+        "Hidden": true,
+        "FullName": "Karine Predovic MD"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "facilis",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mr. Willow Shanelle Boyle Sr."
+    "FullName": "Sonia Ondricka"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Tromp-Kerluke",
-    "ToolTip": "Rerum vel molestias eligendi maxime porro.",
+    "Id": 686,
+    "Name": "Schoen, Stroman and Fritsch",
+    "ToolTip": "Ducimus aperiam autem deserunt et sunt aliquam.",
     "Deleted": false,
-    "Rank": 716,
-    "Type": "at",
-    "ColorBlock": 349,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2006-08-29T17:54:09.1168029+02:00",
+    "Rank": 200,
+    "Type": "animi",
+    "ColorBlock": 460,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2013-03-08T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Kuhic LLC",
-        "ToolTip": "Rerum illum quia voluptatem aut voluptas ducimus sapiente.",
+        "Id": 35,
+        "Name": "Hermann-Quitzon",
+        "ToolTip": "Consectetur eaque animi non saepe optio sapiente.",
         "Deleted": true,
-        "Rank": 114,
-        "Type": "et",
-        "ColorBlock": 813,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "2018-11-14T17:54:09.1168029+01:00",
+        "Rank": 679,
+        "Type": "non",
+        "ColorBlock": 776,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2002-02-13T03:45:29.2327869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Mrs. Nick Wisozk",
+        "ExtraInfo": "qui",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Idell Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 16
+            "FieldType": "System.Int32",
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "non",
+    "ExtraInfo": "ut",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Chelsie Wuckert",
+    "FullName": "Ahmed Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   }

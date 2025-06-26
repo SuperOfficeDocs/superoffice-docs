@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 834,
-    "Name": "Wisozk Group",
-    "Description": "Open-architected fresh-thinking moratorium",
-    "DeltaJson": "molestiae",
+    "ConfigurableScreenDeltaId": 762,
+    "Name": "Mueller-Kreiger",
+    "Description": "Object-based mission-critical moratorium",
+    "DeltaJson": "ut",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "enim",
-    "UpdatedDate": "2008-12-05T17:54:02.8202276+01:00",
-    "CreatedDate": "2010-04-25T17:54:02.8202276+02:00",
+    "RecipeId": "quae",
+    "UpdatedDate": "2015-07-31T03:45:23.0767156+02:00",
+    "CreatedDate": "2018-12-21T03:45:23.0767156+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      733,
-      305
+      902,
+      831
     ],
-    "AppliesToKey": "error",
+    "AppliesToKey": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldLength": 459
       }
     }
   }

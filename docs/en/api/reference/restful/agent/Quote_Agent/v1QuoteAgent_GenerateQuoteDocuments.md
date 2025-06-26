@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 244,
-  "EmailBodyTemplateId": 552,
+  "QuoteVersionId": 437,
+  "EmailBodyTemplateId": 344,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 183,
+  "QuotedProductsTemplateId": 785,
   "IncludeAttachments": false,
-  "RawMailSubject": "porro"
+  "RawMailSubject": "quaerat"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 127,
-  "QuotedProductsId": 90,
+  "QuoteDocumentId": 208,
+  "QuotedProductsId": 791,
   "QuoteAttachmentIds": [
-    421,
-    54
+    467,
+    34
   ],
-  "MailBody": "consectetur",
-  "MailSubject": "sit",
-  "ToEmail": "marcellus.wolf@brekkestehr.name",
-  "ToFullName": "Maude Ryan",
-  "ErrorMessage": "culpa",
+  "MailBody": "voluptatum",
+  "MailSubject": "molestiae",
+  "ToEmail": "vincenzo@hettinger.info",
+  "ToFullName": "Mertie Connelly",
+  "ErrorMessage": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

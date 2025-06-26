@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 290,
-  "StartDate": "2016-02-03T17:54:02.5236144+01:00",
-  "EndDate": "2025-04-24T17:54:02.5236144+02:00",
-  "RecurrenceCounter": 676,
+  "RecurrenceId": 960,
+  "StartDate": "2000-06-15T03:45:22.842344+02:00",
+  "EndDate": "2002-11-01T03:45:22.842344+01:00",
+  "RecurrenceCounter": 238,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2017-07-10T17:54:02.5236144+02:00",
+      "Date": "2018-11-18T03:45:22.842344+01:00",
       "IsConflict": false,
-      "Description": "Enhanced even-keeled instruction set",
-      "DescriptionStyleHint": "Multi-layered holistic implementation",
-      "Tooltip": "qui"
+      "Description": "Cloned next generation knowledge base",
+      "DescriptionStyleHint": "Realigned coherent support",
+      "Tooltip": "dolore"
     },
     {
-      "Date": "2017-07-10T17:54:02.5236144+02:00",
+      "Date": "2018-11-18T03:45:22.842344+01:00",
       "IsConflict": false,
-      "Description": "Enhanced even-keeled instruction set",
-      "DescriptionStyleHint": "Multi-layered holistic implementation",
-      "Tooltip": "qui"
+      "Description": "Cloned next generation knowledge base",
+      "DescriptionStyleHint": "Realigned coherent support",
+      "Tooltip": "dolore"
     }
   ],
   "IsRecurrence": true

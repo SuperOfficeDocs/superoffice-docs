@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 668,
-    "Name": "Olson-Hyatt",
+    "TicketPriorityId": 164,
+    "Name": "Pacocha Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 336,
+    "SortOrder": 37,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 878,
-    "MonStart": "2015-04-07T17:54:03.1952029+02:00",
-    "MonStop": "2019-09-08T17:54:03.1952029+02:00",
-    "TueStart": "2020-01-02T17:54:03.1952029+01:00",
-    "TueStop": "2008-09-23T17:54:03.1952029+02:00",
-    "WedStart": "2007-10-28T17:54:03.1952029+01:00",
-    "WedStop": "2009-04-14T17:54:03.1952029+02:00",
-    "ThuStart": "2003-04-21T17:54:03.1952029+02:00",
-    "ThuStop": "2007-10-07T17:54:03.1952029+02:00",
-    "FriStart": "1999-10-08T17:54:03.1952029+02:00",
-    "FriStop": "2008-12-04T17:54:03.1952029+01:00",
-    "SatStart": "2013-12-24T17:54:03.1952029+01:00",
-    "SatStop": "2014-07-19T17:54:03.1952029+02:00",
-    "SunStart": "2008-10-11T17:54:03.1952029+02:00",
-    "SunStop": "2003-01-02T17:54:03.1952029+01:00",
+    "Deadline": 461,
+    "MonStart": "2002-09-08T03:45:23.5142048+02:00",
+    "MonStop": "2008-05-17T03:45:23.5142048+02:00",
+    "TueStart": "2012-10-22T03:45:23.5142048+02:00",
+    "TueStop": "2013-08-24T03:45:23.5142048+02:00",
+    "WedStart": "2018-10-18T03:45:23.5142048+02:00",
+    "WedStop": "2020-01-13T03:45:23.5142048+01:00",
+    "ThuStart": "2018-02-07T03:45:23.5142048+01:00",
+    "ThuStop": "2013-10-12T03:45:23.5142048+02:00",
+    "FriStart": "2022-08-11T03:45:23.5142048+02:00",
+    "FriStop": "2015-09-05T03:45:23.5142048+02:00",
+    "SatStart": "2018-10-20T03:45:23.5142048+02:00",
+    "SatStop": "2014-04-09T03:45:23.5142048+02:00",
+    "SunStart": "2007-08-31T03:45:23.5142048+02:00",
+    "SunStop": "2022-12-24T03:45:23.5142048+01:00",
     "NonDates": [
-      "est",
-      "hic"
+      "consectetur",
+      "sit"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 263,
-        "AlertLevel": 851,
-        "AlertTimeout": 464,
-        "Action": 514,
-        "DelegateTo": 109,
-        "ScriptId": 897,
-        "EmailTo": "ceasar@spinka.uk",
-        "SmsTo": "quae",
-        "ReplyTemplateIdCustomer": 750,
-        "ReplyTemplateIdUser": 970,
-        "ReplyTemplateIdCatmast": 927,
-        "ReplyTemplateIdEmail": 940,
-        "RtiCustomerSms": 879,
-        "ReplyTemplateIdUserSms": 62,
-        "ReplyTemplateIdCatmastSms": 650,
-        "ReplyTemplateIdSms": 515,
+        "TicketAlertId": 208,
+        "AlertLevel": 615,
+        "AlertTimeout": 214,
+        "Action": 140,
+        "DelegateTo": 258,
+        "ScriptId": 594,
+        "EmailTo": "naomie@kuhic.us",
+        "SmsTo": "illo",
+        "ReplyTemplateIdCustomer": 11,
+        "ReplyTemplateIdUser": 423,
+        "ReplyTemplateIdCatmast": 268,
+        "ReplyTemplateIdEmail": 369,
+        "RtiCustomerSms": 585,
+        "ReplyTemplateIdUserSms": 210,
+        "ReplyTemplateIdCatmastSms": 833,
+        "ReplyTemplateIdSms": 317,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 752
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 819
       }
     }
   }

@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "magnam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "magnam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 187,
-  "PrefDescId": 461,
-  "PrefValue": "incidunt",
-  "PrefShowValue": "temporibus",
-  "Description": "Advanced real-time database",
-  "IsBuiltin": false,
+  "PrefDescLineId": 449,
+  "PrefDescId": 187,
+  "PrefValue": "porro",
+  "PrefShowValue": "quaerat",
+  "Description": "Re-contextualized tangible help-desk",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 588
     }
   },
   "_Links": {

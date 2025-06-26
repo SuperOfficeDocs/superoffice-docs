@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Stroman-Wolf",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 556,
-  "Rank": 154,
+  "Id": 308,
+  "Name": "Zieme-Bergnaum",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 993,
+  "Rank": 344,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

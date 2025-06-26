@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "recusandae"
+  "ProgId": "autem"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 426,
-  "Name": "Bogisich LLC",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 359,
+  "WebPanelId": 457,
+  "Name": "Armstrong-Kovacek",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 437,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Gleason LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Schmeler Group",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 782,
+  "ProgId": "nihil",
+  "Icon": 658,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 213
     }
   }
 }

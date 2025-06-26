@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 565,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2011-10-14T17:54:02.9608392+02:00",
-  "EndTime": "2020-05-05T17:54:02.9608392+02:00",
-  "Count": 188,
-  "DocumentTemplateId": 429
+  "PersonId": 382,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2015-01-16T03:45:23.2798335+01:00",
+  "EndTime": "2010-07-06T03:45:23.2798335+02:00",
+  "Count": 180,
+  "DocumentTemplateId": 292
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 735,
-    "Attention": "qui",
-    "Header": "tempora",
-    "Name": "Hauck, Schuppe and Harvey",
-    "OurRef": "totam",
-    "YourRef": "libero",
-    "Description": "Mandatory intangible knowledge user",
-    "DocumentTemplate": "dolore",
+    "DocumentId": 343,
+    "Attention": "alias",
+    "Header": "aliquid",
+    "Name": "Ondricka, Pfannerstill and Weissnat",
+    "OurRef": "rerum",
+    "YourRef": "consequuntur",
+    "Description": "Future-proofed holistic application",
+    "DocumentTemplate": "ad",
     "IsPublished": false,
-    "PersonId": 356,
-    "PersonFullName": "Marcelle Rutherford",
-    "AssociateFullName": "Savannah Cecilia Ward Sr.",
-    "ContactId": 239,
-    "ContactName": "Eichmann, Beatty and Shields",
-    "ProjectId": 494,
-    "ProjectName": "Cummerata Inc and Sons",
-    "AssociateId": 264,
-    "Snum": 692,
-    "SaleId": 920,
-    "SaleName": "Bins-Kling",
+    "PersonId": 518,
+    "PersonFullName": "Dr. Margarete Lonie Kautzer",
+    "AssociateFullName": "Mrs. Adolf O'Hara DVM",
+    "ContactId": 385,
+    "ContactName": "Satterfield Inc and Sons",
+    "ProjectId": 243,
+    "ProjectName": "Pfeffer, Thompson and Nikolaus",
+    "AssociateId": 434,
+    "Snum": 340,
+    "SaleId": 452,
+    "SaleName": "Jewess-Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 791
       }
     }
   }

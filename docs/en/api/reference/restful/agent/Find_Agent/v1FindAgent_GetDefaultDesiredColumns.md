@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Willms, Cremin and Wuckert",
-  "StorageKey": "tempore"
+  "StorageType": "minus",
+  "ProviderName": "Schulist Inc and Sons",
+  "StorageKey": "aut"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Steuber-Watsica",
-    "DisplayTooltip": "ea",
-    "DisplayType": "rerum",
+    "DisplayName": "Rutherford-Kohler",
+    "DisplayTooltip": "quas",
+    "DisplayType": "voluptatem",
     "CanOrderBy": false,
-    "Name": "Rice LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "sed",
-    "RestrictionListName": "Reichel LLC",
+    "Name": "Auer, Christiansen and Bashirian",
+    "CanRestrictBy": false,
+    "RestrictionType": "nostrum",
+    "RestrictionListName": "D'Amore-Kessler",
     "IsVisible": false,
-    "ExtraInfo": "deleniti",
-    "Width": "est",
-    "IconHint": "quo",
-    "HeadingIconHint": "quas"
+    "ExtraInfo": "ab",
+    "Width": "repellat",
+    "IconHint": "molestiae",
+    "HeadingIconHint": "voluptatibus"
   }
 ]
 ```

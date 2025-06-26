@@ -72,11 +72,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kutch-Murazik",
-  "ProviderName": "Lehner, Predovic and Jacobson",
+  "GuiName": "Rath, Mraz and Wilderman",
+  "ProviderName": "Waelchi-Johnston",
   "ChosenColumns": [
-    "numquam",
-    "fugit"
+    "odit",
+    "laborum"
   ]
 }
 ```

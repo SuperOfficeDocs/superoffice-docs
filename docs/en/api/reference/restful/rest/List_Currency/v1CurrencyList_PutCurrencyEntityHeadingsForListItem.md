@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Larkin, Hilll and Pfannerstill",
-    "ToolTip": "Et suscipit sapiente.",
-    "Deleted": true,
-    "Rank": 242,
-    "Type": "commodi",
-    "ColorBlock": 555,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "2005-02-12T17:54:08.8980498+01:00",
+    "Id": 605,
+    "Name": "Bruen Group",
+    "ToolTip": "Ut facere aliquid quo repudiandae voluptatem voluptatem a.",
+    "Deleted": false,
+    "Rank": 685,
+    "Type": "facere",
+    "ColorBlock": 569,
+    "IconHint": "numquam",
+    "Selected": true,
+    "LastChanged": "2023-06-10T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Willms-Ferry",
-        "ToolTip": "Et itaque dolor est ullam et.",
+        "Id": 754,
+        "Name": "Hagenes Group",
+        "ToolTip": "Quo aut porro delectus dolorem placeat assumenda qui.",
         "Deleted": false,
-        "Rank": 771,
-        "Type": "atque",
-        "ColorBlock": 807,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2022-06-29T17:54:08.8980498+02:00",
+        "Rank": 664,
+        "Type": "necessitatibus",
+        "ColorBlock": 293,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2005-10-23T03:45:29.0296674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "atque",
+        "ExtraInfo": "et",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Miss Miguel Ransom O'Conner"
+        "FullName": "Aliyah Hauck"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Rey Wintheiser"
+    "ExtraInfo": "aut",
+    "StyleHint": "esse",
+    "Hidden": true,
+    "FullName": "Dorcas Fiona Morar MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Oberbrunner-Ritchie",
-    "ToolTip": "Eos repudiandae voluptatem accusamus accusamus commodi eligendi qui.",
-    "Deleted": true,
-    "Rank": 391,
-    "Type": "placeat",
-    "ColorBlock": 657,
-    "IconHint": "error",
+    "Id": 359,
+    "Name": "Huels LLC",
+    "ToolTip": "Dolore animi sapiente eaque perspiciatis quas.",
+    "Deleted": false,
+    "Rank": 499,
+    "Type": "consectetur",
+    "ColorBlock": 335,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2007-07-18T17:54:08.8980498+02:00",
+    "LastChanged": "2017-02-04T03:45:29.0296674+01:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Hane Inc and Sons",
-        "ToolTip": "Sit consectetur quisquam ipsum dicta exercitationem dolores quod.",
+        "Id": 700,
+        "Name": "Greenholt, O'Conner and Conn",
+        "ToolTip": "Repellendus ut voluptas.",
         "Deleted": true,
-        "Rank": 76,
-        "Type": "recusandae",
-        "ColorBlock": 351,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2016-06-15T17:54:08.8980498+02:00",
+        "Rank": 745,
+        "Type": "fugiat",
+        "ColorBlock": 373,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2019-09-15T03:45:29.0296674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "nihil",
+        "ExtraInfo": "et",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Donna Sawayn",
+        "FullName": "Erling Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 400
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "illo",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Kayleigh Funk Sr.",
+    "FullName": "Willa Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 250
       }
     }
   }

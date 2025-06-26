@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "id",
-    "quia"
+    "sint",
+    "maxime"
   ],
-  "CurrentClientTime": "2019-07-23T17:54:03.445191+02:00"
+  "CurrentClientTime": "2006-10-01T03:45:23.7485708+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "labore",
-    "labore"
+    "ipsum",
+    "necessitatibus"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 90,
-  "NotificationsCount": 340,
+  "OverdueSalesCount": 135,
+  "NotificationsCount": 838,
   "SystemWebPanels": [
     {
-      "WebPanelId": 959,
-      "Name": "Moen-Mraz",
-      "Tooltip": "recusandae",
+      "WebPanelId": 840,
+      "Name": "Berge, Wisozk and Gusikowski",
+      "Tooltip": "quam",
       "Deleted": true,
-      "Rank": 99,
+      "Rank": 53,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": false,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": true,
-      "ShowInAddressBar": true,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Torp, Littel and Keebler",
+      "WindowName": "Rippin-Steuber",
       "Url": "http://www.example.com/",
-      "ProgId": "ratione",
-      "Icon": 974,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "sunt",
+      "Icon": 339,
+      "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 507
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "dignissimos",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "consectetur",
-      "DisplayTooltip": "perferendis",
+      "DisplayValue": "tempora",
+      "DisplayTooltip": "autem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 240,
-      "PrefDescId": 659,
-      "TableName": "Schulist, Heidenreich and Herzog",
-      "UserPreferenceId": 731,
+      "TargetId": 705,
+      "PrefDescId": 394,
+      "TableName": "Kshlerin Inc and Sons",
+      "UserPreferenceId": 855,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldLength": 586
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "fugit",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldLength": 773
     }
   }
 }

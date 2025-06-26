@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Haley-Grant",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 253,
-  "Rank": 347,
+  "Id": 655,
+  "Name": "Aufderhar Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "UdListDefinitionId": 269,
+  "Rank": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldLength": 887
     }
   }
 }

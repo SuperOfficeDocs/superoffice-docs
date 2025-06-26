@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 360,
+  "AssociateId": 38,
   "UserPresenceStatus": null
 }
 ```

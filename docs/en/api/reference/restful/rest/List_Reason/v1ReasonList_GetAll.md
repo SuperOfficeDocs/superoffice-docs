@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "McClure-Von",
-    "Tooltip": "vero",
-    "Deleted": true,
-    "UdListDefinitionId": 771,
-    "Rank": 15,
+    "Id": 380,
+    "Name": "Beatty Group",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 351,
+    "Rank": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldLength": 205
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Kris-Gutkowski",
-    "ToolTip": "Et laboriosam laudantium et dolores praesentium nulla.",
-    "Deleted": false,
-    "Rank": 876,
-    "Type": "doloribus",
-    "ColorBlock": 407,
-    "IconHint": "delectus",
+    "Id": 396,
+    "Name": "Turner, Jerde and Zboncak",
+    "ToolTip": "Illo dolore harum numquam vel maxime expedita.",
+    "Deleted": true,
+    "Rank": 354,
+    "Type": "autem",
+    "ColorBlock": 643,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2007-05-04T17:54:08.8824262+02:00",
+    "LastChanged": "2011-08-27T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Homenick-Maggio",
-        "ToolTip": "Et quis et et et occaecati placeat cumque.",
+        "Id": 107,
+        "Name": "Kunde, Macejkovic and Robel",
+        "ToolTip": "Amet et mollitia atque ipsam.",
         "Deleted": false,
-        "Rank": 882,
-        "Type": "repellendus",
-        "ColorBlock": 194,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2000-12-24T17:54:08.8824262+01:00",
+        "Rank": 918,
+        "Type": "fugit",
+        "ColorBlock": 714,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2009-04-25T03:45:29.014043+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "dolor",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Prof. Paolo Nia King"
+        "FullName": "Miss Uriel Sigrid Bins"
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Naomi Cremin Sr."
+    "ExtraInfo": "maiores",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Ms. Arnoldo Rubie Prosacco IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Rosenbaum-Conroy",
-    "ToolTip": "Architecto quas harum itaque.",
+    "Id": 11,
+    "Name": "Johnson Group",
+    "ToolTip": "Similique sint.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "cumque",
-    "ColorBlock": 771,
-    "IconHint": "non",
+    "Rank": 837,
+    "Type": "minima",
+    "ColorBlock": 145,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2005-08-03T17:54:08.8824262+02:00",
+    "LastChanged": "2014-10-06T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Dach, Krajcik and Shanahan",
-        "ToolTip": "Voluptatem minima commodi totam qui qui omnis a.",
+        "Id": 725,
+        "Name": "Powlowski-Heidenreich",
+        "ToolTip": "In est qui.",
         "Deleted": false,
-        "Rank": 909,
-        "Type": "blanditiis",
-        "ColorBlock": 653,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2002-06-20T17:54:08.8824262+02:00",
+        "Rank": 439,
+        "Type": "nesciunt",
+        "ColorBlock": 38,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2001-01-01T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "inventore",
-        "Hidden": false,
-        "FullName": "Mrs. Brittany Joannie Raynor III",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "animi",
+        "Hidden": true,
+        "FullName": "Ms. Tressie Abbie Wunsch II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Edd Greenfelder",
+    "ExtraInfo": "aut",
+    "StyleHint": "nulla",
+    "Hidden": false,
+    "FullName": "Mrs. Zaria Opal Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 363
       }
     }
   }

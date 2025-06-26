@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Kuphal Group",
-  "Tooltip": "in",
+  "Id": 883,
+  "Name": "Waters-Parisian",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "UdListDefinitionId": 735,
-  "Rank": 820
+  "UdListDefinitionId": 877,
+  "Rank": 949
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Vandervort Inc and Sons",
-  "Tooltip": "placeat",
+  "Id": 247,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 648,
-  "Rank": 581,
+  "UdListDefinitionId": 830,
+  "Rank": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

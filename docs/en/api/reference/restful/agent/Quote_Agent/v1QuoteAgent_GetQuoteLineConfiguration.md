@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 434
+  "QuoteLineConfigurationId": 678
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 624,
-  "FieldName": "Goodwin-Larkin",
-  "Label": "eius",
-  "Tooltip": "voluptates",
+  "QuoteLineConfigurationId": 394,
+  "FieldName": "Torphy, Hodkiewicz and Boyer",
+  "Label": "et",
+  "Tooltip": "aut",
   "Editable": false,
-  "InUse": true,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 217,
+  "Rank": 579,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 162
     }
   }
 }

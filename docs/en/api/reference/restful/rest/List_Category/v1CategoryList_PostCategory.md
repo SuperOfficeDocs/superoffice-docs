@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Franecki, Bergstrom and Mills",
-  "Tooltip": "et",
+  "Id": 539,
+  "Name": "Koelpin-Larson",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 496,
-  "Rank": 355
+  "UdListDefinitionId": 453,
+  "Rank": 16
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Donnelly-Schmidt",
-  "Tooltip": "qui",
+  "Id": 10,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 462,
+  "UdListDefinitionId": 705,
+  "Rank": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 867
     }
   }
 }

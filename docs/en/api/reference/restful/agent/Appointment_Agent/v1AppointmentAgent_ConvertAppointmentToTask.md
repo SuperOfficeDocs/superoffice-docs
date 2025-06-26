@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 991
+  "AppointmentId": 432
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2025-05-12T17:54:02.6327304+02:00",
-  "AppointmentId": 904,
-  "Description": "Monitored clear-thinking focus group",
-  "Title": "qui",
-  "Agenda": "expedita",
-  "InternalNotes": "adipisci",
-  "StartDate": "2000-07-08T17:54:02.6327304+02:00",
-  "EndDate": "2007-08-07T17:54:02.6327304+02:00",
+  "CreatedDate": "2019-02-25T03:45:22.9517163+01:00",
+  "AppointmentId": 626,
+  "Description": "Cross-group asynchronous standardization",
+  "Title": "ut",
+  "Agenda": "nesciunt",
+  "InternalNotes": "rerum",
+  "StartDate": "2005-12-13T03:45:22.9517163+01:00",
+  "EndDate": "2007-03-31T03:45:22.9517163+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 42,
+  "MotherId": 98,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-02-18T17:54:02.6327304+01:00",
+  "UpdatedDate": "2007-06-12T03:45:22.9517163+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 131,
+  "ActiveLinks": 978,
   "Links": [
     {
-      "EntityName": "Zulauf, Monahan and Hackett",
-      "Id": 652,
-      "Description": "Virtual explicit productivity",
-      "ExtraInfo": "est",
-      "LinkId": 246,
+      "EntityName": "White-Ebert",
+      "Id": 340,
+      "Description": "Optional tangible budgetary management",
+      "ExtraInfo": "ipsam",
+      "LinkId": 538,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldLength": 251
         }
       }
     }
   ],
-  "AlarmLeadTime": "laudantium",
-  "HasAlarm": false,
-  "ColorIndex": 518,
+  "AlarmLeadTime": "soluta",
+  "HasAlarm": true,
+  "ColorIndex": 461,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "nihil",
-  "LeadTime": "occaecati",
-  "Location": "earum",
-  "RejectCounter": 988,
+  "LagTime": "dolorem",
+  "LeadTime": "quis",
+  "Location": "unde",
+  "RejectCounter": 626,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 778,
-      "PersonId": 572,
-      "ContactId": 569,
-      "EmailId": 568,
-      "SendEmail": false,
+      "AssociateId": 545,
+      "PersonId": 391,
+      "ContactId": 440,
+      "EmailId": 410,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "danyka_dare@bashirianhammes.biz",
-      "Description": "Seamless well-modulated product"
+      "EmailAddress": "candido.wisozk@hegmann.name",
+      "Description": "Intuitive foreground software"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-09-08T17:54:02.6327304+02:00",
+  "ActiveDate": "2019-10-10T03:45:22.9517163+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 548,
+  "PreferredTZLocation": 987,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 468,
+  "SuggestedAppointmentId": 912,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolore",
+  "CentralserviceVideomeetId": "id",
   "UserDefinedFields": {
-    "SuperOffice:1": "629979102",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Kelly Bauch",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "et"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "culpa"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "placeat"
   },
-  "PublishEventDate": "1998-06-19T17:54:02.6327304+02:00",
-  "PublishTo": "2020-04-30T17:54:02.6327304+02:00",
-  "PublishFrom": "2001-11-30T17:54:02.6327304+01:00",
+  "PublishEventDate": "2020-06-26T03:45:22.9517163+02:00",
+  "PublishTo": "2020-06-05T03:45:22.9517163+02:00",
+  "PublishFrom": "2017-06-17T03:45:22.9517163+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 690,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 214
         }
       }
     },
     {
-      "VisibleId": 690,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 214
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

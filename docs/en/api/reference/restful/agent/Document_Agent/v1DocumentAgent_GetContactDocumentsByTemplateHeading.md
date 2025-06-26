@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 302,
-  "StartTime": "2003-08-29T17:54:02.9452152+02:00",
-  "EndTime": "2013-04-21T17:54:02.9452152+02:00",
-  "Count": 912,
-  "TemplateHeadingId": 450
+  "ContactId": 69,
+  "StartTime": "2025-01-02T03:45:23.2798335+01:00",
+  "EndTime": "2008-01-06T03:45:23.2798335+01:00",
+  "Count": 713,
+  "TemplateHeadingId": 994
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 807,
-    "Attention": "nam",
-    "Header": "libero",
-    "Name": "Ebert-McLaughlin",
-    "OurRef": "sunt",
-    "YourRef": "quia",
-    "Description": "Re-engineered incremental function",
-    "DocumentTemplate": "doloremque",
-    "IsPublished": false,
-    "PersonId": 691,
-    "PersonFullName": "Madalyn Willms",
-    "AssociateFullName": "Mr. Ricky Kirlin",
-    "ContactId": 342,
-    "ContactName": "Wyman, Rempel and Wehner",
-    "ProjectId": 554,
-    "ProjectName": "Hyatt-Stark",
-    "AssociateId": 543,
-    "Snum": 987,
-    "SaleId": 688,
-    "SaleName": "Rosenbaum-Feest",
+    "DocumentId": 69,
+    "Attention": "tempore",
+    "Header": "vitae",
+    "Name": "Kautzer Inc and Sons",
+    "OurRef": "eius",
+    "YourRef": "laborum",
+    "Description": "Grass-roots fault-tolerant project",
+    "DocumentTemplate": "voluptatum",
+    "IsPublished": true,
+    "PersonId": 801,
+    "PersonFullName": "Ladarius Jast V",
+    "AssociateFullName": "Dr. Jaylan Wolf",
+    "ContactId": 576,
+    "ContactName": "Boehm-Schimmel",
+    "ProjectId": 632,
+    "ProjectName": "Beahan, Thiel and Koelpin",
+    "AssociateId": 383,
+    "Snum": 209,
+    "SaleId": 617,
+    "SaleName": "Gutkowski-Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 373
       }
     }
   }

@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "id",
-  "ProviderName": "Quigley-Bradtke",
-  "StorageKey": "rerum",
+  "StorageType": "beatae",
+  "ProviderName": "Crona Inc and Sons",
+  "StorageKey": "nemo",
   "Restrictions": [
     {
-      "Name": "Champlin Group",
-      "Operator": "sequi",
+      "Name": "Lang Group",
+      "Operator": "nam",
       "Values": [
-        "ea",
-        "et"
+        "qui",
+        "sunt"
       ],
       "DisplayValues": [
-        "deleniti",
-        "debitis"
+        "assumenda",
+        "quo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 244,
+      "InterParenthesis": 628,
       "InterOperator": "And",
-      "UniqueHash": 294
+      "UniqueHash": 870
     }
   ]
 }

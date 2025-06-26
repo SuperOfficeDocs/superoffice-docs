@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Cormier, Hills and O'Connell",
-    "ToolTip": "Error eos rerum cum alias qui.",
-    "Deleted": false,
-    "Rank": 416,
-    "Type": "reiciendis",
-    "ColorBlock": 822,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2023-05-10T17:54:09.0858036+02:00",
+    "Id": 707,
+    "Name": "Lynch-Dach",
+    "ToolTip": "Aut fugiat molestiae consequatur.",
+    "Deleted": true,
+    "Rank": 604,
+    "Type": "consequuntur",
+    "ColorBlock": 646,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2012-04-05T03:45:29.2015441+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Kuphal, Nicolas and Wiegand",
-        "ToolTip": "Dolorum ad sunt molestias voluptatem in quia.",
+        "Id": 425,
+        "Name": "Nader Inc and Sons",
+        "ToolTip": "Voluptas voluptatem sed rerum consequatur adipisci mollitia.",
         "Deleted": true,
-        "Rank": 983,
-        "Type": "veniam",
-        "ColorBlock": 250,
-        "IconHint": "ex",
+        "Rank": 746,
+        "Type": "esse",
+        "ColorBlock": 502,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2024-12-18T17:54:09.0858036+01:00",
+        "LastChanged": "2009-01-06T03:45:29.2015441+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "maxime",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Ima Blake Durgan DDS",
+        "FullName": "Ivy Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 814
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "Mellie O'Conner",
+    "ExtraInfo": "autem",
+    "StyleHint": "reiciendis",
+    "Hidden": true,
+    "FullName": "Miss Vada Bergstrom DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

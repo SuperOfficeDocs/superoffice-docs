@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 177,
-    "Name": "Larson-O'Kon",
-    "Tooltip": "soluta",
-    "Deleted": true,
-    "Rank": 690,
-    "UdListDefinitionId": 469
+    "HeadingId": 452,
+    "Name": "Hilll Inc and Sons",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 389,
+    "UdListDefinitionId": 884
   },
   {
-    "HeadingId": 177,
-    "Name": "Larson-O'Kon",
-    "Tooltip": "soluta",
-    "Deleted": true,
-    "Rank": 690,
-    "UdListDefinitionId": 469
+    "HeadingId": 452,
+    "Name": "Hilll Inc and Sons",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 389,
+    "UdListDefinitionId": 884
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 615,
-    "Name": "Jaskolski Group",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 28,
+    "HeadingId": 458,
+    "Name": "Gutkowski, Batz and Prohaska",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 228,
+    "UdListDefinitionId": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldLength": 264
       }
     }
   }

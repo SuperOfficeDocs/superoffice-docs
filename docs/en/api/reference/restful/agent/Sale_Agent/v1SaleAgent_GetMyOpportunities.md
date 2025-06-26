@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 985
+  "Count": 316
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cummerata LLC",
-    "SaleDate": "2002-08-21T17:54:03.5858088+02:00",
-    "SaleId": 433,
-    "Probability": 924,
-    "Title": "architecto",
-    "Amount": 5631.798,
-    "Currency": "adipisci",
-    "ProjectName": "Nolan, Swift and Schoen",
-    "AssociateFullName": "Vincenza Dortha Sauer Sr.",
-    "Description": "Pre-emptive scalable matrix",
+    "ContactName": "Boehm Inc and Sons",
+    "SaleDate": "2001-08-08T03:45:23.8735682+02:00",
+    "SaleId": 769,
+    "Probability": 279,
+    "Title": "quia",
+    "Amount": 16920.466,
+    "Currency": "amet",
+    "ProjectName": "Blick, Swift and Morar",
+    "AssociateFullName": "Eliseo Boehm Sr.",
+    "Description": "Function-based scalable product",
     "Status": "Lost",
-    "WeightedAmount": 7330.4259999999995,
-    "ProjectId": 47,
-    "EarningPercent": 30669.324,
-    "Earning": 12824.328,
-    "ContactId": 374,
-    "AssociateId": 421,
-    "PersonId": 179,
-    "SaleTypeId": 538,
-    "SaleTypeName": "Runte Group",
-    "PersonFullName": "Trycia Hills",
+    "WeightedAmount": 28610.286,
+    "ProjectId": 489,
+    "EarningPercent": 16331.274,
+    "Earning": 5277.656,
+    "ContactId": 356,
+    "AssociateId": 750,
+    "PersonId": 132,
+    "SaleTypeId": 630,
+    "SaleTypeName": "Kessler, Keebler and Schmitt",
+    "PersonFullName": "Savanah Schaden",
     "Completed": "Completed",
-    "ActiveErpLinks": 529,
-    "NextDueDate": "2006-06-08T17:54:03.5858088+02:00",
-    "Number": "291329",
+    "ActiveErpLinks": 207,
+    "NextDueDate": "2018-03-18T03:45:23.8735682+01:00",
+    "Number": "1564001",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

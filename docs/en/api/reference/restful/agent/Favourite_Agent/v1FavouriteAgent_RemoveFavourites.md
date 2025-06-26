@@ -70,12 +70,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runte, Gorczany and Carter",
+  "TableName": "Krajcik-Funk",
   "RecordIds": [
-    919,
-    172
+    984,
+    759
   ],
-  "AssociateId": 680
+  "AssociateId": 428
 }
 ```
 

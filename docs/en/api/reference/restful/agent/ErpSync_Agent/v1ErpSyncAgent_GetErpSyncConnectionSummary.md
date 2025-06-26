@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 910
+  "ErpSyncConnectionId": 408
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Bayer LLC",
-  "DisplayDescription": "Universal heuristic knowledge user",
-  "Active": true,
-  "Deleted": false,
-  "LastSync": "2001-05-30T17:54:03.1327059+02:00",
+  "DisplayName": "Schuster-Kris",
+  "DisplayDescription": "Optimized even-keeled encryption",
+  "Active": false,
+  "Deleted": true,
+  "LastSync": "2016-11-21T03:45:23.4517052+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "aut",
-      "Mappings": "aliquid",
+      "HasMappings": true,
+      "Defaults": "tenetur",
+      "Mappings": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 147
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "aut",
-      "Mappings": "aliquid",
+      "HasMappings": true,
+      "Defaults": "tenetur",
+      "Mappings": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 147
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 670
     }
   }
 }

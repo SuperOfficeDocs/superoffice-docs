@@ -72,7 +72,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Stiedemann-Feeney",
-  "DisplayName": "Crona LLC",
-  "Description": "Proactive zero defect orchestration",
-  "ShortLabel": "et",
+  "FieldName": "Hintz-Ferry",
+  "DisplayName": "Dooley, Rogahn and Zulauf",
+  "Description": "Re-engineered zero tolerance access",
+  "ShortLabel": "eligendi",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 640,
-  "TemplateVariableName": "Dare, Jacobson and Will"
+  "IsMandatory": false,
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "IsDisplayField": false,
+  "Rank": 968,
+  "TemplateVariableName": "Wolff, Schmitt and Hoeger"
 }
 ```

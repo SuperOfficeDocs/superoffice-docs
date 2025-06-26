@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 274
+  "DocumentTemplateId": 176
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "harum",
-  "voluptatibus"
+  "reprehenderit",
+  "recusandae"
 ]
 ```

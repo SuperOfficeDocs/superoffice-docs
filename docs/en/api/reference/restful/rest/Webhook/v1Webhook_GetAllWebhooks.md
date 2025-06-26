@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=numquam
-GET /api/v1/Webhook?eventFilter=magnam
+GET /api/v1/Webhook?nameFilter=aut
+GET /api/v1/Webhook?eventFilter=inventore
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -82,7 +82,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 50,
-    "Name": "Anderson LLC",
+    "WebhookId": 310,
+    "Name": "Lesch LLC",
     "Events": [
-      "sapiente",
-      "neque"
+      "accusamus",
+      "ducimus"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "unde",
+    "Secret": "voluptas",
     "State": "Active",
-    "Type": "nam",
+    "Type": "harum",
     "Headers": {
-      "Headers1": "placeat",
-      "Headers2": "doloribus"
+      "Headers1": "corporis",
+      "Headers2": "officia"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2021-01-16T17:54:08.7730557+01:00",
+    "Registered": "2006-05-16T03:45:28.8890492+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2019-12-09T17:54:08.7730557+01:00",
+    "Updated": "2010-07-06T03:45:28.8890492+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "rowan@rolfson.uk"
+    "ErrorsEmail": "tara@cruickshankwalter.ca"
   }
 ]
 ```

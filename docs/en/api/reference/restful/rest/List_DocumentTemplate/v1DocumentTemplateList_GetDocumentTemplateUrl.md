@@ -30,8 +30,8 @@ Get a url to the document template
 | languageCode | string |  The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=autem
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=quia
 ```
 
 

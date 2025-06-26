@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestiae
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=et
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 05 Aug 2005 17:54:08 G8T
+Last-Modified: Sun, 19 Jun 2011 03:45:28 G6T
 
 {
-  "Key": "rerum",
-  "Value": "reprehenderit",
-  "RecordId": 438,
-  "CreatedDate": "1999-10-24T17:54:08.2574567+02:00",
-  "UpdatedDate": "2005-08-05T17:54:08.2574567+02:00",
-  "UpdatedBy": "alias",
-  "CreatedBy": "quia",
-  "TableName": "Wuckert-Hane",
+  "Key": "tempore",
+  "Value": "sunt",
+  "RecordId": 13,
+  "CreatedDate": "2014-01-04T03:45:28.3734363+01:00",
+  "UpdatedDate": "2011-06-19T03:45:28.3734363+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "et",
+  "TableName": "Jakubowski-Crona",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

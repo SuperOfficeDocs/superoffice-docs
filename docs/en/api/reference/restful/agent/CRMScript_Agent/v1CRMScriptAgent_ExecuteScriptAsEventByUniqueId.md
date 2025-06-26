@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "tenetur",
+  "CRMScriptUniqueId": "molestias",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "in"
+    "InputValues1": "aliquam",
+    "InputValues2": "quaerat"
   },
   "BlockExecution": true,
-  "NavigateTo": "et",
-  "Message": "minus",
-  "ShowDialog": "eos",
+  "NavigateTo": "in",
+  "Message": "quas",
+  "ShowDialog": "sit",
   "OutputValues": {
-    "OutputValues1": "laborum",
-    "OutputValues2": "dolorum"
+    "OutputValues1": "quidem",
+    "OutputValues2": "aliquam"
   },
   "StateValues": {
-    "StateValues1": "praesentium",
-    "StateValues2": "expedita"
+    "StateValues1": "debitis",
+    "StateValues2": "vitae"
   },
-  "Exception": "assumenda",
+  "Exception": "provident",
   "ParserValues": {
-    "ParserValues1": "a",
-    "ParserValues2": "quia"
+    "ParserValues1": "nisi",
+    "ParserValues2": "aspernatur"
   },
   "CgiVariables": {
-    "CgiVariables1": "sunt",
-    "CgiVariables2": "adipisci"
+    "CgiVariables1": "consequatur",
+    "CgiVariables2": "repellat"
   },
-  "CgiContent": "reprehenderit",
+  "CgiContent": "sunt",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "doloremque"
+    "Headers1": "minus",
+    "Headers2": "eum"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

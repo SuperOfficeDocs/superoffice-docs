@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Blick Inc and Sons",
-    "Howe-Schuster"
+    "Doyle-Bruen",
+    "Walsh, Halvorson and Ward"
   ],
-  "Culture": "dolores"
+  "Culture": "qui"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Metz Group",
-    "ResourceValue": "sit",
-    "Culture": "eum",
+    "ResourceName": "Walsh Group",
+    "ResourceValue": "unde",
+    "Culture": "omnis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   },
   {
-    "ResourceName": "Metz Group",
-    "ResourceValue": "sit",
-    "Culture": "eum",
+    "ResourceName": "Walsh Group",
+    "ResourceValue": "unde",
+    "Culture": "omnis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

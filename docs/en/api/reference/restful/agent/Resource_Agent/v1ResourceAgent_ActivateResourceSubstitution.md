@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Beier, Rau and Vandervort",
-  "Culture": "porro",
+  "ResourceName": "Keebler, Morissette and Reilly",
+  "Culture": "autem",
   "IsActive": false
 }
 ```

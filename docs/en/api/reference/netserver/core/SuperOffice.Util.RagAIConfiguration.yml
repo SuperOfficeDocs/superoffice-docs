@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.RagAIConfiguration
+  commentId: T:SuperOffice.Util.RagAIConfiguration
+  id: RagAIConfiguration
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.RagAIConfiguration.#ctor
+  - SuperOffice.Util.RagAIConfiguration.AppClientSecret
+  - SuperOffice.Util.RagAIConfiguration.EndpointUrl
+  - SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+  - SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  - SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  - SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  - SuperOffice.Util.RagAIConfiguration.SectionName
+  langs:
+  - csharp
+  - vb
+  name: RagAIConfiguration
+  nameWithType: RagAIConfiguration
+  fullName: SuperOffice.Util.RagAIConfiguration
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: "\"RAG\" appsettings.json options:\r\n\"AppClientSecret\" and \"EndpointUrl\", \"Fileset_Audience\" and \"Fileset_SigningKey\""
+  example: []
+  syntax:
+    content: public class RagAIConfiguration
+    content.vb: Public Class RagAIConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.RagAIConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.Util.RagAIConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Util.RagAIConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.RagAIConfiguration)
+  - SuperOffice.Util.RagAIConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.RagAIConfiguration.SectionName
+  commentId: F:SuperOffice.Util.RagAIConfiguration.SectionName
+  id: SectionName
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SectionName
+  nameWithType: RagAIConfiguration.SectionName
+  fullName: SuperOffice.Util.RagAIConfiguration.SectionName
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SectionName = "RagAI"
+    return:
+      type: System.String
+    content.vb: Public Const SectionName As String = "RagAI"
+- uid: SuperOffice.Util.RagAIConfiguration.#ctor
+  commentId: M:SuperOffice.Util.RagAIConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RagAIConfiguration()
+  nameWithType: RagAIConfiguration.RagAIConfiguration()
+  fullName: SuperOffice.Util.RagAIConfiguration.RagAIConfiguration()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public RagAIConfiguration()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Util.RagAIConfiguration.#ctor*
+  nameWithType.vb: RagAIConfiguration.New()
+  fullName.vb: SuperOffice.Util.RagAIConfiguration.New()
+  name.vb: New()
+- uid: SuperOffice.Util.RagAIConfiguration.AppClientSecret
+  commentId: P:SuperOffice.Util.RagAIConfiguration.AppClientSecret
+  id: AppClientSecret
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AppClientSecret
+  nameWithType: RagAIConfiguration.AppClientSecret
+  fullName: SuperOffice.Util.RagAIConfiguration.AppClientSecret
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: RAG AI Application Client Secret (AppToken) "1234ecc...4231"
+  example: []
+  syntax:
+    content: public string AppClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppClientSecret As String
+  overload: SuperOffice.Util.RagAIConfiguration.AppClientSecret*
+- uid: SuperOffice.Util.RagAIConfiguration.EndpointUrl
+  commentId: P:SuperOffice.Util.RagAIConfiguration.EndpointUrl
+  id: EndpointUrl
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: EndpointUrl
+  nameWithType: RagAIConfiguration.EndpointUrl
+  fullName: SuperOffice.Util.RagAIConfiguration.EndpointUrl
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: 'RAG AI API Endpoint URL: "https://rag-dev.superoffice.com/"'
+  example: []
+  syntax:
+    content: public string EndpointUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndpointUrl As String
+  overload: SuperOffice.Util.RagAIConfiguration.EndpointUrl*
+- uid: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  commentId: P:SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  id: MarkdownizerUrl
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MarkdownizerUrl
+  nameWithType: RagAIConfiguration.MarkdownizerUrl
+  fullName: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: 'Convert to Markdown API Endpoint URL: "https://rag-dev.superoffice.com/"'
+  example: []
+  syntax:
+    content: public string MarkdownizerUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MarkdownizerUrl As String
+  overload: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl*
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  id: Fileset_PrincipalName
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Fileset_PrincipalName
+  nameWithType: RagAIConfiguration.Fileset_PrincipalName
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: RAG AI Fileset issuer "spn:superoffice-ragapi-sod"
+  example: []
+  syntax:
+    content: public string Fileset_PrincipalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fileset_PrincipalName As String
+  overload: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName*
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+  id: Fileset_Audience
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Fileset_Audience
+  nameWithType: RagAIConfiguration.Fileset_Audience
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: RAG AI Fileset Audience "spn:superoffice-ragapi-sod"
+  example: []
+  syntax:
+    content: public string Fileset_Audience { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fileset_Audience As String
+  overload: SuperOffice.Util.RagAIConfiguration.Fileset_Audience*
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  id: Fileset_SigningKey
+  parent: SuperOffice.Util.RagAIConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Fileset_SigningKey
+  nameWithType: RagAIConfiguration.Fileset_SigningKey
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: RAG AI Fileset signing key "1tJs0Nnaux2IQ7XehBALHOfaqK/afoas"
+  example: []
+  syntax:
+    content: public string Fileset_SigningKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fileset_SigningKey As String
+  overload: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey*
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.RagAIConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RagAIConfiguration, To>(RagAIConfiguration)
+  nameWithType: EnumUtil.MapEnums<RagAIConfiguration, To>(RagAIConfiguration)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.RagAIConfiguration, To>(SuperOffice.Util.RagAIConfiguration)
+  nameWithType.vb: EnumUtil.MapEnums(Of RagAIConfiguration, To)(RagAIConfiguration)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.RagAIConfiguration, To)(SuperOffice.Util.RagAIConfiguration)
+  name.vb: MapEnums(Of RagAIConfiguration, To)(RagAIConfiguration)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RagAIConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.RagAIConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+- uid: SuperOffice.Util.RagAIConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RagAIConfiguration, To>(RagAIConfiguration)
+  nameWithType: Converters.MapEnums<RagAIConfiguration, To>(RagAIConfiguration)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.RagAIConfiguration, To>(SuperOffice.Util.RagAIConfiguration)
+  nameWithType.vb: Converters.MapEnums(Of RagAIConfiguration, To)(RagAIConfiguration)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.RagAIConfiguration, To)(SuperOffice.Util.RagAIConfiguration)
+  name.vb: MapEnums(Of RagAIConfiguration, To)(RagAIConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RagAIConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.RagAIConfiguration)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+- uid: SuperOffice.Util.RagAIConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.RagAIConfiguration)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RagAIConfiguration>(RagAIConfiguration, RagAIConfiguration)
+  nameWithType: ObjectExtensions.AssignByReflection<RagAIConfiguration>(RagAIConfiguration, RagAIConfiguration)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.RagAIConfiguration>(SuperOffice.Util.RagAIConfiguration, SuperOffice.Util.RagAIConfiguration)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RagAIConfiguration)(RagAIConfiguration, RagAIConfiguration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.RagAIConfiguration)(SuperOffice.Util.RagAIConfiguration, SuperOffice.Util.RagAIConfiguration)
+  name.vb: AssignByReflection(Of RagAIConfiguration)(RagAIConfiguration, RagAIConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.RagAIConfiguration,SuperOffice.Util.RagAIConfiguration)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.RagAIConfiguration,SuperOffice.Util.RagAIConfiguration)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+- uid: SuperOffice.Util.RagAIConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RagAIConfiguration>(RagAIConfiguration)
+  nameWithType: ObjectExtensions.GraphCopy<RagAIConfiguration>(RagAIConfiguration)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.RagAIConfiguration>(SuperOffice.Util.RagAIConfiguration)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RagAIConfiguration)(RagAIConfiguration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.RagAIConfiguration)(SuperOffice.Util.RagAIConfiguration)
+  name.vb: GraphCopy(Of RagAIConfiguration)(RagAIConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.RagAIConfiguration)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.RagAIConfiguration)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.RagAIConfiguration
+    name: RagAIConfiguration
+    isExternal: true
+    href: SuperOffice.Util.RagAIConfiguration.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.RagAIConfiguration.#ctor*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.#ctor
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration__ctor
+  name: RagAIConfiguration
+  nameWithType: RagAIConfiguration.RagAIConfiguration
+  fullName: SuperOffice.Util.RagAIConfiguration.RagAIConfiguration
+  nameWithType.vb: RagAIConfiguration.New
+  fullName.vb: SuperOffice.Util.RagAIConfiguration.New
+  name.vb: New
+- uid: SuperOffice.Util.RagAIConfiguration.AppClientSecret*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.AppClientSecret
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_AppClientSecret
+  name: AppClientSecret
+  nameWithType: RagAIConfiguration.AppClientSecret
+  fullName: SuperOffice.Util.RagAIConfiguration.AppClientSecret
+- uid: SuperOffice.Util.RagAIConfiguration.EndpointUrl*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.EndpointUrl
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_EndpointUrl
+  name: EndpointUrl
+  nameWithType: RagAIConfiguration.EndpointUrl
+  fullName: SuperOffice.Util.RagAIConfiguration.EndpointUrl
+- uid: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_MarkdownizerUrl
+  name: MarkdownizerUrl
+  nameWithType: RagAIConfiguration.MarkdownizerUrl
+  fullName: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_PrincipalName
+  name: Fileset_PrincipalName
+  nameWithType: RagAIConfiguration.Fileset_PrincipalName
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_Audience*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_Audience
+  name: Fileset_Audience
+  nameWithType: RagAIConfiguration.Fileset_Audience
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
+- uid: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_SigningKey
+  name: Fileset_SigningKey
+  nameWithType: RagAIConfiguration.Fileset_SigningKey
+  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey

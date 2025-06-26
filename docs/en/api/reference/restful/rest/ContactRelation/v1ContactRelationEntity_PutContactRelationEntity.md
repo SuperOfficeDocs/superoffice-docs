@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 393,
-  "SourcePersonId": 130,
-  "DestinationContactId": 146,
-  "DestinationPersonId": 541,
-  "RelationId": 466,
-  "Comment": "qui",
-  "RelationDefinitionId": 702,
-  "Reversed": 879,
-  "UpdatedDate": "2011-03-09T17:54:08.1324619+01:00",
-  "CreatedDate": "2003-08-27T17:54:08.1324619+02:00",
+  "SourceContactId": 659,
+  "SourcePersonId": 909,
+  "DestinationContactId": 97,
+  "DestinationPersonId": 68,
+  "RelationId": 298,
+  "Comment": "dignissimos",
+  "RelationDefinitionId": 688,
+  "Reversed": 839,
+  "UpdatedDate": "2010-10-03T03:45:28.2328189+02:00",
+  "CreatedDate": "2000-10-21T03:45:28.2328189+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Conn-Hyatt",
-  "SourcePersonName": "DuBuque Group",
-  "DestinationContactName": "Senger-Ullrich",
-  "DestinationPersonName": "Harvey-Wisozk",
-  "ActiveText": "ducimus",
-  "PassiveText": "eum"
+  "SourceContactName": "Quitzon LLC",
+  "SourcePersonName": "Block Inc and Sons",
+  "DestinationContactName": "O'Conner LLC",
+  "DestinationPersonName": "Berge, Effertz and Hintz",
+  "ActiveText": "earum",
+  "PassiveText": "voluptate"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 190,
-  "SourcePersonId": 212,
-  "DestinationContactId": 413,
-  "DestinationPersonId": 767,
-  "RelationId": 942,
-  "Comment": "et",
-  "RelationDefinitionId": 457,
-  "Reversed": 567,
-  "UpdatedDate": "2022-10-07T17:54:08.1324619+02:00",
-  "CreatedDate": "2013-05-21T17:54:08.1324619+02:00",
+  "SourceContactId": 513,
+  "SourcePersonId": 315,
+  "DestinationContactId": 725,
+  "DestinationPersonId": 403,
+  "RelationId": 773,
+  "Comment": "maiores",
+  "RelationDefinitionId": 533,
+  "Reversed": 293,
+  "UpdatedDate": "2013-03-19T03:45:28.2328189+01:00",
+  "CreatedDate": "2002-04-21T03:45:28.2328189+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dicki, Gorczany and Reichel",
-  "SourcePersonName": "Thiel, Bosco and Raynor",
-  "DestinationContactName": "Douglas Inc and Sons",
-  "DestinationPersonName": "Kunze Inc and Sons",
-  "ActiveText": "nihil",
-  "PassiveText": "magni",
+  "SourceContactName": "Schaefer Group",
+  "SourcePersonName": "Johnson-Douglas",
+  "DestinationContactName": "O'Keefe-Metz",
+  "DestinationPersonName": "Langosh LLC",
+  "ActiveText": "sed",
+  "PassiveText": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   },
   "_Links": {

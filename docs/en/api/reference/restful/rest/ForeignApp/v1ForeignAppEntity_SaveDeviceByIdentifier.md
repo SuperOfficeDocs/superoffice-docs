@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 17,
-  "Name": "Durgan, Nikolaus and Robel",
-  "CreatedDate": "2000-11-22T17:54:08.2574567+01:00",
-  "UpdatedDate": "2009-03-29T17:54:08.2574567+02:00",
-  "AssociateFullName": "Dedrick Lindgren Sr.",
-  "CreatedBy": "harum",
-  "UpdatedBy": "voluptatum",
-  "DeviceIdentifier": "aliquam",
-  "ForeignAppId": 299
+  "ForeignDeviceId": 796,
+  "Name": "Heathcote Inc and Sons",
+  "CreatedDate": "2005-07-22T03:45:28.3578119+02:00",
+  "UpdatedDate": "2021-02-14T03:45:28.3578119+01:00",
+  "AssociateFullName": "Mrs. Keely Brown II",
+  "CreatedBy": "corporis",
+  "UpdatedBy": "dolor",
+  "DeviceIdentifier": "occaecati",
+  "ForeignAppId": 277
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 824,
-  "Name": "Emmerich-Koch",
-  "CreatedDate": "2004-03-25T17:54:08.2574567+01:00",
-  "UpdatedDate": "2004-07-26T17:54:08.2574567+02:00",
-  "AssociateFullName": "Orlo Stanton",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "ipsum",
-  "DeviceIdentifier": "neque",
-  "ForeignAppId": 649,
+  "ForeignDeviceId": 481,
+  "Name": "Volkman, Kulas and Powlowski",
+  "CreatedDate": "2021-03-16T03:45:28.3578119+01:00",
+  "UpdatedDate": "2003-12-12T03:45:28.3578119+01:00",
+  "AssociateFullName": "Mr. Reese Thiel III",
+  "CreatedBy": "rerum",
+  "UpdatedBy": "velit",
+  "DeviceIdentifier": "facilis",
+  "ForeignAppId": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldLength": 518
     }
   }
 }

@@ -125,7 +125,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 892
+  "QuoteLineId": 221
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 271,
-  "ERPQuoteLineKey": "illo",
-  "QuoteAlternativeId": 125,
-  "ERPProductKey": "quia",
+  "QuoteLineId": 300,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 951,
+  "ERPProductKey": "omnis",
   "Status": "Error",
-  "Reason": "integrate turn-key deliverables",
-  "Quantity": 24254.025999999998,
-  "DeliveredQuantity": 26570.052,
-  "Rank": 692,
-  "Name": "Ondricka LLC",
-  "Description": "Multi-tiered 5th generation artificial intelligence",
-  "Code": "cupiditate",
-  "QuantityUnit": "ea",
-  "PriceUnit": "eligendi",
-  "ItemNumber": "328458",
+  "Reason": "",
+  "Quantity": 22997.291999999998,
+  "DeliveredQuantity": 22539.728,
+  "Rank": 325,
+  "Name": "Swaniawski Inc and Sons",
+  "Description": "Phased well-modulated approach",
+  "Code": "sit",
+  "QuantityUnit": "repudiandae",
+  "PriceUnit": "possimus",
+  "ItemNumber": "1303465",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aliquam",
-  "ProductTypeKey": "quidem",
-  "Supplier": "eligendi",
-  "SupplierCode": "enim",
-  "Thumbnail": "ducimus",
-  "VATInfo": "ipsam",
-  "VAT": 10182.366,
-  "UnitCost": 22821.788,
-  "UnitMinimumPrice": 22602.408,
-  "UnitListPrice": 125.36,
+  "ProductFamilyKey": "voluptatibus",
+  "ProductTypeKey": "quia",
+  "Supplier": "nostrum",
+  "SupplierCode": "dicta",
+  "Thumbnail": "expedita",
+  "VATInfo": "illum",
+  "VAT": 23363.969999999998,
+  "UnitCost": 11326.276,
+  "UnitMinimumPrice": 25037.525999999998,
+  "UnitListPrice": 26093.683999999997,
   "ExtraInfo": [
     {
-      "Name": "Simonis LLC",
-      "Value": "sit",
+      "Name": "Medhurst, Welch and Botsford",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     },
     {
-      "Name": "Simonis LLC",
-      "Value": "sit",
+      "Name": "Medhurst, Welch and Botsford",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sed",
-  "SubscriptionQuantity": 2930.29,
-  "SubscriptionStart": "2015-02-08T17:54:03.5389365+01:00",
-  "ERPDiscountPercent": 15883.112,
-  "ERPDiscountAmount": 23235.476,
-  "DiscountPercent": 16431.561999999998,
-  "DiscountAmount": 28077.505999999998,
+  "RawExtraInfo": "voluptatibus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "atque",
+  "SubscriptionQuantity": 19468.408,
+  "SubscriptionStart": "2017-08-09T03:45:23.8266945+02:00",
+  "ERPDiscountPercent": 17888.872,
+  "ERPDiscountAmount": 17086.568,
+  "DiscountPercent": 20700.07,
+  "DiscountAmount": 16296.8,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7988.566,
-  "EarningAmount": 29729.124,
-  "SubTotal": 626.8,
-  "TotalPrice": 27225.058,
-  "Rights": "id",
-  "Rule": "architecto",
-  "ExtraField1": "provident",
-  "ExtraField2": "omnis",
-  "ExtraField3": "ut",
-  "ExtraField4": "fuga",
-  "ExtraField5": "modi",
+  "EarningPercent": 16581.994,
+  "EarningAmount": 10238.778,
+  "SubTotal": 14366.256,
+  "TotalPrice": 10686.94,
+  "Rights": "cupiditate",
+  "Rule": "dolores",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "velit",
+  "ExtraField3": "asperiores",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

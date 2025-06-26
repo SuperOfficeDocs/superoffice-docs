@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 738,
-  "Filter": "id"
+  "SelectionId": 953,
+  "Filter": "aut"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Okuneva-Hyatt",
-    "Operator": "inventore",
+    "Name": "Dibbert-Douglas",
+    "Operator": "at",
     "Values": [
-      "enim",
-      "iusto"
+      "esse",
+      "earum"
     ],
     "DisplayValues": [
-      "aut",
-      "reprehenderit"
+      "iure",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Gerlach, Kihn and Stiedemann",
-        "Operator": "qui",
+        "Name": "Pagac, Kihn and Effertz",
+        "Operator": "et",
         "Values": [
-          "odit",
-          "deleniti"
+          "cum",
+          "quam"
         ],
         "DisplayValues": [
-          "earum",
-          "sequi"
+          "odit",
+          "officiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 19,
+        "InterParenthesis": 50,
         "InterOperator": "And",
-        "UniqueHash": 751
+        "UniqueHash": 570
       }
     ],
-    "InterParenthesis": 618,
+    "InterParenthesis": 871,
     "InterOperator": "And",
-    "UniqueHash": 21
+    "UniqueHash": 545
   }
 ]
 ```

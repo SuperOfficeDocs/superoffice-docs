@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Kling, Abshire and Kunde",
-    "ToolTip": "Quia accusamus magni autem in autem voluptatem similique.",
-    "Deleted": false,
-    "Rank": 143,
-    "Type": "nostrum",
-    "ColorBlock": 318,
-    "IconHint": "molestias",
+    "Id": 112,
+    "Name": "Smith, Bednar and Gerlach",
+    "ToolTip": "Molestias est corporis est sit atque unde magnam.",
+    "Deleted": true,
+    "Rank": 326,
+    "Type": "facilis",
+    "ColorBlock": 866,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2004-07-20T17:54:09.1324271+02:00",
+    "LastChanged": "2017-04-15T03:45:29.2327869+02:00",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Herman Group",
-        "ToolTip": "Debitis animi quia qui ducimus dolores.",
-        "Deleted": true,
-        "Rank": 93,
-        "Type": "omnis",
-        "ColorBlock": 944,
-        "IconHint": "accusantium",
+        "Id": 387,
+        "Name": "Heller LLC",
+        "ToolTip": "Sequi est voluptatibus totam suscipit aut eos aliquid.",
+        "Deleted": false,
+        "Rank": 769,
+        "Type": "soluta",
+        "ColorBlock": 786,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2012-09-16T17:54:09.1324271+02:00",
+        "LastChanged": "2012-05-05T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "sint",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Brice Goyette",
+        "FullName": "Mrs. Brady Brendon Lowe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 646
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Rudy Lynch",
+    "FullName": "Mr. Orval Fidel Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 137
       }
     }
   }

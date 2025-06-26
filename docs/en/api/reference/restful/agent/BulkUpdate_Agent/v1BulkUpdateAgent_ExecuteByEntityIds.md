@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "non",
-      "ValueType": "velit",
-      "Mandatory": false,
-      "EncodedDisplayName": "Yundt Group",
-      "EncodedDisplayDescription": "Reduced bottom-line info-mediaries",
-      "IconHint": "corporis",
+      "Key": "assumenda",
+      "ValueType": "veritatis",
+      "Mandatory": true,
+      "EncodedDisplayName": "Schiller, Rohan and Hegmann",
+      "EncodedDisplayDescription": "Synchronised non-volatile productivity",
+      "IconHint": "dolores",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "nemo",
-      "EncodedDataCaptionDescription": "Pre-emptive object-oriented project",
-      "CurrentOperationType": "rem",
+      "EncodedDataCaption": "tempore",
+      "EncodedDataCaptionDescription": "Quality-focused clear-thinking definition",
+      "CurrentOperationType": "quis",
       "Values": [
-        "vel",
-        "veniam"
+        "dolorum",
+        "debitis"
       ],
       "DisplayValues": [
-        "voluptas",
-        "illo"
+        "fuga",
+        "recusandae"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Lueilwitz LLC",
-  "Context": "sunt",
-  "Ids": "nostrum"
+  "TableName": "Rolfson-Spencer",
+  "Context": "officiis",
+  "Ids": "veritatis"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-31
+527
 ```

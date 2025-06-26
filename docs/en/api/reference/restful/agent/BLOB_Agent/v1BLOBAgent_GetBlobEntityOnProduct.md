@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 853
+  "ProductId": 692
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 462,
-  "BlobSize": 923,
-  "Description": "Self-enabling human-resource website",
-  "ExtraInfo": "iste",
+  "BlobId": 150,
+  "BlobSize": 646,
+  "Description": "Inverse clear-thinking intranet",
+  "ExtraInfo": "debitis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 287,
-  "CreatedDate": "2006-06-25T17:54:02.6796032+02:00",
-  "UpdatedDate": "2004-03-01T17:54:02.6796032+01:00",
+  "IsZipped": true,
+  "MimeType": "consequuntur",
+  "OriginalSize": 547,
+  "CreatedDate": "2004-07-30T03:45:22.9985914+02:00",
+  "UpdatedDate": "2008-01-04T03:45:22.9985914+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

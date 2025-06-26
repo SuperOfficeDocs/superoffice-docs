@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 605,
-  "Name": "Borer Group",
-  "CreatedDate": "2017-11-27T17:54:03.1639551+01:00",
-  "UpdatedDate": "2021-03-31T17:54:03.1639551+02:00",
+  "ForeignAppId": 268,
+  "Name": "Hyatt-Green",
+  "CreatedDate": "2008-02-13T03:45:23.4829546+01:00",
+  "UpdatedDate": "2013-06-13T03:45:23.4829546+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 52,
-      "Name": "Langosh, Mohr and Kuhn",
-      "CreatedDate": "2013-11-07T17:54:03.1639551+01:00",
-      "UpdatedDate": "2023-06-23T17:54:03.1639551+02:00",
-      "AssociateFullName": "Patsy Jaskolski",
-      "CreatedBy": "ipsum",
-      "UpdatedBy": "praesentium",
-      "DeviceIdentifier": "eos",
-      "ForeignAppId": 128,
+      "ForeignDeviceId": 400,
+      "Name": "Ondricka, Orn and DuBuque",
+      "CreatedDate": "2017-10-28T03:45:23.4829546+02:00",
+      "UpdatedDate": "2001-01-30T03:45:23.4829546+01:00",
+      "AssociateFullName": "Michelle Fay",
+      "CreatedBy": "nesciunt",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "minus",
+      "ForeignAppId": 717,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldLength": 122
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 533
     }
   }
 }

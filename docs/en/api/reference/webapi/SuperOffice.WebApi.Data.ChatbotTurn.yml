@@ -80,7 +80,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: UTC timestamp for turn - when response was generated
+  summary: UTC timestamp for turn - when response was generated.
   example: []
   syntax:
     content: public virtual DateTime Timestamp { get; set; }

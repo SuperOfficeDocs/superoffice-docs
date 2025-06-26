@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Wolff Group",
-    "ToolTip": "Et saepe ad adipisci vel nisi.",
-    "Deleted": false,
-    "Rank": 847,
-    "Type": "facere",
-    "ColorBlock": 963,
-    "IconHint": "adipisci",
-    "Selected": false,
-    "LastChanged": "2007-12-26T17:54:09.0074197+01:00",
+    "Id": 161,
+    "Name": "Hamill-Wolf",
+    "ToolTip": "Reprehenderit non.",
+    "Deleted": true,
+    "Rank": 426,
+    "Type": "modi",
+    "ColorBlock": 547,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2010-08-15T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Dibbert-Smitham",
-        "ToolTip": "Est sed vel accusamus et voluptas.",
-        "Deleted": false,
-        "Rank": 405,
-        "Type": "beatae",
-        "ColorBlock": 211,
-        "IconHint": "possimus",
+        "Id": 269,
+        "Name": "Lind-Becker",
+        "ToolTip": "Quam facere est nobis voluptate.",
+        "Deleted": true,
+        "Rank": 704,
+        "Type": "tempore",
+        "ColorBlock": 463,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-02-14T17:54:09.0074197+01:00",
+        "LastChanged": "2015-11-13T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "alias",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Bert Mosciski PhD"
+        "FullName": "Marta Swaniawski"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "minima",
-    "Hidden": true,
-    "FullName": "Dayana Rodriguez"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Celine Williamson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Aufderhar Inc and Sons",
-    "ToolTip": "Aut consectetur error ex autem itaque qui.",
-    "Deleted": true,
-    "Rank": 312,
-    "Type": "praesentium",
-    "ColorBlock": 489,
-    "IconHint": "nobis",
+    "Id": 809,
+    "Name": "Jewess Group",
+    "ToolTip": "Dicta at.",
+    "Deleted": false,
+    "Rank": 872,
+    "Type": "magni",
+    "ColorBlock": 613,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2017-10-20T17:54:09.0074197+02:00",
+    "LastChanged": "2006-05-04T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Johnson Group",
-        "ToolTip": "Nihil nulla odio autem velit voluptas consequatur eum.",
-        "Deleted": true,
-        "Rank": 726,
-        "Type": "dolor",
-        "ColorBlock": 273,
-        "IconHint": "non",
+        "Id": 970,
+        "Name": "Hills-Stark",
+        "ToolTip": "Quas consequatur natus occaecati corporis ea nesciunt officia.",
+        "Deleted": false,
+        "Rank": 671,
+        "Type": "dolorem",
+        "ColorBlock": 212,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2022-10-07T17:54:09.0074197+02:00",
+        "LastChanged": "2015-07-01T03:45:29.1859346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Dr. Dannie Christop Pfannerstill Jr.",
+        "ExtraInfo": "impedit",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Cristal Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 162
+            "FieldType": "System.Int32",
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "qui",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Katheryn Wolf II",
+    "FullName": "Jeffry Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldType": "System.Int32",
+        "FieldLength": 842
       }
     }
   }

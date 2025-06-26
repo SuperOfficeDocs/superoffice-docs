@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Ullrich-O'Kon",
+      "Name": "Gusikowski Group",
       "Operator": "in",
       "Values": [
-        "architecto",
-        "perspiciatis"
+        "voluptas",
+        "molestias"
       ],
       "DisplayValues": [
-        "omnis",
-        "molestias"
+        "reiciendis",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 421,
+      "InterParenthesis": 667,
       "InterOperator": "And",
-      "UniqueHash": 555
+      "UniqueHash": 288
     }
   ],
-  "ProviderName": "Watsica, Hilpert and Weber",
-  "PageSize": 188,
-  "PageNumber": 589
+  "ProviderName": "Harber, Klocko and Zboncak",
+  "PageSize": 468,
+  "PageNumber": 190
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bradtke Group",
-      "DisplayTooltip": "natus",
-      "DisplayType": "occaecati",
+      "DisplayName": "Heathcote-Murazik",
+      "DisplayTooltip": "dicta",
+      "DisplayType": "reiciendis",
       "CanOrderBy": false,
-      "Name": "Nader-Koss",
-      "CanRestrictBy": false,
-      "RestrictionType": "at",
-      "RestrictionListName": "Oberbrunner-Little",
-      "IsVisible": true,
-      "ExtraInfo": "enim",
-      "Width": "a",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "corrupti"
+      "Name": "Ryan LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "quibusdam",
+      "RestrictionListName": "Spencer-Rau",
+      "IsVisible": false,
+      "ExtraInfo": "delectus",
+      "Width": "eum",
+      "IconHint": "velit",
+      "HeadingIconHint": "quasi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Nicolas, Jaskolski and VonRueden",
-      "PrimaryKey": 868,
+      "EntityName": "Kreiger Inc and Sons",
+      "PrimaryKey": 904,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "itaque",
-          "LinkHint": "et"
+          "DisplayValue": "doloribus",
+          "TooltipHint": "rerum",
+          "LinkHint": "quis"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "dolor",
+      "LinkHint": "dolor",
+      "StyleHint": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "RowCount": 15,
+  "RowCount": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 603
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Renner, Conn and Gibson",
-  "Tooltip": "illum",
-  "Deleted": true,
-  "UdListDefinitionId": 261,
-  "Rank": 921
+  "Id": 187,
+  "Name": "Durgan Group",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 612,
+  "Rank": 273
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Rempel LLC",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "UdListDefinitionId": 522,
-  "Rank": 410,
+  "Id": 618,
+  "Name": "Osinski, Gusikowski and Larkin",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "UdListDefinitionId": 86,
+  "Rank": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 802
     }
   }
 }

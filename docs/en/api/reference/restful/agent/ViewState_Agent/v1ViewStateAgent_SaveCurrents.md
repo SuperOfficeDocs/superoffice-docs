@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 825,
-      "Id": 196,
-      "HistoryName": "Schaden, Hirthe and Runolfsson",
-      "HistoryId": 473,
-      "AssociateId": 901,
-      "Name": "Renner Group",
-      "ItemInfo": "voluptatem"
+      "Rank": 886,
+      "Id": 621,
+      "HistoryName": "Mosciski Group",
+      "HistoryId": 839,
+      "AssociateId": 136,
+      "Name": "Smitham Group",
+      "ItemInfo": "impedit"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 576,
-    "Id": 405,
-    "HistoryName": "Gerhold, Blick and Hilll",
-    "HistoryId": 373,
-    "AssociateId": 780,
-    "Name": "Towne Group",
-    "ItemInfo": "dolores",
+    "Rank": 515,
+    "Id": 167,
+    "HistoryName": "Hudson, Abbott and Bernhard",
+    "HistoryId": 544,
+    "AssociateId": 191,
+    "Name": "McLaughlin-Cole",
+    "ItemInfo": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

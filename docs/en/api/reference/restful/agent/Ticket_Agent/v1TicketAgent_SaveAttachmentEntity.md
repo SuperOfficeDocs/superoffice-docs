@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 391,
-  "Name": "Mertz-Leannon",
-  "ContentType": "quasi",
-  "AttSize": 291,
-  "InlineImage": true,
-  "ContentId": "saepe",
-  "AuthKey": "mollitia",
-  "IsSafeFileExtension": false
+  "AttachmentId": 93,
+  "Name": "Nolan-Rau",
+  "ContentType": "delectus",
+  "AttSize": 209,
+  "InlineImage": false,
+  "ContentId": "consequatur",
+  "AuthKey": "itaque",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 47,
-  "Name": "Cummings-Jacobson",
-  "ContentType": "qui",
-  "AttSize": 72,
+  "AttachmentId": 520,
+  "Name": "Wisoky-Strosin",
+  "ContentType": "inventore",
+  "AttSize": 923,
   "InlineImage": true,
-  "ContentId": "dolore",
-  "AuthKey": "exercitationem",
-  "IsSafeFileExtension": false,
+  "ContentId": "qui",
+  "AuthKey": "voluptates",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 168,
-  "ListItemId": 776,
+  "UdListDefinitionId": 774,
+  "ListItemId": 384,
   "UserGroups": [
     {
-      "Id": 127,
-      "Name": "Daugherty, Powlowski and Hintz",
-      "ToolTip": "Ab consequatur ex minus dolores.",
+      "Id": 610,
+      "Name": "Williamson, Dooley and Moen",
+      "ToolTip": "Eum atque.",
       "Deleted": false,
-      "Rank": 76,
-      "Type": "tempore",
+      "Rank": 746,
+      "Type": "hic",
       "ColorBlock": 90,
-      "IconHint": "a",
+      "IconHint": "dolore",
       "Selected": false,
-      "LastChanged": "2020-08-16T17:54:03.2108272+02:00",
+      "LastChanged": "2009-02-24T03:45:23.5298295+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "possimus",
+      "ExtraInfo": "optio",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Kenyon Kautzer"
+      "FullName": "Reyes Aufderhar"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Macejkovic Group",
-    "ToolTip": "Voluptatem repudiandae iste velit.",
+    "Id": 689,
+    "Name": "Jast-Satterfield",
+    "ToolTip": "Et ea consequatur occaecati.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "ut",
-    "ColorBlock": 660,
-    "IconHint": "libero",
+    "Rank": 533,
+    "Type": "qui",
+    "ColorBlock": 40,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2018-04-15T17:54:03.2108272+02:00",
+    "LastChanged": "2002-06-01T03:45:23.5298295+02:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Spencer, Hickle and Nolan",
-        "ToolTip": "Qui quidem rerum et.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "assumenda",
-        "ColorBlock": 275,
-        "IconHint": "deleniti",
+        "Id": 207,
+        "Name": "Pfannerstill, Murphy and Kerluke",
+        "ToolTip": "Iste dolor et voluptatum necessitatibus corrupti.",
+        "Deleted": true,
+        "Rank": 4,
+        "Type": "iure",
+        "ColorBlock": 313,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "1999-12-14T17:54:03.2108272+01:00",
+        "LastChanged": "1999-01-26T03:45:23.5298295+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Dr. Lorenz Nigel Terry",
+        "ExtraInfo": "soluta",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Prof. Sophie Ben Kuhic Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 919
+            "FieldLength": 544
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "quia",
+    "ExtraInfo": "nobis",
+    "StyleHint": "necessitatibus",
     "Hidden": true,
-    "FullName": "Talon Larson",
+    "FullName": "Marlin Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 126
       }
     }
   }

@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 745,
-  "Name": "Zulauf, Brown and Osinski",
-  "Tooltip": "non",
-  "Rank": 572,
-  "DoctmplId": 635,
-  "Header": "placeat",
-  "OurRef": "nobis",
-  "Deleted": true,
+  "SuggestedDocumentId": 624,
+  "Name": "Emmerich, Abbott and Pouros",
+  "Tooltip": "voluptatum",
+  "Rank": 203,
+  "DoctmplId": 895,
+  "Header": "reiciendis",
+  "OurRef": "minus",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 296,
-  "Name": "Stiedemann, Bartoletti and Satterfield",
-  "Tooltip": "quo",
-  "Rank": 721,
-  "DoctmplId": 943,
-  "Header": "possimus",
-  "OurRef": "temporibus",
+  "SuggestedDocumentId": 836,
+  "Name": "Koepp LLC",
+  "Tooltip": "nisi",
+  "Rank": 409,
+  "DoctmplId": 289,
+  "Header": "eveniet",
+  "OurRef": "labore",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

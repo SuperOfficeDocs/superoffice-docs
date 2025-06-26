@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "rerum"
+  "Domain": "aut"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lockman, Raynor and Gerlach",
-    "SoPrimaryKey": 507,
-    "EntryName": "Altenwerth Group",
-    "EntryIdentifier": "nam",
-    "RuleDisplayName": "Howe-Schulist",
+    "RuleName": "Beahan Group",
+    "SoPrimaryKey": 147,
+    "EntryName": "Zieme, Wunsch and Fahey",
+    "EntryIdentifier": "veritatis",
+    "RuleDisplayName": "Purdy-Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 809
       }
     }
   }

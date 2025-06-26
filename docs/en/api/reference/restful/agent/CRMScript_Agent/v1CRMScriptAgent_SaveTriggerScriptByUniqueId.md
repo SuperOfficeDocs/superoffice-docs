@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aut",
+  "TriggerScriptUniqueId": "dolorem",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 243,
-  "Name": "O'Connell, West and Purdy",
+  "ScreenChooserId": 482,
+  "Name": "Renner Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ea",
+  "UniqueIdentifier": "similique",
   "Source": "vero",
-  "Registered": "2018-04-29T17:54:02.9139671+02:00",
-  "RegisteredAssociateId": 286,
-  "Updated": "2006-06-14T17:54:02.9139671+02:00",
-  "UpdatedAssociateId": 683,
+  "Registered": "2009-09-11T03:45:23.2485827+02:00",
+  "RegisteredAssociateId": 224,
+  "Updated": "2025-02-26T03:45:23.2485827+01:00",
+  "UpdatedAssociateId": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

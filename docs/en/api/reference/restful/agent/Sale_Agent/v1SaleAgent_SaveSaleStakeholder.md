@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Pacocha LLC",
-  "Comment": "similique",
-  "StakeholderRoleId": 738,
-  "CountryId": 122,
-  "PersonId": 538,
-  "EmailDescription": "cassie.gorczany@hammes.info",
-  "EmailId": 267,
-  "EmailAddress": "cornell.ullrich@schaden.info",
-  "PhoneId": 284,
-  "ContactName": "Christiansen-Spinka",
-  "ContactId": 347,
-  "SaleId": 997,
-  "Mrmrs": "sed",
-  "Firstname": "Jarrett",
-  "MiddleName": "Bradtke Group",
-  "Lastname": "Jast",
-  "SaleStakeholderId": 721,
-  "Rank": 407,
-  "Phone": "418.805.8669"
+  "StakeholderRoleName": "Ferry, Treutel and Russel",
+  "Comment": "ad",
+  "StakeholderRoleId": 700,
+  "CountryId": 80,
+  "PersonId": 26,
+  "EmailDescription": "lucious@haag.com",
+  "EmailId": 104,
+  "EmailAddress": "gisselle_schaden@rolfson.biz",
+  "PhoneId": 701,
+  "ContactName": "Bruen, Casper and Bosco",
+  "ContactId": 540,
+  "SaleId": 710,
+  "Mrmrs": "ratione",
+  "Firstname": "Randy",
+  "MiddleName": "Gottlieb, Corkery and Lynch",
+  "Lastname": "Krajcik",
+  "SaleStakeholderId": 133,
+  "Rank": 242,
+  "Phone": "(142)747-4519 x33863"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Botsford-Miller",
-  "Comment": "cum",
-  "StakeholderRoleId": 551,
-  "CountryId": 916,
-  "PersonId": 929,
-  "EmailDescription": "arlene.quitzon@gottlieb.com",
-  "EmailId": 640,
-  "EmailAddress": "dawn.ondricka@emard.ca",
-  "PhoneId": 88,
-  "ContactName": "Koepp Inc and Sons",
-  "ContactId": 750,
-  "SaleId": 492,
-  "Mrmrs": "iste",
-  "Firstname": "Aiyana",
-  "MiddleName": "McGlynn-Quitzon",
-  "Lastname": "Kemmer",
-  "SaleStakeholderId": 973,
-  "Rank": 971,
-  "Phone": "(198)219-4964 x723",
+  "StakeholderRoleName": "Abbott, Lindgren and Paucek",
+  "Comment": "corporis",
+  "StakeholderRoleId": 581,
+  "CountryId": 259,
+  "PersonId": 675,
+  "EmailDescription": "mack.rogahn@spencer.biz",
+  "EmailId": 909,
+  "EmailAddress": "roselyn_harvey@sawayn.biz",
+  "PhoneId": 706,
+  "ContactName": "Will-Lueilwitz",
+  "ContactId": 180,
+  "SaleId": 864,
+  "Mrmrs": "ut",
+  "Firstname": "Alexandra",
+  "MiddleName": "Lemke-Kris",
+  "Lastname": "Von",
+  "SaleStakeholderId": 901,
+  "Rank": 308,
+  "Phone": "1-289-722-9498 x48728",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

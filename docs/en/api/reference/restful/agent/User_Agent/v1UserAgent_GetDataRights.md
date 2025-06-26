@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 309,
-  "TableName": "Russel Group"
+  "RoleId": 540,
+  "TableName": "Grimes, Balistreri and Williamson"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "non",
-  "2": "eum"
+  "1": "omnis",
+  "2": "molestiae"
 }
 ```

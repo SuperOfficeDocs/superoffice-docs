@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 774,
-  "MinDate": "2006-06-21T17:54:03.0389604+02:00",
-  "MaxDate": "2010-04-10T17:54:03.0389604+02:00",
+  "DocumentPluginId": 716,
+  "MinDate": "2005-10-13T03:45:23.373582+02:00",
+  "MaxDate": "2011-05-11T03:45:23.373582+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 31,
-  "NumDocumentsAlreadyMigrated": 319,
+  "NumDocumentsOmitted": 361,
+  "NumDocumentsAlreadyMigrated": 955,
   "Documents": [
     {
-      "DocumentId": 72,
-      "ContactId": 490,
-      "PersonId": 999,
-      "SaleId": 189,
-      "ProjectId": 925,
-      "DocTmplId": 184,
-      "AssociateId": 23,
-      "UserGroupId": 253,
-      "VisibleForId": 705
+      "DocumentId": 650,
+      "ContactId": 228,
+      "PersonId": 848,
+      "SaleId": 620,
+      "ProjectId": 405,
+      "DocTmplId": 423,
+      "AssociateId": 816,
+      "UserGroupId": 796,
+      "VisibleForId": 935
     }
   ],
   "Associates": [
     {
-      "AssociateId": 89,
-      "EmailAddress": "eldred@pagac.uk"
+      "AssociateId": 724,
+      "EmailAddress": "jedediah.bogisich@hagenes.biz"
     },
     {
-      "AssociateId": 89,
-      "EmailAddress": "eldred@pagac.uk"
+      "AssociateId": 724,
+      "EmailAddress": "jedediah.bogisich@hagenes.biz"
     }
   ]
 }

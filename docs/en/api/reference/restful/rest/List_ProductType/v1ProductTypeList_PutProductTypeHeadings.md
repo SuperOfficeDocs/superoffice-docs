@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 779,
-    "Name": "Hessel, Wilderman and McCullough",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 183,
-    "UdListDefinitionId": 398
+    "HeadingId": 951,
+    "Name": "Casper-Streich",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 785,
+    "UdListDefinitionId": 20
   },
   {
-    "HeadingId": 779,
-    "Name": "Hessel, Wilderman and McCullough",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 183,
-    "UdListDefinitionId": 398
+    "HeadingId": 951,
+    "Name": "Casper-Streich",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 785,
+    "UdListDefinitionId": 20
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 745,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 763,
-    "UdListDefinitionId": 189,
+    "HeadingId": 1001,
+    "Name": "Oberbrunner-Romaguera",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "Rank": 716,
+    "UdListDefinitionId": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldLength": 956
       }
     }
   }

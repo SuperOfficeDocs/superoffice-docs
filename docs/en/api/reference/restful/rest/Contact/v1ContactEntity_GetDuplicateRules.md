@@ -58,7 +58,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner-Heidenreich",
-    "DisplayName": "Berge Inc and Sons",
-    "DisplayTooltip": "aliquam",
-    "IsActive": false,
+    "Name": "Miller Group",
+    "DisplayName": "Cormier Inc and Sons",
+    "DisplayTooltip": "atque",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 675
       }
     }
   },
   {
-    "Name": "Oberbrunner-Heidenreich",
-    "DisplayName": "Berge Inc and Sons",
-    "DisplayTooltip": "aliquam",
-    "IsActive": false,
+    "Name": "Miller Group",
+    "DisplayName": "Cormier Inc and Sons",
+    "DisplayTooltip": "atque",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 675
       }
     }
   }

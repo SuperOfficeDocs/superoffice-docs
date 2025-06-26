@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 723,
+  "EjMessageId": 577,
   "Ticket": null,
-  "CreatedAt": "2019-02-17T17:54:03.7420683+01:00",
+  "CreatedAt": "2001-11-28T03:45:24.0298098+01:00",
   "CreatedBy": null,
-  "Author": "vel",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "fugiat",
-  "TimeSpent": 495,
-  "Body": "id",
-  "HtmlBody": "tempore",
-  "EmailHeader": "euna.wisoky@macejkovic.co.uk",
-  "DebugInfo": "aliquid",
-  "MailSorter": "modi",
+  "MessageId": "officia",
+  "TimeSpent": 132,
+  "Body": "ducimus",
+  "HtmlBody": "delectus",
+  "EmailHeader": "mariane.kuvalis@goldner.com",
+  "DebugInfo": "aspernatur",
+  "MailSorter": "ad",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "expedita",
   "MessageHeaders": [
     {
-      "Id": 136,
-      "Name": "Hermann, Nader and Murphy",
-      "Value": "atque",
+      "Id": 915,
+      "Name": "Graham-Kovacek",
+      "Value": "hic",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 270
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sunt",
-  "Sentiment": 606,
-  "SentimentConfidence": 532,
+  "Language": "magni",
+  "Sentiment": 160,
+  "SentimentConfidence": 437,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 221,
-      "Name": "Ziemann, Hirthe and Pfeffer",
-      "ContentType": "quia",
-      "AttSize": 187,
-      "InlineImage": true,
-      "ContentId": "aspernatur",
-      "AuthKey": "sapiente",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 422,
+      "Name": "Bogan, Wiza and Langosh",
+      "ContentType": "earum",
+      "AttSize": 255,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "nisi",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 269
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "et"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "velit"
+    "CustomFields1": "ut",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 611
     }
   }
 }

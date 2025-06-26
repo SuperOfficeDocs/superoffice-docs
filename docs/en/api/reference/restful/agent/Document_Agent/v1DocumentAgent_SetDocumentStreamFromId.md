@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 673,
+  "DocumentId": 29,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 91,
+  "DocumentId": 521,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatum",
-  "Header": "recusandae",
-  "Name": "Kilback-Leffler",
-  "OurRef": "voluptatem",
-  "YourRef": "quas",
-  "CreatedDate": "2004-02-29T17:54:03.0389604+01:00",
-  "UpdatedDate": "2008-03-25T17:54:03.0389604+01:00",
-  "Description": "Persevering bottom-line architecture",
+  "Attention": "perferendis",
+  "Header": "voluptates",
+  "Name": "Howe, Lindgren and Thompson",
+  "OurRef": "nihil",
+  "YourRef": "recusandae",
+  "CreatedDate": "2000-10-12T03:45:23.3579573+02:00",
+  "UpdatedDate": "2014-02-03T03:45:23.3579573+01:00",
+  "Description": "Automated object-oriented challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-12-06T17:54:03.0389604+01:00",
-  "ExternalRef": "quia",
+  "Date": "2002-01-06T03:45:23.3579573+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 48,
+  "ActiveLinks": 377,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cummerata LLC",
-      "Id": 92,
-      "Description": "Adaptive solution-oriented methodology",
-      "ExtraInfo": "et",
-      "LinkId": 307,
+      "EntityName": "Hackett-Johnston",
+      "Id": 400,
+      "Description": "Integrated zero tolerance approach",
+      "ExtraInfo": "consequatur",
+      "LinkId": 957,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 79
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 33,
-  "Snum": 265,
+  "SuggestedDocumentId": 703,
+  "Snum": 965,
   "UserDefinedFields": {
-    "SuperOffice:1": "2101218087",
-    "SuperOffice:2": "Arnaldo Stracke PhD"
+    "SuperOffice:1": "Mrs. Isai Trantow",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "veniam"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2008-11-30T17:54:03.0389604+01:00",
-  "PublishTo": "1998-04-04T17:54:03.0389604+02:00",
-  "PublishFrom": "2007-12-30T17:54:03.0389604+01:00",
+  "PublishEventDate": "2007-05-24T03:45:23.3579573+02:00",
+  "PublishTo": "2000-12-08T03:45:23.3579573+01:00",
+  "PublishFrom": "2017-11-07T03:45:23.3579573+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 936,
+      "VisibleId": 268,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 843
         }
       }
     },
     {
-      "VisibleId": 936,
+      "VisibleId": 268,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 843
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 291
     }
   }
 }

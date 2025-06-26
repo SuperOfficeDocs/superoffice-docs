@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Dare Group",
-    "ToolTip": "Possimus in eum debitis aut temporibus.",
+    "Id": 446,
+    "Name": "Cruickshank, Gorczany and Ondricka",
+    "ToolTip": "Et non.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "consequatur",
-    "ColorBlock": 763,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2025-02-19T17:54:09.1168029+01:00",
+    "Rank": 580,
+    "Type": "quas",
+    "ColorBlock": 907,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2019-02-25T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Greenholt LLC",
-        "ToolTip": "Cumque laborum.",
+        "Id": 330,
+        "Name": "Jakubowski-Vandervort",
+        "ToolTip": "Qui aut.",
         "Deleted": false,
-        "Rank": 178,
-        "Type": "nihil",
-        "ColorBlock": 94,
-        "IconHint": "praesentium",
-        "Selected": false,
-        "LastChanged": "2024-04-27T17:54:09.1168029+02:00",
+        "Rank": 284,
+        "Type": "quo",
+        "ColorBlock": 765,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2025-04-02T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Tito Runolfsdottir"
+        "ExtraInfo": "ad",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Burnice Armstrong"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Vaughn Zieme"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Prof. Lauretta Wisoky PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Walter-Upton",
-    "ToolTip": "Expedita voluptatum recusandae molestiae laboriosam at.",
+    "Id": 703,
+    "Name": "Swaniawski Inc and Sons",
+    "ToolTip": "Doloremque corrupti ratione est sint unde.",
     "Deleted": true,
-    "Rank": 918,
-    "Type": "distinctio",
-    "ColorBlock": 625,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "2013-09-12T17:54:09.1324271+02:00",
+    "Rank": 814,
+    "Type": "numquam",
+    "ColorBlock": 626,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "1998-02-08T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Yost Inc and Sons",
-        "ToolTip": "Veritatis nemo necessitatibus.",
-        "Deleted": false,
-        "Rank": 497,
-        "Type": "voluptate",
-        "ColorBlock": 444,
-        "IconHint": "deleniti",
+        "Id": 142,
+        "Name": "Pagac Inc and Sons",
+        "ToolTip": "Odio quis reprehenderit.",
+        "Deleted": true,
+        "Rank": 100,
+        "Type": "est",
+        "ColorBlock": 439,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "1998-09-11T17:54:09.1324271+02:00",
+        "LastChanged": "2020-08-23T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Rafael Buckridge",
+        "FullName": "Prof. Sheridan Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Kaya Eichmann",
+    "ExtraInfo": "nisi",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Prof. Jakayla Enrique Dicki II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 390
       }
     }
   }

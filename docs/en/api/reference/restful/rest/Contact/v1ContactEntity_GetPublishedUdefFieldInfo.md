@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 784,
-  "ColumnId": 491,
-  "FieldDefault": "beatae",
-  "FieldHeight": 827,
-  "FieldLabel": "commodi",
-  "FieldLeft": 754,
-  "FieldTop": 55,
+  "UDefFieldId": 829,
+  "ColumnId": 311,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 638,
+  "FieldLabel": "similique",
+  "FieldLeft": 142,
+  "FieldTop": 700,
   "FieldType": "Checkbox",
-  "FieldWidth": 863,
-  "FormatMask": "excepturi",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 240,
-  "LabelLeft": 436,
-  "LabelTop": 808,
-  "LabelWidth": 229,
-  "LastVersionId": 772,
-  "ListTableId": 545,
-  "IsMandatory": false,
+  "FieldWidth": 265,
+  "FormatMask": "possimus",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 269,
+  "LabelLeft": 35,
+  "LabelTop": 504,
+  "LabelWidth": 491,
+  "LastVersionId": 361,
+  "ListTableId": 480,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 802,
-  "ProgId": "voluptas",
-  "IsReadOnly": false,
-  "ShortLabel": "vel",
-  "TabOrder": 235,
-  "TextLength": 585,
-  "Tooltip": "facilis",
-  "UdefIdentity": 283,
-  "UDListDefinitionId": 152,
+  "Page1LineNo": 864,
+  "ProgId": "corporis",
+  "IsReadOnly": true,
+  "ShortLabel": "temporibus",
+  "TabOrder": 620,
+  "TextLength": 697,
+  "Tooltip": "illum",
+  "UdefIdentity": 731,
+  "UDListDefinitionId": 342,
   "Justification": "Center",
-  "Version": 125,
-  "TemplateVariableName": "Monahan, Auer and Heidenreich",
+  "Version": 941,
+  "TemplateVariableName": "Bergstrom-Leuschke",
   "HasBeenPublished": false,
-  "MdoListName": "Williamson, Haley and Pollich",
+  "MdoListName": "Hamill LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldLength": 660
     }
   }
 }

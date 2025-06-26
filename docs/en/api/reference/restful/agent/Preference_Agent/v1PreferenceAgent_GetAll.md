@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 177,
+    "PrefDescId": 729,
     "Section": "sequi",
-    "Key": "sit",
-    "Name": "Thiel, Brakus and Blanda",
+    "Key": "esse",
+    "Name": "Howell LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persistent uniform challenge",
-    "IsBuiltin": true,
-    "TableName": "Thiel Group",
-    "UserDefinedListId": 360,
-    "Rank": 684,
-    "SubGroup": "quam",
-    "MinLevel": 443,
-    "MaxValue": 527,
-    "MinValue": 691,
-    "RequiredLicense": "dolor",
+    "Description": "Business-focused logistical support",
+    "IsBuiltin": false,
+    "TableName": "Pollich, Schuppe and Douglas",
+    "UserDefinedListId": 573,
+    "Rank": 411,
+    "SubGroup": "iste",
+    "MinLevel": 715,
+    "MaxValue": 470,
+    "MinValue": 539,
+    "RequiredLicense": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 964
       }
     }
   }

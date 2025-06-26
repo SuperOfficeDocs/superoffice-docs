@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 27,
-  "SourcePersonId": 189,
-  "DestinationContactId": 962,
-  "DestinationPersonId": 753,
-  "RelationId": 279,
-  "Comment": "quam",
-  "RelationDefinitionId": 178,
-  "Reversed": 842,
-  "UpdatedDate": "2015-10-17T17:54:03.5389365+02:00",
-  "CreatedDate": "2010-12-30T17:54:03.5389365+01:00",
+  "SourceContactId": 80,
+  "SourcePersonId": 639,
+  "DestinationContactId": 956,
+  "DestinationPersonId": 804,
+  "RelationId": 180,
+  "Comment": "expedita",
+  "RelationDefinitionId": 374,
+  "Reversed": 665,
+  "UpdatedDate": "2017-04-26T03:45:23.8423206+02:00",
+  "CreatedDate": "2007-05-22T03:45:23.8423206+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leuschke, Renner and Hudson",
-  "SourcePersonName": "Towne, VonRueden and Wilderman",
-  "DestinationContactName": "Dare-Beatty",
-  "DestinationPersonName": "Swaniawski, Schneider and Stamm",
-  "ActiveText": "laboriosam",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Effertz, Jenkins and Kuhlman",
+  "SourcePersonName": "Prohaska-Kulas",
+  "DestinationContactName": "Jenkins, Franecki and Fahey",
+  "DestinationPersonName": "Thompson-Nikolaus",
+  "ActiveText": "sed",
+  "PassiveText": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 470
     }
   }
 }

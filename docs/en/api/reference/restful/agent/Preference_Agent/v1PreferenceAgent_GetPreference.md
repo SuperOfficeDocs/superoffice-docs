@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880
+  "Id": 651
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "magni",
+  "RawValue": "asperiores",
   "Specification": null,
-  "DisplayValue": "voluptate",
-  "DisplayTooltip": "quaerat",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "nostrum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 592,
-  "PrefDescId": 694,
-  "TableName": "Haley-Emmerich",
-  "UserPreferenceId": 446,
+  "TargetId": 658,
+  "PrefDescId": 558,
+  "TableName": "Sipes-Homenick",
+  "UserPreferenceId": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 195
     }
   }
 }

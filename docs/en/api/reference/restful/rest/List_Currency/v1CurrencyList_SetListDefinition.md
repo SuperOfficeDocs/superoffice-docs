@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "Dare Inc and Sons",
-  "Tooltip": "reiciendis",
+  "Id": 157,
+  "Name": "Rosenbaum, Kihn and Breitenberg",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 776,
+  "Rank": 590,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Satterfield, Beahan and Block",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "Rank": 310,
-  "IsCustomList": true,
+  "Id": 900,
+  "Name": "Yundt-Wolf",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 275,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=283
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=531
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 310,
-  "WorkflowId": 846,
+  "WorkflowGoalId": 752,
+  "WorkflowId": 20,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Legros Group",
-      "Description": "Customizable zero administration application",
-      "Rank": 585,
+      "Name": "Medhurst, Weber and Effertz",
+      "Description": "Object-based multi-state matrices",
+      "Rank": 977,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Legros Group",
-      "Description": "Customizable zero administration application",
-      "Rank": 585,
+      "Name": "Medhurst, Weber and Effertz",
+      "Description": "Object-based multi-state matrices",
+      "Rank": 977,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 254
     }
   }
 }

@@ -9,6 +9,7 @@ items:
   - SuperOffice.Data.WorkflowStepType.CreateFollowUp
   - SuperOffice.Data.WorkflowStepType.CreateRequest
   - SuperOffice.Data.WorkflowStepType.CreateSale
+  - SuperOffice.Data.WorkflowStepType.DistributeToOwner
   - SuperOffice.Data.WorkflowStepType.None
   - SuperOffice.Data.WorkflowStepType.NotifyByEmail
   - SuperOffice.Data.WorkflowStepType.NotifyBySMS
@@ -37,11 +38,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
 
       public enum WorkflowStepType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
 
       Public Enum WorkflowStepType As Short
   extensionMethods:
@@ -57,7 +58,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
 - uid: SuperOffice.Data.WorkflowStepType.None
   commentId: F:SuperOffice.Data.WorkflowStepType.None
   id: None
@@ -519,6 +520,37 @@ items:
       <EnumMember>
 
       RunScript = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.WorkflowStepType.DistributeToOwner
+  commentId: F:SuperOffice.Data.WorkflowStepType.DistributeToOwner
+  id: DistributeToOwner
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: DistributeToOwner
+  nameWithType: WorkflowStepType.DistributeToOwner
+  fullName: SuperOffice.Data.WorkflowStepType.DistributeToOwner
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '15: DistributeToOwner'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DistributeToOwner = 15
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: >-
+      <EnumMember>
+
+      DistributeToOwner = 15
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

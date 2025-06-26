@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 173,
-  "ERPQuoteAlternativeKey": "delectus",
-  "QuoteVersionId": 666,
-  "Name": "Schuppe, Goyette and Green",
-  "Description": "Persistent object-oriented definition",
+  "QuoteAlternativeId": 133,
+  "ERPQuoteAlternativeKey": "omnis",
+  "QuoteVersionId": 81,
+  "Name": "Gleason, Wiegand and Goldner",
+  "Description": "Ameliorated heuristic knowledge base",
   "Status": "Error",
-  "Reason": "reintermediate cross-platform communities",
-  "ERPDiscountPercent": 25297.647999999997,
-  "ERPDiscountAmount": 4199.5599999999995,
-  "DiscountPercent": 24583.095999999998,
-  "DiscountAmount": 18995.174,
+  "Reason": "cultivate integrated ROI",
+  "ERPDiscountPercent": 2460.19,
+  "ERPDiscountAmount": 23432.917999999998,
+  "DiscountPercent": 28472.39,
+  "DiscountAmount": 4901.576,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dignissimos",
-  "VAT": 21916.061999999998,
-  "EarningPercent": 5700.746,
-  "EarningAmount": 4149.416,
-  "SubTotal": 13071.913999999999,
-  "TotalPrice": 17155.516,
-  "ExtraField1": "aut",
-  "ExtraField2": "hic",
-  "ExtraField3": "est",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "veritatis",
+  "VATInfo": "itaque",
+  "VAT": 28948.757999999998,
+  "EarningPercent": 8916.23,
+  "EarningAmount": 10511.436,
+  "SubTotal": 12006.354,
+  "TotalPrice": 11072.422,
+  "ExtraField1": "id",
+  "ExtraField2": "pariatur",
+  "ExtraField3": "omnis",
+  "ExtraField4": "earum",
+  "ExtraField5": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 308
     }
   }
 }

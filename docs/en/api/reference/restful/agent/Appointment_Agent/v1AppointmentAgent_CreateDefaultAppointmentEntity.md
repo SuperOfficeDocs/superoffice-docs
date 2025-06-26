@@ -116,7 +116,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,121 +130,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-06-03T17:54:02.4139909+02:00",
-  "AppointmentId": 682,
-  "Description": "Configurable transitional Graphical User Interface",
-  "Title": "qui",
-  "Agenda": "non",
-  "InternalNotes": "eum",
-  "StartDate": "2008-03-19T17:54:02.4139909+01:00",
-  "EndDate": "2019-09-05T17:54:02.4139909+02:00",
+  "CreatedDate": "1999-09-26T03:45:22.7329771+02:00",
+  "AppointmentId": 261,
+  "Description": "Right-sized bottom-line internet solution",
+  "Title": "rerum",
+  "Agenda": "impedit",
+  "InternalNotes": "vel",
+  "StartDate": "2010-01-23T03:45:22.7329771+01:00",
+  "EndDate": "2001-01-19T03:45:22.7329771+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 273,
+  "MotherId": 781,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-08-16T17:54:02.4139909+02:00",
+  "UpdatedDate": "1999-08-07T03:45:22.7329771+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 717,
+  "ActiveLinks": 743,
   "Links": [
     {
-      "EntityName": "Okuneva Group",
-      "Id": 364,
-      "Description": "Integrated motivating firmware",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 534,
+      "EntityName": "Terry, Wisozk and Wisoky",
+      "Id": 706,
+      "Description": "Configurable multi-tasking throughput",
+      "ExtraInfo": "deleniti",
+      "LinkId": 798,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 629
         }
       }
     }
   ],
-  "AlarmLeadTime": "consectetur",
-  "HasAlarm": false,
-  "ColorIndex": 266,
-  "IsFree": true,
+  "AlarmLeadTime": "id",
+  "HasAlarm": true,
+  "ColorIndex": 871,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "atque",
-  "LeadTime": "voluptatem",
-  "Location": "quia",
-  "RejectCounter": 854,
+  "LagTime": "quo",
+  "LeadTime": "qui",
+  "Location": "nam",
+  "RejectCounter": 64,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 586,
-      "PersonId": 959,
-      "ContactId": 403,
-      "EmailId": 107,
-      "SendEmail": false,
+      "AssociateId": 166,
+      "PersonId": 293,
+      "ContactId": 159,
+      "EmailId": 602,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jensen@johnston.co.uk",
-      "Description": "Open-architected cohesive parallelism"
+      "EmailAddress": "winston@quitzongoodwin.biz",
+      "Description": "Cross-platform maximized circuit"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-09-24T17:54:02.4139909+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2018-03-30T03:45:22.7329771+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 217,
+  "PreferredTZLocation": 599,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 60,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 227,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "suscipit",
+  "CentralserviceVideomeetId": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "Filomena Konopelski",
-    "SuperOffice:2": "788072451"
+    "SuperOffice:1": "1734157741",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "saepe",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2010-04-06T17:54:02.4139909+02:00",
-  "PublishTo": "2011-11-11T17:54:02.4139909+01:00",
-  "PublishFrom": "2016-01-11T17:54:02.4139909+01:00",
+  "PublishEventDate": "2004-02-04T03:45:22.7329771+01:00",
+  "PublishTo": "2009-05-23T03:45:22.7329771+02:00",
+  "PublishFrom": "2007-07-15T03:45:22.7329771+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 136,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     },
     {
-      "VisibleId": 136,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 916
     }
   }
 }

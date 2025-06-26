@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.RagSchedule
+  commentId: T:SuperOffice.Data.RagSchedule
+  id: RagSchedule
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.RagSchedule.Daily
+  - SuperOffice.Data.RagSchedule.Monthly
+  - SuperOffice.Data.RagSchedule.Once
+  - SuperOffice.Data.RagSchedule.Quarterly
+  - SuperOffice.Data.RagSchedule.Unknown
+  - SuperOffice.Data.RagSchedule.Weekly
+  - SuperOffice.Data.RagSchedule.Yearly
+  langs:
+  - csharp
+  - vb
+  name: RagSchedule
+  nameWithType: RagSchedule
+  fullName: SuperOffice.Data.RagSchedule
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: AI RAG indexing schedule
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+
+      public enum RagSchedule
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+
+      Public Enum RagSchedule
+  extensionMethods:
+  - SuperOffice.Data.RagSchedule.EnumUtil.MapEnums``2
+  - SuperOffice.Data.RagSchedule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.RagSchedule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RagSchedule)
+  - SuperOffice.Data.RagSchedule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+- uid: SuperOffice.Data.RagSchedule.Unknown
+  commentId: F:SuperOffice.Data.RagSchedule.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: RagSchedule.Unknown
+  fullName: SuperOffice.Data.RagSchedule.Unknown
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: Unknown interval'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Once
+  commentId: F:SuperOffice.Data.RagSchedule.Once
+  id: Once
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Once
+  nameWithType: RagSchedule.Once
+  fullName: SuperOffice.Data.RagSchedule.Once
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: Once - index once only.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Once = 1
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Once = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Daily
+  commentId: F:SuperOffice.Data.RagSchedule.Daily
+  id: Daily
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Daily
+  nameWithType: RagSchedule.Daily
+  fullName: SuperOffice.Data.RagSchedule.Daily
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: Daily - every day'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Daily = 2
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Daily = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Weekly
+  commentId: F:SuperOffice.Data.RagSchedule.Weekly
+  id: Weekly
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Weekly
+  nameWithType: RagSchedule.Weekly
+  fullName: SuperOffice.Data.RagSchedule.Weekly
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '3: Weekly - every week'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Weekly = 3
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Weekly = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Monthly
+  commentId: F:SuperOffice.Data.RagSchedule.Monthly
+  id: Monthly
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Monthly
+  nameWithType: RagSchedule.Monthly
+  fullName: SuperOffice.Data.RagSchedule.Monthly
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '4: Monthly - every month'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Monthly = 4
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Monthly = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Quarterly
+  commentId: F:SuperOffice.Data.RagSchedule.Quarterly
+  id: Quarterly
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Quarterly
+  nameWithType: RagSchedule.Quarterly
+  fullName: SuperOffice.Data.RagSchedule.Quarterly
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '5: Quarterly - every 3 months'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Quarterly = 5
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Quarterly = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagSchedule.Yearly
+  commentId: F:SuperOffice.Data.RagSchedule.Yearly
+  id: Yearly
+  parent: SuperOffice.Data.RagSchedule
+  langs:
+  - csharp
+  - vb
+  name: Yearly
+  nameWithType: RagSchedule.Yearly
+  fullName: SuperOffice.Data.RagSchedule.Yearly
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '6: Yearly - every year'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Yearly = 6
+    return:
+      type: SuperOffice.Data.RagSchedule
+    content.vb: >-
+      <EnumMember>
+
+      Yearly = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.RagSchedule.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RagSchedule, To>(RagSchedule)
+  nameWithType: EnumUtil.MapEnums<RagSchedule, To>(RagSchedule)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.RagSchedule, To>(SuperOffice.Data.RagSchedule)
+  nameWithType.vb: EnumUtil.MapEnums(Of RagSchedule, To)(RagSchedule)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RagSchedule, To)(SuperOffice.Data.RagSchedule)
+  name.vb: MapEnums(Of RagSchedule, To)(RagSchedule)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RagSchedule)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RagSchedule)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+- uid: SuperOffice.Data.RagSchedule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RagSchedule, To>(RagSchedule)
+  nameWithType: Converters.MapEnums<RagSchedule, To>(RagSchedule)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RagSchedule, To>(SuperOffice.Data.RagSchedule)
+  nameWithType.vb: Converters.MapEnums(Of RagSchedule, To)(RagSchedule)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RagSchedule, To)(SuperOffice.Data.RagSchedule)
+  name.vb: MapEnums(Of RagSchedule, To)(RagSchedule)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RagSchedule)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RagSchedule)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+- uid: SuperOffice.Data.RagSchedule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RagSchedule)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<RagSchedule>(RagSchedule, RagSchedule)
+  nameWithType: ObjectExtensions.AssignByReflection<RagSchedule>(RagSchedule, RagSchedule)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RagSchedule>(SuperOffice.Data.RagSchedule, SuperOffice.Data.RagSchedule)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RagSchedule)(RagSchedule, RagSchedule)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RagSchedule)(SuperOffice.Data.RagSchedule, SuperOffice.Data.RagSchedule)
+  name.vb: AssignByReflection(Of RagSchedule)(RagSchedule, RagSchedule)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RagSchedule,SuperOffice.Data.RagSchedule)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RagSchedule,SuperOffice.Data.RagSchedule)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+- uid: SuperOffice.Data.RagSchedule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<RagSchedule>(RagSchedule)
+  nameWithType: ObjectExtensions.GraphCopy<RagSchedule>(RagSchedule)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RagSchedule>(SuperOffice.Data.RagSchedule)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RagSchedule)(RagSchedule)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RagSchedule)(SuperOffice.Data.RagSchedule)
+  name.vb: GraphCopy(Of RagSchedule)(RagSchedule)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.RagSchedule)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.RagSchedule)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.RagSchedule
+    name: RagSchedule
+    isExternal: true
+    href: SuperOffice.Data.RagSchedule.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.RagSchedule
+  commentId: T:SuperOffice.Data.RagSchedule
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagSchedule.html
+  name: RagSchedule
+  nameWithType: RagSchedule
+  fullName: SuperOffice.Data.RagSchedule

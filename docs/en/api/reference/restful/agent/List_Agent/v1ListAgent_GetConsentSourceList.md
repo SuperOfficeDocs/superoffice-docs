@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 65,
-    "Name": "Gutmann-Hessel",
-    "Tooltip": "dolorum",
-    "Rank": 678,
-    "Key": "est",
-    "MailTemplateId": 761,
-    "Deleted": false,
+    "ConsentSourceId": 5,
+    "Name": "Streich Inc and Sons",
+    "Tooltip": "qui",
+    "Rank": 419,
+    "Key": "ut",
+    "MailTemplateId": 11,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=quis
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=fuga
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Price Group",
-    "ToolTip": "Iste esse illum.",
+    "Id": 10,
+    "Name": "Collins, Carter and Langosh",
+    "ToolTip": "Eos aut.",
     "Deleted": true,
-    "Rank": 420,
-    "Type": "exercitationem",
+    "Rank": 498,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Wiegand, Tromp and Bayer",
-        "ToolTip": "Aperiam animi fuga sed saepe ipsam.",
+        "Id": 952,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "Delectus non laborum.",
         "Deleted": true,
-        "Rank": 21,
-        "Type": "quae",
+        "Rank": 88,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perspiciatis",
-        "ColorBlock": 947,
-        "ExtraInfo": "delectus",
-        "StyleHint": "aut",
-        "FullName": "Roger VonRueden V",
+        "IconHint": "dicta",
+        "ColorBlock": 930,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "est",
+        "FullName": "Alicia Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 635
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 934,
-    "ExtraInfo": "in",
-    "StyleHint": "porro",
-    "FullName": "Riley Kemmer",
+    "IconHint": "corrupti",
+    "ColorBlock": 708,
+    "ExtraInfo": "tempore",
+    "StyleHint": "et",
+    "FullName": "Dion Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 266
       }
     }
   }

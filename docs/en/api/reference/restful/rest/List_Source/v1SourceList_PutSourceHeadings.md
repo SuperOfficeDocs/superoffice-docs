@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 312,
-    "Name": "Schuster Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 341,
-    "UdListDefinitionId": 620
+    "HeadingId": 17,
+    "Name": "Haag, Hoeger and Purdy",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 464,
+    "UdListDefinitionId": 859
   },
   {
-    "HeadingId": 312,
-    "Name": "Schuster Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 341,
-    "UdListDefinitionId": 620
+    "HeadingId": 17,
+    "Name": "Haag, Hoeger and Purdy",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 464,
+    "UdListDefinitionId": 859
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 625,
-    "Name": "Schultz-Corkery",
-    "Tooltip": "facere",
+    "HeadingId": 53,
+    "Name": "Bednar-Koepp",
+    "Tooltip": "suscipit",
     "Deleted": true,
-    "Rank": 174,
-    "UdListDefinitionId": 101,
+    "Rank": 768,
+    "UdListDefinitionId": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 903
       }
     }
   }

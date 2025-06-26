@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 54,
-  "ERPQuoteLineKey": "quis",
-  "QuoteAlternativeId": 346,
-  "ERPProductKey": "libero",
+  "QuoteLineId": 726,
+  "ERPQuoteLineKey": "vel",
+  "QuoteAlternativeId": 49,
+  "ERPProductKey": "necessitatibus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12934.018,
-  "DeliveredQuantity": 16136.966,
-  "Rank": 10,
-  "Name": "Tromp Group",
-  "Description": "Persevering dynamic system engine",
-  "Code": "aut",
-  "QuantityUnit": "magnam",
-  "PriceUnit": "animi",
-  "ItemNumber": "1533128",
+  "Quantity": 15861.173999999999,
+  "DeliveredQuantity": 20671.863999999998,
+  "Rank": 320,
+  "Name": "Gislason LLC",
+  "Description": "Pre-emptive stable pricing structure",
+  "Code": "adipisci",
+  "QuantityUnit": "ab",
+  "PriceUnit": "voluptatem",
+  "ItemNumber": "1613378",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sequi",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "doloremque",
-  "SupplierCode": "nisi",
-  "Thumbnail": "qui",
-  "VATInfo": "aut",
-  "VAT": 15748.35,
-  "UnitCost": 20067.002,
-  "UnitMinimumPrice": 25159.752,
-  "UnitListPrice": 25203.628,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "dolores",
+  "Supplier": "omnis",
+  "SupplierCode": "recusandae",
+  "Thumbnail": "nemo",
+  "VATInfo": "tempora",
+  "VAT": 8421.0579999999991,
+  "UnitCost": 22552.264,
+  "UnitMinimumPrice": 24357.448,
+  "UnitListPrice": 15212.436,
   "ExtraInfo": [
     {
-      "Name": "Torphy-Schulist",
-      "Value": "neque",
+      "Name": "Olson-Reichel",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 200
         }
       }
     },
     {
-      "Name": "Torphy-Schulist",
-      "Value": "neque",
+      "Name": "Olson-Reichel",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 200
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
+  "RawExtraInfo": "quia",
   "IsSubscription": true,
-  "SubscriptionUnit": "ad",
-  "SubscriptionQuantity": 15184.23,
-  "SubscriptionStart": "2018-06-13T17:54:03.5389365+02:00",
-  "ERPDiscountPercent": 17074.032,
-  "ERPDiscountAmount": 30559.634,
-  "DiscountPercent": 1347.62,
-  "DiscountAmount": 8994.58,
+  "SubscriptionUnit": "expedita",
+  "SubscriptionQuantity": 30932.579999999998,
+  "SubscriptionStart": "2011-12-26T03:45:23.8266945+01:00",
+  "ERPDiscountPercent": 30876.167999999998,
+  "ERPDiscountAmount": 16817.043999999998,
+  "DiscountPercent": 17374.896,
+  "DiscountAmount": 8568.356,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14704.728,
-  "EarningAmount": 14754.872,
-  "SubTotal": 26109.354,
-  "TotalPrice": 15306.456,
-  "Rights": "soluta",
-  "Rule": "unde",
-  "ExtraField1": "quo",
-  "ExtraField2": "quia",
-  "ExtraField3": "quia",
-  "ExtraField4": "magni",
-  "ExtraField5": "illo",
+  "EarningPercent": 24153.737999999998,
+  "EarningAmount": 10555.312,
+  "SubTotal": 25745.809999999998,
+  "TotalPrice": 1494.918,
+  "Rights": "ea",
+  "Rule": "quae",
+  "ExtraField1": "qui",
+  "ExtraField2": "ea",
+  "ExtraField3": "eos",
+  "ExtraField4": "molestias",
+  "ExtraField5": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

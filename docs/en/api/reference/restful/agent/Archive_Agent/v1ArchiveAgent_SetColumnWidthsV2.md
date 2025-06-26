@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Leuschke LLC",
-  "ProviderName": "Russel LLC",
-  "Context": "quasi",
-  "OwnerKeys": "esse",
+  "GuiName": "Sawayn-Labadie",
+  "ProviderName": "Dare, Okuneva and Schoen",
+  "Context": "illum",
+  "OwnerKeys": "qui",
   "ColumnWidths": [
-    "eos",
-    "alias"
+    "repellendus",
+    "dolores"
   ]
 }
 ```

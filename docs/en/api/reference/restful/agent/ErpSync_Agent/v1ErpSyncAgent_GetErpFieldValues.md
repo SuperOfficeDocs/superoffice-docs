@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 854,
+  "ErpConnectionId": 664,
   "CrmActorType": "Contact",
-  "EntityId": 889,
+  "EntityId": 389,
   "FieldKeys": [
-    "eum",
-    "assumenda"
+    "distinctio",
+    "voluptatem"
   ]
 }
 ```
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "unde",
-  "adipisci"
+  "eum",
+  "tenetur"
 ]
 ```

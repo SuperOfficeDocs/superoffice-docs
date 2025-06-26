@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 941,
-  "Section": "blanditiis",
-  "Key": "libero",
-  "Name": "Terry, Ankunding and Harvey",
+  "PrefDescId": 633,
+  "Section": "fugiat",
+  "Key": "rem",
+  "Name": "Altenwerth-Zboncak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised disintermediate synergy",
-  "IsBuiltin": true,
-  "TableName": "Watsica-Carroll",
-  "UserDefinedListId": 66,
-  "Rank": 552,
-  "SubGroup": "voluptatem",
-  "MinLevel": 932,
-  "MaxValue": 580,
-  "MinValue": 252,
-  "RequiredLicense": "porro"
+  "Description": "Open-source next generation encoding",
+  "IsBuiltin": false,
+  "TableName": "Denesik LLC",
+  "UserDefinedListId": 393,
+  "Rank": 603,
+  "SubGroup": "dignissimos",
+  "MinLevel": 165,
+  "MaxValue": 423,
+  "MinValue": 835,
+  "RequiredLicense": "tempore"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 738,
-  "Section": "alias",
-  "Key": "tenetur",
-  "Name": "Parker-Smith",
+  "PrefDescId": 366,
+  "Section": "perferendis",
+  "Key": "qui",
+  "Name": "Adams Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked hybrid concept",
+  "Description": "Fully-configurable content-based time-frame",
   "IsBuiltin": true,
-  "TableName": "Kuvalis Group",
-  "UserDefinedListId": 991,
-  "Rank": 592,
-  "SubGroup": "iusto",
-  "MinLevel": 464,
-  "MaxValue": 204,
-  "MinValue": 605,
-  "RequiredLicense": "repudiandae",
+  "TableName": "Barton-Bahringer",
+  "UserDefinedListId": 180,
+  "Rank": 591,
+  "SubGroup": "enim",
+  "MinLevel": 187,
+  "MaxValue": 218,
+  "MinValue": 545,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 567
     }
   },
   "_Links": {

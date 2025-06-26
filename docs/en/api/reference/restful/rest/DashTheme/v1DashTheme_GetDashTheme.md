@@ -88,23 +88,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 835,
-  "Name": "Walker, Koelpin and Streich",
-  "Config": "aut",
-  "Rank": 491,
-  "Client": "ea",
-  "Style": "totam",
+  "DashboardThemeId": 67,
+  "Name": "Ortiz Inc and Sons",
+  "Config": "doloribus",
+  "Rank": 8,
+  "Client": "rerum",
+  "Style": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 207
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

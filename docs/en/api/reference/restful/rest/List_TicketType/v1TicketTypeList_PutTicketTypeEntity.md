@@ -110,31 +110,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 604,
-  "Name": "Hermiston-Boyer",
-  "Rank": 160,
-  "Tooltip": "rerum",
-  "Icon": "qui",
-  "DefaultTicketStatus": 78,
+  "TicketTypeId": 976,
+  "Name": "Williamson, Price and Stokes",
+  "Rank": 678,
+  "Tooltip": "suscipit",
+  "Icon": "pariatur",
+  "DefaultTicketStatus": 789,
   "TicketStatuses": [
-    210,
-    921
+    631,
+    319
   ],
-  "DefaultTicketPriority": 404,
+  "DefaultTicketPriority": 632,
   "TicketPriorities": [
-    553,
-    406
+    570,
+    677
   ],
-  "ReplyTemplate": 531,
+  "ReplyTemplate": 486,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    129,
-    347
+    187,
+    202
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true
@@ -148,40 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 571,
-  "Name": "Yost-Ullrich",
-  "Rank": 784,
-  "Tooltip": "voluptatum",
-  "Icon": "dignissimos",
-  "DefaultTicketStatus": 920,
+  "TicketTypeId": 263,
+  "Name": "Konopelski-McGlynn",
+  "Rank": 393,
+  "Tooltip": "impedit",
+  "Icon": "excepturi",
+  "DefaultTicketStatus": 770,
   "TicketStatuses": [
-    451,
-    381
+    343,
+    991
   ],
-  "DefaultTicketPriority": 123,
+  "DefaultTicketPriority": 91,
   "TicketPriorities": [
-    923,
-    328
+    375,
+    527
   ],
-  "ReplyTemplate": 8,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 691,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    279,
-    263
+    857,
+    705
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 771
     }
   }
 }

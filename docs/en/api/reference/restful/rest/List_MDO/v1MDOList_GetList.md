@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=esse
-GET /api/v1/MDOList/{listname}?query=earum
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=maxime
+GET /api/v1/MDOList/{listname}?query=cum
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Fay LLC",
-    "ToolTip": "Delectus et ipsam qui aut qui.",
-    "Deleted": true,
-    "Rank": 932,
-    "Type": "architecto",
+    "Id": 661,
+    "Name": "Ward, Padberg and Abernathy",
+    "ToolTip": "Alias qui.",
+    "Deleted": false,
+    "Rank": 668,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Bogisich LLC",
-        "ToolTip": "Sapiente fuga laudantium a quis.",
+        "Id": 733,
+        "Name": "Ondricka LLC",
+        "ToolTip": "Et repellendus placeat.",
         "Deleted": false,
-        "Rank": 138,
-        "Type": "ea",
+        "Rank": 730,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 214,
-        "ExtraInfo": "amet",
-        "StyleHint": "voluptatibus",
-        "FullName": "Dr. Loren Dooley DDS",
+        "IconHint": "voluptatem",
+        "ColorBlock": 92,
+        "ExtraInfo": "sequi",
+        "StyleHint": "est",
+        "FullName": "Prof. Kiana Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldType": "System.Int32",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 267,
-    "ExtraInfo": "et",
-    "StyleHint": "quo",
-    "FullName": "Agustin Abshire I",
+    "IconHint": "amet",
+    "ColorBlock": 685,
+    "ExtraInfo": "vel",
+    "StyleHint": "molestias",
+    "FullName": "Dr. Kaleigh Orville Quitzon MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 105
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Schmidt Group",
-    "ToolTip": "Et qui dolorum natus esse quaerat beatae.",
+    "Id": 502,
+    "Name": "Pollich, Schroeder and Haag",
+    "ToolTip": "Vel dicta enim deleniti est ut.",
     "Deleted": false,
-    "Rank": 638,
-    "Type": "itaque",
-    "ColorBlock": 800,
-    "IconHint": "nisi",
+    "Rank": 57,
+    "Type": "quia",
+    "ColorBlock": 411,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2022-12-25T17:54:09.0074197+01:00",
+    "LastChanged": "2011-03-28T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Konopelski, Rath and Toy",
-        "ToolTip": "Vel numquam hic blanditiis repellendus.",
-        "Deleted": false,
-        "Rank": 113,
-        "Type": "at",
-        "ColorBlock": 660,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2007-12-25T17:54:09.0074197+01:00",
+        "Id": 105,
+        "Name": "Champlin-Herzog",
+        "ToolTip": "Commodi maxime totam rerum eos.",
+        "Deleted": true,
+        "Rank": 745,
+        "Type": "incidunt",
+        "ColorBlock": 908,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2023-06-09T03:45:29.1859346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Ms. Liza Maggio MD"
+        "ExtraInfo": "consectetur",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Ms. Bernita Muller DDS"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Lessie O'Keefe PhD"
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Aubrey Wiza"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Ritchie-Cassin",
-    "ToolTip": "Nulla porro.",
-    "Deleted": false,
-    "Rank": 788,
-    "Type": "consequatur",
-    "ColorBlock": 935,
-    "IconHint": "tempora",
+    "Id": 196,
+    "Name": "McCullough Group",
+    "ToolTip": "Sed porro sit aut asperiores repudiandae omnis nihil.",
+    "Deleted": true,
+    "Rank": 765,
+    "Type": "odit",
+    "ColorBlock": 45,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2003-10-08T17:54:09.0074197+02:00",
+    "LastChanged": "2018-08-14T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Mraz, Oberbrunner and Nolan",
-        "ToolTip": "Harum vitae recusandae nisi.",
+        "Id": 575,
+        "Name": "Durgan, Dibbert and Howe",
+        "ToolTip": "Voluptas repellendus nesciunt.",
         "Deleted": false,
-        "Rank": 557,
-        "Type": "et",
-        "ColorBlock": 389,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2008-06-16T17:54:09.0074197+02:00",
+        "Rank": 959,
+        "Type": "expedita",
+        "ColorBlock": 663,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "2016-03-25T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "aut",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Clinton Runolfsson",
+        "FullName": "Rosalind Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 942
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Mrs. Guido Heller",
+    "ExtraInfo": "tempora",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Keegan Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldLength": 234
       }
     }
   }

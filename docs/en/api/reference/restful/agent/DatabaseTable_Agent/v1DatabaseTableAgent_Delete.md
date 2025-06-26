@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Monahan-Rolfson",
+  "TableName": "Torp-Kassulke",
   "IDs": [
-    433,
-    997
+    442,
+    793
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "deleniti",
-  "Inserts": 320,
-  "Updates": 268,
-  "Deletes": 457,
+  "Message": "qui",
+  "Inserts": 112,
+  "Updates": 766,
+  "Deletes": 113,
   "RowStatus": [
     {
-      "PrimaryKey": 631,
+      "PrimaryKey": 88,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "modi",
-        "velit"
+        "maiores",
+        "totam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 33
         }
       }
     },
     {
-      "PrimaryKey": 631,
+      "PrimaryKey": 88,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "modi",
-        "velit"
+        "maiores",
+        "totam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 33
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 130
     }
   }
 }

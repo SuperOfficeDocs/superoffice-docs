@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Krajcik Group",
-    "ToolTip": "Et necessitatibus.",
-    "Deleted": true,
-    "Rank": 585,
-    "Type": "ipsa",
-    "ColorBlock": 785,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2004-12-20T17:54:08.8824262+01:00",
+    "Id": 357,
+    "Name": "Howe-Steuber",
+    "ToolTip": "Optio laborum temporibus placeat in quia.",
+    "Deleted": false,
+    "Rank": 84,
+    "Type": "vel",
+    "ColorBlock": 461,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2006-05-21T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Rolfson LLC",
-        "ToolTip": "Ab eos earum eaque voluptatem illo nulla qui.",
-        "Deleted": false,
-        "Rank": 77,
-        "Type": "consequatur",
-        "ColorBlock": 658,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2019-06-04T17:54:08.8824262+02:00",
+        "Id": 372,
+        "Name": "Nitzsche-Rau",
+        "ToolTip": "Repellat fugit.",
+        "Deleted": true,
+        "Rank": 283,
+        "Type": "quis",
+        "ColorBlock": 509,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2013-07-19T03:45:29.014043+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Gust Cronin"
+        "ExtraInfo": "neque",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Frederique Carter"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "non",
+    "ExtraInfo": "id",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Mrs. Buford Reyna Waters V"
+    "FullName": "Mr. Triston Beaulah Altenwerth MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Auer, Schaden and Balistreri",
-    "ToolTip": "Dolor voluptatem delectus magnam.",
+    "Id": 137,
+    "Name": "Stanton-Kshlerin",
+    "ToolTip": "Magni voluptatibus accusamus nisi est.",
     "Deleted": false,
-    "Rank": 241,
-    "Type": "vel",
-    "ColorBlock": 855,
-    "IconHint": "in",
+    "Rank": 551,
+    "Type": "aperiam",
+    "ColorBlock": 293,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2008-08-16T17:54:08.8824262+02:00",
+    "LastChanged": "2018-05-09T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Schiller-Koepp",
-        "ToolTip": "Reprehenderit et.",
+        "Id": 956,
+        "Name": "Witting LLC",
+        "ToolTip": "Sunt non cum cupiditate tempore.",
         "Deleted": false,
-        "Rank": 677,
-        "Type": "et",
-        "ColorBlock": 990,
-        "IconHint": "dicta",
+        "Rank": 865,
+        "Type": "doloremque",
+        "ColorBlock": 726,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2018-07-20T17:54:08.8824262+02:00",
+        "LastChanged": "2018-04-21T03:45:29.014043+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Mrs. Syble Ruby Morissette",
+        "ExtraInfo": "numquam",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "German Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 7
+            "FieldLength": 671
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "quo",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Kailey Flatley IV",
+    "FullName": "Mrs. Florence Laurel Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

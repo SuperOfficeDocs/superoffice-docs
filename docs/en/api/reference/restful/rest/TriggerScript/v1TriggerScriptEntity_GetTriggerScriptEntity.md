@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 930,
-  "Name": "Monahan-Hirthe",
+  "ScreenChooserId": 104,
+  "Name": "Huel LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "est",
-  "Registered": "2023-03-24T17:54:08.6793184+01:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2003-07-06T17:54:08.6793184+02:00",
-  "UpdatedAssociateId": 738,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptatibus",
+  "Source": "architecto",
+  "Registered": "2013-07-23T03:45:28.7952992+02:00",
+  "RegisteredAssociateId": 828,
+  "Updated": "2016-01-01T03:45:28.7952992+01:00",
+  "UpdatedAssociateId": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

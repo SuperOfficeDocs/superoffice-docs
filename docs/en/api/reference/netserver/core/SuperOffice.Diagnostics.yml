@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.Diagnostics
   id: SuperOffice.Diagnostics
   children:
+  - SuperOffice.Diagnostics.AggregatedServiceCall
   - SuperOffice.Diagnostics.DeferredToString
   - SuperOffice.Diagnostics.DiagnoseException
   - SuperOffice.Diagnostics.DiagnoseMethod
@@ -252,6 +253,13 @@ references:
   name: ServiceCall
   nameWithType: ServiceCall
   fullName: SuperOffice.Diagnostics.ServiceCall
+- uid: SuperOffice.Diagnostics.AggregatedServiceCall
+  commentId: T:SuperOffice.Diagnostics.AggregatedServiceCall
+  isExternal: true
+  href: SuperOffice.Diagnostics.AggregatedServiceCall.html
+  name: AggregatedServiceCall
+  nameWithType: AggregatedServiceCall
+  fullName: SuperOffice.Diagnostics.AggregatedServiceCall
 - uid: SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
   commentId: T:SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
   isExternal: true

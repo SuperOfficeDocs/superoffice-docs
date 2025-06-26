@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 424,
-  "Name": "Runolfsson-Schimmel",
-  "Tooltip": "vero",
-  "Rank": 480,
-  "Rate": 12344.826,
-  "Units": 21273.592,
-  "Deleted": true,
+  "CurrencyId": 467,
+  "Name": "Sauer LLC",
+  "Tooltip": "asperiores",
+  "Rank": 569,
+  "Rate": 4208.9619999999995,
+  "Units": 9850.162,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Ratke, Treutel and Grady",
-  "Tooltip": "eum",
+  "HeadingId": 810,
+  "Name": "Wuckert-Thiel",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 132,
-  "UdListDefinitionId": 58
+  "Rank": 970,
+  "UdListDefinitionId": 802
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 92,
-  "Name": "Hartmann Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 17,
+  "Name": "Wilderman, White and Labadie",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 363,
-  "UdListDefinitionId": 12,
+  "Rank": 664,
+  "UdListDefinitionId": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

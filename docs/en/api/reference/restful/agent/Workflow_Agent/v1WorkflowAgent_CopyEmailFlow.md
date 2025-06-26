@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 881,
-  "NewName": "Schumm-Dicki"
+  "EmailFlowId": 443,
+  "NewName": "Heaney-Lesch"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-603
+501
 ```

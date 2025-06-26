@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Spencer-Botsford",
-    "ToolTip": "Doloremque placeat est deserunt.",
+    "Id": 153,
+    "Name": "Kutch-Ankunding",
+    "ToolTip": "Ut ipsam eum ipsam dignissimos sed.",
     "Deleted": true,
-    "Rank": 886,
-    "Type": "laudantium",
-    "ColorBlock": 50,
-    "IconHint": "ut",
+    "Rank": 575,
+    "Type": "corporis",
+    "ColorBlock": 264,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2018-03-17T17:54:08.9292989+01:00",
+    "LastChanged": "1999-11-17T03:45:29.0452922+01:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Weber Inc and Sons",
-        "ToolTip": "Ut asperiores doloribus.",
+        "Id": 131,
+        "Name": "Larkin-Zboncak",
+        "ToolTip": "Voluptatem molestias qui.",
         "Deleted": false,
-        "Rank": 924,
-        "Type": "cumque",
-        "ColorBlock": 293,
-        "IconHint": "porro",
+        "Rank": 681,
+        "Type": "iste",
+        "ColorBlock": 258,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2010-12-06T17:54:08.9292989+01:00",
+        "LastChanged": "2019-03-08T03:45:29.0452922+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "cumque",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Eldridge Jacobs",
+        "FullName": "Janae Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 196
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ut",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Syble Towne",
+    "FullName": "Clark Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldType": "System.Int32",
+        "FieldLength": 459
       }
     }
   }

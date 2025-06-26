@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 187,
-  "Count": 182
+  "AmountLimit": 102,
+  "Count": 276
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dach, Kuhic and Sporer",
-    "SaleDate": "2009-08-09T17:54:03.5858088+02:00",
-    "SaleId": 422,
-    "Probability": 973,
-    "Title": "in",
-    "Amount": 6474.844,
-    "Currency": "cum",
-    "ProjectName": "Runte, Reilly and Baumbach",
-    "AssociateFullName": "Dr. Garnett Charlene Schaden",
-    "Description": "Decentralized foreground artificial intelligence",
+    "ContactName": "Prohaska, Ebert and Hartmann",
+    "SaleDate": "2008-12-08T03:45:23.8735682+01:00",
+    "SaleId": 813,
+    "Probability": 382,
+    "Title": "officia",
+    "Amount": 4929.782,
+    "Currency": "qui",
+    "ProjectName": "Denesik LLC",
+    "AssociateFullName": "Ladarius Klein",
+    "Description": "Automated logistical flexibility",
     "Status": "Lost",
-    "WeightedAmount": 6929.2739999999994,
-    "ProjectId": 202,
-    "EarningPercent": 27547.86,
-    "Earning": 639.336,
-    "ContactId": 575,
-    "AssociateId": 247,
-    "PersonId": 540,
-    "SaleTypeId": 55,
-    "SaleTypeName": "Murphy, Kuvalis and Blick",
-    "PersonFullName": "Marian Wunsch",
+    "WeightedAmount": 275.792,
+    "ProjectId": 293,
+    "EarningPercent": 18656.702,
+    "Earning": 22470.78,
+    "ContactId": 304,
+    "AssociateId": 606,
+    "PersonId": 200,
+    "SaleTypeId": 418,
+    "SaleTypeName": "Tremblay LLC",
+    "PersonFullName": "Lora Wyman",
     "Completed": "Completed",
-    "ActiveErpLinks": 563,
-    "NextDueDate": "2002-04-01T17:54:03.5858088+02:00",
-    "Number": "703505",
+    "ActiveErpLinks": 319,
+    "NextDueDate": "2005-03-08T03:45:23.8735682+01:00",
+    "Number": "1223381",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 818
       }
     }
   }

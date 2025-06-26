@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 139,
-  "Name": "Reichel-Veum"
+  "DashboardId": 164,
+  "Name": "Brakus-Schumm"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 830,
-  "UniqueId": "iste",
-  "Name": "Greenfelder LLC",
-  "Description": "Public-key tertiary matrices",
-  "AssociateId": 277,
-  "Columns": 739,
+  "DashboardId": 930,
+  "UniqueId": "odio",
+  "Name": "Hills, Schuster and Streich",
+  "Description": "Upgradable homogeneous conglomeration",
+  "AssociateId": 61,
+  "Columns": 531,
   "Theme": null,
-  "VisibleForAll": 998,
+  "VisibleForAll": 495,
   "VisibleForAssociates": [
-    802,
-    360
+    415,
+    869
   ],
   "VisibleForGroups": [
-    810,
-    199
+    629,
+    413
   ],
-  "PinForAll": 918,
+  "PinForAll": 324,
   "PinForAssociates": [
-    4,
-    841
+    835,
+    717
   ],
   "PinForGroups": [
-    525,
-    532
+    138,
+    507
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 764
     }
   }
 }

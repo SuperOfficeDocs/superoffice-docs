@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hickle Inc and Sons",
+  "UdListDefinitionName": "Hudson, Breitenberg and Swaniawski",
   "Items": [
     {
-      "Id": 457,
-      "Name": "Fritsch-Kerluke",
-      "Tooltip": "id",
+      "Id": 689,
+      "Name": "Konopelski Group",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 152,
-      "Rank": 694
+      "UdListDefinitionId": 664,
+      "Rank": 167
     },
     {
-      "Id": 457,
-      "Name": "Fritsch-Kerluke",
-      "Tooltip": "id",
+      "Id": 689,
+      "Name": "Konopelski Group",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 152,
-      "Rank": 694
+      "UdListDefinitionId": 664,
+      "Rank": 167
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Runolfsdottir, Purdy and Mueller",
-    "Tooltip": "itaque",
+    "Id": 252,
+    "Name": "Kulas Group",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "UdListDefinitionId": 139,
-    "Rank": 295,
+    "UdListDefinitionId": 806,
+    "Rank": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 966
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

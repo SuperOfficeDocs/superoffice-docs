@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=omnis
-GET /api/v1/SystemEvent?$top=77
-GET /api/v1/SystemEvent?$skip=736
+GET /api/v1/SystemEvent?$entities=et
+GET /api/v1/SystemEvent?$top=173
+GET /api/v1/SystemEvent?$skip=889
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=qui
+GET /api/v1/SystemEvent?$context=corporis
 GET /api/v1/SystemEvent?$format=JSON
 GET /api/v1/SystemEvent?$jsonSafe=False
 GET /api/v1/SystemEvent?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "libero",
+  "odata.nextLink": "ad",
   "value": [
     {
-      "PrimaryKey": 63,
-      "EntityName": "sale",
-      "saleId": 63,
-      "contactId": 1933,
-      "name": "Langworth-Stiedemann"
+      "PrimaryKey": 4219,
+      "EntityName": "person",
+      "personId": 4219,
+      "fullName": "Jaeden Homenick Jr."
     },
     {
-      "PrimaryKey": 3538,
-      "EntityName": "sale",
-      "saleId": 3538,
-      "contactId": 6883,
-      "name": "Fritsch-Hayes"
+      "PrimaryKey": 4023,
+      "EntityName": "person",
+      "personId": 4023,
+      "fullName": "Dr. Cory Orrin Carter"
     }
   ]
 }

@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 502,
-  "Name": "Wiza LLC"
+  "SelectionId": 689,
+  "Name": "Jacobson Group"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional didactic budgetary management",
-  "Postit": "est",
+  "Description": "Cross-group user-facing parallelism",
+  "Postit": "odit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 218,
-  "IncludePerson": 871,
+  "GroupIdx": 934,
+  "IncludePerson": 855,
   "MemberCount": 99.99,
-  "Name": "Batz-Lynch",
-  "PostitTextId": 967,
-  "CreatedDate": "2014-12-23T17:54:03.6326822+01:00",
-  "SelectionId": 913,
-  "SoundEx": "sit",
-  "Source": 656,
-  "TextId": 43,
-  "UpdatedDate": "2018-01-12T17:54:03.6326822+01:00",
-  "UpdatedCount": 745,
-  "Visibility": 493,
+  "Name": "Dare-Kozey",
+  "PostitTextId": 88,
+  "CreatedDate": "2011-03-10T03:45:23.9204418+01:00",
+  "SelectionId": 967,
+  "SoundEx": "omnis",
+  "Source": 451,
+  "TextId": 943,
+  "UpdatedDate": "2015-08-17T03:45:23.9204418+02:00",
+  "UpdatedCount": 137,
+  "Visibility": 202,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 788,
-  "TargetTableName": "Emmerich Group",
-  "Completed": false,
-  "LeftSelectionId": 290,
-  "RightSelectionId": 336,
+  "TargetTableNumber": 693,
+  "TargetTableName": "Shanahan-Hessel",
+  "Completed": true,
+  "LeftSelectionId": 130,
+  "RightSelectionId": 886,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mayert, Hickle and Smitham",
-  "ShadowProviderName": "Powlowski-Rolfson",
-  "ChartKey": "vel",
-  "LastLoaded": "2009-08-27T17:54:03.6326822+02:00",
-  "LastLoadedBy": 572,
+  "MainProviderName": "Lindgren-Marks",
+  "ShadowProviderName": "Gerhold, Armstrong and Armstrong",
+  "ChartKey": "adipisci",
+  "LastLoaded": "2020-01-30T03:45:23.9204418+01:00",
+  "LastLoadedBy": 971,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-12-12T17:54:03.6326822+01:00",
-  "LastMembershipChangeBy": 55,
+  "LastMembershipChange": "2022-07-15T03:45:23.9204418+02:00",
+  "LastMembershipChangeBy": 652,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Lesch, Cummerata and Mayer",
-  "DashboardTileDefinitionId": 61,
+  "MainHeading": "debitis",
+  "MemberTabHeading": "voluptate",
+  "MailingsProviderName": "Friesen Group",
+  "DashboardTileDefinitionId": 31,
   "VisibleFor": [
     {
-      "VisibleId": 399,
+      "VisibleId": 370,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldLength": 985
         }
       }
     },
     {
-      "VisibleId": 399,
+      "VisibleId": 370,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldLength": 985
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

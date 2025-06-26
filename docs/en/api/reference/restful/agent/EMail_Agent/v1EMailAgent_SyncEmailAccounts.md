@@ -69,20 +69,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 507,
-      "AssociateName": "Walker LLC",
-      "AssociateId": 874
+      "AccountId": 264,
+      "AssociateName": "Mante, Shanahan and Feil",
+      "AssociateId": 515
     },
     {
-      "AccountId": 507,
-      "AssociateName": "Walker LLC",
-      "AssociateId": 874
+      "AccountId": 264,
+      "AssociateName": "Mante, Shanahan and Feil",
+      "AssociateId": 515
     }
   ]
 }

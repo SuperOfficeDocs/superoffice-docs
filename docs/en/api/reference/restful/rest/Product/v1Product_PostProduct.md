@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 493,
-  "ERPProductKey": "aliquam",
-  "ERPPriceListKey": "sapiente",
-  "Name": "Cummerata-Sawayn",
-  "Description": "Assimilated well-modulated artificial intelligence",
-  "Code": "aliquam",
-  "PriceUnit": "quo",
-  "QuantityUnit": "ipsum",
+  "ProductId": 911,
+  "ERPProductKey": "ad",
+  "ERPPriceListKey": "eos",
+  "Name": "Ward, Blanda and Kirlin",
+  "Description": "Open-architected foreground middleware",
+  "Code": "quasi",
+  "PriceUnit": "modi",
+  "QuantityUnit": "ipsa",
   "IsSubscription": true,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 30327.718,
-  "ItemNumber": "1379136",
+  "SubscriptionUnit": "voluptas",
+  "DefaultSubscriptionQuantity": 18180.334,
+  "ItemNumber": "1413532",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ab",
-  "ProductTypeKey": "corporis",
-  "VAT": 11514.315999999999,
-  "VATInfo": "temporibus",
-  "UnitCost": 25940.118,
-  "UnitMinimumPrice": 6130.1039999999994,
-  "UnitListPrice": 26845.843999999997,
-  "InAssortment": true,
-  "Supplier": "consequatur",
-  "SupplierCode": "recusandae",
-  "Rights": "maxime",
-  "Rule": "explicabo",
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "quasi",
+  "VAT": 7615.62,
+  "VATInfo": "enim",
+  "UnitCost": 9489.752,
+  "UnitMinimumPrice": 18311.962,
+  "UnitListPrice": 12401.238,
+  "InAssortment": false,
+  "Supplier": "necessitatibus",
+  "SupplierCode": "ratione",
+  "Rights": "animi",
+  "Rule": "reprehenderit",
   "ExtraInfo": [
     {
-      "Name": "Pagac, Toy and Konopelski",
-      "Value": "nulla",
+      "Name": "Herman-Gerhold",
+      "Value": "praesentium",
       "Type": "Image"
     },
     {
-      "Name": "Pagac, Toy and Konopelski",
-      "Value": "nulla",
+      "Name": "Herman-Gerhold",
+      "Value": "praesentium",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "ea",
-  "ExtraField2": "doloremque",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "sed",
-  "ExtraField5": "autem",
-  "InStock": 23915.554
+  "RawExtraInfo": "qui",
+  "ExtraField1": "esse",
+  "ExtraField2": "omnis",
+  "ExtraField3": "aut",
+  "ExtraField4": "facere",
+  "ExtraField5": "omnis",
+  "InStock": 25792.82
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 642,
-  "ERPProductKey": "totam",
-  "ERPPriceListKey": "perferendis",
-  "Name": "Kshlerin-Heller",
-  "Description": "Universal well-modulated analyzer",
-  "Code": "eos",
-  "PriceUnit": "dolorem",
-  "QuantityUnit": "eveniet",
+  "ProductId": 551,
+  "ERPProductKey": "dolorem",
+  "ERPPriceListKey": "placeat",
+  "Name": "Dietrich LLC",
+  "Description": "Switchable well-modulated ability",
+  "Code": "impedit",
+  "PriceUnit": "ut",
+  "QuantityUnit": "magnam",
   "IsSubscription": false,
-  "SubscriptionUnit": "quisquam",
-  "DefaultSubscriptionQuantity": 21251.654,
-  "ItemNumber": "1591048",
+  "SubscriptionUnit": "nihil",
+  "DefaultSubscriptionQuantity": 26629.597999999998,
+  "ItemNumber": "832571",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "velit",
-  "VAT": 7969.762,
-  "VATInfo": "autem",
-  "UnitCost": 9213.96,
-  "UnitMinimumPrice": 28538.203999999998,
-  "UnitListPrice": 13673.642,
-  "InAssortment": false,
-  "Supplier": "pariatur",
-  "SupplierCode": "ipsa",
-  "Rights": "maiores",
-  "Rule": "nulla",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "quam",
+  "VAT": 30493.82,
+  "VATInfo": "voluptatibus",
+  "UnitCost": 12463.918,
+  "UnitMinimumPrice": 24263.428,
+  "UnitListPrice": 14946.046,
+  "InAssortment": true,
+  "Supplier": "omnis",
+  "SupplierCode": "distinctio",
+  "Rights": "quod",
+  "Rule": "officiis",
   "ExtraInfo": [
     {
-      "Name": "DuBuque, Olson and Batz",
-      "Value": "veniam",
+      "Name": "Rolfson-Lehner",
+      "Value": "aspernatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     },
     {
-      "Name": "DuBuque, Olson and Batz",
-      "Value": "veniam",
+      "Name": "Rolfson-Lehner",
+      "Value": "aspernatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "iste",
-  "ExtraField2": "debitis",
-  "ExtraField3": "ut",
-  "ExtraField4": "maiores",
-  "ExtraField5": "dolorum",
-  "InStock": 12228.868,
+  "RawExtraInfo": "asperiores",
+  "ExtraField1": "eos",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "et",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "aperiam",
+  "InStock": 31167.629999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 228
     }
   }
 }

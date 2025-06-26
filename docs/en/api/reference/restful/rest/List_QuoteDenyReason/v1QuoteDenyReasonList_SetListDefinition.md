@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Id": 439,
-  "Name": "Roberts, Welch and Huels",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 83,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Name": "Beatty-Labadie",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 347,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Volkman, Sauer and Hodkiewicz",
-  "Tooltip": "molestiae",
+  "Id": 41,
+  "Name": "Wuckert, Treutel and McGlynn",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 791,
-  "IsCustomList": true,
+  "Rank": 811,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldLength": 417
     }
   }
 }

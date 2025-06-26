@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
   langs:
   - csharp
@@ -127,6 +128,36 @@ items:
   nameWithType.vb: TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, System.Threading.CancellationToken)
   name.vb: FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.TicketMessage.TicketMessageHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQuotedMessageContentAsync(int, int, CancellationToken)
+  nameWithType: TicketMessageHelper.GetQuotedMessageContentAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.TicketMessage
+  syntax:
+    content: public static Task<string> GetQuotedMessageContentAsync(int ticketId, int ticketMessageId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: ticketMessageId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetQuotedMessageContentAsync(ticketId As Integer, ticketMessageId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync*
+  nameWithType.vb: TicketMessageHelper.GetQuotedMessageContentAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetQuotedMessageContentAsync(Integer, Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.TicketMessage
   commentId: N:SuperOffice.CRM.TicketMessage
@@ -634,3 +665,45 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync*
+  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync
+  isExternal: true
+  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_GetQuotedMessageContentAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetQuotedMessageContentAsync
+  nameWithType: TicketMessageHelper.GetQuotedMessageContentAsync
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

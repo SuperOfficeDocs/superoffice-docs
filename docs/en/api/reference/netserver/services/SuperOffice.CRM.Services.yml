@@ -392,6 +392,8 @@ items:
   - SuperOffice.CRM.Services.QuoteVersionStatusInformation
   - SuperOffice.CRM.Services.QuoteVersionValidated
   - SuperOffice.CRM.Services.QuoteVersionWorkflowState
+  - SuperOffice.CRM.Services.RagAnswer
+  - SuperOffice.CRM.Services.RagResult
   - SuperOffice.CRM.Services.Rating
   - SuperOffice.CRM.Services.Reason
   - SuperOffice.CRM.Services.ReasonSold
@@ -465,6 +467,7 @@ items:
   - SuperOffice.CRM.Services.SystemMessage
   - SuperOffice.CRM.Services.SystemTemplateSettings
   - SuperOffice.CRM.Services.TabOrder
+  - SuperOffice.CRM.Services.TableManager
   - SuperOffice.CRM.Services.TableRecord
   - SuperOffice.CRM.Services.Tag
   - SuperOffice.CRM.Services.TargetAssignment
@@ -540,6 +543,7 @@ items:
   - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Services.WorkflowStepCreateRequest
   - SuperOffice.CRM.Services.WorkflowStepCreateSale
+  - SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
   - SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
   - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Services.WorkflowStepOption
@@ -571,6 +575,14 @@ items:
   assemblies:
   - SuperOffice.Services
 references:
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
 - uid: SuperOffice.CRM.Services.IAIAgent
   commentId: T:SuperOffice.CRM.Services.IAIAgent
   parent: SuperOffice.CRM.Services
@@ -3223,6 +3235,20 @@ references:
   name: QuoteVersionWorkflowState
   nameWithType: QuoteVersionWorkflowState
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState
+- uid: SuperOffice.CRM.Services.RagAnswer
+  commentId: T:SuperOffice.CRM.Services.RagAnswer
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagAnswer.html
+  name: RagAnswer
+  nameWithType: RagAnswer
+  fullName: SuperOffice.CRM.Services.RagAnswer
+- uid: SuperOffice.CRM.Services.RagResult
+  commentId: T:SuperOffice.CRM.Services.RagResult
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagResult.html
+  name: RagResult
+  nameWithType: RagResult
+  fullName: SuperOffice.CRM.Services.RagResult
 - uid: SuperOffice.CRM.Services.Rating
   commentId: T:SuperOffice.CRM.Services.Rating
   parent: SuperOffice.CRM.Services
@@ -3686,6 +3712,13 @@ references:
   name: SystemTemplateSettings
   nameWithType: SystemTemplateSettings
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings
+- uid: SuperOffice.CRM.Services.TableManager
+  commentId: T:SuperOffice.CRM.Services.TableManager
+  isExternal: true
+  href: SuperOffice.CRM.Services.TableManager.html
+  name: TableManager
+  nameWithType: TableManager
+  fullName: SuperOffice.CRM.Services.TableManager
 - uid: SuperOffice.CRM.Services.TableRecord
   commentId: T:SuperOffice.CRM.Services.TableRecord
   isExternal: true
@@ -4188,6 +4221,13 @@ references:
   name: WorkflowStepCreateSale
   nameWithType: WorkflowStepCreateSale
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepDistributeToOwner.html
+  name: WorkflowStepDistributeToOwner
+  nameWithType: WorkflowStepDistributeToOwner
+  fullName: SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
 - uid: SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
   commentId: T:SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
   isExternal: true
@@ -4346,14 +4386,6 @@ references:
   name: UserHelper
   nameWithType: UserHelper
   fullName: SuperOffice.CRM.Services.UserHelper
-- uid: SuperOffice.CRM.Services.IAgent
-  commentId: T:SuperOffice.CRM.Services.IAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
-  name: IAgent
-  nameWithType: IAgent
-  fullName: SuperOffice.CRM.Services.IAgent
 - uid: SuperOffice.CRM.Services.AIAgent
   commentId: T:SuperOffice.CRM.Services.AIAgent
   isExternal: true

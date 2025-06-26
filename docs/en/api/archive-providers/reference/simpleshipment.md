@@ -662,7 +662,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingSimpleStatus,mailingAddr/contact/streetAddress/formattedMultiLineAddress,mailingAddr/person/whenUpdatedByWorkflow,mailingAddr/person/email/emailBounceCount,mailingAddr/person/personUdef/SuperOffice:3
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/contactExtra/x_contact_shorttext,mailingAddr/person/hasInterests,mailingAddr/person/kanaFirstName,mailingAddr/person/restrictionAddress/formattedAddress,mailingAddr/person/personAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

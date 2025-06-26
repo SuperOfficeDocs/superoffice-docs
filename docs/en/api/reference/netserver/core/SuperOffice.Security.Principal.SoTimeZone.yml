@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.SoTimeZone.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Principal.SoTimeZone})
-  - SuperOffice.Security.Principal.SoTimeZone.IsSet
   - SuperOffice.Security.Principal.SoTimeZone.TimeZoneId
   langs:
   - csharp
@@ -90,31 +89,6 @@ items:
   overload: SuperOffice.Security.Principal.SoTimeZone.TimeZoneId*
   implements:
   - SuperOffice.Security.Principal.ISoTimeZone.TimeZoneId
-- uid: SuperOffice.Security.Principal.SoTimeZone.IsSet
-  commentId: P:SuperOffice.Security.Principal.SoTimeZone.IsSet
-  id: IsSet
-  parent: SuperOffice.Security.Principal.SoTimeZone
-  langs:
-  - csharp
-  - vb
-  name: IsSet
-  nameWithType: SoTimeZone.IsSet
-  fullName: SuperOffice.Security.Principal.SoTimeZone.IsSet
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Principal
-  summary: Has the timezone value been set?
-  example: []
-  syntax:
-    content: public bool IsSet { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsSet As Boolean
-  overload: SuperOffice.Security.Principal.SoTimeZone.IsSet*
-  implements:
-  - SuperOffice.Security.Principal.ISoTimeZone.IsSet
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -772,29 +746,3 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.Security.Principal.SoTimeZone.IsSet*
-  commentId: Overload:SuperOffice.Security.Principal.SoTimeZone.IsSet
-  isExternal: true
-  href: SuperOffice.Security.Principal.SoTimeZone.html#SuperOffice_Security_Principal_SoTimeZone_IsSet
-  name: IsSet
-  nameWithType: SoTimeZone.IsSet
-  fullName: SuperOffice.Security.Principal.SoTimeZone.IsSet
-- uid: SuperOffice.Security.Principal.ISoTimeZone.IsSet
-  commentId: P:SuperOffice.Security.Principal.ISoTimeZone.IsSet
-  parent: SuperOffice.Security.Principal.ISoTimeZone
-  isExternal: true
-  href: SuperOffice.Security.Principal.ISoTimeZone.html#SuperOffice_Security_Principal_ISoTimeZone_IsSet
-  name: IsSet
-  nameWithType: ISoTimeZone.IsSet
-  fullName: SuperOffice.Security.Principal.ISoTimeZone.IsSet
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean

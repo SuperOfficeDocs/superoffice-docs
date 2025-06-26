@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ullam",
-  "AssociateId": 358,
+  "Associate": "quia",
+  "AssociateId": 135,
   "IsPerson": false,
-  "PersonId": 192,
-  "CountryId": 203,
-  "HomeCountryId": 660,
-  "ContactId": 792,
-  "GroupId": 707,
-  "BusinessId": 990,
-  "CategoryId": 725,
-  "ContactOwner": 531,
-  "RoleId": 581,
-  "RoleName": "Abshire LLC",
-  "RoleDescription": "Reverse-engineered scalable help-desk",
+  "PersonId": 635,
+  "CountryId": 155,
+  "HomeCountryId": 41,
+  "ContactId": 995,
+  "GroupId": 436,
+  "BusinessId": 73,
+  "CategoryId": 579,
+  "ContactOwner": 723,
+  "RoleId": 253,
+  "RoleName": "Mraz, Bartell and Bergnaum",
+  "RoleDescription": "Streamlined explicit parallelism",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 496,
-      "OwnerName": "Marvin-Berge",
-      "OwnerDescription": "Function-based leading edge projection",
-      "ModuleId": 191,
-      "Name": "Wisozk-Jerde",
-      "Description": "Focused attitude-oriented ability",
-      "Version": "ut",
+      "OwnerId": 182,
+      "OwnerName": "Breitenberg-Connelly",
+      "OwnerDescription": "Phased didactic framework",
+      "ModuleId": 467,
+      "Name": "Emard-Carter",
+      "Description": "Front-line global solution",
+      "Version": "harum",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 848,
-      "ExtraInfo": "voluptate",
-      "SortOrder": 974,
-      "LicenseNumber": 818,
+      "ExtraFlags": 578,
+      "ExtraInfo": "velit",
+      "SortOrder": 534,
+      "LicenseNumber": 127,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2005-10-14T17:54:08.7574316+02:00",
+      "ExpiryDate": "1998-09-30T03:45:28.8734254+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldLength": 676
         }
       }
     }
   ],
-  "FullName": "Jacinto Rath",
-  "EMailAddress": "velit",
+  "FullName": "Issac Kub",
+  "EMailAddress": "et",
   "FunctionRights": [
-    "quae",
-    "aspernatur"
+    "perspiciatis",
+    "cum"
   ],
-  "EjUserId": 466,
-  "EjAccessLevel": 706,
+  "EjUserId": 764,
+  "EjAccessLevel": 827,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "aut",
-      "SearchName": "Dooley-Price",
-      "DisplayName": "Powlowski-Howe",
-      "CredentialId": 377
+      "Type": "minus",
+      "SearchName": "Windler, Skiles and Quitzon",
+      "DisplayName": "Wolf LLC",
+      "CredentialId": 122
     },
     {
-      "Type": "aut",
-      "SearchName": "Dooley-Price",
-      "DisplayName": "Powlowski-Howe",
-      "CredentialId": 377
+      "Type": "minus",
+      "SearchName": "Windler, Skiles and Quitzon",
+      "DisplayName": "Wolf LLC",
+      "CredentialId": 122
     }
   ],
   "SecondaryGroups": [
-    80,
-    709
+    673,
+    182
   ],
-  "DatabaseContextIdentifier": "quis",
-  "UserName": "Cassin LLC"
+  "DatabaseContextIdentifier": "itaque",
+  "UserName": "Hilll-Goodwin"
 }
 ```

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner Inc and Sons",
-  "AdditionalInfo": "tenetur",
-  "SearchValue": "expedita"
+  "Name": "Rempel, Morar and Collins",
+  "AdditionalInfo": "maiores",
+  "SearchValue": "est"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Champlin-Heaney",
-    "ToolTip": "Ab et veritatis excepturi dolor.",
-    "Deleted": false,
-    "Rank": 704,
-    "Type": "dolorum",
-    "ColorBlock": 568,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2015-05-27T17:54:03.3358211+02:00",
+    "Id": 844,
+    "Name": "Braun-Rempel",
+    "ToolTip": "Ex blanditiis delectus.",
+    "Deleted": true,
+    "Rank": 575,
+    "Type": "sed",
+    "ColorBlock": 495,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "2001-02-07T03:45:23.6391999+01:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Kuhn, Larkin and Schmitt",
-        "ToolTip": "Cumque perferendis aliquid.",
-        "Deleted": false,
-        "Rank": 452,
-        "Type": "qui",
-        "ColorBlock": 248,
-        "IconHint": "repellendus",
+        "Id": 958,
+        "Name": "Dietrich LLC",
+        "ToolTip": "Vel eos vel dignissimos hic quaerat eius reiciendis.",
+        "Deleted": true,
+        "Rank": 345,
+        "Type": "animi",
+        "ColorBlock": 364,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2018-12-23T17:54:03.3358211+01:00",
+        "LastChanged": "2014-03-21T03:45:23.6391999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Mrs. Dejah Mayert",
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Theodora West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 749
+            "FieldType": "System.String",
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "vitae",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Glen Swaniawski",
+    "FullName": "Retha Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldLength": 627
       }
     }
   }

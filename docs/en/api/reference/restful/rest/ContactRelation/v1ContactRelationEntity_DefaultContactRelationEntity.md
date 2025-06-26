@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 22 Apr 2010 17:54:08 G4T
+Last-Modified: Thu, 02 Dec 2010 03:45:28 G12T
 
 {
-  "SourceContactId": 127,
-  "SourcePersonId": 188,
-  "DestinationContactId": 414,
-  "DestinationPersonId": 732,
-  "RelationId": 536,
-  "Comment": "necessitatibus",
-  "RelationDefinitionId": 395,
-  "Reversed": 425,
-  "UpdatedDate": "2010-04-22T17:54:08.1324619+02:00",
-  "CreatedDate": "2008-09-12T17:54:08.1324619+02:00",
+  "SourceContactId": 681,
+  "SourcePersonId": 882,
+  "DestinationContactId": 98,
+  "DestinationPersonId": 742,
+  "RelationId": 34,
+  "Comment": "molestiae",
+  "RelationDefinitionId": 202,
+  "Reversed": 686,
+  "UpdatedDate": "2010-12-02T03:45:28.2171945+01:00",
+  "CreatedDate": "1998-12-04T03:45:28.2171945+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mante Group",
-  "SourcePersonName": "McCullough-Gleason",
-  "DestinationContactName": "Barton Inc and Sons",
-  "DestinationPersonName": "Roob-Ernser",
-  "ActiveText": "occaecati",
-  "PassiveText": "id",
+  "SourceContactName": "Kozey, Spencer and Kessler",
+  "SourcePersonName": "Abernathy Inc and Sons",
+  "DestinationContactName": "Buckridge, Torphy and Grady",
+  "DestinationPersonName": "Steuber, Grimes and Metz",
+  "ActiveText": "quisquam",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 939
     }
   }
 }

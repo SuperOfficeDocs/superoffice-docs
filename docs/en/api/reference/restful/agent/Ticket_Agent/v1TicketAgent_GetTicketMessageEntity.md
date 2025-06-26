@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=744
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=270
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 492,
+  "EjMessageId": 472,
   "Ticket": null,
-  "CreatedAt": "2013-02-18T17:54:03.8357967+01:00",
+  "CreatedAt": "2013-04-12T03:45:24.1235597+02:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "deserunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 950,
-  "Body": "at",
-  "HtmlBody": "pariatur",
-  "EmailHeader": "casimer@doyle.ca",
-  "DebugInfo": "voluptas",
-  "MailSorter": "possimus",
+  "MessageId": "architecto",
+  "TimeSpent": 719,
+  "Body": "dolore",
+  "HtmlBody": "harum",
+  "EmailHeader": "connie@kreiger.com",
+  "DebugInfo": "ducimus",
+  "MailSorter": "dolorem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "neque",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 46,
-      "Name": "Schulist Group",
-      "Value": "consectetur",
+      "Id": 57,
+      "Name": "Dickinson, Gibson and Hermiston",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
+          "FieldType": "System.Int32",
+          "FieldLength": 758
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 841,
-  "SentimentConfidence": 871,
+  "Language": "porro",
+  "Sentiment": 308,
+  "SentimentConfidence": 292,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 887,
-      "Name": "Lakin-Metz",
-      "ContentType": "omnis",
-      "AttSize": 987,
+      "AttachmentId": 671,
+      "Name": "Jast, Koss and Bashirian",
+      "ContentType": "voluptatum",
+      "AttSize": 356,
       "InlineImage": false,
-      "ContentId": "cupiditate",
-      "AuthKey": "ab",
+      "ContentId": "nihil",
+      "AuthKey": "cum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldType": "System.String",
+          "FieldLength": 249
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "qui"
+    "CustomFields1": "numquam",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 706
     }
   }
 }

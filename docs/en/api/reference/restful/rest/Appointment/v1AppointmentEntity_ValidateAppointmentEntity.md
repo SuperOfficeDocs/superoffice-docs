@@ -117,7 +117,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,106 +125,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-08-16T17:54:07.9605954+02:00",
-  "AppointmentId": 649,
-  "Description": "Diverse interactive moratorium",
-  "Title": "distinctio",
-  "Agenda": "ratione",
-  "InternalNotes": "reprehenderit",
-  "StartDate": "2011-11-06T17:54:07.9605954+01:00",
-  "EndDate": "1998-02-05T17:54:07.9605954+01:00",
+  "CreatedDate": "2012-10-15T03:45:28.0765734+02:00",
+  "AppointmentId": 778,
+  "Description": "Digitized disintermediate capacity",
+  "Title": "sequi",
+  "Agenda": "eaque",
+  "InternalNotes": "mollitia",
+  "StartDate": "2009-11-07T03:45:28.0765734+01:00",
+  "EndDate": "2011-06-23T03:45:28.0765734+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 611,
+  "MotherId": 256,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-04-16T17:54:07.9762203+02:00",
+  "UpdatedDate": "2006-10-18T03:45:28.0765734+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 514,
+  "ActiveLinks": 314,
   "Links": [
     {
-      "EntityName": "Buckridge, Rau and Block",
-      "Id": 216,
-      "Description": "Mandatory grid-enabled architecture",
-      "ExtraInfo": "voluptas",
-      "LinkId": 870
+      "EntityName": "Fay Inc and Sons",
+      "Id": 105,
+      "Description": "Assimilated heuristic website",
+      "ExtraInfo": "saepe",
+      "LinkId": 445
     },
     {
-      "EntityName": "Buckridge, Rau and Block",
-      "Id": 216,
-      "Description": "Mandatory grid-enabled architecture",
-      "ExtraInfo": "voluptas",
-      "LinkId": 870
+      "EntityName": "Fay Inc and Sons",
+      "Id": 105,
+      "Description": "Assimilated heuristic website",
+      "ExtraInfo": "saepe",
+      "LinkId": 445
     }
   ],
-  "AlarmLeadTime": "officia",
-  "HasAlarm": false,
-  "ColorIndex": 258,
-  "IsFree": false,
+  "AlarmLeadTime": "reiciendis",
+  "HasAlarm": true,
+  "ColorIndex": 460,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "et",
-  "LeadTime": "sit",
-  "Location": "fugit",
-  "RejectCounter": 485,
-  "RejectReason": "",
+  "LagTime": "voluptas",
+  "LeadTime": "cumque",
+  "Location": "asperiores",
+  "RejectCounter": 248,
+  "RejectReason": "brand value-added channels",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 286,
-      "PersonId": 476,
-      "ContactId": 201,
-      "EmailId": 570,
-      "SendEmail": true,
+      "AssociateId": 280,
+      "PersonId": 528,
+      "ContactId": 941,
+      "EmailId": 960,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dell.nikolaus@braunmarquardt.biz",
-      "Description": "User-friendly incremental orchestration"
+      "EmailAddress": "dale_weber@okuneva.biz",
+      "Description": "Business-focused object-oriented definition"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-08-06T17:54:07.9762203+02:00",
+  "ActiveDate": "2022-11-22T03:45:28.0765734+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 754,
+  "PreferredTZLocation": 110,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 37,
+  "SuggestedAppointmentId": 402,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sapiente",
+  "CentralserviceVideomeetId": "non",
   "UserDefinedFields": {
-    "SuperOffice:1": "Lora Ernser III",
-    "SuperOffice:2": "Ursula Leuschke"
+    "SuperOffice:1": "1455002212",
+    "SuperOffice:2": "Miss Payton Cathy Becker II"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "ea",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2007-01-23T17:54:07.9762203+01:00",
-  "PublishTo": "2008-05-23T17:54:07.9762203+02:00",
-  "PublishFrom": "2024-05-21T17:54:07.9762203+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-02-27T03:45:28.0765734+01:00",
+  "PublishTo": "2008-03-29T03:45:28.0765734+01:00",
+  "PublishFrom": "2006-01-27T03:45:28.0765734+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 887,
+      "VisibleId": 264,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "voluptates"
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 264,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "voluptates"
     }
   ]
 }
@@ -237,7 +237,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aut",
-  "2": "laudantium"
+  "1": "qui",
+  "2": "magnam"
 }
 ```

@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 7,
+  "QuoteAlternativeId": 642,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 863,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 650,
-  "ERPProductKey": "quasi",
+  "QuoteLineId": 131,
+  "ERPQuoteLineKey": "est",
+  "QuoteAlternativeId": 800,
+  "ERPProductKey": "dicta",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 3202.948,
-  "DeliveredQuantity": 8781.4679999999989,
-  "Rank": 754,
-  "Name": "Grant LLC",
-  "Description": "Organic bifurcated core",
-  "Code": "quia",
+  "Quantity": 10191.768,
+  "DeliveredQuantity": 15375.403999999999,
+  "Rank": 154,
+  "Name": "Huels LLC",
+  "Description": "Re-contextualized neutral moratorium",
+  "Code": "nemo",
   "QuantityUnit": "aut",
-  "PriceUnit": "porro",
-  "ItemNumber": "872485",
+  "PriceUnit": "est",
+  "ItemNumber": "1140360",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "aut",
-  "ProductTypeKey": "sapiente",
-  "Supplier": "provident",
-  "SupplierCode": "ab",
-  "Thumbnail": "quas",
-  "VATInfo": "illo",
-  "VAT": 19355.584,
-  "UnitCost": 18202.272,
-  "UnitMinimumPrice": 12275.877999999999,
-  "UnitListPrice": 19289.77,
+  "ProductTypeKey": "consectetur",
+  "Supplier": "dolores",
+  "SupplierCode": "distinctio",
+  "Thumbnail": "quisquam",
+  "VATInfo": "dolores",
+  "VAT": 18888.618,
+  "UnitCost": 18217.942,
+  "UnitMinimumPrice": 6111.3,
+  "UnitListPrice": 20308.32,
   "ExtraInfo": [
     {
-      "Name": "Hegmann-Kreiger",
-      "Value": "praesentium",
+      "Name": "Weimann Group",
+      "Value": "rem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 751
         }
       }
     },
     {
-      "Name": "Hegmann-Kreiger",
-      "Value": "praesentium",
+      "Name": "Weimann Group",
+      "Value": "rem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 751
         }
       }
     }
   ],
-  "RawExtraInfo": "nam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "SubscriptionQuantity": 6311.876,
-  "SubscriptionStart": "2010-05-20T17:54:03.5389365+02:00",
-  "ERPDiscountPercent": 21872.185999999998,
-  "ERPDiscountAmount": 14391.328,
-  "DiscountPercent": 4848.298,
-  "DiscountAmount": 15917.586,
+  "RawExtraInfo": "ea",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 14541.76,
+  "SubscriptionStart": "2022-04-24T03:45:23.8266945+02:00",
+  "ERPDiscountPercent": 21552.518,
+  "ERPDiscountAmount": 20963.326,
+  "DiscountPercent": 28842.201999999997,
+  "DiscountAmount": 1134.508,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21445.962,
-  "EarningAmount": 21402.086,
-  "SubTotal": 14751.738,
-  "TotalPrice": 19067.255999999998,
-  "Rights": "similique",
-  "Rule": "in",
-  "ExtraField1": "et",
-  "ExtraField2": "officia",
-  "ExtraField3": "sint",
-  "ExtraField4": "voluptatem",
+  "EarningPercent": 20129.682,
+  "EarningAmount": 7615.62,
+  "SubTotal": 29456.466,
+  "TotalPrice": 14983.653999999999,
+  "Rights": "non",
+  "Rule": "aliquam",
+  "ExtraField1": "sed",
+  "ExtraField2": "libero",
+  "ExtraField3": "nemo",
+  "ExtraField4": "adipisci",
   "ExtraField5": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 607
     }
   }
 }

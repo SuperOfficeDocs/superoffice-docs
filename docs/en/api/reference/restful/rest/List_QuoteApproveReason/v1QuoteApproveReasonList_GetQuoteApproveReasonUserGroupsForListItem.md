@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Schiller Inc and Sons",
-    "ToolTip": "Cum enim voluptatem ullam dolor.",
+    "Id": 491,
+    "Name": "Casper-Hermann",
+    "ToolTip": "Nam est delectus debitis qui rerum enim.",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "minus",
-    "ColorBlock": 344,
-    "IconHint": "voluptas",
+    "Rank": 564,
+    "Type": "et",
+    "ColorBlock": 893,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2025-02-04T17:54:09.0074197+01:00",
+    "LastChanged": "2025-01-26T03:45:29.1859346+01:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Cole LLC",
-        "ToolTip": "Earum consequatur nihil voluptates reiciendis aut doloribus voluptatem.",
-        "Deleted": true,
-        "Rank": 162,
-        "Type": "omnis",
-        "ColorBlock": 569,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2022-07-25T17:54:09.0074197+02:00",
+        "Id": 966,
+        "Name": "Gleichner-Emard",
+        "ToolTip": "Veritatis ipsum.",
+        "Deleted": false,
+        "Rank": 128,
+        "Type": "rerum",
+        "ColorBlock": 300,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "1998-11-18T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "tempora",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Frances DuBuque",
+        "FullName": "Luisa Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldType": "System.Int32",
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quae",
+    "ExtraInfo": "sit",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Mr. Deondre Weissnat",
+    "FullName": "Miss Dillon Friesen DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

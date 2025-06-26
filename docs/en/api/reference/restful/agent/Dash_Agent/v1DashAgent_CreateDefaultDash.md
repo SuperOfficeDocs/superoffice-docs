@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 298,
-  "UniqueId": "aliquam",
-  "Name": "Kub-Grady",
-  "Description": "User-friendly holistic structure",
-  "AssociateId": 74,
-  "Columns": 840,
+  "DashboardId": 605,
+  "UniqueId": "nulla",
+  "Name": "Reynolds Inc and Sons",
+  "Description": "Secured context-sensitive initiative",
+  "AssociateId": 110,
+  "Columns": 370,
   "Theme": null,
-  "VisibleForAll": 44,
+  "VisibleForAll": 214,
   "VisibleForAssociates": [
-    479,
-    326
+    787,
+    996
   ],
   "VisibleForGroups": [
-    257,
-    780
+    390,
+    597
   ],
-  "PinForAll": 590,
+  "PinForAll": 514,
   "PinForAssociates": [
-    749,
-    627
+    245,
+    996
   ],
   "PinForGroups": [
-    229,
-    110
+    599,
+    782
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldLength": 864
     }
   }
 }

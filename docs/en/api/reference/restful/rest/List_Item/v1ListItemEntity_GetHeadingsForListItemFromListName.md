@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Fritsch Group",
-    "ToolTip": "Et quia sed ea autem ut aut.",
-    "Deleted": false,
-    "Rank": 100,
-    "Type": "tenetur",
-    "ColorBlock": 824,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2022-10-25T17:54:08.7886801+02:00",
+    "Id": 362,
+    "Name": "Koelpin-Deckow",
+    "ToolTip": "Autem ratione vel quas cum fuga sed tempora.",
+    "Deleted": true,
+    "Rank": 116,
+    "Type": "dolor",
+    "ColorBlock": 145,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2024-09-25T03:45:28.9517993+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Johnson-Johnson",
-        "ToolTip": "Est fugit veritatis velit fuga.",
-        "Deleted": false,
-        "Rank": 281,
-        "Type": "aut",
-        "ColorBlock": 39,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2007-10-07T17:54:08.7886801+02:00",
+        "Id": 79,
+        "Name": "Jerde Group",
+        "ToolTip": "Similique eos quasi alias facere sit perspiciatis.",
+        "Deleted": true,
+        "Rank": 666,
+        "Type": "ea",
+        "ColorBlock": 504,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2001-06-27T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "sit",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Tomasa Hahn",
+        "FullName": "Rose Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ut",
+    "ExtraInfo": "sed",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Stuart Feest",
+    "FullName": "Idella Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldLength": 645
       }
     }
   }

@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "non",
+  "Provider": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Bashirian-Wilkinson",
-      "Operator": "aut",
+      "Name": "McLaughlin, Nolan and Smitham",
+      "Operator": "rem",
       "Values": [
-        "dolor",
-        "voluptas"
+        "quo",
+        "est"
       ],
       "DisplayValues": [
-        "sit",
-        "autem"
+        "eius",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 424,
+      "InterParenthesis": 763,
       "InterOperator": "And",
-      "UniqueHash": 600
+      "UniqueHash": 912
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  664,
-  397
+  711,
+  580
 ]
 ```

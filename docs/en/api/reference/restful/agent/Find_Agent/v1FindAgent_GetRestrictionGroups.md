@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Langworth-Roob",
-  "StorageKey": "consectetur",
-  "Context": "nulla"
+  "StorageType": "quo",
+  "ProviderName": "Mraz, Schowalter and Mosciski",
+  "StorageKey": "reiciendis",
+  "Context": "consequatur"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray LLC",
-    "Description": "Up-sized 4th generation Graphical User Interface",
-    "Rank": 351,
+    "Name": "Davis-Thompson",
+    "Description": "Sharable composite application",
+    "Rank": 148,
     "Restrictions": [
       {
-        "Name": "Shanahan-Beahan",
-        "Operator": "culpa",
+        "Name": "Rohan Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "dolores",
-          "dolorem"
+          "ad",
+          "rem"
         ],
         "DisplayValues": [
-          "et",
-          "autem"
+          "mollitia",
+          "ipsam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 844,
+        "InterParenthesis": 926,
         "InterOperator": "And",
-        "UniqueHash": 711
+        "UniqueHash": 588
       }
     ]
   },
   {
-    "Name": "Murray LLC",
-    "Description": "Up-sized 4th generation Graphical User Interface",
-    "Rank": 351,
+    "Name": "Davis-Thompson",
+    "Description": "Sharable composite application",
+    "Rank": 148,
     "Restrictions": [
       {
-        "Name": "Shanahan-Beahan",
-        "Operator": "culpa",
+        "Name": "Rohan Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "dolores",
-          "dolorem"
+          "ad",
+          "rem"
         ],
         "DisplayValues": [
-          "et",
-          "autem"
+          "mollitia",
+          "ipsam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 844,
+        "InterParenthesis": 926,
         "InterOperator": "And",
-        "UniqueHash": 711
+        "UniqueHash": 588
       }
     ]
   }

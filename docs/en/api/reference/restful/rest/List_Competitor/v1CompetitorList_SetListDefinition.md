@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Farrell-Will",
-  "Tooltip": "consequatur",
+  "Id": 164,
+  "Name": "Paucek-Ledner",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 290,
+  "Rank": 550,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "velit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "O'Reilly, Kunze and Boyle",
-  "Tooltip": "sequi",
-  "Deleted": true,
-  "Rank": 116,
+  "Id": 134,
+  "Name": "Treutel LLC",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "Rank": 961,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sequi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldLength": 274
     }
   }
 }

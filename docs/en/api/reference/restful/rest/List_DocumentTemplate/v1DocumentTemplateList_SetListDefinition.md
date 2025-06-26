@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Mraz Inc and Sons",
-  "Tooltip": "nihil",
+  "Id": 664,
+  "Name": "Fahey, Murray and Bechtelar",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 917,
+  "Rank": 412,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "modi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Funk-Ortiz",
-  "Tooltip": "repellendus",
+  "Id": 652,
+  "Name": "Kiehn-Shanahan",
+  "Tooltip": "ratione",
   "Deleted": true,
-  "Rank": 275,
+  "Rank": 235,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 953
     }
   }
 }

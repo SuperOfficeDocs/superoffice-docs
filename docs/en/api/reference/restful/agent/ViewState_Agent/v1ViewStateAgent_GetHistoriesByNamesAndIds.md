@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Wyman-Bashirian",
-      "EntityOrParentId": 784,
+      "EntityName": "Schuppe-Erdman",
+      "EntityOrParentId": 702,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Wyman-Bashirian",
-      "EntityOrParentId": 784,
+      "EntityName": "Schuppe-Erdman",
+      "EntityOrParentId": 702,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 82,
-    "Id": 360,
-    "HistoryName": "Medhurst-Morissette",
-    "HistoryId": 196,
-    "AssociateId": 980,
-    "Name": "Smitham Group",
-    "ItemInfo": "quia",
+    "Rank": 593,
+    "Id": 468,
+    "HistoryName": "Breitenberg LLC",
+    "HistoryId": 737,
+    "AssociateId": 918,
+    "Name": "Thiel Group",
+    "ItemInfo": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

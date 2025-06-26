@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 636,
+  "PersonId": 564,
   "IncludeProjectDocuments": false,
-  "StartTime": "2017-08-13T17:54:02.9608392+02:00",
-  "EndTime": "2023-03-08T17:54:02.9608392+01:00",
-  "Count": 634,
+  "StartTime": "2012-12-06T03:45:23.2798335+01:00",
+  "EndTime": "2012-07-26T03:45:23.2798335+02:00",
+  "Count": 421,
   "DocumentTemplateIds": [
-    502,
-    454
+    118,
+    679
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 311,
-    "Attention": "incidunt",
-    "Header": "voluptatem",
-    "Name": "Frami Group",
-    "OurRef": "adipisci",
-    "YourRef": "est",
-    "Description": "Face to face discrete initiative",
-    "DocumentTemplate": "veritatis",
-    "IsPublished": true,
-    "PersonId": 527,
-    "PersonFullName": "Marcelino Eleazar Ullrich III",
-    "AssociateFullName": "Mr. Eleanora Lavonne Schulist V",
-    "ContactId": 291,
-    "ContactName": "Harber, Stamm and Schulist",
-    "ProjectId": 147,
-    "ProjectName": "Kub, Heathcote and Bartoletti",
-    "AssociateId": 400,
-    "Snum": 596,
-    "SaleId": 115,
-    "SaleName": "Howe-Ebert",
+    "DocumentId": 915,
+    "Attention": "sit",
+    "Header": "provident",
+    "Name": "Zulauf-Predovic",
+    "OurRef": "vel",
+    "YourRef": "quia",
+    "Description": "Inverse even-keeled orchestration",
+    "DocumentTemplate": "dolorem",
+    "IsPublished": false,
+    "PersonId": 466,
+    "PersonFullName": "Dr. Addison Nitzsche IV",
+    "AssociateFullName": "Camryn Stark",
+    "ContactId": 937,
+    "ContactName": "Okuneva-Gerhold",
+    "ProjectId": 311,
+    "ProjectName": "Russel-Brakus",
+    "AssociateId": 14,
+    "Snum": 491,
+    "SaleId": 824,
+    "SaleName": "Jones-Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

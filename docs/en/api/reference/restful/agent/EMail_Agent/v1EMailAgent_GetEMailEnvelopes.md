@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    5,
-    806
+    901,
+    495
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 790,
-    "MessageId": "iste",
-    "Subject": "non",
+    "ServerId": 515,
+    "MessageId": "eius",
+    "Subject": "et",
     "From": null,
     "To": [
       {
-        "ContactId": 771,
-        "ContactName": "Lindgren Group",
-        "PersonId": 34,
-        "PersonName": "Connelly-Wolff",
-        "AssociateId": 805,
-        "Address": "minima",
-        "EmailId": 864,
+        "ContactId": 730,
+        "ContactName": "Mertz, Marvin and Kulas",
+        "PersonId": 80,
+        "PersonName": "Jones-Jakubowski",
+        "AssociateId": 113,
+        "Address": "repellendus",
+        "EmailId": 812,
         "DuplicatePersonIds": [
-          113,
-          156
+          90,
+          447
         ],
-        "Name": "Shanahan Inc and Sons",
+        "Name": "Zieme LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 225
+            "FieldType": "System.Int32",
+            "FieldLength": 792
           }
         }
       }
     ],
-    "Sent": "2007-10-19T17:54:03.1170817+02:00",
+    "Sent": "2001-01-31T03:45:23.4360809+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 207,
+    "Size": 987,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 981
       }
     }
   }

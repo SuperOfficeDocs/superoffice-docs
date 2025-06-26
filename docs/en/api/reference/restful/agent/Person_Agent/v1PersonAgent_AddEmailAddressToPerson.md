@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 438,
-  "EmailAddress": "jeanne@schmeler.us",
-  "SetAsPrimaryEmail": true
+  "PersonId": 168,
+  "EmailAddress": "lulu@kerluke.com",
+  "SetAsPrimaryEmail": false
 }
 ```
 

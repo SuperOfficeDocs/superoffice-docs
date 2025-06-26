@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutkowski-Ritchie",
-    "Description": "Diverse zero tolerance focus group",
+    "Name": "Skiles Inc and Sons",
+    "Description": "Polarised encompassing framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 915,
-        "Tooltip": "at",
+        "Total": 802,
+        "Tooltip": "maxime",
         "CanAssign": false,
-        "Free": 316,
-        "InUse": 17,
+        "Free": 749,
+        "InUse": 608,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 758,
-        "Name": "O'Kon Group",
-        "Description": "Future-proofed value-added open architecture",
-        "PrerequisiteModuleName": "Paucek, Hammes and Walsh",
-        "SortOrder": 722,
-        "ExtraFlags": 133,
+        "Assigned": true,
+        "ModuleLicenseId": 988,
+        "Name": "Hackett Group",
+        "Description": "Total maximized moratorium",
+        "PrerequisiteModuleName": "Olson LLC",
+        "SortOrder": 569,
+        "ExtraFlags": 578,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldType": "System.String",
+            "FieldLength": 226
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 536,
-        "Tooltip": "tempore",
-        "CanAssign": false,
-        "Free": 799,
-        "InUse": 996,
+        "Unrestricted": true,
+        "Total": 385,
+        "Tooltip": "rem",
+        "CanAssign": true,
+        "Free": 253,
+        "InUse": 445,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 30,
-        "Name": "Stamm Group",
-        "Description": "Ameliorated non-volatile workforce",
-        "PrerequisiteModuleName": "Herman-Cruickshank",
-        "SortOrder": 115,
-        "ExtraFlags": 515,
+        "ModuleLicenseId": 784,
+        "Name": "Cruickshank, Grady and Denesik",
+        "Description": "Customer-focused object-oriented local area network",
+        "PrerequisiteModuleName": "Anderson-Rowe",
+        "SortOrder": 604,
+        "ExtraFlags": 985,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 552
+            "FieldType": "System.Int32",
+            "FieldLength": 32
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   },
   {
-    "Name": "Gutkowski-Ritchie",
-    "Description": "Diverse zero tolerance focus group",
+    "Name": "Skiles Inc and Sons",
+    "Description": "Polarised encompassing framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 915,
-        "Tooltip": "at",
+        "Total": 802,
+        "Tooltip": "maxime",
         "CanAssign": false,
-        "Free": 316,
-        "InUse": 17,
+        "Free": 749,
+        "InUse": 608,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 758,
-        "Name": "O'Kon Group",
-        "Description": "Future-proofed value-added open architecture",
-        "PrerequisiteModuleName": "Paucek, Hammes and Walsh",
-        "SortOrder": 722,
-        "ExtraFlags": 133,
+        "Assigned": true,
+        "ModuleLicenseId": 988,
+        "Name": "Hackett Group",
+        "Description": "Total maximized moratorium",
+        "PrerequisiteModuleName": "Olson LLC",
+        "SortOrder": 569,
+        "ExtraFlags": 578,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldType": "System.String",
+            "FieldLength": 226
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 536,
-        "Tooltip": "tempore",
-        "CanAssign": false,
-        "Free": 799,
-        "InUse": 996,
+        "Unrestricted": true,
+        "Total": 385,
+        "Tooltip": "rem",
+        "CanAssign": true,
+        "Free": 253,
+        "InUse": 445,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 30,
-        "Name": "Stamm Group",
-        "Description": "Ameliorated non-volatile workforce",
-        "PrerequisiteModuleName": "Herman-Cruickshank",
-        "SortOrder": 115,
-        "ExtraFlags": 515,
+        "ModuleLicenseId": 784,
+        "Name": "Cruickshank, Grady and Denesik",
+        "Description": "Customer-focused object-oriented local area network",
+        "PrerequisiteModuleName": "Anderson-Rowe",
+        "SortOrder": 604,
+        "ExtraFlags": 985,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 552
+            "FieldType": "System.Int32",
+            "FieldLength": 32
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

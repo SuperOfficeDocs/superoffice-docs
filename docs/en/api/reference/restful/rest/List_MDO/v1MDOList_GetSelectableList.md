@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=voluptatem
+GET /api/v1/MDOList/{listname}/selectable?additional=officia
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Nicolas-Abshire",
-    "ToolTip": "Ut voluptatem aut nulla distinctio quod ab.",
+    "Id": 109,
+    "Name": "Torp-Gottlieb",
+    "ToolTip": "Odit veritatis a eum pariatur ducimus.",
     "Deleted": false,
-    "Rank": 136,
-    "Type": "aliquam",
-    "ColorBlock": 135,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2007-05-21T17:54:08.9292989+02:00",
+    "Rank": 936,
+    "Type": "consequatur",
+    "ColorBlock": 1002,
+    "IconHint": "possimus",
+    "Selected": false,
+    "LastChanged": "2013-07-14T03:45:29.060917+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "West, Robel and Aufderhar",
-        "ToolTip": "Rerum ex et voluptatem dolor et.",
+        "Id": 196,
+        "Name": "Macejkovic, Turner and Harber",
+        "ToolTip": "Provident voluptas sed qui voluptatem temporibus.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "dolorem",
-        "ColorBlock": 645,
-        "IconHint": "quibusdam",
+        "Rank": 564,
+        "Type": "ullam",
+        "ColorBlock": 687,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2011-12-12T17:54:08.9292989+01:00",
+        "LastChanged": "2002-08-04T03:45:29.060917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Erin Fahey",
+        "FullName": "Mr. Kaia Jalyn Bernhard PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "impedit",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Vincenza Heller",
+    "FullName": "Mable Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 899
       }
     }
   }

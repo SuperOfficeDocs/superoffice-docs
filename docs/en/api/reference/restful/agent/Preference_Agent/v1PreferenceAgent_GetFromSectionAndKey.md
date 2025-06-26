@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "minima",
-  "Key": "aut"
+  "Section": "placeat",
+  "Key": "est"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 460,
-  "Section": "veniam",
-  "Key": "laboriosam",
-  "Name": "Mante, Gerlach and Robel",
+  "PrefDescId": 485,
+  "Section": "cupiditate",
+  "Key": "at",
+  "Name": "Kessler-Witting",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected dedicated artificial intelligence",
-  "IsBuiltin": false,
-  "TableName": "Huel, Deckow and Balistreri",
-  "UserDefinedListId": 507,
-  "Rank": 422,
-  "SubGroup": "velit",
-  "MinLevel": 833,
-  "MaxValue": 493,
-  "MinValue": 190,
-  "RequiredLicense": "placeat",
+  "Description": "Advanced disintermediate infrastructure",
+  "IsBuiltin": true,
+  "TableName": "Walter Inc and Sons",
+  "UserDefinedListId": 543,
+  "Rank": 984,
+  "SubGroup": "quia",
+  "MinLevel": 119,
+  "MaxValue": 988,
+  "MinValue": 888,
+  "RequiredLicense": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

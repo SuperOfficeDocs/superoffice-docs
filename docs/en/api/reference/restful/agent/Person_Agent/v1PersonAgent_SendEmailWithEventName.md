@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "eius",
-  "To": "inventore",
-  "Subject": "veritatis",
-  "PlainBody": "ipsa",
-  "HtmlBody": "quo",
+  "From": "et",
+  "To": "animi",
+  "Subject": "et",
+  "PlainBody": "voluptatem",
+  "HtmlBody": "aut",
   "AttachmentIds": [
-    251,
-    731
+    810,
+    709
   ],
-  "EventName": "Hodkiewicz, Runolfsson and Murray"
+  "EventName": "Strosin-Gerlach"
 }
 ```
 

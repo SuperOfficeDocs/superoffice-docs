@@ -135,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 461,
-  "SaleId": 389,
-  "CreateNow": true,
-  "OwnerId": 866
+  "SuggestedAppointmentId": 450,
+  "SaleId": 229,
+  "CreateNow": false,
+  "OwnerId": 749
 }
 ```
 
@@ -157,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-10-23T17:54:02.5858576+02:00",
-  "AppointmentId": 672,
-  "Description": "Profit-focused empowering contingency",
-  "Title": "nam",
-  "Agenda": "sunt",
-  "InternalNotes": "ullam",
-  "StartDate": "2019-04-15T17:54:02.5858576+02:00",
-  "EndDate": "2001-09-26T17:54:02.5858576+02:00",
+  "CreatedDate": "2021-11-22T03:45:22.9048421+01:00",
+  "AppointmentId": 816,
+  "Description": "Persistent 24 hour internet solution",
+  "Title": "soluta",
+  "Agenda": "rem",
+  "InternalNotes": "quae",
+  "StartDate": "2018-02-21T03:45:22.9048421+01:00",
+  "EndDate": "2002-02-05T03:45:22.9048421+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 589,
+  "MotherId": 591,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-06-23T17:54:02.5858576+02:00",
+  "UpdatedDate": "2005-06-25T03:45:22.9048421+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 741,
+  "ActiveLinks": 559,
   "Links": [
     {
-      "EntityName": "Swaniawski-Roberts",
-      "Id": 65,
-      "Description": "Object-based uniform emulation",
-      "ExtraInfo": "corporis",
-      "LinkId": 96,
+      "EntityName": "Schiller LLC",
+      "Id": 853,
+      "Description": "Future-proofed even-keeled Graphical User Interface",
+      "ExtraInfo": "distinctio",
+      "LinkId": 634,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 875
         }
       }
     }
   ],
   "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 34,
+  "ColorIndex": 25,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "atque",
-  "LeadTime": "qui",
-  "Location": "sit",
-  "RejectCounter": 689,
+  "LagTime": "non",
+  "LeadTime": "et",
+  "Location": "eligendi",
+  "RejectCounter": 273,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 155,
-      "PersonId": 615,
-      "ContactId": 554,
-      "EmailId": 395,
-      "SendEmail": false,
+      "AssociateId": 232,
+      "PersonId": 253,
+      "ContactId": 650,
+      "EmailId": 369,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "susie@zulauf.name",
-      "Description": "Multi-tiered object-oriented superstructure"
+      "EmailAddress": "brandi_okuneva@bechtelar.info",
+      "Description": "Ergonomic well-modulated interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-06-01T17:54:02.5858576+02:00",
+  "ActiveDate": "2007-02-18T03:45:22.9048421+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 481,
+  "PreferredTZLocation": 252,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 950,
+  "SuggestedAppointmentId": 848,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "adipisci",
+  "CentralserviceVideomeetId": "ipsam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Damaris Mueller",
-    "SuperOffice:2": "Marty Jaskolski"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Haven Elody Zemlak"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "beatae"
+    "CustomFields1": "numquam",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2019-12-17T17:54:02.5858576+01:00",
-  "PublishTo": "2000-08-21T17:54:02.5858576+02:00",
-  "PublishFrom": "2023-02-08T17:54:02.5858576+01:00",
+  "PublishEventDate": "2019-08-06T03:45:22.9048421+02:00",
+  "PublishTo": "2003-09-23T03:45:22.9048421+02:00",
+  "PublishFrom": "2018-05-09T03:45:22.9048421+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 909,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldLength": 395
         }
       }
     },
     {
-      "VisibleId": 909,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldLength": 395
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

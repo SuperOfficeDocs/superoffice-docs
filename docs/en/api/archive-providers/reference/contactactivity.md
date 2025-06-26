@@ -1272,7 +1272,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=whenEnded,person/personExtra/y_rental/x_start,contact/contactExtra/x_contact_default_integer,contact/contactExtra/x_contact_longtext,sale/completed
+GET /api/v1/archive/ContactActivity?$select=contact/restrictionAddress/line2,contact/contactUdef/SuperOffice:4,projectId,project/type,project/projectAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

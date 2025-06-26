@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 916,
-  "ERPPriceListKey": "eligendi",
-  "QuoteConnectionId": 881,
-  "Name": "Auer-Schimmel",
-  "Description": "Synergistic web-enabled adapter",
-  "Currency": "iste",
-  "CurrencyName": "Bergnaum Group",
-  "ValidFrom": "2008-05-18T17:54:08.9605465+02:00",
-  "ValidTo": "1999-06-23T17:54:08.9605465+02:00",
-  "IsActive": false,
+  "PriceListId": 278,
+  "ERPPriceListKey": "reprehenderit",
+  "QuoteConnectionId": 341,
+  "Name": "Kutch Inc and Sons",
+  "Description": "Cloned explicit moratorium",
+  "Currency": "cum",
+  "CurrencyName": "Stark Inc and Sons",
+  "ValidFrom": "1998-09-16T03:45:29.0765432+02:00",
+  "ValidTo": "2016-05-21T03:45:29.0765432+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 196
     }
   }
 }

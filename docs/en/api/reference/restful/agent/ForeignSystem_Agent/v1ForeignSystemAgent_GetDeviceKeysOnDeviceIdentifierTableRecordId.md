@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sauer-Bartell",
-  "DeviceName": "Halvorson, Grimes and Hagenes",
-  "DeviceIdentifier": "qui",
-  "TableName": "Ward, Renner and Strosin",
-  "RecordId": 891
+  "ApplicationName": "Mayert, Hoeger and Davis",
+  "DeviceName": "Dooley-Dare",
+  "DeviceIdentifier": "laborum",
+  "TableName": "Goldner-Rolfson",
+  "RecordId": 690
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "hic",
-    "Value": "amet",
-    "RecordId": 113,
-    "CreatedDate": "2012-02-25T17:54:03.1795788+01:00",
-    "UpdatedDate": "2019-09-25T17:54:03.1795788+02:00",
-    "UpdatedBy": "ducimus",
-    "CreatedBy": "modi",
-    "TableName": "Hamill Inc and Sons",
+    "Key": "aut",
+    "Value": "sunt",
+    "RecordId": 859,
+    "CreatedDate": "2013-10-14T03:45:23.498579+02:00",
+    "UpdatedDate": "1998-04-16T03:45:23.498579+02:00",
+    "UpdatedBy": "omnis",
+    "CreatedBy": "dolorem",
+    "TableName": "Gibson, Donnelly and Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldLength": 334
       }
     }
   }

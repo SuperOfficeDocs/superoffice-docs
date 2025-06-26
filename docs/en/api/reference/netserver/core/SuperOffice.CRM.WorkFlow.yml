@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Workflow.CreateFollowUpSettings
   - SuperOffice.CRM.Workflow.CreateRequestSettings
   - SuperOffice.CRM.Workflow.CreateSaleSettings
+  - SuperOffice.CRM.Workflow.DistributeToOwnerSettings
   - SuperOffice.CRM.Workflow.FlowEngineState
   - SuperOffice.CRM.Workflow.IWorkflowEngine
   - SuperOffice.CRM.Workflow.IWorkflowUtil
@@ -34,6 +35,7 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
   - SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  - SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner
   - SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
   - SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
@@ -137,6 +139,21 @@ references:
   name: WorkflowStepCreateSale
   nameWithType: WorkflowStepCreateSale
   fullName: SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Workflow.DistributeToOwnerSettings
+  commentId: T:SuperOffice.CRM.Workflow.DistributeToOwnerSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.DistributeToOwnerSettings.html
+  name: DistributeToOwnerSettings
+  nameWithType: DistributeToOwnerSettings
+  fullName: SuperOffice.CRM.Workflow.DistributeToOwnerSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner.html
+  name: WorkflowStepDistributeToOwner
+  nameWithType: WorkflowStepDistributeToOwner
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner
 - uid: SuperOffice.CRM.Workflow.NotifyByEmailSettings
   commentId: T:SuperOffice.CRM.Workflow.NotifyByEmailSettings
   parent: SuperOffice.CRM.Workflow

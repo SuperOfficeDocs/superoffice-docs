@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "est",
-      "Key": "corrupti"
+      "Section": "nisi",
+      "Key": "est"
     },
     {
-      "Section": "est",
-      "Key": "corrupti"
+      "Section": "nisi",
+      "Key": "est"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "deserunt",
+    "RawValue": "amet",
     "Specification": null,
-    "DisplayValue": "velit",
-    "DisplayTooltip": "tempora",
+    "DisplayValue": "laboriosam",
+    "DisplayTooltip": "facere",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 613,
-    "PrefDescId": 676,
-    "TableName": "Kutch-Sawayn",
-    "UserPreferenceId": 361,
+    "TargetId": 185,
+    "PrefDescId": 972,
+    "TableName": "Adams-Hills",
+    "UserPreferenceId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 581
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 913
+  "ContactId": 803
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 296,
-    "Name": "Collins Group",
-    "Description": "Advanced impactful monitoring",
+    "ProjectId": 904,
+    "Name": "Williamson-Reilly",
+    "Description": "Robust 4th generation standardization",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 432,
-    "AssociateFullName": "Shanny Konopelski",
-    "TypeId": 966,
-    "Updated": "2005-04-12T17:54:03.4920634+02:00",
-    "StatusId": 99,
-    "Status": "mollitia",
-    "TextId": 63,
-    "PublishTo": "2012-01-04T17:54:03.4920634+01:00",
-    "PublishFrom": "2005-01-18T17:54:03.4920634+01:00",
-    "IsPublished": false,
+    "Type": "dolorem",
+    "AssociateId": 46,
+    "AssociateFullName": "June Dudley Leuschke V",
+    "TypeId": 174,
+    "Updated": "2009-05-22T03:45:23.7798203+02:00",
+    "StatusId": 995,
+    "Status": "amet",
+    "TextId": 467,
+    "PublishTo": "2000-01-10T03:45:23.7798203+01:00",
+    "PublishFrom": "2013-04-20T03:45:23.7798203+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "955895",
-    "ActiveErpLinks": 16,
+    "ProjectNumber": "933082",
+    "ActiveErpLinks": 531,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 639
       }
     }
   }

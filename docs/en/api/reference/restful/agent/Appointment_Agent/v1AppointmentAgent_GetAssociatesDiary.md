@@ -128,16 +128,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    175,
-    339
+    404,
+    868
   ],
-  "StartTime": "2006-04-04T17:54:02.3983677+02:00",
-  "EndTime": "2023-05-31T17:54:02.3983677+02:00"
+  "StartTime": "2012-10-16T03:45:22.7017267+02:00",
+  "EndTime": "2020-09-02T03:45:22.7017267+02:00"
 }
 ```
 
@@ -149,66 +149,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 439,
-    "StartDate": "2005-07-09T17:54:02.3983677+02:00",
-    "EndDate": "2016-08-28T17:54:02.3983677+02:00",
+    "AppointmentId": 104,
+    "StartDate": "2004-04-09T03:45:22.7017267+02:00",
+    "EndDate": "2018-01-08T03:45:22.7017267+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolore",
-    "AssociateFullName": "Hobart Goodwin",
-    "ContactName": "White Inc and Sons",
-    "Description": "Multi-channelled analyzing paradigm",
-    "PersonFullName": "Vince Prohaska",
-    "PersonId": 184,
-    "ContactId": 100,
-    "ProjectId": 407,
-    "ProjectName": "Runte Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 969,
-    "ColorIndex": 945,
+    "Task": "saepe",
+    "AssociateFullName": "Susanna Welch",
+    "ContactName": "Champlin Group",
+    "Description": "Optimized neutral internet solution",
+    "PersonFullName": "Presley Bailey",
+    "PersonId": 352,
+    "ContactId": 385,
+    "ProjectId": 707,
+    "ProjectName": "Cummings Group",
+    "IsPublished": true,
+    "AssociateId": 372,
+    "ColorIndex": 29,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 156,
-    "PriorityName": "Harber LLC",
+    "PriorityId": 314,
+    "PriorityName": "Lemke, Steuber and Pacocha",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-12-04T17:54:02.3983677+01:00",
+    "ActiveDate": "2009-11-22T03:45:22.7017267+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-10-22T17:54:02.3983677+02:00",
-    "RecurringEndDate": "2021-06-25T17:54:02.3983677+02:00",
-    "MotherId": 221,
-    "AssignedBy": 264,
-    "AssignedByFullName": "Kayley Okuneva",
+    "RecurringStartDate": "2025-01-25T03:45:22.7017267+01:00",
+    "RecurringEndDate": "2013-12-12T03:45:22.7017267+01:00",
+    "MotherId": 919,
+    "AssignedBy": 148,
+    "AssignedByFullName": "Clara Jones",
     "RejectReason": "",
-    "Location": "ad",
-    "AlarmLeadTime": "sequi",
-    "SaleId": 496,
-    "SaleName": "Jaskolski LLC",
-    "AssociateName": "Jacobi, Wolff and Schowalter",
-    "CreatedDate": "2010-04-02T17:54:02.3983677+02:00",
-    "CreatedBy": "asperiores",
-    "CreatedByFullName": "Elwin Fatima Nolan Jr.",
-    "CreatedByAssociateId": 705,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "quidem",
+    "SaleId": 111,
+    "SaleName": "Rogahn-Feest",
+    "AssociateName": "Schmidt LLC",
+    "CreatedDate": "2015-03-03T03:45:22.7017267+01:00",
+    "CreatedBy": "tempora",
+    "CreatedByFullName": "Vincenzo Leannon Sr.",
+    "CreatedByAssociateId": 508,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 1001,
-    "Title": "perspiciatis",
-    "Agenda": "praesentium",
-    "InternalNotes": "libero",
+    "PreferredTZLocation": 507,
+    "Title": "eaque",
+    "Agenda": "et",
+    "InternalNotes": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 311
       }
     }
   }

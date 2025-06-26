@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Spencer LLC",
-  "Comment": "ullam",
-  "StakeholderRoleId": 559,
-  "CountryId": 205,
-  "PersonId": 141,
-  "EmailDescription": "maria@kuvalis.info",
-  "EmailId": 492,
-  "EmailAddress": "coleman.heathcote@heidenreichkemmer.name",
-  "PhoneId": 699,
-  "ContactName": "Wunsch Group",
-  "ContactId": 880,
-  "SaleId": 207,
-  "Mrmrs": "rerum",
-  "Firstname": "Donald",
-  "MiddleName": "Mann Inc and Sons",
-  "Lastname": "Johns",
-  "SaleStakeholderId": 67,
-  "Rank": 254,
-  "Phone": "(354)928-6577 x78431"
+  "StakeholderRoleName": "Cummerata-Champlin",
+  "Comment": "enim",
+  "StakeholderRoleId": 946,
+  "CountryId": 770,
+  "PersonId": 605,
+  "EmailDescription": "mose_mitchell@goodwinmurphy.co.uk",
+  "EmailId": 12,
+  "EmailAddress": "samantha_buckridge@berge.ca",
+  "PhoneId": 283,
+  "ContactName": "Aufderhar, Price and Maggio",
+  "ContactId": 500,
+  "SaleId": 948,
+  "Mrmrs": "eos",
+  "Firstname": "Brandon",
+  "MiddleName": "Boehm, Monahan and Moen",
+  "Lastname": "Trantow",
+  "SaleStakeholderId": 219,
+  "Rank": 529,
+  "Phone": "650.804.6981 x0335"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Walsh, Goyette and Bashirian",
-  "Comment": "omnis",
-  "StakeholderRoleId": 828,
-  "CountryId": 520,
-  "PersonId": 647,
-  "EmailDescription": "karlee.pollich@purdy.name",
-  "EmailId": 321,
-  "EmailAddress": "dereck@oconnell.info",
-  "PhoneId": 558,
-  "ContactName": "Fay Group",
-  "ContactId": 346,
-  "SaleId": 956,
-  "Mrmrs": "facere",
-  "Firstname": "Spencer",
-  "MiddleName": "Leannon LLC",
-  "Lastname": "Conn",
-  "SaleStakeholderId": 786,
-  "Rank": 587,
-  "Phone": "1-272-221-2647 x939",
+  "StakeholderRoleName": "Watsica, Strosin and Armstrong",
+  "Comment": "quia",
+  "StakeholderRoleId": 481,
+  "CountryId": 64,
+  "PersonId": 189,
+  "EmailDescription": "edwina.streich@ondricka.uk",
+  "EmailId": 645,
+  "EmailAddress": "adalberto_green@erdman.co.uk",
+  "PhoneId": 602,
+  "ContactName": "Bergstrom, Rempel and Anderson",
+  "ContactId": 837,
+  "SaleId": 512,
+  "Mrmrs": "a",
+  "Firstname": "Derek",
+  "MiddleName": "Goodwin, Conn and Altenwerth",
+  "Lastname": "Goldner",
+  "SaleStakeholderId": 251,
+  "Rank": 291,
+  "Phone": "433-097-2614",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

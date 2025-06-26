@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "Roberts-Gutmann",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "UdListDefinitionId": 633,
-  "Rank": 939,
+  "Id": 403,
+  "Name": "Walsh Inc and Sons",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "UdListDefinitionId": 184,
+  "Rank": 421,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 12
     }
   }
 }

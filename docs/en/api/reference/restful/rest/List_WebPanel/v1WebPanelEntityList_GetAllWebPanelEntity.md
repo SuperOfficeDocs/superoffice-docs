@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 348,
-    "Name": "Feil, Upton and Lakin",
-    "Tooltip": "rerum",
+    "WebPanelId": 124,
+    "Name": "Goodwin Inc and Sons",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 478,
+    "Rank": 92,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": true,
-    "WindowName": "Hermann Inc and Sons",
+    "WindowName": "Greenfelder Group",
     "Url": "http://www.example.com/",
-    "ProgId": "nostrum",
-    "Icon": 32,
+    "ProgId": "ut",
+    "Icon": 445,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 842
       }
     }
   }

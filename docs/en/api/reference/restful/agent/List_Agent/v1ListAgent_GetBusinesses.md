@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Value": "est",
-    "Tooltip": "explicabo",
+    "Id": 424,
+    "Value": "non",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 214
       }
     }
   },
   {
-    "Id": 504,
-    "Value": "est",
-    "Tooltip": "explicabo",
+    "Id": 424,
+    "Value": "non",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 214
       }
     }
   }

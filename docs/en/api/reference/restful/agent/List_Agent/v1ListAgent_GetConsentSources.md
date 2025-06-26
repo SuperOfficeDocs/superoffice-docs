@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 362,
-    "Name": "Larson, Ritchie and Durgan",
-    "Tooltip": "excepturi",
-    "Rank": 772,
-    "Key": "voluptates",
-    "MailTemplateId": 987,
+    "ConsentSourceId": 390,
+    "Name": "Reichel-Feil",
+    "Tooltip": "cumque",
+    "Rank": 310,
+    "Key": "ducimus",
+    "MailTemplateId": 74,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldLength": 985
       }
     }
   }

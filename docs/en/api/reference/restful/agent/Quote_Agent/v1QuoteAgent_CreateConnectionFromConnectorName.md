@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Rath-Frami"
+  "ConnectorName": "Beier-Schoen"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 187,
-  "ERPName": "Pfeffer, Reichert and Hauck",
-  "DisplayName": "Sipes, Orn and Hodkiewicz",
-  "DisplayDescription": "Progressive upward-trending knowledge base",
-  "Rank": 724,
-  "ConnectorName": "Murphy-Wunsch",
-  "ErpConnectionId": 202,
-  "ExtraData": "quaerat",
+  "QuoteConnectionId": 618,
+  "ERPName": "Steuber-Bergstrom",
+  "DisplayName": "Wiegand, Bernier and Kertzmann",
+  "DisplayDescription": "Vision-oriented regional monitoring",
+  "Rank": 850,
+  "ConnectorName": "Renner, Jast and Abbott",
+  "ErpConnectionId": 238,
+  "ExtraData": "quia",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 862,
-      "ERPPriceListKey": "est",
-      "QuoteConnectionId": 280,
-      "Name": "Shanahan-Dickinson",
-      "Description": "Future-proofed maximized attitude",
-      "Currency": "sed",
-      "CurrencyName": "McClure-Streich",
-      "ValidFrom": "2019-10-20T17:54:03.5233118+02:00",
-      "ValidTo": "2003-12-08T17:54:03.5233118+01:00",
-      "IsActive": true,
+      "PriceListId": 350,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 477,
+      "Name": "Dickens Inc and Sons",
+      "Description": "Assimilated zero defect solution",
+      "Currency": "qui",
+      "CurrencyName": "Stoltenberg, Nikolaus and Lockman",
+      "ValidFrom": "2006-09-17T03:45:23.8266945+02:00",
+      "ValidTo": "2005-08-17T03:45:23.8266945+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 976
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    258,
-    929
+    424,
+    298
   ],
   "AssociateAccessIds": [
-    271,
-    73
+    760,
+    257
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

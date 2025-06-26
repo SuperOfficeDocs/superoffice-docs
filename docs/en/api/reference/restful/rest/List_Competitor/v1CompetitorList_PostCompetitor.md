@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Schuster-Huel",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "UdListDefinitionId": 630,
-  "Rank": 257
+  "Id": 313,
+  "Name": "Graham Group",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "UdListDefinitionId": 101,
+  "Rank": 220
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Reichert Inc and Sons",
-  "Tooltip": "sunt",
+  "Id": 445,
+  "Name": "Dach-Mitchell",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 869,
-  "Rank": 173,
+  "UdListDefinitionId": 445,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldLength": 899
     }
   }
 }

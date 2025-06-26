@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 777,
+  "UdListDefinitionId": 745,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Wiegand, Stark and Koss",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "UdListDefinitionId": 137,
-  "Rank": 611,
+  "Id": 103,
+  "Name": "Legros Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 593,
+  "Rank": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   }
 }

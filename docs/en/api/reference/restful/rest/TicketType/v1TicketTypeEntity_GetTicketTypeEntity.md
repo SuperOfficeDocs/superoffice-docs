@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 203,
-  "Name": "Will Group",
-  "Rank": 246,
-  "Tooltip": "consectetur",
-  "Icon": "ullam",
-  "DefaultTicketStatus": 857,
+  "TicketTypeId": 957,
+  "Name": "Jacobi-Hyatt",
+  "Rank": 821,
+  "Tooltip": "et",
+  "Icon": "id",
+  "DefaultTicketStatus": 135,
   "TicketStatuses": [
-    834,
-    697
+    520,
+    727
   ],
-  "DefaultTicketPriority": 245,
+  "DefaultTicketPriority": 95,
   "TicketPriorities": [
-    803,
-    607
+    691,
+    819
   ],
-  "ReplyTemplate": 27,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 2,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    308,
-    986
+    89,
+    462
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 475
     }
   },
   "_Links": {

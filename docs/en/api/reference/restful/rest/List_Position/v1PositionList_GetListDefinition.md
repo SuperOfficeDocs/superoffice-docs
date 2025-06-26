@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Zieme Inc and Sons",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 100,
+  "Id": 902,
+  "Name": "Haag-Gleason",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 436,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   },
   "_Links": {

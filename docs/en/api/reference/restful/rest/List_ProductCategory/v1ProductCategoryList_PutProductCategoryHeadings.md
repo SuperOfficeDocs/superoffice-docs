@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Johnston Inc and Sons",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 213
+    "HeadingId": 312,
+    "Name": "Barton-Jaskolski",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 678,
+    "UdListDefinitionId": 663
   },
   {
-    "HeadingId": 147,
-    "Name": "Johnston Inc and Sons",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 213
+    "HeadingId": 312,
+    "Name": "Barton-Jaskolski",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 678,
+    "UdListDefinitionId": 663
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Christiansen, Stamm and Greenholt",
-    "Tooltip": "ratione",
+    "HeadingId": 80,
+    "Name": "Gutmann Inc and Sons",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 799,
+    "Rank": 982,
+    "UdListDefinitionId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldLength": 245
       }
     }
   }

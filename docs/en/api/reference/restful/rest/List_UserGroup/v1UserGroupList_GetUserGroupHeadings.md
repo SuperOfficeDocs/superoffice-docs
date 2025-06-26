@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 13,
-    "Name": "Harvey-Harvey",
-    "Tooltip": "voluptas",
+    "HeadingId": 396,
+    "Name": "Wolf-Connelly",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 147,
-    "UdListDefinitionId": 375,
+    "Rank": 436,
+    "UdListDefinitionId": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 626
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Corkery, Lehner and Jones",
-    "ToolTip": "Quibusdam expedita nostrum qui.",
-    "Deleted": false,
-    "Rank": 206,
-    "Type": "itaque",
-    "ColorBlock": 680,
-    "IconHint": "sapiente",
+    "Id": 14,
+    "Name": "Bartell LLC",
+    "ToolTip": "Quibusdam eos ea.",
+    "Deleted": true,
+    "Rank": 688,
+    "Type": "fugit",
+    "ColorBlock": 3,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2015-09-10T17:54:08.9449229+02:00",
+    "LastChanged": "2016-12-29T03:45:29.0765432+01:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Beahan, Lueilwitz and Boyle",
-        "ToolTip": "Eius mollitia quia alias ea laudantium.",
+        "Id": 769,
+        "Name": "Swaniawski-Stroman",
+        "ToolTip": "Blanditiis soluta asperiores est.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "est",
-        "ColorBlock": 568,
-        "IconHint": "qui",
+        "Rank": 689,
+        "Type": "iure",
+        "ColorBlock": 94,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2006-08-10T17:54:08.9449229+02:00",
+        "LastChanged": "2005-07-22T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "atque",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Eduardo Larkin DDS",
+        "FullName": "Amalia Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldType": "System.String",
+            "FieldLength": 850
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "est",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Gardner Quigley",
+    "FullName": "Mr. Arnulfo Wisozk Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 305
       }
     }
   }

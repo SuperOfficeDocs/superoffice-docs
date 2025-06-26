@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 109,
-  "Name": "Schiller-Schmidt",
+  "SelectionId": 981,
+  "Name": "Ritchie, Cronin and Gaylord",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total fault-tolerant pricing structure",
-  "Postit": "vitae",
+  "Description": "Profound global Graphic Interface",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 194,
-  "IncludePerson": 298,
+  "GroupIdx": 957,
+  "IncludePerson": 130,
   "MemberCount": 99.99,
-  "Name": "Kiehn LLC",
-  "PostitTextId": 739,
-  "CreatedDate": "2012-07-14T17:54:03.6170572+02:00",
-  "SelectionId": 299,
-  "SoundEx": "perferendis",
-  "Source": 65,
-  "TextId": 193,
-  "UpdatedDate": "2024-06-28T17:54:03.6170572+02:00",
-  "UpdatedCount": 875,
-  "Visibility": 395,
+  "Name": "Champlin-Batz",
+  "PostitTextId": 439,
+  "CreatedDate": "2012-02-15T03:45:23.9048172+01:00",
+  "SelectionId": 907,
+  "SoundEx": "omnis",
+  "Source": 210,
+  "TextId": 83,
+  "UpdatedDate": "2022-11-19T03:45:23.9048172+01:00",
+  "UpdatedCount": 461,
+  "Visibility": 279,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 691,
-  "TargetTableName": "Collins, Ondricka and Willms",
+  "CompanyUnique": false,
+  "TargetTableNumber": 202,
+  "TargetTableName": "Halvorson LLC",
   "Completed": false,
-  "LeftSelectionId": 119,
-  "RightSelectionId": 954,
+  "LeftSelectionId": 864,
+  "RightSelectionId": 800,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haley Group",
-  "ShadowProviderName": "Jewess, Dooley and Krajcik",
-  "ChartKey": "temporibus",
-  "LastLoaded": "2009-08-20T17:54:03.6170572+02:00",
-  "LastLoadedBy": 22,
+  "MainProviderName": "Parker Group",
+  "ShadowProviderName": "Dare Inc and Sons",
+  "ChartKey": "explicabo",
+  "LastLoaded": "2015-12-10T03:45:23.9048172+01:00",
+  "LastLoadedBy": 782,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-01-17T17:54:03.6170572+01:00",
-  "LastMembershipChangeBy": 8,
+  "LastMembershipChange": "2025-02-10T03:45:23.9048172+01:00",
+  "LastMembershipChangeBy": 589,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "perspiciatis",
-  "MemberTabHeading": "suscipit",
-  "MailingsProviderName": "Hudson-Anderson",
-  "DashboardTileDefinitionId": 243,
+  "MainHeading": "aliquam",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Jones, Kessler and Koepp",
+  "DashboardTileDefinitionId": 808,
   "VisibleFor": [
     {
-      "VisibleId": 706,
+      "VisibleId": 542,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 706,
+      "VisibleId": 542,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 456
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 679
     }
   }
 }

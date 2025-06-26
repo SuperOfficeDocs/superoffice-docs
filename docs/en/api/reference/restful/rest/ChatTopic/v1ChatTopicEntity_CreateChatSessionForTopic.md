@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 587,
-  "TopicId": 60,
+  "ChatSessionId": 212,
+  "TopicId": 444,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "tempore",
-  "CustomerName": "Kuhlman, Rempel and Dare",
-  "CustomerEmail": "ruthie@towne.info",
-  "CustomerPhone": "340-414-2020 x5879",
+  "CustomerAlias": "optio",
+  "CustomerHost": "aut",
+  "CustomerName": "Glover LLC",
+  "CustomerEmail": "libby@gaylordrunte.us",
+  "CustomerPhone": "1-546-197-3286 x9039",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Maggio-O'Reilly",
+  "CustomerCompanyName": "Bayer-Romaguera",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "incidunt",
-  "WhenRequested": "2012-11-30T17:54:08.0699594+01:00",
-  "WhenStarted": "2013-02-03T17:54:08.0699594+01:00",
-  "WhenEnded": "2022-02-19T17:54:08.0699594+01:00",
-  "WhenIdle": "2014-08-05T17:54:08.0699594+02:00",
-  "WhenFetched": "2017-01-06T17:54:08.0699594+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 617,
-  "AlertLevel": 512,
-  "Rank": 104,
+  "FirstMessage": "aliquam",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2015-05-16T03:45:28.1703207+02:00",
+  "WhenStarted": "2018-04-18T03:45:28.1703207+02:00",
+  "WhenEnded": "2022-02-08T03:45:28.1703207+01:00",
+  "WhenIdle": "2024-03-26T03:45:28.1703207+01:00",
+  "WhenFetched": "2013-01-15T03:45:28.1703207+01:00",
+  "SessionKey": "dolore",
+  "InitialQueuePos": 941,
+  "AlertLevel": 144,
+  "Rank": 417,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -129,13 +129,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 812,
+  "Rating": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

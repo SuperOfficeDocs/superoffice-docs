@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "possimus",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-07-31T17:54:08.5230811+02:00",
-  "Amount": 1858.462,
-  "SaleId": 922,
-  "Earning": 9474.082,
-  "EarningPercent": 1002.88,
-  "Heading": "consequuntur",
-  "Number": "1213339",
-  "Probability": 63,
-  "CreatedDate": "2005-01-08T17:54:08.5230811+01:00",
-  "UpdatedDate": "2019-06-05T17:54:08.5230811+02:00",
+  "Saledate": "2021-02-27T03:45:28.6390567+01:00",
+  "Amount": 28607.152,
+  "SaleId": 644,
+  "Earning": 16647.808,
+  "EarningPercent": 9984.9239999999991,
+  "Heading": "neque",
+  "Number": "1191862",
+  "Probability": 983,
+  "CreatedDate": "2007-02-06T03:45:28.6390567+01:00",
+  "UpdatedDate": "2011-04-18T03:45:28.6390567+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 750,
+  "ActiveLinks": 863,
   "Links": [
     {
-      "EntityName": "Schowalter-Reichert",
-      "Id": 429,
-      "Description": "Universal 5th generation pricing structure",
-      "ExtraInfo": "et",
-      "LinkId": 572
+      "EntityName": "Schneider, Harber and Zemlak",
+      "Id": 699,
+      "Description": "Switchable background budgetary management",
+      "ExtraInfo": "fugiat",
+      "LinkId": 274
     },
     {
-      "EntityName": "Schowalter-Reichert",
-      "Id": 429,
-      "Description": "Universal 5th generation pricing structure",
-      "ExtraInfo": "et",
-      "LinkId": 572
+      "EntityName": "Schneider, Harber and Zemlak",
+      "Id": 699,
+      "Description": "Switchable background budgetary management",
+      "ExtraInfo": "fugiat",
+      "LinkId": 274
     }
   ],
-  "NextDueDate": "2010-04-24T17:54:08.5230811+02:00",
-  "Postit": "nesciunt",
+  "NextDueDate": "2007-05-14T03:45:28.6390567+02:00",
+  "Postit": "eligendi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-05-28T17:54:08.5230811+02:00",
+  "ReopenDate": "2004-04-30T03:45:28.6390567+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Connell-Schuster",
+      "StakeholderRoleName": "Ondricka, Hermiston and Brekke",
       "Comment": "dolor",
-      "StakeholderRoleId": 371,
-      "CountryId": 965,
-      "PersonId": 158,
-      "EmailDescription": "dane.tillman@huelgreenholt.co.uk",
-      "EmailId": 11,
-      "EmailAddress": "ruben.lesch@klingward.ca",
-      "PhoneId": 338,
-      "ContactName": "Hudson, Ortiz and Beer",
-      "ContactId": 386,
-      "SaleId": 922,
-      "Mrmrs": "sint",
-      "Firstname": "Alba",
-      "MiddleName": "Renner, Flatley and Renner",
-      "Lastname": "Kerluke",
-      "SaleStakeholderId": 842,
-      "Rank": 527,
-      "Phone": "987-113-8484 x3506"
+      "StakeholderRoleId": 809,
+      "CountryId": 640,
+      "PersonId": 363,
+      "EmailDescription": "otis.hackett@schimmel.us",
+      "EmailId": 398,
+      "EmailAddress": "isabel.glover@pfeffer.uk",
+      "PhoneId": 519,
+      "ContactName": "Von Group",
+      "ContactId": 634,
+      "SaleId": 211,
+      "Mrmrs": "quis",
+      "Firstname": "Alexandro",
+      "MiddleName": "Block, Friesen and Stokes",
+      "Lastname": "Hagenes",
+      "SaleStakeholderId": 257,
+      "Rank": 321,
+      "Phone": "(420)405-7284"
     }
   ],
-  "ActiveErpLinks": 690,
+  "ActiveErpLinks": 264,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Wilton Christine Bednar DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Prof. Mohammed Bulah Blanda DVM",
+    "SuperOffice:2": "Mr. Wilhelmine Marks"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "et"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "illo"
+    "CustomFields1": "qui",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2008-04-04T17:54:08.5230811+02:00",
-  "PublishTo": "2008-04-15T17:54:08.5230811+02:00",
-  "PublishFrom": "2002-08-12T17:54:08.5230811+02:00",
+  "PublishEventDate": "2023-03-17T03:45:28.6390567+01:00",
+  "PublishTo": "2011-03-04T03:45:28.6390567+01:00",
+  "PublishFrom": "2021-12-17T03:45:28.6390567+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 813,
+      "VisibleId": 104,
       "Visibility": "All",
-      "DisplayValue": "doloremque"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 813,
+      "VisibleId": 104,
       "Visibility": "All",
-      "DisplayValue": "doloremque"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorem",
-  "2": "nihil"
+  "1": "tempora",
+  "2": "repellat"
 }
 ```

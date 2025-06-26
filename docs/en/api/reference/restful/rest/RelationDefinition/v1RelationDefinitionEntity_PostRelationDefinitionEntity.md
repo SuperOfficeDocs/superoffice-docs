@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 1001,
-  "Name": "Kuvalis LLC",
-  "Tooltip": "sint",
-  "PassiveText": "at",
+  "ReldefId": 327,
+  "Name": "Kertzmann, Kuphal and Rempel",
+  "Tooltip": "consequatur",
+  "PassiveText": "aliquid",
   "Deleted": false,
-  "Rank": 595,
+  "Rank": 343,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 835,
-  "Name": "Bode-Durgan",
-  "Tooltip": "sint",
-  "PassiveText": "enim",
+  "ReldefId": 919,
+  "Name": "Pfeffer, Hegmann and Dickens",
+  "Tooltip": "repellendus",
+  "PassiveText": "nam",
   "Deleted": true,
-  "Rank": 533,
+  "Rank": 400,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 859
     }
   },
   "_Links": {

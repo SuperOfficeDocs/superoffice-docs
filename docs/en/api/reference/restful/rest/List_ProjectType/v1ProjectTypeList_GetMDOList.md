@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=iusto
+GET /api/v1/List/ProjectType/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Becker-Jones",
-    "ToolTip": "Repellendus qui dolor dolorum alias iure ex corporis.",
+    "Id": 673,
+    "Name": "Cummings, Weber and Jaskolski",
+    "ToolTip": "Id nesciunt molestiae quod ea eum.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "qui",
+    "Rank": 11,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Conn Inc and Sons",
-        "ToolTip": "Et hic nesciunt eligendi.",
+        "Id": 569,
+        "Name": "Doyle, Ward and Rau",
+        "ToolTip": "Tenetur iste veritatis.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "a",
+        "Rank": 38,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 612,
-        "ExtraInfo": "enim",
-        "StyleHint": "ea",
-        "FullName": "Newell Rau",
+        "IconHint": "provident",
+        "ColorBlock": 56,
+        "ExtraInfo": "modi",
+        "StyleHint": "et",
+        "FullName": "Dwight Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldType": "System.Int32",
+            "FieldLength": 243
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 261,
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "FullName": "Alberto Metz",
+    "IconHint": "neque",
+    "ColorBlock": 234,
+    "ExtraInfo": "et",
+    "StyleHint": "eveniet",
+    "FullName": "Brooke Roscoe Ondricka III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

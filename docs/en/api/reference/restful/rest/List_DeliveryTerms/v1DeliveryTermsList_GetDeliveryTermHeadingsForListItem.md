@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Kessler-Roberts",
-    "ToolTip": "Qui rerum sequi veniam nisi nisi animi quidem.",
-    "Deleted": false,
-    "Rank": 193,
-    "Type": "aut",
-    "ColorBlock": 351,
-    "IconHint": "sed",
+    "Id": 626,
+    "Name": "Barton-Aufderhar",
+    "ToolTip": "Et fugit atque sit.",
+    "Deleted": true,
+    "Rank": 460,
+    "Type": "cum",
+    "ColorBlock": 723,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2005-12-03T17:54:08.8980498+01:00",
+    "LastChanged": "2015-05-10T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Sawayn, Parisian and Mayer",
-        "ToolTip": "Dolorem molestiae iure et perspiciatis expedita dicta est.",
+        "Id": 364,
+        "Name": "Stamm, McKenzie and Rutherford",
+        "ToolTip": "Doloribus officiis sint et assumenda consequatur.",
         "Deleted": true,
-        "Rank": 939,
-        "Type": "sit",
-        "ColorBlock": 407,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2000-12-21T17:54:08.8980498+01:00",
+        "Rank": 18,
+        "Type": "ea",
+        "ColorBlock": 740,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2024-07-07T03:45:29.0296674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "modi",
+        "ExtraInfo": "nisi",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Mr. Haleigh Tod Rosenbaum Jr.",
+        "FullName": "Zachariah D'Amore Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 663
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "aut",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Benny Yasmin Wehner DDS",
+    "FullName": "Vicky Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 984
       }
     }
   }

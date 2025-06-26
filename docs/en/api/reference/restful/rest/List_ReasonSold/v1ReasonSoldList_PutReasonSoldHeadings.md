@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Simonis LLC",
-    "Tooltip": "dignissimos",
+    "HeadingId": 333,
+    "Name": "Cremin, Predovic and Bayer",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 615,
-    "UdListDefinitionId": 665
+    "Rank": 314,
+    "UdListDefinitionId": 703
   },
   {
-    "HeadingId": 36,
-    "Name": "Simonis LLC",
-    "Tooltip": "dignissimos",
+    "HeadingId": 333,
+    "Name": "Cremin, Predovic and Bayer",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 615,
-    "UdListDefinitionId": 665
+    "Rank": 314,
+    "UdListDefinitionId": 703
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 196,
-    "Name": "Kessler Inc and Sons",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 471,
-    "UdListDefinitionId": 692,
+    "HeadingId": 785,
+    "Name": "Ledner LLC",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 642,
+    "UdListDefinitionId": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 129
       }
     }
   }

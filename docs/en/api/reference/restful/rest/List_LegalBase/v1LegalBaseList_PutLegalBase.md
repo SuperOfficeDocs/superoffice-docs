@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 238,
-  "Name": "Rohan, Corwin and Conroy",
-  "Tooltip": "sit",
-  "Rank": 147,
-  "Key": "assumenda",
-  "Deleted": false
+  "LegalBaseId": 166,
+  "Name": "Schuster Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 868,
+  "Key": "ex",
+  "Deleted": true
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 577,
-  "Name": "Wuckert, Renner and Rodriguez",
-  "Tooltip": "doloribus",
-  "Rank": 731,
-  "Key": "dolores",
-  "Deleted": true,
+  "LegalBaseId": 657,
+  "Name": "White LLC",
+  "Tooltip": "iure",
+  "Rank": 615,
+  "Key": "velit",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

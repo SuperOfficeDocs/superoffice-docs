@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile eco-centric process improvement",
-  "Postit": "quo",
+  "Description": "Universal disintermediate flexibility",
+  "Postit": "autem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 352,
-  "IncludePerson": 367,
+  "GroupIdx": 821,
+  "IncludePerson": 284,
   "MemberCount": 99.99,
-  "Name": "Cassin, Kuhn and Schowalter",
-  "PostitTextId": 438,
-  "CreatedDate": "2003-05-31T17:54:08.5386928+02:00",
-  "SelectionId": 647,
-  "SoundEx": "dolor",
-  "Source": 613,
-  "TextId": 445,
-  "UpdatedDate": "2004-08-10T17:54:08.5386928+02:00",
-  "UpdatedCount": 167,
-  "Visibility": 425,
+  "Name": "Klocko, Schinner and Hodkiewicz",
+  "PostitTextId": 912,
+  "CreatedDate": "2019-12-15T03:45:28.6546813+01:00",
+  "SelectionId": 225,
+  "SoundEx": "velit",
+  "Source": 446,
+  "TextId": 70,
+  "UpdatedDate": "2015-09-07T03:45:28.6546813+02:00",
+  "UpdatedCount": 737,
+  "Visibility": 295,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 336,
-  "TargetTableName": "Considine, Rogahn and Farrell",
+  "TargetTableNumber": 487,
+  "TargetTableName": "Koepp Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 384,
-  "RightSelectionId": 433,
+  "LeftSelectionId": 616,
+  "RightSelectionId": 976,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Donnelly-Buckridge",
-  "ShadowProviderName": "Dibbert Group",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2011-02-27T17:54:08.5386928+01:00",
-  "LastLoadedBy": 191,
+  "MainProviderName": "Champlin-Bode",
+  "ShadowProviderName": "Gerlach-Turner",
+  "ChartKey": "vel",
+  "LastLoaded": "2010-03-06T03:45:28.6546813+01:00",
+  "LastLoadedBy": 192,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-03-05T17:54:08.5386928+01:00",
-  "LastMembershipChangeBy": 475,
+  "LastMembershipChange": "2019-07-10T03:45:28.6546813+02:00",
+  "LastMembershipChangeBy": 831,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "possimus",
-  "MemberTabHeading": "reprehenderit",
-  "MailingsProviderName": "Kovacek-Dicki",
-  "DashboardTileDefinitionId": 766,
+  "MainHeading": "fugit",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Stamm, Balistreri and Morissette",
+  "DashboardTileDefinitionId": 548,
   "VisibleFor": [
     {
-      "VisibleId": 519,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "temporibus"
+      "DisplayValue": "recusandae"
     },
     {
-      "VisibleId": 519,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "temporibus"
+      "DisplayValue": "recusandae"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined transitional instruction set",
-  "Postit": "quia",
+  "Description": "Realigned next generation concept",
+  "Postit": "consectetur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 38,
-  "IncludePerson": 133,
+  "GroupIdx": 467,
+  "IncludePerson": 24,
   "MemberCount": 99.99,
-  "Name": "Skiles, Kiehn and Gleason",
-  "PostitTextId": 214,
-  "CreatedDate": "2021-03-30T17:54:08.5386928+02:00",
-  "SelectionId": 996,
-  "SoundEx": "maiores",
-  "Source": 690,
-  "TextId": 754,
-  "UpdatedDate": "2007-09-15T17:54:08.5386928+02:00",
-  "UpdatedCount": 718,
-  "Visibility": 624,
+  "Name": "Miller, Goyette and Waelchi",
+  "PostitTextId": 304,
+  "CreatedDate": "2012-06-18T03:45:28.6546813+02:00",
+  "SelectionId": 621,
+  "SoundEx": "modi",
+  "Source": 143,
+  "TextId": 309,
+  "UpdatedDate": "2004-12-25T03:45:28.6546813+01:00",
+  "UpdatedCount": 50,
+  "Visibility": 490,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 153,
-  "TargetTableName": "Treutel LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 210,
+  "TargetTableName": "Renner, Greenfelder and Daugherty",
   "Completed": false,
-  "LeftSelectionId": 15,
-  "RightSelectionId": 994,
+  "LeftSelectionId": 902,
+  "RightSelectionId": 823,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hessel Group",
-  "ShadowProviderName": "McLaughlin-Torp",
-  "ChartKey": "temporibus",
-  "LastLoaded": "2024-12-02T17:54:08.5386928+01:00",
-  "LastLoadedBy": 972,
+  "MainProviderName": "Daniel, Crooks and Parker",
+  "ShadowProviderName": "Wiegand LLC",
+  "ChartKey": "autem",
+  "LastLoaded": "2008-08-15T03:45:28.6546813+02:00",
+  "LastLoadedBy": 48,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-06-25T17:54:08.5386928+02:00",
-  "LastMembershipChangeBy": 558,
+  "LastMembershipChange": "2007-11-25T03:45:28.6546813+01:00",
+  "LastMembershipChangeBy": 971,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "McLaughlin Inc and Sons",
-  "DashboardTileDefinitionId": 417,
+  "MainHeading": "non",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Streich-Kirlin",
+  "DashboardTileDefinitionId": 596,
   "VisibleFor": [
     {
-      "VisibleId": 395,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 791
         }
       }
     },
     {
-      "VisibleId": 395,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 791
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 181
     }
   },
   "_Links": {

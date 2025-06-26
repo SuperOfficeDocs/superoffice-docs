@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 246,
-  "Name": "Sauer, Botsford and Padberg",
-  "Description": "Face to face bandwidth-monitored emulation",
+  "ReportLabelLayoutId": 346,
+  "Name": "Botsford-Watsica",
+  "Description": "Adaptive explicit system engine",
   "Orientation": "Landscape",
-  "PaperWidth": 478,
-  "PaperHeight": 602,
-  "LeftMargin": 44,
-  "RightMargin": 977,
-  "TopMargin": 978,
-  "BottomMargin": 886,
-  "CountColumns": 849,
-  "CountRows": 86
+  "PaperWidth": 662,
+  "PaperHeight": 509,
+  "LeftMargin": 816,
+  "RightMargin": 168,
+  "TopMargin": 766,
+  "BottomMargin": 86,
+  "CountColumns": 447,
+  "CountRows": 676
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 975,
-  "Name": "Hoeger, Fay and Torphy",
-  "Description": "User-centric cohesive protocol",
+  "ReportLabelLayoutId": 416,
+  "Name": "Reinger-Bartoletti",
+  "Description": "Assimilated tangible methodology",
   "Orientation": "Landscape",
-  "PaperWidth": 536,
-  "PaperHeight": 698,
-  "LeftMargin": 714,
-  "RightMargin": 605,
-  "TopMargin": 100,
-  "BottomMargin": 440,
-  "CountColumns": 363,
-  "CountRows": 788,
+  "PaperWidth": 199,
+  "PaperHeight": 198,
+  "LeftMargin": 742,
+  "RightMargin": 347,
+  "TopMargin": 12,
+  "BottomMargin": 385,
+  "CountColumns": 692,
+  "CountRows": 652,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

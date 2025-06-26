@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused bandwidth-monitored ability",
-  "Postit": "doloribus",
+  "Description": "Secured upward-trending local area network",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 127,
-  "IncludePerson": 956,
+  "GroupIdx": 733,
+  "IncludePerson": 37,
   "MemberCount": 99.99,
-  "Name": "Bogan LLC",
-  "PostitTextId": 855,
-  "CreatedDate": "2023-02-02T17:54:03.6014331+01:00",
-  "SelectionId": 929,
-  "SoundEx": "est",
-  "Source": 862,
-  "TextId": 473,
-  "UpdatedDate": "2013-06-25T17:54:03.6014331+02:00",
-  "UpdatedCount": 96,
-  "Visibility": 283,
+  "Name": "Goyette, Waelchi and Will",
+  "PostitTextId": 558,
+  "CreatedDate": "2001-10-04T03:45:23.8891939+02:00",
+  "SelectionId": 490,
+  "SoundEx": "reprehenderit",
+  "Source": 739,
+  "TextId": 556,
+  "UpdatedDate": "2013-02-05T03:45:23.8891939+01:00",
+  "UpdatedCount": 706,
+  "Visibility": 867,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 184,
-  "TargetTableName": "Wolf Group",
-  "Completed": true,
-  "LeftSelectionId": 801,
-  "RightSelectionId": 200,
+  "TargetTableNumber": 586,
+  "TargetTableName": "Nicolas, Heller and Vandervort",
+  "Completed": false,
+  "LeftSelectionId": 296,
+  "RightSelectionId": 77,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hilpert-Botsford",
-  "ShadowProviderName": "Hickle Group",
-  "ChartKey": "sed",
-  "LastLoaded": "2011-07-26T17:54:03.6014331+02:00",
-  "LastLoadedBy": 380,
+  "MainProviderName": "Bogan-Considine",
+  "ShadowProviderName": "Kunde-Labadie",
+  "ChartKey": "voluptates",
+  "LastLoaded": "1999-01-07T03:45:23.8891939+01:00",
+  "LastLoadedBy": 146,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-08-16T17:54:03.6014331+02:00",
-  "LastMembershipChangeBy": 439,
+  "LastMembershipChange": "2017-11-10T03:45:23.8891939+01:00",
+  "LastMembershipChangeBy": 981,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "soluta",
-  "MailingsProviderName": "Littel, Considine and D'Amore",
-  "DashboardTileDefinitionId": 15,
+  "MainHeading": "et",
+  "MemberTabHeading": "hic",
+  "MailingsProviderName": "Tromp Inc and Sons",
+  "DashboardTileDefinitionId": 20,
   "VisibleFor": [
     {
-      "VisibleId": 911,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "tenetur"
+      "DisplayValue": "voluptates"
     },
     {
-      "VisibleId": 911,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "tenetur"
+      "DisplayValue": "voluptates"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable bandwidth-monitored monitoring",
-  "Postit": "ullam",
+  "Description": "Proactive reciprocal initiative",
+  "Postit": "minima",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 900,
-  "IncludePerson": 837,
+  "GroupIdx": 182,
+  "IncludePerson": 579,
   "MemberCount": 99.99,
-  "Name": "Roberts LLC",
-  "PostitTextId": 18,
-  "CreatedDate": "2014-08-27T17:54:03.6014331+02:00",
-  "SelectionId": 719,
-  "SoundEx": "aut",
-  "Source": 903,
-  "TextId": 376,
-  "UpdatedDate": "2001-07-10T17:54:03.6014331+02:00",
-  "UpdatedCount": 995,
-  "Visibility": 341,
+  "Name": "O'Reilly-Sawayn",
+  "PostitTextId": 753,
+  "CreatedDate": "2022-11-17T03:45:23.8891939+01:00",
+  "SelectionId": 773,
+  "SoundEx": "incidunt",
+  "Source": 72,
+  "TextId": 919,
+  "UpdatedDate": "2023-08-21T03:45:23.8891939+02:00",
+  "UpdatedCount": 387,
+  "Visibility": 54,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 620,
-  "TargetTableName": "Rowe, Block and Streich",
+  "CompanyUnique": false,
+  "TargetTableNumber": 96,
+  "TargetTableName": "Doyle, Larson and Beatty",
   "Completed": false,
-  "LeftSelectionId": 360,
-  "RightSelectionId": 114,
+  "LeftSelectionId": 291,
+  "RightSelectionId": 467,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turcotte Group",
-  "ShadowProviderName": "Tillman-Herman",
-  "ChartKey": "vitae",
-  "LastLoaded": "2003-12-30T17:54:03.6014331+01:00",
-  "LastLoadedBy": 22,
+  "MainProviderName": "Anderson Inc and Sons",
+  "ShadowProviderName": "Cartwright-Larkin",
+  "ChartKey": "asperiores",
+  "LastLoaded": "2016-07-25T03:45:23.8891939+02:00",
+  "LastLoadedBy": 692,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-11-22T17:54:03.6014331+01:00",
-  "LastMembershipChangeBy": 465,
+  "LastMembershipChange": "2001-11-10T03:45:23.8891939+01:00",
+  "LastMembershipChangeBy": 276,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "eaque",
-  "MailingsProviderName": "Corwin Inc and Sons",
-  "DashboardTileDefinitionId": 496,
+  "MainHeading": "id",
+  "MemberTabHeading": "a",
+  "MailingsProviderName": "Farrell Group",
+  "DashboardTileDefinitionId": 267,
   "VisibleFor": [
     {
-      "VisibleId": 256,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 176
         }
       }
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 176
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

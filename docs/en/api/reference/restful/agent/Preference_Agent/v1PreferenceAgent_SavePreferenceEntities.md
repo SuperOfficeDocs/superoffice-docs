@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "magni",
+      "RawValue": "iure",
       "Specification": null,
-      "DisplayValue": "quis",
-      "DisplayTooltip": "facilis",
+      "DisplayValue": "culpa",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 661,
-      "PrefDescId": 582,
-      "TableName": "White LLC",
-      "UserPreferenceId": 977
+      "TargetId": 322,
+      "PrefDescId": 955,
+      "TableName": "Pagac-Anderson",
+      "UserPreferenceId": 319
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

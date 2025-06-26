@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "iusto",
-  "PrefKey": "earum",
+  "PrefSection": "ut",
+  "PrefKey": "consequatur",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "expedita",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "quis",
-  "DisplayTooltip": "eligendi",
+  "DisplayValue": "quo",
+  "DisplayTooltip": "sapiente",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 52,
-  "PrefDescId": 653,
-  "TableName": "Carroll LLC",
-  "UserPreferenceId": 973,
+  "TargetId": 202,
+  "PrefDescId": 905,
+  "TableName": "Paucek Inc and Sons",
+  "UserPreferenceId": 764,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

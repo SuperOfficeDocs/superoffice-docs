@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 453,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "amet",
-  "Rank": 341,
-  "Key": "mollitia",
-  "Deleted": true
+  "LegalBaseId": 215,
+  "Name": "Green Inc and Sons",
+  "Tooltip": "voluptas",
+  "Rank": 590,
+  "Key": "officia",
+  "Deleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 843,
-  "Name": "Schneider-Weber",
-  "Tooltip": "dolorem",
-  "Rank": 748,
-  "Key": "ea",
+  "LegalBaseId": 52,
+  "Name": "Kautzer-Brekke",
+  "Tooltip": "nihil",
+  "Rank": 976,
+  "Key": "eveniet",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

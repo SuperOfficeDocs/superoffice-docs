@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller, Hand and Ankunding",
-  "ForceFlatList": false,
-  "AdditionalInfo": "accusamus",
+  "Name": "Hauck Inc and Sons",
+  "ForceFlatList": true,
+  "AdditionalInfo": "dicta",
   "HistoryItems": [
-    585,
-    800
+    295,
+    704
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Johns Inc and Sons",
-    "ToolTip": "Ducimus voluptatem illum quia inventore et non.",
-    "Deleted": true,
-    "Rank": 753,
-    "Type": "voluptatem",
+    "Id": 236,
+    "Name": "Zieme Inc and Sons",
+    "ToolTip": "Quibusdam consequuntur eius officiis veritatis cum et minus.",
+    "Deleted": false,
+    "Rank": 140,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Rowe, Ankunding and Witting",
-        "ToolTip": "Labore ratione culpa et voluptates quia quae illum.",
-        "Deleted": true,
-        "Rank": 623,
-        "Type": "est",
+        "Id": 412,
+        "Name": "Reilly, Baumbach and Mosciski",
+        "ToolTip": "Libero voluptas beatae tempore animi id possimus cum.",
+        "Deleted": false,
+        "Rank": 195,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 242,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "consectetur",
-        "FullName": "Dr. Destiney Otho Wehner III",
+        "IconHint": "sit",
+        "ColorBlock": 3,
+        "ExtraInfo": "nihil",
+        "StyleHint": "omnis",
+        "FullName": "Forrest Rosalia Rempel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 884
+            "FieldType": "System.Int32",
+            "FieldLength": 291
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 24,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "quasi",
-    "FullName": "Prof. Kelvin Philip Wolff I",
+    "IconHint": "provident",
+    "ColorBlock": 760,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "nobis",
+    "FullName": "Gia Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldLength": 535
       }
     }
   }

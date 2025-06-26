@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 143,
-  "SaleId": 196,
-  "QuoteConnectionId": 481,
-  "ERPQuoteKey": "occaecati",
-  "ERPOrderKey": "repudiandae",
-  "ActiveQuoteVersionId": 720,
-  "AcceptedQuoteAlternativeId": 361,
-  "UseValuesFromQuote": 529,
-  "DocumentId": 837,
-  "PoNumber": "438634",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "rodger_lowe@mann.biz",
+  "QuoteId": 793,
+  "SaleId": 696,
+  "QuoteConnectionId": 168,
+  "ERPQuoteKey": "veritatis",
+  "ERPOrderKey": "unde",
+  "ActiveQuoteVersionId": 658,
+  "AcceptedQuoteAlternativeId": 949,
+  "UseValuesFromQuote": 514,
+  "DocumentId": 289,
+  "PoNumber": "1640567",
+  "OrderComment": "quae",
+  "PreferredEmailCulture": "michael@dubuque.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

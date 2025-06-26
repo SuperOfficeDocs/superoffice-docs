@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Boyer, Lang and Schiller",
-    "ToolTip": "Ipsam quasi iure reiciendis.",
+    "Id": 516,
+    "Name": "Stamm-Gottlieb",
+    "ToolTip": "Quam quisquam accusamus exercitationem soluta.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "enim",
-    "ColorBlock": 319,
-    "IconHint": "deleniti",
+    "Rank": 575,
+    "Type": "eum",
+    "ColorBlock": 402,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2017-12-17T17:54:08.9605465+01:00",
+    "LastChanged": "1998-08-16T03:45:29.0765432+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Conroy, Ryan and Denesik",
-        "ToolTip": "Natus maiores molestiae aspernatur aut facilis.",
+        "Id": 280,
+        "Name": "Fisher Inc and Sons",
+        "ToolTip": "Eaque odit eos.",
         "Deleted": false,
-        "Rank": 678,
-        "Type": "suscipit",
-        "ColorBlock": 693,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2007-02-16T17:54:08.9605465+01:00",
+        "Rank": 84,
+        "Type": "velit",
+        "ColorBlock": 489,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2015-05-05T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Rhea Beier IV"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Harry Kemmer"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "sed",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Miss Berenice Telly Hahn"
+    "FullName": "Ms. Durward Ressie Emmerich DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Larson-Gottlieb",
-    "ToolTip": "Voluptas eveniet.",
-    "Deleted": true,
-    "Rank": 195,
-    "Type": "quos",
-    "ColorBlock": 529,
-    "IconHint": "eos",
+    "Id": 42,
+    "Name": "Schaefer, Deckow and Wisoky",
+    "ToolTip": "Magni consequuntur.",
+    "Deleted": false,
+    "Rank": 15,
+    "Type": "placeat",
+    "ColorBlock": 874,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2020-10-15T17:54:08.9605465+02:00",
+    "LastChanged": "2001-12-11T03:45:29.0765432+01:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "Wehner, Roberts and Huels",
-        "ToolTip": "Quia ut error et aut tempora.",
+        "Id": 308,
+        "Name": "Hand Group",
+        "ToolTip": "Quia et non ad quia aut.",
         "Deleted": false,
-        "Rank": 285,
-        "Type": "quo",
-        "ColorBlock": 820,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2022-03-12T17:54:08.9605465+01:00",
+        "Rank": 916,
+        "Type": "omnis",
+        "ColorBlock": 416,
+        "IconHint": "quas",
+        "Selected": true,
+        "LastChanged": "2019-03-15T03:45:29.0765432+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Miss Willy Jamel Kautzer IV",
+        "ExtraInfo": "repellat",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Tia Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldLength": 709
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "quam",
+    "ExtraInfo": "maiores",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Connie Violette Hirthe V",
+    "FullName": "Dr. Ernest Clement Stoltenberg Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 221
       }
     }
   }

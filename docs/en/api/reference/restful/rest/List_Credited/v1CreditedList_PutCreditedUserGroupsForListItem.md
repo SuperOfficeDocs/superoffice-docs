@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Homenick, Roob and Gusikowski",
-    "ToolTip": "Est nihil deleniti consequuntur et harum.",
+    "Id": 283,
+    "Name": "Wiza, Dibbert and Oberbrunner",
+    "ToolTip": "Inventore iusto rerum soluta natus et neque.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "laborum",
-    "ColorBlock": 46,
-    "IconHint": "libero",
+    "Rank": 344,
+    "Type": "deserunt",
+    "ColorBlock": 4,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2023-07-28T17:54:08.8824262+02:00",
+    "LastChanged": "2021-05-10T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Pouros, Eichmann and Smitham",
-        "ToolTip": "Optio maxime in aperiam.",
-        "Deleted": false,
-        "Rank": 211,
-        "Type": "atque",
-        "ColorBlock": 548,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2016-08-12T17:54:08.8824262+02:00",
+        "Id": 852,
+        "Name": "Schuppe Group",
+        "ToolTip": "Itaque eveniet officia dolor unde rerum.",
+        "Deleted": true,
+        "Rank": 317,
+        "Type": "maxime",
+        "ColorBlock": 252,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "1998-08-23T03:45:29.014043+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "atque",
+        "ExtraInfo": "inventore",
+        "StyleHint": "id",
         "Hidden": true,
-        "FullName": "Domenic Kemmer"
+        "FullName": "Mr. Mariane Martine Johns PhD"
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "ut",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Laurence Alexandra Kilback DVM"
+    "FullName": "Miss Skye Ratke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Grant, Block and Ferry",
-    "ToolTip": "Id reiciendis.",
-    "Deleted": false,
-    "Rank": 58,
-    "Type": "fugiat",
-    "ColorBlock": 891,
-    "IconHint": "perspiciatis",
+    "Id": 739,
+    "Name": "Lemke, Lang and Hickle",
+    "ToolTip": "Recusandae quis unde sit iste.",
+    "Deleted": true,
+    "Rank": 112,
+    "Type": "enim",
+    "ColorBlock": 557,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2002-01-06T17:54:08.8824262+01:00",
+    "LastChanged": "2016-12-06T03:45:29.014043+01:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Walker, Purdy and Schiller",
-        "ToolTip": "Alias animi tempora dolor.",
+        "Id": 74,
+        "Name": "McCullough LLC",
+        "ToolTip": "Qui beatae voluptas molestiae voluptatem ratione.",
         "Deleted": false,
-        "Rank": 834,
-        "Type": "nam",
-        "ColorBlock": 406,
-        "IconHint": "numquam",
+        "Rank": 269,
+        "Type": "nobis",
+        "ColorBlock": 247,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "1999-02-21T17:54:08.8824262+01:00",
+        "LastChanged": "2004-03-15T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "qui",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Brooklyn Sauer",
+        "FullName": "Kaley Kilback DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 995
+            "FieldLength": 747
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "alias",
+    "ExtraInfo": "qui",
+    "StyleHint": "tempore",
     "Hidden": true,
-    "FullName": "Jermaine Harris",
+    "FullName": "Dr. Marcus Pearlie Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

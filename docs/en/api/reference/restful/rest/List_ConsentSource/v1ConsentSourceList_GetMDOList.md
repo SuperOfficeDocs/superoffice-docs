@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=est
+GET /api/v1/List/ConsentSource/MDOItems?query=occaecati
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Feest-Gislason",
-    "ToolTip": "Voluptate doloremque.",
-    "Deleted": true,
-    "Rank": 374,
-    "Type": "distinctio",
+    "Id": 870,
+    "Name": "Torp-Steuber",
+    "ToolTip": "Ducimus aut.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "West, Mueller and Schamberger",
-        "ToolTip": "Et et doloribus.",
+        "Id": 891,
+        "Name": "Donnelly LLC",
+        "ToolTip": "Totam recusandae quidem atque illo sint quo.",
         "Deleted": true,
-        "Rank": 195,
-        "Type": "incidunt",
+        "Rank": 547,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 276,
+        "IconHint": "et",
+        "ColorBlock": 147,
         "ExtraInfo": "porro",
-        "StyleHint": "omnis",
-        "FullName": "Ms. Tristin Kirlin DDS",
+        "StyleHint": "facilis",
+        "FullName": "Jaquan Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 460
+            "FieldLength": 212
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 900,
-    "ExtraInfo": "natus",
-    "StyleHint": "cupiditate",
-    "FullName": "Chadrick Price",
+    "IconHint": "consequatur",
+    "ColorBlock": 849,
+    "ExtraInfo": "tempore",
+    "StyleHint": "repellendus",
+    "FullName": "Johnson Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

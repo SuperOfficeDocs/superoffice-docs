@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 304,
-  "Name": "Kuhn Group",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "UdListDefinitionId": 699,
-  "Rank": 672
+  "Id": 867,
+  "Name": "Hagenes, Breitenberg and Mayert",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 122,
+  "Rank": 732
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Streich-Deckow",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 998,
-  "Rank": 582,
+  "Id": 228,
+  "Name": "Ebert Group",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "UdListDefinitionId": 808,
+  "Rank": 470,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

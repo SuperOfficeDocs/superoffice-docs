@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 354,
+  "SystemEventId": 790,
   "Scope": "Database",
-  "Eta": "2000-10-13T17:54:08.5543174+02:00",
-  "Eventkey": "et",
-  "Eventmess": "error",
-  "ExtraInfo": 498,
-  "Owner": 556,
-  "UpdatedCount": 289,
-  "Registered": "2010-04-17T17:54:08.5543174+02:00",
+  "Eta": "2003-07-29T03:45:28.6546813+02:00",
+  "Eventkey": "natus",
+  "Eventmess": "sint",
+  "ExtraInfo": 617,
+  "Owner": 116,
+  "UpdatedCount": 167,
+  "Registered": "2011-08-23T03:45:28.6546813+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 415,
+  "SystemEventId": 23,
   "Scope": "Database",
-  "Eta": "2000-01-05T17:54:08.5543174+01:00",
-  "Eventkey": "praesentium",
-  "Eventmess": "consequatur",
-  "ExtraInfo": 152,
-  "Owner": 130,
-  "UpdatedCount": 581,
-  "Registered": "2020-12-07T17:54:08.5543174+01:00",
+  "Eta": "2020-12-02T03:45:28.6546813+01:00",
+  "Eventkey": "quasi",
+  "Eventmess": "accusamus",
+  "ExtraInfo": 1000,
+  "Owner": 161,
+  "UpdatedCount": 224,
+  "Registered": "2007-08-02T03:45:28.6546813+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

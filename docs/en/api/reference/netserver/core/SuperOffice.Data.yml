@@ -180,6 +180,8 @@ items:
   - SuperOffice.Data.QuoteStatus
   - SuperOffice.Data.QuoteVersionButtonAction
   - SuperOffice.Data.QuoteVersionState
+  - SuperOffice.Data.RagSchedule
+  - SuperOffice.Data.RagType
   - SuperOffice.Data.RecipientSorting
   - SuperOffice.Data.RecipientType
   - SuperOffice.Data.RecurrenceDailyPattern
@@ -1783,6 +1785,22 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
+- uid: SuperOffice.Data.RagType
+  commentId: T:SuperOffice.Data.RagType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.Data.RagType
+- uid: SuperOffice.Data.RagSchedule
+  commentId: T:SuperOffice.Data.RagSchedule
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagSchedule.html
+  name: RagSchedule
+  nameWithType: RagSchedule
+  fullName: SuperOffice.Data.RagSchedule
 - uid: SuperOffice.Data.HtmlSanitizerOptions
   commentId: T:SuperOffice.Data.HtmlSanitizerOptions
   parent: SuperOffice.Data

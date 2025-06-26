@@ -811,7 +811,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=registeredDate,appointment/associate/usergroupId,appointment/associate/credentialDisplayValue,document/personId,document/mailMergeDraft
+GET /api/v1/archive/ProjectDynamicSelection?$select=projectPublish/publishedTo,appointment/icon,appointment/alarm,document/visibleFor,document/documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

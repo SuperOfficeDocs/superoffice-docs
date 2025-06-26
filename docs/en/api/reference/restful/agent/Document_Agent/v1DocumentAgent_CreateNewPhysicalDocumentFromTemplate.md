@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 540,
-  "PersonId": 185,
-  "AppointmentId": 250,
-  "DocumentId": 492,
-  "SaleId": 483,
-  "SelectionId": 28,
-  "ProjectId": 378,
-  "UiCulture": "nam"
+  "ContactId": 50,
+  "PersonId": 235,
+  "AppointmentId": 430,
+  "DocumentId": 972,
+  "SaleId": 782,
+  "SelectionId": 808,
+  "ProjectId": 164,
+  "UiCulture": "assumenda"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 407,
+  "DocumentId": 172,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eos",
-  "Header": "impedit",
-  "Name": "Bruen-Ernser",
-  "OurRef": "aut",
-  "YourRef": "doloribus",
-  "CreatedDate": "2016-09-16T17:54:03.0233364+02:00",
-  "UpdatedDate": "2024-11-16T17:54:03.0233364+01:00",
-  "Description": "Organic zero defect knowledge user",
+  "Attention": "beatae",
+  "Header": "quasi",
+  "Name": "Osinski-Macejkovic",
+  "OurRef": "veniam",
+  "YourRef": "culpa",
+  "CreatedDate": "2015-09-27T03:45:23.3423327+02:00",
+  "UpdatedDate": "2004-02-23T03:45:23.3423327+01:00",
+  "Description": "Managed human-resource application",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-04T17:54:03.0233364+01:00",
-  "ExternalRef": "quo",
+  "Date": "2020-05-13T03:45:23.3423327+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 534,
+  "ActiveLinks": 26,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koss-Rutherford",
-      "Id": 498,
-      "Description": "Right-sized composite monitoring",
-      "ExtraInfo": "commodi",
-      "LinkId": 558,
+      "EntityName": "Boyer-Barrows",
+      "Id": 744,
+      "Description": "Automated context-sensitive Graphic Interface",
+      "ExtraInfo": "tempora",
+      "LinkId": 836,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 938
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 706,
-  "Snum": 461,
+  "SuggestedDocumentId": 22,
+  "Snum": 373,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Emilio Halvorson"
+    "SuperOffice:2": "236367177"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "eum",
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "2022-11-04T17:54:03.0233364+01:00",
-  "PublishTo": "2009-04-19T17:54:03.0233364+02:00",
-  "PublishFrom": "2008-01-06T17:54:03.0233364+01:00",
+  "PublishEventDate": "2018-05-15T03:45:23.3423327+02:00",
+  "PublishTo": "2023-10-07T03:45:23.3423327+02:00",
+  "PublishFrom": "2002-01-14T03:45:23.3423327+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 703,
+      "VisibleId": 348,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldType": "System.Int32",
+          "FieldLength": 870
         }
       }
     },
     {
-      "VisibleId": 703,
+      "VisibleId": 348,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldType": "System.Int32",
+          "FieldLength": 870
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 249
     }
   }
 }

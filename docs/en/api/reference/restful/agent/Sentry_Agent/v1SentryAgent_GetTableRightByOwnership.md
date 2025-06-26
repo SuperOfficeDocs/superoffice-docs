@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bednar Group",
-  "ContactGroupId": 547,
-  "ContactAssociateId": 218
+  "TableName": "Kiehn, Stiedemann and Bergstrom",
+  "ContactGroupId": 74,
+  "ContactAssociateId": 930
 }
 ```
 

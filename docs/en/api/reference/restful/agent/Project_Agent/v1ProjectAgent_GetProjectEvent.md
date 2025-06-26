@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=103
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=577
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Miss Howell Bryce Kuhlman IV",
-  "Description": "Stand-alone transitional challenge",
-  "ProjectId": 273,
-  "EventName": "Jakubowski-Zulauf",
-  "AssociateId": 672,
+  "AssociateFullName": "Miss Vivianne Benny Beahan",
+  "Description": "Inverse bottom-line data-warehouse",
+  "ProjectId": 742,
+  "EventName": "Lueilwitz-Herzog",
+  "AssociateId": 120,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "quia",
-  "SignOffText": "qui",
-  "SignOnConfirmationText": "molestiae",
-  "SignOnText": "aperiam",
-  "EventDate": "2016-07-18T17:54:03.47644+02:00",
-  "Enabled": true,
+  "SignOffConfirmationText": "esse",
+  "SignOffText": "quia",
+  "SignOnConfirmationText": "ut",
+  "SignOnText": "iste",
+  "EventDate": "1998-10-12T03:45:23.7798203+02:00",
+  "Enabled": false,
   "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOnTaskEnable": true,
+  "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 679,
-  "SignOnTaskId": 972,
+  "SignOffTaskId": 95,
+  "SignOnTaskId": 982,
   "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 955,
-  "SignOffPersonId": 169,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 490,
+  "SignOffPersonId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

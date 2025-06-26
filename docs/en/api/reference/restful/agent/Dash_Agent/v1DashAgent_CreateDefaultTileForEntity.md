@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Lakin Inc and Sons"
+  "EntityName": "Bruen Inc and Sons"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 44,
-  "DashboardId": 52,
-  "Height": 537,
-  "Width": 102,
-  "Rank": 111,
+  "DashboardTileId": 490,
+  "DashboardId": 700,
+  "Height": 244,
+  "Width": 209,
+  "Rank": 483,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

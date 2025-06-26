@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=899
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=964
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 982,
-  "Name": "Boyle-Senger",
-  "Tooltip": "at",
-  "Rank": 396,
+  "ProjTypeId": 137,
+  "Name": "Stiedemann-Little",
+  "Tooltip": "ut",
+  "Rank": 530,
   "DurationUnit": "Century",
-  "ProjectDuration": 573,
-  "Deleted": false,
+  "ProjectDuration": 800,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 119,
-      "Name": "Reynolds, Feeney and Kohler",
-      "ToolTip": "Officiis sapiente rerum distinctio a aut.",
+      "Id": 332,
+      "Name": "Jones Inc and Sons",
+      "ToolTip": "Nisi laborum amet.",
       "Deleted": true,
-      "Rank": 725,
-      "Type": "vitae",
-      "ColorBlock": 856,
-      "IconHint": "id",
-      "Selected": false,
-      "LastChanged": "2003-12-08T17:54:03.1952029+01:00",
+      "Rank": 226,
+      "Type": "non",
+      "ColorBlock": 243,
+      "IconHint": "vel",
+      "Selected": true,
+      "LastChanged": "2019-07-14T03:45:23.5142048+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Prof. Nikita Emely Buckridge PhD",
+      "ExtraInfo": "placeat",
+      "StyleHint": "nisi",
+      "Hidden": true,
+      "FullName": "Mrs. Alanna Oswaldo Schimmel PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 666
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 845
     }
   }
 }

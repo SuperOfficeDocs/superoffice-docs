@@ -77,19 +77,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "nesciunt",
+  "Source": "repellat",
   "GeneratorEncoding": "Html",
-  "ContactId": 343,
-  "PersonId": 571,
-  "AppointmentId": 638,
-  "DocumentId": 912,
-  "SaleId": 383,
-  "SelectionId": 927,
-  "ProjectId": 318,
+  "ContactId": 77,
+  "PersonId": 225,
+  "AppointmentId": 941,
+  "DocumentId": 748,
+  "SaleId": 391,
+  "SelectionId": 697,
+  "ProjectId": 465,
   "CultureName": "sv"
 }
 ```
@@ -100,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"architecto"
+"officia"
 ```

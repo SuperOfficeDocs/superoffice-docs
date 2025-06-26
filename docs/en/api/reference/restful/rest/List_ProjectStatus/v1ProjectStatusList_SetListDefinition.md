@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 254,
-  "Name": "Lind Inc and Sons",
-  "Tooltip": "laboriosam",
+  "Id": 317,
+  "Name": "O'Conner-Padberg",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 76,
+  "Rank": 198,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "commodi",
-  "InUseByUserDefinedFields": true
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Schimmel-Jacobi",
+  "Id": 724,
+  "Name": "Langworth-Hudson",
   "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 652,
+  "Rank": 565,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   }
 }

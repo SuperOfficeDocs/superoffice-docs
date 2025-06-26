@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 874,
+  "TicketMessageEntityId": 179,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 545,
+  "EjMessageId": 286,
   "Ticket": null,
-  "CreatedAt": "2019-08-12T17:54:03.7264456+02:00",
+  "CreatedAt": "2012-10-14T03:45:24.0141935+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "dolorum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nobis",
-  "TimeSpent": 366,
-  "Body": "voluptas",
-  "HtmlBody": "quia",
-  "EmailHeader": "willy@wehner.co.uk",
-  "DebugInfo": "sunt",
+  "MessageId": "est",
+  "TimeSpent": 642,
+  "Body": "vel",
+  "HtmlBody": "molestias",
+  "EmailHeader": "gerda@hagenes.co.uk",
+  "DebugInfo": "ex",
   "MailSorter": "neque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sint",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 696,
-      "Name": "McKenzie-Zemlak",
-      "Value": "sunt",
+      "Id": 512,
+      "Name": "Morissette, Parker and Wilkinson",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 909
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "at",
-  "Sentiment": 939,
-  "SentimentConfidence": 49,
+  "Important": false,
+  "Language": "eum",
+  "Sentiment": 365,
+  "SentimentConfidence": 522,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 71,
-      "Name": "Muller-McClure",
-      "ContentType": "iure",
-      "AttSize": 612,
-      "InlineImage": true,
-      "ContentId": "architecto",
-      "AuthKey": "et",
+      "AttachmentId": 291,
+      "Name": "Bahringer-Rolfson",
+      "ContentType": "repudiandae",
+      "AttSize": 544,
+      "InlineImage": false,
+      "ContentId": "corrupti",
+      "AuthKey": "nisi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 198
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "aliquam"
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 844
     }
   }
 }

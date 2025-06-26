@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 782,
-  "ERPProductKey": "at",
-  "Rank": 709
+  "QuoteConnectionId": 945,
+  "ERPProductKey": "recusandae",
+  "Rank": 499
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolor"
+"nihil"
 ```

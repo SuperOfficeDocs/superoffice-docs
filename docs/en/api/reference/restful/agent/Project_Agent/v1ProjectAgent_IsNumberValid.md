@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 288,
-  "Number": "1398221"
+  "ContactId": 795,
+  "Number": "823687"
 }
 ```
 

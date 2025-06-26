@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Welch, Hudson and VonRueden",
-    "Tooltip": "repellat",
+    "Id": 907,
+    "Name": "Bergnaum-Flatley",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "UdListDefinitionId": 83,
-    "Rank": 126,
+    "UdListDefinitionId": 654,
+    "Rank": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

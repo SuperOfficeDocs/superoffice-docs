@@ -62,6 +62,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colRepliedAt
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSLevel
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSaleId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentScore
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colStatus
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
@@ -1309,6 +1310,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colSentimentScore As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
+  id: _colSentimentConfidence
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colSentimentConfidence
+  nameWithType: TicketExtenderBase._colSentimentConfidence
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colSentimentConfidence
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colSentimentConfidence As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   id: _colSuggestedCategory

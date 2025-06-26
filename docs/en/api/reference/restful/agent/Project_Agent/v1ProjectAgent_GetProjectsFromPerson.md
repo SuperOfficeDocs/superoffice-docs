@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 431
+  "PersonId": 92
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 494,
-    "Name": "Adams LLC",
-    "Description": "Distributed heuristic groupware",
+    "ProjectId": 508,
+    "Name": "Hegmann, Conroy and Hoppe",
+    "Description": "Assimilated hybrid parallelism",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 181,
-    "AssociateFullName": "Kennedy Hahn III",
-    "TypeId": 657,
-    "Updated": "2024-03-13T17:54:03.4920634+01:00",
-    "StatusId": 298,
-    "Status": "voluptatem",
-    "TextId": 305,
-    "PublishTo": "2019-03-21T17:54:03.4920634+01:00",
-    "PublishFrom": "2016-05-13T17:54:03.4920634+02:00",
-    "IsPublished": true,
+    "Type": "et",
+    "AssociateId": 939,
+    "AssociateFullName": "Fannie Strosin",
+    "TypeId": 236,
+    "Updated": "2015-10-05T03:45:23.7798203+02:00",
+    "StatusId": 823,
+    "Status": "ipsum",
+    "TextId": 392,
+    "PublishTo": "2015-05-21T03:45:23.7798203+02:00",
+    "PublishFrom": "2009-04-12T03:45:23.7798203+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1343178",
-    "ActiveErpLinks": 870,
+    "ProjectNumber": "698520",
+    "ActiveErpLinks": 84,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

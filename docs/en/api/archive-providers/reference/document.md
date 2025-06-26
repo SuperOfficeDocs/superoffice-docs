@@ -721,7 +721,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/personAssociate/ejUserId,contact/hasInterests,contact/updatedBy,project/projectAssociate/ejStatus,sale/saleStatus
+GET /api/v1/archive/Document?$select=isReport,person/title,person/personUdef/SuperOffice:8,person/personAssociate/isActiveText,contact/streetAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 464,
-    "Attention": "enim",
-    "Header": "nisi",
-    "Name": "Auer, Spencer and Price",
-    "OurRef": "sit",
-    "YourRef": "debitis",
-    "Description": "Triple-buffered disintermediate implementation",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": true,
-    "PersonId": 64,
-    "PersonFullName": "Ashleigh Walsh",
-    "AssociateFullName": "Alba Langworth",
-    "ContactId": 889,
-    "ContactName": "Kuphal LLC",
-    "ProjectId": 744,
-    "ProjectName": "Roberts, Parisian and Mosciski",
-    "AssociateId": 724,
-    "Snum": 503,
-    "SaleId": 739,
-    "SaleName": "Terry, Schowalter and Abernathy",
+    "DocumentId": 742,
+    "Attention": "quibusdam",
+    "Header": "voluptates",
+    "Name": "Doyle-Toy",
+    "OurRef": "deserunt",
+    "YourRef": "odit",
+    "Description": "Integrated coherent algorithm",
+    "DocumentTemplate": "deleniti",
+    "IsPublished": false,
+    "PersonId": 470,
+    "PersonFullName": "Earl Rylan Satterfield I",
+    "AssociateFullName": "Dr. Dangelo Gulgowski",
+    "ContactId": 247,
+    "ContactName": "Schamberger Group",
+    "ProjectId": 609,
+    "ProjectName": "Schaden Inc and Sons",
+    "AssociateId": 310,
+    "Snum": 381,
+    "SaleId": 469,
+    "SaleName": "Grimes, Fisher and Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 599
+        "FieldType": "System.Int32",
+        "FieldLength": 249
       }
     }
   }

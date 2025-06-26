@@ -97,19 +97,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 749,
-  "BlobSize": 376,
-  "Description": "Total next generation throughput",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
+  "BlobId": 797,
+  "BlobSize": 578,
+  "Description": "Integrated 5th generation contingency",
+  "ExtraInfo": "aut",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 925,
-  "CreatedDate": "2007-05-25T17:54:08.7105588+02:00",
-  "UpdatedDate": "2010-07-27T17:54:08.7105588+02:00",
+  "MimeType": "libero",
+  "OriginalSize": 173,
+  "CreatedDate": "2016-05-07T03:45:28.8265489+02:00",
+  "UpdatedDate": "2018-06-08T03:45:28.8265489+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut"
+  "ConceptualType": "placeat"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 102,
-  "BlobSize": 886,
-  "Description": "Total bi-directional matrix",
-  "ExtraInfo": "placeat",
-  "IsEncrypted": false,
+  "BlobId": 305,
+  "BlobSize": 151,
+  "Description": "Organized upward-trending benchmark",
+  "ExtraInfo": "iusto",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "suscipit",
-  "OriginalSize": 98,
-  "CreatedDate": "2020-04-10T17:54:08.7105588+02:00",
-  "UpdatedDate": "2007-09-19T17:54:08.7105588+02:00",
+  "MimeType": "molestias",
+  "OriginalSize": 740,
+  "CreatedDate": "2004-10-14T03:45:28.8265489+02:00",
+  "UpdatedDate": "2016-07-01T03:45:28.8265489+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "commodi",
+  "ConceptualType": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 40
     }
   }
 }

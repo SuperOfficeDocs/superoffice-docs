@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 209
+  "SatelliteId": 285
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kshlerin-Bosco",
-    "Description": "Multi-tiered coherent paradigm",
+    "Name": "Wyman LLC",
+    "Description": "Expanded encompassing migration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 15,
-        "Tooltip": "unde",
-        "CanAssign": true,
-        "Free": 101,
-        "InUse": 398,
+        "Unrestricted": false,
+        "Total": 752,
+        "Tooltip": "enim",
+        "CanAssign": false,
+        "Free": 281,
+        "InUse": 959,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 874,
-        "Name": "Dickens Inc and Sons",
-        "Description": "Open-source system-worthy moderator",
-        "PrerequisiteModuleName": "Gutkowski-Sauer",
-        "SortOrder": 886,
-        "ExtraFlags": 513,
+        "ModuleLicenseId": 544,
+        "Name": "Schowalter, Armstrong and Jacobi",
+        "Description": "Intuitive background collaboration",
+        "PrerequisiteModuleName": "Torp, Gulgowski and Harber",
+        "SortOrder": 460,
+        "ExtraFlags": 630,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldType": "System.String",
+            "FieldLength": 955
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 105,
+        "Unrestricted": true,
+        "Total": 823,
         "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 174,
-        "InUse": 236,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 498,
-        "Name": "Douglas LLC",
-        "Description": "Fully-configurable explicit portal",
-        "PrerequisiteModuleName": "White, Kohler and O'Hara",
-        "SortOrder": 986,
-        "ExtraFlags": 593,
+        "Free": 128,
+        "InUse": 427,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 548,
+        "Name": "Nader, Cummings and Schamberger",
+        "Description": "Business-focused intangible infrastructure",
+        "PrerequisiteModuleName": "Wolff LLC",
+        "SortOrder": 513,
+        "ExtraFlags": 795,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 591
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldLength": 157
       }
     }
   },
   {
-    "Name": "Kshlerin-Bosco",
-    "Description": "Multi-tiered coherent paradigm",
+    "Name": "Wyman LLC",
+    "Description": "Expanded encompassing migration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 15,
-        "Tooltip": "unde",
-        "CanAssign": true,
-        "Free": 101,
-        "InUse": 398,
+        "Unrestricted": false,
+        "Total": 752,
+        "Tooltip": "enim",
+        "CanAssign": false,
+        "Free": 281,
+        "InUse": 959,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 874,
-        "Name": "Dickens Inc and Sons",
-        "Description": "Open-source system-worthy moderator",
-        "PrerequisiteModuleName": "Gutkowski-Sauer",
-        "SortOrder": 886,
-        "ExtraFlags": 513,
+        "ModuleLicenseId": 544,
+        "Name": "Schowalter, Armstrong and Jacobi",
+        "Description": "Intuitive background collaboration",
+        "PrerequisiteModuleName": "Torp, Gulgowski and Harber",
+        "SortOrder": 460,
+        "ExtraFlags": 630,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldType": "System.String",
+            "FieldLength": 955
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 105,
+        "Unrestricted": true,
+        "Total": 823,
         "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 174,
-        "InUse": 236,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 498,
-        "Name": "Douglas LLC",
-        "Description": "Fully-configurable explicit portal",
-        "PrerequisiteModuleName": "White, Kohler and O'Hara",
-        "SortOrder": 986,
-        "ExtraFlags": 593,
+        "Free": 128,
+        "InUse": 427,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 548,
+        "Name": "Nader, Cummings and Schamberger",
+        "Description": "Business-focused intangible infrastructure",
+        "PrerequisiteModuleName": "Wolff LLC",
+        "SortOrder": 513,
+        "ExtraFlags": 795,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 591
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldLength": 157
       }
     }
   }

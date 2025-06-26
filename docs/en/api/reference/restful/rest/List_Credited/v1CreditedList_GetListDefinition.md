@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Hayes-Auer",
-  "Tooltip": "eum",
+  "Id": 680,
+  "Name": "Brekke, Trantow and Morissette",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 812,
-  "IsCustomList": true,
+  "Rank": 497,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 655
     }
   },
   "_Links": {

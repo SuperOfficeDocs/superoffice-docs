@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Lang LLC",
-    "ToolTip": "Qui et vel autem et tenetur sint.",
+    "Id": 274,
+    "Name": "Kihn-Koelpin",
+    "ToolTip": "Aut corporis omnis itaque accusantium corporis non dolor.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "accusamus",
-    "ColorBlock": 896,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2009-01-21T17:54:08.9917951+01:00",
+    "Rank": 670,
+    "Type": "alias",
+    "ColorBlock": 716,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2014-05-10T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Conn LLC",
-        "ToolTip": "Quidem aliquid asperiores sed esse illum.",
+        "Id": 908,
+        "Name": "Parker LLC",
+        "ToolTip": "Aut iusto.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "recusandae",
-        "ColorBlock": 309,
-        "IconHint": "ex",
+        "Rank": 701,
+        "Type": "culpa",
+        "ColorBlock": 879,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2023-11-15T17:54:08.9917951+01:00",
+        "LastChanged": "2006-11-12T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "itaque",
+        "ExtraInfo": "similique",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Schuyler Lueilwitz"
+        "FullName": "Ashley Renner"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quo",
+    "ExtraInfo": "ut",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Ms. Darian Houston Hudson I"
+    "FullName": "Vena Fabiola Ferry I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Abernathy, Walker and Legros",
-    "ToolTip": "Nam similique voluptate laboriosam quis et expedita.",
-    "Deleted": false,
-    "Rank": 357,
-    "Type": "possimus",
-    "ColorBlock": 825,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2012-09-15T17:54:08.9917951+02:00",
+    "Id": 639,
+    "Name": "Ritchie-Connelly",
+    "ToolTip": "Voluptas corporis a.",
+    "Deleted": true,
+    "Rank": 9,
+    "Type": "qui",
+    "ColorBlock": 850,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2023-05-21T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Schoen, Reinger and Bashirian",
-        "ToolTip": "Illo ratione aut consequatur natus pariatur aspernatur laborum.",
+        "Id": 752,
+        "Name": "Bartell, Ernser and Dibbert",
+        "ToolTip": "Et nostrum laudantium odio odio consequuntur.",
         "Deleted": false,
-        "Rank": 174,
-        "Type": "quisquam",
-        "ColorBlock": 414,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2000-07-16T17:54:08.9917951+02:00",
+        "Rank": 508,
+        "Type": "a",
+        "ColorBlock": 155,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "2023-10-28T03:45:29.1703077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "omnis",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Miss Kianna Nathen Brown DDS",
+        "FullName": "Stevie Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "nam",
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Dr. Kurt Jenifer Armstrong IV",
+    "FullName": "Madaline Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 737
       }
     }
   }

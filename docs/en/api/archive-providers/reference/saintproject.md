@@ -810,7 +810,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=sale/associate/contactFullName,sale/associate/ejDisplayName,document/subject,projectMember/personCountryId,projectMember/personUdef/SuperOffice:2
+GET /api/v1/archive/SaintProject?$select=name,sale/associate/assocName,sale/associate/ejUserId,appointment/associate/assocType,document/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

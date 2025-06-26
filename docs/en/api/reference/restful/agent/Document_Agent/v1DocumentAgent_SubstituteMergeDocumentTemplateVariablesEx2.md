@@ -83,16 +83,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "MergeDocumentId": 889,
-  "ContactId": 157,
-  "PersonId": 21,
-  "ProjectId": 901,
-  "SelectionId": 84,
-  "AppointmentId": 969,
-  "DocumentId": 740,
-  "SaleId": 587,
+  "ContactId": 132,
+  "PersonId": 671,
+  "ProjectId": 666,
+  "SelectionId": 580,
+  "AppointmentId": 267,
+  "DocumentId": 847,
+  "SaleId": 747,
   "CustomTags": {
-    "CustomTags1": "aliquam",
-    "CustomTags2": "assumenda"
+    "CustomTags1": "similique",
+    "CustomTags2": "facilis"
   }
 }
 ```

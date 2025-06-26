@@ -116,34 +116,34 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 259,
-  "Name": "Spencer LLC",
-  "Rank": 158,
-  "Tooltip": "quis",
-  "Icon": "error",
-  "DefaultTicketStatus": 724,
+  "TicketTypeId": 1002,
+  "Name": "Mayer-Grady",
+  "Rank": 576,
+  "Tooltip": "ipsum",
+  "Icon": "nobis",
+  "DefaultTicketStatus": 158,
   "TicketStatuses": [
-    58,
-    189
+    59,
+    563
   ],
-  "DefaultTicketPriority": 959,
+  "DefaultTicketPriority": 520,
   "TicketPriorities": [
-    387,
-    758
+    620,
+    144
   ],
-  "ReplyTemplate": 749,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 500,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    582,
-    847
+    386,
+    989
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -154,40 +154,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 985,
-  "Name": "Pouros-Hamill",
-  "Rank": 600,
-  "Tooltip": "omnis",
-  "Icon": "et",
-  "DefaultTicketStatus": 328,
+  "TicketTypeId": 566,
+  "Name": "Kris-Ratke",
+  "Rank": 847,
+  "Tooltip": "ea",
+  "Icon": "beatae",
+  "DefaultTicketStatus": 748,
   "TicketStatuses": [
-    664,
-    125
+    913,
+    829
   ],
-  "DefaultTicketPriority": 983,
+  "DefaultTicketPriority": 698,
   "TicketPriorities": [
-    107,
-    947
+    632,
+    774
   ],
-  "ReplyTemplate": 643,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 576,
+  "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    582,
-    43
+    148,
+    86
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 317
     }
   },
   "_Links": {

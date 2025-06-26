@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
+  "Id": 258,
   "IncludeAttachments": true
 }
 ```
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 882,
-      "ContactName": "Kovacek, Murphy and Schiller",
-      "PersonId": 864,
-      "PersonName": "McLaughlin Inc and Sons",
-      "AssociateId": 654,
-      "Address": "totam",
-      "EmailId": 451,
+      "ContactId": 598,
+      "ContactName": "Kassulke LLC",
+      "PersonId": 682,
+      "PersonName": "Gottlieb, Anderson and Hane",
+      "AssociateId": 317,
+      "Address": "ex",
+      "EmailId": 90,
       "DuplicatePersonIds": [
-        224,
-        208
+        895,
+        243
       ],
-      "Name": "Schmidt Group",
+      "Name": "Volkman, Gottlieb and Bergnaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 929
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 126,
-      "ContactName": "Denesik, Prosacco and Dietrich",
-      "PersonId": 302,
-      "PersonName": "Koch Group",
-      "AssociateId": 527,
-      "Address": "eaque",
-      "EmailId": 622,
+      "ContactId": 946,
+      "ContactName": "Walsh-Jacobs",
+      "PersonId": 335,
+      "PersonName": "Boehm, Kassulke and Miller",
+      "AssociateId": 859,
+      "Address": "omnis",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        912,
-        419
+        30,
+        662
       ],
-      "Name": "Koepp, Denesik and Langosh",
+      "Name": "Stehr, Jacobs and Ullrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 457
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 660,
-      "ContactName": "Bernier, Batz and Schmeler",
-      "PersonId": 580,
-      "PersonName": "Ferry, Becker and Bechtelar",
-      "AssociateId": 731,
-      "Address": "labore",
-      "EmailId": 240,
+      "ContactId": 836,
+      "ContactName": "Hand Group",
+      "PersonId": 153,
+      "PersonName": "Bergnaum-Jewess",
+      "AssociateId": 400,
+      "Address": "qui",
+      "EmailId": 855,
       "DuplicatePersonIds": [
-        906,
-        581
+        353,
+        826
       ],
-      "Name": "Stiedemann-Ankunding",
+      "Name": "Stroman LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 218
         }
       }
     }
   ],
-  "Subject": "neque",
-  "HTMLBody": "ea",
+  "Subject": "omnis",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2017-01-10T17:54:03.1170817+01:00",
-  "Size": 101,
+  "Sent": "2010-08-12T03:45:23.4517052+02:00",
+  "Size": 981,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "molestiae",
+  "MessageID": "praesentium",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 274,
+  "ServerId": 984,
   "Attachments": [
     {
-      "Description": "Streamlined full-range function",
-      "Filename": "quia",
-      "Size": 728,
-      "Type": "nobis",
-      "Encoding": "veritatis",
-      "Id": "alias",
-      "Disposition": "dicta",
-      "IsSafeFileExtension": false,
+      "Description": "Re-contextualized encompassing implementation",
+      "Filename": "nemo",
+      "Size": 289,
+      "Type": "accusantium",
+      "Encoding": "asperiores",
+      "Id": "esse",
+      "Disposition": "mollitia",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 284
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bednar Group",
+      "Name": "Hirthe Inc and Sons",
       "Values": [
-        "accusantium",
-        "reiciendis"
+        "ut",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 945
         }
       }
     },
     {
-      "Name": "Bednar Group",
+      "Name": "Hirthe Inc and Sons",
       "Values": [
-        "accusantium",
-        "reiciendis"
+        "ut",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldLength": 945
         }
       }
     }
   ],
-  "FolderName": "Koepp-Ullrich",
-  "EmailItemId": 968,
-  "AccountId": 224,
-  "ReceivedAt": "2018-05-27T17:54:03.1170817+02:00",
+  "FolderName": "Marks, Ledner and Bogan",
+  "EmailItemId": 136,
+  "AccountId": 448,
+  "ReceivedAt": "2011-01-08T03:45:23.4517052+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-08-11T17:54:03.1170817+02:00",
+  "RepliedAt": "2007-05-08T03:45:23.4517052+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldLength": 597
     }
   }
 }

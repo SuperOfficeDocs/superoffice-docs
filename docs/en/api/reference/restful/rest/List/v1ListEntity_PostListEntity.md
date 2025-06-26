@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Wisoky, Cartwright and Larson",
-  "Tooltip": "quo",
+  "Id": 363,
+  "Name": "Streich, Schaefer and Nienow",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 498,
-  "IsCustomList": false,
+  "Rank": 669,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 829,
+  "Id": 631,
+  "Name": "Christiansen-Harvey",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "Rank": 97,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "deleniti",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 858
     }
   },
   "_Links": {

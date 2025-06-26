@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 858,
-  "StartTime": "2023-01-15T17:54:02.9452152+01:00",
-  "EndTime": "2022-08-25T17:54:02.9452152+02:00",
-  "Count": 2
+  "ContactId": 36,
+  "StartTime": "2017-09-26T03:45:23.2798335+02:00",
+  "EndTime": "2023-03-07T03:45:23.2798335+01:00",
+  "Count": 459
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 299,
-    "Attention": "voluptatem",
-    "Header": "officiis",
-    "Name": "Bogan-Parisian",
-    "OurRef": "modi",
-    "YourRef": "aut",
-    "Description": "Proactive client-server function",
-    "DocumentTemplate": "dolor",
-    "IsPublished": true,
-    "PersonId": 225,
-    "PersonFullName": "Brady Breitenberg",
-    "AssociateFullName": "Okey Hegmann",
-    "ContactId": 437,
-    "ContactName": "Kuhlman Inc and Sons",
-    "ProjectId": 632,
-    "ProjectName": "Cormier-Walsh",
-    "AssociateId": 707,
-    "Snum": 999,
-    "SaleId": 230,
-    "SaleName": "Cruickshank LLC",
+    "DocumentId": 353,
+    "Attention": "eum",
+    "Header": "quam",
+    "Name": "Gorczany Group",
+    "OurRef": "assumenda",
+    "YourRef": "id",
+    "Description": "Extended multi-tasking firmware",
+    "DocumentTemplate": "minus",
+    "IsPublished": false,
+    "PersonId": 783,
+    "PersonFullName": "Gilda Helene Rath DVM",
+    "AssociateFullName": "Brooke Medhurst",
+    "ContactId": 690,
+    "ContactName": "Leffler Inc and Sons",
+    "ProjectId": 777,
+    "ProjectName": "Mann-Predovic",
+    "AssociateId": 277,
+    "Snum": 912,
+    "SaleId": 172,
+    "SaleName": "Boyer-Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 897
       }
     }
   }

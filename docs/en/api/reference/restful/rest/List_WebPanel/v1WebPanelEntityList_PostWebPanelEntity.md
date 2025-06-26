@@ -107,31 +107,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 134,
-  "Name": "Williamson-Smitham",
-  "Tooltip": "distinctio",
+  "WebPanelId": 849,
+  "Name": "Braun Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 502,
+  "Rank": 818,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Torp, Heller and Metz",
+  "ShowInStatusBar": true,
+  "WindowName": "Goldner-Robel",
   "Url": "http://www.example.com/",
-  "ProgId": "nesciunt",
-  "Icon": 306,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "voluptatem",
+  "Icon": 942,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 619,
-  "Name": "Weissnat LLC",
-  "Tooltip": "minus",
+  "WebPanelId": 316,
+  "Name": "Kohler-Luettgen",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 704,
+  "Rank": 533,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Larson, Runte and Rolfson",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Schowalter, Jaskolski and Mann",
   "Url": "http://www.example.com/",
-  "ProgId": "dicta",
-  "Icon": 443,
+  "ProgId": "a",
+  "Icon": 353,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Purdy, Ferry and Green",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 41,
-    "Rank": 1002
+    "Id": 467,
+    "Name": "Gleichner-Runte",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "UdListDefinitionId": 412,
+    "Rank": 1001
   },
   {
-    "Id": 674,
-    "Name": "Purdy, Ferry and Green",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 41,
-    "Rank": 1002
+    "Id": 467,
+    "Name": "Gleichner-Runte",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "UdListDefinitionId": 412,
+    "Rank": 1001
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Schiller, Pacocha and Kessler",
-    "Tooltip": "iste",
+    "Id": 426,
+    "Name": "Lubowitz-Dooley",
+    "Tooltip": "enim",
     "Deleted": true,
-    "UdListDefinitionId": 357,
-    "Rank": 313,
+    "UdListDefinitionId": 254,
+    "Rank": 859,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

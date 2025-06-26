@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 423,
+  "EjMessageId": 164,
   "Ticket": null,
-  "CreatedAt": "2021-10-18T17:54:08.6639929+02:00",
+  "CreatedAt": "2019-07-11T03:45:28.7796745+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "error",
-  "TimeSpent": 728,
-  "Body": "ducimus",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "fern@blickwiza.co.uk",
-  "DebugInfo": "illo",
-  "MailSorter": "minima",
+  "MessageId": "quod",
+  "TimeSpent": 976,
+  "Body": "mollitia",
+  "HtmlBody": "dolor",
+  "EmailHeader": "casey@ruecker.ca",
+  "DebugInfo": "voluptas",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequuntur",
+  "SearchTitle": "voluptas",
   "MessageHeaders": [
     {
-      "Id": 760,
-      "Name": "Goldner, Halvorson and Terry",
-      "Value": "natus",
+      "Id": 639,
+      "Name": "O'Connell-Reinger",
+      "Value": "doloremque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 760,
-      "Name": "Goldner, Halvorson and Terry",
-      "Value": "natus",
+      "Id": 639,
+      "Name": "O'Connell-Reinger",
+      "Value": "doloremque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "cum",
-  "Sentiment": 488,
-  "SentimentConfidence": 959,
+  "Language": "veritatis",
+  "Sentiment": 727,
+  "SentimentConfidence": 43,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 682,
-      "Name": "Frami, Feeney and Klein",
-      "ContentType": "aut",
-      "AttSize": 755,
-      "InlineImage": true,
-      "ContentId": "ipsa",
-      "AuthKey": "voluptate",
+      "AttachmentId": 224,
+      "Name": "Senger-Carroll",
+      "ContentType": "praesentium",
+      "AttSize": 367,
+      "InlineImage": false,
+      "ContentId": "maiores",
+      "AuthKey": "error",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "nesciunt"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 521,
+  "EjMessageId": 87,
   "Ticket": null,
-  "CreatedAt": "1998-06-13T17:54:08.6639929+02:00",
+  "CreatedAt": "2000-07-30T03:45:28.7796745+02:00",
   "CreatedBy": null,
-  "Author": "quam",
+  "Author": "voluptate",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eos",
-  "TimeSpent": 254,
-  "Body": "expedita",
-  "HtmlBody": "quae",
-  "EmailHeader": "preston@funk.biz",
-  "DebugInfo": "fugiat",
-  "MailSorter": "incidunt",
+  "MessageId": "voluptatum",
+  "TimeSpent": 876,
+  "Body": "quia",
+  "HtmlBody": "nisi",
+  "EmailHeader": "adela@heathcote.co.uk",
+  "DebugInfo": "aut",
+  "MailSorter": "labore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sunt",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 55,
-      "Name": "Okuneva LLC",
-      "Value": "voluptatem",
+      "Id": 246,
+      "Name": "Crona-Johnson",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 308
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "fugit",
-  "Sentiment": 526,
-  "SentimentConfidence": 873,
+  "Important": false,
+  "Language": "commodi",
+  "Sentiment": 77,
+  "SentimentConfidence": 95,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 447,
-      "Name": "Mayer Group",
-      "ContentType": "corrupti",
-      "AttSize": 701,
-      "InlineImage": false,
-      "ContentId": "incidunt",
-      "AuthKey": "est",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 622,
+      "Name": "Hilll, Adams and Gottlieb",
+      "ContentType": "ab",
+      "AttSize": 114,
+      "InlineImage": true,
+      "ContentId": "aliquam",
+      "AuthKey": "velit",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 851
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "similique"
+    "CustomFields1": "illum",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 656
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Barrows-Ebert",
-    "Tooltip": "ipsum",
+    "Id": 322,
+    "Name": "Stark, Senger and McCullough",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "UdListDefinitionId": 113,
-    "Rank": 58,
+    "UdListDefinitionId": 116,
+    "Rank": 33,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 574
       }
     }
   }

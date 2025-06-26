@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "et",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 310,
-  "UniqueId": "eum",
-  "Name": "McDermott, Reichert and Yost",
-  "Description": "Public-key asynchronous middleware",
-  "AssociateId": 72,
-  "Columns": 334,
+  "DashboardId": 309,
+  "UniqueId": "quis",
+  "Name": "Runolfsdottir Inc and Sons",
+  "Description": "Reactive composite challenge",
+  "AssociateId": 750,
+  "Columns": 767,
   "Theme": null,
-  "VisibleForAll": 166,
+  "VisibleForAll": 252,
   "VisibleForAssociates": [
-    740,
-    75
+    417,
+    458
   ],
   "VisibleForGroups": [
-    416,
-    843
+    748,
+    618
   ],
-  "PinForAll": 638,
+  "PinForAll": 787,
   "PinForAssociates": [
-    593,
-    375
+    996,
+    9
   ],
   "PinForGroups": [
-    383,
-    845
+    175,
+    742
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 266
     }
   },
   "_Links": {

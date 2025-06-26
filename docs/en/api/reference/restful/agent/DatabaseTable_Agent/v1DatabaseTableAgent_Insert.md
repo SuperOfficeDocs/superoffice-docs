@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Quigley LLC",
+  "TableName": "Hagenes-Gorczany",
   "Columns": [
-    "nisi",
-    "voluptatem"
+    "facere",
+    "ut"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "dolore",
-  "Inserts": 383,
-  "Updates": 604,
-  "Deletes": 111,
+  "Success": false,
+  "Message": "dolor",
+  "Inserts": 79,
+  "Updates": 883,
+  "Deletes": 978,
   "RowStatus": [
     {
-      "PrimaryKey": 712,
+      "PrimaryKey": 759,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eos",
-        "quo"
+        "odit",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 556
         }
       }
     },
     {
-      "PrimaryKey": 712,
+      "PrimaryKey": 759,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eos",
-        "quo"
+        "odit",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 556
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 993
     }
   }
 }

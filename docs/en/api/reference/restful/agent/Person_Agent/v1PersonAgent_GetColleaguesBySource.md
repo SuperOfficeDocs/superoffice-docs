@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 614
+  "Count": 766
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ducimus",
-    "PersonId": 559,
-    "Mrmrs": "optio",
-    "Firstname": "Icie",
-    "Lastname": "Lemke",
-    "MiddleName": "Cassin LLC",
-    "Title": "quia",
-    "Description": "User-friendly object-oriented concept",
-    "Email": "ephraim@hesselkilback.uk",
-    "FullName": "Kenny Renner",
-    "DirectPhone": "(974)813-3419 x703",
-    "FormalName": "Watsica-Auer",
-    "CountryId": 188,
-    "ContactId": 805,
-    "ContactName": "Reichert Inc and Sons",
-    "Retired": 980,
-    "Rank": 863,
-    "ActiveInterests": 538,
+    "Position": "non",
+    "PersonId": 309,
+    "Mrmrs": "fugiat",
+    "Firstname": "Blanca",
+    "Lastname": "Dickens",
+    "MiddleName": "Feeney, McLaughlin and Heaney",
+    "Title": "voluptate",
+    "Description": "Diverse high-level neural-net",
+    "Email": "lavina@ortiz.info",
+    "FullName": "Leonora Rutherford",
+    "DirectPhone": "1-619-068-1241 x045",
+    "FormalName": "Medhurst LLC",
+    "CountryId": 514,
+    "ContactId": 527,
+    "ContactName": "Abernathy, Stroman and Abshire",
+    "Retired": 83,
+    "Rank": 584,
+    "ActiveInterests": 833,
     "ContactDepartment": "",
-    "ContactCountryId": 603,
-    "ContactOrgNr": "234872",
-    "FaxPhone": "(889)784-9264 x64093",
-    "MobilePhone": "750-533-1596",
-    "ContactPhone": "596-213-2908 x094",
-    "AssociateName": "Heaney LLC",
-    "AssociateId": 56,
-    "UsePersonAddress": false,
-    "ContactFax": "voluptatem",
-    "Kanafname": "at",
-    "Kanalname": "voluptas",
-    "Post1": "voluptatum",
-    "Post2": "quia",
-    "Post3": "consequatur",
-    "EmailName": "kiley@mckenziekutch.name",
-    "ContactFullName": "Jazmin Jaskolski",
-    "ActiveErpLinks": 72,
-    "TicketPriorityId": 115,
-    "SupportLanguageId": 762,
-    "SupportAssociateId": 5,
+    "ContactCountryId": 345,
+    "ContactOrgNr": "773629",
+    "FaxPhone": "610-128-0011 x45477",
+    "MobilePhone": "769.556.4102 x6056",
+    "ContactPhone": "(857)769-3595",
+    "AssociateName": "Hamill-Weissnat",
+    "AssociateId": 329,
+    "UsePersonAddress": true,
+    "ContactFax": "doloribus",
+    "Kanafname": "laborum",
+    "Kanalname": "consectetur",
+    "Post1": "sunt",
+    "Post2": "velit",
+    "Post3": "provident",
+    "EmailName": "ned_bode@altenwerthaufderhar.biz",
+    "ContactFullName": "Doyle Emard",
+    "ActiveErpLinks": 569,
+    "TicketPriorityId": 364,
+    "SupportLanguageId": 938,
+    "SupportAssociateId": 992,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "540784",
+    "PersonNumber": "1361357",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldType": "System.Int32",
+        "FieldLength": 180
       }
     }
   }

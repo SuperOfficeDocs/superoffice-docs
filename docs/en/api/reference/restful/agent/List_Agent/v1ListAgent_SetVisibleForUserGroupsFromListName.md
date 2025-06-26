@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ziemann Group",
-  "ListItemId": 380,
+  "UdListDefinitionName": "Swift-Pagac",
+  "ListItemId": 925,
   "UserGroups": [
     {
-      "Id": 229,
-      "Name": "Bechtelar, Barton and Botsford",
-      "ToolTip": "A sed molestiae culpa expedita voluptates suscipit.",
-      "Deleted": false,
-      "Rank": 8,
-      "Type": "dolore",
-      "ColorBlock": 373,
-      "IconHint": "quaerat",
-      "Selected": false,
-      "LastChanged": "2003-05-06T17:54:03.2108272+02:00",
+      "Id": 754,
+      "Name": "Jacobs Inc and Sons",
+      "ToolTip": "Officia sunt doloribus temporibus accusantium laboriosam.",
+      "Deleted": true,
+      "Rank": 639,
+      "Type": "at",
+      "ColorBlock": 585,
+      "IconHint": "illo",
+      "Selected": true,
+      "LastChanged": "2023-02-12T03:45:23.5298295+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "natus",
-      "Hidden": false,
-      "FullName": "Mrs. Nova Orn"
+      "ExtraInfo": "quia",
+      "StyleHint": "autem",
+      "Hidden": true,
+      "FullName": "Krystal Yost"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Spencer Inc and Sons",
-    "ToolTip": "Labore aspernatur maxime vero facere.",
+    "Id": 45,
+    "Name": "Heathcote Inc and Sons",
+    "ToolTip": "Consequatur aliquam rerum nostrum quas nam.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "minus",
-    "ColorBlock": 137,
-    "IconHint": "sint",
+    "Rank": 879,
+    "Type": "molestiae",
+    "ColorBlock": 372,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2005-02-25T17:54:03.2108272+01:00",
+    "LastChanged": "2018-09-21T03:45:23.5298295+02:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "O'Keefe-Lakin",
-        "ToolTip": "Sit dolorem voluptatem ea.",
+        "Id": 45,
+        "Name": "Kunde, Ebert and Klein",
+        "ToolTip": "Voluptatem natus animi omnis aliquid.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "expedita",
-        "ColorBlock": 128,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "2009-09-12T17:54:03.2108272+02:00",
+        "Rank": 936,
+        "Type": "quis",
+        "ColorBlock": 765,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2000-12-11T03:45:23.5298295+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Hyman Dickinson",
+        "FullName": "Kaleigh Sibyl Kemmer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 932
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Marlee Corwin",
+    "ExtraInfo": "quasi",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Prof. Thea Kristy Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldLength": 739
       }
     }
   }

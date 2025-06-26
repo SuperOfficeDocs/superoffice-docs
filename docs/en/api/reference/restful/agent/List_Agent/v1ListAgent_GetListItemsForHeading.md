@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 581,
-  "HeadingId": 927
+  "UdListDefinitionId": 352,
+  "HeadingId": 442
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Roberts-Dietrich",
-    "ToolTip": "Magnam culpa qui est.",
-    "Deleted": true,
-    "Rank": 951,
-    "Type": "dolorum",
-    "ColorBlock": 935,
-    "IconHint": "qui",
+    "Id": 126,
+    "Name": "Windler, Franecki and Schimmel",
+    "ToolTip": "Quis hic commodi rem doloribus.",
+    "Deleted": false,
+    "Rank": 769,
+    "Type": "sed",
+    "ColorBlock": 355,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2000-10-05T17:54:03.2576998+02:00",
+    "LastChanged": "2019-03-23T03:45:23.5927257+01:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Rice-Jacobs",
-        "ToolTip": "Expedita iusto ad mollitia.",
+        "Id": 925,
+        "Name": "Toy, Tromp and Becker",
+        "ToolTip": "Libero eos fuga consectetur et provident velit similique.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "deserunt",
-        "ColorBlock": 803,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2020-08-13T17:54:03.2576998+02:00",
+        "Rank": 444,
+        "Type": "esse",
+        "ColorBlock": 573,
+        "IconHint": "possimus",
+        "Selected": true,
+        "LastChanged": "2018-06-25T03:45:23.5927257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Kareem Hansen",
+        "ExtraInfo": "atque",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Mrs. Audrey Morissette MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 583
+            "FieldType": "System.Int32",
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Amani Walsh",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Mr. Freda Cora Breitenberg DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldLength": 581
       }
     }
   }

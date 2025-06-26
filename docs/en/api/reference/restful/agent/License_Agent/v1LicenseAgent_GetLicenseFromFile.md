@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ipsam"
+  "FileContent": "occaecati"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 240,
-      "NumberOfLicensesFree": 794,
-      "NumberOfLicensesAdded": 70,
-      "NumberOfLicensesNewTotal": 945,
-      "NumberOfLicensesNewFree": 954,
-      "NumberOfLicensesTotal": 73
+      "NumberOfLicensesInUse": 303,
+      "NumberOfLicensesFree": 666,
+      "NumberOfLicensesAdded": 618,
+      "NumberOfLicensesNewTotal": 162,
+      "NumberOfLicensesNewFree": 661,
+      "NumberOfLicensesTotal": 735
     }
   ],
-  "AccumulatedNextCheckDate": "2013-07-10T17:54:03.1795788+02:00"
+  "AccumulatedNextCheckDate": "2002-02-27T03:45:23.498579+01:00"
 }
 ```

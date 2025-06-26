@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Hara LLC",
-  "ModuleName": "Hettinger-Larson",
-  "ModuleDescription": "Integrated empowering functionalities",
-  "ModuleTooltip": "repellendus",
-  "ModuleVersion": "sunt",
+  "OwnerName": "Boyer LLC",
+  "ModuleName": "Schiller-Parker",
+  "ModuleDescription": "Profit-focused leading edge info-mediaries",
+  "ModuleTooltip": "consequuntur",
+  "ModuleVersion": "et",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 155,
-  "ExtraFlags": 647,
-  "ExtraInfo": "molestiae",
-  "SortOrder": 746,
+  "NumberOfLicenses": 544,
+  "ExtraFlags": 390,
+  "ExtraInfo": "et",
+  "SortOrder": 916,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Tremblay LLC",
-  "Signature": "recusandae"
+  "PrerequisiteModuleName": "Spencer-Kutch",
+  "Signature": "culpa"
 }
 ```

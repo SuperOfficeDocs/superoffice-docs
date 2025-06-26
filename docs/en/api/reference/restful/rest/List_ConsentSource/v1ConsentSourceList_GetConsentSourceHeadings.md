@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 353,
-    "Name": "Kutch, Harris and Stamm",
-    "Tooltip": "asperiores",
+    "HeadingId": 855,
+    "Name": "Daugherty-Langosh",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 432,
-    "UdListDefinitionId": 865,
+    "Rank": 894,
+    "UdListDefinitionId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 167
       }
     }
   }

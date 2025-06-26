@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Flatley, Kautzer and Zemlak",
-    "ToolTip": "Aliquid tempore.",
+    "Id": 284,
+    "Name": "Casper, Lueilwitz and Renner",
+    "ToolTip": "Voluptas qui dignissimos occaecati veniam libero quasi provident.",
     "Deleted": false,
-    "Rank": 638,
-    "Type": "fuga",
-    "ColorBlock": 882,
-    "IconHint": "qui",
+    "Rank": 423,
+    "Type": "fugit",
+    "ColorBlock": 658,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2016-02-24T17:54:09.0858036+01:00",
+    "LastChanged": "2016-10-19T03:45:29.2015441+02:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Bahringer Inc and Sons",
-        "ToolTip": "Quaerat sed.",
+        "Id": 968,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Nobis est autem ut dolore beatae nulla adipisci.",
         "Deleted": true,
-        "Rank": 503,
-        "Type": "vel",
-        "ColorBlock": 230,
-        "IconHint": "quia",
+        "Rank": 676,
+        "Type": "inventore",
+        "ColorBlock": 841,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2011-06-26T17:54:09.0858036+02:00",
+        "LastChanged": "2003-06-04T03:45:29.2015441+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "iste",
+        "ExtraInfo": "et",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Ms. Americo Mann MD",
+        "FullName": "Imogene Treutel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 957
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "eaque",
-    "Hidden": false,
-    "FullName": "Elsie Becker",
+    "ExtraInfo": "facilis",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Dr. Cheyenne Orn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

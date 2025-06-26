@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 345,
-  "Section": "cumque",
-  "Key": "qui",
-  "Name": "Paucek LLC",
+  "PrefDescId": 275,
+  "Section": "omnis",
+  "Key": "nesciunt",
+  "Name": "Weimann, Nienow and Prohaska",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line real-time array",
+  "Description": "Self-enabling heuristic contingency",
   "IsBuiltin": false,
-  "TableName": "Bernier-Beier",
-  "UserDefinedListId": 819,
-  "Rank": 716,
-  "SubGroup": "in",
-  "MinLevel": 530,
-  "MaxValue": 199,
-  "MinValue": 186,
-  "RequiredLicense": "labore"
+  "TableName": "Feeney Group",
+  "UserDefinedListId": 435,
+  "Rank": 537,
+  "SubGroup": "vero",
+  "MinLevel": 599,
+  "MaxValue": 532,
+  "MinValue": 334,
+  "RequiredLicense": "fugit"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 629,
-  "Section": "sequi",
-  "Key": "incidunt",
-  "Name": "Jewess Inc and Sons",
+  "PrefDescId": 462,
+  "Section": "autem",
+  "Key": "aut",
+  "Name": "Mann Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group mobile data-warehouse",
-  "IsBuiltin": true,
-  "TableName": "Legros LLC",
-  "UserDefinedListId": 948,
-  "Rank": 714,
-  "SubGroup": "nisi",
-  "MinLevel": 895,
-  "MaxValue": 559,
-  "MinValue": 496,
-  "RequiredLicense": "reprehenderit",
+  "Description": "Ameliorated next generation encryption",
+  "IsBuiltin": false,
+  "TableName": "Ziemann-Kling",
+  "UserDefinedListId": 793,
+  "Rank": 634,
+  "SubGroup": "et",
+  "MinLevel": 720,
+  "MaxValue": 988,
+  "MinValue": 357,
+  "RequiredLicense": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

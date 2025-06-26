@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 03 Jul 2016 17:54:08 G7T
+Last-Modified: Sun, 20 May 2018 03:45:28 G5T
 
 {
-  "ForeignAppId": 731,
-  "Name": "Smith Inc and Sons",
-  "CreatedDate": "2015-10-11T17:54:08.2574567+02:00",
-  "UpdatedDate": "2016-07-03T17:54:08.2574567+02:00",
+  "ForeignAppId": 912,
+  "Name": "Larson, Becker and Smith",
+  "CreatedDate": "2003-07-12T03:45:28.3578119+02:00",
+  "UpdatedDate": "2018-05-20T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 332,
-      "Name": "Goodwin LLC",
-      "CreatedDate": "1998-03-31T17:54:08.2574567+02:00",
-      "UpdatedDate": "2016-07-26T17:54:08.2574567+02:00",
-      "AssociateFullName": "Mr. Jerry Dach DDS",
-      "CreatedBy": "occaecati",
-      "UpdatedBy": "eveniet",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 235,
+      "ForeignDeviceId": 523,
+      "Name": "McDermott, Balistreri and Kreiger",
+      "CreatedDate": "2023-02-14T03:45:28.3578119+01:00",
+      "UpdatedDate": "2018-12-19T03:45:28.3578119+01:00",
+      "AssociateFullName": "Jayson Sporer",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "ad",
+      "DeviceIdentifier": "nam",
+      "ForeignAppId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 745
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Sun, 03 Jul 2016 17:54:08 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 525
     }
   }
 }

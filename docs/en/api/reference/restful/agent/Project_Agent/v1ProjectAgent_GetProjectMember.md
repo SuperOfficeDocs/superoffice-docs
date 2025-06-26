@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=407
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=406
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 666,
-  "ContactId": 637,
-  "ProjectId": 838,
-  "ContactName": "Feil Inc and Sons",
+  "ProjectmemberId": 996,
+  "ContactId": 505,
+  "ProjectId": 67,
+  "ContactName": "Berge, Klocko and Moore",
   "ContactDepartment": "",
-  "ProjectName": "Walsh, Hirthe and Johns",
-  "EmailId": 862,
-  "EmailAddress": "karen.hammes@abernathy.us",
-  "CountryId": 302,
-  "Firstname": "George",
-  "MiddleName": "Douglas Inc and Sons",
-  "Lastname": "Schimmel",
-  "PersonId": 688,
-  "Mrmrs": "minus",
-  "ProjectMemberTypeName": "Kub-Jacobi",
-  "Phone": "1-190-632-1937 x564",
-  "PhoneId": 595,
-  "ProjectMemberTypeId": 370,
-  "EmailAddressName": "gerald_greenholt@krismcclure.ca",
-  "Comment": "blanditiis",
-  "FullName": "Mrs. Jerry Sporer MD",
+  "ProjectName": "Howe, Schoen and Macejkovic",
+  "EmailId": 274,
+  "EmailAddress": "josefina@klein.us",
+  "CountryId": 366,
+  "Firstname": "Dakota",
+  "MiddleName": "Macejkovic LLC",
+  "Lastname": "Wiza",
+  "PersonId": 961,
+  "Mrmrs": "quia",
+  "ProjectMemberTypeName": "Kuhic Group",
+  "Phone": "1-164-200-1689",
+  "PhoneId": 678,
+  "ProjectMemberTypeId": 161,
+  "EmailAddressName": "rosalinda@romagueramckenzie.biz",
+  "Comment": "aut",
+  "FullName": "Cloyd Harber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

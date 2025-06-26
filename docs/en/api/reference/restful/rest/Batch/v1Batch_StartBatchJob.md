@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "White-Nader",
-  "AssociateId": 987,
-  "DetailsTable": 516,
-  "DetailsRecord": 653,
-  "IsSystemTask": false,
+  "Id": 244,
+  "Name": "Gorczany Inc and Sons",
+  "AssociateId": 216,
+  "DetailsTable": 927,
+  "DetailsRecord": 809,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "reprehenderit"
+    "ParameterObject1": "similique",
+    "ParameterObject2": "veniam"
   },
-  "LastStarted": "2025-05-09T17:54:08.6793184+02:00",
-  "Created": "2004-08-06T17:54:08.6793184+02:00",
-  "StartCount": 57,
-  "DatabaseSerialNumber": "588904",
-  "Context": "sint",
-  "Result": "officiis",
+  "LastStarted": "2019-06-04T03:45:28.7952992+02:00",
+  "Created": "2017-03-14T03:45:28.7952992+01:00",
+  "StartCount": 8,
+  "DatabaseSerialNumber": "1059126",
+  "Context": "exercitationem",
+  "Result": "necessitatibus",
   "State": "All",
-  "Description": "Synergistic dedicated open architecture",
-  "Response": "dolores",
-  "Request": "distinctio",
-  "ProgressDescription": "Mandatory incremental data-warehouse",
-  "ProgressPercent": 942,
-  "FileName": "Hammes Group",
+  "Description": "Realigned tertiary standardization",
+  "Response": "natus",
+  "Request": "rerum",
+  "ProgressDescription": "Object-based global knowledge user",
+  "ProgressPercent": 194,
+  "FileName": "Howe, Homenick and Kutch",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-997
+728
 ```

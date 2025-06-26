@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=alias
+GET /api/v1/List/Business/MDOItems?query=molestias
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Mayert, Will and Bode",
-    "ToolTip": "Ducimus beatae est harum pariatur voluptatibus magni.",
+    "Id": 885,
+    "Name": "Waters, Medhurst and Price",
+    "ToolTip": "Expedita et.",
     "Deleted": true,
-    "Rank": 33,
-    "Type": "possimus",
+    "Rank": 491,
+    "Type": "fugiat",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Dare, Balistreri and Jacobi",
-        "ToolTip": "Ut sit vero.",
-        "Deleted": false,
-        "Rank": 621,
-        "Type": "adipisci",
+        "Id": 675,
+        "Name": "Fritsch, Harris and Cormier",
+        "ToolTip": "Hic ullam ut.",
+        "Deleted": true,
+        "Rank": 549,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maxime",
-        "ColorBlock": 505,
-        "ExtraInfo": "ea",
-        "StyleHint": "voluptate",
-        "FullName": "Prof. Kristoffer Bogan Sr.",
+        "IconHint": "aperiam",
+        "ColorBlock": 24,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "omnis",
+        "FullName": "Oral Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 355
+            "FieldType": "System.Int32",
+            "FieldLength": 94
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 649,
-    "ExtraInfo": "quod",
-    "StyleHint": "a",
-    "FullName": "Dr. Valentine Ritchie V",
+    "IconHint": "recusandae",
+    "ColorBlock": 579,
+    "ExtraInfo": "minima",
+    "StyleHint": "voluptas",
+    "FullName": "Teagan Price V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 83
       }
     }
   }

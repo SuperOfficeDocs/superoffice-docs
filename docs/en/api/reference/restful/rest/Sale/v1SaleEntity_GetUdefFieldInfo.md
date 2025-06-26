@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 375,
-  "ColumnId": 318,
-  "FieldDefault": "quia",
-  "FieldHeight": 102,
-  "FieldLabel": "temporibus",
-  "FieldLeft": 109,
-  "FieldTop": 449,
+  "UDefFieldId": 314,
+  "ColumnId": 951,
+  "FieldDefault": "ut",
+  "FieldHeight": 283,
+  "FieldLabel": "cupiditate",
+  "FieldLeft": 551,
+  "FieldTop": 121,
   "FieldType": "Checkbox",
-  "FieldWidth": 376,
-  "FormatMask": "a",
+  "FieldWidth": 180,
+  "FormatMask": "quia",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 652,
-  "LabelLeft": 219,
-  "LabelTop": 210,
-  "LabelWidth": 417,
-  "LastVersionId": 119,
-  "ListTableId": 112,
-  "IsMandatory": true,
+  "LabelHeight": 32,
+  "LabelLeft": 294,
+  "LabelTop": 372,
+  "LabelWidth": 145,
+  "LastVersionId": 893,
+  "ListTableId": 464,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 375,
-  "ProgId": "est",
-  "IsReadOnly": true,
-  "ShortLabel": "nemo",
-  "TabOrder": 824,
-  "TextLength": 289,
-  "Tooltip": "enim",
-  "UdefIdentity": 14,
-  "UDListDefinitionId": 140,
+  "Page1LineNo": 718,
+  "ProgId": "voluptatum",
+  "IsReadOnly": false,
+  "ShortLabel": "nostrum",
+  "TabOrder": 470,
+  "TextLength": 765,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 836,
+  "UDListDefinitionId": 805,
   "Justification": "Center",
-  "Version": 859,
-  "TemplateVariableName": "Stracke-Connelly",
-  "HasBeenPublished": true,
-  "MdoListName": "Kovacek, Upton and Kuphal",
+  "Version": 817,
+  "TemplateVariableName": "Kling, Gerhold and O'Reilly",
+  "HasBeenPublished": false,
+  "MdoListName": "Altenwerth, Christiansen and Howell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

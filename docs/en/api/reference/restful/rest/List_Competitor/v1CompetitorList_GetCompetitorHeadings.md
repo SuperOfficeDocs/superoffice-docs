@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "Stiedemann Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 751,
+    "Name": "Pfeffer, Ullrich and Runolfsdottir",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 537,
-    "UdListDefinitionId": 704,
+    "Rank": 388,
+    "UdListDefinitionId": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldLength": 327
       }
     }
   }

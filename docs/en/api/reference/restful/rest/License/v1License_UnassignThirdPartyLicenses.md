@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 992,
-    "Tooltip": "maiores",
+    "Unrestricted": true,
+    "Total": 724,
+    "Tooltip": "qui",
     "CanAssign": false,
-    "Free": 544,
-    "InUse": 452,
+    "Free": 367,
+    "InUse": 362,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 667,
-    "Name": "Kuvalis, Lynch and Lind",
-    "Description": "Managed uniform monitoring",
-    "PrerequisiteModuleName": "Eichmann-Kshlerin",
-    "SortOrder": 503,
-    "ExtraFlags": 306,
+    "Assigned": false,
+    "ModuleLicenseId": 502,
+    "Name": "Harvey-Harvey",
+    "Description": "Stand-alone executive parallelism",
+    "PrerequisiteModuleName": "Powlowski-Christiansen",
+    "SortOrder": 973,
+    "ExtraFlags": 617,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 27
       }
     }
   }

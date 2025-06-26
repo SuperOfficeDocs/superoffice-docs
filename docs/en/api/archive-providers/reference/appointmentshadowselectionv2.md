@@ -743,7 +743,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionV2?$select=contact/contactUdef/SuperOffice:5,contact/contactExtra/y_organization/x_name,sale/saleTypeId,sale/saleUdef/SuperOffice:1
+GET /api/v1/archive/AppointmentShadowSelectionV2?$select=isMilestone,contact/associateId,contact/saintSaleStatus,person/personMobilePhone/formattedNumber,person/personAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

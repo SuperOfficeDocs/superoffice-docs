@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,28 +97,28 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 638,
-  "Name": "Heidenreich, Denesik and Harvey",
+  "WebhookId": 62,
+  "Name": "Wehner, Erdman and Grant",
   "Events": [
-    "reiciendis",
-    "ut"
+    "quia",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quas",
+  "Secret": "et",
   "State": "Active",
-  "Type": "ea",
+  "Type": "voluptas",
   "Headers": {
-    "Headers1": "in",
-    "Headers2": "rerum"
+    "Headers1": "nihil",
+    "Headers2": "distinctio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-03-21T17:54:08.7730557+01:00",
+  "Registered": "2009-04-08T03:45:28.8890492+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-01-08T17:54:08.7730557+01:00",
+  "Updated": "2022-12-12T03:45:28.8890492+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "zora_stehr@wilkinson.ca",
+  "ErrorsEmail": "casper@johnson.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

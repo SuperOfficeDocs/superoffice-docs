@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 160,
-  "IsActive": false,
+  "ErpConnectionId": 617,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 381,
-      "CrmFieldKey": "atque",
-      "CrmDisplayName": "Feeney, Stehr and Schamberger",
-      "CrmDisplayTooltip": "nam",
-      "ErpFieldKey": "architecto",
+      "ErpFieldId": 934,
+      "CrmFieldKey": "eos",
+      "CrmDisplayName": "Brown Inc and Sons",
+      "CrmDisplayTooltip": "quasi",
+      "ErpFieldKey": "excepturi",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Doyle, Berge and Aufderhar",
-      "ErpDisplayTooltip": "et",
+      "ErpDisplayName": "Johns-Denesik",
+      "ErpDisplayTooltip": "quisquam",
       "SyncToCrm": true,
-      "SyncToErp": true,
-      "ShowInGui": true,
+      "SyncToErp": false,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "facilis",
+      "ListReference": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 354
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 681
     }
   }
 }

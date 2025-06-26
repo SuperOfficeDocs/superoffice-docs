@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=odio
+GET /api/v1/List/ProductCategory/MDOItems?query=exercitationem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Tremblay, Hodkiewicz and Walker",
-    "ToolTip": "Facilis dolorem dolore fugiat quo voluptate.",
-    "Deleted": true,
-    "Rank": 60,
-    "Type": "ipsum",
+    "Id": 369,
+    "Name": "Sawayn LLC",
+    "ToolTip": "Reiciendis odio voluptate deleniti amet dolorum.",
+    "Deleted": false,
+    "Rank": 277,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "O'Conner Group",
-        "ToolTip": "Voluptate et voluptates facere voluptatem.",
+        "Id": 183,
+        "Name": "D'Amore, Emard and Bernier",
+        "ToolTip": "Est rerum voluptatem.",
         "Deleted": false,
-        "Rank": 448,
-        "Type": "deserunt",
+        "Rank": 842,
+        "Type": "iusto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 972,
-        "ExtraInfo": "quod",
-        "StyleHint": "vero",
-        "FullName": "Neha O'Kon",
+        "IconHint": "est",
+        "ColorBlock": 94,
+        "ExtraInfo": "facere",
+        "StyleHint": "dolore",
+        "FullName": "Harrison Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldLength": 386
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 90,
-    "ExtraInfo": "est",
-    "StyleHint": "quia",
-    "FullName": "Cole Carter DVM",
+    "IconHint": "est",
+    "ColorBlock": 959,
+    "ExtraInfo": "modi",
+    "StyleHint": "repudiandae",
+    "FullName": "Dr. Mariam Kessler III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldLength": 101
       }
     }
   }

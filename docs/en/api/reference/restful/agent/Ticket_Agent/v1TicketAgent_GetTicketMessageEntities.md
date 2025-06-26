@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 587,
+  "TicketId": 730,
   "MessageIds": [
-    472,
-    767
+    976,
+    367
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 232,
+    "EjMessageId": 17,
     "Ticket": null,
-    "CreatedAt": "1998-02-10T17:54:03.8201724+01:00",
+    "CreatedAt": "2006-09-22T03:45:24.1079333+02:00",
     "CreatedBy": null,
-    "Author": "possimus",
+    "Author": "hic",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "eum",
+    "MessageId": "quis",
     "TimeSpent": 862,
-    "Body": "esse",
-    "HtmlBody": "sint",
-    "EmailHeader": "frederik@zboncak.uk",
-    "DebugInfo": "aliquid",
-    "MailSorter": "aut",
+    "Body": "et",
+    "HtmlBody": "libero",
+    "EmailHeader": "macy@metz.biz",
+    "DebugInfo": "dolores",
+    "MailSorter": "quaerat",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "vero",
+    "SearchTitle": "quaerat",
     "MessageHeaders": [
       {
-        "Id": 312,
-        "Name": "Kunde-Schamberger",
-        "Value": "aut",
+        "Id": 148,
+        "Name": "Gerlach-Renner",
+        "Value": "quam",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 510
           }
         }
       }
     ],
     "Important": true,
-    "Language": "neque",
-    "Sentiment": 665,
-    "SentimentConfidence": 587,
+    "Language": "rerum",
+    "Sentiment": 684,
+    "SentimentConfidence": 187,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 926,
-        "Name": "Powlowski, Stiedemann and Ledner",
-        "ContentType": "aut",
-        "AttSize": 835,
+        "AttachmentId": 424,
+        "Name": "Kutch Inc and Sons",
+        "ContentType": "dolorem",
+        "AttSize": 86,
         "InlineImage": false,
-        "ContentId": "et",
-        "AuthKey": "aperiam",
+        "ContentId": "necessitatibus",
+        "AuthKey": "expedita",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 517
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "qui",
-      "ExtraFields2": "maxime"
+      "ExtraFields1": "libero",
+      "ExtraFields2": "fugiat"
     },
     "CustomFields": {
-      "CustomFields1": "vel",
-      "CustomFields2": "quis"
+      "CustomFields1": "dolorem",
+      "CustomFields2": "ad"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 424
+  "PrefDescId": 324
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 842,
-    "PrefDescId": 352,
-    "PrefValue": "incidunt",
-    "PrefShowValue": "expedita",
-    "Description": "Adaptive exuding archive",
+    "PrefDescLineId": 424,
+    "PrefDescId": 616,
+    "PrefValue": "aut",
+    "PrefShowValue": "delectus",
+    "Description": "Team-oriented neutral model",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

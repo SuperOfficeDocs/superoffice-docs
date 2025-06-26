@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 545,
-  "Name": "Hessel-Powlowski",
-  "Tooltip": "voluptatem",
-  "Rank": 707,
+  "SaleTypeId": 784,
+  "Name": "Abbott, Schowalter and Aufderhar",
+  "Tooltip": "maxime",
+  "Rank": 384,
   "DurationUnit": "Century",
-  "SaleDuration": 192,
-  "SaleTypeCatId": 868,
-  "Deleted": true,
+  "SaleDuration": 217,
+  "SaleTypeCatId": 307,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 801,
-  "QuoteLinesTemplate": 669,
-  "ConfirmationLinesTemplate": 476,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 510,
+  "QuoteLinesTemplate": 131,
+  "ConfirmationLinesTemplate": 524,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 115,
-  "MinEarningPercent": 903,
-  "GroupQuoteLinesBy": 804,
-  "SortGroupLinesBy": 546,
+  "MaxDiscountPercent": 712,
+  "MinEarningPercent": 391,
+  "GroupQuoteLinesBy": 695,
+  "SortGroupLinesBy": 60,
   "Stages": [
     {
-      "Id": 656,
-      "Name": "Bayer, Wintheiser and Jaskolski",
-      "ToolTip": "Non facere.",
+      "Id": 399,
+      "Name": "Beer Inc and Sons",
+      "ToolTip": "Nihil nisi voluptatem voluptatem sed praesentium repudiandae.",
       "Deleted": false,
-      "Rank": 696,
-      "Type": "eum",
-      "ColorBlock": 527,
-      "IconHint": "ullam",
-      "Selected": false,
-      "LastChanged": "2018-05-11T17:54:09.1011806+02:00",
+      "Rank": 632,
+      "Type": "totam",
+      "ColorBlock": 93,
+      "IconHint": "deleniti",
+      "Selected": true,
+      "LastChanged": "2023-12-27T03:45:29.2171623+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "dolores",
+      "ExtraInfo": "dolor",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Alec Mayert",
+      "FullName": "Alyson Jay Baumbach DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 618
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldLength": 421
     }
   }
 }

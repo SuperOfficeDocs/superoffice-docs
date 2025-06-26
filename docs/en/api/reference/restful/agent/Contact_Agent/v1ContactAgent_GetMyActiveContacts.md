@@ -94,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2006-12-08T17:54:02.8514704+01:00",
+  "ActivityStartTime": "2024-01-01T03:45:23.1704803+01:00",
   "ContactCategories": [
-    272,
-    919
+    523,
+    400
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 689,
+    "ContactId": 572,
     "Department": "",
-    "OrgNr": "712804",
-    "Name": "Strosin, Stracke and Casper",
+    "OrgNr": "1014983",
+    "Name": "Macejkovic-Grant",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Stacey Reina Metz MD",
+    "AssociateFullName": "Ms. Alba Oscar Zieme",
     "Action": "ActivityCompleted",
-    "ActionTime": "2024-08-26T17:54:02.8514704+02:00",
+    "ActionTime": "1999-11-17T03:45:23.1704803+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Luettgen, Langosh and Lind",
-    "ActionId": 947,
-    "PersonId": 801,
-    "ActivityPersonId": 751,
-    "AssociateId": 674,
+    "ActivityPersonName": "Bartoletti, Blanda and Spinka",
+    "ActionId": 374,
+    "PersonId": 950,
+    "ActivityPersonId": 149,
+    "AssociateId": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

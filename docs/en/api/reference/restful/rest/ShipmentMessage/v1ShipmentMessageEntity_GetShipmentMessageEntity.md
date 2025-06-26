@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 23,
-  "PlainMessage": "vitae",
-  "HtmlMessage": "atque",
-  "SmsMessage": "placeat",
-  "Description": "Open-architected real-time structure",
-  "Subject": "quod",
-  "FolderId": 527,
-  "HeaderField": "culpa",
-  "Design": "quo",
+  "ShipmentMessageId": 412,
+  "PlainMessage": "sunt",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "soluta",
+  "Description": "Ameliorated tangible leverage",
+  "Subject": "eum",
+  "FolderId": 962,
+  "HeaderField": "debitis",
+  "Design": "voluptatum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide holistic application",
-  "AccessKey": "et",
-  "DocumentMessage": 339,
-  "Registered": "1999-03-01T17:54:08.5386928+01:00",
-  "RegisteredAssociateId": 942,
-  "Updated": "2019-10-10T17:54:08.5386928+02:00",
-  "UpdatedAssociateId": 273,
-  "UpdatedCount": 87,
+  "LongDescription": "Devolved next generation success",
+  "AccessKey": "ea",
+  "DocumentMessage": 208,
+  "Registered": "1998-11-26T03:45:28.6546813+01:00",
+  "RegisteredAssociateId": 88,
+  "Updated": "2012-08-21T03:45:28.6546813+02:00",
+  "UpdatedAssociateId": 519,
+  "UpdatedCount": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 228
     }
   },
   "_Links": {

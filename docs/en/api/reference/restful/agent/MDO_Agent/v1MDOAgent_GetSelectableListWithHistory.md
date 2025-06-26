@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber-Turcotte",
-  "ForceFlatList": false,
-  "AdditionalInfo": "alias",
+  "Name": "Fritsch, Graham and Gislason",
+  "ForceFlatList": true,
+  "AdditionalInfo": "assumenda",
   "HistoryItems": [
-    495,
-    977
+    687,
+    347
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Corkery-Pacocha",
-    "ToolTip": "Nihil magnam corrupti.",
-    "Deleted": true,
-    "Rank": 543,
-    "Type": "deserunt",
-    "ColorBlock": 404,
-    "IconHint": "quam",
+    "Id": 475,
+    "Name": "Rutherford LLC",
+    "ToolTip": "Sed qui nostrum nesciunt aliquid.",
+    "Deleted": false,
+    "Rank": 74,
+    "Type": "voluptatibus",
+    "ColorBlock": 458,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2011-11-24T17:54:03.3358211+01:00",
+    "LastChanged": "2023-05-06T03:45:23.6391999+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Jacobs-Bergnaum",
-        "ToolTip": "Fuga beatae.",
+        "Id": 938,
+        "Name": "Cartwright Inc and Sons",
+        "ToolTip": "Sapiente omnis reprehenderit.",
         "Deleted": true,
-        "Rank": 511,
-        "Type": "ipsa",
-        "ColorBlock": 705,
-        "IconHint": "cupiditate",
-        "Selected": true,
-        "LastChanged": "2024-07-22T17:54:03.3358211+02:00",
+        "Rank": 594,
+        "Type": "atque",
+        "ColorBlock": 526,
+        "IconHint": "magnam",
+        "Selected": false,
+        "LastChanged": "2011-02-16T03:45:23.6391999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "in",
+        "ExtraInfo": "id",
+        "StyleHint": "consectetur",
         "Hidden": true,
-        "FullName": "Elda Torp",
+        "FullName": "Mr. Ryley Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 377
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ari Pagac",
+    "FullName": "Ms. Marta Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 581
       }
     }
   }

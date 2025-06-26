@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "reiciendis",
-      "Key": "est"
+      "Section": "velit",
+      "Key": "ipsa"
     },
     {
-      "Section": "reiciendis",
-      "Key": "est"
+      "Section": "velit",
+      "Key": "ipsa"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "dolorum",
+    "RawValue": "tempore",
     "Specification": null,
-    "DisplayValue": "atque",
-    "DisplayTooltip": "consequatur",
+    "DisplayValue": "sed",
+    "DisplayTooltip": "occaecati",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 136,
-    "PrefDescId": 439,
-    "TableName": "Senger-Schulist",
-    "UserPreferenceId": 970,
+    "TargetId": 774,
+    "PrefDescId": 720,
+    "TableName": "Witting-Hintz",
+    "UserPreferenceId": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 553
       }
     }
   }

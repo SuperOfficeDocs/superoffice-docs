@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Corkery Inc and Sons",
-  "Tooltip": "culpa",
+  "Id": 632,
+  "Name": "Ratke Inc and Sons",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 124,
+  "Rank": 237,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Fisher, Champlin and Kozey",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 373,
+  "Id": 49,
+  "Name": "Bailey-Heaney",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 566,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 251
     }
   }
 }

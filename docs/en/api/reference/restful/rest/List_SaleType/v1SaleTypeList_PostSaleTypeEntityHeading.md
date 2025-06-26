@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 620,
-  "Name": "Kilback, Von and Nikolaus",
-  "Tooltip": "neque",
+  "HeadingId": 43,
+  "Name": "Koelpin, Wisozk and Bruen",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 614,
-  "UdListDefinitionId": 596
+  "Rank": 47,
+  "UdListDefinitionId": 418
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 864,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "quia",
+  "HeadingId": 114,
+  "Name": "Wuckert LLC",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 826,
-  "UdListDefinitionId": 697,
+  "Rank": 120,
+  "UdListDefinitionId": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 469
     }
   }
 }

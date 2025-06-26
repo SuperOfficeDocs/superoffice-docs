@@ -84,6 +84,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.GetNameAndDepartment(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.TicketPriority
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.DropStoppedContacts
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.ContactTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.ContactTableInfo}.TableToExtend
@@ -1049,6 +1050,14 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.TicketPriority
+  commentId: P:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.TicketPriority
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase_TicketPriority
+  name: TicketPriority
+  nameWithType: ContactExtenderBase.TicketPriority
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.TicketPriority
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.DropStoppedContacts
   commentId: P:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.DropStoppedContacts
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase

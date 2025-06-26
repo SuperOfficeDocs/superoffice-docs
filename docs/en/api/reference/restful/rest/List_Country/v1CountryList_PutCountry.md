@@ -108,23 +108,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 430,
-  "Name": "Mertz-Hills",
-  "CurrencyId": 449,
-  "EnglishName": "Schiller Group",
+  "CountryId": 559,
+  "Name": "Huels Inc and Sons",
+  "CurrencyId": 623,
+  "EnglishName": "Braun LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable contextually-based emulation",
-  "OrgNrText": "1348367",
-  "InterAreaPrefix": "sunt",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "quasi",
-  "DomainName": "Mills-Keebler",
-  "AddressLayoutId": 2,
-  "DomesticAddressLayoutId": 961,
-  "ForeignAddressLayoutId": 15,
-  "Rank": 5,
-  "Tooltip": "autem",
+  "ImageDescription": "Managed multi-state customer loyalty",
+  "OrgNrText": "841305",
+  "InterAreaPrefix": "veniam",
+  "DialInPrefix": "consectetur",
+  "ZipPrefix": "voluptas",
+  "DomainName": "Lowe, Wolff and Klocko",
+  "AddressLayoutId": 50,
+  "DomesticAddressLayoutId": 148,
+  "ForeignAddressLayoutId": 584,
+  "Rank": 160,
+  "Tooltip": "similique",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 486,
-  "Name": "Gutmann-Watsica",
-  "CurrencyId": 545,
-  "EnglishName": "Nikolaus-Dietrich",
+  "CountryId": 111,
+  "Name": "Tromp-White",
+  "CurrencyId": 74,
+  "EnglishName": "Torphy, McKenzie and O'Kon",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profit-focused disintermediate hierarchy",
-  "OrgNrText": "1431619",
-  "InterAreaPrefix": "iusto",
-  "DialInPrefix": "neque",
-  "ZipPrefix": "modi",
-  "DomainName": "Ernser, Lueilwitz and Walter",
-  "AddressLayoutId": 465,
-  "DomesticAddressLayoutId": 34,
-  "ForeignAddressLayoutId": 851,
-  "Rank": 425,
-  "Tooltip": "sapiente",
-  "Deleted": true,
+  "ImageDescription": "Sharable value-added open architecture",
+  "OrgNrText": "984807",
+  "InterAreaPrefix": "perspiciatis",
+  "DialInPrefix": "et",
+  "ZipPrefix": "nisi",
+  "DomainName": "Hills, Parisian and Green",
+  "AddressLayoutId": 169,
+  "DomesticAddressLayoutId": 163,
+  "ForeignAddressLayoutId": 543,
+  "Rank": 385,
+  "Tooltip": "qui",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

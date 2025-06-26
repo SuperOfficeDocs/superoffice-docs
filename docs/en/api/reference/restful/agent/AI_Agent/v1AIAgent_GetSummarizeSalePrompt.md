@@ -68,7 +68,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 540,
-  "NumSentences": 361,
-  "Summary": "animi",
-  "IsoLangCode": "eum"
+  "SaleId": 624,
+  "NumSentences": 563,
+  "Summary": "cum",
+  "IsoLangCode": "est"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2013-07-19T17:54:02.3514942+02:00",
-  "UserPrompt": "dicta",
-  "UserDisplayText": "qui",
-  "BotResponse": "sint",
+  "Timestamp": "2003-10-15T03:45:22.6704778+02:00",
+  "UserPrompt": "eveniet",
+  "UserDisplayText": "doloribus",
+  "BotResponse": "unde",
   "BotActions": {
-    "BotActions1": "incidunt",
-    "BotActions2": "quia"
+    "BotActions1": "aperiam",
+    "BotActions2": "inventore"
   },
   "Attachments": [
-    "minima",
-    "voluptatum"
+    "quis",
+    "atque"
   ]
 }
 ```

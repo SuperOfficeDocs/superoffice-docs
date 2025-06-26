@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Barrows-Kunde",
-    "Tooltip": "nulla",
+    "HeadingId": 281,
+    "Name": "Kihn-Jakubowski",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 495,
-    "UdListDefinitionId": 392,
+    "Rank": 911,
+    "UdListDefinitionId": 120,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 512
       }
     }
   }

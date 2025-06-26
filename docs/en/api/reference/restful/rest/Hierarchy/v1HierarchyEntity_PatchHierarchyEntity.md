@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "architecto",
+    "path": "nobis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "architecto",
+    "path": "nobis",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 939,
+  "HierarchyId": 323,
   "Domain": "Dashboards",
-  "Name": "Gaylord-Christiansen",
-  "Fullname": "odit",
-  "ParentId": 366,
+  "Name": "Hegmann-Kshlerin",
+  "Fullname": "et",
+  "ParentId": 268,
   "Children": [
     {
-      "HierarchyId": 333,
+      "HierarchyId": 38,
       "Domain": "Dashboards",
-      "Name": "Runolfsson Inc and Sons",
-      "Fullname": "eum",
-      "ParentId": 972,
+      "Name": "Ferry, Pollich and Stiedemann",
+      "Fullname": "adipisci",
+      "ParentId": 864,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-10-26T17:54:08.2574567+01:00",
-      "RegisteredAssociateId": 593,
-      "Updated": "2008-12-04T17:54:08.2574567+01:00",
-      "UpdatedAssociateId": 450,
+      "Registered": "2020-02-15T03:45:28.3734363+01:00",
+      "RegisteredAssociateId": 708,
+      "Updated": "2014-01-29T03:45:28.3734363+01:00",
+      "UpdatedAssociateId": 632,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 190
         }
       }
     }
   ],
-  "Registered": "2013-04-12T17:54:08.2574567+02:00",
-  "RegisteredAssociateId": 546,
-  "Updated": "2016-02-24T17:54:08.2574567+01:00",
-  "UpdatedAssociateId": 441,
+  "Registered": "2023-01-28T03:45:28.3734363+01:00",
+  "RegisteredAssociateId": 675,
+  "Updated": "2014-10-18T03:45:28.3734363+02:00",
+  "UpdatedAssociateId": 404,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   },
   "_Links": {

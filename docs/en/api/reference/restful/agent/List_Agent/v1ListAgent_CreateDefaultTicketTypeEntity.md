@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 502,
-  "Name": "Torp Inc and Sons",
-  "Rank": 553,
-  "Tooltip": "amet",
-  "Icon": "quibusdam",
-  "DefaultTicketStatus": 994,
+  "TicketTypeId": 82,
+  "Name": "Baumbach-Bergstrom",
+  "Rank": 225,
+  "Tooltip": "animi",
+  "Icon": "saepe",
+  "DefaultTicketStatus": 762,
   "TicketStatuses": [
-    531,
-    999
+    417,
+    877
   ],
-  "DefaultTicketPriority": 740,
+  "DefaultTicketPriority": 474,
   "TicketPriorities": [
-    556,
-    445
+    377,
+    338
   ],
-  "ReplyTemplate": 413,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 196,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    945,
-    949
+    378,
+    954
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

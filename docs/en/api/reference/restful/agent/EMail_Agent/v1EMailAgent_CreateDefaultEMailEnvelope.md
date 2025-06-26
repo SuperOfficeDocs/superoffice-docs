@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 249,
-  "MessageId": "minima",
-  "Subject": "similique",
+  "ServerId": 40,
+  "MessageId": "odio",
+  "Subject": "ut",
   "From": null,
   "To": [
     {
-      "ContactId": 537,
-      "ContactName": "Von-Tremblay",
-      "PersonId": 44,
-      "PersonName": "Hilll, Pollich and Howell",
-      "AssociateId": 557,
-      "Address": "dolores",
-      "EmailId": 632,
+      "ContactId": 722,
+      "ContactName": "Hagenes Group",
+      "PersonId": 481,
+      "PersonName": "Mitchell LLC",
+      "AssociateId": 368,
+      "Address": "impedit",
+      "EmailId": 761,
       "DuplicatePersonIds": [
-        208,
-        718
+        415,
+        698
       ],
-      "Name": "Hermann-Hyatt",
+      "Name": "Boyer-Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 932
         }
       }
     }
   ],
-  "Sent": "2015-09-02T17:54:03.0858331+02:00",
+  "Sent": "2010-12-30T03:45:23.4048314+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 19,
+  "Size": 495,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

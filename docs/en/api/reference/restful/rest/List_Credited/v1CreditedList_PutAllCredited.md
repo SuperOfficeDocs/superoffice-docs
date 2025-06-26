@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Weber, Jenkins and Weber",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 435,
-    "Rank": 528
+    "Id": 561,
+    "Name": "Romaguera, Dibbert and Schmitt",
+    "Tooltip": "illo",
+    "Deleted": false,
+    "UdListDefinitionId": 135,
+    "Rank": 865
   },
   {
-    "Id": 641,
-    "Name": "Weber, Jenkins and Weber",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 435,
-    "Rank": 528
+    "Id": 561,
+    "Name": "Romaguera, Dibbert and Schmitt",
+    "Tooltip": "illo",
+    "Deleted": false,
+    "UdListDefinitionId": 135,
+    "Rank": 865
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Fay-Huels",
-    "Tooltip": "earum",
+    "Id": 696,
+    "Name": "Orn LLC",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 776,
-    "Rank": 715,
+    "UdListDefinitionId": 387,
+    "Rank": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 379
       }
     }
   }

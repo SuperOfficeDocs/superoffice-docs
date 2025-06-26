@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Moen, Sanford and Anderson",
-      "DisplayName": "Ledner, Gibson and Kessler",
-      "DisplayTooltip": "officia",
+      "Name": "Mertz, Hammes and Ward",
+      "DisplayName": "Hermiston-Kemmer",
+      "DisplayTooltip": "exercitationem",
       "IsActive": false
     },
     {
-      "Name": "Moen, Sanford and Anderson",
-      "DisplayName": "Ledner, Gibson and Kessler",
-      "DisplayTooltip": "officia",
+      "Name": "Mertz, Hammes and Ward",
+      "DisplayName": "Hermiston-Kemmer",
+      "DisplayTooltip": "exercitationem",
       "IsActive": false
     }
   ]

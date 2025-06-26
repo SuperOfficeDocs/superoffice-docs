@@ -12,6 +12,7 @@ items:
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   langs:
   - csharp
   - vb
@@ -195,6 +196,37 @@ items:
   nameWithType.vb: NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name.vb: AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ValidateNetServerTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ValidateNetServerTypes(IServiceCollection)
+  nameWithType: NetServerServiceCollectionExtensions.ValidateNetServerTypes(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: Checks and validates if the services registered in the service collection are valid for NetServer, such as types registered wiht AddDatabaseScoped.
+  remarks: Checks on a dependency injection can be ignored with <xref href="Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute" data-throw-if-not-resolved="false"></xref> attribute.
+  example: []
+  syntax:
+    content: public static IServiceCollection ValidateNetServerTypes(this IServiceCollection serviceCollection)
+    parameters:
+    - id: serviceCollection
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function ValidateNetServerTypes(serviceCollection As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes*
+  exceptions:
+  - type: System.AggregateException
+    commentId: T:System.AggregateException
+    description: Thrown if any of the services registered in the service collection are not valid for NetServer.
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
   id: AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
@@ -721,6 +753,27 @@ references:
   name: AddDatabaseScoped
   nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
+- uid: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
+  commentId: T:Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute.html
+  name: IgnoreNetServerValidateAttribute
+  nameWithType: IgnoreNetServerValidateAttribute
+  fullName: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
+- uid: System.AggregateException
+  commentId: T:System.AggregateException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.aggregateexception
+  name: AggregateException
+  nameWithType: AggregateException
+  fullName: System.AggregateException
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceCollectionExtensions_ValidateNetServerTypes_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: ValidateNetServerTypes
+  nameWithType: NetServerServiceCollectionExtensions.ValidateNetServerTypes
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.ValidateNetServerTypes
 - uid: SuperOffice.Factory.PluginFactory
   commentId: T:SuperOffice.Factory.PluginFactory
   isExternal: true

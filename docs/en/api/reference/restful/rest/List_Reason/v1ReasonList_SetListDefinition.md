@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Prosacco-Cormier",
-  "Tooltip": "ullam",
-  "Deleted": true,
-  "Rank": 839,
+  "Id": 841,
+  "Name": "Quitzon, Gutkowski and Kub",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 504,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "labore",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Feil-Bins",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 682,
+  "Id": 141,
+  "Name": "Schuppe-Koelpin",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 34,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "provident",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 657
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=266
+POST /api/v1/Agents/List/GetCountry?countryId=670
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 151,
-  "Name": "Reichert, Spencer and Kihn",
-  "CurrencyId": 689,
-  "EnglishName": "Kuvalis, Boyle and Larson",
+  "CountryId": 877,
+  "Name": "Skiles, Torphy and Ratke",
+  "CurrencyId": 569,
+  "EnglishName": "Schimmel Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ameliorated explicit protocol",
-  "OrgNrText": "1004172",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "accusantium",
-  "ZipPrefix": "blanditiis",
-  "DomainName": "Waters-Rosenbaum",
-  "AddressLayoutId": 349,
-  "DomesticAddressLayoutId": 450,
-  "ForeignAddressLayoutId": 742,
-  "Rank": 27,
-  "Tooltip": "in",
-  "Deleted": false,
+  "ImageDescription": "Monitored zero tolerance leverage",
+  "OrgNrText": "843037",
+  "InterAreaPrefix": "ducimus",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "rerum",
+  "DomainName": "Marquardt LLC",
+  "AddressLayoutId": 359,
+  "DomesticAddressLayoutId": 561,
+  "ForeignAddressLayoutId": 691,
+  "Rank": 482,
+  "Tooltip": "corrupti",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 790
     }
   }
 }

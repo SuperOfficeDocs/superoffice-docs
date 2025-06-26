@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quo"
+  "FileContent": "ab"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 18,
-      "NumberOfLicensesFree": 402,
-      "NumberOfLicensesAdded": 590,
-      "NumberOfLicensesNewTotal": 682,
-      "NumberOfLicensesNewFree": 481,
-      "NumberOfLicensesTotal": 64
+      "NumberOfLicensesInUse": 954,
+      "NumberOfLicensesFree": 597,
+      "NumberOfLicensesAdded": 595,
+      "NumberOfLicensesNewTotal": 9,
+      "NumberOfLicensesNewFree": 530,
+      "NumberOfLicensesTotal": 209
     }
   ],
-  "AccumulatedNextCheckDate": "2013-09-17T17:54:03.1795788+02:00"
+  "AccumulatedNextCheckDate": "2005-10-25T03:45:23.498579+02:00"
 }
 ```

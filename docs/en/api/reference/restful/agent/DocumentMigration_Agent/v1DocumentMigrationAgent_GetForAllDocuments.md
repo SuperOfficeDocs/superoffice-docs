@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 972,
+  "DocumentPluginId": 660,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 175,
-  "NumDocumentsAlreadyMigrated": 390,
+  "NumDocumentsOmitted": 253,
+  "NumDocumentsAlreadyMigrated": 100,
   "Documents": [
     {
-      "DocumentId": 625,
-      "ContactId": 19,
-      "PersonId": 749,
-      "SaleId": 976,
-      "ProjectId": 161,
-      "DocTmplId": 555,
-      "AssociateId": 137,
-      "UserGroupId": 126,
-      "VisibleForId": 510
+      "DocumentId": 998,
+      "ContactId": 560,
+      "PersonId": 273,
+      "SaleId": 872,
+      "ProjectId": 888,
+      "DocTmplId": 57,
+      "AssociateId": 155,
+      "UserGroupId": 371,
+      "VisibleForId": 569
     }
   ],
   "Associates": [
     {
-      "AssociateId": 603,
-      "EmailAddress": "polly@cruickshankcormier.co.uk"
+      "AssociateId": 557,
+      "EmailAddress": "erwin@schinnerdeckow.info"
     },
     {
-      "AssociateId": 603,
-      "EmailAddress": "polly@cruickshankcormier.co.uk"
+      "AssociateId": 557,
+      "EmailAddress": "erwin@schinnerdeckow.info"
     }
   ]
 }

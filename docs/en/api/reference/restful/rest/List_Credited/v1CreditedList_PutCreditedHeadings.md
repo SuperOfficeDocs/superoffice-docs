@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Gorczany, Leffler and Friesen",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 258,
-    "UdListDefinitionId": 64
+    "HeadingId": 158,
+    "Name": "Zemlak, Johnson and Barrows",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 302,
+    "UdListDefinitionId": 105
   },
   {
-    "HeadingId": 450,
-    "Name": "Gorczany, Leffler and Friesen",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 258,
-    "UdListDefinitionId": 64
+    "HeadingId": 158,
+    "Name": "Zemlak, Johnson and Barrows",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 302,
+    "UdListDefinitionId": 105
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Homenick-Stamm",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 476,
-    "UdListDefinitionId": 339,
+    "HeadingId": 575,
+    "Name": "Prosacco, Toy and Lubowitz",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 269,
+    "UdListDefinitionId": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

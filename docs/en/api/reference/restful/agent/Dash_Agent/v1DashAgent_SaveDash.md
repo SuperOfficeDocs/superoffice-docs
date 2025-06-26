@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 610,
-  "UniqueId": "asperiores",
-  "Name": "Marquardt-Treutel",
-  "Description": "Compatible clear-thinking leverage",
-  "AssociateId": 793,
-  "Columns": 778,
+  "DashboardId": 924,
+  "UniqueId": "sed",
+  "Name": "Bins-Swift",
+  "Description": "Face to face even-keeled matrix",
+  "AssociateId": 570,
+  "Columns": 833,
   "Theme": null,
-  "VisibleForAll": 670,
+  "VisibleForAll": 449,
   "VisibleForAssociates": [
-    298,
-    203
+    487,
+    786
   ],
   "VisibleForGroups": [
-    385,
-    905
+    676,
+    691
   ],
-  "PinForAll": 954,
+  "PinForAll": 529,
   "PinForAssociates": [
-    257,
-    372
+    633,
+    591
   ],
   "PinForGroups": [
-    334,
-    806
+    815,
+    655
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 958,
-  "UniqueId": "perspiciatis",
-  "Name": "Feest Group",
-  "Description": "Polarised static flexibility",
-  "AssociateId": 585,
-  "Columns": 766,
+  "DashboardId": 4,
+  "UniqueId": "in",
+  "Name": "Hodkiewicz-Rogahn",
+  "Description": "Front-line dedicated collaboration",
+  "AssociateId": 31,
+  "Columns": 863,
   "Theme": null,
-  "VisibleForAll": 951,
+  "VisibleForAll": 905,
   "VisibleForAssociates": [
-    486,
-    526
+    930,
+    330
   ],
   "VisibleForGroups": [
-    174,
-    23
+    933,
+    513
   ],
-  "PinForAll": 28,
+  "PinForAll": 342,
   "PinForAssociates": [
-    982,
-    742
+    342,
+    410
   ],
   "PinForGroups": [
-    305,
-    688
+    685,
+    916
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 121
     }
   }
 }

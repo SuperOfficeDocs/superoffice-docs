@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Mayer, Dare and Wisozk",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "Rank": 785,
-    "IsCustomList": false,
-    "IsMDOList": false,
+    "Id": 863,
+    "Name": "Parker, Bailey and Herman",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 413,
+    "IsCustomList": true,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": true,
-    "ListType": "numquam",
-    "InUseByUserDefinedFields": false,
+    "ListType": "nesciunt",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

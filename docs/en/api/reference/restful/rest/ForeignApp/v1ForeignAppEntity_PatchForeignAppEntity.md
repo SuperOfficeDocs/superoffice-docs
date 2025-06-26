@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 851,
-  "Name": "Gottlieb-Quigley",
-  "CreatedDate": "2015-10-19T17:54:08.2574567+02:00",
-  "UpdatedDate": "2024-01-01T17:54:08.2574567+01:00",
+  "ForeignAppId": 840,
+  "Name": "Waters-Thompson",
+  "CreatedDate": "2000-03-28T03:45:28.3578119+02:00",
+  "UpdatedDate": "2000-03-03T03:45:28.3578119+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 161,
-      "Name": "Ankunding, Quitzon and Kertzmann",
-      "CreatedDate": "2011-03-08T17:54:08.2574567+01:00",
-      "UpdatedDate": "1999-04-11T17:54:08.2574567+02:00",
-      "AssociateFullName": "Miss Santino Winston McDermott",
-      "CreatedBy": "natus",
-      "UpdatedBy": "amet",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 72,
+      "ForeignDeviceId": 457,
+      "Name": "McClure-Pagac",
+      "CreatedDate": "2014-09-30T03:45:28.3578119+02:00",
+      "UpdatedDate": "2012-07-07T03:45:28.3578119+02:00",
+      "AssociateFullName": "Dr. Angelina Veum",
+      "CreatedBy": "qui",
+      "UpdatedBy": "quisquam",
+      "DeviceIdentifier": "maxime",
+      "ForeignAppId": 338,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 268
+          "FieldType": "System.Int32",
+          "FieldLength": 114
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldType": "System.String",
+      "FieldLength": 645
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

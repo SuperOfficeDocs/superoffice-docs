@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 197,
-  "ParentId": 636,
-  "Name": "Johnston Inc and Sons",
-  "Fullname": "maiores",
-  "CategoryMaster": 724,
+  "TicketCategoryId": 46,
+  "ParentId": 524,
+  "Name": "Stamm-Dickinson",
+  "Fullname": "molestias",
+  "CategoryMaster": 282,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Block-Schamberger",
+  "ExternalName": "Wyman, Halvorson and Robel",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 798,
-  "ReplyTemplate": 579,
-  "NotificationEmail": "francesco@mrazboehm.info",
+  "AssignmentLag": 425,
+  "ReplyTemplate": 535,
+  "NotificationEmail": "annie.kreiger@goodwin.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 940,
+  "EffectiveReplyTemplateId": 37,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "ut"
+    "CustomFields1": "ut",
+    "CustomFields2": "praesentium"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 823,
-  "ParentId": 581,
-  "Name": "Hettinger-Schimmel",
-  "Fullname": "natus",
-  "CategoryMaster": 244,
+  "TicketCategoryId": 783,
+  "ParentId": 276,
+  "Name": "Hartmann-Lehner",
+  "Fullname": "nam",
+  "CategoryMaster": 599,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jenkins, Hoeger and Kuhlman",
+  "ExternalName": "Huel Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 441,
-  "ReplyTemplate": 842,
-  "NotificationEmail": "cullen@howell.info",
+  "AssignmentLag": 492,
+  "ReplyTemplate": 828,
+  "NotificationEmail": "imogene@senger.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 235,
+  "EffectiveReplyTemplateId": 762,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "rerum"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 811
     }
   }
 }

@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ea",
-  "ProviderName": "Johns, Fay and Littel",
-  "PageSize": 706,
-  "PageNumber": 240
+  "Restrictions": "exercitationem",
+  "ProviderName": "Pfeffer, Barton and Heathcote",
+  "PageSize": 260,
+  "PageNumber": 546
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Zulauf Inc and Sons",
-      "DisplayTooltip": "sit",
-      "DisplayType": "error",
+      "DisplayName": "Durgan-Morar",
+      "DisplayTooltip": "iusto",
+      "DisplayType": "alias",
       "CanOrderBy": false,
-      "Name": "Kuhic, Bosco and Beatty",
-      "CanRestrictBy": true,
-      "RestrictionType": "sequi",
-      "RestrictionListName": "King-Gorczany",
-      "IsVisible": false,
-      "ExtraInfo": "sed",
-      "Width": "sed",
-      "IconHint": "harum",
-      "HeadingIconHint": "vitae"
+      "Name": "Baumbach Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "recusandae",
+      "RestrictionListName": "Grady-Cole",
+      "IsVisible": true,
+      "ExtraInfo": "consequatur",
+      "Width": "quia",
+      "IconHint": "debitis",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Russel-White",
-      "PrimaryKey": 954,
+      "EntityName": "Pacocha, Kreiger and Beier",
+      "PrimaryKey": 421,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "atque",
-          "LinkHint": "culpa"
+          "DisplayValue": "dolore",
+          "TooltipHint": "non",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "fuga",
-      "StyleHint": "doloremque",
+      "LinkHint": "nihil",
+      "StyleHint": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
   ],
-  "RowCount": 402,
+  "RowCount": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 836
     }
   }
 }

@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 826,
+  "EjMessageId": 315,
   "Ticket": null,
-  "CreatedAt": "2022-10-22T17:54:08.6639929+02:00",
+  "CreatedAt": "2004-03-13T03:45:28.7796745+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aliquid",
-  "TimeSpent": 114,
-  "Body": "occaecati",
-  "HtmlBody": "possimus",
-  "EmailHeader": "zetta.upton@lebsack.ca",
-  "DebugInfo": "laudantium",
-  "MailSorter": "autem",
+  "MessageId": "nam",
+  "TimeSpent": 403,
+  "Body": "et",
+  "HtmlBody": "at",
+  "EmailHeader": "warren.skiles@kling.name",
+  "DebugInfo": "porro",
+  "MailSorter": "harum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "possimus",
   "MessageHeaders": [
     {
-      "Id": 317,
-      "Name": "Bailey, Dickens and Gorczany",
-      "Value": "aliquam",
+      "Id": 29,
+      "Name": "Stanton-Rodriguez",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 317,
-      "Name": "Bailey, Dickens and Gorczany",
-      "Value": "aliquam",
+      "Id": 29,
+      "Name": "Stanton-Rodriguez",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "labore",
-  "Sentiment": 272,
-  "SentimentConfidence": 102,
+  "Language": "dolorum",
+  "Sentiment": 262,
+  "SentimentConfidence": 243,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 405,
-      "Name": "Collier-Welch",
-      "ContentType": "voluptatem",
-      "AttSize": 793,
-      "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "reiciendis",
+      "AttachmentId": 123,
+      "Name": "Lesch-Kulas",
+      "ContentType": "excepturi",
+      "AttSize": 95,
+      "InlineImage": true,
+      "ContentId": "ducimus",
+      "AuthKey": "adipisci",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "rem"
+    "CustomFields1": "est",
+    "CustomFields2": "quam"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 254,
+  "EjMessageId": 708,
   "Ticket": null,
-  "CreatedAt": "2010-12-29T17:54:08.6639929+01:00",
+  "CreatedAt": "2006-10-23T03:45:28.7796745+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 483,
-  "Body": "sed",
-  "HtmlBody": "sunt",
-  "EmailHeader": "nat.powlowski@rau.us",
-  "DebugInfo": "magnam",
-  "MailSorter": "qui",
+  "MessageId": "voluptas",
+  "TimeSpent": 435,
+  "Body": "natus",
+  "HtmlBody": "dolore",
+  "EmailHeader": "madeline.lang@purdypfeffer.uk",
+  "DebugInfo": "repudiandae",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eaque",
+  "SearchTitle": "optio",
   "MessageHeaders": [
     {
-      "Id": 23,
-      "Name": "Ortiz-Cassin",
-      "Value": "ut",
+      "Id": 939,
+      "Name": "Hilpert Inc and Sons",
+      "Value": "soluta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "vero",
-  "Sentiment": 140,
-  "SentimentConfidence": 339,
+  "Important": false,
+  "Language": "assumenda",
+  "Sentiment": 562,
+  "SentimentConfidence": 514,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 68,
-      "Name": "Casper, McDermott and White",
-      "ContentType": "non",
-      "AttSize": 471,
+      "AttachmentId": 60,
+      "Name": "Kuhn Inc and Sons",
+      "ContentType": "cupiditate",
+      "AttSize": 732,
       "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "enim",
-      "IsSafeFileExtension": false,
+      "ContentId": "perspiciatis",
+      "AuthKey": "odio",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 740
+          "FieldLength": 171
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "aut",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 677
     }
   }
 }

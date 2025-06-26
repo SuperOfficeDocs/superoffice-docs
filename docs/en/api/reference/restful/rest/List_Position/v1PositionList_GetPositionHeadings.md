@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Nitzsche-Sawayn",
-    "Tooltip": "expedita",
+    "HeadingId": 219,
+    "Name": "Gutmann-Hirthe",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 157,
-    "UdListDefinitionId": 23,
+    "Rank": 926,
+    "UdListDefinitionId": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldLength": 744
       }
     }
   }

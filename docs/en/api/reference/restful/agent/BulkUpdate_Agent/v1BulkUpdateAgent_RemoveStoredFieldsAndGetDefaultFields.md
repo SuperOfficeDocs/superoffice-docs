@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schuster-Rath",
-  "Context": "impedit"
+  "TableName": "Cormier Inc and Sons",
+  "Context": "culpa"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "velit",
-    "ValueType": "repellendus",
-    "Mandatory": true,
-    "EncodedDisplayName": "Bogan-Trantow",
-    "EncodedDisplayDescription": "Programmable demand-driven synergy",
-    "IconHint": "eius",
+    "IsActive": true,
+    "Key": "explicabo",
+    "ValueType": "aliquam",
+    "Mandatory": false,
+    "EncodedDisplayName": "Windler, Cole and Murphy",
+    "EncodedDisplayDescription": "Open-source 6th generation application",
+    "IconHint": "id",
     "ControlInfos": [
       {
-        "Type": "sunt",
-        "Label": "consequatur",
-        "Dimension": 204,
-        "ListProviderName": "Stark Inc and Sons",
-        "ListProviderExtraInfo": "a",
-        "ListProviderPrimaryKeyName": "Donnelly Inc and Sons",
-        "ListLeadText": "nesciunt",
+        "Type": "amet",
+        "Label": "voluptatibus",
+        "Dimension": 652,
+        "ListProviderName": "Blick LLC",
+        "ListProviderExtraInfo": "illum",
+        "ListProviderPrimaryKeyName": "Conn-McGlynn",
+        "ListLeadText": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldType": "System.String",
+            "FieldLength": 963
           }
         }
       }
     ],
-    "EncodedDataCaption": "necessitatibus",
-    "EncodedDataCaptionDescription": "Upgradable executive synergy",
-    "CurrentOperationType": "voluptatem",
+    "EncodedDataCaption": "natus",
+    "EncodedDataCaptionDescription": "Future-proofed impactful encryption",
+    "CurrentOperationType": "inventore",
     "Values": [
-      "enim",
-      "iusto"
+      "aut",
+      "laboriosam"
     ],
     "DisplayValues": [
-      "dolorum",
-      "cumque"
+      "magnam",
+      "dolore"
     ],
     "OperationInfos": [
       {
-        "Key": "nam",
-        "EncodedDisplayName": "Pfeffer-Satterfield",
+        "Key": "aut",
+        "EncodedDisplayName": "Mayert, Mraz and Stoltenberg",
         "EncodedLeadTexts": [
-          "est",
-          "sequi"
+          "dolores",
+          "placeat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 317
+            "FieldLength": 421
           }
         }
       },
       {
-        "Key": "nam",
-        "EncodedDisplayName": "Pfeffer-Satterfield",
+        "Key": "aut",
+        "EncodedDisplayName": "Mayert, Mraz and Stoltenberg",
         "EncodedLeadTexts": [
-          "est",
-          "sequi"
+          "dolores",
+          "placeat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 317
+            "FieldLength": 421
           }
         }
       }

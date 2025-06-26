@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Lesch, Aufderhar and Schowalter",
-  "Tooltip": "incidunt",
+  "Id": 414,
+  "Name": "Wisozk, Schulist and Emard",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 135,
+  "Rank": 194,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eveniet",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 438
     }
   },
   "_Links": {

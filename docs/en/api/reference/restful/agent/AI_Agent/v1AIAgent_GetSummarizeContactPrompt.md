@@ -68,7 +68,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeContactPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 39,
-  "NumSentences": 152,
-  "Summary": "beatae",
-  "IsoLangCode": "voluptatem"
+  "ContactId": 633,
+  "NumSentences": 24,
+  "Summary": "iure",
+  "IsoLangCode": "enim"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2004-07-30T17:54:02.3514942+02:00",
-  "UserPrompt": "nobis",
-  "UserDisplayText": "omnis",
-  "BotResponse": "aperiam",
+  "Timestamp": "2023-03-30T03:45:22.6704778+02:00",
+  "UserPrompt": "voluptate",
+  "UserDisplayText": "tempora",
+  "BotResponse": "saepe",
   "BotActions": {
-    "BotActions1": "eum",
-    "BotActions2": "ut"
+    "BotActions1": "natus",
+    "BotActions2": "aut"
   },
   "Attachments": [
-    "voluptatibus",
-    "quidem"
+    "harum",
+    "animi"
   ]
 }
 ```

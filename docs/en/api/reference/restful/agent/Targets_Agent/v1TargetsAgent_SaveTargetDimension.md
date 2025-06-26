@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 92,
+  "TargetDimensionId": 517,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "mollitia",
-  "DimensionListName": "Volkman-Blanda",
-  "DimensionListId": 153,
-  "DimensionListLabel": "quidem",
+  "DimensionListField": "omnis",
+  "DimensionListName": "Becker Inc and Sons",
+  "DimensionListId": 718,
+  "DimensionListLabel": "temporibus",
   "SelectedDimensions": [
-    250,
-    413
+    447,
+    649
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 293,
+  "TargetDimensionId": 888,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "provident",
-  "DimensionListName": "Ritchie-Ritchie",
-  "DimensionListId": 120,
-  "DimensionListLabel": "quam",
+  "DimensionListField": "doloremque",
+  "DimensionListName": "Rodriguez, Willms and Collins",
+  "DimensionListId": 686,
+  "DimensionListLabel": "nam",
   "SelectedDimensions": [
-    348,
-    625
+    792,
+    790
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   }
 }

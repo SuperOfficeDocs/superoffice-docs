@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 303,
-      "FieldName": "Armstrong, Jewess and Gulgowski",
-      "Label": "voluptates",
-      "Tooltip": "assumenda",
+      "QuoteLineConfigurationId": 101,
+      "FieldName": "Mertz, Ledner and Heidenreich",
+      "Label": "corrupti",
+      "Tooltip": "aliquid",
       "Editable": false,
-      "InUse": true,
+      "InUse": false,
       "Mandatory": false,
-      "Rank": 868,
-      "RestrictEdit": true
+      "Rank": 774,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 723,
-    "FieldName": "Shanahan-Runolfsson",
-    "Label": "natus",
-    "Tooltip": "ut",
+    "QuoteLineConfigurationId": 458,
+    "FieldName": "Hoeger, Cummings and Lueilwitz",
+    "Label": "nihil",
+    "Tooltip": "in",
     "Editable": false,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 932,
-    "RestrictEdit": true,
+    "Mandatory": false,
+    "Rank": 449,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 200
       }
     }
   }

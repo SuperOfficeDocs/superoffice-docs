@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=accusantium
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Robel, Abshire and Bode",
-    "ToolTip": "Sapiente voluptatem.",
-    "Deleted": false,
-    "Rank": 775,
-    "Type": "dolorem",
+    "Id": 97,
+    "Name": "Stokes LLC",
+    "ToolTip": "Qui earum culpa corporis totam laudantium voluptas facilis.",
+    "Deleted": true,
+    "Rank": 595,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Kertzmann, Bailey and Cremin",
-        "ToolTip": "Consequuntur cupiditate nihil.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "eos",
+        "Id": 129,
+        "Name": "Reichel-Baumbach",
+        "ToolTip": "Amet natus aut consequuntur iusto.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 41,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "neque",
-        "FullName": "Ms. Zetta Davion Huel DDS",
+        "IconHint": "quam",
+        "ColorBlock": 357,
+        "ExtraInfo": "et",
+        "StyleHint": "quas",
+        "FullName": "Itzel Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldLength": 768
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 654,
-    "ExtraInfo": "minus",
-    "StyleHint": "et",
-    "FullName": "Miss Presley Lolita Bode Sr.",
+    "IconHint": "et",
+    "ColorBlock": 30,
+    "ExtraInfo": "cum",
+    "StyleHint": "id",
+    "FullName": "Anastacio Elyssa Schuppe Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 805,
-    "ParentId": 821,
-    "Name": "Jast Inc and Sons",
-    "Fullname": "ullam",
-    "CategoryMaster": 894,
+    "TicketCategoryId": 27,
+    "ParentId": 873,
+    "Name": "Wilkinson LLC",
+    "Fullname": "assumenda",
+    "CategoryMaster": 567,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Thompson, Jones and Mann",
+    "ExternalName": "Ruecker-Lind",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 317,
-    "ReplyTemplate": 14,
-    "NotificationEmail": "joanny.ortiz@rice.ca",
+    "AssignmentLag": 363,
+    "ReplyTemplate": 344,
+    "NotificationEmail": "geovanni@crona.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 29,
+    "EffectiveReplyTemplateId": 719,
     "ExtraFields": {
-      "ExtraFields1": "vitae",
-      "ExtraFields2": "accusamus"
+      "ExtraFields1": "impedit",
+      "ExtraFields2": "quisquam"
     },
     "CustomFields": {
-      "CustomFields1": "dolores",
-      "CustomFields2": "nemo"
+      "CustomFields1": "impedit",
+      "CustomFields2": "autem"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 215
       }
     }
   }

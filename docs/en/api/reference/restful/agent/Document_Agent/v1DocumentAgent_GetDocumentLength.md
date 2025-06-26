@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 665,
-  "VersionId": "architecto"
+  "DocumentId": 17,
+  "VersionId": "nihil"
 }
 ```
 

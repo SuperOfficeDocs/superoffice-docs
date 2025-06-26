@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 634,
-  "Name": "Simonis-Roberts",
+  "ScreenChooserId": 918,
+  "Name": "Luettgen Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sit",
-  "Source": "sed",
-  "Registered": "2003-08-05T17:54:02.9139671+02:00",
-  "RegisteredAssociateId": 179,
-  "Updated": "2011-01-15T17:54:02.9139671+01:00",
-  "UpdatedAssociateId": 472
+  "UniqueIdentifier": "quod",
+  "Source": "id",
+  "Registered": "2015-05-11T03:45:23.2329582+02:00",
+  "RegisteredAssociateId": 195,
+  "Updated": "2008-01-05T03:45:23.2329582+01:00",
+  "UpdatedAssociateId": 543
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 882,
-  "Name": "Hand-Schroeder",
+  "ScreenChooserId": 456,
+  "Name": "Fisher, Corwin and Upton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quae",
-  "Source": "recusandae",
-  "Registered": "2003-11-08T17:54:02.9139671+01:00",
-  "RegisteredAssociateId": 934,
-  "Updated": "2000-04-16T17:54:02.9139671+02:00",
-  "UpdatedAssociateId": 664,
+  "Enabled": false,
+  "UniqueIdentifier": "qui",
+  "Source": "architecto",
+  "Registered": "2003-08-11T03:45:23.2329582+02:00",
+  "RegisteredAssociateId": 1001,
+  "Updated": "2020-02-12T03:45:23.2329582+01:00",
+  "UpdatedAssociateId": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

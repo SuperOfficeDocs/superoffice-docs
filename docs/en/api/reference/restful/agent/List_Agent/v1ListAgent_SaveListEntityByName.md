@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke LLC",
+  "Name": "Murazik, Kerluke and Wisozk",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Rosenbaum-Lueilwitz",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 60,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 110,
+  "Name": "Schultz, Keebler and Dickinson",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 644,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
+  "ListType": "fuga",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 859
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 144,
-  "Name": "Schmitt, Lemke and Pouros",
-  "Tooltip": "rem",
-  "Rank": 520,
-  "Rate": 26654.67,
-  "Units": 3641.708,
-  "Deleted": true,
+  "CurrencyId": 283,
+  "Name": "Nikolaus Group",
+  "Tooltip": "quidem",
+  "Rank": 726,
+  "Rate": 18625.362,
+  "Units": 7728.4439999999995,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldLength": 344
     }
   }
 }

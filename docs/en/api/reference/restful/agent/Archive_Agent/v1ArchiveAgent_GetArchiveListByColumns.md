@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leffler, Harvey and Dickens",
+  "ProviderName": "White LLC",
   "Columns": [
-    "ipsum",
-    "est"
+    "incidunt",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Jast-Armstrong",
+      "Name": "Balistreri LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Jast-Armstrong",
+      "Name": "Balistreri LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Boyle-Upton",
-      "Operator": "occaecati",
+      "Name": "Kovacek Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "quasi",
-        "eaque"
+        "dolorem",
+        "sunt"
       ],
       "DisplayValues": [
-        "magnam",
-        "nulla"
+        "ut",
+        "perferendis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 768,
+      "InterParenthesis": 550,
       "InterOperator": "And",
-      "UniqueHash": 55
+      "UniqueHash": 486
     }
   ],
   "Entities": [
-    "libero",
-    "et"
+    "magnam",
+    "laboriosam"
   ],
-  "Page": 266,
-  "PageSize": 918
+  "Page": 822,
+  "PageSize": 525
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Langworth, Rice and Wunsch",
-    "PrimaryKey": 595,
+    "EntityName": "Quigley-Stroman",
+    "PrimaryKey": 347,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quidem",
-        "TooltipHint": "sunt",
-        "LinkHint": "et"
+        "DisplayValue": "saepe",
+        "TooltipHint": "et",
+        "LinkHint": "velit"
       }
     },
-    "LinkHint": "facere",
-    "StyleHint": "mollitia",
+    "LinkHint": "tempora",
+    "StyleHint": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

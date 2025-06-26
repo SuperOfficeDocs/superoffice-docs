@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 863,
-  "UniqueId": "sint",
-  "Name": "Bayer LLC",
-  "Description": "Mandatory solution-oriented hub",
-  "AssociateId": 197,
-  "Columns": 779,
+  "DashboardId": 794,
+  "UniqueId": "aut",
+  "Name": "Hessel, Conroy and Hammes",
+  "Description": "Polarised demand-driven utilisation",
+  "AssociateId": 704,
+  "Columns": 174,
   "Theme": null,
-  "VisibleForAll": 450,
+  "VisibleForAll": 52,
   "VisibleForAssociates": [
-    63,
-    972
+    508,
+    453
   ],
   "VisibleForGroups": [
-    831,
-    985
+    617,
+    605
   ],
-  "PinForAll": 530,
+  "PinForAll": 982,
   "PinForAssociates": [
-    102,
-    280
+    444,
+    657
   ],
   "PinForGroups": [
-    158,
-    982
+    705,
+    387
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 413
     }
   }
 }

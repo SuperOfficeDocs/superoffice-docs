@@ -132,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 542,
-  "StartTime": "2006-08-19T17:54:02.3827433+02:00",
-  "EndTime": "1999-07-21T17:54:02.3827433+02:00",
-  "Count": 410,
-  "TaskHeadingId": 326
+  "ContactId": 167,
+  "StartTime": "2004-01-11T03:45:22.6861022+01:00",
+  "EndTime": "2018-02-03T03:45:22.6861022+01:00",
+  "Count": 281,
+  "TaskHeadingId": 931
 }
 ```
 
@@ -152,66 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 449,
-    "StartDate": "2005-07-09T17:54:02.3827433+02:00",
-    "EndDate": "2016-05-10T17:54:02.3827433+02:00",
+    "AppointmentId": 177,
+    "StartDate": "2007-08-07T03:45:22.6861022+02:00",
+    "EndDate": "2011-07-10T03:45:22.6861022+02:00",
     "Type": "BookingForChecklist",
-    "Task": "pariatur",
-    "AssociateFullName": "Candelario Bradtke",
-    "ContactName": "Kuphal LLC",
-    "Description": "Robust responsive analyzer",
-    "PersonFullName": "Prof. Elwin Clementina Pouros",
-    "PersonId": 29,
-    "ContactId": 823,
-    "ProjectId": 171,
-    "ProjectName": "Lockman Group",
-    "IsPublished": true,
-    "AssociateId": 938,
-    "ColorIndex": 243,
+    "Task": "odio",
+    "AssociateFullName": "Mrs. Hayley Alfreda Prohaska Sr.",
+    "ContactName": "Cruickshank-Lebsack",
+    "Description": "Innovative local complexity",
+    "PersonFullName": "Prof. Anya Rahsaan Runolfsdottir",
+    "PersonId": 610,
+    "ContactId": 510,
+    "ProjectId": 143,
+    "ProjectName": "Wehner-Hirthe",
+    "IsPublished": false,
+    "AssociateId": 526,
+    "ColorIndex": 134,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 771,
-    "PriorityName": "Feeney Inc and Sons",
+    "PriorityId": 680,
+    "PriorityName": "Effertz, Stokes and Price",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1998-01-31T17:54:02.3827433+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2019-05-19T03:45:22.7017267+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-11-05T17:54:02.3827433+01:00",
-    "RecurringEndDate": "2012-06-11T17:54:02.3827433+02:00",
-    "MotherId": 792,
-    "AssignedBy": 81,
-    "AssignedByFullName": "Mrs. Dale Hilll",
+    "RecurringStartDate": "2010-02-08T03:45:22.7017267+01:00",
+    "RecurringEndDate": "2002-03-19T03:45:22.7017267+01:00",
+    "MotherId": 418,
+    "AssignedBy": 524,
+    "AssignedByFullName": "Ms. Emilio Eusebio Grant PhD",
     "RejectReason": "",
-    "Location": "accusantium",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 639,
-    "SaleName": "Pagac, Lindgren and Skiles",
-    "AssociateName": "Adams-Kutch",
-    "CreatedDate": "2002-07-15T17:54:02.3827433+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Glen Volkman",
-    "CreatedByAssociateId": 36,
+    "Location": "ut",
+    "AlarmLeadTime": "possimus",
+    "SaleId": 910,
+    "SaleName": "Ratke-Kulas",
+    "AssociateName": "Konopelski-Veum",
+    "CreatedDate": "2025-04-10T03:45:22.7017267+02:00",
+    "CreatedBy": "dolorem",
+    "CreatedByFullName": "Prof. Hugh Kayden Sipes Jr.",
+    "CreatedByAssociateId": 304,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 253,
-    "Title": "recusandae",
+    "PreferredTZLocation": 312,
+    "Title": "voluptatem",
     "Agenda": "rerum",
-    "InternalNotes": "possimus",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 774
       }
     }
   }

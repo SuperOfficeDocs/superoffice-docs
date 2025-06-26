@@ -83,15 +83,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 265,
+  "DocumentId": 929,
   "AllowedReturnTypes": [
-    "harum",
-    "tenetur"
+    "consectetur",
+    "enim"
   ],
-  "VersionDescription": "Devolved scalable projection",
+  "VersionDescription": "Function-based disintermediate artificial intelligence",
   "VersionExtraFields": [
-    "officia",
-    "perspiciatis"
+    "est",
+    "qui"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "incidunt",
-  "VersionId": "voluptates",
-  "Success": true,
+  "ExternalReference": "autem",
+  "VersionId": "quo",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "inventore",
-  "AdditionalInfo": "qui"
+  "Value": "quod",
+  "AdditionalInfo": "molestiae"
 }
 ```

@@ -79,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 442,
-  "Value": "sunt",
+  "TaskListItemId": 345,
+  "Value": "adipisci",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "culpa",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "IntentId": 499,
-  "Rank": 846,
+  "IntentId": 560,
+  "Rank": 156,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 343
     }
   }
 }

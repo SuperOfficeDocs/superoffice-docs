@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howe Group",
+  "ProviderName": "Bartoletti, Stiedemann and Wyman",
   "Columns": [
-    "optio",
-    "minus"
+    "sit",
+    "assumenda"
   ],
   "SortOrder": [
     {
-      "Name": "Lindgren-Macejkovic",
+      "Name": "Goyette, Willms and Hickle",
       "Direction": "ASC"
     },
     {
-      "Name": "Lindgren-Macejkovic",
+      "Name": "Goyette, Willms and Hickle",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Blanda LLC",
-      "Operator": "dicta",
+      "Name": "Bednar-Ondricka",
+      "Operator": "mollitia",
       "Values": [
-        "id",
-        "architecto"
+        "qui",
+        "sequi"
       ],
       "DisplayValues": [
-        "impedit",
-        "fuga"
+        "dolore",
+        "ipsa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 222,
+      "InterParenthesis": 271,
       "InterOperator": "And",
-      "UniqueHash": 666
+      "UniqueHash": 198
     }
   ],
   "Entities": [
-    "dolore",
-    "accusamus"
+    "mollitia",
+    "ut"
   ],
-  "Page": 345,
-  "PageSize": 430,
-  "Options": "commodi"
+  "Page": 810,
+  "PageSize": 729,
+  "Options": "qui"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 638,
+  "RowCount": 437,
   "Rows": [
     {
-      "EntityName": "Ondricka, Herzog and Kovacek",
-      "PrimaryKey": 159,
+      "EntityName": "Bartell-Lindgren",
+      "PrimaryKey": 29,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "ipsum"
+          "DisplayValue": "quibusdam",
+          "TooltipHint": "facilis",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "hic",
-      "StyleHint": "velit",
+      "LinkHint": "nisi",
+      "StyleHint": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 524
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 928
     }
   }
 }

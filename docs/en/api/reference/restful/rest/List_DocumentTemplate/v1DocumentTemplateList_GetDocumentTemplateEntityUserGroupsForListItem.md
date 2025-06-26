@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Block Group",
-    "ToolTip": "Et repellat corporis dolore et voluptatibus.",
+    "Id": 995,
+    "Name": "Ledner-Bahringer",
+    "ToolTip": "Eum dolores sequi.",
     "Deleted": true,
-    "Rank": 215,
-    "Type": "aut",
-    "ColorBlock": 539,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2009-01-26T17:54:08.9136741+01:00",
+    "Rank": 767,
+    "Type": "consequuntur",
+    "ColorBlock": 64,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "1999-06-06T03:45:29.0452922+02:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "Kuphal, Hand and Morissette",
-        "ToolTip": "Voluptatum non repellat reiciendis.",
+        "Id": 907,
+        "Name": "Leannon-Runolfsdottir",
+        "ToolTip": "Nemo assumenda porro illum et modi id.",
         "Deleted": true,
-        "Rank": 829,
-        "Type": "labore",
-        "ColorBlock": 230,
-        "IconHint": "optio",
+        "Rank": 977,
+        "Type": "neque",
+        "ColorBlock": 60,
+        "IconHint": "harum",
         "Selected": true,
-        "LastChanged": "2009-02-21T17:54:08.9136741+01:00",
+        "LastChanged": "2018-08-01T03:45:29.0452922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Valentine Wintheiser",
+        "ExtraInfo": "quod",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Dr. Ulises Dario Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 345
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
+    "ExtraInfo": "magnam",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Katelyn Kris",
+    "FullName": "Dr. Elissa Swift MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 341
       }
     }
   }

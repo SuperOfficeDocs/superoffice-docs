@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 819,
-  "ModuleOwner": "mollitia"
+  "AssociateId": 276,
+  "ModuleOwner": "est"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 205,
-    "Tooltip": "quos",
+    "Unrestricted": false,
+    "Total": 238,
+    "Tooltip": "atque",
     "CanAssign": false,
-    "Free": 642,
-    "InUse": 179,
+    "Free": 415,
+    "InUse": 143,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 623,
-    "Name": "Baumbach Group",
-    "Description": "Optimized dedicated ability",
-    "PrerequisiteModuleName": "Ziemann LLC",
-    "SortOrder": 558,
-    "ExtraFlags": 923,
+    "Assigned": false,
+    "ModuleLicenseId": 135,
+    "Name": "Breitenberg LLC",
+    "Description": "Organized 5th generation framework",
+    "PrerequisiteModuleName": "Koepp-Bartell",
+    "SortOrder": 5,
+    "ExtraFlags": 454,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 938
       }
     }
   }

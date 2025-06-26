@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 266,
-  "Select": "repudiandae"
+  "SelectionId": 611,
+  "Select": "occaecati"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hayes LLC",
-    "PrimaryKey": 961,
+    "EntityName": "Witting, Aufderhar and Wilkinson",
+    "PrimaryKey": 911,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quibusdam",
-        "TooltipHint": "distinctio",
+        "DisplayValue": "sit",
+        "TooltipHint": "dolorem",
         "LinkHint": "sit"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "facilis",
+    "LinkHint": "modi",
+    "StyleHint": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

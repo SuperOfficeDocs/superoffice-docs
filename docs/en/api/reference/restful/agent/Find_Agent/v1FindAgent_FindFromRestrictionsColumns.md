@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Funk-Nienow",
-      "Operator": "totam",
+      "Name": "Raynor, Russel and Schroeder",
+      "Operator": "eos",
       "Values": [
-        "qui",
-        "quae"
+        "laborum",
+        "aliquid"
       ],
       "DisplayValues": [
-        "qui",
-        "animi"
+        "reiciendis",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 972,
+      "InterParenthesis": 319,
       "InterOperator": "And",
-      "UniqueHash": 702
+      "UniqueHash": 619
     }
   ],
-  "ProviderName": "Pfeffer LLC",
+  "ProviderName": "Bauch, Ullrich and Cummings",
   "DesiredColumns": [
-    "dolorem",
-    "iste"
+    "ab",
+    "dolor"
   ],
-  "PageSize": 88,
-  "PageNumber": 380
+  "PageSize": 777,
+  "PageNumber": 441
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Quigley Group",
-      "DisplayTooltip": "quas",
-      "DisplayType": "neque",
+      "DisplayName": "Murphy-Olson",
+      "DisplayTooltip": "aut",
+      "DisplayType": "quia",
       "CanOrderBy": false,
-      "Name": "Turcotte Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolor",
-      "RestrictionListName": "McLaughlin Group",
-      "IsVisible": true,
-      "ExtraInfo": "odio",
-      "Width": "ut",
-      "IconHint": "iste",
-      "HeadingIconHint": "magni"
+      "Name": "Beier, Wilkinson and Grady",
+      "CanRestrictBy": false,
+      "RestrictionType": "ea",
+      "RestrictionListName": "Fritsch-Schuster",
+      "IsVisible": false,
+      "ExtraInfo": "dolor",
+      "Width": "magnam",
+      "IconHint": "aliquid",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Osinski, Cummerata and Sanford",
-      "PrimaryKey": 684,
+      "EntityName": "Kuvalis LLC",
+      "PrimaryKey": 843,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nemo",
-          "TooltipHint": "expedita",
-          "LinkHint": "corrupti"
+          "DisplayValue": "esse",
+          "TooltipHint": "blanditiis",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "consectetur",
-      "StyleHint": "aut",
+      "LinkHint": "beatae",
+      "StyleHint": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldType": "System.String",
+          "FieldLength": 382
         }
       }
     }
   ],
-  "RowCount": 212,
+  "RowCount": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Mertz-Frami",
+  "HistoryName": "Braun, Nicolas and Rogahn",
   "History": [
     {
-      "Rank": 762,
-      "Id": 277,
-      "HistoryName": "O'Kon-Renner",
-      "HistoryId": 177,
-      "AssociateId": 125,
-      "Name": "Feil, West and Armstrong",
-      "ItemInfo": "modi"
+      "Rank": 682,
+      "Id": 26,
+      "HistoryName": "Hauck Inc and Sons",
+      "HistoryId": 737,
+      "AssociateId": 561,
+      "Name": "Miller-McKenzie",
+      "ItemInfo": "ducimus"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 514,
-    "Id": 95,
-    "HistoryName": "Simonis Inc and Sons",
-    "HistoryId": 625,
-    "AssociateId": 184,
-    "Name": "Von-Huels",
-    "ItemInfo": "doloremque",
+    "Rank": 553,
+    "Id": 138,
+    "HistoryName": "Beahan Inc and Sons",
+    "HistoryId": 639,
+    "AssociateId": 437,
+    "Name": "Hermann Inc and Sons",
+    "ItemInfo": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 463
       }
     }
   }

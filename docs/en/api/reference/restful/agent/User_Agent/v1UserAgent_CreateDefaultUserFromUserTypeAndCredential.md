@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 674,
-  "CredentialType": "architecto",
-  "CredentialValue": "tempore",
-  "CredentialDisplayValue": "sint"
+  "ContactId": 463,
+  "CredentialType": "quo",
+  "CredentialValue": "dolor",
+  "CredentialDisplayValue": "est"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 610,
-  "Name": "Zieme Inc and Sons",
-  "Rank": 242,
-  "Tooltip": "voluptatem",
+  "AssociateId": 93,
+  "Name": "Labadie, Boehm and Funk",
+  "Rank": 373,
+  "Tooltip": "laudantium",
   "LicenseOwners": [
     {
-      "Name": "Moore, Herzog and Cole",
-      "Description": "Multi-lateral mission-critical synergy",
+      "Name": "DuBuque-Balistreri",
+      "Description": "Cross-platform intermediate encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Moore, Herzog and Cole",
-      "Description": "Multi-lateral mission-critical synergy",
+      "Name": "DuBuque-Balistreri",
+      "Description": "Cross-platform intermediate encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequuntur",
-      "Tooltip": "et",
-      "Id": 695,
-      "Rank": 682,
-      "Deleted": false,
+      "Value": "suscipit",
+      "Tooltip": "omnis",
+      "Id": 910,
+      "Rank": 609,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 367
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-05-29T17:54:03.8514214+02:00",
-  "Lastlogout": "2018-12-05T17:54:03.8514214+01:00",
-  "EjUserId": 951,
-  "RequestSignature": "molestiae",
+  "Lastlogin": "2001-05-29T03:45:24.1391839+02:00",
+  "Lastlogout": "2015-03-16T03:45:24.1391839+01:00",
+  "EjUserId": 771,
+  "RequestSignature": "mollitia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "nesciunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ut",
-      "DisplayValue": "nesciunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
-        }
-      }
-    }
-  ],
-  "UserName": "Hudson-Rath",
-  "TicketCategories": [
-    {
-      "Id": 324,
-      "Name": "Kreiger Group",
-      "ToolTip": "Facilis enim officia veritatis quod quasi rerum at.",
-      "Deleted": false,
-      "Rank": 912,
-      "Type": "voluptatem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "harum",
-      "ColorBlock": 537,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "et",
-      "FullName": "Dr. Alec Dejuan Schinner IV",
+      "Value": "officiis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldLength": 70
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "officiis",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "NickName": "Jast LLC",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "dolores"
-  },
-  "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "deserunt"
-  },
-  "PostSaveCommands": [
+  "UserName": "Strosin Inc and Sons",
+  "TicketCategories": [
     {
-      "Name": "Mayer Inc and Sons",
-      "DisplayName": "Feil LLC",
-      "Description": "Balanced interactive success",
-      "ToolTip": "Voluptatem eum non aliquam.",
-      "Actions": "Implicit",
-      "ActionData": "quos",
+      "Id": 899,
+      "Name": "Glover, Buckridge and Sanford",
+      "ToolTip": "Non esse numquam.",
+      "Deleted": false,
+      "Rank": 823,
+      "Type": "fuga",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "laborum",
+      "ColorBlock": 672,
+      "ExtraInfo": "occaecati",
+      "StyleHint": "eaque",
+      "FullName": "Mr. Brad Giovanni Howell II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 625
+        }
+      }
+    }
+  ],
+  "NickName": "Boyle-Steuber",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "tempora"
+  },
+  "CustomFields": {
+    "CustomFields1": "quis",
+    "CustomFields2": "aut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Douglas Inc and Sons",
+      "DisplayName": "Mills, Daugherty and Witting",
+      "Description": "Fundamental high-level focus group",
+      "ToolTip": "Sequi repellat.",
+      "Actions": "Implicit",
+      "ActionData": "sint",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 324
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

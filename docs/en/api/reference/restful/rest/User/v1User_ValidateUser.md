@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 198,
-  "Name": "Crist, Nolan and Dach",
-  "Rank": 52,
-  "Tooltip": "velit",
+  "AssociateId": 402,
+  "Name": "Skiles LLC",
+  "Rank": 999,
+  "Tooltip": "quis",
   "LicenseOwners": [
     {
-      "Name": "Greenfelder Group",
-      "Description": "Programmable fault-tolerant product",
+      "Name": "Larson Group",
+      "Description": "Adaptive object-oriented matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Greenfelder Group",
-      "Description": "Programmable fault-tolerant product",
+      "Name": "Larson Group",
+      "Description": "Adaptive object-oriented matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "deleniti",
-      "Id": 437,
-      "Rank": 827,
+      "Value": "dolorem",
+      "Tooltip": "nam",
+      "Id": 646,
+      "Rank": 355,
       "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "deleniti",
-      "Id": 437,
-      "Rank": 827,
+      "Value": "dolorem",
+      "Tooltip": "nam",
+      "Id": 646,
+      "Rank": 355,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2002-01-06T17:54:08.7574316+01:00",
-  "Lastlogout": "2004-05-16T17:54:08.7574316+02:00",
-  "EjUserId": 740,
-  "RequestSignature": "reprehenderit",
+  "Lastlogin": "2020-03-11T03:45:28.8734254+01:00",
+  "Lastlogout": "2025-03-26T03:45:28.8734254+01:00",
+  "EjUserId": 935,
+  "RequestSignature": "eveniet",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iure",
-      "DisplayValue": "ut"
+      "Value": "ut",
+      "DisplayValue": "eos"
     },
     {
       "Type": null,
-      "Value": "iure",
-      "DisplayValue": "ut"
+      "Value": "ut",
+      "DisplayValue": "eos"
     }
   ],
-  "UserName": "Murphy LLC",
+  "UserName": "Purdy Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 873,
-      "Name": "Hessel-Johnson",
-      "ToolTip": "Dignissimos voluptatem dolor occaecati.",
+      "Id": 872,
+      "Name": "Connelly Group",
+      "ToolTip": "Tempora delectus natus nobis quis.",
       "Deleted": false,
-      "Rank": 26,
-      "Type": "repellendus",
+      "Rank": 214,
+      "Type": "officiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 698,
-      "ExtraInfo": "quo",
-      "StyleHint": "cumque",
-      "FullName": "Dr. Daija Ansley McKenzie"
+      "IconHint": "facilis",
+      "ColorBlock": 797,
+      "ExtraInfo": "ea",
+      "StyleHint": "sit",
+      "FullName": "Emily Bosco"
     }
   ],
-  "NickName": "Herman-Heathcote",
-  "WaitingForApproval": false,
+  "NickName": "Gislason-Kutch",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "impedit"
+    "CustomFields1": "non",
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cummerata, Welch and Ziemann",
-      "DisplayName": "Will Inc and Sons",
-      "Description": "Enhanced intangible architecture",
-      "ToolTip": "Ea reprehenderit sed provident dolor.",
+      "Name": "Kling, Ankunding and Mante",
+      "DisplayName": "Collier-Muller",
+      "Description": "Virtual hybrid forecast",
+      "ToolTip": "Voluptas neque placeat.",
       "Actions": "Implicit",
-      "ActionData": "quis"
+      "ActionData": "dolores"
     },
     {
-      "Name": "Cummerata, Welch and Ziemann",
-      "DisplayName": "Will Inc and Sons",
-      "Description": "Enhanced intangible architecture",
-      "ToolTip": "Ea reprehenderit sed provident dolor.",
+      "Name": "Kling, Ankunding and Mante",
+      "DisplayName": "Collier-Muller",
+      "Description": "Virtual hybrid forecast",
+      "ToolTip": "Voluptas neque placeat.",
       "Actions": "Implicit",
-      "ActionData": "quis"
+      "ActionData": "dolores"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "asperiores",
-  "2": "facere"
+  "1": "rerum",
+  "2": "cumque"
 }
 ```

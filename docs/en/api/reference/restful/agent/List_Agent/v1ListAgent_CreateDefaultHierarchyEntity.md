@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 851,
+  "HierarchyId": 968,
   "Domain": "Dashboards",
-  "Name": "DuBuque LLC",
-  "Fullname": "ducimus",
-  "ParentId": 949,
+  "Name": "Schaden-Heathcote",
+  "Fullname": "atque",
+  "ParentId": 1001,
   "Children": [
     {
-      "HierarchyId": 256,
+      "HierarchyId": 809,
       "Domain": "Dashboards",
-      "Name": "Yundt-Hudson",
-      "Fullname": "repellat",
-      "ParentId": 224,
+      "Name": "Luettgen Group",
+      "Fullname": "et",
+      "ParentId": 893,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-04-03T17:54:03.3045907+02:00",
-      "RegisteredAssociateId": 991,
-      "Updated": "2004-12-02T17:54:03.3045907+01:00",
-      "UpdatedAssociateId": 456,
+      "Registered": "2009-11-23T03:45:23.6079553+01:00",
+      "RegisteredAssociateId": 213,
+      "Updated": "1998-06-11T03:45:23.6079553+02:00",
+      "UpdatedAssociateId": 740,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 298
         }
       }
     }
   ],
-  "Registered": "2011-08-02T17:54:03.3045907+02:00",
-  "RegisteredAssociateId": 189,
-  "Updated": "2022-01-03T17:54:03.3045907+01:00",
-  "UpdatedAssociateId": 414,
+  "Registered": "2022-06-30T03:45:23.6079553+02:00",
+  "RegisteredAssociateId": 911,
+  "Updated": "2006-09-06T03:45:23.6079553+02:00",
+  "UpdatedAssociateId": 122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 182
     }
   }
 }

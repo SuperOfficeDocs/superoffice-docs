@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Aug 2022 17:54:08 G8T
+Last-Modified: Mon, 07 Sep 2015 03:45:28 G9T
 
 {
-  "Key": "sunt",
-  "Value": "qui",
-  "RecordId": 786,
-  "CreatedDate": "2019-10-13T17:54:08.2574567+02:00",
-  "UpdatedDate": "2022-08-03T17:54:08.2574567+02:00",
-  "UpdatedBy": "tenetur",
-  "CreatedBy": "laudantium",
-  "TableName": "Maggio-Mueller",
+  "Key": "voluptas",
+  "Value": "fuga",
+  "RecordId": 881,
+  "CreatedDate": "2023-11-17T03:45:28.3578119+01:00",
+  "UpdatedDate": "2015-09-07T03:45:28.3578119+02:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "voluptatum",
+  "TableName": "Abbott-Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldLength": 165
     }
   }
 }

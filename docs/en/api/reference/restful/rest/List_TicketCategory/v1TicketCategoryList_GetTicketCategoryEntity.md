@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 796,
-  "ParentId": 881,
-  "Name": "Donnelly, Emmerich and Schmeler",
-  "Fullname": "ipsa",
-  "CategoryMaster": 292,
+  "TicketCategoryId": 905,
+  "ParentId": 49,
+  "Name": "Predovic Group",
+  "Fullname": "voluptas",
+  "CategoryMaster": 58,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rutherford, Pagac and Murray",
+  "ExternalName": "Schneider, Cole and Kerluke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 934,
-  "ReplyTemplate": 69,
-  "NotificationEmail": "dimitri@kutch.info",
+  "AssignmentLag": 754,
+  "ReplyTemplate": 252,
+  "NotificationEmail": "francisco@hills.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 16,
+  "EffectiveReplyTemplateId": 25,
   "ExtraFields": {
-    "ExtraFields1": "repudiandae",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "non"
+    "CustomFields1": "corporis",
+    "CustomFields2": "repudiandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 986
     }
   }
 }

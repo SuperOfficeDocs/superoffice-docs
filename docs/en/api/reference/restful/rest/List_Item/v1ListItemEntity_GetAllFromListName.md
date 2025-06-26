@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Stark Inc and Sons",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "UdListDefinitionId": 500,
-    "Rank": 420,
+    "Id": 378,
+    "Name": "Sporer-Bode",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 877,
+    "Rank": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldLength": 941
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 931
+  "DashboardId": 51
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 613,
-  "Name": "Larkin, White and Ullrich",
-  "Description": "Compatible 4th generation circuit",
-  "OwnedByFullName": "Miss Norbert Brielle Murphy",
-  "Registered": "2017-09-05T17:54:02.9452152+02:00",
+  "DashboardId": 214,
+  "Name": "Waters, Hegmann and Goyette",
+  "Description": "Advanced content-based collaboration",
+  "OwnedByFullName": "Vidal Ross Stokes I",
+  "Registered": "1999-06-17T03:45:23.264209+02:00",
   "Tiles": [
     {
-      "Name": "O'Conner-Auer",
+      "Name": "Wilderman, Walker and Simonis",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 360
         }
       }
     },
     {
-      "Name": "O'Conner-Auer",
+      "Name": "Wilderman, Walker and Simonis",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 360
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

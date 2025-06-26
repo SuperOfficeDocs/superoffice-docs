@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leannon-Moore",
-  "Context": "iusto"
+  "ProviderName": "Conroy-Cremin",
+  "Context": "placeat"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Leffler LLC",
-    "ToolTip": "Suscipit et soluta sed nobis quaerat.",
-    "Deleted": false,
-    "Rank": 799,
-    "Type": "adipisci",
+    "Id": 31,
+    "Name": "Ortiz-Breitenberg",
+    "ToolTip": "Qui architecto officia.",
+    "Deleted": true,
+    "Rank": 553,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Pfeffer-Homenick",
-        "ToolTip": "Incidunt ut deleniti nihil sit.",
+        "Id": 526,
+        "Name": "Kris, Pollich and Rippin",
+        "ToolTip": "Odio ipsam modi error.",
         "Deleted": false,
-        "Rank": 712,
-        "Type": "fuga",
+        "Rank": 7,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 381,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "ut",
-        "FullName": "Dr. Sid Wilderman",
+        "IconHint": "amet",
+        "ColorBlock": 563,
+        "ExtraInfo": "aut",
+        "StyleHint": "dolore",
+        "FullName": "Ophelia Aryanna Farrell DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 431
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 358,
-    "ExtraInfo": "optio",
-    "StyleHint": "tenetur",
-    "FullName": "Judah Lang PhD",
+    "IconHint": "at",
+    "ColorBlock": 58,
+    "ExtraInfo": "dicta",
+    "StyleHint": "voluptates",
+    "FullName": "Ms. Danika Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=698
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=667
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 237,
-  "Name": "Batz, Hahn and Sauer",
-  "CreatedDate": "2000-09-14T17:54:03.1795788+02:00",
-  "UpdatedDate": "2011-03-02T17:54:03.1795788+01:00",
-  "AssociateFullName": "Nayeli Graham Sr.",
-  "CreatedBy": "ullam",
-  "UpdatedBy": "accusamus",
-  "DeviceIdentifier": "voluptas",
-  "ForeignAppId": 418,
+  "ForeignDeviceId": 556,
+  "Name": "Gorczany Group",
+  "CreatedDate": "2010-12-05T03:45:23.498579+01:00",
+  "UpdatedDate": "2003-03-12T03:45:23.498579+01:00",
+  "AssociateFullName": "Graham Graham",
+  "CreatedBy": "velit",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "saepe",
+  "ForeignAppId": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 366
     }
   }
 }

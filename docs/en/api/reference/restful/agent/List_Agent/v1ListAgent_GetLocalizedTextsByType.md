@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
     "et",
-    "nesciunt"
+    "non"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 887,
-    "ResourceId": 938,
-    "Text": "adipisci",
+    "LanguageId": 408,
+    "ResourceId": 839,
+    "Text": "eum",
     "Type": "Column",
-    "LocalizedTextId": 359,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 501,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 909
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=expedita
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=aliquid
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Moore, Kirlin and Strosin",
-    "ToolTip": "Cumque dolor est illum.",
+    "Id": 45,
+    "Name": "Emard Inc and Sons",
+    "ToolTip": "Suscipit ratione molestias minima tempora dolore libero praesentium.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "fugit",
+    "Rank": 823,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Barton, Murray and Dickens",
-        "ToolTip": "Et aspernatur.",
-        "Deleted": false,
-        "Rank": 17,
-        "Type": "voluptatum",
+        "Id": 60,
+        "Name": "Greenholt, Osinski and Harvey",
+        "ToolTip": "Aperiam accusamus eaque ipsum.",
+        "Deleted": true,
+        "Rank": 125,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 981,
-        "ExtraInfo": "rerum",
-        "StyleHint": "dignissimos",
-        "FullName": "Era Jenkins",
+        "IconHint": "et",
+        "ColorBlock": 769,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "dolorem",
+        "FullName": "Gerhard Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldType": "System.String",
+            "FieldLength": 555
           }
         }
       }
     ],
-    "IconHint": "aperiam",
-    "ColorBlock": 674,
-    "ExtraInfo": "eaque",
-    "StyleHint": "sed",
-    "FullName": "Clementina Wilkinson",
+    "IconHint": "et",
+    "ColorBlock": 106,
+    "ExtraInfo": "aut",
+    "StyleHint": "veritatis",
+    "FullName": "Sienna Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 605
       }
     }
   }

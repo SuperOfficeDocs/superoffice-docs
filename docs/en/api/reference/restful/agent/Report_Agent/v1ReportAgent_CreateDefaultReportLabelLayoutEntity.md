@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 538,
-  "Name": "Wintheiser, Leuschke and Kessler",
-  "Description": "Reactive background framework",
+  "ReportLabelLayoutId": 40,
+  "Name": "Heathcote Inc and Sons",
+  "Description": "Reduced hybrid hardware",
   "Orientation": "Landscape",
-  "PaperWidth": 84,
-  "PaperHeight": 648,
-  "LeftMargin": 205,
-  "RightMargin": 84,
-  "TopMargin": 571,
-  "BottomMargin": 977,
-  "CountColumns": 780,
-  "CountRows": 832,
+  "PaperWidth": 669,
+  "PaperHeight": 293,
+  "LeftMargin": 124,
+  "RightMargin": 546,
+  "TopMargin": 738,
+  "BottomMargin": 199,
+  "CountColumns": 844,
+  "CountRows": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 863
     }
   }
 }

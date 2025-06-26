@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 154,
-  "ParentId": 24,
-  "Name": "Marvin, Parisian and Runte",
-  "Fullname": "et",
-  "CategoryMaster": 508,
+  "TicketCategoryId": 457,
+  "ParentId": 523,
+  "Name": "Grimes LLC",
+  "Fullname": "cumque",
+  "CategoryMaster": 2,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Beatty, Rath and Olson",
+  "ExternalName": "Pfeffer Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 866,
-  "ReplyTemplate": 50,
-  "NotificationEmail": "allison.schulist@marvin.biz",
+  "AssignmentLag": 664,
+  "ReplyTemplate": 244,
+  "NotificationEmail": "nathan@osinski.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 575,
+  "EffectiveReplyTemplateId": 558,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "optio"
+    "CustomFields1": "omnis",
+    "CustomFields2": "libero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

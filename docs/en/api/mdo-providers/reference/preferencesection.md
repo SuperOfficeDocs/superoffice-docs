@@ -47,6 +47,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1000010|Customer Centre password policy||ccAuthentication|
 |1000007|Client||Client|
+|1000547|SuperOffice Copilot||Copilot|
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
@@ -65,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |1000360|Contact||Person|
 |1000379|Mobile CRM||PocketTasks|
 |1000383|Request||request|
-|1000404|Sale||Sale|
 
 
 ## Related MDO Lists

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Gislason, Ankunding and Doyle",
-  "Tooltip": "ut",
+  "Id": 284,
+  "Name": "Williamson Group",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 237,
-  "Rank": 602,
+  "UdListDefinitionId": 263,
+  "Rank": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 915
     }
   }
 }

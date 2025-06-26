@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Effertz Inc and Sons"
+  "Name": "Grady Group"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Mitchell-Bins",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 69,
+  "Id": 772,
+  "Name": "Hilll-Spencer",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 558,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "animi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 733
     }
   }
 }

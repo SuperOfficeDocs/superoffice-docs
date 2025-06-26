@@ -82,11 +82,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 519,
-    "Name": "Hermann, Torphy and Cruickshank",
+    "TicketStatusId": 231,
+    "Name": "Farrell, Hyatt and Robel",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 497
       }
     }
   }

@@ -88,8 +88,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 338,
-  "Type": "accusantium"
+  "AssociateId": 89,
+  "Type": "voluptatem"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1999-03-06T17:54:03.8982941+01:00",
-    "ValidTo": "2022-07-31T17:54:03.8982941+02:00",
-    "Comment": "quo",
-    "SecretValue": "commodi",
-    "PublicValue": "fugit",
-    "IsActive": true,
+    "ValidFrom": "2008-08-06T03:45:24.1860585+02:00",
+    "ValidTo": "2025-05-20T03:45:24.1860585+02:00",
+    "Comment": "rerum",
+    "SecretValue": "sint",
+    "PublicValue": "qui",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }
