@@ -11,6 +11,8 @@ items:
   href: add-remove-members-static.md
 - name: Kopiera medlemmar till ett annat urval
   href: copy-members-to.md
+- name: Tavlevy
+  href: board-view.md
 - name: Utföra uppgifter för urval
   href: howto/toc.yml
   topicHref: howto/index.md

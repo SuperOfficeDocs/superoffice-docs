@@ -11,6 +11,8 @@ items:
   href: add-remove-members-static.md
 - name: Copy members to another selection
   href: copy-members-to.md
+- name: Board view
+  href: board-view.md
 - name: Perform tasks using selection
   href: howto/toc.yml
   topicHref: howto/index.md

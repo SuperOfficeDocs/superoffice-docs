@@ -11,6 +11,8 @@ items:
   href: add-remove-members-static.md
 - name: Kopiere medlemmer til et annet utvalg
   href: copy-members-to.md
+- name: Tavlevisning
+  href: board-view.md
 - name: Utføre oppgaver ved hjelp av utvalg
   href: howto/toc.yml
   topicHref: howto/index.md

@@ -1,0 +1,186 @@
+---
+uid: help-en-selection-board-view
+title: Use board view in selections
+description: Visualize selections using board view with grouping, filters, and drag-and-drop cards
+keywords: board view, selection view, selection, sales board, kanban, group by, filter toolbar
+author: Bergfrid Dias
+date: 06.17.2025
+version: 11.2
+topic: howto
+license: salespremium, servicepremium, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
+language: en
+---
+
+# Use board view in selections <i class="ph ph-kanban" aria-hidden="true"></i>
+
+Board view presents your [selection][2] in a column-based layout using cards. You can group and filter the selection members (records shown on the board), and use drag-and-drop to move cards between groups.
+
+The functionality is the same across supported entities: you can drag cards, open task menus, and adjust board settings. The available grouping and filtering fields vary depending on whether you are working with sales, projects, or requests.
+
+![Board view showing sales grouped by stage -screenshot][img2]
+
+Board view is currently available for **selections of sales**, and support for **projects** and **requests** is planned.
+
+## Open board view
+
+1. Go to a selection.
+1. In the upper-right corner, select the **board view** icon (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
+
+    ![Board view toggle icon in the upper-right corner of a selection][img1]
+
+## Work with cards
+
+* Click the card title to open the full record (for example, a sale card).
+
+* Hover over a name or company to preview contact details.
+
+    ![Hover preview showing contact details on a card -screenshot][img3]
+
+* Drag cards between columns to update the grouping field (such as stage or owner).
+  * If subgroups are enabled, you can also drag cards between rows.
+
+* To edit a card, point to it and select the **Edit** button (<i class="ph ph-pencil" aria-hidden="true"></i>). This opens the same edit dialog used elsewhere in SuperOffice CRM—without leaving the board view.
+
+  ![Cursor pointing to the edit button on a sale card -screenshot][img4]
+
+* For more options, point to the card to reveal the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), then select it and choose from the available actions.
+
+  * **Sales:** Edit, Create follow-up, Mark as sold/lost, Delete
+  * **Projects:** Edit, Create follow-up, Create document, Mark as completed, Delete
+  * **Requests:** Edit, Close request, Delete
+
+  ![Open task menu on a sale in board view showing available options -screenshot][img5]
+
+<!-- markdownlint-disable-next-line MD013 -->
+## Customize board layout <i class="ph ph-gear-six" aria-hidden="true"></i> <i class="ph ph-sliders-horizontal" aria-hidden="true"></i>
+
+### Group and subgroup
+
+To choose which columns appear:
+
+1. Select the **settings** icon (<i class="ph ph-gear-six" aria-hidden="true"></i>).
+
+1. Select **Group by**.
+
+    ![Board view settings panel for sales selections showing grouping options -screenshot][img6]
+
+1. Choose a field to define the column layout.
+
+    ![Group-by menu showing available sales fields such as Stage and Owner -screenshot][img7]
+
+1. Select the back arrow (<i class="ph ph-caret-left" aria-hidden="true"></i>) to return to the settings overview.
+
+1. Optionally, choose a **Subgroup by** value to organize cards into separate rows within each column.
+
+1. Optionally, select **Save settings for current selection only** to apply changes only to this board view.
+
+1. Select **Done** to apply your settings.
+
+Examples of grouping fields:
+
+* **Sales:** Stage, Sale type, Owner
+* **Projects:** Status, Responsible, Type
+* **Requests:** Status, Request type, Priority, Owner
+
+### Sort cards in columns
+
+Use the settings panel (<i class="ph ph-gear-six" aria-hidden="true"></i>) to configure **Sort by** and **Sort order**, such as by sale date.
+
+### Set filters
+
+1. Select <i class="ph ph-sliders-horizontal" aria-label="Toggle filter toolbar"></i> to show the filter toolbar.
+
+    ![Filter toolbar in a sales selection board view -screenshot][img9]
+
+1. To choose which filters are available:
+
+    1. Click <i class="ph ph-gear-six" aria-hidden="true"></i> to open the Settings panel.
+    1. Select **Filter toolbar** and enable filters using the checkboxes.
+    1. Click the back arrow (<i class="ph ph-caret-left" aria-hidden="true"></i>) to return to the main settings and then click **Done**.
+
+    ![Filter settings showing available sales fields such as Stage and Owner -screenshot][img8]
+
+1. In the toolbar, expand a filter (for example, **Owner**) to show a list of items.
+
+    * Select or deselect items to include them.
+    * Select **Clear** at the bottom of a dropdown to reset that filter.
+    * Select the **X** on the right edge of the toolbar to reset **all** filters at once.
+
+    ![Filter toolbar, sale type expanded -screenshot][img10]
+
+### Summarize (sales only)
+
+You can display totals for numeric fields in the board view for sales.
+
+1. Select <i class="ph ph-gear-six" aria-hidden="true"></i> to open the Settings panel.
+2. Select **Summarize by**.
+3. Choose a numeric field, such as **Amount** or **Weighted amount**.
+
+The total value appears **next to each column name**, helping you track value distribution across stages, owners, or other grouping fields.
+
+![Sales board view showing summarized values for amount next to each column name -screenshot][img11]
+
+## Use cases
+
+Board view supports different roles and workflows. Here are examples for sales representatives and sales managers:
+
+### Sales representatives
+
+* **Visualize your open sales** and track where each opportunity is in the pipeline.
+* **Drag a card to another column** to update the sale stage.
+* **Filter by sale date** to focus on what needs attention now.
+* **Open the task menu** to create a follow-up, or mark a sale as sold or lost.
+* **Quickly edit a card** to update details, such as a new contact person.
+
+### Sales managers
+
+* **Visualize the entire pipeline** and understand the distribution of sales across stages.
+* **Summarize by amount** to support forecasting.
+* **Filter by sale type** to focus on new business or specific campaign types.
+* **Group by owner** to check workload per sales rep and rebalance using drag and drop.
+* **Use stage as group and sale type as subgroup** to get a strategic overview by category and phase.
+
+Use grouping creatively to organize and act on data efficiently.
+
+## Troubleshooting and tips
+
+* **New sales are missing:** Click <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> to reload the board view and fetch the latest data.
+
+* **Filter toolbar not visible:** Toggle the filter toolbar on or off using the <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> icon.
+
+* **A column is empty:** You may have filtered out its contents. Check the active filters in the toolbar.
+
+* **Cannot find a filter field:** Open **Settings** (<i class="ph ph-gear-six" aria-hidden="true"></i>) > **Filter toolbar** and enable the field you want to use.
+
+* **Need to edit the selection itself (not a card)?** Click <i class="ph ph-subtract-square" aria-label="Selection icon"></i> to return to selection view. Edit and task buttons for the selection are not available in board view.
+
+* **Search the board by name:** Use the **Filter by title** field at the top to narrow down visible cards by name.
+
+* **Save layout per use case:** Select **Save settings for current selection only** if you want to preserve a specific board layout, filters, or grouping for one selection only.
+
+## Related content
+
+* [Create a selection][1]
+* [Create a sale / fields in the Sale card][12]
+* [Configure sale stages][13]
+
+<!-- Referenced links -->
+[1]: create.md
+[2]: selections.md
+[12]: ../../../sale/learn/create.md
+[13]: ../../../sale/admin/sale-stage.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/search-options/board-view-toggle.png
+[img2]: ../../../../media/loc/en/search-options/board-view.png
+[img3]: ../../../../media/loc/en/search-options/board-view-preview-contact-on-hover.png
+[img4]: ../../../../media/loc/en/search-options/board-view-card-edit-icon.png
+[img5]: ../../../../media/loc/en/search-options/board-view-card-task-menu.png
+[img6]: ../../../../media/loc/en/search-options/board-view-settings.png
+[img7]: ../../../../media/loc/en/search-options/board-view-settings-group-by.png
+[img8]: ../../../../media/loc/en/search-options/board-view-settings-filter.png
+[img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
+[img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
+[img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
