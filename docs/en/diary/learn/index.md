@@ -22,7 +22,7 @@ The Diary screen is the central hub of SuperOffice CRM for managing [follow-ups]
 The Diary combines the following key components:
 
 * **Calendar:** Shows follow-ups scheduled for specific dates and times. It is similar to a Filofax, with separate pages for every day, week, and month.
-* **To-do list:** Shows (uncompleted) activities without specific times, such to-dos and sales.
+* **To-do list:** Shows (uncompleted) activities without specific times, such as to-dos and sales.
 
 With its flexible views, the Diary ensures seamless collaboration, allowing you to plan your day, week, or month with ease.
 
