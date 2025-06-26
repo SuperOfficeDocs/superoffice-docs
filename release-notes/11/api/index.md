@@ -15,6 +15,8 @@ category: api
 Version 11 of the API reference includes many changes from the v10.5.5 release, and the changes listed below are listed by major.minor version.
 
 * [(11.1)][1]
+* [(11.2)][2]
 
 <!-- Referenced links-->
 [1]: 11.1/11.1-update.md
+[2]: 11.2/11.2-update.md
