@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
+  "Id": 597,
   "IncludeAttachments": false
 }
 ```
@@ -122,97 +122,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 423,
-      "ContactName": "Klein, Waters and Cassin",
-      "PersonId": 496,
-      "PersonName": "Brakus-Mosciski",
-      "AssociateId": 673,
-      "Address": "quisquam",
-      "EmailId": 120,
+      "ContactId": 935,
+      "ContactName": "Schneider-Nicolas",
+      "PersonId": 625,
+      "PersonName": "Walsh-Windler",
+      "AssociateId": 416,
+      "Address": "molestiae",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        60,
-        865
+        5,
+        421
       ],
-      "Name": "Dicki Group",
+      "Name": "Krajcik-Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 939
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 509,
-      "ContactName": "Upton, Abshire and Mayer",
-      "PersonId": 697,
-      "PersonName": "Smith Group",
-      "AssociateId": 312,
-      "Address": "accusantium",
-      "EmailId": 506,
+      "ContactId": 146,
+      "ContactName": "Koss, Bernier and Smitham",
+      "PersonId": 830,
+      "PersonName": "Roob-Kris",
+      "AssociateId": 920,
+      "Address": "ipsa",
+      "EmailId": 74,
       "DuplicatePersonIds": [
-        683,
-        790
+        803,
+        29
       ],
-      "Name": "Waelchi Inc and Sons",
+      "Name": "McKenzie, Windler and Bauch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 860,
-      "ContactName": "Krajcik-Konopelski",
-      "PersonId": 901,
-      "PersonName": "Lebsack-Hagenes",
-      "AssociateId": 669,
-      "Address": "neque",
-      "EmailId": 322,
+      "ContactId": 852,
+      "ContactName": "Nader, Mraz and Zboncak",
+      "PersonId": 667,
+      "PersonName": "Smitham Group",
+      "AssociateId": 207,
+      "Address": "ducimus",
+      "EmailId": 549,
       "DuplicatePersonIds": [
-        249,
-        514
+        516,
+        250
       ],
-      "Name": "Tromp-Schmidt",
+      "Name": "Hahn-Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 768
+          "FieldType": "System.Int32",
+          "FieldLength": 372
         }
       }
     }
   ],
-  "Subject": "quasi",
-  "HTMLBody": "officia",
+  "Subject": "qui",
+  "HTMLBody": "ab",
   "From": null,
-  "Sent": "2004-11-26T17:54:03.1170817+01:00",
-  "Size": 993,
+  "Sent": "2012-12-18T03:45:23.4517052+01:00",
+  "Size": 329,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "reprehenderit",
+  "MessageID": "aspernatur",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 58,
+  "ServerId": 623,
   "Attachments": [
     {
-      "Description": "Cross-platform motivating policy",
-      "Filename": "aut",
-      "Size": 461,
-      "Type": "asperiores",
-      "Encoding": "possimus",
-      "Id": "ex",
-      "Disposition": "cumque",
+      "Description": "Profit-focused maximized interface",
+      "Filename": "culpa",
+      "Size": 931,
+      "Type": "at",
+      "Encoding": "mollitia",
+      "Id": "ea",
+      "Disposition": "eius",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -220,50 +220,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 172
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Swaniawski Group",
+      "Name": "Bogan Group",
       "Values": [
-        "quia",
-        "ducimus"
+        "qui",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     },
     {
-      "Name": "Swaniawski Group",
+      "Name": "Bogan Group",
       "Values": [
-        "quia",
-        "ducimus"
+        "qui",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     }
   ],
-  "FolderName": "Ruecker-Watsica",
-  "EmailItemId": 751,
-  "AccountId": 188,
-  "ReceivedAt": "2008-12-22T17:54:03.1170817+01:00",
+  "FolderName": "Price, Gislason and O'Keefe",
+  "EmailItemId": 888,
+  "AccountId": 507,
+  "ReceivedAt": "2013-01-20T03:45:23.4517052+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-12-02T17:54:03.1170817+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-09-18T03:45:23.4517052+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 508
     }
   }
 }

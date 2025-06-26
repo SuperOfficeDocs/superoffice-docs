@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 905,
-    "Name": "Koss LLC",
-    "Tooltip": "quae",
-    "Rank": 484,
-    "Key": "dolorem",
-    "Deleted": false,
+    "LegalBaseId": 964,
+    "Name": "Goodwin-Legros",
+    "Tooltip": "officiis",
+    "Rank": 985,
+    "Key": "eum",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 466
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

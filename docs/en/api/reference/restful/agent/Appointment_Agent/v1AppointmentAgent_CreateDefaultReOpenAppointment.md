@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 38
+  "SaleId": 568
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-05-27T17:54:02.6014824+02:00",
-  "AppointmentId": 942,
-  "Description": "Team-oriented 24 hour workforce",
-  "Title": "quam",
-  "Agenda": "vel",
-  "InternalNotes": "magni",
-  "StartDate": "2001-09-19T17:54:02.6014824+02:00",
-  "EndDate": "2007-04-16T17:54:02.6014824+02:00",
+  "CreatedDate": "2021-12-02T03:45:22.9204667+01:00",
+  "AppointmentId": 417,
+  "Description": "Compatible analyzing architecture",
+  "Title": "ducimus",
+  "Agenda": "impedit",
+  "InternalNotes": "quasi",
+  "StartDate": "2012-01-30T03:45:22.9204667+01:00",
+  "EndDate": "2013-02-03T03:45:22.9204667+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 280,
+  "MotherId": 974,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-04-03T17:54:02.6014824+02:00",
+  "UpdatedDate": "2022-08-21T03:45:22.9204667+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 752,
+  "ActiveLinks": 563,
   "Links": [
     {
-      "EntityName": "Schamberger, Reilly and Kunze",
-      "Id": 735,
-      "Description": "Mandatory mobile archive",
-      "ExtraInfo": "veniam",
-      "LinkId": 798,
+      "EntityName": "Kemmer-Kovacek",
+      "Id": 871,
+      "Description": "Focused multimedia service-desk",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 123,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldType": "System.String",
+          "FieldLength": 611
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
-  "HasAlarm": false,
-  "ColorIndex": 933,
+  "AlarmLeadTime": "fugiat",
+  "HasAlarm": true,
+  "ColorIndex": 906,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "nostrum",
-  "LeadTime": "perferendis",
-  "Location": "veniam",
-  "RejectCounter": 992,
+  "LagTime": "ratione",
+  "LeadTime": "sit",
+  "Location": "possimus",
+  "RejectCounter": 508,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 428,
-      "PersonId": 616,
-      "ContactId": 276,
-      "EmailId": 201,
+      "AssociateId": 734,
+      "PersonId": 689,
+      "ContactId": 881,
+      "EmailId": 183,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "omari.barrows@welchhackett.info",
-      "Description": "Innovative actuating application"
+      "EmailAddress": "mercedes.gutkowski@hagenes.us",
+      "Description": "Fundamental disintermediate solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-10-23T17:54:02.6014824+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-03-25T03:45:22.9204667+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 822,
+  "PreferredTZLocation": 407,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 870,
+  "SuggestedAppointmentId": 423,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laborum",
+  "CentralserviceVideomeetId": "quam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lorenz Shaina Quitzon II",
-    "SuperOffice:2": "Rosalind Cremin"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Rubye Wisozk I"
   },
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "est"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "qui"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "excepturi"
   },
-  "PublishEventDate": "2021-05-08T17:54:02.6014824+02:00",
-  "PublishTo": "2012-10-24T17:54:02.6014824+02:00",
-  "PublishFrom": "2002-10-17T17:54:02.6014824+02:00",
+  "PublishEventDate": "2015-12-03T03:45:22.9204667+01:00",
+  "PublishTo": "2016-08-03T03:45:22.9204667+02:00",
+  "PublishFrom": "2020-01-21T03:45:22.9204667+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 8,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 948
         }
       }
     },
     {
-      "VisibleId": 8,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 948
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

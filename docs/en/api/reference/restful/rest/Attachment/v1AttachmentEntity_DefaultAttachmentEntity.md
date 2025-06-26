@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 177,
-  "Name": "Walter-Ruecker",
-  "ContentType": "magnam",
-  "AttSize": 876,
+  "AttachmentId": 297,
+  "Name": "Bednar, Parisian and Lockman",
+  "ContentType": "et",
+  "AttSize": 50,
   "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "minima",
-  "IsSafeFileExtension": true,
+  "ContentId": "doloremque",
+  "AuthKey": "facilis",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 914
     }
   }
 }

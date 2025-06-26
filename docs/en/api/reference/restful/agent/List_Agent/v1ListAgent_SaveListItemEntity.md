@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Frami, Olson and Nienow",
-  "Tooltip": "animi",
+  "Id": 597,
+  "Name": "Waelchi LLC",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 879,
-  "Rank": 914,
+  "UdListDefinitionId": 617,
+  "Rank": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 870
     }
   }
 }

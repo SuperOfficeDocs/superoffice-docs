@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Yundt Group",
-    "Tooltip": "maxime",
+    "HeadingId": 840,
+    "Name": "Marks-Waelchi",
+    "Tooltip": "maiores",
     "Deleted": true,
-    "Rank": 391,
-    "UdListDefinitionId": 634,
+    "Rank": 514,
+    "UdListDefinitionId": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 496
+        "FieldType": "System.Int32",
+        "FieldLength": 764
       }
     }
   }

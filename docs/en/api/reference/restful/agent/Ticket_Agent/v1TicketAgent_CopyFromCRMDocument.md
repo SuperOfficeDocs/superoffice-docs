@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 169
+  "DocumentId": 530
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 214,
-  "Name": "Dare, Dare and Kris",
-  "ContentType": "repudiandae",
-  "AttSize": 410,
-  "InlineImage": true,
-  "ContentId": "ipsum",
-  "AuthKey": "est",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 318,
+  "Name": "Pagac LLC",
+  "ContentType": "nihil",
+  "AttSize": 273,
+  "InlineImage": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "omnis",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 790,
-  "Select": "dolore"
+  "SelectionId": 106,
+  "Select": "in"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hermiston-Anderson",
-    "PrimaryKey": 138,
+    "EntityName": "Emmerich Group",
+    "PrimaryKey": 68,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptas",
-        "TooltipHint": "consectetur",
-        "LinkHint": "ex"
+        "DisplayValue": "perspiciatis",
+        "TooltipHint": "ea",
+        "LinkHint": "expedita"
       }
     },
-    "LinkHint": "fugit",
-    "StyleHint": "dignissimos",
+    "LinkHint": "quis",
+    "StyleHint": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 586
       }
     }
   }

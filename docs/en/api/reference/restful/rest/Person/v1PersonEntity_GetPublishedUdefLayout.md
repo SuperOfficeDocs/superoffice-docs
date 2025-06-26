@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 827,
-    "ColumnId": 551,
-    "FieldDefault": "ut",
-    "FieldHeight": 862,
-    "FieldLabel": "rem",
-    "FieldLeft": 693,
-    "FieldTop": 139,
+    "UDefFieldId": 6,
+    "ColumnId": 854,
+    "FieldDefault": "suscipit",
+    "FieldHeight": 505,
+    "FieldLabel": "et",
+    "FieldLeft": 463,
+    "FieldTop": 234,
     "FieldType": "Checkbox",
-    "FieldWidth": 449,
-    "FormatMask": "impedit",
-    "HideLabel": false,
+    "FieldWidth": 735,
+    "FormatMask": "et",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 304,
-    "LabelLeft": 768,
-    "LabelTop": 686,
-    "LabelWidth": 931,
-    "LastVersionId": 998,
-    "ListTableId": 769,
+    "LabelHeight": 315,
+    "LabelLeft": 224,
+    "LabelTop": 934,
+    "LabelWidth": 153,
+    "LastVersionId": 262,
+    "ListTableId": 591,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 503,
-    "ProgId": "facere",
+    "Page1LineNo": 227,
+    "ProgId": "sed",
     "IsReadOnly": false,
-    "ShortLabel": "doloribus",
-    "TabOrder": 893,
-    "TextLength": 588,
-    "Tooltip": "laboriosam",
-    "UdefIdentity": 996,
-    "UDListDefinitionId": 21,
+    "ShortLabel": "non",
+    "TabOrder": 811,
+    "TextLength": 580,
+    "Tooltip": "debitis",
+    "UdefIdentity": 177,
+    "UDListDefinitionId": 400,
     "Justification": "Center",
-    "Version": 583,
-    "TemplateVariableName": "Hartmann LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Bechtelar-Collier",
+    "Version": 182,
+    "TemplateVariableName": "Jacobs-Erdman",
+    "HasBeenPublished": false,
+    "MdoListName": "Nitzsche-Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 270
       }
     }
   }

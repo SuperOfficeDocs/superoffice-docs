@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Gutkowski, Pagac and Homenick",
-    "ToolTip": "Debitis porro.",
+    "Id": 898,
+    "Name": "Wuckert Group",
+    "ToolTip": "Autem iure.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "veritatis",
-    "ColorBlock": 372,
-    "IconHint": "ad",
+    "Rank": 394,
+    "Type": "dicta",
+    "ColorBlock": 207,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2004-01-08T17:54:08.9761714+01:00",
+    "LastChanged": "2006-08-19T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Harber LLC",
-        "ToolTip": "Veniam dolore cumque.",
-        "Deleted": false,
-        "Rank": 480,
-        "Type": "aliquam",
-        "ColorBlock": 198,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2011-02-25T17:54:08.9761714+01:00",
+        "Id": 237,
+        "Name": "Kerluke Group",
+        "ToolTip": "In omnis eius.",
+        "Deleted": true,
+        "Rank": 977,
+        "Type": "consectetur",
+        "ColorBlock": 247,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2006-08-29T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "qui",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Russel Mosciski"
+        "FullName": "Opal Keebler"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Scotty Mueller"
+    "ExtraInfo": "animi",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Pietro Upton"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Kuhic, Hayes and Graham",
-    "ToolTip": "Est corporis eligendi.",
+    "Id": 518,
+    "Name": "White, Schneider and Ziemann",
+    "ToolTip": "Consectetur ea id nostrum consequatur non culpa.",
     "Deleted": false,
-    "Rank": 527,
-    "Type": "perspiciatis",
-    "ColorBlock": 229,
-    "IconHint": "voluptate",
+    "Rank": 486,
+    "Type": "et",
+    "ColorBlock": 151,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2023-11-19T17:54:08.9761714+01:00",
+    "LastChanged": "2017-10-21T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Botsford-Dickens",
-        "ToolTip": "Culpa sint hic ad dicta sit.",
-        "Deleted": false,
-        "Rank": 212,
-        "Type": "sit",
-        "ColorBlock": 601,
-        "IconHint": "qui",
+        "Id": 303,
+        "Name": "Daniel, Abshire and Gerlach",
+        "ToolTip": "Debitis ut officiis.",
+        "Deleted": true,
+        "Rank": 766,
+        "Type": "velit",
+        "ColorBlock": 632,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2024-11-06T17:54:08.9761714+01:00",
+        "LastChanged": "1999-11-09T03:45:29.1549343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Verla Anderson",
+        "FullName": "Annabell Frances Ullrich MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "id",
+    "ExtraInfo": "alias",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Halle Gerhold",
+    "FullName": "Mrs. Alfred Moore DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

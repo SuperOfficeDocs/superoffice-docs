@@ -40,6 +40,16 @@ generated: true
 
 * [POST Agents/AI/TranslateEntity](v1AIAgent_TranslateEntity.md)
 
+* [POST Agents/AI/Answer](v1AIAgent_Answer.md)
+
+* [POST Agents/AI/AnswerFeedback](v1AIAgent_AnswerFeedback.md)
+
+* [POST Agents/AI/AnswerAccepted](v1AIAgent_AnswerAccepted.md)
+
+* [POST Agents/AI/Search](v1AIAgent_Search.md)
+
+* [POST Agents/AI/StartRagIndexing](v1AIAgent_StartRagIndexing.md)
+
 * [POST Agents/AI/SummarizeTicket](v1AIAgent_SummarizeTicket.md)
 
 * [POST Agents/AI/GetSummarizeTicketPrompt](v1AIAgent_GetSummarizeTicketPrompt.md)

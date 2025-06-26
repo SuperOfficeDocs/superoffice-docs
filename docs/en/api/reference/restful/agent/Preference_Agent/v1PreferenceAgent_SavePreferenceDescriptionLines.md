@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 665,
-      "PrefDescId": 830,
-      "PrefValue": "sunt",
-      "PrefShowValue": "sint",
-      "Description": "Object-based actuating implementation",
-      "IsBuiltin": false
+      "PrefDescLineId": 732,
+      "PrefDescId": 213,
+      "PrefValue": "illum",
+      "PrefShowValue": "autem",
+      "Description": "Organic secondary software",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 665,
-      "PrefDescId": 830,
-      "PrefValue": "sunt",
-      "PrefShowValue": "sint",
-      "Description": "Object-based actuating implementation",
-      "IsBuiltin": false
+      "PrefDescLineId": 732,
+      "PrefDescId": 213,
+      "PrefValue": "illum",
+      "PrefShowValue": "autem",
+      "Description": "Organic secondary software",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 196,
-    "PrefDescId": 458,
-    "PrefValue": "voluptas",
-    "PrefShowValue": "qui",
-    "Description": "Intuitive analyzing knowledge base",
-    "IsBuiltin": false,
+    "PrefDescLineId": 378,
+    "PrefDescId": 536,
+    "PrefValue": "illo",
+    "PrefShowValue": "a",
+    "Description": "Right-sized responsive success",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldType": "System.Int32",
+        "FieldLength": 771
       }
     }
   }

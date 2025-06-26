@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hauck-Hackett",
+  "ProviderName": "Roberts-Mante",
   "Columns": [
-    "dolorem",
-    "ut"
+    "architecto",
+    "quas"
   ],
   "SortOrder": [
     {
-      "Name": "Shanahan Group",
+      "Name": "Weber-Littel",
       "Direction": "ASC"
     },
     {
-      "Name": "Shanahan Group",
+      "Name": "Weber-Littel",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "D'Amore Group",
-      "Operator": "unde",
+      "Name": "Keebler LLC",
+      "Operator": "porro",
       "Values": [
-        "et",
-        "blanditiis"
+        "autem",
+        "eum"
       ],
       "DisplayValues": [
-        "aut",
-        "vel"
+        "animi",
+        "accusamus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 256,
+      "InterParenthesis": 358,
       "InterOperator": "And",
-      "UniqueHash": 133
+      "UniqueHash": 969
     }
   ],
   "Entities": [
-    "consequatur",
-    "beatae"
+    "et",
+    "laboriosam"
   ],
-  "Page": 720,
-  "PageSize": 45,
-  "Context": "dolor"
+  "Page": 594,
+  "PageSize": 998,
+  "Context": "et"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bergnaum-Mills",
-    "PrimaryKey": 936,
+    "EntityName": "Buckridge, Bashirian and Berge",
+    "PrimaryKey": 740,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "libero",
-        "TooltipHint": "qui",
-        "LinkHint": "explicabo"
+        "DisplayValue": "repellat",
+        "TooltipHint": "aut",
+        "LinkHint": "quibusdam"
       }
     },
-    "LinkHint": "voluptate",
-    "StyleHint": "illo",
+    "LinkHint": "voluptatum",
+    "StyleHint": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldType": "System.String",
+        "FieldLength": 524
       }
     }
   }

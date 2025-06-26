@@ -75,25 +75,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 726,
-  "CrmRecordId": 556,
+  "ErpConnectionId": 240,
+  "CrmRecordId": 499,
   "CrmActorType": "Contact",
-  "ErpKey": "cumque",
+  "ErpKey": "animi",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "O'Connell, Okuneva and Bayer",
-      "CrmFieldKey": "qui",
-      "Value": "ea",
-      "DisplayValue": "est",
+      "DisplayName": "Hoppe, Osinski and Lind",
+      "CrmFieldKey": "quia",
+      "Value": "omnis",
+      "DisplayValue": "voluptate",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "O'Connell, Okuneva and Bayer",
-      "CrmFieldKey": "qui",
-      "Value": "ea",
-      "DisplayValue": "est",
+      "DisplayName": "Hoppe, Osinski and Lind",
+      "CrmFieldKey": "quia",
+      "Value": "omnis",
+      "DisplayValue": "voluptate",
       "SyncToCrm": false,
       "SyncToErp": false
     }

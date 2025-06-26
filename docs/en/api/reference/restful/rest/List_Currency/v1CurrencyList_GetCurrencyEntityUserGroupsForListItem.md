@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Bailey Group",
-    "ToolTip": "Aut at omnis nisi unde qui.",
+    "Id": 422,
+    "Name": "Jewess, Hackett and Padberg",
+    "ToolTip": "Tempora totam.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "et",
-    "ColorBlock": 715,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-12-27T17:54:08.8980498+01:00",
+    "Rank": 437,
+    "Type": "tempora",
+    "ColorBlock": 445,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "1998-11-17T03:45:29.014043+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Schuppe, Bergstrom and Schulist",
-        "ToolTip": "Possimus molestiae.",
+        "Id": 568,
+        "Name": "Wolff Group",
+        "ToolTip": "Eligendi qui aliquid qui provident sit molestiae.",
         "Deleted": false,
-        "Rank": 967,
-        "Type": "magni",
-        "ColorBlock": 188,
-        "IconHint": "aut",
+        "Rank": 613,
+        "Type": "aliquam",
+        "ColorBlock": 659,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2007-10-15T17:54:08.8980498+02:00",
+        "LastChanged": "2010-04-05T03:45:29.014043+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Crystel Bartoletti",
+        "FullName": "Mrs. Holden Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 822
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Fanny Gottlieb",
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Wellington Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldType": "System.Int32",
+        "FieldLength": 246
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Frami Group",
-    "Tooltip": "aut",
+    "Id": 424,
+    "Name": "Orn LLC",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "UdListDefinitionId": 238,
-    "Rank": 659,
+    "UdListDefinitionId": 732,
+    "Rank": 318,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldLength": 167
       }
     }
   }

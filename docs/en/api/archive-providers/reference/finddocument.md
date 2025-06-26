@@ -720,7 +720,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=associateId,contactId,person/position,person/rank,person/personAssociate/contactId
+GET /api/v1/archive/FindDocument?$select=person/personAssociate/credentialDisplayValue,contact/streetAddress/addressId,contact/streetAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 607,
-  "BlobSize": 36,
-  "Description": "Seamless foreground strategy",
-  "ExtraInfo": "in",
+  "BlobId": 719,
+  "BlobSize": 433,
+  "Description": "Customizable global website",
+  "ExtraInfo": "maxime",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "repellat",
-  "OriginalSize": 607,
-  "CreatedDate": "2016-04-22T17:54:08.0699594+02:00",
-  "UpdatedDate": "2018-08-17T17:54:08.0699594+02:00",
+  "IsZipped": true,
+  "MimeType": "nihil",
+  "OriginalSize": 283,
+  "CreatedDate": "1999-04-18T03:45:28.1703207+02:00",
+  "UpdatedDate": "2007-09-24T03:45:28.1703207+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "incidunt"
+  "ConceptualType": "et"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 944,
-  "BlobSize": 261,
-  "Description": "Focused leading edge solution",
-  "ExtraInfo": "non",
+  "BlobId": 619,
+  "BlobSize": 869,
+  "Description": "Synergized assymetric hardware",
+  "ExtraInfo": "veritatis",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "impedit",
-  "OriginalSize": 856,
-  "CreatedDate": "2007-08-10T17:54:08.0699594+02:00",
-  "UpdatedDate": "2000-04-28T17:54:08.0699594+02:00",
+  "MimeType": "est",
+  "OriginalSize": 210,
+  "CreatedDate": "2010-11-29T03:45:28.1703207+01:00",
+  "UpdatedDate": "2016-09-24T03:45:28.1703207+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "distinctio",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 225
     }
   }
 }

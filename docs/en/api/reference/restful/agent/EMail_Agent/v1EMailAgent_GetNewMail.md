@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    606,
-    436
+    952,
+    769
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 542,
-    "MessageId": "possimus",
-    "Subject": "tempora",
+    "ServerId": 67,
+    "MessageId": "magni",
+    "Subject": "voluptatibus",
     "From": null,
     "To": [
       {
-        "ContactId": 585,
-        "ContactName": "Goldner-Hyatt",
-        "PersonId": 85,
-        "PersonName": "Deckow-Kuhn",
-        "AssociateId": 153,
-        "Address": "tenetur",
-        "EmailId": 838,
+        "ContactId": 250,
+        "ContactName": "Braun Inc and Sons",
+        "PersonId": 110,
+        "PersonName": "Windler Group",
+        "AssociateId": 179,
+        "Address": "adipisci",
+        "EmailId": 309,
         "DuplicatePersonIds": [
-          820,
-          441
+          211,
+          14
         ],
-        "Name": "Kassulke, Reichel and Murray",
+        "Name": "Torp Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldType": "System.String",
+            "FieldLength": 123
           }
         }
       }
     ],
-    "Sent": "2001-01-30T17:54:03.054585+01:00",
+    "Sent": "2001-01-29T03:45:23.373582+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 463,
+    "Size": 202,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 188
       }
     }
   }

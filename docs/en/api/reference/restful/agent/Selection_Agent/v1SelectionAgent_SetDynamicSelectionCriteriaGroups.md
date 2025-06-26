@@ -81,21 +81,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 221,
+  "SelectionId": 54,
   "Criteria": [
     {
-      "Name": "Keebler-Kreiger",
-      "Description": "Mandatory neutral approach",
-      "Rank": 875,
+      "Name": "Parisian-Durgan",
+      "Description": "Intuitive 6th generation hardware",
+      "Rank": 345,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Keebler-Kreiger",
-      "Description": "Mandatory neutral approach",
-      "Rank": 875,
+      "Name": "Parisian-Durgan",
+      "Description": "Intuitive 6th generation hardware",
+      "Rank": 345,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sauer, Terry and Leannon",
-    "Description": "User-friendly content-based approach",
-    "Rank": 265,
+    "Name": "Muller LLC",
+    "Description": "Ergonomic 3rd generation synergy",
+    "Rank": 750,
     "Restrictions": [
       {
-        "Name": "Donnelly, Dietrich and Hoeger",
-        "Operator": "officia",
+        "Name": "Stark, Mayert and Champlin",
+        "Operator": "veritatis",
         "Values": [
-          "quo",
-          "enim"
+          "dolor",
+          "ut"
         ],
         "DisplayValues": [
-          "quis",
-          "sed"
+          "qui",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 520,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 852
+        "UniqueHash": 501
       }
     ]
   },
   {
-    "Name": "Sauer, Terry and Leannon",
-    "Description": "User-friendly content-based approach",
-    "Rank": 265,
+    "Name": "Muller LLC",
+    "Description": "Ergonomic 3rd generation synergy",
+    "Rank": 750,
     "Restrictions": [
       {
-        "Name": "Donnelly, Dietrich and Hoeger",
-        "Operator": "officia",
+        "Name": "Stark, Mayert and Champlin",
+        "Operator": "veritatis",
         "Values": [
-          "quo",
-          "enim"
+          "dolor",
+          "ut"
         ],
         "DisplayValues": [
-          "quis",
-          "sed"
+          "qui",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 520,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 852
+        "UniqueHash": 501
       }
     ]
   }

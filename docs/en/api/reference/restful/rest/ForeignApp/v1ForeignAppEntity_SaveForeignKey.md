@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "est",
-  "RecordId": 109,
-  "CreatedDate": "2009-10-11T17:54:08.2574567+02:00",
-  "UpdatedDate": "2022-11-11T17:54:08.2574567+01:00",
-  "UpdatedBy": "distinctio",
-  "CreatedBy": "eos",
-  "TableName": "Parker, Ankunding and Reichert"
+  "Key": "sunt",
+  "Value": "hic",
+  "RecordId": 178,
+  "CreatedDate": "2008-04-08T03:45:28.3578119+02:00",
+  "UpdatedDate": "2007-04-25T03:45:28.3578119+02:00",
+  "UpdatedBy": "assumenda",
+  "CreatedBy": "atque",
+  "TableName": "Watsica, Gleichner and Lueilwitz"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "commodi",
-  "Value": "facere",
-  "RecordId": 170,
-  "CreatedDate": "2016-04-30T17:54:08.2574567+02:00",
-  "UpdatedDate": "2000-01-21T17:54:08.2574567+01:00",
-  "UpdatedBy": "facere",
-  "CreatedBy": "alias",
-  "TableName": "Wisozk Group",
+  "Key": "perspiciatis",
+  "Value": "omnis",
+  "RecordId": 875,
+  "CreatedDate": "2005-02-24T03:45:28.3578119+01:00",
+  "UpdatedDate": "2018-09-18T03:45:28.3578119+02:00",
+  "UpdatedBy": "quam",
+  "CreatedBy": "est",
+  "TableName": "Jerde-Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   }
 }

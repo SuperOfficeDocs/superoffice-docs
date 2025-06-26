@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 458,
-  "Name": "Hand, Hand and Rice",
-  "Rank": 278,
+  "TicketTypeId": 648,
+  "Name": "Auer LLC",
+  "Rank": 185,
   "Tooltip": "facere",
-  "Icon": "aut",
-  "DefaultTicketStatus": 677,
+  "Icon": "enim",
+  "DefaultTicketStatus": 220,
   "TicketStatuses": [
-    659,
-    160
+    406,
+    253
   ],
-  "DefaultTicketPriority": 219,
+  "DefaultTicketPriority": 679,
   "TicketPriorities": [
-    75,
-    871
+    168,
+    938
   ],
-  "ReplyTemplate": 558,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 298,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    640,
-    254
+    263,
+    436
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Towne-Connelly",
-    "ToolTip": "Et itaque.",
+    "Id": 200,
+    "Name": "Lemke-Jacobi",
+    "ToolTip": "Atque explicabo corrupti.",
     "Deleted": false,
-    "Rank": 933,
-    "Type": "fugiat",
-    "ColorBlock": 830,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2020-01-11T17:54:09.0858036+01:00",
+    "Rank": 411,
+    "Type": "qui",
+    "ColorBlock": 124,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2017-01-19T03:45:29.1859346+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Robel LLC",
-        "ToolTip": "Explicabo corrupti possimus eum consequatur.",
-        "Deleted": true,
-        "Rank": 688,
-        "Type": "et",
-        "ColorBlock": 17,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2022-09-30T17:54:09.0858036+02:00",
+        "Id": 81,
+        "Name": "Morissette-Stracke",
+        "ToolTip": "Dolores veniam ut quaerat non quaerat quod.",
+        "Deleted": false,
+        "Rank": 520,
+        "Type": "possimus",
+        "ColorBlock": 544,
+        "IconHint": "voluptates",
+        "Selected": true,
+        "LastChanged": "2007-10-30T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Theron Kessler",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Owen McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Arnoldo Beatty",
+    "ExtraInfo": "similique",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Sincere Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 629
       }
     }
   }

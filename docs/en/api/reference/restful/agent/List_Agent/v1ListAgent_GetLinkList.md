@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jacobs Group",
-    "Id": 735,
-    "Description": "User-friendly 3rd generation help-desk",
-    "ExtraInfo": "dicta",
-    "LinkId": 991,
+    "EntityName": "Nitzsche Group",
+    "Id": 383,
+    "Description": "Mandatory object-oriented toolset",
+    "ExtraInfo": "voluptatem",
+    "LinkId": 49,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldType": "System.Int32",
+        "FieldLength": 107
       }
     }
   }

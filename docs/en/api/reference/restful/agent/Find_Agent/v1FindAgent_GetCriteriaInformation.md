@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Hessel, Murazik and Robel",
-  "StorageKey": "praesentium",
+  "StorageType": "vel",
+  "ProviderName": "Feeney-Pfeffer",
+  "StorageKey": "corporis",
   "StaticColumns": [
-    "quasi",
-    "quasi"
+    "animi",
+    "non"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Mills, Braun and Abshire",
-      "Operator": "sit",
+      "Name": "Gusikowski, Greenholt and Schiller",
+      "Operator": "rem",
       "Values": [
-        "dolorem",
-        "expedita"
+        "nihil",
+        "hic"
       ],
       "DisplayValues": [
-        "sed",
-        "voluptas"
+        "est",
+        "explicabo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 170,
+      "InterParenthesis": 976,
       "InterOperator": "And",
-      "UniqueHash": 157
+      "UniqueHash": 526
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Berge, Senger and Hand",
-      "DisplayTooltip": "odio",
-      "DisplayType": "aut",
+      "DisplayName": "Yost, Smitham and Cremin",
+      "DisplayTooltip": "natus",
+      "DisplayType": "non",
       "CanOrderBy": false,
-      "Name": "Johns Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "est",
-      "RestrictionListName": "Gutkowski-Buckridge",
-      "IsVisible": true,
-      "ExtraInfo": "nam",
-      "Width": "rem",
-      "IconHint": "dignissimos",
-      "HeadingIconHint": "sint"
+      "Name": "Hilpert, Skiles and Maggio",
+      "CanRestrictBy": false,
+      "RestrictionType": "porro",
+      "RestrictionListName": "Olson, Friesen and Schoen",
+      "IsVisible": false,
+      "ExtraInfo": "nobis",
+      "Width": "facilis",
+      "IconHint": "quibusdam",
+      "HeadingIconHint": "itaque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Baumbach Inc and Sons",
-      "PrimaryKey": 751,
+      "EntityName": "Windler, Roob and Gerhold",
+      "PrimaryKey": 241,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "repudiandae",
-          "LinkHint": "dolorum"
+          "DisplayValue": "exercitationem",
+          "TooltipHint": "atque",
+          "LinkHint": "assumenda"
         }
       },
-      "LinkHint": "reprehenderit",
-      "StyleHint": "molestiae",
+      "LinkHint": "tempore",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Barrows-Jacobson",
-      "Description": "Fully-configurable impactful service-desk",
-      "Rank": 11,
+      "Name": "Heller-Vandervort",
+      "Description": "Open-source 24/7 capacity",
+      "Rank": 553,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Barrows-Jacobson",
-      "Description": "Fully-configurable impactful service-desk",
-      "Rank": 11,
+      "Name": "Heller-Vandervort",
+      "Description": "Open-source 24/7 capacity",
+      "Rank": 553,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 643
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=379
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=948
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 397,
-  "TopicId": 212,
+  "ChatSessionId": 440,
+  "TopicId": 909,
   "User": null,
   "Person": null,
-  "CustomerAlias": "unde",
-  "CustomerHost": "dolores",
-  "CustomerName": "Wisozk, Paucek and Schultz",
-  "CustomerEmail": "clara_monahan@bauchreilly.name",
-  "CustomerPhone": "059.894.7248",
+  "CustomerAlias": "ducimus",
+  "CustomerHost": "est",
+  "CustomerName": "Nitzsche Inc and Sons",
+  "CustomerEmail": "hans@blickdickinson.biz",
+  "CustomerPhone": "174-193-1597 x64566",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rempel Group",
+  "CustomerCompanyName": "Lubowitz-Hand",
   "Status": "Closed",
-  "FirstMessage": "itaque",
-  "LastMessage": "magni",
-  "WhenRequested": "2003-09-04T17:54:02.7108516+02:00",
-  "WhenStarted": "2021-05-17T17:54:02.7108516+02:00",
-  "WhenEnded": "2013-08-04T17:54:02.7108516+02:00",
-  "WhenIdle": "2013-06-27T17:54:02.7108516+02:00",
-  "WhenFetched": "2001-04-01T17:54:02.7108516+02:00",
-  "SessionKey": "amet",
-  "InitialQueuePos": 627,
-  "AlertLevel": 207,
-  "Rank": 846,
+  "FirstMessage": "distinctio",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2023-03-08T03:45:23.0142166+01:00",
+  "WhenStarted": "2019-03-17T03:45:23.0142166+01:00",
+  "WhenEnded": "2006-05-14T03:45:23.0142166+02:00",
+  "WhenIdle": "2017-01-20T03:45:23.0142166+01:00",
+  "WhenFetched": "2021-08-06T03:45:23.0142166+02:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 653,
+  "AlertLevel": 286,
+  "Rank": 100,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 912,
+  "ChatbotIsActive": true,
+  "Rating": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

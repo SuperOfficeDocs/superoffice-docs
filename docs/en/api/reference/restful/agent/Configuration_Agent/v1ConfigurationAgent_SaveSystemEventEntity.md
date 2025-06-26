@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 372,
+  "SystemEventId": 454,
   "Scope": "Database",
-  "Eta": "2008-10-24T17:54:02.8202276+02:00",
-  "Eventkey": "rerum",
-  "Eventmess": "eius",
-  "ExtraInfo": 399,
-  "Owner": 926,
-  "UpdatedCount": 351,
-  "Registered": "2012-07-12T17:54:02.8202276+02:00",
+  "Eta": "2020-05-21T03:45:23.0767156+02:00",
+  "Eventkey": "id",
+  "Eventmess": "suscipit",
+  "ExtraInfo": 732,
+  "Owner": 988,
+  "UpdatedCount": 580,
+  "Registered": "2002-08-28T03:45:23.0767156+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 701,
+  "SystemEventId": 202,
   "Scope": "Database",
-  "Eta": "2001-11-28T17:54:02.8202276+01:00",
-  "Eventkey": "quisquam",
-  "Eventmess": "earum",
-  "ExtraInfo": 198,
-  "Owner": 694,
-  "UpdatedCount": 684,
-  "Registered": "2015-01-07T17:54:02.8202276+01:00",
+  "Eta": "2005-04-01T03:45:23.0767156+02:00",
+  "Eventkey": "minima",
+  "Eventmess": "voluptate",
+  "ExtraInfo": 705,
+  "Owner": 883,
+  "UpdatedCount": 736,
+  "Registered": "2025-04-02T03:45:23.0767156+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldLength": 719
     }
   }
 }

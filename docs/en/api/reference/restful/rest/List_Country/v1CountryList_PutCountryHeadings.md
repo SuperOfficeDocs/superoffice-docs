@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 576,
-    "Name": "Pollich-Jacobs",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "Rank": 942,
-    "UdListDefinitionId": 314
+    "HeadingId": 178,
+    "Name": "Krajcik Group",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 611,
+    "UdListDefinitionId": 551
   },
   {
-    "HeadingId": 576,
-    "Name": "Pollich-Jacobs",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "Rank": 942,
-    "UdListDefinitionId": 314
+    "HeadingId": 178,
+    "Name": "Krajcik Group",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 611,
+    "UdListDefinitionId": 551
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 965,
-    "Name": "Spinka-Hammes",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 345,
-    "UdListDefinitionId": 257,
+    "HeadingId": 65,
+    "Name": "Strosin Group",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 417,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

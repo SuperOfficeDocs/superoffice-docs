@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 791,
-    "Name": "Kshlerin-Hackett",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 284,
+    "WebPanelId": 891,
+    "Name": "Howell LLC",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 394,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Quitzon Inc and Sons",
+    "ShowInStatusBar": false,
+    "WindowName": "Nikolaus, Blanda and Funk",
     "Url": "http://www.example.com/",
-    "ProgId": "sit",
-    "Icon": 106,
+    "ProgId": "voluptatem",
+    "Icon": 1001,
     "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 910
       }
     }
   }

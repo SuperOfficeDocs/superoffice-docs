@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fisher Group",
-    "Operator": "aut",
+    "Name": "Bechtelar Group",
+    "Operator": "sit",
     "Values": [
-      "corporis",
-      "voluptates"
+      "aut",
+      "et"
     ],
     "DisplayValues": [
-      "consequuntur",
-      "iusto"
+      "veritatis",
+      "id"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Wintheiser, Gusikowski and Stroman",
-        "Operator": "itaque",
+        "Name": "Windler Group",
+        "Operator": "ipsum",
         "Values": [
-          "cum",
-          "est"
+          "dolores",
+          "et"
         ],
         "DisplayValues": [
-          "eveniet",
-          "enim"
+          "alias",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 652,
+        "InterParenthesis": 391,
         "InterOperator": "And",
-        "UniqueHash": 422
+        "UniqueHash": 849
       }
     ],
-    "InterParenthesis": 726,
+    "InterParenthesis": 676,
     "InterOperator": "And",
-    "UniqueHash": 927
+    "UniqueHash": 555
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bode, Veum and Gottlieb",
-    "Operator": "voluptatem",
+    "Name": "Sawayn-Franecki",
+    "Operator": "inventore",
     "Values": [
-      "ut",
-      "est"
+      "voluptatibus",
+      "natus"
     ],
     "DisplayValues": [
-      "eos",
-      "hic"
+      "cumque",
+      "voluptas"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Roob Inc and Sons",
-        "Operator": "nemo",
+        "Name": "Leannon, Beier and Padberg",
+        "Operator": "sunt",
         "Values": [
-          "sit",
-          "totam"
+          "exercitationem",
+          "et"
         ],
         "DisplayValues": [
-          "doloribus",
-          "quis"
+          "nihil",
+          "nostrum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 228,
+        "InterParenthesis": 97,
         "InterOperator": "And",
-        "UniqueHash": 317
+        "UniqueHash": 585
       }
     ],
-    "InterParenthesis": 190,
+    "InterParenthesis": 412,
     "InterOperator": "And",
-    "UniqueHash": 698
+    "UniqueHash": 13
   }
 ]
 ```

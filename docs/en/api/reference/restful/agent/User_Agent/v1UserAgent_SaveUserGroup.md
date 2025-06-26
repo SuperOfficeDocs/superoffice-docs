@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "modi",
-  "Tooltip": "dolorum",
-  "Id": 173,
-  "Rank": 842,
-  "Deleted": true,
+  "Value": "fugiat",
+  "Tooltip": "voluptatem",
+  "Id": 818,
+  "Rank": 903,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 938
     }
   }
 }

@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 186,
-  "PersonName": "Marvin, O'Hara and Bechtelar",
+  "ContactId": 488,
+  "PersonName": "Strosin Inc and Sons",
   "PhoneNumbers": [
-    "768242",
-    "935468"
+    "652743",
+    "944999"
   ],
   "Emails": [
-    "kristina@schoenstokes.ca",
-    "adelia@cremin.biz"
+    "gregoria.gulgowski@lockman.name",
+    "eveline.welch@roobchristiansen.uk"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

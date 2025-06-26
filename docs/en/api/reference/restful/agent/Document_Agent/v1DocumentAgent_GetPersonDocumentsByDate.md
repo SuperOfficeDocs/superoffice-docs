@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 264,
+  "PersonId": 171,
   "IncludeProjectDocuments": false,
-  "StartTime": "2002-12-24T17:54:02.9608392+01:00",
-  "EndTime": "2024-10-30T17:54:02.9608392+01:00",
-  "Count": 289
+  "StartTime": "2012-04-06T03:45:23.2954586+02:00",
+  "EndTime": "2012-03-12T03:45:23.2954586+01:00",
+  "Count": 359
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 276,
-    "Attention": "occaecati",
-    "Header": "corrupti",
-    "Name": "Prosacco-Hoeger",
-    "OurRef": "cumque",
-    "YourRef": "quia",
-    "Description": "Right-sized cohesive Graphical User Interface",
-    "DocumentTemplate": "sapiente",
-    "IsPublished": true,
-    "PersonId": 230,
-    "PersonFullName": "Celestino Hilll",
-    "AssociateFullName": "Ms. Jeanne Willms I",
-    "ContactId": 550,
-    "ContactName": "Fay Inc and Sons",
-    "ProjectId": 711,
-    "ProjectName": "Barrows-Balistreri",
-    "AssociateId": 337,
-    "Snum": 53,
-    "SaleId": 178,
-    "SaleName": "Hansen, Herman and Collier",
+    "DocumentId": 683,
+    "Attention": "inventore",
+    "Header": "fuga",
+    "Name": "Russel, Hintz and Bayer",
+    "OurRef": "esse",
+    "YourRef": "vitae",
+    "Description": "Proactive national toolset",
+    "DocumentTemplate": "expedita",
+    "IsPublished": false,
+    "PersonId": 555,
+    "PersonFullName": "Domenico Durgan",
+    "AssociateFullName": "Ariane Jenkins",
+    "ContactId": 749,
+    "ContactName": "Powlowski-Dare",
+    "ProjectId": 357,
+    "ProjectName": "Pacocha-Johnston",
+    "AssociateId": 849,
+    "Snum": 618,
+    "SaleId": 866,
+    "SaleName": "Herzog Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldType": "System.String",
+        "FieldLength": 949
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 87,
-    "Name": "Hoppe-O'Conner",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 542,
-    "UdListDefinitionId": 420,
+    "HeadingId": 911,
+    "Name": "Johns-Willms",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 26,
+    "UdListDefinitionId": 800,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 803
       }
     }
   }

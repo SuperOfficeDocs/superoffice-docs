@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "McKenzie, Lockman and Parker"
+  "ApplicationName": "Schulist-Hansen"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 813,
-  "Name": "Raynor-Torphy",
-  "CreatedDate": "2004-08-03T17:54:03.1795788+02:00",
-  "UpdatedDate": "1999-08-04T17:54:03.1795788+02:00",
-  "AssociateFullName": "Elvera Walsh",
-  "CreatedBy": "ratione",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "eligendi",
-  "ForeignAppId": 295,
+  "ForeignDeviceId": 511,
+  "Name": "Schimmel LLC",
+  "CreatedDate": "2023-08-24T03:45:23.498579+02:00",
+  "UpdatedDate": "2000-12-07T03:45:23.498579+01:00",
+  "AssociateFullName": "Mr. Octavia Juliana Schamberger I",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "sunt",
+  "DeviceIdentifier": "pariatur",
+  "ForeignAppId": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 196
     }
   }
 }

@@ -1364,6 +1364,21 @@ title: Services88.ContactAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="EnrichContactEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ContactEntity" nillable="true" type="tns:ContactEntity" />
+            <xs:element minOccurs="0" name="EnrichId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="EnrichContactEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ContactEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetContactList">
         <xs:complexType>
           <xs:sequence>
@@ -1431,6 +1446,20 @@ title: Services88.ContactAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPreviewContactResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewContact" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewEnrichContact">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EnrichId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewEnrichContactResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewContact" />
@@ -2004,6 +2033,23 @@ title: Services88.ContactAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="EnrichContactEntityRequest">
+    <wsdl:part name="parameters" element="tns:EnrichContactEntity" />
+  </wsdl:message>
+  <wsdl:message name="EnrichContactEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="EnrichContactEntityResponse">
+    <wsdl:part name="parameters" element="tns:EnrichContactEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnrichContactEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetContactListRequest">
     <wsdl:part name="parameters" element="tns:GetContactList" />
   </wsdl:message>
@@ -2067,6 +2113,23 @@ title: Services88.ContactAgent WSDL
     <wsdl:part name="parameters" element="tns:GetPreviewContactResponse" />
   </wsdl:message>
   <wsdl:message name="GetPreviewContactResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewEnrichContactRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewEnrichContact" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewEnrichContactRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewEnrichContactResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewEnrichContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewEnrichContactResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2193,6 +2256,10 @@ title: Services88.ContactAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ValidateContactEntity" name="ValidateContactEntityRequest" message="tns:ValidateContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ValidateContactEntityResponse" name="ValidateContactEntityResponse" message="tns:ValidateContactEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="EnrichContactEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/EnrichContactEntity" name="EnrichContactEntityRequest" message="tns:EnrichContactEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/EnrichContactEntityResponse" name="EnrichContactEntityResponse" message="tns:EnrichContactEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetContactList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactList" name="GetContactListRequest" message="tns:GetContactListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactListResponse" name="GetContactListResponse" message="tns:GetContactListResponse" />
@@ -2208,6 +2275,10 @@ title: Services88.ContactAgent WSDL
     <wsdl:operation name="GetPreviewContact">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewContact" name="GetPreviewContactRequest" message="tns:GetPreviewContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewContactResponse" name="GetPreviewContactResponse" message="tns:GetPreviewContactResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewEnrichContact">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewEnrichContact" name="GetPreviewEnrichContactRequest" message="tns:GetPreviewEnrichContactRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewEnrichContactResponse" name="GetPreviewEnrichContactResponse" message="tns:GetPreviewEnrichContactResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Contact" type="tns:Contact">
@@ -2692,6 +2763,22 @@ title: Services88.ContactAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="EnrichContactEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/EnrichContactEntity" style="document" />
+      <wsdl:input name="EnrichContactEntityRequest">
+        <soap:header message="tns:EnrichContactEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:EnrichContactEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:EnrichContactEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="EnrichContactEntityResponse">
+        <soap:header message="tns:EnrichContactEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:EnrichContactEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:EnrichContactEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:EnrichContactEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetContactList">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactList" style="document" />
       <wsdl:input name="GetContactListRequest">
@@ -2753,6 +2840,22 @@ title: Services88.ContactAgent WSDL
         <soap:header message="tns:GetPreviewContactResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPreviewContactResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPreviewContactResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewEnrichContact">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewEnrichContact" style="document" />
+      <wsdl:input name="GetPreviewEnrichContactRequest">
+        <soap:header message="tns:GetPreviewEnrichContactRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewEnrichContactRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewEnrichContactRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewEnrichContactResponse">
+        <soap:header message="tns:GetPreviewEnrichContactResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewEnrichContactResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewEnrichContactResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewEnrichContactResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

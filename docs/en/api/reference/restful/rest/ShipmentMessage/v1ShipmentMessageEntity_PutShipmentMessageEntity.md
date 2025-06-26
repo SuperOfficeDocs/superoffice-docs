@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 941,
-  "PlainMessage": "dolore",
-  "HtmlMessage": "laudantium",
-  "SmsMessage": "sint",
-  "Description": "Configurable fault-tolerant solution",
-  "Subject": "minima",
-  "FolderId": 683,
-  "HeaderField": "hic",
-  "Design": "nesciunt",
+  "ShipmentMessageId": 833,
+  "PlainMessage": "veritatis",
+  "HtmlMessage": "ut",
+  "SmsMessage": "eos",
+  "Description": "Triple-buffered incremental challenge",
+  "Subject": "assumenda",
+  "FolderId": 946,
+  "HeaderField": "enim",
+  "Design": "aperiam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Proactive 3rd generation instruction set",
-  "AccessKey": "dolorem",
-  "DocumentMessage": 829,
-  "Registered": "2023-02-14T17:54:08.5386928+01:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2012-01-23T17:54:08.5386928+01:00",
-  "UpdatedAssociateId": 428,
-  "UpdatedCount": 871
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Fully-configurable interactive info-mediaries",
+  "AccessKey": "eligendi",
+  "DocumentMessage": 604,
+  "Registered": "2019-10-08T03:45:28.6546813+02:00",
+  "RegisteredAssociateId": 849,
+  "Updated": "2011-12-29T03:45:28.6546813+01:00",
+  "UpdatedAssociateId": 447,
+  "UpdatedCount": 709
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 215,
-  "PlainMessage": "dignissimos",
-  "HtmlMessage": "sed",
-  "SmsMessage": "dignissimos",
-  "Description": "Business-focused system-worthy throughput",
-  "Subject": "sit",
-  "FolderId": 240,
-  "HeaderField": "ea",
-  "Design": "consectetur",
+  "ShipmentMessageId": 982,
+  "PlainMessage": "doloribus",
+  "HtmlMessage": "consequatur",
+  "SmsMessage": "deleniti",
+  "Description": "Cross-group foreground extranet",
+  "Subject": "beatae",
+  "FolderId": 202,
+  "HeaderField": "qui",
+  "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Future-proofed dynamic encryption",
-  "AccessKey": "qui",
-  "DocumentMessage": 754,
-  "Registered": "2019-11-30T17:54:08.5386928+01:00",
-  "RegisteredAssociateId": 551,
-  "Updated": "2021-04-15T17:54:08.5386928+02:00",
-  "UpdatedAssociateId": 860,
-  "UpdatedCount": 722,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Innovative high-level open system",
+  "AccessKey": "aut",
+  "DocumentMessage": 911,
+  "Registered": "2005-07-08T03:45:28.6546813+02:00",
+  "RegisteredAssociateId": 48,
+  "Updated": "2008-07-02T03:45:28.6546813+02:00",
+  "UpdatedAssociateId": 426,
+  "UpdatedCount": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 233
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

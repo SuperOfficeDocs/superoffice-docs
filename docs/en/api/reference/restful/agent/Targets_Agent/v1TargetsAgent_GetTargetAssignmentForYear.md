@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 394,
+  "TargetYear": 318,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 34
+  "Id": 957
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 211,
+  "TargetAssignmentInfoId": 276,
   "Values": [
-    692,
-    919
+    599,
+    934
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 974,
-  "DimensionListItemDisplayName": "Trantow, Rice and Von",
+  "DimensionListItem": 424,
+  "DimensionListItemDisplayName": "Bogisich-Dooley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldLength": 323
     }
   }
 }

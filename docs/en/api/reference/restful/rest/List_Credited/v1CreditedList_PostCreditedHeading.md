@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Lowe, Lueilwitz and Renner",
-  "Tooltip": "accusamus",
+  "HeadingId": 995,
+  "Name": "West, Stracke and Roob",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 5,
-  "UdListDefinitionId": 437
+  "Rank": 607,
+  "UdListDefinitionId": 960
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 411,
-  "Name": "Stanton LLC",
-  "Tooltip": "quis",
+  "HeadingId": 12,
+  "Name": "O'Conner-Erdman",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 687,
-  "UdListDefinitionId": 708,
+  "Rank": 993,
+  "UdListDefinitionId": 988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 197
     }
   }
 }

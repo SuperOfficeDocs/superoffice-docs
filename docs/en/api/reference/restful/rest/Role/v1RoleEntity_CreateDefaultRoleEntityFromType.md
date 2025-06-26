@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 893,
-  "Name": "Mueller-Lowe",
-  "Tooltip": "deserunt",
+  "RoleId": 689,
+  "Name": "Schmidt-Parisian",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 949,
-  "Rank": 842,
-  "Created": "2014-04-05T17:54:08.4293225+02:00",
-  "UseCategories": 773,
+  "Deleted": 864,
+  "Rank": 893,
+  "Created": "2024-12-07T03:45:28.5453063+01:00",
+  "UseCategories": 218,
   "CreatedBy": null,
-  "Updated": "2022-05-23T17:54:08.4293225+02:00",
+  "Updated": "2011-05-16T03:45:28.5453063+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

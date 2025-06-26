@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "molestias",
+  "FieldLabel": "omnis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 613,
-  "ColumnId": 686,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 727,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 399,
-  "FieldTop": 975,
+  "UDefFieldId": 874,
+  "ColumnId": 220,
+  "FieldDefault": "eius",
+  "FieldHeight": 310,
+  "FieldLabel": "officia",
+  "FieldLeft": 279,
+  "FieldTop": 262,
   "FieldType": "Checkbox",
-  "FieldWidth": 554,
-  "FormatMask": "quaerat",
+  "FieldWidth": 977,
+  "FormatMask": "earum",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 118,
-  "LabelLeft": 165,
-  "LabelTop": 450,
-  "LabelWidth": 958,
-  "LastVersionId": 464,
-  "ListTableId": 982,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 733,
+  "LabelLeft": 65,
+  "LabelTop": 146,
+  "LabelWidth": 253,
+  "LastVersionId": 558,
+  "ListTableId": 854,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 214,
-  "ProgId": "qui",
-  "IsReadOnly": true,
-  "ShortLabel": "ducimus",
-  "TabOrder": 749,
-  "TextLength": 315,
-  "Tooltip": "velit",
-  "UdefIdentity": 267,
-  "UDListDefinitionId": 530,
+  "Page1LineNo": 966,
+  "ProgId": "beatae",
+  "IsReadOnly": false,
+  "ShortLabel": "aut",
+  "TabOrder": 138,
+  "TextLength": 389,
+  "Tooltip": "ut",
+  "UdefIdentity": 415,
+  "UDListDefinitionId": 77,
   "Justification": "Center",
-  "Version": 823,
-  "TemplateVariableName": "Zulauf, Rau and Jacobi",
+  "Version": 705,
+  "TemplateVariableName": "Ratke-Gleason",
   "HasBeenPublished": false,
-  "MdoListName": "Prosacco Group",
+  "MdoListName": "Kunze, Schmeler and Fadel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldType": "System.Int32",
+      "FieldLength": 856
     }
   }
 }

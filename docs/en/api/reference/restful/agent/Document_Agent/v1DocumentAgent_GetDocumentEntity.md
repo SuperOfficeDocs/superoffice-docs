@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=697
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=480
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 32,
+  "DocumentId": 514,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "velit",
-  "Header": "repellendus",
-  "Name": "Gleichner-Kovacek",
-  "OurRef": "ut",
-  "YourRef": "deleniti",
-  "CreatedDate": "2015-12-21T17:54:02.9920879+01:00",
-  "UpdatedDate": "2001-09-02T17:54:02.9920879+02:00",
-  "Description": "Visionary fault-tolerant help-desk",
+  "Attention": "repellendus",
+  "Header": "consequatur",
+  "Name": "Satterfield, Raynor and Fadel",
+  "OurRef": "consequatur",
+  "YourRef": "aut",
+  "CreatedDate": "2014-01-09T03:45:23.3110832+01:00",
+  "UpdatedDate": "2000-05-03T03:45:23.3110832+02:00",
+  "Description": "Operative explicit methodology",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-08-08T17:54:02.9920879+02:00",
-  "ExternalRef": "et",
+  "Date": "2003-03-20T03:45:23.3110832+01:00",
+  "ExternalRef": "rerum",
   "Completed": "Completed",
-  "ActiveLinks": 274,
+  "ActiveLinks": 177,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mosciski Group",
-      "Id": 151,
-      "Description": "Balanced foreground ability",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 303,
+      "EntityName": "Paucek, Cremin and Grady",
+      "Id": 252,
+      "Description": "Organized disintermediate toolset",
+      "ExtraInfo": "at",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 49
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 771,
-  "Snum": 442,
+  "SuggestedDocumentId": 163,
+  "Snum": 62,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
+    "SuperOffice:1": "2041671485",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
+    "CustomFields1": "voluptate",
     "CustomFields2": "et"
   },
-  "PublishEventDate": "2017-08-12T17:54:02.9920879+02:00",
-  "PublishTo": "2011-06-30T17:54:02.9920879+02:00",
-  "PublishFrom": "2004-08-28T17:54:02.9920879+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-11-11T03:45:23.3110832+01:00",
+  "PublishTo": "2008-05-26T03:45:23.3110832+02:00",
+  "PublishFrom": "2002-10-25T03:45:23.3110832+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 697,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 488
         }
       }
     },
     {
-      "VisibleId": 697,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 488
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 542
     }
   }
 }

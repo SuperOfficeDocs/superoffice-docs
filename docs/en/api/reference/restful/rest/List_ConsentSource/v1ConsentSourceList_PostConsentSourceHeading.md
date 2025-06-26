@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 265,
-  "Name": "Dicki-Murazik",
-  "Tooltip": "mollitia",
+  "HeadingId": 920,
+  "Name": "Smitham Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 702,
-  "UdListDefinitionId": 854
+  "Rank": 870,
+  "UdListDefinitionId": 303
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 888,
-  "Name": "Nitzsche Group",
-  "Tooltip": "voluptas",
+  "HeadingId": 988,
+  "Name": "Bayer-Doyle",
+  "Tooltip": "quo",
   "Deleted": true,
-  "Rank": 689,
-  "UdListDefinitionId": 188,
+  "Rank": 381,
+  "UdListDefinitionId": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 46,
-  "AppointmentId": 550,
-  "ProjectId": 742,
-  "SaleId": 979,
+  "DocumentId": 692,
+  "AppointmentId": 862,
+  "ProjectId": 531,
+  "SaleId": 297,
   "Archived": true,
-  "ArchivedAt": "2003-11-21T17:54:03.0858331+01:00",
-  "ArchivedBy": 563,
-  "ArchivedDisplayName": "Okuneva, Murphy and Klocko",
+  "ArchivedAt": "2022-10-25T03:45:23.4048314+02:00",
+  "ArchivedBy": 333,
+  "ArchivedDisplayName": "Cummerata-O'Keefe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 809
     }
   }
 }

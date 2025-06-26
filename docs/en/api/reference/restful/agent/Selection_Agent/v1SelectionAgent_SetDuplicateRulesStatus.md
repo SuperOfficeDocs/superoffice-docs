@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Hessel, Wintheiser and Treutel",
-      "DisplayName": "Wiza-Kassulke",
-      "DisplayTooltip": "non",
-      "IsActive": true
+      "Name": "Adams Inc and Sons",
+      "DisplayName": "Sanford Inc and Sons",
+      "DisplayTooltip": "sequi",
+      "IsActive": false
     },
     {
-      "Name": "Hessel, Wintheiser and Treutel",
-      "DisplayName": "Wiza-Kassulke",
-      "DisplayTooltip": "non",
-      "IsActive": true
+      "Name": "Adams Inc and Sons",
+      "DisplayName": "Sanford Inc and Sons",
+      "DisplayTooltip": "sequi",
+      "IsActive": false
     }
   ]
 }

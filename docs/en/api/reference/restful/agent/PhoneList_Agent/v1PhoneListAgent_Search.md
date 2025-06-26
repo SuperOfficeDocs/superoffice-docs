@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "voluptates"
+  "SearchString": "et"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "513-460-7303",
-    "PersonCellPhone": "614-340-3798 x27475",
-    "PersonPrivatePhone": "333-399-8219 x0296",
-    "PersonFaxNumber": "945356",
-    "PersonPagerNumber": "1017305",
-    "PersonEmail": "eric@herzogwelch.com",
-    "Id": 557,
-    "Name": "Steuber Inc and Sons",
-    "Tooltip": "iste",
-    "UniqueId": "quas",
+    "PersonDirectPhone": "(502)999-1874",
+    "PersonCellPhone": "958-545-8517 x1209",
+    "PersonPrivatePhone": "1-885-381-2745",
+    "PersonFaxNumber": "1273587",
+    "PersonPagerNumber": "682634",
+    "PersonEmail": "mike@mcculloughschowalter.us",
+    "Id": 787,
+    "Name": "Koelpin-Gusikowski",
+    "Tooltip": "omnis",
+    "UniqueId": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 608
       }
     }
   }

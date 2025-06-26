@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Johnson, Treutel and Beer",
-    "ToolTip": "Ut et molestiae neque.",
-    "Deleted": true,
-    "Rank": 42,
-    "Type": "aut",
-    "ColorBlock": 121,
-    "IconHint": "ab",
+    "Id": 685,
+    "Name": "Emard, Nitzsche and Hartmann",
+    "ToolTip": "Ullam sequi quam reiciendis est hic repudiandae.",
+    "Deleted": false,
+    "Rank": 741,
+    "Type": "itaque",
+    "ColorBlock": 828,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2002-10-10T17:54:08.7730557+02:00",
+    "LastChanged": "2023-01-17T03:45:28.9517993+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Kris, Altenwerth and Cronin",
-        "ToolTip": "Unde tenetur nobis porro vel beatae alias.",
+        "Id": 21,
+        "Name": "Runolfsson, Grant and Runte",
+        "ToolTip": "Dolores tempora doloremque.",
         "Deleted": true,
-        "Rank": 445,
-        "Type": "neque",
-        "ColorBlock": 690,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2009-03-21T17:54:08.7886801+01:00",
+        "Rank": 592,
+        "Type": "culpa",
+        "ColorBlock": 718,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2010-01-07T03:45:28.9517993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Wallace Kirlin"
+        "ExtraInfo": "dolore",
+        "StyleHint": "fuga",
+        "Hidden": true,
+        "FullName": "Tremaine King"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "et",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Triston Carter"
+    "FullName": "Richmond Howe"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Lang, Kautzer and Zemlak",
-    "ToolTip": "Doloremque et.",
+    "Id": 7,
+    "Name": "McLaughlin, Botsford and Hermiston",
+    "ToolTip": "Libero quidem.",
     "Deleted": false,
-    "Rank": 925,
-    "Type": "ut",
-    "ColorBlock": 732,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2007-11-28T17:54:08.7886801+01:00",
+    "Rank": 113,
+    "Type": "omnis",
+    "ColorBlock": 566,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2015-10-22T03:45:28.9517993+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "White, Pollich and Rempel",
-        "ToolTip": "Numquam et et earum officia dolorem et corporis.",
+        "Id": 784,
+        "Name": "Stamm, Hintz and Strosin",
+        "ToolTip": "Atque repudiandae rerum expedita ea aut omnis autem.",
         "Deleted": true,
-        "Rank": 618,
-        "Type": "enim",
-        "ColorBlock": 265,
-        "IconHint": "omnis",
+        "Rank": 482,
+        "Type": "amet",
+        "ColorBlock": 811,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2011-05-14T17:54:08.7886801+02:00",
+        "LastChanged": "2012-06-11T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "laborum",
+        "ExtraInfo": "hic",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Hulda Muller",
+        "FullName": "Adaline Weissnat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldType": "System.String",
+            "FieldLength": 209
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Noe Cartwright MD",
+    "ExtraInfo": "aut",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Dr. Irwin Eusebio Koch IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 778
       }
     }
   }

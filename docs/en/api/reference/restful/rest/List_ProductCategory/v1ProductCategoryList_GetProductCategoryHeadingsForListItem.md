@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Kutch-Strosin",
-    "ToolTip": "Eveniet dolor consequatur atque.",
-    "Deleted": true,
-    "Rank": 246,
-    "Type": "esse",
-    "ColorBlock": 72,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2014-12-16T17:54:08.9761714+01:00",
+    "Id": 194,
+    "Name": "Homenick, Roberts and Kling",
+    "ToolTip": "Illo aut qui voluptatem assumenda iusto quos.",
+    "Deleted": false,
+    "Rank": 835,
+    "Type": "nemo",
+    "ColorBlock": 348,
+    "IconHint": "soluta",
+    "Selected": true,
+    "LastChanged": "2001-11-16T03:45:29.1549343+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Jacobi, Koepp and Crist",
-        "ToolTip": "Dolores est nihil dolores unde et asperiores.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "veniam",
-        "ColorBlock": 179,
-        "IconHint": "ipsum",
+        "Id": 438,
+        "Name": "Runolfsdottir Group",
+        "ToolTip": "Suscipit non veritatis.",
+        "Deleted": true,
+        "Rank": 722,
+        "Type": "voluptas",
+        "ColorBlock": 368,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2001-02-11T17:54:08.9761714+01:00",
+        "LastChanged": "2011-12-28T03:45:29.1549343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Modesto Ernser",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Earline Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldType": "System.String",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Vern Ezekiel D'Amore V",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Damion Konopelski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

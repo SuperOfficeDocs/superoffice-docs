@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 533,
-    "ColumnId": 920,
-    "FieldDefault": "possimus",
-    "FieldHeight": 973,
-    "FieldLabel": "quod",
-    "FieldLeft": 746,
-    "FieldTop": 716,
+    "UDefFieldId": 49,
+    "ColumnId": 76,
+    "FieldDefault": "laudantium",
+    "FieldHeight": 324,
+    "FieldLabel": "tempora",
+    "FieldLeft": 272,
+    "FieldTop": 127,
     "FieldType": "Checkbox",
-    "FieldWidth": 838,
-    "FormatMask": "modi",
-    "HideLabel": false,
+    "FieldWidth": 265,
+    "FormatMask": "eum",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 547,
-    "LabelLeft": 476,
-    "LabelTop": 737,
-    "LabelWidth": 313,
-    "LastVersionId": 636,
-    "ListTableId": 186,
-    "IsMandatory": true,
+    "LabelHeight": 325,
+    "LabelLeft": 564,
+    "LabelTop": 162,
+    "LabelWidth": 154,
+    "LastVersionId": 411,
+    "ListTableId": 201,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 642,
-    "ProgId": "illo",
-    "IsReadOnly": false,
-    "ShortLabel": "porro",
-    "TabOrder": 316,
-    "TextLength": 697,
-    "Tooltip": "repellat",
-    "UdefIdentity": 137,
-    "UDListDefinitionId": 913,
+    "Page1LineNo": 775,
+    "ProgId": "non",
+    "IsReadOnly": true,
+    "ShortLabel": "earum",
+    "TabOrder": 636,
+    "TextLength": 490,
+    "Tooltip": "laboriosam",
+    "UdefIdentity": 581,
+    "UDListDefinitionId": 200,
     "Justification": "Center",
-    "Version": 697,
-    "TemplateVariableName": "Anderson-Ferry",
-    "HasBeenPublished": true,
-    "MdoListName": "Parisian-Wyman",
+    "Version": 404,
+    "TemplateVariableName": "Smitham, Casper and Bogan",
+    "HasBeenPublished": false,
+    "MdoListName": "Fisher-Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldLength": 353
       }
     }
   }

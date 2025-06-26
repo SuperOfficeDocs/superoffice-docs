@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 176,
-  "Name": "Robel-Grady",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 672,
-  "UdListDefinitionId": 24
+  "HeadingId": 462,
+  "Name": "Crooks-Ratke",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 476,
+  "UdListDefinitionId": 819
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 541,
-  "Name": "Roberts-Rowe",
-  "Tooltip": "dolore",
-  "Deleted": false,
-  "Rank": 908,
-  "UdListDefinitionId": 855,
+  "HeadingId": 235,
+  "Name": "Reichel, Hahn and Adams",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "Rank": 451,
+  "UdListDefinitionId": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldType": "System.Int32",
+      "FieldLength": 67
     }
   }
 }

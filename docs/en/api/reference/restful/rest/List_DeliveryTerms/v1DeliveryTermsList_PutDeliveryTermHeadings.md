@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 170,
-    "Name": "Jacobi, O'Kon and Mraz",
-    "Tooltip": "corrupti",
+    "HeadingId": 160,
+    "Name": "Fadel, Prohaska and Stamm",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 87,
-    "UdListDefinitionId": 479
+    "Rank": 631,
+    "UdListDefinitionId": 515
   },
   {
-    "HeadingId": 170,
-    "Name": "Jacobi, O'Kon and Mraz",
-    "Tooltip": "corrupti",
+    "HeadingId": 160,
+    "Name": "Fadel, Prohaska and Stamm",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 87,
-    "UdListDefinitionId": 479
+    "Rank": 631,
+    "UdListDefinitionId": 515
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Kuphal Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 894,
-    "UdListDefinitionId": 764,
+    "HeadingId": 588,
+    "Name": "Metz, Grady and McLaughlin",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "Rank": 227,
+    "UdListDefinitionId": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldType": "System.Int32",
+        "FieldLength": 691
       }
     }
   }

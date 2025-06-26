@@ -93,7 +93,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 475,
-  "ContactId": 782,
-  "ProjectId": 282,
-  "ContactName": "Powlowski-Johnston",
+  "ProjectmemberId": 822,
+  "ContactId": 508,
+  "ProjectId": 87,
+  "ContactName": "Herman Group",
   "ContactDepartment": "",
-  "ProjectName": "Kuhn, Connelly and Runte",
-  "EmailId": 188,
-  "EmailAddress": "derrick_abernathy@krajcikschulist.ca",
-  "CountryId": 515,
-  "Firstname": "Brandyn",
-  "MiddleName": "Macejkovic, Cassin and O'Keefe",
-  "Lastname": "Kreiger",
-  "PersonId": 733,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Kulas-Emmerich",
-  "Phone": "(011)768-3046 x4697",
-  "PhoneId": 255,
-  "ProjectMemberTypeId": 845,
-  "EmailAddressName": "orion.bailey@emmerichkuphal.biz",
-  "Comment": "quas",
-  "FullName": "Dr. Kamille Mac McLaughlin",
+  "ProjectName": "West, Bednar and Howe",
+  "EmailId": 598,
+  "EmailAddress": "haleigh.ortiz@cassin.name",
+  "CountryId": 210,
+  "Firstname": "Bernita",
+  "MiddleName": "Farrell, Kertzmann and Schowalter",
+  "Lastname": "Kerluke",
+  "PersonId": 563,
+  "Mrmrs": "veniam",
+  "ProjectMemberTypeName": "Wuckert, Lueilwitz and Schiller",
+  "Phone": "317.383.8460 x95128",
+  "PhoneId": 199,
+  "ProjectMemberTypeId": 51,
+  "EmailAddressName": "colt.nolan@raynor.co.uk",
+  "Comment": "ea",
+  "FullName": "Aurore Hagenes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   },
   "_Links": {

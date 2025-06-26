@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 397,
-  "NumSentences": 163,
-  "IsoLangCode": "delectus"
+  "SaleId": 434,
+  "NumSentences": 9,
+  "IsoLangCode": "et"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ab"
+"quae"
 ```

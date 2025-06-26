@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 682,
-  "ColumnId": 201,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 948,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 662,
-  "FieldTop": 79,
+  "UDefFieldId": 881,
+  "ColumnId": 800,
+  "FieldDefault": "omnis",
+  "FieldHeight": 299,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 9,
+  "FieldTop": 694,
   "FieldType": "Checkbox",
-  "FieldWidth": 307,
-  "FormatMask": "quia",
+  "FieldWidth": 682,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 722,
-  "LabelLeft": 246,
-  "LabelTop": 962,
-  "LabelWidth": 697,
-  "LastVersionId": 845,
-  "ListTableId": 579,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 760,
+  "LabelLeft": 143,
+  "LabelTop": 248,
+  "LabelWidth": 210,
+  "LastVersionId": 786,
+  "ListTableId": 692,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 993,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "minima",
-  "TabOrder": 828,
-  "TextLength": 524,
-  "Tooltip": "sequi",
-  "UdefIdentity": 203,
-  "UDListDefinitionId": 95,
+  "Page1LineNo": 974,
+  "ProgId": "dicta",
+  "IsReadOnly": false,
+  "ShortLabel": "debitis",
+  "TabOrder": 141,
+  "TextLength": 840,
+  "Tooltip": "autem",
+  "UdefIdentity": 320,
+  "UDListDefinitionId": 4,
   "Justification": "Center",
-  "Version": 942,
-  "TemplateVariableName": "Haag, Dibbert and Greenfelder",
+  "Version": 64,
+  "TemplateVariableName": "Schulist, Cartwright and Effertz",
   "HasBeenPublished": true,
-  "MdoListName": "Stamm Inc and Sons",
+  "MdoListName": "Turcotte-Roberts",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

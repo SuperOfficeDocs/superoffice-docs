@@ -742,7 +742,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelection?$select=contact/postAddress/city,contact/NumberOfNotCompletedActivities,contact/LastCompletedActivity,person/personExtra/x_person_contact_relation,person/personExtra/y_rental/x_end
+GET /api/v1/archive/AppointmentShadowStaticSelection?$select=isFree,intention,person/personUpdatedByFullName,person/personUrl/URLAddress,person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -152,52 +152,52 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 856,
-  "UniqueIdentifier": "cumque",
-  "Name": "Little-Rogahn",
-  "Description": "Balanced reciprocal throughput",
-  "IncludeId": "quaerat",
-  "AccessKey": "corporis",
-  "HierarchyId": 70,
-  "Source": "eum",
-  "SourceCode": "doloribus",
+  "EjscriptId": 182,
+  "UniqueIdentifier": "necessitatibus",
+  "Name": "Bosco, Walter and Fahey",
+  "Description": "Synchronised 5th generation moratorium",
+  "IncludeId": "ipsum",
+  "AccessKey": "saepe",
+  "HierarchyId": 617,
+  "Source": "mollitia",
+  "SourceCode": "sint",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 556,
+  "HtmlOutput": 617,
   "Includes": [
-    798,
-    398
+    259,
+    243
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 718,
-      "LineNumberTo": 570,
-      "Delta": 753,
-      "IncludeId": "est",
+      "LineNumberFrom": 360,
+      "LineNumberTo": 902,
+      "Delta": 449,
+      "IncludeId": "esse",
       "IncludedFrom": [
-        "aut",
-        "ab"
+        "velit",
+        "possimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 781
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-07-28T17:54:08.1324619+02:00",
-  "RegisteredAssociateId": 535,
-  "Updated": "2002-10-13T17:54:08.1324619+02:00",
-  "UpdatedAssociateId": 752,
+  "Registered": "2020-06-21T03:45:28.2955692+02:00",
+  "RegisteredAssociateId": 940,
+  "Updated": "2003-05-28T03:45:28.2955692+02:00",
+  "UpdatedAssociateId": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 441
     }
   },
   "_Links": {

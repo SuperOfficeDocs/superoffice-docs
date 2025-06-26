@@ -29,7 +29,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 | includeStandard | bool |  Include standard fields in result. Default false. |
 
 ```http
-GET /api/v1/Schema/{tableName}?includeStandard=False
+GET /api/v1/Schema/{tableName}?includeStandard=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Treutel-Leffler",
-    "DisplayName": "Larson Group",
-    "Description": "Implemented intangible frame",
-    "ShortLabel": "et",
-    "HideLabel": false,
+    "FieldName": "Rosenbaum-Fritsch",
+    "DisplayName": "Smitham-Medhurst",
+    "Description": "Innovative background capability",
+    "ShortLabel": "corporis",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 216,
-    "TemplateVariableName": "Schowalter, Kilback and Hilll"
+    "IsDisplayField": true,
+    "Rank": 464,
+    "TemplateVariableName": "Gerlach-McClure"
   }
 ]
 ```

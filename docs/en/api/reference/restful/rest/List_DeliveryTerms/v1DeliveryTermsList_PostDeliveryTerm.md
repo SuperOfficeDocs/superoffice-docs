@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Wiza Group",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "UdListDefinitionId": 288,
-  "Rank": 593
+  "Id": 426,
+  "Name": "Considine LLC",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "UdListDefinitionId": 156,
+  "Rank": 191
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 290,
-  "Name": "Spencer-Kling",
-  "Tooltip": "in",
+  "Id": 241,
+  "Name": "Luettgen, Lehner and Effertz",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 852,
-  "Rank": 390,
+  "UdListDefinitionId": 914,
+  "Rank": 78,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldLength": 664
     }
   }
 }

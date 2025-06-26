@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Pfeffer, Greenholt and Torphy",
-    "ToolTip": "Iure beatae voluptatem laborum.",
+    "Id": 585,
+    "Name": "Senger Inc and Sons",
+    "ToolTip": "Ipsum consequatur cum voluptatem recusandae hic.",
     "Deleted": true,
-    "Rank": 303,
-    "Type": "recusandae",
-    "ColorBlock": 189,
-    "IconHint": "tenetur",
+    "Rank": 384,
+    "Type": "in",
+    "ColorBlock": 78,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2024-09-23T17:54:08.9761714+02:00",
+    "LastChanged": "2010-12-12T03:45:29.1549343+01:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Schimmel, Kunde and Bahringer",
-        "ToolTip": "Voluptates omnis voluptas corporis debitis repudiandae aut.",
+        "Id": 47,
+        "Name": "Moore Inc and Sons",
+        "ToolTip": "Tempora ex ea.",
         "Deleted": true,
-        "Rank": 304,
-        "Type": "cupiditate",
-        "ColorBlock": 882,
-        "IconHint": "commodi",
+        "Rank": 446,
+        "Type": "voluptates",
+        "ColorBlock": 144,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2021-12-12T17:54:08.9761714+01:00",
+        "LastChanged": "2008-04-08T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Mr. Joana Gudrun Johnston MD"
+        "FullName": "Elsa Carter"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Dovie Rodriguez"
+    "ExtraInfo": "in",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Mrs. Brigitte Labadie DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Witting LLC",
-    "ToolTip": "Quo non aut vel.",
-    "Deleted": false,
-    "Rank": 218,
-    "Type": "commodi",
-    "ColorBlock": 312,
-    "IconHint": "consequuntur",
+    "Id": 116,
+    "Name": "D'Amore Group",
+    "ToolTip": "Architecto rerum voluptatum non sit.",
+    "Deleted": true,
+    "Rank": 628,
+    "Type": "doloremque",
+    "ColorBlock": 415,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2023-06-16T17:54:08.9761714+02:00",
+    "LastChanged": "1998-04-16T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Kertzmann, Rau and Hessel",
-        "ToolTip": "In ab omnis ratione unde ipsum.",
+        "Id": 49,
+        "Name": "Halvorson, Mraz and Kris",
+        "ToolTip": "Ut ut sit.",
         "Deleted": false,
-        "Rank": 9,
-        "Type": "fuga",
-        "ColorBlock": 135,
-        "IconHint": "nam",
+        "Rank": 440,
+        "Type": "quisquam",
+        "ColorBlock": 700,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2010-12-28T17:54:08.9761714+01:00",
+        "LastChanged": "2007-02-26T03:45:29.1549343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ut",
+        "ExtraInfo": "nihil",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Muhammad Abel Hermann Jr.",
+        "FullName": "Raquel Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 619
+            "FieldType": "System.Int32",
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "et",
+    "ExtraInfo": "ad",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Earnest Bernhard",
+    "FullName": "Yasmin Johan Stanton DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

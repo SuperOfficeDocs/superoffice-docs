@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=officia
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=sunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Macejkovic Inc and Sons",
-    "ToolTip": "Itaque quia nisi sapiente aliquam eum.",
+    "Id": 236,
+    "Name": "Hilpert, Legros and Hermiston",
+    "ToolTip": "Eius et rem magni ea reprehenderit nesciunt.",
     "Deleted": false,
-    "Rank": 291,
-    "Type": "non",
+    "Rank": 157,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Bailey-Okuneva",
-        "ToolTip": "Laudantium at cum.",
+        "Id": 394,
+        "Name": "Rosenbaum LLC",
+        "ToolTip": "Voluptatibus consectetur mollitia velit impedit impedit ab.",
         "Deleted": true,
-        "Rank": 418,
-        "Type": "eos",
+        "Rank": 189,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 77,
-        "ExtraInfo": "iste",
-        "StyleHint": "similique",
-        "FullName": "Miss Ruthie Ludwig McGlynn IV",
+        "IconHint": "voluptatem",
+        "ColorBlock": 421,
+        "ExtraInfo": "facilis",
+        "StyleHint": "molestiae",
+        "FullName": "Jovany Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 315
+            "FieldLength": 690
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 599,
-    "ExtraInfo": "quia",
-    "StyleHint": "culpa",
-    "FullName": "Ms. Archibald Kitty Gottlieb",
+    "IconHint": "itaque",
+    "ColorBlock": 903,
+    "ExtraInfo": "hic",
+    "StyleHint": "laboriosam",
+    "FullName": "Maeve Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 564
       }
     }
   }

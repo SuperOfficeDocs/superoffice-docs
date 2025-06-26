@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 824,
-    "ColumnId": 823,
-    "FieldDefault": "corrupti",
-    "FieldHeight": 974,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 169,
-    "FieldTop": 185,
+    "UDefFieldId": 709,
+    "ColumnId": 93,
+    "FieldDefault": "inventore",
+    "FieldHeight": 434,
+    "FieldLabel": "dolores",
+    "FieldLeft": 944,
+    "FieldTop": 406,
     "FieldType": "Checkbox",
-    "FieldWidth": 607,
-    "FormatMask": "deserunt",
+    "FieldWidth": 135,
+    "FormatMask": "voluptatum",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 174,
-    "LabelLeft": 245,
-    "LabelTop": 486,
-    "LabelWidth": 540,
-    "LastVersionId": 723,
-    "ListTableId": 29,
-    "IsMandatory": false,
+    "LabelHeight": 388,
+    "LabelLeft": 776,
+    "LabelTop": 341,
+    "LabelWidth": 362,
+    "LastVersionId": 386,
+    "ListTableId": 626,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 213,
-    "ProgId": "aliquid",
+    "Page1LineNo": 542,
+    "ProgId": "enim",
     "IsReadOnly": true,
-    "ShortLabel": "optio",
-    "TabOrder": 237,
-    "TextLength": 217,
-    "Tooltip": "possimus",
-    "UdefIdentity": 328,
-    "UDListDefinitionId": 296,
+    "ShortLabel": "ut",
+    "TabOrder": 437,
+    "TextLength": 135,
+    "Tooltip": "est",
+    "UdefIdentity": 50,
+    "UDListDefinitionId": 174,
     "Justification": "Center",
-    "Version": 611,
-    "TemplateVariableName": "Rodriguez-Boyer",
-    "HasBeenPublished": true,
-    "MdoListName": "Schinner, Ruecker and Feil",
+    "Version": 34,
+    "TemplateVariableName": "Leuschke-Corwin",
+    "HasBeenPublished": false,
+    "MdoListName": "Klein, Jerde and Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 652
       }
     }
   }

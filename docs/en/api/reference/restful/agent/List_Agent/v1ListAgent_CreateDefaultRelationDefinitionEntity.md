@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 539,
-  "Name": "Gottlieb, Weissnat and Reichel",
-  "Tooltip": "ad",
-  "PassiveText": "voluptate",
-  "Deleted": true,
-  "Rank": 641,
+  "ReldefId": 651,
+  "Name": "Harvey-McLaughlin",
+  "Tooltip": "odio",
+  "PassiveText": "amet",
+  "Deleted": false,
+  "Rank": 221,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 458
     }
   }
 }

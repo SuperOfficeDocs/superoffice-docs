@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 787,
-  "ERPQuoteVersionKey": "debitis",
-  "QuoteId": 634,
-  "Description": "Phased bandwidth-monitored complexity",
-  "Number": "512563",
+  "QuoteVersionId": 348,
+  "ERPQuoteVersionKey": "laudantium",
+  "QuoteId": 587,
+  "Description": "Object-based well-modulated attitude",
+  "Number": "1462101",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 126,
-  "SentDate": "2020-05-05T17:54:03.5076876+02:00",
-  "FollowupId": 156,
-  "ExpirationDate": "2022-11-11T17:54:03.5076876+01:00",
-  "DeliveryCountryId": 232,
+  "LikelyQuoteAlternativeId": 316,
+  "SentDate": "1999-04-23T03:45:23.7954455+02:00",
+  "FollowupId": 562,
+  "ExpirationDate": "2008-10-31T03:45:23.7954455+01:00",
+  "DeliveryCountryId": 285,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 57,
-  "HasOwnInvoiceAddress": true,
+  "InvoiceCountryId": 904,
+  "HasOwnInvoiceAddress": false,
   "ERPPaymentTermsKey": "voluptatem",
-  "ERPPaymentTypeKey": "qui",
-  "ERPDeliveryTermsKey": "est",
-  "ERPDeliveryTypeKey": "voluptatem",
-  "Rank": 818,
-  "ApprovedBy": 317,
-  "ApprovedText": "porro",
-  "ApprovedRegisteredBy": 913,
-  "ApprovedRegisteredDate": "2012-03-28T17:54:03.5076876+02:00",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "eum",
-  "ExtraField5": "nesciunt",
-  "LastRecalculated": "1999-06-15T17:54:03.5076876+02:00",
-  "Updated": "2024-04-16T17:54:03.5076876+02:00",
-  "UpdatedAssociateId": 928,
-  "Registered": "2023-06-22T17:54:03.5076876+02:00",
-  "RegisteredAssociateId": 189,
-  "RequestAssociateId": 1000,
-  "RequestComment": "voluptatibus",
+  "ERPPaymentTypeKey": "beatae",
+  "ERPDeliveryTermsKey": "doloribus",
+  "ERPDeliveryTypeKey": "aperiam",
+  "Rank": 499,
+  "ApprovedBy": 87,
+  "ApprovedText": "id",
+  "ApprovedRegisteredBy": 591,
+  "ApprovedRegisteredDate": "2009-12-16T03:45:23.7954455+01:00",
+  "ExtraField1": "rem",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "qui",
+  "ExtraField4": "minus",
+  "ExtraField5": "id",
+  "LastRecalculated": "2017-09-09T03:45:23.7954455+02:00",
+  "Updated": "1998-04-13T03:45:23.7954455+02:00",
+  "UpdatedAssociateId": 175,
+  "Registered": "2009-10-29T03:45:23.7954455+01:00",
+  "RegisteredAssociateId": 861,
+  "RequestAssociateId": 913,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 737,
-      "ERPQuoteAlternativeKey": "ut",
-      "QuoteVersionId": 664,
-      "Name": "Howe Group",
-      "Description": "Automated content-based process improvement",
+      "QuoteAlternativeId": 489,
+      "ERPQuoteAlternativeKey": "cumque",
+      "QuoteVersionId": 844,
+      "Name": "Satterfield-Shields",
+      "Description": "Reactive incremental concept",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30412.336,
-      "ERPDiscountAmount": 30058.194,
-      "DiscountPercent": 5437.49,
-      "DiscountAmount": 410.554,
+      "ERPDiscountPercent": 7317.8899999999994,
+      "ERPDiscountAmount": 11260.462,
+      "DiscountPercent": 22257.667999999998,
+      "DiscountAmount": 479.502,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "qui",
-      "VAT": 6885.398,
-      "EarningPercent": 7198.798,
-      "EarningAmount": 20449.35,
-      "SubTotal": 4444.012,
-      "TotalPrice": 20966.46,
-      "ExtraField1": "soluta",
-      "ExtraField2": "qui",
-      "ExtraField3": "veritatis",
-      "ExtraField4": "fugiat",
-      "ExtraField5": "esse",
+      "VATInfo": "nobis",
+      "VAT": 5026.936,
+      "EarningPercent": 2190.6659999999997,
+      "EarningAmount": 11877.859999999999,
+      "SubTotal": 19954.178,
+      "TotalPrice": 29650.773999999998,
+      "ExtraField1": "aspernatur",
+      "ExtraField2": "illo",
+      "ExtraField3": "suscipit",
+      "ExtraField4": "facilis",
+      "ExtraField5": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldType": "System.String",
+          "FieldLength": 296
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

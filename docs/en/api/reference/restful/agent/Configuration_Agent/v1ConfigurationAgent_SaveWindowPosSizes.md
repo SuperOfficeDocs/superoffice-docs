@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "quisquam",
-      "PersonId": 601,
-      "AssociateId": 415,
-      "ExtraId": 652,
-      "ExtraInfo": "omnis",
-      "Height": 112,
-      "LeftX": 44,
+      "OwnerWindow": "occaecati",
+      "PersonId": 743,
+      "AssociateId": 439,
+      "ExtraId": 576,
+      "ExtraInfo": "ut",
+      "Height": 839,
+      "LeftX": 781,
       "State": "Maximized",
-      "UpperY": 634,
-      "Width": 424,
-      "WindowPosSizeId": 720
+      "UpperY": 785,
+      "Width": 438,
+      "WindowPosSizeId": 222
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "fuga",
-    "PersonId": 723,
-    "AssociateId": 461,
-    "ExtraId": 623,
-    "ExtraInfo": "eum",
-    "Height": 572,
-    "LeftX": 317,
+    "OwnerWindow": "fugit",
+    "PersonId": 627,
+    "AssociateId": 674,
+    "ExtraId": 3,
+    "ExtraInfo": "ut",
+    "Height": 508,
+    "LeftX": 142,
     "State": "Maximized",
-    "UpperY": 86,
-    "Width": 922,
-    "WindowPosSizeId": 626,
+    "UpperY": 610,
+    "Width": 792,
+    "WindowPosSizeId": 688,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

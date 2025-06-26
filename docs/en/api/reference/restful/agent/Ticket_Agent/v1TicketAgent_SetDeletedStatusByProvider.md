@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McCullough, Vandervort and Hamill",
+  "ProviderName": "Mayer-Watsica",
   "Restrictions": [
     {
-      "Name": "Von-Roob",
-      "Operator": "quas",
+      "Name": "Bashirian Inc and Sons",
+      "Operator": "consequatur",
       "Values": [
-        "facere",
-        "et"
+        "exercitationem",
+        "voluptas"
       ],
       "DisplayValues": [
-        "vel",
-        "labore"
+        "quam",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 235,
+      "InterParenthesis": 576,
       "InterOperator": "And",
-      "UniqueHash": 911
+      "UniqueHash": 561
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  613,
-  326
+  252,
+  998
 ]
 ```

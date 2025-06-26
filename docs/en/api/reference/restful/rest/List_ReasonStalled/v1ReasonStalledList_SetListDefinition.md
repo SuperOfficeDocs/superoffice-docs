@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Miller Group",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "Rank": 202,
+  "Id": 8,
+  "Name": "Haag-Thiel",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 381,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": false
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 147,
-  "Name": "Gerlach, Cruickshank and Mosciski",
-  "Tooltip": "ut",
+  "Id": 392,
+  "Name": "West-Gibson",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 590,
-  "IsCustomList": false,
+  "Rank": 713,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 893
     }
   }
 }

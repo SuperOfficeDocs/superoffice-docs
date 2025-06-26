@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 748,
-  "ERPProductKey": "veniam",
-  "ERPPriceListKey": "aliquam",
-  "Name": "Cormier Group",
-  "Description": "Optimized web-enabled local area network",
-  "Code": "perspiciatis",
-  "PriceUnit": "aut",
-  "QuantityUnit": "aut",
+  "ProductId": 997,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "qui",
+  "Name": "Wyman Inc and Sons",
+  "Description": "Expanded multi-state interface",
+  "Code": "molestiae",
+  "PriceUnit": "ipsam",
+  "QuantityUnit": "suscipit",
   "IsSubscription": false,
-  "SubscriptionUnit": "at",
-  "DefaultSubscriptionQuantity": 5869.982,
-  "ItemNumber": "1085596",
+  "SubscriptionUnit": "mollitia",
+  "DefaultSubscriptionQuantity": 30844.827999999998,
+  "ItemNumber": "1580928",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequuntur",
-  "ProductTypeKey": "sit",
-  "VAT": 13225.48,
-  "VATInfo": "expedita",
-  "UnitCost": 16444.097999999998,
-  "UnitMinimumPrice": 11790.108,
-  "UnitListPrice": 12767.916,
+  "ProductFamilyKey": "consequatur",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 9138.744,
+  "VATInfo": "tempora",
+  "UnitCost": 27121.636,
+  "UnitMinimumPrice": 22085.298,
+  "UnitListPrice": 4475.352,
   "InAssortment": false,
-  "Supplier": "quo",
-  "SupplierCode": "laudantium",
-  "Rights": "et",
-  "Rule": "aperiam",
+  "Supplier": "et",
+  "SupplierCode": "et",
+  "Rights": "necessitatibus",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Wolf LLC",
-      "Value": "placeat",
+      "Name": "Kautzer-Wehner",
+      "Value": "deserunt",
       "Type": "Image"
     },
     {
-      "Name": "Wolf LLC",
-      "Value": "placeat",
+      "Name": "Kautzer-Wehner",
+      "Value": "deserunt",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "maiores",
-  "ExtraField1": "et",
-  "ExtraField2": "ex",
-  "ExtraField3": "deserunt",
+  "RawExtraInfo": "earum",
+  "ExtraField1": "voluptates",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "voluptatum",
   "ExtraField4": "et",
-  "ExtraField5": "mollitia",
-  "InStock": 28447.318
+  "ExtraField5": "sit",
+  "InStock": 29939.102
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 786,
-  "ERPProductKey": "officiis",
-  "ERPPriceListKey": "cum",
-  "Name": "Turcotte LLC",
-  "Description": "Self-enabling heuristic system engine",
-  "Code": "quis",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "doloribus",
+  "ProductId": 814,
+  "ERPProductKey": "repellendus",
+  "ERPPriceListKey": "laboriosam",
+  "Name": "Batz-Jerde",
+  "Description": "Function-based system-worthy database",
+  "Code": "totam",
+  "PriceUnit": "optio",
+  "QuantityUnit": "autem",
   "IsSubscription": false,
-  "SubscriptionUnit": "doloribus",
-  "DefaultSubscriptionQuantity": 6139.5059999999994,
-  "ItemNumber": "1004504",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 28193.464,
+  "ItemNumber": "1689805",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aliquam",
-  "ProductTypeKey": "quia",
-  "VAT": 1692.36,
-  "VATInfo": "nulla",
-  "UnitCost": 16437.829999999998,
-  "UnitMinimumPrice": 14303.576,
-  "UnitListPrice": 8853.55,
+  "ProductFamilyKey": "placeat",
+  "ProductTypeKey": "tempora",
+  "VAT": 4249.704,
+  "VATInfo": "porro",
+  "UnitCost": 29193.21,
+  "UnitMinimumPrice": 1319.414,
+  "UnitListPrice": 10006.862,
   "InAssortment": false,
-  "Supplier": "corporis",
-  "SupplierCode": "nulla",
-  "Rights": "non",
-  "Rule": "aut",
+  "Supplier": "ea",
+  "SupplierCode": "et",
+  "Rights": "asperiores",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Mosciski, Gerhold and Beer",
-      "Value": "voluptatem",
+      "Name": "Kreiger-Lynch",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 869
         }
       }
     },
     {
-      "Name": "Mosciski, Gerhold and Beer",
-      "Value": "voluptatem",
+      "Name": "Kreiger-Lynch",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 869
         }
       }
     }
   ],
-  "RawExtraInfo": "facilis",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "aperiam",
-  "ExtraField3": "autem",
-  "ExtraField4": "nesciunt",
-  "ExtraField5": "libero",
-  "InStock": 16757.498,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "ut",
+  "ExtraField2": "eos",
+  "ExtraField3": "totam",
+  "ExtraField4": "omnis",
+  "ExtraField5": "incidunt",
+  "InStock": 10420.55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 929
     }
   }
 }

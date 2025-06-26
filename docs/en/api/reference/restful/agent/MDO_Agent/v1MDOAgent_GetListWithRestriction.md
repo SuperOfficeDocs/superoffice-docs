@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Olson-Gerhold",
-  "AdditionalInfo": "eligendi",
-  "SearchValue": "enim"
+  "Name": "Kassulke-Kautzer",
+  "AdditionalInfo": "recusandae",
+  "SearchValue": "officiis"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Rosenbaum, Larson and Kessler",
-    "ToolTip": "Quas iure odit architecto eos.",
-    "Deleted": true,
-    "Rank": 614,
-    "Type": "at",
+    "Id": 811,
+    "Name": "Smith-Pfeffer",
+    "ToolTip": "Velit omnis explicabo.",
+    "Deleted": false,
+    "Rank": 891,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Robel LLC",
-        "ToolTip": "Odio aut sed necessitatibus asperiores officia veritatis dicta.",
-        "Deleted": false,
-        "Rank": 962,
-        "Type": "debitis",
+        "Id": 347,
+        "Name": "Dicki LLC",
+        "ToolTip": "Suscipit illo asperiores ipsa.",
+        "Deleted": true,
+        "Rank": 941,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 40,
-        "ExtraInfo": "sequi",
-        "StyleHint": "adipisci",
-        "FullName": "Deon Gutkowski",
+        "IconHint": "numquam",
+        "ColorBlock": 699,
+        "ExtraInfo": "vel",
+        "StyleHint": "doloremque",
+        "FullName": "Prof. Hertha Ondricka PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 386
+            "FieldLength": 546
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 883,
-    "ExtraInfo": "modi",
-    "StyleHint": "omnis",
-    "FullName": "Prof. Jamel Madyson Botsford",
+    "IconHint": "et",
+    "ColorBlock": 897,
+    "ExtraInfo": "libero",
+    "StyleHint": "illo",
+    "FullName": "Matt King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 437
       }
     }
   }

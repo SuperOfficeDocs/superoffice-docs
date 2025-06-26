@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Automated 5th generation neural-net",
-  "Postit": "est",
+  "Description": "Advanced solution-oriented pricing structure",
+  "Postit": "autem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 242,
-  "IncludePerson": 874,
+  "GroupIdx": 527,
+  "IncludePerson": 260,
   "MemberCount": 99.99,
-  "Name": "Wehner, Wisozk and Breitenberg",
-  "PostitTextId": 8,
-  "CreatedDate": "2000-08-17T17:54:03.6170572+02:00",
-  "SelectionId": 149,
-  "SoundEx": "id",
-  "Source": 962,
-  "TextId": 304,
-  "UpdatedDate": "1999-11-30T17:54:03.6170572+01:00",
-  "UpdatedCount": 735,
-  "Visibility": 128,
+  "Name": "Schulist-Balistreri",
+  "PostitTextId": 725,
+  "CreatedDate": "2022-03-04T03:45:23.9048172+01:00",
+  "SelectionId": 615,
+  "SoundEx": "provident",
+  "Source": 35,
+  "TextId": 225,
+  "UpdatedDate": "2005-10-27T03:45:23.9048172+02:00",
+  "UpdatedCount": 528,
+  "Visibility": 285,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 699,
-  "TargetTableName": "Powlowski, Turcotte and Waters",
-  "Completed": true,
-  "LeftSelectionId": 344,
-  "RightSelectionId": 987,
+  "CompanyUnique": true,
+  "TargetTableNumber": 169,
+  "TargetTableName": "Kuphal, Witting and Torp",
+  "Completed": false,
+  "LeftSelectionId": 325,
+  "RightSelectionId": 662,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson-Gibson",
-  "ShadowProviderName": "Walker Group",
-  "ChartKey": "ea",
-  "LastLoaded": "2009-09-03T17:54:03.6170572+02:00",
-  "LastLoadedBy": 277,
+  "MainProviderName": "Ernser, Gibson and Bednar",
+  "ShadowProviderName": "Klocko-Lind",
+  "ChartKey": "velit",
+  "LastLoaded": "2005-05-07T03:45:23.9048172+02:00",
+  "LastLoadedBy": 327,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-12-24T17:54:03.6170572+01:00",
-  "LastMembershipChangeBy": 849,
+  "LastMembershipChange": "2010-02-04T03:45:23.9048172+01:00",
+  "LastMembershipChangeBy": 972,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "quos",
-  "MailingsProviderName": "Corkery LLC",
-  "DashboardTileDefinitionId": 720,
+  "MainHeading": "velit",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Mitchell-Dicki",
+  "DashboardTileDefinitionId": 105,
   "VisibleFor": [
     {
-      "VisibleId": 298,
+      "VisibleId": 522,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldLength": 165
         }
       }
     },
     {
-      "VisibleId": 298,
+      "VisibleId": 522,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldLength": 165
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 259
     }
   }
 }

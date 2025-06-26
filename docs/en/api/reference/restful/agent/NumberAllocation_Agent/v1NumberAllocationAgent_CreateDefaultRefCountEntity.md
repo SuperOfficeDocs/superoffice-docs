@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 603,
-  "Field": "qui",
-  "RecordId": 229,
+  "RefCountsId": 955,
+  "Field": "voluptatem",
+  "RecordId": 125,
   "SuggestedRecords": [
     {
-      "Id": 639,
-      "Name": "Graham, Treutel and Schneider",
-      "ToolTip": "Odio non reiciendis voluptas voluptates voluptatem facere.",
+      "Id": 366,
+      "Name": "Price Group",
+      "ToolTip": "Voluptatem ducimus quia consequatur sit.",
       "Deleted": false,
-      "Rank": 222,
-      "Type": "ut",
+      "Rank": 527,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "distinctio",
-      "ColorBlock": 634,
-      "ExtraInfo": "dolores",
-      "StyleHint": "porro",
-      "FullName": "Zola Strosin",
+      "IconHint": "voluptas",
+      "ColorBlock": 746,
+      "ExtraInfo": "possimus",
+      "StyleHint": "repudiandae",
+      "FullName": "Mrs. Ryder Bergnaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 740
         }
       }
     }
   ],
-  "CurrentValue": 500,
-  "TravelPrefix": 508,
-  "SatPrefix": 631,
+  "CurrentValue": 769,
+  "TravelPrefix": 108,
+  "SatPrefix": 418,
   "Allocate": false,
   "Unique": true,
   "ReadOnly": true,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 608
     }
   }
 }

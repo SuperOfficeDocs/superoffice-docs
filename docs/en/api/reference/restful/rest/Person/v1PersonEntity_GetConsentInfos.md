@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 358,
-    "Comment": "velit",
-    "Registered": "2012-08-02T17:54:08.3668296+02:00",
-    "RegisteredAssociateId": 979,
-    "Updated": "2002-02-12T17:54:08.3668296+01:00",
-    "UpdatedAssociateId": 146,
-    "LegalBaseId": 754,
-    "LegalBaseKey": "omnis",
-    "LegalBaseName": "Eichmann-Hansen",
-    "ConsentPurposeId": 459,
-    "ConsentPurposeKey": "quaerat",
-    "ConsentPurposeName": "Dach LLC",
-    "ConsentSourceId": 825,
-    "ConsentSourceKey": "qui",
-    "ConsentSourceName": "Rippin Group",
+    "ConsentPersonId": 322,
+    "Comment": "rem",
+    "Registered": "2020-03-27T03:45:28.4828085+01:00",
+    "RegisteredAssociateId": 257,
+    "Updated": "2001-07-23T03:45:28.4828085+02:00",
+    "UpdatedAssociateId": 969,
+    "LegalBaseId": 905,
+    "LegalBaseKey": "magni",
+    "LegalBaseName": "Waters Inc and Sons",
+    "ConsentPurposeId": 843,
+    "ConsentPurposeKey": "ipsum",
+    "ConsentPurposeName": "Gutkowski, Beier and Beahan",
+    "ConsentSourceId": 170,
+    "ConsentSourceKey": "ut",
+    "ConsentSourceName": "Jast LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 522
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=inventore
+GET /api/v1/List/DocumentTemplate/MDOItems?query=reiciendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Bartoletti Inc and Sons",
-    "ToolTip": "Id ipsum ipsa necessitatibus sint labore.",
+    "Id": 724,
+    "Name": "Senger, Deckow and Aufderhar",
+    "ToolTip": "Earum odio numquam eveniet quo.",
     "Deleted": true,
-    "Rank": 716,
-    "Type": "cumque",
+    "Rank": 775,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Langworth-Harris",
-        "ToolTip": "Nisi qui vel minima modi facilis.",
-        "Deleted": false,
-        "Rank": 621,
-        "Type": "eos",
+        "Id": 432,
+        "Name": "Jerde, Hoeger and Collier",
+        "ToolTip": "Distinctio consequatur voluptates error est quos distinctio molestiae.",
+        "Deleted": true,
+        "Rank": 772,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 205,
-        "ExtraInfo": "est",
-        "StyleHint": "quia",
-        "FullName": "Gene Cremin",
+        "IconHint": "quo",
+        "ColorBlock": 729,
+        "ExtraInfo": "quas",
+        "StyleHint": "aspernatur",
+        "FullName": "Dorthy Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 542
+            "FieldLength": 662
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 292,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ut",
-    "FullName": "Laney Grant",
+    "IconHint": "nulla",
+    "ColorBlock": 144,
+    "ExtraInfo": "officiis",
+    "StyleHint": "ea",
+    "FullName": "Libby Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 677
       }
     }
   }

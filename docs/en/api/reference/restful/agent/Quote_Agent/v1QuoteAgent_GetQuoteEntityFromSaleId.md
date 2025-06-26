@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 603
+  "SaleId": 676
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 417,
-  "SaleId": 321,
-  "QuoteConnectionId": 703,
-  "ERPQuoteKey": "nulla",
-  "ERPOrderKey": "molestiae",
-  "ActiveQuoteVersionId": 270,
-  "AcceptedQuoteAlternativeId": 907,
-  "UseValuesFromQuote": 347,
-  "DocumentId": 926,
-  "PoNumber": "849511",
-  "OrderComment": "nihil",
-  "PreferredEmailCulture": "brielle.watsica@breitenberg.co.uk",
+  "QuoteId": 387,
+  "SaleId": 968,
+  "QuoteConnectionId": 178,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "maiores",
+  "ActiveQuoteVersionId": 614,
+  "AcceptedQuoteAlternativeId": 971,
+  "UseValuesFromQuote": 372,
+  "DocumentId": 746,
+  "PoNumber": "1103354",
+  "OrderComment": "adipisci",
+  "PreferredEmailCulture": "ahmad_crist@weber.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 480,
-      "ERPQuoteVersionKey": "cum",
-      "QuoteId": 146,
-      "Description": "Team-oriented actuating flexibility",
-      "Number": "1368329",
+      "QuoteVersionId": 254,
+      "ERPQuoteVersionKey": "vero",
+      "QuoteId": 907,
+      "Description": "Stand-alone exuding internet solution",
+      "Number": "1488572",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 537,
-      "SentDate": "2006-04-06T17:54:03.5389365+02:00",
-      "FollowupId": 356,
-      "ExpirationDate": "2002-07-27T17:54:03.5389365+02:00",
-      "DeliveryCountryId": 782,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 628,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ut",
-      "ERPPaymentTypeKey": "est",
-      "ERPDeliveryTermsKey": "dolor",
-      "ERPDeliveryTypeKey": "enim",
-      "Rank": 162,
-      "ApprovedBy": 926,
-      "ApprovedText": "harum",
-      "ApprovedRegisteredBy": 254,
-      "ApprovedRegisteredDate": "2020-04-15T17:54:03.5389365+02:00",
-      "ExtraField1": "ratione",
-      "ExtraField2": "quia",
-      "ExtraField3": "ea",
-      "ExtraField4": "facere",
-      "ExtraField5": "qui",
-      "LastRecalculated": "2008-05-16T17:54:03.5389365+02:00",
-      "Updated": "2024-08-22T17:54:03.5389365+02:00",
-      "UpdatedAssociateId": 549,
-      "Registered": "2003-07-21T17:54:03.5389365+02:00",
-      "RegisteredAssociateId": 363,
-      "RequestAssociateId": 515,
-      "RequestComment": "deserunt",
+      "LikelyQuoteAlternativeId": 685,
+      "SentDate": "2005-01-01T03:45:23.8266945+01:00",
+      "FollowupId": 367,
+      "ExpirationDate": "2011-06-21T03:45:23.8266945+02:00",
+      "DeliveryCountryId": 565,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 669,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "omnis",
+      "ERPPaymentTypeKey": "ex",
+      "ERPDeliveryTermsKey": "quibusdam",
+      "ERPDeliveryTypeKey": "officiis",
+      "Rank": 893,
+      "ApprovedBy": 46,
+      "ApprovedText": "est",
+      "ApprovedRegisteredBy": 15,
+      "ApprovedRegisteredDate": "2001-01-24T03:45:23.8266945+01:00",
+      "ExtraField1": "natus",
+      "ExtraField2": "in",
+      "ExtraField3": "eos",
+      "ExtraField4": "enim",
+      "ExtraField5": "alias",
+      "LastRecalculated": "2007-05-26T03:45:23.8266945+02:00",
+      "Updated": "1998-03-29T03:45:23.8266945+02:00",
+      "UpdatedAssociateId": 950,
+      "Registered": "2024-09-17T03:45:23.8266945+02:00",
+      "RegisteredAssociateId": 848,
+      "RequestAssociateId": 965,
+      "RequestComment": "doloremque",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 177
     }
   }
 }

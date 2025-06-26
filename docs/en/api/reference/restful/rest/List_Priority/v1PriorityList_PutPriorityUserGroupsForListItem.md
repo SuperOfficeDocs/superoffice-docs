@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Schumm, Schmidt and Bernhard",
-    "ToolTip": "Laudantium in natus quo.",
+    "Id": 850,
+    "Name": "Hegmann-Bernhard",
+    "ToolTip": "Ducimus est ea id.",
     "Deleted": false,
-    "Rank": 1001,
-    "Type": "ea",
-    "ColorBlock": 638,
-    "IconHint": "voluptates",
+    "Rank": 825,
+    "Type": "sed",
+    "ColorBlock": 782,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "1999-02-08T17:54:08.9605465+01:00",
+    "LastChanged": "2011-12-11T03:45:29.0921677+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Lang Inc and Sons",
-        "ToolTip": "Quia inventore deleniti qui unde distinctio.",
+        "Id": 510,
+        "Name": "Larkin, Gerhold and Herzog",
+        "ToolTip": "Numquam ut et.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "est",
-        "ColorBlock": 191,
-        "IconHint": "asperiores",
-        "Selected": false,
-        "LastChanged": "2006-12-20T17:54:08.9605465+01:00",
+        "Rank": 168,
+        "Type": "placeat",
+        "ColorBlock": 81,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2018-06-15T03:45:29.0921677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Grace Delpha Leffler DVM"
+        "ExtraInfo": "alias",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Talon Elena Denesik PhD"
       }
     ],
-    "ExtraInfo": "rerum",
+    "ExtraInfo": "qui",
     "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Rosie Nola Reichert DVM"
+    "Hidden": false,
+    "FullName": "Dr. Beth Cali Brakus"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Parisian-Emard",
-    "ToolTip": "Consequatur provident magni et ut iste occaecati.",
+    "Id": 918,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Voluptatem ut quis voluptas.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "assumenda",
-    "ColorBlock": 810,
-    "IconHint": "qui",
+    "Rank": 417,
+    "Type": "et",
+    "ColorBlock": 384,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2005-11-04T17:54:08.9605465+01:00",
+    "LastChanged": "2017-06-12T03:45:29.0921677+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Kutch-Oberbrunner",
-        "ToolTip": "Quasi similique quia quia ut dolore reprehenderit veniam.",
-        "Deleted": false,
-        "Rank": 536,
-        "Type": "et",
-        "ColorBlock": 834,
-        "IconHint": "necessitatibus",
+        "Id": 343,
+        "Name": "Romaguera Group",
+        "ToolTip": "Expedita sint voluptatum voluptas nisi facilis libero praesentium.",
+        "Deleted": true,
+        "Rank": 233,
+        "Type": "consequatur",
+        "ColorBlock": 692,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2001-10-28T17:54:08.9605465+01:00",
+        "LastChanged": "1998-04-01T03:45:29.0921677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "commodi",
+        "ExtraInfo": "id",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mr. Sarah Mauricio Daugherty V",
+        "FullName": "Ms. Summer Alize Kozey V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 472
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "vel",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Lawrence Nelda Rempel DDS",
+    "FullName": "Tomasa Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 216
       }
     }
   }

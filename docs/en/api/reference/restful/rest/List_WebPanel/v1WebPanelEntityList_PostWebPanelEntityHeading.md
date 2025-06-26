@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 126,
-  "Name": "Wyman, White and Emard",
-  "Tooltip": "optio",
+  "HeadingId": 127,
+  "Name": "Keeling Group",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 332,
-  "UdListDefinitionId": 335
+  "Rank": 380,
+  "UdListDefinitionId": 461
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 346,
-  "Name": "Bednar LLC",
-  "Tooltip": "error",
+  "HeadingId": 810,
+  "Name": "Stroman LLC",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 638,
-  "UdListDefinitionId": 191,
+  "Rank": 560,
+  "UdListDefinitionId": 308,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

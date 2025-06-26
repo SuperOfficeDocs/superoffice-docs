@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 704,
-    "ColumnId": 433,
-    "FieldDefault": "et",
-    "FieldHeight": 423,
-    "FieldLabel": "aut",
-    "FieldLeft": 135,
-    "FieldTop": 700,
+    "UDefFieldId": 633,
+    "ColumnId": 344,
+    "FieldDefault": "aut",
+    "FieldHeight": 946,
+    "FieldLabel": "ut",
+    "FieldLeft": 287,
+    "FieldTop": 997,
     "FieldType": "Checkbox",
-    "FieldWidth": 578,
-    "FormatMask": "vel",
+    "FieldWidth": 548,
+    "FormatMask": "illum",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 43,
-    "LabelLeft": 234,
-    "LabelTop": 313,
-    "LabelWidth": 986,
-    "LastVersionId": 352,
-    "ListTableId": 458,
+    "IsIndexed": false,
+    "LabelHeight": 243,
+    "LabelLeft": 506,
+    "LabelTop": 468,
+    "LabelWidth": 983,
+    "LastVersionId": 468,
+    "ListTableId": 777,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 625,
-    "ProgId": "dolorem",
+    "Page1LineNo": 88,
+    "ProgId": "aliquid",
     "IsReadOnly": false,
-    "ShortLabel": "iste",
-    "TabOrder": 717,
-    "TextLength": 389,
-    "Tooltip": "quos",
-    "UdefIdentity": 755,
-    "UDListDefinitionId": 79,
+    "ShortLabel": "recusandae",
+    "TabOrder": 809,
+    "TextLength": 228,
+    "Tooltip": "veniam",
+    "UdefIdentity": 182,
+    "UDListDefinitionId": 864,
     "Justification": "Center",
-    "Version": 944,
-    "TemplateVariableName": "Adams-Labadie",
-    "HasBeenPublished": true,
-    "MdoListName": "Kilback-Deckow",
+    "Version": 281,
+    "TemplateVariableName": "Haley Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Cummerata, Lynch and Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Romaguera Inc and Sons",
-  "Context": "soluta",
+  "ProviderName": "Marks LLC",
+  "Context": "dolores",
   "DesiredEntities": [
-    "culpa",
-    "doloribus"
+    "quia",
+    "architecto"
   ],
   "Columns": [
-    "eveniet",
-    "sequi"
+    "voluptatum",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Kozey, Langosh and Heidenreich",
+      "Name": "Schaden LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Kozey, Langosh and Heidenreich",
+      "Name": "Schaden LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Deckow Group",
-      "Operator": "voluptatum",
+      "Name": "Heathcote-Ankunding",
+      "Operator": "id",
       "Values": [
-        "adipisci",
-        "dolorem"
+        "quas",
+        "ab"
       ],
       "DisplayValues": [
-        "repellat",
-        "distinctio"
+        "veritatis",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 773,
+      "InterParenthesis": 257,
       "InterOperator": "And",
-      "UniqueHash": 230
+      "UniqueHash": 294
     }
   ],
-  "ExportType": "eius",
+  "ExportType": "enim",
   "SelectedRowIds": [
-    "aut",
-    "eligendi"
+    "voluptatum",
+    "commodi"
   ],
-  "EstimatedRowCount": 510
+  "EstimatedRowCount": 410
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 612,
-  "FileName": "Schaden Group",
-  "Message": "voluptas",
+  "BatchTaskId": 505,
+  "FileName": "Lakin, Rutherford and Halvorson",
+  "Message": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 887
     }
   }
 }

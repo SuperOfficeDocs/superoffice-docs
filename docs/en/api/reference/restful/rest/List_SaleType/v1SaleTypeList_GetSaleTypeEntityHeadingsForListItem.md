@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Schneider-Weimann",
-    "ToolTip": "Voluptatem dolores et et expedita adipisci autem neque.",
+    "Id": 809,
+    "Name": "Kozey-Huel",
+    "ToolTip": "Laborum et.",
     "Deleted": true,
-    "Rank": 662,
-    "Type": "illum",
-    "ColorBlock": 736,
-    "IconHint": "ut",
+    "Rank": 857,
+    "Type": "et",
+    "ColorBlock": 342,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "1998-07-03T17:54:09.1168029+02:00",
+    "LastChanged": "2022-07-05T03:45:29.2171623+02:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Langosh-Russel",
-        "ToolTip": "Dolorum neque voluptate voluptate hic et cum sunt.",
+        "Id": 963,
+        "Name": "Price-Dach",
+        "ToolTip": "Id excepturi est corporis qui sit.",
         "Deleted": true,
-        "Rank": 333,
-        "Type": "voluptatibus",
-        "ColorBlock": 72,
-        "IconHint": "laudantium",
+        "Rank": 576,
+        "Type": "non",
+        "ColorBlock": 19,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2001-04-26T17:54:09.1168029+02:00",
+        "LastChanged": "2000-02-20T03:45:29.2171623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Mitchell O'Hara",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Ms. Myriam Jed Greenfelder DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldLength": 85
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ora Rico Brekke II",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Mr. Mia McClure III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 278
       }
     }
   }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 101
+  "ChatSessionId": 237
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 812,
-  "TopicId": 942,
+  "ChatSessionId": 302,
+  "TopicId": 848,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "quae",
-  "CustomerName": "Erdman, Johns and Waters",
-  "CustomerEmail": "helene.wintheiser@osinski.co.uk",
-  "CustomerPhone": "564-846-7560",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Zemlak LLC",
+  "CustomerAlias": "ullam",
+  "CustomerHost": "necessitatibus",
+  "CustomerName": "Hamill, Franecki and Zemlak",
+  "CustomerEmail": "daron@prosacco.com",
+  "CustomerPhone": "319-997-4420 x392",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Wehner-Stoltenberg",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "porro",
-  "WhenRequested": "2022-06-28T17:54:02.7264757+02:00",
-  "WhenStarted": "2010-11-25T17:54:02.7264757+01:00",
-  "WhenEnded": "2004-02-10T17:54:02.7264757+01:00",
-  "WhenIdle": "2020-09-25T17:54:02.7264757+02:00",
-  "WhenFetched": "1999-06-11T17:54:02.7264757+02:00",
-  "SessionKey": "vero",
-  "InitialQueuePos": 344,
-  "AlertLevel": 879,
-  "Rank": 658,
+  "FirstMessage": "magnam",
+  "LastMessage": "consectetur",
+  "WhenRequested": "2022-04-16T03:45:23.0298416+02:00",
+  "WhenStarted": "2006-10-23T03:45:23.0298416+02:00",
+  "WhenEnded": "2010-01-24T03:45:23.0298416+01:00",
+  "WhenIdle": "2017-10-08T03:45:23.0298416+02:00",
+  "WhenFetched": "2010-05-15T03:45:23.0298416+02:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 907,
+  "AlertLevel": 543,
+  "Rank": 737,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 879,
+  "Rating": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 519
     }
   }
 }

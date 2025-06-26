@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Corwin, Price and Streich",
-  "StorageKey": "velit",
+  "StorageType": "et",
+  "ProviderName": "Little, Koepp and Mitchell",
+  "StorageKey": "alias",
   "DesiredColumnNames": [
-    "Dickinson, Davis and Stracke",
-    "Reynolds Group"
+    "Donnelly, Stoltenberg and Zieme",
+    "Osinski, Dietrich and Schinner"
   ],
   "StaticColumns": [
-    "nostrum",
-    "consequatur"
+    "dolorem",
+    "esse"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Runolfsson Inc and Sons",
-      "Operator": "distinctio",
+      "Name": "Ullrich-Dickinson",
+      "Operator": "totam",
       "Values": [
-        "est",
-        "quam"
+        "quibusdam",
+        "modi"
       ],
       "DisplayValues": [
-        "at",
-        "doloremque"
+        "fugiat",
+        "saepe"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 709,
+      "InterParenthesis": 702,
       "InterOperator": "And",
-      "UniqueHash": 301
+      "UniqueHash": 675
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rowe Group",
-      "DisplayTooltip": "debitis",
-      "DisplayType": "quia",
-      "CanOrderBy": false,
-      "Name": "Yost Group",
+      "DisplayName": "Murazik Group",
+      "DisplayTooltip": "totam",
+      "DisplayType": "sequi",
+      "CanOrderBy": true,
+      "Name": "Emmerich Group",
       "CanRestrictBy": false,
-      "RestrictionType": "asperiores",
-      "RestrictionListName": "Shanahan LLC",
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Glover, Nader and Klein",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "molestias",
-      "IconHint": "ut",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "accusantium",
+      "Width": "eius",
+      "IconHint": "possimus",
+      "HeadingIconHint": "ex"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gerhold, Runolfsson and Murphy",
-      "PrimaryKey": 401,
+      "EntityName": "Russel-Corwin",
+      "PrimaryKey": 390,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ratione",
-          "TooltipHint": "numquam",
-          "LinkHint": "molestiae"
+          "DisplayValue": "sed",
+          "TooltipHint": "eum",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "accusantium",
-      "StyleHint": "inventore",
+      "LinkHint": "est",
+      "StyleHint": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldType": "System.String",
+          "FieldLength": 65
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hauck, Hoeger and Jast",
-      "Description": "Extended user-facing extranet",
-      "Rank": 737,
+      "Name": "Pacocha LLC",
+      "Description": "Organized national paradigm",
+      "Rank": 818,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hauck, Hoeger and Jast",
-      "Description": "Extended user-facing extranet",
-      "Rank": 737,
+      "Name": "Pacocha LLC",
+      "Description": "Organized national paradigm",
+      "Rank": 818,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   }
 }

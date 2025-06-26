@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Weber-Runolfsson",
-    "ToolTip": "Eos officia cum ratione.",
-    "Deleted": false,
-    "Rank": 267,
-    "Type": "explicabo",
-    "ColorBlock": 37,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2005-11-14T17:54:08.7730557+01:00",
+    "Id": 428,
+    "Name": "Murphy LLC",
+    "ToolTip": "Dolor sit aliquid nihil ab totam quo voluptas.",
+    "Deleted": true,
+    "Rank": 178,
+    "Type": "ullam",
+    "ColorBlock": 698,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2000-05-12T03:45:28.9517993+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Gottlieb-Swaniawski",
-        "ToolTip": "Ex non.",
-        "Deleted": false,
-        "Rank": 63,
-        "Type": "ducimus",
-        "ColorBlock": 650,
-        "IconHint": "quo",
+        "Id": 959,
+        "Name": "Schinner, Hermiston and Treutel",
+        "ToolTip": "In alias eveniet.",
+        "Deleted": true,
+        "Rank": 308,
+        "Type": "esse",
+        "ColorBlock": 441,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2018-06-10T17:54:08.7730557+02:00",
+        "LastChanged": "2014-05-22T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Winfield Wilkinson"
+        "ExtraInfo": "animi",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Allen Hartmann"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "sint",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Katheryn Hansen"
+    "FullName": "Mrs. Augustus Mante"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Wilderman LLC",
-    "ToolTip": "Consequatur dolores.",
-    "Deleted": true,
-    "Rank": 650,
-    "Type": "minima",
-    "ColorBlock": 965,
-    "IconHint": "delectus",
+    "Id": 172,
+    "Name": "Haag-Lubowitz",
+    "ToolTip": "Nemo corrupti consectetur numquam corrupti repellendus.",
+    "Deleted": false,
+    "Rank": 459,
+    "Type": "nam",
+    "ColorBlock": 155,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2021-02-23T17:54:08.7730557+01:00",
+    "LastChanged": "2022-12-11T03:45:28.9517993+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Braun LLC",
-        "ToolTip": "Autem aut cum voluptatum eos.",
-        "Deleted": false,
-        "Rank": 292,
-        "Type": "qui",
-        "ColorBlock": 457,
-        "IconHint": "nobis",
-        "Selected": true,
-        "LastChanged": "2021-03-08T17:54:08.7730557+01:00",
+        "Id": 688,
+        "Name": "Walter LLC",
+        "ToolTip": "Voluptatibus error.",
+        "Deleted": true,
+        "Rank": 716,
+        "Type": "voluptas",
+        "ColorBlock": 238,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2020-08-01T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Mr. Newton Schuyler Schowalter PhD",
+        "ExtraInfo": "nisi",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Dr. Kamryn Filiberto Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldType": "System.String",
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "labore",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Vern Daniel",
+    "FullName": "Octavia Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 533
       }
     }
   }

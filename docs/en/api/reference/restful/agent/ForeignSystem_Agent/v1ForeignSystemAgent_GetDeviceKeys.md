@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heaney Inc and Sons",
-  "DeviceName": "Renner LLC"
+  "ApplicationName": "Lueilwitz, Ziemann and Baumbach",
+  "DeviceName": "Ebert LLC"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ad",
-    "Value": "blanditiis",
-    "RecordId": 810,
-    "CreatedDate": "2019-05-05T17:54:03.1795788+02:00",
-    "UpdatedDate": "2018-04-29T17:54:03.1795788+02:00",
-    "UpdatedBy": "magnam",
-    "CreatedBy": "ratione",
-    "TableName": "Boyer, Reichel and Waelchi",
+    "Key": "expedita",
+    "Value": "autem",
+    "RecordId": 665,
+    "CreatedDate": "2012-10-20T03:45:23.498579+02:00",
+    "UpdatedDate": "2024-08-03T03:45:23.498579+02:00",
+    "UpdatedBy": "vel",
+    "CreatedBy": "id",
+    "TableName": "Altenwerth-Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

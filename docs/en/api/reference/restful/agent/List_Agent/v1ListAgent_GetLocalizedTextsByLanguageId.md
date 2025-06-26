@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 864
+  "LanguageId": 447
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 947,
-    "ResourceId": 170,
-    "Text": "fuga",
+    "LanguageId": 882,
+    "ResourceId": 504,
+    "Text": "perspiciatis",
     "Type": "Column",
-    "LocalizedTextId": 784,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 223,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldLength": 731
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,31 +83,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 843,
-  "Name": "Bartell Inc and Sons",
-  "Rank": 402,
-  "Tooltip": "magnam",
-  "Icon": "ut",
-  "DefaultTicketStatus": 176,
+  "TicketTypeId": 931,
+  "Name": "Grimes-Okuneva",
+  "Rank": 75,
+  "Tooltip": "nam",
+  "Icon": "amet",
+  "DefaultTicketStatus": 434,
   "TicketStatuses": [
-    453,
-    851
+    598,
+    66
   ],
-  "DefaultTicketPriority": 31,
+  "DefaultTicketPriority": 848,
   "TicketPriorities": [
-    752,
-    426
+    848,
+    48
   ],
-  "ReplyTemplate": 394,
+  "ReplyTemplate": 692,
   "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    58,
-    877
+    667,
+    1002
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 129
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/Role/{roleId}/DataRight/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "occaecati",
-  "2": "aut"
+  "1": "est",
+  "2": "aperiam"
 }
 ```

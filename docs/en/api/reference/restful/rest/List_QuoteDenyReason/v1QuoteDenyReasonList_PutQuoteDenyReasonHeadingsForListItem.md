@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Anderson Group",
-    "ToolTip": "Quibusdam hic eligendi sit blanditiis voluptatibus.",
-    "Deleted": true,
-    "Rank": 177,
-    "Type": "dicta",
-    "ColorBlock": 836,
-    "IconHint": "et",
+    "Id": 999,
+    "Name": "Kreiger Inc and Sons",
+    "ToolTip": "Cum reiciendis dolorem dolorum voluptatem cum quis.",
+    "Deleted": false,
+    "Rank": 993,
+    "Type": "excepturi",
+    "ColorBlock": 774,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2004-08-08T17:54:09.0230434+02:00",
+    "LastChanged": "2025-01-07T03:45:29.1859346+01:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Wilderman Inc and Sons",
-        "ToolTip": "Ut voluptas.",
+        "Id": 660,
+        "Name": "Simonis-Schuppe",
+        "ToolTip": "Laudantium consequatur.",
         "Deleted": false,
-        "Rank": 527,
-        "Type": "consequatur",
-        "ColorBlock": 802,
-        "IconHint": "qui",
+        "Rank": 881,
+        "Type": "adipisci",
+        "ColorBlock": 301,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "1998-08-08T17:54:09.0230434+02:00",
+        "LastChanged": "2016-08-12T03:45:29.1859346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Ole Rogers Blick PhD"
+        "ExtraInfo": "ex",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Priscilla Von"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Elvis Dietrich"
+    "ExtraInfo": "dolore",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Eliane Milford Nader II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Kuphal-Simonis",
-    "ToolTip": "Voluptatem voluptatem et et est.",
+    "Id": 199,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Voluptate esse.",
     "Deleted": true,
-    "Rank": 756,
-    "Type": "ab",
-    "ColorBlock": 281,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2014-04-19T17:54:09.0230434+02:00",
+    "Rank": 639,
+    "Type": "in",
+    "ColorBlock": 927,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2012-04-17T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Johnson, Mueller and Quigley",
-        "ToolTip": "Ut soluta earum quam.",
-        "Deleted": false,
-        "Rank": 913,
-        "Type": "delectus",
-        "ColorBlock": 271,
-        "IconHint": "suscipit",
+        "Id": 501,
+        "Name": "Stamm-Walsh",
+        "ToolTip": "Vel et possimus reprehenderit qui sit neque.",
+        "Deleted": true,
+        "Rank": 878,
+        "Type": "nihil",
+        "ColorBlock": 463,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2014-06-08T17:54:09.0230434+02:00",
+        "LastChanged": "2024-11-28T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "dolores",
+        "ExtraInfo": "ab",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Tiffany Dare",
+        "FullName": "Dr. Beverly McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldLength": 781
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Mr. Joseph Lakin Jr.",
+    "ExtraInfo": "autem",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Miss Reva Weimann MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 285
       }
     }
   }

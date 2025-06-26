@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183
+  "Id": 32
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 269,
-  "Rank": 429,
-  "DefaultTask": 104,
-  "DefaultTaskText": "aut",
-  "IsVisual": false,
-  "LastGenerated": "2000-07-30T17:54:03.5545604+02:00",
-  "Description": "Decentralized context-sensitive system engine",
-  "Name": "Kessler LLC",
-  "StatusMonitorId": 640,
-  "PictureId": 147,
-  "NeedsUpdate": true,
+  "OwnerTable": 397,
+  "Rank": 691,
+  "DefaultTask": 777,
+  "DefaultTaskText": "ut",
+  "IsVisual": true,
+  "LastGenerated": "2020-12-31T03:45:23.8423206+01:00",
+  "Description": "Re-engineered empowering pricing structure",
+  "Name": "Gaylord-Hickle",
+  "StatusMonitorId": 769,
+  "PictureId": 288,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 29,
-  "NumNeedUpdate": 824,
-  "GenerationStart": "2010-06-07T17:54:03.5545604+02:00",
+  "NumMatches": 419,
+  "NumNeedUpdate": 532,
+  "GenerationStart": "2020-07-14T03:45:23.8423206+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

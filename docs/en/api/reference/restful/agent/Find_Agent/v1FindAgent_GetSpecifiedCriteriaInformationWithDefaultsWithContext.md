@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Hickle Group",
-  "StorageKey": "est",
+  "StorageType": "voluptatem",
+  "ProviderName": "Franecki LLC",
+  "StorageKey": "dolorum",
   "DesiredColumnNames": [
-    "Hermann-Schaden",
-    "Braun-Kertzmann"
+    "Kertzmann Group",
+    "Kreiger-Casper"
   ],
   "StaticColumns": [
-    "iste",
-    "voluptatem"
+    "nisi",
+    "magni"
   ],
-  "Context": "quia"
+  "Context": "aliquid"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stokes, Haag and Thompson",
-      "Operator": "sit",
+      "Name": "Dibbert, Murray and Parker",
+      "Operator": "ullam",
       "Values": [
-        "voluptas",
-        "a"
+        "ipsum",
+        "perferendis"
       ],
       "DisplayValues": [
-        "adipisci",
-        "deleniti"
+        "voluptate",
+        "maiores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 397,
+      "InterParenthesis": 374,
       "InterOperator": "And",
-      "UniqueHash": 103
+      "UniqueHash": 440
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Pacocha, Wuckert and Cruickshank",
-      "DisplayTooltip": "illum",
-      "DisplayType": "consequatur",
-      "CanOrderBy": false,
-      "Name": "Berge, Altenwerth and Medhurst",
-      "CanRestrictBy": false,
-      "RestrictionType": "beatae",
-      "RestrictionListName": "Yundt, Gerlach and Buckridge",
+      "DisplayName": "Smith-Cassin",
+      "DisplayTooltip": "optio",
+      "DisplayType": "facere",
+      "CanOrderBy": true,
+      "Name": "Ziemann LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "quam",
+      "RestrictionListName": "Hintz, Simonis and Schaden",
       "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "minus",
-      "IconHint": "nihil",
-      "HeadingIconHint": "vero"
+      "ExtraInfo": "enim",
+      "Width": "autem",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Funk-Graham",
-      "PrimaryKey": 385,
+      "EntityName": "King, Larson and Marvin",
+      "PrimaryKey": 866,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "necessitatibus",
-          "TooltipHint": "qui",
-          "LinkHint": "doloremque"
+          "DisplayValue": "occaecati",
+          "TooltipHint": "magni",
+          "LinkHint": "rem"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "non",
+      "LinkHint": "sint",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Leuschke-Homenick",
-      "Description": "Virtual attitude-oriented service-desk",
-      "Rank": 744,
+      "Name": "Cormier-Schamberger",
+      "Description": "Versatile background definition",
+      "Rank": 839,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Leuschke-Homenick",
-      "Description": "Virtual attitude-oriented service-desk",
-      "Rank": 744,
+      "Name": "Cormier-Schamberger",
+      "Description": "Versatile background definition",
+      "Rank": 839,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   }
 }

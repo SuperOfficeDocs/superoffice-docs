@@ -816,7 +816,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=sale/updatedByFullName,appointment/associate/locationAddress,document/documentPublish/isPublished,document/associate/userName,projectMember/personExtra/y_rental/x_contact
+GET /api/v1/archive/ProjectSelectionV2?$select=getNoRows,sale/contactId,sale/associate/ejDisplayName,sale/associate/otherGroups,appointment/associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

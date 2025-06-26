@@ -132,17 +132,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 584,
-  "StartTime": "1999-07-04T17:54:02.3671193+02:00",
-  "EndTime": "2014-02-18T17:54:02.3671193+01:00",
-  "Count": 391,
+  "ProjectId": 738,
+  "StartTime": "2005-01-13T03:45:22.6861022+01:00",
+  "EndTime": "2017-01-11T03:45:22.6861022+01:00",
+  "Count": 86,
   "TaskIds": [
-    831,
-    112
+    852,
+    103
   ]
 }
 ```
@@ -155,66 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 518,
-    "StartDate": "2001-01-21T17:54:02.3671193+01:00",
-    "EndDate": "2017-10-23T17:54:02.3671193+02:00",
+    "AppointmentId": 383,
+    "StartDate": "2015-03-06T03:45:22.6861022+01:00",
+    "EndDate": "2008-07-22T03:45:22.6861022+02:00",
     "Type": "BookingForChecklist",
-    "Task": "suscipit",
-    "AssociateFullName": "Alayna Boyle",
-    "ContactName": "Boyle-Hickle",
-    "Description": "Synergistic disintermediate project",
-    "PersonFullName": "Jalyn Kling",
-    "PersonId": 153,
-    "ContactId": 627,
-    "ProjectId": 126,
-    "ProjectName": "Kuhn-Schmitt",
-    "IsPublished": true,
-    "AssociateId": 122,
-    "ColorIndex": 999,
+    "Task": "in",
+    "AssociateFullName": "Mrs. Dudley Danika Stroman IV",
+    "ContactName": "Bode, Graham and Dickinson",
+    "Description": "Multi-lateral 5th generation capability",
+    "PersonFullName": "Darius Thiel",
+    "PersonId": 250,
+    "ContactId": 109,
+    "ProjectId": 788,
+    "ProjectName": "Murphy LLC",
+    "IsPublished": false,
+    "AssociateId": 424,
+    "ColorIndex": 203,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 246,
-    "PriorityName": "Brown-Emmerich",
+    "PriorityId": 336,
+    "PriorityName": "Zemlak, Torphy and Hansen",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2018-12-27T17:54:02.3671193+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2024-03-31T03:45:22.6861022+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-05-06T17:54:02.3671193+02:00",
-    "RecurringEndDate": "2019-05-07T17:54:02.3671193+02:00",
-    "MotherId": 488,
-    "AssignedBy": 462,
-    "AssignedByFullName": "Terrence Schneider",
-    "RejectReason": "productize front-end platforms",
-    "Location": "maxime",
-    "AlarmLeadTime": "odit",
-    "SaleId": 694,
-    "SaleName": "Orn Inc and Sons",
-    "AssociateName": "Keeling Inc and Sons",
-    "CreatedDate": "2012-12-24T17:54:02.3671193+01:00",
-    "CreatedBy": "debitis",
-    "CreatedByFullName": "Brandyn Ledner III",
-    "CreatedByAssociateId": 408,
+    "RecurringStartDate": "2011-06-13T03:45:22.6861022+02:00",
+    "RecurringEndDate": "2019-04-10T03:45:22.6861022+02:00",
+    "MotherId": 167,
+    "AssignedBy": 708,
+    "AssignedByFullName": "Ms. Junius Reilly",
+    "RejectReason": "",
+    "Location": "corrupti",
+    "AlarmLeadTime": "et",
+    "SaleId": 30,
+    "SaleName": "Goyette, Davis and Hagenes",
+    "AssociateName": "Welch, Brekke and Kovacek",
+    "CreatedDate": "2010-08-13T03:45:22.6861022+02:00",
+    "CreatedBy": "laborum",
+    "CreatedByFullName": "Mr. Ludwig Itzel Borer II",
+    "CreatedByAssociateId": 651,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 493,
-    "Title": "ut",
-    "Agenda": "excepturi",
-    "InternalNotes": "esse",
+    "PreferredTZLocation": 556,
+    "Title": "doloribus",
+    "Agenda": "sunt",
+    "InternalNotes": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

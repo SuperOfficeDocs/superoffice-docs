@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mueller, Ritchie and Moen",
-  "ProviderName": "Hintz-Swift",
-  "Context": "ut",
-  "OwnerKeys": "libero",
+  "GuiName": "Johnston-Romaguera",
+  "ProviderName": "Sauer-Hartmann",
+  "Context": "dignissimos",
+  "OwnerKeys": "maiores",
   "ChosenColumns": [
-    "veritatis",
-    "quod"
+    "consequatur",
+    "saepe"
   ]
 }
 ```

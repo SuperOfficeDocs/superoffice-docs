@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 46,
-  "Name": "Hackett LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 505,
-  "UdListDefinitionId": 468
+  "HeadingId": 648,
+  "Name": "Bernier, Legros and Hirthe",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 285,
+  "UdListDefinitionId": 19
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 382,
-  "Name": "Wiza-Hammes",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 128,
-  "UdListDefinitionId": 990,
+  "HeadingId": 664,
+  "Name": "Kuhlman, Hackett and Conroy",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 83,
+  "UdListDefinitionId": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 524
     }
   }
 }

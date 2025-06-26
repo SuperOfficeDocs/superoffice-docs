@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Wilderman, Pacocha and Skiles",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 732,
+  "Id": 99,
+  "Name": "Donnelly, Jakubowski and Murphy",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "Rank": 746,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 5
     }
   },
   "_Links": {

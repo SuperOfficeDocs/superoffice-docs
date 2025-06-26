@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 264,
-  "Name": "Bogisich-Kuphal",
+  "WebhookId": 709,
+  "Name": "Treutel LLC",
   "Events": [
-    "et",
-    "est"
+    "quidem",
+    "fugiat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "perferendis",
+  "Secret": "saepe",
   "State": "Active",
-  "Type": "et",
+  "Type": "alias",
   "Headers": {
-    "Headers1": "delectus",
-    "Headers2": "repellendus"
+    "Headers1": "voluptate",
+    "Headers2": "dolores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-08-26T17:54:03.9139184+02:00",
+  "Registered": "2020-08-31T03:45:24.2016834+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-05-19T17:54:03.9139184+02:00",
+  "Updated": "1998-04-14T03:45:24.2016834+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "mabelle_zieme@okunevagreenfelder.com"
+  "ErrorsEmail": "deondre.klein@russel.info"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 555,
-  "Name": "Parisian, Grant and Bahringer",
+  "WebhookId": 201,
+  "Name": "Monahan-Rolfson",
   "Events": [
-    "repudiandae",
-    "distinctio"
+    "quibusdam",
+    "laborum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "error",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "odio",
+  "Type": "et",
   "Headers": {
-    "Headers1": "minus",
-    "Headers2": "culpa"
+    "Headers1": "alias",
+    "Headers2": "in"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-12-12T17:54:03.9295422+01:00",
+  "Registered": "2019-01-13T03:45:24.2173078+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-03-29T17:54:03.9295422+02:00",
+  "Updated": "2014-03-04T03:45:24.2173078+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sven@luettgenhartmann.co.uk"
+  "ErrorsEmail": "dane.torphy@mosciski.us"
 }
 ```

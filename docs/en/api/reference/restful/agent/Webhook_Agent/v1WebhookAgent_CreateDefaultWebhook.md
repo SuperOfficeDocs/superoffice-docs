@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 62,
-  "Name": "Stroman, Pfeffer and Roberts",
+  "WebhookId": 89,
+  "Name": "Schroeder-McDermott",
   "Events": [
-    "aperiam",
-    "dolores"
+    "eveniet",
+    "sequi"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "id",
+  "Secret": "iure",
   "State": "Active",
-  "Type": "error",
+  "Type": "atque",
   "Headers": {
-    "Headers1": "fugit",
-    "Headers2": "praesentium"
+    "Headers1": "inventore",
+    "Headers2": "mollitia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-09-07T17:54:03.9139184+02:00",
+  "Registered": "2015-10-25T03:45:24.2016834+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-09-22T17:54:03.9139184+02:00",
+  "Updated": "2006-05-02T03:45:24.2016834+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "beth_keebler@jakubowski.uk"
+  "ErrorsEmail": "alexandro_rohan@herzogadams.info"
 }
 ```

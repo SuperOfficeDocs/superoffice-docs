@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 148,
-    "Name": "Cassin Group",
-    "Tooltip": "ut",
-    "SaveInDb": 539,
-    "Filename": "tempore",
-    "DefaultOref": "natus",
+    "DocumentTemplateId": 742,
+    "Name": "Bogisich, Hettinger and Batz",
+    "Tooltip": "similique",
+    "SaveInDb": 424,
+    "Filename": "a",
+    "DefaultOref": "voluptas",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 464,
-    "IntentId": 617,
-    "IsDefaultPublished": false,
-    "Rank": 601,
-    "LoadTemplateFromPlugin": 585,
-    "MimeType": "est",
+    "AutoeventId": 746,
+    "IntentId": 437,
+    "IsDefaultPublished": true,
+    "Rank": 520,
+    "LoadTemplateFromPlugin": 699,
+    "MimeType": "voluptas",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 261,
+    "DocumentTypeKey": 482,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "toy_waelchi@reynolds.us",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "laney_kuphal@emard.biz",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "edd_becker@hodkiewicz.name",
+    "SenderEmailAddress": "macey@heathcoteschumm.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 292
       }
     }
   }

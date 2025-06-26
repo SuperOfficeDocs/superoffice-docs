@@ -116,47 +116,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 148,
-  "Name": "McGlynn-Abbott",
-  "Tooltip": "consequatur",
-  "Rank": 809,
+  "SaleTypeId": 528,
+  "Name": "Fadel-Jacobs",
+  "Tooltip": "harum",
+  "Rank": 931,
   "DurationUnit": "Century",
-  "SaleDuration": 896,
-  "SaleTypeCatId": 676,
+  "SaleDuration": 135,
+  "SaleTypeCatId": 748,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 944,
-  "QuoteLinesTemplate": 564,
-  "ConfirmationLinesTemplate": 374,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 618,
-  "MinEarningPercent": 712,
-  "GroupQuoteLinesBy": 627,
-  "SortGroupLinesBy": 630,
+  "DefaultQuoteValidity": 26,
+  "QuoteLinesTemplate": 525,
+  "ConfirmationLinesTemplate": 208,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 588,
+  "MinEarningPercent": 46,
+  "GroupQuoteLinesBy": 463,
+  "SortGroupLinesBy": 267,
   "Stages": [
     {
-      "Id": 302,
-      "Name": "Jacobson, Botsford and Champlin",
-      "ToolTip": "Reprehenderit numquam reprehenderit omnis vitae officia.",
+      "Id": 710,
+      "Name": "Fadel Group",
+      "ToolTip": "Adipisci quis iure.",
       "Deleted": false,
-      "Rank": 547,
-      "Type": "voluptatem",
-      "ColorBlock": 318,
-      "IconHint": "sint",
+      "Rank": 738,
+      "Type": "velit",
+      "ColorBlock": 158,
+      "IconHint": "laborum",
       "Selected": false,
-      "LastChanged": "2022-05-31T17:54:09.1011806+02:00",
+      "LastChanged": "2022-07-22T03:45:29.2171623+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "vitae",
+      "ExtraInfo": "qui",
+      "StyleHint": "delectus",
       "Hidden": false,
-      "FullName": "Dr. Abbigail Edison Stroman MD"
+      "FullName": "Mrs. Eulalia Walter DVM"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 489,
-  "Name": "Cronin-Schroeder",
-  "Tooltip": "temporibus",
-  "Rank": 17,
+  "SaleTypeId": 751,
+  "Name": "Wuckert, Wiegand and Klein",
+  "Tooltip": "architecto",
+  "Rank": 5,
   "DurationUnit": "Century",
-  "SaleDuration": 773,
-  "SaleTypeCatId": 222,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 459,
-  "QuoteLinesTemplate": 896,
-  "ConfirmationLinesTemplate": 652,
+  "SaleDuration": 16,
+  "SaleTypeCatId": 868,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 955,
+  "QuoteLinesTemplate": 717,
+  "ConfirmationLinesTemplate": 546,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 12,
-  "MinEarningPercent": 243,
-  "GroupQuoteLinesBy": 882,
-  "SortGroupLinesBy": 661,
+  "MaxDiscountPercent": 72,
+  "MinEarningPercent": 575,
+  "GroupQuoteLinesBy": 176,
+  "SortGroupLinesBy": 977,
   "Stages": [
     {
-      "Id": 809,
-      "Name": "Pagac, Crist and Hodkiewicz",
-      "ToolTip": "Atque velit eum rerum dicta quia officia quia.",
-      "Deleted": true,
-      "Rank": 22,
-      "Type": "eveniet",
-      "ColorBlock": 689,
-      "IconHint": "nihil",
-      "Selected": false,
-      "LastChanged": "2008-08-20T17:54:09.1011806+02:00",
+      "Id": 434,
+      "Name": "Rogahn Inc and Sons",
+      "ToolTip": "Rerum dicta quis.",
+      "Deleted": false,
+      "Rank": 198,
+      "Type": "quia",
+      "ColorBlock": 363,
+      "IconHint": "qui",
+      "Selected": true,
+      "LastChanged": "2010-01-12T03:45:29.2171623+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Prof. Nannie Jenkins",
+      "ExtraInfo": "vitae",
+      "StyleHint": "at",
+      "Hidden": false,
+      "FullName": "Carley Gorczany V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 267
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

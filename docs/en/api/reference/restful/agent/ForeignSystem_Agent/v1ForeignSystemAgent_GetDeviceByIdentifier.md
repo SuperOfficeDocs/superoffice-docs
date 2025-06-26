@@ -87,9 +87,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kulas, Little and Langosh",
-  "DeviceName": "Renner, Wisozk and Terry",
-  "DeviceIdentifier": "autem"
+  "ApplicationName": "Schmeler-Harvey",
+  "DeviceName": "Bogan, Vandervort and Gutkowski",
+  "DeviceIdentifier": "alias"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 799,
-  "Name": "Collier Inc and Sons",
-  "CreatedDate": "1999-11-27T17:54:03.1639551+01:00",
-  "UpdatedDate": "2021-11-12T17:54:03.1639551+01:00",
-  "AssociateFullName": "Jaquan Sandy Haag II",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "nemo",
-  "DeviceIdentifier": "possimus",
-  "ForeignAppId": 788,
+  "ForeignDeviceId": 258,
+  "Name": "Runolfsson, Walsh and Crooks",
+  "CreatedDate": "2003-09-21T03:45:23.4829546+02:00",
+  "UpdatedDate": "1999-10-02T03:45:23.4829546+02:00",
+  "AssociateFullName": "Miss Lewis McCullough Sr.",
+  "CreatedBy": "vitae",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

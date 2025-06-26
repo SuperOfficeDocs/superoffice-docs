@@ -51,27 +51,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|32|"Tv""lg-GGTjeAll||static|
-|35|#Tv##lg-GGTjeAll||static|
-|36|%Tv%%lg-GGTjeAll||static|
-|37|&Tv&&lg-GGTjeAll||static|
-|34|*Tv**lg-GGTjeAll||static|
-|39|?Tv??lg-GGTjeAll||static|
-|40|<Tv<<lg-GGTjeAll||static|
-|38|=Tv==lg-GGTjeAll||static|
-|41|>Tv>>lg-GGTjeAll||static|
-|27|Ætvæælg-GGTjeAll||static|
 |73|A﻿rchived reports made with reporter||dynamic|
 |1|Atvaalg-AAAdmAllKam||static|
-|29|Åtvåålg-GGTjeAll||static|
-|52|Ätväälg-GGTjeAll||static|
-|55|Customers||dynamic|
-|21|Etveelg-HHMarAllKam||static|
+|2|Uffaaff-AAAdmMedKon||static|
+|3|Ukkaakk-AAAdmGruPri||static|
+|4|Uppaapp-AAAdmAllFas||static|
+|5|Utvuulg-AAAdmAll||static|
+|6|Ubbaabb-BBSalAllKam||static|
+|7|Uggaagg-BBSalMedKon||static|
+|8|Ullaall-BBSalGruPri||static|
+|9|Uqqaaqq-BBSalAllFas||static|
+|10|Uvvaavv-BBSalAll||static|
+|16|Uddaadd-DDSerAllKam||static|
 |17|Itviilg-DDSerMedKon||static|
-|30|Ötvöölg-GGTjeAll||static|
-|28|Øtvøølg-GGTjeAll||static|
-|23|Otvoolg-HHMarGruPri||static|
-|54|Selection for creation of external users||static|
+|18|Unnaann-DDSerGruPri||static|
+|19|Ussaass-DDSerAllFas||static|
+|20|Uxxaaxx-DDSerAll||static|
+|11|Uccaacc-FFTjeAllKam||static|
+|12|Uhhaahh-FFTjeMedKon||static|
+|13|Ummaamm-FFTjeGruPri||static|
+|14|Urraarr-FFTjeAllFas||static|
+|15|Uwwaaww-FFTjeAll||static|
 
 
 ## Related MDO Lists

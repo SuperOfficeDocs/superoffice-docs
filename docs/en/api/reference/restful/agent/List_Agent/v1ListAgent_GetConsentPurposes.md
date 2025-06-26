@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 770,
-    "Name": "Hansen LLC",
-    "ConsentText": "velit",
-    "FormText": "nihil",
-    "Key": "aut",
-    "Tooltip": "quas",
-    "Active": 732,
-    "UpdatedDate": "2009-06-24T17:54:03.2892052+02:00",
+    "ConsentPurposeId": 522,
+    "Name": "Wunsch Inc and Sons",
+    "ConsentText": "consequatur",
+    "FormText": "sequi",
+    "Key": "est",
+    "Tooltip": "voluptatem",
+    "Active": 802,
+    "UpdatedDate": "2019-06-15T03:45:23.5927257+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 190,
-    "PrivacyStatementDesc": "sit",
+    "Deleted": false,
+    "Rank": 579,
+    "PrivacyStatementDesc": "autem",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 803
       }
     }
   }

@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 908,
-  "Name": "Stokes, Quigley and Mertz",
-  "Tooltip": "nisi",
-  "Rank": 90,
-  "Rate": 30086.399999999998,
-  "Units": 18409.115999999998,
-  "Deleted": true
+  "CurrencyId": 297,
+  "Name": "Jast-Hoeger",
+  "Tooltip": "officia",
+  "Rank": 887,
+  "Rate": 29591.228,
+  "Units": 7527.8679999999995,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 897,
-  "Name": "McDermott-Beatty",
-  "Tooltip": "explicabo",
-  "Rank": 927,
-  "Rate": 16832.714,
-  "Units": 8521.346,
+  "CurrencyId": 522,
+  "Name": "Gusikowski, Lindgren and Steuber",
+  "Tooltip": "excepturi",
+  "Rank": 705,
+  "Rate": 24272.829999999998,
+  "Units": 5681.942,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

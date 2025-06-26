@@ -809,7 +809,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=sale/earningPercent,appointment/date,appointment/associate/mrMrs,appointment/associate/assocName,document/updatedDate
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/isLocation,projectUdef/SuperOffice:6,sale/updatedBy,projectMember/createdByForm,projectMember/correspondingAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

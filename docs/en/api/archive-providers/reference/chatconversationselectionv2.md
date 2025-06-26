@@ -492,7 +492,7 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=associate/locationAddress,person/kanaLastName,person/personUdef/SuperOffice:5,contact/email/emailLastBounce,contact/contactExtra/x_contact_date
+GET /api/v1/archive/ChatConversationSelectionV2?$select=personId,associate/usergroup,person/correspondingAssociate/ejUserId,person/correspondingAssociate/locationAddress,person/subscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

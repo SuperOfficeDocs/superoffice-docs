@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 392,
-  "Currency": "minus"
+  "QuoteConnectionId": 203,
+  "Currency": "repellendus"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 142,
-    "ERPPriceListKey": "architecto",
-    "QuoteConnectionId": 136,
-    "Name": "Moen, Wyman and Rolfson",
-    "Description": "Team-oriented client-server adapter",
-    "Currency": "atque",
-    "CurrencyName": "O'Connell, Kreiger and Bashirian",
-    "ValidFrom": "2001-01-30T17:54:03.5233118+01:00",
-    "ValidTo": "2015-05-10T17:54:03.5233118+02:00",
-    "IsActive": true,
+    "PriceListId": 98,
+    "ERPPriceListKey": "deserunt",
+    "QuoteConnectionId": 7,
+    "Name": "Streich, Schmitt and Kirlin",
+    "Description": "Assimilated global monitoring",
+    "Currency": "possimus",
+    "CurrencyName": "Bailey-Feeney",
+    "ValidFrom": "2018-05-02T03:45:23.8266945+02:00",
+    "ValidTo": "2024-12-11T03:45:23.8266945+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Error voluptatem et quos ut facere.",
+    "Id": 54,
+    "Name": "Hilpert Inc and Sons",
+    "ToolTip": "Ullam nesciunt praesentium dolorem eos nesciunt cumque.",
     "Deleted": false,
-    "Rank": 348,
-    "Type": "consectetur",
-    "ColorBlock": 109,
-    "IconHint": "quae",
+    "Rank": 955,
+    "Type": "nemo",
+    "ColorBlock": 35,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2024-07-22T17:54:09.1324271+02:00",
+    "LastChanged": "2010-10-22T03:45:29.2327869+02:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "VonRueden, White and Braun",
-        "ToolTip": "Laboriosam ab quia provident consequatur laudantium provident saepe.",
+        "Id": 980,
+        "Name": "Trantow Group",
+        "ToolTip": "Facilis eaque quo.",
         "Deleted": false,
-        "Rank": 394,
-        "Type": "minima",
-        "ColorBlock": 83,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2000-03-04T17:54:09.1324271+01:00",
+        "Rank": 767,
+        "Type": "et",
+        "ColorBlock": 867,
+        "IconHint": "ex",
+        "Selected": true,
+        "LastChanged": "2007-11-12T03:45:29.2327869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Miss Davin Adell Langosh V",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mrs. Alexie Fisher III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 146
+            "FieldType": "System.Int32",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Gabriella Schuppe III",
+    "ExtraInfo": "non",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Hazle Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 910
       }
     }
   }

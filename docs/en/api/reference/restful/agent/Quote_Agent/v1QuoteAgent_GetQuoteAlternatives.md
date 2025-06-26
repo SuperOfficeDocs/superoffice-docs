@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 224
+  "QuoteVersionId": 205
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 924,
+    "QuoteAlternativeId": 960,
     "ERPQuoteAlternativeKey": "rerum",
-    "QuoteVersionId": 101,
-    "Name": "Blick-Dibbert",
-    "Description": "Devolved 24/7 standardization",
+    "QuoteVersionId": 236,
+    "Name": "Larson Inc and Sons",
+    "Description": "Integrated static open architecture",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 2851.94,
-    "ERPDiscountAmount": 27795.446,
-    "DiscountPercent": 1228.528,
-    "DiscountAmount": 12379.3,
+    "Reason": "iterate out-of-the-box markets",
+    "ERPDiscountPercent": 2447.654,
+    "ERPDiscountAmount": 17703.966,
+    "DiscountPercent": 5493.902,
+    "DiscountAmount": 20690.667999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "sed",
-    "VAT": 22477.048,
-    "EarningPercent": 28111.98,
-    "EarningAmount": 21176.438,
-    "SubTotal": 10047.604,
-    "TotalPrice": 15842.369999999999,
-    "ExtraField1": "qui",
-    "ExtraField2": "consequatur",
-    "ExtraField3": "sint",
-    "ExtraField4": "porro",
-    "ExtraField5": "est",
+    "VATInfo": "voluptatum",
+    "VAT": 6982.552,
+    "EarningPercent": 14416.4,
+    "EarningAmount": 27992.888,
+    "SubTotal": 23266.816,
+    "TotalPrice": 20443.082,
+    "ExtraField1": "temporibus",
+    "ExtraField2": "laboriosam",
+    "ExtraField3": "ullam",
+    "ExtraField4": "dolorum",
+    "ExtraField5": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 127
       }
     }
   }

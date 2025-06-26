@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=a
-GET /api/v1/Contact?$top=39
-GET /api/v1/Contact?$skip=891
+GET /api/v1/Contact?$entities=non
+GET /api/v1/Contact?$top=122
+GET /api/v1/Contact?$skip=920
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=quas
+GET /api/v1/Contact?$context=ut
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cum",
+  "odata.nextLink": "ipsam",
   "value": [
     {
-      "PrimaryKey": 9077,
-      "EntityName": "sale",
-      "saleId": 9077,
-      "contactId": 1926,
-      "name": "Kemmer-Hyatt"
+      "PrimaryKey": 5356,
+      "EntityName": "person",
+      "personId": 5356,
+      "fullName": "Savannah Veum"
     },
     {
-      "PrimaryKey": 7659,
-      "EntityName": "sale",
-      "saleId": 7659,
-      "contactId": 6250,
-      "name": "Johnston LLC"
+      "PrimaryKey": 6222,
+      "EntityName": "person",
+      "personId": 6222,
+      "fullName": "Imani Krajcik Jr."
     }
   ]
 }

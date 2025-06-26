@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Schowalter, Jewess and Beier",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "UdListDefinitionId": 463,
-  "Rank": 843,
+  "Id": 794,
+  "Name": "Walsh LLC",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "UdListDefinitionId": 840,
+  "Rank": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 421
     }
   }
 }

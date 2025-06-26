@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 686,
-  "Name": "Dach-Champlin",
-  "Tooltip": "iusto",
-  "Rank": 695,
-  "Key": "iste",
+  "LegalBaseId": 543,
+  "Name": "Reichert, Kilback and Green",
+  "Tooltip": "qui",
+  "Rank": 651,
+  "Key": "consequatur",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 202,
+  "DocumentId": 312,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "unde",
-  "Header": "rem",
-  "Name": "Kuvalis-Nolan",
-  "OurRef": "dolorem",
-  "YourRef": "reiciendis",
-  "CreatedDate": "2012-01-01T17:54:08.2262257+01:00",
-  "UpdatedDate": "2002-09-28T17:54:08.2262257+02:00",
-  "Description": "Reduced non-volatile framework",
+  "Attention": "maxime",
+  "Header": "nihil",
+  "Name": "Weimann LLC",
+  "OurRef": "qui",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2022-04-22T03:45:28.3421873+02:00",
+  "UpdatedDate": "2012-09-21T03:45:28.3421873+02:00",
+  "Description": "Front-line zero defect hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-06-09T17:54:08.2262257+02:00",
-  "ExternalRef": "tempore",
+  "Date": "2008-03-27T03:45:28.3421873+01:00",
+  "ExternalRef": "ipsam",
   "Completed": "Completed",
-  "ActiveLinks": 699,
+  "ActiveLinks": 36,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hintz-Leffler",
-      "Id": 55,
-      "Description": "Secured object-oriented open system",
-      "ExtraInfo": "minus",
-      "LinkId": 121,
+      "EntityName": "Jakubowski-Hodkiewicz",
+      "Id": 429,
+      "Description": "Self-enabling global knowledge base",
+      "ExtraInfo": "consequatur",
+      "LinkId": 53,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 419
+          "FieldLength": 715
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 923,
-  "Snum": 546,
+  "SuggestedDocumentId": 416,
+  "Snum": 782,
   "UserDefinedFields": {
-    "SuperOffice:1": "2123507628",
-    "SuperOffice:2": "Prof. Chelsey Schulist IV"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1258215159"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2018-11-02T17:54:08.2262257+01:00",
-  "PublishTo": "2019-11-24T17:54:08.2262257+01:00",
-  "PublishFrom": "2012-09-16T17:54:08.2262257+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-05-24T03:45:28.3421873+02:00",
+  "PublishTo": "2008-09-09T03:45:28.3421873+02:00",
+  "PublishFrom": "2022-03-29T03:45:28.3421873+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 558,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 766
         }
       }
     },
     {
-      "VisibleId": 558,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 766
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 630
     }
   }
 }

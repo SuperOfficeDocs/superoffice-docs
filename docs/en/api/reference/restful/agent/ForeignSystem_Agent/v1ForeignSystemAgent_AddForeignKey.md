@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Bechtelar Group",
-  "DeviceName": "Orn-Gerhold",
-  "DeviceIdentifier": "distinctio"
+  "ApplicationName": "Schmeler-Cummings",
+  "DeviceName": "Walker-Waelchi",
+  "DeviceIdentifier": "ab"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "facilis",
-  "RecordId": 511,
-  "CreatedDate": "2018-05-23T17:54:03.1639551+02:00",
-  "UpdatedDate": "2000-07-31T17:54:03.1639551+02:00",
-  "UpdatedBy": "voluptatibus",
-  "CreatedBy": "ipsum",
-  "TableName": "Satterfield-Gutkowski",
+  "Key": "eos",
+  "Value": "illum",
+  "RecordId": 538,
+  "CreatedDate": "2021-04-18T03:45:23.4829546+02:00",
+  "UpdatedDate": "2020-01-12T03:45:23.4829546+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "veniam",
+  "TableName": "Ortiz-Streich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

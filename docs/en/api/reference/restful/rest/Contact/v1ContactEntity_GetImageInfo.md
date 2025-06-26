@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 08 Jul 2015 17:54:08 G7T
+Last-Modified: Sat, 29 Nov 2003 03:45:28 G11T
 
 {
-  "BlobId": 916,
-  "BlobSize": 292,
-  "Description": "Streamlined solution-oriented Graphical User Interface",
-  "ExtraInfo": "necessitatibus",
+  "BlobId": 703,
+  "BlobSize": 680,
+  "Description": "Future-proofed multimedia orchestration",
+  "ExtraInfo": "dolorem",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ipsam",
-  "OriginalSize": 25,
-  "CreatedDate": "1998-12-04T17:54:08.0699594+01:00",
-  "UpdatedDate": "2015-07-08T17:54:08.0699594+02:00",
+  "IsZipped": true,
+  "MimeType": "accusamus",
+  "OriginalSize": 215,
+  "CreatedDate": "2024-02-15T03:45:28.1703207+01:00",
+  "UpdatedDate": "2003-11-29T03:45:28.1703207+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 538
     }
   }
 }

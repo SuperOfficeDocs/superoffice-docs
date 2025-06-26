@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Becker-Beahan",
+  "GuiName": "Murazik LLC",
   "ColumnWidths": [
-    "doloribus",
-    "reiciendis"
+    "sed",
+    "vel"
   ]
 }
 ```

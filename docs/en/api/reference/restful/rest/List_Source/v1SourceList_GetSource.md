@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Larkin-Considine",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "UdListDefinitionId": 108,
-  "Rank": 984,
+  "Id": 758,
+  "Name": "Green LLC",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "UdListDefinitionId": 992,
+  "Rank": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 381
     }
   }
 }

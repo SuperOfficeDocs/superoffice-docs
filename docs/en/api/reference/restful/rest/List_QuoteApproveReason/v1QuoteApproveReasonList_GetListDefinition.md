@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 732,
-  "Name": "Schultz-Murazik",
-  "Tooltip": "dolores",
+  "Id": 596,
+  "Name": "Franecki, Jenkins and Spencer",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 68,
-  "IsCustomList": false,
+  "Rank": 982,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "voluptate",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   },
   "_Links": {

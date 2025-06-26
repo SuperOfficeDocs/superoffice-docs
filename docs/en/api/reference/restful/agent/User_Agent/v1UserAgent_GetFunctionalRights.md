@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 721
+  "RoleId": 337
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Cormier-Rolfson",
-    "ToolTip": "Fuga omnis ut distinctio omnis.",
+    "Id": 240,
+    "Name": "Miller, Murazik and Schultz",
+    "ToolTip": "Velit cumque molestias vitae.",
     "Deleted": false,
-    "Rank": 16,
+    "Rank": 413,
     "Type": "rerum",
-    "ColorBlock": 234,
-    "IconHint": "ratione",
+    "ColorBlock": 560,
+    "IconHint": "libero",
     "Selected": true,
-    "LastChanged": "2004-11-07T17:54:03.8826694+01:00",
+    "LastChanged": "2024-11-20T03:45:24.1704335+01:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Bradtke, Schamberger and Paucek",
-        "ToolTip": "Omnis quia sunt.",
+        "Id": 687,
+        "Name": "Jerde-Hilll",
+        "ToolTip": "Expedita dolores omnis aliquam architecto sequi id voluptas.",
         "Deleted": false,
-        "Rank": 214,
-        "Type": "explicabo",
-        "ColorBlock": 152,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2012-07-07T17:54:03.8826694+02:00",
+        "Rank": 273,
+        "Type": "nesciunt",
+        "ColorBlock": 148,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2007-12-15T03:45:24.1704335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Bianka Hagenes",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Ransom Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldType": "System.String",
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Haley Zieme",
+    "FullName": "Ena Fritsch II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldLength": 747
       }
     }
   }

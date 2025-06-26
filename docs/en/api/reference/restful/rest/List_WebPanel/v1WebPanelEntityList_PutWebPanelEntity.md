@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 491,
-  "Name": "Schinner, Bergstrom and Miller",
-  "Tooltip": "et",
+  "WebPanelId": 347,
+  "Name": "Kris Inc and Sons",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 857,
+  "Rank": 174,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Deckow, Herzog and Barton",
+  "WindowName": "Wiegand-Smith",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 895,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "in",
+  "Icon": 610,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 395,
-  "Name": "Feil, Mraz and Reichel",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 122,
+  "WebPanelId": 795,
+  "Name": "Stoltenberg Group",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 57,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Beier LLC",
+  "WindowName": "Jakubowski-Kozey",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 881,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "delectus",
+  "Icon": 79,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

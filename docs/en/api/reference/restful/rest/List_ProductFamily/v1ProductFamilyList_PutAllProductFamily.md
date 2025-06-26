@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Veum, Fritsch and Little",
-    "Tooltip": "eos",
+    "Id": 457,
+    "Name": "Bode, Kerluke and Ankunding",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 91,
-    "Rank": 93
+    "UdListDefinitionId": 782,
+    "Rank": 253
   },
   {
-    "Id": 343,
-    "Name": "Veum, Fritsch and Little",
-    "Tooltip": "eos",
+    "Id": 457,
+    "Name": "Bode, Kerluke and Ankunding",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 91,
-    "Rank": 93
+    "UdListDefinitionId": 782,
+    "Rank": 253
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "quas",
+    "Id": 571,
+    "Name": "Quigley LLC",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 227,
-    "Rank": 291,
+    "UdListDefinitionId": 944,
+    "Rank": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 347
+        "FieldLength": 955
       }
     }
   }

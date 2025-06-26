@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 752,
-    "Name": "Rutherford-Nitzsche",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "Rank": 993,
-    "UdListDefinitionId": 481,
+    "HeadingId": 473,
+    "Name": "Beer-Miller",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 28,
+    "UdListDefinitionId": 689,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

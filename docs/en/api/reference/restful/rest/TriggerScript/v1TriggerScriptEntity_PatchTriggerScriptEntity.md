@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "unde",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "unde",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 251,
-  "Name": "Pfeffer-Koch",
+  "ScreenChooserId": 179,
+  "Name": "Bashirian, Nienow and Grimes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corporis",
-  "Source": "culpa",
-  "Registered": "2003-07-26T17:54:08.6793184+02:00",
-  "RegisteredAssociateId": 848,
-  "Updated": "2006-05-28T17:54:08.6793184+02:00",
-  "UpdatedAssociateId": 42,
+  "UniqueIdentifier": "autem",
+  "Source": "officia",
+  "Registered": "2014-08-29T03:45:28.7952992+02:00",
+  "RegisteredAssociateId": 338,
+  "Updated": "2024-12-26T03:45:28.7952992+01:00",
+  "UpdatedAssociateId": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   },
   "_Links": {

@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    370,
-    63
+    191,
+    432
   ],
-  "TargetTableNumber": 6
+  "TargetTableNumber": 476
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide maximized installation",
-  "Postit": "ut",
+  "Description": "Re-engineered zero administration software",
+  "Postit": "voluptates",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 493,
-  "IncludePerson": 689,
+  "GroupIdx": 60,
+  "IncludePerson": 858,
   "MemberCount": 99.99,
-  "Name": "Brown-Tillman",
-  "PostitTextId": 672,
-  "CreatedDate": "2017-12-31T17:54:03.6170572+01:00",
-  "SelectionId": 648,
-  "SoundEx": "nihil",
-  "Source": 460,
-  "TextId": 99,
-  "UpdatedDate": "2001-10-24T17:54:03.6170572+02:00",
-  "UpdatedCount": 413,
-  "Visibility": 572,
+  "Name": "Legros-Quigley",
+  "PostitTextId": 994,
+  "CreatedDate": "2001-08-14T03:45:23.9048172+02:00",
+  "SelectionId": 258,
+  "SoundEx": "quis",
+  "Source": 993,
+  "TextId": 148,
+  "UpdatedDate": "2013-12-23T03:45:23.9048172+01:00",
+  "UpdatedCount": 797,
+  "Visibility": 870,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 158,
-  "TargetTableName": "Berge Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 828,
-  "RightSelectionId": 928,
+  "TargetTableNumber": 264,
+  "TargetTableName": "Jones LLC",
+  "Completed": false,
+  "LeftSelectionId": 291,
+  "RightSelectionId": 705,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhic, Nicolas and Blick",
-  "ShadowProviderName": "Keebler Inc and Sons",
-  "ChartKey": "voluptate",
-  "LastLoaded": "2009-09-20T17:54:03.6170572+02:00",
-  "LastLoadedBy": 673,
+  "MainProviderName": "Kertzmann-Langosh",
+  "ShadowProviderName": "Greenfelder, Steuber and Batz",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2009-06-14T03:45:23.9048172+02:00",
+  "LastLoadedBy": 946,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-02-28T17:54:03.6170572+01:00",
-  "LastMembershipChangeBy": 829,
+  "LastMembershipChange": "2004-12-18T03:45:23.9048172+01:00",
+  "LastMembershipChangeBy": 288,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "velit",
-  "MailingsProviderName": "Rogahn Group",
-  "DashboardTileDefinitionId": 294,
+  "MainHeading": "beatae",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Crist Group",
+  "DashboardTileDefinitionId": 387,
   "VisibleFor": [
     {
-      "VisibleId": 937,
+      "VisibleId": 843,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 250
         }
       }
     },
     {
-      "VisibleId": 937,
+      "VisibleId": 843,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 250
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 757
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 484,
-    "Section": "qui",
-    "Key": "soluta",
-    "Name": "Pouros-Mann",
+    "PrefDescId": 857,
+    "Section": "veritatis",
+    "Key": "molestiae",
+    "Name": "Zulauf, Reilly and Collins",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Configurable dynamic knowledge user",
+    "Description": "Secured contextually-based data-warehouse",
     "IsBuiltin": false,
-    "TableName": "Heidenreich-Powlowski",
-    "UserDefinedListId": 171,
-    "Rank": 47,
-    "SubGroup": "tenetur",
-    "MinLevel": 89,
-    "MaxValue": 212,
-    "MinValue": 177,
-    "RequiredLicense": "nulla",
+    "TableName": "Kunze-Bode",
+    "UserDefinedListId": 393,
+    "Rank": 763,
+    "SubGroup": "aliquam",
+    "MinLevel": 530,
+    "MaxValue": 885,
+    "MinValue": 187,
+    "RequiredLicense": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 221
       }
     }
   }

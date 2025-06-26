@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -135,7 +135,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -143,128 +143,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 25 Jul 2006 17:54:07 G7T
+Last-Modified: Fri, 12 Jun 2015 03:45:28 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-06-26T17:54:07.9449711+02:00",
-  "AppointmentId": 856,
-  "Description": "Persistent attitude-oriented paradigm",
-  "Title": "quod",
-  "Agenda": "dolore",
-  "InternalNotes": "est",
-  "StartDate": "2004-04-28T17:54:07.9449711+02:00",
-  "EndDate": "2020-12-12T17:54:07.9449711+01:00",
+  "CreatedDate": "2010-10-06T03:45:28.0453244+02:00",
+  "AppointmentId": 607,
+  "Description": "Progressive systemic synergy",
+  "Title": "doloremque",
+  "Agenda": "enim",
+  "InternalNotes": "numquam",
+  "StartDate": "2015-09-30T03:45:28.0453244+02:00",
+  "EndDate": "2004-11-05T03:45:28.0453244+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 346,
+  "MotherId": 393,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-07-25T17:54:07.9449711+02:00",
+  "UpdatedDate": "2015-06-12T03:45:28.0609491+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 736,
+  "ActiveLinks": 677,
   "Links": [
     {
-      "EntityName": "Renner Inc and Sons",
-      "Id": 707,
-      "Description": "Function-based fresh-thinking forecast",
-      "ExtraInfo": "optio",
-      "LinkId": 761,
+      "EntityName": "Fritsch Inc and Sons",
+      "Id": 726,
+      "Description": "Profit-focused next generation methodology",
+      "ExtraInfo": "alias",
+      "LinkId": 376,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
   ],
-  "AlarmLeadTime": "consectetur",
+  "AlarmLeadTime": "veritatis",
   "HasAlarm": true,
-  "ColorIndex": 692,
+  "ColorIndex": 663,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "ad",
-  "LeadTime": "et",
-  "Location": "vel",
-  "RejectCounter": 369,
+  "IsAlldayEvent": true,
+  "LagTime": "quo",
+  "LeadTime": "consectetur",
+  "Location": "ut",
+  "RejectCounter": 597,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 335,
-      "PersonId": 538,
-      "ContactId": 169,
-      "EmailId": 695,
-      "SendEmail": true,
+      "AssociateId": 947,
+      "PersonId": 296,
+      "ContactId": 720,
+      "EmailId": 535,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "aiden@bergstrom.info",
-      "Description": "Object-based full-range interface"
+      "EmailAddress": "rossie.mann@stracke.name",
+      "Description": "Customizable optimal encoding"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-05-21T17:54:07.9449711+02:00",
+  "ActiveDate": "2023-09-13T03:45:28.0609491+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 214,
+  "PreferredTZLocation": 478,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 10,
+  "SuggestedAppointmentId": 340,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
+  "CentralserviceVideomeetId": "illum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Dianna Shanahan IV",
-    "SuperOffice:2": "Saul Furman Aufderhar Sr."
+    "SuperOffice:1": "Dana Christiansen",
+    "SuperOffice:2": "1452267553"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quasi"
+    "CustomFields1": "labore",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2006-05-30T17:54:07.9449711+02:00",
-  "PublishTo": "2025-04-20T17:54:07.9449711+02:00",
-  "PublishFrom": "2015-03-22T17:54:07.9449711+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-02-01T03:45:28.0609491+01:00",
+  "PublishTo": "1999-11-27T03:45:28.0609491+01:00",
+  "PublishFrom": "2023-07-17T03:45:28.0609491+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 227,
+      "VisibleId": 5,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 425
         }
       }
     },
     {
-      "VisibleId": 227,
+      "VisibleId": 5,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 425
         }
       }
     }
@@ -274,12 +274,12 @@ Last-Modified: Tue, 25 Jul 2006 17:54:07 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 374
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

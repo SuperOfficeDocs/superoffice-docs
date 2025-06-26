@@ -98,40 +98,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dolorem",
-    "InputValues2": "sequi"
+    "InputValues1": "quo",
+    "InputValues2": "est"
   },
   "BlockExecution": false,
-  "NavigateTo": "minus",
-  "Message": "fugiat",
-  "ShowDialog": "provident",
+  "NavigateTo": "saepe",
+  "Message": "cumque",
+  "ShowDialog": "repellendus",
   "OutputValues": {
-    "OutputValues1": "modi",
-    "OutputValues2": "maxime"
+    "OutputValues1": "sequi",
+    "OutputValues2": "dolorum"
   },
   "StateValues": {
-    "StateValues1": "saepe",
-    "StateValues2": "in"
+    "StateValues1": "quo",
+    "StateValues2": "aut"
   },
-  "Exception": "repudiandae",
+  "Exception": "et",
   "ParserValues": {
-    "ParserValues1": "repudiandae",
-    "ParserValues2": "non"
+    "ParserValues1": "est",
+    "ParserValues2": "sequi"
   },
   "CgiVariables": {
-    "CgiVariables1": "reprehenderit",
-    "CgiVariables2": "omnis"
+    "CgiVariables1": "voluptate",
+    "CgiVariables2": "voluptatem"
   },
-  "CgiContent": "vero",
+  "CgiContent": "dolores",
   "Headers": {
-    "Headers1": "delectus",
-    "Headers2": "tempore"
+    "Headers1": "aut",
+    "Headers2": "sit"
   },
   "TraceExecution": false
 }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "fugit",
-    "InputValues2": "eos"
+    "InputValues1": "et",
+    "InputValues2": "unde"
   },
   "BlockExecution": false,
-  "NavigateTo": "incidunt",
-  "Message": "voluptatibus",
-  "ShowDialog": "fugit",
+  "NavigateTo": "sequi",
+  "Message": "tempore",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "dolor",
-    "OutputValues2": "omnis"
+    "OutputValues1": "debitis",
+    "OutputValues2": "impedit"
   },
   "StateValues": {
-    "StateValues1": "voluptatem",
-    "StateValues2": "quod"
+    "StateValues1": "magni",
+    "StateValues2": "dolor"
   },
-  "Exception": "impedit",
+  "Exception": "corrupti",
   "ParserValues": {
-    "ParserValues1": "ipsum",
-    "ParserValues2": "tenetur"
+    "ParserValues1": "cumque",
+    "ParserValues2": "occaecati"
   },
   "CgiVariables": {
-    "CgiVariables1": "velit",
-    "CgiVariables2": "eligendi"
+    "CgiVariables1": "rerum",
+    "CgiVariables2": "deleniti"
   },
-  "CgiContent": "libero",
+  "CgiContent": "voluptatum",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "ea"
+    "Headers1": "rem",
+    "Headers2": "quaerat"
   },
   "TraceExecution": true,
   "TableRight": null,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 893
     }
   }
 }

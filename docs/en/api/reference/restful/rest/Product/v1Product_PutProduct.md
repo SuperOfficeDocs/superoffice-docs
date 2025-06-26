@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 368,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "asperiores",
-  "Name": "McKenzie Group",
-  "Description": "Innovative bifurcated flexibility",
-  "Code": "non",
-  "PriceUnit": "vitae",
-  "QuantityUnit": "illum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 5080.214,
-  "ItemNumber": "1614300",
+  "ProductId": 456,
+  "ERPProductKey": "esse",
+  "ERPPriceListKey": "hic",
+  "Name": "West-Harber",
+  "Description": "Seamless needs-based customer loyalty",
+  "Code": "voluptates",
+  "PriceUnit": "sit",
+  "QuantityUnit": "vel",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 12094.106,
+  "ItemNumber": "1202276",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "totam",
-  "VAT": 8909.962,
-  "VATInfo": "in",
-  "UnitCost": 9558.6999999999989,
-  "UnitMinimumPrice": 4349.992,
-  "UnitListPrice": 21383.282,
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "consequatur",
+  "VAT": 6324.4119999999994,
+  "VATInfo": "rerum",
+  "UnitCost": 8126.4619999999995,
+  "UnitMinimumPrice": 18164.664,
+  "UnitListPrice": 20856.77,
   "InAssortment": false,
-  "Supplier": "sint",
-  "SupplierCode": "recusandae",
-  "Rights": "cumque",
-  "Rule": "ut",
+  "Supplier": "voluptatem",
+  "SupplierCode": "dolor",
+  "Rights": "et",
+  "Rule": "ab",
   "ExtraInfo": [
     {
-      "Name": "Kovacek Inc and Sons",
-      "Value": "rerum",
+      "Name": "Schiller, Beer and Emmerich",
+      "Value": "placeat",
       "Type": "Image"
     },
     {
-      "Name": "Kovacek Inc and Sons",
-      "Value": "rerum",
+      "Name": "Schiller, Beer and Emmerich",
+      "Value": "placeat",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sunt",
-  "ExtraField1": "perspiciatis",
-  "ExtraField2": "repudiandae",
-  "ExtraField3": "quam",
+  "RawExtraInfo": "adipisci",
+  "ExtraField1": "nihil",
+  "ExtraField2": "modi",
+  "ExtraField3": "libero",
   "ExtraField4": "ut",
-  "ExtraField5": "ullam",
-  "InStock": 29406.322
+  "ExtraField5": "iusto",
+  "InStock": 11113.163999999999
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 283,
-  "ERPProductKey": "nesciunt",
-  "ERPPriceListKey": "iure",
-  "Name": "Feil Inc and Sons",
-  "Description": "Virtual heuristic product",
-  "Code": "et",
-  "PriceUnit": "et",
-  "QuantityUnit": "tempore",
+  "ProductId": 456,
+  "ERPProductKey": "eos",
+  "ERPPriceListKey": "praesentium",
+  "Name": "Goodwin LLC",
+  "Description": "Fundamental motivating definition",
+  "Code": "sunt",
+  "PriceUnit": "pariatur",
+  "QuantityUnit": "voluptatem",
   "IsSubscription": true,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 22032.02,
-  "ItemNumber": "1088077",
+  "SubscriptionUnit": "illum",
+  "DefaultSubscriptionQuantity": 21016.604,
+  "ItemNumber": "825818",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "qui",
-  "VAT": 1927.4099999999999,
-  "VATInfo": "at",
-  "UnitCost": 11777.572,
-  "UnitMinimumPrice": 6609.606,
-  "UnitListPrice": 24915.3,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "ad",
+  "VAT": 2704.642,
+  "VATInfo": "adipisci",
+  "UnitCost": 29879.556,
+  "UnitMinimumPrice": 19810.014,
+  "UnitListPrice": 3102.66,
   "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "sed",
-  "Rights": "eaque",
-  "Rule": "sint",
+  "Supplier": "aut",
+  "SupplierCode": "tempore",
+  "Rights": "eius",
+  "Rule": "odit",
   "ExtraInfo": [
     {
-      "Name": "Moore LLC",
-      "Value": "animi",
+      "Name": "Lehner, Dare and Rolfson",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 889
         }
       }
     },
     {
-      "Name": "Moore LLC",
-      "Value": "animi",
+      "Name": "Lehner, Dare and Rolfson",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 889
         }
       }
     }
   ],
-  "RawExtraInfo": "numquam",
-  "ExtraField1": "omnis",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "aut",
-  "ExtraField4": "at",
-  "ExtraField5": "distinctio",
-  "InStock": 26657.804,
+  "RawExtraInfo": "non",
+  "ExtraField1": "in",
+  "ExtraField2": "suscipit",
+  "ExtraField3": "nulla",
+  "ExtraField4": "fugit",
+  "ExtraField5": "voluptas",
+  "InStock": 15717.01,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 866
     }
   }
 }

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Nolan-Stehr"
+  "EntityName": "McClure, Willms and Will"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 35,
-  "Name": "Beer, Rath and Jerde",
-  "Description": "Face to face static utilisation",
-  "DefaultHeight": 675,
-  "DefaultWidth": 671,
+  "DashboardTileDefinitionId": 352,
+  "Name": "Becker, Metz and Kuphal",
+  "Description": "Decentralized neutral internet solution",
+  "DefaultHeight": 455,
+  "DefaultWidth": 230,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McClure-Hirthe",
-  "SelectionId": 400,
+  "EntityName": "Gulgowski-Wintheiser",
+  "SelectionId": 720,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolorem",
+  "CurrencyCode": "recusandae",
   "Measure": "Average",
-  "MeasureField": "ipsam",
-  "SortBy": "officia",
-  "LayoutConfig": "quasi",
-  "SecondarySelectionId": 697,
-  "MeasureByField": "est",
+  "MeasureField": "voluptatem",
+  "SortBy": "facere",
+  "LayoutConfig": "eos",
+  "SecondarySelectionId": 694,
+  "MeasureByField": "incidunt",
   "Usage": "Dashboard",
-  "ProviderName": "Wiegand-Carroll",
+  "ProviderName": "Hilll-Senger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 887
     }
   }
 }

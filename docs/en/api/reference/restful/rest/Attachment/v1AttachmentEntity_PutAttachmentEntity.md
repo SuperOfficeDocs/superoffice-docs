@@ -97,14 +97,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 931,
-  "Name": "Trantow LLC",
-  "ContentType": "unde",
-  "AttSize": 160,
-  "InlineImage": false,
-  "ContentId": "possimus",
-  "AuthKey": "nam",
-  "IsSafeFileExtension": false
+  "AttachmentId": 396,
+  "Name": "Trantow-Rau",
+  "ContentType": "tempore",
+  "AttSize": 831,
+  "InlineImage": true,
+  "ContentId": "occaecati",
+  "AuthKey": "dolore",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 571,
-  "Name": "Kreiger, Steuber and Goodwin",
-  "ContentType": "unde",
-  "AttSize": 150,
+  "AttachmentId": 665,
+  "Name": "Barton LLC",
+  "ContentType": "non",
+  "AttSize": 517,
   "InlineImage": false,
-  "ContentId": "perferendis",
-  "AuthKey": "quod",
+  "ContentId": "sit",
+  "AuthKey": "est",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   },
   "_Links": {

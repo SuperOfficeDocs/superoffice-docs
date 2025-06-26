@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 603,
-  "PersonName": "Rutherford Group",
+  "ContactId": 639,
+  "PersonName": "Okuneva, Feil and Rutherford",
   "PhoneNumbers": [
-    "856047",
-    "935516"
+    "319921",
+    "1254649"
   ],
   "Emails": [
-    "jeremy_sawayn@miller.biz",
-    "bradford@keeling.info"
+    "mertie@ferrypadberg.ca",
+    "bernhard@lockman.ca"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

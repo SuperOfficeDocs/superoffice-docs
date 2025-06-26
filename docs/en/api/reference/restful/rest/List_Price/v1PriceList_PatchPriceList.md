@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magni",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 328,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 238,
-  "Name": "Bode-Trantow",
-  "Description": "Virtual dynamic middleware",
-  "Currency": "deserunt",
-  "CurrencyName": "Harris, Schowalter and Hamill",
-  "ValidFrom": "2009-05-10T17:54:08.9605465+02:00",
-  "ValidTo": "2008-02-27T17:54:08.9605465+01:00",
+  "PriceListId": 126,
+  "ERPPriceListKey": "laborum",
+  "QuoteConnectionId": 929,
+  "Name": "Rath, Olson and Hilll",
+  "Description": "Business-focused background encryption",
+  "Currency": "exercitationem",
+  "CurrencyName": "Herman LLC",
+  "ValidFrom": "2015-05-08T03:45:29.0921677+02:00",
+  "ValidTo": "2011-08-11T03:45:29.0921677+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 300
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

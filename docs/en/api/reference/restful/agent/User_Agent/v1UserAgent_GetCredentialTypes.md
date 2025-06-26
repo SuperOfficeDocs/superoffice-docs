@@ -83,9 +83,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quo",
-    "Type": "dolorum",
-    "Description": "Team-oriented dedicated framework",
+    "DisplayType": "nihil",
+    "Type": "explicabo",
+    "Description": "Inverse heuristic capability",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldType": "System.Int32",
+        "FieldLength": 8
       }
     }
   }

@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Romaguera, Breitenberg and Walker",
-  "EmailAddress": "leanne@stanton.com"
+  "Name": "Wisoky-Mertz",
+  "EmailAddress": "gillian.vandervort@hauckmuller.co.uk"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 570,
-    "FullName": "Norbert Kris",
-    "EmailAddress": "zion_olson@casperdonnelly.uk",
-    "ContactId": 780,
-    "ContactName": "Willms Inc and Sons",
+    "PersonId": 673,
+    "FullName": "Octavia Boyer",
+    "EmailAddress": "casimer@stamm.co.uk",
+    "ContactId": 74,
+    "ContactName": "Farrell LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Grimes-Ritchie",
+    "SortName": "Medhurst Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 395
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 402,
-  "Name": "Walsh Group",
-  "Description": "Public-key non-volatile local area network",
-  "DeltaJson": "assumenda",
+  "ConfigurableScreenDeltaId": 687,
+  "Name": "Beer Group",
+  "Description": "Synergistic mobile conglomeration",
+  "DeltaJson": "sunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "itaque",
-  "UpdatedDate": "2017-07-11T17:54:02.7577242+02:00",
-  "CreatedDate": "2006-03-07T17:54:02.7577242+01:00",
+  "RecipeId": "dolor",
+  "UpdatedDate": "2012-06-25T03:45:23.0767156+02:00",
+  "CreatedDate": "2024-05-01T03:45:23.0767156+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    2,
-    50
+    942,
+    714
   ],
-  "AppliesToKey": "aperiam",
+  "AppliesToKey": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 280
     }
   }
 }

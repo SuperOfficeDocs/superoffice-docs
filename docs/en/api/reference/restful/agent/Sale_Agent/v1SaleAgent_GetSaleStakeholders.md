@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 31
+  "SaleId": 995
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schiller, Smith and Gutkowski",
-    "Comment": "ipsam",
-    "StakeholderRoleId": 57,
-    "CountryId": 491,
-    "PersonId": 413,
-    "EmailDescription": "josefa@gradyjast.co.uk",
-    "EmailId": 159,
-    "EmailAddress": "jonatan.goyette@deckowgislason.co.uk",
-    "PhoneId": 236,
-    "ContactName": "Hansen, Corwin and Heaney",
-    "ContactId": 151,
-    "SaleId": 217,
-    "Mrmrs": "aut",
-    "Firstname": "Kenyon",
-    "MiddleName": "Cummings, Wolff and Barrows",
-    "Lastname": "Hackett",
-    "SaleStakeholderId": 425,
-    "Rank": 494,
-    "Phone": "406.971.1523",
+    "StakeholderRoleName": "Medhurst-Dare",
+    "Comment": "distinctio",
+    "StakeholderRoleId": 211,
+    "CountryId": 82,
+    "PersonId": 515,
+    "EmailDescription": "pablo.rosenbaum@swaniawski.uk",
+    "EmailId": 401,
+    "EmailAddress": "blake@rohan.uk",
+    "PhoneId": 265,
+    "ContactName": "Weber Inc and Sons",
+    "ContactId": 826,
+    "SaleId": 674,
+    "Mrmrs": "recusandae",
+    "Firstname": "Heidi",
+    "MiddleName": "Sipes, Rolfson and Tremblay",
+    "Lastname": "Gottlieb",
+    "SaleStakeholderId": 373,
+    "Rank": 796,
+    "Phone": "034.338.8805 x3325",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 127
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

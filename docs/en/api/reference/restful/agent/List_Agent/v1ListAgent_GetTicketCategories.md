@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 924,
-    "ParentId": 653,
-    "Name": "Shields-Barrows",
-    "Fullname": "eveniet",
-    "CategoryMaster": 393,
+    "TicketCategoryId": 430,
+    "ParentId": 946,
+    "Name": "Kuhic Group",
+    "Fullname": "est",
+    "CategoryMaster": 643,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Leuschke-Berge",
+    "ExternalName": "Lockman Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 506,
-    "ReplyTemplate": 528,
-    "NotificationEmail": "alverta.toy@lednercorwin.name",
+    "AssignmentLag": 141,
+    "ReplyTemplate": 948,
+    "NotificationEmail": "antwan.purdy@walsh.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 870,
+    "EffectiveReplyTemplateId": 610,
     "ExtraFields": {
-      "ExtraFields1": "possimus",
-      "ExtraFields2": "quaerat"
+      "ExtraFields1": "illum",
+      "ExtraFields2": "mollitia"
     },
     "CustomFields": {
-      "CustomFields1": "ratione",
-      "CustomFields2": "blanditiis"
+      "CustomFields1": "praesentium",
+      "CustomFields2": "similique"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 917
       }
     }
   }

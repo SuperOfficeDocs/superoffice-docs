@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Hamill, White and Murray",
-    "ToolTip": "Consequuntur modi commodi maxime quod doloremque.",
+    "Id": 384,
+    "Name": "Schoen LLC",
+    "ToolTip": "Maiores culpa possimus accusantium ut consectetur illum suscipit.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "aspernatur",
-    "ColorBlock": 179,
-    "IconHint": "voluptatum",
+    "Rank": 856,
+    "Type": "culpa",
+    "ColorBlock": 690,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2010-12-19T17:54:08.9292989+01:00",
+    "LastChanged": "2012-09-25T03:45:29.0452922+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Stokes LLC",
-        "ToolTip": "Hic sequi odit sed labore repellendus nemo.",
+        "Id": 329,
+        "Name": "King, Yost and Hahn",
+        "ToolTip": "Voluptatum fugit voluptas quia praesentium quisquam repellendus.",
         "Deleted": false,
-        "Rank": 449,
-        "Type": "ratione",
-        "ColorBlock": 882,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2018-08-20T17:54:08.9292989+02:00",
+        "Rank": 215,
+        "Type": "iste",
+        "ColorBlock": 104,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "1998-11-03T03:45:29.0452922+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "est",
+        "ExtraInfo": "magnam",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Hermina Simonis"
+        "FullName": "Yolanda Wehner"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "facere",
+    "ExtraInfo": "in",
+    "StyleHint": "deleniti",
     "Hidden": true,
-    "FullName": "Emilio Spencer"
+    "FullName": "Mr. Abe Reginald Nikolaus Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Kerluke Group",
-    "ToolTip": "Eius iure illum ut autem non totam quia.",
-    "Deleted": true,
-    "Rank": 157,
-    "Type": "error",
-    "ColorBlock": 531,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2019-12-23T17:54:08.9292989+01:00",
+    "Id": 11,
+    "Name": "Waters LLC",
+    "ToolTip": "Sequi aut numquam itaque culpa.",
+    "Deleted": false,
+    "Rank": 477,
+    "Type": "perspiciatis",
+    "ColorBlock": 236,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2019-07-09T03:45:29.0452922+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "West, Waters and Rath",
-        "ToolTip": "Error aliquam quis ea et aut beatae.",
+        "Id": 378,
+        "Name": "Reinger, Welch and Heidenreich",
+        "ToolTip": "Culpa fugiat porro est quibusdam sed dolorem dolores.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "amet",
-        "ColorBlock": 195,
-        "IconHint": "ad",
+        "Rank": 993,
+        "Type": "nobis",
+        "ColorBlock": 499,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2017-12-06T17:54:08.9292989+01:00",
+        "LastChanged": "2016-11-20T03:45:29.0452922+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "qui",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Anastacio Dickinson",
+        "FullName": "Abbie Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldType": "System.Int32",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Amos Anderson",
+    "ExtraInfo": "vel",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Cassandra Meghan Koch IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 968
       }
     }
   }

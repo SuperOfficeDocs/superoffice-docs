@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 334,
-  "ParentId": 333,
-  "Name": "Hirthe, O'Keefe and Herzog",
-  "Fullname": "error",
-  "CategoryMaster": 74,
+  "TicketCategoryId": 710,
+  "ParentId": 260,
+  "Name": "Nikolaus, Thompson and Yost",
+  "Fullname": "assumenda",
+  "CategoryMaster": 739,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Blick, Heller and Hintz",
+  "ExternalName": "Braun, Wehner and Buckridge",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 320,
-  "ReplyTemplate": 818,
-  "NotificationEmail": "dannie_simonis@barrowsdurgan.biz",
+  "AssignmentLag": 116,
+  "ReplyTemplate": 22,
+  "NotificationEmail": "easton.jenkins@ondrickatrantow.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 654,
+  "EffectiveReplyTemplateId": 722,
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "et",
+    "CustomFields2": "laborum"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 541,
-  "ParentId": 249,
-  "Name": "Schumm-O'Conner",
-  "Fullname": "eum",
-  "CategoryMaster": 829,
+  "TicketCategoryId": 403,
+  "ParentId": 471,
+  "Name": "Lakin LLC",
+  "Fullname": "dolorem",
+  "CategoryMaster": 131,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kshlerin Group",
+  "ExternalName": "Russel-Gutkowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 269,
-  "ReplyTemplate": 476,
-  "NotificationEmail": "heath@streich.uk",
+  "AssignmentLag": 544,
+  "ReplyTemplate": 834,
+  "NotificationEmail": "dominic_trantow@dach.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 853,
+  "EffectiveReplyTemplateId": 281,
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
+    "ExtraFields1": "debitis",
     "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "nihil"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "alias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 862
     }
   }
 }

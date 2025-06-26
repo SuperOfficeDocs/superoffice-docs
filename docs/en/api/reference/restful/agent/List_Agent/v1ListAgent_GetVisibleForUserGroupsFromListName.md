@@ -92,8 +92,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grimes, Murazik and Wunsch",
-  "ListItemId": 117
+  "UdListDefinitionName": "Bernier Group",
+  "ListItemId": 722
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Jacobson Inc and Sons",
-    "ToolTip": "Voluptates dignissimos consequuntur ut consequatur.",
-    "Deleted": true,
-    "Rank": 337,
-    "Type": "ut",
-    "ColorBlock": 354,
-    "IconHint": "eos",
+    "Id": 937,
+    "Name": "Johnston-Cronin",
+    "ToolTip": "Quis eos architecto quo sed vel nihil quia.",
+    "Deleted": false,
+    "Rank": 109,
+    "Type": "tempore",
+    "ColorBlock": 623,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2016-12-22T17:54:03.2108272+01:00",
+    "LastChanged": "2018-11-03T03:45:23.5298295+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Weimann, Dare and Legros",
-        "ToolTip": "Quod laudantium.",
+        "Id": 331,
+        "Name": "Haag, Bartell and Moore",
+        "ToolTip": "Aut harum id dolorem ad nisi.",
         "Deleted": true,
-        "Rank": 502,
-        "Type": "consectetur",
-        "ColorBlock": 1002,
-        "IconHint": "quibusdam",
+        "Rank": 510,
+        "Type": "vitae",
+        "ColorBlock": 472,
+        "IconHint": "laudantium",
         "Selected": true,
-        "LastChanged": "2025-04-05T17:54:03.2108272+02:00",
+        "LastChanged": "1998-11-18T03:45:23.5298295+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "hic",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Mr. Nellie Sierra Abbott Jr.",
+        "FullName": "Judge Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 681
+            "FieldType": "System.Int32",
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "at",
+    "ExtraInfo": "natus",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Wilford Parker",
+    "FullName": "Katrina Aglae Padberg PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

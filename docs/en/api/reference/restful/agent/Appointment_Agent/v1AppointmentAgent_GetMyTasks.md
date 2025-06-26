@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 745
+  "Count": 145
 }
 ```
 
@@ -144,66 +144,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 92,
-    "StartDate": "2004-01-11T17:54:02.3514942+01:00",
-    "EndDate": "2012-05-15T17:54:02.3514942+02:00",
+    "AppointmentId": 106,
+    "StartDate": "1999-06-27T03:45:22.6704778+02:00",
+    "EndDate": "2010-01-13T03:45:22.6704778+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Prof. Christelle Swift IV",
-    "ContactName": "Gerlach LLC",
-    "Description": "Up-sized 6th generation emulation",
-    "PersonFullName": "Maeve Kassulke",
-    "PersonId": 614,
-    "ContactId": 927,
-    "ProjectId": 592,
-    "ProjectName": "Stoltenberg LLC",
+    "Task": "sit",
+    "AssociateFullName": "Roosevelt Jacobi",
+    "ContactName": "Mayert-Olson",
+    "Description": "Digitized national artificial intelligence",
+    "PersonFullName": "Ara Schaden",
+    "PersonId": 160,
+    "ContactId": 754,
+    "ProjectId": 362,
+    "ProjectName": "Flatley Group",
     "IsPublished": false,
-    "AssociateId": 754,
-    "ColorIndex": 452,
-    "IsFree": true,
+    "AssociateId": 392,
+    "ColorIndex": 958,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 769,
-    "PriorityName": "Mertz Inc and Sons",
+    "PriorityId": 920,
+    "PriorityName": "Connelly-Mosciski",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1999-10-22T17:54:02.3514942+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2009-01-06T03:45:22.6704778+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-09T17:54:02.3514942+02:00",
-    "RecurringEndDate": "2001-01-12T17:54:02.3514942+01:00",
-    "MotherId": 418,
-    "AssignedBy": 385,
-    "AssignedByFullName": "Franz Bogan",
+    "RecurringStartDate": "2025-03-09T03:45:22.6704778+01:00",
+    "RecurringEndDate": "2008-06-25T03:45:22.6704778+02:00",
+    "MotherId": 531,
+    "AssignedBy": 39,
+    "AssignedByFullName": "German Zulauf",
     "RejectReason": "",
-    "Location": "laudantium",
-    "AlarmLeadTime": "sed",
-    "SaleId": 368,
-    "SaleName": "Leffler-Tromp",
-    "AssociateName": "Carter, Boehm and Rowe",
-    "CreatedDate": "2008-09-16T17:54:02.3514942+02:00",
-    "CreatedBy": "ad",
-    "CreatedByFullName": "Prof. Iva Rudy Gaylord III",
-    "CreatedByAssociateId": 847,
+    "Location": "esse",
+    "AlarmLeadTime": "est",
+    "SaleId": 184,
+    "SaleName": "Wilderman Group",
+    "AssociateName": "Hagenes LLC",
+    "CreatedDate": "2021-07-29T03:45:22.6704778+02:00",
+    "CreatedBy": "quaerat",
+    "CreatedByFullName": "Ms. Asha Leannon V",
+    "CreatedByAssociateId": 644,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 241,
-    "Title": "qui",
-    "Agenda": "consequuntur",
-    "InternalNotes": "impedit",
+    "PreferredTZLocation": 500,
+    "Title": "laboriosam",
+    "Agenda": "praesentium",
+    "InternalNotes": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

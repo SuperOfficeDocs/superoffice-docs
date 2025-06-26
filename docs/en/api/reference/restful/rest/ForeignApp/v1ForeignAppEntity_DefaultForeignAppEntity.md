@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 30 Oct 2001 17:54:08 G10T
+Last-Modified: Sat, 17 Sep 2005 03:45:28 G9T
 
 {
-  "ForeignAppId": 165,
-  "Name": "Watsica-Smitham",
-  "CreatedDate": "2020-11-05T17:54:08.2574567+01:00",
-  "UpdatedDate": "2001-10-30T17:54:08.2574567+01:00",
+  "ForeignAppId": 703,
+  "Name": "Kautzer-Bechtelar",
+  "CreatedDate": "2019-11-29T03:45:28.3578119+01:00",
+  "UpdatedDate": "2005-09-17T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 717,
-      "Name": "Adams, Bartell and Marvin",
-      "CreatedDate": "2006-02-01T17:54:08.2574567+01:00",
-      "UpdatedDate": "2016-02-23T17:54:08.2574567+01:00",
-      "AssociateFullName": "Liliane Emmerich",
-      "CreatedBy": "sequi",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 143,
+      "ForeignDeviceId": 434,
+      "Name": "Wehner, Erdman and McClure",
+      "CreatedDate": "2023-03-24T03:45:28.3578119+01:00",
+      "UpdatedDate": "2005-08-03T03:45:28.3578119+02:00",
+      "AssociateFullName": "Mr. Max Moen",
+      "CreatedBy": "autem",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 946,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 467
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 30 Oct 2001 17:54:08 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 401
     }
   }
 }

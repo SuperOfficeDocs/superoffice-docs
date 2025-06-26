@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Christiansen-Zulauf",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 182,
-  "Rank": 85
+  "Id": 669,
+  "Name": "Dach, Hudson and Dibbert",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 627,
+  "Rank": 330
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Harber Group",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "UdListDefinitionId": 699,
-  "Rank": 284,
+  "Id": 16,
+  "Name": "Pacocha, Zemlak and Borer",
+  "Tooltip": "error",
+  "Deleted": false,
+  "UdListDefinitionId": 443,
+  "Rank": 1000,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 706
     }
   }
 }

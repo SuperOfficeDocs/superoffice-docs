@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officia",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officia",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 352,
-  "AssociateId": 559,
-  "Block": "sit",
-  "Registered": "2001-03-31T17:54:08.5386928+02:00",
-  "RegisteredAssociateId": 59,
-  "Updated": "2024-07-27T17:54:08.5386928+02:00",
-  "UpdatedAssociateId": 824,
-  "UpdatedCount": 901,
+  "ShipmentMessageBlockId": 587,
+  "AssociateId": 240,
+  "Block": "ab",
+  "Registered": "2015-11-30T03:45:28.6546813+01:00",
+  "RegisteredAssociateId": 341,
+  "Updated": "1998-09-10T03:45:28.6546813+02:00",
+  "UpdatedAssociateId": 673,
+  "UpdatedCount": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 572
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Stokes Inc and Sons",
-    "ToolTip": "Praesentium aut illum dicta.",
-    "Deleted": false,
-    "Rank": 731,
-    "Type": "repudiandae",
-    "ColorBlock": 366,
-    "IconHint": "rerum",
+    "Id": 722,
+    "Name": "Prohaska LLC",
+    "ToolTip": "Et quos.",
+    "Deleted": true,
+    "Rank": 931,
+    "Type": "illo",
+    "ColorBlock": 17,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2017-05-12T17:54:09.0074197+02:00",
+    "LastChanged": "2013-10-14T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Raynor-Gerlach",
-        "ToolTip": "Quaerat facilis a dolorem harum.",
-        "Deleted": true,
-        "Rank": 628,
-        "Type": "fugit",
-        "ColorBlock": 66,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2021-11-18T17:54:09.0074197+01:00",
+        "Id": 201,
+        "Name": "Bogisich LLC",
+        "ToolTip": "Hic dolore molestias consequatur qui.",
+        "Deleted": false,
+        "Rank": 811,
+        "Type": "consequuntur",
+        "ColorBlock": 324,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "2016-01-14T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Ashlynn Danial Bednar DVM"
+        "ExtraInfo": "enim",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Katrina McLaughlin"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "qui",
+    "StyleHint": "delectus",
     "Hidden": true,
-    "FullName": "Stephan Parker"
+    "FullName": "Astrid Miller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Corwin-Cummings",
-    "ToolTip": "Aspernatur amet nemo est.",
+    "Id": 94,
+    "Name": "Bayer, Thompson and Howell",
+    "ToolTip": "Quo occaecati.",
     "Deleted": false,
-    "Rank": 225,
-    "Type": "enim",
-    "ColorBlock": 172,
-    "IconHint": "quos",
+    "Rank": 968,
+    "Type": "doloribus",
+    "ColorBlock": 14,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2004-12-12T17:54:09.0074197+01:00",
+    "LastChanged": "1998-05-24T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Schuppe-Lubowitz",
-        "ToolTip": "Distinctio dicta veritatis soluta vel eum.",
+        "Id": 284,
+        "Name": "Turner Group",
+        "ToolTip": "Similique ducimus esse dolor facilis ratione.",
         "Deleted": false,
-        "Rank": 621,
-        "Type": "et",
-        "ColorBlock": 531,
-        "IconHint": "natus",
+        "Rank": 389,
+        "Type": "illo",
+        "ColorBlock": 627,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2014-09-03T17:54:09.0074197+02:00",
+        "LastChanged": "2011-08-20T03:45:29.1859346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Makenzie Kunze Jr.",
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Immanuel Cole King Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "iure",
+    "ExtraInfo": "culpa",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Mrs. Grace Harber",
+    "FullName": "Mr. Torrey Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 134
       }
     }
   }

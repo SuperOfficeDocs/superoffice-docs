@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEventType": "AppointmentCancelled",
-  "Id": 839
+  "Id": 504
 }
 ```
 

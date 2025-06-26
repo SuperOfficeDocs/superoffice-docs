@@ -64,7 +64,7 @@ Lists new CategoryMembers added through restriction.
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=associateDbId,contactCategory
+GET /api/v1/archive/NewCategoryMembers?$select=simultaneousEjUser,credentialType,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

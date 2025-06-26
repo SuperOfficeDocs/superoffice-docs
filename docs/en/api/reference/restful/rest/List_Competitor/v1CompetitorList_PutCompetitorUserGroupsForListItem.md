@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Reinger Inc and Sons",
-    "ToolTip": "Quaerat rerum qui minus accusamus.",
+    "Id": 4,
+    "Name": "Zieme-Lockman",
+    "ToolTip": "Maiores ad est nihil.",
     "Deleted": true,
-    "Rank": 1000,
-    "Type": "sint",
-    "ColorBlock": 331,
-    "IconHint": "eaque",
+    "Rank": 862,
+    "Type": "dolore",
+    "ColorBlock": 123,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2015-06-13T17:54:08.8043048+02:00",
+    "LastChanged": "2004-04-08T03:45:28.9827939+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Lehner-Kutch",
-        "ToolTip": "Minima iusto ullam at dolor unde aut totam.",
+        "Id": 25,
+        "Name": "Rolfson, Emard and Boehm",
+        "ToolTip": "Ducimus porro reprehenderit eveniet pariatur.",
         "Deleted": true,
-        "Rank": 300,
-        "Type": "officia",
-        "ColorBlock": 742,
-        "IconHint": "earum",
+        "Rank": 182,
+        "Type": "voluptatem",
+        "ColorBlock": 589,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-05-20T17:54:08.8043048+02:00",
+        "LastChanged": "2001-03-30T03:45:28.9827939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "eum",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Brook Kshlerin"
+        "FullName": "Miss Don Cassandre Paucek"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Ruben Kassulke"
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Prof. Lavina Bartoletti"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Stiedemann Inc and Sons",
-    "ToolTip": "Odit dolores sint.",
-    "Deleted": true,
-    "Rank": 281,
-    "Type": "eos",
-    "ColorBlock": 815,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2011-12-27T17:54:08.8043048+01:00",
+    "Id": 639,
+    "Name": "Heathcote-Blanda",
+    "ToolTip": "Et et in qui qui.",
+    "Deleted": false,
+    "Rank": 572,
+    "Type": "asperiores",
+    "ColorBlock": 620,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2016-02-23T03:45:28.9827939+01:00",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Zieme, Kuvalis and Krajcik",
-        "ToolTip": "Eaque et quia quidem.",
+        "Id": 560,
+        "Name": "Hermann Inc and Sons",
+        "ToolTip": "Aut omnis consequuntur dolores.",
         "Deleted": false,
-        "Rank": 906,
-        "Type": "quae",
-        "ColorBlock": 963,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1999-02-10T17:54:08.8043048+01:00",
+        "Rank": 245,
+        "Type": "consequatur",
+        "ColorBlock": 480,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2012-05-07T03:45:28.9827939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "esse",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Mrs. Yessenia Jakubowski III",
+        "FullName": "Matilda Joey Schuppe PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldType": "System.String",
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Darrick Ramon Bernier DDS",
+    "ExtraInfo": "sit",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Miss Rosalinda Sanford Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 853
       }
     }
   }

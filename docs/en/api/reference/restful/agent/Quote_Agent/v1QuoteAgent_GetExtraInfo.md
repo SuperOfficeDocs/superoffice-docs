@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "cupiditate"
+  "QuoteLineExtraData": "voluptas"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuphal, Little and Walsh",
-    "Value": "nemo",
+    "Name": "Krajcik Inc and Sons",
+    "Value": "placeat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 880
       }
     }
   },
   {
-    "Name": "Kuphal, Little and Walsh",
-    "Value": "nemo",
+    "Name": "Krajcik Inc and Sons",
+    "Value": "placeat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 880
       }
     }
   }

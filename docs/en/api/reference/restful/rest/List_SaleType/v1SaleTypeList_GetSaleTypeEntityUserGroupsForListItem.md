@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Hermann-Donnelly",
-    "ToolTip": "Nobis nobis.",
-    "Deleted": false,
-    "Rank": 223,
-    "Type": "at",
-    "ColorBlock": 44,
-    "IconHint": "non",
+    "Id": 384,
+    "Name": "Stanton-Gorczany",
+    "ToolTip": "Adipisci non magni id.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "non",
+    "ColorBlock": 628,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2019-04-14T17:54:09.1168029+02:00",
+    "LastChanged": "2000-11-08T03:45:29.2171623+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Langworth, Swift and Gutkowski",
-        "ToolTip": "Temporibus voluptate unde.",
-        "Deleted": true,
-        "Rank": 437,
-        "Type": "at",
-        "ColorBlock": 651,
-        "IconHint": "iure",
+        "Id": 669,
+        "Name": "Kling-Beatty",
+        "ToolTip": "Atque itaque aut quod quis libero quidem.",
+        "Deleted": false,
+        "Rank": 64,
+        "Type": "et",
+        "ColorBlock": 823,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2013-09-16T17:54:09.1168029+02:00",
+        "LastChanged": "2021-12-25T03:45:29.2171623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Anahi Stokes",
+        "ExtraInfo": "culpa",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Mr. Tyler Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 137
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "non",
+    "ExtraInfo": "id",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Therese Melvin Quitzon V",
+    "FullName": "Delores Magnus Grimes PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 308
       }
     }
   }

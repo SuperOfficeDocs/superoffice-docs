@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 597,
-  "ModuleOwner": "repudiandae",
+  "AssociateId": 236,
+  "ModuleOwner": "animi",
   "ModuleLicenseNames": [
-    "Bednar LLC",
-    "Kirlin, Schmeler and Dibbert"
+    "Erdman Inc and Sons",
+    "Smitham-Reinger"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 973,
-    "Tooltip": "sit",
+    "Unrestricted": true,
+    "Total": 111,
+    "Tooltip": "velit",
     "CanAssign": false,
-    "Free": 849,
-    "InUse": 989,
+    "Free": 280,
+    "InUse": 1000,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 859,
-    "Name": "Stark, Boehm and Wolff",
-    "Description": "Multi-channelled assymetric projection",
-    "PrerequisiteModuleName": "Rath-Lowe",
-    "SortOrder": 687,
-    "ExtraFlags": 916,
+    "ModuleLicenseId": 74,
+    "Name": "Kihn-Huel",
+    "Description": "Centralized incremental contingency",
+    "PrerequisiteModuleName": "Hane-Lebsack",
+    "SortOrder": 161,
+    "ExtraFlags": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 294
       }
     }
   }

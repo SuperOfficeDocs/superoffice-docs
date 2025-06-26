@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 349,
-  "Name": "Kiehn, Casper and Gerhold",
+  "WebhookId": 548,
+  "Name": "Lockman, Grady and Fritsch",
   "Events": [
-    "officia",
-    "temporibus"
+    "tempora",
+    "fugiat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "facilis",
+  "Secret": "dolorem",
   "State": "Active",
-  "Type": "commodi",
+  "Type": "praesentium",
   "Headers": {
-    "Headers1": "necessitatibus",
-    "Headers2": "aut"
+    "Headers1": "corporis",
+    "Headers2": "esse"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-05-16T17:54:08.7730557+02:00",
+  "Registered": "2017-11-30T03:45:28.8890492+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-12-16T17:54:08.7730557+01:00",
+  "Updated": "2024-08-22T03:45:28.8890492+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "candida@labadiekuphal.ca"
+  "ErrorsEmail": "corbin_kris@hyatt.com"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 848,
-  "Name": "Prohaska, Christiansen and Kessler",
+  "WebhookId": 573,
+  "Name": "Smitham-Greenfelder",
   "Events": [
-    "neque",
-    "placeat"
+    "provident",
+    "provident"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quos",
+  "Secret": "soluta",
   "State": "Active",
-  "Type": "repellendus",
+  "Type": "molestiae",
   "Headers": {
-    "Headers1": "minus",
-    "Headers2": "blanditiis"
+    "Headers1": "aut",
+    "Headers2": "debitis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-09-23T17:54:08.7730557+02:00",
+  "Registered": "2024-04-11T03:45:28.8890492+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-12-26T17:54:08.7730557+01:00",
+  "Updated": "2013-09-12T03:45:28.8890492+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "alisa.bednar@halvorson.ca",
+  "ErrorsEmail": "gordon@dickipadberg.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

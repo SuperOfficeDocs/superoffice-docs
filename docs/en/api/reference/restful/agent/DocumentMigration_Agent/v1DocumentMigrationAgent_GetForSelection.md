@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 571,
-  "SelectionId": 762,
-  "IncludeEmails": true
+  "DocumentPluginId": 631,
+  "SelectionId": 908,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 340,
-  "NumDocumentsAlreadyMigrated": 7,
+  "NumDocumentsOmitted": 849,
+  "NumDocumentsAlreadyMigrated": 881,
   "Documents": [
     {
-      "DocumentId": 451,
-      "ContactId": 207,
-      "PersonId": 378,
-      "SaleId": 639,
-      "ProjectId": 286,
-      "DocTmplId": 827,
-      "AssociateId": 389,
-      "UserGroupId": 923,
-      "VisibleForId": 832
+      "DocumentId": 328,
+      "ContactId": 656,
+      "PersonId": 597,
+      "SaleId": 113,
+      "ProjectId": 642,
+      "DocTmplId": 901,
+      "AssociateId": 583,
+      "UserGroupId": 676,
+      "VisibleForId": 849
     }
   ],
   "Associates": [
     {
-      "AssociateId": 775,
-      "EmailAddress": "carley.zemlak@jacobson.com"
+      "AssociateId": 864,
+      "EmailAddress": "annabell_howe@simonisdooley.uk"
     },
     {
-      "AssociateId": 775,
-      "EmailAddress": "carley.zemlak@jacobson.com"
+      "AssociateId": 864,
+      "EmailAddress": "annabell_howe@simonisdooley.uk"
     }
   ]
 }

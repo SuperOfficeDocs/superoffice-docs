@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 151,
-  "Name": "Schuster, Sawayn and Monahan",
-  "Tooltip": "fugit",
-  "Rank": 672,
-  "Rate": 12369.898,
-  "Units": 20339.66,
-  "Deleted": true
+  "CurrencyId": 974,
+  "Name": "Will, Reichel and Greenfelder",
+  "Tooltip": "ut",
+  "Rank": 266,
+  "Rate": 17537.863999999998,
+  "Units": 13686.178,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 972,
-  "Name": "Nader LLC",
-  "Tooltip": "cupiditate",
-  "Rank": 854,
-  "Rate": 990.34399999999994,
-  "Units": 16713.622,
+  "CurrencyId": 312,
+  "Name": "Kerluke Group",
+  "Tooltip": "asperiores",
+  "Rank": 88,
+  "Rate": 23163.394,
+  "Units": 23150.858,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 586
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 572,
-  "Name": "Dibbert-Lang",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 883,
-  "IsCustomList": true,
+  "Id": 702,
+  "Name": "O'Reilly LLC",
+  "Tooltip": "harum",
+  "Deleted": true,
+  "Rank": 272,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
+  "ListType": "iusto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldLength": 251
     }
   },
   "_Links": {

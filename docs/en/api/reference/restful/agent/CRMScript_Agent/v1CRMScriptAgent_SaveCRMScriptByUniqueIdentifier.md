@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
+  "UniqueIdentifier": "voluptatem",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rerum",
-  "Name": "Bergstrom-Schamberger",
-  "Description": "Open-source demand-driven emulation",
-  "IncludeId": "magnam",
-  "Source": "delectus",
-  "Registered": "2018-01-27T17:54:02.9139671+01:00",
-  "RegisteredBy": "ab",
-  "Updated": "2020-11-01T17:54:02.9139671+01:00",
-  "UpdatedBy": "sit",
-  "Path": "error",
+  "UniqueIdentifier": "eum",
+  "Name": "Bogan-O'Connell",
+  "Description": "Customizable homogeneous challenge",
+  "IncludeId": "maxime",
+  "Source": "ipsam",
+  "Registered": "2010-08-05T03:45:23.2329582+02:00",
+  "RegisteredBy": "veritatis",
+  "Updated": "2023-03-09T03:45:23.2329582+01:00",
+  "UpdatedBy": "odio",
+  "Path": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 521
     }
   }
 }

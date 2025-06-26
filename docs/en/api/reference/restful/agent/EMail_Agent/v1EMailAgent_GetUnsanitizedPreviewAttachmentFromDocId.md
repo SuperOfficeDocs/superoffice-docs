@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 479,
-  "AttachmentId": "sunt"
+  "DocId": 441,
+  "AttachmentId": "sint"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered background attitude",
-  "Filename": "enim",
-  "Size": 2,
-  "Type": "natus",
-  "Encoding": "exercitationem",
-  "Id": "excepturi",
-  "Disposition": "est",
+  "Description": "Mandatory 6th generation model",
+  "Filename": "facilis",
+  "Size": 69,
+  "Type": "autem",
+  "Encoding": "aliquid",
+  "Id": "iure",
+  "Disposition": "reiciendis",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

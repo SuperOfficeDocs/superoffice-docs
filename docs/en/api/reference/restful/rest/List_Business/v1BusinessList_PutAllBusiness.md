@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Davis Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 187,
-    "Rank": 179
+    "Id": 950,
+    "Name": "Beahan-Larkin",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 847,
+    "Rank": 417
   },
   {
-    "Id": 889,
-    "Name": "Davis Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 187,
-    "Rank": 179
+    "Id": 950,
+    "Name": "Beahan-Larkin",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 847,
+    "Rank": 417
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Collins, Effertz and Heaney",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "UdListDefinitionId": 408,
-    "Rank": 43,
+    "Id": 167,
+    "Name": "Maggio-Padberg",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "UdListDefinitionId": 628,
+    "Rank": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 830
       }
     }
   }

@@ -68,11 +68,11 @@ No Content
 POST /api/v1/Agents/Appointment/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 55,
+  "AppointmentId": 789,
   "UpdateMode": "OnlyThis",
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 139,
-  "Name": "Bruen, Conn and Brown",
-  "Tooltip": "quaerat",
+  "HeadingId": 564,
+  "Name": "Stiedemann LLC",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 387,
-  "UdListDefinitionId": 353
+  "Rank": 733,
+  "UdListDefinitionId": 901
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Wunsch, Gibson and McGlynn",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 113,
-  "UdListDefinitionId": 367,
+  "HeadingId": 692,
+  "Name": "Cummerata-Donnelly",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 573,
+  "UdListDefinitionId": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 664
     }
   }
 }

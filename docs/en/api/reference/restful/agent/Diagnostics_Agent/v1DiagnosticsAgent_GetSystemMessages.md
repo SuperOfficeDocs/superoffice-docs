@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 914
+  "AssociateId": 368
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MessageId": 637,
-    "AssociateId": 947,
-    "OnlineappId": 222,
-    "SystemMessageId": "ullam",
-    "MarkdownMessage": "quia",
-    "Expire": "2009-03-26T17:54:02.9452152+01:00",
+    "MessageId": 270,
+    "AssociateId": 202,
+    "OnlineappId": 633,
+    "SystemMessageId": "nihil",
+    "MarkdownMessage": "eum",
+    "Expire": "2023-09-21T03:45:23.2798335+02:00",
     "Type": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

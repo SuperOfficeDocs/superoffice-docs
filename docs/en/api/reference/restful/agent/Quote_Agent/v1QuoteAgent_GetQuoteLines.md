@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 39
+  "QuoteAlternativeId": 24
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 22,
-    "ERPQuoteLineKey": "incidunt",
-    "QuoteAlternativeId": 307,
-    "ERPProductKey": "qui",
+    "QuoteLineId": 513,
+    "ERPQuoteLineKey": "illo",
+    "QuoteAlternativeId": 131,
+    "ERPProductKey": "nisi",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 14798.748,
-    "DeliveredQuantity": 12598.68,
-    "Rank": 55,
-    "Name": "Trantow Inc and Sons",
-    "Description": "Implemented multi-tasking Graphical User Interface",
-    "Code": "voluptas",
-    "QuantityUnit": "quae",
-    "PriceUnit": "quis",
-    "ItemNumber": "1051860",
+    "Quantity": 8963.24,
+    "DeliveredQuantity": 25159.752,
+    "Rank": 874,
+    "Name": "Okuneva Group",
+    "Description": "Focused high-level system engine",
+    "Code": "aut",
+    "QuantityUnit": "nostrum",
+    "PriceUnit": "quia",
+    "ItemNumber": "873515",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "aut",
-    "ProductTypeKey": "nesciunt",
-    "Supplier": "voluptatum",
-    "SupplierCode": "molestias",
-    "Thumbnail": "quia",
-    "VATInfo": "porro",
-    "VAT": 15083.942,
-    "UnitCost": 15811.029999999999,
-    "UnitMinimumPrice": 17729.038,
-    "UnitListPrice": 25971.458,
+    "ProductFamilyKey": "tempora",
+    "ProductTypeKey": "soluta",
+    "Supplier": "blanditiis",
+    "SupplierCode": "aut",
+    "Thumbnail": "voluptatibus",
+    "VATInfo": "quo",
+    "VAT": 6286.804,
+    "UnitCost": 11125.699999999999,
+    "UnitMinimumPrice": 28604.018,
+    "UnitListPrice": 29832.546,
     "ExtraInfo": [
       {
-        "Name": "Fisher, Hessel and Runolfsson",
-        "Value": "odit",
+        "Name": "Koch-Rohan",
+        "Value": "hic",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 393
           }
         }
       },
       {
-        "Name": "Fisher, Hessel and Runolfsson",
-        "Value": "odit",
+        "Name": "Koch-Rohan",
+        "Value": "hic",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 393
           }
         }
       }
     ],
-    "RawExtraInfo": "velit",
+    "RawExtraInfo": "error",
     "IsSubscription": false,
-    "SubscriptionUnit": "ea",
-    "SubscriptionQuantity": 12595.546,
-    "SubscriptionStart": "2009-12-31T17:54:03.5389365+01:00",
-    "ERPDiscountPercent": 11605.202,
-    "ERPDiscountAmount": 8762.6639999999989,
-    "DiscountPercent": 6365.1539999999995,
-    "DiscountAmount": 25758.345999999998,
+    "SubscriptionUnit": "et",
+    "SubscriptionQuantity": 24175.676,
+    "SubscriptionStart": "2024-04-24T03:45:23.8423206+02:00",
+    "ERPDiscountPercent": 20549.638,
+    "ERPDiscountAmount": 12225.734,
+    "DiscountPercent": 22166.782,
+    "DiscountAmount": 29584.96,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 24642.642,
-    "EarningAmount": 6835.254,
-    "SubTotal": 1012.2819999999999,
-    "TotalPrice": 17356.092,
-    "Rights": "sit",
-    "Rule": "dolorem",
-    "ExtraField1": "vitae",
-    "ExtraField2": "et",
-    "ExtraField3": "corrupti",
-    "ExtraField4": "sit",
-    "ExtraField5": "sunt",
+    "EarningPercent": 9508.556,
+    "EarningAmount": 18647.3,
+    "SubTotal": 17490.854,
+    "TotalPrice": 14454.008,
+    "Rights": "suscipit",
+    "Rule": "nihil",
+    "ExtraField1": "aut",
+    "ExtraField2": "porro",
+    "ExtraField3": "dolorum",
+    "ExtraField4": "sint",
+    "ExtraField5": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldType": "System.String",
+        "FieldLength": 357
       }
     }
   }

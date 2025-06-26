@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Reynolds-Kilback",
-  "Tooltip": "ut",
+  "Id": 600,
+  "Name": "Lowe-VonRueden",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 170,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fuga",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 217,
-  "Name": "Von LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 539,
-  "IsCustomList": true,
+  "Id": 991,
+  "Name": "Kassulke Inc and Sons",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 410,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "voluptate",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

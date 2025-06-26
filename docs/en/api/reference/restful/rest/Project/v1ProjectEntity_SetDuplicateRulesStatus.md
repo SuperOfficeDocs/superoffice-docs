@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marvin-Walter",
-    "DisplayName": "Fritsch Inc and Sons",
-    "DisplayTooltip": "asperiores",
+    "Name": "Bartell, McCullough and McLaughlin",
+    "DisplayName": "Swift, Anderson and Effertz",
+    "DisplayTooltip": "quaerat",
     "IsActive": false
   },
   {
-    "Name": "Marvin-Walter",
-    "DisplayName": "Fritsch Inc and Sons",
-    "DisplayTooltip": "asperiores",
+    "Name": "Bartell, McCullough and McLaughlin",
+    "DisplayName": "Swift, Anderson and Effertz",
+    "DisplayTooltip": "quaerat",
     "IsActive": false
   }
 ]

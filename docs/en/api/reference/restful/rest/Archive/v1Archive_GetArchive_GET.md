@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=doloremque
-GET /api/v1/Archive/{archiveProviderName}?$top=974
-GET /api/v1/Archive/{archiveProviderName}?$skip=101
+GET /api/v1/Archive/{archiveProviderName}?$entities=consequatur
+GET /api/v1/Archive/{archiveProviderName}?$top=825
+GET /api/v1/Archive/{archiveProviderName}?$skip=477
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=iusto
+GET /api/v1/Archive/{archiveProviderName}?$context=tempora
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=dolores
+GET /api/v1/Archive/{archiveProviderName}?$metadata=voluptates
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -201,21 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "modi",
+  "odata.nextLink": "itaque",
   "value": [
     {
-      "PrimaryKey": 9052,
-      "EntityName": "sale",
-      "saleId": 9052,
-      "contactId": 7416,
-      "name": "Jaskolski, Walker and Pollich"
+      "PrimaryKey": 5376,
+      "EntityName": "person",
+      "personId": 5376,
+      "fullName": "Miss Justina Wyman"
     },
     {
-      "PrimaryKey": 6192,
-      "EntityName": "sale",
-      "saleId": 6192,
-      "contactId": 5014,
-      "name": "Mueller, Conroy and Ritchie"
+      "PrimaryKey": 2503,
+      "EntityName": "person",
+      "personId": 2503,
+      "fullName": "Abbey Wiegand"
     }
   ]
 }

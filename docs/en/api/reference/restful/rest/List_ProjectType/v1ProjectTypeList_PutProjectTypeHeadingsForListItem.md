@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Monahan-Kulas",
-    "ToolTip": "Aut non tenetur modi error eum fuga vel.",
+    "Id": 693,
+    "Name": "Stoltenberg LLC",
+    "ToolTip": "Molestiae labore.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "quas",
-    "ColorBlock": 795,
-    "IconHint": "harum",
+    "Rank": 576,
+    "Type": "dolorem",
+    "ColorBlock": 613,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1998-03-04T17:54:09.0074197+01:00",
+    "LastChanged": "2008-09-19T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Kshlerin-Lowe",
-        "ToolTip": "Iusto voluptatum quia quis occaecati accusantium.",
+        "Id": 363,
+        "Name": "Boehm Group",
+        "ToolTip": "Debitis tempora et adipisci alias totam.",
         "Deleted": false,
-        "Rank": 512,
-        "Type": "distinctio",
-        "ColorBlock": 516,
-        "IconHint": "et",
+        "Rank": 356,
+        "Type": "sunt",
+        "ColorBlock": 44,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2014-03-12T17:54:09.0074197+01:00",
+        "LastChanged": "2025-03-16T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Austen Kameron Reilly DVM"
+        "ExtraInfo": "optio",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Dr. Vanessa Dandre Schimmel"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "porro",
-    "Hidden": true,
-    "FullName": "Prof. Jabari McGlynn DDS"
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Waino Gerhold Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Kulas Inc and Sons",
-    "ToolTip": "Iusto dolorum.",
-    "Deleted": false,
-    "Rank": 39,
-    "Type": "molestiae",
-    "ColorBlock": 427,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2020-09-20T17:54:09.0074197+02:00",
+    "Id": 932,
+    "Name": "Harber-Rohan",
+    "ToolTip": "Perferendis distinctio aliquid a qui quaerat nam ut.",
+    "Deleted": true,
+    "Rank": 180,
+    "Type": "corporis",
+    "ColorBlock": 313,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2013-08-15T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Boyle, Feil and Gutkowski",
-        "ToolTip": "Facilis tenetur.",
+        "Id": 405,
+        "Name": "Auer, Barrows and Schaefer",
+        "ToolTip": "Omnis voluptas.",
         "Deleted": false,
-        "Rank": 525,
-        "Type": "cum",
-        "ColorBlock": 830,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2008-07-09T17:54:09.0074197+02:00",
+        "Rank": 602,
+        "Type": "qui",
+        "ColorBlock": 155,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2025-01-09T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "fugit",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Casper Doris Balistreri IV",
+        "FullName": "Jermaine Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldType": "System.String",
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "nobis",
+    "ExtraInfo": "beatae",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Herbert Lindgren MD",
+    "FullName": "Lori Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldType": "System.String",
+        "FieldLength": 871
       }
     }
   }

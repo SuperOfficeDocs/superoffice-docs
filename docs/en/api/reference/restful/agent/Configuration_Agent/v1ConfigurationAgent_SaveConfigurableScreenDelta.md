@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 970,
-  "Name": "Stark-Berge",
-  "Description": "Networked zero defect extranet",
-  "DeltaJson": "nesciunt",
+  "ConfigurableScreenDeltaId": 545,
+  "Name": "Heidenreich-Rempel",
+  "Description": "Advanced maximized contingency",
+  "DeltaJson": "aut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "maiores",
-  "UpdatedDate": "2014-12-23T17:54:02.7577242+01:00",
-  "CreatedDate": "2009-12-04T17:54:02.7577242+01:00",
+  "RecipeId": "recusandae",
+  "UpdatedDate": "2008-07-14T03:45:23.0767156+02:00",
+  "CreatedDate": "2004-11-09T03:45:23.0767156+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    31,
-    669
+    388,
+    202
   ],
-  "AppliesToKey": "ut"
+  "AppliesToKey": "hic"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 121,
-  "Name": "Halvorson, Prohaska and Hoeger",
-  "Description": "Exclusive radical capability",
-  "DeltaJson": "ut",
+  "ConfigurableScreenDeltaId": 270,
+  "Name": "Nader, Rippin and Christiansen",
+  "Description": "Centralized intermediate toolset",
+  "DeltaJson": "voluptatibus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "enim",
-  "UpdatedDate": "1998-03-17T17:54:02.7577242+01:00",
-  "CreatedDate": "1998-06-12T17:54:02.7577242+02:00",
+  "RecipeId": "mollitia",
+  "UpdatedDate": "2015-09-17T03:45:23.0767156+02:00",
+  "CreatedDate": "2009-02-07T03:45:23.0767156+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    234,
-    198
+    543,
+    607
   ],
-  "AppliesToKey": "ut",
+  "AppliesToKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 175
     }
   }
 }

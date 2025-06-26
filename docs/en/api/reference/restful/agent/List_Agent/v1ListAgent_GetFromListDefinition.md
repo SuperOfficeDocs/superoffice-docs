@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "UdListDefinitionId": 622
+  "Id": 263,
+  "UdListDefinitionId": 397
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Volkman LLC",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 848,
-  "Rank": 212,
+  "Id": 189,
+  "Name": "Wilkinson-Weissnat",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 854,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

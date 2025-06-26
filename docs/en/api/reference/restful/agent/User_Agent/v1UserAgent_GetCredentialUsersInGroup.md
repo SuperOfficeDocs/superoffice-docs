@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptatum",
-  "GroupName": "Kohler-Lockman"
+  "Type": "a",
+  "GroupName": "Cruickshank Group"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "et",
-    "consequuntur"
+    "esse",
+    "nulla"
   ],
   "Users": [
     {
-      "Value": "corporis",
-      "DisplayValue": "consequatur",
+      "Value": "explicabo",
+      "DisplayValue": "non",
       "Columns": [
-        "ut",
-        "exercitationem"
+        "in",
+        "aliquam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 596
         }
       }
     },
     {
-      "Value": "corporis",
-      "DisplayValue": "consequatur",
+      "Value": "explicabo",
+      "DisplayValue": "non",
       "Columns": [
-        "ut",
-        "exercitationem"
+        "in",
+        "aliquam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 596
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   }
 }

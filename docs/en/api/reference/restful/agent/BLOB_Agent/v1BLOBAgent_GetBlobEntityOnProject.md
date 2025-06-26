@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 326
+  "ProjectId": 557
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 558,
-  "BlobSize": 54,
-  "Description": "Public-key systematic open system",
-  "ExtraInfo": "aut",
+  "BlobId": 296,
+  "BlobSize": 536,
+  "Description": "Compatible client-server time-frame",
+  "ExtraInfo": "cupiditate",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nulla",
-  "OriginalSize": 256,
-  "CreatedDate": "2006-11-07T17:54:02.6639794+01:00",
-  "UpdatedDate": "1998-09-02T17:54:02.6639794+02:00",
+  "IsZipped": false,
+  "MimeType": "modi",
+  "OriginalSize": 174,
+  "CreatedDate": "2022-04-29T03:45:22.9829669+02:00",
+  "UpdatedDate": "2013-08-17T03:45:22.9829669+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "alias",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 316
     }
   }
 }

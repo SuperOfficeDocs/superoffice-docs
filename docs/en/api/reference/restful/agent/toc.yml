@@ -4,6 +4,12 @@ items:
 - name: AI
   href: AI_Agent/index.md
   items:
+  - name: Answer
+    href: AI_Agent/v1AIAgent_Answer.md
+  - name: AnswerAccepted
+    href: AI_Agent/v1AIAgent_AnswerAccepted.md
+  - name: AnswerFeedback
+    href: AI_Agent/v1AIAgent_AnswerFeedback.md
   - name: ClearChatbotTurns
     href: AI_Agent/v1AIAgent_ClearChatbotTurns.md
   - name: CreateTextForAppointment
@@ -32,6 +38,10 @@ items:
     href: AI_Agent/v1AIAgent_GuessCategory.md
   - name: RephraseText
     href: AI_Agent/v1AIAgent_RephraseText.md
+  - name: Search
+    href: AI_Agent/v1AIAgent_Search.md
+  - name: StartRagIndexing
+    href: AI_Agent/v1AIAgent_StartRagIndexing.md
   - name: SummarizeContact
     href: AI_Agent/v1AIAgent_SummarizeContact.md
   - name: SummarizeSale
@@ -673,6 +683,8 @@ items:
     href: Contact_Agent/v1ContactAgent_DeleteContactEntity.md
   - name: DeleteExpired
     href: Contact_Agent/v1ContactAgent_DeleteExpired.md
+  - name: EnrichContactEntity
+    href: Contact_Agent/v1ContactAgent_EnrichContactEntity.md
   - name: GetAddress
     href: Contact_Agent/v1ContactAgent_GetAddress.md
   - name: GetAddressByCountry
@@ -709,6 +721,8 @@ items:
     href: Contact_Agent/v1ContactAgent_GetPersons.md
   - name: GetPreviewContact
     href: Contact_Agent/v1ContactAgent_GetPreviewContact.md
+  - name: GetPreviewEnrichContact
+    href: Contact_Agent/v1ContactAgent_GetPreviewEnrichContact.md
   - name: GetQuoteVersionAddresses
     href: Contact_Agent/v1ContactAgent_GetQuoteVersionAddresses.md
   - name: IsNumberValid
@@ -995,6 +1009,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForAllUsers.md
   - name: GetEntityCountsForCurrentUser
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md
+  - name: GetNextTableNumber
+    href: Diagnostics_Agent/v1DiagnosticsAgent_GetNextTableNumber.md
   - name: GetSystemMessages
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetSystemMessages.md
   - name: GetWebAppUsagesForPeriod

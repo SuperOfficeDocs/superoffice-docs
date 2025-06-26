@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Flatley-Ondricka",
+  "UserName": "Satterfield Group",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 977,
-  "Name": "Mayert LLC",
-  "Rank": 190,
-  "Tooltip": "distinctio",
+  "AssociateId": 127,
+  "Name": "Blanda-Kerluke",
+  "Rank": 765,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Thompson, Walker and Hills",
-      "Description": "Right-sized intermediate task-force",
+      "Name": "Grimes Inc and Sons",
+      "Description": "Virtual multi-state analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 559
         }
       }
     },
     {
-      "Name": "Thompson, Walker and Hills",
-      "Description": "Right-sized intermediate task-force",
+      "Name": "Grimes Inc and Sons",
+      "Description": "Virtual multi-state analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 559
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "eveniet",
-      "Id": 608,
-      "Rank": 111,
+      "Value": "eos",
+      "Tooltip": "omnis",
+      "Id": 645,
+      "Rank": 304,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2013-03-27T17:54:03.8982941+01:00",
-  "Lastlogout": "2019-12-03T17:54:03.8982941+01:00",
-  "EjUserId": 613,
-  "RequestSignature": "laboriosam",
+  "Lastlogin": "2016-01-02T03:45:24.1860585+01:00",
+  "Lastlogout": "2013-08-08T03:45:24.1860585+02:00",
+  "EjUserId": 602,
+  "RequestSignature": "eos",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "impedit",
+      "Value": "blanditiis",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 264
         }
       }
     },
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "impedit",
+      "Value": "blanditiis",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 264
         }
       }
     }
   ],
-  "UserName": "Ankunding LLC",
+  "UserName": "Crona Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 968,
-      "Name": "Senger-Frami",
-      "ToolTip": "Natus beatae cumque quis.",
+      "Id": 368,
+      "Name": "Doyle-Stark",
+      "ToolTip": "Quis voluptatem dolores a quo eaque et impedit.",
       "Deleted": false,
-      "Rank": 662,
-      "Type": "ab",
+      "Rank": 827,
+      "Type": "architecto",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 929,
-      "ExtraInfo": "possimus",
-      "StyleHint": "tempore",
-      "FullName": "Dr. Kathryne Waelchi",
+      "IconHint": "nesciunt",
+      "ColorBlock": 99,
+      "ExtraInfo": "ut",
+      "StyleHint": "deserunt",
+      "FullName": "Colten McGlynn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     }
   ],
-  "NickName": "Friesen LLC",
+  "NickName": "Volkman Group",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "incidunt"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "voluptas"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cartwright, Bartoletti and Pollich",
-      "DisplayName": "Osinski LLC",
-      "Description": "Customizable content-based projection",
-      "ToolTip": "Eius alias ut maiores incidunt nihil ut.",
+      "Name": "Satterfield Inc and Sons",
+      "DisplayName": "Baumbach LLC",
+      "Description": "Re-engineered interactive definition",
+      "ToolTip": "Totam vel voluptas est vero repudiandae recusandae omnis.",
       "Actions": "Implicit",
-      "ActionData": "iste",
+      "ActionData": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 762
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 519
     }
   }
 }

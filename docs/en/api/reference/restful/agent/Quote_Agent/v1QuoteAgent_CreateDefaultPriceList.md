@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 140,
-  "ERPPriceListKey": "accusantium",
-  "QuoteConnectionId": 244,
-  "Name": "Rolfson-Gerlach",
-  "Description": "Inverse context-sensitive functionalities",
-  "Currency": "quia",
-  "CurrencyName": "Nikolaus Inc and Sons",
-  "ValidFrom": "2008-01-09T17:54:03.5076876+01:00",
-  "ValidTo": "2009-10-25T17:54:03.5076876+01:00",
-  "IsActive": false,
+  "PriceListId": 878,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 286,
+  "Name": "Reynolds LLC",
+  "Description": "Secured modular capability",
+  "Currency": "voluptas",
+  "CurrencyName": "Hansen-Denesik",
+  "ValidFrom": "2019-09-05T03:45:23.8110701+02:00",
+  "ValidTo": "2007-01-05T03:45:23.8110701+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 61
     }
   }
 }

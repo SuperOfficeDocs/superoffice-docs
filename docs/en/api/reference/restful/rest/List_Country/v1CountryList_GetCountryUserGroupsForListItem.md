@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Renner Inc and Sons",
-    "ToolTip": "Debitis distinctio eveniet est.",
+    "Id": 251,
+    "Name": "Wilderman, Mayert and Runolfsdottir",
+    "ToolTip": "Doloribus ipsa et voluptas et et mollitia omnis.",
     "Deleted": true,
-    "Rank": 267,
-    "Type": "quisquam",
-    "ColorBlock": 561,
-    "IconHint": "inventore",
+    "Rank": 436,
+    "Type": "corporis",
+    "ColorBlock": 683,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2001-12-20T17:54:08.8824262+01:00",
+    "LastChanged": "2019-09-23T03:45:28.9984183+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Wilkinson-Jacobs",
-        "ToolTip": "Commodi ut vitae.",
+        "Id": 24,
+        "Name": "Greenfelder-Kunze",
+        "ToolTip": "Ullam qui neque nulla ut.",
         "Deleted": false,
-        "Rank": 860,
-        "Type": "quia",
-        "ColorBlock": 887,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2006-04-02T17:54:08.8824262+02:00",
+        "Rank": 460,
+        "Type": "tenetur",
+        "ColorBlock": 194,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2007-11-20T03:45:28.9984183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Dr. Ronaldo Schmeler V",
+        "ExtraInfo": "id",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Carroll Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 227
+            "FieldType": "System.Int32",
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Arlie Wuckert Jr.",
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Augusta Blaise Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

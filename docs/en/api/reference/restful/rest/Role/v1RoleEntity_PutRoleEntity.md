@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 707,
-  "Name": "Thiel Inc and Sons",
-  "Tooltip": "est",
+  "RoleId": 992,
+  "Name": "Brekke LLC",
+  "Tooltip": "quis",
   "RoleType": "Anonymous",
-  "Deleted": 989,
-  "Rank": 583,
-  "Created": "2022-01-16T17:54:08.4136991+01:00",
-  "UseCategories": 473,
+  "Deleted": 70,
+  "Rank": 597,
+  "Created": "2015-03-25T03:45:28.5296817+01:00",
+  "UseCategories": 617,
   "CreatedBy": null,
-  "Updated": "2016-09-20T17:54:08.4136991+02:00",
+  "Updated": "2025-03-05T03:45:28.5296817+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 71,
-  "Name": "Schinner-Shanahan",
-  "Tooltip": "animi",
+  "RoleId": 969,
+  "Name": "Rempel, Veum and Zulauf",
+  "Tooltip": "fuga",
   "RoleType": "Anonymous",
-  "Deleted": 566,
-  "Rank": 202,
-  "Created": "2002-05-19T17:54:08.4136991+02:00",
-  "UseCategories": 108,
+  "Deleted": 37,
+  "Rank": 190,
+  "Created": "2022-04-07T03:45:28.5296817+02:00",
+  "UseCategories": 185,
   "CreatedBy": null,
-  "Updated": "2021-11-09T17:54:08.4136991+01:00",
+  "Updated": "2010-08-04T03:45:28.5296817+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   },
   "_Links": {

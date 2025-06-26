@@ -102,7 +102,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,53 +112,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "sed",
-  "PersonId": 94,
-  "Mrmrs": "adipisci",
-  "Firstname": "Elmore",
-  "Lastname": "Spinka",
-  "MiddleName": "Leannon-Cassin",
-  "Title": "tempore",
-  "Description": "Realigned methodical implementation",
-  "Email": "shanelle_crist@uptonklein.name",
-  "FullName": "Keon Saige Hand DDS",
-  "DirectPhone": "1-066-013-3556",
-  "FormalName": "Gerhold, Harber and Kreiger",
-  "CountryId": 485,
-  "ContactId": 118,
-  "ContactName": "Lebsack, Gottlieb and Terry",
-  "Retired": 30,
-  "Rank": 475,
-  "ActiveInterests": 745,
+  "Position": "consequatur",
+  "PersonId": 857,
+  "Mrmrs": "esse",
+  "Firstname": "Trent",
+  "Lastname": "Hilll",
+  "MiddleName": "Windler, Bednar and Gutkowski",
+  "Title": "eaque",
+  "Description": "Persistent mission-critical core",
+  "Email": "willow.mckenzie@jewess.biz",
+  "FullName": "Mr. Ashlee Rau II",
+  "DirectPhone": "054-065-5824 x03919",
+  "FormalName": "Stoltenberg Inc and Sons",
+  "CountryId": 454,
+  "ContactId": 152,
+  "ContactName": "Heidenreich-O'Reilly",
+  "Retired": 121,
+  "Rank": 154,
+  "ActiveInterests": 667,
   "ContactDepartment": "",
-  "ContactCountryId": 303,
-  "ContactOrgNr": "1297615",
-  "FaxPhone": "1-118-045-8553",
-  "MobilePhone": "1-591-705-1272 x661",
-  "ContactPhone": "(023)927-0958",
-  "AssociateName": "Dibbert, Herman and Gaylord",
-  "AssociateId": 102,
+  "ContactCountryId": 818,
+  "ContactOrgNr": "1244152",
+  "FaxPhone": "1-245-798-4994 x352",
+  "MobilePhone": "1-776-134-8091 x9976",
+  "ContactPhone": "825-820-0844",
+  "AssociateName": "Jacobson, Ward and Friesen",
+  "AssociateId": 651,
   "UsePersonAddress": true,
-  "ContactFax": "neque",
-  "Kanafname": "et",
-  "Kanalname": "est",
-  "Post1": "earum",
-  "Post2": "sequi",
-  "Post3": "nihil",
-  "EmailName": "margarett.lakin@cassinflatley.co.uk",
-  "ContactFullName": "Donna Larkin",
-  "ActiveErpLinks": 784,
-  "TicketPriorityId": 210,
-  "SupportLanguageId": 505,
-  "SupportAssociateId": 212,
+  "ContactFax": "molestiae",
+  "Kanafname": "perspiciatis",
+  "Kanalname": "natus",
+  "Post1": "animi",
+  "Post2": "tenetur",
+  "Post3": "fuga",
+  "EmailName": "beulah@jewess.biz",
+  "ContactFullName": "Leopold Kreiger",
+  "ActiveErpLinks": 398,
+  "TicketPriorityId": 924,
+  "SupportLanguageId": 312,
+  "SupportAssociateId": 337,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "890980",
+  "PersonNumber": "304358",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 595
     }
   }
 }

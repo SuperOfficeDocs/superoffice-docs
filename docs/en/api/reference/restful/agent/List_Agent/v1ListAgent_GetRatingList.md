@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Value": "eum",
-    "Tooltip": "tempore",
+    "Id": 83,
+    "Value": "aut",
+    "Tooltip": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 156
       }
     }
   },
   {
-    "Id": 900,
-    "Value": "eum",
-    "Tooltip": "tempore",
+    "Id": 83,
+    "Value": "aut",
+    "Tooltip": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 156
       }
     }
   }

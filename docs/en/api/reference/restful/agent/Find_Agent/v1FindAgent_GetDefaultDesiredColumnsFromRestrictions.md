@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Becker, Hilll and Volkman",
+  "ProviderName": "Grady, Koelpin and Becker",
   "Restrictions": [
     {
-      "Name": "Osinski LLC",
-      "Operator": "et",
+      "Name": "Bayer Inc and Sons",
+      "Operator": "totam",
       "Values": [
-        "soluta",
-        "officia"
+        "itaque",
+        "quia"
       ],
       "DisplayValues": [
-        "in",
-        "ut"
+        "dolor",
+        "perferendis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 931,
+      "InterParenthesis": 895,
       "InterOperator": "And",
-      "UniqueHash": 246
+      "UniqueHash": 518
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Fahey, Heidenreich and Pfeffer",
-    "DisplayTooltip": "quis",
-    "DisplayType": "illum",
+    "DisplayName": "Rice Inc and Sons",
+    "DisplayTooltip": "exercitationem",
+    "DisplayType": "est",
     "CanOrderBy": true,
-    "Name": "Kuvalis, Toy and Tremblay",
+    "Name": "Ankunding, Jenkins and Feeney",
     "CanRestrictBy": false,
-    "RestrictionType": "quae",
-    "RestrictionListName": "Greenholt-Schamberger",
-    "IsVisible": true,
-    "ExtraInfo": "repellat",
-    "Width": "fuga",
-    "IconHint": "eveniet",
-    "HeadingIconHint": "aperiam"
+    "RestrictionType": "qui",
+    "RestrictionListName": "Effertz Inc and Sons",
+    "IsVisible": false,
+    "ExtraInfo": "ex",
+    "Width": "repellendus",
+    "IconHint": "pariatur",
+    "HeadingIconHint": "reiciendis"
   }
 ]
 ```

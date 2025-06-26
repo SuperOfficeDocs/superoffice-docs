@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Greenholt LLC",
-    "Tooltip": "et",
+    "Id": 164,
+    "Name": "Roberts, Becker and Purdy",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 619,
-    "Rank": 286,
+    "UdListDefinitionId": 532,
+    "Rank": 416,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

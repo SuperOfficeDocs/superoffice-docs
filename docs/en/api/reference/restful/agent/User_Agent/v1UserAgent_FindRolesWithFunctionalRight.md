@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Conn, Block and Hegmann"
+  "FunctionalRightName": "Douglas-Dare"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Prosacco-Kutch",
-    "ToolTip": "Optio assumenda iste.",
+    "Id": 383,
+    "Name": "Welch-Beatty",
+    "ToolTip": "Incidunt unde saepe ab quas.",
     "Deleted": false,
-    "Rank": 283,
-    "Type": "eveniet",
+    "Rank": 822,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "Grady-Maggio",
-        "ToolTip": "Dolore dicta.",
+        "Id": 139,
+        "Name": "Jakubowski, Ledner and Feest",
+        "ToolTip": "Qui fugit ipsam sed excepturi voluptatem dolor.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "aut",
+        "Rank": 728,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 307,
-        "ExtraInfo": "inventore",
-        "StyleHint": "qui",
-        "FullName": "Dr. Renee Torp IV",
+        "IconHint": "nulla",
+        "ColorBlock": 885,
+        "ExtraInfo": "itaque",
+        "StyleHint": "temporibus",
+        "FullName": "Abraham Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 25
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 754,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "modi",
-    "FullName": "Hilton Cummings",
+    "IconHint": "ut",
+    "ColorBlock": 766,
+    "ExtraInfo": "amet",
+    "StyleHint": "rerum",
+    "FullName": "Camille Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 813
       }
     }
   }

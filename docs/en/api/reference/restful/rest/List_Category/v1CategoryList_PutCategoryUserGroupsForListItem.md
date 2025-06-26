@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "McLaughlin-Leuschke",
-    "ToolTip": "Hic atque natus necessitatibus voluptatem.",
-    "Deleted": true,
-    "Rank": 193,
-    "Type": "laboriosam",
-    "ColorBlock": 647,
-    "IconHint": "ut",
+    "Id": 2,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Repudiandae quisquam.",
+    "Deleted": false,
+    "Rank": 854,
+    "Type": "neque",
+    "ColorBlock": 81,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2022-08-19T17:54:08.8043048+02:00",
+    "LastChanged": "2016-12-01T03:45:28.9827939+01:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Mann Inc and Sons",
-        "ToolTip": "Molestias aut.",
+        "Id": 737,
+        "Name": "Weber, Hayes and Welch",
+        "ToolTip": "Porro nihil sed.",
         "Deleted": true,
-        "Rank": 607,
-        "Type": "consequatur",
-        "ColorBlock": 338,
-        "IconHint": "cupiditate",
+        "Rank": 340,
+        "Type": "delectus",
+        "ColorBlock": 132,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2005-04-13T17:54:08.8043048+02:00",
+        "LastChanged": "2022-11-12T03:45:28.9827939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "vel",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Ciara Torp"
+        "FullName": "Pauline Lang PhD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ut",
+    "ExtraInfo": "officiis",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Ms. Elouise Devin Rowe I"
+    "FullName": "Zoila O'Hara"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Kuhn-Schmitt",
-    "ToolTip": "Incidunt amet doloribus natus nostrum iure.",
-    "Deleted": false,
-    "Rank": 833,
-    "Type": "nisi",
-    "ColorBlock": 549,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2009-06-26T17:54:08.8043048+02:00",
+    "Id": 289,
+    "Name": "Waelchi, Orn and Boehm",
+    "ToolTip": "Est temporibus sed pariatur molestias sequi.",
+    "Deleted": true,
+    "Rank": 11,
+    "Type": "voluptatum",
+    "ColorBlock": 449,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2009-04-28T03:45:28.9827939+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Brakus-Littel",
-        "ToolTip": "Reiciendis qui voluptatem.",
+        "Id": 518,
+        "Name": "Moen Group",
+        "ToolTip": "Autem enim eum corporis.",
         "Deleted": false,
-        "Rank": 951,
-        "Type": "nemo",
-        "ColorBlock": 24,
-        "IconHint": "dolores",
+        "Rank": 430,
+        "Type": "consequatur",
+        "ColorBlock": 152,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2013-09-30T17:54:08.8043048+02:00",
+        "LastChanged": "2015-03-18T03:45:28.9827939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "omnis",
+        "ExtraInfo": "eum",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Natasha Cummings",
+        "FullName": "Florian Shyann Cronin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 592
+            "FieldType": "System.Int32",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Miss Alexandrea DuBuque III",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Willy Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 891
       }
     }
   }

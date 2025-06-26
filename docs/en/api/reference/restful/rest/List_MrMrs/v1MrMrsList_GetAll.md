@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Raynor, Pfeffer and Roob",
-    "Tooltip": "deleniti",
+    "Id": 114,
+    "Name": "Tillman, Kuphal and Kuphal",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 736,
+    "UdListDefinitionId": 122,
+    "Rank": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 125
       }
     }
   }

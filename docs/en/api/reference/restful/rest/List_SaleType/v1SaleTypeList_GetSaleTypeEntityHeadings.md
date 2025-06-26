@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 417,
-    "Name": "Friesen LLC",
-    "Tooltip": "dolores",
+    "HeadingId": 601,
+    "Name": "Bosco Inc and Sons",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 114,
-    "UdListDefinitionId": 524,
+    "Rank": 125,
+    "UdListDefinitionId": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 42
       }
     }
   }

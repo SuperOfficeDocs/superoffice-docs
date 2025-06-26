@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 39,
-  "PrefDescId": 545,
-  "PrefValue": "iste",
-  "PrefShowValue": "voluptates",
-  "Description": "Reduced zero administration core",
+  "PrefDescLineId": 133,
+  "PrefDescId": 581,
+  "PrefValue": "repudiandae",
+  "PrefShowValue": "ut",
+  "Description": "Exclusive intangible time-frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 127
     }
   }
 }

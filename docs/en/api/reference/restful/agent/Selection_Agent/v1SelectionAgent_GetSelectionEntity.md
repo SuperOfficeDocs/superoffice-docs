@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=298
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=37
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced analyzing neural-net",
-  "Postit": "molestiae",
+  "Description": "Proactive multi-tasking frame",
+  "Postit": "dolores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 664,
-  "IncludePerson": 598,
+  "GroupIdx": 359,
+  "IncludePerson": 268,
   "MemberCount": 99.99,
-  "Name": "Jenkins-Wehner",
-  "PostitTextId": 339,
-  "CreatedDate": "2009-07-01T17:54:03.6014331+02:00",
-  "SelectionId": 575,
-  "SoundEx": "ut",
-  "Source": 660,
-  "TextId": 146,
-  "UpdatedDate": "1999-08-25T17:54:03.6014331+02:00",
-  "UpdatedCount": 102,
-  "Visibility": 914,
+  "Name": "Luettgen LLC",
+  "PostitTextId": 511,
+  "CreatedDate": "2023-02-27T03:45:23.8891939+01:00",
+  "SelectionId": 763,
+  "SoundEx": "ea",
+  "Source": 786,
+  "TextId": 260,
+  "UpdatedDate": "2005-02-11T03:45:23.8891939+01:00",
+  "UpdatedCount": 408,
+  "Visibility": 334,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 895,
-  "TargetTableName": "Boyer LLC",
+  "TargetTableNumber": 805,
+  "TargetTableName": "Sporer, Schumm and McLaughlin",
   "Completed": false,
-  "LeftSelectionId": 994,
-  "RightSelectionId": 458,
+  "LeftSelectionId": 536,
+  "RightSelectionId": 880,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Predovic-Kihn",
-  "ShadowProviderName": "Cremin, Boehm and Witting",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2019-03-17T17:54:03.6014331+01:00",
-  "LastLoadedBy": 31,
+  "MainProviderName": "Donnelly Group",
+  "ShadowProviderName": "Hyatt, Hackett and Hintz",
+  "ChartKey": "possimus",
+  "LastLoaded": "2022-01-09T03:45:23.8891939+01:00",
+  "LastLoadedBy": 192,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-05-15T17:54:03.6014331+02:00",
-  "LastMembershipChangeBy": 387,
+  "LastMembershipChange": "2015-09-17T03:45:23.8891939+02:00",
+  "LastMembershipChangeBy": 804,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eos",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Streich Inc and Sons",
-  "DashboardTileDefinitionId": 50,
+  "MainHeading": "veritatis",
+  "MemberTabHeading": "consectetur",
+  "MailingsProviderName": "Shanahan, Gleason and Metz",
+  "DashboardTileDefinitionId": 687,
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 863,
       "Visibility": "All",
       "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 863,
       "Visibility": "All",
       "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   }
 }

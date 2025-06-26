@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "molestiae",
+      "RawValue": "cum",
       "Specification": null,
-      "DisplayValue": "inventore",
-      "DisplayTooltip": "eum",
+      "DisplayValue": "iure",
+      "DisplayTooltip": "exercitationem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 227,
-      "PrefDescId": 958,
-      "TableName": "Ziemann-Schroeder",
-      "UserPreferenceId": 617
+      "TargetId": 127,
+      "PrefDescId": 35,
+      "TableName": "Hackett-Erdman",
+      "UserPreferenceId": 657
     }
   ]
 }

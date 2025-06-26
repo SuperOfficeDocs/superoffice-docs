@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=715
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=560
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 612,
-  "CreatedAt": "2001-10-09T17:54:03.8357967+02:00",
+  "TicketMessageId": 950,
+  "CreatedAt": "2024-08-04T03:45:24.1235597+02:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "molestiae",
-  "PersonId": 593,
-  "PersonFullName": "Jimmie Tromp",
-  "ContactId": 104,
-  "ContactName": "Pfeffer-Schuster",
+  "Important": false,
+  "Author": "autem",
+  "PersonId": 106,
+  "PersonFullName": "Verla Jacobi",
+  "ContactId": 43,
+  "ContactName": "Schulist, Stark and Bins",
   "ContactDepartment": "",
-  "NumAttachments": 507,
-  "EmailHeader": "evan_barrows@parisian.biz",
+  "NumAttachments": 341,
+  "EmailHeader": "malachi.bartoletti@medhurst.ca",
   "MessageHeaders": [
     {
-      "Id": 921,
-      "Name": "Kutch Group",
-      "Value": "ratione",
+      "Id": 209,
+      "Name": "Upton LLC",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 824
         }
       }
     }
   ],
-  "Language": "voluptas",
-  "Sentiment": 797,
-  "SentimentConfidence": 46,
-  "CreatedBy": 678,
-  "ChangedAt": "2005-06-28T17:54:03.8357967+02:00",
+  "Language": "neque",
+  "Sentiment": 680,
+  "SentimentConfidence": 395,
+  "CreatedBy": 630,
+  "ChangedAt": "2015-04-18T03:45:24.1235597+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

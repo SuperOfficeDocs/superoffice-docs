@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 139,
-  "WorkflowId": 338,
+  "WorkflowTriggerId": 224,
+  "WorkflowId": 226,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Collins-Flatley",
-      "Description": "Profound regional encoding",
-      "Rank": 483,
+      "Name": "Kuhic-Balistreri",
+      "Description": "Switchable fresh-thinking strategy",
+      "Rank": 354,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Collins-Flatley",
-      "Description": "Profound regional encoding",
-      "Rank": 483,
+      "Name": "Kuhic-Balistreri",
+      "Description": "Switchable fresh-thinking strategy",
+      "Rank": 354,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 800,
-  "WorkflowId": 305,
+  "WorkflowTriggerId": 101,
+  "WorkflowId": 687,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Cremin Inc and Sons",
-      "Description": "Balanced executive hierarchy",
-      "Rank": 348,
+      "Name": "Lueilwitz Inc and Sons",
+      "Description": "User-centric fault-tolerant definition",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cremin Inc and Sons",
-      "Description": "Balanced executive hierarchy",
-      "Rank": 348,
+      "Name": "Lueilwitz Inc and Sons",
+      "Description": "User-centric fault-tolerant definition",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 105
     }
   }
 }

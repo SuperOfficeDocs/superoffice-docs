@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugit",
-  "ProviderName": "Wuckert-Hartmann",
-  "StorageKey": "et",
-  "Context": "et"
+  "StorageType": "quos",
+  "ProviderName": "Bailey LLC",
+  "StorageKey": "enim",
+  "Context": "ipsam"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder, Ward and Predovic",
-  "Description": "Compatible exuding challenge",
-  "Rank": 352,
+  "Name": "Rosenbaum, Haag and Mraz",
+  "Description": "De-engineered uniform toolset",
+  "Rank": 282,
   "Restrictions": [
     {
-      "Name": "Deckow-Gutkowski",
-      "Operator": "magni",
+      "Name": "Rutherford Inc and Sons",
+      "Operator": "error",
       "Values": [
-        "pariatur",
-        "sed"
+        "fugit",
+        "est"
       ],
       "DisplayValues": [
-        "autem",
-        "aut"
+        "iusto",
+        "repudiandae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 823,
+      "InterParenthesis": 639,
       "InterOperator": "And",
-      "UniqueHash": 399
+      "UniqueHash": 123
     }
   ]
 }

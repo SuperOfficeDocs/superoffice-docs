@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 415,
-  "ConfirmationTemplateId": 755
+  "QuoteVersionId": 541,
+  "ConfirmationTemplateId": 339
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"repudiandae"
 ```

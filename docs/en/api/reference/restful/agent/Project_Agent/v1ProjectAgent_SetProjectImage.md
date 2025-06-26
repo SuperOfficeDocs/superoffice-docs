@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Project/SetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 732,
+  "ProjectId": 146,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

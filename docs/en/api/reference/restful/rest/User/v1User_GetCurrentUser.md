@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 339,
-  "Name": "Beer-Murphy",
-  "Rank": 485,
-  "Tooltip": "eum",
+  "AssociateId": 705,
+  "Name": "Farrell LLC",
+  "Rank": 241,
+  "Tooltip": "impedit",
   "LicenseOwners": [
     {
-      "Name": "Waters Inc and Sons",
-      "Description": "Innovative fault-tolerant orchestration",
+      "Name": "Schneider-Tromp",
+      "Description": "De-engineered uniform Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldLength": 641
         }
       }
     },
     {
-      "Name": "Waters Inc and Sons",
-      "Description": "Innovative fault-tolerant orchestration",
+      "Name": "Schneider-Tromp",
+      "Description": "De-engineered uniform Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldLength": 641
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "soluta",
-      "Tooltip": "facere",
-      "Id": 382,
-      "Rank": 685,
-      "Deleted": false,
+      "Value": "earum",
+      "Tooltip": "et",
+      "Id": 685,
+      "Rank": 530,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2018-01-13T17:54:08.7574316+01:00",
-  "Lastlogout": "2015-04-08T17:54:08.7574316+02:00",
-  "EjUserId": 726,
-  "RequestSignature": "quos",
+  "Lastlogin": "2003-05-12T03:45:28.8734254+02:00",
+  "Lastlogout": "1998-09-24T03:45:28.8734254+02:00",
+  "EjUserId": 430,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quibusdam",
+      "Value": "dolorem",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 401
+          "FieldLength": 995
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quibusdam",
+      "Value": "dolorem",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 401
+          "FieldLength": 995
         }
       }
     }
   ],
-  "UserName": "Cummerata Group",
+  "UserName": "Cummings-Smith",
   "TicketCategories": [
     {
-      "Id": 285,
-      "Name": "Crona-Willms",
-      "ToolTip": "Voluptates velit mollitia mollitia.",
+      "Id": 668,
+      "Name": "Jones, Kunze and Marks",
+      "ToolTip": "Qui quia.",
       "Deleted": false,
-      "Rank": 901,
-      "Type": "est",
+      "Rank": 4,
+      "Type": "soluta",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolor",
-      "ColorBlock": 363,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "error",
-      "FullName": "Zachariah Labadie",
+      "IconHint": "dolorem",
+      "ColorBlock": 174,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "amet",
+      "FullName": "Prof. Dariana Gerlach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldType": "System.String",
+          "FieldLength": 964
         }
       }
     }
   ],
-  "NickName": "Langworth Group",
-  "WaitingForApproval": true,
+  "NickName": "Watsica Group",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "dicta"
+    "CustomFields1": "qui",
+    "CustomFields2": "voluptates"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cartwright, Renner and Feeney",
-      "DisplayName": "Ratke Inc and Sons",
-      "Description": "Stand-alone analyzing system engine",
-      "ToolTip": "Voluptas voluptas.",
+      "Name": "Wuckert Group",
+      "DisplayName": "Armstrong-Wolff",
+      "Description": "Public-key contextually-based standardization",
+      "ToolTip": "Quos ipsum porro.",
       "Actions": "Implicit",
-      "ActionData": "non",
+      "ActionData": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldLength": 632
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 131
     }
   }
 }

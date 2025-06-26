@@ -85,15 +85,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 110,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 852,
-  "Name": "Marvin, Hudson and Strosin",
-  "Description": "Customer-focused web-enabled model",
-  "Currency": "sint",
-  "CurrencyName": "Casper-Altenwerth",
-  "ValidFrom": "1998-07-29T17:54:03.5076876+02:00",
-  "ValidTo": "2022-09-12T17:54:03.5076876+02:00",
+  "PriceListId": 875,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 680,
+  "Name": "Skiles, Reilly and Beer",
+  "Description": "Up-sized uniform emulation",
+  "Currency": "fugiat",
+  "CurrencyName": "Kuhic, Jerde and Donnelly",
+  "ValidFrom": "2008-01-03T03:45:23.8110701+01:00",
+  "ValidTo": "2001-01-25T03:45:23.8110701+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 624,
-  "ERPPriceListKey": "quaerat",
-  "QuoteConnectionId": 157,
-  "Name": "Zboncak, Lind and Mayer",
-  "Description": "Balanced intermediate groupware",
-  "Currency": "harum",
-  "CurrencyName": "Pollich, Hickle and Hermiston",
-  "ValidFrom": "2001-02-15T17:54:03.5076876+01:00",
-  "ValidTo": "2024-06-29T17:54:03.5076876+02:00",
-  "IsActive": false,
+  "PriceListId": 328,
+  "ERPPriceListKey": "fuga",
+  "QuoteConnectionId": 501,
+  "Name": "Kutch-Kub",
+  "Description": "Vision-oriented mission-critical infrastructure",
+  "Currency": "quia",
+  "CurrencyName": "DuBuque-Stehr",
+  "ValidFrom": "2018-12-05T03:45:23.8110701+01:00",
+  "ValidTo": "2015-07-04T03:45:23.8110701+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 252
     }
   }
 }

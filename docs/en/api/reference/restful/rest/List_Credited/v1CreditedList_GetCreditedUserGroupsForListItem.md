@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Murray LLC",
-    "ToolTip": "Voluptas accusantium voluptas aspernatur eligendi et accusantium voluptas.",
-    "Deleted": false,
-    "Rank": 239,
-    "Type": "consequatur",
-    "ColorBlock": 812,
-    "IconHint": "mollitia",
+    "Id": 448,
+    "Name": "Ortiz Inc and Sons",
+    "ToolTip": "Eum dignissimos.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "totam",
+    "ColorBlock": 317,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2015-08-30T17:54:08.8824262+02:00",
+    "LastChanged": "2010-04-08T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "O'Reilly-Bradtke",
-        "ToolTip": "Corporis dignissimos sunt quas.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "expedita",
-        "ColorBlock": 229,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2005-05-06T17:54:08.8824262+02:00",
+        "Id": 668,
+        "Name": "Collier Inc and Sons",
+        "ToolTip": "Et ut.",
+        "Deleted": true,
+        "Rank": 684,
+        "Type": "iste",
+        "ColorBlock": 787,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2008-11-14T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Elaina Ernser",
+        "FullName": "Lacy Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 276
+            "FieldType": "System.Int32",
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "officiis",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ashley Gorczany",
+    "FullName": "Charity Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldType": "System.Int32",
+        "FieldLength": 519
       }
     }
   }

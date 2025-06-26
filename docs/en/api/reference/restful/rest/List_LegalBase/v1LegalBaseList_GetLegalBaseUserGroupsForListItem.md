@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Glover, Abshire and Franecki",
-    "ToolTip": "Atque dolorem officia dolorum ducimus rerum pariatur accusamus.",
-    "Deleted": false,
-    "Rank": 579,
-    "Type": "in",
-    "ColorBlock": 361,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2001-11-06T17:54:08.9292989+01:00",
+    "Id": 177,
+    "Name": "Cummerata Group",
+    "ToolTip": "Autem a natus ratione.",
+    "Deleted": true,
+    "Rank": 281,
+    "Type": "quia",
+    "ColorBlock": 687,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2018-01-25T03:45:29.0452922+01:00",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "Mitchell Inc and Sons",
-        "ToolTip": "Amet temporibus cumque similique.",
+        "Id": 479,
+        "Name": "Fritsch Group",
+        "ToolTip": "Illo est iusto nihil architecto velit.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "voluptas",
-        "ColorBlock": 120,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2011-12-26T17:54:08.9292989+01:00",
+        "Rank": 670,
+        "Type": "rem",
+        "ColorBlock": 41,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2009-05-25T03:45:29.0452922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Jarvis Grady Sr.",
+        "ExtraInfo": "rem",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Ms. Chelsea Brayan Upton PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "ea",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ambrose Hagenes",
+    "FullName": "Prof. Kameron Sigurd McDermott II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 824
       }
     }
   }

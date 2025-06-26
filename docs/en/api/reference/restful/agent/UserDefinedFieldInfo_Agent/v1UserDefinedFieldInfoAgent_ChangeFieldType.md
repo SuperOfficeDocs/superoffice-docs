@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 680,
-  "ColumnId": 992,
-  "FieldDefault": "et",
-  "FieldHeight": 664,
-  "FieldLabel": "repellendus",
-  "FieldLeft": 96,
-  "FieldTop": 967,
+  "UDefFieldId": 579,
+  "ColumnId": 856,
+  "FieldDefault": "ratione",
+  "FieldHeight": 625,
+  "FieldLabel": "ipsa",
+  "FieldLeft": 277,
+  "FieldTop": 398,
   "FieldType": "Checkbox",
-  "FieldWidth": 561,
-  "FormatMask": "quae",
+  "FieldWidth": 295,
+  "FormatMask": "minima",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 35,
-  "LabelLeft": 367,
-  "LabelTop": 960,
-  "LabelWidth": 286,
-  "LastVersionId": 721,
-  "ListTableId": 665,
+  "IsIndexed": true,
+  "LabelHeight": 776,
+  "LabelLeft": 409,
+  "LabelTop": 426,
+  "LabelWidth": 465,
+  "LastVersionId": 35,
+  "ListTableId": 456,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 40,
-  "ProgId": "dicta",
-  "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 551,
-  "TextLength": 806,
-  "Tooltip": "error",
-  "UdefIdentity": 395,
-  "UDListDefinitionId": 350,
+  "Page1LineNo": 917,
+  "ProgId": "fugit",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 109,
+  "TextLength": 651,
+  "Tooltip": "optio",
+  "UdefIdentity": 177,
+  "UDListDefinitionId": 11,
   "Justification": "Center",
-  "Version": 378,
-  "TemplateVariableName": "Littel LLC",
+  "Version": 684,
+  "TemplateVariableName": "Mayert-Kuhn",
   "HasBeenPublished": false,
-  "MdoListName": "Legros LLC",
+  "MdoListName": "Volkman-Hartmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 565
     }
   }
 }

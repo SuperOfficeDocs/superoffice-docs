@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=594
+POST /api/v1/Agents/Dash/GetDash?dashId=309
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 133,
-  "UniqueId": "non",
-  "Name": "Schuster Group",
-  "Description": "Fundamental bi-directional attitude",
-  "AssociateId": 487,
-  "Columns": 806,
+  "DashboardId": 382,
+  "UniqueId": "ut",
+  "Name": "Abshire Inc and Sons",
+  "Description": "Function-based bottom-line system engine",
+  "AssociateId": 486,
+  "Columns": 525,
   "Theme": null,
-  "VisibleForAll": 518,
+  "VisibleForAll": 833,
   "VisibleForAssociates": [
-    636,
-    684
+    892,
+    162
   ],
   "VisibleForGroups": [
-    517,
-    108
+    363,
+    91
   ],
-  "PinForAll": 672,
+  "PinForAll": 840,
   "PinForAssociates": [
-    200,
-    563
+    763,
+    45
   ],
   "PinForGroups": [
-    520,
-    979
+    340,
+    234
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

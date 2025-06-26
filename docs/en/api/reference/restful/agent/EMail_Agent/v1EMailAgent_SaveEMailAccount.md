@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 450,
-  "EMailAddress": "amet",
-  "AssociateId": 849,
+  "EMailAccountId": 662,
+  "EMailAddress": "accusamus",
+  "AssociateId": 528,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 347,
-  "ErrorCount": 946,
+  "AccountStatus": 292,
+  "ErrorCount": 373,
   "ErrorReason": "",
-  "InboxFolder": "quod",
-  "SentFolder": "iusto",
-  "SimpleMode": 606,
-  "LastFetch": "2015-01-16T17:54:03.0702097+01:00"
+  "InboxFolder": "et",
+  "SentFolder": "fugit",
+  "SimpleMode": 883,
+  "LastFetch": "2015-08-03T03:45:23.4048314+02:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 321,
-  "EMailAddress": "ratione",
-  "AssociateId": 564,
+  "EMailAccountId": 608,
+  "EMailAddress": "in",
+  "AssociateId": 897,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 386,
-  "ErrorCount": 405,
-  "ErrorReason": "",
-  "InboxFolder": "est",
-  "SentFolder": "saepe",
-  "SimpleMode": 417,
-  "LastFetch": "1999-10-05T17:54:03.0858331+02:00",
+  "AccountStatus": 344,
+  "ErrorCount": 677,
+  "ErrorReason": "implement open-source models",
+  "InboxFolder": "veritatis",
+  "SentFolder": "earum",
+  "SimpleMode": 52,
+  "LastFetch": "2008-03-01T03:45:23.4048314+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 50
     }
   }
 }

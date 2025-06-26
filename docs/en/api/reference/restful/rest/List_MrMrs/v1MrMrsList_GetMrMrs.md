@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Paucek-D'Amore",
-  "Tooltip": "ab",
+  "Id": 698,
+  "Name": "Yost, Littel and Paucek",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 758,
-  "Rank": 873,
+  "UdListDefinitionId": 25,
+  "Rank": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 62
     }
   }
 }

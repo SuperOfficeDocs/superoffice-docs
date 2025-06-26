@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "voluptatibus",
-    "asperiores"
+    "expedita",
+    "repudiandae"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price, McCullough and Goodwin",
-    "Delimiter": "ipsum",
-    "Flags": "aut",
-    "TotalItems": 633,
-    "UnreadItems": 976,
+    "Name": "Gusikowski Inc and Sons",
+    "Delimiter": "et",
+    "Flags": "qui",
+    "TotalItems": 560,
+    "UnreadItems": 662,
     "Subscribed": false,
-    "EmailFolderId": 715,
+    "EmailFolderId": 140,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 98
       }
     }
   }

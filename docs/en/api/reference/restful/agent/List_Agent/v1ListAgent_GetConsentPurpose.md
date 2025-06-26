@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=541
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=799
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 781,
-  "Name": "Watsica, Shields and Jakubowski",
-  "ConsentText": "dolorem",
-  "FormText": "quasi",
-  "Key": "aliquid",
-  "Tooltip": "officiis",
-  "Active": 761,
-  "UpdatedDate": "2003-06-02T17:54:03.3202006+02:00",
+  "ConsentPurposeId": 623,
+  "Name": "Mraz Inc and Sons",
+  "ConsentText": "explicabo",
+  "FormText": "temporibus",
+  "Key": "voluptas",
+  "Tooltip": "ut",
+  "Active": 766,
+  "UpdatedDate": "2017-09-20T03:45:23.6235756+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 950,
-  "PrivacyStatementDesc": "consequatur",
+  "Deleted": true,
+  "Rank": 531,
+  "PrivacyStatementDesc": "ipsum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

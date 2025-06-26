@@ -97,12 +97,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 330,
-  "Name": "Hermann Group",
-  "Tooltip": "alias",
-  "PassiveText": "distinctio",
+  "ReldefId": 444,
+  "Name": "Dietrich Group",
+  "Tooltip": "porro",
+  "PassiveText": "eum",
   "Deleted": true,
-  "Rank": 629,
+  "Rank": 971,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 421,
-  "Name": "Langworth, Gusikowski and Carroll",
-  "Tooltip": "sequi",
-  "PassiveText": "molestiae",
-  "Deleted": false,
-  "Rank": 738,
+  "ReldefId": 754,
+  "Name": "Casper, Hickle and Rodriguez",
+  "Tooltip": "neque",
+  "PassiveText": "nobis",
+  "Deleted": true,
+  "Rank": 416,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   },
   "_Links": {

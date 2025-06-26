@@ -86,13 +86,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 544,
-  "Name": "Kihn, Bernier and Schowalter",
-  "Tooltip": "accusamus",
-  "Rank": 459,
-  "Rate": 2999.238,
-  "Units": 21326.87,
-  "Deleted": true
+  "CurrencyId": 335,
+  "Name": "Mante-Graham",
+  "Tooltip": "explicabo",
+  "Rank": 631,
+  "Rate": 7230.138,
+  "Units": 5744.6219999999994,
+  "Deleted": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 5,
-  "Name": "Conroy Inc and Sons",
-  "Tooltip": "quo",
-  "Rank": 416,
-  "Rate": 20640.523999999998,
-  "Units": 27854.992,
+  "CurrencyId": 753,
+  "Name": "Connelly Inc and Sons",
+  "Tooltip": "ad",
+  "Rank": 829,
+  "Rate": 24467.138,
+  "Units": 4481.62,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 187
     }
   }
 }

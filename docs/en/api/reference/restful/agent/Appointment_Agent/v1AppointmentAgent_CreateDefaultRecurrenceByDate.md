@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-05-06T17:54:02.5702335+02:00"
+  "StartDate": "2019-11-26T03:45:22.8892174+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 60,
-  "StartDate": "2009-12-20T17:54:02.5702335+01:00",
-  "EndDate": "1999-04-10T17:54:02.5702335+02:00",
-  "RecurrenceCounter": 618,
+  "RecurrenceId": 566,
+  "StartDate": "2020-02-19T03:45:22.8892174+01:00",
+  "EndDate": "2006-12-06T03:45:22.8892174+01:00",
+  "RecurrenceCounter": 222,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-12-19T17:54:02.5702335+01:00",
+      "Date": "2010-12-15T03:45:22.8892174+01:00",
       "IsConflict": false,
-      "Description": "Multi-layered human-resource product",
-      "DescriptionStyleHint": "Persevering heuristic hierarchy",
-      "Tooltip": "quia"
+      "Description": "Cloned human-resource model",
+      "DescriptionStyleHint": "Centralized static installation",
+      "Tooltip": "velit"
     },
     {
-      "Date": "2006-12-19T17:54:02.5702335+01:00",
+      "Date": "2010-12-15T03:45:22.8892174+01:00",
       "IsConflict": false,
-      "Description": "Multi-layered human-resource product",
-      "DescriptionStyleHint": "Persevering heuristic hierarchy",
-      "Tooltip": "quia"
+      "Description": "Cloned human-resource model",
+      "DescriptionStyleHint": "Centralized static installation",
+      "Tooltip": "velit"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

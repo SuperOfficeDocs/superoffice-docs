@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    193,
-    161
+    465,
+    330
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 820,
-    "Name": "Hand, Kirlin and Haag",
-    "Description": "Face to face system-worthy matrix",
+    "ProjectId": 843,
+    "Name": "Nitzsche, Abshire and Ortiz",
+    "Description": "Upgradable analyzing parallelism",
     "URL": "http://www.example.com/",
-    "Type": "temporibus",
-    "AssociateId": 474,
-    "AssociateFullName": "Porter Stiedemann",
-    "TypeId": 352,
-    "Updated": "2023-06-22T17:54:03.4920634+02:00",
-    "StatusId": 173,
-    "Status": "omnis",
-    "TextId": 264,
-    "PublishTo": "2017-06-21T17:54:03.4920634+02:00",
-    "PublishFrom": "2013-08-29T17:54:03.4920634+02:00",
+    "Type": "quidem",
+    "AssociateId": 926,
+    "AssociateFullName": "Lilla Kemmer",
+    "TypeId": 830,
+    "Updated": "2013-12-20T03:45:23.7798203+01:00",
+    "StatusId": 377,
+    "Status": "atque",
+    "TextId": 654,
+    "PublishTo": "2021-12-14T03:45:23.7798203+01:00",
+    "PublishFrom": "2014-06-28T03:45:23.7798203+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "608879",
-    "ActiveErpLinks": 763,
+    "ProjectNumber": "936817",
+    "ActiveErpLinks": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Perferendis dolorem magni aperiam dolorem a.",
+    "Id": 225,
+    "Name": "Harvey, Fahey and Senger",
+    "ToolTip": "Sed est saepe voluptatem autem ipsum ipsum.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "autem",
-    "ColorBlock": 42,
-    "IconHint": "et",
+    "Rank": 828,
+    "Type": "sunt",
+    "ColorBlock": 445,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2008-09-26T17:54:08.8199285+02:00",
+    "LastChanged": "1998-08-10T03:45:28.9984183+02:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Conn-Botsford",
-        "ToolTip": "Ut eveniet voluptatem eligendi accusamus inventore quia.",
+        "Id": 942,
+        "Name": "Mills Group",
+        "ToolTip": "Excepturi corporis mollitia ipsa.",
         "Deleted": false,
-        "Rank": 108,
-        "Type": "dolores",
-        "ColorBlock": 17,
-        "IconHint": "sit",
+        "Rank": 885,
+        "Type": "quo",
+        "ColorBlock": 206,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2024-11-29T17:54:08.8199285+01:00",
+        "LastChanged": "2017-09-24T03:45:28.9984183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "rem",
+        "ExtraInfo": "autem",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Sydnie Schultz",
+        "FullName": "Glenda Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 948
+            "FieldType": "System.Int32",
+            "FieldLength": 652
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Sarah Hickle",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Vernon Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 427
       }
     }
   }

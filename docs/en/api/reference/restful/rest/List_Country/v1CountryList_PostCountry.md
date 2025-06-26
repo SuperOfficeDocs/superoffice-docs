@@ -103,24 +103,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 741,
-  "Name": "Gorczany, Crist and Hickle",
-  "CurrencyId": 355,
-  "EnglishName": "Welch Inc and Sons",
+  "CountryId": 727,
+  "Name": "Hayes, Deckow and Dach",
+  "CurrencyId": 523,
+  "EnglishName": "Moore Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Function-based executive hardware",
-  "OrgNrText": "1083385",
-  "InterAreaPrefix": "voluptate",
-  "DialInPrefix": "non",
-  "ZipPrefix": "eos",
-  "DomainName": "Conroy Group",
-  "AddressLayoutId": 848,
-  "DomesticAddressLayoutId": 763,
-  "ForeignAddressLayoutId": 50,
-  "Rank": 474,
-  "Tooltip": "nobis",
-  "Deleted": false
+  "ImageDescription": "Multi-channelled holistic knowledge base",
+  "OrgNrText": "482245",
+  "InterAreaPrefix": "consequuntur",
+  "DialInPrefix": "rerum",
+  "ZipPrefix": "voluptas",
+  "DomainName": "Kris Group",
+  "AddressLayoutId": 956,
+  "DomesticAddressLayoutId": 652,
+  "ForeignAddressLayoutId": 994,
+  "Rank": 584,
+  "Tooltip": "et",
+  "Deleted": true
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 935,
-  "Name": "Gibson-Cummings",
-  "CurrencyId": 850,
-  "EnglishName": "Schoen LLC",
+  "CountryId": 719,
+  "Name": "Zboncak-Bergstrom",
+  "CurrencyId": 898,
+  "EnglishName": "VonRueden-Roob",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-lateral 3rd generation alliance",
-  "OrgNrText": "1380483",
-  "InterAreaPrefix": "sint",
-  "DialInPrefix": "optio",
-  "ZipPrefix": "magni",
-  "DomainName": "Weimann Inc and Sons",
-  "AddressLayoutId": 750,
-  "DomesticAddressLayoutId": 964,
-  "ForeignAddressLayoutId": 93,
-  "Rank": 86,
-  "Tooltip": "delectus",
-  "Deleted": true,
+  "ImageDescription": "Focused zero tolerance secured line",
+  "OrgNrText": "1005049",
+  "InterAreaPrefix": "qui",
+  "DialInPrefix": "et",
+  "ZipPrefix": "vitae",
+  "DomainName": "Smith Group",
+  "AddressLayoutId": 535,
+  "DomesticAddressLayoutId": 926,
+  "ForeignAddressLayoutId": 269,
+  "Rank": 933,
+  "Tooltip": "quasi",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

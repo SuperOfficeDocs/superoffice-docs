@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Howell, Walter and Howell",
-  "Tooltip": "nam",
+  "Id": 513,
+  "Name": "Lueilwitz, Mayert and Littel",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 466,
-  "Rank": 802
+  "UdListDefinitionId": 108,
+  "Rank": 979
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Kassulke Group",
-  "Tooltip": "reprehenderit",
+  "Id": 927,
+  "Name": "Hessel-Jacobs",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 315,
+  "UdListDefinitionId": 487,
+  "Rank": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

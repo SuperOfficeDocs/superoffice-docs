@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 471,
-  "SourcePersonId": 142,
-  "DestinationContactId": 824,
-  "DestinationPersonId": 479,
-  "RelationId": 587,
-  "Comment": "quis",
-  "RelationDefinitionId": 964,
-  "Reversed": 317,
-  "UpdatedDate": "2021-11-03T17:54:08.1324619+01:00",
-  "CreatedDate": "2001-12-04T17:54:08.1324619+01:00",
+  "SourceContactId": 93,
+  "SourcePersonId": 734,
+  "DestinationContactId": 473,
+  "DestinationPersonId": 585,
+  "RelationId": 238,
+  "Comment": "possimus",
+  "RelationDefinitionId": 861,
+  "Reversed": 490,
+  "UpdatedDate": "2013-05-06T03:45:28.2484436+02:00",
+  "CreatedDate": "2016-04-12T03:45:28.2484436+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "O'Kon Group",
-  "SourcePersonName": "Klein-Bahringer",
-  "DestinationContactName": "Rosenbaum Group",
-  "DestinationPersonName": "Casper Inc and Sons",
-  "ActiveText": "enim",
-  "PassiveText": "incidunt",
+  "SourceContactName": "Steuber Inc and Sons",
+  "SourcePersonName": "Rempel, Kuvalis and Strosin",
+  "DestinationContactName": "Bartoletti, Schmeler and West",
+  "DestinationPersonName": "Carter-Littel",
+  "ActiveText": "qui",
+  "PassiveText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 845
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

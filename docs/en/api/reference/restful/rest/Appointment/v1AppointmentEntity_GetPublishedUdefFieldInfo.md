@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 413,
-  "ColumnId": 837,
-  "FieldDefault": "animi",
-  "FieldHeight": 82,
-  "FieldLabel": "amet",
-  "FieldLeft": 629,
-  "FieldTop": 1002,
+  "UDefFieldId": 775,
+  "ColumnId": 831,
+  "FieldDefault": "vitae",
+  "FieldHeight": 501,
+  "FieldLabel": "beatae",
+  "FieldLeft": 504,
+  "FieldTop": 863,
   "FieldType": "Checkbox",
-  "FieldWidth": 400,
-  "FormatMask": "reiciendis",
+  "FieldWidth": 706,
+  "FormatMask": "iure",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 465,
-  "LabelLeft": 921,
-  "LabelTop": 286,
-  "LabelWidth": 868,
-  "LastVersionId": 109,
-  "ListTableId": 425,
+  "LabelHeight": 317,
+  "LabelLeft": 129,
+  "LabelTop": 873,
+  "LabelWidth": 855,
+  "LastVersionId": 97,
+  "ListTableId": 470,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 944,
-  "ProgId": "itaque",
-  "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 493,
-  "TextLength": 280,
-  "Tooltip": "nihil",
-  "UdefIdentity": 100,
-  "UDListDefinitionId": 208,
+  "Page1LineNo": 900,
+  "ProgId": "rerum",
+  "IsReadOnly": true,
+  "ShortLabel": "veniam",
+  "TabOrder": 953,
+  "TextLength": 666,
+  "Tooltip": "ut",
+  "UdefIdentity": 139,
+  "UDListDefinitionId": 552,
   "Justification": "Center",
-  "Version": 65,
-  "TemplateVariableName": "Kreiger, Ebert and Breitenberg",
+  "Version": 76,
+  "TemplateVariableName": "Runolfsson, Hermann and Auer",
   "HasBeenPublished": true,
-  "MdoListName": "Schoen-Wisozk",
+  "MdoListName": "Gibson-Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 848
     }
   }
 }

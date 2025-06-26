@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 498,
-    "Name": "Kessler-Kilback",
-    "Tooltip": "aliquam",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 801
+    "HeadingId": 117,
+    "Name": "Johnston, Schowalter and O'Kon",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 22,
+    "UdListDefinitionId": 637
   },
   {
-    "HeadingId": 498,
-    "Name": "Kessler-Kilback",
-    "Tooltip": "aliquam",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 801
+    "HeadingId": 117,
+    "Name": "Johnston, Schowalter and O'Kon",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 22,
+    "UdListDefinitionId": 637
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 464,
-    "Name": "Kohler-Glover",
-    "Tooltip": "ut",
+    "HeadingId": 105,
+    "Name": "Hodkiewicz-Jast",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 591,
-    "UdListDefinitionId": 1002,
+    "Rank": 355,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

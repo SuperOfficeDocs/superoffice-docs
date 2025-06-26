@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 652,
-  "Name": "Stroman-Hilll",
-  "Tooltip": "quod",
+  "RoleId": 848,
+  "Name": "Johns-Larkin",
+  "Tooltip": "quaerat",
   "RoleType": "Anonymous",
-  "Deleted": 524,
-  "Rank": 566,
-  "Created": "2014-04-07T17:54:08.4136991+02:00",
-  "UseCategories": 948,
+  "Deleted": 584,
+  "Rank": 855,
+  "Created": "2013-10-14T03:45:28.5296817+02:00",
+  "UseCategories": 750,
   "CreatedBy": null,
-  "Updated": "2022-08-05T17:54:08.4136991+02:00",
+  "Updated": "2022-09-05T03:45:28.5296817+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 866,
-  "Name": "Bernhard Group",
-  "Tooltip": "esse",
+  "RoleId": 588,
+  "Name": "Stanton, Gulgowski and Hoppe",
+  "Tooltip": "nisi",
   "RoleType": "Anonymous",
-  "Deleted": 540,
-  "Rank": 477,
-  "Created": "2021-07-11T17:54:08.4136991+02:00",
-  "UseCategories": 96,
+  "Deleted": 922,
+  "Rank": 162,
+  "Created": "2005-05-21T03:45:28.5296817+02:00",
+  "UseCategories": 123,
   "CreatedBy": null,
-  "Updated": "2017-10-12T17:54:08.4136991+02:00",
+  "Updated": "2000-11-11T03:45:28.5296817+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 135
     }
   },
   "_Links": {

@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 484,
-  "ColumnId": 482,
-  "FieldDefault": "at",
-  "FieldHeight": 31,
-  "FieldLabel": "rerum",
-  "FieldLeft": 85,
-  "FieldTop": 136,
+  "UDefFieldId": 752,
+  "ColumnId": 211,
+  "FieldDefault": "aspernatur",
+  "FieldHeight": 873,
+  "FieldLabel": "sint",
+  "FieldLeft": 644,
+  "FieldTop": 220,
   "FieldType": "Checkbox",
-  "FieldWidth": 68,
-  "FormatMask": "quidem",
+  "FieldWidth": 100,
+  "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 614,
-  "LabelLeft": 681,
-  "LabelTop": 885,
-  "LabelWidth": 296,
-  "LastVersionId": 342,
-  "ListTableId": 617,
+  "IsIndexed": false,
+  "LabelHeight": 320,
+  "LabelLeft": 687,
+  "LabelTop": 650,
+  "LabelWidth": 680,
+  "LastVersionId": 74,
+  "ListTableId": 280,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 532,
-  "ProgId": "aut",
+  "Page1LineNo": 419,
+  "ProgId": "officiis",
   "IsReadOnly": true,
-  "ShortLabel": "eaque",
-  "TabOrder": 872,
-  "TextLength": 198,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 832,
-  "UDListDefinitionId": 614,
+  "ShortLabel": "ipsa",
+  "TabOrder": 111,
+  "TextLength": 926,
+  "Tooltip": "rerum",
+  "UdefIdentity": 266,
+  "UDListDefinitionId": 407,
   "Justification": "Center",
-  "Version": 535,
-  "TemplateVariableName": "Pouros, Considine and Sauer",
-  "HasBeenPublished": true,
-  "MdoListName": "Predovic-Lind",
+  "Version": 420,
+  "TemplateVariableName": "Wiegand-Hammes",
+  "HasBeenPublished": false,
+  "MdoListName": "Hintz LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   }
 }

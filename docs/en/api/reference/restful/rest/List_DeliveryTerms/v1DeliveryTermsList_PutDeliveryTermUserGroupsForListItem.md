@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Swift LLC",
-    "ToolTip": "Velit nulla eius et.",
+    "Id": 25,
+    "Name": "Simonis-Weissnat",
+    "ToolTip": "Ipsa tenetur voluptatem delectus.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "est",
-    "ColorBlock": 987,
-    "IconHint": "nostrum",
+    "Rank": 860,
+    "Type": "accusamus",
+    "ColorBlock": 142,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2019-06-16T17:54:08.8980498+02:00",
+    "LastChanged": "2008-06-08T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 499,
-        "Name": "Greenholt Group",
-        "ToolTip": "Aliquid ut veritatis tempore quos in maiores rerum.",
-        "Deleted": false,
-        "Rank": 954,
-        "Type": "commodi",
-        "ColorBlock": 562,
-        "IconHint": "enim",
+        "Id": 466,
+        "Name": "Borer-Stamm",
+        "ToolTip": "Nobis est itaque voluptatem deserunt.",
+        "Deleted": true,
+        "Rank": 858,
+        "Type": "placeat",
+        "ColorBlock": 19,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2007-08-24T17:54:08.8980498+02:00",
+        "LastChanged": "1998-12-22T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Lon Miller"
+        "ExtraInfo": "omnis",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Prudence Russel"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "et",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Kennedi Telly Shanahan I"
+    "FullName": "Dr. Freeman Lebsack"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Rutherford-Cremin",
-    "ToolTip": "Nobis incidunt neque quae aspernatur quibusdam.",
+    "Id": 421,
+    "Name": "Schroeder-VonRueden",
+    "ToolTip": "Tempora qui.",
     "Deleted": false,
-    "Rank": 580,
-    "Type": "perferendis",
-    "ColorBlock": 256,
-    "IconHint": "veniam",
+    "Rank": 592,
+    "Type": "consequatur",
+    "ColorBlock": 688,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2006-06-04T17:54:08.8980498+02:00",
+    "LastChanged": "2005-04-07T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Koch-Larson",
-        "ToolTip": "Quibusdam exercitationem atque reiciendis.",
-        "Deleted": false,
-        "Rank": 286,
-        "Type": "vel",
-        "ColorBlock": 122,
-        "IconHint": "accusamus",
+        "Id": 282,
+        "Name": "Kunde-Wehner",
+        "ToolTip": "Dolores maiores ut fugit sit autem laudantium.",
+        "Deleted": true,
+        "Rank": 677,
+        "Type": "amet",
+        "ColorBlock": 339,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2022-09-26T17:54:08.8980498+02:00",
+        "LastChanged": "2004-10-29T03:45:29.0296674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "illo",
+        "ExtraInfo": "provident",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Leora O'Conner",
+        "FullName": "Mrs. Reese Scotty Kulas II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldLength": 805
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Ms. Jody Berge",
+    "ExtraInfo": "qui",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Cleora Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldType": "System.Int32",
+        "FieldLength": 572
       }
     }
   }

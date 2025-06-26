@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wiegand-Thompson",
-  "Comment": "qui",
-  "StakeholderRoleId": 42,
-  "CountryId": 44,
-  "PersonId": 941,
-  "EmailDescription": "maudie.pollich@turcotte.co.uk",
-  "EmailId": 744,
-  "EmailAddress": "milford.dare@brown.info",
-  "PhoneId": 879,
-  "ContactName": "Christiansen-Ward",
-  "ContactId": 599,
-  "SaleId": 498,
-  "Mrmrs": "quisquam",
-  "Firstname": "Linwood",
-  "MiddleName": "Denesik-Leuschke",
-  "Lastname": "Jast",
-  "SaleStakeholderId": 299,
-  "Rank": 192,
-  "Phone": "(150)889-0669"
+  "StakeholderRoleName": "Hackett-McGlynn",
+  "Comment": "dolore",
+  "StakeholderRoleId": 10,
+  "CountryId": 288,
+  "PersonId": 506,
+  "EmailDescription": "velva_zulauf@rutherford.uk",
+  "EmailId": 696,
+  "EmailAddress": "bernhard@renner.name",
+  "PhoneId": 294,
+  "ContactName": "O'Keefe Inc and Sons",
+  "ContactId": 455,
+  "SaleId": 432,
+  "Mrmrs": "id",
+  "Firstname": "Jody",
+  "MiddleName": "Rice, Prosacco and Conroy",
+  "Lastname": "Kulas",
+  "SaleStakeholderId": 867,
+  "Rank": 856,
+  "Phone": "1-407-248-4941 x736"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Klocko, Leannon and Grady",
-  "Comment": "minima",
-  "StakeholderRoleId": 655,
-  "CountryId": 498,
-  "PersonId": 271,
-  "EmailDescription": "joyce.rosenbaum@lebsack.us",
-  "EmailId": 811,
-  "EmailAddress": "marquis@gibson.biz",
-  "PhoneId": 338,
-  "ContactName": "Von Inc and Sons",
-  "ContactId": 866,
-  "SaleId": 376,
-  "Mrmrs": "illum",
-  "Firstname": "Eula",
-  "MiddleName": "Dach-Cassin",
-  "Lastname": "Altenwerth",
-  "SaleStakeholderId": 489,
-  "Rank": 217,
-  "Phone": "1-413-703-0812",
+  "StakeholderRoleName": "Little-Wiza",
+  "Comment": "assumenda",
+  "StakeholderRoleId": 935,
+  "CountryId": 477,
+  "PersonId": 674,
+  "EmailDescription": "thad_labadie@johnston.com",
+  "EmailId": 903,
+  "EmailAddress": "minnie@ornhettinger.ca",
+  "PhoneId": 154,
+  "ContactName": "Durgan, Herzog and Auer",
+  "ContactId": 453,
+  "SaleId": 230,
+  "Mrmrs": "fugiat",
+  "Firstname": "Bridie",
+  "MiddleName": "Fay-Rodriguez",
+  "Lastname": "Sawayn",
+  "SaleStakeholderId": 318,
+  "Rank": 794,
+  "Phone": "1-507-648-2862",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   },
   "_Links": {

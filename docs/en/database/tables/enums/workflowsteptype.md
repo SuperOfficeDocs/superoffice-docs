@@ -29,6 +29,7 @@ Step type
 |NotifyByEmail|12|NotifyByEmail|
 |NotifyBySMS|13|NotifyBySMS|
 |RunScript|14|RunScript|
+|DistributeToOwner|15|DistributeToOwner|
 
 ## Usage
 

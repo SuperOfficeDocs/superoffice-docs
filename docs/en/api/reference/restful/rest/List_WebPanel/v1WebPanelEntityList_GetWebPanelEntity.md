@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 740,
-  "Name": "Ebert-Gulgowski",
-  "Tooltip": "aut",
+  "WebPanelId": 475,
+  "Name": "Jerde, Sawayn and Crona",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 373,
+  "Rank": 735,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kemmer, King and Crooks",
+  "WindowName": "Carter Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 220,
+  "ProgId": "in",
+  "Icon": 339,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 783
     }
   }
 }

@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "excepturi",
-    "InputValues2": "sed"
+    "InputValues1": "ipsa",
+    "InputValues2": "omnis"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "aliquid",
-  "ShowDialog": "accusamus",
+  "NavigateTo": "est",
+  "Message": "sint",
+  "ShowDialog": "harum",
   "OutputValues": {
-    "OutputValues1": "voluptatum",
-    "OutputValues2": "et"
+    "OutputValues1": "et",
+    "OutputValues2": "ducimus"
   },
   "StateValues": {
-    "StateValues1": "quos",
-    "StateValues2": "quod"
+    "StateValues1": "possimus",
+    "StateValues2": "quo"
   },
-  "Exception": "nihil",
+  "Exception": "ad",
   "ParserValues": {
-    "ParserValues1": "voluptatem",
-    "ParserValues2": "facere"
+    "ParserValues1": "laudantium",
+    "ParserValues2": "occaecati"
   },
   "CgiVariables": {
-    "CgiVariables1": "laborum",
-    "CgiVariables2": "dolor"
+    "CgiVariables1": "quia",
+    "CgiVariables2": "quae"
   },
-  "CgiContent": "fugit",
+  "CgiContent": "vero",
   "Headers": {
-    "Headers1": "delectus",
-    "Headers2": "dignissimos"
+    "Headers1": "tenetur",
+    "Headers2": "accusantium"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   }
 }

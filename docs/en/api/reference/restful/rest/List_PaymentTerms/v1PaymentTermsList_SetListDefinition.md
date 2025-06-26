@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "West Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 285,
+  "Name": "McGlynn-Quitzon",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 1000,
-  "IsCustomList": true,
+  "Rank": 23,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iusto",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "White, Durgan and Macejkovic",
-  "Tooltip": "quidem",
+  "Id": 780,
+  "Name": "Nienow-Schmidt",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 129,
+  "Rank": 545,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 396
     }
   }
 }

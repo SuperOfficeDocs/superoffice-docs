@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Stiedemann-Corwin",
-    "ToolTip": "Nostrum ad eos.",
+    "Id": 283,
+    "Name": "Johns Group",
+    "ToolTip": "Dolorem ut blanditiis enim quia placeat sapiente voluptatum.",
     "Deleted": true,
-    "Rank": 111,
-    "Type": "et",
-    "ColorBlock": 617,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2023-05-15T17:54:08.8824262+02:00",
+    "Rank": 938,
+    "Type": "atque",
+    "ColorBlock": 607,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2016-07-05T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Cormier-Hessel",
-        "ToolTip": "Cumque assumenda id animi aliquid quis molestiae.",
-        "Deleted": false,
-        "Rank": 818,
-        "Type": "repellat",
-        "ColorBlock": 536,
-        "IconHint": "cumque",
+        "Id": 595,
+        "Name": "Treutel Inc and Sons",
+        "ToolTip": "Cumque error accusamus odit maiores enim ratione corrupti.",
+        "Deleted": true,
+        "Rank": 774,
+        "Type": "perspiciatis",
+        "ColorBlock": 44,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2016-12-19T17:54:08.8824262+01:00",
+        "LastChanged": "2013-12-28T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Kaylee Kessler",
+        "ExtraInfo": "sit",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Francis Lowe IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldType": "System.String",
+            "FieldLength": 488
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "minus",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Georgianna Kirlin",
+    "FullName": "Shany Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 360
       }
     }
   }

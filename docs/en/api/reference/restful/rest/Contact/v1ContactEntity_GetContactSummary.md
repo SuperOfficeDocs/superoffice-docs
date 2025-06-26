@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=646
+GET /api/v1/Contact/{contactId}/Summary?limit=990
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 504,
-      "TicketStatus": 683,
-      "Title": "asperiores",
-      "Registered": "2017-05-19T17:54:08.1168303+02:00",
-      "IconHint": "nihil"
+      "TicketId": 224,
+      "TicketStatus": 318,
+      "Title": "quia",
+      "Registered": "2021-08-07T03:45:28.2171945+02:00",
+      "IconHint": "odio"
     },
     {
-      "TicketId": 504,
-      "TicketStatus": 683,
-      "Title": "asperiores",
-      "Registered": "2017-05-19T17:54:08.1168303+02:00",
-      "IconHint": "nihil"
+      "TicketId": 224,
+      "TicketStatus": 318,
+      "Title": "quia",
+      "Registered": "2021-08-07T03:45:28.2171945+02:00",
+      "IconHint": "odio"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 884,
-      "DocumentId": 589,
-      "Date": "2015-12-29T17:54:08.1168303+01:00",
-      "Description": "Mandatory multimedia projection",
+      "AppointmentId": 242,
+      "DocumentId": 479,
+      "Date": "2002-12-27T03:45:28.2171945+01:00",
+      "Description": "Customer-focused logistical website",
       "Completed": "Completed",
-      "Registered": "2003-01-11T17:54:08.1168303+01:00"
+      "Registered": "2008-12-30T03:45:28.2171945+01:00"
     },
     {
-      "AppointmentId": 884,
-      "DocumentId": 589,
-      "Date": "2015-12-29T17:54:08.1168303+01:00",
-      "Description": "Mandatory multimedia projection",
+      "AppointmentId": 242,
+      "DocumentId": 479,
+      "Date": "2002-12-27T03:45:28.2171945+01:00",
+      "Description": "Customer-focused logistical website",
       "Completed": "Completed",
-      "Registered": "2003-01-11T17:54:08.1168303+01:00"
+      "Registered": "2008-12-30T03:45:28.2171945+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 989,
-      "DocumentId": 36,
-      "Date": "2002-11-10T17:54:08.1168303+01:00",
-      "Description": "Switchable empowering process improvement",
+      "AppointmentId": 471,
+      "DocumentId": 884,
+      "Date": "2004-07-19T03:45:28.2171945+02:00",
+      "Description": "Object-based leading edge solution",
       "Completed": "Completed",
-      "Registered": "2013-07-26T17:54:08.1168303+02:00"
+      "Registered": "2019-04-18T03:45:28.2171945+02:00"
     },
     {
-      "AppointmentId": 989,
-      "DocumentId": 36,
-      "Date": "2002-11-10T17:54:08.1168303+01:00",
-      "Description": "Switchable empowering process improvement",
+      "AppointmentId": 471,
+      "DocumentId": 884,
+      "Date": "2004-07-19T03:45:28.2171945+02:00",
+      "Description": "Object-based leading edge solution",
       "Completed": "Completed",
-      "Registered": "2013-07-26T17:54:08.1168303+02:00"
+      "Registered": "2019-04-18T03:45:28.2171945+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 375,
-      "SaleDate": "2024-03-17T17:54:08.1168303+01:00",
-      "Probability": 306,
-      "Heading": "in",
-      "Amount": 9890.904,
-      "Currency": "autem",
-      "AmountInBaseCurrency": 18.804,
+      "SaleId": 615,
+      "SaleDate": "2007-02-13T03:45:28.2171945+01:00",
+      "Probability": 865,
+      "Heading": "laboriosam",
+      "Amount": 12604.948,
+      "Currency": "quam",
+      "AmountInBaseCurrency": 2732.848,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2007-12-13T17:54:08.1168303+01:00"
+      "Registered": "2006-01-05T03:45:28.2171945+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 306,
-      "Name": "Terry, Morar and Kautzer",
-      "CompanyName": "Koch, Schoen and Toy",
-      "FirstMessage": "excepturi",
-      "LastMessage": "aut",
-      "WhenRequested": "2022-06-14T17:54:08.1168303+02:00",
-      "WhenEnded": "1999-11-21T17:54:08.1168303+01:00"
+      "ChatSessionId": 349,
+      "Name": "Deckow LLC",
+      "CompanyName": "Schroeder Group",
+      "FirstMessage": "harum",
+      "LastMessage": "reprehenderit",
+      "WhenRequested": "2000-03-09T03:45:28.2171945+01:00",
+      "WhenEnded": "2006-01-15T03:45:28.2171945+01:00"
     }
   ]
 }

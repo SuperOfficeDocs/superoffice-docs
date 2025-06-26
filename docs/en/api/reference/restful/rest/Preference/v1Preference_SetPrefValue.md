@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "unde",
+  "RawValue": "voluptatem",
   "Specification": null,
-  "DisplayValue": "consectetur",
-  "DisplayTooltip": "ad",
+  "DisplayValue": "officia",
+  "DisplayTooltip": "earum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 920,
-  "PrefDescId": 44,
-  "TableName": "Ruecker, Crona and Howe",
-  "UserPreferenceId": 191
+  "TargetId": 11,
+  "PrefDescId": 522,
+  "TableName": "Hermann Inc and Sons",
+  "UserPreferenceId": 158
 }
 ```
 

@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 48,
-  "EMailAddress": "sapiente",
-  "AssociateId": 655,
+  "EMailAccountId": 655,
+  "EMailAddress": "cum",
+  "AssociateId": 568,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 888,
-  "ErrorCount": 347,
+  "AccountStatus": 668,
+  "ErrorCount": 589,
   "ErrorReason": "",
-  "InboxFolder": "corporis",
-  "SentFolder": "harum",
-  "SimpleMode": 832,
-  "LastFetch": "2006-12-13T17:54:03.0702097+01:00",
+  "InboxFolder": "est",
+  "SentFolder": "a",
+  "SimpleMode": 765,
+  "LastFetch": "2018-08-06T03:45:23.4048314+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

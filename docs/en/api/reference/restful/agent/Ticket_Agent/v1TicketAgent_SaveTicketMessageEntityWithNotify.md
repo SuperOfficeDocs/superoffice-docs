@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 150,
+  "EjMessageId": 24,
   "Ticket": null,
-  "CreatedAt": "2010-07-03T17:54:03.8357967+02:00",
+  "CreatedAt": "2000-02-23T03:45:24.1235597+01:00",
   "CreatedBy": null,
-  "Author": "culpa",
+  "Author": "nemo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "enim",
-  "TimeSpent": 329,
-  "Body": "ipsam",
-  "HtmlBody": "culpa",
-  "EmailHeader": "nelda@jerdedoyle.uk",
-  "DebugInfo": "commodi",
-  "MailSorter": "modi",
+  "MessageId": "reiciendis",
+  "TimeSpent": 871,
+  "Body": "rerum",
+  "HtmlBody": "id",
+  "EmailHeader": "palma@bartell.biz",
+  "DebugInfo": "sit",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "ea",
   "MessageHeaders": [
     {
-      "Id": 607,
-      "Name": "Weimann Group",
-      "Value": "itaque",
+      "Id": 154,
+      "Name": "Corkery Inc and Sons",
+      "Value": "cumque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "hic",
-  "Sentiment": 462,
-  "SentimentConfidence": 464,
+  "Important": false,
+  "Language": "eveniet",
+  "Sentiment": 175,
+  "SentimentConfidence": 826,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 480,
-      "Name": "Anderson-Gaylord",
-      "ContentType": "voluptatum",
-      "AttSize": 796,
+      "AttachmentId": 113,
+      "Name": "Jones-Hand",
+      "ContentType": "voluptatem",
+      "AttSize": 971,
       "InlineImage": false,
-      "ContentId": "fuga",
-      "AuthKey": "cupiditate",
-      "IsSafeFileExtension": true,
+      "ContentId": "provident",
+      "AuthKey": "natus",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 45
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "id",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "nobis"
+    "CustomFields1": "sed",
+    "CustomFields2": "nam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

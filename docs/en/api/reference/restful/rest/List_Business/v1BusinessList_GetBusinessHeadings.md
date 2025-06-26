@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 54,
-    "Name": "Greenfelder, Crona and Veum",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 877,
-    "UdListDefinitionId": 774,
+    "HeadingId": 936,
+    "Name": "Fahey LLC",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "Rank": 50,
+    "UdListDefinitionId": 290,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 631
       }
     }
   }

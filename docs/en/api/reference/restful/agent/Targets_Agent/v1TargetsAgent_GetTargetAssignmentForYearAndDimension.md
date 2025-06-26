@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 171,
+  "TargetYear": 121,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 62,
-  "DimensionId": 829
+  "Id": 873,
+  "DimensionId": 122
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 12,
+  "TargetAssignmentInfoId": 654,
   "Values": [
-    71,
-    916
+    349,
+    600
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 268,
-  "DimensionListItemDisplayName": "Mosciski, Abbott and Farrell",
+  "DimensionListItem": 725,
+  "DimensionListItemDisplayName": "Lehner-Balistreri",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

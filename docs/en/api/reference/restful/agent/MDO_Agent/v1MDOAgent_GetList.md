@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob, Waters and Sawayn",
+  "Name": "Hansen LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "ratione",
+  "AdditionalInfo": "enim",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Rau-Hahn",
-    "ToolTip": "Nam non dolorum quisquam sed similique repellendus sed.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "minus",
+    "Id": 694,
+    "Name": "Jerde LLC",
+    "ToolTip": "Occaecati assumenda similique provident unde eos commodi ut.",
+    "Deleted": true,
+    "Rank": 466,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Nicolas-Murphy",
-        "ToolTip": "Autem qui nesciunt.",
+        "Id": 569,
+        "Name": "Kuhn Inc and Sons",
+        "ToolTip": "Occaecati voluptatem autem.",
         "Deleted": false,
-        "Rank": 762,
-        "Type": "alias",
+        "Rank": 98,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 919,
-        "ExtraInfo": "qui",
-        "StyleHint": "magnam",
-        "FullName": "Mariela Anderson Hudson II",
+        "IconHint": "officia",
+        "ColorBlock": 644,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "odit",
+        "FullName": "Prof. Donato Jedidiah Erdman DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldLength": 241
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 552,
-    "ExtraInfo": "illo",
-    "StyleHint": "quisquam",
-    "FullName": "Miss Trystan Amiya Keebler DDS",
+    "IconHint": "dolore",
+    "ColorBlock": 39,
+    "ExtraInfo": "ex",
+    "StyleHint": "dolor",
+    "FullName": "Anahi Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldLength": 246
       }
     }
   }

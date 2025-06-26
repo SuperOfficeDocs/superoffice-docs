@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Johnston-Grant",
-  "Tooltip": "ea",
+  "Id": 974,
+  "Name": "Wisozk-Schaden",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 928,
-  "IsCustomList": true,
+  "Rank": 835,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "nesciunt",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Senger, Bogisich and Morissette",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "Rank": 310,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 517,
+  "Name": "Stroman, Senger and Leannon",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 97,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": true,
+  "ListType": "a",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldLength": 530
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

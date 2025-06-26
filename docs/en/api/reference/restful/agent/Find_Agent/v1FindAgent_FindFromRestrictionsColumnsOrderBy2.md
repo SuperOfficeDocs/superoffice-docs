@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "voluptas",
-  "ProviderName": "Hessel LLC",
-  "DesiredColumns": "qui",
-  "OrderBy": "sint",
-  "PageSize": 412,
-  "PageNumber": 712
+  "Restrictions": "nihil",
+  "ProviderName": "Cormier Group",
+  "DesiredColumns": "possimus",
+  "OrderBy": "rem",
+  "PageSize": 559,
+  "PageNumber": 153
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ortiz, Kling and Dach",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "nemo",
+      "DisplayName": "Nolan-Torp",
+      "DisplayTooltip": "at",
+      "DisplayType": "sed",
       "CanOrderBy": true,
-      "Name": "Stehr Inc and Sons",
+      "Name": "Kozey-Terry",
       "CanRestrictBy": true,
-      "RestrictionType": "pariatur",
-      "RestrictionListName": "Cole Group",
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Boyer Group",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "doloribus",
-      "IconHint": "eos",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "reprehenderit",
+      "Width": "et",
+      "IconHint": "natus",
+      "HeadingIconHint": "reiciendis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kautzer-Bailey",
-      "PrimaryKey": 372,
+      "EntityName": "Zulauf-Walter",
+      "PrimaryKey": 696,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "eius",
-          "LinkHint": "aut"
+          "DisplayValue": "ut",
+          "TooltipHint": "id",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "cum",
+      "LinkHint": "omnis",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 120
         }
       }
     }
   ],
-  "RowCount": 860,
+  "RowCount": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 99
     }
   }
 }

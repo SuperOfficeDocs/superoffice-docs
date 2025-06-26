@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Gerhold LLC",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 905,
-  "Rank": 811,
+  "Id": 404,
+  "Name": "Goldner-Wuckert",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 483,
+  "Rank": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

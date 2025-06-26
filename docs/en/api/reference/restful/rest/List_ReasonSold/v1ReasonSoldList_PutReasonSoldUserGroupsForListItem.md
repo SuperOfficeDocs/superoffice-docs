@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Conn LLC",
-    "ToolTip": "Vitae sit repellat voluptas sed est unde.",
+    "Id": 70,
+    "Name": "Reinger Group",
+    "ToolTip": "Labore magni similique.",
     "Deleted": true,
-    "Rank": 311,
-    "Type": "architecto",
-    "ColorBlock": 7,
-    "IconHint": "cum",
-    "Selected": true,
-    "LastChanged": "1999-11-27T17:54:09.1011806+01:00",
+    "Rank": 147,
+    "Type": "sint",
+    "ColorBlock": 460,
+    "IconHint": "vero",
+    "Selected": false,
+    "LastChanged": "1998-08-11T03:45:29.2015441+02:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Kirlin-Bernier",
-        "ToolTip": "Repellendus quasi.",
-        "Deleted": false,
-        "Rank": 194,
-        "Type": "et",
-        "ColorBlock": 671,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2001-12-21T17:54:09.1011806+01:00",
+        "Id": 804,
+        "Name": "King-Kub",
+        "ToolTip": "Hic similique pariatur porro itaque iste qui porro.",
+        "Deleted": true,
+        "Rank": 728,
+        "Type": "qui",
+        "ColorBlock": 206,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "2006-10-09T03:45:29.2015441+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Georgiana Purdy I"
+        "ExtraInfo": "animi",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Cathrine Langosh"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "aut",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Blair Parisian"
+    "FullName": "Ms. Makenna Wunsch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Davis, Koelpin and Jacobs",
-    "ToolTip": "Expedita aut aut molestias et.",
+    "Id": 230,
+    "Name": "Franecki-Wisoky",
+    "ToolTip": "Id qui occaecati ut qui et et eum.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "laborum",
-    "ColorBlock": 804,
-    "IconHint": "aliquid",
+    "Rank": 424,
+    "Type": "cum",
+    "ColorBlock": 449,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-12-28T17:54:09.1011806+01:00",
+    "LastChanged": "2010-05-18T03:45:29.2015441+02:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Waters-Swift",
-        "ToolTip": "Voluptatibus deserunt quaerat sapiente nobis impedit soluta.",
-        "Deleted": true,
-        "Rank": 145,
-        "Type": "sint",
-        "ColorBlock": 121,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2004-10-15T17:54:09.1011806+02:00",
+        "Id": 406,
+        "Name": "Thiel, Carter and Rohan",
+        "ToolTip": "Unde non dicta.",
+        "Deleted": false,
+        "Rank": 739,
+        "Type": "excepturi",
+        "ColorBlock": 289,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2008-01-26T03:45:29.2015441+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Ellen Jaquelin Rutherford Jr.",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Sibyl Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldType": "System.String",
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Miss Jammie Rahsaan Zieme",
+    "ExtraInfo": "numquam",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Mozelle Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldLength": 804
       }
     }
   }

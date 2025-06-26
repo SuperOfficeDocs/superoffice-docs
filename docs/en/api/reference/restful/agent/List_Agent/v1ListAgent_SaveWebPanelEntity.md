@@ -109,26 +109,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 420,
-  "Name": "Erdman, Weber and Quitzon",
-  "Tooltip": "odit",
+  "WebPanelId": 133,
+  "Name": "Beer-Runolfsdottir",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 683,
+  "Rank": 442,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Torp-Oberbrunner",
+  "WindowName": "Crona, Crona and O'Kon",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptas",
-  "Icon": 763,
+  "ProgId": "nemo",
+  "Icon": 188,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 19,
-  "Name": "Ward LLC",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 790,
+  "WebPanelId": 520,
+  "Name": "Nitzsche Group",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "Rank": 165,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "McDermott-Dietrich",
+  "WindowName": "Hartmann, Wunsch and Connelly",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 424,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "excepturi",
+  "Icon": 645,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 525
     }
   }
 }

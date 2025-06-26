@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber, Hoppe and Lockman"
+  "TableName": "Hartmann Group"
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "et",
-  "Inserts": 438,
-  "Updates": 841,
-  "Deletes": 808,
+  "Success": false,
+  "Message": "placeat",
+  "Inserts": 26,
+  "Updates": 136,
+  "Deletes": 114,
   "RowStatus": [
     {
-      "PrimaryKey": 588,
+      "PrimaryKey": 49,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vero",
-        "quia"
+        "dolor",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 587
         }
       }
     },
     {
-      "PrimaryKey": 588,
+      "PrimaryKey": 49,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vero",
-        "quia"
+        "dolor",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 587
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   }
 }

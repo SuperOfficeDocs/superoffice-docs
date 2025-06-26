@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Goodwin, Kassulke and Grady",
-    "ToolTip": "Cupiditate est officiis optio consectetur saepe rerum itaque.",
+    "Id": 720,
+    "Name": "Littel Group",
+    "ToolTip": "Soluta dolore nobis velit.",
     "Deleted": true,
-    "Rank": 649,
-    "Type": "et",
-    "ColorBlock": 613,
-    "IconHint": "et",
+    "Rank": 189,
+    "Type": "quia",
+    "ColorBlock": 945,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2023-07-03T17:54:09.0074197+02:00",
+    "LastChanged": "2002-09-10T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Sawayn, Lowe and Christiansen",
-        "ToolTip": "Quisquam neque.",
+        "Id": 117,
+        "Name": "Leannon LLC",
+        "ToolTip": "Quas a dignissimos.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "numquam",
-        "ColorBlock": 598,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2024-12-03T17:54:09.0074197+01:00",
+        "Rank": 594,
+        "Type": "quis",
+        "ColorBlock": 354,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2024-02-24T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Jeffrey Daniella Windler",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Linda Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 662
+            "FieldLength": 806
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sed",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Miss Madisen Richard Kozey",
+    "FullName": "Ashly McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldType": "System.String",
+        "FieldLength": 63
       }
     }
   }

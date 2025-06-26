@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 442
+  "QuoteId": 968
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 656,
-  "SaleId": 821,
-  "QuoteConnectionId": 105,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "quasi",
-  "ActiveQuoteVersionId": 487,
-  "AcceptedQuoteAlternativeId": 491,
-  "UseValuesFromQuote": 506,
-  "DocumentId": 49,
-  "PoNumber": "1098819",
-  "OrderComment": "officia",
-  "PreferredEmailCulture": "colton@greenholtjaskolski.uk",
+  "QuoteId": 843,
+  "SaleId": 196,
+  "QuoteConnectionId": 845,
+  "ERPQuoteKey": "at",
+  "ERPOrderKey": "non",
+  "ActiveQuoteVersionId": 837,
+  "AcceptedQuoteAlternativeId": 962,
+  "UseValuesFromQuote": 649,
+  "DocumentId": 452,
+  "PoNumber": "1482993",
+  "OrderComment": "velit",
+  "PreferredEmailCulture": "elvera@ferrykirlin.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 93
     }
   }
 }

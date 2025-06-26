@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Thiel, Parker and Shanahan",
-    "ToolTip": "Aut doloremque maiores.",
+    "Id": 337,
+    "Name": "Johnson LLC",
+    "ToolTip": "Dolore non unde et adipisci.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "beatae",
-    "ColorBlock": 349,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2016-02-04T17:54:08.9605465+01:00",
+    "Rank": 393,
+    "Type": "eum",
+    "ColorBlock": 106,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2022-12-12T03:45:29.0921677+01:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Batz, Zemlak and Reichel",
-        "ToolTip": "Optio eveniet est nobis optio.",
+        "Id": 97,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Omnis consequuntur est assumenda consequatur quis tempore.",
         "Deleted": false,
-        "Rank": 942,
-        "Type": "est",
-        "ColorBlock": 141,
-        "IconHint": "voluptas",
+        "Rank": 491,
+        "Type": "vitae",
+        "ColorBlock": 6,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2003-11-18T17:54:08.9605465+01:00",
+        "LastChanged": "1999-11-29T03:45:29.0921677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Tremayne Quigley",
+        "ExtraInfo": "sit",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Johnathan Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldType": "System.Int32",
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "minima",
+    "ExtraInfo": "eaque",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Gloria Rusty McClure I",
+    "FullName": "Diego Kendrick Schroeder Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 370
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 866,
-  "Name": "Runte, Ondricka and West",
-  "Description": "Team-oriented methodical data-warehouse",
-  "OwnedByFullName": "Rudy Hessel",
-  "Registered": "2023-10-06T17:54:02.9295831+02:00",
+  "DashboardId": 594,
+  "Name": "Emmerich, Stamm and Ratke",
+  "Description": "Organic exuding customer loyalty",
+  "OwnedByFullName": "Marina Stephon Legros MD",
+  "Registered": "2019-02-05T03:45:23.264209+01:00",
   "Tiles": [
     {
-      "Name": "Langosh-Lehner",
+      "Name": "Kautzer-Denesik",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 688
         }
       }
     },
     {
-      "Name": "Langosh-Lehner",
+      "Name": "Kautzer-Denesik",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 688
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 784
     }
   }
 }

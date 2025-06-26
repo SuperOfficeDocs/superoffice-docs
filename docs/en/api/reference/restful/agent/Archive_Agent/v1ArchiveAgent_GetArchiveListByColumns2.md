@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Emmerich Group",
-  "Columns": "consequatur",
-  "SortOrder": "ut",
-  "Restrictions": "et",
-  "Entities": "non",
-  "Page": 577,
-  "PageSize": 140
+  "ProviderName": "Kling-Heathcote",
+  "Columns": "autem",
+  "SortOrder": "deleniti",
+  "Restrictions": "ut",
+  "Entities": "aut",
+  "Page": 630,
+  "PageSize": 871
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kuhlman LLC",
-    "PrimaryKey": 136,
+    "EntityName": "Graham-Collier",
+    "PrimaryKey": 620,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "praesentium",
-        "TooltipHint": "vero",
-        "LinkHint": "soluta"
+        "DisplayValue": "nesciunt",
+        "TooltipHint": "voluptates",
+        "LinkHint": "iure"
       }
     },
-    "LinkHint": "dolorum",
-    "StyleHint": "dolorem",
+    "LinkHint": "omnis",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 238
       }
     }
   }

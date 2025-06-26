@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Nolan-Satterfield",
-    "ToolTip": "Aut modi molestias debitis aliquam sit.",
-    "Deleted": true,
-    "Rank": 592,
-    "Type": "ea",
-    "ColorBlock": 283,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2016-06-05T17:54:08.8980498+02:00",
+    "Id": 653,
+    "Name": "McCullough, Torp and Kuhic",
+    "ToolTip": "Molestias consequatur.",
+    "Deleted": false,
+    "Rank": 366,
+    "Type": "pariatur",
+    "ColorBlock": 416,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2013-04-21T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Bartoletti, Nader and Leffler",
-        "ToolTip": "Odio ea incidunt mollitia molestias excepturi dolorum unde.",
+        "Id": 394,
+        "Name": "Hettinger, Kemmer and Rowe",
+        "ToolTip": "Ipsam at esse et voluptas molestiae blanditiis sequi.",
         "Deleted": false,
-        "Rank": 357,
-        "Type": "ipsum",
-        "ColorBlock": 416,
-        "IconHint": "est",
+        "Rank": 549,
+        "Type": "soluta",
+        "ColorBlock": 674,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2019-09-23T17:54:08.8980498+02:00",
+        "LastChanged": "2000-12-11T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "veniam",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Ms. Ronaldo Jewell Cole"
+        "FullName": "Yazmin Cartwright"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "laudantium",
-    "Hidden": true,
-    "FullName": "Francisca Aimee Wisozk DVM"
+    "ExtraInfo": "nobis",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Mrs. Wilber Hessel DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Reinger, O'Kon and Ritchie",
-    "ToolTip": "Eos et autem mollitia.",
+    "Id": 30,
+    "Name": "Becker, Torp and Pagac",
+    "ToolTip": "Rerum sed suscipit voluptas aliquid molestiae illo quia.",
     "Deleted": false,
-    "Rank": 777,
-    "Type": "aut",
-    "ColorBlock": 793,
-    "IconHint": "dignissimos",
-    "Selected": false,
-    "LastChanged": "2003-06-01T17:54:08.8980498+02:00",
+    "Rank": 463,
+    "Type": "animi",
+    "ColorBlock": 436,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2001-06-15T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Lesch LLC",
-        "ToolTip": "In itaque quos iusto.",
+        "Id": 347,
+        "Name": "Bode-Shields",
+        "ToolTip": "Eos adipisci quia.",
         "Deleted": true,
-        "Rank": 66,
-        "Type": "fugit",
-        "ColorBlock": 904,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2014-05-07T17:54:08.8980498+02:00",
+        "Rank": 755,
+        "Type": "consequatur",
+        "ColorBlock": 343,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "2003-03-04T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quod",
-        "Hidden": false,
-        "FullName": "Mrs. Cody Liliane Keeling Jr.",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Prof. Bailey Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 327
+            "FieldType": "System.Int32",
+            "FieldLength": 661
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Forrest Bosco V",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Dr. Rafaela Edward Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 17
       }
     }
   }

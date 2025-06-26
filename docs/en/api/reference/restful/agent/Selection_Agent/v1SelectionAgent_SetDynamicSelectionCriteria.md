@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 24,
+  "SelectionId": 899,
   "Criteria": [
     {
-      "Name": "Hartmann Inc and Sons",
-      "Operator": "ipsum",
+      "Name": "Adams, Strosin and Pfannerstill",
+      "Operator": "consequuntur",
       "Values": [
-        "expedita",
-        "omnis"
+        "corporis",
+        "saepe"
       ],
       "DisplayValues": [
-        "perferendis",
-        "corrupti"
+        "in",
+        "eaque"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 918,
+      "InterParenthesis": 812,
       "InterOperator": "And",
-      "UniqueHash": 806
+      "UniqueHash": 512
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kohler, Bradtke and Beatty",
-    "Operator": "sed",
+    "Name": "Pouros, Kreiger and Gorczany",
+    "Operator": "inventore",
     "Values": [
-      "rem",
-      "possimus"
+      "qui",
+      "maxime"
     ],
     "DisplayValues": [
-      "ipsa",
-      "voluptatem"
+      "consequatur",
+      "quibusdam"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bernier-Kuhic",
-        "Operator": "iusto",
+        "Name": "Bayer-Lebsack",
+        "Operator": "provident",
         "Values": [
-          "quam",
-          "culpa"
+          "quo",
+          "aut"
         ],
         "DisplayValues": [
-          "omnis",
-          "at"
+          "ut",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 93,
+        "InterParenthesis": 742,
         "InterOperator": "And",
-        "UniqueHash": 420
+        "UniqueHash": 669
       }
     ],
-    "InterParenthesis": 288,
+    "InterParenthesis": 270,
     "InterOperator": "And",
-    "UniqueHash": 656
+    "UniqueHash": 673
   }
 ]
 ```

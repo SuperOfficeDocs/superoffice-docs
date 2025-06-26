@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "possimus",
+    "path": "tempore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "possimus",
+    "path": "tempore",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 621,
-  "Name": "Wilderman LLC",
-  "Rank": 813,
-  "Tooltip": "repellendus",
-  "Icon": "sit",
-  "DefaultTicketStatus": 683,
+  "TicketTypeId": 816,
+  "Name": "Doyle-Stiedemann",
+  "Rank": 881,
+  "Tooltip": "neque",
+  "Icon": "dolore",
+  "DefaultTicketStatus": 449,
   "TicketStatuses": [
-    209,
-    852
+    127,
+    370
   ],
-  "DefaultTicketPriority": 979,
+  "DefaultTicketPriority": 862,
   "TicketPriorities": [
-    107,
-    492
+    234,
+    762
   ],
   "ReplyTemplate": 387,
-  "IsExternalVisible": true,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    903,
-    553
+    311,
+    984
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   },
   "_Links": {

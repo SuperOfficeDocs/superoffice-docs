@@ -48,6 +48,8 @@ generated: true
 
 * [POST Agents/Diagnostics/RemoveExpiredSystemMessages](v1DiagnosticsAgent_RemoveExpiredSystemMessages.md)
 
+* [POST Agents/Diagnostics/GetNextTableNumber](v1DiagnosticsAgent_GetNextTableNumber.md)
+
 * [POST Agents/Diagnostics/PerformTasksAfterUpgrade](v1DiagnosticsAgent_PerformTasksAfterUpgrade.md)
 
 * [POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted](v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md)

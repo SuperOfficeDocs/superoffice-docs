@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Veum, Moen and Crist",
+  "Name": "Kuvalis-Fay",
   "ForceFlatList": false,
-  "AdditionalInfo": "ut",
-  "OnlyHistory": true
+  "AdditionalInfo": "aperiam",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Blanda-Predovic",
-    "ToolTip": "Corrupti blanditiis eaque dolorem.",
+    "Id": 802,
+    "Name": "Spinka LLC",
+    "ToolTip": "Nemo mollitia qui ad tempore dicta quibusdam et.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "nulla",
-    "ColorBlock": 140,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2010-08-01T17:54:03.3358211+02:00",
+    "Rank": 221,
+    "Type": "est",
+    "ColorBlock": 973,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2000-08-26T03:45:23.6391999+02:00",
     "ChildItems": [
       {
-        "Id": 464,
-        "Name": "Kshlerin LLC",
-        "ToolTip": "Libero nihil temporibus qui voluptas quasi.",
-        "Deleted": false,
-        "Rank": 555,
-        "Type": "laborum",
-        "ColorBlock": 394,
-        "IconHint": "neque",
+        "Id": 609,
+        "Name": "Herman LLC",
+        "ToolTip": "Quibusdam voluptatibus enim est voluptatem omnis.",
+        "Deleted": true,
+        "Rank": 97,
+        "Type": "dolores",
+        "ColorBlock": 690,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2009-12-24T17:54:03.3358211+01:00",
+        "LastChanged": "2016-10-08T03:45:23.6391999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Ms. Fernando Vita Konopelski",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Bert Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 317
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Genesis Jast",
+    "ExtraInfo": "beatae",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Theodore Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 660
       }
     }
   }

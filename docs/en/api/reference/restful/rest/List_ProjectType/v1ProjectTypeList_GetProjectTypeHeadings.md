@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 666,
-    "Name": "Lakin, Ritchie and Huels",
-    "Tooltip": "et",
+    "HeadingId": 407,
+    "Name": "Mann-Herzog",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 509,
-    "UdListDefinitionId": 257,
+    "Rank": 660,
+    "UdListDefinitionId": 286,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 533
       }
     }
   }

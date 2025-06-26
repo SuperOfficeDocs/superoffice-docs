@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 301,
-  "Name": "Kautzer-Abbott",
-  "Tooltip": "magnam",
+  "HeadingId": 5,
+  "Name": "Kunde Inc and Sons",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 500,
-  "UdListDefinitionId": 20
+  "Rank": 529,
+  "UdListDefinitionId": 27
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 191,
-  "Name": "Lowe-Kling",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 565,
-  "UdListDefinitionId": 194,
+  "HeadingId": 439,
+  "Name": "Lynch LLC",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 455,
+  "UdListDefinitionId": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

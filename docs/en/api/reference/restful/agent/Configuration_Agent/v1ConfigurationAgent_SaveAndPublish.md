@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 110,
-  "Name": "Aufderhar-Dickinson",
-  "Description": "Proactive cohesive policy",
-  "DeltaJson": "aperiam",
+  "ConfigurableScreenDeltaId": 106,
+  "Name": "Wiegand Group",
+  "Description": "Devolved static internet solution",
+  "DeltaJson": "amet",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quia",
-  "UpdatedDate": "2000-05-27T17:54:02.8202276+02:00",
-  "CreatedDate": "2024-08-26T17:54:02.8202276+02:00",
+  "RecipeId": "quaerat",
+  "UpdatedDate": "2007-02-07T03:45:23.0767156+01:00",
+  "CreatedDate": "2025-01-24T03:45:23.0767156+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    861,
-    852
+    385,
+    879
   ],
-  "AppliesToKey": "odit",
+  "AppliesToKey": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 176
     }
   }
 }

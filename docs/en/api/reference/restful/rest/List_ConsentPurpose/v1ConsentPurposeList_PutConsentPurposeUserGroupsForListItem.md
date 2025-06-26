@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Ritchie Group",
-    "ToolTip": "Nobis fuga neque ut.",
+    "Id": 183,
+    "Name": "Kulas-Wolf",
+    "ToolTip": "Et optio et nihil aut qui.",
     "Deleted": false,
-    "Rank": 51,
-    "Type": "perspiciatis",
-    "ColorBlock": 152,
-    "IconHint": "quia",
+    "Rank": 748,
+    "Type": "molestiae",
+    "ColorBlock": 415,
+    "IconHint": "commodi",
     "Selected": true,
-    "LastChanged": "1998-10-06T17:54:08.8199285+02:00",
+    "LastChanged": "2023-05-15T03:45:28.9984183+02:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Kutch-O'Hara",
-        "ToolTip": "Ut omnis laudantium illo porro reiciendis.",
+        "Id": 849,
+        "Name": "Lueilwitz Inc and Sons",
+        "ToolTip": "Tempore voluptatem itaque qui.",
         "Deleted": true,
-        "Rank": 285,
-        "Type": "omnis",
-        "ColorBlock": 208,
-        "IconHint": "rem",
+        "Rank": 273,
+        "Type": "quibusdam",
+        "ColorBlock": 362,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2023-01-14T17:54:08.8199285+01:00",
+        "LastChanged": "2019-04-12T03:45:28.9984183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nihil",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Nico Koss"
+        "FullName": "Ms. Makenna Shyanne Batz DVM"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "facilis",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Mrs. Misty Hoppe MD"
+    "FullName": "Gust Bailey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Lockman, Hirthe and McDermott",
-    "ToolTip": "Officia laudantium reprehenderit veniam.",
+    "Id": 257,
+    "Name": "Zulauf-Ebert",
+    "ToolTip": "Est mollitia.",
     "Deleted": true,
-    "Rank": 593,
-    "Type": "incidunt",
-    "ColorBlock": 233,
+    "Rank": 298,
+    "Type": "voluptatem",
+    "ColorBlock": 66,
     "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-10-28T17:54:08.8199285+02:00",
+    "LastChanged": "2014-03-07T03:45:28.9984183+01:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Nikolaus, Casper and Stroman",
-        "ToolTip": "Id minima eos laboriosam et.",
+        "Id": 186,
+        "Name": "Considine-VonRueden",
+        "ToolTip": "Aperiam numquam non qui omnis.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "odio",
-        "ColorBlock": 211,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2005-02-18T17:54:08.8199285+01:00",
+        "Rank": 297,
+        "Type": "possimus",
+        "ColorBlock": 418,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-01-10T03:45:28.9984183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Oran Kemmer DDS",
+        "ExtraInfo": "eos",
+        "StyleHint": "at",
+        "Hidden": true,
+        "FullName": "Jillian Abshire V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 638
+            "FieldType": "System.String",
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "sed",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Prof. Sebastian Prohaska IV",
+    "FullName": "Miss Astrid Sim Schinner DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 811
       }
     }
   }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Schimmel-Schuster",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 855,
-  "Rank": 863,
+  "Id": 143,
+  "Name": "Lynch Inc and Sons",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "UdListDefinitionId": 596,
+  "Rank": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldLength": 936
     }
   }
 }

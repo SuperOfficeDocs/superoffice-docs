@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=446
+POST /api/v1/Agents/User/GetUser?userId=754
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
-  "Name": "Goyette LLC",
-  "Rank": 549,
-  "Tooltip": "eos",
+  "AssociateId": 534,
+  "Name": "McDermott LLC",
+  "Rank": 459,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "Doyle-Romaguera",
-      "Description": "Fundamental system-worthy collaboration",
+      "Name": "Skiles-Armstrong",
+      "Description": "Inverse systemic customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     },
     {
-      "Name": "Doyle-Romaguera",
-      "Description": "Fundamental system-worthy collaboration",
+      "Name": "Skiles-Armstrong",
+      "Description": "Inverse systemic customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aliquam",
-      "Tooltip": "repellat",
-      "Id": 778,
-      "Rank": 659,
+      "Value": "quia",
+      "Tooltip": "officiis",
+      "Id": 906,
+      "Rank": 129,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldLength": 750
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2002-05-14T17:54:03.8826694+02:00",
-  "Lastlogout": "2007-05-12T17:54:03.8826694+02:00",
-  "EjUserId": 363,
-  "RequestSignature": "repellat",
+  "Lastlogin": "2011-06-14T03:45:24.1704335+02:00",
+  "Lastlogout": "2000-04-28T03:45:24.1704335+02:00",
+  "EjUserId": 360,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "consequatur",
-      "DisplayValue": "hic",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 321
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "consequatur",
-      "DisplayValue": "hic",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 321
-        }
-      }
-    }
-  ],
-  "UserName": "Kiehn-Jacobi",
-  "TicketCategories": [
-    {
-      "Id": 767,
-      "Name": "Conroy-Doyle",
-      "ToolTip": "Debitis reiciendis aliquam dolorem dignissimos quam et distinctio.",
-      "Deleted": false,
-      "Rank": 277,
-      "Type": "autem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nam",
-      "ColorBlock": 702,
-      "ExtraInfo": "commodi",
-      "StyleHint": "repellat",
-      "FullName": "Mrs. Eudora Miles Turcotte V",
+      "Value": "qui",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldLength": 168
         }
       }
-    }
-  ],
-  "NickName": "Oberbrunner, Cartwright and Veum",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "sequi"
-  },
-  "CustomFields": {
-    "CustomFields1": "illum",
-    "CustomFields2": "in"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Balistreri, Gulgowski and Oberbrunner",
-      "DisplayName": "Jacobi-Terry",
-      "Description": "Intuitive web-enabled secured line",
-      "ToolTip": "Rerum et in.",
-      "Actions": "Implicit",
-      "ActionData": "aspernatur",
+      "Type": null,
+      "Value": "qui",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldType": "System.String",
+          "FieldLength": 168
+        }
+      }
+    }
+  ],
+  "UserName": "Hirthe-Wiza",
+  "TicketCategories": [
+    {
+      "Id": 561,
+      "Name": "McClure, Howe and Goodwin",
+      "ToolTip": "Adipisci alias voluptates fugit exercitationem veritatis aut reprehenderit.",
+      "Deleted": false,
+      "Rank": 974,
+      "Type": "aliquid",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "ab",
+      "ColorBlock": 824,
+      "ExtraInfo": "repellendus",
+      "StyleHint": "ut",
+      "FullName": "Mr. Maynard Beier DDS",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 954
+        }
+      }
+    }
+  ],
+  "NickName": "Stiedemann LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "quis",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "deserunt",
+    "CustomFields2": "excepturi"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Leannon, Dickinson and Kirlin",
+      "DisplayName": "Schulist LLC",
+      "Description": "Robust methodical installation",
+      "ToolTip": "Accusantium vero eum maiores voluptatem.",
+      "Actions": "Implicit",
+      "ActionData": "quam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 76
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldLength": 312
     }
   }
 }

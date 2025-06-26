@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 194,
-  "Name": "Waters LLC",
-  "Config": "natus",
-  "Rank": 760,
-  "Client": "labore",
-  "Style": "similique",
+  "DashboardThemeId": 102,
+  "Name": "McLaughlin Inc and Sons",
+  "Config": "architecto",
+  "Rank": 735,
+  "Client": "vitae",
+  "Style": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 851
     }
   },
   "_Links": {

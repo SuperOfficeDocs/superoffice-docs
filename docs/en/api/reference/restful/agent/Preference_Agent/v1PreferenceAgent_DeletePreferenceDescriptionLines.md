@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescLineIds": [
-    199,
-    501
+    498,
+    416
   ]
 }
 ```

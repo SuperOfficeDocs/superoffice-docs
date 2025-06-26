@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Lebsack, Cummerata and Schinner",
-    "ToolTip": "Quia odio et dolore temporibus et vel consectetur.",
+    "Id": 352,
+    "Name": "Bruen, Stracke and Nolan",
+    "ToolTip": "Eveniet quod et est voluptas.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "amet",
-    "ColorBlock": 82,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2023-09-25T17:54:03.8826694+02:00",
+    "Rank": 80,
+    "Type": "est",
+    "ColorBlock": 411,
+    "IconHint": "ad",
+    "Selected": true,
+    "LastChanged": "2000-04-28T03:45:24.1704335+02:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Mayert-Robel",
-        "ToolTip": "Sunt nobis aut.",
+        "Id": 239,
+        "Name": "Thompson Group",
+        "ToolTip": "Sequi distinctio sit minima molestiae.",
         "Deleted": false,
-        "Rank": 479,
-        "Type": "ut",
-        "ColorBlock": 506,
-        "IconHint": "sit",
+        "Rank": 724,
+        "Type": "asperiores",
+        "ColorBlock": 44,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "1999-11-30T17:54:03.8826694+01:00",
+        "LastChanged": "2019-10-14T03:45:24.1704335+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Allie Gleichner",
+        "ExtraInfo": "soluta",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Rodger Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 347
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "autem",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Kavon Herman",
+    "FullName": "Ms. Breanna Conrad Labadie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

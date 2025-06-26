@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Ankunding LLC",
-    "Tooltip": "ut",
+    "Id": 672,
+    "Name": "Graham-Littel",
+    "Tooltip": "minima",
     "Deleted": false,
-    "UdListDefinitionId": 257,
-    "Rank": 858,
+    "UdListDefinitionId": 453,
+    "Rank": 500,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldLength": 679
       }
     }
   }

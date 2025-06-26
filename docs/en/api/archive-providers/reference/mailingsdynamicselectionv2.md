@@ -664,7 +664,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/postAddress/wgs84longitude,mailingAddr/contact/restrictionAddress/addressId,mailingAddr/contact/contactAssociate/contactId,mailingAddr/contact/contactExtra/x_contact_timespan,mailingAddr/person/email/emailBounceCount
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=recipientStatus,mailingAddr/contact/postAddress/zip,mailingAddr/contact/streetAddress/addressId,mailingAddr/person/supportAssociate,mailingAddr/person/personExtra/x_person_priority_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

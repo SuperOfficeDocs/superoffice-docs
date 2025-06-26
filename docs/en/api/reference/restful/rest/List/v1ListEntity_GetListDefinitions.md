@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Lindgren Group",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 939,
+    "Id": 708,
+    "Name": "Turcotte, Schoen and Wunsch",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 408,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "quo",
+    "UseGroupsAndHeadings": true,
+    "ListType": "ut",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

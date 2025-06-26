@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 117,
+  "ProjectId": 327,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 706,
-      "ContactId": 119,
-      "ProjectId": 803,
-      "ContactName": "Paucek, Schmidt and Runolfsdottir",
+      "ProjectmemberId": 613,
+      "ContactId": 103,
+      "ProjectId": 62,
+      "ContactName": "Hintz-Shanahan",
       "ContactDepartment": "",
-      "ProjectName": "Kling-Robel",
-      "EmailId": 224,
-      "EmailAddress": "aylin.blanda@fritschbosco.info",
-      "CountryId": 812,
-      "Firstname": "Guy",
-      "MiddleName": "Greenfelder LLC",
-      "Lastname": "Hirthe",
-      "PersonId": 908,
-      "Mrmrs": "aut",
-      "ProjectMemberTypeName": "Herman Group",
-      "Phone": "832-167-3232 x853",
-      "PhoneId": 35,
-      "ProjectMemberTypeId": 680,
-      "EmailAddressName": "cornelius_gutmann@little.biz",
-      "Comment": "illo",
-      "FullName": "Baylee Becker"
+      "ProjectName": "Hilll Group",
+      "EmailId": 369,
+      "EmailAddress": "taurean_bauch@schmidtstoltenberg.co.uk",
+      "CountryId": 765,
+      "Firstname": "Fanny",
+      "MiddleName": "Hermiston-Little",
+      "Lastname": "Anderson",
+      "PersonId": 199,
+      "Mrmrs": "sed",
+      "ProjectMemberTypeName": "Bergstrom-Konopelski",
+      "Phone": "(795)284-8077",
+      "PhoneId": 223,
+      "ProjectMemberTypeId": 174,
+      "EmailAddressName": "ilene@gerlach.ca",
+      "Comment": "nostrum",
+      "FullName": "Abdullah Gaston Breitenberg Jr."
     }
   ]
 }

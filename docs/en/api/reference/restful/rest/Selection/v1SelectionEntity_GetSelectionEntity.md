@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Nov 2006 17:54:08 G11T
+Last-Modified: Thu, 31 Mar 2016 03:45:28 G3T
 
 {
-  "Description": "Persevering grid-enabled installation",
-  "Postit": "hic",
+  "Description": "Secured dynamic Graphic Interface",
+  "Postit": "asperiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 806,
-  "IncludePerson": 14,
+  "GroupIdx": 709,
+  "IncludePerson": 857,
   "MemberCount": 99.99,
-  "Name": "Collier, Stark and Ritchie",
-  "PostitTextId": 285,
-  "CreatedDate": "2015-06-10T17:54:08.5386928+02:00",
-  "SelectionId": 187,
-  "SoundEx": "accusantium",
-  "Source": 391,
-  "TextId": 972,
-  "UpdatedDate": "2006-11-06T17:54:08.5386928+01:00",
-  "UpdatedCount": 815,
-  "Visibility": 779,
+  "Name": "Rowe-Russel",
+  "PostitTextId": 398,
+  "CreatedDate": "2000-07-02T03:45:28.6546813+02:00",
+  "SelectionId": 403,
+  "SoundEx": "aut",
+  "Source": 523,
+  "TextId": 572,
+  "UpdatedDate": "2016-03-31T03:45:28.6546813+02:00",
+  "UpdatedCount": 726,
+  "Visibility": 114,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 392,
-  "TargetTableName": "Gleichner Group",
-  "Completed": true,
-  "LeftSelectionId": 686,
-  "RightSelectionId": 827,
+  "CompanyUnique": false,
+  "TargetTableNumber": 64,
+  "TargetTableName": "Zemlak, Marquardt and Okuneva",
+  "Completed": false,
+  "LeftSelectionId": 594,
+  "RightSelectionId": 889,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Heathcote, Pacocha and Lockman",
-  "ShadowProviderName": "Berge Inc and Sons",
-  "ChartKey": "delectus",
-  "LastLoaded": "2014-04-24T17:54:08.5386928+02:00",
-  "LastLoadedBy": 154,
+  "MainProviderName": "Kling-Crooks",
+  "ShadowProviderName": "Block, Schoen and Zieme",
+  "ChartKey": "velit",
+  "LastLoaded": "2016-06-27T03:45:28.6546813+02:00",
+  "LastLoadedBy": 325,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-07-12T17:54:08.5386928+02:00",
-  "LastMembershipChangeBy": 697,
+  "LastMembershipChange": "2013-02-04T03:45:28.6546813+01:00",
+  "LastMembershipChangeBy": 651,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "repellat",
-  "MailingsProviderName": "Bashirian-Monahan",
-  "DashboardTileDefinitionId": 359,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Haag LLC",
+  "DashboardTileDefinitionId": 851,
   "VisibleFor": [
     {
-      "VisibleId": 356,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldType": "System.String",
+          "FieldLength": 750
         }
       }
     },
     {
-      "VisibleId": 356,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldType": "System.String",
+          "FieldLength": 750
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Mon, 06 Nov 2006 17:54:08 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   },
   "_Links": {

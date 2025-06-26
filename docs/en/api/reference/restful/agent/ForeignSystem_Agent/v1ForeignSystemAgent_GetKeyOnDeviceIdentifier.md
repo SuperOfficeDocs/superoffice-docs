@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis, Stanton and Cartwright",
-  "DeviceName": "Terry-Crooks",
-  "DeviceIdentifier": "reiciendis",
-  "KeyName": "Quigley-Schamberger",
-  "TableName": "Carroll-Cronin",
-  "RecordId": 790
+  "ApplicationName": "Ebert-Funk",
+  "DeviceName": "Metz-Sipes",
+  "DeviceIdentifier": "impedit",
+  "KeyName": "Aufderhar-Ryan",
+  "TableName": "Schiller, Kulas and Purdy",
+  "RecordId": 349
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestias",
-  "Value": "minus",
-  "RecordId": 803,
-  "CreatedDate": "1999-05-15T17:54:03.1639551+02:00",
-  "UpdatedDate": "2001-05-13T17:54:03.1639551+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "ab",
-  "TableName": "Schroeder, Ruecker and Hand",
+  "Key": "nam",
+  "Value": "ad",
+  "RecordId": 438,
+  "CreatedDate": "2006-08-28T03:45:23.4829546+02:00",
+  "UpdatedDate": "2017-05-29T03:45:23.4829546+02:00",
+  "UpdatedBy": "eum",
+  "CreatedBy": "quae",
+  "TableName": "Armstrong, Crist and Kling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 129
     }
   }
 }

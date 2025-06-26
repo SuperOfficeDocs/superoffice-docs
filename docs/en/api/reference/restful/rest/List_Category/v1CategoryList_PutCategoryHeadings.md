@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 921,
-    "Name": "Wehner, Rogahn and Ryan",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 184,
-    "UdListDefinitionId": 775
+    "HeadingId": 464,
+    "Name": "Schmeler Group",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "Rank": 209,
+    "UdListDefinitionId": 316
   },
   {
-    "HeadingId": 921,
-    "Name": "Wehner, Rogahn and Ryan",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 184,
-    "UdListDefinitionId": 775
+    "HeadingId": 464,
+    "Name": "Schmeler Group",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "Rank": 209,
+    "UdListDefinitionId": 316
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 288,
-    "Name": "Buckridge, Von and Blick",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 934,
-    "UdListDefinitionId": 659,
+    "HeadingId": 265,
+    "Name": "Veum Group",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "Rank": 866,
+    "UdListDefinitionId": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 837
       }
     }
   }

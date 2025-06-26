@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=earum
-GET /api/v1/Relation?$top=997
-GET /api/v1/Relation?$skip=214
+GET /api/v1/Relation?$entities=corporis
+GET /api/v1/Relation?$top=889
+GET /api/v1/Relation?$skip=116
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=id
+GET /api/v1/Relation?$context=aliquid
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sequi",
+  "odata.nextLink": "aliquam",
   "value": [
     {
-      "PrimaryKey": 4469,
-      "EntityName": "sale",
-      "saleId": 4469,
-      "contactId": 7788,
-      "name": "Cormier Inc and Sons"
+      "PrimaryKey": 849,
+      "EntityName": "person",
+      "personId": 849,
+      "fullName": "Asha Ledner"
     },
     {
-      "PrimaryKey": 7586,
-      "EntityName": "sale",
-      "saleId": 7586,
-      "contactId": 6990,
-      "name": "Williamson LLC"
+      "PrimaryKey": 9582,
+      "EntityName": "person",
+      "personId": 9582,
+      "fullName": "Mrs. Rodrick Callie Mohr DVM"
     }
   ]
 }

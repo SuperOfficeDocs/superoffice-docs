@@ -92,7 +92,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=personId,firstName,associateDbId
+GET /api/v1/archive/InternalUsers?$select=userplan,superoffice_ten-marketing,firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

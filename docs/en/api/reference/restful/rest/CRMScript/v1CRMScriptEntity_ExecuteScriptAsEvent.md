@@ -98,40 +98,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "magnam",
-    "InputValues2": "nesciunt"
+    "InputValues1": "enim",
+    "InputValues2": "qui"
   },
-  "BlockExecution": false,
-  "NavigateTo": "neque",
-  "Message": "quaerat",
-  "ShowDialog": "perspiciatis",
+  "BlockExecution": true,
+  "NavigateTo": "ad",
+  "Message": "rem",
+  "ShowDialog": "reiciendis",
   "OutputValues": {
-    "OutputValues1": "accusamus",
+    "OutputValues1": "quia",
     "OutputValues2": "vel"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "voluptatibus"
+    "StateValues1": "veritatis",
+    "StateValues2": "accusantium"
   },
-  "Exception": "blanditiis",
+  "Exception": "distinctio",
   "ParserValues": {
-    "ParserValues1": "qui",
-    "ParserValues2": "repellendus"
+    "ParserValues1": "dolor",
+    "ParserValues2": "qui"
   },
   "CgiVariables": {
-    "CgiVariables1": "qui",
-    "CgiVariables2": "quos"
+    "CgiVariables1": "mollitia",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "reiciendis",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "minima",
-    "Headers2": "vel"
+    "Headers1": "et",
+    "Headers2": "sint"
   },
   "TraceExecution": false
 }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "cum",
-    "InputValues2": "libero"
+    "InputValues1": "aliquam",
+    "InputValues2": "consequatur"
   },
-  "BlockExecution": true,
-  "NavigateTo": "numquam",
-  "Message": "autem",
-  "ShowDialog": "corrupti",
+  "BlockExecution": false,
+  "NavigateTo": "sint",
+  "Message": "nisi",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "esse",
-    "OutputValues2": "qui"
+    "OutputValues1": "fugiat",
+    "OutputValues2": "provident"
   },
   "StateValues": {
-    "StateValues1": "ipsa",
-    "StateValues2": "dolores"
+    "StateValues1": "sint",
+    "StateValues2": "sint"
   },
-  "Exception": "eum",
+  "Exception": "modi",
   "ParserValues": {
-    "ParserValues1": "optio",
-    "ParserValues2": "quia"
+    "ParserValues1": "aut",
+    "ParserValues2": "laudantium"
   },
   "CgiVariables": {
-    "CgiVariables1": "aliquid",
-    "CgiVariables2": "aut"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "aperiam"
   },
-  "CgiContent": "sint",
+  "CgiContent": "rerum",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "animi"
+    "Headers1": "qui",
+    "Headers2": "aliquam"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 365
     }
   }
 }

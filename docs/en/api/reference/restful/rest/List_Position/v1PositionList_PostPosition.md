@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Boyle-Kunde",
-  "Tooltip": "tempora",
+  "Id": 261,
+  "Name": "Lubowitz Inc and Sons",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 47,
-  "Rank": 674
+  "UdListDefinitionId": 309,
+  "Rank": 84
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 192,
-  "Name": "Wiegand-Block",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "UdListDefinitionId": 136,
-  "Rank": 125,
+  "Id": 999,
+  "Name": "Prohaska LLC",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 213,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

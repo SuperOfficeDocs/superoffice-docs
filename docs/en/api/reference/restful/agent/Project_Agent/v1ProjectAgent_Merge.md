@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Project/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 288,
-  "DestinationProjectId": 433,
-  "ReplaceEmptyFieldsOnDestination": false
+  "SourceProjectId": 789,
+  "DestinationProjectId": 312,
+  "ReplaceEmptyFieldsOnDestination": true
 }
 ```
 

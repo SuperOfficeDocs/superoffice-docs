@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 517,
-    "Name": "Ziemann-Dietrich",
-    "Tooltip": "occaecati",
+    "HeadingId": 373,
+    "Name": "Murazik Inc and Sons",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 140,
-    "UdListDefinitionId": 165,
+    "Rank": 871,
+    "UdListDefinitionId": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 415
       }
     }
   }

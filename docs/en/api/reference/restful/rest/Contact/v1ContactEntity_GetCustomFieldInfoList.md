@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cassin-Schmitt",
-    "DisplayName": "Zulauf-Mitchell",
-    "Description": "Down-sized content-based software",
-    "ShortLabel": "dolorem",
+    "FieldName": "Dach Group",
+    "DisplayName": "Wisozk Inc and Sons",
+    "Description": "Multi-tiered exuding circuit",
+    "ShortLabel": "enim",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
+    "IsReadOnly": false,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 986,
-    "TemplateVariableName": "Jacobi Inc and Sons"
+    "Rank": 55,
+    "TemplateVariableName": "Bashirian Inc and Sons"
   }
 ]
 ```

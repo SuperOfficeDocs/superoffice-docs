@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 61,
-  "UniqueIdentifier": "tempore",
-  "Name": "Schmidt, Steuber and Steuber",
-  "Description": "Organized regional protocol",
-  "IncludeId": "quas",
-  "AccessKey": "voluptas",
-  "HierarchyId": 609,
-  "Source": "vel",
-  "SourceCode": "veniam",
+  "EjscriptId": 229,
+  "UniqueIdentifier": "amet",
+  "Name": "Glover-Mertz",
+  "Description": "Phased impactful complexity",
+  "IncludeId": "quod",
+  "AccessKey": "dolorum",
+  "HierarchyId": 161,
+  "Source": "voluptatem",
+  "SourceCode": "quaerat",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 375,
+  "HtmlOutput": 21,
   "Includes": [
-    983,
-    213
+    315,
+    279
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 481,
-      "LineNumberTo": 63,
-      "Delta": 485,
-      "IncludeId": "sunt",
+      "LineNumberFrom": 193,
+      "LineNumberTo": 742,
+      "Delta": 763,
+      "IncludeId": "dolores",
       "IncludedFrom": [
-        "quia",
-        "voluptas"
+        "ratione",
+        "ipsa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-01-23T17:54:08.1324619+01:00",
-  "RegisteredAssociateId": 269,
-  "Updated": "2002-04-26T17:54:08.1324619+02:00",
-  "UpdatedAssociateId": 71,
+  "Registered": "2021-09-05T03:45:28.2955692+02:00",
+  "RegisteredAssociateId": 753,
+  "Updated": "2011-01-19T03:45:28.2955692+01:00",
+  "UpdatedAssociateId": 387,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 490
     }
   }
 }

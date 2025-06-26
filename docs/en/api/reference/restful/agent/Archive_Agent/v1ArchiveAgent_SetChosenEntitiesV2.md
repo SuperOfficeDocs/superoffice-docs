@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Tromp-Barton",
-  "ProviderName": "Gleichner-Dicki",
-  "Context": "error",
-  "OwnerKeys": "perspiciatis",
+  "GuiName": "Parker-Moore",
+  "ProviderName": "Armstrong Inc and Sons",
+  "Context": "repellat",
+  "OwnerKeys": "est",
   "Entities": [
-    "aut",
-    "quia"
+    "sunt",
+    "dignissimos"
   ]
 }
 ```

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Koelpin, Fritsch and Ledner"
+  "UserName": "Schaden, Davis and Stanton"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 24,
-  "Name": "Kiehn LLC",
-  "Rank": 7,
-  "Tooltip": "ut",
+  "AssociateId": 143,
+  "Name": "Abshire Group",
+  "Rank": 744,
+  "Tooltip": "sunt",
   "LicenseOwners": [
     {
-      "Name": "Bosco, Littel and Nienow",
-      "Description": "Reduced background productivity",
+      "Name": "Yundt LLC",
+      "Description": "Intuitive fresh-thinking extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 616
         }
       }
     },
     {
-      "Name": "Bosco, Littel and Nienow",
-      "Description": "Reduced background productivity",
+      "Name": "Yundt LLC",
+      "Description": "Intuitive fresh-thinking extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 616
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "repellat",
-      "Tooltip": "quae",
-      "Id": 41,
-      "Rank": 548,
-      "Deleted": false,
+      "Value": "alias",
+      "Tooltip": "optio",
+      "Id": 263,
+      "Rank": 269,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldType": "System.String",
+          "FieldLength": 611
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-02-08T17:54:03.8826694+01:00",
-  "Lastlogout": "2002-04-27T17:54:03.8826694+02:00",
-  "EjUserId": 995,
-  "RequestSignature": "accusamus",
+  "Lastlogin": "2002-10-22T03:45:24.1704335+02:00",
+  "Lastlogout": "2021-04-06T03:45:24.1704335+02:00",
+  "EjUserId": 689,
+  "RequestSignature": "ea",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "qui",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "et",
-      "DisplayValue": "qui",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
-        }
-      }
-    }
-  ],
-  "UserName": "Huels-Rice",
-  "TicketCategories": [
-    {
-      "Id": 323,
-      "Name": "Herman, Haag and Schroeder",
-      "ToolTip": "Natus assumenda voluptatibus nemo enim sint.",
-      "Deleted": true,
-      "Rank": 871,
-      "Type": "voluptatem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ut",
-      "ColorBlock": 771,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "sit",
-      "FullName": "Sheldon Stanton",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 657
-        }
-      }
-    }
-  ],
-  "NickName": "Padberg-Murphy",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "numquam",
-    "ExtraFields2": "dolorem"
-  },
-  "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "laudantium"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Dach-Nicolas",
-      "DisplayName": "Yundt-Skiles",
-      "Description": "Synergistic next generation flexibility",
-      "ToolTip": "A repellat placeat et doloremque qui temporibus.",
-      "Actions": "Implicit",
-      "ActionData": "natus",
+      "Value": "quaerat",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 594
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quaerat",
+      "DisplayValue": "sit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 594
+        }
+      }
+    }
+  ],
+  "UserName": "Corkery, Berge and Gerlach",
+  "TicketCategories": [
+    {
+      "Id": 865,
+      "Name": "Nienow-Spinka",
+      "ToolTip": "Dignissimos voluptatem aliquam vel.",
+      "Deleted": false,
+      "Rank": 833,
+      "Type": "earum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "assumenda",
+      "ColorBlock": 494,
+      "ExtraInfo": "non",
+      "StyleHint": "voluptatem",
+      "FullName": "Dr. Herta Keira Smitham",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 58
+        }
+      }
+    }
+  ],
+  "NickName": "Dooley, Bednar and Padberg",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "sit",
+    "ExtraFields2": "sit"
+  },
+  "CustomFields": {
+    "CustomFields1": "sint",
+    "CustomFields2": "nulla"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kihn, Gleichner and Beier",
+      "DisplayName": "Schiller LLC",
+      "Description": "Pre-emptive object-oriented forecast",
+      "ToolTip": "Ut quasi dolor.",
+      "Actions": "Implicit",
+      "ActionData": "pariatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 500
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Schmitt-Simonis",
-  "Tooltip": "a",
+  "Id": 563,
+  "Name": "Mills, Kunde and Barton",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 583,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
+  "Rank": 752,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 268,
-  "Name": "Casper-Gerhold",
-  "Tooltip": "quas",
+  "Id": 948,
+  "Name": "Konopelski Group",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 547,
+  "Rank": 865,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 938,
-  "SourcePersonId": 599,
-  "DestinationContactId": 69,
-  "DestinationPersonId": 934,
-  "RelationId": 782,
-  "Comment": "earum",
-  "RelationDefinitionId": 269,
-  "Reversed": 551,
-  "UpdatedDate": "2002-01-13T17:54:03.5389365+01:00",
-  "CreatedDate": "2005-05-07T17:54:03.5389365+02:00",
+  "SourceContactId": 627,
+  "SourcePersonId": 231,
+  "DestinationContactId": 252,
+  "DestinationPersonId": 112,
+  "RelationId": 467,
+  "Comment": "est",
+  "RelationDefinitionId": 158,
+  "Reversed": 374,
+  "UpdatedDate": "2000-12-15T03:45:23.8423206+01:00",
+  "CreatedDate": "2018-05-09T03:45:23.8423206+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dietrich Group",
-  "SourcePersonName": "Howe Group",
-  "DestinationContactName": "Weber Group",
-  "DestinationPersonName": "Klein-Halvorson",
-  "ActiveText": "quod",
-  "PassiveText": "similique",
+  "SourceContactName": "Deckow Inc and Sons",
+  "SourcePersonName": "Marvin-Langworth",
+  "DestinationContactName": "Walker-Abbott",
+  "DestinationPersonName": "Roob Inc and Sons",
+  "ActiveText": "rerum",
+  "PassiveText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 483
     }
   }
 }

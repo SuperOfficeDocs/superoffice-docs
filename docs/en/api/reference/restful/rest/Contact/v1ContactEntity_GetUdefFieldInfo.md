@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 426,
-  "ColumnId": 283,
-  "FieldDefault": "blanditiis",
-  "FieldHeight": 154,
-  "FieldLabel": "vel",
-  "FieldLeft": 947,
-  "FieldTop": 7,
+  "UDefFieldId": 517,
+  "ColumnId": 447,
+  "FieldDefault": "possimus",
+  "FieldHeight": 905,
+  "FieldLabel": "aliquid",
+  "FieldLeft": 315,
+  "FieldTop": 238,
   "FieldType": "Checkbox",
-  "FieldWidth": 717,
-  "FormatMask": "dolorem",
+  "FieldWidth": 293,
+  "FormatMask": "corporis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 367,
-  "LabelLeft": 920,
-  "LabelTop": 234,
-  "LabelWidth": 712,
-  "LastVersionId": 709,
-  "ListTableId": 581,
+  "LabelHeight": 878,
+  "LabelLeft": 68,
+  "LabelTop": 888,
+  "LabelWidth": 146,
+  "LastVersionId": 479,
+  "ListTableId": 910,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 506,
-  "ProgId": "aliquam",
-  "IsReadOnly": false,
-  "ShortLabel": "distinctio",
-  "TabOrder": 551,
-  "TextLength": 464,
-  "Tooltip": "quis",
-  "UdefIdentity": 354,
-  "UDListDefinitionId": 570,
+  "Page1LineNo": 474,
+  "ProgId": "est",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 26,
+  "TextLength": 419,
+  "Tooltip": "saepe",
+  "UdefIdentity": 225,
+  "UDListDefinitionId": 302,
   "Justification": "Center",
-  "Version": 703,
-  "TemplateVariableName": "Kilback Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Stoltenberg, Doyle and Klocko",
+  "Version": 576,
+  "TemplateVariableName": "Brekke, Torp and Schneider",
+  "HasBeenPublished": false,
+  "MdoListName": "Reichel LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 854
     }
   }
 }

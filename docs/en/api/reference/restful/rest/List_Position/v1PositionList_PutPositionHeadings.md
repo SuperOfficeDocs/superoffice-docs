@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 38,
-    "Name": "Feil-Kertzmann",
-    "Tooltip": "fuga",
+    "HeadingId": 593,
+    "Name": "Swaniawski, Howe and Kuvalis",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 623,
-    "UdListDefinitionId": 504
+    "Rank": 864,
+    "UdListDefinitionId": 892
   },
   {
-    "HeadingId": 38,
-    "Name": "Feil-Kertzmann",
-    "Tooltip": "fuga",
+    "HeadingId": 593,
+    "Name": "Swaniawski, Howe and Kuvalis",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 623,
-    "UdListDefinitionId": 504
+    "Rank": 864,
+    "UdListDefinitionId": 892
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 588,
-    "Name": "Bayer, Huels and Heaney",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "Rank": 638,
-    "UdListDefinitionId": 252,
+    "HeadingId": 606,
+    "Name": "Wintheiser, Veum and Bosco",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 616,
+    "UdListDefinitionId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 938
       }
     }
   }

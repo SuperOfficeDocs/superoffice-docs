@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 267,
-    "Name": "Cormier Group",
-    "Tooltip": "sequi",
-    "SaveInDb": 174,
-    "Filename": "rem",
-    "DefaultOref": "tempore",
+    "DocumentTemplateId": 992,
+    "Name": "Johns, Reichert and Corwin",
+    "Tooltip": "facilis",
+    "SaveInDb": 668,
+    "Filename": "perferendis",
+    "DefaultOref": "veniam",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 581,
-    "IntentId": 312,
-    "IsDefaultPublished": false,
-    "Rank": 822,
-    "LoadTemplateFromPlugin": 330,
-    "MimeType": "maxime",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 513,
+    "AutoeventId": 335,
+    "IntentId": 294,
+    "IsDefaultPublished": true,
+    "Rank": 190,
+    "LoadTemplateFromPlugin": 819,
+    "MimeType": "dicta",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 463,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "ryder_kessler@stracke.biz",
+    "EmailSubject": "melba_pfeffer@kassulke.biz",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "abraham@pouros.com",
+    "SenderEmailAddress": "neil.dickens@okon.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 464
       }
     }
   }

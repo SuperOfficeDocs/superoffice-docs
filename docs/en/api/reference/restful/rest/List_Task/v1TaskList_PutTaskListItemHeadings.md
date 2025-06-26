@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Moen Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 777,
-    "UdListDefinitionId": 702
+    "HeadingId": 418,
+    "Name": "Oberbrunner-Emmerich",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 54,
+    "UdListDefinitionId": 651
   },
   {
-    "HeadingId": 327,
-    "Name": "Moen Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 777,
-    "UdListDefinitionId": 702
+    "HeadingId": 418,
+    "Name": "Oberbrunner-Emmerich",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 54,
+    "UdListDefinitionId": 651
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 692,
-    "Name": "Boyle Group",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 257,
-    "UdListDefinitionId": 355,
+    "HeadingId": 811,
+    "Name": "Borer, Conn and Volkman",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "Rank": 363,
+    "UdListDefinitionId": 675,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 678
       }
     }
   }

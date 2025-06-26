@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    495,
-    634
+    741,
+    959
   ],
-  "MoveToFolder": "eligendi"
+  "MoveToFolder": "voluptatum"
 }
 ```
 

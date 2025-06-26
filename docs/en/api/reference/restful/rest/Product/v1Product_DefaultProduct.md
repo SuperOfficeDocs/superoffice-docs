@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 394,
-  "ERPProductKey": "dolorum",
-  "ERPPriceListKey": "iure",
-  "Name": "Wisozk-Beier",
-  "Description": "Innovative dynamic array",
-  "Code": "quos",
-  "PriceUnit": "a",
-  "QuantityUnit": "quod",
-  "IsSubscription": true,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 9232.764,
-  "ItemNumber": "972798",
+  "ProductId": 843,
+  "ERPProductKey": "tempore",
+  "ERPPriceListKey": "assumenda",
+  "Name": "O'Reilly-Grimes",
+  "Description": "Horizontal bottom-line local area network",
+  "Code": "et",
+  "PriceUnit": "sapiente",
+  "QuantityUnit": "doloribus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 9994.326,
+  "ItemNumber": "891443",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illum",
-  "ProductTypeKey": "quisquam",
-  "VAT": 25987.128,
-  "VATInfo": "nesciunt",
-  "UnitCost": 24257.16,
-  "UnitMinimumPrice": 4067.932,
-  "UnitListPrice": 28933.088,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "perspiciatis",
+  "VAT": 10329.663999999999,
+  "VATInfo": "dolor",
+  "UnitCost": 21176.438,
+  "UnitMinimumPrice": 5951.4659999999994,
+  "UnitListPrice": 2557.344,
   "InAssortment": false,
-  "Supplier": "neque",
-  "SupplierCode": "dicta",
-  "Rights": "et",
-  "Rule": "vero",
+  "Supplier": "illo",
+  "SupplierCode": "quo",
+  "Rights": "ut",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "Bartell, Reichert and Anderson",
-      "Value": "et",
+      "Name": "Dibbert, Kihn and Wintheiser",
+      "Value": "beatae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     },
     {
-      "Name": "Bartell, Reichert and Anderson",
-      "Value": "et",
+      "Name": "Dibbert, Kihn and Wintheiser",
+      "Value": "beatae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldType": "System.String",
+          "FieldLength": 770
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "dolor",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "veritatis",
-  "ExtraField4": "commodi",
-  "ExtraField5": "et",
-  "InStock": 3632.306,
+  "RawExtraInfo": "repudiandae",
+  "ExtraField1": "atque",
+  "ExtraField2": "eaque",
+  "ExtraField3": "error",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "quos",
+  "InStock": 9022.786,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

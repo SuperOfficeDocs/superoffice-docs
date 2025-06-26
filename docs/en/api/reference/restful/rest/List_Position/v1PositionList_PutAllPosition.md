@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Reichert-Barrows",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "UdListDefinitionId": 83,
-    "Rank": 260
+    "Id": 526,
+    "Name": "Schuppe, Bode and Kassulke",
+    "Tooltip": "aspernatur",
+    "Deleted": true,
+    "UdListDefinitionId": 796,
+    "Rank": 87
   },
   {
-    "Id": 607,
-    "Name": "Reichert-Barrows",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "UdListDefinitionId": 83,
-    "Rank": 260
+    "Id": 526,
+    "Name": "Schuppe, Bode and Kassulke",
+    "Tooltip": "aspernatur",
+    "Deleted": true,
+    "UdListDefinitionId": 796,
+    "Rank": 87
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Gottlieb-Ullrich",
-    "Tooltip": "nesciunt",
+    "Id": 754,
+    "Name": "Grady Group",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 269,
-    "Rank": 188,
+    "UdListDefinitionId": 989,
+    "Rank": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldLength": 438
       }
     }
   }

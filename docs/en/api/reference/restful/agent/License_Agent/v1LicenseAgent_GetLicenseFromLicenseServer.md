@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Leffler, Spencer and O'Reilly"
+  "OwnerName": "Koss-Hagenes"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 360,
-      "NumberOfLicensesFree": 238,
-      "NumberOfLicensesAdded": 359,
-      "NumberOfLicensesNewTotal": 564,
-      "NumberOfLicensesNewFree": 359,
-      "NumberOfLicensesTotal": 507
+      "NumberOfLicensesInUse": 851,
+      "NumberOfLicensesFree": 646,
+      "NumberOfLicensesAdded": 791,
+      "NumberOfLicensesNewTotal": 465,
+      "NumberOfLicensesNewFree": 570,
+      "NumberOfLicensesTotal": 915
     }
   ],
-  "AccumulatedNextCheckDate": "2024-12-16T17:54:03.1795788+01:00"
+  "AccumulatedNextCheckDate": "2008-01-26T03:45:23.498579+01:00"
 }
 ```

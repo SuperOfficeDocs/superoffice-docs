@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=891
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=496
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 40,
-  "BlobSize": 945,
-  "Description": "Organized object-oriented forecast",
-  "ExtraInfo": "dolorem",
+  "BlobId": 192,
+  "BlobSize": 20,
+  "Description": "Persistent static monitoring",
+  "ExtraInfo": "recusandae",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "recusandae",
-  "OriginalSize": 536,
-  "CreatedDate": "2011-11-29T17:54:02.6639794+01:00",
-  "UpdatedDate": "2008-06-20T17:54:02.6639794+02:00",
+  "MimeType": "est",
+  "OriginalSize": 23,
+  "CreatedDate": "2017-07-22T03:45:22.9829669+02:00",
+  "UpdatedDate": "2019-10-24T03:45:22.9829669+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   }
 }

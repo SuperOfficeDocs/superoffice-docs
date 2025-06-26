@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 288,
-  "Name": "McCullough, Reilly and Boyle"
+  "AssociateId": 870,
+  "Name": "Ondricka, Ebert and Walker"
 }
 ```

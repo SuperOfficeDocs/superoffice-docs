@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 27,
-  "GroupType": 174,
-  "StartTime": "2000-11-23T17:54:02.3827433+01:00",
-  "EndTime": "2008-03-18T17:54:02.3827433+01:00",
-  "Count": 219
+  "GroupId": 151,
+  "GroupType": 424,
+  "StartTime": "2021-06-02T03:45:22.7017267+02:00",
+  "EndTime": "2025-03-29T03:45:22.7017267+01:00",
+  "Count": 702
 }
 ```
 
@@ -150,66 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 987,
-    "StartDate": "2007-03-02T17:54:02.3827433+01:00",
-    "EndDate": "2007-07-25T17:54:02.3827433+02:00",
+    "AppointmentId": 218,
+    "StartDate": "2000-09-07T03:45:22.7017267+02:00",
+    "EndDate": "1998-10-04T03:45:22.7017267+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquam",
-    "AssociateFullName": "Mr. Norbert Kelly Nienow Jr.",
-    "ContactName": "Murray LLC",
-    "Description": "Re-contextualized zero administration local area network",
-    "PersonFullName": "Araceli Anna Feest Jr.",
-    "PersonId": 437,
-    "ContactId": 112,
-    "ProjectId": 106,
-    "ProjectName": "Robel, Monahan and Hagenes",
+    "Task": "saepe",
+    "AssociateFullName": "Mrs. Gaetano Lucienne Bailey I",
+    "ContactName": "Crist LLC",
+    "Description": "Business-focused tertiary benchmark",
+    "PersonFullName": "Ashly Gottlieb",
+    "PersonId": 175,
+    "ContactId": 429,
+    "ProjectId": 712,
+    "ProjectName": "Ruecker Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 31,
-    "ColorIndex": 198,
+    "AssociateId": 733,
+    "ColorIndex": 62,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 992,
-    "PriorityName": "Thompson, Roob and Champlin",
+    "PriorityId": 197,
+    "PriorityName": "Wilkinson, Hammes and Jakubowski",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2003-03-14T17:54:02.3827433+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2001-09-07T03:45:22.7017267+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2024-01-05T17:54:02.3827433+01:00",
-    "RecurringEndDate": "2009-08-25T17:54:02.3827433+02:00",
-    "MotherId": 989,
-    "AssignedBy": 870,
-    "AssignedByFullName": "Mrs. Vaughn Seth Collier PhD",
+    "RecurringStartDate": "2004-07-18T03:45:22.7017267+02:00",
+    "RecurringEndDate": "1999-05-03T03:45:22.7017267+02:00",
+    "MotherId": 719,
+    "AssignedBy": 579,
+    "AssignedByFullName": "Hyman Wolf",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "est",
-    "SaleId": 298,
-    "SaleName": "Hand-Rempel",
-    "AssociateName": "Altenwerth Inc and Sons",
-    "CreatedDate": "2020-10-09T17:54:02.3827433+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Willow Carroll",
-    "CreatedByAssociateId": 968,
+    "Location": "autem",
+    "AlarmLeadTime": "et",
+    "SaleId": 202,
+    "SaleName": "Kerluke, Jaskolski and Beier",
+    "AssociateName": "Walker-Franecki",
+    "CreatedDate": "2006-04-07T03:45:22.7017267+02:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Mrs. Pierce Rice I",
+    "CreatedByAssociateId": 290,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 77,
-    "Title": "aliquid",
-    "Agenda": "quia",
-    "InternalNotes": "dolore",
+    "PreferredTZLocation": 603,
+    "Title": "qui",
+    "Agenda": "molestias",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

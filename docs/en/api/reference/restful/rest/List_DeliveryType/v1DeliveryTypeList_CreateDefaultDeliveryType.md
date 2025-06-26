@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Name": "Russel Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 607,
-  "Rank": 961,
+  "Id": 148,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 201,
+  "Rank": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

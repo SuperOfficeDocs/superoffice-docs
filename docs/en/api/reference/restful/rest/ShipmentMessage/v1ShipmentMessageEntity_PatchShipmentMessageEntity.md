@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "pariatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "pariatur",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 527,
-  "PlainMessage": "beatae",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "quaerat",
-  "Description": "Robust 6th generation hub",
-  "Subject": "ut",
-  "FolderId": 328,
-  "HeaderField": "sit",
-  "Design": "sit",
+  "ShipmentMessageId": 835,
+  "PlainMessage": "soluta",
+  "HtmlMessage": "quos",
+  "SmsMessage": "delectus",
+  "Description": "Down-sized cohesive groupware",
+  "Subject": "dolor",
+  "FolderId": 65,
+  "HeaderField": "nisi",
+  "Design": "nobis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Optimized 5th generation protocol",
-  "AccessKey": "iure",
-  "DocumentMessage": 988,
-  "Registered": "2011-10-24T17:54:08.5543174+02:00",
-  "RegisteredAssociateId": 95,
-  "Updated": "2011-03-11T17:54:08.5543174+01:00",
-  "UpdatedAssociateId": 486,
-  "UpdatedCount": 205,
+  "LongDescription": "Synchronised intermediate utilisation",
+  "AccessKey": "distinctio",
+  "DocumentMessage": 868,
+  "Registered": "2004-10-04T03:45:28.6546813+02:00",
+  "RegisteredAssociateId": 525,
+  "Updated": "2006-10-22T03:45:28.6546813+02:00",
+  "UpdatedAssociateId": 561,
+  "UpdatedCount": 537,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 868
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

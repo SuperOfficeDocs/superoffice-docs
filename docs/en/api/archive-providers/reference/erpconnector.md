@@ -36,7 +36,7 @@ Archive of ERP Connectors, used by the ERP Integrator Server
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpConnector?$select=registeredBy,url,name
+GET /api/v1/archive/ErpConnector?$select=url,name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

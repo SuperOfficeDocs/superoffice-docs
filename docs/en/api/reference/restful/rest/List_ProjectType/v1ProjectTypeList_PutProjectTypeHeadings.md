@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 299,
-    "Name": "Kirlin-Blanda",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "Rank": 993,
-    "UdListDefinitionId": 637
+    "HeadingId": 52,
+    "Name": "Crooks, Hegmann and Mante",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 405,
+    "UdListDefinitionId": 407
   },
   {
-    "HeadingId": 299,
-    "Name": "Kirlin-Blanda",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "Rank": 993,
-    "UdListDefinitionId": 637
+    "HeadingId": 52,
+    "Name": "Crooks, Hegmann and Mante",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 405,
+    "UdListDefinitionId": 407
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Terry Inc and Sons",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 790,
-    "UdListDefinitionId": 512,
+    "HeadingId": 834,
+    "Name": "Jacobs-Beer",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 173,
+    "UdListDefinitionId": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 570
       }
     }
   }

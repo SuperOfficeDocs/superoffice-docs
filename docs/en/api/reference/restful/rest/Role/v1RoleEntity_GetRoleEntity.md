@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 497,
-  "Name": "Miller Inc and Sons",
-  "Tooltip": "mollitia",
+  "RoleId": 790,
+  "Name": "Terry-Huel",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 531,
-  "Rank": 955,
-  "Created": "2021-01-10T17:54:08.4136991+01:00",
-  "UseCategories": 112,
+  "Deleted": 913,
+  "Rank": 366,
+  "Created": "2017-01-17T03:45:28.5296817+01:00",
+  "UseCategories": 684,
   "CreatedBy": null,
-  "Updated": "2013-08-24T17:54:08.4136991+02:00",
+  "Updated": "2023-02-25T03:45:28.5296817+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldLength": 477
     }
   },
   "_Links": {

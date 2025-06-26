@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hermann Group",
-    "SaleDate": "2016-01-08T17:54:03.5858088+01:00",
-    "SaleId": 828,
-    "Probability": 648,
-    "Title": "incidunt",
-    "Amount": 19214.554,
-    "Currency": "ut",
-    "ProjectName": "Steuber-Stanton",
-    "AssociateFullName": "Ms. Cecilia Michaela Swift",
-    "Description": "Fully-configurable assymetric system engine",
+    "ContactName": "Cronin Group",
+    "SaleDate": "2013-03-29T03:45:23.8735682+01:00",
+    "SaleId": 383,
+    "Probability": 215,
+    "Title": "placeat",
+    "Amount": 18769.525999999998,
+    "Currency": "neque",
+    "ProjectName": "Luettgen, Murazik and Mann",
+    "AssociateFullName": "Ms. Brannon Hane",
+    "Description": "De-engineered web-enabled secured line",
     "Status": "Lost",
-    "WeightedAmount": 13510.673999999999,
-    "ProjectId": 721,
-    "EarningPercent": 6781.976,
-    "Earning": 15525.836,
-    "ContactId": 731,
-    "AssociateId": 845,
-    "PersonId": 414,
-    "SaleTypeId": 673,
-    "SaleTypeName": "Gutkowski Inc and Sons",
-    "PersonFullName": "Sadye Anderson",
+    "WeightedAmount": 5672.54,
+    "ProjectId": 817,
+    "EarningPercent": 23627.226,
+    "Earning": 17083.434,
+    "ContactId": 771,
+    "AssociateId": 303,
+    "PersonId": 25,
+    "SaleTypeId": 458,
+    "SaleTypeName": "O'Keefe-Olson",
+    "PersonFullName": "Magnolia Jewess",
     "Completed": "Completed",
-    "ActiveErpLinks": 658,
-    "NextDueDate": "2015-03-12T17:54:03.5858088+01:00",
-    "Number": "1638156",
+    "ActiveErpLinks": 371,
+    "NextDueDate": "2015-04-06T03:45:23.8735682+02:00",
+    "Number": "41982",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldType": "System.Int32",
+        "FieldLength": 218
       }
     }
   }

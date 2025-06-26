@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 184,
-    "Name": "Cole LLC",
-    "Description": "Multi-layered zero administration leverage",
+    "ProjectId": 487,
+    "Name": "Gusikowski Inc and Sons",
+    "Description": "Upgradable logistical algorithm",
     "URL": "http://www.example.com/",
-    "Type": "mollitia",
-    "AssociateId": 324,
-    "AssociateFullName": "Aniyah Shanahan",
-    "TypeId": 52,
-    "Updated": "2014-01-19T17:54:03.4920634+01:00",
-    "StatusId": 653,
-    "Status": "libero",
-    "TextId": 991,
-    "PublishTo": "2011-08-08T17:54:03.4920634+02:00",
-    "PublishFrom": "2020-11-23T17:54:03.4920634+01:00",
+    "Type": "maiores",
+    "AssociateId": 241,
+    "AssociateFullName": "Jackeline Medhurst",
+    "TypeId": 154,
+    "Updated": "2020-06-01T03:45:23.7798203+02:00",
+    "StatusId": 628,
+    "Status": "ea",
+    "TextId": 402,
+    "PublishTo": "1999-10-04T03:45:23.7798203+02:00",
+    "PublishFrom": "2001-07-05T03:45:23.7798203+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1378559",
-    "ActiveErpLinks": 810,
+    "ProjectNumber": "1400721",
+    "ActiveErpLinks": 359,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 647
       }
     }
   }

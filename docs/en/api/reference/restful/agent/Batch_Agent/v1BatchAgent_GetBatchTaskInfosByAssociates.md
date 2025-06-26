@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    222,
-    516
+    143,
+    307
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Murazik, Kautzer and Moen",
-    "AssociateId": 561,
-    "DetailsTable": 841,
-    "DetailsRecord": 328,
+    "Id": 290,
+    "Name": "Corkery-Ankunding",
+    "AssociateId": 632,
+    "DetailsTable": 345,
+    "DetailsRecord": 222,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aspernatur",
-      "ParameterObject2": "porro"
+      "ParameterObject1": "harum",
+      "ParameterObject2": "corporis"
     },
-    "LastStarted": "2015-10-22T17:54:02.6639794+02:00",
-    "Created": "2018-01-17T17:54:02.6639794+01:00",
-    "StartCount": 810,
-    "DatabaseSerialNumber": "974955",
-    "Context": "qui",
-    "Result": "repellendus",
+    "LastStarted": "2018-05-23T03:45:22.9829669+02:00",
+    "Created": "2017-01-05T03:45:22.9829669+01:00",
+    "StartCount": 404,
+    "DatabaseSerialNumber": "1377697",
+    "Context": "quam",
+    "Result": "voluptatem",
     "State": "All",
-    "Description": "Enterprise-wide zero administration groupware",
-    "Response": "consectetur",
-    "Request": "nam",
-    "ProgressDescription": "Decentralized explicit algorithm",
-    "ProgressPercent": 687,
-    "FileName": "Koch-Stamm",
+    "Description": "Reduced static toolset",
+    "Response": "ut",
+    "Request": "quam",
+    "ProgressDescription": "Networked multi-state hierarchy",
+    "ProgressPercent": 840,
+    "FileName": "McClure, Kub and Hahn",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

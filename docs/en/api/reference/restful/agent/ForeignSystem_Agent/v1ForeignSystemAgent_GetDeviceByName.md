@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kertzmann-Schulist",
-  "DeviceName": "Marvin, Kuhlman and Altenwerth"
+  "ApplicationName": "Wunsch, Mosciski and Keebler",
+  "DeviceName": "Zulauf Group"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 754,
-  "Name": "Funk Inc and Sons",
-  "CreatedDate": "2018-01-07T17:54:03.1639551+01:00",
-  "UpdatedDate": "2002-03-24T17:54:03.1639551+01:00",
-  "AssociateFullName": "Joanie Spinka DVM",
-  "CreatedBy": "nesciunt",
-  "UpdatedBy": "ad",
-  "DeviceIdentifier": "iusto",
-  "ForeignAppId": 86,
+  "ForeignDeviceId": 268,
+  "Name": "Kunde, Kuhic and Goyette",
+  "CreatedDate": "2003-02-06T03:45:23.4829546+01:00",
+  "UpdatedDate": "2011-09-19T03:45:23.4829546+02:00",
+  "AssociateFullName": "Heber Houston Mertz PhD",
+  "CreatedBy": "aliquam",
+  "UpdatedBy": "molestiae",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 662
     }
   }
 }

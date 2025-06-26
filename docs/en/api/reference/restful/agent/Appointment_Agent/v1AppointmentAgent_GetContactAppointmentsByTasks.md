@@ -132,17 +132,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 193,
-  "StartTime": "1998-09-01T17:54:02.3827433+02:00",
-  "EndTime": "2013-12-08T17:54:02.3827433+01:00",
-  "Count": 591,
+  "ContactId": 9,
+  "StartTime": "2013-07-29T03:45:22.6861022+02:00",
+  "EndTime": "2013-01-20T03:45:22.6861022+01:00",
+  "Count": 912,
   "TaskIds": [
-    286,
-    572
+    348,
+    281
   ]
 }
 ```
@@ -155,66 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 149,
-    "StartDate": "2015-02-08T17:54:02.3827433+01:00",
-    "EndDate": "2020-02-10T17:54:02.3827433+01:00",
+    "AppointmentId": 113,
+    "StartDate": "2011-04-01T03:45:22.6861022+02:00",
+    "EndDate": "2024-01-27T03:45:22.6861022+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quas",
-    "AssociateFullName": "Mr. Emory Hills Jr.",
-    "ContactName": "Dickinson Group",
-    "Description": "Multi-channelled object-oriented application",
-    "PersonFullName": "Cristobal Wyman",
-    "PersonId": 149,
-    "ContactId": 478,
-    "ProjectId": 302,
-    "ProjectName": "Kerluke Inc and Sons",
+    "Task": "asperiores",
+    "AssociateFullName": "Mrs. Fatima Price Mann I",
+    "ContactName": "Sawayn Inc and Sons",
+    "Description": "Configurable well-modulated matrix",
+    "PersonFullName": "Mr. Mariam Stanton III",
+    "PersonId": 448,
+    "ContactId": 450,
+    "ProjectId": 18,
+    "ProjectName": "Heller-Adams",
     "IsPublished": false,
-    "AssociateId": 734,
-    "ColorIndex": 11,
+    "AssociateId": 101,
+    "ColorIndex": 466,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 846,
-    "PriorityName": "Corkery-Cassin",
+    "PriorityId": 172,
+    "PriorityName": "Jacobs Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2013-02-15T17:54:02.3827433+01:00",
+    "ActiveDate": "2016-05-13T03:45:22.6861022+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-06-04T17:54:02.3827433+02:00",
-    "RecurringEndDate": "2000-07-30T17:54:02.3827433+02:00",
-    "MotherId": 701,
-    "AssignedBy": 866,
-    "AssignedByFullName": "Eva Diego Sauer V",
-    "RejectReason": "",
-    "Location": "exercitationem",
-    "AlarmLeadTime": "a",
-    "SaleId": 245,
-    "SaleName": "Hermann LLC",
-    "AssociateName": "Gutmann-Moore",
-    "CreatedDate": "2010-03-14T17:54:02.3827433+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Hayden Pagac",
-    "CreatedByAssociateId": 493,
+    "RecurringStartDate": "2000-01-28T03:45:22.6861022+01:00",
+    "RecurringEndDate": "2018-04-01T03:45:22.6861022+02:00",
+    "MotherId": 202,
+    "AssignedBy": 981,
+    "AssignedByFullName": "Jaydon Bartell II",
+    "RejectReason": "deliver bricks-and-clicks paradigms",
+    "Location": "in",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 925,
+    "SaleName": "Conroy Group",
+    "AssociateName": "Kessler-Roberts",
+    "CreatedDate": "2025-06-22T03:45:22.6861022+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Mathilde Torp",
+    "CreatedByAssociateId": 179,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 12,
-    "Title": "et",
-    "Agenda": "laborum",
-    "InternalNotes": "id",
+    "PreferredTZLocation": 666,
+    "Title": "odit",
+    "Agenda": "quibusdam",
+    "InternalNotes": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 28
       }
     }
   }

@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "velit",
-  "Id": 521,
-  "Rank": 41,
-  "Deleted": false,
+  "Value": "in",
+  "Tooltip": "eos",
+  "Id": 61,
+  "Rank": 23,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 685
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 223
+  "EntityId": 196
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 169,
-    "ConnectionName": "Jakubowski-VonRueden",
+    "ErpConnectionId": 233,
+    "ConnectionName": "Christiansen, Block and Christiansen",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "est",
-        "Rank": 801,
-        "DisplayName": "Bahringer, Cummings and Monahan",
-        "DisplayDescription": "Devolved empowering website",
+        "FieldKey": "ex",
+        "Rank": 163,
+        "DisplayName": "Hand-Oberbrunner",
+        "DisplayDescription": "Automated scalable projection",
         "FieldType": "Checkbox",
-        "ListName": "Reilly Inc and Sons",
-        "DefaultValue": "et",
-        "MaxLength": 688,
+        "ListName": "VonRueden Inc and Sons",
+        "DefaultValue": "hic",
+        "MaxLength": 853,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldType": "System.String",
+            "FieldLength": 485
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "iusto",
-      "voluptas"
+      "et",
+      "vitae"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 548
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 666,
-    "Name": "Hermiston, Bayer and Goodwin",
-    "Tooltip": "vel",
+    "WebPanelId": 563,
+    "Name": "Williamson, Keeling and Kris",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 891,
+    "Rank": 758,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Stiedemann Inc and Sons",
+    "ShowInStatusBar": true,
+    "WindowName": "Bode, Ryan and Collins",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 540,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "ut",
+    "Icon": 747,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

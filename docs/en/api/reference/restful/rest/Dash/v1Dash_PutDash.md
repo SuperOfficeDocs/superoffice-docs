@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 130,
-  "UniqueId": "inventore",
-  "Name": "Marquardt-Daugherty",
-  "Description": "Balanced modular productivity",
-  "AssociateId": 759,
-  "Columns": 22,
+  "DashboardId": 982,
+  "UniqueId": "temporibus",
+  "Name": "O'Kon Group",
+  "Description": "Cross-platform hybrid support",
+  "AssociateId": 40,
+  "Columns": 194,
   "Theme": null,
-  "VisibleForAll": 743,
+  "VisibleForAll": 160,
   "VisibleForAssociates": [
-    65,
-    922
+    686,
+    954
   ],
   "VisibleForGroups": [
-    708,
-    183
+    291,
+    50
   ],
-  "PinForAll": 611,
+  "PinForAll": 796,
   "PinForAssociates": [
-    279,
-    29
+    740,
+    324
   ],
   "PinForGroups": [
-    719,
-    282
+    224,
+    988
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 274,
-  "UniqueId": "dicta",
-  "Name": "Reinger, Corwin and Berge",
-  "Description": "Multi-lateral user-facing portal",
-  "AssociateId": 565,
-  "Columns": 497,
+  "DashboardId": 456,
+  "UniqueId": "sed",
+  "Name": "Schuster Group",
+  "Description": "Inverse bi-directional productivity",
+  "AssociateId": 649,
+  "Columns": 925,
   "Theme": null,
-  "VisibleForAll": 87,
+  "VisibleForAll": 874,
   "VisibleForAssociates": [
-    340,
-    779
+    165,
+    469
   ],
   "VisibleForGroups": [
-    94,
-    628
+    602,
+    258
   ],
-  "PinForAll": 989,
+  "PinForAll": 773,
   "PinForAssociates": [
-    184,
-    291
+    96,
+    253
   ],
   "PinForGroups": [
-    522,
-    253
+    116,
+    332
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   },
   "_Links": {

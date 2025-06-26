@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "commodi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-08-29T17:54:08.5076972+02:00",
-  "Amount": 4600.7119999999995,
-  "SaleId": 313,
-  "Earning": 14055.99,
-  "EarningPercent": 21408.354,
-  "Heading": "numquam",
-  "Number": "439093",
-  "Probability": 386,
-  "CreatedDate": "1999-12-21T17:54:08.5076972+01:00",
-  "UpdatedDate": "2010-10-07T17:54:08.5076972+02:00",
+  "Saledate": "2009-09-13T03:45:28.6081575+02:00",
+  "Amount": 8953.838,
+  "SaleId": 371,
+  "Earning": 26140.694,
+  "EarningPercent": 25742.676,
+  "Heading": "sed",
+  "Number": "881850",
+  "Probability": 560,
+  "CreatedDate": "2022-06-25T03:45:28.6081575+02:00",
+  "UpdatedDate": "2010-07-25T03:45:28.6081575+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 550,
+  "ActiveLinks": 12,
   "Links": [
     {
-      "EntityName": "Kerluke Inc and Sons",
-      "Id": 183,
-      "Description": "Profit-focused assymetric budgetary management",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 686
+      "EntityName": "Pagac, Stehr and Kreiger",
+      "Id": 859,
+      "Description": "Focused zero tolerance strategy",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 91
     },
     {
-      "EntityName": "Kerluke Inc and Sons",
-      "Id": 183,
-      "Description": "Profit-focused assymetric budgetary management",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 686
+      "EntityName": "Pagac, Stehr and Kreiger",
+      "Id": 859,
+      "Description": "Focused zero tolerance strategy",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 91
     }
   ],
-  "NextDueDate": "2001-02-05T17:54:08.5076972+01:00",
-  "Postit": "nulla",
+  "NextDueDate": "2004-08-02T03:45:28.6081575+02:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-05-23T17:54:08.5076972+02:00",
+  "ReopenDate": "2019-12-18T03:45:28.6234387+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Quitzon Inc and Sons",
-      "Comment": "aut",
-      "StakeholderRoleId": 211,
-      "CountryId": 450,
-      "PersonId": 594,
-      "EmailDescription": "karen_kerluke@dach.ca",
-      "EmailId": 639,
-      "EmailAddress": "jaden@bosco.biz",
-      "PhoneId": 143,
-      "ContactName": "Dare Group",
-      "ContactId": 905,
-      "SaleId": 951,
-      "Mrmrs": "possimus",
-      "Firstname": "Leon",
-      "MiddleName": "Auer-Ryan",
-      "Lastname": "Oberbrunner",
-      "SaleStakeholderId": 778,
-      "Rank": 43,
-      "Phone": "(876)431-1126"
+      "StakeholderRoleName": "Kuphal Inc and Sons",
+      "Comment": "amet",
+      "StakeholderRoleId": 762,
+      "CountryId": 542,
+      "PersonId": 332,
+      "EmailDescription": "vivien_jaskolski@lakinbernier.us",
+      "EmailId": 85,
+      "EmailAddress": "tremayne.schowalter@cruickshank.name",
+      "PhoneId": 513,
+      "ContactName": "Lubowitz-Rutherford",
+      "ContactId": 582,
+      "SaleId": 254,
+      "Mrmrs": "aperiam",
+      "Firstname": "Juliana",
+      "MiddleName": "Rosenbaum-Rutherford",
+      "Lastname": "Lesch",
+      "SaleStakeholderId": 551,
+      "Rank": 140,
+      "Phone": "945.915.4103 x325"
     }
   ],
-  "ActiveErpLinks": 260,
+  "ActiveErpLinks": 458,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Randal West DDS",
-    "SuperOffice:2": "Mr. Korbin Nikolaus"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "sequi"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2015-01-23T17:54:08.5076972+01:00",
-  "PublishTo": "2025-03-20T17:54:08.5076972+01:00",
-  "PublishFrom": "2002-09-12T17:54:08.5076972+02:00",
+  "PublishEventDate": "2024-02-11T03:45:28.6234387+01:00",
+  "PublishTo": "2000-06-15T03:45:28.6234387+02:00",
+  "PublishFrom": "2008-03-22T03:45:28.6234387+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 31,
+      "VisibleId": 26,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "omnis"
     },
     {
-      "VisibleId": 31,
+      "VisibleId": 26,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "omnis"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-11-17T17:54:08.5076972+01:00",
-  "Amount": 8013.638,
-  "SaleId": 975,
-  "Earning": 11918.601999999999,
-  "EarningPercent": 29979.843999999997,
-  "Heading": "vitae",
-  "Number": "1346310",
-  "Probability": 928,
-  "CreatedDate": "1999-05-06T17:54:08.5076972+02:00",
-  "UpdatedDate": "2010-02-22T17:54:08.5076972+01:00",
+  "Saledate": "2002-02-17T03:45:28.6234387+01:00",
+  "Amount": 12109.776,
+  "SaleId": 119,
+  "Earning": 13667.374,
+  "EarningPercent": 18456.126,
+  "Heading": "et",
+  "Number": "1650995",
+  "Probability": 362,
+  "CreatedDate": "2003-04-10T03:45:28.6234387+02:00",
+  "UpdatedDate": "2018-03-27T03:45:28.6234387+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 989,
+  "ActiveLinks": 349,
   "Links": [
     {
-      "EntityName": "Lynch-Prosacco",
-      "Id": 907,
-      "Description": "Cross-group homogeneous data-warehouse",
-      "ExtraInfo": "impedit",
-      "LinkId": 695,
+      "EntityName": "Senger LLC",
+      "Id": 817,
+      "Description": "Fully-configurable motivating database",
+      "ExtraInfo": "excepturi",
+      "LinkId": 807,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 685
         }
       }
     }
   ],
-  "NextDueDate": "2011-06-10T17:54:08.5076972+02:00",
-  "Postit": "et",
+  "NextDueDate": "2011-09-25T03:45:28.6234387+02:00",
+  "Postit": "natus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-09-04T17:54:08.5076972+02:00",
+  "ReopenDate": "2018-02-23T03:45:28.6234387+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gutkowski-Barton",
-      "Comment": "earum",
-      "StakeholderRoleId": 978,
-      "CountryId": 231,
-      "PersonId": 392,
-      "EmailDescription": "dortha@wisozk.name",
-      "EmailId": 11,
-      "EmailAddress": "favian_anderson@dubuque.uk",
-      "PhoneId": 202,
-      "ContactName": "Ortiz, Lesch and Trantow",
-      "ContactId": 969,
-      "SaleId": 76,
-      "Mrmrs": "at",
-      "Firstname": "Hardy",
-      "MiddleName": "Douglas, Jast and Hodkiewicz",
-      "Lastname": "Daugherty",
+      "StakeholderRoleName": "Simonis-Collier",
+      "Comment": "ea",
+      "StakeholderRoleId": 923,
+      "CountryId": 684,
+      "PersonId": 541,
+      "EmailDescription": "muriel_rempel@larkin.com",
+      "EmailId": 595,
+      "EmailAddress": "lorena@brekke.us",
+      "PhoneId": 256,
+      "ContactName": "Reichert, Leuschke and VonRueden",
+      "ContactId": 149,
+      "SaleId": 419,
+      "Mrmrs": "sed",
+      "Firstname": "Amos",
+      "MiddleName": "Wolff Group",
+      "Lastname": "Effertz",
       "SaleStakeholderId": 743,
-      "Rank": 817,
-      "Phone": "199.595.1923 x0990",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 940
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 327,
-  "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Bridie Romaguera"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "nulla"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "corporis"
-  },
-  "PublishEventDate": "2014-11-30T17:54:08.5076972+01:00",
-  "PublishTo": "2018-05-18T17:54:08.5076972+02:00",
-  "PublishFrom": "2013-04-23T17:54:08.5076972+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 811,
-      "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "Rank": 826,
+      "Phone": "1-266-876-6278",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 515
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 459,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Linnea Altenwerth",
+    "SuperOffice:2": "Tyrique Kozey"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ut",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "ducimus",
+    "CustomFields2": "optio"
+  },
+  "PublishEventDate": "2014-05-09T03:45:28.6234387+02:00",
+  "PublishTo": "2018-06-02T03:45:28.6234387+02:00",
+  "PublishFrom": "2023-03-17T03:45:28.6234387+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 324,
+      "Visibility": "All",
+      "DisplayValue": "labore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 951
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 324,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 951
         }
       }
     }
@@ -411,13 +411,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

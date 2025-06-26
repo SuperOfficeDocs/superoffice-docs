@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Barton LLC",
-    "Tooltip": "expedita",
+    "HeadingId": 24,
+    "Name": "Bergstrom, Crooks and Schinner",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 958,
-    "UdListDefinitionId": 641,
+    "Rank": 296,
+    "UdListDefinitionId": 996,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

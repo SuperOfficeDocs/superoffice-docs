@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 144
+    "Id": 785,
+    "Name": "Wisozk-Streich",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "UdListDefinitionId": 934,
+    "Rank": 2
   },
   {
-    "Id": 823,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 144
+    "Id": 785,
+    "Name": "Wisozk-Streich",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "UdListDefinitionId": 934,
+    "Rank": 2
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Stoltenberg-Bogisich",
-    "Tooltip": "et",
+    "Id": 465,
+    "Name": "Mitchell-Beatty",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 180,
+    "UdListDefinitionId": 137,
+    "Rank": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldType": "System.Int32",
+        "FieldLength": 995
       }
     }
   }

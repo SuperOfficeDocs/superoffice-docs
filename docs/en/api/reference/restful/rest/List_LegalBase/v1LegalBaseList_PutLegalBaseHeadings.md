@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 371,
-    "Name": "Mohr, Dare and Bergnaum",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 313
+    "HeadingId": 487,
+    "Name": "Deckow-Christiansen",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 404,
+    "UdListDefinitionId": 375
   },
   {
-    "HeadingId": 371,
-    "Name": "Mohr, Dare and Bergnaum",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 313
+    "HeadingId": 487,
+    "Name": "Deckow-Christiansen",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 404,
+    "UdListDefinitionId": 375
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 297,
-    "Name": "Powlowski, Schmidt and Monahan",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 656,
-    "UdListDefinitionId": 71,
+    "HeadingId": 931,
+    "Name": "Sauer-Koch",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 92,
+    "UdListDefinitionId": 575,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 848
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

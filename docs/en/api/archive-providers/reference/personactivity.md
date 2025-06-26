@@ -1272,7 +1272,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=contact/contactAssociate/assocTooltip,contact/contactAssociate/locationAddress,sale/credited,sale/saleNumber,sale/associate/assocTooltip
+GET /api/v1/archive/PersonActivity?$select=person/personBusiness,person/phone/formattedNumber,person/personAssociate/otherGroups,person/correspondingAssociate/mrMrs,contact/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

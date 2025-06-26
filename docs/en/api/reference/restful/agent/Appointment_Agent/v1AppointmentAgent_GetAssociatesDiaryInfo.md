@@ -104,11 +104,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    292,
-    161
+    445,
+    98
   ],
-  "StartTime": "2023-03-23T17:54:02.3983677+01:00",
-  "EndTime": "1998-04-05T17:54:02.3983677+02:00"
+  "StartTime": "2007-10-06T03:45:22.7017267+02:00",
+  "EndTime": "2012-05-27T03:45:22.7017267+02:00"
 }
 ```
 
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 895,
-    "AssociateId": 137,
-    "MotherId": 363,
-    "StartDate": "2021-05-12T17:54:02.3983677+02:00",
-    "EndDate": "2023-08-15T17:54:02.3983677+02:00",
+    "AppointmentId": 587,
+    "AssociateId": 815,
+    "MotherId": 607,
+    "StartDate": "2002-12-11T03:45:22.7017267+01:00",
+    "EndDate": "2011-04-23T03:45:22.7017267+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Windler-Barton",
-    "ContactName": "Hodkiewicz-Marvin",
-    "ProjectName": "Murphy LLC",
-    "Title": "quia",
-    "Agenda": "et",
+    "TaskName": "Ferry-McCullough",
+    "ContactName": "Klein, Larson and Keeling",
+    "ProjectName": "Gutkowski, Cassin and Kulas",
+    "Title": "doloribus",
+    "Agenda": "ut",
     "IsAllDay": true,
     "IsBusy": false,
-    "IsRecurring": false,
+    "IsRecurring": true,
     "IsVideoMeeting": false,
     "HasAlarm": false,
-    "IsCompleted": false,
+    "IsCompleted": true,
     "IsTentative": false,
-    "IsBookingMain": false,
-    "SendEmail": false,
+    "IsBookingMain": true,
+    "SendEmail": true,
     "AnySendEmail": false,
-    "IsPrivate": true,
+    "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Bartoletti LLC",
-    "IsBooking": false,
+    "PersonName": "Labadie-Wiegand",
+    "IsBooking": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 84
       }
     }
   }

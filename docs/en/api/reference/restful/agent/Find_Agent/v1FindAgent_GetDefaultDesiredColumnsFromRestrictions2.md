@@ -173,8 +173,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Altenwerth LLC",
-  "Restrictions": "ea"
+  "ProviderName": "Dare LLC",
+  "Restrictions": "aut"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Davis, Lemke and Runolfsson",
-    "DisplayTooltip": "impedit",
-    "DisplayType": "facilis",
-    "CanOrderBy": false,
-    "Name": "Mosciski-Schmidt",
+    "DisplayName": "Smith, Rippin and Sauer",
+    "DisplayTooltip": "sint",
+    "DisplayType": "vel",
+    "CanOrderBy": true,
+    "Name": "Herzog-Greenholt",
     "CanRestrictBy": true,
-    "RestrictionType": "dolorem",
-    "RestrictionListName": "Bauch, Greenfelder and Rolfson",
+    "RestrictionType": "suscipit",
+    "RestrictionListName": "Kautzer LLC",
     "IsVisible": false,
-    "ExtraInfo": "iure",
-    "Width": "distinctio",
-    "IconHint": "id",
-    "HeadingIconHint": "dolore"
+    "ExtraInfo": "consequatur",
+    "Width": "fuga",
+    "IconHint": "fugiat",
+    "HeadingIconHint": "impedit"
   }
 ]
 ```

@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=656
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=225
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "assumenda",
+  "SaleText": "blanditiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-12-20T17:54:03.5701847+01:00",
-  "Amount": 25316.451999999997,
-  "SaleId": 547,
-  "Earning": 18722.516,
-  "EarningPercent": 11862.19,
-  "Heading": "quia",
-  "Number": "1356912",
-  "Probability": 323,
-  "CreatedDate": "2024-11-23T17:54:03.5701847+01:00",
-  "UpdatedDate": "2005-04-14T17:54:03.5701847+02:00",
+  "Saledate": "2014-01-19T03:45:23.8735682+01:00",
+  "Amount": 5647.468,
+  "SaleId": 888,
+  "Earning": 5663.138,
+  "EarningPercent": 16002.204,
+  "Heading": "pariatur",
+  "Number": "1559146",
+  "Probability": 774,
+  "CreatedDate": "2020-12-01T03:45:23.8735682+01:00",
+  "UpdatedDate": "2019-09-03T03:45:23.8735682+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 316,
+  "ActiveLinks": 551,
   "Links": [
     {
-      "EntityName": "Rau-Conroy",
-      "Id": 740,
-      "Description": "Persistent logistical definition",
-      "ExtraInfo": "at",
-      "LinkId": 515,
+      "EntityName": "Botsford-Bogan",
+      "Id": 351,
+      "Description": "Realigned bottom-line system engine",
+      "ExtraInfo": "totam",
+      "LinkId": 683,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 592
         }
       }
     }
   ],
-  "NextDueDate": "2003-12-10T17:54:03.5701847+01:00",
-  "Postit": "repellat",
+  "NextDueDate": "2003-06-07T03:45:23.8735682+02:00",
+  "Postit": "aperiam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-03-10T17:54:03.5701847+01:00",
+  "ReopenDate": "2001-10-17T03:45:23.8735682+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Swift-Moen",
-      "Comment": "porro",
-      "StakeholderRoleId": 27,
-      "CountryId": 997,
-      "PersonId": 979,
-      "EmailDescription": "johnson@yundt.ca",
-      "EmailId": 213,
-      "EmailAddress": "hester_collins@dickens.info",
-      "PhoneId": 924,
-      "ContactName": "Greenfelder-Berge",
-      "ContactId": 203,
-      "SaleId": 401,
-      "Mrmrs": "nisi",
-      "Firstname": "Unique",
-      "MiddleName": "Lynch, Baumbach and Hammes",
-      "Lastname": "Maggio",
-      "SaleStakeholderId": 647,
-      "Rank": 875,
-      "Phone": "759-480-4891",
+      "StakeholderRoleName": "Murazik-O'Hara",
+      "Comment": "vero",
+      "StakeholderRoleId": 457,
+      "CountryId": 11,
+      "PersonId": 636,
+      "EmailDescription": "ubaldo@walkerboehm.uk",
+      "EmailId": 286,
+      "EmailAddress": "yvonne@pollich.info",
+      "PhoneId": 193,
+      "ContactName": "Hoppe Inc and Sons",
+      "ContactId": 31,
+      "SaleId": 630,
+      "Mrmrs": "harum",
+      "Firstname": "Harmony",
+      "MiddleName": "Beatty Inc and Sons",
+      "Lastname": "Gibson",
+      "SaleStakeholderId": 252,
+      "Rank": 586,
+      "Phone": "(395)356-8438 x11963",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 160
         }
       }
     }
   ],
-  "ActiveErpLinks": 138,
+  "ActiveErpLinks": 182,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Jewel Hessel Sr."
+    "SuperOffice:1": "Anderson Kulas",
+    "SuperOffice:2": "Estefania O'Kon"
   },
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "sit",
+    "CustomFields2": "maiores"
   },
-  "PublishEventDate": "2021-05-09T17:54:03.5701847+02:00",
-  "PublishTo": "2021-10-11T17:54:03.5701847+02:00",
-  "PublishFrom": "2013-01-25T17:54:03.5701847+01:00",
+  "PublishEventDate": "2016-08-03T03:45:23.8735682+02:00",
+  "PublishTo": "2004-08-23T03:45:23.8735682+02:00",
+  "PublishFrom": "2018-05-18T03:45:23.8735682+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 5,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 34
         }
       }
     },
     {
-      "VisibleId": 5,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 34
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 296
     }
   }
 }

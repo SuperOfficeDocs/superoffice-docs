@@ -808,7 +808,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=getAllRows,sale/amountWeightedInBaseCurrency,sale/salePublish/publishedTo,appointment/appointmentId,appointment/associate/personId
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=sale/saleNumber,sale/sale/description,document/associate/firstName,projectMember/contactUdef/SuperOffice:12
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

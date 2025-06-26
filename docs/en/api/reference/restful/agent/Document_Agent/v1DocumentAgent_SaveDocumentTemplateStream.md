@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 26,
+  "DocumentTemplateId": 295,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "a",
-  "PluginId": 294
+  "LanguageCode": "enim",
+  "PluginId": 484
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins-Daniel",
-  "Description": "Configurable zero defect hub",
-  "ExternalReference": "est",
-  "MimeType": "vel",
-  "PluginId": 499
+  "Name": "Langosh-Frami",
+  "Description": "Upgradable bottom-line initiative",
+  "ExternalReference": "earum",
+  "MimeType": "unde",
+  "PluginId": 735
 }
 ```

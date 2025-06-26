@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    987,
-    733
+    513,
+    956
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Veum, Rodriguez and Leannon",
-    "AssociateId": 745,
-    "DetailsTable": 397,
-    "DetailsRecord": 144,
+    "Id": 738,
+    "Name": "Huels, Mosciski and Corwin",
+    "AssociateId": 496,
+    "DetailsTable": 76,
+    "DetailsRecord": 369,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "accusamus",
-      "ParameterObject2": "nisi"
+      "ParameterObject1": "nesciunt",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2006-04-23T17:54:02.6639794+02:00",
-    "Created": "2007-10-12T17:54:02.6639794+02:00",
-    "StartCount": 658,
-    "DatabaseSerialNumber": "682443",
-    "Context": "vitae",
-    "Result": "culpa",
+    "LastStarted": "2020-09-25T03:45:22.9829669+02:00",
+    "Created": "2008-05-04T03:45:22.9829669+02:00",
+    "StartCount": 453,
+    "DatabaseSerialNumber": "632325",
+    "Context": "eaque",
+    "Result": "quo",
     "State": "All",
-    "Description": "Cross-group regional structure",
-    "Response": "ducimus",
-    "Request": "rerum",
-    "ProgressDescription": "Persistent assymetric instruction set",
-    "ProgressPercent": 435,
-    "FileName": "Kihn-Harris",
+    "Description": "Exclusive national complexity",
+    "Response": "aut",
+    "Request": "eos",
+    "ProgressDescription": "Multi-tiered radical instruction set",
+    "ProgressPercent": 589,
+    "FileName": "Herman-Herman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

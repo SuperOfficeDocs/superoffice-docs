@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Hermann LLC",
-  "Tooltip": "non",
+  "Id": 262,
+  "Name": "Ryan Group",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 798,
+  "Rank": 266,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
+  "ListType": "ad",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Stiedemann-McGlynn",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 189,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 552,
+  "Name": "Mertz LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 25,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ab",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 582
     }
   }
 }

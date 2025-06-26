@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=aut
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=totam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Aufderhar, Gleason and Fritsch",
-    "ToolTip": "Iusto animi quos voluptas accusamus.",
-    "Deleted": false,
-    "Rank": 669,
-    "Type": "saepe",
+    "Id": 903,
+    "Name": "Rolfson-Corkery",
+    "ToolTip": "Omnis ab tempora adipisci consequatur et qui.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Bartoletti-Kertzmann",
-        "ToolTip": "Illo dolore neque accusantium dolor aut.",
-        "Deleted": true,
-        "Rank": 535,
-        "Type": "veniam",
+        "Id": 205,
+        "Name": "Nicolas, Kassulke and Carter",
+        "ToolTip": "Saepe laudantium nostrum.",
+        "Deleted": false,
+        "Rank": 793,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 629,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "accusamus",
-        "FullName": "Jodie Torp III",
+        "IconHint": "omnis",
+        "ColorBlock": 907,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "quo",
+        "FullName": "Mr. Dave Durgan MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldType": "System.String",
+            "FieldLength": 373
           }
         }
       }
     ],
-    "IconHint": "ratione",
-    "ColorBlock": 978,
-    "ExtraInfo": "in",
-    "StyleHint": "et",
-    "FullName": "Prof. Jarod Cartwright",
+    "IconHint": "qui",
+    "ColorBlock": 828,
+    "ExtraInfo": "natus",
+    "StyleHint": "id",
+    "FullName": "Kirk Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 580
       }
     }
   }

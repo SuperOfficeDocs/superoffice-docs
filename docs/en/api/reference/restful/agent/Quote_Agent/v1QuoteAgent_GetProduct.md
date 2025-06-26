@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 949,
-  "ERPProductKey": "beatae"
+  "QuoteConnectionId": 869,
+  "ERPProductKey": "explicabo"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 502,
-  "ERPProductKey": "quas",
-  "ERPPriceListKey": "occaecati",
-  "Name": "Monahan, Maggio and Breitenberg",
-  "Description": "Inverse asynchronous capability",
-  "Code": "tempora",
-  "PriceUnit": "ea",
-  "QuantityUnit": "praesentium",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quidem",
-  "DefaultSubscriptionQuantity": 11326.276,
-  "ItemNumber": "692921",
+  "ProductId": 899,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "ut",
+  "Name": "Tromp Inc and Sons",
+  "Description": "Diverse mission-critical productivity",
+  "Code": "nobis",
+  "PriceUnit": "corrupti",
+  "QuantityUnit": "doloribus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 23849.739999999998,
+  "ItemNumber": "1428321",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "et",
-  "ProductTypeKey": "quod",
-  "VAT": 14522.956,
-  "VATInfo": "soluta",
-  "UnitCost": 2400.644,
-  "UnitMinimumPrice": 366.678,
-  "UnitListPrice": 13767.662,
-  "InAssortment": false,
-  "Supplier": "ad",
-  "SupplierCode": "placeat",
-  "Rights": "error",
-  "Rule": "distinctio",
+  "ProductTypeKey": "facere",
+  "VAT": 24065.986,
+  "VATInfo": "odit",
+  "UnitCost": 15854.905999999999,
+  "UnitMinimumPrice": 5224.378,
+  "UnitListPrice": 29284.095999999998,
+  "InAssortment": true,
+  "Supplier": "rerum",
+  "SupplierCode": "et",
+  "Rights": "dignissimos",
+  "Rule": "veniam",
   "ExtraInfo": [
     {
-      "Name": "Eichmann-Connelly",
-      "Value": "quis",
+      "Name": "Prohaska-Greenholt",
+      "Value": "quisquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 679
         }
       }
     },
     {
-      "Name": "Eichmann-Connelly",
-      "Value": "quis",
+      "Name": "Prohaska-Greenholt",
+      "Value": "quisquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 679
         }
       }
     }
   ],
-  "RawExtraInfo": "beatae",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "et",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "neque",
-  "ExtraField5": "aliquid",
-  "InStock": 22386.162,
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "error",
+  "ExtraField2": "quo",
+  "ExtraField3": "aspernatur",
+  "ExtraField4": "dolor",
+  "ExtraField5": "tempore",
+  "InStock": 17412.504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 648
     }
   }
 }

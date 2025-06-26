@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 421,
-  "ERPPriceListKey": "aperiam",
-  "QuoteConnectionId": 611,
-  "Name": "Stoltenberg Inc and Sons",
-  "Description": "Balanced clear-thinking data-warehouse",
-  "Currency": "sint",
-  "CurrencyName": "Morissette-Vandervort",
-  "ValidFrom": "2003-02-03T17:54:08.9605465+01:00",
-  "ValidTo": "2006-03-18T17:54:08.9605465+01:00",
-  "IsActive": true
+  "PriceListId": 202,
+  "ERPPriceListKey": "mollitia",
+  "QuoteConnectionId": 314,
+  "Name": "Crooks Group",
+  "Description": "Business-focused encompassing infrastructure",
+  "Currency": "assumenda",
+  "CurrencyName": "Crist Group",
+  "ValidFrom": "2020-11-09T03:45:29.0921677+01:00",
+  "ValidTo": "2013-04-15T03:45:29.0921677+02:00",
+  "IsActive": false
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 245,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 781,
-  "Name": "Brekke-McDermott",
-  "Description": "Upgradable reciprocal knowledge base",
-  "Currency": "eos",
-  "CurrencyName": "Hand, Osinski and Hahn",
-  "ValidFrom": "2003-10-25T17:54:08.9605465+02:00",
-  "ValidTo": "2025-04-08T17:54:08.9605465+02:00",
+  "PriceListId": 478,
+  "ERPPriceListKey": "mollitia",
+  "QuoteConnectionId": 232,
+  "Name": "Marks-Reynolds",
+  "Description": "Mandatory assymetric infrastructure",
+  "Currency": "et",
+  "CurrencyName": "Sawayn LLC",
+  "ValidFrom": "2000-09-24T03:45:29.0921677+02:00",
+  "ValidTo": "2002-10-19T03:45:29.0921677+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 924
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

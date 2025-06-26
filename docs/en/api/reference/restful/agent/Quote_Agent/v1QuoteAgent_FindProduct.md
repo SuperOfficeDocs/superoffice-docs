@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 929,
-  "UserInput": "aspernatur",
-  "PriceListKey": "consectetur"
+  "QuoteAlternativeId": 233,
+  "UserInput": "recusandae",
+  "PriceListKey": "aut"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 274,
-    "ERPProductKey": "qui",
-    "ERPPriceListKey": "sunt",
-    "Name": "Mohr-Lynch",
-    "Description": "Right-sized neutral leverage",
-    "Code": "in",
-    "PriceUnit": "iusto",
-    "QuantityUnit": "aliquid",
-    "IsSubscription": true,
-    "SubscriptionUnit": "vero",
-    "DefaultSubscriptionQuantity": 24924.701999999997,
-    "ItemNumber": "1421454",
+    "ProductId": 952,
+    "ERPProductKey": "aut",
+    "ERPPriceListKey": "quo",
+    "Name": "Bashirian-Cartwright",
+    "Description": "Up-sized reciprocal time-frame",
+    "Code": "odio",
+    "PriceUnit": "aspernatur",
+    "QuantityUnit": "iste",
+    "IsSubscription": false,
+    "SubscriptionUnit": "quia",
+    "DefaultSubscriptionQuantity": 9054.126,
+    "ItemNumber": "1245639",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "omnis",
-    "ProductTypeKey": "iusto",
-    "VAT": 21803.237999999998,
-    "VATInfo": "perspiciatis",
-    "UnitCost": 2400.644,
-    "UnitMinimumPrice": 9069.796,
-    "UnitListPrice": 28644.76,
+    "ProductFamilyKey": "magnam",
+    "ProductTypeKey": "non",
+    "VAT": 15140.354,
+    "VATInfo": "corrupti",
+    "UnitCost": 2093.5119999999997,
+    "UnitMinimumPrice": 6308.742,
+    "UnitListPrice": 19258.43,
     "InAssortment": false,
-    "Supplier": "iusto",
-    "SupplierCode": "laborum",
-    "Rights": "et",
-    "Rule": "voluptas",
+    "Supplier": "rerum",
+    "SupplierCode": "non",
+    "Rights": "quia",
+    "Rule": "hic",
     "ExtraInfo": [
       {
-        "Name": "Baumbach Inc and Sons",
-        "Value": "aperiam",
+        "Name": "Leuschke-Boyle",
+        "Value": "eius",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 931
           }
         }
       },
       {
-        "Name": "Baumbach Inc and Sons",
-        "Value": "aperiam",
+        "Name": "Leuschke-Boyle",
+        "Value": "eius",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 931
           }
         }
       }
     ],
-    "RawExtraInfo": "ullam",
-    "ExtraField1": "nulla",
+    "RawExtraInfo": "est",
+    "ExtraField1": "voluptas",
     "ExtraField2": "autem",
-    "ExtraField3": "totam",
-    "ExtraField4": "quis",
-    "ExtraField5": "libero",
-    "InStock": 22868.798,
+    "ExtraField3": "suscipit",
+    "ExtraField4": "sunt",
+    "ExtraField5": "non",
+    "InStock": 16889.126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 84
       }
     }
   }

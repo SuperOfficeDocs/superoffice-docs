@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "cupiditate"
+  "1": "velit",
+  "2": "velit"
 }
 ```

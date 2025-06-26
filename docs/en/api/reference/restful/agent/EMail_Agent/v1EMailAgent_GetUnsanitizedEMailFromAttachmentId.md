@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 949,
+  "EmailId": 596,
   "AttachmentIds": [
-    "rerum",
-    "harum"
+    "quo",
+    "aut"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 920,
-      "ContactName": "Gleichner, Bruen and Hessel",
-      "PersonId": 331,
-      "PersonName": "Abbott, Keebler and Toy",
-      "AssociateId": 453,
-      "Address": "quae",
-      "EmailId": 980,
+      "ContactId": 376,
+      "ContactName": "Keeling-Nader",
+      "PersonId": 400,
+      "PersonName": "Hansen LLC",
+      "AssociateId": 240,
+      "Address": "sunt",
+      "EmailId": 943,
       "DuplicatePersonIds": [
-        603,
-        316
+        236,
+        83
       ],
-      "Name": "Sawayn, Buckridge and Wolf",
+      "Name": "McClure, Hoppe and Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 668
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 989,
-      "ContactName": "Jenkins Group",
-      "PersonId": 967,
-      "PersonName": "Pagac-Ernser",
-      "AssociateId": 6,
-      "Address": "qui",
-      "EmailId": 506,
+      "ContactId": 290,
+      "ContactName": "Thiel, Parisian and Nikolaus",
+      "PersonId": 898,
+      "PersonName": "Roob-Schinner",
+      "AssociateId": 178,
+      "Address": "rem",
+      "EmailId": 220,
       "DuplicatePersonIds": [
-        163,
-        555
+        172,
+        809
       ],
-      "Name": "Brekke, Koepp and Parker",
+      "Name": "McKenzie, Gislason and O'Keefe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldLength": 73
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 652,
-      "ContactName": "Pagac Inc and Sons",
-      "PersonId": 919,
-      "PersonName": "Macejkovic-Larson",
-      "AssociateId": 439,
-      "Address": "iure",
-      "EmailId": 990,
+      "ContactId": 719,
+      "ContactName": "Hagenes-Rohan",
+      "PersonId": 795,
+      "PersonName": "Feeney, Williamson and Mueller",
+      "AssociateId": 540,
+      "Address": "consequuntur",
+      "EmailId": 491,
       "DuplicatePersonIds": [
-        800,
-        547
+        733,
+        558
       ],
-      "Name": "Russel LLC",
+      "Name": "Mertz, Deckow and DuBuque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 28
         }
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "nisi",
+  "Subject": "hic",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2007-07-13T17:54:03.1170817+02:00",
-  "Size": 904,
+  "Sent": "2016-10-31T03:45:23.4360809+01:00",
+  "Size": 143,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolores",
-  "PlainBody": "tempore",
-  "IsSent": false,
+  "MessageID": "dolore",
+  "PlainBody": "impedit",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 297,
+  "ServerId": 13,
   "Attachments": [
     {
-      "Description": "Cross-platform foreground database",
-      "Filename": "similique",
-      "Size": 346,
-      "Type": "reprehenderit",
-      "Encoding": "suscipit",
-      "Id": "necessitatibus",
+      "Description": "Re-engineered human-resource portal",
+      "Filename": "vel",
+      "Size": 730,
+      "Type": "minima",
+      "Encoding": "culpa",
+      "Id": "laudantium",
       "Disposition": "voluptates",
-      "IsSafeFileExtension": true,
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 227
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wiegand-Cruickshank",
+      "Name": "Murazik-Hickle",
       "Values": [
-        "tempore",
-        "voluptatem"
+        "magni",
+        "mollitia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 650
         }
       }
     },
     {
-      "Name": "Wiegand-Cruickshank",
+      "Name": "Murazik-Hickle",
       "Values": [
-        "tempore",
-        "voluptatem"
+        "magni",
+        "mollitia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 650
         }
       }
     }
   ],
-  "FolderName": "Reichert-Bergnaum",
-  "EmailItemId": 423,
-  "AccountId": 646,
-  "ReceivedAt": "2008-07-06T17:54:03.1170817+02:00",
+  "FolderName": "Upton Group",
+  "EmailItemId": 294,
+  "AccountId": 790,
+  "ReceivedAt": "2012-08-08T03:45:23.4360809+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-02-27T17:54:03.1170817+01:00",
+  "RepliedAt": "2007-05-23T03:45:23.4360809+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 952
     }
   }
 }

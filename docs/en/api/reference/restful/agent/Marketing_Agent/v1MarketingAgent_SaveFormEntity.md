@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 84,
+  "FormId": 270,
   "FormKey": "aut",
-  "Name": "Rodriguez, Kautzer and Jacobson",
-  "Description": "Customizable optimizing moratorium",
-  "Config": "et",
-  "FolderId": 57,
-  "ScriptId": 362,
-  "ResponseShipmentId": 546,
+  "Name": "Hagenes, Heathcote and Rempel",
+  "Description": "Team-oriented cohesive focus group",
+  "Config": "hic",
+  "FolderId": 765,
+  "ScriptId": 746,
+  "ResponseShipmentId": 153,
   "Active": false,
-  "Expires": "1998-05-27T17:54:03.3202006+02:00",
-  "MaxSubmits": 525,
+  "Expires": "2001-06-11T03:45:23.6235756+02:00",
+  "MaxSubmits": 156,
   "Type": "Normal",
-  "Recipe": "dignissimos",
-  "GroupId": 871,
+  "Recipe": "beatae",
+  "GroupId": 370,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-08-08T17:54:03.3202006+02:00",
-  "RegisteredAssociateId": 427,
-  "Updated": "2020-10-28T17:54:03.3202006+01:00",
-  "UpdatedAssociateId": 242,
-  "UpdatedCount": 695,
+  "Registered": "2000-05-22T03:45:23.6235756+02:00",
+  "RegisteredAssociateId": 12,
+  "Updated": "2022-05-04T03:45:23.6235756+02:00",
+  "UpdatedAssociateId": 633,
+  "UpdatedCount": 502,
   "EmailFlows": [
-    439,
-    808
+    46,
+    790
   ],
-  "FolderName": "Kreiger-Fahey"
+  "FolderName": "Toy Group"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 299,
-  "FormKey": "quia",
-  "Name": "Hintz LLC",
-  "Description": "Diverse mobile artificial intelligence",
-  "Config": "officiis",
-  "FolderId": 240,
-  "ScriptId": 303,
-  "ResponseShipmentId": 403,
-  "Active": false,
-  "Expires": "2020-06-01T17:54:03.3202006+02:00",
-  "MaxSubmits": 396,
+  "FormId": 10,
+  "FormKey": "quo",
+  "Name": "Schmeler LLC",
+  "Description": "Intuitive executive local area network",
+  "Config": "ad",
+  "FolderId": 858,
+  "ScriptId": 421,
+  "ResponseShipmentId": 406,
+  "Active": true,
+  "Expires": "2018-03-16T03:45:23.6235756+01:00",
+  "MaxSubmits": 27,
   "Type": "Normal",
-  "Recipe": "eos",
-  "GroupId": 712,
+  "Recipe": "eligendi",
+  "GroupId": 336,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2024-07-18T17:54:03.3202006+02:00",
-  "RegisteredAssociateId": 378,
-  "Updated": "2024-01-16T17:54:03.3202006+01:00",
-  "UpdatedAssociateId": 304,
-  "UpdatedCount": 11,
+  "Registered": "2016-02-05T03:45:23.6235756+01:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2013-03-22T03:45:23.6235756+01:00",
+  "UpdatedAssociateId": 877,
+  "UpdatedCount": 686,
   "EmailFlows": [
-    235,
-    325
+    859,
+    525
   ],
-  "FolderName": "Jacobs-Hoeger",
+  "FolderName": "Okuneva-Dare",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 534
     }
   }
 }

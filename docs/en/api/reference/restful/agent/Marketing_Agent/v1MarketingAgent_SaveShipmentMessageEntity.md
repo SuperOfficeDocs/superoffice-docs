@@ -107,27 +107,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 10,
-  "PlainMessage": "natus",
-  "HtmlMessage": "quia",
-  "SmsMessage": "error",
-  "Description": "Reactive intangible groupware",
-  "Subject": "enim",
-  "FolderId": 773,
-  "HeaderField": "sapiente",
-  "Design": "nisi",
+  "ShipmentMessageId": 5,
+  "PlainMessage": "quia",
+  "HtmlMessage": "assumenda",
+  "SmsMessage": "corrupti",
+  "Description": "Customer-focused motivating access",
+  "Subject": "consequatur",
+  "FolderId": 500,
+  "HeaderField": "quis",
+  "Design": "aliquid",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Optional disintermediate policy",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 973,
-  "Registered": "2014-10-26T17:54:03.3202006+01:00",
-  "RegisteredAssociateId": 492,
-  "Updated": "2011-06-13T17:54:03.3202006+02:00",
-  "UpdatedAssociateId": 808,
-  "UpdatedCount": 793
+  "LongDescription": "Cloned encompassing approach",
+  "AccessKey": "pariatur",
+  "DocumentMessage": 230,
+  "Registered": "2023-12-06T03:45:23.6235756+01:00",
+  "RegisteredAssociateId": 560,
+  "Updated": "2008-05-09T03:45:23.6235756+02:00",
+  "UpdatedAssociateId": 761,
+  "UpdatedCount": 867
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 611,
-  "PlainMessage": "sequi",
-  "HtmlMessage": "maxime",
-  "SmsMessage": "sunt",
-  "Description": "Reverse-engineered responsive flexibility",
-  "Subject": "maiores",
-  "FolderId": 105,
-  "HeaderField": "reprehenderit",
-  "Design": "nesciunt",
+  "ShipmentMessageId": 784,
+  "PlainMessage": "dolore",
+  "HtmlMessage": "laboriosam",
+  "SmsMessage": "et",
+  "Description": "Triple-buffered actuating matrices",
+  "Subject": "mollitia",
+  "FolderId": 144,
+  "HeaderField": "nulla",
+  "Design": "laborum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Distributed global methodology",
-  "AccessKey": "eos",
-  "DocumentMessage": 949,
-  "Registered": "2008-02-27T17:54:03.3202006+01:00",
-  "RegisteredAssociateId": 264,
-  "Updated": "2002-01-13T17:54:03.3202006+01:00",
-  "UpdatedAssociateId": 479,
-  "UpdatedCount": 744,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Upgradable transitional process improvement",
+  "AccessKey": "iusto",
+  "DocumentMessage": 7,
+  "Registered": "2007-10-07T03:45:23.6235756+02:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2011-07-30T03:45:23.6235756+02:00",
+  "UpdatedAssociateId": 726,
+  "UpdatedCount": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 959
     }
   }
 }

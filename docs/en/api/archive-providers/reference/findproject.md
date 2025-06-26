@@ -809,7 +809,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=SaintStatus3,sale/saleNumber,appointment/associate/usergroupId,projectMember/useAsMailingAddress
+GET /api/v1/archive/FindProject?$select=NumberOfSalesInPeriod,sale/associate/associateDbId,appointment/type,appointment/updatedDate,appointment/associate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

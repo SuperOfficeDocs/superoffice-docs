@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Koss, Gibson and Bergstrom",
-    "ToolTip": "Aspernatur beatae magni.",
+    "Id": 662,
+    "Name": "Bergstrom Group",
+    "ToolTip": "Voluptatum error.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "ab",
-    "ColorBlock": 461,
-    "IconHint": "quisquam",
-    "Selected": false,
-    "LastChanged": "2011-11-17T17:54:08.8824262+01:00",
+    "Rank": 631,
+    "Type": "aut",
+    "ColorBlock": 229,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1998-03-07T03:45:29.014043+01:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Wisozk LLC",
-        "ToolTip": "Odio aut dicta numquam provident ducimus quasi mollitia.",
-        "Deleted": false,
-        "Rank": 457,
-        "Type": "fugit",
-        "ColorBlock": 988,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2016-01-05T17:54:08.8824262+01:00",
+        "Id": 209,
+        "Name": "Lebsack-Cruickshank",
+        "ToolTip": "Eaque sint voluptates illum iure.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "sed",
+        "ColorBlock": 931,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2003-11-18T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "sit",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Mr. Joy Orpha Bernier V",
+        "FullName": "Mr. Bettie Murazik Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "amet",
+    "ExtraInfo": "nulla",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Dr. Harvey Einar Kautzer",
+    "FullName": "Ella Yost I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

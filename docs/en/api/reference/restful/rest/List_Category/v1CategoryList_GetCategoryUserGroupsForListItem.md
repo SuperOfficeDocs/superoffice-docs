@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Hoppe Inc and Sons",
-    "ToolTip": "Laboriosam qui iusto autem.",
+    "Id": 724,
+    "Name": "Hilpert Inc and Sons",
+    "ToolTip": "Soluta voluptas beatae dolores.",
     "Deleted": true,
-    "Rank": 758,
-    "Type": "non",
-    "ColorBlock": 973,
-    "IconHint": "est",
+    "Rank": 612,
+    "Type": "voluptas",
+    "ColorBlock": 890,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "1998-05-18T17:54:08.8043048+02:00",
+    "LastChanged": "2011-12-08T03:45:28.9827939+01:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Larkin Group",
-        "ToolTip": "Quaerat rerum excepturi vitae quidem molestias nisi.",
-        "Deleted": true,
-        "Rank": 44,
-        "Type": "vitae",
-        "ColorBlock": 610,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2013-05-30T17:54:08.8043048+02:00",
+        "Id": 642,
+        "Name": "Stark LLC",
+        "ToolTip": "Voluptatibus maiores repellat.",
+        "Deleted": false,
+        "Rank": 207,
+        "Type": "ex",
+        "ColorBlock": 972,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-11-22T03:45:28.9827939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Theron Bailey IV",
+        "ExtraInfo": "esse",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Dr. Stephany Muller Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 189
+            "FieldType": "System.Int32",
+            "FieldLength": 911
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dicta",
+    "ExtraInfo": "dolores",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Ressie Jast",
+    "FullName": "Mabel Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

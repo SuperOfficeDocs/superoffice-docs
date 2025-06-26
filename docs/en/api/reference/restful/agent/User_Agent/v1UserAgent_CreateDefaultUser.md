@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 135,
-  "Name": "Murray-Renner",
-  "Rank": 457,
-  "Tooltip": "commodi",
+  "AssociateId": 558,
+  "Name": "Goldner-Ruecker",
+  "Rank": 979,
+  "Tooltip": "voluptatibus",
   "LicenseOwners": [
     {
-      "Name": "Halvorson, Cartwright and Witting",
-      "Description": "Public-key high-level knowledge base",
+      "Name": "Trantow, Conn and Leuschke",
+      "Description": "Integrated intangible service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Halvorson, Cartwright and Witting",
-      "Description": "Public-key high-level knowledge base",
+      "Name": "Trantow, Conn and Leuschke",
+      "Description": "Integrated intangible service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 394
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "occaecati",
-      "Tooltip": "earum",
-      "Id": 206,
-      "Rank": 986,
-      "Deleted": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 386
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2018-10-19T17:54:03.8670455+02:00",
-  "Lastlogout": "2004-04-16T17:54:03.8670455+02:00",
-  "EjUserId": 420,
-  "RequestSignature": "ullam",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "explicabo",
-      "DisplayValue": "recusandae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "explicabo",
-      "DisplayValue": "recusandae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
-        }
-      }
-    }
-  ],
-  "UserName": "Ward, Bruen and Lakin",
-  "TicketCategories": [
-    {
-      "Id": 754,
-      "Name": "Lueilwitz LLC",
-      "ToolTip": "Sed voluptatem.",
+      "Value": "et",
+      "Tooltip": "ipsam",
+      "Id": 621,
+      "Rank": 911,
       "Deleted": false,
-      "Rank": 641,
-      "Type": "sunt",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "perferendis",
-      "ColorBlock": 144,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "sit",
-      "FullName": "Leopold Bode",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
-        }
-      }
-    }
-  ],
-  "NickName": "Ortiz, Rolfson and Johnson",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "vel"
-  },
-  "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "id"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Pfannerstill-Predovic",
-      "DisplayName": "Wiegand, Grant and Lakin",
-      "Description": "Monitored modular algorithm",
-      "ToolTip": "Facere laudantium et magnam quae nostrum ut nihil.",
-      "Actions": "Implicit",
-      "ActionData": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 238
+          "FieldLength": 848
+        }
+      }
+    }
+  ],
+  "Person": null,
+  "Deleted": true,
+  "Lastlogin": "2004-05-06T03:45:24.1548097+02:00",
+  "Lastlogout": "2001-04-16T03:45:24.1548097+02:00",
+  "EjUserId": 531,
+  "RequestSignature": "cum",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
+  "Credentials": [
+    {
+      "Type": null,
+      "Value": "distinctio",
+      "DisplayValue": "sunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 379
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "distinctio",
+      "DisplayValue": "sunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 379
+        }
+      }
+    }
+  ],
+  "UserName": "Conn Group",
+  "TicketCategories": [
+    {
+      "Id": 472,
+      "Name": "Frami-Cormier",
+      "ToolTip": "Suscipit aut voluptatem omnis voluptatem.",
+      "Deleted": false,
+      "Rank": 857,
+      "Type": "alias",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "nemo",
+      "ColorBlock": 644,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "earum",
+      "FullName": "Ms. Imelda Kohler MD",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 252
+        }
+      }
+    }
+  ],
+  "NickName": "Sanford, Bailey and Rodriguez",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aut",
+    "ExtraFields2": "distinctio"
+  },
+  "CustomFields": {
+    "CustomFields1": "assumenda",
+    "CustomFields2": "facere"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Rau-Hilpert",
+      "DisplayName": "Ryan Inc and Sons",
+      "Description": "Grass-roots needs-based software",
+      "ToolTip": "Suscipit soluta recusandae possimus hic expedita sed.",
+      "Actions": "Implicit",
+      "ActionData": "itaque",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

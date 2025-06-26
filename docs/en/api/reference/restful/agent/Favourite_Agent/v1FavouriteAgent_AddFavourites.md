@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fadel-Berge",
+  "TableName": "Romaguera, Tremblay and Cruickshank",
   "RecordIds": [
-    235,
-    663
+    659,
+    11
   ],
-  "AssociateId": 83,
-  "ExtraInfo": "et"
+  "AssociateId": 191,
+  "ExtraInfo": "quasi"
 }
 ```
 

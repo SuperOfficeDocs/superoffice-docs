@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 504
+  "AssociateId": 593
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Raynor-Brekke",
-    "DeviceIdentifier": "est",
-    "PocketVersion": "quis",
-    "Language": "omnis",
-    "PNSHandle": "odit",
+    "DeviceName": "Shields-Marvin",
+    "DeviceIdentifier": "in",
+    "PocketVersion": "delectus",
+    "Language": "provident",
+    "PNSHandle": "et",
     "Platform": "Apple",
-    "OSVersion": "voluptas",
-    "TimeZoneId": 710
+    "OSVersion": "quisquam",
+    "TimeZoneId": 525
   }
 ]
 ```

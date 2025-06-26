@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Metz Group",
-    "Tooltip": "est",
+    "Id": 719,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 928,
-    "Rank": 638
+    "UdListDefinitionId": 298,
+    "Rank": 634
   },
   {
-    "Id": 246,
-    "Name": "Metz Group",
-    "Tooltip": "est",
+    "Id": 719,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 928,
-    "Rank": 638
+    "UdListDefinitionId": 298,
+    "Rank": 634
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Mills Group",
-    "Tooltip": "officiis",
+    "Id": 38,
+    "Name": "Auer, Parker and Cassin",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "UdListDefinitionId": 209,
-    "Rank": 887,
+    "UdListDefinitionId": 538,
+    "Rank": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

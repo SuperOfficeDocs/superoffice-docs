@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Crooks, Cole and Jerde",
+  "TaskName": "Abshire, Hegmann and Schamberger",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Emard Group",
-    "AssociateId": 253,
-    "DetailsTable": 657,
-    "DetailsRecord": 710,
-    "IsSystemTask": false,
+    "Id": 603,
+    "Name": "Cormier Inc and Sons",
+    "AssociateId": 62,
+    "DetailsTable": 190,
+    "DetailsRecord": 315,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "in",
-      "ParameterObject2": "est"
+      "ParameterObject1": "voluptates",
+      "ParameterObject2": "provident"
     },
-    "LastStarted": "2020-09-19T17:54:02.6639794+02:00",
-    "Created": "2004-12-20T17:54:02.6639794+01:00",
-    "StartCount": 383,
-    "DatabaseSerialNumber": "1814395",
-    "Context": "molestiae",
-    "Result": "illo",
+    "LastStarted": "2015-09-27T03:45:22.9829669+02:00",
+    "Created": "2013-04-04T03:45:22.9829669+02:00",
+    "StartCount": 696,
+    "DatabaseSerialNumber": "1041239",
+    "Context": "ea",
+    "Result": "fugiat",
     "State": "All",
-    "Description": "Persistent incremental knowledge user",
-    "Response": "eum",
-    "Request": "sequi",
-    "ProgressDescription": "Adaptive responsive challenge",
-    "ProgressPercent": 395,
-    "FileName": "Hodkiewicz-Kling",
+    "Description": "Stand-alone composite standardization",
+    "Response": "dolores",
+    "Request": "quia",
+    "ProgressDescription": "Assimilated optimal knowledge user",
+    "ProgressPercent": 150,
+    "FileName": "Roob LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

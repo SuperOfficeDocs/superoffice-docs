@@ -139,41 +139,41 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 316,
-  "TopicId": 812,
+  "ChatSessionId": 936,
+  "TopicId": 362,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "dolor",
-  "CustomerName": "Dickinson, Johnston and Willms",
-  "CustomerEmail": "chelsie@rippin.info",
-  "CustomerPhone": "(792)195-1311 x70110",
+  "CustomerAlias": "commodi",
+  "CustomerHost": "tempore",
+  "CustomerName": "Weber, Donnelly and Jaskolski",
+  "CustomerEmail": "terrell@bruen.name",
+  "CustomerPhone": "272-990-5676",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hamill Inc and Sons",
+  "CustomerCompanyName": "Tremblay-Pagac",
   "Status": "Closed",
   "FirstMessage": "fugiat",
-  "LastMessage": "ex",
-  "WhenRequested": "2009-03-20T17:54:07.9918437+01:00",
-  "WhenStarted": "2020-11-16T17:54:07.9918437+01:00",
-  "WhenEnded": "1999-05-31T17:54:07.9918437+02:00",
-  "WhenIdle": "2005-10-22T17:54:07.9918437+02:00",
-  "WhenFetched": "2012-06-21T17:54:07.9918437+02:00",
-  "SessionKey": "repellat",
-  "InitialQueuePos": 470,
-  "AlertLevel": 761,
-  "Rank": 543,
+  "LastMessage": "maxime",
+  "WhenRequested": "2009-08-03T03:45:28.1078228+02:00",
+  "WhenStarted": "2013-07-29T03:45:28.1078228+02:00",
+  "WhenEnded": "2021-03-09T03:45:28.1078228+01:00",
+  "WhenIdle": "2015-07-06T03:45:28.1078228+02:00",
+  "WhenFetched": "2008-08-17T03:45:28.1078228+02:00",
+  "SessionKey": "illo",
+  "InitialQueuePos": 692,
+  "AlertLevel": 318,
+  "Rank": 636,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 141
+  "ChatbotIsActive": true,
+  "Rating": 244
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 44,
-  "TopicId": 476,
+  "ChatSessionId": 222,
+  "TopicId": 536,
   "User": null,
   "Person": null,
-  "CustomerAlias": "explicabo",
-  "CustomerHost": "aperiam",
-  "CustomerName": "Tillman Inc and Sons",
-  "CustomerEmail": "elliott.oberbrunner@jaskolskihaag.com",
-  "CustomerPhone": "175-277-2089 x217",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "impedit",
+  "CustomerName": "Funk Inc and Sons",
+  "CustomerEmail": "chadrick.fahey@paucekmedhurst.name",
+  "CustomerPhone": "204-701-7712",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Greenfelder-Olson",
+  "CustomerCompanyName": "Hodkiewicz LLC",
   "Status": "Closed",
-  "FirstMessage": "error",
-  "LastMessage": "culpa",
-  "WhenRequested": "2017-07-22T17:54:08.0074687+02:00",
-  "WhenStarted": "1999-06-05T17:54:08.0074687+02:00",
-  "WhenEnded": "2015-08-07T17:54:08.0074687+02:00",
-  "WhenIdle": "2014-06-19T17:54:08.0074687+02:00",
-  "WhenFetched": "2012-11-27T17:54:08.0074687+01:00",
-  "SessionKey": "eius",
-  "InitialQueuePos": 746,
-  "AlertLevel": 905,
-  "Rank": 672,
+  "FirstMessage": "eligendi",
+  "LastMessage": "aut",
+  "WhenRequested": "2020-12-20T03:45:28.1078228+01:00",
+  "WhenStarted": "2009-12-07T03:45:28.1078228+01:00",
+  "WhenEnded": "2020-11-24T03:45:28.1078228+01:00",
+  "WhenIdle": "2007-01-31T03:45:28.1078228+01:00",
+  "WhenFetched": "2021-08-15T03:45:28.1078228+02:00",
+  "SessionKey": "quibusdam",
+  "InitialQueuePos": 279,
+  "AlertLevel": 974,
+  "Rank": 471,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,13 +214,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 438,
+  "Rating": 403,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   },
   "_Links": {

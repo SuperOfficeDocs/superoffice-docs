@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Jast, Torp and Jaskolski",
-    "ToolTip": "Dolores fugiat dignissimos.",
-    "Deleted": true,
-    "Rank": 239,
-    "Type": "qui",
-    "ColorBlock": 302,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "2019-07-26T17:54:08.8980498+02:00",
+    "Id": 279,
+    "Name": "Wunsch Group",
+    "ToolTip": "Odio animi quaerat aut animi aut voluptatem quia.",
+    "Deleted": false,
+    "Rank": 940,
+    "Type": "dolore",
+    "ColorBlock": 550,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2007-01-20T03:45:29.014043+01:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Price, O'Kon and Schmidt",
-        "ToolTip": "Numquam corrupti ea fugit dolor.",
+        "Id": 778,
+        "Name": "Mraz, Kunde and Grant",
+        "ToolTip": "Aut nihil consequatur optio omnis sed.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "eius",
-        "ColorBlock": 241,
-        "IconHint": "molestias",
+        "Rank": 899,
+        "Type": "beatae",
+        "ColorBlock": 900,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "1999-06-28T17:54:08.8980498+02:00",
+        "LastChanged": "2008-01-15T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "vel",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Prof. Velma Tyrique Lind"
+        "FullName": "Mr. Hobart O'Hara"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Ms. Wiley Eugene Lang IV"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Vallie McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Lindgren, Waelchi and Schulist",
-    "ToolTip": "Eius nesciunt omnis est dignissimos eum laudantium voluptatem.",
-    "Deleted": false,
-    "Rank": 330,
-    "Type": "nihil",
-    "ColorBlock": 995,
-    "IconHint": "ea",
+    "Id": 573,
+    "Name": "Oberbrunner, Schaden and Kassulke",
+    "ToolTip": "Voluptatem temporibus fugiat voluptatem.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "consequatur",
+    "ColorBlock": 578,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2013-05-25T17:54:08.8980498+02:00",
+    "LastChanged": "2023-04-15T03:45:29.014043+02:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Mraz Group",
-        "ToolTip": "Iste possimus distinctio quo expedita mollitia voluptatum illo.",
+        "Id": 259,
+        "Name": "Graham, Lebsack and Hintz",
+        "ToolTip": "Vel at quia molestiae ipsum deleniti.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "assumenda",
-        "ColorBlock": 38,
-        "IconHint": "voluptatem",
+        "Rank": 83,
+        "Type": "qui",
+        "ColorBlock": 60,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2019-03-01T17:54:08.8980498+01:00",
+        "LastChanged": "2013-01-25T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "quis",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Prof. Kendall Gottlieb MD",
+        "FullName": "Lyla Bailey V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "corporis",
+    "ExtraInfo": "vitae",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Genoveva Farrell",
+    "FullName": "Nikko Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 214
       }
     }
   }

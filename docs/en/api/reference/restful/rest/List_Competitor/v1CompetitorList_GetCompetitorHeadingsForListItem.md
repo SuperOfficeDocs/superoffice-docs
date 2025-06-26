@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Rath Inc and Sons",
-    "ToolTip": "Sed eum dolorem modi omnis iusto fuga soluta.",
+    "Id": 49,
+    "Name": "Yost-Zulauf",
+    "ToolTip": "Facilis quam nobis sed iste.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "alias",
-    "ColorBlock": 524,
-    "IconHint": "assumenda",
+    "Rank": 615,
+    "Type": "soluta",
+    "ColorBlock": 636,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2008-02-12T17:54:08.8043048+01:00",
+    "LastChanged": "2010-05-09T03:45:28.9827939+02:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Romaguera, Torphy and Bradtke",
-        "ToolTip": "Quia nostrum adipisci suscipit.",
+        "Id": 510,
+        "Name": "Wilkinson, Mertz and Pacocha",
+        "ToolTip": "Repudiandae atque incidunt vel.",
         "Deleted": true,
-        "Rank": 129,
-        "Type": "dolorum",
-        "ColorBlock": 861,
-        "IconHint": "distinctio",
+        "Rank": 32,
+        "Type": "numquam",
+        "ColorBlock": 740,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2020-01-04T17:54:08.8043048+01:00",
+        "LastChanged": "2009-11-18T03:45:28.9827939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "corporis",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Issac Aufderhar",
+        "FullName": "Miss Maxwell Marcella Corwin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 750
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Tiana Dach",
+    "ExtraInfo": "et",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Rylee Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

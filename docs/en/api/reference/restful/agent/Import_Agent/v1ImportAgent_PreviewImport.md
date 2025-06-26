@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "sed",
-        "facere"
+        "vero",
+        "non"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "animi"
+      "ExternalKey": "expedita"
     },
     {
       "Values": [
-        "sed",
-        "facere"
+        "vero",
+        "non"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "animi"
+      "ExternalKey": "expedita"
     }
   ],
   "ColumnDefinition": [
-    "ea",
-    "voluptatem"
+    "et",
+    "ab"
   ],
-  "Culture": "aliquam",
-  "Context": "odio"
+  "Culture": "nobis",
+  "Context": "ut"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "deleniti",
-      "provident"
+      "ipsum",
+      "rem"
     ],
     "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "iure",
+    "ExternalKey": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   }

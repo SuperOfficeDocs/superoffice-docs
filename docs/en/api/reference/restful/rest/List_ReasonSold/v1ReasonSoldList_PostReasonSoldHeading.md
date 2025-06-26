@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 572,
-  "Name": "Hayes Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 511,
-  "UdListDefinitionId": 416
+  "HeadingId": 656,
+  "Name": "Romaguera-Grimes",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 612,
+  "UdListDefinitionId": 184
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 172,
-  "Name": "Skiles-Gibson",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "Rank": 882,
-  "UdListDefinitionId": 371,
+  "HeadingId": 666,
+  "Name": "Spinka Group",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 313,
+  "UdListDefinitionId": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

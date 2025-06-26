@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 802,
-  "Name": "Considine, Skiles and Dooley",
-  "Rank": 166,
-  "Tooltip": "amet",
+  "AssociateId": 213,
+  "Name": "Lynch, Morissette and Sanford",
+  "Rank": 372,
+  "Tooltip": "iusto",
   "LicenseOwners": [
     {
-      "Name": "Huels-Sawayn",
-      "Description": "Pre-emptive homogeneous parallelism",
+      "Name": "Blanda, Hegmann and Purdy",
+      "Description": "Configurable multi-tasking installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 897
         }
       }
     },
     {
-      "Name": "Huels-Sawayn",
-      "Description": "Pre-emptive homogeneous parallelism",
+      "Name": "Blanda, Hegmann and Purdy",
+      "Description": "Configurable multi-tasking installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 897
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ratione",
-      "Tooltip": "sapiente",
-      "Id": 920,
-      "Rank": 27,
+      "Value": "praesentium",
+      "Tooltip": "dolorem",
+      "Id": 631,
+      "Rank": 106,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-08-23T17:54:08.7418072+02:00",
-  "Lastlogout": "2024-11-26T17:54:08.7418072+01:00",
-  "EjUserId": 452,
-  "RequestSignature": "debitis",
+  "Lastlogin": "2016-04-14T03:45:28.8577995+02:00",
+  "Lastlogout": "2023-10-23T03:45:28.8577995+02:00",
+  "EjUserId": 867,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "illum",
+      "Value": "dolorem",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 433
+          "FieldLength": 98
         }
       }
     },
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "illum",
+      "Value": "dolorem",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 433
+          "FieldLength": 98
         }
       }
     }
   ],
-  "UserName": "Swift-Ernser",
+  "UserName": "DuBuque-Baumbach",
   "TicketCategories": [
     {
-      "Id": 490,
-      "Name": "Beer, Stoltenberg and Konopelski",
-      "ToolTip": "Aut sint magnam quia nemo architecto in dolorem.",
-      "Deleted": true,
-      "Rank": 995,
-      "Type": "quo",
+      "Id": 91,
+      "Name": "Lehner Group",
+      "ToolTip": "Velit beatae cum nesciunt officiis.",
+      "Deleted": false,
+      "Rank": 512,
+      "Type": "repellendus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 82,
-      "ExtraInfo": "quidem",
-      "StyleHint": "magnam",
-      "FullName": "Trent Abbott",
+      "IconHint": "perferendis",
+      "ColorBlock": 248,
+      "ExtraInfo": "et",
+      "StyleHint": "nihil",
+      "FullName": "Berry Schamberger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 940
         }
       }
     }
   ],
-  "NickName": "Nikolaus LLC",
+  "NickName": "Lind, Nienow and McGlynn",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "eum"
+    "CustomFields1": "beatae",
+    "CustomFields2": "placeat"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kassulke, Parisian and Muller",
-      "DisplayName": "Nienow LLC",
-      "Description": "Open-source optimal benchmark",
-      "ToolTip": "Tempora est dolor rerum est.",
+      "Name": "Rolfson, McKenzie and Hayes",
+      "DisplayName": "O'Connell, Hartmann and Hettinger",
+      "Description": "Triple-buffered systematic capability",
+      "ToolTip": "Perferendis quisquam.",
       "Actions": "Implicit",
-      "ActionData": "in",
+      "ActionData": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 396
         }
       }
     }
@@ -275,12 +275,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

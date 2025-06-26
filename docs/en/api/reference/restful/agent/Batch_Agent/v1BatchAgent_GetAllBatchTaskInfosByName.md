@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Yundt, Tromp and Becker"
+  "TaskName": "Zemlak Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Swaniawski, Kohler and Morar",
-    "AssociateId": 688,
-    "DetailsTable": 56,
-    "DetailsRecord": 184,
-    "IsSystemTask": false,
+    "Id": 628,
+    "Name": "Hoppe, Haag and Jewess",
+    "AssociateId": 894,
+    "DetailsTable": 469,
+    "DetailsRecord": 632,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "autem",
-      "ParameterObject2": "repudiandae"
+      "ParameterObject1": "est",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "2010-05-25T17:54:02.6639794+02:00",
-    "Created": "2007-11-30T17:54:02.6639794+01:00",
-    "StartCount": 977,
-    "DatabaseSerialNumber": "927258",
-    "Context": "qui",
-    "Result": "similique",
+    "LastStarted": "2021-11-22T03:45:22.9829669+01:00",
+    "Created": "2014-06-21T03:45:22.9829669+02:00",
+    "StartCount": 935,
+    "DatabaseSerialNumber": "568807",
+    "Context": "repellendus",
+    "Result": "in",
     "State": "All",
-    "Description": "Upgradable regional array",
-    "Response": "voluptas",
-    "Request": "deleniti",
-    "ProgressDescription": "Customer-focused solution-oriented forecast",
-    "ProgressPercent": 513,
-    "FileName": "Balistreri Group",
+    "Description": "Persistent executive frame",
+    "Response": "esse",
+    "Request": "qui",
+    "ProgressDescription": "Sharable object-oriented parallelism",
+    "ProgressPercent": 148,
+    "FileName": "Kuvalis-Wilkinson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 828
       }
     }
   }

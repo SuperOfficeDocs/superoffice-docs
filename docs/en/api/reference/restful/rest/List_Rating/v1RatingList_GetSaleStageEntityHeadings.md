@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 738,
-    "Name": "Runolfsson-Kemmer",
-    "Tooltip": "et",
+    "HeadingId": 449,
+    "Name": "Gislason-Daugherty",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 51,
+    "Rank": 390,
+    "UdListDefinitionId": 619,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 868
       }
     }
   }

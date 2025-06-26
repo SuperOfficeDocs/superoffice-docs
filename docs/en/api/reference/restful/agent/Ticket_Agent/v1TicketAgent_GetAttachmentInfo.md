@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 280
+  "TicketMessageEntityId": 458
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 747,
-    "Name": "Hahn-Williamson",
-    "ContentType": "iste",
-    "AttSize": 450,
-    "InlineImage": true,
-    "ContentId": "distinctio",
-    "AuthKey": "repellat",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 932,
+    "Name": "O'Keefe LLC",
+    "ContentType": "rerum",
+    "AttSize": 33,
+    "InlineImage": false,
+    "ContentId": "quia",
+    "AuthKey": "aut",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 808
       }
     }
   }

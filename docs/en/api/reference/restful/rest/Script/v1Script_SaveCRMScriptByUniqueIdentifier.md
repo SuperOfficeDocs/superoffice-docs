@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "fugit",
-  "Name": "Witting, Pagac and McLaughlin",
-  "Description": "Open-architected bottom-line synergy",
-  "IncludeId": "porro",
-  "Source": "hic",
-  "Registered": "2010-03-20T17:54:08.726183+01:00",
-  "RegisteredBy": "inventore",
-  "Updated": "2013-08-20T17:54:08.726183+02:00",
-  "UpdatedBy": "harum",
-  "Path": "non"
+  "UniqueIdentifier": "et",
+  "Name": "DuBuque, Crona and Mosciski",
+  "Description": "Vision-oriented optimizing forecast",
+  "IncludeId": "atque",
+  "Source": "aspernatur",
+  "Registered": "2002-05-05T03:45:28.8421748+02:00",
+  "RegisteredBy": "aut",
+  "Updated": "2008-02-06T03:45:28.8421748+01:00",
+  "UpdatedBy": "ab",
+  "Path": "at"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "in",
-  "Name": "Bashirian, Williamson and Runolfsson",
-  "Description": "Pre-emptive hybrid strategy",
-  "IncludeId": "dolorem",
-  "Source": "officia",
-  "Registered": "2019-01-21T17:54:08.726183+01:00",
-  "RegisteredBy": "aperiam",
-  "Updated": "2002-02-28T17:54:08.726183+01:00",
-  "UpdatedBy": "placeat",
-  "Path": "vitae",
+  "UniqueIdentifier": "corrupti",
+  "Name": "Wyman-Shields",
+  "Description": "Re-contextualized user-facing Graphic Interface",
+  "IncludeId": "qui",
+  "Source": "porro",
+  "Registered": "2004-01-31T03:45:28.8421748+01:00",
+  "RegisteredBy": "quis",
+  "Updated": "2007-06-10T03:45:28.8421748+02:00",
+  "UpdatedBy": "earum",
+  "Path": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   }
 }

@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 279,
-    "Value": "dolores",
+    "TaskListItemId": 476,
+    "Value": "eius",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "eum",
+    "Tooltip": "non",
     "Deleted": false,
-    "IntentId": 646,
-    "Rank": 27,
+    "IntentId": 700,
+    "Rank": 187,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": true,
     "IsDefaultPublished": false,
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 845
       }
     }
   }

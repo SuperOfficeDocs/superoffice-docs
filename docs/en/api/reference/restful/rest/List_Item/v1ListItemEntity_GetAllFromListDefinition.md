@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Botsford, Davis and Macejkovic",
-    "Tooltip": "eveniet",
-    "Deleted": true,
-    "UdListDefinitionId": 745,
-    "Rank": 363,
+    "Id": 317,
+    "Name": "Von Group",
+    "Tooltip": "culpa",
+    "Deleted": false,
+    "UdListDefinitionId": 720,
+    "Rank": 341,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

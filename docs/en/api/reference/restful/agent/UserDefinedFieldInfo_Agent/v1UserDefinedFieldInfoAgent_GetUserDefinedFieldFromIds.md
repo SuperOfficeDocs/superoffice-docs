@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    883,
-    966
+    213,
+    149
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 711,
-    "ColumnId": 71,
-    "FieldDefault": "non",
-    "FieldHeight": 503,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 364,
-    "FieldTop": 295,
+    "UDefFieldId": 600,
+    "ColumnId": 862,
+    "FieldDefault": "in",
+    "FieldHeight": 810,
+    "FieldLabel": "id",
+    "FieldLeft": 335,
+    "FieldTop": 545,
     "FieldType": "Checkbox",
-    "FieldWidth": 41,
-    "FormatMask": "ad",
+    "FieldWidth": 257,
+    "FormatMask": "amet",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 302,
-    "LabelLeft": 780,
-    "LabelTop": 320,
-    "LabelWidth": 946,
-    "LastVersionId": 459,
-    "ListTableId": 337,
+    "LabelHeight": 161,
+    "LabelLeft": 98,
+    "LabelTop": 384,
+    "LabelWidth": 263,
+    "LastVersionId": 497,
+    "ListTableId": 777,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 947,
-    "ProgId": "porro",
-    "IsReadOnly": false,
-    "ShortLabel": "earum",
-    "TabOrder": 188,
-    "TextLength": 557,
-    "Tooltip": "exercitationem",
-    "UdefIdentity": 46,
-    "UDListDefinitionId": 85,
+    "Page1LineNo": 603,
+    "ProgId": "minus",
+    "IsReadOnly": true,
+    "ShortLabel": "non",
+    "TabOrder": 472,
+    "TextLength": 201,
+    "Tooltip": "at",
+    "UdefIdentity": 588,
+    "UDListDefinitionId": 504,
     "Justification": "Center",
-    "Version": 416,
-    "TemplateVariableName": "Zboncak Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Kshlerin LLC",
+    "Version": 748,
+    "TemplateVariableName": "McClure-Stiedemann",
+    "HasBeenPublished": true,
+    "MdoListName": "Wilderman-Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 380
       }
     }
   }

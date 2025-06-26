@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 719,
+  "Name": "Bechtelar, Monahan and Heidenreich",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 238,
-  "Rank": 67,
+  "UdListDefinitionId": 660,
+  "Rank": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 896
     }
   }
 }

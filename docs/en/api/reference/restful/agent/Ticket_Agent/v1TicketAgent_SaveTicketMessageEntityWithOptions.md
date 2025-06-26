@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    814,
-    548
+    662,
+    533
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 362,
+  "EjMessageId": 544,
   "Ticket": null,
-  "CreatedAt": "2014-10-28T17:54:03.8357967+01:00",
+  "CreatedAt": "2015-05-26T03:45:24.1391839+02:00",
   "CreatedBy": null,
   "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 10,
-  "Body": "consectetur",
-  "HtmlBody": "in",
-  "EmailHeader": "asa@goyette.biz",
-  "DebugInfo": "aut",
+  "MessageId": "laboriosam",
+  "TimeSpent": 926,
+  "Body": "voluptatem",
+  "HtmlBody": "qui",
+  "EmailHeader": "heath.langosh@kunde.biz",
+  "DebugInfo": "quia",
   "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 433,
-      "Name": "Lowe-Simonis",
-      "Value": "illo",
+      "Id": 111,
+      "Name": "Sporer, Shields and Davis",
+      "Value": "id",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldLength": 315
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 649,
-  "SentimentConfidence": 577,
+  "Language": "in",
+  "Sentiment": 386,
+  "SentimentConfidence": 173,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 426,
-      "Name": "Sporer, Little and Olson",
-      "ContentType": "enim",
-      "AttSize": 806,
+      "AttachmentId": 339,
+      "Name": "Anderson, Mitchell and Leffler",
+      "ContentType": "eos",
+      "AttSize": 736,
       "InlineImage": false,
-      "ContentId": "soluta",
-      "AuthKey": "consequatur",
+      "ContentId": "quis",
+      "AuthKey": "neque",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldType": "System.String",
+          "FieldLength": 885
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "magnam",
+    "CustomFields2": "nobis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

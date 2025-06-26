@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 557,
-  "WorkflowStepId": 961,
-  "WorkflowId": 482,
-  "Rank": 370,
+  "WorkflowWaitForActionId": 261,
+  "WorkflowStepId": 389,
+  "WorkflowId": 709,
+  "Rank": 211,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "White, Schimmel and Nicolas",
-      "Description": "Multi-lateral systemic portal",
-      "Rank": 968,
+      "Name": "Ullrich-Schmeler",
+      "Description": "Enterprise-wide solution-oriented focus group",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "White, Schimmel and Nicolas",
-      "Description": "Multi-lateral systemic portal",
-      "Rank": 968,
+      "Name": "Ullrich-Schmeler",
+      "Description": "Enterprise-wide solution-oriented focus group",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 266,
-  "WorkflowStepId": 825,
-  "WorkflowId": 564,
-  "Rank": 390,
+  "WorkflowWaitForActionId": 726,
+  "WorkflowStepId": 215,
+  "WorkflowId": 291,
+  "Rank": 334,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Windler, Marquardt and Grimes",
-      "Description": "Future-proofed bottom-line leverage",
-      "Rank": 890,
+      "Name": "Torp Group",
+      "Description": "Vision-oriented grid-enabled orchestration",
+      "Rank": 493,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Windler, Marquardt and Grimes",
-      "Description": "Future-proofed bottom-line leverage",
-      "Rank": 890,
+      "Name": "Torp Group",
+      "Description": "Vision-oriented grid-enabled orchestration",
+      "Rank": 493,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

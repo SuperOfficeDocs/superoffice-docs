@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Rempel, Cruickshank and Berge",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 532
+    "HeadingId": 718,
+    "Name": "Kemmer, Emard and Corwin",
+    "Tooltip": "labore",
+    "Deleted": true,
+    "Rank": 789,
+    "UdListDefinitionId": 974
   },
   {
-    "HeadingId": 229,
-    "Name": "Rempel, Cruickshank and Berge",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 532
+    "HeadingId": 718,
+    "Name": "Kemmer, Emard and Corwin",
+    "Tooltip": "labore",
+    "Deleted": true,
+    "Rank": 789,
+    "UdListDefinitionId": 974
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 26,
-    "Name": "Kuhlman-West",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 476,
+    "HeadingId": 996,
+    "Name": "Eichmann Group",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 165,
+    "UdListDefinitionId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 697
       }
     }
   }

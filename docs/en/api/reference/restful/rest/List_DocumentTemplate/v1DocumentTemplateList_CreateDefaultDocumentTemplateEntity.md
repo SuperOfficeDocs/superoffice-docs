@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 550,
-  "Name": "Hodkiewicz, Lindgren and Skiles",
-  "Tooltip": "magnam",
-  "SaveInDb": 485,
-  "Filename": "aut",
-  "DefaultOref": "id",
+  "DocumentTemplateId": 434,
+  "Name": "Ritchie Group",
+  "Tooltip": "sunt",
+  "SaveInDb": 116,
+  "Filename": "voluptatibus",
+  "DefaultOref": "quas",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 800,
-  "IntentId": 892,
-  "IsDefaultPublished": true,
-  "Rank": 261,
-  "LoadTemplateFromPlugin": 704,
-  "MimeType": "illo",
+  "AutoeventId": 286,
+  "IntentId": 154,
+  "IsDefaultPublished": false,
+  "Rank": 747,
+  "LoadTemplateFromPlugin": 33,
+  "MimeType": "rerum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 971,
+  "DocumentTypeKey": 373,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kacie@smithamlueilwitz.info",
+  "EmailSubject": "augustus_toy@spinka.uk",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lauren@bergenikolaus.uk",
+  "SenderEmailAddress": "lorena_runolfsdottir@kiehn.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 830
     }
   }
 }

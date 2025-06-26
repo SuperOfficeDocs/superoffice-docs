@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=labore
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Ruecker LLC",
-    "ToolTip": "Sed cum.",
+    "Id": 375,
+    "Name": "Bradtke Group",
+    "ToolTip": "Qui quos dolor ex fugit.",
     "Deleted": true,
-    "Rank": 951,
-    "Type": "est",
+    "Rank": 983,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Torphy-Upton",
-        "ToolTip": "Quas eos et.",
+        "Id": 745,
+        "Name": "Rowe-Yundt",
+        "ToolTip": "Amet quas consequatur nostrum ratione consequatur omnis animi.",
         "Deleted": false,
-        "Rank": 209,
-        "Type": "laborum",
+        "Rank": 761,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 39,
-        "ExtraInfo": "aut",
-        "StyleHint": "consectetur",
-        "FullName": "Kiley Altenwerth",
+        "IconHint": "inventore",
+        "ColorBlock": 547,
+        "ExtraInfo": "minima",
+        "StyleHint": "sunt",
+        "FullName": "Stanford Dora Lockman III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 783
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 638,
-    "ExtraInfo": "modi",
-    "StyleHint": "quidem",
-    "FullName": "Ms. Benton Gottlieb Sr.",
+    "IconHint": "omnis",
+    "ColorBlock": 106,
+    "ExtraInfo": "ex",
+    "StyleHint": "provident",
+    "FullName": "Arnoldo Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

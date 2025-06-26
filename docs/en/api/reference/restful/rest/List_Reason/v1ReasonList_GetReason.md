@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Moen LLC",
-  "Tooltip": "qui",
+  "Id": 350,
+  "Name": "Quigley-Luettgen",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 604,
-  "Rank": 25,
+  "UdListDefinitionId": 671,
+  "Rank": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   }
 }

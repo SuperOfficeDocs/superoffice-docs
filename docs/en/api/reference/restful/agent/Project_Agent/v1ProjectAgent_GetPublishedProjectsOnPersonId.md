@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 977
+  "PersonId": 691
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 162,
-    "Name": "Dooley Group",
-    "Description": "Pre-emptive asynchronous monitoring",
+    "ProjectId": 968,
+    "Name": "Littel LLC",
+    "Description": "Centralized client-driven customer loyalty",
     "URL": "http://www.example.com/",
-    "Type": "facilis",
-    "AssociateId": 93,
-    "AssociateFullName": "Rodrigo Mayert",
-    "TypeId": 868,
-    "Updated": "2018-06-21T17:54:03.4920634+02:00",
-    "StatusId": 743,
-    "Status": "est",
-    "TextId": 789,
-    "PublishTo": "2003-08-11T17:54:03.4920634+02:00",
-    "PublishFrom": "2015-09-27T17:54:03.4920634+02:00",
-    "IsPublished": true,
+    "Type": "rerum",
+    "AssociateId": 854,
+    "AssociateFullName": "Prof. Madeline Lakin IV",
+    "TypeId": 98,
+    "Updated": "2009-06-05T03:45:23.7798203+02:00",
+    "StatusId": 434,
+    "Status": "quam",
+    "TextId": 361,
+    "PublishTo": "2019-05-05T03:45:23.7798203+02:00",
+    "PublishFrom": "1999-09-28T03:45:23.7798203+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "787839",
-    "ActiveErpLinks": 744,
+    "ProjectNumber": "1567778",
+    "ActiveErpLinks": 762,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 577
       }
     }
   }

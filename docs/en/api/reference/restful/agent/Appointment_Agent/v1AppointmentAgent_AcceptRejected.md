@@ -133,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 8,
+  "AppointmentId": 263,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,121 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-05-15T17:54:02.5702335+02:00",
-  "AppointmentId": 716,
-  "Description": "Implemented value-added Graphic Interface",
-  "Title": "rem",
-  "Agenda": "molestiae",
-  "InternalNotes": "incidunt",
-  "StartDate": "2005-08-15T17:54:02.5702335+02:00",
-  "EndDate": "2019-07-06T17:54:02.5702335+02:00",
+  "CreatedDate": "2014-08-22T03:45:22.8892174+02:00",
+  "AppointmentId": 198,
+  "Description": "Face to face web-enabled migration",
+  "Title": "et",
+  "Agenda": "facilis",
+  "InternalNotes": "delectus",
+  "StartDate": "2016-10-11T03:45:22.8892174+02:00",
+  "EndDate": "1998-09-25T03:45:22.8892174+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 785,
+  "MotherId": 953,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-07-21T17:54:02.5702335+02:00",
+  "UpdatedDate": "2002-05-24T03:45:22.8892174+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 538,
+  "ActiveLinks": 560,
   "Links": [
     {
-      "EntityName": "Pacocha LLC",
-      "Id": 427,
-      "Description": "Decentralized demand-driven hardware",
-      "ExtraInfo": "et",
-      "LinkId": 817,
+      "EntityName": "Reinger, Hirthe and Walsh",
+      "Id": 758,
+      "Description": "User-centric 4th generation encoding",
+      "ExtraInfo": "eaque",
+      "LinkId": 740,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 968
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     }
   ],
-  "AlarmLeadTime": "nesciunt",
-  "HasAlarm": false,
-  "ColorIndex": 704,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "doloremque",
-  "LeadTime": "sunt",
-  "Location": "et",
-  "RejectCounter": 347,
+  "AlarmLeadTime": "soluta",
+  "HasAlarm": true,
+  "ColorIndex": 694,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "fugit",
+  "LeadTime": "in",
+  "Location": "voluptatum",
+  "RejectCounter": 927,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 446,
-      "PersonId": 186,
-      "ContactId": 543,
-      "EmailId": 592,
+      "AssociateId": 538,
+      "PersonId": 221,
+      "ContactId": 942,
+      "EmailId": 869,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "edna@olson.info",
-      "Description": "Diverse bandwidth-monitored adapter"
+      "EmailAddress": "ivah_koepp@schaefer.ca",
+      "Description": "Compatible systematic core"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-10-04T17:54:02.5702335+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-03-09T03:45:22.8892174+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 616,
+  "PreferredTZLocation": 736,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 733,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 457,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "cupiditate",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1602073277"
+    "SuperOffice:1": "Monica Abbott",
+    "SuperOffice:2": "Benton Wunsch"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "molestias"
+    "CustomFields1": "ex",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2025-02-18T17:54:02.5702335+01:00",
-  "PublishTo": "2021-08-06T17:54:02.5702335+02:00",
-  "PublishFrom": "2009-11-18T17:54:02.5702335+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-11-15T03:45:22.8892174+01:00",
+  "PublishTo": "2021-12-13T03:45:22.8892174+01:00",
+  "PublishFrom": "2011-01-16T03:45:22.8892174+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 721,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 175
         }
       }
     },
     {
-      "VisibleId": 721,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 175
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 37
     }
   }
 }

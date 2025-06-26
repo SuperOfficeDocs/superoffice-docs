@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Crooks LLC",
-  "Comment": "et",
-  "StakeholderRoleId": 185,
-  "CountryId": 885,
-  "PersonId": 555,
-  "EmailDescription": "vivianne@bayerwill.info",
-  "EmailId": 832,
-  "EmailAddress": "everette.botsford@welch.com",
-  "PhoneId": 895,
-  "ContactName": "Labadie LLC",
-  "ContactId": 868,
-  "SaleId": 393,
-  "Mrmrs": "tempora",
-  "Firstname": "David",
-  "MiddleName": "Stanton, Spinka and Thompson",
-  "Lastname": "Legros",
-  "SaleStakeholderId": 148,
-  "Rank": 576,
-  "Phone": "160-061-9785",
+  "StakeholderRoleName": "Kreiger Group",
+  "Comment": "odio",
+  "StakeholderRoleId": 437,
+  "CountryId": 600,
+  "PersonId": 811,
+  "EmailDescription": "myrna@olson.uk",
+  "EmailId": 596,
+  "EmailAddress": "aisha.kulas@quitzon.info",
+  "PhoneId": 652,
+  "ContactName": "Bechtelar Group",
+  "ContactId": 667,
+  "SaleId": 652,
+  "Mrmrs": "quas",
+  "Firstname": "Uriah",
+  "MiddleName": "Daniel-Reilly",
+  "Lastname": "Grimes",
+  "SaleStakeholderId": 137,
+  "Rank": 514,
+  "Phone": "910-438-0013 x67946",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

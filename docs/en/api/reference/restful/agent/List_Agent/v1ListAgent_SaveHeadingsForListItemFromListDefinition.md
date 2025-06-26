@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 625,
-  "ListItemId": 880,
+  "UdListDefinitionId": 50,
+  "ListItemId": 117,
   "Headings": [
     {
-      "Id": 780,
-      "Name": "Conn-Kuphal",
-      "ToolTip": "Quia et modi earum inventore ea quidem aut.",
+      "Id": 343,
+      "Name": "Sawayn-Harvey",
+      "ToolTip": "Rem et perferendis nobis architecto.",
       "Deleted": false,
-      "Rank": 611,
-      "Type": "ut",
-      "ColorBlock": 913,
-      "IconHint": "illum",
-      "Selected": false,
-      "LastChanged": "2019-05-16T17:54:03.2108272+02:00",
+      "Rank": 714,
+      "Type": "possimus",
+      "ColorBlock": 921,
+      "IconHint": "fugit",
+      "Selected": true,
+      "LastChanged": "2021-09-25T03:45:23.5927257+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "dolor",
+      "ExtraInfo": "aut",
+      "StyleHint": "in",
       "Hidden": true,
-      "FullName": "Ruth Bergstrom"
+      "FullName": "Betty Cremin"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Thiel LLC",
-    "ToolTip": "Nobis nam ea corporis et id ut quia.",
+    "Id": 245,
+    "Name": "Schultz, Powlowski and Stokes",
+    "ToolTip": "Dolor ipsam in doloremque eos et aut.",
     "Deleted": false,
-    "Rank": 881,
-    "Type": "quia",
-    "ColorBlock": 123,
-    "IconHint": "aut",
+    "Rank": 801,
+    "Type": "sed",
+    "ColorBlock": 180,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2003-01-12T17:54:03.2264522+01:00",
+    "LastChanged": "2002-02-18T03:45:23.5927257+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Grimes-Lind",
-        "ToolTip": "Qui et consequuntur tempore natus commodi deserunt ipsa.",
+        "Id": 491,
+        "Name": "Wiegand, Mueller and Rowe",
+        "ToolTip": "Dolores odit provident vel aspernatur ut ullam.",
         "Deleted": false,
-        "Rank": 455,
-        "Type": "doloribus",
-        "ColorBlock": 651,
-        "IconHint": "nostrum",
+        "Rank": 317,
+        "Type": "quia",
+        "ColorBlock": 405,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2010-01-02T17:54:03.2264522+01:00",
+        "LastChanged": "2002-10-31T03:45:23.5927257+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "aut",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Bernard Kertzmann IV",
+        "FullName": "Prof. Osbaldo Jackeline Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 782
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Lori Denesik",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Jane Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 353
       }
     }
   }

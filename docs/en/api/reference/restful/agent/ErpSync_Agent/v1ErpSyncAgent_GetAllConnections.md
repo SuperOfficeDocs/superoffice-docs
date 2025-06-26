@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 203,
-    "ErpConnectorId": 798,
-    "DisplayName": "Morar, Braun and Bradtke",
-    "DisplayDescription": "Integrated global interface",
+    "ErpConnectionId": 803,
+    "ErpConnectorId": 925,
+    "DisplayName": "Lueilwitz Inc and Sons",
+    "DisplayDescription": "Optimized multimedia superstructure",
     "Active": true,
-    "ConnectionId": "ut",
-    "MostRecentTimestamp": "neque",
+    "ConnectionId": "ipsa",
+    "MostRecentTimestamp": "voluptatem",
     "ConfigFields": {
-      "ConfigFields1": "ratione",
-      "ConfigFields2": "quis"
+      "ConfigFields1": "sapiente",
+      "ConfigFields2": "numquam"
     },
     "Deleted": true,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      893,
-      168
+      765,
+      167
     ],
     "AssociateAccessIds": [
-      839,
-      410
+      932,
+      72
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 360
       }
     }
   }

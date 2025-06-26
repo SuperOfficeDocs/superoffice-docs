@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Kemmer-Christiansen",
-    "ToolTip": "Quia fuga veritatis sint officia.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "voluptas",
-    "ColorBlock": 737,
-    "IconHint": "ut",
+    "Id": 510,
+    "Name": "Kulas, Upton and Sawayn",
+    "ToolTip": "Eos numquam esse quis nam est.",
+    "Deleted": false,
+    "Rank": 830,
+    "Type": "voluptatem",
+    "ColorBlock": 411,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2009-10-09T17:54:09.1324271+02:00",
+    "LastChanged": "2013-03-05T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Grady Group",
-        "ToolTip": "Repudiandae voluptas fugiat enim nam nobis et.",
-        "Deleted": false,
-        "Rank": 640,
-        "Type": "voluptatem",
-        "ColorBlock": 144,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2005-02-22T17:54:09.1324271+01:00",
+        "Id": 389,
+        "Name": "Treutel, Schinner and Windler",
+        "ToolTip": "Fugit et.",
+        "Deleted": true,
+        "Rank": 505,
+        "Type": "qui",
+        "ColorBlock": 633,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2008-08-26T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "quia",
+        "ExtraInfo": "sunt",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Dr. Bethany Araceli Dooley III"
+        "FullName": "Cristian Bartoletti"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Ms. Bria Tyrell Keebler"
+    "ExtraInfo": "aliquam",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Ms. Anastasia Hamill PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Homenick LLC",
-    "ToolTip": "Inventore perferendis magni aut.",
+    "Id": 960,
+    "Name": "Beatty-Conroy",
+    "ToolTip": "Laboriosam commodi.",
     "Deleted": false,
-    "Rank": 527,
-    "Type": "est",
-    "ColorBlock": 757,
-    "IconHint": "expedita",
+    "Rank": 674,
+    "Type": "qui",
+    "ColorBlock": 120,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2009-04-13T17:54:09.1324271+02:00",
+    "LastChanged": "2025-02-15T03:45:29.2484114+01:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Krajcik-Tromp",
-        "ToolTip": "Asperiores dolores.",
-        "Deleted": true,
-        "Rank": 573,
-        "Type": "inventore",
-        "ColorBlock": 790,
-        "IconHint": "nostrum",
-        "Selected": true,
-        "LastChanged": "2015-07-16T17:54:09.1324271+02:00",
+        "Id": 449,
+        "Name": "Cummings-Mohr",
+        "ToolTip": "Animi fugiat sed omnis nihil autem voluptas omnis.",
+        "Deleted": false,
+        "Rank": 203,
+        "Type": "cum",
+        "ColorBlock": 867,
+        "IconHint": "fuga",
+        "Selected": false,
+        "LastChanged": "2004-07-25T03:45:29.2484114+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Prof. Elissa Johnny Quigley III",
+        "ExtraInfo": "neque",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Oma Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 734
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "corrupti",
-    "Hidden": false,
-    "FullName": "Aleen Hegmann",
+    "ExtraInfo": "commodi",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Gino Gus Huel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 19
       }
     }
   }

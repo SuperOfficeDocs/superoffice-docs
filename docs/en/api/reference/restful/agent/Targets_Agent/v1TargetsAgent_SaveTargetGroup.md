@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 543,
-  "Year": 588,
+  "TargetGroupId": 668,
+  "Year": 66,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 756,
+      "TargetAssignmentInfoId": 49,
       "Values": [
-        493,
-        662
+        86,
+        761
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 269,
-      "DimensionListItemDisplayName": "Krajcik-Cremin"
+      "DimensionListItem": 23,
+      "DimensionListItemDisplayName": "Russel, Altenwerth and Smith"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 401,
-  "Year": 67,
+  "TargetGroupId": 398,
+  "Year": 301,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 84,
+      "TargetAssignmentInfoId": 639,
       "Values": [
-        189,
-        135
+        559,
+        393
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 152,
-      "DimensionListItemDisplayName": "Baumbach, Sanford and Pfannerstill",
+      "DimensionListItem": 226,
+      "DimensionListItemDisplayName": "Williamson-Kuhic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 39
     }
   }
 }

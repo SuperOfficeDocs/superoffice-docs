@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "accusamus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "accusamus",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-05-18T17:54:08.5076972+02:00",
-  "Amount": 16976.878,
-  "SaleId": 46,
-  "Earning": 2378.706,
-  "EarningPercent": 8236.152,
-  "Heading": "praesentium",
-  "Number": "1735966",
-  "Probability": 563,
-  "CreatedDate": "2024-07-08T17:54:08.5076972+02:00",
-  "UpdatedDate": "1999-02-02T17:54:08.5076972+01:00",
+  "Saledate": "2000-04-23T03:45:28.6234387+02:00",
+  "Amount": 26056.076,
+  "SaleId": 532,
+  "Earning": 29879.556,
+  "EarningPercent": 5857.446,
+  "Heading": "velit",
+  "Number": "103315",
+  "Probability": 162,
+  "CreatedDate": "2001-12-24T03:45:28.6234387+01:00",
+  "UpdatedDate": "2020-12-06T03:45:28.6234387+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 412,
+  "ActiveLinks": 112,
   "Links": [
     {
-      "EntityName": "Hagenes-Brown",
-      "Id": 400,
-      "Description": "Intuitive client-server superstructure",
-      "ExtraInfo": "aut",
-      "LinkId": 159,
+      "EntityName": "Mitchell-Conn",
+      "Id": 346,
+      "Description": "Fundamental content-based installation",
+      "ExtraInfo": "est",
+      "LinkId": 621,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldLength": 762
         }
       }
     }
   ],
-  "NextDueDate": "2021-07-27T17:54:08.5076972+02:00",
-  "Postit": "amet",
+  "NextDueDate": "2012-01-27T03:45:28.6234387+01:00",
+  "Postit": "earum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-10-26T17:54:08.5076972+02:00",
+  "ReopenDate": "2004-06-29T03:45:28.6234387+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kunze, Wuckert and Watsica",
-      "Comment": "quaerat",
-      "StakeholderRoleId": 504,
-      "CountryId": 676,
-      "PersonId": 3,
-      "EmailDescription": "ricky_mills@runolfsson.co.uk",
-      "EmailId": 83,
-      "EmailAddress": "alba@thielmarks.ca",
-      "PhoneId": 424,
-      "ContactName": "Kilback, Zemlak and Hackett",
-      "ContactId": 920,
-      "SaleId": 306,
-      "Mrmrs": "officia",
-      "Firstname": "Gerda",
-      "MiddleName": "Mann, Schaden and Hahn",
-      "Lastname": "Lynch",
-      "SaleStakeholderId": 912,
-      "Rank": 171,
-      "Phone": "1-950-225-9645 x8477",
+      "StakeholderRoleName": "Champlin-Adams",
+      "Comment": "laborum",
+      "StakeholderRoleId": 627,
+      "CountryId": 49,
+      "PersonId": 719,
+      "EmailDescription": "estell@skiles.biz",
+      "EmailId": 15,
+      "EmailAddress": "nicola_collins@jakubowski.co.uk",
+      "PhoneId": 295,
+      "ContactName": "Hudson-Kassulke",
+      "ContactId": 36,
+      "SaleId": 36,
+      "Mrmrs": "maiores",
+      "Firstname": "Myah",
+      "MiddleName": "Stehr, Witting and Bednar",
+      "Lastname": "Nikolaus",
+      "SaleStakeholderId": 527,
+      "Rank": 543,
+      "Phone": "(818)199-1192",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldLength": 370
         }
       }
     }
   ],
-  "ActiveErpLinks": 952,
+  "ActiveErpLinks": 851,
   "UserDefinedFields": {
-    "SuperOffice:1": "Holly Sipes I",
-    "SuperOffice:2": "Horace Lueilwitz"
+    "SuperOffice:1": "329320347",
+    "SuperOffice:2": "2110678891"
   },
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "nihil",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2021-02-01T17:54:08.5230811+01:00",
-  "PublishTo": "2005-06-24T17:54:08.5230811+02:00",
-  "PublishFrom": "2010-02-24T17:54:08.5230811+01:00",
+  "PublishEventDate": "2001-03-24T03:45:28.6234387+01:00",
+  "PublishTo": "2003-09-17T03:45:28.6234387+02:00",
+  "PublishFrom": "2019-10-22T03:45:28.6234387+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 628,
+      "VisibleId": 49,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 15
+          "FieldType": "System.String",
+          "FieldLength": 8
         }
       }
     },
     {
-      "VisibleId": 628,
+      "VisibleId": 49,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 15
+          "FieldType": "System.String",
+          "FieldLength": 8
         }
       }
     }
@@ -305,8 +305,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   },
   "_Links": {

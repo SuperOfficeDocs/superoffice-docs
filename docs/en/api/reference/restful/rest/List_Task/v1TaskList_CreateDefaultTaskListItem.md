@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 248,
-  "Value": "nihil",
+  "TaskListItemId": 183,
+  "Value": "deserunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "non",
-  "Deleted": true,
-  "IntentId": 612,
-  "Rank": 462,
-  "IsDefaultAlldayEvent": true,
+  "Tooltip": "ut",
+  "Deleted": false,
+  "IntentId": 368,
+  "Rank": 258,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 687
     }
   }
 }

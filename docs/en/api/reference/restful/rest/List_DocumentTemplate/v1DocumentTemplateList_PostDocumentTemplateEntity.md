@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 591,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "velit",
-  "SaveInDb": 702,
-  "Filename": "autem",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 793,
+  "Name": "Murray, Kling and Harvey",
+  "Tooltip": "eos",
+  "SaveInDb": 456,
+  "Filename": "maxime",
+  "DefaultOref": "eveniet",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 500,
-  "IntentId": 106,
+  "AutoeventId": 326,
+  "IntentId": 511,
   "IsDefaultPublished": false,
-  "Rank": 259,
-  "LoadTemplateFromPlugin": 807,
-  "MimeType": "unde",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 960,
+  "Rank": 161,
+  "LoadTemplateFromPlugin": 933,
+  "MimeType": "est",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 751,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "euna.pagac@dubuque.name",
+  "EmailSubject": "anabel_daniel@hammeseichmann.ca",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vernie@hettinger.name",
+  "SenderEmailAddress": "donald@zemlakswaniawski.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 268,
-  "Name": "Johnston, Rowe and Reichel",
-  "Tooltip": "et",
-  "SaveInDb": 206,
-  "Filename": "sequi",
-  "DefaultOref": "optio",
+  "DocumentTemplateId": 809,
+  "Name": "Harber Inc and Sons",
+  "Tooltip": "nesciunt",
+  "SaveInDb": 561,
+  "Filename": "recusandae",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 357,
-  "IntentId": 206,
+  "AutoeventId": 530,
+  "IntentId": 512,
   "IsDefaultPublished": false,
-  "Rank": 73,
-  "LoadTemplateFromPlugin": 189,
-  "MimeType": "officiis",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 168,
+  "Rank": 130,
+  "LoadTemplateFromPlugin": 601,
+  "MimeType": "rem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 791,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eloise_fisher@cronin.ca",
+  "EmailSubject": "dayana@schaefer.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "karen.cummerata@champlinmurazik.uk",
+  "SenderEmailAddress": "dax_gleichner@murphy.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 461
     }
   }
 }

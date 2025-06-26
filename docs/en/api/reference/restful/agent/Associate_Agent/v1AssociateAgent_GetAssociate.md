@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=967
+POST /api/v1/Agents/Associate/GetAssociate?associateId=67
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 836,
-  "Name": "Kautzer Group",
-  "PersonId": 76,
-  "Rank": 188,
-  "Tooltip": "eos",
+  "AssociateId": 377,
+  "Name": "Gusikowski LLC",
+  "PersonId": 478,
+  "Rank": 241,
+  "Tooltip": "repellat",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 148,
-  "FullName": "Ms. Brad Margarita Wolf",
-  "FormalName": "Beier-Hills",
-  "Deleted": true,
-  "EjUserId": 327,
-  "UserName": "O'Keefe-Mueller",
+  "GroupIdx": 411,
+  "FullName": "Miss Flavie Hettinger II",
+  "FormalName": "Murazik LLC",
+  "Deleted": false,
+  "EjUserId": 508,
+  "UserName": "Strosin, Bayer and Gutkowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 823
     }
   }
 }

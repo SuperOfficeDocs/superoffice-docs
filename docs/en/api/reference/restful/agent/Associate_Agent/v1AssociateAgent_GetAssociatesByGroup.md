@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 544,
-  "Type": 980
+  "GroupId": 954,
+  "Type": 485
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 34,
-    "Name": "Muller Group",
-    "PersonId": 625,
-    "Rank": 794,
-    "Tooltip": "consequuntur",
+    "AssociateId": 744,
+    "Name": "Stark Group",
+    "PersonId": 985,
+    "Rank": 488,
+    "Tooltip": "illum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 417,
-    "FullName": "Mrs. Martine Jewess III",
-    "FormalName": "Cummerata, Klocko and Conroy",
+    "GroupIdx": 616,
+    "FullName": "Alexis Schulist",
+    "FormalName": "Harber Group",
     "Deleted": false,
-    "EjUserId": 495,
-    "UserName": "Paucek, O'Keefe and Nikolaus",
+    "EjUserId": 507,
+    "UserName": "Greenfelder LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 414
       }
     }
   }

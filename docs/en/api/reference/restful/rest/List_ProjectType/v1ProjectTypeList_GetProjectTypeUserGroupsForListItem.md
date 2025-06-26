@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Wolf, Haag and Jakubowski",
-    "ToolTip": "Voluptatem omnis eos at rem recusandae tempore iste.",
-    "Deleted": false,
-    "Rank": 375,
-    "Type": "perferendis",
-    "ColorBlock": 624,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "1999-07-08T17:54:08.9917951+02:00",
+    "Id": 445,
+    "Name": "Russel, Mills and Reichel",
+    "ToolTip": "Ut et quae provident non sapiente enim.",
+    "Deleted": true,
+    "Rank": 95,
+    "Type": "sint",
+    "ColorBlock": 156,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2011-06-23T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Wintheiser-Daugherty",
-        "ToolTip": "Porro mollitia recusandae et ut doloremque quo aut.",
-        "Deleted": true,
-        "Rank": 278,
-        "Type": "autem",
-        "ColorBlock": 841,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2011-05-19T17:54:08.9917951+02:00",
+        "Id": 771,
+        "Name": "Marvin Group",
+        "ToolTip": "Velit fugiat et deleniti sequi cumque.",
+        "Deleted": false,
+        "Rank": 875,
+        "Type": "doloremque",
+        "ColorBlock": 715,
+        "IconHint": "quae",
+        "Selected": true,
+        "LastChanged": "2016-02-01T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
+        "ExtraInfo": "est",
         "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Haylee Flatley",
+        "FullName": "Karelle Mona Feest IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 284
+            "FieldType": "System.Int32",
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "minus",
+    "ExtraInfo": "placeat",
+    "StyleHint": "impedit",
     "Hidden": true,
-    "FullName": "Aurelio Nicolas",
+    "FullName": "Brielle Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 146
       }
     }
   }

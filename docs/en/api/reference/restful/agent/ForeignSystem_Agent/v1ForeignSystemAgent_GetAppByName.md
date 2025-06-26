@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bins, Hartmann and Schaefer"
+  "ApplicationName": "Langworth, Yost and Nicolas"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 744,
-  "Name": "Spencer-Pouros",
-  "CreatedDate": "2024-10-06T17:54:03.1639551+02:00",
-  "UpdatedDate": "2007-06-15T17:54:03.1639551+02:00",
+  "ForeignAppId": 569,
+  "Name": "Treutel Inc and Sons",
+  "CreatedDate": "2011-01-05T03:45:23.4829546+01:00",
+  "UpdatedDate": "2008-04-08T03:45:23.4829546+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 766,
-      "Name": "Littel-Larkin",
-      "CreatedDate": "2023-02-11T17:54:03.1639551+01:00",
-      "UpdatedDate": "2011-12-30T17:54:03.1639551+01:00",
-      "AssociateFullName": "Earlene Gleason",
-      "CreatedBy": "quae",
-      "UpdatedBy": "natus",
-      "DeviceIdentifier": "rerum",
-      "ForeignAppId": 433,
+      "ForeignDeviceId": 127,
+      "Name": "Abernathy-Harber",
+      "CreatedDate": "1998-12-26T03:45:23.4829546+01:00",
+      "UpdatedDate": "2024-05-28T03:45:23.4829546+02:00",
+      "AssociateFullName": "Dorian McGlynn",
+      "CreatedBy": "dolores",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 623,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 1001
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schumm-Schulist",
+  "TableName": "Berge-Casper",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Oberbrunner LLC",
-    "DisplayName": "Rohan-Macejkovic",
-    "Description": "Public-key motivating matrix",
+    "FieldName": "Lowe-Kassulke",
+    "DisplayName": "Doyle-Ankunding",
+    "Description": "Synergized actuating solution",
     "ShortLabel": "et",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 42,
-    "TemplateVariableName": "Blanda LLC"
+    "Rank": 187,
+    "TemplateVariableName": "Goyette-Mosciski"
   }
 ]
 ```

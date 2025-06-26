@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Gusikowski-Hagenes",
-    "Tooltip": "nesciunt",
+    "Id": 402,
+    "Name": "Hermiston Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 24,
-    "Rank": 505,
+    "UdListDefinitionId": 917,
+    "Rank": 491,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldLength": 638
       }
     }
   }

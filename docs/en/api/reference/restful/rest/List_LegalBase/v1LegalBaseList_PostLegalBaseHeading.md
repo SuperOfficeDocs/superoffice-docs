@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 449,
-  "Name": "Ortiz LLC",
-  "Tooltip": "assumenda",
+  "HeadingId": 113,
+  "Name": "Feil, Effertz and O'Kon",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 877
+  "Rank": 501,
+  "UdListDefinitionId": 57
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 833,
-  "Name": "Johnston-Berge",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 617,
-  "UdListDefinitionId": 190,
+  "HeadingId": 405,
+  "Name": "Kreiger-Witting",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 507,
+  "UdListDefinitionId": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

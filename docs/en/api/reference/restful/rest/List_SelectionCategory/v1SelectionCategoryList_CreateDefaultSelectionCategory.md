@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Ratke LLC",
-  "Tooltip": "ratione",
+  "Id": 375,
+  "Name": "Skiles-Adams",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 588,
-  "Rank": 437,
+  "UdListDefinitionId": 917,
+  "Rank": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

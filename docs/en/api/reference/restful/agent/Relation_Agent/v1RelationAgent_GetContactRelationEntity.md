@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=968
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=228
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 121,
-  "SourcePersonId": 510,
-  "DestinationContactId": 833,
-  "DestinationPersonId": 498,
-  "RelationId": 427,
-  "Comment": "quia",
-  "RelationDefinitionId": 229,
-  "Reversed": 381,
-  "UpdatedDate": "2019-03-22T17:54:03.5389365+01:00",
-  "CreatedDate": "2002-06-06T17:54:03.5389365+02:00",
+  "SourceContactId": 794,
+  "SourcePersonId": 420,
+  "DestinationContactId": 254,
+  "DestinationPersonId": 497,
+  "RelationId": 32,
+  "Comment": "et",
+  "RelationDefinitionId": 70,
+  "Reversed": 693,
+  "UpdatedDate": "2004-02-15T03:45:23.8423206+01:00",
+  "CreatedDate": "2013-06-17T03:45:23.8423206+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hirthe, Walter and Harber",
-  "SourcePersonName": "Stracke Inc and Sons",
-  "DestinationContactName": "Hickle-Cartwright",
-  "DestinationPersonName": "Schowalter-West",
-  "ActiveText": "quibusdam",
-  "PassiveText": "est",
+  "SourceContactName": "Beahan, Schumm and Schroeder",
+  "SourcePersonName": "Nicolas LLC",
+  "DestinationContactName": "Bauch Group",
+  "DestinationPersonName": "Deckow Group",
+  "ActiveText": "et",
+  "PassiveText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 646
     }
   }
 }

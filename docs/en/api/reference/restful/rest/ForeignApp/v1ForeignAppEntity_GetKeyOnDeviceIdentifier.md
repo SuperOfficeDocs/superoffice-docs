@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Jun 2024 17:54:08 G6T
+Last-Modified: Sun, 22 Sep 2019 03:45:28 G9T
 
 {
-  "Key": "quam",
-  "Value": "in",
-  "RecordId": 672,
-  "CreatedDate": "2009-09-10T17:54:08.2574567+02:00",
-  "UpdatedDate": "2024-06-12T17:54:08.2574567+02:00",
-  "UpdatedBy": "temporibus",
+  "Key": "non",
+  "Value": "minus",
+  "RecordId": 529,
+  "CreatedDate": "2019-10-26T03:45:28.3578119+02:00",
+  "UpdatedDate": "2019-09-22T03:45:28.3578119+02:00",
+  "UpdatedBy": "odit",
   "CreatedBy": "molestiae",
-  "TableName": "Ferry Inc and Sons",
+  "TableName": "Kulas-Mann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

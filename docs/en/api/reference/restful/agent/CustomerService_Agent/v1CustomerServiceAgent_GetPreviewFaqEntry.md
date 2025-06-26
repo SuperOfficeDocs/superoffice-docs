@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 272
+  "KbEntryId": 729
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "ex",
-  "RegisteredByFullName": "Karson Lonzo Watsica Jr.",
-  "Updated": "2010-03-13T17:54:02.9295831+01:00",
-  "Question": "labore",
-  "Answer": "sit",
+  "Title": "odio",
+  "RegisteredByFullName": "Odie Kris DVM",
+  "Updated": "2022-11-29T03:45:23.2485827+01:00",
+  "Question": "sed",
+  "Answer": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 526
     }
   }
 }

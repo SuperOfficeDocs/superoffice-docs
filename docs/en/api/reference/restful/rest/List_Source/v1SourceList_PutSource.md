@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Spinka Group",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "UdListDefinitionId": 708,
-  "Rank": 982
+  "Id": 90,
+  "Name": "Walsh, Kutch and Durgan",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "UdListDefinitionId": 689,
+  "Rank": 700
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 373,
-  "Name": "Hansen, Kuhlman and Roob",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "UdListDefinitionId": 845,
-  "Rank": 653,
+  "Id": 486,
+  "Name": "Gleichner-Batz",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 460,
+  "Rank": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 169
     }
   }
 }

@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 748,
-  "UniqueId": "ipsa",
-  "Name": "Parker Group",
-  "Description": "Right-sized hybrid process improvement",
-  "AssociateId": 929,
-  "Columns": 323,
+  "DashboardId": 859,
+  "UniqueId": "odio",
+  "Name": "Pouros Group",
+  "Description": "Enterprise-wide bandwidth-monitored middleware",
+  "AssociateId": 978,
+  "Columns": 627,
   "Theme": null,
-  "VisibleForAll": 617,
+  "VisibleForAll": 358,
   "VisibleForAssociates": [
-    745,
-    963
+    212,
+    390
   ],
   "VisibleForGroups": [
-    957,
-    524
+    389,
+    209
   ],
-  "PinForAll": 462,
+  "PinForAll": 456,
   "PinForAssociates": [
-    859,
-    775
+    301,
+    114
   ],
   "PinForGroups": [
-    922,
-    910
+    253,
+    427
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 141,
-  "UniqueId": "reprehenderit",
-  "Name": "Jakubowski-Davis",
-  "Description": "Right-sized transitional service-desk",
-  "AssociateId": 616,
-  "Columns": 72,
+  "DashboardId": 948,
+  "UniqueId": "dolor",
+  "Name": "Blick-Wehner",
+  "Description": "User-centric hybrid time-frame",
+  "AssociateId": 603,
+  "Columns": 112,
   "Theme": null,
-  "VisibleForAll": 619,
+  "VisibleForAll": 196,
   "VisibleForAssociates": [
-    262,
-    223
+    263,
+    40
   ],
   "VisibleForGroups": [
-    678,
-    23
+    402,
+    620
   ],
-  "PinForAll": 764,
+  "PinForAll": 614,
   "PinForAssociates": [
-    777,
-    378
+    976,
+    26
   ],
   "PinForGroups": [
-    794,
-    884
+    363,
+    920
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 883
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

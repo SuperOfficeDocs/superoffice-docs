@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "est",
-    "itaque"
+    "dolore",
+    "voluptatibus"
   ]
 }
 ```

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 163,
-  "FieldName": "Ritchie Group",
-  "Label": "dolor",
-  "Tooltip": "commodi",
+  "QuoteLineConfigurationId": 706,
+  "FieldName": "Hills Inc and Sons",
+  "Label": "aspernatur",
+  "Tooltip": "magnam",
   "Editable": true,
-  "InUse": true,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 343,
+  "Rank": 425,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

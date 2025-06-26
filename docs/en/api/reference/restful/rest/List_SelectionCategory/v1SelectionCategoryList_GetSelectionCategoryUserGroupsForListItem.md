@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Schinner Group",
-    "ToolTip": "Praesentium consectetur aut.",
+    "Id": 937,
+    "Name": "Franecki, Thompson and Bradtke",
+    "ToolTip": "Tenetur minima est omnis est.",
     "Deleted": false,
-    "Rank": 511,
-    "Type": "illum",
-    "ColorBlock": 192,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2020-03-03T17:54:09.1168029+01:00",
+    "Rank": 19,
+    "Type": "molestias",
+    "ColorBlock": 990,
+    "IconHint": "recusandae",
+    "Selected": true,
+    "LastChanged": "2009-01-20T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Ankunding-Keeling",
-        "ToolTip": "Eum est minima animi unde.",
+        "Id": 750,
+        "Name": "Hodkiewicz, Witting and Olson",
+        "ToolTip": "Aperiam beatae autem.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "magni",
-        "ColorBlock": 372,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "1998-07-26T17:54:09.1168029+02:00",
+        "Rank": 559,
+        "Type": "et",
+        "ColorBlock": 442,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2022-12-04T03:45:29.2327869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "est",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Bobbie Bode",
+        "FullName": "Nellie Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 151
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "sunt",
+    "ExtraInfo": "a",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Noelia Renner",
+    "FullName": "Warren Bosco Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 482
       }
     }
   }

@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 112,
-  "CustomerCustomerReplyTemplateId": 103,
-  "CustomerPasswordTemplateId": 561,
-  "CustomerConfirmEmailTemplateId": 857,
-  "CustomerChatLogTemplateId": 541,
-  "NewLinkTemplateId": 48,
-  "HotlistNewMessageTemplateId": 755,
-  "HotlistTicketActivatedTemplateId": 224,
-  "UserTicketAlarmTemplateId": 867,
-  "HotlistTicketTakenOverTemplateId": 808,
-  "UserActiveTicketsTemplateId": 478,
-  "UserNewMessageTemplateId": 677,
-  "UserTicketActivatedTemplateId": 991,
+  "CustomerNewCustomerTemplateId": 421,
+  "CustomerCustomerReplyTemplateId": 52,
+  "CustomerPasswordTemplateId": 448,
+  "CustomerConfirmEmailTemplateId": 276,
+  "CustomerChatLogTemplateId": 848,
+  "NewLinkTemplateId": 908,
+  "HotlistNewMessageTemplateId": 553,
+  "HotlistTicketActivatedTemplateId": 466,
+  "UserTicketAlarmTemplateId": 658,
+  "HotlistTicketTakenOverTemplateId": 811,
+  "UserActiveTicketsTemplateId": 606,
+  "UserNewMessageTemplateId": 873,
+  "UserTicketActivatedTemplateId": 931,
   "UserNewTicketTemplateId": 603,
-  "PublishKbQuestionTemplateId": 817,
-  "PublishKbAnswerTemplateId": 913,
-  "UserTicketTakenOverTemplateId": 71,
-  "PrintTicketTemplateId": 179,
-  "WeekStatTemplateId": 353,
-  "TicketAlarmHotlistTemplateId": 363,
-  "EmailAddresses": "jamaal@harvey.biz",
+  "PublishKbQuestionTemplateId": 138,
+  "PublishKbAnswerTemplateId": 352,
+  "UserTicketTakenOverTemplateId": 558,
+  "PrintTicketTemplateId": 200,
+  "WeekStatTemplateId": 807,
+  "TicketAlarmHotlistTemplateId": 751,
+  "EmailAddresses": "rosetta_kling@hahnhamill.co.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

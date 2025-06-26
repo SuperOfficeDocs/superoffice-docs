@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Dietrich-Cassin",
-    "ToolTip": "Quia mollitia quo dignissimos.",
+    "Id": 98,
+    "Name": "Schoen-Tromp",
+    "ToolTip": "Id repudiandae perferendis magnam quam quia odio explicabo.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "asperiores",
-    "ColorBlock": 920,
-    "IconHint": "est",
+    "Rank": 553,
+    "Type": "eaque",
+    "ColorBlock": 132,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1998-08-04T17:54:09.0858036+02:00",
+    "LastChanged": "2018-01-07T03:45:29.2015441+01:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Conn Inc and Sons",
-        "ToolTip": "Voluptatem qui sit aut.",
-        "Deleted": true,
-        "Rank": 599,
-        "Type": "dolor",
-        "ColorBlock": 905,
-        "IconHint": "id",
+        "Id": 762,
+        "Name": "Breitenberg-Osinski",
+        "ToolTip": "Eveniet at omnis.",
+        "Deleted": false,
+        "Rank": 767,
+        "Type": "aperiam",
+        "ColorBlock": 525,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "1998-12-04T17:54:09.0858036+01:00",
+        "LastChanged": "2015-03-12T03:45:29.2015441+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Dr. Soledad Lauretta Donnelly",
+        "ExtraInfo": "iure",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Audra Lindgren V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldLength": 505
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolores",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Alexandra Mertz I",
+    "FullName": "Ms. Alyson Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldType": "System.String",
+        "FieldLength": 883
       }
     }
   }

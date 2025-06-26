@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Hansen-Walker",
-    "ToolTip": "Ut dolore.",
+    "Id": 156,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Quis eos et neque saepe.",
     "Deleted": true,
-    "Rank": 754,
-    "Type": "suscipit",
-    "ColorBlock": 993,
-    "IconHint": "labore",
+    "Rank": 941,
+    "Type": "tenetur",
+    "ColorBlock": 673,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2001-04-26T17:54:08.9449229+02:00",
+    "LastChanged": "2018-02-16T03:45:29.060917+01:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Kessler Group",
-        "ToolTip": "Non reiciendis similique et et.",
+        "Id": 84,
+        "Name": "Wuckert Inc and Sons",
+        "ToolTip": "Dolor nisi laudantium sed nam et.",
         "Deleted": false,
-        "Rank": 394,
-        "Type": "et",
-        "ColorBlock": 217,
-        "IconHint": "nulla",
+        "Rank": 291,
+        "Type": "ea",
+        "ColorBlock": 81,
+        "IconHint": "dolores",
         "Selected": true,
-        "LastChanged": "2004-05-28T17:54:08.9449229+02:00",
+        "LastChanged": "2009-08-31T03:45:29.060917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "ad",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Kailey Lemke",
+        "FullName": "Prof. Kelvin Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldType": "System.String",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "nobis",
+    "ExtraInfo": "officiis",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Anais Cassin",
+    "FullName": "Mr. Lewis Rosenbaum I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

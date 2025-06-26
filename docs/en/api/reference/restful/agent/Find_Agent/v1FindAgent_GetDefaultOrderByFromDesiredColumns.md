@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McKenzie, Torp and Hand",
+  "ProviderName": "Farrell, Emmerich and Towne",
   "DesiredColumns": [
-    "pariatur",
-    "non"
+    "voluptate",
+    "hic"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros Inc and Sons",
+    "Name": "Schulist-Flatley",
     "Direction": "ASC"
   },
   {
-    "Name": "Pouros Inc and Sons",
+    "Name": "Schulist-Flatley",
     "Direction": "ASC"
   }
 ]

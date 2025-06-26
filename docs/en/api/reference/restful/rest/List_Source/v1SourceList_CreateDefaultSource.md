@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Bauch-Wisozk",
-  "Tooltip": "aut",
+  "Id": 280,
+  "Name": "Bartoletti LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 659,
-  "Rank": 308,
+  "UdListDefinitionId": 27,
+  "Rank": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldType": "System.Int32",
+      "FieldLength": 630
     }
   }
 }

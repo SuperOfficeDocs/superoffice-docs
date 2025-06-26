@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 941,
-  "Name": "Torphy, Reilly and Bruen",
-  "Tooltip": "numquam",
-  "TableName": "Johns Inc and Sons",
-  "Area": "consequatur",
+  "TaskMenuId": 172,
+  "Name": "Smitham-Cummings",
+  "Tooltip": "est",
+  "TableName": "Towne Group",
+  "Area": "repellendus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 701,
+  "CrmScriptId": 132,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 368,
+  "Rank": 120,
   "Encoding": "ANSI",
-  "ProgId": "cupiditate",
+  "ProgId": "ipsam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 391
     }
   }
 }

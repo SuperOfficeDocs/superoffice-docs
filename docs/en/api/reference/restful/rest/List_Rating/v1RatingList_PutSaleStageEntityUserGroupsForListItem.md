@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Bechtelar, Ratke and Kris",
-    "ToolTip": "Ab dolor.",
+    "Id": 284,
+    "Name": "Beer LLC",
+    "ToolTip": "Quisquam necessitatibus culpa ut ut unde.",
     "Deleted": true,
-    "Rank": 783,
-    "Type": "quasi",
-    "ColorBlock": 296,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2015-02-20T17:54:09.0858036+01:00",
+    "Rank": 164,
+    "Type": "illo",
+    "ColorBlock": 184,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2008-03-18T03:45:29.1859346+01:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Ebert, Huel and Conn",
-        "ToolTip": "Voluptas ab ut doloremque aut ea et nihil.",
+        "Id": 555,
+        "Name": "Hegmann, Huels and Parker",
+        "ToolTip": "Laudantium expedita fuga excepturi voluptatum ab.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "aut",
-        "ColorBlock": 526,
-        "IconHint": "est",
+        "Rank": 854,
+        "Type": "commodi",
+        "ColorBlock": 145,
+        "IconHint": "nisi",
         "Selected": true,
-        "LastChanged": "2015-08-03T17:54:09.0858036+02:00",
+        "LastChanged": "2021-03-08T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Dr. Riley Filomena King V"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Kaylah Kuvalis"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Dr. Kamron Hilll DVM"
+    "ExtraInfo": "et",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Ansel Metz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Franecki-Schaefer",
-    "ToolTip": "Iste reprehenderit et enim error earum.",
-    "Deleted": false,
-    "Rank": 64,
-    "Type": "esse",
-    "ColorBlock": 991,
-    "IconHint": "praesentium",
+    "Id": 283,
+    "Name": "Altenwerth, Labadie and Hermann",
+    "ToolTip": "Dolores neque odio autem doloremque sequi minus.",
+    "Deleted": true,
+    "Rank": 886,
+    "Type": "debitis",
+    "ColorBlock": 124,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2006-06-07T17:54:09.0858036+02:00",
+    "LastChanged": "2016-09-16T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "McDermott LLC",
-        "ToolTip": "Ut quam doloribus aut suscipit.",
+        "Id": 648,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Deserunt ullam consequatur enim.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "soluta",
-        "ColorBlock": 405,
-        "IconHint": "est",
+        "Rank": 955,
+        "Type": "quo",
+        "ColorBlock": 747,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2013-11-11T17:54:09.0858036+01:00",
+        "LastChanged": "2007-09-25T03:45:29.1859346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "est",
+        "ExtraInfo": "cum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Aurore Skyla Yost",
+        "FullName": "Mrs. Anastacio Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 218
+            "FieldLength": 691
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "error",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Mr. Rudolph Caesar Stanton",
+    "FullName": "Mr. Sierra O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 796
       }
     }
   }

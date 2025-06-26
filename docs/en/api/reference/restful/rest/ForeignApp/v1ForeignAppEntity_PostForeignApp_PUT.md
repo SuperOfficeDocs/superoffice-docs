@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 140,
-  "Name": "Cremin, Orn and Mitchell",
-  "CreatedDate": "2004-03-30T17:54:08.2418376+02:00",
-  "UpdatedDate": "2004-06-01T17:54:08.2418376+02:00",
+  "ForeignAppId": 202,
+  "Name": "Anderson, Beatty and Reilly",
+  "CreatedDate": "2005-09-26T03:45:28.3578119+02:00",
+  "UpdatedDate": "2008-12-21T03:45:28.3578119+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 83,
-      "Name": "Blanda, Dietrich and Schmitt",
-      "CreatedDate": "2021-05-27T17:54:08.2418376+02:00",
-      "UpdatedDate": "2016-05-19T17:54:08.2418376+02:00",
-      "AssociateFullName": "Dr. Ariel Verna Kertzmann",
-      "CreatedBy": "deserunt",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "quaerat",
-      "ForeignAppId": 354,
+      "ForeignDeviceId": 971,
+      "Name": "Mraz, Stokes and Klocko",
+      "CreatedDate": "2010-01-31T03:45:28.3578119+01:00",
+      "UpdatedDate": "2025-01-19T03:45:28.3578119+01:00",
+      "AssociateFullName": "Dimitri Beer",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "minus",
+      "DeviceIdentifier": "labore",
+      "ForeignAppId": 820,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 576
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
+  "Id": 212,
   "Entities": [
     {
-      "HeadingId": 524,
-      "Name": "Zboncak-Hermiston",
-      "Tooltip": "assumenda",
-      "Deleted": true,
-      "Rank": 197,
-      "UdListDefinitionId": 793
+      "HeadingId": 961,
+      "Name": "Franecki-Reynolds",
+      "Tooltip": "et",
+      "Deleted": false,
+      "Rank": 794,
+      "UdListDefinitionId": 660
     },
     {
-      "HeadingId": 524,
-      "Name": "Zboncak-Hermiston",
-      "Tooltip": "assumenda",
-      "Deleted": true,
-      "Rank": 197,
-      "UdListDefinitionId": 793
+      "HeadingId": 961,
+      "Name": "Franecki-Reynolds",
+      "Tooltip": "et",
+      "Deleted": false,
+      "Rank": 794,
+      "UdListDefinitionId": 660
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Upton Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 742,
+    "Name": "Wintheiser, Johnson and Miller",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 375,
+    "Rank": 797,
+    "UdListDefinitionId": 451,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 478
       }
     }
   }

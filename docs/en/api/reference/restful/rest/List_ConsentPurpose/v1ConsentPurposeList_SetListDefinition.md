@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Towne LLC",
-  "Tooltip": "quaerat",
+  "Id": 511,
+  "Name": "White LLC",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 59,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 780,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "maiores",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 787,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "perspiciatis",
+  "Id": 962,
+  "Name": "O'Hara LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 50,
+  "Rank": 830,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "in",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 213
     }
   }
 }

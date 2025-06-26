@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 446,
+  "DocumentId": 743,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "quibusdam",
-  "Name": "Stark, Monahan and McCullough",
-  "OurRef": "officiis",
-  "YourRef": "atque",
-  "CreatedDate": "1999-06-30T17:54:08.2262257+02:00",
-  "UpdatedDate": "1999-11-23T17:54:08.2262257+01:00",
-  "Description": "Exclusive motivating implementation",
+  "Attention": "qui",
+  "Header": "autem",
+  "Name": "Ward, Farrell and Von",
+  "OurRef": "omnis",
+  "YourRef": "repudiandae",
+  "CreatedDate": "2001-03-06T03:45:28.3265627+01:00",
+  "UpdatedDate": "2015-02-07T03:45:28.3265627+01:00",
+  "Description": "Reactive content-based software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-02-01T17:54:08.2262257+01:00",
-  "ExternalRef": "ab",
+  "Date": "2005-10-23T03:45:28.3265627+02:00",
+  "ExternalRef": "fugit",
   "Completed": "Completed",
-  "ActiveLinks": 583,
+  "ActiveLinks": 290,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sanford, Reynolds and Quigley",
-      "Id": 410,
-      "Description": "Multi-lateral bottom-line hub",
-      "ExtraInfo": "beatae",
-      "LinkId": 909,
+      "EntityName": "Hilll LLC",
+      "Id": 298,
+      "Description": "Organic modular groupware",
+      "ExtraInfo": "totam",
+      "LinkId": 218,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 367
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 111,
-  "Snum": 561,
+  "SuggestedDocumentId": 692,
+  "Snum": 348,
   "UserDefinedFields": {
-    "SuperOffice:1": "168131153",
-    "SuperOffice:2": "Dr. Monty Blaise Toy III"
+    "SuperOffice:1": "Chad Bayer",
+    "SuperOffice:2": "Jarrell Marvin Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "sed"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "2018-01-06T17:54:08.2262257+01:00",
-  "PublishTo": "2001-12-23T17:54:08.2262257+01:00",
-  "PublishFrom": "1999-09-08T17:54:08.2262257+02:00",
+  "PublishEventDate": "2008-03-31T03:45:28.3265627+02:00",
+  "PublishTo": "1998-04-28T03:45:28.3265627+02:00",
+  "PublishFrom": "2001-01-30T03:45:28.3265627+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 978,
+      "VisibleId": 962,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 329
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     },
     {
-      "VisibleId": 978,
+      "VisibleId": 962,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 329
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 2
     }
   },
   "_Links": {

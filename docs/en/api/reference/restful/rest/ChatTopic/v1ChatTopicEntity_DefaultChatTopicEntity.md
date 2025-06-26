@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 572,
-  "Name": "Marks Inc and Sons",
-  "Description": "Phased fresh-thinking contingency",
-  "WelcomeMessage": "saepe",
+  "ChatTopicId": 871,
+  "Name": "Nicolas Inc and Sons",
+  "Description": "Customizable solution-oriented throughput",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2015-02-18T17:54:08.0543344+01:00",
-  "SecondsPrAccept": 854,
-  "AlertRecipient": "error",
+  "LastAccept": "1999-03-30T03:45:28.1546963+02:00",
+  "SecondsPrAccept": 784,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quasi",
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 131,
-  "WarnManagerNewChatMinutes": 351,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 726,
+  "WarnManagerNewChatMinutes": 827,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 538,
-  "WarnManagerChatMessageMinutes": 630,
+  "WarnChatMessageMinutes": 920,
+  "WarnManagerChatMessageMinutes": 155,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 929,
-  "OfflineFormQueueLength": 326,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
+  "OfflineFormTimeLimit": 839,
+  "OfflineFormQueueLength": 314,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

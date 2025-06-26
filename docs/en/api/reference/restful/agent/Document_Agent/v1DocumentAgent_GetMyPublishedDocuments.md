@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 69,
-    "Attention": "omnis",
-    "Header": "quibusdam",
-    "Name": "Gerhold Inc and Sons",
-    "OurRef": "voluptas",
-    "YourRef": "non",
-    "Description": "Distributed web-enabled solution",
-    "DocumentTemplate": "neque",
-    "IsPublished": false,
-    "PersonId": 220,
-    "PersonFullName": "Jody Wilderman",
-    "AssociateFullName": "Jazmyne King",
-    "ContactId": 407,
-    "ContactName": "Gleason Inc and Sons",
-    "ProjectId": 399,
-    "ProjectName": "Bernhard-Nicolas",
-    "AssociateId": 670,
-    "Snum": 985,
-    "SaleId": 166,
-    "SaleName": "Weber Inc and Sons",
+    "DocumentId": 557,
+    "Attention": "voluptas",
+    "Header": "dolor",
+    "Name": "Shanahan, Tremblay and Sporer",
+    "OurRef": "ut",
+    "YourRef": "similique",
+    "Description": "Phased 4th generation interface",
+    "DocumentTemplate": "numquam",
+    "IsPublished": true,
+    "PersonId": 804,
+    "PersonFullName": "Elwin Strosin",
+    "AssociateFullName": "Dr. Elda Wyman",
+    "ContactId": 118,
+    "ContactName": "Harris LLC",
+    "ProjectId": 669,
+    "ProjectName": "Eichmann-Kreiger",
+    "AssociateId": 641,
+    "Snum": 540,
+    "SaleId": 799,
+    "SaleName": "Predovic, O'Reilly and White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

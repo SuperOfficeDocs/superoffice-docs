@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 722,
-  "LanguageCode": "distinctio"
+  "DocumentTemplateId": 303,
+  "LanguageCode": "eum"
 }
 ```
 

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 65,
-    "Name": "Mueller, Hilll and Keeling",
-    "OrgNr": "847009",
+    "ContactId": 147,
+    "Name": "Braun-Hauck",
+    "OrgNr": "1115093",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "temporibus",
-    "DirectPhone": "(287)188-2017",
-    "AssociateId": 692,
-    "CountryId": 963,
-    "EmailAddress": "reece@hane.biz",
-    "Kananame": "sunt",
-    "EmailAddressName": "larue_satterfield@rowe.name",
+    "City": "ipsam",
+    "DirectPhone": "120-874-7557",
+    "AssociateId": 457,
+    "CountryId": 67,
+    "EmailAddress": "era@bahringerhalvorson.info",
+    "Kananame": "itaque",
+    "EmailAddressName": "colton.auer@littel.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mr. Alba Arnaldo Steuber Sr.",
+    "AssociateFullName": "Moises Hermiston",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "molestias",
-    "FullName": "Sid Cormier",
+    "FormattedAddress": "voluptatem",
+    "FullName": "Ms. Russ Wilma Goodwin",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 748,
-    "Number1": "1170665",
-    "Number2": "1129621",
+    "ActiveErpLinks": 768,
+    "Number1": "892639",
+    "Number2": "1215261",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 702
       }
     }
   }

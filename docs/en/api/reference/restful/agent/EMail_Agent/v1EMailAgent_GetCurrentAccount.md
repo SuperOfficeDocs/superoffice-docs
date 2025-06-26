@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 842,
-  "EMailAddress": "mollitia",
-  "AssociateId": 513,
+  "EMailAccountId": 152,
+  "EMailAddress": "nemo",
+  "AssociateId": 727,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 38,
-  "ErrorCount": 617,
+  "AccountStatus": 637,
+  "ErrorCount": 410,
   "ErrorReason": "",
-  "InboxFolder": "molestiae",
-  "SentFolder": "tenetur",
-  "SimpleMode": 713,
-  "LastFetch": "2023-06-21T17:54:03.0858331+02:00",
+  "InboxFolder": "possimus",
+  "SentFolder": "illum",
+  "SimpleMode": 912,
+  "LastFetch": "2024-07-01T03:45:23.4048314+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldLength": 630
     }
   }
 }

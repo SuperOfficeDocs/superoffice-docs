@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 760,
-  "TopicId": 165,
+  "ChatSessionId": 856,
+  "TopicId": 208,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sunt",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Powlowski, McGlynn and Harvey",
-  "CustomerEmail": "alysson@nienow.name",
-  "CustomerPhone": "1-570-884-5886 x00686",
+  "CustomerAlias": "qui",
+  "CustomerHost": "quis",
+  "CustomerName": "Kris, Simonis and Thiel",
+  "CustomerEmail": "rollin@emard.name",
+  "CustomerPhone": "1-555-569-0520 x5109",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Graham-Douglas",
+  "CustomerCompanyName": "Volkman-Schamberger",
   "Status": "Closed",
-  "FirstMessage": "eum",
-  "LastMessage": "et",
-  "WhenRequested": "2001-11-20T17:54:02.7421006+01:00",
-  "WhenStarted": "2020-12-29T17:54:02.7421006+01:00",
-  "WhenEnded": "2023-03-04T17:54:02.7421006+01:00",
-  "WhenIdle": "2000-04-12T17:54:02.7421006+02:00",
-  "WhenFetched": "2002-09-01T17:54:02.7421006+02:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 187,
-  "AlertLevel": 944,
-  "Rank": 586,
+  "FirstMessage": "est",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2023-11-14T03:45:23.0454661+01:00",
+  "WhenStarted": "2012-03-03T03:45:23.0454661+01:00",
+  "WhenEnded": "2016-06-19T03:45:23.0454661+02:00",
+  "WhenIdle": "2015-03-30T03:45:23.0454661+02:00",
+  "WhenFetched": "2020-03-13T03:45:23.0454661+01:00",
+  "SessionKey": "nisi",
+  "InitialQueuePos": 283,
+  "AlertLevel": 884,
+  "Rank": 260,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 599,
+  "Rating": 332,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 101
     }
   }
 }

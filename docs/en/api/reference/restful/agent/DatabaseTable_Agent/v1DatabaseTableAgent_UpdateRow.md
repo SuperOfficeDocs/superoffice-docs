@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lockman Inc and Sons",
-  "Id": 901,
+  "TableName": "Lowe Inc and Sons",
+  "Id": 221,
   "Values": {
-    "Values1": "quae",
-    "Values2": "qui"
+    "Values1": "velit",
+    "Values2": "rerum"
   }
 }
 ```

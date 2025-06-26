@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Ritchie, Witting and Moore"
+  "TargetTableName": "Rohan, Jaskolski and Kihn"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless empowering alliance",
-  "Postit": "voluptatem",
+  "Description": "Ergonomic disintermediate standardization",
+  "Postit": "quaerat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 11,
-  "IncludePerson": 614,
+  "GroupIdx": 413,
+  "IncludePerson": 551,
   "MemberCount": 99.99,
-  "Name": "Kreiger Inc and Sons",
-  "PostitTextId": 437,
-  "CreatedDate": "1998-12-20T17:54:03.6014331+01:00",
-  "SelectionId": 749,
-  "SoundEx": "quae",
-  "Source": 181,
-  "TextId": 384,
-  "UpdatedDate": "2013-07-07T17:54:03.6014331+02:00",
-  "UpdatedCount": 988,
-  "Visibility": 994,
+  "Name": "Koss Group",
+  "PostitTextId": 161,
+  "CreatedDate": "2016-04-11T03:45:23.8891939+02:00",
+  "SelectionId": 254,
+  "SoundEx": "qui",
+  "Source": 54,
+  "TextId": 35,
+  "UpdatedDate": "2019-11-21T03:45:23.8891939+01:00",
+  "UpdatedCount": 312,
+  "Visibility": 443,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 274,
-  "TargetTableName": "Gibson, Miller and Ruecker",
-  "Completed": true,
-  "LeftSelectionId": 316,
-  "RightSelectionId": 559,
+  "TargetTableNumber": 579,
+  "TargetTableName": "Feest-Stoltenberg",
+  "Completed": false,
+  "LeftSelectionId": 631,
+  "RightSelectionId": 499,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goodwin, Hoppe and Corwin",
-  "ShadowProviderName": "Pagac-Senger",
-  "ChartKey": "sunt",
-  "LastLoaded": "2024-02-23T17:54:03.6014331+01:00",
-  "LastLoadedBy": 866,
+  "MainProviderName": "Bashirian Group",
+  "ShadowProviderName": "Lubowitz Group",
+  "ChartKey": "dolor",
+  "LastLoaded": "2020-12-25T03:45:23.8891939+01:00",
+  "LastLoadedBy": 830,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-12-09T17:54:03.6014331+01:00",
-  "LastMembershipChangeBy": 372,
+  "LastMembershipChange": "2016-01-16T03:45:23.8891939+01:00",
+  "LastMembershipChangeBy": 116,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorum",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Rempel-Haley",
-  "DashboardTileDefinitionId": 463,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "vero",
+  "MailingsProviderName": "Ruecker LLC",
+  "DashboardTileDefinitionId": 930,
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldType": "System.Int32",
+          "FieldLength": 130
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldType": "System.Int32",
+          "FieldLength": 130
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 659
     }
   }
 }

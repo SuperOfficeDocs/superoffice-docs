@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Murphy LLC",
-  "Tooltip": "ad",
-  "Deleted": false,
-  "UdListDefinitionId": 240,
-  "Rank": 980,
+  "Id": 678,
+  "Name": "Gleichner LLC",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 354,
+  "Rank": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldLength": 280
     }
   }
 }

@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 375,
-  "ColumnId": 472,
-  "FieldDefault": "id",
-  "FieldHeight": 155,
-  "FieldLabel": "ex",
-  "FieldLeft": 703,
-  "FieldTop": 180,
+  "UDefFieldId": 116,
+  "ColumnId": 857,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 933,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 418,
+  "FieldTop": 160,
   "FieldType": "Checkbox",
-  "FieldWidth": 28,
-  "FormatMask": "omnis",
+  "FieldWidth": 556,
+  "FormatMask": "expedita",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 3,
-  "LabelLeft": 964,
-  "LabelTop": 994,
-  "LabelWidth": 133,
-  "LastVersionId": 47,
-  "ListTableId": 785,
+  "LabelHeight": 988,
+  "LabelLeft": 15,
+  "LabelTop": 714,
+  "LabelWidth": 104,
+  "LastVersionId": 247,
+  "ListTableId": 24,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 869,
-  "ProgId": "sint",
+  "Page1LineNo": 876,
+  "ProgId": "impedit",
   "IsReadOnly": false,
-  "ShortLabel": "minima",
-  "TabOrder": 485,
-  "TextLength": 816,
-  "Tooltip": "in",
-  "UdefIdentity": 593,
-  "UDListDefinitionId": 604,
+  "ShortLabel": "incidunt",
+  "TabOrder": 489,
+  "TextLength": 321,
+  "Tooltip": "qui",
+  "UdefIdentity": 218,
+  "UDListDefinitionId": 206,
   "Justification": "Center",
-  "Version": 120,
-  "TemplateVariableName": "Vandervort LLC",
+  "Version": 149,
+  "TemplateVariableName": "Schoen Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Smitham-Hammes",
+  "MdoListName": "Wiegand LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 449
     }
   }
 }

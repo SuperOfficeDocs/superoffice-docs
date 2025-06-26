@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/SendCustomerCentrePasswordEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 522,
-  "From": "voluptas",
-  "To": "laborum",
-  "Subject": "in"
+  "PersonId": 213,
+  "From": "quam",
+  "To": "quo",
+  "Subject": "reiciendis"
 }
 ```
 

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Abbott, Torphy and Herman",
-    "DisplayName": "Torphy Group",
-    "Description": "Cross-group needs-based capability",
-    "ShortLabel": "qui",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "McCullough-Hyatt",
+    "DisplayName": "Hudson Group",
+    "Description": "Organic homogeneous access",
+    "ShortLabel": "dolorem",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 309,
-    "TemplateVariableName": "Haag, Kuphal and Erdman"
+    "Rank": 663,
+    "TemplateVariableName": "Schumm-Jakubowski"
   }
 ]
 ```

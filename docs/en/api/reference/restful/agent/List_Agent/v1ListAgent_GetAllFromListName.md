@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Walsh LLC",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Williamson-Ward",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "ad",
+    "Id": 580,
+    "Name": "McKenzie LLC",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 776,
-    "Rank": 683,
+    "UdListDefinitionId": 369,
+    "Rank": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldLength": 487
       }
     }
   }

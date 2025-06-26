@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 123,
-  "Name": "Schuppe-Bashirian",
-  "Description": "Compatible intermediate emulation",
-  "WelcomeMessage": "velit",
+  "ChatTopicId": 250,
+  "Name": "Halvorson Inc and Sons",
+  "Description": "Digitized didactic local area network",
+  "WelcomeMessage": "libero",
   "Language": null,
-  "LastAccept": "2023-12-22T17:54:08.0543344+01:00",
-  "SecondsPrAccept": 984,
-  "AlertRecipient": "aut",
+  "LastAccept": "2020-07-22T03:45:28.1546963+02:00",
+  "SecondsPrAccept": 755,
+  "AlertRecipient": "architecto",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "qui",
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "illo",
-  "WarnNewChatMinutes": 464,
-  "WarnManagerNewChatMinutes": 772,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 724,
+  "WarnManagerNewChatMinutes": 634,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,14 +166,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 379,
-  "WarnManagerChatMessageMinutes": 435,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 467,
+  "WarnManagerChatMessageMinutes": 463,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 308,
-  "OfflineFormQueueLength": 737,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dolorem"
+  "OfflineFormTimeLimit": 742,
+  "OfflineFormQueueLength": 601,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "velit"
 }
 ```
 
@@ -184,22 +184,22 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 737,
-  "Name": "Mosciski Group",
-  "Description": "Open-architected needs-based knowledge user",
-  "WelcomeMessage": "ad",
+  "ChatTopicId": 311,
+  "Name": "Gibson-Homenick",
+  "Description": "Persistent well-modulated contingency",
+  "WelcomeMessage": "dolorum",
   "Language": null,
-  "LastAccept": "2005-11-08T17:54:08.0543344+01:00",
-  "SecondsPrAccept": 818,
-  "AlertRecipient": "aspernatur",
+  "LastAccept": "2020-10-22T03:45:28.1546963+02:00",
+  "SecondsPrAccept": 781,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "nam",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 884,
-  "WarnManagerNewChatMinutes": 636,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "sunt",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "in",
+  "WarnNewChatMinutes": 794,
+  "WarnManagerNewChatMinutes": 756,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -208,19 +208,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 542,
-  "WarnManagerChatMessageMinutes": 21,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 311,
-  "OfflineFormQueueLength": 493,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
+  "WarnChatMessageMinutes": 90,
+  "WarnManagerChatMessageMinutes": 412,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 530,
+  "OfflineFormQueueLength": 595,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 674
     }
   },
   "_Links": {

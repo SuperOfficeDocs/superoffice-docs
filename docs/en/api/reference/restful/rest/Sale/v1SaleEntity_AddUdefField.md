@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 578,
-  "ColumnId": 100,
-  "FieldDefault": "eius",
-  "FieldHeight": 63,
-  "FieldLabel": "aut",
-  "FieldLeft": 269,
-  "FieldTop": 842,
+  "UDefFieldId": 284,
+  "ColumnId": 787,
+  "FieldDefault": "non",
+  "FieldHeight": 181,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 507,
+  "FieldTop": 128,
   "FieldType": "Checkbox",
-  "FieldWidth": 248,
-  "FormatMask": "rerum",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 404,
-  "LabelLeft": 142,
-  "LabelTop": 762,
-  "LabelWidth": 982,
-  "LastVersionId": 971,
-  "ListTableId": 197,
-  "IsMandatory": false,
+  "FieldWidth": 666,
+  "FormatMask": "accusantium",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 44,
+  "LabelLeft": 676,
+  "LabelTop": 77,
+  "LabelWidth": 872,
+  "LastVersionId": 726,
+  "ListTableId": 856,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 243,
-  "ProgId": "dolorem",
+  "Page1LineNo": 149,
+  "ProgId": "enim",
   "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 248,
-  "TextLength": 962,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 546,
-  "UDListDefinitionId": 86,
+  "ShortLabel": "voluptates",
+  "TabOrder": 954,
+  "TextLength": 892,
+  "Tooltip": "nesciunt",
+  "UdefIdentity": 618,
+  "UDListDefinitionId": 476,
   "Justification": "Center",
-  "Version": 130,
-  "TemplateVariableName": "Dooley LLC",
+  "Version": 671,
+  "TemplateVariableName": "Kovacek, Crona and Cummings",
   "HasBeenPublished": false,
-  "MdoListName": "Herman, Hane and Kunde",
+  "MdoListName": "Cruickshank, Smith and Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 382
     }
   }
 }

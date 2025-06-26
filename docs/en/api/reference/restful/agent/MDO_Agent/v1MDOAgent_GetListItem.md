@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Gorczany, Heaney and Hackett",
-  "Id": 368
+  "ListName": "Beatty, Schultz and Hartmann",
+  "Id": 296
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Kerluke, Ankunding and Rau",
-  "ToolTip": "Est natus.",
+  "Id": 316,
+  "Name": "Koelpin-Hirthe",
+  "ToolTip": "Et quasi.",
   "Deleted": false,
-  "Rank": 965,
-  "Type": "suscipit",
+  "Rank": 229,
+  "Type": "quas",
   "ChildItems": [
     {
-      "Id": 18,
-      "Name": "Klein, Stiedemann and Johnston",
-      "ToolTip": "Ut odit ad maiores.",
-      "Deleted": true,
-      "Rank": 41,
-      "Type": "sit",
+      "Id": 427,
+      "Name": "Schuppe-Kilback",
+      "ToolTip": "Quisquam id.",
+      "Deleted": false,
+      "Rank": 641,
+      "Type": "dolores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 160,
-      "ExtraInfo": "et",
-      "StyleHint": "est",
-      "FullName": "Clara Nolan",
+      "IconHint": "neque",
+      "ColorBlock": 434,
+      "ExtraInfo": "commodi",
+      "StyleHint": "fugiat",
+      "FullName": "Dedrick Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "IconHint": "repellendus",
-  "ColorBlock": 237,
-  "ExtraInfo": "eius",
-  "StyleHint": "laboriosam",
-  "FullName": "Onie Zboncak",
+  "IconHint": "molestiae",
+  "ColorBlock": 630,
+  "ExtraInfo": "consequatur",
+  "StyleHint": "porro",
+  "FullName": "Mrs. Justyn Robyn Christiansen PhD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 350
     }
   }
 }

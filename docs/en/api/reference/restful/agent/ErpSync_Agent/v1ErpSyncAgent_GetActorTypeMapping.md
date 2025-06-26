@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 627,
+  "ErpConnectionId": 286,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 874,
+  "ErpConnectionId": 792,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 921,
-      "CrmFieldKey": "in",
-      "CrmDisplayName": "Sauer, Cremin and Dibbert",
-      "CrmDisplayTooltip": "minima",
-      "ErpFieldKey": "doloribus",
+      "ErpFieldId": 584,
+      "CrmFieldKey": "pariatur",
+      "CrmDisplayName": "Emmerich-Kilback",
+      "CrmDisplayTooltip": "dolorem",
+      "ErpFieldKey": "delectus",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Bins, Stark and Raynor",
-      "ErpDisplayTooltip": "neque",
-      "SyncToCrm": true,
-      "SyncToErp": false,
+      "ErpDisplayName": "Nader-O'Conner",
+      "ErpDisplayTooltip": "eaque",
+      "SyncToCrm": false,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "perspiciatis",
+      "ListReference": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 778
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 580
     }
   }
 }

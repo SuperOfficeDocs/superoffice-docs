@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Leffler, Homenick and Friesen",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 680,
-  "Rank": 340
+  "Id": 843,
+  "Name": "Thiel Inc and Sons",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "UdListDefinitionId": 476,
+  "Rank": 165
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Pouros, Schmidt and Christiansen",
-  "Tooltip": "illum",
+  "Id": 404,
+  "Name": "Hauck, Kessler and Mitchell",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 393,
-  "Rank": 716,
+  "UdListDefinitionId": 816,
+  "Rank": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

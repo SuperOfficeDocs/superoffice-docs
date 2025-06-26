@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Reichert, Macejkovic and Lubowitz",
-    "ToolTip": "Et nihil cum libero dolores omnis tempora ipsam.",
+    "Id": 373,
+    "Name": "Eichmann-Dare",
+    "ToolTip": "Cumque qui.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "exercitationem",
-    "ColorBlock": 78,
-    "IconHint": "error",
+    "Rank": 368,
+    "Type": "fugit",
+    "ColorBlock": 192,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2000-11-06T17:54:08.9449229+01:00",
+    "LastChanged": "2022-12-19T03:45:29.0765432+01:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Walker, Schimmel and Corkery",
-        "ToolTip": "Dicta error rerum nobis non voluptatem vel ipsum.",
+        "Id": 977,
+        "Name": "Beatty-Pagac",
+        "ToolTip": "Odio non minus sequi veritatis est perspiciatis perspiciatis.",
         "Deleted": false,
-        "Rank": 196,
-        "Type": "nesciunt",
-        "ColorBlock": 912,
-        "IconHint": "debitis",
+        "Rank": 26,
+        "Type": "ex",
+        "ColorBlock": 636,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2020-12-06T17:54:08.9449229+01:00",
+        "LastChanged": "2025-05-15T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Octavia Lesch"
+        "ExtraInfo": "qui",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Dejuan Ledner I"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "cum",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mose McClure"
+    "FullName": "Dr. Luella Mueller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Labadie, Bernhard and Runte",
-    "ToolTip": "Non iure architecto.",
+    "Id": 181,
+    "Name": "Harber, Davis and King",
+    "ToolTip": "Nam ullam.",
     "Deleted": false,
-    "Rank": 603,
-    "Type": "magnam",
-    "ColorBlock": 354,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2001-10-09T17:54:08.9449229+02:00",
+    "Rank": 33,
+    "Type": "delectus",
+    "ColorBlock": 721,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "2002-11-16T03:45:29.0765432+01:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Little, Howell and Bechtelar",
-        "ToolTip": "Soluta ut doloremque.",
-        "Deleted": false,
-        "Rank": 785,
-        "Type": "sunt",
-        "ColorBlock": 585,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2002-08-12T17:54:08.9449229+02:00",
+        "Id": 947,
+        "Name": "West, Cremin and Gulgowski",
+        "ToolTip": "Consectetur nihil neque temporibus sit et.",
+        "Deleted": true,
+        "Rank": 637,
+        "Type": "dolores",
+        "ColorBlock": 84,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2000-10-16T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Ms. Lura Reina White I",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Dax Bauch Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldLength": 256
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Virginie Schultz",
+    "FullName": "Eddie Schowalter MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 534
       }
     }
   }

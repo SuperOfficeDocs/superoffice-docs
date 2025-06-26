@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Name": "Kreiger-Cole",
-  "Tooltip": "maxime",
+  "Id": 294,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "UdListDefinitionId": 424,
-  "Rank": 898,
+  "UdListDefinitionId": 74,
+  "Rank": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 138
     }
   }
 }

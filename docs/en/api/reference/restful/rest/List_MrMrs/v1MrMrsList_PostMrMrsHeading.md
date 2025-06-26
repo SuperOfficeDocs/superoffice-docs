@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 21,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 257,
-  "UdListDefinitionId": 28
+  "HeadingId": 897,
+  "Name": "Graham-Grimes",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "Rank": 883,
+  "UdListDefinitionId": 960
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 310,
-  "Name": "Rosenbaum, Krajcik and Dach",
-  "Tooltip": "et",
+  "Name": "Von-Volkman",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 11,
-  "UdListDefinitionId": 437,
+  "Rank": 508,
+  "UdListDefinitionId": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 157
     }
   }
 }

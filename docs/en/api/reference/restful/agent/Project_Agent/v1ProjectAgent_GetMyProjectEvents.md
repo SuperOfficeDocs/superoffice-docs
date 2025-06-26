@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Mose Jaskolski",
-    "Description": "Ameliorated even-keeled website",
-    "ProjectId": 354,
-    "EventName": "Hills Inc and Sons",
-    "AssociateId": 206,
+    "AssociateFullName": "Miss Laron Gene Paucek DVM",
+    "Description": "Progressive 3rd generation implementation",
+    "ProjectId": 611,
+    "EventName": "Willms, Ankunding and Olson",
+    "AssociateId": 861,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "eius",
-    "SignOffText": "voluptatem",
-    "SignOnConfirmationText": "est",
-    "SignOnText": "doloribus",
-    "EventDate": "2007-06-24T17:54:03.4920634+02:00",
-    "Enabled": false,
+    "SignOffConfirmationText": "quaerat",
+    "SignOffText": "totam",
+    "SignOnConfirmationText": "natus",
+    "SignOnText": "quas",
+    "EventDate": "2003-10-20T03:45:23.7798203+02:00",
+    "Enabled": true,
     "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": false,
-    "SignOffTaskId": 825,
-    "SignOnTaskId": 745,
-    "SignOffTriggersAssign": false,
+    "SignOffTaskId": 6,
+    "SignOnTaskId": 422,
+    "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 828,
-    "SignOffPersonId": 385,
+    "SignOnPersonId": 745,
+    "SignOffPersonId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

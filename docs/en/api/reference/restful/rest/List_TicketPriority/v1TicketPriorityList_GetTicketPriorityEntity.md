@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 774,
-  "Name": "Dooley, Jast and Hickle",
+  "TicketPriorityId": 36,
+  "Name": "Cartwright, Rutherford and Stroman",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 931,
+  "SortOrder": 95,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 23,
-  "MonStart": "2017-11-27T17:54:09.148042+01:00",
-  "MonStop": "2009-08-28T17:54:09.148042+02:00",
-  "TueStart": "2012-02-01T17:54:09.148042+01:00",
-  "TueStop": "2021-04-14T17:54:09.148042+02:00",
-  "WedStart": "1999-10-09T17:54:09.148042+02:00",
-  "WedStop": "2017-01-22T17:54:09.148042+01:00",
-  "ThuStart": "1999-11-13T17:54:09.148042+01:00",
-  "ThuStop": "2016-02-26T17:54:09.148042+01:00",
-  "FriStart": "2021-05-28T17:54:09.148042+02:00",
-  "FriStop": "2016-03-31T17:54:09.148042+02:00",
-  "SatStart": "2015-04-28T17:54:09.148042+02:00",
-  "SatStop": "2013-05-04T17:54:09.148042+02:00",
-  "SunStart": "2012-01-31T17:54:09.148042+01:00",
-  "SunStop": "2008-01-13T17:54:09.148042+01:00",
+  "Deadline": 365,
+  "MonStart": "1998-07-03T03:45:29.2484114+02:00",
+  "MonStop": "2015-06-04T03:45:29.2484114+02:00",
+  "TueStart": "1999-12-21T03:45:29.2484114+01:00",
+  "TueStop": "2007-07-05T03:45:29.2484114+02:00",
+  "WedStart": "2022-01-23T03:45:29.2484114+01:00",
+  "WedStop": "2002-11-05T03:45:29.2484114+01:00",
+  "ThuStart": "1999-04-10T03:45:29.2484114+02:00",
+  "ThuStop": "2023-08-11T03:45:29.2484114+02:00",
+  "FriStart": "2008-07-12T03:45:29.2484114+02:00",
+  "FriStop": "2023-02-03T03:45:29.2484114+01:00",
+  "SatStart": "2018-10-07T03:45:29.2484114+02:00",
+  "SatStop": "2010-08-05T03:45:29.2484114+02:00",
+  "SunStart": "2017-07-18T03:45:29.2484114+02:00",
+  "SunStop": "2020-09-21T03:45:29.2484114+02:00",
   "NonDates": [
-    "dolore",
-    "dicta"
+    "illum",
+    "cumque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 578,
-      "AlertLevel": 671,
-      "AlertTimeout": 230,
-      "Action": 161,
-      "DelegateTo": 570,
-      "ScriptId": 652,
-      "EmailTo": "justice_batz@oberbrunnerturcotte.uk",
-      "SmsTo": "unde",
-      "ReplyTemplateIdCustomer": 634,
-      "ReplyTemplateIdUser": 412,
-      "ReplyTemplateIdCatmast": 428,
-      "ReplyTemplateIdEmail": 118,
-      "RtiCustomerSms": 722,
-      "ReplyTemplateIdUserSms": 65,
-      "ReplyTemplateIdCatmastSms": 678,
-      "ReplyTemplateIdSms": 500,
+      "TicketAlertId": 190,
+      "AlertLevel": 402,
+      "AlertTimeout": 892,
+      "Action": 938,
+      "DelegateTo": 459,
+      "ScriptId": 194,
+      "EmailTo": "dee.murray@howejohns.uk",
+      "SmsTo": "labore",
+      "ReplyTemplateIdCustomer": 376,
+      "ReplyTemplateIdUser": 832,
+      "ReplyTemplateIdCatmast": 458,
+      "ReplyTemplateIdEmail": 151,
+      "RtiCustomerSms": 764,
+      "ReplyTemplateIdUserSms": 182,
+      "ReplyTemplateIdCatmastSms": 786,
+      "ReplyTemplateIdSms": 367,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 572
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 299
     }
   }
 }

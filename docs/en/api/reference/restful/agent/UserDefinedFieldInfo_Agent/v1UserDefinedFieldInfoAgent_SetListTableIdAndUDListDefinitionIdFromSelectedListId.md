@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 998
+  "SelectedListId": 55
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 471,
-  "ColumnId": 561,
-  "FieldDefault": "et",
-  "FieldHeight": 747,
-  "FieldLabel": "ratione",
-  "FieldLeft": 777,
-  "FieldTop": 838,
+  "UDefFieldId": 600,
+  "ColumnId": 159,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 311,
+  "FieldLabel": "qui",
+  "FieldLeft": 306,
+  "FieldTop": 539,
   "FieldType": "Checkbox",
-  "FieldWidth": 784,
-  "FormatMask": "maxime",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 692,
-  "LabelLeft": 350,
-  "LabelTop": 652,
-  "LabelWidth": 980,
-  "LastVersionId": 299,
-  "ListTableId": 847,
+  "FieldWidth": 891,
+  "FormatMask": "nobis",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 302,
+  "LabelLeft": 615,
+  "LabelTop": 990,
+  "LabelWidth": 267,
+  "LastVersionId": 779,
+  "ListTableId": 449,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 31,
-  "ProgId": "qui",
-  "IsReadOnly": false,
-  "ShortLabel": "perspiciatis",
-  "TabOrder": 427,
-  "TextLength": 323,
-  "Tooltip": "veritatis",
-  "UdefIdentity": 262,
-  "UDListDefinitionId": 898,
+  "Page1LineNo": 414,
+  "ProgId": "debitis",
+  "IsReadOnly": true,
+  "ShortLabel": "tempora",
+  "TabOrder": 923,
+  "TextLength": 691,
+  "Tooltip": "ea",
+  "UdefIdentity": 857,
+  "UDListDefinitionId": 142,
   "Justification": "Center",
-  "Version": 349,
-  "TemplateVariableName": "Stehr-Grant",
+  "Version": 922,
+  "TemplateVariableName": "Robel, Boehm and Halvorson",
   "HasBeenPublished": false,
-  "MdoListName": "Schmidt, Pouros and Dietrich",
+  "MdoListName": "Osinski-Wintheiser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Maggio-Carroll",
-  "AssociateId": 116
+  "TableName": "Huel, Mante and Kunze",
+  "AssociateId": 561
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Johns Group",
-    "RecordId": 90,
-    "AssociateId": 874,
-    "ExtraInfo": "et",
-    "Rank": 955,
+    "TableName": "Koepp LLC",
+    "RecordId": 607,
+    "AssociateId": 652,
+    "ExtraInfo": "minus",
+    "Rank": 751,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 504
       }
     }
   }

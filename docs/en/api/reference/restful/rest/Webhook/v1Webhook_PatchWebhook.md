@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 386,
-  "Name": "Schinner, Huel and Block",
+  "WebhookId": 967,
+  "Name": "Hermiston Group",
   "Events": [
-    "voluptates",
-    "eum"
+    "iusto",
+    "est"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "quisquam",
   "State": "Active",
-  "Type": "inventore",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "neque",
-    "Headers2": "ullam"
+    "Headers1": "impedit",
+    "Headers2": "quo"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-05-08T17:54:08.7730557+02:00",
+  "Registered": "2024-03-14T03:45:28.8890492+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-12-07T17:54:08.7730557+01:00",
+  "Updated": "2008-10-18T03:45:28.8890492+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "nyasia.walter@howehyatt.uk",
+  "ErrorsEmail": "jacynthe_borer@hessel.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

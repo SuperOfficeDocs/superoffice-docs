@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Hackett, Durgan and Welch",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "UdListDefinitionId": 607,
-  "Rank": 99
+  "Id": 460,
+  "Name": "Kulas-Bernier",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 592,
+  "Rank": 834
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Gottlieb-Fritsch",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 636,
-  "Rank": 412,
+  "Id": 550,
+  "Name": "Ritchie-Schuster",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "UdListDefinitionId": 325,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldLength": 14
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cronin, Stracke and McKenzie"
+  "Name": "Cummerata, Schumm and Rippin"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Oberbrunner, Farrell and Rutherford",
-    "SoPrimaryKey": 217,
-    "EntryName": "Willms-Stokes",
-    "EntryIdentifier": "quidem",
-    "RuleDisplayName": "Bechtelar LLC",
+    "RuleName": "Runte-Bogan",
+    "SoPrimaryKey": 582,
+    "EntryName": "Hegmann, Mann and Raynor",
+    "EntryIdentifier": "earum",
+    "RuleDisplayName": "Wiza-Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 734
       }
     }
   }

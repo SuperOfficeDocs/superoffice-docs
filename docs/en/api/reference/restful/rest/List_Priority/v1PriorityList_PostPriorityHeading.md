@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 65,
-  "Name": "Hane, Doyle and Kunde",
-  "Tooltip": "est",
+  "HeadingId": 409,
+  "Name": "Jacobi-Hane",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 374,
-  "UdListDefinitionId": 793
+  "Rank": 756,
+  "UdListDefinitionId": 954
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 288,
-  "Name": "Casper, DuBuque and Gusikowski",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 757,
-  "UdListDefinitionId": 653,
+  "HeadingId": 195,
+  "Name": "Altenwerth LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 334,
+  "UdListDefinitionId": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 486
     }
   }
 }

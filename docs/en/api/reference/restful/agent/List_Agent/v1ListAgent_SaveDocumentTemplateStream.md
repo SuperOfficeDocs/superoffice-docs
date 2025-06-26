@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 228,
+  "DocumentTemplateId": 994,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "distinctio",
-  "PluginId": 550
+  "LanguageCode": "dolor",
+  "PluginId": 673
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feeney-Jaskolski",
-  "Description": "Optional optimizing Graphic Interface",
-  "ExternalReference": "natus",
-  "MimeType": "nostrum",
-  "PluginId": 719
+  "Name": "Feil, Pacocha and Stroman",
+  "Description": "Persevering clear-thinking alliance",
+  "ExternalReference": "reprehenderit",
+  "MimeType": "aspernatur",
+  "PluginId": 204
 }
 ```

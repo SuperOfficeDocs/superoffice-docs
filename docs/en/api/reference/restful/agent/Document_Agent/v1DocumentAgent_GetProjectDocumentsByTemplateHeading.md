@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 830,
-  "StartTime": "2019-12-20T17:54:02.9608392+01:00",
-  "EndTime": "2016-03-02T17:54:02.9608392+01:00",
-  "Count": 136,
-  "TemplateHeadingId": 537
+  "ProjectId": 162,
+  "StartTime": "2012-01-13T03:45:23.2798335+01:00",
+  "EndTime": "2010-08-02T03:45:23.2798335+02:00",
+  "Count": 408,
+  "TemplateHeadingId": 576
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 846,
-    "Attention": "enim",
-    "Header": "est",
-    "Name": "Volkman-Moore",
-    "OurRef": "quia",
-    "YourRef": "cumque",
-    "Description": "Future-proofed national contingency",
-    "DocumentTemplate": "quam",
-    "IsPublished": true,
-    "PersonId": 276,
-    "PersonFullName": "Adam Mertz",
-    "AssociateFullName": "Prof. Hazle Kshlerin IV",
-    "ContactId": 983,
-    "ContactName": "Carroll-Little",
-    "ProjectId": 153,
-    "ProjectName": "Block, Robel and Kuvalis",
-    "AssociateId": 799,
-    "Snum": 970,
-    "SaleId": 866,
-    "SaleName": "Olson Group",
+    "DocumentId": 973,
+    "Attention": "porro",
+    "Header": "optio",
+    "Name": "Hammes Inc and Sons",
+    "OurRef": "voluptas",
+    "YourRef": "aut",
+    "Description": "Exclusive full-range array",
+    "DocumentTemplate": "quis",
+    "IsPublished": false,
+    "PersonId": 306,
+    "PersonFullName": "Dimitri Bailey",
+    "AssociateFullName": "Mrs. Bernard Karl Schaefer",
+    "ContactId": 248,
+    "ContactName": "Mraz-Berge",
+    "ProjectId": 614,
+    "ProjectName": "Hills, Zemlak and Zieme",
+    "AssociateId": 556,
+    "Snum": 359,
+    "SaleId": 882,
+    "SaleName": "Spinka Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldType": "System.String",
+        "FieldLength": 507
       }
     }
   }

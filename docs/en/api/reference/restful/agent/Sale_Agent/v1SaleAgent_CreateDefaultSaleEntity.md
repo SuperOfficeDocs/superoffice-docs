@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "dolores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-11-19T17:54:03.5545604+01:00",
-  "Amount": 27610.54,
-  "SaleId": 64,
-  "Earning": 5268.254,
-  "EarningPercent": 24771.136,
-  "Heading": "rerum",
-  "Number": "315215",
-  "Probability": 494,
-  "CreatedDate": "1999-05-19T17:54:03.5545604+02:00",
-  "UpdatedDate": "2015-01-02T17:54:03.5545604+01:00",
+  "Saledate": "2017-12-09T03:45:23.8423206+01:00",
+  "Amount": 11661.614,
+  "SaleId": 355,
+  "Earning": 12037.694,
+  "EarningPercent": 6609.606,
+  "Heading": "recusandae",
+  "Number": "1821719",
+  "Probability": 313,
+  "CreatedDate": "2008-02-28T03:45:23.8423206+01:00",
+  "UpdatedDate": "2006-09-14T03:45:23.8423206+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 579,
+  "ActiveLinks": 87,
   "Links": [
     {
-      "EntityName": "Reichel LLC",
-      "Id": 896,
-      "Description": "Centralized well-modulated task-force",
-      "ExtraInfo": "dolorum",
-      "LinkId": 573,
+      "EntityName": "Hauck Group",
+      "Id": 697,
+      "Description": "Synchronised client-server knowledge base",
+      "ExtraInfo": "numquam",
+      "LinkId": 859,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldLength": 745
         }
       }
     }
   ],
-  "NextDueDate": "2023-08-03T17:54:03.5545604+02:00",
-  "Postit": "dolore",
+  "NextDueDate": "2016-03-27T03:45:23.8423206+02:00",
+  "Postit": "cumque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-02-19T17:54:03.5545604+01:00",
+  "ReopenDate": "2013-06-19T03:45:23.8423206+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "McKenzie, Lowe and O'Connell",
-      "Comment": "labore",
-      "StakeholderRoleId": 887,
-      "CountryId": 792,
-      "PersonId": 346,
-      "EmailDescription": "damaris@welchgulgowski.uk",
-      "EmailId": 504,
-      "EmailAddress": "elbert.mcdermott@sawayn.us",
-      "PhoneId": 565,
-      "ContactName": "McKenzie LLC",
-      "ContactId": 955,
-      "SaleId": 570,
-      "Mrmrs": "alias",
-      "Firstname": "Lawrence",
-      "MiddleName": "Cole, Rau and Walsh",
-      "Lastname": "Kuhn",
-      "SaleStakeholderId": 804,
-      "Rank": 282,
-      "Phone": "(338)744-3434",
+      "StakeholderRoleName": "Skiles, Marks and Zboncak",
+      "Comment": "dolorum",
+      "StakeholderRoleId": 812,
+      "CountryId": 969,
+      "PersonId": 289,
+      "EmailDescription": "hazle_bruen@aufderhardare.name",
+      "EmailId": 199,
+      "EmailAddress": "ernesto_kuhlman@crist.uk",
+      "PhoneId": 294,
+      "ContactName": "Kling-Bauch",
+      "ContactId": 853,
+      "SaleId": 919,
+      "Mrmrs": "voluptas",
+      "Firstname": "Saige",
+      "MiddleName": "Abbott-Parker",
+      "Lastname": "Corwin",
+      "SaleStakeholderId": 300,
+      "Rank": 937,
+      "Phone": "(321)782-0300",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 952
         }
       }
     }
   ],
-  "ActiveErpLinks": 757,
+  "ActiveErpLinks": 143,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alexandra Gottlieb",
+    "SuperOffice:1": "Mr. Marilyne O'Kon IV",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "nemo"
+    "CustomFields1": "numquam",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2011-09-27T17:54:03.5545604+02:00",
-  "PublishTo": "2013-04-01T17:54:03.5545604+02:00",
-  "PublishFrom": "2006-07-05T17:54:03.5545604+02:00",
+  "PublishEventDate": "2004-01-07T03:45:23.8423206+01:00",
+  "PublishTo": "2022-06-28T03:45:23.8423206+02:00",
+  "PublishFrom": "2005-10-27T03:45:23.8423206+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 765,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 426
         }
       }
     },
     {
-      "VisibleId": 765,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 426
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

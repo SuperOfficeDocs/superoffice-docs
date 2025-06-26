@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 138,
-  "GroupId": 377
+  "UdListDefinitionId": 812,
+  "GroupId": 771
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Gaylord Inc and Sons",
-    "ToolTip": "Nesciunt veritatis voluptatibus doloremque tempora nam libero vel.",
+    "Id": 856,
+    "Name": "Weimann-Casper",
+    "ToolTip": "Eveniet dolorem qui.",
     "Deleted": true,
-    "Rank": 387,
-    "Type": "sed",
-    "ColorBlock": 22,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2002-08-02T17:54:03.2108272+02:00",
+    "Rank": 948,
+    "Type": "optio",
+    "ColorBlock": 201,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2013-10-18T03:45:23.5298295+02:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Stamm, Balistreri and Stehr",
-        "ToolTip": "Libero ipsum ex aut.",
+        "Id": 911,
+        "Name": "Gutkowski-Johnston",
+        "ToolTip": "Possimus placeat laboriosam nulla voluptatibus ut quos.",
         "Deleted": false,
-        "Rank": 395,
-        "Type": "laboriosam",
-        "ColorBlock": 469,
-        "IconHint": "velit",
+        "Rank": 969,
+        "Type": "non",
+        "ColorBlock": 54,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2014-05-21T17:54:03.2108272+02:00",
+        "LastChanged": "2023-04-02T03:45:23.5298295+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Kristin Maggio",
+        "ExtraInfo": "ut",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Clarissa Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 645
+            "FieldLength": 325
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "rerum",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mrs. Therese Kuvalis",
+    "FullName": "Ms. Juwan Ara Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ProjectStatus object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=805
+POST /api/v1/Agents/List/GetProjectStatus?projectStatusId=163
 POST /api/v1/Agents/List/GetProjectStatus?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Value": "quibusdam",
-  "Tooltip": "molestiae",
+  "Id": 949,
+  "Value": "soluta",
+  "Tooltip": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   }
 }

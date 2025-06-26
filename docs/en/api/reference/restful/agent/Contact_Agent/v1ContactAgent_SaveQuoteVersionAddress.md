@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 995,
+  "QuoteVersionId": 289,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 575
+  "CountryId": 484
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 191.174,
-  "Wgs84Longitude": 19621.974,
+  "Wgs84Latitude": 13463.663999999999,
+  "Wgs84Longitude": 19584.365999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Volkman Group",
-        "Value": "est",
-        "Tooltip": "facilis",
-        "Label": "sequi",
-        "ValueLength": 914,
-        "AddressType": "eos",
+        "Name": "O'Connell, Stark and Conroy",
+        "Value": "voluptas",
+        "Tooltip": "eos",
+        "Label": "molestias",
+        "ValueLength": 272,
+        "AddressType": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldType": "System.String",
+            "FieldLength": 744
           }
         }
       }
     ],
     [
       {
-        "Name": "Paucek, Lubowitz and Durgan",
-        "Value": "nam",
-        "Tooltip": "iusto",
-        "Label": "veniam",
-        "ValueLength": 764,
-        "AddressType": "hic",
+        "Name": "Huel-O'Hara",
+        "Value": "rerum",
+        "Tooltip": "ut",
+        "Label": "libero",
+        "ValueLength": 684,
+        "AddressType": "sunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 849
+            "FieldType": "System.Int32",
+            "FieldLength": 861
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "voluptas",
+  "Formatted": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   }
 }

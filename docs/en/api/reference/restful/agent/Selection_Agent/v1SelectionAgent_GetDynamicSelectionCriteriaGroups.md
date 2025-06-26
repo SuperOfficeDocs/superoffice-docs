@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 153
+  "SelectionId": 225
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Braun-Breitenberg",
-    "Description": "Open-source dedicated methodology",
-    "Rank": 683,
+    "Name": "Hartmann Group",
+    "Description": "Switchable real-time internet solution",
+    "Rank": 438,
     "Restrictions": [
       {
-        "Name": "Moen Inc and Sons",
-        "Operator": "ut",
+        "Name": "Mayer LLC",
+        "Operator": "repudiandae",
         "Values": [
-          "non",
-          "error"
+          "quis",
+          "asperiores"
         ],
         "DisplayValues": [
           "vitae",
-          "veniam"
+          "tempora"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 263,
+        "InterParenthesis": 168,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 496
       }
     ]
   },
   {
-    "Name": "Braun-Breitenberg",
-    "Description": "Open-source dedicated methodology",
-    "Rank": 683,
+    "Name": "Hartmann Group",
+    "Description": "Switchable real-time internet solution",
+    "Rank": 438,
     "Restrictions": [
       {
-        "Name": "Moen Inc and Sons",
-        "Operator": "ut",
+        "Name": "Mayer LLC",
+        "Operator": "repudiandae",
         "Values": [
-          "non",
-          "error"
+          "quis",
+          "asperiores"
         ],
         "DisplayValues": [
           "vitae",
-          "veniam"
+          "tempora"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 263,
+        "InterParenthesis": 168,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 496
       }
     ]
   }

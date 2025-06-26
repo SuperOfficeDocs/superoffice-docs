@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Predovic, Yundt and Nader"
+  "ApplicationName": "Kassulke Group"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 922,
-    "Name": "Gottlieb, Prosacco and Reinger",
-    "CreatedDate": "2015-10-27T17:54:03.1639551+01:00",
-    "UpdatedDate": "2018-03-27T17:54:03.1639551+02:00",
-    "AssociateFullName": "Dalton Hirthe",
-    "CreatedBy": "nostrum",
-    "UpdatedBy": "rerum",
-    "DeviceIdentifier": "impedit",
-    "ForeignAppId": 417,
+    "ForeignDeviceId": 108,
+    "Name": "Breitenberg LLC",
+    "CreatedDate": "2011-10-09T03:45:23.4829546+02:00",
+    "UpdatedDate": "1999-03-26T03:45:23.4829546+01:00",
+    "AssociateFullName": "Whitney Beahan",
+    "CreatedBy": "provident",
+    "UpdatedBy": "deserunt",
+    "DeviceIdentifier": "aut",
+    "ForeignAppId": 33,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 785
       }
     }
   }

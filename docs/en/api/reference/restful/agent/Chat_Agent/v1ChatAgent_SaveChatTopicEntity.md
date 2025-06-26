@@ -123,25 +123,25 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 349,
-  "Name": "Zboncak-Lindgren",
-  "Description": "Devolved systematic system engine",
-  "WelcomeMessage": "harum",
+  "ChatTopicId": 890,
+  "Name": "Mann, Dooley and Gleason",
+  "Description": "Cross-platform neutral benchmark",
+  "WelcomeMessage": "rerum",
   "Language": null,
-  "LastAccept": "2000-10-24T17:54:02.6952273+02:00",
-  "SecondsPrAccept": 255,
-  "AlertRecipient": "ratione",
+  "LastAccept": "2019-01-29T03:45:23.0142166+01:00",
+  "SecondsPrAccept": 281,
+  "AlertRecipient": "vel",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "voluptatum",
+  "CollectConsent": true,
+  "BadgeHeader": "corrupti",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 765,
-  "WarnManagerNewChatMinutes": 295,
+  "CustomQueueText": "error",
+  "WarnNewChatMinutes": 937,
+  "WarnManagerNewChatMinutes": 438,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 102,
-  "WarnManagerChatMessageMinutes": 965,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 350,
+  "WarnManagerChatMessageMinutes": 524,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 717,
-  "OfflineFormQueueLength": 436,
+  "OfflineFormTimeLimit": 322,
+  "OfflineFormQueueLength": 847,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quo"
+  "WidgetRatingText": "sunt"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 959,
-  "Name": "Kassulke-Ryan",
-  "Description": "Reactive scalable open architecture",
-  "WelcomeMessage": "perspiciatis",
+  "ChatTopicId": 747,
+  "Name": "Bergnaum-Hudson",
+  "Description": "Horizontal well-modulated budgetary management",
+  "WelcomeMessage": "laborum",
   "Language": null,
-  "LastAccept": "2008-06-23T17:54:02.6952273+02:00",
-  "SecondsPrAccept": 160,
-  "AlertRecipient": "eveniet",
+  "LastAccept": "1999-01-01T03:45:23.0142166+01:00",
+  "SecondsPrAccept": 504,
+  "AlertRecipient": "cupiditate",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "et",
+  "CollectConsent": false,
+  "BadgeHeader": "itaque",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consequuntur",
-  "WarnNewChatMinutes": 167,
-  "WarnManagerNewChatMinutes": 599,
-  "TicketEnabled": true,
+  "CustomQueueText": "fuga",
+  "WarnNewChatMinutes": 585,
+  "WarnManagerNewChatMinutes": 307,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 631,
-  "WarnManagerChatMessageMinutes": 556,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 640,
-  "OfflineFormQueueLength": 290,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "molestias",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 114,
+  "WarnManagerChatMessageMinutes": 355,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 769,
+  "OfflineFormQueueLength": 520,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 576
     }
   }
 }

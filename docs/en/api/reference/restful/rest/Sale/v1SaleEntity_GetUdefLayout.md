@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 493,
-    "ColumnId": 209,
-    "FieldDefault": "voluptatibus",
-    "FieldHeight": 359,
-    "FieldLabel": "qui",
-    "FieldLeft": 321,
-    "FieldTop": 618,
+    "UDefFieldId": 593,
+    "ColumnId": 1000,
+    "FieldDefault": "error",
+    "FieldHeight": 932,
+    "FieldLabel": "nesciunt",
+    "FieldLeft": 248,
+    "FieldTop": 673,
     "FieldType": "Checkbox",
-    "FieldWidth": 920,
-    "FormatMask": "id",
-    "HideLabel": true,
+    "FieldWidth": 728,
+    "FormatMask": "earum",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 618,
-    "LabelLeft": 19,
-    "LabelTop": 612,
-    "LabelWidth": 290,
-    "LastVersionId": 76,
-    "ListTableId": 377,
-    "IsMandatory": true,
+    "LabelHeight": 233,
+    "LabelLeft": 178,
+    "LabelTop": 787,
+    "LabelWidth": 978,
+    "LastVersionId": 515,
+    "ListTableId": 716,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 911,
-    "ProgId": "et",
-    "IsReadOnly": true,
-    "ShortLabel": "praesentium",
-    "TabOrder": 712,
-    "TextLength": 619,
-    "Tooltip": "necessitatibus",
-    "UdefIdentity": 100,
-    "UDListDefinitionId": 256,
+    "Page1LineNo": 47,
+    "ProgId": "ut",
+    "IsReadOnly": false,
+    "ShortLabel": "in",
+    "TabOrder": 125,
+    "TextLength": 17,
+    "Tooltip": "ut",
+    "UdefIdentity": 799,
+    "UDListDefinitionId": 60,
     "Justification": "Center",
-    "Version": 63,
-    "TemplateVariableName": "Dickens LLC",
+    "Version": 161,
+    "TemplateVariableName": "Halvorson-Muller",
     "HasBeenPublished": false,
-    "MdoListName": "Wiegand, McLaughlin and Beahan",
+    "MdoListName": "Towne-Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 217
       }
     }
   }

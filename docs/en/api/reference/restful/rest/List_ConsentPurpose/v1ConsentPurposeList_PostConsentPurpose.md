@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 486,
-  "Name": "Abshire Inc and Sons",
-  "ConsentText": "eos",
-  "FormText": "omnis",
-  "Key": "exercitationem",
-  "Tooltip": "fugit",
-  "Active": 635,
-  "UpdatedDate": "2005-09-14T17:54:08.8199285+02:00",
+  "ConsentPurposeId": 916,
+  "Name": "Bayer, Bradtke and Marquardt",
+  "ConsentText": "sapiente",
+  "FormText": "eveniet",
+  "Key": "et",
+  "Tooltip": "quam",
+  "Active": 560,
+  "UpdatedDate": "1999-11-10T03:45:28.9827939+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 664,
-  "PrivacyStatementDesc": "necessitatibus",
+  "Rank": 66,
+  "PrivacyStatementDesc": "error",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 337,
-  "Name": "Becker Inc and Sons",
-  "ConsentText": "accusantium",
-  "FormText": "id",
-  "Key": "quia",
-  "Tooltip": "aut",
-  "Active": 881,
-  "UpdatedDate": "2012-11-23T17:54:08.8199285+01:00",
+  "ConsentPurposeId": 810,
+  "Name": "Lang-Lesch",
+  "ConsentText": "qui",
+  "FormText": "eos",
+  "Key": "inventore",
+  "Tooltip": "sunt",
+  "Active": 747,
+  "UpdatedDate": "2017-01-23T03:45:28.9827939+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 941,
-  "PrivacyStatementDesc": "dolores",
+  "Deleted": false,
+  "Rank": 167,
+  "PrivacyStatementDesc": "quaerat",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 637
     }
   }
 }

@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 217,
-  "ColumnId": 59,
+  "UDefFieldId": 850,
+  "ColumnId": 499,
   "FieldDefault": "et",
-  "FieldHeight": 978,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 498,
-  "FieldTop": 356,
+  "FieldHeight": 903,
+  "FieldLabel": "rerum",
+  "FieldLeft": 724,
+  "FieldTop": 364,
   "FieldType": "Checkbox",
-  "FieldWidth": 178,
-  "FormatMask": "molestiae",
+  "FieldWidth": 447,
+  "FormatMask": "reiciendis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 85,
-  "LabelLeft": 632,
-  "LabelTop": 163,
-  "LabelWidth": 227,
-  "LastVersionId": 330,
-  "ListTableId": 888,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 401,
+  "LabelLeft": 241,
+  "LabelTop": 208,
+  "LabelWidth": 855,
+  "LastVersionId": 622,
+  "ListTableId": 678,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 800,
-  "ProgId": "fugit",
+  "Page1LineNo": 795,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 873,
-  "TextLength": 246,
-  "Tooltip": "quos",
-  "UdefIdentity": 420,
-  "UDListDefinitionId": 517,
+  "ShortLabel": "dignissimos",
+  "TabOrder": 155,
+  "TextLength": 951,
+  "Tooltip": "enim",
+  "UdefIdentity": 794,
+  "UDListDefinitionId": 549,
   "Justification": "Center",
-  "Version": 576,
-  "TemplateVariableName": "Mayert-Torphy",
+  "Version": 173,
+  "TemplateVariableName": "Howe, Pacocha and Williamson",
   "HasBeenPublished": false,
-  "MdoListName": "Hartmann Inc and Sons",
+  "MdoListName": "Hirthe LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

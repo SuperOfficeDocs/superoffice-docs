@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 535,
-  "Count": 532
+  "WeightedAmountLimit": 279,
+  "Count": 79
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ritchie, Senger and Feeney",
-    "SaleDate": "2014-05-25T17:54:03.5858088+02:00",
-    "SaleId": 175,
-    "Probability": 138,
-    "Title": "id",
-    "Amount": 10771.557999999999,
-    "Currency": "voluptatem",
-    "ProjectName": "Hickle-Crist",
-    "AssociateFullName": "Ms. Arthur Mitchell",
-    "Description": "Function-based motivating budgetary management",
+    "ContactName": "Lesch Inc and Sons",
+    "SaleDate": "2014-01-17T03:45:23.8735682+01:00",
+    "SaleId": 247,
+    "Probability": 829,
+    "Title": "fugiat",
+    "Amount": 15754.617999999999,
+    "Currency": "aliquid",
+    "ProjectName": "Glover, Franecki and Gulgowski",
+    "AssociateFullName": "Eden Jacobi V",
+    "Description": "Reduced even-keeled focus group",
     "Status": "Lost",
-    "WeightedAmount": 10238.778,
-    "ProjectId": 19,
-    "EarningPercent": 2184.398,
-    "Earning": 20781.554,
-    "ContactId": 733,
-    "AssociateId": 667,
-    "PersonId": 773,
-    "SaleTypeId": 34,
-    "SaleTypeName": "Tremblay-Wehner",
-    "PersonFullName": "Filiberto Kertzmann",
+    "WeightedAmount": 7446.384,
+    "ProjectId": 781,
+    "EarningPercent": 19822.55,
+    "Earning": 20436.814,
+    "ContactId": 4,
+    "AssociateId": 587,
+    "PersonId": 855,
+    "SaleTypeId": 793,
+    "SaleTypeName": "Klocko, Zulauf and Koelpin",
+    "PersonFullName": "Stacey Mohr",
     "Completed": "Completed",
-    "ActiveErpLinks": 936,
-    "NextDueDate": "2023-04-19T17:54:03.5858088+02:00",
-    "Number": "1148694",
+    "ActiveErpLinks": 152,
+    "NextDueDate": "2023-04-10T03:45:23.8735682+02:00",
+    "Number": "290118",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 911
       }
     }
   }

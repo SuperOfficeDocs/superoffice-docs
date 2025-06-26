@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=aperiam
+GET /api/v1/List/PaymentTerm/MDOItems?query=asperiores
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Torphy, Conroy and Grant",
-    "ToolTip": "Optio adipisci dicta.",
+    "Id": 693,
+    "Name": "Murray, Hand and Raynor",
+    "ToolTip": "Facere nam occaecati illum qui.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "sequi",
+    "Rank": 128,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Barton-Bechtelar",
-        "ToolTip": "Sint esse minus et architecto ex voluptatem ea.",
-        "Deleted": false,
-        "Rank": 260,
-        "Type": "ipsa",
+        "Id": 156,
+        "Name": "Hills-Beier",
+        "ToolTip": "Magnam qui ratione quam id.",
+        "Deleted": true,
+        "Rank": 132,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 5,
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
-        "FullName": "Mr. Nicolette Candace Keebler",
+        "IconHint": "voluptatem",
+        "ColorBlock": 155,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "at",
+        "FullName": "Mr. Douglas Brandyn Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldLength": 282
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 256,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "nam",
-    "FullName": "Ms. Fae Marisol Botsford",
+    "IconHint": "magnam",
+    "ColorBlock": 522,
+    "ExtraInfo": "omnis",
+    "StyleHint": "mollitia",
+    "FullName": "Mr. Kristin Martin Pouros V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldLength": 233
       }
     }
   }

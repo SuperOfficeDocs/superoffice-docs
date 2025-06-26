@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maiores",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maiores",
+    "path": "dignissimos",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kshlerin, Berge and Wolff",
-  "Comment": "facere",
-  "StakeholderRoleId": 446,
-  "CountryId": 382,
-  "PersonId": 654,
-  "EmailDescription": "tyree_hoeger@kub.co.uk",
-  "EmailId": 206,
-  "EmailAddress": "retha@bartell.info",
-  "PhoneId": 572,
-  "ContactName": "Jerde, Raynor and West",
-  "ContactId": 148,
-  "SaleId": 459,
-  "Mrmrs": "molestiae",
-  "Firstname": "Cathrine",
-  "MiddleName": "Luettgen-Waelchi",
-  "Lastname": "Ernser",
-  "SaleStakeholderId": 308,
-  "Rank": 674,
-  "Phone": "1-505-610-2687 x54594",
+  "StakeholderRoleName": "Raynor-Hammes",
+  "Comment": "ipsum",
+  "StakeholderRoleId": 24,
+  "CountryId": 798,
+  "PersonId": 501,
+  "EmailDescription": "tobin@purdyluettgen.com",
+  "EmailId": 839,
+  "EmailAddress": "thelma@funkbashirian.co.uk",
+  "PhoneId": 18,
+  "ContactName": "Bernier Inc and Sons",
+  "ContactId": 420,
+  "SaleId": 28,
+  "Mrmrs": "repellat",
+  "Firstname": "Kaci",
+  "MiddleName": "Kuhic, Ortiz and Daniel",
+  "Lastname": "Kohler",
+  "SaleStakeholderId": 284,
+  "Rank": 987,
+  "Phone": "513-578-7956 x524",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldLength": 904
     }
   },
   "_Links": {

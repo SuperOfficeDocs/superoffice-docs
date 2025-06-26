@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 863
+  "AppointmentId": 990
 }
 ```
 
@@ -141,66 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 448,
-  "StartDate": "1998-06-15T17:54:02.3827433+02:00",
-  "EndDate": "2007-07-18T17:54:02.3827433+02:00",
+  "AppointmentId": 446,
+  "StartDate": "2010-08-22T03:45:22.7017267+02:00",
+  "EndDate": "2012-07-29T03:45:22.7017267+02:00",
   "Type": "BookingForChecklist",
-  "Task": "magni",
-  "AssociateFullName": "Cassie Skiles",
-  "ContactName": "Fadel LLC",
-  "Description": "Organized fresh-thinking emulation",
-  "PersonFullName": "Heidi Larkin",
-  "PersonId": 69,
-  "ContactId": 885,
-  "ProjectId": 888,
-  "ProjectName": "Dare Group",
-  "IsPublished": true,
-  "AssociateId": 10,
-  "ColorIndex": 84,
-  "IsFree": false,
-  "HasAlarm": false,
+  "Task": "magnam",
+  "AssociateFullName": "Wendell Kling",
+  "ContactName": "Kiehn Group",
+  "Description": "Ergonomic homogeneous process improvement",
+  "PersonFullName": "Mariane Stamm",
+  "PersonId": 536,
+  "ContactId": 773,
+  "ProjectId": 214,
+  "ProjectName": "Sanford LLC",
+  "IsPublished": false,
+  "AssociateId": 261,
+  "ColorIndex": 48,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 489,
-  "PriorityName": "Tremblay, Greenholt and Weissnat",
+  "PriorityId": 169,
+  "PriorityName": "Zboncak, Hodkiewicz and Jenkins",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2013-09-04T17:54:02.3827433+02:00",
+  "IsRecurrence": true,
+  "IsBooking": true,
+  "ActiveDate": "2010-02-01T03:45:22.7017267+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2013-01-08T17:54:02.3827433+01:00",
-  "RecurringEndDate": "2001-04-23T17:54:02.3827433+02:00",
-  "MotherId": 638,
-  "AssignedBy": 217,
-  "AssignedByFullName": "Tiffany Beier",
+  "RecurringStartDate": "2012-01-21T03:45:22.7017267+01:00",
+  "RecurringEndDate": "2015-04-20T03:45:22.7017267+02:00",
+  "MotherId": 639,
+  "AssignedBy": 963,
+  "AssignedByFullName": "Dr. Jefferey Bechtelar",
   "RejectReason": "",
-  "Location": "nulla",
-  "AlarmLeadTime": "est",
-  "SaleId": 705,
-  "SaleName": "Upton, Collier and Keeling",
-  "AssociateName": "Braun LLC",
-  "CreatedDate": "2016-05-14T17:54:02.3827433+02:00",
-  "CreatedBy": "ut",
-  "CreatedByFullName": "Thomas Hessel",
-  "CreatedByAssociateId": 90,
+  "Location": "et",
+  "AlarmLeadTime": "consequuntur",
+  "SaleId": 482,
+  "SaleName": "Mann-Oberbrunner",
+  "AssociateName": "Koelpin-Batz",
+  "CreatedDate": "2008-12-07T03:45:22.7017267+01:00",
+  "CreatedBy": "molestiae",
+  "CreatedByFullName": "Judah Gusikowski MD",
+  "CreatedByAssociateId": 533,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 611,
-  "Title": "ratione",
-  "Agenda": "ut",
-  "InternalNotes": "sunt",
+  "PreferredTZLocation": 202,
+  "Title": "rerum",
+  "Agenda": "numquam",
+  "InternalNotes": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 369
     }
   }
 }

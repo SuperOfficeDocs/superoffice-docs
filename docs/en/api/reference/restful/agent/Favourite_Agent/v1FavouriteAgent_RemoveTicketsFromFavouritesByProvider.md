@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Beatty, Breitenberg and Stark",
+  "ProviderName": "Becker LLC",
   "Restrictions": [
     {
-      "Name": "Gibson-Schneider",
-      "Operator": "consequatur",
+      "Name": "Spencer-Heathcote",
+      "Operator": "at",
       "Values": [
-        "quod",
-        "quos"
+        "maxime",
+        "ducimus"
       ],
       "DisplayValues": [
-        "facilis",
-        "accusantium"
+        "explicabo",
+        "enim"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 682,
+      "InterParenthesis": 631,
       "InterOperator": "And",
-      "UniqueHash": 359
+      "UniqueHash": 235
     }
   ],
-  "AssociateId": 660
+  "AssociateId": 375
 }
 ```
 

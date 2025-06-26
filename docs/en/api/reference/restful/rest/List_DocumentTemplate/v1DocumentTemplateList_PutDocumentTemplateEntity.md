@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 33,
-  "Name": "Rowe-Kunde",
-  "Tooltip": "distinctio",
-  "SaveInDb": 337,
-  "Filename": "reiciendis",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 242,
+  "Name": "Langworth Group",
+  "Tooltip": "sit",
+  "SaveInDb": 512,
+  "Filename": "corporis",
+  "DefaultOref": "quod",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 215,
-  "IntentId": 283,
+  "AutoeventId": 141,
+  "IntentId": 696,
   "IsDefaultPublished": true,
-  "Rank": 173,
-  "LoadTemplateFromPlugin": 583,
-  "MimeType": "omnis",
+  "Rank": 483,
+  "LoadTemplateFromPlugin": 770,
+  "MimeType": "quis",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 711,
+  "DocumentTypeKey": 956,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "chad@heller.info",
-  "IncludeSignature": false,
+  "EmailSubject": "mireille.predovic@gorczany.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "earlene@hackett.biz",
+  "SenderEmailAddress": "adrianna_greenholt@schinner.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 283,
-  "Name": "Ruecker Inc and Sons",
-  "Tooltip": "autem",
-  "SaveInDb": 99,
-  "Filename": "minus",
-  "DefaultOref": "minima",
+  "DocumentTemplateId": 950,
+  "Name": "Kihn-Ebert",
+  "Tooltip": "doloremque",
+  "SaveInDb": 824,
+  "Filename": "quo",
+  "DefaultOref": "quo",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 264,
-  "IntentId": 294,
-  "IsDefaultPublished": false,
-  "Rank": 742,
-  "LoadTemplateFromPlugin": 533,
-  "MimeType": "aut",
+  "AutoeventId": 584,
+  "IntentId": 894,
+  "IsDefaultPublished": true,
+  "Rank": 695,
+  "LoadTemplateFromPlugin": 337,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 569,
+  "DocumentTypeKey": 817,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "javonte@hegmann.ca",
-  "IncludeSignature": false,
+  "EmailSubject": "albertha.kris@conn.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mose@lubowitz.name",
+  "SenderEmailAddress": "dino@lockman.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 260
     }
   }
 }

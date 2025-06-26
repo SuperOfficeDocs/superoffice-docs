@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Rodriguez, Dibbert and Shanahan",
-    "ToolTip": "Rerum iste aspernatur officiis reiciendis.",
-    "Deleted": false,
-    "Rank": 361,
-    "Type": "quod",
-    "ColorBlock": 515,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2009-11-11T17:54:09.1168029+01:00",
+    "Id": 15,
+    "Name": "Berge-Wehner",
+    "ToolTip": "Voluptatibus qui molestiae error totam.",
+    "Deleted": true,
+    "Rank": 181,
+    "Type": "consequuntur",
+    "ColorBlock": 884,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2001-12-24T03:45:29.2171623+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Wiza, Connelly and Bogan",
-        "ToolTip": "Quia sed quos.",
+        "Id": 257,
+        "Name": "Ruecker, Beier and Jerde",
+        "ToolTip": "Nisi earum perferendis nemo ut tempora quia.",
         "Deleted": true,
-        "Rank": 218,
-        "Type": "dolorem",
-        "ColorBlock": 525,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2016-04-11T17:54:09.1168029+02:00",
+        "Rank": 671,
+        "Type": "incidunt",
+        "ColorBlock": 487,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "1998-04-25T03:45:29.2171623+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Mikel Fritsch"
+        "ExtraInfo": "odio",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Mrs. Kirstin Cronin V"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "qui",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Ms. Stewart Josie Ebert V"
+    "FullName": "Henry Mayer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Stanton Inc and Sons",
-    "ToolTip": "Quia impedit soluta a nulla quibusdam vero et.",
-    "Deleted": true,
-    "Rank": 825,
-    "Type": "velit",
-    "ColorBlock": 809,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2006-11-27T17:54:09.1168029+01:00",
+    "Id": 299,
+    "Name": "Okuneva Inc and Sons",
+    "ToolTip": "Quia qui rem assumenda eius id.",
+    "Deleted": false,
+    "Rank": 98,
+    "Type": "omnis",
+    "ColorBlock": 392,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2000-02-09T03:45:29.2171623+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "DuBuque, Zemlak and Kub",
-        "ToolTip": "Et possimus totam consequatur nihil soluta.",
-        "Deleted": true,
-        "Rank": 165,
-        "Type": "enim",
-        "ColorBlock": 616,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2004-09-12T17:54:09.1168029+02:00",
+        "Id": 746,
+        "Name": "Harber Inc and Sons",
+        "ToolTip": "Voluptate voluptatem vero dolorum repudiandae quis id voluptas.",
+        "Deleted": false,
+        "Rank": 805,
+        "Type": "repudiandae",
+        "ColorBlock": 977,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2009-03-11T03:45:29.2171623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Keyon Selmer Spencer PhD",
+        "ExtraInfo": "ut",
+        "StyleHint": "officiis",
+        "Hidden": true,
+        "FullName": "Mrs. Dewayne Mariah Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Olen Heller",
+    "ExtraInfo": "hic",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Missouri Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 205
+        "FieldLength": 987
       }
     }
   }

@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Hoppe Group",
+  "ConnectorName": "Hand LLC",
   "ConnectionData": {
-    "ConnectionData1": "id",
-    "ConnectionData2": "qui"
+    "ConnectionData1": "ipsum",
+    "ConnectionData2": "possimus"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "dignissimos",
-  "ErrorCode": "itaque",
+  "IsOk": true,
+  "UserExplanation": "velit",
+  "TechExplanation": "laudantium",
+  "ErrorCode": "esse",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

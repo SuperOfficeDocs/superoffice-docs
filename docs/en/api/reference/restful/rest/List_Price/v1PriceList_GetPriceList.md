@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 87,
-  "ERPPriceListKey": "minima",
-  "QuoteConnectionId": 902,
-  "Name": "Waters Group",
-  "Description": "Synergized optimal encryption",
-  "Currency": "quam",
-  "CurrencyName": "Howe-Schinner",
-  "ValidFrom": "2004-01-03T17:54:08.9605465+01:00",
-  "ValidTo": "2013-10-13T17:54:08.9605465+02:00",
+  "PriceListId": 169,
+  "ERPPriceListKey": "quas",
+  "QuoteConnectionId": 740,
+  "Name": "Hansen Inc and Sons",
+  "Description": "Integrated zero tolerance open system",
+  "Currency": "iusto",
+  "CurrencyName": "Dicki-Wilkinson",
+  "ValidFrom": "2023-09-20T03:45:29.0921677+02:00",
+  "ValidTo": "2018-02-03T03:45:29.0921677+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   },
   "_Links": {

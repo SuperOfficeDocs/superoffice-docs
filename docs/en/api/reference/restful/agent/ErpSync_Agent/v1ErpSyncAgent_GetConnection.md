@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 431
+  "ErpConnectionId": 519
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 842,
-  "ErpConnectorId": 678,
-  "DisplayName": "Williamson LLC",
-  "DisplayDescription": "User-friendly full-range knowledge user",
+  "ErpConnectionId": 404,
+  "ErpConnectorId": 177,
+  "DisplayName": "Mills, Kovacek and Kovacek",
+  "DisplayDescription": "Customizable local array",
   "Active": true,
-  "ConnectionId": "aut",
-  "MostRecentTimestamp": "vero",
+  "ConnectionId": "eum",
+  "MostRecentTimestamp": "doloremque",
   "ConfigFields": {
-    "ConfigFields1": "soluta",
-    "ConfigFields2": "architecto"
+    "ConfigFields1": "qui",
+    "ConfigFields2": "quia"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    502,
-    173
+    392,
+    155
   ],
   "AssociateAccessIds": [
-    583,
-    248
+    889,
+    522
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 627
     }
   }
 }

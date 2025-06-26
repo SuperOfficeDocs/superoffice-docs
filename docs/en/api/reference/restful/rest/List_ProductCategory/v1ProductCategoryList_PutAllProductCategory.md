@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Padberg-Gutkowski",
-    "Tooltip": "quia",
+    "Id": 225,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "UdListDefinitionId": 862,
-    "Rank": 603
+    "UdListDefinitionId": 553,
+    "Rank": 167
   },
   {
-    "Id": 894,
-    "Name": "Padberg-Gutkowski",
-    "Tooltip": "quia",
+    "Id": 225,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "UdListDefinitionId": 862,
-    "Rank": 603
+    "UdListDefinitionId": 553,
+    "Rank": 167
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Moore-Kozey",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 402,
-    "Rank": 776,
+    "Id": 147,
+    "Name": "Vandervort LLC",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "UdListDefinitionId": 25,
+    "Rank": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 773
       }
     }
   }

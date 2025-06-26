@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Wisozk, Bogan and Koch",
-  "Tooltip": "delectus",
+  "Id": 684,
+  "Name": "Kirlin-Hoeger",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 179,
-  "Rank": 295,
+  "UdListDefinitionId": 705,
+  "Rank": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

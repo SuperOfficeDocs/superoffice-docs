@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 91,
-    "Name": "Wunsch-Mann",
-    "Tooltip": "asperiores",
+    "HeadingId": 408,
+    "Name": "Langosh-Bechtelar",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 390
+    "Rank": 380,
+    "UdListDefinitionId": 842
   },
   {
-    "HeadingId": 91,
-    "Name": "Wunsch-Mann",
-    "Tooltip": "asperiores",
+    "HeadingId": 408,
+    "Name": "Langosh-Bechtelar",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 390
+    "Rank": 380,
+    "UdListDefinitionId": 842
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Okuneva-Muller",
-    "Tooltip": "omnis",
+    "HeadingId": 411,
+    "Name": "Casper Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 117,
-    "UdListDefinitionId": 971,
+    "Rank": 887,
+    "UdListDefinitionId": 843,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 517
       }
     }
   }

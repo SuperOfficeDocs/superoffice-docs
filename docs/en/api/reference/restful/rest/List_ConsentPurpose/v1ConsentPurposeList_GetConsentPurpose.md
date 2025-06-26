@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 707,
-  "Name": "McGlynn Inc and Sons",
-  "ConsentText": "ut",
-  "FormText": "dolores",
-  "Key": "consequatur",
-  "Tooltip": "maxime",
-  "Active": 948,
-  "UpdatedDate": "2020-09-11T17:54:08.8199285+02:00",
+  "ConsentPurposeId": 461,
+  "Name": "Funk-Moore",
+  "ConsentText": "necessitatibus",
+  "FormText": "accusantium",
+  "Key": "beatae",
+  "Tooltip": "est",
+  "Active": 25,
+  "UpdatedDate": "2014-02-01T03:45:28.9827939+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 993,
-  "PrivacyStatementDesc": "corrupti",
+  "Rank": 425,
+  "PrivacyStatementDesc": "nemo",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 276
     }
   }
 }

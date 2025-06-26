@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 625
+  "UserGroupId": 607
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 143,
-    "ColumnId": 544,
-    "FieldDefault": "neque",
-    "FieldHeight": 460,
-    "FieldLabel": "assumenda",
-    "FieldLeft": 135,
-    "FieldTop": 152,
+    "UDefFieldId": 16,
+    "ColumnId": 111,
+    "FieldDefault": "nostrum",
+    "FieldHeight": 555,
+    "FieldLabel": "commodi",
+    "FieldLeft": 664,
+    "FieldTop": 797,
     "FieldType": "Checkbox",
-    "FieldWidth": 343,
-    "FormatMask": "earum",
+    "FieldWidth": 956,
+    "FormatMask": "ut",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 202,
-    "LabelLeft": 312,
-    "LabelTop": 567,
-    "LabelWidth": 236,
-    "LastVersionId": 599,
-    "ListTableId": 851,
-    "IsMandatory": false,
+    "LabelHeight": 286,
+    "LabelLeft": 931,
+    "LabelTop": 133,
+    "LabelWidth": 579,
+    "LastVersionId": 633,
+    "ListTableId": 204,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 241,
-    "ProgId": "ea",
+    "Page1LineNo": 132,
+    "ProgId": "quasi",
     "IsReadOnly": false,
-    "ShortLabel": "molestiae",
-    "TabOrder": 328,
-    "TextLength": 421,
-    "Tooltip": "ab",
-    "UdefIdentity": 622,
-    "UDListDefinitionId": 143,
+    "ShortLabel": "officiis",
+    "TabOrder": 419,
+    "TextLength": 900,
+    "Tooltip": "quo",
+    "UdefIdentity": 516,
+    "UDListDefinitionId": 769,
     "Justification": "Center",
-    "Version": 364,
-    "TemplateVariableName": "Hermiston, Champlin and Brakus",
+    "Version": 947,
+    "TemplateVariableName": "Keebler-Rohan",
     "HasBeenPublished": false,
-    "MdoListName": "Rath-Lynch",
+    "MdoListName": "Lemke-Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 775
+        "FieldType": "System.Int32",
+        "FieldLength": 696
       }
     }
   }

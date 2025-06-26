@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 64,
-  "Name": "Effertz-Huels",
+  "ScreenChooserId": 863,
+  "Name": "Yundt LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "deserunt",
-  "Registered": "2012-12-08T17:54:08.6793184+01:00",
-  "RegisteredAssociateId": 988,
-  "Updated": "2006-06-17T17:54:08.6793184+02:00",
-  "UpdatedAssociateId": 659
+  "UniqueIdentifier": "sed",
+  "Source": "aut",
+  "Registered": "2010-08-13T03:45:28.7952992+02:00",
+  "RegisteredAssociateId": 283,
+  "Updated": "2004-03-03T03:45:28.7952992+01:00",
+  "UpdatedAssociateId": 851
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 679,
-  "Name": "Steuber LLC",
+  "ScreenChooserId": 358,
+  "Name": "Olson Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "fugit",
-  "Source": "ut",
-  "Registered": "2006-05-28T17:54:08.6793184+02:00",
-  "RegisteredAssociateId": 585,
-  "Updated": "2007-05-01T17:54:08.6793184+02:00",
-  "UpdatedAssociateId": 593,
+  "Enabled": false,
+  "UniqueIdentifier": "ratione",
+  "Source": "est",
+  "Registered": "1999-03-27T03:45:28.7952992+01:00",
+  "RegisteredAssociateId": 547,
+  "Updated": "2017-04-01T03:45:28.7952992+02:00",
+  "UpdatedAssociateId": 618,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 328
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

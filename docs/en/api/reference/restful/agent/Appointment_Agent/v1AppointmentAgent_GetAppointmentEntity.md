@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=386
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=316
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -140,121 +140,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-12-27T17:54:02.4452402+01:00",
-  "AppointmentId": 143,
-  "Description": "Networked homogeneous internet solution",
-  "Title": "et",
-  "Agenda": "et",
-  "InternalNotes": "et",
-  "StartDate": "2023-01-03T17:54:02.4452402+01:00",
-  "EndDate": "2006-08-21T17:54:02.4452402+02:00",
+  "CreatedDate": "1999-01-25T03:45:22.7486003+01:00",
+  "AppointmentId": 287,
+  "Description": "Mandatory actuating paradigm",
+  "Title": "reiciendis",
+  "Agenda": "dolores",
+  "InternalNotes": "minus",
+  "StartDate": "2020-05-29T03:45:22.7486003+02:00",
+  "EndDate": "2003-09-30T03:45:22.7486003+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 987,
+  "MotherId": 966,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-01-06T17:54:02.4452402+01:00",
+  "UpdatedDate": "2020-10-21T03:45:22.7486003+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 934,
+  "ActiveLinks": 713,
   "Links": [
     {
-      "EntityName": "Altenwerth, Kub and Harber",
-      "Id": 287,
-      "Description": "Implemented even-keeled extranet",
-      "ExtraInfo": "sequi",
-      "LinkId": 935,
+      "EntityName": "Stokes-Greenholt",
+      "Id": 549,
+      "Description": "Organized asynchronous focus group",
+      "ExtraInfo": "quia",
+      "LinkId": 792,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 222
         }
       }
     }
   ],
-  "AlarmLeadTime": "nobis",
-  "HasAlarm": true,
-  "ColorIndex": 449,
+  "AlarmLeadTime": "vero",
+  "HasAlarm": false,
+  "ColorIndex": 741,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "numquam",
-  "LeadTime": "eos",
-  "Location": "cumque",
-  "RejectCounter": 640,
+  "LagTime": "deserunt",
+  "LeadTime": "eum",
+  "Location": "voluptas",
+  "RejectCounter": 744,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 315,
-      "PersonId": 778,
-      "ContactId": 772,
-      "EmailId": 175,
+      "AssociateId": 580,
+      "PersonId": 446,
+      "ContactId": 181,
+      "EmailId": 704,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kelvin.yundt@dach.biz",
-      "Description": "Horizontal 5th generation secured line"
+      "EmailAddress": "victoria@runolfsdottir.biz",
+      "Description": "Synergized 5th generation neural-net"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-05-03T17:54:02.4452402+02:00",
+  "ActiveDate": "2019-05-25T03:45:22.7486003+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 989,
+  "PreferredTZLocation": 904,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 989,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 623,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vitae",
+  "CentralserviceVideomeetId": "fuga",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Mariane Novella Roob I",
-    "SuperOffice:2": "Adelle Treutel"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1307153114"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "animi"
+    "CustomFields1": "architecto",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2016-02-15T17:54:02.4452402+01:00",
-  "PublishTo": "1998-09-17T17:54:02.4452402+02:00",
-  "PublishFrom": "2012-09-02T17:54:02.4452402+02:00",
+  "PublishEventDate": "2022-02-18T03:45:22.7486003+01:00",
+  "PublishTo": "2011-05-19T03:45:22.7486003+02:00",
+  "PublishFrom": "2014-05-09T03:45:22.7486003+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 345,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldType": "System.String",
+          "FieldLength": 474
         }
       }
     },
     {
-      "VisibleId": 345,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldType": "System.String",
+          "FieldLength": 474
         }
       }
     }
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 932
     }
   }
 }

@@ -11503,6 +11503,12 @@
   - name: AI
     href: Services88/AI/index.md
     items:
+    - name: Answer
+      href: Services88/AI/Answer.md
+    - name: AnswerAccepted
+      href: Services88/AI/AnswerAccepted.md
+    - name: AnswerFeedback
+      href: Services88/AI/AnswerFeedback.md
     - name: ClearChatbotTurns
       href: Services88/AI/ClearChatbotTurns.md
     - name: CreateTextForAppointment
@@ -11531,6 +11537,10 @@
       href: Services88/AI/GuessCategory.md
     - name: RephraseText
       href: Services88/AI/RephraseText.md
+    - name: Search
+      href: Services88/AI/Search.md
+    - name: StartRagIndexing
+      href: Services88/AI/StartRagIndexing.md
     - name: SummarizeContact
       href: Services88/AI/SummarizeContact.md
     - name: SummarizeSale
@@ -12185,6 +12195,8 @@
       href: Services88/Contact/DeleteContactEntity.md
     - name: DeleteExpired
       href: Services88/Contact/DeleteExpired.md
+    - name: EnrichContactEntity
+      href: Services88/Contact/EnrichContactEntity.md
     - name: GetAddress
       href: Services88/Contact/GetAddress.md
     - name: GetAddressByCountry
@@ -12221,6 +12233,8 @@
       href: Services88/Contact/GetPersons.md
     - name: GetPreviewContact
       href: Services88/Contact/GetPreviewContact.md
+    - name: GetPreviewEnrichContact
+      href: Services88/Contact/GetPreviewEnrichContact.md
     - name: GetQuoteVersionAddresses
       href: Services88/Contact/GetQuoteVersionAddresses.md
     - name: IsNumberValid
@@ -12511,6 +12525,8 @@
       href: Services88/Diagnostics/GetEntityCountsForAllUsers.md
     - name: GetEntityCountsForCurrentUser
       href: Services88/Diagnostics/GetEntityCountsForCurrentUser.md
+    - name: GetNextTableNumber
+      href: Services88/Diagnostics/GetNextTableNumber.md
     - name: GetSystemMessages
       href: Services88/Diagnostics/GetSystemMessages.md
     - name: GetWebAppUsagesForPeriod

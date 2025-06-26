@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Lockman Group",
-  "Tooltip": "eos",
+  "HeadingId": 310,
+  "Name": "Ullrich, Eichmann and Hills",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 322,
-  "UdListDefinitionId": 403
+  "Rank": 276,
+  "UdListDefinitionId": 147
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 264,
-  "Name": "Steuber Group",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 514,
-  "UdListDefinitionId": 355,
+  "HeadingId": 576,
+  "Name": "Ritchie-Pollich",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 278,
+  "UdListDefinitionId": 192,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 306
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Muller-Orn",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "UdListDefinitionId": 971,
-    "Rank": 366,
+    "Id": 743,
+    "Name": "Wiegand Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 930,
+    "Rank": 58,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

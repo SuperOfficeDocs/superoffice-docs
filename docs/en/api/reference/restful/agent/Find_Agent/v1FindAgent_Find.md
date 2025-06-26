@@ -85,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sint",
-  "ProviderName": "Stanton Group",
-  "StorageKey": "beatae",
-  "PageSize": 428,
-  "PageNumber": 734
+  "StorageType": "quam",
+  "ProviderName": "Dickinson-Powlowski",
+  "StorageKey": "voluptatibus",
+  "PageSize": 1002,
+  "PageNumber": 973
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Metz-Ratke",
-      "DisplayTooltip": "non",
-      "DisplayType": "alias",
+      "DisplayName": "Beatty, Heathcote and Runte",
+      "DisplayTooltip": "doloremque",
+      "DisplayType": "consequuntur",
       "CanOrderBy": false,
-      "Name": "Conn Inc and Sons",
+      "Name": "Lubowitz LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Anderson-Ritchie",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "laudantium",
-      "IconHint": "delectus",
-      "HeadingIconHint": "odit"
+      "RestrictionType": "a",
+      "RestrictionListName": "Wisozk-Kautzer",
+      "IsVisible": false,
+      "ExtraInfo": "repellat",
+      "Width": "et",
+      "IconHint": "et",
+      "HeadingIconHint": "ducimus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ziemann, Blanda and Heller",
-      "PrimaryKey": 874,
+      "EntityName": "O'Conner, Erdman and Auer",
+      "PrimaryKey": 993,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "et",
-          "TooltipHint": "aut",
-          "LinkHint": "quidem"
+          "TooltipHint": "adipisci",
+          "LinkHint": "ipsam"
         }
       },
-      "LinkHint": "itaque",
-      "StyleHint": "nihil",
+      "LinkHint": "ut",
+      "StyleHint": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 646
         }
       }
     }
   ],
-  "RowCount": 590,
+  "RowCount": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 512
     }
   }
 }

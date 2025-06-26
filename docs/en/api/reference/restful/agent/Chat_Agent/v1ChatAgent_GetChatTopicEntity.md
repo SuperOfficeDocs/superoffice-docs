@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=138
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=306
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 878,
-  "Name": "Krajcik, Grady and Emmerich",
-  "Description": "Organized real-time infrastructure",
-  "WelcomeMessage": "debitis",
+  "ChatTopicId": 210,
+  "Name": "McGlynn-Kirlin",
+  "Description": "Re-engineered zero tolerance synergy",
+  "WelcomeMessage": "possimus",
   "Language": null,
-  "LastAccept": "2018-07-10T17:54:02.7421006+02:00",
-  "SecondsPrAccept": 929,
-  "AlertRecipient": "et",
+  "LastAccept": "2020-08-14T03:45:23.0610908+02:00",
+  "SecondsPrAccept": 819,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "repellat",
+  "BadgeHeader": "sint",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "possimus",
-  "WarnNewChatMinutes": 344,
-  "WarnManagerNewChatMinutes": 316,
+  "CustomQueueText": "a",
+  "WarnNewChatMinutes": 946,
+  "WarnManagerNewChatMinutes": 385,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -130,20 +130,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 812,
-  "WarnManagerChatMessageMinutes": 648,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 447,
-  "OfflineFormQueueLength": 885,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ad",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 977,
+  "WarnManagerChatMessageMinutes": 378,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 209,
+  "OfflineFormQueueLength": 101,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

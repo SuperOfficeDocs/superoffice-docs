@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Altenwerth-Abshire",
-    "ToolTip": "Laborum eum voluptatem error sunt sit maxime.",
-    "Deleted": false,
-    "Rank": 384,
-    "Type": "quis",
-    "ColorBlock": 48,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2002-07-30T17:54:08.9136741+02:00",
+    "Id": 872,
+    "Name": "Yundt, Mayert and Durgan",
+    "ToolTip": "Maxime perspiciatis mollitia voluptas reiciendis ipsa harum.",
+    "Deleted": true,
+    "Rank": 110,
+    "Type": "possimus",
+    "ColorBlock": 91,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2007-02-24T03:45:29.0296674+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Witting-Nolan",
-        "ToolTip": "Eius nemo porro quasi quia veniam amet sint.",
-        "Deleted": false,
-        "Rank": 40,
-        "Type": "eaque",
-        "ColorBlock": 816,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2020-12-16T17:54:08.9136741+01:00",
+        "Id": 427,
+        "Name": "Stoltenberg-Sipes",
+        "ToolTip": "Deserunt sint culpa quia.",
+        "Deleted": true,
+        "Rank": 884,
+        "Type": "ab",
+        "ColorBlock": 676,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "1998-11-26T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Ms. Jessika Frami Jr.",
+        "FullName": "Sibyl Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldType": "System.String",
+            "FieldLength": 281
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "sed",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Ms. Philip Steuber Jr.",
+    "FullName": "Katherine Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 55
       }
     }
   }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms Group",
+  "Name": "Harvey Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Hermann, Kuhic and Schmeler",
-    "AssociateId": 276,
-    "DetailsTable": 187,
-    "DetailsRecord": 655,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 779,
+    "Name": "Ernser Group",
+    "AssociateId": 434,
+    "DetailsTable": 307,
+    "DetailsRecord": 204,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "totam",
-      "ParameterObject2": "asperiores"
+      "ParameterObject1": "fuga",
+      "ParameterObject2": "amet"
     },
-    "LastStarted": "2014-01-07T17:54:02.6639794+01:00",
-    "Created": "2016-12-27T17:54:02.6639794+01:00",
-    "StartCount": 468,
-    "DatabaseSerialNumber": "1296905",
-    "Context": "voluptas",
-    "Result": "esse",
+    "LastStarted": "2005-08-09T03:45:22.9829669+02:00",
+    "Created": "2006-08-28T03:45:22.9829669+02:00",
+    "StartCount": 897,
+    "DatabaseSerialNumber": "160263",
+    "Context": "sit",
+    "Result": "quod",
     "State": "All",
-    "Description": "Adaptive mission-critical process improvement",
-    "Response": "tenetur",
-    "Request": "at",
-    "ProgressDescription": "Switchable upward-trending focus group",
-    "ProgressPercent": 609,
-    "FileName": "Connelly, Reichert and Braun",
+    "Description": "Managed mobile software",
+    "Response": "sit",
+    "Request": "quibusdam",
+    "ProgressDescription": "Synergistic secondary attitude",
+    "ProgressPercent": 224,
+    "FileName": "Sporer, Kuvalis and Harvey",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 766
       }
     }
   }

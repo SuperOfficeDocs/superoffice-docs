@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 339,
+  "CRMScriptId": 649,
   "EventData": null
 }
 ```
@@ -110,34 +110,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "non",
-    "InputValues2": "iusto"
+    "InputValues1": "unde",
+    "InputValues2": "dolores"
   },
-  "BlockExecution": true,
-  "NavigateTo": "modi",
-  "Message": "voluptatibus",
-  "ShowDialog": "eaque",
+  "BlockExecution": false,
+  "NavigateTo": "quasi",
+  "Message": "accusantium",
+  "ShowDialog": "voluptas",
   "OutputValues": {
-    "OutputValues1": "eveniet",
-    "OutputValues2": "deserunt"
+    "OutputValues1": "ratione",
+    "OutputValues2": "illo"
   },
   "StateValues": {
-    "StateValues1": "est",
-    "StateValues2": "vel"
+    "StateValues1": "ipsa",
+    "StateValues2": "voluptas"
   },
-  "Exception": "et",
+  "Exception": "iusto",
   "ParserValues": {
-    "ParserValues1": "error",
-    "ParserValues2": "veniam"
+    "ParserValues1": "quia",
+    "ParserValues2": "ut"
   },
   "CgiVariables": {
-    "CgiVariables1": "quia",
-    "CgiVariables2": "nihil"
+    "CgiVariables1": "maiores",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "dignissimos",
+  "CgiContent": "nihil",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "perspiciatis"
+    "Headers1": "quam",
+    "Headers2": "minus"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 1001
     }
   }
 }

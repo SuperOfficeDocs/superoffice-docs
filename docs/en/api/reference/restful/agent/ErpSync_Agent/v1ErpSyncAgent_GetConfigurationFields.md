@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 191
+  "ErpConnectorId": 775
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "eveniet",
-    "Rank": 431,
-    "DisplayName": "Bechtelar, Skiles and Rohan",
-    "DisplayDescription": "Organized executive standardization",
+    "FieldKey": "laboriosam",
+    "Rank": 381,
+    "DisplayName": "Hyatt-Dibbert",
+    "DisplayDescription": "Upgradable value-added focus group",
     "FieldType": "Checkbox",
-    "ListName": "Deckow, Jacobson and Dooley",
-    "DefaultValue": "quam",
-    "MaxLength": 286,
+    "ListName": "Yundt-Klein",
+    "DefaultValue": "molestias",
+    "MaxLength": 514,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

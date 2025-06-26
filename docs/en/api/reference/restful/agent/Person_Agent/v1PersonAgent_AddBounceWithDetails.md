@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "trisha@mayer.name",
-  "Counts": 203,
-  "Code": 376,
-  "Reason": "aggregate open-source markets"
+  "EmailAddress": "sim@rosenbaumsatterfield.ca",
+  "Counts": 803,
+  "Code": 925,
+  "Reason": ""
 }
 ```
 

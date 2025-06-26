@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=sint
+GET /api/v1/List/Rating/MDOItems?query=suscipit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Wunsch Inc and Sons",
-    "ToolTip": "Commodi harum ducimus accusantium dolorem et voluptas ut.",
+    "Id": 283,
+    "Name": "Hauck-Koss",
+    "ToolTip": "Culpa non tenetur aperiam et.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "sapiente",
+    "Rank": 546,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Gibson, Streich and O'Connell",
-        "ToolTip": "Ea molestias occaecati eligendi explicabo.",
-        "Deleted": false,
-        "Rank": 255,
-        "Type": "qui",
+        "Id": 792,
+        "Name": "Feeney-Wuckert",
+        "ToolTip": "Doloribus aut aut quo voluptatum.",
+        "Deleted": true,
+        "Rank": 869,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 570,
-        "ExtraInfo": "ab",
-        "StyleHint": "omnis",
-        "FullName": "Jeromy Heidenreich",
+        "IconHint": "voluptate",
+        "ColorBlock": 702,
+        "ExtraInfo": "earum",
+        "StyleHint": "dolorum",
+        "FullName": "Prof. General Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 185
+            "FieldLength": 349
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 682,
-    "ExtraInfo": "facilis",
-    "StyleHint": "eius",
-    "FullName": "Beau Baumbach",
+    "IconHint": "culpa",
+    "ColorBlock": 196,
+    "ExtraInfo": "debitis",
+    "StyleHint": "autem",
+    "FullName": "Vance Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 148
       }
     }
   }

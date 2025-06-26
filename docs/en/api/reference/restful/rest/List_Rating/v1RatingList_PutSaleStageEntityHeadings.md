@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Witting-Zboncak",
-    "Tooltip": "quo",
+    "HeadingId": 89,
+    "Name": "Prosacco, Kertzmann and Toy",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 156,
-    "UdListDefinitionId": 996
+    "Rank": 678,
+    "UdListDefinitionId": 267
   },
   {
-    "HeadingId": 502,
-    "Name": "Witting-Zboncak",
-    "Tooltip": "quo",
+    "HeadingId": 89,
+    "Name": "Prosacco, Kertzmann and Toy",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 156,
-    "UdListDefinitionId": 996
+    "Rank": 678,
+    "UdListDefinitionId": 267
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Harris, Carter and Torphy",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 299,
-    "UdListDefinitionId": 58,
+    "HeadingId": 218,
+    "Name": "D'Amore, Bechtelar and Bradtke",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 505,
+    "UdListDefinitionId": 304,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 795
       }
     }
   }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 730,
-  "TargetDimensionId": 98
+  "Year": 632,
+  "TargetDimensionId": 766
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 376,
+    "TargetAssignmentInfoId": 247,
     "Values": [
-      852,
-      912
+      798,
+      112
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 557,
-    "DimensionListItemDisplayName": "Jerde, Schaden and Schamberger",
+    "DimensionListItem": 810,
+    "DimensionListItemDisplayName": "D'Amore-Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

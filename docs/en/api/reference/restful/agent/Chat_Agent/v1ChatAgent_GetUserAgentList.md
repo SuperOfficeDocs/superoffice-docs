@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": false
+  "Flat": true,
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Corkery, Oberbrunner and Parker",
-    "ToolTip": "Ullam ipsum sed voluptatem.",
-    "Deleted": false,
-    "Rank": 532,
-    "Type": "facilis",
+    "Id": 436,
+    "Name": "Ortiz Group",
+    "ToolTip": "Ut quibusdam soluta.",
+    "Deleted": true,
+    "Rank": 699,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Porro doloribus.",
+        "Id": 393,
+        "Name": "Fisher-Keeling",
+        "ToolTip": "Voluptas enim aut.",
         "Deleted": true,
-        "Rank": 126,
-        "Type": "odit",
+        "Rank": 160,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 154,
-        "ExtraInfo": "rerum",
-        "StyleHint": "hic",
-        "FullName": "Gia Brown",
+        "IconHint": "consequatur",
+        "ColorBlock": 886,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "vitae",
+        "FullName": "Keven Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldLength": 186
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 674,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "quam",
-    "FullName": "Ms. Joelle Athena Feest",
+    "IconHint": "et",
+    "ColorBlock": 116,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "reprehenderit",
+    "FullName": "Dr. Terrill Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldLength": 950
       }
     }
   }

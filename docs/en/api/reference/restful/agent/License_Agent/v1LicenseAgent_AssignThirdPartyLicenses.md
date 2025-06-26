@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 689,
-  "ModuleOwner": "quibusdam",
+  "AssociateId": 376,
+  "ModuleOwner": "vel",
   "ModuleLicenseNames": [
-    "Dare Inc and Sons",
-    "Wisoky, Volkman and McCullough"
+    "Pfeffer, Koepp and Gerhold",
+    "Murphy Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 657,
-    "Tooltip": "quidem",
+    "Total": 325,
+    "Tooltip": "quasi",
     "CanAssign": true,
-    "Free": 920,
-    "InUse": 196,
-    "IsHidden": false,
+    "Free": 434,
+    "InUse": 18,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 677,
-    "Name": "Gorczany Inc and Sons",
-    "Description": "Self-enabling mobile initiative",
-    "PrerequisiteModuleName": "Schimmel LLC",
-    "SortOrder": 98,
-    "ExtraFlags": 445,
+    "ModuleLicenseId": 952,
+    "Name": "Will, Dicki and Corkery",
+    "Description": "Robust web-enabled productivity",
+    "PrerequisiteModuleName": "Thompson-Wunsch",
+    "SortOrder": 287,
+    "ExtraFlags": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 953
       }
     }
   }

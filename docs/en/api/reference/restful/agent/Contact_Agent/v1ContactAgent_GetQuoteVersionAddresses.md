@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 117
+  "QuoteVersionId": 547
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 21743.692,
-    "Wgs84Longitude": 23479.928,
+    "Wgs84Latitude": 8192.276,
+    "Wgs84Longitude": 11348.214,
     "LocalizedAddress": [
       [
         {
-          "Name": "Ondricka Inc and Sons",
-          "Value": "suscipit",
-          "Tooltip": "enim",
-          "Label": "corporis",
-          "ValueLength": 636,
-          "AddressType": "est",
+          "Name": "Carroll-Green",
+          "Value": "et",
+          "Tooltip": "autem",
+          "Label": "tempore",
+          "ValueLength": 98,
+          "AddressType": "quis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 266
+              "FieldLength": 606
             }
           }
         }
       ],
       [
         {
-          "Name": "Balistreri Group",
-          "Value": "aliquam",
-          "Tooltip": "perspiciatis",
-          "Label": "recusandae",
-          "ValueLength": 654,
-          "AddressType": "voluptas",
+          "Name": "Reichel Group",
+          "Value": "et",
+          "Tooltip": "accusantium",
+          "Label": "similique",
+          "ValueLength": 338,
+          "AddressType": "ea",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 99
+              "FieldLength": 997
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "ea",
+    "Formatted": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 42
+        "FieldType": "System.Int32",
+        "FieldLength": 9
       }
     }
   }

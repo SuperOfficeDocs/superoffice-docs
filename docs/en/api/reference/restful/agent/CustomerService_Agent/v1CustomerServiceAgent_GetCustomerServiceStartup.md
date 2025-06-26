@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": true,
-  "TZOffset": 388,
-  "RecaptchaSiteKey": "esse",
+  "TimezoneEnabled": false,
+  "TZOffset": 343,
+  "RecaptchaSiteKey": "consequuntur",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "natus",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "quia",
-      "DisplayTooltip": "et",
+      "DisplayValue": "assumenda",
+      "DisplayTooltip": "ut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 494,
-      "PrefDescId": 914,
-      "TableName": "Rempel Group",
-      "UserPreferenceId": 192,
+      "TargetId": 801,
+      "PrefDescId": 629,
+      "TableName": "Gottlieb-Jenkins",
+      "UserPreferenceId": 200,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 216
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

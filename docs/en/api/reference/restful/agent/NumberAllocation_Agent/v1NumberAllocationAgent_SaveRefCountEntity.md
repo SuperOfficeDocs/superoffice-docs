@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 266,
-  "Field": "maxime",
-  "RecordId": 888,
+  "RefCountsId": 896,
+  "Field": "nostrum",
+  "RecordId": 747,
   "SuggestedRecords": [
     {
-      "Id": 148,
-      "Name": "Goyette, Keeling and Spencer",
-      "ToolTip": "Nisi porro.",
-      "Deleted": true,
-      "Rank": 510,
-      "Type": "veniam",
+      "Id": 314,
+      "Name": "Greenholt, Huels and Cremin",
+      "ToolTip": "Dolores ipsum.",
+      "Deleted": false,
+      "Rank": 805,
+      "Type": "consequuntur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 263,
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "ea",
-      "FullName": "Nathaniel Purdy"
+      "IconHint": "tenetur",
+      "ColorBlock": 85,
+      "ExtraInfo": "maiores",
+      "StyleHint": "voluptas",
+      "FullName": "Eula D'Amore"
     }
   ],
-  "CurrentValue": 465,
-  "TravelPrefix": 96,
-  "SatPrefix": 721,
-  "Allocate": true,
+  "CurrentValue": 560,
+  "TravelPrefix": 863,
+  "SatPrefix": 398,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false
+  "ReadOnly": true,
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 37,
-  "Field": "molestias",
-  "RecordId": 390,
+  "RefCountsId": 284,
+  "Field": "quia",
+  "RecordId": 597,
   "SuggestedRecords": [
     {
-      "Id": 748,
-      "Name": "Flatley-Hartmann",
-      "ToolTip": "Natus beatae dolor expedita et sit est dolorum.",
-      "Deleted": true,
-      "Rank": 591,
-      "Type": "ipsa",
+      "Id": 558,
+      "Name": "Bayer-Auer",
+      "ToolTip": "Quod tempore dolores fugiat quibusdam perferendis.",
+      "Deleted": false,
+      "Rank": 36,
+      "Type": "minima",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugit",
-      "ColorBlock": 270,
-      "ExtraInfo": "culpa",
-      "StyleHint": "maiores",
-      "FullName": "Mrs. Della Theodora Baumbach MD",
+      "IconHint": "repellat",
+      "ColorBlock": 292,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "in",
+      "FullName": "Josianne Lueilwitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
   ],
-  "CurrentValue": 822,
-  "TravelPrefix": 980,
-  "SatPrefix": 638,
+  "CurrentValue": 912,
+  "TravelPrefix": 966,
+  "SatPrefix": 324,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }
