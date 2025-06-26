@@ -1,11 +1,11 @@
 ---
 uid: help-no-basics-delete
-title: Slette elementer
+title: Slette og gjenopprette elementer
 description: Hvordan slå sammen, slette og gjenopprette elementer.
 keywords: slette, gjenopprette, papirkurv
-author: SuperOffice
-date: 01.29.2025
-version: 10.5
+author: Bergfrid Dias
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
 
 5. Klikk på **Gjenopprett**. Firmaene og personene gjenopprettes i SuperOffice.
 
+## Slette og gjenopprette saker
+
+Sletting og gjenoppretting av saker fungerer på samme måte som for firma og personer.
+
+For å [slette en sak][9] må brukeren tilhøre en rolle med den funksjonelle rettigheten **Service-administrasjon** eller **Generell administrator**.
+
+For å gjenopprette en slettet sak er det tilstrekkelig å ha den funksjonelle rettigheten **Redigere alle saker**. Dette gir tilgang til å se og gjenopprette alle slettede saker fra papirkurven.
+
+1. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Papirkurv**.
+1. Velg fanen **Saker** for å se slettede saker.
+1. Merk de sakene du vil gjenopprette.
+1. Klikk **Gjenopprett**. Sakene blir gjenopprettet i SuperOffice.
+
 ## Knapper
 
 | Knapp | Effekt |
@@ -105,6 +118,7 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png

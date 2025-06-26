@@ -1,11 +1,11 @@
 ---
 uid: help-sv-basics-delete
-title: Ta bort objekt
+title: Ta bort och återställa objekt
 description: Så här slår du samman, tar bort och återställer objekt.
 keywords: ta bort, återställ, papperskorg
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ Du har också möjlighet att återställa andra användares raderade företag oc
 
 5. Klicka på **Återskapa**. Företagen och kontakterna återskapas i SuperOffice.
 
+## Ta bort och återställa ärenden
+
+Borttagning och återställning av ärenden fungerar på samma sätt som för företag och kontakter.
+
+För att [ta bort ett ärende][9] måste användaren tillhöra en roll med den funktionella behörigheten **Service-administration** eller **Allmän administratör**.
+
+För att återställa ett borttaget ärende räcker det med den funktionella behörigheten **Redigera alla ärenden**. Det ger åtkomst att se och återställa alla borttagna ärenden från papperskorgen.
+
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Papperskorg**.
+1. Välj fliken **Ärenden** för att visa borttagna ärenden.
+1. Markera de ärenden du vill återställa.
+1. Klicka **Återskapa**. Ärendena återställs i SuperOffice.
+
 ## Knappar
 
 | Knapp | Effekt |
@@ -105,6 +118,7 @@ Du har också möjlighet att återställa andra användares raderade företag oc
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png

@@ -1,11 +1,11 @@
 ---
 uid: help-de-basics-delete
-title: Elemente löschen
+title: Objekte löschen und wiederherstellen
 description: Zusammenführen, Löschen und Wiederherstellen von Elementen.
 keywords: Löschen, Wiederherstellen, Papierkorb
-author: SuperOffice
-date: 02.11.2025
-version: 10.5.2
+author: Bergfrid Dias
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 
 5. Klicken Sie auf **Wiederherstellen**. Die Firmen und Personen werden in SuperOffice wiederhergestellt.
 
+## Anfragen löschen und wiederherstellen
+
+Das Löschen und Wiederherstellen von Anfragen funktioniert ähnlich wie bei Firmen und Personen.
+
+Um [eine Anfrage zu löschen][9], muss der Benutzer einer Rolle mit dem funktionellen Recht **Service Verwaltung** oder **Allgemeiner Administrator** angehören.
+
+Zum Wiederherstellen einer gelöschten Anfrage reicht das funktionellen Recht **Alle Anfragen bearbeiten** aus. Damit erhält man Zugriff, um alle gelöschten Anfragen im Papierkorb anzuzeigen und wiederherzustellen.
+
+1. Wählen Sie <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Papierkorb**.
+1. Wählen Sie die Registerkarte **Anfragen**, um gelöschte Anfragen zu sehen.
+1. Wählen Sie die Anfragen aus, die Sie wiederherstellen möchten.
+1. Klicken Sie auf **Wiederherstellen**. Die Anfragen werden in SuperOffice wiederhergestellt.
+
 ## Schaltflächen
 
 | Schaltflächen | Wirkung |
@@ -105,6 +118,7 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png

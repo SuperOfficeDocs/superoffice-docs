@@ -1,11 +1,11 @@
 ---
 uid: help-nl-basics-delete
-title: Elementen verwijderen
+title: Items verwijderen en herstellen
 description: Elementen samenvoegen, verwijderen en herstellen.
 keywords: delete, herstellen, prullenbak
-author: SuperOffice
-date: 03.14.2025
-version: 10.5.2
+author: Bergfrid Dias
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,6 +74,19 @@ U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruike
 
 5. Klik op **Herstellen**. De bedrijven en personen worden hersteld in SuperOffice.
 
+## Verzoeken verwijderen en herstellen
+
+Het verwijderen en herstellen van verzoeken werkt op dezelfde manier als bij bedrijven en personen.
+
+Om [een verzoek te verwijderen][9], moet je gebruiker tot een rol behoren met het functionele recht **Service-beheer** of **Algemene beheerder**.
+
+Om een verwijderd verzoek te herstellen, is het voldoende om het functionele recht **Alle verzoeken bewerken** te hebben. Hiermee kun je alle verwijderde verzoeken in de prullenbak bekijken en herstellen.
+
+1. Kies <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Prullenbak**.
+1. Selecteer het tabblad **Verzoeken** om verwijderde verzoeken te bekijken.
+1. Selecteer de verzoeken die je wilt herstellen.
+1. Klik op **Herstellen**. De verzoeken worden hersteld in SuperOffice.
+
 ## Knoppen
 
 | Knop | Effect |
@@ -105,6 +118,7 @@ U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruike
 [6]: ../../diary/learn/recurrence/stop.md
 [7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
+[9]: ../../request/learn/delete.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
