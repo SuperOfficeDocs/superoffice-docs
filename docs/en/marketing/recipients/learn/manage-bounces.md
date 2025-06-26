@@ -1,15 +1,15 @@
 ---
-uid: help-en-marketing-bounce
+uid: help-en-blocked-email-addresses
 title: Manage bounces
 description: Learn how to handle bounced emails in SuperOffice Marketing.
 keywords: Marketing, mailing, bounce, blocked, undelivered, recipient
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Manage bounces
@@ -53,10 +53,9 @@ Use the filter buttons (Sent, Bounced, and Opened) to [filter you recipients lis
 
 ## Blocked email addresses
 
-Email addresses that have been returned due to permanent errors or have bounced several times are automatically blocked and will be skipped in future mailings.
+Email addresses that have failed due to permanent errors or bounced repeatedly are automatically blocked. Blocked addresses are skipped in all future mailings to protect your sender reputation.
 
-> [!NOTE]
-> If an email bounces more then 5 times, it is automatically blocked. You can adjust this setting in the global preference **Number of accepted bounces before email address is disabled** in Settings and maintenance.
+By default, an email address is blocked after 5 consecutive bounces. This threshold defines what is considered **too many bounces**. It helps identify unreliable addresses that consistently fail to receive mailings. You can adjust this limit in the global preference **Number of accepted bounces before email address is disabled** in Settings and maintenance.
 
 All blocked email addresses from all mailings are archived in the **Blocked email addresses** tab. This tab provides an excellent overview of email addresses that must be cleaned.
 

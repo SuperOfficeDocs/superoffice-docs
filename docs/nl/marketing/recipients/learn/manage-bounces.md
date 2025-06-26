@@ -2,10 +2,10 @@
 uid: help-nl-blocked-email-addresses
 title: Geblokkeerde e-mailadressen
 description: Leer hoe u teruggestuurde e-mails kunt verwerken in deze handleiding.
-keywords: Marketing
+keywords: geblokkeerde e-mailadressen, te veel bounces, bounce, retourneringen, geretourneerd
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -53,10 +53,9 @@ Gebruik de filterknoppen (Verzonden, Geretourneerd en Geopend) om [uw lijst met 
 
 ## Geblokkeerde e-mailadressen
 
-E-mailadressen die zijn geretourneerd vanwege permanente fouten of meerdere keren zijn teruggestuurd, worden automatisch geblokkeerd en worden overgeslagen in toekomstige mailings.
+E-mailadressen die zijn gefaald door permanente fouten of herhaaldelijk zijn gebounced, worden automatisch geblokkeerd. Geblokkeerde adressen worden overgeslagen in alle toekomstige mailings om uw afzenderreputatie te beschermen.
 
-> [!NOTE]
-> Als een e-mail meer dan 5 keer is geretourneerd, wordt deze automatisch geblokkeerd. U kunt deze instelling aanpassen in de algemene voorkeur **Het aantal retourneringen dat wordt geaccepteerd voordat het e-mailadres wordt uitgeschakeld** in Instellingen en onderhoud.
+Standaard wordt een e-mailadres geblokkeerd na 5 opeenvolgende bounces. Deze drempel bepaalt wat wordt beschouwd als **te veel bounces**. Het helpt onbetrouwbare adressen te identificeren die consequent mislukken. U kunt deze limiet aanpassen in de globale voorkeur **Het aantal retourneringen dat wordt geaccepteerd voordat het e-mailadres wordt uitgeschakeld** in Instellingen en onderhoud.
 
 Alle geblokkeerde e-mailadressen van alle mailings worden gearchiveerd op het tabblad **Geblokkeerde e-mailadressen**. Dit tabblad biedt een uitstekend overzicht van e-mailadressen die moeten worden opgeschoond.
 

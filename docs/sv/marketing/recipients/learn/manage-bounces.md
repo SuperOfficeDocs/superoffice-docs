@@ -2,10 +2,10 @@
 uid: help-sv-blocked-email-addresses
 title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
-keywords: Marknadsföring
+keywords: blockerade e-postadresser, studsar, för många returer, returnerade e-postmeddelanden
 author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -53,10 +53,9 @@ Använd filterknapparna (Skickat, Returnerat och Öppnat) för att filtrera [mot
 
 ## Blockerade e-postadresser
 
-E-postadresser som har returnerats på grund av permanenta fel eller som har returnerats flera gånger blockeras automatiskt och hoppas över i framtida utskick.
+E-postadresser som har misslyckats på grund av permanenta fel eller har returnerats upprepade gånger blockeras automatiskt. Blockerade adresser hoppas över i alla framtida utskick för att skydda ditt avsändarrykte.
 
-> [!NOTE]
-> Om ett e-postmeddelande returneras mer än 5 gånger blockeras det automatiskt. Du kan hantera inställningen under den globala inställningen **Antal returer som accepteras innan e-postadressen inaktiveras** i SuperOffice Inställningar och underhåll.
+Som standard blockeras en e-postadress efter 5 på varandra följande returer. Denna tröskel definierar vad som anses vara **för många returer**. Det hjälper till att identifiera opålitliga adresser som konsekvent misslyckas. Du kan justera denna gräns i den globala inställningen **Antal returer som accepteras innan e-postadressen inaktiveras** i Inställningar och underhåll.
 
 Alla blockerade e-postutskick från alla utskick arkiveras under fliken **Blockerade e-postadresser**. Den här fliken ger en utmärkt översikt över e-postadresser som måste rensas.
 

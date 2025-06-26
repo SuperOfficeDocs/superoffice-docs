@@ -1,15 +1,15 @@
 ---
 uid: help-de-blocked-email-addresses
 title: Gesperrte E-Mail-Adressen
-description: "In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen."
-keywords: Marketing
+description: In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen.
+keywords: gesperrte E-Mail-Adressen, nicht zustellbar, Rückläufer, Bounce
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Nicht zustellbare verwalten
@@ -53,10 +53,9 @@ Verwenden Sie die Filterschaltflächen (Gesendet, Unzustellbar und Geöffnet), d
 
 ## Gesperrte E-Mail-Adressen
 
-E-Mail-Adressen, die aufgrund von dauerhaften Fehlern zurückgesendet werden oder mehrmals nicht zustellbar gewesen sind, werden automatisch gesperrt und in zukünftigen Kampagnen übersprungen.
+E-Mail-Adressen, die aufgrund dauerhaften Fehler oder wiederholter Rückläufer nicht zugestellt wurden, werden automatisch gesperrt. Gesperrte Adressen werden in allen zukünftigen Mailings übersprungen, um Ihren Absender-Ruf zu schützen.
 
-> [!NOTE]
-> Wenn eine E-Mail mehr als 5 Mal nicht zustellbar war, ist sie automatisch blockiert. Ändern Sie diese Einstellung in den globalen Einstellungen **Anzahl der erfolglosen Zustellversuche, nach der die E-Mail-Adresse deaktiviert wird** in Einstellungen und Verwaltung.
+Standardmäßig wird eine E-Mail-Adresse nach 5 aufeinanderfolgenden Rückläufern blockiert. Dieser Schwellenwert definiert, was als **zu viele Rückläufer** gilt. Er hilft, unzuverlässige Adressen zu erkennen, die regelmäßig fehlschlagen. Sie können diesen Grenzwert in der globalen Einstellung **Anzahl der erfolglosen Zustellversuche, nach der die E-Mail-Adresse deaktiviert wird** in Einstellungen und Verwaltung anpassen.
 
 Alle blockierten E-Mail-Adressen aller Kampagnen werden auf der Registerkarte **Blockierte E-Mail-Adressen** archiviert. Diese Registerkarte bietet einen hervorragenden Überblick über E-Mail-Adressen, die bereinigt werden müssen.
 
