@@ -4,8 +4,8 @@ title: Kalender
 description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De här guiderna förklarar hur du använder kalendern.
 keywords: kalender, kalenderfönster, händelse, att-göra-lista, uppgift, bokning, möte, telefon, samtal
 author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -22,7 +22,7 @@ Kalender-fönstret är den centrala platsen i SuperOffice CRM för att hantera [
 Kalendern består av följande huvudkomponenter:
 
 * **Kalender:** Visar händelser som är planerade till specifika datum och tider. Det fungerar som en digital almanacka med separata vyer för dag, vecka och månad.
-* **Att-göra-lista:** Visar (icke slutförda) aktiviteter utan specifika tider, såsom samtal, uppgifter och försäljningar. Den fungerar som en checklista.
+* **Att-göra-lista:** Visar (icke slutförda) aktiviteter utan specifika tider, såsom uppgifter och försäljningar.
 
 Med flexibla vyer säkerställer kalendern smidig planering och samarbete, så att du enkelt kan strukturera din dag, vecka eller månad.
 

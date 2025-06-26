@@ -4,8 +4,8 @@ title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 keywords: open Diary, Diary screen, calendar, Activities section tab, activities, to-do list, task list, follow-up, diary
 author: Bergfrid Dias
-date: 01.20.2025
-version: 10.5
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -22,7 +22,7 @@ The Diary screen is the central hub of SuperOffice CRM for managing [follow-ups]
 The Diary combines the following key components:
 
 * **Calendar:** Shows follow-ups scheduled for specific dates and times. It is similar to a Filofax, with separate pages for every day, week, and month.
-* **To-do list:** Shows (uncompleted) activities without specific times, such as calls and to-dos, and sales. This acts as a to-do list.
+* **To-do list:** Shows (uncompleted) activities without specific times, such as to-dos and sales.
 
 With its flexible views, the Diary ensures seamless collaboration, allowing you to plan your day, week, or month with ease.
 

@@ -2,10 +2,10 @@
 uid: help-nl-diary
 title: Agenda
 description: De SuperOffice Agenda is het hart van uw CRM-systeem. Deze handleidingen helpen u te leren werken met de agenda.
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
 keywords: agenda openen, scherm Agenda, kalender, sectietabblad Activiteiten, activiteit, takenlijst, taak, taken, vervolgactiviteit, agenda
+author: Bergfrid Dias
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -22,7 +22,7 @@ Het scherm **Agenda** is het centrale onderdeel van SuperOffice CRM voor het beh
 De agenda bevat de volgende belangrijke onderdelen:
 
 * **Kalender:** Toont vervolgactiviteiten die zijn ingepland op specifieke data en tijden. Dit werkt als een papieren agenda met afzonderlijke pagina's voor elke dag, week en maand.
-* **Takenlijst:** Toont onvoltooide activiteiten zonder specifieke tijd, zoals oproepen, taken en verkopen. Dit fungeert als een takenlijst.
+* **Takenlijst:** Toont onvoltooide activiteiten zonder specifieke tijd, zoals taken en verkopen.
 
 Dankzij de flexibele weergaven in de agenda kunt u eenvoudig samenwerken en uw dag, week of maand efficiënt plannen.
 

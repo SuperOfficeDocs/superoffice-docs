@@ -4,8 +4,8 @@ title: Dagbok
 description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse veiledningene hjelper deg med å navigere og arbeide i dagboken.
 keywords: åpne dagbok, dagbokskjerm, kalender, Aktiviteter-fanen, aktiviteter, oppgaveliste, oppfølging, dagbok
 author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -22,7 +22,7 @@ Dagboken er hjertet i SuperOffice CRM og brukes til å administrere [oppfølging
 Dagboken kombinerer følgende nøkkelkomponenter:
 
 * **Kalender:** Viser aktiviteter planlagt for spesifikke datoer og tidspunkter. Den fungerer som en digital planbok med separate sider for hver dag, uke og måned.
-* **Oppgaveliste:** Viser aktiviteter uten spesifikke tidspunkter, for eksempel samtaler og oppgaver. Denne fungerer som en gjøremålsliste.
+* **Oppgaveliste:** Viser aktiviteter uten spesifikke tidspunkter, for eksempel oppgaver og salg.
 
 Med fleksible visninger sikrer dagboken sømløst samarbeid og lar deg planlegge dagen, uken eller måneden på en effektiv måte.
 
