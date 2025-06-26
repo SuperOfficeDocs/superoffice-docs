@@ -83,7 +83,7 @@ De lijst met **Opmak** toont alle bestaande opmaken, inclusief een voorbeeld van
 
 Om te beginnen met het aanpassen van schermen:
 
-1. Open de Schermontwerper door te klikken op ![icon][img2], **Instellingen en onderhoud** te selecteren en vervolgens **Schermontwerper** uit de navigatiebalk te kiezen.
+1. Open de Schermontwerper door te klikken op <i class="ph ph-list" aria-label="Main menu"></i>, **Instellingen en onderhoud** te selecteren en vervolgens **Schermontwerper** uit de navigatiebalk te kiezen.
 
 2. Sleep velden naar de editor om ze aan uw opmaak toe te voegen.
 
@@ -127,7 +127,6 @@ Door de schermopmaken aan te passen met de Schermontwerper kunt u overbodige inf
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png
 [img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

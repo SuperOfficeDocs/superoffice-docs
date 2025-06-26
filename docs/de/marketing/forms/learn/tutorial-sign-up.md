@@ -147,7 +147,7 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 1. Klicken Sie auf **Speichern**. Das Formular wird gespeichert und die Ansicht **Formular bearbeiten** wird geschlossen.
 
-1. Setzen Sie das Formular in der Kopfzeile auf **Aktiv** ![Symbol][img4].
+1. Setzen Sie das Formular in der Kopfzeile auf **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i>.
 
 1. Gehen Sie zur Registerkarte **Veröffentlichen**.
 
@@ -166,7 +166,6 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

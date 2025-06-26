@@ -21,7 +21,7 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 1. Utfør en av følgende handlinger:
 
     * Høyreklikk på aktiviteten, og velg **Utført**.
-    * Klikk på avmerkingsboksen i **Utført**-kolonnen ![ikon][img2] i detaljkortet **Aktiviteter**.
+    * Klikk på avmerkingsboksen i **Utført**-kolonnen <i class="ph ph-check" aria-label="Checkmark"></i> i detaljkortet **Aktiviteter**.
     * Åpne aktiviteten og velg **Utført**.
 
 1. Merk/avmerk avmerkingsboksen i bunnen av oppfølgingsdialogen.
@@ -34,5 +34,4 @@ Når en oppfølging regnes som avsluttet, kan du merke den som utført.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

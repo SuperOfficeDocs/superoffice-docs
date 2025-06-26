@@ -17,15 +17,10 @@ Wenn eine Person Einsicht in alle erfassten Informationen verlangt, die über si
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klicken Sie auf **Aufgabe** ![Symbol][img1] &gt; **Bericht zu personenbezogenen Daten generieren**.
+1. Klicken Sie auf **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) > **Bericht zu personenbezogenen Daten generieren**.
 
 1. Im Dialogfeld **Datenschutzbericht** werden die zu der Person gespeicherten Informationen angezeigt.
 
 1. Senden Sie den Bericht als E-Mail-Anhang oder speichern Sie ihn als PDF-Datei.
 
 Der Bericht wird auf der Bereichsregisterkarte **Aktivitäten** archiviert.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

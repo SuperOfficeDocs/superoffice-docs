@@ -60,7 +60,7 @@ Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Samme
 
   * I tillegg vil SuperOffice Marketing vise deg antallet mottakere basert på statusen deres. Det betyr at du blant annet kan se hvor mange mottakere som leser utsendelsen, hvor mange som ble returnert, og hvor mange duplikater utsendelsen inneholdt.
 
-* **Mottakere**: Denne kategorien viser en [mottakerliste][2] for utsendelsen. Her vises også status (sender, venter, mislyktes, returnert, lest) for utsendelsen til hver enkelt mottaker. Oversikten kan filtreres ved å merke av i avmerkingsboksene nederst i bildet. Du kan også velge og legge til mottakere i utvalg og prosjekter ved hjelp av ![ikon][img1] menyknappen.
+* **Mottakere**: Denne kategorien viser en [mottakerliste][2] for utsendelsen. Her vises også status (sender, venter, mislyktes, returnert, lest) for utsendelsen til hver enkelt mottaker. Oversikten kan filtreres ved å merke av i avmerkingsboksene nederst i bildet. Du kan også velge og legge til mottakere i utvalg og prosjekter ved hjelp av menyknappen.
 
 * **Sporede koblinger**: Denne fanen viser [antall klikk for hver sporede kobling][3] i utsendelsen. Klikk på en kobling for å gå til bildet **Vis kobling**. Du får se en liste over mottakerne som har klikket på koblingen, og når de klikket på dem. Bruk denne listen til å lage et utvalg eller et prosjekt for videre oppfølging.
 
@@ -75,5 +75,4 @@ Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Samme
 [3]: ../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/marketing/summary-tab.png

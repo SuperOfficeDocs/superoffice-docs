@@ -87,7 +87,7 @@ Gå till **Marknadsföring** > **Formulär**. För detaljer, se [Skapa formulär
 
 **Som en flödesredigerare:**
 
-1. På fliken **Flödets innehåll**, klicka på menyknappen ![ikon][img11] på den e-post du vill uppdatera och välj **Redigera**.
+1. På fliken **Flödets innehåll**, klicka på menyknappen på den e-post du vill uppdatera och välj **Redigera**.
 
 **Som en flödesadministratör:**
 
@@ -113,4 +113,3 @@ Gå till **Marknadsföring** > **Formulär**. För detaljer, se [Skapa formulär
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

@@ -103,7 +103,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Klikk på **Lagre**. Skjemaet lagres og vinduet **Rediger skjema** lukkes.
 
-1. Sett skjemaet til **Aktiv** ![icon][img3] i overskriften.
+1. Sett skjemaet til **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i overskriften.
 
 1. Gå til fanen **Publiser**.
 
@@ -122,7 +122,6 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

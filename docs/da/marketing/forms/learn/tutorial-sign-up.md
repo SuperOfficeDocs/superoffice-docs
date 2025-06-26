@@ -147,7 +147,7 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 1. Klik på **Gem**. Formularen gemmes, og skærmbilledet **Rediger formular** lukkes.
 
-1. Indstil formularen til **Aktiv** ![ikon][img4] i sidehovedet.
+1. Indstil formularen til **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i sidehovedet.
 
 1. Gå til fanen **Udgiv**.
 
@@ -166,7 +166,6 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

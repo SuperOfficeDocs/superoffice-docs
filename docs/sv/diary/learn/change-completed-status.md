@@ -21,7 +21,7 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 1. Utför en av följande åtgärder:
 
     * Högerklicka på aktiviteten och välj **Slutförd**.
-    * Klicka i kryssrutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**.
+    * Klicka i kryssrutan i kolumnen **Slutförd** <i class="ph ph-check" aria-label="Checkmark"></i> på fliken **Aktiviteter**.
     * Öppna aktiviteten och välj **Slutförd**.
 
 1. Markera/avmarkera kryssrutan längst ner i följd-dialogen.
@@ -34,5 +34,4 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

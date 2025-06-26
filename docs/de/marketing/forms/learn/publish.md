@@ -22,7 +22,7 @@ Nachdem Sie ein Formular und (falls relevant) das Antwortformular erstellt haben
 
 2. Klicken Sie auf das Formular, um es im Ansichtsmodus zu öffnen.
 
-3. Setzen Sie das Formular in der Kopfzeile auf **Aktiv** ![Symbol][img1].
+3. Setzen Sie das Formular in der Kopfzeile auf **Aktiv** <i class="ph ph-toggle-right" aria-label="Toggle on"></i>.
 
 4. Gehen Sie zur Registerkarte **Veröffentlichen**.
 
@@ -51,5 +51,4 @@ Formulare können manuell deaktiviert werden oder werden automatisch deaktiviert
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

@@ -17,15 +17,10 @@ Als een persoon vraagt om inzage in alle over hem/haar geregistreerde informatie
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klik op **Taak** ![pictogram][img1] &gt; **Rapport met persoonlijke gegevens genereren**.
+1. Klik op **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) > **Rapport met persoonlijke gegevens genereren**.
 
 1. In het dialoogvenster **Privacyrapport** kunt u de geregistreerde gegevens over de persoon weergeven.
 
 1. Verzend het rapport als een e-mailbijlage of sla het rapport op als een PDF.
 
 Het rapport wordt gearchiveerd in het sectietabblad **Activiteiten**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

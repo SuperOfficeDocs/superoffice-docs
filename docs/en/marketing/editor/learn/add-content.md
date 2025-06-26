@@ -40,7 +40,7 @@ From the **Content** section you can add all types of content, such as columns, 
 
 This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message.
 
-To save a content block, click a row and select **Save block** (![icon][img13]).
+To save a content block, click a row and select **Save block** (<i class="ph ph-floppy-disk-back" aria-label="Save block"></i>).
 
 ## Editing global layout ![icon][img14]
 
@@ -83,5 +83,4 @@ You can also **add special links** to your mailing. Depending on what you want t
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

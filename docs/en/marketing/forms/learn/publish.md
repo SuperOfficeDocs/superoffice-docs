@@ -22,7 +22,7 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 2. Click the form to open it in view mode.
 
-3. Set the form to **Active** ![icon][img1] in the header.
+3. Set the form to **Active** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> in the header.
 
 4. Go to the **Publish** tab.
 
@@ -51,5 +51,4 @@ Forms can be deactivated manually, or are automatically deactivated at a specifi
 [3]: process-submissions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img3]: ../../../../media/loc/en/marketing/form-publish.png

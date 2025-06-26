@@ -40,7 +40,7 @@ In de sectie **Inhoud** kunt u alle soorten inhoud toevoegen, zoals kolommen, te
 
 Deze sectie bevat opgeslagen inhoudsblokken zoals kop- en voetteksten. Inhoud van deze sectie naar het bericht slepen en neerzetten.
 
-Als u een inhoudsblok wilt opslaan, klikt u op een rij en selecteert u **Blok opslaan** ![pictogram][img13].
+Als u een inhoudsblok wilt opslaan, klikt u op een rij en selecteert u **Blok opslaan** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>.
 
 ## Algemene layout bewerken ![pictogram][img14]
 
@@ -83,5 +83,4 @@ U kunt ook **speciale koppelingen toevoegen** aan uw mailing. Afhankelijk van wa
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

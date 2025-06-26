@@ -77,7 +77,7 @@ Listan **Layouter** visar alla befintliga layouter, inklusive en förhandsgransk
 
 För att börja anpassa skärmar:
 
-1. Öppna skärmdesignern genom att klicka på ![icon][img2], välja **Inställningar och underhåll** och sedan välja **Skärmdesigner** från navigatören.
+1. Öppna skärmdesignern genom att klicka på <i class="ph ph-list" aria-label="Main menu"></i>, välja **Inställningar och underhåll** och sedan välja **Skärmdesigner** från navigatören.
 
 2. Dra och släpp fält i redigeraren för att lägga till dem i layouten.
 
@@ -121,7 +121,6 @@ Genom att anpassa skärmlayouterna med skärmdesignern kan du eliminera onödig 
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png
 [img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

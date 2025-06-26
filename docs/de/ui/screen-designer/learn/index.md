@@ -83,7 +83,7 @@ Die **Layouts**-Liste zeigt alle vorhandenen Layouts an, einschließlich einer V
 
 Um mit der Anpassung von Bildschirmen zu beginnen:
 
-1. Öffnen Sie den Ansichtsdesigner, indem Sie auf ![icon][img2] klicken, **Einstellungen und Verwaltung** auswählen und dann **Ansichtsdesigner** aus dem Navigator wählen.
+1. Öffnen Sie den Ansichtsdesigner, indem Sie auf <i class="ph ph-list" aria-label="Main menu"></i> klicken, **Einstellungen und Verwaltung** auswählen und dann **Ansichtsdesigner** aus dem Navigator wählen.
 
 2. Ziehen Sie Felder in den Editor, um sie zu Ihrem Layout hinzuzufügen.
 
@@ -127,7 +127,6 @@ Durch die Anpassung der Ansichtslayouts mit dem Ansichtsdesigner können Sie unn
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png
 [img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

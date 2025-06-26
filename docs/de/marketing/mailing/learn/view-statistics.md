@@ -60,7 +60,7 @@ Nachdem Ihre Kampagne fertiggestellt ist, können Sie auf der Registerkarte **Zu
 
   * Darüber hinaus zeigt Ihnen SuperOffice Marketing die Nummern aller Empfänger anhand ihres Status an. Sie können unter anderem sehen, wie viele Empfänger die Kampagne gelesen haben, wie viele nicht zugestellt wurden und wie viele Duplikate Ihre Kampagne enthielt.
 
-* **Empfänger**: Diese Registerkarte zeigt eine [Liste der Empfänger][2] der Kampagne. In dieser Liste ist zu jedem der Empfänger auch der Status der Kampagne (Senden, Warten, Fehlgeschlagen, Nicht zustellbar, Gelesen usw.) angegeben. Die Zusammenfassung kann mithilfe der Kontrollkästchen unten in der Ansicht gefiltert werden. Sie können Empfänger auch über die Menüschaltfläche ![Symbol][img1] auswählen und Selektionen sowie Projekten hinzufügen.
+* **Empfänger**: Diese Registerkarte zeigt eine [Liste der Empfänger][2] der Kampagne. In dieser Liste ist zu jedem der Empfänger auch der Status der Kampagne (Senden, Warten, Fehlgeschlagen, Nicht zustellbar, Gelesen usw.) angegeben. Die Zusammenfassung kann mithilfe der Kontrollkästchen unten in der Ansicht gefiltert werden. Sie können Empfänger auch über die Menüschaltfläche auswählen und Selektionen sowie Projekten hinzufügen.
 
 * **Überwachte Links**: Diese Registerkarte zeigt die [Anzahl an Klicks auf jeden überwachten Link][3] der Kampagne. Klicken Sie auf einen Link, um die Ansicht **Link anzeigen** zu öffnen. Sie sehen eine Liste der Empfänger, die auf den Link geklickt haben und wann sie darauf geklickt haben. Verwenden Sie diese Liste, um eine Selektion oder ein Projekt für weitere Folgeaufgaben zu treffen.
 
@@ -75,5 +75,4 @@ Nachdem Ihre Kampagne fertiggestellt ist, können Sie auf der Registerkarte **Zu
 [3]: ../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/marketing/summary-tab.png

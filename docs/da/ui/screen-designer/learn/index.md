@@ -83,7 +83,7 @@ Listen **Layouts** viser alle eksisterende layouts, inklusive en forhåndsvisnin
 
 For at begynde at tilpasse skærme:
 
-1. Åbn skærmdesigneren ved at klikke på ![icon][img2], vælge **Indstillinger og vedligeholdelse** og derefter vælge **Skærmdesigner** fra navigatoren.
+1. Åbn skærmdesigneren ved at klikke på <i class="ph ph-list" aria-label="Main menu"></i>, vælge **Indstillinger og vedligeholdelse** og derefter vælge **Skærmdesigner** fra navigatoren.
 
 2. Træk og slip felter i editoren for at tilføje dem til dit layout.
 
@@ -127,7 +127,6 @@ Ved at tilpasse skærmlayouts med skærmdesigneren kan du eliminere unødvendige
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png
 [img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

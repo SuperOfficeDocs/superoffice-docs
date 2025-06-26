@@ -87,7 +87,7 @@ Gå til **Marketing** > **Forms**. For detaljer, se [Opret formular][1].
 
 **Som en flow-redaktør:**
 
-1. På fanen **Flowindhold**, klik på menuknappen ![ikon][img11] på den e-mail, du ønsker at opdatere og vælg **Rediger**.
+1. På fanen **Flowindhold**, klik på menuknappen på den e-mail, du ønsker at opdatere og vælg **Rediger**.
 
 **Som en flow-administrator:**
 
@@ -113,4 +113,3 @@ Gå til **Marketing** > **Forms**. For detaljer, se [Opret formular][1].
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

@@ -40,7 +40,7 @@ Från avsnittet **Innehåll** kan du lägga till alla typer av innehåll, såsom
 
 Detta avsnitt innehåller sparade innehållsblock såsom sidhuvuden och sidfötter. Dra och släpp innehåll från det här avsnittet till meddelandet.
 
-För att spara ett innehållsblock klickar du på en rad och väljer **Spara block** (![ikon][img13]).
+För att spara ett innehållsblock klickar du på en rad och väljer **Spara block** (<i class="ph ph-floppy-disk-back" aria-label="Save block"></i>).
 
 ## Redigera global layout ![ikon][img14]
 
@@ -83,5 +83,4 @@ Du kan också **lägga till speciallänkar** i ditt utskick. Beroende på vad du
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

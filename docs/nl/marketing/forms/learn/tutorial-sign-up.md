@@ -147,7 +147,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 1. Klik op **Opslaan**. Het formulier wordt opgeslagen en het scherm **Formulier bewerken** wordt gesloten.
 
-1. Stel het formulier in als **Actief** ![pictogram][img4] in de koptekst.
+1. Stel het formulier in als **Actief** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> in de koptekst.
 
 1. Ga naar het tabblad **Publiceren**.
 
@@ -166,7 +166,6 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

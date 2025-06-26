@@ -40,7 +40,7 @@ Im Abschnitt **Inhalt** können Sie alle Inhaltstypen hinzufügen, z. B. Spalten
 
 Dieser Bereich enthält gespeicherte Inhaltsblöcke wie Kopf- und Fußzeilen. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab.
 
-Um einen Inhaltsblock zu speichern, klicken Sie auf eine Zeile und wählen **Block speichern** (![Symbol][img13]).
+Um einen Inhaltsblock zu speichern, klicken Sie auf eine Zeile und wählen **Block speichern** (<i class="ph ph-floppy-disk-back" aria-label="Save block"></i>).
 
 ## Bearbeiten des globalen Layouts ![Symbol][img14]
 
@@ -83,5 +83,4 @@ Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Je nachdem, was
 [img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

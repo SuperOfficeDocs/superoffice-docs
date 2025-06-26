@@ -147,7 +147,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 1. Klicka på **Spara**. Formuläret sparas och fönstret **Redigera formulär** stängs.
 
-1. Ställ in formuläret som **Aktivt** ![ikon][img4] i rubriken.
+1. Ställ in formuläret som **Aktivt** <i class="ph ph-toggle-right" aria-label="Toggle on"></i> i rubriken.
 
 1. Gå till fliken **Publicera**.
 
@@ -166,7 +166,6 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

@@ -87,7 +87,7 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 
 **Als Flow-Editor:**
 
-1. Auf der Registerkarte **Inhalt des Flows** klicken Sie auf das Menüsymbol ![Symbol][img11] auf der E-Mail, die Sie aktualisieren möchten, und wählen Sie **Bearbeiten**.
+1. Auf der Registerkarte **Inhalt des Flows** klicken Sie auf das Menüsymbol auf der E-Mail, die Sie aktualisieren möchten, und wählen Sie **Bearbeiten**.
 
 **Als Flow-Administrator:**
 
@@ -113,4 +113,3 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

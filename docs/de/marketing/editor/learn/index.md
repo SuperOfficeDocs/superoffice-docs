@@ -49,7 +49,7 @@ In der Seitenleiste können Sie Elemente aus dem Bereich **Inhalt** in die Nachr
 
 ## Verschieben, Kopieren und Löschen von Inhalten
 
-Sie können einen Bereich auswählen und die Schaltflächen verwenden, um sie zu verschieben (![Symbol][img6]), duplizieren (![Symbol][img8]) und löschen (![Symbol][img7]).
+Sie können einen Bereich auswählen und die Schaltflächen verwenden, um sie zu verschieben (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), duplizieren (<i class="ph ph-copy" aria-label="Copy"></i>) und löschen (<i class="ph ph-trash" aria-label="Trashcan"></i>).
 
 ## Format und Layout bearbeiten
 
@@ -70,7 +70,7 @@ Die Seitenleiste enthält die folgenden Hauptabschnitte:
 | Symbol | Name | Funktion |
 |:-:|---|---|
 | ![Symbol][img21] | Content | Dieser Bereich enthält verschiedene Inhaltstypen, z. B. Spalten, Textabschnitte, Bilder, Menüs/Schaltflächen und SoMe-Links. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. Sie müssen den [Inhalt zur Bearbeitung anklicken][5], um ihn in der Seitenleiste zu bearbeiten. |
-| ![Symbol][img22] | Blöcke | Dieser Bereich enthält gespeicherte Inhaltsblöcke wie Kopf- und Fußzeilen. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab.<br />Um einen Inhaltsblock zu speichern, klicken Sie auf eine Zeile und wählen **Block speichern** (![Symbol][img9]). |
+| ![Symbol][img22] | Blöcke | Dieser Bereich enthält gespeicherte Inhaltsblöcke wie Kopf- und Fußzeilen. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab.<br />Um einen Inhaltsblock zu speichern, klicken Sie auf eine Zeile und wählen **Block speichern** (<i class="ph ph-floppy-disk-back" aria-label="Save block"></i>). |
 | ![Symbol][img23] | Textbereich | In diesem Bereich können Sie die globalen Eigenschaften und das Layout für die Nachricht bearbeiten.<br />Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt. |
 | ![Symbol][img24] | Bilder | In diesem Bereich finden Sie Millionen [in Kampagnen zu verwendende Bilder][6]. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. |
 | ![icon][img25] | Audit | In diesem Bereich können Sie nach Problemen in Ihrem Design und Inhalt suchen. |
@@ -86,7 +86,7 @@ Im globalen Menü können Sie eine Vorschau anzeigen, Aktionen rückgängig mach
 
 | Symbol | Name | Funktion |
 |:-:|---|---|
-| ![Symbol][img11] | Rückgängig/Wiederholen | Letzte Aktion rückgängig machen oder rückgängig gemachte Aktion wiederholen. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Rückgängig/Wiederholen | Letzte Aktion rückgängig machen oder rückgängig gemachte Aktion wiederholen. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Vorschau | Öffnet eine Vorschau der Mitteilung auf einem Desktop- oder Mobil-Display. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Anzeige für Desktop- oder Mobilgeräte aktivieren | Wird verwendet, um zu sehen, wie die Mitteilung auf einem Desktop oder Smartphone aussieht. |
 
@@ -96,11 +96,11 @@ Wenn Sie auf einen Bereich in einer Nachricht klicken, erhalten Sie Zugriff auf 
 
 | Symbol | Name | Funktion |
 |:-:|---|---|
-| ![Symbol][img5] | Zeile hinzufügen | Fügt eine Zeile unterhalb oder oberhalb des ausgewählten Bereichs hinzu. |
-| ![Symbol][img6] | Verschieben | Klicken und ziehen Sie, um den Bereich zu verschieben. |
-| ![Symbol][img7] | Löschen | Löscht den Bereich. |
-| ![Symbol][img8] | Duplizieren | Erstellt eine Kopie der Selektion. |
-| ![Symbol][img9] | Block speichern | Speichert den ausgewählten Bereich als Block. Inhalte (wie Kopf- und Fußzeilen) über Mitteilungen hinweg wiederholen. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Zeile hinzufügen | Fügt eine Zeile unterhalb oder oberhalb des ausgewählten Bereichs hinzu. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Verschieben | Klicken und ziehen Sie, um den Bereich zu verschieben. |
+| <i class="ph ph-trash" aria-label="Trashcan"></i> | Löschen | Löscht den Bereich. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Duplizieren | Erstellt eine Kopie der Selektion. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Block speichern | Speichert den ausgewählten Bereich als Block. Inhalte (wie Kopf- und Fußzeilen) über Mitteilungen hinweg wiederholen. |
 
 ## <a id="variables"></a>Vorlagenvariablen
 
@@ -159,12 +159,6 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

@@ -49,7 +49,7 @@ I sidepanelet kan du trække og slippe elementer fra afsnittet **Indhold** til m
 
 ## Flyt, kopier og slet indhold
 
-Du kan markere et afsnit og bruge knapperne til at flytte ![ikon][img6], kopiere ![ikon][img8] og slette ![ikon][img7] den.
+Du kan markere et afsnit og bruge knapperne til at flytte (<i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i>), kopiere (<i class="ph ph-copy" aria-label="Copy"></i>) og slette (<i class="ph ph-trash" aria-label="Trashcan"></i>) den.
 
 ## Rediger format and layout
 
@@ -70,7 +70,7 @@ Sidepanelet indeholder følgende hovedafsnit:
 | Ikon | Navn | Funktion |
 |:-:|---|---|
 | ![ikon][img21] | Indhold | Dette afsnit indeholder forskellige indholdstyper, f.eks. kolonner, tekstafsnit, billeder, menuer/knapper og SoMe-links. Træk og slip indhold fra dette afsnit til meddelelsen. [Klik på indholdet for at redigere][5] det i sidepanelet. |
-| ![ikon][img22] | Blokke | Dette afsnit indeholder gemte indholdsblokke, f.eks. overskrifter og sidefødder. Træk og slip indhold fra dette afsnit til meddelelsen.<br />Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** ![ikon][img9]. |
+| ![ikon][img22] | Blokke | Dette afsnit indeholder gemte indholdsblokke, f.eks. overskrifter og sidefødder. Træk og slip indhold fra dette afsnit til meddelelsen.<br />Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>. |
 | ![ikon][img23] | Brødtekst | I dette afsnit kan du redigere globale egenskaber og layout for meddelelsen.<br />Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber. |
 | ![ikon][img24] | Billeder | I dette afsnit kan du finde millioner af [billeder til brug i din udsendelse][6]. Træk og slip indhold fra dette afsnit til meddelelsen. |
 | ![icon][img25] | Audit | I dette afsnit kan du se efter problemer i dit design og indhold. |
@@ -86,7 +86,7 @@ Fra den globale menu kan du få vist, fortryde eller gentage handlinger og se, h
 
 | Ikon | Navn | Funktion |
 |:-:|---|---|
-| ![ikon][img11] | Fortryd/Gendan | Fortryder den sidste handling eller gendanner en fortrudt handling. |
+| <i class="ph ph-arrow-counter-clockwise" aria-label="Undo"></i><i class="ph ph-arrow-clockwise" aria-label="Redo"></i> | Fortryd/Gendan | Fortryder den sidste handling eller gendanner en fortrudt handling. |
 | <i class="ph ph-eye" aria-label="Preview"></i> | Forhåndsvisning | Åbner en forhåndsvisning af meddelelsen på en computer- eller mobilskærm. |
 | <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Skift visning for pc- eller mobilenheder | Bruges til at se, hvordan det ser ud på en pc eller smartphone. |
 
@@ -96,11 +96,11 @@ Når du klikker på et afsnit i en meddelelse, får du adgang til forskellige fu
 
 | Ikon | Navn | Funktion |
 |:-:|---|---|
-| ![ikon][img5] | Tilføj række | Tilføjer en række under eller over det markerede afsnit. |
-| ![ikon][img6] | Flyt | Klik og træk for at flytte afsnittet. |
-| ![ikon][img7] | Slet | Sletter afsnittet. |
-| ![ikon][img8] | Dupliker | Der oprettes en kopi af afsnittet. |
-| ![ikon][img9] | Gem blok | Gemmer det markerede afsnit som en blok. Lader dig genbruge indhold på (f.eks. sidehoveder og sidefødder) på tværs af meddelelser. |
+| <i class="ph ph-plus" aria-label="Add"></i> | Tilføj række | Tilføjer en række under eller over det markerede afsnit. |
+| <i class="ph ph-arrows-out-cardinal" aria-label="Arrows out (move)"></i> | Flyt | Klik og træk for at flytte afsnittet. |
+| <i class="ph ph-trash" aria-label="Trashcan"></i> | Slet | Sletter afsnittet. |
+| <i class="ph ph-copy" aria-label="Copy"></i> | Dupliker | Der oprettes en kopi af afsnittet. |
+| <i class="ph ph-floppy-disk-back" aria-label="Save block"></i> | Gem blok | Gemmer det markerede afsnit som en blok. Lader dig genbruge indhold på (f.eks. sidehoveder og sidefødder) på tværs af meddelelser. |
 
 ## <a id="variables"></a>Skabelonvariabler
 
@@ -159,12 +159,6 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png

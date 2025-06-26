@@ -17,15 +17,10 @@ Hvis en person ber om å få se all informasjon som er registrert på dem i Supe
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klikk på **Oppgave**-![ikonet][img1] > **Generer persondatarapport**.
+1. Klikk på **Oppgave** (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) > **Generer persondatarapport**.
 
 1. I dialogboksen **Personvernrapport** ser du informasjonen som er registrert om personen.
 
 1. Send rapporten som et e-postvedlegg, eller lagre rapporten som en PDF-fil.
 
 Rapporten arkiveres i detaljkortet **Aktiviteter**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
