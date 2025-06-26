@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 290,
-  "Name": "Thiel-Bahringer",
+  "WebhookId": 142,
+  "Name": "Hyatt, Herman and Nicolas",
   "Events": [
-    "tenetur",
-    "ut"
+    "quibusdam",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dignissimos",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "beatae",
+  "Type": "praesentium",
   "Headers": {
-    "Headers1": "dicta",
-    "Headers2": "dolor"
+    "Headers1": "ipsa",
+    "Headers2": "dolores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-01-21T17:54:08.7730557+01:00",
+  "Registered": "2020-09-08T03:45:28.8890492+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-12-11T17:54:08.7730557+01:00",
+  "Updated": "2022-09-10T03:45:28.8890492+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "elda@rodriguezmurphy.co.uk"
+  "ErrorsEmail": "maiya_fritsch@berge.biz"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 712,
-  "Name": "Baumbach, Fay and Ruecker",
+  "WebhookId": 942,
+  "Name": "Bins Inc and Sons",
   "Events": [
-    "sit",
-    "odit"
+    "aut",
+    "non"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "vel",
+  "Secret": "sint",
   "State": "Active",
-  "Type": "enim",
+  "Type": "sed",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "molestias"
+    "Headers1": "qui",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-11-05T17:54:08.7730557+01:00",
+  "Registered": "2016-04-04T03:45:28.8890492+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-06-09T17:54:08.7730557+02:00",
+  "Updated": "2018-05-11T03:45:28.8890492+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "enola@danieltowne.uk",
+  "ErrorsEmail": "bernard@greenharris.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

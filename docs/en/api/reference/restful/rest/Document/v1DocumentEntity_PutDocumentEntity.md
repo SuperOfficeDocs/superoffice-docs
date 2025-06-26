@@ -148,77 +148,77 @@ DocumentEntity updated.
 PUT /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 888,
+  "DocumentId": 465,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "molestiae",
-  "Name": "Emmerich-Nolan",
-  "OurRef": "ullam",
-  "YourRef": "est",
-  "CreatedDate": "2004-09-19T17:54:08.2108433+02:00",
-  "UpdatedDate": "2004-05-29T17:54:08.2108433+02:00",
-  "Description": "Re-engineered hybrid alliance",
+  "Attention": "vero",
+  "Header": "soluta",
+  "Name": "Schmidt, Hauck and Lebsack",
+  "OurRef": "est",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2011-04-17T03:45:28.3265627+02:00",
+  "UpdatedDate": "2022-09-01T03:45:28.3265627+02:00",
+  "Description": "Future-proofed mobile pricing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-11-07T17:54:08.2108433+01:00",
-  "ExternalRef": "fuga",
+  "Date": "2020-11-18T03:45:28.3265627+01:00",
+  "ExternalRef": "neque",
   "Completed": "Completed",
-  "ActiveLinks": 303,
+  "ActiveLinks": 415,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kirlin-Hahn",
-      "Id": 571,
-      "Description": "Versatile didactic archive",
-      "ExtraInfo": "accusamus",
-      "LinkId": 527
+      "EntityName": "Abshire-Cole",
+      "Id": 457,
+      "Description": "Digitized heuristic workforce",
+      "ExtraInfo": "veritatis",
+      "LinkId": 978
     },
     {
-      "EntityName": "Kirlin-Hahn",
-      "Id": 571,
-      "Description": "Versatile didactic archive",
-      "ExtraInfo": "accusamus",
-      "LinkId": 527
+      "EntityName": "Abshire-Cole",
+      "Id": 457,
+      "Description": "Digitized heuristic workforce",
+      "ExtraInfo": "veritatis",
+      "LinkId": 978
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 589,
-  "Snum": 475,
+  "SuggestedDocumentId": 15,
+  "Snum": 780,
   "UserDefinedFields": {
-    "SuperOffice:1": "Joana Corwin",
-    "SuperOffice:2": "122633735"
+    "SuperOffice:1": "2099944782",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "quia"
+    "CustomFields1": "nemo",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2000-10-16T17:54:08.2108433+02:00",
-  "PublishTo": "2000-08-31T17:54:08.2108433+02:00",
-  "PublishFrom": "2007-08-09T17:54:08.2108433+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2025-05-19T03:45:28.3265627+02:00",
+  "PublishTo": "2002-03-06T03:45:28.3265627+01:00",
+  "PublishFrom": "2003-01-15T03:45:28.3265627+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 944,
+      "VisibleId": 313,
       "Visibility": "All",
-      "DisplayValue": "temporibus"
+      "DisplayValue": "dolor"
     },
     {
-      "VisibleId": 944,
+      "VisibleId": 313,
       "Visibility": "All",
-      "DisplayValue": "temporibus"
+      "DisplayValue": "dolor"
     }
   ]
 }
@@ -231,88 +231,88 @@ HTTP/1.1 200 DocumentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 278,
+  "DocumentId": 217,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "saepe",
-  "Name": "Reilly LLC",
-  "OurRef": "quia",
-  "YourRef": "sed",
-  "CreatedDate": "2017-10-07T17:54:08.2262257+02:00",
-  "UpdatedDate": "2012-01-04T17:54:08.2262257+01:00",
-  "Description": "Right-sized discrete middleware",
+  "Attention": "earum",
+  "Header": "accusantium",
+  "Name": "Lynch, Harber and Jakubowski",
+  "OurRef": "rerum",
+  "YourRef": "veniam",
+  "CreatedDate": "2014-05-25T03:45:28.3265627+02:00",
+  "UpdatedDate": "2007-06-15T03:45:28.3265627+02:00",
+  "Description": "Polarised incremental algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-07-09T17:54:08.2262257+02:00",
-  "ExternalRef": "in",
+  "Date": "2011-03-01T03:45:28.3265627+01:00",
+  "ExternalRef": "totam",
   "Completed": "Completed",
-  "ActiveLinks": 980,
+  "ActiveLinks": 740,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schroeder LLC",
-      "Id": 771,
-      "Description": "Stand-alone empowering flexibility",
-      "ExtraInfo": "doloremque",
-      "LinkId": 268,
+      "EntityName": "Bogan, Senger and Huels",
+      "Id": 974,
+      "Description": "Virtual mission-critical architecture",
+      "ExtraInfo": "tempore",
+      "LinkId": 844,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldType": "System.String",
+          "FieldLength": 512
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 421,
-  "Snum": 300,
+  "SuggestedDocumentId": 366,
+  "Snum": 463,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Madisen Heidenreich",
-    "SuperOffice:2": "Mose Mayert"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1968357591"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "et"
+    "CustomFields1": "inventore",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2023-11-23T17:54:08.2262257+01:00",
-  "PublishTo": "2000-11-19T17:54:08.2262257+01:00",
-  "PublishFrom": "2023-04-09T17:54:08.2262257+02:00",
+  "PublishEventDate": "2006-10-29T03:45:28.3265627+01:00",
+  "PublishTo": "2009-06-15T03:45:28.3265627+02:00",
+  "PublishFrom": "2001-11-13T03:45:28.3265627+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     }
@@ -322,12 +322,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 808
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

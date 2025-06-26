@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=et
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=excepturi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Purdy-Hilll",
-    "ToolTip": "Vero recusandae.",
-    "Deleted": true,
-    "Rank": 73,
-    "Type": "iusto",
+    "Id": 651,
+    "Name": "Boehm Group",
+    "ToolTip": "Corporis fugit nihil reiciendis quas consequatur recusandae in.",
+    "Deleted": false,
+    "Rank": 546,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Beatty Inc and Sons",
-        "ToolTip": "Reprehenderit molestiae.",
+        "Id": 68,
+        "Name": "Homenick, Zboncak and Rohan",
+        "ToolTip": "Est consequatur sunt.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "impedit",
+        "Rank": 202,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 60,
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "corporis",
-        "FullName": "Lillian Bins",
+        "IconHint": "cumque",
+        "ColorBlock": 728,
+        "ExtraInfo": "iusto",
+        "StyleHint": "et",
+        "FullName": "Darron Cruickshank PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldLength": 281
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 940,
-    "ExtraInfo": "fuga",
-    "StyleHint": "dolores",
-    "FullName": "Blake Schiller",
+    "IconHint": "unde",
+    "ColorBlock": 740,
+    "ExtraInfo": "et",
+    "StyleHint": "totam",
+    "FullName": "Mrs. Ricky Lubowitz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

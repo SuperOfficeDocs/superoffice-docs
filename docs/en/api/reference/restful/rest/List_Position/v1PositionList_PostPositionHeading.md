@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 979,
-  "Name": "Streich, Torp and Rosenbaum",
-  "Tooltip": "cumque",
+  "HeadingId": 929,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 541,
-  "UdListDefinitionId": 393
+  "Rank": 634,
+  "UdListDefinitionId": 243
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 449,
-  "Name": "Lemke, Dicki and Ondricka",
-  "Tooltip": "unde",
+  "HeadingId": 511,
+  "Name": "Toy, Borer and Hammes",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 83,
-  "UdListDefinitionId": 752,
+  "Rank": 726,
+  "UdListDefinitionId": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 272
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

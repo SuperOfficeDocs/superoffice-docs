@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 885,
+  "ContactId": 898,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gutkowski, Kassulke and Langosh",
-    "SaleDate": "2002-06-30T17:54:03.5858088+02:00",
-    "SaleId": 785,
-    "Probability": 872,
-    "Title": "incidunt",
-    "Amount": 3181.0099999999998,
-    "Currency": "unde",
-    "ProjectName": "Dibbert-Block",
-    "AssociateFullName": "Thalia Michel Herman I",
-    "Description": "Profound motivating process improvement",
+    "ContactName": "Wilkinson, Pollich and Ondricka",
+    "SaleDate": "2014-06-12T03:45:23.8735682+02:00",
+    "SaleId": 211,
+    "Probability": 416,
+    "Title": "consequatur",
+    "Amount": 20662.462,
+    "Currency": "excepturi",
+    "ProjectName": "Beer-Ondricka",
+    "AssociateFullName": "Davin Doris Jast Sr.",
+    "Description": "Exclusive neutral structure",
     "Status": "Lost",
-    "WeightedAmount": 18957.566,
-    "ProjectId": 81,
-    "EarningPercent": 26704.814,
-    "Earning": 26632.732,
-    "ContactId": 11,
-    "AssociateId": 875,
-    "PersonId": 366,
-    "SaleTypeId": 597,
-    "SaleTypeName": "Effertz Inc and Sons",
-    "PersonFullName": "Prof. Chadd Abdul Breitenberg IV",
+    "WeightedAmount": 21643.404,
+    "ProjectId": 537,
+    "EarningPercent": 8013.638,
+    "Earning": 19029.648,
+    "ContactId": 19,
+    "AssociateId": 37,
+    "PersonId": 927,
+    "SaleTypeId": 371,
+    "SaleTypeName": "Christiansen, Schulist and D'Amore",
+    "PersonFullName": "Frieda Torphy",
     "Completed": "Completed",
-    "ActiveErpLinks": 958,
-    "NextDueDate": "1998-08-22T17:54:03.5858088+02:00",
-    "Number": "1460897",
+    "ActiveErpLinks": 901,
+    "NextDueDate": "2021-10-07T03:45:23.8735682+02:00",
+    "Number": "1780075",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 186
+  "AttachmentId": 414
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke-Langosh",
-  "MimeType": "deleniti",
-  "Size": 834,
+  "Name": "Legros-Mosciski",
+  "MimeType": "autem",
+  "Size": 292,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "bethel@rau.info",
-  "EmailFrom": "deon_batz@schumm.biz",
-  "EmailTo": "cali_stracke@darehaley.name",
-  "EmailCc": "ephraim_shanahan@kassulke.us",
-  "EmailDate": "2016-08-14T17:54:03.8357967+02:00",
+  "EmailSubject": "murray@effertzankunding.us",
+  "EmailFrom": "damon@koepp.co.uk",
+  "EmailTo": "tia@lind.com",
+  "EmailCc": "jeanette.shields@willwisozk.us",
+  "EmailDate": "2024-05-01T03:45:24.1235597+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 692,
-      "Name": "Yost-Parker",
-      "ContentType": "eveniet",
-      "AttSize": 925,
-      "InlineImage": true,
-      "ContentId": "non",
-      "AuthKey": "eum",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 193,
+      "Name": "McClure-Weissnat",
+      "ContentType": "pariatur",
+      "AttSize": 303,
+      "InlineImage": false,
+      "ContentId": "ut",
+      "AuthKey": "eveniet",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 848
     }
   }
 }

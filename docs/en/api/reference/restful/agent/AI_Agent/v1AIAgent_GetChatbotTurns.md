@@ -65,7 +65,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "sit"
+  "ChatId": "odio"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2022-06-28T17:54:02.3514942+02:00",
-    "UserPrompt": "est",
-    "UserDisplayText": "ipsam",
-    "BotResponse": "sit",
+    "Timestamp": "2009-03-23T03:45:22.6704778+01:00",
+    "UserPrompt": "explicabo",
+    "UserDisplayText": "et",
+    "BotResponse": "possimus",
     "BotActions": {
-      "BotActions1": "consequatur",
-      "BotActions2": "in"
+      "BotActions1": "nihil",
+      "BotActions2": "qui"
     },
     "Attachments": [
       "ab",
-      "doloremque"
+      "vitae"
     ]
   },
   {
-    "Timestamp": "2022-06-28T17:54:02.3514942+02:00",
-    "UserPrompt": "est",
-    "UserDisplayText": "ipsam",
-    "BotResponse": "sit",
+    "Timestamp": "2009-03-23T03:45:22.6704778+01:00",
+    "UserPrompt": "explicabo",
+    "UserDisplayText": "et",
+    "BotResponse": "possimus",
     "BotActions": {
-      "BotActions1": "consequatur",
-      "BotActions2": "in"
+      "BotActions1": "nihil",
+      "BotActions2": "qui"
     },
     "Attachments": [
       "ab",
-      "doloremque"
+      "vitae"
     ]
   }
 ]

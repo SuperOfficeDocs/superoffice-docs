@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51
+  "ContactId": 967
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "veniam",
-    "PersonId": 58,
-    "Mrmrs": "nobis",
-    "Firstname": "Brandi",
-    "Lastname": "Howell",
-    "MiddleName": "Monahan-Cassin",
-    "Title": "sint",
-    "Description": "Triple-buffered bi-directional website",
-    "Email": "webster_stamm@bartoletti.co.uk",
-    "FullName": "Wilfred Schultz",
-    "DirectPhone": "046.507.4812",
-    "FormalName": "Greenholt-Ondricka",
-    "CountryId": 33,
-    "ContactId": 184,
-    "ContactName": "Abshire-Schneider",
-    "Retired": 880,
-    "Rank": 414,
-    "ActiveInterests": 126,
+    "Position": "sint",
+    "PersonId": 145,
+    "Mrmrs": "deserunt",
+    "Firstname": "Adolf",
+    "Lastname": "Reilly",
+    "MiddleName": "Heaney Inc and Sons",
+    "Title": "accusamus",
+    "Description": "Networked client-driven data-warehouse",
+    "Email": "barney@hellerweimann.co.uk",
+    "FullName": "Francisca Lowe",
+    "DirectPhone": "183-958-3429 x93110",
+    "FormalName": "Glover, Bartoletti and Swaniawski",
+    "CountryId": 359,
+    "ContactId": 1002,
+    "ContactName": "Dach LLC",
+    "Retired": 134,
+    "Rank": 725,
+    "ActiveInterests": 569,
     "ContactDepartment": "",
-    "ContactCountryId": 95,
-    "ContactOrgNr": "1626041",
-    "FaxPhone": "(712)217-2251",
-    "MobilePhone": "003.710.2004 x0013",
-    "ContactPhone": "(529)596-3864",
-    "AssociateName": "Hodkiewicz LLC",
-    "AssociateId": 85,
+    "ContactCountryId": 515,
+    "ContactOrgNr": "1262643",
+    "FaxPhone": "(979)159-1530",
+    "MobilePhone": "800-977-4081 x1255",
+    "ContactPhone": "202-772-7429 x7073",
+    "AssociateName": "Hahn-Daugherty",
+    "AssociateId": 404,
     "UsePersonAddress": true,
-    "ContactFax": "odit",
-    "Kanafname": "fuga",
-    "Kanalname": "quo",
-    "Post1": "soluta",
-    "Post2": "consequatur",
-    "Post3": "quaerat",
-    "EmailName": "fernando@windlertillman.ca",
-    "ContactFullName": "Prof. Cecilia Joshuah Bruen III",
-    "ActiveErpLinks": 777,
-    "TicketPriorityId": 698,
-    "SupportLanguageId": 622,
-    "SupportAssociateId": 418,
+    "ContactFax": "aut",
+    "Kanafname": "natus",
+    "Kanalname": "aliquam",
+    "Post1": "aperiam",
+    "Post2": "deleniti",
+    "Post3": "rerum",
+    "EmailName": "rowena_eichmann@gleasonorn.us",
+    "ContactFullName": "Lou McClure",
+    "ActiveErpLinks": 799,
+    "TicketPriorityId": 247,
+    "SupportLanguageId": 541,
+    "SupportAssociateId": 551,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1799353",
+    "PersonNumber": "378103",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

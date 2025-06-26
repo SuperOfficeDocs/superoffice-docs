@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 280
+  "ShipmentId": 202
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2007-11-17T17:54:03.3202006+01:00",
+  "StartDate": "2009-05-26T03:45:23.6391999+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 656,
-  "ShipmentDescription": "Profound global core",
-  "FromAddress": "reprehenderit",
-  "Configuration": 432,
-  "PersonId": 653,
-  "PersonFullName": "Adell Hammes",
-  "ShipmentType": "harum",
-  "MessageId": 469,
-  "MessageSubject": "expedita",
-  "DocumentMessageId": 447,
-  "NumSent": 669,
-  "NumOpened": 221,
-  "NumBounced": 731,
-  "NumClicks": 42,
+  "ShipmentId": 144,
+  "ShipmentDescription": "Ameliorated object-oriented synergy",
+  "FromAddress": "et",
+  "Configuration": 817,
+  "PersonId": 490,
+  "PersonFullName": "Friedrich Renner",
+  "ShipmentType": "cumque",
+  "MessageId": 712,
+  "MessageSubject": "deleniti",
+  "DocumentMessageId": 783,
+  "NumSent": 937,
+  "NumOpened": 817,
+  "NumBounced": 739,
+  "NumClicks": 366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

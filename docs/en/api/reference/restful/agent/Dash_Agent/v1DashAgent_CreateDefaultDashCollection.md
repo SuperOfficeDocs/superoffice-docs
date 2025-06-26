@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 434,
-      "UniqueId": "nostrum",
-      "Name": "Hessel LLC",
-      "Description": "Quality-focused radical strategy",
-      "AssociateId": 770,
-      "Columns": 881,
+      "DashboardId": 906,
+      "UniqueId": "odio",
+      "Name": "Deckow, Wilkinson and Mitchell",
+      "Description": "Optimized directional framework",
+      "AssociateId": 952,
+      "Columns": 739,
       "Theme": null,
-      "VisibleForAll": 789,
+      "VisibleForAll": 308,
       "VisibleForAssociates": [
-        328,
-        836
+        240,
+        109
       ],
       "VisibleForGroups": [
-        976,
-        926
+        435,
+        801
       ],
-      "PinForAll": 701,
+      "PinForAll": 580,
       "PinForAssociates": [
-        799,
-        276
+        529,
+        88
       ],
       "PinForGroups": [
-        848,
-        308
+        721,
+        627
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldLength": 153
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 124,
-      "UniqueId": "recusandae",
-      "Name": "Brown, Kunde and Marks",
-      "Description": "Future-proofed 5th generation productivity",
-      "AssociateId": 424,
-      "Columns": 492,
+      "DashboardId": 832,
+      "UniqueId": "aut",
+      "Name": "Ondricka-Bogisich",
+      "Description": "Fully-configurable optimal portal",
+      "AssociateId": 806,
+      "Columns": 41,
       "Theme": null,
-      "VisibleForAll": 274,
+      "VisibleForAll": 569,
       "VisibleForAssociates": [
-        607,
-        694
+        584,
+        979
       ],
       "VisibleForGroups": [
-        827,
-        283
+        43,
+        972
       ],
-      "PinForAll": 301,
+      "PinForAll": 600,
       "PinForAssociates": [
-        646,
-        20
+        789,
+        44
       ],
       "PinForGroups": [
-        256,
-        82
+        508,
+        733
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 487
+          "FieldType": "System.Int32",
+          "FieldLength": 307
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 794,
-      "UniqueId": "ab",
-      "Name": "Hansen, Monahan and Labadie",
-      "Description": "Grass-roots needs-based utilisation",
-      "AssociateId": 743,
-      "Columns": 906,
+      "DashboardId": 126,
+      "UniqueId": "omnis",
+      "Name": "Klein-Schaden",
+      "Description": "Ergonomic local Graphical User Interface",
+      "AssociateId": 444,
+      "Columns": 21,
       "Theme": null,
-      "VisibleForAll": 243,
+      "VisibleForAll": 742,
       "VisibleForAssociates": [
-        130,
-        966
+        68,
+        203
       ],
       "VisibleForGroups": [
-        906,
-        557
+        847,
+        618
       ],
-      "PinForAll": 728,
+      "PinForAll": 697,
       "PinForAssociates": [
-        194,
-        35
+        694,
+        597
       ],
       "PinForGroups": [
-        331,
-        626
+        232,
+        645
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

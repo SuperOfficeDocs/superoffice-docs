@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 105,
-  "BlobSize": 116,
-  "Description": "Reverse-engineered background portal",
-  "ExtraInfo": "nisi",
-  "IsEncrypted": false,
+  "BlobId": 935,
+  "BlobSize": 53,
+  "Description": "Realigned zero tolerance circuit",
+  "ExtraInfo": "blanditiis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "adipisci",
-  "OriginalSize": 673,
-  "CreatedDate": "2020-03-31T17:54:02.6639794+02:00",
-  "UpdatedDate": "2009-06-21T17:54:02.6639794+02:00",
+  "MimeType": "possimus",
+  "OriginalSize": 230,
+  "CreatedDate": "2025-03-19T03:45:22.9829669+01:00",
+  "UpdatedDate": "2009-07-03T03:45:22.9829669+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque"
+  "ConceptualType": "odit"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 283,
-  "BlobSize": 30,
-  "Description": "Optimized fresh-thinking application",
-  "ExtraInfo": "tempore",
+  "BlobId": 76,
+  "BlobSize": 436,
+  "Description": "Front-line well-modulated function",
+  "ExtraInfo": "eum",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 122,
-  "CreatedDate": "2019-01-30T17:54:02.6639794+01:00",
-  "UpdatedDate": "2025-05-15T17:54:02.6639794+02:00",
+  "MimeType": "deserunt",
+  "OriginalSize": 952,
+  "CreatedDate": "2002-12-27T03:45:22.9829669+01:00",
+  "UpdatedDate": "2014-11-17T03:45:22.9829669+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 89
     }
   }
 }

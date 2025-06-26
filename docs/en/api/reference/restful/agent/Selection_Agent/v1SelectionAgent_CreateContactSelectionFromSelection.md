@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 976,
-  "Name": "Ullrich LLC",
+  "SelectionId": 436,
+  "Name": "Watsica Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined multi-state flexibility",
-  "Postit": "omnis",
+  "Description": "Cross-platform motivating methodology",
+  "Postit": "nesciunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 813,
-  "IncludePerson": 977,
+  "GroupIdx": 63,
+  "IncludePerson": 61,
   "MemberCount": 99.99,
-  "Name": "Effertz, Schroeder and Bednar",
-  "PostitTextId": 307,
-  "CreatedDate": "2017-09-19T17:54:03.6014331+02:00",
-  "SelectionId": 164,
-  "SoundEx": "corrupti",
-  "Source": 916,
-  "TextId": 874,
-  "UpdatedDate": "1999-03-10T17:54:03.6014331+01:00",
-  "UpdatedCount": 661,
-  "Visibility": 564,
+  "Name": "Krajcik-Rippin",
+  "PostitTextId": 825,
+  "CreatedDate": "2008-07-04T03:45:23.8891939+02:00",
+  "SelectionId": 209,
+  "SoundEx": "reprehenderit",
+  "Source": 109,
+  "TextId": 662,
+  "UpdatedDate": "2021-05-24T03:45:23.8891939+02:00",
+  "UpdatedCount": 845,
+  "Visibility": 156,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 296,
-  "TargetTableName": "Von, Bednar and Johns",
+  "TargetTableNumber": 680,
+  "TargetTableName": "Hagenes, Lesch and Huel",
   "Completed": false,
-  "LeftSelectionId": 309,
-  "RightSelectionId": 222,
+  "LeftSelectionId": 882,
+  "RightSelectionId": 544,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rolfson-Jacobs",
-  "ShadowProviderName": "Rolfson, Marks and Bayer",
-  "ChartKey": "commodi",
-  "LastLoaded": "1998-12-27T17:54:03.6014331+01:00",
-  "LastLoadedBy": 890,
+  "MainProviderName": "O'Hara, Tremblay and O'Connell",
+  "ShadowProviderName": "Gleason-Mohr",
+  "ChartKey": "reiciendis",
+  "LastLoaded": "2007-02-15T03:45:23.8891939+01:00",
+  "LastLoadedBy": 453,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-11-25T17:54:03.6014331+01:00",
-  "LastMembershipChangeBy": 383,
+  "LastMembershipChange": "2013-08-04T03:45:23.8891939+02:00",
+  "LastMembershipChangeBy": 699,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "accusamus",
-  "MailingsProviderName": "Welch Inc and Sons",
-  "DashboardTileDefinitionId": 360,
+  "MainHeading": "autem",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Weber, Koss and Johnson",
+  "DashboardTileDefinitionId": 55,
   "VisibleFor": [
     {
-      "VisibleId": 688,
+      "VisibleId": 616,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 756
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     },
     {
-      "VisibleId": 688,
+      "VisibleId": 616,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 756
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 595
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 323,
-  "ERPName": "Reinger, Fisher and Pfannerstill",
-  "DisplayName": "Wilkinson Group",
-  "DisplayDescription": "Persistent client-driven project",
-  "Rank": 253,
-  "ConnectorName": "Hirthe-Reilly",
-  "ErpConnectionId": 646,
-  "ExtraData": "dolor",
+  "QuoteConnectionId": 286,
+  "ERPName": "Roberts LLC",
+  "DisplayName": "Bradtke-Rodriguez",
+  "DisplayDescription": "Multi-tiered coherent software",
+  "Rank": 286,
+  "ConnectorName": "Romaguera, Moen and Dickens",
+  "ErpConnectionId": 519,
+  "ExtraData": "quis",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 837,
-      "ERPPriceListKey": "itaque",
-      "QuoteConnectionId": 207,
-      "Name": "Kub LLC",
-      "Description": "Adaptive dedicated artificial intelligence",
-      "Currency": "unde",
-      "CurrencyName": "Fadel Inc and Sons",
-      "ValidFrom": "2022-08-23T17:54:03.5233118+02:00",
-      "ValidTo": "2010-05-06T17:54:03.5233118+02:00",
+      "PriceListId": 196,
+      "ERPPriceListKey": "hic",
+      "QuoteConnectionId": 688,
+      "Name": "Von, Gulgowski and Hirthe",
+      "Description": "Centralized radical solution",
+      "Currency": "nisi",
+      "CurrencyName": "Conn, Ritchie and Windler",
+      "ValidFrom": "2009-10-12T03:45:23.8266945+02:00",
+      "ValidTo": "2006-02-12T03:45:23.8266945+01:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    739,
-    744
+    506,
+    905
   ],
   "AssociateAccessIds": [
-    423,
-    945
+    73,
+    998
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 349
     }
   }
 }

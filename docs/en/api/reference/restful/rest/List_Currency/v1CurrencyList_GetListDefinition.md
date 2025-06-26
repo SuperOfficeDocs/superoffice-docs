@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Boyle Group",
-  "Tooltip": "optio",
+  "Id": 772,
+  "Name": "Morissette-Ankunding",
+  "Tooltip": "natus",
   "Deleted": true,
-  "Rank": 144,
+  "Rank": 754,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ducimus",
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 683
     }
   },
   "_Links": {

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Will-Shields",
-  "Tooltip": "voluptatem",
+  "Id": 17,
+  "Name": "Rohan Group",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 58,
-  "Rank": 445,
+  "UdListDefinitionId": 363,
+  "Rank": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 93
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 777
+  "ReplyTemplateId": 562
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kemmer-Vandervort",
-  "Description": "Balanced upward-trending Graphic Interface",
-  "OwnedByFullName": "Odie Schneider",
-  "Updated": "2015-10-11T17:54:02.9295831+02:00",
-  "Body": "earum",
-  "IsHtml": false,
+  "Name": "Schmeler-Hermiston",
+  "Description": "Diverse demand-driven protocol",
+  "OwnedByFullName": "Danny Kulas",
+  "Updated": "2003-03-18T03:45:23.2485827+01:00",
+  "Body": "atque",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

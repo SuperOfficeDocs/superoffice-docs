@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Koelpin Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "UdListDefinitionId": 723,
-  "Rank": 947,
+  "Id": 527,
+  "Name": "Erdman-Deckow",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "UdListDefinitionId": 157,
+  "Rank": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 947
     }
   }
 }

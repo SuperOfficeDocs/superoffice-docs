@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Jacobs-Rohan",
-  "EventFilter": "ratione",
+  "NameFilter": "Zieme Group",
+  "EventFilter": "adipisci",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 177,
-    "Name": "O'Kon, Pacocha and Marks",
+    "WebhookId": 829,
+    "Name": "Wisozk Group",
     "Events": [
-      "minima",
-      "voluptates"
+      "sapiente",
+      "quae"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quaerat",
+    "Secret": "dolorem",
     "State": "Active",
-    "Type": "fugit",
+    "Type": "in",
     "Headers": {
-      "Headers1": "facere",
-      "Headers2": "ut"
+      "Headers1": "pariatur",
+      "Headers2": "blanditiis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2024-02-01T17:54:03.9295422+01:00",
+    "Registered": "2017-05-31T03:45:24.2173078+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2000-02-19T17:54:03.9295422+01:00",
+    "Updated": "1999-08-04T03:45:24.2173078+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "shanon.raynor@morar.ca"
+    "ErrorsEmail": "kiel@fahey.us"
   }
 ]
 ```

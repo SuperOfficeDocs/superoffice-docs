@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=117
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=212
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 325,
-  "Name": "Walter, Gislason and Lemke",
+  "TicketPriorityId": 856,
+  "Name": "O'Conner, Feest and Aufderhar",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 353,
+  "SortOrder": 89,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 398,
-  "MonStart": "1998-10-20T17:54:03.1952029+02:00",
-  "MonStop": "2020-12-29T17:54:03.1952029+01:00",
-  "TueStart": "2006-03-01T17:54:03.1952029+01:00",
-  "TueStop": "1998-09-07T17:54:03.1952029+02:00",
-  "WedStart": "2002-04-17T17:54:03.1952029+02:00",
-  "WedStop": "2003-05-13T17:54:03.1952029+02:00",
-  "ThuStart": "2006-09-22T17:54:03.1952029+02:00",
-  "ThuStop": "2013-04-09T17:54:03.1952029+02:00",
-  "FriStart": "2015-08-10T17:54:03.1952029+02:00",
-  "FriStop": "1998-06-24T17:54:03.1952029+02:00",
-  "SatStart": "2023-01-07T17:54:03.1952029+01:00",
-  "SatStop": "2009-07-30T17:54:03.1952029+02:00",
-  "SunStart": "2017-12-23T17:54:03.1952029+01:00",
-  "SunStop": "2013-03-16T17:54:03.1952029+01:00",
+  "Deadline": 383,
+  "MonStart": "2007-07-13T03:45:23.5142048+02:00",
+  "MonStop": "2018-11-27T03:45:23.5142048+01:00",
+  "TueStart": "1998-03-17T03:45:23.5142048+01:00",
+  "TueStop": "2000-10-16T03:45:23.5142048+02:00",
+  "WedStart": "2008-10-16T03:45:23.5142048+02:00",
+  "WedStop": "1999-06-06T03:45:23.5142048+02:00",
+  "ThuStart": "2013-04-28T03:45:23.5142048+02:00",
+  "ThuStop": "2018-07-10T03:45:23.5142048+02:00",
+  "FriStart": "2005-03-27T03:45:23.5142048+02:00",
+  "FriStop": "2020-07-22T03:45:23.5142048+02:00",
+  "SatStart": "2010-12-13T03:45:23.5142048+01:00",
+  "SatStop": "2017-09-21T03:45:23.5142048+02:00",
+  "SunStart": "1999-08-28T03:45:23.5142048+02:00",
+  "SunStop": "2009-09-28T03:45:23.5142048+02:00",
   "NonDates": [
-    "saepe",
-    "nobis"
+    "iure",
+    "dignissimos"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 567,
-      "AlertLevel": 328,
-      "AlertTimeout": 911,
-      "Action": 407,
-      "DelegateTo": 504,
-      "ScriptId": 170,
-      "EmailTo": "michale_jones@krajciklangworth.name",
-      "SmsTo": "quis",
-      "ReplyTemplateIdCustomer": 295,
-      "ReplyTemplateIdUser": 860,
-      "ReplyTemplateIdCatmast": 619,
-      "ReplyTemplateIdEmail": 621,
-      "RtiCustomerSms": 211,
-      "ReplyTemplateIdUserSms": 517,
-      "ReplyTemplateIdCatmastSms": 76,
-      "ReplyTemplateIdSms": 654,
+      "TicketAlertId": 438,
+      "AlertLevel": 380,
+      "AlertTimeout": 303,
+      "Action": 57,
+      "DelegateTo": 931,
+      "ScriptId": 961,
+      "EmailTo": "josie_weimann@bartell.us",
+      "SmsTo": "ducimus",
+      "ReplyTemplateIdCustomer": 390,
+      "ReplyTemplateIdUser": 127,
+      "ReplyTemplateIdCatmast": 468,
+      "ReplyTemplateIdEmail": 614,
+      "RtiCustomerSms": 316,
+      "ReplyTemplateIdUserSms": 91,
+      "ReplyTemplateIdCatmastSms": 621,
+      "ReplyTemplateIdSms": 514,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 80
     }
   }
 }

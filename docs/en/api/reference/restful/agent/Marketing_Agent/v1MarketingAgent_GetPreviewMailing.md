@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 162
+  "ShipmentAddrId": 474
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2024-02-11T17:54:03.3202006+01:00",
+  "SendingTime": "2010-08-19T03:45:23.6391999+02:00",
   "Status": "Blocked",
-  "ShipmentId": 446,
-  "ShipmentDescription": "Open-source dynamic emulation",
-  "FromAddress": "non",
-  "Configuration": 388,
-  "ContactId": 222,
-  "ContactName": "Schiller, Abbott and Wiza",
-  "PersonId": 601,
-  "PersonFullName": "Prof. Cristal Cordia Carroll DVM",
-  "ShipmentType": "labore",
-  "MessageId": 275,
-  "MessageSubject": "ducimus",
-  "DocumentMessageId": 662,
-  "Opened": "2017-07-22T17:54:03.3202006+02:00",
-  "LinkClicks": 385,
+  "ShipmentId": 914,
+  "ShipmentDescription": "Persistent static benchmark",
+  "FromAddress": "sed",
+  "Configuration": 716,
+  "ContactId": 739,
+  "ContactName": "Littel, Walter and Collier",
+  "PersonId": 351,
+  "PersonFullName": "Luigi Bergstrom",
+  "ShipmentType": "cupiditate",
+  "MessageId": 345,
+  "MessageSubject": "sit",
+  "DocumentMessageId": 614,
+  "Opened": "1999-10-16T03:45:23.6391999+02:00",
+  "LinkClicks": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   }
 }

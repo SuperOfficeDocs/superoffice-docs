@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.CreateNewEntryAsync(SuperOffice.CRM.Services.DuplicateEntry,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.DeleteExpiredAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetAddressAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetAddressByCountryAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetContactAsync(System.Int32,System.Threading.CancellationToken)
@@ -33,6 +34,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicatesAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetPersonsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetPreviewContactAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddressesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Threading.CancellationToken)
@@ -1201,6 +1203,44 @@ items:
   overload: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntityAsync*
   implements:
   - SuperOffice.CRM.Services.IContactAgent.ValidateContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  id: EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: EnrichContactEntityAsync(ContactEntity, string, CancellationToken)
+  nameWithType: ContactAgent.EnrichContactEntityAsync(ContactEntity, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Enrich a contact with data from the AI Enrichment service. This will update the contact with address, phone number, and email.
+  example: []
+  syntax:
+    content: public Task<ContactEntity> EnrichContactEntityAsync(ContactEntity contactEntity, string enrichId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: The contact entity to enrich.
+    - id: enrichId
+      type: System.String
+      description: Id from the EnrichContact provider
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+      description: Enriched contact entity with address, phone number, and email updated.
+    content.vb: Public Function EnrichContactEntityAsync(contactEntity As ContactEntity, enrichId As String, cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
+  overload: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ContactAgent.EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, String, System.Threading.CancellationToken)
+  name.vb: EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   id: GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -1323,7 +1363,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
-      description: Contact minimal contact suitable for preview
+      description: Minimal contact suitable for preview
     content.vb: Public Function GetPreviewContactAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewContact)
   overload: SuperOffice.CRM.Services.ContactAgent.GetPreviewContactAsync*
   implements:
@@ -1331,6 +1371,41 @@ items:
   nameWithType.vb: ContactAgent.GetPreviewContactAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ContactAgent.GetPreviewContactAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPreviewContactAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  id: GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewEnrichContactAsync(string, CancellationToken)
+  nameWithType: ContactAgent.GetPreviewEnrichContactAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get a contact from its ID
+  example: []
+  syntax:
+    content: public Task<PreviewContact> GetPreviewEnrichContactAsync(string enrichId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: enrichId
+      type: System.String
+      description: Enrich Contact ID from the EnrichContact MDO list provider
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
+      description: Minimal contact suitable for preview
+    content.vb: Public Function GetPreviewEnrichContactAsync(enrichId As String, cancellationToken As CancellationToken = Nothing) As Task(Of PreviewContact)
+  overload: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: ContactAgent.GetPreviewEnrichContactAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync(String, System.Threading.CancellationToken)
+  name.vb: GetPreviewEnrichContactAsync(String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -4147,6 +4222,66 @@ references:
     name: StringDictionary
     isExternal: true
   - name: )
+- uid: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactAgent.html#SuperOffice_CRM_Services_ContactAgent_EnrichContactEntityAsync_SuperOffice_CRM_Services_ContactEntity_System_String_System_Threading_CancellationToken_
+  name: EnrichContactEntityAsync
+  nameWithType: ContactAgent.EnrichContactEntityAsync
+  fullName: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync
+- uid: SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: EnrichContactEntityAsync(ContactEntity, string, CancellationToken)
+  nameWithType: IContactAgent.EnrichContactEntityAsync(ContactEntity, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, string, System.Threading.CancellationToken)
+  nameWithType.vb: IContactAgent.EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, String, System.Threading.CancellationToken)
+  name.vb: EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+    name: EnrichContactEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.String,System.Threading.CancellationToken)
+    name: EnrichContactEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactListAsync*
   commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactListAsync
   isExternal: true
@@ -4371,6 +4506,56 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactAgent.html#SuperOffice_CRM_Services_ContactAgent_GetPreviewEnrichContactAsync_System_String_System_Threading_CancellationToken_
+  name: GetPreviewEnrichContactAsync
+  nameWithType: ContactAgent.GetPreviewEnrichContactAsync
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPreviewEnrichContactAsync
+- uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetPreviewEnrichContactAsync(string, CancellationToken)
+  nameWithType: IContactAgent.GetPreviewEnrichContactAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IContactAgent.GetPreviewEnrichContactAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(String, System.Threading.CancellationToken)
+  name.vb: GetPreviewEnrichContactAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+    name: GetPreviewEnrichContactAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewEnrichContactAsync(System.String,System.Threading.CancellationToken)
+    name: GetPreviewEnrichContactAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken

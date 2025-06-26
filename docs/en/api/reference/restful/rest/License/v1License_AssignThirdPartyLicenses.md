@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 399,
-    "Tooltip": "est",
+    "Total": 206,
+    "Tooltip": "qui",
     "CanAssign": false,
-    "Free": 106,
-    "InUse": 436,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 296,
-    "Name": "Mohr, Thiel and Miller",
-    "Description": "Digitized high-level archive",
-    "PrerequisiteModuleName": "Green Group",
-    "SortOrder": 987,
-    "ExtraFlags": 966,
+    "Free": 50,
+    "InUse": 624,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 240,
+    "Name": "Corwin-Prohaska",
+    "Description": "Customizable 24 hour projection",
+    "PrerequisiteModuleName": "Bogan Inc and Sons",
+    "SortOrder": 87,
+    "ExtraFlags": 800,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

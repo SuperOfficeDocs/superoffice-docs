@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
   - SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  - SuperOffice.CRM.Workflow.WorkflowStepDistributeToOwner
   - SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
   - SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList

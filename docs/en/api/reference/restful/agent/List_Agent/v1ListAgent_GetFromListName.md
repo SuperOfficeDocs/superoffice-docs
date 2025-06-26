@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 742,
-  "UdListDefinitionName": "Stiedemann, Bartoletti and Gerlach"
+  "Id": 29,
+  "UdListDefinitionName": "Johns Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Denesik Group",
-  "Tooltip": "dolore",
+  "Id": 157,
+  "Name": "Borer Inc and Sons",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "UdListDefinitionId": 688,
-  "Rank": 429,
+  "UdListDefinitionId": 737,
+  "Rank": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

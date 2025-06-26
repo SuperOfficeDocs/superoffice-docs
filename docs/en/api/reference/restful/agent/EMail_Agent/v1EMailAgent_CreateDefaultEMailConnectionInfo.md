@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Mosciski-Lang",
-  "UserName": "Glover-Parker",
-  "Password": "similique",
-  "Folder": "est",
+  "ServerName": "Murazik LLC",
+  "UserName": "Grimes-Cartwright",
+  "Password": "dolorum",
+  "Folder": "deserunt",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 554
     }
   }
 }

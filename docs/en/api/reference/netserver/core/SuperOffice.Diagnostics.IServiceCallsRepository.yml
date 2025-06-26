@@ -5,8 +5,9 @@ items:
   id: IServiceCallsRepository
   parent: SuperOffice.Diagnostics
   children:
+  - SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
   - SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
-  - SuperOffice.Diagnostics.IServiceCallsRepository.All
+  - SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls(System.String)
   - SuperOffice.Diagnostics.IServiceCallsRepository.Remove(System.Guid)
   langs:
   - csharp
@@ -26,6 +27,32 @@ items:
   extensionMethods:
   - SuperOffice.Diagnostics.IServiceCallsRepository.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.IServiceCallsRepository.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls(System.String)
+  commentId: M:SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls(System.String)
+  id: GetAggregatedServiceCalls(System.String)
+  parent: SuperOffice.Diagnostics.IServiceCallsRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAggregatedServiceCalls(string)
+  nameWithType: IServiceCallsRepository.GetAggregatedServiceCalls(string)
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: Dictionary<string, AggregatedServiceCall> GetAggregatedServiceCalls(string contextIdentifier)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Diagnostics.AggregatedServiceCall}
+    content.vb: Function GetAggregatedServiceCalls(contextIdentifier As String) As Dictionary(Of String, AggregatedServiceCall)
+  overload: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls*
+  nameWithType.vb: IServiceCallsRepository.GetAggregatedServiceCalls(String)
+  fullName.vb: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls(String)
+  name.vb: GetAggregatedServiceCalls(String)
 - uid: SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
   commentId: M:SuperOffice.Diagnostics.IServiceCallsRepository.Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
   id: Add(System.String,System.String,System.String,System.String,System.ValueTuple{System.String,System.Object}[])
@@ -81,16 +108,16 @@ items:
       type: System.Guid
     content.vb: Sub Remove(serviceCall As Guid)
   overload: SuperOffice.Diagnostics.IServiceCallsRepository.Remove*
-- uid: SuperOffice.Diagnostics.IServiceCallsRepository.All
-  commentId: P:SuperOffice.Diagnostics.IServiceCallsRepository.All
-  id: All
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
+  commentId: P:SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
+  id: ActiveServiceCalls
   parent: SuperOffice.Diagnostics.IServiceCallsRepository
   langs:
   - csharp
   - vb
-  name: All
-  nameWithType: IServiceCallsRepository.All
-  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.All
+  name: ActiveServiceCalls
+  nameWithType: IServiceCallsRepository.ActiveServiceCalls
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
   type: Property
   assemblies:
   - SoCore
@@ -98,12 +125,12 @@ items:
   summary: Gets all currenty executing service calls.
   example: []
   syntax:
-    content: IEnumerable<ServiceCall> All { get; }
+    content: IEnumerable<ServiceCall> ActiveServiceCalls { get; }
     parameters: []
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
-    content.vb: ReadOnly Property All As IEnumerable(Of ServiceCall)
-  overload: SuperOffice.Diagnostics.IServiceCallsRepository.All*
+    content.vb: ReadOnly Property ActiveServiceCalls As IEnumerable(Of ServiceCall)
+  overload: SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls*
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
@@ -370,13 +397,13 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Add*
-  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.Add
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls
   isExternal: true
-  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_Add_System_String_System_String_System_String_System_String_System_ValueTuple_System_String_System_Object____
-  name: Add
-  nameWithType: IServiceCallsRepository.Add
-  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Add
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_GetAggregatedServiceCalls_System_String_
+  name: GetAggregatedServiceCalls
+  nameWithType: IServiceCallsRepository.GetAggregatedServiceCalls
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.GetAggregatedServiceCalls
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -388,6 +415,138 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Diagnostics.AggregatedServiceCall}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Diagnostics.AggregatedServiceCall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, AggregatedServiceCall>
+  nameWithType: Dictionary<string, AggregatedServiceCall>
+  fullName: System.Collections.Generic.Dictionary<string, SuperOffice.Diagnostics.AggregatedServiceCall>
+  nameWithType.vb: Dictionary(Of String, AggregatedServiceCall)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, SuperOffice.Diagnostics.AggregatedServiceCall)
+  name.vb: Dictionary(Of String, AggregatedServiceCall)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.AggregatedServiceCall
+    name: AggregatedServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.AggregatedServiceCall.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Diagnostics.AggregatedServiceCall
+    name: AggregatedServiceCall
+    isExternal: true
+    href: SuperOffice.Diagnostics.AggregatedServiceCall.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.Add*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.Add
+  isExternal: true
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_Add_System_String_System_String_System_String_System_String_System_ValueTuple_System_String_System_Object____
+  name: Add
+  nameWithType: IServiceCallsRepository.Add
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Add
 - uid: System.ValueTuple{System.String,System.Object}[]
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.string
@@ -459,13 +618,6 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Diagnostics.IServiceCallsRepository.Remove*
   commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.Remove
   isExternal: true
@@ -473,13 +625,13 @@ references:
   name: Remove
   nameWithType: IServiceCallsRepository.Remove
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository.Remove
-- uid: SuperOffice.Diagnostics.IServiceCallsRepository.All*
-  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.All
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls*
+  commentId: Overload:SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
   isExternal: true
-  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_All
-  name: All
-  nameWithType: IServiceCallsRepository.All
-  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.All
+  href: SuperOffice.Diagnostics.IServiceCallsRepository.html#SuperOffice_Diagnostics_IServiceCallsRepository_ActiveServiceCalls
+  name: ActiveServiceCalls
+  nameWithType: IServiceCallsRepository.ActiveServiceCalls
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository.ActiveServiceCalls
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
   commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Diagnostics.ServiceCall}
   parent: System.Collections.Generic
@@ -543,40 +695,3 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Koss, Beer and Leuschke",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 993,
-  "Rank": 986
+  "Id": 641,
+  "Name": "Mills-Koepp",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "UdListDefinitionId": 660,
+  "Rank": 760
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Collins-Goldner",
-  "Tooltip": "earum",
+  "Id": 861,
+  "Name": "Stamm-Heathcote",
+  "Tooltip": "non",
   "Deleted": true,
-  "UdListDefinitionId": 820,
-  "Rank": 263,
+  "UdListDefinitionId": 283,
+  "Rank": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 450
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "fugiat",
+  "SearchString": "beatae",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "233.809.5910 x2835",
-    "PersonCellPhone": "1-104-257-2258",
-    "PersonPrivatePhone": "1-825-034-9562 x69483",
-    "PersonFaxNumber": "433010",
-    "PersonPagerNumber": "408475",
-    "PersonEmail": "virginia_crona@gorczanyryan.co.uk",
-    "Id": 849,
-    "Name": "Boyle-Jerde",
-    "Tooltip": "repellendus",
-    "UniqueId": "cumque",
+    "PersonDirectPhone": "(969)254-9547",
+    "PersonCellPhone": "310-895-2852",
+    "PersonPrivatePhone": "1-373-656-3854",
+    "PersonFaxNumber": "1127660",
+    "PersonPagerNumber": "312428",
+    "PersonEmail": "ardella.anderson@stantoneffertz.us",
+    "Id": 362,
+    "Name": "Boyer Inc and Sons",
+    "Tooltip": "error",
+    "UniqueId": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 772
       }
     }
   }

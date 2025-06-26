@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 169,
+  "HierarchyId": 641,
   "Domain": "Dashboards",
-  "Name": "Grady-Wolf",
-  "Fullname": "ullam",
-  "ParentId": 86,
+  "Name": "Ankunding-Glover",
+  "Fullname": "tempora",
+  "ParentId": 790,
   "Children": [
     {
-      "HierarchyId": 969,
+      "HierarchyId": 775,
       "Domain": "Dashboards",
-      "Name": "Nader-Parker",
-      "Fullname": "eos",
-      "ParentId": 15,
+      "Name": "Brakus, Kub and Rodriguez",
+      "Fullname": "et",
+      "ParentId": 522,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-01-25T17:54:08.2730803+01:00",
-      "RegisteredAssociateId": 161,
-      "Updated": "2012-12-22T17:54:08.2730803+01:00",
-      "UpdatedAssociateId": 702,
+      "Registered": "2016-11-12T03:45:28.3734363+01:00",
+      "RegisteredAssociateId": 596,
+      "Updated": "2018-10-05T03:45:28.3734363+02:00",
+      "UpdatedAssociateId": 663,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldLength": 388
         }
       }
     }
   ],
-  "Registered": "2004-05-09T17:54:08.2730803+02:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2006-09-28T17:54:08.2730803+02:00",
-  "UpdatedAssociateId": 574,
+  "Registered": "2000-06-21T03:45:28.3734363+02:00",
+  "RegisteredAssociateId": 521,
+  "Updated": "2018-09-09T03:45:28.3734363+02:00",
+  "UpdatedAssociateId": 705,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

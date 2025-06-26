@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "reiciendis"
+  "Context": "maxime"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "exercitationem",
-    "ValueType": "necessitatibus",
+    "Key": "ad",
+    "ValueType": "rerum",
     "Mandatory": false,
-    "EncodedDisplayName": "Schuppe LLC",
-    "EncodedDisplayDescription": "Distributed context-sensitive middleware",
-    "IconHint": "quis",
+    "EncodedDisplayName": "Quigley Inc and Sons",
+    "EncodedDisplayDescription": "Proactive upward-trending encoding",
+    "IconHint": "est",
     "ControlInfos": [
       {
-        "Type": "velit",
-        "Label": "sit",
-        "Dimension": 221,
-        "ListProviderName": "Bayer Group",
-        "ListProviderExtraInfo": "voluptas",
-        "ListProviderPrimaryKeyName": "Heaney-Goldner",
-        "ListLeadText": "magnam",
+        "Type": "minima",
+        "Label": "quibusdam",
+        "Dimension": 193,
+        "ListProviderName": "Weimann Group",
+        "ListProviderExtraInfo": "quo",
+        "ListProviderPrimaryKeyName": "Lowe, Schroeder and Keebler",
+        "ListLeadText": "quaerat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 845
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "EncodedDataCaption": "pariatur",
-    "EncodedDataCaptionDescription": "Ergonomic upward-trending focus group",
-    "CurrentOperationType": "adipisci",
+    "EncodedDataCaption": "autem",
+    "EncodedDataCaptionDescription": "Multi-lateral asynchronous contingency",
+    "CurrentOperationType": "quibusdam",
     "Values": [
-      "nemo",
-      "enim"
+      "distinctio",
+      "assumenda"
     ],
     "DisplayValues": [
-      "eaque",
-      "molestiae"
+      "voluptas",
+      "consequatur"
     ],
     "OperationInfos": [
       {
-        "Key": "maiores",
-        "EncodedDisplayName": "Boyer-Botsford",
+        "Key": "incidunt",
+        "EncodedDisplayName": "Funk Group",
         "EncodedLeadTexts": [
-          "libero",
-          "voluptates"
+          "nam",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 755
+            "FieldType": "System.Int32",
+            "FieldLength": 301
           }
         }
       },
       {
-        "Key": "maiores",
-        "EncodedDisplayName": "Boyer-Botsford",
+        "Key": "incidunt",
+        "EncodedDisplayName": "Funk Group",
         "EncodedLeadTexts": [
-          "libero",
-          "voluptates"
+          "nam",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 755
+            "FieldType": "System.Int32",
+            "FieldLength": 301
           }
         }
       }

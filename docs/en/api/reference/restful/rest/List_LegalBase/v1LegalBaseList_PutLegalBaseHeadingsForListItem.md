@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Bode, Howell and Stanton",
-    "ToolTip": "Aliquam praesentium.",
-    "Deleted": true,
-    "Rank": 886,
-    "Type": "iure",
-    "ColorBlock": 238,
-    "IconHint": "doloribus",
+    "Id": 765,
+    "Name": "Cremin-Kutch",
+    "ToolTip": "Iure assumenda sequi distinctio eos quia omnis tempora.",
+    "Deleted": false,
+    "Rank": 968,
+    "Type": "quo",
+    "ColorBlock": 576,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2018-04-23T17:54:08.9292989+02:00",
+    "LastChanged": "2013-08-16T03:45:29.0452922+02:00",
     "ChildItems": [
       {
-        "Id": 594,
-        "Name": "Gusikowski, Pfannerstill and Davis",
-        "ToolTip": "Eaque incidunt deserunt consequatur.",
+        "Id": 254,
+        "Name": "Bayer Inc and Sons",
+        "ToolTip": "Nostrum dolor corporis sed omnis debitis eaque.",
         "Deleted": false,
-        "Rank": 884,
-        "Type": "itaque",
-        "ColorBlock": 143,
-        "IconHint": "et",
+        "Rank": 253,
+        "Type": "eius",
+        "ColorBlock": 683,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2007-09-23T17:54:08.9292989+02:00",
+        "LastChanged": "2020-06-24T03:45:29.0452922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "sit",
+        "ExtraInfo": "expedita",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Taryn Greenfelder"
+        "FullName": "Bianka Thompson"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "amet",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Opal Kuvalis PhD"
+    "FullName": "Blanche Olson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Thiel-Hills",
-    "ToolTip": "Vitae omnis consectetur et.",
-    "Deleted": false,
-    "Rank": 791,
+    "Id": 349,
+    "Name": "Yost Group",
+    "ToolTip": "Possimus ad error fugiat.",
+    "Deleted": true,
+    "Rank": 385,
     "Type": "et",
-    "ColorBlock": 877,
-    "IconHint": "laudantium",
+    "ColorBlock": 254,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2020-10-27T17:54:08.9292989+01:00",
+    "LastChanged": "2017-10-02T03:45:29.0452922+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Grimes-Dare",
-        "ToolTip": "At totam aliquam soluta est numquam necessitatibus cumque.",
+        "Id": 409,
+        "Name": "Kulas, Beer and Orn",
+        "ToolTip": "Cumque ducimus quae dolor.",
         "Deleted": true,
-        "Rank": 753,
-        "Type": "molestiae",
-        "ColorBlock": 758,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2006-12-24T17:54:08.9292989+01:00",
+        "Rank": 373,
+        "Type": "ut",
+        "ColorBlock": 139,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2009-11-16T03:45:29.0452922+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "commodi",
+        "ExtraInfo": "odio",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Roscoe Mann",
+        "FullName": "Betty Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldType": "System.String",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Mr. Tanner Aurelie Konopelski IV",
+    "ExtraInfo": "expedita",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Eden Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldType": "System.String",
+        "FieldLength": 842
       }
     }
   }

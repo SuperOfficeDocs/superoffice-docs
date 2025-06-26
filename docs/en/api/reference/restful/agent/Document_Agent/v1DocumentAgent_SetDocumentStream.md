@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 94,
+  "DocumentId": 584,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "porro",
-  "Header": "in",
-  "Name": "Grady Group",
-  "OurRef": "magni",
-  "YourRef": "minima",
-  "CreatedDate": "2007-07-28T17:54:02.9920879+02:00",
-  "UpdatedDate": "2018-04-17T17:54:02.9920879+02:00",
-  "Description": "Virtual motivating contingency",
+  "Attention": "velit",
+  "Header": "pariatur",
+  "Name": "Kuvalis Inc and Sons",
+  "OurRef": "deserunt",
+  "YourRef": "facere",
+  "CreatedDate": "2008-03-06T03:45:23.3110832+01:00",
+  "UpdatedDate": "2009-12-22T03:45:23.3110832+01:00",
+  "Description": "Robust web-enabled challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-01-09T17:54:02.9920879+01:00",
-  "ExternalRef": "magni",
+  "Date": "2006-07-21T03:45:23.3110832+02:00",
+  "ExternalRef": "eum",
   "Completed": "Completed",
-  "ActiveLinks": 349,
+  "ActiveLinks": 51,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stroman, Strosin and Pouros",
-      "Id": 412,
-      "Description": "Self-enabling interactive open architecture",
-      "ExtraInfo": "dolores",
-      "LinkId": 480,
+      "EntityName": "Lakin-Spinka",
+      "Id": 980,
+      "Description": "Open-architected holistic matrices",
+      "ExtraInfo": "ducimus",
+      "LinkId": 185,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 42
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 956,
-  "Snum": 812,
+  "SuggestedDocumentId": 325,
+  "Snum": 30,
   "UserDefinedFields": {
-    "SuperOffice:1": "1045465540",
-    "SuperOffice:2": "Micheal Dietrich"
+    "SuperOffice:1": "1712289055",
+    "SuperOffice:2": "Prof. Matteo Herman V"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2011-09-01T17:54:02.9920879+02:00",
-  "PublishTo": "2010-06-11T17:54:02.9920879+02:00",
-  "PublishFrom": "1999-10-28T17:54:02.9920879+02:00",
+  "PublishEventDate": "2020-08-02T03:45:23.3267081+02:00",
+  "PublishTo": "2005-09-27T03:45:23.3267081+02:00",
+  "PublishFrom": "2018-03-14T03:45:23.3267081+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 736,
+      "VisibleId": 14,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldLength": 773
         }
       }
     },
     {
-      "VisibleId": 736,
+      "VisibleId": 14,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldLength": 773
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 91
     }
   }
 }

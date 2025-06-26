@@ -490,7 +490,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=associate/simultaneousEjUser,contact/hasInterests,contact/restrictionAddress/state,contact/contactAssociate/isLocation,contact/contactExtra/x_contact_time
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=chatTopic/description,person/portraitThumbnail,person/personExtra/x_person_shorttext_list,person/personAssociate/locationAddress,person/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

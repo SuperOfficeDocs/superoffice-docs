@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Bergnaum-Abernathy",
-    "ToolTip": "Est sit voluptatem et voluptatem aut quidem.",
+    "Id": 340,
+    "Name": "Mante-Abbott",
+    "ToolTip": "Et velit aut sed.",
     "Deleted": false,
-    "Rank": 243,
-    "Type": "nemo",
-    "ColorBlock": 692,
-    "IconHint": "est",
+    "Rank": 377,
+    "Type": "culpa",
+    "ColorBlock": 971,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2003-04-24T17:54:08.4136991+02:00",
+    "LastChanged": "2019-12-23T03:45:28.5453063+01:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Metz, Hessel and Herman",
-        "ToolTip": "Voluptatem et repudiandae commodi et.",
+        "Id": 751,
+        "Name": "Miller-Schuster",
+        "ToolTip": "Distinctio qui inventore nobis et et amet.",
         "Deleted": false,
-        "Rank": 34,
-        "Type": "vel",
-        "ColorBlock": 290,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2000-05-12T17:54:08.4136991+02:00",
+        "Rank": 577,
+        "Type": "odio",
+        "ColorBlock": 670,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "2006-01-02T03:45:28.5453063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Mr. Dave Clay Hudson",
+        "ExtraInfo": "possimus",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Miss Lia Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 764
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "iure",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Jorge O'Connell",
+    "FullName": "Chance Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 813
       }
     }
   }

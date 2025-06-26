@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 575,
-  "Section": "repellat",
-  "Key": "earum",
-  "Name": "Feest, Hermiston and Prosacco",
+  "PrefDescId": 637,
+  "Section": "fugiat",
+  "Key": "velit",
+  "Name": "Rice Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable actuating parallelism",
-  "IsBuiltin": false,
-  "TableName": "Langworth Group",
-  "UserDefinedListId": 551,
-  "Rank": 145,
-  "SubGroup": "asperiores",
-  "MinLevel": 261,
-  "MaxValue": 334,
-  "MinValue": 895,
-  "RequiredLicense": "ullam",
+  "Description": "Customer-focused cohesive forecast",
+  "IsBuiltin": true,
+  "TableName": "Schulist, McDermott and Turcotte",
+  "UserDefinedListId": 124,
+  "Rank": 28,
+  "SubGroup": "facilis",
+  "MinLevel": 134,
+  "MaxValue": 817,
+  "MinValue": 5,
+  "RequiredLicense": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 866
     }
   }
 }

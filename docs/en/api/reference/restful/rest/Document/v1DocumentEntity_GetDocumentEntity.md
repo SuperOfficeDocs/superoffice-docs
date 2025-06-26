@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 09 Nov 2010 17:54:08 G11T
+Last-Modified: Fri, 16 Oct 2009 03:45:28 G10T
 
 {
-  "DocumentId": 29,
+  "DocumentId": 403,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quibusdam",
-  "Header": "numquam",
-  "Name": "Mills, Harris and Rolfson",
-  "OurRef": "veniam",
-  "YourRef": "qui",
-  "CreatedDate": "2013-03-14T17:54:08.2108433+01:00",
-  "UpdatedDate": "2010-11-09T17:54:08.2108433+01:00",
-  "Description": "Intuitive stable service-desk",
+  "Attention": "rerum",
+  "Header": "aut",
+  "Name": "Quigley, Luettgen and Hackett",
+  "OurRef": "et",
+  "YourRef": "aliquam",
+  "CreatedDate": "2015-05-14T03:45:28.3109477+02:00",
+  "UpdatedDate": "2009-10-16T03:45:28.3109477+02:00",
+  "Description": "Cross-group non-volatile hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-06-03T17:54:08.2108433+02:00",
-  "ExternalRef": "et",
+  "Date": "2024-02-23T03:45:28.3265627+01:00",
+  "ExternalRef": "nobis",
   "Completed": "Completed",
-  "ActiveLinks": 247,
+  "ActiveLinks": 151,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ullrich Inc and Sons",
-      "Id": 800,
-      "Description": "Ameliorated hybrid complexity",
-      "ExtraInfo": "et",
-      "LinkId": 262,
+      "EntityName": "Wisoky Inc and Sons",
+      "Id": 706,
+      "Description": "Exclusive leading edge instruction set",
+      "ExtraInfo": "dolores",
+      "LinkId": 326,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 350
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 969,
-  "Snum": 466,
+  "SuggestedDocumentId": 708,
+  "Snum": 621,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dan Kris",
-    "SuperOffice:2": "1453785763"
+    "SuperOffice:1": "719308254",
+    "SuperOffice:2": "Mr. Cielo Tabitha Erdman Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "non"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2019-06-18T17:54:08.2108433+02:00",
-  "PublishTo": "1998-02-07T17:54:08.2108433+01:00",
-  "PublishFrom": "2005-11-26T17:54:08.2108433+01:00",
+  "PublishEventDate": "1998-03-24T03:45:28.3265627+01:00",
+  "PublishTo": "2016-01-23T03:45:28.3265627+01:00",
+  "PublishFrom": "2023-10-04T03:45:28.3265627+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 200,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 957
         }
       }
     },
     {
-      "VisibleId": 200,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 957
         }
       }
     }
@@ -210,8 +210,8 @@ Last-Modified: Tue, 09 Nov 2010 17:54:08 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   },
   "_Links": {

@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Marquardt Group",
-  "Tooltip": "omnis",
+  "Id": 255,
+  "Name": "Kozey Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 848,
-  "Rank": 190
+  "UdListDefinitionId": 581,
+  "Rank": 628
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Toy-Waters",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 830,
-  "Rank": 483,
+  "Id": 283,
+  "Name": "Kovacek LLC",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "UdListDefinitionId": 160,
+  "Rank": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 663
     }
   }
 }

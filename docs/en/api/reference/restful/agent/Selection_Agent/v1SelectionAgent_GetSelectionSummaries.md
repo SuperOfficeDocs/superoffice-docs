@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    128,
-    855
+    609,
+    758
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 689,
-    "Name": "Wilkinson-Willms",
-    "TargetTable": "veritatis",
-    "Registered": "2002-12-29T17:54:03.6326822+01:00",
-    "ProviderName": "Herman-Mosciski"
+    "SelectionId": 672,
+    "Name": "Quitzon LLC",
+    "TargetTable": "possimus",
+    "Registered": "2009-01-12T03:45:23.9204418+01:00",
+    "ProviderName": "Fritsch-Nitzsche"
   },
   {
-    "SelectionId": 689,
-    "Name": "Wilkinson-Willms",
-    "TargetTable": "veritatis",
-    "Registered": "2002-12-29T17:54:03.6326822+01:00",
-    "ProviderName": "Herman-Mosciski"
+    "SelectionId": 672,
+    "Name": "Quitzon LLC",
+    "TargetTable": "possimus",
+    "Registered": "2009-01-12T03:45:23.9204418+01:00",
+    "ProviderName": "Fritsch-Nitzsche"
   }
 ]
 ```

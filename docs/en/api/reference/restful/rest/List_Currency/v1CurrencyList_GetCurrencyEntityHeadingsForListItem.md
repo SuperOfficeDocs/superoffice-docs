@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "McClure-Lebsack",
-    "ToolTip": "Aliquam voluptas.",
-    "Deleted": false,
-    "Rank": 362,
-    "Type": "rerum",
-    "ColorBlock": 772,
-    "IconHint": "quidem",
+    "Id": 423,
+    "Name": "Cassin, Little and Kub",
+    "ToolTip": "Praesentium aut.",
+    "Deleted": true,
+    "Rank": 735,
+    "Type": "dolor",
+    "ColorBlock": 567,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2021-07-09T17:54:08.8980498+02:00",
+    "LastChanged": "2008-01-15T03:45:29.014043+01:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Borer Inc and Sons",
-        "ToolTip": "Consequatur libero.",
+        "Id": 938,
+        "Name": "Steuber Group",
+        "ToolTip": "Recusandae aliquam minima.",
         "Deleted": false,
-        "Rank": 134,
-        "Type": "optio",
-        "ColorBlock": 568,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2023-02-18T17:54:08.8980498+01:00",
+        "Rank": 199,
+        "Type": "ipsa",
+        "ColorBlock": 116,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2024-12-31T03:45:29.014043+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Audrey Ratke",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Ms. Alicia Elfrieda Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 639
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Grady Conn",
+    "FullName": "Natalie Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldLength": 507
       }
     }
   }

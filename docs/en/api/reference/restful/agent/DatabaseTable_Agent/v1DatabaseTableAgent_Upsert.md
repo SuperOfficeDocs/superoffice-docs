@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Barrows LLC",
+  "TableName": "Swaniawski-Keebler",
   "Columns": [
-    "explicabo",
-    "ad"
+    "quisquam",
+    "nisi"
   ],
   "Keys": [
-    "asperiores",
-    "quo"
+    "aut",
+    "incidunt"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quis",
-  "Inserts": 237,
-  "Updates": 991,
-  "Deletes": 358,
+  "Message": "provident",
+  "Inserts": 606,
+  "Updates": 507,
+  "Deletes": 878,
   "RowStatus": [
     {
-      "PrimaryKey": 503,
+      "PrimaryKey": 993,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "quas"
+        "id",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     },
     {
-      "PrimaryKey": 503,
+      "PrimaryKey": 993,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "quas"
+        "id",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

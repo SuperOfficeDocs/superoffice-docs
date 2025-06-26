@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 582,
+  "SelectionId": 357,
   "SelectionMemberIds": [
-    263,
-    702
+    330,
+    34
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised value-added contingency",
-  "Postit": "dolorum",
+  "Description": "Seamless content-based attitude",
+  "Postit": "aspernatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 234,
-  "IncludePerson": 615,
+  "GroupIdx": 731,
+  "IncludePerson": 159,
   "MemberCount": 99.99,
-  "Name": "Walker-Wiza",
-  "PostitTextId": 789,
-  "CreatedDate": "2008-08-28T17:54:03.6170572+02:00",
-  "SelectionId": 642,
-  "SoundEx": "error",
-  "Source": 209,
-  "TextId": 838,
-  "UpdatedDate": "1999-01-12T17:54:03.6170572+01:00",
-  "UpdatedCount": 201,
-  "Visibility": 842,
+  "Name": "Bayer, Littel and Haley",
+  "PostitTextId": 381,
+  "CreatedDate": "2009-12-04T03:45:23.9048172+01:00",
+  "SelectionId": 774,
+  "SoundEx": "saepe",
+  "Source": 305,
+  "TextId": 236,
+  "UpdatedDate": "2011-04-27T03:45:23.9048172+02:00",
+  "UpdatedCount": 417,
+  "Visibility": 95,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 416,
-  "TargetTableName": "Schiller, Stoltenberg and Walsh",
+  "TargetTableNumber": 819,
+  "TargetTableName": "Ernser, Borer and Miller",
   "Completed": false,
-  "LeftSelectionId": 755,
-  "RightSelectionId": 79,
+  "LeftSelectionId": 232,
+  "RightSelectionId": 253,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Harris-Harris",
-  "ShadowProviderName": "Mueller, Murphy and Larkin",
-  "ChartKey": "dolor",
-  "LastLoaded": "2001-09-30T17:54:03.6170572+02:00",
-  "LastLoadedBy": 259,
+  "MainProviderName": "Gutkowski-Grady",
+  "ShadowProviderName": "Schinner Inc and Sons",
+  "ChartKey": "alias",
+  "LastLoaded": "2000-03-03T03:45:23.9048172+01:00",
+  "LastLoadedBy": 134,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-05-25T17:54:03.6170572+02:00",
-  "LastMembershipChangeBy": 575,
+  "LastMembershipChange": "2020-08-18T03:45:23.9048172+02:00",
+  "LastMembershipChangeBy": 527,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sint",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Frami-Ledner",
-  "DashboardTileDefinitionId": 632,
+  "MainHeading": "tenetur",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Feeney LLC",
+  "DashboardTileDefinitionId": 413,
   "VisibleFor": [
     {
-      "VisibleId": 648,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     },
     {
-      "VisibleId": 648,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldLength": 164
     }
   }
 }

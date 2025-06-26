@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Von Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 51,
+  "Id": 65,
+  "Name": "Eichmann-Cronin",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 358,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "ipsa",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Shields-Ziemann",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 895,
+  "Id": 524,
+  "Name": "Eichmann LLC",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 670,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 856
     }
   }
 }

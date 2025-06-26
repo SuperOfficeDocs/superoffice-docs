@@ -87,10 +87,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kessler Group",
-  "DeviceName": "Reynolds-Bechtelar",
-  "DeviceIdentifier": "omnis",
-  "TableName": "Thiel-McKenzie"
+  "ApplicationName": "Torphy, Ferry and D'Amore",
+  "DeviceName": "McLaughlin, Fay and Zboncak",
+  "DeviceIdentifier": "fuga",
+  "TableName": "Simonis Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nesciunt",
-    "Value": "dolore",
-    "RecordId": 948,
-    "CreatedDate": "2020-01-03T17:54:03.1795788+01:00",
-    "UpdatedDate": "2000-10-07T17:54:03.1795788+02:00",
-    "UpdatedBy": "cumque",
-    "CreatedBy": "quia",
-    "TableName": "Farrell-Wisoky",
+    "Key": "quo",
+    "Value": "quia",
+    "RecordId": 239,
+    "CreatedDate": "2003-07-30T03:45:23.498579+02:00",
+    "UpdatedDate": "2000-06-27T03:45:23.498579+02:00",
+    "UpdatedBy": "dolorem",
+    "CreatedBy": "iusto",
+    "TableName": "Koepp, Grady and Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldLength": 235
       }
     }
   }

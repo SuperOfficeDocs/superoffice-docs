@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 4
+  "ProjectId": 272
 }
 ```
 
@@ -141,66 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 470,
-  "StartDate": "2013-05-20T17:54:03.47644+02:00",
-  "EndDate": "2001-08-11T17:54:03.47644+02:00",
+  "AppointmentId": 687,
+  "StartDate": "2003-12-23T03:45:23.7798203+01:00",
+  "EndDate": "2018-02-21T03:45:23.7798203+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quod",
-  "AssociateFullName": "Layla Heaney",
-  "ContactName": "Marvin-Considine",
-  "Description": "Total user-facing pricing structure",
-  "PersonFullName": "Peter Keebler",
-  "PersonId": 243,
-  "ContactId": 119,
-  "ProjectId": 20,
-  "ProjectName": "Bins Group",
-  "IsPublished": true,
-  "AssociateId": 292,
-  "ColorIndex": 839,
+  "Task": "quo",
+  "AssociateFullName": "Prof. Mariano Icie Casper MD",
+  "ContactName": "Will-Crooks",
+  "Description": "Inverse grid-enabled project",
+  "PersonFullName": "Noble Hansen",
+  "PersonId": 358,
+  "ContactId": 748,
+  "ProjectId": 748,
+  "ProjectName": "Raynor, Lueilwitz and Altenwerth",
+  "IsPublished": false,
+  "AssociateId": 31,
+  "ColorIndex": 134,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 460,
-  "PriorityName": "Senger-Grady",
+  "PriorityId": 791,
+  "PriorityName": "Kihn, Dibbert and Spinka",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2013-04-26T17:54:03.47644+02:00",
+  "IsBookingMain": false,
+  "IsRecurrence": false,
+  "IsBooking": false,
+  "ActiveDate": "2009-07-31T03:45:23.7798203+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2003-04-30T17:54:03.47644+02:00",
-  "RecurringEndDate": "2023-05-11T17:54:03.47644+02:00",
-  "MotherId": 646,
-  "AssignedBy": 311,
-  "AssignedByFullName": "Priscilla VonRueden",
+  "RecurringStartDate": "2021-09-01T03:45:23.7798203+02:00",
+  "RecurringEndDate": "2010-04-06T03:45:23.7798203+02:00",
+  "MotherId": 379,
+  "AssignedBy": 197,
+  "AssignedByFullName": "Lindsay Marvin",
   "RejectReason": "",
-  "Location": "soluta",
-  "AlarmLeadTime": "molestiae",
-  "SaleId": 19,
-  "SaleName": "Denesik-Lang",
-  "AssociateName": "Dibbert-Corwin",
-  "CreatedDate": "2000-07-19T17:54:03.47644+02:00",
-  "CreatedBy": "rem",
-  "CreatedByFullName": "Mr. Meta Jerrod Walter",
-  "CreatedByAssociateId": 336,
+  "Location": "qui",
+  "AlarmLeadTime": "cumque",
+  "SaleId": 411,
+  "SaleName": "Bogan, VonRueden and Collins",
+  "AssociateName": "Ziemann LLC",
+  "CreatedDate": "2012-07-15T03:45:23.7798203+02:00",
+  "CreatedBy": "veritatis",
+  "CreatedByFullName": "Alexis Ferry MD",
+  "CreatedByAssociateId": 634,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 820,
-  "Title": "rem",
-  "Agenda": "repellat",
-  "InternalNotes": "mollitia",
+  "PreferredTZLocation": 834,
+  "Title": "excepturi",
+  "Agenda": "dolor",
+  "InternalNotes": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

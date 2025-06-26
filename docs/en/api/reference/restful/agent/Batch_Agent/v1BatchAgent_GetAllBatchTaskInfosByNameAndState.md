@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schroeder-Satterfield",
+  "TaskName": "Gutkowski, Parker and Pfannerstill",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Nader, Monahan and Ryan",
-    "AssociateId": 666,
-    "DetailsTable": 633,
-    "DetailsRecord": 919,
+    "Id": 425,
+    "Name": "Aufderhar-McCullough",
+    "AssociateId": 479,
+    "DetailsTable": 552,
+    "DetailsRecord": 124,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "exercitationem",
-      "ParameterObject2": "voluptas"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "rem"
     },
-    "LastStarted": "2001-02-02T17:54:02.6639794+01:00",
-    "Created": "2003-10-03T17:54:02.6639794+02:00",
-    "StartCount": 505,
-    "DatabaseSerialNumber": "1023219",
-    "Context": "iure",
-    "Result": "quae",
+    "LastStarted": "2024-01-23T03:45:22.9829669+01:00",
+    "Created": "2019-01-23T03:45:22.9829669+01:00",
+    "StartCount": 389,
+    "DatabaseSerialNumber": "859378",
+    "Context": "eius",
+    "Result": "quis",
     "State": "All",
-    "Description": "Team-oriented cohesive service-desk",
-    "Response": "atque",
-    "Request": "dolor",
-    "ProgressDescription": "Networked needs-based capacity",
-    "ProgressPercent": 950,
-    "FileName": "Boyle Group",
+    "Description": "Quality-focused zero tolerance installation",
+    "Response": "necessitatibus",
+    "Request": "ipsam",
+    "ProgressDescription": "User-centric methodical toolset",
+    "ProgressPercent": 231,
+    "FileName": "Monahan, Pouros and Bogan",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldType": "System.String",
+        "FieldLength": 999
       }
     }
   }

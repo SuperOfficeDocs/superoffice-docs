@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 768,
-  "Section": "assumenda",
-  "Key": "repudiandae",
-  "Name": "Zieme, Kshlerin and Mayer",
+  "PrefDescId": 77,
+  "Section": "aut",
+  "Key": "sunt",
+  "Name": "Walter, Terry and Douglas",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed disintermediate conglomeration",
+  "Description": "Front-line multi-tasking policy",
   "IsBuiltin": false,
-  "TableName": "Carroll, Larson and Torphy",
-  "UserDefinedListId": 562,
-  "Rank": 957,
+  "TableName": "Bins-Raynor",
+  "UserDefinedListId": 162,
+  "Rank": 859,
   "SubGroup": "qui",
-  "MinLevel": 163,
-  "MaxValue": 483,
-  "MinValue": 72,
-  "RequiredLicense": "laboriosam"
+  "MinLevel": 641,
+  "MaxValue": 922,
+  "MinValue": 363,
+  "RequiredLicense": "accusamus"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 173,
-  "Section": "sapiente",
-  "Key": "veniam",
-  "Name": "Jerde, Auer and Haley",
+  "PrefDescId": 77,
+  "Section": "qui",
+  "Key": "dolores",
+  "Name": "Lueilwitz-Shanahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked full-range Graphical User Interface",
-  "IsBuiltin": true,
-  "TableName": "Schulist Inc and Sons",
-  "UserDefinedListId": 449,
-  "Rank": 441,
-  "SubGroup": "nulla",
-  "MinLevel": 521,
-  "MaxValue": 111,
-  "MinValue": 219,
-  "RequiredLicense": "qui",
+  "Description": "Robust user-facing hierarchy",
+  "IsBuiltin": false,
+  "TableName": "Hauck Inc and Sons",
+  "UserDefinedListId": 681,
+  "Rank": 379,
+  "SubGroup": "quos",
+  "MinLevel": 152,
+  "MaxValue": 433,
+  "MinValue": 340,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 690
     }
   },
   "_Links": {

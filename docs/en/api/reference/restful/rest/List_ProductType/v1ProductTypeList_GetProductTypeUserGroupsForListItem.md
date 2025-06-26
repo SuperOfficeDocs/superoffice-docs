@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "O'Kon-Cremin",
-    "ToolTip": "Ducimus temporibus id nam labore quos aut.",
-    "Deleted": true,
-    "Rank": 340,
-    "Type": "ipsum",
-    "ColorBlock": 746,
-    "IconHint": "et",
+    "Id": 468,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Saepe qui laboriosam ratione qui autem.",
+    "Deleted": false,
+    "Rank": 298,
+    "Type": "voluptatibus",
+    "ColorBlock": 249,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2022-12-28T17:54:08.9917951+01:00",
+    "LastChanged": "2017-12-06T03:45:29.1549343+01:00",
     "ChildItems": [
       {
-        "Id": 282,
-        "Name": "Dickens-Mertz",
-        "ToolTip": "Et voluptas impedit repudiandae beatae incidunt corporis.",
+        "Id": 438,
+        "Name": "Bailey, Nikolaus and Kemmer",
+        "ToolTip": "Non odit fuga.",
         "Deleted": false,
-        "Rank": 995,
-        "Type": "possimus",
-        "ColorBlock": 403,
-        "IconHint": "inventore",
+        "Rank": 131,
+        "Type": "sed",
+        "ColorBlock": 151,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2003-01-15T17:54:08.9917951+01:00",
+        "LastChanged": "2002-04-15T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Monserrate Lockman",
+        "ExtraInfo": "nisi",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Jayson Loren Emmerich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 180
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Dr. Dereck Brett Mante",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mrs. Hardy Rose Crona DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 294
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Hegmann-Tillman",
-    "Tooltip": "nobis",
+    "HeadingId": 27,
+    "Name": "McGlynn-Schaden",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 306,
-    "UdListDefinitionId": 761
+    "Rank": 681,
+    "UdListDefinitionId": 648
   },
   {
-    "HeadingId": 81,
-    "Name": "Hegmann-Tillman",
-    "Tooltip": "nobis",
+    "HeadingId": 27,
+    "Name": "McGlynn-Schaden",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 306,
-    "UdListDefinitionId": 761
+    "Rank": 681,
+    "UdListDefinitionId": 648
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 978,
-    "Name": "Hilpert-Pfeffer",
-    "Tooltip": "nam",
-    "Deleted": true,
-    "Rank": 393,
-    "UdListDefinitionId": 359,
+    "HeadingId": 298,
+    "Name": "Lubowitz LLC",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "Rank": 217,
+    "UdListDefinitionId": 506,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 160
       }
     }
   }

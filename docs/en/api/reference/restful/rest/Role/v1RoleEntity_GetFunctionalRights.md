@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Rempel, Abernathy and Jenkins",
-    "ToolTip": "Repellendus qui.",
+    "Id": 429,
+    "Name": "Altenwerth, Wisozk and Deckow",
+    "ToolTip": "Qui aut qui et aliquid.",
     "Deleted": true,
-    "Rank": 748,
-    "Type": "quasi",
-    "ColorBlock": 627,
-    "IconHint": "et",
+    "Rank": 959,
+    "Type": "rerum",
+    "ColorBlock": 184,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2014-07-03T17:54:08.4293225+02:00",
+    "LastChanged": "2004-11-25T03:45:28.5453063+01:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Hirthe, Fadel and Effertz",
-        "ToolTip": "Laboriosam hic tempora sunt.",
-        "Deleted": false,
-        "Rank": 107,
-        "Type": "et",
-        "ColorBlock": 370,
-        "IconHint": "qui",
+        "Id": 196,
+        "Name": "Powlowski, McCullough and Swaniawski",
+        "ToolTip": "Nihil suscipit similique eius molestias officia hic.",
+        "Deleted": true,
+        "Rank": 206,
+        "Type": "omnis",
+        "ColorBlock": 447,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2017-08-27T17:54:08.4293225+02:00",
+        "LastChanged": "2016-08-26T03:45:28.5453063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quasi",
+        "ExtraInfo": "non",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Gilberto Diego Ortiz I",
+        "FullName": "Miss Grayce Steuber DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 164
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "quasi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Vesta Lemke",
+    "FullName": "Cortney Ritchie Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

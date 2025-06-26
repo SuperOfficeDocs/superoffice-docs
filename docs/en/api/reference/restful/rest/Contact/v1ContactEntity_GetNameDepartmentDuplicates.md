@@ -29,7 +29,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=adipisci
+GET /api/v1/Contact/Duplicates/{name}?department=provident
 ```
 
 
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stokes Group",
-    "SoPrimaryKey": 332,
-    "EntryName": "Ratke-Breitenberg",
-    "EntryIdentifier": "possimus",
-    "RuleDisplayName": "Emmerich-Kozey",
+    "RuleName": "Trantow-Herzog",
+    "SoPrimaryKey": 396,
+    "EntryName": "McCullough-Bechtelar",
+    "EntryIdentifier": "velit",
+    "RuleDisplayName": "Fadel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 914
       }
     }
   }

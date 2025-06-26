@@ -131,6 +131,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteVersionButtonAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteVersionState@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagSchedule@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientSorting@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceDailyPattern@,SuperOffice.Data.SQL.FieldInfo)
@@ -5959,6 +5961,62 @@ items:
   nameWithType.vb: RowValidator.ValidateField(AiTextStyle, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AiTextStyle, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(AiTextStyle, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.RagType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref RagType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref RagType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.RagType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref RagType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.RagType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As RagType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(RagType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(RagType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagSchedule@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagSchedule@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.RagSchedule@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref RagSchedule, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref RagSchedule, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.RagSchedule, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref RagSchedule field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.RagSchedule
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As RagSchedule, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(RagSchedule, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RagSchedule, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(RagSchedule, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.HtmlSanitizerOptions@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.HtmlSanitizerOptions@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.HtmlSanitizerOptions@,SuperOffice.Data.SQL.FieldInfo)
@@ -10333,6 +10391,22 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
+- uid: SuperOffice.Data.RagType
+  commentId: T:SuperOffice.Data.RagType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.Data.RagType
+- uid: SuperOffice.Data.RagSchedule
+  commentId: T:SuperOffice.Data.RagSchedule
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.RagSchedule.html
+  name: RagSchedule
+  nameWithType: RagSchedule
+  fullName: SuperOffice.Data.RagSchedule
 - uid: SuperOffice.Data.HtmlSanitizerOptions
   commentId: T:SuperOffice.Data.HtmlSanitizerOptions
   parent: SuperOffice.Data

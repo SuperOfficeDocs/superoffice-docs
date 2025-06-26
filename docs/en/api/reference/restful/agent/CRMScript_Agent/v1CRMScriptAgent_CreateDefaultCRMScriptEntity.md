@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 567,
-  "UniqueIdentifier": "quia",
-  "Name": "Waters Inc and Sons",
-  "Description": "Persevering 5th generation instruction set",
-  "IncludeId": "quidem",
-  "AccessKey": "dolor",
-  "HierarchyId": 321,
-  "Source": "alias",
-  "SourceCode": "voluptatem",
+  "EjscriptId": 143,
+  "UniqueIdentifier": "repellat",
+  "Name": "Dooley-Gibson",
+  "Description": "Optimized cohesive challenge",
+  "IncludeId": "aliquid",
+  "AccessKey": "eum",
+  "HierarchyId": 935,
+  "Source": "quidem",
+  "SourceCode": "sint",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 86,
+  "HtmlOutput": 581,
   "Includes": [
-    845,
-    360
+    751,
+    183
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 873,
-      "LineNumberTo": 293,
-      "Delta": 242,
-      "IncludeId": "tempore",
+      "LineNumberFrom": 203,
+      "LineNumberTo": 541,
+      "Delta": 368,
+      "IncludeId": "minima",
       "IncludedFrom": [
-        "sit",
-        "debitis"
+        "labore",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 591
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2010-08-20T17:54:02.9139671+02:00",
-  "RegisteredAssociateId": 426,
-  "Updated": "2006-10-14T17:54:02.9139671+02:00",
-  "UpdatedAssociateId": 289,
+  "Registered": "2016-02-13T03:45:23.2329582+01:00",
+  "RegisteredAssociateId": 832,
+  "Updated": "2010-02-18T03:45:23.2329582+01:00",
+  "UpdatedAssociateId": 997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 607
     }
   }
 }

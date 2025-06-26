@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Hills Inc and Sons",
-  "Tooltip": "inventore",
+  "Id": 706,
+  "Name": "Pagac Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 630,
+  "UdListDefinitionId": 382,
+  "Rank": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

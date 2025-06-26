@@ -933,6 +933,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
+|request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
 |request/createdByWorkflow| *None* |Created by flow: Created by flow| x |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name| x |
@@ -955,11 +956,11 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdBy/assocTooltip| *None* |Created by - Description: Description|  |
 |request/createdBy/assocType| *None* |Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId| *None* |Created by - Service user ID: The database ID of a Service user|  |
-|request/createdBy/simultaneousEjUser| *None* |Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/simultaneousEjUser| *None* |Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |request/createdBy/ejDisplayName| *None* |Created by - Nick name: User's nick name in Service| x |
 |request/createdBy/ejStatus| *None* |Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
@@ -1059,11 +1060,11 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/projectAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1163,11 +1164,11 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-|personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
@@ -1267,11 +1268,11 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/registeredBy| *None* |Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |workflowInstance/emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow| x |
-|workflowInstance/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|workflowInstance/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?| x |
 |workflowInstance/emailFlow/thumbnail| *None* |Thumbnail|  |
@@ -1371,11 +1372,11 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/quoteline/quoteLineId| *None* |Quote line ID: Database identity of the quote line| x |
 |sale/quote/version/alternative/quoteline/quoteAlternativeId| *None* |Alternative ID: The database identity of the quote alternative| x |
 |sale/quote/version/alternative/quoteline/erpProductKey| *None* |Product key: The foreign key of the product the quote line is based on.| x |
-|sale/quote/version/alternative/quoteline/rank| *None* |Rank: Shows the rank of a product| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/rank| *None* |Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity| *None* |Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name| *None* |Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
 |sale/quote/version/alternative/quoteline/description| *None* |Description: Description of the product that is offered| x |
@@ -1419,7 +1420,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=sale/stalledComment,sale/description,sale/saleUdef/SuperOffice:7,document/associate/otherGroups,personAssociate/fullName
+GET /api/v1/archive/ContactPersonSelectionV2?$select=sourceRelation/department,sourceRelation/contactNoMail,sale/associate/role,document/associate/ejUserId,personNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

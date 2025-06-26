@@ -90,17 +90,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 927,
-  "Name": "Mosciski Group",
-  "ContentType": "corporis",
-  "AttSize": 664,
+  "AttachmentId": 639,
+  "Name": "Runte Group",
+  "ContentType": "recusandae",
+  "AttSize": 139,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "praesentium",
+  "ContentId": "saepe",
+  "AuthKey": "quae",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 899,
-  "Name": "Reichert, Kuhic and Stroman",
-  "ContentType": "est",
-  "AttSize": 398,
+  "AttachmentId": 535,
+  "Name": "Kirlin-Kertzmann",
+  "ContentType": "nihil",
+  "AttSize": 555,
   "InlineImage": false,
-  "ContentId": "dolores",
-  "AuthKey": "et",
+  "ContentId": "quidem",
+  "AuthKey": "fuga",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 740
     }
   },
   "_Links": {

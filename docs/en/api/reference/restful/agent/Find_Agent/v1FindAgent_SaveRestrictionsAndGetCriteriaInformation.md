@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempora",
-  "ProviderName": "Larson-Bruen",
-  "StorageKey": "et",
+  "StorageType": "ad",
+  "ProviderName": "Pacocha LLC",
+  "StorageKey": "quisquam",
   "Restrictions": [
     {
-      "Name": "Ondricka Inc and Sons",
-      "Operator": "dolores",
+      "Name": "Beatty-Bernier",
+      "Operator": "enim",
       "Values": [
-        "eaque",
-        "provident"
+        "dolor",
+        "sit"
       ],
       "DisplayValues": [
-        "dignissimos",
-        "facilis"
+        "nulla",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 913,
+      "InterParenthesis": 821,
       "InterOperator": "And",
-      "UniqueHash": 33
+      "UniqueHash": 516
     }
   ],
   "StaticColumns": [
-    "rerum",
-    "aut"
+    "molestias",
+    "molestiae"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schroeder Group",
-      "Operator": "nihil",
+      "Name": "Satterfield, Bogisich and Crist",
+      "Operator": "quis",
       "Values": [
-        "nemo",
-        "sit"
+        "natus",
+        "officiis"
       ],
       "DisplayValues": [
-        "esse",
-        "ut"
+        "animi",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 782,
+      "InterParenthesis": 129,
       "InterOperator": "And",
-      "UniqueHash": 453
+      "UniqueHash": 914
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Fisher LLC",
-      "DisplayTooltip": "perferendis",
-      "DisplayType": "natus",
-      "CanOrderBy": false,
-      "Name": "Corkery, Crist and Ryan",
+      "DisplayName": "Mayert, Leannon and Senger",
+      "DisplayTooltip": "iure",
+      "DisplayType": "nostrum",
+      "CanOrderBy": true,
+      "Name": "Hoeger Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Jerde-Bednar",
+      "RestrictionType": "impedit",
+      "RestrictionListName": "Howell, Hermann and Kulas",
       "IsVisible": false,
-      "ExtraInfo": "odit",
-      "Width": "debitis",
-      "IconHint": "animi",
-      "HeadingIconHint": "ipsum"
+      "ExtraInfo": "dolores",
+      "Width": "ut",
+      "IconHint": "explicabo",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ruecker Group",
-      "PrimaryKey": 744,
+      "EntityName": "Jakubowski, Jakubowski and Kihn",
+      "PrimaryKey": 415,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "distinctio",
-          "LinkHint": "culpa"
+          "DisplayValue": "eos",
+          "TooltipHint": "atque",
+          "LinkHint": "autem"
         }
       },
-      "LinkHint": "iusto",
-      "StyleHint": "et",
+      "LinkHint": "eligendi",
+      "StyleHint": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldLength": 202
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Keeling-Lehner",
-      "Description": "Profit-focused demand-driven time-frame",
-      "Rank": 846,
+      "Name": "Christiansen-Bruen",
+      "Description": "Horizontal full-range challenge",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Keeling-Lehner",
-      "Description": "Profit-focused demand-driven time-frame",
-      "Rank": 846,
+      "Name": "Christiansen-Bruen",
+      "Description": "Horizontal full-range challenge",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 642
     }
   }
 }

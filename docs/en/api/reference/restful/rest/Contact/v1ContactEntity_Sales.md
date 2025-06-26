@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=sit
-GET /api/v1/Contact/{id}/Sales?$top=139
-GET /api/v1/Contact/{id}/Sales?$skip=141
+GET /api/v1/Contact/{id}/Sales?$entities=sunt
+GET /api/v1/Contact/{id}/Sales?$top=733
+GET /api/v1/Contact/{id}/Sales?$skip=674
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=ipsum
+GET /api/v1/Contact/{id}/Sales?$context=ullam
 GET /api/v1/Contact/{id}/Sales?$format=JSON
-GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
+GET /api/v1/Contact/{id}/Sales?$jsonSafe=True
 GET /api/v1/Contact/{id}/Sales?$output=Display
 ```
 
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "dicta",
   "value": [
     {
-      "PrimaryKey": 8792,
-      "EntityName": "sale",
-      "saleId": 8792,
-      "contactId": 4144,
-      "name": "Grady-Hartmann"
+      "PrimaryKey": 9282,
+      "EntityName": "person",
+      "personId": 9282,
+      "fullName": "Amelia Treutel"
     },
     {
-      "PrimaryKey": 931,
-      "EntityName": "sale",
-      "saleId": 931,
-      "contactId": 1782,
-      "name": "Sawayn, Johns and Metz"
+      "PrimaryKey": 1228,
+      "EntityName": "person",
+      "personId": 1228,
+      "fullName": "Willie Friesen"
     }
   ]
 }

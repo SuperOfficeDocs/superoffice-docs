@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 150,
-    "Name": "Kihn, Friesen and Okuneva",
-    "Tooltip": "quis",
+    "HeadingId": 532,
+    "Name": "Frami, Cole and Sawayn",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 691,
-    "UdListDefinitionId": 208
+    "Rank": 762,
+    "UdListDefinitionId": 722
   },
   {
-    "HeadingId": 150,
-    "Name": "Kihn, Friesen and Okuneva",
-    "Tooltip": "quis",
+    "HeadingId": 532,
+    "Name": "Frami, Cole and Sawayn",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 691,
-    "UdListDefinitionId": 208
+    "Rank": 762,
+    "UdListDefinitionId": 722
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 571,
-    "Name": "Friesen LLC",
-    "Tooltip": "rem",
+    "HeadingId": 249,
+    "Name": "Auer, Rohan and Cruickshank",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 869,
-    "UdListDefinitionId": 504,
+    "Rank": 1000,
+    "UdListDefinitionId": 656,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 728
       }
     }
   }

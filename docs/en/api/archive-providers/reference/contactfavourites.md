@@ -208,7 +208,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=contactExtra/x_contact_contact_relation,streetAddress/addressId,contactAssociate/contactId
+GET /api/v1/archive/contactfavourites?$select=restrictionAddress/state,NumberOfNotCompletedSales,SaintStatus1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

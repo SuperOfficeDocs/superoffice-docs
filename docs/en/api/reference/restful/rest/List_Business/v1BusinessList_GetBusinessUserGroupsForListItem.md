@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Sipes Group",
-    "ToolTip": "Ea nesciunt.",
+    "Id": 913,
+    "Name": "Gaylord LLC",
+    "ToolTip": "Qui debitis nihil quaerat.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "quas",
-    "ColorBlock": 437,
-    "IconHint": "debitis",
-    "Selected": true,
-    "LastChanged": "2011-11-25T17:54:08.7886801+01:00",
+    "Rank": 280,
+    "Type": "similique",
+    "ColorBlock": 927,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2020-07-06T03:45:28.9671778+02:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Collins, Mueller and Mills",
-        "ToolTip": "Eum facilis sed expedita quam.",
+        "Id": 607,
+        "Name": "Ledner, Homenick and Simonis",
+        "ToolTip": "Aperiam quas sunt.",
         "Deleted": false,
-        "Rank": 621,
-        "Type": "eos",
-        "ColorBlock": 58,
-        "IconHint": "rerum",
+        "Rank": 485,
+        "Type": "ipsum",
+        "ColorBlock": 485,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2017-02-27T17:54:08.7886801+01:00",
+        "LastChanged": "2004-01-29T03:45:28.9671778+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "sint",
+        "ExtraInfo": "et",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Shea Kozey",
+        "FullName": "Miss Earnest Ryan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 676
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Dr. Rashawn Connelly",
+    "ExtraInfo": "iusto",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Mr. Jeramy Schamberger DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

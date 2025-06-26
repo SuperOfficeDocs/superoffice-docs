@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
   langs:
@@ -89,6 +90,13 @@ references:
   name: ImportProductImageBatchPlugin
   nameWithType: ImportProductImageBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html
+  name: RagUpdatePlugin
+  nameWithType: RagUpdatePlugin
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   isExternal: true

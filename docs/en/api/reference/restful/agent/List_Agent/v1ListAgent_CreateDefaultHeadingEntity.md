@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 15,
-  "Name": "Koss-Osinski",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 470,
-  "UdListDefinitionId": 537,
+  "HeadingId": 993,
+  "Name": "Kihn, Watsica and Cummings",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 236,
+  "UdListDefinitionId": 842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldLength": 190
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Roob Inc and Sons",
-    "ToolTip": "Eligendi nulla sequi.",
-    "Deleted": true,
-    "Rank": 996,
-    "Type": "voluptates",
+    "Id": 112,
+    "Name": "Abernathy-Jacobson",
+    "ToolTip": "Aut sunt autem aut aut qui.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Kuhic-Hudson",
-        "ToolTip": "Error iste quia sequi ut ea harum.",
-        "Deleted": false,
-        "Rank": 44,
-        "Type": "eum",
+        "Id": 822,
+        "Name": "Lynch-Koss",
+        "ToolTip": "Omnis iste rerum soluta corrupti.",
+        "Deleted": true,
+        "Rank": 387,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 672,
-        "ExtraInfo": "id",
-        "StyleHint": "aspernatur",
-        "FullName": "Wilber Thompson",
+        "IconHint": "optio",
+        "ColorBlock": 612,
+        "ExtraInfo": "optio",
+        "StyleHint": "et",
+        "FullName": "Percival Johnathan Hamill IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 777
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 226,
-    "ExtraInfo": "eligendi",
-    "StyleHint": "praesentium",
-    "FullName": "Prof. Adolf Ettie Breitenberg IV",
+    "IconHint": "magnam",
+    "ColorBlock": 647,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "itaque",
+    "FullName": "Dr. Raegan Adams II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

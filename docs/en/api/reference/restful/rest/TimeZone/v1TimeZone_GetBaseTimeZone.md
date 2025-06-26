@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 15,
-  "Name": "Schuster Inc and Sons",
-  "TZLocationCode": "aspernatur",
-  "TZLocationCities": "quia",
-  "IsoNumber": 64,
+  "TZLocationID": 481,
+  "Name": "Beier-Kulas",
+  "TZLocationCode": "eaque",
+  "TZLocationCities": "omnis",
+  "IsoNumber": 927,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 549,
-      "StartMonth": 287,
-      "EndDay": 530,
-      "EndMonth": 625,
-      "TZOffset": 188,
-      "StartRulePattern": "laudantium",
-      "EndRulePattern": "quam"
+      "StartDay": 691,
+      "StartMonth": 490,
+      "EndDay": 987,
+      "EndMonth": 936,
+      "TZOffset": 806,
+      "StartRulePattern": "aut",
+      "EndRulePattern": "repudiandae"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 896,
-      "StartMonth": 530,
-      "EndDay": 806,
-      "EndMonth": 884,
-      "TZOffset": 316,
-      "StartRulePattern": "quae",
-      "EndRulePattern": "corporis"
+      "StartDay": 874,
+      "StartMonth": 663,
+      "EndDay": 344,
+      "EndMonth": 460,
+      "TZOffset": 605,
+      "StartRulePattern": "et",
+      "EndRulePattern": "consequatur"
     }
   }
 }

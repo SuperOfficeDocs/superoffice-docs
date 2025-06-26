@@ -490,7 +490,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/personAssociate/ejDisplayName,person/correspondingAssociate/credentialDisplayValue,accountAssociate/portraitThumbnail
+GET /api/v1/archive/Mail2?$select=person/position,person/personAssociate/ejUserId,person/personAssociate/portraitThumbnail,person/hasEmarketingConsent,contact/postAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 598,
-    "Name": "Jerde, Torp and Schinner",
-    "Tooltip": "atque",
+    "HeadingId": 794,
+    "Name": "Kiehn, Bartoletti and Moore",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 38,
+    "Rank": 54,
+    "UdListDefinitionId": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

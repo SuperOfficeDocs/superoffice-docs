@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "deleniti",
-  "ProviderName": "Howe Inc and Sons",
-  "DesiredColumns": "rem",
-  "PageSize": 318,
-  "PageNumber": 877
+  "Restrictions": "natus",
+  "ProviderName": "Padberg LLC",
+  "DesiredColumns": "nisi",
+  "PageSize": 630,
+  "PageNumber": 52
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Keeling-Quitzon",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "quidem",
+      "DisplayName": "Schinner Group",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "ut",
       "CanOrderBy": true,
-      "Name": "Pfeffer, Lockman and Schmidt",
-      "CanRestrictBy": true,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Abshire LLC",
+      "Name": "Mueller-Konopelski",
+      "CanRestrictBy": false,
+      "RestrictionType": "culpa",
+      "RestrictionListName": "McKenzie-O'Reilly",
       "IsVisible": true,
-      "ExtraInfo": "optio",
-      "Width": "quisquam",
-      "IconHint": "laborum",
-      "HeadingIconHint": "ipsum"
+      "ExtraInfo": "aliquid",
+      "Width": "debitis",
+      "IconHint": "recusandae",
+      "HeadingIconHint": "tempore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bashirian Group",
-      "PrimaryKey": 538,
+      "EntityName": "Buckridge, Roob and Stracke",
+      "PrimaryKey": 336,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
+          "DisplayValue": "et",
           "TooltipHint": "eveniet",
-          "LinkHint": "doloribus"
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "soluta",
+      "LinkHint": "quaerat",
+      "StyleHint": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 600
         }
       }
     }
   ],
-  "RowCount": 895,
+  "RowCount": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 528
     }
   }
 }

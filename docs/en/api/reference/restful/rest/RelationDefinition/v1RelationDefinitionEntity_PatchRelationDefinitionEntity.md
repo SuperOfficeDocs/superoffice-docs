@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "fuga",
     "value": {}
   },
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "fuga",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 460,
-  "Name": "Huel-Moore",
-  "Tooltip": "rem",
-  "PassiveText": "tenetur",
-  "Deleted": true,
-  "Rank": 886,
+  "ReldefId": 90,
+  "Name": "Powlowski-Parisian",
+  "Tooltip": "et",
+  "PassiveText": "dolorem",
+  "Deleted": false,
+  "Rank": 960,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

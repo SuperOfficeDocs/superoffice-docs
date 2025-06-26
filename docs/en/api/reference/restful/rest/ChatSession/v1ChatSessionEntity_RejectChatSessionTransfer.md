@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 288,
-  "TopicId": 902,
+  "ChatSessionId": 256,
+  "TopicId": 323,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "deleniti",
-  "CustomerName": "Schulist, West and Swift",
-  "CustomerEmail": "abraham@kemmer.co.uk",
-  "CustomerPhone": "1-386-698-8017",
+  "CustomerAlias": "sit",
+  "CustomerHost": "consectetur",
+  "CustomerName": "Bartell-Bode",
+  "CustomerEmail": "frankie@maggio.co.uk",
+  "CustomerPhone": "190-042-2165",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Rolfson, Kub and Gleichner",
+  "CustomerCompanyName": "Gottlieb-Murphy",
   "Status": "Closed",
-  "FirstMessage": "ratione",
-  "LastMessage": "consectetur",
-  "WhenRequested": "2004-03-16T17:54:08.0230932+01:00",
-  "WhenStarted": "1999-09-18T17:54:08.0230932+02:00",
-  "WhenEnded": "2013-12-05T17:54:08.0230932+01:00",
-  "WhenIdle": "2010-10-17T17:54:08.0230932+02:00",
-  "WhenFetched": "2008-10-18T17:54:08.0230932+02:00",
-  "SessionKey": "deleniti",
-  "InitialQueuePos": 729,
-  "AlertLevel": 271,
-  "Rank": 506,
+  "FirstMessage": "deleniti",
+  "LastMessage": "eum",
+  "WhenRequested": "2008-04-14T03:45:28.1390717+02:00",
+  "WhenStarted": "2020-02-22T03:45:28.1390717+01:00",
+  "WhenEnded": "2016-08-28T03:45:28.1390717+02:00",
+  "WhenIdle": "2006-05-20T03:45:28.1390717+02:00",
+  "WhenFetched": "2020-12-01T03:45:28.1390717+01:00",
+  "SessionKey": "inventore",
+  "InitialQueuePos": 385,
+  "AlertLevel": 17,
+  "Rank": 994,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 556,
+  "ChatbotIsActive": true,
+  "Rating": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 445
     }
   }
 }

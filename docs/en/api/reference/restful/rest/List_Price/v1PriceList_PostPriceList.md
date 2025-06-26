@@ -98,16 +98,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 951,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 355,
-  "Name": "Wilderman, Greenfelder and Keeling",
-  "Description": "Open-source client-server monitoring",
-  "Currency": "quasi",
-  "CurrencyName": "Turcotte, Kovacek and Gulgowski",
-  "ValidFrom": "2004-12-14T17:54:08.9605465+01:00",
-  "ValidTo": "2020-06-23T17:54:08.9605465+02:00",
-  "IsActive": false
+  "PriceListId": 418,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 767,
+  "Name": "Koss Group",
+  "Description": "Enhanced foreground core",
+  "Currency": "eos",
+  "CurrencyName": "Cummings LLC",
+  "ValidFrom": "2023-03-04T03:45:29.0765432+01:00",
+  "ValidTo": "2010-04-24T03:45:29.0765432+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 223,
-  "ERPPriceListKey": "quis",
-  "QuoteConnectionId": 972,
-  "Name": "Heller-Hammes",
-  "Description": "Adaptive tertiary ability",
-  "Currency": "non",
-  "CurrencyName": "Herman Group",
-  "ValidFrom": "1999-01-30T17:54:08.9605465+01:00",
-  "ValidTo": "2017-04-28T17:54:08.9605465+02:00",
+  "PriceListId": 342,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 68,
+  "Name": "Wiza-Swift",
+  "Description": "Optional secondary function",
+  "Currency": "quaerat",
+  "CurrencyName": "Zemlak-Schuppe",
+  "ValidFrom": "2004-10-16T03:45:29.0921677+02:00",
+  "ValidTo": "2004-11-27T03:45:29.0921677+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 490
     }
   },
   "_Links": {

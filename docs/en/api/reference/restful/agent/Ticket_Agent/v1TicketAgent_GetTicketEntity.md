@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=418
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=505
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 143,
-  "Title": "eaque",
-  "CreatedAt": "2003-04-08T17:54:03.7576907+02:00",
-  "LastChanged": "2019-11-07T17:54:03.7576907+01:00",
-  "ReadByOwner": "2002-08-07T17:54:03.7576907+02:00",
-  "ReadByCustomer": "2012-12-15T17:54:03.7576907+01:00",
-  "FirstReadByOwner": "2012-12-15T17:54:03.7576907+01:00",
-  "FirstReadByUser": "2021-01-16T17:54:03.7576907+01:00",
-  "Activate": "2025-04-17T17:54:03.7576907+02:00",
-  "ClosedAt": "2025-01-14T17:54:03.7576907+01:00",
-  "RepliedAt": "2003-03-24T17:54:03.7576907+01:00",
-  "AlertTimeout": "2005-08-27T17:54:03.7576907+02:00",
-  "Deadline": "2023-08-23T17:54:03.7576907+02:00",
+  "TicketId": 597,
+  "Title": "vitae",
+  "CreatedAt": "2002-02-22T03:45:24.0454344+01:00",
+  "LastChanged": "2023-08-11T03:45:24.0454344+02:00",
+  "ReadByOwner": "2004-08-31T03:45:24.0454344+02:00",
+  "ReadByCustomer": "2006-09-01T03:45:24.0454344+02:00",
+  "FirstReadByOwner": "2022-02-22T03:45:24.0454344+01:00",
+  "FirstReadByUser": "2021-04-23T03:45:24.0454344+02:00",
+  "Activate": "2014-03-08T03:45:24.0454344+01:00",
+  "ClosedAt": "2007-01-18T03:45:24.0454344+01:00",
+  "RepliedAt": "2001-09-15T03:45:24.0454344+02:00",
+  "AlertTimeout": "2020-08-01T03:45:24.0454344+02:00",
+  "Deadline": "2015-01-24T03:45:24.0454344+01:00",
   "CreatedBy": null,
-  "Author": "odio",
+  "Author": "illum",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -159,163 +159,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "animi",
-      "PersonId": 851,
-      "Mrmrs": "molestiae",
-      "Firstname": "Scarlett",
-      "Lastname": "Feest",
-      "MiddleName": "Walter Group",
-      "Title": "est",
-      "Description": "Reduced radical monitoring",
-      "Email": "ladarius@borernitzsche.us",
-      "FullName": "Claud Pouros",
-      "DirectPhone": "(488)379-2004",
-      "FormalName": "Okuneva LLC",
-      "CountryId": 40,
-      "ContactId": 502,
-      "ContactName": "Willms Inc and Sons",
-      "Retired": 31,
-      "Rank": 859,
-      "ActiveInterests": 858,
-      "ContactDepartment": "benchmark transparent deliverables",
-      "ContactCountryId": 328,
-      "ContactOrgNr": "404337",
-      "FaxPhone": "1-924-162-6762 x5249",
-      "MobilePhone": "1-175-619-5478",
-      "ContactPhone": "513-485-3701",
-      "AssociateName": "Botsford LLC",
-      "AssociateId": 595,
+      "Position": "ut",
+      "PersonId": 391,
+      "Mrmrs": "et",
+      "Firstname": "Lera",
+      "Lastname": "Reilly",
+      "MiddleName": "Sanford, Torphy and Mante",
+      "Title": "reprehenderit",
+      "Description": "Customer-focused disintermediate attitude",
+      "Email": "serena@wilkinson.ca",
+      "FullName": "Rubie Jonatan Fisher MD",
+      "DirectPhone": "752-708-3974 x222",
+      "FormalName": "Welch, Thiel and Bartell",
+      "CountryId": 963,
+      "ContactId": 621,
+      "ContactName": "Ryan, Schiller and Hilll",
+      "Retired": 536,
+      "Rank": 686,
+      "ActiveInterests": 155,
+      "ContactDepartment": "",
+      "ContactCountryId": 927,
+      "ContactOrgNr": "917487",
+      "FaxPhone": "1-523-244-6216 x29212",
+      "MobilePhone": "153.583.4423 x984",
+      "ContactPhone": "574.595.8636 x22963",
+      "AssociateName": "Friesen, Thiel and Schinner",
+      "AssociateId": 685,
       "UsePersonAddress": false,
-      "ContactFax": "id",
-      "Kanafname": "officiis",
-      "Kanalname": "ducimus",
-      "Post1": "sed",
-      "Post2": "repellendus",
-      "Post3": "ipsa",
-      "EmailName": "michele_goodwin@abshire.uk",
-      "ContactFullName": "Stefanie Kuhn MD",
-      "ActiveErpLinks": 466,
-      "TicketPriorityId": 408,
-      "SupportLanguageId": 882,
-      "SupportAssociateId": 786,
+      "ContactFax": "iure",
+      "Kanafname": "dignissimos",
+      "Kanalname": "hic",
+      "Post1": "non",
+      "Post2": "corporis",
+      "Post3": "iusto",
+      "EmailName": "frankie.huels@walkerjohnson.biz",
+      "ContactFullName": "Kasandra Crooks",
+      "ActiveErpLinks": 959,
+      "TicketPriorityId": 68,
+      "SupportLanguageId": 199,
+      "SupportAssociateId": 945,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1360445",
+      "PersonNumber": "1754942",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldLength": 810
         }
       }
     }
   ],
-  "AlertLevel": 748,
-  "ConnectId": 520,
+  "AlertLevel": 8,
+  "ConnectId": 699,
   "ReadStatus": "Green",
-  "TimeToReply": 647,
-  "RealTimeToReply": 391,
-  "TimeToClose": 718,
-  "RealTimeToClose": 876,
-  "TimeSpentInternally": 702,
-  "TimeSpentExternally": 701,
-  "TimeSpentQueue": 908,
-  "RealTimeSpentInternally": 739,
-  "RealTimeSpentExternally": 890,
-  "RealTimeSpentQueue": 522,
-  "TimeSpent": 649,
+  "TimeToReply": 415,
+  "RealTimeToReply": 567,
+  "TimeToClose": 318,
+  "RealTimeToClose": 133,
+  "TimeSpentInternally": 251,
+  "TimeSpentExternally": 361,
+  "TimeSpentQueue": 636,
+  "RealTimeSpentInternally": 576,
+  "RealTimeSpentExternally": 597,
+  "RealTimeSpentQueue": 486,
+  "TimeSpent": 209,
   "HasAttachment": false,
-  "NumReplies": 988,
-  "NumMessages": 578,
-  "FromAddress": "aperiam",
+  "NumReplies": 399,
+  "NumMessages": 16,
+  "FromAddress": "ut",
   "Messages": [
     {
-      "TicketMessageId": 91,
-      "CreatedAt": "1998-03-27T17:54:03.7576907+01:00",
+      "TicketMessageId": 574,
+      "CreatedAt": "2000-07-28T03:45:24.0454344+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "necessitatibus",
-      "PersonId": 365,
-      "PersonFullName": "Miss Shirley Corwin I",
-      "ContactId": 20,
-      "ContactName": "Ledner LLC",
+      "Important": true,
+      "Author": "omnis",
+      "PersonId": 733,
+      "PersonFullName": "Miss Casandra Jane Lueilwitz",
+      "ContactId": 448,
+      "ContactName": "McDermott Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 95,
-      "EmailHeader": "arnaldo@zboncak.uk",
+      "NumAttachments": 302,
+      "EmailHeader": "julianne@wilkinson.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "eaque",
-      "Sentiment": 469,
-      "SentimentConfidence": 686,
-      "CreatedBy": 966,
-      "ChangedAt": "2018-07-03T17:54:03.7576907+02:00",
+      "Language": "quam",
+      "Sentiment": 580,
+      "SentimentConfidence": 470,
+      "CreatedBy": 935,
+      "ChangedAt": "2010-02-03T03:45:24.0454344+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 938
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 860,
-      "Name": "Donnelly, Gutmann and Larson",
-      "ToolTip": "Quo facilis.",
+      "Id": 881,
+      "Name": "Osinski LLC",
+      "ToolTip": "Ut odio et et dolorem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     },
     {
-      "Id": 860,
-      "Name": "Donnelly, Gutmann and Larson",
-      "ToolTip": "Quo facilis.",
+      "Id": 881,
+      "Name": "Osinski LLC",
+      "ToolTip": "Ut odio et et dolorem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
   ],
-  "Language": "pariatur",
-  "Sentiment": 718,
-  "SentimentConfidence": 270,
-  "SuggestedCategoryId": 360,
+  "Language": "tenetur",
+  "Sentiment": 150,
+  "SentimentConfidence": 193,
+  "SuggestedCategoryId": 168,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 101,
-  "IconHint": "autem",
+  "OrigHumanCategoryId": 82,
+  "IconHint": "fugiat",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 271,
+  "ActiveStatusMonitorId": 739,
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "provident"
+    "CustomFields1": "quidem",
+    "CustomFields2": "recusandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldLength": 8
     }
   }
 }

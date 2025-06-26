@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 136,
-  "BlobSize": 781,
-  "Description": "Object-based national toolset",
-  "ExtraInfo": "reiciendis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 758,
-  "CreatedDate": "2020-09-13T17:54:08.3824501+02:00",
-  "UpdatedDate": "2004-07-25T17:54:08.3824501+02:00",
+  "BlobId": 893,
+  "BlobSize": 693,
+  "Description": "Managed value-added emulation",
+  "ExtraInfo": "nostrum",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 109,
+  "CreatedDate": "2008-12-26T03:45:28.4984325+01:00",
+  "UpdatedDate": "2009-09-15T03:45:28.4984325+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sequi"
+  "ConceptualType": "neque"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 995,
-  "BlobSize": 810,
-  "Description": "Virtual systemic emulation",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 514,
+  "BlobSize": 383,
+  "Description": "Up-sized dedicated solution",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 356,
-  "CreatedDate": "2023-04-30T17:54:08.3824501+02:00",
-  "UpdatedDate": "2024-01-30T17:54:08.3824501+01:00",
+  "MimeType": "rerum",
+  "OriginalSize": 512,
+  "CreatedDate": "2012-07-11T03:45:28.4984325+02:00",
+  "UpdatedDate": "2015-01-30T03:45:28.4984325+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

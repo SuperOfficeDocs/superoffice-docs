@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Purdy Group",
-  "ProviderName": "Roberts Group"
+  "GuiName": "Kessler Group",
+  "ProviderName": "Lemke, Leannon and Sipes"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Johnson LLC",
-      "DisplayTooltip": "necessitatibus",
-      "DisplayType": "eum",
+      "DisplayName": "Shields, Stamm and Roberts",
+      "DisplayTooltip": "vel",
+      "DisplayType": "autem",
       "CanOrderBy": true,
-      "Name": "Nader, Wintheiser and Bergstrom",
+      "Name": "Macejkovic-Feeney",
       "CanRestrictBy": false,
-      "RestrictionType": "dolor",
-      "RestrictionListName": "Bogan-Corwin",
+      "RestrictionType": "distinctio",
+      "RestrictionListName": "Stroman-Hirthe",
       "IsVisible": false,
-      "ExtraInfo": "eveniet",
-      "Width": "nesciunt",
-      "IconHint": "eos",
-      "HeadingIconHint": "asperiores"
+      "ExtraInfo": "in",
+      "Width": "quae",
+      "IconHint": "explicabo",
+      "HeadingIconHint": "accusantium"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 304,
-      "Name": "Sporer Inc and Sons",
-      "ToolTip": "Vero necessitatibus aut nesciunt omnis.",
-      "Deleted": false,
-      "Rank": 202,
-      "Type": "sit",
-      "ColorBlock": 184,
-      "IconHint": "laboriosam",
-      "Selected": false,
-      "LastChanged": "2023-05-22T17:54:02.6483551+02:00",
+      "Id": 793,
+      "Name": "Stamm-Lind",
+      "ToolTip": "Dignissimos eaque possimus.",
+      "Deleted": true,
+      "Rank": 860,
+      "Type": "deleniti",
+      "ColorBlock": 851,
+      "IconHint": "illum",
+      "Selected": true,
+      "LastChanged": "2006-03-30T03:45:22.967341+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "unde",
+      "ExtraInfo": "et",
+      "StyleHint": "facilis",
       "Hidden": false,
-      "FullName": "Veronica Funk DDS",
+      "FullName": "Tillman Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 759
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Fritsch Group",
+      "Name": "Dooley, Emard and Hoppe",
       "Direction": "ASC"
     },
     {
-      "Name": "Fritsch Group",
+      "Name": "Dooley, Emard and Hoppe",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "nostrum",
+  "OwnerKeys": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 591
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommandsAsync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang-Osinski",
-    "DisplayName": "Wyman, Christiansen and Jast",
-    "Description": "Configurable reciprocal ability",
-    "ToolTip": "Sint aspernatur qui voluptatum est et.",
+    "Name": "Fritsch-Goyette",
+    "DisplayName": "Luettgen, Reichert and Cremin",
+    "Description": "Organized dedicated protocol",
+    "ToolTip": "Illum quaerat saepe aut.",
     "Actions": "Implicit",
-    "ActionData": "odio",
+    "ActionData": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 713
       }
     }
   }

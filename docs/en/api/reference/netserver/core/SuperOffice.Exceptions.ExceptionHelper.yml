@@ -5,6 +5,7 @@ items:
   id: ExceptionHelper
   parent: SuperOffice.Exceptions
   children:
+  - SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
   - SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
   - SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   - SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
@@ -228,6 +229,35 @@ items:
   nameWithType.vb: ExceptionHelper.SimpleMessageStack(Exception, String)
   fullName.vb: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, String)
   name.vb: SimpleMessageStack(Exception, String)
+- uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  id: DeepMessageStack(System.Exception,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: DeepMessageStack(Exception, string)
+  nameWithType: ExceptionHelper.DeepMessageStack(Exception, string)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public static string DeepMessageStack(this Exception ex, string separator = "\n")
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: separator
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function DeepMessageStack(ex As Exception, separator As String = vbLf) As String
+  overload: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack*
+  nameWithType.vb: ExceptionHelper.DeepMessageStack(Exception, String)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, String)
+  name.vb: DeepMessageStack(Exception, String)
 - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   id: Enumerate(System.Exception)
@@ -702,6 +732,13 @@ references:
   name: SimpleMessageStack
   nameWithType: ExceptionHelper.SimpleMessageStack
   fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+- uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  name: DeepMessageStack
+  nameWithType: ExceptionHelper.DeepMessageStack
+  fullName: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack
 - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate*
   commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.Enumerate
   isExternal: true

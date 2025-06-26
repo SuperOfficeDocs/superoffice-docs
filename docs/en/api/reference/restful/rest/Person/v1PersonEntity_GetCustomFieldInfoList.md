@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mayert-Schoen",
-    "DisplayName": "Rath Inc and Sons",
-    "Description": "Mandatory hybrid functionalities",
-    "ShortLabel": "aut",
+    "FieldName": "Gusikowski, Roberts and Schmidt",
+    "DisplayName": "Emard, Schneider and Blanda",
+    "Description": "Decentralized intangible installation",
+    "ShortLabel": "libero",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 88,
-    "TemplateVariableName": "Balistreri-Cartwright"
+    "Rank": 800,
+    "TemplateVariableName": "Harvey Group"
   }
 ]
 ```

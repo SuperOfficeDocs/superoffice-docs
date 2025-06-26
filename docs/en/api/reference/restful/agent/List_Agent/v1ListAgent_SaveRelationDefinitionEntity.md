@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 159,
-  "Name": "Roberts, Stark and Ritchie",
-  "Tooltip": "doloremque",
-  "PassiveText": "quam",
+  "ReldefId": 525,
+  "Name": "Brakus Group",
+  "Tooltip": "ratione",
+  "PassiveText": "distinctio",
   "Deleted": false,
-  "Rank": 542,
+  "Rank": 747,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 508,
-  "Name": "Gislason LLC",
-  "Tooltip": "soluta",
-  "PassiveText": "consequuntur",
+  "ReldefId": 643,
+  "Name": "Skiles Inc and Sons",
+  "Tooltip": "sapiente",
+  "PassiveText": "consectetur",
   "Deleted": false,
-  "Rank": 752,
+  "Rank": 866,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 170
     }
   }
 }

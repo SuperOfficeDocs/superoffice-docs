@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 381,
+  "EjMessageId": 730,
   "Ticket": null,
-  "CreatedAt": "2003-02-03T17:54:08.6011891+01:00",
+  "CreatedAt": "1998-10-15T03:45:28.7640528+02:00",
   "CreatedBy": null,
-  "Author": "mollitia",
+  "Author": "aspernatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "recusandae",
-  "TimeSpent": 752,
-  "Body": "consequatur",
-  "HtmlBody": "debitis",
-  "EmailHeader": "desmond@waelchi.com",
-  "DebugInfo": "sed",
-  "MailSorter": "aut",
+  "MessageId": "delectus",
+  "TimeSpent": 809,
+  "Body": "dolore",
+  "HtmlBody": "facere",
+  "EmailHeader": "sanford@hand.name",
+  "DebugInfo": "quam",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloribus",
+  "SearchTitle": "placeat",
   "MessageHeaders": [
     {
-      "Id": 863,
-      "Name": "Streich-Crist",
-      "Value": "voluptas",
+      "Id": 274,
+      "Name": "Pfeffer, Mosciski and Hoeger",
+      "Value": "consectetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "recusandae",
-  "Sentiment": 118,
-  "SentimentConfidence": 550,
+  "Important": false,
+  "Language": "aut",
+  "Sentiment": 259,
+  "SentimentConfidence": 631,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 820,
-      "Name": "Bogan, Kovacek and Bins",
-      "ContentType": "voluptates",
-      "AttSize": 612,
+      "AttachmentId": 720,
+      "Name": "Kerluke-Barrows",
+      "ContentType": "illum",
+      "AttSize": 461,
       "InlineImage": false,
-      "ContentId": "corrupti",
-      "AuthKey": "voluptas",
-      "IsSafeFileExtension": true,
+      "ContentId": "voluptatem",
+      "AuthKey": "debitis",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldLength": 409
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "qui"
+    "CustomFields1": "at",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 437
     }
   }
 }

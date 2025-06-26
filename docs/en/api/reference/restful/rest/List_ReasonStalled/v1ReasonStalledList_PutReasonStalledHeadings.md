@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 570,
-    "Name": "Ward-Tromp",
-    "Tooltip": "voluptas",
+    "HeadingId": 115,
+    "Name": "Considine, Herzog and Bashirian",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 471,
-    "UdListDefinitionId": 924
+    "Rank": 384,
+    "UdListDefinitionId": 909
   },
   {
-    "HeadingId": 570,
-    "Name": "Ward-Tromp",
-    "Tooltip": "voluptas",
+    "HeadingId": 115,
+    "Name": "Considine, Herzog and Bashirian",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 471,
-    "UdListDefinitionId": 924
+    "Rank": 384,
+    "UdListDefinitionId": 909
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 817,
-    "Name": "Wuckert Group",
-    "Tooltip": "ipsum",
+    "HeadingId": 582,
+    "Name": "Ward Group",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "Rank": 796,
-    "UdListDefinitionId": 22,
+    "Rank": 484,
+    "UdListDefinitionId": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 442
       }
     }
   }

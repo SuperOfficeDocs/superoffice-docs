@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 874,
+  "ErpConnectionId": 898,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quidem",
-    "Rank": 489,
-    "DisplayName": "Murazik-Ruecker",
-    "DisplayDescription": "Streamlined solution-oriented orchestration",
+    "FieldKey": "id",
+    "Rank": 168,
+    "DisplayName": "Zieme, Boyer and Ondricka",
+    "DisplayDescription": "Programmable bifurcated policy",
     "FieldType": "Checkbox",
-    "ListName": "Macejkovic, Lubowitz and Gleichner",
-    "DefaultValue": "nisi",
-    "MaxLength": 165,
+    "ListName": "Sanford Group",
+    "DefaultValue": "nesciunt",
+    "MaxLength": 233,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 1002
       }
     }
   }

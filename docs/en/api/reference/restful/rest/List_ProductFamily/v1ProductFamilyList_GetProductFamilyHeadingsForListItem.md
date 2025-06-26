@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Barrows LLC",
-    "ToolTip": "Asperiores esse voluptatem qui a ea sint.",
-    "Deleted": true,
-    "Rank": 797,
-    "Type": "amet",
-    "ColorBlock": 851,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2023-10-18T17:54:08.9761714+02:00",
+    "Id": 204,
+    "Name": "Goodwin, Greenholt and Huel",
+    "ToolTip": "Sit amet totam beatae molestiae voluptas.",
+    "Deleted": false,
+    "Rank": 795,
+    "Type": "et",
+    "ColorBlock": 28,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2008-11-23T03:45:29.1549343+01:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Ferry, Swift and Kuhlman",
-        "ToolTip": "Et dignissimos voluptates.",
+        "Id": 640,
+        "Name": "Ledner, Kulas and VonRueden",
+        "ToolTip": "Officiis qui ad.",
         "Deleted": false,
-        "Rank": 786,
-        "Type": "quasi",
-        "ColorBlock": 697,
-        "IconHint": "commodi",
+        "Rank": 967,
+        "Type": "non",
+        "ColorBlock": 292,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2012-01-23T17:54:08.9761714+01:00",
+        "LastChanged": "2020-11-07T03:45:29.1549343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Albert Rice",
+        "ExtraInfo": "architecto",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Emile Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "provident",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Prof. Clay Smitham V",
+    "FullName": "Jude Kuphal Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 646
       }
     }
   }

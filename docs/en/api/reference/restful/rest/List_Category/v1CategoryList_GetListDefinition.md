@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Schneider-Wyman",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "Rank": 633,
+  "Id": 585,
+  "Name": "Bernier-Marks",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 344,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ab",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   },
   "_Links": {

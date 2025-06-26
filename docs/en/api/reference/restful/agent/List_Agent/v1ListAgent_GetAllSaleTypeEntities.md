@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 164,
-    "Name": "Carroll-Gerhold",
-    "Tooltip": "est",
-    "Rank": 1000,
+    "SaleTypeId": 57,
+    "Name": "Kertzmann, Gibson and Maggio",
+    "Tooltip": "nobis",
+    "Rank": 703,
     "DurationUnit": "Century",
-    "SaleDuration": 581,
-    "SaleTypeCatId": 803,
+    "SaleDuration": 693,
+    "SaleTypeCatId": 769,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 534,
-    "QuoteLinesTemplate": 726,
-    "ConfirmationLinesTemplate": 383,
+    "DefaultQuoteValidity": 616,
+    "QuoteLinesTemplate": 380,
+    "ConfirmationLinesTemplate": 911,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 782,
-    "MinEarningPercent": 58,
-    "GroupQuoteLinesBy": 270,
-    "SortGroupLinesBy": 878,
+    "MaxDiscountPercent": 740,
+    "MinEarningPercent": 869,
+    "GroupQuoteLinesBy": 91,
+    "SortGroupLinesBy": 159,
     "Stages": [
       {
-        "Id": 581,
-        "Name": "Mertz-Schmitt",
-        "ToolTip": "Architecto ut ex architecto voluptates error sed.",
+        "Id": 715,
+        "Name": "Lang-Barton",
+        "ToolTip": "Sed autem et ex veritatis in vero et.",
         "Deleted": false,
-        "Rank": 316,
-        "Type": "iusto",
-        "ColorBlock": 238,
-        "IconHint": "veniam",
+        "Rank": 882,
+        "Type": "veritatis",
+        "ColorBlock": 739,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2004-06-27T17:54:03.2108272+02:00",
+        "LastChanged": "2006-11-23T03:45:23.5142048+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Randy Stamm",
+        "ExtraInfo": "debitis",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Dejon Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldType": "System.String",
+            "FieldLength": 841
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 646
       }
     }
   }

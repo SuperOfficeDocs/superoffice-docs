@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 574,
-    "Name": "Dickinson-Greenfelder",
+    "TicketStatusId": 659,
+    "Name": "Waelchi, Jakubowski and Durgan",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
+    "NoEmailReopen": true,
+    "IsDefault": true,
     "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

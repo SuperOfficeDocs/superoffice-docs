@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 672,
-  "StartTime": "2008-03-31T17:54:02.9608392+02:00",
-  "EndTime": "2017-04-06T17:54:02.9608392+02:00",
-  "Count": 38,
-  "DocumentTemplateId": 342
+  "PersonId": 237,
+  "StartTime": "2023-07-20T03:45:23.2798335+02:00",
+  "EndTime": "2008-01-26T03:45:23.2798335+01:00",
+  "Count": 930,
+  "DocumentTemplateId": 335
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 726,
-    "Attention": "dolorem",
-    "Header": "nihil",
-    "Name": "Carroll, Bernhard and Kuhic",
-    "OurRef": "vel",
-    "YourRef": "perferendis",
-    "Description": "Compatible well-modulated portal",
-    "DocumentTemplate": "consequuntur",
+    "DocumentId": 160,
+    "Attention": "deserunt",
+    "Header": "consequatur",
+    "Name": "Hartmann Group",
+    "OurRef": "qui",
+    "YourRef": "ut",
+    "Description": "Ameliorated empowering knowledge base",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 872,
-    "PersonFullName": "Ms. Carlie Brandyn O'Keefe DVM",
-    "AssociateFullName": "Vance Reichert",
-    "ContactId": 546,
-    "ContactName": "Romaguera Inc and Sons",
-    "ProjectId": 730,
-    "ProjectName": "Wisoky Inc and Sons",
-    "AssociateId": 265,
-    "Snum": 661,
-    "SaleId": 933,
-    "SaleName": "Quitzon, Schumm and Durgan",
+    "PersonId": 702,
+    "PersonFullName": "Lizeth Prosacco I",
+    "AssociateFullName": "Neoma Lubowitz",
+    "ContactId": 927,
+    "ContactName": "Donnelly, Kohler and Klocko",
+    "ProjectId": 112,
+    "ProjectName": "Price Group",
+    "AssociateId": 428,
+    "Snum": 850,
+    "SaleId": 391,
+    "SaleName": "Welch, Barrows and Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 480
       }
     }
   }

@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Boyer Inc and Sons",
-    "Stehr LLC"
+    "Murphy-Barton",
+    "Swaniawski, Wilkinson and Trantow"
   ]
 }
 ```

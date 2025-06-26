@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Apr 2014 17:54:08 G4T
+Last-Modified: Wed, 07 Aug 2019 03:45:28 G8T
 
 {
-  "SourceContactId": 296,
-  "SourcePersonId": 368,
-  "DestinationContactId": 423,
-  "DestinationPersonId": 746,
-  "RelationId": 724,
-  "Comment": "ut",
-  "RelationDefinitionId": 552,
-  "Reversed": 111,
-  "UpdatedDate": "2014-04-17T17:54:08.1324619+02:00",
-  "CreatedDate": "2001-07-19T17:54:08.1324619+02:00",
+  "SourceContactId": 171,
+  "SourcePersonId": 658,
+  "DestinationContactId": 860,
+  "DestinationPersonId": 534,
+  "RelationId": 3,
+  "Comment": "odit",
+  "RelationDefinitionId": 613,
+  "Reversed": 659,
+  "UpdatedDate": "2019-08-07T03:45:28.2328189+02:00",
+  "CreatedDate": "2019-06-04T03:45:28.2328189+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rice, Reilly and Wilderman",
-  "SourcePersonName": "Kris, Brekke and Hackett",
-  "DestinationContactName": "Hamill-Harris",
-  "DestinationPersonName": "Hodkiewicz-Hintz",
-  "ActiveText": "sunt",
-  "PassiveText": "sunt",
+  "SourceContactName": "Swaniawski-Daugherty",
+  "SourcePersonName": "Herman, Bogan and Fisher",
+  "DestinationContactName": "Littel-Walker",
+  "DestinationPersonName": "VonRueden Inc and Sons",
+  "ActiveText": "est",
+  "PassiveText": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 917
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

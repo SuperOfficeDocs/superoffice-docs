@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hodkiewicz, Pfeffer and Simonis",
-  "Comment": "deleniti",
-  "StakeholderRoleId": 330,
-  "CountryId": 163,
-  "PersonId": 810,
-  "EmailDescription": "laverne@harvey.biz",
-  "EmailId": 68,
-  "EmailAddress": "felicita@metzheathcote.info",
-  "PhoneId": 627,
-  "ContactName": "Kiehn-Bergnaum",
-  "ContactId": 991,
-  "SaleId": 473,
-  "Mrmrs": "impedit",
-  "Firstname": "Nella",
-  "MiddleName": "Miller, Blanda and Kunze",
-  "Lastname": "Skiles",
-  "SaleStakeholderId": 823,
-  "Rank": 155,
-  "Phone": "1-498-082-7579 x64710",
+  "StakeholderRoleName": "Durgan Inc and Sons",
+  "Comment": "quibusdam",
+  "StakeholderRoleId": 58,
+  "CountryId": 13,
+  "PersonId": 911,
+  "EmailDescription": "margarette.thiel@hills.com",
+  "EmailId": 780,
+  "EmailAddress": "henry@moore.com",
+  "PhoneId": 131,
+  "ContactName": "Schultz LLC",
+  "ContactId": 732,
+  "SaleId": 943,
+  "Mrmrs": "reiciendis",
+  "Firstname": "Pablo",
+  "MiddleName": "Nader, Weber and Rogahn",
+  "Lastname": "Goyette",
+  "SaleStakeholderId": 454,
+  "Rank": 733,
+  "Phone": "1-042-551-6330 x16241",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldLength": 508
     }
   },
   "_Links": {

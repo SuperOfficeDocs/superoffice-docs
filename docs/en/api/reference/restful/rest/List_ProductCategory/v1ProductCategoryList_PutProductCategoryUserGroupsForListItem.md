@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Pfannerstill-Wilderman",
-    "ToolTip": "Et eius quisquam praesentium aliquid ut sit.",
-    "Deleted": false,
-    "Rank": 117,
-    "Type": "aut",
-    "ColorBlock": 527,
-    "IconHint": "cumque",
-    "Selected": true,
-    "LastChanged": "2024-02-03T17:54:08.9761714+01:00",
+    "Id": 484,
+    "Name": "Hintz Inc and Sons",
+    "ToolTip": "Temporibus rem.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "eius",
+    "ColorBlock": 205,
+    "IconHint": "iusto",
+    "Selected": false,
+    "LastChanged": "2005-09-19T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Nolan-Homenick",
-        "ToolTip": "Ut voluptatem tempora sunt sit.",
-        "Deleted": false,
-        "Rank": 792,
-        "Type": "fuga",
-        "ColorBlock": 212,
-        "IconHint": "sequi",
+        "Id": 673,
+        "Name": "Ruecker-Kuhn",
+        "ToolTip": "Omnis beatae commodi cupiditate dignissimos consequatur.",
+        "Deleted": true,
+        "Rank": 983,
+        "Type": "eligendi",
+        "ColorBlock": 302,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2001-02-04T17:54:08.9761714+01:00",
+        "LastChanged": "2022-07-24T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "tempora",
+        "ExtraInfo": "qui",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Dr. Desmond DuBuque"
+        "FullName": "Annetta Ritchie"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "ratione",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Alejandrin Fay"
+    "FullName": "Hector Rogahn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Kautzer-Roberts",
-    "ToolTip": "Libero adipisci sed molestiae.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "sunt",
-    "ColorBlock": 328,
-    "IconHint": "repellat",
+    "Id": 354,
+    "Name": "Ryan-Parisian",
+    "ToolTip": "Labore expedita ab asperiores et velit.",
+    "Deleted": false,
+    "Rank": 959,
+    "Type": "quibusdam",
+    "ColorBlock": 821,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2023-11-25T17:54:08.9761714+01:00",
+    "LastChanged": "2016-02-23T03:45:29.1549343+01:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Sipes-Kiehn",
-        "ToolTip": "Voluptas iusto.",
+        "Id": 940,
+        "Name": "Senger, Lang and Jewess",
+        "ToolTip": "Reprehenderit non dolorem id exercitationem quia blanditiis voluptas.",
         "Deleted": true,
-        "Rank": 386,
-        "Type": "nihil",
-        "ColorBlock": 654,
-        "IconHint": "quasi",
+        "Rank": 830,
+        "Type": "quas",
+        "ColorBlock": 120,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-08-12T17:54:08.9761714+02:00",
+        "LastChanged": "2017-10-25T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Jensen Treutel",
+        "ExtraInfo": "porro",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Max Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 784
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "natus",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Eduardo Luettgen",
+    "FullName": "Ron Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 742
       }
     }
   }

@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mitchell-Lemke"
+  "OwnerName": "Kemmer, Lockman and Quitzon"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "atque",
+  "Message": "molestiae",
   "Url": "http://www.example.com/"
 }
 ```

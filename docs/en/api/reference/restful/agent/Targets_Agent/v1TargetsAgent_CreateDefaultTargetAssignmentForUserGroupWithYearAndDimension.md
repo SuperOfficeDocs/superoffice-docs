@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 964,
-  "Year": 499,
-  "TargetDimensionId": 927
+  "UserGroupId": 956,
+  "Year": 482,
+  "TargetDimensionId": 707
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 505,
+    "TargetAssignmentInfoId": 40,
     "Values": [
-      94,
-      748
+      926,
+      885
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 769,
-    "DimensionListItemDisplayName": "Veum LLC",
+    "DimensionListItem": 134,
+    "DimensionListItemDisplayName": "Schowalter LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

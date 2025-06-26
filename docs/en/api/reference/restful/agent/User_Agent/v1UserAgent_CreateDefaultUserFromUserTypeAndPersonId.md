@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 611
+  "PersonId": 120
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 791,
-  "Name": "Keebler, O'Kon and Goodwin",
-  "Rank": 866,
-  "Tooltip": "laboriosam",
+  "AssociateId": 349,
+  "Name": "Lowe-Schimmel",
+  "Rank": 631,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Fisher, O'Keefe and Swaniawski",
-      "Description": "Total stable website",
+      "Name": "Schmitt-Beatty",
+      "Description": "Self-enabling global task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 683
         }
       }
     },
     {
-      "Name": "Fisher, O'Keefe and Swaniawski",
-      "Description": "Total stable website",
+      "Name": "Schmitt-Beatty",
+      "Description": "Self-enabling global task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 683
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consectetur",
-      "Tooltip": "at",
-      "Id": 685,
-      "Rank": 102,
+      "Value": "eius",
+      "Tooltip": "dolore",
+      "Id": 404,
+      "Rank": 336,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 655
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2010-04-26T17:54:03.8982941+02:00",
-  "Lastlogout": "2000-07-16T17:54:03.8982941+02:00",
-  "EjUserId": 561,
-  "RequestSignature": "pariatur",
+  "Deleted": true,
+  "Lastlogin": "2002-06-17T03:45:24.1860585+02:00",
+  "Lastlogout": "2008-10-25T03:45:24.1860585+02:00",
+  "EjUserId": 537,
+  "RequestSignature": "quia",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "veniam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 176
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "veniam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 176
-        }
-      }
-    }
-  ],
-  "UserName": "Morar, Goodwin and Franecki",
-  "TicketCategories": [
-    {
-      "Id": 542,
-      "Name": "Zemlak, Morar and Mosciski",
-      "ToolTip": "Sed est expedita natus dolores.",
-      "Deleted": true,
-      "Rank": 588,
-      "Type": "quo",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "corporis",
-      "ColorBlock": 15,
-      "ExtraInfo": "placeat",
-      "StyleHint": "dolor",
-      "FullName": "Jeanette Kutch",
+      "Value": "autem",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldLength": 853
         }
       }
-    }
-  ],
-  "NickName": "Beer LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "consequatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "distinctio"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Harris, Lemke and Zieme",
-      "DisplayName": "Kuhic Inc and Sons",
-      "Description": "Advanced full-range secured line",
-      "ToolTip": "Cupiditate in est.",
-      "Actions": "Implicit",
-      "ActionData": "sit",
+      "Type": null,
+      "Value": "autem",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldType": "System.String",
+          "FieldLength": 853
+        }
+      }
+    }
+  ],
+  "UserName": "Gerhold Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 576,
+      "Name": "Klein, Dare and Kohler",
+      "ToolTip": "Id dolores ipsa in sit nobis rerum.",
+      "Deleted": false,
+      "Rank": 496,
+      "Type": "rerum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "unde",
+      "ColorBlock": 264,
+      "ExtraInfo": "autem",
+      "StyleHint": "illo",
+      "FullName": "Pearline Monique Shanahan DVM",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 423
+        }
+      }
+    }
+  ],
+  "NickName": "McLaughlin, Brakus and Funk",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "tempore"
+  },
+  "CustomFields": {
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "temporibus"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Effertz, Kub and Ledner",
+      "DisplayName": "Will-Frami",
+      "Description": "Triple-buffered multi-state capability",
+      "ToolTip": "Quis quae.",
+      "Actions": "Implicit",
+      "ActionData": "quia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 95
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldLength": 300
     }
   }
 }

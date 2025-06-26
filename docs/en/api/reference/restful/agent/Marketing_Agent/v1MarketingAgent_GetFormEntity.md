@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=264
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=309
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 957,
-  "FormKey": "voluptas",
-  "Name": "Gutkowski Group",
-  "Description": "Exclusive national system engine",
-  "Config": "exercitationem",
-  "FolderId": 148,
-  "ScriptId": 669,
-  "ResponseShipmentId": 98,
+  "FormId": 128,
+  "FormKey": "ratione",
+  "Name": "Frami-Murazik",
+  "Description": "Expanded holistic help-desk",
+  "Config": "quibusdam",
+  "FolderId": 844,
+  "ScriptId": 580,
+  "ResponseShipmentId": 711,
   "Active": false,
-  "Expires": "2025-05-18T17:54:03.3202006+02:00",
-  "MaxSubmits": 703,
+  "Expires": "2018-10-26T03:45:23.6235756+02:00",
+  "MaxSubmits": 266,
   "Type": "Normal",
-  "Recipe": "aperiam",
-  "GroupId": 598,
+  "Recipe": "nostrum",
+  "GroupId": 710,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-06-25T17:54:03.3202006+02:00",
-  "RegisteredAssociateId": 308,
-  "Updated": "2019-01-04T17:54:03.3202006+01:00",
-  "UpdatedAssociateId": 866,
-  "UpdatedCount": 461,
+  "Registered": "2003-10-28T03:45:23.6235756+01:00",
+  "RegisteredAssociateId": 953,
+  "Updated": "2018-02-07T03:45:23.6235756+01:00",
+  "UpdatedAssociateId": 471,
+  "UpdatedCount": 356,
   "EmailFlows": [
-    380,
-    641
+    1000,
+    403
   ],
-  "FolderName": "Konopelski-Kassulke",
+  "FolderName": "Abshire, Rodriguez and Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

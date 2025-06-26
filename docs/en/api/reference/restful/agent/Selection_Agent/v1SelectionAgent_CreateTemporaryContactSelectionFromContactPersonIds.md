@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 201,
-      "ContactId": 714
+      "PersonId": 561,
+      "ContactId": 122
     },
     {
-      "PersonId": 201,
-      "ContactId": 714
+      "PersonId": 561,
+      "ContactId": 122
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental foreground analyzer",
-  "Postit": "cum",
+  "Description": "Profound analyzing support",
+  "Postit": "repellendus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 898,
-  "IncludePerson": 831,
+  "GroupIdx": 205,
+  "IncludePerson": 306,
   "MemberCount": 99.99,
-  "Name": "Morar, Johnson and Bailey",
-  "PostitTextId": 460,
-  "CreatedDate": "2005-05-22T17:54:03.6170572+02:00",
-  "SelectionId": 641,
-  "SoundEx": "cum",
-  "Source": 195,
-  "TextId": 960,
-  "UpdatedDate": "2010-07-06T17:54:03.6170572+02:00",
-  "UpdatedCount": 377,
-  "Visibility": 142,
+  "Name": "Rau-Murazik",
+  "PostitTextId": 196,
+  "CreatedDate": "2013-11-17T03:45:23.9048172+01:00",
+  "SelectionId": 553,
+  "SoundEx": "excepturi",
+  "Source": 194,
+  "TextId": 414,
+  "UpdatedDate": "2016-01-10T03:45:23.9048172+01:00",
+  "UpdatedCount": 242,
+  "Visibility": 372,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 188,
-  "TargetTableName": "Botsford LLC",
+  "TargetTableNumber": 203,
+  "TargetTableName": "Cassin-Beahan",
   "Completed": true,
-  "LeftSelectionId": 675,
-  "RightSelectionId": 81,
+  "LeftSelectionId": 133,
+  "RightSelectionId": 630,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rogahn-Conn",
-  "ShadowProviderName": "Huel Inc and Sons",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2013-02-26T17:54:03.6170572+01:00",
-  "LastLoadedBy": 685,
+  "MainProviderName": "Bauch-Crooks",
+  "ShadowProviderName": "Kovacek-Grant",
+  "ChartKey": "aliquam",
+  "LastLoaded": "2009-12-19T03:45:23.9048172+01:00",
+  "LastLoadedBy": 21,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-05-05T17:54:03.6170572+02:00",
-  "LastMembershipChangeBy": 461,
+  "LastMembershipChange": "1999-03-20T03:45:23.9048172+01:00",
+  "LastMembershipChangeBy": 429,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Ondricka Inc and Sons",
-  "DashboardTileDefinitionId": 352,
+  "MainHeading": "fugiat",
+  "MemberTabHeading": "eligendi",
+  "MailingsProviderName": "Erdman Group",
+  "DashboardTileDefinitionId": 120,
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 693,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 846
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 693,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 846
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 961
     }
   }
 }

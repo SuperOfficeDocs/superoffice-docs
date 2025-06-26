@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Keebler Inc and Sons",
-    "ToolTip": "Voluptas corporis ipsam quam.",
-    "Deleted": true,
-    "Rank": 585,
-    "Type": "tenetur",
-    "ColorBlock": 121,
-    "IconHint": "culpa",
+    "Id": 689,
+    "Name": "Howell Group",
+    "ToolTip": "Quam dolorem.",
+    "Deleted": false,
+    "Rank": 720,
+    "Type": "ut",
+    "ColorBlock": 961,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2023-04-28T17:54:08.7730557+02:00",
+    "LastChanged": "2019-05-10T03:45:28.9517993+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Larkin, Douglas and Crist",
-        "ToolTip": "Maiores eos itaque alias nam qui nulla.",
-        "Deleted": true,
-        "Rank": 326,
-        "Type": "distinctio",
-        "ColorBlock": 490,
-        "IconHint": "aut",
+        "Id": 559,
+        "Name": "Roob LLC",
+        "ToolTip": "Non suscipit adipisci possimus nobis beatae.",
+        "Deleted": false,
+        "Rank": 833,
+        "Type": "odio",
+        "ColorBlock": 904,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2024-03-20T17:54:08.7730557+01:00",
+        "LastChanged": "2002-04-17T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Hal Dibbert",
+        "ExtraInfo": "unde",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Gwen Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Shane Blanda",
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Cielo Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 494
       }
     }
   }

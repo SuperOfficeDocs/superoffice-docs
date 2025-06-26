@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "Name": "Littel LLC",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "UdListDefinitionId": 455,
-  "Rank": 385,
+  "Id": 106,
+  "Name": "Becker, Daugherty and Champlin",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 114,
+  "Rank": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Macejkovic, Connelly and Beer",
-    "ToolTip": "Esse labore nihil nisi.",
+    "Id": 278,
+    "Name": "Hahn LLC",
+    "ToolTip": "Eum esse enim dolore.",
     "Deleted": true,
-    "Rank": 207,
-    "Type": "enim",
-    "ColorBlock": 450,
-    "IconHint": "autem",
+    "Rank": 470,
+    "Type": "laboriosam",
+    "ColorBlock": 837,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2021-10-06T17:54:09.1168029+02:00",
+    "LastChanged": "2023-01-25T03:45:29.2327869+01:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Hettinger, Schaden and Marvin",
-        "ToolTip": "Beatae sapiente numquam quia vero natus qui deserunt.",
+        "Id": 412,
+        "Name": "Jerde-Thompson",
+        "ToolTip": "Accusantium odio aliquid odit eveniet.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "explicabo",
-        "ColorBlock": 655,
-        "IconHint": "consequatur",
+        "Rank": 496,
+        "Type": "adipisci",
+        "ColorBlock": 808,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-04-01T17:54:09.1168029+02:00",
+        "LastChanged": "2002-05-17T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "officiis",
+        "ExtraInfo": "nam",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Elmira Maiya Jacobi III",
+        "FullName": "Antonietta Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "atque",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Cleve Berge",
+    "FullName": "Jaylin Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 266
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   }

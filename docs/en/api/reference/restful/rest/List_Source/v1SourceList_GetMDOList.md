@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=sint
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Rosenbaum, Hilpert and Little",
-    "ToolTip": "Alias omnis non ea eum nihil.",
+    "Id": 662,
+    "Name": "Collier, Renner and Nienow",
+    "ToolTip": "Fuga ut animi quas.",
     "Deleted": false,
-    "Rank": 626,
-    "Type": "quos",
+    "Rank": 107,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Mann-Thompson",
-        "ToolTip": "Error error voluptas.",
-        "Deleted": false,
-        "Rank": 30,
-        "Type": "aut",
+        "Id": 751,
+        "Name": "Zulauf-Bernier",
+        "ToolTip": "Ut vero facere corporis unde beatae libero.",
+        "Deleted": true,
+        "Rank": 348,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 582,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "laudantium",
-        "FullName": "Katrina Farrell",
+        "IconHint": "sed",
+        "ColorBlock": 829,
+        "ExtraInfo": "quod",
+        "StyleHint": "sed",
+        "FullName": "Drew Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 719
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 546,
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "FullName": "Felix Robel",
+    "IconHint": "et",
+    "ColorBlock": 60,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "autem",
+    "FullName": "Alia Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 571
       }
     }
   }

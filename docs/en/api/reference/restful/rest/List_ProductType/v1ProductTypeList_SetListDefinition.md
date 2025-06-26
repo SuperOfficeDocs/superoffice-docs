@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Ebert-Jacobi",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 98,
+  "Id": 797,
+  "Name": "Rempel-Volkman",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 629,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "nisi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Renner-Waters",
-  "Tooltip": "eum",
+  "Id": 885,
+  "Name": "Keeling Inc and Sons",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 939,
-  "IsCustomList": false,
+  "Rank": 116,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 436
     }
   }
 }

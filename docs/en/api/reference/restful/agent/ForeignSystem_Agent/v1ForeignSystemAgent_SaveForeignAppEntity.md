@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 310,
-  "Name": "Dietrich-Robel",
-  "CreatedDate": "2017-10-02T17:54:03.1639551+02:00",
-  "UpdatedDate": "2020-10-24T17:54:03.1639551+02:00",
+  "ForeignAppId": 965,
+  "Name": "Dooley-Walker",
+  "CreatedDate": "2021-07-10T03:45:23.4829546+02:00",
+  "UpdatedDate": "2009-08-15T03:45:23.4829546+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 15,
-      "Name": "Jast, Ernser and Hickle",
-      "CreatedDate": "2003-09-07T17:54:03.1639551+02:00",
-      "UpdatedDate": "2011-03-02T17:54:03.1639551+01:00",
-      "AssociateFullName": "Prof. Cora Kali Wisozk",
-      "CreatedBy": "labore",
-      "UpdatedBy": "corporis",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 452
+      "ForeignDeviceId": 204,
+      "Name": "Mosciski, Abshire and Mayer",
+      "CreatedDate": "2011-12-02T03:45:23.4829546+01:00",
+      "UpdatedDate": "2010-07-20T03:45:23.4829546+02:00",
+      "AssociateFullName": "Meda Littel DDS",
+      "CreatedBy": "consectetur",
+      "UpdatedBy": "velit",
+      "DeviceIdentifier": "ad",
+      "ForeignAppId": 663
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 679,
-  "Name": "Reichert-Grimes",
-  "CreatedDate": "2002-07-03T17:54:03.1639551+02:00",
-  "UpdatedDate": "2005-07-28T17:54:03.1639551+02:00",
+  "ForeignAppId": 374,
+  "Name": "Bartell Inc and Sons",
+  "CreatedDate": "1999-09-28T03:45:23.4829546+02:00",
+  "UpdatedDate": "2016-02-27T03:45:23.4829546+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 862,
-      "Name": "Fisher-Maggio",
-      "CreatedDate": "2004-07-15T17:54:03.1639551+02:00",
-      "UpdatedDate": "2023-02-11T17:54:03.1639551+01:00",
-      "AssociateFullName": "Mr. Lincoln Frami",
-      "CreatedBy": "beatae",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "amet",
-      "ForeignAppId": 653,
+      "ForeignDeviceId": 305,
+      "Name": "Koepp, Casper and Considine",
+      "CreatedDate": "2018-11-16T03:45:23.4829546+01:00",
+      "UpdatedDate": "2023-01-18T03:45:23.4829546+01:00",
+      "AssociateFullName": "Dr. Dorothea O'Reilly IV",
+      "CreatedBy": "est",
+      "UpdatedBy": "labore",
+      "DeviceIdentifier": "id",
+      "ForeignAppId": 43,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldLength": 841
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 284,
-  "Rank": 561,
-  "DefaultTask": 566,
-  "DefaultTaskText": "expedita",
+  "OwnerTable": 911,
+  "Rank": 944,
+  "DefaultTask": 462,
+  "DefaultTaskText": "porro",
   "IsVisual": false,
-  "LastGenerated": "2006-10-22T17:54:03.5389365+02:00",
-  "Description": "User-centric 5th generation neural-net",
-  "Name": "Greenfelder, O'Reilly and Kuhic",
-  "StatusMonitorId": 866,
-  "PictureId": 410,
-  "NeedsUpdate": true,
+  "LastGenerated": "2002-04-15T03:45:23.8423206+02:00",
+  "Description": "Stand-alone systemic approach",
+  "Name": "Leannon Group",
+  "StatusMonitorId": 845,
+  "PictureId": 213,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 315,
-  "NumNeedUpdate": 879,
-  "GenerationStart": "2020-11-28T17:54:03.5389365+01:00",
+  "NumMatches": 702,
+  "NumNeedUpdate": 607,
+  "GenerationStart": "2002-12-31T03:45:23.8423206+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 546
     }
   }
 }

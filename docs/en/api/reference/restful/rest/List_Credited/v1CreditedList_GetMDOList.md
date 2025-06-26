@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=cum
+GET /api/v1/List/Credited/MDOItems?query=laborum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Sawayn, Bayer and Hansen",
-    "ToolTip": "Iusto qui nisi quas ex numquam ipsam officia.",
-    "Deleted": true,
-    "Rank": 326,
-    "Type": "explicabo",
+    "Id": 291,
+    "Name": "Emard, Koelpin and Huel",
+    "ToolTip": "Excepturi occaecati quod adipisci consectetur est.",
+    "Deleted": false,
+    "Rank": 703,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Hilll-Huels",
-        "ToolTip": "Voluptatem voluptas inventore maxime necessitatibus totam est.",
+        "Id": 532,
+        "Name": "Lindgren, Okuneva and Bradtke",
+        "ToolTip": "Itaque ipsum libero aperiam voluptatem nostrum maiores.",
         "Deleted": false,
-        "Rank": 74,
-        "Type": "et",
+        "Rank": 743,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 689,
-        "ExtraInfo": "quos",
-        "StyleHint": "ducimus",
-        "FullName": "Mrs. Lola Baumbach I",
+        "IconHint": "et",
+        "ColorBlock": 789,
+        "ExtraInfo": "nulla",
+        "StyleHint": "fuga",
+        "FullName": "Mr. Reid Nelson Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 81
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 381,
-    "ExtraInfo": "sed",
-    "StyleHint": "placeat",
-    "FullName": "Dr. Abdullah Jesus Hills",
+    "IconHint": "dolorem",
+    "ColorBlock": 128,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "iusto",
+    "FullName": "Kayleigh Mckayla Tillman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

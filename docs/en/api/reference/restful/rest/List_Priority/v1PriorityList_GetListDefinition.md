@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Bashirian, Walsh and Ebert",
-  "Tooltip": "culpa",
+  "Id": 44,
+  "Name": "Bernier, Dooley and Oberbrunner",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 641,
-  "IsCustomList": false,
+  "Rank": 756,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldLength": 397
     }
   },
   "_Links": {

@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Project/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 281
+  "ProjectId": 919
 }
 ```
 

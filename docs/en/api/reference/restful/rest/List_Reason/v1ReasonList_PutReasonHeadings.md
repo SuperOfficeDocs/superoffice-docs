@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 95,
-    "Name": "Schamberger-Schinner",
-    "Tooltip": "quod",
-    "Deleted": false,
-    "Rank": 566,
-    "UdListDefinitionId": 707
+    "HeadingId": 210,
+    "Name": "Quigley, Thompson and Mayer",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 294,
+    "UdListDefinitionId": 469
   },
   {
-    "HeadingId": 95,
-    "Name": "Schamberger-Schinner",
-    "Tooltip": "quod",
-    "Deleted": false,
-    "Rank": 566,
-    "UdListDefinitionId": 707
+    "HeadingId": 210,
+    "Name": "Quigley, Thompson and Mayer",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 294,
+    "UdListDefinitionId": 469
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Predovic, Nitzsche and O'Keefe",
-    "Tooltip": "omnis",
+    "HeadingId": 412,
+    "Name": "Williamson-Schmidt",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 892,
-    "UdListDefinitionId": 977,
+    "Rank": 861,
+    "UdListDefinitionId": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 207
       }
     }
   }

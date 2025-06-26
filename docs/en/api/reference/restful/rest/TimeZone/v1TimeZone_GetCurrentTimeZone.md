@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 802,
-  "Name": "Connelly-Maggio",
-  "TZLocationCode": "corrupti",
-  "TZLocationCities": "mollitia",
-  "IsoNumber": 684,
+  "TZLocationID": 659,
+  "Name": "Olson Inc and Sons",
+  "TZLocationCode": "asperiores",
+  "TZLocationCities": "aut",
+  "IsoNumber": 711,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 58,
-      "StartMonth": 419,
-      "EndDay": 755,
-      "EndMonth": 296,
-      "TZOffset": 632,
-      "StartRulePattern": "corrupti",
-      "EndRulePattern": "dolores"
+      "StartDay": 68,
+      "StartMonth": 428,
+      "EndDay": 514,
+      "EndMonth": 531,
+      "TZOffset": 352,
+      "StartRulePattern": "ullam",
+      "EndRulePattern": "exercitationem"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 397,
-      "StartMonth": 320,
-      "EndDay": 651,
-      "EndMonth": 85,
-      "TZOffset": 513,
-      "StartRulePattern": "earum",
-      "EndRulePattern": "fugiat"
+      "StartDay": 781,
+      "StartMonth": 264,
+      "EndDay": 392,
+      "EndMonth": 131,
+      "TZOffset": 335,
+      "StartRulePattern": "reiciendis",
+      "EndRulePattern": "et"
     }
   }
 }

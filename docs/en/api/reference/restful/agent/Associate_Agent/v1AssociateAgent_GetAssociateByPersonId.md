@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 502
+  "PersonId": 546
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 852,
-  "Name": "Leffler, Daniel and Howe",
-  "PersonId": 767,
-  "Rank": 104,
-  "Tooltip": "quo",
+  "AssociateId": 626,
+  "Name": "Feil, McLaughlin and Erdman",
+  "PersonId": 47,
+  "Rank": 833,
+  "Tooltip": "quis",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 635,
-  "FullName": "Chanel Davis",
-  "FormalName": "Wuckert, Wunsch and Schmitt",
-  "Deleted": false,
-  "EjUserId": 57,
-  "UserName": "Powlowski-Jerde",
+  "GroupIdx": 452,
+  "FullName": "Ms. Felicity Jewess V",
+  "FormalName": "Effertz LLC",
+  "Deleted": true,
+  "EjUserId": 943,
+  "UserName": "Green Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 920,
-  "Name": "Streich-Luettgen",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "UdListDefinitionId": 414,
-  "Rank": 698,
+  "Id": 323,
+  "Name": "Cummerata LLC",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "UdListDefinitionId": 544,
+  "Rank": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 795
     }
   }
 }

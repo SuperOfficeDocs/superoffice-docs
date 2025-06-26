@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Bednar-Sporer",
-    "ToolTip": "Est aut.",
+    "Id": 983,
+    "Name": "Windler Inc and Sons",
+    "ToolTip": "Ducimus et quos aut autem.",
     "Deleted": true,
-    "Rank": 720,
-    "Type": "voluptatum",
-    "ColorBlock": 259,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2022-07-19T17:54:08.9449229+02:00",
+    "Rank": 918,
+    "Type": "est",
+    "ColorBlock": 705,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2005-07-31T03:45:29.060917+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Reichel-Bartoletti",
-        "ToolTip": "Dolore quam.",
-        "Deleted": false,
-        "Rank": 255,
-        "Type": "autem",
-        "ColorBlock": 78,
-        "IconHint": "dolorum",
+        "Id": 684,
+        "Name": "Monahan, Huel and Kirlin",
+        "ToolTip": "Sit consequatur aperiam molestiae.",
+        "Deleted": true,
+        "Rank": 566,
+        "Type": "placeat",
+        "ColorBlock": 781,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2021-11-11T17:54:08.9449229+01:00",
+        "LastChanged": "2013-04-16T03:45:29.060917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "nisi",
+        "ExtraInfo": "ut",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Morton Grant"
+        "FullName": "Maeve Schulist"
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "sed",
+    "ExtraInfo": "quis",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Mr. Hunter Lubowitz"
+    "FullName": "Mr. Alexandro Candace Bahringer I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Balistreri LLC",
-    "ToolTip": "Magni nulla minus eaque minima.",
+    "Id": 191,
+    "Name": "Bartoletti, Stokes and Kessler",
+    "ToolTip": "Vero ex accusamus ea sit iure ut vel.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "dolores",
-    "ColorBlock": 944,
-    "IconHint": "architecto",
+    "Rank": 309,
+    "Type": "eius",
+    "ColorBlock": 245,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2010-01-29T17:54:08.9449229+01:00",
+    "LastChanged": "2016-09-18T03:45:29.060917+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Larkin Inc and Sons",
-        "ToolTip": "Nisi dolor ad vitae recusandae ullam.",
+        "Id": 459,
+        "Name": "Zieme LLC",
+        "ToolTip": "Molestias nulla aperiam accusantium ipsum optio quidem.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "qui",
-        "ColorBlock": 293,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2010-11-12T17:54:08.9449229+01:00",
+        "Rank": 683,
+        "Type": "rem",
+        "ColorBlock": 333,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2023-02-03T03:45:29.060917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "sed",
+        "ExtraInfo": "similique",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Catalina Wolff",
+        "FullName": "Paula Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 872
+            "FieldType": "System.String",
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Mrs. Vivianne Norval Johns IV",
+    "ExtraInfo": "velit",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Orin Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 341
       }
     }
   }

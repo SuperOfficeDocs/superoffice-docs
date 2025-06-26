@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Moore, O'Reilly and Halvorson",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 938,
-    "Rank": 756
+    "Id": 127,
+    "Name": "Lind, Ebert and Franecki",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "UdListDefinitionId": 714,
+    "Rank": 754
   },
   {
-    "Id": 994,
-    "Name": "Moore, O'Reilly and Halvorson",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 938,
-    "Rank": 756
+    "Id": 127,
+    "Name": "Lind, Ebert and Franecki",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "UdListDefinitionId": 714,
+    "Rank": 754
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Farrell Inc and Sons",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 243,
-    "Rank": 905,
+    "Id": 641,
+    "Name": "Schmitt, Kulas and Block",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 670,
+    "Rank": 219,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldType": "System.String",
+        "FieldLength": 646
       }
     }
   }

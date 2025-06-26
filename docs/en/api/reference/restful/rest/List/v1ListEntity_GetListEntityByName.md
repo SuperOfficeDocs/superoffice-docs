@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "McClure-Carter",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 615,
-  "IsCustomList": false,
+  "Id": 5,
+  "Name": "Medhurst Inc and Sons",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 862,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

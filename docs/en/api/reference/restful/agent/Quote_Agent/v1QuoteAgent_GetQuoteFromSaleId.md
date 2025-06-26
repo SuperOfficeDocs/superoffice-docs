@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 976
+  "SaleId": 94
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 264,
-  "SaleId": 870,
-  "QuoteConnectionId": 843,
-  "ERPQuoteKey": "voluptatum",
-  "ERPOrderKey": "consequuntur",
-  "ActiveQuoteVersionId": 434,
-  "AcceptedQuoteAlternativeId": 531,
-  "UseValuesFromQuote": 4,
-  "DocumentId": 359,
-  "PoNumber": "598483",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "robin@hermistonabernathy.uk",
+  "QuoteId": 36,
+  "SaleId": 166,
+  "QuoteConnectionId": 136,
+  "ERPQuoteKey": "voluptatem",
+  "ERPOrderKey": "beatae",
+  "ActiveQuoteVersionId": 800,
+  "AcceptedQuoteAlternativeId": 633,
+  "UseValuesFromQuote": 330,
+  "DocumentId": 99,
+  "PoNumber": "1054789",
+  "OrderComment": "voluptatibus",
+  "PreferredEmailCulture": "karson_botsford@dickinson.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 751
     }
   }
 }

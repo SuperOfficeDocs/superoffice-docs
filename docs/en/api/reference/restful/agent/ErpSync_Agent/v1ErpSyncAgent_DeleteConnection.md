@@ -70,7 +70,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 298
+  "ErpConnectionId": 827
 }
 ```
 

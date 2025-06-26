@@ -68,7 +68,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeTicketPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 235,
-  "NumSentences": 873,
-  "Summary": "ab",
-  "IsoLangCode": "quae"
+  "TicketId": 692,
+  "NumSentences": 956,
+  "Summary": "est",
+  "IsoLangCode": "sapiente"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2013-11-21T17:54:02.3514942+01:00",
-  "UserPrompt": "aliquid",
-  "UserDisplayText": "corporis",
-  "BotResponse": "voluptatem",
+  "Timestamp": "2007-08-22T03:45:22.6704778+02:00",
+  "UserPrompt": "accusantium",
+  "UserDisplayText": "molestiae",
+  "BotResponse": "necessitatibus",
   "BotActions": {
-    "BotActions1": "molestiae",
-    "BotActions2": "magnam"
+    "BotActions1": "occaecati",
+    "BotActions2": "quos"
   },
   "Attachments": [
-    "consequatur",
-    "enim"
+    "temporibus",
+    "eius"
   ]
 }
 ```

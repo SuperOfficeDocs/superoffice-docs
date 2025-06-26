@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 313,
+  "TicketId": 818,
   "MessageActionType": "Forward",
-  "TicketMessageId": 659,
-  "TicketTypeId": 748,
-  "ExcludeSignature": true
+  "TicketMessageId": 921,
+  "TicketTypeId": 166,
+  "ExcludeSignature": false
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "minus",
+  "Body": "tempore",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 883,
-      "Name": "Lynch-Blick",
-      "ContentType": "dolorum",
-      "AttSize": 447,
-      "InlineImage": true,
-      "ContentId": "sed",
-      "AuthKey": "quo",
+      "AttachmentId": 72,
+      "Name": "Kreiger, Quigley and Hermann",
+      "ContentType": "vitae",
+      "AttSize": 501,
+      "InlineImage": false,
+      "ContentId": "et",
+      "AuthKey": "officiis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldType": "System.Int32",
+          "FieldLength": 656
         }
       }
     }

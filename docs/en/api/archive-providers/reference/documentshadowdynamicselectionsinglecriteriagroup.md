@@ -720,7 +720,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/restrictionAddress/county,contact/mainContact,contact/contactAssociate/role,project/NumberOfActivitiesInPeriod,associate/assocName
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/middleName,person/personHasInterests,person/personExtra/x_person_float,person/personAssociate/contactFullName,person/correspondingAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

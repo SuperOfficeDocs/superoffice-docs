@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.SystemEventHelper.#ctor
+  - SuperOffice.Data.SystemEventHelper.ChangeDbModelEventName
   - SuperOffice.Data.SystemEventHelper.CreateCounterRebuildEventAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SystemEventHelper.CreateFreetextRebuildEventAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SystemEventHelper.CreatePublishStartSystemEventAsync(SuperOffice.Data.UDefType)
@@ -56,6 +57,25 @@ items:
   - SuperOffice.Data.SystemEventHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SystemEventHelper)
   - SuperOffice.Data.SystemEventHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Data.SystemEventHelper.ChangeDbModelEventName
+  commentId: F:SuperOffice.Data.SystemEventHelper.ChangeDbModelEventName
+  id: ChangeDbModelEventName
+  parent: SuperOffice.Data.SystemEventHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeDbModelEventName
+  nameWithType: SystemEventHelper.ChangeDbModelEventName
+  fullName: SuperOffice.Data.SystemEventHelper.ChangeDbModelEventName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ChangeDbModelEventName = "ChangeDbModel"
+    return:
+      type: System.String
+    content.vb: Public Const ChangeDbModelEventName As String = "ChangeDbModel"
 - uid: SuperOffice.Data.SystemEventHelper.FreetextRebuildEventName
   commentId: F:SuperOffice.Data.SystemEventHelper.FreetextRebuildEventName
   id: FreetextRebuildEventName

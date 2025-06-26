@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    140,
-    266
+    550,
+    850
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 734,
-    "Attention": "iusto",
-    "Header": "laudantium",
-    "Name": "Considine, Mueller and Erdman",
-    "OurRef": "vel",
-    "YourRef": "minus",
-    "Description": "Customer-focused interactive superstructure",
-    "DocumentTemplate": "impedit",
+    "DocumentId": 799,
+    "Attention": "quis",
+    "Header": "pariatur",
+    "Name": "Considine-Grant",
+    "OurRef": "et",
+    "YourRef": "et",
+    "Description": "Compatible grid-enabled hardware",
+    "DocumentTemplate": "eos",
     "IsPublished": false,
-    "PersonId": 514,
-    "PersonFullName": "Mr. Augustine Eulah Jerde DVM",
-    "AssociateFullName": "Silas Mills",
-    "ContactId": 776,
-    "ContactName": "Zboncak Inc and Sons",
-    "ProjectId": 680,
-    "ProjectName": "Haley-Kris",
-    "AssociateId": 918,
-    "Snum": 690,
-    "SaleId": 680,
-    "SaleName": "Hoeger Inc and Sons",
+    "PersonId": 884,
+    "PersonFullName": "Dr. Claudie Nolan",
+    "AssociateFullName": "Jayce Nikolaus",
+    "ContactId": 653,
+    "ContactName": "Thompson Group",
+    "ProjectId": 77,
+    "ProjectName": "Oberbrunner Group",
+    "AssociateId": 206,
+    "Snum": 122,
+    "SaleId": 17,
+    "SaleName": "Gutmann, Erdman and Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 298
       }
     }
   }

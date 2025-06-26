@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 753,
-  "PersonId": 789,
-  "AppointmentId": 447,
-  "DocumentId": 438,
-  "SaleId": 114,
-  "SelectionId": 909,
-  "ProjectId": 234,
+  "ContactId": 699,
+  "PersonId": 13,
+  "AppointmentId": 411,
+  "DocumentId": 371,
+  "SaleId": 116,
+  "SelectionId": 938,
+  "ProjectId": 517,
   "CustomTags": {
-    "CustomTags1": "sit",
-    "CustomTags2": "quos"
+    "CustomTags1": "unde",
+    "CustomTags2": "quaerat"
   },
-  "UiCulture": "aut"
+  "UiCulture": "et"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 335,
+  "DocumentId": 14,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "illo",
-  "Header": "occaecati",
-  "Name": "Roberts, Kiehn and Watsica",
-  "OurRef": "nostrum",
-  "YourRef": "harum",
-  "CreatedDate": "2003-03-25T17:54:03.0077127+01:00",
-  "UpdatedDate": "2024-01-08T17:54:03.0077127+01:00",
-  "Description": "Future-proofed needs-based approach",
+  "Attention": "ut",
+  "Header": "ex",
+  "Name": "Hyatt-Sanford",
+  "OurRef": "velit",
+  "YourRef": "quaerat",
+  "CreatedDate": "2003-06-10T03:45:23.3423327+02:00",
+  "UpdatedDate": "2000-11-20T03:45:23.3423327+01:00",
+  "Description": "Organized fault-tolerant process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-06-11T17:54:03.0077127+02:00",
-  "ExternalRef": "dolores",
+  "Date": "2022-02-27T03:45:23.3423327+01:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 402,
+  "ActiveLinks": 51,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Beier-Jaskolski",
-      "Id": 723,
-      "Description": "Phased real-time array",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 160,
+      "EntityName": "Larson-Halvorson",
+      "Id": 138,
+      "Description": "Profit-focused optimizing adapter",
+      "ExtraInfo": "voluptates",
+      "LinkId": 98,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 474
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 338,
-  "Snum": 694,
+  "SuggestedDocumentId": 471,
+  "Snum": 252,
   "UserDefinedFields": {
-    "SuperOffice:1": "Abraham Ernser IV",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "224023199",
+    "SuperOffice:2": "Genevieve Hintz"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "tempore"
+    "CustomFields1": "et",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "1998-03-03T17:54:03.0077127+01:00",
-  "PublishTo": "2018-03-24T17:54:03.0077127+01:00",
-  "PublishFrom": "2022-06-23T17:54:03.0077127+02:00",
+  "PublishEventDate": "2008-04-08T03:45:23.3423327+02:00",
+  "PublishTo": "2005-06-20T03:45:23.3423327+02:00",
+  "PublishFrom": "2004-01-19T03:45:23.3423327+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 515
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 515
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

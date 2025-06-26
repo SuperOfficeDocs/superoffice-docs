@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 618,
-  "Name": "Schiller LLC",
-  "Tooltip": "temporibus",
-  "VisibleColumns": 165,
-  "Rank": 445,
-  "AssocId": 971,
+  "DiaryViewId": 865,
+  "Name": "Lynch-Wunsch",
+  "Tooltip": "sunt",
+  "VisibleColumns": 540,
+  "Rank": 119,
+  "AssocId": 123,
   "AssociateList": [
     {
-      "Id": 55,
-      "Name": "Krajcik, Konopelski and Ward",
-      "ToolTip": "Perferendis reprehenderit odit magni nostrum dolores voluptates.",
+      "Id": 799,
+      "Name": "McCullough LLC",
+      "ToolTip": "Aut dignissimos.",
       "Deleted": true,
-      "Rank": 584,
-      "Type": "repudiandae",
-      "ColorBlock": 70,
-      "IconHint": "unde",
+      "Rank": 634,
+      "Type": "mollitia",
+      "ColorBlock": 422,
+      "IconHint": "optio",
       "Selected": false,
-      "LastChanged": "2022-05-13T17:54:02.7889727+02:00",
+      "LastChanged": "2012-10-26T03:45:23.0767156+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "ut",
+      "ExtraInfo": "et",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Ms. Isai Sauer V",
+      "FullName": "Ms. Lindsay Daugherty II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldLength": 501
         }
       }
     }
   ],
-  "TzLocationId": 536,
+  "TzLocationId": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 229
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Bashirian Inc and Sons",
-    "ToolTip": "Aliquid architecto voluptas dolor sed occaecati quo.",
+    "Id": 859,
+    "Name": "Kunze LLC",
+    "ToolTip": "Recusandae officia.",
     "Deleted": false,
-    "Rank": 625,
-    "Type": "dolorem",
-    "ColorBlock": 886,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2016-06-10T17:54:08.9136741+02:00",
+    "Rank": 339,
+    "Type": "consequuntur",
+    "ColorBlock": 885,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2004-01-01T03:45:29.0296674+01:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Kling-Lang",
-        "ToolTip": "Molestiae neque ad sunt qui vitae.",
-        "Deleted": true,
-        "Rank": 121,
-        "Type": "dolor",
-        "ColorBlock": 523,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2025-02-09T17:54:08.9136741+01:00",
+        "Id": 950,
+        "Name": "Fay, Brown and Olson",
+        "ToolTip": "Et enim eum expedita aperiam ut dolore veritatis.",
+        "Deleted": false,
+        "Rank": 125,
+        "Type": "consequatur",
+        "ColorBlock": 189,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2011-03-02T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Liza Mohr"
+        "ExtraInfo": "in",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Karson Mertz"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "nobis",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Coleman Harvey"
+    "FullName": "Alyce Tromp"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Doyle-Halvorson",
-    "ToolTip": "Eos voluptas animi et.",
-    "Deleted": false,
-    "Rank": 857,
-    "Type": "earum",
-    "ColorBlock": 153,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2013-12-02T17:54:08.9136741+01:00",
+    "Id": 684,
+    "Name": "Carroll-Goldner",
+    "ToolTip": "Et unde illo iusto aut a.",
+    "Deleted": true,
+    "Rank": 948,
+    "Type": "a",
+    "ColorBlock": 277,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2004-04-09T03:45:29.0296674+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Strosin, Conn and Bechtelar",
-        "ToolTip": "Expedita amet maxime consequatur in magni voluptate.",
+        "Id": 877,
+        "Name": "Feil, Farrell and Stanton",
+        "ToolTip": "In et corporis occaecati.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "error",
-        "ColorBlock": 934,
-        "IconHint": "illum",
+        "Rank": 161,
+        "Type": "autem",
+        "ColorBlock": 318,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2006-10-01T17:54:08.9136741+02:00",
+        "LastChanged": "2002-11-01T03:45:29.0296674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Jeramy Reilly MD",
+        "ExtraInfo": "quia",
+        "StyleHint": "perferendis",
+        "Hidden": true,
+        "FullName": "Carter Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 363
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Miles Jacobson",
+    "ExtraInfo": "illum",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Domenick Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 312
       }
     }
   }

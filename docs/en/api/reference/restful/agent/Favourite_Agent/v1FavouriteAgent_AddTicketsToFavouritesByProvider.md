@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weissnat-Kohler",
+  "ProviderName": "Berge Group",
   "Restrictions": [
     {
-      "Name": "Sporer-Brown",
-      "Operator": "cupiditate",
+      "Name": "Boehm-Langworth",
+      "Operator": "in",
       "Values": [
-        "alias",
-        "mollitia"
+        "praesentium",
+        "ut"
       ],
       "DisplayValues": [
-        "rerum",
-        "suscipit"
+        "facere",
+        "debitis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 272,
+      "InterParenthesis": 824,
       "InterOperator": "And",
-      "UniqueHash": 470
+      "UniqueHash": 743
     }
   ],
-  "AssociateId": 122,
-  "ExtraInfo": "ipsa"
+  "AssociateId": 70,
+  "ExtraInfo": "quia"
 }
 ```
 

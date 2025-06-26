@@ -483,7 +483,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/associateType,person/personInfo/infoText,person/correspondingAssociate/contactName,person/isMailingRecipient,contact/NumberOfTickets
+GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/lastName,person/personAddress/city,contact/streetAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

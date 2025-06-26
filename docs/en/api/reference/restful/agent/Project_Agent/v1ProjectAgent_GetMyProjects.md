@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 634,
-    "Name": "Skiles-Schumm",
-    "Description": "Re-engineered uniform hierarchy",
+    "ProjectId": 25,
+    "Name": "Ryan LLC",
+    "Description": "Cross-group attitude-oriented architecture",
     "URL": "http://www.example.com/",
-    "Type": "nisi",
-    "AssociateId": 594,
-    "AssociateFullName": "Miss Ricardo Ferry",
-    "TypeId": 125,
-    "Updated": "2022-02-06T17:54:03.4920634+01:00",
-    "StatusId": 281,
-    "Status": "id",
-    "TextId": 71,
-    "PublishTo": "2002-12-21T17:54:03.4920634+01:00",
-    "PublishFrom": "2019-11-06T17:54:03.4920634+01:00",
+    "Type": "numquam",
+    "AssociateId": 991,
+    "AssociateFullName": "Damien Corkery",
+    "TypeId": 820,
+    "Updated": "2000-09-02T03:45:23.7798203+02:00",
+    "StatusId": 750,
+    "Status": "in",
+    "TextId": 677,
+    "PublishTo": "2000-01-31T03:45:23.7798203+01:00",
+    "PublishFrom": "2010-09-22T03:45:23.7798203+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "261733",
-    "ActiveErpLinks": 721,
+    "ProjectNumber": "842452",
+    "ActiveErpLinks": 358,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldLength": 942
       }
     }
   }

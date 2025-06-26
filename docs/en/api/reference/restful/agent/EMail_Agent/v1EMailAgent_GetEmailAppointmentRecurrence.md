@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 83
+  "MailItemId": 180
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 860,
-  "StartDate": "2009-04-24T17:54:03.0702097+02:00",
-  "EndDate": "2001-04-19T17:54:03.0702097+02:00",
-  "RecurrenceCounter": 786,
+  "RecurrenceId": 714,
+  "StartDate": "2016-03-13T03:45:23.4048314+01:00",
+  "EndDate": "2023-09-22T03:45:23.4048314+02:00",
+  "RecurrenceCounter": 129,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2018-08-15T17:54:03.0702097+02:00",
+      "Date": "2000-12-28T03:45:23.4048314+01:00",
       "IsConflict": false,
-      "Description": "Reduced 6th generation moderator",
-      "DescriptionStyleHint": "Networked intermediate alliance",
-      "Tooltip": "ut"
+      "Description": "Persistent bottom-line migration",
+      "DescriptionStyleHint": "Face to face executive knowledge base",
+      "Tooltip": "est"
     },
     {
-      "Date": "2018-08-15T17:54:03.0702097+02:00",
+      "Date": "2000-12-28T03:45:23.4048314+01:00",
       "IsConflict": false,
-      "Description": "Reduced 6th generation moderator",
-      "DescriptionStyleHint": "Networked intermediate alliance",
-      "Tooltip": "ut"
+      "Description": "Persistent bottom-line migration",
+      "DescriptionStyleHint": "Face to face executive knowledge base",
+      "Tooltip": "est"
     }
   ],
   "IsRecurrence": false

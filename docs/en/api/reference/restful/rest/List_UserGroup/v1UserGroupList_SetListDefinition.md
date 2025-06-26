@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Harvey Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 864,
+  "Name": "Keebler-Robel",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "Rank": 797,
+  "Rank": 112,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Kirlin, Rowe and Hilll",
-  "Tooltip": "labore",
+  "Id": 316,
+  "Name": "Russel-Schiller",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 810,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "Rank": 553,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 642
     }
   }
 }

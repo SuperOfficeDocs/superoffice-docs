@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=mollitia
-GET /api/v1/Person?$top=548
-GET /api/v1/Person?$skip=740
+GET /api/v1/Person?$entities=illum
+GET /api/v1/Person?$top=28
+GET /api/v1/Person?$skip=662
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=autem
+GET /api/v1/Person?$context=ad
 GET /api/v1/Person?$format=JSON
-GET /api/v1/Person?$jsonSafe=True
+GET /api/v1/Person?$jsonSafe=False
 GET /api/v1/Person?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 2806,
-      "EntityName": "sale",
-      "saleId": 2806,
-      "contactId": 3784,
-      "name": "Gutmann-Satterfield"
+      "PrimaryKey": 5217,
+      "EntityName": "person",
+      "personId": 5217,
+      "fullName": "Corrine Schoen"
     },
     {
-      "PrimaryKey": 3996,
-      "EntityName": "sale",
-      "saleId": 3996,
-      "contactId": 8668,
-      "name": "Jerde, Torphy and Donnelly"
+      "PrimaryKey": 8634,
+      "EntityName": "person",
+      "personId": 8634,
+      "fullName": "Raven Muller"
     }
   ]
 }

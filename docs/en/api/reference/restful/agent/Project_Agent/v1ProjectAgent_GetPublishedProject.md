@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 213
+  "ProjectId": 176
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 58,
-  "Name": "Hills, Walter and Stanton",
-  "Description": "Visionary discrete complexity",
+  "ProjectId": 823,
+  "Name": "Rodriguez Group",
+  "Description": "Robust holistic paradigm",
   "URL": "http://www.example.com/",
-  "Type": "et",
-  "AssociateId": 962,
-  "AssociateFullName": "Woodrow Greenfelder",
-  "TypeId": 32,
-  "Updated": "2023-11-10T17:54:03.4920634+01:00",
-  "StatusId": 963,
-  "Status": "deleniti",
-  "TextId": 835,
-  "PublishTo": "1999-07-15T17:54:03.4920634+02:00",
-  "PublishFrom": "2022-01-16T17:54:03.4920634+01:00",
-  "IsPublished": true,
+  "Type": "occaecati",
+  "AssociateId": 266,
+  "AssociateFullName": "Korey Huels",
+  "TypeId": 501,
+  "Updated": "2016-08-06T03:45:23.7798203+02:00",
+  "StatusId": 231,
+  "Status": "assumenda",
+  "TextId": 144,
+  "PublishTo": "2016-06-21T03:45:23.7798203+02:00",
+  "PublishFrom": "2001-09-08T03:45:23.7798203+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "900985",
-  "ActiveErpLinks": 713,
+  "ProjectNumber": "194658",
+  "ActiveErpLinks": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 296
     }
   }
 }

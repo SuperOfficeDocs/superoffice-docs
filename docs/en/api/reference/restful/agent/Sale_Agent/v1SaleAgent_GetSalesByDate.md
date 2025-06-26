@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-10-03T17:54:03.5858088+02:00",
-  "ToDate": "2014-12-27T17:54:03.5858088+01:00",
-  "AmountLimit": 906,
+  "FromDate": "1999-12-20T03:45:23.8735682+01:00",
+  "ToDate": "2015-09-07T03:45:23.8735682+02:00",
+  "AmountLimit": 191,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bechtelar, Russel and Medhurst",
-    "SaleDate": "2001-02-02T17:54:03.5858088+01:00",
-    "SaleId": 34,
-    "Probability": 503,
-    "Title": "vero",
-    "Amount": 5390.48,
-    "Currency": "maxime",
-    "ProjectName": "Homenick Group",
-    "AssociateFullName": "Kolby Morar",
-    "Description": "Re-engineered neutral internet solution",
+    "ContactName": "Collins LLC",
+    "SaleDate": "2003-03-01T03:45:23.8735682+01:00",
+    "SaleId": 388,
+    "Probability": 969,
+    "Title": "quasi",
+    "Amount": 28343.896,
+    "Currency": "nulla",
+    "ProjectName": "Johns Inc and Sons",
+    "AssociateFullName": "Lela Runolfsdottir",
+    "Description": "Expanded dedicated methodology",
     "Status": "Lost",
-    "WeightedAmount": 6374.556,
-    "ProjectId": 594,
-    "EarningPercent": 25811.624,
-    "Earning": 12473.32,
-    "ContactId": 684,
-    "AssociateId": 939,
-    "PersonId": 978,
-    "SaleTypeId": 349,
-    "SaleTypeName": "Moen-Kutch",
-    "PersonFullName": "Prof. Trenton Keeley Cole",
+    "WeightedAmount": 7183.128,
+    "ProjectId": 432,
+    "EarningPercent": 6148.9079999999994,
+    "Earning": 21373.88,
+    "ContactId": 609,
+    "AssociateId": 458,
+    "PersonId": 46,
+    "SaleTypeId": 292,
+    "SaleTypeName": "Kuhlman, Carter and Runolfsdottir",
+    "PersonFullName": "Wanda Jerde",
     "Completed": "Completed",
-    "ActiveErpLinks": 441,
-    "NextDueDate": "2000-03-13T17:54:03.5858088+01:00",
-    "Number": "1064686",
+    "ActiveErpLinks": 394,
+    "NextDueDate": "1998-03-14T03:45:23.8735682+01:00",
+    "Number": "701028",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 535
       }
     }
   }

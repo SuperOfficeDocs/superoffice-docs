@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Eichmann-Streich"
+  "ApplicationName": "Boyle Inc and Sons"
 }
 ```
 

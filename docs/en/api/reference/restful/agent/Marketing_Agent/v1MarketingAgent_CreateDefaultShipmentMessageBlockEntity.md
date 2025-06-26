@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 249,
-  "AssociateId": 369,
-  "Block": "deserunt",
-  "Registered": "2010-09-21T17:54:03.3202006+02:00",
-  "RegisteredAssociateId": 275,
-  "Updated": "1998-12-25T17:54:03.3202006+01:00",
-  "UpdatedAssociateId": 664,
-  "UpdatedCount": 924,
+  "ShipmentMessageBlockId": 219,
+  "AssociateId": 468,
+  "Block": "fuga",
+  "Registered": "2011-04-08T03:45:23.6235756+02:00",
+  "RegisteredAssociateId": 497,
+  "Updated": "2011-01-05T03:45:23.6235756+01:00",
+  "UpdatedAssociateId": 917,
+  "UpdatedCount": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 366
     }
   }
 }

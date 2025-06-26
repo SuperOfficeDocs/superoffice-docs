@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RagType
+  commentId: T:SuperOffice.WebApi.Data.RagType
+  id: RagType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RagType.Document
+  - SuperOffice.WebApi.Data.RagType.FAQ
+  - SuperOffice.WebApi.Data.RagType.None
+  - SuperOffice.WebApi.Data.RagType.Product
+  - SuperOffice.WebApi.Data.RagType.Ticket
+  - SuperOffice.WebApi.Data.RagType.Webpage
+  langs:
+  - csharp
+  - vb
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.WebApi.Data.RagType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: AI RAG Content types
+  example: []
+  syntax:
+    content: public enum RagType
+    content.vb: Public Enum RagType
+- uid: SuperOffice.WebApi.Data.RagType.None
+  commentId: F:SuperOffice.WebApi.Data.RagType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RagType.None
+  fullName: SuperOffice.WebApi.Data.RagType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None - unknown type'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.Ticket
+  commentId: F:SuperOffice.WebApi.Data.RagType.Ticket
+  id: Ticket
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: RagType.Ticket
+  fullName: SuperOffice.WebApi.Data.RagType.Ticket
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Ticket - request messages'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Ticket = 1
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Ticket = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.Webpage
+  commentId: F:SuperOffice.WebApi.Data.RagType.Webpage
+  id: Webpage
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Webpage
+  nameWithType: RagType.Webpage
+  fullName: SuperOffice.WebApi.Data.RagType.Webpage
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Webpage - one or more web pages'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Webpage = 2
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Webpage = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.Document
+  commentId: F:SuperOffice.WebApi.Data.RagType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: RagType.Document
+  fullName: SuperOffice.WebApi.Data.RagType.Document
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Document - Docx/pptx/rtf/txt documents'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Document = 3
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Document = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.FAQ
+  commentId: F:SuperOffice.WebApi.Data.RagType.FAQ
+  id: FAQ
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: FAQ
+  nameWithType: RagType.FAQ
+  fullName: SuperOffice.WebApi.Data.RagType.FAQ
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: FAQ - Knowledge base entries'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      FAQ = 4
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      FAQ = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.RagType.Product
+  commentId: F:SuperOffice.WebApi.Data.RagType.Product
+  id: Product
+  parent: SuperOffice.WebApi.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: RagType.Product
+  fullName: SuperOffice.WebApi.Data.RagType.Product
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '5: Product - product info from pricelists'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Product = 5
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Product = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.RagType
+  commentId: T:SuperOffice.WebApi.Data.RagType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.WebApi.Data.RagType

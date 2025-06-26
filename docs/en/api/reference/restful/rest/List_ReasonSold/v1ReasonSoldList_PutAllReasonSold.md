@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Bogisich, Gorczany and Franecki",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 525,
-    "Rank": 997
+    "Id": 17,
+    "Name": "Grimes LLC",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 148,
+    "Rank": 114
   },
   {
-    "Id": 203,
-    "Name": "Bogisich, Gorczany and Franecki",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 525,
-    "Rank": 997
+    "Id": 17,
+    "Name": "Grimes LLC",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 148,
+    "Rank": 114
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Kohler, Ondricka and Botsford",
-    "Tooltip": "sunt",
+    "Id": 653,
+    "Name": "Swift-Schmeler",
+    "Tooltip": "quo",
     "Deleted": false,
-    "UdListDefinitionId": 286,
-    "Rank": 495,
+    "UdListDefinitionId": 524,
+    "Rank": 497,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 546
       }
     }
   }

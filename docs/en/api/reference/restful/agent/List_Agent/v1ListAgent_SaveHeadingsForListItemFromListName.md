@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hauck Inc and Sons",
-  "ListItemId": 404,
+  "UdListDefinitionName": "Hoeger, Friesen and Reichert",
+  "ListItemId": 563,
   "Headings": [
     {
-      "Id": 294,
-      "Name": "Cronin, McLaughlin and West",
-      "ToolTip": "Sint quo aut ut error.",
+      "Id": 460,
+      "Name": "McLaughlin, Mann and Nicolas",
+      "ToolTip": "Occaecati magni.",
       "Deleted": false,
-      "Rank": 981,
-      "Type": "et",
-      "ColorBlock": 689,
-      "IconHint": "ut",
+      "Rank": 537,
+      "Type": "minus",
+      "ColorBlock": 748,
+      "IconHint": "accusamus",
       "Selected": false,
-      "LastChanged": "2008-04-29T17:54:03.2264522+02:00",
+      "LastChanged": "2011-03-13T03:45:23.5927257+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Theron Howe"
+      "ExtraInfo": "ut",
+      "StyleHint": "natus",
+      "Hidden": false,
+      "FullName": "Miss Gaetano Greenfelder"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Hagenes-D'Amore",
-    "ToolTip": "Sapiente omnis mollitia totam animi.",
+    "Id": 561,
+    "Name": "Heidenreich, Deckow and Mraz",
+    "ToolTip": "Aperiam dicta ut.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "tenetur",
-    "ColorBlock": 224,
-    "IconHint": "aut",
+    "Rank": 520,
+    "Type": "ipsum",
+    "ColorBlock": 348,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "2025-02-13T17:54:03.2264522+01:00",
+    "LastChanged": "1998-11-15T03:45:23.5927257+01:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Stoltenberg-Auer",
-        "ToolTip": "Saepe doloremque quia id eaque accusamus voluptatem.",
-        "Deleted": false,
-        "Rank": 782,
-        "Type": "veritatis",
-        "ColorBlock": 542,
+        "Id": 335,
+        "Name": "Orn Group",
+        "ToolTip": "Quis aut nemo neque eaque animi sit quo.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "molestiae",
+        "ColorBlock": 286,
         "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1999-04-07T17:54:03.2420756+02:00",
+        "LastChanged": "2013-07-06T03:45:23.5927257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolores",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Mr. Norwood Purdy",
+        "FullName": "Era Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldType": "System.String",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "quos",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Emmalee Shanahan",
+    "FullName": "Miss Carolanne Arch Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldLength": 630
       }
     }
   }

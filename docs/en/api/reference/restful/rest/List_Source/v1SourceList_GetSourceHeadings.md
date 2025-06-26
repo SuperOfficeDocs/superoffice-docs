@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 20,
-    "Name": "Stehr, Maggio and Rippin",
-    "Tooltip": "quod",
+    "HeadingId": 820,
+    "Name": "Cole, Sporer and Beahan",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 729,
-    "UdListDefinitionId": 438,
+    "Rank": 852,
+    "UdListDefinitionId": 166,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 89
       }
     }
   }

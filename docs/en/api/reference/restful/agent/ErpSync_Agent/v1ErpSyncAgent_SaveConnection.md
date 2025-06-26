@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 576,
-  "ErpConnectorId": 870,
-  "DisplayName": "Legros, Fisher and Gislason",
-  "DisplayDescription": "De-engineered incremental forecast",
-  "Active": true,
-  "ConnectionId": "quam",
-  "MostRecentTimestamp": "soluta",
+  "ErpConnectionId": 414,
+  "ErpConnectorId": 35,
+  "DisplayName": "Romaguera-Dicki",
+  "DisplayDescription": "Secured maximized software",
+  "Active": false,
+  "ConnectionId": "ex",
+  "MostRecentTimestamp": "quidem",
   "ConfigFields": {
-    "ConfigFields1": "et",
-    "ConfigFields2": "consectetur"
+    "ConfigFields1": "in",
+    "ConfigFields2": "aut"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    755,
-    802
+    399,
+    304
   ],
   "AssociateAccessIds": [
-    855,
-    316
+    545,
+    894
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

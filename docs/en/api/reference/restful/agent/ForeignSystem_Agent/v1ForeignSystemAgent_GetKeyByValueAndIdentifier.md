@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wuckert, Hane and Von",
-  "DeviceName": "Balistreri LLC",
-  "DeviceIdentifier": "explicabo",
-  "KeyName": "Kessler-McDermott",
-  "KeyValue": "nesciunt",
-  "TableName": "O'Keefe, Collins and Pfannerstill"
+  "ApplicationName": "Medhurst, Kohler and Streich",
+  "DeviceName": "Douglas-Morissette",
+  "DeviceIdentifier": "aliquam",
+  "KeyName": "Walsh LLC",
+  "KeyValue": "quisquam",
+  "TableName": "Kutch-Bayer"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "hic",
-  "Value": "in",
-  "RecordId": 810,
-  "CreatedDate": "2024-08-22T17:54:03.1795788+02:00",
-  "UpdatedDate": "2010-06-24T17:54:03.1795788+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "id",
-  "TableName": "Schiller, Osinski and Gerhold",
+  "Key": "iure",
+  "Value": "perspiciatis",
+  "RecordId": 945,
+  "CreatedDate": "2013-04-09T03:45:23.4829546+02:00",
+  "UpdatedDate": "1998-06-16T03:45:23.4829546+02:00",
+  "UpdatedBy": "fugit",
+  "CreatedBy": "quia",
+  "TableName": "VonRueden, Hessel and Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 282
     }
   }
 }

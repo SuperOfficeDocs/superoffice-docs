@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 273
+  "TicketEntityId": 346
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 615,
-    "Name": "Pacocha, Dooley and Schmitt",
-    "ContentType": "maxime",
-    "AttSize": 180,
-    "InlineImage": false,
-    "ContentId": "ut",
-    "AuthKey": "dolores",
+    "AttachmentId": 487,
+    "Name": "Wyman LLC",
+    "ContentType": "quia",
+    "AttSize": 981,
+    "InlineImage": true,
+    "ContentId": "consequuntur",
+    "AuthKey": "qui",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldLength": 49
       }
     }
   }

@@ -68,7 +68,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "XmlOrJson": "enim"
+  "XmlOrJson": "adipisci"
 }
 ```
 

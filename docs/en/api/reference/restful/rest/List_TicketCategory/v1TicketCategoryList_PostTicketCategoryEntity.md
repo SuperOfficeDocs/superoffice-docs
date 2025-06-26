@@ -103,29 +103,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 292,
-  "ParentId": 353,
-  "Name": "Jewess-Hamill",
-  "Fullname": "voluptate",
-  "CategoryMaster": 732,
+  "TicketCategoryId": 22,
+  "ParentId": 636,
+  "Name": "Boyle-Volkman",
+  "Fullname": "consequatur",
+  "CategoryMaster": 980,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stehr Group",
+  "ExternalName": "Gleason-Lehner",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 961,
-  "ReplyTemplate": 878,
-  "NotificationEmail": "hank.murazik@danielhessel.name",
+  "AssignmentLag": 594,
+  "ReplyTemplate": 158,
+  "NotificationEmail": "joe_turcotte@effertz.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 263,
+  "EffectiveReplyTemplateId": 982,
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "quidem"
+    "CustomFields1": "in",
+    "CustomFields2": "accusamus"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 82,
-  "ParentId": 403,
-  "Name": "Johns, Dare and Hermann",
-  "Fullname": "totam",
-  "CategoryMaster": 446,
+  "TicketCategoryId": 131,
+  "ParentId": 459,
+  "Name": "Fadel Inc and Sons",
+  "Fullname": "odio",
+  "CategoryMaster": 577,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuphal Inc and Sons",
+  "ExternalName": "Hermann, Greenfelder and Koch",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 1001,
-  "ReplyTemplate": 129,
-  "NotificationEmail": "nicholas_treutel@von.ca",
+  "AssignmentLag": 252,
+  "ReplyTemplate": 128,
+  "NotificationEmail": "molly.hayes@daniel.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 270,
+  "EffectiveReplyTemplateId": 545,
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "quae"
+    "CustomFields1": "error",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 952
     }
   }
 }

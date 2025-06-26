@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kohler Group",
+  "Name": "Okuneva, Adams and Wintheiser",
   "Entities": [
     {
-      "HeadingId": 943,
-      "Name": "Boyle-Larson",
-      "Tooltip": "ea",
+      "HeadingId": 123,
+      "Name": "Mayer Group",
+      "Tooltip": "odit",
       "Deleted": false,
-      "Rank": 678,
-      "UdListDefinitionId": 754
+      "Rank": 656,
+      "UdListDefinitionId": 63
     },
     {
-      "HeadingId": 943,
-      "Name": "Boyle-Larson",
-      "Tooltip": "ea",
+      "HeadingId": 123,
+      "Name": "Mayer Group",
+      "Tooltip": "odit",
       "Deleted": false,
-      "Rank": 678,
-      "UdListDefinitionId": 754
+      "Rank": 656,
+      "UdListDefinitionId": 63
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 220,
-    "Name": "Koss, Barton and Runolfsdottir",
-    "Tooltip": "neque",
+    "HeadingId": 870,
+    "Name": "Considine, Robel and Mueller",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 554,
-    "UdListDefinitionId": 649,
+    "Rank": 799,
+    "UdListDefinitionId": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldLength": 460
       }
     }
   }

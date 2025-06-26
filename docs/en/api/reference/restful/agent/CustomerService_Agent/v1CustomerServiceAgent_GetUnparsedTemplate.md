@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 308,
-  "LanguageId": 195
+  "ReplyTemplateId": 991,
+  "LanguageId": 863
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 642,
-  "PlainParsed": "aut",
-  "HtmlParsed": "possimus",
+  "ReplyTemplateId": 899,
+  "PlainParsed": "autem",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 938,
-      "Name": "Schuppe Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 678,
+      "AttachmentId": 875,
+      "Name": "Gerhold, Kautzer and Kovacek",
+      "ContentType": "quis",
+      "AttSize": 968,
       "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "facilis",
-      "IsSafeFileExtension": false,
+      "ContentId": "placeat",
+      "AuthKey": "earum",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldLength": 891
         }
       }
     }
   ],
-  "Subject": "ipsam",
+  "Subject": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

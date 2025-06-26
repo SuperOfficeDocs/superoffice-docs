@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "perferendis"
+  "UniqueIdentifier": "ratione"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sequi",
-  "Name": "Steuber LLC",
-  "Description": "Function-based uniform structure",
-  "IncludeId": "inventore",
-  "Source": "veritatis",
-  "Registered": "2018-02-02T17:54:02.9139671+01:00",
-  "RegisteredBy": "quia",
-  "Updated": "2010-07-20T17:54:02.9139671+02:00",
+  "UniqueIdentifier": "ullam",
+  "Name": "Zieme LLC",
+  "Description": "Extended discrete moderator",
+  "IncludeId": "aut",
+  "Source": "quisquam",
+  "Registered": "2015-02-21T03:45:23.2329582+01:00",
+  "RegisteredBy": "natus",
+  "Updated": "2012-08-14T03:45:23.2329582+02:00",
   "UpdatedBy": "sed",
-  "Path": "quia",
+  "Path": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 514
     }
   }
 }

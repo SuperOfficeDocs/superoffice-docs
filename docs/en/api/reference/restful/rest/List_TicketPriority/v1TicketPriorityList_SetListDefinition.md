@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Hegmann, Kreiger and Barton",
-  "Tooltip": "harum",
+  "Id": 818,
+  "Name": "Kautzer Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": true,
-  "Rank": 766,
+  "Rank": 897,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "provident",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Fahey, Tremblay and Yundt",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 389,
+  "Id": 292,
+  "Name": "Johnston Inc and Sons",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 973,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldLength": 267
     }
   }
 }

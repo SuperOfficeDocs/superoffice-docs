@@ -71,10 +71,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloremque",
-  "ProviderName": "Howell Group",
-  "StorageKey": "dolor",
-  "Restrictions": "qui"
+  "StorageType": "qui",
+  "ProviderName": "Conroy Inc and Sons",
+  "StorageKey": "quod",
+  "Restrictions": "culpa"
 }
 ```
 

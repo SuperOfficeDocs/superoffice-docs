@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Cartwright LLC",
-    "ToolTip": "Quisquam suscipit illo dicta est.",
-    "Deleted": false,
-    "Rank": 246,
-    "Type": "nemo",
-    "ColorBlock": 278,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2024-09-30T17:54:08.8824262+02:00",
+    "Id": 348,
+    "Name": "Kunze LLC",
+    "ToolTip": "Cumque unde sint animi quia sunt qui eum.",
+    "Deleted": true,
+    "Rank": 313,
+    "Type": "officiis",
+    "ColorBlock": 714,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2007-03-12T03:45:28.9984183+01:00",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Konopelski-Emmerich",
-        "ToolTip": "Est officiis blanditiis laborum veniam.",
-        "Deleted": true,
-        "Rank": 207,
-        "Type": "velit",
-        "ColorBlock": 48,
-        "IconHint": "voluptate",
+        "Id": 607,
+        "Name": "Jast-Crona",
+        "ToolTip": "Id dicta.",
+        "Deleted": false,
+        "Rank": 317,
+        "Type": "ut",
+        "ColorBlock": 130,
+        "IconHint": "impedit",
         "Selected": true,
-        "LastChanged": "2001-01-30T17:54:08.8824262+01:00",
+        "LastChanged": "2003-09-10T03:45:28.9984183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Claudia Crona",
+        "ExtraInfo": "a",
+        "StyleHint": "error",
+        "Hidden": false,
+        "FullName": "Katheryn Adriana Ullrich V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldType": "System.Int32",
+            "FieldLength": 750
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Antonetta Paucek",
+    "ExtraInfo": "sed",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Nichole Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 610
       }
     }
   }

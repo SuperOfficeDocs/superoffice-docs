@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 683,
-  "ColumnId": 286,
-  "FieldDefault": "odio",
-  "FieldHeight": 906,
-  "FieldLabel": "quae",
-  "FieldLeft": 576,
-  "FieldTop": 285,
+  "UDefFieldId": 808,
+  "ColumnId": 564,
+  "FieldDefault": "nisi",
+  "FieldHeight": 100,
+  "FieldLabel": "sapiente",
+  "FieldLeft": 319,
+  "FieldTop": 147,
   "FieldType": "Checkbox",
-  "FieldWidth": 361,
-  "FormatMask": "necessitatibus",
+  "FieldWidth": 23,
+  "FormatMask": "est",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 335,
-  "LabelLeft": 818,
-  "LabelTop": 36,
-  "LabelWidth": 848,
-  "LastVersionId": 516,
-  "ListTableId": 694,
+  "IsIndexed": true,
+  "LabelHeight": 828,
+  "LabelLeft": 683,
+  "LabelTop": 303,
+  "LabelWidth": 465,
+  "LastVersionId": 173,
+  "ListTableId": 765,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 1000,
-  "ProgId": "cupiditate",
+  "Page1LineNo": 928,
+  "ProgId": "quam",
   "IsReadOnly": false,
-  "ShortLabel": "incidunt",
-  "TabOrder": 993,
-  "TextLength": 249,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 310,
-  "UDListDefinitionId": 170,
+  "ShortLabel": "ut",
+  "TabOrder": 724,
+  "TextLength": 168,
+  "Tooltip": "illum",
+  "UdefIdentity": 414,
+  "UDListDefinitionId": 907,
   "Justification": "Center",
-  "Version": 495,
-  "TemplateVariableName": "Goyette, Friesen and Bahringer",
+  "Version": 250,
+  "TemplateVariableName": "Grady-Fahey",
   "HasBeenPublished": true,
-  "MdoListName": "Weimann-Runolfsdottir",
+  "MdoListName": "Rolfson-O'Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 574
     }
   }
 }

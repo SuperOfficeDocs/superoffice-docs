@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Feest, Hoeger and Lubowitz",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 930,
-  "Rank": 728,
+  "Id": 440,
+  "Name": "Eichmann Inc and Sons",
+  "Tooltip": "impedit",
+  "Deleted": true,
+  "UdListDefinitionId": 488,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldLength": 215
     }
   }
 }

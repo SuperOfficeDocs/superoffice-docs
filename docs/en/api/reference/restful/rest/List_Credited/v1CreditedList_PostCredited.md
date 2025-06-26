@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Nicolas, West and Hessel",
-  "Tooltip": "exercitationem",
+  "Id": 811,
+  "Name": "Luettgen, Kautzer and Kiehn",
+  "Tooltip": "ipsam",
   "Deleted": true,
-  "UdListDefinitionId": 980,
-  "Rank": 447
+  "UdListDefinitionId": 382,
+  "Rank": 624
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 606,
-  "Name": "Lang-Goyette",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "UdListDefinitionId": 243,
-  "Rank": 329,
+  "Id": 174,
+  "Name": "Lockman LLC",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "UdListDefinitionId": 16,
+  "Rank": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Quigley Inc and Sons",
-  "AssociateId": 617,
-  "DetailsTable": 866,
-  "DetailsRecord": 717,
-  "IsSystemTask": true,
+  "Id": 992,
+  "Name": "Corwin Inc and Sons",
+  "AssociateId": 316,
+  "DetailsTable": 223,
+  "DetailsRecord": 539,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "facilis",
-    "ParameterObject2": "eius"
+    "ParameterObject1": "modi",
+    "ParameterObject2": "expedita"
   },
-  "LastStarted": "2012-06-18T17:54:02.6639794+02:00",
-  "Created": "2011-02-17T17:54:02.6639794+01:00",
-  "StartCount": 745,
-  "DatabaseSerialNumber": "1682270",
-  "Context": "tempora",
-  "Result": "ipsam",
+  "LastStarted": "2009-11-10T03:45:22.9829669+01:00",
+  "Created": "2002-01-22T03:45:22.9829669+01:00",
+  "StartCount": 11,
+  "DatabaseSerialNumber": "838642",
+  "Context": "praesentium",
+  "Result": "veniam",
   "State": "All",
-  "Description": "Fully-configurable 4th generation parallelism",
-  "Response": "iusto",
-  "Request": "vel",
-  "ProgressDescription": "Optional bottom-line leverage",
-  "ProgressPercent": 519,
-  "FileName": "Cole, Abernathy and Jones",
+  "Description": "Phased motivating budgetary management",
+  "Response": "commodi",
+  "Request": "facere",
+  "ProgressDescription": "Customizable bi-directional data-warehouse",
+  "ProgressPercent": 180,
+  "FileName": "Ward-Reilly",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 338
     }
   }
 }

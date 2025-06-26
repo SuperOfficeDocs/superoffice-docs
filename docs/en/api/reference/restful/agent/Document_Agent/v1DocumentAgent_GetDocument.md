@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=918
+POST /api/v1/Agents/Document/GetDocument?documentId=181
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 642,
-  "Attention": "nulla",
-  "Header": "ab",
-  "Name": "Pouros, Lubowitz and Blanda",
-  "OurRef": "a",
-  "YourRef": "soluta",
-  "Description": "Virtual holistic model",
-  "DocumentTemplate": "vitae",
+  "DocumentId": 258,
+  "Attention": "maiores",
+  "Header": "alias",
+  "Name": "Murphy Inc and Sons",
+  "OurRef": "molestias",
+  "YourRef": "incidunt",
+  "Description": "Exclusive bottom-line matrices",
+  "DocumentTemplate": "voluptatem",
   "IsPublished": false,
-  "PersonId": 168,
-  "PersonFullName": "Reyes Lueilwitz",
-  "AssociateFullName": "Mrs. Destany Donnelly PhD",
-  "ContactId": 478,
-  "ContactName": "Daugherty LLC",
-  "ProjectId": 346,
-  "ProjectName": "Heller-Runolfsdottir",
-  "AssociateId": 58,
-  "Snum": 772,
-  "SaleId": 797,
-  "SaleName": "Stehr Inc and Sons",
+  "PersonId": 118,
+  "PersonFullName": "Gaston Kutch",
+  "AssociateFullName": "Eino Terry",
+  "ContactId": 246,
+  "ContactName": "Crooks Inc and Sons",
+  "ProjectId": 167,
+  "ProjectName": "Harris, Flatley and Aufderhar",
+  "AssociateId": 341,
+  "Snum": 507,
+  "SaleId": 489,
+  "SaleName": "Erdman, Cruickshank and Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

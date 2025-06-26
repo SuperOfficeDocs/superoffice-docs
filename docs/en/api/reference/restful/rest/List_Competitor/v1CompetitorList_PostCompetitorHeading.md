@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 778,
-  "Name": "Mayert, Effertz and Shields",
-  "Tooltip": "consequatur",
+  "HeadingId": 233,
+  "Name": "Kirlin Inc and Sons",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 547,
-  "UdListDefinitionId": 985
+  "Rank": 782,
+  "UdListDefinitionId": 909
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 874,
-  "Name": "McCullough-Considine",
-  "Tooltip": "doloremque",
+  "HeadingId": 728,
+  "Name": "Mertz-Pfannerstill",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 790,
-  "UdListDefinitionId": 151,
+  "Rank": 14,
+  "UdListDefinitionId": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 230
     }
   }
 }

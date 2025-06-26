@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 862,
-  "Name": "Ebert, Russel and Bartoletti",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 769,
-  "UdListDefinitionId": 553
+  "HeadingId": 745,
+  "Name": "Hagenes Inc and Sons",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "Rank": 275,
+  "UdListDefinitionId": 651
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 466,
-  "Name": "Nienow-Feeney",
-  "Tooltip": "rerum",
+  "HeadingId": 655,
+  "Name": "Paucek, Stehr and Carter",
+  "Tooltip": "illum",
   "Deleted": true,
-  "Rank": 779,
-  "UdListDefinitionId": 224,
+  "Rank": 360,
+  "UdListDefinitionId": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

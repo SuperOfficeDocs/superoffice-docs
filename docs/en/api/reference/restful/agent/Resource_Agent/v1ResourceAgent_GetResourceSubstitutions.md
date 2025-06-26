@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Gaylord Group",
-    "Weissnat, King and Schoen"
+    "Trantow, Ondricka and Braun",
+    "Abernathy, Ernser and Schmidt"
   ],
-  "Culture": "eum",
-  "ActiveOnly": true
+  "Culture": "animi",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Stokes Inc and Sons",
-    "ResourceValue": "ad",
-    "Culture": "recusandae",
+    "ResourceName": "Will Group",
+    "ResourceValue": "voluptatem",
+    "Culture": "quod",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 335
       }
     }
   },
   {
-    "ResourceName": "Stokes Inc and Sons",
-    "ResourceValue": "ad",
-    "Culture": "recusandae",
+    "ResourceName": "Will Group",
+    "ResourceValue": "voluptatem",
+    "Culture": "quod",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 335
       }
     }
   }

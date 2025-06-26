@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Kihn Inc and Sons",
-    "ToolTip": "Itaque cupiditate quia.",
+    "Id": 103,
+    "Name": "Kshlerin-Dare",
+    "ToolTip": "Maiores est distinctio quia vero id omnis.",
     "Deleted": true,
-    "Rank": 269,
-    "Type": "ullam",
-    "ColorBlock": 11,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-08-25T17:54:08.9917951+02:00",
+    "Rank": 63,
+    "Type": "beatae",
+    "ColorBlock": 53,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2001-04-07T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Johnson LLC",
-        "ToolTip": "Aut quod ut culpa iste repellendus quis porro.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "hic",
-        "ColorBlock": 15,
-        "IconHint": "et",
+        "Id": 894,
+        "Name": "Okuneva-Jaskolski",
+        "ToolTip": "Pariatur quia.",
+        "Deleted": true,
+        "Rank": 403,
+        "Type": "necessitatibus",
+        "ColorBlock": 753,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2018-10-05T17:54:08.9917951+02:00",
+        "LastChanged": "2010-12-09T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Mr. Rod Stokes Sr."
+        "FullName": "Syble Altenwerth"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Antonio Lebsack V"
+    "ExtraInfo": "omnis",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Chadd Cremin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Yost, Lubowitz and Nicolas",
-    "ToolTip": "Rerum voluptates molestiae sit enim rerum veritatis.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "delectus",
-    "ColorBlock": 888,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2017-03-24T17:54:08.9917951+01:00",
+    "Id": 990,
+    "Name": "Tillman-Osinski",
+    "ToolTip": "Quia iusto.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "et",
+    "ColorBlock": 717,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2009-04-26T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "King LLC",
-        "ToolTip": "Ullam ut ut voluptates impedit nemo eveniet.",
+        "Id": 346,
+        "Name": "Smith-Rolfson",
+        "ToolTip": "Quis sit accusamus dolor omnis occaecati.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "voluptates",
-        "ColorBlock": 508,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "1999-07-29T17:54:08.9917951+02:00",
+        "Rank": 613,
+        "Type": "quo",
+        "ColorBlock": 166,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2012-12-22T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Prof. Neoma Alexa Adams DVM",
+        "ExtraInfo": "eum",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Justyn Celia Rodriguez V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "in",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Marcelle Osinski",
+    "FullName": "Prof. Emilie Jaylin Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 800
+        "FieldLength": 131
       }
     }
   }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Boyle Inc and Sons",
-  "DeviceName": "Dibbert-Nicolas",
-  "DeviceIdentifier": "dolor",
+  "ApplicationName": "Hettinger-Rath",
+  "DeviceName": "Koelpin-Erdman",
+  "DeviceIdentifier": "velit",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 458,
-  "Name": "Dickens, Huel and Howe",
-  "CreatedDate": "2024-09-17T17:54:03.1639551+02:00",
-  "UpdatedDate": "2014-10-02T17:54:03.1639551+02:00",
-  "AssociateFullName": "Jason D'Amore",
-  "CreatedBy": "occaecati",
-  "UpdatedBy": "laboriosam",
-  "DeviceIdentifier": "accusantium",
-  "ForeignAppId": 580,
+  "ForeignDeviceId": 780,
+  "Name": "Beer, Ernser and Schaden",
+  "CreatedDate": "2018-01-12T03:45:23.4829546+01:00",
+  "UpdatedDate": "2005-02-01T03:45:23.4829546+01:00",
+  "AssociateFullName": "Jenifer Cartwright",
+  "CreatedBy": "placeat",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "quo",
+  "ForeignAppId": 679,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 912
     }
   }
 }

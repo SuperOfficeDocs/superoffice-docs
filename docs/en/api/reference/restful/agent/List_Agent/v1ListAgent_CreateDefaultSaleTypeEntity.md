@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 27,
-  "Name": "Ondricka Inc and Sons",
-  "Tooltip": "corporis",
-  "Rank": 679,
+  "SaleTypeId": 821,
+  "Name": "Hayes-Wehner",
+  "Tooltip": "temporibus",
+  "Rank": 358,
   "DurationUnit": "Century",
-  "SaleDuration": 257,
-  "SaleTypeCatId": 602,
+  "SaleDuration": 502,
+  "SaleTypeCatId": 361,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 326,
-  "QuoteLinesTemplate": 422,
-  "ConfirmationLinesTemplate": 971,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 230,
-  "MinEarningPercent": 855,
-  "GroupQuoteLinesBy": 663,
-  "SortGroupLinesBy": 346,
+  "DefaultQuoteValidity": 146,
+  "QuoteLinesTemplate": 788,
+  "ConfirmationLinesTemplate": 139,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 546,
+  "MinEarningPercent": 432,
+  "GroupQuoteLinesBy": 672,
+  "SortGroupLinesBy": 208,
   "Stages": [
     {
-      "Id": 924,
-      "Name": "Marquardt Group",
-      "ToolTip": "Debitis consectetur autem in impedit qui fuga quisquam.",
-      "Deleted": true,
-      "Rank": 56,
-      "Type": "doloremque",
-      "ColorBlock": 244,
-      "IconHint": "blanditiis",
+      "Id": 986,
+      "Name": "Daugherty, Heaney and Gulgowski",
+      "ToolTip": "Quas et consequatur sit.",
+      "Deleted": false,
+      "Rank": 792,
+      "Type": "et",
+      "ColorBlock": 661,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "2007-11-30T17:54:03.3202006+01:00",
+      "LastChanged": "2005-03-26T03:45:23.6235756+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "nulla",
-      "Hidden": false,
-      "FullName": "Prof. Buster Agustin Langworth Jr.",
+      "ExtraInfo": "error",
+      "StyleHint": "animi",
+      "Hidden": true,
+      "FullName": "Tomas Brain Jacobi III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldType": "System.Int32",
+          "FieldLength": 228
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 786
     }
   }
 }

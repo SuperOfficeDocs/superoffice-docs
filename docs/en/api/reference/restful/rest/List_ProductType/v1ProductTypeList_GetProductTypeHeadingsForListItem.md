@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Sipes LLC",
-    "ToolTip": "Et rem qui quo.",
-    "Deleted": true,
-    "Rank": 644,
-    "Type": "beatae",
-    "ColorBlock": 128,
-    "IconHint": "error",
+    "Id": 696,
+    "Name": "Hansen Inc and Sons",
+    "ToolTip": "Consectetur et sit placeat porro et corrupti soluta.",
+    "Deleted": false,
+    "Rank": 335,
+    "Type": "voluptatem",
+    "ColorBlock": 915,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2004-06-23T17:54:08.9917951+02:00",
+    "LastChanged": "2007-04-17T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Bailey LLC",
-        "ToolTip": "Et pariatur.",
-        "Deleted": false,
-        "Rank": 720,
-        "Type": "rerum",
-        "ColorBlock": 796,
-        "IconHint": "sed",
+        "Id": 245,
+        "Name": "Bednar, Prosacco and Terry",
+        "ToolTip": "Qui sapiente numquam eveniet.",
+        "Deleted": true,
+        "Rank": 948,
+        "Type": "id",
+        "ColorBlock": 324,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2014-09-17T17:54:08.9917951+02:00",
+        "LastChanged": "2009-10-02T03:45:29.1703077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "unde",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Miss Georgiana Dina Jakubowski Jr.",
+        "FullName": "Katrine Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "sed",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Loraine Abshire",
+    "FullName": "Claire Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldLength": 476
       }
     }
   }

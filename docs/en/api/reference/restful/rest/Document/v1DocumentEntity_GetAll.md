@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=consequatur
-GET /api/v1/Document?$top=984
-GET /api/v1/Document?$skip=954
+GET /api/v1/Document?$entities=voluptates
+GET /api/v1/Document?$top=396
+GET /api/v1/Document?$skip=396
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=quibusdam
+GET /api/v1/Document?$context=vitae
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eveniet",
+  "odata.nextLink": "numquam",
   "value": [
     {
-      "PrimaryKey": 583,
-      "EntityName": "sale",
-      "saleId": 583,
-      "contactId": 9570,
-      "name": "Jakubowski-Lang"
+      "PrimaryKey": 1176,
+      "EntityName": "person",
+      "personId": 1176,
+      "fullName": "Raul Roy Bode Sr."
     },
     {
-      "PrimaryKey": 3710,
-      "EntityName": "sale",
-      "saleId": 3710,
-      "contactId": 4179,
-      "name": "Schaefer-Russel"
+      "PrimaryKey": 3028,
+      "EntityName": "person",
+      "personId": 3028,
+      "fullName": "Howard Windler"
     }
   ]
 }

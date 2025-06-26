@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 831,
-    "Name": "Schulist-Sanford",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 802,
-    "UdListDefinitionId": 380
+    "HeadingId": 577,
+    "Name": "Gorczany Group",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 35
   },
   {
-    "HeadingId": 831,
-    "Name": "Schulist-Sanford",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 802,
-    "UdListDefinitionId": 380
+    "HeadingId": 577,
+    "Name": "Gorczany Group",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 35
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 534,
-    "Name": "Corwin, Cole and Skiles",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 488,
-    "UdListDefinitionId": 434,
+    "HeadingId": 5,
+    "Name": "Gerlach, Willms and Hills",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "Rank": 608,
+    "UdListDefinitionId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

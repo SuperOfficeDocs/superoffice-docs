@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 757,
-  "ApprovedByText": "cupiditate",
-  "ApprovedByAssociateId": 563,
-  "ApprovalText": "ut"
+  "QuoteVersionId": 305,
+  "ApprovedByText": "doloremque",
+  "ApprovedByAssociateId": 766,
+  "ApprovalText": "rerum"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 668,
+  "CreatedAppointmentId": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 403
     }
   }
 }

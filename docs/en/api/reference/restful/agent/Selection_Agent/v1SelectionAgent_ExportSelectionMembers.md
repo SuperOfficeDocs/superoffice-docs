@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 391,
-  "TemplateName": "Huels, Terry and Dicki",
-  "UseContacts": false
+  "SelectionId": 339,
+  "TemplateName": "O'Keefe Group",
+  "UseContacts": true
 }
 ```
 

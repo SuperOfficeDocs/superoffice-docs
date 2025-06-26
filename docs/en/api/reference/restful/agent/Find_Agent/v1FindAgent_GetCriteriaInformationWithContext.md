@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facere",
-  "ProviderName": "Satterfield, Schiller and Braun",
-  "StorageKey": "molestiae",
+  "StorageType": "aut",
+  "ProviderName": "Heaney-Monahan",
+  "StorageKey": "reiciendis",
   "StaticColumns": [
-    "iure",
-    "rerum"
+    "vel",
+    "officiis"
   ],
-  "Context": "quia"
+  "Context": "consectetur"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Langosh-Hettinger",
-      "Operator": "molestiae",
+      "Name": "Wiza Inc and Sons",
+      "Operator": "non",
       "Values": [
-        "nesciunt",
-        "nihil"
+        "aut",
+        "magni"
       ],
       "DisplayValues": [
-        "aliquid",
-        "ut"
+        "accusamus",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 999,
+      "InterParenthesis": 556,
       "InterOperator": "And",
-      "UniqueHash": 567
+      "UniqueHash": 729
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kreiger Group",
-      "DisplayTooltip": "quis",
-      "DisplayType": "magnam",
+      "DisplayName": "Lakin LLC",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "molestiae",
       "CanOrderBy": false,
-      "Name": "Monahan, Wintheiser and Jenkins",
-      "CanRestrictBy": false,
-      "RestrictionType": "sequi",
-      "RestrictionListName": "Cronin-Kuhn",
-      "IsVisible": false,
-      "ExtraInfo": "debitis",
-      "Width": "ex",
-      "IconHint": "rerum",
-      "HeadingIconHint": "reprehenderit"
+      "Name": "Koch Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Pollich LLC",
+      "IsVisible": true,
+      "ExtraInfo": "provident",
+      "Width": "necessitatibus",
+      "IconHint": "aut",
+      "HeadingIconHint": "veniam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "O'Hara-Hudson",
-      "PrimaryKey": 414,
+      "EntityName": "Terry-Yundt",
+      "PrimaryKey": 403,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quisquam",
-          "TooltipHint": "est",
-          "LinkHint": "ea"
+          "DisplayValue": "rerum",
+          "TooltipHint": "quas",
+          "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "qui",
+      "LinkHint": "earum",
       "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 949
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rowe, Fadel and Gaylord",
-      "Description": "Configurable background middleware",
-      "Rank": 250,
+      "Name": "Jacobson LLC",
+      "Description": "Synergistic executive implementation",
+      "Rank": 168,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rowe, Fadel and Gaylord",
-      "Description": "Configurable background middleware",
-      "Rank": 250,
+      "Name": "Jacobson LLC",
+      "Description": "Synergistic executive implementation",
+      "Rank": 168,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

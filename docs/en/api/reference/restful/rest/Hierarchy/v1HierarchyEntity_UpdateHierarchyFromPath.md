@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 424,
+  "HierarchyId": 130,
   "Domain": "Dashboards",
-  "Name": "Rosenbaum Inc and Sons",
-  "Fullname": "assumenda",
-  "ParentId": 766,
+  "Name": "Reilly-Schoen",
+  "Fullname": "quaerat",
+  "ParentId": 962,
   "Children": [
     {
-      "HierarchyId": 864,
+      "HierarchyId": 990,
       "Domain": "Dashboards",
-      "Name": "Osinski-Howe",
-      "Fullname": "eaque",
-      "ParentId": 842,
+      "Name": "Schaefer Inc and Sons",
+      "Fullname": "voluptatem",
+      "ParentId": 124,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-03-01T17:54:08.2574567+01:00",
-      "RegisteredAssociateId": 651,
-      "Updated": "2023-01-11T17:54:08.2574567+01:00",
-      "UpdatedAssociateId": 565
+      "Registered": "1998-07-20T03:45:28.3734363+02:00",
+      "RegisteredAssociateId": 88,
+      "Updated": "2017-11-02T03:45:28.3734363+01:00",
+      "UpdatedAssociateId": 621
     }
   ],
-  "Registered": "2013-06-21T17:54:08.2574567+02:00",
-  "RegisteredAssociateId": 2,
-  "Updated": "2020-07-06T17:54:08.2574567+02:00",
-  "UpdatedAssociateId": 185
+  "Registered": "2014-02-27T03:45:28.3734363+01:00",
+  "RegisteredAssociateId": 636,
+  "Updated": "2002-11-04T03:45:28.3734363+01:00",
+  "UpdatedAssociateId": 385
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 600,
+  "HierarchyId": 771,
   "Domain": "Dashboards",
-  "Name": "Farrell, Stiedemann and Keebler",
-  "Fullname": "sit",
-  "ParentId": 473,
+  "Name": "Weber Group",
+  "Fullname": "praesentium",
+  "ParentId": 269,
   "Children": [
     {
-      "HierarchyId": 472,
+      "HierarchyId": 873,
       "Domain": "Dashboards",
-      "Name": "Braun-Ferry",
-      "Fullname": "est",
-      "ParentId": 954,
+      "Name": "Hahn, Weber and Feest",
+      "Fullname": "rerum",
+      "ParentId": 862,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-07-24T17:54:08.2730803+02:00",
-      "RegisteredAssociateId": 665,
-      "Updated": "2009-10-05T17:54:08.2730803+02:00",
-      "UpdatedAssociateId": 127,
+      "Registered": "2018-02-09T03:45:28.3734363+01:00",
+      "RegisteredAssociateId": 911,
+      "Updated": "1999-05-20T03:45:28.3734363+02:00",
+      "UpdatedAssociateId": 217,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
   ],
-  "Registered": "2008-05-19T17:54:08.2730803+02:00",
-  "RegisteredAssociateId": 19,
-  "Updated": "2011-10-23T17:54:08.2730803+02:00",
-  "UpdatedAssociateId": 104,
+  "Registered": "2015-05-28T03:45:28.3734363+02:00",
+  "RegisteredAssociateId": 602,
+  "Updated": "2025-01-01T03:45:28.3734363+01:00",
+  "UpdatedAssociateId": 118,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   }
 }

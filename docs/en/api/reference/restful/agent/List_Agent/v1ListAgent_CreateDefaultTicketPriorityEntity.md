@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 745,
-  "Name": "Heidenreich Group",
+  "TicketPriorityId": 249,
+  "Name": "Lubowitz, Deckow and Waters",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 905,
+  "SortOrder": 219,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 299,
-  "MonStart": "2003-01-03T17:54:03.3202006+01:00",
-  "MonStop": "1999-08-19T17:54:03.3202006+02:00",
-  "TueStart": "2020-12-01T17:54:03.3202006+01:00",
-  "TueStop": "2005-06-03T17:54:03.3202006+02:00",
-  "WedStart": "2000-08-24T17:54:03.3202006+02:00",
-  "WedStop": "2008-03-17T17:54:03.3202006+01:00",
-  "ThuStart": "2021-01-22T17:54:03.3202006+01:00",
-  "ThuStop": "2019-08-26T17:54:03.3202006+02:00",
-  "FriStart": "2008-09-22T17:54:03.3202006+02:00",
-  "FriStop": "2004-03-05T17:54:03.3202006+01:00",
-  "SatStart": "2007-08-29T17:54:03.3202006+02:00",
-  "SatStop": "2003-10-14T17:54:03.3202006+02:00",
-  "SunStart": "2018-04-09T17:54:03.3202006+02:00",
-  "SunStop": "2005-05-20T17:54:03.3202006+02:00",
+  "Deadline": 34,
+  "MonStart": "2021-05-13T03:45:23.6235756+02:00",
+  "MonStop": "2021-04-16T03:45:23.6235756+02:00",
+  "TueStart": "2007-08-09T03:45:23.6235756+02:00",
+  "TueStop": "2003-01-03T03:45:23.6235756+01:00",
+  "WedStart": "2002-04-14T03:45:23.6235756+02:00",
+  "WedStop": "2017-06-20T03:45:23.6235756+02:00",
+  "ThuStart": "2005-01-24T03:45:23.6235756+01:00",
+  "ThuStop": "2013-11-10T03:45:23.6235756+01:00",
+  "FriStart": "2017-09-01T03:45:23.6235756+02:00",
+  "FriStop": "2021-05-22T03:45:23.6235756+02:00",
+  "SatStart": "2006-05-28T03:45:23.6235756+02:00",
+  "SatStop": "2019-11-28T03:45:23.6235756+01:00",
+  "SunStart": "2012-06-05T03:45:23.6235756+02:00",
+  "SunStop": "2018-02-06T03:45:23.6235756+01:00",
   "NonDates": [
-    "quasi",
-    "maxime"
+    "error",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 87,
-      "AlertLevel": 235,
-      "AlertTimeout": 753,
-      "Action": 237,
-      "DelegateTo": 422,
-      "ScriptId": 23,
-      "EmailTo": "margarett_kohler@harris.us",
-      "SmsTo": "placeat",
-      "ReplyTemplateIdCustomer": 241,
-      "ReplyTemplateIdUser": 299,
-      "ReplyTemplateIdCatmast": 390,
-      "ReplyTemplateIdEmail": 128,
-      "RtiCustomerSms": 90,
-      "ReplyTemplateIdUserSms": 490,
-      "ReplyTemplateIdCatmastSms": 748,
-      "ReplyTemplateIdSms": 851,
+      "TicketAlertId": 845,
+      "AlertLevel": 224,
+      "AlertTimeout": 409,
+      "Action": 129,
+      "DelegateTo": 644,
+      "ScriptId": 342,
+      "EmailTo": "khalid@gleason.co.uk",
+      "SmsTo": "quia",
+      "ReplyTemplateIdCustomer": 682,
+      "ReplyTemplateIdUser": 481,
+      "ReplyTemplateIdCatmast": 708,
+      "ReplyTemplateIdEmail": 446,
+      "RtiCustomerSms": 728,
+      "ReplyTemplateIdUserSms": 31,
+      "ReplyTemplateIdCatmastSms": 988,
+      "ReplyTemplateIdSms": 136,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 277
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 988
     }
   }
 }

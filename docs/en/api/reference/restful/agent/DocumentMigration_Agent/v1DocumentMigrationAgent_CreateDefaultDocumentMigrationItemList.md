@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 289,
-  "NumDocumentsAlreadyMigrated": 701,
+  "NumDocumentsOmitted": 313,
+  "NumDocumentsAlreadyMigrated": 857,
   "Documents": [
     {
-      "DocumentId": 188,
-      "ContactId": 835,
-      "PersonId": 917,
-      "SaleId": 949,
-      "ProjectId": 348,
-      "DocTmplId": 39,
-      "AssociateId": 392,
-      "UserGroupId": 540,
-      "VisibleForId": 992
+      "DocumentId": 754,
+      "ContactId": 450,
+      "PersonId": 634,
+      "SaleId": 323,
+      "ProjectId": 197,
+      "DocTmplId": 445,
+      "AssociateId": 730,
+      "UserGroupId": 815,
+      "VisibleForId": 473
     }
   ],
   "Associates": [
     {
-      "AssociateId": 721,
-      "EmailAddress": "brandt@cronagraham.com"
+      "AssociateId": 819,
+      "EmailAddress": "adaline.hamill@schmeler.info"
     },
     {
-      "AssociateId": 721,
-      "EmailAddress": "brandt@cronagraham.com"
+      "AssociateId": 819,
+      "EmailAddress": "adaline.hamill@schmeler.info"
     }
   ]
 }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Ticket/GetHotlistEjUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 550,
+  "TicketId": 652,
   "SkipAssociateIds": [
-    113,
-    468
+    554,
+    495
   ],
   "NotifyType": "ActiveTickets",
   "Channel": "Email"
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  709,
-  775
+  662,
+  220
 ]
 ```

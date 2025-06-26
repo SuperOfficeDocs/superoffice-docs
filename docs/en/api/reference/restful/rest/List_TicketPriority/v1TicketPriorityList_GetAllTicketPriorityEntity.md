@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 653,
-    "Name": "Heathcote-Price",
+    "TicketPriorityId": 393,
+    "Name": "Carroll LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 553,
+    "SortOrder": 308,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 895,
-    "MonStart": "2012-10-28T17:54:09.148042+01:00",
-    "MonStop": "2005-05-15T17:54:09.148042+02:00",
-    "TueStart": "1998-04-22T17:54:09.148042+02:00",
-    "TueStop": "2017-07-17T17:54:09.148042+02:00",
-    "WedStart": "2018-03-21T17:54:09.148042+01:00",
-    "WedStop": "2016-04-01T17:54:09.148042+02:00",
-    "ThuStart": "2006-05-18T17:54:09.148042+02:00",
-    "ThuStop": "2010-01-17T17:54:09.148042+01:00",
-    "FriStart": "2006-05-27T17:54:09.148042+02:00",
-    "FriStop": "1998-03-14T17:54:09.148042+01:00",
-    "SatStart": "2019-06-15T17:54:09.148042+02:00",
-    "SatStop": "2001-05-12T17:54:09.148042+02:00",
-    "SunStart": "2005-06-06T17:54:09.148042+02:00",
-    "SunStop": "1998-03-29T17:54:09.148042+02:00",
+    "Deadline": 59,
+    "MonStart": "2002-02-17T03:45:29.2484114+01:00",
+    "MonStop": "2021-02-24T03:45:29.2484114+01:00",
+    "TueStart": "2025-05-31T03:45:29.2484114+02:00",
+    "TueStop": "2006-05-30T03:45:29.2484114+02:00",
+    "WedStart": "2008-07-28T03:45:29.2484114+02:00",
+    "WedStop": "2007-03-29T03:45:29.2484114+02:00",
+    "ThuStart": "2024-04-08T03:45:29.2484114+02:00",
+    "ThuStop": "2009-06-25T03:45:29.2484114+02:00",
+    "FriStart": "2008-01-05T03:45:29.2484114+01:00",
+    "FriStop": "2025-02-02T03:45:29.2484114+01:00",
+    "SatStart": "2018-03-08T03:45:29.2484114+01:00",
+    "SatStop": "2013-05-22T03:45:29.2484114+02:00",
+    "SunStart": "2011-11-08T03:45:29.2484114+01:00",
+    "SunStop": "2013-04-23T03:45:29.2484114+02:00",
     "NonDates": [
-      "consequatur",
-      "optio"
+      "labore",
+      "corporis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 615,
-        "AlertLevel": 96,
-        "AlertTimeout": 855,
-        "Action": 810,
-        "DelegateTo": 206,
-        "ScriptId": 790,
-        "EmailTo": "maverick_mertz@shieldswolf.biz",
-        "SmsTo": "ipsa",
-        "ReplyTemplateIdCustomer": 313,
-        "ReplyTemplateIdUser": 811,
-        "ReplyTemplateIdCatmast": 882,
+        "TicketAlertId": 905,
+        "AlertLevel": 549,
+        "AlertTimeout": 729,
+        "Action": 9,
+        "DelegateTo": 112,
+        "ScriptId": 341,
+        "EmailTo": "adrianna@corwin.uk",
+        "SmsTo": "sit",
+        "ReplyTemplateIdCustomer": 774,
+        "ReplyTemplateIdUser": 614,
+        "ReplyTemplateIdCatmast": 463,
         "ReplyTemplateIdEmail": 538,
-        "RtiCustomerSms": 597,
-        "ReplyTemplateIdUserSms": 36,
-        "ReplyTemplateIdCatmastSms": 571,
-        "ReplyTemplateIdSms": 652,
+        "RtiCustomerSms": 338,
+        "ReplyTemplateIdUserSms": 211,
+        "ReplyTemplateIdCatmastSms": 46,
+        "ReplyTemplateIdSms": 695,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 148
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 839
       }
     }
   }

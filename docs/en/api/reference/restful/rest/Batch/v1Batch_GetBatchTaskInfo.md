@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Dicki-Hilll",
-  "AssociateId": 501,
-  "DetailsTable": 989,
-  "DetailsRecord": 359,
+  "Id": 264,
+  "Name": "West-Braun",
+  "AssociateId": 34,
+  "DetailsTable": 11,
+  "DetailsRecord": 676,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "dicta"
+    "ParameterObject1": "quasi",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2006-12-12T17:54:08.6793184+01:00",
-  "Created": "2024-02-16T17:54:08.6793184+01:00",
-  "StartCount": 382,
-  "DatabaseSerialNumber": "1341527",
-  "Context": "voluptas",
-  "Result": "totam",
+  "LastStarted": "2024-10-23T03:45:28.7952992+02:00",
+  "Created": "2020-10-06T03:45:28.7952992+02:00",
+  "StartCount": 135,
+  "DatabaseSerialNumber": "369330",
+  "Context": "non",
+  "Result": "et",
   "State": "All",
-  "Description": "Reduced 4th generation orchestration",
-  "Response": "eum",
-  "Request": "odio",
-  "ProgressDescription": "Organic fresh-thinking intranet",
-  "ProgressPercent": 630,
-  "FileName": "Ledner Group",
+  "Description": "Stand-alone scalable budgetary management",
+  "Response": "rerum",
+  "Request": "numquam",
+  "ProgressDescription": "Balanced static encoding",
+  "ProgressPercent": 436,
+  "FileName": "Tromp-Torp",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 995
     }
   }
 }

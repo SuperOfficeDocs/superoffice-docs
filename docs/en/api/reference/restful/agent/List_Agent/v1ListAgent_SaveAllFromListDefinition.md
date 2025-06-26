@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 199,
+  "UdListDefinitionId": 544,
   "Items": [
     {
-      "Id": 636,
-      "Name": "Mayert, Olson and Kuhlman",
-      "Tooltip": "quo",
+      "Id": 254,
+      "Name": "Hilpert-Sipes",
+      "Tooltip": "tempore",
       "Deleted": false,
-      "UdListDefinitionId": 706,
-      "Rank": 333
+      "UdListDefinitionId": 872,
+      "Rank": 389
     },
     {
-      "Id": 636,
-      "Name": "Mayert, Olson and Kuhlman",
-      "Tooltip": "quo",
+      "Id": 254,
+      "Name": "Hilpert-Sipes",
+      "Tooltip": "tempore",
       "Deleted": false,
-      "UdListDefinitionId": 706,
-      "Rank": 333
+      "UdListDefinitionId": 872,
+      "Rank": 389
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Quigley, Schinner and Lehner",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 287,
-    "Rank": 177,
+    "Id": 368,
+    "Name": "Homenick Group",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "UdListDefinitionId": 842,
+    "Rank": 35,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 266
       }
     }
   }

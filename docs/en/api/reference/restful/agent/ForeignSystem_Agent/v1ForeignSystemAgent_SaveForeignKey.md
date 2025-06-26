@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Rau Inc and Sons",
-  "DeviceName": "Keeling-Hilpert",
-  "DeviceIdentifier": "eligendi"
+  "ApplicationName": "O'Hara, Roob and Rogahn",
+  "DeviceName": "Smith, Hagenes and Morissette",
+  "DeviceIdentifier": "quas"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ex",
-  "Value": "cum",
-  "RecordId": 106,
-  "CreatedDate": "2001-11-01T17:54:03.1639551+01:00",
-  "UpdatedDate": "2021-10-06T17:54:03.1639551+02:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "vitae",
-  "TableName": "Cartwright, Greenfelder and Barton",
+  "Key": "soluta",
+  "Value": "et",
+  "RecordId": 483,
+  "CreatedDate": "2002-01-15T03:45:23.4829546+01:00",
+  "UpdatedDate": "2021-05-31T03:45:23.4829546+02:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "distinctio",
+  "TableName": "Kulas, Kilback and Bins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 34
     }
   }
 }

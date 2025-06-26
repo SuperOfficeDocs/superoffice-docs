@@ -7,6 +7,8 @@ items:
   - SuperOffice.CRM.AI.CategoryGuessing
   - SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
   - SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+  - SuperOffice.CRM.AI.RAGAnswer
+  - SuperOffice.CRM.AI.RAGResult
   langs:
   - csharp
   - vb
@@ -79,6 +81,20 @@ references:
     name: CategorizationRequestItem
     isExternal: true
     href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem.html
+- uid: SuperOffice.CRM.AI.RAGAnswer
+  commentId: T:SuperOffice.CRM.AI.RAGAnswer
+  isExternal: true
+  href: SuperOffice.CRM.AI.RAGAnswer.html
+  name: RAGAnswer
+  nameWithType: RAGAnswer
+  fullName: SuperOffice.CRM.AI.RAGAnswer
+- uid: SuperOffice.CRM.AI.RAGResult
+  commentId: T:SuperOffice.CRM.AI.RAGResult
+  isExternal: true
+  href: SuperOffice.CRM.AI.RAGResult.html
+  name: RAGResult
+  nameWithType: RAGResult
+  fullName: SuperOffice.CRM.AI.RAGResult
 - uid: SuperOffice.CRM.AI
   commentId: N:SuperOffice.CRM.AI
   isExternal: true

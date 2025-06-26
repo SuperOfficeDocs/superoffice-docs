@@ -65,6 +65,8 @@ items:
   - SuperOffice.Util.OperationTracker
   - SuperOffice.Util.ParameterBuilder
   - SuperOffice.Util.PreferenceLicenseRequired
+  - SuperOffice.Util.RagAIConfiguration
+  - SuperOffice.Util.RagAIHelper
   - SuperOffice.Util.RandomNumberGeneratorExtensions
   - SuperOffice.Util.ReaderWriteLockExtensions
   - SuperOffice.Util.RecurringSeries
@@ -1146,6 +1148,20 @@ references:
   name: NSWinContactHelper
   nameWithType: NSWinContactHelper
   fullName: SuperOffice.Util.NSWinContactHelper
+- uid: SuperOffice.Util.RagAIConfiguration
+  commentId: T:SuperOffice.Util.RagAIConfiguration
+  isExternal: true
+  href: SuperOffice.Util.RagAIConfiguration.html
+  name: RagAIConfiguration
+  nameWithType: RagAIConfiguration
+  fullName: SuperOffice.Util.RagAIConfiguration
+- uid: SuperOffice.Util.RagAIHelper
+  commentId: T:SuperOffice.Util.RagAIHelper
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html
+  name: RagAIHelper
+  nameWithType: RagAIHelper
+  fullName: SuperOffice.Util.RagAIHelper
 - uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
   commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
   isExternal: true

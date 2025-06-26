@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 105,
-  "Name": "Crooks Group",
-  "ContentType": "blanditiis",
-  "AttSize": 451,
-  "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "voluptate",
+  "AttachmentId": 87,
+  "Name": "Hintz-Schmitt",
+  "ContentType": "unde",
+  "AttSize": 370,
+  "InlineImage": true,
+  "ContentId": "aliquid",
+  "AuthKey": "ipsam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 416
     }
   },
   "_Links": {

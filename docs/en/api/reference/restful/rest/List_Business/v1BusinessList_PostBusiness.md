@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Skiles Group",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 477,
-  "Rank": 537
+  "Id": 157,
+  "Name": "Legros, Beier and Schroeder",
+  "Tooltip": "expedita",
+  "Deleted": false,
+  "UdListDefinitionId": 879,
+  "Rank": 607
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 216,
-  "Name": "Kerluke, Kulas and Moen",
-  "Tooltip": "reiciendis",
+  "Id": 711,
+  "Name": "Hagenes Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 980,
-  "Rank": 535,
+  "UdListDefinitionId": 335,
+  "Rank": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

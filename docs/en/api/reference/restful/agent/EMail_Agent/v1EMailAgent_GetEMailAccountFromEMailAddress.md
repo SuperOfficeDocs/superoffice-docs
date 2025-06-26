@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "non"
+  "FromAddress": "necessitatibus"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 372,
-  "EMailAddress": "iusto",
-  "AssociateId": 126,
+  "EMailAccountId": 464,
+  "EMailAddress": "neque",
+  "AssociateId": 161,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 89,
-  "ErrorCount": 65,
+  "AccountStatus": 79,
+  "ErrorCount": 925,
   "ErrorReason": "",
-  "InboxFolder": "qui",
-  "SentFolder": "perspiciatis",
-  "SimpleMode": 459,
-  "LastFetch": "2022-04-18T17:54:03.0858331+02:00",
+  "InboxFolder": "ea",
+  "SentFolder": "odit",
+  "SimpleMode": 574,
+  "LastFetch": "2024-12-17T03:45:23.4048314+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

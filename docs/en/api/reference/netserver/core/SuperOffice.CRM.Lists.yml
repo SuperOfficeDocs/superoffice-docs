@@ -73,6 +73,7 @@ items:
   - SuperOffice.CRM.Lists.EmailFromTypeProvider
   - SuperOffice.CRM.Lists.EmailPhoneProvider
   - SuperOffice.CRM.Lists.EmailReplyToTypeProvider
+  - SuperOffice.CRM.Lists.EnrichContactProvider
   - SuperOffice.CRM.Lists.ErpConnections
   - SuperOffice.CRM.Lists.ErpConnectors
   - SuperOffice.CRM.Lists.EventHandlerTypeProvider
@@ -902,6 +903,13 @@ references:
   name: EmailReplyToTypeProvider
   nameWithType: EmailReplyToTypeProvider
   fullName: SuperOffice.CRM.Lists.EmailReplyToTypeProvider
+- uid: SuperOffice.CRM.Lists.EnrichContactProvider
+  commentId: T:SuperOffice.CRM.Lists.EnrichContactProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.EnrichContactProvider.html
+  name: EnrichContactProvider
+  nameWithType: EnrichContactProvider
+  fullName: SuperOffice.CRM.Lists.EnrichContactProvider
 - uid: SuperOffice.CRM.Lists.ErpConnections
   commentId: T:SuperOffice.CRM.Lists.ErpConnections
   isExternal: true

@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 209,
-  "ColumnId": 159,
-  "FieldDefault": "sint",
-  "FieldHeight": 828,
-  "FieldLabel": "repellendus",
-  "FieldLeft": 404,
-  "FieldTop": 936,
+  "UDefFieldId": 815,
+  "ColumnId": 966,
+  "FieldDefault": "eveniet",
+  "FieldHeight": 67,
+  "FieldLabel": "id",
+  "FieldLeft": 735,
+  "FieldTop": 847,
   "FieldType": "Checkbox",
-  "FieldWidth": 269,
-  "FormatMask": "et",
+  "FieldWidth": 275,
+  "FormatMask": "accusantium",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 30,
-  "LabelLeft": 329,
-  "LabelTop": 400,
-  "LabelWidth": 687,
-  "LastVersionId": 161,
-  "ListTableId": 561,
+  "LabelHeight": 220,
+  "LabelLeft": 942,
+  "LabelTop": 378,
+  "LabelWidth": 254,
+  "LastVersionId": 722,
+  "ListTableId": 469,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 153,
-  "ProgId": "distinctio",
+  "Page1LineNo": 462,
+  "ProgId": "ex",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 30,
-  "TextLength": 716,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 593,
-  "UDListDefinitionId": 844,
+  "ShortLabel": "magni",
+  "TabOrder": 949,
+  "TextLength": 917,
+  "Tooltip": "earum",
+  "UdefIdentity": 12,
+  "UDListDefinitionId": 917,
   "Justification": "Center",
-  "Version": 356,
-  "TemplateVariableName": "Wyman LLC",
+  "Version": 102,
+  "TemplateVariableName": "Hackett, Stiedemann and O'Keefe",
   "HasBeenPublished": true,
-  "MdoListName": "Grant, Runte and Schultz",
+  "MdoListName": "Abernathy, Ondricka and Hartmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 824
     }
   }
 }

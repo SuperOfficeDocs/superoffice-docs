@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kautzer Group",
-  "HeadingId": 363
+  "UdListDefinitionName": "Berge, Bergstrom and Steuber",
+  "HeadingId": 165
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Yundt, Bins and Wiegand",
-    "ToolTip": "Ut ea quia eligendi accusantium nihil similique velit.",
-    "Deleted": false,
-    "Rank": 201,
-    "Type": "rerum",
-    "ColorBlock": 206,
-    "IconHint": "doloremque",
+    "Id": 636,
+    "Name": "Conn Group",
+    "ToolTip": "Ut rerum corrupti magni quo aut veritatis corporis.",
+    "Deleted": true,
+    "Rank": 342,
+    "Type": "asperiores",
+    "ColorBlock": 948,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2003-06-24T17:54:03.2892052+02:00",
+    "LastChanged": "2010-06-08T03:45:23.5927257+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Hilpert Group",
-        "ToolTip": "Minus et a cum expedita at.",
-        "Deleted": false,
-        "Rank": 614,
-        "Type": "sunt",
-        "ColorBlock": 308,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2002-08-03T17:54:03.2892052+02:00",
+        "Id": 420,
+        "Name": "Gulgowski, Fadel and Rutherford",
+        "ToolTip": "Animi et hic quis eius nisi.",
+        "Deleted": true,
+        "Rank": 268,
+        "Type": "eaque",
+        "ColorBlock": 541,
+        "IconHint": "eveniet",
+        "Selected": true,
+        "LastChanged": "2024-06-09T03:45:23.5927257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "non",
+        "ExtraInfo": "vitae",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Mr. Madisen Marks PhD",
+        "FullName": "Joanne Swift IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldType": "System.String",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Prof. Blaze Janelle Quitzon V",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Paolo Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

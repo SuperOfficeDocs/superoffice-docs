@@ -1139,7 +1139,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=person/lastName,person/personPrivate/description,person/personExtra/y_rental/y_equipment/x_name,person/correspondingAssociate/associateDbId,contact/updatedDate
+GET /api/v1/archive/Sale?$select=person/personUpdatedBy,saleStakeholder/person/title,saleStakeholder/person/birthdate,saleStakeholder/person/isProjectMember,saleStakeholder/person/personExtra/x_person_longtext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

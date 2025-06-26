@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 553
+  "UserGroupId": 900
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 428,
-    "ColumnId": 761,
-    "FieldDefault": "omnis",
-    "FieldHeight": 483,
-    "FieldLabel": "maiores",
-    "FieldLeft": 927,
-    "FieldTop": 678,
+    "UDefFieldId": 90,
+    "ColumnId": 804,
+    "FieldDefault": "ad",
+    "FieldHeight": 870,
+    "FieldLabel": "pariatur",
+    "FieldLeft": 19,
+    "FieldTop": 692,
     "FieldType": "Checkbox",
-    "FieldWidth": 5,
-    "FormatMask": "provident",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 331,
-    "LabelLeft": 223,
-    "LabelTop": 324,
-    "LabelWidth": 629,
-    "LastVersionId": 472,
-    "ListTableId": 911,
+    "FieldWidth": 301,
+    "FormatMask": "minima",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 787,
+    "LabelLeft": 907,
+    "LabelTop": 804,
+    "LabelWidth": 524,
+    "LastVersionId": 243,
+    "ListTableId": 39,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 26,
-    "ProgId": "voluptatem",
+    "Page1LineNo": 220,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "ut",
-    "TabOrder": 961,
-    "TextLength": 382,
-    "Tooltip": "odio",
-    "UdefIdentity": 162,
-    "UDListDefinitionId": 764,
+    "ShortLabel": "magni",
+    "TabOrder": 166,
+    "TextLength": 845,
+    "Tooltip": "id",
+    "UdefIdentity": 310,
+    "UDListDefinitionId": 313,
     "Justification": "Center",
-    "Version": 910,
-    "TemplateVariableName": "D'Amore-Lakin",
-    "HasBeenPublished": true,
-    "MdoListName": "Johnston, McKenzie and Johnson",
+    "Version": 482,
+    "TemplateVariableName": "Wilderman, Pfeffer and Stracke",
+    "HasBeenPublished": false,
+    "MdoListName": "Labadie Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldLength": 873
       }
     }
   }

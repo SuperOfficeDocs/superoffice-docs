@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 852,
-  "Name": "Stamm LLC",
-  "Tooltip": "in",
-  "Rank": 841,
+  "SuggestedAppointmentId": 783,
+  "Name": "Haag, Borer and Block",
+  "Tooltip": "reiciendis",
+  "Rank": 730,
   "Deleted": false,
-  "DaysFuture": 769,
-  "Duration": "et",
+  "DaysFuture": 791,
+  "Duration": "quam",
   "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "in",
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "culpa",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 4
     }
   }
 }

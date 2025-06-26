@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=547
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=724
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 147,
-  "Name": "Funk-Hessel",
-  "Description": "Networked encompassing system engine",
-  "DefaultHeight": 585,
-  "DefaultWidth": 717,
+  "DashboardTileDefinitionId": 676,
+  "Name": "Zieme, Hahn and Hirthe",
+  "Description": "Seamless global adapter",
+  "DefaultHeight": 118,
+  "DefaultWidth": 895,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle, Hoppe and Flatley",
-  "SelectionId": 689,
+  "EntityName": "Kris, Nikolaus and Parisian",
+  "SelectionId": 558,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatem",
+  "CurrencyCode": "dicta",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "recusandae",
-  "LayoutConfig": "illum",
-  "SecondarySelectionId": 80,
-  "MeasureByField": "magnam",
+  "MeasureField": "ex",
+  "SortBy": "maiores",
+  "LayoutConfig": "a",
+  "SecondarySelectionId": 326,
+  "MeasureByField": "enim",
   "Usage": "Dashboard",
-  "ProviderName": "Pouros-Klein",
+  "ProviderName": "Larson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

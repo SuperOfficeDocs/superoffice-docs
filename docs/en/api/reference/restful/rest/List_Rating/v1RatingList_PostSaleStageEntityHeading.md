@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 111,
-  "Name": "Bailey LLC",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "Rank": 218,
-  "UdListDefinitionId": 56
+  "HeadingId": 49,
+  "Name": "Bashirian LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 450,
+  "UdListDefinitionId": 289
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 710,
-  "Name": "Sipes-Powlowski",
-  "Tooltip": "et",
+  "HeadingId": 840,
+  "Name": "Donnelly LLC",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 683,
-  "UdListDefinitionId": 324,
+  "Rank": 491,
+  "UdListDefinitionId": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

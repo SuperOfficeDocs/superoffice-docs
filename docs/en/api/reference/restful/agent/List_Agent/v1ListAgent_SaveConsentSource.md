@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 567,
-  "Name": "Deckow Inc and Sons",
-  "Tooltip": "rerum",
-  "Rank": 658,
-  "Key": "culpa",
-  "MailTemplateId": 636,
-  "Deleted": false,
+  "ConsentSourceId": 294,
+  "Name": "Kozey-Marquardt",
+  "Tooltip": "eum",
+  "Rank": 719,
+  "Key": "quia",
+  "MailTemplateId": 478,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

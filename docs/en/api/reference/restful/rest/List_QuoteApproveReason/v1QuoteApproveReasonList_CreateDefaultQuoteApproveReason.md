@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Weber LLC",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 472,
-  "Rank": 516,
+  "Id": 232,
+  "Name": "O'Reilly LLC",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 758,
+  "Rank": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 110
     }
   }
 }

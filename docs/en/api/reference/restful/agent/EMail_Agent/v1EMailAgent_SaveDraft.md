@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 226,
-      "ContactName": "Bayer Inc and Sons",
-      "PersonId": 215,
-      "PersonName": "Pagac LLC",
-      "AssociateId": 396,
-      "Address": "minus",
-      "EmailId": 107,
+      "ContactId": 111,
+      "ContactName": "O'Conner-Brekke",
+      "PersonId": 600,
+      "PersonName": "Hagenes Inc and Sons",
+      "AssociateId": 557,
+      "Address": "rerum",
+      "EmailId": 410,
       "DuplicatePersonIds": [
-        247,
-        989
+        819,
+        675
       ],
-      "Name": "Prosacco, Kunze and Considine",
+      "Name": "Herzog-Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 302
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 357,
-      "ContactName": "Bogan Inc and Sons",
-      "PersonId": 925,
-      "PersonName": "Bartell-Treutel",
-      "AssociateId": 245,
-      "Address": "possimus",
-      "EmailId": 358,
+      "ContactId": 894,
+      "ContactName": "Wilkinson LLC",
+      "PersonId": 122,
+      "PersonName": "Towne, Jast and Kuvalis",
+      "AssociateId": 943,
+      "Address": "similique",
+      "EmailId": 474,
       "DuplicatePersonIds": [
-        154,
-        282
+        440,
+        564
       ],
-      "Name": "Russel, Wolff and Rolfson",
+      "Name": "Orn-Schmeler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 501
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Swaniawski Group",
-      "PersonId": 409,
-      "PersonName": "Considine-Ortiz",
-      "AssociateId": 244,
-      "Address": "perferendis",
-      "EmailId": 687,
+      "ContactId": 62,
+      "ContactName": "Ritchie, Ratke and Gulgowski",
+      "PersonId": 663,
+      "PersonName": "Kuhn LLC",
+      "AssociateId": 592,
+      "Address": "quis",
+      "EmailId": 450,
       "DuplicatePersonIds": [
-        159,
-        23
+        964,
+        131
       ],
-      "Name": "Waters Inc and Sons",
+      "Name": "Shanahan, Lueilwitz and Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 628
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "nobis",
+  "Subject": "maxime",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "2000-09-21T17:54:03.0702097+02:00",
-  "Size": 647,
+  "Sent": "2012-02-25T03:45:23.389207+01:00",
+  "Size": 5,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "voluptatibus",
+  "MessageID": "unde",
+  "PlainBody": "voluptas",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 949,
+  "ServerId": 108,
   "Attachments": [
     {
-      "Description": "Function-based exuding ability",
-      "Filename": "perferendis",
-      "Size": 471,
-      "Type": "nemo",
-      "Encoding": "quo",
-      "Id": "dicta",
-      "Disposition": "eos",
-      "IsSafeFileExtension": false,
+      "Description": "Fundamental exuding groupware",
+      "Filename": "asperiores",
+      "Size": 59,
+      "Type": "laborum",
+      "Encoding": "sapiente",
+      "Id": "facere",
+      "Disposition": "ab",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldType": "System.String",
+          "FieldLength": 354
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ryan LLC",
+      "Name": "Haag, Sipes and Kris",
       "Values": [
-        "exercitationem",
-        "ullam"
+        "harum",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 42
         }
       }
     },
     {
-      "Name": "Ryan LLC",
+      "Name": "Haag, Sipes and Kris",
       "Values": [
-        "exercitationem",
-        "ullam"
+        "harum",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 42
         }
       }
     }
   ],
-  "FolderName": "Blanda, Rowe and McDermott",
-  "EmailItemId": 42,
-  "AccountId": 478,
-  "ReceivedAt": "1999-12-22T17:54:03.0702097+01:00",
+  "FolderName": "Lebsack Inc and Sons",
+  "EmailItemId": 566,
+  "AccountId": 114,
+  "ReceivedAt": "2017-07-22T03:45:23.389207+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-09-05T17:54:03.0702097+02:00",
+  "RepliedAt": "2018-06-10T03:45:23.389207+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldLength": 480
     }
   }
 }

@@ -81,12 +81,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 448,
-  "Name": "Price-Rolfson",
-  "Tooltip": "tempore",
-  "Rank": 23,
-  "Key": "perferendis",
-  "MailTemplateId": 107,
+  "ConsentSourceId": 961,
+  "Name": "Rolfson-Deckow",
+  "Tooltip": "nulla",
+  "Rank": 732,
+  "Key": "laboriosam",
+  "MailTemplateId": 823,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 116,
-  "Name": "Hermann LLC",
-  "Tooltip": "nobis",
-  "Rank": 844,
-  "Key": "sit",
-  "MailTemplateId": 251,
+  "ConsentSourceId": 588,
+  "Name": "Von, Murazik and Torp",
+  "Tooltip": "itaque",
+  "Rank": 509,
+  "Key": "earum",
+  "MailTemplateId": 14,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

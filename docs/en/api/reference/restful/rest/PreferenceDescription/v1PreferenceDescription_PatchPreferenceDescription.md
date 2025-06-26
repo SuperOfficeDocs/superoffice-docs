@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "deleniti",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 474,
-  "Section": "doloremque",
-  "Key": "nam",
-  "Name": "Kunze-Cronin",
+  "PrefDescId": 219,
+  "Section": "soluta",
+  "Key": "vel",
+  "Name": "Windler LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned homogeneous knowledge user",
+  "Description": "Customer-focused heuristic knowledge base",
   "IsBuiltin": false,
-  "TableName": "Abernathy Group",
-  "UserDefinedListId": 301,
-  "Rank": 30,
-  "SubGroup": "exercitationem",
-  "MinLevel": 503,
-  "MaxValue": 508,
-  "MinValue": 12,
-  "RequiredLicense": "vero",
+  "TableName": "Mayer-Weissnat",
+  "UserDefinedListId": 913,
+  "Rank": 221,
+  "SubGroup": "dignissimos",
+  "MinLevel": 482,
+  "MaxValue": 318,
+  "MinValue": 841,
+  "RequiredLicense": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 129
     }
   },
   "_Links": {

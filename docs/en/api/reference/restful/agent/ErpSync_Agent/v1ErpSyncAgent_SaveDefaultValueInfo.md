@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 164,
-  "DefaultValue": "sint",
+  "ErpFieldId": 593,
+  "DefaultValue": "sed",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "qui",
+  "FirstSyncDefaultValue": "non",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "repudiandae",
+  "Mandatory": true,
+  "ErpFieldKey": "accusamus",
   "FieldType": "Checkbox",
-  "ListName": "Emmerich-Fritsch",
+  "ListName": "Weimann, Friesen and Goodwin",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

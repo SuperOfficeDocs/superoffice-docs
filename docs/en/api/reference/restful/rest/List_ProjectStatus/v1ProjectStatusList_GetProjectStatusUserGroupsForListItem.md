@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Grimes-Dibbert",
-    "ToolTip": "Praesentium error accusantium.",
-    "Deleted": false,
-    "Rank": 599,
-    "Type": "assumenda",
-    "ColorBlock": 787,
-    "IconHint": "et",
+    "Id": 514,
+    "Name": "Hodkiewicz, Lehner and Bogan",
+    "ToolTip": "Praesentium distinctio vero.",
+    "Deleted": true,
+    "Rank": 932,
+    "Type": "quia",
+    "ColorBlock": 459,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2022-06-07T17:54:08.9917951+02:00",
+    "LastChanged": "2017-10-13T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Koelpin LLC",
-        "ToolTip": "Et nisi aut consectetur libero exercitationem ut.",
+        "Id": 291,
+        "Name": "Kunze, Sauer and Boyer",
+        "ToolTip": "Qui iusto consequatur modi praesentium voluptatum impedit.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "voluptas",
-        "ColorBlock": 770,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2019-11-28T17:54:08.9917951+01:00",
+        "Rank": 680,
+        "Type": "dolor",
+        "ColorBlock": 336,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2018-05-04T03:45:29.1703077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Ms. Nikolas Bednar",
+        "ExtraInfo": "culpa",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Rowena Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "natus",
+    "ExtraInfo": "in",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Miss Magnolia Carolina Ortiz",
+    "FullName": "Terrill Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 680
       }
     }
   }

@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 860
+  "AssociateId": 200
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "1999-09-18T17:54:03.1795788+02:00",
-  "ExpiryDate": "2017-12-04T17:54:03.1795788+01:00",
-  "GraceDate": "2018-09-09T17:54:03.1795788+02:00",
-  "CompanyName": "Mann Inc and Sons",
+  "AdminWarningDate": "2005-08-25T03:45:23.498579+02:00",
+  "ExpiryDate": "1999-12-05T03:45:23.498579+01:00",
+  "GraceDate": "2003-12-09T03:45:23.498579+01:00",
+  "CompanyName": "Batz Group",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "consectetur",
-    "quia"
+    "atque",
+    "iure"
   ]
 }
 ```

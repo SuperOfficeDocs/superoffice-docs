@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Graham-Blick",
-  "Tooltip": "error",
+  "Id": 740,
+  "Name": "Luettgen-Harber",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 704,
-  "Rank": 110,
+  "UdListDefinitionId": 279,
+  "Rank": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

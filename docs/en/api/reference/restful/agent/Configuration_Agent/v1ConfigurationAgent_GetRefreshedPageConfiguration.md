@@ -76,9 +76,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sit",
-  "Instance": "voluptatibus",
-  "Page": "mollitia"
+  "Application": "fuga",
+  "Instance": "aut",
+  "Page": "quis"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ad"
+"voluptatem"
 ```

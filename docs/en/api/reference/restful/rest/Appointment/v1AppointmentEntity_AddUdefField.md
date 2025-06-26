@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 162,
-  "ColumnId": 859,
-  "FieldDefault": "sunt",
-  "FieldHeight": 27,
-  "FieldLabel": "et",
-  "FieldLeft": 848,
-  "FieldTop": 9,
+  "UDefFieldId": 147,
+  "ColumnId": 258,
+  "FieldDefault": "tempore",
+  "FieldHeight": 569,
+  "FieldLabel": "dolor",
+  "FieldLeft": 38,
+  "FieldTop": 58,
   "FieldType": "Checkbox",
-  "FieldWidth": 493,
-  "FormatMask": "officia",
+  "FieldWidth": 818,
+  "FormatMask": "sed",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 264,
-  "LabelLeft": 451,
-  "LabelTop": 107,
-  "LabelWidth": 513,
-  "LastVersionId": 495,
-  "ListTableId": 388,
-  "IsMandatory": true,
+  "LabelHeight": 595,
+  "LabelLeft": 560,
+  "LabelTop": 444,
+  "LabelWidth": 430,
+  "LastVersionId": 961,
+  "ListTableId": 52,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 39,
-  "ProgId": "ea",
+  "Page1LineNo": 328,
+  "ProgId": "atque",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 809,
-  "TextLength": 665,
-  "Tooltip": "harum",
-  "UdefIdentity": 710,
-  "UDListDefinitionId": 419,
+  "ShortLabel": "culpa",
+  "TabOrder": 309,
+  "TextLength": 51,
+  "Tooltip": "sunt",
+  "UdefIdentity": 459,
+  "UDListDefinitionId": 644,
   "Justification": "Center",
-  "Version": 435,
-  "TemplateVariableName": "Sporer Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Aufderhar-Wyman",
+  "Version": 725,
+  "TemplateVariableName": "Zulauf Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Sauer, Boehm and Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 503
     }
   }
 }

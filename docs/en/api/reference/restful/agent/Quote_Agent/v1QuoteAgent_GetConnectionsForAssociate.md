@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 992
+  "AssociateId": 999
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 41,
-    "ERPName": "Waelchi-Davis",
-    "DisplayName": "Greenholt, Jakubowski and Lakin",
-    "DisplayDescription": "Robust attitude-oriented paradigm",
-    "Rank": 987,
-    "ConnectorName": "Durgan, Rowe and Walker",
-    "ErpConnectionId": 885,
-    "ExtraData": "aut",
+    "QuoteConnectionId": 486,
+    "ERPName": "Ebert LLC",
+    "DisplayName": "Willms, Franecki and Hermann",
+    "DisplayDescription": "Self-enabling optimizing productivity",
+    "Rank": 400,
+    "ConnectorName": "Kshlerin-Hilpert",
+    "ErpConnectionId": 431,
+    "ExtraData": "modi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 49,
-        "ERPPriceListKey": "autem",
-        "QuoteConnectionId": 246,
-        "Name": "Parker-Smith",
-        "Description": "Robust solution-oriented leverage",
-        "Currency": "expedita",
-        "CurrencyName": "Schmidt Group",
-        "ValidFrom": "2008-09-10T17:54:03.5233118+02:00",
-        "ValidTo": "2004-12-09T17:54:03.5233118+01:00",
+        "PriceListId": 954,
+        "ERPPriceListKey": "amet",
+        "QuoteConnectionId": 501,
+        "Name": "Maggio-Schaefer",
+        "Description": "Inverse mission-critical circuit",
+        "Currency": "enim",
+        "CurrencyName": "Padberg, Effertz and Heidenreich",
+        "ValidFrom": "2011-01-24T03:45:23.8266945+01:00",
+        "ValidTo": "2006-04-15T03:45:23.8266945+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldType": "System.String",
+            "FieldLength": 157
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      616,
-      155
+      461,
+      162
     ],
     "AssociateAccessIds": [
-      800,
-      118
+      989,
+      500
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 208,
-  "Name": "Schulist, Klein and Marquardt",
-  "Tooltip": "recusandae",
-  "VisibleColumns": 363,
-  "Rank": 119,
-  "AssocId": 196,
+  "DiaryViewId": 940,
+  "Name": "Ernser-Hamill",
+  "Tooltip": "non",
+  "VisibleColumns": 264,
+  "Rank": 427,
+  "AssocId": 634,
   "AssociateList": [
     {
-      "Id": 426,
-      "Name": "Weimann-Cremin",
-      "ToolTip": "Ipsum ut.",
-      "Deleted": true,
-      "Rank": 760,
-      "Type": "adipisci",
-      "ColorBlock": 96,
-      "IconHint": "similique",
+      "Id": 644,
+      "Name": "Daniel-Streich",
+      "ToolTip": "Facilis et dolores iure molestiae.",
+      "Deleted": false,
+      "Rank": 829,
+      "Type": "dicta",
+      "ColorBlock": 258,
+      "IconHint": "perferendis",
       "Selected": false,
-      "LastChanged": "2004-07-22T17:54:02.8045994+02:00",
+      "LastChanged": "2011-05-10T03:45:23.0767156+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "in",
-      "Hidden": false,
-      "FullName": "Ms. Cynthia Rohan III"
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "vel",
+      "Hidden": true,
+      "FullName": "Mrs. Joe Samara Collier DDS"
     }
   ],
-  "TzLocationId": 743
+  "TzLocationId": 626
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 798,
-  "Name": "Rau Inc and Sons",
-  "Tooltip": "cumque",
-  "VisibleColumns": 791,
-  "Rank": 541,
-  "AssocId": 956,
+  "DiaryViewId": 291,
+  "Name": "Crona-Cremin",
+  "Tooltip": "et",
+  "VisibleColumns": 74,
+  "Rank": 916,
+  "AssocId": 542,
   "AssociateList": [
     {
-      "Id": 858,
-      "Name": "Kutch Inc and Sons",
-      "ToolTip": "Sunt dolor sed aperiam.",
+      "Id": 835,
+      "Name": "Kirlin, Jakubowski and Satterfield",
+      "ToolTip": "Et aspernatur debitis et modi.",
       "Deleted": false,
-      "Rank": 8,
-      "Type": "ut",
-      "ColorBlock": 901,
-      "IconHint": "ea",
+      "Rank": 259,
+      "Type": "eveniet",
+      "ColorBlock": 633,
+      "IconHint": "perspiciatis",
       "Selected": true,
-      "LastChanged": "2006-02-06T17:54:02.8202276+01:00",
+      "LastChanged": "2018-10-22T03:45:23.0767156+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Nils Waelchi",
+      "ExtraInfo": "corporis",
+      "StyleHint": "officiis",
+      "Hidden": false,
+      "FullName": "Eunice Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 527
         }
       }
     }
   ],
-  "TzLocationId": 832,
+  "TzLocationId": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 667
     }
   }
 }

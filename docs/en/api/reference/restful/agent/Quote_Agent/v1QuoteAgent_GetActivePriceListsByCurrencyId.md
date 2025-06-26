@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 392,
-  "CurrencyId": 272
+  "QuoteConnectionId": 670,
+  "CurrencyId": 249
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 902,
-    "ERPPriceListKey": "voluptas",
-    "QuoteConnectionId": 516,
-    "Name": "Hickle, Gleichner and Kshlerin",
-    "Description": "Total non-volatile local area network",
-    "Currency": "ab",
-    "CurrencyName": "Monahan LLC",
-    "ValidFrom": "2011-08-28T17:54:03.5233118+02:00",
-    "ValidTo": "2016-11-28T17:54:03.5233118+01:00",
-    "IsActive": true,
+    "PriceListId": 233,
+    "ERPPriceListKey": "illo",
+    "QuoteConnectionId": 38,
+    "Name": "Wuckert, Larkin and Marvin",
+    "Description": "Operative mission-critical contingency",
+    "Currency": "quaerat",
+    "CurrencyName": "Hahn-Jacobs",
+    "ValidFrom": "2015-04-09T03:45:23.8266945+02:00",
+    "ValidTo": "2016-12-03T03:45:23.8266945+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 639
       }
     }
   }

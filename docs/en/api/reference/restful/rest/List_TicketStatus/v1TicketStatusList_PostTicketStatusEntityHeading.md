@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 367,
-  "Name": "Kiehn Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 971,
-  "UdListDefinitionId": 248
+  "HeadingId": 574,
+  "Name": "Marquardt-Kuvalis",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 180,
+  "UdListDefinitionId": 514
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 845,
-  "Name": "Roob LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 341,
+  "Name": "Hermiston, Hoppe and Hegmann",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 907,
-  "UdListDefinitionId": 48,
+  "Rank": 436,
+  "UdListDefinitionId": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 659
     }
   }
 }

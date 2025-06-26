@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 55,
-  "Name": "Lehner Inc and Sons",
+  "ScreenChooserId": 786,
+  "Name": "Farrell Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "ut",
-  "Registered": "2006-03-18T17:54:02.9139671+01:00",
-  "RegisteredAssociateId": 749,
-  "Updated": "2024-03-27T17:54:02.9139671+01:00",
-  "UpdatedAssociateId": 507,
+  "UniqueIdentifier": "dolores",
+  "Source": "nam",
+  "Registered": "2001-07-05T03:45:23.2329582+02:00",
+  "RegisteredAssociateId": 297,
+  "Updated": "2015-04-26T03:45:23.2329582+02:00",
+  "UpdatedAssociateId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

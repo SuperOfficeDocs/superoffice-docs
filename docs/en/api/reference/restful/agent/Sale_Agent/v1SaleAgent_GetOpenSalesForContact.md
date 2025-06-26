@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 172
+  "ContactId": 152
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hyatt Inc and Sons",
-    "SaleDate": "2005-11-02T17:54:03.5858088+01:00",
-    "SaleId": 16,
-    "Probability": 302,
-    "Title": "numquam",
-    "Amount": 13579.622,
-    "Currency": "aliquam",
-    "ProjectName": "Rogahn-Farrell",
-    "AssociateFullName": "Santino Hettinger",
-    "Description": "Expanded needs-based budgetary management",
+    "ContactName": "Powlowski Group",
+    "SaleDate": "2025-01-02T03:45:23.8735682+01:00",
+    "SaleId": 80,
+    "Probability": 85,
+    "Title": "minus",
+    "Amount": 15986.534,
+    "Currency": "sed",
+    "ProjectName": "Ziemann, Roberts and Mueller",
+    "AssociateFullName": "Austen Vandervort",
+    "Description": "Mandatory eco-centric moderator",
     "Status": "Lost",
-    "WeightedAmount": 2174.996,
-    "ProjectId": 573,
-    "EarningPercent": 15381.671999999999,
-    "Earning": 10110.284,
-    "ContactId": 733,
-    "AssociateId": 638,
-    "PersonId": 676,
-    "SaleTypeId": 699,
-    "SaleTypeName": "Abernathy LLC",
-    "PersonFullName": "Twila Murazik IV",
+    "WeightedAmount": 9157.5479999999989,
+    "ProjectId": 339,
+    "EarningPercent": 15538.372,
+    "Earning": 6324.4119999999994,
+    "ContactId": 331,
+    "AssociateId": 478,
+    "PersonId": 101,
+    "SaleTypeId": 214,
+    "SaleTypeName": "Abernathy, Wilderman and Hessel",
+    "PersonFullName": "Prof. Elise Bryon Lindgren",
     "Completed": "Completed",
-    "ActiveErpLinks": 498,
-    "NextDueDate": "2003-01-11T17:54:03.5858088+01:00",
-    "Number": "1094646",
+    "ActiveErpLinks": 104,
+    "NextDueDate": "2000-12-15T03:45:23.8735682+01:00",
+    "Number": "919067",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 730
       }
     }
   }

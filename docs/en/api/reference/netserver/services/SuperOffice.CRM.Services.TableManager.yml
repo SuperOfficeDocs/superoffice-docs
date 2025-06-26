@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TableManager
+  commentId: T:SuperOffice.CRM.Services.TableManager
+  id: TableManager
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TableManager.#ctor
+  - SuperOffice.CRM.Services.TableManager.ToString
+  - SuperOffice.CRM.Services.TableManager.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TableManager
+  nameWithType: TableManager
+  fullName: SuperOffice.CRM.Services.TableManager
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Operations related to table management
+
+    <p></p>
+
+    Carrier object for TableManager.
+
+    Services for the TableManager Carrier is available from the <xref href="SuperOffice.CRM.Services.IDiagnosticsAgent?text=Diagnostics+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+
+      public class TableManager : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+
+      Public Class TableManager Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IDiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+- uid: SuperOffice.CRM.Services.TableManager.#ctor
+  commentId: M:SuperOffice.CRM.Services.TableManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TableManager
+  langs:
+  - csharp
+  - vb
+  name: TableManager()
+  nameWithType: TableManager.TableManager()
+  fullName: SuperOffice.CRM.Services.TableManager.TableManager()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public TableManager()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.TableManager.#ctor*
+  nameWithType.vb: TableManager.New()
+  fullName.vb: SuperOffice.CRM.Services.TableManager.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.TableManager.ToString
+  commentId: M:SuperOffice.CRM.Services.TableManager.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TableManager
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TableManager.ToString()
+  fullName: SuperOffice.CRM.Services.TableManager.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.TableManager.ToString*
+- uid: SuperOffice.CRM.Services.TableManager.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TableManager.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TableManager
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: TableManager.ToString(string)
+  fullName: SuperOffice.CRM.Services.TableManager.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TableManager.ToString*
+  nameWithType.vb: TableManager.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TableManager.ToString(String)
+  name.vb: ToString(String)
+references:
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html
+  name: IDiagnosticsAgent
+  nameWithType: IDiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TableManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TableManager.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.TableManager.html#SuperOffice_CRM_Services_TableManager__ctor
+  name: TableManager
+  nameWithType: TableManager.TableManager
+  fullName: SuperOffice.CRM.Services.TableManager.TableManager
+  nameWithType.vb: TableManager.New
+  fullName.vb: SuperOffice.CRM.Services.TableManager.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.TableManager.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TableManager.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.TableManager.html#SuperOffice_CRM_Services_TableManager_ToString
+  name: ToString
+  nameWithType: TableManager.ToString
+  fullName: SuperOffice.CRM.Services.TableManager.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

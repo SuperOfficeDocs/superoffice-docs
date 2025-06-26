@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 27,
-    "Name": "Heidenreich-Larkin",
-    "ConsentText": "corporis",
-    "FormText": "ducimus",
-    "Key": "fugiat",
-    "Tooltip": "dolore",
-    "Active": 784,
-    "UpdatedDate": "1999-02-10T17:54:08.8199285+01:00",
+    "ConsentPurposeId": 877,
+    "Name": "Krajcik-Pagac",
+    "ConsentText": "in",
+    "FormText": "excepturi",
+    "Key": "ex",
+    "Tooltip": "occaecati",
+    "Active": 25,
+    "UpdatedDate": "2002-03-28T03:45:28.9827939+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 592,
-    "PrivacyStatementDesc": "nihil",
+    "Deleted": true,
+    "Rank": 121,
+    "PrivacyStatementDesc": "hic",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldType": "System.Int32",
+        "FieldLength": 311
       }
     }
   }

@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 27,
+  "SystemEventId": 207,
   "Scope": "Database",
-  "Eta": "2022-12-26T17:54:08.5543174+01:00",
-  "Eventkey": "praesentium",
-  "Eventmess": "cupiditate",
-  "ExtraInfo": 604,
-  "Owner": 791,
-  "UpdatedCount": 907,
-  "Registered": "2001-10-26T17:54:08.5543174+02:00",
+  "Eta": "2022-05-08T03:45:28.6546813+02:00",
+  "Eventkey": "ea",
+  "Eventmess": "fugit",
+  "ExtraInfo": 179,
+  "Owner": 453,
+  "UpdatedCount": 950,
+  "Registered": "1999-07-10T03:45:28.6546813+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 809,
+  "SystemEventId": 743,
   "Scope": "Database",
-  "Eta": "2012-08-15T17:54:08.5543174+02:00",
-  "Eventkey": "voluptas",
-  "Eventmess": "perspiciatis",
-  "ExtraInfo": 768,
-  "Owner": 592,
-  "UpdatedCount": 410,
-  "Registered": "2021-07-28T17:54:08.5543174+02:00",
+  "Eta": "1999-05-23T03:45:28.6546813+02:00",
+  "Eventkey": "nemo",
+  "Eventmess": "necessitatibus",
+  "ExtraInfo": 944,
+  "Owner": 629,
+  "UpdatedCount": 101,
+  "Registered": "2007-06-11T03:45:28.6546813+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   },
   "_Links": {

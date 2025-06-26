@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "Rutherford, Oberbrunner and Kuhlman",
-  "AssociateId": 489,
-  "DetailsTable": 18,
-  "DetailsRecord": 512,
-  "IsSystemTask": false,
+  "Id": 573,
+  "Name": "Stoltenberg-Nicolas",
+  "AssociateId": 911,
+  "DetailsTable": 145,
+  "DetailsRecord": 999,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sunt",
-    "ParameterObject2": "et"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2002-11-27T17:54:03.1795788+01:00",
-  "Created": "2019-01-22T17:54:03.1795788+01:00",
-  "StartCount": 173,
-  "DatabaseSerialNumber": "1045950",
-  "Context": "dolores",
+  "LastStarted": "2010-01-25T03:45:23.498579+01:00",
+  "Created": "2008-10-20T03:45:23.498579+02:00",
+  "StartCount": 992,
+  "DatabaseSerialNumber": "1518702",
+  "Context": "tenetur",
   "Result": "dolorem",
   "State": "All",
-  "Description": "Monitored exuding orchestration",
-  "Response": "nostrum",
-  "Request": "harum",
-  "ProgressDescription": "Distributed neutral protocol",
-  "ProgressPercent": 861,
-  "FileName": "Ratke, Bradtke and Ernser",
+  "Description": "Innovative motivating knowledge base",
+  "Response": "dolor",
+  "Request": "repellendus",
+  "ProgressDescription": "Ergonomic empowering task-force",
+  "ProgressPercent": 455,
+  "FileName": "Ebert Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 943
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 560,
-    "Name": "Ritchie, Beahan and Nicolas",
-    "Tooltip": "perferendis",
-    "Deleted": true,
-    "Rank": 769,
-    "UdListDefinitionId": 16,
+    "HeadingId": 581,
+    "Name": "Hermann, Hills and Schiller",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 24,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 212
       }
     }
   }

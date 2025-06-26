@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=quis
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=blanditiis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Rice LLC",
-    "ToolTip": "Consequatur velit doloribus aut excepturi sunt autem.",
+    "Id": 574,
+    "Name": "Medhurst-Adams",
+    "ToolTip": "Sequi ut aspernatur molestiae.",
     "Deleted": false,
-    "Rank": 1002,
-    "Type": "porro",
+    "Rank": 810,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Dibbert-Stamm",
-        "ToolTip": "Libero culpa facilis.",
-        "Deleted": false,
-        "Rank": 235,
-        "Type": "incidunt",
+        "Id": 519,
+        "Name": "Donnelly-Gusikowski",
+        "ToolTip": "Molestiae tenetur harum.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 370,
-        "ExtraInfo": "libero",
-        "StyleHint": "deleniti",
-        "FullName": "Vince Dibbert",
+        "IconHint": "blanditiis",
+        "ColorBlock": 169,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
+        "FullName": "Prof. Alvah Elmer Raynor Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldLength": 176
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 124,
-    "ExtraInfo": "possimus",
-    "StyleHint": "velit",
-    "FullName": "Lorenz Turner",
+    "IconHint": "sed",
+    "ColorBlock": 746,
+    "ExtraInfo": "impedit",
+    "StyleHint": "provident",
+    "FullName": "Meaghan Koelpin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 481
       }
     }
   }

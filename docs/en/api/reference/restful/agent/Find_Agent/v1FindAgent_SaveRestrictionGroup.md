@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Marks-Conn",
-  "StorageKey": "rem",
+  "StorageType": "et",
+  "ProviderName": "VonRueden-Stehr",
+  "StorageKey": "dolores",
   "RestrictionGroup": null,
-  "Context": "nemo"
+  "Context": "nihil"
 }
 ```
 

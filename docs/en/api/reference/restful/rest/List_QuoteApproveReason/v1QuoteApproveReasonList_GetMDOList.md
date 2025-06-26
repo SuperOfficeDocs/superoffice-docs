@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=voluptas
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Champlin LLC",
-    "ToolTip": "Doloribus omnis dolor ut ducimus illum quasi.",
-    "Deleted": true,
-    "Rank": 488,
-    "Type": "laboriosam",
+    "Id": 709,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Ab et.",
+    "Deleted": false,
+    "Rank": 713,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Fay Inc and Sons",
-        "ToolTip": "Doloremque quo praesentium consequuntur id aut quasi libero.",
+        "Id": 433,
+        "Name": "Bergnaum LLC",
+        "ToolTip": "Voluptatem repellendus.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "placeat",
+        "Rank": 582,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 314,
-        "ExtraInfo": "ratione",
-        "StyleHint": "et",
-        "FullName": "Erin Jewess",
+        "IconHint": "sequi",
+        "ColorBlock": 732,
+        "ExtraInfo": "iusto",
+        "StyleHint": "sit",
+        "FullName": "Dr. Maryam Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldLength": 194
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 363,
-    "ExtraInfo": "sint",
-    "StyleHint": "et",
-    "FullName": "Zion Erling Kuhn Jr.",
+    "IconHint": "et",
+    "ColorBlock": 339,
+    "ExtraInfo": "quam",
+    "StyleHint": "consectetur",
+    "FullName": "Mr. Narciso Harry Bartoletti DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 308
       }
     }
   }

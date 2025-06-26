@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 197,
-    "TopicId": 753,
+    "ChatSessionId": 135,
+    "TopicId": 114,
     "User": null,
     "Person": null,
-    "CustomerAlias": "qui",
-    "CustomerHost": "autem",
-    "CustomerName": "Carter LLC",
-    "CustomerEmail": "diana.boehm@mosciski.info",
-    "CustomerPhone": "665-608-2025 x64007",
-    "CustomerConsented": false,
-    "CustomerCompanyName": "Schimmel Group",
+    "CustomerAlias": "nihil",
+    "CustomerHost": "reprehenderit",
+    "CustomerName": "Dietrich, Treutel and Legros",
+    "CustomerEmail": "larissa_schroeder@nikolaus.info",
+    "CustomerPhone": "(165)870-3968 x879",
+    "CustomerConsented": true,
+    "CustomerCompanyName": "Reynolds, Blick and Stoltenberg",
     "Status": "Closed",
-    "FirstMessage": "alias",
-    "LastMessage": "eaque",
-    "WhenRequested": "2004-06-15T17:54:08.0074687+02:00",
-    "WhenStarted": "2013-10-02T17:54:08.0074687+02:00",
-    "WhenEnded": "2012-09-04T17:54:08.0074687+02:00",
-    "WhenIdle": "2017-09-26T17:54:08.0074687+02:00",
-    "WhenFetched": "2011-05-03T17:54:08.0074687+02:00",
-    "SessionKey": "fugiat",
-    "InitialQueuePos": 71,
-    "AlertLevel": 218,
-    "Rank": 593,
+    "FirstMessage": "aut",
+    "LastMessage": "enim",
+    "WhenRequested": "2022-04-07T03:45:28.1234472+02:00",
+    "WhenStarted": "2002-01-14T03:45:28.1234472+01:00",
+    "WhenEnded": "2019-02-04T03:45:28.1234472+01:00",
+    "WhenIdle": "2005-09-25T03:45:28.1234472+02:00",
+    "WhenFetched": "2011-07-26T03:45:28.1234472+02:00",
+    "SessionKey": "doloremque",
+    "InitialQueuePos": 251,
+    "AlertLevel": 476,
+    "Rank": 242,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 106,
+    "Rating": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 528
       }
     }
   }

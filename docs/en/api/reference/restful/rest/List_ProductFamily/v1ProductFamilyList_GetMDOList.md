@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=maiores
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=veritatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Borer-Langworth",
-    "ToolTip": "Occaecati quas velit voluptas quisquam hic.",
+    "Id": 20,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Vel voluptatum delectus.",
     "Deleted": true,
-    "Rank": 805,
-    "Type": "aliquam",
+    "Rank": 528,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Gleichner-Lowe",
-        "ToolTip": "Ut et ipsa deserunt ut quaerat non aperiam.",
+        "Id": 20,
+        "Name": "Macejkovic Inc and Sons",
+        "ToolTip": "Ut ratione corrupti quis.",
         "Deleted": false,
-        "Rank": 801,
-        "Type": "pariatur",
+        "Rank": 522,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 822,
-        "ExtraInfo": "vel",
-        "StyleHint": "facilis",
-        "FullName": "Frederik Block",
+        "IconHint": "possimus",
+        "ColorBlock": 897,
+        "ExtraInfo": "quod",
+        "StyleHint": "amet",
+        "FullName": "Brook Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 699
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 570,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "est",
-    "FullName": "Mrs. Cordia Chadrick Torphy",
+    "IconHint": "laudantium",
+    "ColorBlock": 753,
+    "ExtraInfo": "similique",
+    "StyleHint": "vel",
+    "FullName": "Clay Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 680
       }
     }
   }

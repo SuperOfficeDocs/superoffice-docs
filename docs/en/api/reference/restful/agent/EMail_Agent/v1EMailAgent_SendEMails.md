@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "explicabo",
-      "HTMLBody": "illum",
+      "Subject": "iusto",
+      "HTMLBody": "voluptas",
       "From": null,
-      "Sent": "2014-01-06T17:54:03.1014579+01:00",
-      "Size": 552,
+      "Sent": "2008-12-31T03:45:23.4204561+01:00",
+      "Size": 280,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "et",
-      "PlainBody": "et",
+      "MessageID": "quo",
+      "PlainBody": "eveniet",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 175,
+      "ServerId": 692,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Gislason Inc and Sons",
-      "EmailItemId": 56,
-      "AccountId": 648,
-      "ReceivedAt": "2024-07-26T17:54:03.1014579+02:00",
+      "FolderName": "Schuppe, Lueilwitz and Hamill",
+      "EmailItemId": 17,
+      "AccountId": 947,
+      "ReceivedAt": "2002-03-07T03:45:23.4204561+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2011-09-30T17:54:03.1014579+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2002-10-21T03:45:23.4204561+02:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 697,
-        "ContactName": "Monahan, Lebsack and O'Reilly",
-        "PersonId": 910,
-        "PersonName": "Ebert, Gleichner and Adams",
-        "AssociateId": 70,
-        "Address": "enim",
-        "EmailId": 904,
+        "ContactId": 589,
+        "ContactName": "Mertz, Friesen and Smith",
+        "PersonId": 637,
+        "PersonName": "Hintz-Kessler",
+        "AssociateId": 619,
+        "Address": "id",
+        "EmailId": 646,
         "DuplicatePersonIds": [
-          392,
-          740
+          836,
+          276
         ],
-        "Name": "Larkin, Aufderhar and Parker",
+        "Name": "Metz Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 727
+            "FieldType": "System.Int32",
+            "FieldLength": 64
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 245,
-        "ContactName": "Bradtke-Kuhn",
-        "PersonId": 92,
-        "PersonName": "Emmerich-Cummings",
-        "AssociateId": 811,
-        "Address": "quis",
-        "EmailId": 361,
+        "ContactId": 294,
+        "ContactName": "Terry LLC",
+        "PersonId": 506,
+        "PersonName": "Krajcik-Schaefer",
+        "AssociateId": 273,
+        "Address": "quos",
+        "EmailId": 96,
         "DuplicatePersonIds": [
-          934,
-          387
+          461,
+          867
         ],
-        "Name": "Schimmel LLC",
+        "Name": "Wolff-O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 633
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 720,
-        "ContactName": "Wunsch Inc and Sons",
-        "PersonId": 51,
-        "PersonName": "Beer Group",
-        "AssociateId": 79,
-        "Address": "eius",
-        "EmailId": 570,
+        "ContactId": 454,
+        "ContactName": "Lakin, Harris and Kihn",
+        "PersonId": 474,
+        "PersonName": "Konopelski-DuBuque",
+        "AssociateId": 39,
+        "Address": "minus",
+        "EmailId": 926,
         "DuplicatePersonIds": [
-          561,
-          458
+          395,
+          679
         ],
-        "Name": "Gleason, Little and Hintz",
+        "Name": "Ryan-Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldType": "System.String",
+            "FieldLength": 547
           }
         }
       }
     ],
-    "Subject": "est",
-    "HTMLBody": "quaerat",
+    "Subject": "quo",
+    "HTMLBody": "suscipit",
     "From": null,
-    "Sent": "2021-07-15T17:54:03.1014579+02:00",
-    "Size": 505,
+    "Sent": "2021-05-21T03:45:23.4204561+02:00",
+    "Size": 295,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "corrupti",
-    "PlainBody": "ducimus",
-    "IsSent": true,
+    "MessageID": "sit",
+    "PlainBody": "molestiae",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 917,
+    "ServerId": 573,
     "Attachments": [
       {
-        "Description": "Distributed zero administration emulation",
-        "Filename": "ut",
-        "Size": 378,
-        "Type": "sed",
-        "Encoding": "iure",
-        "Id": "rerum",
-        "Disposition": "consequatur",
+        "Description": "Right-sized multimedia neural-net",
+        "Filename": "molestiae",
+        "Size": 402,
+        "Type": "eveniet",
+        "Encoding": "harum",
+        "Id": "iusto",
+        "Disposition": "facilis",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,58 +264,58 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 533
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Kassulke LLC",
+        "Name": "Pollich Group",
         "Values": [
-          "facere",
-          "cupiditate"
+          "quisquam",
+          "fuga"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 641
           }
         }
       },
       {
-        "Name": "Kassulke LLC",
+        "Name": "Pollich Group",
         "Values": [
-          "facere",
-          "cupiditate"
+          "quisquam",
+          "fuga"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 641
           }
         }
       }
     ],
-    "FolderName": "Pacocha LLC",
-    "EmailItemId": 474,
-    "AccountId": 49,
-    "ReceivedAt": "2011-03-18T17:54:03.1014579+01:00",
+    "FolderName": "Ullrich, Hintz and Grant",
+    "EmailItemId": 791,
+    "AccountId": 119,
+    "ReceivedAt": "2003-08-02T03:45:23.4204561+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2014-01-15T17:54:03.1014579+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2009-12-14T03:45:23.4204561+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldType": "System.String",
+        "FieldLength": 342
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 874
+  "PersonId": 536
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 324,
-  "PlainParsed": "tenetur",
-  "HtmlParsed": "quo",
+  "ReplyTemplateId": 527,
+  "PlainParsed": "cupiditate",
+  "HtmlParsed": "nulla",
   "Attachments": [
     {
-      "AttachmentId": 352,
-      "Name": "Lind Inc and Sons",
-      "ContentType": "temporibus",
-      "AttSize": 984,
+      "AttachmentId": 600,
+      "Name": "O'Connell-Nader",
+      "ContentType": "ea",
+      "AttSize": 74,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "incidunt",
-      "IsSafeFileExtension": true,
+      "ContentId": "quos",
+      "AuthKey": "nisi",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldType": "System.String",
+          "FieldLength": 906
         }
       }
     }
   ],
-  "Subject": "voluptatem",
+  "Subject": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 749
     }
   }
 }

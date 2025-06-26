@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 503
+  "PersonId": 571
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 461,
-    "Comment": "iusto",
-    "Registered": "2008-02-08T17:54:03.4139422+01:00",
-    "RegisteredAssociateId": 402,
-    "Updated": "2008-04-06T17:54:03.4139422+02:00",
-    "UpdatedAssociateId": 863,
-    "LegalBaseId": 829,
-    "LegalBaseKey": "odit",
-    "LegalBaseName": "Mohr, Wolff and Hermiston",
-    "ConsentPurposeId": 848,
-    "ConsentPurposeKey": "ut",
-    "ConsentPurposeName": "Harvey Inc and Sons",
-    "ConsentSourceId": 843,
-    "ConsentSourceKey": "expedita",
-    "ConsentSourceName": "McLaughlin, Jacobi and Hagenes",
+    "ConsentPersonId": 6,
+    "Comment": "ducimus",
+    "Registered": "1998-10-19T03:45:23.7173227+02:00",
+    "RegisteredAssociateId": 820,
+    "Updated": "1998-03-19T03:45:23.7173227+01:00",
+    "UpdatedAssociateId": 252,
+    "LegalBaseId": 513,
+    "LegalBaseKey": "necessitatibus",
+    "LegalBaseName": "Raynor LLC",
+    "ConsentPurposeId": 131,
+    "ConsentPurposeKey": "nulla",
+    "ConsentPurposeName": "Jast LLC",
+    "ConsentSourceId": 186,
+    "ConsentSourceKey": "eius",
+    "ConsentSourceName": "Deckow, Hoppe and Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

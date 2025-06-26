@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "id"
+  "MimeMessage": "consequatur"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 992,
-      "ContactName": "Johnston Inc and Sons",
-      "PersonId": 153,
-      "PersonName": "Gorczany, Hickle and Gottlieb",
-      "AssociateId": 30,
-      "Address": "exercitationem",
-      "EmailId": 204,
+      "ContactId": 846,
+      "ContactName": "Nolan-Bednar",
+      "PersonId": 939,
+      "PersonName": "Casper, Metz and Zemlak",
+      "AssociateId": 948,
+      "Address": "illum",
+      "EmailId": 406,
       "DuplicatePersonIds": [
-        382,
-        147
+        354,
+        924
       ],
-      "Name": "Mosciski-Schultz",
+      "Name": "Hane, Heathcote and Kling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldLength": 959
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 376,
-      "ContactName": "Kiehn-Berge",
-      "PersonId": 333,
-      "PersonName": "Feest, Kihn and Koelpin",
-      "AssociateId": 153,
-      "Address": "culpa",
-      "EmailId": 874,
+      "ContactId": 408,
+      "ContactName": "Mitchell-Bernhard",
+      "PersonId": 830,
+      "PersonName": "Swift, Heidenreich and Mitchell",
+      "AssociateId": 462,
+      "Address": "optio",
+      "EmailId": 220,
       "DuplicatePersonIds": [
-        245,
-        543
+        169,
+        824
       ],
-      "Name": "Runte, Klein and Sawayn",
+      "Name": "Huel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 321
+          "FieldType": "System.Int32",
+          "FieldLength": 102
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 705,
-      "ContactName": "Feest LLC",
-      "PersonId": 143,
-      "PersonName": "Dietrich Group",
-      "AssociateId": 982,
-      "Address": "incidunt",
-      "EmailId": 242,
+      "ContactId": 773,
+      "ContactName": "Tillman, Pfeffer and O'Connell",
+      "PersonId": 714,
+      "PersonName": "Turcotte, Doyle and Moen",
+      "AssociateId": 35,
+      "Address": "et",
+      "EmailId": 471,
       "DuplicatePersonIds": [
-        590,
-        843
+        513,
+        469
       ],
-      "Name": "Koepp-Carroll",
+      "Name": "Carroll, Gusikowski and Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 17
         }
       }
     }
   ],
-  "Subject": "dicta",
-  "HTMLBody": "facilis",
+  "Subject": "quos",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2019-03-26T17:54:03.1170817+01:00",
-  "Size": 896,
+  "Sent": "2005-11-28T03:45:23.4360809+01:00",
+  "Size": 643,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsam",
-  "PlainBody": "odit",
-  "IsSent": false,
+  "MessageID": "velit",
+  "PlainBody": "nisi",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 916,
+  "ServerId": 166,
   "Attachments": [
     {
-      "Description": "Open-architected methodical function",
-      "Filename": "libero",
-      "Size": 4,
-      "Type": "ad",
-      "Encoding": "consequuntur",
-      "Id": "corrupti",
-      "Disposition": "maiores",
-      "IsSafeFileExtension": true,
+      "Description": "Mandatory non-volatile methodology",
+      "Filename": "asperiores",
+      "Size": 359,
+      "Type": "explicabo",
+      "Encoding": "quia",
+      "Id": "id",
+      "Disposition": "et",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 295
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Price, Zulauf and Schuppe",
+      "Name": "Rodriguez Group",
       "Values": [
-        "aut",
-        "doloremque"
+        "eius",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     },
     {
-      "Name": "Price, Zulauf and Schuppe",
+      "Name": "Rodriguez Group",
       "Values": [
-        "aut",
-        "doloremque"
+        "eius",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     }
   ],
-  "FolderName": "Tremblay Group",
-  "EmailItemId": 548,
-  "AccountId": 687,
-  "ReceivedAt": "2023-07-22T17:54:03.1170817+02:00",
+  "FolderName": "Bode Group",
+  "EmailItemId": 866,
+  "AccountId": 40,
+  "ReceivedAt": "2019-02-04T03:45:23.4360809+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-08-07T17:54:03.1170817+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-08-16T03:45:23.4360809+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

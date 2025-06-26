@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Bailey Group",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 494,
-    "Rank": 590,
+    "Id": 147,
+    "Name": "Osinski, Hartmann and Raynor",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "UdListDefinitionId": 704,
+    "Rank": 182,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 645
       }
     }
   }

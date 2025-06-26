@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 67,
-  "Name": "Hilll-Fadel",
-  "CurrencyId": 130,
-  "EnglishName": "Bayer, Pfannerstill and Collins",
+  "CountryId": 91,
+  "Name": "Russel-Gibson",
+  "CurrencyId": 464,
+  "EnglishName": "Conroy LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless 6th generation moderator",
-  "OrgNrText": "1101722",
-  "InterAreaPrefix": "tenetur",
-  "DialInPrefix": "ratione",
-  "ZipPrefix": "aut",
-  "DomainName": "Hodkiewicz-Berge",
-  "AddressLayoutId": 746,
-  "DomesticAddressLayoutId": 735,
-  "ForeignAddressLayoutId": 808,
-  "Rank": 574,
-  "Tooltip": "quos",
+  "ImageDescription": "Multi-channelled bi-directional secured line",
+  "OrgNrText": "269040",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "possimus",
+  "ZipPrefix": "odio",
+  "DomainName": "Huels-Durgan",
+  "AddressLayoutId": 170,
+  "DomesticAddressLayoutId": 165,
+  "ForeignAddressLayoutId": 653,
+  "Rank": 18,
+  "Tooltip": "corrupti",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 767
     }
   }
 }

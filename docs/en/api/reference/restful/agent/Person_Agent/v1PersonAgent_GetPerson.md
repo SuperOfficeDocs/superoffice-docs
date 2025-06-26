@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=883
+POST /api/v1/Agents/Person/GetPerson?personId=223
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "id",
-  "PersonId": 63,
-  "Mrmrs": "voluptatibus",
-  "Firstname": "Pasquale",
-  "Lastname": "Berge",
-  "MiddleName": "Marquardt Inc and Sons",
-  "Title": "praesentium",
-  "Description": "Enterprise-wide needs-based infrastructure",
-  "Email": "devan@brakus.us",
-  "FullName": "Marquis Jakubowski",
-  "DirectPhone": "240-796-6993",
-  "FormalName": "Parker Group",
-  "CountryId": 404,
-  "ContactId": 1002,
-  "ContactName": "Littel LLC",
-  "Retired": 375,
-  "Rank": 290,
-  "ActiveInterests": 923,
+  "Position": "est",
+  "PersonId": 774,
+  "Mrmrs": "in",
+  "Firstname": "Luna",
+  "Lastname": "Blick",
+  "MiddleName": "Eichmann-Lebsack",
+  "Title": "odio",
+  "Description": "Horizontal cohesive methodology",
+  "Email": "orval_hoeger@hessel.name",
+  "FullName": "Prof. Katelin Cruickshank MD",
+  "DirectPhone": "091.402.1597",
+  "FormalName": "Skiles LLC",
+  "CountryId": 332,
+  "ContactId": 636,
+  "ContactName": "Hilll Inc and Sons",
+  "Retired": 142,
+  "Rank": 511,
+  "ActiveInterests": 884,
   "ContactDepartment": "",
-  "ContactCountryId": 261,
-  "ContactOrgNr": "939381",
-  "FaxPhone": "1-586-213-2559 x8978",
-  "MobilePhone": "598.947.6161 x06239",
-  "ContactPhone": "479-946-6214",
-  "AssociateName": "Stehr, Bernhard and Schumm",
-  "AssociateId": 515,
-  "UsePersonAddress": false,
-  "ContactFax": "earum",
-  "Kanafname": "ut",
-  "Kanalname": "ipsa",
-  "Post1": "nisi",
-  "Post2": "id",
-  "Post3": "quos",
-  "EmailName": "ethel@eichmann.info",
-  "ContactFullName": "Mr. Vernice Tyler Hayes",
-  "ActiveErpLinks": 577,
-  "TicketPriorityId": 285,
-  "SupportLanguageId": 658,
-  "SupportAssociateId": 323,
+  "ContactCountryId": 506,
+  "ContactOrgNr": "878198",
+  "FaxPhone": "1-593-557-3103",
+  "MobilePhone": "298.563.8731 x553",
+  "ContactPhone": "1-115-199-1111 x728",
+  "AssociateName": "Pouros LLC",
+  "AssociateId": 862,
+  "UsePersonAddress": true,
+  "ContactFax": "itaque",
+  "Kanafname": "inventore",
+  "Kanalname": "esse",
+  "Post1": "voluptatem",
+  "Post2": "in",
+  "Post3": "quo",
+  "EmailName": "ernest.schaden@lebsack.com",
+  "ContactFullName": "Prof. Alba Rosenbaum PhD",
+  "ActiveErpLinks": 754,
+  "TicketPriorityId": 157,
+  "SupportLanguageId": 108,
+  "SupportAssociateId": 319,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1111304",
+  "PersonNumber": "1704933",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldLength": 107
     }
   }
 }

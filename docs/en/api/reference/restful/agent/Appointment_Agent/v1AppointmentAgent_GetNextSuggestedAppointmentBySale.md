@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 98,
-  "CurrentAppointmentId": 755,
-  "SkipCompleteCheck": true
+  "SaleId": 780,
+  "CurrentAppointmentId": 813,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 721,
-  "Deleted": 552,
-  "DaysFuture": 55,
-  "Tooltip": "laboriosam",
-  "Text": "rerum",
-  "TaskId": 255,
-  "SuggestedAppointmentId": 301,
-  "SaleTypeStageLinkId": 29,
-  "RegisteredAssociateId": 407,
-  "Rank": 697,
-  "ProjectTypeStatusLinkId": 789,
-  "Name": "Larson Inc and Sons",
-  "Duration": 434,
+  "AutoSuggest": 948,
+  "Deleted": 405,
+  "DaysFuture": 640,
+  "Tooltip": "et",
+  "Text": "ea",
+  "TaskId": 36,
+  "SuggestedAppointmentId": 661,
+  "SaleTypeStageLinkId": 831,
+  "RegisteredAssociateId": 420,
+  "Rank": 553,
+  "ProjectTypeStatusLinkId": 299,
+  "Name": "Herzog LLC",
+  "Duration": 904,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 251
     }
   }
 }

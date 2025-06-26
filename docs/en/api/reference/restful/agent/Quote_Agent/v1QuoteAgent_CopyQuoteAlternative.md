@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 162,
-  "QuoteAlternativeId": 929,
-  "QuoteAlternativeName": "Larkin-Jerde"
+  "QuoteVersionId": 139,
+  "QuoteAlternativeId": 253,
+  "QuoteAlternativeName": "Johns, Frami and Hand"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 282,
-  "ERPQuoteAlternativeKey": "autem",
-  "QuoteVersionId": 565,
-  "Name": "Grady-Batz",
-  "Description": "Operative discrete orchestration",
+  "QuoteAlternativeId": 495,
+  "ERPQuoteAlternativeKey": "nihil",
+  "QuoteVersionId": 324,
+  "Name": "Ondricka-Wiegand",
+  "Description": "Organized fresh-thinking function",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 213.112,
-  "ERPDiscountAmount": 21126.293999999998,
-  "DiscountPercent": 13968.238,
-  "DiscountAmount": 14792.48,
+  "Reason": "target world-class architectures",
+  "ERPDiscountPercent": 7007.624,
+  "ERPDiscountAmount": 24868.29,
+  "DiscountPercent": 21574.456,
+  "DiscountAmount": 10069.542,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 14037.186,
-  "EarningPercent": 5609.86,
-  "EarningAmount": 4494.156,
-  "SubTotal": 28745.048,
-  "TotalPrice": 3406.658,
-  "ExtraField1": "eaque",
-  "ExtraField2": "omnis",
-  "ExtraField3": "corporis",
-  "ExtraField4": "odio",
-  "ExtraField5": "nihil",
+  "VATInfo": "sunt",
+  "VAT": 4312.384,
+  "EarningPercent": 14936.644,
+  "EarningAmount": 30105.203999999998,
+  "SubTotal": 25792.82,
+  "TotalPrice": 5948.3319999999994,
+  "ExtraField1": "cum",
+  "ExtraField2": "harum",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "rerum",
+  "ExtraField5": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 838
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Larson Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 592,
+  "Name": "Weber, Wisoky and Bayer",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 590,
+  "Rank": 534,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempore",
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 663,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "eius",
+  "Id": 523,
+  "Name": "Tremblay LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 163,
+  "Rank": 320,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "magnam",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 317
     }
   }
 }

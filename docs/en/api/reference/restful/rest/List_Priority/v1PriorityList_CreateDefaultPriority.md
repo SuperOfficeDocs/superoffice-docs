@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Treutel Group",
-  "Tooltip": "dolores",
+  "Id": 79,
+  "Name": "Bruen LLC",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "UdListDefinitionId": 729,
-  "Rank": 135,
+  "UdListDefinitionId": 497,
+  "Rank": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 110
     }
   }
 }

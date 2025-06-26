@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    177,
-    285
+    108,
+    954
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 724,
-    "UniqueId": "adipisci",
-    "Name": "Stamm Group",
-    "Description": "Profound heuristic approach",
-    "AssociateId": 600,
-    "Columns": 95,
+    "DashboardId": 500,
+    "UniqueId": "exercitationem",
+    "Name": "Pacocha, Pollich and O'Kon",
+    "Description": "Decentralized local budgetary management",
+    "AssociateId": 841,
+    "Columns": 540,
     "Theme": null,
-    "VisibleForAll": 815,
+    "VisibleForAll": 80,
     "VisibleForAssociates": [
-      55,
-      152
+      275,
+      585
     ],
     "VisibleForGroups": [
-      308,
-      910
+      687,
+      788
     ],
-    "PinForAll": 412,
+    "PinForAll": 493,
     "PinForAssociates": [
-      555,
-      176
+      413,
+      144
     ],
     "PinForGroups": [
-      511,
-      827
+      518,
+      504
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 127
       }
     }
   }

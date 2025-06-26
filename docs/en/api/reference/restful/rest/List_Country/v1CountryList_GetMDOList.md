@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=dolorem
+GET /api/v1/List/Country/MDOItems?query=autem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Sauer-Corkery",
-    "ToolTip": "Nesciunt quisquam.",
-    "Deleted": false,
-    "Rank": 410,
-    "Type": "illo",
+    "Id": 856,
+    "Name": "Oberbrunner-McClure",
+    "ToolTip": "Quo et.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "cupiditate",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "McLaughlin-Ratke",
-        "ToolTip": "Non voluptas aut velit maxime.",
-        "Deleted": false,
-        "Rank": 103,
-        "Type": "quisquam",
+        "Id": 155,
+        "Name": "Kozey Inc and Sons",
+        "ToolTip": "Fugiat magnam iste.",
+        "Deleted": true,
+        "Rank": 813,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 680,
-        "ExtraInfo": "rerum",
-        "StyleHint": "ipsam",
-        "FullName": "Broderick Cummerata",
+        "IconHint": "asperiores",
+        "ColorBlock": 148,
+        "ExtraInfo": "sunt",
+        "StyleHint": "id",
+        "FullName": "Vernie Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 683
+            "FieldLength": 133
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 453,
-    "ExtraInfo": "ut",
-    "StyleHint": "cumque",
-    "FullName": "Ilene Hegmann",
+    "IconHint": "fugiat",
+    "ColorBlock": 203,
+    "ExtraInfo": "rerum",
+    "StyleHint": "fugiat",
+    "FullName": "Queen Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 665
       }
     }
   }

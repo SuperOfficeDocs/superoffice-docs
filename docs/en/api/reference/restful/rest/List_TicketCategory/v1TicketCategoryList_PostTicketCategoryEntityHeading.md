@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 642,
-  "Name": "Heidenreich Group",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 339,
-  "UdListDefinitionId": 55
+  "HeadingId": 3,
+  "Name": "Trantow-Rempel",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 765,
+  "UdListDefinitionId": 92
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 744,
-  "Name": "Homenick-Beahan",
-  "Tooltip": "repellat",
+  "HeadingId": 493,
+  "Name": "Ferry Group",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 25,
-  "UdListDefinitionId": 525,
+  "Rank": 396,
+  "UdListDefinitionId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

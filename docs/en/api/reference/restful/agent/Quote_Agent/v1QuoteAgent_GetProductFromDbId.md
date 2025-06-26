@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 25
+  "ProductId": 344
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 779,
-  "ERPProductKey": "accusamus",
-  "ERPPriceListKey": "inventore",
-  "Name": "Koch Inc and Sons",
-  "Description": "Balanced zero administration approach",
-  "Code": "veritatis",
-  "PriceUnit": "animi",
-  "QuantityUnit": "delectus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 14225.225999999999,
-  "ItemNumber": "1320010",
+  "ProductId": 408,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "consequatur",
+  "Name": "Crist-Hermiston",
+  "Description": "Optimized asynchronous firmware",
+  "Code": "non",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "rerum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ullam",
+  "DefaultSubscriptionQuantity": 14554.296,
+  "ItemNumber": "1341213",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rem",
-  "ProductTypeKey": "eaque",
-  "VAT": 24680.25,
-  "VATInfo": "perferendis",
-  "UnitCost": 22044.556,
-  "UnitMinimumPrice": 30766.478,
-  "UnitListPrice": 2861.342,
+  "ProductFamilyKey": "nemo",
+  "ProductTypeKey": "dicta",
+  "VAT": 17309.082,
+  "VATInfo": "at",
+  "UnitCost": 18095.716,
+  "UnitMinimumPrice": 19330.512,
+  "UnitListPrice": 1560.732,
   "InAssortment": true,
-  "Supplier": "fugit",
-  "SupplierCode": "laborum",
-  "Rights": "nemo",
-  "Rule": "perspiciatis",
+  "Supplier": "autem",
+  "SupplierCode": "suscipit",
+  "Rights": "voluptas",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Bayer-Schiller",
-      "Value": "molestiae",
+      "Name": "Upton-Prohaska",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     },
     {
-      "Name": "Bayer-Schiller",
-      "Value": "molestiae",
+      "Name": "Upton-Prohaska",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
-  "ExtraField1": "minus",
-  "ExtraField2": "nisi",
-  "ExtraField3": "sit",
-  "ExtraField4": "quis",
-  "ExtraField5": "ut",
-  "InStock": 30258.77,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "ipsam",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "minima",
+  "ExtraField4": "quia",
+  "ExtraField5": "sed",
+  "InStock": 26225.311999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 81
     }
   }
 }

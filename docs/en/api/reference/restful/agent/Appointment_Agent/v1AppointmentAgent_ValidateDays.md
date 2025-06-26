@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "quia",
-    "facilis"
+    "autem",
+    "numquam"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2019-12-20T17:54:02.5236144+01:00",
+    "Date": "2014-06-15T03:45:22.842344+02:00",
     "IsConflict": false,
-    "Description": "Operative 24/7 intranet",
-    "DescriptionStyleHint": "Profit-focused client-server architecture",
-    "Tooltip": "harum"
+    "Description": "Optimized even-keeled methodology",
+    "DescriptionStyleHint": "Future-proofed static service-desk",
+    "Tooltip": "nobis"
   },
   {
-    "Date": "2019-12-20T17:54:02.5236144+01:00",
+    "Date": "2014-06-15T03:45:22.842344+02:00",
     "IsConflict": false,
-    "Description": "Operative 24/7 intranet",
-    "DescriptionStyleHint": "Profit-focused client-server architecture",
-    "Tooltip": "harum"
+    "Description": "Optimized even-keeled methodology",
+    "DescriptionStyleHint": "Future-proofed static service-desk",
+    "Tooltip": "nobis"
   }
 ]
 ```

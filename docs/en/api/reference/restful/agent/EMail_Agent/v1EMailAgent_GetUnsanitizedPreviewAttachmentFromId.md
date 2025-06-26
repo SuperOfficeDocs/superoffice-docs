@@ -93,10 +93,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 556,
-  "AttachmentId": "delectus",
-  "AttachmentType": "voluptate",
-  "AttachmentFilename": "iste"
+  "MailItemId": 301,
+  "AttachmentId": "et",
+  "AttachmentType": "commodi",
+  "AttachmentFilename": "beatae"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-centric foreground database",
-  "Filename": "voluptatem",
-  "Size": 719,
-  "Type": "ipsam",
-  "Encoding": "ducimus",
-  "Id": "est",
-  "Disposition": "sequi",
-  "IsSafeFileExtension": false,
+  "Description": "Right-sized bi-directional throughput",
+  "Filename": "sint",
+  "Size": 978,
+  "Type": "qui",
+  "Encoding": "aliquid",
+  "Id": "assumenda",
+  "Disposition": "quis",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 457
     }
   }
 }

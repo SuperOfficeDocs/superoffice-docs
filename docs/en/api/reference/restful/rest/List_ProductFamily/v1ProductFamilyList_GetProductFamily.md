@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Heaney-Fahey",
-  "Tooltip": "non",
+  "Id": 366,
+  "Name": "Torphy LLC",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "UdListDefinitionId": 601,
-  "Rank": 109,
+  "UdListDefinitionId": 36,
+  "Rank": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 906
     }
   }
 }

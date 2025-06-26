@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 876,
-  "PrefValue": "suscipit"
+  "PrefDescId": 45,
+  "PrefValue": "ipsam"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 712,
-  "PrefDescId": 118,
-  "PrefValue": "voluptas",
-  "PrefShowValue": "quisquam",
-  "Description": "Optional non-volatile internet solution",
+  "PrefDescLineId": 703,
+  "PrefDescId": 215,
+  "PrefValue": "est",
+  "PrefShowValue": "dolorum",
+  "Description": "Customizable transitional projection",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 424
     }
   }
 }

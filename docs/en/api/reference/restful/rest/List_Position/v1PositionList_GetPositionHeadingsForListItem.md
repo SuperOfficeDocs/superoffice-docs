@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Walsh LLC",
-    "ToolTip": "Et voluptatem rerum eum.",
+    "Id": 992,
+    "Name": "Grant, Farrell and Kuphal",
+    "ToolTip": "Qui similique.",
     "Deleted": false,
-    "Rank": 970,
-    "Type": "provident",
-    "ColorBlock": 986,
-    "IconHint": "voluptate",
+    "Rank": 679,
+    "Type": "a",
+    "ColorBlock": 474,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2021-10-26T17:54:08.9605465+02:00",
+    "LastChanged": "2015-03-15T03:45:29.0765432+01:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Schneider, Rodriguez and Harvey",
-        "ToolTip": "Ducimus debitis sapiente vitae corporis.",
-        "Deleted": false,
-        "Rank": 215,
-        "Type": "occaecati",
-        "ColorBlock": 184,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2007-05-09T17:54:08.9605465+02:00",
+        "Id": 148,
+        "Name": "Grady, O'Conner and Kihn",
+        "ToolTip": "Enim et veritatis culpa.",
+        "Deleted": true,
+        "Rank": 875,
+        "Type": "accusantium",
+        "ColorBlock": 320,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2018-07-13T03:45:29.0765432+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Haylie Bins",
+        "ExtraInfo": "corporis",
+        "StyleHint": "eius",
+        "Hidden": true,
+        "FullName": "Lucio Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldLength": 681
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Garland Brown Sr.",
+    "ExtraInfo": "omnis",
+    "StyleHint": "minima",
+    "Hidden": false,
+    "FullName": "Kaya Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 856
       }
     }
   }

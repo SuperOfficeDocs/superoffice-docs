@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 66,
-  "Name": "Reilly LLC",
-  "Description": "Multi-tiered maximized middleware",
-  "WelcomeMessage": "qui",
+  "ChatTopicId": 494,
+  "Name": "Keebler LLC",
+  "Description": "Customizable bi-directional benchmark",
+  "WelcomeMessage": "perspiciatis",
   "Language": null,
-  "LastAccept": "2002-04-26T17:54:08.0543344+02:00",
-  "SecondsPrAccept": 614,
-  "AlertRecipient": "nihil",
+  "LastAccept": "1998-04-19T03:45:28.1546963+02:00",
+  "SecondsPrAccept": 859,
+  "AlertRecipient": "laborum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "animi",
+  "CollectConsent": false,
+  "BadgeHeader": "architecto",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "in",
-  "WarnNewChatMinutes": 959,
-  "WarnManagerNewChatMinutes": 162,
+  "CustomQueueText": "rem",
+  "WarnNewChatMinutes": 159,
+  "WarnManagerNewChatMinutes": 31,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 952,
-  "WarnManagerChatMessageMinutes": 849,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 612,
-  "OfflineFormQueueLength": 316,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "qui",
+  "WarnChatMessageMinutes": 23,
+  "WarnManagerChatMessageMinutes": 933,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 840,
+  "OfflineFormQueueLength": 517,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 861
     }
   },
   "_Links": {

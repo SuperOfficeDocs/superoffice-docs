@@ -722,7 +722,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personUdef/SuperOffice:5,person/personUdef/SuperOffice:8,contact/email/emailHasBounced,contact/contactExtra/x_contact_short_dropdown,project/projectPublish/isPublished
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=contact/orgnr,contact/restrictionAddress/line2,contact/contactAssociate/mrMrs,contact/saintTicketCategory,project/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

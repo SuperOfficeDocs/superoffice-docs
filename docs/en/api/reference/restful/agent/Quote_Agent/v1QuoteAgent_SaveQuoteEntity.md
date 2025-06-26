@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 543,
-  "SaleId": 401,
-  "QuoteConnectionId": 90,
-  "ERPQuoteKey": "consequatur",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 513,
-  "AcceptedQuoteAlternativeId": 656,
-  "UseValuesFromQuote": 373,
-  "DocumentId": 828,
-  "PoNumber": "847185",
-  "OrderComment": "et",
-  "PreferredEmailCulture": "natasha.wilderman@dubuquecassin.uk",
+  "QuoteId": 248,
+  "SaleId": 244,
+  "QuoteConnectionId": 439,
+  "ERPQuoteKey": "alias",
+  "ERPOrderKey": "nihil",
+  "ActiveQuoteVersionId": 686,
+  "AcceptedQuoteAlternativeId": 159,
+  "UseValuesFromQuote": 21,
+  "DocumentId": 152,
+  "PoNumber": "896423",
+  "OrderComment": "aut",
+  "PreferredEmailCulture": "lance_price@veum.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 38,
-      "ERPQuoteVersionKey": "libero",
-      "QuoteId": 889,
-      "Description": "Triple-buffered 24 hour process improvement",
-      "Number": "1586838",
+      "QuoteVersionId": 273,
+      "ERPQuoteVersionKey": "culpa",
+      "QuoteId": 162,
+      "Description": "Distributed tangible structure",
+      "Number": "633136",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 256,
-      "SentDate": "2016-12-17T17:54:03.5389365+01:00",
-      "FollowupId": 637,
-      "ExpirationDate": "2000-02-21T17:54:03.5389365+01:00",
-      "DeliveryCountryId": 150,
+      "LikelyQuoteAlternativeId": 450,
+      "SentDate": "1998-02-23T03:45:23.8266945+01:00",
+      "FollowupId": 182,
+      "ExpirationDate": "2010-08-15T03:45:23.8266945+02:00",
+      "DeliveryCountryId": 209,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 983,
+      "InvoiceCountryId": 736,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "atque",
-      "ERPPaymentTypeKey": "minima",
-      "ERPDeliveryTermsKey": "velit",
-      "ERPDeliveryTypeKey": "quia",
-      "Rank": 514,
-      "ApprovedBy": 233,
-      "ApprovedText": "nihil",
-      "ApprovedRegisteredBy": 370,
-      "ApprovedRegisteredDate": "2008-08-04T17:54:03.5389365+02:00",
-      "ExtraField1": "atque",
-      "ExtraField2": "delectus",
-      "ExtraField3": "quo",
-      "ExtraField4": "esse",
-      "ExtraField5": "eum",
-      "LastRecalculated": "2008-06-16T17:54:03.5389365+02:00",
-      "Updated": "2015-04-01T17:54:03.5389365+02:00",
-      "UpdatedAssociateId": 223,
-      "Registered": "1999-02-26T17:54:03.5389365+01:00",
-      "RegisteredAssociateId": 957,
-      "RequestAssociateId": 482,
-      "RequestComment": "quia",
+      "ERPPaymentTermsKey": "officiis",
+      "ERPPaymentTypeKey": "explicabo",
+      "ERPDeliveryTermsKey": "optio",
+      "ERPDeliveryTypeKey": "accusamus",
+      "Rank": 548,
+      "ApprovedBy": 223,
+      "ApprovedText": "rem",
+      "ApprovedRegisteredBy": 541,
+      "ApprovedRegisteredDate": "2007-06-14T03:45:23.8266945+02:00",
+      "ExtraField1": "et",
+      "ExtraField2": "maiores",
+      "ExtraField3": "quas",
+      "ExtraField4": "quo",
+      "ExtraField5": "dolores",
+      "LastRecalculated": "2014-09-20T03:45:23.8266945+02:00",
+      "Updated": "2000-04-30T03:45:23.8266945+02:00",
+      "UpdatedAssociateId": 403,
+      "Registered": "2020-04-20T03:45:23.8266945+02:00",
+      "RegisteredAssociateId": 162,
+      "RequestAssociateId": 750,
+      "RequestComment": "aliquid",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 181
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

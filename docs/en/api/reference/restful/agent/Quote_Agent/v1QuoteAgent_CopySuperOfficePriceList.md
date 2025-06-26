@@ -91,11 +91,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 890,
-  "NewName": "Kulas-Johns",
-  "ValidFrom": "2011-09-13T17:54:03.5233118+02:00",
-  "ValidTo": "2019-02-27T17:54:03.5233118+01:00",
-  "NewCurrencyId": 48,
+  "OriginalPriceListId": 199,
+  "NewName": "Yost, Marquardt and Ebert",
+  "ValidFrom": "2013-07-24T03:45:23.8110701+02:00",
+  "ValidTo": "2017-07-22T03:45:23.8110701+02:00",
+  "NewCurrencyId": 60,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 205,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 486,
-  "Name": "McDermott-VonRueden",
-  "Description": "Seamless user-facing superstructure",
-  "Currency": "in",
-  "CurrencyName": "Gislason-Schneider",
-  "ValidFrom": "2022-04-28T17:54:03.5233118+02:00",
-  "ValidTo": "1998-02-07T17:54:03.5233118+01:00",
+  "PriceListId": 88,
+  "ERPPriceListKey": "eum",
+  "QuoteConnectionId": 138,
+  "Name": "Friesen-Blanda",
+  "Description": "Distributed bifurcated internet solution",
+  "Currency": "ut",
+  "CurrencyName": "Kertzmann LLC",
+  "ValidFrom": "2003-04-23T03:45:23.8110701+02:00",
+  "ValidTo": "2001-06-09T03:45:23.8110701+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 196
     }
   }
 }

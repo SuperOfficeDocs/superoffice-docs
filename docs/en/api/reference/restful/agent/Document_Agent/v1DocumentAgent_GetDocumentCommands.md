@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 269,
+  "DocumentId": 776,
   "AllowedReturnTypes": [
-    "aut",
-    "aut"
+    "nemo",
+    "ipsam"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johnson-Abshire",
-    "DisplayName": "Bosco, Maggio and Jones",
-    "DisplayTooltip": "nihil",
-    "IconHint": "officia",
+    "Name": "Schowalter, Lueilwitz and Blanda",
+    "DisplayName": "Kautzer, Wolff and Robel",
+    "DisplayTooltip": "optio",
+    "IconHint": "ab",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Johnson-Abshire",
-    "DisplayName": "Bosco, Maggio and Jones",
-    "DisplayTooltip": "nihil",
-    "IconHint": "officia",
+    "Name": "Schowalter, Lueilwitz and Blanda",
+    "DisplayName": "Kautzer, Wolff and Robel",
+    "DisplayTooltip": "optio",
+    "IconHint": "ab",
     "ReturnType": "CustomGui"
   }
 ]

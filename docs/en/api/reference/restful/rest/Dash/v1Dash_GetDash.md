@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 708,
-  "UniqueId": "eius",
-  "Name": "Graham, Dickens and Grady",
-  "Description": "Upgradable even-keeled workforce",
-  "AssociateId": 796,
-  "Columns": 551,
+  "DashboardId": 739,
+  "UniqueId": "enim",
+  "Name": "Schaefer LLC",
+  "Description": "Open-architected scalable Graphical User Interface",
+  "AssociateId": 391,
+  "Columns": 296,
   "Theme": null,
-  "VisibleForAll": 779,
+  "VisibleForAll": 594,
   "VisibleForAssociates": [
-    263,
-    433
+    193,
+    153
   ],
   "VisibleForGroups": [
-    194,
-    486
+    146,
+    534
   ],
-  "PinForAll": 164,
+  "PinForAll": 438,
   "PinForAssociates": [
-    72,
-    589
+    485,
+    980
   ],
   "PinForGroups": [
-    190,
-    488
+    362,
+    697
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 623
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

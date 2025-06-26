@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 600,
-  "Name": "Yundt, Buckridge and Ratke",
-  "Tooltip": "aut",
-  "SaveInDb": 488,
-  "Filename": "molestiae",
-  "DefaultOref": "asperiores",
+  "DocumentTemplateId": 932,
+  "Name": "Zboncak Group",
+  "Tooltip": "non",
+  "SaveInDb": 32,
+  "Filename": "et",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 883,
-  "IntentId": 156,
-  "IsDefaultPublished": false,
-  "Rank": 467,
-  "LoadTemplateFromPlugin": 653,
-  "MimeType": "ipsa",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 638,
+  "AutoeventId": 169,
+  "IntentId": 278,
+  "IsDefaultPublished": true,
+  "Rank": 835,
+  "LoadTemplateFromPlugin": 447,
+  "MimeType": "corrupti",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 114,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "carli.jacobs@schowalter.us",
-  "IncludeSignature": false,
+  "EmailSubject": "frida_cremin@kub.com",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ryann.considine@kirlin.name",
+  "SenderEmailAddress": "leola_little@stoltenberg.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 21
     }
   }
 }

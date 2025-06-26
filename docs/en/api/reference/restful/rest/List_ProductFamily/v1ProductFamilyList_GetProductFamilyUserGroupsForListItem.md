@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Quigley, Parker and Boyer",
-    "ToolTip": "Cupiditate laboriosam consectetur repudiandae.",
+    "Id": 272,
+    "Name": "Rodriguez, Walter and Kiehn",
+    "ToolTip": "Unde illum est vel quam necessitatibus.",
     "Deleted": false,
-    "Rank": 557,
-    "Type": "quo",
-    "ColorBlock": 997,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2016-10-08T17:54:08.9761714+02:00",
+    "Rank": 193,
+    "Type": "praesentium",
+    "ColorBlock": 723,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2006-08-03T03:45:29.1549343+02:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Hauck Group",
-        "ToolTip": "Ut fuga.",
-        "Deleted": false,
-        "Rank": 47,
-        "Type": "quam",
-        "ColorBlock": 124,
-        "IconHint": "qui",
+        "Id": 237,
+        "Name": "Larson, Legros and Bayer",
+        "ToolTip": "Fuga non voluptas.",
+        "Deleted": true,
+        "Rank": 279,
+        "Type": "similique",
+        "ColorBlock": 311,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2024-06-13T17:54:08.9761714+02:00",
+        "LastChanged": "2002-05-23T03:45:29.1549343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "rerum",
+        "ExtraInfo": "non",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Maya Gordon Aufderhar Sr.",
+        "FullName": "Rosendo Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldType": "System.String",
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Gunnar Collins",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "reiciendis",
+    "Hidden": true,
+    "FullName": "Prof. Haylie Nora Dietrich I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 421
+        "FieldLength": 717
       }
     }
   }

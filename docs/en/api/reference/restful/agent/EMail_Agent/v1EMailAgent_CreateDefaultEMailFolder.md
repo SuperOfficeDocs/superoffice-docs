@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Luettgen-Terry",
-  "Delimiter": "quasi",
-  "Flags": "quae",
-  "TotalItems": 238,
-  "UnreadItems": 390,
-  "Subscribed": false,
-  "EmailFolderId": 487,
+  "Name": "Friesen Inc and Sons",
+  "Delimiter": "nam",
+  "Flags": "voluptate",
+  "TotalItems": 752,
+  "UnreadItems": 389,
+  "Subscribed": true,
+  "EmailFolderId": 201,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 888
     }
   }
 }

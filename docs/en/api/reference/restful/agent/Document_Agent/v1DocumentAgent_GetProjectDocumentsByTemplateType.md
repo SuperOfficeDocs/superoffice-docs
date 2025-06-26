@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 433,
-  "StartTime": "2008-09-08T17:54:02.9608392+02:00",
-  "EndTime": "2001-12-31T17:54:02.9608392+01:00",
-  "Count": 988,
-  "DocumentTemplateId": 424
+  "ProjectId": 704,
+  "StartTime": "2003-02-02T03:45:23.2798335+01:00",
+  "EndTime": "2010-04-04T03:45:23.2798335+02:00",
+  "Count": 841,
+  "DocumentTemplateId": 260
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 458,
-    "Attention": "doloremque",
-    "Header": "sunt",
-    "Name": "Ratke Group",
-    "OurRef": "sunt",
-    "YourRef": "sint",
-    "Description": "Progressive coherent utilisation",
-    "DocumentTemplate": "corporis",
+    "DocumentId": 769,
+    "Attention": "et",
+    "Header": "magni",
+    "Name": "Boyle, Price and Deckow",
+    "OurRef": "enim",
+    "YourRef": "accusantium",
+    "Description": "Open-source bifurcated encoding",
+    "DocumentTemplate": "impedit",
     "IsPublished": false,
-    "PersonId": 461,
-    "PersonFullName": "Polly Thiel",
-    "AssociateFullName": "Prof. Rosemary Alivia Schowalter",
-    "ContactId": 932,
-    "ContactName": "Mante-Emmerich",
-    "ProjectId": 553,
-    "ProjectName": "Beatty, Bayer and Conn",
-    "AssociateId": 820,
-    "Snum": 5,
-    "SaleId": 822,
-    "SaleName": "Jacobson-Dickinson",
+    "PersonId": 149,
+    "PersonFullName": "Oswald Gutmann",
+    "AssociateFullName": "Mrs. Ewald Mckenzie Nicolas",
+    "ContactId": 370,
+    "ContactName": "Collins, Will and Kulas",
+    "ProjectId": 438,
+    "ProjectName": "Cremin Group",
+    "AssociateId": 510,
+    "Snum": 955,
+    "SaleId": 147,
+    "SaleName": "Oberbrunner-Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 532
       }
     }
   }

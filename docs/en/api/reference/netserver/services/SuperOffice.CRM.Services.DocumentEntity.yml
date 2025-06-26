@@ -79,11 +79,11 @@ items:
     var links = archive.GetArchiveListByColumns2("Links", "...", null, "sourceDocumentRestrictionId eq 123", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
 
       public class DocumentEntity : Carrier, IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
 
       Public Class DocumentEntity Inherits Carrier Implements IActivityEntityCarrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
   seealso:
@@ -109,7 +109,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
 - uid: SuperOffice.CRM.Services.DocumentEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.DocumentEntity.#ctor
   id: '#ctor'

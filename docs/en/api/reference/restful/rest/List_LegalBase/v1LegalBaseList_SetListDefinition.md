@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Name": "Beier-Moen",
-  "Tooltip": "perspiciatis",
+  "Id": 860,
+  "Name": "Bashirian-Prohaska",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 878,
-  "IsCustomList": true,
+  "Rank": 211,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "error",
+  "UseGroupsAndHeadings": false,
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Hickle, Schuppe and Strosin",
-  "Tooltip": "aliquid",
+  "Id": 303,
+  "Name": "Leuschke Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 398,
+  "Rank": 943,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   }
 }

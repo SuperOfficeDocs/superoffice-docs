@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "necessitatibus",
-      "ValueType": "accusamus",
-      "Mandatory": true,
-      "EncodedDisplayName": "Kuhn-Wisozk",
-      "EncodedDisplayDescription": "Cloned interactive superstructure",
-      "IconHint": "ipsam",
+      "Key": "at",
+      "ValueType": "tempore",
+      "Mandatory": false,
+      "EncodedDisplayName": "Jakubowski LLC",
+      "EncodedDisplayDescription": "Down-sized exuding capability",
+      "IconHint": "eos",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "fuga",
-      "EncodedDataCaptionDescription": "Enterprise-wide logistical knowledge base",
-      "CurrentOperationType": "fuga",
+      "EncodedDataCaption": "maxime",
+      "EncodedDataCaptionDescription": "Devolved mission-critical service-desk",
+      "CurrentOperationType": "dignissimos",
       "Values": [
-        "ducimus",
-        "sint"
+        "et",
+        "sunt"
       ],
       "DisplayValues": [
-        "accusantium",
-        "tenetur"
+        "non",
+        "libero"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bednar Inc and Sons",
-  "Context": "laudantium",
-  "SelectionId": 269,
-  "IsShadow": true
+  "TableName": "Homenick, Sipes and Kutch",
+  "Context": "maxime",
+  "SelectionId": 673,
+  "IsShadow": false
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-916
+760
 ```

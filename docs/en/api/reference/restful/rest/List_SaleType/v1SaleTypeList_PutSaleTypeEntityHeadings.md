@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 724,
-    "Name": "Ruecker LLC",
-    "Tooltip": "vel",
+    "HeadingId": 586,
+    "Name": "Rempel-Donnelly",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 64,
-    "UdListDefinitionId": 414
+    "Rank": 717,
+    "UdListDefinitionId": 845
   },
   {
-    "HeadingId": 724,
-    "Name": "Ruecker LLC",
-    "Tooltip": "vel",
+    "HeadingId": 586,
+    "Name": "Rempel-Donnelly",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 64,
-    "UdListDefinitionId": 414
+    "Rank": 717,
+    "UdListDefinitionId": 845
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 447,
-    "Name": "Grant, Effertz and Mayer",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 164,
-    "UdListDefinitionId": 599,
+    "HeadingId": 755,
+    "Name": "Friesen-Mills",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 21,
+    "UdListDefinitionId": 660,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 952
       }
     }
   }

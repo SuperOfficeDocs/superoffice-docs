@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Koch LLC",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 365,
+  "Id": 114,
+  "Name": "Swaniawski Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 108,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "unde",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Hintz, Zboncak and Wunsch",
-  "Tooltip": "et",
+  "Id": 774,
+  "Name": "Cassin LLC",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 901,
-  "IsCustomList": false,
+  "Rank": 428,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   }
 }

@@ -64,17 +64,17 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Emard Inc and Sons",
+      "Name": "Okuneva, Hessel and Marks",
       "State": true
     },
     {
-      "Name": "Emard Inc and Sons",
+      "Name": "Okuneva, Hessel and Marks",
       "State": true
     }
   ]

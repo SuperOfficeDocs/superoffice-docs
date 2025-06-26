@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 28,
-    "Name": "Franecki Group",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 497,
+    "Name": "Marquardt, Blick and Johns",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 72,
-    "UdListDefinitionId": 987,
+    "Rank": 573,
+    "UdListDefinitionId": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 377
       }
     }
   }

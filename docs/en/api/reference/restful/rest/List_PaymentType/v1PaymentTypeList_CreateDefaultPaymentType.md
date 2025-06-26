@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "McKenzie-Schaden",
-  "Tooltip": "quo",
+  "Id": 805,
+  "Name": "Lubowitz, Kuhn and O'Reilly",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 894,
-  "Rank": 518,
+  "UdListDefinitionId": 417,
+  "Rank": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

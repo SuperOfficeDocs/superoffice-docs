@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "deserunt",
+  "ProgId": "voluptatem",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 503,
-  "ColumnId": 450,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 53,
-  "FieldLabel": "molestias",
-  "FieldLeft": 534,
-  "FieldTop": 94,
+  "UDefFieldId": 405,
+  "ColumnId": 354,
+  "FieldDefault": "earum",
+  "FieldHeight": 399,
+  "FieldLabel": "corrupti",
+  "FieldLeft": 881,
+  "FieldTop": 425,
   "FieldType": "Checkbox",
-  "FieldWidth": 627,
-  "FormatMask": "non",
+  "FieldWidth": 85,
+  "FormatMask": "expedita",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 511,
-  "LabelLeft": 774,
-  "LabelTop": 992,
-  "LabelWidth": 117,
-  "LastVersionId": 822,
-  "ListTableId": 908,
+  "IsIndexed": true,
+  "LabelHeight": 85,
+  "LabelLeft": 658,
+  "LabelTop": 245,
+  "LabelWidth": 266,
+  "LastVersionId": 749,
+  "ListTableId": 899,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 81,
-  "ProgId": "incidunt",
-  "IsReadOnly": true,
-  "ShortLabel": "sed",
-  "TabOrder": 429,
-  "TextLength": 823,
-  "Tooltip": "libero",
-  "UdefIdentity": 590,
-  "UDListDefinitionId": 11,
+  "Page1LineNo": 810,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 647,
+  "TextLength": 885,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 986,
+  "UDListDefinitionId": 590,
   "Justification": "Center",
-  "Version": 456,
-  "TemplateVariableName": "Bernhard-Bins",
+  "Version": 254,
+  "TemplateVariableName": "Bernier-Reynolds",
   "HasBeenPublished": false,
-  "MdoListName": "Gleichner-Strosin",
+  "MdoListName": "Waelchi, Douglas and Robel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

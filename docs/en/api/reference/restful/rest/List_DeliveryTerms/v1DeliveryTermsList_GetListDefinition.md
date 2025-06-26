@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "Jacobi, Hoppe and Bernhard",
-  "Tooltip": "autem",
+  "Id": 304,
+  "Name": "Bartoletti-Becker",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 514,
+  "Rank": 589,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   },
   "_Links": {

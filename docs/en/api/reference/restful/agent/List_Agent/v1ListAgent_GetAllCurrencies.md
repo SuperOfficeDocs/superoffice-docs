@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 714,
-    "Name": "Glover LLC",
-    "Tooltip": "repellendus",
-    "Rank": 535,
-    "Rate": 28052.433999999997,
-    "Units": 2030.8319999999999,
+    "CurrencyId": 502,
+    "Name": "Reilly-Franecki",
+    "Tooltip": "et",
+    "Rank": 264,
+    "Rate": 6750.6359999999995,
+    "Units": 13046.841999999999,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 262
       }
     }
   }

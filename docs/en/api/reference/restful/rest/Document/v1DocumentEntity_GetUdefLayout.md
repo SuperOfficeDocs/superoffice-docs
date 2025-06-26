@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 800,
-    "ColumnId": 264,
-    "FieldDefault": "enim",
-    "FieldHeight": 339,
-    "FieldLabel": "omnis",
-    "FieldLeft": 484,
-    "FieldTop": 903,
+    "UDefFieldId": 445,
+    "ColumnId": 70,
+    "FieldDefault": "ea",
+    "FieldHeight": 968,
+    "FieldLabel": "hic",
+    "FieldLeft": 646,
+    "FieldTop": 112,
     "FieldType": "Checkbox",
-    "FieldWidth": 592,
-    "FormatMask": "a",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 45,
-    "LabelLeft": 239,
-    "LabelTop": 635,
-    "LabelWidth": 452,
-    "LastVersionId": 250,
-    "ListTableId": 632,
+    "FieldWidth": 272,
+    "FormatMask": "maiores",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 36,
+    "LabelLeft": 938,
+    "LabelTop": 129,
+    "LabelWidth": 916,
+    "LastVersionId": 758,
+    "ListTableId": 98,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 141,
-    "ProgId": "esse",
+    "Page1LineNo": 805,
+    "ProgId": "dolores",
     "IsReadOnly": true,
-    "ShortLabel": "quasi",
-    "TabOrder": 506,
-    "TextLength": 462,
-    "Tooltip": "nulla",
-    "UdefIdentity": 215,
-    "UDListDefinitionId": 588,
+    "ShortLabel": "omnis",
+    "TabOrder": 862,
+    "TextLength": 784,
+    "Tooltip": "exercitationem",
+    "UdefIdentity": 183,
+    "UDListDefinitionId": 359,
     "Justification": "Center",
-    "Version": 661,
-    "TemplateVariableName": "Runolfsson-Cremin",
+    "Version": 232,
+    "TemplateVariableName": "Hartmann Group",
     "HasBeenPublished": false,
-    "MdoListName": "Raynor-Ruecker",
+    "MdoListName": "Hyatt LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldLength": 926
       }
     }
   }

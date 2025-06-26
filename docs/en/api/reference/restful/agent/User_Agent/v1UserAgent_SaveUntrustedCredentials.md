@@ -71,7 +71,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
+  "Type": "nemo",
   "Credentials": null
 }
 ```

@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=758
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=16
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 210,
-  "WorkflowStepId": 161,
-  "WorkflowId": 920,
-  "Rank": 729,
+  "WorkflowWaitForActionId": 47,
+  "WorkflowStepId": 986,
+  "WorkflowId": 489,
+  "Rank": 671,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Waelchi-Walter",
-      "Description": "Implemented 6th generation leverage",
-      "Rank": 319,
+      "Name": "Schaden LLC",
+      "Description": "Visionary bottom-line migration",
+      "Rank": 405,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waelchi-Walter",
-      "Description": "Implemented 6th generation leverage",
-      "Rank": 319,
+      "Name": "Schaden LLC",
+      "Description": "Visionary bottom-line migration",
+      "Rank": 405,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 675
     }
   }
 }

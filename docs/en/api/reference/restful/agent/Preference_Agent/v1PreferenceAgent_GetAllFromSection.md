@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut"
+  "Section": "voluptatem"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 984,
-    "Section": "ipsam",
-    "Key": "suscipit",
-    "Name": "Brekke-Jewess",
+    "PrefDescId": 546,
+    "Section": "ad",
+    "Key": "nisi",
+    "Name": "Boehm, Murazik and Lang",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Self-enabling zero tolerance encryption",
-    "IsBuiltin": true,
-    "TableName": "Swift, Walsh and Krajcik",
-    "UserDefinedListId": 666,
-    "Rank": 607,
-    "SubGroup": "ut",
-    "MinLevel": 408,
-    "MaxValue": 251,
-    "MinValue": 88,
-    "RequiredLicense": "hic",
+    "Description": "Seamless content-based throughput",
+    "IsBuiltin": false,
+    "TableName": "Fahey Inc and Sons",
+    "UserDefinedListId": 602,
+    "Rank": 374,
+    "SubGroup": "in",
+    "MinLevel": 479,
+    "MaxValue": 575,
+    "MinValue": 967,
+    "RequiredLicense": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 724
       }
     }
   }

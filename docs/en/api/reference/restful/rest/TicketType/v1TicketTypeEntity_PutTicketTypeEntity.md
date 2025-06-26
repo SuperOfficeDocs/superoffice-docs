@@ -115,37 +115,37 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 325,
-  "Name": "VonRueden-Bogan",
-  "Rank": 36,
-  "Tooltip": "iste",
-  "Icon": "corrupti",
-  "DefaultTicketStatus": 456,
+  "TicketTypeId": 18,
+  "Name": "Schneider, Toy and Murazik",
+  "Rank": 963,
+  "Tooltip": "quasi",
+  "Icon": "labore",
+  "DefaultTicketStatus": 263,
   "TicketStatuses": [
-    675,
-    343
+    136,
+    960
   ],
-  "DefaultTicketPriority": 647,
+  "DefaultTicketPriority": 209,
   "TicketPriorities": [
-    310,
-    807
+    171,
+    504
   ],
-  "ReplyTemplate": 215,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 357,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    761,
-    14
+    558,
+    799
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -157,40 +157,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 832,
-  "Name": "Gibson, Bechtelar and Crooks",
-  "Rank": 553,
-  "Tooltip": "totam",
-  "Icon": "odio",
-  "DefaultTicketStatus": 782,
+  "TicketTypeId": 589,
+  "Name": "Grady, Ritchie and Wolff",
+  "Rank": 996,
+  "Tooltip": "harum",
+  "Icon": "voluptate",
+  "DefaultTicketStatus": 568,
   "TicketStatuses": [
-    239,
-    659
+    219,
+    836
   ],
-  "DefaultTicketPriority": 368,
+  "DefaultTicketPriority": 404,
   "TicketPriorities": [
-    337,
-    585
+    111,
+    566
   ],
-  "ReplyTemplate": 376,
+  "ReplyTemplate": 591,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    215,
-    277
+    640,
+    686
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 57
     }
   },
   "_Links": {

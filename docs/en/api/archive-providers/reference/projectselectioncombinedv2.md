@@ -808,7 +808,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=NumberOfNotCompletedSales,sale/earning,sale/associate/assocName,document/registeredDate,document/snum
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=appointment/who,projectMember/personDirectPhone/description,projectMember/personAssociate/isLocation,projectMember/contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

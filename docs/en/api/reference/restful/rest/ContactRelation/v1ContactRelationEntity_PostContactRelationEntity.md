@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 812,
-  "SourcePersonId": 475,
-  "DestinationContactId": 719,
-  "DestinationPersonId": 91,
-  "RelationId": 274,
-  "Comment": "libero",
-  "RelationDefinitionId": 307,
-  "Reversed": 668,
-  "UpdatedDate": "2010-08-08T17:54:08.1324619+02:00",
-  "CreatedDate": "2010-10-23T17:54:08.1324619+02:00",
+  "SourceContactId": 201,
+  "SourcePersonId": 51,
+  "DestinationContactId": 380,
+  "DestinationPersonId": 857,
+  "RelationId": 857,
+  "Comment": "repudiandae",
+  "RelationDefinitionId": 943,
+  "Reversed": 417,
+  "UpdatedDate": "2000-10-16T03:45:28.2171945+02:00",
+  "CreatedDate": "2020-11-06T03:45:28.2171945+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Macejkovic, Kilback and Beatty",
-  "SourcePersonName": "Ondricka-Blanda",
-  "DestinationContactName": "Hamill, Dietrich and Hamill",
-  "DestinationPersonName": "Mertz LLC",
-  "ActiveText": "omnis",
-  "PassiveText": "non"
+  "SourceContactName": "Koss Group",
+  "SourcePersonName": "Koss-Hodkiewicz",
+  "DestinationContactName": "Kulas-Lemke",
+  "DestinationPersonName": "Waelchi Group",
+  "ActiveText": "molestias",
+  "PassiveText": "aut"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 398,
-  "SourcePersonId": 185,
-  "DestinationContactId": 75,
-  "DestinationPersonId": 762,
-  "RelationId": 944,
-  "Comment": "et",
-  "RelationDefinitionId": 783,
-  "Reversed": 345,
-  "UpdatedDate": "2001-07-01T17:54:08.1324619+02:00",
-  "CreatedDate": "2007-07-26T17:54:08.1324619+02:00",
+  "SourceContactId": 263,
+  "SourcePersonId": 808,
+  "DestinationContactId": 243,
+  "DestinationPersonId": 772,
+  "RelationId": 304,
+  "Comment": "sapiente",
+  "RelationDefinitionId": 415,
+  "Reversed": 194,
+  "UpdatedDate": "2018-04-01T03:45:28.2171945+02:00",
+  "CreatedDate": "2012-09-01T03:45:28.2171945+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mitchell-Ruecker",
-  "SourcePersonName": "Barton-Glover",
-  "DestinationContactName": "Kozey, Krajcik and Ledner",
-  "DestinationPersonName": "Conroy, Welch and Weimann",
-  "ActiveText": "culpa",
-  "PassiveText": "commodi",
+  "SourceContactName": "Schuppe LLC",
+  "SourcePersonName": "Langworth-Vandervort",
+  "DestinationContactName": "Maggio-Morar",
+  "DestinationPersonName": "Price-Schuppe",
+  "ActiveText": "corrupti",
+  "PassiveText": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 39
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

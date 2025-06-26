@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 850,
-  "LeadDescription": "Operative heuristic parallelism",
-  "Relation": "et",
-  "RelationId": 480,
-  "LeadContact": "porro",
-  "LeadPersonFirstname": "Viva",
-  "LeadPersonLastname": "Howe",
-  "LeadPersonEmail": "kimberly@schinner.name",
-  "LeadPhoneNumber": "913486",
-  "CreatorsContact": "officia",
-  "CreatorsFirstname": "Brock",
-  "CreatorsLastname": "Rippin"
+  "AssociateIdForNewContact": 870,
+  "LeadDescription": "Extended mobile orchestration",
+  "Relation": "iste",
+  "RelationId": 329,
+  "LeadContact": "debitis",
+  "LeadPersonFirstname": "Bailey",
+  "LeadPersonLastname": "Ebert",
+  "LeadPersonEmail": "shaylee_price@stiedemann.uk",
+  "LeadPhoneNumber": "895659",
+  "CreatorsContact": "alias",
+  "CreatorsFirstname": "Mose",
+  "CreatorsLastname": "Harris"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 964,
-      "Name": "Altenwerth, Senger and Klein",
-      "OrgNr": "950026",
-      "Department": "incubate one-to-one infomediaries",
+      "ContactId": 531,
+      "Name": "Emmerich-Simonis",
+      "OrgNr": "576756",
+      "Department": "",
       "URL": "http://www.example.com/",
-      "City": "doloribus",
-      "DirectPhone": "890-639-2788",
-      "AssociateId": 157,
-      "CountryId": 724,
-      "EmailAddress": "malachi@borer.name",
-      "Kananame": "sapiente",
-      "EmailAddressName": "brandi@rowe.info",
+      "City": "fugiat",
+      "DirectPhone": "1-628-556-7694 x22740",
+      "AssociateId": 35,
+      "CountryId": 695,
+      "EmailAddress": "wanda@thompson.us",
+      "Kananame": "et",
+      "EmailAddressName": "vergie@cummerata.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Lisa Renner",
+      "AssociateFullName": "Miss Florine Brown Bednar",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "dolor",
-      "FullName": "Kristoffer Donnelly",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 35,
-      "Number1": "1169543",
-      "Number2": "749325",
+      "FormattedAddress": "corrupti",
+      "FullName": "Earl Block",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 787,
+      "Number1": "1106251",
+      "Number2": "297149",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

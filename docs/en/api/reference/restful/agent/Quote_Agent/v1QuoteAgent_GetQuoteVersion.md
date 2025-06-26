@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 335
+  "QuoteVersionId": 36
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 767,
-  "ERPQuoteVersionKey": "laudantium",
-  "QuoteId": 936,
-  "Description": "Synergistic zero administration focus group",
-  "Number": "557895",
+  "QuoteVersionId": 33,
+  "ERPQuoteVersionKey": "dolor",
+  "QuoteId": 714,
+  "Description": "Sharable intangible archive",
+  "Number": "1578745",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 176,
-  "SentDate": "2019-03-22T17:54:03.5076876+01:00",
-  "FollowupId": 866,
-  "ExpirationDate": "2000-09-19T17:54:03.5076876+02:00",
-  "DeliveryCountryId": 442,
+  "LikelyQuoteAlternativeId": 689,
+  "SentDate": "2012-03-06T03:45:23.7954455+01:00",
+  "FollowupId": 818,
+  "ExpirationDate": "2000-06-18T03:45:23.7954455+02:00",
+  "DeliveryCountryId": 299,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 616,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "similique",
-  "ERPPaymentTypeKey": "aut",
+  "InvoiceCountryId": 330,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "aspernatur",
+  "ERPPaymentTypeKey": "distinctio",
   "ERPDeliveryTermsKey": "vel",
-  "ERPDeliveryTypeKey": "laborum",
-  "Rank": 241,
-  "ApprovedBy": 943,
-  "ApprovedText": "ad",
-  "ApprovedRegisteredBy": 244,
-  "ApprovedRegisteredDate": "2019-01-05T17:54:03.5076876+01:00",
-  "ExtraField1": "at",
-  "ExtraField2": "perferendis",
-  "ExtraField3": "ad",
-  "ExtraField4": "optio",
-  "ExtraField5": "soluta",
-  "LastRecalculated": "2006-12-12T17:54:03.5076876+01:00",
-  "Updated": "2019-10-23T17:54:03.5076876+02:00",
-  "UpdatedAssociateId": 831,
-  "Registered": "2004-05-28T17:54:03.5076876+02:00",
-  "RegisteredAssociateId": 242,
-  "RequestAssociateId": 276,
-  "RequestComment": "officia",
+  "ERPDeliveryTypeKey": "eos",
+  "Rank": 377,
+  "ApprovedBy": 388,
+  "ApprovedText": "accusamus",
+  "ApprovedRegisteredBy": 730,
+  "ApprovedRegisteredDate": "2013-11-04T03:45:23.7954455+01:00",
+  "ExtraField1": "saepe",
+  "ExtraField2": "corporis",
+  "ExtraField3": "optio",
+  "ExtraField4": "quo",
+  "ExtraField5": "iusto",
+  "LastRecalculated": "2002-02-07T03:45:23.7954455+01:00",
+  "Updated": "2016-10-21T03:45:23.7954455+02:00",
+  "UpdatedAssociateId": 998,
+  "Registered": "2014-01-07T03:45:23.7954455+01:00",
+  "RegisteredAssociateId": 122,
+  "RequestAssociateId": 728,
+  "RequestComment": "consectetur",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 36,
-      "ERPQuoteAlternativeKey": "corporis",
-      "QuoteVersionId": 804,
-      "Name": "Morissette, Crona and Murazik",
-      "Description": "Streamlined heuristic methodology",
+      "QuoteAlternativeId": 141,
+      "ERPQuoteAlternativeKey": "harum",
+      "QuoteVersionId": 437,
+      "Name": "Deckow, Dietrich and Sanford",
+      "Description": "Down-sized executive policy",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11931.137999999999,
-      "ERPDiscountAmount": 29725.989999999998,
-      "DiscountPercent": 28137.052,
-      "DiscountAmount": 18941.896,
+      "ERPDiscountPercent": 24648.91,
+      "ERPDiscountAmount": 3657.3779999999997,
+      "DiscountPercent": 28622.822,
+      "DiscountAmount": 29751.061999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quos",
-      "VAT": 8831.612,
-      "EarningPercent": 23185.332,
-      "EarningAmount": 27641.879999999997,
-      "SubTotal": 9025.92,
-      "TotalPrice": 22762.242,
-      "ExtraField1": "et",
-      "ExtraField2": "esse",
-      "ExtraField3": "non",
-      "ExtraField4": "quos",
-      "ExtraField5": "tempora",
+      "VATInfo": "reiciendis",
+      "VAT": 15883.112,
+      "EarningPercent": 680.078,
+      "EarningAmount": 20615.452,
+      "SubTotal": 27876.93,
+      "TotalPrice": 15394.207999999999,
+      "ExtraField1": "fuga",
+      "ExtraField2": "ut",
+      "ExtraField3": "impedit",
+      "ExtraField4": "autem",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 581
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 876
     }
   }
 }

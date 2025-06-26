@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kling-Yundt"
+  "Name": "Bauch, Pfeffer and Roberts"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Aufderhar, Lesch and Heathcote",
-    "ToolTip": "Laboriosam temporibus atque placeat distinctio.",
+    "Id": 677,
+    "Name": "Kiehn, Jones and Block",
+    "ToolTip": "Ut facilis aliquam quo delectus corporis quidem adipisci.",
     "Deleted": false,
-    "Rank": 498,
-    "Type": "at",
+    "Rank": 693,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Veum LLC",
-        "ToolTip": "Quo et molestiae illum praesentium.",
-        "Deleted": false,
-        "Rank": 151,
-        "Type": "placeat",
+        "Id": 413,
+        "Name": "Spencer, Ryan and Trantow",
+        "ToolTip": "Voluptatem nulla voluptates et molestiae consequatur et.",
+        "Deleted": true,
+        "Rank": 666,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 559,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "libero",
-        "FullName": "Ms. Lia Afton Marquardt DVM",
+        "IconHint": "dolores",
+        "ColorBlock": 48,
+        "ExtraInfo": "omnis",
+        "StyleHint": "animi",
+        "FullName": "Lucienne Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 205
+            "FieldType": "System.Int32",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 658,
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
-    "FullName": "Gonzalo Wiegand",
+    "IconHint": "maiores",
+    "ColorBlock": 425,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "in",
+    "FullName": "Mercedes Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 633
       }
     }
   }

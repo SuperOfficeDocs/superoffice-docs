@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Mayer-Ankunding",
-      "Operator": "ex",
+      "Name": "Keeling-Lynch",
+      "Operator": "omnis",
       "Values": [
-        "quia",
-        "et"
+        "sed",
+        "non"
       ],
       "DisplayValues": [
-        "in",
-        "aut"
+        "est",
+        "distinctio"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 835,
+      "InterParenthesis": 504,
       "InterOperator": "And",
-      "UniqueHash": 316
+      "UniqueHash": 350
     }
   ],
   "Columns": [
-    "quod",
-    "autem"
+    "sit",
+    "nam"
   ],
-  "ConnectionId": 764,
+  "ConnectionId": 618,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "non",
-        "rerum"
+        "quis",
+        "esse"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eius",
+      "ExternalKey": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 894
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Marquardt LLC",
-      "DisplayName": "Koelpin-Weimann",
-      "Locked": true,
+      "Name": "Bradtke, Lehner and Schumm",
+      "DisplayName": "Pacocha-Schiller",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 989
         }
       }
     },
     {
-      "Name": "Marquardt LLC",
-      "DisplayName": "Koelpin-Weimann",
-      "Locked": true,
+      "Name": "Bradtke, Lehner and Schumm",
+      "DisplayName": "Pacocha-Schiller",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 989
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 322
     }
   }
 }

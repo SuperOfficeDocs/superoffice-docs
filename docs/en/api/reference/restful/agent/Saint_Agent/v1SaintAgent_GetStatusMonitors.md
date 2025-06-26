@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Type": "velit"
+  "Id": 320,
+  "Type": "ut"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 208,
-    "Rank": 681,
-    "DefaultTask": 220,
-    "DefaultTaskText": "mollitia",
-    "IsVisual": true,
-    "LastGenerated": "2022-10-16T17:54:03.5545604+02:00",
-    "Description": "Enhanced high-level adapter",
-    "Name": "Walsh LLC",
-    "StatusMonitorId": 74,
-    "PictureId": 364,
+    "OwnerTable": 926,
+    "Rank": 111,
+    "DefaultTask": 263,
+    "DefaultTaskText": "veniam",
+    "IsVisual": false,
+    "LastGenerated": "2015-10-26T03:45:23.8423206+01:00",
+    "Description": "Synchronised bottom-line utilisation",
+    "Name": "Cormier, Collier and Steuber",
+    "StatusMonitorId": 279,
+    "PictureId": 455,
     "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 337,
-    "NumNeedUpdate": 176,
-    "GenerationStart": "2002-11-14T17:54:03.5545604+01:00",
+    "NumMatches": 865,
+    "NumNeedUpdate": 385,
+    "GenerationStart": "2001-03-13T03:45:23.8423206+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldLength": 646
       }
     }
   }

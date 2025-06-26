@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 750,
-  "Name": "Emmerich-Anderson",
-  "Tooltip": "ut",
+  "HeadingId": 489,
+  "Name": "Rosenbaum-Labadie",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 110
+  "Rank": 541,
+  "UdListDefinitionId": 609
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 348,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "quo",
+  "HeadingId": 39,
+  "Name": "Jacobi, Swaniawski and Goyette",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 911,
-  "UdListDefinitionId": 194,
+  "Rank": 870,
+  "UdListDefinitionId": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

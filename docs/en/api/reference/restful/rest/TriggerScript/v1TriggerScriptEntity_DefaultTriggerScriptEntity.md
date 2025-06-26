@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 854,
-  "Name": "Pollich-Corkery",
+  "ScreenChooserId": 251,
+  "Name": "Labadie, Kutch and Kirlin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "laboriosam",
-  "Source": "architecto",
-  "Registered": "2011-04-01T17:54:08.6793184+02:00",
-  "RegisteredAssociateId": 560,
-  "Updated": "2010-12-28T17:54:08.6793184+01:00",
-  "UpdatedAssociateId": 660,
+  "Enabled": false,
+  "UniqueIdentifier": "explicabo",
+  "Source": "aspernatur",
+  "Registered": "2000-07-17T03:45:28.7952992+02:00",
+  "RegisteredAssociateId": 753,
+  "Updated": "2023-12-28T03:45:28.7952992+01:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ziemann-Pfeffer",
-    "DisplayName": "Nolan LLC",
-    "Description": "Open-architected fault-tolerant installation",
-    "ShortLabel": "et",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Fritsch, Robel and Rolfson",
+    "DisplayName": "Runte LLC",
+    "Description": "Decentralized stable alliance",
+    "ShortLabel": "quasi",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 104,
-    "TemplateVariableName": "Smith, Mosciski and Krajcik"
+    "IsDisplayField": true,
+    "Rank": 321,
+    "TemplateVariableName": "Goyette, Mann and O'Connell"
   }
 ]
 ```

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 975,
-    "Name": "Walter Group",
-    "OrgNr": "801649",
+    "ContactId": 11,
+    "Name": "Gibson-McKenzie",
+    "OrgNr": "207043",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "id",
-    "DirectPhone": "(286)691-3609",
-    "AssociateId": 100,
-    "CountryId": 774,
-    "EmailAddress": "lane@predovic.name",
-    "Kananame": "eius",
-    "EmailAddressName": "calista_stamm@fadel.info",
+    "City": "similique",
+    "DirectPhone": "990-738-0707",
+    "AssociateId": 986,
+    "CountryId": 794,
+    "EmailAddress": "federico.gorczany@satterfield.ca",
+    "Kananame": "tenetur",
+    "EmailAddressName": "tommie@kautzer.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Oren Lueilwitz",
+    "AssociateFullName": "Celine Leannon",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "iusto",
-    "FullName": "Mr. Francisco Anderson MD",
+    "FormattedAddress": "sequi",
+    "FullName": "Alysa Smitham",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 259,
-    "Number1": "665732",
-    "Number2": "1074332",
+    "ActiveErpLinks": 641,
+    "Number1": "1436577",
+    "Number2": "1489607",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 335
       }
     }
   }

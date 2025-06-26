@@ -33,11 +33,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
 
       public class WorkflowStepBase
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.1.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
 
       Public Class WorkflowStepBase
   seealso:
@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Services.WorkflowStepCreateRequest
   - SuperOffice.CRM.Services.WorkflowStepCreateSale
+  - SuperOffice.CRM.Services.WorkflowStepDistributeToOwner
   - SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
   - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Services.WorkflowStepRemoveFromList
@@ -74,7 +75,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.1.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
 - uid: SuperOffice.CRM.Services.WorkflowStepBase.#ctor
   commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.#ctor
   id: '#ctor'

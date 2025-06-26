@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Rolfson-Rogahn",
-    "ToolTip": "Provident sit sunt est impedit.",
-    "Deleted": true,
-    "Rank": 275,
-    "Type": "dolores",
-    "ColorBlock": 284,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2018-03-16T17:54:08.8199285+01:00",
+    "Id": 632,
+    "Name": "Boehm, Steuber and Russel",
+    "ToolTip": "Et quaerat qui nesciunt hic sit adipisci.",
+    "Deleted": false,
+    "Rank": 776,
+    "Type": "dignissimos",
+    "ColorBlock": 663,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2023-02-09T03:45:28.9984183+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Farrell, Lind and Gleichner",
-        "ToolTip": "Enim cupiditate.",
+        "Id": 684,
+        "Name": "Harris-Considine",
+        "ToolTip": "Labore sed laboriosam provident sit tempore vitae.",
         "Deleted": false,
-        "Rank": 936,
-        "Type": "eius",
-        "ColorBlock": 168,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "2018-07-24T17:54:08.8199285+02:00",
+        "Rank": 398,
+        "Type": "unde",
+        "ColorBlock": 112,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2023-02-11T03:45:28.9984183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "quae",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Elise Bailey IV"
+        "FullName": "Hadley Jewess"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Miss Tessie Elva Blanda III"
+    "FullName": "Ms. Alexa Kemmer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Ziemann, Dare and Bartell",
-    "ToolTip": "Omnis incidunt sit eius et cupiditate.",
+    "Id": 467,
+    "Name": "Koch, Johns and Feil",
+    "ToolTip": "Ut magnam nesciunt itaque repudiandae aperiam.",
     "Deleted": false,
-    "Rank": 392,
-    "Type": "accusantium",
-    "ColorBlock": 128,
-    "IconHint": "dignissimos",
-    "Selected": false,
-    "LastChanged": "1999-07-08T17:54:08.8511769+02:00",
+    "Rank": 38,
+    "Type": "doloribus",
+    "ColorBlock": 724,
+    "IconHint": "incidunt",
+    "Selected": true,
+    "LastChanged": "2016-07-03T03:45:28.9984183+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Bogisich-Harris",
-        "ToolTip": "Culpa aut libero.",
+        "Id": 203,
+        "Name": "Cummerata-Dickinson",
+        "ToolTip": "Blanditiis quibusdam dolore.",
         "Deleted": false,
-        "Rank": 668,
-        "Type": "et",
-        "ColorBlock": 433,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2008-04-26T17:54:08.8511769+02:00",
+        "Rank": 200,
+        "Type": "nesciunt",
+        "ColorBlock": 302,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-07-28T03:45:28.9984183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Dakota Bartoletti",
+        "ExtraInfo": "hic",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Garret Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldLength": 217
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Thurman Stokes",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "amet",
+    "Hidden": false,
+    "FullName": "Arlo Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 723
       }
     }
   }

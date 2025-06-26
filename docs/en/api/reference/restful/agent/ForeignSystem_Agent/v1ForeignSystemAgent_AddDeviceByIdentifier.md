@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mante-Keebler",
-  "DeviceName": "Schultz-Hyatt",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Collins, Hilll and Okuneva",
+  "DeviceName": "Reichert, Langosh and McLaughlin",
+  "DeviceIdentifier": "excepturi"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 103,
-  "Name": "Dickinson LLC",
-  "CreatedDate": "2022-06-25T17:54:03.1639551+02:00",
-  "UpdatedDate": "2007-03-29T17:54:03.1639551+02:00",
-  "AssociateFullName": "Connie Littel Sr.",
-  "CreatedBy": "neque",
-  "UpdatedBy": "voluptatum",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 268,
+  "ForeignDeviceId": 353,
+  "Name": "Gutmann Inc and Sons",
+  "CreatedDate": "2012-11-09T03:45:23.4829546+01:00",
+  "UpdatedDate": "2000-01-31T03:45:23.4829546+01:00",
+  "AssociateFullName": "Mr. Leilani Noemy Daniel II",
+  "CreatedBy": "at",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "culpa",
+  "ForeignAppId": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 720
     }
   }
 }

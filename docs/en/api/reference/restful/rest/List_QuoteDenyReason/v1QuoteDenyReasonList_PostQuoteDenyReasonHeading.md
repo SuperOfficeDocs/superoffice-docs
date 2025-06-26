@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 879,
-  "Name": "Conroy Group",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "Rank": 249,
-  "UdListDefinitionId": 168
+  "HeadingId": 336,
+  "Name": "Lueilwitz-Daugherty",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 597,
+  "UdListDefinitionId": 35
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 517,
-  "Name": "Little, Ratke and Fadel",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 201,
-  "UdListDefinitionId": 648,
+  "HeadingId": 968,
+  "Name": "Veum-Willms",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 305,
+  "UdListDefinitionId": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 878
     }
   }
 }

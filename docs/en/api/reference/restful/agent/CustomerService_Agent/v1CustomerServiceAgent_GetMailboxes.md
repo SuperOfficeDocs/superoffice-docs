@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 584,
-    "Address": "natus",
+    "MailInFilterId": 225,
+    "Address": "mollitia",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Nolan-Will",
+    "PriorityName": "Schuster-O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 71
       }
     }
   },
   {
-    "MailInFilterId": 584,
-    "Address": "natus",
+    "MailInFilterId": 225,
+    "Address": "mollitia",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Nolan-Will",
+    "PriorityName": "Schuster-O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 71
       }
     }
   }

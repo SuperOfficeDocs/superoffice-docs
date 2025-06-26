@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Connelly-Leffler",
-    "ToolTip": "Quasi ratione iste occaecati sequi cum et mollitia.",
-    "Deleted": false,
-    "Rank": 282,
-    "Type": "nisi",
-    "ColorBlock": 646,
-    "IconHint": "dolorem",
+    "Id": 194,
+    "Name": "Breitenberg LLC",
+    "ToolTip": "Dolorum aut voluptates eum officiis nemo.",
+    "Deleted": true,
+    "Rank": 346,
+    "Type": "sed",
+    "ColorBlock": 632,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2000-04-17T17:54:08.9292989+02:00",
+    "LastChanged": "2004-07-25T03:45:29.060917+02:00",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Bernhard-Terry",
-        "ToolTip": "Distinctio possimus non occaecati nobis id nihil.",
-        "Deleted": false,
-        "Rank": 536,
-        "Type": "et",
-        "ColorBlock": 425,
-        "IconHint": "non",
+        "Id": 699,
+        "Name": "Casper, Lowe and Raynor",
+        "ToolTip": "Mollitia et est sit.",
+        "Deleted": true,
+        "Rank": 609,
+        "Type": "quibusdam",
+        "ColorBlock": 986,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2024-01-30T17:54:08.9292989+01:00",
+        "LastChanged": "2003-11-04T03:45:29.060917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "minima",
+        "ExtraInfo": "id",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Clifford Ward"
+        "FullName": "Javier King"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "soluta",
+    "ExtraInfo": "quasi",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Mr. Martin Roob PhD"
+    "FullName": "Mr. Sherman Charity Bergnaum"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Bergnaum, Smith and Runte",
-    "ToolTip": "Veritatis placeat illo consequatur.",
+    "Id": 243,
+    "Name": "Stehr-Waelchi",
+    "ToolTip": "Nihil repellendus quo et et.",
     "Deleted": false,
-    "Rank": 550,
-    "Type": "nihil",
-    "ColorBlock": 710,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2012-12-07T17:54:08.9292989+01:00",
+    "Rank": 32,
+    "Type": "quia",
+    "ColorBlock": 189,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "1998-03-06T03:45:29.060917+01:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Barton-Weber",
-        "ToolTip": "Amet distinctio.",
+        "Id": 10,
+        "Name": "Lind-Gorczany",
+        "ToolTip": "Nisi eum id.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "temporibus",
-        "ColorBlock": 244,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2020-06-20T17:54:08.9292989+02:00",
+        "Rank": 776,
+        "Type": "sed",
+        "ColorBlock": 811,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2020-03-28T03:45:29.060917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Nestor Lynch",
+        "ExtraInfo": "est",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Willard Carissa Sipes IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Samantha Jakubowski",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Lester Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 806
       }
     }
   }

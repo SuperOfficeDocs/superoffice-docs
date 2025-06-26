@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Ankunding, Collier and Wolff",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 11,
-  "Rank": 880
+  "Id": 893,
+  "Name": "Shields, Schamberger and Erdman",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 672,
+  "Rank": 308
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Daugherty, Renner and Rogahn",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "UdListDefinitionId": 162,
-  "Rank": 142,
+  "Id": 249,
+  "Name": "McCullough Group",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "UdListDefinitionId": 794,
+  "Rank": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 168
     }
   }
 }

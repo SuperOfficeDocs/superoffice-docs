@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 844,
-  "ListItemId": 903,
+  "UdListDefinitionId": 188,
+  "ListItemId": 818,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Herman LLC",
-    "ToolTip": "Velit voluptas nihil quod aut maxime quae quod.",
+    "Id": 816,
+    "Name": "Kirlin, Sawayn and Brown",
+    "ToolTip": "Perspiciatis aperiam voluptatem consequatur enim quidem.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "quia",
-    "ColorBlock": 102,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2021-08-09T17:54:03.2108272+02:00",
+    "Rank": 665,
+    "Type": "exercitationem",
+    "ColorBlock": 794,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2005-07-24T03:45:23.5454538+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Schaefer, Koepp and Ebert",
-        "ToolTip": "Officiis aut fuga tenetur.",
+        "Id": 372,
+        "Name": "Tromp-Walter",
+        "ToolTip": "Odio voluptatibus voluptates sunt harum sed earum.",
         "Deleted": false,
-        "Rank": 934,
-        "Type": "voluptatibus",
-        "ColorBlock": 611,
-        "IconHint": "odio",
-        "Selected": false,
-        "LastChanged": "2001-07-06T17:54:03.2108272+02:00",
+        "Rank": 382,
+        "Type": "omnis",
+        "ColorBlock": 26,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2001-09-19T03:45:23.5610765+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
+        "ExtraInfo": "nobis",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Elvera Boyle",
+        "FullName": "Violette Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 602
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Lonzo Blanda",
+    "ExtraInfo": "officiis",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Joan Jenkins I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 315
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Apr 2011 17:54:08 G4T
+Last-Modified: Thu, 04 Dec 2008 03:45:28 G12T
 
 {
-  "ForeignDeviceId": 7,
-  "Name": "Kihn-Emmerich",
-  "CreatedDate": "2016-04-10T17:54:08.2574567+02:00",
-  "UpdatedDate": "2011-04-05T17:54:08.2574567+02:00",
-  "AssociateFullName": "Kennith Douglas",
-  "CreatedBy": "eius",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "aliquid",
-  "ForeignAppId": 969,
+  "ForeignDeviceId": 106,
+  "Name": "Ryan, Lynch and Bauch",
+  "CreatedDate": "2024-04-24T03:45:28.3578119+02:00",
+  "UpdatedDate": "2008-12-04T03:45:28.3578119+01:00",
+  "AssociateFullName": "Ivy Serena Dibbert Jr.",
+  "CreatedBy": "tempora",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "aut",
+  "ForeignAppId": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 986
     }
   }
 }

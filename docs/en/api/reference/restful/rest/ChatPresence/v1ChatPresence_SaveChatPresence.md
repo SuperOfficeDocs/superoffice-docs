@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 338,
-    "DisplayName": "Mitchell, Baumbach and Hermann",
-    "OngoingChats": 310,
-    "Present": true,
+    "UserId": 542,
+    "DisplayName": "Bauch LLC",
+    "OngoingChats": 506,
+    "Present": false,
     "ChatTopics": [
-      532,
-      70
+      197,
+      57
     ]
   },
   {
-    "UserId": 338,
-    "DisplayName": "Mitchell, Baumbach and Hermann",
-    "OngoingChats": 310,
-    "Present": true,
+    "UserId": 542,
+    "DisplayName": "Bauch LLC",
+    "OngoingChats": 506,
+    "Present": false,
     "ChatTopics": [
-      532,
-      70
+      197,
+      57
     ]
   }
 ]

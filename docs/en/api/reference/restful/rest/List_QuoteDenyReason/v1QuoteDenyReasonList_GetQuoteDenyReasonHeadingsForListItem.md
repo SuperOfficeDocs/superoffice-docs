@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Corwin, Grant and Lindgren",
-    "ToolTip": "Ea velit rerum optio sunt sequi cumque.",
+    "Id": 219,
+    "Name": "Cummings-Torp",
+    "ToolTip": "Totam veritatis dignissimos repellat est non vero.",
     "Deleted": true,
-    "Rank": 523,
-    "Type": "corrupti",
-    "ColorBlock": 266,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2006-10-23T17:54:09.0230434+02:00",
+    "Rank": 805,
+    "Type": "animi",
+    "ColorBlock": 927,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2022-01-06T03:45:29.1859346+01:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Abbott-Robel",
-        "ToolTip": "Minus soluta consequatur molestiae quasi quam libero.",
-        "Deleted": false,
-        "Rank": 468,
-        "Type": "cum",
-        "ColorBlock": 288,
-        "IconHint": "alias",
+        "Id": 10,
+        "Name": "Morissette Group",
+        "ToolTip": "Magnam sit.",
+        "Deleted": true,
+        "Rank": 743,
+        "Type": "eum",
+        "ColorBlock": 799,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2020-06-07T17:54:09.0230434+02:00",
+        "LastChanged": "2020-02-24T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "sit",
+        "ExtraInfo": "animi",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mr. Vern McKenzie Sr.",
+        "FullName": "Garry Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 179
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Ms. Buck Turcotte",
+    "ExtraInfo": "sit",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Fatima Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 873
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

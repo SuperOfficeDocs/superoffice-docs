@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 342,
-  "AttachmentId": "voluptatem"
+  "MessageServerId": 605,
+  "AttachmentId": "ipsa"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive clear-thinking algorithm",
-  "Filename": "iste",
-  "Size": 609,
-  "Type": "aut",
-  "Encoding": "sed",
-  "Id": "doloremque",
-  "Disposition": "expedita",
-  "IsSafeFileExtension": false,
+  "Description": "Inverse bandwidth-monitored strategy",
+  "Filename": "autem",
+  "Size": 868,
+  "Type": "quasi",
+  "Encoding": "praesentium",
+  "Id": "itaque",
+  "Disposition": "cumque",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

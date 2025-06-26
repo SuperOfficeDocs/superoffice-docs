@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 429,
-  "Name": "Dicki Inc and Sons",
-  "Tooltip": "est",
+  "RoleId": 508,
+  "Name": "Mitchell Group",
+  "Tooltip": "porro",
   "RoleType": "Anonymous",
-  "Deleted": 796,
-  "Rank": 221,
-  "Created": "2017-01-15T17:54:08.4136991+01:00",
-  "UseCategories": 75,
+  "Deleted": 978,
+  "Rank": 647,
+  "Created": "2006-07-12T03:45:28.5296817+02:00",
+  "UseCategories": 973,
   "CreatedBy": null,
-  "Updated": "2023-08-24T17:54:08.4136991+02:00",
+  "Updated": "2024-09-19T03:45:28.5296817+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldLength": 25
     }
   }
 }

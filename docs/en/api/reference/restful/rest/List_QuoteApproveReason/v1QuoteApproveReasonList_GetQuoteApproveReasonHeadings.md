@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 857,
-    "Name": "Watsica, Heathcote and Kuvalis",
-    "Tooltip": "corporis",
+    "HeadingId": 166,
+    "Name": "Carroll, Ebert and Bergstrom",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 710,
-    "UdListDefinitionId": 616,
+    "Rank": 236,
+    "UdListDefinitionId": 488,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 443
       }
     }
   }

@@ -73,6 +73,7 @@ This is the archive Provider for the Selection ticket archive.
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
@@ -120,11 +121,11 @@ This is the archive Provider for the Selection ticket archive.
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
-|ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |ownedBy/role|listAny|Owner - Role: Role| x |
@@ -224,11 +225,11 @@ This is the archive Provider for the Selection ticket archive.
 |person/personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |person/personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
 |person/personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
-|person/personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -328,11 +329,11 @@ This is the archive Provider for the Selection ticket archive.
 |person/correspondingAssociate/associateDbId|associate|ID| x |
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
@@ -432,11 +433,11 @@ This is the archive Provider for the Selection ticket archive.
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |contact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |contact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |contact/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -536,11 +537,11 @@ This is the archive Provider for the Selection ticket archive.
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |contact/saintSaleStatus|listAny|With status|  |
-|contact/saintAmountClass|listAny|Amount class|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/saintAmountClass|listAny|Amount class|  |
 |contact/saintActivityType|listAny|SAINT type|  |
 |contact/saintDirection|listAny|Direction|  |
 |contact/saintIntention|listAny|Intention|  |
@@ -640,11 +641,11 @@ This is the archive Provider for the Selection ticket archive.
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
 |sale/associate/assocName|associate|User ID : User ID| x |
-|sale/associate/assocTooltip|string|Description : Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/assocTooltip|string|Description : Description|  |
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -744,11 +745,11 @@ This is the archive Provider for the Selection ticket archive.
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
-|project/NumberOfActivities|int|Number of activities|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
@@ -781,7 +782,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=person/correspondingAssociate/contactFullName,contact/nameDepartment,person/personExtra/x_person_category_relation
+GET /api/v1/archive/TicketSelectionV2?$select=tags,person/kanaLastName,person/personAssociateFullName,person/correspondingAssociate/ejUserId,contact/streetAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

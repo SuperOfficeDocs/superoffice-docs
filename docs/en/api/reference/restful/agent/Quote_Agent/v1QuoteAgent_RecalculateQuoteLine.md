@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "vel",
-    "quod"
+    "quod",
+    "ipsa"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 514,
-  "ERPQuoteLineKey": "vel",
-  "QuoteAlternativeId": 719,
-  "ERPProductKey": "voluptatem",
+  "QuoteLineId": 886,
+  "ERPQuoteLineKey": "debitis",
+  "QuoteAlternativeId": 602,
+  "ERPProductKey": "qui",
   "Status": "Error",
-  "Reason": "seize B2C platforms",
-  "Quantity": 18904.288,
-  "DeliveredQuantity": 13046.841999999999,
-  "Rank": 779,
-  "Name": "Erdman-Toy",
-  "Description": "Open-source global circuit",
-  "Code": "qui",
-  "QuantityUnit": "minus",
-  "PriceUnit": "minima",
-  "ItemNumber": "1494374",
+  "Reason": "visualize seamless platforms",
+  "Quantity": 6719.2959999999994,
+  "DeliveredQuantity": 19308.574,
+  "Rank": 500,
+  "Name": "Trantow Group",
+  "Description": "Implemented 24 hour policy",
+  "Code": "autem",
+  "QuantityUnit": "odio",
+  "PriceUnit": "deleniti",
+  "ItemNumber": "1327908",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "possimus",
-  "ProductTypeKey": "praesentium",
-  "Supplier": "omnis",
-  "SupplierCode": "voluptatem",
-  "Thumbnail": "qui",
-  "VATInfo": "quisquam",
-  "VAT": 10138.49,
-  "UnitCost": 26344.404,
-  "UnitMinimumPrice": 14601.305999999999,
-  "UnitListPrice": 26429.022,
+  "ProductFamilyKey": "asperiores",
+  "ProductTypeKey": "maxime",
+  "Supplier": "aliquam",
+  "SupplierCode": "explicabo",
+  "Thumbnail": "adipisci",
+  "VATInfo": "aspernatur",
+  "VAT": 27243.861999999997,
+  "UnitCost": 8016.772,
+  "UnitMinimumPrice": 30214.894,
+  "UnitListPrice": 18139.592,
   "ExtraInfo": [
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "voluptatem",
+      "Name": "Murphy, Weimann and Cartwright",
+      "Value": "facere",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 856
+          "FieldLength": 747
         }
       }
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "voluptatem",
+      "Name": "Murphy, Weimann and Cartwright",
+      "Value": "facere",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 856
+          "FieldLength": 747
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
+  "RawExtraInfo": "quas",
   "IsSubscription": false,
-  "SubscriptionUnit": "libero",
-  "SubscriptionQuantity": 9160.6819999999989,
-  "SubscriptionStart": "2020-01-25T17:54:03.5076876+01:00",
-  "ERPDiscountPercent": 14723.532,
-  "ERPDiscountAmount": 27137.306,
-  "DiscountPercent": 8590.294,
-  "DiscountAmount": 27688.89,
+  "SubscriptionUnit": "tenetur",
+  "SubscriptionQuantity": 23454.856,
+  "SubscriptionStart": "2009-11-24T03:45:23.7954455+01:00",
+  "ERPDiscountPercent": 16531.85,
+  "ERPDiscountAmount": 22840.592,
+  "DiscountPercent": 19089.194,
+  "DiscountAmount": 11786.974,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1375.826,
-  "EarningAmount": 15720.144,
-  "SubTotal": 16014.74,
-  "TotalPrice": 22524.058,
-  "Rights": "ea",
-  "Rule": "assumenda",
-  "ExtraField1": "eum",
+  "EarningPercent": 507.70799999999997,
+  "EarningAmount": 8405.387999999999,
+  "SubTotal": 8029.308,
+  "TotalPrice": 14977.385999999999,
+  "Rights": "incidunt",
+  "Rule": "qui",
+  "ExtraField1": "et",
   "ExtraField2": "aut",
-  "ExtraField3": "laboriosam",
-  "ExtraField4": "eaque",
-  "ExtraField5": "iusto",
+  "ExtraField3": "vel",
+  "ExtraField4": "omnis",
+  "ExtraField5": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   }
 }

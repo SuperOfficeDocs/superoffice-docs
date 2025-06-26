@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 110,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "eos",
-  "Name": "Runolfsdottir-Cremin",
-  "Description": "Customer-focused fault-tolerant internet solution",
-  "Code": "explicabo",
-  "PriceUnit": "repellat",
-  "QuantityUnit": "enim",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 3500.678,
-  "ItemNumber": "373749",
+  "ProductId": 759,
+  "ERPProductKey": "provident",
+  "ERPPriceListKey": "dignissimos",
+  "Name": "Koepp Group",
+  "Description": "Re-engineered multimedia capacity",
+  "Code": "qui",
+  "PriceUnit": "dolor",
+  "QuantityUnit": "magnam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "esse",
+  "DefaultSubscriptionQuantity": 12711.503999999999,
+  "ItemNumber": "965178",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "ut",
-  "VAT": 15250.044,
-  "VATInfo": "vero",
-  "UnitCost": 17487.72,
-  "UnitMinimumPrice": 26165.766,
-  "UnitListPrice": 27168.646,
-  "InAssortment": false,
-  "Supplier": "totam",
-  "SupplierCode": "sapiente",
-  "Rights": "qui",
-  "Rule": "qui",
+  "ProductFamilyKey": "debitis",
+  "ProductTypeKey": "dolor",
+  "VAT": 17484.586,
+  "VATInfo": "consectetur",
+  "UnitCost": 4237.168,
+  "UnitMinimumPrice": 23671.102,
+  "UnitListPrice": 9533.6279999999988,
+  "InAssortment": true,
+  "Supplier": "enim",
+  "SupplierCode": "accusantium",
+  "Rights": "et",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Kris-Murray",
-      "Value": "ducimus",
+      "Name": "McLaughlin-Pfannerstill",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 38
         }
       }
     },
     {
-      "Name": "Kris-Murray",
-      "Value": "ducimus",
+      "Name": "McLaughlin-Pfannerstill",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 38
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "harum",
-  "ExtraField2": "dignissimos",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "fuga",
-  "InStock": 16390.82,
+  "RawExtraInfo": "ipsum",
+  "ExtraField1": "et",
+  "ExtraField2": "officia",
+  "ExtraField3": "aliquam",
+  "ExtraField4": "nostrum",
+  "ExtraField5": "rerum",
+  "InStock": 20875.574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 298
     }
   }
 }

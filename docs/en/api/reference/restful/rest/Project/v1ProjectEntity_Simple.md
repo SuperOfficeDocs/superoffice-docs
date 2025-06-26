@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 273,
-  "Name": "Quitzon, Schulist and Borer",
-  "Description": "De-engineered system-worthy complexity",
+  "ProjectId": 112,
+  "Name": "Keebler-Gibson",
+  "Description": "Sharable dynamic approach",
   "URL": "http://www.example.com/",
-  "Type": "sint",
-  "AssociateId": 562,
-  "AssociateFullName": "Eleanore Teagan Pfannerstill DVM",
-  "TypeId": 603,
-  "Updated": "1999-05-28T17:54:08.4136991+02:00",
-  "StatusId": 554,
-  "Status": "praesentium",
-  "TextId": 960,
-  "PublishTo": "2020-10-14T17:54:08.4136991+02:00",
-  "PublishFrom": "2022-12-27T17:54:08.4136991+01:00",
+  "Type": "corrupti",
+  "AssociateId": 65,
+  "AssociateFullName": "Nikki Willms",
+  "TypeId": 21,
+  "Updated": "2007-09-06T03:45:28.5296817+02:00",
+  "StatusId": 422,
+  "Status": "consequatur",
+  "TextId": 262,
+  "PublishTo": "2023-01-07T03:45:28.5296817+01:00",
+  "PublishFrom": "2016-07-21T03:45:28.5296817+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "871437",
-  "ActiveErpLinks": 985,
+  "ProjectNumber": "1443718",
+  "ActiveErpLinks": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 150
     }
   }
 }

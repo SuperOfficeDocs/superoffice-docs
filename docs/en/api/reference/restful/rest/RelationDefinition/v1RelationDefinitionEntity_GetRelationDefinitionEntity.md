@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 187,
-  "Name": "Walter, Barrows and Hoppe",
-  "Tooltip": "molestiae",
-  "PassiveText": "voluptatum",
-  "Deleted": true,
-  "Rank": 173,
+  "ReldefId": 861,
+  "Name": "Howell Inc and Sons",
+  "Tooltip": "voluptatem",
+  "PassiveText": "ut",
+  "Deleted": false,
+  "Rank": 336,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 656
     }
   },
   "_Links": {

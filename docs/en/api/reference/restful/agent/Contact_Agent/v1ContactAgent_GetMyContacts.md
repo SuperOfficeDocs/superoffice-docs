@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 656,
-    "Name": "Nicolas, Bogisich and Harris",
-    "OrgNr": "1590542",
+    "ContactId": 629,
+    "Name": "Murray Inc and Sons",
+    "OrgNr": "977230",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quod",
-    "DirectPhone": "515-849-9415 x072",
-    "AssociateId": 31,
-    "CountryId": 149,
-    "EmailAddress": "maureen@bogan.com",
-    "Kananame": "soluta",
-    "EmailAddressName": "jameson@wunschpowlowski.us",
+    "City": "sed",
+    "DirectPhone": "671.173.8406",
+    "AssociateId": 812,
+    "CountryId": 855,
+    "EmailAddress": "broderick@rodriguez.uk",
+    "Kananame": "placeat",
+    "EmailAddressName": "corene_zboncak@bernhard.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Gerhard Greenfelder V",
+    "AssociateFullName": "Adrianna Lubowitz",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "repudiandae",
-    "FullName": "Tremayne Adelia Stokes Jr.",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 490,
-    "Number1": "1025442",
-    "Number2": "1074038",
+    "FormattedAddress": "dignissimos",
+    "FullName": "Quinn Yundt",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 917,
+    "Number1": "1486917",
+    "Number2": "829881",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=433
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=640
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 727,
-  "Name": "Schaden, Von and Wilderman",
-  "Tooltip": "delectus",
-  "Rank": 291,
+  "SaleTypeId": 79,
+  "Name": "Padberg Group",
+  "Tooltip": "quos",
+  "Rank": 41,
   "DurationUnit": "Century",
-  "SaleDuration": 42,
-  "SaleTypeCatId": 410,
+  "SaleDuration": 501,
+  "SaleTypeCatId": 201,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 874,
-  "QuoteLinesTemplate": 686,
-  "ConfirmationLinesTemplate": 691,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 406,
+  "QuoteLinesTemplate": 225,
+  "ConfirmationLinesTemplate": 60,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 510,
-  "MinEarningPercent": 175,
-  "GroupQuoteLinesBy": 83,
-  "SortGroupLinesBy": 238,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 489,
+  "MinEarningPercent": 557,
+  "GroupQuoteLinesBy": 158,
+  "SortGroupLinesBy": 728,
   "Stages": [
     {
-      "Id": 122,
-      "Name": "Powlowski-Romaguera",
-      "ToolTip": "Eum facilis quia.",
+      "Id": 795,
+      "Name": "Schultz-Kutch",
+      "ToolTip": "Autem sit quo nobis corrupti sed corporis voluptate.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "harum",
-      "ColorBlock": 682,
-      "IconHint": "autem",
+      "Rank": 807,
+      "Type": "doloribus",
+      "ColorBlock": 820,
+      "IconHint": "facere",
       "Selected": false,
-      "LastChanged": "2020-02-26T17:54:03.2108272+01:00",
+      "LastChanged": "1998-11-01T03:45:23.5142048+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "alias",
+      "StyleHint": "quibusdam",
       "Hidden": true,
-      "FullName": "Mrs. Jasen Devonte Rodriguez V",
+      "FullName": "Prof. Gino Dwight Grimes V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 208
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 902
     }
   }
 }

@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 855,
-  "Name": "Wisoky-Lebsack",
-  "Tooltip": "eos",
-  "Rank": 638,
+  "ProjTypeId": 54,
+  "Name": "Kuhn LLC",
+  "Tooltip": "vero",
+  "Rank": 171,
   "DurationUnit": "Century",
-  "ProjectDuration": 239,
+  "ProjectDuration": 359,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 879,
-      "Name": "Yost Inc and Sons",
-      "ToolTip": "Repellendus placeat.",
+      "Id": 793,
+      "Name": "Stracke Inc and Sons",
+      "ToolTip": "Enim aut voluptatem.",
       "Deleted": false,
-      "Rank": 652,
-      "Type": "eius",
-      "ColorBlock": 858,
-      "IconHint": "eos",
-      "Selected": false,
-      "LastChanged": "2003-01-28T17:54:03.3045907+01:00",
+      "Rank": 558,
+      "Type": "fugiat",
+      "ColorBlock": 179,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "2025-05-21T03:45:23.6079553+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "corporis",
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "quod",
       "Hidden": true,
-      "FullName": "Miss Curt Quigley"
+      "FullName": "Prof. Raymundo Kub I"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 293,
-  "Name": "Hilll-Abbott",
-  "Tooltip": "aut",
-  "Rank": 672,
+  "ProjTypeId": 717,
+  "Name": "Schmitt, Spencer and Jacobson",
+  "Tooltip": "animi",
+  "Rank": 350,
   "DurationUnit": "Century",
-  "ProjectDuration": 776,
-  "Deleted": true,
+  "ProjectDuration": 553,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 85,
-      "Name": "Corwin-Cormier",
-      "ToolTip": "Et ut sit quidem illum.",
-      "Deleted": true,
-      "Rank": 557,
-      "Type": "rerum",
-      "ColorBlock": 110,
-      "IconHint": "ut",
+      "Id": 901,
+      "Name": "Treutel, Christiansen and Weber",
+      "ToolTip": "Quos sit voluptate est.",
+      "Deleted": false,
+      "Rank": 341,
+      "Type": "et",
+      "ColorBlock": 981,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2023-09-12T17:54:03.3045907+02:00",
+      "LastChanged": "1998-10-24T03:45:23.6235756+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "soluta",
+      "ExtraInfo": "qui",
+      "StyleHint": "at",
       "Hidden": true,
-      "FullName": "Ms. Ben Eduardo Streich",
+      "FullName": "Lucile Schmidt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 626
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   }
 }

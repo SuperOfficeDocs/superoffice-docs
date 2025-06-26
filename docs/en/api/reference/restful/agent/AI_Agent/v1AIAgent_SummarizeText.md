@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "repudiandae",
-  "PercentSmaller": 448,
-  "IsoLangCode": "impedit"
+  "Text": "in",
+  "PercentSmaller": 198,
+  "IsoLangCode": "ducimus"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laboriosam"
+"accusamus"
 ```

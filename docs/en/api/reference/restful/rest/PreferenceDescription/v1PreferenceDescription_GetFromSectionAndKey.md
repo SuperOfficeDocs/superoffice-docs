@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 373,
-  "Section": "suscipit",
-  "Key": "laborum",
-  "Name": "Bergnaum-Paucek",
+  "PrefDescId": 117,
+  "Section": "rerum",
+  "Key": "et",
+  "Name": "Jacobi-Leannon",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative secondary matrices",
+  "Description": "Focused intermediate attitude",
   "IsBuiltin": false,
-  "TableName": "McClure Group",
-  "UserDefinedListId": 95,
-  "Rank": 909,
-  "SubGroup": "voluptates",
-  "MinLevel": 156,
-  "MaxValue": 915,
-  "MinValue": 473,
-  "RequiredLicense": "consequatur",
+  "TableName": "Cassin LLC",
+  "UserDefinedListId": 761,
+  "Rank": 867,
+  "SubGroup": "sed",
+  "MinLevel": 870,
+  "MaxValue": 281,
+  "MinValue": 33,
+  "RequiredLicense": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 143
     }
   }
 }

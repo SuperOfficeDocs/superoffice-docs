@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Zboncak-Collier",
-  "Tooltip": "sunt",
+  "Id": 629,
+  "Name": "Kohler-Luettgen",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 215,
-  "IsCustomList": true,
+  "Rank": 944,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldLength": 579
     }
   },
   "_Links": {

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 48,
-  "CountryId": 531
+  "ContactId": 97,
+  "CountryId": 805
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 8361.512,
-  "Wgs84Longitude": 9050.992,
+  "Wgs84Latitude": 23059.971999999998,
+  "Wgs84Longitude": 28014.825999999997,
   "LocalizedAddress": [
     [
       {
-        "Name": "Mohr Group",
-        "Value": "vel",
-        "Tooltip": "eligendi",
-        "Label": "et",
-        "ValueLength": 39,
-        "AddressType": "quidem",
+        "Name": "Flatley Group",
+        "Value": "sed",
+        "Tooltip": "eveniet",
+        "Label": "blanditiis",
+        "ValueLength": 763,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldLength": 61
           }
         }
       }
     ],
     [
       {
-        "Name": "Pfannerstill Group",
-        "Value": "tenetur",
-        "Tooltip": "sit",
-        "Label": "quia",
-        "ValueLength": 177,
-        "AddressType": "dolores",
+        "Name": "Connelly-Hamill",
+        "Value": "laborum",
+        "Tooltip": "ratione",
+        "Label": "illum",
+        "ValueLength": 422,
+        "AddressType": "ipsam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 820
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "iste",
+  "Formatted": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

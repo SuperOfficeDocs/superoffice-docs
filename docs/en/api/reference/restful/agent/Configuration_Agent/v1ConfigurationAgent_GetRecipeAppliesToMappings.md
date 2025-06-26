@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eos",
-  "2": "iure"
+  "1": "corporis",
+  "2": "beatae"
 }
 ```

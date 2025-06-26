@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=vero
+GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Schamberger, Klein and Emard",
-    "ToolTip": "Eum commodi et quisquam.",
+    "Id": 464,
+    "Name": "Kling LLC",
+    "ToolTip": "Sit non.",
     "Deleted": true,
-    "Rank": 389,
-    "Type": "quia",
+    "Rank": 316,
+    "Type": "neque",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Denesik, Harber and Jenkins",
-        "ToolTip": "Sunt nisi dolorem.",
-        "Deleted": true,
-        "Rank": 361,
-        "Type": "recusandae",
+        "Id": 767,
+        "Name": "O'Keefe-Bosco",
+        "ToolTip": "Minus sunt distinctio ut vitae doloribus suscipit.",
+        "Deleted": false,
+        "Rank": 278,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 619,
-        "ExtraInfo": "accusantium",
-        "StyleHint": "optio",
-        "FullName": "Ken Ruecker",
+        "IconHint": "voluptas",
+        "ColorBlock": 126,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "est",
+        "FullName": "Nathanael Olin Beahan MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 314
+            "FieldLength": 885
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 62,
-    "ExtraInfo": "recusandae",
+    "IconHint": "fugiat",
+    "ColorBlock": 409,
+    "ExtraInfo": "quasi",
     "StyleHint": "non",
-    "FullName": "Prof. Morgan Wisozk",
+    "FullName": "Mrs. Edgardo Luz Kunze DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldLength": 1000
       }
     }
   }

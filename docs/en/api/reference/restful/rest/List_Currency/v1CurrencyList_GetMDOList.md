@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=delectus
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=impedit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Howell, O'Keefe and Orn",
-    "ToolTip": "Qui at earum.",
-    "Deleted": false,
-    "Rank": 555,
-    "Type": "est",
+    "Id": 224,
+    "Name": "Funk, Dooley and Gulgowski",
+    "ToolTip": "Alias minima qui porro.",
+    "Deleted": true,
+    "Rank": 80,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Wilderman LLC",
-        "ToolTip": "Voluptas dignissimos praesentium.",
+        "Id": 839,
+        "Name": "Hayes Group",
+        "ToolTip": "Necessitatibus expedita quod itaque veritatis nulla ea velit.",
         "Deleted": false,
-        "Rank": 567,
-        "Type": "molestiae",
+        "Rank": 987,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 804,
-        "ExtraInfo": "labore",
-        "StyleHint": "enim",
-        "FullName": "Loy Morissette",
+        "IconHint": "adipisci",
+        "ColorBlock": 659,
+        "ExtraInfo": "aut",
+        "StyleHint": "aspernatur",
+        "FullName": "Marquis Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 760
+            "FieldLength": 921
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 522,
-    "ExtraInfo": "et",
-    "StyleHint": "architecto",
-    "FullName": "Arjun Gaylord",
+    "IconHint": "quos",
+    "ColorBlock": 506,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "quo",
+    "FullName": "Mrs. Leta Bethel Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldLength": 702
       }
     }
   }

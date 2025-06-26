@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et"
+  "TriggerScriptUniqueId": "officia"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 804,
-  "Name": "Ritchie, Gibson and Miller",
+  "ScreenChooserId": 231,
+  "Name": "Kuhn, O'Connell and Strosin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "officia",
-  "Source": "sed",
-  "Registered": "2004-10-30T17:54:02.9139671+02:00",
-  "RegisteredAssociateId": 877,
-  "Updated": "2020-11-03T17:54:02.9139671+01:00",
-  "UpdatedAssociateId": 665,
+  "UniqueIdentifier": "ut",
+  "Source": "est",
+  "Registered": "2015-02-06T03:45:23.2485827+01:00",
+  "RegisteredAssociateId": 479,
+  "Updated": "2017-11-01T03:45:23.2485827+01:00",
+  "UpdatedAssociateId": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldLength": 448
     }
   }
 }

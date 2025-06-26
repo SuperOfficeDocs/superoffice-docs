@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 280,
-    "Name": "Denesik Group",
-    "Tooltip": "excepturi",
+    "HeadingId": 888,
+    "Name": "Littel Group",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 463,
+    "Rank": 571,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

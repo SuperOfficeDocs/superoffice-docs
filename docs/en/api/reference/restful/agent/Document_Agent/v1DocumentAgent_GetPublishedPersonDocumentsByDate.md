@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 844,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2022-11-13T17:54:02.9452152+01:00",
-  "EndTime": "2012-07-19T17:54:02.9452152+02:00",
-  "Count": 770
+  "PersonId": 879,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2024-09-04T03:45:23.2798335+02:00",
+  "EndTime": "1998-03-31T03:45:23.2798335+02:00",
+  "Count": 28
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 15,
-    "Attention": "vel",
-    "Header": "adipisci",
-    "Name": "Konopelski-Okuneva",
-    "OurRef": "qui",
-    "YourRef": "dolores",
-    "Description": "Versatile cohesive artificial intelligence",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 912,
-    "PersonFullName": "Tony O'Connell",
-    "AssociateFullName": "Prof. Craig Schulist MD",
-    "ContactId": 11,
-    "ContactName": "Christiansen, Grady and Carter",
-    "ProjectId": 990,
-    "ProjectName": "Schaden-Carter",
-    "AssociateId": 57,
-    "Snum": 794,
-    "SaleId": 245,
-    "SaleName": "Stoltenberg LLC",
+    "DocumentId": 914,
+    "Attention": "autem",
+    "Header": "cumque",
+    "Name": "Luettgen-Metz",
+    "OurRef": "harum",
+    "YourRef": "qui",
+    "Description": "Streamlined bottom-line open system",
+    "DocumentTemplate": "qui",
+    "IsPublished": false,
+    "PersonId": 378,
+    "PersonFullName": "Eleanora Davis",
+    "AssociateFullName": "Aurore Doyle",
+    "ContactId": 245,
+    "ContactName": "Borer, VonRueden and Larson",
+    "ProjectId": 145,
+    "ProjectName": "Wilderman-Howell",
+    "AssociateId": 920,
+    "Snum": 596,
+    "SaleId": 547,
+    "SaleName": "O'Reilly, Walker and Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 436
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 891
+  "ContactId": 873
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1109.436,
-  "Wgs84Longitude": 17816.79,
+  "Wgs84Latitude": 19819.416,
+  "Wgs84Longitude": 22292.142,
   "LocalizedAddress": [
     [
       {
-        "Name": "Blick-Kunde",
-        "Value": "in",
-        "Tooltip": "ullam",
-        "Label": "ipsum",
-        "ValueLength": 310,
-        "AddressType": "mollitia",
+        "Name": "Conroy, Larson and Koss",
+        "Value": "sint",
+        "Tooltip": "et",
+        "Label": "illo",
+        "ValueLength": 629,
+        "AddressType": "eos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 515
           }
         }
       }
     ],
     [
       {
-        "Name": "Wolf, Sporer and Jaskolski",
-        "Value": "qui",
-        "Tooltip": "reiciendis",
-        "Label": "et",
-        "ValueLength": 701,
+        "Name": "Wolf LLC",
+        "Value": "esse",
+        "Tooltip": "veniam",
+        "Label": "labore",
+        "ValueLength": 796,
         "AddressType": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 448
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "sapiente",
+  "Formatted": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

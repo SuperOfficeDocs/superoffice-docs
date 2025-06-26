@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 840,
-  "StartTime": "2020-07-13T17:54:02.9452152+02:00",
-  "EndTime": "1999-10-25T17:54:02.9452152+02:00",
-  "Count": 10,
+  "ContactId": 88,
+  "StartTime": "2024-06-03T03:45:23.2798335+02:00",
+  "EndTime": "2015-04-19T03:45:23.2798335+02:00",
+  "Count": 561,
   "DocumentTemplateIds": [
-    823,
-    925
+    331,
+    747
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 698,
-    "Attention": "rerum",
-    "Header": "voluptatem",
-    "Name": "Harris, Keeling and Mayer",
-    "OurRef": "cum",
-    "YourRef": "voluptatum",
-    "Description": "Robust coherent access",
-    "DocumentTemplate": "hic",
+    "DocumentId": 94,
+    "Attention": "et",
+    "Header": "ex",
+    "Name": "Murray, Bednar and Brakus",
+    "OurRef": "autem",
+    "YourRef": "quia",
+    "Description": "Future-proofed optimizing collaboration",
+    "DocumentTemplate": "minus",
     "IsPublished": true,
-    "PersonId": 173,
-    "PersonFullName": "Prof. Alvina Grimes",
-    "AssociateFullName": "Mrs. Susie Veum",
-    "ContactId": 265,
-    "ContactName": "Cruickshank-Hand",
-    "ProjectId": 932,
-    "ProjectName": "Ferry Inc and Sons",
-    "AssociateId": 587,
-    "Snum": 943,
-    "SaleId": 761,
-    "SaleName": "Bartell, Corwin and Jacobi",
+    "PersonId": 286,
+    "PersonFullName": "Owen Barbara Nolan III",
+    "AssociateFullName": "Prof. Marcus Emard",
+    "ContactId": 339,
+    "ContactName": "Bednar-DuBuque",
+    "ProjectId": 683,
+    "ProjectName": "Brown Group",
+    "AssociateId": 365,
+    "Snum": 837,
+    "SaleId": 352,
+    "SaleName": "Macejkovic-Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 747
       }
     }
   }

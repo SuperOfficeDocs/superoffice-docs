@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 527,
-  "Name": "Jast, Lesch and Goyette",
+  "ContactId": 855,
+  "Name": "Langworth-Heathcote",
   "Department": "",
-  "OrgNr": "840815",
-  "Number1": "233871",
-  "Number2": "1392130",
-  "UpdatedDate": "2010-12-31T17:54:08.1168303+01:00",
-  "CreatedDate": "2010-03-04T17:54:08.1168303+01:00",
+  "OrgNr": "578635",
+  "Number1": "1637277",
+  "Number2": "728067",
+  "UpdatedDate": "2005-09-21T03:45:28.2171945+02:00",
+  "CreatedDate": "2005-01-15T03:45:28.2171945+01:00",
   "Emails": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "autem",
-      "Description": "Re-engineered regional conglomeration"
+      "Value": "illo",
+      "StrippedValue": "delectus",
+      "Description": "Progressive solution-oriented secured line"
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "autem",
-      "Description": "Re-engineered regional conglomeration"
+      "Value": "illo",
+      "StrippedValue": "delectus",
+      "Description": "Progressive solution-oriented secured line"
     }
   ],
   "Interests": [
     {
-      "Id": 119,
-      "Name": "Sanford-Gleason",
-      "ToolTip": "Dolore et.",
+      "Id": 212,
+      "Name": "Haag, Rosenbaum and Anderson",
+      "ToolTip": "Et fuga voluptatibus magni.",
       "Deleted": true,
-      "Rank": 150,
-      "Type": "repellat",
-      "ColorBlock": 503,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "2021-10-04T17:54:08.1168303+02:00",
+      "Rank": 733,
+      "Type": "et",
+      "ColorBlock": 247,
+      "IconHint": "aut",
+      "Selected": true,
+      "LastChanged": "2011-10-25T03:45:28.2171945+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "pariatur",
+      "ExtraInfo": "officiis",
+      "StyleHint": "sit",
       "Hidden": false,
-      "FullName": "Jaycee Block DVM"
+      "FullName": "Mrs. Baby Madisyn Beier"
     }
   ],
   "Urls": [
     {
-      "Value": "sed",
-      "StrippedValue": "sapiente",
-      "Description": "Multi-lateral local internet solution"
+      "Value": "labore",
+      "StrippedValue": "et",
+      "Description": "Customer-focused national benchmark"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "sapiente",
-      "Description": "Multi-lateral local internet solution"
+      "Value": "labore",
+      "StrippedValue": "et",
+      "Description": "Customer-focused national benchmark"
     }
   ],
   "Phones": [
     {
-      "Value": "aliquam",
-      "StrippedValue": "qui",
-      "Description": "Automated stable installation"
+      "Value": "magni",
+      "StrippedValue": "enim",
+      "Description": "Public-key 4th generation throughput"
     },
     {
-      "Value": "aliquam",
-      "StrippedValue": "qui",
-      "Description": "Automated stable installation"
+      "Value": "magni",
+      "StrippedValue": "enim",
+      "Description": "Public-key 4th generation throughput"
     }
   ],
   "Faxes": [
     {
-      "Value": "veniam",
-      "StrippedValue": "iusto",
-      "Description": "Persevering 3rd generation toolset"
+      "Value": "quia",
+      "StrippedValue": "quia",
+      "Description": "User-friendly clear-thinking hierarchy"
     },
     {
-      "Value": "veniam",
-      "StrippedValue": "iusto",
-      "Description": "Persevering 3rd generation toolset"
+      "Value": "quia",
+      "StrippedValue": "quia",
+      "Description": "User-friendly clear-thinking hierarchy"
     }
   ],
-  "Description": "Managed dedicated monitoring",
+  "Description": "Sharable local archive",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,86 +192,86 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ea",
-      "PersonId": 592,
-      "Mrmrs": "consequatur",
-      "Firstname": "Giovanni",
-      "Lastname": "Trantow",
-      "MiddleName": "Streich-Altenwerth",
-      "Title": "numquam",
-      "Description": "Optional mobile capability",
-      "Email": "kristofer@wunschdickinson.co.uk",
-      "FullName": "Prof. Leonard Mohammed Brekke PhD",
-      "DirectPhone": "367.932.4813 x193",
-      "FormalName": "Kutch-Hackett",
-      "CountryId": 380,
-      "ContactId": 105,
-      "ContactName": "Orn-Gutkowski",
-      "Retired": 49,
-      "Rank": 367,
-      "ActiveInterests": 246,
+      "Position": "similique",
+      "PersonId": 544,
+      "Mrmrs": "aut",
+      "Firstname": "Mateo",
+      "Lastname": "Ernser",
+      "MiddleName": "Kris Inc and Sons",
+      "Title": "officiis",
+      "Description": "User-centric transitional focus group",
+      "Email": "dino.gerhold@davis.biz",
+      "FullName": "Karina Beahan",
+      "DirectPhone": "1-453-114-3004 x255",
+      "FormalName": "Kris LLC",
+      "CountryId": 729,
+      "ContactId": 669,
+      "ContactName": "Hane, Gibson and Wilkinson",
+      "Retired": 142,
+      "Rank": 272,
+      "ActiveInterests": 981,
       "ContactDepartment": "",
-      "ContactCountryId": 700,
-      "ContactOrgNr": "1079068",
-      "FaxPhone": "1-753-944-1471 x661",
-      "MobilePhone": "1-969-184-2898 x61663",
-      "ContactPhone": "400-180-0844 x50007",
-      "AssociateName": "Dare LLC",
-      "AssociateId": 98,
-      "UsePersonAddress": false,
-      "ContactFax": "veniam",
-      "Kanafname": "occaecati",
-      "Kanalname": "vel",
-      "Post1": "rerum",
-      "Post2": "illum",
-      "Post3": "blanditiis",
-      "EmailName": "emanuel@schmidt.com",
-      "ContactFullName": "Miss Abbigail Cathrine Schowalter PhD",
-      "ActiveErpLinks": 307,
-      "TicketPriorityId": 439,
-      "SupportLanguageId": 381,
-      "SupportAssociateId": 831,
+      "ContactCountryId": 484,
+      "ContactOrgNr": "281212",
+      "FaxPhone": "1-782-103-1570",
+      "MobilePhone": "004.834.3110",
+      "ContactPhone": "(201)285-6499 x40631",
+      "AssociateName": "Smith Inc and Sons",
+      "AssociateId": 328,
+      "UsePersonAddress": true,
+      "ContactFax": "eos",
+      "Kanafname": "sunt",
+      "Kanalname": "consectetur",
+      "Post1": "dolores",
+      "Post2": "repellat",
+      "Post3": "est",
+      "EmailName": "dena.kunde@casper.com",
+      "ContactFullName": "Dr. Quinton Golden Armstrong IV",
+      "ActiveErpLinks": 223,
+      "TicketPriorityId": 542,
+      "SupportLanguageId": 115,
+      "SupportAssociateId": 197,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "711645"
+      "PersonNumber": "1431122"
     }
   ],
   "NoMailing": false,
-  "Kananame": "laudantium",
+  "Kananame": "optio",
   "Xstop": false,
-  "ActiveInterests": 64,
-  "GroupId": 738,
-  "ActiveStatusMonitorId": 602,
+  "ActiveInterests": 664,
+  "GroupId": 565,
+  "ActiveStatusMonitorId": 747,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 785,
-  "DbiAgentId": 463,
-  "DbiLastSyncronized": "2005-06-07T17:54:08.1168303+02:00",
-  "DbiKey": "dolorum",
-  "DbiLastModified": "2004-01-15T17:54:08.1168303+01:00",
+  "Deleted": 757,
+  "DbiAgentId": 384,
+  "DbiLastSyncronized": "2017-06-13T03:45:28.2171945+02:00",
+  "DbiKey": "qui",
+  "DbiLastModified": "1999-09-24T03:45:28.2171945+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 336,
-  "ActiveErpLinks": 225,
+  "Source": 530,
+  "ActiveErpLinks": 782,
   "BounceEmails": [
-    "lyla_bartoletti@ferry.ca",
-    "holly@gutmann.co.uk"
+    "scot@mcglynn.us",
+    "jammie_tillman@faycormier.co.uk"
   ],
   "Domains": [
-    "quia",
-    "hic"
+    "perspiciatis",
+    "rem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Darrion Volkman DVM",
-    "SuperOffice:2": "Ms. Urban Schmeler III"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dayna Macejkovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "sed"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "esse"
   }
 }
 ```
@@ -283,7 +283,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sint",
-  "2": "et"
+  "1": "rerum",
+  "2": "eum"
 }
 ```

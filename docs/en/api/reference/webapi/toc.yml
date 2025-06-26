@@ -301,6 +301,12 @@ items:
 - uid: SuperOffice.WebApi.Data
   name: SuperOffice.WebApi.Data
   items:
+  - uid: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+    name: AI_AnswerAcceptedRequest
+  - uid: SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
+    name: AI_AnswerFeedbackRequest
+  - uid: SuperOffice.WebApi.Data.AI_AnswerRequest
+    name: AI_AnswerRequest
   - uid: SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
     name: AI_ClearChatbotTurnsRequest
   - uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
@@ -329,6 +335,10 @@ items:
     name: AI_GuessCategoryRequest
   - uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest
     name: AI_RephraseTextRequest
+  - uid: SuperOffice.WebApi.Data.AI_SearchRequest
+    name: AI_SearchRequest
+  - uid: SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
+    name: AI_StartRagIndexingRequest
   - uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
     name: AI_SummarizeContactRequest
   - uid: SuperOffice.WebApi.Data.AI_SummarizeSaleRequest
@@ -1111,6 +1121,8 @@ items:
     name: Contact_CreateNewEntryRequest
   - uid: SuperOffice.WebApi.Data.Contact_DeleteExpiredRequest
     name: Contact_DeleteExpiredRequest
+  - uid: SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
+    name: Contact_EnrichContactEntityRequest
   - uid: SuperOffice.WebApi.Data.Contact_GetAddressByCountryRequest
     name: Contact_GetAddressByCountryRequest
   - uid: SuperOffice.WebApi.Data.Contact_GetAddressRequest
@@ -1141,6 +1153,8 @@ items:
     name: Contact_GetPersonsRequest
   - uid: SuperOffice.WebApi.Data.Contact_GetPreviewContactRequest
     name: Contact_GetPreviewContactRequest
+  - uid: SuperOffice.WebApi.Data.Contact_GetPreviewEnrichContactRequest
+    name: Contact_GetPreviewEnrichContactRequest
   - uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
     name: Contact_GetQuoteVersionAddressesRequest
   - uid: SuperOffice.WebApi.Data.Contact_IsNumberValidRequest
@@ -1389,6 +1403,8 @@ items:
     name: Diagnostics_GetEntityCountsForAllUsersRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForCurrentUserRequest
     name: Diagnostics_GetEntityCountsForCurrentUserRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_GetNextTableNumberRequest
+    name: Diagnostics_GetNextTableNumberRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
     name: Diagnostics_GetSystemMessagesRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
@@ -3363,6 +3379,12 @@ items:
     name: Quote_UpdateQuoteVersionPricesRequest
   - uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
     name: Quote_ValidateQuoteVersionRequest
+  - uid: SuperOffice.WebApi.Data.RagAnswer
+    name: RagAnswer
+  - uid: SuperOffice.WebApi.Data.RagResult
+    name: RagResult
+  - uid: SuperOffice.WebApi.Data.RagType
+    name: RagType
   - uid: SuperOffice.WebApi.Data.Rating
     name: Rating
   - uid: SuperOffice.WebApi.Data.Reason
@@ -3779,6 +3801,8 @@ items:
     name: SystemTemplateSettings
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+  - uid: SuperOffice.WebApi.Data.TableManager
+    name: TableManager
   - uid: SuperOffice.WebApi.Data.TableRecord
     name: TableRecord
   - uid: SuperOffice.WebApi.Data.TableRight
@@ -4183,6 +4207,8 @@ items:
     name: UserPreferenceStrings.BulkUpdate
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.CloudServices
     name: UserPreferenceStrings.CloudServices
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+    name: UserPreferenceStrings.Copilot
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
     name: UserPreferenceStrings.Dashboard
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
@@ -4559,6 +4585,8 @@ items:
     name: WorkflowStepCreateRequest
   - uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale
     name: WorkflowStepCreateSale
+  - uid: SuperOffice.WebApi.Data.WorkflowStepDistributeToOwner
+    name: WorkflowStepDistributeToOwner
   - uid: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
     name: WorkflowStepNotifyByEmail
   - uid: SuperOffice.WebApi.Data.WorkflowStepNotifyBySMS

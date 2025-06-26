@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 288,
-  "PlainMessage": "est",
-  "HtmlMessage": "occaecati",
-  "SmsMessage": "reprehenderit",
-  "Description": "Balanced secondary support",
-  "Subject": "possimus",
-  "FolderId": 456,
-  "HeaderField": "quia",
-  "Design": "perferendis",
+  "ShipmentMessageId": 571,
+  "PlainMessage": "delectus",
+  "HtmlMessage": "quia",
+  "SmsMessage": "magnam",
+  "Description": "Secured tertiary hardware",
+  "Subject": "amet",
+  "FolderId": 104,
+  "HeaderField": "excepturi",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Optimized context-sensitive forecast",
-  "AccessKey": "ex",
-  "DocumentMessage": 341,
-  "Registered": "2024-09-21T17:54:08.5386928+02:00",
-  "RegisteredAssociateId": 300,
-  "Updated": "2009-10-25T17:54:08.5386928+01:00",
-  "UpdatedAssociateId": 577,
-  "UpdatedCount": 453,
+  "LongDescription": "Optimized explicit attitude",
+  "AccessKey": "rerum",
+  "DocumentMessage": 683,
+  "Registered": "2020-10-03T03:45:28.6546813+02:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "2004-12-19T03:45:28.6546813+01:00",
+  "UpdatedAssociateId": 112,
+  "UpdatedCount": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

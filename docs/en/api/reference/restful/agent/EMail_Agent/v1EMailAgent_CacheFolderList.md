@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price Inc and Sons",
-    "Delimiter": "excepturi",
-    "Flags": "tenetur",
-    "TotalItems": 196,
-    "UnreadItems": 343,
+    "Name": "Haley-Considine",
+    "Delimiter": "itaque",
+    "Flags": "quae",
+    "TotalItems": 675,
+    "UnreadItems": 931,
     "Subscribed": true,
-    "EmailFolderId": 500,
+    "EmailFolderId": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 572
       }
     }
   }

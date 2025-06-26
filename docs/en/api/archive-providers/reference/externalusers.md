@@ -62,7 +62,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=lastName,title,usergroupId
+GET /api/v1/archive/ExternalUsers?$select=title,usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

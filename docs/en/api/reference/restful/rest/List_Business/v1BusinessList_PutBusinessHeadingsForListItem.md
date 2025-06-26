@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Breitenberg-Anderson",
-    "ToolTip": "Eum aliquid.",
+    "Id": 358,
+    "Name": "Armstrong-Schultz",
+    "ToolTip": "Quam omnis ipsum.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "quis",
-    "ColorBlock": 710,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2008-06-30T17:54:08.7886801+02:00",
+    "Rank": 673,
+    "Type": "ut",
+    "ColorBlock": 606,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "2002-06-08T03:45:28.9671778+02:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Kshlerin, Rutherford and Schmitt",
-        "ToolTip": "Accusamus libero impedit ut omnis deleniti.",
+        "Id": 195,
+        "Name": "Hickle, Ullrich and Medhurst",
+        "ToolTip": "A repellendus ipsa velit deleniti quibusdam dolorem.",
         "Deleted": false,
-        "Rank": 990,
-        "Type": "modi",
-        "ColorBlock": 935,
-        "IconHint": "nobis",
+        "Rank": 840,
+        "Type": "nemo",
+        "ColorBlock": 539,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2008-07-20T17:54:08.7886801+02:00",
+        "LastChanged": "2014-07-02T03:45:28.9671778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Kaitlin Gerlach"
+        "ExtraInfo": "non",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Dr. Leonor Gutmann DDS"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Humberto Jones"
+    "ExtraInfo": "ut",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Jerrold Goyette"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Altenwerth, Monahan and Armstrong",
-    "ToolTip": "Quia nulla ea vitae repellat voluptate.",
+    "Id": 274,
+    "Name": "Torp-Blick",
+    "ToolTip": "Dolores voluptatem quibusdam repudiandae qui quam ipsa iure.",
     "Deleted": false,
-    "Rank": 636,
-    "Type": "aliquam",
-    "ColorBlock": 302,
-    "IconHint": "atque",
-    "Selected": false,
-    "LastChanged": "2014-03-31T17:54:08.8043048+02:00",
+    "Rank": 488,
+    "Type": "sint",
+    "ColorBlock": 623,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2018-05-22T03:45:28.9671778+02:00",
     "ChildItems": [
       {
-        "Id": 598,
-        "Name": "Crona, Hahn and Conroy",
-        "ToolTip": "Numquam quas nesciunt.",
-        "Deleted": true,
-        "Rank": 685,
-        "Type": "eligendi",
-        "ColorBlock": 829,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2016-12-10T17:54:08.8043048+01:00",
+        "Id": 578,
+        "Name": "Fahey Inc and Sons",
+        "ToolTip": "Aliquam minus esse.",
+        "Deleted": false,
+        "Rank": 225,
+        "Type": "commodi",
+        "ColorBlock": 394,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2004-03-06T03:45:28.9671778+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "iusto",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Ms. Jess Uriah Crona",
+        "FullName": "Kirk Jasen Streich V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldLength": 176
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "aut",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Chase Langworth",
+    "FullName": "Amos Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 217
       }
     }
   }

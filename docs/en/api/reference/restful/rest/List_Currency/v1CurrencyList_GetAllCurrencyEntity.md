@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 830,
-    "Name": "Huel Group",
-    "Tooltip": "in",
-    "Rank": 404,
-    "Rate": 1068.694,
-    "Units": 30537.696,
-    "Deleted": false,
+    "CurrencyId": 999,
+    "Name": "Lakin-Rutherford",
+    "Tooltip": "fuga",
+    "Rank": 776,
+    "Rate": 29074.118,
+    "Units": 676.944,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

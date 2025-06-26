@@ -769,7 +769,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=personId,person/personRegisteredDate,person/personDirectPhone/formattedNumber,person/personMobilePhone/description,contact/contactSource
+GET /api/v1/archive/SaleActivity?$select=person/personDirectPhone/description,person/correspondingAssociate/lastName,contact/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 914,
-    "Name": "Moen-Kuhn",
-    "Tooltip": "nobis",
-    "Rank": 716,
-    "Key": "velit",
-    "Deleted": false,
+    "LegalBaseId": 571,
+    "Name": "Murray-Nitzsche",
+    "Tooltip": "ullam",
+    "Rank": 231,
+    "Key": "quas",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldType": "System.Int32",
+        "FieldLength": 802
       }
     }
   }

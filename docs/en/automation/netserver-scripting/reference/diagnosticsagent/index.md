@@ -25,6 +25,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [GetCacheStateAsync](getcachestateasync.md)
 * [GetEntityCountsForAllUsersAsync](getentitycountsforallusersasync.md)
 * [GetEntityCountsForCurrentUserAsync](getentitycountsforcurrentuserasync.md)
+* [GetNextTableNumberAsync](getnexttablenumberasync.md)
 * [GetSystemMessagesAsync](getsystemmessagesasync.md)
 * [GetWebAppUsagesForPeriodAsync](getwebappusagesforperiodasync.md)
 * [LogViewStateAsync](logviewstateasync.md)

@@ -25,7 +25,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Reilly, Schamberger and Batz",
-    "Tooltip": "quasi",
+    "Id": 9,
+    "Name": "Jenkins Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 825,
-    "Rank": 885,
+    "UdListDefinitionId": 833,
+    "Rank": 439,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

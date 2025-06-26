@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 542,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 374,
-  "Name": "Bruen, Reichel and Kuvalis",
-  "Description": "Pre-emptive transitional core",
+  "QuoteAlternativeId": 329,
+  "ERPQuoteAlternativeKey": "tempore",
+  "QuoteVersionId": 397,
+  "Name": "Halvorson-Armstrong",
+  "Description": "Multi-tiered explicit framework",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23316.96,
-  "ERPDiscountAmount": 18747.588,
-  "DiscountPercent": 17901.408,
-  "DiscountAmount": 4951.72,
+  "ERPDiscountPercent": 1729.9679999999998,
+  "ERPDiscountAmount": 15036.931999999999,
+  "DiscountPercent": 29174.406,
+  "DiscountAmount": 10104.016,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "eligendi",
-  "VAT": 30844.827999999998,
-  "EarningPercent": 12119.178,
-  "EarningAmount": 5343.47,
-  "SubTotal": 4146.282,
-  "TotalPrice": 1106.302,
-  "ExtraField1": "saepe",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "minima",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "mollitia"
+  "VATInfo": "facere",
+  "VAT": 11204.05,
+  "EarningPercent": 15572.846,
+  "EarningAmount": 12683.297999999999,
+  "SubTotal": 13062.511999999999,
+  "TotalPrice": 3018.042,
+  "ExtraField1": "non",
+  "ExtraField2": "ex",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "quasi",
+  "ExtraField5": "occaecati"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 688,
-  "ERPQuoteAlternativeKey": "velit",
-  "QuoteVersionId": 21,
-  "Name": "Eichmann Inc and Sons",
-  "Description": "User-centric executive hardware",
+  "QuoteAlternativeId": 464,
+  "ERPQuoteAlternativeKey": "rerum",
+  "QuoteVersionId": 728,
+  "Name": "Beahan-Nolan",
+  "Description": "Extended regional flexibility",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6324.4119999999994,
-  "ERPDiscountAmount": 21640.27,
-  "DiscountPercent": 12197.528,
-  "DiscountAmount": 5497.036,
+  "ERPDiscountPercent": 6847.79,
+  "ERPDiscountAmount": 13150.264,
+  "DiscountPercent": 861.85,
+  "DiscountAmount": 29400.054,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 13999.578,
-  "EarningPercent": 4249.704,
-  "EarningAmount": 2761.054,
-  "SubTotal": 4685.33,
-  "TotalPrice": 24507.879999999997,
-  "ExtraField1": "optio",
-  "ExtraField2": "rerum",
-  "ExtraField3": "nihil",
-  "ExtraField4": "saepe",
-  "ExtraField5": "adipisci",
+  "VATInfo": "aut",
+  "VAT": 10329.663999999999,
+  "EarningPercent": 18020.5,
+  "EarningAmount": 18606.558,
+  "SubTotal": 10696.342,
+  "TotalPrice": 14197.02,
+  "ExtraField1": "dolore",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "provident",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

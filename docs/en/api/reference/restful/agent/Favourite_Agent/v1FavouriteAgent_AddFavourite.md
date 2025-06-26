@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mann, Kris and Dicki",
-  "RecordId": 286,
-  "AssociateId": 290,
-  "ExtraInfo": "earum"
+  "TableName": "Hartmann LLC",
+  "RecordId": 161,
+  "AssociateId": 133,
+  "ExtraInfo": "animi"
 }
 ```
 

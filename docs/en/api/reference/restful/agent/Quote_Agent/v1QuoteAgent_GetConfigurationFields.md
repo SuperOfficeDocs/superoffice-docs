@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 917,
-  "ConnectorName": "Gaylord, Marquardt and Ruecker"
+  "ConnectionId": 513,
+  "ConnectorName": "Schmidt, Littel and Lesch"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "a",
-    "Rank": 496,
-    "DisplayName": "Buckridge Inc and Sons",
-    "DisplayDescription": "Reverse-engineered tangible process improvement",
+    "FieldKey": "cumque",
+    "Rank": 698,
+    "DisplayName": "Terry LLC",
+    "DisplayDescription": "Adaptive even-keeled productivity",
     "FieldType": "Checkbox",
-    "ListName": "Price Inc and Sons",
-    "DefaultValue": "eveniet",
-    "MaxLength": 174,
+    "ListName": "Hettinger, Muller and Beier",
+    "DefaultValue": "qui",
+    "MaxLength": 441,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 320
       }
     }
   }

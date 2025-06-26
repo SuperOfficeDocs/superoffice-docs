@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 814,
-    "ColumnId": 980,
-    "FieldDefault": "cupiditate",
-    "FieldHeight": 337,
-    "FieldLabel": "delectus",
-    "FieldLeft": 611,
-    "FieldTop": 653,
+    "UDefFieldId": 913,
+    "ColumnId": 756,
+    "FieldDefault": "aut",
+    "FieldHeight": 257,
+    "FieldLabel": "ipsam",
+    "FieldLeft": 465,
+    "FieldTop": 257,
     "FieldType": "Checkbox",
-    "FieldWidth": 734,
+    "FieldWidth": 751,
     "FormatMask": "rem",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 194,
-    "LabelLeft": 379,
-    "LabelTop": 58,
-    "LabelWidth": 640,
-    "LastVersionId": 342,
-    "ListTableId": 290,
+    "LabelHeight": 888,
+    "LabelLeft": 809,
+    "LabelTop": 936,
+    "LabelWidth": 530,
+    "LastVersionId": 753,
+    "ListTableId": 21,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 128,
-    "ProgId": "et",
+    "Page1LineNo": 850,
+    "ProgId": "iusto",
     "IsReadOnly": false,
-    "ShortLabel": "id",
-    "TabOrder": 636,
-    "TextLength": 909,
-    "Tooltip": "non",
-    "UdefIdentity": 348,
-    "UDListDefinitionId": 436,
+    "ShortLabel": "dolores",
+    "TabOrder": 438,
+    "TextLength": 66,
+    "Tooltip": "nihil",
+    "UdefIdentity": 392,
+    "UDListDefinitionId": 173,
     "Justification": "Center",
-    "Version": 915,
-    "TemplateVariableName": "Adams Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Wolff Group",
+    "Version": 662,
+    "TemplateVariableName": "Schneider, Kuhn and Turcotte",
+    "HasBeenPublished": false,
+    "MdoListName": "Gislason Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 565
       }
     }
   }

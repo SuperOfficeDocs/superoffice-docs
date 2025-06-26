@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 463,
-  "AttachmentId": "aut"
+  "DocId": 753,
+  "AttachmentId": "rerum"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced systemic data-warehouse",
-  "Filename": "laborum",
-  "Size": 245,
-  "Type": "accusantium",
-  "Encoding": "omnis",
-  "Id": "omnis",
-  "Disposition": "veritatis",
-  "IsSafeFileExtension": false,
+  "Description": "Balanced attitude-oriented installation",
+  "Filename": "possimus",
+  "Size": 659,
+  "Type": "placeat",
+  "Encoding": "maiores",
+  "Id": "dignissimos",
+  "Disposition": "voluptatem",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 930,
-    "Name": "Wiza, Dickens and Cronin",
-    "ToolTip": "Nihil facere.",
+    "Id": 805,
+    "Name": "Bayer, Ryan and Witting",
+    "ToolTip": "Ut facere rerum enim sit adipisci magni.",
     "Deleted": true,
-    "Rank": 327,
-    "Type": "qui",
-    "ColorBlock": 731,
-    "IconHint": "saepe",
+    "Rank": 939,
+    "Type": "dolorem",
+    "ColorBlock": 284,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2012-02-03T17:54:09.0858036+01:00",
+    "LastChanged": "2018-03-18T03:45:29.2015441+01:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Kub, Daugherty and Buckridge",
-        "ToolTip": "Mollitia impedit fuga et ut asperiores.",
+        "Id": 434,
+        "Name": "Grimes-Kunde",
+        "ToolTip": "Eligendi dolor ab earum ratione.",
         "Deleted": true,
-        "Rank": 969,
-        "Type": "distinctio",
-        "ColorBlock": 373,
-        "IconHint": "et",
+        "Rank": 93,
+        "Type": "neque",
+        "ColorBlock": 690,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2022-12-31T17:54:09.0858036+01:00",
+        "LastChanged": "2021-02-07T03:45:29.2015441+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Devon Hudson",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Shaun Parker Bednar I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 989
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Malachi Lubowitz",
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Mr. Lacey Orie Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 134
       }
     }
   }

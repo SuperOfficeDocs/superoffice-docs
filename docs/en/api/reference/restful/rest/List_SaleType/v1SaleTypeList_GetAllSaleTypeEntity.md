@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 153,
-    "Name": "Harris-Purdy",
-    "Tooltip": "nihil",
-    "Rank": 956,
+    "SaleTypeId": 248,
+    "Name": "DuBuque Inc and Sons",
+    "Tooltip": "enim",
+    "Rank": 218,
     "DurationUnit": "Century",
-    "SaleDuration": 105,
-    "SaleTypeCatId": 758,
-    "Deleted": true,
+    "SaleDuration": 662,
+    "SaleTypeCatId": 575,
+    "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 376,
-    "QuoteLinesTemplate": 514,
-    "ConfirmationLinesTemplate": 478,
-    "MaxDiscountPercentSet": true,
+    "HasStakeholders": true,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 222,
+    "QuoteLinesTemplate": 649,
+    "ConfirmationLinesTemplate": 100,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 93,
-    "MinEarningPercent": 208,
-    "GroupQuoteLinesBy": 188,
-    "SortGroupLinesBy": 683,
+    "MaxDiscountPercent": 4,
+    "MinEarningPercent": 795,
+    "GroupQuoteLinesBy": 158,
+    "SortGroupLinesBy": 261,
     "Stages": [
       {
-        "Id": 486,
-        "Name": "Mante LLC",
-        "ToolTip": "Suscipit dicta nihil tempora impedit.",
+        "Id": 775,
+        "Name": "Anderson Inc and Sons",
+        "ToolTip": "Maiores dolor ut inventore nesciunt.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "aut",
-        "ColorBlock": 162,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2019-01-11T17:54:09.1011806+01:00",
+        "Rank": 635,
+        "Type": "ad",
+        "ColorBlock": 881,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2018-11-22T03:45:29.2171623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Ariel Sporer",
+        "ExtraInfo": "ab",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Doyle Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 682
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 851
+        "FieldLength": 557
       }
     }
   }

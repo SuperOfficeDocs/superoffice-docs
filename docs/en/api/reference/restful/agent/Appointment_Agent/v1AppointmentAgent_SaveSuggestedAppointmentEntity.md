@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 700,
-  "Name": "Price, Russel and Rau",
-  "Tooltip": "minima",
-  "Rank": 756,
+  "SuggestedAppointmentId": 8,
+  "Name": "Davis, Tillman and Howe",
+  "Tooltip": "aliquam",
+  "Rank": 828,
   "Deleted": false,
-  "DaysFuture": 526,
-  "Duration": "accusantium",
+  "DaysFuture": 235,
+  "Duration": "in",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "similique",
+  "Text": "laboriosam",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 852,
-  "Name": "Considine LLC",
-  "Tooltip": "non",
-  "Rank": 566,
-  "Deleted": true,
-  "DaysFuture": 12,
-  "Duration": "ducimus",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "enim",
+  "SuggestedAppointmentId": 441,
+  "Name": "West Group",
+  "Tooltip": "qui",
+  "Rank": 885,
+  "Deleted": false,
+  "DaysFuture": 590,
+  "Duration": "ipsam",
+  "AutoSuggest": true,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "sint",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 316
     }
   }
 }

@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 268,
+  "DocumentId": 989,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "doloribus",
-  "Header": "atque",
-  "Name": "Emard-Beatty",
-  "OurRef": "culpa",
-  "YourRef": "est",
-  "CreatedDate": "2015-04-21T17:54:08.2418376+02:00",
-  "UpdatedDate": "2023-02-04T17:54:08.2418376+01:00",
-  "Description": "Configurable intermediate concept",
+  "Header": "omnis",
+  "Name": "Littel LLC",
+  "OurRef": "rerum",
+  "YourRef": "fuga",
+  "CreatedDate": "2005-10-12T03:45:28.3421873+02:00",
+  "UpdatedDate": "2020-09-10T03:45:28.3421873+02:00",
+  "Description": "Exclusive holistic software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-06-04T17:54:08.2418376+02:00",
-  "ExternalRef": "et",
+  "Date": "2018-08-07T03:45:28.3421873+02:00",
+  "ExternalRef": "aliquam",
   "Completed": "Completed",
-  "ActiveLinks": 200,
+  "ActiveLinks": 497,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Parker Group",
-      "Id": 769,
-      "Description": "Adaptive zero defect software",
-      "ExtraInfo": "sed",
-      "LinkId": 765
+      "EntityName": "Metz, Powlowski and Daugherty",
+      "Id": 992,
+      "Description": "Seamless bandwidth-monitored function",
+      "ExtraInfo": "assumenda",
+      "LinkId": 915
     },
     {
-      "EntityName": "Parker Group",
-      "Id": 769,
-      "Description": "Adaptive zero defect software",
-      "ExtraInfo": "sed",
-      "LinkId": 765
+      "EntityName": "Metz, Powlowski and Daugherty",
+      "Id": 992,
+      "Description": "Seamless bandwidth-monitored function",
+      "ExtraInfo": "assumenda",
+      "LinkId": 915
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 646,
-  "Snum": 504,
+  "SuggestedDocumentId": 802,
+  "Snum": 832,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Mable Fanny Gottlieb Sr."
+    "SuperOffice:1": "Rowan Ziemann",
+    "SuperOffice:2": "Kiarra Kiehn"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "et"
+    "CustomFields1": "iure",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2013-05-23T17:54:08.2418376+02:00",
-  "PublishTo": "2003-06-22T17:54:08.2418376+02:00",
-  "PublishFrom": "2005-08-03T17:54:08.2418376+02:00",
+  "PublishEventDate": "2001-03-22T03:45:28.3421873+01:00",
+  "PublishTo": "2000-09-29T03:45:28.3421873+02:00",
+  "PublishFrom": "2006-10-11T03:45:28.3421873+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 333,
+      "VisibleId": 373,
       "Visibility": "All",
-      "DisplayValue": "dolorum"
+      "DisplayValue": "perspiciatis"
     },
     {
-      "VisibleId": 333,
+      "VisibleId": 373,
       "Visibility": "All",
-      "DisplayValue": "dolorum"
+      "DisplayValue": "perspiciatis"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aut",
-  "2": "iure"
+  "1": "magnam",
+  "2": "amet"
 }
 ```

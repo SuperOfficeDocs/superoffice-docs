@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=eius
+GET /api/v1/List/Position/MDOItems?query=ad
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Considine, Schuppe and Braun",
-    "ToolTip": "Incidunt iure et quod.",
+    "Id": 796,
+    "Name": "Kunde, Gerhold and Rath",
+    "ToolTip": "Nam cumque non iste itaque ducimus voluptatem quis.",
     "Deleted": false,
-    "Rank": 628,
-    "Type": "hic",
+    "Rank": 9,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Gottlieb Group",
-        "ToolTip": "Optio a.",
+        "Id": 614,
+        "Name": "Towne Inc and Sons",
+        "ToolTip": "Id occaecati ea aut est corrupti tempore.",
         "Deleted": true,
-        "Rank": 951,
-        "Type": "eligendi",
+        "Rank": 392,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 285,
-        "ExtraInfo": "optio",
-        "StyleHint": "dolorum",
-        "FullName": "Clyde Becker",
+        "IconHint": "aliquam",
+        "ColorBlock": 86,
+        "ExtraInfo": "qui",
+        "StyleHint": "soluta",
+        "FullName": "Tiana Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldType": "System.String",
+            "FieldLength": 755
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 322,
-    "ExtraInfo": "et",
-    "StyleHint": "deserunt",
-    "FullName": "Durward Lueilwitz",
+    "IconHint": "ab",
+    "ColorBlock": 557,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "eos",
+    "FullName": "Russel VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha-Langworth",
-    "Description": "Team-oriented regional frame",
-    "Rank": 686,
+    "Name": "Runolfsdottir, Kub and Conn",
+    "Description": "Focused disintermediate standardization",
+    "Rank": 811,
     "Restrictions": [
       {
-        "Name": "Wyman LLC",
-        "Operator": "aut",
+        "Name": "Kassulke Inc and Sons",
+        "Operator": "odit",
         "Values": [
-          "rerum",
-          "et"
+          "quaerat",
+          "laborum"
         ],
         "DisplayValues": [
-          "aut",
-          "aut"
+          "voluptatem",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 802,
+        "InterParenthesis": 636,
         "InterOperator": "And",
-        "UniqueHash": 873
+        "UniqueHash": 883
       }
     ]
   },
   {
-    "Name": "Pacocha-Langworth",
-    "Description": "Team-oriented regional frame",
-    "Rank": 686,
+    "Name": "Runolfsdottir, Kub and Conn",
+    "Description": "Focused disintermediate standardization",
+    "Rank": 811,
     "Restrictions": [
       {
-        "Name": "Wyman LLC",
-        "Operator": "aut",
+        "Name": "Kassulke Inc and Sons",
+        "Operator": "odit",
         "Values": [
-          "rerum",
-          "et"
+          "quaerat",
+          "laborum"
         ],
         "DisplayValues": [
-          "aut",
-          "aut"
+          "voluptatem",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 802,
+        "InterParenthesis": 636,
         "InterOperator": "And",
-        "UniqueHash": 873
+        "UniqueHash": 883
       }
     ]
   }

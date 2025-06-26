@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=consequatur
+GET /api/v1/List/ConsentPurpose/MDOItems?query=possimus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Beatty-Kunze",
-    "ToolTip": "Quia quia laborum velit sit ut.",
-    "Deleted": false,
-    "Rank": 465,
-    "Type": "quasi",
+    "Id": 569,
+    "Name": "Funk-Dibbert",
+    "ToolTip": "Nobis et quam exercitationem.",
+    "Deleted": true,
+    "Rank": 545,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Barrows, O'Conner and Harber",
-        "ToolTip": "Accusamus quo ea quo voluptas quos veritatis reiciendis.",
+        "Id": 550,
+        "Name": "Hudson Inc and Sons",
+        "ToolTip": "Quo nostrum harum voluptatem cupiditate est.",
         "Deleted": true,
-        "Rank": 188,
-        "Type": "consequatur",
+        "Rank": 80,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 478,
-        "ExtraInfo": "non",
-        "StyleHint": "qui",
-        "FullName": "Mrs. Noemie Lonie Tremblay I",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 378,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "quam",
+        "FullName": "Ms. Tavares Amari Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldLength": 547
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 549,
-    "ExtraInfo": "sed",
-    "StyleHint": "illo",
-    "FullName": "Dr. Isobel Modesto Nienow",
+    "IconHint": "eum",
+    "ColorBlock": 931,
+    "ExtraInfo": "ratione",
+    "StyleHint": "molestiae",
+    "FullName": "Waino Ronaldo Huels PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 580
       }
     }
   }

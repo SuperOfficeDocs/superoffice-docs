@@ -54,6 +54,7 @@ items:
   extensionMethods:
   - SuperOffice.Exceptions.SoInvalidArgumentException.EnumUtil.MapEnums``2
   - SuperOffice.Exceptions.SoInvalidArgumentException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.String)
   - System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
   - System.Exception.SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
   - System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
@@ -729,6 +730,51 @@ references:
     isExternal: true
     href: SuperOffice.Exceptions.SoInvalidArgumentException.html
   - name: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  name: DeepMessageStack(Exception, string)
+  nameWithType: ExceptionHelper.DeepMessageStack(Exception, string)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, string)
+  nameWithType.vb: ExceptionHelper.DeepMessageStack(Exception, String)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, String)
+  name.vb: DeepMessageStack(Exception, String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+    name: DeepMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+    name: DeepMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
   commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   parent: SuperOffice.Exceptions.ExceptionHelper
@@ -1044,6 +1090,58 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  name: DeepMessageStack(Exception, string)
+  nameWithType: ExceptionHelper.DeepMessageStack(Exception, string)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, string)
+  nameWithType.vb: ExceptionHelper.DeepMessageStack(Exception, String)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception, String)
+  name.vb: DeepMessageStack(Exception, String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+    name: DeepMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.DeepMessageStack(System.Exception,System.String)
+    name: DeepMessageStack
+    isExternal: true
+    href: SuperOffice.Exceptions.ExceptionHelper.html#SuperOffice_Exceptions_ExceptionHelper_DeepMessageStack_System_Exception_System_String_
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Exceptions.ExceptionHelper
+  commentId: T:SuperOffice.Exceptions.ExceptionHelper
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  href: SuperOffice.Exceptions.ExceptionHelper.html
+  name: ExceptionHelper
+  nameWithType: ExceptionHelper
+  fullName: SuperOffice.Exceptions.ExceptionHelper
 - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   isExternal: true
@@ -1073,14 +1171,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.exception
   - name: )
-- uid: SuperOffice.Exceptions.ExceptionHelper
-  commentId: T:SuperOffice.Exceptions.ExceptionHelper
-  parent: SuperOffice.Exceptions
-  isExternal: true
-  href: SuperOffice.Exceptions.ExceptionHelper.html
-  name: ExceptionHelper
-  nameWithType: ExceptionHelper
-  fullName: SuperOffice.Exceptions.ExceptionHelper
 - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
   commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
   isExternal: true

@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 564,
+  "LatestKnownEventId": 14,
   "PublishEvents": [
     {
-      "EventId": 616,
-      "EventName": "Stehr-Klein",
-      "EntityType": "qui",
-      "EntityKey": 690,
-      "AssociateId": 224,
-      "AssociateName": "Schumm Group",
-      "EventDateTime": "2021-01-14T17:54:03.9139184+01:00"
+      "EventId": 337,
+      "EventName": "Schroeder Inc and Sons",
+      "EntityType": "ullam",
+      "EntityKey": 910,
+      "AssociateId": 185,
+      "AssociateName": "Ratke, Gutmann and Donnelly",
+      "EventDateTime": "2006-03-04T03:45:24.2016834+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Ferry-Hartmann",
-      "Value": 474
+      "Name": "Gleason, Wyman and Schmeler",
+      "Value": 973
     },
     {
-      "Name": "Ferry-Hartmann",
-      "Value": 474
+      "Name": "Gleason, Wyman and Schmeler",
+      "Value": 973
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 761,
-    "EventName": "Wyman Group",
-    "EntityType": "dolorem",
-    "EntityKey": 13,
-    "AssociateId": 508,
-    "AssociateName": "Mueller, Vandervort and Weimann",
-    "EventDateTime": "2005-07-22T17:54:03.9139184+02:00",
+    "EventId": 55,
+    "EventName": "Toy LLC",
+    "EntityType": "libero",
+    "EntityKey": 997,
+    "AssociateId": 460,
+    "AssociateName": "Mayert-Ward",
+    "EventDateTime": "2006-04-10T03:45:24.2016834+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

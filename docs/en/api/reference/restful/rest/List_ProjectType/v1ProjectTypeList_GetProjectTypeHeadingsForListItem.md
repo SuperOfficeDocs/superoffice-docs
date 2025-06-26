@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Crooks Inc and Sons",
-    "ToolTip": "Sit minima aliquid.",
-    "Deleted": false,
-    "Rank": 25,
-    "Type": "eligendi",
-    "ColorBlock": 361,
-    "IconHint": "repellendus",
+    "Id": 442,
+    "Name": "Christiansen Inc and Sons",
+    "ToolTip": "Et maiores quia commodi commodi dolorem molestiae dolor.",
+    "Deleted": true,
+    "Rank": 465,
+    "Type": "est",
+    "ColorBlock": 686,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2020-04-17T17:54:09.0074197+02:00",
+    "LastChanged": "2002-08-16T03:45:29.1703077+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Dibbert-Lynch",
-        "ToolTip": "Possimus inventore quaerat.",
-        "Deleted": false,
-        "Rank": 409,
-        "Type": "reprehenderit",
-        "ColorBlock": 559,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2007-05-30T17:54:09.0074197+02:00",
+        "Id": 725,
+        "Name": "Purdy-Stark",
+        "ToolTip": "Architecto porro qui voluptatum sit magni.",
+        "Deleted": true,
+        "Rank": 490,
+        "Type": "aliquid",
+        "ColorBlock": 173,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2022-03-17T03:45:29.1703077+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Miss Anissa Goyette",
+        "ExtraInfo": "est",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Ms. Beulah Adrain Renner DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "autem",
+    "ExtraInfo": "commodi",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Laney Dimitri Wolff Jr.",
+    "FullName": "Miss Coralie Ari Mante IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldType": "System.Int32",
+        "FieldLength": 935
       }
     }
   }

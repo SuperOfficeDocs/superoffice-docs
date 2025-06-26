@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Cronin Inc and Sons",
-  "ResourceValues": "magni",
-  "Culture": "et",
-  "IsActive": true
+  "ResourceName": "Thiel, Bahringer and White",
+  "ResourceValues": "velit",
+  "Culture": "unde",
+  "IsActive": false
 }
 ```
 

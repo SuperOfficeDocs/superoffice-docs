@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 163,
-  "Name": "Feil-Robel",
-  "Tooltip": "ea",
-  "Rank": 714,
-  "AmountFrom": 5004.998,
-  "AmountTo": 13720.652,
+  "AmountClassId": 667,
+  "Name": "Koch, Hilpert and Huel",
+  "Tooltip": "non",
+  "Rank": 481,
+  "AmountFrom": 2996.104,
+  "AmountTo": 119.092,
   "Deleted": false,
-  "CurrencyId": 335
+  "CurrencyId": 67
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 270,
-  "Name": "Collins LLC",
+  "AmountClassId": 535,
+  "Name": "Kessler, Mills and Abshire",
   "Tooltip": "et",
-  "Rank": 454,
-  "AmountFrom": 18738.185999999998,
-  "AmountTo": 3785.872,
+  "Rank": 756,
+  "AmountFrom": 13639.168,
+  "AmountTo": 9348.722,
   "Deleted": false,
-  "CurrencyId": 561,
+  "CurrencyId": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 682
     }
   }
 }

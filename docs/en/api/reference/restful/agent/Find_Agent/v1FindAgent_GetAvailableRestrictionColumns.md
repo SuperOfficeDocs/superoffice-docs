@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "soluta",
-  "ProviderName": "Hand, Gibson and Smitham"
+  "StorageType": "libero",
+  "ProviderName": "Gerhold Group"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quis",
-  "nostrum"
+  "dicta",
+  "amet"
 ]
 ```

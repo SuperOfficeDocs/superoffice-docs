@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350
+  "Id": 702
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866,
-  "Name": "King, Pfeffer and Thompson",
-  "AssociateId": 62,
-  "DetailsTable": 380,
-  "DetailsRecord": 366,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 404,
+  "Name": "Rowe Group",
+  "AssociateId": 998,
+  "DetailsTable": 583,
+  "DetailsRecord": 399,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "atque",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "accusamus"
   },
-  "LastStarted": "2017-08-11T17:54:02.6639794+02:00",
-  "Created": "2021-06-19T17:54:02.6639794+02:00",
-  "StartCount": 504,
-  "DatabaseSerialNumber": "646258",
-  "Context": "rem",
-  "Result": "culpa",
+  "LastStarted": "2013-07-20T03:45:22.9829669+02:00",
+  "Created": "2018-04-19T03:45:22.9829669+02:00",
+  "StartCount": 753,
+  "DatabaseSerialNumber": "334719",
+  "Context": "cumque",
+  "Result": "aspernatur",
   "State": "All",
-  "Description": "Balanced value-added challenge",
-  "Response": "ut",
-  "Request": "blanditiis",
-  "ProgressDescription": "Ameliorated interactive knowledge base",
-  "ProgressPercent": 504,
-  "FileName": "Runolfsdottir Inc and Sons",
+  "Description": "Re-engineered disintermediate benchmark",
+  "Response": "eligendi",
+  "Request": "consequatur",
+  "ProgressDescription": "Cloned impactful leverage",
+  "ProgressPercent": 663,
+  "FileName": "Friesen, Lang and Hudson",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 346
     }
   }
 }

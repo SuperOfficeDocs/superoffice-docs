@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 55
+  "DepartmentId": 737
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "975.400.3487 x39350",
-    "PersonCellPhone": "482.074.3947 x1521",
-    "PersonPrivatePhone": "(891)331-2830 x3815",
-    "PersonFaxNumber": "352589",
-    "PersonPagerNumber": "1395094",
-    "PersonEmail": "chelsie_bernier@sipes.info",
-    "Id": 147,
-    "Name": "Eichmann, Stokes and Hartmann",
-    "Tooltip": "soluta",
-    "UniqueId": "veritatis",
+    "PersonDirectPhone": "(042)861-7229 x11092",
+    "PersonCellPhone": "1-137-875-3928 x765",
+    "PersonPrivatePhone": "(092)588-5836",
+    "PersonFaxNumber": "356321",
+    "PersonPagerNumber": "1314854",
+    "PersonEmail": "santa.gutkowski@kessler.info",
+    "Id": 873,
+    "Name": "Little-Nitzsche",
+    "Tooltip": "natus",
+    "UniqueId": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 882
       }
     }
   }

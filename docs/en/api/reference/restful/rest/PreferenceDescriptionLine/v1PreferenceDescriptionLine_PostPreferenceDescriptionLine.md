@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 510,
-  "PrefDescId": 559,
-  "PrefValue": "dolorum",
-  "PrefShowValue": "sequi",
-  "Description": "Enhanced mobile function",
+  "PrefDescLineId": 582,
+  "PrefDescId": 462,
+  "PrefValue": "rerum",
+  "PrefShowValue": "sit",
+  "Description": "Devolved full-range task-force",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 301,
-  "PrefDescId": 604,
-  "PrefValue": "totam",
-  "PrefShowValue": "eos",
-  "Description": "Public-key context-sensitive product",
+  "PrefDescLineId": 939,
+  "PrefDescId": 507,
+  "PrefValue": "provident",
+  "PrefShowValue": "fugiat",
+  "Description": "Down-sized 3rd generation synergy",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 925
     }
   },
   "_Links": {

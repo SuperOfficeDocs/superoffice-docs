@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 12 Feb 2000 17:54:08 G2T
+Last-Modified: Sat, 14 Aug 2010 03:45:28 G8T
 
 {
-  "BlobId": 587,
-  "BlobSize": 809,
-  "Description": "Function-based neutral matrix",
-  "ExtraInfo": "rem",
+  "BlobId": 803,
+  "BlobSize": 667,
+  "Description": "Multi-layered methodical productivity",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ipsa",
-  "OriginalSize": 69,
-  "CreatedDate": "2024-09-09T17:54:08.7105588+02:00",
-  "UpdatedDate": "2000-02-12T17:54:08.7105588+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 102,
+  "CreatedDate": "2019-11-13T03:45:28.8265489+01:00",
+  "UpdatedDate": "2010-08-14T03:45:28.8265489+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "soluta",
+  "ConceptualType": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 740
     }
   }
 }

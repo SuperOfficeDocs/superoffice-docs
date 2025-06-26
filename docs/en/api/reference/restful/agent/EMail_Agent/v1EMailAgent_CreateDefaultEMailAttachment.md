@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered optimizing definition",
-  "Filename": "voluptatum",
-  "Size": 502,
-  "Type": "ut",
-  "Encoding": "qui",
-  "Id": "omnis",
-  "Disposition": "ad",
+  "Description": "Multi-tiered leading edge intranet",
+  "Filename": "ex",
+  "Size": 620,
+  "Type": "et",
+  "Encoding": "aut",
+  "Id": "quia",
+  "Disposition": "saepe",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 273
     }
   }
 }

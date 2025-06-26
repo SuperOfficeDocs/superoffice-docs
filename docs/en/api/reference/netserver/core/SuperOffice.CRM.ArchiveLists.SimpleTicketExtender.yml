@@ -89,6 +89,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colContent
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLanguageCode
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentScore
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
@@ -895,6 +896,14 @@ references:
   name: _colSentimentScore
   nameWithType: TicketExtenderBase._colSentimentScore
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentScore
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase__colSentimentConfidence
+  name: _colSentimentConfidence
+  nameWithType: TicketExtenderBase._colSentimentConfidence
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentConfidence
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

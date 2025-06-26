@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 154,
-  "Name": "Wilkinson, Bogan and Langosh",
-  "Tooltip": "aliquid",
-  "Rank": 622,
+  "SaleTypeId": 150,
+  "Name": "Lind-Macejkovic",
+  "Tooltip": "mollitia",
+  "Rank": 956,
   "DurationUnit": "Century",
-  "SaleDuration": 167,
-  "SaleTypeCatId": 887,
-  "Deleted": false,
+  "SaleDuration": 473,
+  "SaleTypeCatId": 515,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 497,
-  "QuoteLinesTemplate": 836,
-  "ConfirmationLinesTemplate": 825,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 569,
-  "MinEarningPercent": 456,
-  "GroupQuoteLinesBy": 573,
-  "SortGroupLinesBy": 124,
+  "DefaultQuoteValidity": 704,
+  "QuoteLinesTemplate": 651,
+  "ConfirmationLinesTemplate": 951,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 857,
+  "MinEarningPercent": 23,
+  "GroupQuoteLinesBy": 166,
+  "SortGroupLinesBy": 955,
   "Stages": [
     {
-      "Id": 850,
-      "Name": "Green LLC",
-      "ToolTip": "Eius et architecto doloribus dolor eos.",
+      "Id": 973,
+      "Name": "Haag Group",
+      "ToolTip": "Omnis ipsum.",
       "Deleted": false,
-      "Rank": 754,
-      "Type": "dicta",
-      "ColorBlock": 98,
-      "IconHint": "dolorem",
-      "Selected": true,
-      "LastChanged": "2003-03-20T17:54:03.3202006+01:00",
+      "Rank": 693,
+      "Type": "et",
+      "ColorBlock": 324,
+      "IconHint": "blanditiis",
+      "Selected": false,
+      "LastChanged": "2018-08-05T03:45:23.6235756+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "voluptas",
-      "Hidden": true,
-      "FullName": "Regan Friesen"
+      "ExtraInfo": "et",
+      "StyleHint": "reprehenderit",
+      "Hidden": false,
+      "FullName": "Flossie Hipolito Auer III"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 682,
-  "Name": "Homenick-O'Connell",
-  "Tooltip": "omnis",
-  "Rank": 5,
+  "SaleTypeId": 120,
+  "Name": "Doyle-Howell",
+  "Tooltip": "nemo",
+  "Rank": 441,
   "DurationUnit": "Century",
-  "SaleDuration": 83,
-  "SaleTypeCatId": 163,
+  "SaleDuration": 816,
+  "SaleTypeCatId": 75,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 503,
-  "QuoteLinesTemplate": 598,
-  "ConfirmationLinesTemplate": 570,
+  "DefaultQuoteValidity": 549,
+  "QuoteLinesTemplate": 351,
+  "ConfirmationLinesTemplate": 109,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 873,
-  "MinEarningPercent": 384,
-  "GroupQuoteLinesBy": 910,
-  "SortGroupLinesBy": 29,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 129,
+  "MinEarningPercent": 331,
+  "GroupQuoteLinesBy": 552,
+  "SortGroupLinesBy": 866,
   "Stages": [
     {
-      "Id": 641,
-      "Name": "Runolfsdottir Inc and Sons",
-      "ToolTip": "Nulla asperiores officiis corporis voluptas vel ut id.",
-      "Deleted": false,
-      "Rank": 298,
-      "Type": "qui",
-      "ColorBlock": 284,
-      "IconHint": "eius",
+      "Id": 457,
+      "Name": "Weimann, Roob and Kohler",
+      "ToolTip": "Voluptas quia iure impedit a fugiat illum.",
+      "Deleted": true,
+      "Rank": 492,
+      "Type": "atque",
+      "ColorBlock": 751,
+      "IconHint": "a",
       "Selected": true,
-      "LastChanged": "2022-11-28T17:54:03.3202006+01:00",
+      "LastChanged": "1998-12-20T03:45:23.6235756+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "eligendi",
+      "ExtraInfo": "modi",
+      "StyleHint": "architecto",
       "Hidden": true,
-      "FullName": "Chance Ritchie",
+      "FullName": "Miss Dena Garett Ruecker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldLength": 222
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 912
     }
   }
 }

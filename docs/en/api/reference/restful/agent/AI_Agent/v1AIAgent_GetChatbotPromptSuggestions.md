@@ -65,7 +65,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "voluptatibus",
-  "SoProtocol": "saepe",
-  "CurrentId": 14
+  "IsoLangCode": "nihil",
+  "SoProtocol": "accusantium",
+  "CurrentId": 679
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2008-06-20T17:54:02.3514942+02:00",
-  "UserPrompt": "excepturi",
-  "UserDisplayText": "doloremque",
-  "BotResponse": "harum",
+  "Timestamp": "2016-11-14T03:45:22.6548535+01:00",
+  "UserPrompt": "laboriosam",
+  "UserDisplayText": "nisi",
+  "BotResponse": "debitis",
   "BotActions": {
-    "BotActions1": "et",
-    "BotActions2": "temporibus"
+    "BotActions1": "pariatur",
+    "BotActions2": "veritatis"
   },
   "Attachments": [
-    "placeat",
-    "aliquam"
+    "quis",
+    "error"
   ]
 }
 ```

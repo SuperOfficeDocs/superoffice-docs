@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "O'Hara, Moen and Smith",
-  "Tooltip": "fuga",
+  "Id": 747,
+  "Name": "Cartwright Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 466,
-  "IsCustomList": false,
+  "Rank": 33,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Gibson-Jerde",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 680,
-  "IsCustomList": true,
+  "Id": 466,
+  "Name": "Marquardt, Stoltenberg and Bode",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 968,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 358
     }
   }
 }

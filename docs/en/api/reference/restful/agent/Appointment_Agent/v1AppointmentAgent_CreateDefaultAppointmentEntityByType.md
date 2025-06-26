@@ -132,7 +132,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-09-02T17:54:02.4452402+02:00",
-  "AppointmentId": 234,
-  "Description": "Secured systematic leverage",
-  "Title": "sint",
-  "Agenda": "ea",
-  "InternalNotes": "facere",
-  "StartDate": "2010-01-26T17:54:02.4452402+01:00",
-  "EndDate": "2020-03-25T17:54:02.4452402+01:00",
+  "CreatedDate": "2008-06-10T03:45:22.7642247+02:00",
+  "AppointmentId": 998,
+  "Description": "Multi-lateral local collaboration",
+  "Title": "ullam",
+  "Agenda": "voluptatibus",
+  "InternalNotes": "libero",
+  "StartDate": "1999-04-27T03:45:22.7642247+02:00",
+  "EndDate": "1998-10-30T03:45:22.7642247+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 399,
+  "MotherId": 384,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-05-21T17:54:02.4452402+02:00",
+  "UpdatedDate": "2021-04-18T03:45:22.7642247+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 875,
+  "ActiveLinks": 50,
   "Links": [
     {
-      "EntityName": "Fritsch-Jacobson",
-      "Id": 590,
-      "Description": "Adaptive methodical challenge",
-      "ExtraInfo": "error",
-      "LinkId": 153,
+      "EntityName": "Stamm-Bernier",
+      "Id": 8,
+      "Description": "Total assymetric workforce",
+      "ExtraInfo": "sequi",
+      "LinkId": 1002,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldType": "System.String",
+          "FieldLength": 117
         }
       }
     }
   ],
-  "AlarmLeadTime": "perferendis",
-  "HasAlarm": false,
-  "ColorIndex": 597,
+  "AlarmLeadTime": "rerum",
+  "HasAlarm": true,
+  "ColorIndex": 129,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "aliquam",
-  "LeadTime": "omnis",
-  "Location": "ipsum",
-  "RejectCounter": 852,
+  "IsAlldayEvent": true,
+  "LagTime": "non",
+  "LeadTime": "in",
+  "Location": "dolore",
+  "RejectCounter": 144,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 456,
-      "PersonId": 326,
-      "ContactId": 345,
-      "EmailId": 994,
-      "SendEmail": false,
+      "AssociateId": 389,
+      "PersonId": 548,
+      "ContactId": 402,
+      "EmailId": 917,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kaycee.halvorson@christiansenkoss.com",
-      "Description": "Diverse local hierarchy"
+      "EmailAddress": "krystal_fritsch@rogahn.uk",
+      "Description": "Phased bottom-line open system"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-08-10T17:54:02.4452402+02:00",
+  "ActiveDate": "2004-02-05T03:45:22.7642247+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 392,
+  "PreferredTZLocation": 310,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 234,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 923,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "quidem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Javier Klein",
-    "SuperOffice:2": "Dr. Dannie Kunze"
+    "SuperOffice:1": "1128032176",
+    "SuperOffice:2": "Addison Bogisich"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "repellat",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "1999-08-27T17:54:02.4452402+02:00",
-  "PublishTo": "2018-04-28T17:54:02.4452402+02:00",
-  "PublishFrom": "2008-06-06T17:54:02.4452402+02:00",
+  "PublishEventDate": "2018-01-18T03:45:22.7642247+01:00",
+  "PublishTo": "2000-01-31T03:45:22.7642247+01:00",
+  "PublishFrom": "2021-03-15T03:45:22.7642247+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldLength": 631
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldLength": 631
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 306
     }
   }
 }

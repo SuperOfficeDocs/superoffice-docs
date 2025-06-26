@@ -136,6 +136,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Associates
   - SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
   - SuperOffice.CRM.UserPreferenceStrings.CloudServices
+  - SuperOffice.CRM.UserPreferenceStrings.Copilot
   - SuperOffice.CRM.UserPreferenceStrings.Dashboard
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection
   - SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
@@ -1931,6 +1932,33 @@ references:
     name: InApp
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.InApp.html
+- uid: SuperOffice.CRM.UserPreferenceStrings.Copilot
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Copilot
+  isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
+  name: UserPreferenceStrings.Copilot
+  nameWithType: UserPreferenceStrings.Copilot
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Copilot
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Copilot
+    name: Copilot
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Copilot.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Copilot
+    name: Copilot
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Copilot.html
 - uid: SuperOffice.CRM.ActivityStatusHelper
   commentId: T:SuperOffice.CRM.ActivityStatusHelper
   isExternal: true

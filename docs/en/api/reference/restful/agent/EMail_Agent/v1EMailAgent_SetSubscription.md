@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Smith Group",
-      "Delimiter": "reiciendis",
-      "Flags": "labore",
-      "TotalItems": 138,
-      "UnreadItems": 103,
+      "Name": "Daugherty Group",
+      "Delimiter": "ea",
+      "Flags": "molestiae",
+      "TotalItems": 694,
+      "UnreadItems": 609,
       "Subscribed": false,
-      "EmailFolderId": 251
+      "EmailFolderId": 827
     }
   ]
 }

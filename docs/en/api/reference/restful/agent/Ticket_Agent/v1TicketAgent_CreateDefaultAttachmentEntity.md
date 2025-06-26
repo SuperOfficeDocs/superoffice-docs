@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 87,
-  "Name": "Predovic-Tremblay",
-  "ContentType": "eligendi",
-  "AttSize": 18,
+  "AttachmentId": 135,
+  "Name": "Flatley-Hilpert",
+  "ContentType": "quia",
+  "AttSize": 841,
   "InlineImage": false,
-  "ContentId": "quas",
-  "AuthKey": "veniam",
-  "IsSafeFileExtension": false,
+  "ContentId": "rerum",
+  "AuthKey": "mollitia",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 942
     }
   }
 }

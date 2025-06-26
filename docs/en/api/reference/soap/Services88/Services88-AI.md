@@ -1403,6 +1403,134 @@ title: Services88.AIAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="Answer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NamespaceName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Query" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Type" type="q136:RagType" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Top" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="RagType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Ticket" />
+          <xs:enumeration value="Webpage" />
+          <xs:enumeration value="Document" />
+          <xs:enumeration value="FAQ" />
+          <xs:enumeration value="Product" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="RagType" nillable="true" type="q137:RagType" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AnswerResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q138:RagAnswer" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="RagAnswer">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="q139:ArrayOfRagResult" xmlns:q139="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TrackingId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="RagAnswer" nillable="true" type="q140:RagAnswer" xmlns:q140="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ArrayOfRagResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RagResult" nillable="true" type="q141:RagResult" xmlns:q141="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfRagResult" nillable="true" type="q142:ArrayOfRagResult" xmlns:q142="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="RagResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Chunk" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Type" type="q143:RagType" xmlns:q143="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Score" type="xs:double" />
+          <xs:element minOccurs="0" name="Metadata" nillable="true" type="q144:StringObjectDictionary" xmlns:q144="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="RagResult" nillable="true" type="q145:RagResult" xmlns:q145="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="StringObjectDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringObjectKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:anyType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringObjectDictionary" nillable="true" type="q146:StringObjectDictionary" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AnswerFeedback">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TrackingId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="IsThumbsUp" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AnswerFeedbackResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AnswerAccepted">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TrackingId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AnswerAcceptedResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Search">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NamespaceName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Query" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Type" type="q147:RagType" xmlns:q147="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Top" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SearchResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q148:ArrayOfRagResult" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="StartRagIndexing">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NamespaceName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="SourceId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="StartRagIndexingResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SummarizeTicket">
         <xs:complexType>
           <xs:sequence>
@@ -1432,7 +1560,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeTicketPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q136:ChatbotTurn" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q149:ChatbotTurn" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1465,7 +1593,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeContactPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q137:ChatbotTurn" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q150:ChatbotTurn" xmlns:q150="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1498,7 +1626,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeSalePromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q138:ChatbotTurn" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q151:ChatbotTurn" xmlns:q151="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1808,6 +1936,91 @@ title: Services88.AIAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="AnswerRequest">
+    <wsdl:part name="parameters" element="tns:Answer" />
+  </wsdl:message>
+  <wsdl:message name="AnswerRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerResponse">
+    <wsdl:part name="parameters" element="tns:AnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnswerResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerFeedbackRequest">
+    <wsdl:part name="parameters" element="tns:AnswerFeedback" />
+  </wsdl:message>
+  <wsdl:message name="AnswerFeedbackRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerFeedbackResponse">
+    <wsdl:part name="parameters" element="tns:AnswerFeedbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnswerFeedbackResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerAcceptedRequest">
+    <wsdl:part name="parameters" element="tns:AnswerAccepted" />
+  </wsdl:message>
+  <wsdl:message name="AnswerAcceptedRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerAcceptedResponse">
+    <wsdl:part name="parameters" element="tns:AnswerAcceptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnswerAcceptedResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SearchRequest">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SearchResponse">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="StartRagIndexingRequest">
+    <wsdl:part name="parameters" element="tns:StartRagIndexing" />
+  </wsdl:message>
+  <wsdl:message name="StartRagIndexingRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="StartRagIndexingResponse">
+    <wsdl:part name="parameters" element="tns:StartRagIndexingResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartRagIndexingResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SummarizeTicketRequest">
     <wsdl:part name="parameters" element="tns:SummarizeTicket" />
   </wsdl:message>
@@ -1970,6 +2183,26 @@ title: Services88.AIAgent WSDL
     <wsdl:operation name="TranslateEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntity" name="TranslateEntityRequest" message="tns:TranslateEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntityResponse" name="TranslateEntityResponse" message="tns:TranslateEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Answer">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Answer" name="AnswerRequest" message="tns:AnswerRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerResponse" name="AnswerResponse" message="tns:AnswerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AnswerFeedback">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerFeedback" name="AnswerFeedbackRequest" message="tns:AnswerFeedbackRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerFeedbackResponse" name="AnswerFeedbackResponse" message="tns:AnswerFeedbackResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AnswerAccepted">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerAccepted" name="AnswerAcceptedRequest" message="tns:AnswerAcceptedRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerAcceptedResponse" name="AnswerAcceptedResponse" message="tns:AnswerAcceptedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Search" name="SearchRequest" message="tns:SearchRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/SearchResponse" name="SearchResponse" message="tns:SearchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="StartRagIndexing">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/StartRagIndexing" name="StartRagIndexingRequest" message="tns:StartRagIndexingRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/StartRagIndexingResponse" name="StartRagIndexingResponse" message="tns:StartRagIndexingResponse" />
     </wsdl:operation>
     <wsdl:operation name="SummarizeTicket">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/SummarizeTicket" name="SummarizeTicketRequest" message="tns:SummarizeTicketRequest" />
@@ -2235,6 +2468,86 @@ title: Services88.AIAgent WSDL
         <soap:header message="tns:TranslateEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:TranslateEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:TranslateEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Answer">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Answer" style="document" />
+      <wsdl:input name="AnswerRequest">
+        <soap:header message="tns:AnswerRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AnswerRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AnswerRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AnswerResponse">
+        <soap:header message="tns:AnswerResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AnswerResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AnswerResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AnswerResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnswerFeedback">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerFeedback" style="document" />
+      <wsdl:input name="AnswerFeedbackRequest">
+        <soap:header message="tns:AnswerFeedbackRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AnswerFeedbackRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AnswerFeedbackRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AnswerFeedbackResponse">
+        <soap:header message="tns:AnswerFeedbackResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AnswerFeedbackResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AnswerFeedbackResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AnswerFeedbackResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnswerAccepted">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerAccepted" style="document" />
+      <wsdl:input name="AnswerAcceptedRequest">
+        <soap:header message="tns:AnswerAcceptedRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AnswerAcceptedRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AnswerAcceptedRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AnswerAcceptedResponse">
+        <soap:header message="tns:AnswerAcceptedResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AnswerAcceptedResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AnswerAcceptedResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AnswerAcceptedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Search" style="document" />
+      <wsdl:input name="SearchRequest">
+        <soap:header message="tns:SearchRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SearchRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SearchRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SearchResponse">
+        <soap:header message="tns:SearchResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SearchResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SearchResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SearchResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartRagIndexing">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/StartRagIndexing" style="document" />
+      <wsdl:input name="StartRagIndexingRequest">
+        <soap:header message="tns:StartRagIndexingRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:StartRagIndexingRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:StartRagIndexingRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="StartRagIndexingResponse">
+        <soap:header message="tns:StartRagIndexingResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:StartRagIndexingResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:StartRagIndexingResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:StartRagIndexingResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

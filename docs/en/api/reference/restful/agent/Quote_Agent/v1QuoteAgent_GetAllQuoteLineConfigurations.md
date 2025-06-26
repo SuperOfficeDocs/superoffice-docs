@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 42,
-    "FieldName": "Little Group",
-    "Label": "temporibus",
-    "Tooltip": "pariatur",
+    "QuoteLineConfigurationId": 69,
+    "FieldName": "Hessel Inc and Sons",
+    "Label": "distinctio",
+    "Tooltip": "aut",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 557,
+    "Rank": 810,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 782
       }
     }
   }

@@ -130,6 +130,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropRetiredPersons
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.PersonTableInfo}._ourTable
@@ -1510,6 +1511,14 @@ references:
   name: SupportLanguage
   nameWithType: PersonExtenderBase.SupportLanguage
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_TicketPriority
+  name: TicketPriority
+  nameWithType: PersonExtenderBase.TicketPriority
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.TicketPriority
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase

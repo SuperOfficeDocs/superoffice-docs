@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kunze-Hagenes",
-    "Description": "Seamless asynchronous Graphic Interface",
+    "Name": "Rogahn-Breitenberg",
+    "Description": "Pre-emptive foreground initiative",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 354,
-        "Tooltip": "cum",
+        "Total": 865,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 488,
-        "InUse": 983,
+        "Free": 162,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 842,
-        "Name": "Auer LLC",
-        "Description": "Managed systematic array",
-        "PrerequisiteModuleName": "Beier-Bauch",
-        "SortOrder": 812,
-        "ExtraFlags": 395,
+        "ModuleLicenseId": 746,
+        "Name": "Marvin, Emard and Goodwin",
+        "Description": "Ergonomic stable moratorium",
+        "PrerequisiteModuleName": "Monahan, Legros and Fay",
+        "SortOrder": 945,
+        "ExtraFlags": 346,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldType": "System.Int32",
+            "FieldLength": 622
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 632,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 738,
-        "InUse": 467,
+        "Unrestricted": true,
+        "Total": 331,
+        "Tooltip": "quos",
+        "CanAssign": true,
+        "Free": 992,
+        "InUse": 704,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 669,
-        "Name": "Carter, Turner and Heaney",
-        "Description": "Multi-channelled client-driven monitoring",
-        "PrerequisiteModuleName": "Wuckert-McClure",
-        "SortOrder": 267,
-        "ExtraFlags": 695,
+        "Assigned": true,
+        "ModuleLicenseId": 159,
+        "Name": "Crist, Sawayn and Medhurst",
+        "Description": "Focused secondary software",
+        "PrerequisiteModuleName": "Nitzsche, Barton and Marvin",
+        "SortOrder": 802,
+        "ExtraFlags": 383,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 600
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 297
       }
     }
   },
   {
-    "Name": "Kunze-Hagenes",
-    "Description": "Seamless asynchronous Graphic Interface",
+    "Name": "Rogahn-Breitenberg",
+    "Description": "Pre-emptive foreground initiative",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 354,
-        "Tooltip": "cum",
+        "Total": 865,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 488,
-        "InUse": 983,
+        "Free": 162,
+        "InUse": 467,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 842,
-        "Name": "Auer LLC",
-        "Description": "Managed systematic array",
-        "PrerequisiteModuleName": "Beier-Bauch",
-        "SortOrder": 812,
-        "ExtraFlags": 395,
+        "ModuleLicenseId": 746,
+        "Name": "Marvin, Emard and Goodwin",
+        "Description": "Ergonomic stable moratorium",
+        "PrerequisiteModuleName": "Monahan, Legros and Fay",
+        "SortOrder": 945,
+        "ExtraFlags": 346,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldType": "System.Int32",
+            "FieldLength": 622
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 632,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 738,
-        "InUse": 467,
+        "Unrestricted": true,
+        "Total": 331,
+        "Tooltip": "quos",
+        "CanAssign": true,
+        "Free": 992,
+        "InUse": 704,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 669,
-        "Name": "Carter, Turner and Heaney",
-        "Description": "Multi-channelled client-driven monitoring",
-        "PrerequisiteModuleName": "Wuckert-McClure",
-        "SortOrder": 267,
-        "ExtraFlags": 695,
+        "Assigned": true,
+        "ModuleLicenseId": 159,
+        "Name": "Crist, Sawayn and Medhurst",
+        "Description": "Focused secondary software",
+        "PrerequisiteModuleName": "Nitzsche, Barton and Marvin",
+        "SortOrder": 802,
+        "ExtraFlags": 383,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 600
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 297
       }
     }
   }

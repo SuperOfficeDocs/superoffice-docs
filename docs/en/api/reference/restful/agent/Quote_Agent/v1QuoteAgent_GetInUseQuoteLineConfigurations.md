@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 802,
-    "FieldName": "Berge LLC",
-    "Label": "et",
-    "Tooltip": "soluta",
+    "QuoteLineConfigurationId": 483,
+    "FieldName": "Sporer-Kuhic",
+    "Label": "eveniet",
+    "Tooltip": "consequatur",
     "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 574,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 541,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 421
       }
     }
   }

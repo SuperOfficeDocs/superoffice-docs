@@ -58,7 +58,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lemke-Ortiz",
-    "DisplayName": "Braun Inc and Sons",
-    "DisplayTooltip": "corrupti",
+    "Name": "DuBuque, Ferry and Lueilwitz",
+    "DisplayName": "Hickle, Grant and Denesik",
+    "DisplayTooltip": "exercitationem",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   },
   {
-    "Name": "Lemke-Ortiz",
-    "DisplayName": "Braun Inc and Sons",
-    "DisplayTooltip": "corrupti",
+    "Name": "DuBuque, Ferry and Lueilwitz",
+    "DisplayName": "Hickle, Grant and Denesik",
+    "DisplayTooltip": "exercitationem",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   }

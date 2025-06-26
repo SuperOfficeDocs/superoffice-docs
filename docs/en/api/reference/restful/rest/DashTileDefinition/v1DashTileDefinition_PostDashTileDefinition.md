@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 999,
-  "Name": "Rippin-Stark",
-  "Description": "Open-source optimal migration",
-  "DefaultHeight": 814,
-  "DefaultWidth": 546,
+  "DashboardTileDefinitionId": 523,
+  "Name": "Bernier-Parker",
+  "Description": "Self-enabling grid-enabled forecast",
+  "DefaultHeight": 806,
+  "DefaultWidth": 788,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Crooks-O'Kon",
-  "SelectionId": 930,
+  "EntityName": "Hamill, Johns and Boehm",
+  "SelectionId": 12,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quo",
+  "CurrencyCode": "perferendis",
   "Measure": "Average",
-  "MeasureField": "tenetur",
-  "SortBy": "optio",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 948,
-  "MeasureByField": "quisquam",
+  "MeasureField": "sint",
+  "SortBy": "hic",
+  "LayoutConfig": "aspernatur",
+  "SecondarySelectionId": 941,
+  "MeasureByField": "sapiente",
   "Usage": "Dashboard",
-  "ProviderName": "Rolfson, Dach and Lubowitz"
+  "ProviderName": "Runolfsson Inc and Sons"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 748,
-  "Name": "Moen, Collins and Lehner",
-  "Description": "Total object-oriented initiative",
-  "DefaultHeight": 481,
-  "DefaultWidth": 999,
+  "DashboardTileDefinitionId": 536,
+  "Name": "Hamill, Leuschke and Veum",
+  "Description": "Focused incremental orchestration",
+  "DefaultHeight": 349,
+  "DefaultWidth": 863,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lesch-Corkery",
-  "SelectionId": 189,
+  "EntityName": "Price-Price",
+  "SelectionId": 447,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laboriosam",
+  "CurrencyCode": "distinctio",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "et",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 158,
-  "MeasureByField": "enim",
+  "MeasureField": "facilis",
+  "SortBy": "provident",
+  "LayoutConfig": "at",
+  "SecondarySelectionId": 10,
+  "MeasureByField": "atque",
   "Usage": "Dashboard",
-  "ProviderName": "Connelly-Brown",
+  "ProviderName": "Schultz, Nicolas and Swaniawski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   },
   "_Links": {

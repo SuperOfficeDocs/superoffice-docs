@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 998,
-    "Name": "Hilpert, Emmerich and Grimes",
-    "Tooltip": "quos",
-    "Rank": 265,
-    "Key": "recusandae",
+    "LegalBaseId": 113,
+    "Name": "Rutherford Group",
+    "Tooltip": "quis",
+    "Rank": 350,
+    "Key": "sunt",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

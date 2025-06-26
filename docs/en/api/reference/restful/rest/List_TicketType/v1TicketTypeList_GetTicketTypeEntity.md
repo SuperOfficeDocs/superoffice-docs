@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 781,
-  "Name": "Flatley LLC",
-  "Rank": 442,
-  "Tooltip": "aut",
-  "Icon": "blanditiis",
-  "DefaultTicketStatus": 960,
+  "TicketTypeId": 634,
+  "Name": "Waelchi Inc and Sons",
+  "Rank": 134,
+  "Tooltip": "pariatur",
+  "Icon": "ut",
+  "DefaultTicketStatus": 580,
   "TicketStatuses": [
-    392,
-    819
+    291,
+    459
   ],
-  "DefaultTicketPriority": 668,
+  "DefaultTicketPriority": 468,
   "TicketPriorities": [
-    197,
-    694
+    337,
+    742
   ],
-  "ReplyTemplate": 576,
+  "ReplyTemplate": 579,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    877,
-    838
+    78,
+    230
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 233
     }
   }
 }

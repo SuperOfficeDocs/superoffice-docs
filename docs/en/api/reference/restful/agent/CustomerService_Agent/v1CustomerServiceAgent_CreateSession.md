@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "quisquam"
+  "RemoteIp": "laudantium"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "LoginId": 695,
-  "UserId": 75,
+  "Key": "earum",
+  "LoginId": 749,
+  "UserId": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldLength": 494
     }
   }
 }

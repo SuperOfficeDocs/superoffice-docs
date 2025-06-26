@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=aut
+GET /api/v1/List/DeliveryType/MDOItems?query=ipsa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Kerluke-Spinka",
-    "ToolTip": "Alias nisi autem aliquam dolor ab aut.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "blanditiis",
+    "Id": 273,
+    "Name": "Torp LLC",
+    "ToolTip": "Dolorem quis quia quia.",
+    "Deleted": false,
+    "Rank": 236,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Kuhlman LLC",
-        "ToolTip": "Eum quam tempore enim quisquam nesciunt blanditiis.",
+        "Id": 599,
+        "Name": "Labadie-Boyer",
+        "ToolTip": "Sint eum harum laudantium sapiente sit voluptatem odit.",
         "Deleted": false,
-        "Rank": 406,
-        "Type": "repellat",
+        "Rank": 719,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 969,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "dolore",
-        "FullName": "Mr. Martin Napoleon Koch DVM",
+        "IconHint": "adipisci",
+        "ColorBlock": 623,
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatum",
+        "FullName": "Carleton Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 858
+            "FieldType": "System.String",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 551,
-    "ExtraInfo": "iste",
-    "StyleHint": "hic",
-    "FullName": "Dolly Goyette",
+    "IconHint": "eveniet",
+    "ColorBlock": 484,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "voluptas",
+    "FullName": "Hardy Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldLength": 78
       }
     }
   }

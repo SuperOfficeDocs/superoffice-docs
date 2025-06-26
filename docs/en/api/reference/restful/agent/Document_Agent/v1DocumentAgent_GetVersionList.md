@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 865
+  "DocumentId": 729
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "dolorem",
-    "DocumentId": 681,
-    "VersionId": "enim",
-    "CheckedInDate": "2018-08-24T17:54:03.0233364+02:00",
-    "CheckedInByName": "McCullough Inc and Sons",
-    "CheckedInByAssociateId": 334,
-    "Description": "Object-based incremental capacity",
-    "DisplayText": "repudiandae",
+    "ExternalReference": "autem",
+    "DocumentId": 156,
+    "VersionId": "ab",
+    "CheckedInDate": "2001-05-11T03:45:23.3423327+02:00",
+    "CheckedInByName": "Gleichner, Weber and Halvorson",
+    "CheckedInByAssociateId": 213,
+    "Description": "Focused regional success",
+    "DisplayText": "voluptates",
     "ExtraFields": [
-      "ea",
-      "omnis"
+      "enim",
+      "qui"
     ]
   }
 ]

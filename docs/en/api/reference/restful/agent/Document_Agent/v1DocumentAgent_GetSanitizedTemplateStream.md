@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Batz, McCullough and Jaskolski",
+  "TemplateName": "Williamson-Emmerich",
   "AllowPersonal": true,
-  "UiCulture": "minima"
+  "UiCulture": "nobis"
 }
 ```
 

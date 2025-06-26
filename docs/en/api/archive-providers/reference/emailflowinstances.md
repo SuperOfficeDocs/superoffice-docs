@@ -505,7 +505,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=person/hasInfoText,person/personHasInterests,contact/postAddress/line1
+GET /api/v1/archive/EmailFlowInstances?$select=contact/streetAddress/line2,contact/contactUdef/SuperOffice:4,person/personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

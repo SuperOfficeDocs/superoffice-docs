@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "nisi",
-    "eveniet"
+    "sapiente",
+    "libero"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "hic",
+    "Label": "possimus",
     "Values": [
       {
-        "Label": "error",
-        "Value": 2043.368,
-        "Description": "Assimilated mission-critical workforce",
+        "Label": "laboriosam",
+        "Value": 5760.2919999999995,
+        "Description": "Persistent national collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 274
           }
         }
       },
       {
-        "Label": "error",
-        "Value": 2043.368,
-        "Description": "Assimilated mission-critical workforce",
+        "Label": "laboriosam",
+        "Value": 5760.2919999999995,
+        "Description": "Persistent national collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 274
           }
         }
       }
     ],
-    "Description": "Multi-lateral empowering software",
+    "Description": "Pre-emptive web-enabled groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldLength": 761
       }
     }
   },
   {
-    "Label": "hic",
+    "Label": "possimus",
     "Values": [
       {
-        "Label": "error",
-        "Value": 2043.368,
-        "Description": "Assimilated mission-critical workforce",
+        "Label": "laboriosam",
+        "Value": 5760.2919999999995,
+        "Description": "Persistent national collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 274
           }
         }
       },
       {
-        "Label": "error",
-        "Value": 2043.368,
-        "Description": "Assimilated mission-critical workforce",
+        "Label": "laboriosam",
+        "Value": 5760.2919999999995,
+        "Description": "Persistent national collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 274
           }
         }
       }
     ],
-    "Description": "Multi-lateral empowering software",
+    "Description": "Pre-emptive web-enabled groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldLength": 761
       }
     }
   }

@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 613,
+    "HierarchyId": 608,
     "Domain": "Dashboards",
-    "Name": "Gutkowski-Kuphal",
-    "Fullname": "rerum",
-    "ParentId": 910,
+    "Name": "Johnston-Jakubowski",
+    "Fullname": "voluptatem",
+    "ParentId": 122,
     "Children": [
       {
-        "HierarchyId": 857,
+        "HierarchyId": 672,
         "Domain": "Dashboards",
-        "Name": "Kling Inc and Sons",
-        "Fullname": "excepturi",
-        "ParentId": 361,
+        "Name": "Wolf-Breitenberg",
+        "Fullname": "est",
+        "ParentId": 687,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2011-09-13T17:54:08.2574567+02:00",
-        "RegisteredAssociateId": 898,
-        "Updated": "2005-10-03T17:54:08.2574567+02:00",
-        "UpdatedAssociateId": 343,
+        "Registered": "2009-06-11T03:45:28.3734363+02:00",
+        "RegisteredAssociateId": 959,
+        "Updated": "1998-02-16T03:45:28.3734363+01:00",
+        "UpdatedAssociateId": 51,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldLength": 80
           }
         }
       }
     ],
-    "Registered": "2005-03-05T17:54:08.2574567+01:00",
-    "RegisteredAssociateId": 391,
-    "Updated": "2014-08-19T17:54:08.2574567+02:00",
-    "UpdatedAssociateId": 539,
+    "Registered": "2014-11-26T03:45:28.3734363+01:00",
+    "RegisteredAssociateId": 873,
+    "Updated": "2003-08-27T03:45:28.3734363+02:00",
+    "UpdatedAssociateId": 650,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

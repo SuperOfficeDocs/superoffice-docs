@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 10 Jun 2003 17:54:08 G6T
+Last-Modified: Mon, 17 Aug 1998 03:45:28 G8T
 
 {
-  "BlobId": 755,
-  "BlobSize": 559,
-  "Description": "Polarised zero tolerance system engine",
-  "ExtraInfo": "sunt",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "qui",
-  "OriginalSize": 77,
-  "CreatedDate": "2002-11-03T17:54:08.4136991+01:00",
-  "UpdatedDate": "2003-06-10T17:54:08.4136991+02:00",
+  "BlobId": 544,
+  "BlobSize": 33,
+  "Description": "Seamless homogeneous emulation",
+  "ExtraInfo": "quaerat",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "quis",
+  "OriginalSize": 622,
+  "CreatedDate": "2019-08-14T03:45:28.5296817+02:00",
+  "UpdatedDate": "1998-08-17T03:45:28.5296817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptas",
+  "ConceptualType": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 408
     }
   }
 }

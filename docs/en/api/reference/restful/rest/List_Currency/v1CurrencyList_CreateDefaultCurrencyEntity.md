@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 532,
-  "Name": "Parisian-Kris",
-  "Tooltip": "doloremque",
-  "Rank": 375,
-  "Rate": 17265.206,
-  "Units": 11225.988,
-  "Deleted": false,
+  "CurrencyId": 619,
+  "Name": "Hyatt, Kohler and Cruickshank",
+  "Tooltip": "aspernatur",
+  "Rank": 692,
+  "Rate": 13726.92,
+  "Units": 9260.97,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

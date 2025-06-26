@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Botsford-Rogahn"
+  "Name": "Rosenbaum-Wiegand"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Nienow, Steuber and Tremblay",
-    "ToolTip": "Qui eos repellendus molestiae quas.",
+    "Id": 356,
+    "Name": "Hauck, Upton and Kuhic",
+    "ToolTip": "Neque qui modi ratione.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "porro",
-    "ColorBlock": 180,
-    "IconHint": "pariatur",
-    "Selected": false,
-    "LastChanged": "2020-12-18T17:54:03.3358211+01:00",
+    "Rank": 381,
+    "Type": "veritatis",
+    "ColorBlock": 438,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "1999-05-24T03:45:23.6391999+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "VonRueden, Ruecker and Orn",
-        "ToolTip": "Odio blanditiis quam eligendi itaque.",
+        "Id": 352,
+        "Name": "Padberg LLC",
+        "ToolTip": "Odio rerum et explicabo consequatur iste.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "nemo",
-        "ColorBlock": 675,
-        "IconHint": "quos",
+        "Rank": 924,
+        "Type": "esse",
+        "ColorBlock": 75,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "2002-09-01T17:54:03.3358211+02:00",
+        "LastChanged": "2000-02-28T03:45:23.6391999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Hudson Mayert",
+        "ExtraInfo": "facilis",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Miss Arvel Marks Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Alessandra Reynolds",
+    "FullName": "Arely Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldLength": 565
       }
     }
   }

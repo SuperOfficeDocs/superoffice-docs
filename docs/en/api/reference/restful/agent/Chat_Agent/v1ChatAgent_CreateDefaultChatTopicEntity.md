@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 28,
-  "Name": "Schmitt Inc and Sons",
-  "Description": "Distributed zero administration function",
-  "WelcomeMessage": "vitae",
+  "ChatTopicId": 200,
+  "Name": "Heaney, Keebler and Romaguera",
+  "Description": "Switchable multi-state leverage",
+  "WelcomeMessage": "sit",
   "Language": null,
-  "LastAccept": "2002-12-14T17:54:02.6952273+01:00",
-  "SecondsPrAccept": 762,
-  "AlertRecipient": "magnam",
+  "LastAccept": "2021-01-22T03:45:23.0142166+01:00",
+  "SecondsPrAccept": 330,
+  "AlertRecipient": "illo",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "officia",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "voluptatibus",
-  "WarnNewChatMinutes": 380,
-  "WarnManagerNewChatMinutes": 794,
+  "BadgeHeader": "ut",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "necessitatibus",
+  "WarnNewChatMinutes": 765,
+  "WarnManagerNewChatMinutes": 610,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 873,
-  "WarnManagerChatMessageMinutes": 167,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 56,
+  "WarnManagerChatMessageMinutes": 78,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 990,
-  "OfflineFormQueueLength": 555,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "OfflineFormTimeLimit": 751,
+  "OfflineFormQueueLength": 963,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

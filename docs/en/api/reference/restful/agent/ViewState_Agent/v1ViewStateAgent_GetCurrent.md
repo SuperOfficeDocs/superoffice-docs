@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Deckow Group"
+  "HistoryName": "Hoppe LLC"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 414,
-  "Id": 371,
-  "HistoryName": "Marvin-Sporer",
-  "HistoryId": 259,
-  "AssociateId": 289,
-  "Name": "Pouros LLC",
-  "ItemInfo": "facilis",
+  "Rank": 276,
+  "Id": 73,
+  "HistoryName": "Buckridge-Wolf",
+  "HistoryId": 379,
+  "AssociateId": 83,
+  "Name": "Ryan, Hansen and Harvey",
+  "ItemInfo": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

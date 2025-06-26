@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 741
+  "QuickReplyId": 158
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cartwright Group",
-  "UpdatedByFullName": "Aron Corwin",
-  "Updated": "2005-12-20T17:54:02.9295831+01:00",
-  "HtmlBody": "qui",
+  "Name": "Hayes LLC",
+  "UpdatedByFullName": "Ally Hoeger",
+  "Updated": "2001-02-20T03:45:23.2485827+01:00",
+  "HtmlBody": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

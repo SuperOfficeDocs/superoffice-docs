@@ -743,7 +743,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/CancelledInvitation?$select=type,joinVideomeetUrl,person/useAsMailingAddress,sale/recordType,associate/assocTooltip
+GET /api/v1/archive/CancelledInvitation?$select=contact/name,contact/hasInfoText,person/personExtra/y_car/id,project/updatedDate,project/projectAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

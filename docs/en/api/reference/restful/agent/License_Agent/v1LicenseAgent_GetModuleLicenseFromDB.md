@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kunde, Jewess and Herzog",
-  "ModuleName": "Mraz Inc and Sons"
+  "OwnerName": "Balistreri, King and Greenfelder",
+  "ModuleName": "Pacocha LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dickens LLC",
-  "ModuleName": "Bauch-Murray",
-  "ModuleDescription": "Open-architected asynchronous info-mediaries",
-  "ModuleTooltip": "nobis",
-  "ModuleVersion": "distinctio",
+  "OwnerName": "Hane, Senger and Williamson",
+  "ModuleName": "Goodwin, Mann and Fisher",
+  "ModuleDescription": "Optional cohesive portal",
+  "ModuleTooltip": "incidunt",
+  "ModuleVersion": "mollitia",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 408,
-  "ExtraFlags": 885,
-  "ExtraInfo": "ut",
-  "SortOrder": 125,
+  "NumberOfLicenses": 930,
+  "ExtraFlags": 170,
+  "ExtraInfo": "exercitationem",
+  "SortOrder": 119,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Crist-Fahey",
-  "Signature": "atque"
+  "PrerequisiteModuleName": "Bauch LLC",
+  "Signature": "enim"
 }
 ```

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 682,
-  "Name": "Anderson LLC",
-  "Tooltip": "qui",
-  "Rank": 966,
+  "ProjTypeId": 593,
+  "Name": "Nicolas, Kautzer and D'Amore",
+  "Tooltip": "amet",
+  "Rank": 899,
   "DurationUnit": "Century",
-  "ProjectDuration": 381,
+  "ProjectDuration": 535,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 481,
-      "Name": "Schmitt LLC",
-      "ToolTip": "Consequatur ut saepe ea.",
-      "Deleted": true,
-      "Rank": 933,
-      "Type": "quam",
-      "ColorBlock": 211,
-      "IconHint": "rem",
-      "Selected": false,
-      "LastChanged": "2025-02-11T17:54:03.3045907+01:00",
+      "Id": 898,
+      "Name": "Hilll Inc and Sons",
+      "ToolTip": "Dolores libero consectetur deleniti voluptas.",
+      "Deleted": false,
+      "Rank": 847,
+      "Type": "in",
+      "ColorBlock": 930,
+      "IconHint": "repellat",
+      "Selected": true,
+      "LastChanged": "2000-03-08T03:45:23.6079553+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "commodi",
-      "Hidden": false,
-      "FullName": "Estell Mueller",
+      "ExtraInfo": "autem",
+      "StyleHint": "odit",
+      "Hidden": true,
+      "FullName": "Ms. Jeanie Legros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 57
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 564
     }
   }
 }

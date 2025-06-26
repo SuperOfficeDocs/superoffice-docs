@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 586,
-  "Name": "Ward-Schiller",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 884,
+  "WebPanelId": 770,
+  "Name": "Doyle-Hills",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 889,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Yost Group",
+  "WindowName": "Hyatt-Murazik",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 823,
+  "ProgId": "sit",
+  "Icon": 179,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 724
     }
   }
 }

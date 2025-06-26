@@ -77,15 +77,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 643,
-  "AssociateId": 368,
+  "DocumentId": 233,
+  "AssociateId": 113,
   "CustomTags": [
-    "eveniet",
-    "qui"
+    "tempore",
+    "suscipit"
   ],
   "CustomValues": [
-    "vel",
-    "perspiciatis"
+    "explicabo",
+    "sed"
   ]
 }
 ```

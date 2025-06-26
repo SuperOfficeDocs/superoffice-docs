@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Hane-Hayes",
-    "Tooltip": "eius",
+    "HeadingId": 681,
+    "Name": "Bergnaum-Stracke",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 278
+    "Rank": 332,
+    "UdListDefinitionId": 917
   },
   {
-    "HeadingId": 328,
-    "Name": "Hane-Hayes",
-    "Tooltip": "eius",
+    "HeadingId": 681,
+    "Name": "Bergnaum-Stracke",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 278
+    "Rank": 332,
+    "UdListDefinitionId": 917
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 908,
-    "Name": "Ziemann LLC",
-    "Tooltip": "reiciendis",
+    "HeadingId": 179,
+    "Name": "Kautzer, Schiller and Parker",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 259,
-    "UdListDefinitionId": 495,
+    "Rank": 505,
+    "UdListDefinitionId": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

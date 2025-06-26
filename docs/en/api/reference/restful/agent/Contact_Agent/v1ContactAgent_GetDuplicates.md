@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Casper LLC"
+  "Name": "Wilderman Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kautzer-Murray",
-    "SoPrimaryKey": 734,
-    "EntryName": "Heidenreich-Jenkins",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Leffler Group",
+    "RuleName": "D'Amore, Mayert and Dibbert",
+    "SoPrimaryKey": 9,
+    "EntryName": "Jacobi LLC",
+    "EntryIdentifier": "nesciunt",
+    "RuleDisplayName": "Carter, Mosciski and Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 669
       }
     }
   }

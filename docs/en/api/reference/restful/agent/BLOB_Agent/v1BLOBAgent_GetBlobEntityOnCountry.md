@@ -89,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 690
+  "CountryId": 934
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 928,
-  "BlobSize": 581,
-  "Description": "Persistent bi-directional groupware",
-  "ExtraInfo": "et",
+  "BlobId": 872,
+  "BlobSize": 225,
+  "Description": "Synergized object-oriented toolset",
+  "ExtraInfo": "minima",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 230,
-  "CreatedDate": "2011-07-20T17:54:02.6796032+02:00",
-  "UpdatedDate": "2006-05-01T17:54:02.6796032+02:00",
+  "MimeType": "quo",
+  "OriginalSize": 941,
+  "CreatedDate": "2019-11-09T03:45:22.9985914+01:00",
+  "UpdatedDate": "2002-12-20T03:45:22.9985914+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "hic",
+  "ConceptualType": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 566
     }
   }
 }

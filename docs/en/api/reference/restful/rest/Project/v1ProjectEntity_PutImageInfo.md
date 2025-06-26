@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=395
+PUT /api/v1/Project/{id}/ImageInfo?projectId=481
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 223,
-  "BlobSize": 656,
-  "Description": "Reduced grid-enabled synergy",
-  "ExtraInfo": "omnis",
-  "IsEncrypted": true,
+  "BlobId": 13,
+  "BlobSize": 921,
+  "Description": "Virtual local orchestration",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 454,
-  "CreatedDate": "2001-12-20T17:54:08.4136991+01:00",
-  "UpdatedDate": "2017-08-01T17:54:08.4136991+02:00",
+  "MimeType": "earum",
+  "OriginalSize": 196,
+  "CreatedDate": "2000-10-04T03:45:28.5296817+02:00",
+  "UpdatedDate": "2021-03-23T03:45:28.5296817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cum"
+  "ConceptualType": "amet"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 194,
-  "BlobSize": 414,
-  "Description": "Quality-focused asynchronous orchestration",
-  "ExtraInfo": "expedita",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 446,
-  "CreatedDate": "2022-07-24T17:54:08.4136991+02:00",
-  "UpdatedDate": "2001-03-12T17:54:08.4136991+01:00",
+  "BlobId": 354,
+  "BlobSize": 766,
+  "Description": "Diverse multi-state parallelism",
+  "ExtraInfo": "eius",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "in",
+  "OriginalSize": 798,
+  "CreatedDate": "2008-11-15T03:45:28.5296817+01:00",
+  "UpdatedDate": "1998-12-03T03:45:28.5296817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 104
     }
   }
 }

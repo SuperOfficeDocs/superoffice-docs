@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 929,
-    "Name": "VonRueden, D'Amore and Kerluke",
-    "Tooltip": "ipsam",
+    "HeadingId": 363,
+    "Name": "Krajcik, Gerhold and Bayer",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 834,
-    "UdListDefinitionId": 897
+    "Rank": 356,
+    "UdListDefinitionId": 359
   },
   {
-    "HeadingId": 929,
-    "Name": "VonRueden, D'Amore and Kerluke",
-    "Tooltip": "ipsam",
+    "HeadingId": 363,
+    "Name": "Krajcik, Gerhold and Bayer",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 834,
-    "UdListDefinitionId": 897
+    "Rank": 356,
+    "UdListDefinitionId": 359
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 542,
-    "Name": "Paucek, McCullough and Lockman",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 690,
-    "UdListDefinitionId": 920,
+    "HeadingId": 87,
+    "Name": "Daugherty Group",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 176,
+    "UdListDefinitionId": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 140
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 635,
-  "ParentId": 653,
-  "Name": "Moore, Muller and Streich",
+  "TicketCategoryId": 143,
+  "ParentId": 154,
+  "Name": "Stiedemann, Ward and Gottlieb",
   "Fullname": "et",
-  "CategoryMaster": 997,
+  "CategoryMaster": 227,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Green, Thiel and Larson",
+  "ExternalName": "Feeney, Cartwright and Stamm",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 771,
-  "ReplyTemplate": 303,
-  "NotificationEmail": "billy@turner.com",
+  "AssignmentLag": 83,
+  "ReplyTemplate": 339,
+  "NotificationEmail": "jazmyn@hegmann.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 901,
+  "EffectiveReplyTemplateId": 27,
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sed"
+    "CustomFields1": "corporis",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 513
     }
   }
 }

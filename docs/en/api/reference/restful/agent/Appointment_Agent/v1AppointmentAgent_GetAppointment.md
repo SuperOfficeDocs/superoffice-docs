@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=181
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=563
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,66 +130,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 651,
-  "StartDate": "2015-03-27T17:54:02.4296158+01:00",
-  "EndDate": "2017-04-25T17:54:02.4296158+02:00",
+  "AppointmentId": 82,
+  "StartDate": "2013-06-17T03:45:22.7486003+02:00",
+  "EndDate": "2002-07-25T03:45:22.7486003+02:00",
   "Type": "BookingForChecklist",
-  "Task": "assumenda",
-  "AssociateFullName": "Antonietta Rocky Weimann PhD",
-  "ContactName": "Emard, Hansen and Goodwin",
-  "Description": "Managed 3rd generation project",
-  "PersonFullName": "Dr. Bernard Considine",
-  "PersonId": 242,
-  "ContactId": 198,
-  "ProjectId": 440,
-  "ProjectName": "Mosciski-Kreiger",
-  "IsPublished": true,
-  "AssociateId": 124,
-  "ColorIndex": 615,
-  "IsFree": false,
-  "HasAlarm": true,
+  "Task": "officia",
+  "AssociateFullName": "Georgianna Sunny Russel IV",
+  "ContactName": "Cummerata, Jakubowski and Fadel",
+  "Description": "Up-sized actuating leverage",
+  "PersonFullName": "Aaliyah Hailee Streich Jr.",
+  "PersonId": 181,
+  "ContactId": 1000,
+  "ProjectId": 976,
+  "ProjectName": "Erdman Group",
+  "IsPublished": false,
+  "AssociateId": 326,
+  "ColorIndex": 909,
+  "IsFree": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 583,
-  "PriorityName": "Hyatt LLC",
+  "PriorityId": 78,
+  "PriorityName": "Hermiston Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2021-07-23T17:54:02.4296158+02:00",
+  "ActiveDate": "2017-08-28T03:45:22.7486003+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1999-07-11T17:54:02.4296158+02:00",
-  "RecurringEndDate": "2003-08-08T17:54:02.4296158+02:00",
-  "MotherId": 922,
-  "AssignedBy": 411,
-  "AssignedByFullName": "Orion Bahringer",
+  "RecurringStartDate": "2000-01-11T03:45:22.7486003+01:00",
+  "RecurringEndDate": "2018-08-17T03:45:22.7486003+02:00",
+  "MotherId": 642,
+  "AssignedBy": 112,
+  "AssignedByFullName": "Jasen Moore",
   "RejectReason": "",
-  "Location": "natus",
-  "AlarmLeadTime": "reprehenderit",
-  "SaleId": 807,
-  "SaleName": "Jaskolski, Strosin and Hyatt",
-  "AssociateName": "Hammes, Strosin and Prosacco",
-  "CreatedDate": "2003-06-02T17:54:02.4296158+02:00",
-  "CreatedBy": "ea",
-  "CreatedByFullName": "Arturo Herzog",
-  "CreatedByAssociateId": 152,
+  "Location": "blanditiis",
+  "AlarmLeadTime": "ad",
+  "SaleId": 669,
+  "SaleName": "Ritchie Group",
+  "AssociateName": "Hoppe-Spinka",
+  "CreatedDate": "2017-05-29T03:45:22.7486003+02:00",
+  "CreatedBy": "omnis",
+  "CreatedByFullName": "Mr. Orlo Rodriguez MD",
+  "CreatedByAssociateId": 605,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 369,
-  "Title": "repellat",
-  "Agenda": "qui",
-  "InternalNotes": "dolor",
+  "PreferredTZLocation": 696,
+  "Title": "harum",
+  "Agenda": "exercitationem",
+  "InternalNotes": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

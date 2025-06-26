@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Hagenes-Brown",
-    "ToolTip": "Voluptatem laborum fugit commodi dolor iste.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "quia",
-    "ColorBlock": 355,
+    "Id": 423,
+    "Name": "Wilderman-Davis",
+    "ToolTip": "Ipsam placeat.",
+    "Deleted": true,
+    "Rank": 479,
+    "Type": "vero",
+    "ColorBlock": 921,
     "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2003-09-01T17:54:09.1168029+02:00",
+    "LastChanged": "2002-07-15T03:45:29.2171623+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Zieme LLC",
-        "ToolTip": "Autem beatae aliquam magnam dolore architecto corporis ipsum.",
-        "Deleted": false,
-        "Rank": 956,
-        "Type": "enim",
-        "ColorBlock": 675,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2006-07-29T17:54:09.1168029+02:00",
+        "Id": 432,
+        "Name": "Gutkowski-Stamm",
+        "ToolTip": "Fugiat quasi ut accusantium modi.",
+        "Deleted": true,
+        "Rank": 602,
+        "Type": "qui",
+        "ColorBlock": 323,
+        "IconHint": "amet",
+        "Selected": true,
+        "LastChanged": "2017-09-02T03:45:29.2171623+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "et",
+        "ExtraInfo": "repellat",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Ms. Rogers Lind MD"
+        "FullName": "Mr. Devan Natalie Lebsack"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "unde",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Chasity Prohaska"
+    "FullName": "Jerrod McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Jewess LLC",
-    "ToolTip": "Explicabo molestiae eius ut perferendis eum.",
-    "Deleted": false,
-    "Rank": 472,
-    "Type": "nulla",
-    "ColorBlock": 425,
-    "IconHint": "eum",
+    "Id": 188,
+    "Name": "Lehner LLC",
+    "ToolTip": "Rerum quod consequatur asperiores nesciunt quos quam.",
+    "Deleted": true,
+    "Rank": 525,
+    "Type": "dolor",
+    "ColorBlock": 103,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2008-07-02T17:54:09.1168029+02:00",
+    "LastChanged": "2019-02-07T03:45:29.2171623+01:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Rohan, Corkery and Fritsch",
-        "ToolTip": "Aut non commodi ullam quis aut officiis.",
+        "Id": 219,
+        "Name": "Howe, Franecki and Lindgren",
+        "ToolTip": "Dolorem quae aut.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "laboriosam",
-        "ColorBlock": 957,
-        "IconHint": "laudantium",
+        "Rank": 910,
+        "Type": "nihil",
+        "ColorBlock": 46,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "1999-10-30T17:54:09.1168029+02:00",
+        "LastChanged": "2025-01-11T03:45:29.2171623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Missouri Kreiger",
+        "ExtraInfo": "dolore",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Monica Haleigh Swift Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 428
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Hunter McClure",
+    "FullName": "Rebeca Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 362
       }
     }
   }

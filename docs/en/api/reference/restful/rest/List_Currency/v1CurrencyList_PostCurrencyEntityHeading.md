@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 109,
-  "Name": "Gaylord Inc and Sons",
-  "Tooltip": "deleniti",
+  "HeadingId": 381,
+  "Name": "Hoeger, Donnelly and Bernier",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 240,
-  "UdListDefinitionId": 681
+  "Rank": 724,
+  "UdListDefinitionId": 316
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 892,
-  "Name": "Kuhn, McKenzie and Barrows",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 365,
-  "UdListDefinitionId": 91,
+  "HeadingId": 893,
+  "Name": "Bode Group",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 403,
+  "UdListDefinitionId": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldLength": 407
     }
   }
 }

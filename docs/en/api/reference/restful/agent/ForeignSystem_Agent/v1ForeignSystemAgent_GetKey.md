@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schamberger-Rau",
-  "DeviceName": "Toy, Stroman and Klein",
-  "KeyName": "Strosin-Flatley",
-  "TableName": "Kessler-Williamson",
-  "RecordId": 583
+  "ApplicationName": "Hagenes Group",
+  "DeviceName": "Wyman-Mitchell",
+  "KeyName": "Yost LLC",
+  "TableName": "Cormier, Ortiz and Blick",
+  "RecordId": 290
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "odit",
+  "Key": "magni",
   "Value": "et",
-  "RecordId": 899,
-  "CreatedDate": "2023-11-30T17:54:03.1639551+01:00",
-  "UpdatedDate": "2022-05-15T17:54:03.1639551+02:00",
-  "UpdatedBy": "ipsam",
-  "CreatedBy": "eos",
-  "TableName": "Upton LLC",
+  "RecordId": 56,
+  "CreatedDate": "2021-09-18T03:45:23.4829546+02:00",
+  "UpdatedDate": "2020-07-16T03:45:23.4829546+02:00",
+  "UpdatedBy": "ipsa",
+  "CreatedBy": "quisquam",
+  "TableName": "Wiegand Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

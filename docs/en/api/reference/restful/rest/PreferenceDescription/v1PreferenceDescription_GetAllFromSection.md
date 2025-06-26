@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 997,
-    "Section": "facere",
-    "Key": "reiciendis",
-    "Name": "Smitham, Lynch and Crona",
+    "PrefDescId": 498,
+    "Section": "similique",
+    "Key": "fuga",
+    "Name": "Koss, Bailey and Schmidt",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Monitored impactful approach",
-    "IsBuiltin": false,
-    "TableName": "Reynolds Inc and Sons",
-    "UserDefinedListId": 608,
-    "Rank": 974,
-    "SubGroup": "et",
-    "MinLevel": 693,
-    "MaxValue": 552,
-    "MinValue": 992,
-    "RequiredLicense": "consequatur",
+    "Description": "Digitized executive implementation",
+    "IsBuiltin": true,
+    "TableName": "Bosco, Effertz and Dickens",
+    "UserDefinedListId": 645,
+    "Rank": 822,
+    "SubGroup": "sed",
+    "MinLevel": 452,
+    "MaxValue": 107,
+    "MinValue": 619,
+    "RequiredLicense": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

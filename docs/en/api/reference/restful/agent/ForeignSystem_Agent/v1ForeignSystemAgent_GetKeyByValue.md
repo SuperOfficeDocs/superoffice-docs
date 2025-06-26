@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gaylord Group",
-  "DeviceName": "Waters-Becker",
-  "KeyName": "Grant, Koelpin and Kautzer",
-  "KeyValue": "sit",
-  "TableName": "Schaefer-Bergstrom"
+  "ApplicationName": "Towne, Heller and Frami",
+  "DeviceName": "Hagenes Inc and Sons",
+  "KeyName": "Effertz-Koelpin",
+  "KeyValue": "omnis",
+  "TableName": "Hirthe LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "sit",
-  "RecordId": 964,
-  "CreatedDate": "2013-03-23T17:54:03.1639551+01:00",
-  "UpdatedDate": "2021-05-22T17:54:03.1639551+02:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "vitae",
-  "TableName": "Ankunding, Hodkiewicz and Gulgowski",
+  "Key": "doloribus",
+  "Value": "dolorem",
+  "RecordId": 473,
+  "CreatedDate": "2010-01-01T03:45:23.4829546+01:00",
+  "UpdatedDate": "1999-04-27T03:45:23.4829546+02:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "totam",
+  "TableName": "Mante LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 499
     }
   }
 }

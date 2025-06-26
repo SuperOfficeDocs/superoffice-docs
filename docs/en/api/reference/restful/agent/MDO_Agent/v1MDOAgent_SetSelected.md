@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms-Bradtke",
-  "AdditionalInfo": "sed",
+  "Name": "Kilback-Schinner",
+  "AdditionalInfo": "veniam",
   "SelectableMDOList": [
     {
-      "Id": 283,
-      "Name": "Kozey-Nienow",
-      "ToolTip": "Est rerum.",
+      "Id": 267,
+      "Name": "Berge, Ziemann and Barrows",
+      "ToolTip": "Perspiciatis possimus molestias animi qui.",
       "Deleted": false,
-      "Rank": 222,
-      "Type": "et",
-      "ColorBlock": 855,
-      "IconHint": "aut",
+      "Rank": 143,
+      "Type": "quis",
+      "ColorBlock": 741,
+      "IconHint": "dignissimos",
       "Selected": false,
-      "LastChanged": "2017-08-30T17:54:03.3358211+02:00",
+      "LastChanged": "1998-04-22T03:45:23.6391999+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "delectus",
+      "ExtraInfo": "quaerat",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Darrick Eldridge Rolfson I"
+      "FullName": "Nasir Lang II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Stracke, Skiles and Hirthe",
-    "ToolTip": "Minus vitae vel veritatis mollitia molestiae.",
+    "Id": 109,
+    "Name": "Simonis, Torp and Fay",
+    "ToolTip": "Eveniet saepe autem possimus perferendis nemo eos.",
     "Deleted": true,
-    "Rank": 689,
-    "Type": "similique",
-    "ColorBlock": 102,
-    "IconHint": "iste",
+    "Rank": 145,
+    "Type": "sapiente",
+    "ColorBlock": 990,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2017-05-19T17:54:03.3358211+02:00",
+    "LastChanged": "2019-04-16T03:45:23.6391999+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Hickle-Schinner",
-        "ToolTip": "Tempora consequuntur ut velit.",
-        "Deleted": false,
-        "Rank": 314,
-        "Type": "suscipit",
-        "ColorBlock": 441,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2003-07-15T17:54:03.3358211+02:00",
+        "Id": 581,
+        "Name": "Leannon, Collier and Russel",
+        "ToolTip": "Tenetur amet quisquam suscipit nisi molestiae autem culpa.",
+        "Deleted": true,
+        "Rank": 360,
+        "Type": "necessitatibus",
+        "ColorBlock": 120,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2012-04-11T03:45:23.6391999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Prof. Verlie Willms PhD",
+        "ExtraInfo": "itaque",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Tressie Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 653
+            "FieldLength": 529
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "enim",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Jovani Becker",
+    "FullName": "Isobel Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 337
       }
     }
   }

@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined exuding encoding",
-  "Postit": "qui",
+  "Description": "Sharable multimedia knowledge user",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 740,
-  "IncludePerson": 616,
+  "GroupIdx": 554,
+  "IncludePerson": 168,
   "MemberCount": 99.99,
-  "Name": "Fay-Carroll",
-  "PostitTextId": 37,
-  "CreatedDate": "2021-10-04T17:54:08.5386928+02:00",
-  "SelectionId": 981,
-  "SoundEx": "sed",
-  "Source": 22,
-  "TextId": 899,
-  "UpdatedDate": "2011-09-08T17:54:08.5386928+02:00",
-  "UpdatedCount": 351,
-  "Visibility": 429,
+  "Name": "Ruecker-Streich",
+  "PostitTextId": 629,
+  "CreatedDate": "2002-05-05T03:45:28.6546813+02:00",
+  "SelectionId": 90,
+  "SoundEx": "a",
+  "Source": 965,
+  "TextId": 104,
+  "UpdatedDate": "2011-09-20T03:45:28.6546813+02:00",
+  "UpdatedCount": 323,
+  "Visibility": 382,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 127,
-  "TargetTableName": "Stamm-Romaguera",
+  "CompanyUnique": true,
+  "TargetTableNumber": 344,
+  "TargetTableName": "Bernier Group",
   "Completed": true,
-  "LeftSelectionId": 885,
-  "RightSelectionId": 4,
+  "LeftSelectionId": 615,
+  "RightSelectionId": 263,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lang-Lockman",
-  "ShadowProviderName": "Bergnaum LLC",
-  "ChartKey": "aut",
-  "LastLoaded": "2010-01-01T17:54:08.5386928+01:00",
-  "LastLoadedBy": 525,
+  "MainProviderName": "Koepp, Lang and Kohler",
+  "ShadowProviderName": "Cummings-Hackett",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2006-06-23T03:45:28.6546813+02:00",
+  "LastLoadedBy": 495,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-06-17T17:54:08.5386928+02:00",
-  "LastMembershipChangeBy": 478,
+  "LastMembershipChange": "2004-06-20T03:45:28.6546813+02:00",
+  "LastMembershipChangeBy": 517,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "autem",
-  "MailingsProviderName": "Heller LLC",
-  "DashboardTileDefinitionId": 60,
+  "MainHeading": "nostrum",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Strosin-Tillman",
+  "DashboardTileDefinitionId": 822,
   "VisibleFor": [
     {
-      "VisibleId": 958,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 837
         }
       }
     },
     {
-      "VisibleId": 958,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 837
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 342
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

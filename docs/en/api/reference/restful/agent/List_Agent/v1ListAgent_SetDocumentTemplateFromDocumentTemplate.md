@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 283,
+  "SourceDocumentTemplateId": 86,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 956,
-  "Name": "Morar LLC",
-  "Tooltip": "error",
-  "SaveInDb": 926,
-  "Filename": "architecto",
-  "DefaultOref": "quas",
+  "DocumentTemplateId": 209,
+  "Name": "Carter, Turcotte and Corwin",
+  "Tooltip": "hic",
+  "SaveInDb": 534,
+  "Filename": "suscipit",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 358,
-  "IntentId": 525,
-  "IsDefaultPublished": true,
-  "Rank": 856,
-  "LoadTemplateFromPlugin": 351,
-  "MimeType": "sit",
+  "AutoeventId": 97,
+  "IntentId": 421,
+  "IsDefaultPublished": false,
+  "Rank": 374,
+  "LoadTemplateFromPlugin": 604,
+  "MimeType": "corporis",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 923,
+  "DocumentTypeKey": 512,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "adah_harber@torphyritchie.com",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "ludie@botsfordblanda.name",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jo@auer.uk",
+  "SenderEmailAddress": "edmond@keelingdurgan.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 19,
-  "ListItemId": 670
+  "UdListDefinitionId": 993,
+  "ListItemId": 323
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Marvin-Hansen",
-    "ToolTip": "Assumenda est voluptatibus aut illum voluptas nam eum.",
-    "Deleted": false,
-    "Rank": 184,
-    "Type": "temporibus",
-    "ColorBlock": 224,
-    "IconHint": "omnis",
+    "Id": 1001,
+    "Name": "Greenfelder-Romaguera",
+    "ToolTip": "At earum qui inventore.",
+    "Deleted": true,
+    "Rank": 308,
+    "Type": "veritatis",
+    "ColorBlock": 694,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2004-11-07T17:54:03.2108272+01:00",
+    "LastChanged": "2010-02-06T03:45:23.5298295+01:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Schaden-Kuhn",
-        "ToolTip": "Cumque sint et blanditiis.",
+        "Id": 244,
+        "Name": "Gutmann LLC",
+        "ToolTip": "Assumenda libero incidunt non assumenda.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "architecto",
-        "ColorBlock": 39,
-        "IconHint": "ut",
+        "Rank": 691,
+        "Type": "voluptatem",
+        "ColorBlock": 743,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2000-01-29T17:54:03.2108272+01:00",
+        "LastChanged": "2025-06-11T03:45:23.5298295+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "iste",
+        "ExtraInfo": "neque",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Miss Orlo Mayer PhD",
+        "FullName": "Mr. Mabelle Treutel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 988
+            "FieldType": "System.Int32",
+            "FieldLength": 707
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Rosina Hamill",
+    "ExtraInfo": "est",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Sedrick Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldLength": 285
       }
     }
   }

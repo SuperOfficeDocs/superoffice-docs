@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 135,
-  "Name": "Blanda Group",
-  "Tooltip": "eveniet",
+  "RoleId": 315,
+  "Name": "Schultz LLC",
+  "Tooltip": "vero",
   "RoleType": "Anonymous",
-  "Deleted": 200,
-  "Rank": 764,
-  "Created": "2004-05-05T17:54:03.8826694+02:00",
-  "UseCategories": 249,
+  "Deleted": 801,
+  "Rank": 199,
+  "Created": "2021-12-31T03:45:24.1704335+01:00",
+  "UseCategories": 748,
   "CreatedBy": null,
-  "Updated": "2022-11-12T17:54:03.8826694+01:00",
+  "Updated": "2004-08-28T03:45:24.1704335+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   }
 }

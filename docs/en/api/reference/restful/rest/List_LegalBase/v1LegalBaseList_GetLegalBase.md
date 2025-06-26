@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 238,
-  "Name": "Considine, O'Kon and Schinner",
-  "Tooltip": "dolores",
-  "Rank": 596,
-  "Key": "quod",
+  "LegalBaseId": 123,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "sint",
+  "Rank": 228,
+  "Key": "et",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

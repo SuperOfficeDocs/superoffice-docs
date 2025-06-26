@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "repudiandae",
   "Specification": null,
-  "DisplayValue": "hic",
-  "DisplayTooltip": "nisi",
+  "DisplayValue": "rem",
+  "DisplayTooltip": "illo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 98,
-  "PrefDescId": 803,
-  "TableName": "Cole, Bauch and Metz",
-  "UserPreferenceId": 395
+  "TargetId": 590,
+  "PrefDescId": 368,
+  "TableName": "Hauck Group",
+  "UserPreferenceId": 445
 }
 ```
 

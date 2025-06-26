@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Fisher LLC",
-  "StorageKey": "molestias",
+  "StorageType": "consequatur",
+  "ProviderName": "McDermott, Predovic and Bauch",
+  "StorageKey": "qui",
   "Restrictions": [
     {
-      "Name": "Parisian-Bailey",
-      "Operator": "cumque",
+      "Name": "Schamberger-Wisozk",
+      "Operator": "commodi",
       "Values": [
-        "voluptatem",
-        "soluta"
+        "aliquam",
+        "voluptates"
       ],
       "DisplayValues": [
-        "magni",
-        "et"
+        "sit",
+        "dicta"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 396,
+      "InterParenthesis": 212,
       "InterOperator": "And",
-      "UniqueHash": 262
+      "UniqueHash": 828
     }
   ],
-  "Context": "harum"
+  "Context": "eum"
 }
 ```
 

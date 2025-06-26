@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 790,
-    "Name": "Kirlin, Bernhard and Block",
-    "ToolTip": "Vitae nulla id assumenda ut earum.",
-    "Deleted": true,
-    "Rank": 470,
-    "Type": "libero",
-    "ColorBlock": 529,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2007-01-18T17:54:09.0074197+01:00",
+    "Id": 181,
+    "Name": "Kiehn, Block and Koepp",
+    "ToolTip": "Nihil eveniet natus nemo veritatis.",
+    "Deleted": false,
+    "Rank": 647,
+    "Type": "asperiores",
+    "ColorBlock": 156,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "1998-08-22T03:45:29.1859346+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Hegmann Group",
-        "ToolTip": "Porro corporis quibusdam.",
+        "Id": 151,
+        "Name": "Wilderman, Pfannerstill and Kling",
+        "ToolTip": "Ea id quasi qui vel est sed voluptatem.",
         "Deleted": false,
-        "Rank": 115,
-        "Type": "placeat",
-        "ColorBlock": 872,
-        "IconHint": "expedita",
+        "Rank": 611,
+        "Type": "eius",
+        "ColorBlock": 458,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2017-02-20T17:54:09.0074197+01:00",
+        "LastChanged": "2024-11-12T03:45:29.1859346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "vel",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Verlie Beier",
+        "FullName": "Miss Sadie Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 660
+            "FieldType": "System.Int32",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "dicta",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "iste",
     "Hidden": true,
-    "FullName": "Leola Rempel",
+    "FullName": "Mervin Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

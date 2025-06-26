@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 600,
-    "Name": "Prosacco Inc and Sons",
-    "CurrencyId": 347,
-    "EnglishName": "Kirlin Inc and Sons",
+    "CountryId": 677,
+    "Name": "White-VonRueden",
+    "CurrencyId": 954,
+    "EnglishName": "Dare-Tremblay",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Public-key demand-driven Graphical User Interface",
-    "OrgNrText": "602374",
-    "InterAreaPrefix": "velit",
-    "DialInPrefix": "molestias",
-    "ZipPrefix": "odit",
-    "DomainName": "Volkman, Cruickshank and Corkery",
-    "AddressLayoutId": 648,
-    "DomesticAddressLayoutId": 551,
-    "ForeignAddressLayoutId": 356,
-    "Rank": 99,
-    "Tooltip": "dolore",
-    "Deleted": false,
+    "ImageDescription": "Secured static structure",
+    "OrgNrText": "385022",
+    "InterAreaPrefix": "quas",
+    "DialInPrefix": "quo",
+    "ZipPrefix": "rerum",
+    "DomainName": "Oberbrunner, Beier and Rau",
+    "AddressLayoutId": 583,
+    "DomesticAddressLayoutId": 861,
+    "ForeignAddressLayoutId": 622,
+    "Rank": 880,
+    "Tooltip": "sunt",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

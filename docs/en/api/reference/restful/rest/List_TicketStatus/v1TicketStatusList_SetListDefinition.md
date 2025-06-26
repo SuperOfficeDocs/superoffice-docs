@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Luettgen, Dietrich and Streich",
-  "Tooltip": "quas",
+  "Id": 109,
+  "Name": "Denesik-Tremblay",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 150,
+  "Rank": 807,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Breitenberg, Roberts and Johnston",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 917,
+  "Id": 327,
+  "Name": "Wolff Group",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 396,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   }
 }

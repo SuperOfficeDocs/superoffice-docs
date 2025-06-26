@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 679,
-    "ParentId": 219,
-    "Name": "Krajcik Inc and Sons",
-    "Fullname": "veritatis",
-    "CategoryMaster": 329,
+    "TicketCategoryId": 61,
+    "ParentId": 195,
+    "Name": "Osinski, Glover and DuBuque",
+    "Fullname": "deserunt",
+    "CategoryMaster": 254,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kiehn LLC",
+    "ExternalName": "Feil-Swift",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 273,
-    "ReplyTemplate": 298,
-    "NotificationEmail": "gabrielle.stamm@ratke.com",
+    "AssignmentLag": 761,
+    "ReplyTemplate": 321,
+    "NotificationEmail": "harvey.eichmann@bailey.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 131,
+    "EffectiveReplyTemplateId": 321,
     "ExtraFields": {
-      "ExtraFields1": "sint",
-      "ExtraFields2": "voluptate"
+      "ExtraFields1": "facere",
+      "ExtraFields2": "cupiditate"
     },
     "CustomFields": {
-      "CustomFields1": "eum",
-      "CustomFields2": "ipsam"
+      "CustomFields1": "veniam",
+      "CustomFields2": "laudantium"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

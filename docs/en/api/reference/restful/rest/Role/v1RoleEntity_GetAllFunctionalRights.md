@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Mante Group",
-    "ToolTip": "Molestias atque beatae voluptas rerum.",
-    "Deleted": false,
-    "Rank": 801,
-    "Type": "natus",
-    "ColorBlock": 834,
-    "IconHint": "non",
+    "Id": 136,
+    "Name": "Gerhold-Goodwin",
+    "ToolTip": "Sapiente maxime dolorem ullam.",
+    "Deleted": true,
+    "Rank": 857,
+    "Type": "est",
+    "ColorBlock": 549,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2007-06-27T17:54:08.4293225+02:00",
+    "LastChanged": "2019-04-07T03:45:28.5453063+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Ward-Kshlerin",
-        "ToolTip": "Est id illum ab cum est.",
-        "Deleted": false,
-        "Rank": 750,
-        "Type": "voluptas",
-        "ColorBlock": 743,
-        "IconHint": "et",
+        "Id": 317,
+        "Name": "Reinger-Hirthe",
+        "ToolTip": "Quis quo inventore perferendis eum consequatur fuga.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "maiores",
+        "ColorBlock": 16,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2007-10-30T17:54:08.4293225+01:00",
+        "LastChanged": "2008-11-12T03:45:28.5453063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Shaylee Greenholt",
+        "ExtraInfo": "et",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Miss Lucy Mustafa Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 904
+            "FieldType": "System.Int32",
+            "FieldLength": 470
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Mrs. Alene Upton",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Adah Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 826,
-    "Tooltip": "enim",
-    "CanAssign": true,
-    "Free": 732,
-    "InUse": 90,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 444,
-    "Name": "McGlynn-Nienow",
-    "Description": "Re-engineered exuding knowledge base",
-    "PrerequisiteModuleName": "Erdman-Kling",
-    "SortOrder": 426,
-    "ExtraFlags": 56,
+    "Unrestricted": false,
+    "Total": 630,
+    "Tooltip": "voluptatibus",
+    "CanAssign": false,
+    "Free": 274,
+    "InUse": 435,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 710,
+    "Name": "Bechtelar-Kub",
+    "Description": "Enterprise-wide zero administration support",
+    "PrerequisiteModuleName": "Kunde, Baumbach and Fay",
+    "SortOrder": 383,
+    "ExtraFlags": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 175
       }
     }
   }

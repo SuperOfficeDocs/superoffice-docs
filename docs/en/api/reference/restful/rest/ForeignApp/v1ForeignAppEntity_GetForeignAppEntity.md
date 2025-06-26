@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 22 Jul 2015 17:54:08 G7T
+Last-Modified: Sat, 21 Sep 2002 03:45:28 G9T
 
 {
-  "ForeignAppId": 52,
-  "Name": "Schuster, Muller and Bartoletti",
-  "CreatedDate": "2014-09-27T17:54:08.2574567+02:00",
-  "UpdatedDate": "2015-07-22T17:54:08.2574567+02:00",
+  "ForeignAppId": 797,
+  "Name": "Herzog, Marks and Dibbert",
+  "CreatedDate": "2007-03-29T03:45:28.3578119+02:00",
+  "UpdatedDate": "2002-09-21T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 180,
-      "Name": "Runolfsdottir, Will and Crooks",
-      "CreatedDate": "2023-02-15T17:54:08.2574567+01:00",
-      "UpdatedDate": "2004-11-24T17:54:08.2574567+01:00",
-      "AssociateFullName": "Dr. Quentin Torp V",
-      "CreatedBy": "cum",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "consequuntur",
-      "ForeignAppId": 279,
+      "ForeignDeviceId": 626,
+      "Name": "West, Rohan and Lind",
+      "CreatedDate": "2016-01-30T03:45:28.3578119+01:00",
+      "UpdatedDate": "2010-08-12T03:45:28.3578119+02:00",
+      "AssociateFullName": "Kaycee Schaefer",
+      "CreatedBy": "vitae",
+      "UpdatedBy": "nihil",
+      "DeviceIdentifier": "quibusdam",
+      "ForeignAppId": 158,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Wed, 22 Jul 2015 17:54:08 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

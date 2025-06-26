@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 875,
-  "Name": "Halvorson, Kertzmann and Considine",
-  "Tooltip": "occaecati",
+  "HeadingId": 860,
+  "Name": "Roberts LLC",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 822,
-  "UdListDefinitionId": 470
+  "Rank": 185,
+  "UdListDefinitionId": 689
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 880,
-  "Name": "Hane Group",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 694,
-  "UdListDefinitionId": 785,
+  "HeadingId": 14,
+  "Name": "Hegmann Group",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "Rank": 608,
+  "UdListDefinitionId": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

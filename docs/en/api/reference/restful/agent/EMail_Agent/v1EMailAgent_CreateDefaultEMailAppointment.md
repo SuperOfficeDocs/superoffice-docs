@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "similique",
-    "iusto"
+    "laborum",
+    "repellat"
   ],
-  "Comment": "occaecati",
-  "Sequence": 641,
-  "DtStart": "2004-12-23T17:54:03.0858331+01:00",
-  "DtEnd": "2022-05-06T17:54:03.0858331+02:00",
+  "Comment": "consequatur",
+  "Sequence": 568,
+  "DtStart": "2014-06-14T03:45:23.4048314+02:00",
+  "DtEnd": "2015-11-16T03:45:23.4048314+01:00",
   "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

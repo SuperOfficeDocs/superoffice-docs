@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Bergnaum LLC",
-    "ToolTip": "Rerum maxime aut id repellat blanditiis.",
-    "Deleted": true,
-    "Rank": 883,
-    "Type": "sequi",
-    "ColorBlock": 402,
-    "IconHint": "cumque",
-    "Selected": true,
-    "LastChanged": "2017-04-20T17:54:08.7730557+02:00",
+    "Id": 938,
+    "Name": "Bins, Mayer and Bahringer",
+    "ToolTip": "Quis ipsam voluptate.",
+    "Deleted": false,
+    "Rank": 425,
+    "Type": "esse",
+    "ColorBlock": 424,
+    "IconHint": "voluptatum",
+    "Selected": false,
+    "LastChanged": "2006-03-14T03:45:28.9517993+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Pollich, Krajcik and Watsica",
-        "ToolTip": "Quia aut consequuntur fugit consectetur sunt ex.",
+        "Id": 95,
+        "Name": "Kassulke, Koelpin and Durgan",
+        "ToolTip": "Voluptatem exercitationem.",
         "Deleted": false,
-        "Rank": 336,
-        "Type": "nisi",
-        "ColorBlock": 138,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2005-11-21T17:54:08.7730557+01:00",
+        "Rank": 658,
+        "Type": "et",
+        "ColorBlock": 865,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2005-04-26T03:45:28.9517993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "provident",
+        "ExtraInfo": "impedit",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Santos Frami",
+        "FullName": "Amira Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "et",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "mollitia",
     "Hidden": true,
-    "FullName": "Alysson Gislason",
+    "FullName": "Ms. Bryana Florida Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 373
       }
     }
   }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Fadel-Mueller",
-  "TypicalSearchId": 191
+  "EntityName": "Beatty-Runte",
+  "TypicalSearchId": 985
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Auer LLC",
-  "SelectionId": 878,
+  "ProviderName": "Lind-Mertz",
+  "SelectionId": 367,
   "CanSaveAsSelection": false,
-  "MainHeading": "tempora",
-  "FilterScreenHeading": "maiores",
-  "SelectionEntityHeading": "modi",
+  "MainHeading": "vel",
+  "FilterScreenHeading": "tempora",
+  "SelectionEntityHeading": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 59
     }
   }
 }

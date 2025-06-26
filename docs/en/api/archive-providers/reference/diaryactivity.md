@@ -770,7 +770,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/personUrl/URLDescription,project/project/textId,sale/sale/description,appointmentId,location
+GET /api/v1/archive/DiaryActivity?$select=type,documentPublish/publishedBy,person/personAddress/city,person/correspondingAssociate/usergroupId,contact/searchPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

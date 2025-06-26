@@ -70,7 +70,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Timestamp | date-time | UTC timestamp for turn - when response was generated |
+| Timestamp | date-time | UTC timestamp for turn - when response was generated. |
 | UserPrompt | string | Text from the user |
 | UserDisplayText | string | Optional display value to use instead of the the UserPrompt |
 | BotResponse | string | Text from the chatbot |
@@ -87,37 +87,37 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "enim",
-  "IsoLangCode": "ea",
-  "UserPrompt": "non",
-  "DisplayValue": "quidem",
+  "ChatId": "tempora",
+  "IsoLangCode": "omnis",
+  "UserPrompt": "facere",
+  "DisplayValue": "ipsa",
   "PreviousTurns": [
     {
-      "Timestamp": "2017-03-05T17:54:02.3514942+01:00",
-      "UserPrompt": "porro",
-      "UserDisplayText": "quis",
-      "BotResponse": "et",
+      "Timestamp": "2015-01-24T03:45:22.6548535+01:00",
+      "UserPrompt": "sed",
+      "UserDisplayText": "ratione",
+      "BotResponse": "assumenda",
       "BotActions": {
-        "BotActions1": "dolorum",
-        "BotActions2": "qui"
+        "BotActions1": "sint",
+        "BotActions2": "sunt"
       },
       "Attachments": [
-        "aspernatur",
-        "explicabo"
+        "itaque",
+        "delectus"
       ]
     },
     {
-      "Timestamp": "2017-03-05T17:54:02.3514942+01:00",
-      "UserPrompt": "porro",
-      "UserDisplayText": "quis",
-      "BotResponse": "et",
+      "Timestamp": "2015-01-24T03:45:22.6548535+01:00",
+      "UserPrompt": "sed",
+      "UserDisplayText": "ratione",
+      "BotResponse": "assumenda",
       "BotActions": {
-        "BotActions1": "dolorum",
-        "BotActions2": "qui"
+        "BotActions1": "sint",
+        "BotActions2": "sunt"
       },
       "Attachments": [
-        "aspernatur",
-        "explicabo"
+        "itaque",
+        "delectus"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2010-04-26T17:54:02.3514942+02:00",
-  "UserPrompt": "est",
-  "UserDisplayText": "et",
-  "BotResponse": "rem",
+  "Timestamp": "2006-10-15T03:45:22.6548535+02:00",
+  "UserPrompt": "quia",
+  "UserDisplayText": "nam",
+  "BotResponse": "odit",
   "BotActions": {
-    "BotActions1": "quos",
-    "BotActions2": "iste"
+    "BotActions1": "perspiciatis",
+    "BotActions2": "illo"
   },
   "Attachments": [
-    "et",
-    "ipsum"
+    "error",
+    "et"
   ]
 }
 ```

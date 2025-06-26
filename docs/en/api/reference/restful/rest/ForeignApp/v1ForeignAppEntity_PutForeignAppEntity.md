@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 349,
-  "Name": "Tremblay Group",
-  "CreatedDate": "2014-07-01T17:54:08.2574567+02:00",
-  "UpdatedDate": "2013-07-12T17:54:08.2574567+02:00",
+  "ForeignAppId": 554,
+  "Name": "Harber-Koch",
+  "CreatedDate": "2004-12-21T03:45:28.3578119+01:00",
+  "UpdatedDate": "2013-10-02T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 699,
-      "Name": "Jewess, Goyette and Champlin",
-      "CreatedDate": "2015-04-05T17:54:08.2574567+02:00",
-      "UpdatedDate": "2023-12-09T17:54:08.2574567+01:00",
-      "AssociateFullName": "Miss Ray Chadd Rice",
-      "CreatedBy": "facere",
-      "UpdatedBy": "perspiciatis",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 607
+      "ForeignDeviceId": 460,
+      "Name": "Lemke LLC",
+      "CreatedDate": "2001-11-22T03:45:28.3578119+01:00",
+      "UpdatedDate": "2012-09-19T03:45:28.3578119+02:00",
+      "AssociateFullName": "Alda Williamson",
+      "CreatedBy": "sint",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 997
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 554,
-  "Name": "Jenkins, Skiles and Rath",
-  "CreatedDate": "2005-08-28T17:54:08.2574567+02:00",
-  "UpdatedDate": "2006-02-25T17:54:08.2574567+01:00",
+  "ForeignAppId": 982,
+  "Name": "Gulgowski-Conroy",
+  "CreatedDate": "2005-09-11T03:45:28.3578119+02:00",
+  "UpdatedDate": "2003-05-15T03:45:28.3578119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 444,
-      "Name": "Hodkiewicz Inc and Sons",
-      "CreatedDate": "2015-04-16T17:54:08.2574567+02:00",
-      "UpdatedDate": "2021-04-30T17:54:08.2574567+02:00",
-      "AssociateFullName": "Benedict Kshlerin",
-      "CreatedBy": "et",
-      "UpdatedBy": "doloribus",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 519,
+      "ForeignDeviceId": 738,
+      "Name": "Stanton-Crooks",
+      "CreatedDate": "2024-07-13T03:45:28.3578119+02:00",
+      "UpdatedDate": "2023-08-01T03:45:28.3578119+02:00",
+      "AssociateFullName": "Dr. Quinten Kreiger",
+      "CreatedBy": "consequuntur",
+      "UpdatedBy": "placeat",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 193,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 200
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 526
     }
   },
   "_Links": {

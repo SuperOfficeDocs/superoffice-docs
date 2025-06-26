@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "aut",
-    "Tooltip": "odit",
-    "Id": 50,
-    "Rank": 610,
-    "Deleted": false,
+    "Value": "iste",
+    "Tooltip": "praesentium",
+    "Id": 627,
+    "Rank": 527,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

@@ -76,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Johns, Veum and Walker"
+  "TableName": "Schmeler-Corkery"
 }
 ```
 

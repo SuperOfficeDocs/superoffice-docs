@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    729,
-    543
+    450,
+    16
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Welch Group",
-    "ToolTip": "Asperiores repudiandae.",
-    "Deleted": true,
-    "Rank": 292,
-    "Type": "autem",
+    "Id": 34,
+    "Name": "Frami-Klocko",
+    "ToolTip": "Quis assumenda.",
+    "Deleted": false,
+    "Rank": 675,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Bauch, Bogan and Zulauf",
-        "ToolTip": "Enim necessitatibus voluptatem iste voluptas aut totam.",
-        "Deleted": false,
-        "Rank": 442,
-        "Type": "illum",
+        "Id": 885,
+        "Name": "Lynch Inc and Sons",
+        "ToolTip": "Vero aut.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 457,
-        "ExtraInfo": "id",
-        "StyleHint": "iste",
-        "FullName": "Mr. Ollie Ziemann",
+        "IconHint": "omnis",
+        "ColorBlock": 54,
+        "ExtraInfo": "omnis",
+        "StyleHint": "rerum",
+        "FullName": "Angel Jalen Satterfield V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldLength": 760
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 651,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "velit",
-    "FullName": "Greg Turner DVM",
+    "IconHint": "aliquam",
+    "ColorBlock": 493,
+    "ExtraInfo": "quo",
+    "StyleHint": "minima",
+    "FullName": "Prof. Ernesto Mills PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 617
       }
     }
   }

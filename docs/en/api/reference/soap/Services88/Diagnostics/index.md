@@ -27,6 +27,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [GetCacheState](GetCacheState.md)
 * [GetEntityCountsForAllUsers](GetEntityCountsForAllUsers.md)
 * [GetEntityCountsForCurrentUser](GetEntityCountsForCurrentUser.md)
+* [GetNextTableNumber](GetNextTableNumber.md)
 * [GetSystemMessages](GetSystemMessages.md)
 * [GetWebAppUsagesForPeriod](GetWebAppUsagesForPeriod.md)
 * [LogViewState](LogViewState.md)

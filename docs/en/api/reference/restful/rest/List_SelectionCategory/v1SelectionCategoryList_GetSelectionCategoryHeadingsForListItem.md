@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "O'Connell, Tillman and Kirlin",
-    "ToolTip": "Et harum dolores explicabo ut est esse minus.",
+    "Id": 560,
+    "Name": "Huel, O'Reilly and Steuber",
+    "ToolTip": "Dolores voluptatem facere.",
     "Deleted": false,
-    "Rank": 902,
-    "Type": "harum",
-    "ColorBlock": 668,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2010-04-25T17:54:09.1168029+02:00",
+    "Rank": 354,
+    "Type": "quia",
+    "ColorBlock": 141,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2002-08-07T03:45:29.2327869+02:00",
     "ChildItems": [
       {
-        "Id": 798,
-        "Name": "Smitham Inc and Sons",
-        "ToolTip": "Dolorum ab.",
+        "Id": 769,
+        "Name": "Harvey, Casper and Brown",
+        "ToolTip": "Aliquam neque odio voluptatem porro hic ipsa quibusdam.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "dolore",
-        "ColorBlock": 817,
-        "IconHint": "corporis",
+        "Rank": 592,
+        "Type": "expedita",
+        "ColorBlock": 392,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2020-09-18T17:54:09.1168029+02:00",
+        "LastChanged": "2001-07-26T03:45:29.2327869+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "soluta",
+        "ExtraInfo": "atque",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mr. Elwyn Dicki",
+        "FullName": "Ernestina Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldType": "System.String",
+            "FieldLength": 355
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "facere",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Mathilde Gerhold",
+    "FullName": "Elyse Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

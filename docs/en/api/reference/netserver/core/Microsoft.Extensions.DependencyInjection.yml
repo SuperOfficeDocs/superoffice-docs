@@ -6,6 +6,7 @@ items:
   children:
   - Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
   - Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
+  - Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
   - Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
@@ -56,6 +57,13 @@ references:
   name: NetServerServiceCollectionExtensions
   nameWithType: NetServerServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
+  commentId: T:Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute.html
+  name: IgnoreNetServerValidateAttribute
+  nameWithType: IgnoreNetServerValidateAttribute
+  fullName: Microsoft.Extensions.DependencyInjection.IgnoreNetServerValidateAttribute
 - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerOptions
   isExternal: true
