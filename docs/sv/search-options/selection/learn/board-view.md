@@ -1,8 +1,8 @@
 ---
 uid: help-sv-selection-board-view
 title: Använd tavlevy i urval
-description: Visualisera dynamiska urval med tavlevy med gruppering, filter och dra-och-släpp-kort
-keywords: tavlevy, urvalsvy, dynamiskt urval, säljtavla, kanban, gruppera efter, filterverktygsfält
+description: Visualisera urval med tavlevy med gruppering, filter och dra-och-släpp-kort
+keywords: tavlevy, urvalsvy,urval, säljtavla, kanban, gruppera efter, filterverktygsfält
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
@@ -15,17 +15,17 @@ language: sv
 
 # Använd tavlevy i urval <i class="ph ph-kanban" aria-hidden="true"></i>
 
-Tavlevy visar ditt [dynamiska urval][2] i ett kolumnbaserat layout med kort. Du kan gruppera och filtrera urvalsmedlemmarna (posterna som visas i tavlan), samt använda dra-och-släpp för att flytta kort mellan grupper.
+Tavlevy visar ditt [urval][2] i ett kolumnbaserat layout med kort. Du kan gruppera och filtrera urvalsmedlemmarna (posterna som visas i tavlan), samt använda dra-och-släpp för att flytta kort mellan grupper.
 
 Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna uppgiftsmenyer och justera tavleinställningar. De tillgängliga grupperings- och filterfälten varierar beroende på om du arbetar med försäljning, projekt eller ärenden.
 
 ![Tavlevy som visar försäljningar grupperade efter fas -screenshot][img2]
 
-Tavlevy är för närvarande tillgänglig för **dynamiska urval av försäljning**, och stöd för **projekt** och **ärenden** är planerat.
+Tavlevy är för närvarande tillgänglig för **urval av försäljning**, och stöd för **projekt** och **ärenden** är planerat.
 
 ## Öppna tavlevy
 
-1. Gå till ett dynamiskt urval.
+1. Gå till ett urval.
 1. Klicka på ikonen för **tavlevy** i det övre högra hörnet (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Växlingsikon för tavlevy i det övre högra hörnet i ett urval][img1]
@@ -162,13 +162,13 @@ Använd gruppering och swimlanes kreativt för effektiv datahantering.
 
 ## Relaterat innehåll
 
-* [Skapa ett dynamiskt urval][1]
+* [Skapa ett urval][1]
 * [Skapa en försäljning / fält i försäljningskortet][12]
 * [Konfigurera försäljningsfaser][13]
 
 <!-- Refererade länkar -->
 [1]: create.md
-[2]: dynamic-selections.md
+[2]: selections.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

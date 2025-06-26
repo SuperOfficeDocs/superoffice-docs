@@ -1,8 +1,8 @@
 ---
 uid: help-nl-selection-board-view
 title: Boardweergave gebruiken in selecties
-description: Visualiseer dynamische selecties met de boardweergave met groepering, filters en drag-and-drop-kaarten
-keywords: boardweergave, board-weergave, selectieoverzicht, dynamische selectie, verkoopboard, kanban, groeperen op, filterwerkbalk
+description: Visualiseer selecties met de boardweergave met groepering, filters en drag-and-drop-kaarten
+keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, kanban, groeperen op, filterwerkbalk
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
@@ -15,17 +15,17 @@ language: nl
 
 # Boardweergave gebruiken in selecties <i class="ph ph-kanban" aria-hidden="true"></i>
 
-De boardweergave toont je [dynamische selectie][2] in een kolomindeling met kaarten. Je kunt de selectieleden (records op het board) groeperen en filteren en kaarten verplaatsen tussen groepen via drag-and-drop.
+De boardweergave toont je [selectie][2] in een kolomindeling met kaarten. Je kunt de selectieleden (records op het board) groeperen en filteren en kaarten verplaatsen tussen groepen via drag-and-drop.
 
 De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarten slepen, taakmenu's openen en boardinstellingen aanpassen. De beschikbare velden voor groepering en filtering verschillen afhankelijk van of je werkt met verkopen, projecten of verzoeken.
 
 ![Boardweergave van verkopen gegroepeerd op fase -screenshot][img2]
 
-De boardweergave is momenteel beschikbaar voor **dynamische selecties van verkopen**, en ondersteuning voor **projecten** en **verzoeken** is gepland.
+De boardweergave is momenteel beschikbaar voor **selecties van verkopen**, en ondersteuning voor **projecten** en **verzoeken** is gepland.
 
 ## Boardweergave openen
 
-1. Ga naar een dynamische selectie.
+1. Ga naar een selectie.
 1. Klik rechtsboven op het pictogram voor **boardweergave** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Pictogram voor boardweergave rechtsboven in een selectie][img1]
@@ -162,13 +162,13 @@ Gebruik groepering en swimlanes creatief om efficiënt met gegevens te werken.
 
 ## Gerelateerde inhoud
 
-* [Een dynamische selectie aanmaken][1]
+* [Een selectie aanmaken][1]
 * [Een verkoop aanmaken / velden in de verkoopkaart][12]
 * [Verkoopfasen configureren][13]
 
 <!-- Verwijzingen -->
 [1]: create.md
-[2]: dynamic-selections.md
+[2]: selections.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

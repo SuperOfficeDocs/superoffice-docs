@@ -1,8 +1,8 @@
 ---
 uid: help-de-selection-board-view
 title: Board-Ansicht in Selektionen verwenden
-description: Dynamische Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
-keywords: Board-Ansicht, Selektionsansicht, dynamische Selektion, Verkaufsboard, Kanban, gruppieren nach, Filterleiste
+description: Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
+keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Kanban, gruppieren nach, Filterleiste
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
@@ -15,17 +15,17 @@ language: de
 
 # Board-Ansicht in Selektionen verwenden <i class="ph ph-kanban" aria-hidden="true"></i>
 
-Die Board-Ansicht zeigt Ihre [dynamische Selektion][2] in einem spaltenbasierten Layout mit Karten an. Sie können die Selektionsmitglieder (Datensätze auf dem Board) gruppieren und filtern sowie Karten per Drag-and-Drop zwischen Gruppen verschieben.
+Die Board-Ansicht zeigt Ihre [Selektion][2] in einem spaltenbasierten Layout mit Karten an. Sie können die Selektionsmitglieder (Datensätze auf dem Board) gruppieren und filtern sowie Karten per Drag-and-Drop zwischen Gruppen verschieben.
 
 Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Verkäufen, Projekten oder Anfragen arbeiten.
 
 ![Board-Ansicht mit Verkäufen nach Stufe gruppiert -screenshot][img2]
 
-Die Board-Ansicht ist derzeit für **dynamische Selektionen von Verkäufen** verfügbar. Die Unterstützung für **Projekte** und **Anfragen** ist geplant.
+Die Board-Ansicht ist derzeit für **Selektionen von Verkäufen** verfügbar. Die Unterstützung für **Projekte** und **Anfragen** ist geplant.
 
 ## Board-Ansicht öffnen
 
-1. Öffnen Sie eine dynamische Selektion.
+1. Öffnen Sie eine Selektion.
 1. Klicken Sie oben rechts auf das Symbol für die **Board-Ansicht** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Symbol zum Umschalten in die Board-Ansicht oben rechts in einer Selektion][img1]
@@ -162,13 +162,13 @@ Nutzen Sie Gruppierung und Swimlanes kreativ, um Daten effizient zu organisieren
 
 ## Verwandte Inhalte
 
-* [Eine dynamische Selektion erstellen][1]
+* [Eine Selektion erstellen][1]
 * [Einen Verkauf erstellen / Felder in der Verkaufskarte][12]
 * [VerkaufsStufen konfigurieren][13]
 
 <!-- Referenzierte Links -->
 [1]: create.md
-[2]: dynamic-selections.md
+[2]: selections.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

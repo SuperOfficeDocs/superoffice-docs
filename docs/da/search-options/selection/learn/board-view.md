@@ -1,8 +1,8 @@
 ---
 uid: help-da-selection-board-view
 title: Brug tavlevisning i udvalg
-description: Visualiser dynamiske udvalg med tavlevisning med gruppering, filtre og træk-og-slip-kort
-keywords: tavlevisning, udvalgsvisning, dynamisk udvalg, salgstavle, kanban, gruppér efter, filter-værktøjslinje
+description: Visualiser udvalg med tavlevisning med gruppering, filtre og træk-og-slip-kort
+keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, kanban, gruppér efter, filter-værktøjslinje
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
@@ -15,17 +15,17 @@ language: da
 
 # Brug tavlevisning i udvalg <i class="ph ph-kanban" aria-hidden="true"></i>
 
-Tavlevisning viser dit [dynamiske udvalg][2] i et kolonnebaseret layout med kort. Du kan gruppere og filtrere udvalgsmedlemmerne (de poster, der vises på tavlen), og bruge træk-og-slip til at flytte kort mellem grupper.
+Tavlevisning viser dit [udvalg][2] i et kolonnebaseret layout med kort. Du kan gruppere og filtrere udvalgsmedlemmerne (de poster, der vises på tavlen), og bruge træk-og-slip til at flytte kort mellem grupper.
 
 Funktionaliteten er den samme på tværs af understøttede poster: Du kan trække kort, åbne opgavemenuer og justere tavleindstillinger. De tilgængelige grupperings- og filterfelter varierer afhængigt af, om du arbejder med salg, projekter eller sager.
 
 ![Tavlevisning, der viser salg grupperet efter fase -screenshot][img2]
 
-Tavlevisning er i øjeblikket tilgængelig for **dynamiske udvalg af salg**, og understøttelse af **projekter** og **sager** er planlagt.
+Tavlevisning er i øjeblikket tilgængelig for **udvalg af salg**, og understøttelse af **projekter** og **sager** er planlagt.
 
 ## Åbn tavlevisning
 
-1. Gå til et dynamisk udvalg.
+1. Gå til et udvalg.
 1. Vælg ikonet for **tavlevisning** øverst til højre (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Tavlevisningsikon øverst til højre i et udvalg][img1]
@@ -162,13 +162,13 @@ Brug gruppering og swimlanes kreativt for effektiv databehandling.
 
 ## Relateret indhold
 
-* [Opret et dynamisk udvalg][1]
+* [Opret et udvalg][1]
 * [Opret et salg / felter i salgskortet][12]
 * [Konfigurér salgsfaser][13]
 
 <!-- Refererede links -->
 [1]: create.md
-[2]: dynamic-selections.md
+[2]: selections.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

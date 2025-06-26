@@ -1,8 +1,8 @@
 ---
 uid: help-en-selection-board-view
 title: Use board view in selections
-description: Visualize dynamic selections using board view with grouping, filters, and drag-and-drop cards
-keywords: board view, selection view, dynamic selection, sales board, kanban, group by, filter toolbar
+description: Visualize selections using board view with grouping, filters, and drag-and-drop cards
+keywords: board view, selection view, selection, sales board, kanban, group by, filter toolbar
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
@@ -15,17 +15,17 @@ language: en
 
 # Use board view in selections <i class="ph ph-kanban" aria-hidden="true"></i>
 
-Board view presents your [dynamic selection][2] in a column-based layout using cards. You can group and filter the selection members (records shown on the board), and use drag-and-drop to move cards between groups.
+Board view presents your [selection][2] in a column-based layout using cards. You can group and filter the selection members (records shown on the board), and use drag-and-drop to move cards between groups.
 
 The functionality is the same across supported entities: you can drag cards, open task menus, and adjust board settings. The available grouping and filtering fields vary depending on whether you are working with sales, projects, or requests.
 
 ![Board view showing sales grouped by stage -screenshot][img2]
 
-Board view is currently available for **dynamic selections of sales**, and support for **projects** and **requests** is planned.
+Board view is currently available for **selections of sales**, and support for **projects** and **requests** is planned.
 
 ## Open board view
 
-1. Go to a dynamic selection.
+1. Go to a selection.
 1. In the upper-right corner, select the **board view** icon (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Board view toggle icon in the upper-right corner of a selection][img1]
@@ -162,13 +162,13 @@ Use grouping and swim lanes creatively to organize and act on data efficiently.
 
 ## Related content
 
-* [Create a dynamic selection][1]
+* [Create a selection][1]
 * [Create a sale / fields in the Sale card][12]
 * [Configure sale stages][13]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: dynamic-selections.md
+[2]: selections.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 
