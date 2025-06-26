@@ -4,8 +4,8 @@ title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
 keywords: fönstret Försäljning, försäljningskort, försäljningsskärm, försäljning, affärsmöjlighet, sälj
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ Funktionen **Försäljning** i SuperOffice CRM hjälper dig att hantera dina aff
 
 Du kan länka försäljningar till företag, personer och projekt, vilket gör det enkelt att samarbeta mellan olika team. Försäljningar kan också styras med hjälp av säljguider, förutsatt att den valda försäljningstypen har en definierad guide.
 
-Titta på denna video för att se hur enkelt det är att driva affärsmöjligheter i SuperOffice :
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(videons längd – 2:16)
-
-Fönstret Försäljning organiserar försäljningar som indexkort och ger en detaljerad översikt över varje affärsmöjlighet. Navigera mellan försäljningar med knapparna **Föregående** och **Nästa** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) längst ner till höger på korten. Som standard visas alla försäljningar. Om du inte vill visa slutförda försäljningar (sålda eller förlorade), klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsknapp"></i> och välj **Hoppa över slutförd försäljning**.
+Fönstret Försäljning organiserar försäljningar som indexkort och ger en detaljerad översikt över varje affärsmöjlighet. Navigera mellan försäljningar med knapparna **Föregående** och **Nästa** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) längst ner till höger på korten. Som standard visas alla försäljningar. Om du inte vill visa slutförda försäljningar (sålda eller förlorade), klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsknapp"></i> och välj **Hoppa över slutförd försäljning**. Detta alternativ finns också som en inställning under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar** > **Försäljning**.
 
 > [!TIP]
 > Försäljningar visas också på [detaljkortet Försäljning][13] i fönstren Företag, Kontakt, Projekt och Kalender. Dubbelklicka på en försäljning i dessa vyer för att öppna den i fönstret Försäljning.

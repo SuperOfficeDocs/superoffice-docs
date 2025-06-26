@@ -4,8 +4,8 @@ title: Verkoop
 description: SuperOffice Sales helpt verkoopteams grip te hebben op hun verkooppijplijnen en -processen.
 keywords: scherm Verkoop, verkoopkaart, verkoopkansen, verkoop
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ De functie **Verkoop** in SuperOffice CRM helpt u om verkoopkansen efficiënt te
 
 U kunt verkopen koppelen aan bedrijven, personen en projecten, zodat teams eenvoudig kunnen samenwerken. Als het geselecteerde verkooptype een verkoopgids heeft, kunt u de verkoop ook met een gids stroomlijnen.
 
-Bekijk deze video en ontdek hoe eenvoudig het is om verkoopkansen op te volgen met SuperOffice CRM:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(video duur - 2:16)
-
-Het scherm **Verkoop** toont verkopen als indexkaarten en geeft een gedetailleerd overzicht van elke kans. U kunt door verkopen bladeren met de knoppen **Vorige** en **Volgende** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) rechtsonder op de kaarten. Standaard worden alle verkopen weergegeven. Als u voltooide verkopen (verkocht of verloren) wilt verbergen, klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakknop"></i> en selecteert u **Voltooide verkopen overslaan**.
+Het scherm **Verkoop** toont verkopen als indexkaarten en geeft een gedetailleerd overzicht van elke kans. U kunt door verkopen bladeren met de knoppen **Vorige** en **Volgende** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) rechtsonder op de kaarten. Standaard worden alle verkopen weergegeven. Als u voltooide verkopen (verkocht of verloren) wilt verbergen, klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakknop"></i> en selecteert u **Voltooide verkopen overslaan**. Deze optie is ook beschikbaar als instelling onder <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Verkoop**.
 
 > [!TIP]
 > Verkopen zijn ook zichtbaar op het [sectietabblad Verkoop][13] in de schermen Bedrijf, Persoon, Project en Agenda. Dubbelklik op een verkoop om deze te openen in het scherm Verkoop.

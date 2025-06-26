@@ -4,8 +4,8 @@ title: Salg
 description: SuperOffice Salg hjælper salgsteams med at bevare kontrollen over deres salgspipelines og processer.
 keywords: salg, salgskort, salgsskærmbillede, tilbud, kundeemne
 author: SuperOffice RnD
-date: 03.07.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ Funktionen **Salg** i SuperOffice CRM hjælper dig med at administrere salgsmuli
 
 Salg kan knyttes til firmaer, personer og projekter, hvilket sikrer problemfrit samarbejde på tværs af teams. Hvis salgstypen er tilknyttet en salgsguide, vil den hjælpe dig gennem salgsprocessen.
 
-Se denne video, og se, hvor nemt det kan være at arbejde med salgsmuligheder i SuperOffice CRM:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(videoens længde – 2:16)
-
-Skærmbilledet **Salg** organiserer salg som indekskort og giver en detaljeret oversigt over hver mulighed. Navigér mellem salg ved hjælp af knapperne **Forrige** og **Næste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til højre på kortene. Som standard vises alle salg. Hvis du vil skjule gennemførte salg (solgte eller tabte), skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgaveknap"></i> og vælge **Spring gennemførte salg over**.
+Skærmbilledet **Salg** organiserer salg som indekskort og giver en detaljeret oversigt over hver mulighed. Navigér mellem salg ved hjælp af knapperne **Forrige** og **Næste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til højre på kortene. Som standard vises alle salg. Hvis du vil skjule gennemførte salg (solgte eller tabte), skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgaveknap"></i> og vælge **Spring gennemførte salg over**. Denne indstilling er også tilgængelig under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer** > **Salg**.
 
 > [!TIP]
 > Salg vises også i [detaljekortet Salg][13] i Firma-, Person-, Projekt- og Dagbogsskærmbillederne. Dobbeltklik på et salg i disse placeringer for at åbne det i skærmbilledet Salg.

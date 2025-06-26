@@ -4,8 +4,8 @@ title: Register a sale
 description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales.
 keywords: create sale, new sale, add sale, register sale, sale
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 license: salesessentials
 audience: person
@@ -15,12 +15,7 @@ language: en
 
 # Register a sale
 
-You can create a sale in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to create a sale:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
-
-(video length - 2:10)
+You can create a sale in SuperOffice CRM using the **New** button on the top bar.
 
 ## Steps
 

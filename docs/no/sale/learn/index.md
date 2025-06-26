@@ -4,8 +4,8 @@ title: Salg
 description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgspipeliner og -prosesser.
 keywords: salg, salgskort, salgsskjerm
 author: Bergfrid Dias
-date: 02.03.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: concept
 license: salesessentials
 audience: person
@@ -21,14 +21,7 @@ Salgsfunksjonen i SuperOffice CRM hjelper deg med å administrere salgsmulighete
 
 Du kan knytte salg til firmaer, personer og prosjekter, noe som legger til rette for sømløst samarbeid mellom team. Salg kan også styres ved hjelp av salgsguider, forutsatt at salgstypen du har valgt har en definert guide.
 
-Se denne videoen for å lære hvor enkelt det er å håndtere salgsmuligheter i SuperOffice CRM:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
-
-(videolengde – 2:16)
-
-Salgsskjermen organiserer salg som arkivkort, som gir en detaljert oversikt over hver mulighet. Naviger mellom salg ved å bruke **Forrige**- og **Neste**-knappene (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre på kortene. Som standard vises alle salg. Hvis du ikke vil vise fullførte salg (solgte eller tapte), klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-knapp"></i> og velg **Hopp over utførte salg**.
+Salgsskjermen organiserer salg som arkivkort, som gir en detaljert oversikt over hver mulighet. Naviger mellom salg ved å bruke **Forrige**- og **Neste**-knappene (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre på kortene. Som standard vises alle salg. Hvis du ikke vil vise fullførte salg (solgte eller tapte), klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-knapp"></i> og velg **Hopp over utførte salg**. Dette valget er også tilgjengelig som en innstilling under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Salg**.
 
 > [!TIP]
 > Salg vises også i [detaljkortet Salg][13] i Firma-, Person-, Prosjekt- og Dagbok-skjermene. Dobbeltklikk et salg i disse visningene for å åpne det i salgsskjermen.

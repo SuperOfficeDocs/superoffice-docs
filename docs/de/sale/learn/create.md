@@ -4,8 +4,8 @@ title: Verkauf erfassen
 description: Erfassen Sie Verkäufe in SuperOffice Sales, um alle Verkaufschancen und Kundeninformationen an einem Ort zu speichern. Diese Anleitung zeigt Ihnen, wie Sie Verkäufe erfassen.
 keywords: Verkauf erstellen, neuer Verkauf, Verkauf hinzufügen, Verkauf erfassen, Verkauf
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 license: salesessentials
 audience: person
@@ -15,12 +15,7 @@ language: de
 
 # Verkauf erfassen
 
-Sie können einen Verkauf in SuperOffice CRM über die Schaltfläche **Neu** in der oberen Leiste erstellen. Sehen Sie sich dieses Video an oder folgen Sie den unten aufgeführten Schritten, um einen Verkauf zu erstellen:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
-
-(Videolänge – 2:10)
+Sie können einen Verkauf in SuperOffice CRM über die Schaltfläche **Neu** in der oberen Leiste erstellen.
 
 ## Schritte
 

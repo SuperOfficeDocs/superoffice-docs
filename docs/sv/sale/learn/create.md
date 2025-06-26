@@ -4,8 +4,8 @@ title: Registrera en försäljning
 description: Registrera försäljningar i SuperOffice Sales för att samla alla affärsmöjligheter och kunduppgifter på ett ställe. Den här guiden visar hur du registrerar en försäljning.
 keywords: skapa försäljning, ny försäljning, lägg till försäljning, registrera försäljning, försäljning
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 license: salesessentials
 audience: person
@@ -15,12 +15,7 @@ language: sv
 
 # Registrera en försäljning
 
-Du kan skapa en försäljning i SuperOffice CRM med hjälp av knappen **Nytt** i toppraden. Titta på den här videon eller följ stegen nedan för att registrera en försäljning:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
-
-(videolängd – 2:10)
+Du kan skapa en försäljning i SuperOffice CRM med hjälp av knappen **Nytt** i toppraden.
 
 ## Steg
 

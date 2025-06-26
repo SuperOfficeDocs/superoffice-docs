@@ -4,8 +4,8 @@ title: Een verkoop registreren
 description: Registreer verkopen in SuperOffice Sales om al uw verkoopkansen en klantinformatie op één plek te beheren. Deze gids laat u zien hoe u verkopen kunt registreren.
 keywords: verkoop aanmaken, nieuwe verkoop, verkoop toevoegen, verkoop registreren, verkoop
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.26.2025
+version: 10.5.5
 topic: howto
 license: salesessentials
 audience: person
@@ -15,12 +15,7 @@ language: nl
 
 # Een verkoop registreren
 
-U kunt een verkoop registreren in SuperOffice CRM met de knop **Nieuw** in de bovenste balk. Bekijk deze video of volg de onderstaande stappen om een verkoop te registreren:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
-
-(video duur - 2:10)
+U kunt een verkoop registreren in SuperOffice CRM met de knop **Nieuw** in de bovenste balk.
 
 ## Stappen
 
