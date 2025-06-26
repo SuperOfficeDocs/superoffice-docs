@@ -2,10 +2,10 @@
 uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
 description: Lær mere om, hvordan du håndterer afviste mails, i denne vejledning.
-keywords: Marketing
+keywords: for mange returposter, blokerede mailadresser, hård afvisning, blød afvisning, e-mails kommer tilbage
 author: SuperOffice RnD
-date: 12.11.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
@@ -53,10 +53,9 @@ Brug filterknapperne (Sendt, Afvist og Åbnet) til at [filtrere din modtagerlist
 
 ## Blokerede e-mailadresser
 
-E-mail-adresser, der er returneret på grund af permanente fejl eller er kommet tilbage flere gange, blokeres automatisk og springes over i fremtidige udsendelser.
+E-mailadresser, der har fejlet på grund af permanente fejl eller er blevet returneret gentagne gange, blokeres automatisk. Blokerede adresser springes over i alle fremtidige udsendelser for at beskytte dit afsenderomdømme.
 
-> [!NOTE]
-> Hvis en e-mail bliver afvist mere end 5 gange, bliver den automatisk blokeret. Du kan justere denne indstilling i de generelle indstillinger, Indstillinger og Administration, under **Antal accepterede afvisninger inden mailadressen deaktiveres**.
+Som standard blokeres en e-mailadresse efter 5 på hinanden følgende afvisninger. Denne grænse definerer, hvad der betragtes som **for mange returposter**. Det hjælper med at identificere upålidelige adresser, der konsekvent fejler. Du kan justere denne grænse i den globale indstilling **Antal accepterede afvisninger inden mailadressen deaktiveres** i Indstillinger og vedligeholdelse.
 
 Alle blokerede e-mail-adresser fra alle udsendelser arkiveres under fanen **Blokerede mailadresser** .  Denne fane giver et fremragende overblik over e-mailadresser, der skal slettes.
 

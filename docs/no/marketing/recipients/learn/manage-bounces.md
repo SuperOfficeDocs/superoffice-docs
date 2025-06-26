@@ -2,14 +2,14 @@
 uid: help-no-blocked-email-addresses
 title: Blokkerte e-postadresser
 description: Finn ut hvordan du håndterer returnerte e-postmeldinger i denne veiledningen.
-keywords: Markedsføring
+keywords: for mange returmeldinger, returmelding, hard retur, myk retur, blokkerte e-postadresser, returnert e-post
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 06.26.2025
+version: 10.5
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Behandle returmeldinger
@@ -53,12 +53,11 @@ Bruk filterknappene (Sendt, Returnert og Åpnet) til å [filtrere mottakerlisten
 
 ## Blokkerte e-postadresser
 
-E-postadresser som har blitt returnert på grunn av permanente feil eller har returnert flere ganger, blokkeres automatisk og vil bli hoppet over i fremtidige utsendelser.
+E-postadresser som har feilet på grunn av permanente feil eller har blitt returnert gjentatte ganger, blir automatisk blokkert. Blokkerte adresser blir hoppet over i alle fremtidige utsendelser for å beskytte ditt avsenderomdømme.
 
-> [!NOTE]
-> Hvis en e-post returneres mer enn fem ganger, blokkeres den automatisk. Du kan justere denne innstillingen i den globale innstillingen **Antall godkjente returer før e-postadressen blir deaktivert** i Innstillinger og vedlikehold.
+Som standard blir en e-postadresse blokkert etter 5 påfølgende returer. Denne grensen definerer hva som anses som **for mange returmeldinger**. Det hjelper med å identifisere upålitelige adresser som stadig feiler. Du kan justere denne grensen i den globale innstillingen **Antall godkjente returer før e-postadressen blir deaktivert** i Innstillinger og vedlikehold.
 
-Alle blokkerte e-postadresser fra alle utsendelser er arkivert i fanen**Blokkerte e-postadresser**. Denne fanen gir en utmerket oversikt over e-postadresser som må rengjøres.
+Alle blokkerte e-postadresser fra alle utsendelser er arkivert i fanen **Blokkerte e-postadresser**. Denne fanen gir en utmerket oversikt over e-postadresser som må rengjøres.
 
 > [!TIP]
 > Klikk på en kolonne for å få tilgang til sorterings- og grupperingsfunksjonene.
