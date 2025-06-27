@@ -5,7 +5,7 @@ description: SharePoint document migration - How to move documents from a previo
 author: Frode Berntsen, Bergfrid Dias
 date: 08.18.2023
 keywords: SharePoint, document
-topic: howto
+content_type: howto
 version:
 envir: cloud
 client: online

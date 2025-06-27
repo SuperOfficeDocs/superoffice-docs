@@ -4,7 +4,7 @@ uid: webtools-configure
 description: "How to configure WebTools."
 author: H.O. Waaler, Jostein K, Bergfrid Dias
 keywords: WebTools, SiteInfo, registry
-topic: howto
+content_type: howto
 date: 01.23.2024
 envir: onsite
 ---

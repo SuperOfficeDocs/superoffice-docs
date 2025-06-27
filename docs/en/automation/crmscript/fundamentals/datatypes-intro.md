@@ -4,7 +4,7 @@ title: Introduction to data types
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Introduction to data types

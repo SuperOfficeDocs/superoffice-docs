@@ -5,7 +5,7 @@ description: Troubleshooting WebTools
 author: Jostein K, Bergfrid Dias
 date: 01.23.2024
 keywords: WebTools
-topic: howto
+content_type: howto
 ---
 
 # Troubleshooting WebTools

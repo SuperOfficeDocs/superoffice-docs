@@ -5,7 +5,7 @@ description: User provisioning
 author: {github-id}
 date: 01.15.2024
 keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

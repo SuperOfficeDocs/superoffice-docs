@@ -5,7 +5,7 @@ description: Get person image and display in the customer center
 author: {github-id}
 date: 06.24.2016
 keywords: Customer Center
-topic: tutorial
+content_type: tutorial
 ---
 
 # How to display the key account manager's picture

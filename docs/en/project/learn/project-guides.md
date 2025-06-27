@@ -6,7 +6,7 @@ keywords: project guide, guide, workflow, Project guide section tab, project
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

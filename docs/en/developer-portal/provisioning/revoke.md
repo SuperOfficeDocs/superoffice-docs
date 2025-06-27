@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 09.25.2024
 version_devportal: 1.26
 keywords: App Store, revoke, consent
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

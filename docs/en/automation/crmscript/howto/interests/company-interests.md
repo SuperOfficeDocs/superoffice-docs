@@ -6,7 +6,7 @@ keywords: CRMScript, company, interest, GetContactEntity, GetInterests, NSContac
 author: Eivind Fasting
 date: 04.12.2024
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Set/clear interest on company

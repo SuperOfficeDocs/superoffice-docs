@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to get all dashboards and 
 author: AnthonyYates
 date: 02.9.2024
 keywords: dashboard
-topic: howto
+content_type: howto
 language: en
 ---
 

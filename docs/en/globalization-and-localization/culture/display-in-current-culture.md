@@ -5,7 +5,7 @@ description: How to display values in current culture
 author: {github-id}
 date:
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

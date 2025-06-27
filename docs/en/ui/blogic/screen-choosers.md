@@ -5,7 +5,7 @@ description: Screen choosers
 author:
 date:
 keywords:
-topic:  concept
+content_type: concept
 ---
 
 # Screen choosers

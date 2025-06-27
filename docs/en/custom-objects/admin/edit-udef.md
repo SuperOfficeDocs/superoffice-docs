@@ -5,7 +5,7 @@ description: Edit user-defined field
 keywords: udef, user-defiend field, custom field, field type
 author: Bergfrid Dias
 date: 01.16.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

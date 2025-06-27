@@ -6,7 +6,7 @@ keywords: CRMScript, document, document properties, NSDocument, GetDocumentEntit
 author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Document properties

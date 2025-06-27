@@ -6,7 +6,7 @@ keywords: delete request status, transfer request status to, request status, req
 author: Hanne Gunnarsson
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

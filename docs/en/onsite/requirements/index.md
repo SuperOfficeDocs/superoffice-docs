@@ -4,7 +4,7 @@ uid: onsite_system_requirements
 description: System requirements - onsite
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

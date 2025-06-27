@@ -6,7 +6,7 @@ keywords: Developer Portal, app, customer, tenant
 author: Bergfrid Dias
 date: 12.10.2024
 version_devportal: 1.29
-topic: howto
+content_type: howto
 envir: cloud
 ---
 

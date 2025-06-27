@@ -5,7 +5,7 @@ description: Profile
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: profile, service
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

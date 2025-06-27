@@ -5,7 +5,7 @@ description: What is SuperOffice Expander Data Exchange
 author: {github-id}
 date: 02.21.2022
 keywords: Expander Data Exchange, ODBCAgent, SuperOfficeAgent, LDAPAgent
-topic: concept
+content_type: concept
 ---
 
 # SuperOffice Expander Data Exchange

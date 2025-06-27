@@ -5,7 +5,7 @@ description: "Business requirements for certifying standard applications."
 author: Margrethe Romnes
 date: 02.02.2022
 keywords: certification, apps
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

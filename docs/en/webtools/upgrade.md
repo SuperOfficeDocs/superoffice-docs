@@ -4,7 +4,7 @@ uid: webtools-upgrade
 description: Upgrade WebTools, Hide download dialog
 author: {github-id}
 keywords: WebTools, upgrade
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

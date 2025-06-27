@@ -5,7 +5,7 @@ description: PageBuilder
 author: {github-id}
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # PageBuilder

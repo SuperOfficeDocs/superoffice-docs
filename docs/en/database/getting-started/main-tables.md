@@ -5,7 +5,7 @@ description: "Overview of the main database tables in SuperOffice."
 author: Bergfrid Dias
 date: 02.02.2022
 keywords: database
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

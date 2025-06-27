@@ -6,7 +6,7 @@ keywords: mobile CRM app, SuperOffice mobile CRM, mobile
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: reference
+content_type: reference
 client: mobile
 language: en
 ---

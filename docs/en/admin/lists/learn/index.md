@@ -5,7 +5,7 @@ description: How to edit lists
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: list
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

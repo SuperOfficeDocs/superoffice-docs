@@ -5,7 +5,7 @@ description: Win Script and event system - aborting a save sequence
 author: Conrad Weyns
 date: 10.28.2019
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

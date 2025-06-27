@@ -5,7 +5,7 @@ description: CRMScript hooks
 author:
 date:
 keywords: automation
-topic: reference
+content_type: reference
 version: 9.2.7648
 # envir:
 # client:

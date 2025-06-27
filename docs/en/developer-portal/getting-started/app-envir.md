@@ -5,7 +5,7 @@ description: About application environments
 author: Tony Yates
 date: 05.19.2022
 keywords: sod, stage, environment, maintenance window
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

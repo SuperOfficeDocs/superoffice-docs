@@ -5,7 +5,7 @@ description: How to activate travel function
 author: {github-id}
 keywords:
 date:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

@@ -3,7 +3,7 @@ title: database
 description: SuperOffice database documentation
 author: {github-id}
 keywords:
-topic: generic
+content_type: concept
 date: 05.11.2016
 # envir:
 # client:

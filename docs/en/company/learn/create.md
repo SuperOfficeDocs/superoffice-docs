@@ -6,7 +6,7 @@ keywords: create company, add interest, Interests tab, company
 author: Bergfrid Dias
 date: 11.29.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

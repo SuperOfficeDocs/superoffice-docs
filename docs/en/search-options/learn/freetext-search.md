@@ -6,7 +6,7 @@ keywords: free-text, search
 author: Bergfrid dias
 date: 01.20.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

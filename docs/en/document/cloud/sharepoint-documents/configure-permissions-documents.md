@@ -5,7 +5,7 @@ description: How to set up the SharePoint using site permissions and Microsoft E
 author: Bergfrid Dias
 date: 01.15.2024
 keywords: SharePoint, permission, security, access control, Microsoft Entra, domain group, ME-ID, AAD
-topic: howto
+content_type: howto
 version:
 envir: cloud
 client: online

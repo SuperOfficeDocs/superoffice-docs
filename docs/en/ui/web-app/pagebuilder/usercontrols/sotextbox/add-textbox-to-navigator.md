@@ -5,7 +5,7 @@ description: How to add new components to an existing page (SoTextBox to Navigat
 author: Tony Yates
 date: 06.24.2016
 keywords:
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

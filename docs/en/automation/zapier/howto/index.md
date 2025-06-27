@@ -5,7 +5,7 @@ description: Index for tips and tricks
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier
-topic: howto
+content_type: howto
 language: en
 client: Zapier
 ---

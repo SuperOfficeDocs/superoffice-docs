@@ -5,7 +5,7 @@ description: Working with third-party tables in CRMScript
 author: Bergfrid Skaara Dias
 date: 02.07.2022
 keywords: CRMScript, database, extra table, custom object
-topic: concept
+content_type: concept
 ---
 
 # Third-party tables

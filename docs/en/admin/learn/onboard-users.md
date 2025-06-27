@@ -5,7 +5,7 @@ description: Introduction to administrating SuperOffice.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: admin, Settings and maintenance
-topic: howto
+content_type: howto
 language: en
 ---
 # Get your users on board

@@ -5,7 +5,7 @@ description: How to obtain consent to access a customer's tenant
 author: Margrethe Romnes
 date: 12.20.2023
 keywords: tenant, consent, approve
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

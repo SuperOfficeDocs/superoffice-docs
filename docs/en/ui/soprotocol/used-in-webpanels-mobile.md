@@ -5,7 +5,7 @@ description: SoProtocol and web panels - mobile
 author: Bergfrid Dias
 date: 01.14.2022
 keywords: soprotocol, deeplinking, web panel
-topic: reference
+content_type: reference
 client: mobile
 ---
 

@@ -5,7 +5,7 @@ description: How-to guide for making "Zaps" for Superoffice CRM.
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier, Zap, automation, sale
-topic: howto
+content_type: howto
 language: en
 client: Zapier
 ---

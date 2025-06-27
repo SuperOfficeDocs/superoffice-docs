@@ -4,7 +4,7 @@ uid: office_365_security
 description: Microsoft 365 document integration security
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

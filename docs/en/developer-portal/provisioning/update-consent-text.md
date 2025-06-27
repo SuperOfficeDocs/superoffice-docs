@@ -6,7 +6,7 @@ keywords: Developer Portal, app, consent
 author: Bergfrid Dias
 date: 08.21.2024
 version_devportal: 1.25
-topic: howto
+content_type: howto
 envir: cloud
 client:
 ---

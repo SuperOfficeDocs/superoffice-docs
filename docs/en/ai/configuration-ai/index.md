@@ -3,7 +3,7 @@ title: SuperOffice AI Services - categorization
 description: SuperOffice AI Services - categorization
 author: AnthonyYates
 keywords: AI, machine learning
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

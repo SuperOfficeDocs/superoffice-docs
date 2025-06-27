@@ -5,7 +5,7 @@ description:  Global profiles
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: profile, service
-topic: concept
+content_type: concept
 language: en
 ---
 

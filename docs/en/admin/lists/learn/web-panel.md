@@ -5,7 +5,7 @@ description: Web panel
 keywords: GUI - Web panel, web panel, www tab
 author: SuperOffice RnD
 date: 12.17.2024
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

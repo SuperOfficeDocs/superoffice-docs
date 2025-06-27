@@ -6,7 +6,7 @@ keywords: form, form data, submission, submitted, submitter, process, data from 
 author: Bergfrid Dias
 date: 03.04.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -6,7 +6,7 @@ keywords: ERP connection, configure sync, field mapping, list mapping, default v
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance

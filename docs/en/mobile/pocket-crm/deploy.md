@@ -4,7 +4,7 @@ uid: deploy_pocket_onsite
 description: Pocket CRM installation and deployment
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: pocket
 ---

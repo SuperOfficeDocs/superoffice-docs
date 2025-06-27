@@ -5,7 +5,7 @@ description: The Identity Management Gateway Architecture, User interface, and P
 author:
 date: 01.15.2024
 keywords: Identity, Management, Gateway, Architecture, SuperID, Microsoft Entra, ME-ID, AAD
-topic: reference
+content_type: reference
 envir:  cloud
 client: online
 ---

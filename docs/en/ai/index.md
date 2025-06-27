@@ -5,7 +5,7 @@ description: SuperOffice AI Services
 keywords: AI, Artificial Intelligence, AI Platform, license
 author: AnthonyYates
 date: 06.25.2024
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

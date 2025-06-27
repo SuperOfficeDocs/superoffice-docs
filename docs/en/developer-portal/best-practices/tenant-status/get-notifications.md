@@ -6,7 +6,7 @@ keywords: state, tenant
 author: Eivind Fasting, Bergfrid Dias
 date: 09.06.2024
 version_devportal: 1.25
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

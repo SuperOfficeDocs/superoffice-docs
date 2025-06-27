@@ -6,7 +6,7 @@ keywords: edit sales guide, update sales guide, deactivate sales guide, sales gu
 author: Bergfrid Dias
 date: 01.06.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance

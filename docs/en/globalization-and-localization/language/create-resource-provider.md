@@ -5,7 +5,7 @@ description: How to create a resource provider
 author: {github-id}
 date:
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

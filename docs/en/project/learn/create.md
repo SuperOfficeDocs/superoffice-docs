@@ -6,7 +6,7 @@ keywords: create project, new project, add project, project
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

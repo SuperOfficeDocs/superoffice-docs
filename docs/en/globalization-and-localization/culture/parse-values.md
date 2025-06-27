@@ -5,7 +5,7 @@ description: How to parse values to NetServer format
 author: {github-id}
 date:
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

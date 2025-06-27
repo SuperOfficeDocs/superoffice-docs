@@ -6,7 +6,7 @@ keywords: view reply template, find reply template, reply template, ready-made t
 author: Bergfrid Dias
 date: 01.14.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

@@ -5,7 +5,7 @@ description: Link to a web panel
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Link to a web panel

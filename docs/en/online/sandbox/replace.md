@@ -5,7 +5,7 @@ description: SuperOffice Operation Center for customer administrators with a pro
 author: Bergfrid Dias
 date: 12.06.2021
 keywords: production sandbox, test environment, OC, clone
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

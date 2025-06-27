@@ -5,7 +5,7 @@ description: Helper for private applications
 author: Tony Yates
 date: 09.07.2023
 keywords:
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

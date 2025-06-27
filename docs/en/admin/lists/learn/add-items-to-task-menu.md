@@ -5,7 +5,7 @@ description: Add items to the Task menu list
 author: SuperOffice RnD
 date: 01.11.2023
 keywords: Settings and maintenance
-topic: help
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

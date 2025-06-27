@@ -6,7 +6,7 @@ keywords: invitation, invite, meeting, associate, attendee, participant, diary, 
 author: Bergfrid Dias
 date: 01.13.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

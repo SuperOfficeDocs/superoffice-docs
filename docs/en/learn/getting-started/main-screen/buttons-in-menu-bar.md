@@ -6,7 +6,7 @@ keywords: top bar, button, Personal settings menu, Main menu options
 author: Kirsti Aakerholt, Bergfrid Dias
 date: 01.17.2025
 version: 10.5
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

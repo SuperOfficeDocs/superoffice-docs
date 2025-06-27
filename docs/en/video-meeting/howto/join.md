@@ -5,7 +5,7 @@ description: How to join a video meeting
 author: {github-id}
 date: 08.12.2021
 keywords: video meeting
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -4,7 +4,7 @@ uid: video_meetings_webex
 description: Getting started with Video Meetings for SuperOffice - Webex
 date: 06.21.2021
 keywords: video meeting, Webex
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: Labels
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: label
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

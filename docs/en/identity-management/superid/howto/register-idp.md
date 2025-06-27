@@ -6,7 +6,7 @@ keywords: IdP, SuperID, Microsoft Entra, ME-ID, AAD
 author: Frode Berntsen
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

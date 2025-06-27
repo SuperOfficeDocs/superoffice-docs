@@ -6,7 +6,7 @@ keywords: Request a meeting, invite project member, invitation, project member, 
 author: SuperOffice RnD
 date: 01.06.2025
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

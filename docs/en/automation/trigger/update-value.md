@@ -5,7 +5,7 @@ description: Update values before save trigger
 author: Simen Mostuen Iversen
 date: 06.06.2019
 keywords: automation,before save
-topic: howto
+content_type: howto
 ---
 
 # Update values

@@ -5,7 +5,7 @@ description:  Debug Windows client
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: debug, superoffice.ini, superoffice.config
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

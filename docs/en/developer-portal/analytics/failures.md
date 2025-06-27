@@ -5,7 +5,7 @@ description: How to check exceptions and failed requests from your apps API call
 author: Bergfrid Dias
 date: 11.15.2023
 keywords: API call, exception, fail, request
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 version_devportal: 1.16

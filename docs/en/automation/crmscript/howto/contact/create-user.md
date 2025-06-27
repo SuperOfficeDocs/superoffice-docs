@@ -6,7 +6,7 @@ keywords: CRMScript, ejuser, user, user account
 author: Bergfrid Skaara Dias
 date: 15.02.2021
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Create and update customers

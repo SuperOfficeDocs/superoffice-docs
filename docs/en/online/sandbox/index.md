@@ -5,7 +5,7 @@ description: SuperOffice production sandbox
 author: Bergfrid Dias
 date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

@@ -6,7 +6,7 @@ keywords: CRMScript, automation, trigger, Request tab, mark as spam
 author: kronicz
 date: 02.11.2025
 version: 10.5.2
-topic: tutorial
+content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

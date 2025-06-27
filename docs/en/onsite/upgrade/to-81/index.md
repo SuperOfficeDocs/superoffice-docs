@@ -4,7 +4,7 @@ uid: upgrade_to_81
 description: Upgrade to 8.1
 author: {github-id}
 keywords: upgrade
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

@@ -5,7 +5,7 @@ description: Resetting rules for duplicate handling
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Windows Client settings
-topic: help
+content_type: howto
 language: en
 client: win
 envir: onsite

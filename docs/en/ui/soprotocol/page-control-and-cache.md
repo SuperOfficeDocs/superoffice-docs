@@ -5,7 +5,7 @@ description: SoProtocol page control and cache
 author:
 date:
 keywords: soprotocol, deeplinking, cache
-topic: reference
+content_type: reference
 ---
 
 # Page control and cache

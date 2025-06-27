@@ -5,7 +5,7 @@ description: Web application tutorials
 author: {github-id}
 date:
 keywords: webapp
-topic: tutorial
+content_type: tutorial
 envir: onsite
 client: web
 ---

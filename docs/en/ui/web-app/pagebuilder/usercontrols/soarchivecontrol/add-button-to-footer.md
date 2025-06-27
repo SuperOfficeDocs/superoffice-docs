@@ -5,7 +5,7 @@ description: How to add a button to the archive footer
 author: Tony Yates
 date: 06.24.2016
 keywords:
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

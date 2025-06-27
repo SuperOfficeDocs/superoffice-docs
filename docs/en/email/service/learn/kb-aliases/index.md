@@ -5,7 +5,7 @@ description: Work with email addresses
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: request
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person

@@ -5,7 +5,7 @@ description: Integration in the Service client
 author: Tony Yates
 date: 11.26.2021
 keywords: API, integration point, Service
-topic: reference
+content_type: reference
 envir: cloud, onsite
 client: service
 ---

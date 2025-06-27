@@ -5,7 +5,7 @@ description: Create our own resx file
 author: {github-id}
 date:
 keywords: resx, ResourceStrings, translation, globalization, ResXmlFileProvider
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

@@ -6,7 +6,7 @@ keywords: document, check in, lock document, edit mode, read mode, ask to edit o
 author: Bergfrid Dias
 date: 01.17.2025
 version: 10.5.1
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

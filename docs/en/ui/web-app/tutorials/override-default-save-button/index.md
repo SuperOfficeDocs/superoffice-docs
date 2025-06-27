@@ -5,7 +5,7 @@ description: This sample discusses overriding the default behavior when clicking
 author: Tony Yates
 date: 06.19.2009
 keywords: pagebuilder
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

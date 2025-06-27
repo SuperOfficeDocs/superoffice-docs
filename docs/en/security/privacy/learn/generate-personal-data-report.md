@@ -5,7 +5,7 @@ description: Generate personal data report
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: company
-topic: howto
+content_type: howto
 language: en
 ---
 

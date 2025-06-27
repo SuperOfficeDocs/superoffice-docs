@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 08.27.2024
 version: 10.3.8
 keywords: app, notification, message, systemmessage
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

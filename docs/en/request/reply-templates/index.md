@@ -5,7 +5,7 @@ description: A reply template is a blueprint for an email. It consists of regula
 author: Bergfrid Dias
 date: 05.30.2023
 keywords: reply template, request, ticket, parse
-topic: concept
+content_type: concept
 ---
 
 # Service reply templates

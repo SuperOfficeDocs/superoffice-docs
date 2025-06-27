@@ -5,7 +5,7 @@ description: Web panels
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: web panel
-topic: concept
+content_type: concept
 language: en
 ---
 

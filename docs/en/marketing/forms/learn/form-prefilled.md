@@ -6,7 +6,7 @@ keywords: form, pre-fill, pre-filled field, form identifier, field ID
 author: SuperOffice RnD
 date: 03.05.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

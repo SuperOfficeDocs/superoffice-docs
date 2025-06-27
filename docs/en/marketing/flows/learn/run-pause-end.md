@@ -6,7 +6,7 @@ keywords: flow, automation, run flow, running, pause flow, resume flow, end flow
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 02.17.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -4,7 +4,7 @@ uid: smsteknik_sms_plugin
 description: Configuration of SMSTeknik NetServer SMS plugin
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Configuration of SMSTeknik NetServer SMS Plugin

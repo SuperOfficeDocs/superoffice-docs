@@ -5,7 +5,7 @@ description: View elements
 author:
 date:
 keywords:
-topic: 
+content_type: reference
 ---
 
 # View elements

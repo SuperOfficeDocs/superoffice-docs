@@ -6,7 +6,7 @@ keywords: navigator, navigate, menu, side menu, left menu, user interface
 author: Bergfrid Dias
 date: 01.17.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

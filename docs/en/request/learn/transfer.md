@@ -6,7 +6,7 @@ keywords: transfer request, re-assign request, change request owner, delegate, r
 author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

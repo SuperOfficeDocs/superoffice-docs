@@ -5,7 +5,7 @@ description: Creating a trigger - Macro
 author: Simen Mostuen Iversen
 date: 06.06.2019
 keywords: automation
-topic: howto
+content_type: howto
 ---
 
 # Creating a trigger :: Macro

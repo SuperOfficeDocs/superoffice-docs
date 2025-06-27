@@ -6,7 +6,7 @@ keywords: Marketing, mailing, recipients
 author: Bergfrid Dias
 date: 02.12.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

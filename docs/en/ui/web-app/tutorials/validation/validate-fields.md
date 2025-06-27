@@ -5,7 +5,7 @@ description: Validation in SuperOffice WEB
 author: Henning Dahl
 date: 09.28.2014
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

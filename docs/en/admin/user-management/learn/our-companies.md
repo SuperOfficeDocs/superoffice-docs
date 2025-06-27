@@ -5,7 +5,7 @@ description: How to add and remove companies in the Our companies tab
 author: Bergfrid
 date: 03.15.2023
 keywords: user, our companies
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

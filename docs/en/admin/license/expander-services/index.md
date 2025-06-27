@@ -4,7 +4,7 @@ uid: expander_services
 description: Expander Services
 author: Bergfrid Dias
 date: 01.15.2024
-topic: concept
+content_type: concept
 keywords: expander services, license, development tools
 ---
 

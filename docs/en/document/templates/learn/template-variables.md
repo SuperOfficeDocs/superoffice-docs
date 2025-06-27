@@ -6,7 +6,7 @@ keywords: document, template, variable
 author: Bergfrid Dias
 date: 12.10.2024
 version: 10.3
-topic: concept
+content_type: concept
 language: en
 ---
 

@@ -5,7 +5,7 @@ description: Tutorial - custom database and UI
 author:
 date:
 keywords:
-topic: guide
+content_type: tutorial
 ---
 
 # Tutorial - custom database and UI

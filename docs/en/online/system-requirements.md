@@ -6,7 +6,7 @@ keywords: requirement, browser, storage, operating system, Windows version, MacO
 author: RnD Services
 date: 04.19.2024
 version: 10
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

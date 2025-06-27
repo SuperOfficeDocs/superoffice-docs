@@ -5,7 +5,7 @@ description: Single sign-on
 author: {github-id}
 date:
 keywords: SSO
-topic: concept
+content_type: concept
 # Optional fields. Don't forget to remove # if you need a field.
 # envir:
 # client:

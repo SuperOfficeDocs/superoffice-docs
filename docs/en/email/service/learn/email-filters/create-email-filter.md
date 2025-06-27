@@ -5,7 +5,7 @@ description: Create email filters
 keywords: email, email filter, filter
 author: SuperOffice RnD
 date: 07.17.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

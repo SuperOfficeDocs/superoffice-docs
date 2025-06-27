@@ -5,7 +5,7 @@ description: Preparing IDP login for SharePoint integration
 author: {github-id}
 keywords: SharePoint, Microsoft Entra
 date: 01.15.2024
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

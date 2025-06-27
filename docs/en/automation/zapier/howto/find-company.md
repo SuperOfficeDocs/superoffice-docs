@@ -5,7 +5,7 @@ description: How to guide for creating and using search actions with Zapier.
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier, company, duplicate, search, action, Zap
-topic: howto
+content_type: howto
 language: en
 client: Zapier
 ---

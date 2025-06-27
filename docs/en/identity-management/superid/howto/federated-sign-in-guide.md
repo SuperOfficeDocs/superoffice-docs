@@ -5,7 +5,7 @@ description: Guide to federated sign-in
 author: Bergfrid Dias
 date: 01.15.2024
 keywords: SuperID, Microsoft Entra ID
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

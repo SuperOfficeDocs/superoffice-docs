@@ -5,7 +5,7 @@ description: Adding a textbox that displays data from a data handler
 author: Tony Yates
 date: 06.24.2016
 keywords: gui
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

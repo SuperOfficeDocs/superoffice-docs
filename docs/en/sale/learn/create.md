@@ -6,7 +6,7 @@ keywords: create sale, new sale, add sale, register sale, sale
 author: Bergfrid Dias
 date: 06.26.2025
 version: 10.5.5
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

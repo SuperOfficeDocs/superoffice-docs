@@ -5,7 +5,7 @@ description: SuperOffice Markup Language (SOML)
 author: Tony Yates
 date: 04.17.2018
 keywords:
-topic: concept
+content_type: concept
 client: web
 envir: onsite
 ---

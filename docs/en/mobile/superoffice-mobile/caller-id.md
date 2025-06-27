@@ -6,7 +6,7 @@ keywords: mobile, caller ID, call identification, phone number
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: howto
+content_type: howto
 client: mobile
 language: en
 ---

@@ -6,7 +6,7 @@ keywords: send quote, approve quote, edit sent quote, send, publish, approval, q
 author: Bergfrid Dias
 date: 04.09.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

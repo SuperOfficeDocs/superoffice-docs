@@ -5,7 +5,7 @@ description: Administrators can set preferences for various functions in the sys
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: settings, preferences
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

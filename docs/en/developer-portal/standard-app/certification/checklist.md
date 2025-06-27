@@ -5,7 +5,7 @@ description: Certification checklist
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: standard app
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

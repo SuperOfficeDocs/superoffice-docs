@@ -4,7 +4,7 @@ title: Print debug
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Print debug

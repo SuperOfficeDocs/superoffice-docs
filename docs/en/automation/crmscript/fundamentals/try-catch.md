@@ -4,7 +4,7 @@ title: Control - try...catch
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Control - try...catch

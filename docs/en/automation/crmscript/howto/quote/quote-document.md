@@ -6,7 +6,7 @@ keywords: quote, sale, document
 author: Bergfrid Dias
 date: 06.12.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Quote document

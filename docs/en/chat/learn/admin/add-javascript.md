@@ -5,7 +5,7 @@ description: Live Chat is a popular way for your customers and prospects to get 
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: chat
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

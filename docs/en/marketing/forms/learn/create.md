@@ -6,7 +6,7 @@ keywords: form, form template, multi-page
 author: SuperOffice RnD
 date: 02.29.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

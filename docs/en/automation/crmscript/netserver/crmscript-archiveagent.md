@@ -4,7 +4,7 @@ title: Archive agent
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Archive agent

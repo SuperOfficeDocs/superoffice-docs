@@ -5,7 +5,7 @@ description: SoTables.ini
 author: Bergfrid Dias
 date: 12.10.2021
 keywords: database, DBSetup, SoTables.ini
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

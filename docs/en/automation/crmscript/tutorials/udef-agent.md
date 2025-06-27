@@ -4,7 +4,7 @@ title: User-defined fields
 author:
 date:
 keywords: udefagent,crmscript
-topic: tutorial
+content_type: tutorial
 ---
 
 # NSUserDefinedFieldInfoAgent

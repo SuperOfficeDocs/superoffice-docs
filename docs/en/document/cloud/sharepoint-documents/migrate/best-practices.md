@@ -5,7 +5,7 @@ description: Best practices for SharePoint document migration.
 author: Frode Berntsen
 date: 08.18.2023
 keywords: SharePoint, document
-topic: reference
+content_type: reference
 version:
 envir: cloud
 client: online

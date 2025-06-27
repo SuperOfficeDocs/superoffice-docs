@@ -5,7 +5,7 @@ description: Web client and the model-view-controller pattern
 author: Tony Yates
 date: 02.16.2009
 keywords:
-topic: articleguide
+content_type: article
 envir: onsite
 client: web
 ---

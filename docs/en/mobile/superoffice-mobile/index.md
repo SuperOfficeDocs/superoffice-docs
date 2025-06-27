@@ -6,7 +6,7 @@ keywords: mobile CRM app, SuperOffice mobile CRM, mobile, customer info, sales, 
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: concept
+content_type: concept
 client: mobile
 language: en
 ---

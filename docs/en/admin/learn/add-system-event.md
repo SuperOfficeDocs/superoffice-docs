@@ -5,7 +5,7 @@ description: Adding system events
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: event, notification
-topic: howto
+content_type: howto
 language: en
 envir: onsite
 ---

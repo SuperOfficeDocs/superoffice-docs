@@ -5,7 +5,7 @@ description: Upgrade to 8.1 when using the old Service domain
 author: Martin Pavlas
 date: 12.17.2021
 keywords: upgrade, Service, SetupExe.exe, SuperOffice.CustomerService.exe, Setup.exe, SuperOffice Product Configuration, nsEndPoint
-topic: howto
+content_type: howto
 version: 8.1
 envir: onsite
 # client:

@@ -4,7 +4,7 @@ uid: globalization-address
 description: Localization, address formats
 author: Tony Yates
 date: 02.16.2022
-topic: concept
+content_type: concept
 keywords: address, globalization, LocalizedAddress, FormattedAddress
 ---
 

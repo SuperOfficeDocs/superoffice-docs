@@ -4,7 +4,7 @@ uid: cookies_overview
 description: Cookies overview
 author: {github-id}
 keywords: security, cookies
-topic: reference
+content_type: reference
 date:
 # envir:
 # client:

@@ -4,7 +4,7 @@ uid: automated_task_importmail
 description: Automated tasks in Service - importMail
 author: {github-id}
 keywords: service
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

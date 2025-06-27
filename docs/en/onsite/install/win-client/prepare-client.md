@@ -4,7 +4,7 @@ uid: prepare_win_client
 description: Prepare Win client computer
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

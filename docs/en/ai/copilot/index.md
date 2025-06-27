@@ -7,7 +7,7 @@ keywords: AI, ChatGPT, OpenAI, Bing, Copilot
 date: 10.09.2024
 version: 10.3.10
 pilot: yes
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 audience: person

@@ -5,7 +5,7 @@ description: Staying on top of your sales targets can be stressful. But if you d
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: sale
-topic: howto
+content_type: howto
 language: en
 ---
 

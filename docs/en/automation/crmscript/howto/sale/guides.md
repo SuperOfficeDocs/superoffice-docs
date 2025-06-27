@@ -6,7 +6,7 @@ keywords: sale, sales guide, sale type, stage, rank, ListAgent, suggested
 author: Bergfrid Dias
 date: 06.09.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Guides

@@ -5,7 +5,7 @@ description: Archive outgoing email with SuperOffice Gmail Link
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: en
 ---
 

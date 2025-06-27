@@ -5,7 +5,7 @@ description: Three ways to deploy and run scripts
 author: Tony Yates
 date: 04.15.2009
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

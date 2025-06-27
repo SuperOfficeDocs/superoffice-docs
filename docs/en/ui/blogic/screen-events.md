@@ -5,7 +5,7 @@ description: Screen events and hook scripts
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Screen events and hook scripts

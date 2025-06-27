@@ -5,7 +5,7 @@ description: Scheduled tasks
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: macro, script, schedule
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

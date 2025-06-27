@@ -5,7 +5,7 @@ description: What our published partners say about the security audit
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: Watchcom
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

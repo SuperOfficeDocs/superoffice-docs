@@ -5,7 +5,7 @@ description: A SearchEngine helper-method for CRMScript logging.
 keywords: CRMScript, log, log_events
 author: Tor Thorbergsen, Eivind Fasting
 date: 29.10.2024
-topic: howto
+content_type: howto
 ---
 
 # Logging in CRMScript

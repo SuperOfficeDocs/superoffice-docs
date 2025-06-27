@@ -4,10 +4,7 @@ uid: reasons_to_customize_mailgun
 description: Reasons to customize Mailgun
 author: {github-id}
 keywords:
-topic:
-# Optional fields. Don't forget to remove # if you need a field.
-# envir:
-# client:
+content_type: concept
 ---
 
 <!-- markdownlint-disable-file MD013 -->

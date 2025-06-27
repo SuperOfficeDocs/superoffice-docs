@@ -5,7 +5,7 @@ description: How to create a video meeting
 author: Bergfrid Dias
 date: 13.08.2021
 keywords: video meeting
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

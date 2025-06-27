@@ -5,7 +5,7 @@ description: Event details
 author: Tony Yates
 date: 04.06.2018
 keywords: automation
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

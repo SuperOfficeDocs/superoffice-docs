@@ -6,7 +6,7 @@ keywords: address, NSLocalizedAddress, NSLocalizedField
 author: Bergfrid Dias
 date: 02.16.2022
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Address localization in CRMScript

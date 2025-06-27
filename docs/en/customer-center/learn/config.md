@@ -5,7 +5,7 @@ description: Learn how to configure your Customer centre in this how-to guide.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Service, Customer centre, CEP
-topic: howto
+content_type: howto
 language: en
 ---
 

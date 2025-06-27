@@ -4,7 +4,7 @@ uid: webtools_system_requirements
 description: System requirements for WebTools
 author: {github-id}
 keywords: WebTools
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

@@ -5,7 +5,7 @@ description: Getting started with database mirroring
 author: Tony Yates
 date: 04.20.2016
 keywords:
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

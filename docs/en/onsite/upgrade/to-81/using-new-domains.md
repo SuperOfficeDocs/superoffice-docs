@@ -5,7 +5,7 @@ description: Upgrade to 8.1 when using new domains
 author: Martin Pavlas
 date: 12.08.2021
 keywords: upgrade
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 version: 8.1

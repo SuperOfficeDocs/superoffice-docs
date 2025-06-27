@@ -4,7 +4,7 @@ uid: setup_guide
 description: SuperOffice set-up guide
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

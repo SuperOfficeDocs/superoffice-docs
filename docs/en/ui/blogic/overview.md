@@ -5,7 +5,7 @@ description: UI interaction and customization for service
 author: Bergfrid Dias
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # UI interaction and customization

@@ -6,7 +6,7 @@ keywords: template variable, request, current ticket, tiid, miid
 author: David Hollegien
 date: 07.17.2024
 version: 10.3
-topic: reference
+content_type: reference
 language: en
 ---
 

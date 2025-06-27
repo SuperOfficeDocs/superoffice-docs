@@ -4,7 +4,7 @@ description: SuperOffice Remote Travel Server (SORTS)
 author: {github-id}
 keywords:
 date:
-topic: concept
+content_type: concept
 envir: onsite
 client: win
 ---

@@ -5,7 +5,7 @@ description: Request screen
 author: Hanne Gunnarsson
 date: 03.29.2023
 keywords: request
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

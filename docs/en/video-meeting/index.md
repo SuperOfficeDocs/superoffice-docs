@@ -5,7 +5,7 @@ description: Video Meetings for SuperOffice
 keywords: video meeting, template variable
 author: {github-id}
 date: 12.10.2024
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

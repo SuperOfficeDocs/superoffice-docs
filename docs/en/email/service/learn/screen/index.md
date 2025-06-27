@@ -5,7 +5,7 @@ description: Mailboxes
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance
-topic: concept
+content_type: concept
 language: en
 ---
 

@@ -5,7 +5,7 @@ description: Edit rights for anonymous users
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: user management, role, anonymous
-topic: howto
+content_type: howto
 language: en
 envir: onsite
 audience: settings

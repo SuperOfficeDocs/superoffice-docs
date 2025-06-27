@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 02.26.2025
 version: 2.0
 version_devportal: 2.0
-topic: howto
+content_type: howto
 envir: cloud
 ---
 

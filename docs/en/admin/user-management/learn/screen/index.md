@@ -5,7 +5,7 @@ description: Users screen
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: user, associate, our companies
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

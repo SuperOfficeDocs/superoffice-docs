@@ -5,7 +5,7 @@ description: How to create tables in the SuperOffice database for version 8.1 an
 author: Tony Yates
 date: 06.23.2017, 11.02.2017
 keywords:
-topic: guide
+content_type: tutorial
 # envir:
 # client:
 ---

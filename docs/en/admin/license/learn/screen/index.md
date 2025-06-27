@@ -5,7 +5,7 @@ description: The Licences screen in Settings and maintenance
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: license, metered service, database owner, status tab
-topic: reference
+content_type: reference
 language: en
 ---
 

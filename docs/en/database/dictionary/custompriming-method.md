@@ -5,7 +5,7 @@ description: CustomPriming method
 author: Tony Yates
 date: 06.23.2017
 keywords: database
-topic: concept
+content_type: concept
 # Optional fields. Don't forget to remove # if you need a field.
 # envir:
 # client:

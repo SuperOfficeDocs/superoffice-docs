@@ -6,7 +6,7 @@ keywords: Contact screen, person, contact
 author: Bergfrid Dias
 date: 12.17.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

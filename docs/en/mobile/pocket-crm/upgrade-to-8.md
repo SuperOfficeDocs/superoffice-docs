@@ -4,7 +4,7 @@ uid: upgrade_pocket_to_8
 description: Upgrade pocket CRM to SuperOffice 8
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: pocket
 ---

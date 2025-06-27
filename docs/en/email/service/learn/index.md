@@ -5,7 +5,7 @@ description: Service emails
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Settings and maintenance
-topic: concept
+content_type: concept
 language: en
 ---
 

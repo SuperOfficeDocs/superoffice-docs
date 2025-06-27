@@ -4,7 +4,7 @@ uid: db_getting_started
 description: Getting started with SuperOffice database
 author: {github-id}
 keywords:
-topic: overview
+content_type: concept
 ---
 
 # Getting started

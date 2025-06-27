@@ -6,7 +6,7 @@ keywords: CRMScript, calendar, diary, appointments, follow-up, resource, locatio
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Resources

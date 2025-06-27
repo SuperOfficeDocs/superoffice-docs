@@ -5,7 +5,7 @@ description: Basic NetServer scripting
 author: Tony Yates
 date: 04.15.2009
 keywords:
-topic: concept
+content_type: concept
 envir: onsite
 client: web
 ---

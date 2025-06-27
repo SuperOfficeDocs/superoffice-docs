@@ -6,7 +6,7 @@ keywords: edit follow-up, update follow-up, extend meeting, shorten meeting, cha
 author: Bergfrid Dias
 date: 01.10.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Work with external categories
 author: SuperOffice RnD
 date: 03.29.2023
 keywords: Settings and maintenance
-topic: help
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

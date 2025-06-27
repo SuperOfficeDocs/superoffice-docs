@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to use a web form.
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: form, Customer Center
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

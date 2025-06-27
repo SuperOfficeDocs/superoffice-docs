@@ -5,7 +5,7 @@ description: SOAP Admin port reference
 author: {github-id}
 keywords: soap
 date: 01.25.2021
-topic: reference
+content_type: reference
 ---
 
 # The Admin port

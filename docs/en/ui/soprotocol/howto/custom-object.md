@@ -6,7 +6,7 @@ keywords: soprotocol, custom object
 author: Michel Krohn-Dale
 date: 09.24.2024
 version: 10.3.8
-topic: howto
+content_type: howto
 client: web
 envir: online, onsite
 pilot: yes

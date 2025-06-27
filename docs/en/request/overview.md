@@ -5,7 +5,7 @@ description: How to manage requests and enquiries in SuperOffice - create intern
 author: Bergfrid Dias
 date: 05.31.2023
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation
-topic: concept
+content_type: concept
 ---
 
 # Requests

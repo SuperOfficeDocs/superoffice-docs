@@ -6,7 +6,7 @@ keywords: project, project management, CRMScript
 author: Bergfrid Dias
 date: 05.31.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Projects

@@ -5,7 +5,7 @@ description: How to create a Follow-up using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
 keywords: soprotocol, follow-up, create
-topic: howto
+content_type: howto
 ---
 
 # Create follow-up

@@ -5,7 +5,7 @@ description: Duplicates
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: duplicate
-topic: concept
+content_type: concept
 language: en
 ---
 

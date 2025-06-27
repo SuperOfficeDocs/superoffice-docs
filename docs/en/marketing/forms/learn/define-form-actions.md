@@ -6,7 +6,7 @@ keywords: form, automation, form action, form submission
 author: Bergfrid Dias
 date: 04.18.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

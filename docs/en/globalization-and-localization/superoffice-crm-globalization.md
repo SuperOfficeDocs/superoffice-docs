@@ -4,7 +4,7 @@ uid: superoffice_crm_globalization
 description: SuperOffice.CRM.Globalization namespace
 author: {github-id}
 date: 04.08.2018
-topic: reference
+content_type: reference
 keywords:
 ---
 

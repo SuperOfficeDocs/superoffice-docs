@@ -5,7 +5,7 @@ description: A guide to creating high-quality CRMScripts. Understanding coding c
 keywords: CRMScript, script, convention, best practice, intellisense
 author: Bergfrid Dias
 date: 04.15.2024
-topic: concept
+content_type: concept
 ---
 
 # Code quality

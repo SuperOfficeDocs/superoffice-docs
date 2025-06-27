@@ -6,7 +6,7 @@ keywords: sale
 author: Bergfrid Dias
 date: 06.09.2023
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Sales

@@ -5,7 +5,7 @@ description: The introduction of Artificial Intelligence (AI) in SuperOffice 10 
 keywords: request, AI, efficient
 author: Kirsti Aakerholt
 date: 04.19.2023
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

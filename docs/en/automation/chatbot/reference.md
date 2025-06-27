@@ -5,7 +5,7 @@ description: Chatbot scripts reference
 author: christianm
 date: 03.08.2021
 keywords: chatbot, ai
-topic: reference
+content_type: reference
 ---
 
 # Chatbot scripts reference

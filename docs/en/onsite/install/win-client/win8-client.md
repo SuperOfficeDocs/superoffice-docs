@@ -4,7 +4,7 @@ uid: install_win8_client
 description: Install SuperOffice 8 Windows client
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

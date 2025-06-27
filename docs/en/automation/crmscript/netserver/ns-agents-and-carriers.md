@@ -4,7 +4,7 @@ title: NetServer agents and carriers
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # NetServer agents and carriers

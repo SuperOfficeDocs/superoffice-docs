@@ -5,7 +5,7 @@ description:  Multi-factor authentication
 author: {github-id}
 date:
 keywords: MFA,2FA
-topic: concept
+content_type: concept
 client: online
 ---
 

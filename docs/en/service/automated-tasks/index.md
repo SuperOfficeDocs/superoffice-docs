@@ -4,7 +4,7 @@ uid: automated_tasks
 description: Automated tasks in Service
 author: {github-id}
 keywords: service
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

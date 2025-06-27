@@ -6,7 +6,7 @@ keywords: interest, company, contact, person, contactinterest, personinterest, c
 author: Eivind Fasting
 date: 04.18.2022
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Interests

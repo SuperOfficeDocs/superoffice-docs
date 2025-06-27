@@ -4,7 +4,7 @@ uid: troubleshooting_web_reporter
 description: Troubleshoot Reporter
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

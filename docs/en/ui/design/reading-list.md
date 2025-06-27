@@ -4,7 +4,7 @@ description: Further reading on design
 author: Christian Mogensen
 date: 12.09.2011
 keywords: design,ui
-topic: reference
+content_type: reference
 ---
 
 # Further reading on design

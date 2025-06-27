@@ -4,7 +4,7 @@ title: String data type
 author: Bergfrid Dias
 date: 01.14.2022
 keywords: CRMScript, string
-topic: concept
+content_type: concept
 ---
 
 # String data type

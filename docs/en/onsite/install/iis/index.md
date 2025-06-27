@@ -5,7 +5,7 @@ description: "How to prepare the IIS web server."
 author: {github-id}
 date: 02.02.2022
 keywords: IIS, install, WCF
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

@@ -5,7 +5,7 @@ description: How to create and delete user groups
 author: Bergfrid Dias
 date: 08.25.2023
 keywords: user group
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

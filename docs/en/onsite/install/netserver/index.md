@@ -5,7 +5,7 @@ description: How to install NetServer web services
 date: 12.08.2021
 author: Bergfrid Dias
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

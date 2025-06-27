@@ -4,7 +4,7 @@ uid: upgrade_win_client_to_8
 description: Upgrade Windows client
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

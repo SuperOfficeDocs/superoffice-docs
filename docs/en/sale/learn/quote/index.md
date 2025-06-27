@@ -6,7 +6,7 @@ keywords: Quote section tab, Quote tab, sales, proposal, quote alternative, quot
 author: Bergfrid Dias
 date: 04.25.2025
 version: 10.5.4
-topic: concept
+content_type: concept
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

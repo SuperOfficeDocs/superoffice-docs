@@ -4,7 +4,7 @@ uid: globalization_resource_providers
 description: Resource providers
 author: {github-id}
 date: 05.08.2018
-topic: concept
+content_type: concept
 keywords:
 ---
 

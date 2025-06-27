@@ -7,7 +7,7 @@ keywords: stop repeating, future instances, repeating follow-up, repeat, recur, 
 author: Bergfrid Dias
 date: 01.13.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

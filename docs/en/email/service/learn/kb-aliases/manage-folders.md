@@ -5,7 +5,7 @@ description: Administrate email address folders
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: request
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

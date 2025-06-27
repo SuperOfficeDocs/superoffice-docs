@@ -5,7 +5,7 @@ description: Grouping items under headings
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance
-topic: help
+content_type: howto
 language: en
 ---
 

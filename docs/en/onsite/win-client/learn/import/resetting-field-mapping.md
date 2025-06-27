@@ -5,7 +5,7 @@ description: Resetting field mapping
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Windows Client settings
-topic: help
+content_type: howto
 language: en
 client: win
 envir: onsite

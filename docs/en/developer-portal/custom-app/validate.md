@@ -5,7 +5,7 @@ description: Get your custom app validated
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: custom app, private app
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: CRMScript event model
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # CRMScript event model

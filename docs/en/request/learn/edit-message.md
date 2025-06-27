@@ -6,7 +6,7 @@ keywords: edit message properties, update message properties, change message pro
 author: Hanne Gunnarsson, Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: general administrator
 audience: person

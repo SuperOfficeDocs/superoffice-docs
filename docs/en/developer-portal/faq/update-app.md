@@ -5,7 +5,7 @@ description: Update an application
 author: Bergfrid Dias
 date: 08.26.2022
 keywords: App Store
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

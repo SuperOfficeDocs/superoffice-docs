@@ -4,7 +4,7 @@ title: Map data type
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Map data type

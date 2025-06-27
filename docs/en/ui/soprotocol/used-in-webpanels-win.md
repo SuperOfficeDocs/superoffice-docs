@@ -5,7 +5,7 @@ description: SoProtocol and web panels - win
 author:
 date:
 keywords: soprotocol, deeplinking, web panel
-topic: reference
+content_type: reference
 ---
 
 # SOProtocol and web panels

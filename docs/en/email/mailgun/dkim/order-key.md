@@ -5,7 +5,7 @@ description: How to request DKIM key for eu.mailgun.org
 author: {github-id}
 date: 09.12.2023
 keywords: mailgun
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

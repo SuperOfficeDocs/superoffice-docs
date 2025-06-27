@@ -5,7 +5,7 @@ description: Customer center templates
 keywords: Customer Center, CEP
 author: {github-id}
 date: 07.10.2024
-topic: howto
+content_type: howto
 audience: settings
 envir: onsite
 ---

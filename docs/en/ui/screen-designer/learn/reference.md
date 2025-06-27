@@ -6,7 +6,7 @@ keywords: Screen designer, layout, field, standard field, tab, standard tab
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

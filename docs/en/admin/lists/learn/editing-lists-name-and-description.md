@@ -5,7 +5,7 @@ description: Editing a list s name and description
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: list, subscription type
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

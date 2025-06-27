@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to view chat statistics bo
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat
-topic: howto
+content_type: howto
 language: en
 ---
 

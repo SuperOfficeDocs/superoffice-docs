@@ -5,7 +5,7 @@ description: SMS outbox
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Service
-topic: reference
+content_type: reference
 language: en
 ---
 

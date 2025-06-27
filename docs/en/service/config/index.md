@@ -5,7 +5,7 @@ description: Description of Service configuration
 author: Bergfrid Dias
 date: 12.12.2021
 keywords: service, config, nsEndPoint
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

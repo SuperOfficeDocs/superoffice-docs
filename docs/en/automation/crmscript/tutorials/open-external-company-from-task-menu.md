@@ -6,7 +6,7 @@ keywords: CRMScript, task menu, external URL, browser tab
 author: Eivind Fasting, David Hollegien
 date: 06.02.2025
 version: 10.5
-topic: tutorial
+content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

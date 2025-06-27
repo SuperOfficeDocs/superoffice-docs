@@ -5,7 +5,7 @@ description: Extra menus
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Extra menus

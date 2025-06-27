@@ -4,7 +4,7 @@ uid: gdpr_emarketing_consent
 description: GDRP consent for e-marketing
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

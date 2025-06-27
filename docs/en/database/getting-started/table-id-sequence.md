@@ -5,7 +5,7 @@ description: Sequence - where do IDs come from
 author:
 date:
 keywords: database
-topic: concept
+content_type: concept
 ---
 
 # Sequence - where do IDs come from

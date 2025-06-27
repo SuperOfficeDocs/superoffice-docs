@@ -5,7 +5,7 @@ description: Card config files
 author: Tony Yates
 date: 06.24.2016
 keywords: config
-topic: concept
+content_type: concept
 client: web
 envir: onsite
 ---

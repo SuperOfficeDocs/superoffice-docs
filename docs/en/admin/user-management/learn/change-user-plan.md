@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to change a user plan for 
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user, associate
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

@@ -4,7 +4,7 @@ title:
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Exploring search results

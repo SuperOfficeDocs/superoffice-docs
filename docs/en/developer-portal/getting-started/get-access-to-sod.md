@@ -5,7 +5,7 @@ description: Developer registration - how to get access to SOD (the SuperOffice 
 author: Bergfrid Dias, AnthonyYates
 date: 09.14.2023
 keywords: sod, form, developer registration
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

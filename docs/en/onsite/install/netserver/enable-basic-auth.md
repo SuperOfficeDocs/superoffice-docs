@@ -5,7 +5,7 @@ description: Web API authentication anon
 author: {github-id}
 date: 
 keywords: authentication, basic
-topic: concept
+content_type: concept
 ---
 
 # Configure Basic Authentication in IIS

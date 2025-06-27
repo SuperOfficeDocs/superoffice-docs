@@ -4,7 +4,7 @@ description: Email in Service and Marketing
 author: Frode B
 date: 01.15.2024
 keywords: email, cURL, OAuth
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

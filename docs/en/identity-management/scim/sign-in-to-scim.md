@@ -5,7 +5,7 @@ description: Sign in to SuperOffice Identity Manager
 author: {github-id}
 date: 01.15.2024
 keywords: IdP, Microsoft Entra, ME-ID, AAD, SCIM
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

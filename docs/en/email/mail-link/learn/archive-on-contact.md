@@ -5,7 +5,7 @@ description: Archiving emails on companies/contacts
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, email
-topic: howto
+content_type: howto
 language: en
 ---
 

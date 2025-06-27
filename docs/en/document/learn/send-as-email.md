@@ -6,7 +6,7 @@ keywords: document, email, attachment
 author: SuperOffice RnD
 date: 01.17.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -6,7 +6,7 @@ keywords: request, ticket, CRMScript
 author: Bergfrid Dias
 date: 05.26.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Working with requests in CRMScript

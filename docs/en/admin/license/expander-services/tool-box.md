@@ -6,7 +6,7 @@ keywords: expander services, development tools
 author: {github-id}
 date: 12.10.2024
 version: 10
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

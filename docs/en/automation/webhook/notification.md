@@ -5,7 +5,7 @@ description: Webhook notifications
 author: AnthonyYates
 date: 04.06.2018
 keywords:
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

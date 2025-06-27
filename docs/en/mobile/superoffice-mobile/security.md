@@ -6,7 +6,7 @@ author: Martin Pavlas
 keywords: mobile, pocket
 date: 01.15.2024
 version: 11.1
-topic: concept
+content_type: concept
 client: mobile
 language: en
 ---

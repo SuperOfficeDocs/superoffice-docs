@@ -5,7 +5,7 @@ description: "Learn about SuperOffice sign-in services."
 author: Bergfrid Dias
 keywords: SuperID, sign-in, user account
 date: 02.02.2022
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: Screen properties
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: screen
-topic: reference
+content_type: reference
 language: en
 ---
 

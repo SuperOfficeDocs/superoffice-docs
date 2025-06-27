@@ -5,7 +5,7 @@ description: How to create a Document using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
 keywords: soprotocol, document, create
-topic: howto
+content_type: howto
 ---
 
 # Create document

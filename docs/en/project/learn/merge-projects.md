@@ -6,7 +6,7 @@ keywords: merge projects, project management, project
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

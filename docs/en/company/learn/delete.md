@@ -6,7 +6,7 @@ keywords: delete company, remove company, company
 author: SuperOffice RnD
 date: 12.16.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

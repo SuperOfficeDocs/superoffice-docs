@@ -4,7 +4,7 @@ uid: reports_parameters
 description: Parameters for reports
 author: {github-id}
 date: 04.29.2020
-topic: reference
+content_type: reference
 keywords:
 ---
 

@@ -5,7 +5,7 @@ description: SuperOffice.config
 author: {github-id}
 date: 12.10.2021
 keywords: SuperOffice.config
-topic: reference
+content_type: reference
 envir: onsite
 client: win
 ---

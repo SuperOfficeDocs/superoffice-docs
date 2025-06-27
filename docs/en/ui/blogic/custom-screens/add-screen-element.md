@@ -5,7 +5,7 @@ description: Add screen element
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Add screen element

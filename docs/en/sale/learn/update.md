@@ -6,7 +6,7 @@ keywords: update sale, edit sale, delete sale, stalled, lost, sold, sale
 author: Bergfrid Dias
 date: 01.06.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

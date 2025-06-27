@@ -5,7 +5,7 @@ description: Tickets and identity transfers
 author: {github-id}
 date:
 keywords: authentication, user
-topic: concept
+content_type: concept
 envir: onsite
 client: web
 ---

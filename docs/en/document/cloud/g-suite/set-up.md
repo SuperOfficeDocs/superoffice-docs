@@ -5,7 +5,7 @@ description: How to set up Google Workspace Document Integration for SuperOffice
 keywords: Google Workspace, document integration, Google-account, Google Authentication
 author: Frode B, Martin Pavlas, Bergfrid Dias
 date: 07.12.2024
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

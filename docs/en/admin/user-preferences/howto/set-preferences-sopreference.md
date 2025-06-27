@@ -5,7 +5,7 @@ description: How to set preferences using SoPreference at the data layer
 author: Bergfrid Dias
 date: 02.22.2022
 keywords: preference
-topic: howto, SoPreference
+content_type: howto, SoPreference
 ---
 
 # SetPreference

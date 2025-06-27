@@ -5,7 +5,7 @@ description: Activate license for SuperOffice
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: license
-topic: howto
+content_type: howto
 language: en
 ---
 

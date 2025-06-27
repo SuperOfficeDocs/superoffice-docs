@@ -5,7 +5,7 @@ description: Regenerating a freetext index
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: free-text, search index
-topic: howto
+content_type: howto
 language: en
 envir: onsite
 ---

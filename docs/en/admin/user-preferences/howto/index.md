@@ -5,7 +5,7 @@ description: Caching preferences
 author: Bergfrid Dias
 date: 02.22.2022
 keywords: user preferences
-topic: concept
+content_type: concept
 ---
 
 # Preferences

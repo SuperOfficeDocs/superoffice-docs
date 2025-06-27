@@ -6,7 +6,7 @@ keywords: mobile, document, email, activity
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: reference
+content_type: reference
 client: mobile
 language: en 
 ---

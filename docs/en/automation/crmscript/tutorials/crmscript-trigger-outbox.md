@@ -5,7 +5,7 @@ description: How to use a trigger for the outbox
 author: hjelms
 date: 10.20.2023
 keywords: CRMScript
-topic: tutorial
+content_type: tutorial
 ---
 
 <!-- markdownlint-disable-file MD044 -->

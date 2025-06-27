@@ -4,7 +4,7 @@ uid: install_pocket_online
 description: How to install and configure the CRM Pocket client
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: cloud
 client: pocket
 ---

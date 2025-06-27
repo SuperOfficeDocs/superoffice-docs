@@ -5,7 +5,7 @@ description: How to open a Document using the soprotocol
 keywords: soprotocol, document, open
 author: Eivind Fasting
 date: 11.26.2024
-topic: howto
+content_type: howto
 ---
 
 # Open document

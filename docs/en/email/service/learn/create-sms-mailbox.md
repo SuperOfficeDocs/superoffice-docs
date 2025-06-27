@@ -5,7 +5,7 @@ description: Create SMS mailbox
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: email
-topic: howto
+content_type: howto
 language: en
 ---
 

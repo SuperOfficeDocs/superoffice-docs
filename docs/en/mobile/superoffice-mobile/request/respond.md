@@ -6,7 +6,7 @@ keywords: reply to request, answer request, respond to customer, reply, message,
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: howto
+content_type: howto
 client: mobile
 language: en
 ---

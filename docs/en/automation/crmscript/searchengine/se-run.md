@@ -4,7 +4,7 @@ title: Running a query
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Running a query

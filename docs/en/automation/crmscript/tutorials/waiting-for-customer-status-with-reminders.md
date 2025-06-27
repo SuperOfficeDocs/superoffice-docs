@@ -5,7 +5,7 @@ description: Using a "Waiting for customer" status with automated reminder email
 author: kronicz
 date: 10.03.2022
 keywords: CRMScript
-topic: tutorial
+content_type: tutorial
 ---
 
 # Using a "Waiting for customer" status with automated reminder email

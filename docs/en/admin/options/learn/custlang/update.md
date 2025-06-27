@@ -5,7 +5,7 @@ description: Learn how to set up Customer languages in this how-to guide.
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: language
-topic: howto
+content_type: howto
 language: en
 ---
 

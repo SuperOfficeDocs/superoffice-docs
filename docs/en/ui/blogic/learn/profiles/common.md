@@ -5,7 +5,7 @@ description: Common profiles
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: profile, service
-topic: howto
+content_type: howto
 language: en
 ---
 

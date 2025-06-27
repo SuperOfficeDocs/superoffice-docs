@@ -5,7 +5,7 @@ description: Add navigator group and extra menu
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: navigator group
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

@@ -6,7 +6,7 @@ keywords: apps, best practices, 3rd-party
 author: Margrethe Romnes, Anthony Yates
 date: 10.31.2024
 version: 10
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

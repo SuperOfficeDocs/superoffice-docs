@@ -5,7 +5,7 @@ description: The SuperOffice App Store marketplace - what it is and how to get n
 author: Bergfrid Dias
 date: 09.08.2023
 keywords: buy, app details, partner profile
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

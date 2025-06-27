@@ -5,7 +5,7 @@ description: Manage senders
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link
-topic: howto, sender
+content_type: howto, sender
 language: en
 ---
 

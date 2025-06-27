@@ -5,7 +5,7 @@ description: Security and access control in CRMScript.
 author: Bergfrid Skaara Dias
 date: 02.16.2022
 keywords: CRMScript, security, user, access control
-topic: concept
+content_type: concept
 ---
 
 # Security

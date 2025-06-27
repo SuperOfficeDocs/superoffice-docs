@@ -4,7 +4,7 @@ title: Chatbot overview
 author: christianm
 date: 03.08.2021
 keywords: chatbot, ai
-topic: concept
+content_type: concept
 ---
 
 # Chatbot overview

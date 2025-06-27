@@ -6,7 +6,7 @@ keywords: sale, stakeholder
 author: Bergfrid Dias
 date: 01.08.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

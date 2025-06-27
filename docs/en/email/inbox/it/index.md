@@ -5,7 +5,7 @@ description: SuperOffice Inbox
 author: Bergfrid Dias
 date: 03.21.2024
 keywords: email
-topic: concept
+content_type: concept
 ---
 
 # SuperOffice Inbox

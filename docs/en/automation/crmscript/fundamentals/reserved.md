@@ -4,7 +4,7 @@ title: Reserved words
 author:
 date:
 keywords:
-topic: referene
+content_type: howto
 ---
 
 # Reserved words

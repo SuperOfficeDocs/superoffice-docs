@@ -5,7 +5,7 @@ description: Google Workspace document integration setup - Self-Service Quick-Gu
 keywords: Google Workspace, document integration, Google-account, Google Authentication
 author: Frode B, Martin Pavlas, Bergfrid Dias
 date: 07.12.2024
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

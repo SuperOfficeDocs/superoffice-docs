@@ -5,7 +5,7 @@ description: External applications and URL addresses
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: URL, shortcut
-topic: concept
+content_type: concept
 language: en
 ---
 

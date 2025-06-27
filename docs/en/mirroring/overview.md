@@ -4,7 +4,7 @@ uid: mirroring_intro
 description: Database Mirroring Service for SuperOffice CRM Online
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

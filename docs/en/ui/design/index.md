@@ -4,7 +4,7 @@ description: Practical design hints
 author: Christian Mogensen
 date:
 keywords: design,ui
-topic: overview
+content_type: concept
 envir:
 client:
 ---

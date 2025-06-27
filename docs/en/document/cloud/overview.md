@@ -5,7 +5,7 @@ description: Microsoft 365 SharePoint and Google Workspace document integration 
 author: Bergfrid Dias
 date: 06.20.2022
 keywords: document
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

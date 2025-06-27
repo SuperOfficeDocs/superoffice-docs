@@ -5,7 +5,7 @@ description: Ways to debug CRMScript for SuperOffice.
 keywords: CRMScript, script, debug, debugger, log, trace, trace script, printDebug, developmentMode, includeId
 author: Bergfrid Dias
 date: 04.15.2024
-topic: concept
+content_type: concept
 ---
 
 # Debugging

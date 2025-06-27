@@ -5,7 +5,7 @@ description: SharePoint document integration for SuperOffice
 author: Frode Berntsen
 date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra domain, ME-ID, AAD
-topic: concept
+content_type: concept
 version:
 envir: cloud
 client: online

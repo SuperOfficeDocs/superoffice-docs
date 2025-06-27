@@ -5,7 +5,7 @@ description: Add items to the Mailing Domain list
 author: Hanne Gunnarsson
 date: 03.14.2023
 keywords: mailing, domain, SPF
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

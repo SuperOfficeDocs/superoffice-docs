@@ -4,7 +4,7 @@ title: Debugging CRMScript modules
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Debugging CRMScript modules

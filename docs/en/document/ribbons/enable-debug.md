@@ -4,7 +4,7 @@ uid: enable_debug_for_ribbons
 description: Enable debug for Ribbons
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

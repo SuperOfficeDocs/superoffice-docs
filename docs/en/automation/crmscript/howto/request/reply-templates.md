@@ -6,7 +6,7 @@ keywords: crmscript, reply template, service, template, load, parse
 author: Bergfrid Skaara Dias
 date: 05.30.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # How to use a reply template in CRMScript

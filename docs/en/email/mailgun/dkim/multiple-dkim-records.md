@@ -5,7 +5,7 @@ description: Multiple DKIM records in Mailgun
 author: Martin Pavlas
 date: 09.12.2023
 keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

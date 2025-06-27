@@ -5,7 +5,7 @@ description: CRMScript event model - Saving a request
 author:
 date:
 keywords:
-topic: reference
+content_type: reference
 ---
 
 # Saving a request

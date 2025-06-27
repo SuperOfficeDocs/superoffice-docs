@@ -6,7 +6,7 @@ keywords: open, sold, lost, stalled, stage, sale
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: howto
+content_type: howto
 client: mobile
 language: en
 ---

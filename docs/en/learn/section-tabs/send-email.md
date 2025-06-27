@@ -6,7 +6,7 @@ keywords: company
 author: Bergfrid Dias
 date: 01.29.2025
 version: 10.5
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM

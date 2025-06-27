@@ -6,7 +6,7 @@ keywords: CRMScript, calendar, diary, to-do, task, follow-up
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Todo list

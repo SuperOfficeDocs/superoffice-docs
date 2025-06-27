@@ -6,7 +6,7 @@ keywords: dashboard administrator, chart, report, dataset, big number, gauge, da
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 03.25.2025
 version: 10.5.3
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -5,7 +5,7 @@ description: Services SOAP interface port admin getUser
 author: {github-id}
 keywords: soap
 date: 01.25.2021
-topic: reference
+content_type: reference
 ---
 
 # getUser

@@ -5,7 +5,7 @@ description: Role
 author: Kirsti Aakerholt, Bergfrid Dias
 date: 08.25.2023
 keywords: role, data object, user level
-topic: concept
+content_type: concept
 audience: admin
 audience_tooltip: Settings and maintenance
 language: en

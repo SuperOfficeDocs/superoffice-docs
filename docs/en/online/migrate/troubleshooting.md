@@ -4,7 +4,7 @@ uid: troubleshooting_migration_errors
 description: Discusses potential problems after migration SuperOffice databases.
 author: AnthonyYates
 keywords: migrate
-topic: guide
+content_type: tutorial
 envir: onsite, online
 # client:
 ---

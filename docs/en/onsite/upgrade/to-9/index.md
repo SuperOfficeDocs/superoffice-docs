@@ -5,7 +5,7 @@ description: Upgrade to 9 or 10
 author: Martin Pavlas
 date: 12.08.2021
 keywords: upgrade
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 version: 9, 10

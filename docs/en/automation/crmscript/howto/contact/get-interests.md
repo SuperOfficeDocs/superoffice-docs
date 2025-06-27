@@ -7,7 +7,7 @@ author: Bergfrid Skaara Dias
 date: 15.02.2021
 version: 10
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # List interests for a person

@@ -4,7 +4,7 @@ title: Built-in debugger
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Built-in debugger

@@ -6,7 +6,7 @@ keywords: Add stakeholder, new stakeholder Add/edit stakeholders dialog, Stakeho
 author: Bergfrid Dias
 date: 01.08.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

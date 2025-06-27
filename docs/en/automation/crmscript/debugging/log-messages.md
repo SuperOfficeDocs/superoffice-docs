@@ -4,7 +4,7 @@ title: Log Messages
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Log Messages

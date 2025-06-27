@@ -5,7 +5,7 @@ description: Known challenges with SuperID
 author:
 date:
 keywords: 
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

@@ -4,7 +4,7 @@ uid: set_up_modsecurity
 description: Install and configure ModSecurity on Proxy Server for SuperOffice onsite
 author: {github-id}
 keywords: security
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

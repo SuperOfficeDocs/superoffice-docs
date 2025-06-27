@@ -5,7 +5,7 @@ description: Add Archive row context menu
 author: Steffan Alte
 date: 2007
 keywords:
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

@@ -5,7 +5,7 @@ description: How to format date and time when working with Zapier.
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier, date, time, format
-topic: howto
+content_type: howto
 language: en
 client: Zapier
 ---

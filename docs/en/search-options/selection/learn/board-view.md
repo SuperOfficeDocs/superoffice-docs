@@ -6,7 +6,7 @@ keywords: board view, selection view, selection, sales board, kanban, group by, 
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

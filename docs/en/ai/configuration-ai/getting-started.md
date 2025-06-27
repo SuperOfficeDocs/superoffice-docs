@@ -3,7 +3,7 @@ title: config categorization AI Services
 description: How to setup and configure Categorization AI Service
 author: AnthonyYates
 keywords: AI
-topic: guide, howto
+content_type: tutorial, howto
 envir: cloud
 client: online
 ---

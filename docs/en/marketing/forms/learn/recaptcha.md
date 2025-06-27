@@ -6,7 +6,7 @@ keywords: reCAPTCHA, reCAPTCHA profile, form, Google reCAPTCHA, I'm not a robot,
 author: Bergfrid Dias
 date: 03.05.2024
 version: 8.5 R04
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

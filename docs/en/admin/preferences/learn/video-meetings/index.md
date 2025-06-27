@@ -5,7 +5,7 @@ description: Video meetings
 keywords: Video meetings
 author: SuperOffice RnD
 date: 12.10.2024
-topic: howto
+content_type: howto
 language: en
 ---
 

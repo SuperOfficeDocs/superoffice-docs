@@ -5,7 +5,7 @@ description: Setting up a Reverse proxy on IIS8 for SuperOffice onsite
 author: Bergfrid Dias
 date: 11.26.2021
 keywords: security, reverse proxy, IIS, DMZ
-topic: howto
+content_type: howto
 envir: online
 client: web
 ---

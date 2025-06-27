@@ -4,7 +4,7 @@ title: Identity management
 description: All you need to know about identity management in SuperOffice CRM Online.
 author: frodeb@superoffice.com
 date: 01.15.2024
-topic: concept
+content_type: concept
 keywords: SuperID, IdP, Microsoft Entra, ME-ID, AAD
 ---
 

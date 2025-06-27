@@ -5,7 +5,7 @@ description: Web GUI .Net API technical details
 author: {github-id}
 date:
 keywords:
-topic: reference
+content_type: reference
 client: web
 envir: onsite
 ---

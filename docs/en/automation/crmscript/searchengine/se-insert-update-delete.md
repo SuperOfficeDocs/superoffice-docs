@@ -4,7 +4,7 @@ title: Insert, update, and delete
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Insert, update, and delete

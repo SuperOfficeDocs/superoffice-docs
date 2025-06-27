@@ -5,7 +5,7 @@ description: How SuperOffice selects the customer language for new contacts
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: language
-topic: help
+content_type: howto
 language: en
 ---
 

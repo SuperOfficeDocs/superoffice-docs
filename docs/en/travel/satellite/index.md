@@ -3,7 +3,7 @@ title: Satellite overview
 description: Overview of the satellite function
 author: {github-id}
 keywords: tavel
-topic: concept
+content_type: concept
 envir: onsite
 client: win
 ---

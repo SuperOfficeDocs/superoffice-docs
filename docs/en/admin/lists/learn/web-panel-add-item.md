@@ -5,7 +5,7 @@ description: Adding items to the web panel list
 author: SuperOffice RnD
 date: 01.20.2023
 keywords: list, web panel
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

@@ -4,7 +4,7 @@ description: Activity types for scheduling
 author: {github-id}
 keywords:
 date:
-topic: reference
+content_type: reference
 envir: onsite
 client: win
 ---

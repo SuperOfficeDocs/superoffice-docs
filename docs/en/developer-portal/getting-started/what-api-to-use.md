@@ -5,7 +5,7 @@ description: "Our APIs have different authentication and data access techniques.
 author: Tony Yates
 date: 09.13.2018
 keywords: apps, API, authentication, proxy
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

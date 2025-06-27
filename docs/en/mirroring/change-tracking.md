@@ -4,7 +4,7 @@ uid: mirroring_track_changes
 description: SQL Server change tracking
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

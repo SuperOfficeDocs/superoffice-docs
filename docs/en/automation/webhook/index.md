@@ -4,7 +4,7 @@ description: SuperOffice Webhooks
 author:
 date: 10.26.2021
 keywords: automation, webhook
-topic: concept
+content_type: concept
 ---
 
 # SuperOffice Webhooks

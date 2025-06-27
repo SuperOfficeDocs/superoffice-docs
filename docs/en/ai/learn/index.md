@@ -5,7 +5,7 @@ description: AI services
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: AI
-topic: concept
+content_type: concept
 language: en
 ---
 

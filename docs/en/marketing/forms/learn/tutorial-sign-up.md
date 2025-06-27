@@ -6,7 +6,7 @@ keywords: form, double opt-in, sign-up, newsletter
 author: Bergfrid Dias
 date: 02.29.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

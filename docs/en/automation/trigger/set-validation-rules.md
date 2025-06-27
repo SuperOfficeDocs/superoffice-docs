@@ -5,7 +5,7 @@ description: What if I want to specify what to validate?
 author: Simen Mostuen Iversen
 date: 06.06.2019
 keywords: automation,validate,contact
-topic: howto
+content_type: howto
 ---
 
 # What if I want to specify what to validate?

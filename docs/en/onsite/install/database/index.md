@@ -5,7 +5,7 @@ description: "How to prepare and install the SuperOffice database."
 author: {github-id}
 date: 09.12.2023
 keywords: install, database, Oracle, MSQL
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

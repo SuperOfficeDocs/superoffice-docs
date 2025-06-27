@@ -5,7 +5,7 @@ description: Using SOProtocol in CRMScript
 author: Eivind Fasting
 date: 05.23.2025
 keywords: soprotocol, deeplinking, CRMScript
-topic: reference
+content_type: reference
 ---
 
 # Using SOProtocol in CRMScript

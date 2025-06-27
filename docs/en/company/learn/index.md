@@ -6,7 +6,7 @@ keywords: Company card, Company screen, company, customer, partner, supplier
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

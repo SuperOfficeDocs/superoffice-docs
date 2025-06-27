@@ -6,7 +6,7 @@ keywords: CRMScript, calendar, diary, appointment, follow-up
 author: Bergfrid Skaara Dias
 date: 03.21.2022
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Calendar and todo list

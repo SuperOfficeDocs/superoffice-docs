@@ -5,7 +5,7 @@ description: Learn how to install the browser extension for Gmail in this how-to
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, email
-topic: howto
+content_type: howto
 language: en
 ---
 

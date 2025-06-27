@@ -5,7 +5,7 @@ description: Customer languages
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: language
-topic: concept
+content_type: concept
 language: en
 ---
 

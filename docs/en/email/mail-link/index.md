@@ -4,7 +4,7 @@ uid: maillink
 description: MailLink
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # MailLink

@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to add a new user in Super
 author: SuperOffice RnD
 date: 08.28.2023
 keywords: user, associate
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

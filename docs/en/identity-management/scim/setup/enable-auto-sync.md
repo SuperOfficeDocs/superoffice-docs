@@ -5,7 +5,7 @@ description: Enable automatic sync to SuperOffice
 author: {github-id}
 date: 01.15.2024
 keywords: SCIM, Microsoft Entra, ME-ID, AAD, enterprise app
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

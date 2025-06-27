@@ -5,7 +5,7 @@ description: Debugging onsite
 keywords: config, web.config, diagnostics, log
 date: 05.21.2024
 author: Bergfrid Dias, Martin Pavlas
-topic: concept
+content_type: concept
 envir: onsite
 ---
 

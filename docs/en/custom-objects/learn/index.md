@@ -6,7 +6,7 @@ keywords: custom object, table, field, user-defined field, udef, custom field, e
 author: Bergfrid Dias
 date: 01.16.2024
 version: 10
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM

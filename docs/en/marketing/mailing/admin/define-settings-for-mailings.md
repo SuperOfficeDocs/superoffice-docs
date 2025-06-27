@@ -6,7 +6,7 @@ keywords: Marketing, mailing, sms, settings
 author: SuperOffice RnD
 date: 02.12.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 envir: onsite
 audience: person

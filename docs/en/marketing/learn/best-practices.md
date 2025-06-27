@@ -6,7 +6,7 @@ keywords: Marketing
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 02.19.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

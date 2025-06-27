@@ -6,7 +6,7 @@ keywords: CRMScript, Service, ticket, request, message, load, getValue, attachme
 author: Bergfrid Skaara Dias
 date: 05.26.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Get message info

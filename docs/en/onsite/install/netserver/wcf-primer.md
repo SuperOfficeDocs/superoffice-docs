@@ -5,7 +5,7 @@ description: Windows Communication Foundation (WCF)
 author: Tony Yates
 date: 12.02.2021
 keywords: API, WCF, Windows Communication Foundation, SOAP, web services
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

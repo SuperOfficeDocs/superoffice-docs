@@ -6,7 +6,7 @@ keywords: free-text, search
 author: Bergfrid Dias
 date: 10.31.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 envir: onsite

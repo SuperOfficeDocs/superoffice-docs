@@ -5,7 +5,7 @@ description: URL encoding in web panels
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Url encoding

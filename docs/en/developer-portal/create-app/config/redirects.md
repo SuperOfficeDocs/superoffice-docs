@@ -5,7 +5,7 @@ description: "Learn what a redirect URL, or callback URL, is and where to set it
 author: Bergfrid Dias, Margrethe Romnes
 date: 09.12.2023
 keywords: callback, redirect, endpoint
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

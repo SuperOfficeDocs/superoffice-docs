@@ -6,7 +6,7 @@ keywords: CRMScript, company, organization, contact
 author: Bergfrid Skaara Dias
 date: 02.21.2022
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Create and update companies

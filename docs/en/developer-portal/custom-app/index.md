@@ -5,7 +5,7 @@ description: About custom apps for SuperOffice CRM Online
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: private app, custom app
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

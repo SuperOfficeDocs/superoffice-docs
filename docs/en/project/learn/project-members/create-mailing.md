@@ -6,7 +6,7 @@ keywords: create document mailing, send document, mailing, project member, proje
 author: SuperOffice RnD
 date: 07.04.2022
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
