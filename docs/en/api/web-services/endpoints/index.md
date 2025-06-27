@@ -5,7 +5,7 @@ description: Endpoints
 author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, endpoints, WebAPI, SOAP, REST
-topic: concept
+content_type: concept
 ---
 
 # Endpoints

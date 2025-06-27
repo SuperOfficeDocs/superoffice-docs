@@ -5,7 +5,7 @@ description: SuperOffice Objectified SQL - SoDataReader
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # SoDataReader class

@@ -5,7 +5,7 @@ description: Tooltip service
 author: {github-id}
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Tooltip service

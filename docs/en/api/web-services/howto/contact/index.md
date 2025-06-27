@@ -5,7 +5,7 @@ description: Working with contacts (person) in API with services
 keywords: person, contact, services, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: concept
+content_type: concept
 ---
 
 # Contact - services

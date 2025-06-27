@@ -5,7 +5,7 @@ description: Authentication in SuperOffice onsite
 author: {github-id}
 date: 11.22.2021
 keywords: authentication, ticket, credentials
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

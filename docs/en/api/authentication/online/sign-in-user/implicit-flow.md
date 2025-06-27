@@ -4,7 +4,7 @@ uid: oidc_implicit_flow
 description: "Introduction to the OICD Implicit flow."
 author: {github-id}
 keywords: authentication, OAuth 2.0, OIDC, Implicit flow
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

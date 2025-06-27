@@ -5,7 +5,7 @@ description: Flush Cache
 author: Eivind Fasting
 date: 08.14.2024
 keywords: cache, flush
-topic: concept
+content_type: concept
 ---
 
 # Flush Cache

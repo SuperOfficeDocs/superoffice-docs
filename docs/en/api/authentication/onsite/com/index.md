@@ -5,7 +5,7 @@ description: Overview of SuperOffice COM API authentication.
 author: AnthonyYates
 date: 05.08.2018
 keywords: security, authentication, COM, IApplication, IDatabase
-topic: concept
+content_type: concept
 envir: onsite
 client: Windows
 ---

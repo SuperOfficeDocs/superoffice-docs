@@ -5,7 +5,7 @@ description: NetServer archive providers
 author: Tony Yates
 date: 12.02.2021
 keywords: archive provider, NetServer, search
-topic: concept
+content_type: concept
 ---
 
 # NetServer archive providers

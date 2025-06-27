@@ -5,7 +5,7 @@ description: Sentry and distinct
 author: {github-id}
 date: 11.05.2016
 keywords: access control
-topic: concept
+content_type: concept
 ---
 
 # Sentry and distinct

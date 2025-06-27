@@ -5,7 +5,7 @@ description: Operations and values
 author: Tony Yates
 date: 06.23.2017
 keywords: bulk update
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

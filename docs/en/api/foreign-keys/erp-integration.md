@@ -5,7 +5,7 @@ description: Foreign keys integration
 author:
 date: 11.08.2021
 keywords: database, ERP, foreignapp, FK
-topic: concept
+content_type: concept
 ---
 
 # System integration

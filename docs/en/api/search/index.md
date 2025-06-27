@@ -6,7 +6,7 @@ author: SuperOfficeDevNet
 date: 02.02.2022
 updated: 02.12.2024
 keywords: search
-topic: concept
+content_type: concept
 ---
 
 # Search

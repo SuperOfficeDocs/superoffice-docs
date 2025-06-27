@@ -5,7 +5,7 @@ description: "How to use the System User flow."
 author: Anthony Yates
 date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, REST, system user, authentication, PartnerSystemUserService, Ticket, SystemUserClient, SuperOffice.WebApi.IdentityModel
-topic: concept
+content_type: concept
 ---
 
 # How to use System User Client

@@ -4,7 +4,7 @@ description: CustomSearch queries
 author: AnthonyYates
 date: 11.16.2021
 keywords: data access, rows, CustomSearch
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

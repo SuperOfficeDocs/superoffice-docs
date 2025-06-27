@@ -5,7 +5,7 @@ description: "Introduction to IAuthorization and its built-in implementations."
 author: Anthony Yates
 date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, REST, IAuthorization, credentials, AuthorizationSystemUserTicket, AuthorizationAccessToken, AuthorizationUserToken, jwks_uri
-topic: concept
+content_type: concept
 ---
 
 # About IAuthorization

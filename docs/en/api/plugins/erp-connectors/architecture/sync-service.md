@@ -5,7 +5,7 @@ description: ERP connector Sync Service
 author: {github-id}
 date: 05.11.2016
 keywords: .net
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

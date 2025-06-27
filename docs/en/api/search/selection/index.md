@@ -4,7 +4,7 @@ description: Selection
 author: {github-id}
 date: 11.08.2021
 keywords: search, selection
-topic: concept
+content_type: concept
 ---
 
 # Selection
