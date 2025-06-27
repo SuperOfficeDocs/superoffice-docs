@@ -5,7 +5,7 @@ description: Objekte zur Liste Menü "Aufgabe" hinzufügen
 author: SuperOffice RnD
 date: 01.11.2023
 keywords: Einstellungen und Verwaltung
-topic: help
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

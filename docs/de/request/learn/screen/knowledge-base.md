@@ -5,7 +5,7 @@ description: Wissensdatenbank
 author: SuperOffice RnD
 date: 03.24.2023
 keywords: Anfrage, Wissensdatenbank
-topic: help
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
