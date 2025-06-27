@@ -5,7 +5,7 @@ description: Skapa genvägar till poster i CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: företag
-topic: help
+content_type: concept
 language: sv
 ---
 

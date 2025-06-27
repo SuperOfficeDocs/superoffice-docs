@@ -5,7 +5,7 @@ description: Redigera importbeskrivningar
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar för Windows-klient
-topic: help
+content_type: howto
 language: sv
 client: win
 envir: onsite
