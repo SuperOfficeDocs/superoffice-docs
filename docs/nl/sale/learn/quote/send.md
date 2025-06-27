@@ -6,7 +6,7 @@ keywords: offerte verzenden, offerte goedkeuren, verzonden offerte bewerken, ver
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

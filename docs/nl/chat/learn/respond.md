@@ -5,7 +5,7 @@ description: Wanneer een klant een vraag verstuurt via de chatwidget op de websi
 keywords: chatten
 author: Bergfrid Dias
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

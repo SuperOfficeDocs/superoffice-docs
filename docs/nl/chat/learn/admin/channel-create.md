@@ -5,7 +5,7 @@ description: Een chatkanaal maken
 keywords: chatten
 author: Bergfrid Dias
 date: 03.24.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

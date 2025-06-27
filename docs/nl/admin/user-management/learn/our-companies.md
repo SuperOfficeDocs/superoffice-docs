@@ -5,7 +5,7 @@ description: Bedrijven toevoegen aan en verwijderen van het tabblad Onze bedrijv
 author: Bergfrid
 date: 03.15.2023
 keywords: gebruiker, onze bedrijven
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

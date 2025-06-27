@@ -5,7 +5,7 @@ description: Als u een e-mailbijlage wilt opslaan, maar niet de e-mail zelf in S
 keywords: Mail-koppeling, e-mail, bijlage
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 language: nl
 ---
 

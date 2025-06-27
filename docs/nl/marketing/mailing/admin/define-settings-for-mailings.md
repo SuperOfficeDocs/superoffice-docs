@@ -6,7 +6,7 @@ keywords: Marketing, instellingen
 author: SuperOffice RnD
 date: 02.12.2024
 version: 10
-topic: howto
+content_type: howto
 language: nl
 envir: onsite
 audience: person

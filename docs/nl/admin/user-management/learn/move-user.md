@@ -5,7 +5,7 @@ description: Gebruiker van het ene bedrijf naar het andere verplaatsen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: gebruiker
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

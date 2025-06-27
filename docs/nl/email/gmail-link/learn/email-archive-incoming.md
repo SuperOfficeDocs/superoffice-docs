@@ -5,7 +5,7 @@ description: Binnenkomende e-mail archiveren
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link, e-mail
-topic: howto
+content_type: howto
 language: nl
 ---
 

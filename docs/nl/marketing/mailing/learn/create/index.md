@@ -5,7 +5,7 @@ description: Om een marketing mailing te versturen hoeft u slechts vijf eenvoudi
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing, mailing
-topic: howto
+content_type: howto
 language: nl
 ---
 

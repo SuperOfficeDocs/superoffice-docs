@@ -5,7 +5,7 @@ description: Items toevoegen aan mailingdomeinlijst
 author: Hanne Gunnarsson
 date: 03.14.2023
 keywords: mailing, domein, SPF
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

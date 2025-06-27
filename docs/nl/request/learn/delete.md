@@ -6,7 +6,7 @@ keywords: verzoek verwijderen, verzoek
 author: Hanne Gunnarsson
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 functional_right: Service-beheer, Algemene beheerder
 license: serviceessentials
 audience: person

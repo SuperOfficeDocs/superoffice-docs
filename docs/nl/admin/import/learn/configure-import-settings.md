@@ -5,7 +5,7 @@ description: Importinstellingen
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: import
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

@@ -6,7 +6,7 @@ keywords: formulier, automatisering, formulieractie, formulierverzending
 author: SuperOffice RnD
 date: 06.17.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
