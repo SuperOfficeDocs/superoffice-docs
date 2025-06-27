@@ -5,7 +5,7 @@ description: Chat-Bildschirm
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Chat
-topic: reference
+content_type: reference
 language: de
 ---
 

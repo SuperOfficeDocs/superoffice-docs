@@ -5,7 +5,7 @@ description: Es kann stressig sein, den Überblick über Ihre Verkaufsziele zu b
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: Verkauf
-topic: howto
+content_type: howto
 language: de
 ---
 

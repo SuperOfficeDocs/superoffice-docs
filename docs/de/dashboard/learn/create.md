@@ -6,7 +6,7 @@ keywords: dashboard erstellen, neues dashboard, dashboard hinzufügen, dashboard
 author: Bergfrid Dias
 date: 03.26.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

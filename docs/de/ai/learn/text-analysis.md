@@ -5,7 +5,7 @@ description: KI-Textanalyse
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: KI
-topic: concept
+content_type: concept
 language: de
 ---
 

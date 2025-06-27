@@ -6,7 +6,7 @@ keywords: Anfrage schließen, Status auf geschlossen setzen, geschlossen, Massen
 author: Bergfrid Dias, kirstiaa
 date: 02.14.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

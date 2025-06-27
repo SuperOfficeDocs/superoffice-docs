@@ -6,7 +6,7 @@ keywords: Produktdialog konfigurieren, Dialog Produkt hinzufügen/bearbeiten, Pr
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Wie man die Datenschutzeinstellungen für Ihre Firma einrichtet.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Einstellungen und Verwaltung, Datenschutz, Einwilligung
-topic: howto
+content_type: howto
 language: de
 ---
 

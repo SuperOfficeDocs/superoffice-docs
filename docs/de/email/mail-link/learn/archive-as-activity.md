@@ -5,7 +5,7 @@ description: "Wenn Sie eine E-Mail direkt als Aufgabe, Termin oder Anruf in Ihre
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail-Link, E-Mail
-topic: howto
+content_type: howto
 language: de
 ---
 

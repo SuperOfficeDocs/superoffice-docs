@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie FAQs im Kundenzentrum ver√
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Kundenzentrum
-topic: howto
+content_type: howto
 language: de
 ---
 

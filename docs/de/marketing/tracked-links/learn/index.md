@@ -6,7 +6,7 @@ keywords: Marketing, Kampagne, Aussendung, Newsletters, Überwachte Links
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

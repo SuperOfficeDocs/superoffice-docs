@@ -6,7 +6,7 @@ keywords: udef, benutzerdefiniertes Feld
 author: Bergfrid Dias
 date: 01.30.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

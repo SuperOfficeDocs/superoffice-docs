@@ -5,7 +5,7 @@ description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: Verkauf
-topic: howto
+content_type: howto
 language: de
 ---
 

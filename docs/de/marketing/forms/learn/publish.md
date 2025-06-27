@@ -6,7 +6,7 @@ keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgef�
 author: SuperOffice RnD
 date: 03.18.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

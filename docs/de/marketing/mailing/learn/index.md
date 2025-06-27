@@ -6,7 +6,7 @@ keywords: Marketing, E-Mail-Zustellung
 author: SuperOffice RnD, Jeanette Small Strøm
 date: 02.27.2024
 version: 10
-topic: concept
+content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

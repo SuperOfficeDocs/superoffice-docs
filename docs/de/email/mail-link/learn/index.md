@@ -5,7 +5,7 @@ description: Einführung in SuperOffice Mail Link
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-Link
-topic: concept
+content_type: concept
 language: de
 ---
 

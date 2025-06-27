@@ -5,7 +5,7 @@ description: KI-Services
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: KI
-topic: concept
+content_type: concept
 language: de
 ---
 

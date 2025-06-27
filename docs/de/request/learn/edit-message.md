@@ -6,7 +6,7 @@ keywords: Nachricht bearbeiten, Nachrichteneigenschaften aktualisieren, Nachrich
 author: Hanne Gunnarsson, Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: general administrator
 audience: person

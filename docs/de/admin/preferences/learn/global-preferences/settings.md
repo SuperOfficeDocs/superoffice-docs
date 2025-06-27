@@ -5,7 +5,7 @@ description: Globale Einstellungen für Benutzereinstellungen für SuperOffice S
 author: SuperOffice RnD
 date: 03.27.2023
 keywords: Service, Einstellungen
-topic: help
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

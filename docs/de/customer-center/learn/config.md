@@ -5,7 +5,7 @@ description: In dieser Anleitung lernen Sie, wie Sie Ihr Kundenzentrum konfiguri
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Service, Kundenzentrum, CEP
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: Benutzerdefinierte Felder
 author: Bergfrid Dias
 date: 01.30.2024
 keywords:
-topic: concept
+content_type: concept
 language: de
 redirect_url: https://docs.superoffice.com/de/custom-objects/learn/udef.html
 ---

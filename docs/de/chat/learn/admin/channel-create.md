@@ -5,7 +5,7 @@ description: Chat-Kanal erstellen
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: Chat
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

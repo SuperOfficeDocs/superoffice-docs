@@ -5,7 +5,7 @@ description: Wie man Firmen in der Registerkarte Unsere Firmen hinzufügt oder e
 author: Bergfrid
 date: 03.15.2023
 keywords: user, unsere Firmen
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

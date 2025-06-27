@@ -6,7 +6,7 @@ keywords: Marketing, Mailing, Google Analytics, verfolgen, Überwachte Links, Tr
 author: Alex Pelan
 date: 06.25.2015
 version: 8
-topic: tutorial
+content_type: tutorial
 language: de
 translation_type: MT
 audience: person

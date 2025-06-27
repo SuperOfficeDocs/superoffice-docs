@@ -6,7 +6,7 @@ keywords: Preisliste, Produkt hinzufügen, Produkt konfigurieren, Produktbild, P
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

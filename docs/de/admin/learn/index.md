@@ -5,7 +5,7 @@ description: Einführung in die Verwaltung von SuperOffice.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Admin, Einstellungen und Verwaltung
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

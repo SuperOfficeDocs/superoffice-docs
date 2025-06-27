@@ -5,7 +5,7 @@ description: Bericht zu personenbezogenen Daten generieren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Firma
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: Wie man Benutzergruppen erstellt und löscht
 author: Bergfrid Dias
 date: 08.25.2023
 keywords: Benutzergruppe
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -5,7 +5,7 @@ description: Kundensprachen
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: Sprache
-topic: concept
+content_type: concept
 language: de
 ---
 

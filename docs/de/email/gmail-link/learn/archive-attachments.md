@@ -5,7 +5,7 @@ description: Anhang/Anhänge archivieren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: de
 ---
 

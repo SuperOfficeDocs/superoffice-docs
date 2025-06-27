@@ -6,7 +6,7 @@ keywords: Angebotsvorlage, Merge field, Feld, Angebot, Angebotsalternative, tota
 author: Bergfrid Dias
 date: 07.31.2024
 version: 10.3
-topic: reference
+content_type: reference
 language: en
 ---
 

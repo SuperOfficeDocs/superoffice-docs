@@ -5,7 +5,7 @@ description: "Wenn Sie das Windows-Betriebssystem verwenden, benötigen Sie WebT
 author: Bergfrid Dias
 date: 12.04.2023
 keywords: WebTools
-topic: howto
+content_type: howto
 language: de
 ---
 

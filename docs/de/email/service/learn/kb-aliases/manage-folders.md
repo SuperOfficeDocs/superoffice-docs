@@ -5,7 +5,7 @@ description: E-Mail-Adressenordner verwalten
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Anfrage
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

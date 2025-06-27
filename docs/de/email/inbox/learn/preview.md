@@ -6,7 +6,7 @@ keywords: E-Mail öffnen, E-Mail anzeigen, Vorschau, E-Mail verschieben, als gel
 author: Bergfrid Dias
 date: 05.23.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

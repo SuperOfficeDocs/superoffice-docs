@@ -5,7 +5,7 @@ description: Schnellsuche im Navigator verwenden im SuperOffice
 author: Bergfrid Dias
 date: 05.25.2023
 keywords: suche, Schnellsuche
-topic: howto
+content_type: howto
 language: de
 ---
 

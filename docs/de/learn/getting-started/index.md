@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
 keywords: CRM
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

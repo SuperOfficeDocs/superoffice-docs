@@ -5,7 +5,7 @@ description: Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: E-Mail, E-Mail
-topic: concept
+content_type: concept
 language: de
 ---
 

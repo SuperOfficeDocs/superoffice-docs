@@ -5,7 +5,7 @@ description: Eingehende E-Mails archivieren
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link, E-Mail
-topic: howto
+content_type: howto
 language: de
 ---
 

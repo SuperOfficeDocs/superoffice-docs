@@ -6,7 +6,7 @@ keywords: Verkaufsleitfaden, Verkaufsstufe, Verkaufstyp, Workflow, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

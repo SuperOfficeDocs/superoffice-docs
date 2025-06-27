@@ -6,7 +6,7 @@ keywords: Eskalationsstufe, Eskalationsstufe hinzufügen, neue Stufe, eskalieren
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

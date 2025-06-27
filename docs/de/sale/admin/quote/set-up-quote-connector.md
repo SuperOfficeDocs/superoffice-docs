@@ -6,7 +6,7 @@ keywords: quote connector einrichten, quote connector hinzufügen, ERP-Verbindun
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

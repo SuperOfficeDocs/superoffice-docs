@@ -6,7 +6,7 @@ keywords: Marketing, Ordner, Unterordner, Ordner hinzufügen
 author: Bergfrid Dias
 date: 05.31.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

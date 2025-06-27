@@ -6,7 +6,7 @@ keywords: SuperOffice for Outlook, Outlook, E-Mail, Add-In herunterladen, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 10.29.2024
 version_sofo: 2024.8.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

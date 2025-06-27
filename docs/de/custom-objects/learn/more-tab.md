@@ -6,7 +6,7 @@ keywords: Registerkarte Mehr, Mehr-Registerkarte, udef, benutzerdefiniertes Feld
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.11
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

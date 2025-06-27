@@ -5,7 +5,7 @@ description: Name und Beschreibung einer Liste bearbeiten
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: Liste, Abonnementtyp
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

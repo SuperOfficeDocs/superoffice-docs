@@ -5,7 +5,7 @@ description: E-Mail zur Datenschutzbestätigung senden
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: DSGVO, Einwilligung, E-Mail, Datenschutz
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: Web-Bildschirme
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: Web-Bildschirm
-topic: concept
+content_type: concept
 language: de
 ---
 

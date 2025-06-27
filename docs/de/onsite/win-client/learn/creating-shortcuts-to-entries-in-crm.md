@@ -5,7 +5,7 @@ description: Shortcuts zu Einträgen in CRM erstellen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Firma
-topic: help
+content_type: concept
 language: de
 ---
 

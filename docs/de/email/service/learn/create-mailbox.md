@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 12.12.2023
 version: 10.2.11
 keywords: E-Mail
-topic: howto
+content_type: howto
 language: de
 ---
 

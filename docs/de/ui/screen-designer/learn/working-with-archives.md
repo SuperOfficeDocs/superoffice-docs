@@ -6,7 +6,7 @@ keywords: Ansichtsdesigner, Bereichsregisterkarte, Archiv, Layout bearbeiten, La
 author: Bergfrid Dias
 date: 10.07.2024
 version: 10.2.11
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

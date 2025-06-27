@@ -6,7 +6,7 @@ keywords: Vorlage, Dokumentvorlage, Dokumenttyp, Dokument, Microsoft Office, Mic
 author: Martin Pavlas
 date: 07.16.2024
 version: 10
-topic: reference
+content_type: reference
 language: de
 ---
 

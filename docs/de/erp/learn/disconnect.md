@@ -6,7 +6,7 @@ keywords: ERP trennen, ERP-Registerkarte, Verbindung trennen, trennen, ERP
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM

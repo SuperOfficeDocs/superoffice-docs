@@ -6,7 +6,7 @@ keywords: Einstellungen, Einstellungen, Allgemein
 author: SuperOffice RnD
 date: 03.22.2024
 version: 10
-topic: reference
+content_type: reference
 language: de
 audience: settings
 audience_tooltip: Settings and maintenance

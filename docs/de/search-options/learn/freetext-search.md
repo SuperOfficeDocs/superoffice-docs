@@ -5,7 +5,7 @@ description: Volltextsuche
 author: SuperOffice RnD
 date: 05.25.2023
 keywords: Volltext, Suchen
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: "Wie man Einstellungen hinzufügt, bearbeitet und löscht."
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: Optionen, Einstellung
-topic: howto
+content_type: howto
 language: de
 ---
 

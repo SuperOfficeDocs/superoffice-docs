@@ -6,7 +6,7 @@ keywords: Formular, Formularübermittlung, doppeltes Opt-in
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: concept
+content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

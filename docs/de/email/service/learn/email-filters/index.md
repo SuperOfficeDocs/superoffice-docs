@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 12.12.2023
 version: 10.2.11
 keywords: E-Mail
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -6,7 +6,7 @@ keywords: Projektleitfaden, Leitfaden, Workflow, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: tutorial
+content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

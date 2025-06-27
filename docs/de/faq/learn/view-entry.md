@@ -5,7 +5,7 @@ description: FAQ-Einträge anzeigen
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

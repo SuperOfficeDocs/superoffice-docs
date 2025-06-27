@@ -6,7 +6,7 @@ keywords: neue Verkaufstyp, Verkaufstyp hinzufügen, Verkauf - Typ Stufen Angebo
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

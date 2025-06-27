@@ -6,7 +6,7 @@ keywords: Folgeaufgabe senden, Als E-Mail senden, Kalender, Folgeaufgabe, E-Mail
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

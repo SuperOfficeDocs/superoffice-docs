@@ -6,7 +6,7 @@ keywords: Folgeaufgabe, Termin, Besprechung, Aufgabe, Zu erledigen, To-do, Telef
 author: Bergfrid Dias
 date: 02.1.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

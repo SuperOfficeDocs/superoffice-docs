@@ -5,7 +5,7 @@ description: "Um ein Marketingkampagnen zu versenden, müssen Sie nur fünf einf
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing, Kampagne
-topic: howto
+content_type: howto
 language: de
 ---
 

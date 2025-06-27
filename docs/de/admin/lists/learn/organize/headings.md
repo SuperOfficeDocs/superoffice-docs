@@ -5,7 +5,7 @@ description: Überschriften
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-topic: help
+content_type: concept
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie einen Chat-Kanal mit Ihrem
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: Chat, Kundenzentrum
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

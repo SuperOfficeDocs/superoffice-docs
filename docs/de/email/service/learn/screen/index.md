@@ -5,7 +5,7 @@ description: Postfächer
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-topic: concept
+content_type: concept
 language: de
 ---
 

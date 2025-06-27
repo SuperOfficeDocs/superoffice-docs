@@ -5,7 +5,7 @@ description: Systemereignisse hinzufügen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Veranstaltung, Benachrichtigung
-topic: howto
+content_type: howto
 language: de
 envir: onsite
 ---

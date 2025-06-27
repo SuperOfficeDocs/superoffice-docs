@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie die Browsererweiterung fü
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, E-Mail
-topic: howto
+content_type: howto
 language: de
 ---
 

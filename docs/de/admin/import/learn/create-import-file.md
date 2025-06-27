@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie mit der Excel-Vorlage eine
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: Importieren, Excel, Firma, Person, Produkt, Tabellenkalkulation
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

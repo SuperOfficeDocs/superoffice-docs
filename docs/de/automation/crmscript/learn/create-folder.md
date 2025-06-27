@@ -5,7 +5,7 @@ description: Eigenschaften des Makro-/Skriptordners
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Service, Ordner
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

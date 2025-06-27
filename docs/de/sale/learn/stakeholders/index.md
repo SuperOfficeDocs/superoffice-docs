@@ -6,7 +6,7 @@ keywords: Bereichsregisterkarte Beteiligte, Beteiligte anzeigen, Dieser Verkaufs
 author: SuperOffice RnD
 date: 02.11.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

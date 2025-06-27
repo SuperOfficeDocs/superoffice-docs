@@ -5,7 +5,7 @@ description: Persönliche Profile
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Profil, UI
-topic: concept
+content_type: concept
 language: de
 ---
 

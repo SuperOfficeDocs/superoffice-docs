@@ -6,7 +6,7 @@ keywords: Marketing, Flow, aktualisieren
 author: Bergfrid Dias
 date: 06.11.2024
 version: 10.3.7
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

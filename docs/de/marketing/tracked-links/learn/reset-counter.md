@@ -6,7 +6,7 @@ keywords: Marketing, Aussendung
 author: SuperOffice RnD
 date: 02.27.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

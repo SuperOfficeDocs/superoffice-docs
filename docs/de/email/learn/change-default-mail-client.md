@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 06.29.2022
 keywords: E-Mail, Einstellungen, E-Mail-Client
 language: de
-topic: howto
+content_type: howto
 ---
 
 # Standard-E-Mail-Client in SuperOffice ändern

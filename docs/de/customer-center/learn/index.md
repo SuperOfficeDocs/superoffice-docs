@@ -5,7 +5,7 @@ description: Kundenzentrum
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Kundenzentrum
-topic: concept
+content_type: concept
 language: de
 ---
 

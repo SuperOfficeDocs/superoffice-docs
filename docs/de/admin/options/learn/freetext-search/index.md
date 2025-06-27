@@ -6,7 +6,7 @@ keywords: Volltext, Suchen
 author: Bergfrid Dias
 date: 10.31.2024
 version: 10
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -5,7 +5,7 @@ description: Benutzer von einer Firma in eine andere verschieben
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: user
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -5,7 +5,7 @@ description: Wie Sie verschiedene Ansichten in Einstellungen und Verwaltung anpa
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

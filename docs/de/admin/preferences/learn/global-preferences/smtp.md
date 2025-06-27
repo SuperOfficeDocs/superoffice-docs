@@ -5,7 +5,7 @@ description: SMTP
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Service, Einstellungen
-topic: help
+content_type: concept
 language: de
 envir: onsite
 ---

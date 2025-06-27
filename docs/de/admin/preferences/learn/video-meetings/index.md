@@ -5,7 +5,7 @@ description: Videokonferenzen
 keywords: Videokonferenzen
 author: SuperOffice RnD
 date: 12.10.2024
-topic: howto
+content_type: howto
 language: de
 ---
 

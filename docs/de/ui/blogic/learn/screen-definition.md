@@ -5,7 +5,7 @@ description: Definition der Ansicht
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Definition der Ansicht
-topic: reference
+content_type: reference
 language: de
 ---
 

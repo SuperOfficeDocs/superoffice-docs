@@ -6,7 +6,7 @@ keywords: aus CRM neu synchronisieren, resync ERP, CRM-Daten in ERP übertragen,
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

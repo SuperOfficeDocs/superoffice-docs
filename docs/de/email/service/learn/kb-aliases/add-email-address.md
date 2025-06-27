@@ -5,7 +5,7 @@ description: E-Mail-Adressen erstellen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Anfrage, Postfach
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

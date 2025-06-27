@@ -5,7 +5,7 @@ description: Loggen Sie sich ein, um Ihr SuperOffice CRM-Konto mit einem SuperOf
 author: SuperOffice RnD
 date: 08.28.2023
 keywords: CRM, Anmelden, Login, Passwort
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

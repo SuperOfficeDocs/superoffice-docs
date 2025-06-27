@@ -5,7 +5,7 @@ description: "Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten S
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: de
 ---
 

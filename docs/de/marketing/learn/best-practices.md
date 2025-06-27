@@ -6,7 +6,7 @@ keywords: Marketing, E-Mail-Marketing, Nachricht, Publikum
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 05.31.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

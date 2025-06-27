@@ -5,7 +5,7 @@ description: Funktion zur Schaltfläche Aufgabe hinzufügen
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Makro, Aufgabe, Aktionen
-topic: howto
+content_type: howto
 language: de
 ---
 

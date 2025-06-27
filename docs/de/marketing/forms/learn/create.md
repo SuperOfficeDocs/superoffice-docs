@@ -6,7 +6,7 @@ keywords: Formular, Web-Formular, Opt-in
 author: SuperOffice RnD
 date: 03.13.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

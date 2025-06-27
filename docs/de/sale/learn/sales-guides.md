@@ -6,7 +6,7 @@ keywords: Verkaufsleitfaden, Leitfaden, Workflow, Bereichsregisterkarte Verkaufs
 author: Bergfrid Dias
 date: 11.02.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

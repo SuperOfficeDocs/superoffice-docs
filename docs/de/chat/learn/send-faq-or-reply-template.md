@@ -5,7 +5,7 @@ description: "FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden"
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Chat
-topic: howto
+content_type: howto
 language: de
 ---
 

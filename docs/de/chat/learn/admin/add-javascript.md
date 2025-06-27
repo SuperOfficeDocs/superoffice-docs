@@ -5,7 +5,7 @@ description: "Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Inte
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: Chat
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

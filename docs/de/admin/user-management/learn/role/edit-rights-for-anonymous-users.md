@@ -5,7 +5,7 @@ description: Rechte für anonyme Benutzer bearbeiten
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: Benutzerverwaltung, Rolle, Anonym
-topic: howto
+content_type: howto
 language: de
 envir: onsite
 audience: settings

@@ -5,7 +5,7 @@ description: Wie man Listen bearbeitet
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: Liste
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
