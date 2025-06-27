@@ -5,7 +5,7 @@ description:  Allgemeine Profile
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Profil, Service
-topic: concept
+content_type: concept
 language: de
 ---
 

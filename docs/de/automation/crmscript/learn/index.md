@@ -5,7 +5,7 @@ description: "CRMScript ist eine Funktion, mit der Sie Aufgaben in SuperOffice a
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: CRMScript
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

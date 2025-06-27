@@ -6,7 +6,7 @@ keywords: Projektteilnehmer, Bereichsregisterkarte Projektteilnehmer, Projekt, T
 author: SuperOffice RnD
 date: 02.11.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

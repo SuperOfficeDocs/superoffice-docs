@@ -6,7 +6,7 @@ keywords: benutzerdefiniertes Objekt, Felder, udef
 author: Bergfrid Dias
 date: 01.30.2024
 version: 10
-topic: concept
+content_type: concept
 language: de
 audience: user
 audience_tooltip: SuperOffice CRM

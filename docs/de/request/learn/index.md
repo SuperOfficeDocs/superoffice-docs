@@ -6,7 +6,7 @@ keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: Bergfrid Dias
 date: 06.19.2025
 version: 10.5.3
-topic: concept
+content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

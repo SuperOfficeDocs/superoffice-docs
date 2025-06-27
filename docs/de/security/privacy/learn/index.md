@@ -5,7 +5,7 @@ description: Datenschutz
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Datenschutz, DSGVO, E-Marketing, Einwilligung
-topic: concept
+content_type: concept
 language: de
 ---
 

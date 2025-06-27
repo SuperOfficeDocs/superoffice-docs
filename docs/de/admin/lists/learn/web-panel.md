@@ -5,7 +5,7 @@ description: Web-Bildschirm
 keywords: GUI - Web-Bildschirm, Web-Bildschirm, www-Registerkarte, Registerkarte www, Liste, URL-Verknüpfung, Shortcut
 author: SuperOffice RnD
 date: 02.11.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

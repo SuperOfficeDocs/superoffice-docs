@@ -5,7 +5,7 @@ description: Administratoren können Einstellungen für verschiedene Funktionen 
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: Einstellungen, Einstellungen
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

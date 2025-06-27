@@ -5,7 +5,7 @@ description: Service-E-Mails
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Einstellungen und Verwaltung
-topic: concept
+content_type: concept
 language: de
 ---
 
