@@ -5,7 +5,7 @@ description: Vrije-tekstzoekbewerking en Travel
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+content_type: concept
 language: nl
 client: win
 envir: onsite
