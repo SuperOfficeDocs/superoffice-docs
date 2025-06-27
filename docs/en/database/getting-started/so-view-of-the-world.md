@@ -4,7 +4,7 @@ uid: so_view_of_the_world
 description: SuperOffice view of the world
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

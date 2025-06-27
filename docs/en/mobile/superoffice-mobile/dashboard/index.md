@@ -5,7 +5,7 @@ description: Learn about working with dashboards in SuperOffice Mobile CRM.
 keywords: mobile, dashboard, tile, chart, drill down
 date: 06.10.2025
 version: 11.1
-topic: concept
+content_type: concept
 client: mobile
 language: en
 ---

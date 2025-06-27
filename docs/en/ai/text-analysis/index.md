@@ -4,7 +4,7 @@ description: SuperOffice AI Services - text analysis
 author: Bergfrid Dias
 date: 10.21.2021
 keywords: AI, text services, sentiment, language, translation
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

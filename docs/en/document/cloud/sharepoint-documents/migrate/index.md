@@ -6,7 +6,7 @@ keywords: SharePoint, document, Microsoft, Microsoft Entra, ME-ID, AAD
 author: Frode Berntsen, Bergfrid Dias
 date: 03.19.2025
 version:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

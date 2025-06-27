@@ -5,7 +5,7 @@ description: What is SCIM? Why use SCIM?
 author:
 date: 01.15.2024
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD
-topic: concept
+content_type: concept
 envir:  cloud
 client:  online
 ---

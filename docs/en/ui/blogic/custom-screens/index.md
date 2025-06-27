@@ -5,7 +5,7 @@ description: Custom screens
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Custom screens

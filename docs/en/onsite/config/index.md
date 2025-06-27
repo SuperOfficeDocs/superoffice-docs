@@ -5,7 +5,7 @@ description: "Introduction to the SuperOffice config and INI files."
 author: Bergfrid Dias
 date: 12.10.2021
 keywords: NetServer config, INI, web.config, superoffice.config, superoffice.ini
-topic: concept
+content_type: concept
 envir: onsite
 ---
 

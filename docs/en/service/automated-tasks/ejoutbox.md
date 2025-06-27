@@ -4,7 +4,7 @@ uid: automated_tasks_ejoutbox
 description: Automated tasks in Service - ejOutbox
 author: {github-id}
 keywords: service
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

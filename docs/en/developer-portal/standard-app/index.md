@@ -5,7 +5,7 @@ description: Standard apps for SuperOffice Online
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: standard app, public app, App Store
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

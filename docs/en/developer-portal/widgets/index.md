@@ -6,7 +6,7 @@ keywords: Developer Portal, widget, home page, new customers, publishing, reques
 author: Bergfrid Dias
 date: 04.30.2025
 version_devportal: 2.2
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 language: en

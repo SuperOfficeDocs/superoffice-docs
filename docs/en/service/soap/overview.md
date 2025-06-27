@@ -5,7 +5,7 @@ description: Services SOAP interface
 author: {github-id}
 keywords: soap
 date: 01.25.2021
-topic: concept
+content_type: concept
 --- 
 
 # Services SOAP interface

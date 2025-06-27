@@ -4,7 +4,7 @@ description: "Learn about how the CRM.web application handles globalization."
 author: {github-id}
 date: 06.24.2016
 keywords: globalization, resources, culture
-topic: concept
+content_type: concept
 envir: onsite
 client: web
 ---

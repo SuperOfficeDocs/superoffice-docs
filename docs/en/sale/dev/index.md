@@ -6,7 +6,7 @@ keywords: sale process, base currency, currency, enable Stakeholders, stakeholde
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -6,7 +6,7 @@ author: {github-id}
 date: 03.16.2023
 keywords: Customer Center, CEP, CRMScript
 audience: settings
-topic: concept
+content_type: concept
 ---
 
 # Inline CRMScript

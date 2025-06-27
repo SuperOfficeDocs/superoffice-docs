@@ -5,7 +5,7 @@ description: Area Management definitions
 author: {github-id}
 keywords:
 date:
-topic: concept
+content_type: concept
 envir: onsite
 client: win
 ---
