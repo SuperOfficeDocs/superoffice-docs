@@ -6,7 +6,7 @@ keywords: ekstrafelt, tilpasset felt
 author: Bergfrid Dias
 date: 06.11.2024
 version: 10.3.7
-topic: concept
+content_type: concept
 language: no
 audience: user
 audience_tooltip: SuperOffice CRM

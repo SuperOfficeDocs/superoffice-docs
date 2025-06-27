@@ -6,7 +6,7 @@ keywords: sakstype, fanen Sakstyper, type, sak
 author: Bergfrid Dias
 date: 02.05.2025
 version: 10.5.1
-topic: concept
+content_type: concept
 license: servicepremium
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

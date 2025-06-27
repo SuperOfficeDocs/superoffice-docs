@@ -5,7 +5,7 @@ description: Synlighet
 author: SuperOffice RnD
 date: 03.07.2023
 keywords: synlighet, bruker, rolle, tilgjengelig
-topic: concept
+content_type: concept
 language: no
 ---
 

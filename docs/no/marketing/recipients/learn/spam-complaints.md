@@ -6,7 +6,7 @@ keywords: Markedsføring
 author: SuperOffice RnD
 date: 02.09.2024
 version: 10
-topic: concept
+content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

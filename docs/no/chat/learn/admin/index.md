@@ -5,7 +5,7 @@ description: Live Chat er en populær måte for kunder og potensielle kunder å 
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: chat
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 

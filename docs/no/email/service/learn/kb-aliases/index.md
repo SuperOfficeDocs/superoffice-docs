@@ -5,7 +5,7 @@ description: Arbeide med e-postadresser
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: sak
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person
