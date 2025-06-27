@@ -5,7 +5,7 @@ description: An in-depth guide to the SuperOffice CRMScript SearchEngine - a too
 keywords: CRMScript, SearchENgine, search, query
 author: Bergfrid Dias
 date: 04.15.2024
-topic: concept
+content_type: concept
 ---
 
 # SearchEngine

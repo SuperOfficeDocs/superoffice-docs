@@ -6,7 +6,7 @@ keywords: sale, quote
 author: Bergfrid Dias
 date: 06.12.2023
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Quotes

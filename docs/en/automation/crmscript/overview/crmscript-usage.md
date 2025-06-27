@@ -5,7 +5,7 @@ description: Overview of what you can do with CRMScripts in SuperOffice and limi
 author: Bergfrid Skaara Dias
 date: 12.02.2022
 keywords: CRMScript, performance, security
-topic: concept
+content_type: concept
 ---
 
 # What can I do with CRMScript?

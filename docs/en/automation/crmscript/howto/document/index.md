@@ -6,7 +6,7 @@ keywords: CRMScript, document, so_arc, NSDocumentAgent
 author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Documents
