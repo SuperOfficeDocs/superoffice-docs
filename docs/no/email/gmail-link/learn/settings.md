@@ -5,7 +5,7 @@ description: Redigere Gmail Link-innstillinger
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: reference
+content_type: reference
 language: no
 ---
 

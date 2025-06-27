@@ -5,7 +5,7 @@ description: Utboks for SMS
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Service
-topic: reference
+content_type: reference
 language: no
 ---
 
