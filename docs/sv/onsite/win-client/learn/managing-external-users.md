@@ -5,7 +5,7 @@ description: hantera externa användare
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: företag
-topic: help
+content_type: howto
 language: sv
 envir: onsite
 ---

@@ -6,7 +6,7 @@ keywords: automatisk tilldelning, tilldelningsmetod, tilldela ärende, ärende
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

@@ -5,7 +5,7 @@ description: Introduktionen av artificiell intelligens (AI) i SuperOffice 10 ger
 keywords: ärende, ai, effektiv
 author: Kirsti Aakerholt
 date: 04.19.2023
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

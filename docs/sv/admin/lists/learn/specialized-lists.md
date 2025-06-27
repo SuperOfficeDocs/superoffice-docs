@@ -5,7 +5,7 @@ description: Specialiserade listor
 keywords: listor
 author: SuperOffice RnD
 date: 06.29.2022
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

@@ -6,7 +6,7 @@ keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 02.25.2025
 version: 10.3.9
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

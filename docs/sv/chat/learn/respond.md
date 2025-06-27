@@ -5,7 +5,7 @@ description: När en kund skickar en fråga via chattwidgeten på webbplatsen ä
 keywords: chatt
 author: Bergfrid Dias
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

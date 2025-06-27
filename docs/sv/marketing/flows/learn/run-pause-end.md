@@ -6,7 +6,7 @@ keywords: flöde, flödestatus, starta flöde, pausa flöde, körs
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 02.17.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

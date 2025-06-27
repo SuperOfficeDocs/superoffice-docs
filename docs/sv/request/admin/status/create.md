@@ -6,7 +6,7 @@ keywords: skapa ärendestatus, ny ärendestatus, lägga till ärendestatus, äre
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Inställningar och underhåll

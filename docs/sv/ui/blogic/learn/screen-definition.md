@@ -5,7 +5,7 @@ description: Skärmdefinition
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: skärmdefinition
-topic: reference
+content_type: reference
 language: sv
 ---
 

@@ -5,7 +5,7 @@ description: integritet
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: integritet, GDPR, e-marknadsföring, samtycke
-topic: concept
+content_type: concept
 language: sv
 ---
 

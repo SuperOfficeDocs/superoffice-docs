@@ -5,7 +5,7 @@ description: I den här guiden går vi igenom hur du importerar alla dina prospe
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importera, Excel, företag, contact, kalkylark
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

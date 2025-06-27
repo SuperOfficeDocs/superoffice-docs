@@ -5,7 +5,7 @@ description: Arkivera inkommande e-post
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail-länk, e-post
-topic: howto
+content_type: howto
 language: sv
 ---
 

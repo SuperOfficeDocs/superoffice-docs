@@ -6,7 +6,7 @@ keywords: projektguide, guide, arbetsflöde, projekt
 author: Bergfrid Dias
 date: 25.25.2025
 version: 10.5.2
-topic: tutorial
+content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

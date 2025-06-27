@@ -5,7 +5,7 @@ description: SMTP
 keywords: Tjänst, inställningar
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 envir: onsite
 ---

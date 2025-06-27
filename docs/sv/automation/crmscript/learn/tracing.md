@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.20.2023
 version: 10.2.11
 keywords: CRMScript, spåra, felsök
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

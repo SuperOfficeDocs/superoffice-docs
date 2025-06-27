@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du skapar en importfil med hjä
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importera, Excel, företag, contact, produkt, kalkylark
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

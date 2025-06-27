@@ -5,7 +5,7 @@ description: Skapa e-postmallar
 keywords: Skapa e-postmall, e-postmall, Mail Link
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

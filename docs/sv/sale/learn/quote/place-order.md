@@ -6,7 +6,7 @@ keywords: registrera order, skapa order, order baserad på offertversion, offert
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

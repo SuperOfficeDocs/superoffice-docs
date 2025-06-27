@@ -5,7 +5,7 @@ description: Fönstret Användare
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: user, medarbetare, våra företag
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

@@ -5,7 +5,7 @@ description: Lägg till funktion i knappen Uppgift
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: makro, uppgift, åtgärder
-topic: howto
+content_type: howto
 language: sv
 ---
 

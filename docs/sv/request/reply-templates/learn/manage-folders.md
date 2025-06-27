@@ -6,7 +6,7 @@ keywords: skapa mapp, ta bort mapp, organisera svarsmallar, ärende, svarsmallsm
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

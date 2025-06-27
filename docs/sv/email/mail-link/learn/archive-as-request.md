@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du arkiverar e-postmeddelanden 
 author: SuperOffice RnD
 date: 03.14.2023
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: sv
 ---
 

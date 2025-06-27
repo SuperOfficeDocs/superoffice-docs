@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.29.2024
 version: 10
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

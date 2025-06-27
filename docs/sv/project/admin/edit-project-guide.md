@@ -6,7 +6,7 @@ keywords: redigera projektguide, uppdatera projektguide, inaktivera projektguide
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance

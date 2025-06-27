@@ -6,7 +6,7 @@ keywords: skapa dashboard, lägga till dashboard, ny dashboard, fäst dashboard,
 author: Bergfrid Dias
 date: 03.26.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

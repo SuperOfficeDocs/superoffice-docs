@@ -6,7 +6,7 @@ keywords: formulär, formulärinlämning, avsändar, inlämnad, data från formu
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

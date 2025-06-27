@@ -6,7 +6,7 @@ keywords: Marknadsföring, spårade länkar, utskikt, e-postmeddeland
 author: Bergfrid Dias
 date: 02.26.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

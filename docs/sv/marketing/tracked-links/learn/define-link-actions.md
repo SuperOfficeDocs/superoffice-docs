@@ -6,7 +6,7 @@ keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.3.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

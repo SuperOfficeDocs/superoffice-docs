@@ -5,7 +5,7 @@ description: Kundcenter – källfiler
 keywords: Kundcenter, CEP
 author: Bergfrid Dias
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

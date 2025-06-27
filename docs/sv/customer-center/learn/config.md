@@ -5,7 +5,7 @@ description: Den här guiden beskriver hur du konfigurerar ditt Kundcenter.
 keywords: Tjänst, Kundcenter, CEP
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

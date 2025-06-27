@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du redigerar en listpost.
 keywords: post
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

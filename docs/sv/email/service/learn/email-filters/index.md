@@ -6,7 +6,7 @@ keywords: e-post
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10.2.11
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

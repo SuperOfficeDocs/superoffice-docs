@@ -5,7 +5,7 @@ description: Med funktionen CRMScript kan du automatisera uppgifter i SuperOffic
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: CRMScript
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

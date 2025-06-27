@@ -6,7 +6,7 @@ keywords: slå ihop kontakter, underhåll kontakter, kontakt, person
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

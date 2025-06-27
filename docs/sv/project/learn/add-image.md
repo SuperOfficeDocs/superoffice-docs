@@ -6,7 +6,7 @@ keywords: projekt
 author: Bergfrid Dias
 date: 10.08.2024
 version: 10.3.10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

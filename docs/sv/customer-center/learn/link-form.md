@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du använder ett webbformulär.
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: formulär, Kundcenter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

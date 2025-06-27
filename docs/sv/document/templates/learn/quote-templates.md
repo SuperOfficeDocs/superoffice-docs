@@ -6,7 +6,7 @@ keywords: offert, offertmall, mall, offertdokument, offertdetalj, merge field
 author: Bergfrid Dias
 date: 07.31.2024
 version: 10
-topic: concept
+content_type: concept
 language: sv
 ---
 

@@ -5,7 +5,7 @@ description: E-postmall
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll
-topic: help
+content_type: howto
 language: sv
 ---
 

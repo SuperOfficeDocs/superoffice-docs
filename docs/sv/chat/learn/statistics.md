@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du visar chattstatistik både p
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chatt
-topic: howto
+content_type: howto
 language: sv
 ---
 

@@ -5,7 +5,7 @@ description: Lägga till systemhändelser
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: arrangemang, avisering
-topic: howto
+content_type: howto
 language: sv
 envir: onsite
 ---

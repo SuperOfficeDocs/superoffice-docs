@@ -5,7 +5,7 @@ description: "Lär dig hur du lägger till nya användare, tilldelar rätt anvä
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

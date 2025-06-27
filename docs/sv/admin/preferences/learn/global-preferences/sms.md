@@ -5,7 +5,7 @@ description: SMS
 keywords: Tjänst, inställningar
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

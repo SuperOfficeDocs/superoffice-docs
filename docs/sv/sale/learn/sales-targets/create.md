@@ -5,7 +5,7 @@ description: Håll koll på dina budgetar genom att konfigurera försäljningsm�
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: försäljning
-topic: howto
+content_type: howto
 language: sv
 ---
 

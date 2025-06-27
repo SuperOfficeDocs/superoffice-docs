@@ -5,7 +5,7 @@ description: Om du vill spara en e-postbilaga men inte själva e-postmeddelandet
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link, e-post, bilaga
-topic: howto
+content_type: howto
 language: sv
 ---
 

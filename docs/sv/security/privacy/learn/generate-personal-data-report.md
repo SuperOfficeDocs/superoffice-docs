@@ -5,7 +5,7 @@ description: Generera personuppgiftsrapport
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: företag
-topic: howto
+content_type: howto
 language: sv
 ---
 

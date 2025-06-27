@@ -5,7 +5,7 @@ description: "Genom att spara ett e-postmeddelande direkt som en händelse i din
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail-länk
-topic: howto
+content_type: howto
 language: sv
 ---
 

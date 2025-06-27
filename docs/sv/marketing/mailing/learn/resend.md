@@ -5,7 +5,7 @@ description: När du har hanterat de returnerade e-postmeddelandena är det en b
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Marknadsföring
-topic: howto
+content_type: howto
 language: sv
 ---
 

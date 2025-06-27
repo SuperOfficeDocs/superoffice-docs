@@ -5,7 +5,7 @@ description: Användargrupper
 keywords: Användargruppfiltrering, användargrupp, använd gruppering, user, grupp
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

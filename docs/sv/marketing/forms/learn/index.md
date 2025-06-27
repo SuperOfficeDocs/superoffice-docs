@@ -6,7 +6,7 @@ keywords: formulär, formulärinlämnin, dubbel anmälan
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

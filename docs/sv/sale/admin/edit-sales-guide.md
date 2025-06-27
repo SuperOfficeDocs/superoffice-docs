@@ -6,7 +6,7 @@ keywords: redigera säljguide, uppdatera säljguide, inaktivera säljguide, säl
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Inställningar och underhåll

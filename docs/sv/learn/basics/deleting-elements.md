@@ -6,7 +6,7 @@ keywords: ta bort, återställ, papperskorg
 author: Bergfrid Skaara Dias
 date: 06.26.2025
 version: 10.5.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

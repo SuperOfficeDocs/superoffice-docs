@@ -5,7 +5,7 @@ description: Lägg till poster i listan Utskicksdomän
 author: Hanne Gunnarsson
 date: 03.14.2023
 keywords: utskick, domän, SPF
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

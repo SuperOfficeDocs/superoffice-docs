@@ -5,7 +5,7 @@ description: Redigera behörigheter för anonyma användare
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: administrera användare, roll, anonyma
-topic: howto
+content_type: howto
 language: sv
 envir: onsite
 audience: settings

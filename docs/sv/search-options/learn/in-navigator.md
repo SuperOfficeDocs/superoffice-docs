@@ -5,7 +5,7 @@ description: Använda snabbsökning i navigatorn
 author: Bergfrid Dias
 date: 05.25.2023
 keywords: söka, Snabbsökning, navigatorn
-topic: howto
+content_type: howto
 language: sv
 ---
 

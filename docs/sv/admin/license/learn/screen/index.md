@@ -5,7 +5,7 @@ description: Fönstret Licenser under Inställningar och underhåll
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: licens, tjänst med datapriser, databasägare, statusfliken
-topic: reference
+content_type: reference
 language: sv
 ---
 

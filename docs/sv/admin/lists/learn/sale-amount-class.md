@@ -5,7 +5,7 @@ description: Lägg till beloppsklass för försäljning
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: försäljning, belopp
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

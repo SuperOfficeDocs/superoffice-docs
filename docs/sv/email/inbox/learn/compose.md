@@ -6,7 +6,7 @@ keywords: skriva e-post, ny e-post, nytt e-postmeddelande, e-postmeddelanden
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -6,7 +6,7 @@ keywords: mallvariabel, iCal, buid, bsun, bate, burl
 author: Bergfrid Dias
 date: 07.17.2024
 version: 10.3
-topic: reference
+content_type: reference
 language: en
 ---
 

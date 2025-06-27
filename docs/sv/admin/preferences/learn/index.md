@@ -5,7 +5,7 @@ description: Administratörer kan ange inställningar för olika funktioner i sy
 keywords: inställningar, inställningar
 author: Bergfrid Dias
 date: 02.25.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

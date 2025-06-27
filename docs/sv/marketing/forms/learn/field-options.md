@@ -6,7 +6,7 @@ keywords: formulär fält, formulärpost, fältalternativ, reCAPTCHA
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

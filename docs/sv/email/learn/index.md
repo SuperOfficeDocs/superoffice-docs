@@ -5,7 +5,7 @@ description: Med SuperOffice CRM kan du välja att spara och dela dina e-postmed
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: e-post, inkorg
-topic: concept
+content_type: concept
 language: sv
 ---
 

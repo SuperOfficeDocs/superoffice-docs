@@ -6,7 +6,7 @@ keywords: flöde, flödesdeltagare, deltagar, deltagarlistan, deltagarstatus, sl
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 02.25.2025
 version: 10.3.7
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

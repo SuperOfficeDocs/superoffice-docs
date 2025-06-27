@@ -5,7 +5,7 @@ description: Webbpaneler
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: webbpanel
-topic: concept
+content_type: concept
 language: sv
 ---
 

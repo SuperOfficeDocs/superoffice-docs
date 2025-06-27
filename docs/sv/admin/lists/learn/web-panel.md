@@ -5,7 +5,7 @@ description: Webbpanel
 keywords: GUI – Webbpanel, webbpanel, www-fliken, lista, kortkommando, genväg
 author: SuperOffice RnD
 date: 02.25.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

@@ -5,7 +5,7 @@ description: Så anpassar du olika vyer i Inställningar och underhåll.
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

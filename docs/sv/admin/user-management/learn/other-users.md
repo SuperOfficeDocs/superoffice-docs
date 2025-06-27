@@ -5,7 +5,7 @@ description: Hantera anonyma användare och systemanvändare (lokalt)
 author: Bergfrid
 date: 03.15.2023
 keywords: user, anonym, systemanvändare
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

@@ -6,7 +6,7 @@ keywords: tavlevy, urvalsvy,urval, säljtavla, kanban, gruppera efter, filterver
 author: Bergfrid Dias
 date: 06.17.2025
 version: 11.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

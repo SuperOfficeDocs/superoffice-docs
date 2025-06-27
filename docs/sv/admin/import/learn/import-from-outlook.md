@@ -5,7 +5,7 @@ description: Importera från Outlook
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll, importera
-topic: howto
+content_type: howto
 language: sv
 ---
 

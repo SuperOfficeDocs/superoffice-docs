@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du installerar webbläsartillä
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail-länk, e-post
-topic: howto
+content_type: howto
 language: sv
 ---
 

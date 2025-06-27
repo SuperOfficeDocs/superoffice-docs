@@ -6,7 +6,7 @@ keywords: försäljning
 author: Bergfrid Dias
 date: 05.12.2025
 version: 10.4
-topic: howto
+content_type: howto
 language: sv
 ---
 

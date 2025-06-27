@@ -5,7 +5,7 @@ description: Lär dig hur du konfigurerar integritetsinställningarna för ditt 
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Inställningar och underhåll, integritet, samtycke
-topic: howto
+content_type: howto
 language: sv
 ---
 

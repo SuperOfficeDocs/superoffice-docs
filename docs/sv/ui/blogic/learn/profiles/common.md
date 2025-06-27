@@ -5,7 +5,7 @@ description: Delade profiler
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profil, tjänst
-topic: howto
+content_type: howto
 language: sv
 ---
 

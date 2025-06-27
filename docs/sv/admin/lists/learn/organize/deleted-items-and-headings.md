@@ -5,7 +5,7 @@ description: Borttagna poster och rubriker
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll
-topic: howto
+content_type: howto
 language: sv
 ---
 

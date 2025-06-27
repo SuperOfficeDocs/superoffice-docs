@@ -5,7 +5,7 @@ description: Kundcenter
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Kundcenter
-topic: concept
+content_type: concept
 language: sv
 ---
 

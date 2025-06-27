@@ -5,7 +5,7 @@ description: Valuta
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: valuta, försäljning
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

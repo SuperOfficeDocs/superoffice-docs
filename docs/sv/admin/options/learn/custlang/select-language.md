@@ -5,7 +5,7 @@ description: Så väljer SuperOffice kundspråk för nya kontakter
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: språk
-topic: howto
+content_type: howto
 language: sv
 ---
 

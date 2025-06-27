@@ -5,7 +5,7 @@ description: "Så lägger du till, ändrar och tar bort inställningar."
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: inställning, inställning
-topic: howto
+content_type: howto
 language: sv
 ---
 

@@ -5,7 +5,7 @@ description:  Globala profiler
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profil, tjänst
-topic: concept
+content_type: concept
 language: sv
 ---
 

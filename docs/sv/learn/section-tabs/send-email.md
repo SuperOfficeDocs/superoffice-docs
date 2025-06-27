@@ -5,7 +5,7 @@ description: Svara på eller vidarebefordra e-post från detaljkortet Aktivitete
 author: Bergfrid Dias
 date: 09.21.2023
 keywords: företag
-topic: howto
+content_type: howto
 language: sv
 audience: person
 audience_tooltip: SuperOffice CRM

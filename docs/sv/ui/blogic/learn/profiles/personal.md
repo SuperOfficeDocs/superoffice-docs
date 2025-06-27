@@ -5,7 +5,7 @@ description: Personliga profiler
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profil, Användargränssnitt
-topic: concept
+content_type: concept
 language: sv
 ---
 

@@ -6,7 +6,7 @@ keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

@@ -6,7 +6,7 @@ keywords: konfigurera ERP-synk, lägga till sync connector, lägga till ERP-kopp
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Inställningar och underhåll

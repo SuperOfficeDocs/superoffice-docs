@@ -5,7 +5,7 @@ description: Skicka e-postbekräftelse om personskydd
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: GDPR, samtycke, e-post, integritet
-topic: howto
+content_type: howto
 language: sv
 ---
 

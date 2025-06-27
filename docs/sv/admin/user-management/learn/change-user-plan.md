@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du ändrar en användarplan fö
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user, medarbetare
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

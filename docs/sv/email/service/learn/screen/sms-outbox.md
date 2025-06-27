@@ -5,7 +5,7 @@ description: Utkorg för SMS
 keywords: Tjänst
 author: SuperOffice RnD
 date: 02.25.2025
-topic: reference
+content_type: reference
 language: sv
 ---
 

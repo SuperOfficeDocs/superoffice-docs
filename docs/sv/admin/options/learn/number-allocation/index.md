@@ -5,7 +5,7 @@ description: Nummertilldelning
 keywords: nummer, räknare
 author: Bergfrid Dias
 date: 02.25.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

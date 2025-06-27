@@ -5,7 +5,7 @@ description: Att hålla koll på dina försäljningsmål kan vara stressande. Me
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: försäljning
-topic: howto
+content_type: howto
 language: sv
 ---
 

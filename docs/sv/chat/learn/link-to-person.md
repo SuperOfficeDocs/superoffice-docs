@@ -5,7 +5,7 @@ description: "När en kund skickar en fråga via chattwidgeten på webbplatsen �
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chatt
-topic: howto
+content_type: howto
 language: sv
 ---
 

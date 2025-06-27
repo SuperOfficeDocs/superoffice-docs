@@ -6,7 +6,7 @@ keywords: Inkorgen i SuperOffice, läsa e-post, skicka e-post, e-postklient, ink
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

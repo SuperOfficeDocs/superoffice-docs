@@ -5,7 +5,7 @@ description: Lägga till bilder
 keywords: Marknadsföring
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

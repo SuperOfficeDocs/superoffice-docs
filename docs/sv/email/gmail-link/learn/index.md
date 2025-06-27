@@ -5,7 +5,7 @@ description: SuperOffice Gmail Link-appen kopplar samman ditt Gmail-konto med Su
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail-länk, e-post
-topic: concept
+content_type: concept
 language: sv
 ---
 

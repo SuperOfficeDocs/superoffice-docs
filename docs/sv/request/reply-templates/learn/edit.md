@@ -6,7 +6,7 @@ keywords: redigera svarsmall, ta bort svarsmall, svarsmall, färdig text, kunska
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

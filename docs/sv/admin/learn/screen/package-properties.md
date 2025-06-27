@@ -5,7 +5,7 @@ description: Egenskaper för paket
 keywords: Tjänst
 author: SuperOffice RnD
 date: 06.29.2022
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

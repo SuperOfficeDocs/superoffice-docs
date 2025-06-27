@@ -5,7 +5,7 @@ description: Livechatt är ett populärt sätt för dina kunder och prospekt att
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: chatt
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
