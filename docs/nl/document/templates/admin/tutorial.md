@@ -6,7 +6,7 @@ keywords: sjabloondocument, sjabloon, offerte, opdrachtbevestiging
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: tutorial
+content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
