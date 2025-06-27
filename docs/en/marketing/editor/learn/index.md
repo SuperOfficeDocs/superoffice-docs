@@ -6,7 +6,7 @@ keywords: marketing, editor, template variable, merge tag
 author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

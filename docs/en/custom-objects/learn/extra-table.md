@@ -6,7 +6,7 @@ keywords: database, extra table, custom object, 3rd-party table
 author: Bergfrid Dias
 date: 08.27.2024
 version: 10.3.8
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM

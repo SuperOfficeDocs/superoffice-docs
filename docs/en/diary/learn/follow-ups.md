@@ -6,7 +6,7 @@ keywords: follow-up, appointment, meeting, task, to-do, phone, call, attendee, p
 author: Bergfrid Dias
 date: 01.10.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

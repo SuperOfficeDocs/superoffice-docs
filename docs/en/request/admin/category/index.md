@@ -6,7 +6,7 @@ keywords: request category, Categories tab, request, category
 author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

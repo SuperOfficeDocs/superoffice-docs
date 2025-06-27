@@ -5,7 +5,7 @@ description: Learn which integration options you need based on your operating sy
 keywords: email, document, diary, invitation
 author: Kirsti Aakerholt
 date: 07.18.2023
-topic: concept
+content_type: concept
 version: 10
 language: en
 ---

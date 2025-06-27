@@ -5,7 +5,7 @@ description: Visibility
 author: SuperOffice RnD
 date: 03.07.2023
 keywords: visibility, user, role, available
-topic: concept
+content_type: concept
 language: en
 ---
 
