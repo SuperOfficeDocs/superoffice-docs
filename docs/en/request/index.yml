@@ -1,5 +1,6 @@
 ### YamlMime:SubCategory
 
+yamlMime: SubCategory
 title: Requests
 summary: Requests is the main feature of SuperOffice Service. This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Request management requires a Service Essentials license. Some features require a premium plan, see the user plan overview for details.
 

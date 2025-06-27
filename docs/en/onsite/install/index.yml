@@ -1,5 +1,6 @@
 ### YamlMime:SubCategory
 
+yamlMime: SubCategory
 title: SuperOffice installation
 summary: "How to prepare the servers and database and how to install CRMServer, the Web and Windows clients, NetServer, and Service"
 
