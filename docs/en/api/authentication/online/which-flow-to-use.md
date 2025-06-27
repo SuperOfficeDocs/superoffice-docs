@@ -4,7 +4,7 @@ uid: online_auth_scenarios
 description: Authentication scenarios for various app types
 author: {github-id}
 keywords: authorization
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

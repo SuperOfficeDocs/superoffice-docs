@@ -5,7 +5,7 @@ description: NetServer Reporter element
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Reporter, ExePath, ODBC, Timeout
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

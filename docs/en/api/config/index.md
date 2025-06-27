@@ -5,7 +5,7 @@ description: "Introduction to the NetServer configuration file for SuperOffice w
 author: Bergfrid Dias
 date: 12.07.2021
 keywords: config, web.config, NetServer
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

@@ -5,7 +5,7 @@ description: NetServer configuration values for SuperOffice.CRM.Messaging and th
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperOffice.CRM.Messaging, SoMessaging.dll, Messaging, BrokerAutoAliveMessage, BrokerBroadcastAddress, BrokerBroadcastPort, BrokerExternalListening, BrokerInternalListening, ClientAutoAliveMessage, ClientAutoCreateBroker, ClientBroadcastAddress, ClientBroadcastPort, ClientListening, MessagingSoAuthentication, MessagingSoPassword, MessagingSoUser
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

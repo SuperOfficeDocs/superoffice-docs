@@ -5,7 +5,7 @@ description: NetServer configuration for the Web client configuration data provi
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: web.config, ClientConfigurationProvider, FilePath, cache, CustomPath
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

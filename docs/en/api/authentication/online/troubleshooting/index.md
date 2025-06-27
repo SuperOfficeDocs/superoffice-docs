@@ -5,7 +5,7 @@ description: Problems with application authorization, tokens, and certificate
 author: {github-id}
 date: 01.04.2022
 keywords: authorization error, token, certificate
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

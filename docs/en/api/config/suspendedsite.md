@@ -5,7 +5,7 @@ description: NetServer configuration values related to the suspended state.
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuspendedSite, download_baseurl, suspended
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

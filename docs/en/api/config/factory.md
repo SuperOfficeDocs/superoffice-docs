@@ -5,7 +5,7 @@ description: NetServer configuration values are used to access class factory inf
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, Factory, CustomFactories, DynamicLoad
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

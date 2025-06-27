@@ -5,7 +5,7 @@ description: Configuration values related to NetServer client configuration, ext
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, ClientConfigurationProvider, Client, export
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

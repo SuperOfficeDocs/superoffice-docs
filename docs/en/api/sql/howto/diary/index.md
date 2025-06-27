@@ -5,7 +5,7 @@ description: Working with appointments in raw SQL.
 keywords: diary, calendar, appointment, API
 author: Bergfrid Skaara Dias
 date: 03.02.2022
-topic: reference
+content_type: reference
 ---
 
 # Diary - raw SQL

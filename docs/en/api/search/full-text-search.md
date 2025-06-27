@@ -4,7 +4,7 @@ uid: netserver_fulltext_search
 description: Changes in SuperOffice 7 - authentication
 author: {github-id}
 keywords: database
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

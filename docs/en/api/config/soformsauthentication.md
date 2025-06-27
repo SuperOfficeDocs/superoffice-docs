@@ -5,7 +5,7 @@ description: NetServer configuration settings used to control access and used by
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SoFormsAuthentication, FormsAuthentication, IgnoreList, Pages, LoginUrl, DefaultUrl, LogoutUrl, PocketCrmLoginPage
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

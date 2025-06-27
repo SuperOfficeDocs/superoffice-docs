@@ -5,7 +5,7 @@ description: SuperOffice NuGet NetServer Services
 author: Tony Yates
 date: 02.29.2016
 keywords:
-topic: reference
+content_type: reference
 envir:
 client:
 ---

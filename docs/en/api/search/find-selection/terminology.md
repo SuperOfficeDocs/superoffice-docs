@@ -3,7 +3,7 @@ title: Terminology
 description: Common terms and concepts pertaining to selections
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-topic: reference
+content_type: reference
 # envir:
 client: web
 ---
