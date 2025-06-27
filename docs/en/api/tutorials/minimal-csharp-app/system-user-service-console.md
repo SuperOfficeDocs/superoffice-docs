@@ -4,7 +4,7 @@ uid: system_user_service_console
 description: System user service console
 author: {github-id}
 keywords:
-topic: tutorial
+content_type: tutorial
 envir: cloud
 client: online
 ---

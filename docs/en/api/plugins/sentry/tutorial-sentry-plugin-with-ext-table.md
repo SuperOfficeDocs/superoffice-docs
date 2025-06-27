@@ -5,7 +5,7 @@ description: Sentry plugin with external (user-defined) table
 author: Tony Yates
 date: 05.16.2008
 keywords: sentry
-topic: tutorial
+content_type: tutorial
 envir: onsite
 ---
 

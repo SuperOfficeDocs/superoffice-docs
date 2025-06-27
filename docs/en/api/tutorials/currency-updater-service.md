@@ -5,7 +5,7 @@ description: Currency updater service
 author: {github-id}
 date: 
 keywords: 
-topic: tutorial 
+content_type: tutorial 
 ---
 
 # Currency updater service
