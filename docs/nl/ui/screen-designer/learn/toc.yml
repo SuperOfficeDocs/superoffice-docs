@@ -20,4 +20,4 @@ items:
 - name: Veldeferentie
   href: reference.md
 - name: Tutorial - Land plaatsen
-  href: tutorial-move-country.yml
+  href: tutorial-move-country.md

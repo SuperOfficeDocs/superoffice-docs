@@ -20,4 +20,4 @@ items:
 - name: Field reference
   href: reference.md
 - name: Tutorial - place country before address
-  href: tutorial-move-country.yml
+  href: tutorial-move-country.md
