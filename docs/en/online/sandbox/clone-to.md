@@ -6,7 +6,7 @@ author: Bergfrid Dias, Margrethe Halvorsen
 date: 12.11.2024
 version: 10
 keywords: tenant, sandbox, test environment, clone
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

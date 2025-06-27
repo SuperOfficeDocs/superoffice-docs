@@ -4,7 +4,7 @@ uid: g_suite_requirements
 description: Requirements for Google Workspace integration
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

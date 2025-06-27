@@ -4,7 +4,7 @@ uid: globalization_personnameformatter
 description: Localization, class PersonNameFormatter
 author: {github-id}
 date: 05.08.2018
-topic: reference
+content_type: reference
 keywords:
 ---
 

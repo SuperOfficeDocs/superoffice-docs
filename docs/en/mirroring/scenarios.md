@@ -4,7 +4,7 @@ uid: mirroring_scenarios
 description: Database mirroring scenarios
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

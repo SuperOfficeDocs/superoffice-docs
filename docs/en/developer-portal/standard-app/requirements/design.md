@@ -5,7 +5,7 @@ description: "Requirements for user UI and design"
 author: Margrethe Romnes
 date: 02.02.2022
 keywords: certification, apps
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

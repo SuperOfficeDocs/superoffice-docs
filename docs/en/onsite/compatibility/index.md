@@ -5,7 +5,7 @@ description: Compatibility test reports for SuperOffice onsite
 keywords: requirements, compatibility test, compatibility report, onsite compatibility
 author: Martin Pavlas
 date: 02.26.2025
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

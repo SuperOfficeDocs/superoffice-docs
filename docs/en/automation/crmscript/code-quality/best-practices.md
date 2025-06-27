@@ -5,7 +5,7 @@ description: Best practices for SuperOffice CRMScript development and use.
 author: Bergfrid Dias
 date: 01.02.2024
 keywords: CRMScript, best practices, performance
-topic: reference
+content_type: reference
 ---
 
 # CRMScript best practices

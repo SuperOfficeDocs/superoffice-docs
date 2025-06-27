@@ -4,7 +4,7 @@ uid: souser_ini
 description: SOUser.ini
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

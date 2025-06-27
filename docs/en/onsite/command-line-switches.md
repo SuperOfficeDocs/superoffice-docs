@@ -4,7 +4,7 @@ uid: command_line_switches
 description: Command line and registry switches
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 client: win
 ---

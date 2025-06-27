@@ -6,7 +6,7 @@ keywords: person, contact, CRMScript
 author: Bergfrid Dias
 date: 02.04.2022
 version: 10
-topic: reference
+content_type: reference
 ---
 
 # Persons

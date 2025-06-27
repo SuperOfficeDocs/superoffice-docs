@@ -5,7 +5,7 @@ description: Tested server operating system
 author: {github-id}
 date: 02.26.2025
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

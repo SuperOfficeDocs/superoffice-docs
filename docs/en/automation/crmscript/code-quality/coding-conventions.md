@@ -4,7 +4,7 @@ title: CRMScript coding conventions
 author:
 date:
 keywords:
-topic: reference
+content_type: reference
 ---
 
 # CRMScript coding conventions

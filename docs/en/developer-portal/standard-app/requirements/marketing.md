@@ -5,7 +5,7 @@ description: Marketing requirements
 author: Margrethe Romnes
 date: 09.07.2023
 keywords: certification
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

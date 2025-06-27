@@ -5,7 +5,7 @@ description: Integration in the onsite Web client
 author: Tony Yates
 date: 11.25.2021
 keywords: API, integration point, web client
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

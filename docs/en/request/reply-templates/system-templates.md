@@ -5,7 +5,7 @@ description: System reply templates
 author: Bergfrid Dias
 date: 05.31.2023
 keywords: reply template, variable, parser, Service
-topic: reference
+content_type: reference
 ---
 
 # System templates

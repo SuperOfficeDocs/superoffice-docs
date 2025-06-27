@@ -5,7 +5,7 @@ description: Permissions of SuperOffice integration app
 author: Frode Berntsen
 date: 05.08.2023
 keywords: permission, integration, app, SharePoint, document
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

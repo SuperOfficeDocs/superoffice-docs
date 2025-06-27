@@ -5,7 +5,7 @@ description: Localization and language support requirements for certifying stand
 keywords: certification, apps
 author: Margrethe Romnes
 date: 05.12.2025
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

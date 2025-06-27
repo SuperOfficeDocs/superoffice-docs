@@ -4,7 +4,7 @@ uid: tested_browsers
 description: Tested browser versions
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

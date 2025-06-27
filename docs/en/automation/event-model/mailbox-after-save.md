@@ -5,7 +5,7 @@ description: CRMScript event model - Mailbox event, execute after message is sav
 author:
 date:
 keywords:
-topic: reference
+content_type: reference
 ---
 
 # Mailbox event, execute after message is saved
