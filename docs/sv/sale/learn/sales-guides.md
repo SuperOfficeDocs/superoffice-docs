@@ -6,7 +6,7 @@ keywords: säljguide, guide, arbetsflöde, detaljkortet Säljguide, försäljnin
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

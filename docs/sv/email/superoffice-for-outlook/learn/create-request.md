@@ -6,7 +6,7 @@ keywords: SuperOffice for Outlook, Outlook, e-post, lägg till ärende, lägg ti
 author: Erik Lebiko, Bergfrid Dias
 date: 02.25.2025
 version_sofo: 2024.8.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

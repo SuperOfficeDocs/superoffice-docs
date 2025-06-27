@@ -5,7 +5,7 @@ description: Skapa skript
 author: Bergfrid Dias
 date: 03.23.2023
 keywords: skript, makro
-topic: howto
+content_type: howto
 language: sv
 ---
 

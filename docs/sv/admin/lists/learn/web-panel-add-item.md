@@ -5,7 +5,7 @@ description: Lägga till poster i listan Webbpanel
 keywords: lista, webbpanel
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

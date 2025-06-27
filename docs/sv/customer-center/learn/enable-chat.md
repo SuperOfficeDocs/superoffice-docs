@@ -5,7 +5,7 @@ description: Den här guiden beskriver hur du ansluter en chattkanal till ditt K
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chatt, kundcenter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

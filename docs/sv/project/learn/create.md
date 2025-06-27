@@ -6,7 +6,7 @@ keywords: skapa projekt, nytt projekt, lägga till projekt, projekt
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

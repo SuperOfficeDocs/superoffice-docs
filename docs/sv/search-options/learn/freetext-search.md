@@ -5,7 +5,7 @@ description: Fritextsökning
 author: SuperOffice RnD
 date: 05.25.2023
 keywords: fritext, söka
-topic: howto
+content_type: howto
 language: sv
 ---
 

@@ -6,7 +6,7 @@ keywords: skapa säljguide, ny säljguide, säljguide, guide, arbetsflöde, för
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Inställningar och underhåll

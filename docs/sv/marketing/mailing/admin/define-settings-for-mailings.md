@@ -6,7 +6,7 @@ keywords: Marknadsföring, inställningar
 author: SuperOffice RnD
 date: 02.12.2024
 version: 10
-topic: howto
+content_type: howto
 language: sv
 envir: onsite
 audience: person

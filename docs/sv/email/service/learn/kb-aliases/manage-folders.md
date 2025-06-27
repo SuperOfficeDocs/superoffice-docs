@@ -5,7 +5,7 @@ description: Administrera mappar med e-postadresser
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: ärende
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person
