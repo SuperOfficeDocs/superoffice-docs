@@ -6,7 +6,7 @@ keywords: dagbok, oppfølging, videomøte
 author: SuperOffice RnD
 date: 12.10.2024
 version: 10.2.11
-topic: howto
+content_type: howto
 language: no
 ---
 

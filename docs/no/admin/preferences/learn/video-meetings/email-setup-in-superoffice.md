@@ -5,7 +5,7 @@ description: E-postoppsett for videomøter
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: videomøte
-topic: howto
+content_type: howto
 language: no
 ---
 

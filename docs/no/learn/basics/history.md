@@ -6,7 +6,7 @@ keywords: søk, historikklisten, historikk
 author: SuperOffice RnD
 date: 01.29.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

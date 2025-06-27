@@ -6,7 +6,7 @@ keywords: rediger dashbord, slett dashbord, dashbordkolonner, dashbord, figur, f
 author: Bergfrid Dias
 date: 03.26.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

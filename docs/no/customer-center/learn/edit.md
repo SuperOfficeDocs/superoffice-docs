@@ -5,7 +5,7 @@ description: "Kundesenter, kildefiler"
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Kundesenter, CEP
-topic: howto
+content_type: howto
 language: no
 ---
 

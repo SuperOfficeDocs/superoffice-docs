@@ -5,7 +5,7 @@ description: Finn ut hvordan du konfigurerer kundesenteret ditt i denne guiden.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Tjeneste, Kundesenter, CEP
-topic: howto
+content_type: howto
 language: no
 ---
 

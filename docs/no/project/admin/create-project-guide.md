@@ -6,7 +6,7 @@ keywords: opprett prosjektguide, ny prosjektguide, prosjektguide, guide, arbeids
 author: SuperOffice RnD
 date: 01.03.2025
 version: 10
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

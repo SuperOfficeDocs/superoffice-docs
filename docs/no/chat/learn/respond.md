@@ -5,7 +5,7 @@ description: "Når en kunde sender en forespørsel via chatwidgeten på websiden
 author: Bergfrid Dias
 date: 02.14.2023
 keywords: chat
-topic: howto
+content_type: howto
 language: no
 ---
 

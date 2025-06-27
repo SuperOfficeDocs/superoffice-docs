@@ -5,7 +5,7 @@ description: Filtrere og gruppere brukere
 author: Bergfrid
 date: 03.15.2023
 keywords: bruker, medarbeider
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

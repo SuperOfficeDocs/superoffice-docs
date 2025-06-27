@@ -5,7 +5,7 @@ description: Hvordan bruke hurtigsøk i navigatoren in SuperOffice
 author: Bergfrid Dias
 date: 05.25.2023
 keywords: søk, hurtigsøk
-topic: howto
+content_type: howto
 language: no
 ---
 

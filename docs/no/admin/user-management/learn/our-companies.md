@@ -5,7 +5,7 @@ description: Slik legger du til og fjerner firmaer i fanen Våre firmaer
 author: Bergfrid
 date: 03.15.2023
 keywords: bruker, våre firmaer
-topic: howto
+content_type: howto
 audience: settings
 language: no
 client: web

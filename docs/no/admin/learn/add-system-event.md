@@ -5,7 +5,7 @@ description: Legge til systemoperasjoner
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: arrangement, varsling
-topic: howto
+content_type: howto
 language: no
 envir: onsite
 ---

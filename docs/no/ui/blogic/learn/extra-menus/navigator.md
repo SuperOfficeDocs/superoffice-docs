@@ -5,7 +5,7 @@ description: Legg til navigatorgruppe og ekstrameny
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: navigator-gruppen
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 

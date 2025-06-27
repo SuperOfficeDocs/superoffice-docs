@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du bruker et webskjema.
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: skjema, Kundesenter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 

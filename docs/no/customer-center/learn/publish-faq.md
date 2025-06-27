@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du publiserer FAQ-er i kundesenter
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Kundesenter
-topic: howto
+content_type: howto
 language: no
 ---
 

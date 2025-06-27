@@ -6,7 +6,7 @@ keywords: sak, melding, flagg
 author: Hanne Gunnarsson
 date: 02.04.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

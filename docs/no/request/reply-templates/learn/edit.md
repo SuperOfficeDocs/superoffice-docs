@@ -6,7 +6,7 @@ keywords: rediger svarmal, slett svarmal, sak, svarmal, mal
 author: Bergfrid Dias
 date: 02.04.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

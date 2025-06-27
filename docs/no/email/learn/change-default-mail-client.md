@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 06.29.2022
 keywords: e-post, innstillinger, e-postklient
 language: no
-topic: howto
+content_type: howto
 ---
 
 # Endre standard e-postklient i SuperOffice

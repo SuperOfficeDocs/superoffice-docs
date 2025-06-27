@@ -5,7 +5,7 @@ description: Arkivering av e-post på firmaer/personer
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-post
-topic: howto
+content_type: howto
 language: no
 ---
 

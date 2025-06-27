@@ -5,7 +5,7 @@ description: Lær hvordan du installerer nettleserutvidelsen for Gmail i denne v
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, E-post
-topic: howto
+content_type: howto
 language: no
 ---
 

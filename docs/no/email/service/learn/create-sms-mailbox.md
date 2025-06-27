@@ -5,7 +5,7 @@ description: Opprette SMS-postkasse
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: e-post
-topic: howto
+content_type: howto
 language: no
 ---
 

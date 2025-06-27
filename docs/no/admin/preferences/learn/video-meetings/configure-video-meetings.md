@@ -5,7 +5,7 @@ description: Konfigurere videomøter
 author: SuperOffice RnD
 date: 03.20.2023
 keywords: Videomøte, invitasjon
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

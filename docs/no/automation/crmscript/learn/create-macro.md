@@ -5,7 +5,7 @@ description: Eksempel på hvordan du oppretter en makro i SuperOffice.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: skript, makro
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 

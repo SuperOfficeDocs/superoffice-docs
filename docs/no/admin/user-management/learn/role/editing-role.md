@@ -5,7 +5,7 @@ description: Slik redigerer du en rolle.
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: rolle, brukeradministrasjon
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -5,7 +5,7 @@ description: I denne guiden finner du ut hvordan du kobler en chatkanal til kund
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chat, kundesenter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

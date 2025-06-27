@@ -6,7 +6,7 @@ keywords: opprett svarmal, ny svarmal, kopier svarmal, svarmalegenskaper, kunnsk
 author: Bergfrid Dias
 date: 02.04.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person
