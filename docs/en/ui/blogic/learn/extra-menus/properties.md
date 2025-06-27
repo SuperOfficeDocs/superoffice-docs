@@ -5,7 +5,7 @@ description: Menu properties
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: Service
-topic: reference
+content_type: reference
 language: en
 ---
 

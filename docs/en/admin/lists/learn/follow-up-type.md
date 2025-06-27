@@ -5,7 +5,7 @@ description: Follow-up - Type
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance
-topic: reference
+content_type: reference
 language: en
 ---
 

@@ -5,7 +5,7 @@ description: General settings
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link
-topic: reference
+content_type: reference
 language: en
 ---
 
