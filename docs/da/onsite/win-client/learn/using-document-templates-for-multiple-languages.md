@@ -5,7 +5,7 @@ description: brug af dokumentskabeloner til flere sprog
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-topic: help
+content_type: howto
 language: da
 ---
 
