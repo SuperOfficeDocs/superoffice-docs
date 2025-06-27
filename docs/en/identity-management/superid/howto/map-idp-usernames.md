@@ -4,7 +4,7 @@ uid: map_idp_usernames
 description: Update SuperOffice username to match IdP username
 author: {github-id}
 keywords:
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---
