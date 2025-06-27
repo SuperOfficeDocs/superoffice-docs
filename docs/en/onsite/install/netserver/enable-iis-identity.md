@@ -5,7 +5,7 @@ description: WebAPI authentication Active Directory
 author: Bergfrid Dias
 date: 12.17.2021
 keywords: authentication, AD, Active Directory, AuthorizeWithImplicit, IIS
-topic: howto 
+content_type: howto 
 envir: onsite
 ---
 

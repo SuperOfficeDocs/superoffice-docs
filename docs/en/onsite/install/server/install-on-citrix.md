@@ -4,7 +4,7 @@ uid: install_on_citrix
 description: Install on Citrix/Terminal server
 author: {github-id}
 keywords: install citrix terminal deploy
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

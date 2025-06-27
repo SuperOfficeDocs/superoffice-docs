@@ -4,7 +4,7 @@ uid: create_sql_server_db
 description: Create a new Microsoft SQL Server database for SuperOffice onsite
 author: {github-id}
 keywords: database
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---
