@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.26.2024
 version: 10
 keywords: udef, tilpasset felt, brugerdefinered felt
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

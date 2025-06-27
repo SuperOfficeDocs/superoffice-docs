@@ -5,7 +5,7 @@ description: Importindstillinger
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: importer
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

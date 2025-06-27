@@ -5,7 +5,7 @@ description: Rediger medarbejder
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: user, medarbejder
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

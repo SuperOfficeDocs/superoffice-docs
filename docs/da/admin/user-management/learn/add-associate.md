@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du tilføjer en ny bruger til
 author: SuperOffice RnD
 date: 12.11.2024
 keywords: user, medarbejder
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

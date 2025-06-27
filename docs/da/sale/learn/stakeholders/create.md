@@ -6,7 +6,7 @@ keywords: Tilføj interessent, ny interessent, Tilføj/rediger interessenter-dia
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 content_type: concept
 audience: person

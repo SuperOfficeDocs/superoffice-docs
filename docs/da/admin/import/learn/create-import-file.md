@@ -5,7 +5,7 @@ description: I denne guide lærer du, hvordan du opretter en importfil ved hjæl
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importer, Excel, firma, contact, produkt, regneark
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

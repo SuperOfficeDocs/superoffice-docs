@@ -6,7 +6,7 @@ keywords: opdater salg, rediger salg, slet salg, udsat, tabt, solgt, salg
 author: SuperOffice RnD
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

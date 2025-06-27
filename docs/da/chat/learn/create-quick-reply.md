@@ -5,7 +5,7 @@ description: Oprettelse af et hurtigt svar
 keywords: chat
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 language: da
 ---
 

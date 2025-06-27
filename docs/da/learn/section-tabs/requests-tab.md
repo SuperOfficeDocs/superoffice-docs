@@ -6,7 +6,7 @@ keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, 
 author: Bergfrid Skaara Dias
 date: 03.11.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

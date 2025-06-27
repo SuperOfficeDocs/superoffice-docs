@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du ændrer en brugerplan for 
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user, medarbejder
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

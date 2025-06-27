@@ -5,7 +5,7 @@ description: Hvis du vil sende en marketingmail ud, skal du bare følge fem nemm
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing, udsendelse
-topic: howto
+content_type: howto
 language: da
 ---
 

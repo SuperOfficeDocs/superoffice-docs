@@ -5,7 +5,7 @@ description: Sådan linker du ny kunde til SuperOffice fra en chat.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat, contact
-topic: howto
+content_type: howto
 language: da
 ---
 

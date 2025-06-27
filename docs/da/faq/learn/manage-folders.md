@@ -5,7 +5,7 @@ description: Administration af mapper med FAQ-poster
 keywords: FAQ, mappe
 author: Bergfrid Dias
 date: 02.25.2025
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

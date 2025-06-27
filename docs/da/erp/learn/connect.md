@@ -6,7 +6,7 @@ keywords: knyt til ERP, knyt firma til ERP, knyt person til ERP, knyt projekt ti
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
