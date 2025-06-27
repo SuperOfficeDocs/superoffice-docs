@@ -5,7 +5,7 @@ description: Gebruikers afmelden
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud, gebruiker
-topic: help
+content_type: howto
 language: nl
 ---
 

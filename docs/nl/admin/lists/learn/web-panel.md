@@ -5,7 +5,7 @@ description: Webpaneel
 keywords: GUI - Webpaneel, webpaneel, www-tabblad, tabblad www, lijst, snelkoppeling
 author: SuperOffice RnD
 date: 03.14.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl

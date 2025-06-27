@@ -5,7 +5,7 @@ description: E-mailinstellingen voor videovergaderingen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: videovergadering
-topic: howto
+content_type: howto
 language: nl
 ---
 

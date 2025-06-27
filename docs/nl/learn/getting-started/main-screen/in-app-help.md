@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 03.14.2025
 version: 10.5.2
 keywords: help, inapp, in-app
-topic: concept
+content_type: concept
 language: nl
 ---
 

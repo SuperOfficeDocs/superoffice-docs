@@ -6,7 +6,7 @@ keywords: lijst, relatie
 author: SuperOffice RnD
 date: 11.29.2024
 version: 10.3
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

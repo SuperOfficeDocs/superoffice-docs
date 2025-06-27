@@ -5,7 +5,7 @@ description: Meer informatie over het instellen van klanttalen vindt u in deze h
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: taal
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -9,7 +9,7 @@ version: 10.5.2
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -5,7 +5,7 @@ description: Veldtoewijzing verwijderen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Windows Client-instellingen
-topic: help
+content_type: howto
 language: nl
 client: win
 envir: onsite

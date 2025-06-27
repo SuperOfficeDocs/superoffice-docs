@@ -5,7 +5,7 @@ description: Afzenders beheren met Gmail Link
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: nl
 ---
 

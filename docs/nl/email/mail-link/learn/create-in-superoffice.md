@@ -5,7 +5,7 @@ description: E-mails maken vanuit SuperOffice CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-koppeling
-topic: howto
+content_type: howto
 language: nl
 ---
 

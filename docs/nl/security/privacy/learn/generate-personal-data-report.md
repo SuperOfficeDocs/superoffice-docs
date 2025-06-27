@@ -5,7 +5,7 @@ description: Rapport met persoonlijke gegevens genereren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: bedrijf
-topic: howto
+content_type: howto
 language: nl
 ---
 

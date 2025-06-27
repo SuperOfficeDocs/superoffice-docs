@@ -5,7 +5,7 @@ description: Voorbeeld van het maken van een macro in SuperOffice.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: script, macro
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

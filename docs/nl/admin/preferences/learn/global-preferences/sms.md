@@ -5,7 +5,7 @@ description: SMS
 keywords: Service, instellingen
 author: SuperOffice RnD
 date: 03.14.2025
-topic: refence
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

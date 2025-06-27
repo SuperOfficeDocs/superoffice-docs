@@ -5,7 +5,7 @@ description: De introductie van kunstmatige intelligentie (AI) in SuperOffice 10
 keywords: verzoek, ai, efficiënt
 author: Kirsti Aakerholt
 date: 04.19.2023
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

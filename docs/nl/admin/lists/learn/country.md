@@ -5,7 +5,7 @@ description: Land
 keywords: lijst Algemeen - Land
 author: SuperOffice RnD
 date: 03.14.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

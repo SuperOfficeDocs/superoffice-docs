@@ -5,7 +5,7 @@ description: Items in Veelgestelde vragen zoeken
 keywords: Veelgestelde vragen
 author: Bergfrid Dias
 date: 03.14.2025
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

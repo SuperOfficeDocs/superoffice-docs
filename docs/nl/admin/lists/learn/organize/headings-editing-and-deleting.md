@@ -5,7 +5,7 @@ description: Kopteksten bewerken en verwijderen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: howto
+content_type: howto
 language: nl
 ---
 

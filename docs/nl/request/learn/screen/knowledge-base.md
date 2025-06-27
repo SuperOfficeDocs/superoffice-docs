@@ -5,7 +5,7 @@ description: Knowledge Base
 author: SuperOffice RnD
 date: 03.24.2023
 keywords: verzoek, kennisdatabase
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

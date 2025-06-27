@@ -5,7 +5,7 @@ description: Systeemgebeurtenissen toevoegen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: gebeurtenis, melding
-topic: howto
+content_type: howto
 language: nl
 envir: onsite
 ---

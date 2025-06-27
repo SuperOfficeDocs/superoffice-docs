@@ -5,7 +5,7 @@ description: Meer informatie over het archiveren van e-mails als verzoeken vindt
 keywords: Mail-koppeling
 author: SuperOffice RnD
 date: 03.14.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

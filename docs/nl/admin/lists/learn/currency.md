@@ -5,7 +5,7 @@ description: Valuta
 keywords: valuta, verkoop
 author: SuperOffice RnD
 date: 03.14.2025
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

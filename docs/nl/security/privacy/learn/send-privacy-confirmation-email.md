@@ -5,7 +5,7 @@ description: E-mail met privacybevestiging verzenden
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: GDPR, toestemming, e-mail, privacy
-topic: howto
+content_type: howto
 language: nl
 ---
 

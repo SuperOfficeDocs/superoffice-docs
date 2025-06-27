@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u veelgestelde vragen kunt publicer
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Veelgestelde vragen, Klantportaal
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -5,7 +5,7 @@ description: SOAP-interface configureren
 keywords: Service, SOAP
 author: SuperOffice RnD
 date: 03.23.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 envir: onsite

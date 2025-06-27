@@ -6,7 +6,7 @@ keywords: menubalk, bovenste balk, knop, Persoonlijke instellingen menu, Hoofdme
 author: SuperOffice RnD
 date: 03.14.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

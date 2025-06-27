@@ -5,7 +5,7 @@ description: CRMScript is een functie waarmee u taken in of het gedrag van Super
 keywords: CRMScript
 author: SuperOffice RnD
 date: 02.22.2023
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

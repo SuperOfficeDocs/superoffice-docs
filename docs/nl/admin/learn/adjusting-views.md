@@ -5,7 +5,7 @@ description: Verschillende weergaven in Instellingen en onderhoud wijzigen.
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

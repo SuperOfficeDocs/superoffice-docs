@@ -5,7 +5,7 @@ description: Licentie voor SuperOffice activeren
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: licentie
-topic: howto
+content_type: howto
 language: nl
 ---
 

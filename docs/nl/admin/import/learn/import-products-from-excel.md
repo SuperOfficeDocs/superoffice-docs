@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u al uw producten, beschrijvingen e
 keywords: import, product, Excel
 author: Bergfrid Dias
 date: 02.22.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

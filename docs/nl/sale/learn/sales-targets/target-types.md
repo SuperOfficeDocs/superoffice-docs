@@ -5,7 +5,7 @@ description: Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u par
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: verkoop
-topic: howto
+content_type: howto
 language: nl
 ---
 

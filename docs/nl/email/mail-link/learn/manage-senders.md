@@ -5,7 +5,7 @@ description: Afzenders beheren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-koppeling
-topic: howto, sender
+content_type: howto, sender
 language: nl
 ---
 

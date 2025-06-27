@@ -5,7 +5,7 @@ description: Scherm Gebruikers
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: gebruiker, medewerker, onze bedrijven
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

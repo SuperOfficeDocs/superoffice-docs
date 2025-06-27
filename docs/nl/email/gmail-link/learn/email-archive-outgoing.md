@@ -5,7 +5,7 @@ description: Uitgaande e-mail archiveren met SuperOffice Gmail Link
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -6,7 +6,7 @@ keywords: projectgids, projectstatus, projecttype, workflow, project
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Instellingen en onderhoud

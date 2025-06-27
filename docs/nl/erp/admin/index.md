@@ -6,7 +6,7 @@ keywords: ERP-tabblad, ERP-systeem, ERP-actor, Sync Connector, ERP-verbinding, s
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: development-tools
 audience: settings
 audience_tooltip: Instellingen en onderhoud

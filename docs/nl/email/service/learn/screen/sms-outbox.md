@@ -5,7 +5,7 @@ description: SMS-postvak UIT
 keywords: Service
 author: SuperOffice RnD
 date: 06.29.2022
-topic: reference
+content_type: reference
 language: nl
 ---
 

@@ -5,7 +5,7 @@ description: Medewerker bewerken
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: gebruiker, medewerker
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

@@ -6,7 +6,7 @@ keywords: offerte, offertesjabloon, sjabloon, offertedocument, offerte-details, 
 author: Bergfrid Dias
 date: 07.31.2024
 version: 10
-topic: concept
+content_type: concept
 language: nl
 ---
 

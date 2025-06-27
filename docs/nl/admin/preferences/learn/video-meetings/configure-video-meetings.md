@@ -5,7 +5,7 @@ description: Videovergaderingen configureren
 author: SuperOffice RnD
 date: 03.20.2023
 keywords: Videovergadering, uitnodiging
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

@@ -5,7 +5,7 @@ description: Stopwoorden
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: vrije tekst, zoeken, stopwoord
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

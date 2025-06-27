@@ -6,7 +6,7 @@ keywords: Marketing, mailing, gevolgde koppelingen
 author: SuperOffice RnD
 date: 11.19.2024
 version: 10.3.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

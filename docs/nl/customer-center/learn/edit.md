@@ -5,7 +5,7 @@ description: Klantportaal-bronbestanden
 keywords: Klantportaal, CEP
 author: Bergfrid Dias
 date: 03.16.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -5,7 +5,7 @@ description: SuperOffice account
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-koppeling
-topic: reference
+content_type: reference
 language: nl
 ---
 

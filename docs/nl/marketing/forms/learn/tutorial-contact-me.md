@@ -6,7 +6,7 @@ keywords: formulier, Neem contact met mij op
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

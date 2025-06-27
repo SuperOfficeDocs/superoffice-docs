@@ -6,7 +6,7 @@ keywords: marketing, editor, sjabloonvariabele, variabelen
 author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

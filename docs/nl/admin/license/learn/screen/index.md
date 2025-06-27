@@ -5,7 +5,7 @@ description: Het scherm Licenties in Instellingen en onderhoud
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: licentie, diensten met datalimiet, database-eigenaar, Tabblad Status
-topic: reference
+content_type: reference
 language: nl
 ---
 

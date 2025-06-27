@@ -6,7 +6,7 @@ keywords: SuperOffice Postvak IN, postvak instellen, e-mailinstellingen, IMAP, e
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

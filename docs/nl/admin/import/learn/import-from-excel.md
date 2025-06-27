@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u al uw prospects, klanten en hun c
 keywords: import, Excel, bedrijf, contactpersoon, spreadsheet
 author: Bergfrid Dias
 date: 02.22.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

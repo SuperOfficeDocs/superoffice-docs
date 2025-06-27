@@ -5,7 +5,7 @@ description: Verzoeklogboek
 author: Hanne Gunnarsson
 date: 06.29.2022
 keywords: verzoek
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

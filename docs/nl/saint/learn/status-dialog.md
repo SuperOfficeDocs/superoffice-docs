@@ -6,7 +6,7 @@ keywords: SAINT, statuscontroles
 author: SuperOffice RnD
 date: 06.29.2022
 version: 9
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

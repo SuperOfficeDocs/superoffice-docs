@@ -5,7 +5,7 @@ description: Inleiding tot het beheer van SuperOffice.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: beheerder, Instellingen en onderhoud
-topic: howto
+content_type: howto
 language: nl
 ---
 # Krijg uw gebruikers aan boord

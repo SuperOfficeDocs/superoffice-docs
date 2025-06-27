@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een webformulier gebruikt.
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: formulier, Klantportaal
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

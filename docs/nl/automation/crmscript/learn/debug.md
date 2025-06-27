@@ -5,7 +5,7 @@ description: Foutopsporingssessies
 keywords: CRMScript
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

@@ -6,7 +6,7 @@ keywords: voorkeuren, instellingen, algemeen
 author: SuperOffice RnD
 date: 03.14.2025
 version: 10
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

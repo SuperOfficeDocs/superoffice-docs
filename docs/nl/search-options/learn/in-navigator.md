@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
 keywords: zoeken, Snel zoeken, navigator
-topic: howto
+content_type: howto
 language: nl
 ---
 

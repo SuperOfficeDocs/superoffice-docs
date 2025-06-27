@@ -5,7 +5,7 @@ description: Items groeperen onder kopteksten
 keywords: items groeperen, kopjes, koptekst, lijst Kopteksten, lijst Items
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: nl

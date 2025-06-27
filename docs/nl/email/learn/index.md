@@ -5,7 +5,7 @@ description: Met SuperOffice CRM kunt u ervoor kiezen om uw e-mails op verschill
 keywords: e-mail, postvak IN
 author: SuperOffice RnD
 date: 02.10.2023
-topic: concept
+content_type: concept
 language: nl
 ---
 

@@ -5,7 +5,7 @@ description: Schermeigenschappen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: scherm
-topic: reference
+content_type: reference
 language: nl
 ---
 

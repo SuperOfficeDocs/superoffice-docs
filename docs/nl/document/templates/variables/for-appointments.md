@@ -6,7 +6,7 @@ keywords: sjabloonvariabel, vervolgactiviteit, baid, biid, binf ,binl, binv
 author: Bergfrid Dias
 date: 05.21.2024
 version: 10.3.6
-topic: reference
+content_type: reference
 language: en
 ---
 

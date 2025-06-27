@@ -5,7 +5,7 @@ description: Actieve taal wijzigen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: taal
-topic: howto
+content_type: howto
 language: nl
 ---
 

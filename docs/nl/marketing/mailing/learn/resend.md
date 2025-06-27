@@ -5,7 +5,7 @@ description: Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: nl
 ---
 

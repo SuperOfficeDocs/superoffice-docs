@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een gebruikersplan voor actieve g
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: gebruiker, medewerker
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

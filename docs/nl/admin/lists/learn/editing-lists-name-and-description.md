@@ -5,7 +5,7 @@ description: De naam en beschrijving van een lijst bewerken
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: lijst, type abonnement
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

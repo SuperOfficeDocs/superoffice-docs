@@ -5,7 +5,7 @@ description: Lees in deze handleiding hoe u een chatkanaal verbindt met uw klant
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chatten, klantencentrum
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

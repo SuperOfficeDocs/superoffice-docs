@@ -6,7 +6,7 @@ keywords: statische selectie, dynamische selectie, gecombineerde selecties, sche
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

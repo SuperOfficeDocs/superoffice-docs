@@ -5,7 +5,7 @@ description: Meer informatie over het installeren van de browserextensie voor Gm
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, e-mail
-topic: howto
+content_type: howto
 language: nl
 ---
 

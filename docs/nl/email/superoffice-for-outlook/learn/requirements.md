@@ -6,7 +6,7 @@ keywords: SuperOffice voor Outlook, Outlook, e-mail, SOFO
 author: Frode B, Martin Pavlas
 date: 01.27.2025
 version_sofo: 2024.8.12
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 audience: person

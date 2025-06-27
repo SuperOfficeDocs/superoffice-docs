@@ -5,7 +5,7 @@ description: Een vrije-tekstindex opnieuw genereren
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: vrije tekst, zoekindex
-topic: howto
+content_type: howto
 language: nl
 envir: onsite
 ---

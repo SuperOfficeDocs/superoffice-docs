@@ -5,7 +5,7 @@ description: E-mail archiveren als verzoeken
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: nl
 ---
 

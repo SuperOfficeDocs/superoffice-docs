@@ -5,7 +5,7 @@ description: Schermkiezers
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: UI, screen chooser
-topic: concept
+content_type: concept
 language: nl
 ---
 

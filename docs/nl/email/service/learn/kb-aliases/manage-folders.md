@@ -5,7 +5,7 @@ description: Mappen met e-mailadressen beheren
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: verzoek
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een testmailing verstuurt.
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: nl
 ---
 

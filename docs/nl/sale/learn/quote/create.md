@@ -6,7 +6,7 @@ keywords: een offerte maken, offerte kopiëren, product toevoegen, dialoogvenste
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

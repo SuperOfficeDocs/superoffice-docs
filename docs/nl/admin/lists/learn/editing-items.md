@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een lijstitem bewerkt.
 keywords: lijstitem, lijsten
 author: SuperOffice RnD
 date: 03.14.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

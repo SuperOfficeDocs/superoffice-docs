@@ -6,7 +6,7 @@ keywords: documentbibliotheek, document, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 08.02.2024
 version: 10.3
-topic: concept
+content_type: concept
 language: nl
 ---
 
