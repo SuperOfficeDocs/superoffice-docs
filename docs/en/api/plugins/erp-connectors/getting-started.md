@@ -5,7 +5,7 @@ description: Getting started with ERP development
 author: {github-id}
 date: 05.11.2016
 keywords: ERP, ErpConnector, DynamicLoad
-topic: guide
+content_type: tutorial
 # envir:
 # client:
 ---
