@@ -1,5 +1,6 @@
 ### YamlMime:SubCategory
 
+yamlMime: SubCategory
 title: Automation
 summary: "Automation allows an application to execute code when an event occurs inside the client. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data."
 
