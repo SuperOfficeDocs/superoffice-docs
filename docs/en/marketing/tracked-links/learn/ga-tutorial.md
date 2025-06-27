@@ -6,7 +6,7 @@ keywords: Marketing, mailing, Google Analytics, track
 author: Alex Pelan
 date: 06.25.2015
 version: 8
-topic: tutorial
+content_type: tutorial
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

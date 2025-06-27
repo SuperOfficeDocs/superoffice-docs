@@ -5,7 +5,7 @@ description: Using Ajax to call scripts in Customer Service
 author: Simen Mostuen Iversen
 date: 03.31.2014
 keywords: Customer Center
-topic: tutorial
+content_type: tutorial
 ---
 
 # Using Ajax to call scripts in Customer Service

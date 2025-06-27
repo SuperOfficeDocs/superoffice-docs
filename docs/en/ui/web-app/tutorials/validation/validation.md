@@ -5,7 +5,7 @@ description: A tutorial teaching you how to enforce complex business rules and h
 author: Tony Yates
 date: 10.07.2011
 keywords: web client, validation, event handler, ValidationControl, ValidationRules, UI
-topic: tutorial
+content_type: tutorial
 ---
 
 # Validation controls

@@ -5,7 +5,7 @@ description: Using GitHub webhooks to add message to ticket
 author: Frode Lillerud
 date: 02.07.2019
 keywords:
-topic: tutorial
+content_type: tutorial
 ---
 
 # Using GitHub webhooks to add message to ticket
