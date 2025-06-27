@@ -7,13 +7,13 @@ Under det sidste trin, **Bekræftelse**, kan du se en sammenfatning af udsendels
 > [!NOTE]
 > Sendeindstillingerne er deaktiveret, hvis der er ufuldstændige trin eller manglende oplysninger i din mailudsendelse. De er angivet med rødt.
 
-## Sende udsendelsen med det samme
+### Sende udsendelsen med det samme
 
 Klik på **Send nu** for at generere et PDF-dokument. Der genereres et PDF-dokument. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 Klik på udsendelsen på listen for at [se status og statistik for din afsendelse][1].
 
-## <a id="open-and-print-the-document"></a>Åbne og udskrive dokumentet
+### <a id="open-and-print-the-document"></a>Åbne og udskrive dokumentet
 
 1. Vælg fanen **Udsendelser**.
 2. Find dokumentet, klik på <i class="ph ph-list" aria-label="Task menu"></i> og vælg **Vis**.

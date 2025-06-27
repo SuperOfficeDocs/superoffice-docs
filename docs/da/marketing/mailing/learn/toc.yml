@@ -7,13 +7,13 @@ items:
   - name: Oversigt
     href: create/index.md
   - name: Ny udsendelse - e-mail
-    href: create/tutorial-email-mailing.yml
+    href: create/tutorial-email-mailing.md
   - name: Ny udsendelse - SMS
-    href: create/tutorial-sms-mailing.yml
+    href: create/tutorial-sms-mailing.md
   - name: Ny udsendelse - Dokument
-    href: create/tutorial-document-mailing.yml
+    href: create/tutorial-document-mailing.md
   - name: Ny udsendelse - formularsvar
-    href: create/tutorial-form-mailing.yml
+    href: create/tutorial-form-mailing.md
   - name: Send test-e-mail
     href: create/send-test-email.md
 - name: Vis statistik

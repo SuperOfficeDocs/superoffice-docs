@@ -70,7 +70,7 @@ Her kan du velge handlinger som skal utføres når et skjema behandles (automati
 <!-- Referenced links -->
 [2]: publish.md
 [6]: process-submissions.md
-[7]: ../../mailing/learn/create/tutorial-form-mailing.yml
+[7]: ../../mailing/learn/create/tutorial-form-mailing.md
 [8]: ../../../request/learn/create.md
 [9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
 

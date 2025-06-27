@@ -7,13 +7,13 @@ In the final step, **Confirm**, you can view a summary of the mailing and verify
 > [!NOTE]
 > The send options are disabled if there are incomplete steps or missing information in your mailing. These are indicated in red.
 
-## Send the mailing now
+### Send the mailing now
 
 Click **Send now** to generate a PDF document. A PDF document is generated. The workflow closes and you are returned to the **Mailings** tab.
 
 Click the mailing in the list to [view sending status and statistics][1].
 
-## Open and print the document
+### Open and print the document
 
 1. Select the **Mailings** tab.
 2. Locate the document, click <i class="ph ph-list" aria-label="Task menu"></i> and select **View**.

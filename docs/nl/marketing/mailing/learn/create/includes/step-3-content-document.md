@@ -17,7 +17,7 @@ Bij de stap **Inhoud** kunt u het uiterlijk en de inhoud van het document bewerk
 
 8. Klik op **Volgende** om naar de volgende stap te gaan.
 
-## Sjabloonvariabelen gebruiken
+### Sjabloonvariabelen gebruiken
 
 U kunt SuperOffice CRM-[sjabloonvariabelen][1] gebruiken in uw document om klantspecifieke informatie in te voegen. Zo geeft u het bericht een persoonlijke benadering.
 

@@ -9,13 +9,13 @@ The Confirm screen will give you a summary of the previous steps you have taken 
 
 ![The Confirm screen will give you a summary of the previous steps you have taken and let you either send or schedule your mailing -screenshot][img4]
 
-## Send the mailing now
+### Send the mailing now
 
 Click **Send now** to send the mailing immediately. The workflow closes and you are returned to the **Mailings** tab.
 
 Click the mailing in the list to view sending status and statistics. [How to track the mailing and view statistics][1].
 
-## Schedule to send
+### Schedule to send
 
 To not overload your servers during working hours, it would be a good idea to choose a time during the evening. This option is not available for mailings that have already started, temporarily stopped or have finished.
 
@@ -25,7 +25,7 @@ To not overload your servers during working hours, it would be a good idea to ch
     * Click **Set to now** to insert today's date and the time.
 3. Click **OK**. The workflow closes and you are returned to the **Mailings** tab.
 
-## What happens now?
+### What happens now?
 
 You can click the mailing in the list to [view sending status and statistics][1].
 

@@ -9,7 +9,7 @@ Due to the GDPR legislation, only the contacts that have expressed consent to be
 
 ![You can add your recipients from either selection, project, a single contact or an external list that you need to import -screenshot][img3]
 
-## Add recipients from selections and projects
+### Add recipients from selections and projects
 
 You can add recipients from selections (from both SuperOffice CRM and SuperOffice Service) and projects (from SuperOffice CRM).
 
@@ -26,7 +26,7 @@ You can add recipients from selections (from both SuperOffice CRM and SuperOffic
 > [!NOTE]
 > If you selected a selection under **Archive mailing** in **Setup** (step 1), this selection is listed under **Recipient sources**. You can delete this selection if necessary.
 
-## Add contacts from SuperOffice
+### Add contacts from SuperOffice
 
 You can add individual contacts from SuperOffice.
 
@@ -40,13 +40,13 @@ You can add individual contacts from SuperOffice.
 
 5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
 
-## Import a list of recipients (contacts) from an external file
+### Import a list of recipients (contacts) from an external file
 
 You can add recipients to a mailing by importing them from an external comma-separated file (for example a .txt file created in Notepad or a .csv file created in Excel).
 
 When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies are listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, are filtered out and not included in the mailing. This is due to GDPR regulations.
 
-### Steps
+#### Steps
 
 1. Click **Select file**.
 
@@ -59,7 +59,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 > [!NOTE]
 > Import is not available for document mailings.
 
-### Import file format
+#### Import file format
 
 * Each recipient must be on its own line (row).
 
@@ -75,7 +75,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 > [!NOTE]
 > If you only have the mobile phone number and want to send an SMS, you can enter the following: " , , 99887766".
 
-## Recipient options
+### Recipient options
 
 Under **Options** in the lower part of the **Recipients** screen, you can select options for the mailing based on its type.
 
@@ -105,7 +105,7 @@ Under **Options** in the lower part of the **Recipients** screen, you can select
     > [!NOTE]
     > The **Prefer company** option is only available if you selected **Include companies** above.
 
-## Preview the mailing
+### Preview the mailing
 
 After adding recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients. Preview is not available for document and SMS mailings.
 
@@ -120,7 +120,7 @@ After adding recipients to the **Recipients** list, you can preview the mailing 
 
 4. Click X to close the **Preview** window.
 
-## Review and update the Recipients list
+### Review and update the Recipients list
 
 When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you selected **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
 

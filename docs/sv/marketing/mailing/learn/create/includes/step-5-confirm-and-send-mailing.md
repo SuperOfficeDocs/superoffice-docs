@@ -9,13 +9,13 @@ Skärmen Bekräfta ger dig en sammanfattning av de tidigare stegen du har tagit 
 
 ![Skärmen Bekräfta ger dig en sammanfattning av de tidigare stegen du har tagit och låter dig antingen skicka eller schemalägga ditt utskick -screenshot][img4]
 
-## Skicka utskicket nu
+### Skicka utskicket nu
 
 Klicka på **Skicka nu** om du vill skicka utskicket omedelbart. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
 Klicka på utskicket i listan om du vill visa skickningsstatus och statistik för utskicket. [Så här spårar du utskick och visar statistik][1].
 
-## Schemalägga för utskick
+### Schemalägga för utskick
 
 För att inte överbelasta servrarna under arbetstid kan det vara en bra idé att välja en tidpunkt på kvällen. Detta alternativ är inte tillgängligt för utskick som redan har påbörjats, stoppats temporärt eller är färdiga.
 
@@ -25,7 +25,7 @@ För att inte överbelasta servrarna under arbetstid kan det vara en bra idé at
     * Klicka på **Ange som nuvärde** om du vill infoga dagens datum och aktuellt klockslag.
 3. Klicka på **OK**. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
-## Vad händer nu?
+### Vad händer nu?
 
 Du kan klicka på utskicket i listan om du vill [visa sändningsstatus och statistik för utskicket][1].
 

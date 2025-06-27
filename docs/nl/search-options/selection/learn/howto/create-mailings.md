@@ -34,8 +34,8 @@ U kunt een mailing verzenden naar alle personen in een selectie. De mailing kan 
 In SuperOffice CRM wordt de mailing toegevoegd aan het sectietabblad **Mailing** in het scherm Selectie om u te helpen alle mailings met betrekking tot elke selectie bij te houden.
 
 <!-- Referenced links -->
-[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.yml
-[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.yml
-[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.md
+[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.md
+[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.md
 
 <!-- Referenced images -->

@@ -17,7 +17,7 @@ In the **Content** step you can edit the appearance and content of the document.
 
 8. Click **Next** to go to the next step.
 
-## Use template variables
+### Use template variables
 
 You can use SuperOffice CRM [template variables][1] in your document to insert customer-specific information. This will give the message a more personal touch.
 

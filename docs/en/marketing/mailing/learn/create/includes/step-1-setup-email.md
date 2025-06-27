@@ -33,7 +33,7 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 1. Click **Next** to go to the next step.
 
-## E-mail Domain Validation (ONLINE ONLY)
+### E-mail Domain Validation (ONLINE ONLY)
 
 If your admin has activated the [global preference][2] **Only use approved e-mail domains**, the **From address** field will be split, and you need to select the domain you want to send from in the drop-down list of approved domains.
 Attempting to send from a domain that does not have a valid SPF record will prompt a warning, and you will not be able to send from that domain. This applies to all email domains even if the validation preference is not activated.

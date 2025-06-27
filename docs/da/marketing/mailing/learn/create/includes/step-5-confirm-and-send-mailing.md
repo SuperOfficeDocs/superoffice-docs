@@ -9,13 +9,13 @@ I skærmbilledet Bekræft får du en oversigt over de forudgående trin, du har 
 
 ![I skærmbilledet Bekræft får du en oversigt over de forudgående trin, du har gennemført, og du får mulighed for enten at afsende eller tidsindstille din mail -screenshot][img4]
 
-## Sende udsendelsen med det samme
+### Sende udsendelsen med det samme
 
 Klik på **Send nu** for at afsende udsendelsen med det samme. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 Klik på udsendelsen på listen for at se status og statistik for din afsendelse. [Spor udsendelsen og få vist statistik][1].
 
-## Tidsindstilling af udsendelsen
+### Tidsindstilling af udsendelsen
 
 For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at vælge et tidspunkt om aftenen. Denne valgmulighed er ikke tilgængelig for udsendelser, der er ved at blive sendt ud, er midlertidigt stoppet eller allerede er sendt ud.
 
@@ -25,7 +25,7 @@ For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at væ
     * Klik på **Sæt til nu** for at indsætte dags-dato og klokkeslæt.
 3. Klik på **OK**. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
-## Hvad sker der så nu?
+### Hvad sker der så nu?
 
 Klik på udsendelsen på listen for at [se status og statistik for din afsendelse][1].
 

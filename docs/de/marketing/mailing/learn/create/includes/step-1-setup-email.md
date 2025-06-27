@@ -33,7 +33,7 @@ Der erste Schritt beim Erstellen einer E-Mail-Kampagne wird als **Setup** bezeic
 
 1. Klicken Sie auf **Weiter**, um zum nächsten Schritt zu gelangen.
 
-## E-Mail-Domäne-Validierung (NUR ONLINE)
+### E-Mail-Domäne-Validierung (NUR ONLINE)
 
 Wenn Ihr Administrator die [globale Einstellung][2] **Nur genehmigte E-Mail-Domänen verwenden** aktiviert hat, wird das Feld **Von Adresse** aufgeteilt, und Sie müssen die Domäne, von der Sie senden möchten, in der Dropdown-Liste der genehmigten Domänen auswählen.
 Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag hat, wird eine Warnung ausgegeben und die Sendung von dieser Domäne ist nicht möglich. Dies gilt für alle E-Mail-Domäne, auch wenn die Validierungseinstellung nicht aktiviert ist.

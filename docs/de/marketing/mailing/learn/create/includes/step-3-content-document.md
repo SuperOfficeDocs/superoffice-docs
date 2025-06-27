@@ -17,7 +17,7 @@ Im Schritt **Inhalt** können Sie das Erscheinungsbild und den Inhalt des Dokume
 
 8. Klicken Sie auf **Weiter**, um zum nächsten Schritt zu gelangen.
 
-## Vorlagenvariablen verwenden
+### Vorlagenvariablen verwenden
 
 Sie können [Vorlagenvariablen][1] von SuperOffice CRM in Ihrem Dokument verwenden, um kundenspezifische Informationen einzufügen. Dadurch geben Sie Ihrer Nachricht eine persönlichere Note.
 

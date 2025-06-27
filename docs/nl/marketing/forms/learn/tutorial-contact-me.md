@@ -116,7 +116,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../mailing/learn/create/tutorial-form-mailing.yml
+[2]: ../../mailing/learn/create/tutorial-form-mailing.md
 [6]: ../../recipients/learn/manage-email-subscriptions.md
 [7]: tutorial-sign-up.md
 

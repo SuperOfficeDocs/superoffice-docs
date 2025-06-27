@@ -40,7 +40,7 @@ For at bruge [Google Analytics-funktionen][2], skal du have en Google Analytics-
  Så snart dine modtagere klikker på linkene til dit websted, kan du spore deres besøg på dit websted i Google Analytics.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/tutorial-email-mailing.yml
+[1]: ../../mailing/learn/create/tutorial-email-mailing.md
 [2]: index.md#google
 
 <!-- Referenced images -->

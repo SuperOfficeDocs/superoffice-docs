@@ -24,4 +24,4 @@ Om du vill skicka samma dokument till alla deltagare i ett projekt kan du använ
 > I **Steg 4: Mottagare** väljer du från vilket projekt du vill lägga till projektdeltagare som mottagare.
 
 <!-- Referenced links -->
-[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.md

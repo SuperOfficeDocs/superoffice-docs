@@ -34,8 +34,8 @@ Du kan göra ett utskick till alla företag i ett urval. Utskicket kan vara ett 
 I SuperOffice CRM läggs utskicket till i detaljkortet **Utskick** på i fönstret Urval för att hjälpa dig att hålla reda på alla utskick som är kopplade till varje urval.
 
 <!-- Referenced links -->
-[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.yml
-[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.yml
-[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.md
+[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.md
+[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.md
 
 <!-- Referenced images -->

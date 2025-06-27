@@ -33,7 +33,7 @@ Det første trin i oprettelse af en e-mailudsendelse kaldes **Opsætning**. Her 
 
 1. Klik på **Næste** for at gå til det næste trin.
 
-## Validering af e-mail-domæne (KUN ONLINE)
+### Validering af e-mail-domæne (KUN ONLINE)
 
 Hvis din administrator har aktiveret [generelle indstillinger][2] i form af **Brug kun godkendte e-mail-domæner**, vil feltet **Fra-adresse** blive delt op, og du skal vælge det domæne, du vil sende fra, i rullelisten over godkendte domæner.
 Hvis du forsøger at sende fra et domæne, der ikke har en gyldig SPF-registrering, får du vist en advarsel, og du kan ikke sende fra det domæne. Det gælder for alle e-maildomæner, også selvom valideringspræferencen ikke er aktiveret.

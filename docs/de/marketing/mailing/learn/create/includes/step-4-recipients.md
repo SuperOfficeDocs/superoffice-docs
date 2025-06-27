@@ -9,7 +9,7 @@ Aufgrund des DSGVO-Gesetzes können nur die Personen, die ihre Zustimmung zur re
 
 ![Sie können Ihre Empfänger entweder aus der Auswahl, dem Projekt, einer einzelnen Person oder einer externen Liste hinzufügen, die Sie importieren müssen -screenshot][img3]
 
-## Empfänger aus Selektionen oder Projekten hinzufügen
+### Empfänger aus Selektionen oder Projekten hinzufügen
 
 Sie können Empfänger aus Selektionen (SuperOffice CRM und SuperOffice Service) sowie Projekten (aus SuperOffice CRM) hinzufügen.
 
@@ -26,7 +26,7 @@ Sie können Empfänger aus Selektionen (SuperOffice CRM und SuperOffice Service)
 > [!NOTE]
 > Wenn Sie in **Setup** (Schritt 1) unter **Kampagne archivieren** eine Selektion ausgewählt haben, wird diese Selektion unter **Empfängerquellen** aufgelistet. Sie können diese Selektion gegebenenfalls löschen.
 
-## Personen aus SuperOffice hinzufügen
+### Personen aus SuperOffice hinzufügen
 
 Sie können einzelne Personen aus SuperOffice hinzufügen.
 
@@ -40,13 +40,13 @@ Sie können einzelne Personen aus SuperOffice hinzufügen.
 
 5. Gehen Sie wie in Schritt 2 bis 5 erläutert vor, um weitere Personen hinzuzufügen. Zusätzliche Personen werden zur gleichen Zeile in der Liste **Empfängerquellen** hinzugefügt. Die Personenanzahl wird in der Spalte **Name** angezeigt.
 
-## Eine Empfängerliste (Personen) aus einer externen Datei importieren
+### Eine Empfängerliste (Personen) aus einer externen Datei importieren
 
 Sie können Empfänger einer Kampagne hinzufügen, indem Sie sie aus einer externen, durch Komma getrennten Datei importieren (z. B. aus einer in Notepad erstellten .txt-Datei oder einer in Excel erstellen .csv-Datei).
 
 Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOffice Marketing, die importierten Empfänger in der SuperOffice-Datenbank zu finden. Wenn Übereinstimmungen gefunden werden, werden die Firmen der Empfänger in der Liste **Empfänger** in der Spalte **Firma** aufgelistet. Alle Namen oder E-Mail-Adressen, die in SuperOffice **nicht** gefunden werden, werden herausgefiltert und nicht in die Kampagne aufgenommen. Dies liegt an den DSGVO-Vorschriften.
 
-### Schritte
+#### Schritte
 
 1. Klicken Sie auf **Datei auswählen**.
 
@@ -59,7 +59,7 @@ Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOff
 > [!NOTE]
 > Import ist nicht für Dokumentenkampagnen verfügbar.
 
-### Dateiformat importieren
+#### Dateiformat importieren
 
 * Jeder Empfänger steht in einer eigenen Zeile.
 
@@ -75,7 +75,7 @@ Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOff
 > [!NOTE]
 > Wenn Sie nur die Mobilfunknummer haben und eine SMS senden möchten, können Sie Folgendes eingeben: " , , 99887766".
 
-## Empfängeroptionen
+### Empfängeroptionen
 
 Unter **Optionen** im unteren Teil der Ansicht **Empfänger** können Sie je nach dem Typ Optionen für die Kampagne auswählen.
 
@@ -105,7 +105,7 @@ Unter **Optionen** im unteren Teil der Ansicht **Empfänger** können Sie je nac
     > [!NOTE]
     > Die Option **Firma bevorzugen** ist nur verfügbar, wenn Sie oben genannte Option **Firmen einbeziehen** ausgewählt haben.
 
-## Kampagnenvorschau
+### Kampagnenvorschau
 
 Nachdem Sie Empfänger zur Liste **Empfänger** hinzugefügt haben, können Sie sich eine Vorschau der Kampagne so anzeigen lassen, wie sie ein Empfänger sieht. Die Vorschau ist für Dokument- und SMS-Kampagnen nicht verfügbar.
 
@@ -120,7 +120,7 @@ Nachdem Sie Empfänger zur Liste **Empfänger** hinzugefügt haben, können Sie 
 
 4. Klicken Sie auf X, um das Fenster **Vorschau** zu schließen.
 
-## Liste Empfänger prüfen und aktualisieren
+### Liste Empfänger prüfen und aktualisieren
 
 Wenn Sie Selektionen, Projekte und Personen hinzufügen und Listen importieren, wird die Liste **Empfänger** automatisch aktualisiert. Wenn Sie die Option **Empfängerliste beim Senden aktualisieren** ausgewählt haben, werden die Projekte und Selektionen vor dem Senden der Kampagne geprüft, falls Personen hinzugefügt, entfernt oder bearbeitet worden sind.
 

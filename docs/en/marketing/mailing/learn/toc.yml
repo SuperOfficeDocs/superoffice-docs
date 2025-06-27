@@ -7,13 +7,13 @@ items:
   - name: Overview
     href: create/index.md
   - name: New mailing - Email
-    href: create/tutorial-email-mailing.yml
+    href: create/tutorial-email-mailing.md
   - name: New mailing - SMS
-    href: create/tutorial-sms-mailing.yml
+    href: create/tutorial-sms-mailing.md
   - name: New mailing - Document
-    href: create/tutorial-document-mailing.yml
+    href: create/tutorial-document-mailing.md
   - name: New mailing - Form response
-    href: create/tutorial-form-mailing.yml
+    href: create/tutorial-form-mailing.md
   - name: Send test email
     href: create/send-test-email.md
 - name: View statistics

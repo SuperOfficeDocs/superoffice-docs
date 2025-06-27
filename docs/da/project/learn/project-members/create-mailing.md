@@ -24,4 +24,4 @@ Hvis du vil sende samme dokument til alle medlemmer i et projekt, kan du bruge f
 > I **Trin 4: Modtagere** skal du vælge, hvilket projekt du vil tilføje projektdeltagere fra som modtagere.
 
 <!-- Referenced links -->
-[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.md

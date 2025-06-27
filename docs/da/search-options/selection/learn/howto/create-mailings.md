@@ -34,8 +34,8 @@ Du kan sende en udsendelse til alle firmaerne i et udvalg. Udsendelsen kan være
 I SuperOffice CRM føjes udsendelsen til detaljekortet **Udsendelser** i skærmbilledet Udvalg for at hjælpe dig med at holde styr på alle udsendelser relateret til hvert udvalg.
 
 <!-- Referenced links -->
-[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.yml
-[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.yml
-[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.md
+[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.md
+[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.md
 
 <!-- Referenced images -->
