@@ -7,13 +7,13 @@ I det siste trinnet, **Bekreft**, kan du vise et sammendrag av utsendelsen og be
 > [!NOTE]
 > Alternativene for sending deaktiveres hvis det er ufullstendige trinn eller manglende informasjon i utsendelsen. Disse indikeres med rødt.
 
-## Sende utsendelsen nå
+### Sende utsendelsen nå
 
 Klikk på **Send nå** for å generere et PDF-dokument. Det genereres et PDF-dokument. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
 Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 
-## <a id="open-and-print-the-document"></a>Åpne og skrive ut dokumentet
+### <a id="open-and-print-the-document"></a>Åpne og skrive ut dokumentet
 
 1. Velg fanen **Utsendelser**.
 2. Finn dokumentet, klikk på <i class="ph ph-list" aria-label="Task menu"></i> og velg **Vis**.

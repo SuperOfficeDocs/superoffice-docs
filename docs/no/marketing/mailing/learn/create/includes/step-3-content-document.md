@@ -17,7 +17,7 @@ I trinnet **Innhold** kan du redigere utseendet på og innholdet i dokumentet.
 
 8. Klikk på **Neste** for å gå til neste trinn.
 
-## Bruke malvariabler
+### Bruke malvariabler
 
 Du kan bruke SuperOffice CRM-[malvariabler][1] i dokumentet for å sette inn kundespesifikk informasjon. Dette vil gi meldingen et mer personlig preg.
 

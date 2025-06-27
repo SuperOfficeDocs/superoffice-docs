@@ -7,13 +7,13 @@ items:
   - name: Überblick
     href: create/index.md
   - name: Neue Kampagne - E-Mail
-    href: create/tutorial-email-mailing.yml
+    href: create/tutorial-email-mailing.md
   - name: Neue Kampagne - SMS
-    href: create/tutorial-sms-mailing.yml
+    href: create/tutorial-sms-mailing.md
   - name: Neue Kampagne - Dokument
-    href: create/tutorial-document-mailing.yml
+    href: create/tutorial-document-mailing.md
   - name: Neue Kampagne - Formularantwort
-    href: create/tutorial-form-mailing.yml
+    href: create/tutorial-form-mailing.md
   - name: Test-E-Mail senden an
     href: create/send-test-email.md
 - name: Statistik anzeigen

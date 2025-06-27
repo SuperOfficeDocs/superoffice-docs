@@ -24,4 +24,4 @@ Wenn Sie ein Dokument an alle Mitglieder eines Projekts senden möchten, können
 > In **Schritt 4: Empfänger** Sie müssen das Projekt auswählen, um die Projektmitglieder als Empfänger hinzuzufügen.
 
 <!-- Referenced links -->
-[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.md

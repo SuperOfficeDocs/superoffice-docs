@@ -40,7 +40,7 @@ Om du vill använda [Google Analytics-funktionen][2] behöver du ett Google Anal
 När dina mottagare klickar på länkarna till din webbplats kan du spåra deras besök på din webbplats i Google Analytics.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/tutorial-email-mailing.yml
+[1]: ../../mailing/learn/create/tutorial-email-mailing.md
 [2]: index.md#google
 
 <!-- Referenced images -->

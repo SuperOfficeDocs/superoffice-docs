@@ -9,7 +9,7 @@ På grund av GDPR-lagstiftningen kan endast de kontakter som har uttryckt samtyc
 
 ![Du kan lägga till mottagarna från antingen urval, projekt, en enskild kontakt eller en extern lista som du måste importera -screenshot][img3]
 
-## Lägga till mottagare från urval och projekt
+### Lägga till mottagare från urval och projekt
 
 Du kan lägga till mottagare från urval (från både SuperOffice CRM och SuperOffice Service) och projekt (från SuperOffice CRM).
 
@@ -26,7 +26,7 @@ Du kan lägga till mottagare från urval (från både SuperOffice CRM och SuperO
 > [!NOTE]
 > Om du valde ett urval under **Arkivera utskick** i **Konfiguration** (steg 1) visas detta urval under **Mottagarkällor**. Du kan ta bort detta urval om det behövs.
 
-## Lägga till kontakter från SuperOffice
+### Lägga till kontakter från SuperOffice
 
 Du kan lägga till enskilda kontakter från SuperOffice.
 
@@ -40,13 +40,13 @@ Du kan lägga till enskilda kontakter från SuperOffice.
 
 5. Upprepa steg 2-5 om du vill lägga till fler kontakter. Ytterligare kontakter läggs till i samma rad i listan **Mottagarkällor** och antalet kontakter visas i kolumnen **Namn**.
 
-## Importera en lista över mottagare (kontakter) från en extern fil
+### Importera en lista över mottagare (kontakter) från en extern fil
 
 Du kan lägga till mottagare till ett utskick genom att importera dem från en extern kommaavgränsad fil (t.ex. en txt-fil skapad i Notepad eller en csv-fil skapad i Excel).
 
 När du importerar en lista med namn och e-postadresser kommer SuperOffice Marknadsföring att försöka lokalisera de importerade mottagarna i SuperOffice-databasen. Om någon träff hittas listas mottagarnas företag i kolumnen **Företag** i listan **Mottagare**. Namn eller e-postadresser som **inte** finns i SuperOffice filtreras bort och inkluderas inte i utskicket. Detta beror på GDPR-regelverket.
 
-### Steg
+#### Steg
 
 1. Klicka på **Välj fil**.
 
@@ -59,7 +59,7 @@ När du importerar en lista med namn och e-postadresser kommer SuperOffice Markn
 > [!NOTE]
 > Import är inte tillgängligt för dokumentutskick.
 
-### Importera filformat
+#### Importera filformat
 
 * Varje mottagare ska stå på en separat rad.
 
@@ -75,7 +75,7 @@ När du importerar en lista med namn och e-postadresser kommer SuperOffice Markn
 > [!NOTE]
 > Om du bara har mobiltelefonnumret och vill skicka SMS-utskick kan du skriva så här: " , , 99887766".
 
-## Mottagaralternativ
+### Mottagaralternativ
 
 Under **Alternativ** i den nedre delen av skärmen **Mottagare** kan du välja alternativ för utskicket baserat på dess typ.
 
@@ -105,7 +105,7 @@ Under **Alternativ** i den nedre delen av skärmen **Mottagare** kan du välja a
     > [!NOTE]
     > Alternativet **Föredra företag** är endast tillgängligt om du har valt **Inkludera företag** ovan.
 
-## Förhandsgranska utskicket
+### Förhandsgranska utskicket
 
 Efter att ha lagt till mottagare i listan **Mottagare** kan du förhandsgranska utskicket och se hur det kommer att se ut för en av mottagarna. Förhandsgranskning är inte tillgängligt för dokument- och SMS-utskick.
 
@@ -120,7 +120,7 @@ Efter att ha lagt till mottagare i listan **Mottagare** kan du förhandsgranska 
 
 4. Klicka på X när du vill stänga fönstret **Förhandsgranska**.
 
-## Granska och uppdatera listan Mottagare
+### Granska och uppdatera listan Mottagare
 
 När du lägger till urval, projekt eller kontakter och importerar listor uppdateras listan **Mottagare** automatiskt. Om du markerat **Uppdatera mottagarlistan när du skickar** kontrolleras projekten och urvalen innan utskicket skickas om kontakter har lagts till, tagits bort eller redigerats.
 

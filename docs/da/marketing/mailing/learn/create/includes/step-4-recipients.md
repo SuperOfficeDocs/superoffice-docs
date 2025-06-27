@@ -9,7 +9,7 @@ På grund af GDPR-lovgivningen er det kun de kontakter, der har givet samtykke t
 
 ![Du kan enten tilføje modtagerne fra et udvalg, et projekt, en individuel kontakt eller fra en ekstern liste, du importerer -screenshot][img3]
 
-## Tilføj modtagere fra udvalg eller projekter
+### Tilføj modtagere fra udvalg eller projekter
 
 Du kan tilføje modtagere fra udvalg (i både SuperOffice CRM og SuperOffice Service) og fra projekter (i SuperOffice CRM).
 
@@ -26,7 +26,7 @@ Du kan tilføje modtagere fra udvalg (i både SuperOffice CRM og SuperOffice Ser
 > [!NOTE]
 > Hvis du har markeret et udvalg under **Arkivere udsendelser** i **Opsætning** (trin 1), er udvalget listet under **Modtagerkilder**. Du kan om nødvendigt slette dette udvalg.
 
-## Tilføje personer fra SuperOffice
+### Tilføje personer fra SuperOffice
 
 Du kan tilføje individuelle kontakter fra SuperOffice.
 
@@ -40,13 +40,13 @@ Du kan tilføje individuelle kontakter fra SuperOffice.
 
 5. Gentag trin 2-5 for at tilføje flere personer. Yderligere kontakter vil blive tilføjet den samme række på listen **Modtagerkilder**, og antallet af personer vil blive vist i kolonnen **Navn**.
 
-## Importere en list med modtagere (personer) fra en ekstern fil
+### Importere en list med modtagere (personer) fra en ekstern fil
 
 Du kan tilføje modtagere af en udsendelse ved at importere dem fra en ekstern  komma-separeret fil (for eksempel en .txt-fil oprettet i Notepad eller en .csv-fil oprettet i Excel).
 
 Når du importerer en liste over navne og e-mailadresser, forsøger SuperOffice Marketing at finde de importerede modtagere i databasen i SuperOffice. Hvis der er et match, vil modtagernes virksomheder blive oplistet i kolonnen **Virksomhed** på listen over **Modtagere**. Navne/e-mailadresser, der **ikke** findes i SuperOfffice, filtreres fra og indgår ikke i mailudsendelsen. Det skyldes GDPR-regler.
 
-### Trin
+#### Trin
 
 1. Klik på **Vælg fil**.
 
@@ -59,7 +59,7 @@ Når du importerer en liste over navne og e-mailadresser, forsøger SuperOffice 
 > [!NOTE]
 Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 
-### Importere filformat
+#### Importere filformat
 
 * De enkelte modtagere skal stå på hver deres linje (række).
 
@@ -75,7 +75,7 @@ Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 > [!NOTE]
 Hvis du kun har mobiltelefonnummeret og skal sende en SMS, kan du angive følgende:
 
-## Indstillinger for modtager
+### Indstillinger for modtager
 
 Under **Valgmuligheder** kan du i den nederste del af skærmbilledet **Modtagere** vælge indstillinger for udsendelsen alt efter dens type.
 
@@ -105,7 +105,7 @@ Under **Valgmuligheder** kan du i den nederste del af skærmbilledet **Modtagere
     > [!NOTE]
     > Indstillingen**Fortrukken virksomhed** er kun tilgængelig, hvis du har valgt **Medtag virksomheder** ovenfor.
 
-## Se forhåndsvisning af udsendelsen
+### Se forhåndsvisning af udsendelsen
 
 Når du har tilføjet modtagere til listen **Modtagere**, kan du se en forhåndsvisning af udsendelsen, som den vil se ud for modtagerne. Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 
@@ -120,7 +120,7 @@ Når du har tilføjet modtagere til listen **Modtagere**, kan du se en forhånds
 
 4. Klik på X for at lukke vinduet **Forhåndsvisning**.
 
-## Gennemgå og opdatere modtagerlisten
+### Gennemgå og opdatere modtagerlisten
 
 Når du tilføjer udvalg, projekter, kontakter og importerer lister, opdateres listen **Modtagere** automatisk. Hvis du har valgt **Opdater modtagerliste ved afsendelse**, kontrolleres dine projekter og valg, inden udsendelsen afsendes, hvis der er tilføjet, fjernet eller redigeret kontakter.
 

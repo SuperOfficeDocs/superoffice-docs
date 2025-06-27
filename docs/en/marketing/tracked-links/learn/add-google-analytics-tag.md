@@ -40,7 +40,7 @@ To use the [Google Analytics feature][2], you need a Google Analytics account co
 As soon as your recipients click on the links to your website, you can track their visits to your website in Google Analytics.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/tutorial-email-mailing.yml
+[1]: ../../mailing/learn/create/tutorial-email-mailing.md
 [2]: index.md#google
 
 <!-- Referenced images -->
