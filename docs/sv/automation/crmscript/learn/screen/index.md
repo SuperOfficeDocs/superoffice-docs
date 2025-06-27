@@ -5,7 +5,7 @@ description: Fliken Makron och skript
 keywords: skript, makro
 author: SuperOffice RnD
 date: 02.25.2025
-topic: reference
+content_type: reference
 language: sv
 ---
 

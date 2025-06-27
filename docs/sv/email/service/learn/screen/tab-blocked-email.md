@@ -5,7 +5,7 @@ description: Blockerad e-post
 keywords: e-post
 author: SuperOffice RnD
 date: 02.25.2025
-topic: reference
+content_type: reference
 language: sv
 ---
 

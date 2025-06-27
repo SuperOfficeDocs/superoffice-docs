@@ -5,7 +5,7 @@ description: Egenskaper för skärmbild
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: skärm
-topic: reference
+content_type: reference
 language: sv
 ---
 
