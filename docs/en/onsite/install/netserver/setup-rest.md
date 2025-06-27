@@ -4,7 +4,7 @@ description: Describes how to setup and enable NetServer REST services in IIS.
 author: Tony Yates
 date: 11.26.2015
 keywords: REST, API, RESTful, WebAPI, HTTP Action Verbs, BASIC, SOTicket, authentication, XSRF Token, setRequestHeader, ODATA
-topic: article
+content_type: article
 envir: cloud
 client: online
 version: 8.1

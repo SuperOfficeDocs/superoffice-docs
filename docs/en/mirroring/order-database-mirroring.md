@@ -4,7 +4,7 @@ uid: order_db_mirroring_form
 description: Submit this form to order database mirroring application.
 author: AnthonyYates
 keywords: database mirroring
-topic: form
+content_type: form
 envir: cloud
 client: online
 ---
