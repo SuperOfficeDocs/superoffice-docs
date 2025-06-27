@@ -5,7 +5,7 @@ description: Vorlagenvariablen
 keywords: Anfrage
 author: SuperOffice RnD
 date: 06.29.2022
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

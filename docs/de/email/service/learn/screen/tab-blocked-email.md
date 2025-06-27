@@ -5,7 +5,7 @@ description: Blockierte E-Mails
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: E-Mail
-topic: reference
+content_type: reference
 language: de
 ---
 
