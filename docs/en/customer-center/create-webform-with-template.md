@@ -5,7 +5,7 @@ description: How to create web forms using special templates in Service
 author: {github-id}
 date: 03.16.2023
 keywords: Customer Center, CEP, web form
-topic: howto
+content_type: howto
 audience: settings
 envir: onsite
 ---

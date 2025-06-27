@@ -5,7 +5,7 @@ description: How to check the API call statistics for your application and monit
 author: Bergfrid Dias
 date: 01.02.2024
 keywords: metered services, API usage, metrics
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 version: 1.16

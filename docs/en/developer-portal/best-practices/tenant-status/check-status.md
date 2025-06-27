@@ -5,7 +5,7 @@ description: How to check a tenant's state to ensure your application remains st
 author: Eivind Fasting
 date: 05.08.2024
 keywords: tenant, status, state API
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: Restart SCIM synchronization
 author: {github-id}
 date: 09.04.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

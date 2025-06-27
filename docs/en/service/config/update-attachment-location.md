@@ -5,7 +5,7 @@ description: Update location when moving Service
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: attachment, request
-topic: howto
+content_type: howto
 audience: settings
 envir: onsite
 ---

@@ -6,7 +6,7 @@ keywords: Developer Portal, app store, SEO
 author: Bergfrid Dias
 date: 10.16.2024
 version_devportal: 1.27
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

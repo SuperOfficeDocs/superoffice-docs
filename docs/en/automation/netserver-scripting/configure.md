@@ -4,7 +4,7 @@ uid: concfig_scripting_ns_services
 description: How to configure scripting
 author: Tony Yates
 date: 04.15.2009
-topic: howto
+content_type: howto
 keywords:
 envir: onsite
 client: web

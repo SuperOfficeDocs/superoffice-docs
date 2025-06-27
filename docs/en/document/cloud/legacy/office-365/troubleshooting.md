@@ -4,7 +4,7 @@ uid: troubleshooting_office_365
 description: Troubleshooting Microsoft 365 document integration
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

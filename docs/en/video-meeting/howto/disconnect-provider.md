@@ -5,7 +5,7 @@ description: How to disconnect video provider
 author: {github-id}
 date: 08.12.2021
 keywords: video meetings
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

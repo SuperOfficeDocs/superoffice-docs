@@ -5,7 +5,7 @@ description: Debug MailLink
 author: Bergfrid Dias
 date: 12.16.2011
 keywords: MailLink, debug, log_settings.xml, EnableDebug
-topic: howto
+content_type: howto
 envir: onsite
 ---
 

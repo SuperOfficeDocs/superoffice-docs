@@ -5,7 +5,7 @@ description: "Guide to installing SuperOffice Service and what to do before you 
 author: Martin Pavlas
 date: 12.17.2021
 keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
-topic: howto
+content_type: howto
 envir: onsite
 version: 8.1
 # client:

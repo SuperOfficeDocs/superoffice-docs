@@ -5,7 +5,7 @@ description: "How to troubleshoot webhooks errors."
 author: AnthonyYates
 date: 06.05.2023
 keywords: automation
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: Troubleshooting webhooks
 ---

@@ -6,7 +6,7 @@ keywords: DKIM, email, Mailgun, public domain key, domain name, DNS console, hos
 author: Martin Pavlas
 date: 03.04.2024
 version: 10.3
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

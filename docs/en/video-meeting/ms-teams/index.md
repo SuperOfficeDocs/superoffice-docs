@@ -4,7 +4,7 @@ title: Video Meetings for SuperOffice - Microsoft Teams
 description: Getting started with Video Meetings for SuperOffice - Microsoft Teams
 keywords: video meeting, Microsoft Teams
 date: 12.10.2024
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

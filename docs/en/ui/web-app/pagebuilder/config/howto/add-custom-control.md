@@ -5,7 +5,7 @@ description: How to add a custom control to an existing view
 author: Tony Yates
 date: 06.24.2016
 keywords: gui
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

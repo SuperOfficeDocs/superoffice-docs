@@ -5,7 +5,7 @@ description: How to add an Archive control
 author: Steffan Alte
 date: 2007
 keywords:
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---

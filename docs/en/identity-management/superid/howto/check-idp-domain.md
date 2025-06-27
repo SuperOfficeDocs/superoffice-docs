@@ -4,7 +4,7 @@ uid: check_idp_domain
 description: Can I use my domain for federated sign-in?
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Can I use my domain for federated sign-in?

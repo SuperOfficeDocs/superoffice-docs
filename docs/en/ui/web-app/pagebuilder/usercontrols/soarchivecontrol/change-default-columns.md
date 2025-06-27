@@ -5,7 +5,7 @@ description: How to change the default columns in the project archive
 author: Tony Yates
 date: 06.24.2016
 keywords: project
-topic: howto
+content_type: howto
 client: web
 envir: onsite
 ---
