@@ -5,7 +5,7 @@ description: Logge av brukere
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger og vedlikehold, bruker
-topic: help
+content_type: howto
 language: no
 ---
 
