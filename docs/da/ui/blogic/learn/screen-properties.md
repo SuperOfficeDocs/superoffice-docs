@@ -5,7 +5,7 @@ description: Egenskaber for skærmbillede
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: skærmbillede
-topic: reference
+content_type: reference
 language: da
 ---
 

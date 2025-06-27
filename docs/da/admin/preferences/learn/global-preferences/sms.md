@@ -5,7 +5,7 @@ description: SMS
 keywords: Tjeneste, indstillinger
 author: SuperOffice RnD
 date: 03.27.2023
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
