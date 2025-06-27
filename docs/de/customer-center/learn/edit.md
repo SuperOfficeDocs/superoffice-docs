@@ -5,7 +5,7 @@ description: Kundenzentrum-Quelldateien
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Kundenzentrum, CEP
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: "Wenn ein Kunde eine Anfrage über das Chat-Widget auf der Website 
 author: Bergfrid Dias
 date: 02.14.2023
 keywords: Chat
-topic: howto
+content_type: howto
 language: de
 ---
 

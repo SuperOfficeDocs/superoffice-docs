@@ -6,7 +6,7 @@ keywords: Dashboard, Verkauf, Ziel, Diagramm
 author: SuperOffice Product and Engineering
 date: 03.25.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

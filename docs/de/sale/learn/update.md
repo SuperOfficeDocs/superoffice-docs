@@ -6,7 +6,7 @@ keywords: Verkauf aktualisieren, Verkauf bearbeiten, Verkauf löschen, pausiert,
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -6,7 +6,7 @@ keywords: Anfragetyp löschen, als Standard verwenden, Anfragetyp übertragen au
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: servicepremium
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

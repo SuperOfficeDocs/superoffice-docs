@@ -6,7 +6,7 @@ keywords: Anfragekategorie hinzufügen, Anfragekategorie erstellen, neue Anfrage
 author: Hanne Gunnarsson
 date: 02.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

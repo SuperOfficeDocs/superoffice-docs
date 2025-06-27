@@ -6,7 +6,7 @@ keywords: Marketing, Nachrichtenvorlagen
 author: SuperOffice RnD
 date: 02.06.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

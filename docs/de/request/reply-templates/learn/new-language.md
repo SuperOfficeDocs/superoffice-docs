@@ -6,7 +6,7 @@ keywords: Anfrage, Antwortvorlage übersetzen, Neue Sprachversion, Antwortvorlag
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

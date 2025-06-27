@@ -5,7 +5,7 @@ description: "Dokumente, die in SuperOffice CRM als Anhänge in E-Mails gespeich
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Dokument, E-Mail, Anlage
-topic: howto
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: "Lernen Sie, wie man Mail Link/WebTools installiert."
 author: Kirsti Aakerholt
 date: 04.12.2023
 keywords: Gmail Link, E-Mail
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

@@ -5,7 +5,7 @@ description: Beispiel für die Erstellung eines Makros in SuperOffice.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Skript, Makro
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

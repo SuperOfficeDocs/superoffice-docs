@@ -5,7 +5,7 @@ description: Aufgaben in der Ansicht Selektion ausführen
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: Selektion
-topic: howto
+content_type: howto
 language: de
 ---
 

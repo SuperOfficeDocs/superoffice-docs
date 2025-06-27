@@ -5,7 +5,7 @@ description: "Wenn Sie eine E-Mail direkt als Folgeaufgabe in Ihrem SuperOffice-
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: de
 ---
 

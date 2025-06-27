@@ -5,7 +5,7 @@ description: Gemeinsame Profile
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Profil, Service
-topic: howto
+content_type: howto
 language: de
 ---
 

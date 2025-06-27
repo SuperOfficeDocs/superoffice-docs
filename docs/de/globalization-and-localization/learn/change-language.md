@@ -5,7 +5,7 @@ description: Aktive Sprache ändern
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Sprache
-topic: howto
+content_type: howto
 language: de
 ---
 

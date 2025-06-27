@@ -6,7 +6,7 @@ keywords: Dokumentvorlage, Dokument, Vorlage
 author: Bergfrid Dias
 date: 07.16.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: settings
 audience_tooltip: Settings and maintenance

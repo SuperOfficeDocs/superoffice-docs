@@ -5,7 +5,7 @@ description: Lizenz für SuperOffice aktivieren
 author: Bergfrid Dias
 date: 03.20.2023
 keywords: Lizenzen
-topic: howto
+content_type: howto
 language: de
 ---
 

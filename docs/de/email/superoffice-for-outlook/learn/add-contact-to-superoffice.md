@@ -6,7 +6,7 @@ keywords: SuperOffice für Outlook, Outlook, E-Mail, Kontakt hinzufügen, SOFO
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
