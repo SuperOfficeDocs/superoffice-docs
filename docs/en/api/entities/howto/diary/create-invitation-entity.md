@@ -5,7 +5,7 @@ description: How to create an invitation using entities at the NetServer data la
 keywords: diary, calendar, appointment, API, entity, ParticipantInfo, AddParticipant, AppointmentMatrix
 author: Bergfrid Skaara Dias
 date: 03.04.2022
-topic: howto
+content_type: howto
 ---
 
 # How to create an invitation (data layer)

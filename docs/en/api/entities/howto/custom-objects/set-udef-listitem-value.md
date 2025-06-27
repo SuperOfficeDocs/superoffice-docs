@@ -5,7 +5,7 @@ description: How to set a user-defined list item on a Udef field using entities.
 author: Tony Yates
 date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, UdefHelper, ListTableId, TaskRows, GetFromCustomSearch
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

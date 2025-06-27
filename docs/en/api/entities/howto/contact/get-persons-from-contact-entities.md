@@ -5,7 +5,7 @@ description: How to retrieve a list of people using entities.
 keywords: person, contact, entity, API, PersonCollection
 author: Bergfrid Skaara Dias
 date: 11.02.2021
-topic: howto
+content_type: howto
 ---
 
 # Retrieve a list of people using entities

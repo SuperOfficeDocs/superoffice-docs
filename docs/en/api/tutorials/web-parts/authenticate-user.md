@@ -5,7 +5,7 @@ description: Authenticate a user in web parts
 author: {github-id}
 date: 06.24.2016
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

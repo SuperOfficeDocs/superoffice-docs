@@ -5,7 +5,7 @@ description: Practical details, requirements, configuration
 author: Tony Yates
 date: 06.23.2017
 keywords: bulk update, FieldValueInfo, DictionaryTableName
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

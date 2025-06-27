@@ -6,7 +6,7 @@ keywords: contact, company, services, WebApi, rest, RPC, JavaScript CreateDefaul
 author: Tony Yates, Eivind Fasting
 date: 05.23.2025
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

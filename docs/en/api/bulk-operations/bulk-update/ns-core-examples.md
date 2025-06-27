@@ -5,7 +5,7 @@ description: Bulk update examples using NetServer Core API
 author: Tony Yates
 date: 06.23.2017
 keywords:
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

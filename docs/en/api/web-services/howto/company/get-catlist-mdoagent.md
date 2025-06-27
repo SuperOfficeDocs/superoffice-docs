@@ -5,7 +5,7 @@ description: Get a CategoryList through the MDO Agent
 keywords: category, MDO agent
 author: Tony Yates
 date: 10.22.2024
-topic: howto
+content_type: howto
 ---
 
 # Get a CategoryList using the MDO Agent

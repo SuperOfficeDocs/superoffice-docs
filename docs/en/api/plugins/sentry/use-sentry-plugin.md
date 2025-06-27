@@ -5,7 +5,7 @@ description: Use a Sentry plugin
 author: {github-id}
 date: 11.05.2016
 keywords: Sentry, plug-in, plugin, security, TableRight, N
-topic: howto
+content_type: howto
 envir: onsite
 ---
 

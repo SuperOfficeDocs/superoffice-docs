@@ -5,7 +5,7 @@ description: REST Web API search numbers
 author: {github-id}
 keywords: search,odata
 date:
-topic: howto
+content_type: howto
 ---
 
 # Numbers (integer, decimal, float)

@@ -4,7 +4,7 @@ title: Validate security tokens
 description: How to validate security tokens
 author: AnthonyYates
 keywords: certificates, jwt, authentication, token, security
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

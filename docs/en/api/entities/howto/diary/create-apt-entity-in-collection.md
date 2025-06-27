@@ -5,7 +5,7 @@ description: How to create an Appointment entity through an entity collection at
 keywords: diary, calendar, appointment, API, entity, collection, AppointmentCollection
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create an Appointment entity through an entity collection

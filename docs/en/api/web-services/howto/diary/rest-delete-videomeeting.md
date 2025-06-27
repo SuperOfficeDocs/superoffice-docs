@@ -6,7 +6,7 @@ keywords: Video meeting, Delete
 author: Eivind Fasting
 date: 05.08.2024
 version: 10.5.5
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

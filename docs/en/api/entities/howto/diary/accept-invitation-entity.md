@@ -5,7 +5,7 @@ description: How to accept an invitation using entities at the NetServer data la
 keywords: diary, calendar, appointment, API, entity, InvitationProvider, ArchiveRows, AppointmentMatrix
 author: Bergfrid Skaara Dias
 date: 03.04.2022
-topic: howto
+content_type: howto
 ---
 
 # How to accept an invitation (data layer)

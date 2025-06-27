@@ -6,7 +6,7 @@ keywords: flow, EmailFlow, step, CreateDefaultWorkflowStepFromType, WorkflowStep
 author: Eivind Fasting
 date: 05.24.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

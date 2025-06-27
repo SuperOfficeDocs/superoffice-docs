@@ -5,7 +5,7 @@ description: How to get contact details from the SuperOffice database using raw 
 keywords: contact, company, SQL, API, phone
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Get contact details

@@ -6,7 +6,7 @@ keywords: sale, API, entity
 author: Bergfrid Skaara Dias
 date: 06.02.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Sale - entity

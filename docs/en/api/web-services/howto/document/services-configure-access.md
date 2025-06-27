@@ -6,7 +6,7 @@ keywords: document, API, services, document agent, SO_ARC, ArchivePath, Temporar
 author: Tony Yates
 date: 12.08.2021
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document

@@ -5,7 +5,7 @@ description: Set a user-defined field using raw SQL.
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 keywords: udef, user-defined field, custom field, API
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

@@ -5,7 +5,7 @@ description: REST Web API search - lists
 author: {github-id}
 keywords: search, list, odata
 date:
-topic: howto
+content_type: howto
 ---
 
 # ODATA lists

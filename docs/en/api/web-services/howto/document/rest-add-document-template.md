@@ -6,7 +6,7 @@ keywords: document, API, REST, DocumentTemplate, api/v1/List/DocumentTemplate, a
 author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

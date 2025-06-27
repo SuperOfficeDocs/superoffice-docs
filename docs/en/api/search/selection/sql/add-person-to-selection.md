@@ -5,7 +5,7 @@ description: Adding a person to a selection
 author: {github-id}
 date: 11.08.2021
 keywords: search, selection, static
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

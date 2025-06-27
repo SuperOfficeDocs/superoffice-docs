@@ -5,7 +5,7 @@ description: How to create an appointment row.
 keywords: diary, calendar, appointment, API, row, AppointmentRow
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create an appointment row

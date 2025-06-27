@@ -5,7 +5,7 @@ description: Adding a list item
 author:
 date: 11.08.2021
 keywords: category, list, CategoryGL
-topic: howto
+content_type: howto
 ---
 
 # Adding a list item

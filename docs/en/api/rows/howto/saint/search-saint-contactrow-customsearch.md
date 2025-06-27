@@ -6,7 +6,7 @@ keywords: sale, SAINT, API, row, customsearch, ContactRow, countervalue, amountc
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Search for contacts with a given SAINT counter using ContactRow.CustomSearch

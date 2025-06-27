@@ -5,7 +5,7 @@ description: How to create an appointment entity.
 keywords: diary, calendar, appointment, API, entity, SuperOffice.CRM.Entities
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create an Appointment entity

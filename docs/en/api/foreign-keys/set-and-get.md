@@ -5,7 +5,7 @@ description: How to set and get foreign keys
 author: {github-id}
 date: 
 keywords: 
-topic: howto
+content_type: howto
 ---
 
 # How to set and get foreign keys

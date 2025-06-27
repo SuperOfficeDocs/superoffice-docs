@@ -4,7 +4,7 @@ title: Configure Serilog
 author: xt1
 date: 05.07.2021
 keywords: logging
-topic: howto
+content_type: howto
 ---
 
 # Configure Serilog
