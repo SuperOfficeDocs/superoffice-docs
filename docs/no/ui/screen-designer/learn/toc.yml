@@ -20,4 +20,4 @@ items:
 - name: Feltreferanse
   href: reference.md
 - name: Tutorial - Flytt landfeltet
-  href: tutorial-move-country.yml
+  href: tutorial-move-country.md

@@ -20,4 +20,4 @@ items:
 - name: Feldreferenz
   href: reference.md
 - name: Tutorial - Land verschieben
-  href: tutorial-move-country.yml
+  href: tutorial-move-country.md

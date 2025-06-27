@@ -20,4 +20,4 @@ items:
 - name: Fältreferens
   href: reference.md
 - name: Tutorial - Flytta landfältet
-  href: tutorial-move-country.yml
+  href: tutorial-move-country.md
