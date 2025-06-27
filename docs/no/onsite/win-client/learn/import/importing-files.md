@@ -5,7 +5,7 @@ description: Importere filer
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-topic: help
+content_type: howto
 language: no
 client: win
 envir: onsite

@@ -5,7 +5,7 @@ description: "Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: no
 ---
 

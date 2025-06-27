@@ -5,7 +5,7 @@ description: "Hvis du vil lagre et e-postvedlegg, men ikke selve e-posten i Supe
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link, e-post, vedlegg
-topic: howto
+content_type: howto
 language: no
 ---
 

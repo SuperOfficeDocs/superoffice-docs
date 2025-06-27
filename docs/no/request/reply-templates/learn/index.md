@@ -6,7 +6,7 @@ keywords: vis svarmal, finn svarmal, svarmal, ferdig tekst, kunnskapsbase, sak
 author: Bergfrid Dias
 date: 02.04.2025
 version: 10.5.1
-topic: concept
+content_type: concept
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

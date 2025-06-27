@@ -5,7 +5,7 @@ description: "For å sende en markedsføringsutsendelse trenger du bare å følg
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Markedsføring, utsendelse
-topic: howto
+content_type: howto
 language: no
 ---
 

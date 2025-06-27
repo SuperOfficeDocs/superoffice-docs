@@ -6,7 +6,7 @@ keywords: salgsguide, salgsfase, salgstype, arbeidsflyt, salg
 author: Bergfrid Dias
 date: 02.03.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

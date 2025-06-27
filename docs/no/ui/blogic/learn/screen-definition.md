@@ -5,7 +5,7 @@ description: Definisjon av skjerm
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: definisjon av skjerm
-topic: reference
+content_type: reference
 language: no
 ---
 

@@ -5,7 +5,7 @@ description: Finn ut hvordan du installerer e-postkoblingen/WebTools.
 author: Kirsti Aakerholt
 date: 04.12.2023
 keywords: Gmail Link, e-post
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

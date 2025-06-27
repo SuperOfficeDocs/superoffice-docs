@@ -5,7 +5,7 @@ description: Opprett e-postadresser
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: saker, e-postkasse
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

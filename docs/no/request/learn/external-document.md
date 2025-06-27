@@ -6,7 +6,7 @@ keywords: sak, dokument
 author: Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

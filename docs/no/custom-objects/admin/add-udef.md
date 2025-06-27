@@ -6,7 +6,7 @@ keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
 date: 11.29.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

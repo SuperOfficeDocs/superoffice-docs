@@ -5,10 +5,9 @@ description: SMS
 author: SuperOffice RnD
 date: 03.27.2023
 keywords: Tjeneste, innstillinger
-topic: help
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 

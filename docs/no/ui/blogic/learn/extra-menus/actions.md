@@ -5,7 +5,7 @@ description: Legg til funksjon til Oppgave-knappen
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: makro, oppgave, handlinger
-topic: howto
+content_type: howto
 language: no
 ---
 

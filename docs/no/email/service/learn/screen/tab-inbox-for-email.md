@@ -5,7 +5,7 @@ description: Innboks for e-post
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: e-post
-topic: reference
+content_type: reference
 language: no
 ---
 

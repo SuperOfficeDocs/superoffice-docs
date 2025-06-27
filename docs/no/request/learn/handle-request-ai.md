@@ -5,7 +5,7 @@ description: Innføringen av kunstig intelligens (AI) i SuperOffice 10 gir saksb
 keywords: sak, AI, effektiv
 author: Kirsti Aakerholt
 date: 04.19.2023
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

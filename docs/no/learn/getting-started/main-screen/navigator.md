@@ -6,7 +6,7 @@ keywords: navigator, meny, brukergrensesnitt
 author: Bergfrid Dias
 date: 01.29.2025
 version: 10.5
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

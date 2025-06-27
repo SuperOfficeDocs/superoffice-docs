@@ -5,7 +5,7 @@ description: håndtere eksterne brukere
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: firma
-topic: help
+content_type: howto
 language: no
 envir: onsite
 ---

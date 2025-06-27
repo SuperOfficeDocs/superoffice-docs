@@ -6,7 +6,7 @@ keywords: tilbud, tilbudsmal, mal, tilbudsdokument, tilbudsdetaljer, flettefelt
 author: Bergfrid Dias
 date: 07.31.2024
 version: 10
-topic: concept
+content_type: concept
 language: no
 ---
 

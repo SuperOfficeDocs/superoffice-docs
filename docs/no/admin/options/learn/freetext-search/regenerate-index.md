@@ -5,7 +5,7 @@ description: Regenerere en fritekstindeks
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: fritekst, søkeindeks
-topic: howto
+content_type: howto
 language: no
 envir: onsite
 ---

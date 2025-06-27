@@ -5,7 +5,7 @@ description: Profil
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profil, service
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 

@@ -6,7 +6,7 @@ keywords: redigere melding, oppdatere melding, sak
 author: Hanne Gunnarsson, Bergfrid Dias
 date: 02.04.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: general administrator
 audience: person

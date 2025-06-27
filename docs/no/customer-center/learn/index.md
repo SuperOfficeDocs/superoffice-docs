@@ -5,7 +5,7 @@ description: Kundesenter
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Kundesenter
-topic: concept
+content_type: concept
 language: no
 ---
 

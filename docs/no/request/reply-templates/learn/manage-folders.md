@@ -6,7 +6,7 @@ keywords: sak, svare, mappe
 author: SuperOffice RnD
 date: 01.13.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

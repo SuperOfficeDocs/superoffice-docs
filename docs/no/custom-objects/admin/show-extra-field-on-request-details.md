@@ -5,7 +5,7 @@ description: Vis ekstrafelt i fanen Detaljer
 keywords: ekstrafelt, sak, layout, Skjermdesigner
 author: Bergfrid Dias
 date: 01.18.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

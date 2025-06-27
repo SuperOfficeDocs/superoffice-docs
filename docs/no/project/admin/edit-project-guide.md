@@ -6,7 +6,7 @@ keywords: redigere prosjektguide, oppdatere prosjektguide, deaktivere prosjektgu
 author: Bergfrid Dias
 date: 01.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

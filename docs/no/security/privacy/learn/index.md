@@ -5,7 +5,7 @@ description: personvern
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: personvern, GDPR, e-markedsføring, samtykke
-topic: concept
+content_type: concept
 language: no
 ---
 

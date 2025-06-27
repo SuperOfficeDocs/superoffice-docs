@@ -6,7 +6,7 @@ keywords: skjema, webskjema, nettskjema, påmelding
 author: SuperOffice RnD
 date: 02.29.2024
 version: 10
-topic: howto
+content_type: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

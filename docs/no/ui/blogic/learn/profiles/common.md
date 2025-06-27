@@ -5,7 +5,7 @@ description: Felles profiler
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profil, tjeneste
-topic: howto
+content_type: howto
 language: no
 ---
 

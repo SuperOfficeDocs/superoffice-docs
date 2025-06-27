@@ -6,7 +6,7 @@ keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
 author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
-topic: concept
+content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

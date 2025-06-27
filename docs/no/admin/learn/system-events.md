@@ -5,7 +5,7 @@ description: Systemoperasjoner
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: arrangement
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

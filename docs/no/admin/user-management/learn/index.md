@@ -5,7 +5,7 @@ description: "Finn ut hvordan du legger til nye brukere, hvordan du tilordner de
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: bruker
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

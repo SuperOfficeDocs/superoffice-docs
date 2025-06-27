@@ -5,7 +5,7 @@ description: Finn ut hvordan du konfigurerer personverninnstillingene for firmae
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Innstillinger og vedlikehold, personvern, samtykke
-topic: howto
+content_type: howto
 language: no
 ---
 

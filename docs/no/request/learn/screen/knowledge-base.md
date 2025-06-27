@@ -5,7 +5,7 @@ description: Kunnskapsbase
 author: SuperOffice RnD
 date: 03.24.2023
 keywords: sak, kunnskapsbase
-topic: help
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

@@ -5,7 +5,7 @@ description: Slik velger SuperOffice kundespråket for nye personer
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: språk
-topic: help
+content_type: howto
 language: no
 ---
 

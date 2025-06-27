@@ -5,7 +5,7 @@ description: Enkle oppgaver for nybegynnere i SuperOffice CRM.
 author: Bergfrid Dias
 date: 03.06.2023
 keywords:
-topic: concept
+content_type: concept
 version: 10
 language: no
 ---

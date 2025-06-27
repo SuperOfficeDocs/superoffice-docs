@@ -6,7 +6,7 @@ keywords: opprett person, interesser, Interesser-fanen, personbilde, foretrukket
 author: Bergfrid Dias
 date: 01.27.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

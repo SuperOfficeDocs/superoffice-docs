@@ -5,7 +5,7 @@ description: Bruke søkekriterier
 author: Bergfrid Dias
 date: 03.28.2023
 keywords: søk, kriterier, finn
-topic: howto
+content_type: howto
 language: no
 ---
 

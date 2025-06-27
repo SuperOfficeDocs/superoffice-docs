@@ -5,7 +5,7 @@ description: Innstillinger for Windows-klient
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-topic: concept
+content_type: concept
 language: no
 client: win
 envir: onsite

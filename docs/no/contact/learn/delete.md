@@ -6,7 +6,7 @@ keywords: slett person, duplikat, tidligere ansatt, person
 author: Bergfrid Dias
 date: 01.27.2025
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

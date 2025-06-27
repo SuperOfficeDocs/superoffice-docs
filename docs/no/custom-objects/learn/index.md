@@ -6,7 +6,7 @@ keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstratab
 author: Bergfrid Dias
 date: 01.29.2024
 version: 10
-topic: concept
+content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
 language: no

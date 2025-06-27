@@ -6,7 +6,7 @@ keywords: prosjektguide, guide, arbeidsflyt, prosjekt
 author: Bergfrid Dias
 date: 01.31.2025
 version: 10
-topic: tutorial
+content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -6,7 +6,7 @@ keywords: redigere firma, oppdatere firma, firma
 author: Bergfrid Dias
 date: 01.21.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

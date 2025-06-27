@@ -5,7 +5,7 @@ description: Eksterne applikasjoner og URL-adresser
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: URL, snarvei
-topic: concept
+content_type: concept
 language: no
 ---
 

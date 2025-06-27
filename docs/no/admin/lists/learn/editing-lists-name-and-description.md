@@ -5,7 +5,7 @@ description: Redigere en listes navn og beskrivelse
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: liste, abonnementstype
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

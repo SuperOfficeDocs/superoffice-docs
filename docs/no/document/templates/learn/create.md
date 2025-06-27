@@ -6,7 +6,7 @@ keywords: dokumentmal, dokument, mal
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 07.31.2024
 version: 10
-topic: howto
+content_type: howto
 language: no
 ---
 

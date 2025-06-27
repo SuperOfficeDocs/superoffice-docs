@@ -5,7 +5,7 @@ description: Utføre oppgaver ved hjelp av utvalg
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: utvalg
-topic: howto
+content_type: howto
 language: no
 ---
 

@@ -5,7 +5,7 @@ description: Søk etter FAQ-oppføringer
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: FAQ
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

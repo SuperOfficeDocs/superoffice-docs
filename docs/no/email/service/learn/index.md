@@ -5,7 +5,7 @@ description: Service-e-poster
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Innstillinger og vedlikehold
-topic: concept
+content_type: concept
 language: no
 ---
 

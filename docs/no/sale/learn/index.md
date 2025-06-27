@@ -6,7 +6,7 @@ keywords: salg, salgskort, salgsskjerm
 author: Bergfrid Dias
 date: 06.26.2025
 version: 10.5.5
-topic: concept
+content_type: concept
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

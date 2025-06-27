@@ -5,7 +5,7 @@ description: Ressurs
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-topic: help
+content_type: concept
 language: no
 ---
 

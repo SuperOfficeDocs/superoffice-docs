@@ -5,7 +5,7 @@ description: Legge til felt
 author: Bergfrid Dias
 date: 01.16.2024
 keywords: 
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

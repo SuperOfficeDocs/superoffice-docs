@@ -6,7 +6,7 @@ keywords: skjema, skjemainnsending, dobbel opt-in
 author: Bergfrid Dias
 date: 03.07.2024
 version: 10
-topic: concept
+content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

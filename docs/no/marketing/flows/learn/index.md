@@ -6,7 +6,7 @@ keywords: flyt, arkedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
 date: 09.17.2024
 version: 10.3.9
-topic: concept
+content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

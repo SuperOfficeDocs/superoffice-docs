@@ -5,7 +5,7 @@ description: Arkiver e-post til SuperOffice
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: no
 ---
 

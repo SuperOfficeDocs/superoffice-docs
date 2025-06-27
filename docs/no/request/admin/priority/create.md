@@ -6,7 +6,7 @@ keywords: opprett saksprioritet, legg til saksprioritet, ny saksprioritet, ny pr
 author: Hanne Gunnarsson
 date: 02.05.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

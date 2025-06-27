@@ -5,7 +5,7 @@ description: "Å holde seg oppdatert på salgsmålene dine kan være stressende.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
-topic: howto
+content_type: howto
 language: no
 ---
 

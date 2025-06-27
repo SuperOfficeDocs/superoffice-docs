@@ -5,7 +5,7 @@ description: Bruke chatfunksjonen fra kundens perspektiv
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: chat
-topic: howto
+content_type: howto
 language: no
 ---
 

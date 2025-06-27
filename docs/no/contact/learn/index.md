@@ -6,7 +6,7 @@ keywords: Person-bildet, person, kontakt
 author: Bergfrid Dias
 date: 01.28.2025
 version: 10.5
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

@@ -5,7 +5,7 @@ description: Slik justerer du forskjellige visninger i Innstillinger og vedlikeh
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

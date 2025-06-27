@@ -6,7 +6,7 @@ keywords: opprett firma, legg til interesse, Interesser-fanen, firma
 author: Bergfrid Dias
 date: 01.23.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

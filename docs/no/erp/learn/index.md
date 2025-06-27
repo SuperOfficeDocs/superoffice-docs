@@ -6,7 +6,7 @@ keywords: ERP-fane, ERP-system, ERP
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Med SuperOffice CRM kan du velge √• lagre og dele e-postene dine p√
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: e-post, innboks
-topic: concept
+content_type: concept
 language: no
 ---
 

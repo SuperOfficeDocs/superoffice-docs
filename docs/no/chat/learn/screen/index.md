@@ -5,7 +5,7 @@ description: Chat-bilde
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: chat
-topic: reference
+content_type: reference
 language: no
 ---
 

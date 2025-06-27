@@ -6,7 +6,7 @@ keywords: Firmakort, Firmabildet, firma, kunde, partner, leverandør
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5.1
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

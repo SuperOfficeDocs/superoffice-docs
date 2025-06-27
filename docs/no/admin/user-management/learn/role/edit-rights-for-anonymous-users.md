@@ -5,7 +5,7 @@ description: Redigere rettigheter for anonyme brukere
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: brukeradministrasjon, rolle, anonym
-topic: howto
+content_type: howto
 language: no
 envir: onsite
 audience: settings

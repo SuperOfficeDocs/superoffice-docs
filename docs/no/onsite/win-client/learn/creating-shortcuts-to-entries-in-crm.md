@@ -5,7 +5,7 @@ description: Lage snarveier til oppføringer i CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: firma
-topic: help
+content_type: concept
 language: no
 ---
 

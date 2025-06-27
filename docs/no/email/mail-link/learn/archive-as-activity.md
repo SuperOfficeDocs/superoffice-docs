@@ -5,7 +5,7 @@ description: "Hvis du lagrer en e-post direkte som en oppgave, en avtale eller e
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-post
-topic: howto
+content_type: howto
 language: no
 ---
 

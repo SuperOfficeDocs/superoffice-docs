@@ -5,7 +5,7 @@ description: Status-bildet
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-topic: help
+content_type: concept
 language: no
 client: win
 envir: onsite

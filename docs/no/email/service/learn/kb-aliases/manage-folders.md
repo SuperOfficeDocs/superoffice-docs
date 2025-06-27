@@ -5,7 +5,7 @@ description: Administrere e-postadressemapper
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: sak
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

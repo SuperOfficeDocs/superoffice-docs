@@ -6,7 +6,7 @@ keywords: legge til relasjon, slette relasjon, relasjon, person, kontakt, firma,
 author: Bergfrid Skaara Dias
 date: 02.06.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

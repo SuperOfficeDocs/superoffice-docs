@@ -6,7 +6,7 @@ keywords: rediger interessent, Legg til/rediger interessenter, tildel rolle, Int
 author: Bergfrid Dias
 date: 02.05.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

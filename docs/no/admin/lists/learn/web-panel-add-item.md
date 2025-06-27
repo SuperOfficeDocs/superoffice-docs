@@ -5,7 +5,7 @@ description: Legge til elementer i listen webpanel
 author: SuperOffice RnD
 date: 01.20.2023
 keywords: liste, webpanel
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 

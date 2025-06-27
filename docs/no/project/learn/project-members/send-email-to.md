@@ -6,7 +6,7 @@ keywords: send e-post, prosjektdeltaker, prosjekt, deltaker, interessent, e-post
 author: SuperOffice RnD
 date: 01.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

@@ -6,7 +6,7 @@ keywords: dagbokeier, bytte dagbokeier, se en annen dagbok, se en ressurs sin da
 author: Bergfrid Dias
 date: 02.05.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

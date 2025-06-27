@@ -5,7 +5,7 @@ description: Faser i arbeidsflyt
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: FAQ
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

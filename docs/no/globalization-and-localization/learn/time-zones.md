@@ -5,7 +5,7 @@ description: Tidssoner
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: CRM
-topic: concept
+content_type: concept
 language: no
 ---
 

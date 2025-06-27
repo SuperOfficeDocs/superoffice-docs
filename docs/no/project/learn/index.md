@@ -6,7 +6,7 @@ keywords: prosjektkort, Prosjekt-bilde, prosjekt
 author: Bergfrid Dias
 date: 01.30.2025
 version: 10.3.11
-topic: concept
+content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

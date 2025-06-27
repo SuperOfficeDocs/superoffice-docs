@@ -6,7 +6,7 @@ keywords: database, ekstratabell, tabellmappe, tredjepartstabell
 author: Bergfrid Dias
 date: 08.27.2024
 version: 10.3.8
-topic: concept
+content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
 language: no
