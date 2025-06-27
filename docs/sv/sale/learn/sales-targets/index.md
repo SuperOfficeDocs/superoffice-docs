@@ -5,7 +5,7 @@ description: Möjligheten att hålla koll på dina försäljningsmöjligheter ä
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: försäljning
-topic: concept
+content_type: concept
 language: sv
 ---
 

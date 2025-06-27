@@ -6,7 +6,7 @@ keywords: Marknadsföring
 author: SuperOffice RnD, Jeanette Small Strøm
 date: 02.26.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

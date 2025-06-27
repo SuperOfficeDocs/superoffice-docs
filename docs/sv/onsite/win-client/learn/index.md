@@ -5,7 +5,7 @@ description: Inställningar för Windows-klient
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar för Windows-klient
-topic: concept
+content_type: concept
 language: sv
 client: win
 envir: onsite
