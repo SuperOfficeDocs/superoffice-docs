@@ -5,7 +5,7 @@ description: Describes how to create a user-defined field using web services
 keywords: udef, user-defined field, custom field
 author: AnthonyYates
 date: 03.11.2022
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

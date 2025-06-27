@@ -5,7 +5,7 @@ description: Evolution of NetServer Objectified SQL
 author: Tony Yates
 date: 09.06.2016
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

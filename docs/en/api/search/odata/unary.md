@@ -5,7 +5,7 @@ description: REST Web API search Unary day,week,month,quarter,year
 author: {github-id}
 keywords: search
 date:
-topic: howto
+content_type: howto
 ---
 
 # Unary time-periods

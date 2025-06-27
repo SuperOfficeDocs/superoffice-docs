@@ -5,7 +5,7 @@ description: How to create an invitation to an appointment using raw SQL.
 keywords: diary, calendar, appointment, API, invitation
 author: Bergfrid Skaara Dias
 date: 03.02.2022
-topic: howto
+content_type: howto
 ---
 
 # Create invitation

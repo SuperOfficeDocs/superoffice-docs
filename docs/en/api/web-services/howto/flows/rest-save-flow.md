@@ -6,7 +6,7 @@ keywords: flow, EmailFlow, SaveEmailFlow
 author: Eivind Fasting
 date: 05.24.2024
 version: 10.3.5
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

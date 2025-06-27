@@ -5,7 +5,7 @@ description: Working with contacts (person) in API with rows
 keywords: person, contact, row, API
 author: Bergfrid Skaara Dias
 date: 02.16.2022
-topic: howto
+content_type: howto
 ---
 
 # Contact - row

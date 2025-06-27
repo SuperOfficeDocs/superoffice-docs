@@ -4,7 +4,7 @@ description: ERP Quote Connector Interface class QuoteConnectorExtender
 author: {github-id}
 date:
 keywords: quote
-topic: reference
+content_type: reference
 ---
 
 # QuoteConnectorExtender

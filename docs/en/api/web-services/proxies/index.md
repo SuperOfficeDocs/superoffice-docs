@@ -5,7 +5,7 @@ description: Proxies
 author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, proxy, WebAPI, SOAP, WebApiOptions
-topic: concept
+content_type: concept
 ---
 
 # NetServer web service proxies

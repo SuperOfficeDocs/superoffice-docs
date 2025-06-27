@@ -5,7 +5,7 @@ description: ERP connector SOAP Sync Service
 author: {github-id}
 date: 05.11.2016
 keywords: soap
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

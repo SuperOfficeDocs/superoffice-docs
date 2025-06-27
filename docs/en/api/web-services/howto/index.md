@@ -6,7 +6,7 @@ keywords: API, web services, REST
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

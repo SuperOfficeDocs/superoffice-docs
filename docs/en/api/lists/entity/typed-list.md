@@ -5,7 +5,7 @@ description: Typed list providers
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Typed list providers

@@ -5,7 +5,7 @@ description: REST Web API search strings
 keywords: search, odata, string
 author: Tony Yates, Eivind Fasting
 date: 06.18.2024
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

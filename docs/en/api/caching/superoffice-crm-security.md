@@ -5,7 +5,7 @@ description: SuperOffice.CRM.Security
 author: {github-id}
 date: 05.11.2016
 keywords: cache
-topic: reference
+content_type: reference
 ---
 
 # SuperOffice.CRM.Security

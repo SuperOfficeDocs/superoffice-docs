@@ -5,7 +5,7 @@ author: AnthonyYates
 date: 02.29.2021
 keywords: data-access, bulk-update
 version: 9.2 R04
-topic: concept
+content_type: concept
 ---
 
 # Mass Operations

@@ -5,7 +5,7 @@ description: SuperOffice Objectified SQL provides low-level, high-performance, d
 author: {github-id}
 date: 11.16.2021
 keywords: data access, OSQL, objectified SQL, SuperOffice.CRM.Data, SuperOffice.Data, SuperOffice.Data.SQL, SODBIF
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

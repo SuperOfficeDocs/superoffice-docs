@@ -5,7 +5,7 @@ description: How to create a quote
 author: {github-id}
 date: 11.08.2021
 keywords: quote, sale, product, price list, QuoteConnectorExtender
-topic: howto
+content_type: howto
 ---
 
 # Creating a quote

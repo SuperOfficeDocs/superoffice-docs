@@ -5,7 +5,7 @@ description: NetServer configuration values for Pocket-specific features.
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Pocket, AzureNotificationHubConnectionString, AzureNotificationHubName
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

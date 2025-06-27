@@ -5,7 +5,7 @@ description: Calling through a custom SOAP proxy
 author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, proxy, SOAP, NetServer, WSDL
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

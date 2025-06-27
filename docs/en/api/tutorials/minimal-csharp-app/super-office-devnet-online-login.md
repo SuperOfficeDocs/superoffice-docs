@@ -4,7 +4,7 @@ uid: super_office_devnet_online_login
 description: superoffice.devnet.online.login
 author: {github-id}
 keywords:
-topic: tutorial
+content_type: tutorial
 envir: cloud
 client: online
 ---

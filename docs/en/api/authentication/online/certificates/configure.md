@@ -4,7 +4,7 @@ uid: configure_certificate_store
 description: How to configure certificates in the Windows certificate store
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

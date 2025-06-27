@@ -5,7 +5,7 @@ description: Text table
 keywords: project, project management, SQL, API, text_id, owner_id
 author: Bergfrid Dias
 date: 11.05.2021
-topic: concept
+content_type: concept
 ---
 
 # Text table

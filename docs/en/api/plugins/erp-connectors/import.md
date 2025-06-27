@@ -5,7 +5,7 @@ description: Importing from ERP
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

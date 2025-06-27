@@ -5,7 +5,7 @@ description: ERP sync connector example
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: sample
+content_type: howto
 # envir:
 # client:
 ---

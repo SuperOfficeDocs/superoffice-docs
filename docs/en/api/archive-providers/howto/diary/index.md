@@ -5,7 +5,7 @@ description: Working with appointments via archives.
 keywords: diary, calendar, appointment, API, archive, invitation
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: reference
+content_type: reference
 ---
 
 # Diary - archive

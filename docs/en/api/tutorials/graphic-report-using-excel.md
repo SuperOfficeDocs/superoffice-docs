@@ -5,7 +5,7 @@ description: Graphic report using Excel
 author: {github-id}
 date: 
 keywords: 
-topic: tutorial
+content_type: tutorial
 ---
 
 # Graphic report using Excel

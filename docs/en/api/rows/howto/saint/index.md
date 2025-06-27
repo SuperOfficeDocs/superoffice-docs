@@ -6,7 +6,7 @@ keywords: sale, SAINT, API, row
 author: Bergfrid Skaara Dias
 date: 06.09.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # SAINT - row

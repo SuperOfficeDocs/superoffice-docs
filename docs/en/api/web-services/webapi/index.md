@@ -5,7 +5,7 @@ description: "Authentication options for the SuperOffice WebAPI."
 author: AnthonyYates
 date: 12.17.2021
 keywords: security, authentication, WebAPI, SOTICKET, BEARER
-topic: concept
+content_type: concept
 envir: onsite
 client: Web
 ---

@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 04.28.2024
 version: 10
 keywords: custom object, UpdateRow, DatabaseTable, TableRecord, extra table
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

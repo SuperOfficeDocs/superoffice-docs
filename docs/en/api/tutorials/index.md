@@ -5,7 +5,7 @@ description: Contains a list of tutorials.
 keywords: diary, calendar, follow-up
 author: Bergfrid Skaara Dias
 date: 03.21.2022
-topic: tutorial
+content_type: tutorial
 ---
 
 # Tutorials

@@ -5,7 +5,7 @@ description: Role-based security
 author: Tony Yates
 date: 11.05.2021
 keywords: security, roles, DataRight, TableId, RelationshipToOwner, FunctionRight, FunctionRightToRoleLink
-topic: concept
+content_type: concept
 ---
 
 # Role-based security

@@ -5,7 +5,7 @@ description: How to add members to a static selection using services
 author: {github-id}
 date: 05.11.2016
 keywords: search,services
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

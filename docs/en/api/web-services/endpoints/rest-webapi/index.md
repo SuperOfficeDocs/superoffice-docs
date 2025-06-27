@@ -5,7 +5,7 @@ description: SuperOffice REST Web API exposes objects as entities that can be ma
 keywords: API, web services, endpoints, WebAPI, REST, ODATA, SO-AppToken, SOTicket
 author: Bergfrid Dias
 date: 05.23.2025
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

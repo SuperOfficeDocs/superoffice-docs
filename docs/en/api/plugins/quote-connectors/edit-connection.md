@@ -5,7 +5,7 @@ description: How to update a quote connector
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Editing a connection

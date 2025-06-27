@@ -5,7 +5,7 @@ description: ERP Sync Service WCF host
 author: {github-id}
 date: 05.11.2016
 keywords: soap,web.config
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

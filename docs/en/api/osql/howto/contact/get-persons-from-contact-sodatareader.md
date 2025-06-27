@@ -5,7 +5,7 @@ description: How to retrieve a list of people using SODataReader.
 keywords: person, contact, SoReader, SODataReader, API, OSQL
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Retrieve a list of people using SODataReader

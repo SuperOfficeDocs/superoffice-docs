@@ -5,7 +5,7 @@ description: SetDefaults method best practices
 author: {github-id}
 date: 11.05.2016
 keywords: entity,row
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

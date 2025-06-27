@@ -5,7 +5,7 @@ description: Add a category list item using WebAPI agents
 keywords: category, contact, WebAPI, agents
 author: Bergfrid Dias
 date: 11.18.2021
-topic: howto
+content_type: howto
 ---
 
 # Add a category list item

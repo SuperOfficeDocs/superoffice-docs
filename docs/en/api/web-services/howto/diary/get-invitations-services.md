@@ -5,7 +5,7 @@ description: How to get a list of invitations using NetServer services
 keywords: diary, calendar, appointment, API, web services, archiveprovider
 author: Bergfrid Skaara Dias
 date: 03.18.2022
-topic: howto
+content_type: howto
 ---
 
 # How to get a list of invitations (services)

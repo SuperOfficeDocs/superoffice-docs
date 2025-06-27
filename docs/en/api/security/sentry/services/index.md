@@ -5,7 +5,7 @@ description: Sentry in services
 author: {github-id}
 date:
 keywords: sentry
-topic: concept
+content_type: concept
 area: api-services
 ---
 

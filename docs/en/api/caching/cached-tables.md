@@ -5,7 +5,7 @@ description: Cached database tables
 author: {github-id}
 date: 02.22.2022
 keywords: database
-topic: concept
+content_type: concept
 envir: onsite
 client: win
 ---

@@ -3,7 +3,7 @@ title: providers
 description: Provider class
 author: {github-id}
 keywords: IArchiveProvider
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

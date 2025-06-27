@@ -5,7 +5,7 @@ description: How to read all the companies in SuperOffice with REST Web API.
 keywords: contact, company, services, API, search, rest
 author: Tony Yates
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Select all companies

@@ -5,7 +5,7 @@ description: How to list all selected interests for a contact using entities
 keywords: contact, company, interest, entity, API, ContactInterestHelper, SelectHeadingItems, SelectRootItems
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # How to list all selected interests for a contact

@@ -6,7 +6,7 @@ keywords: document, API
 author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

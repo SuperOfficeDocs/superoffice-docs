@@ -5,7 +5,7 @@ description: NetServer FeatureToggles element
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, FeatureToggles, State, feature toggles
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

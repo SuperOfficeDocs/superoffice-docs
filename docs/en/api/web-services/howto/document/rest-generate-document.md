@@ -6,7 +6,7 @@ keywords: document, API, REST, api/v1/Document/, api/v1/Agents/Document/SaveDocu
 author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

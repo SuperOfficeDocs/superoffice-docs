@@ -5,7 +5,7 @@ description: Authentication pipeline
 author: {github-id}
 date: 05.08.2018
 keywords: security, identity, authentication, plugin
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

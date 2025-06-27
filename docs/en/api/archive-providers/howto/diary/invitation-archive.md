@@ -5,7 +5,7 @@ description: Invitation Archive
 keywords: diary, calendar, appointment, API, entity, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Invitation Archive

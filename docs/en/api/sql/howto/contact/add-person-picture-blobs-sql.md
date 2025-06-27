@@ -5,7 +5,7 @@ description: How to add a person picture with raw SQL.
 keywords: blob, person, contact, image, picture, API, BinaryObject, BinaryObjectLink
 author: Bergfrid Skaara Dias
 date: 11.02.2021
-topic: howto
+content_type: howto
 ---
 
 # How to add a person picture

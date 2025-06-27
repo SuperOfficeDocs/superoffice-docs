@@ -5,7 +5,7 @@ description: SuperOffice NetServer patterns
 author: Bergfrid Dias
 date: 11.29.2016
 keywords: API, NetServer, plugin pattern, factory pattern
-topic: concept
+content_type: concept
 ---
 
 # Plug-ins

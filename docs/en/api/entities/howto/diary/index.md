@@ -5,7 +5,7 @@ description: Working with appointments via entities at the NetServer data layer.
 keywords: diary, calendar, appointment, API, entity
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: reference
+content_type: reference
 ---
 
 # Diary - entity

@@ -5,7 +5,7 @@ description: Authentication and SOAP calls
  Bergfrid Dias
 date: 11.22.2021
 keywords: authentication, SOAP, SoSession, WcfSoPrincipalService, SoCredentials
-topic: concept
+content_type: concept
 envir: onsite
 # client: 
 ---

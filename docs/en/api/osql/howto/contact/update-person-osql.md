@@ -5,7 +5,7 @@ description: How to update a person with new name, address, position using OSQL.
 keywords: person, contact, API, OSQL, update
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Update a person with a new name, address, position using OSQL

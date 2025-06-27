@@ -5,7 +5,7 @@ description: IQuoteConnector
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 <!-- markdownlint-disable-file MD013 -->

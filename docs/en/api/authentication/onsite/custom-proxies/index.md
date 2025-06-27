@@ -5,7 +5,7 @@ description: Authentication with NetServer web service custom proxies
 author: AnthonyYates
 date: 05.08.2018
 keywords: authentication, SOAP
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

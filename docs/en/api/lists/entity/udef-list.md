@@ -5,7 +5,7 @@ description: User-defined list providers
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # User-defined list providers

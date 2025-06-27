@@ -5,7 +5,7 @@ description: How to retrieve the associate list
 keywords: associate, list, GetAssociateList
 author: Tony Yates
 date: 02.22.2022
-topic: howto
+content_type: howto
 ---
 
 # Get the associate list

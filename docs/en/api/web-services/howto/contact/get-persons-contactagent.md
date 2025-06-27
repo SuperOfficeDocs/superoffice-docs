@@ -5,7 +5,7 @@ description: How to retrieve a list of persons with ContactAgent.
 keywords: person, contact, services, API, api-services, ContactAgent, PersonAgent, GetContactWithPersons
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Retrieving list of persons with ContactAgent

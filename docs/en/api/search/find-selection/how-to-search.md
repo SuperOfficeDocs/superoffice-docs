@@ -4,7 +4,7 @@ uid: selection_how_to_search
 description: Details what new selections are, and how to work with them in code. 
 author: {AnthonyYates}
 keywords: Selection, Find, Search
-topic: howto
+content_type: howto
 envir: online, onsite
 client: netserver
 version: 9.2

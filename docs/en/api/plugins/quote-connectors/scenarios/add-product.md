@@ -5,7 +5,7 @@ description: Quote connector scenario - adding a product
 author: {github-id}
 date:
 keywords: quote
-topic: guide
+content_type: tutorial
 ---
 
 # Scenario – adding a product

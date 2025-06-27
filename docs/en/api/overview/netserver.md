@@ -5,7 +5,7 @@ description: NetServer is a multi-tiered database access layer that bridges comm
 author: AnthonyYates
 date: 12.10.2021
 keywords: API, NetServer, HDB, RDB, entity, row, archive, OSQL, web service, services
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

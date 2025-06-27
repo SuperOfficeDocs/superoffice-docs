@@ -5,7 +5,7 @@ description: How to extend the Tooltip service using plugins
 author: {github-id}
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # How to extend the Tooltip service using plugins

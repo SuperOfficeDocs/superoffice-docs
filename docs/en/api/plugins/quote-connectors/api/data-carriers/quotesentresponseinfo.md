@@ -5,7 +5,7 @@ description: ERP Quote Connector Interface data carrier - QuoteSentResponseInfo
 author: {github-id}
 date:
 keywords: quote
-topic: reference
+content_type: reference
 ---
 
 # QuoteSentResponseInfo

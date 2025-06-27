@@ -5,7 +5,7 @@ description: Product search provider
 author: {github-id}
 date:
 keywords: quote,search
-topic: howto
+content_type: howto
 ---
 
 # Product search provider

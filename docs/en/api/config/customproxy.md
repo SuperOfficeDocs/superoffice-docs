@@ -5,7 +5,7 @@ description: NetServer configuration values for custom proxy and communication w
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, CustomProxy, CustomProxyHost, CustomProxyPort, CustomProxySSLPort, UseCustomProxyForIntegrationServer, UseCustomProxyForPublicAccess, UseCustomProxyForWebhooks
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

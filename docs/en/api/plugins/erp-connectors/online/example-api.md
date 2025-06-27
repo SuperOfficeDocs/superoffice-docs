@@ -4,7 +4,7 @@ uid: epr_api
 description: ERP Connector API
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: Update a person with new name, address, position using entities
 keywords: person, contact, entity, API
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Update a person with a new name, address, position using entities

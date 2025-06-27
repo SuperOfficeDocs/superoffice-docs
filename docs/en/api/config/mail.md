@@ -5,7 +5,7 @@ description: NetServer Mail component configuration options.
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Mail, NumberOfDaysToDownload, Reader, Sender
-topic: reference
+content_type: reference
 envir: onsite
 ---
 # NetServer Mail element (SuperOffice only)

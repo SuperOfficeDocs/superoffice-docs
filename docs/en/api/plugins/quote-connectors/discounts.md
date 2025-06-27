@@ -4,7 +4,7 @@ description: About discounts
 author: {github-id}
 date:
 keywords: quote
-topic: concept
+content_type: concept
 ---
 
 # Discounts

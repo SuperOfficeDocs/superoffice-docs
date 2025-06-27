@@ -5,7 +5,7 @@ description: Create an appointment using NetServer services
 keywords: diary, calendar, appointment, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
-topic: howto
+content_type: howto
 ---
 
 # Create an appointment using services

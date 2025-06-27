@@ -5,7 +5,7 @@ description: Sending the quote
 author: {github-id}
 date: 11.08.2021
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Sending quotes

@@ -5,7 +5,7 @@ author: AnthonyYates
 date: 02.29.2021
 keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
-topic: howto
+content_type: howto
 ---
 
 <!-- markdownlint-disable-file MD051 -->

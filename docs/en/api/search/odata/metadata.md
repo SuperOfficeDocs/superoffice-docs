@@ -5,7 +5,7 @@ description: REST Web API search metadata
 author: {github-id}
 keywords: search
 date: 2023-04-26
-topic: howto
+content_type: howto
 ---
 
 # Archive Metadata

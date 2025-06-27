@@ -5,7 +5,7 @@ description: IProductRegisterCache
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # IProductRegisterCache

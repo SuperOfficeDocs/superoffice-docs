@@ -5,7 +5,7 @@ description: How to create an appointment using raw SQL.
 keywords: diary, calendar, appointment, API, VisibleFor, SAINT
 author: Bergfrid Skaara Dias
 date: 03.02.2022
-topic: howto
+content_type: howto
 ---
 
 # Create appointment

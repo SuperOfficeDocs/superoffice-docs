@@ -6,7 +6,7 @@ keywords: document, API, services, DocumentAgent, DocumentAgent.CreateTempFile, 
 author: Tony Yates
 date: 06.11.2008
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document

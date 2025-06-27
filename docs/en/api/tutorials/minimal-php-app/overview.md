@@ -4,7 +4,7 @@ uid: minimal_php_app_overview
 description: Example PHP application
 author: {github-id}
 keywords:
-topic: tutorial
+content_type: tutorial
 envir: cloud
 client: online
 ---

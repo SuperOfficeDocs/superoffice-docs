@@ -5,7 +5,7 @@ description: Use and misuse of collections
 author: {github-id}
 date: 11.05.2016
 keywords: entity, collection
-topic: concept
+content_type: concept
 envir: onsite
 # client:
 ---

@@ -4,7 +4,7 @@ uid: add_certificate_snap_in
 description: How to install the Certificate snap-in on Windows 
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

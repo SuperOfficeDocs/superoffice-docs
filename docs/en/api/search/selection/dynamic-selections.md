@@ -5,7 +5,7 @@ description: Dynamic selection
 author: {github-id}
 date: 11.08.2021
 keywords: search, selection, searchCriteria
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

@@ -5,7 +5,7 @@ description: How to authenticate an application user with SuperOffice legacy fed
 keywords: authentication, authenticate app user, authentication token, SAML
 author: Tony Yates, Margrethe Romnes
 date: 03.22.2024
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

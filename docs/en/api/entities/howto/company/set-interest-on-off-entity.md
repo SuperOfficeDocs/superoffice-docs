@@ -5,7 +5,7 @@ description: How to set an interest on or off for a contact using entities
 keywords: contact, company, interest, entity, API, ContactInterestHelper, SetItemSelection
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # How to set an interest on or off for a contact (data layer)

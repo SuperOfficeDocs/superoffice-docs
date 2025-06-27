@@ -5,7 +5,7 @@ description: How to work with project guides in SuperOffice APIs with raw SQL.
 keywords: project, project management, SQL, API, project guide, projtype, hasGuide, ProjectTypeStatusLink, SuggestedAppointment, SuggestedDocument
 author: Bergfrid Dias
 date: 05.31.2023
-topic: howto
+content_type: howto
 ---
 
 # Project guides

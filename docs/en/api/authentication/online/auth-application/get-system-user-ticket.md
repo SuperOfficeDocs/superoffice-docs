@@ -5,7 +5,7 @@ description: How to exchange a system user token for a system user ticket
 author: {github-id}
 date:
 keywords: authentication, soap, system user
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

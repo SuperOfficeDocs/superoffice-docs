@@ -5,7 +5,7 @@ description: How to configure the external users in the config file
 author: {github-id}
 date: 11.29.2021
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

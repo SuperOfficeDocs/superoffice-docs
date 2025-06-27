@@ -5,7 +5,7 @@ description: REST Web API search using ODATA
 author: Bergfrid Dias
 date: 12.06.2021
 keywords: search, ODATA, REST, WebAPI, web services
-topic: concept
+content_type: concept
 ---
 
 # REST WebAPI search

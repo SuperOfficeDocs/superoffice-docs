@@ -5,7 +5,7 @@ description: Get the CategoryList via CategoryRows object'
 keywords: category, rows
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Get the CategoryList via CategoryRows object

@@ -5,7 +5,7 @@ description: How to start the quote connector client
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Start the client

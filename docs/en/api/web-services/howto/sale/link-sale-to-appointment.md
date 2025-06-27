@@ -6,7 +6,7 @@ keywords: sale, API, web services, AppointmentAgent, appointment, follow-up
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # How to link a sale to a follow-up (services)

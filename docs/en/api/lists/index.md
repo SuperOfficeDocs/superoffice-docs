@@ -4,7 +4,7 @@ description: Overview of general lists and Multi-departmental organizational (MD
 author: AnthonyYates
 date: 03.03.2022
 keywords: Lists, 
-topic: concept
+content_type: concept
 ---
 
 # Lists

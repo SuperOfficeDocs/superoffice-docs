@@ -3,7 +3,7 @@ title: Criteria operators
 description: Defines what operators are used with which data types and describes how they are used.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-topic: reference
+content_type: reference
 envir: cloud, onsite
 client: web
 ---

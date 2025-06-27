@@ -5,7 +5,7 @@ description: SuperOffice Objectified SQL - Enum values with IN
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Enum values with IN

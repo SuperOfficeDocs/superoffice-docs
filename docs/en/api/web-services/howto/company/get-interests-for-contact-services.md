@@ -5,7 +5,7 @@ description: How to list all selected interests for a contact using services
 keywords: contact, company, services, API, interest, ContactAgent, SelectableMDOListItem
 author: Tony Yates
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # How to list all selected interests for a contact (services)

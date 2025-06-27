@@ -5,7 +5,7 @@ description: NetServer configuration values related to TimeZone.
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, TimeZone, ServiceUrl
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

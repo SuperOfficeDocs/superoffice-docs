@@ -5,7 +5,7 @@ description: ERP Quote Connector Interface error system
 author: {github-id}
 date:
 keywords: quote
-topic: concept
+content_type: concept
 ---
 
 # Error system

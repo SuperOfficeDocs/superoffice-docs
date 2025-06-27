@@ -5,7 +5,7 @@ description: NetServer configuration related to webhooks - events broadcast to r
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, Webhooks, NumThreads, RequireHttps
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

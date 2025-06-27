@@ -6,7 +6,7 @@ keywords: globalization, address
 author: Tony Yates
 date: 05.15.2017
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Set LocalizedAddress

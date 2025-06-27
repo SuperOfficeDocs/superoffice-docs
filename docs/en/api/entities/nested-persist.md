@@ -5,7 +5,7 @@ description: The Nested Persist concept is a concept that allows for multiple re
 author: Tony Yates
 date: 06.12.2009
 keywords: NetServer
-topic: concept
+content_type: concept
 ---
 
 # NetServer Nested Persist

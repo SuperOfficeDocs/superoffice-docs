@@ -4,7 +4,7 @@ description: Soundex comes to NetServer
 author: Marek Vokáč
 date: 05.07.2012
 keywords:
-topic: article
+content_type: article
 envir: cloud
 client: online
 ---

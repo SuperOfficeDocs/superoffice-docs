@@ -5,7 +5,7 @@ description: Introducing SuperOffice APIs. The levels of SuperOffice extensibili
 author: Tony Yates
 date: 12.02.2021
 keywords: API, getting started, integration point, scripting, Jscript, Javascript, VB.NET, C#, NetServer, extensibility
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web, service
 ---

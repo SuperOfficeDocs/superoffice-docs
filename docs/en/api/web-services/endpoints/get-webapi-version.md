@@ -5,7 +5,7 @@ description: How to get the WebAPI version and list of supported URLs.
 author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, endpoints, WebAPI, REST, Agents, version
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

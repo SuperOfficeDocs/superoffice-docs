@@ -5,7 +5,7 @@ description: Get the CategoryList through SODataReader
 keywords: category, CategoryHeadingLinkTableInfo, CategoryList
 author: Bergfrid Dias
 date: 02.22.2022
-topic: howto
+content_type: howto
 ---
 
 # Get the CategoryList through SODataReader

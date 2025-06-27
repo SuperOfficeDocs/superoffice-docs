@@ -5,7 +5,7 @@ description: Working with appointments via rows.
 keywords: diary, calendar, appointment, API, row
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: reference
+content_type: reference
 ---
 
 # Diary - rows

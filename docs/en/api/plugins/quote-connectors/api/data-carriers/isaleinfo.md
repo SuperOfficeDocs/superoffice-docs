@@ -4,7 +4,7 @@ uid: q1uote_connector_carrier_isaleinfo
 description: ERP Quote Connector Interface data carrier - ISaleInfo
 date:
 keywords: quote
-topic: reference
+content_type: reference
 ---
 
 # ISaleInfo

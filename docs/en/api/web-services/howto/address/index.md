@@ -6,7 +6,7 @@ keywords: address
 author: Bergfrid Dias
 date: 02.16.2022
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Address - web services

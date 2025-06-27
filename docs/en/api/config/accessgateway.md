@@ -5,7 +5,7 @@ description: NetServer configuration values related to Access Gateway.
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, AccessGateway, BaseUrl
-topic: reference
+content_type: reference
 ---
 
 # NetServer AccessGateway element

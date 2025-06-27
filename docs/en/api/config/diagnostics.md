@@ -5,7 +5,7 @@ description: NetServer configuration of diagnostic logging tools.
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Diagnostics, log, CheckBrowserVersion, EnableResourceTracer, EnableScaffolding, EnableStackTracing, LogDebug, LogError, LogWarning, LogFolder, LoggedServices, LogInformation, LogWarning, LogTrace, LogToFile, LogToSuperOffice, LogServiceCalls, AppInsightInstrumentationKey, EnableQAAttributes, LogLongQueries, ShowExceptionsFromBackend
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

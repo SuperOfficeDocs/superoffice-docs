@@ -4,7 +4,7 @@ uid: get_list
 description: Retrieve a list
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

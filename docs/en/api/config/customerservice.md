@@ -5,7 +5,7 @@ description: NetServer configuration values for accessing Customer Service
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, CustomerService, CsCgiUrl, CsCgiUrlDirect, CsCgiUrlInternal, CsDomain, CsPassword, CsUserName, ImpersonateCsUser, CS, base path
-topic: reference
+content_type: reference
 envir:
 ---
 

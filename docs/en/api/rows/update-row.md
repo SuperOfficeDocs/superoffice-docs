@@ -5,7 +5,7 @@ description: SuperOffice database update row with basic properties
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Update basic properties of a Row

@@ -5,7 +5,7 @@ description: NetServer configuration for SuperOffice CRM Online.
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: web.config, Cloud element, TemplatePath, ArchivePath, DefaultCallbackUrl
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

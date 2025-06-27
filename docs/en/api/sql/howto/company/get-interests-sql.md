@@ -5,7 +5,7 @@ description: How to get interests for a contact from the SuperOffice database us
 keywords: contact, company, interest, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Get interests for contact

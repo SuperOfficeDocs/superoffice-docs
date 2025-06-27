@@ -5,7 +5,7 @@ description: NetServer configuration values for accessing SuperID.
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperID, TenantKey, TenantId, Environment
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

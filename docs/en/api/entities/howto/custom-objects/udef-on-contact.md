@@ -4,7 +4,7 @@ uid: udef_on_contact
 description: Udef on contact
 author: {github-id}
 keywords: entity
-topic: sample
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

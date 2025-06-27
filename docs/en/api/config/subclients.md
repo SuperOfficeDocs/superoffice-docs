@@ -5,7 +5,7 @@ description: NetServer configuration section defining any SuperOffice CRM sub-cl
 date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SubClients
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

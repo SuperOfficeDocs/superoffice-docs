@@ -5,7 +5,7 @@ description: How to use SuperOffice.WebApi
 author: Bergfrid Dias
 date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, SuperOffice.WebApi, WebApiOptions, RequestOptions, IAuthorization, async await
-topic: howto
+content_type: howto
 ---
 
 # How to use SuperOffice.WebApi

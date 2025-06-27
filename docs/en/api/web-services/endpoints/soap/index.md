@@ -5,7 +5,7 @@ description: SuperOffice SOAP API endpoints
 author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, endpoints, SOAP, Agents, Services88
-topic: concept
+content_type: concept
 ---
 
 # SOAP API

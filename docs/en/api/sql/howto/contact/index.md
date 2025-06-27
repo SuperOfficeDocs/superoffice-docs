@@ -5,7 +5,7 @@ description: Working with contacts (person) in API with raw SQL.
 keywords: person, contact, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Contact - SQL

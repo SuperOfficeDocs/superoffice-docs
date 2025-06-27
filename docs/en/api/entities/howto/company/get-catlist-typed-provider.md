@@ -5,7 +5,7 @@ description: Get a CategoryList through typed list providers
 keywords: category, list provider, CategoryList
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Get a CategoryList through typed list providers

@@ -5,7 +5,7 @@ description: Overview of SuperOffice API authentication.
 author: AnthonyYates
 date: 05.08.2018
 keywords: security, identity
-topic: concept
+content_type: concept
 envir: onsite, online
 # client:
 ---

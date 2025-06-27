@@ -5,7 +5,7 @@ description: Working with projects in raw SQL.
 keywords: project, project management, API, SQL, ProjType, type_idx, ProjStatus, status_idx
 author: Bergfrid Skaara Dias
 date: 05.31.2023
-topic: howto
+content_type: howto
 ---
 
 # Howto

@@ -5,7 +5,7 @@ description: Working with appointments via web services
 keywords: diary, calendar, appointment, invitation, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
-topic: concept
+content_type: concept
 ---
 
 # Diary - services

@@ -5,7 +5,7 @@ description: SuperOffice on NuGet
 author: Tony Yates
 date: 02.29.2016
 keywords:
-topic: concept
+content_type: concept
 envir:
 client:
 ---

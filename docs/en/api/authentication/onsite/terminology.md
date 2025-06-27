@@ -5,7 +5,7 @@ description: Authentication terminology
 author: {github-id}
 date: 11.05.2016
 keywords: authentication, authorization, user name
-topic: concept
+content_type: concept
 ---
 
 # Terminology

@@ -5,7 +5,7 @@ description: SuperOffice NetServer services and web parts in ASP.Net 2.0
 author: {github-id}
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Web parts in ASP.net 2.0

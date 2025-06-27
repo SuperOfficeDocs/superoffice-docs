@@ -4,7 +4,7 @@ uid: superoffice_openid_connect
 description: OIDC endpoints and metadata document, authorization header types, SuperOffice-specific claims
 author: AnthonyYates
 keywords: OpenID Connect, metadata document
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

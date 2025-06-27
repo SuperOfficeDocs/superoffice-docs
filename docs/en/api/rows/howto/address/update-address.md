@@ -6,7 +6,7 @@ keywords: address, ContactRow, AddressRow
 author: Tony Yates
 date: 11.05.2016
 version: 8
-topic: howto
+content_type: howto
 ---
 
 # ContactAddress

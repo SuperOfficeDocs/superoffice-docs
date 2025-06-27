@@ -5,7 +5,7 @@ description: SuperOffice.CRM.Cache
 author: {github-id}
 date: 02.22.2022
 keywords: cache
-topic: reference
+content_type: reference
 ---
 
 # SuperOffice.CRM.Cache

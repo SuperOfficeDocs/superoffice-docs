@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 09.09.2024
 version: 10
 keywords: custom object, search, DatabaseTable, TableRecord, extra table
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

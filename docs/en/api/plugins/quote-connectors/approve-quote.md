@@ -5,7 +5,7 @@ description: Approving the quote
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Approving the quote

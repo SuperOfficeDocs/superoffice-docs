@@ -5,7 +5,7 @@ description: How to get a Contact through Services layer.
 keywords: contact, company, services, API, api-services, ContactAgent
 author: Tony Yates
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Get a contact through the services layer

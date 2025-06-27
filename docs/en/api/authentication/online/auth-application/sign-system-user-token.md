@@ -4,7 +4,7 @@ uid: sign_system_user_token
 description: How to sign system user token
 author: {github-id}
 keywords: authentication, system user
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: "Introduction to the ILogger-based plugin system for logging in Net
 author: xt1
 date: 05.07.2021
 keywords: logging
-topic: concept
+content_type: concept
 ---
 
 # Logging in NetServer

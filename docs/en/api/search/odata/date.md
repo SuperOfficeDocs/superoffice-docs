@@ -5,7 +5,7 @@ description: REST Web API search dates
 author: {github-id}
 keywords: search
 date:
-topic: howto
+content_type: howto
 ---
 
 # Dates

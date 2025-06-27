@@ -5,7 +5,7 @@ description: How to add and examine projects in API with raw SQL.
 keywords: project, SQL, API, project_number
 author: Bergfrid Dias
 date: 05.31.2023
-topic: howto
+content_type: howto
 ---
 
 # Adding a project

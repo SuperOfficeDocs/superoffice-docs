@@ -6,7 +6,7 @@ keywords: appointment,document,sale
 author: AnthonyYates
 date: 11.05.2016
 version: 8.5
-topic: concept
+content_type: concept
 ---
 
 # Activity links sub-object on models

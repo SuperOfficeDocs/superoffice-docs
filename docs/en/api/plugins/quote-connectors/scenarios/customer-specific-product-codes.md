@@ -5,7 +5,7 @@ description: Quote connector scenario - dealing with customer-specific product c
 author: {github-id}
 date:
 keywords: quote
-topic: guide
+content_type: tutorial
 ---
 
 # Dealing with customer-specific product codes

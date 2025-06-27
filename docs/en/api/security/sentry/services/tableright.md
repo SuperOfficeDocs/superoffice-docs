@@ -5,7 +5,7 @@ description: Sentry in services - TableRight property
 author: Bergfrid Dias
 date: 12.02.2021
 keywords: Sentry, SOAP, security, TableRight
-topic: concept
+content_type: concept
 area: api-services
 ---
 

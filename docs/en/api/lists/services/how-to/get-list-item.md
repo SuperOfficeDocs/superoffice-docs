@@ -3,7 +3,7 @@ title: ws-list-how-to-get-list-item
 description: How to get list item via web service APIs
 author: AnthonyYates
 keywords: list,agent
-topic: how-to-guide
+content_type: howto
 date: 03.03.2022
 category: list
 area: api-services

@@ -5,7 +5,7 @@ description: Working with companies (contact) in API with rows.
 keywords: contact, company, row, API
 author: Bergfrid Skaara Dias
 date: 02.22.2022
-topic: concept
+content_type: concept
 ---
 
 # Contact - row

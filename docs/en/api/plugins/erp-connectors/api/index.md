@@ -5,7 +5,7 @@ description: Sync Connector API
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

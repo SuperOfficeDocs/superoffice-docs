@@ -5,7 +5,7 @@ description: Add columns to archive providers
 author: Tony Yates
 date: 08.03.2017
 keywords: NetServer, archive provider
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

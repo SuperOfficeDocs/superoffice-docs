@@ -5,7 +5,7 @@ description: BulkUpdateSystem FieldValueInfo
 author: Tony Yates
 date: 06.23.2017
 keywords: bulk update, FieldValueInfo
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

@@ -4,7 +4,7 @@ uid: auth_code_flow_quickstart
 description: ASP.NET web application quickstart
 author: {github-id}
 keywords: oidc, razor page
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

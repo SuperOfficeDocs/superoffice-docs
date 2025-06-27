@@ -5,7 +5,7 @@ description: How to create a Contact entity through an ContactCollection entity 
 keywords: contact, company, entity, API, collection, ContactCollection
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Create a Contact entity through an entity collection

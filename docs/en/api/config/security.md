@@ -5,7 +5,7 @@ description: NetServer configuration sections related to domain- and operational
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Security, ActiveDirectoryCredentialPlugin, Active Directory, DisableIntegration, Cryptography, SymmetricIV, SymmetricKey, SymmetricSecret, Rijndael, Sentry, SoPasswordCredentialPlugin, DisableUseExternalAssociate, DisableUseInternalAssociate, DisableUseSystemAssociate, session, PriorityInternalAssociate
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

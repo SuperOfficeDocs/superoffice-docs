@@ -5,7 +5,7 @@ description: Working with companies (contact) in API with raw SQL.'
 keywords: contact, company, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Contact - raw SQL

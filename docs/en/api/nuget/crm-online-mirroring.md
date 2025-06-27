@@ -5,7 +5,7 @@ description: SuperOffice NuGet CRM Online Database Mirroring
 author: Tony Yates
 date: 02.29.2016
 keywords: mirroring
-topic: reference
+content_type: reference
 envir:
 client:
 ---

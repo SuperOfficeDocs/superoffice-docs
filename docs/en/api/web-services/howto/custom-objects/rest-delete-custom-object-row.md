@@ -6,7 +6,7 @@ keywords: custom object, DeleteRow, DatabaseTable, TableRecord, extra table
 author: Eivind Fasting
 date: 04.28.2024
 version: 10
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

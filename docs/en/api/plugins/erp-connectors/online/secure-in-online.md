@@ -4,7 +4,7 @@ uid: erp_security
 description: Securing ERP Connectors for SuperOffice Online
 author: {github-id}
 keywords: sync
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

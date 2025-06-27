@@ -5,7 +5,7 @@ description: How to create an appointment through OSQL.
 keywords: diary, calendar, appointment, API, OSQL, AppointmentTableInfo
 author: Bergfrid Skaara Dias
 date: 03.02.2022
-topic: howto
+content_type: howto
 
 ---
 

@@ -4,7 +4,7 @@ uid: selection_dynamic_date_range_options
 description: Details date criterion in find selections.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find, Date
-topic: article
+content_type: article
 # envir:
 client: web
 ---

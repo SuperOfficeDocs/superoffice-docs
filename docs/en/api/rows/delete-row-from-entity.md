@@ -5,7 +5,7 @@ description: Delete a Row through an Entity
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Delete a Row through an Entity

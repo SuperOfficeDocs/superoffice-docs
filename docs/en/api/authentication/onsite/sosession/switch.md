@@ -5,7 +5,7 @@ description: Switching between sessions for NetServer Core & Service proxy
 author: {github-id}
 date: 11.05.2016
 keywords: authentication, SoSession
-topic: howto
+content_type: howto
 envir: onsite
 ---
 

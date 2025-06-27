@@ -5,7 +5,7 @@ description: Calling the ToolTip Service
 author: {github-id}
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # How to call the ToolTip service

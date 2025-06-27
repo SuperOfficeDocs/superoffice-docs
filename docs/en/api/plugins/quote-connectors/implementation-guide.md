@@ -5,7 +5,7 @@ description: How to create a SuperOffice Quote Connector
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 # How to create a SuperOffice Quote Connector
 

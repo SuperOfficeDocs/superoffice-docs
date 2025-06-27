@@ -5,7 +5,7 @@ description: ERP connector search
 author: {github-id}
 date: 05.11.2016
 keywords: find
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

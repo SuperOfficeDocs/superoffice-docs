@@ -5,7 +5,7 @@ description: Setting data-rights with sentry and userpreferences SQL
 author: {github-id}
 date: 02.06.2007
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

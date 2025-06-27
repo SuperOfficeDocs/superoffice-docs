@@ -5,7 +5,7 @@ description: Retrieve a row through an entity
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Retrieve a row through an entity
