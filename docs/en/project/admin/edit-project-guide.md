@@ -6,7 +6,7 @@ keywords: edit project guide, update project guide, deactivate project guide, pr
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance

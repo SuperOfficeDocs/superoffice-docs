@@ -6,7 +6,7 @@ keywords: create sales guide, new sales guide, sales guide, guide, workflow, sal
 author: SuperOffice RnD
 date: 01.06.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance

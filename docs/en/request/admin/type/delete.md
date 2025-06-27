@@ -6,7 +6,7 @@ keywords: delete request type, use as default, transfer request type to, request
 author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: servicepremium
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: How to set preferences using services
 author: Bergfrid Dias
 date: 02.22.2022
 keywords: preference, PreferenceSpec, PreferenceAgent
-topic: howto
+content_type: howto
 ---
 
 # Set preference

@@ -6,7 +6,7 @@ keywords: add sale type, Sale - Type Stages Quote list, Sale - Category list, Qu
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: settings
 audience_tooltip: Settings and maintenance
