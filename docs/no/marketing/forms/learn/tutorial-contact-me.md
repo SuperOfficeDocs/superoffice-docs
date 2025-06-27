@@ -6,7 +6,7 @@ keywords: skjema, kontakt meg
 author: Bergfrid Dias
 date: 02.29.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

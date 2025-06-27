@@ -6,7 +6,7 @@ keywords: Marketing, markedsføring, utsendelse, Google Analytics, sporing, spor
 author: Alex Pelan
 date: 06.25.2015
 version: 8
-topic: tutorial
+content_type: tutorial
 language: no
 translation_type: MT
 audience: person
