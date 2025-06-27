@@ -6,7 +6,7 @@ keywords: SAINT, statusovervågning
 author: SuperOffice RnD
 date: 10.18.2024
 version: 9
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

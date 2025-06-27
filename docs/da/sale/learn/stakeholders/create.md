@@ -8,7 +8,7 @@ date: 02.25.2025
 version: 10.5.2
 topic: howto
 license: salespremium
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

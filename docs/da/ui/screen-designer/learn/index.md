@@ -6,7 +6,7 @@ keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

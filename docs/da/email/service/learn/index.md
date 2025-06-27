@@ -5,7 +5,7 @@ description: E-mails om service
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Indstillinger og vedligeholdelse
-topic: concept
+content_type: concept
 language: da
 ---
 

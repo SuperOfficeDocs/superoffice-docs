@@ -5,7 +5,7 @@ description: CRMScript er en funktion, der giver dig mulighed for at automatiser
 keywords: CRMScript
 author: SuperOffice RnD
 date: 02.22.2023
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
