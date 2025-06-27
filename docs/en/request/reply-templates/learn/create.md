@@ -6,7 +6,7 @@ keywords: create reply template, new reply template, copy reply template, reply 
 author: Bergfrid Dias
 date: 01.13.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

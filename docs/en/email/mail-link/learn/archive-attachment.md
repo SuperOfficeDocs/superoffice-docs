@@ -5,7 +5,7 @@ description: If you would like to save an email attachment but not the email its
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link, email, attachment
-topic: howto
+content_type: howto
 language: en
 ---
 

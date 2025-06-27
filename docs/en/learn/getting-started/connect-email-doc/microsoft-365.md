@@ -6,7 +6,7 @@ keywords: Microsoft 365, SharePoint, Outlook, email, document, diary, invitation
 author: Kirsti Aakerholt
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

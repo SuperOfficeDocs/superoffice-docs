@@ -5,7 +5,7 @@ description: using document templates for multiple languages
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

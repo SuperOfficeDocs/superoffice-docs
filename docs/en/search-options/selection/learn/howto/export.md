@@ -6,7 +6,7 @@ keywords: export to Excel, export to file, selection, export, Excel
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

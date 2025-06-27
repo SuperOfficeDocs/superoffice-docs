@@ -6,7 +6,7 @@ keywords: personal settings, preference, setting
 author: Bergfrid Dias
 date: 01.17.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -5,7 +5,7 @@ description: Import users from Active Directory
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: user, import, associate, Active Directory, bulk
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

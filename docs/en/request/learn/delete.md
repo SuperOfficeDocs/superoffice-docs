@@ -6,7 +6,7 @@ keywords: delete request, request
 author: Hanne Gunnarsson
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 functional_right: Service administration, General Administrator
 license: serviceessentials
 audience: person

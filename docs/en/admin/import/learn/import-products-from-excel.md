@@ -5,7 +5,7 @@ description: In this how-to guide you will learn how you can import all your pro
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: import, product, Excel
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

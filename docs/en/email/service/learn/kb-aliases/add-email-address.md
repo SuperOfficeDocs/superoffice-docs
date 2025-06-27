@@ -5,7 +5,7 @@ description: Create email addresses
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: request, mailbox
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

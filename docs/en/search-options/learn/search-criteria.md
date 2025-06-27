@@ -5,7 +5,7 @@ description: How to add and modify search criteria
 author: Bergfrid Dias
 date: 05.25.2023
 keywords: search, criteria, find
-topic: howto
+content_type: howto
 language: en
 ---
 

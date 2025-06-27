@@ -6,7 +6,7 @@ keywords: translate reply template, new language version, reply template, reques
 author: Bergfrid Dias
 date: 01.13.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

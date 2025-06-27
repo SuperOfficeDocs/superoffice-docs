@@ -5,7 +5,7 @@ description: How to spot and fix problems when using SuperOffice template variab
 keywords: document template, template variable, document
 author: Bergfrid Dias
 date: 07.11.2024
-topic: howto
+content_type: howto
 language: en
 ---
 

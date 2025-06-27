@@ -6,7 +6,7 @@ keywords: add project member, new project member, Add/edit project members dialo
 author: Bergfrid Dias
 date: 01.06.2025
 version: 10.3.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -6,7 +6,7 @@ keywords: edit company, update company, company
 author: Bergfrid Dias
 date: 12.16.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

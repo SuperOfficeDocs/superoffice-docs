@@ -5,7 +5,7 @@ description: Learn how to set up the privacy settings for your company.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Settings and maintenance, privacy, consent
-topic: howto
+content_type: howto
 language: en
 ---
 

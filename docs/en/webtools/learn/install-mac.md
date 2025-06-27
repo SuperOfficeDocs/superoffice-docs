@@ -5,7 +5,7 @@ description: If you are using macOS, you need WebTools for Mac to integrate your
 author: Kirsti Aakerholt
 date: 05.19.2023
 keywords: WebTools, Mac, macOS, document, contact
-topic: howto
+content_type: howto
 language: en
 ---
 

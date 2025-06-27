@@ -5,7 +5,7 @@ description: How to add, edit, and delete preference settings.
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: preference, setting
-topic: howto
+content_type: howto
 language: en
 ---
 

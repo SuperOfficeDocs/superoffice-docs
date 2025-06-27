@@ -5,7 +5,7 @@ description: Saving an email directly as a meeting or to-do in your SuperOffice 
 author: Bergfrid Dias
 date: 08.30.2023
 keywords: Mail Link, email, inbox, archive, appointment, meeting, task, to-do, follow-up
-topic: howto
+content_type: howto
 language: en
 ---
 

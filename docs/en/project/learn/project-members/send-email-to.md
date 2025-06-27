@@ -6,7 +6,7 @@ keywords: Send email, email project member, email stakeholder, project member, s
 author: SuperOffice RnD
 date: 07.04.2022
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -5,7 +5,7 @@ description: Customer centre source files
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Customer Center, CEP
-topic: howto
+content_type: howto
 language: en
 ---
 

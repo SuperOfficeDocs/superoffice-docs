@@ -5,7 +5,7 @@ description: Learn how to archive emails as requests in this guide.
 author: SuperOffice RnD
 date: 03.14.2023
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: en
 ---
 

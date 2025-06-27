@@ -6,7 +6,7 @@ keywords: Marketing, placeholder, merge tag, template variable
 author: SuperOffice RnD
 date: 02.05.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
