@@ -6,7 +6,7 @@ keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
 author: Bergfrid Skaara Dias
 date: 03.21.2022
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # How to accept an invitation

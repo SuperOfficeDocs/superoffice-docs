@@ -6,7 +6,7 @@ keywords: CRMScript, Service, ticket, request, log
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Logs

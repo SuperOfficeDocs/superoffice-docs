@@ -6,7 +6,7 @@ keywords: project, CRMScript
 author: Bergfrid Dias
 date: 06.01.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Samples

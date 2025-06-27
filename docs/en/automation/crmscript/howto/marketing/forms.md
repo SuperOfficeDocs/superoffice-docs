@@ -6,7 +6,7 @@ keywords: marketing, form, form action, submission
 author: Bergfrid Skaara Dias, Christian Mogensen
 date: 03.20.2024
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Forms

@@ -6,7 +6,7 @@ keywords: CRMScript, project, ProjectAgent, GetProjectList
 author: Bergfrid Skaara Dias
 date: 06.01.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Get selected projects

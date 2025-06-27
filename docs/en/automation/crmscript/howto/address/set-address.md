@@ -6,7 +6,7 @@ keywords: address, NSLocalizedField, ContactAgent
 author: Bergfrid Dias
 date: 02.16.2022
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Set address info

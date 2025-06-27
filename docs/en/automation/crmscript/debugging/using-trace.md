@@ -5,7 +5,7 @@ description: How to trace a CRMScript.
 author: Bergfrid Dias
 date: 12.21.2023
 keywords: CRMScript, trace, debug
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
