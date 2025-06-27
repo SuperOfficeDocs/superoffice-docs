@@ -5,7 +5,7 @@ description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersro
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: gebruiker
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

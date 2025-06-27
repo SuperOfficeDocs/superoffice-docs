@@ -5,7 +5,7 @@ description: De mogelijkheid om uw verkoopkansen te volgen is een van de belangr
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: verkoop
-topic: concept
+content_type: concept
 language: nl
 ---
 

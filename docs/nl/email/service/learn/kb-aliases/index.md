@@ -5,7 +5,7 @@ description: Werken met e-mailadressen
 keywords: verzoek
 author: Bergfrid Dias
 date: 03.16.2023
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person

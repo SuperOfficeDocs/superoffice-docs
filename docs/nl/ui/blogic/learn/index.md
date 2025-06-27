@@ -5,7 +5,7 @@ description: Systeemontwerp
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: Systeemontwerp
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

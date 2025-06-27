@@ -5,7 +5,7 @@ description: Webpanelen
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: webpaneel
-topic: concept
+content_type: concept
 language: nl
 ---
 

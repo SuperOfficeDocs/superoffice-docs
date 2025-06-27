@@ -6,7 +6,7 @@ keywords: aangepast object, veld
 author: Bergfrid Dias
 date: 01.30.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

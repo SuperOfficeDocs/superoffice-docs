@@ -5,7 +5,7 @@ description: Service-e-mails
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Instellingen en onderhoud
-topic: concept
+content_type: concept
 language: nl
 ---
 

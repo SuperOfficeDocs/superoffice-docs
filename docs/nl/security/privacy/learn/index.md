@@ -5,7 +5,7 @@ description: privacy
 author: SuperOffice RnD
 date: 07.17.2024
 keywords: privacy, GDPR, e-marketing, toestemming
-topic: concept
+content_type: concept
 language: nl
 ---
 

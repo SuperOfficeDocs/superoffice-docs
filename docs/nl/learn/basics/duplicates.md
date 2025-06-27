@@ -6,7 +6,7 @@ keywords: duplicaat
 author: SuperOffice RnD
 date: 03.14.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
