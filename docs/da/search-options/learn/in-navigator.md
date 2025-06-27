@@ -5,7 +5,7 @@ description: Brug af hurtigsøgning i navigatoren
 author: Bergfrid Dias
 date: 06.29.2022
 keywords: søge, FastSearcher, navigator
-topic: howto
+content_type: howto
 language: da
 ---
 

@@ -5,7 +5,7 @@ description: Funktionerne til markedsføring omfatter udsendelser og webformular
 author: SuperOffice RnD
 date: 06.14.2024
 version: 10.3.5
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

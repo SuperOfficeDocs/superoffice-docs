@@ -5,7 +5,7 @@ description: Sådan opdager og løser du problemer, når du bruger SuperOffice s
 keywords: dokumentskabelon, skabelonvariabel, dokument
 author: Bergfrid Dias
 date: 07.16.2024
-topic: howto
+content_type: howto
 language: da
 ---
 

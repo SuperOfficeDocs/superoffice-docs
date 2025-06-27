@@ -5,7 +5,7 @@ description: Udbakke til sms
 keywords: Tjeneste
 author: SuperOffice RnD
 date: 06.29.2022
-topic: reference
+content_type: reference
 language: da
 ---
 

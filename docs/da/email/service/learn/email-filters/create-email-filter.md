@@ -5,7 +5,7 @@ description: Oprettelse af e-mail-filtre
 keywords: e-mail, e-mail-filter, filtrer
 author: SuperOffice RnD
 date: 07.17.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

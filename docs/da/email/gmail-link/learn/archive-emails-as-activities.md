@@ -5,7 +5,7 @@ description: Hvis du gemmer en e-mail direkte som en opfølging i din SuperOffic
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: da
 ---
 

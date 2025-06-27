@@ -5,7 +5,7 @@ description: Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

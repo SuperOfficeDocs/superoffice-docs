@@ -5,7 +5,7 @@ description: Egenskaber for menu
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Tjeneste
-topic: howto
+content_type: howto
 language: da
 ---
 

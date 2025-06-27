@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du opretter en anmodning i Su
 keywords: chat
 author: SuperOffice RnD
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

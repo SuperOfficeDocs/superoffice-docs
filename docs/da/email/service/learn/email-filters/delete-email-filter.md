@@ -5,7 +5,7 @@ description: Slet e-mail-filtre
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: e-mail
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

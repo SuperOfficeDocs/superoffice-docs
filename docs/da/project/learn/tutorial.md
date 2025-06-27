@@ -6,7 +6,7 @@ keywords: projektguide, guide, workflow, projekt
 author: SuperOffice RnD
 date: 03.07.2025
 version: 10.5.2
-topic: tutorial
+content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

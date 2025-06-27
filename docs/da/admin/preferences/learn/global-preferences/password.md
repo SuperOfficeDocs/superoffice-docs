@@ -5,7 +5,7 @@ description: Globale præferencer for adgangskodepolitik for Customer Centre
 keywords: Tjeneste, indstillinger
 author: SuperOffice RnD
 date: 03.29.2023
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

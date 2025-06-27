@@ -6,7 +6,7 @@ keywords: navigator, navigering, menu, side menu, venstre menu, brugergrænsefla
 author: Bergfrid Dias
 date: 07.03.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

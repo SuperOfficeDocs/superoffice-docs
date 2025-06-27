@@ -5,7 +5,7 @@ description: Administrer afsendere
 author: SuperOffice RnD
 date: 12.11.2024
 keywords: Mail Link
-topic: howto, sender
+content_type: howto, sender
 language: da
 ---
 

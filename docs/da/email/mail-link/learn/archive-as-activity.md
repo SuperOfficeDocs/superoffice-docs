@@ -5,7 +5,7 @@ description: Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et 
 keywords: Mail Link, e-mail
 author: SuperOffice RnD
 date: 02.10.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

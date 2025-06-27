@@ -6,7 +6,7 @@ keywords: opret sagstype, ny sagstype, tilføj sagstype, sagstype, Sagstyper-fan
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: servicepremium
 audience: settings
 audience_tooltip: Settings and maintenance

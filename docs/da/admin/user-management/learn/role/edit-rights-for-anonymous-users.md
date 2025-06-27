@@ -5,7 +5,7 @@ description: Redigering af rettigheder for anonyme brugere
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: brugerstyring, rolle, anonym
-topic: howto
+content_type: howto
 language: da
 envir: onsite
 audience: settings

@@ -6,7 +6,7 @@ keywords: skabelon, dokumentskabelon, dokumenttype, dokument, Microsoft Office, 
 author: Martin Pavlas
 date: 07.16.2024
 version: 10
-topic: reference
+content_type: reference
 language: da
 ---
 

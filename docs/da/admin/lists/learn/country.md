@@ -5,7 +5,7 @@ description: Land
 keywords: listen Generelt – Land
 author: SuperOffice RnD
 date: 06.29.2022
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

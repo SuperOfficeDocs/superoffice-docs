@@ -5,7 +5,7 @@ description: Få mere at vide om, hvordan du tilknytter en chatkanal til dit kun
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chat, kundecenter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

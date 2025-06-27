@@ -5,7 +5,7 @@ description: E-mailopsætning til videomøder
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: videomøde
-topic: howto
+content_type: howto
 language: da
 ---
 

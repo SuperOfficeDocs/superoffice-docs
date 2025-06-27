@@ -6,7 +6,7 @@ keywords: for mange returposter, blokerede mailadresser, hård afvisning, blød 
 author: SuperOffice RnD
 date: 06.26.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

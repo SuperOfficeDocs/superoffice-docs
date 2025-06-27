@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du publicerer ofte stillede s
 keywords: FAQ, Kundecenter
 author: Bergfrid Dias
 date: 03.16.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

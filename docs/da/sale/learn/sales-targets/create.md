@@ -5,7 +5,7 @@ description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil h
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
-topic: howto
+content_type: howto
 language: da
 ---
 

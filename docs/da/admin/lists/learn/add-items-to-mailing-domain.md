@@ -5,7 +5,7 @@ description: Tilføjelse af forekomster til listen Udsendelsesdomæner
 author: Hanne Gunnarsson
 date: 03.14.2023
 keywords: udsendelse, domæne, SPF
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

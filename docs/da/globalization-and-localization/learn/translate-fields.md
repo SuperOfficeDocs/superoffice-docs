@@ -5,7 +5,7 @@ description: Oversættelse af felter
 keywords: sprog, oversættelse
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: da
 ---
 

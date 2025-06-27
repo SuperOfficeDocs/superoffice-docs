@@ -5,7 +5,7 @@ description: Det kan være stressende at holde styr på dine salgsmål. Men hvis
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
-topic: howto
+content_type: howto
 language: da
 ---
 

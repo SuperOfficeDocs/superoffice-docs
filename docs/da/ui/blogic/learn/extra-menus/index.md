@@ -5,7 +5,7 @@ description: Ekstra menuer i brugergrænsefladen til SuperOffice
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: ekstramenuer
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

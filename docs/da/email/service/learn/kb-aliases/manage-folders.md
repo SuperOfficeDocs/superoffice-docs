@@ -5,7 +5,7 @@ description: Administration af mapper med e-mailadresser
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: sag
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

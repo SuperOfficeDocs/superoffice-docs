@@ -5,7 +5,7 @@ description: Oprettelse af genveje til poster i CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: firma
-topic: help
+content_type: howto
 language: da
 ---
 

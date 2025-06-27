@@ -6,7 +6,7 @@ keywords: slet sag, sag
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 functional_right: Service administration, General Administrator
 license: serviceessentials
 audience: person

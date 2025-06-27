@@ -5,7 +5,7 @@ description: Ændring af aktivt sprog
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: sprog
-topic: howto
+content_type: howto
 language: da
 ---
 

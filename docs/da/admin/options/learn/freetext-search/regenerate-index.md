@@ -5,7 +5,7 @@ description: Gendannelse af fritekstindeks
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: fritekst, søgeindeks
-topic: howto
+content_type: howto
 language: da
 envir: onsite
 ---

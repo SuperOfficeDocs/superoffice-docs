@@ -5,7 +5,7 @@ description: Redigering af importbeskrivelser
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-topic: help
+content_type: howto
 language: da
 client: win
 envir: onsite

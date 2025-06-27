@@ -5,7 +5,7 @@ description: Stopord
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: fritekst, søge, stopord
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

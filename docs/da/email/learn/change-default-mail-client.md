@@ -6,7 +6,7 @@ keywords: e-mail, indstillinger, e-mailklient
 author: SuperOffice RnD
 date: 06.29.2022
 language: da
-topic: howto
+content_type: howto
 ---
 
 # Skift standard e-mailklient i SuperOffice

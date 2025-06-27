@@ -5,7 +5,7 @@ description: Tilføj billeder
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Marketing
-topic: howto
+content_type: howto
 language: da
 ---
 

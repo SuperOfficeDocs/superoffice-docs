@@ -6,7 +6,7 @@ keywords: formular, dobbelt tilmelding, tilmelding, nyhedsbrev
 author: Bergfrid Dias
 date: 03.11.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

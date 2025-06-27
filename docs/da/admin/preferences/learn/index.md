@@ -5,7 +5,7 @@ description: Administratorer kan indstille præferencer for forskellige funktion
 keywords: indstillinger, præferencer
 author: Bergfrid Dias
 date: 02.28.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

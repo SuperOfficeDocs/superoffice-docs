@@ -5,7 +5,7 @@ description: Tilføjelse af forekomster til listen for menuen Opgave
 keywords: menuen Opgave
 author: SuperOffice RnD
 date: 01.11.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

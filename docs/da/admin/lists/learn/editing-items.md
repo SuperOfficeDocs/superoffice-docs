@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du redigerer en forekomst.
 keywords: forekomst, lister
 author: SuperOffice RnD
 date: 02.28.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

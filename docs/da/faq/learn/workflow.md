@@ -5,7 +5,7 @@ description: Faser i Workflow
 keywords: FAQ
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

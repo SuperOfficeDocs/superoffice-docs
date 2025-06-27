@@ -5,7 +5,7 @@ description: Tilføjelse af FAQ-poster til meddelelser
 keywords: FAQ
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

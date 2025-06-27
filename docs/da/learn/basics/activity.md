@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 01.17.2025
 version: 10.5
 keywords: aktivitet
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

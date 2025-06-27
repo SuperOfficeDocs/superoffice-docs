@@ -5,7 +5,7 @@ description: Kommuniker med og hjælp eksisterende eller potentielle kunder via 
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat
-topic: concept
+content_type: concept
 language: da
 ---
 

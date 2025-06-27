@@ -5,7 +5,7 @@ description: Sådan arkiveres e-mails på firmaer/personer
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-mail
-topic: howto
+content_type: howto
 language: da
 ---
 

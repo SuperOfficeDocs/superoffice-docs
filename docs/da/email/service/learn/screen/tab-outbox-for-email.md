@@ -5,7 +5,7 @@ description: Udbakke til e-mail
 keywords: e-mail
 author: SuperOffice RnD
 date: 06.29.2022
-topic: reference
+content_type: reference
 language: da
 ---
 

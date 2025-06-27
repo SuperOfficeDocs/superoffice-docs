@@ -5,7 +5,7 @@ description: Synlig for
 keywords: synlighed, user, rolle, tilgængelig
 author: SuperOffice RnD
 date: 03.07.2023
-topic: concept
+content_type: concept
 language: da
 ---
 

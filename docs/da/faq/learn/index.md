@@ -5,7 +5,7 @@ description: dokument faq
 keywords: FAQ
 author: Bergfrid Dias
 date: 03.14.2023
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person

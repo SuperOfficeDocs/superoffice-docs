@@ -6,7 +6,7 @@ keywords: tag sag, tilføj tag, fjern tag, tagging, tag, sag
 author: Bergfrid Dias
 date: 07.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

@@ -5,7 +5,7 @@ description: Muligheden for at holde styr på dine salgsmuligheder er en af nøg
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: salg
-topic: concept
+content_type: concept
 language: da
 ---
 

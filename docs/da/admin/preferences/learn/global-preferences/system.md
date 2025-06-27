@@ -6,7 +6,7 @@ keywords: præferencer, indstillinger, generelle
 author: SuperOffice RnD
 date: 03.22.2024
 version: 10
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

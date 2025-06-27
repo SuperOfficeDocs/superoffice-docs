@@ -5,7 +5,7 @@ description: Få mere at vide om, hvordan du ændrer listerne over personbeskytt
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: personbeskyttelse, samtykke
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

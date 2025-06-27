@@ -6,7 +6,7 @@ keywords: konfigurere quote connector, tilføj quote connector, tilføj ERP-link
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

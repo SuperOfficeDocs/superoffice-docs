@@ -5,7 +5,7 @@ description: Konfigurering af SOAP-grænseflade
 keywords: Tjeneste, SOAP
 author: SuperOffice RnD
 date: 03.23.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 envir: onsite

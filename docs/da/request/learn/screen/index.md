@@ -5,7 +5,7 @@ description: Sagsskærmbillede
 author: Hanne Gunnarsson
 date: 03.29.2023
 keywords: sag
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

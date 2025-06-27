@@ -5,7 +5,7 @@ description: Videnbase
 author: SuperOffice RnD
 date: 03.24.2023
 keywords: sag, vidensbase
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

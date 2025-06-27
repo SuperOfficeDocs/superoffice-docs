@@ -5,7 +5,7 @@ description: Knappen Tilføj funktion til opgave
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: makro, opgave, handlinger
-topic: howto
+content_type: howto
 language: da
 ---
 

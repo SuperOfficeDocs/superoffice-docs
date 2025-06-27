@@ -5,7 +5,7 @@ description: Sådan tilføjes, redigeres og slettes præferenceindstillinger.
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: præference, indstilling
-topic: howto
+content_type: howto
 language: da
 ---
 

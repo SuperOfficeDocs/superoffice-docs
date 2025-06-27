@@ -6,7 +6,7 @@ keywords: prisliste, tilføj produkt, konfigurer produkt, produktbillede, deakti
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance

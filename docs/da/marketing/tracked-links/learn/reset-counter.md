@@ -6,7 +6,7 @@ keywords: Marketing
 author: Bergfrid Dias
 date: 02.23.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

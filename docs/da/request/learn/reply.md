@@ -6,7 +6,7 @@ keywords: svar på sag, svar, svar til alle, tilføj meddelelse, tilføj komment
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 03.11.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

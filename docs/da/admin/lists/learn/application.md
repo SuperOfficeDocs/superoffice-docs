@@ -5,7 +5,7 @@ description: Program
 keywords: listen GUI – Applikation
 author: SuperOffice RnD
 date: 02.28.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

@@ -6,7 +6,7 @@ keywords: flyt person, vedligehold personer, handling på person, kontaktperson,
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

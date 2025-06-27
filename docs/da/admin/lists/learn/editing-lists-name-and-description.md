@@ -5,7 +5,7 @@ description: Ændring af navn og beskrivelse på en liste
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: liste, abonnementstype
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

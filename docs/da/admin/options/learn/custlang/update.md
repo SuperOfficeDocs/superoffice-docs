@@ -5,7 +5,7 @@ description: Få mere at vide om i denne guide, hvordan du konfigurerer kundespr
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: sprog
-topic: howto
+content_type: howto
 language: da
 ---
 

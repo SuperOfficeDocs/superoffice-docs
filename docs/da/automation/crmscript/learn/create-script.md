@@ -5,7 +5,7 @@ description: Opret et script
 author: Bergfrid Dias
 date: 03.23.2023
 keywords: script, makro
-topic: howto
+content_type: howto
 language: da
 ---
 

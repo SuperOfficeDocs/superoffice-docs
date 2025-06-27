@@ -5,7 +5,7 @@ description: E-mailskabelon
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-topic: concept
+content_type: concept
 language: da
 ---
 

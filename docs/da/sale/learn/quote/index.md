@@ -6,7 +6,7 @@ keywords: Tilbud-detaljekort, Tilbud-fane, salg, forslag, tilbudsalternativ, til
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: concept
+content_type: concept
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM

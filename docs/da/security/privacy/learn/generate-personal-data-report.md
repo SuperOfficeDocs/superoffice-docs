@@ -5,7 +5,7 @@ description: Generer persondatarapport
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: firma
-topic: howto
+content_type: howto
 language: da
 ---
 

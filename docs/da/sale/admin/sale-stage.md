@@ -6,7 +6,7 @@ keywords: tilføj salgsfase, ny salgsfase, Salg – Fase-liste, salgsfase, fase,
 author: SuperOffice RnD
 date: 03.07.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

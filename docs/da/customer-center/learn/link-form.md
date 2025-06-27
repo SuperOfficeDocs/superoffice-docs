@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du bruger en webformular.
 keywords: formular, Kundecenter
 author: Bergfrid Dias
 date: 03.20.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

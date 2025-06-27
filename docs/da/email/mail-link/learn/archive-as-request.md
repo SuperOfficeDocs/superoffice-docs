@@ -5,7 +5,7 @@ description: Få flere oplysninger om, hvordan du arkiverer mails som anmodninge
 keywords: Mail Link
 author: SuperOffice RnD
 date: 03.14.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.29.2024
 version: 10
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

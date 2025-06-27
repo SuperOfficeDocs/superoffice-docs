@@ -5,7 +5,7 @@ description: Kundecenter-kildefiler
 keywords: Kundecenter, CEP
 author: Bergfrid Dias
 date: 03.16.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

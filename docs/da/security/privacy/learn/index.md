@@ -5,7 +5,7 @@ description: personbeskyttelse
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: personbeskyttelse, GDPR, e-markedsføring, samtykke
-topic: concept
+content_type: concept
 language: da
 ---
 

@@ -5,7 +5,7 @@ description: Med SuperOffice CRM kan du vælge at gemme og dele dine mails på f
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: e-mail, indbakke
-topic: concept
+content_type: concept
 language: da
 ---
 

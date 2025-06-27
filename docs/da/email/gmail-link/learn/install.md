@@ -5,7 +5,7 @@ description: Få flere oplysninger om, hvordan du installerer browserudvidelsen 
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, e-mail
-topic: howto
+content_type: howto
 language: da
 ---
 
