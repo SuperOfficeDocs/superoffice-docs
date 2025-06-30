@@ -2,7 +2,7 @@
 title: Transaction log format
 uid: travel_transaction_log_format
 description: Travel transaction log format
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database, travel
 content_type: reference
 date:

@@ -2,7 +2,7 @@
 title: Mirroring Task
 uid: mirroring_task
 description: About the database Mirroring Task
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: Mirroring Task, mirror
 content_type: concept
 envir: cloud

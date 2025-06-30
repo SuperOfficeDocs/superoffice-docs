@@ -2,7 +2,7 @@
 title: How to get a system user ticket credential
 uid: get_system_user_ticket
 description: How to exchange a system user token for a system user ticket
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: authentication, soap, system user
 content_type: howto

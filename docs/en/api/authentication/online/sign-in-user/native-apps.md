@@ -2,7 +2,7 @@
 title: OpenID Connect native apps
 uid: oidc_native_apps
 description: OpenID Connect native apps
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

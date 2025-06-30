@@ -2,7 +2,7 @@
 uid: create_prototype_builtin
 title: Create prototype for built-in travel database
 description: Create a prototype for the built-in travel database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: howto

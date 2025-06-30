@@ -2,7 +2,7 @@
 title: Web parts in ASP.net 2.0
 uid: web_parts
 description: SuperOffice NetServer services and web parts in ASP.Net 2.0
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept

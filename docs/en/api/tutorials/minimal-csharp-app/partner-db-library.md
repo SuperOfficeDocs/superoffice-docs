@@ -2,7 +2,7 @@
 title: Customer data source
 uid: partner_db_library
 description: Customer data source
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

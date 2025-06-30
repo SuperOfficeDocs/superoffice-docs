@@ -2,7 +2,7 @@
 title: Add new scim rule
 uid: add_scim_rule
 description:
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto

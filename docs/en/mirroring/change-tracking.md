@@ -2,7 +2,7 @@
 title: SQL Server change tracking
 uid: mirroring_track_changes
 description: SQL Server change tracking
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

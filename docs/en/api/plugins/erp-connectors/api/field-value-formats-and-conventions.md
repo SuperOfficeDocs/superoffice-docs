@@ -2,7 +2,7 @@
 title: Field-value formats and conventions
 uid: erp_field_value_formats_and_conventions
 description: ERP field-value formats and conventions
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

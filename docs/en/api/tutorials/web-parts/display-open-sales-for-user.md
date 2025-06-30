@@ -2,7 +2,7 @@
 title: Display the open sales of this user in web parts
 uid: display_open_sales_for_user
 description: Display the open sales of this user in web parts
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto

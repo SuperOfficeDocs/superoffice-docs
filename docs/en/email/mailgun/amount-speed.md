@@ -2,7 +2,7 @@
 title: Mailgun - amount and speed
 uid: mailgun_amount_speed
 description: Mailgun - amount and speed
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

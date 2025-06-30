@@ -2,7 +2,7 @@
 uid: area_management_terminology
 title: terminology
 description: Area Management definitions
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

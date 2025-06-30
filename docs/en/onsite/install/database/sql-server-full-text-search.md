@@ -2,7 +2,7 @@
 title: Full-text search
 uid: sql_server_full_text_search
 description: SQL server native full-text search
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: howto
 envir: onsite

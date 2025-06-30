@@ -2,7 +2,7 @@
 title: Guide to initial SCIM configuration
 uid: scimsetup_guide
 description: Guide to initial SCIM configuration
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto

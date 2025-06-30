@@ -2,7 +2,7 @@
 title: Erp Sync engine operation
 uid: erp_sync_operation
 description: ERP sync engine operation
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

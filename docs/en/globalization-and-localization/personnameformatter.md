@@ -2,7 +2,7 @@
 title: Person name formatter
 uid: globalization_personnameformatter
 description: Localization, class PersonNameFormatter
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: reference
 keywords:

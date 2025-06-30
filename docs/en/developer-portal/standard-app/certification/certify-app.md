@@ -2,7 +2,7 @@
 title: Start certification
 uid: start_certification
 description: Submit standard app for certification
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

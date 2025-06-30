@@ -2,7 +2,7 @@
 title: Set up
 uid: set_up_sql_express_travel
 description: MSDE / SQL express as travel database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: travel
 date:
 content_type: howto

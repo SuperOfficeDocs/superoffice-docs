@@ -2,7 +2,7 @@
 title: Query the transaction log
 uid: query_transaction_log
 description: How to query the transaction log - keeping track of changes
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: database,travel
 content_type: howto

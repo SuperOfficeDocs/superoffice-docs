@@ -3,7 +3,7 @@ uid: expander_services_developer_tools
 title: Development Tools - contents and usage
 description: Development Tools is a subscription-based license part of Expander Services and available to all customers.
 keywords: expander services, development tools
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 12.10.2024
 version: 10
 content_type: concept

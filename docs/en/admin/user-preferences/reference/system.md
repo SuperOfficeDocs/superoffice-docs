@@ -2,7 +2,7 @@
 title: System
 uid: pref_system
 description: Preference section System
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 12.10.2024
 keywords: database
 topic: reference

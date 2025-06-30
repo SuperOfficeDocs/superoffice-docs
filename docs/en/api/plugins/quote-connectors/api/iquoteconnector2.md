@@ -2,7 +2,7 @@
 title: IQuoteConnector2
 uid: i_quote_connector2
 description: IQuoteConnector2
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

@@ -2,7 +2,7 @@
 title: Notification types
 uid: services_soap_notifications
 description: Services SOAP interface notifications
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

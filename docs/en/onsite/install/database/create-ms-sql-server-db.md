@@ -2,7 +2,7 @@
 title: Create Microsoft SQL Server
 uid: create_sql_server_db
 description: Create a new Microsoft SQL Server database for SuperOffice onsite
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: howto
 envir: onsite

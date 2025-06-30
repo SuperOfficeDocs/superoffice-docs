@@ -2,7 +2,7 @@
 title: Configure
 uid: configure_pocket_onsite
 description: Pocket CRM config
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 12.08.2021
 keywords: Pocket CRM, NetServer, config
 content_type: howto

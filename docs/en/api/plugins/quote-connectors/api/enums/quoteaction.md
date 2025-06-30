@@ -2,7 +2,7 @@
 title: QuoteAction
 uid: quote_connector_enum_quoteaction
 description: ERP Quote Connector Interface enum - QuoteAction
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

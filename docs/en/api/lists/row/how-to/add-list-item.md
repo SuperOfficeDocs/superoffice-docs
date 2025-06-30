@@ -2,7 +2,7 @@
 title: How to add a list item
 uid: add_list_item
 description: How to add a list item
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: row, list, category, CategoryRow, CategoryGroupLinkRow
 content_type: howto

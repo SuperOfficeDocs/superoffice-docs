@@ -2,7 +2,7 @@
 title: Associates
 uid: pref_associates
 description: Preference section Associates
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

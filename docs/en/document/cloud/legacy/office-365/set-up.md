@@ -2,7 +2,7 @@
 title: Set up
 uid: office-365-set-up
 description: How to set up Microsoft 365 Cloud Office document integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.20.2022
 keywords: Microsoft 365, document
 content_type: howto

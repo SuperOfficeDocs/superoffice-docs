@@ -1,7 +1,7 @@
 ---
 title: SORTS
 description: SuperOffice Remote Travel Server (SORTS)
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

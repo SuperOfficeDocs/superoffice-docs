@@ -2,7 +2,7 @@
 title: SuperOffice Maintenance and Settings
 uid: help-en-admin
 description: SuperOffice Maintenance and Settings
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 ---

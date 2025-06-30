@@ -2,7 +2,7 @@
 title: Authentication
 uid: auth_breaking_changes_7
 description: Changes in SuperOffice 7 - authentication
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: authentication, secret, ticket
 content_type: concept
 envir: onsite

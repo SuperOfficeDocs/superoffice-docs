@@ -2,7 +2,7 @@
 title: FieldReplication
 uid: pref_fieldreplication
 description: Preference section FieldReplication
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

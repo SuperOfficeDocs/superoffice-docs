@@ -2,7 +2,7 @@
 title: Search in ERP
 uid: erp_search
 description: ERP connector search
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: find
 content_type: concept

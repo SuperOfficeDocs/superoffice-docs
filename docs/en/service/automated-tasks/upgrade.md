@@ -2,7 +2,7 @@
 title: Upgrade
 uid: automated_task_upgrade
 description: Automated tasks in Service - upgrade
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
 envir: onsite

@@ -2,7 +2,7 @@
 title: Cached tables
 uid: cached_db_tables
 description: Cached database tables
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 02.22.2022
 keywords: database
 content_type: concept

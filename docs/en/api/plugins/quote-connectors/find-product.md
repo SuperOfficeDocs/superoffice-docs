@@ -2,7 +2,7 @@
 title: Product search provider
 uid: quote_connectors_find_product
 description: Product search provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote,search
 content_type: howto

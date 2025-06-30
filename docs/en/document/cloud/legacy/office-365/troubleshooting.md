@@ -2,7 +2,7 @@
 title: Troubleshooting Microsoft 365
 uid: troubleshooting_office_365
 description: Troubleshooting Microsoft 365 document integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

@@ -2,7 +2,7 @@
 title: Setting data-rights with sentry and user-preferences - COM
 uid: override_sentry_com
 description: Setting data-rights with sentry and user-preferences COM
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 02.06.2007
 keywords:
 content_type: howto

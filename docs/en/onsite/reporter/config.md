@@ -2,7 +2,7 @@
 title: Configure Web Reporter
 uid: config_web_reporter
 description: Configure Web Reporter
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

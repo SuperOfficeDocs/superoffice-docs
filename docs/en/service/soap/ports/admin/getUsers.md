@@ -2,7 +2,7 @@
 title: getUsers
 uid: cs_soap_ports_admin_getusers
 description: Services SOAP interface port admin getUsers
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

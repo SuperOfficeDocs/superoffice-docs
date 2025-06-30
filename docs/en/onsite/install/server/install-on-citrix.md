@@ -2,7 +2,7 @@
 title: Install on Citrix/Terminal server
 uid: install_on_citrix
 description: Install on Citrix/Terminal server
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: install citrix terminal deploy
 content_type: howto
 envir: onsite

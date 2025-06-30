@@ -2,7 +2,7 @@
 title: AppointmentDialog
 uid: pref_appointmentdialog
 description: Preference section AppointmentDialog
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

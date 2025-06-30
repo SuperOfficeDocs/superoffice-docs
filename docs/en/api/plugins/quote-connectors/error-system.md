@@ -2,7 +2,7 @@
 title: Error system
 uid: quote_connector_error_system
 description: ERP Quote Connector Interface error system
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: concept

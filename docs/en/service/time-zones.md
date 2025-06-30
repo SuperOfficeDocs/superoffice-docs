@@ -1,7 +1,7 @@
 ---
 title: Time zones
 description: Time zones in Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 version: 8.4 R02

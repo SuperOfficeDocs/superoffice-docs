@@ -2,7 +2,7 @@
 title: Get SCIM config for Microsoft Entra
 uid: get_scim_config
 description: Get SCIM config for the Microsoft Entra enterprise application
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto

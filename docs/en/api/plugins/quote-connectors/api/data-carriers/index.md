@@ -2,7 +2,7 @@
 title: Data carriers
 uid: quote_connectors_data_cariers
 description: Data carriers for quote
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: concept

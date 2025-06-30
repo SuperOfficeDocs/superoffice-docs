@@ -2,7 +2,7 @@
 title: Change DKIM from the US to the EU
 uid: change_dkim_us_to_eu
 description: How to change DKIM from US to EU
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: email
 content_type: howto
 ---

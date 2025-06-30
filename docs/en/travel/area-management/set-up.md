@@ -2,7 +2,7 @@
 title: Set up Area Management
 uid: set_up_area_management
 description: How to set up Area Management
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

@@ -2,7 +2,7 @@
 title: PocketTasks
 uid: pref_pockettasks
 description: Preference section Pocket Tasks
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 version: 10.0.3

@@ -2,7 +2,7 @@
 title: Typed list providers
 uid: typed_list_providers
 description: Typed list providers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

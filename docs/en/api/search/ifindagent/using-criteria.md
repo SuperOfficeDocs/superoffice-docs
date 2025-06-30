@@ -2,7 +2,7 @@
 title: How to use multiple criteria with the FindAgent
 uid: ifindagent_multi_criteria
 description: How to use multiple criteria with the FindAgent
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: 
 content_type: howto
 date:

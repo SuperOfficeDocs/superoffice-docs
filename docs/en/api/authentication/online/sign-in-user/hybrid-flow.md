@@ -2,7 +2,7 @@
 title: OICD Hybrid flow
 uid: oicd_hybrid_flow
 description: OICD Hybrid flow
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: authentication, OIDC, Hybrid flow
 content_type: concept
 envir: cloud

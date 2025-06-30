@@ -2,7 +2,7 @@
 title: SOAP Sync Service
 uid: erp_arch_soap
 description: ERP connector SOAP Sync Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: soap
 content_type: concept

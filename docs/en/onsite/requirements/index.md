@@ -2,7 +2,7 @@
 title: Requirements
 uid: onsite_system_requirements
 description: System requirements - onsite
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

@@ -2,7 +2,7 @@
 title: NetServer 7 enhancements
 uid: whats_new_70
 description: NetServer 7.0
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 topic: reference

@@ -2,7 +2,7 @@
 title: Upgrade
 uid: upgrade_service
 description: Upgrade SuperOffice Customer Service to SuperOffice Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: onsite

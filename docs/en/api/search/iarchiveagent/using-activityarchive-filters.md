@@ -2,7 +2,7 @@
 title: How to use ActivityArchive filters
 uid: activity_archive_filters 
 description: How to use ActivityArchive filters
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: 
 content_type: howto
 date:

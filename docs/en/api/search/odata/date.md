@@ -2,7 +2,7 @@
 title: Dates
 uid: rest_api_search_dates
 description: REST Web API search dates
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search
 date:
 content_type: howto

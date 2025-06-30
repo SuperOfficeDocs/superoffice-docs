@@ -2,7 +2,7 @@
 title: Securing HTTPS
 uid: secure_https_config
 description: Securing HTTPS configuration on Windows Server
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: security
 content_type: howto
 envir: onsite

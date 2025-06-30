@@ -2,7 +2,7 @@
 title: Authorization Code flow
 uid: auth_code_flow
 description: "Introduction to the Authorization Code flow."
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: oidc
 content_type: concept
 envir: cloud

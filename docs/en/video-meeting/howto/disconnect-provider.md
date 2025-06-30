@@ -2,7 +2,7 @@
 title: Disconetct provider
 uid: disconnect_video_provider
 description: How to disconnect video provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 08.12.2021
 keywords: video meetings
 content_type: howto

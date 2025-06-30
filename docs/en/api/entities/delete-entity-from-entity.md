@@ -2,7 +2,7 @@
 title: Delete an Entity through an Entity
 uid: delete_entity_from_entity
 description: Delete an Entity through an Entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

@@ -2,7 +2,7 @@
 title: Adding numbers
 uid: osql_add_numbers
 description: SuperOffice Objectified SQL - Add numbers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

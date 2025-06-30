@@ -2,7 +2,7 @@
 title: ExtraDataFieldTypeInfo
 uid: quote_connector_carrier_extradatafieldtypeinfo
 description: ERP Quote Connector Interface data carrier - ExtraDataFieldTypeInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

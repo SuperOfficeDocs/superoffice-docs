@@ -2,7 +2,7 @@
 title: Showing fields in GUI or search results
 uid: erp_sync_gui_vs_sync
 description: Showing fields in GUI or search results
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

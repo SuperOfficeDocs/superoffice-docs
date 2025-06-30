@@ -2,7 +2,7 @@
 title: Changes in SuperOffice from 8.0 to 8.1
 uid: changes_80_to_81
 description: Changes in SuperOffice from 8.0 to 8.1
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 envir: onsite

@@ -2,7 +2,7 @@
 title: Prepare Win client computer
 uid: prepare_win_client
 description: Prepare Win client computer
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

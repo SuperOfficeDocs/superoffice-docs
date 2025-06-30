@@ -2,7 +2,7 @@
 title: Join a video meeting
 uid: join_video_meeting
 description: How to join a video meeting
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 08.12.2021
 keywords: video meeting
 content_type: howto

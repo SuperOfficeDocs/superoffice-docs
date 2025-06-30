@@ -2,7 +2,7 @@
 title: How to add members to a static selection using entities layer
 uid: add_members_static_selection_entities
 description: How to add members to a static selection using entities
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,entities
 content_type: howto

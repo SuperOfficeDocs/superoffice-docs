@@ -2,7 +2,7 @@
 title: Price calculations and field changes
 uid: quote_connectors_calculate_price
 description: How to calculate the price on field-changes
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

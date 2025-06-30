@@ -2,7 +2,7 @@
 title: Create an Entity through an Entity
 uid: create_entity_in_entity
 description: Create an Entity through an Entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

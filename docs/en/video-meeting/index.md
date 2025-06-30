@@ -3,7 +3,7 @@ uid: video_meeting_intro
 title: Introduction
 description: Video Meetings for SuperOffice
 keywords: video meeting, template variable
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 12.10.2024
 content_type: concept
 envir: cloud

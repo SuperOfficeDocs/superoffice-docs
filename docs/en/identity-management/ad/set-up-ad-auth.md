@@ -2,7 +2,7 @@
 title: Active Directory authentication
 uid: set_up_ad_auth
 description: How to setup AD authentication
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

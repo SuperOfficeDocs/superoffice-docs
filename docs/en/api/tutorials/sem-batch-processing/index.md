@@ -2,7 +2,7 @@
 title: Background computing and batch processing
 uid: background_computing_and_batch_processing
 description: Background computing and batch processing
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 04.15.2009
 keywords:
 content_type: tutorial

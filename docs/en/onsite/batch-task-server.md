@@ -2,7 +2,7 @@
 title: SuperOffice Batch Task Server
 uid: batch_task_server
 description: SuperOffice Batch Task Server
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: article
 envir: onsite

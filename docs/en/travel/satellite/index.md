@@ -1,7 +1,7 @@
 ---
 title: Satellite overview
 description: Overview of the satellite function
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: tavel
 content_type: concept
 envir: onsite

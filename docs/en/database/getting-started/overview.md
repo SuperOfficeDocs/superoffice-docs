@@ -2,7 +2,7 @@
 title: Overview
 uid: db_overview
 description: An overview of the database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: concept
 # envir:

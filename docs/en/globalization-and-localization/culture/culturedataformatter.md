@@ -2,7 +2,7 @@
 title: CultureDataFormatter
 uid: globalization_culturedataformatter
 description: Localization, class CultureDataFormatter
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: reference
 keywords:

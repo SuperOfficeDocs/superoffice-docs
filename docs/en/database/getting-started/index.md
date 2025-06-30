@@ -2,7 +2,7 @@
 title: Getting started
 uid: db_getting_started
 description: Getting started with SuperOffice database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

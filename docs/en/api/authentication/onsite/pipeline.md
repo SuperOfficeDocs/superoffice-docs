@@ -2,7 +2,7 @@
 title: Authentication pipeline
 uid: auth_pipeline
 description: Authentication pipeline
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 keywords: security, identity, authentication, plugin
 content_type: concept

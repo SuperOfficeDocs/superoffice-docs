@@ -2,7 +2,7 @@
 title: Set-up guide
 uid: setup_guide
 description: SuperOffice set-up guide
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

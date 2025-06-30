@@ -2,7 +2,7 @@
 title: Built-in as Travel database
 uid: set_up_built_in_travel
 description: Built-in as travel database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: travel
 date:
 content_type: howto

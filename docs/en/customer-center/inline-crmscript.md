@@ -2,7 +2,7 @@
 title: Inline CRMScript
 uid: inline_crmscript
 description: Inline CRMScript
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 03.16.2023
 keywords: Customer Center, CEP, CRMScript
 audience: settings

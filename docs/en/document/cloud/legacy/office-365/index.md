@@ -2,7 +2,7 @@
 title: Introduction
 uid: microsoft_365_document_integration
 description: About Microsoft 365 Document Integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

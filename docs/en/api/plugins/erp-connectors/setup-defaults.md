@@ -2,7 +2,7 @@
 title: Setting up default values
 uid: erp_setup_defaults
 description: Setting up ERP Sync defaults
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: howto

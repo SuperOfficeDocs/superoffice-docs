@@ -2,7 +2,7 @@
 title: ErpActor
 uid: erp_api_erpactor
 description: Sync Connector API ErpActor
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: dto
 content_type: reference

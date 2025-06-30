@@ -2,7 +2,7 @@
 title: Check IdP domain
 uid: check_idp_domain
 description: Can I use my domain for federated sign-in?
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

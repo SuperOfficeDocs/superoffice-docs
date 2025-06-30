@@ -2,7 +2,7 @@
 title: Authenticate the user
 uid: authenticate_web_part
 description: Authenticate a user in web parts
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto

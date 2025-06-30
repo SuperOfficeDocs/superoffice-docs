@@ -2,7 +2,7 @@
 title: ERP sync client GUI
 uid: erp_sync_client_gui
 description: ERP sync client GUI
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

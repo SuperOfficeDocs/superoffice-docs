@@ -1,7 +1,7 @@
 ---
 title: install travel gateway
 description: Manual install of travel gateway service
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: howto

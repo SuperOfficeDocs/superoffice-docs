@@ -2,7 +2,7 @@
 title: How to extend the Tooltip service using plugins
 uid: create_tooltip_plugin
 description: How to extend the Tooltip service using plugins
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto

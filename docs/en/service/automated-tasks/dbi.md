@@ -2,7 +2,7 @@
 title: dbi
 uid: automated_task_dbi
 description: Automated tasks in Service - dbi
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
 envir: onsite

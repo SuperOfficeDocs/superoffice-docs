@@ -2,7 +2,7 @@
 title: SuperOffice NuGet packages
 uid: nuget_reference
 description: SuperOffice NuGet packages
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: cloud

@@ -2,7 +2,7 @@
 title: Minimal C# application
 uid: minimal_csharp_app_overview
 description: Minimal C# application
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

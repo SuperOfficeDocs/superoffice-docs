@@ -2,7 +2,7 @@
 title: FieldMetadataInfo
 uid: q1uote_connector_carrier_fieldmetadatainfo
 description: ERP Quote Connector Interface data carrier - FieldMetadataInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

@@ -2,7 +2,7 @@
 title: Preparing IDP login for SharePoint
 uid: prepare_sharepoint_for_set_up
 description: Preparing IDP login for SharePoint integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: SharePoint, Microsoft Entra
 date: 01.15.2024
 content_type: howto

@@ -2,7 +2,7 @@
 title: Deploy
 uid: deploy_webtools
 description: WebTools deployment in a restricted environment
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: WebTools
 content_type: howto
 envir: onsite

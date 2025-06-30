@@ -2,7 +2,7 @@
 title: Address Provider
 uid: address_provider
 description: Address Provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

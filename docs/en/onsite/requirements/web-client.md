@@ -2,7 +2,7 @@
 title: Client requirements
 uid: client_requirements
 description: Client requirements for SuperOffice Web and Win
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference

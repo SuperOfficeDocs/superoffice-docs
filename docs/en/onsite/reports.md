@@ -2,7 +2,7 @@
 title: SuperOffice Reports
 uid: reports
 description: Reports in SuperOffice
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: reports, printing, print
 content_type: reference
 # envir:

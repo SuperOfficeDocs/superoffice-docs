@@ -2,7 +2,7 @@
 title: Restart synchronization
 uid: restart_scim_sync
 description: Restart SCIM synchronization
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.04.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto

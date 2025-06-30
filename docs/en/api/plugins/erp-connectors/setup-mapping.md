@@ -2,7 +2,7 @@
 title: Setting up mapping of fields
 uid: erp_setup_mapping
 description: Setting up ERP Sync field mapping
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: howto

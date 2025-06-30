@@ -2,7 +2,7 @@
 title: SuperOffice.ini
 uid: superoffice_ini
 description: SuperOffice.ini
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 # envir:

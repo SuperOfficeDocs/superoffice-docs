@@ -2,7 +2,7 @@
 title: Security and deployment
 uid: onsite_security
 description: Security and deployment
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

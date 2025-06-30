@@ -2,7 +2,7 @@
 title: GDPR for app developers
 uid: gdpr_developers
 description: GDPR for app developers
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

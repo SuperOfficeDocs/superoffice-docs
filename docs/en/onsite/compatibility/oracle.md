@@ -2,7 +2,7 @@
 title: Oracle versions
 uid: tested_oracle
 description: Tested Oracle versions
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference

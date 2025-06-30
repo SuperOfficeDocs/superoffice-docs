@@ -2,7 +2,7 @@
 title: Link Mobility (PSWinCom)
 uid: pswincom_sms_plugin
 description: Link Mobility (PSWinCom) NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

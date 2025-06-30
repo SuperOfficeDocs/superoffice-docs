@@ -1,7 +1,7 @@
 ---
 title: database
 description: SuperOffice database documentation
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 date: 05.11.2016

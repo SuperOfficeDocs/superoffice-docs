@@ -2,7 +2,7 @@
 title: Create a Row as a property of another entity
 uid: create_row_in_entity
 description: Create a row as a property of another entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

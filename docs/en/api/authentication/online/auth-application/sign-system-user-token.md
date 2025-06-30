@@ -2,7 +2,7 @@
 title: How to sign system user token
 uid: sign_system_user_token
 description: How to sign system user token
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: authentication, system user
 content_type: howto
 envir: cloud

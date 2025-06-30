@@ -2,7 +2,7 @@
 title: Scenario – adding a product
 uid: quote_scenario_add_product
 description: Quote connector scenario - adding a product
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: tutorial

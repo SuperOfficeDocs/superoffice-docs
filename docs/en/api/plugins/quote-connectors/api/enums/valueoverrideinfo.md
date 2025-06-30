@@ -2,7 +2,7 @@
 title: Enum ValueOverrideInfo
 uid: quote_connector_enum_valueoverrideinfo
 description: ERP Quote Connector Interface data carrier - Enum ValueOverrideInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

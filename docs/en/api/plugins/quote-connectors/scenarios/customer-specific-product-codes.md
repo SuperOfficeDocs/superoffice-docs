@@ -2,7 +2,7 @@
 title: Dealing with customer-specific product codes
 uid: quote_scenario_cust_product_codes
 description: Quote connector scenario - dealing with customer-specific product codes
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: tutorial

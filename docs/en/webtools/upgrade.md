@@ -2,7 +2,7 @@
 title: Upgrade
 uid: webtools-upgrade
 description: Upgrade WebTools, Hide download dialog
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: WebTools, upgrade
 content_type: howto
 envir: onsite

@@ -2,7 +2,7 @@
 title: Reasons to customize Mailgun
 uid: reasons_to_customize_mailgun
 description: Reasons to customize Mailgun
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

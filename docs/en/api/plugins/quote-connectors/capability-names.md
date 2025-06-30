@@ -2,7 +2,7 @@
 title: Capability names
 uid: quote_connectors_capability_names
 description: Quote connector capability names
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

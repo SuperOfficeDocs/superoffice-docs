@@ -2,7 +2,7 @@
 title: INSERT
 uid: osql_insert
 description: SuperOffice Objectified SQL - INSERT
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: concept
