@@ -4,7 +4,6 @@ title: Planen von regelmäßige Folgeaufgabe
 description: Planen von regelmäßige Folgeaufgabe
 author: Bergfrid Dias
 keywords: Wiederkehrende Folgeaufgabe, Wiederkehrendes Meeting, Wiederkehrender Termin, Wiederholen, Erneuern, Meetingfrequenz, Folgeaufgabenmuster, Meetingserie, Kalender, Folgeaufgabe, Wiederholung, regelmäßig, planen
-author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
 topic: howto
