@@ -5,7 +5,7 @@ description: Quote connector capability names
 author: {github-id}
 date:
 keywords: quote
-topic: reference
+content_type: reference
 ---
 
 # Capability names

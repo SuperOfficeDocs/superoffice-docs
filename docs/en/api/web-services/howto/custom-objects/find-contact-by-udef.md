@@ -5,7 +5,7 @@ description: Find a contact using a user-defined field
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, FindAgent, GetSpecifiedCriteriaInformationWithDefaults
-topic: howto
+content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

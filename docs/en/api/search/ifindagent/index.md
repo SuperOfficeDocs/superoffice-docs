@@ -3,7 +3,7 @@ title: ifindagent
 description: IFindAgent
 author: {github-id}
 keywords: search
-topic: howto
+content_type: howto
 date:
 category: search
 area: api-services

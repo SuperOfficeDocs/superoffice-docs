@@ -5,7 +5,7 @@ description: NetServer configuration used to access the SuperOffice documents.
 keywords: config, NetServer, web.config, Documents, ArchiveDomain, ArchivePath, ArchivePassword, ArchiveUser, BufferSize, CanCreateDocumentTemplates, ImpersonateUser, TemplatePath, TemporaryPath, SO_ARC
 date: 06.18.2024
 author: Bergfrid Dias, Eivind Fasting
-topic: reference
+content_type: reference
 envir: onsite
 audience: api
 audience_tooltip: SuperOffice APIs and database

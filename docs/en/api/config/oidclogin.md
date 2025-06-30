@@ -5,7 +5,7 @@ description: NetServer utility class to get access to values related to CRM OIDC
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, OidcLogin, OIDC
-topic: reference
+content_type: reference
 envir: cloud
 ---
 

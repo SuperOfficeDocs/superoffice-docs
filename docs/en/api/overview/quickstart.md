@@ -5,7 +5,7 @@ description: Quick-start for the SuperOffice APIs
 author: Eivind Fasting
 date: 10.05.2023
 keywords: API, getting started, REST
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: web, service
 ---

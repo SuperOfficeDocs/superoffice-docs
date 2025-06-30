@@ -5,7 +5,7 @@ description: How to add members to a static selection using OSQL
 author: {github-id}
 date: 05.11.2016
 keywords: search,osql,selectionmember
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

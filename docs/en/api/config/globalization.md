@@ -5,7 +5,7 @@ description: NetServer configuration used to access the Globalization section in
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Globalization, ApplicationCountryCode, AllwaysUseGsmPhoneStyle, UseApplicationCountryForPersons
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

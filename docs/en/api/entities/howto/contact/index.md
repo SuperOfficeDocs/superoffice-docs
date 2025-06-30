@@ -5,7 +5,7 @@ description: Working with contacts (person) in API with entities.
 keywords: person, contact, entity, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: reference
+content_type: reference
 ---
 
 # Contact - entity

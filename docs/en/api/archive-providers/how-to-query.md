@@ -5,7 +5,7 @@ description: How to perform an archive provider query
 author: Tony Yates
 date: 11.17.2017
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

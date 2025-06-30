@@ -5,7 +5,7 @@ description: SuperOffice can support multiple time zones
 author: Bergfrid Dias
 date: 11.19.2021
 keywords: timezone, date, timeanddate
-topic: concept 
+content_type: concept 
 ---
 
 # SOTimezone

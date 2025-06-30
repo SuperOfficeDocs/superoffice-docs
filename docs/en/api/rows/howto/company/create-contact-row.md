@@ -5,7 +5,7 @@ description: Create a contact row
 keywords: company, contact, API, row, ContactRow
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # Create a contact row

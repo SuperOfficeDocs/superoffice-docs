@@ -5,7 +5,7 @@ description: MailProtocol helper
 author: Tony Yates
 date: 06.24.2016
 keywords: somail
-topic: concept
+content_type: concept
 client: web
 envir: onsite
 ---

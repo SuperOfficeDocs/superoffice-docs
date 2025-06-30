@@ -5,7 +5,7 @@ description: NetServer configuration for the Web client CssSprite generator.
 date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, CssSprite, paths, MaxHeight
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

@@ -5,7 +5,7 @@ description: How to create a managed document plugin
 author: Tony Yates
 date: 06.03.2006
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

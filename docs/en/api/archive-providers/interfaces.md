@@ -4,7 +4,7 @@ uid: archive_provider_interface
 description: Interface definition and composition
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

@@ -6,7 +6,7 @@ keywords: sale, SAINT, API, SQL, countervalue
 author: Bergfrid Skaara Dias
 date: 06.09.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Search for a contact with a given saint value

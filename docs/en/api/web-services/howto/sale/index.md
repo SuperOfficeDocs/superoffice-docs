@@ -6,7 +6,7 @@ keywords: sale, API, web services
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Sale - web services

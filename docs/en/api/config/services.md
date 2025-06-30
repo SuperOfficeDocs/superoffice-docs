@@ -5,7 +5,7 @@ description: NetServer Services element
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Services, web services, ApplicationToken, DefaultMode, RemoteBaseURL, SwitchDefault, SwitchFailover
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

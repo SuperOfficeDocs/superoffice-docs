@@ -5,7 +5,7 @@ description: AssociateCache
 author: Bergfrid Dias
 date: 02.22.2022
 keywords: cache, list, AssociateCache
-topic: concept
+content_type: concept
 ---
 
 # AssociateCache

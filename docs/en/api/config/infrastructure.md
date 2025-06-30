@@ -5,7 +5,7 @@ description: NetServer configuration values related to Online Infrastructure.
 date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Infrastructure
-topic: reference
+content_type: reference
 envir: online
 ---
 

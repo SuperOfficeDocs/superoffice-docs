@@ -5,7 +5,7 @@ description: Entity collections
 author: AnthonyYates
 date: 11.16.2021
 keywords: data access, entity, entities, RDB
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

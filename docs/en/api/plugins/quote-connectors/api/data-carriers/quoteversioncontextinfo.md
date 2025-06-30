@@ -4,7 +4,7 @@ uid: quote_connector_carrier_quoteversioncontextinfo
 description:  ERP Quote Connector Interface data carrier - QuoteVersionContextInfo
 date:
 keywords: quote
-topic: reference
+content_type: reference
 ---
 
 # QuoteVersionContextInfo

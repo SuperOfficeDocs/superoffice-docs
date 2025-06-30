@@ -5,7 +5,7 @@ description: "The SuperOffice web services are the highest level for working wit
 author: Bergfrid Dias, AnthonyYates
 date: 03.28.2022
 keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, SuperOffice.CRM.Services, DTO, carrier
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

@@ -4,7 +4,7 @@ uid: archiveagent_multi_criteria
 description: How to use multiple criteria with the ArchiveAgent
 author: {github-id}
 keywords: 
-topic: howto
+content_type: howto
 date:
 category: 
 area: api-services

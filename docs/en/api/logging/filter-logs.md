@@ -5,7 +5,7 @@ description: How to filter NetServer logs.
 author: xt1
 date: 05.07.2021
 keywords: logging
-topic: howto
+content_type: howto
 ---
 
 # Filtering the logs

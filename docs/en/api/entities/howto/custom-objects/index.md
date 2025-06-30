@@ -5,7 +5,7 @@ description: Working with custom fields and entities.
 author: Bergfrid Skaara Dias
 date: 11.05.2021
 keywords: udef, user-defined field, custom field, API
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

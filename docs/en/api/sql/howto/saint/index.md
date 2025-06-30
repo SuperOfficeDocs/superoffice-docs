@@ -6,7 +6,7 @@ keywords: sale, SAINT, counter, API, SQL, statusvalue, countervalue
 author: Bergfrid Skaara Dias
 date: 06.09.2023
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # SAINT - raw SQL

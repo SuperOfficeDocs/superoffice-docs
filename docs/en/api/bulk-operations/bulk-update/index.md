@@ -5,7 +5,7 @@ description: Bulk Update API - How to change large numbers of records in bulk.
 author: Tony Yates
 date: 06.23.2017
 keywords: data-access, bulk-update
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

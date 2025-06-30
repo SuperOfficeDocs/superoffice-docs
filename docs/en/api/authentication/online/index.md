@@ -5,7 +5,7 @@ description: WebAPI authentication CRM Online; introduction to OAuth 2.0 and Ope
 author: AnthonyYates
 date: 05.05.2025
 keywords: authentication, OIDC, OAuth, claim, terminology, ID token
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

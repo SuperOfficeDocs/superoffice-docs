@@ -5,7 +5,7 @@ description: How to update the person's picture with the REST API.
 keywords: person, contact, services, API, REST
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Update the person's picture

@@ -6,7 +6,7 @@ keywords: API, web services, endpoints, WebAPI, REST, Agents
 author: Bergfrid Dias
 date: 05.23.2025
 version: 10
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

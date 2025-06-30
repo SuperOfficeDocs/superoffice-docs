@@ -4,7 +4,7 @@ uid: find_selection_archive_columns
 description: Describes the technique used to populate the criteria dialog columns popup.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: web
 ---

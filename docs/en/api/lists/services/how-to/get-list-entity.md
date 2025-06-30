@@ -3,7 +3,7 @@ title: ws-list-how-to-get-list-entity
 description: How to get list entity via web service APIs
 author: AnthonyYates
 keywords: list,agent
-topic: how-to-guide
+content_type: howto
 date: 03.03.2022
 category: list
 area: api-services

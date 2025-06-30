@@ -5,7 +5,7 @@ description: NetServer WebApi element
 date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, authentication, WebAPI, AuthorizeWithImplicit, AuthorizeWithTicket, AuthorizeWithUsername, CORSEnable, CORSOrigin, CORS, authorize, authentication, security
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

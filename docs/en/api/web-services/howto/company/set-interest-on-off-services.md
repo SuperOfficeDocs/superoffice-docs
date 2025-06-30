@@ -5,7 +5,7 @@ description: How to set an interest on or off for a contact using services
 keywords: contact, company, services, API, interest, ContactAgent, electableMDOListItem
 author: Tony Yates
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # How to set an interest on or off for a contact (services)

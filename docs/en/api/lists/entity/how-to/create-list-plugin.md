@@ -4,7 +4,7 @@ uid: create_list_plugin
 description: Create a plugin list provider
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---
