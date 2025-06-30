@@ -6,7 +6,7 @@ keywords: Marketing, marketingkampagne, udsendelse
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 06.14.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

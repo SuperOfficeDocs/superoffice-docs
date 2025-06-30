@@ -5,7 +5,7 @@ description: Globale præferencer for SuperOffice Service-systemindstillinger
 keywords: Tjeneste, indstillinger, globale præferencer
 author: SuperOffice RnD
 date: 02.28.2025
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

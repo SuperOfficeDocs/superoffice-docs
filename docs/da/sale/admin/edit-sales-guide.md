@@ -6,7 +6,7 @@ keywords: rediger salgsguide, opdater salgsguide, deaktiver salgsguide, salgsgui
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

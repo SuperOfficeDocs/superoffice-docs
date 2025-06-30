@@ -5,7 +5,7 @@ description: Skærmbilledet Licenser i Indstillinger og vedligeholdelse
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: licens, forbrugstjeneste, databaseejer, fanen status
-topic: reference
+content_type: reference
 language: da
 ---
 

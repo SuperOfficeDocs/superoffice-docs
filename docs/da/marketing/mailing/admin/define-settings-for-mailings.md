@@ -6,7 +6,7 @@ keywords: Marketing, indstillinger
 author: SuperOffice RnD
 date: 02.12.2024
 version: 10
-topic: howto
+content_type: howto
 language: da
 envir: onsite
 audience: person

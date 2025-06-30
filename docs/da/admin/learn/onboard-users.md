@@ -5,7 +5,7 @@ description: Introduktion til administration af SuperOffice.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: admin, Indstillinger og vedligeholdelse
-topic: howto
+content_type: howto
 language: da
 ---
 # Få dine brugere med om bord

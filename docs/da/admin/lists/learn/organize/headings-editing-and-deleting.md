@@ -5,7 +5,7 @@ description: Redigering og sletning af overskrifter
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-topic: howto
+content_type: howto
 language: da
 ---
 

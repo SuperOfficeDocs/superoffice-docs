@@ -5,7 +5,7 @@ description: Import
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: importer
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

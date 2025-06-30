@@ -5,7 +5,7 @@ description: Live Chat er en populær måde for dine kunder og kundeemner at kom
 keywords: chat
 author: SuperOffice RnD
 date: 02.22.2023
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

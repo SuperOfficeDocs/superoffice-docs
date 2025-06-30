@@ -5,7 +5,7 @@ description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmes
 keywords: chat
 author: SuperOffice RnD
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

@@ -6,7 +6,7 @@ keywords: formular, forudfyldt, forudfyldte felt, felt-id, feltidentifikator
 author: SuperOffice RnD
 date: 03.04.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

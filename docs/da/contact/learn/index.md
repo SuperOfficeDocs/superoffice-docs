@@ -6,7 +6,7 @@ keywords: skærmbilledet Person, kontaktperson, person
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

@@ -5,7 +5,7 @@ description: Før du begynder at konfigurere din SuperOffice CRM-database, så d
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: GDPR, samtykke
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

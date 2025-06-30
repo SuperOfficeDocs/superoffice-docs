@@ -5,7 +5,7 @@ description: Få mere at vide om, hvordan du konfigurerer dit kundecenter, i den
 keywords: Tjeneste, Kundecenter, CEP
 author: SuperOffice RnD
 date: 03.16.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

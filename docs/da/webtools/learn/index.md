@@ -5,7 +5,7 @@ description: Introduktion til SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
 date: 28.05.2025
 keywords: WebTools, dokument, e-mail, Mail Link
-topic: concept
+content_type: concept
 language: da
 ---
 

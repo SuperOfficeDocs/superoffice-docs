@@ -5,7 +5,7 @@ description: Skærmbillede definition
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: skærmbillede definition
-topic: reference
+content_type: reference
 language: da
 ---
 

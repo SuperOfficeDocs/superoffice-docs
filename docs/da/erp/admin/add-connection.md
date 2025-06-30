@@ -6,7 +6,7 @@ keywords: opsæt ERP-synk, tilføj Sync Connector, Sync Connector, tilføj ERP-f
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

@@ -5,7 +5,7 @@ description: SuperOffice Gmail Link-appen forbinder din Gmail-konto med SuperOff
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, e-mail
-topic: concept
+content_type: concept
 language: da
 ---
 

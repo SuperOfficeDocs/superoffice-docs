@@ -5,7 +5,7 @@ description: Gruppering af forekomster under overskrifter
 keywords: brug gruppering, overskrift, listen Overskrifter, listen Forekomster
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da

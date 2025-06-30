@@ -5,7 +5,7 @@ description: Oprettelse af e-mailskabeloner
 keywords: e-mailskabelon, opret e-mailskabeloner, E-mail-link, dokumentskabelon
 author: SuperOffice RnD
 date: 02.28.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

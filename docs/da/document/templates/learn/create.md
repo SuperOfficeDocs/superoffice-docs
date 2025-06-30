@@ -6,7 +6,7 @@ keywords: document template, document, template
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 language: da
 ---
 

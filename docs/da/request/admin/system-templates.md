@@ -5,7 +5,7 @@ description: Systemskabeloner
 keywords: fanen Systemskabeloner, sager, Foretrukne
 author: Hanne Gunnarsson
 date: 03.29.2023
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

@@ -6,7 +6,7 @@ keywords: formular, felt, formularelementer, reCAPTCHA
 author: SuperOffice RnD
 date: 03.11.2024
 version: 10
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

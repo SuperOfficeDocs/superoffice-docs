@@ -6,7 +6,7 @@ keywords: rediger ERP-link, opdater ERP-indstillinger, ændre ERP-link, sync con
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

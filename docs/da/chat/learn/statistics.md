@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du får vist chatstatistikker
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat
-topic: howto
+content_type: howto
 language: da
 ---
 

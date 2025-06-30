@@ -6,7 +6,7 @@ keywords: rediger projekt, opdater projekt, projektstyring, projekt
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
