@@ -34,8 +34,8 @@ Sie können eine Kampagne an alle Personen in einer Selektion senden. Die Kampag
 In SuperOffice CRM wird die Kampagne auf der Bereichsregisterkarte **Kampagnen** im Auswahlbildschirm hinzugefügt, damit Sie den Überblick über alle Kampagnen behalten, die sich auf jede Selektion beziehen.
 
 <!-- Referenced links -->
-[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.yml
-[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.yml
-[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../../marketing/mailing/learn/create/tutorial-email-mailing.md
+[2]: ../../../../marketing/mailing/learn/create/tutorial-sms-mailing.md
+[3]: ../../../../marketing/mailing/learn/create/tutorial-document-mailing.md
 
 <!-- Referenced images -->

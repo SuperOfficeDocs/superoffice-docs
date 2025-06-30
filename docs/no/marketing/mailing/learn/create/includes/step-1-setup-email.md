@@ -33,7 +33,7 @@ Det første trinnet når du skal lage en utsendelse for e-post, kalles **Oppsett
 
 1. Klikk på **Neste** for å gå til neste trinn.
 
-## Validering av e-postdomene (KUN PÅ NETT)
+### Validering av e-postdomene (KUN PÅ NETT)
 
 Hvis administratoren har aktivert **[global preferanse][2]** Du må bare bruke godkjente e-postdomener**, **Fra-adresse**-feltet vil være delt, og du må velge domenet du vil sende fra, i nedtrekksmenyen med godkjente domener.
 Forsøk på å sende fra et domene som ikke har en gyldig SPF-oppføring, vil utløse en advarsel, og du vil ikke kunne sende fra det domenet. Dette gjelder for alle e-postdomener, selv om valideringspreferansen ikke er aktivert.

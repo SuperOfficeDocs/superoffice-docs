@@ -75,10 +75,10 @@ In de vijfde en laatste stap bevestigt en verstuurt of plant u uw mailing. U kun
 * [Werken met gevolgde koppelingen na de mailing][9]
 
 <!-- Referenced links -->
-[1]: tutorial-email-mailing.yml
-[2]: tutorial-sms-mailing.yml
-[3]: tutorial-document-mailing.yml
-[4]: tutorial-form-mailing.yml
+[1]: tutorial-email-mailing.md
+[2]: tutorial-sms-mailing.md
+[3]: tutorial-document-mailing.md
+[4]: tutorial-form-mailing.md
 [10]: send-test-email.md
 [5]: ../../admin/define-settings-for-mailings.md
 [7]: ../view-statistics.md

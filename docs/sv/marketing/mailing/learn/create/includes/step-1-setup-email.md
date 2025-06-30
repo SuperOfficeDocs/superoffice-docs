@@ -33,7 +33,7 @@ Det första steget för att skapa ett e-postutskick är att **konfigurera** utsk
 
 1. Klicka på **Nästa** när du vill gå vidare till nästa steg.
 
-## Validering av e-postdomän (ENDAST ONLINE)
+### Validering av e-postdomän (ENDAST ONLINE)
 
 Om administratören har aktiverat den [globala inställningen][2] **Använd endast godkända e-postdomäner** delas fältet **Från adress** upp och du måste välja den domän du vill skicka från i listrutan över godkända domäner.
 Om du försöker skicka från en domän som inte har en giltig SPF-post visas en varning och du kan inte skicka från den domänen. Detta gäller för alla e-postdomäner även om valideringsinställningen inte är aktiverad.

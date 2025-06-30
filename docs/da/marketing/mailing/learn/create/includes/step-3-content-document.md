@@ -17,7 +17,7 @@ I trinnet **Indhold** kan du redigere dokumentets udseende og indhold.
 
 8. Klik på **Næste** for at gå til det næste trin.
 
-## Anvende skabelonvariabler
+### Anvende skabelonvariabler
 
 Du kan bruge  [skabelonvariabler][1] fra SuperOffice CRM i dit dokument til at indsætte kundespecifikke oplysninger. Det giver meddelelsen et mere personligt præg.
 

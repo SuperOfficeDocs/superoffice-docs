@@ -7,13 +7,13 @@ I det sista steget, **Bekräfta**, kan du se en sammanfattning för utskicket oc
 > [!NOTE]
 > Utskicksalternativen är inaktiverade om några steg är ofullständiga eller information saknas i utskicket. Dessa anges i rött.
 
-## Skicka utskicket nu
+### Skicka utskicket nu
 
 Klicka på **Skicka nu** och generera ett PDF-dokument. Ett PDF-dokument genereras. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
 Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik för utskicket][1].
 
-## <a id="open-and-print-the-document"></a>Öppna och skriv ut dokumentet
+### <a id="open-and-print-the-document"></a>Öppna och skriv ut dokumentet
 
 1. Välj fliken **Utskick**.
 2. Leta rätt på dokumentet, klicka på <i class="ph ph-list" aria-label="Task menu"></i> och välj **Visning**.
