@@ -5,7 +5,7 @@ description: Einstellungen für Gmail Link bearbeiten
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
-topic: reference
+content_type: reference
 language: de
 ---
 

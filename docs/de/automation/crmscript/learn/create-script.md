@@ -5,7 +5,7 @@ description: Ein Skript erstellen
 author: Bergfrid Dias
 date: 03.23.2023
 keywords: Skript, Makro
-topic: howto
+content_type: howto
 language: de
 ---
 

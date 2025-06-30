@@ -5,7 +5,7 @@ description: Objekte unter Überschriften gruppieren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-topic: help
+content_type: howto
 language: de
 ---
 

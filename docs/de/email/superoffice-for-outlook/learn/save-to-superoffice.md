@@ -6,7 +6,7 @@ keywords: SuperOffice für Outlook, Outlook, E-Mail archivieren, E-Mail, speiche
 author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 audience: person

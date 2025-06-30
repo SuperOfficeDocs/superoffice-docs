@@ -5,7 +5,7 @@ description: So erkennen und beheben Sie Probleme bei der Verwendung von SuperOf
 keywords: Dokumentvorlage, Vorlagenvariable, Dokument
 author: Bergfrid Dias
 date: 07.16.2024
-topic: howto
+content_type: howto
 language: de
 ---
 

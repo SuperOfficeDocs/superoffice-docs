@@ -5,7 +5,7 @@ description: Bezeichnungen zurücksetzen
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: Bezeichnung
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -5,7 +5,7 @@ description: Wie man neue Kunden über einen Chat mit SuperOffice verknüpft.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Chat, Person
-topic: howto
+content_type: howto
 language: de
 ---
 

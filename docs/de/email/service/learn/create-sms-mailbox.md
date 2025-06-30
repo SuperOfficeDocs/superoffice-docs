@@ -5,7 +5,7 @@ description: SMS-Postfach erstellen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: E-Mail
-topic: howto
+content_type: howto
 language: de
 ---
 

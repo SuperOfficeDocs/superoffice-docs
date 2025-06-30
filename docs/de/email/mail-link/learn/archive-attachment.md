@@ -5,7 +5,7 @@ description: "Wenn Sie einen E-Mail-Anhang, nicht aber die E-Mail in SuperOffice
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-Link, E-Mail, Anlage
-topic: howto
+content_type: howto
 language: de
 ---
 

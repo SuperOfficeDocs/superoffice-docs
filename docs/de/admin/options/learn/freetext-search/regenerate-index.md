@@ -5,7 +5,7 @@ description: Volltextindex neu generieren
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: Volltext, Suchindex
-topic: howto
+content_type: howto
 language: de
 envir: onsite
 ---

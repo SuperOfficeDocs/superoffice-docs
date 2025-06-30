@@ -5,7 +5,7 @@ description: Zusatztabellen und Felder
 author: Bergfrid Dias
 date: 01.30.2024
 keywords: 
-topic: howto
+content_type: howto
 language: de
 redirect_url: https://docs.superoffice.com/de/custom-objects/learn/extra-table.html
 ---

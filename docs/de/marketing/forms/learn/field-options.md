@@ -6,7 +6,7 @@ keywords: Formular, Feld, Feldoption, Formularelement, Ansichtselement
 author: SuperOffice RnD
 date: 03.18.2024
 version: 10
-topic: reference
+content_type: reference
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

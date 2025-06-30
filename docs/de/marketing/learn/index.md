@@ -6,7 +6,7 @@ keywords: Marketing
 author: SuperOffice RnD
 date: 05.31.2024
 version: 10.3.5
-topic: concept
+content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

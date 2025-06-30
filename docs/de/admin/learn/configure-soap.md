@@ -5,7 +5,7 @@ description: SOAP-Schnittstelle konfigurieren
 author: SuperOffice RnD
 date: 03.23.2023
 keywords: Service, SOAP
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 envir: onsite

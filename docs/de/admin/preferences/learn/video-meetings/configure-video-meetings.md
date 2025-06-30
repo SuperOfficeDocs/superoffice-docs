@@ -5,7 +5,7 @@ description: An Videokonferenzen teilnehmen
 author: SuperOffice RnD
 date: 03.20.2023
 keywords: Videokonferenz, Einladung
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

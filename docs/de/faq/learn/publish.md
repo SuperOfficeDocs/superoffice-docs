@@ -5,7 +5,7 @@ description: FAQ-Einträge veröffentlichen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: FAQ
-topic: help
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

@@ -5,7 +5,7 @@ description: Stoppwörter
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: Volltext, Suchen, Stoppwort
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -5,7 +5,7 @@ description: Personen anrufen; Telefoneinstellungen
 author: SuperOffice RnD
 date: 09.22.2023
 keywords: Kalender, Folgeaufgabe, Telefon, Anruf, Anrufen
-topic: howto
+content_type: howto
 language: de
 ---
 

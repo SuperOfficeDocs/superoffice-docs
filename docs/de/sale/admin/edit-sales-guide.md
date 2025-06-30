@@ -6,7 +6,7 @@ keywords: Verkaufsleitfaden bearbeiten, Verkaufsleitfaden aktualisieren, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

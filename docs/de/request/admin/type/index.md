@@ -6,7 +6,7 @@ keywords: Anfragetyp, Anfragetypliste, Typ, Anfrage
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: servicepremium
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
