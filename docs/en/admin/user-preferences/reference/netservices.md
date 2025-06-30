@@ -1,11 +1,10 @@
 ---
-title: NetServices
 uid: pref_netservices
-uid: prefNetServices
+title: NetServices
 description: Preference section NetServices
-author: {github-id}
 keywords: database
-topic: reference
+author: SuperOffice Product and Engineering
+content_type: reference
 ---
 
 # Preference section: NetServices
