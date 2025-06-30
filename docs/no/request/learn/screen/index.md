@@ -5,7 +5,7 @@ description: Saksbilde
 author: Hanne Gunnarsson
 date: 03.29.2023
 keywords: sak
-topic: reference
+content_type: reference
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

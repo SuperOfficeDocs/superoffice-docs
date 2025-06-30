@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du endrer en brukerplan for aktive
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: bruker, medarbeider
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

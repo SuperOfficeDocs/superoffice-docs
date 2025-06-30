@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du redigerer en listeforekomst.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: listeforekomst
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

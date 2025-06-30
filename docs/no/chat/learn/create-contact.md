@@ -5,7 +5,7 @@ description: Slik kobler du en ny kunde til SuperOffice fra en chat.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat, person
-topic: howto
+content_type: howto
 language: no
 ---
 

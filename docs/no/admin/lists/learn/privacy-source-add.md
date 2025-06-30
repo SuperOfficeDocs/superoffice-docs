@@ -5,7 +5,7 @@ description: Bruk denne veiledningen til å finne ut hvordan du endrer personver
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: personvern, samtykke
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -6,7 +6,7 @@ keywords: ny e-post, skriv melding, skriv e-post, e-postmelding
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

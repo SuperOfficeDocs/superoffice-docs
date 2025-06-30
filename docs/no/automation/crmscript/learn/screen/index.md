@@ -5,7 +5,7 @@ description: Makroer og skript-fanen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: skript, makro
-topic: reference
+content_type: reference
 language: no
 ---
 

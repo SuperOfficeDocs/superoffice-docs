@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du oppretter en importfil ve
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importere, Excel, firma, person, produkt, regneark
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

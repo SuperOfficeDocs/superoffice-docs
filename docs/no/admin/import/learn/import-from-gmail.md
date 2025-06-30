@@ -5,7 +5,7 @@ description: Importere fra Gmail
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger og vedlikehold, importere
-topic: help
+content_type: howto
 language: no
 ---
 

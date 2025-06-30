@@ -5,7 +5,7 @@ description: Ringe personer; Telefonpreferanser
 author: SuperOffice RnD
 date: 09.22.2023
 keywords: dagbok, oppfølging, telefon, samtale, ringe
-topic: howto
+content_type: howto
 language: no
 ---
 

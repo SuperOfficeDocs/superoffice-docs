@@ -5,7 +5,7 @@ description: Fritekstsøk
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: fritekst, søk
-topic: howto
+content_type: howto
 language: no
 ---
 

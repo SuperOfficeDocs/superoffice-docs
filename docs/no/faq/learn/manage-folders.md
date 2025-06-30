@@ -5,7 +5,7 @@ description: Administrere mapper med FAQ-oppføringer
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, mappe
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

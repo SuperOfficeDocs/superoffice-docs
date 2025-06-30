@@ -6,7 +6,7 @@ keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause fl
 author: Bergfrid Dias
 date: 02.17.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

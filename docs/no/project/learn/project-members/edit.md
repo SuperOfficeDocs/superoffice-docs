@@ -6,7 +6,7 @@ keywords: rediger prosjektdeltaker, fjern prosjektdeltaker, prosjektdeltaker, pr
 author: Bergfrid Dias
 date: 01.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

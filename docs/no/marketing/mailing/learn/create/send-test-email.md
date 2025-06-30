@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du sender en testutsendelse.
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Markedsføring
-topic: howto
+content_type: howto
 language: no
 ---
 

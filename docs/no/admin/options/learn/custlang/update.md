@@ -5,7 +5,7 @@ description: Finn ut hvordan du konfigurerer kundespråk i denne guiden.
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: språk
-topic: howto
+content_type: howto
 language: no
 ---
 

@@ -5,7 +5,7 @@ description: Egenskaper for makro-/skriptmappe
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Tjeneste, mappe
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

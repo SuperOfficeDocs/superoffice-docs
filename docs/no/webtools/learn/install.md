@@ -5,7 +5,7 @@ description: "Hvis du bruker Windows OS, trenger du WebTools for å integrere Ou
 author: Bergfrid Dias
 date: 12.04.2023
 keywords: WebTools
-topic: howto
+content_type: howto
 language: no
 ---
 

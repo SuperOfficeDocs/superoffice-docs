@@ -5,7 +5,7 @@ description: "Sende FAQer, svarmaler og hurtigsvar i en chat"
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: chat
-topic: howto
+content_type: howto
 language: no
 ---
 

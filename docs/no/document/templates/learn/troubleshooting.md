@@ -5,7 +5,7 @@ description: Hvordan finne og fikse problemer når du bruker SuperOffice malvari
 keywords: dokumentmal, malvariabel, dokument
 author: Bergfrid Dias
 date: 07.16.2024
-topic: howto
+content_type: howto
 language: no
 ---
 

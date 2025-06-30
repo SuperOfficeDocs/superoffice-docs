@@ -5,7 +5,7 @@ description: "Det er raskt og enkelt å sende dokumenter som er lagret i SuperOf
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: dokument, E-post, vedlegg
-topic: howto
+content_type: howto
 language: no
 ---
 

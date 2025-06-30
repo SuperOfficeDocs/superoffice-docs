@@ -6,7 +6,7 @@ keywords: flytt person, administrer personer, person
 author: Bergfrid Dias
 date: 01.27.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

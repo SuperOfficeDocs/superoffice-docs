@@ -6,7 +6,7 @@ keywords: skriv ut, utskrift
 author: Bergfrid Dias
 date: 01.29.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

@@ -6,7 +6,7 @@ keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfe
 author: Bergfrid Dias
 date: 09.17.2024
 version: 10.3.9
-topic: reference
+content_type: reference
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

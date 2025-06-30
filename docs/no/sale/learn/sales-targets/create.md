@@ -5,7 +5,7 @@ description: "Hold oversikt over budsjettene dine ved å sette opp salgsmål. De
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
-topic: howto
+content_type: howto
 language: no
 ---
 

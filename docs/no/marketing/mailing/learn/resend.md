@@ -5,7 +5,7 @@ description: "Etter at du har håndtert de returnerte e-postene, er det lurt å 
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Markedsføring
-topic: howto
+content_type: howto
 language: no
 ---
 

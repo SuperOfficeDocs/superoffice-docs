@@ -6,7 +6,7 @@ keywords: epost, dokument, kalender, invitasjon
 author: Bergfrid Dias
 date: 08.28.2023
 version: 10
-topic: howto
+content_type: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice CRM

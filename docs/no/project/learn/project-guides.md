@@ -6,7 +6,7 @@ keywords: prosjektguide, guide, arbeidsflyt, prosessstyring, livssyklus, prosjek
 author: Bergfrid Dias
 date: 01.31.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

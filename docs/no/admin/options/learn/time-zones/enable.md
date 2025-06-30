@@ -5,7 +5,7 @@ description: Aktivere tidssoner
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: tidssone
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

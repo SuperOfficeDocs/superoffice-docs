@@ -5,7 +5,7 @@ description: Arkivere innkommende e-post
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link, E-post
-topic: howto
+content_type: howto
 language: no
 ---
 

@@ -6,7 +6,7 @@ keywords: dokumentmal, dokument, mal, tilbud, ordrebekreftelse
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: tutorial
+content_type: tutorial
 language: no
 audience: settings
 audience_tooltip: Settings and maintenance

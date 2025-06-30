@@ -6,7 +6,7 @@ keywords: skjema, dobbel opt-in, påmelding, nyhetsbrev
 author: Bergfrid Dias
 date: 03.06.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

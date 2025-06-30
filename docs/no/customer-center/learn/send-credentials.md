@@ -6,7 +6,7 @@ keywords: Kundesenter
 author: SuperOffice RnD
 date: 12.19.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

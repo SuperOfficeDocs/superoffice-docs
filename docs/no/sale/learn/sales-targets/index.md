@@ -5,7 +5,7 @@ description: Muligheten til å holde oversikt over salgsmulighetene dine er en a
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: salg
-topic: concept
+content_type: concept
 language: no
 ---
 
