@@ -5,7 +5,7 @@ description: Groepen gebruikers importeren uit Active Directory
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: gebruiker, import, medewerker, Active Directory, bulk
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

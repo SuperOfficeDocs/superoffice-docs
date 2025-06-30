@@ -5,7 +5,7 @@ description: Postbussen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: concept
+content_type: concept
 language: nl
 ---
 

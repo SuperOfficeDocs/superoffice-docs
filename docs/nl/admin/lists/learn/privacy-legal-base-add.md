@@ -5,7 +5,7 @@ description: Ontdek hoe u de privacylijsten in deze handleiding kunt wijzigen.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: privacy, toestemming
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

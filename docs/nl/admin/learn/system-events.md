@@ -5,7 +5,7 @@ description: Systeemgebeurtenissen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: gebeurtenis
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

@@ -5,7 +5,7 @@ description: Het direct opslaan van een e-mail als een taak, een afspraak of een
 keywords: Mail-koppeling, e-mail
 author: SuperOffice RnD
 date: 02.10.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

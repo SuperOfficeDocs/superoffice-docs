@@ -5,7 +5,7 @@ description: Klantportaal
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Klantportaal
-topic: concept
+content_type: concept
 language: nl
 ---
 

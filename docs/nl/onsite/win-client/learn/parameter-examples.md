@@ -5,7 +5,7 @@ description: Voorbeelden van parameters
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+content_type: howto
 language: nl
 ---
 

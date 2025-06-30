@@ -5,7 +5,7 @@ description: Snelkoppelingen maken naar items in CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: bedrijf
-topic: help
+content_type: concept
 language: nl
 ---
 

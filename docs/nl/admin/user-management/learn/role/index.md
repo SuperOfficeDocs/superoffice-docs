@@ -5,7 +5,7 @@ description: Rol
 author: Kirsti Aakerholt
 date: 04.19.2023
 keywords: rol, gegevensobject, gebruikersniveau
-topic: concept
+content_type: concept
 audience: admin
 audience_tooltip: Settings and maintenance
 language: nl

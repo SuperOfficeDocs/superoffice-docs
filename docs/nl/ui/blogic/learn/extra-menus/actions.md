@@ -5,7 +5,7 @@ description: Functie toevoegen aan taakknop
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: macro, taak, acties
-topic: howto
+content_type: howto
 language: nl
 ---
 

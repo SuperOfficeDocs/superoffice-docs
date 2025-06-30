@@ -5,7 +5,7 @@ description: Zoekcriteria opgeven
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: vrije tekst, zoeken
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

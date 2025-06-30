@@ -6,7 +6,7 @@ keywords: marketing
 author: Bergfrid Dias
 date: 02.09.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

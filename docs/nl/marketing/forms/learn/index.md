@@ -6,7 +6,7 @@ keywords: formulier, formulierverzending, dubbele opt-in
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

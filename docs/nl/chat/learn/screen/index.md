@@ -5,7 +5,7 @@ description: Chatscherm
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: chatten
-topic: reference
+content_type: reference
 language: nl
 ---
 

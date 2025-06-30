@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een verzoek maakt in SuperOffice 
 keywords: chatten
 author: SuperOffice RnD
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

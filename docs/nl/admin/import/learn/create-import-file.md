@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een importbestand maakt met behul
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: import, Excel, bedrijf, contactpersoon, product, spreadsheet
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

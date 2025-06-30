@@ -5,7 +5,7 @@ description: Meer informatie over het installeren van de e-mailkoppeling/WebTool
 author: Kirsti Aakerholt
 date: 04.12.2023
 keywords: Gmail Link, e-mail
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

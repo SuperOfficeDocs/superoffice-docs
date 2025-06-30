@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 05.21.2024
 version: 10.3.6
 keywords: agenda, vervolgactiviteit, voltooid
-topic: howto
+content_type: howto
 language: nl
 ---
 

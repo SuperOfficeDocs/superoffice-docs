@@ -6,7 +6,7 @@ keywords: e-mail, SuperOffice for Outlook, Outlook, SOFO
 author: Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

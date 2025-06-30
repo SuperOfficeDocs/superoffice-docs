@@ -6,7 +6,7 @@ keywords: licentie, gebruikersplan
 author: SuperOffice RnD
 date: 06.17.2024
 version: 10.3.5
-topic: concept
+content_type: concept
 language: nl
 ---
 

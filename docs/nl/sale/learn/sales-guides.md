@@ -6,7 +6,7 @@ keywords: verkoopgids, gids, workflow, sectietabblad verkoopgids, verkoop
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
