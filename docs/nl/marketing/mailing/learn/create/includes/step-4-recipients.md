@@ -9,7 +9,7 @@ Vanwege de AVG-wetgeving kunnen alleen de personen die toestemming hebben gegeve
 
 ![U kunt uw ontvangers toevoegen uit selectie, project, een enkele persoon of een externe lijst die u moet importeren -screenshot][img3]
 
-## Ontvangers toevoegen uit selecties en projecten
+### Ontvangers toevoegen uit selecties en projecten
 
 U kunt ontvangers toevoegen uit selecties (zowel uit SuperOffice CRM als uit SuperOffice Service) en uit projecten (uit SuperOffice CRM).
 
@@ -26,7 +26,7 @@ U kunt ontvangers toevoegen uit selecties (zowel uit SuperOffice CRM als uit Sup
 > [!NOTE]
 > Als u een selectie hebt geselecteerd onder **Mailing archiveren** in **Instellingen** (stap 1), wordt deze selectie weergegeven onder **Ontvangerbronnen**. U kunt deze selectie verwijderen indien nodig.
 
-## Personen toevoegen uit SuperOffice
+### Personen toevoegen uit SuperOffice
 
 U kunt individuele personen toevoegen uit SuperOffice.
 
@@ -40,13 +40,13 @@ U kunt individuele personen toevoegen uit SuperOffice.
 
 5. Herhaal stap 2-5 om meer personen toe te voegen. Aanvullende personen zullen worden toegevoegd aan dezelfde rij in de lijst **Ontvangerbronnen** en het aantal personen zal worden weergegeven in de kolom **Naam**.
 
-## Een lijst met ontvangers (personen) importeren uit een extern bestand
+### Een lijst met ontvangers (personen) importeren uit een extern bestand
 
 U kunt ontvangers toevoegen aan een mailing door deze te importeren uit een extern, door komma's gescheiden bestand (een .txt-bestand dat is gemaakt in Notepad of een .csv-bestand dat is gemaakt in Excel bijvoorbeeld).
 
 Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice Marketing de geïmporteerde ontvangers in de SuperOffice-database te vinden. Als er overeenkomsten worden gevonden, zullen de bedrijven van de ontvangers worden weergegeven in de kolom **Bedrijf** in de lijst **Ontvangers**. Alle namen/e-mailadressen die **niet** in SuperOffice worden gevonden, worden uitgefilterd en niet opgenomen in de mailing. Dit is het gevolg van de AVG-regelgeving.
 
-### Stappen
+#### Stappen
 
 1. Klik op **Bestand selecteren**.
 
@@ -59,7 +59,7 @@ Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice
 > [!NOTE]
 > Importeren is niet beschikbaar voor documentmailings.
 
-### Opmaak importbestand
+#### Opmaak importbestand
 
 * elke ontvanger moet op een afzonderlijke regel staan (rij).
 
@@ -75,7 +75,7 @@ Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice
 > [!NOTE]
 > Wanneer u alleen het mobiele telefoonnummer hebt en een SMS wilt sturen, kunt u het volgende invoeren: " , , 99887766".
 
-## Opties voor ontvangers
+### Opties voor ontvangers
 
 U kunt bij **Opties** in het onderste deel van het scherm **Ontvangers** opties voor de mailing selecteren op basis van het type.
 
@@ -105,7 +105,7 @@ U kunt bij **Opties** in het onderste deel van het scherm **Ontvangers** opties 
     > [!NOTE]
     > De optie **Voorkeursbedrijf** is alleen beschikbaar als u hierboven **Bedrijven opnemen** hebt geselecteerd.
 
-## Voorbeeldweergave van de mailing bekijken
+### Voorbeeldweergave van de mailing bekijken
 
 Nadat u ontvangers hebt toegevoegd aan de lijst **Ontvangers**, kunt u een voorbeeldweergave van de mailing bekijken om te zien hoe de mailing er voor een ontvanger uitziet. Voorbeeldweergave is niet beschikbaar voor document- en SMS-mailings.
 
@@ -120,7 +120,7 @@ Nadat u ontvangers hebt toegevoegd aan de lijst **Ontvangers**, kunt u een voorb
 
 4. Klik op X om het het venster **Voorbeeldweergave** te sluiten.
 
-## Lijst met ontvangers controleren en bijwerken
+### Lijst met ontvangers controleren en bijwerken
 
 Wanneer u selecties, projecten, contactpersonen en importlijsten toevoegt, wordt de lijst **Ontvangers** automatisch bijgewerkt. Als u **Lijst met ontvangers bijwerken** hebt geselecteerd tijdens het verzenden, worden de projecten en selecties gecontroleerd voordat de mailing wordt verzonden, als contactpersonen zijn toegevoegd, verwijderd of bewerkt.
 

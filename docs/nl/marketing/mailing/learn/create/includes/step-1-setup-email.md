@@ -33,7 +33,7 @@ De eerste stap bij het maken van een mailing per e-mail is **Instellingen**. Hie
 
 1. Klik op **Volgende** om naar de volgende stap te gaan.
 
-## E-maildomeinvalidatie (ALLEEN ONLINE)
+### E-maildomeinvalidatie (ALLEEN ONLINE)
 
 Als uw beheerder de [algemene voorkeur][2] **Alleen goedgekeurde e-maildomeinen gebruiken** heeft geactiveerd, wordt het veld **Van - adres** gesplitst en moet u het domein van waaruit u wilt verzenden selecteren in de vervolgkeuzelijst met goedgekeurde domeinen.
 Als u probeert te verzenden vanuit een domein dat geen geldige SPF-record heeft, wordt er een waarschuwing weergegeven en kunt u niet verzenden vanuit dat domein. Dit geldt voor alle e-maildomeinen, zelfs als de validatievoorkeur niet is geactiveerd.

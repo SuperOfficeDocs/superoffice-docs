@@ -9,13 +9,13 @@ Auf der Anzeige Bestätigen erhalten Sie eine Zusammenfassung der vorherigen unt
 
 ![Auf der Anzeige Bestätigen erhalten Sie eine Zusammenfassung der vorherigen unternommenen Schritte und Sie können Ihre Kampagne entweder versenden oder planen -screenshot][img4]
 
-## Kampagne jetzt senden
+### Kampagne jetzt senden
 
 Klicken Sie auf **Jetzt senden**, um die Kampagne sofort zu senden. Der Workflow wird abgeschlossen und Sie gelangen wieder zur Registerkarte **Kampagnen**.
 
 Klicken Sie auf die Kampagne in der Liste, um sich den Sendestatus und die Statistiken anzeigen zu lassen. [Wie man die Kampagne überwacht und Statistiken anzeigt][1].
 
-## Geplanter Versand
+### Geplanter Versand
 
 Um Ihre E-Mail-Server während der Arbeitszeit nicht zu überlasten, wird empfohlen, die Uhrzeit auf den Abend festzulegen. Diese Option ist für Kampagnen, die bereits gestartet, vorübergehend gestoppt oder beendet wurden, nicht verfügbar.
 
@@ -25,7 +25,7 @@ Um Ihre E-Mail-Server während der Arbeitszeit nicht zu überlasten, wird empfoh
     * Klicken Sie auf **Auf jetzt festlegen**, um das heutige Datum und die aktuelle Uhrzeit einzugeben.
 3. Klicken Sie auf **OK**. Der Workflow wird abgeschlossen und Sie gelangen wieder zur Registerkarte **Kampagnen**.
 
-## Was geschieht jetzt?
+### Was geschieht jetzt?
 
 Durch einen Klick auf die Kampagne in der Liste können sich den [Sendestatus und die Statistiken anzeigen][1] lassen.
 

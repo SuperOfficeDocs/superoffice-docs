@@ -9,7 +9,7 @@ På grunn av GDPR-lovgivningen er det bare personene som har gitt samtykke til �
 
 ![Du kan legge til mottakere fra utvalg, prosjekt, én enkelt person eller en ekstern liste som du må importere -screenshot][img3]
 
-## Legge til mottakere fra utvalg og prosjekter
+### Legge til mottakere fra utvalg og prosjekter
 
 Du kan legge til mottakere fra utvalg (fra både SuperOffice CRM og SuperOffice Service) og prosjekter (fra SuperOffice CRM).
 
@@ -26,7 +26,7 @@ Du kan legge til mottakere fra utvalg (fra både SuperOffice CRM og SuperOffice 
 > [!NOTE]
 > Hvis du gjorde et utvalg under **Arkiver utsendelse** i **Oppsett** (trinn 1), står dette utvalget oppført under **Mottakerkilder**. Du kan slette dette utvalget om nødvendig.
 
-## Legge til personer fra SuperOffice
+### Legge til personer fra SuperOffice
 
 Du kan legge til enkeltpersoner fra SuperOffice.
 
@@ -40,13 +40,13 @@ Du kan legge til enkeltpersoner fra SuperOffice.
 
 5. Gjenta trinn 2-5 for å legge til flere personer. Ytterligere personer vil bli lagt til i samme rad i listen **Mottakerkilder**, og antall personer vises i kolonnen **Navn**.
 
-## Importere en liste over mottakere (personer) fra en ekstern fil
+### Importere en liste over mottakere (personer) fra en ekstern fil
 
 Du kan legge til mottakere i en utsendelse ved å importere dem fra en ekstern kommadelt fil (for eksempel en TXT-fil opprettet i Notepad eller en CSV-fil opprettet i Excel).
 
 Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Marketing å finne de importerte mottakerne i SuperOffice-databasen. Ved eventuelle treff vil mottakernes firmaer stå oppført i **Firma**-kolonnen i listen **Mottakere**. Eventuelle navn/e-postadresser som **ikke** finnes i SuperOfffice, filtreres ut og inkluderes ikke i utsendelsen. Dette skyldes GDPR-bestemmelser.
 
-### Trinn
+#### Trinn
 
 1. Klikk på **Velg fil**.
 
@@ -59,7 +59,7 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
 > [!NOTE]
 > Import er ikke tilgjengelig for utsendelse av dokumenter.
 
-### Importere filformat
+#### Importere filformat
 
 * Hver mottaker må stå på en egen linje (rad).
 
@@ -75,7 +75,7 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
 > [!NOTE]
 > Hvis du bare har mobiltelefonnummeret og skal sende SMS, kan du angi følgende: " , , 99887766".
 
-## Alternativer for mottakere
+### Alternativer for mottakere
 
 Under **Alternativer** i den nedre delen av bildet **Mottakere** kan du velge alternativer for utsendelsen basert på typen.
 
@@ -105,7 +105,7 @@ Under **Alternativer** i den nedre delen av bildet **Mottakere** kan du velge al
     > [!NOTE]
     > Alternativet **Foretrekk firma** er bare tilgjengelig hvis du har valgt **Inkluder firmaer** ovenfor.
 
-## Forhåndsvise utsendelsen
+### Forhåndsvise utsendelsen
 
 Når du har lagt til mottakere i listen **Mottakere**, kan du forhåndsvise utsendelsen slik den vil se ut for en av mottakerne. Forhåndsvisning er ikke tilgjengelig for utsendelse av dokumenter og SMS-er.
 
@@ -120,7 +120,7 @@ Når du har lagt til mottakere i listen **Mottakere**, kan du forhåndsvise utse
 
 4. Klikk på X for å lukke **visningsvinduet**.
 
-## Gå gjennom og oppdatere mottakerlisten
+### Gå gjennom og oppdatere mottakerlisten
 
 Når du legger til utvalg, prosjekter, personer og importerer lister, oppdateres listen **Mottakere** automatisk. Hvis du har valgt **Oppdater mottakerliste ved utsendelse**, vil prosjektene og utvalgene kontrolleres før utsendelsen sendes, i tilfelle personer er lagt til, fjernet eller redigert.
 

@@ -17,7 +17,7 @@ I steget **Innehåll** kan du redigera dokumentets utseende och innehåll.
 
 8. Klicka på **Nästa** när du vill gå vidare till nästa steg.
 
-## Använda mallvariabler
+### Använda mallvariabler
 
 Du kan använda [mallvariabler][1] från SuperOffice CRM i ditt dokument för att infoga kundspecifika uppgifter. Det ger meddelandet en mer personlig prägel.
 

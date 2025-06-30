@@ -24,6 +24,6 @@ To send the same document to all the members of a project, you can use the **Mar
 > In **Step 4: Recipients** you must select the project to add the project members as recipients.
 
 <!-- Referenced links -->
-[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.md
 
 <!-- Referenced images -->

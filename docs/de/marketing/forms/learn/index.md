@@ -106,7 +106,7 @@ Durch die Double-Opt-In-Funktion wird sichergestellt, dass die richtige E-Mail-A
 [1]: tutorial-sign-up.md
 [2]: create.md
 [8]: define-form-actions.md
-[3]: ../../mailing/learn/create/tutorial-form-mailing.yml
+[3]: ../../mailing/learn/create/tutorial-form-mailing.md
 [4]: publish.md
 [5]: view-statistics.md
 [6]: process-submissions.md

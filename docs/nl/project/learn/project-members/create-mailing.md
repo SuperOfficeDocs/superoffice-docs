@@ -24,4 +24,4 @@ Als u een document wilt verzenden naar alle leden van een project, kunt u de met
 > In **Stap 4: Ontvangers** moet u het project selecteren om de leden aan het project toe te voegen als ontvangers.
 
 <!-- Referenced links -->
-[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.yml
+[1]: ../../../marketing/mailing/learn/create/tutorial-document-mailing.md
