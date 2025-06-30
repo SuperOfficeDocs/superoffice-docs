@@ -5,7 +5,7 @@ description: Placing orders into ERP
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Placing orders into ERP

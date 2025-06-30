@@ -4,7 +4,7 @@ uid: erp_default_values
 description: Default values
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

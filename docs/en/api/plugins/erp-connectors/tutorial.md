@@ -5,7 +5,7 @@ description: ERP sync - tutorial company
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: guide
+content_type: tutorial
 # envir:
 # client:
 ---

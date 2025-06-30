@@ -5,7 +5,7 @@ description: CategoryCache
 author: Bergfrid Dias
 date: 02.22.2022
 keywords: cache, list, CategoryCache
-topic: concept
+content_type: concept
 ---
 
 # CategoryCache

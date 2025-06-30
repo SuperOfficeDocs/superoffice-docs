@@ -5,7 +5,7 @@ description: How to get all categories with raw SQL.
 keywords: category, CategoryGroupLink, contact
 author: Bergfrid Dias
 date: 02.21.2022
-topic: howto
+content_type: howto
 ---
 
 # Get all categories

@@ -5,7 +5,7 @@ description: How to add products to a quote
 author: {github-id}
 date: 09.09.2022
 keywords: quote, sale, product, price list, QuoteConnectorExtender
-topic: howto
+content_type: howto
 ---
 
 # Adding products to a quote

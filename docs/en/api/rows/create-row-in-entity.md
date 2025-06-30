@@ -5,7 +5,7 @@ description: Create a row as a property of another entity
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Create a Row as a property of another entity

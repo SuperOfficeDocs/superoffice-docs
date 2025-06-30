@@ -5,7 +5,7 @@ description: How to display a person's image using web services.
 keywords: person, contact, web services, API, ImageUtility
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Display person image

@@ -4,7 +4,7 @@ title: SuperOffice.Serilog
 author: xt1
 date: 05.07.2021
 keywords: logging
-topic: concept
+content_type: concept
 ---
 
 # SuperOffice.Serilog

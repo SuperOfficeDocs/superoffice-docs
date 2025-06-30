@@ -4,7 +4,7 @@ uid: minimal_csharp_app_scenarios
 description: Scenarios
 author: {github-id}
 keywords:
-topic: tutorial
+content_type: tutorial
 envir: cloud
 client: online
 ---

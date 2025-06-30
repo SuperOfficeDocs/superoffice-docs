@@ -5,7 +5,7 @@ description: How to create an invitation using services
 keywords: diary, calendar, appointment, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
-topic: howto
+content_type: howto
 ---
 
 # How to create an invitation (services)

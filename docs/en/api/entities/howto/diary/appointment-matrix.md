@@ -5,7 +5,7 @@ description: The AppointmentMatrix is used to manage complex appointments at the
 keywords: entity
 author: Bergfrid Skaara Dias
 date: 03.04.2022
-topic: howto
+content_type: howto
 ---
 
 # AppointmentMatrix

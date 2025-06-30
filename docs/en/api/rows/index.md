@@ -4,7 +4,7 @@ description: Rows are simple, straightforward persistence objects that represent
 author: AnthonyYates
 date: 11.16.2021
 keywords: data access, row, rows, collection, HDB, DataTable, DataRow, SuperOffice.CRM.Rows, TableInfo, FieldInfo, GetFromIdx, CustomSearch
-topic: concept
+content_type: concept
 envir: cloud, onsite
 client: win, web
 ---

@@ -5,7 +5,7 @@ description: How to calculate the price on field-changes
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # Price calculations and field changes

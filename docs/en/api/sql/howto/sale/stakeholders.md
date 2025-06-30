@@ -6,7 +6,7 @@ keywords: sale, stakeholder, hasStakeholders, API, saletype, salestakeholder
 author: Bergfrid Dias
 date: 11.05.2021
 version: 7.1
-topic: concept
+content_type: concept
 ---
 
 # Sale stakeholders

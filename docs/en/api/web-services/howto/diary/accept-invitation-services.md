@@ -5,7 +5,7 @@ description: How to accept an invitation using NetServer services
 keywords: diary, calendar, appointment, invitation, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
-topic: howto
+content_type: howto
 ---
 
 # How to accept an invitation (services)

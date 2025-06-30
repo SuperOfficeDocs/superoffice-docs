@@ -5,7 +5,7 @@ description: How to retrieve members of a specific selection using archive provi
 author: {github-id}
 date: 05.11.2016
 keywords: search,selectionprovider
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

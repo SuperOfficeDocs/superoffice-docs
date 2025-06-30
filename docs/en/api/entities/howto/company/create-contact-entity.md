@@ -5,7 +5,7 @@ description: Create a contact entity
 keywords: contact, company, entity, API, assert, SetDefaults
 author: Bergfrid Dias
 date: 02.22.2022
-topic: howto
+content_type: howto
 ---
 
 # Create a Contact entity

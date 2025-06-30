@@ -5,7 +5,7 @@ description: SuperOffice Objectified SQL - UPDATE
 author: {github-id}
 date: 11.05.2016
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # How to use UPDATE in OSQL

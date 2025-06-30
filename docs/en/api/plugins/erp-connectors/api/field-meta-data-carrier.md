@@ -5,7 +5,7 @@ description: Sync Connector API - FieldMetadataInfo
 author: {github-id}
 date: 05.11.2016
 keywords: dto
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

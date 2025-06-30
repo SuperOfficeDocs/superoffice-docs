@@ -5,7 +5,7 @@ description: REST Web API dynamic dot-syntax search provider
 author: {github-id}
 keywords: search,odata
 date: 2023-04-26
-topic: howto
+content_type: howto
 ---
 
 # The Dynamic Provider - the dot syntax

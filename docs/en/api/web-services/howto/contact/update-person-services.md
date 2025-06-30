@@ -5,7 +5,7 @@ description: How to update a person with a new name, address, position using Net
 keywords: person, contact, services, API api-services, GetPersonEntity, PersonAgent
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Update a person with a new name, address, position using services

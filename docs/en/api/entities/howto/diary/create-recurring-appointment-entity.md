@@ -5,7 +5,7 @@ description: How to create a recurring appointment using entities at the NetServ
 keywords: diary, calendar, appointment, API, entity, AppointmentMatrix, RecurrencePattern, RecurrenceDailyPattern
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # How to create a recurring appointment (data layer)

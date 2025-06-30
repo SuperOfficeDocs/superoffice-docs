@@ -5,7 +5,7 @@ description: How to get the category list and set Contact.Category from combo bo
 keywords: MDOAgent
 author: Bergfrid Dias
 date: 02.22.2022
-topic: howto
+content_type: howto
 ---
 
 # How to get the category list and set category on a contact

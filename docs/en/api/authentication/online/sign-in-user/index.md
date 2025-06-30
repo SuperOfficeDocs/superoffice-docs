@@ -4,7 +4,7 @@ uid: auth_user_oidc
 description: How to authenticate an application user
 author: {github-id}
 keywords: authentication, OAuth 2.0, OIDC, Authorization Code flow, Implicit flow
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

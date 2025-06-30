@@ -5,7 +5,7 @@ description: Get a CategoryList through ListAgent
 keywords: category, list agent
 author: Tony Yates
 date: 02.21.2022
-topic: howto
+content_type: howto
 ---
 
 # Get a CategoryList using the ListAgent

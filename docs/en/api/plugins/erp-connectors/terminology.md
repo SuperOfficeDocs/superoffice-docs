@@ -5,7 +5,7 @@ description: ERP connector terminology
 author: {github-id}
 date: 05.11.2016
 keywords:
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

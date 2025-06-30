@@ -5,7 +5,7 @@ description: How to update a person in the SuperOffice database with raw SQL.
 keywords: person, contact, update, API, SQL
 author: Bergfrid Skaara Dias
 date: 11.02.2021
-topic: howto
+content_type: howto
 ---
 
 # Update a person

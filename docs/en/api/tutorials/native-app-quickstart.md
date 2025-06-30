@@ -4,7 +4,7 @@ uid: native_app_quickstart
 description: Native console application quick-start
 author: {github-id}
 keywords:
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

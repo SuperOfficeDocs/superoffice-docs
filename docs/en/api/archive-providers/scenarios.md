@@ -4,7 +4,7 @@ uid: archive_provider_scenarios
 description: Archive provider scenarios
 author: {github-id}
 keywords: IArchiveProvider
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

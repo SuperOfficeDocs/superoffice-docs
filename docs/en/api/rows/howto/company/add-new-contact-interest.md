@@ -5,7 +5,7 @@ description: How to add a new contact interest with rows.
 keywords: company, contact, interest, API, row, ContIntRow, ContactInterestRow, ContIntGroupLinkRow, ContIntHeadingLinkRow
 author: Tony Yates
 date: 05.11.2016
-topic: howto
+content_type: howto
 ---
 
 # How to add a new contact interest

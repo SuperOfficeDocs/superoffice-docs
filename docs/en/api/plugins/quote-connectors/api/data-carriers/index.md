@@ -5,7 +5,7 @@ description: Data carriers for quote
 author: {github-id}
 date:
 keywords: quote
-topic: concept
+content_type: concept
 ---
 
 # Data carriers

@@ -5,7 +5,7 @@ description: How to get a list of people for a contact (company) using raw SQL.
 keywords: person, contact, company, API
 author: Bergfrid Skaara Dias
 date: 11.02.2021
-topic: howto
+content_type: howto
 ---
 
 # List persons in a company

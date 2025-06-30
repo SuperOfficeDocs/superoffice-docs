@@ -5,7 +5,7 @@ description: How to create an appointment through row collection (Rows).
 keywords: diary, calendar, appointment, API, rows, collection, AppointmentRows
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create an appointment through row collection (Rows)

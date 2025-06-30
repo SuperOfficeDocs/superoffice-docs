@@ -5,7 +5,7 @@ description: "HTTP headers that the SuperOffice WebAPI understands."
 author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, WebAPI, headers, Accept-Language, Content-Type, If-Modified-Since, If-Unmodified-Since, internationalization, SO-Language, SO-Culture, Accept, If-Modified-Since, If-Unmodified-Since, SO-TimeZone, includeTZOffset
-topic: concept 
+content_type: concept 
 ---
 
 # Headers

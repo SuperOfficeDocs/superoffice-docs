@@ -6,7 +6,7 @@ keywords:
   - "provider"
   - "mdo provider"
 date: 03.17.2021
-topic: concept
+content_type: concept
 ---
 
 # MDO providers

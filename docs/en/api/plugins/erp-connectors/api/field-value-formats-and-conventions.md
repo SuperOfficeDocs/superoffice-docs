@@ -4,7 +4,7 @@ uid: erp_field_value_formats_and_conventions
 description: ERP field-value formats and conventions
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

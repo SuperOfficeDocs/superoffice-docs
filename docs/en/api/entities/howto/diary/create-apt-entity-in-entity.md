@@ -5,7 +5,7 @@ description: How to create an Appointment entity through another entity.
 keywords: diary, calendar, appointment, API, entity
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create an Appointment entity through an entity

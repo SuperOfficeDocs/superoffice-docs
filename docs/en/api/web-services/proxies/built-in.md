@@ -5,7 +5,7 @@ description: Calling SOAP using the NetServer proxy
 author: Bergfrid Dias
 date: 12.03.2021
 keywords: API, web services, proxy, WebAPI, SOAP, SuperOffice.Service.dll, modes, DefaultMode
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

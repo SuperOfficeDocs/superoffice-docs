@@ -4,7 +4,7 @@ uid: activity_archive_filters
 description: How to use ActivityArchive filters
 author: {github-id}
 keywords: 
-topic: howto
+content_type: howto
 date:
 category: 
 area: api-services

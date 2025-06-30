@@ -4,7 +4,7 @@ description: Lists tables that cannot be used for mass operations.
 author: AnthonyYates
 date: 01.02.2021
 keywords: data-access, bulk-update, mass-operations
-topic: reference
+content_type: reference
 ---
 
 # Protected tables

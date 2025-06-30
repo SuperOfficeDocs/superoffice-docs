@@ -5,7 +5,7 @@ description: How to create a contact through OSQL
 keywords: contact, company, OSQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create a contact through OSQL

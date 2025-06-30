@@ -5,7 +5,7 @@ description: IQuoteConnector2
 author: {github-id}
 date:
 keywords: quote
-topic: howto
+content_type: howto
 ---
 
 # IQuoteConnector2

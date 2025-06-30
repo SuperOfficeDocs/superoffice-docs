@@ -5,7 +5,7 @@ description: SuperOffice database Using Sentry with rows
 author: {github-id}
 date: 11.05.2016
 keywords: netserver, security, sentry, rows
-topic: concept
+content_type: concept
 ---
 
 # Sentry

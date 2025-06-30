@@ -6,7 +6,7 @@ keywords: custom object, custom field, extra table, extra field, udef, user-defi
 author: Eivind Fasting
 date: 04.24.2024
 version: 10
-topic: concept
+content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

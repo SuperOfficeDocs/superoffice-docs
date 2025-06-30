@@ -5,7 +5,7 @@ description: Add a contact to the SuperOffice database using raw SQL
 keywords: contact, company, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # Create a contact

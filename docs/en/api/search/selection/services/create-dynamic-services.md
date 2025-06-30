@@ -5,7 +5,7 @@ description: Creating a dynamic selection using NetServer services
 author: {github-id}
 date: 06.24.2016
 keywords: search
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

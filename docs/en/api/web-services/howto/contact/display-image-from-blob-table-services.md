@@ -4,7 +4,7 @@ title: How to display an image from the Blob table (services)
 description: How to display an image from the Blob table using services
 author: Bergfrid Skaara Dias
 date: 11.04.2021
-topic: howto
+content_type: howto
 ---
 
 # How to display an image from the Blob table (services)

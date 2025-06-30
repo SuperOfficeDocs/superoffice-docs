@@ -3,7 +3,7 @@ title: Typical search - export and import
 description: Details Find Selection Typical Seach feature set.
 author: {AnthonyYates}
 keywords: Typical search, Selection, Find
-topic: article
+content_type: article
 # envir:
 client: web
 ---

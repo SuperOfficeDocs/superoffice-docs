@@ -5,7 +5,7 @@ description: "Learn about data aggregation and aggregate functions."
 author: Tony Yates
 date: 11.17.2017.
 keywords:
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

@@ -4,7 +4,7 @@ uid: oidc_native_apps
 description: OpenID Connect native apps
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

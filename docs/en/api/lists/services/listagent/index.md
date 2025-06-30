@@ -3,7 +3,7 @@ title: web-service-list-endpoint
 description: Describes managing lists with web service APIs
 author: AnthonyYates
 keywords: list,agent
-topic: concept
+content_type: concept
 date: 03.03.2022
 category: list
 area: api-services
