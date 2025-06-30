@@ -1,10 +1,10 @@
 ---
+uid: quote-connector-start
 title: Start the client
-uid: quote_connectors_start
 description: How to start the quote connector client
-author: {github-id}
-date:
-keywords: quote
+keywords: quote connector client, InitializeConnection
+author: SuperOffice Product and Engineering
+date: 02.04.2022
 content_type: howto
 ---
 
@@ -26,6 +26,7 @@ If a connection fails to initialize then the result is cached, so that the clien
 
 The ID of this connection in the CRM system.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## PluginResponseInfo InitializeConnection( QuoteConnectionInfo connectionData, Dictionary <string, string> configurationFields, IProductRegisterCache productRegister)
 
 Set up the connection to the ERP system. Will be called as part of SuperOffice client startup for each installed connection.

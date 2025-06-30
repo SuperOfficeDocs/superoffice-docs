@@ -1,10 +1,10 @@
 ---
+uid: quote-connector-add-products
 title: Adding products to a quote
-uid: quote_connectors_add_products
 description: How to add products to a quote
-author: {github-id}
+keywords: add product, ProductInfo, priceListKey, erpProductKey, QuoteConnectorExtender
+author: SuperOffice Product and Engineering
 date: 09.09.2022
-keywords: quote, sale, product, price list, QuoteConnectorExtender
 content_type: howto
 ---
 
@@ -12,6 +12,7 @@ content_type: howto
 
 The user searches for products in the Add Product dialog.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## ProductInfo[] FindProduct( QuoteContextInfo context, string isoCurrencyCode, string userinput, string priceListKey )
 
 The connector should treat this as a free text search. The user might want to search for the name, description, product code, extra fields, and so on.

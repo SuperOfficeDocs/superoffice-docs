@@ -1,13 +1,15 @@
 ---
+uid: user-preference-add
 title: Add user preference
-uid: add_user_preferences
 description: Add your own user preferences
-author: {github-id}
-keywords: database
+keywords: add user preference, prefdesc
+author: SuperOffice Product and Engineering
+date: 12.21.2022
 content_type: howto
 ---
 
-# Add your own preferences
+<!-- markdownlint-disable-file MD013 -->
+# Add user preference
 
 It's possible to add your own preferences to the database so they appear as they were built in. See the [PrefDesc table][1] info for values needed.
 
