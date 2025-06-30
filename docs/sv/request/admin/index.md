@@ -6,7 +6,7 @@ keywords: systeminställningar, service
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

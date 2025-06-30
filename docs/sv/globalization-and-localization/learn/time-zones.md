@@ -5,7 +5,7 @@ description: Tidszoner
 keywords: tidszoner
 author: SuperOffice RnD
 date: 02.25.2025
-topic: concept
+content_type: concept
 language: sv
 ---
 

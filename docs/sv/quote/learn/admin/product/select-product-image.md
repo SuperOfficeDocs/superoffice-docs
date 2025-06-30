@@ -6,7 +6,7 @@ description: I den här guiden får du lära dig hur du kan lägga till bilder f
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: produkt, bild
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

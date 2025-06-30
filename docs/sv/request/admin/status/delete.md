@@ -6,7 +6,7 @@ keywords: ta bort ärendestatus, överför ärendestatus till, ärendestatus, ä
 author: Bergfrid Dias
 date: 03.06.2024
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

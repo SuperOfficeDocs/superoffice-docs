@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.29.2024
 version: 10
 keywords: udef, anpassa fält
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

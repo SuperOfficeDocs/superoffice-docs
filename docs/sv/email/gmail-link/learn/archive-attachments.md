@@ -5,7 +5,7 @@ description: Arkivera bifogad fil
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail-länk
-topic: howto
+content_type: howto
 language: sv
 ---
 

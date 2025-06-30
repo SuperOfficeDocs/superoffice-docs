@@ -5,7 +5,7 @@ description: Så installerar du Mail Link/WebTools.
 author: Kirsti Aakerholt
 date: 04.12.2023
 keywords: Gmail-länk, e-post
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

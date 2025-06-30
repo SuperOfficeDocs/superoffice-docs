@@ -5,7 +5,7 @@ description: "Genom att spara ett e-postmeddelande direkt som en uppgift, ett m√
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-post
-topic: howto
+content_type: howto
 language: sv
 ---
 

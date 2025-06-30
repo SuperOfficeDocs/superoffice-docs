@@ -5,7 +5,7 @@ description: Logga ut användare
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll, user
-topic: help
+content_type: howto
 language: sv
 ---
 

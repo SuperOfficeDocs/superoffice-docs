@@ -6,7 +6,7 @@ keywords: formulär, nyhetsbrevsprenumeration, anmälning, dubbel anmälan, nyhe
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10
-topic: tutorial
+content_type: tutorial
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

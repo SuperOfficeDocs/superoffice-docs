@@ -6,7 +6,7 @@ keywords: skapa ärendetyp, ny ärendetyp, lägg till ärendetyp, ärendetyp, fl
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: servicepremium
 audience: settings
 audience_tooltip: Inställningar och underhåll

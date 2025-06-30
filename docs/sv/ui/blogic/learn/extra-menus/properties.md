@@ -5,7 +5,7 @@ description: Egenskaper för meny
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Tjänst
-topic: howto
+content_type: howto
 language: sv
 ---
 

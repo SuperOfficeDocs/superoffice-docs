@@ -5,7 +5,7 @@ description: Servicemejl
 author: SuperOffice RnD
 date: 03.06.2024
 keywords: Inställningar och underhåll
-topic: concept
+content_type: concept
 language: sv
 ---
 

@@ -5,7 +5,7 @@ description: Så lägger du till och tar bort företag på fliken Våra företag
 author: Bergfrid
 date: 03.15.2023
 keywords: user, våra företag
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

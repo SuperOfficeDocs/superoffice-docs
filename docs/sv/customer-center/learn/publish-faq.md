@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du publicerar FAQ-artiklar i ku
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Kundcenter
-topic: howto
+content_type: howto
 language: sv
 ---
 

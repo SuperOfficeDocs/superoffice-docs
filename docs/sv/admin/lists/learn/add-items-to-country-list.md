@@ -6,7 +6,7 @@ keywords: listan Allmänt – Land
 author: SuperOffice Product and engineering
 date: 06.26.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

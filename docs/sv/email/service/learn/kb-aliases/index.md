@@ -5,7 +5,7 @@ description: Arbeta med e-postadresser
 keywords: ärende
 author: Bergfrid Dias
 date: 02.25.2025
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person

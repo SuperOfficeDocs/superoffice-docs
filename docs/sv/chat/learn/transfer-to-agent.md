@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du överför en chatt till en a
 keywords: chatt
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

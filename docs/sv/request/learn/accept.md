@@ -6,7 +6,7 @@ keywords: ta över ärende, acceptera, ansvar, ärendeägare, hämta nästa i k�
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

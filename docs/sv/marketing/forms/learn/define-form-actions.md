@@ -6,7 +6,7 @@ keywords: formulär, automatisera, formuläråtgärd, formulärinlämning
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10.3.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

@@ -6,7 +6,7 @@ keywords: SuperOffice Inkorg, inkorgen i SuperOffice, konfigurera inkorg, e-post
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

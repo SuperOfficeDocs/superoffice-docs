@@ -5,7 +5,7 @@ description: Extramenyer i SuperOffice-gränssnittet
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: extramenyer
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

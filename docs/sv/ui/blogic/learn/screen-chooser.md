@@ -5,7 +5,7 @@ description: Skärmväljare
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Användargränssnitt, skärmväljare
-topic: concept
+content_type: concept
 language: sv
 ---
 

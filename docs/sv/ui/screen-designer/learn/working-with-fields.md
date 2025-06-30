@@ -6,7 +6,7 @@ keywords: Skärmdesigner, layout, gränssnitt, flik, fält, fältlayout, fältin
 author: Bergfrid Dias
 date: 10.07.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

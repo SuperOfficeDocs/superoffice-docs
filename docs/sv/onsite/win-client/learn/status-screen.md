@@ -5,7 +5,7 @@ description: Fönstret Status
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar för Windows-klient
-topic: help
+content_type: concept
 language: sv
 client: win
 envir: onsite

@@ -6,7 +6,7 @@ keywords: ERP-flik, ERP-system, ERP-aktör, Sync Connector, ERP-koppling, synk, 
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: development-tools
 audience: settings
 audience_tooltip: Inställningar och underhåll

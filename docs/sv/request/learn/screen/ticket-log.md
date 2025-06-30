@@ -5,7 +5,7 @@ description: Ärendelogg
 author: Hanne Gunnarsson
 date: 06.29.2022
 keywords: ärende
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
