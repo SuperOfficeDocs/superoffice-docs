@@ -1,17 +1,16 @@
 ---
+uid: webhook-reference
 title: Reference
-uid: webhook_reference
-uid: webhooks_ref
 description: SuperOffice Webhooks reference
-author:
+keywords: webhook reference
+author: SuperOffice Product and Engineering
 date: 04.06.2018
-keywords: automation
+content_type: reference
 ---
 
 # Reference
 
-This section describes the events and how they appear when events are dispatched to your
-webhook receiver.
+This section describes the events and how they appear when events are dispatched to your webhook receiver.
 
 ## Delete events
 

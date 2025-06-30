@@ -4,7 +4,6 @@ title: SoProtocol
 description: SoProtocol
 keywords: soprotocol, deeplinking
 author: Tony Yates, Eivind Fasting
-keywords: soprotocol, deeplinking
 date: 12.06.2024
 version: 10.3
 content_type: concept
