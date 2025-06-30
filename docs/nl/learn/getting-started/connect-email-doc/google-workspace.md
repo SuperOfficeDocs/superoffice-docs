@@ -6,7 +6,7 @@ keywords: Google Workspace, Gmail, e-mail, document, agenda, uitnodigingen
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

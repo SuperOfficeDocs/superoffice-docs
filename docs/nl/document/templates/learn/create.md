@@ -6,7 +6,7 @@ keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 02.25.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 language: nl
 ---
 

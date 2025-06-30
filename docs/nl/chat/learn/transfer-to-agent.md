@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een chat overbrengt naar een ande
 keywords: chatten
 author: SuperOffice RnD
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: nl
 ---
 

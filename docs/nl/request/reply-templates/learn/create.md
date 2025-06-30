@@ -6,7 +6,7 @@ keywords: antwoordsjabloon maken, nieuwe antwoordsjabloon, eigenschappen antwoor
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

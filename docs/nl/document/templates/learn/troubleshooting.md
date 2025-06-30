@@ -5,7 +5,7 @@ description: Hoe u problemen herkent en oplost bij het gebruik van SuperOffice-s
 keywords: documentsjabloon, sjabloonvariabele, document
 author: Bergfrid Dias
 date: 07.16.2024
-topic: howto
+content_type: howto
 language: nl
 ---
 

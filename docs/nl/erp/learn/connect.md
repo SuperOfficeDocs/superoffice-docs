@@ -6,7 +6,7 @@ keywords: verbinding met ERP, bedrijf koppelen aan ERP, contactpersoon koppelen 
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM

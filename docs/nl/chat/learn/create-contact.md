@@ -5,7 +5,7 @@ description: Een nieuwe klant koppelen aan SuperOffice vanuit een chat.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chatten, contactpersoon
-topic: howto
+content_type: howto
 language: nl
 ---
 

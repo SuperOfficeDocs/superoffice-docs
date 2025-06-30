@@ -6,7 +6,7 @@ keywords: Marketing, mailing, Google Analytics, e-mailtracking, gevolgde links, 
 author: Alex Pelan
 date: 06.25.2015
 version: 8
-topic: howto
+content_type: howto
 language: nl
 translation_type: MT
 audience: person

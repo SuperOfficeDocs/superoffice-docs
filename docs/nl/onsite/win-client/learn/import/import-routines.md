@@ -5,7 +5,7 @@ description: Importroutines
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Windows Client-instellingen
-topic: help
+content_type: concept
 language: nl
 client: win
 envir: onsite

@@ -6,7 +6,7 @@ keywords: Service
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: reference
+content_type: reference
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

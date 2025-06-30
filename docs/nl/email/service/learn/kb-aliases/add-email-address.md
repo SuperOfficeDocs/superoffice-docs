@@ -5,7 +5,7 @@ description: E-mailadressen maken
 keywords: verzoek, postbus
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

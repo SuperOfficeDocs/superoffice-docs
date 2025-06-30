@@ -5,7 +5,7 @@ description: Importeren vanuit Mac-adresboek
 keywords: Instellingen en onderhoud, import
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 language: nl
 ---
 

@@ -6,7 +6,7 @@ keywords: tabblad Meer, Meer-tabblad, udef, door de gebruiker gedefinieerd veld,
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.11
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

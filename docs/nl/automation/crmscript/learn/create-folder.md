@@ -5,7 +5,7 @@ description: Eigenschappen mappen met macro/script
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Service, map
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

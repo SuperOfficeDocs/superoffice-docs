@@ -6,7 +6,7 @@ keywords: verzoek maken, postvak in, klantenservice, e-mail, verzoek, service, t
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice CRM

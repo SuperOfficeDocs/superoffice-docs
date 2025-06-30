@@ -5,7 +5,7 @@ description: Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: verkoop
-topic: howto
+content_type: howto
 language: nl
 ---
 

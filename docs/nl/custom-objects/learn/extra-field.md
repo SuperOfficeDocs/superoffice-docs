@@ -6,7 +6,7 @@ keywords: extra veld, aangepast, databasetabel
 author: Bergfrid Dias
 date: 06.11.2024
 version: 10.3.7
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

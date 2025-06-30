@@ -5,7 +5,7 @@ description: Voorkeursinstellingen toevoegen, bewerken en verwijderen.
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: voorkeur, instelling
-topic: howto
+content_type: howto
 language: nl
 ---
 

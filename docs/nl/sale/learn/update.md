@@ -6,7 +6,7 @@ keywords: verkoop bijwerken, verkoop bewerken, verkoop verwijderen, vastgelopen,
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Voordat u begint met het configureren van uw SuperOffice CRM-databa
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: GDPR, toestemming
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

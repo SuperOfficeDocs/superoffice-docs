@@ -5,7 +5,7 @@ description: Zichtbaarheid
 keywords: zichtbaarheid, gebruiker, rol, beschikbaar
 author: SuperOffice RnD
 date: 03.07.2023
-topic: concept
+content_type: concept
 language: nl
 ---
 

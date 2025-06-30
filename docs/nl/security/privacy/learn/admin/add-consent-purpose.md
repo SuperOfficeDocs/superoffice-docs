@@ -5,7 +5,7 @@ description: Meer informatie over het instellen van de privacyinstellingen voor 
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Instellingen en onderhoud, privacy, toestemming
-topic: howto
+content_type: howto
 language: nl
 ---
 

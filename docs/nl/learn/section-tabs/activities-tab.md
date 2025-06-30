@@ -6,7 +6,7 @@ keywords: sectietabblad Activiteiten, tabblad Activiteiten, sectietabblad, activ
 author: Bergfrid Skaara Dias
 date: 04.08.2025
 version: 10.5.4
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

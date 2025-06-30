@@ -5,7 +5,7 @@ description: Communiceer met en help bestaande of potentiële klanten via een ch
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chatten
-topic: concept
+content_type: concept
 language: nl
 ---
 

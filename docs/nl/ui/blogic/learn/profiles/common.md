@@ -5,7 +5,7 @@ description: Algemene profielen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: profiel, service
-topic: howto
+content_type: howto
 language: nl
 ---
 

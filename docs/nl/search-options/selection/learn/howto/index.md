@@ -5,7 +5,7 @@ description: Taken uitvoeren met selecties
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: selectie
-topic: howto
+content_type: howto
 language: nl
 ---
 

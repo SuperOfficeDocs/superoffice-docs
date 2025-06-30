@@ -5,7 +5,7 @@ description: Live Chat is een populaire manier voor uw klanten en prospects om c
 author: SuperOffice RnD
 date: 02.22.2023
 keywords: chatten
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

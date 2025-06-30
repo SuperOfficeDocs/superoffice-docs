@@ -5,7 +5,7 @@ description: Tijdzones
 keywords: tijdzone
 author: Bergfrid Dias
 date: 05.25.2023
-topic: concept
+content_type: concept
 language: nl
 ---
 

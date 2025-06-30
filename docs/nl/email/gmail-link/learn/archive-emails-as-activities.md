@@ -5,7 +5,7 @@ description: Het direct opslaan van een e-mail als een vervolgactiviteit in uw S
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
-topic: howto
+content_type: howto
 language: nl
 ---
 

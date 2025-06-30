@@ -5,7 +5,7 @@ description: Een snel antwoord maken
 keywords: chatten
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 language: nl
 ---
 

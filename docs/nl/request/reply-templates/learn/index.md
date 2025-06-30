@@ -6,7 +6,7 @@ keywords: verzoek, antwoordsjabloon, kennisdatabase
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: serviceessentials
 functional_right: knowledge-base
 audience: person

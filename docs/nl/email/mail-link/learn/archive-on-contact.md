@@ -5,7 +5,7 @@ description: E-mails archiveren op bedrijven/personen
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail-koppeling, e-mail
-topic: howto
+content_type: howto
 language: nl
 ---
 

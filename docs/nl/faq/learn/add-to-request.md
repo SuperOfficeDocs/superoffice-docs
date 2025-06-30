@@ -5,7 +5,7 @@ description: Items in Veelgestelde vragen toevoegen aan berichten
 keywords: Veelgestelde vragen
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 license: servicepremium
 functional_right: knowledge-base
 audience: person

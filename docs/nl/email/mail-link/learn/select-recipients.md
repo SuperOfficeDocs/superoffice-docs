@@ -5,7 +5,7 @@ description: Ontvangers selecteren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail-koppeling
-topic: howto
+content_type: howto
 language: nl
 ---
 

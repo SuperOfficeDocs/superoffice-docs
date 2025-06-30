@@ -5,7 +5,7 @@ description: Beheerders kunnen voorkeuren instellen voor verschillende functies 
 keywords: instellingen, voorkeuren
 author: Bergfrid Dias
 date: 03.21.2023
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

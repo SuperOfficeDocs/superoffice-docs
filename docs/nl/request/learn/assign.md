@@ -6,7 +6,7 @@ keywords: automatische toewijzing, toewijzingsmethode, verzoek toewijzen, verzoe
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
