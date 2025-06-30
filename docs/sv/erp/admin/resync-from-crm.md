@@ -6,7 +6,7 @@ keywords: synka om från CRM, resync ERP, tryck ut CRM-data till ERP, synk, ERP-
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Inställningar och underhåll

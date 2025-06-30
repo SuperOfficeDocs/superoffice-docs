@@ -6,7 +6,7 @@ keywords: inställningar, inställningar, global
 author: SuperOffice RnD
 date: 02.25.2025
 version: 10
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

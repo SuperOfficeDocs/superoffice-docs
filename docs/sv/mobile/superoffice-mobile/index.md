@@ -6,7 +6,7 @@ keywords: mobil CRM-app, SuperOffice mobil CRM, mobil, kundinformation, försäl
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: concept
+content_type: concept
 client: mobile
 language: sv
 ---

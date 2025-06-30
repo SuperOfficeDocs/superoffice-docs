@@ -6,7 +6,7 @@ keywords: dashboard, ärende
 author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

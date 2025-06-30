@@ -5,7 +5,7 @@ description: Så kopplar du en ny kund till SuperOffice från en chatt.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chatt, contact
-topic: howto
+content_type: howto
 language: sv
 ---
 

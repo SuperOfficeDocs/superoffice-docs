@@ -5,7 +5,7 @@ description: Den här guiden beskriver hur du ändrar integritetslistorna.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: integritet, samtycke
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

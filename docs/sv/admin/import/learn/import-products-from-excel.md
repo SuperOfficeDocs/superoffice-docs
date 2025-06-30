@@ -5,7 +5,7 @@ description: "I den här guiden går vi igenom hur du importerar alla dina produ
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importera, produkt, Excel
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

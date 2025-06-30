@@ -6,7 +6,7 @@ keywords: formulär, publicera, publicera formulär, förifyllda fält, skriptta
 author: SuperOffice RnD
 date: 03.13.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

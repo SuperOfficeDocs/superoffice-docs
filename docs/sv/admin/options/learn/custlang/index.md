@@ -5,7 +5,7 @@ description: Kundspråk
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: språk
-topic: concept
+content_type: concept
 language: sv
 ---
 

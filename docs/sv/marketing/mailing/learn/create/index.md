@@ -5,7 +5,7 @@ description: "För att skicka ett marknadsföringsutskick behöver du bara följ
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marknadsföring, utskick
-topic: howto
+content_type: howto
 language: sv
 ---
 

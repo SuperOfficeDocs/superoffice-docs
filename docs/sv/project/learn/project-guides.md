@@ -6,7 +6,7 @@ keywords: projektguide, guide, arbetsflöde, detaljkortet Projektguide, projekt,
 author: Bergfrid
 date: 02.25.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

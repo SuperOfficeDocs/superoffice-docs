@@ -6,7 +6,7 @@ keywords: Formulär
 author: Bergfrid Dias
 date: 10.09.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

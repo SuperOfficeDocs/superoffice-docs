@@ -5,7 +5,7 @@ description: AI-baserad textanalys
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: AI
-topic: concept
+content_type: concept
 language: sv
 ---
 

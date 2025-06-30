@@ -5,7 +5,7 @@ description: Redigera en listas namn och beskrivning
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: lista, prenumerationstyp
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

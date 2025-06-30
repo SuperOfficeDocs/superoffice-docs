@@ -6,7 +6,7 @@ keywords: skapa ärende, nytt ärende, ärende
 author: Bergfrid Dias
 date: 03.11.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

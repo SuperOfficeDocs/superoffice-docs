@@ -5,7 +5,7 @@ description: Makron och skript
 keywords: skript, makro
 author: SuperOffice RnD
 date: 02.25.2025
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

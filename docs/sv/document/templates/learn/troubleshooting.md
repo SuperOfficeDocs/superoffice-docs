@@ -5,7 +5,7 @@ description: Hur du upptäcker och åtgärdar problem när du använder SuperOff
 keywords: dokumentmall, mallvariabel, dokument
 author: Bergfrid Dias
 date: 07.16.2024
-topic: howto
+content_type: howto
 language: sv
 ---
 

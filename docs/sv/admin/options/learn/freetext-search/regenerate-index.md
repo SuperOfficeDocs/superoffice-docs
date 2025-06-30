@@ -5,7 +5,7 @@ description: Återskapa ett fritextindex
 author: Bergfrid Dias
 date: 03.24.2023
 keywords: fritext, sökindex
-topic: howto
+content_type: howto
 language: sv
 envir: onsite
 ---

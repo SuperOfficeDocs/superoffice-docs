@@ -4,7 +4,7 @@ title: Skapa ärende i chatt
 description: I den här guiden förklarar vi hur du skapar ett ärende i SuperOffice Chatt.
 author: SuperOffice RnD
 date: 02.25.2025
-topic: howto
+content_type: howto
 language: sv
 ---
 

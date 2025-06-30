@@ -6,7 +6,7 @@ keywords: ärendetyp, ärendetyper, fliken Ärendetyper, typ, ärende
 author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: servicepremium
 audience: settings
 audience_tooltip: Inställningar och underhåll

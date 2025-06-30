@@ -5,7 +5,7 @@ description: Redigera medarbetare
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: user, medarbetare
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

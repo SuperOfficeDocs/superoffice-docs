@@ -5,7 +5,7 @@ description: Lägg till SuperOffice-dokument som en bilaga
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: sv
 ---
 
