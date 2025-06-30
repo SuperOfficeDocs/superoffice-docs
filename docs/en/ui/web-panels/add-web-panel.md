@@ -1,10 +1,10 @@
 ---
+uid: web-panel-add
 title: Adding a web panel
-uid: web_panels_add
-description: How to add a web panel
-author:
-date:
-keywords:
+description: How to add a web panel in SuperOffice
+keywords: add web panel
+author: SuperOffice Product and Engineering
+date: 03.03.2021
 content_type: howto
 ---
 
@@ -37,8 +37,6 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 > [!TIP]
 > Read more about [base programs and URL parameters][2].
 
-
 <!-- Referenced links -->
 [1]: ../blogic/extra-menus.md
 [2]: ../blogic/url-parameters.md
-[3]: ../../api/reference/restful/agent/UserDefinedFieldInfo_Agent/index.md

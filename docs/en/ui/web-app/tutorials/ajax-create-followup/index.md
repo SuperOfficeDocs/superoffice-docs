@@ -1,10 +1,10 @@
 ---
+uid: ajax-demo
 title: AJAX demo
-uid: ajax_demo
 description: Custom AJAX methods - add functionality for creating a follow-up appointment for a sale
+keywords: AjaxMethod
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: tutorial
 client: web
 envir: onsite
@@ -49,6 +49,7 @@ When the configuration is done and the class is ready, use the `AjaxMethodDispat
 
 Since we wanted to create a follow-up appointment for a sale, we'll add a new button to the Sale page that calls our new server-side method from JavaScript.
 
+<!-- markdownlint-disable-file MD013 -->
 Here is the declaration of the button in *SoSalePage.config*:
 
 ``` xml
