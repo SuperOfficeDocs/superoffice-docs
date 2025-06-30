@@ -1,13 +1,14 @@
 ---
+uid: add-list-item-sql
 title: Adding a list item
-uid: add_list_item_sql
 description: Adding a list item
-author:
+keywords: add list item, category list
+author: SuperOffice Product and Engineering
 date: 11.08.2021
-keywords: category, list, CategoryGL
 content_type: howto
 ---
 
+<!-- markdownlint-disable-file MD013 -->
 # Adding a list item
 
 Adding a list item to a list requires 2, possibly 3, possibly 4 things:

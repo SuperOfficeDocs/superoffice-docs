@@ -1,13 +1,16 @@
 ---
-title: web-service-mdo-how-to
+uid: web-service-mdo-how-to
+title: Working with the MDO list API
 description: How to work with Multi-departmental organization lists (MDO) APIs
+keywords: list, MDOAgent, GetSelectableList
 author: AnthonyYates
-keywords: list, MDO
-content_type: concept
 date: 03.03.2022
+content_type: concept
 category: list
 area: api-services
 ---
+
+# Working with the MDO list API
 
 The `MDOAgent` provides a very different API than that of the [ListAgent][1]. This API provides us with a set of methods that can be used to build the list that we want. The methods in this API do not focus on one particular list but can be used to **retrieve any list**.
 

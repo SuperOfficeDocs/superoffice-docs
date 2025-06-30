@@ -1,12 +1,13 @@
 ---
-uid: configure_serilog
+uid: configure-serilog
 title: Configure Serilog
+keywords: configure Serilog, logging
 author: xt1
 date: 05.07.2021
-keywords: logging
 content_type: howto
 ---
 
+<!-- markdownlint-disable-file MD013 -->
 # Configure Serilog
 
 To get [Serilog][5] to write to a log file, we need to create a *serilog.json* file as [described for the Serilog Configuration module][3].
