@@ -5,7 +5,7 @@ description: Log in to activate your SuperOffice CRM account using a SuperOffice
 author: SuperOffice RnD
 date: 08.28.2023
 keywords: CRM, sign in, login, password, single sign-on
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

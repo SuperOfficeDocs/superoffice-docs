@@ -5,7 +5,7 @@ description: "Introduction to CRM Online: requirements, access, sign-in services
 author: Bergfrid Skaara
 date: 02.02.2022
 keywords: online, app store
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

@@ -4,7 +4,7 @@ uid: register_webhook
 description: Register a webhook
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

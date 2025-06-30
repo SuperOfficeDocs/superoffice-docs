@@ -4,7 +4,7 @@ title: CRMScript intellisense
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # CRMScript intellisense

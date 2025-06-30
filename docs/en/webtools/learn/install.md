@@ -5,7 +5,7 @@ description: If you are using Windows, you need WebTools to integrate your Outlo
 author: Bergfrid Dias
 date: 12.04.2023
 keywords: WebTools, Windows, Mail Link, Web Extensions
-topic: howto
+content_type: howto
 language: en
 ---
 

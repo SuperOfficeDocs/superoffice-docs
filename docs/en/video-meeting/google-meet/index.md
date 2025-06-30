@@ -4,7 +4,7 @@ uid: video_meetings_google
 description: Getting started with Video Meetings for SuperOffice - Google Meet
 date: 08.12.2021
 keywords: video meeting
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

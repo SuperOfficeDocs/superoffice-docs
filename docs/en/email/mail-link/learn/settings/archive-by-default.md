@@ -5,7 +5,7 @@ description: Turning default archiving on off
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: en
 ---
 

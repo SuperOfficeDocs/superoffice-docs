@@ -5,7 +5,7 @@ description: Keep track of your budgets by setting up sales targets. This will h
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: sale
-topic: howto
+content_type: howto
 language: en
 ---
 

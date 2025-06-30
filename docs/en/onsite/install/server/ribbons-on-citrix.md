@@ -4,7 +4,7 @@ uid: deploy_ribbons_on_citrix
 description: Deploy Ribbons in a Citrix or Terminal Server environment
 author: {github-id}
 keywords: ribbons deploy citrix terminal
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

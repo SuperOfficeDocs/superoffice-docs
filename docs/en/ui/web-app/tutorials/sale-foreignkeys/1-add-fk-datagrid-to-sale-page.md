@@ -5,7 +5,7 @@ description: How to create a user control
 author: Steffan Alte
 date: 07.25.2007
 keywords:
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

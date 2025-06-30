@@ -5,7 +5,7 @@ description: Global preferences for Customer centre password policy
 author: SuperOffice RnD
 date: 03.29.2023
 keywords: Service, settings
-topic: help
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

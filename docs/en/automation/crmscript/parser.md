@@ -5,7 +5,7 @@ description: About the CRMScript Parser class, which is a template engine.
 author: Bergfrid Dias
 date: 05.30.2023
 keywords: parser, template, variable
-topic: concept
+content_type: concept
 ---
 
 # Parser

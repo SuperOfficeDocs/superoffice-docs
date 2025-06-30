@@ -6,7 +6,7 @@ keywords: CRMScript, project, completed, project status
 author: Bergfrid Skaara Dias
 date: 06.01.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Update project

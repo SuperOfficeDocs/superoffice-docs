@@ -6,7 +6,7 @@ keywords: document template, document, template, quote, order confirmation
 author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
-topic: tutorial
+content_type: tutorial
 language: en
 audience: settings
 audience_tooltip: Settings and maintenance

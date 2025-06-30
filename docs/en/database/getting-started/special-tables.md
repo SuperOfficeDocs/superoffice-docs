@@ -4,7 +4,7 @@ uid: special_tables
 description: Special tables
 author: {github-id}
 keywords: database
-topic: reference
+content_type: reference
 # envir:
 # client:
 ---

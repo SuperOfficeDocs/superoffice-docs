@@ -5,7 +5,7 @@ description: Accessing the script from the Customer Centre
 author: {github-id}
 date: 03.16.2023
 keywords: Customer Center, CEP
-topic: howto
+content_type: howto
 audience: settings
 ---
 

@@ -5,7 +5,7 @@ description: How to add a panel and link it from the navigator
 author: Tony Yates
 date: 06.24.2016
 keywords: pagebuilder
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

@@ -5,7 +5,7 @@ description: Send FAQs, reply templates and quick replies in a chat
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: chat
-topic: howto
+content_type: howto
 language: en
 ---
 

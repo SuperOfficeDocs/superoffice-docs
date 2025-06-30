@@ -5,7 +5,7 @@ description: Services SOAP interface compatibility (interoperability)
 author: {github-id}
 keywords: soap
 date: 01.25.2021
-topic: reference
+content_type: reference
 ---
 
 # Compatibility

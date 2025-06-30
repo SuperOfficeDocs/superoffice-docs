@@ -6,7 +6,7 @@ keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD, Azure
 author: Bergfrid Dias, Oleg Deribas
 date: 03.27.2025
 version: 10.5.2
-topic: concepts
+content_type: concepts
 envir: cloud
 client: online
 ---

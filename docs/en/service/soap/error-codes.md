@@ -5,7 +5,7 @@ description: Services SOAP interface error codes
 author: {github-id}
 keywords: soap
 date: 01.25.2021
-topic: reference
+content_type: reference
 ---
 
 # Error codes

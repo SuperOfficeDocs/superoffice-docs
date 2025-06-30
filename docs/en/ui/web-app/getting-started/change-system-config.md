@@ -5,7 +5,7 @@ description: How to alter system configuration files
 author: Tony Yates
 date: 06.24.2016
 keywords:
-topic: howto
+content_type: howto
 envir: win
 client: web
 ---

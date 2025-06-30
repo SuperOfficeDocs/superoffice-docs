@@ -6,7 +6,7 @@ keywords: create request status, add request status, new request status, request
 author: Hanne Gunnarsson
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Import from Gmail
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance, import
-topic: help
+content_type: howto
 language: en
 ---
 

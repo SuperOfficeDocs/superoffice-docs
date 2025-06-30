@@ -5,7 +5,7 @@ description: List of SuperOffice Developer Portal frequently asked questions.
 author: AnthonyYates
 date: 04.04.2024
 keywords: Developer Portal
-topic: howto
+content_type: howto
 version_devportal: 1.21
 envir: cloud
 client:

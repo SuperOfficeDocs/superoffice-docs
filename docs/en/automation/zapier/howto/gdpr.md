@@ -5,7 +5,7 @@ description: Guide to maintaining GDPR configuration in Zapier.
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier, GDPR, consent, e-marketing
-topic: howto
+content_type: howto
 language: en
 client: Zapier
 ---

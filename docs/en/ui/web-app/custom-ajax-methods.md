@@ -5,7 +5,7 @@ description: Custom AJAX methods
 author: Steffan Alte
 date: 2007
 keywords:
-topic: concept
+content_type: concept
 client: web
 envir: onsite
 ---

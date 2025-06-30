@@ -4,7 +4,7 @@ uid: onsite_security
 description: Security and deployment
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

@@ -5,7 +5,7 @@ description: Configure single sign-on in IIS onsite
 author: Martin Pavlas
 date: 04.20.2023
 keywords: authentication, SSO, single sign-on, log in, IIS, Windows Authentication
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

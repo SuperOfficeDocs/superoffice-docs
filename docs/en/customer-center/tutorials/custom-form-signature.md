@@ -5,7 +5,7 @@ description: Custom form in Customer Centre with Signature
 author: kronicz
 date: 01.20.2012
 keywords: CRMScript, Customer Center
-topic: tutorial
+content_type: tutorial
 ---
 
 # Custom form with signature

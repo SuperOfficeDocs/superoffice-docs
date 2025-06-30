@@ -6,7 +6,7 @@ keywords: request type, Request types tab, type, request
 author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: concept
+content_type: concept
 license: servicepremium
 audience: settings
 audience_tooltip: Settings and maintenance

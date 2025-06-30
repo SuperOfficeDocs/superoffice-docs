@@ -4,7 +4,7 @@ uid: compaya_sms_plugin
 description: Compaya NetServer SMS plugin
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Compaya

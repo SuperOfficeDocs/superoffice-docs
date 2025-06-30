@@ -4,7 +4,7 @@ title: Code structure (syntax)
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Code structure (syntax)

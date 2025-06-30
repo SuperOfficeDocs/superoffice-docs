@@ -4,7 +4,7 @@ uid: mirroring_requirements
 description: SQLServer prerequisites for database mirroring
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

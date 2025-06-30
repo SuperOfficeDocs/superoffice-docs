@@ -4,7 +4,7 @@ description: Information hinting
 author: Christian Mogensen
 date: 12.09.2011
 keywords: design,ui
-topic: concept
+content_type: concept
 ---
 
 # Information hinting

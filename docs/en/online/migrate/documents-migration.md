@@ -5,7 +5,7 @@ description: Understanding document migration
 author: Martin Pavlas
 date: 10.18.2023
 keywords: migrate, document
-topic: guide
+content_type: tutorial
 envir: onsite, online
 # client:
 ---

@@ -4,7 +4,7 @@ uid: online_version_history
 description: SuperOffice CRM Online version history
 author: {github-id}
 keywords: online, version, history, releases
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

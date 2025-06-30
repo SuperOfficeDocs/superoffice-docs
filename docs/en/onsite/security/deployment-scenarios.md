@@ -4,7 +4,7 @@ uid: deployment_scenarios
 description: Deployment scenarios SuperOffice onsite
 author: {github-id}
 keywords: security
-topic: guide
+content_type: tutorial
 envir: onsite
 client: web
 ---

@@ -5,7 +5,7 @@ description: Resource
 author: SuperOffice RnD
 date: 01.15.2023
 keywords: Settings and maintenance
-topic: reference
+content_type: reference
 language: en
 ---
 

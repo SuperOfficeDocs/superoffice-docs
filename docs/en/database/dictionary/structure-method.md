@@ -5,7 +5,7 @@ description: Continuous database structure method
 author: Tony Yates
 date: 06.23.2017
 keywords: database
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

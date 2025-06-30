@@ -5,7 +5,7 @@ description: From SuperOffice 8 you also need to install Service. Here's what yo
 author: {github-id}
 date: 09.12.2023
 keywords: install
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

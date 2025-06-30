@@ -5,7 +5,7 @@ description: Security requirements
 keywords: certification
 author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

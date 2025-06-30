@@ -5,7 +5,7 @@ description: Using StatLib class in CRMScript for reporting
 author: kronicz
 date: 10.03.2022
 keywords: CRMScript, StatLib
-topic: tutorial
+content_type: tutorial
 ---
 
 # Using StatLib class in CRMScript for reporting

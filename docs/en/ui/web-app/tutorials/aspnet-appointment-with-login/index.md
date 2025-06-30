@@ -5,7 +5,7 @@ description: Creating ASP.net website using SO controls
 author: Tony Yates
 date: 06.24.2016
 keywords: appointment, login
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

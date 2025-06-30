@@ -6,7 +6,7 @@ keywords: add sale stage, new sale stage, Sale - Stage list, sale stage, stage, 
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials
 audience: settings
 audience_tooltip: Settings and maintenance

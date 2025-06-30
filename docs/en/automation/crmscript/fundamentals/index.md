@@ -5,7 +5,7 @@ description: A guide to CRMScript basics - code structure, variables, operators,
 keywords: CRMScript, script, code structure, variable, operator, data type, function, struct, array, condition, loop
 author: Bergfrid Dias
 date: 04.15.2024
-topic: concept
+content_type: concept
 ---
 
 # Fundamentals of CRMScript

@@ -4,7 +4,7 @@ uid: gdpr_developers
 description: GDPR for app developers
 author: {github-id}
 keywords:
-topic: guide
+content_type: tutorial
 envir: cloud
 client: online
 ---

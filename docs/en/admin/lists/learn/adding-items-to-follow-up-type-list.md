@@ -5,7 +5,7 @@ description: Adding items to the Follow-up - Type list
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Settings and maintenance
-topic: howto
+content_type: howto
 language: en
 ---
 

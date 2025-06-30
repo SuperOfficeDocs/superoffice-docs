@@ -5,7 +5,7 @@ description: Windows Client settings
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Windows Client settings
-topic: concept
+content_type: concept
 language: en
 client: win
 envir: onsite

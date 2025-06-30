@@ -4,7 +4,7 @@ uid: video_meetings_troubleshooting
 description: Troubleshooting Video Meetings for SuperOffice
 date: 06.21.2021
 keywords: video meeting, troubleshooting, 404, context identifier
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

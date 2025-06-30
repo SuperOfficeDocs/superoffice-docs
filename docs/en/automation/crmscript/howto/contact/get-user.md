@@ -6,7 +6,7 @@ keywords: CRMScript, ejuser, user, user account
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Get user info

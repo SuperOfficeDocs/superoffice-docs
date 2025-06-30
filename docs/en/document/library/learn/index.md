@@ -6,7 +6,7 @@ keywords: document library, document, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 07.19.2024
 version: 10.3
-topic: concept
+content_type: concept
 language: en
 ---
 

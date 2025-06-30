@@ -5,7 +5,7 @@ description: Soft delete
 author: Marek Vokáč, Eivind Fasting
 date: 09.25.2024
 keywords:
-topic: article
+content_type: concept
 ---
 
 # Soft delete

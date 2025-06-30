@@ -6,7 +6,7 @@ keywords: CRMScript, project, ProjectAgent
 author: Bergfrid Skaara Dias
 date: 06.01.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Register a project

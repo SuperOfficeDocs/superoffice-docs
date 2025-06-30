@@ -5,7 +5,7 @@ description: SoProtocol and web panels - web
 author:
 date: 05.26.2023
 keywords: soprotocol, deeplinking, web panel, crossmessaging, window.postMessage
-topic: reference
+content_type: reference
 ---
 
 # SOProtocol and web panels - web

@@ -5,7 +5,7 @@ description: Introduction to Zapier.
 author: Philip Yates
 date: 08.09.2023
 keywords: Zapier, automation, Zap, workflow
-topic: concept
+content_type: concept
 language: en
 client: Zapier
 ---

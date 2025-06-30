@@ -5,7 +5,7 @@ description: Quickstart to build first online application
 author: Tony Yates
 date: 03.04.2024
 keywords: online, development
-topic: tutorial
+content_type: tutorial
 envir: cloud
 client: online
 ---

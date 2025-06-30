@@ -6,7 +6,7 @@ keywords: SuperOffice for Outlook, Outlook, email, deploy, add-in, PowerShell, M
 author: Frode B, Martin Pavlas
 date: 03.14.2025
 version_sofo: 2024.8.12
-topic: howto
+content_type: howto
 language: en
 ---
 

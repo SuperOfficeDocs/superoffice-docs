@@ -5,7 +5,7 @@ description: How to work with Requests with SoProtocol
 author: Tony Yates
 date: 9.4.2023
 keywords: soprotocol, requests
-topic: howto
+content_type: howto
 client: web
 envir: online, onsite
 ---

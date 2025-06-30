@@ -5,7 +5,7 @@ description: Move user from one company to another
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: user
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

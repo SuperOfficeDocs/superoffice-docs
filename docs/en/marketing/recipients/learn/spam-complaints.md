@@ -6,7 +6,7 @@ keywords: Marketing, mailing, recipient, subscriber, spam, junk, complaint, supp
 author: SuperOffice RnD
 date: 02.09.2024
 version: 10
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

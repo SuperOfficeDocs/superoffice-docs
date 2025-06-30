@@ -4,7 +4,7 @@ uid: service_log_files
 description: Service log files
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 envir: onsite
 ---
 

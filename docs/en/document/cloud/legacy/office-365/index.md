@@ -4,7 +4,7 @@ uid: microsoft_365_document_integration
 description: About Microsoft 365 Document Integration
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # About Microsoft 365 Document Integration

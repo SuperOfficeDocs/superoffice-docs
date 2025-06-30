@@ -4,7 +4,7 @@ uid: batch_task_server
 description: SuperOffice Batch Task Server
 author: {github-id}
 keywords:
-topic: article
+content_type: article
 envir: onsite
 client: web
 ---

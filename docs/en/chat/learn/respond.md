@@ -5,7 +5,7 @@ description: When a customer sends a query via the chat widget on the website, i
 author: Bergfrid Dias
 date: 02.14.2023
 keywords: chat
-topic: howto
+content_type: howto
 language: en
 ---
 

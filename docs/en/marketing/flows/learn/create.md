@@ -6,7 +6,7 @@ keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.17.2024
 version: 10.3.9
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

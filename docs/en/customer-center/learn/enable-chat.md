@@ -5,7 +5,7 @@ description: Learn how to connect a chat channel to your Customer centre in this
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chat, customer center
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

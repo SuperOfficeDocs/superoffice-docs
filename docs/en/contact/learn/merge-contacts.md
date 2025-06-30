@@ -6,7 +6,7 @@ keywords: Merge contacts, contact, person
 author: Bergfrid Dias
 date: 12.17.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

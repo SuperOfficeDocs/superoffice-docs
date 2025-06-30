@@ -4,7 +4,7 @@ uid: complete_user_transition
 description: Complete user account transition from password to federated login
 author: {github-id}
 keywords:
-topic: guide
+content_type: tutorial
 # Optional fields. Don't forget to remove # if you need a field.
 # envir:
 # client:

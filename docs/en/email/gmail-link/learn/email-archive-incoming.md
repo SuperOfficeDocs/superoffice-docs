@@ -5,7 +5,7 @@ description: Archive incoming email
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link, email
-topic: howto
+content_type: howto
 language: en
 ---
 

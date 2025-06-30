@@ -6,7 +6,7 @@ keywords: Marketing
 author: SuperOffice RnD
 date: 02.14.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

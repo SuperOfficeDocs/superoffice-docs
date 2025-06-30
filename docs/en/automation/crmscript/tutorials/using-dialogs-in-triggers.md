@@ -5,7 +5,7 @@ description: Using dialogs in triggers
 author: kronicz
 date: 11.10.2022
 keywords: CRMScript, Automation, Triggers
-topic: tutorial
+content_type: tutorial
 ---
 
 # Using dialogs in triggers

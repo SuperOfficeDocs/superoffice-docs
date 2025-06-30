@@ -5,7 +5,7 @@ description: Adding external applications to the Application list
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: list
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

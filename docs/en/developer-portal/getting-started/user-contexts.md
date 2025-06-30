@@ -5,7 +5,7 @@ description: "Learn the difference of and requirements for an interactive user s
 author: Bergfrid Dias
 date: 09.14.2023
 keywords: user context, session, application user, system user
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

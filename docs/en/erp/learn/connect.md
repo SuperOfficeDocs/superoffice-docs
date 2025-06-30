@@ -6,7 +6,7 @@ keywords: connect to ERP, connect company to ERP, connect contact to ERP, connec
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -6,7 +6,7 @@ keywords: Marketing, mailing
 author: SuperOffice RnD, Jeanette Small Strøm
 date: 02.12.2024
 version: 10
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

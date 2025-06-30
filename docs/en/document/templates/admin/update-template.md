@@ -6,7 +6,7 @@ keywords: document template, document, template
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: settings
 audience_tooltip: Settings and maintenance

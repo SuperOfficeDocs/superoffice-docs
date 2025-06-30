@@ -4,7 +4,7 @@ uid: cdd_steps
 description: Dictionary steps
 date: 06.23.2017
 keywords: database
-topic: concept
+content_type: concept
 # envir:
 # client:
 ---

@@ -5,7 +5,7 @@ description: Inbox for email
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: email
-topic: reference
+content_type: reference
 language: en
 ---
 

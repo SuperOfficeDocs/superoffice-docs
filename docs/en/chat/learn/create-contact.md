@@ -5,7 +5,7 @@ description: How to link new customer to SuperOffice from a chat.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat, contact
-topic: howto
+content_type: howto
 language: en
 ---
 

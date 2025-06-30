@@ -6,7 +6,7 @@ keywords: edit ERP connection, update ERP connection, change ERP settings, sync 
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance

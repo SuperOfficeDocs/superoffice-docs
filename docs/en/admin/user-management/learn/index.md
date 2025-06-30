@@ -5,7 +5,7 @@ description: Learn how to add new users, how to assign the right user roles and 
 author: Bergfrid Dias
 date: 08.25.2023
 keywords: user
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

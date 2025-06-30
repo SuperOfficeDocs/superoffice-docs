@@ -4,7 +4,7 @@ title: Troubleshoot satellite
 description: If you have problems with satellite management
 author: {github-id}
 keywords: travel satellite
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

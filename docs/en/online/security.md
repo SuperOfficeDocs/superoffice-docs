@@ -5,7 +5,7 @@ description: Security enhancements
 keywords: security, TLS, PKI, port 443
 author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

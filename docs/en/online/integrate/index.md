@@ -5,7 +5,7 @@ description: Integration in the online Web client
 author: Tony Yates
 date: 11.25.2021
 keywords: API, integration point, online
-topic: concept
+content_type: concept
 envir: cloud
 client: web
 ---

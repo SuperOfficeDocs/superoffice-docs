@@ -4,7 +4,7 @@ title: Functions
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Functions

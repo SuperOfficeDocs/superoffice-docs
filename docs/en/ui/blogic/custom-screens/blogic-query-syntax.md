@@ -5,7 +5,7 @@ description: Query syntax
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Query syntax

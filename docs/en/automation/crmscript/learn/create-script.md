@@ -5,7 +5,7 @@ description: Create a script
 author: Bergfrid Dias
 date: 03.23.2023
 keywords: script, macro
-topic: howto
+content_type: howto
 language: en
 ---
 

@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to publish FAQs in the Cus
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Customer Center
-topic: howto
+content_type: howto
 language: en
 ---
 

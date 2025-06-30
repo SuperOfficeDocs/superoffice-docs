@@ -6,7 +6,7 @@ keywords: add tile, edit tile, copy tile, duplicate tile, remove tile, customize
 author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

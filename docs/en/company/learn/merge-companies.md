@@ -6,7 +6,7 @@ keywords: Merge companies, Manage companies, Merge identical contacts, company
 author: Bergfrid Dias
 date: 12.16.2024
 version: 10.3.8
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

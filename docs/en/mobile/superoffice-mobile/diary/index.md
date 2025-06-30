@@ -6,7 +6,7 @@ keywords: diary, calendar, appointment, follow-up, task, upcoming, go to today
 author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
-topic: concept
+content_type: concept
 client: mobile
 language: en
 ---

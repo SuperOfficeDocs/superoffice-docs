@@ -4,7 +4,7 @@ title: Database basics
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Database basics

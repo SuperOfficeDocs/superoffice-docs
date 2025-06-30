@@ -5,7 +5,7 @@ description: An explanation of the SharePoint document migration wizard and over
 author: Frode Berntsen, Bergfrid Dias
 date: 11.02.2023
 keywords: SharePoint, document
-topic: reference
+content_type: reference
 version:
 envir: cloud
 client: online

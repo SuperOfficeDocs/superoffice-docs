@@ -5,7 +5,7 @@ description: Button scripts
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Button scripts

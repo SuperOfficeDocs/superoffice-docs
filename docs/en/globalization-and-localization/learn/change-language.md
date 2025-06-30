@@ -5,7 +5,7 @@ description: Change active language
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: language
-topic: howto
+content_type: howto
 language: en
 ---
 

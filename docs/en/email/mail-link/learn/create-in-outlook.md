@@ -5,7 +5,7 @@ description: Creating emails from Microsoft Outlook
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: SuperOffice Mail Link
-topic: howto
+content_type: howto
 language: en
 ---
 

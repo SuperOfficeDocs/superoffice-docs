@@ -4,7 +4,7 @@ description: Manual install of travel gateway service
 author: {github-id}
 keywords:
 date:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

@@ -5,7 +5,7 @@ description: How to configure document templates for SharePoint Documents
 author: Frode Berntsen
 date: 11.02.2023
 keywords: SharePoint, document, template
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

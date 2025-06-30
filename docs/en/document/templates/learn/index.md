@@ -6,7 +6,7 @@ keywords: document template, document, template
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
-topic: concept
+content_type: concept
 language: en
 ---
 

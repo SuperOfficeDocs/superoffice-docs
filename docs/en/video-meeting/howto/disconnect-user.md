@@ -5,7 +5,7 @@ description: How to disconnect a user from video meetings
 author: {github-id}
 date: 08.12.2021
 keywords: video meetings
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

@@ -5,7 +5,7 @@ description: Manage anonymous users and system users (Onsite)
 author: Bergfrid
 date: 03.15.2023
 keywords: user, anonymous, system user
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

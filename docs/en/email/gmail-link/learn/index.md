@@ -5,7 +5,7 @@ description: SuperOffice Gmail Link app connects your Gmail account to SuperOffi
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, email
-topic: concept
+content_type: concept
 language: en
 ---
 

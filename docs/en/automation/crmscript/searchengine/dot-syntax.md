@@ -4,7 +4,7 @@ title: Dot-syntax
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Dot-syntax

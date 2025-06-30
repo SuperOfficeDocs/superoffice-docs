@@ -5,7 +5,7 @@ description: Services SOAP configuration
 author: {github-id}
 keywords:
 date: 01.25.2021
-topic: howto
+content_type: howto
 ---
 
 # Configuration

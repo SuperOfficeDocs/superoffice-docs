@@ -6,7 +6,7 @@ author: {github-id}
 date: 03.16.2023
 keywords: Customer Center, CEP, parser variable
 audience: settings
-topic: reference
+content_type: reference
 ---
 
 # Customer center configuration

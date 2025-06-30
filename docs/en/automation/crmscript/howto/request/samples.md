@@ -6,7 +6,7 @@ keywords: Service, ticket, request, CRMScript
 author: Bergfrid Skaara Dias
 date: 05.26.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Samples

@@ -4,7 +4,7 @@ title: Arrays
 author: Bergfrid Dias
 date: 01.14.2022
 keywords: crmscript, arrary, length, push, pop
-topic: concept
+content_type: concept
 ---
 
 # Arrays

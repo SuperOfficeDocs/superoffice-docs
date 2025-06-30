@@ -5,7 +5,7 @@ description: Working with extra fields in CRMScript.
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 keywords: extra field, custom, field, Service
-topic: concept
+content_type: concept
 ---
 
 # Extra fields

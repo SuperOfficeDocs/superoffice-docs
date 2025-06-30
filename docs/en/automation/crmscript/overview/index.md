@@ -5,7 +5,7 @@ description: "Introduction to CRMScript, an interpreted scripting language speci
 author: Bergfrid Dias
 date: 02.02.2022
 keywords: CRMScript
-topic: concept
+content_type: concept
 ---
 
 # What is CRMScript?

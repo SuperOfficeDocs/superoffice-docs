@@ -5,7 +5,7 @@ description: Move SuperOffice CRM Server
 author: Martin Pavlas
 date: 12.08.2021
 keywords: upgrade
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---

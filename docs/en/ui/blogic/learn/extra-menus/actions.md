@@ -5,7 +5,7 @@ description: Add function to Task button
 author: Bergfrid Dias
 date: 04.24.2023
 keywords: macro, task, actions
-topic: howto
+content_type: howto
 language: en
 ---
 

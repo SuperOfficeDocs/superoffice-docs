@@ -5,7 +5,7 @@ description: How to create a site and a document library in Microsoft 365 Share
 author: Bergfrid Dias, ErikLebiko
 date: 01.12.2024
 keywords: SharePoint, document
-topic: how to
+content_type: howto
 envir: cloud
 client: online
 ---
