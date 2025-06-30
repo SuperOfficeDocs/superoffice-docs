@@ -5,7 +5,7 @@ description: Wie SuperOffice die Kundensprache für neue Personen auswählt
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Sprache
-topic: help
+content_type: howto
 language: de
 ---
 

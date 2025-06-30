@@ -6,7 +6,7 @@ keywords: automatische Zuordnung, Zuordnungsmethode, Anfrage zuweisen, Anfrage
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
 date: 02.11.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

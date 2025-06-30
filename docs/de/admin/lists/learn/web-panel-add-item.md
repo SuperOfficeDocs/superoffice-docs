@@ -5,7 +5,7 @@ description: Objekte zur Liste Web-Bildschirm hinzufügen
 author: SuperOffice RnD
 date: 01.20.2023
 keywords: Liste, Web-Bildschirm
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

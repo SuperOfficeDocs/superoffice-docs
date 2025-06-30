@@ -6,7 +6,7 @@ keywords: Häufigkeit, Regelmäßige Folgeaufgabe, Wiederkehrende Folgeaufgabe, 
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

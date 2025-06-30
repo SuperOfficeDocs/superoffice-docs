@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie eine Testkampagne senden."
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: de
 ---
 

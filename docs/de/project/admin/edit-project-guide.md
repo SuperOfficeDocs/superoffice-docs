@@ -6,7 +6,7 @@ keywords: Projektleitfaden bearbeiten, Projektleitfaden aktualisieren, Projektle
 author: Bergfrid Dias
 date: 02.11.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance

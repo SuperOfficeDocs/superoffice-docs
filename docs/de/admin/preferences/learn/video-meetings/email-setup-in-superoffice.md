@@ -5,7 +5,7 @@ description: E-Mail-Setup für Videokonferenzen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Videokonferenz
-topic: howto
+content_type: howto
 language: de
 ---
 

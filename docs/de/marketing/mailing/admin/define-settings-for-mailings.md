@@ -6,7 +6,7 @@ keywords: Marketing, Einstellungen
 author: SuperOffice RnD
 date: 02.12.2024
 version: 10
-topic: reference
+content_type: reference
 language: de
 envir: onsite
 audience: person

@@ -5,7 +5,7 @@ description: Suchkriterien verwenden
 author: Bergfrid Dias
 date: 05.25.2023
 keywords: Suchen, Kriterien
-topic: howto
+content_type: howto
 language: de
 ---
 

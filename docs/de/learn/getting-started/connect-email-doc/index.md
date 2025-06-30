@@ -6,7 +6,7 @@ keywords: E-Mail, Dokument, Kalender, Einladung
 author: Bergfrid Dias
 date: 08.28.2023
 version: 10
-topic: concept
+content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice CRM

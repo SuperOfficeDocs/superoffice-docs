@@ -5,7 +5,7 @@ description: "Lernen Sie in dieser Anleitung, wie man E-Mails als Anfragen archi
 author: SuperOffice RnD
 date: 03.14.2023
 keywords: Mail-Link
-topic: howto
+content_type: howto
 language: de
 ---
 

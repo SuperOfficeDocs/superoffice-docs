@@ -6,7 +6,7 @@ keywords: Marketing, Editor, Vorlagenvariabel, Merge Tag
 author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

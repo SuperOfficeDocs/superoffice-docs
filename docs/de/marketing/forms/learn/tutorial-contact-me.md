@@ -6,7 +6,7 @@ keywords: Formular, Feld, Kontaktieren
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: tutorial
+content_type: tutorial
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

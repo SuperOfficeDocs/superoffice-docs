@@ -6,7 +6,7 @@ keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, me
 author: Bergfrid Dias
 date: 03.26.2025
 version: 10.5.3
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

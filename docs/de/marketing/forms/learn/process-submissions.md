@@ -6,7 +6,7 @@ keywords: Formular, Formularübermittlung, Formulareinsendung, verknüpfen, Übe
 author: Bergfrid Dias
 date: 03.18.2024
 version: 10
-topic: howto
+content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing

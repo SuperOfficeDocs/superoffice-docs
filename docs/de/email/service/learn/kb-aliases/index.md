@@ -5,7 +5,7 @@ description: Mit E-Mail-Adressen arbeiten
 author: Bergfrid Dias
 date: 03.16.2023
 keywords: Anfrage
-topic: concept
+content_type: concept
 license: servicepremium
 functional_right: knowledge-base
 audience: person

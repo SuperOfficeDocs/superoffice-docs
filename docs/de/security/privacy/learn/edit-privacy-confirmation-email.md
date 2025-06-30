@@ -6,7 +6,7 @@ keywords: DSGVO, Einwilligung, E-Mail, Vorlage, Confirmation - Contact added
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

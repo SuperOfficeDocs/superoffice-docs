@@ -5,7 +5,7 @@ description: Bilder hinzufügen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Marketing
-topic: help
+content_type: howto
 language: de
 ---
 

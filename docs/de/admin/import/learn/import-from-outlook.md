@@ -5,7 +5,7 @@ description: Aus Outlook importieren
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Einstellungen und Verwaltung, Importieren
-topic: help
+content_type: howto
 language: de
 ---
 

@@ -5,7 +5,7 @@ description: Die Ansicht Lizenzen unter Einstellungen und Verwaltung
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Lizenzen, gemessene Dienstleistung, Datenbankbesitzer, Registerkarte Status
-topic: reference
+content_type: reference
 language: de
 ---
 

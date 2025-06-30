@@ -5,7 +5,7 @@ description: Sichtbarkeit
 author: SuperOffice RnD
 date: 03.07.2023
 keywords: Anzeigestatus, user, Rolle, Verfügung gestellt
-topic: concept
+content_type: concept
 language: de
 ---
 

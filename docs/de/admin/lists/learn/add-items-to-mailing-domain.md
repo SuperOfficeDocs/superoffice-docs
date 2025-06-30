@@ -5,7 +5,7 @@ description: Objekte zur Liste Kampagne-Domäne hinzufügen
 author: Hanne Gunnarsson
 date: 03.14.2023
 keywords: Kampagne, Domäne, SPF
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

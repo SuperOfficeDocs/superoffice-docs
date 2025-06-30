@@ -5,7 +5,7 @@ description: "In dieser Anleitung erfahren Sie, wie Sie einen Chat an einen ande
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Chat
-topic: howto
+content_type: howto
 language: de
 ---
 

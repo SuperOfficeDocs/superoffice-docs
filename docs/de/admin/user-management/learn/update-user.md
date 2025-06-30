@@ -5,7 +5,7 @@ description: Mitarbeiter bearbeiten
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: user, Mitarbeiter
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

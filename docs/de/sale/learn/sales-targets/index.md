@@ -5,7 +5,7 @@ description: Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu beha
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: Verkauf
-topic: concept
+content_type: concept
 language: de
 ---
 

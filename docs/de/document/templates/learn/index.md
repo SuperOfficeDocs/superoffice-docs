@@ -6,7 +6,7 @@ keywords: Dokumentvorlage, Dokument, Vorlage
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
-topic: concept
+content_type: concept
 language: de
 ---
 
