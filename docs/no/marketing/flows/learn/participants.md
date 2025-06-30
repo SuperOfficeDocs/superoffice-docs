@@ -6,7 +6,7 @@ keywords: flyt, markedsføring, deltaker, flytdeltaker, melde på, deltakerstatu
 author: Bergfrid Dias
 date: 05.24.2024
 version: 10.3.5
-topic: concept
+content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

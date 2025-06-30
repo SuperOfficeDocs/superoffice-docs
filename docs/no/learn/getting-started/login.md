@@ -5,7 +5,7 @@ description: Logg på for å aktivere SuperOffice CRM-kontoen med et SuperOffice
 author: SuperOffice RnD
 date: 08.28.2023
 keywords: CRM, logge på, pålogging, passord
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

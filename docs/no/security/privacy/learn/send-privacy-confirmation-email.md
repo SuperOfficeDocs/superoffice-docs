@@ -5,7 +5,7 @@ description: Send e-postbekreftelse for personvern
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: GDPR, samtykke, e-post, personvern
-topic: howto
+content_type: howto
 language: no
 ---
 

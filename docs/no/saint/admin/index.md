@@ -6,7 +6,7 @@ keywords: SAINT, statusovervåking
 author: SuperOffice RnD
 date: 02.22.2023
 version: 9
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

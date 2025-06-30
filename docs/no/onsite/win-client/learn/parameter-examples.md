@@ -5,7 +5,7 @@ description: Eksempler på parametere
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-topic: help
+content_type: howto
 language: no
 ---
 

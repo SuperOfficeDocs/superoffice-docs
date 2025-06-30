@@ -5,7 +5,7 @@ description: Opprette et hurtigsvar
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: CRM
-topic: howto
+content_type: howto
 language: no
 ---
 

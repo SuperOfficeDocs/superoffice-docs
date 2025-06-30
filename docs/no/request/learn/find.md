@@ -6,7 +6,7 @@ keywords: siste saker, egne aktive saker, ufordelte saker, vis bare egne kategor
 author: Bergfrid Dias
 date: 02.04.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

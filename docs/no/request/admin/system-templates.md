@@ -6,7 +6,7 @@ keywords: systemmaler, svarmaler, innstillinger
 author: Hanne Gunnarsson
 date: 02.05.2025
 version: 10.5.1
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

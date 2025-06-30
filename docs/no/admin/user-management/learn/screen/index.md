@@ -5,7 +5,7 @@ description: Skjermbildet Brukere
 author: Bergfrid Dias
 date: 03.27.2023
 keywords: bruker, medarbeider, våre firmaer
-topic: reference
+content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du oppretter en sak i SuperOffice 
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: chat
-topic: howto
+content_type: howto
 language: no
 ---
 

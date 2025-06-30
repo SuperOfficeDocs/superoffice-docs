@@ -6,7 +6,7 @@ keywords: e-post, epost, SuperOffice for Outlook, Outlook, Outlook-tillegg, SOFO
 author: Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

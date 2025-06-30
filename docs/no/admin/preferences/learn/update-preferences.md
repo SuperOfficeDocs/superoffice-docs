@@ -5,7 +5,7 @@ description: "Slik legger du til, redigerer og sletter preferanseinnstillinger."
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: preferanse, innstilling
-topic: howto
+content_type: howto
 language: no
 ---
 

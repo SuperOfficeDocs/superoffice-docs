@@ -6,7 +6,7 @@ keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilordne, 
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

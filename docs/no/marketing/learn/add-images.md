@@ -5,7 +5,7 @@ description: Legg til bilder
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Markedsføring
-topic: help
+content_type: howto
 language: no
 ---
 

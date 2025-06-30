@@ -5,7 +5,7 @@ description: Flytte bruker fra ett firma til et annet
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: bruker
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -5,7 +5,7 @@ description: Lisenser-bildet i Innstillinger og vedlikehold
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: lisens, målt tjeneste, databaseeier, status-fane
-topic: reference
+content_type: reference
 language: no
 ---
 

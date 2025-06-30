@@ -5,7 +5,7 @@ description: "Finn ut hvordan du arkiverer e-postmeldinger som saker, i denne ve
 author: SuperOffice RnD
 date: 03.14.2023
 keywords: Mail Link
-topic: howto
+content_type: howto
 language: no
 ---
 

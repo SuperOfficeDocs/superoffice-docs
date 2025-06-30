@@ -5,7 +5,7 @@ description: Webpanel
 keywords: GUI - Webpanel, webpanel, www-fanen, liste, URL-snarvei
 author: SuperOffice RnD
 date: 12.17.2024
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

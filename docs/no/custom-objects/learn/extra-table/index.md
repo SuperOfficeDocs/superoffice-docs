@@ -5,7 +5,7 @@ description: Ekstratabeller og -felt
 author: Bergfrid Dias
 date: 01.25.2024
 keywords:
-topic: howto
+content_type: howto
 language: no
 redirect_url: https://docs.superoffice.com/no/custom-objects/learn/extra-table.html
 ---

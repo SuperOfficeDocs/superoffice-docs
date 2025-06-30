@@ -5,10 +5,9 @@ description: Legge til elementer i Oppgave-menylisten
 author: SuperOffice RnD
 date: 01.11.2023
 keywords: Innstillinger og vedlikehold
-topic: help
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 

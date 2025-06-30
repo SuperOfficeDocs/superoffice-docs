@@ -5,7 +5,7 @@ description: Slik oppretter og sletter du brukergrupper
 author: Bergfrid Dias
 date: 08.25.2023
 keywords: brukergruppe
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -6,7 +6,7 @@ keywords: sak, slette sak
 author: Hanne Gunnarsson
 date: 02.05.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 functional_right: Service-administrasjon, Generell administrator
 license: serviceessentials
 audience: person

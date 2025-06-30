@@ -6,7 +6,7 @@ keywords: Markedsføring, utsendelse, sporet kobling, Google Analytics
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

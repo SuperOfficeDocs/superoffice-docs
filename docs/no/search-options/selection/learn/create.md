@@ -6,7 +6,7 @@ keywords: opprett utvalg, nytt utvalg, lagre som utvalg, utvalg
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

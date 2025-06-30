@@ -6,7 +6,7 @@ keywords: oppdatere salg, redigere salg, slette salg, satt på vent, utsatt, tap
 author: Bergfrid Dias
 date: 02.03.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM

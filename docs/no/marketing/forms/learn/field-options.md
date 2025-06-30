@@ -6,7 +6,7 @@ keywords: skjema, felt, skjemaelement, reCAPTCHA
 author: SuperOffice RnD
 date: 03.07.2024
 version: 10
-topic: reference
+content_type: reference
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing

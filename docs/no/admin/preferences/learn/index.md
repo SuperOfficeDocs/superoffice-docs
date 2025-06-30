@@ -5,7 +5,7 @@ description: "Administratorer kan angi preferanser for ulike funksjoner i system
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: innstillinger, preferanser
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

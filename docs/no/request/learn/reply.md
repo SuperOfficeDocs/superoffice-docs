@@ -6,7 +6,7 @@ keywords: svare på sak, svare, svar til alle, legge til melding, legge til komm
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 03.11.2025
 version: 10.5.3
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

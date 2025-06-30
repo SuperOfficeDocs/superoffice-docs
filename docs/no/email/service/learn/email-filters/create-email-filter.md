@@ -5,7 +5,7 @@ description: Opprette e-postfiltre
 keywords: e-post, e-postfilter, filter
 author: SuperOffice RnD
 date: 07.17.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 
