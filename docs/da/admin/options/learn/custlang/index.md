@@ -5,7 +5,7 @@ description: Kundesprog
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: sprog
-topic: concept
+content_type: concept
 language: da
 ---
 

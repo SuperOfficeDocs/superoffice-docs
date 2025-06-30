@@ -5,7 +5,7 @@ description: Hvis du vil gemme en vedhæftet fil i en e-mail, men ikke selve mai
 keywords: Mail Link, e-mail, vedhæftning
 author: SuperOffice RnD
 date: 06.29.2022
-topic: howto
+content_type: howto
 language: da
 ---
 

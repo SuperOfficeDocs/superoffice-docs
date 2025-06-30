@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du overfører en chat til en 
 keywords: chat
 author: SuperOffice RnD
 date: 02.14.2023
-topic: howto
+content_type: howto
 language: da
 ---
 

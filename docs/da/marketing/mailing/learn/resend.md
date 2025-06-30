@@ -5,7 +5,7 @@ description: Når du har håndteret de afviste e-mails, er det en god ide at gen
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: da
 ---
 

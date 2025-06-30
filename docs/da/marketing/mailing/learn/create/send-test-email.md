@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du bruger en webformular.
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing
-topic: howto
+content_type: howto
 language: da
 ---
 

@@ -6,7 +6,7 @@ keywords: Mere-fane, fanen Mere, brugerdefineret felt, ekstra felt, tilpasset fe
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.11
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

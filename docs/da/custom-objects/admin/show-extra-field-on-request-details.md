@@ -5,7 +5,7 @@ description: Vis ekstra felt på fanen Detaljer
 keywords: extra field, custom field, request, layout, screen designer
 author: Bergfrid Dias
 date: 0130.2024
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

@@ -5,7 +5,7 @@ description: Tilføjelse af e-mailskabelon
 keywords: e-mailskabelon
 author: SuperOffice RnD
 date: 02.28.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

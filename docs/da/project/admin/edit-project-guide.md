@@ -6,7 +6,7 @@ keywords: rediger projektguide, opdater projektguide, deaktiver projektguide, pr
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

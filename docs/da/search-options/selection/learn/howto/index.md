@@ -5,7 +5,7 @@ description: Udførelse af opgaver med udvalg
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: selection
-topic: howto
+content_type: howto
 language: da
 ---
 

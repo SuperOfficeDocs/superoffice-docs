@@ -6,7 +6,7 @@ keywords: tilføj salgstype, Salg – Type Faser Tilbud, Salg – Kategori, Tilb
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
-topic: howto
+content_type: howto
 license: salesessentials
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse

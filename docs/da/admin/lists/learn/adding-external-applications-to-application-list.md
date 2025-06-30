@@ -5,7 +5,7 @@ description: Tilføjelse af eksterne programmer til programlisten
 keywords: listen GUI – Applikation
 author: SuperOffice RnD
 date: 02.28.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

@@ -6,7 +6,7 @@ keywords: åbn Dagbog, skærmbilledet Dagbog, kalender, detaljekortet Aktivitete
 author: Bergfrid Dias
 date: 06.26.2025
 version: 10.5.5
-topic: concept
+content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

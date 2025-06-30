@@ -5,7 +5,7 @@ description: Eksporter
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-topic: help
+content_type: concept
 language: da
 client: win
 envir: onsite

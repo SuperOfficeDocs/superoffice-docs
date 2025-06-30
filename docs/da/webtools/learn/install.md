@@ -5,7 +5,7 @@ description: Hvis du bruger Windows OS, skal du bruge WebTools til at integrere 
 author: Bergfrid Dias
 date: 12.04.2023
 keywords: WebTools
-topic: howto
+content_type: howto
 language: da
 ---
 

@@ -6,7 +6,7 @@ author: SuperOffice RnD
 date: 05.21.2024
 version: 10.3.6
 keywords: dagbog, opfølgning
-topic: howto
+content_type: howto
 language: da
 ---
 

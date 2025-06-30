@@ -5,7 +5,7 @@ description: Send e-mail med bekræftelse om personbeskyttelse
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: GDPR, samtykke, e-mail, personbeskyttelse
-topic: howto
+content_type: howto
 language: da
 ---
 

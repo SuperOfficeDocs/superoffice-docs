@@ -6,7 +6,7 @@ keywords: Marketing, modtager
 author: SuperOffice RnD
 date: 02.09.2024
 version: 10
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

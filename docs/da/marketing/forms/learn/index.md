@@ -6,7 +6,7 @@ keywords: formular, formularindsendelse, dobbelt tilsagn
 author: Bergfrid Dias
 date: 03.13.2024
 version: 10
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

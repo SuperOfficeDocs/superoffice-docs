@@ -5,7 +5,7 @@ description: Oprettelse af rolle
 keywords: rolle, brugerstyring
 author: Bergfrid Dias
 date: 02.28.2025
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

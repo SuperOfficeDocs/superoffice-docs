@@ -5,7 +5,7 @@ description: Få flere oplysninger om, hvordan du konfigurerer indstillingerne f
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Indstillinger og vedligeholdelse, personbeskyttelse, samtykke
-topic: howto
+content_type: howto
 language: da
 ---
 

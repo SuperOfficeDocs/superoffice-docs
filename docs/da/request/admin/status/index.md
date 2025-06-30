@@ -6,7 +6,7 @@ keywords: sagsstatus, status, sager, statusindstillinger
 author: Hanne Gunnarsson
 date: 03.07.2025
 version: 10.5.2
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

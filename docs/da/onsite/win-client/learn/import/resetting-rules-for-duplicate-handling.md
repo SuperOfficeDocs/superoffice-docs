@@ -5,7 +5,7 @@ description: Nulstiller regler for dublethåndtering
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-topic: help
+content_type: howto
 language: da
 client: win
 envir: onsite
