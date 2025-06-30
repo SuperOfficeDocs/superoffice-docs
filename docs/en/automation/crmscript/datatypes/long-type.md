@@ -4,7 +4,7 @@ title: Long data type
 author: kronicz
 date: 15.11.2022
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Long data type

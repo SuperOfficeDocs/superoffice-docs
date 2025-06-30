@@ -3,7 +3,7 @@ title: Time zones
 description: Time zones in Service
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 version: 8.4 R02
 ---
 

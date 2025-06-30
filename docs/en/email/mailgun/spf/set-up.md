@@ -5,7 +5,7 @@ description: "How to set up an SPF Record."
 author: {github-id}
 date: 02.02.2022
 keywords: SPF, email, DNS record, domain
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

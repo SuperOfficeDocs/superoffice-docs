@@ -5,7 +5,7 @@ description: Passing data to web panels with template variables
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # Passing data with template variables

@@ -6,7 +6,7 @@ keywords: CRMScript, quote, QuoteAgent, sale, alternative
 author: Bergfrid Skaara Dias
 date: 09.12.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Create quote

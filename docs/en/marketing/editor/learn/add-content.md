@@ -6,7 +6,7 @@ keywords: Marketing, mailing, column, text block
 author: SuperOffice RnD
 date: 02.05.2024
 version: 10
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

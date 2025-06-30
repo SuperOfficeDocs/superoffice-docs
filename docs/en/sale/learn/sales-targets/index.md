@@ -5,7 +5,7 @@ description: The possibility to keep track of your sales opportunities is one of
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: sale
-topic: concept
+content_type: concept
 language: en
 ---
 

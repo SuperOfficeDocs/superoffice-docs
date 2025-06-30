@@ -5,7 +5,7 @@ description: How to manage permissions for users in the SuperOffice Developer Po
 author: AnthonyYates
 date: 05.23.2022
 keywords: Developer Portal, user, access, permission
-topic: howto
+content_type: howto
 version:
 envir: cloud
 client: online

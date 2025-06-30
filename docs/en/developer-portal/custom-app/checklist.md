@@ -5,7 +5,7 @@ description: "The app validation checklist - what to consider before you ask for
 author: Margrethe Romnes
 date: 12.20.2023
 keywords: custom app, validation, checklist
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

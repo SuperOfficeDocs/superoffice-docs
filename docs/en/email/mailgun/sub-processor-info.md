@@ -5,7 +5,7 @@ description: Mailgun sub-processor information
 author: Bergfrid Dias
 date: 05.20.2022
 keywords: email, mailgun
-topic: reference
+content_type: reference
 # Optional fields. Don't forget to remove # if you need a field.
 # envir:
 # client:

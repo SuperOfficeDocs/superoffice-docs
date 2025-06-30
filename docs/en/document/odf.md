@@ -3,7 +3,7 @@ title: ODF
 description: ODF Support
 author: {github-id}
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # ODF Support

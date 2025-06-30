@@ -6,7 +6,7 @@ keywords: sale, quote, product, price list, QuoteAgent
 author: Bergfrid Skaara Dias
 date: 06.12.2023
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Price lists

@@ -5,7 +5,7 @@ description: "How to verify that the webhook has not been tampered with."
 author: Tony Yates
 date: 04.06.2018
 keywords:
-topic: howto
+content_type: howto
 # envir:
 # client:
 ---

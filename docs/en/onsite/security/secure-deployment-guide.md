@@ -4,7 +4,7 @@ uid: secure_deployment_guide
 description: Guide to secure deployment of SuperOffice onsite
 author: {github-id}
 keywords: security
-topic: guide
+content_type: tutorial
 envir: onsite
 client: web
 ---

@@ -6,7 +6,7 @@ author: AnthonyYates, Margrethe
 date: 01.11.2024
 version: 10.2
 keywords: mirroring, blocked tables, database, schema
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

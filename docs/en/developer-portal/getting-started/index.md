@@ -5,7 +5,7 @@ description: Getting started building apps for SuperOffice
 author: Bergfrid Dias
 date: 09.14.2023
 keywords: developer, app, application, extensibility, integration point, authorization
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 --- 

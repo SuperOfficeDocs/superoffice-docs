@@ -5,7 +5,7 @@ description: Requirements for Microsoft 365 integration
 author: frodeb
 date: 01.15.2024
 keywords: Microsoft Entra
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

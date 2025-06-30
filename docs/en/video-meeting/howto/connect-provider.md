@@ -5,7 +5,7 @@ description: How to connect video provider
 author: {github-id}
 date: 06.21.2021
 keywords: video meeting
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

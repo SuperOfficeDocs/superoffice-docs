@@ -6,7 +6,7 @@ keywords: delete project, project management, project
 author: Bergfrid Dias
 date: 12.20.2024
 version: 10.5.2
-topic: howto
+content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

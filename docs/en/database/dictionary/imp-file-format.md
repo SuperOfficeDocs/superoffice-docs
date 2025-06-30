@@ -5,7 +5,7 @@ description: IMP file format
 author: Tony Yates
 date: 06.23.2017
 keywords: database
-topic: reference
+content_type: reference
 ---
 
 # IMP file format

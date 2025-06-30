@@ -5,7 +5,7 @@ description: earn how to change the privacy lists in this how-to guide.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: privacy, consent
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

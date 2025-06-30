@@ -4,7 +4,7 @@ uid: automated_task_upgrade
 description: Automated tasks in Service - upgrade
 author: {github-id}
 keywords: service
-topic: reference
+content_type: reference
 envir: onsite
 # client:
 ---

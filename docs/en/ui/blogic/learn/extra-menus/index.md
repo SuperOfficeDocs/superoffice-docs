@@ -5,7 +5,7 @@ description: Extra menus in the SuperOffice UI
 author: SuperOffice RnD
 date: 04.24.2023
 keywords: extra menus
-topic: concept
+content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

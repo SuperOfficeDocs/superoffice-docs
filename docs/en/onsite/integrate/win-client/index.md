@@ -5,7 +5,7 @@ description: Integration in the Windows client
 author: Tony Yates
 date: 11.25.2021
 keywords: api, integration point, Windows
-topic: reference
+content_type: reference
 envir: onsite
 client: win
 ---

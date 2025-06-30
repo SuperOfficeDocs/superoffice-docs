@@ -5,7 +5,7 @@ description: About permissions in SharePoint​
 author: Bergfrid Dias
 date: 01.15.2024
 keywords: SharePoint, permission, security, access control, domain group, Microsoft Entra, ME-ID, AAD, Azure
-topic: howto
+content_type: howto
 version:
 envir: cloud
 client: online

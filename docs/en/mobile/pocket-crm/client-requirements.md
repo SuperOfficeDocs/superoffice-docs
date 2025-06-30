@@ -5,7 +5,7 @@ description: Requirements for Pocket CRM mobile client
 author: {github-id}
 date: 09.12.2023
 keywords:
-topic: reference
+content_type: reference
 client: pocket
 ---
 

@@ -5,7 +5,7 @@ description: How to edit a role.
 author: Bergfrid Dias
 date: 03.15.2023
 keywords: role, user management
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

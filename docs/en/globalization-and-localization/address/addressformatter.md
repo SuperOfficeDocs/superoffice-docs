@@ -4,7 +4,7 @@ uid: globalization_addressformatter
 description: Localization, class AddressFormatter
 author: {github-id}
 date: 05.08.2018
-topic: reference
+content_type: reference
 keywords: globalization, address
 ---
 

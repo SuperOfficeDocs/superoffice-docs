@@ -5,7 +5,7 @@ description: "How to create a webhook using both NetServer core and web services
 author: AnthonyYates
 date: 04.06.2018
 keywords: automation
-topic: howto
+content_type: howto
 ---
 
 # Webhook subscription

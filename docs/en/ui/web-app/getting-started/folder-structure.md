@@ -4,7 +4,7 @@ uid: web_client_folders
 description: The contents of the web client installation folder
 author: {github-id}
 keywords:
-topic: reference
+content_type: reference
 envir: onsite
 client: web
 ---

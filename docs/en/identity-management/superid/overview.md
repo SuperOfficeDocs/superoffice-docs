@@ -5,7 +5,7 @@ description: "Introduction to SuperID, identity providers, and federated sign-in
 author: Bergfrid Dias
 date: 02.02.2022
 keywords: SuperID, federation gateway, identity provider
-topic: concept
+content_type: concept
 ---
 
 # SuperID

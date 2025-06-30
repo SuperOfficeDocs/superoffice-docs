@@ -5,7 +5,7 @@ description: In this how-to guide you'll learn how to edit a list item.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: list item
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

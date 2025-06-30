@@ -5,7 +5,7 @@ description: Creating shortcuts to entries in CRM
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: company
-topic: help
+content_type: concept
 language: en
 ---
 

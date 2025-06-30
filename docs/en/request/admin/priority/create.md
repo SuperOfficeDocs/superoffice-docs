@@ -6,7 +6,7 @@ keywords: create request priority, add request priority, new request priority, r
 author: Hanne Gunnarsson
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance

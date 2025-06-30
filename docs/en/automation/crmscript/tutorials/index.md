@@ -5,7 +5,7 @@ description: CRMScript tutorials
 keywords: CRMScript
 author: Bergfrid Dias
 date: 04.15.2024
-topic: howto
+content_type: howto
 ---
 
 # CRMScript tutorials

@@ -6,7 +6,7 @@ keywords: close request, set status closed, closed, bulk update, request
 author: Bergfrid Dias, kirstiaa
 date: 01.15.2025
 version: 10.5.1
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

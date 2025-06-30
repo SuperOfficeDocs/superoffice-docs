@@ -6,7 +6,7 @@ keywords: split request, split, Properties of the new request, request
 author: Hanne Gunnarsson
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

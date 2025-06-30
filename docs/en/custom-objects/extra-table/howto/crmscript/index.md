@@ -4,6 +4,6 @@ title: Extra tables
 author: Bergfrid Dias
 date: 02.01.2024
 keywords: 
-topic: howto
+content_type: howto
 redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/custom-objects/extra-table.html
 ---

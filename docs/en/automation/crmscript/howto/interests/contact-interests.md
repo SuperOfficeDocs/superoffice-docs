@@ -6,7 +6,7 @@ keywords: CRMScript, contact, person, interest, GetInterests, GetPersonEntity, N
 author: Eivind Fasting
 date: 04.15.2024
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Set/clear interest on contact

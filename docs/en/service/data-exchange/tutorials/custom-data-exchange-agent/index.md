@@ -5,7 +5,7 @@ description: How to create a custom Data Exchange agent
 author: 
 date: 06.24.2016
 keywords: ede, dbi
-topic: tutorial
+content_type: tutorial
 #envir:
 #client:
 ---

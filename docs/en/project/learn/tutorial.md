@@ -6,7 +6,7 @@ keywords: project guide, guide, workflow, project
 author: Bergfrid Dias
 date: 01.03.2025
 version: 10
-topic: tutorial
+content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

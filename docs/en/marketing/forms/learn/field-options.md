@@ -6,7 +6,7 @@ keywords: form, field, form element, view element, reCAPTCHA
 author: SuperOffice RnD
 date: 02.29.2024
 version: 10
-topic: reference
+content_type: reference
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

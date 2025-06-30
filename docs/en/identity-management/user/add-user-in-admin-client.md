@@ -4,7 +4,7 @@ uid: add_user_in_admin_client
 description: Add a user in the Admin client
 author: Bergfrid Dias
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Add a user in the Admin client

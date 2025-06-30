@@ -5,7 +5,7 @@ description: SuperID terms and conditions
 author:
 keywords: SuperID
 date:
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

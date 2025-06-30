@@ -5,7 +5,7 @@ description: Schedule tasks for Travel gateway
 author: {github-id}
 keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
 date: 12.17.2021
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

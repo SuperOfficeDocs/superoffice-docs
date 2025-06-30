@@ -5,7 +5,7 @@ description: Advice for getting started with CRMScript.
 keywords: CRMScript
 author: Bergfrid Dias
 date: 04.15.2024
-topic: concept
+content_type: concept
 ---
 
 # Getting started with CRMScript

@@ -4,7 +4,7 @@ description: Readiness to hand
 author: Christian Mogensen
 date: 12.09.2011
 keywords: design,ui
-topic: concept
+content_type: concept
 ---
 
 # Readiness to hand

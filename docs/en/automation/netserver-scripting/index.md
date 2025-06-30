@@ -4,7 +4,7 @@ uid: scripting_ns_services
 description: Scripting in NetServer services
 author: Tony Yates
 date: 04.15.2009
-topic: concept
+content_type: concept
 keywords:
 envir: onsite
 client: web

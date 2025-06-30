@@ -5,7 +5,7 @@ description: Macros and scripts tab
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: script, macro
-topic: reference
+content_type: reference
 language: en
 ---
 

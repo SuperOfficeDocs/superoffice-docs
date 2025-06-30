@@ -5,7 +5,7 @@ description: How to open a Project using the soprotocol
 keywords: soprotocol, project
 author: Eivind Fasting
 date: 11.26.2024
-topic: howto
+content_type: howto
 ---
 
 # Open project

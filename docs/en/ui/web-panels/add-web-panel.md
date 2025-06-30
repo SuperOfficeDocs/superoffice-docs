@@ -5,7 +5,7 @@ description: How to add a web panel
 author:
 date:
 keywords:
-topic: howto
+content_type: howto
 ---
 
 # Adding a web panel

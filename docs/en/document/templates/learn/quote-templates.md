@@ -6,7 +6,7 @@ keywords: quote, quote template, template, quote document, quote details, merge 
 author: Bergfrid Dias
 date: 07.31.2024
 version: 10
-topic: concept
+content_type: concept
 language: en
 ---
 

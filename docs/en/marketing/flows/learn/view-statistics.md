@@ -6,7 +6,7 @@ keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 05.15.2024
 version: 10.3.5
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

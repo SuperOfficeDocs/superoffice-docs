@@ -6,7 +6,7 @@ keywords: udef, user-defined field, custom field, page 1, align fields, move fie
 author: Bergfrid Dias
 date: 01.16.2024
 version: 10
-topic: howto
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

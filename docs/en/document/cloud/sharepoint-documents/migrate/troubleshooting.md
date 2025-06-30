@@ -5,7 +5,7 @@ description: Tips for troubleshooting a SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
 date: 01.15.2024
 keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
-topic: howto
+content_type: howto
 version:
 envir: cloud
 client: online

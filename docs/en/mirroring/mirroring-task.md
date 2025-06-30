@@ -4,7 +4,7 @@ uid: mirroring_task
 description: About the database Mirroring Task
 author: {github-id}
 keywords: Mirroring Task, mirror
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

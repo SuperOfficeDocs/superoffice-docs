@@ -6,7 +6,7 @@ keywords: sale
 author: Bergfrid Dias
 date: 10.27.2021
 version: 10
-topic: concept
+content_type: concept
 ---
 
 # Lost or sold sales

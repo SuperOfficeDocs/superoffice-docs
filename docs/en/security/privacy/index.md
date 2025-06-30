@@ -5,7 +5,7 @@ description: Intro to General Data Protection Regulation (GDPR)
 author: SuperOffice
 keywords: GDPR, privacy, EU, regulation, legal
 date: 08.28.2023
-topic: concept
+content_type: concept
 ---
 
 # Intro to General Data Protection Regulation (GDPR)

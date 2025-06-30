@@ -5,7 +5,7 @@ description: Create a prototype for the built-in travel database
 author: {github-id}
 keywords:
 date:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

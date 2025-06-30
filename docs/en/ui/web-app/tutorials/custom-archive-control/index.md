@@ -5,7 +5,7 @@ description: Create custom archive controls
 author: Steffan Alte
 date: 2007
 keywords:
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

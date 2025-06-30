@@ -6,7 +6,7 @@ keywords: CRMScript, project, project guide, project type, stage, ProjectAgent
 author: Bergfrid Skaara Dias
 date: 05.31.2023
 version: 9
-topic: howto
+content_type: howto
 ---
 
 # Project guides

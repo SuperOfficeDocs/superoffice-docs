@@ -5,7 +5,7 @@ description: URL parameters
 author:
 date:
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # URL parameters

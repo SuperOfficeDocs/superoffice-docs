@@ -4,7 +4,7 @@ uid: upgrade_web_client_to_8
 description: Upgrade SuperOffice Web to version 8
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

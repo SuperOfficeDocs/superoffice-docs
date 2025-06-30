@@ -5,7 +5,7 @@ description: "Learn what app provisioning is and the benefits of automating it."
 author: Margrethe Romnes
 date: 02.02.2022
 keywords: provisioning, set-up, apps
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

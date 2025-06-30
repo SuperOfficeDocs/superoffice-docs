@@ -4,7 +4,7 @@ uid: superoffice_globalization
 description: SuperOffice.Globalization namespace
 author: {github-id}
 date: 04.08.2018
-topic: reference
+content_type: reference
 keywords:
 ---
 

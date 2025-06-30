@@ -5,7 +5,7 @@ description: "Learn about the alternatives for sending and receiving emails in S
 author: Frode B
 date: 06.20.2024
 keywords: Mailgun, email, suocrm
-topic: concept
+content_type: concept
 envir: online
 ---
 

@@ -5,7 +5,7 @@ description: Custom AJAX methods - add functionality for creating a follow-up ap
 author: Steffan Alte
 date: 2007
 keywords:
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

@@ -5,7 +5,7 @@ description: How to build a custom page with standard controls
 author: Tony Yates
 date: 06.24.2016
 keywords: contact
-topic: tutorial
+content_type: tutorial
 client: web
 envir: onsite
 ---

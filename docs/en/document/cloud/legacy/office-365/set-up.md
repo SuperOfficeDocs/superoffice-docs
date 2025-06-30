@@ -5,7 +5,7 @@ description: How to set up Microsoft 365 Cloud Office document integration
 author: {github-id}
 date: 06.20.2022
 keywords: Microsoft 365, document
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

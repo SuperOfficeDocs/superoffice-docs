@@ -6,7 +6,7 @@ keywords: form, submission, double opt-in
 author: Bergfrid Dias
 date: 02.29.2024
 version: 10
-topic: concept
+content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

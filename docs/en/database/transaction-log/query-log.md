@@ -5,7 +5,7 @@ description: How to query the transaction log - keeping track of changes
 author: {github-id}
 date:
 keywords: database,travel
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

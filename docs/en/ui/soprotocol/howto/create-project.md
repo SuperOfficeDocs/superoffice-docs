@@ -5,7 +5,7 @@ description: How to create a Project using the soprotocol
 keywords: soprotocol, project, create
 author: Eivind Fasting
 date: 11.26.2024
-topic: howto
+content_type: howto
 ---
 
 # Create project

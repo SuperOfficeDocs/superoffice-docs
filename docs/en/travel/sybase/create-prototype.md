@@ -5,7 +5,7 @@ description: Create prototype for Sybase
 author: {github-id}
 keywords:
 date:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

@@ -4,7 +4,7 @@ uid: globalization_culturesettinghelper
 description: CultureSettingHelper class
 author: {github-id}
 date: 05.08.2018
-topic: concept
+content_type: concept
 keywords:
 ---
 

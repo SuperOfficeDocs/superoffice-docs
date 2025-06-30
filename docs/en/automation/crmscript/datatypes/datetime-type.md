@@ -4,7 +4,7 @@ title: DateTime data type
 author: Bergfrid Dias
 date: 01.14.2022
 keywords:
-topic: concept
+content_type: concept
 ---
 
 # DateTime data type

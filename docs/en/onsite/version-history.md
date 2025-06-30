@@ -5,7 +5,7 @@ description: SuperOffice version history overview
 author: Martin Pavlas
 date: 05.05.2025
 keywords: onsite, version, history, release
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

@@ -5,7 +5,7 @@ description: User-defined in CRMScript
 author: Bergfrid Dias
 date: 02.07.2022
 keywords: udef, custom objects, custom fields
-topic: howto
+content_type: howto
 ---
 
 # User-defined fields

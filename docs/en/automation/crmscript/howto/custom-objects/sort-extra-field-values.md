@@ -4,7 +4,7 @@ title: Sorting CS extra fields list values
 author: David Hollegien
 date: 06.19.2018
 keywords: extra field, custom field
-topic: howto
+content_type: howto
 envir:
 client:
 ---

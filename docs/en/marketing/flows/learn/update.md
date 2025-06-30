@@ -6,7 +6,7 @@ keywords: flow, marketing automation, edit flow
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.11.2024
 version: 10.3.7
-topic: howto
+content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -5,7 +5,7 @@ description: Primary tenant
 author: {github-id}
 date:
 keywords: 
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

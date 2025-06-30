@@ -5,7 +5,7 @@ description: Request log
 author: Hanne Gunnarsson
 date: 06.29.2022
 keywords: request
-topic: concept
+content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

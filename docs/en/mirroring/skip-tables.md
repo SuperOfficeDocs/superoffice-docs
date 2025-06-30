@@ -5,7 +5,7 @@ description: Add tables to skip mirroring
 author: {github-id}
 keywords:
 date: 12.22.2022
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

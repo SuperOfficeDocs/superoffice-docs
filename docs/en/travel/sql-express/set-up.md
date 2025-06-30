@@ -5,7 +5,7 @@ description: MSDE / SQL express as travel database
 author: {github-id}
 keywords: travel
 date:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

@@ -4,7 +4,7 @@ title: Basic troubleshooting
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Basic troubleshooting

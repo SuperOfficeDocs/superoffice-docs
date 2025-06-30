@@ -5,7 +5,7 @@ description: Layout elements
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Layout elements

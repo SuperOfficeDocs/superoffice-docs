@@ -5,7 +5,7 @@ description: Guide to initial SCIM configuration
 author: {github-id}
 date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

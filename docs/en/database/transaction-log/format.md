@@ -4,7 +4,7 @@ uid: travel_transaction_log_format
 description: Travel transaction log format
 author: {github-id}
 keywords: database, travel
-topic: reference
+content_type: reference
 date:
 envir: onsite
 client: win

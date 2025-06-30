@@ -5,7 +5,7 @@ description:  Extra tables
 author: Bergfrid Dias
 date: 01.16.2024
 keywords:
-topic: howto
+content_type: howto
 language: en
 redirect_url: https://docs.superoffice.com/en/custom-objects/learn/extra-table.html
 ---

@@ -5,7 +5,7 @@ description: Customer Centre
 author: {github-id}
 date: 03.16.2023
 keywords: Customer Center, CEP
-topic: concept
+content_type: concept
 ---
 
 # Customer Centre

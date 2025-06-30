@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 11.26.2024
 version: 10.3.4
 keywords: soprotocol, contact, create
-topic: howto
+content_type: howto
 ---
 
 # Create contact

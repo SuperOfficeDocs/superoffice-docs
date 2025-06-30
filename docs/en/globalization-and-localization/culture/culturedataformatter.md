@@ -4,7 +4,7 @@ uid: globalization_culturedataformatter
 description: Localization, class CultureDataFormatter
 author: {github-id}
 date: 05.08.2018
-topic: reference
+content_type: reference
 keywords:
 ---
 

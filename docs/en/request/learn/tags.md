@@ -6,7 +6,7 @@ keywords: tag request, add tag, remove tag, tagging, tag, request
 author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service

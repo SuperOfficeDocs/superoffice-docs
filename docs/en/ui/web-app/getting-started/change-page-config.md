@@ -5,7 +5,7 @@ description: How to alter page configuration files
 author: Tony Yates
 date: 06.24.2016
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: web
 ---

@@ -5,7 +5,7 @@ description: Time zones
 author: SuperOffice RnD
 date: 05.08.2023
 keywords: time zone, country, localization, flag
-topic: concept
+content_type: concept
 language: en
 ---
 

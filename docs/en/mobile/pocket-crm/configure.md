@@ -5,7 +5,7 @@ description: Pocket CRM config
 author: {github-id}
 date: 12.08.2021
 keywords: Pocket CRM, NetServer, config
-topic: howto
+content_type: howto
 envir: onsite
 client: pocket
 ---

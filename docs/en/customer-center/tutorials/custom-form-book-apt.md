@@ -5,7 +5,7 @@ description: Custom form in Customer Centre to book a meeting
 author: {github-id}
 date: 09.15.2011
 keywords: Customer Center, form
-topic: tutorial
+content_type: tutorial
 ---
 
 # Custom form - book meeting

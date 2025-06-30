@@ -5,7 +5,7 @@ description: How to solve problems related to approving a customer's tenant
 author: Margrethe Romnes
 date: 09.15.2023
 keywords: tenant, consent, approve
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

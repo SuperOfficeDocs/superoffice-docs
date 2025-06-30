@@ -5,7 +5,7 @@ description: Dialling contacts; Phone preferences
 author: SuperOffice RnD
 date: 09.22.2023
 keywords: diary, follow-up, phone, call, dial
-topic: howto
+content_type: howto
 language: en
 ---
 

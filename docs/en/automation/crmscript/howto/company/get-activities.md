@@ -6,7 +6,7 @@ keywords: CRMScript, company, NSContactAgent
 author: Bergfrid Skaara Dias
 date: 02.21.2022
 version: 10
-topic: howto
+content_type: howto
 ---
 
 # Activities

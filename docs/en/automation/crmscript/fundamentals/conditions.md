@@ -4,7 +4,7 @@ title: Control - if else and else if
 author:
 date:
 keywords:
-topic:
+content_type: concept
 ---
 
 # Control - if else and else if

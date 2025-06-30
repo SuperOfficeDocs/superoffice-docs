@@ -5,7 +5,7 @@ description: Description of the process of activating a valid custom application
 author: Margrethe
 date: 12.20.2023
 keywords: activate, consent
-topic: howto
+content_type: howto
 envir: cloud
 client: online
 ---

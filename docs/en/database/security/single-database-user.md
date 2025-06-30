@@ -5,7 +5,7 @@ description: Changes in SuperOffice 7 - Single database user
 author: {github-id}
 date:
 keywords: database
-topic: reference
+content_type: reference
 envir: onsite
 # client: 
 ---

@@ -6,7 +6,7 @@ keywords: create video meeting, video meeting URL, diary, follow-up, video meeti
 author: SuperOffice RnD
 date: 01.13.2025
 version: 10.5
-topic: howto
+content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

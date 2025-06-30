@@ -5,7 +5,7 @@ description: Introduction to triggers
 author: Michel Krohn-Dale
 date: 11.11.2021
 keywords: CRMScript, trigger, automation, event
-topic: concept
+content_type: concept
 ---
 
 # Triggers

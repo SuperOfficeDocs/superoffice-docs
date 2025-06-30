@@ -5,7 +5,7 @@ description: "Learn about the tenant-approval sequence and when the customer's a
 author: Margrethe Romnes
 date: 12.20.2023
 keywords: provisioning, apps, consent, I approve
-topic: concept
+content_type: concept
 envir: cloud
 client: online
 ---

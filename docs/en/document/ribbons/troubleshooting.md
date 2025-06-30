@@ -4,7 +4,7 @@ uid: troubleshooting_ribbons
 description: Troubleshooting SuperOffice Ribbons
 author: {github-id}
 keywords:
-topic: howto
+content_type: howto
 envir: onsite
 client: win
 ---

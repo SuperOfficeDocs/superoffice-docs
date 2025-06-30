@@ -5,7 +5,7 @@ description: Web panels
 author:
 date:
 keywords: ui
-topic: concept
+content_type: concept
 ---
 
 # Web panels

@@ -4,7 +4,7 @@ uid: deploy_maillink_webextensions_on_citrix
 description: Deploy WebTools in a Citrix or Terminal Server environment
 author: {github-id}
 keywords: maillink deploy citrix terminal webtools
-topic: howto
+content_type: howto
 envir: onsite
 # client:
 ---
