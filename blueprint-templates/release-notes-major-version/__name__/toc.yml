@@ -4,45 +4,30 @@ items:
 - name: Core CRM
   href: core-crm/index.md
   items:
-  - name: 10.0.1 update
-    href: core-crm/10.0.1-update.md
-- name: Settings and Maintenance
-  href: admin/index.md
+  - name: 12.x update
+    href: core-crm/12.x-update.md
+- name: Sales
+  href: sale/index.md
   items:
-  - name: 10.0.1 update
-    href: admin/10.0.1-update.md
+  - name: 12.x update
+    href: sale/12.x-update.md
 - name: Service
   href: service/index.md
   items:
-  - name: 10.0.1 update
-    href: service/10.0.1-update.md
+  - name: 12.x update
+    href: service/12.x-update.md
 - name: Marketing
   href: marketing/index.md
   items:
-  - name: 10.0.4 update
-    href: marketing/10.0.4-update.md
-- name: CEP
-  href: cep/index.md
+  - name: 12.x update
+    href: marketing/12.x-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
   items:
-  - name: 10.0.2 update
-    href: cep/10.0.2-update.md
-- name: Mobile
-  href: mobile/index.md
-  items:
-  - name: 10.1.4 update
-    href: mobile/10.1.4-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 10.0.6 update
-    href: office-integrations/10.0.6-update.md
+  - name: 12.x update
+    href: admin/12.x-update.md
 - name: API
   href: api/index.md
   items:
-  - name: 10.0.1 update
-    href: api/10.0.1-update.md
-- name: Developer Products
-  href: development-products/index.md
-  items:
-  - name: 10.0.1 update
-    href: development-products/10.0.1-update.md
+  - name: 12.x update
+    href: api/12.x-update.md
