@@ -6,7 +6,7 @@ keywords:
 date:
 content_type: concept
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Area Management
@@ -26,7 +26,7 @@ Other benefits are that a smaller database file for Travel users occupies less h
 If a company has two salespersons, Peter and Paul, who have to travel, they will each have sign-on rights to their own area in the database.
 
 Since they require information about customers for which 2 other salespersons in the company, Maria and Lynne, are responsible, the data for Peter, Paul, Marie, and Lynne can be included in the area, even if only Peter and Paul have sign-on rights.
-Another example may be where one user has exclusive responsibility for companies in the South East. The person concerned could, for example, be defined in an area that only includes his company records and not the records of other users. Furthermore, a user's area could include company data for more than one user, for example, a regional manager having access to his four employees' data (see the examples regarding the salespersons earlier in this section.
+Another example may be where one user has exclusive responsibility for companies in the South East. The person concerned could, for example, be defined in an area that only includes his company records and not the records of other users. Furthermore, a user's area could include company data for more than one user, for example, a regional manager having access to his four employees' data (see the examples regarding the salespersons earlier in this section).
 
 An individual user's data can be included in more than one area, but a user only has sign-on access rights to one area at a time. Not every SuperOffice user has to be assigned an area. The users who are not assigned an area continue to have access to the complete central database.
 

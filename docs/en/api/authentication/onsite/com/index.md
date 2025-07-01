@@ -7,7 +7,7 @@ date: 05.08.2018
 keywords: security, authentication, COM, IApplication, IDatabase
 content_type: concept
 deployment: onsite
-client: Windows
+platform: win
 ---
 
 # COM

@@ -7,7 +7,7 @@ date: 10.28.2019
 keywords:
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Win Script and event system: aborting a save sequence

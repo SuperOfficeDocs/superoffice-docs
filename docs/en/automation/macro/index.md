@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords: automation, macro, script
 content_type: concept
 deployment: online, onsite
-client: win, web, service
+platform: web, win, service
 ---
 
 # Macros

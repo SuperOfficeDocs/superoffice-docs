@@ -7,7 +7,7 @@ date: 12.10.2021
 keywords: SuperOffice.config
 content_type: reference
 deployment: onsite
-client: win
+platform: win
 ---
 
 # SuperOffice.config

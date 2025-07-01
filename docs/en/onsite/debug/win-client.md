@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords: debug, superoffice.ini, superoffice.config
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
  
 # Debug Win client

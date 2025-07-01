@@ -9,7 +9,6 @@ version: 1.30
 version_devportal: 1.30
 content_type: howto
 deployment: online
-client:
 ---
 
 # Error reporting emails

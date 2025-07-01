@@ -7,7 +7,7 @@ keywords: database, travel
 content_type: concept
 date:
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Transaction log

@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: install, win, client
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Install SuperOffice 9 or 10 Windows client

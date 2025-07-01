@@ -7,7 +7,7 @@ date: 11.16.2021
 keywords: data access, entity, entities, RDB
 content_type: concept
 deployment: online, onsite
-client: win, web
+platform: web, win
 ---
 
 # Collections

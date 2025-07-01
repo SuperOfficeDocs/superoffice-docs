@@ -7,7 +7,7 @@ keywords:
 date:
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Create prototype for Sybase

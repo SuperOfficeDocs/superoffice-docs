@@ -7,7 +7,7 @@ keywords: travel
 date:
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Sybase as Travel database

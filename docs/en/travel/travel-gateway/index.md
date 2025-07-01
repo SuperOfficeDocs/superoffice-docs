@@ -6,7 +6,7 @@ keywords:
 date:
 content_type: concept
 deployment: onsite
-client: win
+platform: win
 ---
 
 # SuperOffice Travel Gateway

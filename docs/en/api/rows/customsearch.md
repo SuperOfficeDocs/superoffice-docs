@@ -6,7 +6,7 @@ date: 11.16.2021
 keywords: data access, rows, CustomSearch
 content_type: concept
 deployment: online, onsite
-client: win, web
+platform: web, win
 ---
 
 # CustomSearch queries

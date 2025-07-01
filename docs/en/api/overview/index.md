@@ -7,7 +7,7 @@ date: 12.02.2021
 keywords: API, getting started, integration point, scripting, Jscript, Javascript, VB.NET, C#, NetServer, extensibility
 content_type: concept
 deployment: online, onsite
-client: win, web, service
+platform: web, win, service
 ---
 
 # Introducing SuperOffice APIs

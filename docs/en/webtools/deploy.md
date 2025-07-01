@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: WebTools
 content_type: howto
 deployment: onsite
-client:
 ---
 
 # WebTools deployment in a restricted environment

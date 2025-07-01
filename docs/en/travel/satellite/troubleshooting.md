@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: travel satellite
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Troubleshooting problems with satellite management

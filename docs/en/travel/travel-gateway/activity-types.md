@@ -6,7 +6,7 @@ keywords:
 date:
 content_type: reference
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Activity types for scheduling

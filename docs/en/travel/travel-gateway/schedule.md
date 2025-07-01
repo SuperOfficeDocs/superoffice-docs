@@ -7,7 +7,7 @@ keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
 date: 12.17.2021
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Schedule tasks for Travel gateway

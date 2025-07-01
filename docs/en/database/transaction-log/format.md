@@ -7,7 +7,7 @@ keywords: database, travel
 content_type: reference
 date:
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Format

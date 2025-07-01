@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: install
 content_type: howto
 deployment: onsite
-client:
 ---
 
 # Prepare CRM Server computer

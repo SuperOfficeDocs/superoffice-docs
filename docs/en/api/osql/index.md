@@ -7,7 +7,7 @@ date: 11.16.2021
 keywords: data access, OSQL, objectified SQL, SuperOffice.CRM.Data, SuperOffice.Data, SuperOffice.Data.SQL, SODBIF
 content_type: concept
 deployment: online, onsite
-client: win, web
+platform: web, win
 ---
 
 # SuperOffice Objectified SQL (OSQL)

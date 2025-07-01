@@ -7,7 +7,7 @@ date: 11.25.2021
 keywords: api, integration point, Windows
 content_type: reference
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Integration scenarios: Window client

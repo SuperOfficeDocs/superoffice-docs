@@ -5,7 +5,7 @@ author: SuperOffice Product and Engineering
 keywords: tavel
 content_type: concept
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Satellite

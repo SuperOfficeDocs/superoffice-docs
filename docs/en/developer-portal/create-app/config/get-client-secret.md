@@ -9,7 +9,6 @@ version: 2.0
 version_devportal: 2.0
 content_type: howto
 deployment: online
-client:
 ---
 
 # Create a new client secret

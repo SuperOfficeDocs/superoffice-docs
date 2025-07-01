@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Set up Area Management

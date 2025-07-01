@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords: NetServer, web.config, BatchService, DiagnosticsWebUri
 content_type: reference
 deployment: onsite
-client: win
+platform: win
 ---
 
 # NetServer BatchService element

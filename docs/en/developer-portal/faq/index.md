@@ -8,7 +8,6 @@ keywords: Developer Portal
 content_type: howto
 version_devportal: 1.21
 deployment: online
-client:
 ---
 
 # Developer Portal FAQ

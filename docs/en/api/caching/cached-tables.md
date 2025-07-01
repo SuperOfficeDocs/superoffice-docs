@@ -7,7 +7,7 @@ date: 02.22.2022
 keywords: database
 content_type: concept
 deployment: onsite
-client: win
+platform: win
 ---
 
 # Cached tables

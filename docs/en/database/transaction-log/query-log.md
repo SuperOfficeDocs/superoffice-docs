@@ -7,7 +7,7 @@ date:
 keywords: database,travel
 content_type: howto
 deployment: onsite
-client: win
+platform: win
 ---
 
 # All changes are logged
