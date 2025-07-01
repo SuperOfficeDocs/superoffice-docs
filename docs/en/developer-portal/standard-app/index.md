@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: standard app, public app, App Store
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

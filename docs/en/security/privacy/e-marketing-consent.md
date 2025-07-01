@@ -5,7 +5,7 @@ description: GDRP consent for e-marketing
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

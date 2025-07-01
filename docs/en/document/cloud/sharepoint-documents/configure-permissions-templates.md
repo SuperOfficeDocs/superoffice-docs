@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SharePoint, permission, security, access control, Microsoft Entra, domain group, ME-ID, AAD
 content_type: howto
 version:
-envir: cloud
+deployment: online
 client: online
 ---
 

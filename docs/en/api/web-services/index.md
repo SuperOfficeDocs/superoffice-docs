@@ -6,7 +6,7 @@ author: Bergfrid Dias, AnthonyYates
 date: 03.28.2022
 keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, SuperOffice.CRM.Services, DTO, carrier
 content_type: concept
-envir: cloud, onsite
+deployment: online, onsite
 client: win, web
 ---
 

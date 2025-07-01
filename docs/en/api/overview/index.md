@@ -6,7 +6,7 @@ author: Tony Yates
 date: 12.02.2021
 keywords: API, getting started, integration point, scripting, Jscript, Javascript, VB.NET, C#, NetServer, extensibility
 content_type: concept
-envir: cloud, onsite
+deployment: online, onsite
 client: win, web, service
 ---
 

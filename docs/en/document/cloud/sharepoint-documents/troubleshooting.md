@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

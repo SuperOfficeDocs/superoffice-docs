@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 01.04.2022
 keywords: authorization error, token, certificate
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -7,7 +7,7 @@ date: 01.11.2024
 version: 10.2
 keywords: mirroring, blocked tables, database, schema
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

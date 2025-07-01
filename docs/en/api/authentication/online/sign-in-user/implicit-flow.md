@@ -5,7 +5,7 @@ description: "Introduction to the OICD Implicit flow."
 author: SuperOffice Product and Engineering
 keywords: authentication, OAuth 2.0, OIDC, Implicit flow
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

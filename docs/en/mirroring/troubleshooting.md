@@ -5,7 +5,7 @@ description: Troubleshooting Database Mirroring
 author: Anthony Yates
 keywords: database mirroring
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ keywords: certification
 author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

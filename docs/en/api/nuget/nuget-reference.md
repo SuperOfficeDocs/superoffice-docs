@@ -5,7 +5,7 @@ description: SuperOffice NuGet packages
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -5,7 +5,7 @@ description: Native console application quick-start
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
+deployment: online
 client: online
 ---
 

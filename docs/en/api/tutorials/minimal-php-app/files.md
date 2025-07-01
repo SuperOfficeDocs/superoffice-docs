@@ -4,7 +4,7 @@ description:
 author: SuperOffice Product and Engineering
 keywords:
 topic:
-envir: cloud
+deployment: online
 client: online
 ---
 

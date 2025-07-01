@@ -6,7 +6,7 @@ author: frodeb
 date: 01.15.2024
 keywords: Microsoft Entra
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

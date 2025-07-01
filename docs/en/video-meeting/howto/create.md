@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 13.08.2021
 keywords: video meeting
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

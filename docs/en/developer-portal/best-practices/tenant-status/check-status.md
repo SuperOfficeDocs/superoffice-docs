@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 05.08.2024
 keywords: tenant, status, state API
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 12.10.2024
 version_devportal: 1.29
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 <!-- markdownlint-disable-file MD051 -->

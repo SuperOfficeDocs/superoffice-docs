@@ -6,7 +6,7 @@ keywords: security, TLS, PKI, port 443
 author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

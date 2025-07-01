@@ -6,7 +6,7 @@ keywords: status, monitor, tenant, State Change URL, state API, availability
 author: Bergfrid Dias, Margrethe Romnes, Eivind Fasting
 date: 03.22.2024
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

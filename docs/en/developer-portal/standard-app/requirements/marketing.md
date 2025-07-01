@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: certification
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

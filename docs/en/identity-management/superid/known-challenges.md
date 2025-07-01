@@ -6,7 +6,7 @@ author:
 date:
 keywords: 
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

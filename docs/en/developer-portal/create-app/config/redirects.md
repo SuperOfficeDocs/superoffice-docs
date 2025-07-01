@@ -6,7 +6,7 @@ author: Bergfrid Dias, Margrethe Romnes
 date: 09.12.2023
 keywords: callback, redirect, endpoint
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -7,7 +7,7 @@ author: Frode Berntsen
 date: 03.31.2025
 version: 10.5
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

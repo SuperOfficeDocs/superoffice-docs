@@ -6,7 +6,7 @@ author: Tony Yates
 date: 08.03.2017
 keywords: NetServer, archive provider
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

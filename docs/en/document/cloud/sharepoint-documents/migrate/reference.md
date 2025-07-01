@@ -7,7 +7,7 @@ date: 11.02.2023
 keywords: SharePoint, document
 content_type: reference
 version:
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -5,7 +5,7 @@ author: Tony Yates
 date: 11.26.2015
 keywords: REST, API, RESTful, WebAPI, HTTP Action Verbs, BASIC, SOTicket, authentication, XSRF Token, setRequestHeader, ODATA
 content_type: article
-envir: cloud
+deployment: online
 client: online
 version: 8.1
 ---

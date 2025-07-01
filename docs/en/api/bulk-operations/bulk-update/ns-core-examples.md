@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.23.2017
 keywords:
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

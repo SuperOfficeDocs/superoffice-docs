@@ -5,7 +5,7 @@ description: How to override the certificate resolver
 keywords: certificate, resolve, validate, SuperOfficeFederatedLogin.crt, CertificateValidator, JWT security token, X509Certificate2
 author: AnthonyYates
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ author: Tony Yates
 date: 09.13.2018
 keywords: apps, API, authentication, proxy
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords: mailgun
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

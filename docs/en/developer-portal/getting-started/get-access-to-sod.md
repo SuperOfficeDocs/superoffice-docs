@@ -6,7 +6,7 @@ author: Bergfrid Dias, AnthonyYates
 date: 09.14.2023
 keywords: sod, form, developer registration
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

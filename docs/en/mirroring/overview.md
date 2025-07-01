@@ -5,7 +5,7 @@ description: Database Mirroring Service for SuperOffice CRM Online
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

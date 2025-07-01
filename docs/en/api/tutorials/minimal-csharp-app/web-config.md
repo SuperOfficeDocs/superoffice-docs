@@ -5,7 +5,7 @@ description: Web.Config configuration overview
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
+deployment: online
 client: online
 ---
 

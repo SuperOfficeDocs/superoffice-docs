@@ -5,7 +5,7 @@ description: Update SuperOffice username to match IdP username
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
+deployment: online
 client: online
 ---
 

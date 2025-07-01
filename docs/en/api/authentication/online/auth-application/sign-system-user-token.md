@@ -5,7 +5,7 @@ description: How to sign system user token
 author: SuperOffice Product and Engineering
 keywords: authentication, system user
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

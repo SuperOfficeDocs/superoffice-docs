@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 08.26.2022
 keywords: App Store
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

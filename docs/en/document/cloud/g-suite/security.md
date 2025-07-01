@@ -5,7 +5,7 @@ description:  Google Workspace document integration security
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

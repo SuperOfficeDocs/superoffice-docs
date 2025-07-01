@@ -5,7 +5,7 @@ author: Tony Yates
 date: 12.26.2009
 keywords:
 topic:
-envir: cloud
+deployment: online
 client: online
 ---
 

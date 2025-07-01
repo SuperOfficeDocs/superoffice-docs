@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: authentication, soap, system user
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

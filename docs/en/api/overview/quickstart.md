@@ -6,7 +6,7 @@ author: Eivind Fasting
 date: 10.05.2023
 keywords: API, getting started, REST
 content_type: concept
-envir: cloud, onsite
+deployment: online, onsite
 client: web, service
 ---
 

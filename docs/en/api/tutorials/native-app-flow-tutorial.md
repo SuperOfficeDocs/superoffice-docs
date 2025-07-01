@@ -5,7 +5,7 @@ description: How to build your OAuth native app flow
 author: AnthonyYates
 keywords: oidc, authentication
 content_type: tutorial
-envir: cloud
+deployment: online
 client: online
 ---
 

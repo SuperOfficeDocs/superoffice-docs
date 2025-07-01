@@ -5,7 +5,7 @@ description: SQL Server change tracking
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

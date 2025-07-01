@@ -5,7 +5,7 @@ description: Activate and deactivate SCIM rules
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

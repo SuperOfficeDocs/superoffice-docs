@@ -6,7 +6,7 @@ keywords: authentication, authenticate app user, authentication token, SAML
 author: Tony Yates, Margrethe Romnes
 date: 03.22.2024
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -5,7 +5,7 @@ author: Frode Lillerud
 date: 03.03.2012
 keywords: search,crmscript
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -5,7 +5,7 @@ description: Getting started with Video Meetings for SuperOffice - Webex
 date: 06.21.2021
 keywords: video meeting, Webex
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 # Video Meetings for SuperOffice: Webex

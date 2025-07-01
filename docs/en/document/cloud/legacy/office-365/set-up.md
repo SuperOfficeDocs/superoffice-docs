@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 06.20.2022
 keywords: Microsoft 365, document
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

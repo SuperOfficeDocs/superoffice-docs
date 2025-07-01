@@ -7,7 +7,7 @@ author: Margrethe Romnes, Anthony Yates
 date: 10.31.2024
 version: 10
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

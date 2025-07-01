@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.06.2021
 keywords: production sandbox, test environment, OC, clone
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

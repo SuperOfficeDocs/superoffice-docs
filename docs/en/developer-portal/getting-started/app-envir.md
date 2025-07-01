@@ -6,7 +6,7 @@ author: Tony Yates
 date: 05.19.2022
 keywords: sod, stage, environment, maintenance window
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

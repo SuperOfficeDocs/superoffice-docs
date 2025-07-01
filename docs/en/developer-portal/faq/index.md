@@ -7,7 +7,7 @@ date: 04.04.2024
 keywords: Developer Portal
 content_type: howto
 version_devportal: 1.21
-envir: cloud
+deployment: online
 client:
 ---
 

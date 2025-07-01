@@ -6,7 +6,7 @@ author: Frode Berntsen
 date: 11.02.2023
 keywords: SharePoint, document, template
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ keywords: certification, apps
 author: Margrethe Romnes
 date: 05.12.2025
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

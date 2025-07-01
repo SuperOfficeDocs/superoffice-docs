@@ -7,7 +7,7 @@ author: Martin Pavlas
 date: 03.04.2024
 version: 10.3
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: standard app
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

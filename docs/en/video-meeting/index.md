@@ -6,7 +6,7 @@ keywords: video meeting, template variable
 author: SuperOffice Product and Engineering
 date: 12.10.2024
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

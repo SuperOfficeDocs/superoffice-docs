@@ -7,7 +7,7 @@ date: 08.18.2023
 keywords: SharePoint, document
 content_type: howto
 version:
-envir: cloud
+deployment: online
 client: online
 ---
 

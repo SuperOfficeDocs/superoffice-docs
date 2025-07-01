@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 02.02.2022
 keywords: SPF, email, DNS record, domain
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra domain, ME-ID, AAD
 content_type: concept
 version:
-envir: cloud
+deployment: online
 client: online
 ---
 

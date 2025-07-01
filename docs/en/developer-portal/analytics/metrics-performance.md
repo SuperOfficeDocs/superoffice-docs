@@ -8,7 +8,7 @@ date: 07.08.2024
 version: 1.24
 version_devportal: 1.24
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

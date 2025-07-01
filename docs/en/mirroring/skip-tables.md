@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 date: 12.22.2022
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

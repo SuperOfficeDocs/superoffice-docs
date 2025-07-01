@@ -5,7 +5,7 @@ description: Submit this form to order production sandbox.
 author: SuperOffice Product and Engineering
 keywords: online sandbox
 content_type: form
-envir: cloud
+deployment: online
 client: online
 ---
 

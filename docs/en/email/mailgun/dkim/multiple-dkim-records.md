@@ -6,7 +6,7 @@ author: Martin Pavlas
 date: 09.12.2023
 keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

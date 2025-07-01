@@ -5,7 +5,7 @@ description: How to install and configure the CRM Pocket client
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
+deployment: online
 client: pocket
 ---
 

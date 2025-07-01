@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 27.02.2025
 keywords: federated authentication, SuperID, identity provider, sign-in
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

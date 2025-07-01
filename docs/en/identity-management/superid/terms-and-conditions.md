@@ -6,7 +6,7 @@ author:
 keywords: SuperID
 date:
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.23.2017
 keywords: bulk update, FieldValueInfo
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

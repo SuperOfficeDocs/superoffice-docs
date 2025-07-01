@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

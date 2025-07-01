@@ -6,7 +6,7 @@ author: AnthonyYates
 date: 12.10.2021
 keywords: API, NetServer, HDB, RDB, entity, row, archive, OSQL, web service, services
 content_type: concept
-envir: cloud, onsite
+deployment: online, onsite
 client: win, web
 ---
 

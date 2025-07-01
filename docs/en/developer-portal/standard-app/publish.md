@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: App Store
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 --- 
 

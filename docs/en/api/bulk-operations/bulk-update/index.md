@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.23.2017
 keywords: data-access, bulk-update
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

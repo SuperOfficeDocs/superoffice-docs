@@ -5,7 +5,7 @@ description: ASP.NET web application quickstart
 author: SuperOffice Product and Engineering
 keywords: oidc, razor page
 content_type: tutorial
-envir: cloud
+deployment: online
 client: online
 ---
 

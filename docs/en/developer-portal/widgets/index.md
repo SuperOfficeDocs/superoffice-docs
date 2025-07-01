@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 04.30.2025
 version_devportal: 2.2
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 language: en
 ---

@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.15.2023
 keywords: tenant, consent, approve
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

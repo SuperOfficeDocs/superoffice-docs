@@ -5,7 +5,7 @@ description: Securing ERP Connectors for SuperOffice Online
 author: SuperOffice Product and Engineering
 keywords: sync
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

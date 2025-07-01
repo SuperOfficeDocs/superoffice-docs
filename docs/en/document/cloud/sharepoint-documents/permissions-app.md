@@ -6,7 +6,7 @@ author: Frode Berntsen
 date: 05.08.2023
 keywords: permission, integration, app, SharePoint, document
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

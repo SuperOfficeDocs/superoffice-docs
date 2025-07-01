@@ -5,7 +5,7 @@ description: Authentication scenarios for various app types
 author: SuperOffice Product and Engineering
 keywords: authorization
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

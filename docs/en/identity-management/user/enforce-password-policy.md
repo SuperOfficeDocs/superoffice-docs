@@ -6,7 +6,7 @@ keywords: SuperID, password, password policy
 author: Bergfrid Dias
 date: 03.21.2024
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

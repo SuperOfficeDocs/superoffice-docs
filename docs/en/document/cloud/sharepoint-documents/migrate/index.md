@@ -7,7 +7,7 @@ author: Frode Berntsen, Bergfrid Dias
 date: 03.19.2025
 version:
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

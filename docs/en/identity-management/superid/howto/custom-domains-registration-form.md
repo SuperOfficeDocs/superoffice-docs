@@ -6,7 +6,7 @@ author: Martin Pavlas
 date: 13.06.2022
 keywords: custom domains registration form 
 content_type: form
-envir: cloud
+deployment: online
 client: online
 ---
 

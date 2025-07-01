@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 08.12.2021
 keywords: video meetings
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

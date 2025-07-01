@@ -7,7 +7,7 @@ author: RnD Services
 date: 04.19.2024
 version: 10
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

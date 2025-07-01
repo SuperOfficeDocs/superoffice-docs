@@ -6,7 +6,7 @@ author: Tony Yates
 date: 11.26.2021
 keywords: API, integration point, Service
 content_type: reference
-envir: cloud, onsite
+deployment: online, onsite
 client: service
 ---
 

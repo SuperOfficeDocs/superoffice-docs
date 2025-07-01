@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: private app, custom app
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

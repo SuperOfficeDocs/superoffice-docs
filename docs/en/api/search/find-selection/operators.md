@@ -4,7 +4,7 @@ description: Defines what operators are used with which data types and describes
 author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
-envir: cloud, onsite
+deployment: online, onsite
 client: web
 ---
 

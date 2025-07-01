@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 12.20.2023
 keywords: custom app, validation, checklist
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

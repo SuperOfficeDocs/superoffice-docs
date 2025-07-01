@@ -8,7 +8,7 @@ date: 10.09.2024
 version: 10.3.10
 pilot: yes
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 audience: person
 audience_tooltip: SuperOffice CRM

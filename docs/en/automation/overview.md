@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.07.2022
 keywords: automation, API, integration point, scripting, Jscript, Javascript, VB.NET, C#
 content_type: concept
-envir: cloud, onsite
+deployment: online, onsite
 client: win, web, service
 ---
 

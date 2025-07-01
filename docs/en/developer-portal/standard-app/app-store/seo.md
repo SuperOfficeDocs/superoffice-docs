@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 10.16.2024
 version_devportal: 1.27
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

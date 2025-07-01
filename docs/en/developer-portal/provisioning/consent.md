@@ -6,7 +6,7 @@ author: Margrethe Romnes
 date: 12.20.2023
 keywords: provisioning, apps, consent, I approve
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

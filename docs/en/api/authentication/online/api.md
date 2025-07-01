@@ -5,7 +5,7 @@ description: OIDC endpoints and metadata document, authorization header types, S
 author: AnthonyYates
 keywords: OpenID Connect, metadata document
 content_type: reference
-envir: cloud
+deployment: online
 client: online
 ---
 

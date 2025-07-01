@@ -6,7 +6,7 @@ author: Tony Yates
 date: 11.25.2021
 keywords: API, integration point, online
 content_type: concept
-envir: cloud
+deployment: online
 client: web
 ---
 

@@ -5,7 +5,7 @@ description: How to validate security tokens
 author: AnthonyYates
 keywords: certificates, jwt, authentication, token, security
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

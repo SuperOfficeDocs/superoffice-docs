@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 06.20.2022
 keywords: document
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

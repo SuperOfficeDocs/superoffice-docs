@@ -5,7 +5,7 @@ description: SuperOffice system user flow for non-interactive server-to-server c
 author: SuperOffice Product and Engineering
 keywords: authentication, system user, back-channel, non-interactive
 content_type: concept
-envir: cloud
+deployment: online
 client: online
 ---
 

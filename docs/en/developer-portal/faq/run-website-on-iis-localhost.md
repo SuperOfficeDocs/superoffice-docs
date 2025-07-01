@@ -5,7 +5,7 @@ description: Run a website on your machine, IIS localhost
 author: SuperOffice Product and Engineering
 keywords: IIS, localhost, Visual Studio
 content_type: howto
-envir: cloud
+deployment: online
 client: online
 ---
 

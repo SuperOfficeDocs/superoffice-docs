@@ -5,7 +5,7 @@ description: OpenId Authorization Code flow
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
+deployment: online
 ---
 
 # OpenID Authorization Code flow
