@@ -2,7 +2,7 @@
 title: How to create a resource provider
 uid: create_resource_provider
 description: How to create a resource provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto

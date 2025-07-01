@@ -2,7 +2,7 @@
 title: getErrorMessage
 uid: cs_soap_ports_admin_geterrormessage
 description: Services SOAP interface port admin getErrorMessage
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

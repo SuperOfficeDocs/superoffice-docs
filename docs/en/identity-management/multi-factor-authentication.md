@@ -2,7 +2,7 @@
 title: MFA
 uid: multi_factor_authentication
 description:  Multi-factor authentication
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: MFA,2FA
 content_type: concept

@@ -2,7 +2,7 @@
 title: Automated tasks
 uid: automated_tasks
 description: Automated tasks in Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: concept
 envir: onsite

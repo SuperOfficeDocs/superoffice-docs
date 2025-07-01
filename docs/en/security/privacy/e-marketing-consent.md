@@ -2,7 +2,7 @@
 title: GDPR e-marketing consent
 uid: gdpr_emarketing_consent
 description: GDRP consent for e-marketing
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

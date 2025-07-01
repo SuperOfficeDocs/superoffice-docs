@@ -2,7 +2,7 @@
 title: Tooltip service
 uid: tooltip_service
 description: Tooltip service
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept

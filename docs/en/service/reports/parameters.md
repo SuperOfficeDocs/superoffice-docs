@@ -2,7 +2,7 @@
 title: Parameters for reports
 uid: reports_parameters
 description: Parameters for reports
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 04.29.2020
 content_type: reference
 keywords:

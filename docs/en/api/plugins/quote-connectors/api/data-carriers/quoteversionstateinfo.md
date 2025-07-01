@@ -2,7 +2,7 @@
 title: QuoteVersionStateInfo
 uid: quote_connector_carrier_quoteversionstateinfo
 description: ERP Quote Connector Interface data carrier - QuoteVersionStateInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

@@ -2,7 +2,7 @@
 title: Microsoft SQL Server
 uid: tested_ms_sql_server
 description: Tested Microsoft SQL Server versions
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

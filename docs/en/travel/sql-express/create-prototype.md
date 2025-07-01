@@ -2,7 +2,7 @@
 uid: create_prototype_sql_express
 title: Create prototype for SQL Express
 description: Create a prototype for SQL Express
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: howto

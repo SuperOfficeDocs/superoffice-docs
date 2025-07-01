@@ -2,7 +2,7 @@
 title: Editing a connection
 uid: quote_connectors_update
 description: How to update a quote connector
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

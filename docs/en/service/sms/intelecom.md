@@ -2,7 +2,7 @@
 title: Intelecom
 uid: intelecom_sms_plugin
 description: Intelecom NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

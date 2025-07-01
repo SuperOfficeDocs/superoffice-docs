@@ -2,7 +2,7 @@
 title: User provisioning
 uid: user_provisioning
 description: User provisioning
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: concept

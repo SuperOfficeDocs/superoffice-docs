@@ -2,7 +2,7 @@
 title: IMirrorClientService
 uid: i_mirror_client_service
 description: IMirrorClientService interface
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: cloud

@@ -2,7 +2,7 @@
 title: QuoteAlternativeContextInfo
 uid: quote_connector_carrier_quotealternativecontextinfo
 description: ERP Quote Connector Interface data carrier - QuoteAlternativeContextInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

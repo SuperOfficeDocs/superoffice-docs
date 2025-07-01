@@ -2,7 +2,7 @@
 title: MailLink
 uid: maillink
 description: MailLink
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

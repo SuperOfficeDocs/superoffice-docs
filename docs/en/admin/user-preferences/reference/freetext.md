@@ -2,7 +2,7 @@
 title: Freetext
 uid: pref_freetext
 description: Preference section Freetext
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

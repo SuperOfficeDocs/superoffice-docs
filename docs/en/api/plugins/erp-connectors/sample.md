@@ -2,7 +2,7 @@
 title: Example connector
 uid: erp_connector_sample
 description: ERP sync connector example
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: howto

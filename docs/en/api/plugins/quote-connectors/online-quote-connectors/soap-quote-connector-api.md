@@ -2,7 +2,7 @@
 title: Online WCF SOAP quote connectors API
 uid: quote_connector_soap_api
 description: Online quote connectors SOAP API
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: quote
 ---
 

@@ -2,7 +2,7 @@
 title: Phone formatter
 uid: globalization_phoneformatter
 description: Localization, class PhoneFormatter
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: reference
 keywords:

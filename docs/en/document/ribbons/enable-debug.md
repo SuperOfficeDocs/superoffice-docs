@@ -2,7 +2,7 @@
 title: Enable debug
 uid: enable_debug_for_ribbons
 description: Enable debug for Ribbons
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

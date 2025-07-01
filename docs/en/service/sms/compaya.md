@@ -2,7 +2,7 @@
 title: Compaya
 uid: compaya_sms_plugin
 description: Compaya NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

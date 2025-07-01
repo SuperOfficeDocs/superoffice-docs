@@ -2,7 +2,7 @@
 title: Automated tasks ejSender
 uid: automated_task_ejsender
 description: Automated tasks in Service - ejSender
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: onsite

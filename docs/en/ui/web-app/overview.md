@@ -2,7 +2,7 @@
 title: Web GUI .Net API
 uid: web_application
 description: Web GUI .Net API
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept

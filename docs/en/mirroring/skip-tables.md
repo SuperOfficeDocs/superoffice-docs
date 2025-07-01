@@ -2,7 +2,7 @@
 title: Add tables to skip mirroring
 uid: skip_tables
 description: Add tables to skip mirroring
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date: 12.22.2022
 content_type: howto

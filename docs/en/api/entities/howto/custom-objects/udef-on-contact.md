@@ -2,7 +2,7 @@
 title: Udef on contact
 uid: udef_on_contact
 description: Udef on contact
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: entity
 content_type: howto
 audience: api

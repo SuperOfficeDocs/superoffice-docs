@@ -2,7 +2,7 @@
 title: retrieve members of a specific selection
 uid: get_selection_members_entity
 description: How to retrieve members of a specific selection using entities
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,selectionmembers
 content_type: howto

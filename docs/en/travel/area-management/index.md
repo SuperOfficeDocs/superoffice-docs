@@ -1,7 +1,7 @@
 ---
 title: Area Management overview
 description: Area Management
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

@@ -2,7 +2,7 @@
 title: Switching between sessions
 uid: ns_switch_sessions
 description: Switching between sessions for NetServer Core & Service proxy
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: authentication, SoSession
 content_type: howto

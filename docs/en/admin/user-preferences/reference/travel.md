@@ -2,7 +2,7 @@
 title: Travel
 uid: pref_travel
 description: Preference section Travel
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

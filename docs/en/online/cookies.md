@@ -2,7 +2,7 @@
 title: Cookies overview
 uid: cookies_overview
 description: Cookies overview
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: security, cookies
 content_type: reference
 date:

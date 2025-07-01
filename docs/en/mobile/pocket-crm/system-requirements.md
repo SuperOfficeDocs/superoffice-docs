@@ -2,7 +2,7 @@
 title: System requirements
 uid: pocket_crm_system_requirements_onsite
 description: System requirements for Pocket CRM mobile client
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

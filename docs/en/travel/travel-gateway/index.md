@@ -1,7 +1,7 @@
 ---
 title: Travel Gateway overview
 description: What is SuperOffice Travel Gateway?
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

@@ -2,7 +2,7 @@
 title: Defaults
 uid: pref_defaults
 description: Preference section Defaults
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

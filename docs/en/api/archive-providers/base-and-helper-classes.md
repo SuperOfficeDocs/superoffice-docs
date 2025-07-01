@@ -2,7 +2,7 @@
 title: Base and helper classes
 uid: base_and_helper_classes
 description: Base and helper classes
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
 # envir:

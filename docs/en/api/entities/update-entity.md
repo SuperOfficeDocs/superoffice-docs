@@ -2,7 +2,7 @@
 title: Update a basic property of an Entity
 uid: update_entity
 description: How to update an Entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

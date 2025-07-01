@@ -2,7 +2,7 @@
 title: GDPR consent management
 uid: gdpr_consent
 description: GDRP consent management
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

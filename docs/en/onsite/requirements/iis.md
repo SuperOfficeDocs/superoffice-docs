@@ -2,7 +2,7 @@
 title: Requirements
 uid: iis_server_requirements
 description: System requirements for SuperOffice server
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference

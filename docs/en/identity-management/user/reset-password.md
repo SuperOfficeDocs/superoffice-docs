@@ -2,7 +2,7 @@
 title: Reset password
 uid: reset_password
 description: Reset password
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

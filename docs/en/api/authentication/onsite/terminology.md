@@ -2,7 +2,7 @@
 title: Terminology
 uid: auth_terminology
 description: Authentication terminology
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: authentication, authorization, user name
 content_type: concept

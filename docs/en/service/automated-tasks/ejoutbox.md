@@ -2,7 +2,7 @@
 title: Automated tasks - ejOutbox
 uid: automated_tasks_ejoutbox
 description: Automated tasks in Service - ejOutbox
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: concept
 envir: onsite

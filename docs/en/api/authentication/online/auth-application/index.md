@@ -2,7 +2,7 @@
 title: System user flow
 uid: system_user_flow
 description: SuperOffice system user flow for non-interactive server-to-server communications
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: authentication, system user, back-channel, non-interactive
 content_type: concept
 envir: cloud

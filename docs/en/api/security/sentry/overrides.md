@@ -2,7 +2,7 @@
 title: Sentry overrides
 uid: sentry_overrides
 description: Sentry overrides
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 02.06.2007
 keywords: sentry, security
 content_type: concept

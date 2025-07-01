@@ -2,7 +2,7 @@
 title: Configuration
 uid: customer-senter-config
 description: Customer center configuration
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 03.16.2023
 keywords: Customer Center, CEP, parser variable
 audience: settings

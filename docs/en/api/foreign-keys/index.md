@@ -2,7 +2,7 @@
 title: Foreign keys
 uid: foreign_keys
 description: Foreign keys
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: concept

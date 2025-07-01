@@ -2,7 +2,7 @@
 title: Requirements
 uid: g_suite_requirements
 description: Requirements for Google Workspace integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: cloud

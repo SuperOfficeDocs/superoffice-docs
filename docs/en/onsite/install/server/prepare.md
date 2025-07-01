@@ -2,7 +2,7 @@
 title: Prepare CRM Server computer
 uid: prepare_crm_server
 description: Prepare CRM Server computer
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: install
 content_type: howto
 envir: onsite

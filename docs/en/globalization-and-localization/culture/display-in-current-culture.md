@@ -2,7 +2,7 @@
 title: Display values in current culture
 uid: display_in_current_culture
 description: How to display values in current culture
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto

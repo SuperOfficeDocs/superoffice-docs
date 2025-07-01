@@ -2,7 +2,7 @@
 uid: erp_connector_helpers
 title: Helper classes
 description: ERP connector Helper classes
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

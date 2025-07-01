@@ -2,7 +2,7 @@
 title: How to call the ToolTip service
 uid: call_tooltip_service
 description: Calling the ToolTip Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto

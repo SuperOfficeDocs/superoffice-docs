@@ -2,7 +2,7 @@
 title: Upgrade CRM Server
 uid: upgrade_crm_server_to_8
 description: Upgrade CRM Server to version 8
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

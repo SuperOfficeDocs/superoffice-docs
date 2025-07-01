@@ -2,7 +2,7 @@
 title: How to set up a quote connector
 uid: quote_connectors_setup
 description: How to set up a quote connector
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

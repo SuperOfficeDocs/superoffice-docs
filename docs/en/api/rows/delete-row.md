@@ -2,7 +2,7 @@
 title: Delete a Row
 uid: delete_row
 description: SuperOffice database delete row
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

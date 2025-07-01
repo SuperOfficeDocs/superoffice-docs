@@ -2,7 +2,7 @@
 title: Create a Row with basic properties
 uid: create_row
 description: Create row with basic properties
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

@@ -2,7 +2,7 @@
 title: Client requirements
 uid: pocket_crm_client_requirements
 description: Requirements for Pocket CRM mobile client
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference

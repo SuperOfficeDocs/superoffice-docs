@@ -2,7 +2,7 @@
 title: getLanguages
 uid: cs_soap_ports_customer_getlanguages
 description: Services SOAP interface port reference - customer getLanguages
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

@@ -2,7 +2,7 @@
 title: Requirements
 uid: mirroring_requirements
 description: SQLServer prerequisites for database mirroring
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: cloud

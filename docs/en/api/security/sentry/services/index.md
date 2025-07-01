@@ -2,7 +2,7 @@
 title: Sentry in services
 uid: sentry_in_services
 description: Sentry in services
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: sentry
 content_type: concept

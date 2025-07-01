@@ -1,7 +1,7 @@
 ---
 title: extenders
 description: Extenders
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: reuse,IArchiveProvider
 content_type: concept
 # envir:

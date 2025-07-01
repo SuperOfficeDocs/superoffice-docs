@@ -2,7 +2,7 @@
 title: Client usage scenarios
 uid: archive_provider_scenarios
 description: Archive provider scenarios
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
 # envir:

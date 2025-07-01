@@ -2,7 +2,7 @@
 title: Troubleshooting
 uid: troubleshoot_travel
 description: Troubleshooting the travel gateway
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

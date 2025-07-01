@@ -2,7 +2,7 @@
 title: Primary tenant
 uid: primary_tenant
 description: Primary tenant
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: 
 content_type: concept

@@ -2,7 +2,7 @@
 title: TxtLocal
 uid: txtlocal_sms_plugin
 description: Configuration of TxtLocal NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

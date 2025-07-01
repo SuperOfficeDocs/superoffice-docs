@@ -2,7 +2,7 @@
 title: Set up email notifications for errors
 uid: get_scim_sync_error_messages
 description: Set up email notifications for SCIM errors
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

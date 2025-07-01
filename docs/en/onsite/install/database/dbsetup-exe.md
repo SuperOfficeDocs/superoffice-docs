@@ -2,7 +2,7 @@
 title: DbSetup.exe
 uid: dbsetup_exe
 description: DBSetup.exe - Database maintenance
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: onsite

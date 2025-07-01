@@ -2,7 +2,7 @@
 title: Functions
 uid: pref_functions
 description: Preference section Functions
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

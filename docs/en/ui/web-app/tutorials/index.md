@@ -2,7 +2,7 @@
 title: Tutorials
 uid: webapp_tutorials
 description: Web application tutorials
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: webapp
 content_type: tutorial

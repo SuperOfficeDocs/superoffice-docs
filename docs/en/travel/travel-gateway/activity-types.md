@@ -1,7 +1,7 @@
 ---
 uid: activity_types
 description: Activity types for scheduling
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: reference

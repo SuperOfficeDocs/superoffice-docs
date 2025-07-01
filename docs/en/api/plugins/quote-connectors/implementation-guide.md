@@ -2,7 +2,7 @@
 title: How to create a SuperOffice Quote Connector
 uid: quote_connector_create
 description: How to create a SuperOffice Quote Connector
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

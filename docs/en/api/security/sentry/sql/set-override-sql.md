@@ -2,7 +2,7 @@
 title: Setting data-rights with sentry and user-preferences - SQL
 uid: override_sentry_sql
 description: Setting data-rights with sentry and userpreferences SQL
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 02.06.2007
 keywords:
 content_type: howto

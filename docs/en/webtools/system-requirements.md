@@ -2,7 +2,7 @@
 title: Requirements
 uid: webtools_system_requirements
 description: System requirements for WebTools
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: WebTools
 content_type: reference
 envir: onsite

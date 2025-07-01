@@ -2,7 +2,7 @@
 title: Travel transaction log
 uid: travel_transaction_log
 description: Travel transaction log
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database, travel
 content_type: concept
 date:

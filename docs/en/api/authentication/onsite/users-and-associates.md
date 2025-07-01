@@ -2,7 +2,7 @@
 uid: users_and_associates
 title: Users and associates
 description: "Learn about user types, user groups and the associate database table."
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: concept
 # envir:

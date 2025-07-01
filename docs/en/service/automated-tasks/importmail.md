@@ -2,7 +2,7 @@
 title: importMail
 uid: automated_task_importmail
 description: Automated tasks in Service - importMail
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
 envir: onsite

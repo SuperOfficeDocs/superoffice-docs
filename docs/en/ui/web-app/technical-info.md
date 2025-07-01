@@ -2,7 +2,7 @@
 title: Technical information
 uid: web_application_specs
 description: Web GUI .Net API technical details
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: reference

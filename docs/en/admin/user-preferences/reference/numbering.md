@@ -2,7 +2,7 @@
 title: Numbering
 uid: pref_numbering
 description: Preference section Numbering
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

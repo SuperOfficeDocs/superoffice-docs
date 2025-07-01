@@ -2,7 +2,7 @@
 title: Google Workspace
 uid: g_suite_document_integration
 description: Google Workspace document integration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

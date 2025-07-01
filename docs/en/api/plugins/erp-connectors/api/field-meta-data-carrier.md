@@ -2,7 +2,7 @@
 title: FieldMetadataInfo
 uid: erp_sync_connector_api_fieldmetadatainfo
 description: Sync Connector API - FieldMetadataInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: dto
 content_type: reference

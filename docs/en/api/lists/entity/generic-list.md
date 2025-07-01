@@ -2,7 +2,7 @@
 title: Generic list providers
 uid: generic_list_providers
 description: Generic list providers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

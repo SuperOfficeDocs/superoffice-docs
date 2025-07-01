@@ -2,7 +2,7 @@
 title: Error code
 uid: auth_error_codes
 description: Problems with application authorization, tokens, and certificate
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 01.04.2022
 keywords: authorization error, token, certificate
 content_type: reference

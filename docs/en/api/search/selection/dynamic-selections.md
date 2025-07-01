@@ -2,7 +2,7 @@
 title: Dynamic selections
 uid: dynamic_selection
 description: Dynamic selection
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, searchCriteria
 content_type: concept

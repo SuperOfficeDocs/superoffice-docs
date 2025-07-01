@@ -2,7 +2,7 @@
 title: ERP Connector API Changes
 uid: epr_api
 description: ERP Connector API
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

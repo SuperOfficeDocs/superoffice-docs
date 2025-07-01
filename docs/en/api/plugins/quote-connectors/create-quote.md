@@ -2,7 +2,7 @@
 title: Creating a quote
 uid: quote_connectors_create_quote
 description: How to create a quote
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: quote, sale, product, price list, QuoteConnectorExtender
 content_type: howto

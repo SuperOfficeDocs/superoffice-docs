@@ -2,7 +2,7 @@
 title: AddressFormatter class
 uid: globalization_addressformatter
 description: Localization, class AddressFormatter
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: reference
 keywords: globalization, address

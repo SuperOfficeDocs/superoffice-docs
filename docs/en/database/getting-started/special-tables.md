@@ -2,7 +2,7 @@
 title: Special tables
 uid: special_tables
 description: Special tables
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
 # envir:

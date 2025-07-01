@@ -2,7 +2,7 @@
 title: AddressInfo
 uid: quote_connector_carrier_addressinfo
 description: ERP Quote Connector Interface data carrier | AddressInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

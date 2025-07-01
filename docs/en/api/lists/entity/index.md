@@ -2,7 +2,7 @@
 title: SoListProviders
 uid: list_providers
 description: List providers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: concept

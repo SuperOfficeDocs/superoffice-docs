@@ -2,7 +2,7 @@
 title: Register a webhook
 uid: register_webhook
 description: Register a webhook
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 # envir:

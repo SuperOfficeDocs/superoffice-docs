@@ -2,7 +2,7 @@
 title: The Dynamic Provider
 uid: rest_api_search_dynamic
 description: REST Web API dynamic dot-syntax search provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search,odata
 date: 2023-04-26
 content_type: howto

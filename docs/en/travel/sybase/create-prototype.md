@@ -2,7 +2,7 @@
 title: Create prototype for Sybase
 uid: create_prototype
 description: Create prototype for Sybase
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: howto

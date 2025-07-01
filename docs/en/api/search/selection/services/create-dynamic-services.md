@@ -2,7 +2,7 @@
 title: Creating a dynamic selection (services)
 uid: create_dynamic_selection_services
 description: Creating a dynamic selection using NetServer services
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: search
 content_type: howto

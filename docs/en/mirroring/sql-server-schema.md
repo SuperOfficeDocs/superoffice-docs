@@ -2,7 +2,7 @@
 title: SQL Server schema
 uid: mirroring_sql_server_schema
 description: SQL Server schema for database mirroring
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

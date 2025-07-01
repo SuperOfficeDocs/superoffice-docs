@@ -2,7 +2,7 @@
 title: SOUser.ini
 uid: souser_ini
 description: SOUser.ini
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 # envir:

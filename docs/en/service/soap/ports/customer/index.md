@@ -2,7 +2,7 @@
 title: The Customer port
 uid: cs_soap_ports_customer
 description: Services SOAP interface port reference - customer
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

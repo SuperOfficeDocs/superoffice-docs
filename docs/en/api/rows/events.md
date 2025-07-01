@@ -2,7 +2,7 @@
 title: Events in Row objects
 uid: row_events
 description: Events in Row objects
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: hook
 content_type: concept

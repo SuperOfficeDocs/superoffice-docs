@@ -2,7 +2,7 @@
 title: PriceListInfo
 uid: quote_connector_carrier_pricelistinfo
 description: ERP Quote Connector Interface data carrier - PriceListInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

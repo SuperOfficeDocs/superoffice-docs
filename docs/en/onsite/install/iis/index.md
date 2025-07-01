@@ -2,7 +2,7 @@
 title: Prepare IIS
 uid: prepare_iis
 description: "How to prepare the IIS web server."
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 02.02.2022
 keywords: IIS, install, WCF
 content_type: howto

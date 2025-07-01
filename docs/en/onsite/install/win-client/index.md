@@ -2,7 +2,7 @@
 title: Install SuperOffice 9 or 10 Windows client
 uid: install_win9_client
 description: Install SuperOffice 9 or 10 Windows client
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: install, win, client
 content_type: howto
 envir: onsite

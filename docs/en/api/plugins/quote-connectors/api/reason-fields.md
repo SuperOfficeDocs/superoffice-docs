@@ -2,7 +2,7 @@
 title: Reason fields
 uid: reasons_fields
 description: Quote connector Reason fields
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: quote
 content_type: concept
 date:

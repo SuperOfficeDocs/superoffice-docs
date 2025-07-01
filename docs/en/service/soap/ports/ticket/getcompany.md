@@ -2,7 +2,7 @@
 title: getCompany
 uid: cs_soap_ports_ticket_getcompany
 description: Services SOAP interface ticket reference getCompany
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

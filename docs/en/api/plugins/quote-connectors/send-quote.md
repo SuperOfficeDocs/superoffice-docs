@@ -2,7 +2,7 @@
 title: Sending quotes
 uid: quote_connectors_send_quote
 description: Sending the quote
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: quote
 content_type: howto

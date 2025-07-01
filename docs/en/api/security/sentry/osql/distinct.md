@@ -2,7 +2,7 @@
 title: Sentry and distinct
 uid: sentry_distinct
 description: Sentry and distinct
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: access control
 content_type: concept

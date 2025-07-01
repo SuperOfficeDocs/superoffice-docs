@@ -2,7 +2,7 @@
 title: Delete an Entity
 uid: delete_entity
 description: Delete an entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

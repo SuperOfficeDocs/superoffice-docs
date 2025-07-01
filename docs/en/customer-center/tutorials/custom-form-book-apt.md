@@ -2,7 +2,7 @@
 title: Custom form - book meeting
 uid: custom-form-book-meeting
 description: Custom form in Customer Centre to book a meeting
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 09.15.2011
 keywords: Customer Center, form
 content_type: tutorial

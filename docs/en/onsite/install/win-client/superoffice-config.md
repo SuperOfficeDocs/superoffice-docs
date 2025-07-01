@@ -2,7 +2,7 @@
 title: SuperOffice.config
 uid: superoffice_config
 description: SuperOffice.config
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 12.10.2021
 keywords: SuperOffice.config
 content_type: reference

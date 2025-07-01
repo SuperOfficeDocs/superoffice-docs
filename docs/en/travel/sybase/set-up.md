@@ -2,7 +2,7 @@
 title: Sybase as Travel database
 uid: set_up_sybase_travel
 description:  Sybase as Travel database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: travel
 content_type: howto
 date:

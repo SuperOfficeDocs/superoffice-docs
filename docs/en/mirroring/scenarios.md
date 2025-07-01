@@ -2,7 +2,7 @@
 title: Scenarios
 uid: mirroring_scenarios
 description: Database mirroring scenarios
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: cloud

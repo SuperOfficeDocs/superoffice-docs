@@ -2,7 +2,7 @@
 title: Twilio
 uid: twilio_sms_plugin
 description: Twilio NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

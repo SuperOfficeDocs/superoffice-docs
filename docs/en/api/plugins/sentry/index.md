@@ -2,7 +2,7 @@
 title: Sentry plugins
 uid: sentry_plugins
 description: Sentry plugins
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: concept

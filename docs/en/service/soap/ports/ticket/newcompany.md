@@ -2,7 +2,7 @@
 title: newCompany
 uid: s_soap_ports_ticket_newcompany
 description: Services SOAP interface ticket reference newCompany
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

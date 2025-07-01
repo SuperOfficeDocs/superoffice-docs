@@ -2,7 +2,7 @@
 title: Metadata - information about archives
 uid: rest_api_search_metadata
 description: REST Web API search metadata
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search
 date: 2023-04-26
 content_type: howto

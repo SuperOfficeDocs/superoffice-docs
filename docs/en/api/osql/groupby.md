@@ -2,7 +2,7 @@
 title: GroupBy
 uid: osql_groupby
 description: SuperOffice Objectified SQL - GroupBy
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: concept
