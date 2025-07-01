@@ -1,7 +1,7 @@
 ---
 title: Criteria operators
 description: Defines what operators are used with which data types and describes how they are used.
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
 envir: cloud, onsite

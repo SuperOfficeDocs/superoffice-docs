@@ -2,7 +2,7 @@
 title: How to Search using Find Selections
 uid: selection_how_to_search
 description: Details what new selections are, and how to work with them in code. 
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: Selection, Find, Search
 content_type: howto
 envir: online, onsite

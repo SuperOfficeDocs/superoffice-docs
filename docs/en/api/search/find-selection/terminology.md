@@ -1,7 +1,7 @@
 ---
 title: Terminology
 description: Common terms and concepts pertaining to selections
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
 # envir:

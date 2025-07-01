@@ -2,7 +2,7 @@
 title: How SuperOffice populates available columns popup
 uid: find_selection_archive_columns
 description: Describes the technique used to populate the criteria dialog columns popup.
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: concept
 envir: cloud, onsite

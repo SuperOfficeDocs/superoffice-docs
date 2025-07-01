@@ -2,7 +2,7 @@
 title: New Selection
 uid: find_selection_intro
 description: Details what new selections are, and how to work with them in code.
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: article
 # envir:

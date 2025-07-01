@@ -1,7 +1,7 @@
 ---
 title: downloads
 description: Online sample and reference downloads
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 topic: reference
 envir: cloud
