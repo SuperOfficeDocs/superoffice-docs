@@ -1,24 +1,28 @@
 ---
-uid: {{name}}
+uid: release-notes-{{name}}
 title: What's new in SuperOffice {{name}}
 description: Release notes. What's new in SuperOffice {{name}}
-keywords:
-author: SuperOffice AS – Research and Development
+# keywords:
+author: SuperOffice AS – Product and Engineering
 date:
 version: {{name}}
-topic: reference
+content_type: release-notes
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # What's new in SuperOffice {{name}}
 
 ## Summary of highlights
 
-## Details of the new features
+## Feature updates
 
 * first entry
 
+## Pilot programs
+
+## Related content
+
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
-[img1]: media/

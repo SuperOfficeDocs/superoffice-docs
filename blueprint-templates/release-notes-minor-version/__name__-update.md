@@ -1,12 +1,17 @@
 ---
 uid: news-AREA-{{name}}
 title: XXX {{name}} update
-description: Release notes. What's new in SuperOffice {{name}}
+description: Release notes. What's new in {{name}}
 keywords: 
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 
 version: {{name}}
-topic: reference
+content_type: release-notes
+category: AREA
+license: # salesessentials, salespremium, serviceessentials, servicepremium, marketingessentials, marketingpremium (one or more user plans)
+functional_right: # such as knowledge-base
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # XXX {{name}} update
@@ -16,7 +21,5 @@ topic: reference
 ## Feature 2
 
 <!-- Referenced links-->
-[1]:
 
 <!-- Referenced images -->
-[img1]: media/

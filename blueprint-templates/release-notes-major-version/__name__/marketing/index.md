@@ -2,11 +2,14 @@
 uid: news-marketing-{{name}}
 title: What's new in SuperOffice {{name}}
 description: Release notes. What's new in SuperOffice {{name}}
-keywords: marketing
-author: SuperOffice AS – Research and Development
+# keywords: 
+author: SuperOffice AS – Product and Engineering
 date: 
 version: {{name}}
-topic: reference
+content_type: release-notes
+category: marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # New and improved Marketing
