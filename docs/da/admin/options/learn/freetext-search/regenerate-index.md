@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: fritekst, søgeindeks
 content_type: howto
 language: da
-envir: onsite
+deployment: onsite
 ---
 
 # Gendannelse af fritekstindeks (onsite)

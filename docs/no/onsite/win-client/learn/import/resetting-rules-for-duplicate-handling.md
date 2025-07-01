@@ -8,7 +8,7 @@ keywords: Innstillinger for Windows-klient
 content_type: howto
 language: no
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Tilbakestille én eller alle regler for duplikathåndtering

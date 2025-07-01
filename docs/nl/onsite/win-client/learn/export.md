@@ -8,7 +8,7 @@ keywords: Windows Client-instellingen
 content_type: concept
 language: nl
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Exporteren

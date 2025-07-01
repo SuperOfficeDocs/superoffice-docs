@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: arrangemang, avisering
 content_type: howto
 language: sv
-envir: onsite
+deployment: onsite
 ---
 
 # Lägga till systemhändelser (lokalt)

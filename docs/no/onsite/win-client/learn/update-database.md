@@ -8,7 +8,7 @@ keywords: Innstillinger for Windows-klient
 content_type: concept
 language: no
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Oppdatere informasjon i databasen

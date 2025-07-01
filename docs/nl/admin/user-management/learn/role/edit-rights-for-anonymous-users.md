@@ -7,7 +7,7 @@ date: 03.15.2023
 keywords: gebruikersbeheer, rol, anoniem
 content_type: howto
 language: nl
-envir: onsite
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

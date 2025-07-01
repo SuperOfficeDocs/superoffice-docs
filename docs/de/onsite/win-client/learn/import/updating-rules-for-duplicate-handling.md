@@ -8,7 +8,7 @@ keywords: Einstellungen für den Windows-Client
 content_type: howto
 language: de
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Regeln zur Duplikathandhabung aktualisieren

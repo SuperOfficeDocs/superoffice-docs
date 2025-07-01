@@ -10,7 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-envir: onsite
+deployment: onsite
 ---
 
 # Aktivering af fritekstsøgning

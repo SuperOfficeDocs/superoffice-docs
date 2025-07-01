@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Tjeneste, innstillinger
 content_type: concept
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # SMTP (bare ONSITE)

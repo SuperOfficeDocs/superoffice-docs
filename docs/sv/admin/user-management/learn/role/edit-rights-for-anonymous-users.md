@@ -7,7 +7,7 @@ date: 03.15.2023
 keywords: administrera användare, roll, anonyma
 content_type: howto
 language: sv
-envir: onsite
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

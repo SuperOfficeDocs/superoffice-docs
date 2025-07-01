@@ -8,7 +8,7 @@ keywords: Inställningar för Windows-klient
 content_type: howto
 language: sv
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Ange avancerade importinställningar

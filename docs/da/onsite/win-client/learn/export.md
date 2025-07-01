@@ -8,7 +8,7 @@ keywords: Indstillinger for Windows-klient
 content_type: concept
 language: da
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Eksporter

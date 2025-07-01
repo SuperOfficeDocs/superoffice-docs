@@ -10,7 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # Datautveksling (bare ONSITE)

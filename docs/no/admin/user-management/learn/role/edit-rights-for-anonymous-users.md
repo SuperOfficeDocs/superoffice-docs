@@ -7,7 +7,7 @@ date: 03.15.2023
 keywords: brukeradministrasjon, rolle, anonym
 content_type: howto
 language: no
-envir: onsite
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

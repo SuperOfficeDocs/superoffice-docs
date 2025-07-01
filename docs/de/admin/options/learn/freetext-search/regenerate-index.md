@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: Volltext, Suchindex
 content_type: howto
 language: de
-envir: onsite
+deployment: onsite
 ---
 
 # Volltextindex erneuern (Vor Ort)

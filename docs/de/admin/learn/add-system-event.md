@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Veranstaltung, Benachrichtigung
 content_type: howto
 language: de
-envir: onsite
+deployment: onsite
 ---
 
 # Systemereignisse hinzufügen (Vor Ort)

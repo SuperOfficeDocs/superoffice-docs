@@ -9,7 +9,7 @@ version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-envir: onsite
+deployment: onsite
 language: no
 ---
 

@@ -8,7 +8,7 @@ keywords: Einstellungen und Verwaltung
 content_type: concept
 language: de
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Volltextsuche und Travel

@@ -8,7 +8,7 @@ keywords: Inställningar och underhåll
 content_type: concept
 language: sv
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Fritextsökning och Travel

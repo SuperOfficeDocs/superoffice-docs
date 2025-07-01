@@ -8,7 +8,7 @@ keywords: Instellingen en onderhoud
 content_type: concept
 language: nl
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Vrije-tekstzoekbewerking en Travel

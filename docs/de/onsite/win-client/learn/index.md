@@ -8,7 +8,7 @@ keywords: Einstellungen für den Windows-Client
 content_type: concept
 language: de
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Einstellungen für den Windows-Client

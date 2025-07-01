@@ -8,7 +8,7 @@ date: 02.12.2024
 version: 10
 content_type: reference
 language: no
-envir: onsite
+deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
 ---

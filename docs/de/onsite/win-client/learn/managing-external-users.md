@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Firma
 content_type: howto
 language: de
-envir: onsite
+deployment: onsite
 ---
 
 # Externe Benutzer verwalten

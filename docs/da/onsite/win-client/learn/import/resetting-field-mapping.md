@@ -8,7 +8,7 @@ keywords: Indstillinger for Windows-klient
 content_type: howto
 language: da
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Tilbagestilling af felttilknytning

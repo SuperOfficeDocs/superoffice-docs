@@ -8,7 +8,7 @@ keywords: Windows Client-instellingen
 content_type: howto
 language: nl
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Een of alle regels voor verwerking van duplicaten opnieuw instellen
