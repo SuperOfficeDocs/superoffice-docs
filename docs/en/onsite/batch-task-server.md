@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: article
 deployment: onsite
-client: web
+platform: web
 ---
 
 # SuperOffice Batch Task Server

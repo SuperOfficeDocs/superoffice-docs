@@ -6,7 +6,7 @@ date: 06.24.2016
 keywords: globalization, resources, culture
 content_type: concept
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Globalization

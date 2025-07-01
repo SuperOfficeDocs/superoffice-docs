@@ -5,7 +5,7 @@ author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
 deployment: online, onsite
-client: web
+platform: web
 ---
 
 # Operators and data types

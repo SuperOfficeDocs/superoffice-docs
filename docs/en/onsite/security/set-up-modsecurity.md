@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: security
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 <!-- markdownlint-disable-file DOCSMD008 -->

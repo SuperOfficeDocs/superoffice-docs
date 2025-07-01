@@ -7,7 +7,7 @@ date: 09.28.2014
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Validation in SuperOffice WEB

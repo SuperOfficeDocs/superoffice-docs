@@ -5,7 +5,7 @@ description: SoArchiveControlLinkInfoTypes.config
 date: 04.17.2018
 keywords: config
 content_type: concept
-client: web
+platform: web
 deployment: onsite
 ---
 

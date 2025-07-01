@@ -6,7 +6,7 @@ author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: concept
 deployment: online, onsite
-client: web
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

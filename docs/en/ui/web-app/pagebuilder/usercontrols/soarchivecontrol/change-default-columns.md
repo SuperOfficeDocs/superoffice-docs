@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.24.2016
 keywords: project
 content_type: howto
-client: web
+platform: web
 deployment: onsite
 ---
 

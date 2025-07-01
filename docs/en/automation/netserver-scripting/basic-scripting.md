@@ -7,7 +7,7 @@ date: 04.15.2009
 keywords:
 content_type: concept
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Basic NetServer scripting

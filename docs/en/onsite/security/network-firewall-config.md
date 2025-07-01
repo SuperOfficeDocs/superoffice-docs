@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: security
 content_type: concept
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Network and firewall configuration

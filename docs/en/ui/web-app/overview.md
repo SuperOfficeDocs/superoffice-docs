@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept
-client: web
+platform: web
 deployment: onsite
 ---
 

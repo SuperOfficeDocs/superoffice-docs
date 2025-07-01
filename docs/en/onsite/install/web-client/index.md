@@ -7,7 +7,7 @@ date: 09.12.2023
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Install SuperOffice Web

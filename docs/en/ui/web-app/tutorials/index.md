@@ -7,7 +7,7 @@ date:
 keywords: webapp
 content_type: tutorial
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Tutorials

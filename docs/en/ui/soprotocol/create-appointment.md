@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.24.2016
 keywords: soprotocol, deeplinking, appointment
 content_type: howto
-client: web
+platform: web
 deployment: onsite
 redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/create-follow-up.html
 ---

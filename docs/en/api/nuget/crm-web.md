@@ -7,7 +7,7 @@ date: 02.29.2016
 keywords:
 content_type: reference
 deployment: onsite
-client: web
+platform: web
 ---
 
 # CRM Web

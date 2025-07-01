@@ -7,7 +7,7 @@ date: 11.26.2021
 keywords: security, reverse proxy, IIS, DMZ
 content_type: howto
 deployment: online
-client: web
+platform: web
 ---
 
 # Setting up a Reverse proxy on IIS8

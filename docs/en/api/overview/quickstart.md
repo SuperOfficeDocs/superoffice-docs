@@ -7,7 +7,7 @@ date: 10.05.2023
 keywords: API, getting started, REST
 content_type: concept
 deployment: online, onsite
-client: web, service
+platform: web, service
 ---
 
 <!-- markdownlint-disable-file MD051 MD032 -->

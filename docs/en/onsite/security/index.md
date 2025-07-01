@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Security and deployment

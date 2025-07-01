@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.19.2009
 keywords: pagebuilder
 content_type: tutorial
-client: web
+platform: web
 deployment: onsite
 ---
 

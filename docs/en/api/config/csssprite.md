@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords: NetServer, web.config, CssSprite, paths, MaxHeight
 content_type: reference
 deployment: onsite
-client: web
+platform: web
 ---
 
 # NetServer CssSprite element (SuperOffice only)

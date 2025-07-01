@@ -5,7 +5,7 @@ description: Details date criterion in find selections.
 author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: article
-client: web
+platform: web
 ---
 
 # Dynamic date range as criteria

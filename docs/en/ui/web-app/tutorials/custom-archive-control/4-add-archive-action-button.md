@@ -6,7 +6,7 @@ author: Steffan Alte
 date: 2007
 keywords:
 content_type: howto
-client: web
+platform: web
 deployment: onsite
 ---
 

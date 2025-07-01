@@ -6,7 +6,7 @@ author: Tony Yates
 date: 06.24.2016
 keywords: vb
 content_type: howto
-client: web,win
+platform: web, win
 deployment: onsite
 ---
 

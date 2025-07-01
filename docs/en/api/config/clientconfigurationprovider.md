@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords: web.config, ClientConfigurationProvider, FilePath, cache, CustomPath
 content_type: reference
 deployment: onsite
-client: web
+platform: web
 ---
 
 # NetServer ClientConfigurationProvider element (SuperOffice only)

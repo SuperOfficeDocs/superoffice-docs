@@ -6,7 +6,7 @@ author: Tony Yates
 date: 04.12.2023
 keywords: soprotocol, deeplinking
 content_type: howto
-client: web
+platform: web
 deployment: onsite
 ---
 

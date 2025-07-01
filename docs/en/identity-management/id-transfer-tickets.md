@@ -7,7 +7,7 @@ date:
 keywords: authentication, user
 content_type: concept
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Tickets and identity transfers

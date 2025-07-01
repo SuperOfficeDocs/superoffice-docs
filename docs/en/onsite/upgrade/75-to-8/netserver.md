@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer

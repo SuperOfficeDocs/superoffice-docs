@@ -7,7 +7,7 @@ author: Bergfrid Dias
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Install NetServer / web services

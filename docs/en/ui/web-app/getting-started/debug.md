@@ -6,7 +6,7 @@ author: Trond Nilsen
 date: 06.24.2016
 keywords:
 content_type: concept
-client: web
+platform: web
 deployment: onsite
 ---
 

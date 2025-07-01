@@ -7,7 +7,7 @@ date: 04.15.2009
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Three ways to deploy and run scripts

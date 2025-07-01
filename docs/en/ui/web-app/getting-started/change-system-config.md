@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords:
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # How to alter system configuration files

@@ -7,7 +7,7 @@ date: 04.15.2009
 content_type: howto
 keywords:
 deployment: onsite
-client: web
+platform: web
 ---
 
 # How to configure scripting

@@ -7,7 +7,7 @@ date: 11.25.2021
 keywords: API, integration point, online
 content_type: concept
 deployment: online
-client: web
+platform: web
 ---
 
 # Integration scenarios: Web client (online)

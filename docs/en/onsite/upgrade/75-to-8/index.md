@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 deployment: onsite
-client: web,win
+platform: web, win
 ---
 
 # Upgrade from 7.x to 8.0

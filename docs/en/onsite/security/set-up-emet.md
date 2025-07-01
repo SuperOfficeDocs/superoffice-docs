@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: security, emet
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Installing EMET

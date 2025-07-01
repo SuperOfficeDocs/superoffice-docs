@@ -7,7 +7,7 @@ date: 02.16.2009
 keywords:
 content_type: article
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Web client and the model-view-controller pattern

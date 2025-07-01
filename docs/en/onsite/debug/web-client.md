@@ -7,7 +7,7 @@ author: Bergfrid Dias, Martin Pavlas
 date: 05.21.2024
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Debug Web client

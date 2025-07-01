@@ -7,7 +7,7 @@ author: Michel Krohn-Dale
 date: 12.10.2024
 version: 10.3.13
 content_type: reference
-client: web
+platform: web
 ---
 
 # SoProtocol entity targets

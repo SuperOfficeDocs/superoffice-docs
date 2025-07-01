@@ -7,7 +7,7 @@ author: Bergfrid Dias, Frode Berntsen
 date: 03.19.2025
 content_type: howto
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Feature toggles

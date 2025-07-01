@@ -7,7 +7,7 @@ date: 11.25.2021
 keywords: API, integration point, web client
 content_type: reference
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Integration scenarios: Web client (onsite)

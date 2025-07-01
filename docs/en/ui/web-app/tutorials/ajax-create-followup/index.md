@@ -6,7 +6,7 @@ keywords: AjaxMethod
 author: Steffan Alte
 date: 2007
 content_type: tutorial
-client: web
+platform: web
 deployment: onsite
 ---
 

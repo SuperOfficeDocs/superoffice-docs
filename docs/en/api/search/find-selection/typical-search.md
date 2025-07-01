@@ -4,7 +4,7 @@ description: Details Find Selection Typical Seach feature set.
 author: AnthonyYates
 keywords: Typical search, Selection, Find
 content_type: article
-client: web
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->
