@@ -10,6 +10,7 @@ content_type: tutorial
 language: de
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 ---
 
 # Bestellbestätigungsvorlage anpassen

@@ -5,6 +5,7 @@ description: Authentication with WebTools, MailLink, and Pocket
 author: SuperOffice Product and Engineering
 keywords: OAuth 2.0
 content_type: concept
+index: true
 ---
 
 # Authentication with WebTools, MailLink, and Pocket

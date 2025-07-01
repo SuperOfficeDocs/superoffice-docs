@@ -8,6 +8,7 @@ date: 07.12.2024
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Getting started (self-service)

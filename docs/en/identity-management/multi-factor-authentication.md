@@ -7,6 +7,7 @@ date:
 keywords: MFA,2FA
 content_type: concept
 platform: web
+index: true
 ---
 
 # Multi-factor authentication

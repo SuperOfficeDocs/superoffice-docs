@@ -9,6 +9,7 @@ version: 10
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # System requirements for SuperOffice CRM Online

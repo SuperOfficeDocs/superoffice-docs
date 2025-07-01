@@ -13,6 +13,7 @@ audience_tooltip: Settings and maintenance
 redirect_from:
   - /de/admin/lists/learn/replace-existing-template
   - /de/admin/lists/learn/using-standard-templates
+index: true
 ---
 
 # Vorlagen bearbeiten

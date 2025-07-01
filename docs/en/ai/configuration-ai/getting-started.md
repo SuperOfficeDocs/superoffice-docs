@@ -6,6 +6,7 @@ keywords: AI
 content_type: tutorial, howto
 deployment: online
 platform: web
+index: true
 ---
 
 # How to setup and configure Categorization AI Service

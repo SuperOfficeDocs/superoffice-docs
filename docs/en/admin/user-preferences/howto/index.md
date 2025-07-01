@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.22.2022
 keywords: user preferences
 content_type: concept
+index: true
 ---
 
 # Preferences

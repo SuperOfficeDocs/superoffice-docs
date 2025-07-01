@@ -8,6 +8,7 @@ keywords: production sandbox, test environment, OC, clone
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # SuperOffice Operation Center for customer administrators with a production sandbox

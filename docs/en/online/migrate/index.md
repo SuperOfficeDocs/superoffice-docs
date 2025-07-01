@@ -7,6 +7,7 @@ author: Frode, Bergfrid Dias, David H
 date: 03.21.2024
 content_type: tutorial
 deployment: online, onsite
+index: true
 ---
 
 # Migrate to SuperOffice CRM Online

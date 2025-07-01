@@ -7,7 +7,8 @@ author: Bergfrid Dias
 date: 05.21.2024
 version: 10.3.6
 content_type: reference
-language: en
+language: da
+index: true
 ---
 
 # Variable for opfølgning

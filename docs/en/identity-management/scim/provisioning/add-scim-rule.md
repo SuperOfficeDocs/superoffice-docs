@@ -8,6 +8,7 @@ keywords: SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Add new scim rule

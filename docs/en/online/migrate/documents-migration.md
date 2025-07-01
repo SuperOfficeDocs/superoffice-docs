@@ -7,6 +7,7 @@ date: 10.18.2023
 keywords: migrate, document
 content_type: tutorial
 deployment: online, onsite
+index: true
 ---
 # Understanding document migration: reasons why some documents may not be migrated
 

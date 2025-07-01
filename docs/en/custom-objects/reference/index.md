@@ -10,6 +10,7 @@ topic: reference
 audience: api
 audience_tooltip: SuperOffice APIs and database
 redirect_from: /en/custom-objects/overview
+index: true
 ---
 
 # Working with custom objects and fields in API

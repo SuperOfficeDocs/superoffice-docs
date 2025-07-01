@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.02.2022
 keywords: SuperID, federation gateway, identity provider
 content_type: concept
+index: true
 ---
 
 # SuperID

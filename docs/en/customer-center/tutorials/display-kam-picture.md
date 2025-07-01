@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: Customer Center
 content_type: tutorial
+index: true
 ---
 
 # How to display the key account manager's picture

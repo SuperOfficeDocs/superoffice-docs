@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Set up email notifications for errors

@@ -13,6 +13,7 @@ language: nl
 redirect_from:
   - /nl/admin/lists/learn/replace-existing-template
   - /nl/admin/lists/learn/using-standard-templates
+index: true
 ---
 
 # Sjabloon bewerken

@@ -12,6 +12,7 @@ deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/admin/define-settings-for-mailings
+index: true
 ---
 
 # Define settings for mailings

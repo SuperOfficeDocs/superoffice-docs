@@ -8,6 +8,7 @@ keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD, IDP
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # Requirements

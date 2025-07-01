@@ -5,8 +5,7 @@ author: Bergfrid Dias
 date: 10.21.2021
 keywords: AI, text services, sentiment, language, translation
 content_type: concept
-deployment: online
-platform: web
+index: true
 ---
 
 # Text analysis

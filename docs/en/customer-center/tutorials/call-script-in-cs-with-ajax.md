@@ -6,6 +6,7 @@ author: Simen Mostuen Iversen
 date: 03.31.2014
 keywords: Customer Center
 content_type: tutorial
+index: true
 ---
 
 # Using Ajax to call scripts in Customer Service

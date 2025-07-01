@@ -5,6 +5,7 @@ description: SuperOffice CRM Online enforces role-based access control, and each
 author: frodeb@superoffice.com
 keywords:
 content_type: concept
+index: true
 ---
 
 # User accounts and role-based access control

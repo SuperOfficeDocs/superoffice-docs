@@ -8,6 +8,7 @@ keywords: IdP, Microsoft Entra, ME-ID, AAD, SCIM
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Sign in to SuperOffice Identity Manager

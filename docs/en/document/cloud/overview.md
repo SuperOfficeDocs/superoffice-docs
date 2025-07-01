@@ -8,6 +8,7 @@ keywords: document
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM

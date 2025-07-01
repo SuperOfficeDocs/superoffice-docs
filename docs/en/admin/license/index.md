@@ -6,6 +6,7 @@ author: Christian Mogensen
 date: 08.20.2021
 keywords: database
 content_type: concept
+index: true
 ---
 
 # Licensing

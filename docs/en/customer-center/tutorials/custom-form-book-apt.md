@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 09.15.2011
 keywords: Customer Center, form
 content_type: tutorial
+index: true
 ---
 
 # Custom form - book meeting

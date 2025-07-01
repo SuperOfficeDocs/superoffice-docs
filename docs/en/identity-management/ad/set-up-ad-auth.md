@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 deployment: onsite
 platform: web
+index: true
 ---
 
 # Active Directory authentication
