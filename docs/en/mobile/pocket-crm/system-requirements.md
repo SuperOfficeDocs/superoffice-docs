@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 deployment: onsite
-client: pocket
+platform: pocket
 ---
 
 # System requirements for Pocket CRM - Onsite

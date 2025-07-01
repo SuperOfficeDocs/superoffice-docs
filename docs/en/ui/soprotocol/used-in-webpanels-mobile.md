@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 01.14.2022
 keywords: soprotocol, deeplinking, web panel
 content_type: reference
-client: mobile
+platform: mobile
 ---
 
 # SOProtocol and web panels - mobile

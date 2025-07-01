@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: online
-client: pocket
+platform: pocket
 ---
 
 # How to install and configure the CRM Pocket client

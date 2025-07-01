@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: onsite
-client: pocket
+platform: pocket
 ---
 
 # Upgrade to SuperOffice 8

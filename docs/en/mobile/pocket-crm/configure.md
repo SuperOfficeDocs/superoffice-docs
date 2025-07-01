@@ -7,7 +7,7 @@ date: 12.08.2021
 keywords: Pocket CRM, NetServer, config
 content_type: howto
 deployment: onsite
-client: pocket
+platform: pocket
 ---
 
 # Pocket CRM configuration
