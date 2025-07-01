@@ -54,8 +54,6 @@ items:
   items:
   - name: SharePoint Documents 3.2
     href: office-integrations/3.2-update.md
-  - name: SuperOffice for Outlook 3.1
-    href: office-integrations/3.1-update.md
 - name: API
   href: api/index.md
   items:
