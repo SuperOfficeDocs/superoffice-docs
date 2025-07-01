@@ -8,7 +8,7 @@ keywords: Windows Client settings
 content_type: howto
 language: en
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Specify field mapping

@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: Sentry, plug-in, plugin, security, TableRight, N
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Using the basic Sentry plugin

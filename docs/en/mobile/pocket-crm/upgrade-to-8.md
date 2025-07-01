@@ -5,7 +5,7 @@ description: Upgrade pocket CRM to SuperOffice 8
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: pocket
 ---
 

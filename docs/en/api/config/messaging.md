@@ -6,7 +6,7 @@ date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperOffice.CRM.Messaging, SoMessaging.dll, Messaging, BrokerAutoAliveMessage, BrokerBroadcastAddress, BrokerBroadcastPort, BrokerExternalListening, BrokerInternalListening, ClientAutoAliveMessage, ClientAutoCreateBroker, ClientBroadcastAddress, ClientBroadcastPort, ClientListening, MessagingSoAuthentication, MessagingSoPassword, MessagingSoUser
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer Messaging element

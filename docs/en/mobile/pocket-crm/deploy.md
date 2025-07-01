@@ -5,7 +5,7 @@ description: Pocket CRM installation and deployment
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: pocket
 ---
 

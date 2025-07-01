@@ -5,7 +5,7 @@ description: Automated tasks in Service - ejOutbox
 author: SuperOffice Product and Engineering
 keywords: service
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # ejOutbox

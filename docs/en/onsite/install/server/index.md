@@ -5,7 +5,7 @@ description: Install SuperOffice Win Server
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Install CRM Server

@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords:
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to use custom config files (and folder)

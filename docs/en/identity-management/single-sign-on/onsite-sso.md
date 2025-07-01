@@ -6,7 +6,7 @@ author: Martin Pavlas
 date: 04.20.2023
 keywords: authentication, SSO, single sign-on, log in, IIS, Windows Authentication
 content_type: howto
-envir: onsite
+deployment: onsite
 client: web
 ---
 

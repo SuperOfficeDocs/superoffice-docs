@@ -5,7 +5,7 @@ description: Upgrade to 8.1
 author: SuperOffice Product and Engineering
 keywords: upgrade
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Upgrade to SuperOffice 8.1 or newer

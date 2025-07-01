@@ -6,7 +6,7 @@ author: Conrad Weyns
 date: 10.28.2019
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: win
 ---
 

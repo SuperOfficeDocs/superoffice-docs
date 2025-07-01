@@ -6,7 +6,7 @@ keywords: requirements, compatibility test, compatibility report, onsite compati
 author: Martin Pavlas
 date: 02.26.2025
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # Compatibility reports

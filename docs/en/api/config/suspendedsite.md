@@ -6,7 +6,7 @@ date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuspendedSite, download_baseurl, suspended
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer SuspendedSite element (SuperOffice only)

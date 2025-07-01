@@ -6,7 +6,7 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords: debug, superoffice.ini, superoffice.config
 content_type: howto
-envir: onsite
+deployment: onsite
 client: win
 ---
  

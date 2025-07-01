@@ -5,7 +5,7 @@ author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept
-envir: onsite
+deployment: onsite
 client: win
 ---
 

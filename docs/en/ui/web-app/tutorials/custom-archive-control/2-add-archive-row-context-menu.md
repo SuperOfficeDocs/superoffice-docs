@@ -7,7 +7,7 @@ date: 2007
 keywords:
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to add an Archive row context menu

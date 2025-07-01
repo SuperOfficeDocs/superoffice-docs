@@ -5,7 +5,7 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: globalization, resources, culture
 content_type: concept
-envir: onsite
+deployment: onsite
 client: web
 ---
 

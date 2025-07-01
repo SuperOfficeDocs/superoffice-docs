@@ -6,7 +6,7 @@ author: Henning Dahl
 date: 09.28.2014
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: web
 ---
 

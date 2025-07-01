@@ -6,7 +6,7 @@ author: Tony Yates
 date: 02.29.2016
 keywords:
 content_type: reference
-envir: onsite
+deployment: onsite
 client: web
 ---
 

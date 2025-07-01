@@ -6,7 +6,7 @@ author: Tony Yates
 date: 02.16.2009
 keywords:
 content_type: article
-envir: onsite
+deployment: onsite
 client: web
 ---
 

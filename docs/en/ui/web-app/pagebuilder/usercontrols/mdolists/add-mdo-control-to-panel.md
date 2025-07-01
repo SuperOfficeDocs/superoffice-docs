@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: usercontrol, MDO, list
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to add an MDO control to an existing panel of a page

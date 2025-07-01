@@ -6,7 +6,7 @@ date: 04.17.2018
 keywords: config
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # SoArchiveControlLinkInfoTypes

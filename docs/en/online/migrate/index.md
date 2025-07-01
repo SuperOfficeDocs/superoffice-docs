@@ -6,7 +6,7 @@ keywords: migrate, Online Migration Tool, OMT
 author: Frode, Bergfrid Dias, David H
 date: 03.21.2024
 content_type: tutorial
-envir: onsite, online
+deployment: online, onsite
 ---
 
 # Migrate to SuperOffice CRM Online

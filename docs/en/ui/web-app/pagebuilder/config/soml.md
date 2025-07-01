@@ -7,7 +7,7 @@ date: 04.17.2018
 keywords:
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # SuperOffice Markup Language (SOML)

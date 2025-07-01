@@ -7,7 +7,7 @@ date:
 keywords:
 content_type: reference
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Technical information

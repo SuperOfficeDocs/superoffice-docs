@@ -6,7 +6,7 @@ description: Authentication and SOAP calls
 date: 11.22.2021
 keywords: authentication, SOAP, SoSession, WcfSoPrincipalService, SoCredentials
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Authentication and SOAP calls

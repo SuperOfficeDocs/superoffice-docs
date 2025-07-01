@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: pagebuilder
 content_type: tutorial
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to add a new panel

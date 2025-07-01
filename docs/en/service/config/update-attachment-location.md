@@ -7,7 +7,7 @@ date: 03.16.2023
 keywords: attachment, request
 content_type: howto
 audience: settings
-envir: onsite
+deployment: onsite
 ---
 
 # Update attachment location when moving Requests

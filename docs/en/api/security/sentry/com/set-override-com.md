@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 02.06.2007
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Setting data-rights with sentry and user-preferences - COM

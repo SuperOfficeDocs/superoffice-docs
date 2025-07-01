@@ -7,7 +7,7 @@ date: 03.15.2023
 keywords: user management, role, anonymous
 content_type: howto
 language: en
-envir: onsite
+deployment: onsite
 audience: settings
 ---
 

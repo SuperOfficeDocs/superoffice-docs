@@ -6,7 +6,7 @@ date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperID, TenantKey, TenantId, Environment
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer SuperId element (SuperOffice only)

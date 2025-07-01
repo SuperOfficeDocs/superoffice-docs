@@ -5,7 +5,7 @@ description: Upgrade from 7.x to 8
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: onsite
+deployment: onsite
 client: web,win
 ---
 

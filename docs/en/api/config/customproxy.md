@@ -6,7 +6,7 @@ date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, CustomProxy, CustomProxyHost, CustomProxyPort, CustomProxySSLPort, UseCustomProxyForIntegrationServer, UseCustomProxyForPublicAccess, UseCustomProxyForWebhooks
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer CustomProxy element

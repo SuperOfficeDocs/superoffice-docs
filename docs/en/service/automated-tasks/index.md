@@ -5,7 +5,7 @@ description: Automated tasks in Service
 author: SuperOffice Product and Engineering
 keywords: service
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Automated tasks in Service

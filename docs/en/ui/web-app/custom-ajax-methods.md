@@ -7,7 +7,7 @@ date: 2007
 keywords:
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Custom AJAX methods

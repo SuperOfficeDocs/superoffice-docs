@@ -7,7 +7,7 @@ date: 12.17.2021
 keywords: upgrade, Service, SetupExe.exe, SuperOffice.CustomerService.exe, Setup.exe, SuperOffice Product Configuration, nsEndPoint
 content_type: howto
 version: 8.1
-envir: onsite
+deployment: onsite
 ---
 
 # Upgrade to 8.1 or newer when using the old Service domain

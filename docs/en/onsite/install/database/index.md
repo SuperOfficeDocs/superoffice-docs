@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords: install, database, Oracle, MSQL
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Prepare the database

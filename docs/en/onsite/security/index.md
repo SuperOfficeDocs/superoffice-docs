@@ -5,7 +5,7 @@ description: Security and deployment
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
+deployment: onsite
 client: web
 ---
 

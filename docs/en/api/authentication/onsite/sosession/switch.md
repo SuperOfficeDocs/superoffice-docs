@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: authentication, SoSession
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Switching between sessions

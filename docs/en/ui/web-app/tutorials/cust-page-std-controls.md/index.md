@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: contact
 content_type: tutorial
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to build a custom page with standard controls

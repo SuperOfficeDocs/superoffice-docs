@@ -5,7 +5,7 @@ description: Upgrade Windows client
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: win
 ---
 

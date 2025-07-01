@@ -4,7 +4,7 @@ description: Overview of the satellite function
 author: SuperOffice Product and Engineering
 keywords: tavel
 content_type: concept
-envir: onsite
+deployment: onsite
 client: win
 ---
 

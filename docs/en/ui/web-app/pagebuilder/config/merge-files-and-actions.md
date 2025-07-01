@@ -7,7 +7,7 @@ date: 04.17.2018
 keywords:
 content_type: article
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Merge process

@@ -7,7 +7,7 @@ author: Steffan Alte
 date: 2007
 content_type: tutorial
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # AJAX demo

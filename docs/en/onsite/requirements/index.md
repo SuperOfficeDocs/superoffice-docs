@@ -5,7 +5,7 @@ description: System requirements - onsite
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # System requirements - Onsite

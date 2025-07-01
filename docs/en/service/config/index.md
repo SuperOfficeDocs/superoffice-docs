@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.12.2021
 keywords: service, config, nsEndPoint
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Core configuration of Service

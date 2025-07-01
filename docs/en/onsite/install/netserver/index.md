@@ -6,7 +6,7 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: web
 ---
 

@@ -5,7 +5,7 @@ description: The contents of the web client installation folder
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
+deployment: onsite
 client: web
 ---
 

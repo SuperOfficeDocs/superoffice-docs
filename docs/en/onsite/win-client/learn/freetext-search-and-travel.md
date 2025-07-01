@@ -8,7 +8,7 @@ keywords: Settings and maintenance
 content_type: concept
 language: en
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Freetext search and Travel

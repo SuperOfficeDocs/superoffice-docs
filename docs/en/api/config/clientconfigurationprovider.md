@@ -6,7 +6,7 @@ date: 12.17.2021
 author: Bergfrid Dias
 keywords: web.config, ClientConfigurationProvider, FilePath, cache, CustomPath
 content_type: reference
-envir: onsite
+deployment: onsite
 client: web
 ---
 

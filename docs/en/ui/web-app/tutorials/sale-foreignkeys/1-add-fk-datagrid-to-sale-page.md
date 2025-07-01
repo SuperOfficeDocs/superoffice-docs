@@ -7,7 +7,7 @@ date: 07.25.2007
 keywords:
 content_type: tutorial
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to create a user control

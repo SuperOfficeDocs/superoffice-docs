@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: database
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # Single database user

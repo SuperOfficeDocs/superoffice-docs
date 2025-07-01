@@ -5,7 +5,7 @@ date: 11.26.2024
 keywords: soprotocol, deeplinking, appointment
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/open-follow-up.html
 ---
 

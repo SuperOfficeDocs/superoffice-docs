@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: database,travel
 content_type: howto
-envir: onsite
+deployment: onsite
 client: win
 ---
 

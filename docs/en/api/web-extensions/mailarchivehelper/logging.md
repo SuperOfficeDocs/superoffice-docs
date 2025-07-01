@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: log
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Logging

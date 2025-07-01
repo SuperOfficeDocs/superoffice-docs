@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: gui
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Adding a textbox that displays data from a data handler

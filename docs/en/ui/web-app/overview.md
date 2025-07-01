@@ -7,7 +7,7 @@ date:
 keywords:
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Expander SDK: Web GUI .Net API

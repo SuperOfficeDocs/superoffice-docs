@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: project
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to change the default columns in the project archive

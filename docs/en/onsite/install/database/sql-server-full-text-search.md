@@ -5,7 +5,7 @@ description: SQL server native full-text search
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # SQL server native full-text search

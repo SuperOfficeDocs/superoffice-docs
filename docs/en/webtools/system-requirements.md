@@ -5,7 +5,7 @@ description: System requirements for WebTools
 author: SuperOffice Product and Engineering
 keywords: WebTools
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # System requirements for WebTools

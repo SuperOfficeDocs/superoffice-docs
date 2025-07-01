@@ -5,7 +5,7 @@ description: How to set up Area Management
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: win
 ---
 

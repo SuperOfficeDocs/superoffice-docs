@@ -8,7 +8,7 @@ keywords: Windows Client settings
 content_type: concept
 language: en
 client: win
-envir: onsite
+deployment: onsite
 ---
 
 # Duplicates

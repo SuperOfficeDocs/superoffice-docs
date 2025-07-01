@@ -5,7 +5,7 @@ description: Migrate to SuperOffice CRM Online with Service mailboxes
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Customer service mailboxes

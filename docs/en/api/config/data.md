@@ -6,7 +6,7 @@ date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Database, CommandTimeout, ConnectionString, DatabaseMajor, DatabaseMinor, DatabaseName, DefaultReadUncommitted, DisableSqlTrackingComments, DisableUserInSqlTrackingComments, DynamicLoadedConnectionType, DynamicLoadedDataBaseDriver, ImpersonateDatabaseUser, Server, TablePrefix, Explicit, PartnerAllowed, EmployeeAllowed, AnonymousAllowed, DBUser, DBPassword, CommonDBConnection, Session, Mode, ReauthenticateOnDeserialization, CacheCheckInterval, ForceCacheRefreshInterval, SystemAllowed
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer Data element

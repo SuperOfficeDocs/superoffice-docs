@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: COM
 content_type: concept
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # COM interop and .Net

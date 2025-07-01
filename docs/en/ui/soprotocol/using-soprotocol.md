@@ -7,7 +7,7 @@ date: 04.12.2023
 keywords: soprotocol, deeplinking
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # Using SoProtocol

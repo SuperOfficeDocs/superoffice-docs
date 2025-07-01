@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.07.2021
 keywords: config, web.config, NetServer
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer configuration

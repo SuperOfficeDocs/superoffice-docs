@@ -6,7 +6,7 @@ date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Globalization, ApplicationCountryCode, AllwaysUseGsmPhoneStyle, UseApplicationCountryForPersons
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer Globalization element

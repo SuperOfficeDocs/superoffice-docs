@@ -5,7 +5,7 @@ description: NetServer scenarios
 author: SuperOffice Product and Engineering
 keywords: access control
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer scenarios

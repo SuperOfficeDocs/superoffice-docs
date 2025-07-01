@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.10.2021
 keywords: NetServer config, INI, web.config, superoffice.config, superoffice.ini
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Config and INI files

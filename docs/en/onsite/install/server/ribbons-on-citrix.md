@@ -5,7 +5,7 @@ description: Deploy Ribbons in a Citrix or Terminal Server environment
 author: SuperOffice Product and Engineering
 keywords: ribbons deploy citrix terminal
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Deployment of SuperOffice Ribbons in a Citrix or Terminal Server environment

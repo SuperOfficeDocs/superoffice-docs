@@ -5,7 +5,7 @@ description: SuperOffice set-up guide
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # SuperOffice set-up guide

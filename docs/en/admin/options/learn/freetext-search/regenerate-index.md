@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: free-text, search index
 content_type: howto
 language: en
-envir: onsite
+deployment: onsite
 ---
 
 # Regenerate a freetext index (onsite)

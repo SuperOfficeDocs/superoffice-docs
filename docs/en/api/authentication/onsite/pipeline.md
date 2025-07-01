@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.08.2018
 keywords: security, identity, authentication, plugin
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Authentication pipeline

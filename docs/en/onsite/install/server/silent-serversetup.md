@@ -5,7 +5,7 @@ description: Silent install of ServerSetup
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # Silent install of ServerSetup

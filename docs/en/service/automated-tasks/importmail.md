@@ -5,7 +5,7 @@ description: Automated tasks in Service - importMail
 author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # importMail

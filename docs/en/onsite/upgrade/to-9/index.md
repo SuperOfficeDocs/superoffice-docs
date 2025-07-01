@@ -6,7 +6,7 @@ author: Martin Pavlas
 date: 12.08.2021
 keywords: upgrade
 content_type: howto
-envir: onsite
+deployment: onsite
 version: 9, 10
 ---
 

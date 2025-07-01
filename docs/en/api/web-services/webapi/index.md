@@ -6,7 +6,7 @@ author: AnthonyYates
 date: 12.17.2021
 keywords: security, authentication, WebAPI, SOTICKET, BEARER
 content_type: concept
-envir: onsite
+deployment: onsite
 client: Web
 ---
 

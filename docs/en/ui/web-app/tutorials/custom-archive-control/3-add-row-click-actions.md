@@ -7,7 +7,7 @@ date: 2007
 keywords:
 content_type: tutorial
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to add row click actions

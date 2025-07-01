@@ -5,7 +5,7 @@ description: Automated tasks in Service - ejSender
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # ejSender

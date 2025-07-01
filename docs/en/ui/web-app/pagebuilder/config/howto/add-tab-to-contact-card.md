@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords:
 content_type: howto
 client: web
-envir: onsite
+deployment: onsite
 ---
 
 # How to add a new tab to the contact card

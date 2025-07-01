@@ -5,7 +5,7 @@ description: Installing Enhanced Mitigation Experience Toolkit (EMET)
 author: SuperOffice Product and Engineering
 keywords: security, emet
 content_type: howto
-envir: onsite
+deployment: onsite
 client: web
 ---
 

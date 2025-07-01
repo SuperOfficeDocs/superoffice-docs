@@ -6,7 +6,7 @@ author: Tony Yates
 date: 04.15.2009
 content_type: howto
 keywords:
-envir: onsite
+deployment: onsite
 client: web
 ---
 

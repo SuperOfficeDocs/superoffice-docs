@@ -7,7 +7,7 @@ date: 06.24.2016
 keywords: vb
 content_type: howto
 client: web,win
-envir: onsite
+deployment: onsite
 ---
 
 # Archive email message

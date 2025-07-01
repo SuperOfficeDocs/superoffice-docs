@@ -5,7 +5,7 @@ description: Enable debug for Web Reporter
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 client: web
 ---
 
