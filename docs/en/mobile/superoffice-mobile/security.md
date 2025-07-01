@@ -7,7 +7,7 @@ keywords: mobile, pocket
 date: 01.15.2024
 version: 11.1
 content_type: concept
-client: mobile
+platform: mobile
 language: en
 ---
 

@@ -6,8 +6,8 @@ keywords: Google Workspace, document integration, Google-account, Google Authent
 author: Frode B, Martin Pavlas, Bergfrid Dias
 date: 07.12.2024
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Getting started (self-service)

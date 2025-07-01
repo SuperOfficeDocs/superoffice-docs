@@ -6,7 +6,7 @@ author: H.O. Waaler, Jostein K, Bergfrid Dias
 keywords: WebTools, SiteInfo, registry
 content_type: howto
 date: 01.23.2024
-envir: onsite
+deployment: onsite
 ---
 
 # Configure WebTools

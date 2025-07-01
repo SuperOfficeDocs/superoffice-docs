@@ -7,8 +7,8 @@ date: 11.02.2023
 keywords: SharePoint, document
 content_type: reference
 version:
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # The SharePoint migration UI

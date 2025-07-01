@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Get SCIM config for the Microsoft Entra enterprise application

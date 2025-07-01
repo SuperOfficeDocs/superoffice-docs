@@ -7,8 +7,8 @@ date: 08.18.2023
 keywords: SharePoint, document
 content_type: howto
 version:
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Migration guide

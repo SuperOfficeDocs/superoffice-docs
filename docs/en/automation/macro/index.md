@@ -6,8 +6,8 @@ date: 01.07.2022
 author: Bergfrid Dias
 keywords: automation, macro, script
 content_type: concept
-envir: cloud, onsite
-client: win, web, service
+deployment: online, onsite
+platform: web, win, service
 ---
 
 # Macros

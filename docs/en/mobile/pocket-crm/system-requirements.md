@@ -5,8 +5,8 @@ description: System requirements for Pocket CRM mobile client
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
-client: pocket
+deployment: onsite
+platform: pocket
 ---
 
 # System requirements for Pocket CRM - Onsite

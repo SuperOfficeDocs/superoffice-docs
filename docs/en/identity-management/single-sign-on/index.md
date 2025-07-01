@@ -7,8 +7,6 @@ date:
 keywords: SSO
 content_type: concept
 # Optional fields. Don't forget to remove # if you need a field.
-# envir:
-# client:
 ---
 
 # Single sign-on

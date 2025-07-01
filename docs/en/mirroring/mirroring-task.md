@@ -5,8 +5,8 @@ description: About the database Mirroring Task
 author: SuperOffice Product and Engineering
 keywords: Mirroring Task, mirror
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # The database Mirroring Task

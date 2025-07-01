@@ -5,8 +5,8 @@ description: Get your mirroring service up and running in 10 minutes or less usi
 author: SuperOffice Product and Engineering
 keywords: mirroring, WFC, appSettings
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Get your mirroring service up and running in 10 minutes or less using NuGet

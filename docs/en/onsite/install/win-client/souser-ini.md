@@ -5,8 +5,6 @@ description: SOUser.ini
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-# envir:
-# client:
 ---
 
 # SOUser.ini

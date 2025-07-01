@@ -6,8 +6,8 @@ author: AnthonyYates
 date: 05.08.2018
 keywords: security, authentication, COM, IApplication, IDatabase
 content_type: concept
-envir: onsite
-client: Windows
+deployment: onsite
+platform: win
 ---
 
 # COM

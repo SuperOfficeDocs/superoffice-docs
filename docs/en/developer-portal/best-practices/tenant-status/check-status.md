@@ -6,8 +6,8 @@ author: Eivind Fasting
 date: 05.08.2024
 keywords: tenant, status, state API
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Check tenant status

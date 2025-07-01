@@ -5,8 +5,7 @@ description: Converting to new dynamic date ranges
 author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: howto
-# envir:
-client: web
+platform: web
 ---
 
 # Converting to new dynamic date ranges

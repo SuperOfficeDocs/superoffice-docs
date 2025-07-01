@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date:
 keywords: resx, ResourceStrings, translation, globalization, ResXmlFileProvider
 content_type: howto
-# envir:
-# client:
 ---
 
 # Create our own resx file

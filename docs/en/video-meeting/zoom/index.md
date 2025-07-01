@@ -5,8 +5,8 @@ description: Getting started with Video Meetings for SuperOffice - Zoom
 date: 06.21.2021
 keywords: video meeting, Zoom
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Zoom
 

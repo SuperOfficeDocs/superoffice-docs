@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Create your own Sentry plugin

@@ -6,8 +6,8 @@ author: Tony Yates
 date: 11.25.2021
 keywords: api, integration point, Windows
 content_type: reference
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Integration scenarios: Window client

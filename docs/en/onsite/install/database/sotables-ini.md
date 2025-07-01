@@ -6,8 +6,6 @@ author: Bergfrid Dias
 date: 12.10.2021
 keywords: database, DBSetup, SoTables.ini
 content_type: reference
-# envir:
-# client:
 ---
 
 # SoTables.ini

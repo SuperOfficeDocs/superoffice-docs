@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords:
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # How to alter page configuration files

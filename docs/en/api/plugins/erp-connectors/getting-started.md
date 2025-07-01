@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: ERP, ErpConnector, DynamicLoad
 content_type: tutorial
-# envir:
-# client:
 ---
 
 # Getting started with ERP development

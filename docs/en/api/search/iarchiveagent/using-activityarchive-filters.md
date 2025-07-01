@@ -8,8 +8,6 @@ content_type: howto
 date:
 category: 
 area: api-services
-# envir:
-# client:
 ---
 
 # How to use ActivityArchive filters

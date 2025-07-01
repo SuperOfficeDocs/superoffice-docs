@@ -6,8 +6,7 @@ author: AnthonyYates
 date: 03.25.2022
 keywords: security, authentication, SoSession, IPrincipal, SoSession.Principal, SoCredentials, SoCredentials.Ticket
 content_type: concept
-envir: onsite
-client: 
+deployment: onsite
 ---
 
 # NetServer authentication

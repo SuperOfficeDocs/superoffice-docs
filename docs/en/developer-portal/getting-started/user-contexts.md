@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 09.14.2023
 keywords: user context, session, application user, system user
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # User contexts

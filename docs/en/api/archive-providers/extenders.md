@@ -4,8 +4,6 @@ description: Extenders
 author: SuperOffice Product and Engineering
 keywords: reuse,IArchiveProvider
 content_type: concept
-# envir:
-# client:
 ---
 
 # Extenders

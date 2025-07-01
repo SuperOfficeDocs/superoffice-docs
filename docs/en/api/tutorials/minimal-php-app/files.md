@@ -4,8 +4,8 @@ description:
 author: SuperOffice Product and Engineering
 keywords:
 topic:
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # nuSoapSample solution

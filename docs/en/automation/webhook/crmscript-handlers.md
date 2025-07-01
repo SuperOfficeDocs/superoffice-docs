@@ -7,8 +7,6 @@ date:
 keywords: automation
 content_type: reference
 version: 9.2.7648
-# envir:
-# client:
 ---
 
 # CRMScript webhooks event handlers

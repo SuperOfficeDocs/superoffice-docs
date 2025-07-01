@@ -6,7 +6,7 @@ date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, Factory, CustomFactories, DynamicLoad
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer Factory element

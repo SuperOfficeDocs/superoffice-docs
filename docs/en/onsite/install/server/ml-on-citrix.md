@@ -5,8 +5,7 @@ description: Deploy WebTools in a Citrix or Terminal Server environment
 author: SuperOffice Product and Engineering
 keywords: maillink deploy citrix terminal webtools
 content_type: howto
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Deployment of WebTools in a Citrix or Terminal Server environment

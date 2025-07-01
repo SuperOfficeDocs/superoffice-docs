@@ -6,8 +6,8 @@ date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, ClientConfigurationProvider, Client, export
 content_type: reference
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # NetServer Client element (SuperOffice only)

@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: App Store
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 --- 
 
 # Publish standard app in CRM Online environment

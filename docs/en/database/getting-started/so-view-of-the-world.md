@@ -5,8 +5,6 @@ description: SuperOffice view of the world
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # SuperOffice view of the world

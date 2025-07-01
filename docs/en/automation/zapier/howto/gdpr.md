@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier, GDPR, consent, e-marketing
 content_type: howto
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # How to maintain GDPR configuration

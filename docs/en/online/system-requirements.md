@@ -7,8 +7,8 @@ author: RnD Services
 date: 04.19.2024
 version: 10
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # System requirements for SuperOffice CRM Online

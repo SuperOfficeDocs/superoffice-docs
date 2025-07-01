@@ -6,8 +6,7 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords: install
 content_type: howto
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Prepare for Service

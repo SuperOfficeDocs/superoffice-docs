@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 06.20.2022
 keywords: Microsoft 365, document
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Set up Microsoft 365 Cloud Office document integration

@@ -6,8 +6,8 @@ author: Tony Yates
 date: 09.07.2023
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Helper for private applications

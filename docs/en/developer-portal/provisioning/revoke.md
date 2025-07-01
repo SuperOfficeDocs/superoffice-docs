@@ -7,8 +7,8 @@ date: 09.25.2024
 version_devportal: 1.26
 keywords: App Store, revoke, consent
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Revoke access given to standard app

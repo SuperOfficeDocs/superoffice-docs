@@ -6,8 +6,8 @@ keywords: certification
 author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Security requirements

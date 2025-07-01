@@ -6,8 +6,8 @@ keywords: debug, Product Configurator, SoAppConfig.exe
 author: Bergfrid Dias, Martin Pavlas
 date: 05.21.2024
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Debug Web client

@@ -5,7 +5,7 @@ description: Service log files
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: onsite
+deployment: onsite
 ---
 
 # Service log files

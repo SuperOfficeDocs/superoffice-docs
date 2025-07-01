@@ -7,7 +7,7 @@ date: 03.16.2023
 keywords: Customer Center, CEP, web form
 content_type: howto
 audience: settings
-envir: onsite
+deployment: onsite
 ---
 
 # Creating web forms using special templates in SuperOffice

@@ -5,8 +5,8 @@ description: Minimal C# application
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Minimal C# application

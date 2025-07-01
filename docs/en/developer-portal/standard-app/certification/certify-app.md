@@ -5,8 +5,8 @@ description: Submit standard app for certification
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Submit standard app for certification

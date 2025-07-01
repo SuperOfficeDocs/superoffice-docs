@@ -63,6 +63,7 @@ Under configuration -> system.serviceModel add:
 
 Under configuration -> system.serviceModel -> bindings, add:
 
+<!-- markdownlint-disable-file MD013 -->
 ```xml
 <basicHttpBinding>
   <binding name="SMSGatewaySoapBinding" closeTimeout="00:01:00" openTimeout="00:01:00" receiveTimeout="00:10:00"

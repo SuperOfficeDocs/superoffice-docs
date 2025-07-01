@@ -6,9 +6,8 @@ author: Martin Pavlas
 date: 09.12.2023
 keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetup.exe
 content_type: howto
-envir: onsite
+deployment: onsite
 version: 8.1
-# client:
 ---
 
 # Manual steps to install Service

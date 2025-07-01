@@ -5,8 +5,7 @@ description: Changes in SuperOffice 7 - Encryption
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Encryption

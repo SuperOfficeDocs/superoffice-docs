@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords: webpanel
 content_type: howto
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # How to implement a web panel that detects if it is running inside SuperOffice web

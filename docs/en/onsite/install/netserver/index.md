@@ -6,8 +6,8 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords:
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Install NetServer / web services

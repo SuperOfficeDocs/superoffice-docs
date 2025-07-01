@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords: travel
 date:
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # MS SQL Express as Travel database

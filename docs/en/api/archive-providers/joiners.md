@@ -4,8 +4,6 @@ description: Joiners
 author: SuperOffice Product and Engineering
 keywords: reuse,IArchiveProvider
 content_type: concept
-# envir:
-# client:
 ---
 
 # Joiners

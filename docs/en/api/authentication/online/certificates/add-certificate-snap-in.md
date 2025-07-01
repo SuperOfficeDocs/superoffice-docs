@@ -5,8 +5,8 @@ description: How to install the Certificate snap-in on Windows
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to install the Certificate snap-in on Windows

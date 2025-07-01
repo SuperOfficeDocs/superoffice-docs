@@ -5,8 +5,8 @@ description: Sync company to SuperOffice now
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Sync company to SuperOffice now

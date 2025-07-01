@@ -5,8 +5,6 @@ description: Archive provider scenarios
 author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
-# envir:
-# client:
 ---
 
 # Client usage scenarios

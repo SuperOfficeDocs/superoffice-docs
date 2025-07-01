@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference
-client: pocket
+platform: pocket
 ---
 
 # Requirements for Pocket CRM mobile client

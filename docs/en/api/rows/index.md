@@ -5,8 +5,8 @@ author: AnthonyYates
 date: 11.16.2021
 keywords: data access, row, rows, collection, HDB, DataTable, DataRow, SuperOffice.CRM.Rows, TableInfo, FieldInfo, GetFromIdx, CustomSearch
 content_type: concept
-envir: cloud, onsite
-client: win, web
+deployment: online, onsite
+platform: web, win
 ---
 
 # High-level database layer (Rows)

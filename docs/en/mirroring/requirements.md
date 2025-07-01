@@ -5,8 +5,8 @@ description: SQLServer prerequisites for database mirroring
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Database Mirroring Requirements

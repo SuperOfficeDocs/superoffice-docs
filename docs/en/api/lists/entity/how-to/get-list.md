@@ -5,8 +5,6 @@ description: Retrieve a list
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # Retrieve a list

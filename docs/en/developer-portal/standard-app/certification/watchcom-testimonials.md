@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: Watchcom
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD028 -->

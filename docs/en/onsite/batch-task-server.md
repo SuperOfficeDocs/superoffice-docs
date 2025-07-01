@@ -5,8 +5,8 @@ description: SuperOffice Batch Task Server
 author: SuperOffice Product and Engineering
 keywords:
 content_type: article
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # SuperOffice Batch Task Server

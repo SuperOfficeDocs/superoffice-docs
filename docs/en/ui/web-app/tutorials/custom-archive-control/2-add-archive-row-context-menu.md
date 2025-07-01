@@ -6,8 +6,8 @@ author: Steffan Alte
 date: 2007
 keywords:
 content_type: howto
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # How to add an Archive row context menu

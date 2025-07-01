@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,services
 content_type: howto
-# envir:
-# client:
 ---
 
 # How to add members to a static selection using the services layer

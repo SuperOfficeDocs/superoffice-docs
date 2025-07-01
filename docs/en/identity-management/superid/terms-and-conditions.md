@@ -6,8 +6,8 @@ author:
 keywords: SuperID
 date:
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SuperID terms and conditions

@@ -7,8 +7,6 @@ content_type: concept
 date: 03.03.2022
 category: list
 area: api-services
-# envir:
-# client:
 ---
 
 # Multi-Departmental Organizational (MDO) API

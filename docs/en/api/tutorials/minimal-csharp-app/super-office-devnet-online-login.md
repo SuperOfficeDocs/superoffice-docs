@@ -5,8 +5,8 @@ description: superoffice.devnet.online.login
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SuperOffice.devnet.online.login

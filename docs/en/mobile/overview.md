@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.02.2021
 keywords: SuperOffice Mobile, Pocket CRM
 content_type: concept
-client: pocket, mobile
+platform: mobile
 ---
 
 # Mobile applications

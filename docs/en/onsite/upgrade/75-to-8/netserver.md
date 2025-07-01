@@ -5,8 +5,8 @@ description: Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer

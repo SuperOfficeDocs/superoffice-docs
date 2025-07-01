@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords:
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Webpage using SuperOffice web controls

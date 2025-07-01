@@ -5,8 +5,6 @@ description: Interface definition and composition
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # Interface definition and composition

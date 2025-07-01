@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords: authentication, soap, system user
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

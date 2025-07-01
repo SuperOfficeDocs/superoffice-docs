@@ -5,8 +5,8 @@ description: Troubleshooting SuperOffice Ribbons
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Troubleshooting SuperOffice Ribbons

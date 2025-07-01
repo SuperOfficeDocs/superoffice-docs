@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Expander SDK: Web GUI .Net API

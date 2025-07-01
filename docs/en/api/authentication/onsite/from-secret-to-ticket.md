@@ -5,8 +5,7 @@ description: Changes in SuperOffice 7 - authentication
 author: SuperOffice Product and Engineering
 keywords: authentication, secret, ticket
 content_type: concept
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # From secret to ticket

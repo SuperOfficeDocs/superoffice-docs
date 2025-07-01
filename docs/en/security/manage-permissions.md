@@ -7,7 +7,7 @@ date: 05.23.2022
 keywords: Developer Portal, user, access, permission
 content_type: howto
 version:
-envir: cloud
-client: online
+deployment: online
+platform: web
 redirect_url: https://docs.superoffice.com/en/developer-portal/partner/manage-permissions.html
 ---

@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 01.15.2024
 keywords: IdP, Microsoft Entra, ME-ID, AAD, SCIM
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Sign in to SuperOffice Identity Manager

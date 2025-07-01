@@ -7,8 +7,6 @@ content_type: concept
 date:
 category:
 area: api-services
-# envir:
-# client:
 ---
 
 # IArchiveAgent

@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier
 content_type: howto
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # Look up lists between Source and SuperOffice CRM

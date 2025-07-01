@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 06.21.2021
 keywords: video meeting
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to connect to a video provider

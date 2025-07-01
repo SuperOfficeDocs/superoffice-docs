@@ -6,7 +6,7 @@ author: Hans Oluf Waaler
 keywords: WebTools, TrayApp
 content_type: howto
 date: 10.13.2016
-envir: onsite
+deployment: onsite
 ---
 
 # Install WebTools per user

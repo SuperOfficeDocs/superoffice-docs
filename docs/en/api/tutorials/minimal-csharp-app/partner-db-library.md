@@ -5,8 +5,8 @@ description: Customer data source
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Customer data source

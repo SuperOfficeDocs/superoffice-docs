@@ -5,8 +5,7 @@ description: Create a new Microsoft SQL Server database for SuperOffice onsite
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: howto
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # SuperOffice CRM running on Microsoft SQL Server database

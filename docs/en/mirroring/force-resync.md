@@ -5,8 +5,8 @@ description: Force mirroring re-synchronization in a production database
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Force mirroring re-sync in a production database

@@ -6,8 +6,8 @@ author: Frode Berntsen
 date: 05.08.2023
 keywords: permission, integration, app, SharePoint, document
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Permissions for SuperOffice Document Library integration (app)

@@ -6,8 +6,8 @@ date: 12.17.2021
 author: Bergfrid Dias
 keywords: web.config, Cloud element, TemplatePath, ArchivePath, DefaultCallbackUrl
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # NetServer Cloud element (SuperOffice only)

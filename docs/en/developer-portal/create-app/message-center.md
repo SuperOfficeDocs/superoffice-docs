@@ -7,8 +7,8 @@ date: 08.10.2022
 keywords: Developer Portal, messaging center
 content_type: conceptual
 version: 1.13
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Messaging Center

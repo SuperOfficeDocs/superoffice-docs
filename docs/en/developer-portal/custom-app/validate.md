@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: custom app, private app
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Get your custom app validated and live

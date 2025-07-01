@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 12.17.2021
 keywords: authentication, AD, Active Directory, AuthorizeWithImplicit, IIS
 content_type: howto 
-envir: onsite
+deployment: onsite
 ---
 
 # Integrated with Active Directory

@@ -5,8 +5,7 @@ description: Details what new selections are, and how to work with them in code.
 author: AnthonyYates
 keywords: Selection, Find, Search
 content_type: howto
-envir: online, onsite
-client: netserver
+deployment: online, onsite
 version: 9.2
 ---
 

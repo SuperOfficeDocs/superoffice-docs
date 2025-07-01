@@ -7,8 +7,8 @@ author: Margrethe Romnes, Anthony Yates
 date: 10.31.2024
 version: 10
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Best practices for SuperOffice CRM Online apps

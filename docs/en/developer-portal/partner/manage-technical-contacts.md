@@ -8,8 +8,8 @@ date: 02.26.2025
 version: 2.0
 version_devportal: 2.0
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Manage technical contacts

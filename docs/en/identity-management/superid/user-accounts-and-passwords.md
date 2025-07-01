@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # User accounts and passwords

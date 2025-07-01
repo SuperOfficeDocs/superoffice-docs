@@ -6,8 +6,8 @@ author: Bergfrid Skaara
 date: 02.02.2022
 keywords: online, app store
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # About CRM Online

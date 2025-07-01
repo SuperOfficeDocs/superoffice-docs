@@ -5,8 +5,7 @@ description: Upgrade SuperOffice Customer Service to SuperOffice Service
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Upgrade SuperOffice Customer Service to SuperOffice Service

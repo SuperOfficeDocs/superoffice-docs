@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords:
 content_type: concept
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # MDO list control

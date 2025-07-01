@@ -6,8 +6,8 @@ author: Margrethe
 date: 12.20.2023
 keywords: activate, consent
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # First-time activation

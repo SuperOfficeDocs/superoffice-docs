@@ -6,7 +6,7 @@ date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Mail, NumberOfDaysToDownload, Reader, Sender
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 # NetServer Mail element (SuperOffice only)
 

@@ -6,8 +6,6 @@ author: Tony Yates
 date: 04.06.2018
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # Webhook secrets

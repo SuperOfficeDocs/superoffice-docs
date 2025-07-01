@@ -8,8 +8,8 @@ date: 07.08.2024
 version: 1.24
 version_devportal: 1.24
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Check application API performance

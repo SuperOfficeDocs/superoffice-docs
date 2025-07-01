@@ -6,8 +6,7 @@ author: AnthonyYates
 date: 05.08.2018
 keywords: authentication, SOAP
 content_type: concept
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 <!-- markdownlint-disable-file MD051 -->

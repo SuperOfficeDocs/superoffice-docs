@@ -7,8 +7,8 @@ author: Erik Lebiko, Bergfrid Dias
 date: 10.29.2024
 version_sofo: 2024.8.12
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

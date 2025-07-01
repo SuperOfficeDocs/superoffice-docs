@@ -4,8 +4,6 @@ description: Describes available archive provider column data types and lists th
 author: SuperOffice Product and Engineering
 keywords: Restriction
 content_type: reference
-# envir:
-# client:
 ---
 
 # Archive Provider Restriction Types

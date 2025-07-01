@@ -6,8 +6,8 @@ author: Steffan Alte
 date: 2007
 keywords:
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Create a custom archive control

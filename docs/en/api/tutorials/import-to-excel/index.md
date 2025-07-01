@@ -6,8 +6,8 @@ author: Tony Yates
 date: 10.15.2020
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to import data into Excel

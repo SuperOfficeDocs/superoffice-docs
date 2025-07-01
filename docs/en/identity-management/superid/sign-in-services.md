@@ -6,8 +6,8 @@ author: Bergfrid Dias
 keywords: SuperID, sign-in, user account
 date: 02.02.2022
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Sign-in services

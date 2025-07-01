@@ -6,8 +6,8 @@ author: Tony Yates
 date: 09.13.2018
 keywords: apps, API, authentication, proxy
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # What API to use?
