@@ -15,3 +15,10 @@ items:
     href: sharepoint/3.2-update.md
   - name: SharePoint Document Library
     href: sharepoint/10.1.4-update.md
+- name: Mail Link
+  href: mail-link/index.md
+  items:
+  - name: 8.5 R11 update
+    href: mail-link/8.5-R11-update.md
+  - name: 8.5 R14 update
+    href: mail-link/8.5-R14-update.md
