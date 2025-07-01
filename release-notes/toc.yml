@@ -35,6 +35,8 @@ items:
     topicHref: 9.1/index.md
   - name: SuperOffice 8.5
     href: 8.5/toc.yml
+  - name: Pocket CRM
+    href: pocket-crm/toc.yml
   - name: Database legacy
     href: database/index.md
     items:

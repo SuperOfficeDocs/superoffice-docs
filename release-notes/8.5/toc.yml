@@ -90,22 +90,3 @@ items:
     href: service/8.5-R16-update.md
   - name: 8.5 R17 update
     href: service/8.5-R17-update.md
-- name: Pocket CRM
-  href: pocket-crm/index.md
-  items:
-  - name: 9.0.4 update
-    href: pocket-crm/9.0.4-update.md
-  - name: 9.0.5 update
-    href: pocket-crm/9.0.5-update.md
-  - name: 9.0.7 update
-    href: pocket-crm/9.0.7-update.md
-  - name: 9.0.9 update
-    href: pocket-crm/9.0.9-update.md
-  - name: 9.1.1 update
-    href: pocket-crm/9.1.1-update.md
-  - name: 9.1.4 update
-    href: pocket-crm/9.1.4-update.md
-  - name: 9.1.5 update
-    href: pocket-crm/9.1.5-update.md
-  - name: 9.1.6 update
-    href: pocket-crm/9.1.6-update.md
