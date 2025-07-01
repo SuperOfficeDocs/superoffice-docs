@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: firma
 content_type: howto
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # Håndtere eksterne brukere

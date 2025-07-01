@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: fritekst, søkeindeks
 content_type: howto
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # Regenerere en fritekstindeks (onsite)

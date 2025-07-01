@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Indstillinger for Windows-klient
 content_type: howto
 language: da
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # Importér en datafil til SuperOffice-databasen

@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-envir: onsite
+deployment: onsite
 ---
 
 # Anonyme und Systembenutzer verwalten (Vor Ort)

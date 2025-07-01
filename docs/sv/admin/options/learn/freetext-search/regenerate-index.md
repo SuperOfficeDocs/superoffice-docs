@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: fritext, sökindex
 content_type: howto
 language: sv
-envir: onsite
+deployment: onsite
 ---
 
 # Återskapa ett fritextindex (lokalt)

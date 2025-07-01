@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Inställningar och underhåll
 content_type: concept
 language: sv
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # Fritextsökning och Travel

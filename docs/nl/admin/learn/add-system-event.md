@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: gebeurtenis, melding
 content_type: howto
 language: nl
-envir: onsite
+deployment: onsite
 ---
 
 # Systeemgebeurtenissen toevoegen (lokaal)

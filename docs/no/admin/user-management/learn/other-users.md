@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # Administrere anonyme brukere og systembrukere (Onsite)

@@ -9,7 +9,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-envir: onsite
+deployment: onsite
 ---
 
 # Datenaustausch (nur ONSITE)

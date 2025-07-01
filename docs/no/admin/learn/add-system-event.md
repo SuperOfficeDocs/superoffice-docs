@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: arrangement, varsling
 content_type: howto
 language: no
-envir: onsite
+deployment: onsite
 ---
 
 # Legge til systemoperasjoner (Onsite)
