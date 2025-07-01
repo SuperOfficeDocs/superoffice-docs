@@ -8,7 +8,6 @@ keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, 
 content_type: howto
 envir: onsite
 version: 8.1
-# client:
 ---
 
 # Install Service

@@ -8,7 +8,6 @@ keywords: attachment, request
 content_type: howto
 audience: settings
 envir: onsite
-# client:
 ---
 
 # Splitting attachment location

@@ -8,7 +8,6 @@ keywords: upgrade, Service, SetupExe.exe, SuperOffice.CustomerService.exe, Setup
 content_type: howto
 version: 8.1
 envir: onsite
-# client:
 ---
 
 # Upgrade to 8.1 or newer when using the old Service domain

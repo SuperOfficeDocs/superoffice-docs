@@ -5,8 +5,6 @@ author: Frode B
 date: 01.15.2024
 keywords: email, cURL, OAuth
 content_type: concept
-# envir:
-# client:
 ---
 
 # Email in Service and Marketing

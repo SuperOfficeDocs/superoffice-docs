@@ -7,7 +7,6 @@ date: 03.30.2012
 keywords:
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Mapping SuperOffice users to Active Directory in 7.0 SR3 and 7.1

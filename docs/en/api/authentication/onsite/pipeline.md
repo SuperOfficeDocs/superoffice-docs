@@ -7,7 +7,6 @@ date: 05.08.2018
 keywords: security, identity, authentication, plugin
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # Authentication pipeline

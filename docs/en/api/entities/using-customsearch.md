@@ -5,8 +5,6 @@ description: CustomSearch
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # CustomSearch

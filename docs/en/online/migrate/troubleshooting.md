@@ -6,7 +6,6 @@ author: AnthonyYates
 keywords: migrate
 content_type: tutorial
 envir: onsite, online
-# client:
 ---
 
 # Troubleshooting Migration Errors

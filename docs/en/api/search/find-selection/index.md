@@ -5,7 +5,6 @@ description: Details what new selections are, and how to work with them in code.
 author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: article
-# envir:
 client: web
 version: 9.2
 ---

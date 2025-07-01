@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: upgrade
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Upgrade to SuperOffice 8.1 or newer

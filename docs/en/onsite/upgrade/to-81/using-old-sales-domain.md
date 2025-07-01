@@ -7,7 +7,6 @@ date: 12.08.2021
 keywords: upgrade
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Upgrade to 8.1 or newer when using the old Sales domain

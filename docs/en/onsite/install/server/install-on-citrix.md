@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: install citrix terminal deploy
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Install on a Citrix or Terminal server

@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: onsite
-# client:
 ---
 
 # Upgrade SuperOffice Customer Service to SuperOffice Service

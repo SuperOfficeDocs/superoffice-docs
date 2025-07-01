@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: database
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Create a new Oracle database

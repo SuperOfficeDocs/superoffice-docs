@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # DumpResult helper method

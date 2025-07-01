@@ -7,7 +7,6 @@ date: 05.08.2018
 keywords: security, identity
 content_type: concept
 envir: onsite, online
-# client:
 ---
 
 # SuperOffice Authentication

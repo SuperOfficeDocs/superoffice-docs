@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: service
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # ejOutbox

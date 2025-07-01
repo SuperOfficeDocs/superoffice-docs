@@ -7,7 +7,6 @@ date: 02.06.2007
 keywords:
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Setting data-rights with sentry and user-preferences - SQL

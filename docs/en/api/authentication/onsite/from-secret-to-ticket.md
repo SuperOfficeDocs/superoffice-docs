@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: authentication, secret, ticket
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # From secret to ticket

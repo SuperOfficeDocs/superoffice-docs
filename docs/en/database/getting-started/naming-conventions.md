@@ -5,8 +5,6 @@ description: SuperOffice database naming conventions
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
-# envir:
-# client:
 ---
 
 # Naming conventions

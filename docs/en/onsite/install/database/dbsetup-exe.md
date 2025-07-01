@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # DBSetup.exe - Database maintenance

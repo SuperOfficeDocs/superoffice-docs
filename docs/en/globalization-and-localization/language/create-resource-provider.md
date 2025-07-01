@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # How to create a resource provider

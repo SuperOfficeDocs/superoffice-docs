@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, static
 content_type: howto
-# envir:
-# client:
 ---
 
 

@@ -5,8 +5,6 @@ description: Archive provider data classes
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # Data classes

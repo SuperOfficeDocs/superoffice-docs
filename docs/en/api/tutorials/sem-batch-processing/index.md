@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 04.15.2009
 keywords:
 content_type: tutorial
-# envir:
-# client:
 ---
 
 # Background computing and batch processing

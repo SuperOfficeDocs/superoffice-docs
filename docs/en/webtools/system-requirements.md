@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: WebTools
 content_type: reference
 envir: onsite
-# client:
 ---
 
 # System requirements for WebTools

@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: .net
 content_type: concept
-# envir:
-# client:
 ---
 
 # Sync Service

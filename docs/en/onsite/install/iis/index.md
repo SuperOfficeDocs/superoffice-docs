@@ -7,7 +7,6 @@ date: 02.02.2022
 keywords: IIS, install, WCF
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Prepare Web server

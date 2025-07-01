@@ -7,7 +7,6 @@ date: 02.06.2007
 keywords: sentry, security
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # Sentry overrides

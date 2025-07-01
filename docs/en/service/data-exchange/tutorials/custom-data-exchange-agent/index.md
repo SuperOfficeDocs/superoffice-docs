@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: ede, dbi
 content_type: tutorial
-#envir:
-#client:
 ---
 
 

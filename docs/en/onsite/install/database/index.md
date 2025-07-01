@@ -7,7 +7,6 @@ date: 09.12.2023
 keywords: install, database, Oracle, MSQL
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Prepare the database

@@ -7,7 +7,6 @@ date: 09.12.2023
 keywords:
 content_type: reference
 envir: onsite
-# client:
 ---
 
 # System requirements for SuperOffice server hosting IIS

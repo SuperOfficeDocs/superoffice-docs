@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: hook
 content_type: concept
-# envir:
-# client:
 ---
 
 # Events in Row objects

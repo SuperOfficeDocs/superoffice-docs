@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: soap,web.config
 content_type: howto
-# envir:
-# client:
 ---
 
 # ERP Sync Service WCF host

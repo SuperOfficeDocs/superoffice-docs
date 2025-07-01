@@ -8,7 +8,6 @@ keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetu
 content_type: howto
 envir: onsite
 version: 8.1
-# client:
 ---
 
 # Manual steps to install Service

@@ -5,8 +5,6 @@ description: ERP field-value formats and conventions
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # Field-value formats and conventions

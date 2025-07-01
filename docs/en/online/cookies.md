@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: security, cookies
 content_type: reference
 date:
-# envir:
-# client:
 ---
 
 # Cookies overview

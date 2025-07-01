@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud
-# client:
 ---
 
 # OpenID Authorization Code flow

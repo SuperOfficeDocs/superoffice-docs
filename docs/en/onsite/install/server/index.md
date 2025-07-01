@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Install CRM Server

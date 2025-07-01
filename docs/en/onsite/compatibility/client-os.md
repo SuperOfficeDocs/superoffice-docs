@@ -7,7 +7,6 @@ author: Martin Pavlas
 date: 11.07.2024
 content_type: reference
 envir: onsite
-# client:
 ---
 
 # Tested client operating systems

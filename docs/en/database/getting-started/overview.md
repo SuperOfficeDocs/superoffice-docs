@@ -5,8 +5,6 @@ description: An overview of the database
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: concept
-# envir:
-# client:
 ---
 
 # An overview of the database

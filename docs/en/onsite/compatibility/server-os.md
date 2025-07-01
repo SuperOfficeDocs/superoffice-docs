@@ -7,7 +7,6 @@ date: 02.26.2025
 keywords:
 content_type: reference
 envir: onsite
-# client:
 ---
 
 # Tested server operating systems

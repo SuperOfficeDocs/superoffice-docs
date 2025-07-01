@@ -5,7 +5,6 @@ description: Details date criterion in find selections.
 author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: article
-# envir:
 client: web
 ---
 

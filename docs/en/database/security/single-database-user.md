@@ -7,7 +7,6 @@ date:
 keywords: database
 content_type: reference
 envir: onsite
-# client: 
 ---
 
 # Single database user

@@ -7,7 +7,6 @@ date: 11.05.2016
 keywords: entity,row
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # SetDefaults method

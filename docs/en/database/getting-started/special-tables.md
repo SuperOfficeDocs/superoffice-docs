@@ -5,8 +5,6 @@ description: Special tables
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
-# envir:
-# client:
 ---
 
 # Special tables in SuperOffice

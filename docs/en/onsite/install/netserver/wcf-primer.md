@@ -7,7 +7,6 @@ date: 12.02.2021
 keywords: API, WCF, Windows Communication Foundation, SOAP, web services
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # Windows Communication Foundation (WCF)

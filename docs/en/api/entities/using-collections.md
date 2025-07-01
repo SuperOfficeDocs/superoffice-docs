@@ -7,7 +7,6 @@ date: 11.05.2016
 keywords: entity, collection
 content_type: concept
 envir: onsite
-# client:
 ---
 
 # Use and misuse of collections

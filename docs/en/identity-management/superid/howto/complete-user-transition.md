@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 # Optional fields. Don't forget to remove # if you need a field.
-# envir:
-# client:
 ---
 
 # Complete user account transition from password to federated login

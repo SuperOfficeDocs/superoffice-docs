@@ -4,8 +4,6 @@ description: Provider class
 author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
-# envir:
-# client:
 ---
 
 # Providers

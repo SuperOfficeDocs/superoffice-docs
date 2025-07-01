@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: ribbons maillink language change
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # How to change the language of SuperOffice Ribbons and MailLink

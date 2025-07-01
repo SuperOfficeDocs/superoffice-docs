@@ -7,7 +7,6 @@ date: 12.08.2021
 keywords: upgrade
 content_type: howto
 envir: onsite
-# client:
 version: 9, 10
 ---
 

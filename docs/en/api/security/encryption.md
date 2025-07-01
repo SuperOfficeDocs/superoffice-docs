@@ -6,7 +6,6 @@ author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
 envir: onsite
-# client:
 ---
 
 # Encryption

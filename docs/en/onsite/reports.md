@@ -5,8 +5,6 @@ description: Reports in SuperOffice
 author: SuperOffice Product and Engineering
 keywords: reports, printing, print
 content_type: reference
-# envir:
-# client:
 ---
 
 # Reports in SuperOffice Win and Web

@@ -6,8 +6,6 @@ author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, endpoints, WebAPI, REST, Agents, version
 content_type: howto
-# envir:
-# client:
 ---
 
 # How to get the API version

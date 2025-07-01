@@ -7,7 +7,6 @@ date: 09.12.2023
 keywords: install
 content_type: howto
 envir: onsite
-# client:
 ---
 
 # Prepare for Service

@@ -7,7 +7,6 @@ date: 10.18.2023
 keywords: migrate, document
 content_type: tutorial
 envir: onsite, online
-# client:
 ---
 # Understanding document migration: reasons why some documents may not be migrated
 
