@@ -7,7 +7,7 @@ date: 02.02.2022
 keywords: online, app store
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # About CRM Online

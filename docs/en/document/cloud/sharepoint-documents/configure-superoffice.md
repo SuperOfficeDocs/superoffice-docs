@@ -7,7 +7,7 @@ date: 11.02.2023
 keywords: SharePoint, document, template
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to configure settings in SuperOffice Settings and maintenance

@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD, IDP
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Requirements

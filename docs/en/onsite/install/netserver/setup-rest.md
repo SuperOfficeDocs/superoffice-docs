@@ -6,7 +6,7 @@ date: 11.26.2015
 keywords: REST, API, RESTful, WebAPI, HTTP Action Verbs, BASIC, SOTicket, authentication, XSRF Token, setRequestHeader, ODATA
 content_type: article
 deployment: online
-client: online
+platform: web
 version: 8.1
 ---
 

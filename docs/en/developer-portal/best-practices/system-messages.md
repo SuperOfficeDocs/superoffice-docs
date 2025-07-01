@@ -8,7 +8,7 @@ version: 10.3.8
 keywords: app, notification, message, systemmessage
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # System messages

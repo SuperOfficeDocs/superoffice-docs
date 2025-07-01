@@ -7,7 +7,7 @@ date: 09.14.2023
 keywords: user context, session, application user, system user
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # User contexts

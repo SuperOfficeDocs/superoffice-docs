@@ -9,7 +9,7 @@ version: 1.24
 version_devportal: 1.24
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Check application API performance

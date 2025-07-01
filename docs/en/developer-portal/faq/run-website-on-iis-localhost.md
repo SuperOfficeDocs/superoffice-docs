@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: IIS, localhost, Visual Studio
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Run a website on your machine, IIS localhost

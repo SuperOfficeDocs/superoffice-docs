@@ -9,7 +9,7 @@ version: 1.30
 version_devportal: 1.30
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Logs - Track changes to partners and applications

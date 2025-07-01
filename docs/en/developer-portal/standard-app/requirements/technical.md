@@ -7,7 +7,7 @@ date: 02.02.2022
 keywords: certification, apps, availability, performance
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Technical requirements

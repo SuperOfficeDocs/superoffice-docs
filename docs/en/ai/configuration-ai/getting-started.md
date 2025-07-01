@@ -5,7 +5,7 @@ author: AnthonyYates
 keywords: AI
 content_type: tutorial, howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to setup and configure Categorization AI Service

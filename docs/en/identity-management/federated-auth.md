@@ -7,7 +7,7 @@ date: 27.02.2025
 keywords: federated authentication, SuperID, identity provider, sign-in
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Online authentication

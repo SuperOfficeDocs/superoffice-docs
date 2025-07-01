@@ -6,7 +6,7 @@ author: AnthonyYates
 keywords: database mirroring
 content_type: form
 deployment: online
-client: online
+platform: web
 ---
 
 # Order Database Mirroring

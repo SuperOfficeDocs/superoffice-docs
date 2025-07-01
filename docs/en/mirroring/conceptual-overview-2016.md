@@ -7,7 +7,7 @@ date: 04.20.2016
 keywords:
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Conceptual overview

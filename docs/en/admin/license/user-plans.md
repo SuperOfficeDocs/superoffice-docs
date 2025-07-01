@@ -8,7 +8,7 @@ date: 04.23.2024
 version: 10.3.5
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # SuperOffice user plans and subscriptions

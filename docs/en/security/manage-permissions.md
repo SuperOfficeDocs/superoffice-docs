@@ -8,6 +8,6 @@ keywords: Developer Portal, user, access, permission
 content_type: howto
 version:
 deployment: online
-client: online
+platform: web
 redirect_url: https://docs.superoffice.com/en/developer-portal/partner/manage-permissions.html
 ---

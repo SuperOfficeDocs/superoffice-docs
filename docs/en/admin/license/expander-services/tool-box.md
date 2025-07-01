@@ -8,7 +8,7 @@ date: 12.10.2024
 version: 10
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Development Tools - contents and usage

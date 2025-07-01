@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords:
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # Helper for private applications

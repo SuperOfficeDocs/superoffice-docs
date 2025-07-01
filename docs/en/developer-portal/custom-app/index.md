@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: private app, custom app
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Custom apps for SuperOffice CRM Online

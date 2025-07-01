@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: oidc
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Authorization Code flow

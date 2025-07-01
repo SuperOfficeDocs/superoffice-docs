@@ -7,7 +7,7 @@ date: 12.20.2023
 keywords: tenant, consent, approve
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Get consent to access a customer's tenant

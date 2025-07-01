@@ -8,7 +8,7 @@ keywords: SharePoint, permission, security, access control, domain group, Micros
 content_type: howto
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # About permissions in SharePoint​

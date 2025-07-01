@@ -8,7 +8,7 @@ date: 03.31.2025
 version: 10.5
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Register identity provider (domain name)

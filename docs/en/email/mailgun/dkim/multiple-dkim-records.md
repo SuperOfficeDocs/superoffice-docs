@@ -7,7 +7,7 @@ date: 09.12.2023
 keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Multiple DKIM records in SuperOffice Online

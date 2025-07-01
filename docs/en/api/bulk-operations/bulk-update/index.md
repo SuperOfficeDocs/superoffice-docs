@@ -7,7 +7,7 @@ date: 06.23.2017
 keywords: data-access, bulk-update
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Bulk Update API

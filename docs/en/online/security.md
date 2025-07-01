@@ -7,7 +7,7 @@ author: Margrethe Romnes, Tony Yates
 date: 03.22.2024
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Security enhancements

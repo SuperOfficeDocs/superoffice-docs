@@ -7,7 +7,7 @@ date: 05.08.2024
 keywords: tenant, status, state API
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Check tenant status

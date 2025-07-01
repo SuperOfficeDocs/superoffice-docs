@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: standard app
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Certification checklist

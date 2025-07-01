@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SCIM, Microsoft Entra, ME-ID, AAD, enterprise app
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Enable automatic sync to SuperOffice

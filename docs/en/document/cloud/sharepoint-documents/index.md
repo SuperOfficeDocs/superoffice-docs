@@ -8,7 +8,7 @@ keywords: SharePoint, document, Microsoft Entra domain, ME-ID, AAD
 content_type: concept
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # SharePoint documents

@@ -7,7 +7,7 @@ date: 09.12.2023
 keywords: mailgun
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Request DKIM key for eu.mailgun.org

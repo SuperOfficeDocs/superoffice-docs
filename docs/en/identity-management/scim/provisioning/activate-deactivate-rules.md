@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Activate and deactivate SCIM rules

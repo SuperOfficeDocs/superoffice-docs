@@ -7,7 +7,7 @@ author: Frode B, Martin Pavlas, Bergfrid Dias
 date: 07.12.2024
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Getting started (self-service)

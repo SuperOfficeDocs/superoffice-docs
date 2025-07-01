@@ -7,7 +7,7 @@ keywords: SuperID
 date:
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # SuperID terms and conditions

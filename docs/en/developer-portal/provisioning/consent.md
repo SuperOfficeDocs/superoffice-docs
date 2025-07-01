@@ -7,7 +7,7 @@ date: 12.20.2023
 keywords: provisioning, apps, consent, I approve
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Consent

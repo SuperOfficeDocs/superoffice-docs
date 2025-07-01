@@ -8,7 +8,7 @@ date: 03.19.2025
 version:
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Migration guide

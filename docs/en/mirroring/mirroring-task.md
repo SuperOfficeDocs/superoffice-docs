@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: Mirroring Task, mirror
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # The database Mirroring Task

@@ -8,7 +8,7 @@ date: 12.10.2024
 version_devportal: 1.29
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Tenant management

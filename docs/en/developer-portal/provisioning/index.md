@@ -7,7 +7,7 @@ date: 02.02.2022
 keywords: provisioning, set-up, apps
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Provisioning

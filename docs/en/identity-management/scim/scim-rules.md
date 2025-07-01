@@ -8,7 +8,7 @@ date: 03.27.2025
 version: 10.5.2
 content_type: concepts
 deployment: online
-client: online
+platform: web
 ---
 
 # SCIM rules

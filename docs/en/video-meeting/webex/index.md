@@ -6,7 +6,7 @@ date: 06.21.2021
 keywords: video meeting, Webex
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Webex
 

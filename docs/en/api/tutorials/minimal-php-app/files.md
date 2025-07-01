@@ -5,7 +5,7 @@ author: SuperOffice Product and Engineering
 keywords:
 topic:
 deployment: online
-client: online
+platform: web
 ---
 
 # nuSoapSample solution

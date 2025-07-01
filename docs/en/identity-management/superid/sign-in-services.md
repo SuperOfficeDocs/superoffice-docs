@@ -7,7 +7,7 @@ keywords: SuperID, sign-in, user account
 date: 02.02.2022
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Sign-in services

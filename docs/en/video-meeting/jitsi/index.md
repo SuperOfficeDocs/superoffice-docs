@@ -6,7 +6,7 @@ date: 08.12.2021
 keywords: video meeting, Jitsi
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Jitsi
 

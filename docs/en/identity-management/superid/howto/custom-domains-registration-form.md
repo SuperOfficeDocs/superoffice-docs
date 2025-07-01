@@ -7,7 +7,7 @@ date: 13.06.2022
 keywords: custom domains registration form 
 content_type: form
 deployment: online
-client: online
+platform: web
 ---
 
 # Custom domains registration

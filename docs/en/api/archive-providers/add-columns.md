@@ -7,7 +7,7 @@ date: 08.03.2017
 keywords: NetServer, archive provider
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Add columns to archive providers

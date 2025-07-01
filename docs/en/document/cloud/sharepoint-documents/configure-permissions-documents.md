@@ -8,7 +8,7 @@ keywords: SharePoint, permission, security, access control, Microsoft Entra, dom
 content_type: howto
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # How to set up SharePoint permissions for documents

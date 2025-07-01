@@ -7,7 +7,7 @@ date: 13.08.2021
 keywords: video meeting
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Create a video meeting

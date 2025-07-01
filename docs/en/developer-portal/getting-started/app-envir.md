@@ -7,7 +7,7 @@ date: 05.19.2022
 keywords: sod, stage, environment, maintenance window
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Application environments

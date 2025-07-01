@@ -7,7 +7,7 @@ date: 04.20.2016
 keywords:
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # Getting started with database mirroring

@@ -7,7 +7,7 @@ date: 06.20.2022
 keywords: document
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM

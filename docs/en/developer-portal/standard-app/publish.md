@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: App Store
 content_type: howto
 deployment: online
-client: online
+platform: web
 --- 
 
 # Publish standard app in CRM Online environment

@@ -7,7 +7,7 @@ date: 01.12.2024
 keywords: SharePoint, document
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to set up Microsoft 365 SharePoint

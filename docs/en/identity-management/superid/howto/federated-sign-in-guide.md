@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SuperID, Microsoft Entra ID
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # Guide to federated sign-in

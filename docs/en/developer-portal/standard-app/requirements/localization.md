@@ -7,7 +7,7 @@ author: Margrethe Romnes
 date: 05.12.2025
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Requirements for localization and language support

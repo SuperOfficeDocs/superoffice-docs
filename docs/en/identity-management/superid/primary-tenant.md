@@ -7,7 +7,7 @@ date:
 keywords: 
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Primary tenant

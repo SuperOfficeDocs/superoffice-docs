@@ -7,7 +7,7 @@ keywords:
 date: 12.22.2022
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Add tables to skip mirroring OBSOLETE from 10.1.8

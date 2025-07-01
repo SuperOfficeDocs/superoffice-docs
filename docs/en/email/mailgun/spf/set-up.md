@@ -7,7 +7,7 @@ date: 02.02.2022
 keywords: SPF, email, DNS record, domain
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to set up SPF Record

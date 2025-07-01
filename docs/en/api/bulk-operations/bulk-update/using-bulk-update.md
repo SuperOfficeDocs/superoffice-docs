@@ -7,7 +7,7 @@ date: 06.23.2017
 keywords: bulk update, FieldValueInfo, DictionaryTableName
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Practical details - how to use Bulk Update API

@@ -7,7 +7,7 @@ date: 05.08.2023
 keywords: permission, integration, app, SharePoint, document
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Permissions for SuperOffice Document Library integration (app)

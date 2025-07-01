@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: custom app, private app
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Get your custom app validated and live

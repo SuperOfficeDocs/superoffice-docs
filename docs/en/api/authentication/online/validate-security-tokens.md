@@ -6,7 +6,7 @@ author: AnthonyYates
 keywords: certificates, jwt, authentication, token, security
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

@@ -6,7 +6,7 @@ date: 05.07.2012
 keywords:
 content_type: article
 deployment: online
-client: online
+platform: web
 ---
 
 # Soundex comes to NetServer

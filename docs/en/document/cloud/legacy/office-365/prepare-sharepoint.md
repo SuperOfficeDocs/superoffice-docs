@@ -7,7 +7,7 @@ keywords: SharePoint, Microsoft Entra
 date: 01.15.2024
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Preparing IDP login for SharePoint integration

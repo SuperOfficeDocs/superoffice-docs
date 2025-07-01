@@ -7,7 +7,7 @@ date: 01.02.2024
 keywords: metered services, API usage, metrics
 content_type: howto
 deployment: online
-client: online
+platform: web
 version: 1.16
 ---
 

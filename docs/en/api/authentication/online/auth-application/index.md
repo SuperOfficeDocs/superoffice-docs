@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: authentication, system user, back-channel, non-interactive
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

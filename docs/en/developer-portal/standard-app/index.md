@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: standard app, public app, App Store
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Standard apps for SuperOffice Online

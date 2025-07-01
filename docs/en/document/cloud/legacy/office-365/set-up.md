@@ -7,7 +7,7 @@ date: 06.20.2022
 keywords: Microsoft 365, document
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Set up Microsoft 365 Cloud Office document integration

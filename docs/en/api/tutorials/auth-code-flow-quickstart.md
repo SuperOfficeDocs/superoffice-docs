@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: oidc, razor page
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # ASP.NET web application quick-start

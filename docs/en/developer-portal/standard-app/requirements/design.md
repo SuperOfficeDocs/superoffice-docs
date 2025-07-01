@@ -7,7 +7,7 @@ date: 02.02.2022
 keywords: certification, apps
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Requirements for user UI and design

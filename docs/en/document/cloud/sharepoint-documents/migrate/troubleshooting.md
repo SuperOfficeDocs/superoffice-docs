@@ -8,7 +8,7 @@ keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
 content_type: howto
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # Troubleshooting

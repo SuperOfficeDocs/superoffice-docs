@@ -7,7 +7,7 @@ date: 06.21.2021
 keywords: video meeting
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to connect to a video provider

@@ -7,7 +7,7 @@ author: Tony Yates, Margrethe Romnes
 date: 03.22.2024
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to authenticate an application user with SuperOffice legacy federated authentication

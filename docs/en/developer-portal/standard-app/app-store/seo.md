@@ -8,7 +8,7 @@ date: 10.16.2024
 version_devportal: 1.27
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Improve SEO

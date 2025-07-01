@@ -7,7 +7,7 @@ date: 06.23.2017
 keywords:
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Bulk update examples using NetServer Core API

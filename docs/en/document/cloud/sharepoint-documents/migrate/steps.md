@@ -8,7 +8,7 @@ keywords: SharePoint, document
 content_type: howto
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # Migration guide

@@ -7,7 +7,7 @@ date: 09.15.2023
 keywords: tenant, consent, approve
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Unable to approve app

@@ -7,7 +7,7 @@ date: 08.12.2021
 keywords: video meeting
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Join a video meeting

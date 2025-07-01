@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: video meetings
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to configure email invitations for video meetings

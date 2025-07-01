@@ -6,7 +6,7 @@ keywords: certificate, resolve, validate, SuperOfficeFederatedLogin.crt, Certifi
 author: AnthonyYates
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to override the certificate resolver

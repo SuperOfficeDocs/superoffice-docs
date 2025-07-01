@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: authentication, OAuth 2.0, OIDC, Implicit flow
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # OICD Implicit flow

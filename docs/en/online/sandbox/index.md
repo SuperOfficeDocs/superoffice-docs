@@ -7,7 +7,7 @@ date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # CRM Online production sandbox (test environment)

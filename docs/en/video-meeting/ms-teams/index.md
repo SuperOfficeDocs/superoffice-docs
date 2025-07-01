@@ -6,7 +6,7 @@ keywords: video meeting, Microsoft Teams
 date: 12.10.2024
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Microsoft Teams
 

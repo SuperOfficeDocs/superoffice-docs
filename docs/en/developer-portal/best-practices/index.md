@@ -8,7 +8,7 @@ date: 10.31.2024
 version: 10
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Best practices for SuperOffice CRM Online apps

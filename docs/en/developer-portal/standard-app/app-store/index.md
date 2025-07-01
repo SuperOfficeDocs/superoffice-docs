@@ -7,7 +7,7 @@ date: 09.08.2023
 keywords: buy, app details, partner profile
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # The App Store marketplace

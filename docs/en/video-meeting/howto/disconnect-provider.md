@@ -7,7 +7,7 @@ date: 08.12.2021
 keywords: video meetings
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to disconnect video provider

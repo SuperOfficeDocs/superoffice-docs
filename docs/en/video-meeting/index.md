@@ -7,7 +7,7 @@ author: SuperOffice Product and Engineering
 date: 12.10.2024
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Video Meetings for SuperOffice

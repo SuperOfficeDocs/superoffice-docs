@@ -7,7 +7,7 @@ date: 12.20.2023
 keywords: activate, consent
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # First-time activation

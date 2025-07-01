@@ -7,7 +7,7 @@ date: 11.15.2023
 keywords: API call, exception, fail, request
 content_type: howto
 deployment: online
-client: online
+platform: web
 version_devportal: 1.16
 ---
 

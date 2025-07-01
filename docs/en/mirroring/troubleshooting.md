@@ -6,7 +6,7 @@ author: Anthony Yates
 keywords: database mirroring
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Troubleshooting Database Mirroring

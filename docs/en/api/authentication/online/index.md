@@ -7,7 +7,7 @@ date: 05.05.2025
 keywords: authentication, OIDC, OAuth, claim, terminology, ID token
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # SuperOffice Online OAuth 2.0 and OpenID Connect

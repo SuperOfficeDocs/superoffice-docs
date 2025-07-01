@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: certification
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Marketing requirements

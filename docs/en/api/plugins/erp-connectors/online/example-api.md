@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # ERP Connector API Changes

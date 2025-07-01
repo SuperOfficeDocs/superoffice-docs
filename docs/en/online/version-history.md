@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: online, version, history, releases
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # SuperOffice CRM Online version history

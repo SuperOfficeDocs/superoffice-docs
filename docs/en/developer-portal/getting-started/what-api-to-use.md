@@ -7,7 +7,7 @@ date: 09.13.2018
 keywords: apps, API, authentication, proxy
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # What API to use?

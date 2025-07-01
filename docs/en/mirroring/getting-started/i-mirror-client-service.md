@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # IMirrorClientService interface

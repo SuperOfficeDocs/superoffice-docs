@@ -8,7 +8,7 @@ date: 04.30.2025
 version_devportal: 2.2
 content_type: concept
 deployment: online
-client: online
+platform: web
 language: en
 ---
 

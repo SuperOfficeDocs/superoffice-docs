@@ -8,7 +8,7 @@ version: 10.2
 keywords: mirroring, blocked tables, database, schema
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Blocked tables list

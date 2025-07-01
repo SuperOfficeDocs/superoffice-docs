@@ -7,7 +7,7 @@ date: 03.04.2024
 keywords: online, development
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # Create your first application and connect to SuperOffice web services

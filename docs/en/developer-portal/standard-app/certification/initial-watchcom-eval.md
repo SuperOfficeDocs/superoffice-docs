@@ -7,7 +7,7 @@ date: 05.05.2025
 keywords: Telenor Cyberdefence, Watchcom, security, certification
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # About Telenor Cyberdefence initial security evaluation

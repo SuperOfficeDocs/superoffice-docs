@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 deployment: online
-client: online
+platform: web
 ---
 
 # Customer data source

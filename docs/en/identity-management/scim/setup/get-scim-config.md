@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Get SCIM config for the Microsoft Entra enterprise application

@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Troubleshooting

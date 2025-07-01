@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: MFA,2FA
 content_type: concept
-client: online
+platform: web
 ---
 
 # Multi-factor authentication

@@ -8,7 +8,7 @@ keywords: Developer Portal, messaging center
 content_type: conceptual
 version: 1.13
 deployment: online
-client: online
+platform: web
 ---
 
 # Messaging Center

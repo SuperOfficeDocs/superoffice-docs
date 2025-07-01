@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: Microsoft Entra
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Pre-requisites for Microsoft 365 integration

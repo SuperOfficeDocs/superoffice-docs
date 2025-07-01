@@ -7,7 +7,7 @@ date: 09.14.2023
 keywords: developer, app, application, extensibility, integration point, authorization
 content_type: concept
 deployment: online
-client: online
+platform: web
 --- 
 
 # Building apps for SuperOffice

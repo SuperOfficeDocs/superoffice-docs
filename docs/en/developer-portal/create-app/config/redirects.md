@@ -7,7 +7,7 @@ date: 09.12.2023
 keywords: callback, redirect, endpoint
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Redirection endpoint

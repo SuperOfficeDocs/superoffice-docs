@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # User provisioning

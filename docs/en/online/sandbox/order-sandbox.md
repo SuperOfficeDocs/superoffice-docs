@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: online sandbox
 content_type: form
 deployment: online
-client: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD041 MD044 -->

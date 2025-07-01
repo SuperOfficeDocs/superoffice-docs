@@ -7,7 +7,7 @@ date:
 keywords: authentication, soap, system user
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

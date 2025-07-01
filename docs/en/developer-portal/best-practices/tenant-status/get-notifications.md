@@ -8,7 +8,7 @@ date: 09.06.2024
 version_devportal: 1.25
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Tenant status webhook

@@ -7,7 +7,7 @@ date: 09.07.2023
 keywords: Watchcom
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 <!-- markdownlint-disable-file MD028 -->

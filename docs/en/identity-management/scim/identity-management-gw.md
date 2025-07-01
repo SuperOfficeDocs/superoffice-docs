@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: Identity, Management, Gateway, Architecture, SuperID, Microsoft Entra, ME-ID, AAD
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # The Identity Management Gateway

@@ -7,7 +7,7 @@ date:
 keywords: 
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Known challenges with SuperID

@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: authorization
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Which flow should you use?

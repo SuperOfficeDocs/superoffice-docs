@@ -7,7 +7,7 @@ date: 12.20.2023
 keywords: custom app, validation, checklist
 content_type: reference
 deployment: online
-client: online
+platform: web
 ---
 
 # Validation checklist

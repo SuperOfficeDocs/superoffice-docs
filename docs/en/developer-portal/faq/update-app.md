@@ -7,7 +7,7 @@ date: 08.26.2022
 keywords: App Store
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Update app

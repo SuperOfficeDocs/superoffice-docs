@@ -6,7 +6,7 @@ date: 03.03.2012
 keywords: search,crmscript
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Using the SearchEngine class in ejScript

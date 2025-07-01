@@ -7,7 +7,7 @@ author: AnthonyYates
 date: 06.25.2024
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # SuperOffice AI Service

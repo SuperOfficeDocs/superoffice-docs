@@ -6,7 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Force mirroring re-sync in a production database

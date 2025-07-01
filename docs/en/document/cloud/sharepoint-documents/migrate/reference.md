@@ -8,7 +8,7 @@ keywords: SharePoint, document
 content_type: reference
 version:
 deployment: online
-client: online
+platform: web
 ---
 
 # The SharePoint migration UI

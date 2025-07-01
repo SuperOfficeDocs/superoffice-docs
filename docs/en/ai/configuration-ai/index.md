@@ -5,7 +5,7 @@ author: AnthonyYates
 keywords: AI, machine learning
 content_type: concept
 deployment: online
-client: online
+platform: web
 ---
 
 # Categorization

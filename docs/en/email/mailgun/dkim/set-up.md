@@ -8,7 +8,7 @@ date: 03.04.2024
 version: 10.3
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # How to set up a DKIM Record

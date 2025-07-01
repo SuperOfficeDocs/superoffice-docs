@@ -7,7 +7,7 @@ date: 09.14.2023
 keywords: sod, form, developer registration
 content_type: howto
 deployment: online
-client: online
+platform: web
 ---
 
 # Get access to the sandbox environment

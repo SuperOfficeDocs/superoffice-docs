@@ -8,7 +8,7 @@ date: 01.27.2025
 version_sofo: 2024.8.12
 content_type: reference
 deployment: online
-client: online
+platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
