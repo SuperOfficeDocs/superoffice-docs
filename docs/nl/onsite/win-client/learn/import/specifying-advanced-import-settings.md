@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Windows Client-instellingen
 content_type: howto
 language: nl
-client: win
+platform: win
 deployment: onsite
 ---
 

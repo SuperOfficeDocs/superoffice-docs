@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
 content_type: concept
 language: da
-client: win
+platform: win
 deployment: onsite
 ---
 

@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
 content_type: concept
 language: de
-client: win
+platform: win
 deployment: onsite
 ---
 

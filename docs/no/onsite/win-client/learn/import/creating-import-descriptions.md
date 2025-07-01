@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Innstillinger for Windows-klient
 content_type: howto
 language: no
-client: win
+platform: win
 deployment: onsite
 ---
 

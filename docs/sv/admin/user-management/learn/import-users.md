@@ -10,7 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Importera användare

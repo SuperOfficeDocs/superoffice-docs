@@ -10,7 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Import af brugere

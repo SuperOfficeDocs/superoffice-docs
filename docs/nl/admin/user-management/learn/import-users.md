@@ -10,7 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 deployment: onsite
-client: web
+platform: web
 ---
 
 # Gebruikers importeren
