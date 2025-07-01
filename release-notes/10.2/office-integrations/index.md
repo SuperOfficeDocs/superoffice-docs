@@ -16,6 +16,6 @@ topic: reference
 * [Contact interest in action step in Zapier app - (3.2)][3]
 
 <!-- Referenced links-->
-[1]: 3.1-update.md
+[1]: ../../integrations/sofo/3.1-update.md
 [2]: 3.2-update.md
 [3]: https://zapier.com/apps/superofficecrm/integrations

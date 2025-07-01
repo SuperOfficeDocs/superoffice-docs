@@ -60,11 +60,6 @@ items:
     href: cep/10.0.3-update.md
   - name: 10.0.2 update
     href: cep/10.0.2-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 10.0.6 update
-    href: office-integrations/10.0.6-update.md
 - name: API
   href: api/index.md
   items:

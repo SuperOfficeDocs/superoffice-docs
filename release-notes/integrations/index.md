@@ -41,7 +41,7 @@ See all the [new or updated apps][2]
 * [Activity folders for SuperOffice (02.10.2024)][5] from SuperOffice AS
 
 <!-- Referenced links -->
-[1]: ../10.5/office-integrations/sofo-6.0-update.md
+[1]: sofo/6.0-update.md
 [2]: https://appstore.superoffice.com/Category/new-and-updated
 [3]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync
 [4]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync-dynamics-365-business-central

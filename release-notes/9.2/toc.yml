@@ -63,15 +63,6 @@ items:
     href: service/9.2-R06-update.md
   - name: 9.2 R01 update
     href: service/9.2-R01-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 2.5 update
-    href: office-integrations/2.5-update.md
-  - name: 2.4 update
-    href: office-integrations/2.4-update.md
-  - name: 2.3 update
-    href: office-integrations/2.3-update.md
 - name: API
   href: api/index.md
   items:
