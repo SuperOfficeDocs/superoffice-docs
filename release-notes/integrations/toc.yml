@@ -8,3 +8,10 @@ items:
     href: sofo/6.0-update.md
   - name: 3.1 update
     href: sofo/3.1-update.md
+- name: SharePoint integrations
+  href: sharepoint/index.md
+  items:
+  - name: SharePoint Documents 3.2
+    href: sharepoint/3.2-update.md
+  - name: SharePoint Document Library
+    href: sharepoint/10.1.4-update.md

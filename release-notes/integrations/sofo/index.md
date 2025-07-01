@@ -14,7 +14,7 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# What's new SuperOffice for Outlook
+# What's new in SuperOffice for Outlook
 
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 * [SuperOffice for Outlook - Onsite and Cloud installation (3.1)][2]
