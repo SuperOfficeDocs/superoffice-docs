@@ -2,7 +2,7 @@
 title: Scenarios
 uid: minimal_csharp_app_scenarios
 description: Scenarios
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

@@ -2,7 +2,7 @@
 title: Unable to authenticate inside an iframe with IdP
 uid: iframe_idp_auth
 description: Unable to authenticate inside an iframe with IdP
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: authentication
 content_type: concept
 envir: cloud

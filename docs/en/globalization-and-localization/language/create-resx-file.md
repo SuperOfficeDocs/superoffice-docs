@@ -2,7 +2,7 @@
 title: Create our own resx file
 uid: create_resx_file
 description: Create our own resx file
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: resx, ResourceStrings, translation, globalization, ResXmlFileProvider
 content_type: howto

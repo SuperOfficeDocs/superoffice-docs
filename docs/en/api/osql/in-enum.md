@@ -2,7 +2,7 @@
 title: Enum values with IN
 uid: osql_in
 description: SuperOffice Objectified SQL - Enum values with IN
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: concept

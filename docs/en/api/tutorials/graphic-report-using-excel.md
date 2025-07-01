@@ -2,7 +2,7 @@
 title: Graphic report using Excel
 uid: graphic_report_excel
 description: Graphic report using Excel
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 
 keywords: 
 content_type: tutorial

@@ -2,7 +2,7 @@
 title: ERP search operators
 uid: erp_search_operators
 description: ERP sync search-operator reference
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: reference

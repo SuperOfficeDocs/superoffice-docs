@@ -2,7 +2,7 @@
 title: Upgrade from 7.x to 8
 uid: upgrade_75_to_8
 description: Upgrade from 7.x to 8
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: onsite

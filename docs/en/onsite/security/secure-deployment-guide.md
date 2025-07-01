@@ -2,7 +2,7 @@
 title: Deploy SuperOffice securely onsite
 uid: secure_deployment_guide
 description: Guide to secure deployment of SuperOffice onsite
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: security
 content_type: tutorial
 envir: onsite

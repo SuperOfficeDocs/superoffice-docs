@@ -2,7 +2,7 @@
 title: ASP.NET web application quick-start
 uid: auth_code_flow_quickstart
 description: ASP.NET web application quickstart
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: oidc, razor page
 content_type: tutorial
 envir: cloud

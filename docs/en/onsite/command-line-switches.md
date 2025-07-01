@@ -2,7 +2,7 @@
 title: Command line and registry switches
 uid: command_line_switches
 description: Command line and registry switches
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

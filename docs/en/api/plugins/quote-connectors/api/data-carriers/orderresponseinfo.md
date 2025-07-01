@@ -2,7 +2,7 @@
 title: OrderResponseInfo
 uid: quote_connector_carrier_orderresponseinfo
 description: ERP Quote Connector Interface data carrier - OrderResponseInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

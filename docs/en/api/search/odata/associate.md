@@ -2,7 +2,7 @@
 title: Associate
 uid: rest_api_search_associate
 description: REST Web API search associate
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search,odata
 date:
 content_type: howto

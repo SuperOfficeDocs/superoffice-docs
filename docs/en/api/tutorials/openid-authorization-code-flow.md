@@ -2,7 +2,7 @@
 title: OpenID Authorization Code flow
 uid: oidc_auth_code_flow
 description: OpenId Authorization Code flow
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

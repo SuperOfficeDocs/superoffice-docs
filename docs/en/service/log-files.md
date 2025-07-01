@@ -2,7 +2,7 @@
 title: Log files
 uid: service_log_files
 description: Service log files
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: onsite

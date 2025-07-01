@@ -2,7 +2,7 @@
 title: Configure FAQ entries
 uid: faq-config
 description: Configure FAQ entries
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: FAQ, CEP, Customer Center, registry, comment
 content_type: howto
 audience: settings

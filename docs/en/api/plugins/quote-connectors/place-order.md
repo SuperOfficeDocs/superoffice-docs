@@ -2,7 +2,7 @@
 title: Placing orders into ERP
 uid: quote_connectors_place order
 description: Placing orders into ERP
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

@@ -2,7 +2,7 @@
 title: Upgrade to 8.1
 uid: upgrade_to_81
 description: Upgrade to 8.1
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: upgrade
 content_type: howto
 envir: onsite

@@ -2,7 +2,7 @@
 title: Sentry
 uid: osql_sentry
 description: SuperOffice Objectified SQL - Sentry
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

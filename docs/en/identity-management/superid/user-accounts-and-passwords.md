@@ -2,7 +2,7 @@
 title: User accounts and passwords
 uid: user_accounts_and_passwords
 description:  User accounts and passwords
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: concept

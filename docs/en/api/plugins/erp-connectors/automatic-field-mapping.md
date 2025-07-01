@@ -2,7 +2,7 @@
 title: ERP Sync engine automatic field mapping
 uid: erp_auto_field_mapping
 description: ERP Sync engine automatic field mapping
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: reference

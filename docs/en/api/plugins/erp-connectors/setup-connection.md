@@ -2,7 +2,7 @@
 title: Setting up ERP Sync connection
 uid: erp_setup_connection
 description: Setting up ERP Sync connection
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: howto

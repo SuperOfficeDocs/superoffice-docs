@@ -1,7 +1,7 @@
 ---
 title: quoteconnectorextender
 description: ERP Quote Connector Interface class QuoteConnectorExtender
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

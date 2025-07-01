@@ -2,7 +2,7 @@
 title: Tickets and identity transfers
 uid: id_transfer_tickets
 description: Tickets and identity transfers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: authentication, user
 content_type: concept

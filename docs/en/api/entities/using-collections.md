@@ -2,7 +2,7 @@
 title: Use and misuse of collections
 uid: collections_best_practices
 description: Use and misuse of collections
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: entity, collection
 content_type: concept

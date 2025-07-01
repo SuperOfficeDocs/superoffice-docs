@@ -2,7 +2,7 @@
 title: ejTermSetup
 uid: automated_task_ejtermsetup
 description: Automated tasks in Service - ejTermSetup
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
 envir: onsite

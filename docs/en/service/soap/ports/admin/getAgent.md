@@ -2,7 +2,7 @@
 title: getAgent
 uid: cs_soap_ports_admin_getagent
 description: Services SOAP interface port admin getAgent
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

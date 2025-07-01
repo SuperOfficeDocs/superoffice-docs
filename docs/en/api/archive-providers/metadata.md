@@ -2,7 +2,7 @@
 title: Metadata
 uid: archive_provider_metadata
 description: Archive provider metadata
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

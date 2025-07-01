@@ -2,7 +2,7 @@
 title: Disconnect user
 uid: disconnect_user
 description: How to disconnect a user from video meetings
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 08.12.2021
 keywords: video meetings
 content_type: howto

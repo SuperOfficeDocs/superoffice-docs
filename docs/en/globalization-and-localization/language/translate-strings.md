@@ -2,7 +2,7 @@
 title: Translate strings
 uid: translate_strings
 description: How to translate strings
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto

@@ -2,7 +2,7 @@
 title: Activate and deactivate SCIM rules
 uid: activate_deactivate_scim_rules
 description: Activate and deactivate SCIM rules
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

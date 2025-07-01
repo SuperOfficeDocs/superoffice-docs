@@ -2,7 +2,7 @@
 title: Security and best practices
 uid: mailgun_security
 description: Security and best practices for Mailgun
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: email
 content_type: reference
 # Optional fields. Don't forget to remove # if you need a field.

@@ -2,7 +2,7 @@
 title: Connect provider
 uid: connect_video_provider
 description: How to connect video provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.21.2021
 keywords: video meeting
 content_type: howto

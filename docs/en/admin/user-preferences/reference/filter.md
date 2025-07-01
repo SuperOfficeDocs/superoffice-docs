@@ -2,7 +2,7 @@
 title: Filter
 uid: pref_filter
 description: Preference section Filter
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

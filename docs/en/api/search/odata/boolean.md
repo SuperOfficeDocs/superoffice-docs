@@ -2,7 +2,7 @@
 title: Boolean
 uid: rest_api_search_boolean
 description: REST Web API search boolean
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search,odata
 date:
 content_type: howto

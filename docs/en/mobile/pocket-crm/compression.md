@@ -2,7 +2,7 @@
 title: Compression
 uid: zip_on_rest
 description: ZIP compression on REST
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir:

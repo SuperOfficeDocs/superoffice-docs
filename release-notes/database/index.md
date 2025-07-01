@@ -2,7 +2,7 @@
 title: What's new
 uid: whats_new_db
 description: What's new in the SuperOffice database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

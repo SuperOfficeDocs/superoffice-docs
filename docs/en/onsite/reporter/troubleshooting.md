@@ -2,7 +2,7 @@
 title: Troubleshooting
 uid: troubleshooting_web_reporter
 description: Troubleshoot Reporter
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

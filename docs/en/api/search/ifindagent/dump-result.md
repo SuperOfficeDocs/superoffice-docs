@@ -2,7 +2,7 @@
 title: DumpResult helper method
 uid: dump_result
 description: DumpResult helper method
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto

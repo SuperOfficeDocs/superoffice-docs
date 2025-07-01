@@ -2,7 +2,7 @@
 title: Rights field
 uid: quote_connector_rights_field
 description: Quote connector Rights field
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: quote
 content_type: concept         
 date:

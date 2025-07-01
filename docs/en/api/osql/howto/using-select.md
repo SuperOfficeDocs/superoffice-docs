@@ -2,7 +2,7 @@
 title: How to use SELECT in OSQL
 uid: osql_select_howto
 description: SuperOffice Objectified SQL - SELECT
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

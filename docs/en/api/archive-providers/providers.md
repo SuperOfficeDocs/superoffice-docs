@@ -1,7 +1,7 @@
 ---
 title: providers
 description: Provider class
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
 # envir:

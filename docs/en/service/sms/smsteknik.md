@@ -2,7 +2,7 @@
 title: SMSTeknik
 uid: smsteknik_sms_plugin
 description: Configuration of SMSTeknik NetServer SMS plugin
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 ---

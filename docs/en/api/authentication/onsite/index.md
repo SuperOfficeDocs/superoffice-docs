@@ -2,7 +2,7 @@
 title: Authentication
 uid: auth_onsite
 description: Authentication in SuperOffice onsite
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.22.2021
 keywords: authentication, ticket, credentials
 content_type: concept

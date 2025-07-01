@@ -2,7 +2,7 @@
 title: Find a project, returning the name
 uid: find_project_by_name
 description: Find a project, returning the name
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto

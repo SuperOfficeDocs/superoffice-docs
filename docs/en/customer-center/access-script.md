@@ -2,7 +2,7 @@
 title: Accessing the script
 uid: access-crmscript
 description: Accessing the script from the Customer Centre
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 03.16.2023
 keywords: Customer Center, CEP
 content_type: howto

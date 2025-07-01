@@ -2,7 +2,7 @@
 title: Compatibility
 uid: services_soap_compatibility
 description: Services SOAP interface compatibility (interoperability)
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

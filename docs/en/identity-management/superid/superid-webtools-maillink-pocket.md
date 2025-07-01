@@ -2,7 +2,7 @@
 title: Authentication with WebTools, MailLink, and Pocket
 uid: authentication_with_webtools_maillink_and_pocket
 description: Authentication with WebTools, MailLink, and Pocket
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: OAuth 2.0
 content_type: concept
 ---

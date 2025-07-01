@@ -2,7 +2,7 @@
 title: Migrate
 uid: migration_guide_mailboxes
 description: Migrate to SuperOffice CRM Online with Service mailboxes
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: onsite

@@ -2,7 +2,7 @@
 title: DateTime
 uid: rest_api_search_datetime
 description: REST Web API search DateTime
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search
 date:
 content_type: howto

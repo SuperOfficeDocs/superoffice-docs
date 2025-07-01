@@ -2,7 +2,7 @@
 title: Unary time-periods
 uid: rest_api_search_unary
 description: REST Web API search Unary day,week,month,quarter,year
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search
 date:
 content_type: howto

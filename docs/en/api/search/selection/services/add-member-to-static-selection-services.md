@@ -2,7 +2,7 @@
 title: How to add members to a static selection using the services layer
 uid: add_members_static_selection_services
 description: How to add members to a static selection using services
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,services
 content_type: howto

@@ -2,7 +2,7 @@
 title: Silent install of ServerSetup
 uid: silent_serversetup
 description: Silent install of ServerSetup
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 envir: onsite

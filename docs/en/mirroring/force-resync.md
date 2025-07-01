@@ -2,7 +2,7 @@
 title: Force resync in prod
 uid: force_mirroring_resync
 description: Force mirroring re-synchronization in a production database
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

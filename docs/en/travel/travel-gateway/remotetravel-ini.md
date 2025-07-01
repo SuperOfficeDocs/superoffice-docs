@@ -2,7 +2,7 @@
 title: RemoteTravel.ini
 uid: remotetravel_ini
 description: RemoteTravel.ini
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 # envir:

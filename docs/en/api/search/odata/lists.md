@@ -2,7 +2,7 @@
 title: ODATA lists
 uid: odata_lists
 description: REST Web API search - lists
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search, list, odata
 date:
 content_type: howto

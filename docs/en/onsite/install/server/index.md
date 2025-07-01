@@ -2,7 +2,7 @@
 title: Install SuperOffice Win Server
 uid: install_crm_server
 description: Install SuperOffice Win Server
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

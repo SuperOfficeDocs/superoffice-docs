@@ -2,7 +2,7 @@
 title: Create WFC
 uid: create_mirroring_wfc
 description: Get your mirroring service up and running in 10 minutes or less using NuGet
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: mirroring, WFC, appSettings
 content_type: howto
 envir: cloud

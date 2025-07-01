@@ -2,7 +2,7 @@
 title: Display the KAM's picture
 uid: display_kam_picture
 description: Get person image and display in the customer center
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: Customer Center
 content_type: tutorial

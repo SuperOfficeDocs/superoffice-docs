@@ -2,7 +2,7 @@
 uid: update_prototype
 title: Update prototype
 description: About update prototype
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept

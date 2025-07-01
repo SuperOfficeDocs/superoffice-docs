@@ -2,7 +2,7 @@
 title: FieldProperties (services)
 uid: sentry_fieldproperties
 description: Sentry in services - FieldProperties property
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: sentry
 content_type: concept

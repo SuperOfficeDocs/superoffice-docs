@@ -2,7 +2,7 @@
 title: IProductRegisterCache
 uid: i_product_register_cache 
 description: IProductRegisterCache
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

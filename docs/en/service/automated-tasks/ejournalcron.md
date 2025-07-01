@@ -2,7 +2,7 @@
 title: ejournalCron
 uid: automated_task_ejournalcron
 description: Automated tasks in Service - ejournalCron
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
 envir: onsite

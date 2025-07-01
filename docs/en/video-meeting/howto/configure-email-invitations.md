@@ -2,7 +2,7 @@
 title: Configure
 uid: configure_email_invitations
 description: How to configure video meetings in SuperOffice
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: video meetings
 content_type: howto
 envir: cloud

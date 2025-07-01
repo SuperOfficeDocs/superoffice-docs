@@ -2,7 +2,7 @@
 title: CustomSearch
 uid: using_customsearch
 description: CustomSearch
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 # envir:

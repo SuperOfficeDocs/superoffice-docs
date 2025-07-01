@@ -2,7 +2,7 @@
 title: System user service console
 uid: system_user_service_console
 description: System user service console
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

@@ -1,7 +1,7 @@
 ---
 title: Selection
 description: Selection
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection
 content_type: concept

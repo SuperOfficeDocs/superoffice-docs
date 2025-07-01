@@ -2,7 +2,7 @@
 title: SuperOffice view of the world
 uid: so_view_of_the_world
 description: SuperOffice view of the world
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

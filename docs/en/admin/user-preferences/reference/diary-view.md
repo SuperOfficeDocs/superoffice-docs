@@ -2,7 +2,7 @@
 title: DiaryView
 uid: pref_diaryview
 description: Preference section DiaryView
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

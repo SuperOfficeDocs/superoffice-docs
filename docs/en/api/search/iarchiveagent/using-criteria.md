@@ -2,7 +2,7 @@
 title: How to use multiple criteria with the ArchiveAgent
 uid: archiveagent_multi_criteria
 description: How to use multiple criteria with the ArchiveAgent
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: 
 content_type: howto
 date:

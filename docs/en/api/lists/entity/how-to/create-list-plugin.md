@@ -2,7 +2,7 @@
 title: Create your own list plugin
 uid: create_list_plugin
 description: Create a plugin list provider
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 # envir:

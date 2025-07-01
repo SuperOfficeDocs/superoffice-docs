@@ -2,7 +2,7 @@
 title: Schedule
 uid: schedule
 description: Schedule tasks for Travel gateway
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
 date: 12.17.2021
 content_type: howto

@@ -2,7 +2,7 @@
 title: VisibleFor flag
 uid: visiblefor_flag
 description: VisibleFor flag
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: sentry
 content_type: concept
 # envir:

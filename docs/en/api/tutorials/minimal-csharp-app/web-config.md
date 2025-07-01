@@ -2,7 +2,7 @@
 title: Web.Config configuration overview
 uid: minimal_csharp_app_web_config
 description: Web.Config configuration overview
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
 envir: cloud

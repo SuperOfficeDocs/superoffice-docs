@@ -1,7 +1,7 @@
 ---
 title: ifindagent 
 description: IFindAgent
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: search
 content_type: howto
 date:

@@ -2,7 +2,7 @@
 title: Creating a selection
 uid: add_person_to_selection
 description: Adding a person to a selection
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, static
 content_type: howto

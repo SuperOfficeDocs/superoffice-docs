@@ -2,7 +2,7 @@
 title: Data classes
 uid: archive_provider_classes
 description: Archive provider data classes
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

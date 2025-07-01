@@ -2,7 +2,7 @@
 title: Username.ini
 uid: username_ini
 description: Username.ini
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
 ---

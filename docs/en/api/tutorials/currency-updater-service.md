@@ -2,7 +2,7 @@
 title: Currency updater service
 uid: currency_updater_service
 description: Currency updater service
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 
 keywords: 
 content_type: tutorial 

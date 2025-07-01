@@ -2,7 +2,7 @@
 title: PluginResponseInfo
 uid: erp_api_pluginresponseinfo
 description: Sync Connector API - PluginResponseInfo# (Required) Important for SEO.
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: reference

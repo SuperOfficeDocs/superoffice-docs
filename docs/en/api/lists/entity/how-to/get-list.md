@@ -2,7 +2,7 @@
 title: Retrieve a list
 uid: get_list
 description: Retrieve a list
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 # envir:

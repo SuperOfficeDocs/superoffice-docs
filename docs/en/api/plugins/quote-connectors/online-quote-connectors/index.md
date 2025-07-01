@@ -2,7 +2,7 @@
 title: Online quote connectors
 uid: online_quote_connector
 description: Online quote connectors
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 ---
 

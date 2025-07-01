@@ -2,7 +2,7 @@
 title: Troubleshooting
 uid: troubleshooting_ribbons
 description: Troubleshooting SuperOffice Ribbons
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

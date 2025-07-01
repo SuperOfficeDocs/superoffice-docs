@@ -2,7 +2,7 @@
 title: User preferences
 uid: user_preferences
 description: Preference sections
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
 ---

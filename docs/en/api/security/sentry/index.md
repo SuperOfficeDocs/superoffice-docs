@@ -2,7 +2,7 @@
 title: Sentry
 uid: sentry_intro
 description: Sentry
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: sentry, security
 content_type: concept
 ---

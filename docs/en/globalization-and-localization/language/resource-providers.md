@@ -2,7 +2,7 @@
 title: Resource providers
 uid: globalization_resource_providers   
 description: Resource providers
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: concept
 keywords:

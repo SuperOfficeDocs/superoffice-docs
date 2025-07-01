@@ -2,7 +2,7 @@
 title: Deploy onsite
 uid: deploy_pocket_onsite
 description: Pocket CRM installation and deployment
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: onsite

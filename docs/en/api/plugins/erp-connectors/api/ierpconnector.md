@@ -2,7 +2,7 @@
 title: IErpConnector
 uid: erp_api_ierpconnector
 description: Sync Connector API - IErpConnector
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 content_type: reference

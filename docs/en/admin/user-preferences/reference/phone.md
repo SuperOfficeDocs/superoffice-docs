@@ -2,7 +2,7 @@
 title: Phone
 uid: pref_phone
 description: Preference section Phone
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

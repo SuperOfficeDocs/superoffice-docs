@@ -2,7 +2,7 @@
 title: Single database user
 uid: changes_7_db_user
 description: Changes in SuperOffice 7 - Single database user
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: database
 content_type: reference

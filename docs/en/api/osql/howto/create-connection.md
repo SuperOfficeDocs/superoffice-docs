@@ -2,7 +2,7 @@
 title: How to create a new connection
 uid: osql_create_connection
 description: SuperOffice Objectified SQL - create a connection to the database
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

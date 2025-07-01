@@ -2,7 +2,7 @@
 title: RIGHT OUTER JOIN
 uid: osql_join_outer
 description: SuperOffice Objectified SQL - RIGHT OUTER JOIN
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: concept

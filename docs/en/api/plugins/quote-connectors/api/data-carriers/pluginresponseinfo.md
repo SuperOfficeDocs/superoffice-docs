@@ -2,7 +2,7 @@
 title: PluginResponseInfo
 uid: quote_connector_carrier_pluginresponseinfo
 description: ERP Quote Connector Interface data carrier - PluginResponseInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

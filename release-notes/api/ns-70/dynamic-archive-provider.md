@@ -2,7 +2,7 @@
 title: Dynamic archive provider
 uid: whats_new_70_dynamic_archive_provider
 description: NetServer 7.0
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 topic: reference

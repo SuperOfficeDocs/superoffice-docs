@@ -2,7 +2,7 @@
 title: Default values
 uid: erp_default_values
 description: Default values
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

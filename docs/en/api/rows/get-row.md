@@ -2,7 +2,7 @@
 title: Retrieve a Row with basic properties
 uid: rows_get_row
 description: SuperOffice database get row with basic properties
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

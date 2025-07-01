@@ -2,7 +2,7 @@
 title: About CRMScripts
 uid: crmscript_intro
 description: About CRMScripts
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 date:

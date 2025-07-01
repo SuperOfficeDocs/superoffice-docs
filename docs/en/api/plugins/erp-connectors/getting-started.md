@@ -2,7 +2,7 @@
 title: Getting started with ERP development
 uid: erp_connector_guide
 description: Getting started with ERP development
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: ERP, ErpConnector, DynamicLoad
 content_type: tutorial

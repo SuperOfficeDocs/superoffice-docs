@@ -2,7 +2,7 @@
 title: SetDefaults method
 uid: netserver_setdefaults
 description: SetDefaults method best practices
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: entity,row
 content_type: concept

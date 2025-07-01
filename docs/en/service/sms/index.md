@@ -2,7 +2,7 @@
 title: SMS plugins
 uid: service_sms
 description: NetServer SMS plugins for SuperOffice Service
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 ---

@@ -2,7 +2,7 @@
 title: Sync company to SuperOffice now
 uid: sync_scim_company
 description: Sync company to SuperOffice now
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

@@ -2,7 +2,7 @@
 title: Approving the quote
 uid: quote_connectors_approve_quote
 description: Approving the quote
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto

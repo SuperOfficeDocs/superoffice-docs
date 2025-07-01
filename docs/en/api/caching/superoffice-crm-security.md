@@ -2,7 +2,7 @@
 title: SuperOffice.CRM.Security
 uid: superoffice_crm_security
 description: SuperOffice.CRM.Security
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: cache
 content_type: reference

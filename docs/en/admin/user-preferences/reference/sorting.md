@@ -2,7 +2,7 @@
 title: Sorting
 uid: pref_sorting
 description: Preference section Sorting
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

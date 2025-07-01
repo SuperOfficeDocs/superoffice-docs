@@ -2,7 +2,7 @@
 title: Configuration
 uid: services_soap_config
 description: Services SOAP configuration
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 date: 01.25.2021
 content_type: howto

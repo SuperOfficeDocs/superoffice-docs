@@ -1,7 +1,7 @@
 ---
 title: changes_6_to_7
 description: Table changes from SuperOffice 6 to 7
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 envir: onsite
@@ -40,7 +40,7 @@ version: 7
 | 213 | TimeZoneCountry | [ProjectTypeStatusLink](../../docs/en/database/tables/projecttypestatuslink.md) |
 | 237 | ModuleLicence | [ModuleLicense](../../docs/en/database/tables/modulelicense.md) |
 | 238 | LicenceAssocLink | [LicenseAssocLink](../../docs/en/database/tables/licenseassoclink.md) |
-| 239 | LicenceSatlLink | [LicenseSatlLink](../../docs/en/database/tables/licensesatllink.md)
+| 239 | LicenceSatlLink | [LicenseSatlLink](../../docs/en/database/tables/licensesatllink.md) |
 
 ## Obsolete database tables
 

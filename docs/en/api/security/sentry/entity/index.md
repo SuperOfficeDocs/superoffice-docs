@@ -2,7 +2,7 @@
 title: NetServer scenarios
 uid: sentry_scenarios
 description: NetServer scenarios
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: access control
 content_type: concept
 envir: onsite

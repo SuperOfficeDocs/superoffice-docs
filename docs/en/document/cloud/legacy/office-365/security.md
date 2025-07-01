@@ -2,7 +2,7 @@
 title: Considerations / security
 uid: office_365_security
 description: Microsoft 365 document integration security
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 envir: cloud

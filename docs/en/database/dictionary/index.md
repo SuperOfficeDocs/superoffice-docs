@@ -2,7 +2,7 @@
 title: Continuous Database (CD)
 uid: cdd
 description: Continuous Database (CD)
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 content_type: concept
 ---

@@ -2,7 +2,7 @@
 title: Error codes
 uid: services_soap_error_codes
 description: Services SOAP interface error codes
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: soap
 date: 01.25.2021
 content_type: reference

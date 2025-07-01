@@ -2,7 +2,7 @@
 title: How to use UPDATE in OSQL
 uid: osql_update_howto
 description: SuperOffice Objectified SQL - UPDATE
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

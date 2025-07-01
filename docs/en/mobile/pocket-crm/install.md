@@ -2,7 +2,7 @@
 title: Install - online
 uid: install_pocket_online
 description: How to install and configure the CRM Pocket client
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
 envir: cloud

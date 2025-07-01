@@ -2,7 +2,7 @@
 title: SuperOffice username and password
 uid: webapi_auth_basic
 description: Web API authentication anon
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 
 keywords: authentication, basic
 content_type: concept

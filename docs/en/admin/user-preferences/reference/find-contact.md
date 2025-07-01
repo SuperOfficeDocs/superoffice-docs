@@ -2,7 +2,7 @@
 title: FindContact
 uid: pref_findcontact
 description: Preference section FindContact
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
 ---

@@ -2,7 +2,7 @@
 title: Interface definition and composition
 uid: archive_provider_interface
 description: Interface definition and composition
-author: {github-id}
+author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 # envir:

@@ -2,7 +2,7 @@
 title: ERP Sync Connector Interface
 uid: erp_connectors
 description: ERP Sync Connector Interface
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords:
 ---

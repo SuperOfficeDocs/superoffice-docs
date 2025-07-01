@@ -2,7 +2,7 @@
 title: ProductInfo
 uid: quote_connector_carrier_productinfo
 description: ERP Quote Connector Interface data carrier - ProductInfo
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference

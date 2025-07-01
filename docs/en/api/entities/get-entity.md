@@ -2,7 +2,7 @@
 title: How to retrieve an Entity
 uid: get_entity
 description: How to retrieve an Entity
-author: {github-id}
+author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto

@@ -2,7 +2,7 @@
 title: Single sign-on
 uid: singel_sign_on
 description: Single sign-on
-author: {github-id}
+author: SuperOffice Product and Engineering
 date:
 keywords: SSO
 content_type: concept
