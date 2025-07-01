@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 06.10.2025
 version: 11.1
 content_type: concept
-client: mobile
+platform: mobile
 language: nl
 ---
 

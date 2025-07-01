@@ -7,7 +7,7 @@ author: SuperOffice RnD
 date: 02.25.2025
 content_type: howto
 language: sv
-envir: onsite
+deployment: onsite
 ---
 
 # SMTP (endast LOKALT)

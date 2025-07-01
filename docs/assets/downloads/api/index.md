@@ -3,9 +3,9 @@ title: downloads
 description: Online sample and reference downloads
 author: SuperOffice Product and Engineering
 keywords:
-topic: reference
-envir: cloud
-client: online
+content_type: reference
+deployment: online
+platform: web
 ---
 
 # Online sample and reference downloads

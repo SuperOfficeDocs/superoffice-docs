@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Indstillinger for Windows-klient
 content_type: concept
 language: da
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # ANSI-filer

@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Windows Client-instellingen
 content_type: howto
 language: nl
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # Geavanceerde importinstellingen opgeven

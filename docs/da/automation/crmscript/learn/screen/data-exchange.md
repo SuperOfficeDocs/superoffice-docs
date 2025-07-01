@@ -9,7 +9,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-envir: onsite
+deployment: onsite
 ---
 
 # Data Exchange (kun ONSITE)

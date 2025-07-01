@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: arrangement, notifikation
 content_type: howto
 language: da
-envir: onsite
+deployment: onsite
 ---
 
 # Tilføjelse af systemhændelser (onsite)

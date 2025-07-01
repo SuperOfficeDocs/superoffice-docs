@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-client: web
+platform: web
 ---
 
 # Administration af "Vores firmaer"

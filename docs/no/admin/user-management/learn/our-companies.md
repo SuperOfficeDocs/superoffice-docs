@@ -8,7 +8,7 @@ keywords: bruker, våre firmaer
 content_type: howto
 audience: settings
 language: no
-client: web
+platform: web
 ---
 
 # Vedlikeholde Våre firmaer

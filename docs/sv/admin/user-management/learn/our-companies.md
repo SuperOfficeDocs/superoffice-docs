@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-client: web
+platform: web
 ---
 
 # Hantera "Våra företag"

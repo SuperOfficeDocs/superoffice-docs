@@ -9,7 +9,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-envir: onsite
+deployment: onsite
 ---
 
 # Gegevensuitwisseling (alleen op LOCATIE)

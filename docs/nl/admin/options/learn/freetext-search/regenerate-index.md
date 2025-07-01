@@ -7,7 +7,7 @@ date: 03.24.2023
 keywords: vrije tekst, zoekindex
 content_type: howto
 language: nl
-envir: onsite
+deployment: onsite
 ---
 
 # Een vrije-tekstindex genereren (lokaal)

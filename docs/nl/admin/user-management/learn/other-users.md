@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-envir: onsite
+deployment: onsite
 ---
 
 # Anonieme gebruikers en systeemgebruikers beheren (op locatie)

@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: företag
 content_type: howto
 language: sv
-envir: onsite
+deployment: onsite
 ---
 
 # Hantera externa användare

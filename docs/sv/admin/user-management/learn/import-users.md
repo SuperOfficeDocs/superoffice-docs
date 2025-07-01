@@ -9,8 +9,8 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Importera användare

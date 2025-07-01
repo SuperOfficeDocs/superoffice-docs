@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-client: web
+platform: web
 ---
 
 # "Onze bedrijven" beheren

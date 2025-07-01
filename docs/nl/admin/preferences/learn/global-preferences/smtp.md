@@ -7,7 +7,7 @@ author: SuperOffice RnD
 date: 06.29.2022
 content_type: reference
 language: nl
-envir: onsite
+deployment: onsite
 ---
 
 # SMTP (alleen LOKAAL)
