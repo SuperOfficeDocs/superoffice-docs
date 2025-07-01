@@ -33,11 +33,6 @@ items:
 #  items:
 #  - name: 10.5.1 update
 #    href: marketing/10.5.1-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: SuperOffice for Outlook 6.0 update
-    href: office-integrations/sofo-6.0-update.md
 - name: API
   href: api/index.md
   items:

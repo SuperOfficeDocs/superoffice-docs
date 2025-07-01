@@ -55,10 +55,6 @@ items:
     href: marketing/10.3.10-update.md
   - name: 10.3.9 update
     href: marketing/10.3.9-update.md
-#- name: CEP
-#  href: cep/index.md
-#- name: Office integrations
-#  href: office-integrations/index.md
 - name: API
   href: api/index.md
   items:

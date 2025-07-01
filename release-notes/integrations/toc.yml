@@ -1,3 +1,10 @@
 items:
 - name: Release overview
   href: index.md
+- name: SuperOffice for Outlook
+  href: sofo/index.md
+  items:
+  - name: 6.0 update
+    href: sofo/6.0-update.md
+  - name: 3.1 update
+    href: sofo/3.1-update.md
