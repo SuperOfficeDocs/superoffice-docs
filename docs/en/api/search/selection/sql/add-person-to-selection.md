@@ -8,7 +8,7 @@ keywords: search, selection, static
 content_type: howto
 ---
 
-
+<!-- markdownlint-disable-file MD013-->
 # Creating a selection
 
 ![Selection dialog -screenshot][img1]

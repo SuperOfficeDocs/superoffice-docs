@@ -8,7 +8,7 @@ date: 09.24.2024
 version: 10.3.8
 content_type: howto
 client: web
-envir: online, onsite
+deployment: online, onsite
 pilot: yes
 ---
 
