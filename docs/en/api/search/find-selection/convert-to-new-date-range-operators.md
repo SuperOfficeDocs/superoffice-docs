@@ -2,7 +2,7 @@
 title: Convert legacy dynamic date ranges
 uid: convert_dynamic_date_ranges
 description: Converting to new dynamic date ranges
-author: {AnthonyYates}
+author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: howto
 # envir:
