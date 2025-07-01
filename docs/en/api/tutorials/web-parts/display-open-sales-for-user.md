@@ -6,8 +6,6 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # Display the open sales of this user in web parts

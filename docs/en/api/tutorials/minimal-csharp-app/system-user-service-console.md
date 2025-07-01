@@ -5,8 +5,8 @@ description: System user service console
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # System user service console

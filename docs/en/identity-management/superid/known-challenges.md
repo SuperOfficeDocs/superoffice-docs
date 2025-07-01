@@ -6,8 +6,8 @@ author:
 date:
 keywords: 
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Known challenges with SuperID

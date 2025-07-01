@@ -5,8 +5,6 @@ author: David Hollegien
 date: 06.19.2018
 keywords: extra field, custom field
 content_type: howto
-envir:
-client:
 ---
 
 # Sorting CS extra fields list values

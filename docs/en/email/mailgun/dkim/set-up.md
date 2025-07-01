@@ -7,8 +7,8 @@ author: Martin Pavlas
 date: 03.04.2024
 version: 10.3
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to set up a DKIM Record

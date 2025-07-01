@@ -7,8 +7,8 @@ author: SuperOffice Product and Engineering
 date: 12.10.2024
 version: 10
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Development Tools - contents and usage

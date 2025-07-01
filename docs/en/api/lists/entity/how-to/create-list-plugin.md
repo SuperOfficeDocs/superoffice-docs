@@ -5,8 +5,6 @@ description: Create a plugin list provider
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # Create your own list plugin

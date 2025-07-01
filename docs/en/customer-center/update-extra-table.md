@@ -7,7 +7,7 @@ date: 03.16.2023
 keywords: Customer Center, CEP
 content_type: howto
 audience: settings
-envir: onsite
+deployment: onsite
 ---
 
 # Update an extra table from the Customer Center

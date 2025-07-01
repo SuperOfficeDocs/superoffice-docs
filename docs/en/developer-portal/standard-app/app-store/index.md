@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 09.08.2023
 keywords: buy, app details, partner profile
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # The App Store marketplace

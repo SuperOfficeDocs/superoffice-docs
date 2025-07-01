@@ -6,7 +6,6 @@ author: Jostein, Bergfrid, H.O. Waaler
 keywords: WebTools
 content_type: concept
 date: 01.23.2024
-envir:
 ---
 
 # Technical overview

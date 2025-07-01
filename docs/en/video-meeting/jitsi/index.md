@@ -5,8 +5,8 @@ description: Getting started with Video Meetings for SuperOffice - Jitsi
 date: 08.12.2021
 keywords: video meeting, Jitsi
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Jitsi
 

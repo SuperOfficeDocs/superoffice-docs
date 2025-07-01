@@ -6,8 +6,6 @@ author: Tony Yates
 date: 04.06.2018
 keywords: automation
 content_type: reference
-# envir:
-# client:
 ---
 
 # Event details

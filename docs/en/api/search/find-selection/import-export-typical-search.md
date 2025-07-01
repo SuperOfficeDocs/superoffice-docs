@@ -4,8 +4,7 @@ description: Details Find Selection Typical Seach feature set.
 author: AnthonyYates
 keywords: Typical search, Selection, Find
 content_type: article
-# envir:
-client: web
+platform: web
 ---
 
 # Export and import of typical search

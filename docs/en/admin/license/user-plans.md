@@ -7,8 +7,8 @@ author: Christian Mogensen, Bergfrid Dias
 date: 04.23.2024
 version: 10.3.5
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SuperOffice user plans and subscriptions

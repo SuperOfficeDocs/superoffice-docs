@@ -6,8 +6,6 @@ author: Tony Yates
 date: 09.06.2016
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # Evolution of NetServer Objectified SQL

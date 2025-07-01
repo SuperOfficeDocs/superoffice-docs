@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 12.08.2021
 keywords: Pocket CRM, NetServer, config
 content_type: howto
-envir: onsite
-client: pocket
+deployment: onsite
+platform: pocket
 ---
 
 # Pocket CRM configuration

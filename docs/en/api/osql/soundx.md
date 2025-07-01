@@ -5,8 +5,8 @@ author: Marek Vokáč
 date: 05.07.2012
 keywords:
 content_type: article
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Soundex comes to NetServer

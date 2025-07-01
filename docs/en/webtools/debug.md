@@ -6,7 +6,7 @@ author: Jostein K, Bergfrid Dias
 date: 01.23.2024
 keywords: debug, WebTools
 content_type: howto
-envir: onsite
+deployment: onsite
 ---
 
 # Debugging WebTools

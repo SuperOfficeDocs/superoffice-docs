@@ -5,8 +5,8 @@ description: Install and configure ModSecurity on Proxy Server for SuperOffice o
 author: SuperOffice Product and Engineering
 keywords: security
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 <!-- markdownlint-disable-file DOCSMD008 -->

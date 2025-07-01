@@ -7,8 +7,8 @@ date: 08.27.2024
 version: 10.3.8
 keywords: app, notification, message, systemmessage
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # System messages

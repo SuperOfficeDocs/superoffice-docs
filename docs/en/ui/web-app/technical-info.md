@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: reference
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Technical information

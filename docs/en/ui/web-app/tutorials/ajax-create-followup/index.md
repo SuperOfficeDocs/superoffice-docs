@@ -6,8 +6,8 @@ keywords: AjaxMethod
 author: Steffan Alte
 date: 2007
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # AJAX demo

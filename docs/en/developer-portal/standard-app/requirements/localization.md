@@ -6,8 +6,8 @@ keywords: certification, apps
 author: Margrethe Romnes
 date: 05.12.2025
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Requirements for localization and language support

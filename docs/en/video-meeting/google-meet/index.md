@@ -5,8 +5,8 @@ description: Getting started with Video Meetings for SuperOffice - Google Meet
 date: 08.12.2021
 keywords: video meeting
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 # Video Meetings for SuperOffice: Google Meet
 

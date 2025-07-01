@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
 date: 12.17.2021
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Schedule tasks for Travel gateway

@@ -5,8 +5,6 @@ author: Frode Lillerud
 date: 10.17.2017
 keywords: 
 content_type: howto
-envir:
-client:
 ---
 
 # Building custom REST API methods using CRMScript

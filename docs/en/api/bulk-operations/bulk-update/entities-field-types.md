@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.23.2017
 keywords: bulk update
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Entities and field types

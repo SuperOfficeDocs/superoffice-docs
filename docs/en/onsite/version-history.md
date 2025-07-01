@@ -6,7 +6,7 @@ author: Martin Pavlas
 date: 05.05.2025
 keywords: onsite, version, history, release
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # SuperOffice Onsite version history

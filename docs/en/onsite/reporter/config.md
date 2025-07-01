@@ -5,8 +5,8 @@ description: Configure Web Reporter
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Configure Web Reporter

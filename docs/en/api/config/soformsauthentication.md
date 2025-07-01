@@ -6,7 +6,7 @@ date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SoFormsAuthentication, FormsAuthentication, IgnoreList, Pages, LoginUrl, DefaultUrl, LogoutUrl, PocketCrmLoginPage
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer SoFormsAuthentication element

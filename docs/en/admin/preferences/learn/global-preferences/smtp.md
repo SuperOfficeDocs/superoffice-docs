@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: Service, settings
 content_type: concept
 language: en
-envir: onsite
+deployment: onsite
 ---
 
 # SMTP (ONSITE only)

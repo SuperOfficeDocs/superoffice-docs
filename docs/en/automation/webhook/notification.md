@@ -6,8 +6,6 @@ author: AnthonyYates
 date: 04.06.2018
 keywords:
 content_type: reference
-# envir:
-# client:
 ---
 
 # Receiving notifications

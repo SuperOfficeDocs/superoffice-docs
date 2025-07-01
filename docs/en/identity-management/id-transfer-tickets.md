@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords: authentication, user
 content_type: concept
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Tickets and identity transfers

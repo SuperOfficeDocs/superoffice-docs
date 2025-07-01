@@ -6,8 +6,8 @@ keywords: AI, Artificial Intelligence, AI Platform, license
 author: AnthonyYates
 date: 06.25.2024
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SuperOffice AI Service

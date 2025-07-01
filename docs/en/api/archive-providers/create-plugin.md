@@ -5,8 +5,6 @@ description: Create your own archive provider
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-# envir:
-# client:
 ---
 
 # Create your own archive provider

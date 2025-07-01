@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords: appointment, login
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Creating ASP.net website using SO controls

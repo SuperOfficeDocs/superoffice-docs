@@ -5,8 +5,8 @@ description: Guide to secure deployment of SuperOffice onsite
 author: SuperOffice Product and Engineering
 keywords: security
 content_type: tutorial
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Deploy SuperOffice securely onsite

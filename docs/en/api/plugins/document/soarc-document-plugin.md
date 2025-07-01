@@ -6,8 +6,7 @@ author: Tony Yates
 date: 06.03.2006
 keywords:
 content_type: howto
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # How to create a managed document plugin

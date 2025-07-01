@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # CRM Online production sandbox (test environment)

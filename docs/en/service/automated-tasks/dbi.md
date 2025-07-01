@@ -5,8 +5,7 @@ description: Automated tasks in Service - dbi
 author: SuperOffice Product and Engineering
 keywords: service
 content_type: reference
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # dbi

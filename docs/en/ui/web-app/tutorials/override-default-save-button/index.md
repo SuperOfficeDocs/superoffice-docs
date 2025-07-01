@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.19.2009
 keywords: pagebuilder
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # How to override the default behavior when clicking a button

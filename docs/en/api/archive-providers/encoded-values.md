@@ -6,8 +6,6 @@ author: Tony Yates
 date: 11.17.2017
 keywords:
 content_type: concept
-# envir:
-# client:
 ---
 
 # Encoded values

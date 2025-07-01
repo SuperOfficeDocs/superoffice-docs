@@ -5,8 +5,8 @@ description: Submit this form to order database mirroring application.
 author: AnthonyYates
 keywords: database mirroring
 content_type: form
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Order Database Mirroring

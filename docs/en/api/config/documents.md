@@ -6,7 +6,7 @@ keywords: config, NetServer, web.config, Documents, ArchiveDomain, ArchivePath, 
 date: 06.18.2024
 author: Bergfrid Dias, Eivind Fasting
 content_type: reference
-envir: onsite
+deployment: onsite
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---

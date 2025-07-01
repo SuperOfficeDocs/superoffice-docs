@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier, date, time, format
 content_type: howto
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # Formatting date and time

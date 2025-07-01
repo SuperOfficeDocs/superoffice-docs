@@ -5,8 +5,8 @@ description: OICD Hybrid flow
 author: SuperOffice Product and Engineering
 keywords: authentication, OIDC, Hybrid flow
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # OICD Hybrid flow

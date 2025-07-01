@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 11.26.2021
 keywords: security, reverse proxy, IIS, DMZ
 content_type: howto
-envir: online
-client: web
+deployment: online
+platform: web
 ---
 
 # Setting up a Reverse proxy on IIS8
@@ -183,6 +183,7 @@ Note - running on HTTPS
 
 SuperOffice Service may not use NetServer web services running on HTTPS, this means you have to use an nsEndPoint address in the Service config file that uses HTTP and not HTTPS
 
+<!-- markdownlint-disable-file MD013 -->
 ```html
 [More info](javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$plhFullWidthContentArea$propMainBody$ctl00$ctl38$ctl00$btnBanner", "", false, "", "javascript:%20return%20false;", false, true)) "More info")
 ```
@@ -213,7 +214,7 @@ Multiple site bindings enable multiple base addresses (enables the proxy to forw
 
 ### Exposing just the external customer parts of Service to the Internet
 
-If you just want to expose the Customer center, Chat, or Mailings to the Internet, then you may only expose `socrm.myorganization.com/service/scripts/customer.exe/fcgi`. In addition, the static files need to be exposed as well. We do not have a strict categorization on which files need to be exposed and we do not see a security issue with exposing them, so our recommendation is to expose all static Service files (*/JavaScript*, */graphics*, and */css* with sub-folders. These files are the static files we distribute through our installers and no customer-specific files are located in these folders.
+If you just want to expose the Customer center, Chat, or Mailings to the Internet, then you may only expose `socrm.myorganization.com/service/scripts/customer.exe/fcgi`. In addition, the static files need to be exposed as well. We do not have a strict categorization on which files need to be exposed and we do not see a security issue with exposing them, so our recommendation is to expose all static Service files (*/JavaScript*, */graphics*, and */css* with sub-folders). These files are the static files we distribute through our installers and no customer-specific files are located in these folders.
 
 <!-- Referenced links -->
 [1]: ../../security/deployment-scenarios.md#scenario2

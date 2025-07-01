@@ -6,8 +6,8 @@ author: Bergfrid Dias, ErikLebiko
 date: 01.12.2024
 keywords: SharePoint, document
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to set up Microsoft 365 SharePoint

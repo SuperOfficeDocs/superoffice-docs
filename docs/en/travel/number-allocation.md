@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: concept
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Travel number allocation

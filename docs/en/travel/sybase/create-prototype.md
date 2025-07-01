@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords:
 date:
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Create prototype for Sybase

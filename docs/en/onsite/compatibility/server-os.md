@@ -6,8 +6,7 @@ author: SuperOffice Product and Engineering
 date: 02.26.2025
 keywords:
 content_type: reference
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Tested server operating systems

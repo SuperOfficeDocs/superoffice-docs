@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 02.22.2022
 keywords: database
 content_type: concept
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Cached tables

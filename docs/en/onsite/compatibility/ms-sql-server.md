@@ -5,8 +5,7 @@ description: Tested Microsoft SQL Server versions
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Tested Microsoft SQL Server

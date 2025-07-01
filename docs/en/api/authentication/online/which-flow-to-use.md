@@ -5,8 +5,8 @@ description: Authentication scenarios for various app types
 author: SuperOffice Product and Engineering
 keywords: authorization
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Which flow should you use?

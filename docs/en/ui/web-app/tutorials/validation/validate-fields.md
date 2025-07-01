@@ -6,8 +6,8 @@ author: Henning Dahl
 date: 09.28.2014
 keywords:
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Validation in SuperOffice WEB

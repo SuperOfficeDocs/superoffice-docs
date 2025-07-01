@@ -6,8 +6,8 @@ author: Tony Yates
 date: 04.20.2016
 keywords:
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Conceptual overview

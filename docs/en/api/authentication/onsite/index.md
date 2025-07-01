@@ -6,8 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.22.2021
 keywords: authentication, ticket, credentials
 content_type: concept
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Authentication

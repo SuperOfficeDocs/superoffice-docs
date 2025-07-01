@@ -4,8 +4,8 @@ description: How to setup and configure Categorization AI Service
 author: AnthonyYates
 keywords: AI
 content_type: tutorial, howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to setup and configure Categorization AI Service

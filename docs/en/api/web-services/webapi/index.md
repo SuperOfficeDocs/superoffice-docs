@@ -6,8 +6,8 @@ author: AnthonyYates
 date: 12.17.2021
 keywords: security, authentication, WebAPI, SOTICKET, BEARER
 content_type: concept
-envir: onsite
-client: Web
+deployment: onsite
+platform: web
 ---
 
 # SuperOffice WebApi

@@ -6,8 +6,8 @@ author: Eivind Fasting
 date: 10.05.2023
 keywords: API, getting started, REST
 content_type: concept
-envir: cloud, onsite
-client: web, service
+deployment: online, onsite
+platform: web, service
 ---
 
 <!-- markdownlint-disable-file MD051 MD032 -->

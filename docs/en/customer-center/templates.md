@@ -7,7 +7,7 @@ author: SuperOffice Product and Engineering
 date: 07.10.2024
 content_type: howto
 audience: settings
-envir: onsite
+deployment: onsite
 ---
 
 # Customer center templates

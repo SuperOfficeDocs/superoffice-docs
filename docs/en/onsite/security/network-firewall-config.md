@@ -5,8 +5,8 @@ description: Network and firewall configuration for SuperOffice onsite
 author: SuperOffice Product and Engineering
 keywords: security
 content_type: concept
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Network and firewall configuration

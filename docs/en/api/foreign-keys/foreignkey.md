@@ -5,8 +5,8 @@ author: Tony Yates
 date: 12.26.2009
 keywords:
 topic:
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # ForeignKeys – to fluent or not to fluent, that is the question

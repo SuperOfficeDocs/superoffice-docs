@@ -7,8 +7,8 @@ author: Eivind Fasting, Bergfrid Dias
 date: 09.06.2024
 version_devportal: 1.25
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Tenant status webhook

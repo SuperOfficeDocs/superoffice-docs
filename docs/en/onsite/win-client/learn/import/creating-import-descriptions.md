@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Windows Client settings
 content_type: howto
 language: en
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # Create import descriptions

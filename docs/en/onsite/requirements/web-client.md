@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 keywords:
 content_type: reference
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Client requirements for SuperOffice Web and Win

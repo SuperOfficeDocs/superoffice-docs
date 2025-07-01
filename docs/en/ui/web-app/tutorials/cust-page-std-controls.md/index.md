@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords: contact
 content_type: tutorial
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # How to build a custom page with standard controls

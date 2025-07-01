@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 11.15.2023
 keywords: API call, exception, fail, request
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 version_devportal: 1.16
 ---
 

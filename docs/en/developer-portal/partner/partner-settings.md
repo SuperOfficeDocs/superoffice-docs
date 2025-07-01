@@ -8,7 +8,7 @@ date: 01.30.2025
 version: 1.30
 version_devportal: 1.30
 content_type: reference
-envir: cloud
+deployment: online
 ---
 
 # Partner settings

@@ -6,8 +6,8 @@ author: Tony Yates
 date: 03.04.2024
 keywords: online, development
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Create your first application and connect to SuperOffice web services

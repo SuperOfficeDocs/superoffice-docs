@@ -5,8 +5,6 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 date: 05.11.2016
-# envir:
-# client:
 ---
 
 # Expander SDK: database documentation

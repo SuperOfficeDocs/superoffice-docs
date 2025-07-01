@@ -7,8 +7,6 @@ date: 06.23.2017
 keywords: database
 content_type: concept
 # Optional fields. Don't forget to remove # if you need a field.
-# envir:
-# client:
 ---
 
 # CustomPriming method

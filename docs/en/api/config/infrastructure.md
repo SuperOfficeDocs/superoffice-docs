@@ -6,7 +6,7 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Infrastructure
 content_type: reference
-envir: online
+deployment: online
 ---
 
 # NetServer Infrastructure element

@@ -6,8 +6,8 @@ keywords: feature toggle, FeatureToggles, feature_toggle, web.config, SuperOffic
 author: Bergfrid Dias, Frode Berntsen
 date: 03.19.2025
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Feature toggles

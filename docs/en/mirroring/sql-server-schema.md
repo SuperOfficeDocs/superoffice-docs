@@ -5,8 +5,8 @@ description: SQL Server schema for database mirroring
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SQL Server schema for database mirroring

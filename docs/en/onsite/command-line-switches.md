@@ -5,8 +5,8 @@ description: Command line and registry switches
 author: SuperOffice Product and Engineering
 keywords:
 content_type: reference
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Command line and registry switches

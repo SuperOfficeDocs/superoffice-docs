@@ -5,8 +5,8 @@ description: How to configure video meetings in SuperOffice
 author: SuperOffice Product and Engineering
 keywords: video meetings
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to configure email invitations for video meetings

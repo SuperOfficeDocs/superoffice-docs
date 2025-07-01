@@ -7,8 +7,8 @@ author: Bergfrid Dias, Oleg Deribas
 date: 03.27.2025
 version: 10.5.2
 content_type: concepts
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SCIM rules

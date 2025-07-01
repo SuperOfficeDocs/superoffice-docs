@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.15.2023
 keywords: tenant, consent, approve
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Unable to approve app

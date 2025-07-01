@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords: vb
 content_type: howto
-client: web,win
-envir: onsite
+platform: web, win
+deployment: onsite
 ---
 
 # Archive email message

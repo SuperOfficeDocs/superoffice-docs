@@ -6,8 +6,8 @@ author: Steffan Alte
 date: 2007
 keywords:
 content_type: concept
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # Custom AJAX methods

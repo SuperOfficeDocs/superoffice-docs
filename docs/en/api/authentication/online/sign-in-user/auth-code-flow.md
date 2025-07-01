@@ -5,8 +5,8 @@ description: "Introduction to the Authorization Code flow."
 author: SuperOffice Product and Engineering
 keywords: oidc
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Authorization Code flow

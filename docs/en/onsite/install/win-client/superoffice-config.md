@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date: 12.10.2021
 keywords: SuperOffice.config
 content_type: reference
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # SuperOffice.config

@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: company
 content_type: howto
 language: en
-envir: onsite
+deployment: onsite
 ---
 
 # Manage external users

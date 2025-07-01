@@ -7,8 +7,8 @@ date: 01.15.2024
 keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
 content_type: howto
 version:
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Troubleshooting

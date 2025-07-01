@@ -5,8 +5,6 @@ description: VisibleFor flag
 author: SuperOffice Product and Engineering
 keywords: sentry
 content_type: concept
-# envir:
-# client:
 ---
 
 # VisibleFor flag

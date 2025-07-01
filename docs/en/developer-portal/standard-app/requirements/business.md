@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 02.02.2022
 keywords: certification, apps
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Business requirements

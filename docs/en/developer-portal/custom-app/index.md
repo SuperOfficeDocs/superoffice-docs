@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: private app, custom app
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Custom apps for SuperOffice CRM Online

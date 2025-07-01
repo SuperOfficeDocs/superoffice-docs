@@ -6,8 +6,8 @@ author: Tony Yates
 date: 04.15.2009
 keywords:
 content_type: concept
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Basic NetServer scripting

@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords: webapp
 content_type: tutorial
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Tutorials

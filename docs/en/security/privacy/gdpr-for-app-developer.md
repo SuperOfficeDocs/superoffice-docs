@@ -5,8 +5,8 @@ description: GDPR for app developers
 author: SuperOffice Product and Engineering
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # GDPR for app developers

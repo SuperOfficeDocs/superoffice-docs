@@ -7,8 +7,8 @@ author: Frode Berntsen, Bergfrid Dias
 date: 03.19.2025
 version:
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Migration guide

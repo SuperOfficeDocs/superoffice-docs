@@ -6,8 +6,6 @@ author: Tony Yates
 date: 02.29.2016
 keywords: mirroring
 content_type: reference
-envir:
-client:
 ---
 
 # CRM Online Database Mirroring

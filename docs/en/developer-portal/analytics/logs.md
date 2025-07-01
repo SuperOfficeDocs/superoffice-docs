@@ -8,8 +8,8 @@ date: 01.30.2025
 version: 1.30
 version_devportal: 1.30
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Logs - Track changes to partners and applications

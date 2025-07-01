@@ -8,8 +8,6 @@ content_type: howto
 date:
 category: list
 area: api-services
-# envir:
-# client:
 ---
 
 # Show list data in UI combo box

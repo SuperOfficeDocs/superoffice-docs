@@ -6,8 +6,8 @@ keywords: authentication, authenticate app user, authentication token, SAML
 author: Tony Yates, Margrethe Romnes
 date: 03.22.2024
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # How to authenticate an application user with SuperOffice legacy federated authentication

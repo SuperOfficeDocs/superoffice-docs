@@ -4,8 +4,7 @@ description: Common terms and concepts pertaining to selections
 author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
-# envir:
-client: web
+platform: web
 ---
 
 # Common terms and concepts

@@ -6,8 +6,8 @@ author: Tony Yates
 date: 04.17.2018
 keywords:
 content_type: concept
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # SuperOffice Markup Language (SOML)

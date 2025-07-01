@@ -7,7 +7,7 @@ date: 06.29.2022
 keywords: event, notification
 content_type: howto
 language: en
-envir: onsite
+deployment: onsite
 ---
 
 # Add system events (Onsite)

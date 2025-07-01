@@ -9,8 +9,8 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Import users

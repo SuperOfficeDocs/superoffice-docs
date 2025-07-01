@@ -6,8 +6,6 @@ author: Tony Yates
 date: 05.15.2017
 keywords: globalization, address
 content_type: reference
-# envir:
-# client:
 ---
 
 # AddressHelper class

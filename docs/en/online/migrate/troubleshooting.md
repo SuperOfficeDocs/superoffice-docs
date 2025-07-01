@@ -5,8 +5,7 @@ description: Discusses potential problems after migration SuperOffice databases.
 author: AnthonyYates
 keywords: migrate
 content_type: tutorial
-envir: onsite, online
-# client:
+deployment: online, onsite
 ---
 
 # Troubleshooting Migration Errors

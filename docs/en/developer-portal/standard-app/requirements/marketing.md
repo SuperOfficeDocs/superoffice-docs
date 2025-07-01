@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 09.07.2023
 keywords: certification
 content_type: reference
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Marketing requirements

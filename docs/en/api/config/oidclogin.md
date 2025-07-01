@@ -6,7 +6,7 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, OidcLogin, OIDC
 content_type: reference
-envir: cloud
+deployment: online
 ---
 
 # NetServer OidcLogin element

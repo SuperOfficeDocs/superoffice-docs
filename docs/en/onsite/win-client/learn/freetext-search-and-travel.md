@@ -7,8 +7,8 @@ date: 06.29.2022
 keywords: Settings and maintenance
 content_type: concept
 language: en
-client: win
-envir: onsite
+platform: win
+deployment: onsite
 ---
 
 # Freetext search and Travel

@@ -6,7 +6,7 @@ date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Services, web services, ApplicationToken, DefaultMode, RemoteBaseURL, SwitchDefault, SwitchFailover
 content_type: reference
-envir: onsite
+deployment: onsite
 ---
 
 # NetServer Services element

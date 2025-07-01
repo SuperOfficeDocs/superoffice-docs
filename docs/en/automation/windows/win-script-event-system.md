@@ -6,8 +6,8 @@ author: Conrad Weyns
 date: 10.28.2019
 keywords:
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Win Script and event system: aborting a save sequence

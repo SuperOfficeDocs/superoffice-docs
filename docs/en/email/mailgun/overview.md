@@ -6,7 +6,7 @@ author: Frode B
 date: 06.20.2024
 keywords: Mailgun, email, suocrm
 content_type: concept
-envir: online
+deployment: online
 ---
 
 # Mailgun

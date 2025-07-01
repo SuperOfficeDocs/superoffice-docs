@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier, automation, Zap, workflow
 content_type: concept
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # Zapier

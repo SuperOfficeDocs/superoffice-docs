@@ -6,8 +6,6 @@ author: Tony Yates
 date: 06.23.2017, 11.02.2017
 keywords:
 content_type: tutorial
-# envir:
-# client:
 ---
 
 # How to create tables in the SuperOffice database (CDD)

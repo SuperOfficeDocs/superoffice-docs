@@ -6,8 +6,8 @@ author: Bergfrid Dias, AnthonyYates
 date: 09.14.2023
 keywords: sod, form, developer registration
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Get access to the sandbox environment

@@ -5,8 +5,8 @@ description: Set up email notifications for SCIM errors
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Set up email notifications for errors

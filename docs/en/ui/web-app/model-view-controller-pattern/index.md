@@ -6,8 +6,8 @@ author: Tony Yates
 date: 02.16.2009
 keywords:
 content_type: article
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Web client and the model-view-controller pattern

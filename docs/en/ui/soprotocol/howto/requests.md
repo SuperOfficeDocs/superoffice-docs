@@ -6,8 +6,8 @@ author: Tony Yates
 date: 9.4.2023
 keywords: soprotocol, requests
 content_type: howto
-client: web
-envir: online, onsite
+platform: web
+deployment: online, onsite
 ---
 
 # How to work with Requests using SoProtocol

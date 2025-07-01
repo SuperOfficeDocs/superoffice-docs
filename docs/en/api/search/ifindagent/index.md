@@ -7,8 +7,6 @@ content_type: howto
 date:
 category: search
 area: api-services
-# envir:
-# client:
 ---
 
 # IFindAgent

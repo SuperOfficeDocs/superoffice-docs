@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 02.02.2022
 keywords: provisioning, set-up, apps
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Provisioning

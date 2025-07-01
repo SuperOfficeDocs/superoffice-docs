@@ -6,8 +6,8 @@ author: Margrethe Romnes
 date: 12.20.2023
 keywords: tenant, consent, approve
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Get consent to access a customer's tenant

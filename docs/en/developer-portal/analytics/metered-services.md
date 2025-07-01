@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 01.02.2024
 keywords: metered services, API usage, metrics
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 version: 1.16
 ---
 

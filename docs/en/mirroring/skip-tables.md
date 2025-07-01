@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords:
 date: 12.22.2022
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Add tables to skip mirroring OBSOLETE from 10.1.8

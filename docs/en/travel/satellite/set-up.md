@@ -5,8 +5,8 @@ description: How to set up Satellite
 author: SuperOffice Product and Engineering
 keywords: travel, satellite
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Set up Satellite

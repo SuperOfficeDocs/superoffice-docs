@@ -5,8 +5,7 @@ description: DBSetup.exe - Database maintenance
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # DBSetup.exe - Database maintenance

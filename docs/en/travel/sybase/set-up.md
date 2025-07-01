@@ -7,8 +7,8 @@ keywords: travel
 content_type: howto
 date:
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Sybase as Travel database

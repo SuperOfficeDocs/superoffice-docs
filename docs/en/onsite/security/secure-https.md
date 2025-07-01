@@ -5,8 +5,8 @@ description: Securing HTTPS configuration on Windows Server
 author: SuperOffice Product and Engineering
 keywords: security
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Securing HTTPS configuration on Windows Server

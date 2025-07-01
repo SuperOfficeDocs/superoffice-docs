@@ -5,8 +5,7 @@ description: Changes in SuperOffice 7 - authentication
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
-envir: onsite
-# client:
+deployment: onsite
 ---
 
 # Full-text search

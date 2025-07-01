@@ -6,8 +6,8 @@ author: Bergfrid Dias
 date: 12.06.2021
 keywords: production sandbox, test environment, OC, clone
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # SuperOffice Operation Center for customer administrators with a production sandbox

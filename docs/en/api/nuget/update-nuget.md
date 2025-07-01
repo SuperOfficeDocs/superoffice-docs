@@ -5,8 +5,6 @@ description: Upgrade version of SuperOffice NuGet
 author: Tony Yates
 keywords:
 content_type: howto
-envir:
-client:
 ---
 
 # Upgrade version of SuperOffice NuGet

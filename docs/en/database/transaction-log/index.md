@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords: database, travel
 content_type: concept
 date:
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # Transaction log

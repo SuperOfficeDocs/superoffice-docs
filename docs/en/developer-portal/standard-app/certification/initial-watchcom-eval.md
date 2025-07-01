@@ -6,8 +6,8 @@ author: Margrethe Romnes, Telenor Cyberdefence
 date: 05.05.2025
 keywords: Telenor Cyberdefence, Watchcom, security, certification
 content_type: concept
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # About Telenor Cyberdefence initial security evaluation

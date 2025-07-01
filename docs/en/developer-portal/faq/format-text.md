@@ -7,8 +7,7 @@ date: 04.27.2023
 keywords: Developer Portal
 content_type: howto
 version_devportal: 1.11
-envir: cloud
-client:
+deployment: online
 ---
 
 # Format text

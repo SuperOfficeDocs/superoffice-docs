@@ -6,8 +6,8 @@ author: Tony Yates
 date: 06.24.2016
 keywords: somail
 content_type: concept
-client: web
-envir: onsite
+platform: web
+deployment: onsite
 ---
 
 # MailProtocol helper

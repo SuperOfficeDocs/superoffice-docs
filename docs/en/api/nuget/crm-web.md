@@ -6,8 +6,8 @@ author: Tony Yates
 date: 02.29.2016
 keywords:
 content_type: reference
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # CRM Web

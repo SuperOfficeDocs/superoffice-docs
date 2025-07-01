@@ -6,8 +6,8 @@ author: Tony Yates
 date: 04.20.2016
 keywords:
 content_type: tutorial
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Getting started with database mirroring

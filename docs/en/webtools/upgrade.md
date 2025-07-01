@@ -5,8 +5,8 @@ description: Upgrade WebTools, Hide download dialog
 author: SuperOffice Product and Engineering
 keywords: WebTools, upgrade
 content_type: howto
-envir: onsite
-client: web
+deployment: onsite
+platform: web
 ---
 
 # Upgrading

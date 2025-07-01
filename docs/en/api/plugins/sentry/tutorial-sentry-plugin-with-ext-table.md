@@ -6,7 +6,7 @@ author: Tony Yates
 date: 05.16.2008
 keywords: sentry
 content_type: tutorial
-envir: onsite
+deployment: onsite
 ---
 
 # Sentry plugin with external table

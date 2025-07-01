@@ -6,8 +6,6 @@ author: Bergfrid Dias
 date: 02.02.2022
 keywords: database
 content_type: concept
-# envir:
-# client:
 ---
 
 # The main tables

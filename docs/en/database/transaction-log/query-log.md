@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 date:
 keywords: database,travel
 content_type: howto
-envir: onsite
-client: win
+deployment: onsite
+platform: win
 ---
 
 # All changes are logged

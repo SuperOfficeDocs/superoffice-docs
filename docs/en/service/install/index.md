@@ -6,9 +6,8 @@ author: Martin Pavlas
 date: 12.17.2021
 keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
 content_type: howto
-envir: onsite
+deployment: onsite
 version: 8.1
-# client:
 ---
 
 # Install Service

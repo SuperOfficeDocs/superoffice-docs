@@ -5,8 +5,8 @@ description: Troubleshooting Microsoft 365 document integration
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Troubleshooting Microsoft 365 document integration

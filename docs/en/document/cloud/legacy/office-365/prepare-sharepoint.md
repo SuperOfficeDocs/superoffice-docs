@@ -6,8 +6,8 @@ author: SuperOffice Product and Engineering
 keywords: SharePoint, Microsoft Entra
 date: 01.15.2024
 content_type: howto
-envir: cloud
-client: online
+deployment: online
+platform: web
 ---
 
 # Preparing IDP login for SharePoint integration

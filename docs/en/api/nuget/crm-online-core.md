@@ -6,8 +6,6 @@ author: Tony Yates
 date: 02.29.2016
 keywords: authentication
 content_type: reference
-envir:
-client:
 ---
 
 # CRM Online Core
