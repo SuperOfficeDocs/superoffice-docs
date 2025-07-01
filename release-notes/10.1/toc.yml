@@ -46,11 +46,6 @@ items:
     href: cep/10.1.5-update.md
   - name: 10.1.3 update
     href: cep/10.1.3-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 10.1.4 update
-    href: office-integrations/10.1.4-update.md
 - name: API
   href: api/index.md
   items:
