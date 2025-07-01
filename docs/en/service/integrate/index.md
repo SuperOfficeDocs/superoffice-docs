@@ -7,7 +7,7 @@ date: 11.26.2021
 keywords: API, integration point, Service
 content_type: reference
 deployment: online, onsite
-client: service
+platform: service
 ---
 
 # Integration scenarios: Service
@@ -19,7 +19,7 @@ There are several articles available that explain in detail many of the internal
 
 ## Integrations points
 
-* SOAP Services (**Not available in Online**) (available at `http://<domain>/scripts/SOAP.exe?action=<endpoint>`. Available action parameters:
+* SOAP Services (**Not available in Online**) (available at `http://<domain>/scripts/SOAP.exe?action=<endpoint>`). Available action parameters:
   * customer
   * ticket
   * admin

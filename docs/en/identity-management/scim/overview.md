@@ -7,7 +7,7 @@ date: 01.15.2024
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD
 content_type: concept
 deployment: online
-client:  online
+platform: web
 ---
 
 # System for Cross-domain Identity Management (SCIM)

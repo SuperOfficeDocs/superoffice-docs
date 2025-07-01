@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier, Zap, automation, sale
 content_type: howto
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # Create a Zap with SuperOffice CRM

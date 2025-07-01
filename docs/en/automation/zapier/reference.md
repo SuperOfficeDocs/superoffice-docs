@@ -7,7 +7,7 @@ date: 08.09.2023
 keywords: Zapier, Zap, trigger, action, template, sale, form, Slack, Google Sheets, Google Drive, Dropbox, Trello, Asana, Eventbrite, SurveyMonkey, JotForm, Wufoo
 content_type: reference
 language: en
-client: Zapier
+platform: Zapier
 ---
 
 # Supported SuperOffice triggers and actions

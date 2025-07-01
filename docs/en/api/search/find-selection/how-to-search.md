@@ -6,7 +6,6 @@ author: AnthonyYates
 keywords: Selection, Find, Search
 content_type: howto
 deployment: online, onsite
-client: netserver
 version: 9.2
 ---
 
