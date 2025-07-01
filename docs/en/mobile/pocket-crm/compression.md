@@ -5,7 +5,6 @@ description: ZIP compression on REST
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
-envir:
 client: pocket
 ---
 

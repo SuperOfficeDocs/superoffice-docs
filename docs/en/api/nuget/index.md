@@ -6,8 +6,6 @@ author: Tony Yates
 date: 02.29.2016
 keywords:
 content_type: concept
-envir:
-client:
 ---
 
 # Overview

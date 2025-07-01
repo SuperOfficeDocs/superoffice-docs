@@ -6,7 +6,7 @@ author:
 date: 01.15.2024
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD
 content_type: concept
-envir:  cloud
+deployment: online
 client:  online
 ---
 

@@ -5,8 +5,6 @@ author: Christian Mogensen
 date:
 keywords: design,ui
 content_type: concept
-envir:
-client:
 ---
 
 # Practical design hints

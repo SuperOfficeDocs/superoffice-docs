@@ -6,7 +6,6 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, CustomerService, CsCgiUrl, CsCgiUrlDirect, CsCgiUrlInternal, CsDomain, CsPassword, CsUserName, ImpersonateCsUser, CS, base path
 content_type: reference
-envir:
 ---
 
 # NetServer CustomerService element
