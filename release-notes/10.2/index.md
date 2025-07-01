@@ -149,7 +149,7 @@ version: 10.2
 [25]: core-crm/10.2.8-update.md
 [26]: service/10.2.9-update.md
 [27]: admin/10.2.10-update.md
-[28]: office-integrations/3.2-update.md
+[28]: ../integrations/sharepoint/3.2-update.md
 [29]: service/10.2.10-update.md
 [30]: service/10.2.11-update.md
 [31]: ../../docs/en/developer-portal/widgets/index.md

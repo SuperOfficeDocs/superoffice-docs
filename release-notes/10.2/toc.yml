@@ -47,13 +47,6 @@ items:
     href: marketing/10.2.3-update.md
   - name: 10.2.2 update
     href: marketing/10.2.2-update.md
-#- name: CEP (Customer Engagement Platform)
-#  href: cep/index.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: SharePoint Documents 3.2
-    href: office-integrations/3.2-update.md
 - name: API
   href: api/index.md
   items:
@@ -107,5 +100,3 @@ items:
     items:
     - name: Database changes 10.2.1
       href: ../database/changes-10.2.1.md
-#- name: Developer Products
-#  href: development-products/index.md

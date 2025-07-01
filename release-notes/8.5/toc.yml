@@ -109,10 +109,3 @@ items:
     href: pocket-crm/9.1.5-update.md
   - name: 9.1.6 update
     href: pocket-crm/9.1.6-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 8.5 R11 update
-    href: office-integrations/8.5-R11-update.md
-  - name: 8.5 R14 update
-    href: office-integrations/8.5-R14-update.md
