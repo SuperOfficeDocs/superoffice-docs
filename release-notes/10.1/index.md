@@ -1,12 +1,11 @@
 ---
-title: What's new in SuperOffice 10.1
 uid: release-notes-10.1
+title: What's new in SuperOffice 10.1
 description: Release notes. What's new in SuperOffice 10.1
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 04.04.2022
-keywords:
-content_type: release-note
 version: 10.1
+content_type: release-note
 ---
 
 # What's new in SuperOffice 10.1
@@ -37,5 +36,3 @@ You can [read more on the forums][1].
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/onsite-usernamepassword-and-windows-authentication/
-
-<!-- Referenced images -->

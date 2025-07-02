@@ -1,12 +1,12 @@
 ---
-title: New and improved Service
 uid: news-service-10.1
+title: New and improved Service
 description: Release notes. What's new in SuperOffice Service 10.1
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 06.15.2022
-keywords: Service
 version: 10.1
 content_type: release-note
+category: service
 ---
 
 # New and improved service

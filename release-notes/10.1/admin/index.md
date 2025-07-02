@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice 10.1
 uid: news-admin-10.1
+title: What's new in SuperOffice 10.1
 description: Release notes. What's new in SuperOffice 10.1
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 04.04.2022
-keywords: Settings and maintenance
 version: 10.1
 content_type: release-note
+category: Settings and maintenance
 ---
 
 # New and improved Settings and maintenance
