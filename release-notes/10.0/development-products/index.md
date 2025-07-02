@@ -1,7 +1,11 @@
 ---
-author: SuperOffice AS – Research and Development
-date: 11.09.2021
+uid: news-dev-products-10.0
+title: Development Products
 keywords: development products, AI
+author: SuperOffice AS – Product and Engineering
+date: 11.09.2021
+version: 10.0
+content_type: release-note
 ---
 
 # Development Products

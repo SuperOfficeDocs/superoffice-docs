@@ -1,9 +1,12 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-superoffice-10.0
+author: SuperOffice AS – Product and Engineering
 date: 03.14.2022
+version: 10.0
+content_type: release-note
 ---
 
-# What’s new in SuperOffice 10.0
+# What's new in SuperOffice 10.0
 
 ## Summary of highlights
 
@@ -23,5 +26,3 @@ You can read more about these in the [product news][1].
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/whats-new/product/superoffice-10/
-
-<!-- Referenced images -->
