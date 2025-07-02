@@ -7,6 +7,7 @@ author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
 version: 11
 content_type: release-note
+category: core-crm
 audience: person
 audience_tooltip: SuperOffice CRM
 ---
