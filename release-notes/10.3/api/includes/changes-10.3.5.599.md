@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.5.599_changes
-date: 4/30/2024
+date: 04.30.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024 MD013 -->
 Changes from v10.3.4.448 and v10.3.5.599
 
 ## Web Services
@@ -68,7 +69,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `Text`
   * Property `To`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -91,12 +91,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.ExtraFieldAttribIcon`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.IconHints is Modified
 
 * New items
   * Field `.IconHintsFlowContent`
-
 
 #### SuperOffice.Data.ShipmentLinkType is Modified
 
@@ -126,7 +124,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Modified items
   * Method `ParseLine(String)`
   * Method `ParseTag(String)`
-
 
 ### Assembly: SoDatabase
 
@@ -235,7 +232,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.RecursionInfoIcon`
 
-
 #### SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase is Modified
 
 * Deleted items
@@ -327,7 +323,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.SoLists is Modified
 
-
 #### SuperOffice.CRM.Lists.TicketTypeProvider is Modified
 
 * New items
@@ -392,10 +387,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.Util.AsyncListProviderWrapper is Modified
 
-
 #### SuperOffice.Util.NSWinListProviderHelper is Modified
-
-
 
 ## Continuous Database
 
@@ -427,6 +419,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `VisibleForGroups`
-
-
-

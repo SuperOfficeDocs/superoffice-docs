@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.11.799_changes
-date: 10/24/2024
+date: 10.24.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.10.720 and v10.3.11.799
 
 ## Web Services
@@ -32,7 +33,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Method `UpdateAppointmentWithMode(Int32, DateTime, DateTime, Int32, Int32, Int32, RecurrenceUpdateMode)`
-
 
 ## NetServer Core
 

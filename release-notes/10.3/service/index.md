@@ -2,11 +2,11 @@
 uid: news-service-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
-keywords: Service, request
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 10.29.2024
 version: 10.3
 content_type: release-note
+category: service
 audience: person
 audience_tooltip: SuperOffice Service
 ---

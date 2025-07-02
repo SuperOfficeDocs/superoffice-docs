@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.3.610_changes
-date: 3/20/2024
+date: 03.20.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.2.841 and v10.3.3.610
 
 ## Web Services
@@ -34,7 +35,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `Status`
 * New items
   * Property `TicketStatus`
-
 
 ## NetServer Core
 
@@ -72,7 +72,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.ExtraFieldAttribHideRestriction`
   * Field `.ExtraFieldAttribRank`
   * Field `.ExtraFieldAttribRootEntity`
-
 
 #### SuperOffice.Globalization.RC is Modified
 
@@ -128,7 +127,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `EscapePercentageSymbols(String)`
-
 
 ### Assembly: SoDatabase
 
@@ -194,7 +192,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.RecursionInfoColumnRank`
 
-
 #### SuperOffice.CRM.ArchiveLists.FavouritePersonExtender is Modified
 
 * New items
@@ -228,7 +225,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.FeaturesFlowParticipant`
 
-
 #### SuperOffice.CRM.ArchiveLists.ShipmentMessageExtenderBase is Modified
 
 * New items
@@ -242,7 +238,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ShipmentMessageShipmentExtender(Features)`
 
 #### SuperOffice.CRM.ArchiveLists.WorkflowInstanceExtenderBase is Modified
-
 
 #### SuperOffice.CRM.Data.AssociateTableInfo is Modified
 
@@ -260,19 +255,16 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.EjscriptFieldsLastExecAnonHttp`
   * Field `.EjscriptFieldsLastExecHttp`
 
-
 ##### SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields is Modified
 
 * New items
   * Field `.EmailFlowContentLinkFieldsFormId`
   * Field `.EmailFlowContentLinkFieldsSLinkId`
 
-
 ##### SuperOffice.CRM.Data.DBC.EmailFlowFields is Modified
 
 * New items
   * Field `.EmailFlowFieldsMainMessageId`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowStepFields is Modified
 
@@ -280,18 +272,15 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.WorkflowStepFieldsRank`
   * Field `.WorkflowStepFieldsWorkflowId`
 
-
 ##### SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields is Modified
 
 * Deleted items
   * Field `.WorkflowStepOptionFieldsWorkflowId`
 
-
 ##### SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields is Modified
 
 * New items
   * Field `.WorkflowStepOptionLinkFieldsRank`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields is Modified
 
@@ -395,7 +384,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `HasActions(String)`
 
 #### SuperOffice.CRM.Lists.LocationListProvider is Modified
-
 
 #### SuperOffice.CRM.Lists.PersonFavouriteListProvider is Modified
 
@@ -526,7 +514,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `GetWorkflowRootStepLinkTableInfo()`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ## Continuous Database
@@ -584,6 +571,3 @@ The following represent changes to SuperOffice database schema.
 
 * Deleted items
   * Field `WorkflowId`
-
-
-

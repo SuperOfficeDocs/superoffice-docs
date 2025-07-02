@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.1.759_changes
-date: 1/20/2024
+date: 01.20.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.2.11.1228 and v10.3.1.759
 
 ## Web Services
@@ -183,7 +184,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `TimeoutIntervalType`
   * Property `WaitForTimeout`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -218,7 +218,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.IconHintsFolder`
 
-
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
 * Modified items
@@ -228,13 +227,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.SalesNotificationNotifyAppointmentAssociateRejected`
 
-
 ##### SuperOffice.CRM.UserPreferenceStrings.System is Modified
 
 * New items
   * Field `.SystemOfferWebToolsInstall`
   * Field `.SystemOfferWebToolsUpgrade`
-
 
 #### SuperOffice.Data.DeltaType is Modified
 
@@ -364,7 +361,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `GetObjectFromHttpSyncWithContent<T>(String, RequestType, HttpContent)`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -423,9 +419,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase is Modified
 
-
 #### SuperOffice.CRM.ArchiveLists.TicketExtenderBase is Modified
-
 
 #### SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase is Modified
 
@@ -484,7 +478,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.CacheInvalidationFieldsFirstChange`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowFields is Modified
 
@@ -701,7 +694,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `CreateInvitation(AppointmentRow, Int32, Nullable<DateTime>, Nullable<DateTime>, String, AppointmentRow[])`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Modified Types
@@ -725,14 +717,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `quote_status_zero_ok`
   * Field `quote_status_zero_warning`
 
-
 ### Assembly: SoLicense
 
 ### Modified Types
 
 #### SuperOffice.License.LicenseService is Modified
-
-
 
 ## Continuous Database
 
@@ -790,6 +779,3 @@ The following represent changes to SuperOffice database schema.
 * New items
   * Field `ExitFlowId`
   * Field `ExitSuccessFlowId`
-
-
-

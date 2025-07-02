@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.10.720_changes
-date: 10/11/2024
+date: 10.11.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.9.718 and v10.3.10.720
 
 ## Web Services
@@ -74,7 +75,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `Payload`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -104,7 +104,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_MAILING_AUDIT_HEADER`
   * Field `SR_MAILING_AUDIT_TEXT`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -123,7 +122,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.TemporaryKeyFieldsPayload`
 
-
 #### SuperOffice.CRM.Data.TemporaryKeyTableInfo is Modified
 
 * New items
@@ -131,9 +129,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Globalization.DocumentTags is Modified
 
-
 #### SuperOffice.CRM.Lists.SpecifiedMailingsListProvider is Modified
-
 
 #### SuperOffice.CRM.Rows.TemporaryKeyRecordData is Modified
 
@@ -192,7 +188,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `ExecuteTypedScalar<ReturnType>(SqlCommand, Boolean)`
 
-
 ### Assembly: SoLicense
 
 ## Continuous Database
@@ -212,6 +207,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `Payload`
-
-
-
