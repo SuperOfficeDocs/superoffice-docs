@@ -1,8 +1,9 @@
 ---
 uid: version_10.2.8.655_changes
-date: 9/25/2023
+date: 09.25.2023
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.2.6.1248 and v10.2.8.655
 
 ## Web Services
@@ -211,7 +212,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * Modified items
   * Property `Until`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -260,7 +260,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.DocumentsTemplateRelativePath`
   * Property `.DocumentsTemporaryRelativePath`
 
-
 ##### SuperOffice.Configuration.ConfigFile.DocumentsSection is Modified
 
 * New items
@@ -268,7 +267,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.DocumentsSectionArchiveRelativePath`
   * Property `.DocumentsSectionTemplateRelativePath`
   * Property `.DocumentsSectionTemporaryRelativePath`
-
 
 #### SuperOffice.CRM.ArchiveLists.Constants is Modified
 
@@ -279,18 +277,15 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.DisplayTypesImageUrl`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.IconHints is Modified
 
 * New items
   * Field `.IconHintsResource_Conflict`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes is Modified
 
 * New items
   * Field `.RestrictionTypesEjCategory`
-
 
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
@@ -301,13 +296,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.FunctionsShowWeekNumbersInCalendars`
 
-
 ##### SuperOffice.CRM.UserPreferenceStrings.Mail is Modified
 
 * New items
   * Field `.MailEnableEmailInvitationPreview`
   * Field `.MailNotifyAttendeesByMail`
-
 
 ##### SuperOffice.CRM.UserPreferenceStrings.System is Modified
 
@@ -662,8 +655,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.HttpServiceJwtConfigVideoMeetings`
   * Property `.HttpServiceJwtConfigZFD`
 
-
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
@@ -881,6 +872,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ##### SuperOffice.CRM.Data.DBC.TicketRelationFields is Deleted
 
 ##### SuperOffice.CRM.Data.DBC.TicketRelationTypeFields is Deleted
+
 * Modified items
 
 ##### SuperOffice.CRM.Data.DBC.EjscriptFields is Modified
@@ -888,12 +880,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.EjscriptFieldsType`
 
-
 ##### SuperOffice.CRM.Data.DBC.ScriptTraceRunFields is Modified
 
 * New items
   * Field `.ScriptTraceRunFieldsFrames`
-
 
 ##### SuperOffice.CRM.Data.DBC.SShipmentAddrFields is Modified
 
@@ -901,12 +891,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.SShipmentAddrFieldsWorkflowInstanceId`
   * Field `.SShipmentAddrFieldsWorkflowStepId`
 
-
 ##### SuperOffice.CRM.Data.DBC.TicketFields is Modified
 
 * New items
   * Field `.TicketFieldsTimeSpent`
-
 
 ##### SuperOffice.CRM.Data.DBC.TicketTypeFields is Modified
 
@@ -925,12 +913,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.TicketTypeFieldsReplyTemplate`
   * Field `.TicketTypeFieldsTooltip`
 
-
 ##### SuperOffice.CRM.Data.DBC.WebhookFields is Modified
 
 * New items
   * Field `.WebhookFieldsErrorsEmail`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowInstanceFields is Modified
 
@@ -1322,7 +1308,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.Data.Private.FreetextIndexer is Modified
 
-
 #### SuperOffice.Data.Private.RegisteredUpdater is Modified
 
 * Modified items
@@ -1330,10 +1315,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 ##### SuperOffice.Data.Private.RegisteredUpdater.DisableUpdate is Modified
 
-
-
 #### SuperOffice.Data.Private.SimpleQueryUpdaterBase is Modified
-
 
 #### SuperOffice.Data.S is Modified
 
@@ -1368,7 +1350,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetTicketTypePriorityTableInfo()`
   * Method `GetTicketTypeStatusTableInfo()`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Modified Types
@@ -1377,7 +1358,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `IsSystemAssembly(String)`
-
 
 ### Assembly: SoLicense
 

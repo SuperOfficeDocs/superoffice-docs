@@ -1,8 +1,9 @@
 ---
 uid: version_10.2.9.778_changes
-date: 11/7/2023
+date: 11.07.2023
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.2.8.655 and v10.2.9.778
 
 ## Web Services
@@ -80,7 +81,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `GetTicketMessageEntities(Int32, Int32[])`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -106,14 +106,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.DocumentsAzureBlobStorageContainerPrimaryUri`
 
-
 ##### SuperOffice.Configuration.ConfigFile.DocumentsSection is Modified
 
 * Deleted items
   * Property `.DocumentsSectionArchiveFileShareUri`
 * New items
   * Property `.DocumentsSectionAzureBlobStorageContainerPrimaryUri`
-
 
 #### SuperOffice.Data.TicketLogFieldChange is Modified
 
@@ -237,7 +235,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `GetResponseWithContent(String, HttpServiceJwtConfig, RequestType, HttpContent, String, String)`
 
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
@@ -301,7 +298,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.FeaturesShipmentLinkClickedInfo`
 
-
 #### SuperOffice.CRM.BulkUpdate.BulkUpdateSystem is Modified
 
 * Modified items
@@ -310,7 +306,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.TicketFieldValueKeysTicketType`
-
 
 #### SuperOffice.CRM.Documents.SoArc2 is Modified
 
@@ -324,9 +319,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.TicketPriorityListProvider is Modified
 
-
 #### SuperOffice.CRM.Lists.TicketTicketStatusProvider is Modified
-
 
 #### SuperOffice.CRM.Lists.TimeZoneProvider is Modified
 
@@ -387,7 +380,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin is Modified
 
-
 #### SuperOffice.Data.Private.FreetextRebuilder is Modified
 
 * Deleted items
@@ -414,7 +406,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.OldAndNewFieldDataType`
 
-
 ##### SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData is Modified
 
 * New items
@@ -422,12 +413,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.QueryDataMessageId`
   * Property `.QueryDataPrimaryId`
 
-
 #### SuperOffice.Security.Principal.ExpiredCredentialCleaner is Modified
 
 * Modified items
   * Field `BlockCleanupDuringTestRuns`
-
 
 ## Continuous Database
 
@@ -507,6 +496,3 @@ The following represent changes to SuperOffice database schema.
 * New items
   * Field `PersonCreated`
   * Field `PersonUpdated`
-
-
-

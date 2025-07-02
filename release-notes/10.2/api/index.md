@@ -1,12 +1,13 @@
 ---
-title: What's new in SuperOffice 10.2
 uid: news-api-10.2
+title: What's new in SuperOffice 10.2
 description: Release notes. What's new in SuperOffice 10.2
-author: SuperOffice AS – Research and Development
+keywords: API changes
+author: SuperOffice AS – Product and Engineering
 date: 01.20.2023
-keywords: API
 version: 10.2
 content_type: release-note
+category: api
 ---
 
 # API changes
