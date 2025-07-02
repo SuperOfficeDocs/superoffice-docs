@@ -3,6 +3,7 @@ uid: version_10.5.3.711_changes
 date: 27.03.2025
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.5.2.435 and v10.5.3.711
 
 ## Web Services
@@ -44,7 +45,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `GetUserAndInstallationLicenceStatus(Int32)`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -77,7 +77,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.ExtraFieldAttribEntity`
 
-
 #### SuperOffice.Globalization.RC is Modified
 
 * New items
@@ -96,7 +95,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Property `LogAllRequestsUntil`
-
 
 ### Assembly: SoDatabase
 
@@ -202,7 +200,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ContactUrlExtender(String)`
 
 #### SuperOffice.CRM.ArchiveLists.DynamicTicketExtender is Modified
-
 
 #### SuperOffice.CRM.ArchiveLists.EmailExtenderBase is Modified
 
@@ -410,7 +407,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Globalization.FadTags is Modified
 
-
 #### SuperOffice.CRM.Globalization.TemplateVariables is Modified
 
 * New items
@@ -475,7 +471,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `HasFlag(Argument)`
-
 
 ## Continuous Database
 

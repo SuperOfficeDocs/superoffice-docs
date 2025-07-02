@@ -3,11 +3,10 @@ uid: version_10.5.2.332_changes
 date: 10.02.2025
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 <- [Back](../10.5.2-update.md)
 
-## Changes from v10.5.1.871 and v10.5.2.332
-
----
+Changes from v10.5.1.871 and v10.5.2.332
 
 ## Web Services
 
@@ -36,7 +35,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Method `CreateAndSaveQuoteLines(Int32, String[])`
-
 
 ## NetServer Core
 
@@ -423,7 +421,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TABS_REACHED_LIMIT`
   * Field `SR_TABS_TOO_MANY`
 
-
 ### Assembly: SoDatabase
 
 ### Modified Types
@@ -435,9 +432,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.EmailAddressProvider is Modified
 
-
 #### SuperOffice.CRM.Lists.EmailPhoneProvider is Modified
-
 
 #### SuperOffice.Data.ServicePreferenceMappings is Modified
 
@@ -448,12 +443,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.PreferenceMappingInfoDefaultValue`
 
-
 #### SuperOffice.Data.SQL.TargetedSelect<MainTableInfo> is Modified
 
 * New items
   * Method `SetOriginText(String)`
-
 
 ## Continuous Database
 

@@ -2,11 +2,12 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: Service, request, Requests tab, section tab
+keywords: AI copilot, new user interface, updated diary
 author: SuperOffice AS – Product and Engineering
 date: 05.05.2025
 version: 10.5
 content_type: release-note
+category: crm
 ---
 
 # What's new in SuperOffice 10.5
@@ -157,5 +158,3 @@ We use **pilot programs** to assess how well the features and functions meet our
 [24]: service/10.5.5-update.md
 [25]: ../../docs/en/developer-portal/widgets/index.md#publish-status
 [26]: https://appstore.superoffice.com/superoffice-as/activity-folders-for-superoffice
-
-<!-- Referenced images -->
