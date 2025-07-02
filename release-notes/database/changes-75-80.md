@@ -1,13 +1,12 @@
 ---
+uid: database-changes-75-to-80
 title: Table changes from 7.5 to 8.0
-uid: changes_75_to_80
 description: Changes in SuperOffice from 7.5 to 8.0
 author: SuperOffice Product and Engineering
-keywords: database
-content_type: release-note
-envir: onsite
 version: 8.0
-# client:
+content_type: release-note
+deployment: onsite
+category: database
 ---
 
 # Table changes from 7.5 to 8.0
@@ -21,7 +20,7 @@ version: 8.0
 | `id` | int | Primary key |
 | `table_id` | short | SuperOffice table reference |
 | `record_id` | int | Record in the referenced table |
-| `associate_id` |  int | The user who has marked this favorited |
+| `associate_id` | int | The user who has marked this favorited |
 | `extra_info[255]` | nvarchar | Optional extra information |
 | `registered` | DateTime | Registered datetime |
 | `registered_by` | int | Registered by whom |

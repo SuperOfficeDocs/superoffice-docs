@@ -2,18 +2,16 @@
 uid: database-whats-new-10.1.5
 title: What's new in version 10.1.5
 description: What's new in database version 10.1.5
+author: SuperOffice Product and Engineering
 generated: true
-keywords:
-  - "database"
 date: 08.26.2022
-content_type: release-note
-envir:
-  - "onsite"
-  - "online"
 version: 10.1.5
+content_type: release-note
+deployment: onsite, online
+category: database
 ---
-<!-- markdownlint-disable-file MD036 -->
 
+<!-- markdownlint-disable-file MD036 -->
 # Released database changes in version 10.1.5
 
 ## SuperOffice

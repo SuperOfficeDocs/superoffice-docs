@@ -1,13 +1,12 @@
 ---
+uid: database-changes-80-to-81
 title: Changes in SuperOffice from 8.0 to 8.1
-uid: changes_80_to_81
 description: Changes in SuperOffice from 8.0 to 8.1
 author: SuperOffice Product and Engineering
-keywords: database
-content_type: release-note
-envir: onsite
 version: 8.1
-# client:
+content_type: release-note
+deployment: onsite
+category: database
 ---
 
 # Database
@@ -20,7 +19,7 @@ In SuperOffice 8.1, the dictionary has been changed. The new [CDD (Continuous Da
 
 ## New tables
 
-There are several changes in the 8.1 database.  Five new tables are added during the upgrade.
+There are several changes in the 8.1 database. Five new tables are added during the upgrade.
 
 * There is a new table that will support a generic "favorite" (yellow star) functionality across clients.
 

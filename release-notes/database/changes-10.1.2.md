@@ -2,18 +2,16 @@
 uid: database-whats-new-10.1.2.686
 title: What's new in version 10.1.2.686
 description: What's new in database version 10.1.2.686.
+author: SuperOffice Product and Engineering
 generated: true
-keywords:
-  - "database"
 date: 04.12.2022
-content_type: release-note
-envir:
-  - "onsite"
-  - "online"
 version: 10.1.2
+content_type: release-note
+deployment: onsite, online
+category: database
 ---
-<!-- markdownlint-disable-file MD036 -->
 
+<!-- markdownlint-disable-file MD036 -->
 # Released database changes in version 10.1.2.686
 
 ## SuperOffice

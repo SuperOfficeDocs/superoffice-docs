@@ -1,10 +1,11 @@
 ---
+uid: database-changes-in-7
 title: What's new in v7
-uid: changes_in_7
 description: What's new in the SuperOffice 7 database
 author: SuperOffice Product and Engineering
-keywords:
 version: 7
+content_type: release-note
+category: database
 ---
 
 # What's new in the SuperOffice 7 database
@@ -43,7 +44,7 @@ The obsolete tables have been replaced by new tables, as far as possible (there 
 
 Keeping the table numbers unchanged is important to avoid breaking or remapping relations.
 
-From 7.5 on, we won’t add tables or fields until we know for sure that we need them, what you see in the database is all in use.
+From 7.5 on, we won't add tables or fields until we know for sure that we need them, what you see in the database is all in use.
 
 ## Sales management
 

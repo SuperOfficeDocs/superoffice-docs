@@ -1,19 +1,17 @@
 ---
 uid: database-whats-new-92
-title: What's New
+title: Released database changes in version 9.8.7717.1401
 description: What's new in the latest database version.
+author: SuperOffice Product and Engineering
 generated: true
-keywords:
-  - "database"
 date: 03.22.2021
-content_type: release-note
-envir:
-  - "onsite"
-  - "online"
 version: 9.2
+content_type: release-note
+deployment: onsite, online
+category: database
 ---
-<!-- markdownlint-disable-file MD036 -->
 
+<!-- markdownlint-disable-file MD036 -->
 # Released database changes in version 9.8.7717.1401
 
 ## SuperOffice

@@ -1,13 +1,12 @@
 ---
+uid: database-changes-70-to-71
 title: Table changes from 7.0 to 7.1
-uid: changes_70_to_71
 description: Changes in SuperOffice from 7.0 to 7.1
 author: SuperOffice Product and Engineering
-keywords: database
-content_type: release-note
-envir: onsite
 version: 7.1
-# client:
+content_type: release-note
+deployment: onsite
+category: database
 ---
 
 # Table changes from 7.0 to 7.1
