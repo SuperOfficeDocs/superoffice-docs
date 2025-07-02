@@ -5,7 +5,7 @@ description: NetServer 7.0
 author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
-topic: reference
+content_type: release-note
 ---
 
 # NetServer 7 enhancements

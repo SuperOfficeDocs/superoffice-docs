@@ -6,7 +6,7 @@ keywords: Service, request, Requests tab, section tab
 author: SuperOffice AS – Product and Engineering
 date: 05.05.2025
 version: 10.5
-topic: reference
+content_type: release-note
 ---
 
 # What's new in SuperOffice 10.5

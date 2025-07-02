@@ -6,7 +6,7 @@ keywords: Settings and maintenance, admin
 author: SuperOffice AS – Product and engineering
 date: 06.09.2025
 version: 11
-topic: reference
+content_type: release-note
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

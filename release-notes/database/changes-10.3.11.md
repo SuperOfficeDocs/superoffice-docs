@@ -4,7 +4,7 @@ title: What's new in version 10.3.11.910
 description: What's new in database version 10.3.11.910.
 so.generated: true
 keywords: database
-so.topic: reference
+so.content_type: release-note
 so.envir: onsite, online
 ---
 

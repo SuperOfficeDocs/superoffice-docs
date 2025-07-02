@@ -6,7 +6,7 @@ keywords: API
 author: SuperOffice AS – Product and Engineering
 date: 
 version: 10.5
-topic: reference
+content_type: release-note
 ---
 
 # API changes

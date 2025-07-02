@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 05.04.2022
 keywords: development products, AI
 version: 10.1.2
-topic: reference
+content_type: release-note
 ---
 
 # Development Products

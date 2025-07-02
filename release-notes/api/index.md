@@ -4,7 +4,7 @@ uid: netserver_whats_new
 description: What's new
 author: SuperOffice Product and Engineering
 date:
-topic: reference
+content_type: release-note
 keywords: changelog
 ---
 

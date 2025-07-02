@@ -4,7 +4,7 @@ uid: changes_75_to_80
 description: Changes in SuperOffice from 7.5 to 8.0
 author: SuperOffice Product and Engineering
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite
 version: 8.0
 # client:

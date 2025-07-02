@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 04.04.2022
 keywords: Settings and maintenance
 version: 10.1
-topic: reference
+content_type: release-note
 ---
 
 # New and improved Settings and maintenance

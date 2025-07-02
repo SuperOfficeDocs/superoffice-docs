@@ -4,7 +4,7 @@ uid: whats_new_db
 description: What's new in the SuperOffice database
 author: SuperOffice Product and Engineering
 keywords: database
-topic: reference
+content_type: release-note
 ---
 
 # What's new in the SuperOffice database (legacy)

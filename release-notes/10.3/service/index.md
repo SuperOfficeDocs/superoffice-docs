@@ -6,7 +6,7 @@ keywords: Service, request
 author: SuperOffice AS – Research and Development
 date: 10.29.2024
 version: 10.3
-topic: reference
+content_type: release-note
 audience: person
 audience_tooltip: SuperOffice Service
 ---

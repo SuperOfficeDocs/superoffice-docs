@@ -5,7 +5,7 @@ description: This is a reminder of end of life for SuperOffice Pagebuilder custo
 author: Trude Lien Smedbråten
 date: 11.01.2023
 keywords: Pagebuilder, EOL
-topic: reference
+content_type: release-note
 version: 10.2.9
 language: en
 envir: onsite

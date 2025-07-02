@@ -6,7 +6,7 @@ keywords: marketing premium, marketing, mailing, audit, preheader, email setting
 author: SuperOffice AS – Research and Development
 date: 11.19.2024
 version: 10.3
-topic: reference
+content_type: release-note
 audience: person
 audience_tooltip: Marketing
 ---

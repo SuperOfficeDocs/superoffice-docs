@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 01.20.2023
 keywords: API
 version: 10.2
-topic: reference
+content_type: release-note
 ---
 
 # API changes

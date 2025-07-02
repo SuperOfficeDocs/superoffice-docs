@@ -6,7 +6,7 @@ generated: true
 keywords:
   - "database"
 date: 01.23.2023
-topic: reference
+content_type: release-note
 envir:
   - "onsite"
   - "online"

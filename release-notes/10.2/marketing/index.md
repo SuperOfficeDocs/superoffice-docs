@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 03.07.2023
 keywords: marketing
 version: 10.2
-topic: reference
+content_type: release-note
 ---
 
 # New and improved Marketing

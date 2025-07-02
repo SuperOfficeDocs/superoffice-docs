@@ -5,7 +5,7 @@ description: This is a formal announcement of end of life for our SuperOffice Lo
 author: Mikael Månsson
 date: 11.07.2023
 keywords: Lotus Notes Link, EOL
-topic: reference
+content_type: release-note
 version: 10.2
 language: en
 envir: onsite

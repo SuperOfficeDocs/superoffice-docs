@@ -6,7 +6,7 @@ keywords: Settings and maintenance, AI Lab
 author: SuperOffice AS – Product and Engineering
 date: 05.05.2025
 version: 10.5
-topic: reference
+content_type: release-note
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

@@ -3,7 +3,7 @@ title: changes_6_to_7
 description: Table changes from SuperOffice 6 to 7
 author: SuperOffice Product and Engineering
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite
 # client:
 version: 7

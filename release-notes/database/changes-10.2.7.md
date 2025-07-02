@@ -4,7 +4,7 @@ title: What's new in version 10.2.7.5452
 description: What's new in database version 10.2.7.5452.
 generated: true
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite, online
 ---
 

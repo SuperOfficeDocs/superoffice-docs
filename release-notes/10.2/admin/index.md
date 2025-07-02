@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 12.12.2023
 keywords: Settings and maintenance
 version: 10.2
-topic: reference
+content_type: release-note
 ---
 
 # New and improved Settings and maintenance

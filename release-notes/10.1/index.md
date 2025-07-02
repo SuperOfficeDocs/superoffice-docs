@@ -5,7 +5,7 @@ description: Release notes. What's new in SuperOffice 10.1
 author: SuperOffice AS – Research and Development
 date: 04.04.2022
 keywords:
-topic: reference
+content_type: release-note
 version: 10.1
 ---
 

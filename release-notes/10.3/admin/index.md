@@ -6,7 +6,7 @@ keywords: Settings and maintenance, system design, web panel, screen designer, r
 author: SuperOffice AS – Research and Development
 date: 08.27.2024
 version: 10.3
-topic: reference
+content_type: release-note
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

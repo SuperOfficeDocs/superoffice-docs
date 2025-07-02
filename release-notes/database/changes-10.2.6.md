@@ -4,7 +4,7 @@ title: What's new in version 10.2.6.1248
 description: What's new in database version 10.2.6.1248.
 generated: true
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite, online
 ---
 

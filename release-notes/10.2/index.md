@@ -5,7 +5,7 @@ description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
 date: 02.11.2025
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
-topic: reference
+content_type: release-note
 version: 10.2
 ---
 

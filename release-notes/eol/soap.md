@@ -5,7 +5,7 @@ description: An important update regarding our SOAP support (SuperOffice.NetServ
 author: Tony Yates
 date: 12.13.2023
 keywords: SuperOffice.NetServer.Services, SOAP, EOL
-topic: reference
+content_type: release-note
 version:
 language: en
 envir: onsite

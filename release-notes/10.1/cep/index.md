@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 06.15.2022
 keywords: CEP, Customer engagement platform
 version: 10.1.3
-topic: reference
+content_type: release-note
 ---
 
 # New and improved Customer engagement platform

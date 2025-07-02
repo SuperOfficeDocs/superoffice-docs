@@ -6,7 +6,7 @@ keywords: SuperOffice Mobile CRM, mobile app, mobile
 author: SuperOffice AS – Product and engineering
 date: 06.17.2025
 version_mobile: 11.1
-topic: reference
+content_type: release-note
 client: mobile
 audience: person
 audience_tooltip: SuperOffice Mobile CRM

@@ -6,7 +6,7 @@ keywords: Service, request, search, reply tools, faq, reply templates
 author: SuperOffice AS – Product and engineering
 date: 06.17.2025
 version: 11
-topic: reference
+content_type: release-note
 audience: person
 audience_tooltip: SuperOffice Service
 ---

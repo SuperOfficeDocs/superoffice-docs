@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 date: 12.12.2023
 keywords: Service, request, ticket
 version: 10.2
-topic: reference
+content_type: release-note
 ---
 
 # New and improved Service

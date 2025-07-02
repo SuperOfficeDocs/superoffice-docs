@@ -6,7 +6,7 @@ keywords: new UI
 author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
 version: 11
-topic: reference
+content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
 ---

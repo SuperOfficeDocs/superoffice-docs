@@ -6,7 +6,7 @@ keywords: web panel, system design, dashboard, request, SAINT, invitation, maili
 author: SuperOffice AS – Research and Development
 date: 02.11.2025
 version: 10.3
-topic: reference
+content_type: release-note
 ---
 
 # What's new in SuperOffice 10.3

@@ -4,7 +4,7 @@ uid: changes_71_to_75
 description: Changes in SuperOffice from 7.1 to 7.5
 author: SuperOffice Product and Engineering
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite
 # client:
 version: 7.5

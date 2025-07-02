@@ -4,7 +4,7 @@ uid: changes_7_datetime
 description: Changes in SuperOffice 7 - DateTime
 author: SuperOffice Product and Engineering
 keywords: database
-topic: reference
+content_type: release-note
 envir: onsite
 # client:
 ---
