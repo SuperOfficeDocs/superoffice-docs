@@ -1,6 +1,13 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-marketing-8.5
+title: Marketing 8.5 update
+description: Release notes. What's new in SuperOffice Marketing 8.5
+author: SuperOffice AS – Product and Engineering
 date: 12.18.2020
+version: 8.5
+platform: web
+deployment: onsite
+content_type: release-note
 ---
 
 # Marketing

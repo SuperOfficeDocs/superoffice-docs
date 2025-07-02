@@ -1,9 +1,13 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-superoffice-9.1
+title: SuperOffice 9.1 update
+author: SuperOffice AS – Product and Engineering
 date: 08.19.2021
+version: 9.1
+content_type: release-note
 ---
 
-# What’s new in SuperOffice 9.1
+# What's new in SuperOffice 9.1
 
 ## Summary of highlights
 

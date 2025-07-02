@@ -1,6 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-windows-client-8.5
+title: Windows client 8.5 update
+author: SuperOffice AS – Product and Engineering
 date: 12.18.2020
+version: 8.5
+content_type: release-note
 ---
 
 # Windows client

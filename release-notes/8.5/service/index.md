@@ -1,6 +1,11 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-service-8.5
+author: SuperOffice AS – Product and Engineering
 date: 12.18.2020
+version: 8.5
+platform: web
+deployment: onsite
+content_type: release-note
 ---
 
 # Service
