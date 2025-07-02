@@ -1,6 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-superoffice-9.2
+title: Core CRM 9.2 update
+author: SuperOffice AS – Product and Engineering
 date: 04.28.2021
+version: 9.2
+content_type: release-note
 ---
 
 # What’s new in SuperOffice 9.2

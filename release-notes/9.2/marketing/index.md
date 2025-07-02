@@ -1,6 +1,9 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-marketing-9.2
+title: Marketing 9.2 update
+author: SuperOffice AS – Product and Engineering
 date: 04.28.2021
+version: 9.2
 content_type: release-note
 ---
 
