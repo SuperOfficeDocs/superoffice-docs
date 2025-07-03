@@ -6,6 +6,7 @@ author: Eivind Fasting
 date: 11.26.2024
 keywords: soprotocol, follow-up, open
 content_type: howto
+redirect_from: /en/ui/soprotocol/open-appointment-dialog
 ---
 
 # Open follow-up

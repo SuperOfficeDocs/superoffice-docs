@@ -8,6 +8,7 @@ version: 10.4
 content_type: tutorial
 audience: admin
 language: en
+redirect_from: /en/ui/screen-designer/tutorial-move-country
 ---
 
 # Tutorial - Front-load country

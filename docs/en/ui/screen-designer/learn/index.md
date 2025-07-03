@@ -10,6 +10,9 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from:
+  - /en/ui/screen-designer/index
+  - /en/ui/screen-designer/configurable-screens/index
 ---
 
 # Screen designer <i class="ph ph-squares-four" aria-hidden="true"></i>

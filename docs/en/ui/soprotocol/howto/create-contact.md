@@ -7,6 +7,7 @@ date: 11.26.2024
 version: 10.3.4
 keywords: soprotocol, contact, create
 content_type: howto
+redirect_from: /en/ui/soprotocol/create-contact
 ---
 
 # Create contact

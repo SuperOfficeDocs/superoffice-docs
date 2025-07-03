@@ -6,6 +6,10 @@ keywords: soprotocol, company, open
 author: Eivind Fasting
 date: 11.26.2024
 content_type: howto
+redirect_from:
+  - /en/ui/soprotocol/edit-contact
+  - /en/ui/soprotocol/get-contact
+  - /en/ui/soprotocol/show-persons-for-contact
 ---
 
 # Open company

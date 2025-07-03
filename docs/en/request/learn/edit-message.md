@@ -12,6 +12,7 @@ functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: /en/request/learn/howto/edit-message
 ---
 
 # Edit message

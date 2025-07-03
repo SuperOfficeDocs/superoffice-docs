@@ -10,6 +10,7 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /en/marketing/mailing/learn/follow-up/index
 ---
 
 # Work with mailings

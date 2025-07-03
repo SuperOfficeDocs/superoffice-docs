@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+redirect_from: /en/marketing/forms/learn/submissions/track
 ---
 
 # Track form submissions and view statistics

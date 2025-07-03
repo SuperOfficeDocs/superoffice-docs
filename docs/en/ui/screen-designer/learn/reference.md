@@ -10,6 +10,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/ui/screen-designer/element-reference
 ---
 
 # Reference

@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+redirect_from: /en/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Add tracked links to message

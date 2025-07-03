@@ -12,6 +12,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: /en/request/reply-templates/learn/delete
 ---
 
 # Edit or delete reply templates

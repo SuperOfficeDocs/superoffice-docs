@@ -12,6 +12,7 @@ platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/email/superoffice-for-outlook/requirements
 ---
 
 # Requirements

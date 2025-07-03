@@ -9,6 +9,7 @@ version_devportal: 1.29
 content_type: concept
 deployment: online
 platform: web
+redirect_from: /en/developer-portal/analytics/customers
 ---
 
 # Tenant management

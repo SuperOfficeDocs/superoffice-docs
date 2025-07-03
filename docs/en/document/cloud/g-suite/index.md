@@ -11,6 +11,7 @@ redirect_from:
   - /no/document/cloud/g-suite/learn/index
   - /sv/document/cloud/g-suite/learn/index
   - /nl/document/cloud/g-suite/learn/index
+  - /en/document/cloud/g-suite/learn/index
 ---
 
 # Google Workspace document integration

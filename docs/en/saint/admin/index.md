@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/sale/saint/learn/admin/index
 ---
 
 # Set up SAINT

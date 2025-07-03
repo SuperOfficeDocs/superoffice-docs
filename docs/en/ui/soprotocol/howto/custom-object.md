@@ -10,6 +10,7 @@ content_type: howto
 platform: web
 deployment: online, onsite
 pilot: yes
+redirect_from: /en/ui/soprotocol/custom-object
 ---
 
 # How to work with custom objects using SoProtocol

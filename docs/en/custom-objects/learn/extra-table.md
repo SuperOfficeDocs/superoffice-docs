@@ -10,6 +10,9 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+redirect_from:
+  - /en/custom-objects/extra-table/index
+  - /en/custom-objects/learn/extra-table/index
 ---
 
 # Third-party tables

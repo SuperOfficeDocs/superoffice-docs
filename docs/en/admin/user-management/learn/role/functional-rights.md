@@ -10,6 +10,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/admin/user-preferences/reference/cripple
 ---
 
 # Functional rights in SuperOffice

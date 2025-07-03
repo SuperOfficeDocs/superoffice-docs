@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/diary/invitations
 ---
 
 # Invite your associates to a follow-up

@@ -8,6 +8,7 @@ date: 07.17.2024
 version: 10.3
 content_type: reference
 language: en
+redirect_from: /en/document/templates/index
 ---
 
 # Template variable reference

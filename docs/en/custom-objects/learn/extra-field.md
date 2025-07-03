@@ -10,6 +10,7 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+redirect_from: /en/custom-objects/extra-field/index
 ---
 
 # Extra fields

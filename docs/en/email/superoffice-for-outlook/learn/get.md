@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/email/superoffice-for-outlook/deploy-office-add-in
 ---
 
 # Get the add-in

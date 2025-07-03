@@ -10,6 +10,7 @@ content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/sale/saint/learn/status-dialog
 ---
 
 # The View statuses dialog
