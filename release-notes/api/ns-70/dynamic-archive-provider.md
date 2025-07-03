@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-dynamic-archive-provider
 title: Dynamic archive provider
-uid: whats_new_70_dynamic_archive_provider
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
+version: 7.0
 content_type: release-note
+category: api
 ---
 
 # Dynamic archive provider
@@ -19,7 +21,7 @@ string[] archiveColumns = new string[] {
   "contact.name", "contact.department" };
 ```
 
-Fetching the name of the contact’s business (MDO List item) is done by traversing the `business_idx` field on contact:
+Fetching the name of the contact's business (MDO List item) is done by traversing the `business_idx` field on contact:
 
 ```csharp
 string[] archiveColumns = new string[] {
@@ -27,7 +29,7 @@ string[] archiveColumns = new string[] {
 };
 ```
 
-Fetching the contact’s associate’s person’s name:
+Fetching the contact's associate's person's name:
 
 ```csharp
 string[] archiveColumns = new string[] {

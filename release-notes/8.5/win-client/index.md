@@ -31,7 +31,7 @@ There will always be some differences between the Windows client and Web client.
 * [Time zone – Guide for Sales and Project and preview on side panel show your own time zone (8.5 R17)][17]
 * [Time zone – Configure the Activities archive to show time zone as a column (8.5 R17)][17]
 * [Preferences dialog – with Apply now button (8.5 R17)][17]
-* [Add to… dialog – A find button when adding members to Project and Sale (8.5 R17)][17]
+* [Add to... dialog – A find button when adding members to Project and Sale (8.5 R17)][17]
 
 <!-- Referenced links-->
 [1]: 8.5-R01-update.md

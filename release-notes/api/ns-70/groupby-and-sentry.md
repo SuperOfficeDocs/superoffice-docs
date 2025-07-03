@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-groupby-and-sentry
 title: GroupBy and Sentry
-uid: whats_new_70_groupby_and_sentry
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
+version: 7.0
 content_type: release-note
+category: api
 ---
 
 # GroupBy and Sentry
@@ -28,7 +30,7 @@ WHERE DATEPART(year, T0."do_by") = 2010
 
 Now that the SQL is predictable, GROUP BY can be used
 
-**Conclusion:** GROUP BY and Sentry don’t mix!
+**Conclusion:** GROUP BY and Sentry don't mix!
 
 > [!TIP]
 > Any fields added by Sentry are always at the end.

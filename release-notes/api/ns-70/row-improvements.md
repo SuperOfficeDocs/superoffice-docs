@@ -1,20 +1,22 @@
----
+﻿---
+uid: whats-new-70-rows
 title: Row improvements
-uid: whats_new_70_rows
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
+version: 7.0
 content_type: release-note
+category: api
 ---
 
 # Row improvements
 
 ## Get functions
 
-For each unique index, we generate a .GetFromIdx( … ) method on the Row.
+For each unique index, we generate a .GetFromIdx( ... ) method on the Row.
 
-For each non-unique index, we generate a .GetFromIdx( … ) on the Rows collection.
+For each non-unique index, we generate a .GetFromIdx( ... ) on the Rows collection.
 
 Use them if you can, the indexes guarantee a quick lookup.
 

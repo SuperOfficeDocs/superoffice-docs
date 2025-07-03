@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-osql
 title: OSQL meets Sentry
-uid: whats_new_70_osql
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
+version: 7.0
 content_type: release-note
+category: api
 ---
 
 # OSQL meets Sentry

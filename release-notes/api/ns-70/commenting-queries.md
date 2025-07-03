@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-newselect
 title: NewSelect
-uid: whats_new_70_newselect
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
+version: 7.0
 content_type: release-note
+category: api
 ---
 
 # NetServer 7.0
@@ -13,7 +15,7 @@ content_type: release-note
 The code says
 
 ```SQL
-Select q = S.NewSelect(”comment”);
+Select q = S.NewSelect("comment");
 ```
 
 The generated SQL will start with
