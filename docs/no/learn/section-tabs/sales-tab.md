@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/company/learn/screen/sales-tab
+  - /no/contact/learn/screen/sales-tab
+  - /no/diary/learn/screen/sales-tab
+  - /no/project/learn/screen/sale
 ---
 
 # Salgsfanen

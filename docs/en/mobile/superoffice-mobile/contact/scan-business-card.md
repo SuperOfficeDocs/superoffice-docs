@@ -13,6 +13,7 @@ redirect_from:
   - /en/mobile/superoffice-mobile/company-contact/scan-business-card
   - /de/mobile/superoffice-mobile/scan-business-card
   - /da/mobile/superoffice-mobile/scan-business-card
+  - /no/mobile/superoffice-mobile/scan-business-card
 ---
 
 # Scan a business card

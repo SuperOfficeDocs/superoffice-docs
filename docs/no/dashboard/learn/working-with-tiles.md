@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/dashboard/learn/add-tile
+  - /no/dashboard/learn/edit-tile
+  - /no/dashboard/learn/remove-tile
 ---
 
 # Arbeide med figurer

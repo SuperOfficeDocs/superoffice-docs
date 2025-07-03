@@ -10,6 +10,7 @@ content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/sale/saint/learn/status-dialog
 ---
 
 # Dialogboksen Vis statuser

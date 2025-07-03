@@ -10,6 +10,11 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/search-options/selection/learn/combined-selections
+  - /no/search-options/selection/learn/dynamic-selections
+  - /no/search-options/selection/learn/static-selections
+  - /no/search-options/selection/learn/screen/index
 ---
 
 # Utvalg

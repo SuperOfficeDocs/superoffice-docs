@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/custom-objects/learn/extra-field/create
 ---
 
 # Legge til ekstrafelt

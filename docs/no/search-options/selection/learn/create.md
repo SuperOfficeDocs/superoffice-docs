@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/sale/saint/learn/using-status-monitors-in-dynamic-selections
+  - /no/search-options/selection/learn/create/copy
+  - /no/search-options/selection/learn/create/index
+  - /no/search-options/selection/learn/create/tutorial
 ---
 
 # Opprett utvalg

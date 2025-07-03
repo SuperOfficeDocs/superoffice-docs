@@ -11,6 +11,10 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/email/inbox/learn/mark-as-read
+  - /no/email/inbox/learn/move-email-to-folder
+  - /no/email/inbox/learn/print
 ---
 
 # Vise e-postmeldinger

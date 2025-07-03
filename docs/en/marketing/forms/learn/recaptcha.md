@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Marketing
 redirect_from:
   - /de/marketing/forms/learn/recaptcha
   - /da/marketing/forms/learn/recaptcha
+  - /no/marketing/forms/learn/recaptcha
 ---
 
 # Google reCAPTCHA in Forms

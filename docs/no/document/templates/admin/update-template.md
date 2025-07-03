@@ -10,6 +10,9 @@ content_type: howto
 language: no
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from:
+  - /no/admin/lists/learn/replace-existing-template
+  - /no/admin/lists/learn/using-standard-templates
 ---
 
 # Redigere mal

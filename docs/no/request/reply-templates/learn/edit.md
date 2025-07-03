@@ -12,6 +12,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
+redirect_from: /no/request/reply-templates/learn/delete
 ---
 
 # Rediger eller slett svarmaler

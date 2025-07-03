@@ -11,6 +11,9 @@ license: salespremium
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+redirect_from:
+  - /no/sale/learn/sales-guide/deactivate
+  - /no/sale/learn/sales-guide/edit
 ---
 
 # Redigere eller deaktivere en salgsguide

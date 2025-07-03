@@ -8,6 +8,7 @@ date: 07.31.2024
 version: 10
 content_type: howto
 language: no
+redirect_from: /no/admin/lists/learn/creating-template-document
 ---
 
 # Opprette et maldokument

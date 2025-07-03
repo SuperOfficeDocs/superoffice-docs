@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/quote/learn/create-order
 ---
 
 # Registrere ordre

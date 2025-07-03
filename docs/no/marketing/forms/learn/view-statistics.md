@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
+redirect_from: /no/marketing/forms/learn/submissions/track
 ---
 
 # Spore skjemainnsendinger og vise statistikk

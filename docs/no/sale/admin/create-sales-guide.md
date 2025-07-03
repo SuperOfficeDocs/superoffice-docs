@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+redirect_from: /no/sale/learn/sales-guide/create
 ---
 
 # Opprette en ny salgsguide

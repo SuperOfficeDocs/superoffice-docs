@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
+redirect_from: /no/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Legge til sporede koblinger i meldinger

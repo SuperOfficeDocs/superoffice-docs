@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/company/learn/screen/requests-tab
+  - /no/contact/learn/screen/requests-tab
 ---
 
 # Saksfanen

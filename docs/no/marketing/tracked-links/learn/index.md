@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
+redirect_from: /no/marketing/tracked-links/learn/examples
 ---
 
 # Sporede koblinger

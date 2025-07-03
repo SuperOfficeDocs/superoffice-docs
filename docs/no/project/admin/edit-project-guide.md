@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+redirect_from:
+  - /no/project/learn/project-guide/deactivate
+  - /no/project/learn/project-guide/edit
 ---
 
 # Rediger eller deaktiver prosjektguide

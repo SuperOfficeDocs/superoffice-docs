@@ -10,6 +10,7 @@ content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/custom-objects/learn/udef/index
 ---
 
 # Brukerdefinerte felt

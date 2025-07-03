@@ -11,6 +11,10 @@ license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/sale/learn/stages
+  - /no/sale/learn/use-side-panel
+  - /no/sale/learn/screen/index
 ---
 
 # Salg
