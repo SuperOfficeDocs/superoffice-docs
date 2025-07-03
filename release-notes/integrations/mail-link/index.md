@@ -12,6 +12,8 @@ topic: Mail Link
 platform: outlook
 audience: person
 audience_tooltip: SuperOffice CRM
+redirect_from: 
+  - /release-notes/8.5/office-integrations/
 ---
 
 # What's new in SuperOffice Mail Link

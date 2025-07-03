@@ -12,6 +12,16 @@ topic: outlook
 platform: outlook
 audience: person
 audience_tooltip: SuperOffice CRM
+redirect_from: 
+  - /release-notes/10.5/office-integrations/
+  - /release-notes/10.0/office-integrations/
+  - /release-notes/10.0/office-integrations/10.0.6-update
+  - /release-notes/9.2/office-integrations/
+  - /release-notes/9.2/office-integrations/2.5-update
+  - /release-notes/9.2/office-integrations/2.4-update
+  - /release-notes/9.2/office-integrations/2.5-update
+  - /release-notes/9.1/office-integrations/
+  - /release-notes/9.1/office-integrations/9.1-R01-update
 ---
 
 # What's new in SuperOffice for Outlook
