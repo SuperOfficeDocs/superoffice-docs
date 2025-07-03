@@ -14,6 +14,7 @@ language: no
 redirect_from:
   - /no/sale/learn/sales-guide/deactivate
   - /no/sale/learn/sales-guide/edit
+index: true
 ---
 
 # Redigere eller deaktivere en salgsguide

@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/sale/saint/learn/admin/edit-status
+index: true
 ---
 
 # Een statusbeschrijving bewerken

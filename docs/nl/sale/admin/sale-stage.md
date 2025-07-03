@@ -13,6 +13,7 @@ language: nl
 redirect_from:
   - /nl/admin/lists/learn/sale-stage
   - /nl/sale/learn/screen/sale-stage
+index: true
 ---
 
 # Een verkoopfase toevoegen

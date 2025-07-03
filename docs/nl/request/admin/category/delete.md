@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/request/learn/category/delete
+index: true
 ---
 
 # Verzoekcategorie verwijderen

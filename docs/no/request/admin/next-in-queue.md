@@ -11,6 +11,7 @@ audience: person
 audience_tooltip: SuperOffice Service
 language: no
 redirect_from: /no/request/learn/next-in-queue
+index: true
 ---
 
 # Slik setter du opp Hent neste sak i køen

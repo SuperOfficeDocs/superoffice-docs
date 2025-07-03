@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/project/learn/project-guide/deactivate
   - /da/project/learn/project-guide/edit
+index: true
 ---
 
 # Rediger eller deaktiver en projektguide

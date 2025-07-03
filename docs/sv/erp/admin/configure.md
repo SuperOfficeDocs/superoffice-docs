@@ -17,6 +17,7 @@ redirect_from:
   - /sv/quote/learn/admin/sync/sync-configure-list-mapping
   - /sv/quote/learn/admin/sync/sync-rank-fields-shown-in-erp-tab
   - /sv/quote/learn/admin/sync/sync-set-sync-priority
+index: true
 ---
 
 

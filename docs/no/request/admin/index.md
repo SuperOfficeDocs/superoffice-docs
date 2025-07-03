@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from: /no/request/learn/admin/index
+index: true
 ---
 
 # Ulike innstillinger for Service

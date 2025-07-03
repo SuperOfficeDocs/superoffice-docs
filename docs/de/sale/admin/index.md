@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
+index: true
 ---
 
 # Verwaltung von Verkaufstypen, -stufen und -leitfäden

@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/custom-objects/learn/udef/add
+index: true
 ---
 
 # Legge til brukerdefinert felt

@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 redirect_from: /de/custom-objects/learn/extra-field/create
+index: true
 ---
 
 # Zusatzfelder hinzufügen

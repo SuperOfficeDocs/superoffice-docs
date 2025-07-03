@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/quote/learn/admin/product/configure
+index: true
 ---
 
 # Konfigurer felter i Legg til/rediger produkt-dialogen

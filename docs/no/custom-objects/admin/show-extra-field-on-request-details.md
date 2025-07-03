@@ -9,6 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+index: true
 ---
 
 # Vis ekstrafelt i fanen Detaljer

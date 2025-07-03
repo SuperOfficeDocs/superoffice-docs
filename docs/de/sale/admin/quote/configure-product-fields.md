@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 redirect_from: /de/quote/learn/admin/product/configure
+index: true
 ---
 
 # Felder im Dialogfeld Produkt hinzufügen/bearbeiten konfigurieren

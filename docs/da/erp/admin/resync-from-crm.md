@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 redirect_from: /da/quote/learn/admin/sync/sync-resync-from-crm
+index: true
 ---
 
 # Synkronisere fra CRM igen

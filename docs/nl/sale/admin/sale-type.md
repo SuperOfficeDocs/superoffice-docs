@@ -14,6 +14,7 @@ language: nl
 redirect_from:
   - /nl/admin/lists/learn/sale-type
   - /nl/sale/learn/screen/sales-type-for-stages
+index: true
 ---
 
 # Verkooptype toevoegen

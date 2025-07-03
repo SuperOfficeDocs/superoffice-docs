@@ -11,6 +11,7 @@ audience: person
 audience_tooltip: SuperOffice Service
 language: de
 redirect_from: /de/request/learn/next-in-queue
+index: true
 ---
 
 # So richten Sie "Nächste Anfrage in der Warteschlange anzeigen" ein

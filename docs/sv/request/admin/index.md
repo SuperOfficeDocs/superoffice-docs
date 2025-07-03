@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/request/learn/admin/index
+index: true
 ---
 
 # Olika inställningar för Service

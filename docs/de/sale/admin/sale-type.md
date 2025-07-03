@@ -14,6 +14,7 @@ language: de
 redirect_from:
   - /de/admin/lists/learn/sale-type
   - /de/sale/learn/screen/sales-type-for-stages
+index: true
 ---
 
 # Verkaufstyp

@@ -5,6 +5,7 @@ description: Can I use my domain for federated sign-in?
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
+index: true
 ---
 
 # Can I use my domain for federated sign-in?

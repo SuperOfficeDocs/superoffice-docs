@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
 redirect_from: /nl/quote/learn/admin/sync/sync-edit-erp-connection
+index: true
 ---
 
 # ERP-verbinding bewerken

@@ -17,6 +17,7 @@ redirect_from:
   - /sv/quote/learn/admin/product/index
   - /sv/quote/learn/admin/product/quote-delete-deactivate-price-list-or-product
   - /sv/quote/learn/admin/product/select-product-image
+index: true
 ---
 
 # Hantera prislistor och produkter

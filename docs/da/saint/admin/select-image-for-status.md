@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 redirect_from: /da/sale/saint/learn/admin/select-image-for-status
+index: true
 ---
 
 # Valg af billede til status

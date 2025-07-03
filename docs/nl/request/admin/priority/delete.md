@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and Maintenance
 language: nl
 redirect_from: /nl/request/learn/priority/delete
+index: true
 ---
 
 # Verzoekprioriteit verwijderen

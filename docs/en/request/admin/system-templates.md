@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from: /en/request/learn/screen/system-templates
+index: true
 ---
 
 # System templates settings

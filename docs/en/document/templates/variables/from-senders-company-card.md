@@ -6,7 +6,8 @@ keywords: template variable, sender, company, organisation, organization
 author: Bergfrid Dias
 date: 07.17.2024
 version: 10.3
-content_type: reference
+content_type: r
+index: trueeference
 language: en
 ---
 

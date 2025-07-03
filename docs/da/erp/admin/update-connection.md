@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 redirect_from: /da/quote/learn/admin/sync/sync-edit-erp-connection
+index: true
 ---
 
 # Rediger ERP-link

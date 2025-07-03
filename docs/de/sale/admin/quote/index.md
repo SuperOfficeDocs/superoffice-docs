@@ -15,6 +15,7 @@ redirect_from:
   - /de/quote/learn/admin/index
   - /de/quote/learn/admin/quotesync-tab-erp-connections
   - /de/quote/learn/admin/quotesync-tab-settings
+index: true
 ---
 
 # Angebot und Auftrag einrichten

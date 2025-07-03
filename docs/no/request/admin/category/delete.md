@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
 redirect_from: /no/request/learn/category/delete
+index: true
 ---
 
 # Slett sakskategori

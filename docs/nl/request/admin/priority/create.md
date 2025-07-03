@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/request/learn/priority/create
+index: true
 ---
 
 # Verzoekprioriteit maken

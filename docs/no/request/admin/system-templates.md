@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
 redirect_from: /no/request/learn/screen/system-templates
+index: true
 ---
 
 # Innstillinger for systemmaler
