@@ -11,6 +11,10 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from:
+  - /en/quote/learn/admin/index
+  - /en/quote/learn/admin/quotesync-tab-erp-connections
+  - /en/quote/learn/admin/quotesync-tab-settings
 ---
 
 # Manage quote and order setup
