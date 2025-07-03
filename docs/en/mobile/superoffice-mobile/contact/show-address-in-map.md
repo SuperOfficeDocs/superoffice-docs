@@ -9,6 +9,7 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
+redirect-from: /en/mobile/superoffice-mobile/company-contact/show-address-in-map
 ---
 
 # Show address in map
