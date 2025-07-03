@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/quote/learn/index
+  - /de/quote/learn/quote-tab
+  - /de/sale/learn/screen/quote-tab
 ---
 
 # Mit Angeboten arbeiten

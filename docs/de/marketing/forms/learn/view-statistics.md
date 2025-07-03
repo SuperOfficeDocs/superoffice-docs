@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
+redirect_from: /de/marketing/forms/learn/submissions/track
 ---
 
 # Formularübermittlungen überwachen und Statistiken anzeigen

@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/company/learn/screen/activities-tab
+  - /de/contact/learn/screen/activities-tab
+  - /de/diary/learn/screen/activities-tab
+  - /de/project/learn/screen/activities-project
+  - /de/sale/learn/screen/activities-sale
 ---
 
 # Bereichsregisterkarte Aktivitäten

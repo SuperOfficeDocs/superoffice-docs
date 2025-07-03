@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/company/learn/print
+  - /de/contact/learn/print
+  - /de/diary/learn/print
 ---
 
 # Drucken von Datensätzen in SuperOffice CRM

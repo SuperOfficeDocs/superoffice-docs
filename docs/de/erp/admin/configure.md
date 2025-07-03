@@ -11,6 +11,12 @@ license: development-tools
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
+redirect_from:
+  - /de/quote/learn/admin/sync/sync-configure-default-values
+  - /de/quote/learn/admin/sync/sync-configure-field-allocation
+  - /de/quote/learn/admin/sync/sync-configure-list-mapping
+  - /de/quote/learn/admin/sync/sync-rank-fields-shown-in-erp-tab
+  - /de/quote/learn/admin/sync/sync-set-sync-priority
 ---
 
 # ERP-Verbindung konfigurieren

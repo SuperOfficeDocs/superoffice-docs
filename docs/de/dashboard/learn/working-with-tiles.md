@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/dashboard/learn/add-tile
+  - /de/dashboard/learn/edit-tile
+  - /de/dashboard/learn/remove-tile
 ---
 
 # Arbeiten mit Kacheln

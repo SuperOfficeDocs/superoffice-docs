@@ -11,6 +11,10 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/project/learn/project-guide/index
+  - /de/project/learn/project-guide/project-guide-tab
+  - /de/project/learn/project-guide/view-followups-and-documents
 ---
 
 # Projektleitfäden

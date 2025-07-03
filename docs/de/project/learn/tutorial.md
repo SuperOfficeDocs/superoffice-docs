@@ -11,6 +11,7 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/project/learn/project-guide/working-with
 ---
 
 # Projektleitfaden-Tutorial

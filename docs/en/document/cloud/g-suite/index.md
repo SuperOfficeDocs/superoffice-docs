@@ -5,6 +5,7 @@ description: Google Workspace document integration
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+redirect_from: /de/document/cloud/g-suite/learn/index
 ---
 
 # Google Workspace document integration

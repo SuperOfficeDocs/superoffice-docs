@@ -10,6 +10,7 @@ content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/sale/saint/learn/status-dialog
 ---
 
 # Dialogfeld Statuskontrollen anzeigen

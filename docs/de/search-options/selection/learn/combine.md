@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/search-options/selection/learn/create/combine
 ---
 
 # Kombinierte Selektion erstellen

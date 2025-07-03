@@ -10,6 +10,7 @@ content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /de/marketing/forms/learn/recaptcha
 ---
 
 # Google reCAPTCHA in Forms

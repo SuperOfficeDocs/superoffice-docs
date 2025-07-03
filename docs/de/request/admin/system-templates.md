@@ -11,6 +11,7 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
+redirect_from: /de/request/learn/screen/system-templates
 ---
 
 
