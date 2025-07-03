@@ -14,6 +14,8 @@ redirect_from:
   - /en/contact/learn/screen/activities-tab
   - /en/company/learn/screen/activities-tab
   - /en/sale/learn/screen/activities-sale
+  - /en/project/learn/screen/activities-project
+  - /en/diary/learn/screen/activities-tab
 ---
 
 # Activities tab

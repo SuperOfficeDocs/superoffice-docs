@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/project/learn/screen/project-members-tab
 ---
 
 # Project members
