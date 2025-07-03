@@ -6,6 +6,7 @@ keywords: diary, calendar, follow-up
 author: Bergfrid Skaara Dias
 date: 03.21.2022
 content_type: tutorial
+redirect_from: /en/diary/tutorials/index
 ---
 
 # Tutorials

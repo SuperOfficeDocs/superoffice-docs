@@ -8,6 +8,7 @@ keywords: udef, user-defined field, custom field, API, FindAgent, GetSpecifiedCr
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/custom-objects/udef/howto/services/find-contact-by-udef
 ---
 
 # Find a contact using a udef field

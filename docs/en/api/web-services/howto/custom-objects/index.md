@@ -9,7 +9,9 @@ version: 10
 content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/api/custom-objects/index
+redirect_from:
+  - /en/api/custom-objects/index
+  - /en/custom-objects/udef/howto/services/index
 ---
 
 # Introduction to custom objects and fields

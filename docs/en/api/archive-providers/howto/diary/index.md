@@ -6,6 +6,9 @@ keywords: diary, calendar, appointment, API, archive, invitation
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: reference
+redirect_from:
+  - /en/diary/howto/archive/index
+  - /en/diary/howto/archive/invitation-archive
 ---
 
 # Diary - archive

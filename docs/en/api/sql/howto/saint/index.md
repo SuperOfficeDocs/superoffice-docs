@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 06.09.2023
 version: 10
 content_type: concept
+redirect_from: /en/sale/saint/howto/sql/index
 ---
 
 # SAINT - raw SQL

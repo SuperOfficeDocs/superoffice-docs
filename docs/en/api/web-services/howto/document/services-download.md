@@ -11,6 +11,7 @@ audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document
 area: api-services
+redirect_from: /en/document/howto/services/download
 ---
 
 # How to download a new document

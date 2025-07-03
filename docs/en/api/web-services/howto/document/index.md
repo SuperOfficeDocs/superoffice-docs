@@ -9,6 +9,11 @@ version: 10
 content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from:
+  - /en/document/howto/index
+  - /en/document/howto/agents-web-api/index
+  - /en/document/howto/rest/index
+  - /en/document/howto/services/index
 ---
 
 # Document API options

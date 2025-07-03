@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, entity, ParticipantInfo, AddPartici
 author: Bergfrid Skaara Dias
 date: 03.04.2022
 content_type: howto
+redirect_from: /en/diary/howto/entity/create-invitation-entity
 ---
 
 # How to create an invitation (data layer)

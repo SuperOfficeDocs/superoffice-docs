@@ -7,6 +7,7 @@ date: 03.21.2022
 version: 10
 content_type: tutorial
 language: en
+redirect_from: /en/diary/tutorials/rss-feed-vb/index
 ---
 
 # Tutorial - generate RSS feed in VB.Net
