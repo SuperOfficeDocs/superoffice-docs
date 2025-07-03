@@ -14,6 +14,7 @@ redirect_from:
   - /de/marketing/forms/learn/recaptcha
   - /da/marketing/forms/learn/recaptcha
   - /no/marketing/forms/learn/recaptcha
+  - /sv/marketing/forms/learn/recaptcha
 ---
 
 # Google reCAPTCHA in Forms

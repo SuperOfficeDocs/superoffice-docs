@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/diary/learn/invitation/add-participant
 ---
 
 # Lägg till deltagare och resurser i bokningar

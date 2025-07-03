@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
+redirect_from: /sv/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Lägga till spårade länkar i meddelandet

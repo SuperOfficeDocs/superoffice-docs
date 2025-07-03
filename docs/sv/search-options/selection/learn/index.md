@@ -10,6 +10,11 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/search-options/selection/learn/combined-selections
+  - /sv/search-options/selection/learn/dynamic-selections
+  - /sv/search-options/selection/learn/static-selections
+  - /sv/search-options/selection/learn/screen/index
 ---
 
 # Urval

@@ -11,6 +11,9 @@ license: salesessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from:
+  - /sv/admin/lists/learn/sale-type
+  - /sv/sale/learn/screen/sales-type-for-stages
 ---
 
 # Försäljningstyp

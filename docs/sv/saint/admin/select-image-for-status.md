@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/sale/saint/learn/admin/select-image-for-status
 ---
 
 # Välja bild för status

@@ -11,6 +11,9 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/document/learn/upload
+  - /sv/document/learn/screen/index
 ---
 
 # Skapa nya dokument

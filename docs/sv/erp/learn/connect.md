@@ -11,6 +11,9 @@ license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/admin/erp/learn/erp-connect
+  - /sv/admin/erp/learn/erp-create-new-actor
 ---
 
 # Koppla till ERP

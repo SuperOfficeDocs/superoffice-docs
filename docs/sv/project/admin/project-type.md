@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
+redirect_from:
+  - /sv/admin/lists/learn/project-type
+  - /sv/project/learn/screen/project-type-admin
 ---
 
 # Projekttyp

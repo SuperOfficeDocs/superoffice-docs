@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/quote/learn/admin/sync/sync-import-from-erp
 ---
 
 # Importera från ERP

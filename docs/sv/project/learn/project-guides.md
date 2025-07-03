@@ -11,6 +11,10 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/project/learn/project-guide/index
+  - /sv/project/learn/project-guide/project-guide-tab
+  - /sv/project/learn/project-guide/view-followups-and-documents
 ---
 
 # Projektguider

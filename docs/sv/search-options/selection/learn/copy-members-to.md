@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/search-options/selection/learn/update/copy-members-to
 ---
 
 # Kopiera till urval

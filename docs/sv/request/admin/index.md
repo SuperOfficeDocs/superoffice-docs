@@ -10,6 +10,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/request/learn/admin/index
 ---
 
 # Olika inställningar för Service

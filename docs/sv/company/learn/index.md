@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/company/learn/screen/index
 ---
 
 # Företag

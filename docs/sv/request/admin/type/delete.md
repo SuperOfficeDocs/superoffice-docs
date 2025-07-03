@@ -11,6 +11,7 @@ license: servicepremium
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
+redirect_from: /sv/request/learn/type/delete
 ---
 
 # Ta bort ärendetyp

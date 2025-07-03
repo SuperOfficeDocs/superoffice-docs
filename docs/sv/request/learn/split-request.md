@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+redirect_from: /sv/request/learn/howto/split-request
 ---
 
 # Dela ett ärende

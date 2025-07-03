@@ -9,6 +9,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/request/learn/priority/index
 ---
 
 # Ärendeprioriteter

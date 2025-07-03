@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
+redirect_from: /sv/marketing/forms/learn/submissions/track
 ---
 
 # Spåra formulärinlämningar och visa statistik
