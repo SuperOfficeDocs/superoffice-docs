@@ -11,6 +11,7 @@ license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/sale/learn/delete
 ---
 
 # Een verkoop bijwerken

@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/company/learn/screen/activities-tab
+  - /nl/contact/learn/screen/activities-tab
+  - /nl/diary/learn/screen/activities-tab
+  - /nl/project/learn/screen/activities-project
+  - /nl/sale/learn/screen/activities-sale
 ---
 
 # Sectietabblad Activiteiten

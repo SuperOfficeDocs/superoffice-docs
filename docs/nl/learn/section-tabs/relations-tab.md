@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/company/learn/screen/relations-tab
+  - /nl/contact/learn/screen/relations-tab
 ---
 
 # Sectietabblad Relaties

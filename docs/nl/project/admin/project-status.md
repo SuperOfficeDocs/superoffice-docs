@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+redirect_from:
+  - /nl/admin/lists/learn/project-status
+  - /nl/project/learn/screen/project-status-admin
 ---
 
 # Projectstatus

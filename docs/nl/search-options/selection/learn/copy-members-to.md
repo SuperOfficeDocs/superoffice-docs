@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/search-options/selection/learn/update/copy-members-to
 ---
 
 # Kopiëren naar selecties

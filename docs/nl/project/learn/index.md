@@ -11,6 +11,7 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/project/learn/screen/index
 ---
 
 # Project

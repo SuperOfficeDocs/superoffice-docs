@@ -10,6 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from:
+  - /nl/marketing/forms/learn/examples
+  - /nl/marketing/forms/learn/view
+  - /nl/marketing/forms/learn/submissions/index
 ---
 
 # Werken met formulieren

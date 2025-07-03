@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/search-options/selection/learn/update/add-remove-members-static
 ---
 
 # Leden toevoegen en verwijderen in statische selecties

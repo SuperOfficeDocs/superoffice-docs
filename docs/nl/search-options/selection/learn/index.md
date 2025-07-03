@@ -10,6 +10,11 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/search-options/selection/learn/combined-selections
+  - /nl/search-options/selection/learn/dynamic-selections
+  - /nl/search-options/selection/learn/static-selections
+  - /nl/search-options/selection/learn/screen/index
 ---
 
 # Selectie

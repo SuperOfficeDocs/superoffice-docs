@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from: /nl/marketing/tracked-links/learn/examples
 ---
 
 # Gevolgde links

@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/diary/learn/invitation/add-participant
 ---
 
 # Deelnemers en bronnen toevoegen aan afspraken

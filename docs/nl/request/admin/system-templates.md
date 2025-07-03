@@ -10,6 +10,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from: /nl/request/learn/screen/system-templates
 ---
 
 # Instellingen systeemsjablonen

@@ -11,6 +11,10 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/quote/learn/admin/index
+  - /nl/quote/learn/admin/quotesync-tab-erp-connections
+  - /nl/quote/learn/admin/quotesync-tab-settings
 ---
 
 # Offertes en orders configureren

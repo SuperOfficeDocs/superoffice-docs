@@ -8,6 +8,7 @@ date: 07.16.2024
 version: 10.3
 content_type: concept
 language: nl
+redirect_from: /nl/admin/lists/learn/document-template
 ---
 
 # Documentsjabloon

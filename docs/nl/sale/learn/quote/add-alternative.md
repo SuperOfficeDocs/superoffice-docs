@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/quote/learn/add-alternative
 ---
 
 # Alternatieven toevoegen aan een offerte

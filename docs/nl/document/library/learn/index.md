@@ -8,6 +8,11 @@ date: 08.02.2024
 version: 10.3
 content_type: concept
 language: nl
+redirect_from:
+  - /nl/admin/preferences/learn/document-library/change-to-sharepoint
+  - /nl/admin/preferences/learn/document-library/index
+  - /nl/document/cloud/sharepoint-documents/learn/index
+  - /nl/document/cloud/sharepoint-documents/learn/set-up-folders
 ---
 
 # Documentbibliotheek

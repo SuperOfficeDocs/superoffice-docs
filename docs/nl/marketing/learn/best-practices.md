@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from: /nl/marketing/learn/customize-for-mobile
 ---
 
 # Beste praktijken

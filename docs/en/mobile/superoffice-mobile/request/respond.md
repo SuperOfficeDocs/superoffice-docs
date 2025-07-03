@@ -14,6 +14,7 @@ redirect_from:
   - /da/mobile/superoffice-mobile/reply-to-request
   - /no/mobile/superoffice-mobile/reply-to-request
   - /sv/mobile/superoffice-mobile/reply-to-request
+  - /nl/mobile/superoffice-mobile/reply-to-request
 ---
 
 # Respond to requests on your mobile device

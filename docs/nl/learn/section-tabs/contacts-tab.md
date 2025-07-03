@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/company/learn/screen/contacts-tab
 ---
 
 # Sectietabblad Personen

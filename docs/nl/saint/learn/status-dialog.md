@@ -10,6 +10,7 @@ content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/sale/saint/learn/status-dialog
 ---
 
 # Het dialoogvenster Statussen weergeven

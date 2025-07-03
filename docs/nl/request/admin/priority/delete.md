@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and Maintenance
 language: nl
+redirect_from: /nl/request/learn/priority/delete
 ---
 
 # Verzoekprioriteit verwijderen

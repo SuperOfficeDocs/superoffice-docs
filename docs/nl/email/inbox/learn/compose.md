@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/email/learn/compose
 ---
 
 # E-mail schrijven

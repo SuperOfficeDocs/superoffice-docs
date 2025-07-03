@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+redirect_from: /nl/request/learn/howto/close
 ---
 
 # Verzoeken sluiten

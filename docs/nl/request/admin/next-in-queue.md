@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+redirect_from: /nl/request/learn/next-in-queue
 ---
 
 # Hoe 'Volgende verzoek in wachtrij ophalen' instellen
