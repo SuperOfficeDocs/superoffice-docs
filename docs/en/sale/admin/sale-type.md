@@ -11,6 +11,7 @@ license: salesessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/sale/learn/screen/sales-type-for-stages
 ---
 
 # Sale type

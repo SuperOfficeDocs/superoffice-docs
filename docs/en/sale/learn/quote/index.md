@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/sale/learn/screen/quote-tab
 ---
 
 # Work with quotes

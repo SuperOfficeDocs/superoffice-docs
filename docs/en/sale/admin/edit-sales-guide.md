@@ -11,6 +11,9 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from:
+  - /en/sale/learn/sales-guide/deactivate
+  - /en/sale/learn/sales-guide/edit
 ---
 
 # Edit or deactivate a sales guide
