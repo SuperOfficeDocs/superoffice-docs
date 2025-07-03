@@ -7,7 +7,7 @@ author: Bergfrid Dias, Jeanette Small Strøm
 date: 10.29.2024
 version: 10.3
 content_type: release-note
-envir: online
+deployment: online
 language: en
 ---
 

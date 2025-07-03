@@ -1,14 +1,13 @@
 ---
-title: End of life - Future of SuperOffice.NetServer.Services package and SOAP web services
 uid: eol-soap
+title: End of life - Future of SuperOffice.NetServer.Services package and SOAP web services
 description: An important update regarding our SOAP support (SuperOffice.NetServer.Services package and SOAP web services)
+keywords: SuperOffice.NetServer.Services, SOAP, EOL
 author: Tony Yates
 date: 12.13.2023
-keywords: SuperOffice.NetServer.Services, SOAP, EOL
 content_type: release-note
-version:
+deployment: onsite
 language: en
-envir: onsite
 ---
 
 # Future of SuperOffice.NetServer.Services package and SOAP web services
