@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.2.841_changes
-date: 2/26/2024
+date: 02.26.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.1.759 and v10.3.2.841
 
 ## Web Services
@@ -26,7 +27,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Method `GetFlattenedListFull(ICollection<SelectableMDOListItem>)`
-
 
 ## NetServer Core
 
@@ -53,6 +53,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ##### SuperOffice.Configuration.ConfigFile.CRMScript2 is Deleted
 
 ##### SuperOffice.Configuration.ConfigFile.CRMScript2Section is Deleted
+
 * New items
 
 ##### SuperOffice.Configuration.ConfigFile.SoJavaScript is New
@@ -70,12 +71,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.IconHintsFlows`
   * Field `.IconHintsMain`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes is Modified
 
 * New items
   * Field `.RestrictionTypesStringOrPkListAny`
-
 
 #### SuperOffice.Data.WorkflowSplitOptionType is Modified
 
@@ -125,7 +124,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_WORKFLOWS_DROP_HERE`
   * Field `SR_WORKFLOWS_EXPAND_FLOW`
   * Field `SR_WORKFLOWS_USE_THIS_EMAIL`
-
 
 ### Assembly: SoDatabase
 
@@ -241,12 +239,9 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.ArchiveColumnsProviderBase is Modified
 
-
 #### SuperOffice.CRM.Lists.ExtraTableDropdownProvider is Modified
 
-
 #### SuperOffice.CRM.Lists.MergeTagsProvider is Modified
-
 
 #### SuperOffice.CRM.Rows.FreeTextIndexRows is Modified
 
@@ -271,7 +266,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Modified items
   * Method `SoDatabase()`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -289,6 +283,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `FormData`
-
-
-

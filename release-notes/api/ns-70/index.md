@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70
 title: NetServer 7 enhancements
-uid: whats_new_70
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS â€“ Product and engineering
 date: 11.05.2016
-keywords:
-topic: reference
+version: 7.0
+content_type: release-note
+category: api
 ---
 
 # NetServer 7 enhancements

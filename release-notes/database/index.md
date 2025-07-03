@@ -1,10 +1,11 @@
 ---
+uid: whats-new-db
 title: What's new
-uid: whats_new_db
 description: What's new in the SuperOffice database
 author: SuperOffice Product and Engineering
-keywords: database
-topic: reference
+date: 06.17.2025
+content_type: release-note
+category: database
 ---
 
 # What's new in the SuperOffice database (legacy)

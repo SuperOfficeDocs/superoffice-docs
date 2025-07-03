@@ -1,7 +1,12 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-api-10.0
+title: API changes
+keywords: API changes
+author: SuperOffice AS – Product and Engineering
 date: 03.14.2022
 version: 10
+content_type: release-note
+category: api
 ---
 
 # API changes

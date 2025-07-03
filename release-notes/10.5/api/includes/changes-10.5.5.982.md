@@ -3,6 +3,7 @@ uid: version_10.5.5.982_changes
 date: 09.05.2025
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.5.4.867 and v10.5.5.982
 
 ## Web Services
@@ -64,7 +65,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `SetAsLostWithReason(Int32[], Int32)`
   * Method `SetAsSoldWithReason(Int32[], Int32)`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -86,7 +86,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.IconHintsAppointment_Busy`
   * Field `.IconHintsAppointment_Free`
-
 
 #### SuperOffice.CRM.FunctionRightStrings is Modified
 
@@ -152,7 +151,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `ExtractBodyFromHtml(String, Boolean)`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -166,12 +164,9 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase is Modified
 
-
 #### SuperOffice.CRM.ArchiveLists.SaleExtenderBase is Modified
 
-
 #### SuperOffice.CRM.ArchiveLists.TicketExtenderBase is Modified
-
 
 #### SuperOffice.CRM.ArchiveLists.TicketProvider is Modified
 
@@ -184,7 +179,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `CreateFileForAppending(String)`
 
 #### SuperOffice.CRM.Lists.AssociateMDOProviderBase is Modified
-
 
 #### SuperOffice.CRM.Ticket.TicketHelper is Modified
 
@@ -212,7 +206,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 ##### SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation is New
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -230,6 +223,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `TestMail`
-
-
-

@@ -1,6 +1,12 @@
 ---
-author: SuperOffice AS – Research and Development
-date: 04.28
+uid: news-api-9.2
+title: API changes in SuperOffice 9.2
+author: SuperOffice AS – Product and Engineering
+keywords: API changes
+date: 04.28.2021
+version: 9.2
+content_type: release-note
+category: api
 ---
 
 # API changes

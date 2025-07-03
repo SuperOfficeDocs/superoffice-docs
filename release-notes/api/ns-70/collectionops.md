@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-collectionops
 title: CollectionOps
-uid: whats_new_70_collectionops
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
-topic: reference
+version: 7.0
+content_type: release-note
+category: api
 ---
 
 # CollectionOps
@@ -34,7 +36,7 @@ Checks for contents, irrespective of order
 
 * `ConvertArray` applies a converter delegate to each element. But nowadays you can use LINQ to do that
 * `AddToArray` makes a new, longer array
-* Consider using `List<>;` but sometimes you’re stuck with arrays…
+* Consider using `List<>;` but sometimes you're stuck with arrays...
 
 ![ALT][img2]
 
@@ -52,7 +54,7 @@ This can be done quite smoothly:
 
 ## Dictionaries
 
-CreateDictionaryFromXXX( … ) – many overloads
+CreateDictionaryFromXXX( ... ) – many overloads
 
 * Take some kind of collection of items
 * Apply a delegate to each item, to extract/make a key
@@ -76,7 +78,7 @@ MiddleDelimiter will be dropped when relevant (empty items).
 
 ### How to build an error message
 
-Restrictions is an `ArchiveRestrionInfo[]`
+Restrictions is an `ArchiveRestrictionInfo[]`
 
 ![ALT][img5]
 

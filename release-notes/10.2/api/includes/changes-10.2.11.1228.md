@@ -1,8 +1,9 @@
 ---
 uid: version_10.2.11.1228_changes
-date: 12/13/2023
+date: 12.13.2023
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.2.10.1344 and v10.2.11.1228
 
 ## Web Services
@@ -67,7 +68,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `FieldValues`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -90,7 +90,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.SystemWebToolsDetectionTimeout`
-
 
 #### SuperOffice.Globalization.RC is Modified
 
@@ -160,7 +159,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `DirectoryGetFileInfos(String)`
   * Method `FileDelete(String)`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -200,7 +198,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.InvitationFieldsTemplateLanguage`
 
-
 ##### SuperOffice.CRM.Data.DBC.ScriptTraceFields is Modified
 
 * New items
@@ -210,7 +207,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.ScriptTraceFieldsNumNotifications`
   * Field `.ScriptTraceFieldsSumRuns`
   * Field `.ScriptTraceFieldsSumSize`
-
 
 #### SuperOffice.CRM.Data.InvitationTableInfo is Modified
 
@@ -331,7 +327,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], String)`
   * Method `GetSummaryAndDescription(AppointmentRow, String)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -360,6 +355,3 @@ The following represent changes to SuperOffice database schema.
   * Field `NumNotifications`
   * Field `SumRuns`
   * Field `SumSize`
-
-
-

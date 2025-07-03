@@ -1,9 +1,10 @@
 ---
 uid: version_10.2.6.1248_changes
-date: 6/16/2023
+date: 06.16.2023
 ---
 
-# Changes from v10.2.5.1175 and v10.2.6.1248
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.2.5.1175 and v10.2.6.1248
 
 ## Web Services
 
@@ -91,7 +92,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `ShipmentId`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -124,12 +124,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.CustomerServiceMailDomain`
 
-
 ##### SuperOffice.Configuration.ConfigFile.CustomerServiceSection is Modified
 
 * New items
   * Property `.CustomerServiceSectionMailDomain`
-
 
 #### SuperOffice.CRM.ArchiveLists.Constants is Modified
 
@@ -140,12 +138,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.IconHintsPreferenceSalesNotification`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.Options is Modified
 
 * New items
   * Field `.OptionsExistenceCheck`
-
 
 #### SuperOffice.CRM.FunctionRightStrings is Modified
 
@@ -161,7 +157,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.DiaryViewAlarmOnFollowUp`
-
 
 #### SuperOffice.Globalization.RC is Modified
 
@@ -269,7 +264,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetStringValue(XElement, String)`
 * New items
   * Method `GetStringValue2(XElement, String)`
-
 
 ### Assembly: SoDatabase
 
@@ -383,7 +377,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.AppointmentFieldsAgendaTextId`
   * Field `.AppointmentFieldsInternalNotesTextId`
-
 
 ##### SuperOffice.CRM.Data.DBC.TextFields is Modified
 
@@ -562,7 +555,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `GetEmailFlowContentLinkTableInfo()`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Deleted Types
@@ -598,6 +590,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `HtmlText`
-
-
-

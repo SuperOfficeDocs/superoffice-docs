@@ -3,6 +3,7 @@ uid: version_10.5.1.871_changes
 date: 29.01.2025
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.13.233 and v10.5.1.871
 
 ## Web Services
@@ -61,7 +62,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `DoEscalating(Int32, TicketPriorityEscalateAction)`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -86,13 +86,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.ExtraFieldAttribDisplayField`
 
-
 ##### SuperOffice.CRM.ArchiveLists.Constants.Options is Modified
 
 * New items
   * Field `.OptionsDisplayFieldName`
   * Field `.OptionsForceRecompile`
-
 
 #### SuperOffice.CRM.Services.IRequestArgumentsInfo is Modified
 
@@ -151,7 +149,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `SemanticVersion`
   * Method `BuildInfoAttribute(String, String, String, String, String)`
-
 
 ### Assembly: SoDatabase
 
@@ -242,11 +239,8 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Modified items
   * Method `HasEmarketingConsentAndSubscription(Int32, Int32, String&)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
 
 ### Assembly: SuperOffice.CD.DSL.Database
-
-

@@ -3,11 +3,12 @@ uid: release-notes-mobile-crm
 title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
-author: SuperOffice AS – Product and engineering
+author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
-version_mobile: 11.1
-topic: reference
-client: mobile
+version: 11.1
+content_type: release-note
+platform: mobile
+category: mobile
 audience: person
 audience_tooltip: SuperOffice Mobile CRM
 ---

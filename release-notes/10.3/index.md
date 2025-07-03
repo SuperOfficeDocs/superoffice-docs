@@ -2,11 +2,10 @@
 uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
-keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps, developer portal, learn, user guide,
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 02.11.2025
 version: 10.3
-topic: reference
+content_type: release-note
 ---
 
 # What's new in SuperOffice 10.3
@@ -201,5 +200,3 @@ See all the [new or updated apps][5]
 [51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
 [53]: https://help.superoffice.com/docs/10.3/en/learn/index.html
-
-<!-- Referenced images -->

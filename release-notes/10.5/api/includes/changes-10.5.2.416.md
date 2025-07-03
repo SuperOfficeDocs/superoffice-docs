@@ -3,9 +3,8 @@ uid: version_10.5.2.416_changes
 date: 14.02.2025
 ---
 
-## Changes from v10.5.2.332 and v10.5.2.416
-
----
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.5.2.332 and v10.5.2.416
 
 ## Web Services
 
@@ -41,7 +40,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 ##### SuperOffice.Util.ImageUtilities.VerticalAlignment is New
 
-
 ### Assembly: SoDatabase
 
 ### Modified Types
@@ -57,9 +55,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Deleted items
   * Method `GetPersonImage(Int32)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
-
-

@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.4.448_changes
-date: 4/2/2024
+date: 04.02.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024 MD013-->
 Changes from v10.3.3.610 and v10.3.4.448
 
 ## Web Services
@@ -52,7 +53,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `Description`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -93,7 +93,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.IconHintsFlowsparticipants`
-
 
 #### SuperOffice.Data.BlobLinkType is Modified
 
@@ -142,9 +141,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)`
 
 ##### SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType> is Modified
-
-
-
 
 ### Assembly: SoDatabase
 
@@ -231,7 +227,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.ExtraTablesFieldsIconId`
 
-
 ##### SuperOffice.CRM.Data.DBC.TicketTypeFields is Modified
 
 * New items
@@ -239,7 +234,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.TicketTypeFieldsExcludeSignature`
   * Field `.TicketTypeFieldsExternalAsDefault`
   * Field `.TicketTypeFieldsShowInNew`
-
 
 #### SuperOffice.CRM.Data.ExtraTablesTableInfo is Modified
 
@@ -327,7 +321,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `Count()`
-
 
 ## Continuous Database
 

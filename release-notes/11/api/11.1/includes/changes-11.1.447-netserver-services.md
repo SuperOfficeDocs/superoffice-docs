@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-file MD041 MD033 MD024-->
+<!-- markdownlint-disable-file MD041 MD033 MD024 MD013-->
 ## Web Services
 
 These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
@@ -4004,7 +4004,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * Modified items
   * Property `Type`
-
 
 ### Assembly: SuperOffice.Services.Implementation
 
@@ -9636,6 +9635,7 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `SaveStatusMonitor(StatusMonitor)`
 
 ##### SuperOffice.CRM.Services.Implementation.Util.StatusMonitorHelper.ProgressCallback is Deleted
+
 * New items
   * Method `GetActiveStatusMonitorAsync(Int32, TableInfo, CancellationToken)`
   * Method `GetActiveStatusMonitorIdAsync(Int32, TableInfo, CancellationToken)`

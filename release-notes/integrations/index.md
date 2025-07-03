@@ -5,7 +5,7 @@ description: Release notes. What's new in SuperOffice integrations
 keywords: integration, app
 author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
-topic: reference
+content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
 ---

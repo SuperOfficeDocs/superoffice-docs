@@ -1,11 +1,11 @@
----
+﻿---
+uid: netserver-whats-new
 title: What's new
-uid: netserver_whats_new
 description: What's new
-author: SuperOffice Product and Engineering
-date:
-topic: reference
-keywords: changelog
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
+content_type: release-note
+category: api
 ---
 
 # What's new in the SuperOffice APIs (legacy)

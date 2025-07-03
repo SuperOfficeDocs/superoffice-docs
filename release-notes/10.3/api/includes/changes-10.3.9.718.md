@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.9.718_changes
-date: 9/15/2024
+date: 09.15.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.8.2017 and v10.3.9.718
 
 ## Web Services
@@ -47,7 +48,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `CopyEmailFlow(Int32, String)`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -86,7 +86,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `QueueLength`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -97,7 +96,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ### Modified Types
 
 #### SuperOffice.CRM.ArchiveLists.SaleExtenderBase is Modified
-
 
 #### SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild> is Modified
 
@@ -120,7 +118,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `RestrictedCategories(Int32)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -138,6 +135,3 @@ The following represent changes to SuperOffice database schema.
 * New items
   * Field `SalesAfterSaveCustomObject`
   * Field `SalesBeforeSaveCustomObject`
-
-
-

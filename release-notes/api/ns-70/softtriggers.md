@@ -1,16 +1,18 @@
----
+﻿---
+uid: whats-new-70-softtriggers
 title: SoftTriggers
-uid: whats_new_70_softtriggers
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
-topic: reference
+version: 7.0
+content_type: release-note
+category: api
 ---
 
 # SoftTriggers
 
-NetServer has its own OSQL interception system. Used by Sentry, travel transaction logging, free-text index, … You can have one too – on insert/update/delete.
+NetServer has its own OSQL interception system. Used by Sentry, travel transaction logging, free-text index, ... You can have one too – on insert/update/delete.
 
 **SoftTrigger** defines a way to set a pre- or post-execution callback, for a specific table.
 

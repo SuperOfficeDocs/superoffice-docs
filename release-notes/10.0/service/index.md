@@ -1,7 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-service-10.0
+title: New and improved Service
+author: SuperOffice AS – Product and Engineering
 date: 10.20.2021
 version: 10
+content_type: release-note
 ---
 
 # New and improved Service
