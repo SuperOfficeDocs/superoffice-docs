@@ -1,10 +1,11 @@
 ---
 uid: version_10.2.2.706_changes
-date: 2/15/2023
-generated: 1
+date: 02.15.2023
+generated: true
 ---
 
-# Changes from v10.2.1.1698 and v10.2.2.706
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.2.1.1698 and v10.2.2.706
 
 ## Web Services
 
@@ -39,7 +40,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `ProjectName`
   * Property `SaleHeading`
-
 
 ## NetServer Core
 
@@ -90,13 +90,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.ComponentReader`
   * Property `.ComponentSender`
 
-
 ##### .Mail.ComponentSection is Modified
 
 * Deleted items
   * Property `.ComponentSectionReader`
   * Property `.ComponentSectionSender`
-
 
 * New items
 
@@ -162,7 +160,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Deleted items
   * Method `ProvideInheritance(IServiceProvider, IServiceProvider)`
 
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
@@ -207,9 +204,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase is Modified
 
-
 #### SuperOffice.CRM.ArchiveLists.TicketExtenderBase is Modified
-
 
 #### SuperOffice.CRM.Data.AssociateTableInfo is Modified
 
@@ -306,7 +301,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `GetMailingDomainsTableInfo()`
-
 
 ### Assembly: SoLicense
 

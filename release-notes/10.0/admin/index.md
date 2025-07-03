@@ -1,8 +1,11 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-admin-10.0
+title: New and improved Settings and maintenance
+author: SuperOffice AS – Product and Engineering
 date: 03.14.2022
-keywords: screen designer, settings and maintenance, admin, import, trigger
 version: 10
+content_type: release-note
+category: Settings and maintenance
 ---
 
 # New and improved Settings and maintenance

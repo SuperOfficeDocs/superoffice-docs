@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice 10.2
 uid: news-marketing-10.2
+title: What's new in SuperOffice 10.2
 description: Release notes. What's new in SuperOffice 10.2
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 03.07.2023
-keywords: marketing
 version: 10.2
-topic: reference
+content_type: release-note
+category: marketing
 ---
 
 # New and improved Marketing

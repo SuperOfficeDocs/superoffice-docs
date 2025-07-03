@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.12.929_changes
-date: 11/21/2024
+date: 11.21.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.11.910 and v10.3.12.929
 
 ## Web Services
@@ -51,7 +52,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `CanCreateAppointmentInEachAssociatesDiary(Int32[])`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -74,7 +74,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_FORMS_LINK_INCLUDE_VARIABLES`
   * Field `SR_MB_ADD_PHOTO`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -92,7 +91,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.DocumentFieldsContentSetCount`
 
-
 ##### SuperOffice.CRM.Data.DBC.SLinkFields is Modified
 
 * Deleted items
@@ -102,7 +100,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.SLinkFieldsFormParameters`
   * Field `.SLinkFieldsLinkParameters`
   * Field `.SLinkFieldsRedirectKind`
-
 
 #### SuperOffice.CRM.Data.DocumentTableInfo is Modified
 
@@ -142,7 +139,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.SpecifiedMailingsListProvider is Modified
 
-
 #### SuperOffice.CRM.Rows.DocumentRecordData is Modified
 
 * New items
@@ -179,11 +175,8 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `LinkParameters`
   * Property `RedirectKind`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
 
 No changes detected.
-
-

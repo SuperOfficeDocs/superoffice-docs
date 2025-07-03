@@ -1,12 +1,13 @@
 ---
-title: New and improved CEP
 uid: news-cep-10.1.3
+title: New and improved CEP
 description: Release notes. What's new in SuperOffice Customer engagement platform 10.1
-author: SuperOffice AS – Research and Development
-date: 06.15.2022
 keywords: CEP, Customer engagement platform
+author: SuperOffice AS – Product and Engineering
+date: 06.15.2022
 version: 10.1.3
-topic: reference
+content_type: release-note
+category: cep
 ---
 
 # New and improved Customer engagement platform

@@ -2,11 +2,11 @@
 uid: news-core-10.3
 title: What's new in SuperOffice Core CRM 10.3
 description: Release notes. What's new in SuperOffice Core CRM 10.3
-keywords: dashboard, notification, follow-up, invitation, appointment, meeting, add member, stakeholder, project member, preferences search
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 11.19.2024
 version: 10.3
-topic: reference
+content_type: release-note
+category: core crm
 audience: person
 audience_tooltip: SuperOffice CRM
 ---

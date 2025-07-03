@@ -1,16 +1,18 @@
----
+﻿---
+uid: whats-new-70-aliasing
 title: Aliasing on ArgumentFunctions
-uid: whats_new_70_aliasing
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
-topic: reference
+version: 7.0
+content_type: release-note
+category: api
 ---
 
 # Aliasing on ArgumentFunctions
 
-You can now set an alias name on an ArgumentFunction Such as Day, Count, …
+You can now set an alias name on an ArgumentFunction Such as Day, Count, ...
 
 * Earlier, you could say Count(fieldInfo) with an alias on the fieldInfo.
 

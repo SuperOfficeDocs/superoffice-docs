@@ -3,6 +3,7 @@ uid: version_10.3.9.734_changes
 date: 01.10.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.9.718 and v10.3.9.734
 
 ## Web Services
@@ -49,7 +50,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * Modified items
   * Property `Date`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -67,7 +67,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `DiaryAdjust`
   * Method `TimeZoneHintAttribute(TimeZoneInterpretation, TimeZoneDiaryAdjustment)`
-
 
 ### Assembly: SoDatabase
 

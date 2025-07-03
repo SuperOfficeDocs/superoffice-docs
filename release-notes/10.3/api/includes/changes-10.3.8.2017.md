@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.8.2017_changes
-date: 8/23/2024
+date: 08.23.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.7.352 and v10.3.8.2017
 
 ## Web Services
@@ -139,12 +140,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.ClientHighchartsExportServiceUrl`
 
-
 ##### SuperOffice.Configuration.ConfigFile.ClientSection is Modified
 
 * New items
   * Property `.ClientSectionHighchartsExportServiceUrl`
-
 
 #### SuperOffice.CRM.ApplicationIcons is Modified
 
@@ -162,7 +161,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.IconHintsCustomObject`
 
-
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
 * Modified items
@@ -171,7 +169,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.DiaryViewNewFollowUpDialogActive`
-
 
 #### SuperOffice.Data.EventHandlerType is Modified
 
@@ -387,8 +384,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.HttpServiceJwtConfigHugoAI_User`
 
-
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
@@ -476,7 +471,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.FormFieldOriginalLabel`
 
-
 #### SuperOffice.CRM.ArchiveLists.PersonSaintExtender is Modified
 
 * Deleted items
@@ -537,7 +531,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.EjscriptFieldsSourceCode`
   * Field `.EjscriptFieldsSourceMaps`
 
-
 ##### SuperOffice.CRM.Data.DBC.MessageFields is Modified
 
 * Deleted items
@@ -556,13 +549,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.MessageFieldsSystemMessageId`
   * Field `.MessageFieldsType`
 
-
 ##### SuperOffice.CRM.Data.DBC.TicketTypeFields is Modified
 
 * New items
   * Field `.TicketTypeFieldsReplyExternalAsDefault`
   * Field `.TicketTypeFieldsReplyForwardNoSignature`
-
 
 #### SuperOffice.CRM.Data.EjscriptTableInfo is Modified
 
@@ -649,9 +640,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Globalization.SaleTags is Modified
 
-
 #### SuperOffice.CRM.Globalization.SelectionTags is Modified
-
 
 #### SuperOffice.CRM.Rows.EjscriptRecordData is Modified
 
@@ -720,6 +709,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ##### SuperOffice.CRM.Rows.MessageRows.IdxSourceHandler is Deleted
 
 ##### SuperOffice.CRM.Rows.MessageRows.IdxTargetHandler is Deleted
+
 * New items
   * Method `GetFromIdxAssociateId(Int32)`
   * Method `GetFromIdxAssociateIdSystemMessageId(Int32, String)`
@@ -767,7 +757,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `HasSubscribers(String)`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### New Types
@@ -784,8 +773,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.PropertiesIsSafeFileExtension`
-
-
 
 ### Assembly: SoLicense
 
@@ -872,6 +859,3 @@ The following represent changes to SuperOffice database schema.
 * New items
   * Field `ReplyExternalAsDefault`
   * Field `ReplyForwardNoSignature`
-
-
-

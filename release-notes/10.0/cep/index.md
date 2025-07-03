@@ -1,8 +1,11 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-cep-10.0
+title: Customer engagement platform
+author: SuperOffice AS – Product and Engineering
 date: 02.22.2022
-keywords: CEP, Customer engagement platform, chat
 version: 10
+content_type: release-note
+category: cep
 ---
 
 # Customer engagement platform

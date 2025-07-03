@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice 10.2
 uid: news-core-10.2
+title: What's new in SuperOffice 10.2
 description: Release notes. What's new in SuperOffice 10.2
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 12.12.2023
-keywords: preferences, batch management, custom task, document preview, notifications, time zone, document editing, security question, WebTools
 version: 10.2
-topic: reference
+content_type: release-note
+category: core crm
 ---
 
 # New and improved Core CRM

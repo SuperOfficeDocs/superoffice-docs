@@ -1,9 +1,10 @@
 ---
 uid: version_10.2.10.1344_changes
-date: 11/20/2023
+date: 11.20.2023
 ---
 
-# Changes from v10.2.9.778 and v10.2.10.1344
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.2.9.778 and v10.2.10.1344
 
 ## Web Services
 
@@ -148,7 +149,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `SplitOptionType`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -275,9 +275,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 ##### SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper is Modified
 
-
-
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -352,18 +349,15 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.AppointmentFieldsSendEmail`
 
-
 ##### SuperOffice.CRM.Data.DBC.MailInFilterFields is Modified
 
 * New items
   * Field `.MailInFilterFieldsTicketType`
 
-
 ##### SuperOffice.CRM.Data.DBC.MsFilterFields is Modified
 
 * New items
   * Field `.MsFilterFieldsNewTicketType`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields is Modified
 
@@ -371,7 +365,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.WorkflowStepOptionFieldsKey`
 * New items
   * Field `.WorkflowStepOptionFieldsKeyId`
-
 
 #### SuperOffice.CRM.Data.MailInFilterTableInfo is Modified
 
@@ -427,7 +420,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `ConflictIsUtc`
 
 #### SuperOffice.CRM.Lists.ShipmentLinksListProvider is Modified
-
 
 #### SuperOffice.CRM.Lists.TicketTicketStatusProvider is Modified
 
@@ -585,7 +577,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `IsCacheInvalidated(String, Int32)`
 * New items
   * Method `IsCacheInvalidated(String, Int32, PrivateSave)`
-
 
 ## Continuous Database
 

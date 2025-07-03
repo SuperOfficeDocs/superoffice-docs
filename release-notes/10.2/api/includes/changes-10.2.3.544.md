@@ -1,10 +1,11 @@
 ---
 uid: version_10.2.3.544_changes
-date: 3/10/2023
-generated: 1
+date: 03.10.2023
+generated: true
 ---
 
-# Changes from v10.2.2.706 and v10.2.3.544
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.2.2.706 and v10.2.3.544
 
 ## Web Services
 
@@ -46,7 +47,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `CopyFromCRMDocument(Int32)`
   * Method `GetNextInQueue()`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -87,12 +87,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.CloudStoreAttachmentsInAzure`
 
-
 ##### SuperOffice.Configuration.ConfigFile.CloudSection is Modified
 
 * New items
   * Property `.CloudSectionStoreAttachmentsInAzure`
-
 
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
@@ -112,7 +110,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.NotificationNotifyRequestActivated`
   * Field `.NotificationNotifyRequestAssignedAway`
   * Field `.NotificationNotifyRequestEscalated`
-
 
 #### SuperOffice.Data.CSRegistryEntry is Modified
 
@@ -194,7 +191,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `Zip(String, ZipType)`
 * Modified items
   * Property `ZipType`
-
 
 ### Assembly: SoDatabase
 
@@ -399,7 +395,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.TicketFieldValueKeysStatus`
 
-
 #### SuperOffice.CRM.Data.AssociateTableInfo is Modified
 
 * New items
@@ -502,7 +497,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic is Modified
 
-
 #### SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic is Modified
 
 * New items
@@ -527,7 +521,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * Deleted items
   * Method `GenerateStreamFromString(String)`
-
 
 ## Continuous Database
 
@@ -558,6 +551,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `EmailFlows`
-
-
-

@@ -1,14 +1,14 @@
 ---
-title: End of life - Lotus Notes Link
 uid: eol-lotus
+title: End of life - Lotus Notes Link
 description: This is a formal announcement of end of life for our SuperOffice Lotus Notes Link.
+keywords: Lotus Notes Link, EOL
 author: Mikael Månsson
 date: 11.07.2023
-keywords: Lotus Notes Link, EOL
-topic: reference
 version: 10.2
+content_type: release-note
+deployment: onsite
 language: en
-envir: onsite
 ---
 
 # End of life - Lotus Notes Link

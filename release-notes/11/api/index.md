@@ -6,7 +6,8 @@ keywords: API changes, database changes
 author: SuperOffice AS – Product and engineering
 date: 06.10.2025
 version: 11
-topic: reference
+content_type: release-note
+category: api
 ---
 
 # API changes

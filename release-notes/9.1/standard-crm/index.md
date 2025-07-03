@@ -1,6 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-core-9.1
+title: Standard CRM 9.1 updates
+author: SuperOffice AS – Product and Engineering
 date: 04.28.2021
+version: 9.1
+content_type: release-note
 ---
 
 # Standard CRM

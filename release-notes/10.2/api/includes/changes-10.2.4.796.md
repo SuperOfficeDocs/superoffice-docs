@@ -1,10 +1,11 @@
 ---
 uid: version_10.2.4.796_changes
-date: 3/30/2023
-generated: 1
+date: 03.30.2023
+generated: true
 ---
 
-## Changes from v10.2.3.544 and v10.2.4.796
+<!-- markdownlint-disable-file MD041 MD033 MD024 MD013-->
+Changes from v10.2.3.544 and v10.2.4.796
 
 ## Web Services
 
@@ -165,7 +166,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Property `Settings`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -192,13 +192,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.ClientLiveUiEventLimit`
   * Property `.ClientLiveUiPollingInterval`
 
-
 ##### SuperOffice.Configuration.ConfigFile.ClientSection is Modified
 
 * New items
   * Property `.ClientSectionLiveUiEventLimit`
   * Property `.ClientSectionLiveUiPollingInterval`
-
 
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
@@ -390,7 +388,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `CalcSeconds(DateTime)`
   * Method `SetTime(DateTime, Int32, Int32, Int32, Int32)`
 
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
@@ -534,7 +531,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.EmailFlowFieldsUseGoogleAnalytics`
   * Field `.EmailFlowFieldsUseTimeframe`
 
-
 ##### SuperOffice.CRM.Data.DBC.WorkflowFields is Modified
 
 * New items
@@ -546,13 +542,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.WorkflowFieldsUseWorkflowStart`
   * Field `.WorkflowFieldsWorkflowStart`
 
-
 ##### SuperOffice.CRM.Data.DBC.WorkflowInstanceFields is Modified
 
 * New items
   * Field `.WorkflowInstanceFieldsNextStep`
   * Field `.WorkflowInstanceFieldsWaitUntil`
-
 
 ##### SuperOffice.CRM.Data.DBC.WorkflowStepFields is Modified
 
@@ -820,7 +814,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetWorkflowStepOptionLinkTableInfo()`
   * Method `GetWorkflowStepOptionTableInfo()`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Assembly: SoLicense
@@ -901,6 +894,3 @@ The following represent changes to SuperOffice database schema.
 
 * Deleted items
   * Field `ParentWorkflowStepId`
-
-
-

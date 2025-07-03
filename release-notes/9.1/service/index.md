@@ -1,6 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-service-9.1
+title: Service 9.1 update
+author: SuperOffice AS – Product and Engineering
 date: 04.28.2021
+version: 9.1
+content_type: release-note
 ---
 
 # New and improved Service

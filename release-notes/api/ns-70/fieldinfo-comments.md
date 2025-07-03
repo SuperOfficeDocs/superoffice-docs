@@ -1,11 +1,13 @@
----
+﻿---
+uid: whats-new-70-fieldinfo
 title: FieldInfo comments
-uid: whats_new_70_fieldinfo
 description: NetServer 7.0
-author: SuperOffice Product and Engineering
+keywords: API changes
+author: SuperOffice AS - Product and Engineering
 date: 11.05.2016
-keywords:
-topic: reference
+version: 7.0
+content_type: release-note
+category: api
 ---
 
 # FieldInfo comments

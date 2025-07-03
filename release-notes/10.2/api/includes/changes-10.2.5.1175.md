@@ -1,9 +1,10 @@
 ---
 uid: version_10.2.5.1175_changes
-date: 5/26/2023
+date: 05.26.2023
 ---
 
-# Changes from v10.2.4.796 and v10.2.5.1175
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
+Changes from v10.2.4.796 and v10.2.5.1175
 
 ## Web Services
 

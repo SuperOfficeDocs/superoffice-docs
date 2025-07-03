@@ -1,8 +1,9 @@
 ---
 uid: version_10.3.7.352_changes
-date: 5/31/2024
+date: 05.31.2024
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.3.6.552 and v10.3.7.352
 
 ## Web Services
@@ -39,7 +40,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `From`
   * Property `ShipmentId`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -57,12 +57,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `.ClientSynchronizerSettingsUrl`
 
-
 ##### SuperOffice.Configuration.ConfigFile.ClientSection is Modified
 
 * New items
   * Property `.ClientSectionSynchronizerSettingsUrl`
-
 
 #### SuperOffice.Globalization.RC is Modified
 
@@ -87,7 +85,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_WORKFLOW_ERROR_NOTEXT`
   * Field `SR_WORKFLOW_ERROR_NOVALIDFROM`
   * Field `SR_WORKFLOW_ERROR_NOVALIDSETTINGS`
-
 
 ### Assembly: SoDatabase
 
@@ -136,7 +133,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `SecretFromPassword(Int32, String, String)`
 
-
 ### Assembly: SoLicense
 
 ### Modified Types
@@ -145,7 +141,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Method `SaveLicenseAsImportFile(LicenseInfo, StringWriter, String)`
-
 
 ## Continuous Database
 
@@ -157,5 +152,3 @@ The following represent changes to SuperOffice database schema.
 
 * `SuperOffice.CD.DSL.Database.DocTemplateResourceReader`
 * `SuperOffice.CD.DSL.Database.IDocTemplateResourceReader`
-
-

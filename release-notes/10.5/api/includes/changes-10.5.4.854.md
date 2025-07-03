@@ -3,6 +3,7 @@ uid: version_10.5.4.854_changes
 date: 03.04.2025
 ---
 
+<!-- markdownlint-disable-file MD041 MD033 MD024-->
 Changes from v10.5.3.711 and v10.5.4.854
 
 ## Web Services
@@ -90,7 +91,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.NotificationEmailNotifyEmailRequestAssignedAway`
   * Field `.NotificationEmailNotifyEmailRequestEscalated`
 
-
 ##### SuperOffice.CRM.UserPreferenceStrings.NotificationSms is Modified
 
 * New items
@@ -101,7 +101,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.NotificationSmsNotifySmsRequestActivated`
   * Field `.NotificationSmsNotifySmsRequestAssignedAway`
   * Field `.NotificationSmsNotifySmsRequestEscalated`
-
 
 ##### SuperOffice.CRM.UserPreferenceStrings.Request is Modified
 
@@ -124,7 +123,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.RequestSingleLineBreaks`
   * Field `.RequestUseLastCategory`
 
-
 #### SuperOffice.Globalization.RC is Modified
 
 * Deleted items
@@ -144,7 +142,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TICKET_MESSAGES_QUICK_ACTION_HIDE_REPLY`
   * Field `SR_TICKET_MESSAGES_QUICK_ACTION_HIDE_REPLY_ALL`
   * Field `SR_TICKET_MESSAGES_QUICK_ACTIONS_SETTINGS`
-
 
 ### Assembly: SoDatabase
 
@@ -168,7 +165,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.ArchiveLists.DynamicPersonExtender is Modified
 
-
 #### SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase is Modified
 
 * New items
@@ -186,7 +182,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase is Modified
 
-
 #### SuperOffice.CRM.Data.AppointmentTableInfo is Modified
 
 * New items
@@ -200,7 +195,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.AppointmentFieldsOwnedExternally`
-
 
 #### SuperOffice.CRM.Entities.AppointmentMatrix is Modified
 
@@ -230,7 +224,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ValidateField(NotifyChannel&, FieldInfo)`
   * Method `ValidateField(NotifyType&, FieldInfo)`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Modified Types
@@ -243,7 +236,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `IsAllowedToScan(Assembly)`
   * Method `IsAllowedToScan(String)`
-
 
 ## Continuous Database
 
@@ -262,11 +254,7 @@ The following represent changes to SuperOffice database schema.
 
 #### SuperOffice.CD.DSL.Database.NotifyType is Modified
 
-
 #### SuperOffice.CD.DSL.Database.T_Appointment is Modified
 
 * New items
   * Field `OwnedExternally`
-
-
-

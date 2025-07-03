@@ -1,8 +1,10 @@
 ---
-author: SuperOffice AS – Research and Development
+uid: news-core-10.0
+title: New and improved Core CRM
+author: SuperOffice AS – Product and Engineering
 date: 10.20.2021
-keywords: dashboard, tile, language
 version: 10
+content_type: release-note
 ---
 
 # New and improved Core CRM

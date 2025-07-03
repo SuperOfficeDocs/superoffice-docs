@@ -1,12 +1,12 @@
 ---
-title: New and improved marketing
 uid: news-marketing-10.1
+title: New and improved marketing
 description: Release notes. What's new in SuperOffice marketing 10.1
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 06.15.2022
-keywords: marketing
 version: 10.1
-topic: reference
+content_type: release-note
+category: marketing
 ---
 
 # New and improved marketing

@@ -6,8 +6,8 @@ keywords: Reporter Studio, reports, EOL
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 10.29.2024
 version: 10.3
-topic: reference
-envir: online
+content_type: release-note
+deployment: online
 language: en
 ---
 
