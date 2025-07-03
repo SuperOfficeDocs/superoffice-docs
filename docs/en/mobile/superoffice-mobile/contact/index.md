@@ -9,7 +9,7 @@ version: 11.1
 content_type: reference
 platform: mobile
 language: en
-redirect-from: /en/mobile/superoffice-mobile/company-contact/
+redirect_from: /en/mobile/superoffice-mobile/company-contact/
 ---
 
 # Contacts <i class="ph ph-user-circle" aria-hidden="true"></i>

@@ -9,7 +9,7 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
-redirect-from: /en/mobile/superoffice-mobile/company-contact/create
+redirect_from: /en/mobile/superoffice-mobile/company-contact/create
 ---
 
 # Add contact
