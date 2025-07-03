@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 11.02.2021
 version: 10
 content_type: howto
+redirect_from: /en/request/howto/crmscript/request-logs
 ---
 
 # Logs

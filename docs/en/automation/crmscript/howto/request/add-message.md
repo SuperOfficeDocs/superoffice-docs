@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 05.26.2023
 version: 10
 content_type: howto
+redirect_from: /en/request/howto/crmscript/add-message
 ---
 
 # Create and update messages

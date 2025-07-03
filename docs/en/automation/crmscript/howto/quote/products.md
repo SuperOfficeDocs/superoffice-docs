@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 06.12.2023
 version: 10
 content_type: howto
+redirect_from: /en/quote/howto/crmscript/products
 ---
 
 # Products

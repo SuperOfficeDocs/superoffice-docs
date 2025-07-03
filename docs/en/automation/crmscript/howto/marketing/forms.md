@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias, Christian Mogensen
 date: 03.20.2024
 version: 10
 content_type: howto
+redirect_from: /en/automation/crmscript/howto/marketing/index
 ---
 
 # Forms

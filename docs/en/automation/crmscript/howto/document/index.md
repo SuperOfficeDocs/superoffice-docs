@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
 content_type: concept
+redirect_from: /en/document/howto/crmscript/index
 ---
 
 # Documents

@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 07.11.2024
 version: 10
 content_type: howto
+redirect_from: /en/document/howto/crmscript/doc-properties
 ---
 
 # Document properties

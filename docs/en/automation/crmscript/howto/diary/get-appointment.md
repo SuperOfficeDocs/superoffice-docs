@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 03.18.2022
 version: 10
 content_type: howto
+redirect_from: /en/diary/howto/crmscript/get-appointment
 ---
 
 # Get appointments
