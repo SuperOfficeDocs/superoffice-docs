@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/search-options/selection/learn/create/combine
 ---
 
 # Oprettelse af kombinationsudvalg

@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/dashboard/learn/delete
 ---
 
 # Tilpas dit dashboard

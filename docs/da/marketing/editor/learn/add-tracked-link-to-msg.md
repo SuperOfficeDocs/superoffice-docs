@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Indsætte sporede links i en meddelelse

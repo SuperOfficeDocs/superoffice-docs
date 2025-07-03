@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/quote/learn/index
+  - /da/quote/learn/quote-tab
+  - /da/sale/learn/screen/quote-tab
 ---
 
 # Arbejde med tilbud

@@ -8,6 +8,7 @@ date: 12.10.2024
 version: 10.3
 content_type: concept
 language: da
+redirect_from: /da/document/learn/template-variables
 ---
 
 # Skabelonvariabler

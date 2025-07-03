@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+redirect_from:
+  - /da/project/learn/project-guide/create
+  - /da/project/learn/screen/project-guide-admin
 ---
 
 # Oprettelse af ny projektguide

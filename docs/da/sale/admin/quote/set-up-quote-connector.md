@@ -11,6 +11,7 @@ license: development-tools
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+redirect_from: /da/quote/learn/admin/erp-connection-add
 ---
 
 # Konfigurer ERP-link for Quote Connector

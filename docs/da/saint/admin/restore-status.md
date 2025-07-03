@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+redirect_from: /da/sale/saint/learn/admin/restore-status
 ---
 
 # Gendannelse af slettet status

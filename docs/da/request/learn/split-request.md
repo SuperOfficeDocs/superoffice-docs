@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+redirect_from: /da/request/learn/howto/split-request
 ---
 
 # Opdel en sag
