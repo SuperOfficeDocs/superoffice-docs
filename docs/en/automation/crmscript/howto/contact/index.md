@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 02.04.2022
 version: 10
 content_type: reference
+redirect_from: /en/contact/howto/crmscript/index
 ---
 
 # Persons

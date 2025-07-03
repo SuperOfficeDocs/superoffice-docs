@@ -9,6 +9,7 @@ keywords: custom object, InsertRow, DatabaseTable, TableRecord, extra table
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/custom-objects/howto/custom-objects-insert-row
 ---
 
 <!-- markdownlint-disable-file MD051 -->

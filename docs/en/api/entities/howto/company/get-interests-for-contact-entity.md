@@ -6,6 +6,7 @@ keywords: contact, company, interest, entity, API, ContactInterestHelper, Select
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/entity/get-interests-for-contact-entity
 ---
 
 # How to list all selected interests for a contact

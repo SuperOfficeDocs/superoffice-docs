@@ -6,6 +6,7 @@ keywords: category, CategoryGroupLink, contact
 author: Bergfrid Dias
 date: 02.21.2022
 content_type: howto
+redirect_from: /en/company/howto/sql/get-catlist-sql
 ---
 
 # Get all categories

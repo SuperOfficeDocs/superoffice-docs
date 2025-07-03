@@ -6,6 +6,7 @@ keywords: company, contact, interest, API, row, ContIntRow, ContactInterestRow, 
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/row/add-new-contact-interest
 ---
 
 # How to add a new contact interest

@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 15.02.2021
 version: 10
 content_type: howto
+redirect_from: /en/contact/howto/crmscript/create-customer
 ---
 
 # Create and update customers

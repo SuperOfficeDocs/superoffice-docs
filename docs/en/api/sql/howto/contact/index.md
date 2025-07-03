@@ -6,6 +6,7 @@ keywords: person, contact, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/contact/howto/sql/index
 ---
 
 # Contact - SQL

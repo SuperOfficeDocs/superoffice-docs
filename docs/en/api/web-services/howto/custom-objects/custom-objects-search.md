@@ -9,8 +9,10 @@ keywords: custom object, search, DatabaseTable, TableRecord, extra table
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/custom-objects/howto/custom-objects-search
 ---
 
+<!-- markdownlint-disable-file MD013 -->
 # How to use custom objects to search for information
 
 While the other sections show examples of how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section focuses on how to search for companies with existing relations connected to them.

@@ -6,6 +6,7 @@ keywords: category, list provider, CategoryList
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/entity/get-catlist-generic-provider
 ---
 
 # Get a CategoryList through generic list providers

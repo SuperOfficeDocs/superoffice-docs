@@ -6,6 +6,7 @@ keywords: person, contact, web services, API, ImageUtility
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/contact/howto/services/display-person-image-ws
 ---
 
 # Display person image

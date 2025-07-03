@@ -6,6 +6,7 @@ keywords: category, list agent
 author: Tony Yates
 date: 02.21.2022
 content_type: howto
+redirect_from: /en/company/howto/services/get-catlist-listagent
 ---
 
 # Get a CategoryList using the ListAgent

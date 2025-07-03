@@ -7,6 +7,11 @@ author: Bergfrid Skaara Dias
 date: 10.25.2024
 version: 10
 topic: concept
+redirect_from:
+  - /en/contact/associate
+  - /en/contact/blob-pictures
+  - /en/contact/overview
+  - /en/contact/howto/index
 ---
 
 # Contact (person)

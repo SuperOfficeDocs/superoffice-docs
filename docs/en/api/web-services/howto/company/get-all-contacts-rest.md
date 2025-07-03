@@ -6,6 +6,7 @@ keywords: contact, company, services, API, search, rest
 author: Tony Yates
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/company/howto/services/get-all-contacts-rest
 ---
 
 # Select all companies

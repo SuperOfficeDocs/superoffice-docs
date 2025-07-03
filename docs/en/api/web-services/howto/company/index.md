@@ -9,6 +9,7 @@ version: 10
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/company/howto/services/index
 ---
 
 # Contact - services

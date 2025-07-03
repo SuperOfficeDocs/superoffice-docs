@@ -6,6 +6,7 @@ keywords: contact, company, services, API, interest, ContactAgent, SelectableMDO
 author: Tony Yates
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/company/howto/services/get-interests-for-contact-services
 ---
 
 # How to list all selected interests for a contact (services)
