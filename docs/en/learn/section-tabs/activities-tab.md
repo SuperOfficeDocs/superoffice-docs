@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/contact/learn/screen/activities-tab
+  - /en/company/learn/screen/activities-tab
 ---
 
 # Activities tab
