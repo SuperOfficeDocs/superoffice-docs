@@ -54,13 +54,92 @@ Since web service entities are POCO objects, they don't contain methods. Below, 
 
 The first thing is to define a set of constants that represent each `AddressType`, as well as each address field name:
 
-[!code-csharp[CS](includes/addressconstants.cs)]
+```csharp
+public class AddressConstants
+{
+  // Address types
+  public const string ContactPostalAddress = "ContactPostalAddress";
+  public const string ContactStreetAddress = "ContactStreetAddress";
+  public const string PersonPrivateAddress = "PersonStreetAddress";
+
+  // Contact address fields
+  public const string ContactPostalAddress1 = "PostalAddress1";
+  public const string ContactPostalAddress2 = "PostalAddress2";
+  public const string ContactPostalAddress3 = "PostalAddress3";
+  public const string ContactPostalCity     = "PostalCity";
+  public const string ContactPostalCounty   = "PostalCounty";
+  public const string ContactPostalState    = "PostalState";
+  public const string ContactPostalZip      = "PostalZipcode";
+  public const string ContactStreetAddress1 = "StreetAddress1";
+  public const string ContactStreetAddress2 = "StreetAddress2";
+  public const string ContactStreetAddress3 = "StreetAddress3";
+  public const string ContactStreetCity     = "StreetCity";
+  public const string ContactStreetCounty   = "StreetCounty";
+  public const string ContactStreetState    = "StreetState";
+  public const string ContactStreetZip      = "StreetZipcode";
+
+  // Person address fields
+  public const string PersonAddress1 = "Address1";
+  public const string PersonAddress2 = "Address2";
+  public const string PersonAddress3 = "Address3";
+  public const string PersonCity     = "City";
+  public const string PersonCounty   = "County";
+  public const string PersonState    = "State";
+  public const string PersonZip      = "Zipcode";
+}
+```
 
 ### AddressFieldExtensions
 
 Next are the extension methods that simplify how to get and set address information as key-value pairs.
 
-[!code-csharp[CS](includes/addressfieldextensions.cs)]
+```csharp
+
+public static class AddressFieldExtensions
+{
+  /// <summary>
+  /// Get a PersonEntity.Address as a Dictionary&lt;string, string&gt;.
+  /// </summary>
+  /// <param name="personEntity">The person entity.</param>
+  /// <returns>Key/Value pair of address fields.</returns>
+  public static Dictionary<string, string> GetAddress(this PersonEntity personEntity)
+  {
+      return new AddressHelper().GetAddressAsDictionary(personEntity.Address);
+  }
+
+  /// <summary>
+  /// Get a ContactEntity.Address as a Dictionary&lt;string, string&gt;.
+  /// </summary>
+  /// <param name="contactEntity">The contact entity.</param>
+  /// <returns>Key/Value pair of address field name and values.</returns>
+  public static Dictionary<string, string> GetAddress(this ContactEntity contactEntity)
+  {
+      return new AddressHelper().GetAddressAsDictionary(contactEntity.Address);
+  }
+
+  /// <summary>
+  /// Populates the PersonEntity.Address property from a Dictionary&lt;string, string&gt; of key value pairs.
+  /// </summary>
+  /// <param name="personEntity">The PersonEntity</param>
+  /// <param name="addressInformation">Key/Value pairs that represent address field name and values.</param>
+  public static void SetAddress(this PersonEntity personEntity, Dictionary<string, string>addressInformation)
+  {
+      var helper = new AddressHelper();
+      helper.SetAddressFromDictionary(personEntity.Address, addressInformation);
+  }
+
+  /// <summary>
+  /// Populates the ContactEntity.Address property from a Dictionary&lt;string, string&gt; of key value pairs.
+  /// </summary>
+  /// <param name="contactEntity">The ContactEntity</param>
+  /// <param name="addressInformation">Key/Value pairs that represent address field name and values.</param>
+  public static void SetAddress(this ContactEntity contactEntity, Dictionary<string, string>addressInformation)
+  {
+      var helper = new AddressHelper();
+      helper.SetAddressFromDictionary(contactEntity.Address, addressInformation);
+  }
+}
+```
 
 ### Change address format
 

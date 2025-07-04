@@ -6,6 +6,8 @@ author: Tony Yates
 date: 12.02.2021
 keywords: archive provider, NetServer, search
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # NetServer archive providers

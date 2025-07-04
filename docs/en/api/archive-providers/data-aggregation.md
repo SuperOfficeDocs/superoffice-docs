@@ -4,8 +4,10 @@ uid: data_aggregation
 description: "Learn about data aggregation and aggregate functions."
 author: Tony Yates
 date: 11.17.2017.
-keywords:
+keywords: data aggregation, aggregate function
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Data aggregation
@@ -85,7 +87,26 @@ Below are two examples that demonstrate how to use the count function to:
 
 ## Example: Using Count("saleId")
 
-[!code-csharp[scenario 1](includes/aggregate-count-saleid.cs)]
+```csharp
+IArchiveProvider provider = ArchiveProviderFactory.Create("FindSale");
+provider.SetDesiredColumns("Count(saleId)", "saleId", "heading");
+provider.SetDesiredEntities("sale");
+provider.SetPagingInfo(50, 0);
+ArchiveRestrictionInfo[] restrictions = {
+  new ArchiveRestrictionInfo("projectId", "=", "47")
+};
+provider.SetRestriction(restrictions);
+foreach (ArchiveRow row in provider.GetRows(""))
+{
+  int count = (int)row.ColumnData["Count(saleId)"].RawValue;
+  int saleId = (int)row.ColumnData["saleId"].RawValue;
+  string heading = row.ColumnData["heading"].RawValue.ToString();
+  Debug.WriteLine("{0}) SaleId: {1}, Heading: {2}",count,saleId,heading);
+}
+
+// remember to close the provider to release resources
+provider.Close();
+```
 
 **Example output:**
 
@@ -112,7 +133,33 @@ The following example includes the `GrandTotal=True` option in the `GetRows` met
 
 ## Example: Using Count("saleId"):HideDetail with GrandTotal
 
-[!code-csharp[scenario 2](includes/aggregate-count-grandtotal.cs)]
+```csharp
+IArchiveProvider provider = ArchiveProviderFactory.Create("FindSale");
+provider.SetDesiredColumns("Count(saleId):HideDetail", "saleId", "heading");
+provider.SetDesiredEntities("sale");
+provider.SetPagingInfo(50, 0);
+ArchiveRestrictionInfo[] restrictions = {
+  new ArchiveRestrictionInfo("projectId", "=", "47")
+};
+provider.SetRestriction(restrictions);
+foreach (ArchiveRow row in provider.GetRows("GrandTotal=True"))
+{
+  if(row.RowType == "grandtotal")
+  {
+    int count = (int)row.ColumnData["Count(saleId):HideDetail"].RawValue;
+    Debug.WriteLine("Total Project 47 Sales: {0}", count);
+  }
+  else
+  {
+    int saleId = (int)row.ColumnData["saleId"].RawValue;
+    string heading = row.ColumnData["heading"].RawValue.ToString();
+    Debug.WriteLine("SaleId: {0}, Heading: {1}", saleId, heading);
+  }
+}
+
+// remember to close the provider to release resources
+provider.Close();
+```
 
 **Example output:**
 

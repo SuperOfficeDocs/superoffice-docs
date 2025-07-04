@@ -236,7 +236,47 @@ WHERE (C.name LIKE 'Super%' AND C.business_idx = 2)
 
 The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2)` is a criteria group, comprised of 2 distinct criteria. To build the equivalent into an `ArchiveRestrictionGroup`, it looks like this:
 
-[!code-csharp[CS](includes/var-criteriagroup.cs)]
+```csharp
+var criteriaGroup = new ArchiveRestrictionGroup()
+{
+    Name = "0",
+    Rank = 0,
+    Description = "Hidden Description",
+    Restrictions = new []
+    {
+        new ArchiveRestrictionInfo()
+        {
+            Name = "name",
+            Operator = "begins",
+            Values = new[] { "Super" },
+            IsActive = true,
+            ColumnInfo = new ArchiveColumnInfo()
+            {
+                Name = "name",
+                RestrictionType = "stringorPK",
+                RestrictionListName = "locateContact_new",
+                //... left out for brevity
+            },
+            InterOperator = InterRestrictionOperator.And
+        },
+        new ArchiveRestrictionInfo()
+        {
+            Name = "name",
+            Operator = "begins",
+            Values = new[] { "Duper" },
+            IsActive = true,
+            ColumnInfo = new ArchiveColumnInfo()
+            {
+                Name = "name",
+                RestrictionType = "stringorPK",
+                RestrictionListName = "locateContact_new",
+                //... left out for brevity
+            },
+            InterOperator = InterRestrictionOperator.And
+        }
+    }
+};
+```
 
 `CriteriaGroups` is an array of `ArchiveRestrictionGroup`, and each group is implicitly joined by an OR operator.
 
@@ -367,7 +407,53 @@ Use the Type property to specify the ArchiveRestrictionInfo Operator property.
 
 #### Example: Working with columns and operators (WebApi client)
 
-[!code-csharp[cs](includes/columninfoarchiverestrictioninfoasync.cs)]
+```csharp
+private async void ColumnInfoArchiveRestrictionInfoAsync(Tenant tenant)
+{
+  // not important for the sake of this example
+  var config = GetWebApiConfiguration(tenant); 
+
+  var archiveAgent = new ArchiveAgent(config);
+  var mdoAgent = new MDOAgent(config);
+
+  // get available entities and columns (cache these in production!)
+
+  MDOListItem[] entities = await archiveAgent.GetAvailableEntitiesAsync("ContactPersonDynamicSelectionV2", "");
+  ArchiveColumnInfo[] columns = await archiveAgent.GetAvailableColumnsAsync("ContactPersonDynamicSelectionV2", "");
+
+  // get companyId field
+
+  ArchiveColumnInfo companyIdColumn = columns
+      .Where(c => c.Name.Equals("contactId", StringComparison.OrdinalIgnoreCase))
+      .Select(c => c).First(); // throw if not found
+
+  // get all operators for the companyId column data type (cache these in production)
+
+  MDOListItem[] operators = await mdoAgent.GetListAsync(
+      "restrictionOperators", 
+      true, 
+      companyIdColumn.RestrictionType,
+      false);
+
+  // get just the equals operator
+
+  MDOListItem equalsOperator = operators
+      .Where(o => o.Name.Equals("Equals", StringComparison.OrdinalIgnoreCase))
+      .Select(o => o).First(); // throw if not found
+
+  // instantiate an ArchiveRestrictionInfo
+  // set the ColumnInfo, set to active, and specify the criteria "contactId is 5"
+
+  var restriction = new ArchiveRestrictionInfo()
+  {
+      ColumnInfo = companyIdColumn,
+      IsActive = true,
+      Name = companyIdColumn.Name,
+      Operator = equalsOperator.Type, // "is"
+      Values = new[] { "5" }
+  };
+}
+```
 
 ## Set search criteria
 

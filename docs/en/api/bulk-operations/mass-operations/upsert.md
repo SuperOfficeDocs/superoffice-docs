@@ -1,11 +1,13 @@
 ---
 title: Upsert records
 description: How to insert/update large numbers of records in bulk.
+keywords: data-access, mass-operations, bulk-update
 author: AnthonyYates
 date: 02.29.2021
-keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 content_type: howto
+category: api
+topic: mass operations
 ---
 
 <!-- markdownlint-disable-file MD051 -->
@@ -79,11 +81,64 @@ When updating User-defined field, specify the entity primary key column as the k
 
 ### [Agent API](#tab/upsert-extra-table-1)
 
-[!code-csharp[CS](../includes/mass-operation-upsert-extra-table.cs)]
+```csharp
+using SuperOffice.WebApi;
+using SuperOffice.WebApi.Data;
+using SuperOffice.WebApi.Agents;
+
+// set up the DatabaseTable agent
+
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
+var dta = new DatabaseTableAgent(options);
+
+string tableName = "y_rental_gear";
+
+// table columns
+
+string[] columns = { "x_code", "x_quantity", "x_description" };
+
+// key column 
+
+string[] keys = { "x_code" };
+
+// table row data 
+
+string[][] data =
+{
+    new [] { "XO", "7", "Extra-Ordinary Bike" },
+    new [] { "UB", "10", "Uni-cycle" }
+};
+
+MassOperationResult results = await dta.UpsertAsync(tableName, columns, keys, false, data);
+```
 
 ### [Core API](#tab/upsert-extra-table-2)
 
-[!code-csharp[CS](../includes/mass-operation-upsert-extra-table-core.cs)]
+```csharp
+using SuperOffice.Data.Dialect;
+
+var mo = MassOperations.GetCurrent();
+
+string tableName = "y_rental_gear";
+
+// table columns
+
+string[] columns = { "x_code", "x_quantity", "x_description" };
+
+// key column 
+
+string[] keys = { "x_code" };
+
+// table row data 
+
+string[][] data =
+{
+    new [] { "XO", "7", "Extra-Ordinary Bike" },
+    new [] { "UB", "10", "Uni-cycle" }
+};
+
+MassResult massResult = mo.Upsert(tableName, columns, keys, data, UpsertNomatchAction.NoChange);
+```
 
 ***
 
@@ -102,11 +157,72 @@ See [contact table][2] in database reference guide.
 
 ### [Agent API](#tab/upsert-contact-1)
 
-[!code-csharp[CS](../includes/mass-operation-upsert-contact-table.cs)]
+```csharp
+using SuperOffice.WebApi;
+using SuperOffice.WebApi.Data;
+using SuperOffice.WebApi.Agents;
+
+// set up the DatabaseTable agent
+
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
+var dta = new DatabaseTableAgent(options);
+
+string tableName = "contact";
+
+// table columns (non-nullable columns)
+
+string[] columns = { "name", "country_id", "business_idx", "category_idx" };
+
+// key column 
+
+string[] keys = { "name" };
+
+// table row data 
+
+string[][] data =
+{
+    new [] { "Red",    "[I:5]", "[I:3]", "[I:1]" },
+    new [] { "Orange", "[I:4]", "[I:4]", "[I:1]" },
+    new [] { "Yellow", "[I:3]", "[I:5]", "[I:2]" },
+    new [] { "Green",  "[I:2]", "[I:3]", "[I:2]" },
+    new [] { "Blue",   "[I:1]", "[I:4]", "[I:3]" },
+    new [] { "Indigo", "[I:2]", "[I:5]", "[I:3]" },
+    new [] { "Violet", "[I:3]", "[I:3]", "[I:4]" },
+};
+MassOperationResult results = await dta.UpsertAsync(tableName, columns, keys, false, data);
+```
 
 ### [Core API](#tab/upsert-contact-2)
 
-[!code-csharp[CS](../includes/mass-operation-upsert-contact-table-core.cs)]
+```csharp
+using SuperOffice.Data.Dialect;
+
+var mo = MassOperations.GetCurrent();
+
+string tableName = "contact";
+
+// table columns (non-nullable columns)
+
+string[] columns = { "name", "country_id", "business_idx", "category_idx" };
+
+// key column 
+
+string[] keys = { "name" };
+
+// table row data 
+
+string[][] data =
+{
+    new [] { "Red",    "[I:5]", "[I:3]", "[I:1]" },
+    new [] { "Orange", "[I:4]", "[I:4]", "[I:1]" },
+    new [] { "Yellow", "[I:3]", "[I:5]", "[I:2]" },
+    new [] { "Green",  "[I:2]", "[I:3]", "[I:2]" },
+    new [] { "Blue",   "[I:1]", "[I:4]", "[I:3]" },
+    new [] { "Indigo", "[I:2]", "[I:5]", "[I:3]" },
+    new [] { "Violet", "[I:3]", "[I:3]", "[I:4]" },
+};
+MassResult massResult = mo.Upsert(tableName, columns, keys, data, UpsertNomatchAction.NoChange);
+```
 
 ***
 

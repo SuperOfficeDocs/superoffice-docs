@@ -6,6 +6,8 @@ author: AnthonyYates
 date: 05.05.2025
 keywords: authentication, OIDC, OAuth, claim, terminology, ID token
 content_type: concept
+category: api
+topic: authentication
 deployment: online
 platform: web
 ---

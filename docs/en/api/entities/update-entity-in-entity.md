@@ -16,7 +16,50 @@ There can be more than one way to update an Entity property that is exposed by a
 
 This example retrieves a Sale Entity by calling the `GetFromIdxSaleId` method. Then it accesses and modifies some basic properties of the Contact Entity through the Sale Entity.
 
-[!code-csharp[CS](includes/update-entity-1.cs)]
+```csharp
+using SuperOffice.CRM.Entities;
+using SuperOffice.CRM.Rows;
+using SuperOffice;
+using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
+{
+  //Retrieving a Sale using the index of a Sale
+  Sale newSale = Sale.GetFromIdxSaleId(2);
+
+  //Updating a Contact Entity property through a Sale Entity
+  newSale.Contact.Name = "Name Changed 2";
+  newSale.Contact.OrgNr = "SA-5454545";
+
+  //Creating a Row and assigning it to the Sale Entity and modifying its values
+  BusinessRow newBusinessRw = BusinessRow.GetFromIdxBusinessId(10);
+  newSale.Contact.Business = newBusinessRw;
+  newSale.Contact.Business.Name = "New Business 2";
+  newSale.Contact.Business.Tooltip = "New Tool tip";
+
+  //Creating a Row Collection and assigning it the Sale Entity and modifying its values
+  PhoneRow newPhoRow = PhoneRow.CreateNew();
+  newPhoRow.PhoneNumber = "987654321";
+  newPhoRow.Description = "Testing Method 2";
+  int posPhoRow = newSale.Contact.Phones.Add(newPhoRow);
+  newSale.Contact.Phones[posPhoRow].PhoneNumber = "5555555555";
+  newSale.Contact.Phones[posPhoRow].Description = "Testing methods 2B";
+
+  //Creating an Entity and assigning it to the Sale Entity and modifying its values
+  Person newPers = Person.CreateNew();
+  int posPersonRow = newSale.Contact.Persons.Add(newPers);
+  newSale.Contact.Persons[posPersonRow].Firstname = "Will";
+  newSale.Contact.Persons[posPersonRow].Lastname = "Turner";
+
+  URLRow newUrl = URLRow.CreateNew();
+  int posURLRow = newSale.Contact.Persons[posPersonRow].Urls.Add(newUrl);
+  newSale.Contact.Persons[posPersonRow].Urls[posURLRow].UrlAddress1 = "www.testSuperOffice.com";
+
+  if (newSale.IsDirty == true)
+  {
+    //Saving the Sale Entity
+    newSale.Save();
+  }
+}
+```
 
 ### Business
 
@@ -49,7 +92,56 @@ The next few statements relate to changing different types of properties contain
 
 This example creates a Business Row and modifies its values. It is then assigned to the Person Entity’s Business property.
 
-[!code-csharp[CS](includes/update-entity-2.cs)]
+```csharp
+using SuperOffice.CRM.Entities;
+using SuperOffice.CRM.Rows;
+using SuperOffice;
+using(SuperOffice.SoSession mySession =
+SuperOffice.SoSession.Authenticate("SAL0", ""))
+{
+  //Retrieving a Sale using the index of a Sale
+  Sale newSale = Sale.GetFromIdxSaleId(2);
+
+  //Retrieving a Person Entity
+  Person newPerson = Person.GetFromIdxPersonId(25);
+
+  //Updating Person Entity Basic properties
+  newPerson.Firstname = "Jessica";
+  newPerson.Lastname = "Alba";
+
+  //Updating Person Entity properties which are of Row type
+  BusinessRow newBusiness = BusinessRow.GetFromIdxBusinessId(9);
+  newBusiness.Name = "New Business";
+  newPerson.Business = newBusiness;
+
+  //Updating Person Entity properties which are Entities itself
+  Contact newContact = Contact.CreateNew();
+  newContact.Name = "John Stevens";
+  URLRow newUrls = URLRow.CreateNew();
+  newUrls.UrlAddress1 = "www.SuperOffice.com/test";
+  newContact.Urls.Add(newUrls);
+  newContact.Row.Number1 = "SA-147258";
+  if (newContact.IsDirty == true)
+  {
+    //Assigning the Contact to the Person
+    newPerson.Contact = newContact;
+  }
+
+  //Updating Person Entity porperty which is of Rows type
+  EmailRow newEmails = EmailRow.CreateNew();
+  newEmails.EmailAddress = "jessica@stars.com";
+  newEmails.Description = "Jessica's Email";
+  newPerson.Emails.Add(newEmails);
+
+  //Assigning the Person property to the Sale
+  newSale.Person = newPerson;
+  if (newSale.IsDirty == true)
+  {
+    //Saving the Sale Entity
+    newSale.Save();
+  }
+}
+```
 
 ### IsDirty
 

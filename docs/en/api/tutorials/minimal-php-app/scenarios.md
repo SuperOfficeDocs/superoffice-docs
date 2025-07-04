@@ -33,13 +33,71 @@ As stated before, there are several helper classes to make things easier. An imp
 
 The web application must then validated the new server token, then extract the system user ticket.
 
-[!code-xml[PHP](includes/system-user-helper-class.php)]
+```php
+class SystemUserHelper
+{
+   /*
+   * Sign system token from callback and authenticate it with the SuperID service
+   *
+   * return system user token from SuperID service
+   */
+   public static function GetSystemUserToken($returnTokenType) {
+      $context = SessionHelper::getSoContext();
+
+      //get private key and its path is configured in setting.php
+      $privateKey = openssl_pkey_get_private(file_get_contents(PRIVATE_KEY), KEYPASSWORD);
+
+      //SuperOffice signed format
+      $signThis = ($context->SystemToken).".".date("YmdHi");
+
+      //sign the system token using private key of the application
+      openssl_sign($signThis, $signature, $privateKey, OPENSSL_ALGO_SHA256);
+
+      //instantiate the agent to the SuperID endpoint path, NOT the tenant.
+      $agent = new SystemUserAgent(LOGIN_PATH, APPTOKEN, $context->ContextIdentifier);
+
+      //return a new JWT or SAML token containing the system user ticket
+      return $agent->AuthenticateSystemUser($signThis.".".base64_encode($signature), $returnTokenType);
+   }
+}
+```
 
 The application must validate the new JWT token using the public SuperOffice certificates. Once validated as an authentic token, the application uses another helper class, **ClaimNames**, to convert the token into an SoContext class – containing properties such as name, company, ticket, and NetServerUrl.
 
 With the new **SoContext** available, containing the ticket credentials for a system user, the application proceeds to call the **ContactEnitityHelper** to create a new company.
 
-[!code-xml[PHP](includes/create-contact-entity.php)]
+```php
+if($_GET['systemUser'] == 1) {
+   //use system user to create a contactEntity
+
+   //exchange system user token for a JWT/SAML token contains system user ticket
+   $returnedToken = SystemUserHelper::GetSystemUserToken(ENABLE_SAML ? "Saml":"Jwt");
+
+   //validate the returned token using SuperOffice public certificates
+   if(ENABLE_SAML) {
+      require_once('./lib/SoSAML.php');
+      $data = SoSAML::decode($returnedToken, PUBLIC_CERTIFICATE);
+   } else {
+      require_once "./lib/SoJWT.php";
+      $data = SoJWT::decode($returnedToken, PUBLIC_CERTIFICATE);
+   }
+
+   //extract the claims in the token and cast then to a SoContext class
+   if($data != null){
+      $context = ClaimNames::ConvertToSoContext($data);
+   } else {
+      $url = UrlHelper::getBaseUrl().'welcome.php';
+      header("Location: $url");
+   }
+
+   //using the system user ticket to create a new company
+   $contact = ContactEntityHelper::CreateContactEntity($context->NetServerUrl, $context->Ticket, APPTOKEN);
+
+   //view the company details on the contactEntity.php page.
+   $id = $contact['ContactId'];
+   header("Location: contactEntity.php?contactEntityId=$id");
+}
+```
 
 ## More advanced scenario
 

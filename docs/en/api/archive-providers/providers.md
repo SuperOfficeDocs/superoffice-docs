@@ -2,8 +2,10 @@
 title: providers
 description: Provider class
 author: SuperOffice Product and Engineering
-keywords: IArchiveProvider
+keywords: IArchiveProvider, QueryProvider, provider
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Providers

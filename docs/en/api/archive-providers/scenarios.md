@@ -3,8 +3,10 @@ title: Client usage scenarios
 uid: archive_provider_scenarios
 description: Archive provider scenarios
 author: SuperOffice Product and Engineering
-keywords: IArchiveProvider
+keywords: IArchiveProvider interface, archive provider - client interaction
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Client usage scenarios

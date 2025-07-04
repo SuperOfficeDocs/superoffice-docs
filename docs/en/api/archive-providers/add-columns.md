@@ -4,8 +4,10 @@ uid: add_columns
 description: Add columns to archive providers
 author: Tony Yates
 date: 08.03.2017
-keywords: NetServer, archive provider
+keywords: add columns to archive provider, extend archive provider
 content_type: howto
+category: api
+topic: archive providers
 deployment: online
 platform: web
 ---
@@ -24,7 +26,7 @@ The complication stems from the fact that a new extender is tagged with the `Arc
 
 For instance, adding extra columns to a person that should be present in all contexts where person information is shown (Find, Contact archive under company card, Activity archive, Selection members, Shadow selection members, etc) would require a lot of coding and overriding; as well as a fair amount of reverse-engineering to find out how the providers are actually structured. In the case of Find and Selection this can be a Big Deal.
 
-![x -screenshot][img1]
+![Find sale, criteria tab -screenshot][img1]
 
 ## Add columns to related archive, wherever!
 
@@ -68,7 +70,37 @@ If these columns are searchable then they can immediately be used as criteria in
 
 Here is the example code used to demonstrate how easy it is to show the new Sale columns anywhere:
 
-[!code-csharp[Add sale column](includes/add-column.cs)]
+```csharp
+[ArchiveExtenderExtender("MySaleTableExtender", typeof(SaleExtenderBase), int.MaxValue / 2)]
+public class MySaleTablelSystem : TableExtenderBase<TableInfo>
+{
+  private ArchiveColumnInfo _colMySaleId =
+    new ArchiveColumnInfo("mySaleId", "My Sale Record Identifier", "My Sale Record Identifer Tooltip",
+    Constants.DisplayTypes.Int, true, true, "5c", Constants.RestrictionTypes.Int);
+  private ArchiveColumnInfo _colMySaleName =
+    new ArchiveColumnInfo("mySaleName", "My Sale Name", "My Sale Name Tooltip",
+    Constants.DisplayTypes.String, true, true, "10%", Constants.RestrictionTypes.String);
+  public MySaleTablelSystem()
+  {
+    // Uncomment following line to force restriction to invoke InnerModifyQuery
+    // ForceRestriction = true;
+  }
+  protected override void InnerModifyQuery()
+  {
+    //RootQuery.Query.ReturnFields.Add(...)
+  }
+  protected override TableInfo SetJoin()
+  {
+    var parentSaleInfo = Parent.TableToExtend as SaleTableInfo;
+    //... establish joins
+    return parentSaleInfo;
+  }
+  protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+  {
+    // use this overload to add columns to archiverow / output
+  }
+}
+```
 
 ## Key takeaways
 

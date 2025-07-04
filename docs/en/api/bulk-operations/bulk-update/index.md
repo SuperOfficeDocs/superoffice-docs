@@ -6,6 +6,8 @@ author: Tony Yates
 date: 06.23.2017
 keywords: data-access, bulk-update
 content_type: concept
+category: api
+topic: bulk update
 deployment: online
 platform: web
 ---

@@ -4,6 +4,8 @@ description: Archive providers - architecture
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Archive providers - architecture

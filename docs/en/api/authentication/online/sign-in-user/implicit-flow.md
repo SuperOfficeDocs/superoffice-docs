@@ -5,6 +5,7 @@ description: "Introduction to the OICD Implicit flow."
 author: SuperOffice Product and Engineering
 keywords: authentication, OAuth 2.0, OIDC, Implicit flow
 content_type: concept
+category: api
 deployment: online
 platform: web
 ---
@@ -41,7 +42,11 @@ In the Implicit flow, the client application requests an ID token and possibly a
 
 5. With consent given, the authentication server sends an authorization response message from its authorization endpoint. This redirects the user-agent back to the Relying Party using the redirection URI provided earlier. This URI includes an ID token in a URI fragment (host address and `id_token` separated by hash (#)). This ID token contains the standard claims, including some claims normally found in the profile and email scopes.
 
-    [!include[implicit-flow-id-only-response](includes/implicit-flow-id-only-response.md)]
+    ```http
+    Response:http://localhost/openid/index.html#
+    id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkZyZjdqRC1hc0dpRnFBREdUbVRKZkVxMTZZdyJ9.eyJzdWIiOiJ0b255LnlhdGVzQHN1cGVyb2ZmaWNlLmNvbSIsImh0dHA6Ly9zY2hlbWVz
+    LnN1cGVyb2ZmaWNlLm5ldC9pZGVudGl0eS9hc3NvY2lhdGVpZCI6IjUiLCJodHRwOi8vc2NoZW1lcy5zdXBlcm9mZmljZS5uZXQvaWRlbnRpdHkvZmlyc3RuYW1lIjoiVG9ueSIsImh0dHA6Ly9zY2hlbWVzLnN1cGVyb2ZmaWNlLm5ldC9pZGVudGl0eS9sYXN0bmFtZI6IllhdGVzIiwiaHR0cDovL3NjaGVtZXMuc3VwZXJvZmZpY2UubmV0L2lkZW50aXR5L2lkZW50aXR5cHJvdmlkZXIiOiJzdXBlcm9mZmljZS1vbmxpbmUiLCJodHRwOi8vc2NoZW1lcy5zdXBlcm9mZmljZS5uZXQvaWRlbnRpdHkvZW1haWwiOiJ0b255LnlhdGVzQHNcGVyb2ZmaWNlLmNvbSIsImh0dHA6Ly9zY2hlbWVzLnN1cGVyb2ZmaWNlLm5ldC9pZGVudGl0eS91cG4iOiJ0b255LnlhdGVzQHN1cGVyb2ZmaWNlLmNvbSIsImh0dHA6Ly9zY2hlbWVzLnN1cGVyb2ZmaWNlLm5ldC9pZGVudGl0eS9jdHgiOiJDdXN0MTIwMjAiLCJodRwOi8vc2NoZW1lcy5zdXBlcm9mZmljZS5uZXQvaWRlbnRpdHkvaXNfYWRtaW5pc3RyYXRvciI6IlRydWUiLCJodHRwOi8vc2NoZW1lcy5zdXBlcm9mZmljZS5uZXQvaWRlbnRpdHkvc2VyaWFsIjoiMTUwMTE3ODU4NCIsImh0dHA6Ly9zY2hlbWVzLnN1cGVyb2ZmaWNLm5ldC9pZGVudGl0eS9yZW1lbWJlcl9tZV9leHBpcmVzIjoiIiwiaHR0cDovL3NjaGVtZXMuc3VwZXJvZmZpY2UubmV0L2lkZW50aXR5L25ldHNlcnZlcl91cmwiOiJodHRwczovL3NvZC5zdXBlcm9mZmljZS5jb20vQ3VzdDEyMDIwL1JlbW90ZS9TZXJ2aWNlczgyLIsImh0dHA6Ly9zY2hlbWVzLnN1cGVyb2ZmaWNlLm5ldC9pZGVudGl0eS93ZWJhcGlfdXJsIjoiaHR0cHM6Ly9zb2Quc3VwZXJvZmZpY2UuY29tL0N1c3QxMjAyMC9hcGkvIiwiaWF0IjoiMTUxNjE5Mjk0NSIsImF0X2hhc2giOiJIcEtPejlhaUpKN3d6XzVkRE04QU5Iiwibm9uY2UiOiI3MzYyQ0FFQS05Q0E1LTRCNDMtOUJBMy0zNEQ3QzMwM0VCQTciLCJpc3MiOiJodHRwczovL3NvZC5zdXBlcm9mZmljZS5jb20iLCJhdWQiOiJkYjE4MzQwMzdjNThjMDJiNmJkOTg5OGZlZWYxOTg0NSIsImV4cCI6MTUxNjE5MzI0NSwibmJmIjoxNE2MTkyODg1fQDGHBggHTJ2mhsPePeHA5KFP0DLIhadBa64ZGHo7xYYdyS3rTfaUvlaGNdpaS4A1m3lBX6wafvSI8ib9IyrSURLQ7wMLzgfW8W1n3P4tiHB0XfPQc9Nf1nNhA7fz93_jZgnrmOb1rCZDuuBd4E_fAPC_k1Rd9Z0iWBV_Sylx48qdK8D7_FE3buKdfo4ZeeBeRxsEIAHADsNIE4d_lirs-UvCJRBKkN3ZZg4CqnEdUutbZ73c_qCU3T-RhAQhK6sqeki0ywgK_8OS1TUsRQd4oz5aT_9DDcstYnVGHBZOSiwB-yKV9-zJ0SSqQSs1fe-PsEyaomSKMLieRWzoTDnnKQ
+    ```
 
 6. The user agent needs to parse the ID token encoded values that were returned in the URI fragment, and then pass them to the client’s processing logic.
     * The application will likely contain a script that extracts the ID token from the full redirect URI.
@@ -75,7 +80,14 @@ nonce=7362CAEA-9CA5-4B43-9BA3-34D7C303EBA7
 
 After user authentication and consent is given, instead of just an ID token, the identity provider **also sends an [access token][1] in a URI fragment**.
 
-[!include[implicit-flow-access-token-response](includes/implicit-flow-access-token-response.md)]
+```http
+Response:http://localhost/openid/index.html#
+access_token=8A%3aCust12020.AUiamiHxsOxM%2bdLC47fudkTQAQAAGbFJt8NXapaIa%2f354f2e2de2bxj8EkRCacoaJ%2fCBeUhiL1FFxw0XFZCl4AZDP3HWSSEIhDWQwxDzlDRzgecSGC4dEZXk8VsmsgqDVoG4cUQFQwxQWlx1FwfwbftxM%2f7ztl%2bIxEfU1UmqsGR5M9Zh8L65mN%2bY5w4T08YJB%2f2kYjVJPIA%2bVPLgLOKX3ck8KkmgCCmTCP%2fpMULOWWnAXxFrrwIAPGKnV6B9wda8DtDprIgtFksw%2fsoZLL%2bhbd2IcJQ1Y9T4xHMROyfFN0%2bV%2ftg1h3%2bYIkWaxRYRjfX0Ybu31qws1Jwo9CcaVeY7aEHzaW2QZieUeETy%2bACxLeScVBOqzbVIcCt0xRdoEfAySllQn2Ty0yam9bVIlv6B6VX9ugLLfG24hxSMWrU05vN3v%2bnbsPr5OnQXNNffYbkI8aeqooF1aGMZlaySo8WXLxWUfUWEgEzTBaWVgLlbIZhE9YeggttfMvdASEYHl808s6SiGUAH5DTPdjjIKXrWWMuXJSA1XkVV3EpS%2f5%2bdZhPq4ENVUmGzMifUDYpd6F74%2fcgrbE6%2fXjuv8K6j3pY9NcO1L6kdoK7StApzVJcYNtT6nu4364EQm2ievwxh1sQOKjcVUK%2bbpcqAIA73uT%2b4%2bfXBUcqJvsq%2fl2oMcKnWjpVf%2f9JmBA%3d%3d&
+token_type=bearer&
+state=12345
+&expires_in=3600&
+id_token=eyJ0eXAiO...1QiLCJ...iJSUzI1N...ng1dC...DnnKQ
+```
 
 ### Parameters
 

@@ -1,11 +1,13 @@
 ---
 title: Nested aggregate functions
 uid: nested_aggregate_functions
-description:
+description: Examples of nested aggregate functions for archive providers.
 author: Tony Yates
 date: 11.17.2017
-keywords:
+keywords: aggregate function
 content_type: howto
+category: api
+topic: archive providers
 ---
 
 # Nested aggregate functions
@@ -21,7 +23,55 @@ To demonstrate the concept, construct a query that displays the top sales repres
 * using `Sum` and `ConvertCurrency`, convert all sale amounts to one currency and then sum the amounts.
 * use `GroupBy` to divide the results by full name, personId, and title.
 
-[!code-csharp[scenario 1](includes/nested-aggregate-1.cs)]
+```csharp
+// get a currencyId to convert sale amount to.
+var currency = SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId;
+
+// set the formatted function for use in multiple places below
+var formattedSum = string.Format("Sum(CurrencyConvert(amount;{0})):HideDetail", currency);
+
+// use selection provider to get all my completed activities this month
+var provider = ArchiveProviderFactory.Create("saledynamicselection");
+provider.SetDesiredEntities("sale");
+provider.SetPagingInfo(100, 0);
+
+// specify the sort order
+provider.SetOrderBy( new ArchiveOrderByInfo( formattedSum, SuperOffice.Data.OrderBySortType.DESC));
+
+// Set the aggregate functions to get how many of each, grouped by type
+provider.SetDesiredColumns(
+  formattedSum,
+  "GroupBy(associate/fullName):Footer,HideDetail", //default level 1, no nesting
+  "GroupBy(associate/personId):Footer,HideDetail", //default level 1, no nesting
+  "GroupBy(associate/title):Footer,HideDetail"     //default level 1, no nesting
+  );
+
+// specify the restrictions
+provider.SetRestriction(
+  new ArchiveRestrictionInfo("userGroup", "oneOf", SuperOffice.SoContext.CurrentPrincipal.GroupId),
+  new ArchiveRestrictionInfo("saleStatus", "oneOf", "2"),
+  new ArchiveRestrictionInfo("date", ">", CultureDataFormatter.EncodeDate(DateTime.Now.AddMonths(-1))),
+  new ArchiveRestrictionInfo("selectionId", "=", "-1")
+  );
+
+foreach (var row in provider.GetRows(AggregationProvider2.GrandTotalOption + "=True"))
+{
+  if(row.RowType.StartsWith("footer"))
+  {
+    var fullName = row.ColumnData["GroupBy(associate/fullName):Footer,HideDetail"].DisplayValue;
+    var personId = row.ColumnData["GroupBy(associate/personId):Footer,HideDetail"].DisplayValue;
+    var perTitle = row.ColumnData["GroupBy(associate/title):Footer,HideDetail"].DisplayValue;
+    var persoSum = row.ColumnData[formattedSum].DisplayValue;
+    Console.WriteLine("Fullname: {0}, PersonId: {1}, Title: {2}, Sum: {3}",
+      fullName, personId, perTitle, CultureDataFormatter.LocalizeEncoded(persoSum));
+  }
+  else if(row.RowType.StartsWith("grandtotal"))
+  {
+    var grandTotalSum = row.ColumnData[formattedSum].DisplayValue;
+    Console.WriteLine("Grand Total: {0}", CultureDataFormatter.LocalizeEncoded(grandTotalSum));
+  }
+}
+```
 
 > [!NOTE]
 > The `CultureDataFormatter` method is used to format the summed amount into local currency in both the footer and grandtotal rows.
@@ -40,7 +90,58 @@ Another common scenario to demonstrate nested functions is to group sales based 
 
 Use the previous example as a template and modify the restriction sale date to show just this year. Modify the `Sort` to use the `GroupBy DatePart, ascending`. Then change the desired columns to just include the `Sum` of sale amounts and a `GroupBy` to divide the results by months.
 
-[!code-csharp[scenario 2](includes/nested-aggregate-2.cs)]
+```csharp
+var currency = SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId;
+
+// set the formatted function for use in multiple places below
+var formattedSum = string.Format("Sum(CurrencyConvert(amount;{0})):HideDetail", currency);
+
+// use selection provider to get all my completed activities this month
+var provider = ArchiveProviderFactory.Create("saledynamicselection");
+
+// Set the aggregate functions to get how many sales, grouped by Month
+provider.SetDesiredColumns(formattedSum, "GroupBy(DatePart(date):Month):Footer,HideDetail");
+provider.SetDesiredEntities("sale");
+provider.SetPagingInfo(100, 0);
+
+// specify the restrictions
+provider.SetRestriction(
+  new ArchiveRestrictionInfo("userGroup", "oneOf", SuperOffice.SoContext.CurrentPrincipal.GroupId),
+  new ArchiveRestrictionInfo("saleStatus", "oneOf", "2"),
+  new ArchiveRestrictionInfo("date", "thisYear"),
+  new ArchiveRestrictionInfo("selectionId", "=", "-1")
+  );
+
+// set the sort by to the month ascending
+provider.SetOrderBy(
+  new ArchiveOrderByInfo("GroupBy(DatePart(date):Month):Footer,HideDetail",
+  SuperOffice.Data.OrderBySortType.ASC)
+);
+
+using (ArchiveRowDumper d = new ArchiveRowDumper(provider))
+{
+  foreach (var row in provider.GetRows(AggregationProvider2.GrandTotalOption + "=True"))
+  {
+    if (row.RowType.StartsWith("footer"))
+    {
+      // get the month and sale sum data
+      var monthInt = (int)row.ColumnData["GroupBy(DatePart(date):Month):Footer,HideDetail"].RawValue;
+      var foSum = row.ColumnData[formattedSum].DisplayValue;
+
+      // convert the integer representation of month to month name
+      var monthName = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(monthInt);
+      Debug.WriteLine("Month: {0}, Sum: {1}", monthName, foSum);
+    }
+    else if (row.RowType.StartsWith("grandtotal"))
+    {
+      // get out the total sum value
+      var grandTotalSum = row.ColumnData[formattedSum].DisplayValue;
+      Debug.WriteLine("Grand Total: {0}", CultureDataFormatter.LocalizeEncoded((grandTotalSum)));
+    }
+    d.DumpRow(row);
+  }
+}
+```
 
 | Rowno | Row type | GroupBy(DatePart(date):Month) :Footer,HideDetail | Sum(CurrencyConvert(amount;36)) :HideDetail |
 |---|---|---|---|

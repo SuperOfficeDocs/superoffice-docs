@@ -4,8 +4,10 @@ uid: aggregate_groupby
 description: Structured aggregation output with groupby
 author: Tony Yates
 date: 11.17.2017
-keywords:
+keywords: aggregate function, GroupBy
 content_type: howto
+category: api
+topic: archive providers
 ---
 
 # Structured aggregation output with GroupBy
@@ -20,7 +22,33 @@ Using the archive provider `appointmentdynamicselection`, construct a query that
 
 Use the `Count` function to count each unique appointment ID, and use the `HideDetail` modifier to remove the column from the detail rows. Then use the `GroupBy` function to divide the query results into activity types. Use the `Footer` modifier to output a footer row that contains the count and type columns for each group. Also, append the `HideDetails` modifier to not return any detail rows; just the footer rows.
 
-[!code-csharp[scenario 1](includes/aggregate-only.cs)]
+```csharp
+// use selection provider to get all my completed activities this month
+var provider = ArchiveProviderFactory.Create("appointmentdynamicselection");
+
+// Set the aggregate functions to get how many of each, grouped by type
+provider.SetDesiredColumns(
+  "Count(appointmentId):HideDetail",
+  "GroupBy(type):Footer,HideDetail"
+);
+provider.SetDesiredEntities("appointment");
+provider.SetPagingInfo(100, 0);
+
+// specify the restrictions
+provider.SetRestriction(
+  new ArchiveRestrictionInfo("endDate", ">", CultureDataFormatter.EncodeDate(DateTime.Now.AddMonths(-1))),
+  new ArchiveRestrictionInfo("associateId", "currentAssociate", ""),
+  new ArchiveRestrictionInfo("completed", "set", "1"),
+  new ArchiveRestrictionInfo("selectionId", "=", "-1")
+);
+
+// fetch the rows
+foreach (var row in provider.GetRows(""))
+{
+  var activityType = row.ColumnData["GroupBy(type):Footer,HideDetail"].RawValue.ToString();
+  var activityCount = (int)row.ColumnData["Count(appointmentId):HideDetail"].RawValue;
+}
+```
 
 The results are one row for each activity type and occurrence count.
 
@@ -52,7 +80,26 @@ To demonstrate the concepts, create a query that uses the person archive provide
 * Count all of the occurrences of `firstName` for display in details.
 * Group the results by `middleName`, and make this column available in both the header and footer, but hide in detail rows.
 
-[!code-csharp[scenario 2](includes/aggregate-rowtype.cs)]
+```csharp
+var provider = ArchiveProviderFactory.Create(PersonProvider.ProviderName);
+provider.SetDesiredColumns(
+  "firstName",
+  "middleName",
+  "lastName",
+  "rank",
+  "Sum(rank)",
+  "CountAll(firstName)",
+  "GroupBy(middleName):Header,Footer"
+);
+provider.SetDesiredEntities("person");
+provider.SetPagingInfo(100, 0);
+provider.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", CultureDataFormatter.Encode(24)));
+
+foreach (var row in provider.GetRows(string.Empty))
+{
+  //parse the results.
+}
+```
 
 ### Sample data - company name: Superoso, 5 employees
 
@@ -109,7 +156,23 @@ It’s easy to specify an additional group level with the integer modifier. Buil
 * Group the first level of results by `middleName`, and make the column available in both the header and footer, but hide in detail rows.
 * Group the second level of results by lastName, and make the column available in the details row, as well as both the header and footer.
 
-[!code-csharp[scenario 4](includes/multilevel-groupby.cs)]
+```csharp
+var provider = ArchiveProviderFactory.Create(PersonProvider.ProviderName);
+provider.SetDesiredColumns("firstName",
+  "CountAll(firstName)",
+  "Count(middleName)",
+  "Sum(rank):HideDetail",
+  "GroupBy(middleName):Header,Footer,1",
+  "GroupBy(lastName):Header,Footer,2");
+provider.SetDesiredEntities("person");
+provider.SetPagingInfo(100, 0);
+provider.SetRestriction(new ArchiveRestrictionInfo("contactId", "=", CultureDataFormatter.Encode(24)));
+
+foreach (var row in provider.GetRows(AggregationProvider2.GrandTotalOption + "=true"))
+{
+  // ...
+}
+```
 
 ### Query output
 

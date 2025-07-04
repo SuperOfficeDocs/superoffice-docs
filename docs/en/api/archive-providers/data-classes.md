@@ -3,8 +3,10 @@ title: Data classes
 uid: archive_provider_classes
 description: Archive provider data classes
 author: SuperOffice Product and Engineering
-keywords:
+keywords: ArchiveColumnInfo, ArchiveEntityInfo, ArchiveRestrictionInfo, ArchiveRow, ArchiveColumnData
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Data classes

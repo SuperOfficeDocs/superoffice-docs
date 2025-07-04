@@ -11,6 +11,25 @@ redirect_from: /en/company/howto/services/get-catlist-mdoagent
 
 # Get a CategoryList using the MDO Agent
 
-[!code-csharp[CS](includes/get-catlist-mdoagent.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Services;
+
+using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
+{
+  //get the MDO agent
+  using(MDOAgent mdoAgent = new MDOAgent())
+  {
+    MDOListItem[] categoryList =
+    mdoAgent.GetSimpleList("category");
+
+    //loop through the retrieved list and output them on the console
+    foreach (MDOListItem item in categoryList)
+    {
+      Console.WriteLine(item.Name);
+    }
+  }
+}
+```
 
 The example above shows how we can use the `GetSimpleList` method available through the `MDOAgent` to retrieve the category list.

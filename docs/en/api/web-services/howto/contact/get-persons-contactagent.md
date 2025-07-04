@@ -13,7 +13,33 @@ redirect_from: /en/contact/howto/services/get-persons-contactagent
 
 You can retrieve a `Person` list is with the `GetPersonList` method available through the `PersonAgent`. To use this service, we must know the IDs of the people we want before we can make the call. If we do not know the ID, we need to use a different service, for example, a method like `GetPersonsFromContact`.
 
-[!code-csharp[CS](includes/getcontactwithpersons-contactagent.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Services;
+
+using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
+{
+  //Instantiating the Contact Agent
+  using(ContactAgent newConAgt = new ContactAgent())
+  {
+    //Retrieving a Contact Entity with the use of the Contact Agent
+    ContactEntity newConEnt = newConAgt.GetContactWithPersons(143);
+
+    //Retriving properties of a Person from the Contact Entity
+    if (newConEnt.Persons.Length > 0)
+    {
+      Console.WriteLine("Full Name" + "\t" + "ContactName" + "\t" + "Email");
+      foreach (Person newPerson in newConEnt.Persons)
+      {
+        Console.WriteLine(newPerson.Firstname + " " + newPerson.Lastname + "\t");
+        Console.Write(newPerson.ContactName + "\t");
+        Console.Write(newPerson.Email);
+        Console.WriteLine();
+      }
+    }
+  }
+}
+```
 
 After we have created an instance of the `ContactEntity` calling the `ContactAgent`’s `GetContactWithPersons` method, we can iterate through the `Person` property of the instantiated entity and retrieve its properties.
 

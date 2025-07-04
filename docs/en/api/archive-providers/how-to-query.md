@@ -4,8 +4,10 @@ uid: how_to_query_with_archive_providers
 description: How to perform an archive provider query
 author: Tony Yates
 date: 11.17.2017
-keywords:
+keywords: archive provider query, query database
 content_type: howto
+category: api
+topic: archive providers
 ---
 
 # How to perform an archive provider query
@@ -38,7 +40,60 @@ Both examples represent a query that selects all sales where the sale project ID
 
 The following example demonstrates how a `PersonProvider` is used to query data from the database.
 
-[!code-csharp[CS](includes/personprovider.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.ArchiveLists;
+using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
+{
+  SuperOffice.CRM.ArchiveLists.IArchiveProvider personArchive = new PersonProvider();
+
+  //Get the list of columns handled by this provider
+  List<ArchiveColumnInfo> availableColumns = personArchive.GetAvailableColumns();
+
+  //Get the list of Entities supported by this provider
+  List<ArchiveEntityInfo> availableEntities = personArchiveGetAvailableEntities();
+
+  //Display the list of column names and entity names in two list boxes
+  foreach (ArchiveColumnInfo columninfo in availableColumns)
+  {
+    FieldsListBox.Items.Add(columninfo.Name);
+  }
+  foreach (ArchiveEntityInfo entityinfo in availableEntities)
+  {
+    entitiesListBox.Items.Add(entityinfo.Name);
+  }
+
+  //Set the columns that needs to be returned
+  personArchive.SetDesiredColumns("personId", "fullName","personUdef:SuperOffice:6", "personUdef:SuperOffice:1");
+
+  //set the paging properties of the provider.
+  personArchive.SetPagingInfo(10, 0);
+  personArchive.SetOrderBy(new ArchiveOrderByInfo("contactId", SuperOfficeUtil.OrderBySortType.DESC),
+  new ArchiveOrderByInfo("personUdef:SuperOffice:6", SuperOffice.UtilOrderBySortType.ASC));
+
+  //An array of restrictions with an implicit and in between them.
+  personArchive.SetRestriction(new ArchiveRestrictionInfo("personId", ">","50"),
+  new ArchiveRestrictionInfo("personUdef:SuperOffice:6", "=", "1"));
+
+  //Display the retrieved data in another list box
+  int rowNo = 1;
+  foreach (ArchiveRow row in personArchive.GetRows())
+  {
+    if (rowNo == 1)
+    {
+      foreach (KeyValuePair<string, ArchiveColumnData>column inrowColumnData)
+      {
+        resultsListbox.Items.Add(column.Key);
+      }
+    }
+    foreach (KeyValuePair<string, ArchiveColumnData> column inrowColumnData)
+    {
+      resultsListbox.Items.Add(column.Value.ToString());
+    }
+    ++rowNo;
+  }
+}
+```
 
 Here we have initially created an archive provider of type Person. PersonProvider is a specially designed archive provider:
 
@@ -69,7 +124,34 @@ Accept: application/json
 
 Using the RESTful Agent Find endpoint (see [documentation][2]):
 
-[!code-csharp[NetServer Web Services](includes/query-rest-agent.js)]
+```http
+POST /Cust12345/api/v1/Agents/Find/FindFromRestrictionsColumns HTTP/1.1
+Host: sod.superoffice.com:443
+Authorization: Bearer 8A:Cust12345.AS5...sy9
+Accept: application/json
+Content-Type: application/json
+
+{
+  "ProviderName": "FindSale",
+  "DesiredColumns": [
+    "saleId",
+    "heading",
+    "projectId"
+  ],
+  "Restrictions": [
+    {
+      "Name": "projectId",
+      "Operator": "=",
+      "Values": [
+        "47"
+      ],
+      "IsActive": true
+    }
+  ],
+  "Page": 0,
+  "PageSize": 100
+}
+```
 
 <!-- Referenced links -->
 [1]: ../reference/restful/rest/Sale/v1SaleEntity_GetAll.md

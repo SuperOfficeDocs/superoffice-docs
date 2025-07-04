@@ -19,13 +19,64 @@ The SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary project contains one c
 
 The customer model CustomerInfo contains 6 properties that represent a single customer tenant.
 
-[!code-csharp[CS](includes/customer-info.cs)]
+```csharp
+namespace SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary.Models
+{
+    public class CustomerInfo
+    {
+        public int ID { get; set; }
+        public int AssociateID { get; set; }
+        public bool IsActive { get; set; }
+        public string SystemUserToken { get; set; }
+        public string ContextIdentifier { get; set; }
+        public DateTime LastSync { get; set; }
+    }
+}
+```
 
 ## CustomerDataSource class
 
 The `CustomerDataSource` class could not be more simple. Its sole responsibility is to read CustomerInfo data from and save new CustomerInfo data to, an XML file. This project and data source classes are used by both the MVC website and the console application.
 
-[!code-csharp[CS](includes/customer-data-source.cs)]
+```csharp
+public class CustomerDataSource
+{
+    private const string _dataSource = @"C:\Temp\Customers.xml";
+
+    public CustomerDataSource()
+    {
+        Deserialize();
+    }
+
+    public List<CustomerInfo> Customers = new List<CustomerInfo>();
+
+    public void Save()
+    {
+         XmlSerializer serializer = new XmlSerializer(typeof(List<CustomerInfo>));
+
+        using (TextWriter writer = new StreamWriter( _dataSource))
+        {
+             serializer.Serialize(writer, Customers);
+        }
+    }
+
+    private void Deserialize()
+    {
+        if (!File.Exists(_dataSource))
+        {
+            return;
+        }
+
+        XmlSerializer deserializer = new XmlSerializer(typeof(List<CustomerInfo>));
+        using(TextReader reader = new StreamReader(_dataSource))
+        {
+            object obj = deserializer.Deserialize(reader);
+            Customers = (List<CustomerInfo>)obj;
+            reader.Close();
+        }
+    }
+}
+```
 
 ## Earlier versions of this example
 

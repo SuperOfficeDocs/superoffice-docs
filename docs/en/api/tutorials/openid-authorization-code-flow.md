@@ -143,7 +143,31 @@ Add an empty controller, call it **CallbackController**.
 
 The Callback controller is called from SuperID with two values: **state** and **code**
 
-[!code-csharp[CS](includes/actionresult.cs)]
+```csharp
+public ActionResult Index(string state, string code)
+{
+  // Callback 1 in authorization flow
+  if (state != null && code != null)
+  {
+    try
+    {
+      var storedState = Session["state"] as string;
+      if (storedState != state)
+        throw new Exception("OAuth State mismatch.");
+      OAuthHelper.GetAuthorizationCode(Server, Session, code);
+      return RedirectToAction("Index", "App");
+    }
+    catch( Exception ex)
+    {
+      object model = ex.Message;
+      return View(model);
+    }
+  }
+  // Something is wrong, start over
+  object error = "Unknown callback request. Missing state and/or code.";
+  return View( error );
+}
+```
 
 To handle the Authorization Code, we check the State value we stored earlier.
 
@@ -168,19 +192,92 @@ Response to POST to /login/common/oauth/tokens
 
 So we can make a class that matches the properties in the response, and RestSharp will map everything for us:
 
-[!code-csharp[CS](includes/tokensresponse.cs)]
+```csharp
+internal class TokensResponse
+{
+  public string token_type { get; set; }
+  public string access_token { get; set; }
+  public int expires_in { get; set; }
+  public string refresh_token { get; set; }
+  public string id_token { get; set; }
+}
+```
 
 Now to get the token from SuperId we need to make the `OAuthHelper` class:
 
-[!code-csharp[CS](includes/oauthhelper.cs)]
+```csharp
+public class OAuthHelper
+{
+  void GetAuthorizationCode(HttpServer server, HttpSession session, string code)
+  {
+    GetSuperIdTokens(server, session, code, null, "authorization_code");
+  }
+
+  void GetSuperIdTokens(HttpServer server, HttpSession session, string code, string refreshToken, string grant_type)
+  {
+    // Make new request from SuperID to get refresh token
+
+    string appId = ConfigurationManager.AppSettings["SoAppId"];
+    string appToken = ConfigurationManager.AppSettings["SoAppToken"];
+    string appUrl = ConfigurationManager.AppSettings["SoAppUrl"];
+    string url = ConfigurationManager.AppSettings["SoFederationGateway"];
+
+    // Make the request from the server, since the secret appToken is used
+    var client = new RestClient(url);
+    var request = new RestRequest("common/oauth/tokens", Method.POST);
+    request.AddParameter("client_id", appId);
+    request.AddParameter("client_secret", appToken);
+    if( code != null ) request.AddParameter("code", code);
+    if( refreshToken!= null ) request.AddParameter("refresh_token", refreshToken);
+    request.AddParameter("redirect_uri", appUrl);
+    request.AddParameter("grant_type", grant_type);
+
+    var response = client.Execute<TokensResponse>(request);
+    if (response.IsSuccessful)
+    {
+      var tokens = response.Data;
+      StoreTokensInSession(server, session, tokens).access_token, tokens.token_type, tokens.expires_in, tokens.refresh_token, tokens.id_token);
+    }
+  }
+}
+```
 
 Before we store the tokens in the session, we must make sure that the JWT token is valid (signed by SuperID). If the tokens come from somewhere else, we need to reject the request.
 
-[!code-csharp[CS](includes/storetokensinsession.cs)]
+```csharp
+void StoreTokensInSession(HttpServer server, HttpSession session, TokensResponse tokens)
+{
+  // Validate JWT token
+  var superIdToken = ValidateToken(server, tokens.id_token);
+  if (superIdToken == null)
+      throw new Exception("Invalid JWT token: " + tokens.id_token );
+
+  // Store tokens
+  session["LoggedIn"] = tokens.access_token;
+  session["RefreshToken"] = tokens.refresh_token;
+  session["Expires"] = DateTime.Now.AddSeconds(tokens.expires_in);
+  session["Token"] = superIdToken;
+  session["NetServerUrl"] = superIdToken.NetserverUrl;
+}
+```
 
 To validate the token, we use an X509 certificate and the **SuperIdTokenHandler** from the `Online.Core` package we added earlier.
 
-[!code-csharp[CS](includes/validatetoken.cs)]
+```csharp
+SuperIdToken ValidateToken(HttpServerUtilityBase server, string token)
+{
+  var path = server.MapPath("~/App_Data/") +"SOD_SuperOfficeFederatedLogin.crt";
+
+  var tokenHandler = new SuperIdTokenHandler();
+  tokenHandler.JwtIssuerSigningCertificate = new X509Certificate2(path);
+  tokenHandler.CertificateValidator = X509CertificateValidator.ChainTrust;
+
+  // override issuer name with environment name
+  tokenHandler.ValidIssuer = "https://sod.superoffice.com";
+
+  return tokenHandler.ValidateToken(token, TokenType.Jwt);
+}
+```
 
 If the token is valid, a token object is returned, otherwise, an exception is thrown.
 
@@ -224,15 +321,85 @@ Then we check if the access token has expired. If it has, we need to get a new a
 
 Then we can go get some data from the SuperOffice API, and use it to render a view.
 
-[!code-csharp[CS](includes/appcontroller.cs)]
+```csharp
+public class AppController : Controller
+{
+  RestClient _client = new RestClient();
+
+  // GET: App - must be logged in to access this
+  public ActionResult Index()
+  {
+    // Are we logged in?
+    if (Session["LoggedIn"] == null)
+      return RedirectToAction("Index", "Home");
+
+    // Do we need to refresh access token?
+    string error = null;
+    DateTime expiryDate = (DateTime)Session["Expires"];
+    if (expiryDate < DateTime.Now)
+      error = RefreshAcessToken();
+
+    string accessToken = Session["LoggedIn"] as string;
+    string baseUrl = Session["NetServerUrl"] as string; // https://xxx.yyy/api
+
+    var model = GetDataFromSuperOffice(baseUrl, accessToken);
+    model.TimeLeft = expiryDate - DateTime.Now;
+    model.Error = error;
+
+    return View(model);
+  }
+}
+```
 
 To refresh the Access token we use the OAuth helper we made before:
 
-[!code-csharp[CS](includes/refreshaccesstoken.cs)]
+```csharp
+string RefreshAcessToken()
+{
+  try
+  {
+    string refresh_token = Session["RefreshToken"] as string;
+    OAuthHelper.GetRefreshToken(Server, Session, refresh_token);
+    return null;
+  }
+  catch (Exception ex)
+  {
+    return ex.Message; 
+  }
+}
+```
 
 Finally, we are ready to get the data from SuperOffice:
 
-[!code-csharp[CS](includes/getdatafromso.cs)]
+```csharp
+AppModel GetDataFromSuperOffice(string baseUrl, string accessToken)
+{
+  var model = new AppModel();
+  model.BaseUrl = baseUrl;
+  model.AccessToken = accessToken;
+  _client.BaseUrl = new Uri(baseUrl);
+  _client.AddDefaultHeader("Authorization", string.Format("Bearer {0}", accessToken));
+
+  // We don't want XML but JSON response, so force JSON serializer
+  _client.ClearHandlers();
+  _client.AddHandler("application/json", new RestSharp.Deserializers.JsonDeserializer());
+  var request = new RestRequest("v1/Contact", Method.GET);
+
+  // request.AddParameter("$filter", "registeredDate thisYear");
+  request.AddParameter("$select", "contactId,nameDepartment,category,business,number,registeredDate");
+  var response = _client.Execute<ODataResponse>(request);
+
+  if (response.IsSuccessful)
+  {
+      model.Contacts = response.Data.value.ToArray();
+  }
+  else
+  {
+      model.Error = response.ErrorMessage;
+  }
+  return model;
+}
+```
 
 We are setting the authorization header to BEARER + the access token.
 
@@ -271,11 +438,31 @@ Add two classes to *Models* folder: `AppModel` and `ContactModel`. These classes
 
 The `AppModel` describes the App user interface.
 
-[!code-csharp[CS](includes/appmodel.cs)]
+```csharp
+public class AppModel
+{
+    public TimeSpan TimeLeft { get; set; }
+    public string BaseUrl { get; set; }
+    public string AccessToken { get; set; }
+    public string Error { get; set; } 
+    public ContactModel[] Contacts { get; set; }
+}
+```
 
 The `ContactModel` describes the OData response we get back.
 
-[!code-csharp[CS](includes/contactmodel.cs)]
+```csharp
+public class ContactModel
+{
+  public int PrimaryKey { get; set; }
+  public int contactId { get; set; }
+  public string nameDepartment { get; set; }
+  public string category { get; set; }
+  public string business { get; set; }
+  public string number { get; set; }
+  public DateTime registeredDate { get; set; }
+}
+```
 
 ## Add app view
 
