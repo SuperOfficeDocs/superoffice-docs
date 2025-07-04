@@ -18,7 +18,40 @@ There can be more than one way to assign a new Entity to a property that is expo
 
 In this example, the `Person` property of the `Sale` Entity has been exposed as an Entity.
 
-[!code-csharp[CS](includes/create-entity-1.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Entities;
+using SuperOffice.CRM.Rows;
+using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
+{
+  //create an entity
+  Sale mySale = Sale.CreateNew();
+  mySale.SetDefaults();
+
+  //here we are accessing a property of another entity
+  mySale.Person.Firstname = "Johnny";
+  mySale.Person.Lastname = "Depp";
+  mySale.Person.DayOfBirth = 09;
+  mySale.Person.MonthOfBirth = 06;
+  mySale.Person.YearOfBirth = 1963;
+  mySale.Person.Gender = 2;
+
+  PhoneRow numerOne = PhoneRow.CreateNew();
+  numerOne.PhoneNumber = "123456";
+  numerOne.Rank = 1;
+
+  PhoneRow numbrerTwo = PhoneRow.CreateNew();
+  numbrerTwo.PhoneNumber = "890112";
+  numbrerTwo.Rank = 2;
+
+  //here we are adding rows to another entities property that is exposed as a row.
+  mySale.Person.MobilePhones.Add(numerOne);
+  mySale.Person.MobilePhones.Add(numbrerTwo);
+
+  //save the sale entity
+  mySale.Save();
+}
+```
 
 You can access all the properties of the `Person` Entity through the `Sale` entity as shown in the example.
 
@@ -33,7 +66,53 @@ Here, NetServer will create a new record in the `person` table and assign the pe
 
 Above, we used a property exposed by another Entity when creating a new Entity. Here, we will create the new Entity separately and then assign it to a property of another Entity.
 
-[!code-csharp[CS](includes/create-entity-2.cs)]
+```csharp
+using SuperOffice.CRM.Entities;
+using SuperOffice;
+using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
+{
+  //create a contact entity and assign some of its properties with data
+  Contact myContact = Contact.CreateNew();
+  myContact.SetDefaults();
+  myContact.Name = "ABC Company";
+
+  //add two elements to the URL's collection since we are going to add two URLs
+  myContact.Urls.AddNew();
+  myContact.Urls.AddNew();
+  myContact.Urls[0].UrlAddress1 = "ABCCompany.com";
+  myContact.Urls[0].Rank = 1;
+  myContact.Urls[1].UrlAddress1 = "ABCCompanyServices.com";
+  myContact.Urls[1].Rank = 2;
+  myContact.PostalAddress.Address1 = "P.O.Box 345";
+  myContact.PostalAddress.Address2 = "Kalbakken";
+  myContact.PostalAddress.Zipcode = "0901";
+  myContact.PostalAddress.City = "OSLO";
+
+  //create a project entity and assign some of its properties with data
+  Project myProject = Project.CreateNew();
+  myProject.SetDefaults();
+  myProject.Name = "ABC Company Project";
+
+  //create two ProjectMember instances and assign them with person
+  ProjectMember memberOne = ProjectMember.CreateNew();
+  memberOne.SetDefaults();
+  memberOne.Person = Person.GetFromIdxPersonId(24);
+  ProjectMember memberTwo = ProjectMember.CreateNew();
+  memberTwo.SetDefaults();
+  memberTwo.Person = Person.GetFromIdxPersonId(25);
+
+  //here we add the two created project member to the members collection of the project entity
+  myProject.Members.Add(memberOne);
+  myProject.Members.Add(memberTwo);
+
+  //create a sale entity and assign the above created entities to the respective properties
+  Sale mySale = Sale.CreateNew();
+  mySale.SetDefaults();
+  mySale.Contact = myContact;
+  mySale.Project = myProject;
+  mySale.Save();
+}
+```
 
 Since this example is a bit long and complex, it will be explained step by step.
 
