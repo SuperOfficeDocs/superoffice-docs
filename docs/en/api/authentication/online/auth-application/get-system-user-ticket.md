@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: authentication, soap, system user
 content_type: howto
+category: api
 deployment: online
 platform: web
 ---
@@ -39,7 +40,7 @@ SuperOffice CRM Online exposes one REST endpoint for conducting the exchange:
 
 The following example is demonstrates the HTTP request.
 
-```json
+```http
 @signed_Token=YOUR_SIGNED_TOKEN
 @client_Secret=YOUR_CLIENT_SECRET
 @context_Identifier=YOUR_CUSTOMER_ID
@@ -118,13 +119,32 @@ The following example code has an extensive amount of logging to the console. Th
 <details>
   <summary>NPM package.json file for NodeJS REST example.</summary>
 
-### package.json file
+#### package.json file
 
-[!code-json[example 1](includes/package.json)]
+```json
+{
+  "name": "devnet-nodejs-systemuser-rest",
+  "version": "1.0.0",
+  "description": "Signs system user token and requests system user ticket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "AnthonyYates",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": ">=9.0.0",
+    "moment": "^2.22.2"
+  }
+}
+```
 
 </details>
 
-### index.js code
+#### index.js code
 
 [!code-JavaScript[index.js](includes/index.js)]
 
@@ -133,15 +153,34 @@ The following example code has an extensive amount of logging to the console. Th
 <details>
   <summary>NPM package.soap.json file for NodeJS SOAP example.</summary>
 
-### package.soap.json file
+#### package.soap.json file
 
 [!code-json[example 1](includes/package.soap.json)]
 
 </details>
 
-### index.soap.js code
+#### index.soap.js code
 
-[!code-JavaScript[index.js](includes/index.soap.js)]
+```json
+{
+  "name": "devnet-nodejs-systemuser-soap",
+  "version": "0.0.1",
+  "description": "Exchange system user token for system user ticket.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.soap.js"
+  },
+  "author": "AnthonyYates",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": ">=9.0.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  }
+}
+```
 
 ***
 

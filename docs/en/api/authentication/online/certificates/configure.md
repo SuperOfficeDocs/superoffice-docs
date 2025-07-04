@@ -5,6 +5,7 @@ description: How to configure certificates in the Windows certificate store
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
+category: api
 deployment: online
 platform: web
 ---

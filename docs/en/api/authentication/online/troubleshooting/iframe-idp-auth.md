@@ -5,6 +5,7 @@ description: Unable to authenticate inside an iframe with IdP
 author: SuperOffice Product and Engineering
 keywords: authentication
 content_type: concept
+category: api
 deployment: online
 platform: web
 ---
