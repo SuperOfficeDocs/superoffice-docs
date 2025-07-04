@@ -6,6 +6,7 @@ author: frodeb@superoffice.com
 date: 01.15.2024
 content_type: concept
 keywords: SuperID, IdP, Microsoft Entra, ME-ID, AAD
+index: true
 ---
 
 # Introduction to SuperOffice identity management

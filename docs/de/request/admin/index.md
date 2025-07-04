@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
 redirect_from: /de/request/learn/admin/index
+index: true
 ---
 
 # Unterschiedliche Einstellungen für Service

@@ -8,6 +8,7 @@ keywords: federated authentication, SuperID, identity provider, sign-in
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Online authentication

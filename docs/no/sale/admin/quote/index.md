@@ -15,6 +15,7 @@ redirect_from:
   - /no/quote/learn/admin/index
   - /no/quote/learn/admin/quotesync-tab-erp-connections
   - /no/quote/learn/admin/quotesync-tab-settings
+index: true
 ---
 
 # Administrer tilbud og ordrekonfigurasjon

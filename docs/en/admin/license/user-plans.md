@@ -9,6 +9,7 @@ version: 10.3.5
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # SuperOffice user plans and subscriptions

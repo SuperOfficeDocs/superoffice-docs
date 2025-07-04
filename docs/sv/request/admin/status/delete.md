@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/request/learn/status/delete
+index: true
 ---
 
 # Ta bort ärendestatus

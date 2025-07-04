@@ -8,6 +8,7 @@ date: 03.21.2024
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Enforce a password policy

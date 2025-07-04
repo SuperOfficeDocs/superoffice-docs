@@ -10,6 +10,7 @@ content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+index: true
 ---
 
 # Opdrachtbevestigingssjabloon aanpassen

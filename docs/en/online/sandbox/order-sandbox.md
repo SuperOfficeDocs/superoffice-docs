@@ -7,6 +7,7 @@ keywords: online sandbox
 content_type: form
 deployment: online
 platform: web
+index: true
 ---
 
 <!-- markdownlint-disable-file MD041 MD044 -->

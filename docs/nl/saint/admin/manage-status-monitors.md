@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/sale/saint/learn/admin/manage-status-monitors
+index: true
 ---
 
 # Statuscontroles beheren

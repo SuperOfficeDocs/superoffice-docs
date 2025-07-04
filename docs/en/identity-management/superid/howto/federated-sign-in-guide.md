@@ -8,6 +8,7 @@ keywords: SuperID, Microsoft Entra ID
 content_type: tutorial
 deployment: online
 platform: web
+index: true
 ---
 
 # Guide to federated sign-in

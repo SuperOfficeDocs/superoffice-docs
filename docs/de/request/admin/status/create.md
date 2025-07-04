@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
 redirect_from: /de/request/learn/status/create
+index: true
 ---
 
 # Anfragestatus erstellen

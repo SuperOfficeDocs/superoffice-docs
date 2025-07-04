@@ -8,6 +8,7 @@ date:
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # SuperID terms and conditions

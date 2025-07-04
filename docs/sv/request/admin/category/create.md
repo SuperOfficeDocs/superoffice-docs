@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/request/learn/category/create
+index: true
 ---
 
 # Skapa ärendekategori

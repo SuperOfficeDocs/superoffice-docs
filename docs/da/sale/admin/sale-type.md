@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/admin/lists/learn/sale-type
   - /da/sale/learn/screen/sales-type-for-stages
+index: true
 ---
 
 # Salgstype

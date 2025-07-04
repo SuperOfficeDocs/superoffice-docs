@@ -11,6 +11,7 @@ audience: person
 audience_tooltip: SuperOffice Service
 language: nl
 redirect_from: /nl/request/learn/next-in-queue
+index: true
 ---
 
 # Hoe 'Volgende verzoek in wachtrij ophalen' instellen

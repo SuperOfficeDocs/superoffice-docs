@@ -9,9 +9,9 @@ version: 9, teller
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 redirect_from: /no/sale/saint/learn/admin/select-period-length
+index: true
 ---
 
 # Angi periodelengde

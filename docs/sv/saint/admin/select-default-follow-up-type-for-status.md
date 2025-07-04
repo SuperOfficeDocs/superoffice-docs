@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/sale/saint/learn/admin/select-default-follow-up-type-for-status
+index: true
 ---
 
 # Välja typ av standardhändelse för status

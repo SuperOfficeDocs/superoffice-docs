@@ -8,6 +8,7 @@ keywords: authentication, user
 content_type: concept
 deployment: onsite
 platform: web
+index: true
 ---
 
 # Tickets and identity transfers

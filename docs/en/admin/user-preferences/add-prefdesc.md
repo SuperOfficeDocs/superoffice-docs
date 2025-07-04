@@ -6,6 +6,7 @@ keywords: add user preference, prefdesc
 author: SuperOffice Product and Engineering
 date: 12.21.2022
 content_type: howto
+index: true
 ---
 
 <!-- markdownlint-disable-file MD013 -->

@@ -8,6 +8,7 @@ keywords:
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # Known challenges with SuperID

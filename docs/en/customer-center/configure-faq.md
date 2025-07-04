@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: FAQ, CEP, Customer Center, registry, comment
 content_type: howto
 audience: settings
+index: true
 ---
 
 # Configure FAQ entries

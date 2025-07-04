@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/admin/lists/learn/add-template
+index: true
 ---
 
 # Lägga till en dokumentmall

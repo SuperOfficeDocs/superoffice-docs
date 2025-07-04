@@ -6,6 +6,7 @@ keywords: AI, machine learning
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Categorization

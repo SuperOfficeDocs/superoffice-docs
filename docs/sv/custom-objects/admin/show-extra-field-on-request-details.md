@@ -9,6 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+index: true
 ---
 
 # Visa extra fält på fliken Detaljer

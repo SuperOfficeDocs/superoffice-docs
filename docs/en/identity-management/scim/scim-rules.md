@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: concepts
 deployment: online
 platform: web
+index: true
 ---
 
 # SCIM rules

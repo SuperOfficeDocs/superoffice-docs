@@ -8,6 +8,7 @@ keywords: SharePoint, document, template
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # How to configure settings in SuperOffice Settings and maintenance

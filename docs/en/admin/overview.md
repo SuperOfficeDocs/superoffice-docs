@@ -5,6 +5,7 @@ description: SuperOffice Maintenance and Settings
 author: SuperOffice Product and Engineering
 keywords:
 date:
+index: true
 ---
 
 # Admin

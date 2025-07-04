@@ -8,6 +8,7 @@ keywords:
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Primary tenant

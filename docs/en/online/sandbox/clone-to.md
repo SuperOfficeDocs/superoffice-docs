@@ -9,6 +9,7 @@ keywords: tenant, sandbox, test environment, clone
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # Steps performed when we clone a source database to a production sandbox

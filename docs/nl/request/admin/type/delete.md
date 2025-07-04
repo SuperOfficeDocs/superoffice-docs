@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/request/learn/type/delete
+index: true
 ---
 
 # Verzoektype verwijderen

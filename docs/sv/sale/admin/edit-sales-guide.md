@@ -14,6 +14,7 @@ language: sv
 redirect_from:
   - /sv/sale/learn/sales-guide/deactivate
   - /sv/sale/learn/sales-guide/edit
+index: true
 ---
 
 # Redigera eller inaktivera en säljguide

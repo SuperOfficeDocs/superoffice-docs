@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 05.30.2023
 keywords: reply template, request, ticket, parse
 content_type: concept
+index: true
 ---
 
 # Service reply templates

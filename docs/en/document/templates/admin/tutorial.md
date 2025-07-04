@@ -10,6 +10,7 @@ content_type: tutorial
 language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 ---
 
 # Customize order confirmation template

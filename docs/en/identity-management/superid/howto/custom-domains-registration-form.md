@@ -8,6 +8,7 @@ keywords: custom domains registration form
 content_type: form
 deployment: online
 platform: web
+index: true
 ---
 
 # Custom domains registration

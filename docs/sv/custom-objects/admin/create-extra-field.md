@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/custom-objects/learn/extra-field/create
+index: true
 ---
 
 # Lägg till extrafält

@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/admin/lists/learn/sale-stage
   - /da/sale/learn/screen/sale-stage
+index: true
 ---
 
 # Salgsfase

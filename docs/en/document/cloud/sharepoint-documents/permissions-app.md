@@ -8,6 +8,7 @@ keywords: permission, integration, app, SharePoint, document
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # Permissions for SuperOffice Document Library integration (app)

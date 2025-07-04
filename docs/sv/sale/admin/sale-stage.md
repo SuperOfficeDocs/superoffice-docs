@@ -13,6 +13,7 @@ language: sv
 redirect_from:
   - /sv/admin/lists/learn/sale-stage
   - /sv/sale/learn/screen/sale-stage
+index: true
 ---
 
 # Försäljningsfas

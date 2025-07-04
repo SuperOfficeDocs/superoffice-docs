@@ -11,6 +11,7 @@ audience: person
 audience_tooltip: SuperOffice Service
 language: da
 redirect_from: /da/request/learn/next-in-queue
+index: true
 ---
 
 # Sådan konfigurerer du Hent næste sag i køen

@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/project/learn/project-guide/create
   - /da/project/learn/screen/project-guide-admin
+index: true
 ---
 
 # Oprettelse af ny projektguide

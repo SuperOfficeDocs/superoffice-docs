@@ -5,6 +5,7 @@ description: Reset password
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
+index: true
 ---
 
 # Reset password

@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 redirect_from: /da/quote/learn/admin/erp-connection-add
+index: true
 ---
 
 # Konfigurer ERP-link for Quote Connector

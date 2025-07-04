@@ -5,6 +5,7 @@ description: Add a user in the Admin client
 author: Bergfrid Dias
 keywords:
 content_type: howto
+index: true
 ---
 
 # Add a user in the Admin client

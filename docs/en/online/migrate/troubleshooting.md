@@ -6,6 +6,7 @@ author: AnthonyYates
 keywords: migrate
 content_type: tutorial
 deployment: online, onsite
+index: true
 ---
 
 # Troubleshooting Migration Errors

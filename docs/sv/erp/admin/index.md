@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
 redirect_from: /sv/quote/learn/admin/sync/index
+index: true
 ---
 
 # Hantera ERP-synkronisering

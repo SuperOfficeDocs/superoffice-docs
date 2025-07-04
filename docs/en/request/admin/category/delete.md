@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from: /en/request/learn/category/delete
+index: true
 ---
 
 # Delete request category

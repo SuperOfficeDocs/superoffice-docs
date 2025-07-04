@@ -7,6 +7,7 @@ date: 03.16.2023
 keywords: Customer Center, CEP, parser variable
 audience: settings
 content_type: reference
+index: true
 ---
 
 # Customer center configuration

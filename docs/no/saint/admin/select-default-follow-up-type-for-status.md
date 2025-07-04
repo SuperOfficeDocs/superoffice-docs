@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/sale/saint/learn/admin/select-default-follow-up-type-for-status
+index: true
 ---
 
 # Velg en standard oppfølgingstype for en status

@@ -14,6 +14,7 @@ language: sv
 redirect_from:
   - /sv/admin/lists/learn/sale-type
   - /sv/sale/learn/screen/sales-type-for-stages
+index: true
 ---
 
 # Försäljningstyp

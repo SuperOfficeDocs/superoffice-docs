@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/admin/lists/learn/project-status
   - /da/project/learn/screen/project-status-admin
+index: true
 ---
 
 # Projektstatus

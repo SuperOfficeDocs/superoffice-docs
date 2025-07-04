@@ -7,7 +7,8 @@ author: David Hollegien
 date: 07.17.2024
 version: 10.3
 content_type: reference
-language: en
+language: no
+index: true
 ---
 
 # Variabler for saker
