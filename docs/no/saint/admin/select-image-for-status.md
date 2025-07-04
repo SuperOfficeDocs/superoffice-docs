@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/sale/saint/learn/admin/select-image-for-status
 ---
 
 # Velge et bilde for en status

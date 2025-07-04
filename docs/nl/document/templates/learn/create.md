@@ -8,6 +8,7 @@ date: 02.25.2025
 version: 10.5.2
 content_type: howto
 language: nl
+redirect_from: /nl/admin/lists/learn/creating-template-document
 ---
 
 # Een sjabloondocument maken

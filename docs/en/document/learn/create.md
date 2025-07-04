@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/document/learn/upload
+  - /en/document/learn/screen/index
 ---
 
 # Create new document

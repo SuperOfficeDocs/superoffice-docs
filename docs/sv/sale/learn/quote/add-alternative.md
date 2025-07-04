@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/quote/learn/add-alternative
 ---
 
 # Lägga till alternativ i en offert

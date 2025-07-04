@@ -11,6 +11,9 @@ license: salespremium
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
+redirect_from:
+  - /de/sale/learn/sales-guide/deactivate
+  - /de/sale/learn/sales-guide/edit
 ---
 
 # Verkaufsleitfaden bearbeiten oder deaktivieren

@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 10.25.2024
 version: 10
 topic: concept
+redirect_from:
+  - /en/project/overview
+  - /en/project/howto/index
 ---
 
 # Projects

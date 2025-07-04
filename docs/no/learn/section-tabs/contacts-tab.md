@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/company/learn/screen/contacts-tab
 ---
 
 # Personfanen

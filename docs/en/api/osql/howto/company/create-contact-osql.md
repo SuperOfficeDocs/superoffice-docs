@@ -6,6 +6,7 @@ keywords: contact, company, OSQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/company/howto/osql/create-contact-osql
 ---
 
 # Create a contact through OSQL

@@ -8,6 +8,9 @@ date: 07.31.2024
 version: 10
 content_type: concept
 language: en
+redirect_from:
+  - /en/document/templates/quote/index
+  - /en/document/templates/quote/lang-culture
 ---
 
 # Quote templates and merge fields

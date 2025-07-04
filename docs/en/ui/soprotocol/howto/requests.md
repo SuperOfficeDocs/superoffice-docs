@@ -8,6 +8,7 @@ keywords: soprotocol, requests
 content_type: howto
 platform: web
 deployment: online, onsite
+redirect_from: /en/ui/soprotocol/requests
 ---
 
 # How to work with Requests using SoProtocol

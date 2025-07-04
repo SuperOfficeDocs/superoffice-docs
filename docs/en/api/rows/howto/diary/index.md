@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, row
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: reference
+redirect_from: /en/diary/howto/row/index
 ---
 
 # Diary - rows

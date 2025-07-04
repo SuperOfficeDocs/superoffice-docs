@@ -8,6 +8,7 @@ date: 02.25.2025
 version: 10.5.2
 content_type: howto
 language: sv
+redirect_from: /sv/admin/lists/learn/creating-template-document
 ---
 
 # Skapa ett malldokument

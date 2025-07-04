@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 02.21.2022
 version: 10
 content_type: howto
+redirect_from: /en/company/howto/crmscript/create-company
 ---
 
 # Create and update companies

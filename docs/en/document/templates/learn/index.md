@@ -8,6 +8,7 @@ date: 07.11.2024
 version: 10.3
 content_type: concept
 language: en
+redirect_from: /en/admin/lists/learn/document-template
 ---
 
 # Document templates

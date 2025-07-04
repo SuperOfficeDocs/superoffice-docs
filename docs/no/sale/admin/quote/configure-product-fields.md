@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/quote/learn/admin/product/configure
 ---
 
 # Konfigurer felter i Legg til/rediger produkt-dialogen

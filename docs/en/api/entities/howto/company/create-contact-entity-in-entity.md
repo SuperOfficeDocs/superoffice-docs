@@ -6,6 +6,7 @@ keywords: contact, company, entity, API
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/entity/create-contact-entity-in-entity
 ---
 
 # Create a Contact entity through an entity

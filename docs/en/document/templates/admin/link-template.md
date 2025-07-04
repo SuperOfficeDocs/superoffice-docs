@@ -10,6 +10,9 @@ content_type: howto
 language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from:
+  - /en/admin/lists/learn/add-template
+  - /en/document/cloud/g-suite/configure
 ---
 
 # Link a document template

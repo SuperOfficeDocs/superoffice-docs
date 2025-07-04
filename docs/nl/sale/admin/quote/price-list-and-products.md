@@ -11,6 +11,12 @@ license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/quote/learn/admin/product/add-price-list
+  - /nl/quote/learn/admin/product/add-product-to-price-list
+  - /nl/quote/learn/admin/product/index
+  - /nl/quote/learn/admin/product/quote-delete-deactivate-price-list-or-product
+  - /nl/quote/learn/admin/product/select-product-image
 ---
 
 # Prijslijsten en producten beheren

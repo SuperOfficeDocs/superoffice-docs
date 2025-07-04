@@ -10,6 +10,7 @@ content_type: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /de/marketing/forms/learn/submissions/process
 ---
 
 # Formularübermittlungen verarbeiten

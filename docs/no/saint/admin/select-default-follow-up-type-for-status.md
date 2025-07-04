@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/sale/saint/learn/admin/select-default-follow-up-type-for-status
 ---
 
 # Velg en standard oppfølgingstype for en status

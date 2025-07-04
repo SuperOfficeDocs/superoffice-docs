@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+redirect_from:
+  - /no/admin/lists/learn/project-status
+  - /no/project/learn/screen/project-status-admin
 ---
 
 # Prosjektstatus

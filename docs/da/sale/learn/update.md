@@ -11,6 +11,7 @@ license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/sale/learn/delete
 ---
 
 # Opdater et salg

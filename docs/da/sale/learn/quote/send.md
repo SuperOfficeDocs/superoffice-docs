@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/quote/learn/approve
+  - /da/quote/learn/send
+  - /da/quote/learn/versions
 ---
 
 # Afsendelse af tilbud

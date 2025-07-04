@@ -12,6 +12,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+redirect_from: /sv/request/reply-templates/learn/find
 ---
 
 # Arbeta med svarsmallar

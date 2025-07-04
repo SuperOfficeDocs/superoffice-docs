@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/admin/lists/learn/relation
+  - /no/company/learn/add-relation
+  - /no/company/learn/delete-relation
+  - /no/contact/learn/add-relation
+  - /no/contact/learn/delete-relation
 ---
 
 # Firma- og personrelasjoner i SuperOffice CRM

@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: /en/request/learn/howto/accept
 ---
 
 # Accept (take responsibility for) request

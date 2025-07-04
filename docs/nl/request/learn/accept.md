@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+redirect_from: /nl/request/learn/howto/accept
 ---
 
 # Verantwoordelijkheid voor verzoeken opeisen

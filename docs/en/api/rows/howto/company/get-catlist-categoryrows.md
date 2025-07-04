@@ -6,6 +6,7 @@ keywords: category, rows
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/row/get-catlist-categoryrows
 ---
 
 # Get the CategoryList via CategoryRows object

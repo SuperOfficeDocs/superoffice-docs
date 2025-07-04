@@ -11,6 +11,10 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from:
+  - /de/quote/learn/admin/index
+  - /de/quote/learn/admin/quotesync-tab-erp-connections
+  - /de/quote/learn/admin/quotesync-tab-settings
 ---
 
 # Angebot und Auftrag einrichten

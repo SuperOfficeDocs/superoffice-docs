@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/diary/learn/invitation/add-participant
 ---
 
 # Teilnehmer und Ressourcen zu Folgeaufgaben hinzufügen

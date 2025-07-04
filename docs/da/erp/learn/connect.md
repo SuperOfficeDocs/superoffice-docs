@@ -11,6 +11,9 @@ license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/admin/erp/learn/erp-connect
+  - /da/admin/erp/learn/erp-create-new-actor
 ---
 
 # Knyt til ERP

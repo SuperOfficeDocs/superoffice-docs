@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/search-options/selection/learn/update/copy-members-to
 ---
 
 # In Selektionen kopieren

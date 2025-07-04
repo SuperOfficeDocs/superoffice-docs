@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
+redirect_from: /de/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Überwachte Links zu einer Mitteilung hinzufügen

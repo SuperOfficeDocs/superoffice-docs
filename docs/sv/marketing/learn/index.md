@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
+redirect_from: /sv/marketing/learn/screen/index
 ---
 
 # SuperOffice Marknadsföring <i class="ph ph-target" aria-hidden="true"></i>

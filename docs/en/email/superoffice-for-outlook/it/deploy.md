@@ -8,6 +8,7 @@ date: 03.14.2025
 version_sofo: 2024.8.12
 content_type: howto
 language: en
+redirect_from: /en/email/superoffice-for-outlook/deploy-centrally
 ---
 
 # Centralized deployment

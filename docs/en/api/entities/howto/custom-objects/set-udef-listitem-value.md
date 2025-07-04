@@ -8,6 +8,7 @@ keywords: udef, user-defined field, custom field, API, UdefHelper, ListTableId, 
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/custom-objects/udef/howto/entity/set-udef-listitem-value
 ---
 
 # How to set a user-defined list item on a Udef field

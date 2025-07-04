@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/sale/saint/learn/admin/index
 ---
 
 # Konfigurer SAINT

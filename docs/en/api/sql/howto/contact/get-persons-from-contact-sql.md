@@ -6,6 +6,7 @@ keywords: person, contact, company, API
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 content_type: howto
+redirect_from: /en/contact/howto/sql/get-persons-from-contact-sql
 ---
 
 # List persons in a company

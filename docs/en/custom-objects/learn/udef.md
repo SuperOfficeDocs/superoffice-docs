@@ -10,6 +10,9 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+redirect_from:
+  - /en/custom-objects/learn/udef/index
+  - /en/custom-objects/udef/index
 ---
 
 # User-defined fields

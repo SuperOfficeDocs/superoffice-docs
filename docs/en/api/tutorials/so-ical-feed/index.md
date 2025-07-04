@@ -7,6 +7,7 @@ date: 03.22.2022
 version: 10
 content_type: tutorial
 language: en
+redirect_from: /en/diary/tutorials/so-ical-feed/index
 ---
 
 # Tutorial - SuperOffice iCal Feed

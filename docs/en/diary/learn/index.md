@@ -11,6 +11,10 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/diary/learn/screen/
+  - /en/diary/overview
+  - /en/diary/learn/screen/index
 ---
 
 # Diary

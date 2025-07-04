@@ -9,6 +9,11 @@ version: 10
 topic: reference
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from:
+  - /en/company/howto/index
+  - /en/company/category-list
+  - /en/company/interests
+  - /en/company/overview
 ---
 
 # Working with companies in API

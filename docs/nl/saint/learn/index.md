@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/sale/saint/learn/index
 ---
 
 # Sales Intelligence (SAINT)

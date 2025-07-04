@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/email/inbox/learn/inbox-options
 ---
 
 # SuperOffice Inbox <i class="ph ph-at" aria-hidden="true"></i>

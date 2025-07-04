@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/company/learn/screen/activities-tab
+  - /sv/contact/learn/screen/activities-tab
+  - /sv/diary/learn/screen/activities-tab
+  - /sv/project/learn/screen/activities-project
+  - /sv/sale/learn/screen/activities-sale
 ---
 
 # Aktivitetsfliken

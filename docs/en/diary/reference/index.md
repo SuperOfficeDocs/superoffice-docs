@@ -9,6 +9,7 @@ version: 10
 topic: reference
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/diary/howto/index
 ---
 
 # Working with follow-ups (appointments) in API

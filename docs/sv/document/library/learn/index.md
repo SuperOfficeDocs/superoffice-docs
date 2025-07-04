@@ -8,6 +8,11 @@ date: 08.02.2024
 version: 10.3
 content_type: concept
 language: sv
+redirect_from:
+  - /sv/admin/preferences/learn/document-library/change-to-sharepoint
+  - /sv/admin/preferences/learn/document-library/index
+  - /sv/document/cloud/sharepoint-documents/learn/index
+  - /sv/document/cloud/sharepoint-documents/learn/set-up-folders
 ---
 
 # Dokumentbibliotek

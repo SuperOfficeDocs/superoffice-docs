@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/quote/learn/create-quote-document
 ---
 
 # Skapa offertdokument

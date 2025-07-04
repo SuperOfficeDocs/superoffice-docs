@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, web services, archiveprovider
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 content_type: howto
+redirect_from: /en/diary/howto/services/get-invitations-services
 ---
 
 # How to get a list of invitations (services)

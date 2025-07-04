@@ -8,6 +8,7 @@ keywords: udef, user-defined field, custom field, API
 content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/custom-objects/udef/howto/sql/index
 ---
 
 # Udef - raw SQL

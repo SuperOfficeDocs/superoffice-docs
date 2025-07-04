@@ -10,6 +10,7 @@ content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /de/marketing/mailing/learn/follow-up/index
 ---
 
 # Mit Kampagnen arbeiten

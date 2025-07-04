@@ -12,6 +12,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
+redirect_from: /de/request/reply-templates/learn/find
 ---
 
 # Mit Antwortvorlagen arbeiten

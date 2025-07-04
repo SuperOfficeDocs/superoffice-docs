@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/dashboard/learn/add-tile
+  - /sv/dashboard/learn/edit-tile
+  - /sv/dashboard/learn/remove-tile
 ---
 
 # Arbeta med paneler

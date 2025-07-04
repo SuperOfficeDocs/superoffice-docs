@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/email/inbox/learn/inbox-options
 ---
 
 # Inkorgen i SuperOffice <i class="ph ph-at" aria-hidden="true"></i>

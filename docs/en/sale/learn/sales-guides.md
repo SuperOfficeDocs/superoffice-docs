@@ -11,6 +11,12 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/sale/learn/sales-guide/index
+  - /en/sale/learn/sales-guide/sales-guide-tab
+  - /en/sale/learn/sales-guide/working-with-sales-guide
+  - /en/sale/learn/screen/sales-guide-admin
+  - /en/sale/learn/screen/sales-guide-tab
 ---
 
 # Sales guides

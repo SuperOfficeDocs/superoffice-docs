@@ -6,6 +6,7 @@ keywords: person, contact, row, API
 author: Bergfrid Skaara Dias
 date: 02.16.2022
 content_type: howto
+redirect_from: /en/contact/howto/row/index
 ---
 
 # Contact - row

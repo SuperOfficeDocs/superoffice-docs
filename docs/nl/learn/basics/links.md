@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/diary/learn/linking-documents-to-follow-ups
+  - /nl/project/learn/add-links
 ---
 
 # Koppelingen

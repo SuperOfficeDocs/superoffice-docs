@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from: /nl/request/learn/priority/index
 ---
 
 # Verzoekprioriteiten

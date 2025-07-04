@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/document/learn/open
 ---
 
 # Document <i class="ph ph-files" aria-hidden="true"></i>

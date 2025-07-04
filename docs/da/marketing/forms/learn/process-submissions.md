@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/forms/learn/submissions/process
 ---
 
 # Behandling af formularindsendelser

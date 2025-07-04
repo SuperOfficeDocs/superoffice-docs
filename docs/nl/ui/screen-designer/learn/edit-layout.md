@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from: /nl/ui/screen-designer/learn/elements
 ---
 
 # Opmaak van een kaart bewerken

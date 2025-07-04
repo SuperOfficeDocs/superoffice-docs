@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/company/learn/screen/requests-tab
+  - /nl/contact/learn/screen/requests-tab
 ---
 
 # Sectietabblad Verzoeken

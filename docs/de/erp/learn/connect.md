@@ -11,6 +11,9 @@ license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/admin/erp/learn/erp-connect
+  - /de/admin/erp/learn/erp-create-new-actor
 ---
 
 # Mit ERP verbinden

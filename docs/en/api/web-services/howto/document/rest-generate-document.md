@@ -9,6 +9,9 @@ version: 10
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from:
+  - /en/document/howto/agents-web-api/generate-document
+  - /en/document/howto/rest/generate-document
 ---
 
 # Generate a document

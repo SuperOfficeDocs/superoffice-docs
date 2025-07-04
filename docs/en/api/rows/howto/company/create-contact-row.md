@@ -6,6 +6,7 @@ keywords: company, contact, API, row, ContactRow
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/company/howto/row/create-contact-row
 ---
 
 # Create a contact row

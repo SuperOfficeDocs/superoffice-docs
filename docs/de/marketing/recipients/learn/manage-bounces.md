@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
+redirect_from: /de/marketing/mailing/learn/follow-up/manage-bounces
 ---
 
 # Nicht zustellbare verwalten

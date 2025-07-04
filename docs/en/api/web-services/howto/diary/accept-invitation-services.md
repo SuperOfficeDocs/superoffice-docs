@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, invitation, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 content_type: howto
+redirect_from: /en/diary/howto/services/accept-invitation-services
 ---
 
 # How to accept an invitation (services)

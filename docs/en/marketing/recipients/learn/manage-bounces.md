@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+redirect_from: /en/marketing/mailing/learn/follow-up/manage-bounces
 ---
 
 # Manage bounces

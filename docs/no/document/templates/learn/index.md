@@ -8,6 +8,7 @@ date: 07.11.2024
 version: 10.3
 content_type: concept
 language: no
+redirect_from: /no/admin/lists/learn/document-template
 ---
 
 # Dokumentmal

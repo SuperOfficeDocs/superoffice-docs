@@ -11,6 +11,9 @@ license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/admin/erp/learn/index
+  - /nl/admin/erp/learn/screen/erp-tab
 ---
 
 # ERP

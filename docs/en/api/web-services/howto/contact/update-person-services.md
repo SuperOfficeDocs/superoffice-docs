@@ -6,6 +6,7 @@ keywords: person, contact, services, API api-services, GetPersonEntity, PersonAg
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/contact/howto/services/update-person-services
 ---
 
 # Update a person with a new name, address, position using services

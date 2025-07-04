@@ -6,6 +6,7 @@ keywords: blob, person, contact, image, picture, API, BinaryObject, BinaryObject
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 content_type: howto
+redirect_from: /en/contact/howto/sql/add-person-picture-blobs-sql
 ---
 
 # How to add a person picture

@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/company/learn/screen/sales-tab
+  - /nl/contact/learn/screen/sales-tab
+  - /nl/diary/learn/screen/sales-tab
+  - /nl/project/learn/screen/sale
 ---
 
 # Tabblad Verkoop

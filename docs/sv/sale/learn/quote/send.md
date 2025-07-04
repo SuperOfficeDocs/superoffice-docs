@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/quote/learn/approve
+  - /sv/quote/learn/send
+  - /sv/quote/learn/versions
 ---
 
 # Skicka offert

@@ -6,6 +6,7 @@ keywords: contact, company, entity, API
 author: Bergfrid Skaara Dias
 date: 02.22.2022
 content_type: concept
+redirect_from: /en/company/howto/entity/index
 ---
 
 # Contact - entity

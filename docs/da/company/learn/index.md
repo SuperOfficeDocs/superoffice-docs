@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/company/learn/screen/index
 ---
 
 # Firma

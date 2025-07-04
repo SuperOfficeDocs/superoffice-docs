@@ -10,6 +10,7 @@ content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /en/marketing/forms/learn/submissions/process
 ---
 
 # Process form submissions

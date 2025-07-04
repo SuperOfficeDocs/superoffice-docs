@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+redirect_from: /da/sale/learn/sales-guide/create
 ---
 
 # Opret en ny salgsguide

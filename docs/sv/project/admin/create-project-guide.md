@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
+redirect_from:
+  - /sv/project/learn/project-guide/create
+  - /sv/project/learn/screen/project-guide-admin
 ---
 
 # Skapa en ny projektguide

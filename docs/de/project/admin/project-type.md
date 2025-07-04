@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from:
+  - /de/admin/lists/learn/project-type
+  - /de/project/learn/screen/project-type-admin
 ---
 
 # Projekttyp

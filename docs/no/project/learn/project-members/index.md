@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/project/learn/screen/project-members-tab
 ---
 
 # Prosjektdeltakere

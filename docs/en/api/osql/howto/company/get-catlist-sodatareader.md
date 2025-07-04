@@ -6,6 +6,7 @@ keywords: category, CategoryHeadingLinkTableInfo, CategoryList
 author: Bergfrid Dias
 date: 02.22.2022
 content_type: howto
+redirect_from: /en/company/howto/osql/get-catlist-sodatareader
 ---
 
 # Get the CategoryList through SODataReader

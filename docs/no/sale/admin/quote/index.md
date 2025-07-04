@@ -11,6 +11,10 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from:
+  - /no/quote/learn/admin/index
+  - /no/quote/learn/admin/quotesync-tab-erp-connections
+  - /no/quote/learn/admin/quotesync-tab-settings
 ---
 
 # Administrer tilbud og ordrekonfigurasjon

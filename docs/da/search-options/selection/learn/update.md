@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/search-options/selection/learn/update/delete
+  - /da/search-options/selection/learn/update/index
 ---
 
 # Redigering af udvalg

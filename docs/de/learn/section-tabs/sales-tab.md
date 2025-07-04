@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/company/learn/screen/sales-tab
+  - /de/contact/learn/screen/sales-tab
+  - /de/diary/learn/screen/sales-tab
+  - /de/project/learn/screen/sale
 ---
 
 # Registerkarte Verkäufe

@@ -8,6 +8,7 @@ date: 03.11.2022
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/custom-objects/udef/howto/services/rest-update-udef-field
 ---
 
 # How to update a user-defined field using the web services API

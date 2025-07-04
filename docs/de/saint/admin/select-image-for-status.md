@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from: /de/sale/saint/learn/admin/select-image-for-status
 ---
 
 # Bild für einen Status auswählen

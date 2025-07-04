@@ -8,6 +8,7 @@ date: 12.10.2024
 version: 10.3
 content_type: concept
 language: no
+redirect_from: /no/document/learn/template-variables
 ---
 
 # Malvariabler

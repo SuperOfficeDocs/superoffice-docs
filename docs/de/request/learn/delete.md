@@ -12,6 +12,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
+redirect_from: /de/request/learn/howto/delete
 ---
 
 # Anfragen löschen

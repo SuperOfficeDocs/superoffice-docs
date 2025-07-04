@@ -11,6 +11,7 @@ language: sv
 deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /sv/marketing/mailing/learn/admin/define-settings-for-mailings
 ---
 
 # Ange inställningar för utskick

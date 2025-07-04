@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/dashboard/learn/copy
 ---
 
 # Skapa en ny dashboard

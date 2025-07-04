@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 03.21.2024
 keywords: email
 content_type: concept
+redirect_from: /en/email/inbox/index
 ---
 
 # SuperOffice Inbox

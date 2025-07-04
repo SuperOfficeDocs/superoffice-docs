@@ -10,6 +10,7 @@ version_devportal: 2.0
 content_type: howto
 deployment: online
 platform: web
+redirect_from: /en/security/manage-permissions
 ---
 
 # Manage permissions

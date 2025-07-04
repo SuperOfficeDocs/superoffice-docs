@@ -11,6 +11,11 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/quote/learn/add-product
+  - /de/quote/learn/copy
+  - /de/quote/learn/create
+  - /de/quote/learn/screen/edit-quote-dialog
 ---
 
 # Angebot erstellen

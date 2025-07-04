@@ -9,6 +9,12 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
+redirect_from:
+  - /de/mobile/superoffice-mobile/reply-to-request
+  - /da/mobile/superoffice-mobile/reply-to-request
+  - /no/mobile/superoffice-mobile/reply-to-request
+  - /sv/mobile/superoffice-mobile/reply-to-request
+  - /nl/mobile/superoffice-mobile/reply-to-request
 ---
 
 # Respond to requests on your mobile device

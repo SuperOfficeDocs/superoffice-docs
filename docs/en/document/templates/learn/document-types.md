@@ -8,6 +8,7 @@ date: 07.11.2024
 version: 10
 content_type: reference
 language: en
+redirect_from: /en/document/templates/document-types
 ---
 
 # Supported document template types

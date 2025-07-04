@@ -5,6 +5,7 @@ author: David Hollegien
 date: 06.19.2018
 keywords: extra field, custom field
 content_type: howto
+redirect_from: /en/custom-objects/extra-field/howto/crmscript/sort-extra-field-values
 ---
 
 # Sorting CS extra fields list values

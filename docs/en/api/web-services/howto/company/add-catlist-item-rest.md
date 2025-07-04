@@ -6,6 +6,7 @@ keywords: category, contact, rest
 author: Tony Yates
 content_type: howto
 date: 10.22.2024
+redirect_from: /en/company/howto/services/add-catlist-item-rest
 ---
 
 # Add a category list item using REST

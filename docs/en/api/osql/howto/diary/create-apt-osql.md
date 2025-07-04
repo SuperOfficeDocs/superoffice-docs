@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 03.02.2022
 content_type: howto
 
+redirect_from: /en/diary/howto/osql/create-apt-osql
 ---
 
 # Create an appointment through OSQL

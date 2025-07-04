@@ -5,6 +5,7 @@ author:
 date:
 keywords:
 content_type: concept
+redirect_from: /en/automation/crmscript/netserver/index
 ---
 
 # NetServer agents and carriers

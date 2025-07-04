@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, entity, AppointmentMatrix, Recurren
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+redirect_from: /en/diary/howto/entity/create-recurring-appointment-entity
 ---
 
 # How to create a recurring appointment (data layer)

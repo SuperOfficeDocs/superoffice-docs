@@ -11,6 +11,12 @@ license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from:
+  - /sv/quote/learn/admin/product/add-price-list
+  - /sv/quote/learn/admin/product/add-product-to-price-list
+  - /sv/quote/learn/admin/product/index
+  - /sv/quote/learn/admin/product/quote-delete-deactivate-price-list-or-product
+  - /sv/quote/learn/admin/product/select-product-image
 ---
 
 # Hantera prislistor och produkter

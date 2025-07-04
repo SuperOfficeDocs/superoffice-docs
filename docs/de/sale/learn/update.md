@@ -11,6 +11,7 @@ license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/sale/learn/delete
 ---
 
 # Einen Verkauf aktualisieren
