@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/project/learn/add-links
+  - /en/diary/learn/linking-documents-to-follow-ups
 ---
 
 # Links

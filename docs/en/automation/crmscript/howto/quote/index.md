@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 06.12.2023
 version: 10
 content_type: concept
+redirect_from:
+  - /en/quote/howto/index
+  - /en/quote/howto/crmscript/index
 ---
 
 # Quotes

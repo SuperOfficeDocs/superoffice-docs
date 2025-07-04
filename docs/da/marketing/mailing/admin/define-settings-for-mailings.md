@@ -11,6 +11,7 @@ language: da
 deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /da/marketing/mailing/learn/admin/define-settings-for-mailings
 ---
 
 # Angive indstillinger for udsendelser

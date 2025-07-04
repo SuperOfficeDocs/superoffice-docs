@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/sale/saint/learn/using-status-monitors-in-dynamic-selections
+  - /sv/search-options/selection/learn/create/copy
+  - /sv/search-options/selection/learn/create/index
+  - /sv/search-options/selection/learn/create/tutorial
 ---
 
 # Skapa urval

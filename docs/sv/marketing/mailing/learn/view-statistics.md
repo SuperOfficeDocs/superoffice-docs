@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
+redirect_from: /sv/marketing/mailing/learn/follow-up/view-statistics
 ---
 
 # Analysera dina utskicksresultat

@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/dashboard/learn/add-tile
+  - /en/dashboard/learn/edit-tile
+  - /en/dashboard/learn/remove-tile
 ---
 
 # Working with tiles

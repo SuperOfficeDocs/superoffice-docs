@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from: /nl/marketing/learn/work-with-messages-and-templates
 ---
 
 # Werken met de berichtsjablonen

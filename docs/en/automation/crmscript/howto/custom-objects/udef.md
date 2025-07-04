@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.07.2022
 keywords: udef, custom objects, custom fields
 content_type: howto
+redirect_from: /en/custom-objects/udef/howto/crmscript/index
 ---
 
 # User-defined fields

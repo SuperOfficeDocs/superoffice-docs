@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/company/learn/screen/sales-tab
+  - /sv/contact/learn/screen/sales-tab
+  - /sv/diary/learn/screen/sales-tab
+  - /sv/project/learn/screen/sale
 ---
 
 # Försäljningsfliken

@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
+redirect_from: /nl/marketing/tracked-links/learn/add-tracked-link-to-msg
 ---
 
 # Gevolgde koppelingen toevoegen aan een bericht

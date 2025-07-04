@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/marketing/learn/add-fav
+  - /no/request/learn/howto/fav
 ---
 
 # Favoritter i SuperOffice CRM <i class="ph ph-star" aria-hidden="true"></i>

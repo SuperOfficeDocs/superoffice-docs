@@ -11,6 +11,7 @@ license: development-tools
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+redirect_from: /no/quote/learn/admin/sync/sync-resync-from-crm
 ---
 
 # Synkroniser på nytt fra CRM

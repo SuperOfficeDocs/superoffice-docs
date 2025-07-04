@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/search-options/selection/learn/howto/bulk-update
 ---
 
 # Oppdatere flere poster (masseredigering)

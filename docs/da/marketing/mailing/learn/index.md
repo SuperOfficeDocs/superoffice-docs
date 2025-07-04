@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/mailing/learn/follow-up/index
 ---
 
 # Arbejde med udsendelser

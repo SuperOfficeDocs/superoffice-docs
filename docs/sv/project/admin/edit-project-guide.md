@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from:
+  - /sv/project/learn/project-guide/deactivate
+  - /sv/project/learn/project-guide/edit
 ---
 
 # Redigera eller inaktivera en projektguide

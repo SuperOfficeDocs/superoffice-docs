@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from: /de/quote/learn/admin/product/configure
 ---
 
 # Felder im Dialogfeld Produkt hinzufügen/bearbeiten konfigurieren

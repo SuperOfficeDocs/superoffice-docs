@@ -10,6 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from:
+  - /sv/admin/lists/learn/sale-stage
+  - /sv/sale/learn/screen/sale-stage
 ---
 
 # Försäljningsfas

@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/admin/lists/learn/relation
+  - /de/company/learn/add-relation
+  - /de/company/learn/delete-relation
+  - /de/contact/learn/add-relation
+  - /de/contact/learn/delete-relation
 ---
 
 # Firmen- und Personenbeziehungen in SuperOffice CRM

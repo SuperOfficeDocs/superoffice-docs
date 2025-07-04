@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/admin/lists/learn/relation
+  - /nl/company/learn/add-relation
+  - /nl/company/learn/delete-relation
+  - /nl/contact/learn/add-relation
+  - /nl/contact/learn/delete-relation
 ---
 
 # Bedrijfs- en persoonsrelaties in SuperOffice CRM

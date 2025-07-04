@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/quote/learn/create-order
 ---
 
 # Auftrag erteilen

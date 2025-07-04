@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/company/learn/screen/relations-tab
+  - /sv/contact/learn/screen/relations-tab
 ---
 
 # Relationsfliken

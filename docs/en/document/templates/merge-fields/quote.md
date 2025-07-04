@@ -8,6 +8,7 @@ date: 07.31.2024
 version: 10.3
 content_type: reference
 language: en
+redirect_from: /en/document/templates/quote/mergefields
 ---
 
 # Quote (merge fields)

@@ -11,6 +11,7 @@ language: de
 deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /de/marketing/mailing/learn/admin/define-settings-for-mailings
 ---
 
 # Einstellungen für Kampagnen festlegen

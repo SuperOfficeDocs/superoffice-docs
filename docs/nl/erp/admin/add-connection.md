@@ -11,6 +11,9 @@ license: development-tools
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+redirect_from:
+  - /nl/quote/learn/admin/sync/sync-add-erp-connection
+  - /nl/quote/learn/admin/sync/sync-connector-add
 ---
 
 # Een Sync Connector en ERP-verbinding toevoegen

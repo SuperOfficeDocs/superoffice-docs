@@ -9,6 +9,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/learn/screen/index
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>

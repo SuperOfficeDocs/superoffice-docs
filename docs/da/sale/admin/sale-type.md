@@ -11,6 +11,9 @@ license: salesessentials
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+redirect_from:
+  - /da/admin/lists/learn/sale-type
+  - /da/sale/learn/screen/sales-type-for-stages
 ---
 
 # Salgstype

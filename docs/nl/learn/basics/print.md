@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/company/learn/print
+  - /nl/contact/learn/print
+  - /nl/diary/learn/print
 ---
 
 # Het afdrukken van records in SuperOffice CRM

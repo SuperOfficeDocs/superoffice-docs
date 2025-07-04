@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
+redirect_from: /no/request/learn/howto/accept
 ---
 
 # Overta (ta ansvar for) en sak

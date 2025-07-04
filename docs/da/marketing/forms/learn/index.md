@@ -10,6 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from:
+  - /da/marketing/forms/learn/examples
+  - /da/marketing/forms/learn/view
+  - /da/marketing/forms/learn/submissions/index
 ---
 
 # Arbejde med formularer

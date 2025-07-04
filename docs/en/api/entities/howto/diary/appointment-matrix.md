@@ -6,6 +6,7 @@ keywords: entity
 author: Bergfrid Skaara Dias
 date: 03.04.2022
 content_type: howto
+redirect_from: /en/diary/howto/entity/appointment-matrix
 ---
 
 # AppointmentMatrix

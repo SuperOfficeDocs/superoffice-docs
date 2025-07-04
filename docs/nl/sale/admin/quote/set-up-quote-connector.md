@@ -11,6 +11,7 @@ license: development-tools
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+redirect_from: /nl/quote/learn/admin/erp-connection-add
 ---
 
 # ERP-verbinding instellen voor quote connector

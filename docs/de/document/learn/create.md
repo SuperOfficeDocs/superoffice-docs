@@ -11,6 +11,9 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/document/learn/upload
+  - /de/document/learn/screen/index
 ---
 
 # Neue Dokumente erstellen

@@ -10,6 +10,7 @@ content_type: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /no/marketing/learn/work-with-messages-and-templates
 ---
 
 # Arbeide med meldingsmaler

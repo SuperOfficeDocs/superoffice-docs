@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from:
+  - /de/project/learn/project-guide/create
+  - /de/project/learn/screen/project-guide-admin
 ---
 
 # Neuen Projektleitfaden erstellen

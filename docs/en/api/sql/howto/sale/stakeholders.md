@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 11.05.2021
 version: 7.1
 content_type: concept
+redirect_from: /en/sale/howto/sql/stakeholders
 ---
 
 # Sale stakeholders

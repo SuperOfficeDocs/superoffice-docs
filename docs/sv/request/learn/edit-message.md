@@ -12,6 +12,7 @@ functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+redirect_from: /sv/request/learn/howto/edit-message
 ---
 
 # Redigera meddelande

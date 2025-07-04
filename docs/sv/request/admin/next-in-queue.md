@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+redirect_from: /sv/request/learn/next-in-queue
 ---
 
 # Så här konfigurerar du Hämta nästa ärende i kön

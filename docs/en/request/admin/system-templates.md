@@ -9,6 +9,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/request/learn/screen/system-templates
 ---
 
 # System templates settings

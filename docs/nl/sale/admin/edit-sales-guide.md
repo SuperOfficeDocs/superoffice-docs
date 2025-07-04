@@ -11,6 +11,9 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/sale/learn/sales-guide/deactivate
+  - /nl/sale/learn/sales-guide/edit
 ---
 
 # Verkoopgids bewerken of deactiveren

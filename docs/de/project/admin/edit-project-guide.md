@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from:
+  - /de/project/learn/project-guide/deactivate
+  - /de/project/learn/project-guide/edit
 ---
 
 # Projektleitfaden bearbeiten oder deaktivieren

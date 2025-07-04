@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/email/inbox/learn/inbox-options
 ---
 
 # SuperOffice Postvak IN <i class="ph ph-at" aria-hidden="true"></i>

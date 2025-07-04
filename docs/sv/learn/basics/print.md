@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/company/learn/print
+  - /sv/contact/learn/print
+  - /sv/diary/learn/print
 ---
 
 # Utskrift av poster i SuperOffice CRM

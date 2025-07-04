@@ -8,6 +8,9 @@ date: 07.31.2024
 version: 10
 content_type: howto
 language: en
+redirect_from:
+  - /en/admin/lists/learn/creating-template-document
+  - /en/document/templates/quote/add-template-var
 ---
 
 # Create a template document

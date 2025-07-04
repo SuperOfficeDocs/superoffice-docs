@@ -10,6 +10,12 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/company/learn/screen/activities-tab
+  - /da/contact/learn/screen/activities-tab
+  - /da/diary/learn/screen/activities-tab
+  - /da/project/learn/screen/activities-project
+  - /da/sale/learn/screen/activities-sale
 ---
 
 # Aktivitetsfanen

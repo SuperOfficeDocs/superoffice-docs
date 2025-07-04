@@ -11,6 +11,7 @@ language: nl
 deployment: onsite
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /nl/marketing/mailing/learn/admin/define-settings-for-mailings
 ---
 
 # Instellingen voor mailings definiëren

@@ -11,6 +11,7 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
+redirect_from: /sv/request/learn/status/create
 ---
 
 # Skapa ärendestatus

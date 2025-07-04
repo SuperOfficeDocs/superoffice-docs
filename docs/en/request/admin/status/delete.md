@@ -11,6 +11,7 @@ license: serviceessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/request/learn/status/delete
 ---
 
 # Delete request status

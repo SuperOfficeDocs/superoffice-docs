@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/diary/learn/linking-documents-to-follow-ups
+  - /no/project/learn/add-links
 ---
 
 # Koblinger

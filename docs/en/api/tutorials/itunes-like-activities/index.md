@@ -7,6 +7,7 @@ date: 03.21.2022
 version: 10
 content_type: tutorial
 language: en
+redirect_from: /en/diary/tutorials/itunes-like-activities/index
 ---
 
 # Tutorial - iTunes-like client for activities

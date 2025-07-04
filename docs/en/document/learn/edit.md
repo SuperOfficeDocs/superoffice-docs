@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/document/learn/delete
 ---
 
 # Edit documents

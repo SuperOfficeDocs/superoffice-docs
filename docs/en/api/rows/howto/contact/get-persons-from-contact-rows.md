@@ -6,6 +6,7 @@ keywords: person, contact, API, rows, PersonRows
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/contact/howto/row/get-persons-from-contact-rows
 ---
 
 # Retrieve a list of people using rows

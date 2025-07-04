@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 09.12.2023
 version: 10
 content_type: howto
+redirect_from: /en/quote/howto/crmscript/update
 ---
 
 # Update quote

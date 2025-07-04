@@ -10,6 +10,7 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
+redirect_from: /de/marketing/tracked-links/learn/examples
 ---
 
 # Überwachte Links

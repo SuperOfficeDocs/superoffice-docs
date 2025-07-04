@@ -11,6 +11,9 @@ license: development-tools
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+redirect_from:
+  - /da/quote/learn/admin/sync/sync-add-erp-connection
+  - /da/quote/learn/admin/sync/sync-connector-add
 ---
 
 # Tilføj en Sync Connector og ERP-link

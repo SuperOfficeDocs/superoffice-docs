@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/sale/learn/sales-guide/create
 ---
 
 # Create a new sales guide

@@ -6,6 +6,7 @@ keywords: person, contact, entity, API, BinaryObject, BLOB, image, BinaryObjectR
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 content_type: howto
+redirect_from: /en/contact/howto/entity/display-image-from-blob-table-entity
 ---
 
 # How to display an image from the Blob table (data layer)

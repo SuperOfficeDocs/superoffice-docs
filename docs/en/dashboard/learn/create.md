@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/dashboard/learn/copy
 ---
 
 # Create a new dashboard

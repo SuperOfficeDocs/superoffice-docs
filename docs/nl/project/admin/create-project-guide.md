@@ -11,6 +11,9 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+redirect_from:
+  - /nl/project/learn/project-guide/create
+  - /nl/project/learn/screen/project-guide-admin
 ---
 
 # Een nieuwe projectgids maken

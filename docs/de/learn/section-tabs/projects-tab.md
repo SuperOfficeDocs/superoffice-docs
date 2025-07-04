@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/company/learn/screen/projects-tab
+  - /de/contact/learn/screen/projects-tab
 ---
 
 # Bereichsregisterkarte Projekte

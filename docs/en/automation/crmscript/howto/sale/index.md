@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 06.09.2023
 version: 10
 content_type: concept
+redirect_from:
+  - /en/sale/howto/index
+  - /en/sale/howto/crmscript/index
 ---
 
 # Sales

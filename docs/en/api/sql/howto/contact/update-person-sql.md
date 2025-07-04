@@ -6,6 +6,7 @@ keywords: person, contact, update, API, SQL
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 content_type: howto
+redirect_from: /en/contact/howto/sql/update-person-sql
 ---
 
 # Update a person

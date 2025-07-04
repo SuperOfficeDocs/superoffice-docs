@@ -11,6 +11,11 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from:
+  - /no/quote/learn/add-product
+  - /no/quote/learn/copy
+  - /no/quote/learn/create
+  - /no/quote/learn/screen/edit-quote-dialog
 ---
 
 # Opprette tilbud

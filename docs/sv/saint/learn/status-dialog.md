@@ -10,6 +10,7 @@ content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/sale/saint/learn/status-dialog
 ---
 
 # Dialogrutan Visa status

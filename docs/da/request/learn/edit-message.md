@@ -12,6 +12,7 @@ functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+redirect_from: /da/request/learn/howto/edit-message
 ---
 
 # Rediger meddelelse

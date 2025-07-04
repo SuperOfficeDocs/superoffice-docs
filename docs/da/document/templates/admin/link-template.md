@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+redirect_from: /da/admin/lists/learn/add-template
 ---
 
 # Tilføjelse af dokumentskabelon

@@ -6,6 +6,7 @@ keywords: category, contact, WebAPI, agents
 author: Bergfrid Dias
 date: 11.18.2021
 content_type: howto
+redirect_from: /en/company/howto/services/add-catlist-item-webapi-agents
 ---
 
 # Add a category list item

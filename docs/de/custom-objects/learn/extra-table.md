@@ -10,6 +10,7 @@ content_type: howto
 audience: user
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/custom-objects/learn/extra-table/index
 ---
 
 # Zusatztabellen

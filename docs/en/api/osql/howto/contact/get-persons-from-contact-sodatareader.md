@@ -6,6 +6,7 @@ keywords: person, contact, SoReader, SODataReader, API, OSQL
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
+redirect_from: /en/contact/howto/osql/get-persons-from-contact-sodatareader
 ---
 
 # Retrieve a list of people using SODataReader

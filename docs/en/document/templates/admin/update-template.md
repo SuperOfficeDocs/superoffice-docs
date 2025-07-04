@@ -10,6 +10,9 @@ content_type: howto
 language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from:
+  - /en/admin/lists/learn/replace-existing-template
+  - /en/admin/lists/learn/using-standard-templates
 ---
 
 # Update document template

@@ -11,6 +11,10 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from:
+  - /sv/quote/learn/admin/index
+  - /sv/quote/learn/admin/quotesync-tab-erp-connections
+  - /sv/quote/learn/admin/quotesync-tab-settings
 ---
 
 # Hantera offert- och orderinställningar

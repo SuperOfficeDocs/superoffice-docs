@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/custom-objects/learn/extra-table/create
 ---
 
 # Lägg till extratabell

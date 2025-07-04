@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/quote/learn/approve
+  - /de/quote/learn/send
+  - /de/quote/learn/versions
 ---
 
 # Angebot senden

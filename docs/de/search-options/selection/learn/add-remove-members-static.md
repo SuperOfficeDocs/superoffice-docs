@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/search-options/selection/learn/update/add-remove-members-static
 ---
 
 # Mitglieder zu/von statischen Selektionen hinzufügen und entfernen

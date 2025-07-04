@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/search-options/selection/learn/update/delete
+  - /nl/search-options/selection/learn/update/index
 ---
 
 # Selecties bewerken

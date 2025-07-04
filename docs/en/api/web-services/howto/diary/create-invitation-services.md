@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 content_type: howto
+redirect_from: /en/diary/howto/services/create-invitation-services
 ---
 
 # How to create an invitation (services)

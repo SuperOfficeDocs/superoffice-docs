@@ -12,6 +12,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+redirect_from: /nl/request/reply-templates/learn/delete
 ---
 
 # Antwoordsjablonen bewerken of verwijderen

@@ -11,6 +11,9 @@ license: salesessentials
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+redirect_from:
+  - /da/admin/lists/learn/sale-stage
+  - /da/sale/learn/screen/sale-stage
 ---
 
 # Salgsfase

@@ -9,6 +9,7 @@ version: 10
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/custom-objects/howto/custom-objects-delete-row
 ---
 
 <!-- markdownlint-disable-file MD051 -->

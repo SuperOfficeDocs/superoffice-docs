@@ -11,6 +11,7 @@ license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/admin/erp/learn/erp-sync-disconnect
 ---
 
 # Deaktiver synkronisering

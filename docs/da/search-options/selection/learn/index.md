@@ -10,6 +10,11 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/search-options/selection/learn/combined-selections
+  - /da/search-options/selection/learn/dynamic-selections
+  - /da/search-options/selection/learn/static-selections
+  - /da/search-options/selection/learn/screen/index
 ---
 
 # Udvalg

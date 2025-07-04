@@ -9,6 +9,13 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
+redirect_from:
+  - /en/mobile/superoffice-mobile/company-contact/scan-business-card
+  - /de/mobile/superoffice-mobile/scan-business-card
+  - /da/mobile/superoffice-mobile/scan-business-card
+  - /no/mobile/superoffice-mobile/scan-business-card
+  - /sv/mobile/superoffice-mobile/scan-business-card
+  - /nl/mobile/superoffice-mobile/scan-business-card
 ---
 
 # Scan a business card

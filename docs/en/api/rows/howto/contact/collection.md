@@ -6,6 +6,7 @@ keywords: PersonRow, person, contact, row, API
 author: Tony Yates
 date: 11.05.2016
 content_type: howto
+redirect_from: /en/contact/howto/row/collection
 ---
 
 # Collection

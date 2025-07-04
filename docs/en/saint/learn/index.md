@@ -10,6 +10,9 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/sale/saint/index
+  - /en/sale/saint/learn/index
 ---
 
 # Activity monitors (SAINT)

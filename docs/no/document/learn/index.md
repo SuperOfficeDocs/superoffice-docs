@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/document/learn/open
 ---
 
 # Dokument <i class="ph ph-files" aria-hidden="true"></i>

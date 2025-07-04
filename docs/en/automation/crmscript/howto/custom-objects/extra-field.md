@@ -6,6 +6,7 @@ author: Bergfrid Skaara Dias
 date: 11.02.2021
 keywords: extra field, custom, field, Service
 content_type: concept
+redirect_from: /en/custom-objects/extra-field/howto/crmscript/index
 ---
 
 # Extra fields

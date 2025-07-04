@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
+redirect_from: /da/marketing/learn/work-with-messages-and-templates
 ---
 
 # At arbejde med meddelelsesskabeloner

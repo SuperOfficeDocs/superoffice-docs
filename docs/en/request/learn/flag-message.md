@@ -11,6 +11,7 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: /en/request/learn/howto/flag-message
 ---
 
 # Keep track of messages

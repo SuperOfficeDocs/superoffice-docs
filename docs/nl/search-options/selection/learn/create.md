@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/sale/saint/learn/using-status-monitors-in-dynamic-selections
+  - /nl/search-options/selection/learn/create/copy
+  - /nl/search-options/selection/learn/create/index
+  - /nl/search-options/selection/learn/create/tutorial
 ---
 
 # Selecties maken

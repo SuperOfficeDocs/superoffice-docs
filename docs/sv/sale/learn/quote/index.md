@@ -11,6 +11,10 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from:
+  - /sv/quote/learn/index
+  - /sv/quote/learn/quote-tab
+  - /sv/sale/learn/screen/quote-tab
 ---
 
 # Arbeta med offerter

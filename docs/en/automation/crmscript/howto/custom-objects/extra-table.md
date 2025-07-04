@@ -6,6 +6,7 @@ author: Bergfrid Skaara Dias
 date: 02.07.2022
 keywords: CRMScript, database, extra table, custom object
 content_type: concept
+redirect_from: /en/custom-objects/extra-table/howto/crmscript/index
 ---
 
 # Third-party tables

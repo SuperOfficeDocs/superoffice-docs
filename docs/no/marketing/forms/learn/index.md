@@ -10,6 +10,10 @@ content_type: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from:
+  - /no/marketing/forms/learn/examples
+  - /no/marketing/forms/learn/view
+  - /no/marketing/forms/learn/submissions/index
 ---
 
 # Arbeide med skjemaer

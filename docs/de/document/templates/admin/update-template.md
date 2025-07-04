@@ -10,6 +10,9 @@ content_type: howto
 language: de
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from:
+  - /de/admin/lists/learn/replace-existing-template
+  - /de/admin/lists/learn/using-standard-templates
 ---
 
 # Vorlagen bearbeiten

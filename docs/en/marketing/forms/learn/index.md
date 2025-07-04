@@ -10,6 +10,11 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from:
+  - /en/marketing/forms/index
+  - /en/marketing/forms/learn/examples
+  - /en/marketing/forms/learn/view
+  - /en/marketing/forms/learn/submissions/index
 ---
 
 # Work with forms

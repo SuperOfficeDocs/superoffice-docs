@@ -9,6 +9,7 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
+redirect_from: /en/mobile/superoffice-mobile/company-contact/update
 ---
 
 # Update contact or company

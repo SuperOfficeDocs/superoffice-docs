@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, API, entity, InvitationProvider, Archive
 author: Bergfrid Skaara Dias
 date: 03.04.2022
 content_type: howto
+redirect_from: /en/diary/howto/entity/accept-invitation-entity
 ---
 
 # How to accept an invitation (data layer)

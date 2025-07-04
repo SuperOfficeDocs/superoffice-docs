@@ -6,6 +6,7 @@ keywords: diary, calendar, appointment, invitation, API, web services
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 content_type: concept
+redirect_from: /en/diary/howto/services/index
 ---
 
 # Diary - services

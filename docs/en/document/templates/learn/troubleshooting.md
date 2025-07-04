@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 07.11.2024
 content_type: howto
 language: en
+redirect_from: /en/document/templates/troubleshooting
 ---
 
 # Troubleshooting

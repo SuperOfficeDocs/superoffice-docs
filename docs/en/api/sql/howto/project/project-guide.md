@@ -6,6 +6,7 @@ keywords: project, project management, SQL, API, project guide, projtype, hasGui
 author: Bergfrid Dias
 date: 05.31.2023
 content_type: howto
+redirect_from: /en/project/howto/sql/project-guide
 ---
 
 # Project guides

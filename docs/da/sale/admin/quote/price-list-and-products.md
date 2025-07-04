@@ -11,6 +11,12 @@ license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+redirect_from:
+  - /da/quote/learn/admin/product/add-price-list
+  - /da/quote/learn/admin/product/add-product-to-price-list
+  - /da/quote/learn/admin/product/index
+  - /da/quote/learn/admin/product/quote-delete-deactivate-price-list-or-product
+  - /da/quote/learn/admin/product/select-product-image
 ---
 
 # Administrer prislister og produkter

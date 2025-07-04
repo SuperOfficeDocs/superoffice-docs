@@ -10,6 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/admin/lists/learn/sale-stage
+  - /nl/sale/learn/screen/sale-stage
 ---
 
 # Een verkoopfase toevoegen

@@ -6,6 +6,7 @@ keywords: category, MDO agent
 author: Tony Yates
 date: 10.22.2024
 content_type: howto
+redirect_from: /en/company/howto/services/get-catlist-mdoagent
 ---
 
 # Get a CategoryList using the MDO Agent

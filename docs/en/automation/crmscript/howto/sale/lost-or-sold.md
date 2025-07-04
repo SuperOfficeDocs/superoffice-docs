@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 10.27.2021
 version: 10
 content_type: concept
+redirect_from: /en/sale/howto/crmscript/lost-or-sold
 ---
 
 # Lost or sold sales

@@ -10,6 +10,11 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/contact/learn/screen/sales-tab
+  - /en/company/learn/screen/sales-tab
+  - /en/project/learn/screen/sale
+  - /en/diary/learn/screen/sales-tab
 ---
 
 # Sales tab

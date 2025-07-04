@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+redirect_from: /da/request/learn/next-in-queue
 ---
 
 # Sådan konfigurerer du Hent næste sag i køen

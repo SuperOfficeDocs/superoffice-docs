@@ -11,6 +11,9 @@ license: salesessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/admin/lists/learn/sale-type
+  - /nl/sale/learn/screen/sales-type-for-stages
 ---
 
 # Verkooptype toevoegen

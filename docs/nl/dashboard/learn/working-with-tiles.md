@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from:
+  - /nl/dashboard/learn/add-tile
+  - /nl/dashboard/learn/edit-tile
+  - /nl/dashboard/learn/remove-tile
 ---
 
 # Werken met tegels

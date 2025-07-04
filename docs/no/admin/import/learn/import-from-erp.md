@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/quote/learn/admin/sync/sync-import-from-erp
 ---
 
 # Importere fra ERP

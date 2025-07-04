@@ -7,6 +7,7 @@ author: Bergfrid Skaara Dias
 date: 05.31.2023
 version: 9
 content_type: howto
+redirect_from: /en/project/howto/crmscript/members
 ---
 
 # Project members

@@ -11,6 +11,7 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/email/learn/compose
 ---
 
 # Skriva e-post

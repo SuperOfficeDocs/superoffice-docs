@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from:
+  - /de/company/learn/screen/relations-tab
+  - /de/contact/learn/screen/relations-tab
 ---
 
 # Bereichsregisterkarte Beziehungen

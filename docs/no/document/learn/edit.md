@@ -10,6 +10,7 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/document/learn/delete
 ---
 
 # Redigere dokument

@@ -10,6 +10,7 @@ content_type: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /en/marketing/learn/work-with-messages-and-templates
 ---
 
 # Work with the message templates

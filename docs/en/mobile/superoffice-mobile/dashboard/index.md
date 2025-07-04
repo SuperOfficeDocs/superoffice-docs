@@ -8,6 +8,7 @@ version: 11.1
 content_type: concept
 platform: mobile
 language: en
+redirect_from: /en/mobile/superoffice-mobile/dashboard/drill-down
 ---
 
 # Dashboard <i class="ph ph-gauge" aria-hidden="true"></i>

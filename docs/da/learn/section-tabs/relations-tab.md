@@ -10,6 +10,9 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+redirect_from:
+  - /da/company/learn/screen/relations-tab
+  - /da/contact/learn/screen/relations-tab
 ---
 
 # Relationsfanen

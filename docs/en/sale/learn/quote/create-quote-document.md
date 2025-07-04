@@ -11,6 +11,7 @@ license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/quote/learn/create-quote-document
 ---
 
 # Create a quote document

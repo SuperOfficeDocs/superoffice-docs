@@ -10,6 +10,7 @@ content_type: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: /en/marketing/learn/editor
 ---
 
 # Drag and drop editor

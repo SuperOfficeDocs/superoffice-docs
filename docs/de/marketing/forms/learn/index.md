@@ -10,6 +10,10 @@ content_type: concept
 language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from:
+  - /de/marketing/forms/learn/examples
+  - /de/marketing/forms/learn/view
+  - /de/marketing/forms/learn/submissions/index
 ---
 
 # Mit Formularen arbeiten

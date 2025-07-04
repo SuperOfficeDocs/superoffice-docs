@@ -10,6 +10,10 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from:
+  - /en/contact/learn/print
+  - /en/company/learn/print
+  - /en/diary/learn/print
 ---
 
 # Printing records in SuperOffice CRM
