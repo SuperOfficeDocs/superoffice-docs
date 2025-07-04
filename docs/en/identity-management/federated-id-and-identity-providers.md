@@ -8,6 +8,7 @@ keywords: IDP, identity provider, Microsoft Entra ID, ME-ID, AAD
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Federated ID and identity providers

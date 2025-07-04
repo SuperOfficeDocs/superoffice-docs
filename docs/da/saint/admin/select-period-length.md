@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 redirect_from: /da/sale/saint/learn/admin/select-period-length
+index: true
 ---
 
 # Angivelse af periodelængde

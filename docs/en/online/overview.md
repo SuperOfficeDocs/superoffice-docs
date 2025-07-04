@@ -8,6 +8,7 @@ keywords: online, app store
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # About CRM Online

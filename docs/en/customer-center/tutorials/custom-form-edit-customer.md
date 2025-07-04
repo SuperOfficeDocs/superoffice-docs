@@ -6,6 +6,7 @@ author: kronicz
 date: 09.15.2011
 keywords: CRMScript, Customer Center, form
 content_type: tutorial
+index: true
 ---
 
 # Custom form - edit customer

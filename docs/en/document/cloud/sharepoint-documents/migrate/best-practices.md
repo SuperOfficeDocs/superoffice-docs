@@ -9,6 +9,7 @@ content_type: reference
 version:
 deployment: online
 platform: web
+index: true
 ---
 
 # Best practices

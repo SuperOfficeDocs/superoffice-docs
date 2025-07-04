@@ -9,6 +9,7 @@ content_type: howto
 version:
 deployment: online
 platform: web
+index: true
 ---
 
 # How to set up SharePoint permissions for documents

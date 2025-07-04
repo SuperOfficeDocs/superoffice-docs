@@ -8,6 +8,7 @@ keywords: SharePoint, document
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # How to set up Microsoft 365 SharePoint

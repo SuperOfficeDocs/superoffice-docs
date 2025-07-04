@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/custom-objects/learn/udef/add
+index: true
 ---
 
 # Door gebruiker gedefinieerd veld toevoegen

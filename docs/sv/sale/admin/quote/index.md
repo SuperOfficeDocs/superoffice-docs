@@ -15,6 +15,7 @@ redirect_from:
   - /sv/quote/learn/admin/index
   - /sv/quote/learn/admin/quotesync-tab-erp-connections
   - /sv/quote/learn/admin/quotesync-tab-settings
+index: true
 ---
 
 # Hantera offert- och orderinställningar

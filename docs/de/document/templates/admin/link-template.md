@@ -11,6 +11,7 @@ language: de
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /de/admin/lists/learn/add-template
+index: true
 ---
 
 # Eine Dokumentvorlage hinzufügen

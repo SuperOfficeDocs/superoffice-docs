@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 redirect_from: /de/custom-objects/learn/extra-table/create
+index: true
 ---
 
 # Zusatztabellen hinzufügen

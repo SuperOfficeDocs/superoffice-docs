@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/custom-objects/learn/extra-table/create
+index: true
 ---
 
 # Legge til ekstratabeller

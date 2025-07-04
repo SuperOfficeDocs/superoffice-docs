@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
 redirect_from: /de/sale/learn/sales-guide/create
+index: true
 ---
 
 # Neuen Verkaufsleitfaden erstellen

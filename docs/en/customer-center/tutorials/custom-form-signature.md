@@ -6,6 +6,7 @@ author: kronicz
 date: 01.20.2012
 keywords: CRMScript, Customer Center
 content_type: tutorial
+index: true
 ---
 
 # Custom form with signature

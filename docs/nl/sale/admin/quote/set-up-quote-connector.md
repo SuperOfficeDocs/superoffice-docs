@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
 redirect_from: /nl/quote/learn/admin/erp-connection-add
+index: true
 ---
 
 # ERP-verbinding instellen voor quote connector

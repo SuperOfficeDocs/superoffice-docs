@@ -9,6 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+index: true
 ---
 
 # Toon extra veld op het tabblad Details

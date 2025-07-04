@@ -14,6 +14,7 @@ language: da
 redirect_from:
   - /da/admin/lists/learn/project-type
   - /da/project/learn/screen/project-type-admin
+index: true
 ---
 
 # Projekttype

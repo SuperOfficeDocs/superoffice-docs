@@ -12,6 +12,7 @@ deployment: online
 platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
+index: true
 ---
 
 # SuperOffice Copilot

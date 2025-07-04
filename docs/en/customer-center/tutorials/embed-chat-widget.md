@@ -5,6 +5,7 @@ description: Embed chat widget on external site
 author: Michel Krohn-Dale
 keywords: Customer Center, chat
 content_type: tutorial
+index: true
 ---
 
 # Embed chat widget on external site

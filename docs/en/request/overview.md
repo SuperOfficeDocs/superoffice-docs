@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 05.31.2023
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation
 content_type: concept
+index: true
 ---
 
 # Requests

@@ -13,6 +13,7 @@ language: da
 redirect_from:
   - /da/admin/lists/learn/replace-existing-template
   - /da/admin/lists/learn/using-standard-templates
+index: true
 ---
 
 # Rediger dokumentskabelon

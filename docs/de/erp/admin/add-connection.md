@@ -14,6 +14,7 @@ language: de
 redirect_from:
   - /de/quote/learn/admin/sync/sync-add-erp-connection
   - /de/quote/learn/admin/sync/sync-connector-add
+index: true
 ---
 
 # Sync Connector und ERP-Verbindung hinzufügen

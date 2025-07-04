@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
+index: true
 ---
 
 # Administration af salgstyper, faser og guider

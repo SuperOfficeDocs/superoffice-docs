@@ -11,6 +11,7 @@ audience: admin
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/sale/saint/learn/admin/restore-status
+index: true
 ---
 
 # Gjenopprett en slettet status

@@ -8,6 +8,7 @@ date: 07.16.2024
 version: 10.3
 content_type: reference
 language: de
+index: true
 ---
 
 # Vorlagenvariablen-Referenz

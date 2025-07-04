@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/quote/learn/admin/product/configure
+index: true
 ---
 
 # Velden configureren in het dialoogvenster Product toevoegen/bewerken

@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/request/learn/admin/index
+index: true
 ---
 
 # Verschillende instellingen voor Service

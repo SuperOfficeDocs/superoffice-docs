@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
 redirect_from: /no/sale/learn/sales-guide/create
+index: true
 ---
 
 # Opprette en ny salgsguide

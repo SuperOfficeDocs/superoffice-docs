@@ -9,6 +9,7 @@ content_type: concept
 version:
 deployment: online
 platform: web
+index: true
 ---
 
 # SharePoint documents

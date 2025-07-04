@@ -8,6 +8,7 @@ keywords: Identity, Management, Gateway, Architecture, SuperID, Microsoft Entra,
 content_type: reference
 deployment: online
 platform: web
+index: true
 ---
 
 # The Identity Management Gateway

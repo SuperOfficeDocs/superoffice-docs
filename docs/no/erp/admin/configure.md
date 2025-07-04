@@ -17,6 +17,7 @@ redirect_from:
   - /no/quote/learn/admin/sync/sync-configure-list-mapping
   - /no/quote/learn/admin/sync/sync-rank-fields-shown-in-erp-tab
   - /no/quote/learn/admin/sync/sync-set-sync-priority
+index: true
 ---
 
 # Konfigurere ERP-kobling

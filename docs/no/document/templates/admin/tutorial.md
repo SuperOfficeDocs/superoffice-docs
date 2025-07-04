@@ -8,6 +8,7 @@ date: 04.28.2025
 version: 10.5.4
 content_type: tutorial
 language: no
+index: true
 audience: settings
 audience_tooltip: Settings and maintenance
 ---

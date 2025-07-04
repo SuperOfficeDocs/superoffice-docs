@@ -9,6 +9,7 @@ content_type: howto
 version:
 deployment: online
 platform: web
+index: true
 ---
 
 # About permissions in SharePoint​

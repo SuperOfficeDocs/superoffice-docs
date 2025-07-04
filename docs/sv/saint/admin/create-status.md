@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/sale/saint/learn/admin/create-status
+index: true
 ---
 
 # Skapa ny status

@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from: /en/request/learn/status/delete
+index: true
 ---
 
 # Delete request status

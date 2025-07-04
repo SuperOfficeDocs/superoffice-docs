@@ -8,6 +8,7 @@ keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # User provisioning

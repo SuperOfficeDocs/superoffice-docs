@@ -5,6 +5,7 @@ description: Send welcome emails to new users
 author: Bergfrid Dias
 keywords:
 content_type: howto
+index: true
 ---
 
 # Send welcome emails to new users

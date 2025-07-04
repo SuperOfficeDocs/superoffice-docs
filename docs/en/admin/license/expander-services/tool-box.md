@@ -9,6 +9,7 @@ version: 10
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Development Tools - contents and usage

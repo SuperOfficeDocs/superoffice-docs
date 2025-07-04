@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Register identity provider (domain name)

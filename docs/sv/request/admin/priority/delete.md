@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/request/learn/priority/delete
+index: true
 ---
 
 # Ta bort ärendeprioritet

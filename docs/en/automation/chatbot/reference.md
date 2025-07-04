@@ -6,6 +6,7 @@ author: christianm
 date: 03.08.2021
 keywords: chatbot, ai
 content_type: reference
+index: true
 ---
 
 # Chatbot scripts reference

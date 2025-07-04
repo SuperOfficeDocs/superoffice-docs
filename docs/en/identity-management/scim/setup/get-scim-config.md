@@ -8,6 +8,7 @@ keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Get SCIM config for the Microsoft Entra enterprise application

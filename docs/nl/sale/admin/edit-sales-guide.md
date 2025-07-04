@@ -14,6 +14,7 @@ language: nl
 redirect_from:
   - /nl/sale/learn/sales-guide/deactivate
   - /nl/sale/learn/sales-guide/edit
+index: true
 ---
 
 # Verkoopgids bewerken of deactiveren

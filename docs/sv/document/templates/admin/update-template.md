@@ -13,6 +13,7 @@ language: sv
 redirect_from:
   - /sv/admin/lists/learn/replace-existing-template
   - /sv/admin/lists/learn/using-standard-templates
+index: true
 ---
 
 # Redigera mallar

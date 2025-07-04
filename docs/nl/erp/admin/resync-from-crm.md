@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
 redirect_from: /nl/quote/learn/admin/sync/sync-resync-from-crm
+index: true
 ---
 
 # Opnieuw synchroniseren vanuit CRM

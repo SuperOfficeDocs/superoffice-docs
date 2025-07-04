@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+index: true
 ---
 
 # Verkooptypen, fasen en gidsen beheren

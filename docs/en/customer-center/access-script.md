@@ -7,6 +7,7 @@ date: 03.16.2023
 keywords: Customer Center, CEP
 content_type: howto
 audience: settings
+index: true
 ---
 
 # Accessing the script from the Customer Centre

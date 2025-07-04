@@ -5,6 +5,7 @@ description: Preference sections
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: reference
+index: true
 ---
 
 # User preferences

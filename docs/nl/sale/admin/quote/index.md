@@ -15,6 +15,7 @@ redirect_from:
   - /nl/quote/learn/admin/index
   - /nl/quote/learn/admin/quotesync-tab-erp-connections
   - /nl/quote/learn/admin/quotesync-tab-settings
+index: true
 ---
 
 # Offertes en orders configureren

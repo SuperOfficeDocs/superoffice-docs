@@ -11,6 +11,7 @@ audience: person
 audience_tooltip: SuperOffice Service
 language: en
 redirect_from: /en/request/learn/next-in-queue
+index: true
 ---
 
 # How to set up Get next request in queue

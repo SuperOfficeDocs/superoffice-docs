@@ -8,6 +8,7 @@ keywords: sandbox, production sandbox environment, test environment
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # CRM Online production sandbox (test environment)

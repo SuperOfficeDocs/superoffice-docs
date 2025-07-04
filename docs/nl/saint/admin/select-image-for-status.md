@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/sale/saint/learn/admin/select-image-for-status
+index: true
 ---
 
 # Een afbeelding selecteren voor een status

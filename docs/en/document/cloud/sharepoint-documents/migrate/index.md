@@ -9,6 +9,7 @@ version:
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Migration guide

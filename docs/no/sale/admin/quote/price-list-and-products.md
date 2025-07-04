@@ -17,6 +17,7 @@ redirect_from:
   - /no/quote/learn/admin/product/index
   - /no/quote/learn/admin/product/quote-delete-deactivate-price-list-or-product
   - /no/quote/learn/admin/product/select-product-image
+index: true
 ---
 
 # Administrere prislister og produkter

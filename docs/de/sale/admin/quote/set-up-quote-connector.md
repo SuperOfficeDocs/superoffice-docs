@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
 redirect_from: /de/quote/learn/admin/erp-connection-add
+index: true
 ---
 
 # ERP-Verbindung für Quote Connector einrichten

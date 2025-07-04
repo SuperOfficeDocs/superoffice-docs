@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/admin/lists/learn/add-template
+index: true
 ---
 
 # Een documentsjabloon toevoegen

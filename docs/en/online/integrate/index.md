@@ -8,6 +8,7 @@ keywords: API, integration point, online
 content_type: concept
 deployment: online
 platform: web
+index: true
 ---
 
 # Integration scenarios: Web client (online)

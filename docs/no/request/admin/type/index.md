@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
 redirect_from: /no/request/learn/type/index
+index: true
 ---
 
 # Sakstype

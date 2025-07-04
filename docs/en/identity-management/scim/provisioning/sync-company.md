@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Sync company to SuperOffice now
