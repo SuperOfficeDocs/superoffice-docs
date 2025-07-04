@@ -12,7 +12,36 @@ content_type: howto
 
 This example shows how to retrieve a Members Collection using an instance of the `Selection` class.
 
-[!code-csharp[CS](includes/get-members-entity.cs)]
+```csharp
+using SuperOffice.CRM.Entities;
+using SuperOffice.CRM.Rows;
+using(SuperOffice.SoSession mySession =
+SuperOffice.SoSession.Authenticate("sam", "sam"))
+{
+  //Create an Instance of the Selection Entity
+  Selection newSelection = Selection.GetFromIdxSelectionId(58);
+
+  // Looping through the Selection Member property to retrieve the Selected members
+  foreach (SelectionMemberRow selMem in newSelection.SelectionMembers)
+  {
+    //retrieve the Contact information for a given Contact_id
+    ContactRow newConRow = ContactRow.GetFromIdxContactId(selMem.ContactId);
+    int selMemSelId = selMem.SelectionId;
+    int selMemConId = selMem.ContactId;
+    string selMemName = newConRow.Name;
+    string selMemNameDept = newConRow.NameDepartment;
+
+    //Creating the output
+    Console.Write("SelectionId" + "\t" + "ContactId" + "\t" + "Name" + "\t" + "NameDepartment");
+    Console.WriteLine();
+    Console.Write(selMemSelId + "\t");
+    Console.Write(selMemConId + "\t");
+    Console.Write(selMemName + "\t");
+    Console.Write(selMemNameDept + "\t");
+    Console.WriteLine();
+  }
+}
+```
 
 An instance of the `Selection` class is created from `selection_id` 58. It is an entity object for the `selection` table in the database and the objects represent full entities with both the base table objects and all related objects. Using `GetFromIdxSelectionId()`, it creates a new instance of the `Selection` object by querying the database table via the index `IDXSelId`. The intention is to make it easy to use efficient queries that match the database index.
 
