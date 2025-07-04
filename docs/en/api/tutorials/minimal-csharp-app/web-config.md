@@ -19,7 +19,39 @@ This section will present the technical details to understand what is required t
 * SuperOffice>Service
 * appSettings
 
-[!code-xml[XML](includes/web-config.xml)]
+```xml
+<configuration>
+ <configSections>
+    <sectionGroup name="SuperOffice">
+
+        <sectionGroup name="Data">
+        <section name="Session" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        </sectionGroup>
+        <section name="Services" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </sectionGroup>
+ </configSections>
+ <SuperOffice>
+    <Data>
+        <Session>
+            <!-- HttpContext means session information is stored, vs being recreated all the time -->
+            <add key="Mode" value="PartnerHttpContext" />
+        </Session>
+</Data>
+<Services>
+    <!-- Mode can be Local, Remote, Switch; local for web + appserver on same machine, remote otherwise -->
+    <add key="DefaultMode" value="Remote" />
+    <add key="ApplicationToken" value="df2d5bd84dd3848a8235e1d7e40d5b64" />
+    </Services>
+</SuperOffice>
+<appSettings>
+    <add key="SoAuthCookie" value="PartnerAuth" />
+    <add key="SoAppId" value="c2f1cee99dfab952d7f3cbda30d9762a" />
+    <add key="SoFederationGateway" value="https://sod.superoffice.com/login/" />
+    <add key="SystemTokenCertificatePath" value="certificates\partnerprivatekey.xml" />
+    <add key="SuperIdCertificate" value="16b7fb8c3f9ab06885a800c64e64c97c4ab5e98c" />
+</appSettings>…
+
+```
 
 The `Session Mode` property instructs NetServer to use the **PartnerHttpContext** provider to store the user's context when the application is run.
 
@@ -71,7 +103,18 @@ Path to a local file containing the partners' **application private key**.
 
 **Example private key file:**
 
-[!code-xml[XML](includes/private-key.xml)]
+```xml
+<RSAKeyValue>
+  <Modulus>migUNK1X11GNYZ7XpQ/EPrXohsC0VYCsx2n/0Gp1PmtLJe/9j+GtYqU09GNYTpFeQF/G0hXvbwZSjZJmGEkWgFCZUS+oFfGr3NfiVFPqCBPvjJlXMe/1XudxdUZLzUVIOb+uCSFzLkaEVh0IFnE4HRKYKkvEjvkItphxNBoNbFU=</Modulus>
+  <Exponent>AQAB</Exponent>
+  <P>1KhY+C+sYE6xH6raJDG8dQ14nZOGt/hlw5sZ+0Bk7EnCeTdzxnI7t6qiUYO9GJvsXEiCdRdcUF9TL6DI6+XJOw==</P>
+  <Q>uZNfZNXMnZt50G/SJewg3TqsfT9N3QyAqsifoSV1xoNhVpNL6A64iD8OyVrSzp50Rwnh1QS1fdDWLuI8AOTHrw==</Q>
+  <DP>E8LZEacMc56cYv7zam2cv5vS24G8ARh6DGU7Ute3CSYJhk4a2hP/bJ/UmZKOXd0PZ7vtM4hKMcXJ6yEbyp/9xQ==</DP>
+  <DQ>DNXxsjLLjVc0rMMfQPo9J7AoQB2B0DlOKQHpcKb7p3hs4iUcCfgCsYHTDwBWNm5lUoiPc0F5IDOyrNl/Fvy8Bw==</DQ>
+  <InverseQ>S9ptGHigXK+m/tvwE+9xroinx1FYhCJ7CtDlh2dMaeVPL9ZJkn1LHSf3BBsclf8dkvcGvBPPHZ+GvdpZxntYw==</InverseQ>
+  <D>Kgv/guS6/mBgmz1bnUqBIQe17jdWmLG5rsSjQWIgK4/RVf4xH5MTG0JrgLMuLXPqDM3y6W+ROKu1TaceUMZyq81xAROGxh+Yd+F77EIL3aendQulp977kyiVjdfIABNjHjcpu+lt11TgzlwaHne57TE+i0T9g3Jx0Yd5B4YlY7s=</D>
+</RSAKeyValue>
+```
 
 ### SuperIdCertificate
 
