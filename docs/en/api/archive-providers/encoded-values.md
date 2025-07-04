@@ -4,8 +4,10 @@ uid: encoded_values
 description: Encoded values
 author: Tony Yates
 date: 11.17.2017
-keywords:
+keywords: DisplayValue
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Encoded values

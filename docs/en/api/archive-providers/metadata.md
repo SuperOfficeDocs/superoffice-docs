@@ -3,8 +3,10 @@ title: Metadata
 uid: archive_provider_metadata
 description: Archive provider metadata
 author: SuperOffice Product and Engineering
-keywords:
+keywords: archive provider column list, GetAvailableColumns
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Metadata
