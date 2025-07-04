@@ -15,7 +15,39 @@ After creating an appointment you may need to [invite members][1]. The following
 
 ## Example 1
 
-[!code-csharp[CS](includes/create-invite-services-1.cs)]
+```csharp
+using SuperOffice.CRM.Services;
+using SuperOffice;
+
+using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
+{
+  //Create an appointment agent
+  using(AppointmentAgent appointmentAgent = new AppointmentAgent())
+  {
+    //Create an appointment entity through the appointment agent
+    AppointmentEntity myAppointment = appointmentAgent.CreateDefaultAppointmentEntity();
+
+    //Assign values to some of the properties of the appointment
+    myAppointment.Location = "5th Floor,Seminar Room";
+    myAppointment.AlarmLeadTime = TimeSpan.FromMinutes(10.00);
+    myAppointment.StartDate = DateTime.Today.AddDays(5);
+    myAppointment.EndDate = DateTime.Today.AddDays(5);
+    myAppointment.HasAlarm = true;
+    myAppointment.Description = "this is a new appointment";
+
+    using(AssociateAgent associateAgent = new AssociateAgent())
+    {
+        Associate appointmentOwner = associateAgent.GetAssociate(2);
+        myAppointment.Associate = appointmentOwner;
+
+        myAppointment.AlldayEvent = true;
+
+        //Save the newly created appointment in the database
+        appointmentAgent.SaveAppointmentEntity(myAppointment);
+    }
+  }
+}
+```
 
 Here we have first created an [AppointmentAgent][3]. The `Appointment` entity has its properties set to default values. For example, the `Associate` is automatically set to the current user (SAL0).
 
@@ -30,7 +62,50 @@ The first row is an `Appointment` in the appointment owner’s own diary. The se
 
 ## Example 2
 
-[!code-csharp[CS](includes/create-invite-services-2.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Services;
+
+using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
+{
+  //get the appointment agent
+  using(AppointmentAgent myAgent = new AppointmentAgent())
+  {
+    //create a default appointment
+    AppointmentEntity myAppointment = myAgent.CreateDefaultAppointmentEntity();
+
+    //set the start date and time
+    myAppointment.StartDate = System.Convert.ToDateTime("08/08/2007 3:00:00 PM");
+
+    //set the end date and time
+    myAppointment.EndDate = System.Convert.ToDateTime("08/08/2007 5:00:00PM");
+
+    //set a description
+    myAppointment.Description = "Team Meeting";
+
+    //create a participant array object
+    ParticipantInfo[] myParticipantArray = new ParticipantInfo[3];
+
+    //set the associate id of the participant
+    myParticipantArray[0] = new ParticipantInfo();
+    myParticipantArray[0].AssociateId = 17;
+
+    //Book resource for the appointment. this can be a meeting room, projector etc...
+    myParticipantArray[1] = new ParticipantInfo();
+    myParticipantArray[1].AssociateId = 41;
+
+    //add person who is from another contact
+    myParticipantArray[2] = new ParticipantInfo();
+    myParticipantArray[2].PersonId = 42;
+
+    //set the array to the participants property
+    myAppointment.Participants = myParticipantArray;
+    //save the appointment
+    myAgent.Save(myAppointment,
+      SuperOffice.Data.RecurrenceUpdateMode.OnlyThis,false,null,null);
+  }
+}
+```
 
 Here there is no reference to an invitation, when we invite a person to the appointment we have created, the invitation will be created for that person.
 

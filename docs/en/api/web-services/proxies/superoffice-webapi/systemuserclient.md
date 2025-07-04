@@ -27,7 +27,7 @@ The constructor accepts a `SystemUserInfo` instance and contains all of the info
 
 | Property | Description |
 |---|---|
-| Environment | The online environment (SOD, Stage, Production. |
+| Environment | The online environment (SOD, Stage, Production). |
 | ContextIdentifier | The tenant, or customer, identity. |
 | ClientSecret | The application secret, a.k.a. client_secret. |
 | PrivateKey | The applications RSAXML private certificate value. |
