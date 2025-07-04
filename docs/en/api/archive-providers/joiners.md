@@ -2,8 +2,10 @@
 title: joiners
 description: Joiners
 author: SuperOffice Product and Engineering
-keywords: reuse,IArchiveProvider
+keywords: Joiner class, joiners
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Joiners
@@ -22,7 +24,7 @@ LEFT OUTER JOIN text pt on p.text_id = pt.text_id
 
 The corresponding query graph is:
 
-![ALT][img1]
+![query graph][img1]
 
 The structure of the [extenders][1] involved corresponds exactly to this graph. The code handling each node is an `ExtenderBase`, while the code that provides the edges (the joins) is in Joiners. An instance of a `Joiner` inherits from the extender base and thus corresponds to the node and the edge going up to the parent node. As a result, joiners are typically very small classes with a standardized structure, that simply take a query and a parent table reference as input. They create a new `TableInfo` representing "this" and join it to the parent in the proper way (INNER, LEFT OUTER). They then return the newly created `TableInfo` instance up to the base class. Since the base class is an `ExtenderBase`, it now has a concrete table to work against and can run its logic (that requests `ReturnFields`, sets up restrictions, and picks values from the result set).
 

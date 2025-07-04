@@ -2,8 +2,10 @@
 title: Restriction Types
 description: Describes available archive provider column data types and lists their available operators.
 author: SuperOffice Product and Engineering
-keywords: Restriction
+keywords: RestrictionType, restrict archive provider, archive provider restriction
 content_type: reference
+category: api
+topic: archive providers
 ---
 
 # Archive Provider Restriction Types

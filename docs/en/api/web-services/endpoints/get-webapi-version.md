@@ -17,7 +17,7 @@ This returns a block with the supported versions and the NetServer version numbe
 * If you don't ask specifically, you get the HTML representation.
 * If you ask for JavaScript, you get the following:
 
-```javascript
+```json
 { "v1": "http://www.example.com/crm/api/v1",
   "NetServerVersion": "10.0.2.617",
   "NetServerAssembly": "10.0.0.0",
@@ -36,8 +36,7 @@ If you fetch the version URL, you get back a list of supported URLs: `/api/v1`
 
 This returns an array of URLs mapped to the HTTP methods they support, along with some documentation:
 
-```javascript
-{
+```json
   "http://www.example.com/WebApi/api/v1/Agents/Relation/CreateDefaultContactRelationEntity": {
     "POST": "Set default values into a new ContactRelationEntity."
   },

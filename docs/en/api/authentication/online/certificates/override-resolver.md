@@ -5,6 +5,7 @@ description: How to override the certificate resolver
 keywords: certificate, resolve, validate, SuperOfficeFederatedLogin.crt, CertificateValidator, JWT security token, X509Certificate2
 author: AnthonyYates
 content_type: howto
+category: api
 deployment: online
 platform: web
 ---
@@ -36,7 +37,19 @@ The X509Certificate2 constructor accepts a file name argument and is the file na
 
 The full path to the  *App_Data* folder containing *SuperOfficeFederatedLogin.crt* is passed to the constructor.
 
-[!code-csharp[ValidateToken()](includes/validate-token.cs)]
+```csharp
+public SuperIdToken ValidateToken(string token)
+{
+  var tokenHandler = new SuperIdTokenHandler();
+  tokenHandler.JwtIssuerSigningCertificate = new X509Certificate2(
+    HttpContext.Current.Server.MapPath("~/App_Data/") + "SuperOfficeFederatedLogin.crt"
+  );
+  // Change subdomain for correct environment (sod, stage, online).
+  tokenHandler.ValidIssuer = "https://sod.superoffice.com";
+  tokenHandler.CertificateValidator = X509CertificateValidator.None;
+  return tokenHandler.ValidateToken(token, TokenType.Jwt);
+}
+```
 
 The `ValidateToken` method will return a [SuperIdToken][1] populated with all the claims returned by SuperOffice CRM Online.
 

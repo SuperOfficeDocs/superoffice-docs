@@ -5,6 +5,7 @@ description: How to authenticate an application user
 author: SuperOffice Product and Engineering
 keywords: authentication, OAuth 2.0, OIDC, Authorization Code flow, Implicit flow
 content_type: howto
+category: api
 deployment: online
 platform: web
 ---

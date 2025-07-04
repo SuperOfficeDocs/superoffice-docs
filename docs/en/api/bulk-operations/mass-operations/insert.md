@@ -1,10 +1,13 @@
 ---
 title: Insert records
 description: How to insert large numbers of records in bulk.
+keywords: data-access, mass-operations, bulk-update
 author: AnthonyYates
 date: 02.29.2021
-keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
+content_type: howto
+category: api
+topic: mass operations
 ---
 
 <!-- markdownlint-disable-file MD051 -->
@@ -41,13 +44,69 @@ Used when there is a need to insert multiple records in a table, Insert requires
 
 #### Insert example
 
-[!code-csharp[CS](../includes/mass-operation-insert.cs)]
+```csharp
+using SuperOffice.WebApi;
+using SuperOffice.WebApi.Data;
+using SuperOffice.WebApi.Agents;
+
+// set up the DatabaseTable agent
+
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
+DatabaseTableAgent dta = new DatabaseTableAgent(options);
+
+// table name
+
+string tableName = "y_rental";
+
+// table columns (non-nullable columns)
+
+var columns = new[] { "x_start", "x_end", "x_amount", "x_contact", "x_equipment" };
+
+// table row data
+
+var data = new string[][]
+{
+  new[] {yesterday, today, CultureDataFormatter.EncodeInt(2), "123", "0" },
+  new[] {yesterday, today, CultureDataFormatter.EncodeInt(200), "456", "1" },
+};
+
+MassOperationResult results = await dta.InsertAsync(tableName, columns, data);
+```
 
 ### [Core API](#tab/insert-2)
 
 #### Insert example
 
-[!code-csharp[CS](../includes/mass-operation-insert-core.cs)]
+```csharp
+using SuperOffice.Data.Dialect;
+using SuperOffice.CRM.Globalization;
+
+var mo = MassOperations.GetCurrent();
+
+// table name
+
+string tableName = "y_rental";
+
+// table columns (non-nullable columns)
+
+var columns = new[] { "x_start", "x_end", "x_amount", "x_contact", "x_equipment" };
+
+// use CultureDataFormatter to encode date and numerical values. 
+
+var today = CultureDataFormatter.EncodeDateTime(DateTime.Today.DropFractionsOfSecond());
+var yesterday = CultureDataFormatter.EncodeDateTime(DateTime.Today.AddDays(-1).DropFractionsOfSecond());
+
+// table row data
+
+var data = new string[][]
+{
+  new[] {yesterday, today, CultureDataFormatter.EncodeInt(2), "123", "0" },
+  new[] {yesterday, today, CultureDataFormatter.EncodeInt(200), "456", "1" },
+};
+
+MassResult massResult = mo.Insert(tableName, columns, data);
+```
+
 ***
 
 The example inserts 2 rows into the `y_rental` table. Other unspecified columns in the table will be set to default values. As is with all extra tables, the primary key `y_rental.id`  will be auto-incremented by the database.

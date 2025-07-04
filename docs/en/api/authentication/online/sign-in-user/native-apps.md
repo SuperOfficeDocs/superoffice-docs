@@ -5,6 +5,7 @@ description: OpenID Connect native apps
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+category: api
 deployment: online
 platform: web
 ---

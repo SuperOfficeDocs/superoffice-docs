@@ -535,10 +535,6 @@ items:
   href: relation.md
 - name: ReportLabelLayout
   href: reportlabellayout.md
-- name: ReportProvider
-  href: reportprovider.md
-- name: Reports
-  href: reports.md
 - name: RequestNotification
   href: requestnotification.md
 - name: Role
@@ -609,8 +605,6 @@ items:
   href: salestaticselectionv2.md
 - name: SaleTypeQuoteAttachment
   href: saletypequoteattachment.md
-- name: SavedReports
-  href: savedreports.md
 - name: SelectionDynamicContactProvider
   href: selectiondynamiccontactprovider.md
 - name: SelectionDynamicSelectionSingleCriteriaGroup

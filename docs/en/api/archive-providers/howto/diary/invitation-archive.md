@@ -2,10 +2,12 @@
 uid: invitation-archive
 title: Invitation Archive
 description: Invitation Archive
-keywords: diary, calendar, appointment, API, entity, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
+keywords: Invitation Archive, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
+category: api
+topic: archive providers
 ---
 
 # Invitation Archive

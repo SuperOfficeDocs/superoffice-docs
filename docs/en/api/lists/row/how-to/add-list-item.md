@@ -19,7 +19,40 @@ An explanation of all lists is beyond the scope of this section so we will take 
 
 ## Example 1
 
-[!code-csharp[CS](../includes/add-listitem-1.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Rows;
+using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
+{
+  //create a category row
+  CategoryRow myCategory = CategoryRow.CreateNew();
+  myCategory.SetDefaults();
+
+  //give it a name
+  myCategory.Name = "This is a category test";
+
+  //set the rank
+  myCategory.Rank = 5;
+
+  //give a tool tip
+  myCategory.Tooltip = "This is test tooltip";
+
+  //save the row
+  myCategory.Save();
+
+  //create a category group link row
+  CategoryGroupLinkRow myGroupLinkRow = CategoryGroupLinkRow.CreateNew();
+
+  //set the group ID that you want
+  myGroupLinkRow.GroupId = 2;
+
+  //set the category ID
+  myGroupLinkRow.CategoryId = myCategory.CategoryId;
+
+  //save the category row
+  myGroupLinkRow.Save();
+}
+```
 
 In the above example, we have used purely [rows][1] to get the job done.
 
@@ -29,7 +62,47 @@ We have not stopped at creating a category, but we have created a `CategoryGroup
 
 ## Example 2
 
-[!code-csharp[CS](../includes/add-listitem-2.cs)]
+```csharp
+using SuperOffice;
+using SuperOffice.CRM.Services;
+using SuperOffice.CRM.Rows;
+
+using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
+{
+  //Creating a Category Row
+  CategoryRow newCategoryRw = CategoryRow.CreateNew();
+
+  //Assigning default values to the created Category Row
+  newCategoryRw.SetDefaults();
+
+  //Assigning values to the Properties of the Country Row
+  newCategoryRw.Name = "Cat-Dush";
+  newCategoryRw.Rank = 11;
+
+  //Saving the Category Row
+  newCategoryRw.Save();
+
+  //Adding GroupLInk Table Values
+  CategoryGroupLinkRow newCategoryGrLiRw1 = CategoryGroupLinkRow.CreateNew();
+  newCategoryGrLiRw1.SetDefaults();
+  newCategoryGrLiRw1.CategoryId = newCategoryRw.CategoryId;
+  newCategoryGrLiRw1.GroupId = 3;
+  newCategoryGrLiRw1.Save();
+
+  CategoryGroupLinkRow newCategoryGrLiRw2 = CategoryGroupLinkRow.CreateNew();
+  newCategoryGrLiRw2.SetDefaults();
+  newCategoryGrLiRw2.CategoryId = newCategoryRw.CategoryId;
+  newCategoryGrLiRw2.GroupId = 2;
+  newCategoryGrLiRw2.Save();
+
+  //Adding HeadingLInk Table Values
+  CategoryHeadingLinkRow newCategoryHeLiRw1 = CategoryHeadingLinkRow.CreateNew();
+  newCategoryHeLiRw1.SetDefaults();
+  newCategoryHeLiRw1.CategoryId = newCategoryRw.CategoryId;
+  newCategoryHeLiRw1.HeadingId = 6;
+  newCategoryHeLiRw1.Save();
+}
+```
 
 In the above code, we have created a new category called *Cat-Dush* which is stored in the `Category` table in the database. Then we have created 2 entries into the `CategoryGroupLink` table by creating and saving instances of the `CategoryGroupLinkRow`. This tells us to which user groups the category is visible for.
 

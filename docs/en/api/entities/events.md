@@ -64,7 +64,7 @@ If the save was successful, the `didSucceed` parameter is true. If some part of 
 The handler of `OnGetRelatedObjects` event.
 
 ```csharp
-voidmyContact_OnGetRelatedObjects(List<INestedPersist> relatedObjects)
+void myContact_OnGetRelatedObjects(List<INestedPersist> relatedObjects)
 {
   int count = relatedObjects.Count;
   int j;

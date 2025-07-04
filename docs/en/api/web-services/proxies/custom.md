@@ -22,7 +22,47 @@ There are two immediate alternatives to using the SuperOffice.Services.dll for .
 
 After giving a name to the added web service you can use that web service name in the `using` section of your code file in the following manner:
 
-[!code-csharp[CS](includes/testnewwcfapi.cs)]
+```csharp
+using TestNewWcfApi.SoPrincipalSvc;
+using C=TestNewWcfApi.ContactSvc;
+
+SoPrincipalClient svc = new SoPrincipalClient();
+bool bSuccess;
+bool bAuthSuccess;
+SoTimeZone tz = null;
+SoPrincipalCarrier soPrincipal = null;
+SoCredentials soCredentials = null;
+
+SoExceptionInfo ex = svc.AuthenticateUsernamePassword("pass", "user", out bSuccess, out tz, out soPrincipal, out bAuthSuccess, out soCredentials);
+
+if (ex != null)
+    Console.WriteLine("Error:" + ex.FriendlyText);
+else
+if( !bAuthSuccess )
+    Console.WriteLine("Error: Login failed");
+else
+{
+  // now call another web service using the ticket we got from the auth service
+  string ticket = soCredentials.Ticket;
+  C.SoTimeZone tz2 = new TestNewWcfApi.ContactSvc.SoTimeZone();
+  tz2.SoTimeZoneId = tz.SoTimeZoneId;
+  tz2.SoTimeZoneLocationCode = tz.SoTimeZoneLocationCode;
+  tz2.ExtensionData = tz.ExtensionData;
+
+  C.SoCredentials soCredentials2 = new TestNewWcfApi.ContactSvc.SoCredentials();
+  soCredentials2.Ticket = soCredentials.Ticket;
+  soCredentials2.ExtensionData = soCredentials.ExtensionData;
+
+  C.Contact1Client contactSvc = new C.Contact1Client();
+  C.Contact aContact = null;
+  C.SoExceptionInfo ex2 = contactSvc.GetContact(soCredentials2, ref tz2, 4, out bSuccess, out aContact);
+
+  if (ex2 != null)
+  Console.WriteLine("Error: " + ex2.FriendlyText);
+  else
+  Console.WriteLine(aContact.Name);
+}
+```
 
 Having multiple services that share the same carrier objects is a scenario that is not well supported in Visual Studio.
 
@@ -64,6 +104,7 @@ public string GetTicket(string username, string password)
   if (exInfo != null)
     throw new SoServiceException(exInfo);
   return credentials.Ticket;
+}
 ```
 
 The first thing is to instantiate a `Contact` proxy object. Next, before any methods are called, the `SoCredentials` proxy property is set to a new `SoCredentialsHeader` instance, and then set accordingly.

@@ -5,6 +5,8 @@ description: Base and helper classes
 author: SuperOffice Product and Engineering
 keywords: IArchiveProvider
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Base and helper classes

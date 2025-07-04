@@ -4,8 +4,10 @@ uid: using_bulk_update
 description: Practical details, requirements, configuration
 author: Tony Yates
 date: 06.23.2017
-keywords: bulk update, FieldValueInfo, DictionaryTableName
+keywords: FieldValueInfo, DictionaryTableName
 content_type: howto
+category: api
+topic: bulk update
 deployment: online
 platform: web
 ---
@@ -47,7 +49,47 @@ Below is a basic example that searches for all persons with the title property e
 
 The preference that enables the Bulk update log is in the BulkUpdate section, has a `LogResultOfJob` prefkey, and has a prefvalue that is set to either true or false.
 
-[!code-csharp[example 1](includes/bulk-update.cs)]
+```csharp
+// search for all persons with title ‘Admin’
+var selectPeople = S.NewSelect<PersonTableInfo>(pti => pti.Title.Equal("Admin"));
+
+// get all personIds from the search results 
+var personIds = selectPeople.Records(selectPeople.Table.PersonId).Select(r => new { PersonId = r.Table.PersonId[r] });
+
+if (personIds != null)
+{
+    // use BulkUpdateSystem.GetAvailablePersonFields to get the Title FieldValueInfo
+    var personTitleFieldValueInfo = BulkUpdateSystem.GetAvailablePersonFields()
+            .Where(v => v.Key == BulkUpdateSystem.PersonFieldValueKeys.Title)
+            .FirstOrDefault();
+
+    // use a set operation to update the field
+    personTitleFieldValueInfo.CurrentOperationType = BulkUpdateSystem.OperationTypes.Set;
+
+    // define the new value
+    personTitleFieldValueInfo.Values = new[] { "Administrator" };
+
+    // instantiate a new BulkUpdate BackgroundJob
+    BulkUpdateSystem.BackgroundJob updateJob = new BulkUpdateSystem.BackgroundJob(
+
+    // define the target table name
+    SuperOffice.CRM.Data.PersonTableInfo.DictionaryTableName,
+
+    // set then FieldValueInfo
+    new[] { personTitleFieldValueInfo },
+
+    // set the person Ids that will be updated
+    personIds.Select(p => p.PersonId).ToArray());
+
+    // execute the job
+    bool updateSuccess = updateJob.UpdateFieldsAsync();
+
+    while (!updateJob.Done)
+    {
+        Thread.Sleep(500);
+    }
+}
+```
 
 The first two lines of code execute a NetServer OSQL query that gets all `personId`s where the person Title is equal to 'Admin'. Next, it checks to make sure the result is not null, indicating at least one person was returned by the query.
 

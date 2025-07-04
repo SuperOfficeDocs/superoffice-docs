@@ -182,7 +182,7 @@ conceptualContent:
       - text: NetServer web services
         itemType: list
         typeDesc: how-to-guide
-        url: ../api/search/selection/services/add-member-to-static-selection-services.md
+        url: ../api/search/selection/services/get-selection-members-services.md
       - text: NetServer archive providers
         itemType: list
         typeDesc: how-to-guide

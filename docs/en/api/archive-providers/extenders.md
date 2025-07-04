@@ -2,8 +2,10 @@
 title: extenders
 description: Extenders
 author: SuperOffice Product and Engineering
-keywords: reuse,IArchiveProvider
+keywords: archive extender
 content_type: concept
+category: api
+topic: archive providers
 ---
 
 # Extenders
