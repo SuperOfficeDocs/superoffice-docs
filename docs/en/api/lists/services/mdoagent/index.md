@@ -27,7 +27,12 @@ The endpoint is located at the `/api/v1/agents/MDO` URL. See [API reference][3] 
 
 The endpoint is located at the `/Remote/Services88/MDO.svc` URL. See [API reference][4] for more details.
 
-[!include[placeholder](../includes/how-to-list.md)]
+## How-to guides
+
+View the [How-To pages][1] to see how to work with the lists endpoint to manage lists.
+
+<!-- Referenced links -->
+[1]: how-to/index.md
 
 [2]: ../../../reference/restful/rest/List_MDO/index.md
 [3]: ../../../reference/restful/agent/MDO_Agent/index.md
