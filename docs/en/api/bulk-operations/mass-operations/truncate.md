@@ -1,11 +1,13 @@
 ---
 title: Truncate table
 description: How to truncate a table.
+keywords: data-access, mass-operations, bulk-update
 author: AnthonyYates
 date: 02.29.2021
-keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 content_type: howto
+category: api
+topic: mass operations
 ---
 
 <!-- markdownlint-disable-file MD051 -->
@@ -20,9 +22,46 @@ This method is used to remove all records in a table. All records afterward are 
 
 ### [Agent RESTful API](#tab/truncate-1)
 
-[!code-csharp[CS](../includes/mass-operation-truncate-agent.cs)]
+```csharp
+using SuperOffice.WebApi;
+using SuperOffice.WebApi.Data;
+using SuperOffice.WebApi.Agents;
+
+
+// set up the DatabaseTable agent
+
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
+DatabaseTableAgent dta = new DatabaseTableAgent(options);
+
+// table name
+
+string tableName = "y_rental";
+
+MassOperationResult massResult = await dta.TruncateAsync(tableName);
+
+if(massResult.Success)
+{
+    Console.WriteLine($"Removed {massResult.Deletes} records from {tableName}.");
+}
+```
 
 ### [Core API](#tab/truncate-2)
 
-[!code-csharp[CS](../includes/mass-operation-truncate-core.cs)]
+```csharp
+using SuperOffice.Data.Dialect;
+
+var mo = MassOperations.GetCurrent();
+
+// table name
+
+string tableName = "y_rental";
+
+MassResult massResult = mo.Truncate(tableName);
+
+if(massResult.Success)
+{
+    Console.WriteLine($"Removed {massResult.Deletes} records from {tableName}.");
+}
+```
+
 ***

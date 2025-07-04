@@ -4,8 +4,10 @@ uid: operations_and_values
 description: Operations and values
 author: Tony Yates
 date: 06.23.2017
-keywords: bulk update
+keywords: bulk update operations
 content_type: concept
+category: api
+topic: bulk update
 deployment: online
 platform: web
 ---
@@ -59,7 +61,56 @@ When used with a field that accepts the `Add`, `Remove`, `ReplaceWith`, `Clear`,
 > [!NOTE]
 > There will be cases when some index values are populated but not used. Take the following code example, where a RegEx operation is performed. The first four indexes in the `Values` property are not used. For performing a `RegEx` operation, only the last three indexes are required.
 
-[!code-csharp[example 1](includes/bulk-update-set.cs)]
+```csharp
+// search for all companies where name begins with 'super'
+var select = S.NewSelect<ContactTableInfo>(cti => cti.Name.Like("super%"));
+
+// get all company id's from the search results 
+var companyIds = select.Records(select.Table.ContactId).Select(r => r.Table.ContactId[r]).ToArray();
+
+if (companyIds != null)
+{
+    // use BulkUpdateSystem.GetAvailableContactFields to get the Name FieldValueInfo
+    var contactNameFieldValueInfo = BulkUpdateSystem.GetAvailableContactFields().Where(
+        v => v.Key == BulkUpdateSystem.ContactFieldValueKeys.Name).FirstOrDefault();
+
+    // use a set operation to update the field
+    contactNameFieldValueInfo.CurrentOperationType = BulkUpdateSystem.OperationTypes.RegEx;
+    
+    // define the new value
+    contactNameFieldValueInfo.Values = 
+    new[]
+    {
+        "", // 0 Not Used
+        "", // 1 Not Used
+        "", // 2 Not Used
+        "", // 3 Not Used
+        @"super\s?office", // 4 RegEx (Locate)
+        "SuperOffice",     // 5 Replace
+        System.Text.RegularExpressions.RegexOptions.IgnoreCase.ToString(), // 6 RegexOptions
+    };
+
+    // instantiate a new BulkUpdate BackgroundJob
+    BulkUpdateSystem.BackgroundJob updateJob = new BulkUpdateSystem.BackgroundJob(
+
+    // define the target table name
+    SuperOffice.CRM.Data.ContactTableInfo.DictionaryTableName,
+
+    // set then FieldValueInfo
+    new[] { contactNameFieldValueInfo },
+
+    // set the company Ids that will be updated
+    companyIds);
+
+    // execute the job
+    bool updateSuccess = updateJob.UpdateFieldsAsync();
+
+    while (!updateJob.Done)
+    {
+        Thread.Sleep(500);
+    }
+}
+```
 
 **Next:** In [Entities and field types][1], each field details what parameters are expected at which index in the **Expected Field Values** column.
 
