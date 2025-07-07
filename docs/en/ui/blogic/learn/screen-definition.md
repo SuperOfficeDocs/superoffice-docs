@@ -11,7 +11,7 @@ language: en
 
 # Screen definition
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Here you can view the details of the selected screen.
 

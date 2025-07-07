@@ -15,7 +15,7 @@ redirect_from: /no/ui/screen-designer/learn/elements
 
 # Rediger layouten til et kort
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Når du har [opprettet en ny layout][6], er det tid for tilpasning. Tilpass layouten for hovedkortene og arkivene slik at de dekker informasjonsbehovene i din organisasjon.
 

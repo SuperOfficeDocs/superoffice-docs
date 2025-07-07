@@ -19,7 +19,7 @@ index: true
 
 Fliken **Synk** i fönstret Offert/Synk under **Inställningar och underhåll** visar Sync Connectors och ERP-kopplingar som möjliggör integration mellan SuperOffice CRM och externa ERP-system.
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 ## Terminologi
 

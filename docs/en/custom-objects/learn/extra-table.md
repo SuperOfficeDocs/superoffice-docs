@@ -17,7 +17,7 @@ redirect_from:
 
 # Third-party tables
 
-[!include[License requirement](../../learn/includes/req-expander-services.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice Development Tools license gives you the possibility to create extra tables (custom objects) in the database.
 

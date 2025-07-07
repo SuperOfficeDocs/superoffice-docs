@@ -15,7 +15,7 @@ index: true
 
 # Gebruikersinterface aanpassen
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice versie 10 (uitgebracht in oktober 2021) introduceerde [Schermontwerper][1] met aanpasbare schermopmaken voor specifieke gebruikersgroepen. Eventuele aangepaste schermopmaken met de Schermontwerper kunnen de hieronder beschreven instellingen overschrijven.
 

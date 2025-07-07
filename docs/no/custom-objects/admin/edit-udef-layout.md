@@ -15,7 +15,7 @@ index: true
 
 # Grensesnitttilpasning
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice versjon 10 (utgitt oktober 2021) introduserte [Skjermdesigner][1] med skjermlayouter som kan tilpasses for bestemte brukergrupper. Eventuelle egendefinerte skjermlayouter som bruker skjermdesigner kan overstyre innstillingene som er beskrevet nedenfor.
 

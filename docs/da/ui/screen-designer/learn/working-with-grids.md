@@ -14,7 +14,7 @@ language: da
 
 # Arbejde med gittere
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Hvis du har mange felter, kan du bruge et gitterelement til at placere dem mere præcist. Dette er et alternativ til positionering baseret på sorteringsrækkefølge og kolonner.
 

@@ -16,7 +16,7 @@ redirect_from: /no/admin/erp/learn/erp-sync-disconnect
 
 # Deaktiver synkronisering
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 1. Gå til skjermbildet Firma, Person eller Prosjekt, og deretter velg **ERP**-fanen.
 1. Klikk på **Rediger**.

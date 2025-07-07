@@ -17,7 +17,7 @@ redirect_from:
 
 # Add layout
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request, and follow-up types or document templates, start by adding a new layout for a screen in the Screen Designer.
 

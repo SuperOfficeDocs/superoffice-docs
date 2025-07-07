@@ -14,7 +14,7 @@ language: nl
 
 # Extra veld
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Een *extra veld* is een aangepast veld dat je toevoegt aan een bestaande SuperOffice-databasetabel. Je kunt de volgende entiteiten uitbreiden:
 

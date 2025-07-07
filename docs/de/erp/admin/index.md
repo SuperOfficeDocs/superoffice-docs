@@ -19,7 +19,7 @@ index: true
 
 Die Registerkarte **Sync** im Bildschirm Angebot/Sync unter **Einstellungen und Verwaltung** listet Sync Connectors und ERP-Verbindungen auf, die die Integration zwischen SuperOffice CRM und externen ERP-Systemen ermöglichen.
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 ## Begriffserklärungen
 

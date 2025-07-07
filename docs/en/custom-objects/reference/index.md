@@ -15,7 +15,7 @@ index: true
 
 # Working with custom objects and fields in API
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Via the APIs, it is possible to create and manage user-defined fields only. Extra fields and tables must be managed in Settings and maintenance. However, all custom object data is accessible via the APIs.
 

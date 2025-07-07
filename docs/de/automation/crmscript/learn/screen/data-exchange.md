@@ -14,7 +14,7 @@ deployment: onsite
 
 # Datenaustausch (nur ONSITE)
 
-[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../../includes/req-dev-tools.md)]
 
 In diesem Bereich wird die Datenbankintegration zwischen dem System und anderen Datenquellen konfiguriert.
 

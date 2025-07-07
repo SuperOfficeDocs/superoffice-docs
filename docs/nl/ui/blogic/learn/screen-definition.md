@@ -11,7 +11,7 @@ language: nl
 
 # Schermdefinitie
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Hier kunt u de details van het geselecteerde scherm bekijken.
 

@@ -15,7 +15,7 @@ redirect_from: /en/ui/screen-designer/configurable-screens/working-with-grids
 
 # Working with grids
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 If you have many fields, you can use a grid element to position them with more finesse. This is an alternative to positioning based on sort order and columns.
 

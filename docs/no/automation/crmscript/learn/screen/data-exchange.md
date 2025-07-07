@@ -15,7 +15,7 @@ deployment: onsite
 
 # Datautveksling (bare ONSITE)
 
-[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../../includes/req-dev-tools.md)]
 
 Dette området brukes til å konfigurere databaseintegrasjon mellom systemet og andre datakilder.
 

@@ -14,7 +14,7 @@ language: de
 
 # Arbeiten mit Feldern
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Beschriftungen und Felder repräsentieren die wesentlichen Inhalte einer Ansicht. Ob Sie ein neues Layout erstellen oder ein bestehendes ändern, beginnen Sie, indem Sie auf **Layout bearbeiten** klicken. [Zeigen Sie mir die detaillierten Schritte.][1] Wenn Sie fertig sind, **speichern oder veröffentlichen** Sie das Layout.
 

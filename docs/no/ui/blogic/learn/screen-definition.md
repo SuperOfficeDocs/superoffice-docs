@@ -11,7 +11,7 @@ language: no
 
 # Definisjon av skjerm
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Her kan du vise detaljene for det valgte bildet.
 

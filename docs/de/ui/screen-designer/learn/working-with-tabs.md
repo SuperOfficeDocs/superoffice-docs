@@ -14,7 +14,7 @@ language: de
 
 # Arbeiten mit Registerkarten
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Diese Anleitung geht davon aus, dass Sie bereits [das Layout bearbeiten][2]. Die folgenden Abschnitte erklären, wie Sie Registerkarten in SuperOffice CRM organisieren und anpassen, um die Benutzeroberfläche an die Bedürfnisse Ihrer Organisation anzupassen.
 

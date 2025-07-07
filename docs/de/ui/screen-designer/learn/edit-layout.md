@@ -15,7 +15,7 @@ redirect_from: /de/ui/screen-designer/learn/elements
 
 # Hauptkartenlayout bearbeiten
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Wenn Sie ein [neues Layout erstellt haben][6], müssen Sie es anzupassen. Personalisieren Sie das Layout für die Hauptkarten und Archive, um die Informationsbedürfnisse Ihrer Organisation zu erfüllen.
 

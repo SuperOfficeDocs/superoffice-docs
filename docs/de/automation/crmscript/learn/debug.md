@@ -13,7 +13,7 @@ language: de
 
 # Debugsitzungen
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Auf der Registerkarte **Debugsitzungen** wird eine Liste aller aktiven Debugsitzungen im System angezeigt. Klicken Sie in der Liste auf eine Sitzung, um sie im **Debugger** zu öffnen.
 

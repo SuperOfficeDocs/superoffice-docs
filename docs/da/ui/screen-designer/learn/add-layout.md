@@ -15,7 +15,7 @@ redirect_from: /da/ui/screen-designer/learn/add-new-layout
 
 # Tilføj layout
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller designer et layout optimeret til specifikke projekt-, salgs-, sag- og opfølgningstyper eller dokumentskabeloner, skal du starte med at tilføje et nyt layout til en skærm i Skærmdesigneren.
 

@@ -11,7 +11,7 @@ language: no
 
 # Skjermvelgere
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 En skjermvelger er et skript som kan utføre en omdirigering til et annet bilde fra standardbildet. Skriptet kan kjøre funksjonen CRMScript "setVariable("url", myUrl)" for å vise en URL som er forskjellig fra standard-URL-en. Dette kan f.eks. brukes til å omdirigere fra bildet Vis sak til et egendefinert bilde og/eller utføre beregninger i skriptet før bildet vises. Skjermvelgerne er organisert i en mappestruktur basert på hvor i systemet de kjøres fra.
 

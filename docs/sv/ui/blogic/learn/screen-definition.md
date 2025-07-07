@@ -11,7 +11,7 @@ language: sv
 
 # Skärmdefinition
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Här visas information om den valda skärmen.
 
