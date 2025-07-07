@@ -1,11 +1,12 @@
 ---
+uid: create-custom-archive-controls
 title: Create a custom archive control
-uid: create_custom_archive_controls
-description: Create custom archive controls
+description: This 4-step tutorial demonstrates how to add an Archive control to the web client, establish settings that determine the data source, as well demonstrates context menu and action button settings.
+keywords: SoArchiveControl
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: tutorial
+category: customization
 platform: web
 deployment: onsite
 ---

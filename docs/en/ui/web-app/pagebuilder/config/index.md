@@ -1,11 +1,13 @@
 ---
+uid: pagebuilder-config
 title: PageBuilder config files
-uid: pagebuilder_config
 description: PageBuilder config files
+keywords: PageBuilder configuration
 author: Tony Yates
 date: 06.24.2016
-keywords: config
 content_type: concept
+category: customization
+topic: Pagebuilder
 platform: web
 deployment: onsite
 ---
@@ -98,7 +100,38 @@ The `controlgroup` element contains a **controls** element, which is a container
 
 Beginning to see a pattern yet?
 
-[!code-xml[XML](includes/soplaincarddialog.xml)]
+```xml
+<!-- SoPlainCardDialog.config -->
+<page id="PlainCardDialog">
+  <title>Plain Dialog</title>
+  <panels>
+    <panel id="MainPanel" type="SoDialogPanel" soprotocol="main">
+      <cards>
+        <card id="MainCard" type="SoDialogSimpleCard" placeholderid="MainDialogCard"
+              cardtype="MainCard" position="absolute" top="10px">
+          <views>
+            <view id="MainView" type="SoDialogSimpleView" soprotocol="view1">
+              <controlgroups>
+                <controlgroup id="MainHeaderGroup" type="SoControlGroup"
+                              left="50px" top="50px" position="absolute">
+                  <controls>
+                    <control id="DialogHeader" type="SoLabel" width="100%">
+                      <caption>Plain Dialog Label</caption>
+                    </control>
+                  </controls>
+                </controlgroup>
+              </controlgroups>
+             </view>
+          </views>
+          <config>
+            <customcssclass>mycardtop</customcssclass>
+          </config>
+        </card>
+      </cards>
+    </panel>
+  </panels>
+</page>
+```
 
 ### Config element
 
@@ -118,7 +151,39 @@ Using the complete structure approach means creating a merge file with the compl
 
 The following example demonstrates how to replace a control group in the SoContactPage configuration. Take notice of how each ID along the path is defined for the page, panel, card, view, and finally the control group. Make sure to also include the **< pages >** root element.
 
-[!code-xml[XML](includes/socontactpage.merge.xml)]
+```xml
+<pages>
+  <page id ="ContactPage">
+    <panels>
+      <panel id="Contact">
+        <cards>
+          <card id="ContactMainCard">
+            <views>
+              <view id="MainView">
+                <controlgroups>
+                  <controlgroup id="maingroup_2" mergeaction="replace"
+                                type="SoControlGroup" position="absolute"
+                                top="58px" width="42%" right="20px"
+                                overflow="hidden">
+                    <controls>
+                      <control id="miniImage" type="SoImage">
+                        <config>
+                          <imagetype>url<imagetype>
+                          <src>MyImages/WebClient/Web/image/owl.jpg<src>
+                        <config>
+                      <control>
+                    <controls>
+                  <controlgroup>
+                <controlgroups>
+              <view>
+            <views>
+          <card>
+        <cards>
+      <panel>
+    <panels>
+  <page>
+<pages>
+```
 
 Without stating id values at each stage of the structure, the filter would not be unable to determine which page>panel>card>view>controlgroup path to replace and the merge would be ignored.
 

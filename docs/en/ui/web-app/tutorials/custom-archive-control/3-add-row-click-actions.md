@@ -1,11 +1,12 @@
 ---
+uid: add-row-click-actions
 title: How to add row click actions
-uid: add_row_click_actions
 description: How to add row click actions
+keywords: linkinfo
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: tutorial
+category: customization
 platform: web
 deployment: onsite
 ---
@@ -64,7 +65,36 @@ A linkhint prefix specifies a name followed by a colon.
 
 A linkhint prefix is then used in the `linkinfo` element, prefixing the type with the given linkhint-prefix name. Below are just a few real examples where a `linkhint-prefix` is used to create different actions for the same entity type.
 
-[!code-xml[XML](includes/linkinfo.xml)]
+```xml
+<linkinfos>
+  <!-- *********************************************
+  create archive separation using a linkhint prefix  
+  ***********************************************-->
+
+  <linkinfo type="personarchive:person" subtype="click">
+    <baseurl>javascript:PageUpdate('soprotocol:personarchive[refresh=false]?person_id={person_id}','');</baseurl>
+    <target></target>
+  </linkinfo>
+  <linkinfo type="personarchive:person" subtype="dblclick">
+    <baseurl>javascript:Dialog.open('Person','person[dialog=stop].main?person_id={person_id}','RefreshContactAndPersonCurrent()');</baseurl>
+    <target></target>
+  </linkinfo>
+
+    <linkinfo type="find:person" subtype="click">
+    <baseurl>javascript:FindOnSingleClick('contact.main.personarchive?person_id={person_id}',true,'person','person[dialog=stop]?person_id={person_id}','{ArchiveControlId}');</baseurl>
+    <target></target>
+  </linkinfo>
+  <linkinfo type="find:person" subtype="dblclick">
+    <baseurl>javascript:FindOnDblClick('contact.person.main.personarchive?person_id={person_id}');</baseurl>
+    <target></target>
+  </linkinfo>
+
+  <linkinfo type="drilldown:person" subtype="dblclick">
+    <baseurl>javascript:SuperOffice.Dashboard.NavigateToDrilldownEntity('contact', {contact_id});</baseurl>
+    <target></target>
+  </linkinfo>
+</linkinfos>
+```
 
 ## Override linkinfo settings
 

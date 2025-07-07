@@ -1,11 +1,13 @@
 ---
+uid: webapp-soml
 title: SuperOffice Markup Language (SOML)
-uid: webapp_soml
 description: SuperOffice Markup Language (SOML)
+keywords: SuperOffice Markup Language, SOML
 author: Tony Yates
 date: 04.17.2018
-keywords:
 content_type: concept
+category: customization
+topic: Pagebuilder
 platform: web
 deployment: onsite
 ---
@@ -99,7 +101,37 @@ This will cause the system to look for a view configuration fragment with the re
 
 The first example is a **view** with `id` value MainView. The `reference` attribute is *MainView*, which means that the content of this view must be in a file named *SoMainViewView.config*. *SoMainViewView.config* does exist and contains the content that declares the top left view of the company card.
 
-[!code-xml[XML](includes/somainviewview.xml)]
+```xml
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main">
+  <cards>
+    <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard" layout-position="center">
+      <views>
+        <view id="MainView" reference="MainView" current="contact" rendermode="display"></view>
+        <view id="more" type="SoView" soprotocol="udef" current="contact" rendermode="display" minwidth="##MAINCARD.MINWIDTH##">
+          ...
+          <controlgroups>
+            <controlgroup id="MoreMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
+            <controlgroup id="MoreButtonBar" referenceWithIdUpdate="ContactButtonBar"/>
+          </controlgroups>
+          ...
+        </view>
+        <view id="interests" type="SoView" soprotocol="interest" current="contact" rendermode="display" minwidth="##MAINCARD.MINWIDTH##">
+          <caption binding="resources">[SR_PL_INTERESTS_1]</caption>
+          <controlgroups>
+            <controlgroup id="InterestMainHeaderGroup" referenceWithIdUpdate="MainHeaderGroup"/>
+            <controlgroup id="InterestButtonBar" referenceWithIdUpdate="ContactButtonBar"/>
+          </controlgroups>
+        </view>
+      </views>
+      ...
+    </card>
+    <!-- prefkey="MiniPanel": Need to explicitly mark the minipanel card, because settings are stored differently in database -->
+    <card id="ContactMiniCard" reference="MiniCard"></card>
+    ...
+  </cards>
+...
+</panel>
+```
 
 Looking further down in the file, there are more fragments declared using both `reference` and `referenceWithIdUpdate` attribute.
 
