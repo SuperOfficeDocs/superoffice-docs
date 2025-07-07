@@ -20,7 +20,7 @@ When you are ready to start learning CRMScript:
 
 * Learn about error handling and [debugging][5].
 
-* Ask your questions in the [!include[forums](includes/link-forum-cs.md)].
+* Ask your questions in the [forums][10].
 
 * [Register as a developer][8] to get access to your own sandbox environment and start exploring interaction with SuperOffice.
 
@@ -28,9 +28,9 @@ To develop applications and scripts in our SOD environment is free. [Required li
 
 ## More resources
 
-* [!include[NetServer documentation](includes/link-nsws.md)]
+* [NetServer documentation][11]
 
-* [!include[Database reference](includes/link-sodb.md)]
+* [Database reference][9]
 
 * [Regular expression tool][6]
 
@@ -43,3 +43,6 @@ To develop applications and scripts in our SOD environment is free. [Required li
 [6]: https://regex101.com/
 [7]: ../../../admin/license/index.md
 [8]: ../../../developer-portal/getting-started/get-access-to-sod.md
+[9]: ../../../database/tables/index.md
+[10]: https://community.superoffice.com/en/technical/forums/api-forums/service-crmscript/
+[11]: xref:SuperOffice.CRM.Services
