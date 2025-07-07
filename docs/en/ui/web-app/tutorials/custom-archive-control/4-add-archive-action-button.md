@@ -1,11 +1,12 @@
 ---
+uid: add-archive-action-button
 title: How to add an Archive action button
-uid: add_archive_action_button
 description: How to add an Archive action button
+keywords: action button, archive control bar
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: howto
+category: customization
 platform: web
 deployment: onsite
 ---
@@ -49,7 +50,7 @@ The following example is an excerpt of the `ConactPersonArchive` control. It dem
         onrowselect="DisableOnEmpty"
         linkhint="nav=deletePerson"/>
     </toolbar>
-    <!— Remaining config items removed for brevity-->
+    <!-- Remaining config items removed for brevity-->
     ...
   </config>
 </control>

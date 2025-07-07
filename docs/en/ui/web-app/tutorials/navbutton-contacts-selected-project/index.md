@@ -1,11 +1,12 @@
 ---
+uid: pb-usercontrols-tutorial-mypage
 title: How to add a new panel
-uid: pb_usercontrols_tutorial_mypage
 description: How to add a panel and link it from the navigator
 author: Tony Yates
 date: 06.24.2016
-keywords: pagebuilder
 content_type: tutorial
+category: customization
+topic: PageBuilder
 platform: web
 deployment: onsite
 ---
@@ -22,7 +23,46 @@ The following tutorial shows how we can add a button to the Navigator panel by m
 
 ### Config
 
-[!code-xml[XML](includes/navigator-panel.xml)]
+```xml
+<panel id="Navigator" type="SoPanel" soprotocol="" paneltype="Navigator" top="20px" left="0px" height="800px" overflow="auto" width="160px" position="absolute" zindex="99">
+  <cards>
+    <card id="NavigatorCard" type="SoCard" placeholderid="" cardtype="NavigatorCard">
+      <views>
+        <view id="NavigatorView" type="SoPlainView" overflow="auto" soprotocol="Navigator" >
+          <controlgroups>
+            <!--Some other Control groups-->
+            <controlgroup id="ButtonGroup" type="SoControlGroup" position="relative" left="16px" top="10px">
+              <controls>
+                <!--Some other buttons-->
+                <!--Our Button code begins here-->
+                <control id="myPageButton" type="SoToolButton">
+                  <caption>My Page</caption>
+                  <config>
+                    <onclick>javascript:PageUpdate('soprotocol:test','');</onclick>
+                    <ontextclick>javascript:dummy();</ontextclick>
+                    <passiveimage>images/Myimages/myButton1.jpg</passiveimage>
+                    <disabledimage>images/Myimages/myButton2.jpg</disabledimage>
+                    <selectedimage>images/Myimages/myButton3.jpg</selectedimage>
+                    <hoverimage>images/Myimages/myButton4.jpg</hoverimage>
+                    <width>70</width>
+                    <textalign>right</textalign>
+                  </config>
+                  <function-rights>
+                    <function-right type="hide">hide-company</function-right>
+                  </function-rights>
+                </control>
+                <!--Our Button code Ends here-->
+              </controls>
+            </controlgroup>
+            <!--Some other Control groups-->
+          </controlgroups>
+        </view>
+        <!--Some other Views groups-->
+      </views>
+    </card>
+  </cards>
+</panel>
+```
 
 ### Walk-through
 
@@ -41,7 +81,46 @@ The new button should now be visible in the Navigator panel on the left side of 
 
 This is the code for our new page.
 
-[!code-xml[XML](includes/test-page.xml)]
+```xml
+<page id="TestPage">
+  <data>
+    <!--This section contains the data handlers to be used by the page -->
+    <datahandlers>
+      <datahandler id="NavigatorDataHandler" type="NavigatorDataHandler"></datahandler>
+      <datahandler id="ContactEntityDataHandler" type="ContactEntityDataHandler"></datahandler>
+      <datahandler id="PersonEntityDataHandler" type="PersonEntityDataHandler"></datahandler>
+      <datahandler id="ProjectEntityDataHandler" type="ProjectEntityDataHandler"></datahandler>
+      <datahandler id="DiaryDataHandler" type="DiaryDataHandler"></datahandler>
+      <datahandler id="MyDataHandler" type="MyDataHandler"></datahandler>
+      <datahandler id="MiniCardDataHandler" type="MiniCardDataHandler">
+        <config>
+          <archivecolumninfos>
+            <archivecolumninfo guiname="SelectionMemberMiniCardArchive" providername="contactselection"/>
+            <archivecolumninfo guiname="ProjectMemberMiniCardArchive" providername="projectmember"/>
+          </archivecolumninfos>
+        </config>
+      </datahandler>
+      <datahandler id="ArchiveColumnConfigDataHandler" type="ArchiveColumnConfigDataHandler">
+        <config>
+          <archivecolumninfos>
+            <archivecolumninfo guiname="ContactPersonArchive" providername="person"/>
+            <archivecolumninfo guiname="ContactRelationArchive" providername="relation"/>
+            <archivecolumninfo guiname="ContactActivityArchive" providername="contactactivity"/>
+            <archivecolumninfo guiname="ContactProjectsArchive" providername="contactprojects"/>
+          </archivecolumninfos>
+        </config>
+      </datahandler>
+    </datahandlers>
+  </data>
+  <!--Identifies the Panels used by the Page-->
+  <panels>
+    <panel reference="Menu" />
+    <panel reference="ButtonBar" />
+    <panel reference="Navigator" />
+    <panel reference="Test" />
+  </panels>
+</page>
+```
 
 The ID in the app settings determines the file name. The `panel reference="Test"` implies the existence of a *SoTestPanel.config* file containing the definition of the panel. And a reference to this page should be placed in the *SoApplicationConfiguration.config* file.
 
@@ -51,7 +130,7 @@ The ID in the app settings determines the file name. The `panel reference="Test"
   <pages prefsection="SuperMode" prefkey="MainPanel">
     <!--Some other Page references-->
     <!--Reference to our page-->
-    <!—The id determines the file name. The page would be called SoTestPage.config-->
+    <!--The id determines the file name. The page would be called SoTestPage.config-->
     <page id="test" type="mainpage" function-right="hide-company"/>
     <!--Some other Page references-->
   </pages>

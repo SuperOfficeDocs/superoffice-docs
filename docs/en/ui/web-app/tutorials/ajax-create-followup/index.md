@@ -14,7 +14,30 @@ deployment: onsite
 
 In this tutorial, we will add functionality for creating a follow-up appointment for a sale. Here is the code from the class we will register as an AjaxMethod called `CreateFollowUp` that creates a follow-up based on a sale.
 
-[!code-csharp[CS](includes/class-ajaxdemo.cs)]
+```csharp
+public class AjaxDemo
+{
+  public string CreateFollowUp()
+  {
+    SaleEntity sale = AgentFactory.GetSaleAgent().GetSaleEntity(SuperStateManager.GetCurrentId("sale"));
+    if (sale != null)
+    {
+      AppointmentAgent agent = new AppointmentAgent();
+      AppointmentEntity app = agent.CreateDefaultAppointmentEntityByType(SuperOffice.Data.TaskType.Appointment);
+      app.Contact = sale.Contact;
+      app.Person = sale.Person;
+      app.Associate = sale.Associate;
+      app.Description = "Sample Follow-up from Sale "+ sale.SaleId;
+      app.StartDate = DateTime.Today.AddDays(7);
+      app.EndDate = app.StartDate;
+      app = agent.SaveAppointmentEntity(app);
+      return app.AppointmentId.ToString();
+    }
+    else
+      return String.Empty;
+  }
+}
+```
 
 After you have registered the class in SuperOffice, you will have access to all its web classes, such as `SuperStateManager`. So, as you can see from the code, we use the SuperStateManager to get the current sale ID. If there is a current sale, the method will create a new appointment for the contact, person, and associate from the sale, with a start date one week from today.
 

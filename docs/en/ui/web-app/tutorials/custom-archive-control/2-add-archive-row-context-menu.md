@@ -2,10 +2,11 @@
 title: How to add an Archive row context menu
 uid: add_archive_row_context_menu
 description: Add Archive row context menu
+keywords: archivelist
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: howto
+category: customization
 platform: web
 deployment: onsite
 ---
@@ -40,7 +41,7 @@ subcontext = "entityname" of the entity defined in the archive provider
         <sentry-right tableright="HasInsert" type="disable">relation</sentry-right>
       </sentry-rights>
     </menuitem>
-    <!— Remaining default context menu items removed for brevity-->
+    <!-- Remaining default context menu items removed for brevity-->
   </menuitems>
 </menu>
 ```
