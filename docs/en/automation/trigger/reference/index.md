@@ -16,7 +16,7 @@ Unlike webhooks, they are run as part of the user interface and can affect the w
 
 There can be many scripts hooked to the same event - in which case they are run in order of registration.
 
-[!include[License requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../../includes/req-dev-tools.md)]
 
 [Reference][1]
 

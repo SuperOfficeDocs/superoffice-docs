@@ -13,7 +13,7 @@ language: da
 
 # Triggere
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. når der oprettes et nyt salg, eller når en sag lukkes. Udløsere kan reagere lydløst på, hvad der sker, eller blokere handlingen og vise en forklaring tilbage til brugeren.
 

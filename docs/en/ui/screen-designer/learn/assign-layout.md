@@ -15,7 +15,7 @@ redirect_from: /en/ui/screen-designer/configurable-screens/assign-layout
 
 # Assign layout to group, type, or template
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 ## Steps
 

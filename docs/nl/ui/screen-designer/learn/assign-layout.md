@@ -14,7 +14,7 @@ language: nl
 
 # Opmaak toewijzen aan groep, type of sjabloon
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 ## Stappen
 

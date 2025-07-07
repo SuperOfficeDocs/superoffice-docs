@@ -11,7 +11,7 @@ language: da
 
 # Skærmbillede definition
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Her finder du oplysninger om det valgte skærmbillede.
 

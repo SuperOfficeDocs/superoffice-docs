@@ -15,7 +15,7 @@ redirect_from: /en/ui/screen-designer/configurable-screens/working-with-fields
 
 # Working with fields
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking **Edit layout**. [Show me the detailed steps.][1] When done, **save or publish** the layout.
 

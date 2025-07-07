@@ -20,7 +20,7 @@ Am Ende sollte es etwa so aussehen:
 
 ![Firmenkarte -screenshot][img1]
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 ## Schritt 2: Öffnen Sie den Ansichtsdesigner
 

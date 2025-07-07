@@ -15,7 +15,7 @@ redirect_from: /en/ui/screen-designer/configurable-screens/add-button
 
 # Add a button or link
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Custom buttons and links are added to the **Preview** pane when editing a layout. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
 

@@ -15,7 +15,7 @@ redirect_from: /de/custom-objects/learn/extra-table/index
 
 # Zusatztabellen
 
-[!include[License requirement](../../learn/includes/req-expander-services.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
 

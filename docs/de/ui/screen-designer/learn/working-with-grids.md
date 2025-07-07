@@ -14,7 +14,7 @@ language: de
 
 # Arbeiten mit Gittern
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Wenn Sie viele Felder haben, können Sie ein Gitterelement verwenden, um sie präziser anzuordnen. Dies ist eine Alternative zur Positionierung basierend auf Sortierreihenfolge und Spalten.
 

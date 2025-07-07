@@ -20,7 +20,7 @@ När du är klar ska det se ut ungefär så här:
 
 ![Företagskort -screenshot][img1]
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 ## Steg 2: Öppna Skärmdesignern
 

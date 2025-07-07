@@ -14,7 +14,7 @@ language: da
 
 # Arbejde med felter
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Etiketter og felter repræsenterer de væsentlige indholdselementer på en skærm. Uanset om du opretter et nyt layout eller ændrer et eksisterende, skal du starte med at klikke på **Rediger layout**. [Vis mig de detaljerede trin.][1] Når du er færdig, skal du **gemme eller udgive** layoutet.
 

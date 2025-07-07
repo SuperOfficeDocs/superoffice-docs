@@ -16,7 +16,7 @@ redirect_from: /en/admin/erp/learn/erp-sync-disconnect
 
 # Disable synchronization
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 1. Go to the Company screen, Contact screen, or Project screen, and select the **ERP** tab.
 1. Click **Edit**.

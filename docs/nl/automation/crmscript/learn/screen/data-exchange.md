@@ -14,7 +14,7 @@ deployment: onsite
 
 # Gegevensuitwisseling (alleen op LOCATIE)
 
-[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../../includes/req-dev-tools.md)]
 
 Dit gebied wordt gebruikt om database-integraties tussen het systeem en andere gegevensbronnen te configureren.
 

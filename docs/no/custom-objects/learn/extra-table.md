@@ -15,7 +15,7 @@ redirect_from: /no/custom-objects/learn/extra-table/index
 
 # Ekstratabeller
 
-[!include[License requirement](../../learn/includes/req-expander-services.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstratabeller (tilpassede objekter) i databasen.
 

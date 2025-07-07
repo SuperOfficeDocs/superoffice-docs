@@ -21,7 +21,7 @@ When you are done, it should look something like this:
 
 ![Company card -screenshot][img1]
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 ## Step 2: Open the Screen Designer
 

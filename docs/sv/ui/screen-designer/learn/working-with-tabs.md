@@ -14,7 +14,7 @@ language: sv
 
 # Arbeta med flikar
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Den här guiden förutsätter att du redan [redigerar layouten][2]. Följande avsnitt förklarar hur du organiserar och anpassar flikar i SuperOffice CRM för att skräddarsy gränssnittet efter din organisations behov.
 

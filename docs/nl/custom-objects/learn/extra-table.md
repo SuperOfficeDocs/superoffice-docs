@@ -15,7 +15,7 @@ redirect_from: /nl/custom-objects/learn/extra-table/index
 
 # Extra tabellen
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken.
 

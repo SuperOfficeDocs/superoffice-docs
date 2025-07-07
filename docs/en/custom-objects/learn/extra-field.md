@@ -15,7 +15,7 @@ redirect_from: /en/custom-objects/extra-field/index
 
 # Extra fields
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 An *extra field* is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
 

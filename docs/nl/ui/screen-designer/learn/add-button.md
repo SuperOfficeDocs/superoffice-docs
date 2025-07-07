@@ -14,7 +14,7 @@ language: nl
 
 # Knop of koppeling toevoegen
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Aangepaste knoppen en koppelingen worden toegevoegd aan het **Voorbeeldweergave**-venster bij het bewerken van een opmaak. De URL wordt gebruikt om een webpagina in het huidige of een nieuw tabblad te openen, een CRMScript uit te voeren vanaf het scherm of te navigeren naar andere delen van SuperOffice met behulp van [SoProtocol][3].
 

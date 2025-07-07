@@ -14,7 +14,7 @@ deployment: onsite
 
 # Data Exchange (endast LOKALT)
 
-[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../../includes/req-dev-tools.md)]
 
 Det här området används för att konfigurera eventuella databasintegrationer mellan systemet och andra datakällor.
 

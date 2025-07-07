@@ -14,7 +14,7 @@ language: nl
 
 # Werken met velden
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Labels en velden vertegenwoordigen de essentiële inhoud van een scherm. Of u nu een nieuwe opmaak maakt of een bestaande wijzigt, begin met klikken op **Opmaak bewerken**. [Laat me de gedetailleerde stappen zien.][1] Wanneer u klaar bent, **sla het opmaak op of publiceer het**.
 

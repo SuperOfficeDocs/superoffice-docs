@@ -14,7 +14,7 @@ language: sv
 
 # Arbeta med rutnät
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Om du har många fält kan du använda ett rutnätsobjekt för att positionera dem med större precision. Detta är ett alternativ till att positionera efter sorteringsordning och kolumner.
 

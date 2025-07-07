@@ -14,7 +14,7 @@ language: de
 
 # Layout zu Gruppe, Typ oder Vorlage zuweisen
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 ## Schritte
 

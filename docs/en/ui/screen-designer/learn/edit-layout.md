@@ -17,7 +17,7 @@ redirect_from:
 
 # Edit the layout of a card
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 When you have [created a new layout][6], it is time to customize it. Personalize the layout for the main cards and archives to match your organization's information needs.
 

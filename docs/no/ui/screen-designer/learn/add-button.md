@@ -14,7 +14,7 @@ language: no
 
 # Legg til en knapp eller kobling
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Tilpassede knapper og koblingr legges til i **Forhåndsvisning**-panelet når du redigerer en layout. Nettadressen brukes til å åpne en nettside i gjeldende eller ny fane, kjøre et CRMScript fra skjermen eller navigere til andre deler av SuperOffice ved hjelp av [SoProtocol][3].
 

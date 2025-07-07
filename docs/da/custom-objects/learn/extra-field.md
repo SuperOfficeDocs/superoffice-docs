@@ -14,7 +14,7 @@ language: da
 
 # Ekstrafelt
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Et *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende SuperOffice-databasetabel. Du kan udvide følgende enheder:
 

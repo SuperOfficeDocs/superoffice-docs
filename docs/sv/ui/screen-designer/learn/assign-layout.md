@@ -14,7 +14,7 @@ language: sv
 
 # Tilldela layout till grupp, typ eller mall
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 ## Steg
 

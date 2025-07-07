@@ -14,7 +14,7 @@ language: nl
 
 # Werken met rasters
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Als u veel velden heeft, kunt u een rasterelement gebruiken om ze nauwkeuriger te positioneren. Dit is een alternatief voor positioneren op basis van sorteervolgorde en kolommen.
 

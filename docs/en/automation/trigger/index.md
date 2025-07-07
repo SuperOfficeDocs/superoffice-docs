@@ -50,7 +50,7 @@ There are two ways to find your way to the fun that is CRMScript:
 * In Sales, click the burger menu in the top right corner and click **Settings and maintenance**. Then in the left menu, you can find CRMScript.
 * In Service, click the cogwheel in the top right corner, click **System design** and then **CRMScript**.
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 ## What kind of triggers can I create?
 
