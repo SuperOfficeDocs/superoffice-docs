@@ -1,10 +1,10 @@
 ---
-title: The role of SoProtocol
 uid: superstate_and_soprotocol
+title: The role of SoProtocol
 description: The role of SoProtocol in SuperState
+keywords: SoProtocol, SuperState
 author: Tony Yates
 date: 06.24.2016
-keywords:
 content_type: concept
 platform: web
 deployment: onsite
@@ -76,7 +76,21 @@ The soprotocol names defined in the view and panel tag are not listed anywhere e
 
 SuperOffice uses the *SoUdefConfiuration.config* file to determine which set of user-defined fields to load into the udef controls used in the various views.
 
-[!code-xml[xml](includes/soudefconfiuration.xml)]
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<udefs>
+  <udef controlgroup="contactmainmoreudefgroup" udeftype="Contact" viewtype="More" datahandler="ContactEntityDataHandler.ContactEntity.UserDefinedFields." />
+  <udef controlgroup="contactmainpageoneudefgroup" udeftype="Contact" viewtype="PageOne" datahandler="ContactEntityDataHandler.ContactEntity.UserDefinedFields."/>
+  <udef controlgroup="projectmoreudefgroup" udeftype="Project" viewtype="More" datahandler="ProjectEntityDataHandler.ProjectEntity.UserDefinedFields." />
+  <udef controlgroup="projectmainpageoneudefgroup" udeftype="Project" viewtype="PageOne" datahandler="ProjectEntityDataHandler.ProjectEntity.UserDefinedFields." />
+      <udef controlgroup="salemoregroup" udeftype="Sale" viewtype="More" datahandler="EntityDataHandler.SaleEntity.UserDefinedFields." />
+      <udef controlgroup="salepageoneudefgroup" udeftype="Sale" viewtype="PageOne" datahandler="EntityDataHandler.SaleEntity.UserDefinedFields." />
+      <udef controlgroup="AppointmentMoreGroup" udeftype="Appointment" viewtype="More" datahandler="EntityDataHandler.AppointmentEntity.UserDefinedFields." />
+      <udef controlgroup="personmoreudefgroup" udeftype="Person" viewtype="More" datahandler="PersonEntityDataHandler.PersonEntity.UserDefinedFields." />
+  <udef controlgroup="personmainudefgroup" udeftype="Person" viewtype="PageOne" datahandler="PersonEntityDataHandler.PersonEntity.UserDefinedFields."/>
+  <udef controlgroup="documentmoregroup" udeftype="Document" viewtype="More" datahandler="EntityDataHandler.DocumentEntity.UserDefinedFields." />
+</udefs>
+```
 
 <!-- Referenced links -->
 [1]: ../../../soprotocol/index.md

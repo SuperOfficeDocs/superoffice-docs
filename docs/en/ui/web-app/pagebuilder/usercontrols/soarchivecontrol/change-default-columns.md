@@ -1,11 +1,13 @@
 ---
+uid: pb-usercontrol-archive-defaults
 title: How to change the default columns
-uid: pb_usercontrol_archive_defaults
 description: How to change the default columns in the project archive
+keywords: project archive
 author: Tony Yates
 date: 06.24.2016
-keywords: project
 content_type: howto
+category: customization
+topic: Pagebuilder
 platform: web
 deployment: onsite
 ---
@@ -18,7 +20,40 @@ In the example below, our goal is to add 2 columns (project associates – first
 
 To achieve our goal, we must change the *SoArchiveColumnList.config* as follows:
 
-[!code-xml[xml](includes/soarchivecolumnlist.xml)]
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<archives>
+  <!--Other providers and there defaukt columns-->
+  <archive providername="contactprojects" guiname="contactprojectsarchive">
+    <columns type="mandatory">
+      <column name="type"/>
+    </columns>
+    <columns type="default">
+      <column name="name"/>
+      <column name="type" orderby="1:A"/>
+      <column name="status"/>
+      <column name="associateId"/>
+      <!--Columns added by us />-->
+      <column name="projectAssociate/firstName"/>
+      <column name="projectAssociate/contactName"/>
+      <!--END-->
+    </columns>
+    <columns type="ignore">
+      <column name="contactId"/>
+      <column name="projectUrl/URLDescription"/>
+      <column name="projectAssociate/contactDepartment"/>
+      <column name="projectAssociate/lastName"/>
+      <column name="projectAssociate/middleName"/>
+      <column name="projectAssociate/contactId"/>
+      <column name="projectAssociate/mrMrs"/>
+      <column name="projectAssociate/title"/>
+      <column name="projectAssociate/associateId"/>
+      <column name="projectAssociate/contactFullName"/>
+    </columns>
+  </archive>
+  <!--Other providers and there default columns-->
+</archives>
+```
 
 This adds 2 columns (projectAssociate/firstName and projectAssociate/contactName) to the `contactprojectsarchive`. How? We removed the 2 columns from the ignore column list and added them to the default column list.
 

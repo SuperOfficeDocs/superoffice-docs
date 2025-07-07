@@ -1,11 +1,12 @@
 ---
+uid: add-archive-control
 title: How to add an Archive control
-uid: add_archive_control
 description: How to add an Archive control
+keywords: add archive control, SoArchiveControl
 author: Steffan Alte
 date: 2007
-keywords:
 content_type: howto
+category: customization
 platform: web
 deployment: onsite
 ---
@@ -155,11 +156,101 @@ The context and sub-context attributes must match a menu element defined in the 
 
 An important convention to note about the following markup. Rendered archive control names are the result of combining the ID value suffixed with *ArchiveControl*. The result, with the archive control ID *CustomDataArchive*, becomes `CustomDataArchiveArchiveControl`. Therefore, when referencing the archive control in JavaScript (as seen below), use the full term CustomDataArchiveArchiveControl.
 
-[!code-xml[XML](includes/cust-archive-control.xml)]
+```xml
+<menu context="archive" subcontext="customdata" id="0" position="below" group="mainmenu" displayaccesskeys="false">
+  <menuitems>
+    <menuitem id="archivesort" type="normal" >
+      <caption>[SR_MENU_SORT]</caption>
+      <url>Javascript:CustomDataArchiveArchiveControl.OrgOrderBy();</url>
+    </menuitem>
+    <menuitem id="" type="divider"/>
+    <menuitem id="archivesortconfig" type="normal">
+      <caption>[SR_MENU_SORT_CONFIG]</caption>
+      <url>Javascript:Dialog.open("archiveconfiguration", "archiveconfiguration[dialog=stop].sortorder?provider_name=person&amp;gui_name=CustomDataArchive","CustomDataArchiveArchiveControl.Refresh();");</url>
+    </menuitem>
+    <menuitem id="archivecolumnconfig" type="normal">
+      <caption>[SR_MENU_COLUMNS_CONFIG]</caption>
+      <url>Javascript:Dialog.open("archiveconfiguration", "archiveconfiguration[dialog=stop].columns?provider_name=person&amp;gui_name=CustomDataArchive","CustomDataArchiveArchiveControl.Refresh();");</url>
+    </menuitem>
+    <menuitem id="" type="divider"/>
+    <menuitem id="archivesorthelp" type="normal">
+      <caption>[SR_MENU_LIST_HELP_SORT]</caption>
+      <url>javascript:Dialog.ShowHelpFromIndex('archive.sort');</url>
+    </menuitem>
+    <menuitem id="archivecolumnresize" type="normal">
+      <caption>[SR_MENU_LIST_HELP_RESIZE]</caption>
+      <url>javascript:Dialog.ShowHelpFromIndex('archive.resize');</url>
+    </menuitem>
+  </menuitems>
+</menu>
+```
 
 ### Contact page example with SoArchiveControl
 
-[!code-xml[XML](includes/cust-contact-page.xml)]
+```xml
+<page id="ContactPage">
+  <data>
+    <datahandlers>
+      <datahandler id="ContactEntityDataHandler" type="ContactEntityDataHandler" />
+      <datahandler id="PersonEntityDataHandler" type="PersonEntityDataHandler" />
+      <datahandler id="ArchiveColumnConfigDataHandler" type="ArchiveColumnConfigDataHandler">
+        <config>
+          <archivecolumninfos>
+            <!--guiname maps to definition in SoArchiveColumnList.config-->
+            <archivecolumninfo guiname="CustomDataArchive" providername="person"/>
+          </archivecolumninfos>
+        </config>
+      </datahandler>
+    </datahandlers>
+  </data>
+  <panels>
+    <panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main">
+    <!-- skipping other elements for brevity -->
+      <card id="ContactArchives" placeholderid="bottom" type="SoTabbedCard" cardtype="ArchiveCard" layout-position="south">
+      <views>
+      <!-- *************************************************************
+        Assuming a custom archive section (discussed in Displayed Columns above)
+        added to SoArchiveColumnList.config file... 
+        
+        Add this view under others in ContactArchives in SoContactPanel.config
+        ****************************************************************-->
+        <view id="CustomDataArchiveView" type="SoView" soprotocol="customdataarchive"  rendermode="display">
+          <caption binding="resources">Custom Data</caption>
+          <controlgroups>
+            <controlgroup id="customdatagroup" type="SoControlGroup" position="absolute" left="0px" right="0px" top="0px" bottom="0px">
+              <controls>
+                <control id="CustomDataArchive" type="SoArchiveControl" width="100%" top="0px" left="0px" height="100%" position="absolute">
+                <!-- define header context menu -->
+                  <menu>
+                    <context>archive</context>
+                    <subcontext>customdata</subcontext>
+                    <id binding="none">0</id>
+                    <position>belowcursor</position>
+                    <click>right</click>
+                  </menu>
+                  <config>
+                    <providername>person</providername>
+                    <restrictions>
+                      <restriction name="contactId" operator="=" binding="current">contact</restriction>
+                    </restrictions>
+                    <current>person</current>
+                    <archivecolumninfo-datasourcename>ArchiveColumnConfigDataHandler.CustomDataArchive</archivecolumninfo-datasourcename>
+                    <showheader>true</showheader>
+                  </config>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <triggers>
+            <trigger type="current">contact</trigger>
+            <trigger type="current">person</trigger>
+          </triggers>
+        </view>
+      </views>
+    </panel>
+  </panels>
+</page>
+```
 
 ## Result
 

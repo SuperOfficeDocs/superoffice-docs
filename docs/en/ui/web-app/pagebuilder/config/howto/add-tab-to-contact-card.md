@@ -1,11 +1,13 @@
 ---
+uid: pb-add-tab-contact-card
 title: How to add a new tab
-uid: pb_add_tab_contact_card
 description: How to add a new tab to the contact card
+keywords:
 author: Tony Yates
 date: 06.24.2016
-keywords:
 content_type: howto
+category: customization
+topic: Pagebuilder
 platform: web
 deployment: onsite
 ---
@@ -26,7 +28,70 @@ For ContactMainCard we can add a new tab called **MyView**. Normally, the contac
 
 We can create a new view as shown in the *SoContactPanel.config*.
 
-[!code-xml[XML](includes/socontactpanel-main.xml)]
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main" placeholderid="MainPlaceHolder">
+  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
+  <cards>
+    <card id="ContactMainCard" type="SoTabbedCard" placeholderid="leftpanel" cardtype="MainCard">
+      <views>
+        <view id="MainView" reference="MainView" current="contact"></view>
+
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+
+        <!-- My View Start-->
+        <view id="test" type="SoView" soprotocol="udef2" current="contact">
+          <caption>My View</caption>
+
+          <tooltip>More...</tooltip>
+          <controlgroups>
+            <controlgroup id="moreHeadergrouptest" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px">
+              <controls>
+                <control id="ContactMoreHeaderControltest" type="ContactHeader">
+                  <datasource>ContactEntityDataHandler.ContactEntity</datasource>
+                  <config>
+                  </config>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <config>
+            <dogear binding="preferences">Functions,DisableContactDogEar</dogear>
+          </config>
+          <triggers>
+            <trigger type="current">contact</trigger>
+          </triggers>
+        </view>
+        <!-- My View End-->
+
+      </views>
+      <functional-rights>
+        <functional-right>project</functional-right>
+      </functional-rights>
+      <config>
+        <only-visible-views>true</only-visible-views>
+        <system-view>SystemView</system-view>
+        <datahandlers-to-save>
+          <datahandler-reference>ContactEntityDataHandler</datahandler-reference>
+        </datahandlers-to-save>
+      </config>
+    </card>
+    <!-- some other code for another card-->
+    <!-- some other code for another card-->
+  </cards>
+  <config>
+    <panes>
+      <pane id="leftpanel">ContactMainCard</pane>
+      <pane id="rightpanel">ContactMini</pane>
+      <pane id="bottompanel">ContactArchives</pane>
+    </panes>
+  </config>
+  <function-rights>
+    <function-right type="hide">hide-company</function-right>
+  </function-rights>
+</panel>
+```
 
 * View id is set to "test" for the new view.
 * The type is set as "SoView" because it is a view.
@@ -51,7 +116,64 @@ In CRM.web we now see another tab is added to the ContactArchive card called "My
 
 "SoTextBox" is bounded to the ContactEntityDataHandler.ContactEntity.Name. It shows the current company name fetched from the database.
 
-[!code-xml[XML](includes/socontactpanel-archive.xml)]
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<panel id="Contact" type="SplitterPanel" soprotocol="Contact" paneltype="Main" placeholderid="MainPlaceHolder">
+  <caption>[SR_COMMON_CONTACT]: [current:contact_name]</caption>
+  <cards>
+    <!-- some other code for another card-->
+    <!-- some other code for another card-->
+    <card id="ContactArchives" placeholderid="bottom" type="SoTabbedCard" cardtype="ArchiveCard">
+      <views>
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- some other code for another view-->
+        <!-- My View Start-->
+        <view id="test1" type="SoView" soprotocol="udef1" >
+          <caption>My View</caption>
+          <tooltip>More...</tooltip>
+          <controlgroups>
+            <controlgroup id="moreHeadergrouptest1" type="SoControlGroup" position="absolute" top="5px" left="5px" right="20px" overflow="auto">
+              <controls>
+                <control id="ContactMoreHeaderControltest1" type="SoLabel">
+                  <caption>[SR_COMPANY_NAME]</caption>
+                  <config>
+                  </config>
+                </control>
+                <control id="ContactMoreHeaderControltest2" type="SoTextBox" width="50px" position="absolute" top="35px" left="5px" right="20px">
+                  <datasource>ContactEntityDataHandler.ContactEntity.Name                     </datasource>
+                </control>
+              </controls>
+            </controlgroup>
+          </controlgroups>
+          <config>
+            <dogear binding="preferences">Functions,DisableContactDogEar</dogear>
+          </config>
+          <triggers>
+            <trigger type="current">contact</trigger>
+          </triggers>
+        </view>
+        <!-- My View End-->
+      </views>
+      <config>
+        <only-visible-views>true</only-visible-views>
+      </config>
+    </card>
+  </cards>
+  <config>
+    <panes>
+      <pane id="leftpanel">ContactMainCard</pane>
+      <pane id="rightpanel">ContactMini</pane>
+      <pane id="bottompanel">ContactArchives</pane>
+    </panes>
+  </config>
+  <function-rights>
+    <function-right type="hide">hide-company</function-right>
+  </function-rights>
+</panel>
+```
 
 This is the output of the contact page after adding two views (tabs) for maincard and archivecard.
 

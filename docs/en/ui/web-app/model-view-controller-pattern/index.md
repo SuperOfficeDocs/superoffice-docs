@@ -1,10 +1,10 @@
 ---
+uid: model-view-controller-pattern
 title: Model-view-controller pattern
-uid: model_view_controller_pattern
 description: Web client and the model-view-controller pattern
+keywords: model-view-controller, web client architecture, controlgroup element
 author: Tony Yates
 date: 02.16.2009
-keywords:
 content_type: article
 deployment: onsite
 platform: web
@@ -175,7 +175,63 @@ Similar to the initialization of a control, this is an opportune time for the d
 
 The `Initialize` method signature is the same as the UserControlBase Initialize method, however, unlike the UserControlBase, the DataHandlerBase does not automatically parse the XmlNode argument. Not doing so also means that public properties with the same name are not automatically populated. Listing Four demonstrates one way to accomplish the same using code. It simply loops over all the nodes in the XmlNode and looks for the elements with the same names as the properties declared in the data handler and sets the value.
 
-[!code-csharp[CS](includes/personalcolordatahandler-start.cs)]
+```csharp
+using System;
+using SuperOffice.CRM.Services;
+using SuperOffice.CRM.Web;
+using SuperOffice.CRM.Web.Data;
+
+namespace ControlsAndDataHandlers
+{
+  ///
+  /// Register in ObjectMapping.config
+  ///
+  public class PersonalColorDataHandler : DataHandlerBase
+  {
+    private const string PERSONAL_COLOR      = "PersonalColorCarrier";
+    private const string COLOR_LIST          = "PersonalColorList";
+    private const string PERSON_CARRIER      = "PersonCarrier";
+    private const string PERSON_DATA_SOURCE  = "PersonDataSourceName";
+    private const string PERSON_UDF_PROG_ID  = "UDFieldProgId";
+    private const string PERSON_UDF_LIST_ID  = "UDListId";
+    private PersonalColorCarrier _personalColorCarrier = null;
+    private PersonAgent _personAgent;
+    public string PersonDataSourceName { get; set; }
+    public string UDFieldProgId { get; set; }
+    public string UDListId { get; set; }
+    ///
+    /// The PrimaryCurrent is set in the constructor.
+    /// For the PersonalColorDataHandler 'person' is the primary current.
+    ///
+    public PersonalColorDataHandler() : base(ApplicationDefs.CurrentNames.Person)
+    {
+    }
+    public override void Initialize(System.Xml.XmlNode config, string id)
+    {
+      foreach (System.Xml.XmlNode item in config.ChildNodes)
+      {
+        if (item.Name == PERSON_DATA_SOURCE)
+          PersonDataSourceName = item.InnerText;
+        elseif (item.Name == PERSON_UDF_PROG_ID)
+          UDFieldProgId = item.InnerText;
+        elseif (item.Name == PERSON_UDF_LIST_ID)
+          UDListId = item.InnerText;
+      }
+      base.Initialize(config, id);
+      _personAgent = new PersonAgent();
+      this._dataCarriers.Add(PERSONAL_COLOR, null);
+      this._dataCarriers.Add(COLOR_LIST, null);
+      this._dataCarriers.Add(PERSON_CARRIER, null);
+    }
+    public override void Load(string CarrierId)
+    {
+    }
+    public override void Save()
+    {
+    }
+  }
+}
+```
 
 Once all the data handlers for a page have completed initialization, the controls defined in that page are initialized as discussed in the previous section.
 
@@ -285,7 +341,7 @@ The markup for the user control is shown in the code below. Although it may not
 ```xml
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PersonalInformation.ascx.cs" Inherits="ControlsAndDataHandlers.PersonalInformation"%>
 <%@RegisterTagPrefix="so2" Namespace="SuperOffice.CRM.Web.UI.Controls" Assembly="SuperOffice.CRMWeb"%>
-<asp:LabelID="lblName" runat="server" Text="Name"</asp:Label>
+<asp:LabelID="lblName" runat="server" Text="Name"></asp:Label>
 <br/>
 <so2:SoLabelID="lblActualName" runat="server" Caption="FullName"/>
 <br/>
@@ -302,7 +358,55 @@ The code file for the *PersonalInformation.ascx* control is defined below. The f
 
 **Code behind for PersonalInformation.ascx file:**
 
-[!code-csharp[CS](includes/personalinformation.cs)]
+```csharp
+using System;
+using SuperOffice.Data;
+using SuperOffice.CRM.Web;
+namespace ControlsAndDataHandlers
+{
+  public partial class PersonalInformation : SuperOffice.CRM.Web.UI.Controls.UserControlBase
+  {
+    public string PersonDataSourceName { get; set; }
+    public string UDFieldProgId { get; set; }
+    public string UDListId { get; set; }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+    }
+    public override void Initialize(System.Xml.XmlNode config, string id)
+    {
+      base.Initialize(config, id);
+      Setup();
+    }
+    private void Setup()
+    {
+      FavoriteColorList.EditMode = true;
+      FavoriteColorList.ListName = "udlist" + UDListId;
+      FavoriteColorList.DataSourceName = PersonDataSourceName + ".UserDefinedFields." + UDFieldProgId;
+      FavoriteColorList.DisplayTextDataSource = PersonDataSourceName + ".UserDefinedFields." + UDFieldProgId + ":DisplayText";
+      BirthDate.ReadOnly = false;
+      BirthDate.EditMode = true;
+      BirthDate.DataSourceName = this.DataSourceName + ".BirthDate";
+      BirthDate.FieldRight = DataDispatcherManager.GetDataDispatcher().GetFieldRight(this.DataSourceName + ".BirthDate");
+    }
+    public override void DataBind()
+    {
+      PersonalColorCarrier colorCarrier = (PersonalColorCarrier)this.DataSource;
+      if (colorCarrier != null)
+      {
+        this.lblActualName.Text = colorCarrier.Name;
+      }
+      FavoriteColorList.DataBind();
+      BirthDate.DataSource = SuperOffice.Globalization.ResourceManager.ConvertToShortDateString(colorCarrier.BirthDate);
+      BirthDate.DataBind();
+    }
+    public override void UpdateDataSource()
+    {
+      FavoriteColorList.UpdateDataSource();
+      BirthDate.UpdateDataSource();
+    }
+  }
+}
+```
 
 The sequence of events for this class when rendered is as follows: Initialize, Page\_Load and then DataBind. Once initialization is complete in the base, which if you recall populates the properties with values defined in the SOML, it is a good time to hook up the data bind logic. The Setup method contains all the code necessary to hookup the MDO control and SoDateSelector controls. The control values are then assigned and populated in the DataBind method.
 
@@ -320,7 +424,61 @@ Beyond the page id and title, you will see the datahandlers element. This is wh
 
 **Partial contents of the SoPersonalInformation.config file:**
 
-[!code-xml[xml](includes/sopersonalinformation.config.xml)]
+```xml
+
+<page id="PersonalInformationDialog">
+  <title>Personal Information Dialog</title>
+  <data>
+    <datahandlers>
+      <datahandler id="PersonalColorDataHandler"type="PersonalColorDataHandler">
+        <config>
+          <PersonDataSourceName>PersonalColorDataHandler.PersonCarrier</PersonDataSourceName>
+          <UDFieldProgId>SuperOffice:2</UDFieldProgId>
+          <UDListId>31</UDListId>
+        </config>
+      </datahandler>
+    </datahandlers>
+  </data>
+  <panels>
+    <panel id="MainPanel" type="SoDialogPanel" soprotocol="personalcolor" paneltype="Main" placeholderid="MainPlaceHolder" >
+      <cards>
+        <card id="PersonColorDialogCard" type="SoTabbedCard" placeholderid="DialogCardPlaceHolder" cardtype="MainCard" >
+          <views>
+            <view id="PersonalColorExampleControl" type="SoDialogView" soprotocol="main">
+              <caption>Personal Information</caption>
+              <controlgroups>
+                <controlgroup id="DateControlsControlGroup" type="SoControlGroup" top="10px" height="100%" width="100%" left="10px" right="0px" position="absolute">
+                  <controls>
+                    <control id="PersonalColorControl" type="PersonalInfoUserControl" width="100%" top="0px" left="0px" height="100%" position="absolute" >
+                      <datasource>PersonalColorDataHandler.PersonalColorCarrier</datasource>
+                        <config>
+                          <PersonDataSourceName>PersonalColorDataHandler.PersonCarrier</PersonDataSourceName>
+                          <UDFieldProgId>SuperOffice:2</UDFieldProgId>
+                          <UDListId>31</UDListId>
+                        </config>
+                    </control>
+                  </controls>
+                </controlgroup>
+              </controlgroups>
+            </view>
+          </views>
+          <config>
+            <tabbedviews>
+              <viewref>PersonalColorExampleControl</viewref>
+            </tabbedviews>
+            <only-visible-views>true</only-visible-views>
+            <datahandlers-to-save>
+              <datahandler-reference>PersonalColorDataHandler</datahandler-reference>
+            </datahandlers-to-save>
+          </config>
+        </card>
+      </cards>
+      <config>
+      </config>
+    </panel>
+  </panels>
+</page>
+```
 
 Drilling into the SOML, focus on the only control declared on the page. The control id is PersonalColorControl and the type is PersonalInfoUserControl. The control id must be unique, different from any other control id declared on the page. The type value must match a MappingName attribute declared for an object element of type UserControl in SoObjectMapping.config. There was an example of this earlier in the Defining Controls section.
 
@@ -350,7 +508,49 @@ Carriers are data containers - nothing more, nothing less. The following code s
 
 **The PersonalColorCarrier source code:**
 
-[!code-csharp[cs](includes/personalcolorcarrier.cs)]
+```csharp
+using System;
+
+namespace ControlsAndDataHandlers
+{
+  public class PersonalColorCarrier
+  {
+    private BasicColor _color;
+    private string _name;
+    public string Name
+    {
+      get { return _name; }
+      set { _name = value; }
+    }
+    public BasicColor SelectedColor
+    {
+      get { return _color; }
+      set { _color = value; }
+    }
+    private DateTime _date;
+    public DateTime BirthDate
+    {
+      get { return _date; }
+      set { _date = value; }
+    }
+  }
+  public enum BasicColor
+  {
+    //These numbers match the field values
+    //in the UDLIST table of the SO database
+    White = 1,
+    Black,
+    Grey,
+    Blue,
+    Green,
+    Red,
+    Yellow,
+    Brown,
+    Orange,
+    Violet
+  }
+}
+```
 
 There is nothing complicated about the `PeronalColorCarrier` class. The key here is to look back at the `PersonalColorDataHandler` source code and see how this class instance is populated and added to the DataCarriers collection. Then look and see how it is referenced in the SOML page – in the control datasource element.
 

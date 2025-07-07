@@ -4,8 +4,8 @@ uid: pb_tutorial_sale_foreignkeys_2
 description: PageBuilder data handlers tutorial
 author: Steffan Alte
 date: 07.25.2007
-keywords:
 content_type: tutorial
+category: customization
 platform: web
 deployment: onsite
 ---
@@ -160,7 +160,7 @@ Here is the result of what we have gone through in this tutorial:
 ## Next step
 
 In part 3 of this tutorial we will [create a custom MDO control][4].
-|
+
 <!-- Referenced links -->
 [1]: 1-add-fk-datagrid-to-sale-page.md
 [2]: ../../pagebuilder/datahandlers/index.md
