@@ -15,7 +15,7 @@ redirect_from: /nl/ui/screen-designer/learn/elements
 
 # Opmaak van een kaart bewerken
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Wanneer u een [nieuwe opmaak heeft gemaakt][6], is het tijd om deze aan te passen. Personaliseer het opmaak voor de hoofdkaarten en archieven zodat het voldoet aan de informatiebehoeften van uw organisatie.
 

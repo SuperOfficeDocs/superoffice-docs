@@ -14,7 +14,7 @@ language: no
 
 # Arbeide med rutenett
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Hvis du har mange felt, kan du bruke et rutenett for å plassere dem mer nøyaktig. Dette er et alternativ til å plassere basert på sorteringsrekkefølge og kolonner.
 

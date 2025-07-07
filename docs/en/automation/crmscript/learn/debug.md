@@ -13,7 +13,7 @@ language: en
 
 # Debug sessions
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 The **Debug sessions** tab contains a list of all active debug sessions in the system. Click a session in the list to open it in **Debugger**.
 

@@ -18,7 +18,7 @@ redirect_from:
 
 # Connect to ERP
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 You can connect a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Data will then be synchronized between SuperOffice and the ERP system.
 

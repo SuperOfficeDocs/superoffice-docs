@@ -14,7 +14,7 @@ language: sv
 
 # Arbeta med fält
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Etiketter och fält representerar det väsentliga innehållet på en skärm. Oavsett om du skapar en ny layout eller redigerar en befintlig, börjar du med att klicka på **Redigera layout**. [Visa mig de detaljerade stegen.][1] När du är klar, **spara eller publicera** layouten.
 

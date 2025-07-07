@@ -16,7 +16,7 @@ redirect_from: /de/admin/erp/learn/erp-sync-disconnect
 
 # Synchronisierung deaktivieren
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 1. Gehen Sie zur Ansicht Firma, Person oder Projekt und wählen Sie die Registerkarte **ERP** aus.
 1. Klicken Sie auf **Bearbeiten**.

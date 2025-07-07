@@ -15,7 +15,7 @@ redirect_from: /da/custom-objects/learn/extra-table/index
 
 # Ekstra tabeller
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice Development Tools-licensen giver dig mulighed for at oprette ekstra tabeller (brugerdefinerede objekter) i databasen.
 

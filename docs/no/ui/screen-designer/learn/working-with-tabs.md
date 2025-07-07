@@ -14,7 +14,7 @@ language: no
 
 # Arbeide med faner
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Denne veiledningen antar at du allerede er [i ferd med å redigere layouten][2]. De følgende seksjonene forklarer hvordan du organiserer og tilpasser faner i SuperOffice CRM for å tilpasse grensesnittet til organisasjonens behov.
 

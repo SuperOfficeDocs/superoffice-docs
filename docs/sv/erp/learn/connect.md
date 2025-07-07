@@ -18,7 +18,7 @@ redirect_from:
 
 # Koppla till ERP
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 Du kan koppla ett SuperOffice-företag till en kund eller leverantör i ERP-systemet. Kontakter som är registrerade på SuperOffice-företaget kan därefter kopplas till kontakter i ERP-systemet. På motsvarande sätt kan SuperOffice-projekt kopplas till projekt i ERP-systemet. Data kommer då att synkroniseras mellan SuperOffice och ERP-systemet.
 

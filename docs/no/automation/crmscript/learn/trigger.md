@@ -13,7 +13,7 @@ language: no
 
 # Triggere
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel når et nytt salg opprettes eller når en sak lukkes. Triggere kan reagere stille på hva som skjer, eller blokkere operasjonen og vise en forklaring for brukeren.
 

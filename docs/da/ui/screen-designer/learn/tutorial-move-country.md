@@ -20,7 +20,7 @@ Når du er færdig, skulle det se nogenlunde sådan ud:
 
 ![Firmakort -screenshot][img1]
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 ## Trin 2: Åbn Skærmdesigneren
 

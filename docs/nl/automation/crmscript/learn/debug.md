@@ -13,7 +13,7 @@ language: nl
 
 # Foutopsporingssessies
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Het tabblad **Foutopsporingssessies** bevat een lijst met alle actieve foutopsporingssessies in het systeem. Klik op een sessie in de lijst om deze te openen in **Foutopsporing**.
 

@@ -15,7 +15,7 @@ redirect_from: /de/ui/screen-designer/learn/add-new-layout
 
 # Layout hinzufügen
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe hinzufügen oder ein Layout optimieren, das für bestimmte Projekte, Verkäufe, Anfragen, Folgeaufgaben oder Dokumentvorlagen ausgelegt ist – beginnen Sie damit, ein neues Layout für einen Bildschirm im Ansichtsdesigner hinzuzufügen.
 

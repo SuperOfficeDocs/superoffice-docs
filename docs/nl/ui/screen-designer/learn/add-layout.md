@@ -15,7 +15,7 @@ redirect_from: /nl/ui/screen-designer/learn/add-new-layout
 
 # Opmaak toevoegen
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen of documentsjablonen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
 

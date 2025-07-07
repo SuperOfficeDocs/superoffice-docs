@@ -18,7 +18,7 @@ redirect_from:
 
 # Knyt til ERP
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet. Personer, som er registreret på SuperOffice-firmaet, kan derefter knyttes til personer i ERP-systemet. På samme måde kan SuperOffice-projekter knyttes til projekter i ERP-systemet. Data synkroniseres derefter mellem SuperOffice og ERP-systemet.
 

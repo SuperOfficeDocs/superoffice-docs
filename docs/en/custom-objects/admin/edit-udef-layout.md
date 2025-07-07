@@ -15,7 +15,7 @@ index: true
 
 # Customize layout of user-defined fields
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice version 10 (released October 2021) introduced [Screen designer][1] with customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
 

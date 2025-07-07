@@ -14,7 +14,7 @@ language: sv
 
 # Extrafält
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Ett *extrafält* är ett anpassat fält som du lägger till i en befintlig SuperOffice-databastabell. Du kan utvidga följande enheter:
 

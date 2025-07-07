@@ -13,7 +13,7 @@ language: en
 
 # Triggers
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 

@@ -13,7 +13,7 @@ language: en
 
 # Customization
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 ## React to events with CRMScripts
 

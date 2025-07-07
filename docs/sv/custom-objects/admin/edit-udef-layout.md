@@ -15,7 +15,7 @@ index: true
 
 # Anpassa användargränssnitt
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice version 10 (utgiven i oktober 2021) introducerade [Skärmdesigner][1] med anpassningsbara skärmlayouter för specifika användargrupper. Eventuella anpassade skärmlayouter med skärmdesignern kan åsidosätta de inställningar som beskrivs nedan.
 

@@ -13,7 +13,7 @@ language: no
 
 # Feilsøkingsøkter
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Fanen **Feilsøkingsøkter** inneholder en liste over alle aktive feilsøkingssesjoner i systemet. Klikk på en økt i listen for å åpne den i **Feilsøking**.
 

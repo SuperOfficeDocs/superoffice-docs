@@ -19,7 +19,7 @@ index: true
 
 Fanen **Sync** i Tilbud/Sync-bildet under **Innstillinger og vedlikehold** viser Sync Connectors og ERP-koblinger som muliggjør integrasjon mellom SuperOffice CRM og eksterne ERP-systemer.
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 ## Terminologi
 

@@ -15,7 +15,7 @@ index: true
 
 # Placering af felter
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 SuperOffice version 10 (udgivet i oktober 2021) introducerede [Skærmdesigner][1] med tilpasselige skærmlayouts for specifikke brugergrupper. Eventuelle brugerdefinerede skærmlayouts ved hjælp af skærmdesigneren kan tilsidesætte de nedenfor beskrevne indstillinger.
 

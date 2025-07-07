@@ -19,7 +19,7 @@ index: true
 
 Het tabblad **Synchroniseren** in het scherm Offerte/Synchroniseren binnen **Instellingen en onderhoud** toont de Sync Connectors en ERP-verbindingen die integratie tussen SuperOffice CRM en externe ERP-systemen mogelijk maken.
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 ## Terminologie
 

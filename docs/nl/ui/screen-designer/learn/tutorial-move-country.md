@@ -20,7 +20,7 @@ Als u klaar bent, zou het er ongeveer zo uitzien:
 
 ![Bedrijfkaart -screenshot][img1]
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 ## Stap 2: Open de Schermontwerper
 

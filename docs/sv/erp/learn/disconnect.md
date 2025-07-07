@@ -16,7 +16,7 @@ redirect_from: /sv/admin/erp/learn/erp-sync-disconnect
 
 # Inaktivera synkronisering
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 1. Gå till Företag-, Kontakt- eller Projekt-fönstret och välj **ERP**-fliken.
 1. Klicka på **Redigera**.

@@ -11,7 +11,7 @@ language: de
 
 # Definition der Ansicht
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Hier werden Details zur ausgewählten Ansicht angezeigt.
 

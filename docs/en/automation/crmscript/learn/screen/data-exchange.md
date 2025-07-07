@@ -14,7 +14,7 @@ deployment: onsite
 
 # Data Exchange (ONSITE only)
 
-[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../../includes/req-dev-tools.md)]
 
 This area is used to configure database integrations between the system and other data sources.
 

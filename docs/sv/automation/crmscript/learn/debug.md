@@ -13,7 +13,7 @@ language: sv
 
 # Felsökningssessioner
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 På fliken **Felsökningssessioner** visas en lista över alla aktiva felsökningssessioner i systemet. Klikca på en session i listan om du vill öppna den i **Felsökning**.
 

@@ -14,7 +14,7 @@ language: no
 
 # Tilordne layout til gruppe, type eller mal
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 ## Trinn
 

@@ -13,7 +13,7 @@ language: da
 
 # Fejlfindingssessioner
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Fanen **Fejlfindingssessioner** over alle aktive fejlfindingssessioner i systemet. Klik på en session på listen for at åbne den i **Fejlfinding**.
 

@@ -13,7 +13,7 @@ language: nl
 
 # Triggers
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in het systeem, zoals wanneer een nieuwe verkoop wordt gemaakt of een verzoek wordt gesloten. Triggers kunnen in stilte reageren op wat er gebeurt, of de bewerking blokkeren en de gebruiker voorzien van uitleg hierover.
 

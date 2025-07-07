@@ -16,7 +16,7 @@ redirect_from: /nl/admin/erp/learn/erp-sync-disconnect
 
 # Synchronisatie uitschakelen
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 1. Ga naar het scherm Bedrijf, het scherm Persoon of het scherm Project en selecteer het tabblad **ERP**.
 1. Klik op **Bewerken**.

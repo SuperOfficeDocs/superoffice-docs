@@ -15,7 +15,7 @@ redirect_from: /en/ui/screen-designer/configurable-screens/working-with-tabs
 
 # Working with tabs
 
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools.md)]
 
 This guide assumes you are already [editing the layout][2]. The following sections explain how to organize and customize tabs in SuperOffice CRM, helping you tailor the interface to meet your organization's needs.
 

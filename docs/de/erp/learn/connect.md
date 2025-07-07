@@ -18,7 +18,7 @@ redirect_from:
 
 # Mit ERP verbinden
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 Sie können eine Firma aus SuperOffice mit einem Kunden oder Lieferanten im ERP-System verbinden. Personen, die bei einer Firma in SuperOffice erfasst sind, können anschließend mit passenden Objekten im ERP-System verknüpft werden. SuperOffice-Projekte können ebenfalls mit Projekten im ERP-System verbunden werden. Die Daten werden anschließend zwischen SuperOffice und dem ERP-System synchronisiert.
 

@@ -14,7 +14,7 @@ The event model was introduced in version 4.2. The scripts are connected to even
 
 Currently, only event scripts for pages are supported, which are in the `HtmlPage.` namespace. In the future, other events, such as database saving or loading may be supported by using other namespace areas.
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 ## Events
 

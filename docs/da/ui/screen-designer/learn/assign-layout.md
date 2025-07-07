@@ -14,7 +14,7 @@ language: da
 
 # Tildel layout til gruppe, type eller skabelon
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 ## Trin
 

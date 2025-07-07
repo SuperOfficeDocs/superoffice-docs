@@ -14,7 +14,7 @@ language: nl
 
 # Werken met tabbladen
 
-[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools.md)]
 
 Deze gids gaat ervan uit dat u al [het opmaak aan het bewerken bent][2]. De volgende secties leggen uit hoe u tabbladen in SuperOffice CRM organiseert en aanpast, zodat de interface is afgestemd op de behoeften van uw organisatie.
 

@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # Ekstrafelt
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell. Du kan utvide følgende enheter:
 

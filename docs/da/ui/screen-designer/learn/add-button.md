@@ -14,7 +14,7 @@ language: da
 
 # Tilføj en knap eller et link
 
-[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools.md)]
 
 Brugerdefinerede knapper og links tilføjes i **Forhåndsvisning**-ruden, når du redigerer et layout. URL'en bruges til at åbne en webside i den aktuelle eller en ny fane, køre et CRMScript fra skærmen eller navigere til andre dele af SuperOffice ved hjælp af [SoProtocol][3].
 

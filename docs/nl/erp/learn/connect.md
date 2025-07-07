@@ -18,7 +18,7 @@ redirect_from:
 
 # Verbinding maken met ERP
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 U kunt een SuperOffice-bedrijf koppelen aan een klant of leverancier in het ERP-systeem. Personen die zijn geregistreerd bij het SuperOffice-bedrijf kunnen vervolgens worden gekoppeld aan individuen in het ERP-systeem. Op dezelfde manier kunnen SuperOffice-projecten worden gekoppeld aan projecten in het ERP-systeem. De gegevens worden vervolgens gesynchroniseerd tussen SuperOffice en het ERP-systeem.
 

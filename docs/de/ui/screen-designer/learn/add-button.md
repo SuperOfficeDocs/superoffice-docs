@@ -14,7 +14,7 @@ language: de
 
 # Schaltfläche oder Link hinzufügen
 
-[!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools.md)]
 
 Benutzerdefinierte Schaltflächen und Links werden im **Vorschau**-Bereich hinzugefügt, wenn Sie ein Layout bearbeiten. Die URL wird verwendet, um eine Webseite im aktuellen oder neuer Registerkarte zu öffnen, ein CRMScript von der Ansicht auszuführen oder mit [SoProtocol][3] zu anderen Teilen von SuperOffice zu navigieren.
 

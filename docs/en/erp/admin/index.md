@@ -18,7 +18,7 @@ redirect_from: /en/quote/learn/admin/sync/index
 
 The **Sync** tab in the Quote/Sync screen in Settings and maintenance lists Sync Connectors and ERP connections that enable integration between SuperOffice CRM and external ERP systems.
 
-[!include[Requirement](../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-dev-tools.md)]
 
 ## Terminology
 

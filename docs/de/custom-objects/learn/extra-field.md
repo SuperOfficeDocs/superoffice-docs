@@ -14,7 +14,7 @@ language: de
 
 # Zusatzfeld
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 Ein *Zusatzfeld* ist ein Feld, das Sie einer vorhandenen SuperOffice-Datenbanktabelle hinzufügen. Sie können die folgenden Entitäten erweitern:
 
