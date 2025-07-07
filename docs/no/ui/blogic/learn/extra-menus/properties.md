@@ -2,10 +2,13 @@
 uid: help-no-ui-extra-menu-properties
 title: Egenskaper for meny
 description: Egenskaper for meny
-author: SuperOffice RnD
+keywords: ekstrameny
+author: SuperOffice AS - Project and Engineering
 date: 06.29.2022
-keywords: Service
 content_type: reference
+category: customization
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

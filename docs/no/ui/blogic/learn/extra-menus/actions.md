@@ -2,17 +2,19 @@
 uid: help-no-ui-extra-menu-actions
 title: Legg til funksjon til Oppgave-knappen
 description: Legg til funksjon til Oppgave-knappen
+keywords: ekstrameny
 author: Bergfrid Dias
 date: 03.16.2023
-keywords: makro, oppgave, handlinger
 content_type: howto
+category: customization
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 
 # Legg til funksjon på meny-knappen
 
-> [!NOTE]
-> Endringer utført **Systemdesign** - fanen **Ekstramenyer** vises bare i modulen **SuperOffice-tjeneste**, ikke i skjermbildet Forespørsler i SuperOffice CRM-modulen .
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Slik legger du til en makro på **Oppgave**-knappen i skjermbildet Firma, Person, Sak eller **Melding**:
 

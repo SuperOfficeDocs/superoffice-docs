@@ -2,13 +2,13 @@
 uid: help-no-ui-extra-menu
 title: Ekstramenyer
 description: Ekstra menyer i SuperOffice-brukergrensesnittet
-author: SuperOffice RnD
+keywords: ekstrameny
+author: SuperOffice AS - Project and Engineering
 date: 06.29.2022
-keywords: ekstramenyer
 content_type: concept
+category: customization
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -39,10 +39,9 @@ I skjermbildet **Ekstramenyer** kan du legge til ekstra menyer (knapper, menyer,
 * Skript/makroer: Knapper eller menyalternativer som trigger et skript eller en makro.
 * Utvalg: Snarvei til et utvalg.
 
-Se også [Egenskaper for meny][1].
+## Relatert innhold
 
-## Hva vil du gjøre nå?
-
+* [Egenskaper for meny][1]
 * [Legg til funksjon på menyknapp (Oppgave)][2]
 * [Legg til en ekstra nettleserfane (webpanel)][3]
 
