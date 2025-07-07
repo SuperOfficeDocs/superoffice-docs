@@ -1,12 +1,13 @@
 ---
-uid: search_engine_select
+uid: search-engine-select
 title: Building a query
+keywords:
 author:
 date:
-keywords:
 content_type: concept
 ---
 
+<!-- markdownlint-disable-file MD013 -->
 # Building a query
 
 ## Select from
@@ -77,7 +78,6 @@ SearchEngine se;
 se.addCriteria("associate.type", "OperatorEquals", "0");
 ```
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
 
 This variant of `addCriteria()` extends the condition by also adding a priority and a logical operator. It is typically used when another criterion follows this one.
@@ -91,7 +91,6 @@ se.addCriteria("ticket.status", "OperatorEquals", "1", "OperatorAnd", 0);
 
 Notice that the **priority is a number** and not a string.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addCriteria(String field, String function, String compOperator, String value, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use on the field.
@@ -103,12 +102,10 @@ SearchEngine se;
 se.addCriteria("ticket.status", "FuncCount", "OperatorEquals", "1", "OperatorAnd", 0);
 ```
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
 
 Similar to `addCriteria()`, but `addComparison()` will compare 2 fields to each other rather than compare a field to a set value.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addComparison(String field1, String func1, String compOperator, String field2, String func2, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use on each field.
@@ -143,13 +140,11 @@ se.bypassNetServer(true);
 se.setGroup(true);
 ```
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addHaving(String field, String compOperator, String value, String rowOperator, Integer priority)
 
 A having clause filters the search result by setting a condition similar to `addCriteria()`.
 The field you want to place a restriction on must also be in the group-by clause.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Void addHaving(String field, String func, String compOperator, String value, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use the field.
@@ -250,13 +245,28 @@ You now know how to build a SearchEngine query, look at the generated SQL, gauge
 
 A function specifies what to do with the value of a field.
 
-[!include[ALT](includes/functions.md)]
+| Function | Other name | Applies to     | bypassNetServer | Description |
+|----------|------------|----------------|:---------------:|-------------|
+| avg      | FuncAvg    | Integer, Float | yes | aggregate, the average value of a column |
+| count    | FuncCount  | Integer, Float | yes | aggregate, the number of rows matching cond. |
+| sum      | FuncSum    | Integer, Float | yes | aggregate, the total sum of a column |
+| max      | FuncMax    | Integer, Float | yes | aggregate, the largest value of a column |
+| min      | FuncMin    | Time, DateTime |     | |
+| hour     | FuncHour   | Time, DateTime |     | |
+| wday     | FuncWDay   | Date, DateTime |     | |
+| upper    | FuncUpper  | String         |     | |
+| lower    | FuncLower  | String         |     | |
 
 ### Row operators
 
 A row operator is a logical operator used to combine 2 criteria in a search condition.
 
-[!include[ALT](includes/row-operators.md)]
+| Value          | Logical operator | Expression  | Result |
+|----------------|:----------------:|:-----------:|--------|
+| OperatorAnd    | AND   | A && B      | Only rows matching both conditions         |
+| OperatorNotAnd | NAND  | !(A && B)   | Rows matching 0 or 1 condition but not both |
+| OperatorOr     | OR    | A \|\| B    | Rows matching either condition (or both)   |
+| OperatorNotOr  | NOR   | !(A \|\| B) | Only rows matching no conditions |
 
 ### Comparison operators
 
@@ -264,7 +274,23 @@ A comparison operator evaluates the value of a field as part of a search conditi
 
 Notice that all operators are specified as strings in the argument list.
 
-[!include[ALT](includes/comp-operators.md)]
+| Value              | Same as | Result |
+|--------------------|:-------:|--------|
+| OperatorEquals     | == | values match |
+| OperatorNotEquals  | != | values don't match |
+| OperatorLt         | <  | value less than |
+| OperatorLte        | <= | value less than or equal |
+| OperatorGt         | >  | value greater than |
+| OperatorGte        | >= | value greater than or equal |
+| OperatorIs         |    | values of the same type |
+| OperatorIsNot      |    | values of different types |
+| OperatorLike       |    | pattern found in string |
+| OperatorNotLike    |    | pattern not found in string |
+| OperatorContains   |    | string is present |
+| OperatorBeginsWith |    | string starts with |
+| OperatorEndsWith   |    | string ends with |
+| OperatorIn         |    | column has entries in table |
+| OperatorNotIn      |    | column has no entries in table |
 
 <!-- Referenced links -->
 [1]: se-run.md

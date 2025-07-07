@@ -1,10 +1,10 @@
 ---
-uid: event_model_mailbox_before_save
+uid: event-model-mailbox-before-save
 title: Mailbox before save
 description: CRMScript event model - Mailbox event, execute before message is saved
+keywords: Mailbox event
 author:
 date:
-keywords: 
 content_type: reference
 ---
 
@@ -14,7 +14,10 @@ This is a CRMScript you can add under the menu **System design** in the screen *
 
 Here you can add CRMScript code that will be run for all mailboxes before the mail is taken by any mail filter, and also before it is saved.
 
-[!include[ALT](../includes/get-set-variable.md)]
+There are several variables available in this context.
+
+* To get a variable: `getVariable("xxx")`
+* To set a variable: `setVariable("xxx", <value>)`, where \<value> is a valid value for the field you are trying to set.
 
 Here follows a list of all available variables that are possible to modify.
 
