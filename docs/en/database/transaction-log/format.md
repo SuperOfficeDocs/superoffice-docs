@@ -86,5 +86,5 @@ The extra `traveltransactionlog` record contains the previous owner ID (which is
 | 8192 - 8200 | Used with Field level replication. It’s a bit mask of which fields in the record that has been changed, 1 means fields have been changed. This means if the second field in a record has been changed, then `pref_record_id=2`. |
 
 <!-- Referenced links -->
-[2]: ../../travel/area-management/index.md
+[2]: ../../onsite/travel/area-management/index.md
 [3]: ../getting-started/table-id-sequence.md

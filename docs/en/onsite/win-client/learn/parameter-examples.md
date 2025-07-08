@@ -51,6 +51,6 @@ Local-datapath=ODBC:SuperOfficeLocal
 > You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section][1].
 
 <!-- Referenced links -->
-[1]: ../../../../en/travel/index.md
+[1]: ../../../../en/onsite/travel/index.md
 
 <!-- Referenced images -->

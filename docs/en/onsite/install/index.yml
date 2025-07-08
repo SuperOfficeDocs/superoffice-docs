@@ -174,7 +174,7 @@ landingContent:
       links:
       - url: ../config/index.md
         text: Overview
-      - url: ../../travel/travel-gateway/remotetravel-ini.md
+      - url: ../travel/travel-gateway/remotetravel-ini.md
         text: Remotetravel.ini
       - url: ../../service/config/index.md
         text: Service config
@@ -186,7 +186,7 @@ landingContent:
         text: Superoffice.config
       - url: win-client/superoffice-ini.md
         text: Superoffice.ini
-      - url: ../../travel/travel-gateway/username-ini.md
+      - url: ../travel/travel-gateway/username-ini.md
         text: Username.ini
       - url: ../../api/config/index.md
         text: Web.config
