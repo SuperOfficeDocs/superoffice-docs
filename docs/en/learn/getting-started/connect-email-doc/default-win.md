@@ -47,5 +47,5 @@ Choose one of the following options:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../webtools/learn/install.md
+[2]: ../../../document/webtools/learn/install.md
 [9]: default-mac.md

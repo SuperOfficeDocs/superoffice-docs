@@ -72,7 +72,7 @@ Når du installerer WebTools, blir e-post og dokumenter integrert i SuperOffice.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/no/support-faqs/faq/what-is-superoffice-web-tools-and-what-does-it-do/
-[2]: ../../webtools/learn/install.md
+[2]: ../../document/webtools/learn/install.md
 [3]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/web-tools-work-faster-with-email-and-documents/
 
 <!-- Referenced images -->

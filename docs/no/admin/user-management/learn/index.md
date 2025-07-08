@@ -53,6 +53,6 @@ For at en person skal kunne defineres som SuperOffice CRM-bruker, må vedkommend
 [4]: role/edit-rights-for-anonymous-users.md
 [5]: screen/index.md
 [6]: ../../license/learn/activate.md
-[7]: ../../../webtools/learn/install.md
+[7]: ../../../document/webtools/learn/install.md
 
 <!-- Referenced images -->

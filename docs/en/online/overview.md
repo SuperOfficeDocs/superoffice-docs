@@ -44,6 +44,6 @@ We offer more than one way of signing in - and [the Identity Management section]
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore/
 [2]: system-requirements.md
-[3]: ../webtools/learn/install.md
+[3]: ../document/webtools/learn/install.md
 [4]: ../learn/getting-started/login.md
 [5]: ../identity-management/overview.md

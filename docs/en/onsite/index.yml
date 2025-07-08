@@ -214,7 +214,7 @@ additionalContent:
           text: Reporter
         - url: debug/win-client.md
           text: Windows client
-        - url: ../webtools/debug.md
+        - url: ../document/webtools/debug.md
           text: WebTools
         - url: ../email/mail-link/debug.md
           text: Outlook Mail Link

@@ -10,5 +10,5 @@ items:
 - name: Google workspace
   href: google-workspace.md
 - name: WebTools
-  href: ../../../webtools/learn/toc.yml
-  topicHref: ../../../webtools/learn/index.md
+  href: ../../../document/webtools/learn/toc.yml
+  topicHref: ../../../document/webtools/learn/index.md
