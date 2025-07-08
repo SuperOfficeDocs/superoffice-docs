@@ -131,7 +131,7 @@ landingContent:
         text: IIS web server
       - url: ../requirements/web-client.md
         text: Web client
-      - url: ../../webtools/system-requirements.md
+      - url: ../../document/webtools/system-requirements.md
         text: WebTools
       - url: ../../mobile/pocket-crm/system-requirements.md
         text: Pocket CRM
@@ -198,9 +198,9 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Install WebTools
-          url: ../../webtools/install.md
+          url: ../../document/webtools/install.md
         - text: Deploy WebTools
-          url: ../../webtools/deploy.md
+          url: ../../document/webtools/deploy.md
         - text: Deploy Pocket CRM
           url: ../../mobile/pocket-crm/deploy.md
         - text: Set up Active Directory authentication

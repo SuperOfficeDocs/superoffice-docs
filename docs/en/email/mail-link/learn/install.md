@@ -32,8 +32,8 @@ Read more about on how to [connect email and documents][5].
 <!-- Referenced links -->
 [1]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [2]: https://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
-[3]: ../../../webtools/learn/index.md
-[4]: ../../../webtools/learn/install.md
+[3]: ../../../document/webtools/learn/index.md
+[4]: ../../../document/webtools/learn/install.md
 [5]: ../../../learn/getting-started/connect-email-doc/index.md
 [6]: ../../inbox/learn/setup.md
 [7]: http://cs.superoffice.no/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=no&noCookies=true&action=viewKbEntry&id=112129

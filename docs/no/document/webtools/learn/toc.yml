@@ -1,0 +1,7 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Installere - Windows
+  href: install.md
+- name: Installere - macOS
+  href: install-mac.md

@@ -55,7 +55,7 @@ items:
       - name: Troubleshooting
         href: cloud/legacy/office-365/troubleshooting.md
   - name: WebTools
-    href: ../webtools/toc.yml
+    href: webtools/toc.yml
   - name: Ribbons
     href: ribbons/index.md
     items:

@@ -93,7 +93,7 @@ Having your users organized in groups is also convenient when you want to person
 [7]: role/functional-rights.md
 [15]: ../../preferences/learn/index.md
 [16]: ../../license/learn/activate.md
-[17]: ../../../webtools/learn/install.md
+[17]: ../../../document/webtools/learn/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/admin/access-right-system.png
