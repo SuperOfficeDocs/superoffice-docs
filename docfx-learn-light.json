@@ -19,7 +19,7 @@
         "src":"docs/en",
         "dest":"en/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "api/", "identity-management/", "mirroring/", "video-meeting/", "webtools/"]
+        "exclude":[ "toc.yml","index.md", "api/", "identity-management/", "mirroring/", "video-meeting/"]
       },
       {
         "src":"docs/en/api",
@@ -74,20 +74,10 @@
         "exclude":[ "**/toc.yml", "toc.yml" ]
       },
       {
-        "src":"docs/en/webtools",
-        "dest":"en/document/webtools",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ]
-      },
-      {
         "src":"docs/no",
         "dest":"no/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "webtools/"]
-      },
-      {
-        "src":"docs/no/webtools",
-        "dest":"no/document/webtools",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ]
+        "exclude":[ "toc.yml","index.md"]
       },
       {
         "src":"release-notes",
