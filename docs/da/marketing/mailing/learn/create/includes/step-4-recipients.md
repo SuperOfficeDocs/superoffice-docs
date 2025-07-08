@@ -57,7 +57,7 @@ Når du importerer en liste over navne og e-mailadresser, forsøger SuperOffice 
 4. Gentag trin 2-4 for at tilføje flere modtagere. Supplerende modtagere vil blive tilføjet til den samme række i listen **Modtagerkilder**. Det samlede antal modtagere vil blive vist i kolonnen **Navn**.
 
 > [!NOTE]
-Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
+> Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 
 #### Importere filformat
 
@@ -73,7 +73,7 @@ Denne valgmulighed er ikke tilgængelig for dokumentudsendelser.
 * Onsite: Den enkelte modtager(række) kan også indeholde et mobiltelefonnummer (efter e-mailadressen), hvis du opsætter sms-udsendelser. For eksempel: "John Smith, john@company.com, 99999999". Kræver licens til Marketing SMS.
 
 > [!NOTE]
-Hvis du kun har mobiltelefonnummeret og skal sende en SMS, kan du angive følgende:
+> Hvis du kun har mobiltelefonnummeret og skal sende en SMS, kan du angive følgende:
 
 ### Indstillinger for modtager
 
@@ -98,7 +98,7 @@ Under **Valgmuligheder** kan du i den nederste del af skærmbilledet **Modtagere
 * **Medtage virksomheder**: Vælg denne indstilling for at medtage firmaer som modtagere.
 
     > [!NOTE]
-    Hvis et firma ikke har nogen e-mailadresse, sendes udsendelsen i stedet til alle relaterede personer på modtagerlisten.
+    > Hvis et firma ikke har nogen e-mailadresse, sendes udsendelsen i stedet til alle relaterede personer på modtagerlisten.
 
 * **Foretrukken virksomhed**: Vælg denne indstilling for kun at sende udsendelsen til firmaerne på modtagerlisten (og ikke de relaterede personer). Hvert firma modtager kun én udsendelse. Personer, der ikke tilhører et firma, vil stadig modtage udsendelsen.
 
