@@ -11,8 +11,8 @@ audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 redirect_from:
-  - /en/
-  - /en/sale/saint/learn/index
+  - /en/sale/saint/
+  - /en/sale/saint/learn/
 ---
 
 # Activity monitors (SAINT)
