@@ -63,7 +63,12 @@ Der findes to måder at oprette en e-mail på i Microsoft Outlook. Du kan bruge 
 
 ## Knapper i e-mailvinduet
 
-[!include[Icons with description](includes/buttons-in-email-window.md)]
+| Knap | Funktion | Beskrivelse |Læs mere |
+|:-:|---|---|---|
+| ![ikon][img1],![ikon][img2] | Autoarkivering er slået TIL / Autoarkivering er slået FRA | Angiver, om e-mailen arkiveres, når den sendes. Klik på knappen for at aktivere eller deaktivere indstillingen. Standardindstillingen defineres i ruden **Arkivindstillinger** i dialogboksen **SuperOffice CRM indstillinger**. | [Arkivindstillinger][5] |
+| ![ikon][img3] | Tilføj modtager | Åbner dialogboksen **Vælg modtagere**. | [Valg af modtagere][2] |
+| ![ikon][img4] | Vedhæft dokument | Åbner dialogboksen **Medtag vedhæftning(er)**. | [Tilføj SuperOffice-dokumenter som vedhæftede filer][3] |
+| ![ikon][img5] | | Klik på pilen til højre for knappen **SuperOffice** for at åbne dialogboksen**SuperOffice CRM indstillinger**. | [Dialogboksen SuperOffice CRM indstillinger][6] |
 
 ## Relateret indhold
 
@@ -72,5 +77,12 @@ Der findes to måder at oprette en e-mail på i Microsoft Outlook. Du kan bruge 
 <!-- Referenced links -->
 [2]: select-recipients.md
 [3]: add-attachment.md
+[5]: settings/default.md
+[6]: settings/index.md
 
-<!-- Referenced images -->
+<!-- referenced images -->
+[img1]: ../../../../media/icons/mail-link/archive-is-on.png
+[img2]: ../../../../media/icons/mail-link/archive-is-off.png
+[img3]: ../../../../media/icons/mail-link/add-recipient.png
+[img4]: ../../../../media/icons/mail-link/add-document.png
+[img5]: ../../../../media/loc/en/email/superoffice-button.png
