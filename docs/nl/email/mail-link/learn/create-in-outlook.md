@@ -63,7 +63,12 @@ Er zijn twee manieren om een e-mail te maken vanuit Microsoft Outlook. U kunt Su
 
 ## Knoppen in het e-mailvenster
 
-[!include[Icons with description](includes/buttons-in-email-window.md)]
+| Knop | Functie | Beschrijving |Lees meer |
+|:-:|---|---|---|
+| ![pictogram][img1], ![pictogram][img2] | Archiveren is AAN / Archiveren is UIT | Geeft aan of de e-mail wordt gearchiveerd wanneer deze wordt verzonden. Klik op de knop om deze instelling in of uit te schakelen. De standaardinstelling wordt opgegeven in het deelvenster **Archiefopties** van het dialoogvenster **SuperOffice CRM-opties**. | [Archiefopties][5] |
+| ![pictogram][img3] | Ontvanger toevoegen | Het dialoogvenster **Ontvangers selecteren** wordt geopend. | [Ontvangers selecteren][2] |
+| ![pictogram][img4] | Document bijvoegen | Het dialoogvenster **Bijlagen toevoegen** wordt geopend. | [SuperOffice-documenten toevoegen als bijlagen][3] |
+| ![pictogram][img5] | | Klik op de pijl naast de knop **SuperOffice** om het dialoogvenster **SuperOffice CRM-opties** te openen. | [Dialoogvenster SuperOffice CRM opties][6] |
 
 ## Gerelateerde inhoud
 
@@ -72,5 +77,12 @@ Er zijn twee manieren om een e-mail te maken vanuit Microsoft Outlook. U kunt Su
 <!-- Referenced links -->
 [2]: select-recipients.md
 [3]: add-attachment.md
+[5]: settings/default.md
+[6]: settings/index.md
 
-<!-- Referenced images -->
+<!-- referenced images -->
+[img1]: ../../../../media/icons/mail-link/archive-is-on.png
+[img2]: ../../../../media/icons/mail-link/archive-is-off.png
+[img3]: ../../../../media/icons/mail-link/add-recipient.png
+[img4]: ../../../../media/icons/mail-link/add-document.png
+[img5]: ../../../../media/loc/en/email/superoffice-button.png

@@ -63,7 +63,12 @@ Det finns två sätt att skapa ett e-postmeddelande från Microsoft Outlook. Du 
 
 ## Knappar i e-postfönstret
 
-[!include[Icons with description](includes/buttons-in-email-window.md)]
+| Knapp | Funktion | Beskrivning |Läs mer |
+|:-:|---|---|---|
+| ![ikon][img1], ![ikon][img2] | Arkivering är på/Arkivering är av | Anger om e-postmeddelandet kommer att arkiveras när det skickas. Klicka på knappen för att aktivera eller inaktivera den här inställningen. Standardinställningen väljs i fönstret **Arkiveringsalternativ** i dialogrutan **Alternativ för SuperOffice CRM**. | [Arkiveringsalternativ][5] |
+| ![ikon][img3] | Lägg till mottagare | Dialogrutan **Välj mottagare** öppnas. | [Välj mottagare][2] |
+| ![ikon][img4] | Bifoga dokument | Dialogrutan **Inkludera bifogade filer** öppnas. | [Lägg till SuperOffice-dokument som bilagor][3] |
+| ![ikon][img5] | | Klicka på pilen till höger om **SuperOffice**-knappen för att öppna dialogrutan **Alternativ för SuperOffice CRM**. | [Dialogrutan SuperOffice CRM-alternativ][6] |
 
 ## Relaterat innehåll
 
@@ -72,5 +77,12 @@ Det finns två sätt att skapa ett e-postmeddelande från Microsoft Outlook. Du 
 <!-- Referenced links -->
 [2]: select-recipients.md
 [3]: add-attachment.md
+[5]: settings/default.md
+[6]: settings/index.md
 
-<!-- Referenced images -->
+<!-- referenced images -->
+[img1]: ../../../../media/icons/mail-link/archive-is-on.png
+[img2]: ../../../../media/icons/mail-link/archive-is-off.png
+[img3]: ../../../../media/icons/mail-link/add-recipient.png
+[img4]: ../../../../media/icons/mail-link/add-document.png
+[img5]: ../../../../media/loc/en/email/superoffice-button.png
