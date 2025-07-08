@@ -166,6 +166,6 @@ items:
     - name: Windows client
       href: debug/win-client.md
   - name: Travel
-    href: ../travel/toc.yml
+    href: travel/toc.yml
   - name: Version history
     href: version-history.md

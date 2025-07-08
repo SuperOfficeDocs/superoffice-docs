@@ -35,7 +35,7 @@ highlightedContent:
     - title: "Installation guide (Web)"
       itemType: map
       typeDesc: overview
-      url: install/index.yml      
+      url: install/index.yml
     # Card
     - title: "Customer Service"
       itemType: map
@@ -124,7 +124,7 @@ conceptualContent:
           - url: upgrade/to-9/index.md
             itemType: list
             typeDesc: how-to-guide
-            text: To version 9 or 10       
+            text: To version 9 or 10
           - url: upgrade/to-81/index.md
             itemType: list
             typeDesc: how-to-guide
@@ -185,7 +185,7 @@ additionalContent:
       # Card
       - title: Config and ini files
         links:
-          - url: ../travel/travel-gateway/remotetravel-ini.md
+          - url: travel/travel-gateway/remotetravel-ini.md
             text: Remotetravel.ini
           - url: ../service/config/index.md
             text: Service config
@@ -197,7 +197,7 @@ additionalContent:
             text: Superoffice.config
           - url: install/win-client/superoffice-ini.md
             text: Superoffice.ini
-          - url: ../travel/travel-gateway/username-ini.md
+          - url: travel/travel-gateway/username-ini.md
             text: Username.ini
           - url: ../api/config/index.md
             text: Web.config

@@ -230,7 +230,7 @@ For users, it means that delete operations can be undone. For DBAs, the deep del
 [1]: ../../learn/basics/deleting-elements.md#restore
 [2]: ../../admin/preferences/learn/global-preferences/system.md
 [3]: ../../mirroring/overview.md
-[4]: ../../travel/index.md
+[4]: ../../onsite/travel/index.md
 [5]: ../../database/tables/enums/ticketbasestatus.md
 [6]: ../../database/tables/ticket.md
 [7]: ../../database/tables/ej-message.md
