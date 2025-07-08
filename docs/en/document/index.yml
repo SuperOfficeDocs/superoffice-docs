@@ -36,7 +36,7 @@ landingContent:
         - text: Connect email, documents and diary
           url: ../learn/getting-started/connect-email-doc/index.md
         - text: "Web Tools"
-          url: ../webtools/index.md
+          url: webtools/index.md
         - text: How to create a document
           url: learn/create.md
         - text: Edit or delete documents
