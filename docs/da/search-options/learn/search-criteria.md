@@ -33,10 +33,10 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
     * Klik på **Find** på toplinjen. Kriterielisten findes under fanen **Kriterier**.
     * Eller gå til det ønskede udvalg, og vælg fanen **Kriterier**.
 
-2. Klik på knappen **Tilføj**.
+1. Klik på knappen **Tilføj**.
     Der tilføjes en ny linje i kriterielisten, og der vises en liste med felter at vælge imellem.
 
-3. Vælg det felt, som du vil søge efter oplysninger i. Du kan også [indtaste begyndelsen af navnet][2] i det ønskede felt. Der findes forskellige typer af felter:
+1. Vælg det felt, som du vil søge efter oplysninger i. Du kan også [indtaste begyndelsen af navnet][2] i det ønskede felt. Der findes forskellige typer af felter:
 
     * [Tekststreng](#text)
     * [Ja/nej](#yes-no)
@@ -46,9 +46,9 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
     * [Status](#status)
     * [Tæller](#counter)
 
-4. Vælg værdier for søgekriterierne i de forskellige felter på linjen.
+1. Vælg værdier for søgekriterierne i de forskellige felter på linjen.
 
-5. Klik på **Tilføj** for at tilføje en ny linje, eller klik på **Eller** for at tilføje et nyt sæt kriterier.
+1. Klik på **Tilføj** for at tilføje en ny linje, eller klik på **Eller** for at tilføje et nyt sæt kriterier.
 
 ## Typer af felter
 
@@ -56,7 +56,15 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 
 Hvis søgefeltet er et tekstfelt (for eksempel et navnefelt), søges der efter den tekst eller de tal, du indtaster. Der vises en liste med følgende indstillinger:
 
-[!include[Search criteria](includes/list-search-criteria.md)]
+* Starter med
+* Indeholder
+* Slutter med
+* Er lig med
+* Fuldstændig overensstemmelse
+* Begynder ikke med
+* Indeholder ikke
+* Slutter ikke med
+* Er ikke lig med
 
 Vælg én af disse indstillinger, og indtast derefter søgekriterier i tekstfeltet til højre.
 
@@ -68,7 +76,19 @@ Hvis søgefeltet er et Ja/Nej-felt, for eksempel feltet **Ingen udsendelser** i 
 
 Hvis søgefeltet er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument**, vises der en liste med følgende alternativer:
 
-[!include[Search criteria](includes/list-date-criteria.md)]
+* Før
+* Er lig med
+* Efter
+* Mellem
+* Før i dag
+* I dag
+* Efter i dag
+* Denne...
+* Denne og næste...
+* Næste...
+* Denne og forrige...
+* Forrige...
+* Denne, forrige og næste...
 
 Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet automatisk med en dato eller et datointerval, eller du kan angive den ønskede dato. Du kan også vælge en dato i kalenderen, som vises, når du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
@@ -76,7 +96,15 @@ Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet a
 
 Hvis søgefeltet indeholder talværdier, for eksempel feltet **Beløb** i skærmbilledet Salg, vises der en liste med følgende alternativer:
 
-[!include[Search criteria](includes/table-number-criteria.md)]
+| Mulighed | Beskrivelse |
+|---|---|
+| = | Er lig med |
+| &gt; | Større end |
+| &lt; | Mindre end |
+| &gt;= | Større end eller lig med |
+| &lt;= | Mindre end eller lig med |
+| &lt; &gt; | Er ikke lig med |
+| Mellem | Værdien ligger mellem to angivne tal |
 
 Vælg den ønskede indstilling, og indtast den ønskede talværdi i tekstfeltet til højre.
 
@@ -139,8 +167,10 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 ## Relateret indhold
 
 * [Brug skærmbilledet Søg][1]
+* [Udvalg][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md

@@ -33,10 +33,10 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
     * Klicka på **Sök** i det övre fältet. Kriterielistan i fliken **Kriterier**.
     * Eller gå till önskat urval och välj fliken **Kriterier**.
 
-2. Klicka på knappen **Lägg till**.
+1. Klicka på knappen **Lägg till**.
     En ny rad läggs till i kriterielistan och en lista visas med fält att välja mellan.
 
-3. Välj i vilket fält du vill söka efter information. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns flera typer av fält:
+1. Välj i vilket fält du vill söka efter information. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns flera typer av fält:
 
     * [Textsträng](#text)
     * [Ja/Nej](#yes-no)
@@ -46,9 +46,9 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
     * [Status](#status)
     * [Räknare](#counter)
 
-4. Välj värden för sökkriterierna i de olika fälten på raden.
+1. Välj värden för sökkriterierna i de olika fälten på raden.
 
-5. Klicka på **Lägg till** om du vill lägga till en ny rad eller klicka på **Eller** om du vill lägga till en ny uppsättning kriterier.
+1. Klicka på **Lägg till** om du vill lägga till en ny rad eller klicka på **Eller** om du vill lägga till en ny uppsättning kriterier.
 
 ## Fälttyper
 
@@ -56,7 +56,15 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 
 Om fältet som du ska söka i är ett textfält (till exempel namn) söker programmet efter text eller tal som du själv anger. Då visas en lista med följande alternativ:
 
-[!include[Search criteria](includes/list-search-criteria.md)]
+* Börjar med
+* Innehåller
+* Slutar med
+* Är lika med
+* Är exakt
+* Börjar inte med
+* Innehåller inte
+* Slutar inte med
+* Är inte lika med
 
 Välj ett av dessa alternativ och skriv sedan in sökkriterierna i textfältet till höger.
 
@@ -68,7 +76,19 @@ Om fältet som du ska söka i är ett Ja/Nej-fält, till exempel fältet **Inga 
 
 Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum** i dialogrutan **Dokument**, visas en listruta med följande alternativ:
 
-[!include[Search criteria](includes/list-date-criteria.md)]
+* Före
+* Är lika med
+* Efter
+* Mellan
+* Före i dag
+* I dag
+* Efter i dag
+* Denna...
+* Denna och nästa...
+* Nästa...
+* Denna och föregående...
+* Föregående...
+* Denna, föregående och nästa...
 
 Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
@@ -76,7 +96,15 @@ Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt 
 
 Om fältet som du ska söka i innehåller siffror, till exempel fältet **Belopp** i fönstret Försäljning, visas en listruta med följande alternativ:
 
-[!include[Search criteria](includes/table-number-criteria.md)]
+| Alternativ | Beskrivning |
+|---|---|
+| = | Är lika med |
+| &gt; | Större än |
+| &lt; | Mindre än |
+| &gt;= | Större än eller lika med |
+| &lt;= | Mindre än eller lika med |
+| &lt; &gt; | Är inte lika med |
+| Mellan | Värdet ligger mellan två angivna siffror |
 
 Välj önskat alternativ och skriv in önskat siffervärde i textfältet till höger.
 
@@ -134,11 +162,13 @@ När du öppnar fönstret **Sök** innehåller den standardsökkriterier eller d
 >
 > Ett inaktiverat sökkriterium finns kvar i kriterielistan och kan enkelt aktiveras igen.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Använda fönstret Sök][1]
+* [Urval][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md

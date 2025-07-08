@@ -2,10 +2,13 @@
 uid: help-de-search-criteria
 title: Suchkriterien verwenden
 description: Suchkriterien verwenden
+keywords: Suchen, Kriterien
 author: Bergfrid Dias
 date: 05.25.2023
-keywords: Suchen, Kriterien
+version: 10.5.2
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -30,10 +33,10 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
     * Klicken Sie in der oberen Leiste auf **Suchen**. Die Kriterienliste befindet sich auf der Registerkarte **Kriterien**.
     * Oder gehen Sie zur gewünschten Selektion und wählen Sie die Registerkarte **Kriterien** aus.
 
-2. Klicken Sie auf die Schaltfläche **Hinzufügen**.
+1. Klicken Sie auf die Schaltfläche **Hinzufügen**.
     In die Kriterienliste wird eine neue Zeile eingefügt, und es wird eine Liste mit wählbaren Feldern angezeigt.
 
-3. Wählen Sie das Feld aus, in dem Sie nach Informationen suchen möchten. Sie können auch im entsprechenden Feld den [Anfang des Namens eingeben][2]. Es gibt verschiedene Typen von Feldern:
+1. Wählen Sie das Feld aus, in dem Sie nach Informationen suchen möchten. Sie können auch im entsprechenden Feld den [Anfang des Namens eingeben][2]. Es gibt verschiedene Typen von Feldern:
 
     * [Langer](#text)
     * [Ja/Nein](#yes-no)
@@ -43,9 +46,9 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
     * [Status](#status)
     * [Zähler](#counter)
 
-4. Wählen Sie die Werte für die Suchkriterien in den verschiedenen Feldern der Zeile aus.
+1. Wählen Sie die Werte für die Suchkriterien in den verschiedenen Feldern der Zeile aus.
 
-5. Klicken Sie auf **Hinzufügen**, um eine neue Zeile hinzuzufügen, oder klicken Sie auf **Oder**, um einen neuen Kriteriensatz hinzuzufügen.
+1. Klicken Sie auf **Hinzufügen**, um eine neue Zeile hinzuzufügen, oder klicken Sie auf **Oder**, um einen neuen Kriteriensatz hinzuzufügen.
 
 ## Feldtypen
 
@@ -53,7 +56,15 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
 
 Wenn Sie in einem Textfeld suchen (wie einen Namen), wird nach eingegebenem Text oder eingegebenen Zahlen gesucht. Eine Liste mit den folgenden Optionen wird angezeigt:
 
-[!include[Search criteria](includes/list-search-criteria.md)]
+* Beginnt mit
+* Enthält
+* Endet mit
+* Ist gleich
+* Ist genau
+* Nicht beginnend mit
+* Enthält nicht
+* Endet nicht mit
+* Ist nicht
 
 Wählen Sie eine dieser Optionen und geben Sie dann im Textfeld auf der rechten Seite die Suchkriterien ein.
 
@@ -65,7 +76,19 @@ Handelt es sich bei dem gesuchten Feld um ein Ja/Nein-Feld (zum Beispiel das Fel
 
 Wenn das Feld, das Sie durchsuchen, ein Datumsfeld ist (zum Beispiel das Feld **Datum** im Dialogfeld **Dokument**), wird ein Listenfeld mit den folgenden Optionen angezeigt:
 
-[!include[Search criteria](includes/list-date-criteria.md)]
+* Vor
+* Ist gleich
+* Nach
+* Zwischen
+* Vor heute
+* Heute
+* Nach heute
+* diese/r/s...
+* diese/r/s und nächste/r/s...
+* nächste/r/s...
+* diese/r/s und vorherige/r/s...
+* vorherige/r/s...
+* diese/r/s, vorherige/r/s und nächste/r/s...
 
 Wählen Sie die gewünschte Option. Je nach Ihrer Auswahl wird das Feld automatisch mit einem Datum oder Datumsbereich ausgefüllt, oder Sie können das gewünschte Datum auch selbst eingeben. Sie können auch ein Datum aus dem Kalender auswählen, der angezeigt wird, wenn Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken.
 
@@ -73,7 +96,15 @@ Wählen Sie die gewünschte Option. Je nach Ihrer Auswahl wird das Feld automati
 
 Wenn das gesuchte Feld einen numerischen Wert enthält (zum Beispiel das Feld **Betrag** in der Ansicht Verkauf), wird ein Listenfeld mit den folgenden Optionen angezeigt:
 
-[!include[Search criteria](includes/table-number-criteria.md)]
+| Option | Beschreibung |
+|---|---|
+| = | Ist gleich |
+| &gt; | Größer als |
+| &lt; | Kleiner |
+| &gt;= | Größer oder gleich |
+| &lt;= | Kleiner oder gleich |
+| &lt; &gt; | Ist nicht |
+| Zwischen | Der Wert liegt zwischen den festgelegten Zahlen. |
 
 Wählen Sie die erforderliche Option und geben Sie im Textfeld auf der rechten Seite den gewünschten numerischen Wert ein.
 
@@ -129,11 +160,13 @@ Wenn Sie die Ansicht **Suchen** öffnen, enthält diese die Standardsuchkriterie
 >
 > Ein deaktiviertes Suchkriterium bleibt in der Kriterienliste erhalten und kann bei Bedarf einfach wieder aktiviert werden.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Suchansicht verwenden][1]
+* [Selektionen][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md

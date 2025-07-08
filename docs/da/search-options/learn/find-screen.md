@@ -25,26 +25,26 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 
 1. Klik på knappen **Find** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toplinjen][1].
 
-2. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
+1. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
 
-3. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:
+1. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:
 
     * Klik på <i class="ph ph-x-circle" aria-label="X"></i> for at fjerne de kriterier, du ikke vil bruge.
     * Klik på knappen **Tilføj** for at tilføje nye søgekriterier. Der tilføjes en ny linje til kriterielisten.
 
-4. Vælg det felt, du vil søge efter oplysninger i, i den første liste på linjen. Du kan også [indtaste begyndelsen af navnet i det ønskede felt][2]. Der findes [forskellige felttyper][3].
+1. Vælg det felt, du vil søge efter oplysninger i, i den første liste på linjen. Du kan også [indtaste begyndelsen af navnet i det ønskede felt][2]. Der findes [forskellige felttyper][3].
 
     Vælg for eksempel **Person** og **Efternavn**, hvis du vil søge efter personer, eller **Projekt** og **Arrangementsdato**, hvis du vil søge efter projekter.
 
-5. Vælg værdier for søgekriterierne i de næste felter på linjen.
+1. Vælg værdier for søgekriterierne i de næste felter på linjen.
 
-6. Du kan klikke på **Tilføj** under kriterielisten igen for at angive flere søgekriterier. Derefter tilføjes det til en ny linje på kriterielisten, og du gentager trin 4 og 5.
+1. Du kan klikke på **Tilføj** under kriterielisten igen for at angive flere søgekriterier. Derefter tilføjes det til en ny linje på kriterielisten, og du gentager trin 4 og 5.
 
-7. Hvis du vil flytte kriterier, skal du klikke og trække <i class="ph ph-equals" aria-label="="></i>.
+1. Hvis du vil flytte kriterier, skal du klikke og trække <i class="ph ph-equals" aria-label="="></i>.
 
-8. Klik på **Eller** for at tilføje et andet sæt kriterier.
+1. Klik på **Eller** for at tilføje et andet sæt kriterier.
 
-9. Når du har angivet og aktiveret de søgekriterier, du ønsker, klikker du på knappen **Søg**. Fanen **Resultater** åbnes med resultaterne, der matcher søgekriterierne.
+1. Når du har angivet og aktiveret de søgekriterier, du ønsker, klikker du på knappen **Søg**. Fanen **Resultater** åbnes med resultaterne, der matcher søgekriterierne.
 
 > [!TIP]
 > Hvis du for eksempel vil søge efter alle firmaer, kan du bruge procenttegnet (%), når du tilføjer [søgekriterier][3] for **Firma**.
@@ -91,82 +91,73 @@ Som leder af salgsafdelingen vil du gerne holde en præsentation for resten af l
 
 1. Klik på knappen **Søg**.
 
-2. Klik på **Find firma**.
+1. Klik på **Find firma**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]. Klik først på **Salg** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) og derefter på **Beløb**.
+1. [!include[Select field](includes/select-field.md)]. Klik først på **Salg** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) og derefter på **Beløb**.
 
-6. I rullemenuen til højre for **Beløb** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge **>** (større end).
+1. I rullemenuen til højre for **Beløb** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge **>** (større end).
 
-7. I det sidste felt på linjen skal du indtaster du minimumsbeløbet. For eksempel "100.000".
+1. I det sidste felt på linjen skal du indtaster du minimumsbeløbet. For eksempel "100.000".
 
-8. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 kr., men vi er ikke færdige. Vi vil også angive en periode.
+1. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 kr., men vi er ikke færdige. Vi vil også angive en periode.
 
-9. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)], som vises. Klik først på **Salg** og derefter på **Registreret dato**.
+1. [!include[Select field](includes/select-field.md)], som vises. Klik først på **Salg** og derefter på **Registreret dato**.
 
-11. I den anden rullemenu skal du klikke på pilen og derefter vælge **Mellem**.
+1. I den anden rullemenu skal du klikke på pilen og derefter vælge **Mellem**.
 
-12. I den tredje rullemenu angiver du startdatoen for den ønskede periode, og i den fjerde rullemenu angiver du slutdatoen for den ønskede periode.
+1. I den tredje rullemenu angiver du startdatoen for den ønskede periode, og i den fjerde rullemenu angiver du slutdatoen for den ønskede periode.
 
-13. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 inden for den periode, du definerede. Men vi er ikke færdige endnu. Vi vil også begrænse søgningen til salg med statussen **Solgt**.
+1. Du har nu angivet, at du vil søge efter firmaer med salg over 100.000 inden for den periode, du definerede. Men vi er ikke færdige endnu. Vi vil også begrænse søgningen til salg med statussen **Solgt**.
 
-14. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-15. På den liste, der vises, skal du indtaste "Status" for at foretage en hurtigsøgning i feltet.
+1. På den liste, der vises, skal du indtaste "Status" for at foretage en hurtigsøgning i feltet.
 
-16. På den liste, der vises, skal du vælge **Salg** - **Status** (med salgsikonet foran).
+1. På den liste, der vises, skal du vælge **Salg** - **Status** (med salgsikonet foran).
 
-17. I den anden liste vælger du **Er en af**.
+1. I den anden liste vælger du **Er en af**.
 
-18. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**.
+1. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**.
 
-19. Du har nu angivet, at du vil søge efter firmaer med salg over et bestemt beløb, inden for et bestemt datointerval og med statussen **Solgt**.
+1. Du har nu angivet, at du vil søge efter firmaer med salg over et bestemt beløb, inden for et bestemt datointerval og med statussen **Solgt**.
 
-20. [!include[Click Find](includes/run-search.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-21. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2"></a>Eksempel 2: søgning efter kunder i Danmark, som du har ansvaret for
 
 Lad os sige, at du skal på en konference i Norge. Når du alligevel er der, vil du benytte lejligheden til at besøge nogle kunder samtidig. Du starter planlægningen med at finde alle de kunder i Norge, som du har ansvaret for.
 
 1. Klik på knappen **Søg**.
 
-2. Klik på **Find firma**.
+1. Klik på **Find firma**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** (<i class="ph ph-buildings" aria-hidden="true"></i>) og derefter på **Land**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** (<i class="ph ph-buildings" aria-hidden="true"></i>) og derefter på **Land**.
 
-6. I den anden liste vælger du **Er en af**.
+1. I den anden liste vælger du **Er en af**.
 
-7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Norge**.
+1. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Norge**.
 
-8. Du har nu angivet, at du vil søge efter firmaer i Norge, men vi er ikke færdige. Vi vil begrænse søgningen til de firmaer i Norge, som du har ansvaret for.
+1. Du har nu angivet, at du vil søge efter firmaer i Norge, men vi er ikke færdige. Vi vil begrænse søgningen til de firmaer i Norge, som du har ansvaret for.
 
-9. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** og derefter på **Vores kontakt**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** og derefter på **Vores kontakt**.
 
-11. I den anden rullemenu vælger du **Aktuel bruger**. Dit navn vises i det sidste felt på linjen.
+1. I den anden rullemenu vælger du **Aktuel bruger**. Dit navn vises i det sidste felt på linjen.
 
-12. Du har nu angivet, at du vil søge efter de firmaer i Norge, der har dig som person.
+1. Du har nu angivet, at du vil søge efter de firmaer i Norge, der har dig som person.
 
-13. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-14. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex3"></a>Eksempel 3: søgning efter gennemførte salg
 
@@ -174,58 +165,51 @@ Lad os sige, at du er leder af en virksomhed, og du vil finde ud af, hvilken typ
 
 1. Klik på knappen **Søg**.
 
-2. Klik på **Find salg**.
+1. Klik på **Find salg**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Salg** og derefter på **Status**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på **Salg** og derefter på **Status**.
 
-6. I den anden liste vælger du **Er en af**.
+1. I den anden liste vælger du **Er en af**.
 
-7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**. Du har nu angivet, at du vil søge efter fuldførte salg.
+1. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Solgt**. Du har nu angivet, at du vil søge efter fuldførte salg.
 
-8. [!include[Click Find](includes/run-search.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
-9. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4"></a>Eksempel 4: søgning efter projekter, som du har deltaget i det seneste år
 
 Lad os sige, at lønforhandlingerne nærmer sig, og at du synes, du fortjener en bedre betaling for din indsats. For at vise din chef, hvor ihærdig og alsidig du er, vil du gerne fortælle ham lidt om de projekter, du har deltaget i det seneste år.
 
 1. Klik på knappen **Søg**.
 
-2. Klik på **Find salg**.
+1. Klik på **Find salg**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-user-circle" aria-hidden="true"></i> **Person** og derefter på **Efternavn**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-user-circle" aria-hidden="true"></i> **Person** og derefter på **Efternavn**.
 
-6. I den anden rullemenu vælger du **Er lig med**.
+1. I den anden rullemenu vælger du **Er lig med**.
 
-7. I det tredje felt indtaster du dit efternavn.
+1. I det tredje felt indtaster du dit efternavn.
 
-8. Du har nu angivet, at du vil søge efter projekter, du har deltaget i, men vi er ikke færdige. Vi vil også angive en periode.
+1. Du har nu angivet, at du vil søge efter projekter, du har deltaget i, men vi er ikke færdige. Vi vil også angive en periode.
 
-9. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** og derefter på **Fra dato**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** og derefter på **Fra dato**.
 
-11. I den anden rullemenu vælger du **Efter**.
+1. I den anden rullemenu vælger du **Efter**.
 
-12. I den tredje rullemenu angiver du startdatoen for den ønskede periode.
+1. I den tredje rullemenu angiver du startdatoen for den ønskede periode.
 
-13. Du har nu angivet, at du vil søge efter de projekter, du har deltaget i fra en bestemt dato og frem til i dag.
+1. Du har nu angivet, at du vil søge efter de projekter, du har deltaget i fra en bestemt dato og frem til i dag.
 
-14. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-15. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex5"></a>Eksempel 5: søgning efter gennemførte markedsføringstiltag
 
@@ -233,43 +217,39 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 
 1. Klik på knappen **Søg**.
 
-2. Klik på **Find salg**.
+1. Klik på **Find salg**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Opfølgning** og derefter på **Hensigt**.
+1. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Opfølgning** og derefter på **Hensigt**.
 
-6. I den anden liste vælger du **Er en af**.
+1. I den anden liste vælger du **Er en af**.
 
-7. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Markedsføring**.
+1. Klik i feltet **Vælg elementer** til højre for feltet **Er en af**, og vælg **Markedsføring**.
 
-8. Du har nu angivet, at du vil søge opfølgninger knyttet til markedsføring, men vi er ikke færdige. Vi vil også angive en periode.
+1. Du har nu angivet, at du vil søge opfølgninger knyttet til markedsføring, men vi er ikke færdige. Vi vil også angive en periode.
 
-9. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Slutdato**.
+1. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Slutdato**.
 
-11. I den anden liste vælger du **Forrige**.
+1. I den anden liste vælger du **Forrige**.
 
-12. I den tredje liste skal du skrive 1.
+1. I den tredje liste skal du skrive 1.
 
-13. Vælg **Kvartal(er)** på den fjerde liste.
+1. Vælg **Kvartal(er)** på den fjerde liste.
 
-14. Du har nu angivet, at du vil søge efter opfølgninger med markedsføring som hensigt i forrige kvartal, men vi er ikke færdige endnu. Vi vil også begrænse søgningen til udførte opfølgninger.
+1. Du har nu angivet, at du vil søge efter opfølgninger med markedsføring som hensigt i forrige kvartal, men vi er ikke færdige endnu. Vi vil også begrænse søgningen til udførte opfølgninger.
 
-15. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-16. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Udført**.
+1. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Udført**.
 
-17. Marker indstillingen **Ja**. Du har nu angivet, at du vil søge efter opfølgninger, der er sat til **Udført**.
+1. Marker indstillingen **Ja**. Du har nu angivet, at du vil søge efter opfølgninger, der er sat til **Udført**.
 
-18. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-19. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## Relateret indhold
 

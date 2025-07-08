@@ -25,26 +25,26 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 
 1. Klicka på **Sök**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
 
-2. Klicka på den typ av post du vill söka efter eller klicka på **Vanliga sökningar** för att visa en lista med fördefinierade sökningar. Fliken **Kriterier** öppnas.
+1. Klicka på den typ av post du vill söka efter eller klicka på **Vanliga sökningar** för att visa en lista med fördefinierade sökningar. Fliken **Kriterier** öppnas.
 
-3. Fönstret **Sök** innehåller fördefinierade sökkriterier, eller de sökkriterier som du använde senast. Gör något av följande:
+1. Fönstret **Sök** innehåller fördefinierade sökkriterier, eller de sökkriterier som du använde senast. Gör något av följande:
 
     * Klicka på <i class="ph ph-x-circle" aria-label="X"></i> för att bort kriterier som du inte vill använda.
     * Klicka på knappen **Lägg till** för att lägga till nya sökkriterier. Då läggs en ny rad till i kriterielistan.
 
-4. Välj i vilket fält du vill söka efter information i den första listrutan på linjen. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns [flera typer av fält][3].
+1. Välj i vilket fält du vill söka efter information i den första listrutan på linjen. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns [flera typer av fält][3].
 
     Till exempel, välj **Kontakt** och **Efternamn** om du vill söka efter kontakter eller **Projekt** och **Arrangemangsdatum** för att söka efter projekt.
 
-5. Välj värden för sökkriterierna i de nästa fälten på raden.
+1. Välj värden för sökkriterierna i de nästa fälten på raden.
 
-6. Du kan klicka på **Lägg till** under kriterielistan igen om du vill ange fler sökkriterier. En ny rad läggs till i kriterielistan och du upprepar steg 4 och 5.
+1. Du kan klicka på **Lägg till** under kriterielistan igen om du vill ange fler sökkriterier. En ny rad läggs till i kriterielistan och du upprepar steg 4 och 5.
 
-7. Om du vill flytta sökkriterier, klickar du och drar <i class="ph ph-equals" aria-label="="></i>.
+1. Om du vill flytta sökkriterier, klickar du och drar <i class="ph ph-equals" aria-label="="></i>.
 
-8. Klicka på **Eller** för att lägga till en annan uppsättning kriterier.
+1. Klicka på **Eller** för att lägga till en annan uppsättning kriterier.
 
-9. När du har angett och aktiverat önskade sökkriterier klickar du på knappen **Sök**. Fliken **Resultat** öppnas med resultaten som matchar sökkriterierna.
+1. När du har angett och aktiverat önskade sökkriterier klickar du på knappen **Sök**. Fliken **Resultat** öppnas med resultaten som matchar sökkriterierna.
 
 > [!TIP]
 > Om du till exempel vill söka efter alla företag kan du använda procenttecknet (%) när du [lägger till sökkriterier][3] för **Företag**.
@@ -91,82 +91,73 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 1. Klicka på **Sök**-knappen.
 
-2. Klicka på **Sök företag**.
+1. Klicka på **Sök företag**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) och sedan **Belopp**.
+1. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) och sedan **Belopp**.
 
-6. I listrutan till höger om **Belopp** klickar du på <i class="ph ph-caret-down" aria-label="Chevron"></i> och väljer **>** (större än).
+1. I listrutan till höger om **Belopp** klickar du på <i class="ph ph-caret-down" aria-label="Chevron"></i> och väljer **>** (större än).
 
-7. I det sista fältet på raden skriver du in minimibeloppet. Till exempel "100 000".
+1. I det sista fältet på raden skriver du in minimibeloppet. Till exempel "100 000".
 
-8. Du har nu angett att du vill söka efter företag med en försäljning på över 100 000 kr, men vi är inte färdiga. Vi vill också ange period.
+1. Du har nu angett att du vill söka efter företag med en försäljning på över 100 000 kr, men vi är inte färdiga. Vi vill också ange period.
 
-9. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning**, och sedan **Registreringsdatum**.
+1. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning**, och sedan **Registreringsdatum**.
 
-11. I den andra listrutan klickar du på pilen och sedan **Mellan**.
+1. I den andra listrutan klickar du på pilen och sedan **Mellan**.
 
-12. I den tredje listrutan anger du startdatum för önskad period och i den fjärde listrutan anger du slutdatum för önskad period.
+1. I den tredje listrutan anger du startdatum för önskad period och i den fjärde listrutan anger du slutdatum för önskad period.
 
-13. Du har nu angett att du vill söka efter företag med en försäljning på över 100 000 under den period du angett. Men vi är inte färdiga ännu, vi vill även begränsa sökningen till försäljningar med statusen **Såld**.
+1. Du har nu angett att du vill söka efter företag med en försäljning på över 100 000 under den period du angett. Men vi är inte färdiga ännu, vi vill även begränsa sökningen till försäljningar med statusen **Såld**.
 
-14. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-15. I listan som visas skriver du "Status" för att snabbsöka i fältet.
+1. I listan som visas skriver du "Status" för att snabbsöka i fältet.
 
-16. I listan som visas väljer du **Försäljning** –**Status** (med försäljningsikonen framför).
+1. I listan som visas väljer du **Försäljning** –**Status** (med försäljningsikonen framför).
 
-17. I den andra listrutan väljer du **Är en av**.
+1. I den andra listrutan väljer du **Är en av**.
 
-18. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Såld**.
+1. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Såld**.
 
-19. Du har nu angett att du vill söka efter företag med en försäljning över ett visst belopp under en viss period och med statusen **Såld**.
+1. Du har nu angett att du vill söka efter företag med en försäljning över ett visst belopp under en viss period och med statusen **Såld**.
 
-20. [!include[Click Find](includes/run-search.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-21. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2"></a>Exempel 2: söka efter kunder i Danmark som du har ansvaret för
 
 Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du passa på att besöka några kunder samtidigt. Du börjar planeringen genom att söka fram alla kunder i Danmark som du har ansvaret för.
 
 1. Klicka på **Sök**-knappen.
 
-2. Klicka på **Sök företag**.
+1. Klicka på **Sök företag**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Företag** (<i class="ph ph-buildings" aria-hidden="true"></i>) och sedan **Land**.
+1. [!include[Select field](includes/select-field.md)]: Klicka först på **Företag** (<i class="ph ph-buildings" aria-hidden="true"></i>) och sedan **Land**.
 
-6. I den andra listrutan väljer du **Är en av**.
+1. I den andra listrutan väljer du **Är en av**.
 
-7. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Danmark**.
+1. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Danmark**.
 
-8. Du har nu angett att du vill söka efter företag i Danmark, men vi är inte färdiga. Vi vill begränsa sökningen till företag i Danmark som du har ansvaret för.
+1. Du har nu angett att du vill söka efter företag i Danmark, men vi är inte färdiga. Vi vill begränsa sökningen till företag i Danmark som du har ansvaret för.
 
-9. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-10. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Företag**, och sedan **Vår kontakt**.
+1. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Företag**, och sedan **Vår kontakt**.
 
-11. I den andra listrutan väljer du **Aktuell användare**. Ditt namn visas i det sista fältet på raden.
+1. I den andra listrutan väljer du **Aktuell användare**. Ditt namn visas i det sista fältet på raden.
 
-12. Du har nu angett att du vill söka efter företag i Danmark, som har dig som kontakt.
+1. Du har nu angett att du vill söka efter företag i Danmark, som har dig som kontakt.
 
-13. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-14. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex3"></a>Exempel 3: söka efter sålda försäljningar
 
@@ -174,58 +165,51 @@ Säg att du är ansvarig för ett företag och vill ta reda på vilken typ av f�
 
 1. Klicka på **Sök**-knappen.
 
-2. Klicka på **Sök försäljning**.
+1. Klicka på **Sök försäljning**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Försäljning** och sedan **Status**.
+1. [!include[Select field](includes/select-field.md)]: Klicka först på **Försäljning** och sedan **Status**.
 
-6. I den andra listrutan väljer du **Är en av**.
+1. I den andra listrutan väljer du **Är en av**.
 
-7. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Såld**. Du har nu angett att du vill söka efter slutförda försäljningar.
+1. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Såld**. Du har nu angett att du vill söka efter slutförda försäljningar.
 
-8. [!include[Click Find](includes/run-search.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
-9. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4"></a>Exempel 4: söka efter projekt du har deltagit i under det senaste året
 
 Säg nu att det börjar bli dags för löneförhandlingar och att du anser att du bör få bättre betalt för din insats. För att visa din chef hur ihärdig och allsidig du är vill du berätta för honom eller henne om de projekt du har deltagit i det senaste året.
 
 1. Klicka på **Sök**-knappen.
 
-2. Klicka på **Sök försäljning**.
+1. Klicka på **Sök försäljning**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-user-circle" aria-hidden="true"></i> **Kontakt** och sedan **Efternamn**.
+1. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-user-circle" aria-hidden="true"></i> **Kontakt** och sedan **Efternamn**.
 
-6. I den andra listrutan väljer du **Är lika med**.
+1. I den andra listrutan väljer du **Är lika med**.
 
-7. I det tredje fältet skriver du in ditt efternamn.
+1. I det tredje fältet skriver du in ditt efternamn.
 
-8. Du har nu angett att du vill söka efter projekt som du har deltagit i, men vi är inte färdiga. Vi vill också ange period.
+1. Du har nu angett att du vill söka efter projekt som du har deltagit i, men vi är inte färdiga. Vi vill också ange period.
 
-9. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** och sedan **Från-datum**.
+1. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** och sedan **Från-datum**.
 
-11. I den andra listrutan väljer du **Efter**.
+1. I den andra listrutan väljer du **Efter**.
 
-12. I den tredje listrutan anger du startdatum för önskad period.
+1. I den tredje listrutan anger du startdatum för önskad period.
 
-13. Du har nu angett att du vill söka efter projekt som du har deltagit i från ett visst datum och fram till idag.
+1. Du har nu angett att du vill söka efter projekt som du har deltagit i från ett visst datum och fram till idag.
 
-14. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-15. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex5"></a>Exempel 5: söka efter genomförda marknadsföringsåtgärder
 
@@ -233,43 +217,39 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 1. Klicka på **Sök**-knappen.
 
-2. Klicka på **Sök försäljning**.
+1. Klicka på **Sök försäljning**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Händelse** och sedan **Syfte**.
+1. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Händelse** och sedan **Syfte**.
 
-6. I den andra listrutan väljer du **Är en av**.
+1. I den andra listrutan väljer du **Är en av**.
 
-7. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Marknadsföring**.
+1. Klicka i fältet **Välj objekt** till höger om fältet **Är en av** och välj **Marknadsföring**.
 
-8. Du har nu angett att du vill söka efter händelser kopplade till marknadsföring, men vi är inte färdiga. Vi vill också ange period.
+1. Du har nu angett att du vill söka efter händelser kopplade till marknadsföring, men vi är inte färdiga. Vi vill också ange period.
 
-9. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicka först på **Händelse**, och sedan **Slutdatum**.
+1. [!include[Select field](includes/select-field.md)]. Klicka först på **Händelse**, och sedan **Slutdatum**.
 
-11. I den andra listrutan väljer du **Föregående**.
+1. I den andra listrutan väljer du **Föregående**.
 
-12. I den tredje listrutan anger du 1.
+1. I den tredje listrutan anger du 1.
 
-13. I den fjärde listrutan väljer du **Kvartal**.
+1. I den fjärde listrutan väljer du **Kvartal**.
 
-14. Du har nu angett att du vill söka efter händelser med marknadsföring som syfte under det föregående kvartalet, men vi är inte färdiga ännu. Vi vill också begränsa sökningen till slutförda händelser.
+1. Du har nu angett att du vill söka efter händelser med marknadsföring som syfte under det föregående kvartalet, men vi är inte färdiga ännu. Vi vill också begränsa sökningen till slutförda händelser.
 
-15. Klicka på **Lägg till**.
+1. Klicka på **Lägg till**.
 
-16. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Händelse** och sedan **Slutförd**.
+1. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Händelse** och sedan **Slutförd**.
 
-17. Markera **Ja**. Du har nu angett att du vill söka efter händelser som har statusen **Slutförd**.
+1. Markera **Ja**. Du har nu angett att du vill söka efter händelser som har statusen **Slutförd**.
 
-18. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-19. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## Vad vill du göra nu?
 

@@ -103,13 +103,6 @@ Denne søgning giver dig en liste over alle de aktiviteter, du endnu ikke har ud
 
 Typiske søgninger er der for at hjælpe dig med at komme i gang og oprette din egen søgning efter CRM-data. Når du har valgt en typisk søgning, kan du tilføje og redigere søgekriterierne. Og når du har oprettet en nyttig søgning, som du gerne vil bruge igen, kan du gemme den som et udvalg.
 
-Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(videolængde – 3:01)
-
 ## <a id="search-to-selection"></a>Opret en søgning, og gem den som et udvalg
 
 Et udvalg er en liste over data, der deler et eller flere søgekriterier. Det kan senere bruges til at udføre en række handlinger. I denne guide forklarer vi, hvordan du kan oprette en søgning og gemme den som et udvalg.

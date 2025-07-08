@@ -2,10 +2,13 @@
 uid: help-en-search-criteria
 title: Working with search criteria
 description: How to add and modify search criteria
+keywords: search, criteria, find
 author: Bergfrid Dias
 date: 05.25.2023
-keywords: search, criteria, find
+version: 10.5.2
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -28,10 +31,10 @@ Watch this video to learn how to do a typical search and modify it by adding new
     * Click **Find** in the top bar. The criteria list is in the **Criteria** tab.
     * Or, go to the required selection and select the **Criteria** tab.
 
-2. Click the **Add** button.
+1. Click the **Add** button.
     A new line is added to the criteria list and a list of fields to choose from is displayed.
 
-3. Select the field you want to search for information in. You can also [enter the start of the name][2] in the appropriate field. There are different types of fields:
+1. Select the field you want to search for information in. You can also [enter the start of the name][2] in the appropriate field. There are different types of fields:
 
     * [Text](#text)
     * [Yes/No](#yes-no)
@@ -41,9 +44,9 @@ Watch this video to learn how to do a typical search and modify it by adding new
     * [Status](#status)
     * [Counter](#counter)
 
-4. Select values for the search criteria in the various fields on the line.
+1. Select values for the search criteria in the various fields on the line.
 
-5. Click **Add** to add a new line, or click **Or** to add a new set of criteria.
+1. Click **Add** to add a new line, or click **Or** to add a new set of criteria.
 
 ## Field types
 
@@ -51,7 +54,15 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
-[!include[Search criteria](includes/list-search-criteria.md)]
+* Starts with
+* Contains
+* Ends with
+* Equals
+* Is exactly
+* Does not begin with
+* Does not contain
+* Does not end with
+* Is not
 
 Select one of these options and then enter the search criteria in the text field on the right.
 
@@ -63,7 +74,19 @@ If the field you are searching in is a Yes/No field, for example, the **No maili
 
 If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
-[!include[Search criteria](includes/list-date-criteria.md)]
+* Before
+* Equals
+* After
+* Between
+* Before today
+* Today
+* After today
+* This...
+* This and next...
+* Next...
+* This and previous...
+* Previous...
+* This, previous and next...
 
 Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
@@ -71,7 +94,15 @@ Select the required option. Depending on what you select, the field is automatic
 
 If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
-[!include[Search criteria](includes/table-number-criteria.md)]
+| Option | Description |
+|---|---|
+| = | Equals |
+| &gt; | Greater than |
+| &lt; | Less than |
+| &gt;= | Greater than or equals |
+| &lt;= | Less than or equals |
+| &lt; &gt; | Does not equal |
+| Between | The value lies between specified figures |
 
 Select the required option and enter the required numerical value in the text field on the right.
 

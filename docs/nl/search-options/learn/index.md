@@ -103,13 +103,6 @@ Deze zoekopdracht produceert een lijst met alle activiteiten die u nog niet hebt
 
 Frequente zoekacties zijn er om u te helpen aan de slag te gaan en uw eigen zoekopdracht voor CRM-gegevens te maken. Nadat u een frequente zoekactie hebt geselecteerd, kunt u de zoekcriteria toevoegen en bewerken. En nadat u een nuttige zoekopdracht hebt gemaakt die u opnieuw wilt gebruiken, kunt u deze opslaan als een selectie.
 
-Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wijzigt door nieuwe zoekcriteria toe te voegen of volg de stapsgewijze handleiding hieronder:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(duur van de video - 3:01)
-
 ## <a id="search-to-selection"></a>Een zoekopdracht maken en opslaan als een selectie
 
 Een selectie is een lijst met gegevens die een of meer zoekcriteria deelt. Het kan later worden gebruikt om een aantal acties uit te voeren. In deze gids leggen we uit hoe u een zoekopdracht kunt maken en deze als selectie kunt opslaan.
