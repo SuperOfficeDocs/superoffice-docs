@@ -103,13 +103,6 @@ Durch diese Suche erhalten Sie eine Liste aller Aktivitäten, die Sie noch nicht
 
 Typische Suchanfragen sollen Ihnen den Einstieg und die Erstellung Ihrer eigenen Suche nach CRM-Daten erleichtern. Nachdem Sie eine typische Suchanfrage ausgewählt haben, können Sie die Suchkriterien hinzufügen und bearbeiten. Und nachdem Sie eine nützliche Suche erstellt haben, die Sie erneut verwenden möchten, können Sie diese als Selektion speichern.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage durchführen und ändern können, indem Sie neue Suchkriterien hinzufügen oder der folgenden Schritt-für-Schritt-Anleitung folgen:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(Videolänge – 3:01)
-
 ## <a id="search-to-selection"></a>Suche erstellen und als Selektion speichern
 
 Eine Selektion ist eine Liste von Daten, die ein oder mehrere Suchkriterien gemeinsam haben. Sie kann später verwendet werden, um eine Reihe von Aktionen auszuführen. In dieser Anleitung erklären wir Ihnen, wie Sie eine Suchanfrage erstellen und als Selektion speichern können.

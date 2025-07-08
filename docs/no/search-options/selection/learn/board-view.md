@@ -168,7 +168,7 @@ Bruk gruppering kreativt for å organisere og handle effektivt på data.
 
 <!-- Refererte lenker -->
 [1]: create.md
-[2]: selections.md
+[2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

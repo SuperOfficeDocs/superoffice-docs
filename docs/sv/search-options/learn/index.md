@@ -103,13 +103,6 @@ Denna sökning ger dig en lista över alla aktiviteter som du inte har slutfört
 
 Vanliga sökningar finns där för att hjälpa dig att komma igång och skapa din egen sökning efter CRM-data. När du har valt en vanlig sökning, kan du lägga till och redigera sökkriterier. Och när du har skapat en användbar sökning som du vill använda igen, kan du spara den som ett urval.
 
-Titta på den här videon för att lära dig hur du gör en vanlig sökning och ändrar den genom att lägga till nya sökkriterier eller följ steg-för-steg-guiden nedan:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(videolängd - 3:01)
-
 ## <a id="search-to-selection"></a>Skapa en sökning och spara den som ett urval
 
 Ett urval är en lista med data som delar ett eller flera sökkriterier. Det kan senare användas för att utföra ett antal åtgärder. I den här guiden förklarar vi hur du kan skapa en sökning och spara den som ett urval.

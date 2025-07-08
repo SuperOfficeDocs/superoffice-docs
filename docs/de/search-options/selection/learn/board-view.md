@@ -168,7 +168,7 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 
 <!-- Referenzierte Links -->
 [1]: create.md
-[2]: selections.md
+[2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 
