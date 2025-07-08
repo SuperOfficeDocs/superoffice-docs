@@ -25,26 +25,26 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 1. Click the **Find** button (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) on the [top bar][1].
 
-2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
+1. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 
-3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Do one of the following:
+1. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Do one of the following:
 
     * Click <i class="ph ph-x-circle" aria-label="X"></i> to remove any criteria you do not want to use.
     * Click the **Add** button to add new search criteria. A new line is added to the criteria list.
 
-4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]. There are [different types of fields][3].
+1. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]. There are [different types of fields][3].
 
     For example, select **Contact** and **Last name** to search for contacts, or **Project** and **Event date** to search for projects.
 
-5. Select values for the search criteria in the next fields on the line.
+1. Select values for the search criteria in the next fields on the line.
 
-6. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
+1. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
 
-7. To move criteria, click and drag <i class="ph ph-equals" aria-label="="></i>.
+1. To move criteria, click and drag <i class="ph ph-equals" aria-label="="></i>.
 
-8. Click **Or** to add a another set of criteria.
+1. Click **Or** to add a another set of criteria.
 
-9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the results matching the search criteria.
+1. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the results matching the search criteria.
 
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
@@ -89,82 +89,73 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 1. Click the **Find** button.
 
-2. Click **Find company**.
+1. Click **Find company**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Click **Add**.
+1. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Sale** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>), and then **Amount**.
+1. [!include[Select field](includes/select-field.md)] First click **Sale** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>), and then **Amount**.
 
-6. In the list to the right of **Amount**, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **&gt;** (greater than).
+1. In the list to the right of **Amount**, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **&gt;** (greater than).
 
-7. In the last field on the line, enter the minimum amount. For example, "100 000".
+1. In the last field on the line, enter the minimum amount. For example, "100 000".
 
-8. You have now specified that you want to find companies with sales above the amount you entered, but we have not quite finished. We also want to specify a period.
+1. You have now specified that you want to find companies with sales above the amount you entered, but we have not quite finished. We also want to specify a period.
 
-9. Click **Add**.
+1. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Registered date**.
+1. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Registered date**.
 
-11. In the second list box, click to expand and select **Between**.
+1. In the second list box, click to expand and select **Between**.
 
-12. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
+1. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
 
-13. You have now specified that you want to find companies with sales over 100 000 within the period you defined. But, we also want to restrict the search to sales with the status **Sold**.
+1. You have now specified that you want to find companies with sales over 100 000 within the period you defined. But, we also want to restrict the search to sales with the status **Sold**.
 
-14. Click **Add**.
+1. Click **Add**.
 
-15. In the list that appears, enter "Status" to FastSearch in the field.
+1. In the list that appears, enter "Status" to FastSearch in the field.
 
-16. From the list that is displayed, select **Sale** - **Status** (with the sale icon in front of it).
+1. From the list that is displayed, select **Sale** - **Status** (with the sale icon in front of it).
 
-17. In the second list box, select **Is one of**.
+1. In the second list box, select **Is one of**.
 
-18. Click the **Select items** field to the right of the **Is one of** field and select **Sold**.
+1. Click the **Select items** field to the right of the **Is one of** field and select **Sold**.
 
-19. You have now specified that you want to find companies with sales above a specific amount, within a specific date range and that have status **Sold**.
+1. You have now specified that you want to find companies with sales above a specific amount, within a specific date range and that have status **Sold**.
 
-20. [!include[Click Find](includes/run-search.md)]
+. [!include[Click Find](includes/run-search.md)]
 
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-21. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2"></a>Example 2: search for customers in Denmark who you are responsible for
 
 Imagine you are going to attend a conference in Denmark. When you are there, you also want to use the opportunity to visit some customers. You start your planning by searching for all customers in Denmark who you are responsible for.
 
 1. Click the **Find** button.
 
-2. Click **Find company**.
+1. Click **Find company**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Click **Add**.
+1. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-buildings" aria-hidden="true"></i> **Company** , and then **Country**.
+1. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-buildings" aria-hidden="true"></i> **Company** , and then **Country**.
 
-6. In the second list box, select **Is one of**.
+1. In the second list box, select **Is one of**.
 
-7. Click the **Select items** field to the right of the **Is one of** field, and select **Denmark**.
+1. Click the **Select items** field to the right of the **Is one of** field, and select **Denmark**.
 
-8. You have now specified that you want to find companies in Denmark, but we have not quite finished. We want to restrict the search to companies in Denmark who you are responsible for.
+1. You have now specified that you want to find companies in Denmark, but we have not quite finished. We want to restrict the search to companies in Denmark who you are responsible for.
 
-9. Click **Add**.
+1. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Company**, and then **Our contact**.
+1. [!include[Select field](includes/select-field.md)] First click **Company**, and then **Our contact**.
 
-11. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
+1. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
 
-12. You have now specified that you want to find companies in Denmark for which you are the contact.
+1. You have now specified that you want to find companies in Denmark for which you are the contact.
 
-13. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-14. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex3"></a>Example 3: search for sold sales
 
@@ -172,58 +163,51 @@ Let's assume you are the manager of a company and want to find out what types of
 
 1. Click the **Find** button.
 
-2. Click **Find sale**.
+1. Click **Find sale**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Click **Add**.
+1. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Status**.
+1. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Status**.
 
-6. In the second list box, select **Is one of**.
+1. In the second list box, select **Is one of**.
 
-7. Click the **Select items** field to the right of the **Is one of** field, and select **Sold**. You have now specified that you want to search for completed sales.
+1. Click the **Select items** field to the right of the **Is one of** field, and select **Sold**. You have now specified that you want to search for completed sales.
 
-8. [!include[Click Find](includes/run-search.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
-9. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4"></a>Example 4: search for projects you have participated in during the last year
 
 Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell them about the projects you have been involved in in the last year.
 
 1. Click the **Find** button.
 
-2. Click **Find sale**.
+1. Click **Find sale**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Click **Add**.
+1. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-user-circle" aria-hidden="true"></i> **Contact**, and then **Last name**.
+1. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-user-circle" aria-hidden="true"></i> **Contact**, and then **Last name**.
 
-6. In the second list box, select **Equals**.
+1. In the second list box, select **Equals**.
 
-7. In the third field, enter your last name.
+1. In the third field, enter your last name.
 
-8. You have now specified that you want to find projects you have participated in, but we have not quite finished. We also want to specify a period.
+1. You have now specified that you want to find projects you have participated in, but we have not quite finished. We also want to specify a period.
 
-9. Click **Add**.
+1. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Project**, and then **From date**.
+1. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Project**, and then **From date**.
 
-11. In the second list box, select **After**.
+1. In the second list box, select **After**.
 
-12. In the third list box, enter the start date for the period you require.
+1. In the third list box, enter the start date for the period you require.
 
-13. You have now specified that you want to find projects you have participated in, from a specific date up to today.
+1. You have now specified that you want to find projects you have participated in, from a specific date up to today.
 
-14. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-15. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## <a id="ex5"></a>Example 5: search for marketing initiatives undertaken
 
@@ -231,43 +215,39 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 1. Click the **Find** button.
 
-2. Click **Find sale**.
+1. Click **Find sale**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]
+1. [!include[Clear criteria](includes/clear-criteria.md)]
 
-4. Click **Add**.
+1. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Follow-up**, and then **Intention**.
+1. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Follow-up**, and then **Intention**.
 
-6. In the second list box, select **Is one of**.
+1. In the second list box, select **Is one of**.
 
-7. Click the **Select items** field to the right of the **Is one of** field, and select **Marketing**.
+1. Click the **Select items** field to the right of the **Is one of** field, and select **Marketing**.
 
-8. You have now specified that you want to find marketing-related follow-ups, but we have not quite finished. We also want to specify a period.
+1. You have now specified that you want to find marketing-related follow-ups, but we have not quite finished. We also want to specify a period.
 
-9. Click **Add**.
+1. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **End date**.
+1. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **End date**.
 
-11. In the second list box, select **Previous**.
+1. In the second list box, select **Previous**.
 
-12. In the third list box, enter 1.
+1. In the third list box, enter 1.
 
-13. In the fourth list box, select **Quarter(s)**.
+1. In the fourth list box, select **Quarter(s)**.
 
-14. You have now specified that you want to find follow-ups intended for marketing, in the last quarter, but we are still not quite finished. We also want to restrict the search to completed follow-ups.
+1. You have now specified that you want to find follow-ups intended for marketing, in the last quarter, but we are still not quite finished. We also want to restrict the search to completed follow-ups.
 
-15. Click **Add**.
+1. Click **Add**.
 
-16. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **Completed**.
+1. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **Completed**.
 
-17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
+1. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
-18. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-19. [!include[Explore results](includes/use-results.md)]
+1. [!include[Click Find](includes/run-search.md)]
 
 ## What would you like to do now?
 

@@ -168,7 +168,7 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 
 <!-- Verwijzingen -->
 [1]: create.md
-[2]: selections.md
+[2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 

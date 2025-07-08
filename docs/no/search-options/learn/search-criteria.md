@@ -2,10 +2,13 @@
 uid: help-no-search-criteria
 title: Bruke søkekriterier
 description: Bruke søkekriterier
+keywords: søk, kriterier, finn
 author: Bergfrid Dias
 date: 03.28.2023
-keywords: søk, kriterier, finn
+version: 10.5.2
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -30,10 +33,10 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
     * Klikk på **Finn** i toppraden. Kriterielisten finnes i fanen **Kriterier**.
     * Du kan også gå til ønsket utvalg og velge fanen **Kriterier**.
 
-2. Klikk på **Legg til**-knappen.
+1. Klikk på **Legg til**-knappen.
     Det legges til en ny linje i kriterielisten, og det vises en liste med felt å velge mellom.
 
-3. Velg feltet du vil søke etter informasjon i. Du kan også [angi starten på navnet][2] i ønsket felt. Det finnes ulike typer felt:
+1. Velg feltet du vil søke etter informasjon i. Du kan også [angi starten på navnet][2] i ønsket felt. Det finnes ulike typer felt:
 
     * [Tekst](#text)
     * [Ja/Nei](#yes-no)
@@ -43,9 +46,9 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
     * [Status](#status)
     * [Teller](#counter)
 
-4. Velg verdier for søkekriteriene i de ulike feltene på linjen.
+1. Velg verdier for søkekriteriene i de ulike feltene på linjen.
 
-5. Klikk på **Legg til** for å legge til en ny linje, eller klikk på **Eller** for å legge til et nytt sett med kriterier.
+1. Klikk på **Legg til** for å legge til en ny linje, eller klikk på **Eller** for å legge til et nytt sett med kriterier.
 
 ## Felttyper
 
@@ -53,7 +56,15 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 
 Hvis feltet du søker i, er et tekstfelt (for eksempel et navn), søkes det etter tekst eller tall du skriver inn. En liste med følgende alternativer vises:
 
-[!include[Search criteria](includes/list-search-criteria.md)]
+* Begynner med
+* Inneholder
+* Slutter med
+* Er lik
+* Er nøyaktig lik
+* Begynner ikke med
+* Inneholder ikke
+* Slutter ikke med
+* Er ikke
 
 Velg ett av disse alternativene, og skriv deretter inn søkekriterier i tekstfeltet til høyre.
 
@@ -65,7 +76,19 @@ Hvis feltet du søker i er et Ja/nei-felt, for eksempel feltet **Ingen utsendels
 
 Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument** vises en liste med følgende alternativer:
 
-[!include[Search criteria](includes/list-date-criteria.md)]
+* Før
+* Er lik
+* Etter
+* Mellom
+* Før i dag
+* I dag
+* Etter i dag
+* Denne ...
+* Denne og neste ...
+* Neste ...
+* Denne og forrige ...
+* Forrige ...
+* Denne, forrige og neste ...
 
 Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
@@ -73,7 +96,15 @@ Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut 
 
 Hvis feltet du søker i inneholder en numerisk verdi, for eksempel feltet **Beløp** i skjermbildet Salg, vises en liste med følgende alternativer:
 
-[!include[Search criteria](includes/table-number-criteria.md)]
+| Alternativ | Beskrivelse |
+|---|---|
+| = | Er lik |
+| > | Større enn |
+| < | Mindre enn |
+| >= | Større enn eller lik |
+| <= | Mindre enn eller lik |
+| < > | Er ikke lik |
+| Mellom | Verdien ligger mellom to angitte tall |
 
 Velg ønsket alternativ, og skriv inn ønsket tallverdi i tekstfeltet til høyre.
 
@@ -129,11 +160,13 @@ Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier ell
 >
 > Et deaktivert søkekriterium blir stående på listen over kriterier og kan enkelt aktiveres igjen.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
-* [Bruke Finn-skjermbildet][1]
+* [Finn-skjermbildet][1]
+* [Utvalg][4]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
+[4]: ../selection/learn/index.md

@@ -106,13 +106,6 @@ Dette søket gir deg en liste over alle aktivitetene du ikke har fullført ennå
 
 Vanlige søk hjelper deg å komme i gang og opprette ditt eget søk etter CRM-data. Når du har valgt et vanlig søk, kan du legge til og redigere søkekriteriene. Og når du har opprettet et nyttig søk som du vil bruke igjen, kan du lagre det som et utvalg.
 
-Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved å legge til nye søkekriterier, eller følg den trinn-for-trinn-veiledningen nedenfor:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-(videolengde – 3:01)
-
 ## <a id="search-to-selection"></a>Opprett et søk og lagre det som et utvalg
 
 Et utvalg er en liste med data som deler ett eller flere søkekriterier. Det kan senere brukes til å utføre en rekke handlinger. I denne veiledningen forklarer vi hvordan du kan opprette et søk og lagre det som et utvalg.

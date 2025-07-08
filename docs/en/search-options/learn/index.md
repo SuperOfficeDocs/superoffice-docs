@@ -103,11 +103,6 @@ This search will give you a list of all the activities that you have not complet
 
 Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you'd like to use again, you can save it as a selection.
 
-Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
 ## <a id="search-to-selection"></a>Create a search and save it as a selection
 
 A selection is a list of data that shares one or more search criteria. It can be used to perform a number of actions. In this guide we will explain how you can create a search and save it as a selection.

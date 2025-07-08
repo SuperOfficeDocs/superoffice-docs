@@ -25,26 +25,26 @@ Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På
 
 1. Klikk på **Finn**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
 
-2. Klikk på typen post du vil søke etter, eller klikk på **Vanlige søk** for å vise en liste over forhåndsdefinerte søk. Fanen **Kriterier** åpnes.
+1. Klikk på typen post du vil søke etter, eller klikk på **Vanlige søk** for å vise en liste over forhåndsdefinerte søk. Fanen **Kriterier** åpnes.
 
-3. Skjermbildet **Finn** inneholder forhåndsdefinerte søkekriterier, eller søkekriteriene du brukte forrige gang. Gjør ett av følgende:
+1. Skjermbildet **Finn** inneholder forhåndsdefinerte søkekriterier, eller søkekriteriene du brukte forrige gang. Gjør ett av følgende:
 
     * Klikk på <i class="ph ph-x-circle" aria-label="X"></i> for å fjerne eventuelle kriterier du ikke vil bruke.
     * Klikk **Legg til**-knappen for å legge til nye søkekriterier. En ny linje legges til i kriterielisten.
 
-4. I den første listeboksen på linjen velger du feltet du vil søke etter informasjon i. Du kan også [skrive inn starten på navnet i det aktuelle feltet][2]. Det finnes [forskjellige typer felt][3].
+1. I den første listeboksen på linjen velger du feltet du vil søke etter informasjon i. Du kan også [skrive inn starten på navnet i det aktuelle feltet][2]. Det finnes [forskjellige typer felt][3].
 
     Velg for eksempel **Person** og **Etternavn** for å søke etter personer, eller **Prosjekt-** og **Arrangementsdato** for å søke etter prosjekter.
 
-5. Velg verdier for søkekriteriene i de neste feltene på linjen.
+1. Velg verdier for søkekriteriene i de neste feltene på linjen.
 
-6. Du kan klikke på **Legg til** under kriterielisten på nytt for å angi flere søkekriterier. Da legges det til en ny linje i listen over kriterier, og du kan gjenta trinn 4 og 5.
+1. Du kan klikke på **Legg til** under kriterielisten på nytt for å angi flere søkekriterier. Da legges det til en ny linje i listen over kriterier, og du kan gjenta trinn 4 og 5.
 
-7. Hvis du vil flytte kriterier, klikk og dra <i class="ph ph-equals" aria-label="="></i>.
+1. Hvis du vil flytte kriterier, klikk og dra <i class="ph ph-equals" aria-label="="></i>.
 
-8. Klikk **Eller** for å legge til et annet sett med kriterier.
+1. Klikk **Eller** for å legge til et annet sett med kriterier.
 
-9. Når du har angitt og aktivert de søkekriteriene du ønsker, klikker du på **Finn**-knappen. Fanen **Resultater** åpnes med resultatene som samsvarer med søkekriteriene.
+1. Når du har angitt og aktivert de søkekriteriene du ønsker, klikker du på **Finn**-knappen. Fanen **Resultater** åpnes med resultatene som samsvarer med søkekriteriene.
 
 > [!TIP]
 > Hvis du for eksempel vil søke etter alle firmaer, kan du bruke prosenttegnet (%) når du [angir søkekriterier][3] for **Firma**.
@@ -129,11 +129,6 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 
 20. [!include[Click Find](includes/run-search.md)]
 
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-21. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2"></a>Eksempel 2: søk etter kunder i Danmark som du er ansvarlig for
 
 Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte anledningen til å besøke noen kunder. Du begynner planleggingen med å søke frem alle kundene i Danmark som du har ansvar for.
@@ -164,10 +159,6 @@ Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte 
 
 13. [!include[Click Find](includes/run-search.md)]
 
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-14. [!include[Explore results](includes/use-results.md)]
-
 ## <a id="ex3"></a>Eksempel 3: søk etter solgte (utførte) salg
 
 La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lykkes med, og hvorfor, slik at dere kan lære av det og lykkes med flere salg. Du begynner med å søke etter salg med statusen **Solgt**.
@@ -188,9 +179,6 @@ La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lyk
 
 8. [!include[Click Find](includes/run-search.md)]
 
-9. [!include[Explore results](includes/use-results.md)]
-
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4"></a>Eksempel 4: søk etter prosjekter du har deltatt i under det siste året
 
 La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å få bedre betalt for innsatsen din. For å vise sjefen din hvor iherdig og allsidig du er, vil du snakke om prosjektene du har vært involvert i det siste året.
@@ -222,10 +210,6 @@ La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å
 13. Nå har du angitt at du vil søke etter prosjekter du har deltatt i fra en gitt dato og frem til i dag.
 
 14. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-15. [!include[Explore results](includes/use-results.md)]
 
 ## <a id="ex5"></a>Eksempel 5: søk etter gjennomførte markedsføringsinitiativer
 
@@ -266,10 +250,6 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 17. Merk av for **Ja**. Du har nå angitt at du vil søke etter oppfølginger som er satt til **Utført**.
 
 18. [!include[Click Find](includes/run-search.md)]
-
-    [!include[TIP hits](includes/tip-adjust-criteria.md)]
-
-19. [!include[Explore results](includes/use-results.md)]
 
 ## Hva vil du gjøre nå?
 
