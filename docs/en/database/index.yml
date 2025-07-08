@@ -170,17 +170,17 @@ additionalContent:
       - title: Travel
         links:
         - text: Intro
-          url: ../travel/index.md
+          url: ../onsite/travel/index.md
         - text: How to activate Travel
-          url: ../travel/activate.md
+          url: ../onsite/travel/activate.md
         - text: What is an update prototype?
-          url: ../travel/update-prototype.md
+          url: ../onsite/travel/update-prototype.md
         - text: Travel gateway
-          url: ../travel/travel-gateway/index.md
+          url: ../onsite/travel/travel-gateway/index.md
         - text: Area management
-          url: ../travel/area-management/index.md
+          url: ../onsite/travel/area-management/index.md
         - text: Satellite
-          url: ../travel/satellite/index.md
+          url: ../onsite/travel/satellite/index.md
       # Card
       - title: Changes
         links:

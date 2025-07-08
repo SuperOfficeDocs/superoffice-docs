@@ -1,0 +1,60 @@
+items:
+- name: Overview
+  href: index.md
+- name: How to activate Travel
+  href: activate.md
+- name: What is an update prototype?
+  href: update-prototype.md
+- name: Database options
+  items:
+  - name: Built-in
+    items:
+    - name: Set up
+      href: built-in/set-up.md
+    - name: Create prototype
+      href: built-in/create-prototype.md
+  - name: MS SQL Express
+    items:
+    - name: Set up
+      href: sql-express/set-up.md
+    - name: Create prototype
+      href: sql-express/create-prototype.md
+  - name: Sybase
+    items:
+    - name: Set up
+      href: sybase/set-up.md
+    - name: Create prototype
+      href: sybase/create-prototype.md
+- name: Travel gateway
+  href: travel-gateway/index.md
+  items:
+  - name: SuperOffice Remote Travel Server
+    href: travel-gateway/sorts.md
+  - name: Install service
+    href: travel-gateway/install.md
+  - name: Schedule tasks
+    href: travel-gateway/schedule.md
+  - name: Activity types
+    href: travel-gateway/activity-types.md
+  - name: Troubleshooting
+    href: travel-gateway/troubleshooting.md
+  - name: Configuration
+    items:
+    - name: RemoteTravel.ini
+      href: travel-gateway/remotetravel-ini.md
+    - name: Username.ini
+      href: travel-gateway/username-ini.md
+- name: Area management
+  href: area-management/index.md
+  items:
+  - name: Terminology
+    href: area-management/terminology.md
+  - name: Set up
+    href: area-management/set-up.md
+- name: Satellite
+  href: satellite/index.md
+  items:
+  - name: Set up
+    href: satellite/set-up.md
+  - name: Troubleshooting
+    href: satellite/troubleshooting.md
