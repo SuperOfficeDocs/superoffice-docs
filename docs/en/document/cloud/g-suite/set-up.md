@@ -150,7 +150,7 @@ For Google Workspace specifically:
 <!-- Referenced links -->
 [1]: requirements.md
 [2]: security.md
-[3]: ../../../identity-management/superid/howto/register-idp.md
+[3]: ../../../online/identity/superid/howto/register-idp.md
 [4]: https://admin.google.com/ac/users
 [5]: https://accounts.google.com/
 [6]: https://cloudintegration.superoffice.com/app

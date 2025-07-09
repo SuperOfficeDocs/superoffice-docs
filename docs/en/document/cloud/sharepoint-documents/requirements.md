@@ -43,6 +43,6 @@ index: true
 * [!include[data rights](includes/req-data-rights.md)]
 
 <!-- Referenced links -->
-[2]: ../../../identity-management/federated-id-and-identity-providers.md
+[2]: ../../../online/identity/federated-id-and-identity-providers.md
 
 <!-- Referenced images -->

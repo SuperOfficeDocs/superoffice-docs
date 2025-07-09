@@ -46,4 +46,4 @@ We offer more than one way of signing in - and [the Identity Management section]
 [2]: system-requirements.md
 [3]: ../document/webtools/learn/install.md
 [4]: ../learn/getting-started/login.md
-[5]: ../identity-management/overview.md
+[5]: identity/overview.md

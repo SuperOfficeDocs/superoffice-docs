@@ -85,6 +85,6 @@ What happens when a user is being deleted by upstream source (Entra ID) or user 
 * After 30 days user is deleted in Entra ID and it sends DELETE command to SCIM API. When this happens SCIM API executes NetServer's `DeleteUser` API.
 
 <!-- Referenced links -->
-[1]: ../../developer-portal/provisioning/index.md
+[1]: ../../../developer-portal/provisioning/index.md
 [2]: ../user/add-user-in-admin-client.md
 [3]: overview.md

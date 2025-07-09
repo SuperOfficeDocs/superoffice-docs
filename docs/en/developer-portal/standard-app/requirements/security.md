@@ -80,6 +80,6 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 [9]: ../../getting-started/index.md#client-secret
 [10]: ../../getting-started/user-contexts.md
 [12]: ../../getting-started/app-envir.md
-[17]: ../../../identity-management/federated-auth.md
+[17]: ../../../online/identity/federated-auth.md
 [13]: https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
 [14]: https://www.cisecurity.org/controls/cis-controls-list/

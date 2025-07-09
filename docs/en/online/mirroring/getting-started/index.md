@@ -69,8 +69,8 @@ It does not make business sense to provide a complete database mirror to partner
 If you believe you have a great case for an application, navigate to the [application registration page][10] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
 <!-- Referenced links -->
-[1]: ../../../api/authentication/online/certificates/override-resolver.md
-[2]: ../../../api/authentication/online/certificates/index.md
+[1]: ../../../../api/authentication/online/certificates/override-resolver.md
+[2]: ../../../../api/authentication/online/certificates/index.md
 [3]: ../blocked-tables.md
 [4]: https://www.nuget.org/packages/SuperOffice.Online.Mirroring
 [7]: ../order-database-mirroring.md

@@ -55,7 +55,7 @@ highlightedContent:
     - title: "Identity management"
       itemType: map
       typeDesc: overview
-      url: ../identity-management/index.yml
+      url: identity/index.yml
     # Card
     - title: "Database mirroring"
       itemType: map
@@ -93,26 +93,26 @@ conceptualContent:
     - title: Identity management
       summary: ""
       links:
-        - url: ../identity-management/index.yml
+        - url: identity/index.yml
           itemType: map
           typeDesc: overview
           text: Overview
-        - url: ../identity-management/superid/index.yml
+        - url: identity/superid/index.yml
           itemType: map
           typeDesc: overview
           text: SuperID
-        - url: ../identity-management/scim/index.yml
+        - url: identity/scim/index.yml
           itemType: map
           typeDesc: overview
           text: SCIM
         - text: "Authentication"
           itemType: map
           typeDesc: overview
-          url: ../api/authentication/index.yml
+          url: ../../api/authentication/index.yml
         - text: Reset password
           itemType: list
           typeDesc: how-to-guide
-          url: ../identity-management/user/reset-password.md
+          url: identity/user/reset-password.md
     # Card
     - title: Develop online apps
       summary: Start developing online integrations
@@ -156,7 +156,7 @@ conceptualContent:
         - text: Integration points
           itemType: explore
           typeDesc: concept
-          url: ../api/overview/index.md
+          url: ../../api/overview/index.md
         - text: App store
           itemType: map
           typeDesc: overview
@@ -184,11 +184,11 @@ additionalContent:
       # Card
       - title: Sign-in
         links:
-        - url: ../identity-management/federated-id-and-identity-providers.md
+        - url: identity/federated-id-and-identity-providers.md
           text: Federated ID and identity providers
-        - url: ../identity-management/multi-factor-authentication.md
+        - url: identity/multi-factor-authentication.md
           text: Multi-factor authentication
-        - url: ../identity-management/single-sign-on/index.md
+        - url: identity/single-sign-on/index.md
           text: Single sign-on
       # Card
       - title: Continuous release schedule

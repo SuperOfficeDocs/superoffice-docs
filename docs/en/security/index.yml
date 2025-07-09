@@ -25,22 +25,22 @@ highlightedContent:
     - title: Reset password
       itemType: list
       typeDesc: how-to-guide
-      url: ../identity-management/user/reset-password.md
+      url: ../online/identity/user/reset-password.md
     # Card
     - title: "Identity management"
       itemType: map
       typeDesc: overview
-      url: ../identity-management/index.yml
+      url: ../online/identity/index.yml
     # Card
     - title: "SuperID"
       itemType: map
       typeDesc: overview
-      url: ../identity-management/superid/index.yml
+      url: ../online/identity/superid/index.yml
     # Card
     - title: "System for Cross-domain Identity Management (SCIM)"
       itemType: map
       typeDesc: overview
-      url: ../identity-management/scim/index.yml
+      url: ../online/identity/scim/index.yml
     # Card
     - title: "Authentication"
       itemType: map
@@ -70,23 +70,23 @@ conceptualContent:
         - text: Federated ID and identity providers
           itemType: explore
           typeDesc: concept
-          url: ../identity-management/federated-id-and-identity-providers.md
+          url: ../online/identity/federated-id-and-identity-providers.md
         - text: Multi-factor authentication
           itemType: explore
           typeDesc: concept
-          url: ../identity-management/multi-factor-authentication.md
+          url: ../online/identity/multi-factor-authentication.md
         - text: Single sign-on
           itemType: explore
           typeDesc: concept
-          url: ../identity-management/single-sign-on/index.md
+          url: ../online/identity/single-sign-on/index.md
         - text: User accounts and role-based access control
           itemType: explore
           typeDesc: concept
-          url: ../identity-management/user/index.md
+          url: ../online/identity/user/index.md
         - text: Enforce password policy
           itemType: list
           typeDesc: how-to-guide
-          url: ../identity-management/user/enforce-password-policy.md
+          url: ../online/identity/user/enforce-password-policy.md
     # Card
     - title: Privacy
       summary: "General Data Protection Regulation (GDPR)"

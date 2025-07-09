@@ -19,7 +19,7 @@
         "src":"docs/en",
         "dest":"en/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "api/", "identity-management/"]
+        "exclude":[ "toc.yml","index.md", "api/" ]
       },
       {
         "src":"docs/en/api",
@@ -54,12 +54,6 @@
         "dest":"en/api/tutorials",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude":[ "toc.yml" ]
-      },
-      {
-        "src":"docs/en/identity-management",
-        "dest":"en/online/identity",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "**/toc.yml", "toc.yml" ]
       },
       {
         "src":"docs/no",

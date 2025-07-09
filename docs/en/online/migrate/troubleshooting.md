@@ -123,8 +123,8 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
 <!-- Link reference -->
 
-[1]: ../../database/dictionary/index.md
-[2]: ../../database/tables/databasemodel.md
+[1]: ../../../database/dictionary/index.md
+[2]: ../../../database/tables/databasemodel.md
 [3]: https://www.linqpad.net/Download.aspx
 [4]: ../../../assets/downloads/database-imp-exp-tool.zip
 

@@ -56,7 +56,7 @@ Now, you need to [link templates][6] in SuperOffice Settings and maintenance to 
 
 <!-- Referenced links -->
 [2]: https://id.superoffice.com/identityprovider/register
-[3]: ../../../identity-management/superid/howto/register-idp.md
+[3]: ../../../online/identity/superid/howto/register-idp.md
 [4]: https://cloudintegration.superoffice.com/app
 [5]: set-up.md
 [6]: ../../templates/index.md

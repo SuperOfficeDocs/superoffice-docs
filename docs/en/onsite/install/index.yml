@@ -26,7 +26,7 @@ landingContent:
           - text: Deployment scenarios
             url: ../security/deployment-scenarios.md
           - text: Federated sign-in
-            url: ../../identity-management/superid/howto/federated-sign-in-guide.md
+            url: ../../online/identity/superid/howto/federated-sign-in-guide.md
 
   # Card
   - title: Start
@@ -204,7 +204,7 @@ landingContent:
         - text: Deploy Pocket CRM
           url: ../../mobile/pocket-crm/deploy.md
         - text: Set up Active Directory authentication
-          url: ../../identity-management/ad/set-up-ad-auth.md
+          url: ../../online/identity/ad/set-up-ad-auth.md
       - itemType: library_books
         typeDesc: reference
         links:
