@@ -31,8 +31,8 @@ items:
   - name: Version history
     href: version-history.md
   - name: Identity Management
-    href: ../identity-management/toc.yml
-    topicHref: ../identity-management/index.yml
+    href: identity/toc.yml
+    topicHref: identity/index.yml
   - name: Mirroring
     href: mirroring/toc.yml
     topicHref: mirroring/index.yml

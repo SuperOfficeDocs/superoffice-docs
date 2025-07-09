@@ -59,5 +59,5 @@ Development products are **stand-alone products** that help customers utilize an
 [7]: ../../../custom-objects/learn/extra-table.md
 [8]: ../../../ui/screen-designer/index.md
 [10]: ../../../online/sandbox/index.md
-[11]: ../../../identity-management/scim/index.yml
+[11]: ../../../online/identity/scim/index.yml
 [12]: ../../../online/mirroring/index.yml

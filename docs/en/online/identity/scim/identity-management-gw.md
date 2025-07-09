@@ -55,7 +55,7 @@ To access the Identity Manager, you will need:
 * A SuperOffice admin account for that tenant linked to a Microsoft Entra account (Microsoft Entra admin not required)
 
 <!-- Referenced links -->
-[1]: ../../developer-portal/getting-started/get-access-to-sod.md
+[1]: ../../../developer-portal/getting-started/get-access-to-sod.md
 
 <!-- Referenced images-->
 [img1]: media/scim-flow-ui.png

@@ -292,7 +292,7 @@ public string Sign(string nonce, string privateKey)
 Once the `AuthenticateResponse` is sent back to SuperOffice and validated, the data flow cycle begins. See the [Mirroring Task][1] article for more details about the mirroring processing.
 
 <!-- reference links -->
-[0]: ../../api/authentication/online/certificates/index.md
+[0]: ../../../api/authentication/online/certificates/index.md
 [1]: mirroring-task.md
 
 <!-- reference images -->

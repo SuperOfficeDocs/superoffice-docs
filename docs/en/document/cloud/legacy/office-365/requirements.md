@@ -45,6 +45,6 @@ When users have successfully logged in using Microsoft Entra to authenticate to 
 * To create new content types (see step 2), you need the SharePoint settings to **allow user to run custom scripts** activated < 24 h. before setup. You may perform the other steps in the meantime / create new content types at a later time.
 
 <!-- Referenced links -->
-[1]: ../../../../identity-management/superid/howto/federated-sign-in-guide.md
+[1]: ../../../../online/identity/superid/howto/federated-sign-in-guide.md
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: troubleshooting.md

@@ -35,7 +35,7 @@ highlightedContent:
     - title: "Authentication"
       itemType: map
       typeDesc: overview
-      url: ../api/authentication/overview.md
+      url: ../../api/authentication/overview.md
     # Card
     - title: "Federated authentication"
       itemType: map
@@ -144,12 +144,12 @@ additionalContent:
       # Card
       - title: OAuth 2.0
         links:
-        - url: ../api/authentication/online/index.md
+        - url: ../../api/authentication/online/index.md
           text: Intro
       # Card
       - title: Credentials
         links:
-        - url: ../database/tables/credentials.md
+        - url: ../../database/tables/credentials.md
           text: The credentials database table
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

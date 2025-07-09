@@ -46,7 +46,7 @@ deployment: online
 [1]: ../standard-app/app-store/app-settings.md
 [2]: ../create-app/config/app-config.md
 [3]: partner-settings.md
-[4]: ../../identity-management/superid/overview.md
+[4]: ../../online/identity/superid/overview.md
 [6]: manage-permissions.md
 [7]: update-profile.md
 

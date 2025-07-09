@@ -4,4 +4,4 @@
 * ALL users with user plan must be in the same Microsoft Entra subscription as the one used during set up.
 
 <!-- Referenced links -->
-[2]: ../../../../identity-management/federated-id-and-identity-providers.md
+[2]: ../../../../online/identity/federated-id-and-identity-providers.md

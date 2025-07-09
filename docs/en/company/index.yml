@@ -149,7 +149,7 @@ conceptualContent:
       - text: SCIM - sync company
         itemType: list
         typeDesc: how-to-guide
-        url: ../identity-management/scim/provisioning/sync-company.md
+        url: ../online/identity/scim/provisioning/sync-company.md
 
     # Card
     - title: API options

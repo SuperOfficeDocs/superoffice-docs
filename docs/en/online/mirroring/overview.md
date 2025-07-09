@@ -120,8 +120,8 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [5]: ../../developer-portal/getting-started/index.md#terminology
 [8]: ../../developer-portal/custom-app/index.md
 [9]: ../../developer-portal/provisioning/get-consent.md
-[10]: ../../api/authentication/online/validate-security-tokens.md
-[11]: ../../api/authentication/online/auth-application/sign-system-user-token.md
+[10]: ../../../api/authentication/online/validate-security-tokens.md
+[11]: ../../../api/authentication/online/auth-application/sign-system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/trendsyapp.png
