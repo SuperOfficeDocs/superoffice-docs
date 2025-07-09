@@ -60,7 +60,7 @@ highlightedContent:
     - title: "Database mirroring"
       itemType: map
       typeDesc: overview
-      url: ../mirroring/index.yml
+      url: mirroring/index.yml
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -164,7 +164,7 @@ conceptualContent:
         - text: Database mirroring
           itemType: map
           typeDesc: overview
-          url: ../mirroring/index.yml
+          url: mirroring/index.yml
         - text: SharePoint documents
           itemType: explore
           typeDesc: concept

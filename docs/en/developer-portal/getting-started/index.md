@@ -200,7 +200,7 @@ How customers will interact with applications, tightly linked to [user contexts]
 [7]: ../custom-app/validate.md
 [11]: ../custom-app/activate.md
 [12]: ../custom-app/index.md
-[10]: ../../mirroring/overview.md
+[10]: ../../online/mirroring/overview.md
 [16]: ../../api/authentication/online/validate-security-tokens.md
 [17]: ../../api/plugins/erp-connectors/index.md
 [18]: ../../api/plugins/quote-connectors/index.md

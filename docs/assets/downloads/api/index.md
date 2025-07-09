@@ -44,6 +44,6 @@ These examples assume you understand what SuperOffice CRM Online is, and that 
 <!-- Referenced links -->
 [1]: ../../../en/developer-portal/getting-started/index.md
 [2]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
-[3]: ../../../en/mirroring/overview.md
+[3]: ../../../en/online/mirroring/overview.md
 [4]: https://github.com/SuperOffice/devnet-php-oidc-soap
 [7]: partnersystemuserservice.zip

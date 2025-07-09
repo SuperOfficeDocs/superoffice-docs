@@ -19,7 +19,7 @@
         "src":"docs/en",
         "dest":"en/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "api/", "identity-management/", "mirroring/"]
+        "exclude":[ "toc.yml","index.md", "api/", "identity-management/"]
       },
       {
         "src":"docs/en/api",
@@ -60,12 +60,6 @@
         "dest":"en/online/identity",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude":[ "**/toc.yml", "toc.yml" ]
-      },
-      {
-        "src":"docs/en/mirroring",
-        "dest":"en/online/mirroring",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml" ]
       },
       {
         "src":"docs/no",
