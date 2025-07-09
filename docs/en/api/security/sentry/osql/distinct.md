@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: access control
 content_type: concept
+redirect_from: /en/api/security/sentry/osql/index
 ---
 
 # Sentry and distinct

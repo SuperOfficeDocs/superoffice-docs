@@ -6,6 +6,7 @@ author:
 date:
 keywords:
 content_type: tutorial
+redirect_from: /en/ui/blogic/tutorials/index
 ---
 
 # Tutorial - custom database and UI

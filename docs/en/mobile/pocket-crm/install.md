@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 deployment: online
 platform: pocket
+redirect_from: /en/mobile/pocket-crm/index
 ---
 
 # How to install and configure the CRM Pocket client

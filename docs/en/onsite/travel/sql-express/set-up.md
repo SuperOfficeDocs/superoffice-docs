@@ -8,6 +8,7 @@ date:
 content_type: howto
 deployment: onsite
 platform: win
+redirect_from: /en/onsite/travel/sql-express/index
 ---
 
 # MS SQL Express as Travel database

@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,selectionprovider
 content_type: howto
+redirect_from: /en/api/search/selection/archive/index
 ---
 
 # How to retrieve members of a specific selection using archive provider

@@ -8,6 +8,7 @@ keywords:
 content_type: concept
 platform: web
 deployment: onsite
+redirect_from: /en/ui/web-app/pagebuilder/usercontrols/solistbox/index
 ---
 
 # Databinding with SoListBox

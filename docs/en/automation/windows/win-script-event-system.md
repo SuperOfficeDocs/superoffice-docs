@@ -8,6 +8,7 @@ keywords:
 content_type: howto
 deployment: onsite
 platform: win
+redirect_from: /en/automation/windows/index
 ---
 
 # Win Script and event system: aborting a save sequence
