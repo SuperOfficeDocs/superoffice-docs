@@ -102,4 +102,4 @@ This advanced configuration has to be tweaked manually in the SuperOffice.config
 [1]: ../../feature-toggles.md
 [3]: ../../debug/win-client.md
 [4]: ../../command-line-switches.md
-[5]: ../../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md
+[5]: ../../../online/identity/ad/mapping-so-user-to-ad-v-7-1.md

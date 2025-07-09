@@ -1,0 +1,100 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Federated authentication
+  href: federated-auth.md
+- name: Federated ID and identity providers
+  href: federated-id-and-identity-providers.md
+- name: ID transfer tickets
+  href: id-transfer-tickets.md
+- name: Multi-factor authentication
+  href: multi-factor-authentication.md
+- name: Single sign-on
+  href: single-sign-on/index.md
+  items:
+  - name: Onsite SSO
+    href: single-sign-on/onsite-sso.md
+- name: SuperID
+  href: superid/overview.md
+  items:
+  - name: Sign-in services
+    href: superid/sign-in-services.md
+  - name: User accounts and passwords
+    href: superid/user-accounts-and-passwords.md
+  - name: Primary tenant
+    href: superid/primary-tenant.md
+  - name: SuperID WebTools MailLink Pocket
+    href: superid/superid-webtools-maillink-pocket.md
+  - name: Known challenges
+    href: superid/known-challenges.md
+  - name: Terms and conditions
+    href: superid/terms-and-conditions.md
+  - name: How-to
+    items:
+    - name: Federated sign-in guide
+      href: superid/howto/federated-sign-in-guide.md
+    - name: Check IDP domain
+      href: superid/howto/check-idp-domain.md
+    - name: Register IDP
+      href: superid/howto/register-idp.md
+    - name: Map IDP usernames
+      href: superid/howto/map-idp-usernames.md
+    - name: Complete user transition
+      href: superid/howto/complete-user-transition.md
+    - name: Custom domains registration form
+      href: superid/howto/custom-domains-registration-form.md
+- name: User
+  href: user/add-user-in-admin-client.md
+  items:
+  - name: Add user in admin client
+    href: user/add-user-in-admin-client.md
+  - name: Enforce password policy
+    href: user/enforce-password-policy.md
+  - name: Reset password
+    href: user/reset-password.md
+  - name: Send welcome emails
+    href: user/send-welcome-emails.md
+- name: Active Directory
+  href: ad/index.md
+  items:
+  - name: Set up AD auth
+    href: ad/set-up-ad-auth.md
+  - name: Mapping so user to AD in version 7.1
+    href: ad/mapping-so-user-to-ad-v-7-1.md
+- name: SCIM
+  href: scim/overview.md
+  items:
+  - name: Sign in to SCIM
+    href: scim/sign-in-to-scim.md
+  - name: Identity Management Gateway
+    href: scim/identity-management-gw.md
+  - name: SCIM rules
+    href: scim/scim-rules.md
+  - name: User provisioning
+    href: scim/user-provisioning.md
+    items:
+    - name: Add SCIM rule
+      href: scim/provisioning/add-scim-rule.md
+    - name: Activate deactivate rules
+      href: scim/provisioning/activate-deactivate-rules.md
+    - name: Preview sync
+      href: scim/provisioning/preview-sync.md
+    - name: Sync company
+      href: scim/provisioning/sync-company.md
+    - name: Sync user
+      href: scim/provisioning/sync-user.md
+    - name: Restart sync
+      href: scim/provisioning/restart-sync.md
+  - name: Setup
+    href: scim/setup/setup-guide.md
+    items:
+    - name: Setup guide
+      href: scim/setup/setup-guide.md
+    - name: Create Microsoft Entra enterprise app
+      href: scim/setup/create-azure-enterprise-app.md
+    - name: Enable auto sync
+      href: scim/setup/enable-auto-sync.md
+    - name: Get SCIM config
+      href: scim/setup/get-scim-config.md
+    - name: Get sync error messages
+      href: scim/setup/get-sync-error-messages.md

@@ -141,7 +141,7 @@ Supported in version **Services86** and higher, when used in SOAP requests, the 
 <!-- Referenced links -->
 [6]: index.md#tenant
 [3]: what-api-to-use.md#authentication-scenarios
-[1]: ../../identity-management/federated-auth.md
+[1]: ../../online/identity/federated-auth.md
 [2]: ../../api/authentication/online/auth-application/index.md
 [4]: ../../api/authentication/online/index.md
 [7]: ../../api/tutorials/minimal-csharp-app/overview.md

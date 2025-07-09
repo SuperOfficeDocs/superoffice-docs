@@ -49,4 +49,4 @@ Get your own sandbox tenant and login to our developer portal to begin creating 
 [1]: app-envir.md
 [2]: ../getting-started/index.md#tenant
 [3]: ../create-app/index.md
-[4]: ../../identity-management/user/add-user-in-admin-client.md
+[4]: ../../online/identity/user/add-user-in-admin-client.md

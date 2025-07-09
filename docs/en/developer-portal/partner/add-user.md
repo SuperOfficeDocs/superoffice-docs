@@ -97,7 +97,7 @@ You can assign a known user or create a new one. In both cases, you look up an e
 
 <!-- Referenced links -->
 [1]: manage-permissions.md
-[2]: ../../identity-management/superid/overview.md
+[2]: ../../online/identity/superid/overview.md
 [3]: ../../admin/user-management/learn/add-associate.md
 
 <!-- Referenced images -->

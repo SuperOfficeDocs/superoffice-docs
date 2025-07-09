@@ -166,7 +166,7 @@ A log file of the migration is written to *%temp%\SoMigration* folder.
 [1]: http://online.superoffice.com/appstore
 [2]: ../sandbox/index.md
 [3]: ../../email/service/migrate.md
-[4]: ../../identity-management/superid/howto/register-idp.md
+[4]: ../identity/superid/howto/register-idp.md
 
 <!-- Referenced images -->
 [img2]: media/mig-proc-duplicate.jpg

@@ -111,7 +111,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 
 [6]: https://status.superoffice.com/
 
-[9]: ../../identity-management/federated-auth.md
+[9]: ../../online/identity/federated-auth.md
 [12]: ../../online/sandbox/index.md
 [11]: ../../api/authentication/online/certificates/index.md
 

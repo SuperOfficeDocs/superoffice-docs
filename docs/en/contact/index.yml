@@ -157,7 +157,7 @@ conceptualContent:
       - text: SCIM - sync user
         itemType: list
         typeDesc: how-to-guide
-        url: ../identity-management/scim/provisioning/sync-user.md
+        url: ../online/identity/scim/provisioning/sync-user.md
 
     # Card
     - title: API options

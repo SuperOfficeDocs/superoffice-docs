@@ -137,7 +137,7 @@ Kontakt SuperOffice-administratoren for å få et nytt passord.
 [2]: ../../admin/user-management/learn/index.md
 [3]: ../../admin/user-management/learn/add-associate.md
 [6]: preferences.md#options
-[7]: ../../../en/identity-management/single-sign-on/index.md
+[7]: ../../../en/online/identity/single-sign-on/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png

@@ -44,6 +44,6 @@ The old app also has some design aspects that aren't perfect for a lot of custom
 * The old app requires extended access rights to run custom scripts. This is usually not according to today's best practices for IT security.
 
 <!-- Referenced links -->
-[1]: ../../docs/en/identity-management/superid/sign-in-services.md
+[1]: ../../docs/en/online/identity/superid/sign-in-services.md
 [2]: ../../docs/en/document/cloud/sharepoint-documents/index.md
 [3]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md

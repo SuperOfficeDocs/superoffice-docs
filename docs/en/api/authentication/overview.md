@@ -64,7 +64,7 @@ You might also be interested in:
 <!-- Referenced links -->
 [1]: ../config/data.md
 [2]: ../osql/index.md
-[3]: ../../identity-management/federated-auth.md
+[3]: ../../online/identity/federated-auth.md
 [4]: onsite/config-anonymous-user.md
 [5]: onsite/config-external-user.md
 [6]: onsite/com/index.md

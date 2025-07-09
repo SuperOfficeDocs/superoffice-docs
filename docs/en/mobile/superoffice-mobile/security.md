@@ -151,11 +151,11 @@ A: Enable IdP for all users, and enable 2FA for the IdP provider. No option to s
 [2]: https://source.android.com/security/encryption/full-disk
 [4]: ../../api/authentication/online/index.md
 [5]: https://www.superoffice.com/trust-center/cloud-security/
-[6]: ../../identity-management/superid/user-accounts-and-passwords.md
-[7]: ../../identity-management/superid/sign-in-services.md
+[6]: ../../online/identity/superid/user-accounts-and-passwords.md
+[7]: ../../online/identity/superid/sign-in-services.md
 [9]: https://tools.ietf.org/html/rfc5282
 [10]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112935#2
-[11]: ../../identity-management/superid/howto/federated-sign-in-guide.md
+[11]: ../../online/identity/superid/howto/federated-sign-in-guide.md
 
 <!-- Referenced images -->
 [img1]: media/imagevq62n.png
