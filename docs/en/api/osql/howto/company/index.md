@@ -6,7 +6,9 @@ keywords: contact, company, OSQL, API
 author: Bergfrid Skaara Dias
 date: 02.22.2022
 content_type: concept
-redirect_from: /en/company/howto/osql/index
+redirect_from: 
+  - /en/company/howto/osql/index
+  - /en/api/osql/howto/index
 ---
 
 # Contact - OSQL

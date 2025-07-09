@@ -1,8 +1,3 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-date: 05.29.2021
+redirect_url: https://docs.superoffice.com/en/ui/web-app/pagebuilder/usercontrols/sotextbox/add-textbox-to-navigator.html
 ---
-
-<!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../../../../includes/default-index.md)]

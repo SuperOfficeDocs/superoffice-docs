@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference
+redirect_from: /en/api/plugins/quote-connectors/api/enums/index
 ---
 
 # Enum ConfigFieldType

@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.08.2018
 content_type: reference
 keywords:
+redirect_from: /en/globalization-and-localization/culture/index
 ---
 
 # CultureDataFormatter

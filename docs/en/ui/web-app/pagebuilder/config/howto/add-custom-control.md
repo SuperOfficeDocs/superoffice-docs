@@ -8,6 +8,7 @@ keywords: gui
 content_type: howto
 platform: web
 deployment: onsite
+redirect_from: /en/ui/web-app/pagebuilder/config/howto/index
 ---
 
 # Adding a custom control to an existing view

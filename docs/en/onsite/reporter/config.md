@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 deployment: onsite
 platform: web
+redirect_from: /en/onsite/reporter/index
 ---
 
 # Configure Web Reporter

@@ -9,6 +9,7 @@ date:
 content_type: howto
 deployment: onsite
 platform: win
+redirect_from: /en/onsite/travel/sybase/index
 ---
 
 # Sybase as Travel database

@@ -1,8 +1,3 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-date: 05.29.2021
+redirect_url: https://docs.superoffice.com/en/onsite/travel/built-in/set-up.html
 ---
-
-<!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../../includes/default-index.md)]

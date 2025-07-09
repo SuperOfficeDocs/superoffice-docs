@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 04.29.2020
 content_type: reference
 keywords:
+redirect_from: /en/service/reports/index
 ---
 
 # Parameters for reports
