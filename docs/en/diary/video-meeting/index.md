@@ -40,7 +40,7 @@ platform: web
 * [How to disconnect a user][6]
 * [Troubleshooting][7]
 
-<a href="../../assets/downloads/video-meetings-in-SuperOffice---quick-start-v2.pdf" download>Download our Quick Start Guide – Video Meetings in SuperOffice​</a>
+<a href="../../../assets/downloads/video-meetings-in-SuperOffice---quick-start-v2.pdf" download>Download our Quick Start Guide – Video Meetings in SuperOffice​</a>
 
 ## New template variable for Video Meeting URL
 

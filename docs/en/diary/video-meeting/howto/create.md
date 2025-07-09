@@ -28,4 +28,4 @@ If you have turned on email invitations for the attendees of the follow-up, an e
 > Click <i class="ph ph-copy" aria-label="Copy"></i> to copy the video meeting link. You can then paste the link in the description of the follow-up or send it to others via direct messaging.
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/create-follow-up.md
+[1]: ../../learn/create-follow-up.md
