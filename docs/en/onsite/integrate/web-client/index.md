@@ -8,6 +8,7 @@ keywords: API, integration point, web client
 content_type: reference
 deployment: onsite
 platform: web
+redirect_from: /en/onsite/integrate/index
 ---
 
 # Integration scenarios: Web client (onsite)
@@ -22,8 +23,8 @@ SuperOffice CRM Web also enjoys many integration capabilities. I would go so far
 * Add controls to existing pages
 * Add custom dialogs
 * Override default functionality and inject custom logic into
-  * DataHandlers (create, update, delete of page data
-  * Archive Providers (read-only search providers
+  * DataHandlers (create, update, delete of page data)
+  * Archive Providers (read-only search providers)
   * Most buttons
 * Add custom views (tabs or preview pane options)
 * Add web panels

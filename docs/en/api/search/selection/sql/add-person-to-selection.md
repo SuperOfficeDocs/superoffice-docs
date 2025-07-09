@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, static
 content_type: howto
+redirect_from: /en/api/search/selection/sql/index
 ---
 
 <!-- markdownlint-disable-file MD013-->

@@ -7,6 +7,7 @@ date: 03.31.2014
 keywords: Customer Center
 content_type: tutorial
 index: true
+redirect_from: /en/customer-center/tutorials/index
 ---
 
 # Using Ajax to call scripts in Customer Service

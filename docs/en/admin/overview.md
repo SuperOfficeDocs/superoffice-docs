@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 date:
 index: true
+redirect_from: /en/admin/index
 ---
 
 # Admin

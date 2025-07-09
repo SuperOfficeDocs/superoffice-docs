@@ -5,6 +5,7 @@ description: Preference section AppointmentDialog
 author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
+redirect_from: /en/admin/user-preferences/reference/index
 ---
 
 # Preference section AppointmentDialog

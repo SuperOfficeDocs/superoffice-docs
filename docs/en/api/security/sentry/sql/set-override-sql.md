@@ -7,6 +7,7 @@ date: 02.06.2007
 keywords:
 content_type: howto
 deployment: onsite
+redirect_from: /en/api/security/sentry/sql/index
 ---
 
 # Setting data-rights with sentry and user-preferences - SQL

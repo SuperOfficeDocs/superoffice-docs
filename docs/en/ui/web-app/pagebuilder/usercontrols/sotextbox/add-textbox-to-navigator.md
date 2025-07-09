@@ -8,6 +8,7 @@ keywords:
 content_type: howto
 platform: web
 deployment: onsite
+redirect_from: /en/ui/web-app/pagebuilder/usercontrols/sotextbox/index
 ---
 
 # How to add new components to an existing page

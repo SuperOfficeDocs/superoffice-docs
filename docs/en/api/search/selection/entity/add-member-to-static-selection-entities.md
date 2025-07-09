@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,entities
 content_type: howto
+redirect_from: /en/api/search/selection/entity/index
 ---
 
 # How to add members to a static selection using entities layer

@@ -1,9 +1,3 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-date: 05.29.2021
-index: true
+redirect_url: https://docs.superoffice.com/admin/user-management/learn/role/index.html
 ---
-
-<!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../includes/default-index.md)]

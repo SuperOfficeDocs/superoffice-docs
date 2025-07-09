@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords:
 content_type: howto
+redirect_from: /en/globalization-and-localization/language/index
 ---
 
 # How to create a resource provider

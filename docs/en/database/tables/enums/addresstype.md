@@ -6,6 +6,7 @@ so.generated: true
 keywords: database enum
 so.topic: reference
 so.envir: onsite, online
+redirect_from: /en/database/tables/enums/index
 ---
 
 # AddressType Enum

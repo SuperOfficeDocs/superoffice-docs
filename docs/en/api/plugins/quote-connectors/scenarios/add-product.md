@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: tutorial
+redirect_from: /en/api/plugins/quote-connectors/scenarios/index
 ---
 
 # Scenario – adding a product

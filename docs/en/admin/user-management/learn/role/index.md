@@ -9,6 +9,7 @@ content_type: concept
 audience: admin
 audience_tooltip: Settings and maintenance
 language: en
+redirect_from: /en/online/identity/role/index
 ---
 
 # Roles
