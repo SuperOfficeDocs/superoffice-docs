@@ -227,7 +227,7 @@ additionalContent:
         - text: Single database user
           url: ../database/security/single-database-user.md
         - text: Mirroring blacklisted tables
-          url: ../mirroring/skip-tables.md
+          url: ../online/mirroring/skip-tables.md
       # Card
       - title: Documents
         links:

@@ -48,5 +48,5 @@ This procedure is intended for a live system.
 4. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will recreate the database table(s) and begin to deliver periodic updates to your mirroring service.
 
 <!-- Referenced links -->
-[2]: ../developer-portal/provisioning/get-consent.md
+[2]: ../../developer-portal/provisioning/get-consent.md
 [3]: mirroring-task.md

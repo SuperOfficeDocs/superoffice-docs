@@ -158,7 +158,7 @@ Read more about each platform API in the SDK documentation.
 [9]: ../reference/soap/index.md
 [11]: ../plugins/erp-connectors/index.md
 [12]: ../plugins/quote-connectors/index.md
-[13]: ../../mirroring/overview.md
+[13]: ../../online/mirroring/overview.md
 [14]: ../../automation/overview.md#languages
 [15]: netserver.md
 [16]: ../../automation/netserver-scripting/index.md

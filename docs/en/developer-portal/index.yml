@@ -247,7 +247,7 @@ landingContent:
       typeDesc: concept
       links:
         - text: Database mirroring
-          url: ../mirroring/index.yml
+          url: ../online/mirroring/index.yml
         - text: Online tenant status
           url: best-practices/tenant-status/index.md
         - text: User contexts
