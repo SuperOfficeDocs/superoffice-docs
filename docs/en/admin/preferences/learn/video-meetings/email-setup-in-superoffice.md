@@ -43,6 +43,6 @@ To send an invitation by email to external users, you must:
 * [How to configure email invitations for video meetings][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/howto/configure-email-invitations.md
+[1]: ../../../../../en/diary/video-meeting/howto/configure-email-invitations.md
 
 <!-- Referenced images --

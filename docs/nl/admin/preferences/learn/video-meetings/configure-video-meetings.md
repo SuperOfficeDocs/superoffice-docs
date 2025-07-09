@@ -45,7 +45,7 @@ language: nl
 Als u een andere leverancier wilt selecteren of de configuratie wilt wijzigen, klikt u op **Configureren**.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: ../../../../../en/diary/video-meeting/index.md
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

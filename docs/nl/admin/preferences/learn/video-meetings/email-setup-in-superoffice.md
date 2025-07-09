@@ -43,6 +43,6 @@ Als u een uitnodiging per e-mail naar externe gebruikers wilt verzenden, moet u:
 * [E-mailuitnodigingen configureren voor videovergaderingen][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/howto/configure-email-invitations.md
+[1]: ../../../../../en/diary/video-meeting/howto/configure-email-invitations.md
 
 <!-- Referenced images --

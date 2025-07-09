@@ -38,7 +38,7 @@ Varje videoleverantör har sina egna krav för att deras tjänster ska kunna ans
 * [Videomöten för SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: ../../../../../en/diary/video-meeting/index.md
 [2]: configure-video-meetings.md
 [3]: email-setup-in-superoffice.md
 

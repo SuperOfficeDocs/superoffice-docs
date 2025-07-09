@@ -43,6 +43,6 @@ For at sende en invitation via e-mail til eksterne brugere skal du:
 * [Sådan konfigureres e-mailinvitationer til videomøder][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/howto/configure-email-invitations.md
+[1]: ../../../../../en/diary/video-meeting/howto/configure-email-invitations.md
 
 <!-- Referenced images --

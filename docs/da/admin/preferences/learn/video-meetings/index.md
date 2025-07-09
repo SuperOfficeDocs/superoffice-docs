@@ -38,7 +38,7 @@ Hver videoudbyder har sine egne krav til at oprette forbindelse til deres tjenes
 * [Videomøder for SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: ../../../../../en/diary/video-meeting/index.md
 [2]: configure-video-meetings.md
 [3]: email-setup-in-superoffice.md
 
