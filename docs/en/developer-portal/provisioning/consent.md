@@ -64,7 +64,7 @@ During approval, the customer's administrator should accept the following change
 <!-- Referenced links -->
 [2]: ../getting-started/app-envir.md
 [3]: ../getting-started/user-contexts.md
-[4]: ../../mirroring/overview.md
+[4]: ../../online/mirroring/overview.md
 [5]: index.md
 [6]: get-consent.md
 

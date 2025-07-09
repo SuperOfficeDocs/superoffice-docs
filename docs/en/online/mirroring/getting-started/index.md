@@ -30,7 +30,7 @@ Data Mirroring Service is a copy of your data stored at a location of your choic
 
 With application details registered, it's time to create a web service that implements the IMirrorClientService and IMirrorAdmin interfaces. There are three options:
 
-* Implement the service from <a href="../../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>.
+* Implement the service from <a href="../../../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>.
 * Add a [.NET nuget package][4] to a WCF Service application project.
 * Clone or download the [database mirror service repository from GitHub][11].
   * This is a 'ready-to-go' .NET solution that only needs to be compiled and deployed.
@@ -69,13 +69,13 @@ It does not make business sense to provide a complete database mirror to partner
 If you believe you have a great case for an application, navigate to the [application registration page][10] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
 <!-- Referenced links -->
-[1]: ../../api/authentication/online/certificates/override-resolver.md
-[2]: ../../api/authentication/online/certificates/index.md
+[1]: ../../../api/authentication/online/certificates/override-resolver.md
+[2]: ../../../api/authentication/online/certificates/index.md
 [3]: ../blocked-tables.md
 [4]: https://www.nuget.org/packages/SuperOffice.Online.Mirroring
 [7]: ../order-database-mirroring.md
-[6]: ../../developer-portal/getting-started/get-access-to-sod.md
-[8]: ../../developer-portal/faq/update-app.md
-[9]: ../../developer-portal/create-app/mirror-app.md
-[10]: ../../developer-portal/create-app/index.md
+[6]: ../../../developer-portal/getting-started/get-access-to-sod.md
+[8]: ../../../developer-portal/faq/update-app.md
+[9]: ../../../developer-portal/create-app/mirror-app.md
+[10]: ../../../developer-portal/create-app/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring

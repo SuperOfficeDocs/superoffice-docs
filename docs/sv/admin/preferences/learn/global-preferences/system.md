@@ -38,4 +38,4 @@ Områden som du kan konfigurera inställningar för:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
-[5]: ../../../../../en/mirroring/mirroring-task.md#options
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options

@@ -30,7 +30,7 @@ highlightedContent:
     - title: "Mirroring"
       itemType: map
       typeDesc: overview
-      url: ../mirroring/index.yml
+      url: ../online/mirroring/index.yml
     # Card
     - title: Production sandbox
       itemType: map
@@ -101,19 +101,19 @@ conceptualContent:
       - title: Mirroring
         summary: "Database mirroring"
         links:
-        - url: ../mirroring/overview.md
+        - url: ../online/mirroring/overview.md
           itemType: explore
           typeDesc: concept
           text: What is mirroring?
-        - url: ../mirroring/requirements.md
+        - url: ../online/mirroring/requirements.md
           itemType: library_books
           typeDesc: reference
           text: Requirements
-        - url: ../mirroring/getting-started/index.md
+        - url: ../online/mirroring/getting-started/index.md
           itemType: list
           typeDesc: how-to-guide
           text: Where to begin
-        - url: ../mirroring/force-resync.md
+        - url: ../online/mirroring/force-resync.md
           itemType: list
           typeDesc: how-to-guide
           text: How to force resync

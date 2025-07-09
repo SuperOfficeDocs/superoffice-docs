@@ -61,7 +61,7 @@ A [production sandbox environment][6] (test environment/test tenant) is a clone 
 
 <!-- Referenced links -->
 [4]: ../custom-app/index.md
-[5]: ../../mirroring/overview.md
+[5]: ../../online/mirroring/overview.md
 [6]: ../../online/sandbox/index.md
 [7]: ../../admin/license/expander-services/tool-box.md
 [8]: ../../admin/license/user-plans.md

@@ -98,7 +98,7 @@ These settings except "Support dark mode" and "Remove remember me" must be chang
 [9]: ../../../api/authentication/online/auth-application/sign-system-user-token.md
 [10]: ../../getting-started/what-api-to-use.md
 [11]: ../../best-practices/tenant-status/index.md
-[12]: ../../../mirroring/index.yml
+[12]: ../../../online/mirroring/index.yml
 [14]: ../../best-practices/error-emails.md
 [16]: find-clientid.md
 [17]: get-client-secret.md

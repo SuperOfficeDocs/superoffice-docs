@@ -13,8 +13,8 @@ items:
   - name: Migrate to Online
     href: migrate/index.md
     items:
-      - name: Documents migration
-        href: migrate/documents-migration.md      
+    - name: Documents migration
+      href: migrate/documents-migration.md
   - name: Troubleshooting migrations
     href: migrate/troubleshooting.md
   - name: Integrate with Online
@@ -29,10 +29,10 @@ items:
     - name: Clone to production sandbox
       href: sandbox/clone-to.md
   - name: Version history
-    href: version-history.md      
-- name: Identity Management
-  href: ../identity-management/toc.yml
-  topicHref: ../identity-management/index.yml
-- name: Mirroring
-  href: ../mirroring/toc.yml
-  topicHref: ../mirroring/index.yml
+    href: version-history.md
+  - name: Identity Management
+    href: ../identity-management/toc.yml
+    topicHref: ../identity-management/index.yml
+  - name: Mirroring
+    href: mirroring/toc.yml
+    topicHref: mirroring/index.yml

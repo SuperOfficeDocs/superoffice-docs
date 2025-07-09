@@ -81,4 +81,4 @@ The redirection endpoints are specified when you [register the application][5]. 
 [5]: ../index.md
 [6]: ../../provisioning/revoke.md
 [7]: ../../best-practices/tenant-status/index.md#notify
-[8]: ../../../mirroring/mirroring-task.md
+[8]: ../../../online/mirroring/mirroring-task.md
