@@ -19,7 +19,7 @@
         "src":"docs/en",
         "dest":"en/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "api/", "identity-management/", "mirroring/", "video-meeting/"]
+        "exclude":[ "toc.yml","index.md", "api/", "identity-management/", "mirroring/"]
       },
       {
         "src":"docs/en/api",
@@ -66,12 +66,6 @@
         "dest":"en/online/mirroring",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude":[ "toc.yml" ]
-      },
-      {
-        "src":"docs/en/video-meeting",
-        "dest":"en/diary/video-meeting",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "**/toc.yml", "toc.yml" ]
       },
       {
         "src":"docs/no",
