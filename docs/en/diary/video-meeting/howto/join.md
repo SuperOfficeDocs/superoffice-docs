@@ -22,7 +22,7 @@ There are several ways you can join a video meeting in SuperOffice:
     ![Join meeting -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/set-alarm.md
+[1]: ../../learn/set-alarm.md
 
 <!-- Referenced images -->
 [img1]: media/join-meeting-diary.png

@@ -25,7 +25,7 @@ highlightedContent:
     - title: Video meetings
       itemType: map
       typeDesc: overview
-      url: ../video-meeting/index.md
+      url: video-meeting/index.md
     # Card
     - title: User guide
       itemType: library_books

@@ -45,7 +45,7 @@ language: da
 Hvis du vil vælge en anden udbyder eller ændre konfigurationen, skal du klikke på **Konfigurer**.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: ../../../../../en/diary/video-meeting/index.md
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

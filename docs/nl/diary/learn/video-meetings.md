@@ -94,7 +94,7 @@ Klik op de Vergadering in uw SuperOffice-agendaom de details ervan te bekijken i
 Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon op de knop **Deelnemen aan vergadering**. Nadat u erop hebt geklikt, wordt uw videovergadering automatisch gestart.
 
 <!-- Referenced links -->
-[1]: ../../../en/video-meeting/howto/connect-provider.md
+[1]: ../../../en/diary/video-meeting/howto/connect-provider.md
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->

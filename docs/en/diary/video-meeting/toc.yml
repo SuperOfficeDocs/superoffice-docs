@@ -1,0 +1,29 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Google
+  href: google-meet/index.md
+- name: Jitsi
+  href: jitsi/index.md
+- name: Microsoft Teams
+  href: ms-teams/index.md
+- name: Webex
+  href: webex/index.md
+- name: Zoom
+  href: zoom/index.md
+- name: Howto
+  items:
+  - name: Create video meeting
+    href: howto/create.md
+  - name: Join video meeting
+    href: howto/join.md
+  - name: Configure email invitations
+    href: howto/configure-email-invitations.md
+  - name: Connect provider
+    href: howto/connect-provider.md
+  - name: Disconnect provider
+    href: howto/disconnect-provider.md
+  - name: Remove configuration for users
+    href: howto/disconnect-user.md
+- name: Troubleshooting
+  href: troubleshooting.md
