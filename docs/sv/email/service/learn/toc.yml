@@ -1,11 +1,7 @@
 items:
-- name: Översikt
-  href: index.md
 - name: E-postlådor
-  topicHref: screen/index.md
+  href: index.md
   items:
-  - name: Översikt
-    href: screen/index.md
   - name: Skapa e-postlådor
     href: create-mailbox.md
   - name: Ta bort e-postlådor
@@ -21,9 +17,3 @@ items:
     href: email-filters/create-email-filter.md
   - name: Ta bort e-postfilter
     href: email-filters/delete-email-filter.md
-- name: Inkorg för e-post
-  href: screen/tab-inbox-for-email.md
-- name: Utkorg för e-post
-  href: screen/tab-outbox-for-email.md
-- name: Blockerad e-post
-  href: screen/tab-blocked-email.md

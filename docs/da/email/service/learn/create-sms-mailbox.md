@@ -34,5 +34,5 @@ SuperOffice kan importere SMS-beskeder. For at dette kan fungere, skal du oprett
 * [Udbakke til sms][3]
 
 <!-- Referenced links -->
-[2]: screen/sms-inbox.md
-[3]: screen/sms-outbox.md
+[2]: index.md#sms-in
+[3]: index.md#sms-out

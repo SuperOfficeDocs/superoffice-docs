@@ -1,11 +1,7 @@
 items:
-- name: Oversikt
-  href: index.md
 - name: E-postkasser
-  topicHref: screen/index.md
+  href: index.md
   items:
-  - name: Oversikt
-    href: screen/index.md
   - name: Opprette e-postkasser
     href: create-mailbox.md
   - name: Slette e-postkasser
@@ -21,9 +17,3 @@ items:
     href: email-filters/create-email-filter.md
   - name: Slette e-postfilter
     href: email-filters/delete-email-filter.md
-- name: Innboks for e-post
-  href: screen/tab-inbox-for-email.md
-- name: Utboks for e-post
-  href: screen/tab-outbox-for-email.md
-- name: Blokkert e-post
-  href: screen/tab-blocked-email.md
