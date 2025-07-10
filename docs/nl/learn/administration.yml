@@ -28,7 +28,7 @@ landingContent:
         - text: Licentie-overzicht
           url: ../admin/license/learn/index.md
         - text: Het scherm Licenties
-          url: ../admin/license/learn/screen/index.md
+          url: ../admin/license/learn/index.md
         - text: Licentie activeren
           url: ../admin/license/learn/activate.md
 

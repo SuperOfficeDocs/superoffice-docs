@@ -28,7 +28,7 @@ landingContent:
         - text: Oversikt over lisenser
           url: ../admin/license/learn/index.md
         - text: Lisenser-bildet
-          url: ../admin/license/learn/screen/index.md
+          url: ../admin/license/learn/index.md
         - text: Aktivere lisens
           url: ../admin/license/learn/activate.md
 

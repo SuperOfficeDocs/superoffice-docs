@@ -65,7 +65,7 @@ Als het totaal aantal nieuwe licenties minder is dan het aantal licenties in geb
 * [Het tabblad Status in het scherm Licenties][1]
 
 <!-- Referenced links -->
-[1]: screen/index.md
-[3]: index.md
+[1]: index.md
+[3]: index.md#types
 
 <!-- Referenced images -->
