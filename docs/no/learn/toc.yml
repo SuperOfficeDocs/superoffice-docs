@@ -151,8 +151,6 @@ items:
       items:
       - name: Datautveksling
         href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP oversikt
-        href: ../admin/learn/screen/soap-config.md
       - name: Konfigurere SOAP-grensesnitt
         href: ../admin/learn/configure-soap.md
 
@@ -172,13 +170,8 @@ items:
     - name: Import
       href: ../admin/import/learn/toc.yml
       topicHref: ../admin/import/learn/index.md
-    - name: Systemoperasjoner
-      topicHref: ../admin/learn/system-events.md
-      items:
-      - name: Oversikt
-        href: ../admin/learn/system-events.md
-      - name: Legge til systemhendelse
-        href: ../admin/learn/add-system-event.md
+    - name: Legge til systemhendelse
+      href: ../admin/learn/add-system-event.md
 
     - name: AI-tjenester
       href: ../ai/learn/toc.yml

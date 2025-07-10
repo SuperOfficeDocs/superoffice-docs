@@ -59,7 +59,7 @@ Genom att [lägga till extratabeller och fält][1] i SuperOffice kan du spara en
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
-[13]: ../../../admin/learn/screen/package-properties.md
+[13]: ../../../admin/learn/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->

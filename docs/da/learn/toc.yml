@@ -151,8 +151,6 @@ items:
       items:
       - name: Data Exchange
         href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP-oversigt
-        href: ../admin/learn/screen/soap-config.md
       - name: Konfigurer SOAP-grænseflade
         href: ../admin/learn/configure-soap.md
 
@@ -172,13 +170,8 @@ items:
     - name: Import
       href: ../admin/import/learn/toc.yml
       topicHref: ../admin/import/learn/index.md
-    - name: Systemhændelser
-      topicHref: ../admin/learn/system-events.md
-      items:
-      - name: Oversigt
-        href: ../admin/learn/system-events.md
-      - name: Tilføj systemhændelse
-        href: ../admin/learn/add-system-event.md
+    - name: Tilføj systemhændelse
+      href: ../admin/learn/add-system-event.md
 
     - name: AI-tjenester
       href: ../ai/learn/toc.yml

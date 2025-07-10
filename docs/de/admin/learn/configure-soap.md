@@ -2,17 +2,27 @@
 uid: help-de-settings-soap-configure
 title: SOAP-Schnittstelle konfigurieren
 description: SOAP-Schnittstelle konfigurieren
-author: SuperOffice RnD
-date: 03.23.2023
-keywords: Service, SOAP
+keywords: SOAP, Schnittstelle, IP-Adresse, Port konfigurieren
+author: SuperOffice Product and Engineering
+date: 07.10.2025
+version: 10.5
 content_type: howto
+category: service
+topic: soap
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
-deployment: onsite
 language: de
+redirect_from: /de/admin/learn/screen/soap-config
 ---
 
-# SOAP-Schnittstelle konfigurieren (nur VOR ORT)
+# SOAP (nur VOR ORT)
+
+In der Ansicht SOAP können Sie die SOAP-Oberfläche konfigurieren. Sie können drei Typen von Portzugriff einstellen:
+
+* **Port: Kunde**: Auf dieser Registerkarte wird festgelegt, welche IP-Adressen Zugriff auf den Anschluss haben sollen, der auf das Kundenportal bezogene Funktionen bietet. Dazu gehören die Anfragen und externen Nachrichten des Kunden und die Wissensdatenbank.
+* **Port: Anfrage**: Diese Registerkarte bezieht sich auf die Funktionen bezüglich der Bearbeitung der Anfrage in SuperOffice Service. Computer mit IP-Adressen innerhalb der hier festgelegten Bereiche erhalten Zugriff auf SOAP-Funktionen, die entsprechende Funktionalität bereitstellen.
+* **Port: Admin**: Diese Registerkarte behandelt die Funktionen in Bezug auf das Setup und Konfiguration von SuperOffice Service. Computer mit IP-Adressen innerhalb der hier festgelegten Bereiche erhalten Zugriff auf SOAP-Funktionen, die entsprechende Funktionalität bereitstellen.
 
 ## IP-Adressen-Bereich hinzufügen
 

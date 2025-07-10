@@ -151,8 +151,6 @@ items:
       items:
       - name: Data Exchange
         href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP overview
-        href: ../admin/learn/screen/soap-config.md
       - name: Configure SOAP interface
         href: ../admin/learn/configure-soap.md
 
@@ -172,13 +170,8 @@ items:
     - name: Import
       href: ../admin/import/learn/toc.yml
       topicHref: ../admin/import/learn/index.md
-    - name: System events
-      topicHref: ../admin/learn/system-events.md
-      items:
-      - name: Overview
-        href: ../admin/learn/system-events.md
-      - name: Add system event
-        href: ../admin/learn/add-system-event.md
+    - name: Add system event
+      href: ../admin/learn/add-system-event.md
 
     - name: AI services
       href: ../ai/learn/toc.yml
