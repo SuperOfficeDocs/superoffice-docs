@@ -1,7 +1,5 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Scherm Licenties
-  href: screen/index.md
 - name: Licentie activeren
   href: activate.md

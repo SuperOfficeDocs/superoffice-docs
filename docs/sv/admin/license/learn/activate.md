@@ -65,7 +65,7 @@ Om det totala antalet nya licenser är mindre än antalet licenser som används 
 * [Fliken Status i fönstret Licenser][1]
 
 <!-- Referenced links -->
-[1]: screen/index.md
-[3]: index.md
+[1]: index.md
+[3]: index.md#types
 
 <!-- Referenced images -->
