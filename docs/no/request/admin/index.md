@@ -46,7 +46,7 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 [11]: ../../admin/preferences/learn/global-preferences/system.md
 [12]: ../../admin/user-management/learn/role/index.md
 [13]: ../../admin/user-management/learn/index.md
-[14]: ../../admin/learn/screen/soap-config.md
+[14]: ../../admin/learn/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

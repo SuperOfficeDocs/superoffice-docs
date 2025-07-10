@@ -59,7 +59,7 @@ Ved [at tilføje ekstra tabeller og felter][1] til SuperOffice kan du gemme fors
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
-[13]: ../../../admin/learn/screen/package-properties.md
+[13]: ../../../admin/learn/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->

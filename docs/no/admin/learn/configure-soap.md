@@ -2,18 +2,27 @@
 uid: help-no-settings-soap-configure
 title: Konfigurere SOAP-grensesnitt
 description: Konfigurere SOAP-grensesnitt
-author: SuperOffice RnD
-date: 03.23.2023
-keywords: Tjeneste, SOAP
+keywords: SOAP, IP-adresse, konfigurere port
+author: SuperOffice Product and Engineering
+date: 07.10.2025
+version: 10.5
 content_type: howto
+category: service
+topic: soap
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
-
-deployment: onsite
 language: no
+redirect_from: /no/admin/learn/screen/soap-config
 ---
 
-# Konfigurere SOAP-grensesnitt (bare ONSITE)
+# SOAP (bare ONSITE)
+
+På SOAP-bildet kan du konfigurere SOAP-grensesnittet. Du kan sette opp tre typer porttilgang:
+
+* **Port: Kunde**: Denne fanen angir hvilke IP-adresser som skal ha tilgang til porten som tilbyr funksjonalitet rundt kundeportalen. Dette omfatter blant annet kundens saker og eksterne meldinger samt kunnskapsbasen.
+* **Port: Sak**: Denne fanen gjelder funksjonalitet for håndtering av forespørsler i SuperOffice Service. Maskiner med IP-adresser som ligger innenfor et av områdene som er angitt her, vil ha tilgang til å kjøre SOAP-funksjoner som gir denne funksjonaliteten.
+* **Port: Admin**: Denne fanen handler om funksjonalitet knyttet til oppsett og konfigurasjon av SuperOffice Service. Maskiner med IP-adresser som ligger innenfor et av områdene som er angitt her, vil ha tilgang til å kjøre SOAP-funksjoner som gir denne funksjonaliteten.
 
 ## Legge til et IP-adresseområde
 

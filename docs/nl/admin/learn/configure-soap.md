@@ -2,17 +2,27 @@
 uid: help-nl-settings-soap-configure
 title: SOAP-interface configureren
 description: SOAP-interface configureren
-keywords: Service, SOAP
-author: SuperOffice RnD
-date: 03.23.2023
+keywords: SOAP, IP-adres, poort configureren
+author: SuperOffice Product and Engineering
+date: 07.10.2025
+version: 10.5
 content_type: howto
+category: service
+topic: soap
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
-deployment: onsite
 language: nl
+redirect_from: /nl/admin/learn/screen/soap-config
 ---
 
-# SOAP-interface configureren (alleen LOKAAL)
+# SOAP (alleen ONSITE)
+
+Via het scherm SOAP kunt u de SOAP-interface configureren. U kunt 3 soorten poorttoegang instellen:
+
+* **Poort: Klant**: Op dit tabblad worden de IP-adressen toegang getoond die kunnen communiceren via de poort die toegang biedt tot de portal voor klanten. Via deze poort kan toegang worden verkregen tot verzoeken en externe berichten van de klant, tot de kennisdatabase, enzovoort.
+* **Poort: Aanvraag**: Deze tab heeft betrekking op verzoekafhandeling in SuperOffice Service. Computers met een IP-adres binnen een hier opgegeven bereik hebben toegang tot actieve SOAP-functies die deze functionaliteit bieden.
+* **Poort: Beheerder**: Dit tabblad heeft betrekking op functionaliteit met betrekking tot het beheer en de configuratie van SuperOffice Service. Computers met een IP-adres binnen een hier opgegeven bereik hebben toegang tot actieve SOAP-functies die deze functionaliteit bieden.
 
 ## Een IP-adresbereik toevoegen
 

@@ -10,7 +10,7 @@ language: da
 deployment: onsite
 ---
 
-# SMTP (kun på stedet)
+# SMTP (kun ONSITE)
 
 Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigatoren, og vælg fanen **Globale præferencer**. Afsnittet **SMTP** indeholder følgende valgmuligheder:
 
