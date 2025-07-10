@@ -34,5 +34,5 @@ SuperOffice kann SMS-Nachrichten importieren. Dazu muss ein SMS-Postfach eingeri
 * [SMS-Postausgang][3]
 
 <!-- Referenced links -->
-[2]: screen/sms-inbox.md
-[3]: screen/sms-outbox.md
+[2]: index.md#sms-in
+[3]: index.md#sms-out

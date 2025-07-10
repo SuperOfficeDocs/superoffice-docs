@@ -34,5 +34,5 @@ SuperOffice kan SMS-berichten importeren. Als u dit wilt gebruiken, moet u een S
 * [SMS-postvak UIT][3]
 
 <!-- Referenced links -->
-[2]: screen/sms-inbox.md
-[3]: screen/sms-outbox.md
+[2]: index.md#sms-in
+[3]: index.md#sms-out
