@@ -1,7 +1,5 @@
 items:
 - name: Überblick
   href: index.md
-- name: Ansicht Lizenzen
-  href: screen/index.md
 - name: Lizenz aktivieren
   href: activate.md

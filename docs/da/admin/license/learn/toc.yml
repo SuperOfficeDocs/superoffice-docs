@@ -1,7 +1,5 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skærmbilledet Licenser
-  href: screen/index.md
 - name: Aktivér licens
   href: activate.md

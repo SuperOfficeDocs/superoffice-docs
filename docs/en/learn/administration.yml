@@ -28,7 +28,7 @@ landingContent:
         - text: License overview
           url: ../admin/license/learn/index.md
         - text: The licenses screen
-          url: ../admin/license/learn/screen/index.md
+          url: ../admin/license/learn/index.md
         - text: Activate license
           url: ../admin/license/learn/activate.md
 

@@ -65,7 +65,7 @@ Hvis det samlede antal nye licenser er mindre end det antal licenser, der er i b
 * [Fanen Status på skærmbilledet Licenser][1]
 
 <!-- Referenced links -->
-[1]: screen/index.md
-[3]: index.md
+[1]: index.md
+[3]: index.md#types
 
 <!-- Referenced images -->

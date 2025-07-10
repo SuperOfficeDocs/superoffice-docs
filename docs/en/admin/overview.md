@@ -45,7 +45,7 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 > Due to the SuperOffice 9 is distributed with the Web client only, SuperOffice Maintenance and Settings client for SuperOffice 9 contains only the Import section.
 
 <!-- Referenced links -->
-[1]: license/learn/screen/index.md
+[1]: license/learn/index.md
 [2]: user-management/learn/index.md
 [3]: user-management/learn/role/index.md
 [4]: lists/learn/index.md

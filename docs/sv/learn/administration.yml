@@ -28,7 +28,7 @@ landingContent:
         - text: Översikt över licens
           url: ../admin/license/learn/index.md
         - text: Fönstret Licenser
-          url: ../admin/license/learn/screen/index.md
+          url: ../admin/license/learn/index.md
         - text: Aktivera licens
           url: ../admin/license/learn/activate.md
 

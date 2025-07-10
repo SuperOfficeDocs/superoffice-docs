@@ -65,7 +65,7 @@ Wenn die Gesamtanzahl der neuen Lizenzen niedriger ist als die Anzahl der belegt
 * [Registerkarte Status in der Ansicht Lizenzen][1]
 
 <!-- Referenced links -->
-[1]: screen/index.md
-[3]: index.md
+[1]: index.md
+[3]: index.md#types
 
 <!-- Referenced images -->

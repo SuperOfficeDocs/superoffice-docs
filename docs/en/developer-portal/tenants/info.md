@@ -62,7 +62,7 @@ The list of [platform features][7] available to a tenant is shown in the **Tenan
 <!-- Referenced links -->
 [4]: ../best-practices/tenant-status/check-status.md
 [5]: ../best-practices/tenant-status/index.md
-[6]: ../../admin/license/learn/screen/index.md
+[6]: ../../admin/license/learn/index.md
 [7]: ../../admin/license/index.md
 
 <!-- Referenced images -->
