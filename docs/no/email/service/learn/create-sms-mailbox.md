@@ -34,5 +34,5 @@ SuperOffice kan importere SMS-meldinger. For at dette skal fungere må du konfig
 * [Utboks for SMS][3]
 
 <!-- Referenced links -->
-[2]: screen/sms-inbox.md
-[3]: screen/sms-outbox.md
+[2]: index.md#sms-in
+[3]: index.md#sms-out

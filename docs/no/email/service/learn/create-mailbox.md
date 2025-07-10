@@ -80,7 +80,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå til fanen **Alias**. Her kan du skrive inn et hvilket som helst e-postalias for en postkasse (for eksempel hvis [sales@company.com](sales@company.com) og [sale@company.com](sale@company.com) går til samme e-postkasse). Du legger til et alias ved å skrive inn en e-postadresse og deretter klikke **+**.
+1. Gå til fanen **Alias**. Her kan du skrive inn et hvilket som helst e-postalias for en postkasse (for eksempel hvis `sales@company.com` og `sale@company.com` går til samme e-postkasse). Du legger til et alias ved å skrive inn en e-postadresse og deretter klikke **+**.
 
 1. [!include[Import stuff](includes/step-import.md)]
 

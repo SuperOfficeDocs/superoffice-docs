@@ -34,5 +34,5 @@ SuperOffice can import SMS messages. For this to work, you must set up an SMS ma
 * [SMS outbox][3]
 
 <!-- Referenced links -->
-[2]: screen/sms-inbox.md
-[3]: screen/sms-outbox.md
+[2]: index.md#sms-in
+[3]: index.md#sms-out

@@ -1,11 +1,7 @@
 items:
-- name: Oversigt
-  href: index.md
 - name: E-mailkonti
-  topicHref: screen/index.md
+  href: index.md
   items:
-  - name: Oversigt
-    href: screen/index.md
   - name: Opret e-mailkonti
     href: create-mailbox.md
   - name: Slet e-mailkonti
@@ -21,9 +17,3 @@ items:
     href: email-filters/create-email-filter.md
   - name: Slet e-mailfilter
     href: email-filters/delete-email-filter.md
-- name: Indbakke til e-mail
-  href: screen/tab-inbox-for-email.md
-- name: Udbakke til e-mail
-  href: screen/tab-outbox-for-email.md
-- name: Blokeret e-mail
-  href: screen/tab-blocked-email.md
