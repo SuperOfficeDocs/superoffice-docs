@@ -1,8 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Chat-Bildschirm
-  href: screen/index.md
 - name: Chat-Statistik anzeigen
   href: statistics.md
 - name: Mit Chat arbeiten

@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Chattfönster
-  href: screen/index.md
 - name: Visa chattstatistik
   href: statistics.md
 - name: Arbeta med chatt
