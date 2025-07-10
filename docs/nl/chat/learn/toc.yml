@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Chatscherm
-  href: screen/index.md
 - name: Chatstatistieken weergeven
   href: statistics.md
 - name: Werken met chatten

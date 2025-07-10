@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Chat-bilde
-  href: screen/index.md
 - name: Vise chatstatistikk
   href: statistics.md
 - name: Arbeide med chat
