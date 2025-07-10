@@ -151,8 +151,6 @@ items:
       items:
       - name: Gegevensuitwisseling
         href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP overzicht
-        href: ../admin/learn/screen/soap-config.md
       - name: SOAP-interface configureren
         href: ../admin/learn/configure-soap.md
 
@@ -172,13 +170,8 @@ items:
     - name: Import
       href: ../admin/import/learn/toc.yml
       topicHref: ../admin/import/learn/index.md
-    - name: Systeemgebeurtenissen
-      topicHref: ../admin/learn/system-events.md
-      items:
-      - name: Overzicht
-        href: ../admin/learn/system-events.md
-      - name: Systeemgebeurtenis toevoegen
-        href: ../admin/learn/add-system-event.md
+    - name: Systeemgebeurtenis toevoegen
+      href: ../admin/learn/add-system-event.md
 
     - name: AI-diensten
       href: ../ai/learn/toc.yml

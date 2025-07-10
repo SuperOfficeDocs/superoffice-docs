@@ -14,4 +14,4 @@ items:
     href: extra-menus/toc.yml
     topicHref: extra-menus/index.md
   - name: Pakketeigenschappen
-    href: ../../../admin/learn/screen/package-properties.md    
+    href: ../../../admin/learn/package-properties.md

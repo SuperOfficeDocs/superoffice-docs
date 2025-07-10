@@ -2,17 +2,27 @@
 uid: help-da-settings-soap-configure
 title: Konfigurering af SOAP-grænseflade
 description: Konfigurering af SOAP-grænseflade
-keywords: Tjeneste, SOAP
-author: SuperOffice RnD
-date: 03.23.2023
+keywords: SOAP
+author: SuperOffice Product and Engineering
+date: 07.10.2025
+version: 10.5
 content_type: howto
+category: service
+topic: soap
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
-deployment: onsite
 language: da
+redirect_from: /da/admin/learn/screen/soap-config
 ---
 
-# Konfigurering af SOAP-grænseflade (kun ONSITE)
+# SOAP (kun ONSITE)
+
+I skærmbilledet SOAP kan du konfigurere SOAP-brugerfladen. Du kan konfigurere 3 typer portadgang:
+
+* **Port: Kunde**: Denne fane angiver, hvilke IP-adresser der skal have adgang til den port, der tilbyder funktionalitet på kundeportalen. Dette omfatter blandt andet kundens sager og eksterne meddelelser samt vidensbasen.
+* **Port: Sag**: Denne fane gælder funktionalitet for sagsbehandling i SuperOffice Service. Maskiner med IP-adresser, der ligger inden for et af de områder, der er angivet her, har adgang til at køre SOAP-funktioner, der giver denne funktionalitet.
+* **Port: Admin**: Denne fane gælder funktionalitet relateret til opsætning og konfiguration af SuperOffice Service. Maskiner med IP-adresser, der ligger inden for et af de områder, der er angivet her, har adgang til at køre SOAP-funktioner, der giver denne funktionalitet.
 
 ## Tilføjelse af et IP-adresseområde
 

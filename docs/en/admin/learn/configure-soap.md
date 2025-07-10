@@ -2,17 +2,27 @@
 uid: help-en-settings-soap-configure
 title: Configure SOAP interface
 description: Configure SOAP interface
-author: SuperOffice RnD
-date: 03.23.2023
-keywords: Service, SOAP
+keywords: Service SOAP, SOAP screen, add IP address range, configure SOAP
+author: SuperOffice Product and Engineering
+date: 07.10.2025
+version: 10.5
 content_type: howto
+category: service
+topic: soap
+deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
-deployment: onsite
 language: en
+redirect_from: /en/admin/learn/screen/soap-config
 ---
 
-# Configure SOAP interface (ONSITE only)
+# SOAP (ONSITE only)
+
+In the SOAP screen, you can configure the SOAP interface. You can set up 3 types of port access:
+
+* **Port: Customer**: This tab specifies which IP addresses should have access to the port which offers customer-portal-related functionality. This includes the customer's requests and external messages and the knowledge base.
+* **Port: Request**: This tab relates to request handling functionality in SuperOffice Service. Computers with IP addresses within one of the ranges specified here will have access to running SOAP functions that provide this functionality.
+* **Port: Admin**: This tab deals with functionality relating to the setup and configuration of SuperOffice Service. Computers with IP addresses within one of the ranges specified here will have access to running SOAP functions that provide this
 
 ## Add an IP address range
 
