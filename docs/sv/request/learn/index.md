@@ -11,6 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+redirect_from: 
+  - /sv/request/learn/screen/index
+  - /sv/request/learn/screen/ticket-log
 ---
 
 # Ärenden och SuperOffice Service
@@ -36,6 +39,100 @@ När du dubbelklickar på en rad i sökresultatet öppnas ärendet i fönstret �
 ### <a id="customers"></a>Kontakter
 
 Ärenden kopplas till [kontakter][14], som i sin tur kan tillhöra ett [företag][13]. Det betyder att ärenden inte kan kopplas direkt till företag (endast indirekt via kontakter). När nya e-postmeddelanden importeras och registreras som ärenden kopplas de automatiskt till rätt kontakt baserat på e-postadressen. När du visar ett ärende ser du snabbt vem personen är, och genom att klicka på namnet kan du se övriga ärenden som registrerats för samma person. Detta ger en tydlig översikt över tidigare kommunikation.
+
+## Ärendeskärm
+
+Fönstret Ärende har följande delar:
+
+* Överst på skärmen visas **ärendehuvudet**, vilket innehåller grundläggande information om ärendet, som ID, titel, kontakt och tidsfrist.
+* Sidofältet **egenskaper för ärende** innehåller fält för Ägare, Status, Kategori, Prioritet, Åtkomstnivå och Taggar, vilka alla är fält som kan redigeras med knapparna **Spara** och **Avbryt**.
+* Under huvudet finns en rad med knappar som du kan använda för att utföra uppgifter kopplade till ärenden, som Svara, Svara alla, Vidarebefordra och Lägg till kommentar.
+* Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
+* På fliken **Detaljer** visas en översikt över den information som finns registrerad för ärendet.
+* Fliken **Ändringslogg** innehåller historiken för detta ärende. Ärendeloggen visar allt som har skett i ärendet sedan det registrerades.
+
+### Ärendehuvud
+
+Ärendets huvud innehåller de egenskaper som definierades när [ärendet skapades][4]. Huvudet består av ärendetitel, kontakt, tidsfrist och ärende-ID (i fliken). Du kan dessutom klicka på <i class="ph ph-star" aria-label="Star icon"></i> om du vill ange ärendet som en favorit. Ärendet blir då tillgängligt både via **Mina favoriter** på **Ärendehantering** i navigatorn och på panelen **Mina favoriter** på [dashboarden][17].
+
+### Fliken Meddelanden
+
+Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
+
+Du kan ändra hur många meddelanden som visas i **Personliga inställningar**:
+
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar**.
+1. Välj gruppen för **Ärende**.
+1. Ange antalet meddelanden i fältet **Antal expanderade meddelanden**.
+1. Klicka på **OK**.
+
+#### Meddelandetyper
+
+Det finns tre typer av meddelanden:
+
+* **Förfrågningar** från kontakter eller andra externa parter
+* **Svar** på dessa förfrågningar, som eventuellt ber om mer information
+* Interna kommentarer om ärendet, t.ex. frågor till en kollega
+
+> [!TIP]
+> Interna meddelanden är markerade med <i class="ph ph-dots-three" aria-label="Three dots"></i>.
+
+#### Meddelandeuppgifter
+
+Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på ett meddelande om du vill komma åt ytterligare alternativ för meddelandet:
+
+* **Ändra**: Klicka här om du vill [ändra][9] eller ta bort meddelandet.
+* **Svara**: Klicka här för att svara kontakten i fältet Till.
+* **Svara alla**: Klicka här för att svara alla kontakter i fälten Till, Kopia och Hemlig kopia.
+* **Vidarebefordra**: Klicka här om du vill [vidarebefordra meddelandet][8].
+* **E-postrubrik**: Klicka här om du vill visa e-posthuvudet.
+* **Visa**: Klicka här om du vill visa meddelandet i ett nytt fönster eller på en ny flik.
+* **Dela meddelande**: Klicka här om du vill [dela meddelandet][19] och skapa ett nytt ärende. Praktiskt om ett meddelande innehåller två frågor som bör behandlas av olika avdelningar, t.ex. en teknisk fråga och en fakturafråga.
+* **Skriv ut meddelande**: Klicka här om du vill skriva ut meddelandet.
+
+Längst upp på fliken **Meddelande** kan du skicka svar och vidarebefordra meddelanden och du kan även lägga till kommentarer som interna meddelanden.
+
+### Fliken Detaljer
+
+På fliken **Detaljer** visas en översikt över alla fält som finns registrerad för ärendet.
+
+### <a id="log"></a>Ändringslogg
+
+På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. när de inträffade, vad som hände och vem som var ansvarig.
+
+![Ändringsloggen för ett ärende visar alla olika ändringar som gjorts för ärendet -screenshot][img2]
+
+### Sidofältet egenskaper för ärende
+
+Sidofältet egenskaper för ärende innehåller följande alternativ:
+
+* **Status**: Visar ärendets status. Du kan ändra statusen här.
+  * **Aktivt**: Ärendet är under arbete.
+  * **Avslutat**: Ärendet besvarades fullt ut.
+  * **Uppskjutet**: Ärendehanteringen sköts upp till ett senare datum.
+
+* **Ägare**: Här visas namnet på den ärendehandläggare som ansvarar för ärendet. Du kan [ändra ägaren][7] här.
+
+* **Kategori**: Här visas vilken [kategori][25] ärendet tillhör. Du kan ändra kategorin här.
+
+* **Prioritet**: Välj mellan **Låg**, **Medel** och **Hög**, eller också kan du ange att systemet ska sätta prioriteten automatiskt. Det kan göras till exempel baserat på [eskaleringsnivåerna][24] som har angetts för olika kontakter och företag.
+
+* **Åtkomstnivå**: Välj ett av följande alternativ:
+  * **Externt**: Välj detta om kontakten ska ha tillgång till ärendet via SuperOffice Customer Centre.
+  * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
+
+* **Taggar**: I listrutan **Taggar** [väljer du relevanta taggar][22] för ärendet.
+
+### Uppgiftsalternativ
+
+Knappen **Uppgift**: Du kan klicka på denna knapp för att komma åt följande alternativ:
+
+* **Redigera**: Klicka här om du vill ändra egenskaperna för det här ärendet. Du kan t.ex. tilldela ärendet till en annan ärendehandläggare om du behöver [fråga en kollega om råd][7].
+* **Acceptera**: Klicka här om du vill [ta över ärendet][1]. Du blir då ärendets nya ägare.
+* **Dela**: Om ett ärende innehåller flera frågor, t.ex. om kunden först frågar om något tekniskt och sedan även passar på att ställa en fakturafråga, kan du [dela ärendet][11] i två genom att klicka på den här knappen.
+* **Slå ihop**: Klicka här om du vill slå ihop ärendet med ett eller flera andra ärenden. Om till exempel flera kontakter på samma företag rapporterar samma tekniska problem (via telefon, webbformulär och e-post) kan du [slå ihop dessa ärenden][16] till ett ärende som ska behandlas.
+* **Skriv ut**: Klicka här för att skriva ut ärendet.
+* **Ta bort**: Klicka här om du vill ta bort ärendet.
 
 ## <a id="request-mgt"></a>Ärendehantering
 
@@ -124,6 +221,12 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
 [10]: find.md
 [11]: split-request.md
 [12]: ../../search-options/learn/index.md
+[16]: merge.md
+[17]: ../../dashboard/learn/show-requests.md
+[19]: split-message.md
+[22]: tags.md
+[24]: ../admin/priority/escalation-levels.md
+[25]: ../admin/category/index.md
 [13]: ../../company/learn/index.md
 [14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
@@ -134,4 +237,5 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
+[img2]: ../../../media/loc/en/request/request-change-log.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png

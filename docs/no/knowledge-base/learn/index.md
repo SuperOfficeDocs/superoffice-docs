@@ -30,7 +30,7 @@ redirect_from: /no/request/learn/screen/knowledge-base
 * **E-postadresser**: Her kan du [opprette en liste over e-postadresser][4] som du ofte har bruk for, f.eks. e-postadresser til personer som ikke er brukere eller registrert som personer i SuperOffice CRM. Disse adressene vil da være tilgjengelige de fleste stedene der du har behov for å sende e-post.
 
 <!-- Referenced links -->
-[1]: ../request/learn/external-document.md
+[1]: external-document.md
 [2]: ../../faq/learn/index.md
 [3]: ../../../en/request/reply-templates/index.md
 [4]: ../../email/service/learn/kb-aliases/index.md
