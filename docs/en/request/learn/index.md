@@ -11,6 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: 
+  - /en/request/learn/screen/index
+  - /en/request/learn/screen/ticket-log
 ---
 
 # Requests and SuperOffice Service
@@ -36,6 +39,100 @@ When you double-click a row in the search results, you are taken to the Request 
 ### <a id="customers"></a>Contacts
 
 Requests can be linked to [contacts][14], who in turn can belong to a [company][13]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
+
+## Request screen
+
+The Request screen has the following sections:
+
+* At the top of the screen, the **request header** contains basic information about the request, like id, title, contact and deadline.
+* The **request properties** sidebar contains fields for Owner, Status, Category, Priority, Access level and Tags, all fields are editable with **Save** and **Cancel** buttons.
+* Below the header is a row of buttons for performing tasks associated with requests, such as Reply, Reply all, Forward, and Add comment.
+* The **Messages** tab displays the messages related to the request.
+* The **Details** tab contains an overview of the data registered for the request.
+* The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
+
+### Request header
+
+The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click <i class="ph ph-star" aria-label="Star icon"></i> to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
+
+### Messages tab
+
+The **Messages** tab displays the messages related to the request.
+
+You can change how many messages are displayed, in **Personal settings**:
+
+1. Select <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
+1. Select the group for **Request**.
+1. Specify the number of messages in the **No. of expanded messages** field.
+1. Click **OK**.
+
+#### Message types
+
+There are three types of messages:
+
+* **Enquiries** from contacts or other external parties
+* **Replies** to these enquiries, possibly asking for more details
+* Internal comments about the request, such as questions to a colleague
+
+> [!TIP]
+> Internal messages are marked with <i class="ph ph-dots-three" aria-label="Three dots"></i>.
+
+#### Message tasks
+
+Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on a message to access additional options for the message:
+
+* **Change**: Click here to [edit][9] or delete the message.
+* **Reply**: Click here to reply the contact in the To field.
+* **Reply all**: Click here to replay all contacts in the To, Cc and Bcc fields.
+* **Forward**: Click here to [forward the message][8].
+* **Email header**: Click here to view the email header.
+* **Show**: Click here to view the message in a new window/tab.
+* **Split message**: Click here to [split the message][19] and create a new request. Useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
+* **Print message**: Click here to print the message.
+
+At the top of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
+
+### Details tab
+
+The **Details** tab contains an overview of all the fields for the request.
+
+### <a id="log"></a>Change log
+
+This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
+
+![The change log on a requests shows all the different changes done on the request -screenshot][img2]
+
+### Request properties sidebar
+
+The request properties sidebar contains the following options:
+
+* **Status**: Shows the status of the request. You can change the status here.
+  * **Open**: The request is in progress.
+  * **Closed**: The request was fully answered.
+  * **Postponed**: Action on the request was postponed to a future date.
+
+* **Owner**: The name of the request handler who is responsible for the request is given here. You [can change the owner][7] here.
+
+* **Category**: The [category][25] that the request belongs to appears here. You can change the category here.
+
+* **Priority**: Choose between **Low**, **Medium**, and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][24] set for different contacts and companies.
+
+* **Access level**: Select one of the following options:
+  * **External**: Select this option if the contact is to have access to the request via the SuperOffice Customer Centre.
+  * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+
+* **Tags**: In the **Tags** list box, [select relevant tags][22] for this request.
+
+### Task options
+
+**Task** button: Click this button to access the following options:
+
+* **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][7].
+* **Accept**: Click here to [take over the request][1]. You will then be the request's new owner.
+* **Split**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can [split the request][11] into two using this button.
+* **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company report the same technical issue (via phone, web forms and email), you can [merge these requests][16] into one request that will be processed.
+* **Print**: Click here to print the request.
+* **Delete**: Click here to delete the request.
 
 ## <a id="request-mgt"></a>Request management
 
@@ -123,6 +220,12 @@ You can customize requests to suit your workflow:
 [9]: edit-message.md
 [10]: find.md
 [11]: split-request.md
+[16]: merge.md
+[17]: ../../dashboard/learn/show-requests.md
+[19]: split-message.md
+[22]: tags.md
+[24]: ../admin/priority/escalation-levels.md
+[25]: ../admin/category/index.md
 [12]: ../../search-options/learn/index.md
 [13]: ../../company/learn/index.md
 [14]: ../../contact/learn/index.md
@@ -134,4 +237,5 @@ You can customize requests to suit your workflow:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
+[img2]: ../../../media/loc/en/request/request-change-log.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png

@@ -1,8 +1,6 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skærmbilledet Sag
-  href: screen/index.md
 - name: Håndter sager med AI
   href: handle-request-ai.md
 - name: Find sag
@@ -37,8 +35,6 @@ items:
   href: close.md
 - name: Slet sag
   href: delete.md
-- name: Sagslog
-  href: screen/ticket-log.md
 - name: For admins
   href: ../admin/toc.yml
   topicHref: ../admin/index.md

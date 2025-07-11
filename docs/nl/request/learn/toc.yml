@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Verzoekscherm
-  href: screen/index.md
 - name: Verzoeken behandelen met AI
   href: handle-request-ai.md
 - name: Verzoek zoeken
@@ -37,8 +35,6 @@ items:
   href: close.md
 - name: Verzoek verwijderen
   href: delete.md
-- name: Verzoeklogboek
-  href: screen/ticket-log.md
 - name: Voor beheerders
   href: ../admin/toc.yml
   topicHref: ../admin/index.md

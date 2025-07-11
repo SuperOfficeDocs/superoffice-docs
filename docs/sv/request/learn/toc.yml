@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Ärendeskärm
-  href: screen/index.md
 - name: Hantera ärenden med AI
   href: handle-request-ai.md
 - name: Söka ärende
@@ -37,8 +35,6 @@ items:
   href: close.md
 - name: Ta bort ärende
   href: delete.md
-- name: Ärendelogg
-  href: screen/ticket-log.md
 - name: För administratörer
   href: ../admin/toc.yml
   topicHref: ../admin/index.md

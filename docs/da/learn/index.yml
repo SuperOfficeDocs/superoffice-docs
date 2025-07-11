@@ -267,7 +267,7 @@ conceptualContent:
       - text: Skærmbilledet Sag
         itemType: library_books
         typeDesc: reference
-        url: ../request/learn/screen/index.md
+        url: ../request/learn/index.md
 
     # Card
     - title: Salg and dashboards

@@ -267,7 +267,7 @@ conceptualContent:
       - text: Ärendeskärm
         itemType: library_books
         typeDesc: reference
-        url: ../request/learn/screen/index.md
+        url: ../request/learn/index.md
 
     # Card
     - title: Försäljning och dashboard

@@ -11,6 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+redirect_from: 
+  - /da/request/learn/screen/index
+  - /da/request/learn/screen/ticket-log
 ---
 
 # Sager og SuperOffice Service
@@ -36,6 +39,100 @@ Når du dobbeltklikker på en række i søgeresultaterne, åbnes skærmbilledet 
 ### <a id="customers"></a>Personer
 
 Sager kan knyttes til [personer][14], som igen kan være tilknyttet et [firma][13]. Sager kan ikke direkte knyttes til firmaer (kun indirekte via personer). Når nye e-mails importeres og gemmes som sager, tilknyttes sagen automatisk den korrekte person via e-mailadressen. Når du ser en sag, kan du hurtigt se, hvem personen er, og ved at klikke på deres navn kan du se deres tidligere sager. Dette giver et hurtigt overblik over tidligere kommunikation.
+
+## Sagsskærmbillede
+
+Skærmbilledet Sag har følgende sektioner:
+
+* Øverst i skærmbilledet indeholder **sagsheaderen** grundlæggende information om sagen som for eksempel ID, titel, person og tidsfrist.
+* Sidepanelet **Egenskaber for sag** indeholder felter for Ejer, Status, Kategori, Prioritet, Adgangsniveau og Tags, alle felter kan redigeres med knapperne **Gem** og **Afbryd**.
+* Nedenunder headeren finder du en række knapper, som du kan bruge til at udføre opgaver, der er knyttet til sager, som for eksempel Svar, Svar til alle, Videresend og Tilføj kommentar.
+* Fanen **Meddelelser** viser meddelelser vedrørende sagen.
+* Fanen **Detaljer** indeholder en oversigt over de registrerede data for sagen.
+* Fanen **Ændringslog** indeholder historikken for denne sag. Sagsloggen viser alt, hvad der er sket i denne sag, siden den blev registreret.
+
+### Sagsoverskrift
+
+Sagens header indeholder de egenskaber, der blev angivet, da [sagen blev oprettet][4]. Headeren består af sagstitel, person, tidsfrist og sags-id (på fanen). Desuden kan du klikke på <i class="ph ph-star" aria-label="Star icon"></i> for at angive sagen som et foretrukkent. Sagen vil derefter være tilgængelig via **Mine foretrukne** på **Sager** i Navigator og i ruden**Mine foretrukne** på et [dashboard][17].
+
+### Fanen Meddelelser
+
+Fanen **Meddelelser** viser meddelelser vedrørende sagen.
+
+Du kan ændre,hvor mange meddelelser der vises, i **Personlige indstillinger**:
+
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer**.
+1. Vælg gruppen for **Sag**.
+1. Angiv antal meddelelser i feltet **Antal ekspanderede meddelelser**.
+1. Klik på **OK**.
+
+#### Meddelelsestyper
+
+Der er typer meddelelser:
+
+* **Henvendelser** fra personer eller andre eksterne parter
+* **Svar** på disse henvendelser, eventuelt med spørgsmål om flere detaljer
+* Interne kommentarer om sagen som for eksempel spørgsmål til en kollega
+
+> [!TIP]
+> Interne meddelelser er markeret med <i class="ph ph-dots-three" aria-label="Three dots"></i>.
+
+#### Meddelelsesopgaver
+
+Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på en meddelelse for at få adgang til yderligere indstillinger for meddelelsen:
+
+* **Rediger**: Klik her for at [redigere][9] eller slette meddelelsen.
+* **Svar**: Klik her for at svare personen i feltet Til.
+* **Svar til alle**: Klik her for at svare alle personer i felterne til, Cc og Bcc.
+* **Videresend**: Klik her for at [videresende meddelelsen][8].
+* **E-mail-header**: Klik her for at få vist e-mail-headeren.
+* **Vis**: Klik her for at få vist meddelelsen i et nyt vindue/en ny fane.
+* **Opdel meddelelse**: Klik her for at [dele meddelelsen][19] og oprette en ny sag. Det er nyttigt, hvis meddelelsen indeholder to spørgsmål, der skal behandles af forskellige afdelinger, for eksempel et teknisk spørgsmål og et fakturaspørgsmål.
+* **Udskriv meddelelse**: Klik her, hvis du vil udskrive meddelelsen.
+
+Øverst på fanen **Meddelelser** kan du sende svar og videresende meddelelser, og du kan også tilføje kommentarer som interne meddelelser.
+
+### Fanen Detaljer
+
+Fanen **Detaljer** indeholder en oversigt over alle felter til sagen.
+
+### <a id="log"></a>Ændringslog
+
+Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sagen med oplysninger om, hvornår de opstod, hvad der skete, og hvem der er ansvarlig.
+
+![Ændringsloggen på en sag viser alle de forskellige ændringer, der er foretaget på sagen -screenshot][img2]
+
+### Sidepanelet Egenskaber for sag
+
+Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
+
+* **Status**: Viser status for sagen. Du kan ændre status her.
+  * **Aktiv**: Sagen er under behandling.
+  * **Afsluttet**: Sagen er løst.
+  * **Udsat**: Sagsbehandlingen blev udsat til en dato i fremtiden.
+
+* **Ejer**: Hér vises navnet på den sagsbehandler, der har ansvaret for sagen. Du [kan ændre ejeren][7] her.
+
+* **Kategori**: Den [kategori][25], som sagen hører til, vises her. Du kan ændre kategorien her.
+
+* **Prioritet**: Vælg mellem **Lavt**, **Middel** og **Højt**, eller du kan få systemet til at tildele prioriteten automatisk. Det kan f.eks. gøres på grundlag af [eskaleringsniveauer][24], der er angivet for forskellige personer og firmaer.
+
+* **Adgangsniveau**: Vælg en af følgende valgmuligheder:
+  * **Eksternt**: Vælg denne indstilling, hvis personen skal have adgang til sagen via SuperOffice Kundecenter.
+  * **Intern**: Vælg denne indstilling, hvis personen ikke skal have adgang til sagen. Sagen vises i SuperOffice Kundecenter, men personen kan ikke se sagsdetaljerne eller meddelelserne.
+
+* **Tags**: Gå til rullemenuen **Tags**, og [vælg de relevante tags][22] til denne sag.
+
+### Indstillinger for opgave
+
+Knappen **Opgave**: Klik på denne knap for at få adgang til følgende valgmuligheder:
+
+* **Rediger**: Klik her for at ændre egenskaberne for denne sag. Du kan for eksempel tildele sagen til en anden sagsbehandler, hvis du har brug for at [indhente råd fra en kollega][7].
+* **Accepter**: Klik her for at [overtage sagen][1]. Du bliver så sagens nye ejer.
+* **Del**: Hvis samme sag indeholder flere spørgsmål, for eksempel hvis kunden først spørger om noget teknisk og efterfølgende stiller et fakturaspørgsmål, kan du [dele sagen][11] i to ved at klikke på denne knap.
+* **Flet**: Klik her for at flette denne sag med en eller flere andre sager. Hvis flere personer i samme firma for eksempel rapporterer det samme tekniske problem (via telefon, webformularer og e-mail), kan du [flette disse sager][16] til én sag, som vil blive behandlet.
+* **Udskriv**: Klik her, hvis du vil udskrive sagen.
+* **Slet**: Klik her for at slette sagen.
 
 ## <a id="request-mgt"></a>Sagshåndtering
 
@@ -102,7 +199,7 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 
 1. Klik på **Gem** for at anvende dine ændringer.
 
-## Relateret inhold
+## Relateret indhold
 
 * [Opret sag][4]
 * [Accepter][1]
@@ -124,14 +221,21 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 [10]: find.md
 [11]: split-request.md
 [12]: ../../search-options/learn/index.md
+[16]: merge.md
+[17]: ../../dashboard/learn/show-requests.md
+[19]: split-message.md
+[22]: tags.md
+[24]: ../admin/priority/escalation-levels.md
+[25]: ../admin/category/index.md
 [13]: ../../company/learn/index.md
 [14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
 [18]: ../../learn/basics/fav.md
+[23]: ../reply-templates/learn/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
-[23]: ../reply-templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
+[img2]: ../../../media/loc/en/request/request-change-log.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png
