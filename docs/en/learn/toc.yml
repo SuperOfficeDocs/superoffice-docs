@@ -53,10 +53,10 @@ items:
     topicHref: ../mobile/superoffice-mobile/index.md
 
   - name: Knowledge base
-    topicHref: ../request/learn/screen/knowledge-base.md
+    topicHref: ../knowledge-base/learn/index.md
     items:
     - name: Overview
-      href: ../request/learn/screen/knowledge-base.md
+      href: ../knowledge-base/learn/index.md
     - name: Reply templates
       href: ../request/reply-templates/learn/toc.yml
       topicHref: ../request/reply-templates/learn/index.md

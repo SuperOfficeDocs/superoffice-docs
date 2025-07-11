@@ -53,10 +53,10 @@ items:
     href: ../mobile/superoffice-mobile/index.md
 
   - name: Vidensbase
-    topicHref: ../request/learn/screen/knowledge-base.md
+    topicHref: ../knowledge-base/learn/index.md
     items:
     - name: Oversigt
-      href: ../request/learn/screen/knowledge-base.md
+      href: ../knowledge-base/learn/index.md
     - name: Svarskabeloner
       href: ../request/reply-templates/learn/toc.yml
       topicHref: ../request/reply-templates/learn/index.md
