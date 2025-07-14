@@ -24,3 +24,10 @@ items:
     href: transfer-to-agent.md
   - name: De chatfunctie gebruiken vanuit klantperspectief
     href: as-customer.md
+- name: Voor beheerders
+  topicHref: ../admin/index.md
+  items:
+  - name: Een chatkanaal maken
+    href: ../admin/channel-create.md
+  - name: JavaScript voor uw website toevoegen
+    href: ../admin/add-javascript.md

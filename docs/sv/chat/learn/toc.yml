@@ -24,3 +24,10 @@ items:
     href: transfer-to-agent.md
   - name: Använda chattfunktionen från kundens perspektiv
     href: as-customer.md
+- name: För administratörer
+  topicHref: ../admin/index.md
+  items:
+  - name: Skapa chattkanal
+    href: ../admin/channel-create.md
+  - name: Lägg till JavaScript till webbplatsen
+    href: ../admin/add-javascript.md

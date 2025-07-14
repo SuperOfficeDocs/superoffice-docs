@@ -42,7 +42,7 @@ You need to [set up your chat widget][3] before you add it to your Customer cent
 
 <!-- Referenced links -->
 [1]: ../../admin/options/learn/custlang/index.md
-[3]: ../../chat/learn/admin/channel-create.md
+[3]: ../../chat/admin/channel-create.md
 [2]: config.md
 
 <!-- Referenced images -->

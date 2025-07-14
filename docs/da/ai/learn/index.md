@@ -32,7 +32,7 @@ AI kan hjælpe dig med at få mening ud af de data, du har, og hjælpe dig med a
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
-[3]: ../../chat/learn/admin/channel-create.md#chatbot
+[3]: ../../chat/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png
