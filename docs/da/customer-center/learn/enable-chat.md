@@ -42,7 +42,7 @@ Du skal [konfigurere din chatwidget][3] før du føjer den til dit kundecenter.
 
 <!-- Referenced links -->
 [1]: ../../admin/options/learn/custlang/index.md
-[3]: ../../chat/learn/admin/channel-create.md
+[3]: ../../chat/admin/channel-create.md
 [2]: config.md
 
 <!-- Referenced images -->

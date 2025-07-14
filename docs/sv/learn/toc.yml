@@ -103,16 +103,6 @@ items:
       href: ../admin/options/learn/toc.yml
       topicHref: ../admin/options/learn/index.md
 
-    - name: Chatt
-      topicHref: ../chat/learn/admin/index.md
-      items:
-      - name: Översikt
-        href: ../chat/learn/admin/index.md
-      - name: Skapa en chattkanal
-        href: ../chat/learn/admin/channel-create.md
-      - name: Lägga till JavaScript till webbplatsen
-        href: ../chat/learn/admin/add-javascript.md
-
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md

@@ -42,7 +42,7 @@ U moet [uw chatwidget instellen][3] voordat u deze toevoegt aan uw klantencentru
 
 <!-- Referenced links -->
 [1]: ../../admin/options/learn/custlang/index.md
-[3]: ../../chat/learn/admin/channel-create.md
+[3]: ../../chat/admin/channel-create.md
 [2]: config.md
 
 <!-- Referenced images -->

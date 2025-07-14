@@ -52,4 +52,4 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 
 [21]: ../../customer-center/learn/index.md
 [22]: ../../email/service/learn/index.md
-[23]: ../../chat/learn/admin/index.md
+[23]: ../../chat/admin/index.md

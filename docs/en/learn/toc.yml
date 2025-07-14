@@ -103,16 +103,6 @@ items:
       href: ../admin/options/learn/toc.yml
       topicHref: ../admin/options/learn/index.md
 
-    - name: Chat
-      href: ../chat/learn/admin/index.md
-      items:
-      - name: Overview
-        href: ../chat/learn/admin/index.md
-      - name: Create a chat channel
-        href: ../chat/learn/admin/channel-create.md
-      - name: Add JavaScript for your website
-        href: ../chat/learn/admin/add-javascript.md
-
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md
