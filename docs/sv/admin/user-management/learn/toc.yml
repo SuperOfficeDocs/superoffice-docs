@@ -1,8 +1,6 @@
 items:
   - name: Översikt
     href: index.md
-  - name: Fönstret Användare
-    href: screen/index.md
   - name: Lägga till SuperOffice-användare
     href: add-associate.md
   - name: Importera användare från AD

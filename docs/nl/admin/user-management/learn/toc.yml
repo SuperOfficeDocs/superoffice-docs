@@ -1,8 +1,6 @@
 items:
   - name: Overzicht
     href: index.md
-  - name: Scherm Gebruikers
-    href: screen/index.md
   - name: Een SuperOffice-gebruiker toevoegen
     href: add-associate.md
   - name: Gebruikers importeren uit AD
