@@ -39,8 +39,6 @@ items:
   items:
   - name: Overzicht
     href: specialized-lists.md
-  - name: Documentsjabloon
-    topicHref: ../../../document/templates/learn/index.md
   - name: E-mailsjabloon
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Type vervolgactiviteit toevoegen
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Verkoop
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Verkoopfase toevoegen
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Verkooptype toevoegen
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Verkoopbedragklasse toevoegen
-      href: sale-amount-class.md
-
-  - name: Project
-    topicHref: ../../../project/admin/index.md
-    items:
-    - name: Projectstatus toevoegen
-      topicHref: ../../../project/admin/project-status.md
-    - name: Projecttype toevoegen
-      topicHref: ../../../project/admin/project-type.md
+  - name: Verkoopbedragklasse toevoegen
+    href: sale-amount-class.md
 
   - name: Algemeen
     topicHref: country.md
