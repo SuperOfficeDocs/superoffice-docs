@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 redirect_from: /de/chat/learn/admin/index
+index: true
 ---
 
 # Chat-Administration

@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/chat/learn/admin/add-javascript
+index: true
 ---
 
 # Legg til JavaScript for websiden

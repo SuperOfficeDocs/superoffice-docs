@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 redirect_from: /nl/chat/learn/admin/add-javascript
+index: true
 ---
 
 # JavaScript voor uw website toevoegen

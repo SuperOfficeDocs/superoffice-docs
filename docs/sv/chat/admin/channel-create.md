@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/chat/learn/admin/channel-create
+index: true
 ---
 
 # Skapa en chattkanal

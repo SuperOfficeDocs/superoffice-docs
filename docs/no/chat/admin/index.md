@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 redirect_from: /no/chat/learn/admin/index
+index: true
 ---
 
 # Chatadministrasjon

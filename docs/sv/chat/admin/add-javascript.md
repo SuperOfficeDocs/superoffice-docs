@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 redirect_from: /sv/chat/learn/admin/add-javascript
+index: true
 ---
 
 # Lägg till JavaScript till webbplatsen

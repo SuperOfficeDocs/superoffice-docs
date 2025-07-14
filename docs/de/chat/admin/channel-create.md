@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 redirect_from: /de/chat/learn/admin/channel-create
+index: true
 ---
 
 # Chat-Kanal erstellen
