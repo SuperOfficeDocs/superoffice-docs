@@ -91,6 +91,6 @@ Um eine andere Vorlage auszuwählen, müssen Sie <i class="ph ph-caret-down" ari
 * [FAQ-Überblick][3]
 
 <!-- Referenced links -->
-[1]: ../../email/service/learn/kb-aliases/index.md
+[1]: ../../knowledge-base/learn/kb-aliases/index.md
 [2]: ../reply-templates/learn/index.md
 [3]: ../../faq/learn/index.md
