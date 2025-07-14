@@ -1,4 +1,5 @@
 ---
+uid: webapi-reference
 title: SuperOffice WebApi Client Library
 description: Describes the SuperOffice WebApi library, a REST client for SuperOffice web services.
 author: Anthony Yates
