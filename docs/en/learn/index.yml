@@ -267,7 +267,7 @@ conceptualContent:
       - text: The Request screen
         itemType: library_books
         typeDesc: reference
-        url: ../request/learn/screen/index.md
+        url: ../request/learn/index.md
 
     # Card
     - title: Sale and dashboards

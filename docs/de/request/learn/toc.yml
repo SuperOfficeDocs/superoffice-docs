@@ -1,8 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Anfrageansicht
-  href: screen/index.md
 - name: Anfragen mit AI behandeln
   href: handle-request-ai.md
 - name: Anfrage suchen
@@ -37,8 +35,6 @@ items:
   href: close.md
 - name: Anfrage löschen
   href: delete.md
-- name: Anfrageprotokoll
-  href: screen/ticket-log.md
 - name: Für Admins
   href: ../admin/toc.yml
   topicHref: ../admin/index.md
