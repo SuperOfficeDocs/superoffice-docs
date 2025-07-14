@@ -1,8 +1,6 @@
 items:
   - name: Oversigt
     href: index.md
-  - name: Skærmbilledet Brugere
-    href: screen/index.md
   - name: Tilføj SuperOffice-bruger
     href: add-associate.md
   - name: Importér brugere fra AD

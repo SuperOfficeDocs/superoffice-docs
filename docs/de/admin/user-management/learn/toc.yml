@@ -1,8 +1,6 @@
 items:
   - name: Überblick
     href: index.md
-  - name: Ansicht Benutzer
-    href: screen/index.md
   - name: SuperOffice-Benutzer hinzufügen
     href: add-associate.md
   - name: Benutzer aus AD importieren
