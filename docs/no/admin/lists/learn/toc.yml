@@ -39,8 +39,6 @@ items:
   items:
   - name: Oversikt
     href: specialized-lists.md
-  - name: Dokumentmal
-    topicHref: ../../../document/templates/learn/index.md
   - name: E-postmal
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Legge til oppfølgingstype
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Salg
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Legg til salgsfase
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Legg til salgstype
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Legg til salgsbeløpsklasse
-      href: sale-amount-class.md
-
-  - name: Prosjekt
-    topicHref: ../../../project/admin/index.md
-    items:
-    - name: Legg til prosjektstatus
-      topicHref: ../../../project/admin/project-status.md
-    - name: Legg til prosjekttype
-      topicHref: ../../../project/admin/project-type.md
+  - name: Legg til salgsbeløpsklasse
+    href: sale-amount-class.md
 
   - name: Generelt
     topicHref: country.md

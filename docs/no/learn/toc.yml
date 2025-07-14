@@ -90,16 +90,6 @@ items:
     - name: Personvern
       href: ../security/privacy/learn/admin/toc.yml
       topicHref: ../security/privacy/learn/implementation-guide.md
-    - name: Tilbud/Sync
-      topicHref: ../sale/admin/quote/index.md
-
-    - name: Arbeidsflyt
-      topicHref: ../sale/admin/create-sales-guide.md
-      items:
-      - name: Salgsguide
-        topicHref: ../sale/admin/create-sales-guide.md
-      - name: Prosjektguide
-        topicHref: ../project/admin/create-project-guide.md
 
     - name: Egendefinerte objekter
       href: ../custom-objects/learn/toc.yml
@@ -126,9 +116,6 @@ items:
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md
-
-    - name: Saksbehandling
-      topicHref: ../request/admin/index.md
 
     - name: E-post
       href: ../email/service/learn/toc.yml

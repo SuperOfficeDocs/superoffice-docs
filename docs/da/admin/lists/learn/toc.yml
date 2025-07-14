@@ -39,8 +39,6 @@ items:
   items:
   - name: Oversigt
     href: specialized-lists.md
-  - name: Dokumentskabelon
-    topicHref: ../../../document/templates/learn/index.md
   - name: E-mailskabelon
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Tilføj opfølgningstype
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Salg
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Tilføj salgsfase
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Tilføj salgstype
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Tilføj salgsbeløbsklasse
-      href: sale-amount-class.md
-
-  - name: Projekt
-    topicHref: ../../../project/admin/index.md
-    items:
-    - name: Tilføj projektstatus
-      topicHref: ../../../project/admin/project-status.md
-    - name: Tilføj projekttype
-      topicHref: ../../../project/admin/project-type.md
+  - name: Tilføj salgsbeløbsklasse
+    href: sale-amount-class.md
 
   - name: Generel
     topicHref: country.md
