@@ -64,8 +64,8 @@ items:
       href: ../faq/learn/toc.yml
       topicHref: ../faq/learn/index.md
     - name: E-postadresser
-      href: ../email/service/learn/kb-aliases/toc.yml
-      topicHref: ../email/service/learn/kb-aliases/index.md
+      href: ../knowledge-base/learn/kb-aliases/toc.yml
+      topicHref: ../knowledge-base/learn/kb-aliases/index.md
     - name: Externa dokument
       href: ../knowledge-base/learn/external-document.md
 
