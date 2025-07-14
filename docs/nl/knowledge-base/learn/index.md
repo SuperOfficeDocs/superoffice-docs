@@ -33,6 +33,6 @@ De **kennisdatabase** is toegankelijk vanuit het **Hoofdmenu** in de bovenste ba
 [1]: external-document.md
 [2]: ../../faq/learn/index.md
 [3]: ../../request/reply-templates/learn/index.md
-[4]: ../../email/service/learn/kb-aliases/index.md
+[4]: ../kb-aliases/index.md
 
 <!-- Referenced images -->

@@ -88,7 +88,7 @@ Hvis du vil vælge en anden skabelon, skal du klikke på ![ikonet][img1] for lis
 * [Oversigt over FAQ'er][3]
 
 <!-- Referenced links -->
-[1]: ../../email/service/learn/kb-aliases/index.md
+[1]: ../../knowledge-base/learn/kb-aliases/index.md
 [2]: ../reply-templates/learn/index.md
 [3]: ../../faq/learn/index.md
 

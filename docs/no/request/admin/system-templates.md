@@ -89,6 +89,6 @@ Hvis du vil velge en annen mal, klikker du på <i class="ph ph-caret-down" aria-
 * [FAQ-oversikt][3]
 
 <!-- Refererte lenker -->
-[1]: ../../email/service/learn/kb-aliases/index.md
+[1]: ../../knowledge-base/learn/kb-aliases/index.md
 [2]: ../reply-templates/learn/index.md
 [3]: ../../faq/learn/index.md
