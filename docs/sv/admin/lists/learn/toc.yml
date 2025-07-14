@@ -39,8 +39,6 @@ items:
   items:
   - name: Översikt
     href: specialized-lists.md
-  - name: Dokumentmall
-    topicHref: ../../../document/templates/learn/index.md
   - name: E-post - mall
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Lägga till händelsetyp
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Försäljning
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Lägga till försäljningsfas
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Lägga till försäljningstyp
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Lägga till beloppsklass för försäljning
-      href: sale-amount-class.md
-
-  - name: Projekt
-    topicHref: ../../../project/admin/index.md
-    items:
-    - name: Lägga till projektstatus
-      topicHref: ../../../project/admin/project-status.md
-    - name: Lägga till projekttyp
-      topicHref: ../../../project/admin/project-type.md
+  - name: Lägga till beloppsklass för försäljning
+    href: sale-amount-class.md
 
   - name: Allmänt
     topicHref: country.md

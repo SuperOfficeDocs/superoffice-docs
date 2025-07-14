@@ -39,8 +39,6 @@ items:
   items:
   - name: Overview
     href: specialized-lists.md
-  - name: Document template
-    topicHref: ../../../document/templates/learn/index.md
   - name: Email template
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Add follow-up type
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Sale
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Add sale stage
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Add sale type
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Add sale amount class
-      href: sale-amount-class.md
-
-  - name: Project
-    topicHref: ../../../project/admin/index.md 
-    items:
-    - name: Add project status
-      topicHref: ../../../project/admin/project-status.md
-    - name: Add project type
-      topicHref: ../../../project/admin/project-type.md
+  - name: Add sale amount class
+    href: sale-amount-class.md 
 
   - name: General
     topicHref: country.md

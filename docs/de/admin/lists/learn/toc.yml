@@ -39,8 +39,6 @@ items:
   items:
   - name: Überblick
     href: specialized-lists.md
-  - name: Dokumentvorlage
-    topicHref: ../../../document/templates/learn/index.md
   - name: E-Mail-Vorlage
     href: email-template.md
     items:
@@ -52,23 +50,8 @@ items:
     - name: Typ der Folgeaufgabe hinzufügen
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Verkauf
-    topicHref: ../../../sale/admin/index.md
-    items:
-    - name: Verkaufsstufe hinzufügen
-      topicHref: ../../../sale/admin/sale-stage.md
-    - name: Verkaufstyp hinzufügen
-      topicHref: ../../../sale/admin/sale-type.md
-    - name: Verkauf - Betragsklasse hinzufügen
-      href: sale-amount-class.md
-
-  - name: Projekt
-    topicHref: ../../../project/admin/index.md
-    items:
-    - name: Projektstatus hinzufügen
-      topicHref: ../../../project/admin/project-status.md
-    - name: Projekttyp hinzufügen
-      topicHref: ../../../project/admin/project-type.md
+  - name: Verkauf - Betragsklasse hinzufügen
+    href: sale-amount-class.md
 
   - name: Allgemein
     topicHref: country.md

@@ -90,16 +90,6 @@ items:
     - name: Integritet
       href: ../security/privacy/learn/admin/toc.yml
       topicHref: ../security/privacy/learn/implementation-guide.md
-    - name: Offert/Synk
-      topicHref: ../sale/admin/quote/index.md
-
-    - name: Arbetsflöde
-      topicHref: ../sale/admin/create-sales-guide.md
-      items:
-      - name: Försäljningsguide
-        topicHref: ../sale/admin/create-sales-guide.md
-      - name: Projektguide
-        topicHref: ../project/admin/create-project-guide.md
 
     - name: Egendefinierade objekt
       href: ../custom-objects/learn/toc.yml
@@ -126,9 +116,6 @@ items:
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md
-
-    - name: Ärenden
-      topicHref: ../request/admin/index.md
 
     - name: E-post
       href: ../email/service/learn/toc.yml

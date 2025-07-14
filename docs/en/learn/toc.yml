@@ -90,16 +90,6 @@ items:
     - name: Privacy
       href: ../security/privacy/learn/admin/toc.yml
       topicHref: ../security/privacy/learn/implementation-guide.md
-    - name: Quote/Sync
-      topicHref: ../sale/admin/quote/index.md
-
-    - name: Workflow
-      topicHref: ../sale/admin/create-sales-guide.md
-      items:
-      - name: Sales guide
-        topicHref: ../sale/admin/create-sales-guide.md
-      - name: Project guide
-        topicHref: ../project/admin/create-project-guide.md
 
     - name: Custom objects
       href: ../custom-objects/learn/toc.yml
@@ -126,9 +116,6 @@ items:
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md
-
-    - name: Requests
-      topicHref: ../request/admin/index.md 
 
     - name: Email
       href: ../email/service/learn/toc.yml
