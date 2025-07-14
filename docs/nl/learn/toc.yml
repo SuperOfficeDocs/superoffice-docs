@@ -103,16 +103,6 @@ items:
       href: ../admin/options/learn/toc.yml
       topicHref: ../admin/options/learn/index.md
 
-    - name: Chatten
-      topicHref: ../chat/learn/admin/index.md
-      items:
-      - name: Overzicht
-        href: ../chat/learn/admin/index.md
-      - name: Een chatkanaal maken
-        href: ../chat/learn/admin/channel-create.md
-      - name: JavaScript voor uw website toevoegen
-        href: ../chat/learn/admin/add-javascript.md
-
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
       topicHref: ../automation/crmscript/learn/index.md

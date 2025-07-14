@@ -24,3 +24,12 @@ items:
     href: transfer-to-agent.md
   - name: Brug af chatfunktionen fra kundens perspektiv
     href: as-customer.md
+- name: For admins
+  topicHref: ../admin/index.md
+  items:
+  - name: Oversigt
+    href: ../admin/index.md
+  - name: Opret en chatkanal
+    href: ../admin/channel-create.md
+  - name: Tilføj JavaScript til dit websted
+    href: ../admin/add-javascript.md

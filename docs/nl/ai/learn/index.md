@@ -32,7 +32,7 @@ AI kan u helpen inzicht te krijgen in de gegevens die u hebt en u helpen process
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
-[3]: ../../chat/learn/admin/channel-create.md#chatbot
+[3]: ../../chat/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png

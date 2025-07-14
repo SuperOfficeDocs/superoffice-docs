@@ -51,4 +51,4 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 
 [21]: ../../customer-center/learn/index.md
 [22]: ../../email/service/learn/index.md
-[23]: ../../chat/learn/admin/index.md
+[23]: ../../chat/admin/index.md
