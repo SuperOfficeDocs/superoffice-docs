@@ -3,3 +3,6 @@ items:
   href: index.md
 - name: Dialogboks for status
   href: status-dialog.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

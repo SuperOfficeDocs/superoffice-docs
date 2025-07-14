@@ -3,3 +3,6 @@ items:
   href: index.md
 - name: Statusdialogruta
   href: status-dialog.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

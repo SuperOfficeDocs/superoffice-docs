@@ -3,3 +3,6 @@ items:
   href: index.md
 - name: Dialoogvenster Status
   href: status-dialog.md
+- name: Voor beheerders
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

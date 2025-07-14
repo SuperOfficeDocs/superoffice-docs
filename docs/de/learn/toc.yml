@@ -142,10 +142,6 @@ items:
       href: ../ui/blogic/learn/toc.yml
       topicHref: ../ui/blogic/learn/index.md
 
-    - name: SAINT (Sales Intelligence)
-      href: ../saint/admin/toc.yml
-      topicHref: ../saint/admin/index.md
-
     - name: Vor Ort
       topicHref: ../automation/crmscript/learn/screen/data-exchange.md
       items:
