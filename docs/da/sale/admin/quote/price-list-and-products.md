@@ -139,10 +139,10 @@ Tjek, om brugeren har [adgangsrettigheder][7], og om eksport er aktiveret i [pr√
 <!-- Referenced links -->
 [1]: set-up-quote-connector.md
 [3]: configure-product-fields.md
-[4]: ../../../../learn/section-tabs/adjust-list-view.md
-[5]: ../../../../admin/import/learn/import-products-from-excel.md
-[7]: ../../../../admin/user-management/learn/role/index.md
-[8]: ../../../../admin/preferences/learn/index.md
+[4]: ../../../learn/section-tabs/adjust-list-view.md
+[5]: ../../../admin/import/learn/import-products-from-excel.md
+[7]: ../../../admin/user-management/learn/role/index.md
+[8]: ../../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/sale/add-products-to-price-list.png
