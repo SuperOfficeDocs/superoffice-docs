@@ -163,8 +163,8 @@ Funktionen autospara aktiveras som standard när du visar och redigerar ärenden
 [10]: ../../ui/screen-designer/learn/index.md
 [11]: ../../learn/getting-started/edit-email-signature.md
 [16]: ../../custom-objects/admin/create-extra-field.md
-[18]: ../reply-templates/learn/template-variables.md
-[19]: ../reply-templates/learn/index.md
+[18]: ../../knowledge-base/learn/reply-templates/template-variables.md
+[19]: ../../knowledge-base/learn/reply-templates/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

@@ -225,17 +225,17 @@ Some parser variables that exist will not be described. These are present only f
 [7]: admin/priority/create.md
 [8]: admin/priority/escalation-levels.md
 
-[11]: reply-templates/learn/create.md
-[13]: reply-templates/learn/template-variables.md
+[11]: ../knowledge-base/learn/reply-templates/create.md
+[13]: ../knowledge-base/learn/reply-templates/template-variables.md
 [14]: ../admin/lists/learn/add-email-template.md
 [15]: ../admin/options/learn/custlang/index.md
 [16]: ../database/tables/reply-template.md
 
-[21]: reply-templates/learn/template-variables.md#customer
-[22]: reply-templates/learn/template-variables.md#company
-[23]: reply-templates/learn/template-variables.md#user
-[24]: reply-templates/learn/template-variables.md#ticket
-[25]: reply-templates/learn/template-variables.md#config
+[21]: ../knowledge-base/learn/reply-templates/template-variables.md#customer
+[22]: ../knowledge-base/learn/reply-templates/template-variables.md#company
+[23]: ../knowledge-base/learn/reply-templates/template-variables.md#user
+[24]: ../knowledge-base/learn/reply-templates/template-variables.md#ticket
+[25]: ../knowledge-base/learn/reply-templates/template-variables.md#config
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/request/request-screen.png

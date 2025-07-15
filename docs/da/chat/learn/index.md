@@ -93,7 +93,7 @@ Hvis kunden findes i SuperOffice, kan du vise kontaktinformation, sager, salg, o
 
 <!-- Referenced links -->
 [1]: ../../faq/learn/index.md
-[3]: ../../request/reply-templates/learn/index.md
+[3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md
 [6]: as-customer.md

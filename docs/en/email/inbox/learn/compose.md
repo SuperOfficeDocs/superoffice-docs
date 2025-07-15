@@ -150,7 +150,7 @@ To access these settings:
 [2]: create-request.md
 [3]: ../../../learn/getting-started/edit-email-signature.md
 [4]: ../../../faq/learn/index.md
-[5]: ../../../request/reply-templates/learn/index.md
+[5]: ../../../knowledge-base/learn/reply-templates/index.md
 [6]: ../../../admin/lists/learn/add-email-template.md
 
 <!-- Referenced images -->

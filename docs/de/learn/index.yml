@@ -263,7 +263,7 @@ conceptualContent:
       - text: Mit Antwortvorlagen arbeiten
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/reply-templates/learn/create.md
+        url: ../knowledge-base/learn/reply-templates/create.md
       - text: Anfrageansicht
         itemType: library_books
         typeDesc: reference

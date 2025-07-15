@@ -65,5 +65,5 @@ language: de
 
 <!-- Referenced links -->
 [1]: ../../../../automation/crmscript/learn/index.md
-[2]: ../../../../request/reply-templates/learn/index.md
-[3]: ../../../../request/reply-templates/learn/create.md#faq
+[2]: ../../../../knowledge-base/learn/reply-templates/index.md
+[3]: ../../../../knowledge-base/learn/reply-templates/create.md#faq
