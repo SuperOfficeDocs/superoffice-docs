@@ -47,6 +47,6 @@ A field identifier is a unique ID for a specific field. It will not change even 
 <!-- Referenced links -->
 [1]: create.md
 [2]: publish.md
-[3]: ../../../request/reply-templates/learn/template-variables.md
+[3]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->

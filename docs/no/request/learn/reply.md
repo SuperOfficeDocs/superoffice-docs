@@ -111,9 +111,9 @@ Tidsbruken vises i meldingsoverskriften, og svartiden er tilgjengelig i fanen **
 [2]: create.md#fields
 [3]: close.md
 [4]: flag-message.md
-[5]: ../reply-templates/learn/new-language.md
+[5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
-[8]: ../reply-templates/learn/index.md
+[8]: ../../knowledge-base/learn/reply-templates/index.md
 [10]: forward.md
 
 <!-- Refererte bilder -->

@@ -52,7 +52,7 @@ index: true
 <!-- Referenced links -->
 [3]: ../priority/index.md
 [4]: ../status/index.md
-[5]: ../../reply-templates/learn/index.md
+[5]: ../../../knowledge-base/learn/reply-templates/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png

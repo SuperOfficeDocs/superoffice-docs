@@ -58,8 +58,8 @@ items:
     - name: Überblick
       href: ../knowledge-base/learn/index.md
     - name: Antwortvorlagen
-      href: ../request/reply-templates/learn/toc.yml
-      topicHref: ../request/reply-templates/learn/index.md
+      href: ../knowledge-base/learn/reply-templates/toc.yml
+      topicHref: ../knowledge-base/learn/reply-templates/index.md
     - name: FAQ
       href: ../faq/learn/toc.yml
       topicHref: ../faq/learn/index.md

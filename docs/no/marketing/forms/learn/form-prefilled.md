@@ -47,4 +47,4 @@ En feltidentifikator er en unik ID for et spesifikt felt. Den vil ikke endre seg
 <!-- Referenced links -->
 [1]: create.md
 [2]: publish.md
-[3]: ../../../request/reply-templates/learn/template-variables.md
+[3]: ../../../knowledge-base/learn/reply-templates/template-variables.md

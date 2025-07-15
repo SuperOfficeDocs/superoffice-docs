@@ -67,6 +67,6 @@ For at sikre, at du kan kommunikere med dine kunder på deres eget sprog (hvor d
 [6]: ../admin/link-template.md
 [5]: ../../../admin/lists/learn/organize/user-group-filtering.md
 [7]: quote-templates.md
-[8]: ../../../request/reply-templates/learn/template-variables.md
+[8]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->

@@ -71,19 +71,19 @@ conceptualContent:
       - text: Intro
         itemType: explore
         typeDesc: concept
-        url: ../request/reply-templates/index.md
+        url: ../request/overview.md#reply-templates
       - text: Standard fields
         itemType: library_books
         typeDesc: reference
-        url: ../request/reply-templates/learn/template-variables.md
+        url: ../knowledge-base/learn/reply-templates/template-variables.md
       - text: System templates
         itemType: explore
         typeDesc: concept
-        url: ../request/reply-templates/system-templates.md
+        url: ../request/admin/system-templates.md
       - text: Create new template
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/reply-templates/learn/create.md
+        url: ../knowledge-base/learn/reply-templates/create.md
       - text: Using CRMScript
         itemType: list
         typeDesc: how-to-guide

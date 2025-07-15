@@ -7,10 +7,5 @@ items:
   topicHref: admin/index.md
 - name: Technical reference
   href: overview.md
-  items:
-  - name: Reply templates
-    href: reply-templates/index.md
-  - name: Default templates
-    href: reply-templates/system-templates.md
 - name: CRMScript options
   topicHref: ../automation/crmscript/howto/request/index.md

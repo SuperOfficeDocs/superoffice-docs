@@ -32,7 +32,7 @@ redirect_from: /da/request/learn/screen/knowledge-base
 <!-- Referenced links -->
 [1]: external-document.md
 [2]: ../../faq/learn/index.md
-[3]: ../../request/reply-templates/learn/index.md
+[3]: reply-templates/index.md
 [4]: kb-aliases/index.md
 
 <!-- Referenced images -->

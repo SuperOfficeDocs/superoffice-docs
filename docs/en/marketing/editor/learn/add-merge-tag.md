@@ -39,7 +39,7 @@ Merge tags come in many forms: those might be the customer's first name, their c
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/send-test-email.md
-[2]: ../../../request/reply-templates/learn/template-variables.md
+[2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/template-variable.png

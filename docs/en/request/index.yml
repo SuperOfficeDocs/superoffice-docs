@@ -80,12 +80,12 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: reply-templates/index.md
+          url: overview.md#reply-templates
       - itemType: library_books
         typeDesc: reference
         links:
         - text: Default templates
-          url: reply-templates/system-templates.md
+          url: admin/system-templates.md
         - text: Reply template variables
           url: reply-templates/learn/template-variables.md
 

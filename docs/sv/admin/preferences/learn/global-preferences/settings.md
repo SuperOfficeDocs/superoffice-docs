@@ -68,4 +68,4 @@ Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navi
 * **Tillgänglig på Internet**: Markera det här alternativet om SuperOffice Service är tillgängligt på Internet. Detta styr delar av den funktionalitet som finns tillgänglig i SuperOffice Service eftersom en del funktioner kräver att lösningen är online. (endast LOKALT)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

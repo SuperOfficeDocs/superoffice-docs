@@ -68,4 +68,4 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigat
 * **Tilgængelig på internettet**: Marker her, hvis SuperOffice Service er tilgængeligt på internettet. Dette vil styre dele af den funktionalitet, der er tilgængelige i SuperOffice Service, fordi nogle funktioner kræver, at løsningen rent faktisk er tilgængelig på internettet. (Kun på stedet)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

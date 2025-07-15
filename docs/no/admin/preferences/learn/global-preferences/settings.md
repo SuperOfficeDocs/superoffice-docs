@@ -68,4 +68,4 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigato
 * **Tilgjengelig på Internett**: Merk av her dersom SuperOffice Service er tilgjengelig på Internett. Dette vil styre deler av funksjonaliteten som er tilgjengelig i SuperOffice Service, siden noe av funksjonaliteten krever at løsningen faktisk er tilgjengelig på Internett. (Bare ONSITE)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

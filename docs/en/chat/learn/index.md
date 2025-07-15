@@ -93,7 +93,7 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 <!-- Referenced links -->
 [1]: ../../faq/learn/index.md
-[3]: ../../request/reply-templates/learn/index.md
+[3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md
 [6]: as-customer.md

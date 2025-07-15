@@ -59,6 +59,6 @@ The finance team utilizes requests to manage incoming invoice claims, necessitat
 [2]: delete.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
-[5]: ../../reply-templates/learn/index.md
+[5]: ../../../knowledge-base/learn/reply-templates/index.md
 
 <!-- Referenced images -->

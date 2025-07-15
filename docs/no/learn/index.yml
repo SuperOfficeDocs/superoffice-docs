@@ -263,7 +263,7 @@ conceptualContent:
       - text: Arbeide med svarmaler
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/reply-templates/learn/create.md
+        url: ../knowledge-base/learn/reply-templates/create.md
       - text: Saksbilde
         itemType: library_books
         typeDesc: reference

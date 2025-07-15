@@ -1,0 +1,13 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Opprette svarmal
+  href: create.md
+- name: Oversette en svarmal
+  href: new-language.md
+- name: Redigere eller slette svarmal
+  href: edit.md
+- name: Administrere mapper
+  href: manage-folders.md
+- name: Variabler for svarmal
+  href: template-variables.md
