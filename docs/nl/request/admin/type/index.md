@@ -59,4 +59,4 @@ Het financiële team gebruikt verzoeken om inkomende factuurclaims te beheren, w
 [2]: delete.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
-[5]: ../../reply-templates/learn/index.md
+[5]: ../../../knowledge-base/learn/reply-templates/index.md

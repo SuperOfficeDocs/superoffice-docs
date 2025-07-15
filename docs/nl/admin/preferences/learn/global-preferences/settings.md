@@ -68,4 +68,4 @@ Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navig
 * **Online op internet**: Schakel deze optie in als SuperOffice Service op internet beschikbaar is. Hiermee worden onderdelen van de beschikbare functionaliteit van SuperOffice Service aangestuurd, aangezien voor sommige functies de oplossing online moet zijn. (ALLEEN ter plaatse)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

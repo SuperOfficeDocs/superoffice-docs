@@ -1,4 +1,4 @@
 ---
 uid: help-en-reply-template-find-redirect
-redirect_url: https://docs.superoffice.com/en/request/reply-templates/learn/index.html
+redirect_url: https://docs.superoffice.com/en/knowledge-base/learn/reply-templates/index.html
 ---

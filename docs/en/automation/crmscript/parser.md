@@ -97,4 +97,4 @@ print(p.getVariableCount("firstName").toString());
 ```
 
 <!-- Referenced links -->
-[1]: ../../request/reply-templates/index.md
+[1]: ../../request/overview.md#reply-templates

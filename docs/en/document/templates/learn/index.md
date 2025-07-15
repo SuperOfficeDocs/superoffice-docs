@@ -67,6 +67,6 @@ To ensure that you can communicate with your clients in their own language (wher
 [6]: ../admin/link-template.md
 [5]: ../../../admin/lists/learn/organize/user-group-filtering.md
 [7]: quote-templates.md
-[8]: ../../../request/reply-templates/learn/template-variables.md
+[8]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->

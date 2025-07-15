@@ -68,4 +68,4 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 * **Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

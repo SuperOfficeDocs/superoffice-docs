@@ -231,7 +231,7 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 [14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
 [18]: ../../learn/basics/fav.md
-[23]: ../reply-templates/learn/index.md
+[23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 

@@ -68,4 +68,4 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 * **Online im Internet**: Aktivieren Sie diese Option, wenn SuperOffice Service im Internet verfügbar ist. Damit steuern Sie Teile der in SuperOffice Service verfügbaren Funktionen, weil für einige Funktionen das System online sein muss. (nur VOR ORT)
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/learn/create.md#faq
+[1]: ../../../../knowledge-base/learn/reply-templates/create.md#faq

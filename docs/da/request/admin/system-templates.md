@@ -89,7 +89,7 @@ Hvis du vil vælge en anden skabelon, skal du klikke på ![ikonet][img1] for lis
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/kb-aliases/index.md
-[2]: ../reply-templates/learn/index.md
+[2]: ../../knowledge-base/learn/reply-templates/index.md
 [3]: ../../faq/learn/index.md
 
 <!-- Referenced images -->

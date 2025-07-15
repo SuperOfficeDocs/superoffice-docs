@@ -90,5 +90,5 @@ För att välja en annan mall, klicka på <i class="ph ph-caret-down" aria-label
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/kb-aliases/index.md
-[2]: ../reply-templates/learn/index.md
+[2]: ../../knowledge-base/learn/reply-templates/index.md
 [3]: ../../faq/learn/index.md
