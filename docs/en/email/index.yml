@@ -91,9 +91,9 @@ additionalContent:
         links:
           - url: inbox/index.md
             text: What is SuperOffice Inbox?
-          - url: inbox/index.md#how-to-enable-mailkit
+          - url: inbox/it/index.md#how-to-enable-mailkit
             text: How to enable MailKit
-          - url: inbox/index.md#how-to-troubleshoot-mailkit
+          - url: inbox/it/index.md#how-to-troubleshoot-mailkit
             text: How to troubleshoot MailKit
       # Card
       - title: Service and Marketing mail
