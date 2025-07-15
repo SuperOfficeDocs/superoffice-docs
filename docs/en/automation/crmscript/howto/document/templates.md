@@ -220,7 +220,7 @@ For a complete list of fields, see the [database reference][4].
 See the [full list of encodings][5].
 
 <!-- Referenced links -->
-[1]: ../../../../request/reply-templates/index.md
+[1]: ../../../../request/overview.md#reply-templates
 [2]: ../../../../database/tables/heading.md
 [3]: ../../../../document/templates/index.md
 [4]: ../../../../database/tables/doctmpl.md
