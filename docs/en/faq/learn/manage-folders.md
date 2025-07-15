@@ -54,6 +54,6 @@ Before you delete an FAQ folder, you must remove all the entries in it. You do t
 * [Create FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

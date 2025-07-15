@@ -54,6 +54,6 @@ Før du sletter en FAQ-mappe, skal du fjerne alle posterne i den. Dette gøres p
 * [Oprettelse af FAQ-poster][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

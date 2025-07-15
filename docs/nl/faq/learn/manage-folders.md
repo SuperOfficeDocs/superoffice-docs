@@ -54,6 +54,6 @@ Voordat u een map Veelgestelde vragen verwijdert, moet u alle items verwijderen 
 * [Items in Veelgestelde vragen maken][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

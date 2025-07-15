@@ -70,5 +70,5 @@ Du kan både ændre navnet på et trin og justere, hvilke brugere der skal have 
    > Du kan vælge at ophæve udgivelsen af FAQ-posten ved at klikke på knappen **Flyt bagud i workflow**.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md

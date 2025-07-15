@@ -113,7 +113,7 @@ Da nur **Administratoren** FAQ-Einträge so erstellen können, muss hierbei kein
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md
-[5]: add-to-request.md
+[5]: ../../request/learn/reply.md#faq
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->

@@ -70,7 +70,7 @@ Sie können sowohl den Namen einer Stufe ändern als auch die Einstellung, welch
    > Sie können die Veröffentlichung von FAQ-Einträgen abbrechen, indem Sie auf die Schaltfläche **Zurück im Workflow** klicken.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md
 
 <!-- Referenced images -->

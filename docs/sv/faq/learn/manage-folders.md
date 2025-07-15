@@ -54,6 +54,6 @@ Innan du kan ta bort en FAQ-mapp måste du ta bort alla poster i den. Det gör d
 * [Skapa FAQ-poster][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

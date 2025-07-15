@@ -70,5 +70,5 @@ You can both change the name of a stage and alter which users are to have access
    > You can cancel publishing of the FAQ entry by clicking the **Move backward in workflow** button.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md

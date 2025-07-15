@@ -70,7 +70,7 @@ Du kan endre både navnet på en fase og justere hvilke brukere som skal ha tilg
    > Du kan velge å avbryte publiseringen av FAQ-oppføringen ved klikke på knappen **Flytt bakover i arbeidsflyt**.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md
 
 <!-- Referenced images -->

@@ -70,5 +70,5 @@ U kunt zowel de naam van een fase wijzigen als de gebruikers die er toegang toe 
     > U kunt publicatie van het items in Veelgestelde vragen annuleren door te klikken op de knop **Naar achteren verplaatsen in workflow**.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md

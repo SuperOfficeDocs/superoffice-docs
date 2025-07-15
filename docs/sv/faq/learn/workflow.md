@@ -70,5 +70,5 @@ Du kan både ändra namnet på ett steg och justera vilka användare som ska ha 
    > Du kan välja att upphäva publiceringen av FAQ-posten genom att klicka på knappen **Flytta bakåt i arbetsflödet**.
 
 <!-- Referenced links -->
-[1]: view-entry.md
+[1]: index.md
 [2]: publish.md

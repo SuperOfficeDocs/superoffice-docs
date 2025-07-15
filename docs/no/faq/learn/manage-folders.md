@@ -54,6 +54,6 @@ Før du sletter en FAQ-mappe, må du fjerne alle oppføringene i den. Det kan du
 * [Opprett FAQ-oppføringer][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

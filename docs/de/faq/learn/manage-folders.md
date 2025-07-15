@@ -54,6 +54,6 @@ Bevor Sie einen FAQ-Ordner löschen, müssen Sie alle darin enthaltenen Einträg
 * [FAQ-Einträge erstellen][3]
 
 <!-- Referenced links -->
-[1]: delete.md
+[1]: edit.md#delete
 [2]: edit.md
 [3]: create.md

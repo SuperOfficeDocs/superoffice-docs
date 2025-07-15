@@ -19,8 +19,6 @@ items:
   href: forward.md
 - name: Svare kunde
   href: reply.md
-- name: Legg til FAQ-oppføringer i meldinger
-  href: ../../faq/learn/add-to-request.md
 - name: Emneknagger
   href: tags.md
 - name: Holde oversikt over meldinger
