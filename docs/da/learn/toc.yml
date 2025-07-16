@@ -53,21 +53,8 @@ items:
     href: ../mobile/superoffice-mobile/index.md
 
   - name: Vidensbase
+    href: ../knowledge-base/learn/toc.yml
     topicHref: ../knowledge-base/learn/index.md
-    items:
-    - name: Oversigt
-      href: ../knowledge-base/learn/index.md
-    - name: Svarskabeloner
-      href: ../knowledge-base/learn/reply-templates/toc.yml
-      topicHref: ../knowledge-base/learn/reply-templates/index.md
-    - name: OFTE STILLEDE SPØRGSMÅL
-      href: ../knowledge-base/learn/faq/toc.yml
-      topicHref: ../knowledge-base/learn/faq/index.md
-    - name: E-mailadresser
-      href: ../knowledge-base/learn/kb-aliases/toc.yml
-      topicHref: ../knowledge-base/learn/kb-aliases/index.md
-    - name: Eksterne dokumenter
-      href: ../knowledge-base/learn/external-document.md
 
   - name: SAINT (Sales Intelligence)
     href: ../saint/learn/toc.yml

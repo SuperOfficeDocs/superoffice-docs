@@ -1,0 +1,14 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Antwortvorlagen
+  href: reply-templates/toc.yml
+  topicHref: reply-templates/index.md
+- name: FAQ
+  href: faq/toc.yml
+  topicHref: faq/index.md
+- name: E-Mail-Adressen
+  href: kb-aliases/toc.yml
+  topicHref: kb-aliases/index.md
+- name: Externe Dokumente
+  href: external-document.md

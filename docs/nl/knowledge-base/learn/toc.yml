@@ -1,0 +1,14 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Antwoordsjablonen
+  href: reply-templates/toc.yml
+  topicHref: reply-templates/index.md
+- name: Veelgestelde vragen
+  href: faq/toc.yml
+  topicHref: faq/index.md
+- name: E-mailadressen
+  href: kb-aliases/toc.yml
+  topicHref: kb-aliases/index.md
+- name: Externe documenten
+  href: external-document.md
