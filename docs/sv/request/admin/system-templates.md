@@ -89,6 +89,6 @@ För att välja en annan mall, klicka på <i class="ph ph-caret-down" aria-label
 * [Översikt över FAQ][3]
 
 <!-- Referenced links -->
-[1]: ../../knowledge-base/learn/kb-aliases/index.md
+[1]: ../../knowledge-base/learn/email-addresses.md
 [2]: ../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../faq/learn/index.md
+[3]: ../../knowledge-base/learn/faq/index.md

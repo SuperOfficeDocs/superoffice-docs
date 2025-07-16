@@ -122,9 +122,9 @@ Du kan välja graden av överensstämmelse mellan kundens förfrågan och FAQ-po
 * [Redigera svarsmallar][6]
 
 <!-- Referenced links -->
-[1]: ../../admin/category/index.md
-[4]: ../../learn/reply.md
-[2]: manage-folders.md
+[1]: ../../../admin/category/index.md
+[4]: ../../../learn/reply.md
+[2]: ../manage-folders.md
 [5]: new-language.md
 [6]: edit.md
 [7]: ../../../admin/options/learn/custlang/index.md

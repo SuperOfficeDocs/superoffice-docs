@@ -14,6 +14,7 @@ functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+redirect_from: /en/request/learn/external-document
 ---
 
 # Work with external documents (knowledge base)
@@ -98,34 +99,11 @@ By editing the file's properties, you can, for example, change who is to have ac
 1. Click the **Delete** button at the bottom of the screen.
 1. Click **OK** to confirm. The file is removed from SuperOffice.
 
-## Create folders
+## Related content
 
-You can create a folder structure for files, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the files in any of these folders.
-
-1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
-
-1. Go to the folder you want to create a sub-folder under. You can create it directly under the **Files** folder or under any of its sub-folders.
-
-1. Click the **New folder** button at the top of the screen. This takes you to the **Document folder properties** screen.
-
-1. Enter a descriptive name for the folder in the **Name** field.
-
-1. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select a different folder in the list that appears.
-
-1. In the **Access** list box, you select who is to have access to read and edit the folder.
-
-1. Click **OK**. The new folder is created. You are now ready to add files to the new folder.
-
-### Delete folders
-
-When you delete a folder, all the files in it are also deleted from SuperOffice.
-
-1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
-1. Go to the required folder.
-1. Click **Edit folder**. This takes you to the **Document folder properties** screen.
-1. Click **Delete**.
-1. Click **OK** to confirm. The folder and its contents are removed from SuperOffice.
+* [Create and delete folders][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md

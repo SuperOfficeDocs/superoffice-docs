@@ -7,7 +7,5 @@ items:
   href: new-language.md
 - name: Antwortvorlage bearbeiten oder löschen
   href: edit.md
-- name: Ordner verwalten
-  href: manage-folders.md
 - name: Vorlagenvariablen antworten
   href: template-variables.md

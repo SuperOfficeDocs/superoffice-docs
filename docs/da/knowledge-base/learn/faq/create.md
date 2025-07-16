@@ -114,7 +114,7 @@ Da muligheden for at oprette FAQ-poster på denne måde kun er tilgængelig for 
 
 <!-- Referenced links -->
 [1]: ../../../request/learn/index.md#open
-[2]: manage-folders.md
+[2]: ../manage-folders.md
 [3]: publish.md
 [4]: edit.md
 [5]: ../../../request/learn/reply.md#faq

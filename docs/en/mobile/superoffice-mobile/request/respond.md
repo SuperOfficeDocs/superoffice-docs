@@ -145,8 +145,8 @@ A [reply template][3] can help you respond faster with predefined content.
 [1]: ../../../request/learn/forward.md
 [2]: ../../../knowledge-base/learn/reply-templates/create.md
 [3]: ../../../knowledge-base/learn/reply-templates/index.md
-[4]: ../../../faq/learn/index.md
-[5]: ../../../faq/learn/create.md
+[4]: ../../../knowledge-base/learn/faq/index.md
+[5]: ../../../knowledge-base/learn/faq/create.md
 [6]: ../../../../en/admin/license/user-plans.md
 [7]: update.md
 

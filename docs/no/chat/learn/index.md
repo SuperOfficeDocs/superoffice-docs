@@ -92,7 +92,7 @@ Hvis kunden finnes i SuperOffice, kan du vise kontaktinformasjon, saker, salg, o
 * [Legge til kunde i SuperOffice][8]
 
 <!-- Referenced links -->
-[1]: ../../faq/learn/index.md
+[1]: ../../knowledge-base/learn/faq/index.md
 [3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md

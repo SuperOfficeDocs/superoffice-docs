@@ -99,34 +99,11 @@ Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen
 1. Klik op de knop **Verwijderen** onder in het scherm.
 1. Klik ter bevestiging op **OK**. Het document wordt verwijderd uit SuperOffice Service.
 
-## Mappen maken
+## Gerelateerde inhoud
 
-U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangschikt en het voor anderen makkelijker wordt om informatie te vinden. U kunt in alle mappen submappen maken en de documenten in elke gewenste map opnemen.
-
-1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
-
-1. Ga naar de map waaronder u een submap wilt maken. U kunt deze direct onder de map **Documenten** maken of onder een van de submappen ervan.
-
-1. Klik op de knop **Nieuwe map** boven in het scherm. Het scherm **Eigenschappen documentmap** wordt geopend.
-
-1. Voer in het veld **Naam** een beschrijvende naam in voor de map.
-
-1. In het veld **In map** wordt automatisch de naam getoond van de gekozen bovenliggende map. Als u van gedachten verandert, klikt u op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteert u een andere map in de lijst die wordt weergegeven.
-
-1. Via de keuzelijst **Toegang** kunt u aangeven wie lees- en bewerktoegang moet krijgen tot de map.
-
-1. Klik op **OK**. De nieuwe map wordt gemaakt. U kunt nu documenten aan de nieuwe map toevoegen.
-
-### Mappen verwijderen
-
-Wanneer u een map verwijdert, worden ook alle documenten in die map verwijderd uit SuperOffice.
-
-1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
-1. Ga naar de gewenste map.
-1. Klik op **Map bewerken**. Het scherm **Eigenschappen documentmap** wordt geopend.
-1. Klik op **Verwijd.**.
-1. Klik ter bevestiging op **OK**. De map en de inhoud ervan worden verwijderd uit SuperOffice.
+* [Mappen maken of verwijderen][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md

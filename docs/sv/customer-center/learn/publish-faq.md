@@ -27,8 +27,8 @@ Dina kunder kommer åt FAQ-artiklarna via kundcentret (webbportalen) utan att be
 * [Publicera en FAQ][3]
 
 <!-- Referenced links -->
-[1]: ../../faq/learn/create.md
-[3]: ../../faq/learn/publish.md
+[1]: ../../knowledge-base/learn/faq/create.md
+[3]: ../../knowledge-base/learn/faq/publish.md
 [2]: config.md
 
 <!-- Referenced images -->

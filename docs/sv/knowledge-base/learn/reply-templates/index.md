@@ -60,5 +60,5 @@ I översikten för svarsmallar kan du söka efter en specifik svarsmall:
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[1]: manage-folders.md
-[11]: ../../learn/reply.md
+[1]: ../manage-folders.md
+[11]: ../../../learn/reply.md

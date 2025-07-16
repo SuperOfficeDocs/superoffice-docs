@@ -92,7 +92,7 @@ If the customer is found in SuperOffice, you can show contact information, reque
 * [Add customer to SuperOffice][8]
 
 <!-- Referenced links -->
-[1]: ../../faq/learn/index.md
+[1]: ../../knowledge-base/learn/faq/index.md
 [3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md

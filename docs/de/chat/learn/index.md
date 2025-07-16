@@ -92,7 +92,7 @@ Wenn der Kunde in SuperOffice gefunden wird, können Sie Personeninformationen, 
 * [Kunde zu SuperOffice hinzufügen][8]
 
 <!-- Referenced links -->
-[1]: ../../faq/learn/index.md
+[1]: ../../knowledge-base/learn/faq/index.md
 [3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md

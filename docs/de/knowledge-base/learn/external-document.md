@@ -96,34 +96,11 @@ Durch die Bearbeitung der Eigenschaften des Dokuments können Sie beispielsweise
 1. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**.
 1. Klicken Sie zur Bestätigung auf **OK**. Das Dokument wird aus SuperOffice Service entfernt.
 
-## Ordner erstellen
+## Verwandte Inhalte
 
-Sie können eine Ordnerstruktur für Dokumente erstellen, um diesen dadurch eine logische Struktur zu verleihen und anderen die Suche nach Informationen zu erleichtern. Sie können in allen Ordnern Unterordner erstellen und die Dokumente in jedem dieser Ordner ablegen.
-
-1. Gehen Sie zum <i class="ph ph-list" aria-label="Hauptmenü"></i> **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
-
-1. Gehen Sie zu dem Ordner, unter dem Sie einen Unterordner erstellen möchten. Sie können diesen direkt unter dem Ordner **Dokumente** oder unter einem seiner Unterordner erstellen.
-
-1. Klicken Sie oben in der Ansicht auf die Schaltfläche **Neuer Ordner**. Sie gelangen zur Ansicht **Eigenschaften des Dokumentordners**.
-
-1. Geben Sie einen aussagekräftigen Namen für den Ordner in das Feld **Name** ein.
-
-1. Das Feld **In Ordner** zeigt automatisch den Namen des von Ihnen ausgewählten Ordners an. Wenn Sie es sich anders überlegen, können Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken und einen anderen Ordner aus der daraufhin angezeigten Liste auswählen.
-
-1. Im Listenfeld **Zugriff** können Sie wählen, wer Zugriffsrechte zum Lesen und Bearbeiten des Ordners erhalten soll.
-
-1. Klicken Sie auf **OK**. Der neue Ordner wird erstellt. Sie können dem neuen Ordner nun Dokumente hinzufügen.
-
-### Ordner löschen
-
-Wenn Sie einen Ordner löschen, werden auch alle darin enthaltenen Dokumente aus SuperOffice entfernt.
-
-1. Gehen Sie zum <i class="ph ph-list" aria-label="Hauptmenü"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
-1. Wechseln Sie zum gewünschten Ordner.
-1. Klicken Sie auf **Ordner bearbeiten**. Sie gelangen zur Ansicht **Eigenschaften des Dokumentordners**.
-1. Klicken Sie auf **Löschen**.
-1. Klicken Sie zur Bestätigung auf **OK**. Der Ordner wird mit seinem Inhalt aus SuperOffice entfernt.
+* [Ordner verwalten][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md

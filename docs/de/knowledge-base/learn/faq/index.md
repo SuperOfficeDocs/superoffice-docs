@@ -76,7 +76,7 @@ Wenn sich viele FAQ-Einträge in einem Ordner befinden, kann es ggf. schwierig s
 <!-- Referenced links -->
 [2]: create.md
 [3]: edit.md
-[6]: manage-folders.md
+[6]: ../manage-folders.md
 [7]: ../../../request/learn/reply.md#faq
 [8]: publish.md
 [9]: workflow.md

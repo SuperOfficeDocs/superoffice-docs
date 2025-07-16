@@ -2,7 +2,7 @@
 uid: help-da-document-external
 title: Arbejde med eksterne dokumenter
 description: Arbejde med eksterne dokumenter
-keywords: sag, dokument
+keywords: eksterne dokumenter
 author: Bergfrid Dias
 date: 03.07.2025
 version: 10.5.2
@@ -99,34 +99,11 @@ Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have a
 1. Klik på knappen **Slet** nederst i skærmbilledet.
 1. Klik på **OK** for at bekræfte. Dokumentet fjernes fra SuperOffice Service.
 
-## Oprettelse af mapper
+## Relateret indhold
 
-Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, der gør det let for andre at finde oplysningerne. Du kan oprette undermapper i alle mapper, og i hver af disse mapper kan du tilføje de dokumenter, der hører hjemme der.
-
-1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
-
-1. Gå til den mappe, som du vil oprette undermappen under. Du kan vælge at oprette den lige under **Dokumenter** eller i en vilkårlig undermappe under denne.
-
-1. Klik på knappen **Ny mappe** øverst i skærmbilledet. Du kommer til skærmbilledet **Egenskaber for dokumentmappe**.
-
-1. Angiv et beskrivende navn på mappen i feltet **Navn**.
-
-1. I feltet **I mappe** vises automatisk navnet på den overordnede mappe, du har valgt. Hvis du har ombestemt dig, kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en anden mappe på den liste, der vises.
-
-1. I rullemenuen **Adgang** skal du vælge, hvem der skal have adgang til at læse og ændre den aktuelle mappe.
-
-1. Klik på **OK**. Den nye mappe oprettes. Du er nu klar til at tilføje dokumenter til den nye mappe.
-
-### Sletning af mapper
-
-Når du sletter en mappe, slettes alle dokumenterne i den også fra SuperOffice.
-
-1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
-1. Gå til den ønskede mappe.
-1. Klik på **Rediger mappe**. Du kommer til skærmbilledet **Egenskaber for dokumentmappe**.
-1. Klik på **Slet**.
-1. Klik på **OK** for at bekræfte. Mappen og indholdet i den fjernes fra SuperOffice.
+* [Oprette eller slette mapper][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md

@@ -57,7 +57,7 @@ landingContent:
         - text: How to reply to customers
           url: learn/reply.md
         - text: How to set up Service mailboxes
-          url: ../knowledge-base/learn/kb-aliases/index.md
+          url: ../knowledge-base/learn/email-addresses.md
 
   - title: Category, priority, and escalation
     linkLists:

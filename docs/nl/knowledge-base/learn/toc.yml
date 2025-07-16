@@ -1,0 +1,15 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Mappen beheren
+  href: manage-folders.md
+- name: Antwoordsjablonen
+  href: reply-templates/toc.yml
+  topicHref: reply-templates/index.md
+- name: Veelgestelde vragen
+  href: faq/toc.yml
+  topicHref: faq/index.md
+- name: E-mailadressen
+  href: email-addresses.md
+- name: Externe documenten
+  href: external-document.md

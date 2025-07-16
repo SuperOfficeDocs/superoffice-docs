@@ -99,34 +99,11 @@ Ved å redigere dokumentegenskapene kan du f.eks. justere hvem som skal ha tilga
 1. Klikk på **Slett**-knappen nederst i bildet.
 1. Klikk på **OK** for å bekrefte. Dokumentet fjernes fra SuperOffice Service.
 
-## Opprett mapper
+## Relatert innhold
 
-Du kan opprette en mappestruktur for dokumenter for å gi dem en logisk struktur og gjøre det enkelt for andre å finne informasjon. Du kan opprette undermapper i alle mapper, og du kan legge dokumentene i disse mappene.
-
-1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden, og velg **Kunnskapsbase** > **Eksterne dokumenter**.
-
-1. Gå til mappen som du vil opprette en undermappe under. Du kan opprette den rett under mappen **Dokumenter** eller i en hvilken som helst av mappens undermapper.
-
-1. Klikk på **Ny mappe**-knappen øverst i bildet. Du kommer til bildet **Egenskaper for dokumentmappe**.
-
-1. Angi et beskrivende navn på mappen i feltet **Navn**.
-
-1. I feltet **I mappe** vises navnet på den overordnede mappen du har valgt, automatisk. Hvis du ombestemmer deg, kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge en annen mappe i listen som vises.
-
-1. I listeboksen **Tilgang** velger du hvem som skal ha tilgang til å lese og endre den aktuelle mappen.
-
-1. Klikk på **OK**. Den nye mappen opprettes. Nå er du klar til å legge til dokumenter i den nye mappen.
-
-### Slett mapper
-
-Når du sletter en mappe, slettes også alle dokumentene i mappen fra SuperOffice.
-
-1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden, og velg **Kunnskapsbase** > **Eksterne dokumenter**.
-1. Gå til ønsket mappe.
-1. Klikk på **Rediger mappe**. Du kommer til bildet **Egenskaper for dokumentmappe**.
-1. Klikk på **Slett**.
-1. Klikk på **OK** for å bekrefte. Mappen og innholdet i den fjernes fra SuperOffice.
+* [Opprette og slette mapper][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md
