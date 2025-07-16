@@ -33,6 +33,6 @@ De **kennisdatabase** is toegankelijk vanuit het **Hoofdmenu** in de bovenste ba
 [1]: external-document.md
 [2]: faq/index.md
 [3]: reply-templates/index.md
-email-addresses.md
+[4]: email-addresses.md
 
 <!-- Referenced images -->

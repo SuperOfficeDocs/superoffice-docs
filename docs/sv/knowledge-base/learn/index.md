@@ -33,6 +33,6 @@ redirect_from: /sv/request/learn/screen/knowledge-base
 [1]: external-document.md
 [2]: faq/index.md
 [3]: reply-templates/index.md
-email-addresses.md
+[4]: email-addresses.md
 
 <!-- Referenced images -->
