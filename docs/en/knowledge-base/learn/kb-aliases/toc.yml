@@ -3,5 +3,3 @@ items:
     href: index.md
   - name: Create email addresses
     href: add-email-address.md
-  - name: Administrate email address folders
-    href: manage-folders.md

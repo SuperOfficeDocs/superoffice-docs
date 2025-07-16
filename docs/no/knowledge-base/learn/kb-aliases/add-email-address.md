@@ -38,4 +38,4 @@ Når du registrerer e-postadresser under **Kunnskapsbase** > **E-postadresser**,
 1. Klikk på **OK**. E-postadressen legges til i den angitte mappen og er tilgjengelig neste gang du vil sende en e-post.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

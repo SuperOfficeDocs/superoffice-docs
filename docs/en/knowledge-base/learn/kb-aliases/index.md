@@ -40,4 +40,4 @@ If you want details of the registered email addresses, go to <i class="ph ph-lis
 
 <!-- Referenced links -->
 [2]: add-email-address.md
-[3]: manage-folders.md
+[3]: ../manage-folders.md

@@ -40,4 +40,4 @@ Om du vill ha detaljerad information om registrerade e-postadresser går du till
 
 <!-- Referenced links -->
 [2]: add-email-address.md
-[3]: manage-folders.md
+[3]: ../manage-folders.md

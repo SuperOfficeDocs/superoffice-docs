@@ -124,7 +124,7 @@ You can select the degree of correlation between the request from the customer a
 <!-- Referenced links -->
 [1]: ../../../request/admin/category/index.md
 [4]: ../../../request/learn/reply.md
-[2]: manage-folders.md
+[2]: ../manage-folders.md
 [5]: new-language.md
 [6]: edit.md
 [7]: ../../../admin/options/learn/custlang/index.md

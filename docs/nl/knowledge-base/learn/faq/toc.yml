@@ -5,8 +5,6 @@ items:
   href: create.md
 - name: Items in Veelgestelde vragen bewerken
   href: edit.md
-- name: Mappen met items in Veelgestelde vragen beheren of verwijderen
-  href: manage-folders.md
 - name: Items in Veelgestelde vragen publiceren
   href: publish.md
 - name: Workflowfasen

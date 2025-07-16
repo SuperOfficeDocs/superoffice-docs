@@ -40,4 +40,4 @@ Hvis du vil ha detaljer om de registrerte e-postadressene, går du til <i class=
 
 <!-- Referenced links -->
 [2]: add-email-address.md
-[3]: manage-folders.md
+[3]: ../manage-folders.md

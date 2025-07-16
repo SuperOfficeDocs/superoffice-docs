@@ -7,7 +7,5 @@ items:
   href: new-language.md
 - name: Redigera eller ta bort svarsmall
   href: edit.md
-- name: Administrera mappar
-  href: manage-folders.md
 - name: Svarsmallsvariabler
   href: template-variables.md

@@ -38,4 +38,4 @@ Wanneer u e-mailadressen registreert via **Kennisdatabase** > **E-mailadressen**
 1. Klik op **OK**. Het e-mailadres wordt toegevoegd aan de opgegeven map en is de volgende keer beschikbaar als u een e-mailbericht wilt verzenden.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

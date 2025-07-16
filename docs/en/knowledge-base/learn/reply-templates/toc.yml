@@ -7,7 +7,5 @@ items:
   href: new-language.md
 - name: Edit or delete reply template
   href: edit.md
-- name: Manage folders
-  href: manage-folders.md
 - name: Reply template variables
   href: template-variables.md

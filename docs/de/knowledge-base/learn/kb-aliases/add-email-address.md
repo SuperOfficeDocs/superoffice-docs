@@ -38,4 +38,4 @@ Wenn Sie E-Mail-Adressen unter **Wissensdatenbank** > **E-Mail-Adressen** regist
 1. Klicken Sie auf **OK**. Die E-Mail-Adresse wird dem festgelegten Ordner hinzugefügt und steht Ihnen ab sofort beim Senden einer E-Mail zur Verfügung.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

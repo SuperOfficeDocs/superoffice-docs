@@ -40,4 +40,4 @@ Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum 
 
 <!-- Referenced links -->
 [2]: add-email-address.md
-[3]: manage-folders.md
+[3]: ../manage-folders.md

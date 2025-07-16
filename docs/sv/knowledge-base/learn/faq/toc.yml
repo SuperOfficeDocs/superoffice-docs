@@ -5,8 +5,6 @@ items:
   href: create.md
 - name: Redigera eller ta bort FAQ-poster
   href: edit.md
-- name: Administrera mappar med FAQ-poster
-  href: manage-folders.md
 - name: Publicera FAQ-poster
   href: publish.md
 - name: Arbetsflödesfaser

@@ -38,4 +38,4 @@ När du registrerar e-postadresser under **Kunskapsbas** > **E-postadresser** bl
 1. Klicka på **OK**. E-postadressen läggs in i den valda mappen och är tillgänglig nästa gång du ska skicka e-post.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

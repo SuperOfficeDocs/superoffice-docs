@@ -1,6 +1,8 @@
 items:
 - name: Überblick
   href: index.md
+- name: Ordner verwalten
+  href: manage-folders.md
 - name: Antwortvorlagen
   href: reply-templates/toc.yml
   topicHref: reply-templates/index.md

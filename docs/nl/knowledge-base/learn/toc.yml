@@ -1,6 +1,8 @@
 items:
 - name: Overzicht
   href: index.md
+- name: Mappen beheren
+  href: manage-folders.md
 - name: Antwoordsjablonen
   href: reply-templates/toc.yml
   topicHref: reply-templates/index.md

@@ -37,4 +37,4 @@ When you register email addresses under **Knowledge base** > **Email addresses**
 1. Click **OK**. The email address is added to the specified folder and available the next time you want to send an email.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

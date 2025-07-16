@@ -73,7 +73,7 @@ Als een map veel items in Veelgestelde vragen bevat, kan het lastig zijn het ite
 * [Werken met de workflow][5]
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md
 [2]: create.md
 [3]: edit.md
 [4]: publish.md

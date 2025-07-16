@@ -38,4 +38,4 @@ Når du registrerer e-mailadresser under **Vidensbase** > **E-mailadresser**, bl
 1. Klik på **OK**. E-mailadressen tilføjes til den angivne mappe og vil være tilgængelig, næste gang du skal sende e-mails.
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md

@@ -122,9 +122,9 @@ U kunt de mate van correlatie tussen het verzoek van de klant en de items in Vee
 * [Antwoordsjablonen bewerken][6]
 
 <!-- Referenced links -->
-[1]: ../../admin/category/index.md
-[2]: manage-folders.md
-[4]: ../../learn/reply.md
+[1]: ../../../admin/category/index.md
+[2]: ../manage-folders.md
+[4]: ../../../learn/reply.md
 [5]: new-language.md
 [6]: edit.md
 [7]: ../../../globalization-and-localization/learn/customer-languages.md

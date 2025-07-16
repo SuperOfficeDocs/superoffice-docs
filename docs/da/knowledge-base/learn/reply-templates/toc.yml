@@ -7,7 +7,5 @@ items:
   href: new-language.md
 - name: Rediger eller slet svarskabelon
   href: edit.md
-- name: Administrer mapper med svarskabeloner
-  href: manage-folders.md
 - name: Variabler for svarskabeloner
   href: template-variables.md

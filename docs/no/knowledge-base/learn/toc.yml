@@ -1,6 +1,8 @@
 items:
 - name: Oversikt
   href: index.md
+- name: Administrere mapper
+  href: manage-folders.md
 - name: Svarmaler
   href: reply-templates/toc.yml
   topicHref: reply-templates/index.md
