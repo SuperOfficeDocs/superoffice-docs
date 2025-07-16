@@ -2,8 +2,7 @@
 uid: help-nl-sale-stakeholder-edit
 title: Belanghebbenden bewerken
 description: Het bewerken en verwijderen van belanghebbenden in een verkoop in SuperOffice.
-keywords: Belanghebbende bijwerken, belanghebbende bewerken, belanghebbende verwijderen, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende, verkoop
-keywords: verkoop, belanghebbend, aandeelhouder, stakeholder
+keywords: Belanghebbende bijwerken, belanghebbende bewerken, belanghebbende verwijderen, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende, verkoop, belanghebbend, aandeelhouder, stakeholder
 author: Bergfrid Dias
 date: 03.14.2025
 version: 10.5.2
