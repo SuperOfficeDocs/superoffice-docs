@@ -88,6 +88,6 @@ To select another template, click <i class="ph ph-caret-down" aria-label="Chevro
 * [FAQ overview][3]
 
 <!-- Referenced links -->
-[1]: ../../knowledge-base/learn/kb-aliases/index.md
+[1]: ../../knowledge-base/learn/email-addresses.md
 [2]: ../../knowledge-base/learn/reply-templates/index.md
 [3]: ../../knowledge-base/learn/faq/index.md

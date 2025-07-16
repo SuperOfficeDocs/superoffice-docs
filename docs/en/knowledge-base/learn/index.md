@@ -33,6 +33,6 @@ The **Knowledge base** is accessible from the **Main menu** in the top bar and g
 [1]: external-document.md
 [2]: faq/index.md
 [3]: reply-templates/index.md
-[4]: kb-aliases/index.md
+email-addresses.md
 
 <!-- Referenced images -->

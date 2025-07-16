@@ -10,7 +10,6 @@ items:
   href: faq/toc.yml
   topicHref: faq/index.md
 - name: E-mailadresser
-  href: kb-aliases/toc.yml
-  topicHref: kb-aliases/index.md
+  href: email-addresses.md
 - name: Eksterne dokumenter
   href: external-document.md

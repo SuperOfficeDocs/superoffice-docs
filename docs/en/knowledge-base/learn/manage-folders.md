@@ -78,5 +78,5 @@ When you are ready to delete the folder itself:
 [2]: reply-templates/edit.md
 [3]: faq/create.md
 [4]: faq/edit.md
-[5]: kb-aliases/add-email-address.md
+[5]: email-addresses.md
 [7]: external-document.md

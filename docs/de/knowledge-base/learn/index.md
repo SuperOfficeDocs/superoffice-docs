@@ -33,6 +33,6 @@ Die **Wissensdatenbank** ist vom **Hauptmenü** in der oberen Leiste zugreifbar 
 [1]: external-document.md
 [2]: faq/index.md
 [3]: reply-templates/index.md
-[4]: kb-aliases/index.md
+email-addresses.md
 
 <!-- Referenced images -->
