@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
-redirect_from: /da/request/learn/howto/reply
+redirect_from:
+  - /da/request/learn/howto/reply
+  - /da/faq/learn/add-to-request
 ---
 
 # Svar til person
@@ -52,6 +54,20 @@ Du kan spare tid ved at bruge [svarskabeloner][8] som udgangspunkt for dit svar.
 1. Klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg **Svarskabelon**.
 1. Vælg en skabelon fra listen. Hold markøren over den for at få vist en forhåndsvisning.
 1. Rediger teksten efter behov og tilføj eventuelle vedhæftede filer.
+
+## <a id="faq"></a>Tilføjelse af FAQ-poster
+
+Når du besvarer en henvendelse, kan du spare tid ved at tilføje et link til en FAQ-post i svaret.
+
+1. Gå til fanen **Meddelelse**.
+1. Anbring musemarkøren på det sted i meddelelsen, hvor du ønsker at sætte linket ind.
+1. Klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg, hvad der skal indsættes i meddelelsen.
+
+   > [!TIP]
+   > I pop op-vinduet **Tilføj tekst** kan du få vist et hvilket som helst af FAQ-elementerne ved at flytte markøren hen over de forskellige poster.
+
+1. Klik på den ønskede FAQ-post.
+1. Der indsættes et **link** på markørens position. Kunden kan klikke på et link for at få vist den aktuelle FAQ-post i kundecenteret.
 
 ## Tilføj en meddelelse til flere sager
 

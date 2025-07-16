@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
-redirect_from: /no/request/learn/howto/reply
+redirect_from:
+  - /no/request/learn/howto/reply
+  - /no/faq/learn/add-to-request
 ---
 
 # Svar til person
@@ -52,6 +54,20 @@ Du kan spare tid ved å bruke [svarmaler][8] som et utgangspunkt for svaret ditt
 1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> og velg **Svarmal**.
 1. Velg en mal fra listen. Hold markøren over den for å forhåndsvise før du setter den inn.
 1. Rediger teksten etter behov og legg til vedlegg om nødvendig.
+
+## <a id="faq"></a>Legg til FAQ-oppføringer
+
+Når du svarer på en kundehenvendelse, kan du spare tid ved å sette inn en kobling til en FAQ-oppføring i svaret ditt.
+
+1. Gå til fanen **Melding**.
+1. Plasser musepekeren på det stedet i meldingen der du vil sette inn koblingen.
+1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> og velg hva du vil sette inn i meldingen.
+
+   > [!TIP]
+   > I popup-vinduet **Legg til tekst** kan du forhåndsvise noen av FAQ-elementene ved å flytte markøren over de forskjellige oppføringene.
+
+1. Klikk på ønsket FAQ-oppføring.
+1. En **kobling** settes inn ved markørposisjonen. Kunden kan klikke på den for å vise den relevante FAQ-oppføringen i kundesenteret.
 
 ## Svare på flere saker samtidig
 

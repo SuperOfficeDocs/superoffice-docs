@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
-redirect_from: /sv/request/learn/howto/reply
+redirect_from: 
+  - /sv/request/learn/howto/reply
+  - /sv/faq/learn/add-to-request
 ---
 
 # Svara kontakt
@@ -52,6 +54,20 @@ Du kan spara tid genom att använda [svarsmallar][8] som utgångspunkt för ditt
 1. Klicka på <i class="ph ph-article" aria-label="Insert"></i> och välj **Svarsmall**.
 1. Välj en mall från listan. Håll markören över en mall för att förhandsgranska den innan du infogar den.
 1. Redigera texten vid behov och bifoga filer om det behövs.
+
+## <a id="faq"></a>Lägga till FAQ-poster i meddelanden
+
+När du svarar på en förfrågan från en kund kan du spara tid genom att lägga in en länk till en FAQ-post i svaret.
+
+1. Gå till fliken **Meddelande** på det sätt som beskrivs under [Svara kund][1].
+1. Placera muspekaren på den plats i meddelandet där du vill lägga in länken.
+1. Klicka på ![ikon][img5] knappen **Lägg till text** och välj det du vill infoga i meddelandet.
+
+   > [!TIP]
+   > I popup-fönstret **Lägg till text** kan du förhandsgranska FAQ-artiklarna genom att flytta markören över de olika posterna.
+
+1. Klicka på önskad FAQ-post.
+1. En **länk** infogas vid markörens position. Kunden kan klicka på länken för att visa den aktuella FAQ-posten i kundcentret.
 
 ## Lägga till ett meddelande till flera ärenden
 
@@ -119,3 +135,4 @@ Den registrerade tiden visas i varje meddelandehuvud, och svarstiden finns tillg
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../../common/icons/copy-paste-icon.png
