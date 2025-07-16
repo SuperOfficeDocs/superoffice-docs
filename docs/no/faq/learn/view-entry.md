@@ -1,4 +1,4 @@
 ---
 uid: help-no-faq-view-entry-redirect
-redirect_url: https://docs.superoffice.com/no/faq/learn/index.html
+redirect_url: https://docs.superoffice.com/no/knowledge-base/learn/faq/index.html
 ---
