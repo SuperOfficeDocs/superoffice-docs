@@ -1,0 +1,15 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Ordner verwalten
+  href: manage-folders.md
+- name: Antwortvorlagen
+  href: reply-templates/toc.yml
+  topicHref: reply-templates/index.md
+- name: FAQ
+  href: faq/toc.yml
+  topicHref: faq/index.md
+- name: E-Mail-Adressen
+  href: email-addresses.md
+- name: Externe Dokumente
+  href: external-document.md

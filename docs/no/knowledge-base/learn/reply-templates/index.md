@@ -62,5 +62,5 @@ I oversikten over svarmaler kan du klikke på **Søk**-knappen for å finne en b
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[1]: manage-folders.md
+[1]: ../manage-folders.md
 [11]: ../../../request/learn/reply.md

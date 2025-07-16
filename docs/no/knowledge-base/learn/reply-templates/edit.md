@@ -29,9 +29,13 @@ Redigering av en svarmal kan bety to forskjellige ting:
 ## Rediger svarmal
 
 1. Gå til <i class="ph ph-list" aria-label="Hovedmeny"></i> i toppraden og velg **Kunnskapsbase** > **Svarmaler**.
+
 1. Gå til mappen som inneholder svarmalen, og klikk på den. Bildet **Vise svarmaler** åpnes.
+
 1. Klikk på knappen **Rediger svarmal**. Bildet **Egenskaper for svarmal** åpnes.
+
 1. Gjør de nødvendige endringene i [egenskapene][2].
+
 1. Klikk på **OK** for å lagre endringene.
 
 ## <a id="delete"></a>Slett svarmal

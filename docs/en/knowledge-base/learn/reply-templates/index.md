@@ -62,5 +62,5 @@ In the reply templates overview, click the **Search** button to locate a specifi
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[1]: manage-folders.md
+[1]: ../manage-folders.md
 [11]: ../../../request/learn/reply.md

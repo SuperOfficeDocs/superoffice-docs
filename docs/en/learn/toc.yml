@@ -53,21 +53,8 @@ items:
     topicHref: ../mobile/superoffice-mobile/index.md
 
   - name: Knowledge base
+    href: ../knowledge-base/learn/toc.yml
     topicHref: ../knowledge-base/learn/index.md
-    items:
-    - name: Overview
-      href: ../knowledge-base/learn/index.md
-    - name: Reply templates
-      href: ../knowledge-base/learn/reply-templates/toc.yml
-      topicHref: ../knowledge-base/learn/reply-templates/index.md
-    - name: FAQ
-      href: ../knowledge-base/learn/faq/toc.yml
-      topicHref: ../knowledge-base/learn/faq/index.md
-    - name: Email addresses
-      href: ../knowledge-base/learn/kb-aliases/toc.yml
-      topicHref: ../knowledge-base/learn/kb-aliases/index.md
-    - name: External documents
-      href: ../knowledge-base/learn/external-document.md
 
   - name: SAINT (Sales intelligence)
     href: ../saint/learn/toc.yml

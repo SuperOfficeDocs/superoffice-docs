@@ -1,7 +1,7 @@
 ---
 uid: help-da-knowledge-base
-title: Videnbase
-description: Videnbase
+title: Vidensbase
+description: Vidensbase
 keywords: sag, vidensbase
 author: SuperOffice Product and Engineering
 date: 03.24.2023
@@ -17,7 +17,7 @@ language: da
 redirect_from: /da/request/learn/screen/knowledge-base
 ---
 
-# Videnbase
+# Vidensbase
 
 **Vidensbase** er tilgængelig fra **Hovedmenu** på toplinjen og giver sagsbehandlere adgang til at gemme data på ét sted, hvilket gør det nemmere at finde information og gøre den tilgængelig for personer. Du kan bruge vidensbasen som opslagsværktøj og til at hente information, som du genbruge i kommunikation med personer. Vidensbasen består af følgende hoveddele:
 
@@ -31,8 +31,8 @@ redirect_from: /da/request/learn/screen/knowledge-base
 
 <!-- Referenced links -->
 [1]: external-document.md
-[2]: ../../faq/learn/index.md
+[2]: faq/index.md
 [3]: reply-templates/index.md
-[4]: kb-aliases/index.md
+[4]: email-addresses.md
 
 <!-- Referenced images -->

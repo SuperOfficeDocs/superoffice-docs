@@ -60,5 +60,5 @@ In der Übersicht der Antwortvorlagen können Sie mit der Schaltfläche **Suchen
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[1]: manage-folders.md
-[11]: ../../learn/reply.md
+[1]: ../manage-folders.md
+[11]: ../../../learn/reply.md

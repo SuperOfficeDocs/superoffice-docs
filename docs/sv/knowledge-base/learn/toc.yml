@@ -1,0 +1,15 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Administrera mappar
+  href: manage-folders.md
+- name: Svarsmallar
+  href: reply-templates/toc.yml
+  topicHref: reply-templates/index.md
+- name: FAQ
+  href: faq/toc.yml
+  topicHref: faq/index.md
+- name: E-postadresser
+  href: email-addresses.md
+- name: Externa dokument
+  href: external-document.md

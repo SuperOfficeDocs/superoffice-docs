@@ -41,8 +41,8 @@ Når du redigerer en svarskabelon, kan det enten betyde:
 ## <a id="delete"></a>Slet en svarskabelon
 
 1. Følg trin 1–3 i **Rediger en svarskabelon** for at åbne skærmbilledet **Egenskaber for svarskabelon**.
-2. Klik på **Slet**-knappen nederst i skærmbilledet.
-3. Bekræft sletningen, når du bliver bedt om det. Svarskabelonen slettes med det samme.
+1. Klik på **Slet**-knappen nederst i skærmbilledet.
+1. Bekræft sletningen, når du bliver bedt om det. Svarskabelonen slettes med det samme.
 
 ## Relateret indhold
 

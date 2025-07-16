@@ -99,34 +99,11 @@ Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtk
 1. Klicka på knappen **Ta bort** längst ned på skärmen.
 1. Bekräfta genom att klicka på **OK**. Dokumentet tas bort från SuperOffice Service.
 
-## Skapa mappar
+## Relaterat innehåll
 
-Du kan skapa en mappstruktur för dokument så att de får en logisk struktur och det blir enkelt för andra att hitta information. Du kan skapa undermappar i alla mappar och placera dokumenten i dessa.
-
-1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
-
-1. Gå till den mapp under vilken du vill skapa en undermapp. Du kan skapa undermappen direkt under mappen **Dokument** eller under någon av dess undermappar.
-
-1. Klicka på knappen **Ny mapp** överst på skärmen. Du kommer då till skärmen **Egenskaper för dokumentmapp**.
-
-1. Ange ett beskrivande namn på mappen i fältet **Namn**.
-
-1. I fältet **I mapp** visas automatiskt namnet på den överordnade mapp som du har valt. Om du ändrar dig kan du klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja en annan mapp i den lista som visas.
-
-1. I listrutan **Åtkomst** väljer du vem som ska ha behörighet att läsa och ändra det aktuella dokumentet.
-
-1. Klicka på **OK**. Den nya mappen skapas. Nu kan du lägga in dokument i den nya mappen.
-
-### Ta bort mappar
-
-När du tar bort en mapp raderas även alla dokument i mappen från SuperOffice.
-
-1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
-1. Gå till önskad mapp.
-1. Klicka på **Redigera mapp**. Du kommer då till skärmen **Egenskaper för dokumentmapp**.
-1. Klicka på **Ta bort**.
-1. Bekräfta genom att klicka på **OK**. Mappen och dess innehåll tas bort från SuperOffice.
+* [Skapa och ta bort mappar][2]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/reply.md
+[2]: manage-folders.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md

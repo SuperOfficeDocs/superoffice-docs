@@ -5,8 +5,6 @@ items:
   href: create.md
 - name: Edit or delete FAQ entries
   href: edit.md
-- name: Administrate folders of FAQ entries
-  href: manage-folders.md
 - name: Publish FAQ entries
   href: publish.md
 - name: Workflow stages

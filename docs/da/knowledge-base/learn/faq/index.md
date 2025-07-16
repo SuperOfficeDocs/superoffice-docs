@@ -76,7 +76,7 @@ Hvis der er mange FAQ-poster i en mappe, kan det være svært at finde den ønsk
 <!-- Referenced links -->
 [2]: create.md
 [3]: edit.md
-[6]: manage-folders.md
+[6]: ../manage-folders.md
 [7]: ../../../request/learn/reply.md#faq
 [8]: publish.md
 [9]: workflow.md

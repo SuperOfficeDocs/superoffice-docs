@@ -7,7 +7,5 @@ items:
   href: new-language.md
 - name: Antwoordsjabloon bewerken of verwijderen
   href: edit.md
-- name: Mappen met antwoordsjablonen beheren
-  href: manage-folders.md
 - name: Variabelen antwoordsjabloon
   href: template-variables.md

@@ -41,8 +41,8 @@ Die Bearbeitung einer Antwortvorlage kann auf zwei Arten erfolgen:
 ## <a id="delete"></a>Antwortvorlage löschen
 
 1. Folgen Sie den Schritten 1–3 unter **Antwortvorlage bearbeiten**, um die Ansicht **Eigenschaften der Antwortvorlage** zu öffnen.
-2. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**.
-3. Bestätigen Sie die Löschung, wenn Sie dazu aufgefordert werden. Die Antwortvorlage wird sofort gelöscht.
+1. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**.
+1. Bestätigen Sie die Löschung, wenn Sie dazu aufgefordert werden. Die Antwortvorlage wird sofort gelöscht.
 
 ## Verwandte Inhalte
 
@@ -50,7 +50,7 @@ Die Bearbeitung einer Antwortvorlage kann auf zwei Arten erfolgen:
 * [Antwortvorlagen kopieren][4]
 
 <!-- Referenced links -->
-[1]: ../../learn/reply.md
+[1]: ../../../learn/reply.md
 [2]: create.md
 [3]: new-language.md
 [4]: create.md#copy

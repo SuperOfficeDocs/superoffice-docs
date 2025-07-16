@@ -73,7 +73,7 @@ Om det finns många FAQ-poster i en mapp kan det vara svårt att hitta en viss p
 * [Arbeta med arbetsflöde][5]
 
 <!-- Referenced links -->
-[1]: manage-folders.md
+[1]: ../manage-folders.md
 [2]: create.md
 [3]: edit.md
 [4]: publish.md
