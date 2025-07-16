@@ -29,7 +29,7 @@ Generates this on the correct ticket:
 
 The first step is to create a web service in SuperOffice with a script similar to this:
 
-```crmcsript
+```crmscript
 #setLanguageLevel 3;
 #include "lib-http";
 #include "lib-ticket";

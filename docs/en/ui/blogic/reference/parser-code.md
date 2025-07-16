@@ -24,7 +24,7 @@ This component also supports ajax.
 
 ## Example
 
-```ajax
+```javascript
 <script language='JavaScript' src='/JavaScript/ajax.js'></script>
 <script language='JavaScript' src='/JavaScript/xml.js'></script>
 <script>
