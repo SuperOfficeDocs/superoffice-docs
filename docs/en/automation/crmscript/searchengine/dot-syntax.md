@@ -16,7 +16,7 @@ content_type: concept
 
 ## Formal syntax
 
-```ebnf
+```text
 column := <table>[<join>, ...].<field>
 join := .<foreign_key> | (<table>-><primary_key>) | :<foreign_key>
 ```
