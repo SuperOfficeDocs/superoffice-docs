@@ -19,8 +19,6 @@ items:
   href: forward.md
 - name: Reply to customer
   href: reply.md
-- name: Add FAQ entries to messages
-  href: ../../faq/learn/add-to-request.md
 - name: Tags
   href: tags.md
 - name: Keep track of messages

@@ -19,8 +19,6 @@ items:
   href: forward.md
 - name: Antwort an Kunde
   href: reply.md
-- name: Hinzufügen von FAQ-Einträgen zu Nachrichten
-  href: ../../faq/learn/add-to-request.md
 - name: Tags
   href: tags.md
 - name: Nachrichten nachverfolgen

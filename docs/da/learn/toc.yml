@@ -61,8 +61,8 @@ items:
       href: ../knowledge-base/learn/reply-templates/toc.yml
       topicHref: ../knowledge-base/learn/reply-templates/index.md
     - name: OFTE STILLEDE SPØRGSMÅL
-      href: ../faq/learn/toc.yml
-      topicHref: ../faq/learn/index.md
+      href: ../knowledge-base/learn/faq/toc.yml
+      topicHref: ../knowledge-base/learn/faq/index.md
     - name: E-mailadresser
       href: ../knowledge-base/learn/kb-aliases/toc.yml
       topicHref: ../knowledge-base/learn/kb-aliases/index.md

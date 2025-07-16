@@ -19,8 +19,6 @@ items:
   href: forward.md
 - name: Svara kund
   href: reply.md
-- name: Lägga till FAQ-poster i meddelanden
-  href: ../../faq/learn/add-to-request.md
 - name: Taggar
   href: tags.md
 - name: Hålla koll på meddelanden
