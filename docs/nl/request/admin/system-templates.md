@@ -91,4 +91,4 @@ Om een ander sjabloon te selecteren, klikt u op <i class="ph ph-caret-down" aria
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/kb-aliases/index.md
 [2]: ../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../faq/learn/index.md
+[3]: ../../knowledge-base/learn/faq/index.md

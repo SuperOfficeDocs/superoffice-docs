@@ -27,8 +27,8 @@ Dine kunder kan endda få adgang til disse ofte stillede spørgsmål via kundece
 * [Publicer en FAQ][3]
 
 <!-- Referenced links -->
-[1]: ../../faq/learn/create.md
-[3]: ../../faq/learn/publish.md
+[1]: ../../knowledge-base/learn/faq/create.md
+[3]: ../../knowledge-base/learn/faq/publish.md
 [2]: config.md
 
 <!-- Referenced images -->

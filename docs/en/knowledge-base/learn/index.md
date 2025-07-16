@@ -31,7 +31,7 @@ The **Knowledge base** is accessible from the **Main menu** in the top bar and g
 
 <!-- Referenced links -->
 [1]: external-document.md
-[2]: ../../faq/learn/index.md
+[2]: faq/index.md
 [3]: reply-templates/index.md
 [4]: kb-aliases/index.md
 

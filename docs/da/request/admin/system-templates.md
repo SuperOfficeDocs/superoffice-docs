@@ -90,7 +90,7 @@ Hvis du vil vælge en anden skabelon, skal du klikke på ![ikonet][img1] for lis
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/kb-aliases/index.md
 [2]: ../../knowledge-base/learn/reply-templates/index.md
-[3]: ../../faq/learn/index.md
+[3]: ../../knowledge-base/learn/faq/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-arrow.png
