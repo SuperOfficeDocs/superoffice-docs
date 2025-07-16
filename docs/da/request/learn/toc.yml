@@ -19,8 +19,6 @@ items:
   href: forward.md
 - name: Svar til kunde
   href: reply.md
-- name: Føj poster i ofte stillede spørgsmål til meddelelser
-  href: ../../faq/learn/add-to-request.md
 - name: Tags
   href: tags.md
 - name: Hold styr på meddelelser

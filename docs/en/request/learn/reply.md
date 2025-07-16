@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
-redirect_from: /en/request/learn/howto/reply
+redirect_from:
+  - /en/request/learn/howto/reply
+  - /en/faq/learn/add-to-request
 ---
 
 # Reply to contact
@@ -52,6 +54,20 @@ You can save time by using [reply templates][8] as a starting point for your rep
 1. Click <i class="ph ph-article" aria-label="Insert"></i> and select **Reply template**.
 1. Choose a template from the list. Hover over it to preview before inserting.
 1. Edit the text as needed and attach files if required.
+
+## <a id="faq"></a>Add FAQ entries
+
+When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply.
+
+1. Go to the **Message** tab.
+1. Position the mouse pointer in the message where you want to insert the link.
+1. Click <i class="ph ph-article" aria-label="Insert"></i> and select what to insert in the message.
+
+   > [!TIP]
+   > In the **Add text** pop out, you can preview any of the FAQ items by moving your cursor over the different entries.
+
+1. Click on the wanted FAQ entry.
+1. A **link** is inserted at your cursor position. The customer can click it to show the relevant FAQ entry in the customer centre.
 
 ## Add a message to multiple requests
 

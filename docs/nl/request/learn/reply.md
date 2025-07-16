@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
-redirect_from: /nl/request/learn/howto/reply
+redirect_from: 
+  - /nl/request/learn/howto/reply
+  - /nl/faq/learn/add-to-request
 ---
 
 # Antwoorden aan contact
@@ -52,6 +54,20 @@ U kunt tijd besparen door [antwoordsjablonen][8] te gebruiken als basis voor uw 
 1. Klik op <i class="ph ph-article" aria-label="Invoegen"></i> en selecteer **Antwoordsjabloon**.
 1. Kies een sjabloon uit de lijst. Beweeg de muis over de naam om een voorbeeld te bekijken voordat u de sjabloon invoegt.
 1. Bewerk de tekst indien nodig en voeg eventuele bijlagen toe.
+
+## <a id="faq"></a>Items in Veelgestelde vragen toevoegen aan berichten
+
+Wanneer u een vraag van een klant beantwoordt, kunt u tijd besparen door in uw antwoord een koppeling op te nemen naar een item in Veelgestelde vragen.
+
+1. Ga naar het tabblad **Bericht** zoals beschreven bij [Klanten beantwoorden][1].
+1. Plaats de muisaanwijzer op de plek in het bericht waar u de koppeling wilt invoegen.
+1. Klik op ![pictogram][img5] de knop **Tekst toevoegen** en selecteer wat er moet worden ingevoegd in het bericht.
+
+   > [!TIP]
+   > In het pop-upvenster **Tekst toevoegen** kunt u een voorbeeld van een van de veelgestelde vragen bekijken door uw cursor over de verschillende items te bewegen.
+
+1. Klik op het gewenste item in veelgestelde vragen.
+1. Er wordt een **koppeling** ingevoegd op de positie van de cursor. De klant kan erop klikken om het relevante item in Veelgestelde vragen in het klantportaal weer te geven.
 
 ## Bericht toevoegen aan meerdere verzoeken
 
@@ -119,3 +135,4 @@ De gebruikte tijd wordt weergegeven in de koptekst van elk bericht en is terug t
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../../common/icons/copy-paste-icon.png

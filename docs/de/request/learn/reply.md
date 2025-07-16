@@ -11,7 +11,9 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
-redirect_from: /de/request/learn/howto/reply
+redirect_from:
+  - /de/request/learn/howto/reply
+  - /de/faq/learn/add-to-request
 ---
 
 # Einer Person antworten
@@ -55,6 +57,20 @@ Sie können [Antwortvorlagen][8] verwenden, um Zeit zu sparen und Ihre Antwort z
 1. Wählen Sie eine Vorlage aus der Liste aus. Fahren Sie mit der Maus darüber, um eine Vorschau anzuzeigen.
 
 1. Bearbeiten Sie den Text nach Bedarf und fügen Sie Dateien an, falls erforderlich.
+
+## <a id="faq"></a>Hinzufügen von FAQ-Einträgen
+
+Wenn Sie auf eine Anfrage eines Kunden antworten, können Sie Zeit sparen, indem Sie einen Link zu einem FAQ-Eintrag in Ihre Antwort einfügen.
+
+1. Rufen Sie die Registerkarte **Nachricht** auf.
+1. Positionieren Sie den Mauszeiger an der Stelle in der Nachricht, an der Sie den Link einfügen möchten.
+1. Klicken Sie auf <i class="ph ph-file-text" aria-label="Einfügen"></i> und wählen Sie aus, was in der Mitteilung eingefügt werden soll.
+
+   > [!TIP]
+   > Im Popup-Fenster **Text hinzufügen** können Sie eine Vorschau der FAQ-Elemente anzeigen, indem Sie den Mauszeiger über die verschiedenen Einträge verschieben.
+
+1. Klicken Sie auf den gewünschten FAQ-Eintrag.
+1. An der Cursorposition wird ein **Link** eingefügt. Der Kunde kann diesen Link anklicken, um den entsprechenden FAQ-Eintrag im Kundenzentrum anzuzeigen.
 
 ## Eine Mitteilung zu mehreren Anfragen hinzufügen
 
