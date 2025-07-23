@@ -2,10 +2,14 @@
 uid: diagnosticsagent-script-events
 title: DiagnosticsAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # DiagnosticsAgent method listing
@@ -37,4 +41,3 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [ResyncUsersAsync](resyncusersasync.md)
 * [SendSystemMessageAsync](sendsystemmessageasync.md)
 * [WebAppUsageExistsInPeriodAsync](webappusageexistsinperiodasync.md)
-
