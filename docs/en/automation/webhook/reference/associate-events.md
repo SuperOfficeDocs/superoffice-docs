@@ -1,13 +1,13 @@
 ---
-title: Associate events
 uid: webhook_associate_event
+title: Associate events
 description: Associate events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: associate webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Associate events

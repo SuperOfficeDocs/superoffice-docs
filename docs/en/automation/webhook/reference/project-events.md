@@ -1,13 +1,13 @@
 ---
-title: Project events
 uid: webhook_project_event
+title: Project events
 description: Project events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: project webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Project events

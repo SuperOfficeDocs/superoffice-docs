@@ -1,13 +1,13 @@
 ---
-title: Chat events
 uid: webhook_chat_event
+title: Chat events
 description: Chat events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: chat webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Chat events

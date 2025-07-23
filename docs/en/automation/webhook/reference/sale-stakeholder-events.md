@@ -1,13 +1,13 @@
 ---
-title: Sale stakeholder webhook events
 uid: webhook_salestakeholder_event
+title: Sale stakeholder webhook events
 description: Sale stakeholder events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: stakeholder webhook, salestakeholder
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Sale stakeholder webhook events

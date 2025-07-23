@@ -1,14 +1,14 @@
 ---
-title: Ticket webhook events
 uid: webhook_ticket_event
+title: Ticket webhook events
 description: Ticket events
-author:
+keywords: ticket webhook
+author: SuperOffice Product and Engineering
 date: 11.22.2023
 version: 10.2.11
-keywords: automation
-topic: reference
-# envir:
-# client:
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Ticket webhook events
