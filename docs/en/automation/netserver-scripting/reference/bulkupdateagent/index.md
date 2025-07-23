@@ -2,10 +2,14 @@
 uid: bulkupdateagent-script-events
 title: BulkUpdateAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # BulkUpdateAgent method listing
@@ -20,4 +24,3 @@ Service methods defined on <see cref='T:IBulkUpdateAgent'>BulkUpdateAgent</see> 
 * [GetStoredFieldsAsync](getstoredfieldsasync.md)
 * [RemoveStoredFieldsAndGetDefaultFieldsAsync](removestoredfieldsandgetdefaultfieldsasync.md)
 * [RemoveStoredFieldsAsync](removestoredfieldsasync.md)
-

@@ -2,10 +2,14 @@
 uid: workflowagent-script-events
 title: WorkflowAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # WorkflowAgent method listing
@@ -46,4 +50,3 @@ Service methods defined on <see cref='T:IWorkflowAgent'>WorkflowAgent</see> that
 * [SetStatusOnWorkflowAsync](setstatusonworkflowasync.md)
 * [TryAddPersonsToEmailFlowAsync](tryaddpersonstoemailflowasync.md)
 * [UpdateFormSubmissionsAsync](updateformsubmissionsasync.md)
-

@@ -2,10 +2,14 @@
 uid: findagent-script-events
 title: FindAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # FindAgent method listing
@@ -48,4 +52,3 @@ Service methods defined on <see cref='T:IFindAgent'>FindAgent</see> that can tri
 * [SaveRestrictionsAsync](saverestrictionsasync.md)
 * [SaveRestrictionsWithContext2Async](saverestrictionswithcontext2async.md)
 * [SaveRestrictionsWithContextAsync](saverestrictionswithcontextasync.md)
-
