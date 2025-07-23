@@ -2,10 +2,14 @@
 uid: contactagent-script-events
 title: ContactAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # ContactAgent method listing
@@ -48,4 +52,3 @@ Service methods defined on <see cref='T:IContactAgent'>ContactAgent</see> that c
 * [SetDuplicateRulesStatusAsync](setduplicaterulesstatusasync.md)
 * [UndeleteAsync](undeleteasync.md)
 * [ValidateContactEntityAsync](validatecontactentityasync.md)
-

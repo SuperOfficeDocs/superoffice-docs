@@ -2,10 +2,14 @@
 uid: ticketagent-script-events
 title: TicketAgent script event methods
 description: NetServer script event methods.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # TicketAgent method listing
@@ -79,4 +83,3 @@ Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can
 * [UpdateTicketsReadStatusByProviderAsync](updateticketsreadstatusbyproviderasync.md)
 * [UploadAttachmentAsync](uploadattachmentasync.md)
 * [ValidateAttachmentsAsync](validateattachmentsasync.md)
-

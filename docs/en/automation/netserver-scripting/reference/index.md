@@ -2,10 +2,14 @@
 uid: netserver-scripting-events
 title: NetServer web service scripting events
 description: List of available NetServer web service method event hooks.
-so.generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+author: SuperOffice Product and Engineering
+date: 06.12.2025
+generated: true
+category: automation
+topic: NetServer scripting
+content_type: reference
+deployment: onsite
 ---
 
 # NetServer web service scripting API
@@ -62,4 +66,3 @@ The following endpoint interfaces define all web service methods that serve even
 * [ViewStateAgent](viewstateagent/index.md)
 * [WebhookAgent](webhookagent/index.md)
 * [WorkflowAgent](workflowagent/index.md)
-
