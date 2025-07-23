@@ -1,13 +1,13 @@
 ---
-title: Quote webhook events
 uid: webhook_quote_event
+title: Quote webhook events
 description: Quote events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: quote webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Quote webhook events

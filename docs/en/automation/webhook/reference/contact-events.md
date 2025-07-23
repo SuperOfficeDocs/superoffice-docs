@@ -1,13 +1,13 @@
 ---
-title: Contact webhook events
 uid: webhook_contact_event
+title: Contact webhook events
 description: Contact events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: contact webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Contact webhook events

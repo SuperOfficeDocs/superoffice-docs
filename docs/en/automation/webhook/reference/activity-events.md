@@ -1,13 +1,13 @@
 ---
-title: Activity events
 uid: webhook_activity_event
+title: Activity events
 description: Activity events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: activity webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Activity events

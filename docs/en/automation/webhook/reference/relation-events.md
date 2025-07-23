@@ -1,11 +1,13 @@
 ---
-title: Relation events
 uid: webhook_relation_event
+title: Relation events
 description: Relation events
+keywords: relation webhook
 author: AnthonyYates
 date: 5.11.2024
-keywords: automation
-topic: reference
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Relation events
