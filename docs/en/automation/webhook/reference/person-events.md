@@ -1,13 +1,13 @@
 ---
-title: Person webhook events
 uid: webhook_person_event
+title: Person webhook events
 description: Person events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: person webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 # Person webhook events
 

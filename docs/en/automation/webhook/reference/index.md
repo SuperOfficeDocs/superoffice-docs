@@ -4,8 +4,10 @@ title: Reference
 description: SuperOffice Webhooks reference
 keywords: webhook reference
 author: SuperOffice Product and Engineering
-date: 04.06.2018
+date: 07.07.2025
 content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Reference

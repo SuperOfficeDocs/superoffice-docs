@@ -1,13 +1,13 @@
 ---
-title: Test event
 uid: webhook_test_event
+title: Test event
 description: Test events
-author:
-date:
-keywords: automation
-topic: reference
-# envir:
-# client:
+keywords: test webhook
+author: SuperOffice Product and Engineering
+date: 07.07.2025
+content_type: reference
+category: automation
+topic: webhook
 ---
 
 # Test event
