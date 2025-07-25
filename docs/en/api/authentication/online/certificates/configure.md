@@ -8,6 +8,7 @@ content_type: howto
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/certificates/configure
 ---
 
 # How to configure certificates in the Windows certificate store

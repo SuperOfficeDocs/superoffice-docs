@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.29.2021
 keywords:
 content_type: howto
+redirect_from: /en/authentication/onsite/config-external-user
 ---
 
 # How to configure the external users in the config file

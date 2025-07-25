@@ -7,6 +7,7 @@ date: 11.22.2021
 keywords: authentication, ticket, credentials
 content_type: concept
 deployment: onsite
+redirect_from: /en/authentication/onsite/index
 ---
 
 # Authentication

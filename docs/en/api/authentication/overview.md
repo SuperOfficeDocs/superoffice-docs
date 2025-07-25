@@ -7,6 +7,10 @@ date: 05.08.2018
 keywords: security, identity
 content_type: concept
 deployment: online, onsite
+redirect_from:
+  - /en/authentication/index
+  - /en/authentication/overview
+# Including redirect_from the subcategory since we can't set redirect_from in index.yml
 ---
 
 # SuperOffice Authentication

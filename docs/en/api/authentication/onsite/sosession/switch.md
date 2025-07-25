@@ -7,6 +7,7 @@ date: 11.05.2016
 keywords: authentication, SoSession
 content_type: howto
 deployment: onsite
+redirect_from: /en/authentication/onsite/sosession/switch
 ---
 
 # Switching between sessions
