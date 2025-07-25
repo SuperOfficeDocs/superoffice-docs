@@ -8,6 +8,7 @@ content_type: howto
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/certificates/override-resolver
 ---
 
 # How to override the certificate resolver

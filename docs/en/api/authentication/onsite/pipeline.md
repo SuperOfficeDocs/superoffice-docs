@@ -7,6 +7,7 @@ date: 05.08.2018
 keywords: security, identity, authentication, plugin
 content_type: concept
 deployment: onsite
+redirect_from: /en/authentication/onsite/pipeline
 ---
 
 # Authentication pipeline

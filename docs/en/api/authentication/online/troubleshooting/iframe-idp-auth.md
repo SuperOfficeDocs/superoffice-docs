@@ -8,6 +8,7 @@ content_type: concept
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/troubleshooting/iframe-idp-auth
 ---
 
 # Unable to authenticate inside an iframe with IdP

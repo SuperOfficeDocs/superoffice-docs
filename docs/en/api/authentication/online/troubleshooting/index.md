@@ -9,6 +9,7 @@ content_type: reference
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/troubleshooting/index
 ---
 
 # Troubleshooting

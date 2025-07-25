@@ -8,6 +8,7 @@ content_type: concept
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/auth-application/index
 ---
 
 <!-- markdownlint-disable-file MD051 -->

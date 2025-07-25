@@ -10,6 +10,7 @@ category: api
 topic: authentication
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/index
 ---
 
 # SuperOffice Online OAuth 2.0 and OpenID Connect

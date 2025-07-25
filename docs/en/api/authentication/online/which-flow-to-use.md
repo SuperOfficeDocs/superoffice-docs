@@ -8,6 +8,7 @@ content_type: reference
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/which-flow-to-use
 ---
 
 # Which flow should you use?

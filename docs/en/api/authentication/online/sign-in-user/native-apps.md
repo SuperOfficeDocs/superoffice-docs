@@ -8,6 +8,7 @@ content_type: concept
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/sign-in-user/native-apps
 ---
 
 # OpenID Connect native apps

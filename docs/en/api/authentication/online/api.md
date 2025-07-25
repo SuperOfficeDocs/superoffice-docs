@@ -7,6 +7,7 @@ keywords: OpenID Connect, metadata document
 content_type: reference
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/api
 ---
 
 # OpenID Connect
