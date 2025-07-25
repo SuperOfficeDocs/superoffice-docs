@@ -8,6 +8,7 @@ content_type: howto
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/auth-application/sign-system-user-token
 ---
 
 <!-- markdownlint-disable-file MD051 -->

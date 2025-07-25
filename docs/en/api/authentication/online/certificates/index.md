@@ -8,6 +8,7 @@ date: 06.18.2024
 content_type: concept
 deployment: online
 category: api
+redirect_from: /en/authentication/online/certificates/index
 ---
 
 # SuperID certificates

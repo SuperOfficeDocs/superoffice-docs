@@ -5,6 +5,7 @@ description: "Learn about user types, user groups and the associate database tab
 author: SuperOffice Product and Engineering
 keywords: database
 content_type: concept
+redirect_from: /en/authentication/onsite/users-and-associates
 ---
 
 # Users and associates

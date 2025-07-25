@@ -7,6 +7,7 @@ date: 11.22.2021
 keywords: authentication, SOAP, SoSession, WcfSoPrincipalService, SoCredentials
 content_type: concept
 deployment: onsite
+redirect_from: /en/authentication/onsite/sosession/using-soap
 ---
 
 # Authentication and SOAP calls

@@ -8,6 +8,7 @@ keywords: security, authentication, COM, IApplication, IDatabase
 content_type: concept
 deployment: onsite
 platform: win
+redirect_from: /en/authentication/onsite/com/index
 ---
 
 # COM

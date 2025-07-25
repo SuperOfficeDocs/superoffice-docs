@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: authentication, secret, ticket
 content_type: concept
 deployment: onsite
+redirect_from: /en/authentication/onsite/from-secret-to-ticket
 ---
 
 # From secret to ticket

@@ -7,6 +7,7 @@ date: 05.08.2018
 keywords: authentication, SOAP
 content_type: concept
 deployment: onsite
+redirect_from: /en/authentication/onsite/custom-proxies/index
 ---
 
 <!-- markdownlint-disable-file MD051 -->

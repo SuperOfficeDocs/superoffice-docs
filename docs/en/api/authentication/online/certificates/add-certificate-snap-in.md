@@ -8,6 +8,7 @@ content_type: howto
 category: api
 deployment: online
 platform: web
+redirect_from: /en/authentication/online/certificates/add-certificate-snap-in
 ---
 
 # How to install the Certificate snap-in on Windows

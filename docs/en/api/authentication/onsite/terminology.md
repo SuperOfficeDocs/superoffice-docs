@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: authentication, authorization, user name
 content_type: concept
+redirect_from: /en/authentication/onsite/terminology
 ---
 
 # Terminology
