@@ -1,19 +1,4 @@
 ---
-<<<<<<< HEAD:release-notes/database/changes-11.2.665.md
-uid: database-whats-new-11.2.665.0
-title: What's new in version 11.2.665.0
-description: What's new in database version 11.2.665.0.
-author: SuperOffice Product and Engineering
-generated: true
-version: 11.2
-content_type: release-note
-deployment: onsite, online
-category: database
----
-
-<!-- markdownlint-disable-file MD036 MD044 -->
-# Released database changes in version 11.2.665.0
-=======
 uid: database-whats-new-11.2.664.0
 title: What's new in version 11.2.664.0
 description: What's new in database version 11.2.664.0.
@@ -24,7 +9,6 @@ so.envir: onsite, online
 ---
 
 # Released database changes in version 11.2.664.0
->>>>>>> 8adfd51309 (Updated api release notes 11.2.664):release-notes/database/changes-11.2.664.md
 
 ## SuperOffice
 
