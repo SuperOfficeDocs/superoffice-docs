@@ -65,4 +65,4 @@ Wanneer u voor een zoekwoord dat in de SuperOffice-database voorkomt, geen treff
 [4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img1]: ../../../media/loc/en/search-options/freetext-search-box.png

@@ -147,6 +147,6 @@ Titta på den här videon eller följ stegen nedan om du vill lära dig hur du s
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
-[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
-[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img2]: ../../../media/loc/en/search-options/find-screen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-box.png
 [img5]: ../../../media/loc/en/request/typical-searches-for-request.png

@@ -4,15 +4,16 @@ title: Fönstret Sök
 description: Fönstret Sök
 keywords: söka, sök
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
-# Fönstret Sök <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
+# Fönstret Sök <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
 För att söka efter poster och data i SuperOffice CRM använder du fönstret **Sök**.
 
@@ -23,7 +24,7 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 
 ## Steg
 
-1. Klicka på **Sök**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
+1. Klicka på <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Sök**-knappen på [toppraden][1].
 
 1. Klicka på den typ av post du vill söka efter eller klicka på **Vanliga sökningar** för att visa en lista med fördefinierade sökningar. Fliken **Kriterier** öppnas.
 
