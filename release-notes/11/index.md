@@ -23,6 +23,17 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+* 11.3 (25.08.2025):
+  * [Selection - Board view for projects][6] in Core CRM and Sales
+  * [Selection - Preview of board item][6] in Core CRM and Sales
+  * [Notification - New company/contact assigned][6] in Core CRM and Sales
+  * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
+  * [Side panel - Preview of e-mail][6] in Core CRM and Sales
+  * [Marketing - Flow - Step to distribute to owner][7] in Marketing
+  * [Request - Anonymise support agent][8] in Service and Settings and maintenance
+  * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
+  * [CRMScript - Trigger for Load request][9] in Settings and maintenance
+
 * 11.2 (17.06.2025):
   * [Selection - Board view for sales][4] in Core CRM and Sales
   * [Request - Reply tools in Request properties][5] in Service
@@ -50,6 +61,10 @@ Some features are available to selected customers as part of ongoing pilots. See
 [3]: service/11.1-update.md
 [4]: core-crm/11.2-update.md
 [5]: service/11.2-update.md
+[6]: core-crm/11.3-update.md
+[7]: marketing/11.3-update.md
+[8]: service/11.3-update.md
+[9]: admin/11.3-update.md
 [13]: ../integrations/index.md
 [15]: ../mobile/index.md
 [17]: ../index.md

@@ -13,7 +13,10 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [CRMScript - Trigger for Load request (11.3)][3]
+* [Preferences - Global preference to anonymise user on reply (11.3)][3]
 * [System design - Setting a field as read-only (11.1)][1]
 
 <!-- Referenced links-->
 [1]: 11.1-update.md
+[3]: 11.3-update.md

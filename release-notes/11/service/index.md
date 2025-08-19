@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [Request - Anonymise support agent (11.3)][3]
 * [Request - Reply tools in Request properties (11.2)][2]
 * [Request - Pin request lists to the tab bar (11.2)][2]
 * [Request - Show all linked contacts (11.2)][2]
@@ -21,3 +22,4 @@ audience_tooltip: SuperOffice Service
 <!-- Referenced links-->
 [1]: 11.1-update.md
 [2]: 11.2-update.md
+[3]: 11.3-update.md
