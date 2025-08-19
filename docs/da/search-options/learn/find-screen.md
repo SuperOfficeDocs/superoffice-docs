@@ -49,7 +49,7 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 > [!TIP]
 > Hvis du for eksempel vil søge efter alle firmaer, kan du bruge procenttegnet (%), når du tilføjer [søgekriterier][3] for **Firma**.
 
-## <a id="or"></a>Udvid din søgning ved hjælp af QR-funktionen
+## <a id="or"></a>Udvid din søgning ved hjælp af ELLER-funktionen
 
 Funktionen Find gør det muligt for dig at udføre en søgning ved at kombinere søgekriterier med værdioperatoren "ELLER" mellem dem. På denne måde kan du søge efter to sæt uafhængige data og gemme dem i ét udvalg.
 
