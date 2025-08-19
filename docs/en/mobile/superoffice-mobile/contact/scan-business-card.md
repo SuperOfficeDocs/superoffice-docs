@@ -4,7 +4,7 @@ title: Scan a business card
 description: How do I automatically create a new contact in the Mobile CRM app from a business card?
 keywords: business card, contact
 author: Bergfrid Dias
-date: 06.10.2025
+date: 08.25.2025
 version: 11.1
 content_type: howto
 platform: mobile
@@ -29,9 +29,6 @@ Do you receive many business cards from prospects and customers? The fastest way
 1. Tap **+** and select **Scan business card**.
 
 1. When the phone's camera opens, take a picture of the business card and tap <i class="ph ph-check" aria-label="Check"></i>.
-
-    > [!TIP]
-    > Mobile CRM also recognizes QR codes.
 
 1. If Mobile CRM recognizes a company name that already exists in SuperOffice CRM, you can choose between these options: **Add contact to company** that exists in the system or **Add  to a different company**. Otherwise you will get the option **Add new contact and company**.
 
