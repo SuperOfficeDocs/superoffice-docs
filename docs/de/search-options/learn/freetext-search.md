@@ -63,4 +63,4 @@ Falls für ein Suchwort in der SuperOffice-Datenbank keine Treffer zurückgegebe
 [4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img1]: ../../../media/loc/en/search-options/freetext-search-box.png

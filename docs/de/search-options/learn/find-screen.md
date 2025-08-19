@@ -4,15 +4,16 @@ title: Ansicht Suchen
 description: Ansicht Suchen
 keywords: Suchen
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
-# Die Ansicht Suchen <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
+# Die Ansicht Suchen <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
 Verwenden Sie die Ansicht **Suchen**, um in SuperOffice CRM nach Datensätzen und Daten zu suchen.
 
@@ -23,7 +24,7 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 
 ## Schritte
 
-1. Klicken Sie in der [oberen Leiste][1] auf die Schaltfläche **Suchen** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>).
+1. Klicken Sie in der [oberen Leiste][1] auf die Schaltfläche <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Suchen**.
 
 1. Klicken Sie auf den Datensatztyp, nach dem Sie suchen möchten, oder klicken Sie auf **Typische Suchanfragen**, um eine Liste vordefinierter Suchanfragen anzuzeigen. Die Registerkarte **Kriterien** wird geöffnet.
 

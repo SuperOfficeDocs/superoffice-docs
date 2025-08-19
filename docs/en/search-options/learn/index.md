@@ -4,12 +4,13 @@ title: Search options
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
 keywords: search, find
 author: Bergfrid Dias
-date: 01.20.2025
-version: 10.5
+date: 08.25.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Search options <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
@@ -93,7 +94,7 @@ From the Find screen, you can save each search you perform as a selection.
 
 A typical search is a *predefined search* based on what other users typically search for. Each data set in the Find screen contains a list of ready-to-use, pre-set search criteria.
 
-To get started, click <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> and then click below the group of data you are interested in. Use the typical search as-is or modify or expand it.
+To get started, click <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Find** and then click below the group of data you are interested in. Use the typical search as-is or modify or expand it.
 
 ### Example: My overdue follow-ups
 
@@ -145,6 +146,6 @@ Watch this video or follow the steps below to learn how you can create a search 
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
-[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
-[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img2]: ../../../media/loc/en/search-options/find-screen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-box.png
 [img5]: ../../../media/loc/en/request/typical-searches-for-request.png

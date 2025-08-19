@@ -62,4 +62,4 @@ Hvis du ingen søgeresultater får på et søgeord, som findes i SuperOffice-dat
 [4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img1]: ../../../media/loc/en/search-options/freetext-search-box.png

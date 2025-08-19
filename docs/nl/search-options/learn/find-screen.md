@@ -4,15 +4,16 @@ title: Scherm zoeken
 description: Scherm zoeken
 keywords: zoeken
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
-# Het scherm Zoeken <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
+# Het scherm Zoeken <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
 Gebruik het scherm **Zoeken** voor het zoeken in SuperOffice CRM naar records en gegevens.
 
@@ -23,7 +24,7 @@ Er zijn feitelijk geen beperkingen op waar u naar kunt zoeken in SuperOffice CRM
 
 ## Stappen
 
-1. Klik op de knop **Zoeken** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) op de [bovenste balk][1].
+1. Klik op de knop <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Zoeken** op de [bovenste balk][1].
 
 1. Klik op het type record dat u wilt zoeken of klik op **Typische zoekopdrachten** om een lijst met vooraf gedefinieerde zoekopdrachten weer te geven. Het tabblad **Criteria** wordt geopend.
 

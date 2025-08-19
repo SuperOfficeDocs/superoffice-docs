@@ -150,6 +150,6 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan oppr
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
-[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
-[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img2]: ../../../media/loc/en/search-options/find-screen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-box.png
 [img5]: ../../../media/loc/en/request/typical-searches-for-request.png

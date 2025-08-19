@@ -1,15 +1,17 @@
 ---
-title: config categorization AI Services
+uid: ai-categorization-setup
+title: How to set up and configure Categorization AI Service
 description: How to setup and configure Categorization AI Service
-author: AnthonyYates
 keywords: AI
-content_type: tutorial, howto
+author: AnthonyYates
+date: 08.25.2025
+content_type: tutorial
 deployment: online
 platform: web
 index: true
 ---
 
-# How to setup and configure Categorization AI Service
+# How to set up and configure Categorization AI Service
 
 To be able to take advantage of these services, SuperOffice Service must be in use.
 
@@ -25,22 +27,22 @@ The Machine-learning categorization service is enabled in Settings and maintenan
 1. Open the Sales client.
 
 2. Create a selection of requests to use for analysis:
-     * Click either <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> or **New > Selection**.
+     * Click either <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> **Find** or **New** > **Selection**.
 
-    ![x -screenshot][img2]
+    ![New selection button -screenshot][img2]
 
-3. Create a selection type: Request
+3. Choose a selection type: Request
     * Either click **Find Request** or choose a selection from **Typical searches**.
 
-    ![x -screenshot][img3]
+    ![Typical searches -screenshot][img3]
 
 4. Update criteria:
     1. Select your criteria to match the selection for the request you want to use for analysis.
     2. Click **Find**.
 
-    ![x -screenshot][img4]
+    ![Selection criteria -screenshot][img4]
 
-5. Save selection
+5. Save the selection:
     1. Click **Save as selection**.
     2. Select "Static selection" or "Dynamic selection".
     3. Enter a name.
@@ -114,8 +116,8 @@ When the users navigate to a request, there will be a link if there is a sugges
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: media/selection-option.png
-[img3]: media/find-request-menu.png
+[img2]: ../../../media/loc/en/search-options/choose-new-selection.png
+[img3]: ../../../media/loc/en/search-options/typical-request-searches.png
 [img4]: media/find-request-search-criteria.png
 [img6]: media/select-selection-type-dialog.png
 [img7]: media/name-selection-input.png

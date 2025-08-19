@@ -65,4 +65,4 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 [4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img1]: ../../../media/loc/en/search-options/freetext-search-box.png

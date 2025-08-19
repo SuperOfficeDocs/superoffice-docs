@@ -4,15 +4,16 @@ title: Skærmbilledet Find
 description: Skærmbilledet Find
 keywords: søge, finde
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
-# Skærmbilledet Find <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
+# Skærmbilledet Find <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
 Hvis du vil søge efter poster og data i SuperOffice CRM, skal du bruge skærmbilledet **Find**.
 
@@ -23,7 +24,7 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 
 ## Trin
 
-1. Klik på knappen **Find** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toplinjen][1].
+1. Klik på <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Find** på [toplinjen][1].
 
 1. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
 

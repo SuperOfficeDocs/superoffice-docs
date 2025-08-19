@@ -4,15 +4,16 @@ title: Søke-skjerm
 description: Søke-skjerm
 keywords: søk, finn
 author: SuperOffice RnD
-date: 01.29.2025
-version: 10.5
+date: 08.25.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
-# Søke-skjermen <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
+# Søke-skjermen <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
 Hvis du vil søke etter poster og data i SuperOffice CRM, bruker du **Søk**-skjermen.
 
@@ -23,7 +24,7 @@ Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På
 
 ## Søke etter informasjon i SuperOffice CRM
 
-1. Klikk på **Finn**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
+1. Klikk på <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i> **Finn**-knappen på [toppraden][1].
 
 1. Klikk på typen post du vil søke etter, eller klikk på **Vanlige søk** for å vise en liste over forhåndsdefinerte søk. Fanen **Kriterier** åpnes.
 
