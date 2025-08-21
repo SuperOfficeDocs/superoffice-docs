@@ -111,7 +111,7 @@ conceptualContent:
       - text: SoProtocol - list of contacts from a company
         itemType: list
         typeDesc: how-to-guide
-        url: ../ui/soprotocol/show-persons-for-contact.md
+        url: ../ui/soprotocol/howto/open-contact.md
 
     # Card
     - title: Data options
