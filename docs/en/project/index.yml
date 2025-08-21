@@ -10,7 +10,7 @@ metadata:
   ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 05.31.2023
+  so.date: 08.25.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -59,7 +59,7 @@ landingContent:
         links:
         - text: How to link document to project
           url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
-        - text: How to add appointment to project
+        - text: How to add follow-up to project
           url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
       - itemType: library_books
         typeDesc: reference
