@@ -63,7 +63,7 @@ For SuperOffice CRM Online, this is available in the Sales and Service admin cli
 
 While [adding a script](#how-to-add-a-script) it is possible to set allowed HTTP verbs.
 
-![x][img1]
+![Options shown in the script editor][img1]
 
 This is relevant, for instance, when creating a [Custom REST endpoint][3] and this property applies only when a script is executed via:
 
