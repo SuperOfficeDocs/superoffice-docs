@@ -8,7 +8,6 @@ keywords: search, selection, static
 content_type: howto
 redirect_from:
   - /en/api/search/selection/sql/index
-  - /en/api/netserver/search/selection/sql/index
   - /en/api/netserver/search/selection/sql/add-person-to-selection
   - /en/api/netserver/search/selection/sql
 ---

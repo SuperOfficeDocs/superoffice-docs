@@ -8,7 +8,6 @@ keywords: search
 content_type: howto
 redirect_from:
   - /en/api/search/selection/services/index
-  - /en/api/netserver/search/selection/services/index
   - /en/api/netserver/search/selection/services/create-dynamic-services
   - /en/api/netserver/search/selection/services
 ---
