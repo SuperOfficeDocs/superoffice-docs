@@ -99,15 +99,11 @@ conceptualContent:
       - text: SoProtocol - create company
         itemType: list
         typeDesc: how-to-guide
-        url: ../ui/soprotocol/create-contact.md
+        url: ../ui/soprotocol/howto/create-contact.md
       - text: SoProtocol - get company
         itemType: list
         typeDesc: how-to-guide
-        url: ../ui/soprotocol/get-contact.md
-      - text: SoProtocol - edit company
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../ui/soprotocol/edit-contact.md
+        url: ../ui/soprotocol/howto/open-contact.md
 
     # Card
     - title: Data options

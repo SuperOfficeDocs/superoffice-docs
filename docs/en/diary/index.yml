@@ -245,10 +245,10 @@ additionalContent:
         links:
         - text: Web panels
           url: ../ui/web-panels/index.md
-        - text: SoProtocol - create appointment
-          url: ../ui/soprotocol/create-appointment.md
-        - text: SoProtocol - open appointment dialog
-          url: ../ui/soprotocol/open-appointment-dialog.md
+        - text: SoProtocol - create follow-up
+          url: ../ui/soprotocol/howto/create-follow-up.md
+        - text: SoProtocol - open Follow-up dialog
+          url: ../ui/soprotocol/howto/open-follow-up.md
       # Card
       - title: Related content
         links:
