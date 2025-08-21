@@ -62,9 +62,6 @@ landingContent:
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Webpaneler
           url: ../ui/web-panels/learn/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
         - text: Profil i service
           url: ../ui/blogic/learn/profiles/index.md
 
