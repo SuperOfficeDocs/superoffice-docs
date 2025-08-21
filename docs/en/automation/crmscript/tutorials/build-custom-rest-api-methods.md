@@ -3,7 +3,7 @@ title: build-custom-rest-api-methods
 description: Building custom REST API methods using CRMScript
 author: Frode Lillerud
 date: 10.17.2017
-keywords: 
+keywords:
 content_type: howto
 ---
 
@@ -37,13 +37,16 @@ Now, obviously, this simple script has some room for improvement, but as a start
 
 Ok, let's improve the script by only allowing POST, validate the data passed in, and return some sort of status indicator to the caller.
 
+> [!NOTE]
+> In this sample we check for HTTP verbs in-code, but it is also possible to set [allowed HTTP verbs][1] for the script in the GUI.
+
 ```crmscript
 Integer contactId = getCgiVariable("contactId").toInteger();
 String name = getCgiVariable("name");
 
 //Require POST
 if (!cgiWasPost())
-  return; 
+  return;
 
 //Validate input
 if (contactId <= 0 || name.isEmpty())
@@ -120,3 +123,4 @@ So, there you have it. If the standard APIs supplied by SuperOffice don’t cut 
 
 <!-- Referenced images -->
 [img1]: media/13215-28728.jpg
+[1]: ../overview/envir-and-tools.md#how-to-define-which-http-verbs-are-allowed

@@ -59,6 +59,23 @@ For SuperOffice CRM Online, this is available in the Sales and Service admin cli
 > [!TIP]
 > If you don't see the **New script** button, you probably lack a valid license for Expander Services.
 
+### How to define which HTTP verbs are allowed
+
+While [adding a script](#how-to-add-a-script) it is possible to set allowed HTTP verbs.
+
+![x][img1]
+
+This is relevant, for instance, when creating a [Custom REST endpoint][3] and this property applies only when a script is executed via:
+
+* `blogic.fcgi?action=doScript`
+* `customer.fcgi?action=safeParse` or `customer.fcgi?action=printBin`
+
+This gives you finer control over script execution and improves overall security.
+
+> [!NOTE]
+> When creating scripts through the CRMScript Agent: If the new property is omitted from the payload (as will be the case for most existing integrations), all verbs will be enabled by default.
+> When [creating a script via the GUI](#how-to-add-a-script): All verbs will be disabled by default, letting you explicitly choose which ones to allow.
+
 ### How do I get a sandbox?
 
 You need to [register as a developer][2] to get access to our online development environment.
@@ -76,3 +93,5 @@ Development Tools is a **subscription-based** license part of Expander Services 
 <!-- Referenced links -->
 [1]: ../../../admin/license/expander-services/tool-box.md
 [2]: ../../../developer-portal/getting-started/get-access-to-sod.md
+[3]: ../tutorials/build-custom-rest-api-methods.md
+[img1]: ./media/http-verbs.png
