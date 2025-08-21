@@ -2,11 +2,16 @@
 uid: help-da-gmail-link-settings
 title: Redigering af Gmail Link-indstillinger
 description: Redigering af Gmail Link-indstillinger
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Gmail Link
+keywords: Gmail Link-indstillinger, Arkiver e-mail i SuperOffice
+author: SuperOffice Product and Engineering
+date: 08.25.2025
 content_type: reference
+category: email
+topic: Gmail Link
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
 # Redigering af Gmail Link-indstillinger
@@ -56,7 +61,7 @@ Nederst i dialogboksen **SuperOffice Gmail Link - Indstillinger** finder du føl
 
 ## Rediger SuperOffice-bruger
 
-Klik på denne knap for at linke til en anden SuperOffice-installation. Følg vejledningen på skærmen.
+Klik på dette link for at linke til en anden SuperOffice-installation. Følg vejledningen på skærmen.
 
 <!-- Referenced links -->
 [3]: email-archive-incoming.md

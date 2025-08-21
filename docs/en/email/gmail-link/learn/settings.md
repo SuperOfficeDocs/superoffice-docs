@@ -2,11 +2,16 @@
 uid: help-en-gmail-link-settings
 title: Edit Gmail Link settings
 description: Edit Gmail Link settings
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Gmail Link
+keywords: Gmail Link settings, archive email in SuperOffice
+author: SuperOffice Product and Engineering
+date: 08.25.2025
 content_type: reference
+category: email
+topic: Gmail Link
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Edit Gmail Link settings
@@ -56,7 +61,7 @@ At the bottom of the dialog **SuperOffice Gmail Link - Settings** you can find t
 
 ## Change SuperOffice user
 
-Click this button to connect to another SuperOffice installation. Follow the onscreen instructions.
+Click this link to connect to another SuperOffice installation. Follow the onscreen instructions.
 
 <!-- Referenced links -->
 [3]: email-archive-incoming.md

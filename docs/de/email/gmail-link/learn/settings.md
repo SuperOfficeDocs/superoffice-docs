@@ -2,11 +2,16 @@
 uid: help-de-gmail-link-settings
 title: Einstellungen für Gmail Link bearbeiten
 description: Einstellungen für Gmail Link bearbeiten
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Gmail Link
+keywords: Gmail Link Einstellungen, E-Mail in SuperOffice archivieren
+author: SuperOffice Product and Engineering
+date: 08.25.2025
 content_type: reference
+category: email
+topic: Gmail Link
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # Einstellungen für Gmail Link bearbeiten
@@ -56,7 +61,7 @@ Unten im Dialogfeld **SuperOffice Gmail Link - Einstellungen** werden folgende I
 
 ## SuperOffice Benutzer ändern
 
-Klicken Sie auf diese Schaltfläche, um die Verbindung zu einer anderen SuperOffice-Installation herzustellen. Befolgen Sie die Anweisungen auf dem Bildschirm.
+Klicken Sie auf diesen Link, um die Verbindung zu einer anderen SuperOffice-Installation herzustellen. Befolgen Sie die Anweisungen auf dem Bildschirm.
 
 <!-- Referenced links -->
 [3]: email-archive-incoming.md
