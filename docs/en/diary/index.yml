@@ -1,19 +1,19 @@
 ### YamlMime:Category
 
 yamlMime: Category
-title: Diary (Appointment)
-summary: Welcome to the diary area where you can find relevant links to all things related to appointments and tasks.
+title: Diary (Follow-up)
+summary: Welcome to the diary area where you can find relevant links to all things related to follow-ups and tasks.
 brand: devdocs
 
 metadata:
-  title: Diary (Appointment)
-  description: Contains details pertaining to appointments, activities, and sales.
+  title: Diary (Follow-up)
+  description: Contains details pertaining to follow-ups, activities, and sales.
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.22.2022
+  so.date: 08.25.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -83,7 +83,7 @@ conceptualContent:
     - title: Videos
       summary: ""
       links:
-      - text: Add appointment to project
+      - text: Add follow-up to project
         itemType: video_library
         typeDesc: video
         url: https://www.youtube.com/watch?v=YQr5B5IU7XY

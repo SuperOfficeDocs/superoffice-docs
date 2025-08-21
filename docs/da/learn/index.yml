@@ -14,7 +14,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 07.20.2023
+  so.date: 08.25.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -210,7 +210,7 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: ../email/inbox/learn/compose.md
-      - text: Opret aftale
+      - text: Tilføj opfølgning
         itemType: list
         typeDesc: how-to-guide
         url: ../diary/learn/create-follow-up.md
