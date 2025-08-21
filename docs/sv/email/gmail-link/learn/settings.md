@@ -2,11 +2,16 @@
 uid: help-sv-gmail-link-settings
 title: Redigera Gmail Link-inställningar
 description: Redigera Gmail Link-inställningar
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Gmail-länk
+keywords: Gmail Link-inställningar, Arkivera e-postmeddelande i SuperOffice
+author: SuperOffice Product and Engineering
+date: 08.25.2025
 content_type: reference
+category: email
+topic: Gmail Link
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Redigera Gmail Link-inställningar
