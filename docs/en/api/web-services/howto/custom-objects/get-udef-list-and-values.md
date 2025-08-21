@@ -8,7 +8,9 @@ keywords: udef, user-defined field, custom field, API, api-services, GetUserDefi
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/services/get-udef-list-and-values
+redirect_from:
+  - /en/custom-objects/udef/howto/services/get-udef-list-and-values
+  - /en/api/netserver/web-services/howto/custom-objects/get-udef-list-and-values
 ---
 
 # How to display all user-defined fields

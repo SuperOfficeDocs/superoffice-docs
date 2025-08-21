@@ -6,7 +6,9 @@ keywords: contact, company, entity, API, assert, SetDefaults
 author: Bergfrid Dias
 date: 02.22.2022
 content_type: howto
-redirect_from: /en/company/howto/entity/create-contact-entity
+redirect_from:
+  - /en/company/howto/entity/create-contact-entity
+  - /en/api/netserver/entities/howto/company/create-contact-entity
 ---
 
 # Create a Contact entity

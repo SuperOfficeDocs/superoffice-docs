@@ -14,6 +14,7 @@ redirect_from:
   - /en/document/howto/agents-web-api/index
   - /en/document/howto/rest/index
   - /en/document/howto/services/index
+redirect_from: /en/api/netserver/web-services/howto/document/index
 ---
 
 # Document API options

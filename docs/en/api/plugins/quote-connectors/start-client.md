@@ -6,6 +6,7 @@ keywords: quote connector client, InitializeConnection
 author: SuperOffice Product and Engineering
 date: 02.04.2022
 content_type: howto
+redirect_from: /en/api/netserver/plugins/quote-connectors/start-client
 ---
 
 # Start the client

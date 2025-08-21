@@ -8,6 +8,7 @@ keywords: data aggregation, aggregate function
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/data-aggregation
 ---
 
 # Data aggregation

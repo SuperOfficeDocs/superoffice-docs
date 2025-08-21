@@ -8,6 +8,7 @@ keywords: config, NetServer, web.config, SoIntellisyncConnector
 content_type: reference
 deployment: onsite
 version: 6
+redirect_from: /en/api/netserver/config/intellisyncconnector
 ---
 
 # IntellisyncConnector element (Legacy - SuperOffice only)

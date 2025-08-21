@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, endpoints, WebAPI, SOAP, REST
 content_type: concept
+redirect_from: /en/api/netserver/web-services/endpoints/index
 ---
 
 # Endpoints

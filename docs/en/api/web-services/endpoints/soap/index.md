@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, endpoints, SOAP, Agents, Services88
 content_type: concept
+redirect_from: /en/api/netserver/web-services/endpoints/soap/index
 ---
 
 # SOAP API

@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 11.19.2021
 keywords: timezone, date, timeanddate
 content_type: concept 
+redirect_from: /en/api/netserver/web-services/so-timezone
 ---
 
 # SOTimezone

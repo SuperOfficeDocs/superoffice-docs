@@ -4,9 +4,12 @@ uid: get_selection_members_provider
 description: How to retrieve members of a specific selection using archive provider
 author: SuperOffice Product and Engineering
 date: 05.11.2016
-keywords: search,selectionprovider
+keywords: search, selectionprovider
 content_type: howto
-redirect_from: /en/api/search/selection/archive/index
+redirect_from:
+  - /en/api/search/selection/archive/index
+  - /en/api/netserver/search/selection/archive/get-selection-members-provider
+  - /en/api/netserver/search/selection/archive
 ---
 
 # How to retrieve members of a specific selection using archive provider

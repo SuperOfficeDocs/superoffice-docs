@@ -8,7 +8,9 @@ date: 03.11.2022
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/services/rest-delete-udef-field
+redirect_from:
+  - /en/custom-objects/udef/howto/services/rest-delete-udef-field
+  - /en/api/netserver/web-services/howto/custom-objects/rest-delete-udef-field
 ---
 
 # How to delete a user-defined field using the web services API

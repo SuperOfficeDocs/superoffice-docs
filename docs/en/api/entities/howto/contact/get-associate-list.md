@@ -6,7 +6,9 @@ keywords: associate, list, GetAssociateList
 author: Tony Yates
 date: 02.22.2022
 content_type: howto
-redirect_from: /en/contact/howto/entity/get-associate-list
+redirect_from:
+  - /en/contact/howto/entity/get-associate-list
+  - /en/api/netserver/entities/howto/contact/get-associate-list
 ---
 
 # Get the associate list

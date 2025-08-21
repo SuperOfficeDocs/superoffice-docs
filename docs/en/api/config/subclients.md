@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, SubClients
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/subclients
 ---
 
 # NetServer SubClients element (SuperOffice only)

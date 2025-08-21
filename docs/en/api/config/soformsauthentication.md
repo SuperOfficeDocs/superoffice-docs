@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, SoFormsAuthentication, FormsAuthentication, IgnoreList, Pages, LoginUrl, DefaultUrl, LogoutUrl, PocketCrmLoginPage
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/soformsauthentication
 ---
 
 # NetServer SoFormsAuthentication element

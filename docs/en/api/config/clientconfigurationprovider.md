@@ -8,6 +8,7 @@ keywords: web.config, ClientConfigurationProvider, FilePath, cache, CustomPath
 content_type: reference
 deployment: onsite
 platform: web
+redirect_from: /en/api/netserver/config/clientconfigurationprovider
 ---
 
 # NetServer ClientConfigurationProvider element (SuperOffice only)

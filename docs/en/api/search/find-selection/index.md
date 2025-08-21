@@ -7,6 +7,7 @@ keywords: NewSelection, Selection, Find
 content_type: article
 platform: web
 version: 9.2
+redirect_from: /en/api/netserver/search/find-selection
 ---
 
 <!-- markdownlint-disable-file MD051 -->

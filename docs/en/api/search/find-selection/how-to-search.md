@@ -7,6 +7,7 @@ keywords: Selection, Find, Search
 content_type: howto
 deployment: online, onsite
 version: 9.2
+redirect_from: /en/api/netserver/search/find-selection/how-to-search
 ---
 
 <!-- markdownlint-disable-file MD051 MD044 -->

@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Scripting, EnableScripting, ScriptPath, MaxTimeouts, TimeoutLimit
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/scripting
 ---
 
 # NetServer Scripting element

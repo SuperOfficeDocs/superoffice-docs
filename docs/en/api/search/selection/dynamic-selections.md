@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, searchCriteria
 content_type: concept
+redirect_from: /en/api/netserver/search/selection/dynamic-selections
 ---
 
 # Dynamic selections

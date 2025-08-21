@@ -7,6 +7,7 @@ content_type: howto
 date:
 category: search
 area: api-services
+redirect_from: /en/api/netserver/search/ifindagent
 ---
 
 # IFindAgent

@@ -14,8 +14,13 @@ redirect_from:
   - /en/api/web-services/howto/company/create-contact-services
   - /en/api/web-services/howto/company/create-contact-webapi-agents
   - /en/company/howto/services/create-contact-rest
+  - /en/api/netserver/web-services/howto/company/create-contact
+  - /en/api/netserver/web-services/howto/company/create-contact-rest
+  - /en/api/netserver/web-services/howto/company/create-contact-services
+  - /en/api/netserver/web-services/howto/company/create-contact-webapi-agents
   - /en/company/howto/services/create-contact-services
   - /en/company/howto/services/create-contact-webapi-agents
+redirect_from: /en/api/netserver/web-services/howto/company/create-contact
 ---
 
 <!-- markdownlint-disable-file MD051 -->

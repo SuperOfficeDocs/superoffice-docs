@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, web services, proxy, WebAPI, SOAP, WebApiOptions
 content_type: concept
+redirect_from: /en/api/netserver/web-services/proxies/index
 ---
 
 # NetServer web service proxies

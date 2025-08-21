@@ -8,7 +8,9 @@ keywords: udef, user-defined field, custom field, API, UDFHelper, UDFSearch, Get
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/entity/using-udefhelper
+redirect_from:
+  - /en/custom-objects/udef/howto/entity/using-udefhelper
+  - /en/api/netserver/entities/howto/custom-objects/using-udefhelper
 ---
 
 # How to use the UDFHelper class

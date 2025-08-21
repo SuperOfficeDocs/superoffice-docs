@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, invitation
 author: Bergfrid Skaara Dias
 date: 03.02.2022
 content_type: howto
-redirect_from: /en/diary/howto/sql/accept-invitation-sql
+redirect_from:
+  - /en/diary/howto/sql/accept-invitation-sql
+  - /en/api/netserver/sql/howto/diary/accept-invitation-sql
 ---
 
 # Accept invitation

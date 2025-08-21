@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, authentication, WebAPI, AuthorizeWithImplicit, AuthorizeWithTicket, AuthorizeWithUsername, CORSEnable, CORSOrigin, CORS, authorize, authentication, security
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/webapi
 ---
 
 # NetServer WebApi element

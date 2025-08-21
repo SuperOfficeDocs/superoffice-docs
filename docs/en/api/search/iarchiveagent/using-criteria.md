@@ -8,6 +8,7 @@ content_type: howto
 date:
 category: 
 area: api-services
+redirect_from: /en/api/netserver/search/iarchiveagent/using-criteria
 ---
 
 # How to use multiple criteria with the ArchiveAgent

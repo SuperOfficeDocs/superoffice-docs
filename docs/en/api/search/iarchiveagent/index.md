@@ -8,6 +8,7 @@ content_type: concept
 date:
 category: 
 area: api-services
+redirect_from: /en/api/netserver/search/iarchiveagent
 ---
 
 # Archive agents

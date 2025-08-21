@@ -6,7 +6,9 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: row, list, category, CategoryRow, CategoryGroupLinkRow
 content_type: howto
-redirect_from: /en/api/lists/row/index
+redirect_from:
+  - /en/api/lists/row/index
+  - /en/api/netserver/lists/row/how-to/add-list-item
 ---
 
 # How to add a list item

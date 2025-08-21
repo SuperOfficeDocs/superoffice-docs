@@ -7,6 +7,7 @@ author: AnthonyYates
 date: 11.05.2016
 version: 8.5
 content_type: concept
+redirect_from: /en/api/netserver/entities/activity-links
 ---
 
 # Activity links sub-object on models

@@ -7,7 +7,9 @@ author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
 content_type: concept
-redirect_from: /en/sale/howto/services/index
+redirect_from:
+  - /en/sale/howto/services/index
+  - /en/api/netserver/web-services/howto/sale/index
 ---
 
 # Sale - web services

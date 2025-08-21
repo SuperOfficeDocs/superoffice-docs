@@ -8,6 +8,7 @@ keywords: archive provider query, query database
 content_type: howto
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/how-to-query
 ---
 
 # How to perform an archive provider query

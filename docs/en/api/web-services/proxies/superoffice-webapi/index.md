@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, SuperOffice.WebApi, WebApiOptions, RequestOptions, IAuthorization, async await
 content_type: howto
+redirect_from: /en/api/netserver/web-services/proxies/superoffice-webapi/index
 ---
 
 # How to use SuperOffice.WebApi

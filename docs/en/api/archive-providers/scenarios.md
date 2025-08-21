@@ -7,6 +7,7 @@ keywords: IArchiveProvider interface, archive provider - client interaction
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/scenarios
 ---
 
 # Client usage scenarios

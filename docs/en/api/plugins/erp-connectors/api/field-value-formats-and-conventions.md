@@ -5,6 +5,7 @@ description: ERP field-value formats and conventions
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+redirect_from: /en/api/netserver/plugins/erp-connectors/api/field-value-formats-and-conventions
 ---
 
 # Field-value formats and conventions

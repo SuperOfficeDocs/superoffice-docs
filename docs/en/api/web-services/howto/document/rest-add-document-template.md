@@ -12,6 +12,7 @@ audience_tooltip: SuperOffice APIs and database
 redirect_from:
   - /en/document/howto/agents-web-api/add-document-template
   - /en/document/howto/rest/add-document-template
+  - /en/api/netserver/web-services/howto/document/rest-add-document-template
 ---
 
 # Add a document template

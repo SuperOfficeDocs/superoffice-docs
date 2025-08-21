@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords:
 content_type: concept
+redirect_from: /en/api/netserver/foreign-keys/index
 ---
 
 # Foreign keys

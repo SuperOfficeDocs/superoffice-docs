@@ -6,7 +6,9 @@ keywords: contact, company, entity, API, collection, ContactCollection
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/company/howto/entity/create-contact-entity-in-collection
+redirect_from:
+  - /en/company/howto/entity/create-contact-entity-in-collection
+  - /en/api/netserver/entities/howto/company/create-contact-entity-in-collection
 ---
 
 # Create a Contact entity through an entity collection

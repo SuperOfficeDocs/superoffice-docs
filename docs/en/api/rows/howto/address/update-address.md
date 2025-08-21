@@ -7,7 +7,9 @@ author: Tony Yates
 date: 11.05.2016
 version: 8
 content_type: howto
-redirect_from: /en/globalization-and-localization/address/howto/rows/update-address
+redirect_from:
+  - /en/globalization-and-localization/address/howto/rows/update-address
+  - /en/api/netserver/rows/howto/address/update-address
 ---
 
 # ContactAddress

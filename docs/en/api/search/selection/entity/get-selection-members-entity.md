@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,selectionmembers
 content_type: howto
+redirect_from: /en/api/netserver/search/selection/entity/get-selection-members-entity
 ---
 
 # How to retrieve members of a specific selection using entities

@@ -6,7 +6,10 @@ author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: search, selection, static
 content_type: howto
-redirect_from: /en/api/search/selection/sql/index
+redirect_from:
+  - /en/api/search/selection/sql/index
+  - /en/api/netserver/search/selection/sql/add-person-to-selection
+  - /en/api/netserver/search/selection/sql
 ---
 
 <!-- markdownlint-disable-file MD013-->

@@ -6,6 +6,7 @@ author: Tony Yates
 date: 06.12.2009
 keywords: NetServer
 content_type: concept
+redirect_from: /en/api/netserver/entities/nested-persist
 ---
 
 # NetServer Nested Persist

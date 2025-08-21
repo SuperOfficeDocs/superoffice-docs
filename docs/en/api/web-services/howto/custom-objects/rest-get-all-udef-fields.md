@@ -8,7 +8,9 @@ date: 03.11.2022
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/services/rest-get-all-udef-fields
+redirect_from:
+  - /en/custom-objects/udef/howto/services/rest-get-all-udef-fields
+  - /en/api/netserver/web-services/howto/custom-objects/rest-get-all-udef-fields
 ---
 
 # How to get all user-defined fields using the web services API

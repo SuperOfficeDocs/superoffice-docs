@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, FeatureToggles, State, feature toggles
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/featuretoggles
 ---
 
 # NetServer FeatureToggles element

@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: reference
+redirect_from: /en/api/netserver/plugins/quote-connectors/api/data-carriers/fieldmetadatainfo
 ---
 
 # FieldMetadataInfo

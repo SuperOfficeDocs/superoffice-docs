@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, proxy, SOAP, NetServer, WSDL
 content_type: howto
+redirect_from: /en/api/netserver/web-services/proxies/custom
 ---
 
 # Calling SOAP through a custom proxy

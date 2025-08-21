@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.06.2021
 keywords: search, ODATA, REST, WebAPI, web services
 content_type: concept
+redirect_from: /en/api/netserver/search/odata
 ---
 
 # REST WebAPI search

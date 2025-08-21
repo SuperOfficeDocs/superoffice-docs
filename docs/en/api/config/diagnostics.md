@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Diagnostics, log, CheckBrowserVersion, EnableResourceTracer, EnableScaffolding, EnableStackTracing, LogDebug, LogError, LogWarning, LogFolder, LoggedServices, LogInformation, LogWarning, LogTrace, LogToFile, LogToSuperOffice, LogServiceCalls, AppInsightInstrumentationKey, EnableQAAttributes, LogLongQueries, ShowExceptionsFromBackend
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/diagnostics
 ---
 
 # NetServer Diagnostics element

@@ -7,6 +7,7 @@ date: 11.05.2016
 keywords: entity, collection
 content_type: concept
 deployment: onsite
+redirect_from: /en/api/netserver/entities/using-collections
 ---
 
 # Use and misuse of collections

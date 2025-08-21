@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Infrastructure
 content_type: reference
 deployment: online
+redirect_from: /en/api/netserver/config/infrastructure
 ---
 
 # NetServer Infrastructure element

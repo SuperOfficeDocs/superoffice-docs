@@ -11,7 +11,9 @@ audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document
 area: api-services
-redirect_from: /en/document/howto/services/create
+redirect_from:
+  - /en/document/howto/services/create
+  - /en/api/netserver/web-services/howto/document/services-create
 ---
 
 # How to create a new document in SO_ARC

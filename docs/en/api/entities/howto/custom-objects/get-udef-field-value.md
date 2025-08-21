@@ -8,7 +8,9 @@ keywords: udef, user-defined field, custom field, API
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/entity/get-udef-field-value
+redirect_from:
+  - /en/custom-objects/udef/howto/entity/get-udef-field-value
+  - /en/api/netserver/entities/howto/custom-objects/get-udef-field-value
 ---
 
 # How to get the value of a user-defined field in NetServer

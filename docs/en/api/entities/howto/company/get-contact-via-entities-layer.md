@@ -6,7 +6,9 @@ keywords: contact, company, entity, API, GetFromIdxContactId
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/company/howto/entity/get-contact-via-entities-layer
+redirect_from:
+  - /en/company/howto/entity/get-contact-via-entities-layer
+  - /en/api/netserver/entities/howto/company/get-contact-via-entities-layer
 ---
 
 # Get a contact through entities layer

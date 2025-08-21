@@ -7,6 +7,7 @@ keywords: sync
 content_type: concept
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/plugins/erp-connectors/online/secure-in-online
 ---
 
 # Securing ERP Connectors for SuperOffice Online

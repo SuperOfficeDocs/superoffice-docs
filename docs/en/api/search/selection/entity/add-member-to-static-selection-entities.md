@@ -4,9 +4,12 @@ uid: add_members_static_selection_entities
 description: How to add members to a static selection using entities
 author: SuperOffice Product and Engineering
 date: 05.11.2016
-keywords: search,entities
+keywords: search, entities
 content_type: howto
-redirect_from: /en/api/search/selection/entity/index
+redirect_from:
+  - /en/api/search/selection/entity/index
+  - /en/api/netserver/search/selection/entity/add-member-to-static-selection-entities
+  - /en/api/netserver/search/selection/entity
 ---
 
 # How to add members to a static selection using entities layer

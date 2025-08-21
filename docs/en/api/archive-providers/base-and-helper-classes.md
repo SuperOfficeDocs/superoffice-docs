@@ -7,6 +7,7 @@ keywords: IArchiveProvider
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/base-and-helper-classes
 ---
 
 # Base and helper classes

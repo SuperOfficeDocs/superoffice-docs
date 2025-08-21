@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Sync, SoSync, synchronization, SoSyncAdmin, SettingsAbsoluteExpiration, SettingsSlidingExpiration
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/sync
 ---
 
 # NetServer Sync element (legacy SuperOffice only)

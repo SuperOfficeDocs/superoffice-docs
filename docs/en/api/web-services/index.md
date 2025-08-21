@@ -8,6 +8,7 @@ keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, Sup
 content_type: concept
 deployment: online, onsite
 platform: web, win
+redirect_from: /en/api/netserver/web-services/index
 ---
 
 # Web services

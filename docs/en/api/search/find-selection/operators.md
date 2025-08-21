@@ -6,6 +6,7 @@ keywords: NewSelection, Selection, Find
 content_type: reference
 deployment: online, onsite
 platform: web
+redirect_from: /en/api/netserver/search/find-selection/operators
 ---
 
 # Operators and data types

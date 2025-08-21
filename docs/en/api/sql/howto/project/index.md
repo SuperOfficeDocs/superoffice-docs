@@ -6,7 +6,9 @@ keywords: project, project management, API, SQL, ProjType, type_idx, ProjStatus,
 author: Bergfrid Skaara Dias
 date: 05.31.2023
 content_type: howto
-redirect_from: /en/project/howto/sql/index
+redirect_from:
+  - /en/project/howto/sql/index
+  - /en/api/netserver/sql/howto/project/index
 ---
 
 # Howto

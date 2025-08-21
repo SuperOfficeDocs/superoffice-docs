@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.22.2022
 keywords: cache, list, CategoryCache
 content_type: concept
+redirect_from: /en/api/netserver/caching/category-cache
 ---
 
 # CategoryCache

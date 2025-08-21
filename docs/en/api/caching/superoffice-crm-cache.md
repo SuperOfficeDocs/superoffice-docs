@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 02.22.2022
 keywords: cache
 content_type: reference
+redirect_from: /en/api/netserver/caching/superoffice-crm-cache
 ---
 
 # SuperOffice.CRM.Cache

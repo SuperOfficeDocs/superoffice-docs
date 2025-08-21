@@ -8,6 +8,7 @@ keywords: NetServer, web.config, ClientConfigurationProvider, Client, export
 content_type: reference
 deployment: onsite
 platform: web
+redirect_from: /en/api/netserver/config/client
 ---
 
 # NetServer Client element (SuperOffice only)

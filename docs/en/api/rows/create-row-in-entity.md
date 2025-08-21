@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto
+redirect_from: /en/api/netserver/rows/create-row-in-entity
 ---
 
 # Create a Row as a property of another entity

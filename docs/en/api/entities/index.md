@@ -8,6 +8,7 @@ keywords: data access, entity, entities, RDB
 content_type: concept
 deployment: online, onsite
 platform: web, win
+redirect_from: /en/api/netserver/entities/index
 ---
 
 # Relational database layer (Entities)

@@ -7,6 +7,7 @@ keywords: data access, row, rows, collection, HDB, DataTable, DataRow, SuperOffi
 content_type: concept
 deployment: online, onsite
 platform: web, win
+redirect_from: /en/api/netserver/rows/index
 ---
 
 # High-level database layer (Rows)

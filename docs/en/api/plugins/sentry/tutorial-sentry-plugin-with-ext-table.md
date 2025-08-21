@@ -7,6 +7,7 @@ date: 05.16.2008
 keywords: sentry
 content_type: tutorial
 deployment: onsite
+redirect_from: /en/api/netserver/plugins/sentry/tutorial-sentry-plugin-with-ext-table
 ---
 
 # Sentry plugin with external table

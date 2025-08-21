@@ -10,6 +10,7 @@ category: api
 topic: archive providers
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/archive-providers/add-columns
 ---
 
 # Add columns to archive providers
