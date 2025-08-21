@@ -7,6 +7,7 @@ keywords: ArchiveColumnInfo, ArchiveEntityInfo, ArchiveRestrictionInfo, ArchiveR
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/data-classes
 ---
 
 # Data classes

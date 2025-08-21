@@ -9,6 +9,7 @@ version: 10
 content_type: concept
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/netserver/web-services/endpoints/agents-webapi/index
 ---
 
 # Agents WebAPI

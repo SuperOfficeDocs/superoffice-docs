@@ -8,6 +8,7 @@ keywords: DisplayValue
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/encoded-values
 ---
 
 # Encoded values

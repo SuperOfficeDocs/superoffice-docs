@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuspendedSite, download_baseurl, suspended
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/suspendedsite
 ---
 
 # NetServer SuspendedSite element (SuperOffice only)

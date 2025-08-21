@@ -8,6 +8,7 @@ version: 9.2 R04
 content_type: howto
 category: api
 topic: mass operations
+redirect_from: /en/api/netserver/bulk-operations/mass-operations/insert
 ---
 
 <!-- markdownlint-disable-file MD051 -->

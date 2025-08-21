@@ -8,6 +8,7 @@ content_type: howto
 date:
 category: list
 area: api-services
+redirect_from: /en/api/netserver/lists/services/listagent/show-countrylist-in-combobox
 ---
 
 # Show list data in UI combo box

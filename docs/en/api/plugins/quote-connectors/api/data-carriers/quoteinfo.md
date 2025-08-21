@@ -5,6 +5,7 @@ description:  ERP Quote Connector Interface data carrier -  QuoteInfo
 date:
 keywords: quote
 content_type: reference
+redirect_from: /en/api/netserver/plugins/quote-connectors/api/data-carriers/quoteinfo
 ---
 
 # QuoteInfo

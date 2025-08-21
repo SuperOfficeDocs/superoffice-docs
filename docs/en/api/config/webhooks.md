@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: NetServer, web.config, Webhooks, NumThreads, RequireHttps
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/webhooks
 ---
 
 # NetServer Webhooks element

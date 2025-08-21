@@ -7,7 +7,9 @@ author: Tony Yates
 date: 05.15.2017
 version: 9
 content_type: howto
-redirect_from: /en/globalization-and-localization/address/howto/services/set-localized-address
+redirect_from:
+  - /en/globalization-and-localization/address/howto/services/set-localized-address
+  - /en/api/netserver/web-services/howto/address/set-localized-address
 ---
 
 # Set LocalizedAddress

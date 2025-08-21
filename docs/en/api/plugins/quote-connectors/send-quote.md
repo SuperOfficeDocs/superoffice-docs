@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.08.2021
 keywords: quote
 content_type: howto
+redirect_from: /en/api/netserver/plugins/quote-connectors/send-quote
 ---
 
 # Sending quotes

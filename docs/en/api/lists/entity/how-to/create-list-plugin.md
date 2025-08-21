@@ -5,6 +5,7 @@ description: Create a plugin list provider
 author: SuperOffice Product and Engineering
 keywords:
 content_type: howto
+redirect_from: /en/api/netserver/lists/entity/how-to/create-list-plugin
 ---
 
 # Create your own list plugin

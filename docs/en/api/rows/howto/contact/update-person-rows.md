@@ -6,7 +6,9 @@ keywords: person, contact, API, rows, PersonRow, update, AddressRow
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/contact/howto/row/update-person-rows
+redirect_from:
+  - /en/contact/howto/row/update-person-rows
+  - /en/api/netserver/rows/howto/contact/update-person-rows
 ---
 
 # Update a person with a new name, address, position using rows

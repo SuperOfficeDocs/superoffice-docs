@@ -6,7 +6,9 @@ keywords: contact, company, services, API, api-services, ContactAgent
 author: Tony Yates
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/company/howto/services/get-contact-via-services-layer
+redirect_from:
+  - /en/company/howto/services/get-contact-via-services-layer
+  - /en/api/netserver/web-services/howto/company/get-contact-via-services-layer
 ---
 
 # Get a contact through the services layer

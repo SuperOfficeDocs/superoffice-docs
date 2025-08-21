@@ -8,7 +8,9 @@ date: 03.11.2022
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/services/rest-create-udef-field
+redirect_from:
+  - /en/custom-objects/udef/howto/services/rest-create-udef-field
+  - /en/api/netserver/web-services/howto/custom-objects/rest-create-udef-field
 ---
 
 # How to create a user-defined field using the web services API

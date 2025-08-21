@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, endpoints, WebAPI, REST, Agents, version
 content_type: howto
+redirect_from: /en/api/netserver/web-services/endpoints/get-webapi-version
 ---
 
 # How to get the API version

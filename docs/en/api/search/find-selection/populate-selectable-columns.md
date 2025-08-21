@@ -7,6 +7,7 @@ keywords: NewSelection, Selection, Find
 content_type: concept
 deployment: online, onsite
 platform: web
+redirect_from: /en/api/netserver/search/find-selection/populate-selectable-columns
 ---
 
 <!-- markdownlint-disable-file MD051 -->

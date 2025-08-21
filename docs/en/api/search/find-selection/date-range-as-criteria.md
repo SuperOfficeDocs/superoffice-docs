@@ -6,6 +6,7 @@ author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: article
 platform: web
+redirect_from: /en/api/netserver/search/find-selection/date-range-as-criteria
 ---
 
 # Dynamic date range as criteria

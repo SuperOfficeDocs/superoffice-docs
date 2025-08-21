@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, OidcLogin, OIDC
 content_type: reference
 deployment: online
+redirect_from: /en/api/netserver/config/oidclogin
 ---
 
 # NetServer OidcLogin element

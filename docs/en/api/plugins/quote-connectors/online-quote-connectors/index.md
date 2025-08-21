@@ -4,6 +4,7 @@ uid: online_quote_connector
 description: Online quote connectors
 author: SuperOffice Product and Engineering
 keywords:
+redirect_from: /en/api/netserver/plugins/quote-connectors/online-quote-connectors/index
 ---
 
 # Online Quote Connectors

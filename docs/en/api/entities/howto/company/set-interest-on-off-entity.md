@@ -6,7 +6,9 @@ keywords: contact, company, interest, entity, API, ContactInterestHelper, SetIte
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/company/howto/entity/set-interest-on-off-entity
+redirect_from:
+  - /en/company/howto/entity/set-interest-on-off-entity
+  - /en/api/netserver/entities/howto/company/set-interest-on-off-entity
 ---
 
 # How to set an interest on or off for a contact (data layer)

@@ -9,7 +9,9 @@ keywords: custom object, search, DatabaseTable, TableRecord, extra table
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/api/custom-objects/howto/custom-objects-search
+redirect_from:
+  - /en/api/custom-objects/howto/custom-objects-search
+  - /en/api/netserver/web-services/howto/custom-objects/custom-objects-search
 ---
 
 <!-- markdownlint-disable-file MD013 -->

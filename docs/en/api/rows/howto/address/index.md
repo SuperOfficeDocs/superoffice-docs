@@ -7,7 +7,9 @@ author: Bergfrid Dias
 date: 02.16.2022
 version: 9
 content_type: howto
-redirect_from: /en/globalization-and-localization/address/howto/rows/index
+redirect_from:
+  - /en/globalization-and-localization/address/howto/rows/index
+  - /en/api/netserver/rows/howto/address/index
 ---
 
 # Address - rows

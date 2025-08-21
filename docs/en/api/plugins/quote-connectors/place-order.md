@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: howto
+redirect_from: /en/api/netserver/plugins/quote-connectors/place-order
 ---
 
 # Placing orders into ERP

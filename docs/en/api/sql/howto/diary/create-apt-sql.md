@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, VisibleFor, SAINT
 author: Bergfrid Skaara Dias
 date: 03.02.2022
 content_type: howto
-redirect_from: /en/diary/howto/sql/create-apt-sql
+redirect_from:
+  - /en/diary/howto/sql/create-apt-sql
+  - /en/api/netserver/sql/howto/diary/create-apt-sql
 ---
 
 # Create appointment

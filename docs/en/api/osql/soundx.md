@@ -7,6 +7,7 @@ keywords:
 content_type: article
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/osql/soundx
 ---
 
 # Soundex comes to NetServer

@@ -7,6 +7,7 @@ date: 11.05.2016
 keywords:
 content_type: concept
 deployment: onsite
+redirect_from: /en/api/netserver/plugins/sentry/index
 ---
 
 # Sentry plugins

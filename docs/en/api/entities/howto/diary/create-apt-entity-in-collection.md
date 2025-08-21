@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, entity, collection, AppointmentColl
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/diary/howto/entity/create-apt-entity-in-collection
+redirect_from:
+  - /en/diary/howto/entity/create-apt-entity-in-collection
+  - /en/api/netserver/entities/howto/diary/create-apt-entity-in-collection
 ---
 
 # Create an Appointment entity through an entity collection

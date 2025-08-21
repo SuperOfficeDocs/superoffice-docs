@@ -6,7 +6,9 @@ keywords: person, contact, entity, API, PersonCollection
 author: Bergfrid Skaara Dias
 date: 11.02.2021
 content_type: howto
-redirect_from: /en/contact/howto/entity/get-persons-from-contact-entities
+redirect_from:
+  - /en/contact/howto/entity/get-persons-from-contact-entities
+  - /en/api/netserver/entities/howto/contact/get-persons-from-contact-entities
 ---
 
 # Retrieve a list of people using entities

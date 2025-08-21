@@ -8,6 +8,7 @@ keywords: NetServer, web.config, BatchService, DiagnosticsWebUri
 content_type: reference
 deployment: onsite
 platform: win
+redirect_from: /en/api/netserver/config/batchservice
 ---
 
 # NetServer BatchService element

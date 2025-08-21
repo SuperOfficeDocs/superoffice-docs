@@ -8,6 +8,7 @@ content_type: howto
 date:
 category: 
 area: api-services
+redirect_from: /en/api/netserver/search/iarchiveagent/using-activityarchive-filters
 ---
 
 # How to use ActivityArchive filters

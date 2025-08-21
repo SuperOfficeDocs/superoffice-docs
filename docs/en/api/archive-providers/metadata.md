@@ -7,6 +7,7 @@ keywords: archive provider column list, GetAvailableColumns
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/metadata
 ---
 
 # Metadata

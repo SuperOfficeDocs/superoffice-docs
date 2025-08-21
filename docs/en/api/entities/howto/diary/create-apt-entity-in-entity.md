@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, entity
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/diary/howto/entity/create-apt-entity-in-entity
+redirect_from:
+  - /en/diary/howto/entity/create-apt-entity-in-entity
+  - /en/api/netserver/entities/howto/diary/create-apt-entity-in-entity
 ---
 
 # Create an Appointment entity through an entity

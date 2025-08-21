@@ -6,7 +6,9 @@ keywords: add list item, category list
 author: SuperOffice Product and Engineering
 date: 11.08.2021
 content_type: howto
-redirect_from: /en/api/lists/sql/index
+redirect_from:
+  - /en/api/lists/sql/index
+  - /en/api/netserver/lists/sql/add-list-item-sql
 ---
 
 <!-- markdownlint-disable-file MD013 -->

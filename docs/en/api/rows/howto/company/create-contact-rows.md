@@ -6,7 +6,9 @@ description: How to create a contact through row collection (ContactRows).
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/company/howto/row/create-contact-rows
+redirect_from:
+  - /en/company/howto/row/create-contact-rows
+  - /en/api/netserver/rows/howto/company/create-contact-rows
 ---
 
 # Create a contact through row collection (Rows)

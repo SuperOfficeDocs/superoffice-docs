@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Mail, NumberOfDaysToDownload, Reader, Sender
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/mail
 ---
 # NetServer Mail element (SuperOffice only)
 

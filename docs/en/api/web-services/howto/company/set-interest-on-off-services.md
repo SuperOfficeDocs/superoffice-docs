@@ -6,7 +6,9 @@ keywords: contact, company, services, API, interest, ContactAgent, electableMDOL
 author: Tony Yates
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/company/howto/services/set-interest-on-off-services
+redirect_from:
+  - /en/company/howto/services/set-interest-on-off-services
+  - /en/api/netserver/web-services/howto/company/set-interest-on-off-services
 ---
 
 # How to set an interest on or off for a contact (services)

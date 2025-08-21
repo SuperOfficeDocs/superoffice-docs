@@ -1,5 +1,6 @@
 ---
 date: 05.11.2016
+redirect_from: /en/api/netserver/plugins/erp-connectors/ranking-fields
 ---
 
 # Ranking Fields

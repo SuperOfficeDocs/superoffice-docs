@@ -6,7 +6,11 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search,osql,selectionmember
 content_type: howto
-redirect_from: /en/api/search/selection/osql/index
+redirect_from:
+  - /en/api/search/selection/osql/index
+  - /en/api/netserver/search/selection/osql/index
+  - /en/api/netserver/search/selection/osql/add-member-to-static-selection-osql
+  - /en/api/netserver/search/selection/osql
 ---
 
 # How to add members to a static selection using OSQL

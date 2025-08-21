@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API
 author: Bergfrid Skaara Dias
 date: 03.02.2022
 content_type: reference
-redirect_from: /en/diary/howto/sql/index
+redirect_from:
+  - /en/diary/howto/sql/index
+  - /en/api/netserver/sql/howto/diary/index
 ---
 
 # Diary - raw SQL

@@ -8,6 +8,7 @@ keywords: aggregate function
 content_type: howto
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/nested-aggregate-functions
 ---
 
 # Nested aggregate functions

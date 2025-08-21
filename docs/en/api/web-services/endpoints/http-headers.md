@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.02.2021
 keywords: API, WebAPI, headers, Accept-Language, Content-Type, If-Modified-Since, If-Unmodified-Since, internationalization, SO-Language, SO-Culture, Accept, If-Modified-Since, If-Unmodified-Since, SO-TimeZone, includeTZOffset
 content_type: concept 
+redirect_from: /en/api/netserver/web-services/endpoints/http-headers
 ---
 
 # Headers

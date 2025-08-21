@@ -8,6 +8,7 @@ version: 9.2 R04
 content_type: concept
 category: api
 topic: mass operations
+redirect_from: /en/api/netserver/bulk-operations/mass-operations/index
 ---
 
 # Mass Operations

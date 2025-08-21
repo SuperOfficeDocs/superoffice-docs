@@ -8,6 +8,7 @@ date: 03.03.2022
 content_type: concept
 category: list
 area: api-services
+redirect_from: /en/api/netserver/lists/services/mdoagent/mdo-how-to
 ---
 
 # Working with the MDO list API

@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, WebTools, Downloads, DownloadFolder, NewTrayAppUrl, ReportingInterval, WebSiteEndPoint, WebToolVersion
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/downloads
 ---
 
 # NetServer Downloads element (SuperOffice only)

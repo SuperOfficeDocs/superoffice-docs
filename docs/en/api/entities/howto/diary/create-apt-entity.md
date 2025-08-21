@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, entity, SuperOffice.CRM.Entities
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/diary/howto/entity/create-apt-entity
+redirect_from:
+  - /en/diary/howto/entity/create-apt-entity
+  - /en/api/netserver/entities/howto/diary/create-apt-entity
 ---
 
 # Create an Appointment entity

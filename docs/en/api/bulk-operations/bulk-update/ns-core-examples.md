@@ -10,6 +10,7 @@ category: api
 topic: bulk update
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/bulk-operations/bulk-update/ns-core-examples
 ---
 
 # Bulk update examples using NetServer Core API

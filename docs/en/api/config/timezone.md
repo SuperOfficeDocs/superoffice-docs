@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, TimeZone, ServiceUrl
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/timezone
 ---
 
 # NetServer TimeZone element (SuperOffice only)

@@ -8,6 +8,7 @@ keywords: aggregate function, GroupBy
 content_type: howto
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/aggregate-groupby
 ---
 
 # Structured aggregation output with GroupBy

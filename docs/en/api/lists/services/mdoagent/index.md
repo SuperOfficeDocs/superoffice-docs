@@ -7,6 +7,7 @@ content_type: concept
 date: 03.03.2022
 category: list
 area: api-services
+redirect_from: /en/api/netserver/lists/services/mdoagent/index
 ---
 
 # Multi-Departmental Organizational (MDO) API

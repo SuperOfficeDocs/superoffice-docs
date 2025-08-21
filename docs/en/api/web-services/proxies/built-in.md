@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 12.03.2021
 keywords: API, web services, proxy, WebAPI, SOAP, SuperOffice.Service.dll, modes, DefaultMode
 content_type: howto
+redirect_from: /en/api/netserver/web-services/proxies/built-in
 ---
 
 # Calling SOAP using the NetServer proxy

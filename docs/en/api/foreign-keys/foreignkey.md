@@ -7,6 +7,7 @@ keywords:
 topic:
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/foreign-keys/foreignkey
 ---
 
 # ForeignKeys – to fluent or not to fluent, that is the question

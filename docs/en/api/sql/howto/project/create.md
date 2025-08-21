@@ -6,7 +6,9 @@ keywords: project, SQL, API, project_number
 author: Bergfrid Dias
 date: 05.31.2023
 content_type: howto
-redirect_from: /en/project/howto/sql/create
+redirect_from:
+  - /en/project/howto/sql/create
+  - /en/api/netserver/sql/howto/project/create
 ---
 
 # Adding a project

@@ -6,7 +6,9 @@ keywords: person, contact, services, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: concept
-redirect_from: /en/contact/howto/services/index
+redirect_from:
+  - /en/contact/howto/services/index
+  - /en/api/netserver/web-services/howto/contact/index
 ---
 
 # Contact - services

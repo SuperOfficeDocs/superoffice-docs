@@ -6,7 +6,9 @@ keywords: contact, company, interest, SQL, API
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/company/howto/sql/get-interests-sql
+redirect_from:
+  - /en/company/howto/sql/get-interests-sql
+  - /en/api/netserver/sql/howto/company/get-interests-sql
 ---
 
 # Get interests for contact

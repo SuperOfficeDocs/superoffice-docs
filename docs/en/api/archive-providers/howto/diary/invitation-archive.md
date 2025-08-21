@@ -8,6 +8,7 @@ date: 11.04.2021
 content_type: howto
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/howto/diary/invitation-archive
 ---
 
 # Invitation Archive

@@ -6,6 +6,7 @@ keywords: RestrictionType, restrict archive provider, archive provider restricti
 content_type: reference
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/restriction-types
 ---
 
 # Archive Provider Restriction Types

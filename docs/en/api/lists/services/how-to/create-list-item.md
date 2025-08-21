@@ -7,6 +7,7 @@ content_type: howto
 date: 03.03.2022
 category: list
 area: api-services
+redirect_from: /en/api/netserver/lists/services/how-to/create-list-item
 ---
 
 <!-- markdownlint-disable-file MD051 -->

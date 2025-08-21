@@ -7,6 +7,7 @@ date: 02.02.2022
 updated: 02.12.2024
 keywords: search
 content_type: concept
+redirect_from: /en/api/netserver/search
 ---
 
 # Search

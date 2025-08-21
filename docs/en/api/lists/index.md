@@ -5,6 +5,7 @@ author: AnthonyYates
 date: 03.03.2022
 keywords: Lists, 
 content_type: concept
+redirect_from: /en/api/netserver/lists/index
 ---
 
 # Lists

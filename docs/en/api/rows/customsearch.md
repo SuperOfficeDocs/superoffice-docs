@@ -7,6 +7,7 @@ keywords: data access, rows, CustomSearch
 content_type: concept
 deployment: online, onsite
 platform: web, win
+redirect_from: /en/api/netserver/rows/customsearch
 ---
 
 # CustomSearch queries

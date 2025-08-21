@@ -6,6 +6,7 @@ keywords: add product, ProductInfo, priceListKey, erpProductKey, QuoteConnectorE
 author: SuperOffice Product and Engineering
 date: 09.09.2022
 content_type: howto
+redirect_from: /en/api/netserver/plugins/quote-connectors/adding-products
 ---
 
 # Adding products to a quote

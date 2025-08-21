@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Security, ActiveDirectoryCredentialPlugin, Active Directory, DisableIntegration, Cryptography, SymmetricIV, SymmetricKey, SymmetricSecret, Rijndael, Sentry, SoPasswordCredentialPlugin, DisableUseExternalAssociate, DisableUseInternalAssociate, DisableUseSystemAssociate, session, PriorityInternalAssociate
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/security
 ---
 
 # NetServer Security element

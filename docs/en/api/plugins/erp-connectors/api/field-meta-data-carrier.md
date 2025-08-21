@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: dto
 content_type: reference
+redirect_from: /en/api/netserver/plugins/erp-connectors/api/field-meta-data-carrier
 ---
 
 # FieldMetadataInfo

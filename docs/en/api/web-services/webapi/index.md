@@ -8,6 +8,7 @@ keywords: security, authentication, WebAPI, SOTICKET, BEARER
 content_type: concept
 deployment: onsite
 platform: web
+redirect_from: /en/api/netserver/web-services/webapi/index
 ---
 
 # SuperOffice WebApi

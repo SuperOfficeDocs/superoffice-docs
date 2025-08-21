@@ -11,7 +11,9 @@ audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document
 area: api-services
-redirect_from: /en/document/howto/services/update
+redirect_from:
+  - /en/document/howto/services/update
+  - /en/api/netserver/web-services/howto/document/services-update
 ---
 
 # How to update a document in SO_ARC
