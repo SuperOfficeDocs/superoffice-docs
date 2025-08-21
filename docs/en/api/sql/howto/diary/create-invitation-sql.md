@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, invitation
 author: Bergfrid Skaara Dias
 date: 03.02.2022
 content_type: howto
-redirect_from: /en/diary/howto/sql/create-invitation-sql
+redirect_from:
+  - /en/diary/howto/sql/create-invitation-sql
+  - /en/api/netserver/sql/howto/diary/create-invitation-sql
 ---
 
 # Create invitation

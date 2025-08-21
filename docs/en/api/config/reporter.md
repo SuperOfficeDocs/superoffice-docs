@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Reporter, ExePath, ODBC, Timeout
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/reporter
 ---
 
 # NetServer Reporter element

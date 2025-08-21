@@ -6,6 +6,7 @@ date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, AccessGateway, BaseUrl
 content_type: reference
+redirect_from: /en/api/netserver/config/accessgateway
 ---
 
 # NetServer AccessGateway element

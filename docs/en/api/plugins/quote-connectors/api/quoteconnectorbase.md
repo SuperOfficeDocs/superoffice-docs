@@ -1,3 +1,14 @@
+---
+uid: quote-connector-base
+title: QuoteConnectorBase
+description: QuoteConnectorBase implementation
+keywords: QuoteConnectorBase
+author: SuperOffice Product and Engineering
+date: 08.25.2025
+content_type: reference
+redirect_from: /en/api/netserver/plugins/quote-connectors/api/quoteconnectorbase
+---
+
 # QuoteConnectorBase implementation
 
 The QuoteConnectorBase implements most of the IQuoteConnector API and adds some useful default behavior to the basic API contract. For example – recalculate alternative is handled for you.
@@ -12,6 +23,7 @@ Validates the version, looks for problems. Will typically change the Status and 
 
 Should for instance validate the alternatives and then concatenate the problems into the Status and reason fields.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## QuoteAlternativeWithLinesInfo ValidateAlternative(QuoteAlternativeWithLinesInfo quoteAlternativeWithLines, bool clearOldValues = false)
 
 Check rules for the quote alternative and fill out the status and reason fields if there are one or more problems.

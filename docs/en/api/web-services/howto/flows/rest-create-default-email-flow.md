@@ -9,6 +9,7 @@ version: 10.3.5
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/netserver/web-services/howto/flows/rest-create-default-email-flow
 ---
 
 # Create an EmailFlow object

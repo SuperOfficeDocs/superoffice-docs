@@ -6,7 +6,9 @@ keywords: person, contact, services, API, api-services, ContactAgent, PersonAgen
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/contact/howto/services/get-persons-contactagent
+redirect_from:
+  - /en/contact/howto/services/get-persons-contactagent
+  - /en/api/netserver/web-services/howto/contact/get-persons-contactagent
 ---
 
 # Retrieving list of persons with ContactAgent

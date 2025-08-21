@@ -2,6 +2,7 @@
 title: Lists in web services
 description: Discusses how to programmatically work with lists using web services.
 date: 03.03.2022
+redirect_from: /en/api/netserver/lists/services/index
 ---
 
 # SuperOffice Lists

@@ -6,6 +6,7 @@ author: Eivind Fasting
 date: 01.31.2025
 keywords: quote, connector, setup
 content_type: concept
+redirect_from: /en/api/netserver/plugins/quote-connectors/index
 ---
 
 # ERP Quote Connector Interface

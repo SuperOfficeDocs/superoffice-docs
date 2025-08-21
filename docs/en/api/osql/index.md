@@ -8,6 +8,7 @@ keywords: data access, OSQL, objectified SQL, SuperOffice.CRM.Data, SuperOffice.
 content_type: concept
 deployment: online, onsite
 platform: web, win
+redirect_from: /en/api/netserver/osql/index
 ---
 
 # SuperOffice Objectified SQL (OSQL)

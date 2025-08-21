@@ -6,7 +6,9 @@ keywords: contact, company, SQL, API, phone
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/company/howto/sql/get-contact-details-sql
+redirect_from:
+  - /en/company/howto/sql/get-contact-details-sql
+  - /en/api/netserver/sql/howto/company/get-contact-details-sql
 ---
 
 # Get contact details

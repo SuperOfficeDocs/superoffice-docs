@@ -6,6 +6,7 @@ author: Anthony Yates
 date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, REST, system user, authentication, PartnerSystemUserService, Ticket, SystemUserClient, SuperOffice.WebApi.IdentityModel
 content_type: concept
+redirect_from: /en/api/netserver/web-services/proxies/superoffice-webapi/systemuserclient
 ---
 
 # How to use System User Client

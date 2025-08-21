@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: NetServer, web.config, web services, AllowWebServiceRequests, RemoteBaseURL, RemoveInvalidXMLText, WrapExceptions
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/webservices
 ---
 
 # NetServer WebServices element

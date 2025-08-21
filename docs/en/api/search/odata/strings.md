@@ -8,6 +8,7 @@ date: 06.18.2024
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/netserver/search/odata/strings
 ---
 
 # String

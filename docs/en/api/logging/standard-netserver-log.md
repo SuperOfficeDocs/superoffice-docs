@@ -6,6 +6,7 @@ author: xt1
 date: 05.07.2021
 keywords: logging
 content_type: concept
+redirect_from: /en/api/netserver/logging/standard-netserver-log
 ---
 
 # SuperOffice.Logging

@@ -6,7 +6,10 @@ author: SuperOffice Product and Engineering
 date: 06.24.2016
 keywords: search
 content_type: howto
-redirect_from: /en/api/search/selection/services/index
+redirect_from:
+  - /en/api/search/selection/services/index
+  - /en/api/netserver/search/selection/services/create-dynamic-services
+  - /en/api/netserver/search/selection/services
 ---
 
 # Creating a dynamic selection (services)

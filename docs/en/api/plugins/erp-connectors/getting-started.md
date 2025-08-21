@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: ERP, ErpConnector, DynamicLoad
 content_type: tutorial
+redirect_from: /en/api/netserver/plugins/erp-connectors/getting-started
 ---
 
 # Getting started with ERP development

@@ -7,7 +7,9 @@ keywords: entity
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/entity/udef-on-contact
+redirect_from:
+  - /en/custom-objects/udef/howto/entity/udef-on-contact
+  - /en/api/netserver/entities/howto/custom-objects/udef-on-contact
 ---
 
 # Udef on contact

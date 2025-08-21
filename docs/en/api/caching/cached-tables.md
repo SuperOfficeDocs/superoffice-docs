@@ -8,6 +8,7 @@ keywords: database
 content_type: concept
 deployment: onsite
 platform: win
+redirect_from: /en/api/netserver/caching/cached-tables
 ---
 
 # Cached tables

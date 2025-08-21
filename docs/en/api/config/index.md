@@ -7,6 +7,7 @@ date: 12.07.2021
 keywords: config, web.config, NetServer
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/index
 ---
 
 # NetServer configuration

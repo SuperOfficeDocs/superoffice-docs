@@ -7,6 +7,7 @@ date: 11.05.2016
 keywords: entity,row
 content_type: concept
 deployment: onsite
+redirect_from: /en/api/netserver/entities/setdefaults
 ---
 
 # SetDefaults method

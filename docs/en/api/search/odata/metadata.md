@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: search
 date: 2023-04-26
 content_type: howto
+redirect_from: /en/api/netserver/search/odata/metadata
 ---
 
 # Archive Metadata

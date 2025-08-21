@@ -6,6 +6,7 @@ keywords: config, NetServer, web.config, Google reCAPTCHA, GoogleRecaptcha, Secr
 author: Bergfrid Dias
 date: 03.05.2024
 content_type: reference
+redirect_from: /en/api/netserver/config/googlerecaptcha
 ---
 
 # NetServer GoogleRecaptcha element

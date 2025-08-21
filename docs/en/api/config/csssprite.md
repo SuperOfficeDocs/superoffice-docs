@@ -8,6 +8,7 @@ keywords: NetServer, web.config, CssSprite, paths, MaxHeight
 content_type: reference
 deployment: onsite
 platform: web
+redirect_from: /en/api/netserver/config/csssprite
 ---
 
 # NetServer CssSprite element (SuperOffice only)

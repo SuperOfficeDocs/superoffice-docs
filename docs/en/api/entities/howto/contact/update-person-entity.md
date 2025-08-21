@@ -6,7 +6,9 @@ keywords: person, contact, entity, API
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/contact/howto/entity/update-person-entity
+redirect_from:
+  - /en/contact/howto/entity/update-person-entity
+  - /en/api/netserver/entities/howto/contact/update-person-entity
 ---
 
 # Update a person with a new name, address, position using entities

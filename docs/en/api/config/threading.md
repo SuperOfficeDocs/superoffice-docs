@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Threading, DisableMultithreading, ForceMultithreading, MaxParellalThreads, single-threaded, multi-threaded, parallel
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/threading
 ---
 
 # NetServer Threading element

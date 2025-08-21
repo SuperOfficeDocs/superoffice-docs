@@ -9,6 +9,7 @@ content_type: reference
 deployment: onsite
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/netserver/config/documents
 ---
 
 # NetServer Documents element

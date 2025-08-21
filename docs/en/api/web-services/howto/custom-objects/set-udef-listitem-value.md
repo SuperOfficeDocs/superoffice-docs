@@ -8,7 +8,9 @@ date: 11.05.2021
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/services/set-udef-listitem-value
+redirect_from:
+  - /en/custom-objects/udef/howto/services/set-udef-listitem-value
+  - /en/api/netserver/web-services/howto/custom-objects/set-udef-listitem-value
 ---
 
 # How to set a user-defined list item on a Udef field (services)

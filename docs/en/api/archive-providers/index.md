@@ -8,6 +8,7 @@ keywords: archive provider, NetServer, search
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/index
 ---
 
 # NetServer archive providers

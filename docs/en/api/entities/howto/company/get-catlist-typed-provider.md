@@ -6,7 +6,9 @@ keywords: category, list provider, CategoryList
 author: Tony Yates
 date: 05.11.2016
 content_type: howto
-redirect_from: /en/company/howto/entity/get-catlist-typed-provider
+redirect_from:
+  - /en/company/howto/entity/get-catlist-typed-provider
+  - /en/api/netserver/entities/howto/company/get-catlist-typed-provider
 ---
 
 # Get a CategoryList through typed list providers

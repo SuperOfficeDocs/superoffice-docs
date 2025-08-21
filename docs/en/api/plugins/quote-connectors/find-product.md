@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote,search
 content_type: howto
+redirect_from: /en/api/netserver/plugins/quote-connectors/find-product
 ---
 
 # Product search provider

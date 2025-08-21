@@ -8,6 +8,7 @@ keywords: web.config, Cloud element, TemplatePath, ArchivePath, DefaultCallbackU
 content_type: reference
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/config/cloud
 ---
 
 # NetServer Cloud element (SuperOffice only)

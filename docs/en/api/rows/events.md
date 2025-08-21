@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords: hook
 content_type: concept
+redirect_from: /en/api/netserver/rows/events
 ---
 
 # Events in Row objects

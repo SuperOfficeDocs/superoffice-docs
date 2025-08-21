@@ -6,6 +6,7 @@ author: AnthonyYates
 keywords: NewSelection, Selection, Find, Date
 content_type: howto
 platform: web
+redirect_from: /en/api/netserver/search/find-selection/convert-to-new-date-range-operators
 ---
 
 # Converting to new dynamic date ranges

@@ -7,6 +7,7 @@ keywords:
 content_type: howto
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/create-plugin
 ---
 
 # Create your own archive provider

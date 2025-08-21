@@ -7,7 +7,9 @@ author: Tony Yates
 date: 05.15.2017
 version: 8
 content_type: howto
-redirect_from: /en/globalization-and-localization/address/howto/services/get-localized-address
+redirect_from:
+  - /en/globalization-and-localization/address/howto/services/get-localized-address
+  - /en/api/netserver/web-services/howto/address/get-localized-address
 ---
 
 # Read the LocalizedAddress

@@ -9,6 +9,7 @@ version: 10.5.5
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/api/netserver/web-services/howto/diary/rest-create-videomeeting
 ---
 
 # Create a video meeting

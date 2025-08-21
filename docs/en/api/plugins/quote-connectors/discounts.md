@@ -5,6 +5,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: concept
+redirect_from: /en/api/netserver/plugins/quote-connectors/discounts
 ---
 
 # Discounts

@@ -10,6 +10,7 @@ topic: archive providers
 redirect_from:
   - /en/diary/howto/archive/index
   - /en/diary/howto/archive/invitation-archive
+  - /en/api/netserver/archive-providers/howto/diary/index
 ---
 
 # Diary - archive

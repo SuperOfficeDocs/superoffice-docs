@@ -6,7 +6,9 @@ keywords: MDOAgent
 author: Bergfrid Dias
 date: 02.22.2022
 content_type: howto
-redirect_from: /en/company/howto/services/get-set-category-mdoagent
+redirect_from:
+  - /en/company/howto/services/get-set-category-mdoagent
+  - /en/api/netserver/web-services/howto/company/get-set-category-mdoagent
 ---
 
 # How to get the category list and set category on a contact

@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: config, NetServer, web.config, Pocket, AzureNotificationHubConnectionString, AzureNotificationHubName
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/pocket
 ---
 
 # NetServer Pocket element (SuperOffice only)

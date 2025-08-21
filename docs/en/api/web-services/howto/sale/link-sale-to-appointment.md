@@ -7,7 +7,9 @@ author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
 content_type: howto
-redirect_from: /en/sale/howto/services/link-sale-to-appointment
+redirect_from:
+  - /en/sale/howto/services/link-sale-to-appointment
+  - /en/api/netserver/web-services/howto/sale/link-sale-to-appointment
 ---
 
 # How to link a sale to a follow-up (services)

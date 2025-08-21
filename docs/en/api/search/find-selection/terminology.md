@@ -5,6 +5,7 @@ author: AnthonyYates
 keywords: NewSelection, Selection, Find
 content_type: reference
 platform: web
+redirect_from: /en/api/netserver/search/find-selection/terminology
 ---
 
 # Common terms and concepts

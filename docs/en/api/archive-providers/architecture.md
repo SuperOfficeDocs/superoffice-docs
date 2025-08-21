@@ -6,6 +6,7 @@ keywords:
 content_type: concept
 category: api
 topic: archive providers
+redirect_from: /en/api/netserver/archive-providers/architecture
 ---
 
 # Archive providers - architecture

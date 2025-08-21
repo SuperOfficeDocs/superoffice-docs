@@ -7,7 +7,9 @@ author: Bergfrid Skaara Dias
 date: 11.05.2021
 version: 10
 content_type: howto
-redirect_from: /en/sale/saint/howto/row/search-saint-contactrow-customsearch
+redirect_from:
+  - /en/sale/saint/howto/row/search-saint-contactrow-customsearch
+  - /en/api/netserver/rows/howto/saint/search-saint-contactrow-customsearch
 ---
 
 # Search for contacts with a given SAINT counter using ContactRow.CustomSearch

@@ -7,6 +7,7 @@ keywords:
 content_type: concept
 deployment: online
 platform: web
+redirect_from: /en/api/netserver/plugins/erp-connectors/online/example-api
 ---
 
 # ERP Connector API Changes

@@ -11,7 +11,9 @@ audience: api
 audience_tooltip: SuperOffice APIs and database
 category: document
 area: api-services
-redirect_from: /en/document/howto/services/configure-access
+redirect_from:
+  - /en/document/howto/services/configure-access
+  - /en/api/netserver/web-services/howto/document/services-configure-access
 ---
 
 # Configuring document access

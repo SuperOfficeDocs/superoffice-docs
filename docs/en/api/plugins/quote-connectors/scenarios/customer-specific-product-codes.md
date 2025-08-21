@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date:
 keywords: quote
 content_type: tutorial
+redirect_from: /en/api/netserver/plugins/quote-connectors/scenarios/customer-specific-product-codes
 ---
 
 # Dealing with customer-specific product codes

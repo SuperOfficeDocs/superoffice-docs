@@ -7,6 +7,7 @@ author: Bergfrid Dias
 keywords: NetServer, web.config, Factory, CustomFactories, DynamicLoad
 content_type: reference
 deployment: onsite
+redirect_from: /en/api/netserver/config/factory
 ---
 
 # NetServer Factory element

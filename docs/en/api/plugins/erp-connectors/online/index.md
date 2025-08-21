@@ -4,6 +4,7 @@ uid: erp_sync
 description: ERP Sync Connectors
 author: AnthonyYates
 keywords: ERP, EIS, sync connector
+redirect_from: /en/api/netserver/plugins/erp-connectors/online/index
 ---
 
 # ERP Sync Connectors

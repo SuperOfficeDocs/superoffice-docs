@@ -8,7 +8,9 @@ keywords: udef, user-defined field, custom field, API, UDFHelper, SyncRoot, GetU
 content_type: reference
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/entity/udefhelper-class
+redirect_from:
+  - /en/custom-objects/udef/howto/entity/udefhelper-class
+  - /en/api/netserver/entities/howto/custom-objects/udefhelper-class
 ---
 
 # Complete UDFHelper class and UDFInfo struct source

@@ -12,6 +12,7 @@ audience_tooltip: SuperOffice APIs and database
 redirect_from:
   - /en/api/custom-objects/index
   - /en/custom-objects/udef/howto/services/index
+  - /en/api/netserver/web-services/howto/custom-objects/index
 ---
 
 # Introduction to custom objects and fields

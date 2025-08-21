@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, rows, collection, AppointmentRows
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: howto
-redirect_from: /en/diary/howto/row/create-apt-rows
+redirect_from:
+  - /en/diary/howto/row/create-apt-rows
+  - /en/api/netserver/rows/howto/diary/create-apt-rows
 ---
 
 # Create an appointment through row collection (Rows)

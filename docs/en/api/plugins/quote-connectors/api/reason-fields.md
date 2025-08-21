@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords: quote
 content_type: concept
 date:
+redirect_from: /en/api/netserver/plugins/quote-connectors/api/reason-fields
 ---
 
 # Reason fields

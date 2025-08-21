@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 11.05.2016
 keywords:
 content_type: howto
+redirect_from: /en/api/netserver/rows/get-row
 ---
 
 # Retrieve a Row with basic properties

@@ -8,7 +8,9 @@ keywords: udef, user-defined field, custom field, API, UdefHelper, UdefLarge, Ud
 content_type: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
-redirect_from: /en/custom-objects/udef/howto/entity/update-udef
+redirect_from:
+  - /en/custom-objects/udef/howto/entity/update-udef
+  - /en/api/netserver/entities/howto/custom-objects/update-udef
 ---
 
 # How to update a Udef field

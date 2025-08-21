@@ -12,6 +12,7 @@ audience_tooltip: SuperOffice APIs and database
 redirect_from:
   - /en/document/howto/agents-web-api/generate-document
   - /en/document/howto/rest/generate-document
+  - /en/api/netserver/web-services/howto/document/rest-generate-document
 ---
 
 # Generate a document

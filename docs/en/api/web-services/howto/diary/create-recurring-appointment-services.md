@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, web services, recurrence
 author: Bergfrid Skaara Dias
 date: 03.18.2022
 content_type: howto
-redirect_from: /en/diary/howto/services/create-recurring-appointment-services
+redirect_from:
+  - /en/diary/howto/services/create-recurring-appointment-services
+  - /en/api/netserver/web-services/howto/diary/create-recurring-appointment-services
 ---
 
 # How to create a recurring appointment (services)

@@ -5,6 +5,7 @@ keywords: configure Serilog, logging
 author: xt1
 date: 05.07.2021
 content_type: howto
+redirect_from: /en/api/netserver/logging/configure-serilog
 ---
 
 <!-- markdownlint-disable-file MD013 -->

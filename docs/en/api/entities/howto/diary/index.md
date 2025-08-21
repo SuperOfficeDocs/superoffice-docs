@@ -6,7 +6,9 @@ keywords: diary, calendar, appointment, API, entity
 author: Bergfrid Skaara Dias
 date: 11.04.2021
 content_type: reference
-redirect_from: /en/diary/howto/entity/index
+redirect_from:
+  - /en/diary/howto/entity/index
+  - /en/api/netserver/entities/howto/diary/index
 ---
 
 # Diary - entity

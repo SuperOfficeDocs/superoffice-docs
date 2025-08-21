@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 date: 05.11.2016
 keywords: search
 content_type: howto
+redirect_from: /en/api/netserver/search/selection/entity/create-dynamic-entity
 ---
 
 # Creating a dynamic selection using entities
