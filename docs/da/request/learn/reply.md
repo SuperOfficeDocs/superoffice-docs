@@ -4,13 +4,14 @@ title: Svar til person
 description: I denne guide lærer du, hvordan du besvarer alle indgående sager i SuperOffice.
 keywords: svar på sag, svar, svar til alle, tilføj meddelelse, tilføj kommentar, kommentar, intern, ekstern, sag
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+index: true
 redirect_from:
   - /da/request/learn/howto/reply
   - /da/faq/learn/add-to-request
@@ -51,23 +52,47 @@ Når du åbner en sag og vælger **Svar**, vises den [e-mailsignatur][7], du har
 Du kan spare tid ved at bruge [svarskabeloner][8] som udgangspunkt for dit svar.
 
 1. Placer markøren i meddelelsesfeltet, hvor du vil indsætte skabelonen.
-1. Klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg **Svarskabelon**.
+1. I **Egenskaber**-panelet klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg **Svarskabelon**.
 1. Vælg en skabelon fra listen. Hold markøren over den for at få vist en forhåndsvisning.
 1. Rediger teksten efter behov og tilføj eventuelle vedhæftede filer.
 
+![Indsæt skabelon når du svarer på en sag -screenshot][img1]
+
 ## <a id="faq"></a>Tilføjelse af FAQ-poster
 
-Når du besvarer en henvendelse, kan du spare tid ved at tilføje et link til en FAQ-post i svaret.
+Når du besvarer en henvendelse, kan du spare tid ved at tilføje et link til en [FAQ-post][9] i svaret.
 
 1. Gå til fanen **Meddelelse**.
 1. Anbring musemarkøren på det sted i meddelelsen, hvor du ønsker at sætte linket ind.
-1. Klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg, hvad der skal indsættes i meddelelsen.
+1. I **Egenskaber**-panelet klik på <i class="ph ph-article" aria-label="Insert"></i> og vælg, hvad der skal indsættes i meddelelsen.
 
    > [!TIP]
    > I pop op-vinduet **Tilføj tekst** kan du få vist et hvilket som helst af FAQ-elementerne ved at flytte markøren hen over de forskellige poster.
 
 1. Klik på den ønskede FAQ-post.
 1. Der indsættes et **link** på markørens position. Kunden kan klikke på et link for at få vist den aktuelle FAQ-post i kundecenteret.
+
+## <a id="insert-earlier-msg"></a>Indsæt tidligere meddelelse
+
+Du kan indsætte en tidligere meddelelse i dit aktuelle svar.
+
+1. Åbn sagen og anbring markøren hvor du vil indsætte meddelelsesindholdet.
+
+1. I **Egenskaber**-panelet til højre klik på <i class="ph ph-chats-circle" aria-label="Messages"></i>.
+
+1. Vælg en meddelelse fra listen.
+
+    ![Meddelelsesliste i Egenskaber-panelet med en valgt meddelelse klar til at blive indsat -screenshot][img5]
+
+1. Klik på **Indsæt** for at indsætte meddelelsen inkluderet vedhæftede filer.
+
+    * Alternativt kan du klikke på **pilen** ved siden af **Indsæt** for at vælge et af følgende:
+        * **Indsæt med vedhæftede filer:** Indsætter meddelelsesindholdet og eventuelle vedhæftede filer.
+        * **Indsæt uden vedhæftede filer:** Indsætter kun meddelelsesindholdet.
+
+    ![Indsæt-knap med muligheder: Indsæt med vedhæftede filer og Indsæt uden vedhæftede filer -screenshot][img6]
+
+1. Rediger teksten efter behov.
 
 ## Tilføj en meddelelse til flere sager
 
@@ -130,8 +155,12 @@ Den registrerede tid vises i hver meddelelsesoverskrift, og svartiden kan findes
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png

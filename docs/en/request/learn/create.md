@@ -4,13 +4,14 @@ title: Create a request
 description: Create a request
 keywords: create request, add request, new request, request properties, request details, message, request, ticket
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+index: true
 redirect_from: /en/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ The message editor functions like a word processor, allowing you to compose, for
 |:-:|---|---|
 | <i class="ph ph-text-a-underline" aria-label="Show/hide toolbar"></i> | Toolbar | Show or hide text formatting options. |
 | <i class="ph ph-paperclip" aria-label="Attachments"></i> | Attachments | Add files or CRM documents to the message. |
-| <i class="ph ph-article" aria-label="Insert"></i> | Insert | [Insert a reply template][2], FAQ entry, previous message, or attachment. |
 
 #### Attachments
 
@@ -96,12 +96,10 @@ To attach files or CRM documents:
 
 To enhance your message with additional content:
 
-1. Click <i class="ph ph-article" aria-label="Insert"></i>.
+1. In the **Properties** panel, click <i class="ph ph-article" aria-label="Insert"></i>.
 1. Choose what to add:
     * **Reply template:** Insert pre-written text.
     * **FAQ entry:** Add a knowledge base article.
-    * **Previous message:** Reuse text from earlier communication.
-    * **Attachment:** Attach a file directly.
 1. If reply templates are available in multiple languages, you can select a language.
 
 #### Time spent
@@ -130,6 +128,9 @@ The **Properties panel** allows you to categorize and assign the request.
 * **Priority:** Assign as **Low**, **Medium**, or **High**, or let the system determine it (for example, based on [escalation levels][9]).
 * **Access level:** Set as **External** (visible to the contact) or **Internal** (hidden from the contact).
 * **Tags:** [Add relevant tags][4] to help organize and search for the request later.
+
+> [!TIP]
+> If the panel does not show properties like in the previous screenshot, click <i class="ph ph-list-bullets" aria-hidden="true"></i> to switch view.
 
 ***
 

@@ -3,14 +3,15 @@ uid: help-nl-request-reply
 title: Antwoorden aan contact
 description: In deze gids staat hoe u alle binnenkomende verzoeken in SuperOffice kunt beantwoorden.
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 keywords: verzoek, antwoordsjabloon
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+index: true
 redirect_from: 
   - /nl/request/learn/howto/reply
   - /nl/faq/learn/add-to-request
@@ -51,23 +52,47 @@ Wanneer u een verzoek opent en **Beantwoorden** selecteert, verschijnt automatis
 U kunt tijd besparen door [antwoordsjablonen][8] te gebruiken als basis voor uw reactie.
 
 1. Plaats de cursor in het tekstveld waar u de sjabloon wilt invoegen.
-1. Klik op <i class="ph ph-article" aria-label="Invoegen"></i> en selecteer **Antwoordsjabloon**.
+1. In het rechterpaneel **Eigenschappen** klikt u op **Antwoordsjabloon invoegen**.
 1. Kies een sjabloon uit de lijst. Beweeg de muis over de naam om een voorbeeld te bekijken voordat u de sjabloon invoegt.
 1. Bewerk de tekst indien nodig en voeg eventuele bijlagen toe.
 
+![Antwoordsjabloon invoegen -screenshot][img1]
+
 ## <a id="faq"></a>Items in Veelgestelde vragen toevoegen aan berichten
 
-Wanneer u een vraag van een klant beantwoordt, kunt u tijd besparen door in uw antwoord een koppeling op te nemen naar een item in Veelgestelde vragen.
+Wanneer u een vraag van een klant beantwoordt, kunt u tijd besparen door in uw antwoord een koppeling op te nemen naar een item in [Veelgestelde vragen][9].
 
 1. Ga naar het tabblad **Bericht** zoals beschreven bij [Klanten beantwoorden][1].
 1. Plaats de muisaanwijzer op de plek in het bericht waar u de koppeling wilt invoegen.
-1. Klik op ![pictogram][img5] de knop **Tekst toevoegen** en selecteer wat er moet worden ingevoegd in het bericht.
+1. In het rechterpaneel **Eigenschappen** klikt u op **Tekst toevoegen** en selecteer wat er moet worden ingevoegd in het bericht.
 
    > [!TIP]
    > In het pop-upvenster **Tekst toevoegen** kunt u een voorbeeld van een van de veelgestelde vragen bekijken door uw cursor over de verschillende items te bewegen.
 
 1. Klik op het gewenste item in veelgestelde vragen.
 1. Er wordt een **koppeling** ingevoegd op de positie van de cursor. De klant kan erop klikken om het relevante item in Veelgestelde vragen in het klantportaal weer te geven.
+
+## <a id="insert-earlier-msg"></a>Eerder bericht invoegen
+
+U kunt een eerder bericht invoegen in uw huidige antwoord.
+
+1. Open het verzoek en plaats de cursor op de plek waar u de berichtinhoud wilt invoegen.
+
+1. Klik in het rechterdeelvenster **Eigenschappen** op <i class="ph ph-chats-circle" aria-label="Berichten"></i>.
+
+1. Selecteer een bericht uit de lijst.
+
+    ![Berichtenlijst in het deelvenster Eigenschappen met een geselecteerd bericht dat klaar is om te worden ingevoegd – screenshot][img5]
+
+1. Klik op **Invoegen** om het bericht inclusief bijlagen in te voegen.
+
+    * Of klik op de **chevron** naast **Invoegen** om een van de volgende opties te kiezen:
+        * **Invoegen met bijlagen:** Voegt de berichtinhoud en eventuele bijgevoegde bestanden in.
+        * **Invoegen zonder bijlagen:** Voegt alleen de berichtinhoud in.
+
+    ![Knop Invoegen met opties: Invoegen met bijlagen en Invoegen zonder bijlagen – screenshot][img6]
+
+1. Bewerk de tekst indien nodig.
 
 ## Bericht toevoegen aan meerdere verzoeken
 
@@ -130,9 +155,12 @@ De gebruikte tijd wordt weergegeven in de koptekst van elk bericht en is terug t
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
-[img5]: ../../../../common/icons/copy-paste-icon.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png

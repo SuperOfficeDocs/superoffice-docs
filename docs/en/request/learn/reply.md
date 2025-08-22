@@ -4,13 +4,14 @@ title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
 keywords: reply to request, reply, reply all, add message, add comment, comment, internal, external, request,
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
+index: true
 redirect_from:
   - /en/request/learn/howto/reply
   - /en/faq/learn/add-to-request
@@ -51,23 +52,47 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 You can save time by using [reply templates][8] as a starting point for your reply.
 
 1. Place the cursor in the message field where you want to insert the template.
-1. Click <i class="ph ph-article" aria-label="Insert"></i> and select **Reply template**.
+1. In the **Properties** panel, click <i class="ph ph-article" aria-label="Insert"></i> and select **Reply template**.
 1. Choose a template from the list. Hover over it to preview before inserting.
 1. Edit the text as needed and attach files if required.
 
+![Insert template when replying to a request -screenshot][img1]
+
 ## <a id="faq"></a>Add FAQ entries
 
-When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply.
+When you respond to a customer enquiry, you can save time by inserting a link to an [FAQ entry][9] in your reply.
 
 1. Go to the **Message** tab.
 1. Position the mouse pointer in the message where you want to insert the link.
-1. Click <i class="ph ph-article" aria-label="Insert"></i> and select what to insert in the message.
+1. In the **Properties** panel, click <i class="ph ph-article" aria-label="Insert"></i> and select what to insert in the message.
 
    > [!TIP]
    > In the **Add text** pop out, you can preview any of the FAQ items by moving your cursor over the different entries.
 
 1. Click on the wanted FAQ entry.
 1. A **link** is inserted at your cursor position. The customer can click it to show the relevant FAQ entry in the customer centre.
+
+## <a id="insert-earlier-msg"></a>Insert earlier message
+
+You can insert an earlier message into your current reply.
+
+1. Open the request and place the cursor where you want to insert the message content.
+
+1. In the right-side **Properties** panel, click <i class="ph ph-chats-circle" aria-label="Messages"></i>.
+
+1. Select a message from the list.
+
+    ![Message list in the Properties panel with a selected message ready to be inserted -screenshot][img5]
+
+1. Click **Insert** to insert the message including attachments.
+
+    * Alternatively, click the **chevron** next to **Insert** to choose one of the following:
+        * **Insert with attachments:** Inserts the message content and any attached files.
+        * **Insert without attachments:** Inserts only the message content.
+
+    ![Insert button with options: Insert with attachments and Insert without attachments -screenshot][img6]
+
+1. Edit the text as needed.
 
 ## Add a message to multiple requests
 
@@ -93,7 +118,7 @@ You can reply to several requests simultaneously, for example, if multiple inqui
 Comments allow you to add internal notes to a request without sending them to the customer. For example, to include what you have done or discovered so far.
 
 1. [Open the request][1].
-1. Click<i class="ph ph-chat-text" aria-hidden="Comment"></i> above the message thread.
+1. Click <i class="ph ph-chat-text" aria-hidden="Comment"></i> above the message thread.
 1. Add your comment in the text field.
     * Select **Internal** in the toolbar to ensure the comment is visible only to your colleagues.
 1. Click **Save**.
@@ -130,8 +155,12 @@ Time spent is displayed in each message header, and the time to reply is availab
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
