@@ -2,15 +2,16 @@
 uid: help-en-selection-board-view
 title: Use board view in selections
 description: Visualize selections using board view with grouping, filters, and drag-and-drop cards
-keywords: board view, selection view, selection, sales board, kanban, group by, filter toolbar
+keywords: board view, selection view, selection, sales board, project board, request board, kanban, group by, filter toolbar
 author: Bergfrid Dias
-date: 06.17.2025
-version: 11.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Use board view in selections <i class="ph ph-kanban" aria-hidden="true"></i>
@@ -20,8 +21,6 @@ Board view presents your [selection][2] in a column-based layout using cards. Yo
 The functionality is the same across supported entities: you can drag cards, open task menus, and adjust board settings. The available grouping and filtering fields vary depending on whether you are working with sales, projects, or requests.
 
 ![Board view showing sales grouped by stage -screenshot][img2]
-
-Board view is currently available for **selections of sales**, and support for **projects** and **requests** is planned.
 
 ## Open board view
 
@@ -110,6 +109,12 @@ Use the settings panel (<i class="ph ph-gear-six" aria-hidden="true"></i>) to co
 
     ![Filter toolbar, sale type expanded -screenshot][img10]
 
+Examples of filters:
+
+* **Sales:** Sale type, Owner, Stage, Next activity, Sale date
+* **Projects:** Type, Responsible, Status, Next milestone, End date
+* **Requests:** Request category, Owner, Status, Created, Deadline, Priority
+
 ### Summarize (sales only)
 
 You can display totals for numeric fields in the board view for sales.
@@ -124,7 +129,7 @@ The total value appears **next to each column name**, helping you track value di
 
 ## Use cases
 
-Board view supports different roles and workflows. Here are examples for sales representatives and sales managers:
+Board view supports different roles and workflows. Here are examples for sales representatives, project members, support agents, and managers:
 
 ### Sales representatives
 
@@ -141,6 +146,37 @@ Board view supports different roles and workflows. Here are examples for sales r
 * **Filter by sale type** to focus on new business or specific campaign types.
 * **Group by owner** to check workload per sales rep and rebalance using drag and drop.
 * **Use stage as group and sale type as subgroup** to get a strategic overview by category and phase.
+
+### Project members
+
+* **Visualize your active projects** and track progress through different statuses.
+* **Drag a card to another column** to update the project status.
+* **Filter by next milestone or end date** to focus on urgent deliverables.
+* **Group by responsible** to see ownership of projects across the team.
+* **Open the task menu** to create a follow-up or document, or to mark the project as completed.
+
+### Project managers
+
+* **Get a full overview of all projects** to monitor status and identify delays.
+* **Summarize by type** to compare customer projects, internal initiatives, or development work.
+* **Filter by responsible** to balance workload among team members.
+* **Group by status** to see how projects move through phases, or by type to align with business priorities.
+
+### Support agents
+
+* **Visualize your assigned requests** and track them across statuses such as new, in progress, and closed.
+* **Drag a card to another column** to update the request status.
+* **Filter by deadline or priority** to work on urgent cases first.
+* **Group by status** to follow progress, or by request type to focus on specific categories.
+* **Open the task menu** to close the request.
+
+### Support managers
+
+* **Get a full overview of incoming requests** and see distribution by status.
+* **Summarize by priority** to ensure high-importance requests are handled quickly.
+* **Filter by category or created date** to analyze trends in customer issues.
+* **Group by owner** to monitor workload across agents and reassign requests as needed.
+* **Use status as group and priority as subgroup** to get a structured overview for analysis and reporting.
 
 Use grouping creatively to organize and act on data efficiently.
 

@@ -2,15 +2,16 @@
 uid: help-nl-selection-board-view
 title: Boardweergave gebruiken in selecties
 description: Visualiseer selecties met de boardweergave met groepering, filters en drag-and-drop-kaarten
-keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, kanban, groeperen op, filterwerkbalk
+keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, projectboard, verzoekboard, kanban, groeperen op, filterwerkbalk
 author: Bergfrid Dias
-date: 06.17.2025
-version: 11.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
 # Boardweergave gebruiken in selecties <i class="ph ph-kanban" aria-hidden="true"></i>
@@ -20,8 +21,6 @@ De boardweergave toont je [selectie][2] in een kolomindeling met kaarten. Je kun
 De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarten slepen, taakmenu's openen en boardinstellingen aanpassen. De beschikbare velden voor groepering en filtering verschillen afhankelijk van of je werkt met verkopen, projecten of verzoeken.
 
 ![Boardweergave van verkopen gegroepeerd op fase -screenshot][img2]
-
-De boardweergave is momenteel beschikbaar voor **selecties van verkopen**, en ondersteuning voor **projecten** en **verzoeken** is gepland.
 
 ## Boardweergave openen
 
@@ -110,6 +109,12 @@ Gebruik het instellingenpaneel (<i class="ph ph-gear-six" aria-hidden="true"></i
 
     ![Filterwerkbalk, verkooptype uitgeklapt -screenshot][img10]
 
+Voorbeelden van filters:
+
+* **Verkoop:** Verkooptype, Eigenaar, Fase, Volgende activiteit, Verkoopdatum
+* **Projecten:** Type, Verantwoordelijke, Status, Volgende mijlpaal, Einddatum
+* **Verzoeken:** Verzoekcategorie, Eigenaar, Status, Gemaakt, Deadline, Prioriteit
+
 ### Samenvatten (alleen verkopen)
 
 Je kunt totalen van numerieke velden tonen in de boardweergave voor verkopen.
@@ -124,7 +129,7 @@ De totale waarde wordt **naast elke kolomtitel** weergegeven, zodat je eenvoudig
 
 ## Gebruiksscenario’s
 
-De boardweergave ondersteunt verschillende rollen en werkwijzen. Hier zijn voorbeelden voor verkopers en verkoopmanagers:
+De boardweergave ondersteunt verschillende rollen en werkwijzen. Hier zijn voorbeelden voor verkopers, projectleden, supportmedewerkers en managers:
 
 ### Verkopers
 
@@ -141,6 +146,37 @@ De boardweergave ondersteunt verschillende rollen en werkwijzen. Hier zijn voorb
 * **Filter op verkooptype** om te focussen op new business of specifieke campagnes.
 * **Groepeer op eigenaar** om de werklast per verkoper te controleren en te herverdelen met drag-and-drop.
 * **Gebruik fase als groep en verkooptype als subgroep** voor strategisch overzicht per categorie en fase.
+
+### Projectleden
+
+* **Visualiseer je actieve projecten** en volg de voortgang via verschillende statussen.
+* **Sleep een kaart naar een andere kolom** om de projectstatus bij te werken.
+* **Filter op volgende mijlpaal of einddatum** om te focussen op dringende opleveringen.
+* **Groepeer op verantwoordelijke** om eigenaarschap binnen het team te zien.
+* **Open het taakmenu** om een vervolgactiviteit of document aan te maken, of om het project als voltooid te markeren.
+
+### Projectmanagers
+
+* **Krijg een volledig overzicht van alle projecten** om status te monitoren en vertragingen te herkennen.
+* **Vat samen op type** om klantprojecten, interne initiatieven of ontwikkelwerk te vergelijken.
+* **Filter op verantwoordelijke** om de werklast binnen het team in balans te brengen.
+* **Groepeer op status** om te zien hoe projecten door fasen bewegen, of op type om aan te sluiten bij bedrijfsprioriteiten.
+
+### Supportmedewerkers
+
+* **Visualiseer je toegewezen verzoeken** en volg ze via statussen zoals nieuw, in behandeling en gesloten.
+* **Sleep een kaart naar een andere kolom** om de verzoekstatus bij te werken.
+* **Filter op deadline of prioriteit** om eerst urgente zaken af te handelen.
+* **Groepeer op status** om voortgang te volgen, of op verzoektype om te focussen op specifieke categorieën.
+* **Open het taakmenu** om het verzoek te sluiten.
+
+### Supportmanagers
+
+* **Krijg een volledig overzicht van inkomende verzoeken** en bekijk de verdeling per status.
+* **Vat samen op prioriteit** om te zorgen dat belangrijke verzoeken snel worden afgehandeld.
+* **Filter op categorie of aanmaakdatum** om trends in klantproblemen te analyseren.
+* **Groepeer op eigenaar** om de werklast tussen medewerkers te monitoren en verzoeken indien nodig te herverdelen.
+* **Gebruik status als groep en prioriteit als subgroep** om een gestructureerd overzicht te krijgen voor analyse en rapportage.
 
 Gebruik groepering creatief om efficiënt met gegevens te werken.
 

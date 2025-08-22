@@ -2,15 +2,16 @@
 uid: help-de-selection-board-view
 title: Board-Ansicht in Selektionen verwenden
 description: Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
-keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Kanban, gruppieren nach, Filterleiste
+keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Projektboard, Anfrageboard, Kanban, gruppieren nach, Filterleiste
 author: Bergfrid Dias
-date: 06.17.2025
-version: 11.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # Board-Ansicht in Selektionen verwenden <i class="ph ph-kanban" aria-hidden="true"></i>
@@ -20,8 +21,6 @@ Die Board-Ansicht zeigt Ihre [Selektion][2] in einem spaltenbasierten Layout mit
 Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Verkäufen, Projekten oder Anfragen arbeiten.
 
 ![Board-Ansicht mit Verkäufen nach Stufe gruppiert -screenshot][img2]
-
-Die Board-Ansicht ist derzeit für **Selektionen von Verkäufen** verfügbar. Die Unterstützung für **Projekte** und **Anfragen** ist geplant.
 
 ## Board-Ansicht öffnen
 
@@ -110,6 +109,12 @@ Verwenden Sie das Einstellungsmenü (<i class="ph ph-gear-six" aria-hidden="true
 
     ![Filterleiste, Verkaufstyp erweitert -screenshot][img10]
 
+Beispiele für Filter:
+
+* **Verkauf:** Verkaufsart, Eigentümer, Phase, Nächste Aktivität, Verkaufsdatum
+* **Projekte:** Typ, Verantwortlich, Status, Nächster Meilenstein, Enddatum
+* **Anfragen:** Anfragekategorie, Eigentümer, Status, Erstellt, Frist, Priorität
+
 ### Zusammenfassen (nur Verkäufe)
 
 Sie können Summen für numerische Felder in der Board-Ansicht für Verkäufe anzeigen.
@@ -124,7 +129,7 @@ Der Gesamtwert wird **neben jedem Spaltennamen** angezeigt und hilft Ihnen, die 
 
 ## Anwendungsfälle
 
-Die Board-Ansicht unterstützt verschiedene Rollen und Arbeitsweisen. Hier einige Beispiele für Vertriebsmitarbeitende und Vertriebsleitende:
+Die Board-Ansicht unterstützt verschiedene Rollen und Arbeitsweisen. Hier einige Beispiele für Vertriebsmitarbeitende, Projektmitglieder, Supportmitarbeiter und Managers:
 
 ### Vertriebsmitarbeitende
 
@@ -141,6 +146,37 @@ Die Board-Ansicht unterstützt verschiedene Rollen und Arbeitsweisen. Hier einig
 * **Filtern Sie nach Verkaufstyp**, um sich auf Neugeschäft oder bestimmte Kampagnen zu konzentrieren.
 * **Gruppieren Sie nach Besitzer**, um die Auslastung pro Vertriebsperson zu prüfen und durch Drag-and-Drop auszugleichen.
 * **Verwenden Sie Stufe als Gruppe und Verkaufstyp als Untergruppe**, um eine strategische Übersicht nach Kategorie und Stufe zu erhalten.
+
+### Projektmitglieder
+
+* **Visualisieren Sie Ihre aktiven Projekte** und verfolgen Sie den Fortschritt anhand verschiedener Stati.
+* **Ziehen Sie eine Karte in eine andere Spalte**, um den Projektstatus zu aktualisieren.
+* **Filtern Sie nach nächstem Meilenstein oder Enddatum**, um sich auf dringende Aufgaben zu konzentrieren.
+* **Gruppieren Sie nach Verantwortlichem**, um den Projekteigentum im Team zu sehen.
+* **Öffnen Sie das Aufgabenmenü**, um eine Folgeaufgabe oder ein Dokument zu erstellen oder das Projekt als abgeschlossen zu markieren.
+
+### Projektmanager
+
+* **Verschaffen Sie sich einen vollständigen Überblick über alle Projekte**, um den Status zu überwachen und Verzögerungen zu erkennen.
+* **Fassen Sie nach Typ zusammen**, um Kundenprojekte, interne Initiativen oder Entwicklungsarbeiten zu vergleichen.
+* **Filtern Sie nach Verantwortlichem**, um die Arbeitslast im Team auszugleichen.
+* **Gruppieren Sie nach Status**, um den Fortschritt durch die Phasen zu sehen, oder nach Typ, um mit Geschäftsprioritäten in Einklang zu bleiben.
+
+### Supportmitarbeiter
+
+* **Visualisieren Sie Ihre zugewiesenen Anfragen** und verfolgen Sie sie über Stati wie neu, in Bearbeitung und geschlossen.
+* **Ziehen Sie eine Karte in eine andere Spalte**, um den Anfrage-Status zu aktualisieren.
+* **Filtern Sie nach Frist oder Priorität**, um dringende Fälle zuerst zu bearbeiten.
+* **Gruppieren Sie nach Status**, um den Fortschritt zu verfolgen, oder nach Anfrageart, um sich auf bestimmte Kategorien zu konzentrieren.
+* **Öffnen Sie das Aufgabenmenü**, um die Anfrage zu schließen.
+
+### Supportmanager
+
+* **Verschaffen Sie sich einen vollständigen Überblick über eingehende Anfragen**, und sehen Sie die Verteilung nach Status.
+* **Fassen Sie nach Priorität zusammen**, um sicherzustellen, dass wichtige Anfragen schnell bearbeitet werden.
+* **Filtern Sie nach Kategorie oder Erstellungsdatum**, um Trends bei Kundenproblemen zu analysieren.
+* **Gruppieren Sie nach Besitzer**, um die Arbeitslast der Agenten zu überwachen und Anfragen bei Bedarf neu zuzuweisen.
+* **Verwenden Sie Status als Gruppe und Priorität als Untergruppe**, um eine strukturierte Übersicht für Analyse und Reporting zu erhalten.
 
 Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen.
 

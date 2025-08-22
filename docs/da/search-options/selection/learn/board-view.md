@@ -2,15 +2,16 @@
 uid: help-da-selection-board-view
 title: Brug tavlevisning i udvalg
 description: Visualiser udvalg med tavlevisning med gruppering, filtre og træk-og-slip-kort
-keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, kanban, gruppér efter, filter-værktøjslinje
+keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, projekttavle, sagstavle, kanban, gruppér efter, filter-værktøjslinje
 author: Bergfrid Dias
-date: 06.17.2025
-version: 11.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
 # Brug tavlevisning i udvalg <i class="ph ph-kanban" aria-hidden="true"></i>
@@ -20,8 +21,6 @@ Tavlevisning viser dit [udvalg][2] i et kolonnebaseret layout med kort. Du kan g
 Funktionaliteten er den samme på tværs af understøttede poster: Du kan trække kort, åbne opgavemenuer og justere tavleindstillinger. De tilgængelige grupperings- og filterfelter varierer afhængigt af, om du arbejder med salg, projekter eller sager.
 
 ![Tavlevisning, der viser salg grupperet efter fase -screenshot][img2]
-
-Tavlevisning er i øjeblikket tilgængelig for **udvalg af salg**, og understøttelse af **projekter** og **sager** er planlagt.
 
 ## Åbn tavlevisning
 
@@ -110,6 +109,12 @@ Brug indstillingspanelet (<i class="ph ph-gear-six" aria-hidden="true"></i>) til
 
     ![Filter-værktøjslinje, salgstype udvidet -screenshot][img10]
 
+Eksempler på filtre:
+
+* **Salg:** Salgstype, Ejer, Fase, Næste aktivitet, Salgsdato
+* **Projekter:** Type, Ansvarlig, Status, Næste milepæl, Slutdato
+* **Sager:** Sagskategori, Ejer, Status, Registreret, Deadline, Prioritet
+
 ### Opsummer (kun salg)
 
 Du kan vise summer for numeriske felter i tavlevisningen for salg.
@@ -124,7 +129,7 @@ Totalværdien vises **ved siden af hvert kolonnenavn**, hvilket hjælper dig med
 
 ## Anvendelsesmuligheder
 
-Tavlevisning understøtter forskellige roller og arbejdsgange. Her er eksempler for salgsrepræsentanter og salgsledere:
+Tavlevisning understøtter forskellige roller og arbejdsgange. Her er eksempler for salgsrepræsentanter, projektmedlemmer, supportmedarbejdere og ledere:
 
 ### Salgsrepræsentanter
 
@@ -141,6 +146,37 @@ Tavlevisning understøtter forskellige roller og arbejdsgange. Her er eksempler 
 * **Filtrer efter salgstype** for at fokusere på nyt salg eller bestemte kampagnetyper.
 * **Gruppér efter ejer** for at se belastning pr. sælger og juster via træk og slip.
 * **Brug fase som gruppe og salgstype som undergruppe** for at få et strategisk overblik efter kategori og fase.
+
+### Projektmedlemmer
+
+* **Visualiser dine aktive projekter**, og følg fremskridt gennem forskellige statuser.
+* **Træk et kort til en anden kolonne** for at opdatere projektets status.
+* **Filtrer efter næste milepæl eller slutdato** for at fokusere på presserende leverancer.
+* **Gruppér efter ansvarlig** for at se ejerskab af projekter på tværs af teamet.
+* **Åbn opgavemenuen** for at oprette en opfølgning eller et dokument, eller for at markere projektet som fuldført.
+
+### Projektledere
+
+* **Få et fuldt overblik over alle projekter** for at overvåge status og identificere forsinkelser.
+* **Opsummer efter type** for at sammenligne kundeprojekter, interne initiativer eller udviklingsarbejde.
+* **Filtrer efter ansvarlig** for at balancere arbejdsbyrden mellem teammedlemmer.
+* **Gruppér efter status** for at se, hvordan projekter bevæger sig gennem faser, eller efter type for at tilpasse til forretningsprioriteter.
+
+### Supportmedarbejdere
+
+* **Visualiser dine tildelte sager**, og følg dem gennem statuser som ny, i gang og lukket.
+* **Træk et kort til en anden kolonne** for at opdatere sagens status.
+* **Filtrer efter deadline eller prioritet** for at arbejde med presserende sager først.
+* **Gruppér efter status** for at følge fremdrift, eller efter sagstype for at fokusere på specifikke kategorier.
+* **Åbn opgavemenuen** for at lukke sagen.
+
+### Supportledere
+
+* **Få et fuldt overblik over indkommende sager**, og se fordeling efter status.
+* **Opsummer efter prioritet** for at sikre, at vigtige sager håndteres hurtigt.
+* **Filtrer efter kategori eller oprettelsesdato** for at analysere tendenser i kundehenvendelser.
+* **Gruppér efter ejer** for at overvåge arbejdsbyrden på tværs af agenter og omfordele sager efter behov.
+* **Brug status som gruppe og prioritet som undergruppe** for at få et struktureret overblik til analyse og rapportering.
 
 Brug gruppering kreativt for effektiv databehandling.
 

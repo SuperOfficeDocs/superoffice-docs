@@ -2,15 +2,16 @@
 uid: help-sv-selection-board-view
 title: Använd tavlevy i urval
 description: Visualisera urval med tavlevy med gruppering, filter och dra-och-släpp-kort
-keywords: tavlevy, urvalsvy,urval, säljtavla, kanban, gruppera efter, filterverktygsfält
+keywords: tavlevy, urvalsvy,urval, säljtavla, projekttavla, ärendetavla, kanban, gruppera efter, filterverktygsfält
 author: Bergfrid Dias
-date: 06.17.2025
-version: 11.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Använd tavlevy i urval <i class="ph ph-kanban" aria-hidden="true"></i>
@@ -20,8 +21,6 @@ Tavlevy visar ditt [urval][2] i ett kolumnbaserat layout med kort. Du kan gruppe
 Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna uppgiftsmenyer och justera tavleinställningar. De tillgängliga grupperings- och filterfälten varierar beroende på om du arbetar med försäljning, projekt eller ärenden.
 
 ![Tavlevy som visar försäljningar grupperade efter fas -screenshot][img2]
-
-Tavlevy är för närvarande tillgänglig för **urval av försäljning**, och stöd för **projekt** och **ärenden** är planerat.
 
 ## Öppna tavlevy
 
@@ -110,6 +109,12 @@ Använd inställningspanelen (<i class="ph ph-gear-six" aria-hidden="true"></i>)
 
     ![Filterverktygsfält, försäljningstyp expanderad -screenshot][img10]
 
+Exempel på filter:
+
+* **Försäljning:** Försäljningstyp, Ägare, Fas, Nästa aktivitet, Försäljningsdatum
+* **Projekt:** Typ, Ansvarig, Status, Nästa milstolpe, Slutdatum
+* **Ärenden:** Ärendekategori, Ägare, Status, Registrerad, Tidsfrist, Prioritet
+
 ### Sammanfatta (endast försäljning)
 
 Du kan visa summor för numeriska fält i tavlevy för försäljning.
@@ -124,7 +129,7 @@ Det totala värdet visas **bredvid varje kolumnnamn**, vilket hjälper dig att f
 
 ## Användningsområden
 
-Tavlevy stödjer olika roller och arbetsflöden. Här är exempel för säljare och försäljningschefer:
+Tavlevy stödjer olika roller och arbetsflöden. Här är exempel för säljare, projektmedlemmar, supportmedarbetare och chefer:
 
 ### Säljare
 
@@ -141,6 +146,37 @@ Tavlevy stödjer olika roller och arbetsflöden. Här är exempel för säljare 
 * **Filtrera efter försäljningstyp** för att fokusera på nyförsäljning eller specifika kampanjer.
 * **Gruppera efter ägare** för att granska arbetsbelastning per säljare och balansera med dra-och-släpp.
 * **Använd fas som grupp och försäljningstyp som undergrupp** för strategisk översikt.
+
+### Projektmedlemmar
+
+* **Visualisera dina aktiva projekt**, och följ framsteg genom olika statusar.
+* **Dra ett kort till en annan kolumn** för att uppdatera projektets status.
+* **Filtrera efter nästa milstolpe eller slutdatum** för att fokusera på brådskande leveranser.
+* **Gruppera efter ansvarig** för att se projektansvar i teamet.
+* **Öppna uppgiftsmenyn** för att skapa en händelse eller ett dokument, eller för att markera projektet som klart.
+
+### Projektledare
+
+* **Få en fullständig översikt över alla projekt** för att övervaka status och identifiera förseningar.
+* **Sammanfatta efter typ** för att jämföra kundprojekt, interna initiativ eller utvecklingsarbete.
+* **Filtrera efter ansvarig** för att balansera arbetsbelastningen mellan teammedlemmar.
+* **Gruppera efter status** för att se hur projekt rör sig genom faserna, eller efter typ för att anpassa till affärsprioriteringar.
+
+### Supportmedarbetare
+
+* **Visualisera dina tilldelade ärenden**, och följ dem genom statusar som ny, pågår och stängd.
+* **Dra ett kort till en annan kolumn** för att uppdatera ärendets status.
+* **Filtrera efter deadline eller prioritet** för att börja med de mest akuta ärendena.
+* **Gruppera efter status** för att följa framsteg, eller efter ärendetyp för att fokusera på specifika kategorier.
+* **Öppna uppgiftsmenyn** för att stänga ärendet.
+
+### Supportchefer
+
+* **Få en fullständig översikt över inkommande ärenden**, och se fördelningen efter status.
+* **Sammanfatta efter prioritet** för att säkerställa att viktiga ärenden hanteras snabbt.
+* **Filtrera efter kategori eller skapelsedatum** för att analysera trender i kundproblem.
+* **Gruppera efter ägare** för att övervaka arbetsbelastning bland agenter och omfördela ärenden vid behov.
+* **Använd status som grupp och prioritet som undergrupp** för att få en strukturerad översikt för analys och rapportering.
 
 Använd gruppering kreativt för effektiv datahantering.
 
