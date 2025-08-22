@@ -201,12 +201,24 @@ Bruk gruppering kreativt for å organisere og handle effektivt på data.
 * [Opprett et utvalg][1]
 * [Opprett et salg / felt i salgskortet][12]
 * [Konfigurer salgsfaser][13]
+* [Opprett en sak / sakseigenskaper][14]
+* [Opprett saksstatus][15]
+* [Opprett sakskategori][16]
+* [Opprett et prosjekt / felt i prosjektkortet][17]
+* [Konfigurer prosjektstatus][18]
+* [Konfigurer prosjekttyper][19]
 
 <!-- Refererte lenker -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png

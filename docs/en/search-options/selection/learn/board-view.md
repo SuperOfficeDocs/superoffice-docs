@@ -201,12 +201,24 @@ Use grouping creatively to organize and act on data efficiently.
 * [Create a selection][1]
 * [Create a sale / fields in the Sale card][12]
 * [Configure sale stages][13]
+* [Create a request / request properties][14]
+* [Create request status][15]
+* [Create request category][16]
+* [Create a project / fields in the Project card][17]
+* [Configure project status][18]
+* [Configure project types][19]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png

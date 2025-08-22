@@ -201,12 +201,24 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 * [Eine Selektion erstellen][1]
 * [Einen Verkauf erstellen / Felder in der Verkaufskarte][12]
 * [VerkaufsStufen konfigurieren][13]
+* [Eine Anfrage erstellen / Anfrageeigenschaften][14]
+* [Anfragestatus erstellen][15]
+* [Anfragekategorie erstellen][16]
+* [Ein Projekt erstellen / Felder in der Projektkarte][17]
+* [Projektstatus konfigurieren][18]
+* [Projekttypen konfigurieren][19]
 
 <!-- Referenzierte Links -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Referenzierte Bilder -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png

@@ -201,12 +201,24 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 * [Een selectie aanmaken][1]
 * [Een verkoop aanmaken / velden in de verkoopkaart][12]
 * [Verkoopfasen configureren][13]
+* [Een verzoek aanmaken / verzoekeigenschappen][14]
+* [Verzoekstatus aanmaken][15]
+* [Verzoekcategorie aanmaken][16]
+* [Een project aanmaken / velden in de projectkaart][17]
+* [Projectstatus configureren][18]
+* [Projecttypen configureren][19]
 
 <!-- Verwijzingen -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Afbeeldingen -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png

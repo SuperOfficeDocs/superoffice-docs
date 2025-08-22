@@ -201,12 +201,24 @@ Brug gruppering kreativt for effektiv databehandling.
 * [Opret et udvalg][1]
 * [Opret et salg / felter i salgskortet][12]
 * [Konfigurér salgsfaser][13]
+* [Opret en sag / sagegenskaber][14]
+* [Opret sagsstatus][15]
+* [Opret sagskategori][16]
+* [Opret et projekt / felter i projektkortet][17]
+* [Konfigurér projektstatus][18]
+* [Konfigurér projekttyper][19]
 
 <!-- Refererede links -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Refererede billeder -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png

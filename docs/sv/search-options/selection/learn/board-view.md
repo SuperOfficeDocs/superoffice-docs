@@ -201,12 +201,24 @@ Använd gruppering kreativt för effektiv datahantering.
 * [Skapa ett urval][1]
 * [Skapa en försäljning / fält i försäljningskortet][12]
 * [Konfigurera försäljningsfaser][13]
+* [Skapa ett ärende / ärendeegenskaper][14]
+* [Skapa ärendestatus][15]
+* [Skapa ärendekategori][16]
+* [Skapa ett projekt / fält i projektkortet][17]
+* [Konfigurera projektstatus][18]
+* [Konfigurera projekttyper][19]
 
 <!-- Refererade länkar -->
 [1]: create.md
 [2]: index.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
+[14]: ../../../request/learn/create.md
+[15]: ../../../request/admin/status/create.md
+[16]: ../../../request/admin/category/create.md
+[17]: ../../../project/learn/create.md
+[18]: ../../../project/admin/project-status.md
+[19]: ../../../project/admin/project-type.md
 
 <!-- Refererade bilder -->
 [img1]: ../../../../media/loc/en/search-options/board-view-toggle.png
