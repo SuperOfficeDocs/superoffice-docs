@@ -4,12 +4,14 @@ title: Meldingen
 description: Meldingen van uitnodigingen, berichten en verzoeken
 keywords: melding, uitnodigingen, verzoeken, berichten
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
 # Meldingen <i class="ph ph-bell" aria-label="Bell icon"></i>
@@ -84,24 +86,38 @@ Dit zijn de meldingsopties:
 * Systeemmeldingen voor email
 * Systeemmeldingen voor chatten
 
+### Voorkeuren voor eigenaarsmelding
+
+* Meldingen weergeven voor toegewezen bedrijven en personen
+
 ## <a id="enable-browser"></a>Hoe de browserinstellingen voor meldingen wijzigen
 
-**Chrome:** Klik op het hangslotsymbool voor de URL en schakel de **Meldingen**-schakelaar in.
+### [Chrome](#tab/chrome)
+
+Klik op het hangslotsymbool voor de URL en schakel de **Meldingen**-schakelaar in.
 
 ![Systeemmeldingen deblokkeren in Chrome -screenshot][img11]
 
-**Edge:** Klik op het hangslotsymbool voor de URL en kies **Toestaan** uit het **Meldingen**-keuzemenu.
+### [Edge](#tab/edge)
+
+Klik op het hangslotsymbool voor de URL en kies **Toestaan** uit het **Meldingen**-keuzemenu.
 
 ![Systeemmeldingen deblokkeren in Edge -screenshot][img12]
 
-**Firefox:** Klik op het hangslotsymbool voor de URL en verwijder de geblokkeerde toestemming.
+### [Firefox](#tab/firefox)
+
+Klik op het hangslotsymbool voor de URL en verwijder de geblokkeerde toestemming.
 
 ![Systeemmeldingen deblokkeren in Firefox -screenshot][img13]
 
-**Safari:** Open het **Instellingen**-menu, ga naar het tabblad **Websites** en pas de machtigingen aan.
+### [Safari](#tab/safari)
+
+Open het **Instellingen**-menu, ga naar het tabblad **Websites** en pas de machtigingen aan.
 
 ![Systeemmeldingen deblokkeren in Safari -screenshot][img14]
 ![Systeemmeldingen deblokkeren in Safari -screenshot][img15]
+
+***
 
 <!-- Referenced links -->
 

@@ -4,12 +4,14 @@ title: Benachrichtigungen
 description: Benachrichtigungen über Einladungen, Nachrichten und Anfragen
 keywords: Benachrichtigung, Einladung, Anfrage, Nachricht
 author: Hanne Gunnarsson, Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # Benachrichtigungen <i class="ph ph-bell" aria-label="Bell icon"></i>
@@ -84,24 +86,38 @@ Dies sind die Benachrichtigungsoptionen:
 * Benachrichtigungen für Email
 * Benachrichtigungen für Chat
 
+### Einstellungen für Verantwortlichkeit
+
+* Benachrichtigungen für zugewiesene Firmen und Personen anzeigen
+
 ## <a id="enable-browser"></a>Die Browsereinstellungen für Benachrichtigungen ändern
 
-**Chrome:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und aktivieren Sie den **Benachrichtigungen**-Schalter.
+### [Chrome](#tab/chrome)
+
+Klicken Sie auf das Vorhängeschlosssymbol vor der URL und aktivieren Sie den **Benachrichtigungen**-Schalter.
 
 ![Systembenachrichtigungen in Chrome aufheben -screenshot][img11]
 
-**Edge:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und wählen Sie **Erlauben** aus dem **Benachrichtigungen**-Dropdown aus.
+### [Edge](#tab/edge)
+
+Klicken Sie auf das Vorhängeschlosssymbol vor der URL und wählen Sie **Erlauben** aus dem **Benachrichtigungen**-Dropdown aus.
 
 ![Systembenachrichtigungen in Edge aufheben -screenshot][img12]
 
-**Firefox:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und entfernen Sie die blockierte Berechtigung.
+### [Firefox](#tab/firefox)
+
+Klicken Sie auf das Vorhängeschlosssymbol vor der URL und entfernen Sie die blockierte Berechtigung.
 
 ![Systembenachrichtigungen in Firefox aufheben -screenshot][img13]
 
-**Safari:** Öffnen Sie das **Einstellungen**-Menü, gehen Sie zum Tab **Websites** und passen Sie die Berechtigungen an.
+### [Safari](#tab/safari)
+
+Öffnen Sie das **Einstellungen**-Menü, gehen Sie zum Tab **Websites** und passen Sie die Berechtigungen an.
 
 ![Systembenachrichtigungen in Safari aufheben -screenshot][img14]
 ![Systembenachrichtigungen in Safari aufheben -screenshot][img15]
+
+***
 
 <!-- Referenced links -->
 

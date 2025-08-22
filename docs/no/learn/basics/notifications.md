@@ -4,12 +4,14 @@ title: Varsler
 description: "Varsler om invitasjoner, meldinger og saker"
 keywords: varsling, invitasjon, sak, melding
 author: Hanne Gunnarsson, Bergfrid Dias
-date: 01.29.2025
-version: 10.5
+date: 08.25.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Varsler <i class="ph ph-bell" aria-label="Bell icon"></i>
@@ -70,7 +72,7 @@ Dette er varslingsalternativene:
 
 ### Preferanser for saksvarsler
 
-* Vis varsler for kundemeldinger
+* Bli varslet for kundemeldinger
 * Bli varslet om saker i favorittlisten
 * Bli varslet når noen tar over en sak som er din
 * Bli varslet når en sak aktiveres
@@ -84,24 +86,39 @@ Dette er varslingsalternativene:
 * Systemvarslinger for e-post
 * Systemvarslinger for chat
 
+### Innstillinger for eierskapsvarsler
+
+* Vis varslinger ved tildeling av firmaer og personer
+
 ## <a id="enable-browser"></a>Hvordan endre nettleserinnstillingene for varsler
 
-**Chrome:** Klikk på hengelåsikonet foran URL-en og slå på **Varsler**-bryteren.
+### [Chrome](#tab/chrome)
+
+Klikk på hengelåsikonet foran URL-en og slå på **Varsler**-bryteren.
 
 ![Fjern blokkerte systemvarsler i  Chrome -screenshot][img11]
 
-**Edge:** Klikk på hengelåsikonet foran URL-en og velg **Tillat** fra **Varsler**-menyen.
+### [Edge](#tab/edge)
+
+Klikk på hengelåsikonet foran URL-en og velg **Tillat** fra **Varsler**-menyen.
 
 ![Fjern blokkerte systemvarsler i  Edge -screenshot][img12]
 
-**Firefox:** Klikk på hengelåsikonet foran URL-en og fjern den blokkerte tillatelsen.
+### [Firefox](#tab/firefox)
+
+Klikk på hengelåsikonet foran URL-en og fjern den blokkerte tillatelsen.
 
 ![Fjern blokkerte systemvarsler i  Firefox -screenshot][img13]
 
-**Safari:** Åpne **Innstillinger**-menyen, gå til fanen **Nettsteder** og juster tillatelsene.
+### [Safari](#tab/safari)
+
+Åpne **Innstillinger**-menyen, gå til fanen **Nettsteder** og juster tillatelsene.
 
 ![Fjern blokkerte systemvarsler i  Safari -screenshot][img14]
 ![Fjern blokkerte systemvarsler i  Safari -screenshot][img15]
+
+***
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
