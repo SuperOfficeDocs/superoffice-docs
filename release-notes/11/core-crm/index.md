@@ -12,13 +12,13 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# New and improved Core CRM
+# New and improved Core CRM and Sales
 
 * [Selection - Board view for projects (11.3)][3]
-* [Selection - Preview of board item (11.3)][3]
+* [Selection - Preview of board card (11.3)][3]
 * [Notification - New company/contact assigned (11.3)][3]
 * [Company/Contact - Keep Our contact empty (11.3)][3]
-* [Side panel - Preview of e-mail (11.3)][3]
+* [Side panel - Preview e-mail with attachments, recipients and reply/forward (11.3)][3]
 * [Selection - Board view for sales (11.2)][2]
 
 <!-- Referenced links-->
