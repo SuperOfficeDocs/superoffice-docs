@@ -1,48 +1,50 @@
 ---
 uid: help-da-notifications
 title: Underretninger
-description: Meddelelser om invitationer, beskeder og sager
-keywords: notifikation, invitation, sag, meddelels
+description: Beskeder om invitationer, beskeder og sager
+keywords: besked, besked, invitation, sag, besked
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
-# Underretninger <i class="ph ph-bell" aria-label="Bell icon"></i>
+# Beskeder <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-Når du klikker på **klokkeikonikonet** i øverste højre hjørne af SuperOffice CRM, vises meddelelsespanelet som et overlay i højre side af skærmen, der viser de seneste forekomster øverst. Her kan du gøre følgende:
+Når du klikker på **klokkeikonikonet** i øverste højre hjørne af SuperOffice CRM, vises beskedpanelet som et overlay i højre side af skærmen, der viser de seneste forekomster øverst. Her kan du gøre følgende:
 
 * Klik på et listeelement for at åbne det.
-* Klik på <i class="ph ph-gear" aria-label="Gear"></i> for at indstille dine notifikationspræferencer.
-* Klik på **Ryd alt** nederst i meddelelsesruden for at rydde listen over meddelelser. Du kan også klikke på **Forstået** under en notifikation for at fjerne den.
-* Klik på <i class="ph ph-x" aria-label="X"></i> eller et vilkårligt sted uden for meddelelsespanelet for at lukke det.
+* Klik på <i class="ph ph-gear" aria-label="Gear"></i> for at indstille dine beskedspræferencer.
+* Klik på **Ryd alt** nederst i beskedsruden for at rydde listen over beskeder. Du kan også klikke på **Forstået** under en besked for at fjerne den.
+* Klik på <i class="ph ph-x" aria-label="X"></i> eller et vilkårligt sted uden for beskedpanelet for at lukke det.
 
-![Pop op-meddelelsen vises, der viser både meddelelser om sager og invitationer -screenshot][img5]
+![Pop op-beskeden vises, der viser både beskeder om sager og invitationer -screenshot][img5]
 
-## <a id="activity"></a>Meddelelser om aktivitet
+## <a id="activity"></a>Beskeder om aktivitet
 
-Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik på linket i meddelelsen for at åbne aktiviteten.
+Når du modtager en aktivitetsbesked, vises den i dit beskedpanel. Klik på linket i beskeden for at åbne aktiviteten.
 
-Dette er de forskellige aktivitetsmeddelelser:
+Dette er de forskellige aktivitetsbeskeder:
 
-* **Nyt møde**: Svar ved at klikke på **Acceptér** eller **Afvis**. Når du har svaret, forsvinder invitationen fra meddelelsespanelet.
+* **Nyt møde**: Svar ved at klikke på **Acceptér** eller **Afvis**. Når du har svaret, forsvinder invitationen fra beskedpanelet.
 * **Nyt tilbagevendende møde**: Hvis invitationen er til en tilbagevendende begivenhed, vises <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> under linket.
-* **Mødet er blevet ændret**: Hvis tidspunktet eller datoen for et møde, du allerede har accepteret, ændres, modtager du en ny meddelelse, der fortæller dig, hvad der er ændret, og kræver, at du accepterer eller afviser det.
-* **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
-* **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
+* **Mødet er blevet ændret**: Hvis tidspunktet eller datoen for et møde, du allerede har accepteret, ændres, modtager du en ny besked, der fortæller dig, hvad der er ændret, og kræver, at du accepterer eller afviser det.
+* **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine beskeder.
+* **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine beskeder.
 
 > [!NOTE]
-> Invitationer og ændrede aktiviteter fjernes ikke fra meddelelsespanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
+> Invitationer og ændrede aktiviteter fjernes ikke fra beskedpanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
 
-## Sagsnotifikationer
+## Sagsbeskeder
 
-Når noget ændres på en sag, som du er tilknyttet, vises en meddelelse i meddelelsespanelet. Klik på linket i meddelelsen for at åbne sagen.
+Når noget ændres på en sag, som du er tilknyttet, vises en besked i beskedpanelet. Klik på linket i beskeden for at åbne sagen.
 
-Dette er de forskellige sagsnotifikationer:
+Dette er de forskellige sagsbeskeder:
 
 * **Ny sag**: Der er modtaget en ny sag.
 * **Ny meddelelse i sag**: Der er en ny meddelelse i sagen.
@@ -50,16 +52,16 @@ Dette er de forskellige sagsnotifikationer:
 * **Sag aktiveret**: Sagen er aktiveret.
 * **Sag overtaget**: Nogen har overtaget en af dine sager.
 * **Foretrukne sager opdateret**: En af dine foretrukne sager er opdateret.
-* **Tilpasset meddelelse**: Der er føjet en brugerdefineret meddelelse til en sag.
+* **Tilpasset besked**: Der er føjet en brugerdefineret besked til en sag.
 
 > [!NOTE]
-> Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
+> Listen over sagsbeskeder ryddes hver aften, hvilket betyder, at eventuelle sagsbeskeder, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
 
 ## Beskedindstillinger
 
-Når du klikker på <i class="ph ph-gear" aria-label="Gear"></i> vises panelet med meddelelsesindstillinger. Her kan du vælge, hvilke meddelelser du gerne vil se i meddelelsespanelet.
+Når du klikker på <i class="ph ph-gear" aria-label="Gear"></i> vises panelet med beskedsindstillinger. Her kan du vælge, hvilke beskeder du gerne vil se i beskedpanelet.
 
-Dette er meddelelsesmulighederne:
+Dette er beskedsmulighederne:
 
 ### Præferencer om beskeder om opfølginger
 
@@ -68,7 +70,7 @@ Dette er meddelelsesmulighederne:
 * Vis beskeder for aflyste møder
 * Vis beskeder for afviste invitationer
 
-### Præferencer sagsnotifikationer
+### Præferencer sagsbeskeder
 
 * Vis beskeder for brugerdefinerede meddelelser
 * Vis beskeder for sager på din favoritliste
@@ -84,24 +86,38 @@ Dette er meddelelsesmulighederne:
 * Systembeskeder for e-mails
 * Systembeskeder for chats
 
-## <a id="enable-browser"></a>Ændres browserindstillingerne for notifikationer
+### Præferencer for ejerskabsbeskeder
 
-**Chrome:** Klik på hængelåsen foran URL'en og aktiver **Notifikationer**-vippen.
+* Vis beskeder for tildelte firma og personer
+
+## <a id="enable-browser"></a>Slik ændres browserindstillingerne for notifikationer
+
+### [Chrome](#tab/chrome)
+
+Klik på hængelåsen foran URL'en og aktiver **Notifikationer**-vippen.
 
 ![Fjern blokeringen af systemnotifikationer i Chrome -screenshot][img11]
 
-**Edge:** Klik på hængelåsen foran URL'en og vælg **Tillad** fra **Notifikationer**-rullemenuen.
+### [Edge](#tab/edge)
+
+Klik på hængelåsen foran URL'en og vælg **Tillad** fra **Notifikationer**-rullemenuen.
 
 ![Fjern blokeringen af systemnotifikationer i Edge -screenshot][img12]
 
-**Firefox:** Klik på hængelåsen foran URL'en og fjern den blokerede tilladelse.
+### [Firefox](#tab/firefox)
+
+Klik på hængelåsen foran URL'en og fjern den blokerede tilladelse.
 
 ![Fjern blokeringen af systemnotifikationer i Firefox -screenshot][img13]
 
-**Safari:** Åbn **Indstillinger**-menuen, gå til fanen **Websites** og juster tilladelserne.
+### [Safari](#tab/safari)
+
+Åbn **Indstillinger**-menuen, gå til fanen **Websites** og juster tilladelserne.
 
 ![Fjern blokeringen af systemnotifikationer i Safari -screenshot][img14]
 ![Fjern blokeringen af systemnotifikationer i Safari -screenshot][img15]
+
+***
 
 <!-- Referenced links -->
 

@@ -4,12 +4,14 @@ title: Aviseringar
 description: Aviseringar om inbjudningar, meddelanden och ärenden
 keywords: avisering, förfrågning, ärendehantering, meddelande
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 08.25.2025
+version: 11.3
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Aviseringar <i class="ph ph-bell" aria-label="Bell icon"></i>
@@ -84,24 +86,38 @@ Det här är aviseringsalternativen:
 * Systemmeddelanden för e-post
 * Systemmeddelanden för chatt
 
-## <a id="enable-browser"></a>Hvordan endre nettleserinnstillingene for varsler
+### Inställningar för ägarskapsaviseringar
 
-**Chrome:** Klicka på hänglåssymbolen framför URL:en och aktivera **Aviseringar**-omkopplaren.
+* Visa aviseringar för tilldelade företag och kontakter
+
+## <a id="enable-browser"></a>Så här ändrar du webbläsarinställningarna för aviseringar
+
+### [Chrome](#tab/chrome)
+
+Klicka på hänglåssymbolen framför URL:en och aktivera **Aviseringar**-omkopplaren.
 
 ![Unblock system notifications in Chrome -screenshot][img11]
 
-**Edge:** Klicka på hänglåssymbolen framför URL:en och välj **Tillåt** från **Aviseringar**-rullgardinsmenyn.
+### [Edge](#tab/edge)
+
+Klicka på hänglåssymbolen framför URL:en och välj **Tillåt** från **Aviseringar**-rullgardinsmenyn.
 
 ![Unblock system notifications in Edge -screenshot][img12]
 
-**Firefox:** Klicka på hänglåssymbolen framför URL:en och ta bort den blockerade behörigheten.
+### [Firefox](#tab/firefox)
+
+Klicka på hänglåssymbolen framför URL:en och ta bort den blockerade behörigheten.
 
 ![Unblock system notifications in Firefox -screenshot][img13]
 
-**Safari:** Öppna **Inställningar**-menyn, gå till fliken **Webbplatser** och justera behörigheterna.
+### [Safari](#tab/safari)
+
+Öppna **Inställningar**-menyn, gå till fliken **Webbplatser** och justera behörigheterna.
 
 ![Unblock system notifications in Safari -screenshot][img14]
 ![Unblock system notifications in Safari -screenshot][img15]
+
+***
 
 <!-- Referenced links -->
 

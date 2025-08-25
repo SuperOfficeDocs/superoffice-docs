@@ -4,12 +4,14 @@ title: Notifications
 description: Notifications of invitations, messages, and request
 keywords: notification, invitation, request, message
 author: Hanne Gunnarsson, Bergfrid Dias
-date: 01.20.2025
-version: 10.5
+date: 08.25.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Notifications <i class="ph ph-bell" aria-label="Bell icon"></i>
@@ -88,24 +90,38 @@ These are the notification options:
 * System notifications for emails
 * System notifications for chats
 
+### Ownership notification preferences
+
+* Show notifications for assigned companies and contacts
+
 ## <a id="enable-browser"></a>How to change browser settings for notifications
 
-**Chrome:** Click the padlock icon in front of the URL and turn on the **Notifications** toggle.
+### [Chrome](#tab/chrome)
+
+Click the padlock icon in front of the URL and turn on the **Notifications** toggle.
 
 ![Unblock system notifications in Chrome -screenshot][img11]
 
-**Edge:** Click the padlock icon in front of the URL, and choose **Allow** from the **Notifications** drop-down.
+### [Edge](#tab/edge)
+
+Click the padlock icon in front of the URL, and choose **Allow** from the **Notifications** drop-down.
 
 ![Unblock system notifications in Edge -screenshot][img12]
 
-**Firefox:** Click the padlock icon in address bar and remove the blocked permission.
+### [Firefox](#tab/firefox)
+
+Click the padlock icon in address bar and remove the blocked permission.
 
 ![Unblock system notifications in Firefox -screenshot][img13]
 
-**Safari:** Open the **Settings** menu, go to the **Websites** tab, and adjust the permissions.
+### [Safari](#tab/safari)
+
+Open the **Settings** menu, go to the **Websites** tab, and adjust the permissions.
 
 ![Unblock system notifications in Safari -screenshot][img14]
 ![Unblock system notifications in Safari -screenshot][img15]
+
+***
 
 <!-- Referenced links -->
 
