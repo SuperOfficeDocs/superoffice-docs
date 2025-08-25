@@ -48,7 +48,7 @@ To get access to additional SuperOffice API endpoints or HTTP RPC Agents, you ne
 
 1. Click **Save Settings**.
 
-1. When done, [request to publish the configuration][2].
+[!include[When to publish](../includes/ready-to-publish.md)]
 
 <!-- Referenced links -->
 [1]: ../index.md#default-config

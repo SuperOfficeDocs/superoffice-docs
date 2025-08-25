@@ -32,7 +32,8 @@ deployment: online
 
 5. Click **Save Settings**.
 
-6. Request to publish the new configuration.
+[!include[When to publish](../includes/ready-to-publish.md)]
+
 <!-- markdownlint-restore -->
 
 ## Read more
