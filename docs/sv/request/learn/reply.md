@@ -4,13 +4,14 @@ title: Svara kontakt
 description: I den här guiden får du lära dig hur du svarar på alla inkommande ärenden i SuperOffice.
 keywords: ärende, svara på ärende, svara, svara alla, lägga till meddelande, lägga till kommentar, kommentar, internt, externt, ärende,
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+index: true
 redirect_from: 
   - /sv/request/learn/howto/reply
   - /sv/faq/learn/add-to-request
@@ -51,23 +52,47 @@ När du öppnar ett ärende och väljer **Svara**, visas automatiskt den [e-post
 Du kan spara tid genom att använda [svarsmallar][8] som utgångspunkt för ditt svar.
 
 1. Placera markören i meddelandefältet där du vill infoga svarsmallen.
-1. Klicka på <i class="ph ph-article" aria-label="Insert"></i> och välj **Svarsmall**.
+1. I **Egenskaper**-panelen, klicka på <i class="ph ph-article" aria-label="Insert"></i> och välj **Svarsmall**.
 1. Välj en mall från listan. Håll markören över en mall för att förhandsgranska den innan du infogar den.
 1. Redigera texten vid behov och bifoga filer om det behövs.
 
+![Infoga mall när du svarar på ett ärende -screenshot][img1]
+
 ## <a id="faq"></a>Lägga till FAQ-poster i meddelanden
 
-När du svarar på en förfrågan från en kund kan du spara tid genom att lägga in en länk till en FAQ-post i svaret.
+När du svarar på en förfrågan från en kund kan du spara tid genom att lägga in en länk till en [FAQ-post][9] i svaret.
 
 1. Gå till fliken **Meddelande** på det sätt som beskrivs under [Svara kund][1].
 1. Placera muspekaren på den plats i meddelandet där du vill lägga in länken.
-1. Klicka på ![ikon][img5] knappen **Lägg till text** och välj det du vill infoga i meddelandet.
+1. I **Egenskaper**-panelen, klicka på <i class="ph ph-article" aria-label="Insert"></i> och välj det du vill infoga i meddelandet.
 
    > [!TIP]
    > I popup-fönstret **Lägg till text** kan du förhandsgranska FAQ-artiklarna genom att flytta markören över de olika posterna.
 
 1. Klicka på önskad FAQ-post.
 1. En **länk** infogas vid markörens position. Kunden kan klicka på länken för att visa den aktuella FAQ-posten i kundcentret.
+
+## <a id="insert-earlier-msg"></a>Infoga tidigare meddelande
+
+Du kan infoga ett tidigare meddelande i ditt nuvarande svar.
+
+1. Öppna ärendet och placera markören där du vill infoga meddelandeinnehållet.
+
+1. I **Egenskaper**-panelen på höger sida, klicka på <i class="ph ph-chats-circle" aria-label="Meddelanden"></i>.
+
+1. Välj ett meddelande från listan.
+
+    ![Meddelandelista i Egenskaper-panelen med ett valt meddelande redo att infogas -screenshot][img5]
+
+1. Klicka på **Infoga** för att infoga meddelandet inklusive bilagor.
+
+    * Alternativt, klicka på **pilen** bredvid **Infoga** för att välja något av följande:
+        * **Infoga med bilagor:** Infogar meddelandeinnehållet och eventuella bifogade filer.
+        * **Infoga utan bilagor:** Infogar endast meddelandeinnehållet.
+
+    ![Knappen Infoga med alternativ: Infoga med bilagor och Infoga utan bilagor -screenshot][img6]
+
+1. Redigera texten efter behov.
 
 ## Lägga till ett meddelande till flera ärenden
 
@@ -130,9 +155,12 @@ Den registrerade tiden visas i varje meddelandehuvud, och svarstiden finns tillg
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
-[img5]: ../../../../common/icons/copy-paste-icon.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png

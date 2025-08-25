@@ -4,13 +4,14 @@ title: Svar til person
 description: I denne veiledningen lærer du hvordan du svarer på alle innkommende saker i SuperOffice.
 keywords: svare på sak, svare, svar til alle, legge til melding, legge til kommentar, kommentar, intern, ekstern, sak
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
+index: true
 redirect_from:
   - /no/request/learn/howto/reply
   - /no/faq/learn/add-to-request
@@ -51,23 +52,47 @@ Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har kon
 Du kan spare tid ved å bruke [svarmaler][8] som et utgangspunkt for svaret ditt.
 
 1. Plasser markøren der du vil sette inn malen i meldingsfeltet.
-1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> og velg **Svarmal**.
+1. I panelet **Egenskaper**, klikk <i class="ph ph-article" aria-label="Insert"></i> og velg **Svarmal**.
 1. Velg en mal fra listen. Hold markøren over den for å forhåndsvise før du setter den inn.
 1. Rediger teksten etter behov og legg til vedlegg om nødvendig.
 
+![Sett inn mal når du svarer på en sak -screenshot][img1]
+
 ## <a id="faq"></a>Legg til FAQ-oppføringer
 
-Når du svarer på en kundehenvendelse, kan du spare tid ved å sette inn en kobling til en FAQ-oppføring i svaret ditt.
+Når du svarer på en kundehenvendelse, kan du spare tid ved å sette inn en kobling til en [FAQ-oppføring][9] i svaret ditt.
 
 1. Gå til fanen **Melding**.
 1. Plasser musepekeren på det stedet i meldingen der du vil sette inn koblingen.
-1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> og velg hva du vil sette inn i meldingen.
+1. I panelet **Egenskaper**, klikk <i class="ph ph-article" aria-label="Insert"></i> og velg hva du vil sette inn i meldingen.
 
    > [!TIP]
    > I popup-vinduet **Legg til tekst** kan du forhåndsvise noen av FAQ-elementene ved å flytte markøren over de forskjellige oppføringene.
 
 1. Klikk på ønsket FAQ-oppføring.
 1. En **kobling** settes inn ved markørposisjonen. Kunden kan klikke på den for å vise den relevante FAQ-oppføringen i kundesenteret.
+
+## <a id="insert-earlier-msg"></a>Sett inn tidligere melding
+
+Du kan sette inn en tidligere melding i det gjeldende svaret ditt.
+
+1. Åpne saken og plasser markøren der du vil sette inn meldingsinnholdet.
+
+1. I panelet **Egenskaper** på høyre side, klikk <i class="ph ph-chats-circle" aria-label="Messages"></i>.
+
+1. Velg en melding fra listen.
+
+    ![Meldingsliste i Egenskaper-panelet med en valgt melding klar til å bli satt inn -screenshot][img5]
+
+1. Klikk **Sett inn** for å sette inn meldingen inkludert vedlegg.
+
+    * Alternativt kan du klikke på **pilen** ved siden av **Sett inn** for å velge ett av følgende:
+        * **Sett inn med vedlegg:** Setter inn meldingsinnholdet og eventuelle vedlagte filer.
+        * **Sett inn uten vedlegg:** Setter inn kun meldingsinnholdet.
+
+    ![Sett inn-knapp med alternativer: Sett inn med vedlegg og Sett inn uten vedlegg -screenshot][img6]
+
+1. Rediger teksten etter behov.
 
 ## Svare på flere saker samtidig
 
@@ -93,7 +118,7 @@ Du kan svare på flere saker samtidig, for eksempel hvis flere henvendelser gjel
 Du kan legge til interne notater i en sak uten å sende dem til kunden. Dette kan for eksempel brukes til å dokumentere hva du har gjort eller funnet ut så langt.
 
 1. [Åpne saken][1].
-1. Klikk på <i class="ph ph-chat-text" aria-hidden="Comment"></i> over meldingslisten.
+1. Klikk <i class="ph ph-chat-text" aria-hidden="Comment"></i> over meldingslisten.
 1. Skriv inn kommentaren din i tekstfeltet.
     * Velg **Intern** på verktøylinjen for å sikre at kommentaren kun er synlig for kollegaer.
 1. Klikk på **Lagre**.
@@ -130,8 +155,12 @@ Tidsbruken vises i meldingsoverskriften, og svartiden er tilgjengelig i fanen **
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Refererte bilder -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png

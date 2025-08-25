@@ -2,15 +2,16 @@
 uid: help-nl-request-create
 title: Een verzoek maken
 description: Een verzoek maken
-keywords: verzoek aanmaken, verzoek toevoegen, nieuw verzoek, verzoek eigenschappen, verzoekdetails, bericht, ticket
+keywords: verzoek aanmaken, verzoek toevoegen, nieuw verzoek, verzoek eigenschappen, verzoekdetails, bericht
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
+index: true
 redirect_from: /nl/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ De berichteditor werkt als een tekstverwerker en biedt verschillende tools voor 
 |:-:|---|---|
 | <i class="ph ph-text-a-underline" aria-label="Werkbalk tonen/verbergen"></i> | Werkbalk | Tekstopmaakopties weergeven of verbergen. |
 | <i class="ph ph-paperclip" aria-label="Bijlagen"></i> | Bijlagen | Voeg bestanden of CRM-documenten toe aan het bericht. |
-| <i class="ph ph-article" aria-label="Invoegen"></i> | Invoegen | [Voeg een antwoordsjabloon][2], FAQ-item, vorig bericht of bijlage in. |
 
 #### Bijlagen
 
@@ -96,12 +96,10 @@ Om bestanden of CRM-documenten toe te voegen:
 
 Om uw bericht te verrijken met extra inhoud:
 
-1. Klik op <i class="ph ph-article" aria-label="Invoegen"></i>.
+1. In het rechterpaneel **Eigenschappen** klik op <i class="ph ph-article" aria-label="Invoegen"></i>.
 1. Kies wat u wilt toevoegen:
     * **Antwoordsjabloon:** Voeg vooraf geschreven tekst in.
     * **FAQ-item:** Voeg een kennisbankartikel toe.
-    * **Vorig bericht:** Hergebruik tekst uit eerdere communicatie.
-    * **Bijlage:** Voeg direct een bestand toe.
 1. Als antwoordsjablonen in meerdere talen beschikbaar zijn, kunt u een taal selecteren.
 
 #### Tijdregistratie
@@ -131,6 +129,9 @@ Het **Eigenschappenvenster** stelt u in staat het verzoek te categoriseren en to
 * **Toegangsniveau:** Stel in als **Extern** (zichtbaar voor de contactpersoon) of **Intern** (verborgen voor de contactpersoon).
 * **Labels:** [Voeg relevante labels toe][4] om het verzoek later gemakkelijker te organiseren en terug te vinden.
 
+> [!TIP]
+> Als het paneel geen eigenschappen toont zoals in de voorgaande schermafbeelding, klik dan op <i class="ph ph-list-bullets" aria-hidden="true"></i> om de weergave te wijzigen.
+
 ***
 
 ## Automatisch opslaan
@@ -147,8 +148,6 @@ De functie Automatisch opslaan is standaard geactiveerd wanneer u verzoeken beki
 * Automatisch opgeslagen gegevens worden niet van de ene computer naar de andere overgedragen. Dit betekent dat u niet kunt beginnen met het beantwoorden van een verzoek op het werk en thuis verder kunt gaan.
 * Automatisch opgeslagen gegevens worden niet gedeeld tussen twee verschillende browsers.
 * De functie Automatisch opslaan is een handige functie, maar is geen vervanging van een normale, correcte opslag van uw werk.
-
-Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. Deze verschillen per bedrijf.
 
 ## Gerelateerde inhoud
 

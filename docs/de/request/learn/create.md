@@ -2,15 +2,16 @@
 uid: help-de-request-create
 title: Anfrage erstellen
 description: Anfrage erstellen
-keywords: Anfrage erstellen, neue Anfrage, Anfrage hinzufügen, Anfrageneigenschaften, Nachricht, Ticket
+keywords: Anfrage erstellen, neue Anfrage, Anfrage hinzufügen, Anfrageneigenschaften, Nachricht
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
+index: true
 redirect_from: /de/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ Der Nachrichteneditor bietet ähnliche Funktionen wie ein Textverarbeitungsprogr
 |:-:|---|---|
 | <i class="ph ph-text-a-underline" aria-label="Werkzeugleiste anzeigen/ausblenden"></i> | Werkzeugleiste | Formatierungsoptionen ein- oder ausblenden. |
 | <i class="ph ph-paperclip" aria-label="Anhänge"></i> | Anhänge | Dateien oder CRM-Dokumente zur Nachricht hinzufügen. |
-| <i class="ph ph-article" aria-label="Einfügen"></i> | Einfügen | [Antwortvorlage][2], FAQ-Eintrag, frühere Nachricht oder Anhang einfügen. |
 
 #### Anhänge
 
@@ -96,12 +96,10 @@ Dateien oder CRM-Dokumente anhängen:
 
 Zusätzlichen Inhalt in die Nachricht aufnehmen:
 
-1. Klicken Sie auf <i class="ph ph-article" aria-label="Einfügen"></i>.
+1. Im Eigenschaften-Panel, klicken Sie auf <i class="ph ph-article" aria-label="Einfügen"></i>.
 1. Wählen Sie aus:
     * **Antwortvorlage**: Vorgefertigten Text einfügen.
     * **FAQ-Eintrag**: Einen Wissensdatenbankartikel hinzufügen.
-    * **Frühere Nachricht**: Text aus vorheriger Kommunikation übernehmen.
-    * **Anhang**: Direkt eine Datei anhängen.
 1. Falls Antwortvorlagen in mehreren Sprachen verfügbar sind, kann die gewünschte Sprache ausgewählt werden.
 
 #### Aufgewendete Zeit
@@ -130,6 +128,9 @@ Hier werden Kategorie, Priorität und weitere Attribute der Anfrage festgelegt.
 * **Priorität:** **Niedrig**, **Mittel** oder **Hoch** zuweisen oder vom System bestimmen lassen.
 * **Zugriffsebene:** **Extern** (sichtbar für den Kontakt) oder **Intern** (nicht sichtbar).
 * **Tags:** [Relevante Tags][4] hinzufügen, um die Organisation und Suche zu erleichtern.
+
+> [!TIP]
+> Wenn das Panel nicht wie im vorherigen Screenshot die Eigenschaften anzeigt, klicken Sie auf <i class="ph ph-list-bullets" aria-hidden="true"></i>, um die Ansicht zu wechseln.
 
 ***
 

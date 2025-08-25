@@ -4,13 +4,14 @@ title: Opret en sag
 description: Lær, hvordan du opretter en ny sag i SuperOffice.
 keywords: opret sag, ny sag, sagsdetaljer, sagsegenskaber, meddelelse, sagsbehandling
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
+index: true
 redirect_from: /da/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ Meddelelseseditoren fungerer som en tekstbehandler, så du kan skrive, formatere
 |:-:|---|---|
 | <i class="ph ph-text-a-underline" aria-label="Vis/skjul værktøjslinje"></i> | Værktøjslinje | Vis eller skjul formateringsmuligheder. |
 | <i class="ph ph-paperclip" aria-label="Vedhæft"></i> | Vedhæftninger | Tilføj filer eller CRM-dokumenter til sagen. |
-| <i class="ph ph-article" aria-label="Indsæt"></i> | Indsæt | [Indsæt en svarskabelon][2], FAQ-indlæg, tidligere meddelelse eller vedhæftet fil. |
 
 #### Vedhæftninger
 
@@ -96,12 +96,10 @@ For at vedhæfte filer eller CRM-dokumenter:
 
 For at tilføje ekstra indhold til meddelelsen:
 
-1. Klik på <i class="ph ph-article" aria-label="Indsæt"></i>.
+1. I **Egenskaber**-panelet klik på <i class="ph ph-article" aria-label="Indsæt"></i>.
 1. Vælg, hvad der skal tilføjes:
     * **Svarskabelon:** Indsæt en foruddefineret tekst.
     * **FAQ-post:** Tilføj et relevant vidensbase-indlæg.
-    * **Tidligere meddelelse:** Genbrug tekst fra en tidligere sag.
-    * **Vedhæftning:** Vedhæft en fil direkte.
 1. Hvis svarskabeloner findes på flere sprog, kan du vælge et sprog.
 
 #### Registrering af tid
@@ -130,6 +128,9 @@ Panelet **Egenskaber** giver dig mulighed for at kategorisere og tildele sagen.
 * **Prioritet:** Indstil til **Lav**, **Middel** eller **Høj**, eller lad systemet bestemme (f.eks. baseret på [eskaleringsniveauer][9]).
 * **Adgangsniveau:** Indstil til **Ekstern** (synlig for personen) eller **Intern** (skjult for personen).
 * **Tags:** [Tilføj relevante tags][4] for nem organisering og søgning senere.
+
+> [!TIP]
+> Hvis panelet ikke viser egenskaber som i forrige skærmbillede, klik på <i class="ph ph-list-bullets" aria-hidden="true"></i> for at skifte visning.
 
 ***
 

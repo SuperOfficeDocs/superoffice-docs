@@ -4,13 +4,14 @@ title: Skapa ett ärende
 description: Skapa ett ärende
 keywords: skapa ärende, nytt ärende, ärende
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
+index: true
 redirect_from: /sv/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ Meddelanderedigeraren fungerar som en ordbehandlare och låter dig skriva, forma
 |:-:|---|---|
 | <i class="ph ph-text-a-underline" aria-label="Visa/dölj verktygsfält"></i> | Verktygsfält | Visa eller dölj textformateringsalternativ. |
 | <i class="ph ph-paperclip" aria-label="Bilagor"></i> | Bilagor | Lägg till filer eller CRM-dokument i meddelandet. |
-| <i class="ph ph-article" aria-label="Infoga"></i> | Infoga | [Lägg till en svarsmall][2], FAQ-post, tidigare meddelande eller bilaga. |
 
 #### Bilagor
 
@@ -96,12 +96,10 @@ Så här bifogar du filer eller CRM-dokument:
 
 Så här lägger du till extra innehåll i ditt meddelande:
 
-1. Klicka på <i class="ph ph-article" aria-label="Infoga"></i>.
+1. I **Egenskaper**-panelen, klicka på <i class="ph ph-article" aria-label="Infoga"></i>.
 1. Välj vad du vill infoga:
     * **Svarsmall**: Infoga en förskriven textmall.
     * **FAQ-post**: Lägg till en artikel från kunskapsbasen.
-    * **Tidigare meddelande**: Återanvänd text från en tidigare konversation.
-    * **Bilaga**: Lägg till en fil direkt i meddelandet.
 1. Om svarsmallar finns på flera språk kan du välja språk.
 
 #### Förbrukad tid
@@ -130,6 +128,9 @@ Panelen **Egenskaper** gör det möjligt att kategorisera och tilldela ärendet.
 * **Prioritet**: Ange **Låg**, **Medel** eller **Hög**, eller låt systemet bestämma det (exempelvis baserat på [eskaleringsnivåer][9]).
 * **Åtkomstnivå**: Ange **Externt** (synligt för kontakten) eller **Internt** (dolt för kontakten).
 * **Taggar**: [Lägg till relevanta taggar][4] för att organisera och söka efter ärendet senare.
+
+> [!TIP]
+> Om panelen inte visar egenskaper som i föregående skärmbild, klicka på <i class="ph ph-list-bullets" aria-hidden="true"></i> för att växla vy.
 
 ***
 

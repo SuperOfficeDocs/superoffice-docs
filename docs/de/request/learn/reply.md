@@ -4,13 +4,14 @@ title: Einer Person antworten
 description: In dieser Anleitung lernen Sie, wie Sie alle eingehenden Anfragen in SuperOffice beantworten können.
 keywords: Anfrage, Antwortvorlage, Antwort, Antworten, Kommentar, intern, extern
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
+index: true
 redirect_from:
   - /de/request/learn/howto/reply
   - /de/faq/learn/add-to-request
@@ -52,25 +53,49 @@ Sie können [Antwortvorlagen][8] verwenden, um Zeit zu sparen und Ihre Antwort z
 
 1. Platzieren Sie den Cursor an der Stelle in der Mitteilung, an der die Vorlage eingefügt werden soll.
 
-1. Klicken Sie auf <i class="ph ph-file-text" aria-label="Einfügen"></i> und wählen Sie **Antwortvorlage**.
+1. Im **Eigenschaften**-Panel auf der rechten Seite, klicken Sie auf <i class="ph ph-file-text" aria-label="Einfügen"></i> und wählen Sie **Antwortvorlage**.
 
 1. Wählen Sie eine Vorlage aus der Liste aus. Fahren Sie mit der Maus darüber, um eine Vorschau anzuzeigen.
 
 1. Bearbeiten Sie den Text nach Bedarf und fügen Sie Dateien an, falls erforderlich.
 
+![Insert template when replying to a request -screenshot][img1]
+
 ## <a id="faq"></a>Hinzufügen von FAQ-Einträgen
 
-Wenn Sie auf eine Anfrage eines Kunden antworten, können Sie Zeit sparen, indem Sie einen Link zu einem FAQ-Eintrag in Ihre Antwort einfügen.
+Wenn Sie auf eine Anfrage eines Kunden antworten, können Sie Zeit sparen, indem Sie einen Link zu einem [FAQ-Eintrag][9] in Ihre Antwort einfügen.
 
 1. Rufen Sie die Registerkarte **Nachricht** auf.
 1. Positionieren Sie den Mauszeiger an der Stelle in der Nachricht, an der Sie den Link einfügen möchten.
-1. Klicken Sie auf <i class="ph ph-file-text" aria-label="Einfügen"></i> und wählen Sie aus, was in der Mitteilung eingefügt werden soll.
+1. Im **Eigenschaften**-Panel auf der rechten Seite, klicken Sie auf <i class="ph ph-file-text" aria-label="Einfügen"></i> und wählen Sie aus, was in der Mitteilung eingefügt werden soll.
 
    > [!TIP]
    > Im Popup-Fenster **Text hinzufügen** können Sie eine Vorschau der FAQ-Elemente anzeigen, indem Sie den Mauszeiger über die verschiedenen Einträge verschieben.
 
 1. Klicken Sie auf den gewünschten FAQ-Eintrag.
 1. An der Cursorposition wird ein **Link** eingefügt. Der Kunde kann diesen Link anklicken, um den entsprechenden FAQ-Eintrag im Kundenzentrum anzuzeigen.
+
+## <a id="insert-earlier-msg"></a>Frühere Nachricht einfügen
+
+Sie können eine frühere Nachricht in Ihre aktuelle Antwort einfügen.
+
+1. Öffnen Sie die Anfrage und positionieren Sie den Cursor an der Stelle, an der Sie den Nachrichteninhalt einfügen möchten.
+
+1. Klicken Sie im **Eigenschaften**-Panel auf der rechten Seite auf <i class="ph ph-chats-circle" aria-label="Nachrichten"></i>.
+
+1. Wählen Sie eine Nachricht aus der Liste aus.
+
+    ![Nachrichtenliste im Eigenschaften-Panel mit einer ausgewählten Nachricht, die eingefügt werden soll -screenshot][img5]
+
+1. Klicken Sie auf **Einfügen**, um die Nachricht einschließlich Anhängen einzufügen.
+
+    * Alternativ klicken Sie auf den **Pfeil** neben **Einfügen**, um eine der folgenden Optionen zu wählen:
+        * **Mit Anhängen einfügen:** Fügt den Nachrichteninhalt und alle angehängten Dateien ein.
+        * **Ohne Anhänge einfügen:** Fügt nur den Nachrichteninhalt ein.
+
+    ![Schaltfläche "Einfügen" mit Optionen: Mit Anhängen einfügen und Ohne Anhänge einfügen -screenshot][img6]
+
+1. Bearbeiten Sie den Text nach Bedarf.
 
 ## Eine Mitteilung zu mehreren Anfragen hinzufügen
 
@@ -136,8 +161,12 @@ Der erfasste Zeitaufwand wird in jeder Mitteilung angezeigt, und die Bearbeitung
 [5]: ../../knowledge-base/learn/reply-templates/new-language.md
 [7]: ../../learn/getting-started/edit-email-signature.md
 [8]: ../../knowledge-base/learn/reply-templates/index.md
+[9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/request/insert-reply-template.png
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
+[img5]: ../../../media/loc/en/request/insert-earlier-message.png
+[img6]: ../../../media/loc/en/request/insert-message-with-attachments.png

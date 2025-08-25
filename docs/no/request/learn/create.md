@@ -4,13 +4,14 @@ title: Opprette en sak
 description: Opprette en sak
 keywords: opprett sak, legg til sak, ny sak, saksdetaljer, melding, sak
 author: Bergfrid Dias
-date: 03.11.2025
-version: 10.5.3
+date: 07.01.2025
+version: 11.2
 content_type: howto
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
+index: true
 redirect_from: /no/request/learn/howto/create
 ---
 
@@ -80,7 +81,6 @@ Meldingseditoren fungerer som et tekstbehandlingsprogram og gir mulighet for for
 |:-:|---|---|
 | <i class="ph ph-text-a-underline"></i> | Verktøylinje | Vis/skjul tekstformateringsalternativer. |
 | <i class="ph ph-paperclip"></i> | Vedlegg | Legg til filer eller CRM-dokumenter i meldingen. |
-| <i class="ph ph-article"></i> | Sett inn | [Sett inn en svarmal][2], FAQ-oppføring, tidligere melding eller vedlegg. |
 
 #### Vedlegg
 
@@ -96,12 +96,10 @@ For å legge til filer eller CRM-dokumenter:
 
 For å legge til ekstra innhold i meldingen:
 
-1. Klikk <i class="ph ph-article" aria-label="Insert"></i>.
+1. I panelet **Egenskaper**, klikk <i class="ph ph-article" aria-label="Insert"></i>.
 1. Velg hva du vil sette inn:
     * **Svarmal:** Sett inn forhåndsskrevet tekst.
     * **FAQ-oppføring:** Legg til en kunnskapsbase-artikkel.
-    * **Tidligere melding:** Gjenbruk tekst fra tidligere kommunikasjon.
-    * **Vedlegg:** Legg ved en fil direkte.
 1. Hvis svarmaler er tilgjengelige på flere språk, kan du velge språk.
 
 #### Medgått tid
@@ -130,6 +128,9 @@ Fanen **Detaljer** inneholder tilleggsinformasjon om saken. Her finner du inform
 * **Prioritet:** Angi **Lav**, **Medium** eller **Høy**, eller la systemet bestemme (f.eks. basert på [eskaleringsnivåer][9]).
 * **Tilgangsnivå:** Sett som **Ekstern** (synlig for kunden via SuperOffice Kundesenter) eller **Intern** (skjult for kunden).
 * **Emneknagger:** [Legg til relevante emneknagger][4] for enklere organisering.
+
+> [!TIP]
+> Hvis panelet ikke viser egenskaper som i forrige skjermbilde, klikk <i class="ph ph-list-bullets" aria-hidden="true"></i> for å bytte visning.
 
 ***
 
