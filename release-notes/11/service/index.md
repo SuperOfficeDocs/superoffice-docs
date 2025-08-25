@@ -3,7 +3,7 @@ uid: news-service-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Service 11
 author: SuperOffice AS – Product and engineering
-date: 06.17.2025
+date: 09.01.2025
 version: 11
 content_type: release-note
 category: service

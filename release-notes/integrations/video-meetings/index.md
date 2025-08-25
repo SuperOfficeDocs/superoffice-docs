@@ -4,7 +4,7 @@ title: What's new in SuperOffice Video meetings integration
 description: Release notes. What's new in the SuperOffice Video meetings integration
 keywords: video meetings, follow-ups, direct link
 author: SuperOffice AS – Product and Engineering
-date: 08.25.2025
+date: 09.01.2025
 version: 3.2
 content_type: release-note
 category: document

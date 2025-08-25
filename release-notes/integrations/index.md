@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice integrations
 keywords: integration, app, video meetings, sofo, SuperOffice for Outlook
 author: SuperOffice AS – Product and Engineering
-date: 08.25.2025
+date: 09.01.2025
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 11
 description: Release notes. What's new in SuperOffice Core CRM 10.5
 keywords: board view sales, board view project, preview, notification, empty our contact
 author: SuperOffice AS – Product and Engineering
-date: 08.25.2025
+date: 09.01.2025
 version: 11
 content_type: release-note
 category: core-crm
