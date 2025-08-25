@@ -1,6 +1,11 @@
 items:
 - name: Release overview
   href: index.md
+- name: Video Meetings
+  href: video-meetings/index.md
+  items:
+  - name: 2.9 update
+    href: video-meetings/2.9-update.md
 - name: SuperOffice for Outlook
   href: sofo/index.md
   items:
