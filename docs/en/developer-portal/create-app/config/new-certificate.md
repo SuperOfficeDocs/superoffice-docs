@@ -42,7 +42,9 @@ The Developer Portal stores your public key. However, you must store the private
 
 6. Click **Save Settings**.
 
-7. Request to publish the new configuration.
+[!include[When to publish](../includes/ready-to-publish.md)]
+
+
 <!-- markdownlint-restore -->
 
 ## Read more
@@ -50,10 +52,14 @@ The Developer Portal stores your public key. However, you must store the private
 * [Application environments][3]
 * [SuperID certificates][1]
 
+
+
+
 <!-- Referenced links -->
 [3]: ../../getting-started/app-envir.md
 [1]: ../../../api/authentication/online/certificates/index.md
 [2]: ../../../api//authentication/online/auth-application/sign-system-user-token.md
+[3]: ../request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/secrets-and-certificates.png
