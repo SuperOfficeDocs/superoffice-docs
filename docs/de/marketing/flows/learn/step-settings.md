@@ -2,14 +2,17 @@
 uid: help-de-flow-step-settings
 title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
-keywords: Marketing, Flow, Schritt, Feld, Option
+keywords: Schritt, Schrittoption, Schrittfeld
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
-content_type: howto
-language: de
+date: 09.01.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Schrittoptionen
@@ -59,6 +62,14 @@ audience_tooltip: SuperOffice Marketing
 | Projekt | Das mit dem Verkauf verknüpfte Projekt. |
 | Datum | Das geschätzte Verkaufsdatum. Optionen sind "Geschätzt nach Verkaufstyp" oder "Nach x Tagen/Arbeitstagen/Wochen". |
 | Eigerntümer | Die Person, die für den Verkauf verantwortlich ist. Der "unser Kontakt" des Teilnehmers oder "unser Servicemitarbeiter" oder ein bestimmter benannter Mitarbeiter. |
+
+## An den Besitzer verteilen
+
+| Einstellung | Beschreibung |
+|---|---|
+| Neuen Besitzer nur anwenden, wenn der Kontakt derzeit nicht zugewiesen ist | Stellt sicher, dass der Besitzer nur gesetzt wird, wenn noch keiner vorhanden ist. |
+| Kontakte verteilen an | Wählen Sie einen oder mehrere Mitarbeiter oder eine primäre Gruppe. Kontakte werden gleichmäßig unter den ausgewählten Mitarbeitern oder Gruppenmitgliedern verteilt. |
+| Wenn niemand verfügbar ist, Kontakte zuweisen an | Fallback-Option. Wählen Sie einen Standardbesitzer, wenn alle ausgewählten Mitarbeiter/Gruppenmitglieder nicht verfügbar sind. |
 
 ## Flow schließen
 

@@ -2,11 +2,14 @@
 uid: help-en-flow-actions
 title: Define flow actions
 description: Define flow actions
-keywords: flow, automation, flow action, run script
+keywords: flow, automation, flow action, run script, distribute to owner
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
@@ -108,6 +111,17 @@ Keep an overview of those who signed up, or was engaged, or to keep track and fo
 Contact is removed as member from the specified selection and/or project.
 
 This step is similar to **Add to selection and/or project**.
+
+### Distribute to owner
+
+Distribute contacts evenly to selected associates or members of a specified primary group. Useful for sharing inbound leads or new contacts across a team.
+
+1. Drag the **Distribute to owner** box from the step menu and drop it into an available slot in the flowchart.
+1. Select one or more associates, or a group, to assign contacts.
+1. Optionally, uncheck **Only apply new owner if the contact is currently unassigned** to overwrite any existing contact owner.
+1. Optionally, set a fallback associate in **If no one is available, assign contacts to**.
+
+The new owner will [receive a notification][10] for each assigned contact.
 
 ## <a id="create"></a>Create activity
 
@@ -212,6 +226,7 @@ A [link action][7] might:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md

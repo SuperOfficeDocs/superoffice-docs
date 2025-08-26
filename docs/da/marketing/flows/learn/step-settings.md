@@ -2,11 +2,14 @@
 uid: help-da-flow-step-settings
 title: Trinindstillinger
 description: Gennemgang af indstillingerne for de forskellige flowtrin.
-keywords: Marketing, flow, trin, trinindstilling
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
-content_type: howto
+keywords: trin, trinindstilling, trinfelt
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -59,6 +62,14 @@ language: da
 | Projekt | Et projekt knyttet til salget. |
 | Dato | Den estimerede salgsdato. "Estimeret efter salgstype" eller "Efter x dage/arbejdsdage/uger". |
 | Ejendom | Personen ansvarlig for salget. Deltagerens "vores kontakt" eller "vores servicekontakt" eller en bestemt navngivet medarbejder. |
+
+## Distribuer til ejer
+
+| Indstilling | Beskrivelse |
+|---|---|
+| Anvend kun ny ejer, hvis kontakten i øjeblikket ikke er tildelt | Sørger for, at ejerskab kun tildeles, hvis der ikke allerede er en ejer. |
+| Distribuer kontakter til | Vælg en eller flere medarbejdere eller en primærgruppe. Kontakter fordeles ligeligt mellem de valgte medarbejdere eller gruppemedlemmer. |
+| Hvis ingen er tilgængelige, skal du tildele kontakter til | Fallback-mulighed. Vælg en standardejer, hvis alle valgte medarbejdere/gruppemedlemmer ikke er tilgængelige. |
 
 ## Avslut flow
 

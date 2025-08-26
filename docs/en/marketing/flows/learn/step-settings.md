@@ -2,14 +2,17 @@
 uid: help-en-flow-step-settings
 title: Step settings
 description: Overview of settings for the various flow steps.
-keywords: flow, automation, step, step setting, step field
+keywords: step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 09.01.2025
+version: 11.3
 content_type: reference
-language: en
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Step settings
@@ -59,6 +62,14 @@ audience_tooltip: SuperOffice Marketing
 | Project | A project linked to the sale. |
 | Date | The estimated sale date. "Estimated by sale type" or "After X days/working days/weeks". |
 | Owner | The person responsible for the sale. The participant's "our contact" or "our service contact", or a specific named associate. |
+
+## Distribute to owner
+
+| Setting | Description |
+|---|---|
+| Only apply new owner if the contact is currently unassigned | Ensures that ownership is only set if no owner is currently assigned. |
+| Distribute contacts to | Choose one or more associates or a primary group. Contacts are distributed evenly across selected associates or group members. |
+| If no one is available, assign contacts to | Fallback option. Choose a default owner if all selected associates/group members are unavailable. |
 
 ## Exit flow
 

@@ -4,8 +4,8 @@ title: Opret et nyt flow
 description: Opret et nyt flow
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 09.01.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -2,11 +2,14 @@
 uid: help-nl-flow-step-settings
 title: Stap instellingen
 description: Overzicht van instellingen voor de verschillende flowstappen.
-keywords: Marketing, flow, stap, stap instelling, veld
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
-content_type: howto
+keywords: stap, stap instelling, stapveld
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -59,6 +62,14 @@ language: nl
 | Project | Een project gekoppeld aan de verkoop. |
 | Datum | De geschatte verkoopdatum. "Geschat door verkoop type" of "Na X dagen/werkdagen/weken". |
 | Eigenaar | De persoon die verantwoordelijk is voor de verkoop. De "onze contactpersoon" of "onze servicecontactpersoon" van de deelnemer, of een specifiek genoemde medewerker. |
+
+## Distribueer naar eigenaar
+
+| Instelling | Beschrijving |
+|---|---|
+| Alleen nieuwe eigenaar toepassen als de contactpersoon momenteel niet is toegewezen | Zorgt ervoor dat eigenaarschap alleen wordt toegewezen als er nog geen eigenaar is. |
+| Contactpersonen distribueren naar | Selecteer een of meer medewerkers of een primaire groep. Contactpersonen worden gelijkmatig verdeeld over de geselecteerde medewerkers of groepsleden. |
+| Als er niemand beschikbaar is, wijs dan contactpersonen toe aan | Fallback optie. Kies een standaard eigenaar als alle geselecteerde medewerkers/groepsleden niet beschikbaar zijn. |
 
 ## Flow verlaaten
 

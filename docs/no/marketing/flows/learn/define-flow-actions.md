@@ -2,11 +2,14 @@
 uid: help-no-flow-actions
 title: Definer flythandlinger
 description: Definer flythandlinger
-keywords: flyt, markedsføring, flythandling, kjør skript
+keywords: flyt, automatisering, flythandling, kjør skript, fordel til eier
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
@@ -107,6 +110,17 @@ Hold oversikt over de som meldte seg på, var engasjert, eller for å følge opp
 Personen fjernes som medlem fra det angitte utvalget og/eller prosjektet.
 
 Dette trinnet er likt **Legg til i utvalg/prosjekt**.
+
+## Fordel til eier
+
+Fordel personer jevnt til valgte medarbeidere eller medlemmer av en spesifisert primærgruppe. Nyttig for å dele nye leads eller nye personer mellom et team.
+
+1. Dra **Fordel til eier**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
+1. Velg én eller flere medarbeidere, eller en gruppe, som skal tildeles personer.
+1. Eventuelt, fjern avmerking for **Bruk kun ny eier hvis personen for øyeblikket ikke er tildelt** for å overskrive det eksisterende personeierskapet.
+1. Eventuelt, angi en reserve i **Hvis ingen er tilgjengelige, tildel personer til**.
+
+Den nye eieren vil [motta et varsel][10] for hver tildelte person.
 
 ## <a id="create"></a>Opprett aktivitet
 
@@ -211,6 +225,7 @@ En [koblingshandling][7] kan inkludere:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md
