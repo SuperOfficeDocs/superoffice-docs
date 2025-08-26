@@ -1,7 +1,7 @@
 ---
 uid: news-marketing-11
 title: What's new in SuperOffice Marketing 11
-description: Release notes. What's new in SuperOffice Marketing 10.5
+description: Release notes. What's new in SuperOffice Marketing 11
 keywords: lead management, flow, distribute to owner, contact owner, company owner
 author: SuperOffice AS – Product and Engineering
 date: 09.01.2025
