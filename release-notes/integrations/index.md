@@ -23,7 +23,7 @@ audience_tooltip: SuperOffice CRM
 * SuperOffice Copilot 1.7 (19.03.2025)
 * SuperOffice for Gmail 2.10 (11.03.2024
 * SuperOffice for Outlook 6.1.2 (16.06.2025)
-* Video Meetings 2.9 (25.08.2024)
+* Video Meetings 2.9 (25.08.2025)
 * WebTools for Mac 13.1 (24.03.2025))
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
