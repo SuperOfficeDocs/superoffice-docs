@@ -2,11 +2,14 @@
 uid: help-nl-flow-actions
 title: Definieer flowacties
 description: Definieer flowacties
-keywords: Marketing, flow, flowactie, script uitvoeren
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+keywords: flow, automatisering, flowactie, script uitvoeren, verdeel naar eigenaar
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -114,6 +117,17 @@ Houd overzicht over degenen die zich hebben aangemeld, of betrokken waren, of vo
 Persoon wordt verwijderd als lid uit de gespecificeerde selectie en/of project.
 
 Deze stap is vergelijkbaar met **Toevoegen aan selectie/project**.
+
+### Distribueer naar eigenaar
+
+Verdeel contactpersonen gelijkmatig over geselecteerde medewerkers of groepsleden. Handig voor het automatisch toewijzen van nieuwe leads aan een team.
+
+1. Sleep het blok **Distribueer naar eigenaar** vanuit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
+1. Selecteer één of meer medewerkers of een primaire groep om de contactpersonen aan toe te wijzen.
+1. Optioneel: Deselecteer **Alleen nieuwe eigenaar toepassen als de contactpersoon momenteel niet is toegewezen** om bestaande contacteigenaren te overschrijven.
+1. Optioneel: Stel een standaard eigenaar in bij **Als er niemand beschikbaar is, wijs dan contactpersonen toe aan**.
+
+De nieuwe eigenaar [ontvangt een melding][10] voor elke toegewezen contactpersoon.
 
 ## <a id="create"></a>Activiteit maken
 
@@ -228,6 +242,7 @@ Een [linkactie][7] kan:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md

@@ -2,11 +2,14 @@
 uid: help-de-flow-actions
 title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
-keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
+keywords: Flow, Automatisierung, Flow-Aktion, Skript ausführen, an Besitzer verteilen
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
@@ -107,6 +110,17 @@ Behalten Sie den Überblick über diejenigen, die sich angemeldet oder engagiert
 Der Person wird als Mitglied aus der angegebenen Selektion und/oder dem Projekt entfernt.
 
 Dieser Schritt ähnelt dem Schritt **Zur Selektion und/oder zum Projekt hinzufügen**.
+
+### An den Besitzer verteilen
+
+Kontakte werden gleichmäßig auf ausgewählte Mitarbeiter oder Mitglieder einer bestimmten Gruppe verteilt. Nützlich zur automatischen Zuweisung neuer Leads.
+
+1. Ziehen Sie das Feld **An den Besitzer verteilen** aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
+1. Wählen Sie einen oder mehrere Mitarbeiter oder eine Gruppe aus, denen Kontakte zugewiesen werden sollen.
+1. Optional: Deaktivieren Sie **Neuen Besitzer nur anwenden, wenn der Kontakt derzeit nicht zugewiesen ist**, um bestehende Kontaktbesitzer zu überschreiben.
+1. Optional: Legen Sie unter **Wenn niemand verfügbar ist, Kontakte zuweisen an** einen Ersatzbesitzer fest.
+
+Der neue Besitzer [wird über jede Zuweisung benachrichtigt][10].
 
 ## <a id="create"></a>Aktivität erstellen
 
@@ -211,6 +225,7 @@ Eine [Link-Aktion][7] könnte:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md

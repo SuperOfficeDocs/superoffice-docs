@@ -2,11 +2,14 @@
 uid: help-sv-flow-actions
 title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
-keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.12
+keywords: flöde, automatisering, flödesåtgärd, kör skript, fördela till ägare
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -108,6 +111,17 @@ Håll koll på de som anmälde sig eller var engagerade, eller för att hålla k
 Kontakten tas bort som medlem från det angivna urvalet och/eller projektet.
 
 Detta steg är liknande **Lägg till i urval/projekt**.
+
+### Distribuera till ägare
+
+Fördela kontakter jämnt mellan valda medarbetare eller medlemmar i en angiven grupp. Används för att automatiskt tilldela nya kontakter till ett team.
+
+1. Dra rutan **Distribuera till ägare** från stegalternativen och släpp den på en ledig plats i flödesschemat.
+1. Välj en eller flera medarbetare eller en primärgrupp som ska ta emot kontakterna.
+1. Valfritt: Avmarkera **Lägg bara till ny ägare om kontakten för närvarande inte är tilldelad** för att skriva över befintliga kontaktägare.
+1. Valfritt: Ange en reserv under **Om ingen är tillgänglig, tilldela kontakter till**.
+
+Den nya ägaren [får ett meddelande][10] för varje tilldelad kontakt.
 
 ## <a id="create"></a>Skapa aktivitet
 
@@ -212,6 +226,7 @@ En [länkåtgärd][7] kan:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md

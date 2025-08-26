@@ -4,8 +4,8 @@ title: Opprette en ny flyt
 description: Hvordan opprette ny flyt og definere flytinnstillinger i SuperOffice Marketing
 keywords: flyt, markedsføringsautomatisering, ny flyt, flytinnstilling
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 09.01.2025
+version: 11.3
 content_type: howto
 language: no
 audience: person

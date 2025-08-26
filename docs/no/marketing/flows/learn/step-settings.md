@@ -2,14 +2,17 @@
 uid: help-no-flow-step-settings
 title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
-keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
-author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+keywords: trinn, trinninnstilling, trinnfelt
+author: Bergfrid Dias, Trude Lien Smedbråten
+date: 09.01.2025
+version: 11.3
 content_type: reference
-language: no
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Trinninnstillinger
@@ -59,6 +62,14 @@ audience_tooltip: SuperOffice Marketing
 | Prosjekt | Et prosjekt knyttet til salget. |
 | Dato | Den estimerte salgsdatoen. "Estimert etter salgstype" eller "Etter x dager/arbeidsdager/uker". |
 | Eier | Personen ansvarlig for salget. Deltakerens "vår kontakt" eller "vår servicekontakt", eller en spesifikk navngitt medarbeider. |
+
+## Fordel til eier
+
+| Innstilling | Beskrivelse |
+|---|---|
+| Bruk kun ny eier hvis personen for øyeblikket ikke er tildelt | Sørger for at eierskap kun settes hvis ingen eier for øyeblikket er tildelt. |
+| Fordel personer til | Velg én eller flere medarbeidere eller en primærgruppe. Personene fordeles jevnt mellom valgte medarbeidere eller gruppemedlemmer. |
+| Hvis ingen er tilgjengelige, tildel personer til | Reservealternativ. Velg en standard eier hvis alle valgte medarbeidere/gruppemedlemmer er utilgjengelige. |
 
 ## Avslutt flyt
 

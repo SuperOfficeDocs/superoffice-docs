@@ -2,11 +2,14 @@
 uid: help-sv-flow-step-settings
 title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
-keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.9
-content_type: howto
+keywords: steg, steginställning, stegfält
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -59,6 +62,14 @@ language: sv
 | Projekt | Ett projekt kopplat till försäljningen. |
 | Datum | Det beräknade försäljningsdatumet. "Uppskattat enligt försäljningstyp" eller "Efter X dagar/arbetdagar/veckor". |
 | Ägare | Personen ansvarig för försäljningen. Deltagarens "vår kontaktperson" eller "vår supportansvarige", eller en specifik namngiven kollega. |
+
+## Distribuera till ägare
+
+| Inställning | Beskrivning |
+|---|---|
+| Lägg bara till ny ägare om kontakten för närvarande inte är tilldelad | Säkerställer att ägaren endast ändras om ingen är tilldelad. |
+| Distribuera kontakter till | Välj en eller flera medarbetare eller en primärgrupp. Kontakter fördelas jämnt mellan valda medarbetare eller gruppmedlemmar. |
+| Om ingen är tillgänglig, tilldela kontakter till | Fallback-alternativ. Välj en standardägare om alla valda medarbetare/gruppmedlemmar inte är tillgängliga. |
 
 ## Avsluta flöde
 

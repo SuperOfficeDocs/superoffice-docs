@@ -2,11 +2,14 @@
 uid: help-da-flow-actions
 title: Definér flow-handlinger
 description: Definér flow-handlinger
-keywords: Marketing, flow, flow-handlinger
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+keywords: flow, automatisering, flow-handling, kør script, fordel til ejer
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -108,6 +111,17 @@ Hold overblik over dem, der tilmeldte sig, eller var engageret, eller for at hol
 Personen fjernes som medlem fra det specificerede udvalg og/eller projekt.
 
 Dette trin ligner **Tilføj til udvalg og/eller projekt**.
+
+### Distribuer til ejer
+
+Fordel kontakter ligeligt mellem valgte medarbejdere eller medlemmer af en angivet gruppe. Velegnet til at dele leads eller nye kontakter i et team.
+
+1. Træk boksen **Distribuer til ejer** fra trinmenuen og og slip den i en tilgængelig slot i flowdiagrammet.
+1. Vælg én eller flere medarbejdere eller en gruppe, der skal modtage kontakter.
+1. Valgfrit: Fjern markeringen af **Anvend kun ny ejer, hvis kontakten i øjeblikket ikke er tildelt** for at overskrive eksisterende kontaktejer.
+1. Valgfrit: Angiv en standard ejer under **Hvis ingen er tilgængelige, skal du tildele kontakter til**.
+
+Den nye ejer [modtager en besked][10] for hver tildelt kontakt.
 
 ## <a id="create"></a>Opret aktivitet
 
@@ -212,6 +226,7 @@ En [linkhandling][7] kan:
 [1]: step-settings.md
 [6]: ../../forms/learn/define-form-actions.md
 [7]: ../../tracked-links/learn/define-link-actions.md
+[10]: ../../../learn/basics/notifications.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/create.md

@@ -4,8 +4,8 @@ title: Marknadsföringsautomatisering - flöden
 description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.9
+date: 09.01.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
