@@ -57,7 +57,7 @@ This guide walks you through creating a new application in SuperOffice Online an
 
    * These URLs are required for OAUTH 2.0 and OpenID Connect.
    * They are used after an interactive user authenticates so that the identity provider can send the ID token, access token, and refresh token to your backend.
-   * If you don’t have your own backend, you can use the default redirect URL provided (e.g., default tools website `https://devnet-tools.superoffice.com`).
+   * If you don’t have your own backend, you can use the default redirect URL provided (e.g., default tools website `https://devnet-tools.superoffice.com/openid/callback`).
 
 3. **Technical contact:**
 
