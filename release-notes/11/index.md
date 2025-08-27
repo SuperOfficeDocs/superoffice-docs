@@ -25,11 +25,11 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 * 11.3 (25.08.2025):
   * [Selection - Board view for projects][6] in Core CRM and Sales
-  * [Selection - Preview of board card][6] in Core CRM and Sales
+  * [Selection - Preview card in board view][6] in Core CRM and Sales
   * [Notification - New company/contact assigned][6] in Core CRM and Sales
   * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
   * [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
-  * [Marketing - Flow - Step to distribute to owner][7] in Marketing
+  * [Marketing flow – distribute to owner step][7] in Marketing
   * [Request - Anonymise support agent][8] in Service and Settings and maintenance
   * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
   * [CRMScript - Trigger for Load request][9] in Settings and maintenance

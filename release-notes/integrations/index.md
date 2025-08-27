@@ -2,7 +2,7 @@
 uid: release-notes-integrations
 title: Product integration updates
 description: Release notes. What's new in SuperOffice integrations
-keywords: integration, app, video meetings, sofo, SuperOffice for Outlook
+keywords: integration, app
 author: SuperOffice AS – Product and Engineering
 date: 09.01.2025
 content_type: release-note
