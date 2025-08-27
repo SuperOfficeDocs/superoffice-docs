@@ -2,9 +2,9 @@
 uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
-keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests
+keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
 author: SuperOffice AS – Product and Engineering
-date: 06.17.2025
+date: 09.01.2025
 version: 11
 content_type: release-note
 audience: person
@@ -22,6 +22,17 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
 ## Feature updates
+
+* 11.3 (25.08.2025):
+  * [Selection - Board view for projects][6] in Core CRM and Sales
+  * [Selection - Preview card in board view][6] in Core CRM and Sales
+  * [Notification - New company/contact assigned][6] in Core CRM and Sales
+  * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
+  * [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
+  * [Marketing flow – distribute to owner step][7] in Marketing
+  * [Request - Anonymise support agent][8] in Service and Settings and maintenance
+  * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
+  * [CRMScript - Trigger for Load request][9] in Settings and maintenance
 
 * 11.2 (17.06.2025):
   * [Selection - Board view for sales][4] in Core CRM and Sales
@@ -50,6 +61,10 @@ Some features are available to selected customers as part of ongoing pilots. See
 [3]: service/11.1-update.md
 [4]: core-crm/11.2-update.md
 [5]: service/11.2-update.md
+[6]: core-crm/11.3-update.md
+[7]: marketing/11.3-update.md
+[8]: service/11.3-update.md
+[9]: admin/11.3-update.md
 [13]: ../integrations/index.md
 [15]: ../mobile/index.md
 [17]: ../index.md

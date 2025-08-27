@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice integrations
 keywords: integration, app
 author: SuperOffice AS – Product and Engineering
-date: 06.17.2025
+date: 09.01.2025
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,6 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 ## Office integrations
 
+* [Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 
 [Current released versions][6]:
@@ -21,8 +22,8 @@ audience_tooltip: SuperOffice CRM
 * SharePoint Documents 3.3 (05.11.2024)
 * SuperOffice Copilot 1.7 (19.03.2025)
 * SuperOffice for Gmail 2.10 (11.03.2024
-* SuperOffice for Outlook 6.1 (03.04.2025)
-* Video Meetings 2.6 (20.06.2024)
+* SuperOffice for Outlook 6.1.2 (16.06.2025)
+* Video Meetings 2.9 (25.08.2025)
 * WebTools for Mac 13.1 (24.03.2025))
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
@@ -31,6 +32,7 @@ audience_tooltip: SuperOffice CRM
 
 See all the [new or updated apps][2]
 
+* [FindProspects (08.08.2025)][12] from Cloud Connection AS
 * [SuperOffice Mobile CRM (10.06.2025)][7] from SuperOffice AS
 * [Online Signature (10.06.2025)][8] from Beezy365 A/S
 * [NPS For SuperOffice (05.06.2025)][9] from Beezy365 A/S
@@ -52,5 +54,7 @@ See all the [new or updated apps][2]
 [9]: https://appstore.superoffice.com/beezy365-a-s/nps-for-superoffice
 [10]: https://appstore.superoffice.com/scrive-ab/scrive-for-superoffice
 [11]: https://appstore.superoffice.com/supercompany-as/trale
+[12]: https://appstore.superoffice.com/cloud-connection/findprospects
+[13]: video-meetings/2.9-update.md
 
 <!-- Referenced images -->
