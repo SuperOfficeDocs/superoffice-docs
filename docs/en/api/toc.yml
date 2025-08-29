@@ -360,6 +360,11 @@ items:
                     href: web-services/howto/custom-objects/get-udef-list-and-values.md
                   - name: Find contact by udef
                     href: web-services/howto/custom-objects/find-contact-by-udef.md
+          - name: Dashboard
+            topicHref: web-services/howto/dashboard/get-dashboard-rest.md
+            items:
+              - name: Get dashboards and tiles (REST)
+                href: web-services/howto/dashboard/get-dashboard-rest.md
           - name: Diary
             href: web-services/howto/diary/index.md
             items:
