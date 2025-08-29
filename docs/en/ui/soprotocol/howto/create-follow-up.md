@@ -47,7 +47,7 @@ The following arguments are supported when creating a new follow-up
 |------------------------------|-------------------------------------------------------------------------------------------------|
 | `appointment_id`             | ID of the appointment to open. If set, the appointment will be opened. For new appointments, this should be set to 0. |
 | `appointment_type`           | Type of the appointment. 5 = Todo, 6 = Phone. Anything else is considered a meeting. This will be used to select the task type. |
-| `appointmenttask_name`       | ID of the task to create when creating a new appointment. This lets you set an actual task instead of the default meeting, phone, etc. |
+| `tasktype`                   | ID of the task type to use for the new appointment. This lets you set an actual task instead of the default meeting, default phone and so on from appointment_type                                            |
 | `appointmenttitle_name`      | Title of the new appointment.                                                                  |
 | `appointmentagenda_name`     | Agenda of the new appointment (HTML).                                                          |
 | `appointmentdescription_name`| Description of the new appointment (plain text).                                               |
