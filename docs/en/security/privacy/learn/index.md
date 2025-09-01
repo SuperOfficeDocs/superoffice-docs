@@ -64,7 +64,7 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 
 <!-- Referenced links -->
 [2]: ../admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
+[3]: ../admin/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 
 <!-- Referenced images -->

@@ -64,5 +64,5 @@ Om du *inte* väljer det här alternativet kommer bara personer med **E-marknads
 
 <!-- Referenced links -->
 [2]: ../admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
+[3]: ../admin/add-legal-base.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

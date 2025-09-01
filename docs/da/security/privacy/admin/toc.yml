@@ -4,7 +4,7 @@ items:
  - name: Tilføj samtykkeformål
    href: add-consent-purpose.md
  - name: Tilføj retsgrundlag
-   href: ../../../admin/lists/learn/privacy-legal-base-add.md
+   href: add-legal-base.md
  - name: Tilføj privacy-kilde
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: Rediger e-mail til bekræftelse om personbeskyttelse

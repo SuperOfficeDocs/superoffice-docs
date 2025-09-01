@@ -4,7 +4,7 @@ items:
  - name: Einwilligungszweck hinzufügen
    href: add-consent-purpose.md
  - name: Rechtsgrundlage hinzufügen
-   href: ../../../admin/lists/learn/privacy-legal-base-add.md
+   href: add-legal-base.md
  - name: Datenschutzquelle hinzufügen
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: E-Mail zur Datenschutzbestätigung bearbeiten

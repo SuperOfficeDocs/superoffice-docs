@@ -4,7 +4,7 @@ items:
  - name: Lägga till samtyckessyfte
    href: add-consent-purpose.md
  - name: Lägga till rättslig grund
-   href: ../../../admin/lists/learn/privacy-legal-base-add.md
+   href: add-legal-base.md
  - name: Lägga till integritetskälla
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: Redigera e-postbekräftelse om personskydd

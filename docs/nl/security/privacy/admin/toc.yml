@@ -4,7 +4,7 @@ items:
  - name: Toestemmingsdoel toevoegen
    href: add-consent-purpose.md
  - name: Rechtsgrondslag toevoegen
-   href: ../../../admin/lists/learn/privacy-legal-base-add.md
+   href: add-legal-base.md
  - name: Privacybron toevoegen
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: E-mail met privacybevestiging bewerken
