@@ -2,7 +2,7 @@ items:
  - name: Implementeringsguide
    href: index.md
  - name: Lägga till samtyckessyfte
-   href: add-consent-purpose.md
+   href: add-purpose.md
  - name: Lägga till rättslig grund
    href: add-legal-base.md
  - name: Lägga till integritetskälla

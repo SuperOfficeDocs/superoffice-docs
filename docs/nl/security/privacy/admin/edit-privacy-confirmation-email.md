@@ -2,7 +2,7 @@
 uid: help-nl-edit-privacy-confirmation-email
 title: E-mail met privacybevestiging bewerken
 description: In deze gids staat u hoe u de e-mail met de privacybevestiging kunt bewerken.
-keywords: GDPR, toestemming, e-mail, sjabloon, Confirmation - Contact added
+keywords: E-mail met privacybevestiging, e-mail sjabloon
 content_type: howto
 author: Bergfrid Dias
 date: 12.19.2024
@@ -36,16 +36,13 @@ De e-mailsjabloon voor privacybevestiging is een **e-mailsjabloon**, die op deze
 
     De nieuwe bewerkte versie is nu klaar en kan direct worden gebruikt.
 
-## Sjabloon toevoegen
-
-[Een e-mailsjabloon toevoegen][1]
-
 ## Gerelateerde inhoud
 
+* [Een e-mailsjabloon toevoegen][1]
 * [Een privacy e-mail naar personen versturen voor het recht om geïnformeerd te worden][2]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-email-template.md
-[2]: send-privacy-confirmation-email.md
+[2]: ../learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

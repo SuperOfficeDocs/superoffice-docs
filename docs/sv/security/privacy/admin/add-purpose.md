@@ -1,5 +1,5 @@
 ---
-uid: help-sv-add-consent-purpose
+uid: help-sv-privacy-add-purpose
 title: Ställ in integritetsinställningar för GDPR - Lägg till syfte
 description: Lär dig hur du konfigurerar integritetsinställningarna för ditt företag.
 keywords: integritetsInställning, lägg till syfte, extern integritetsförklaring

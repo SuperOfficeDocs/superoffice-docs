@@ -1,5 +1,5 @@
 ---
-uid: help-no-add-consent-purpose
+uid: help-no-privacy-add-purpose
 title: Konfigurer personverninnstillinger for GDPR - Legg til formål
 description: Finn ut hvordan du konfigurerer personverninnstillingene for firmaet ditt.
 keywords: personverninnstilling, legg til formål, ekstern personvernerklæring

@@ -2,9 +2,9 @@
 uid: help-nl-privacy-implementation
 title: Uw privacy-instellingen beheren (AVG)
 description: Voordat u begint met het configureren van uw SuperOffice CRM-database om AVG-compatibel te worden, moet u eerst wat basiswerk vastleggen.
+keywords: GDPR, toestemming, privacy-instellingen
 author: Bergfrid Dias
 date: 02.21.2023
-keywords: GDPR, toestemming
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

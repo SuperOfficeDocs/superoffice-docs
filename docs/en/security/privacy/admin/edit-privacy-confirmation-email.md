@@ -2,7 +2,7 @@
 uid: help-en-edit-privacy-confirmation-email
 title: Edit privacy confirmation email
 description: In this how-to guide you will learn how to edit the privacy confirmation email.
-keywords: GDPR, consent, email, template, Confirmation - Contact added
+keywords: privacy confirmation email, email template, Confirmation - Contact added
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10
@@ -36,16 +36,13 @@ The privacy confirmation email template is an **email template**, which is creat
 
     The new edited version is now ready and can be used immediately.
 
-## Add template
-
-[How to add an email template][1]
-
 ## Related content
 
+* [How to add an email template][1]
 * [Send a privacy email for your contacts right to be informed][2]
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/add-email-template.md
+[1]: ../../../admin/lists/learn/add-email-template.md
 [2]: ../learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

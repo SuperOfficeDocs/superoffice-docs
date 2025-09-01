@@ -2,7 +2,7 @@
 uid: help-no-edit-privacy-confirmation-email
 title: Rediger e-post med personvernbekreftelse
 description: I denne veiledningen lærer du hvordan du redigerer e-postbekreftelsen for personvern.
-keywords: GDPR, samtykke, e-post, mal, Confirmation - Contact added
+keywords: e-post med personvernbekreftelse, e-post mal
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10
@@ -36,16 +36,13 @@ Malen for e-postbekreftelse for personvern er en **e-postmal**, som opprettes og
 
     Den nye redigerte versjonen er nå klar og kan brukes umiddelbart.
 
-## Legg til mal
-
-[Slik legger du til en e-postmal][1]
-
 ## Beslektet
 
+* [Slik legger du til en e-postmal][1]
 * [Send en personvern-e-post for dine personers rett til å bli informert][2]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-email-template.md
-[2]: send-privacy-confirmation-email.md
+[2]: ../learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

@@ -63,7 +63,7 @@ Hvis du *ikke* velger dette alternativet, vil bare personer med **E-markedsføri
 * [Legge til elementer i listen Personvern - Kilde][4]
 
 <!-- Referenced links -->
-[2]: ../admin/add-consent-purpose.md
+[2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
 

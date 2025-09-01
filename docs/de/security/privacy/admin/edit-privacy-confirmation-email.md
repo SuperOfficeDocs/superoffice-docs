@@ -2,7 +2,7 @@
 uid: help-de-edit-privacy-confirmation-email
 title: E-Mail zur Datenschutzbestätigung bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie die E-Mail für die Datenschutzbestätigung bearbeiten können.
-keywords: DSGVO, Einwilligung, E-Mail, Vorlage, Confirmation - Contact added
+keywords: E-Mail zur Datenschutzbestätigung, E-Mail Vorlage
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10
@@ -36,16 +36,13 @@ Die E-Mail-Vorlage zur Datenschutzbestätigung ist eine **E-Mail-Vorlage**, die 
 
     Die neue bearbeitete Version ist jetzt fertig und kann sofort verwendet werden.
 
-## Vorlage hinzufügen
-
-[Wie Sie eine E-Mail-Vorlage hinzufügen][1]
-
 ## Verwandt
 
+* [Wie Sie eine E-Mail-Vorlage hinzufügen][1]
 * [Datenschutz-E-Mail wegen des Rechts von Personen auf Information senden][2]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-email-template.md
-[2]: send-privacy-confirmation-email.md
+[2]: ../learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

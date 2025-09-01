@@ -63,7 +63,7 @@ Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsførin
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Kilde][4]
 
 <!-- Referenced links -->
-[2]: ../admin/add-consent-purpose.md
+[2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
 

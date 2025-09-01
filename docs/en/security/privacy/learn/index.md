@@ -63,7 +63,7 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 * [Add items to the Privacy - Source list][4]
 
 <!-- Referenced links -->
-[2]: ../admin/add-consent-purpose.md
+[2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
 

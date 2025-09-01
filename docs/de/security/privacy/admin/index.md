@@ -2,7 +2,7 @@
 uid: help-de-privacy-implementation
 title: Datenschutzeinstellungen verwalten (DSGVO)
 description: Bevor Sie gemäß der DSGVO mit der Konfiguration Ihrer SuperOffice CRM-Datenbank beginnen, müssen Sie zuerst einige Grundlagen dafür schaffen.
-keywords: DSGVO, Einwilligung
+keywords: DSGVO, Einwilligung, Datenschutzeinstellungen
 author: Bergfrid Dias
 date: 02.21.2023
 content_type: concept

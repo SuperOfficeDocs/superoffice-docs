@@ -1,7 +1,7 @@
 ---
 uid: help-de-privacy-add-source
 title: Objekte zur Liste Datenschutz - Nachweis hinzufügen
-description: "Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ändern kann."
+description: Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ändern kann.
 keywords: Datenschutz Nachweis Liste, Datenschutz Nachweis hinzufügen
 author: SuperOffice Product and Engineering
 date: 02.23.2023

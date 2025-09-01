@@ -1,5 +1,5 @@
 ---
-uid: help-nl-add-consent-purpose
+uid: help-nl-privacy-add-purpose
 title: Privacy-instellingen instellen voor AVG - Doel toevoegen
 description: Meer informatie over het instellen van de privacyinstellingen voor uw bedrijf.
 keywords: privacyinstelling, doel toevoegen, externe privacyverklaring

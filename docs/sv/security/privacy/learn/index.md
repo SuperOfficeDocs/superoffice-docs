@@ -63,6 +63,6 @@ Om du *inte* väljer det här alternativet kommer bara personer med **E-marknads
 * [Lägga till poster i listan Integritet – Källa][4]
 
 <!-- Referenced links -->
-[2]: ../admin/add-consent-purpose.md
+[2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md

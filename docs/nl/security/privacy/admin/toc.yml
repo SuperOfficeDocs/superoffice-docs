@@ -2,7 +2,7 @@ items:
  - name: Implementatiehandleiding
    href: index.md
  - name: Toestemmingsdoel toevoegen
-   href: add-consent-purpose.md
+   href: add-purpose.md
  - name: Rechtsgrondslag toevoegen
    href: add-legal-base.md
  - name: Privacybron toevoegen

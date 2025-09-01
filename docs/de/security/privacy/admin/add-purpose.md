@@ -1,5 +1,5 @@
 ---
-uid: help-de-add-consent-purpose
+uid: help-de-privacy-add-purpose
 title: Datenschutzeinstellungen für die DSGVO einrichten - Zweck hinzufügen
 description: Wie man die Datenschutzeinstellungen für Ihre Firma einrichtet.
 keywords: Datenschutzeinstellung, Zweck hinzufügen, externe Datenschutzerklärung

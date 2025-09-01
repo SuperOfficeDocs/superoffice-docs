@@ -2,7 +2,7 @@ items:
 - name: Implementation guide
   href: index.md
 - name: Add consent purpose
-  href: add-consent-purpose.md
+  href: add-purpose.md
 - name: Add legal base
   href: add-legal-base.md
 - name: Add privacy source

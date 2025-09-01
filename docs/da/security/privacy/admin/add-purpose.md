@@ -1,5 +1,5 @@
 ---
-uid: help-da-add-consent-purpose
+uid: help-da-privacy-add-purpose
 title: Angiv indstillinger for Privacy for GDPR - Tilføj formål
 description: Få flere oplysninger om, hvordan du konfigurerer indstillingerne for Privacy for dit firma.
 keywords: personbeskyttelsesindstilling, tilføj formål, ekstern personbeskyttelseserklæring

@@ -1,5 +1,5 @@
 ---
-uid: help-en-add-consent-purpose
+uid: help-en-privacy-add-purpose
 title: Set up privacy settings for GDPR - Add purpose
 description: Learn how to set up the privacy settings for your company.
 keywords: privacy setting, add purpose, external privacy statement

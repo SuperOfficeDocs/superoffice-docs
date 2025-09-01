@@ -63,7 +63,7 @@ Wenn Sie diese Option *nicht* wählen, werden nur Personen, bei denen **E-Market
 * [Objekte zur Liste Datenschutz - Nachweis hinzufügen][4]
 
 <!-- Referenced links -->
-[2]: ../admin/add-consent-purpose.md
+[2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
 

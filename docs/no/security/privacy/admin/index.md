@@ -1,10 +1,10 @@
 ---
 uid: help-no-privacy-implementation
 title: Administrer personverninnstillingene dine (GDPR)
-description: "Før du begynner med konfigurering av SuperOffice CRM-databasen for å gjøre den GDPR-kompatibel, må du gjøre litt grunnleggende arbeid."
+description: Før du begynner med konfigurering av SuperOffice CRM-databasen for å gjøre den GDPR-kompatibel, må du gjøre litt grunnleggende arbeid.
+keywords: GDPR, samtykke, personverninnstilling
 author: Bergfrid Dias
 date: 02.21.2023
-keywords: GDPR, samtykke
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -1,7 +1,7 @@
 ---
 uid: help-de-privacy-add-legal-base
 title: Objekte zur Liste Datenschutz - Rechtsgrundlage hinzufügen
-description: "Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ändern kann."
+description: Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ändern kann.
 keywords: Datenschutz Rechtsgrundlage Liste, Rechtsgrundlage hinzufügen
 author: SuperOffice Product and Engineering
 date: 02.23.2023
