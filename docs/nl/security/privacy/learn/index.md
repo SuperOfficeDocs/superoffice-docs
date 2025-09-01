@@ -13,7 +13,10 @@ language: nl
 
 De functie **Privacy** in SuperOffice helpt u de gegevensprivacy van uw klanten te beschermen en te voldoen aan de General Data Protection Regulation (GDPR) (Algemene verordening gegevensbescherming, AVG) van de EU.
 
-[!include[Need concent](includes/why-consent.md)]
+U moet de toestemming (instemming) hebben van een persoon om (onder andere)
+
+* Hun gegevens opslaan en verwerken voor verkoop en/of dienstverlening aan een contactpersoon)
+* en om e-marketingmateriaal te verzenden
 
 Dit zijn twee verschillende doelen om toestemming van een persoon te verkrijgen. In SuperOffice worden deze doelen **Verkopen en service** en **E-marketing** genoemd. Er kunnen ook andere relevante doelen voor uw bedrijf zijn.
 

@@ -13,7 +13,10 @@ language: da
 
 Funktionen **Privacy** i SuperOffice hjælper dig med at beskytte dine kunders data-privacy og overholde EU's generelle forordning om databeskyttelse (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du skal have samtykke (tilladelse) fra en person til (blandt andet) at
+
+* Gemme og behandle deres data (til at sælge til og/eller levere tjenester til en person)
+* Sende dem e-markedsføringsmateriale
 
 Det er to forskellige formål med at indhente en persons samtykke. I SuperOffice kaldes disse formål **Salg og service** og **E-markedsføring**. Der kan også være andre formål, der er relevante for din virksomhed.
 

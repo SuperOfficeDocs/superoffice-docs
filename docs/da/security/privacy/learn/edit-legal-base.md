@@ -1,5 +1,9 @@
 ---
-uid: help-da-edit-legal-base
+uid: help-da-edit-HvHver gang en person registreres i din SuperOffice CRM-database, registreres også det samtykke, de gav til at gemme deres oplysninger. Dette giver dig mulighed for altid at administrere og spore præcist, hvilket samtykke du har modtaget fra hvilken person.
+
+## Definitionerng en person registreres i din SuperOffice CRM-database, registreres også det samtykke, de gav til at gemme deres oplysninger. Dette giver dig mulighed for altid at administrere og spore præcist, hvilket samtykke du har modtaget fra hvilken person.
+
+## Definitioner-base
 title: Rediger retsgrundlag
 description: I denne vejledning lærer du om GDPR-funktionerne i SuperOffice Markedsføring, der hjælper dig med at sikre, at din markedsføringsindsats er i overensstemmelse med GDPR.
 keywords: personbeskyttelse, samtykke, retsgrundlag
@@ -22,8 +26,6 @@ Som firma indsamler, gemmer og håndterer du folks personoplysninger. I henhold 
 SuperOffice CRM har en funktion kaldet Samtykkehåndtering, der er designet til at hjælpe dig med at dokumentere, hvornår, hvordan og hvorfor du vil registrere bestemte personoplysninger i din CRM-løsning.
 
 Hver gang en person registreres i din SuperOffice CRM-database, registreres også det samtykke, personen har givet til, at vedkommendes detaljer må gemmes. Dette gør det muligt for dig til enhver tid at administrere og spore nøjagtigt, hvilket samtykke du har modtaget fra hvilken person.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definitioner
 

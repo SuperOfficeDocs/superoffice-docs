@@ -1,5 +1,9 @@
 ---
-uid: help-sv-edit-legal-base
+uid: help-sv-edit-VaVarje gång en person registreras i din SuperOffice CRM-databas registreras också det samtycke de gav för att spara sina uppgifter. På så sätt kan du alltid hantera och spåra exakt vilket samtycke du har fått från vilken person.
+
+## Definitionerång en person registreras i din SuperOffice CRM-databas registreras också det samtycke de gav för att spara sina uppgifter. På så sätt kan du alltid hantera och spåra exakt vilket samtycke du har fått från vilken person.
+
+## Definitioner-base
 title: Redigera rättslig grund
 description: I den här guiden får du lära dig mer om GDPR-funktionerna i SuperOffice Marketing som hjälper dig att säkerställa att dina marknadsföringsåtgärder är GDPR-kompatibla.
 keywords: integritet, samtycke, rättslig grund
@@ -22,8 +26,6 @@ Som företag samlar ni in, lagrar och hanterar människors personuppgifter. Enli
 SuperOffice CRM har en funktion som kallas samtyckeshantering, vilken är utformad för att hjälpa dig att dokumentera när, hur och varför du vill registrera vissa personuppgifter i din CRM-lösning.
 
 Varje gång en person registreras i din SuperOffice CRM-databas, registreras även det samtycke de gav för att deras uppgifter skulle lagras. Detta gör att du alltid kan hantera och spåra exakt vilket samtycke du har fått från vilken person.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definitioner
 

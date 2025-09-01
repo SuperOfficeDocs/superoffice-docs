@@ -23,8 +23,6 @@ SuperOffice CRM verfügt über eine Funktion namens Einwilligungsmanagement, mit
 
 Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wird auch die erteilte Einwilligung zur Speicherung ihrer Details registriert. So können Sie jederzeit genau verwalten und nachvollziehen, welche Einwilligung Sie von welcher Person erhalten haben.
 
-[!include[Need concent](includes/why-consent.md)]
-
 ## Definitionen
 
 * **Einwilligung**: Sie müssen die Genehmigung einer Person zum Speichern und Verarbeiten ihrer personenbezogenen Daten einholen.

@@ -13,7 +13,10 @@ language: sv
 
 Med **Integritet**-funktionen i SuperOffice kan du skydda kundens personliga data och följa EU:s nya dataskyddsförordning (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du måste ha fått samtycke (tillåtelse) från en person om du (bland annat) ska
+
+* Lagra och behandla dennes data (för att sälja till/och eller leverera tjänster till en person)
+* Skicka e-marknadsföringsmaterial till personen
 
 Detta är två olika syften för att få samtycke av en person. I SuperOffice kallas dessa syften **Försäljning och tjänster** och **E-marknadsföring**. Det kan också vara andra syften som är relevanta för din verksamhet.
 

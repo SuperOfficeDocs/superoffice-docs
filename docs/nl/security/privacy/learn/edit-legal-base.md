@@ -1,5 +1,9 @@
 ---
-uid: help-nl-edit-legal-base
+uid: help-nl-edit-TeTelkens wanneer een persoon wordt geregistreerd in uw SuperOffice CRM-database, wordt ook de toestemming die ze hebben gegeven om hun gegevens op te slaan geregistreerd. Hierdoor kunt u te allen tijde beheren en bijhouden van welke persoon u precies welke toestemming hebt ontvangen.
+
+## Definities wanneer een persoon wordt geregistreerd in uw SuperOffice CRM-database, wordt ook de toestemming die ze hebben gegeven om hun gegevens op te slaan geregistreerd. Hierdoor kunt u te allen tijde beheren en bijhouden van welke persoon u precies welke toestemming hebt ontvangen.
+
+## Definities-base
 title: Rechtsgrondslag bewerken
 description: Deze gids gaat over de AVG-functies in SuperOffice Marketing die u helpen ervoor te zorgen dat uw marketinginspanningen voldoen aan de AVG.
 keywords: privacy, toestemming, Rechtsgrondslag
@@ -22,8 +26,6 @@ Als bedrijf verzamelt, bewaart en behandelt u persoonsgegevens van mensen. Onder
 SuperOffice CRM heeft een functie genaamd Toestemmingsbeheer, die is ontworpen om u te helpen met het documenteren van wanneer, hoe en waarom u bepaalde persoonlijke gegevens in uw CRM-oplossing wilt registreren.
 
 Elke keer dat een persoon wordt geregistreerd in uw SuperOffice CRM-database, wordt de toestemming die ze hebben gegeven om hun gegevens op te slaan ook geregistreerd. Hiermee kunt u te allen tijde precies beheren en bijhouden welke toestemming u van welke persoon hebt ontvangen.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definities
 

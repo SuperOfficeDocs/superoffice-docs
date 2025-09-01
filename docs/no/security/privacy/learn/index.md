@@ -13,7 +13,10 @@ language: no
 
 **Personvern**-funksjonen i SuperOffice hjelper deg å beskytte personvernet til kundene dine og overholde EUs personvernforordning (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du må ha samtykke (tillatelse) fra en person hvis du (blant annet) skal
+
+* Lagre og behandle dataene deres (for å selge til og/eller tilby tjenester til en person)
+* Sende e-markedsføringsmateriell til vedkommende
 
 Dette er to ulike formål for innhenting av samtykke fra en person. I SuperOffice kalles disse formålene **Salg og kundeservice** og **E-markedsføring**. Det kan også finnes andre formål som er relevante for virksomheten din.
 

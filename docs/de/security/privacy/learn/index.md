@@ -13,7 +13,10 @@ language: de
 
 Die Funktion **Datenschutz** in SuperOffice hilft Ihnen, die Daten Ihrer Kunden zu schützen und die Datenschutz-Grundverordnung (DSGVO) der EU einzuhalten.
 
-[!include[Need concent](includes/why-consent.md)]
+Sie benötigen die Zustimmung (Erlaubnis) einer Person, wenn Sie beispielsweise
+
+* Deren Daten speichern und verarbeiten (um einer Person Produkte zu verkaufen und/oder Dienstleistungen an sie zu erbringen)
+* Ihr E-Marketingmaterial senden möchten
 
 Dies sind zwei verschiedene Zwecke, um die Zustimmung einer Person einzuholen. In SuperOffice werden diese Zwecke als **Verkauf und Service** und **E-Marketing** bezeichnet. Für Ihr Unternehmen sind möglicherweise auch andere Zwecke relevant.
 

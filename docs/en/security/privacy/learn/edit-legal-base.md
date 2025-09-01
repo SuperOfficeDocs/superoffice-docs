@@ -23,8 +23,6 @@ SuperOffice CRM has a feature called Consent management, that is designed to hel
 
 Every time a person is registered in your SuperOffice CRM database, the consent they gave to save their details is also registered. This allows you to manage and track exactly which consent you have received from which person, at all times.
 
-[!include[Need concent](includes/why-consent.md)]
-
 ## Definitions
 
 * **Consent**: You must get the permission from a person to store and process their personal data.
