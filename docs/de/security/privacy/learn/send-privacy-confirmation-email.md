@@ -67,7 +67,7 @@ Die E-Mail kann auch einen Link zu einem Kundenzentrum enthalten, wo die Person 
 * [Bearbeiten Sie die E-Mail der Datenschutzbestätigung unter Einstellungen und Verwaltung][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

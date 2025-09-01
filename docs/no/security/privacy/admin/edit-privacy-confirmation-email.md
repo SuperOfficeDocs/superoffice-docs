@@ -1,6 +1,17 @@
 ---
-uid: help-no-edit-privacy-confirmation-email-redirect
-redirect_url: https://docs.superoffice.com/no/security/privacy/admin/edit-privacy-confirmation-email.html
+uid: help-no-edit-privacy-confirmation-email
+title: Rediger e-post med personvernbekreftelse
+description: I denne veiledningen lærer du hvordan du redigerer e-postbekreftelsen for personvern.
+keywords: GDPR, samtykke, e-post, mal, Confirmation - Contact added
+author: Bergfrid Dias
+date: 12.19.2024
+version: 10
+content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+language: no
+index: true
+redirect_from: /no/security/privacy/learn/edit-privacy-confirmation-email
 ---
 
 # Rediger e-post med personvernbekreftelse

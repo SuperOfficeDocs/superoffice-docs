@@ -69,7 +69,7 @@ E-mailen kan også indeholde et link til et kundecenter, hvor personen kan vedli
 * [Rediger e-mailen med bekræftelse om personbeskyttelse i Indstillinger og vedligeholdelse][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

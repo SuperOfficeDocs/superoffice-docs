@@ -69,7 +69,7 @@ De e-mail kan ook een koppeling bevatten naar een Customer Centre waar de persoo
 * [E-mail met de privacybevestiging bewerken in Instellingen en onderhoud][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

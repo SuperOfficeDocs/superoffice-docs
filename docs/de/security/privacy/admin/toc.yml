@@ -8,4 +8,4 @@ items:
  - name: Datenschutzquelle hinzufügen
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: E-Mail zur Datenschutzbestätigung bearbeiten
-   href: ../learn/edit-privacy-confirmation-email.md
+   href: edit-privacy-confirmation-email.md

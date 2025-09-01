@@ -1,6 +1,17 @@
 ---
-uid: help-de-edit-privacy-confirmation-email-redirect
-redirect_url: https://docs.superoffice.com/de/security/privacy/admin/edit-privacy-confirmation-email.html
+uid: help-de-edit-privacy-confirmation-email
+title: E-Mail zur Datenschutzbestätigung bearbeiten
+description: In dieser Anleitung lernen Sie, wie Sie die E-Mail für die Datenschutzbestätigung bearbeiten können.
+keywords: DSGVO, Einwilligung, E-Mail, Vorlage, Confirmation - Contact added
+author: Bergfrid Dias
+date: 12.19.2024
+version: 10
+content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+language: de
+index: true
+redirect_from: /de/security/privacy/learn/edit-privacy-confirmation-email
 ---
 
 # E-Mail zur Datenschutzbestätigung bearbeiten

@@ -8,4 +8,4 @@ items:
  - name: Lägga till integritetskälla
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: Redigera e-postbekräftelse om personskydd
-   href: ../learn/edit-privacy-confirmation-email.md
+   href: edit-privacy-confirmation-email.md

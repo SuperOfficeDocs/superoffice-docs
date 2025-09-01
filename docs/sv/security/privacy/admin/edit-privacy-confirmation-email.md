@@ -1,6 +1,17 @@
 ---
-uid: help-sv-edit-privacy-confirmation-email-redirect
-redirect_url: https://docs.superoffice.com/sv/security/privacy/admin/edit-privacy-confirmation-email.html
+uid: help-sv-edit-privacy-confirmation-email
+title: Redigera e-postbekräftelse om personskydd
+description: I den här guiden lär du dig hur du redigerar e-postbekräftelse om personskydd.
+keywords: GDPR, samtycke, e-post, mall, Confirmation - Contact added
+author: Bergfrid Dias
+date: 12.19.2024
+version: 10
+content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+language: sv
+index: true
+redirect_from: /sv/security/privacy/learn/edit-privacy-confirmation-email
 ---
 
 # Redigera e-postbekräftelse om personskydd

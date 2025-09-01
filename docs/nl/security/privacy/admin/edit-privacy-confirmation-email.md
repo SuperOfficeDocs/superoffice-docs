@@ -1,6 +1,17 @@
 ---
-uid: help-nl-edit-privacy-confirmation-email-redirect
-redirect_url: https://docs.superoffice.com/nl/security/privacy/admin/edit-privacy-confirmation-email.html
+uid: help-nl-edit-privacy-confirmation-email
+title: E-mail met privacybevestiging bewerken
+description: In deze gids staat u hoe u de e-mail met de privacybevestiging kunt bewerken.
+keywords: GDPR, toestemming, e-mail, sjabloon, Confirmation - Contact added
+content_type: howto
+author: Bergfrid Dias
+date: 12.19.2024
+version: 10
+audience: settings
+audience_tooltip: Settings and maintenance
+language: nl
+index: true
+redirect_from: /nl/security/privacy/learn/edit-privacy-confirmation-email
 ---
 
 # E-mail met privacybevestiging bewerken

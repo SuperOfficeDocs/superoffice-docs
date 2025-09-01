@@ -8,4 +8,4 @@ items:
  - name: Privacybron toevoegen
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: E-mail met privacybevestiging bewerken
-   href: ../learn/edit-privacy-confirmation-email.md
+   href: edit-privacy-confirmation-email.md

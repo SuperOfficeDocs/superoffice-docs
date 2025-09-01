@@ -8,4 +8,4 @@ items:
  - name: Legge til personvernkilde
    href: ../../../admin/lists/learn/privacy-source-add.md
  - name: Rediger e-post med personvernbekreftelse
-   href: ../learn/edit-privacy-confirmation-email.md
+   href: edit-privacy-confirmation-email.md
