@@ -6,6 +6,6 @@ items:
  - name: Rechtsgrundlage hinzufügen
    href: add-legal-base.md
  - name: Datenschutzquelle hinzufügen
-   href: ../../../admin/lists/learn/privacy-source-add.md
+   href: ../../../add-source.md
  - name: E-Mail zur Datenschutzbestätigung bearbeiten
    href: edit-privacy-confirmation-email.md

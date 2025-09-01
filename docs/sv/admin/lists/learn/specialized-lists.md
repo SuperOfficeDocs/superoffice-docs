@@ -44,7 +44,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [8]: application.md
 [9]: web-panel.md
 [10]: privacy-legal-base-add.md
-[11]: privacy-source-add.md
+[11]: ../../../security/privacy/admin/add-source.md
 [12]: ../../../project/admin/project-status.md
 [13]: ../../../project/admin/project-type.md
 [14]: sale-amount-class.md

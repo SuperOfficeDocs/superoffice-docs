@@ -34,6 +34,6 @@ Se videoen for at få at vide, hvordan du ændrer lister over personbeskyttelse 
 * [Tilføjelse af forekomster på listen Personbeskyttelse – Kilde][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

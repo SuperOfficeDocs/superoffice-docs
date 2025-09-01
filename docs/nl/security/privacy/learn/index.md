@@ -65,4 +65,4 @@ Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** h
 <!-- Referenced links -->
 [2]: ../admin/add-consent-purpose.md
 [3]: ../admin/add-legal-base.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[4]: ../admin/add-source.md

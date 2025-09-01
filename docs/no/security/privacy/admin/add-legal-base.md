@@ -34,6 +34,6 @@ Se videoen for å finne ut hvordan du endrer personvern lister (videolengde – 
 * [Legge til forekomster i listen Personvern - Kilde][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

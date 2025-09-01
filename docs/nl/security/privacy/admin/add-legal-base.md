@@ -34,6 +34,6 @@ Bekijk de video om te leren hoe u privacylijsten kunt wijzigen (videolengte - 3:
 * [Items toevoegen aan de lijst Privacy - Bron][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

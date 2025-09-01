@@ -34,6 +34,6 @@ Sehen Sie sich das Video an, um zu lernen, wie man die Datenschutzlisten ändert
 * [Objekte zur Liste Datenschutz - Nachweis hinzufügen][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

@@ -34,6 +34,6 @@ Den här filmen visar hur du ändrar integritetslistor (filmens längd: 3:57):
 * [Lägga till poster i listan Integritet – Källa][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

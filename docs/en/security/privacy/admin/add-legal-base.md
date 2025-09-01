@@ -34,6 +34,6 @@ Watch the video to learn how to change privacy lists (video length - 3:57):
 * [Add items to the Privacy - Source list][1]
 
 <!-- Referenced links -->
-[1]: privacy-source-add.md
+[1]: add-source.md
 
 <!-- Referenced images -->

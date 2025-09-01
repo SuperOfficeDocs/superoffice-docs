@@ -42,7 +42,7 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 [8]: application.md
 [9]: web-panel.md
 [10]: privacy-legal-base-add.md
-[11]: privacy-source-add.md
+[11]: ../../../security/privacy/admin/add-source.md
 [12]: ../../../project/admin/project-status.md
 [13]: ../../../project/admin/project-type.md
 [14]: sale-amount-class.md

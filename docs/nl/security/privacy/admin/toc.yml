@@ -6,6 +6,6 @@ items:
  - name: Rechtsgrondslag toevoegen
    href: add-legal-base.md
  - name: Privacybron toevoegen
-   href: ../../../admin/lists/learn/privacy-source-add.md
+   href: ../../../add-source.md
  - name: E-mail met privacybevestiging bewerken
    href: edit-privacy-confirmation-email.md

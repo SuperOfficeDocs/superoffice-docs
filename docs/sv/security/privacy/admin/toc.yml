@@ -6,6 +6,6 @@ items:
  - name: Lägga till rättslig grund
    href: add-legal-base.md
  - name: Lägga till integritetskälla
-   href: ../../../admin/lists/learn/privacy-source-add.md
+   href: ../../../add-source.md
  - name: Redigera e-postbekräftelse om personskydd
    href: edit-privacy-confirmation-email.md
