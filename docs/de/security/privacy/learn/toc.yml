@@ -11,4 +11,4 @@ items:
     href: mass-delete.md
   - name: Für Administratoren
     href: ../admin/toc.yml
-    topicHref: implementation-guide.md
+    topicHref: ../admin/index.md

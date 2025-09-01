@@ -1,6 +1,6 @@
 items:
  - name: Implementeringsguide
-   href: ../learn/implementation-guide.md
+   href: index.md
  - name: Lägga till samtyckessyfte
    href: add-consent-purpose.md
  - name: Lägga till rättslig grund

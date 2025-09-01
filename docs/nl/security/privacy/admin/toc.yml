@@ -1,6 +1,6 @@
 items:
  - name: Implementatiehandleiding
-   href: ../learn/implementation-guide.md
+   href: index.md
  - name: Toestemmingsdoel toevoegen
    href: add-consent-purpose.md
  - name: Rechtsgrondslag toevoegen

@@ -1,6 +1,6 @@
 items:
  - name: Implementierungsleitfaden
-   href: ../learn/implementation-guide.md
+   href: index.md
  - name: Einwilligungszweck hinzufügen
    href: add-consent-purpose.md
  - name: Rechtsgrundlage hinzufügen

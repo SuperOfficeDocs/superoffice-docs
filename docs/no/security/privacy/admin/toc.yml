@@ -1,6 +1,6 @@
 items:
  - name: Veiledning for implementering
-   href: ../learn/implementation-guide.md
+   href: index.md
  - name: Legge til samtykkeformål
    href: add-consent-purpose.md
  - name: Legge til juridisk grunnlag

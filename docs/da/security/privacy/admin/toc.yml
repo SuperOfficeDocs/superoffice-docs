@@ -1,6 +1,6 @@
 items:
  - name: Implementeringsguide
-   href: ../learn/implementation-guide.md
+   href: index.md
  - name: Tilføj samtykkeformål
    href: add-consent-purpose.md
  - name: Tilføj retsgrundlag
