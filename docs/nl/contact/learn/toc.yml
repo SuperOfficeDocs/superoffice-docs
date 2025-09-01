@@ -15,6 +15,3 @@ items:
   href: send-email.md
 - name: Personen bellen
   href: dial.md
-- name: Privacy-instellingen en AVG
-  href: ../../security/privacy/learn/toc.yml
-  topicHref: ../../security/privacy/learn/index.md

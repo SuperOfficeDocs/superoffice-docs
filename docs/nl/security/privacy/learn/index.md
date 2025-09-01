@@ -63,6 +63,6 @@ Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** h
 * [Items toevoegen aan de lijst Privacy - Bron][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
+[2]: ../admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

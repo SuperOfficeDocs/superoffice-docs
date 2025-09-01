@@ -9,3 +9,6 @@ items:
     href: generate-personal-data-report.md
   - name: Delete records permanently
     href: mass-delete.md
+  - name: For administrators
+    href: ../admin/toc.yml
+    topicHref: implementation-guide.md

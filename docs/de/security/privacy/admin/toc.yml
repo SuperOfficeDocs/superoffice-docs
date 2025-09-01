@@ -1,11 +1,11 @@
 items:
  - name: Implementierungsleitfaden
-   href: ../implementation-guide.md
+   href: ../learn/implementation-guide.md
  - name: Einwilligungszweck hinzufügen
    href: add-consent-purpose.md
  - name: Rechtsgrundlage hinzufügen
-   href: ../../../../admin/lists/learn/privacy-legal-base-add.md
+   href: ../../../admin/lists/learn/privacy-legal-base-add.md
  - name: Datenschutzquelle hinzufügen
-   href: ../../../../admin/lists/learn/privacy-source-add.md
+   href: ../../../admin/lists/learn/privacy-source-add.md
  - name: E-Mail zur Datenschutzbestätigung bearbeiten
-   href: ../edit-privacy-confirmation-email.md
+   href: ../learn/edit-privacy-confirmation-email.md

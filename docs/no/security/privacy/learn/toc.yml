@@ -9,3 +9,6 @@ items:
     href: generate-personal-data-report.md
   - name: Slett poster permanent
     href: mass-delete.md
+  - name: For administratorer
+    href: ../admin/toc.yml
+    topicHref: implementation-guide.md

@@ -9,3 +9,6 @@ items:
     href: generate-personal-data-report.md
   - name: Ta bort poster permanent
     href: mass-delete.md
+  - name: För administratörer
+    href: ../admin/toc.yml
+    topicHref: implementation-guide.md

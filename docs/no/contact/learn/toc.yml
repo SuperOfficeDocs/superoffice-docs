@@ -15,6 +15,3 @@ items:
   href: send-email.md
 - name: Ring en person
   href: dial.md
-- name: Personverninnstillinger og GDPR
-  href: ../../security/privacy/learn/toc.yml
-  topicHref: ../../security/privacy/learn/index.md
