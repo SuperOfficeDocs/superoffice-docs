@@ -9,6 +9,7 @@ content_type: concept
 version:
 deployment: online
 platform: web
+redirect_from: /en/document/cloud/legacy/office-365/
 index: true
 ---
 

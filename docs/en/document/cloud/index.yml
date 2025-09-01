@@ -8,7 +8,7 @@ metadata:
   title: Cloud document integrations
   description: ""
   ms.topic: landing-page
-  ms.date: 06.20.2022
+  ms.date: 09.01.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -79,28 +79,3 @@ landingContent:
             url: g-suite/set-up.md
           - text: Configure
             url: g-suite/configure.md
-
-# Card
-  - title: Microsoft 365 document integration (legacy)
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-          - text: Introduction
-            url: legacy/office-365/index.md
-          - text: Security
-            url: legacy/office-365/security.md
-      - itemType: library_books
-        typeDesc: reference
-        links:
-          - text: Requirements
-            url: legacy/office-365/requirements.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Prepare SharePoint for set-up
-            url: legacy/office-365/prepare-sharepoint.md
-          - text: Set up
-            url: legacy/office-365/set-up.md
-          - text: Troubleshooting
-            url: legacy/office-365/troubleshooting.md
