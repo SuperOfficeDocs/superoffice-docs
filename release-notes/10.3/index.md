@@ -197,6 +197,6 @@ See all the [new or updated apps][5]
 [48]: service/10.3.11-update.md
 [49]: core-crm/10.3.12-update.md
 [50]: marketing/10.3.12-update.md
-[51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+[51]: ../../integrations/superoffice-for-outlook/index.md
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
 [53]: https://help.superoffice.com/docs/10.3/en/learn/index.html

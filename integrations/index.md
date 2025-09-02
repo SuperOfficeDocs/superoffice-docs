@@ -11,3 +11,10 @@ audience_tooltip: SuperOffice CRM
 ---
 
 # SuperOffice integrations
+
+## Email
+
+* [SuperOffice for Outlook][1]
+
+<!-- Referenced links -->
+[1]: superoffice-for-outlook/index.md

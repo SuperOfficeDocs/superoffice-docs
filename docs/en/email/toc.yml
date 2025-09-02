@@ -7,15 +7,6 @@ items:
     items:
     - name: Debug
       href: mail-link/debug.md
-  - name: SuperOffice for Outlook
-    topicHref: superoffice-for-outlook/learn/index.md
-    items:
-    - name: User guide
-      topicHref: superoffice-for-outlook/learn/index.md
-    - name: Requirements
-      topicHref: superoffice-for-outlook/learn/requirements.md
-    - name: Deploy centrally
-      href: superoffice-for-outlook/it/deploy.md
   - name: Mailgun
     href: mailgun/toc.yml
     topicHref: mailgun/index.yml
