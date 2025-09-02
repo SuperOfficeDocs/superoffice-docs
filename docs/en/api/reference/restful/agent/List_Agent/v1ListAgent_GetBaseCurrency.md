@@ -2,6 +2,7 @@
 title: POST Agents/List/GetBaseCurrency
 uid: v1ListAgent_GetBaseCurrency
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetBaseCurrency
@@ -81,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 505,
-  "Name": "Schumm, Hudson and Braun",
-  "Tooltip": "excepturi",
-  "Rank": 622,
-  "Rate": 10323.395999999999,
-  "Units": 13914.96,
+  "CurrencyId": 817,
+  "Name": "Wisoky LLC",
+  "Tooltip": "ab",
+  "Rank": 811,
+  "Rate": 12225.734,
+  "Units": 8229.884,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 500
     }
   }
 }

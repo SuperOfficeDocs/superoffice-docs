@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ForceResyncBatchTask SOAP
 generated: true
 uid: Services88-ErpSync-ForceResyncBatchTask
+content_type: reference
 ---
 
 # Services88 ErpSync ForceResyncBatchTask

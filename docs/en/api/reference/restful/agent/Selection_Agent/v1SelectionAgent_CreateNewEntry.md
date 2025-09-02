@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateNewEntry
 uid: v1SelectionAgent_CreateNewEntry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateNewEntry
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-897
+755
 ```

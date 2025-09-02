@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/CreateErpActorFromCrm
 uid: v1ErpSyncAgent_CreateErpActorFromCrm
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/CreateErpActorFromCrm
@@ -74,17 +75,17 @@ OK
 POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 297,
-  "CrmEntityId": 429,
+  "ConnectionId": 871,
+  "CrmEntityId": 718,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "molestias",
-    "ErpFieldKeyValues2": "quisquam"
+    "ErpFieldKeyValues1": "in",
+    "ErpFieldKeyValues2": "laboriosam"
   }
 }
 ```

@@ -1,6 +1,8 @@
 ---
+uid: tag-TableRecord
 title: TableRecord
 generated: true
+content_type: reference
 ---
 
 ```http

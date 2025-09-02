@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.MoveErpFieldItem SOAP
 generated: true
 uid: Services88-ErpSync-MoveErpFieldItem
+content_type: reference
 ---
 
 # Services88 ErpSync MoveErpFieldItem

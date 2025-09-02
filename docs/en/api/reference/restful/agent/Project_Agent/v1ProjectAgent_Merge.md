@@ -2,6 +2,7 @@
 title: POST Agents/Project/Merge
 uid: v1ProjectAgent_Merge
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/Merge
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/Project/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 789,
-  "DestinationProjectId": 312,
+  "SourceProjectId": 932,
+  "DestinationProjectId": 375,
   "ReplaceEmptyFieldsOnDestination": true
 }
 ```

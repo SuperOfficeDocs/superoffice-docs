@@ -2,6 +2,7 @@
 title: GET List/ProductType/MDOItems
 uid: v1ProductTypeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=dolorem
+GET /api/v1/List/ProductType/MDOItems?query=sequi
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Bradtke Group",
-    "ToolTip": "Qui quos dolor ex fugit.",
-    "Deleted": true,
-    "Rank": 983,
-    "Type": "non",
+    "Id": 549,
+    "Name": "McClure-Lemke",
+    "ToolTip": "Doloribus dignissimos sit iste.",
+    "Deleted": false,
+    "Rank": 113,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Rowe-Yundt",
-        "ToolTip": "Amet quas consequatur nostrum ratione consequatur omnis animi.",
-        "Deleted": false,
-        "Rank": 761,
-        "Type": "natus",
+        "Id": 389,
+        "Name": "Raynor, Balistreri and Wunsch",
+        "ToolTip": "Sit aperiam labore rerum corrupti voluptatem perspiciatis et.",
+        "Deleted": true,
+        "Rank": 493,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 547,
-        "ExtraInfo": "minima",
-        "StyleHint": "sunt",
-        "FullName": "Stanford Dora Lockman III",
+        "IconHint": "fuga",
+        "ColorBlock": 80,
+        "ExtraInfo": "beatae",
+        "StyleHint": "id",
+        "FullName": "Cedrick Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 783
+            "FieldType": "System.String",
+            "FieldLength": 510
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 106,
-    "ExtraInfo": "ex",
-    "StyleHint": "provident",
-    "FullName": "Arnoldo Windler",
+    "IconHint": "rem",
+    "ColorBlock": 439,
+    "ExtraInfo": "totam",
+    "StyleHint": "numquam",
+    "FullName": "Mr. Coralie Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 124
       }
     }
   }

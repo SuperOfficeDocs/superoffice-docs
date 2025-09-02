@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetUnparsedTemplate
 uid: v1CustomerServiceAgent_GetUnparsedTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetUnparsedTemplate
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 991,
-  "LanguageId": 863
+  "ReplyTemplateId": 749,
+  "LanguageId": 31
 }
 ```
 
@@ -96,36 +97,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 899,
-  "PlainParsed": "autem",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 763,
+  "PlainParsed": "deserunt",
+  "HtmlParsed": "est",
   "Attachments": [
     {
-      "AttachmentId": 875,
-      "Name": "Gerhold, Kautzer and Kovacek",
-      "ContentType": "quis",
-      "AttSize": 968,
+      "AttachmentId": 318,
+      "Name": "Langosh, Wuckert and Tillman",
+      "ContentType": "adipisci",
+      "AttSize": 901,
       "InlineImage": false,
-      "ContentId": "placeat",
-      "AuthKey": "earum",
+      "ContentId": "tempora",
+      "AuthKey": "itaque",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 946
         }
       }
     }
   ],
-  "Subject": "omnis",
+  "Subject": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   }
 }

@@ -3,9 +3,9 @@ uid: FreetextTicket
 title: FreetextTicket
 description: Combined multi-query ticket search provider supporting freetext and finding ticket by ID.
 keywords: FreetextTicket archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FreetextTicket"
@@ -147,6 +147,12 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |ownedBy/personEmail|string|Owner - E-mail| x |
 |ownedBy/locationAddress|string|Owner - Location: Location| x |
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |person/personId|int|DB ID: Displays the database ID of a contact| x |
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
@@ -219,16 +225,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
 |person/personUrl/URLDescription|string|Description| x |
 |person/personAddress/addressId|int|Contact address - Address ID: Database ID for the address record| x |
 |person/personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |person/personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
 |person/personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -323,16 +329,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/associateDbId|associate|ID| x |
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
@@ -427,16 +433,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 |contact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |contact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
@@ -531,16 +537,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/saintSaleStatus|listAny|With status|  |
 |contact/saintAmountClass|listAny|Amount class|  |
 |contact/saintActivityType|listAny|SAINT type|  |
@@ -635,16 +641,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/associate/assocName|associate|User ID : User ID| x |
 |sale/associate/assocTooltip|string|Description : Description|  |
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -739,16 +745,16 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
 |project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -778,7 +784,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=firstReadByOwner,person/personAddress/formattedMultiLineAddress,person/correspondingAssociate/isActiveText,contact/updatedByFullName,contact/restrictionAddress/zip
+GET /api/v1/archive/FreetextTicket?$select=closedAt,person/correspondingAssociate/personEmail,contact/contactUdef/SuperOffice:8,sale/stageName,sale/salePublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

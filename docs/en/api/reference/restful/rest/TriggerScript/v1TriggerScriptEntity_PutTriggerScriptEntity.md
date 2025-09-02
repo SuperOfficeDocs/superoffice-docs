@@ -2,6 +2,7 @@
 title: PUT TriggerScript/{id}
 uid: v1TriggerScriptEntity_PutTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # PUT TriggerScript/{id}
@@ -103,16 +104,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 863,
-  "Name": "Yundt LLC",
+  "ScreenChooserId": 408,
+  "Name": "Zieme, Baumbach and Cummings",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "aut",
-  "Registered": "2010-08-13T03:45:28.7952992+02:00",
-  "RegisteredAssociateId": 283,
-  "Updated": "2004-03-03T03:45:28.7952992+01:00",
-  "UpdatedAssociateId": 851
+  "UniqueIdentifier": "dolore",
+  "Source": "facilis",
+  "Registered": "2012-04-14T03:47:00.3943072+02:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2011-01-23T03:47:00.3943072+01:00",
+  "UpdatedAssociateId": 640
 }
 ```
 
@@ -123,27 +124,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 358,
-  "Name": "Olson Inc and Sons",
+  "ScreenChooserId": 506,
+  "Name": "Wiegand, Hodkiewicz and Dietrich",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ratione",
-  "Source": "est",
-  "Registered": "1999-03-27T03:45:28.7952992+01:00",
-  "RegisteredAssociateId": 547,
-  "Updated": "2017-04-01T03:45:28.7952992+02:00",
-  "UpdatedAssociateId": 618,
+  "UniqueIdentifier": "deserunt",
+  "Source": "nobis",
+  "Registered": "1998-12-12T03:47:00.3943072+01:00",
+  "RegisteredAssociateId": 206,
+  "Updated": "2011-05-10T03:47:00.3943072+02:00",
+  "UpdatedAssociateId": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

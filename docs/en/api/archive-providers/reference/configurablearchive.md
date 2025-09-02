@@ -3,9 +3,9 @@ uid: ConfigurableArchive
 title: ConfigurableArchive
 description: Configurable archive with OR-able restriction groups.
 keywords: ConfigurableArchive archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchive"

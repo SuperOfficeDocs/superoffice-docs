@@ -2,6 +2,7 @@
 title: POST List/ProjectStatus/Items
 uid: v1ProjectStatusList_PostProjectStatus
 generated: true
+content_type: reference
 ---
 
 # POST List/ProjectStatus/Items
@@ -77,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Kozey Group",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 581,
-  "Rank": 628
+  "Id": 267,
+  "Name": "McGlynn Inc and Sons",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "UdListDefinitionId": 44,
+  "Rank": 760
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283,
-  "Name": "Kovacek LLC",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "UdListDefinitionId": 160,
-  "Rank": 123,
+  "Id": 542,
+  "Name": "Stiedemann, Davis and Donnelly",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "UdListDefinitionId": 211,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 371
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetListItem
 uid: v1MDOAgent_GetListItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetListItem
@@ -89,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Beatty, Schultz and Hartmann",
-  "Id": 296
+  "ListName": "Weissnat, Greenholt and Jakubowski",
+  "Id": 997
 }
 ```
 
@@ -101,50 +102,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Koelpin-Hirthe",
-  "ToolTip": "Et quasi.",
-  "Deleted": false,
-  "Rank": 229,
-  "Type": "quas",
+  "Id": 773,
+  "Name": "Effertz, Murray and Feeney",
+  "ToolTip": "Dolor consequatur eum error ut et maxime.",
+  "Deleted": true,
+  "Rank": 354,
+  "Type": "ut",
   "ChildItems": [
     {
-      "Id": 427,
-      "Name": "Schuppe-Kilback",
-      "ToolTip": "Quisquam id.",
-      "Deleted": false,
-      "Rank": 641,
-      "Type": "dolores",
+      "Id": 986,
+      "Name": "Gislason Inc and Sons",
+      "ToolTip": "Modi mollitia est tempore soluta.",
+      "Deleted": true,
+      "Rank": 795,
+      "Type": "consequuntur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "neque",
-      "ColorBlock": 434,
-      "ExtraInfo": "commodi",
-      "StyleHint": "fugiat",
-      "FullName": "Dedrick Wiza",
+      "IconHint": "saepe",
+      "ColorBlock": 238,
+      "ExtraInfo": "nisi",
+      "StyleHint": "sed",
+      "FullName": "Merle Wilkinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 882
         }
       }
     }
   ],
-  "IconHint": "molestiae",
-  "ColorBlock": 630,
-  "ExtraInfo": "consequatur",
-  "StyleHint": "porro",
-  "FullName": "Mrs. Justyn Robyn Christiansen PhD",
+  "IconHint": "ut",
+  "ColorBlock": 375,
+  "ExtraInfo": "et",
+  "StyleHint": "voluptate",
+  "FullName": "Tyreek Meaghan Schmeler IV",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 275
     }
   }
 }

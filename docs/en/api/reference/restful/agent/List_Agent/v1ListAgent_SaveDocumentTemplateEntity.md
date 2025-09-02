@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveDocumentTemplateEntity
 uid: v1ListAgent_SaveDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveDocumentTemplateEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 ```
 
-Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is empty
+Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: documentTemplateEntity 
 
-The DocumentTemplateEntity to be saved. 
+The DocumentTemplateEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,30 +116,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 440,
-  "Name": "Blick, Aufderhar and Bernier",
-  "Tooltip": "voluptas",
-  "SaveInDb": 289,
-  "Filename": "magni",
-  "DefaultOref": "voluptas",
+  "DocumentTemplateId": 309,
+  "Name": "Volkman, Murazik and Heaney",
+  "Tooltip": "et",
+  "SaveInDb": 175,
+  "Filename": "quo",
+  "DefaultOref": "sint",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 640,
-  "IntentId": 34,
+  "AutoeventId": 822,
+  "IntentId": 997,
   "IsDefaultPublished": true,
-  "Rank": 781,
-  "LoadTemplateFromPlugin": 964,
-  "MimeType": "non",
+  "Rank": 955,
+  "LoadTemplateFromPlugin": 609,
+  "MimeType": "occaecati",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 204,
+  "DocumentTypeKey": 620,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "julia@nicolas.uk",
+  "EmailSubject": "luna@luettgen.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ara_wolff@feil.co.uk",
+  "SenderEmailAddress": "oda@wisoky.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 354,
-  "Name": "Dooley Group",
-  "Tooltip": "aut",
-  "SaveInDb": 859,
-  "Filename": "molestiae",
-  "DefaultOref": "repellendus",
+  "DocumentTemplateId": 910,
+  "Name": "Kuhn, O'Conner and Schneider",
+  "Tooltip": "excepturi",
+  "SaveInDb": 562,
+  "Filename": "et",
+  "DefaultOref": "nobis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 841,
-  "IntentId": 175,
+  "AutoeventId": 754,
+  "IntentId": 674,
   "IsDefaultPublished": false,
-  "Rank": 958,
-  "LoadTemplateFromPlugin": 982,
-  "MimeType": "sit",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 295,
+  "Rank": 207,
+  "LoadTemplateFromPlugin": 894,
+  "MimeType": "deserunt",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 343,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "abagail_swaniawski@koelpinbarton.name",
-  "IncludeSignature": false,
+  "EmailSubject": "lourdes@hayes.biz",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "charlotte@johnson.biz",
+  "SenderEmailAddress": "maddison.smitham@gutmannpacocha.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 971
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-dashboard_theme
 title: dashboard_theme table
 description: A set of style rules for the Dashboard
-so.generated: true
+generated: true
 keywords: database table dashboard_theme
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # dashboard\_theme Table (480)

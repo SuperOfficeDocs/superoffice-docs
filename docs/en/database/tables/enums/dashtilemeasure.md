@@ -2,10 +2,10 @@
 uid: enum-dashtilemeasure
 title: Enum values for DashTileMeasure
 description: Lists the enum values for DashTileMeasure.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DashTileMeasure Enum

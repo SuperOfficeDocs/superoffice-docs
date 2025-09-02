@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Items
 uid: v1SelectionCategoryList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Jenkins Inc and Sons",
-    "Tooltip": "provident",
+    "Id": 226,
+    "Name": "Kuvalis LLC",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "UdListDefinitionId": 833,
-    "Rank": 439,
+    "UdListDefinitionId": 414,
+    "Rank": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: table-email_account
 title: email_account table
 description: Email account information
-so.generated: true
+generated: true
 keywords: database table email_account
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # email\_account Table (486)

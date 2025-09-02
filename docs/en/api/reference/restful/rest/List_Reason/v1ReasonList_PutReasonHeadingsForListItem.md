@@ -2,6 +2,7 @@
 title: PUT List/Reason/Items/{id}/Headings
 uid: v1ReasonList_PutReasonHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason/Items/{id}/Headings
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "Keebler-Kuhn",
-    "ToolTip": "Delectus molestiae voluptate deserunt repellat.",
+    "Id": 640,
+    "Name": "Pollich Inc and Sons",
+    "ToolTip": "Voluptate quibusdam ut officiis excepturi.",
     "Deleted": true,
-    "Rank": 972,
-    "Type": "qui",
-    "ColorBlock": 105,
-    "IconHint": "sed",
+    "Rank": 560,
+    "Type": "optio",
+    "ColorBlock": 319,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2017-11-19T03:45:29.2015441+01:00",
+    "LastChanged": "2008-02-21T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Langosh, Cormier and Gerhold",
-        "ToolTip": "Eos eveniet incidunt quia.",
+        "Id": 286,
+        "Name": "Padberg, Ratke and Cummings",
+        "ToolTip": "In rem quidem ducimus et eos nulla vero.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "sunt",
-        "ColorBlock": 363,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2008-04-27T03:45:29.2015441+02:00",
+        "Rank": 787,
+        "Type": "reiciendis",
+        "ColorBlock": 430,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2004-12-23T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Justice Carter Sr."
+        "ExtraInfo": "veritatis",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Junior Mosciski MD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Ilene Kuhlman"
+    "ExtraInfo": "tempora",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Mr. Isabelle Bahringer III"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Rice-Schaden",
-    "ToolTip": "Quas deserunt aut iusto eos molestiae.",
-    "Deleted": true,
-    "Rank": 28,
-    "Type": "molestiae",
-    "ColorBlock": 585,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2006-09-01T03:45:29.2015441+02:00",
+    "Id": 121,
+    "Name": "Wilkinson Group",
+    "ToolTip": "Hic magnam.",
+    "Deleted": false,
+    "Rank": 906,
+    "Type": "velit",
+    "ColorBlock": 631,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2022-01-29T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 344,
-        "Name": "Brakus LLC",
-        "ToolTip": "Et quibusdam rerum totam.",
+        "Id": 968,
+        "Name": "Brekke, Russel and Daugherty",
+        "ToolTip": "Molestiae tenetur deserunt fugiat atque similique.",
         "Deleted": false,
-        "Rank": 672,
-        "Type": "dolor",
-        "ColorBlock": 88,
-        "IconHint": "eaque",
-        "Selected": false,
-        "LastChanged": "2001-05-14T03:45:29.2015441+02:00",
+        "Rank": 397,
+        "Type": "consequatur",
+        "ColorBlock": 892,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "2015-03-18T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
+        "ExtraInfo": "eum",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Josephine Weber",
+        "FullName": "Ben Douglas MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldType": "System.String",
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Tyrique Satterfield",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Ottilie Sage Collier III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   }

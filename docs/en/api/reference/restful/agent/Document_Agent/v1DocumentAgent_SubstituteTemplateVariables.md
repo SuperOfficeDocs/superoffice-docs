@@ -2,6 +2,7 @@
 title: POST Agents/Document/SubstituteTemplateVariables
 uid: v1DocumentAgent_SubstituteTemplateVariables
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SubstituteTemplateVariables
@@ -77,19 +78,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "repellat",
+  "Source": "placeat",
   "GeneratorEncoding": "Html",
-  "ContactId": 77,
-  "PersonId": 225,
-  "AppointmentId": 941,
-  "DocumentId": 748,
-  "SaleId": 391,
-  "SelectionId": 697,
-  "ProjectId": 465,
+  "ContactId": 216,
+  "PersonId": 602,
+  "AppointmentId": 13,
+  "DocumentId": 620,
+  "SaleId": 849,
+  "SelectionId": 695,
+  "ProjectId": 968,
   "CultureName": "sv"
 }
 ```
@@ -100,5 +101,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"officia"
+"maiores"
 ```

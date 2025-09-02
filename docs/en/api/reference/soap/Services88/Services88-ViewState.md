@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-ViewState
 title: Services88.ViewStateAgent WSDL
+content_type: reference
 ---
 
 # Services88.ViewStateAgent WSDL

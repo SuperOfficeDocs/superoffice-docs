@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetPriceList
 uid: v1QuoteAgent_GetPriceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetPriceList
@@ -22,11 +23,11 @@ Gets a PriceList object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| priceListId | int32 | **Required** The primary key. |
+| priceListId | int32 | **Required** The identifier of the PriceList object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=416
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=384
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 663,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 311,
-  "Name": "Johns-Lynch",
-  "Description": "Stand-alone mobile core",
-  "Currency": "ut",
-  "CurrencyName": "Miller-Von",
-  "ValidFrom": "2023-08-30T03:45:23.8110701+02:00",
-  "ValidTo": "2018-05-17T03:45:23.8110701+02:00",
+  "PriceListId": 370,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 321,
+  "Name": "Farrell-Hackett",
+  "Description": "Up-sized multi-state intranet",
+  "Currency": "quia",
+  "CurrencyName": "McClure-Kris",
+  "ValidFrom": "2021-07-05T03:46:55.2069913+02:00",
+  "ValidTo": "2018-10-18T03:46:55.2069913+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 770
     }
   }
 }

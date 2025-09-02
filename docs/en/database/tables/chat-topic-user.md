@@ -2,10 +2,10 @@
 uid: table-chat_topic_user
 title: chat_topic_user table
 description: This table connected the chat topics with the users (i.e. the membership).
-so.generated: true
+generated: true
 keywords: database table chat_topic_user
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # chat\_topic\_user Table (331)

@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.GetRegisteredDevices SOAP
 generated: true
 uid: Services88-Pocket-GetRegisteredDevices
+content_type: reference
 ---
 
 # Services88 Pocket GetRegisteredDevices

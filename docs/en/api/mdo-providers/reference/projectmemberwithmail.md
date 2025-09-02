@@ -3,9 +3,9 @@ uid: projectmemberwithmail
 title: projectmemberwithmail
 keywords: mdoprovider mdo provider projectmemberwithmail
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "projectmemberwithmail" MDO List

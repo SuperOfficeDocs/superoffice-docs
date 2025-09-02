@@ -2,6 +2,7 @@
 title: PUT List/Priority
 uid: v1PriorityList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Eichmann-Cronin",
-  "Tooltip": "quibusdam",
+  "Id": 838,
+  "Name": "Grimes Group",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 358,
+  "Rank": 211,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": true
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Eichmann LLC",
-  "Tooltip": "cum",
+  "Id": 135,
+  "Name": "McCullough, Rice and Cartwright",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 670,
+  "Rank": 952,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 435
     }
   }
 }

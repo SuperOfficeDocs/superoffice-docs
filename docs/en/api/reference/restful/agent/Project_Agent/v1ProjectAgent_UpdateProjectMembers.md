@@ -2,6 +2,7 @@
 title: POST Agents/Project/UpdateProjectMembers
 uid: v1ProjectAgent_UpdateProjectMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/UpdateProjectMembers
@@ -71,30 +72,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 327,
+  "ProjectId": 791,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 613,
-      "ContactId": 103,
-      "ProjectId": 62,
-      "ContactName": "Hintz-Shanahan",
+      "ProjectmemberId": 395,
+      "ContactId": 553,
+      "ProjectId": 337,
+      "ContactName": "Gleichner Group",
       "ContactDepartment": "",
-      "ProjectName": "Hilll Group",
-      "EmailId": 369,
-      "EmailAddress": "taurean_bauch@schmidtstoltenberg.co.uk",
-      "CountryId": 765,
-      "Firstname": "Fanny",
-      "MiddleName": "Hermiston-Little",
-      "Lastname": "Anderson",
-      "PersonId": 199,
-      "Mrmrs": "sed",
-      "ProjectMemberTypeName": "Bergstrom-Konopelski",
-      "Phone": "(795)284-8077",
-      "PhoneId": 223,
-      "ProjectMemberTypeId": 174,
-      "EmailAddressName": "ilene@gerlach.ca",
-      "Comment": "nostrum",
-      "FullName": "Abdullah Gaston Breitenberg Jr."
+      "ProjectName": "Murray, Beer and Sanford",
+      "EmailId": 957,
+      "EmailAddress": "kailee.watsica@beahan.info",
+      "CountryId": 832,
+      "Firstname": "Nils",
+      "MiddleName": "Daniel-Beer",
+      "Lastname": "Leuschke",
+      "PersonId": 805,
+      "Mrmrs": "delectus",
+      "ProjectMemberTypeName": "Kuhn LLC",
+      "Phone": "831.490.0324 x171",
+      "PhoneId": 373,
+      "ProjectMemberTypeId": 763,
+      "EmailAddressName": "fabiola@huel.info",
+      "Comment": "autem",
+      "FullName": "Marcus Bashirian"
     }
   ]
 }

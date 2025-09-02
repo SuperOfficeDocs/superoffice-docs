@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/SaveCustomerCenterConfig
 uid: v1CustomerServiceAgent_SaveCustomerCenterConfig
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/SaveCustomerCenterConfig
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 ```
 
-Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
+Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: customerCenterConfig 
 
-The CustomerCenterConfig to be saved. 
+The CustomerCenterConfig that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,18 +78,18 @@ OK
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 26,
+  "CustConfigId": 578,
   "Type": "Options",
-  "Config": "quos",
-  "CustLangId": 370,
-  "Registered": "2017-12-26T03:45:23.2485827+01:00",
-  "RegisteredAssociateId": 93,
-  "Updated": "2007-03-27T03:45:23.2485827+02:00",
-  "UpdatedAssociateId": 667
+  "Config": "aliquid",
+  "CustLangId": 58,
+  "Registered": "2004-01-29T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 357,
+  "Updated": "2001-03-24T03:46:54.5820132+01:00",
+  "UpdatedAssociateId": 456
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 483,
+  "CustConfigId": 290,
   "Type": "Options",
-  "Config": "et",
-  "CustLangId": 893,
-  "Registered": "2024-05-22T03:45:23.2485827+02:00",
-  "RegisteredAssociateId": 937,
-  "Updated": "2023-01-05T03:45:23.2485827+01:00",
-  "UpdatedAssociateId": 198,
+  "Config": "qui",
+  "CustLangId": 704,
+  "Registered": "2014-01-26T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 961,
+  "Updated": "2016-06-13T03:46:54.5820132+02:00",
+  "UpdatedAssociateId": 826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Competitor
 title: List_Competitor
 generated: true
+content_type: reference
 ---
 
 ```http

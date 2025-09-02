@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/SaveWithCustomInvitation
 uid: v1AppointmentAgent_SaveWithCustomInvitation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/SaveWithCustomInvitation
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +91,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "bridgette@shanahan.co.uk",
-  "Subject": "neque",
-  "TemplateLanguage": "veritatis"
+  "EmailBody": "amy@beier.name",
+  "Subject": "quia",
+  "TemplateLanguage": "sit"
 }
 ```
 
@@ -109,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

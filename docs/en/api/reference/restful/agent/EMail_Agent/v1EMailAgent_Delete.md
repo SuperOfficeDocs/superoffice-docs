@@ -2,6 +2,7 @@
 title: POST Agents/EMail/Delete
 uid: v1EMailAgent_Delete
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/Delete
@@ -74,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    741,
-    959
+    572,
+    558
   ],
-  "MoveToFolder": "voluptatum"
+  "MoveToFolder": "ad"
 }
 ```
 

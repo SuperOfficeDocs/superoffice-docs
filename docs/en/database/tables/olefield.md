@@ -2,10 +2,10 @@
 uid: table-OLEField
 title: OLEField table
 description: Control data table for the OLE DB Provider
-so.generated: true
+generated: true
 keywords: database table OLEField
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # OLEField Table (165)

@@ -63,6 +63,8 @@ items:
     href: Archive/v1Archive_GetArchive.md
   - name: GET Archive/{archiveProviderName}
     href: Archive/v1Archive_GetArchive_GET.md
+  - name: GET Archive/{archiveProviderName}/$metadata
+    href: Archive/v1Archive_GetArchiveMetadata.md
 - name: Attachment
   href: Attachment/index.md
   items:
@@ -2185,6 +2187,8 @@ items:
     href: Person/v1PersonEntity_GetPersonSummary.md
   - name: GET Person/{id}/Tickets
     href: Person/v1PersonEntity_Tickets.md
+  - name: GET Person/{id}/UtmParameters
+    href: Person/v1PersonEntity_GetUtmParameters.md
   - name: GET Person/CustomField
     href: Person/v1PersonEntity_GetCustomFieldInfoList.md
   - name: GET Person/CustomField/{fieldName}

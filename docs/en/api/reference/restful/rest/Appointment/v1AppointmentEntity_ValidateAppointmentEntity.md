@@ -2,6 +2,7 @@
 title: POST Appointment/Validate
 uid: v1AppointmentEntity_ValidateAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Appointment/Validate
@@ -125,106 +126,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-10-15T03:45:28.0765734+02:00",
-  "AppointmentId": 778,
-  "Description": "Digitized disintermediate capacity",
-  "Title": "sequi",
-  "Agenda": "eaque",
-  "InternalNotes": "mollitia",
-  "StartDate": "2009-11-07T03:45:28.0765734+01:00",
-  "EndDate": "2011-06-23T03:45:28.0765734+02:00",
+  "CreatedDate": "2021-10-12T03:46:59.7068256+02:00",
+  "AppointmentId": 579,
+  "Description": "Switchable background toolset",
+  "Title": "repellendus",
+  "Agenda": "qui",
+  "InternalNotes": "reiciendis",
+  "StartDate": "2009-05-12T03:46:59.7068256+02:00",
+  "EndDate": "2021-12-29T03:46:59.7068256+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 256,
+  "MotherId": 175,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-10-18T03:45:28.0765734+02:00",
+  "UpdatedDate": "2006-12-29T03:46:59.7068256+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 314,
+  "ActiveLinks": 355,
   "Links": [
     {
-      "EntityName": "Fay Inc and Sons",
-      "Id": 105,
-      "Description": "Assimilated heuristic website",
-      "ExtraInfo": "saepe",
-      "LinkId": 445
+      "EntityName": "Erdman LLC",
+      "Id": 934,
+      "Description": "Advanced human-resource conglomeration",
+      "ExtraInfo": "itaque",
+      "LinkId": 152
     },
     {
-      "EntityName": "Fay Inc and Sons",
-      "Id": 105,
-      "Description": "Assimilated heuristic website",
-      "ExtraInfo": "saepe",
-      "LinkId": 445
+      "EntityName": "Erdman LLC",
+      "Id": 934,
+      "Description": "Advanced human-resource conglomeration",
+      "ExtraInfo": "itaque",
+      "LinkId": 152
     }
   ],
-  "AlarmLeadTime": "reiciendis",
-  "HasAlarm": true,
-  "ColorIndex": 460,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptas",
-  "LeadTime": "cumque",
-  "Location": "asperiores",
-  "RejectCounter": 248,
-  "RejectReason": "brand value-added channels",
+  "AlarmLeadTime": "iure",
+  "HasAlarm": false,
+  "ColorIndex": 350,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "ipsam",
+  "LeadTime": "nulla",
+  "Location": "et",
+  "RejectCounter": 648,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 280,
-      "PersonId": 528,
-      "ContactId": 941,
-      "EmailId": 960,
+      "AssociateId": 632,
+      "PersonId": 192,
+      "ContactId": 943,
+      "EmailId": 878,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dale_weber@okuneva.biz",
-      "Description": "Business-focused object-oriented definition"
+      "EmailAddress": "gerson_wintheiser@toy.info",
+      "Description": "Centralized needs-based approach"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-11-22T03:45:28.0765734+01:00",
+  "ActiveDate": "2020-03-28T03:46:59.7068256+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 110,
+  "PreferredTZLocation": 278,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 402,
+  "SuggestedAppointmentId": 703,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "laborum",
   "UserDefinedFields": {
-    "SuperOffice:1": "1455002212",
-    "SuperOffice:2": "Miss Payton Cathy Becker II"
+    "SuperOffice:1": "374616537",
+    "SuperOffice:2": "Peggie Bradtke"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2021-02-27T03:45:28.0765734+01:00",
-  "PublishTo": "2008-03-29T03:45:28.0765734+01:00",
-  "PublishFrom": "2006-01-27T03:45:28.0765734+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2003-10-16T03:46:59.7068256+02:00",
+  "PublishTo": "2007-12-15T03:46:59.7068256+01:00",
+  "PublishFrom": "2018-12-18T03:46:59.7068256+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 264,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "voluptates"
+      "DisplayValue": "minima"
     },
     {
-      "VisibleId": 264,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "voluptates"
+      "DisplayValue": "minima"
     }
   ]
 }
@@ -238,6 +239,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "qui",
-  "2": "magnam"
+  "2": "dolores"
 }
 ```

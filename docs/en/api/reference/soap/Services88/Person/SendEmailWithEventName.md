@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SendEmailWithEventName SOAP
 generated: true
 uid: Services88-Person-SendEmailWithEventName
+content_type: reference
 ---
 
 # Services88 Person SendEmailWithEventName

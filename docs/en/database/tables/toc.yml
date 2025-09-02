@@ -55,6 +55,8 @@ items:
   href: binaryobject.md
 - name: BinaryObjectLink
   href: binaryobjectlink.md
+- name: board_view_settings
+  href: board-view-settings.md
 - name: Business
   href: business.md
 - name: BusinessGroupLink
@@ -1033,6 +1035,8 @@ items:
   href: userpreference.md
 - name: UserRoleLink
   href: userrolelink.md
+- name: utm_parameters
+  href: utm-parameters.md
 - name: VisibleFor
   href: visiblefor.md
 - name: WebAppUsage
@@ -1099,6 +1103,10 @@ items:
     href: enums/badgetype.md
   - name: BlobLinkType
     href: enums/bloblinktype.md
+  - name: BoardViewEntityType
+    href: enums/boardviewentitytype.md
+  - name: CategoryGroup
+    href: enums/categorygroup.md
   - name: CcTemplateType
     href: enums/cctemplatetype.md
   - name: ChatMessageSpecialType
@@ -1153,6 +1161,8 @@ items:
     href: enums/doctmpltype.md
   - name: DurationUnit
     href: enums/durationunit.md
+  - name: EjScriptVerb
+    href: enums/ejscriptverb.md
   - name: ElementStatus
     href: enums/elementstatus.md
   - name: EmailAccountStatus

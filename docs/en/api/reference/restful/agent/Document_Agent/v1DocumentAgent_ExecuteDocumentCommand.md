@@ -2,6 +2,7 @@
 title: POST Agents/Document/ExecuteDocumentCommand
 uid: v1DocumentAgent_ExecuteDocumentCommand
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/ExecuteDocumentCommand
@@ -80,20 +81,20 @@ OK
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 352,
-  "VersionId": "aut",
+  "DocumentId": 944,
+  "VersionId": "est",
   "AllowedReturnTypes": [
-    "qui",
-    "sequi"
+    "accusantium",
+    "sed"
   ],
-  "Command": "in",
+  "Command": "occaecati",
   "AdditionalData": [
-    "eveniet",
-    "aut"
+    "unde",
+    "quasi"
   ]
 }
 ```
@@ -105,11 +106,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ullam",
-  "VersionId": "dolorem",
-  "Success": false,
+  "ExternalReference": "delectus",
+  "VersionId": "qui",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "unde",
-  "AdditionalInfo": "sed"
+  "Value": "repudiandae",
+  "AdditionalInfo": "hic"
 }
 ```

@@ -2,6 +2,7 @@
 title: POST List/UserGroup/Headings
 uid: v1UserGroupList_PostUserGroupHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/UserGroup/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 132,
-  "Name": "Corkery Group",
-  "Tooltip": "repudiandae",
+  "HeadingId": 630,
+  "Name": "DuBuque-Dickinson",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 666,
-  "UdListDefinitionId": 920
+  "Rank": 180,
+  "UdListDefinitionId": 736
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 151,
-  "Name": "Gleason-Wiegand",
-  "Tooltip": "asperiores",
+  "HeadingId": 145,
+  "Name": "Sauer, Harvey and Rice",
+  "Tooltip": "quisquam",
   "Deleted": true,
-  "Rank": 662,
-  "UdListDefinitionId": 657,
+  "Rank": 752,
+  "UdListDefinitionId": 824,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 907
     }
   }
 }

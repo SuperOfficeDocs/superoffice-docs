@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/MDOItems
 uid: v1ProductCategoryList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=exercitationem
+GET /api/v1/List/ProductCategory/MDOItems?query=sunt
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Sawayn LLC",
-    "ToolTip": "Reiciendis odio voluptate deleniti amet dolorum.",
+    "Id": 237,
+    "Name": "Harvey, Turcotte and Smith",
+    "ToolTip": "Est consequatur eos est est ea.",
     "Deleted": false,
-    "Rank": 277,
-    "Type": "quo",
+    "Rank": 111,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "D'Amore, Emard and Bernier",
-        "ToolTip": "Est rerum voluptatem.",
+        "Id": 561,
+        "Name": "Durgan-Hessel",
+        "ToolTip": "Consequatur totam qui omnis recusandae.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "iusto",
+        "Rank": 877,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 94,
-        "ExtraInfo": "facere",
-        "StyleHint": "dolore",
-        "FullName": "Harrison Nienow",
+        "IconHint": "qui",
+        "ColorBlock": 777,
+        "ExtraInfo": "enim",
+        "StyleHint": "tempore",
+        "FullName": "Nova Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 386
+            "FieldLength": 163
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 959,
-    "ExtraInfo": "modi",
-    "StyleHint": "repudiandae",
-    "FullName": "Dr. Mariam Kessler III",
+    "IconHint": "esse",
+    "ColorBlock": 503,
+    "ExtraInfo": "et",
+    "StyleHint": "error",
+    "FullName": "Prof. Wilhelmine Feil II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 58
       }
     }
   }

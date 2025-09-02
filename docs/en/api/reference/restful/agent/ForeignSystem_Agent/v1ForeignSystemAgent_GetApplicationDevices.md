@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetApplicationDevices
 uid: v1ForeignSystemAgent_GetApplicationDevices
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetApplicationDevices
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kassulke Group"
+  "ApplicationName": "Boehm, Daniel and Witting"
 }
 ```
 
@@ -97,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 108,
-    "Name": "Breitenberg LLC",
-    "CreatedDate": "2011-10-09T03:45:23.4829546+02:00",
-    "UpdatedDate": "1999-03-26T03:45:23.4829546+01:00",
-    "AssociateFullName": "Whitney Beahan",
-    "CreatedBy": "provident",
-    "UpdatedBy": "deserunt",
-    "DeviceIdentifier": "aut",
-    "ForeignAppId": 33,
+    "ForeignDeviceId": 706,
+    "Name": "Thompson-Kuhn",
+    "CreatedDate": "2014-05-22T03:46:54.847629+02:00",
+    "UpdatedDate": "2009-07-22T03:46:54.847629+02:00",
+    "AssociateFullName": "Miss Jonathon Declan Kunze",
+    "CreatedBy": "qui",
+    "UpdatedBy": "sit",
+    "DeviceIdentifier": "eligendi",
+    "ForeignAppId": 879,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 785
+        "FieldType": "System.Int32",
+        "FieldLength": 219
       }
     }
   }

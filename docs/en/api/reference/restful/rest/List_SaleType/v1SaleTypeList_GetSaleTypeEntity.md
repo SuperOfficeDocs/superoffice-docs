@@ -2,6 +2,7 @@
 title: GET List/SaleType/Items/{id}
 uid: v1SaleTypeList_GetSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Items/{id}
@@ -93,53 +94,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 784,
-  "Name": "Abbott, Schowalter and Aufderhar",
-  "Tooltip": "maxime",
-  "Rank": 384,
+  "SaleTypeId": 504,
+  "Name": "Crist LLC",
+  "Tooltip": "quae",
+  "Rank": 237,
   "DurationUnit": "Century",
-  "SaleDuration": 217,
-  "SaleTypeCatId": 307,
+  "SaleDuration": 658,
+  "SaleTypeCatId": 437,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 510,
-  "QuoteLinesTemplate": 131,
-  "ConfirmationLinesTemplate": 524,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 198,
+  "QuoteLinesTemplate": 667,
+  "ConfirmationLinesTemplate": 955,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 712,
-  "MinEarningPercent": 391,
-  "GroupQuoteLinesBy": 695,
-  "SortGroupLinesBy": 60,
+  "MaxDiscountPercent": 531,
+  "MinEarningPercent": 222,
+  "GroupQuoteLinesBy": 321,
+  "SortGroupLinesBy": 105,
   "Stages": [
     {
-      "Id": 399,
-      "Name": "Beer Inc and Sons",
-      "ToolTip": "Nihil nisi voluptatem voluptatem sed praesentium repudiandae.",
+      "Id": 449,
+      "Name": "Howe, Conn and Schiller",
+      "ToolTip": "Harum dolores.",
       "Deleted": false,
-      "Rank": 632,
-      "Type": "totam",
-      "ColorBlock": 93,
-      "IconHint": "deleniti",
+      "Rank": 38,
+      "Type": "quisquam",
+      "ColorBlock": 195,
+      "IconHint": "eaque",
       "Selected": true,
-      "LastChanged": "2023-12-27T03:45:29.2171623+01:00",
+      "LastChanged": "2000-06-19T03:47:00.8005429+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Alyson Jay Baumbach DDS",
+      "ExtraInfo": "iste",
+      "StyleHint": "vitae",
+      "Hidden": true,
+      "FullName": "Ms. Earline Waylon Rowe III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 685
         }
       }
     }
@@ -148,8 +149,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

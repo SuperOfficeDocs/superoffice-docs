@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCompetitorList SOAP
 generated: true
 uid: Services88-List-GetCompetitorList
+content_type: reference
 ---
 
 # Services88 List GetCompetitorList

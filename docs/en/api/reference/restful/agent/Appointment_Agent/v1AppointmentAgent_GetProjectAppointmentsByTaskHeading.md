@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetProjectAppointmentsByTaskHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTaskHeading
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,11 +138,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 735,
-  "StartTime": "2005-12-17T03:45:22.6861022+01:00",
-  "EndTime": "2023-08-21T03:45:22.6861022+02:00",
-  "Count": 811,
-  "TaskHeadingId": 886
+  "ProjectId": 843,
+  "StartTime": "2024-08-22T03:46:53.9882851+02:00",
+  "EndTime": "2004-05-29T03:46:53.9882851+02:00",
+  "Count": 238,
+  "TaskHeadingId": 82
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 894,
-    "StartDate": "2010-06-05T03:45:22.6861022+02:00",
-    "EndDate": "2012-03-25T03:45:22.6861022+02:00",
+    "AppointmentId": 69,
+    "StartDate": "2022-03-18T03:46:53.9882851+01:00",
+    "EndDate": "2011-03-09T03:46:53.9882851+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquam",
-    "AssociateFullName": "Faye Hahn",
-    "ContactName": "Moore Inc and Sons",
-    "Description": "Configurable homogeneous moratorium",
-    "PersonFullName": "Tod Bayer",
-    "PersonId": 293,
-    "ContactId": 72,
-    "ProjectId": 134,
-    "ProjectName": "Ferry Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 390,
-    "ColorIndex": 594,
+    "Task": "dolores",
+    "AssociateFullName": "Esteban Walter",
+    "ContactName": "Sporer, Botsford and Hane",
+    "Description": "Up-sized discrete solution",
+    "PersonFullName": "Rita Haley",
+    "PersonId": 35,
+    "ContactId": 968,
+    "ProjectId": 814,
+    "ProjectName": "Quigley, Kohler and Ratke",
+    "IsPublished": false,
+    "AssociateId": 902,
+    "ColorIndex": 808,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 537,
-    "PriorityName": "Hammes Group",
+    "PriorityId": 739,
+    "PriorityName": "Fay Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2013-08-08T03:45:22.6861022+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2003-04-22T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-07-25T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2003-02-06T03:45:22.6861022+01:00",
-    "MotherId": 779,
-    "AssignedBy": 723,
-    "AssignedByFullName": "Kelvin Nienow",
+    "RecurringStartDate": "2016-09-11T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2002-09-03T03:46:53.9882851+02:00",
+    "MotherId": 865,
+    "AssignedBy": 632,
+    "AssignedByFullName": "Marcelino Rath",
     "RejectReason": "",
-    "Location": "voluptate",
-    "AlarmLeadTime": "deleniti",
-    "SaleId": 459,
-    "SaleName": "Carter-Dibbert",
-    "AssociateName": "Abbott Group",
-    "CreatedDate": "2014-05-20T03:45:22.6861022+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Dr. Lily Hansen I",
-    "CreatedByAssociateId": 461,
+    "Location": "et",
+    "AlarmLeadTime": "quo",
+    "SaleId": 813,
+    "SaleName": "Wilkinson-Borer",
+    "AssociateName": "Hand-Shields",
+    "CreatedDate": "2017-05-18T03:46:53.9882851+02:00",
+    "CreatedBy": "quas",
+    "CreatedByFullName": "Jennifer Stark",
+    "CreatedByAssociateId": 594,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 43,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 344,
-    "Title": "excepturi",
-    "Agenda": "consequatur",
-    "InternalNotes": "suscipit",
+    "PreferredTZLocation": 778,
+    "Title": "quidem",
+    "Agenda": "sit",
+    "InternalNotes": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 180
       }
     }
   }

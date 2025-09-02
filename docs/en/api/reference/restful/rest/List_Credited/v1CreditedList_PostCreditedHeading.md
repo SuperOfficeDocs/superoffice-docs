@@ -2,6 +2,7 @@
 title: POST List/Credited/Headings
 uid: v1CreditedList_PostCreditedHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Credited/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 995,
-  "Name": "West, Stracke and Roob",
-  "Tooltip": "laudantium",
+  "HeadingId": 302,
+  "Name": "Paucek-Collier",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 607,
-  "UdListDefinitionId": 960
+  "Rank": 324,
+  "UdListDefinitionId": 771
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 12,
-  "Name": "O'Conner-Erdman",
-  "Tooltip": "ut",
+  "HeadingId": 688,
+  "Name": "Vandervort-Friesen",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 993,
-  "UdListDefinitionId": 988,
+  "Rank": 655,
+  "UdListDefinitionId": 525,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 322
     }
   }
 }

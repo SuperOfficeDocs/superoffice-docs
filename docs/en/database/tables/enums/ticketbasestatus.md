@@ -2,10 +2,10 @@
 uid: enum-ticketbasestatus
 title: Enum values for TicketBaseStatus
 description: Lists the enum values for TicketBaseStatus.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TicketBaseStatus Enum

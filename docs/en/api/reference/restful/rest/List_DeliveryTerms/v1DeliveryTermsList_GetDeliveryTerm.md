@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm/Items/{id}
 uid: v1DeliveryTermsList_GetDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Cummerata LLC",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "UdListDefinitionId": 544,
-  "Rank": 175,
+  "Id": 835,
+  "Name": "Hirthe-Hamill",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 583,
+  "Rank": 201,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

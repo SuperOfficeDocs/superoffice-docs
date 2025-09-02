@@ -2,6 +2,7 @@
 title: GET Contact
 uid: v1ContactEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET Contact
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=non
-GET /api/v1/Contact?$top=122
-GET /api/v1/Contact?$skip=920
+GET /api/v1/Contact?$entities=incidunt
+GET /api/v1/Contact?$top=672
+GET /api/v1/Contact?$skip=82
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=ut
+GET /api/v1/Contact?$context=et
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
@@ -118,7 +119,7 @@ OK
 GET /api/v1/Contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsam",
+  "odata.nextLink": "soluta",
   "value": [
     {
-      "PrimaryKey": 5356,
-      "EntityName": "person",
-      "personId": 5356,
-      "fullName": "Savannah Veum"
+      "PrimaryKey": 4247,
+      "EntityName": "sale",
+      "saleId": 4247,
+      "contactId": 6959,
+      "name": "Hamill, Dach and Sauer"
     },
     {
-      "PrimaryKey": 6222,
-      "EntityName": "person",
-      "personId": 6222,
-      "fullName": "Imani Krajcik Jr."
+      "PrimaryKey": 5375,
+      "EntityName": "sale",
+      "saleId": 5375,
+      "contactId": 6600,
+      "name": "Bernier LLC"
     }
   ]
 }

@@ -2,10 +2,10 @@
 uid: table-SearchCriteriaGroup
 title: SearchCriteriaGroup table
 description: Criteria storage for Selection and other Find mechanisms
-so.generated: true
+generated: true
 keywords: database table SearchCriteriaGroup
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SearchCriteriaGroup Table (202)

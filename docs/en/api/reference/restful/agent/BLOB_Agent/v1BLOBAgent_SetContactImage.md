@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/SetContactImage
 uid: v1BLOBAgent_SetContactImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/SetContactImage
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 624,
+  "ContactId": 63,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

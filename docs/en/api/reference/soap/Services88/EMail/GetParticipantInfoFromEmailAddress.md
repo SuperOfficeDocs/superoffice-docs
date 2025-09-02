@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetParticipantInfoFromEmailAddress SOAP
 generated: true
 uid: Services88-EMail-GetParticipantInfoFromEmailAddress
+content_type: reference
 ---
 
 # Services88 EMail GetParticipantInfoFromEmailAddress

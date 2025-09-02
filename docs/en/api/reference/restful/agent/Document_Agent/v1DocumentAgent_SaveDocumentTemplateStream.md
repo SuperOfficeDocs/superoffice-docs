@@ -2,6 +2,7 @@
 title: POST Agents/Document/SaveDocumentTemplateStream
 uid: v1DocumentAgent_SaveDocumentTemplateStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SaveDocumentTemplateStream
@@ -82,10 +83,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 295,
+  "DocumentTemplateId": 357,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "enim",
-  "PluginId": 484
+  "LanguageCode": "et",
+  "PluginId": 356
 }
 ```
 
@@ -96,10 +97,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langosh-Frami",
-  "Description": "Upgradable bottom-line initiative",
+  "Name": "Boyer, Beatty and Kuhn",
+  "Description": "Exclusive empowering Graphic Interface",
   "ExternalReference": "earum",
-  "MimeType": "unde",
-  "PluginId": 735
+  "MimeType": "sed",
+  "PluginId": 845
 }
 ```

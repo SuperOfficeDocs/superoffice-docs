@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Items/Default
 uid: v1ProductCategoryList_CreateDefaultProductCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "Kilback, Stiedemann and Hamill",
-  "Tooltip": "et",
+  "Id": 598,
+  "Name": "Dibbert, Lind and Lebsack",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 44,
-  "Rank": 624,
+  "UdListDefinitionId": 462,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 919
     }
   }
 }

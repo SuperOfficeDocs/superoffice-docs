@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
 uid: v1FindAgent_FindFromRestrictionsColumnsOrderBy2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumnsOrderBy2
@@ -169,12 +170,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "nihil",
-  "ProviderName": "Cormier Group",
-  "DesiredColumns": "possimus",
-  "OrderBy": "rem",
-  "PageSize": 559,
-  "PageNumber": 153
+  "Restrictions": "laudantium",
+  "ProviderName": "Torphy-Emard",
+  "DesiredColumns": "qui",
+  "OrderBy": "voluptatum",
+  "PageSize": 883,
+  "PageNumber": 854
 }
 ```
 
@@ -187,51 +188,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Nolan-Torp",
-      "DisplayTooltip": "at",
-      "DisplayType": "sed",
+      "DisplayName": "Conroy Group",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "numquam",
       "CanOrderBy": true,
-      "Name": "Kozey-Terry",
+      "Name": "Skiles, Lubowitz and Kautzer",
       "CanRestrictBy": true,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Boyer Group",
+      "RestrictionType": "odit",
+      "RestrictionListName": "Quigley, Okuneva and Marvin",
       "IsVisible": false,
-      "ExtraInfo": "reprehenderit",
-      "Width": "et",
-      "IconHint": "natus",
-      "HeadingIconHint": "reiciendis"
+      "ExtraInfo": "sequi",
+      "Width": "numquam",
+      "IconHint": "maiores",
+      "HeadingIconHint": "dolore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Zulauf-Walter",
-      "PrimaryKey": 696,
+      "EntityName": "Jast, Langworth and Crist",
+      "PrimaryKey": 750,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "id",
-          "LinkHint": "sint"
+          "DisplayValue": "qui",
+          "TooltipHint": "optio",
+          "LinkHint": "hic"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "non",
+      "LinkHint": "quisquam",
+      "StyleHint": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 50
         }
       }
     }
   ],
-  "RowCount": 356,
+  "RowCount": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 815
     }
   }
 }

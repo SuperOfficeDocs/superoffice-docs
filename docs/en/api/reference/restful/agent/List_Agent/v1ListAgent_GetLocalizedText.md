@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLocalizedText
 uid: v1ListAgent_GetLocalizedText
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLocalizedText
@@ -22,11 +23,11 @@ Gets a LocalizedText object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| localizedTextId | int32 | **Required** The primary key. |
+| localizedTextId | int32 | **Required** The identifier of the LocalizedText object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=131
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=399
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 802,
-  "ResourceId": 456,
-  "Text": "quam",
+  "LanguageId": 203,
+  "ResourceId": 960,
+  "Text": "delectus",
   "Type": "Column",
-  "LocalizedTextId": 936,
-  "IsBuiltIn": false,
+  "LocalizedTextId": 395,
+  "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 232
     }
   }
 }

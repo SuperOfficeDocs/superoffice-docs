@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/Truncate
 uid: v1DatabaseTableAgent_Truncate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/Truncate
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hartmann Group"
+  "TableName": "Gutkowski, Crooks and Haley"
 }
 ```
 
@@ -95,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "placeat",
-  "Inserts": 26,
-  "Updates": 136,
-  "Deletes": 114,
+  "Success": true,
+  "Message": "adipisci",
+  "Inserts": 239,
+  "Updates": 499,
+  "Deletes": 567,
   "RowStatus": [
     {
-      "PrimaryKey": 49,
+      "PrimaryKey": 350,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "omnis"
+        "doloremque",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 418
         }
       }
     },
     {
-      "PrimaryKey": 49,
+      "PrimaryKey": 350,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "omnis"
+        "doloremque",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 418
         }
       }
     }
@@ -138,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 737
     }
   }
 }

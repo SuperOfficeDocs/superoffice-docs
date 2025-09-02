@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SetFunctionalRights SOAP
 generated: true
 uid: Services88-User-SetFunctionalRights
+content_type: reference
 ---
 
 # Services88 User SetFunctionalRights

@@ -3,9 +3,9 @@ uid: SimpleChatSession
 title: SimpleChatSession
 description: 
 keywords: SimpleChatSession archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SimpleChatSession"
@@ -485,7 +485,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleChatSession?$select=associateId,associate/portraitThumbnail,person/personAssociate/isLocation,person/correspondingAssociate/lastName,person/correspondingAssociate/usergroupId
+GET /api/v1/archive/SimpleChatSession?$select=contact/hasInfoText,contact/contactAssociate/fullName,contact/contactAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

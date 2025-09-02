@@ -2,6 +2,7 @@
 title: GET List/Source/MDOItems
 uid: v1SourceList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=et
+GET /api/v1/List/Source/MDOItems?query=quia
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Collier, Renner and Nienow",
-    "ToolTip": "Fuga ut animi quas.",
+    "Id": 203,
+    "Name": "Funk Inc and Sons",
+    "ToolTip": "Laudantium qui porro delectus.",
     "Deleted": false,
-    "Rank": 107,
-    "Type": "et",
+    "Rank": 430,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Zulauf-Bernier",
-        "ToolTip": "Ut vero facere corporis unde beatae libero.",
-        "Deleted": true,
-        "Rank": 348,
-        "Type": "repellat",
+        "Id": 183,
+        "Name": "Smitham, Watsica and Bode",
+        "ToolTip": "Voluptas temporibus ut quia.",
+        "Deleted": false,
+        "Rank": 799,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 829,
-        "ExtraInfo": "quod",
-        "StyleHint": "sed",
-        "FullName": "Drew Lueilwitz",
+        "IconHint": "neque",
+        "ColorBlock": 924,
+        "ExtraInfo": "animi",
+        "StyleHint": "molestiae",
+        "FullName": "Gaylord Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1000
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 60,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "autem",
-    "FullName": "Alia Carter",
+    "IconHint": "officia",
+    "ColorBlock": 922,
+    "ExtraInfo": "eos",
+    "StyleHint": "expedita",
+    "FullName": "Eva Claud Gutkowski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 259
       }
     }
   }

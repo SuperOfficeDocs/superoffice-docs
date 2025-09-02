@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.ApproveQuoteVersion SOAP
 generated: true
 uid: Services88-Quote-ApproveQuoteVersion
+content_type: reference
 ---
 
 # Services88 Quote ApproveQuoteVersion

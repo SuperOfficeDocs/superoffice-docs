@@ -2,6 +2,7 @@
 title: POST Agents/PhoneList/SearchWithPreferences
 uid: v1PhoneListAgent_SearchWithPreferences
 generated: true
+content_type: reference
 ---
 
 # POST Agents/PhoneList/SearchWithPreferences
@@ -89,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "beatae",
+  "SearchString": "modi",
   "Preferences": null
 }
 ```
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(969)254-9547",
-    "PersonCellPhone": "310-895-2852",
-    "PersonPrivatePhone": "1-373-656-3854",
-    "PersonFaxNumber": "1127660",
-    "PersonPagerNumber": "312428",
-    "PersonEmail": "ardella.anderson@stantoneffertz.us",
-    "Id": 362,
-    "Name": "Boyer Inc and Sons",
-    "Tooltip": "error",
-    "UniqueId": "saepe",
+    "PersonDirectPhone": "(118)151-4117",
+    "PersonCellPhone": "(195)969-0936",
+    "PersonPrivatePhone": "(753)546-6770",
+    "PersonFaxNumber": "594044",
+    "PersonPagerNumber": "376923",
+    "PersonEmail": "kali_spinka@farrellrenner.co.uk",
+    "Id": 449,
+    "Name": "Pacocha-Fahey",
+    "Tooltip": "labore",
+    "UniqueId": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 976
       }
     }
   }

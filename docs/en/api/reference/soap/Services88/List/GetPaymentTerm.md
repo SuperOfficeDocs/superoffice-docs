@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetPaymentTerm SOAP
 generated: true
 uid: Services88-List-GetPaymentTerm
+content_type: reference
 ---
 
 # Services88 List GetPaymentTerm

@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.BatchReply SOAP
 generated: true
 uid: Services88-Ticket-BatchReply
+content_type: reference
 ---
 
 # Services88 Ticket BatchReply

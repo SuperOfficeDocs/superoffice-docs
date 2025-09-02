@@ -2,6 +2,7 @@
 title: PUT DashTheme/{id}
 uid: v1DashTheme_PutDashTheme
 generated: true
+content_type: reference
 ---
 
 # PUT DashTheme/{id}
@@ -93,12 +94,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 261,
-  "Name": "Goldner-Yundt",
-  "Config": "optio",
-  "Rank": 295,
-  "Client": "et",
-  "Style": "ut"
+  "DashboardThemeId": 842,
+  "Name": "O'Hara LLC",
+  "Config": "eum",
+  "Rank": 209,
+  "Client": "ipsum",
+  "Style": "maxime"
 }
 ```
 
@@ -109,23 +110,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 6,
-  "Name": "Aufderhar-Barton",
-  "Config": "et",
-  "Rank": 925,
-  "Client": "aut",
-  "Style": "rerum",
+  "DashboardThemeId": 621,
+  "Name": "Medhurst-Veum",
+  "Config": "quia",
+  "Rank": 746,
+  "Client": "sunt",
+  "Style": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

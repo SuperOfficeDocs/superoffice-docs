@@ -2,6 +2,7 @@
 title: POST List/Currency/Items
 uid: v1CurrencyList_PostCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/Currency/Items
@@ -77,17 +78,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 297,
-  "Name": "Jast-Hoeger",
-  "Tooltip": "officia",
-  "Rank": 887,
-  "Rate": 29591.228,
-  "Units": 7527.8679999999995,
-  "Deleted": false
+  "CurrencyId": 178,
+  "Name": "Lemke, Cormier and Champlin",
+  "Tooltip": "eum",
+  "Rank": 578,
+  "Rate": 18550.146,
+  "Units": 9809.42,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 522,
-  "Name": "Gusikowski, Lindgren and Steuber",
-  "Tooltip": "excepturi",
-  "Rank": 705,
-  "Rate": 24272.829999999998,
-  "Units": 5681.942,
-  "Deleted": false,
+  "CurrencyId": 527,
+  "Name": "Mante Inc and Sons",
+  "Tooltip": "iusto",
+  "Rank": 995,
+  "Rate": 22329.75,
+  "Units": 22802.984,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 757
     }
   }
 }

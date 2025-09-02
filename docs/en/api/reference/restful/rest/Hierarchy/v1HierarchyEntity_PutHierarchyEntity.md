@@ -2,6 +2,7 @@
 title: PUT Hierarchy/{id}
 uid: v1HierarchyEntity_PutHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # PUT Hierarchy/{id}
@@ -97,36 +98,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 282,
+  "HierarchyId": 964,
   "Domain": "Dashboards",
-  "Name": "Wiza Group",
-  "Fullname": "accusamus",
-  "ParentId": 266,
+  "Name": "D'Amore Inc and Sons",
+  "Fullname": "reiciendis",
+  "ParentId": 401,
   "Children": [
     {
-      "HierarchyId": 456,
+      "HierarchyId": 860,
       "Domain": "Dashboards",
-      "Name": "Feest LLC",
-      "Fullname": "mollitia",
-      "ParentId": 945,
+      "Name": "Crist, Gislason and Bruen",
+      "Fullname": "officiis",
+      "ParentId": 916,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-06-25T03:45:28.3734363+02:00",
-      "RegisteredAssociateId": 156,
-      "Updated": "2024-11-19T03:45:28.3734363+01:00",
-      "UpdatedAssociateId": 305
+      "Registered": "2019-06-08T03:47:00.0349452+02:00",
+      "RegisteredAssociateId": 977,
+      "Updated": "2007-04-14T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 898
     }
   ],
-  "Registered": "2023-01-17T03:45:28.3734363+01:00",
-  "RegisteredAssociateId": 426,
-  "Updated": "2007-06-14T03:45:28.3734363+02:00",
-  "UpdatedAssociateId": 304
+  "Registered": "2002-02-03T03:47:00.0349452+01:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2016-10-30T03:47:00.0349452+01:00",
+  "UpdatedAssociateId": 852
 }
 ```
 
@@ -137,46 +138,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 104,
+  "HierarchyId": 732,
   "Domain": "Dashboards",
-  "Name": "Windler, Dicki and Gleichner",
-  "Fullname": "qui",
-  "ParentId": 789,
+  "Name": "Smitham-McClure",
+  "Fullname": "ducimus",
+  "ParentId": 86,
   "Children": [
     {
-      "HierarchyId": 157,
+      "HierarchyId": 463,
       "Domain": "Dashboards",
-      "Name": "Harber LLC",
-      "Fullname": "at",
-      "ParentId": 570,
+      "Name": "Durgan-Bode",
+      "Fullname": "dolores",
+      "ParentId": 127,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-02-20T03:45:28.3734363+01:00",
-      "RegisteredAssociateId": 889,
-      "Updated": "2005-04-12T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 684,
+      "Registered": "2012-12-08T03:47:00.0349452+01:00",
+      "RegisteredAssociateId": 168,
+      "Updated": "1998-07-10T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 902,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 292
         }
       }
     }
   ],
-  "Registered": "2006-09-27T03:45:28.3734363+02:00",
-  "RegisteredAssociateId": 496,
-  "Updated": "2021-11-23T03:45:28.3734363+01:00",
-  "UpdatedAssociateId": 970,
+  "Registered": "2004-06-04T03:47:00.0349452+02:00",
+  "RegisteredAssociateId": 31,
+  "Updated": "2010-02-20T03:47:00.0349452+01:00",
+  "UpdatedAssociateId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   },
   "_Links": {

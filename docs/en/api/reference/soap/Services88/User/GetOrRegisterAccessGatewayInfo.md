@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetOrRegisterAccessGatewayInfo SOAP
 generated: true
 uid: Services88-User-GetOrRegisterAccessGatewayInfo
+content_type: reference
 ---
 
 # Services88 User GetOrRegisterAccessGatewayInfo

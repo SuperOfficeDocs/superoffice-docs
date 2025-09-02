@@ -3,9 +3,9 @@ uid: AllUsers
 title: AllUsers
 description: Concrete provider for all kinds of users, unfiltered. See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords: AllUsers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AllUsers"
@@ -91,7 +91,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_outlook-synchronizer,associateDbId
+GET /api/v1/archive/AllUsers?$select=mrMrs,isLocation,superoffice_outlook-synchronizer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

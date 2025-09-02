@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetAttachmentFromId
 uid: v1EMailAgent_GetAttachmentFromId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetAttachmentFromId
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 300,
-  "AttachmentId": "minus"
+  "MailItemId": 87,
+  "AttachmentId": "adipisci"
 }
 ```
 
@@ -100,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive incremental framework",
-  "Filename": "labore",
-  "Size": 171,
-  "Type": "minus",
-  "Encoding": "laudantium",
-  "Id": "hic",
-  "Disposition": "quis",
+  "Description": "Multi-tiered fault-tolerant application",
+  "Filename": "libero",
+  "Size": 29,
+  "Type": "ut",
+  "Encoding": "magni",
+  "Id": "cum",
+  "Disposition": "neque",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

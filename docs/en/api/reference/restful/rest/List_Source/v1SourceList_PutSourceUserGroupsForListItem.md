@@ -2,6 +2,7 @@
 title: PUT List/Source/Items/{id}/UserGroups
 uid: v1SourceList_PutSourceUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Cruickshank, Gorczany and Ondricka",
-    "ToolTip": "Et non.",
+    "Id": 370,
+    "Name": "Hodkiewicz-Satterfield",
+    "ToolTip": "Omnis reiciendis aut quaerat libero quis aut reprehenderit.",
     "Deleted": false,
-    "Rank": 580,
-    "Type": "quas",
-    "ColorBlock": 907,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2019-02-25T03:45:29.2327869+01:00",
+    "Rank": 425,
+    "Type": "minima",
+    "ColorBlock": 331,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1999-09-05T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Jakubowski-Vandervort",
-        "ToolTip": "Qui aut.",
-        "Deleted": false,
-        "Rank": 284,
-        "Type": "quo",
-        "ColorBlock": 765,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2025-04-02T03:45:29.2327869+02:00",
+        "Id": 7,
+        "Name": "Hilll, Schultz and Schinner",
+        "ToolTip": "Autem autem rerum voluptatem vel placeat dolorem.",
+        "Deleted": true,
+        "Rank": 865,
+        "Type": "aut",
+        "ColorBlock": 131,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2009-11-17T03:47:00.8317917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "neque",
+        "ExtraInfo": "nobis",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Burnice Armstrong"
+        "FullName": "Horacio Gerlach"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "ut",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Prof. Lauretta Wisoky PhD"
+    "FullName": "Carlos Rodrigo Bogisich Jr."
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Swaniawski Inc and Sons",
-    "ToolTip": "Doloremque corrupti ratione est sint unde.",
+    "Id": 797,
+    "Name": "King-Kutch",
+    "ToolTip": "Aliquam laborum ex voluptatem voluptatem facilis.",
     "Deleted": true,
-    "Rank": 814,
-    "Type": "numquam",
-    "ColorBlock": 626,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "1998-02-08T03:45:29.2327869+01:00",
+    "Rank": 448,
+    "Type": "qui",
+    "ColorBlock": 712,
+    "IconHint": "debitis",
+    "Selected": true,
+    "LastChanged": "2000-05-30T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Pagac Inc and Sons",
-        "ToolTip": "Odio quis reprehenderit.",
-        "Deleted": true,
-        "Rank": 100,
+        "Id": 114,
+        "Name": "Dach-Hartmann",
+        "ToolTip": "Quasi omnis quas consequuntur expedita atque est.",
+        "Deleted": false,
+        "Rank": 643,
         "Type": "est",
-        "ColorBlock": 439,
-        "IconHint": "voluptatem",
+        "ColorBlock": 333,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2020-08-23T03:45:29.2327869+02:00",
+        "LastChanged": "2006-10-15T03:47:00.8317917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "inventore",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Prof. Sheridan Brown",
+        "FullName": "Ms. Deborah Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldType": "System.String",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "dicta",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "delectus",
     "Hidden": true,
-    "FullName": "Prof. Jakayla Enrique Dicki II",
+    "FullName": "Damaris Baby Klocko I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 54
       }
     }
   }

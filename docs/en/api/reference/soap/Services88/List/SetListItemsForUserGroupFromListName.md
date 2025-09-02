@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetListItemsForUserGroupFromListName SOAP
 generated: true
 uid: Services88-List-SetListItemsForUserGroupFromListName
+content_type: reference
 ---
 
 # Services88 List SetListItemsForUserGroupFromListName

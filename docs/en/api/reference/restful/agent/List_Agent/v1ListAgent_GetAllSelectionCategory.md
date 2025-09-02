@@ -1,24 +1,33 @@
 ---
-title: POST Agents/User/ExecuteUserCommandAsync
-uid: v1UserAgent_ExecuteUserCommandAsync
+title: POST Agents/List/GetAllSelectionCategory
+uid: v1ListAgent_GetAllSelectionCategory
 generated: true
+content_type: reference
 ---
 
-# POST Agents/User/ExecuteUserCommandAsync
+# POST Agents/List/GetAllSelectionCategory
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommandAsync
+POST /api/v1/Agents/List/GetAllSelectionCategory
 ```
 
-Executes the custom command for User
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+Gets an array of all SelectionCategory objects
 
 
 
 
 
+
+
+## Query String Parameters
+
+| Parameter Name | Type |  Description |
+|----------------|------|--------------|
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
+
+```http
+POST /api/v1/Agents/List/GetAllSelectionCategory?$select=name,department,category/id
+```
 
 
 ## Request Headers
@@ -27,7 +36,6 @@ Executes the custom command for User
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
-| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept-Language | Convert string references and multi-language values into a specified language (iso2) code. |
 | SO-Language | Convert string references and multi-language values into a specified language (iso2) code. Overrides Accept-Language value. |
@@ -35,17 +43,8 @@ Executes the custom command for User
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request 
 
-The name of the command to execute. Result of an UI operation. The User to execute commands on. 
-
-| Property Name | Type |  Description |
-|----------------|------|--------------|
-| CommandName | String |  |
-| ActionResult | String |  |
-| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
-
-## Response:
+## Response:array
 
 OK
 
@@ -53,30 +52,23 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: CommandResult
+### Response body: array
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Success | bool | The command was successfully executed. |
-| Message | string | Message which should be displayed in GUI. |
-| Result | string | The result used in this action. |
+| Id | int32 | The List Item Id |
+| Value | string | The List Item Value |
+| Tooltip | string | The List Item Tooltip |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/User/ExecuteUserCommandAsync
+POST /api/v1/Agents/List/GetAllSelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "CommandName": "Raynor, Hegmann and Gerlach",
-  "ActionResult": "Cancel",
-  "User": null
-}
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +77,32 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-{
-  "Success": false,
-  "Message": "consequuntur",
-  "Result": "Cancel",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+[
+  {
+    "Id": 400,
+    "Value": "ut",
+    "Tooltip": "eos",
+    "TableRight": null,
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 260
+      }
+    }
+  },
+  {
+    "Id": 400,
+    "Value": "ut",
+    "Tooltip": "eos",
+    "TableRight": null,
+    "FieldProperties": {
+      "fieldName": {
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 260
+      }
     }
   }
-}
+]
 ```

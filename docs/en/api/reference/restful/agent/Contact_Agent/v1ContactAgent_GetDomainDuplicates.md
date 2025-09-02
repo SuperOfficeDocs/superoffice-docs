@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetDomainDuplicates
 uid: v1ContactAgent_GetDomainDuplicates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetDomainDuplicates
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "aut"
+  "Domain": "est"
 }
 ```
 
@@ -93,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Beahan Group",
-    "SoPrimaryKey": 147,
-    "EntryName": "Zieme, Wunsch and Fahey",
-    "EntryIdentifier": "veritatis",
-    "RuleDisplayName": "Purdy-Becker",
+    "RuleName": "Wisoky-Sawayn",
+    "SoPrimaryKey": 745,
+    "EntryName": "Crona-Wolf",
+    "EntryIdentifier": "facilis",
+    "RuleDisplayName": "Koelpin-Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 231
       }
     }
   }

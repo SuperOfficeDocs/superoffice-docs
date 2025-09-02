@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CreateDefaultMailboxEntity SOAP
 generated: true
 uid: Services88-CustomerService-CreateDefaultMailboxEntity
+content_type: reference
 ---
 
 # Services88 CustomerService CreateDefaultMailboxEntity

@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SetAsLostWithReason SOAP
 generated: true
 uid: Services88-Sale-SetAsLostWithReason
+content_type: reference
 ---
 
 # Services88 Sale SetAsLostWithReason

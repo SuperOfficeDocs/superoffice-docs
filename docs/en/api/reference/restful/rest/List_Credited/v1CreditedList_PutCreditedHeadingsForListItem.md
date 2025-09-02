@@ -2,6 +2,7 @@
 title: PUT List/Credited/Items/{id}/Headings
 uid: v1CreditedList_PutCreditedHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Turner, Jerde and Zboncak",
-    "ToolTip": "Illo dolore harum numquam vel maxime expedita.",
-    "Deleted": true,
-    "Rank": 354,
-    "Type": "autem",
-    "ColorBlock": 643,
-    "IconHint": "dolorum",
+    "Id": 861,
+    "Name": "Kassulke Inc and Sons",
+    "ToolTip": "Dicta autem ut quae molestias molestiae in.",
+    "Deleted": false,
+    "Rank": 942,
+    "Type": "neque",
+    "ColorBlock": 760,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2011-08-27T03:45:29.014043+02:00",
+    "LastChanged": "2018-08-18T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Kunde, Macejkovic and Robel",
-        "ToolTip": "Amet et mollitia atque ipsam.",
-        "Deleted": false,
-        "Rank": 918,
-        "Type": "fugit",
-        "ColorBlock": 714,
-        "IconHint": "laudantium",
+        "Id": 979,
+        "Name": "Herman LLC",
+        "ToolTip": "Numquam autem dolore voluptatem nostrum.",
+        "Deleted": true,
+        "Rank": 113,
+        "Type": "occaecati",
+        "ColorBlock": 506,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2009-04-25T03:45:29.014043+02:00",
+        "LastChanged": "2002-01-19T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "illum",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Miss Uriel Sigrid Bins"
+        "FullName": "Stuart Kautzer"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Ms. Arnoldo Rubie Prosacco IV"
+    "ExtraInfo": "sed",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Brycen Kuvalis"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Johnson Group",
-    "ToolTip": "Similique sint.",
-    "Deleted": false,
-    "Rank": 837,
-    "Type": "minima",
-    "ColorBlock": 145,
-    "IconHint": "unde",
+    "Id": 670,
+    "Name": "Kuvalis, Block and Schumm",
+    "ToolTip": "Omnis sunt temporibus.",
+    "Deleted": true,
+    "Rank": 565,
+    "Type": "labore",
+    "ColorBlock": 695,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-10-06T03:45:29.014043+02:00",
+    "LastChanged": "2013-06-30T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Powlowski-Heidenreich",
-        "ToolTip": "In est qui.",
-        "Deleted": false,
-        "Rank": 439,
-        "Type": "nesciunt",
-        "ColorBlock": 38,
-        "IconHint": "voluptatem",
+        "Id": 649,
+        "Name": "Stehr-Hills",
+        "ToolTip": "Id fugiat nostrum nulla sed commodi molestiae.",
+        "Deleted": true,
+        "Rank": 628,
+        "Type": "adipisci",
+        "ColorBlock": 858,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2001-01-01T03:45:29.014043+01:00",
+        "LastChanged": "2011-01-12T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Ms. Tressie Abbie Wunsch II",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Filomena Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 967
+            "FieldType": "System.Int32",
+            "FieldLength": 444
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Mrs. Zaria Opal Hickle",
+    "ExtraInfo": "nihil",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Avis Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

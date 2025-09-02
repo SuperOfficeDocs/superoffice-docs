@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold/Items/{id}
 uid: v1ReasonSoldList_PutReasonSold
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Vandervort, Ortiz and Collins",
-  "Tooltip": "ipsum",
+  "Id": 535,
+  "Name": "Vandervort-Kub",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 145,
-  "Rank": 241
+  "UdListDefinitionId": 947,
+  "Rank": 229
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Baumbach-Hamill",
-  "Tooltip": "voluptates",
+  "Id": 255,
+  "Name": "Rippin LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 216,
-  "Rank": 325,
+  "UdListDefinitionId": 493,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

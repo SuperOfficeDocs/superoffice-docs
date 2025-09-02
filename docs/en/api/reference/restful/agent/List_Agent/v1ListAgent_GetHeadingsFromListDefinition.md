@@ -2,6 +2,7 @@
 title: POST Agents/List/GetHeadingsFromListDefinition
 uid: v1ListAgent_GetHeadingsFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetHeadingsFromListDefinition
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 296
+  "Id": 139
 }
 ```
 
@@ -94,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 772,
-    "Name": "Sipes Group",
-    "Tooltip": "aliquid",
+    "HeadingId": 927,
+    "Name": "Larkin-Brown",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "Rank": 809,
-    "UdListDefinitionId": 722,
+    "Rank": 37,
+    "UdListDefinitionId": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 202
       }
     }
   }

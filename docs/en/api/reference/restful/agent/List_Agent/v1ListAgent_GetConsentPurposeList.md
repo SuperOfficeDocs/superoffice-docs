@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentPurposeList
 uid: v1ListAgent_GetConsentPurposeList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentPurposeList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetConsentPurposeList?$select=name,department,category/
 
 ## Request Body: consentPurposeIds 
 
-The primary keys. 
+The identifiers of the ConsentPurpose object 
 
 
 ## Response:array
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,25 +94,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 499,
-    "Name": "Blick-Walter",
-    "ConsentText": "magnam",
-    "FormText": "est",
-    "Key": "et",
-    "Tooltip": "eos",
-    "Active": 22,
-    "UpdatedDate": "2004-05-18T03:45:23.5927257+02:00",
+    "ConsentPurposeId": 368,
+    "Name": "O'Kon, Wolff and Marquardt",
+    "ConsentText": "tempora",
+    "FormText": "labore",
+    "Key": "eligendi",
+    "Tooltip": "ea",
+    "Active": 702,
+    "UpdatedDate": "2015-08-25T03:46:54.9882491+02:00",
     "UpdatedBy": null,
     "Deleted": true,
-    "Rank": 185,
-    "PrivacyStatementDesc": "aut",
+    "Rank": 736,
+    "PrivacyStatementDesc": "deleniti",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 617
       }
     }
   }

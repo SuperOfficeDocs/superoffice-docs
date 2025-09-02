@@ -2,6 +2,7 @@
 title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
 uid: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
@@ -81,27 +82,27 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "ut",
+  "Source": "voluptates",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "aliquam",
-    "occaecati"
+    "et",
+    "debitis"
   ],
   "CustomValues": [
-    "consectetur",
-    "est"
+    "voluptas",
+    "nisi"
   ],
-  "ContactId": 318,
-  "PersonId": 447,
-  "AppointmentId": 997,
-  "DocumentId": 305,
-  "SaleId": 933,
-  "SelectionId": 350,
-  "ProjectId": 814,
+  "ContactId": 459,
+  "PersonId": 948,
+  "AppointmentId": 208,
+  "DocumentId": 274,
+  "SaleId": 783,
+  "SelectionId": 621,
+  "ProjectId": 430,
   "CultureName": "sv"
 }
 ```
@@ -112,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dignissimos"
+"inventore"
 ```

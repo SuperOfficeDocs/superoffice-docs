@@ -2,6 +2,7 @@
 title: POST Agents/Chat/PickUpChatSession
 uid: v1ChatAgent_PickUpChatSession
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/PickUpChatSession
@@ -109,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 807
+  "ChatSessionId": 369
 }
 ```
 
@@ -120,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 383,
-  "TopicId": 518,
+  "ChatSessionId": 617,
+  "TopicId": 156,
   "User": null,
   "Person": null,
-  "CustomerAlias": "saepe",
-  "CustomerHost": "nesciunt",
-  "CustomerName": "Beatty Group",
-  "CustomerEmail": "jackson@dickens.co.uk",
-  "CustomerPhone": "100-614-9572",
+  "CustomerAlias": "excepturi",
+  "CustomerHost": "fugit",
+  "CustomerName": "McKenzie-Dietrich",
+  "CustomerEmail": "reina@morissette.name",
+  "CustomerPhone": "1-825-196-3533",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Stamm LLC",
+  "CustomerCompanyName": "Spencer, Hammes and Reilly",
   "Status": "Closed",
-  "FirstMessage": "repellendus",
-  "LastMessage": "pariatur",
-  "WhenRequested": "2009-08-01T03:45:23.0454661+02:00",
-  "WhenStarted": "2005-02-16T03:45:23.0454661+01:00",
-  "WhenEnded": "2001-06-01T03:45:23.0454661+02:00",
-  "WhenIdle": "2013-12-03T03:45:23.0454661+01:00",
-  "WhenFetched": "2001-04-12T03:45:23.0454661+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 977,
-  "AlertLevel": 303,
-  "Rank": 281,
+  "FirstMessage": "aut",
+  "LastMessage": "maiores",
+  "WhenRequested": "2005-02-26T03:46:54.3632712+01:00",
+  "WhenStarted": "2023-12-14T03:46:54.3632712+01:00",
+  "WhenEnded": "2000-02-26T03:46:54.3632712+01:00",
+  "WhenIdle": "2020-08-04T03:46:54.3632712+02:00",
+  "WhenFetched": "2001-11-27T03:46:54.3632712+01:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 970,
+  "AlertLevel": 361,
+  "Rank": 650,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 346,
+  "Rating": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

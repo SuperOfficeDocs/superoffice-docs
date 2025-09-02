@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.SetDynamicSelectionCriteria SOAP
 generated: true
 uid: Services88-Selection-SetDynamicSelectionCriteria
+content_type: reference
 ---
 
 # Services88 Selection SetDynamicSelectionCriteria

@@ -2,10 +2,10 @@
 uid: table-preference
 title: preference table
 description: Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.
-so.generated: true
+generated: true
 keywords: database table preference
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # preference Table (22)

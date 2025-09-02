@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetQuoteVersionWorkflowState SOAP
 generated: true
 uid: Services88-Quote-GetQuoteVersionWorkflowState
+content_type: reference
 ---
 
 # Services88 Quote GetQuoteVersionWorkflowState

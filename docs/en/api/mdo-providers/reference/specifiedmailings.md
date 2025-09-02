@@ -3,9 +3,9 @@ uid: specifiedmailings
 title: specifiedmailings
 keywords: mdoprovider mdo provider specifiedmailings
 description: Create a list of mailings (flow, form, regular mailing/shipment...), hierarchy optional
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "specifiedmailings" MDO List

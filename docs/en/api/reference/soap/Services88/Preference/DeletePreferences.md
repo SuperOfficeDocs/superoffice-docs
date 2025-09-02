@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.DeletePreferences SOAP
 generated: true
 uid: Services88-Preference-DeletePreferences
+content_type: reference
 ---
 
 # Services88 Preference DeletePreferences

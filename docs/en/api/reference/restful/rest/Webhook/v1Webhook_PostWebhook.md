@@ -2,6 +2,7 @@
 title: POST Webhook
 uid: v1Webhook_PostWebhook
 generated: true
+content_type: reference
 ---
 
 # POST Webhook
@@ -103,32 +104,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 142,
-  "Name": "Hyatt, Herman and Nicolas",
+  "WebhookId": 85,
+  "Name": "Conn-Smitham",
   "Events": [
-    "quibusdam",
-    "rerum"
+    "et",
+    "ea"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quia",
+  "Secret": "modi",
   "State": "Active",
-  "Type": "praesentium",
+  "Type": "saepe",
   "Headers": {
-    "Headers1": "ipsa",
-    "Headers2": "dolores"
+    "Headers1": "id",
+    "Headers2": "iste"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-09-08T03:45:28.8890492+02:00",
+  "Registered": "2007-07-04T03:47:00.5505518+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-09-10T03:45:28.8890492+02:00",
+  "Updated": "2018-03-21T03:47:00.5505518+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "maiya_fritsch@berge.biz"
+  "ErrorsEmail": "emil@schamberger.us"
 }
 ```
 
@@ -139,31 +140,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 942,
-  "Name": "Bins Inc and Sons",
+  "WebhookId": 856,
+  "Name": "Hettinger Inc and Sons",
   "Events": [
-    "aut",
-    "non"
+    "blanditiis",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sint",
+  "Secret": "eos",
   "State": "Active",
-  "Type": "sed",
+  "Type": "est",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "omnis"
+    "Headers1": "dolores",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-04-04T03:45:28.8890492+02:00",
+  "Registered": "2025-04-01T03:47:00.5505518+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-05-11T03:45:28.8890492+02:00",
+  "Updated": "2025-04-08T03:47:00.5505518+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "bernard@greenharris.co.uk",
+  "ErrorsEmail": "willie.will@damore.us",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

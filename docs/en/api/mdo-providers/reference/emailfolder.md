@@ -3,9 +3,9 @@ uid: emailfolder
 title: emailfolder
 keywords: mdoprovider mdo provider emailfolder
 description: EmailFolderProvider gives you the folder hierarchy of a given mail account
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailfolder" MDO List

@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetConfigurationFields
 uid: v1ErpSyncAgent_GetConfigurationFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetConfigurationFields
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 775
+  "ErpConnectorId": 109
 }
 ```
 
@@ -100,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "laboriosam",
-    "Rank": 381,
-    "DisplayName": "Hyatt-Dibbert",
-    "DisplayDescription": "Upgradable value-added focus group",
+    "FieldKey": "tempora",
+    "Rank": 42,
+    "DisplayName": "Zboncak Inc and Sons",
+    "DisplayDescription": "Operative regional contingency",
     "FieldType": "Checkbox",
-    "ListName": "Yundt-Klein",
-    "DefaultValue": "molestias",
-    "MaxLength": 514,
+    "ListName": "Davis-Boehm",
+    "DefaultValue": "consequatur",
+    "MaxLength": 925,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

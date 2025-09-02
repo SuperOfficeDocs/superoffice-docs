@@ -2,6 +2,7 @@
 title: PUT List/Position/Items/{id}/Headings
 uid: v1PositionList_PutPositionHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Stamm-Gottlieb",
-    "ToolTip": "Quam quisquam accusamus exercitationem soluta.",
-    "Deleted": false,
-    "Rank": 575,
-    "Type": "eum",
-    "ColorBlock": 402,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "1998-08-16T03:45:29.0765432+02:00",
+    "Id": 936,
+    "Name": "Abernathy-Pouros",
+    "ToolTip": "Provident nulla delectus illum animi explicabo aliquid.",
+    "Deleted": true,
+    "Rank": 611,
+    "Type": "culpa",
+    "ColorBlock": 149,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2017-05-15T03:47:00.7067961+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Fisher Inc and Sons",
-        "ToolTip": "Eaque odit eos.",
+        "Id": 112,
+        "Name": "Jacobi, Keeling and Dach",
+        "ToolTip": "Sunt est doloremque hic et.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "velit",
-        "ColorBlock": 489,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2015-05-05T03:45:29.0765432+02:00",
+        "Rank": 330,
+        "Type": "rem",
+        "ColorBlock": 313,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2012-10-07T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Harry Kemmer"
+        "ExtraInfo": "ut",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Dusty Upton"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Ms. Durward Ressie Emmerich DDS"
+    "ExtraInfo": "magni",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Palma Pagac"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Schaefer, Deckow and Wisoky",
-    "ToolTip": "Magni consequuntur.",
-    "Deleted": false,
-    "Rank": 15,
-    "Type": "placeat",
-    "ColorBlock": 874,
-    "IconHint": "cupiditate",
+    "Id": 674,
+    "Name": "Purdy-Bernier",
+    "ToolTip": "Et ad aut.",
+    "Deleted": true,
+    "Rank": 335,
+    "Type": "molestiae",
+    "ColorBlock": 421,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2001-12-11T03:45:29.0765432+01:00",
+    "LastChanged": "2010-01-16T03:47:00.7067961+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Hand Group",
-        "ToolTip": "Quia et non ad quia aut.",
+        "Id": 776,
+        "Name": "Kertzmann, Smith and Cremin",
+        "ToolTip": "Alias quia fugiat qui est quos molestiae.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "omnis",
-        "ColorBlock": 416,
-        "IconHint": "quas",
+        "Rank": 387,
+        "Type": "maxime",
+        "ColorBlock": 664,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2019-03-15T03:45:29.0765432+01:00",
+        "LastChanged": "2003-10-23T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Tia Crist",
+        "ExtraInfo": "est",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Joaquin Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 709
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "dolore",
+    "ExtraInfo": "unde",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Dr. Ernest Clement Stoltenberg Jr.",
+    "FullName": "Mrs. Winfield Tara Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 82
       }
     }
   }

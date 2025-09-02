@@ -2,6 +2,7 @@
 title: PUT List/Position/Items/{id}
 uid: v1PositionList_PutPosition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Bogisich-Bruen",
-  "Tooltip": "rerum",
+  "Id": 406,
+  "Name": "Crona LLC",
+  "Tooltip": "ab",
   "Deleted": false,
-  "UdListDefinitionId": 701,
-  "Rank": 64
+  "UdListDefinitionId": 321,
+  "Rank": 728
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Medhurst-Feeney",
-  "Tooltip": "quaerat",
+  "Id": 859,
+  "Name": "Effertz-Larkin",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 356,
-  "Rank": 54,
+  "UdListDefinitionId": 170,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldLength": 635
     }
   }
 }

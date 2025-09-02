@@ -2,10 +2,10 @@
 uid: table-registry
 title: registry table
 description: System settings
-so.generated: true
+generated: true
 keywords: database table registry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # registry Table (253)

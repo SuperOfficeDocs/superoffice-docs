@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultWebPanelEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultWebPanelEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultWebPanelEntity

@@ -2,6 +2,7 @@
 title: Services88.DashAgent.GetDashTile SOAP
 generated: true
 uid: Services88-Dash-GetDashTile
+content_type: reference
 ---
 
 # Services88 Dash GetDashTile

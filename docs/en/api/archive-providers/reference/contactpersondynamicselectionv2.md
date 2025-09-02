@@ -3,9 +3,9 @@ uid: ContactPersonDynamicSelectionV2
 title: ContactPersonDynamicSelectionV2
 description: Contact + Person selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: ContactPersonDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ContactPersonDynamicSelectionV2"
@@ -1004,6 +1004,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -1052,16 +1058,16 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
 |projectMembers/projectUrl/URLDescription|string|Description| x |
 |projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1156,16 +1162,16 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
@@ -1260,16 +1266,16 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |workflowInstance/registeredBy|associate|Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |workflowInstance/emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |workflowInstance/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -1364,16 +1370,16 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/alternative/extraField4|string|Extra 4: Extra field 4 on the quote alternative| x |
 |sale/quote/version/alternative/extraField5|string|Extra 5: Extra field 5 on the quote alternative| x |
 |sale/quote/version/alternative/alternativeOrdering|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/subTotal|decimal|Total before discount: Total of all lines, before applying the Alternative discount| x |
 |sale/quote/version/alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
 |sale/quote/version/alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
 |sale/quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
 |sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
 |sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
@@ -1418,7 +1424,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=email/emailAddress,email/emailHasBounced,appointment/associate/contactFullName,appointment/associate/assocName,appointment/appointment/textId
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=deletedDate,contactExtra/x_contact_shorttext,NumberOfNotCompletedTickets,sale/associate/credentialDisplayValue,appointment/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: PUT List/TicketStatus
 uid: v1TicketStatusList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketStatus
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 109,
-  "Name": "Denesik-Tremblay",
-  "Tooltip": "autem",
+  "Id": 577,
+  "Name": "Wehner, Stiedemann and Romaguera",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 807,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 935,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": false
+  "ListType": "ipsum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327,
-  "Name": "Wolff Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 396,
+  "Id": 421,
+  "Name": "Satterfield, Denesik and Stoltenberg",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 982,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

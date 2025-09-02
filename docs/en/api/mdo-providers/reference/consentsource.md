@@ -3,9 +3,9 @@ uid: consentsource
 title: consentsource
 keywords: mdoprovider mdo provider consentsource
 description: MDO list provider for Consent source
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "consentsource" MDO List

@@ -2,6 +2,7 @@
 title: DEL List/ReasonStalled/Headings
 uid: v1ReasonStalledList_DeleteReasonStalledHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/ReasonStalled/Headings

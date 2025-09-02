@@ -3,9 +3,9 @@ uid: LinksContact
 title: LinksContact
 description: 
 keywords: LinksContact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "LinksContact"
@@ -68,7 +68,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksContact?$select=contactNoMail,nameDepartment,number
+GET /api/v1/archive/LinksContact?$select=nameDepartment,number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

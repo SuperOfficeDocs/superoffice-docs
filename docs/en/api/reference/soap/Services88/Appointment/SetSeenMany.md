@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.SetSeenMany SOAP
 generated: true
 uid: Services88-Appointment-SetSeenMany
+content_type: reference
 ---
 
 # Services88 Appointment SetSeenMany

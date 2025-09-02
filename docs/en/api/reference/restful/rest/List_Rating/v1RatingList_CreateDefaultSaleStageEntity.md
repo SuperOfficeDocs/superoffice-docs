@@ -2,6 +2,7 @@
 title: GET List/Rating/Items/Default
 uid: v1RatingList_CreateDefaultSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Rating/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 366,
-  "Value": "amet",
-  "Tooltip": "totam",
-  "Probability": 549,
+  "SaleStageId": 383,
+  "Value": "ducimus",
+  "Tooltip": "quis",
+  "Probability": 302,
   "Deleted": false,
-  "Rank": 93,
+  "Rank": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 121
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.NumberAllocationAgent.GetNumberEachTemplate SOAP
 generated: true
 uid: Services88-NumberAllocation-GetNumberEachTemplate
+content_type: reference
 ---
 
 # Services88 NumberAllocation GetNumberEachTemplate

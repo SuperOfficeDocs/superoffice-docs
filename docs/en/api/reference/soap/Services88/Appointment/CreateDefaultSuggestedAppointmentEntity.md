@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.CreateDefaultSuggestedAppointmentEntity SOAP
 generated: true
 uid: Services88-Appointment-CreateDefaultSuggestedAppointmentEntity
+content_type: reference
 ---
 
 # Services88 Appointment CreateDefaultSuggestedAppointmentEntity

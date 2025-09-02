@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily/Items/{id}/Headings
 uid: v1ProductFamilyList_PutProductFamilyHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Name": "Senger Inc and Sons",
-    "ToolTip": "Ipsum consequatur cum voluptatem recusandae hic.",
-    "Deleted": true,
-    "Rank": 384,
-    "Type": "in",
-    "ColorBlock": 78,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2010-12-12T03:45:29.1549343+01:00",
+    "Id": 690,
+    "Name": "Collins, Hane and Auer",
+    "ToolTip": "Consectetur eaque voluptates non.",
+    "Deleted": false,
+    "Rank": 557,
+    "Type": "consequatur",
+    "ColorBlock": 883,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2020-11-30T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Moore Inc and Sons",
-        "ToolTip": "Tempora ex ea.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "voluptates",
-        "ColorBlock": 144,
-        "IconHint": "quia",
+        "Id": 462,
+        "Name": "Kutch-Batz",
+        "ToolTip": "Neque tempore aspernatur.",
+        "Deleted": false,
+        "Rank": 209,
+        "Type": "saepe",
+        "ColorBlock": 281,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2008-04-08T03:45:29.1549343+02:00",
+        "LastChanged": "2024-07-17T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "tempora",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Elsa Carter"
+        "FullName": "Prof. Gwen Bradley Reichel DVM"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Mrs. Brigitte Labadie DDS"
+    "FullName": "Lulu Bradtke"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "D'Amore Group",
-    "ToolTip": "Architecto rerum voluptatum non sit.",
-    "Deleted": true,
-    "Rank": 628,
-    "Type": "doloremque",
-    "ColorBlock": 415,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "1998-04-16T03:45:29.1549343+02:00",
+    "Id": 136,
+    "Name": "Johnson-Price",
+    "ToolTip": "Delectus totam.",
+    "Deleted": false,
+    "Rank": 462,
+    "Type": "hic",
+    "ColorBlock": 894,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2016-05-04T03:47:00.7380451+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Halvorson, Mraz and Kris",
-        "ToolTip": "Ut ut sit.",
+        "Id": 510,
+        "Name": "Runolfsdottir-Harber",
+        "ToolTip": "Fuga eveniet qui non.",
         "Deleted": false,
-        "Rank": 440,
-        "Type": "quisquam",
-        "ColorBlock": 700,
-        "IconHint": "vel",
+        "Rank": 256,
+        "Type": "rem",
+        "ColorBlock": 207,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-02-26T03:45:29.1549343+01:00",
+        "LastChanged": "2006-05-18T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "non",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Raquel Bayer",
+        "FullName": "Aglae Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldType": "System.String",
+            "FieldLength": 293
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Yasmin Johan Stanton DDS",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Troy Carroll DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetScreenConfigurationDelta
 uid: v1ConfigurationAgent_GetScreenConfigurationDelta
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetScreenConfigurationDelta
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quia"
+"dolorem"
 ```

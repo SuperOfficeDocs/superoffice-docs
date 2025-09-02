@@ -2,6 +2,7 @@
 title: POST Agents/Sentry/GetFunctionRights
 uid: v1SentryAgent_GetFunctionRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sentry/GetFunctionRights
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Sentry/GetFunctionRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatem",
-  "magnam"
+  "delectus",
+  "odio"
 ]
 ```

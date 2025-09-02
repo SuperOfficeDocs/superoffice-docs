@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.GetTabOrders SOAP
 generated: true
 uid: Services88-Preference-GetTabOrders
+content_type: reference
 ---
 
 # Services88 Preference GetTabOrders

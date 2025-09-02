@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CopyTileSelection SOAP
 generated: true
 uid: Services88-Dash-CopyTileSelection
+content_type: reference
 ---
 
 # Services88 Dash CopyTileSelection

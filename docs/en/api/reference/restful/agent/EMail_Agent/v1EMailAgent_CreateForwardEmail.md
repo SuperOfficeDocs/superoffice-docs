@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateForwardEmail
 uid: v1EMailAgent_CreateForwardEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateForwardEmail
@@ -117,156 +118,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 957,
-      "ContactName": "Williamson-Aufderhar",
-      "PersonId": 100,
-      "PersonName": "Murray LLC",
-      "AssociateId": 602,
-      "Address": "quo",
-      "EmailId": 597,
+      "ContactId": 162,
+      "ContactName": "Tillman Group",
+      "PersonId": 83,
+      "PersonName": "Heller Inc and Sons",
+      "AssociateId": 239,
+      "Address": "atque",
+      "EmailId": 961,
       "DuplicatePersonIds": [
-        969,
-        694
+        785,
+        111
       ],
-      "Name": "Huel-Bernhard",
+      "Name": "Cummerata, Macejkovic and Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 7
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 579,
-      "ContactName": "Crooks Group",
-      "PersonId": 351,
-      "PersonName": "Beier, Lindgren and Jakubowski",
-      "AssociateId": 633,
-      "Address": "et",
-      "EmailId": 333,
+      "ContactId": 504,
+      "ContactName": "Kling-Morar",
+      "PersonId": 324,
+      "PersonName": "Borer LLC",
+      "AssociateId": 300,
+      "Address": "dolor",
+      "EmailId": 45,
       "DuplicatePersonIds": [
-        319,
-        225
+        147,
+        528
       ],
-      "Name": "Barrows, Hilll and Towne",
+      "Name": "Schinner-Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 744
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 336,
-      "ContactName": "Bechtelar-Cummings",
-      "PersonId": 498,
-      "PersonName": "Wolf, Leuschke and Beahan",
-      "AssociateId": 339,
-      "Address": "earum",
-      "EmailId": 129,
+      "ContactId": 111,
+      "ContactName": "Brekke, Littel and Schroeder",
+      "PersonId": 802,
+      "PersonName": "Haley Inc and Sons",
+      "AssociateId": 692,
+      "Address": "vel",
+      "EmailId": 966,
       "DuplicatePersonIds": [
-        127,
-        432
+        175,
+        970
       ],
-      "Name": "Jones-Okuneva",
+      "Name": "Bednar, Robel and Rosenbaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 859
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "nesciunt",
+  "Subject": "omnis",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "2015-12-23T03:45:23.373582+01:00",
-  "Size": 332,
+  "Sent": "2018-05-03T03:46:54.707009+02:00",
+  "Size": 489,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "magni",
-  "PlainBody": "asperiores",
+  "MessageID": "animi",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 939,
+  "ServerId": 309,
   "Attachments": [
     {
-      "Description": "Re-contextualized intermediate contingency",
-      "Filename": "fugit",
-      "Size": 921,
-      "Type": "temporibus",
-      "Encoding": "aperiam",
-      "Id": "quibusdam",
-      "Disposition": "quasi",
-      "IsSafeFileExtension": false,
+      "Description": "Pre-emptive directional policy",
+      "Filename": "rerum",
+      "Size": 180,
+      "Type": "vitae",
+      "Encoding": "dignissimos",
+      "Id": "soluta",
+      "Disposition": "ducimus",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 664
+          "FieldLength": 795
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Waters Inc and Sons",
+      "Name": "Rutherford-Cole",
       "Values": [
-        "quos",
-        "odit"
+        "reiciendis",
+        "dignissimos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 821
         }
       }
     },
     {
-      "Name": "Waters Inc and Sons",
+      "Name": "Rutherford-Cole",
       "Values": [
-        "quos",
-        "odit"
+        "reiciendis",
+        "dignissimos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 821
         }
       }
     }
   ],
-  "FolderName": "Terry, O'Conner and Heidenreich",
-  "EmailItemId": 859,
-  "AccountId": 716,
-  "ReceivedAt": "2018-02-17T03:45:23.373582+01:00",
+  "FolderName": "Hirthe, Stracke and Murphy",
+  "EmailItemId": 90,
+  "AccountId": 803,
+  "ReceivedAt": "2022-06-13T03:46:54.707009+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-12-09T03:45:23.373582+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-08-24T03:46:54.707009+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

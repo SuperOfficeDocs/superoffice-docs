@@ -2,6 +2,7 @@
 title: POST Sale/UdefLayout/Publish
 uid: v1SaleEntity_PublishUdefLayout
 generated: true
+content_type: reference
 ---
 
 # POST Sale/UdefLayout/Publish
@@ -52,7 +53,7 @@ OK
 POST /api/v1/Sale/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -61,5 +62,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-279
+72
 ```

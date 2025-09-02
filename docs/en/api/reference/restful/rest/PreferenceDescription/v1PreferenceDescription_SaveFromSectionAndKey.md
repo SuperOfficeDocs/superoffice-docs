@@ -2,6 +2,7 @@
 title: PUT PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_SaveFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # PUT PreferenceDescription/{section}/{key}
@@ -102,28 +103,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 275,
+  "PrefDescId": 15,
   "Section": "omnis",
-  "Key": "nesciunt",
-  "Name": "Weimann, Nienow and Prohaska",
+  "Key": "libero",
+  "Name": "Veum, Bosco and Ritchie",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling heuristic contingency",
+  "Description": "Programmable client-server architecture",
   "IsBuiltin": false,
-  "TableName": "Feeney Group",
-  "UserDefinedListId": 435,
-  "Rank": 537,
-  "SubGroup": "vero",
-  "MinLevel": 599,
-  "MaxValue": 532,
-  "MinValue": 334,
-  "RequiredLicense": "fugit"
+  "TableName": "Brakus, Haley and Hackett",
+  "UserDefinedListId": 247,
+  "Rank": 140,
+  "SubGroup": "amet",
+  "MinLevel": 61,
+  "MaxValue": 777,
+  "MinValue": 308,
+  "RequiredLicense": "dignissimos"
 }
 ```
 
@@ -134,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 462,
-  "Section": "autem",
-  "Key": "aut",
-  "Name": "Mann Inc and Sons",
+  "PrefDescId": 101,
+  "Section": "voluptates",
+  "Key": "quod",
+  "Name": "Batz, Jacobson and Tillman",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated next generation encryption",
+  "Description": "Open-source 24 hour superstructure",
   "IsBuiltin": false,
-  "TableName": "Ziemann-Kling",
-  "UserDefinedListId": 793,
-  "Rank": 634,
-  "SubGroup": "et",
-  "MinLevel": 720,
-  "MaxValue": 988,
-  "MinValue": 357,
-  "RequiredLicense": "cumque",
+  "TableName": "Hickle LLC",
+  "UserDefinedListId": 984,
+  "Rank": 965,
+  "SubGroup": "ut",
+  "MinLevel": 608,
+  "MaxValue": 102,
+  "MinValue": 812,
+  "RequiredLicense": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -108,7 +109,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 709,
-    "ColumnId": 93,
-    "FieldDefault": "inventore",
-    "FieldHeight": 434,
-    "FieldLabel": "dolores",
-    "FieldLeft": 944,
-    "FieldTop": 406,
+    "UDefFieldId": 101,
+    "ColumnId": 247,
+    "FieldDefault": "repudiandae",
+    "FieldHeight": 579,
+    "FieldLabel": "doloremque",
+    "FieldLeft": 818,
+    "FieldTop": 758,
     "FieldType": "Checkbox",
-    "FieldWidth": 135,
-    "FormatMask": "voluptatum",
-    "HideLabel": true,
+    "FieldWidth": 131,
+    "FormatMask": "nulla",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 388,
-    "LabelLeft": 776,
-    "LabelTop": 341,
-    "LabelWidth": 362,
-    "LastVersionId": 386,
-    "ListTableId": 626,
-    "IsMandatory": true,
+    "LabelHeight": 975,
+    "LabelLeft": 948,
+    "LabelTop": 778,
+    "LabelWidth": 960,
+    "LastVersionId": 383,
+    "ListTableId": 733,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 542,
-    "ProgId": "enim",
+    "Page1LineNo": 848,
+    "ProgId": "aliquid",
     "IsReadOnly": true,
-    "ShortLabel": "ut",
-    "TabOrder": 437,
-    "TextLength": 135,
-    "Tooltip": "est",
-    "UdefIdentity": 50,
-    "UDListDefinitionId": 174,
+    "ShortLabel": "nemo",
+    "TabOrder": 588,
+    "TextLength": 324,
+    "Tooltip": "debitis",
+    "UdefIdentity": 136,
+    "UDListDefinitionId": 20,
     "Justification": "Center",
-    "Version": 34,
-    "TemplateVariableName": "Leuschke-Corwin",
+    "Version": 80,
+    "TemplateVariableName": "Hermann-Blick",
     "HasBeenPublished": false,
-    "MdoListName": "Klein, Jerde and Torphy",
+    "MdoListName": "Bergstrom, Frami and Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 551
       }
     }
   }

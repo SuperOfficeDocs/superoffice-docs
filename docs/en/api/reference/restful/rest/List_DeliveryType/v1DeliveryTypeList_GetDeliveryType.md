@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Items/{id}
 uid: v1DeliveryTypeList_GetDeliveryType
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Rohan Group",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 363,
-  "Rank": 268,
+  "Id": 120,
+  "Name": "Fadel, Gibson and Turcotte",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "UdListDefinitionId": 735,
+  "Rank": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 286
     }
   }
 }

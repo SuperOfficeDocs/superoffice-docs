@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.Copy SOAP
 generated: true
 uid: Services88-Contact-Copy
+content_type: reference
 ---
 
 # Services88 Contact Copy

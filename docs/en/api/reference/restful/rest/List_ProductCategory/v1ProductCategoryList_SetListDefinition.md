@@ -2,6 +2,7 @@
 title: PUT List/ProductCategory
 uid: v1ProductCategoryList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductCategory
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Lowe-VonRueden",
-  "Tooltip": "illo",
+  "Id": 401,
+  "Name": "Fritsch-Zemlak",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 990,
+  "Rank": 225,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Kassulke Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 410,
+  "Id": 988,
+  "Name": "Frami, Bogisich and Feil",
+  "Tooltip": "totam",
+  "Deleted": false,
+  "Rank": 476,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptate",
-  "InUseByUserDefinedFields": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

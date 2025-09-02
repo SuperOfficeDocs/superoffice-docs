@@ -2,10 +2,10 @@
 uid: table-SORSection
 title: SORSection table
 description: SuperOffice reporter data
-so.generated: true
+generated: true
 keywords: database table SORSection
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SORSection Table (177)

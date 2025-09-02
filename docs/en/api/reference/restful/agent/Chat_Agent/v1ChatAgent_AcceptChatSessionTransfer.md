@@ -2,6 +2,7 @@
 title: POST Agents/Chat/AcceptChatSessionTransfer
 uid: v1ChatAgent_AcceptChatSessionTransfer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/AcceptChatSessionTransfer
@@ -109,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 237
+  "ChatSessionId": 346
 }
 ```
 
@@ -120,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 302,
-  "TopicId": 848,
+  "ChatSessionId": 117,
+  "TopicId": 741,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "necessitatibus",
-  "CustomerName": "Hamill, Franecki and Zemlak",
-  "CustomerEmail": "daron@prosacco.com",
-  "CustomerPhone": "319-997-4420 x392",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Wehner-Stoltenberg",
+  "CustomerAlias": "libero",
+  "CustomerHost": "ipsa",
+  "CustomerName": "Grant, Haag and Prohaska",
+  "CustomerEmail": "kimberly.hilll@mcglynndonnelly.biz",
+  "CustomerPhone": "(016)106-9469",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Spencer, Heidenreich and Beier",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "consectetur",
-  "WhenRequested": "2022-04-16T03:45:23.0298416+02:00",
-  "WhenStarted": "2006-10-23T03:45:23.0298416+02:00",
-  "WhenEnded": "2010-01-24T03:45:23.0298416+01:00",
-  "WhenIdle": "2017-10-08T03:45:23.0298416+02:00",
-  "WhenFetched": "2010-05-15T03:45:23.0298416+02:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 907,
-  "AlertLevel": 543,
-  "Rank": 737,
+  "FirstMessage": "praesentium",
+  "LastMessage": "neque",
+  "WhenRequested": "2008-12-10T03:46:54.3632712+01:00",
+  "WhenStarted": "2002-05-03T03:46:54.3632712+02:00",
+  "WhenEnded": "2012-03-01T03:46:54.3632712+01:00",
+  "WhenIdle": "2012-12-05T03:46:54.3632712+01:00",
+  "WhenFetched": "2004-01-11T03:46:54.3632712+01:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 51,
+  "AlertLevel": 967,
+  "Rank": 103,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 701,
+  "Rating": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 705
     }
   }
 }

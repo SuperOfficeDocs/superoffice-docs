@@ -3,9 +3,9 @@ uid: formfolder
 title: formfolder
 keywords: mdoprovider mdo provider formfolder
 description: FormFolderProvider creates a flat or tree list based on the table - s_picture_folder
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formfolder" MDO List

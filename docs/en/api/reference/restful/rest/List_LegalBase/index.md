@@ -1,6 +1,8 @@
 ---
+uid: tag-List_LegalBase
 title: List_LegalBase
 generated: true
+content_type: reference
 ---
 
 ```http

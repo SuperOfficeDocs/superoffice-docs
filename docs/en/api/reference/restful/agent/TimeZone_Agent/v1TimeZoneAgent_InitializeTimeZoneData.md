@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/InitializeTimeZoneData
 uid: v1TimeZoneAgent_InitializeTimeZoneData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/InitializeTimeZoneData
@@ -80,31 +81,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 465,
-    "Name": "Schaefer Group",
-    "TZLocationCode": "et",
-    "TZLocationCities": "quia",
-    "IsoNumber": 965,
+    "TZLocationID": 121,
+    "Name": "Bartell LLC",
+    "TZLocationCode": "qui",
+    "TZLocationCities": "eos",
+    "IsoNumber": 924,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 678,
-        "StartMonth": 997,
-        "EndDay": 308,
-        "EndMonth": 450,
-        "TZOffset": 658,
-        "StartRulePattern": "sequi",
-        "EndRulePattern": "nulla"
+        "StartDay": 284,
+        "StartMonth": 551,
+        "EndDay": 96,
+        "EndMonth": 884,
+        "TZOffset": 274,
+        "StartRulePattern": "et",
+        "EndRulePattern": "et"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 470,
-        "StartMonth": 902,
-        "EndDay": 103,
-        "EndMonth": 207,
-        "TZOffset": 824,
-        "StartRulePattern": "nostrum",
-        "EndRulePattern": "ut"
+        "StartDay": 755,
+        "StartMonth": 33,
+        "EndDay": 792,
+        "EndMonth": 366,
+        "TZOffset": 634,
+        "StartRulePattern": "necessitatibus",
+        "EndRulePattern": "aut"
       }
     }
   }

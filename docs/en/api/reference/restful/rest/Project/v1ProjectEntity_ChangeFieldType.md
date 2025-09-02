@@ -2,6 +2,7 @@
 title: POST Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1ProjectEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -114,46 +115,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 850,
-  "ColumnId": 499,
-  "FieldDefault": "et",
-  "FieldHeight": 903,
-  "FieldLabel": "rerum",
-  "FieldLeft": 724,
-  "FieldTop": 364,
+  "UDefFieldId": 632,
+  "ColumnId": 192,
+  "FieldDefault": "possimus",
+  "FieldHeight": 574,
+  "FieldLabel": "et",
+  "FieldLeft": 812,
+  "FieldTop": 240,
   "FieldType": "Checkbox",
-  "FieldWidth": 447,
-  "FormatMask": "reiciendis",
+  "FieldWidth": 155,
+  "FormatMask": "id",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 401,
-  "LabelLeft": 241,
-  "LabelTop": 208,
-  "LabelWidth": 855,
-  "LastVersionId": 622,
-  "ListTableId": 678,
+  "LabelHeight": 84,
+  "LabelLeft": 500,
+  "LabelTop": 414,
+  "LabelWidth": 737,
+  "LastVersionId": 915,
+  "ListTableId": 812,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 795,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 155,
-  "TextLength": 951,
-  "Tooltip": "enim",
-  "UdefIdentity": 794,
-  "UDListDefinitionId": 549,
+  "Page1LineNo": 413,
+  "ProgId": "fugiat",
+  "IsReadOnly": true,
+  "ShortLabel": "quidem",
+  "TabOrder": 174,
+  "TextLength": 101,
+  "Tooltip": "alias",
+  "UdefIdentity": 41,
+  "UDListDefinitionId": 933,
   "Justification": "Center",
-  "Version": 173,
-  "TemplateVariableName": "Howe, Pacocha and Williamson",
+  "Version": 187,
+  "TemplateVariableName": "Thiel, Boyle and Ziemann",
   "HasBeenPublished": false,
-  "MdoListName": "Hirthe LLC",
+  "MdoListName": "Schmeler LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

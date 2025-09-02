@@ -2,10 +2,10 @@
 uid: table-udappntlarge
 title: udappntlarge table
 description: User-defined fields
-so.generated: true
+generated: true
 keywords: database table udappntlarge
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # udappntlarge Table (229)

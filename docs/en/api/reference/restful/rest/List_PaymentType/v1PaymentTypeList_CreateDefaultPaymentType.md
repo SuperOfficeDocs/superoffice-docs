@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Items/Default
 uid: v1PaymentTypeList_CreateDefaultPaymentType
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Lubowitz, Kuhn and O'Reilly",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 417,
-  "Rank": 412,
+  "Id": 689,
+  "Name": "Jaskolski, Morissette and Denesik",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 822,
+  "Rank": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   }
 }

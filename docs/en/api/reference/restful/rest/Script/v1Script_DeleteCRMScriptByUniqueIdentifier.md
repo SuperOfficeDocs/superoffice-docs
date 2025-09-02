@@ -2,6 +2,7 @@
 title: DEL Script/{uniqueIdentifier}
 uid: v1Script_DeleteCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # DEL Script/{uniqueIdentifier}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

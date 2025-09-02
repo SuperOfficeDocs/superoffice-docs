@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateDefaultProduct
 uid: v1QuoteAgent_CreateDefaultProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateDefaultProduct
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 ```
 
-Set default values into a new Product.
+Loading default values into a new Product.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -90,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 759,
-  "ERPProductKey": "provident",
-  "ERPPriceListKey": "dignissimos",
-  "Name": "Koepp Group",
-  "Description": "Re-engineered multimedia capacity",
-  "Code": "qui",
-  "PriceUnit": "dolor",
-  "QuantityUnit": "magnam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "esse",
-  "DefaultSubscriptionQuantity": 12711.503999999999,
-  "ItemNumber": "965178",
+  "ProductId": 72,
+  "ERPProductKey": "commodi",
+  "ERPPriceListKey": "est",
+  "Name": "Roberts-Donnelly",
+  "Description": "Future-proofed human-resource core",
+  "Code": "quisquam",
+  "PriceUnit": "temporibus",
+  "QuantityUnit": "exercitationem",
+  "IsSubscription": true,
+  "SubscriptionUnit": "dolores",
+  "DefaultSubscriptionQuantity": 18951.298,
+  "ItemNumber": "724102",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "debitis",
-  "ProductTypeKey": "dolor",
-  "VAT": 17484.586,
-  "VATInfo": "consectetur",
-  "UnitCost": 4237.168,
-  "UnitMinimumPrice": 23671.102,
-  "UnitListPrice": 9533.6279999999988,
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "soluta",
+  "VAT": 21314.334,
+  "VATInfo": "laborum",
+  "UnitCost": 5384.2119999999995,
+  "UnitMinimumPrice": 27927.074,
+  "UnitListPrice": 30666.19,
   "InAssortment": true,
-  "Supplier": "enim",
-  "SupplierCode": "accusantium",
-  "Rights": "et",
-  "Rule": "in",
+  "Supplier": "doloremque",
+  "SupplierCode": "numquam",
+  "Rights": "nisi",
+  "Rule": "numquam",
   "ExtraInfo": [
     {
-      "Name": "McLaughlin-Pfannerstill",
-      "Value": "et",
+      "Name": "Kunde-O'Kon",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 874
         }
       }
     },
     {
-      "Name": "McLaughlin-Pfannerstill",
-      "Value": "et",
+      "Name": "Kunde-O'Kon",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 874
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsum",
-  "ExtraField1": "et",
-  "ExtraField2": "officia",
-  "ExtraField3": "aliquam",
-  "ExtraField4": "nostrum",
-  "ExtraField5": "rerum",
-  "InStock": 20875.574,
+  "RawExtraInfo": "rerum",
+  "ExtraField1": "est",
+  "ExtraField2": "id",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "aut",
+  "ExtraField5": "adipisci",
+  "InStock": 2905.218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectMember
 uid: v1ProjectAgent_GetProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectMember
@@ -22,11 +23,11 @@ Gets a ProjectMember object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| projectMemberId | int32 | **Required** The primary key. |
+| projectMemberId | int32 | **Required** The identifier of the ProjectMember object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=406
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=695
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 996,
-  "ContactId": 505,
-  "ProjectId": 67,
-  "ContactName": "Berge, Klocko and Moore",
+  "ProjectmemberId": 60,
+  "ContactId": 422,
+  "ProjectId": 991,
+  "ContactName": "Hettinger, Maggio and Weimann",
   "ContactDepartment": "",
-  "ProjectName": "Howe, Schoen and Macejkovic",
-  "EmailId": 274,
-  "EmailAddress": "josefina@klein.us",
-  "CountryId": 366,
-  "Firstname": "Dakota",
-  "MiddleName": "Macejkovic LLC",
-  "Lastname": "Wiza",
-  "PersonId": 961,
-  "Mrmrs": "quia",
-  "ProjectMemberTypeName": "Kuhic Group",
-  "Phone": "1-164-200-1689",
-  "PhoneId": 678,
-  "ProjectMemberTypeId": 161,
-  "EmailAddressName": "rosalinda@romagueramckenzie.biz",
-  "Comment": "aut",
-  "FullName": "Cloyd Harber",
+  "ProjectName": "Johnson LLC",
+  "EmailId": 577,
+  "EmailAddress": "palma@paucek.co.uk",
+  "CountryId": 479,
+  "Firstname": "Mallie",
+  "MiddleName": "Hackett LLC",
+  "Lastname": "Koss",
+  "PersonId": 566,
+  "Mrmrs": "dolores",
+  "ProjectMemberTypeName": "Koch-Stroman",
+  "Phone": "083.592.9534 x85805",
+  "PhoneId": 387,
+  "ProjectMemberTypeId": 733,
+  "EmailAddressName": "vilma@langoshfeeney.ca",
+  "Comment": "velit",
+  "FullName": "Jaydon Keebler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

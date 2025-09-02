@@ -2,6 +2,7 @@
 title: POST Agents/Chat/AddChatTopicUserAgent
 uid: v1ChatAgent_AddChatTopicUserAgent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/AddChatTopicUserAgent
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 88,
+  "ChatTopicId": 983,
   "Useragent": null
 }
 ```
@@ -93,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 215,
+  "TopicId": 155,
   "User": null,
   "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": false
+  "CanManage": false,
+  "CanNotify": true
 }
 ```

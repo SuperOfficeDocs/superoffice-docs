@@ -2,6 +2,7 @@
 title: GET Appointment/UdefLayout/{progidOrLabel}
 uid: v1AppointmentEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/UdefLayout/{progidOrLabel}
@@ -93,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 881,
-  "ColumnId": 800,
-  "FieldDefault": "omnis",
-  "FieldHeight": 299,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 9,
-  "FieldTop": 694,
+  "UDefFieldId": 863,
+  "ColumnId": 549,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 116,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 584,
+  "FieldTop": 234,
   "FieldType": "Checkbox",
-  "FieldWidth": 682,
-  "FormatMask": "voluptatem",
-  "HideLabel": false,
+  "FieldWidth": 537,
+  "FormatMask": "omnis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 760,
-  "LabelLeft": 143,
-  "LabelTop": 248,
-  "LabelWidth": 210,
-  "LastVersionId": 786,
-  "ListTableId": 692,
+  "LabelHeight": 31,
+  "LabelLeft": 387,
+  "LabelTop": 98,
+  "LabelWidth": 893,
+  "LastVersionId": 620,
+  "ListTableId": 308,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 974,
-  "ProgId": "dicta",
+  "Page1LineNo": 20,
+  "ProgId": "enim",
   "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 141,
-  "TextLength": 840,
-  "Tooltip": "autem",
-  "UdefIdentity": 320,
-  "UDListDefinitionId": 4,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 444,
+  "TextLength": 623,
+  "Tooltip": "et",
+  "UdefIdentity": 511,
+  "UDListDefinitionId": 793,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Schulist, Cartwright and Effertz",
-  "HasBeenPublished": true,
-  "MdoListName": "Turcotte-Roberts",
+  "Version": 351,
+  "TemplateVariableName": "Pollich, Grady and Leffler",
+  "HasBeenPublished": false,
+  "MdoListName": "Langworth LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 638
     }
   }
 }

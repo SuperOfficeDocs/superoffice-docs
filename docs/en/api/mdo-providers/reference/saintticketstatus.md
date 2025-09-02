@@ -3,9 +3,9 @@ uid: saintticketstatus
 title: saintticketstatus
 keywords: mdoprovider mdo provider saintticketstatus
 description: This SoList provider generates the ticket status list for the Saint criteria. This is a simple, hard-coded list, special for this context
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saintticketstatus" MDO List

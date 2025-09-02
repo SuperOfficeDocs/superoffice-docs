@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferenceDescription
 uid: v1PreferenceAgent_SavePreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferenceDescription
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 ```
 
-Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
+Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing PreferenceDescription or creates a new PreferenceDescriptio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: preferenceDescription 
 
-The PreferenceDescription to be saved. 
+The PreferenceDescription that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,28 +98,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 532,
-  "Section": "enim",
-  "Key": "sunt",
-  "Name": "Beahan, Dooley and Ferry",
+  "PrefDescId": 44,
+  "Section": "cum",
+  "Key": "et",
+  "Name": "Spinka-Anderson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised user-facing time-frame",
+  "Description": "Virtual web-enabled core",
   "IsBuiltin": false,
-  "TableName": "Volkman-Moen",
-  "UserDefinedListId": 896,
-  "Rank": 574,
-  "SubGroup": "qui",
-  "MinLevel": 454,
-  "MaxValue": 955,
-  "MinValue": 710,
-  "RequiredLicense": "eaque"
+  "TableName": "Mayer Group",
+  "UserDefinedListId": 932,
+  "Rank": 41,
+  "SubGroup": "praesentium",
+  "MinLevel": 35,
+  "MaxValue": 888,
+  "MinValue": 61,
+  "RequiredLicense": "mollitia"
 }
 ```
 
@@ -129,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 143,
-  "Section": "voluptatibus",
-  "Key": "iure",
-  "Name": "Carroll, Cole and Mohr",
+  "PrefDescId": 899,
+  "Section": "aliquid",
+  "Key": "in",
+  "Name": "Stracke-Jacobson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optional coherent system engine",
+  "Description": "Centralized heuristic process improvement",
   "IsBuiltin": false,
-  "TableName": "Orn-Rau",
-  "UserDefinedListId": 297,
-  "Rank": 188,
-  "SubGroup": "delectus",
-  "MinLevel": 772,
-  "MaxValue": 154,
-  "MinValue": 720,
-  "RequiredLicense": "dolores",
+  "TableName": "Jewess, Schinner and McGlynn",
+  "UserDefinedListId": 563,
+  "Rank": 506,
+  "SubGroup": "dignissimos",
+  "MinLevel": 155,
+  "MaxValue": 820,
+  "MinValue": 784,
+  "RequiredLicense": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldLength": 5
     }
   }
 }

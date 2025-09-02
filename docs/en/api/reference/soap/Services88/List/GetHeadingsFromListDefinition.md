@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetHeadingsFromListDefinition SOAP
 generated: true
 uid: Services88-List-GetHeadingsFromListDefinition
+content_type: reference
 ---
 
 # Services88 List GetHeadingsFromListDefinition

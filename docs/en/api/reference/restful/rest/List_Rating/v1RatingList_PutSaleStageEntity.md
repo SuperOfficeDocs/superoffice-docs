@@ -2,6 +2,7 @@
 title: PUT List/Rating/Items/{id}
 uid: v1RatingList_PutSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/Rating/Items/{id}
@@ -84,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 712,
-  "Value": "quisquam",
-  "Tooltip": "dolorem",
-  "Probability": 386,
+  "SaleStageId": 3,
+  "Value": "quam",
+  "Tooltip": "et",
+  "Probability": 799,
   "Deleted": true,
-  "Rank": 81
+  "Rank": 172
 }
 ```
 
@@ -100,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 984,
-  "Value": "quo",
-  "Tooltip": "sed",
-  "Probability": 123,
+  "SaleStageId": 226,
+  "Value": "quod",
+  "Tooltip": "voluptatem",
+  "Probability": 988,
   "Deleted": false,
-  "Rank": 437,
+  "Rank": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 494
     }
   }
 }

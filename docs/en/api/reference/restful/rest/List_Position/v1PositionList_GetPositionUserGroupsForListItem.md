@@ -2,6 +2,7 @@
 title: GET List/Position/Items/{id}/UserGroups
 uid: v1PositionList_GetPositionUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Pacocha, Koepp and Jewess",
-    "ToolTip": "Consequatur non corporis accusantium.",
-    "Deleted": false,
-    "Rank": 891,
-    "Type": "in",
-    "ColorBlock": 998,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2017-12-14T03:45:29.0765432+01:00",
+    "Id": 553,
+    "Name": "Cremin, Bradtke and Hilll",
+    "ToolTip": "Neque quibusdam veritatis est voluptatem veritatis unde doloribus.",
+    "Deleted": true,
+    "Rank": 202,
+    "Type": "et",
+    "ColorBlock": 344,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2014-05-23T03:47:00.7067961+02:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Blanda, Osinski and Kohler",
-        "ToolTip": "Debitis corporis minus et ut enim officiis perferendis.",
-        "Deleted": true,
-        "Rank": 680,
-        "Type": "deserunt",
-        "ColorBlock": 760,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2008-03-28T03:45:29.0765432+01:00",
+        "Id": 437,
+        "Name": "Schiller, Berge and Roberts",
+        "ToolTip": "Animi labore veniam enim labore.",
+        "Deleted": false,
+        "Rank": 666,
+        "Type": "rerum",
+        "ColorBlock": 25,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2008-04-11T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "repellat",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "dolore",
         "Hidden": true,
-        "FullName": "Bobby Macejkovic",
+        "FullName": "Dr. Alexander Britney Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 860
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Dr. Roxanne Kub II",
+    "ExtraInfo": "commodi",
+    "StyleHint": "ipsam",
+    "Hidden": true,
+    "FullName": "Ophelia Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldType": "System.Int32",
+        "FieldLength": 737
       }
     }
   }

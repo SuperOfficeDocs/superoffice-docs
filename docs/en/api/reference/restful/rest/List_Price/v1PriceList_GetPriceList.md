@@ -2,6 +2,7 @@
 title: GET Pricelist/{id}
 uid: v1PriceList_GetPriceList
 generated: true
+content_type: reference
 ---
 
 # GET Pricelist/{id}
@@ -82,7 +83,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,27 +93,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 169,
-  "ERPPriceListKey": "quas",
-  "QuoteConnectionId": 740,
-  "Name": "Hansen Inc and Sons",
-  "Description": "Integrated zero tolerance open system",
-  "Currency": "iusto",
-  "CurrencyName": "Dicki-Wilkinson",
-  "ValidFrom": "2023-09-20T03:45:29.0921677+02:00",
-  "ValidTo": "2018-02-03T03:45:29.0921677+01:00",
-  "IsActive": true,
+  "PriceListId": 490,
+  "ERPPriceListKey": "modi",
+  "QuoteConnectionId": 343,
+  "Name": "Padberg, Feil and Schuster",
+  "Description": "Integrated interactive superstructure",
+  "Currency": "id",
+  "CurrencyName": "Marks, Carter and Paucek",
+  "ValidFrom": "2005-07-01T03:47:00.7067961+02:00",
+  "ValidTo": "2006-07-18T03:47:00.7067961+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

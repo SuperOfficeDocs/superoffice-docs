@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 uid: v1ForeignAppEntity_GetKeyByValue
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
@@ -32,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=molestiae
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nobis
 ```
 
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Apr 2003 03:45:28 G4T
+Last-Modified: Mon, 06 Oct 2014 03:47:00 G10T
 
 {
-  "Key": "aut",
-  "Value": "facilis",
-  "RecordId": 289,
-  "CreatedDate": "2021-03-14T03:45:28.3578119+01:00",
-  "UpdatedDate": "2003-04-11T03:45:28.3578119+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "et",
-  "TableName": "Lesch Group",
+  "Key": "laudantium",
+  "Value": "quas",
+  "RecordId": 907,
+  "CreatedDate": "2024-12-23T03:47:00.0349452+01:00",
+  "UpdatedDate": "2014-10-06T03:47:00.0349452+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "quo",
+  "TableName": "Labadie LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

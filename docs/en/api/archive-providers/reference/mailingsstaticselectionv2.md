@@ -3,9 +3,9 @@ uid: MailingsStaticSelectionV2
 title: MailingsStaticSelectionV2
 description: Static archive Provider for a Selection of Mailingss archive.
 keywords: MailingsStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MailingsStaticSelectionV2"
@@ -667,7 +667,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingDescription,mailingAddr/person/birthDay,mailingAddr/person/email/emailProtocol,mailingAddr/person/personExtra/x_person_hidden_integer,associate/contactId
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingOwner,mailingAddr/contact/code,mailingAddr/contact/streetAddress/formattedAddress,mailingAddr/person/personAddress/county,mailingAddr/person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.AddAfterWorkflowStep SOAP
 generated: true
 uid: Services88-Workflow-AddAfterWorkflowStep
+content_type: reference
 ---
 
 # Services88 Workflow AddAfterWorkflowStep

@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.GetForAllDocuments SOAP
 generated: true
 uid: Services88-DocumentMigration-GetForAllDocuments
+content_type: reference
 ---
 
 # Services88 DocumentMigration GetForAllDocuments

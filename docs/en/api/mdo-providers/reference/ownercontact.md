@@ -3,9 +3,9 @@ uid: ownercontact
 title: ownercontact
 keywords: mdoprovider mdo provider ownercontact
 description: MDO provider for listing owner contacts.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ownercontact" MDO List

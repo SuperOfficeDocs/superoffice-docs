@@ -2,13 +2,13 @@
 uid: table-form_field_value
 title: form_field_value table
 description: Form field values saved in a searchable format
-so.generated: true
+generated: true
 keywords: database table form_field_value
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# form\_field\_value Table (522)
+# form\_field\_value Table (523)
 
 Form field values saved in a searchable format
 

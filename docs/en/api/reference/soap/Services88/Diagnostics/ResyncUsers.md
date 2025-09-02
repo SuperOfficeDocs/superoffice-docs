@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.ResyncUsers SOAP
 generated: true
 uid: Services88-Diagnostics-ResyncUsers
+content_type: reference
 ---
 
 # Services88 Diagnostics ResyncUsers

@@ -2,6 +2,7 @@
 title: POST Agents/Report/DeleteReportLabelLayoutEntity
 uid: v1ReportAgent_DeleteReportLabelLayoutEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Report/DeleteReportLabelLayoutEntity
@@ -22,10 +23,10 @@ Deletes the ReportLabelLayoutEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ReportLabelLayoutEntityId | int32 | **Required** The id of the ReportLabelLayoutEntity to be deleted. |
+| reportLabelLayoutEntityId | int32 | **Required** The identity of the ReportLabelLayoutEntity |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=293
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=813
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

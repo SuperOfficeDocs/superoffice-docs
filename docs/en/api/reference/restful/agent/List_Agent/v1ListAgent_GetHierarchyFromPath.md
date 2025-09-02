@@ -2,6 +2,7 @@
 title: POST Agents/List/GetHierarchyFromPath
 uid: v1ListAgent_GetHierarchyFromPath
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetHierarchyFromPath
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "dolorem",
-  "Children": true
+  "Path": "sapiente",
+  "Children": false
 }
 ```
 
@@ -101,46 +102,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 745,
+  "HierarchyId": 660,
   "Domain": "Dashboards",
-  "Name": "VonRueden LLC",
-  "Fullname": "veritatis",
-  "ParentId": 255,
+  "Name": "Littel, Terry and Spencer",
+  "Fullname": "ea",
+  "ParentId": 770,
   "Children": [
     {
-      "HierarchyId": 484,
+      "HierarchyId": 325,
       "Domain": "Dashboards",
-      "Name": "Collier Inc and Sons",
-      "Fullname": "cum",
-      "ParentId": 420,
+      "Name": "Howell-Stehr",
+      "Fullname": "quia",
+      "ParentId": 841,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-01-27T03:45:23.6079553+01:00",
-      "RegisteredAssociateId": 975,
-      "Updated": "2013-12-26T03:45:23.6079553+01:00",
-      "UpdatedAssociateId": 749,
+      "Registered": "2021-08-19T03:46:54.9726245+02:00",
+      "RegisteredAssociateId": 850,
+      "Updated": "2010-09-21T03:46:54.9726245+02:00",
+      "UpdatedAssociateId": 449,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldType": "System.String",
+          "FieldLength": 664
         }
       }
     }
   ],
-  "Registered": "2020-05-26T03:45:23.6079553+02:00",
-  "RegisteredAssociateId": 364,
-  "Updated": "2009-12-24T03:45:23.6079553+01:00",
-  "UpdatedAssociateId": 231,
+  "Registered": "2011-03-09T03:46:54.9726245+01:00",
+  "RegisteredAssociateId": 946,
+  "Updated": "2005-08-31T03:46:54.9726245+02:00",
+  "UpdatedAssociateId": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldLength": 701
     }
   }
 }

@@ -3,9 +3,9 @@ uid: importduplicateactionwithoutadd
 title: importduplicateactionwithoutadd
 keywords: mdoprovider mdo provider importduplicateactionwithoutadd
 description: Import duplicate; Merge, Replace, Skip
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "importduplicateactionwithoutadd" MDO List

@@ -2,6 +2,7 @@
 title: Services88.AIAgent.ExpandText SOAP
 generated: true
 uid: Services88-AI-ExpandText
+content_type: reference
 ---
 
 # Services88 AI ExpandText

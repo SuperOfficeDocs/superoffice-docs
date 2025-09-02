@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.RebuildTaskMenuDeltas SOAP
 generated: true
 uid: Services88-Configuration-RebuildTaskMenuDeltas
+content_type: reference
 ---
 
 # Services88 Configuration RebuildTaskMenuDeltas

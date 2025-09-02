@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/GetCallerIDsFromSelection
 uid: v1PocketAgent_GetCallerIDsFromSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/GetCallerIDsFromSelection
@@ -75,12 +76,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 955,
-  "LastHash": "suscipit"
+  "SelectionId": 473,
+  "LastHash": "id"
 }
 ```
 
@@ -91,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "pariatur",
+  "CallerIDHash": "rerum",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 167,
-      "PersonId": 600,
-      "PersonName": "Kuhn, Hyatt and Heathcote",
-      "Mrmrs": "porro",
-      "ContactId": 247,
-      "ContactName": "Kemmer, Murray and Stoltenberg"
+      "DialInPrefix": 646,
+      "PersonId": 930,
+      "PersonName": "Prosacco-Fritsch",
+      "Mrmrs": "minima",
+      "ContactId": 11,
+      "ContactName": "Daniel, Dicki and Blanda"
     }
   ]
 }

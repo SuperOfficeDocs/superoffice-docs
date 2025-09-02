@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/AddForeignKey
 uid: v1ForeignSystemAgent_AddForeignKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/AddForeignKey
@@ -88,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Schmeler-Cummings",
-  "DeviceName": "Walker-Waelchi",
-  "DeviceIdentifier": "ab"
+  "ApplicationName": "Cruickshank, Lesch and Schinner",
+  "DeviceName": "Kohler Group",
+  "DeviceIdentifier": "vel"
 }
 ```
 
@@ -101,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "illum",
-  "RecordId": 538,
-  "CreatedDate": "2021-04-18T03:45:23.4829546+02:00",
-  "UpdatedDate": "2020-01-12T03:45:23.4829546+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "veniam",
-  "TableName": "Ortiz-Streich",
+  "Key": "minus",
+  "Value": "voluptates",
+  "RecordId": 559,
+  "CreatedDate": "2017-11-06T03:46:54.9107593+01:00",
+  "UpdatedDate": "2020-07-26T03:46:54.9107593+02:00",
+  "UpdatedBy": "quisquam",
+  "CreatedBy": "quia",
+  "TableName": "Beahan-Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

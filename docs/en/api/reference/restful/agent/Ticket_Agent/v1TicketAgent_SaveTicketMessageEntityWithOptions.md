@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SaveTicketMessageEntityWithOptions
 uid: v1TicketAgent_SaveTicketMessageEntityWithOptions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntityWithOptions
@@ -108,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    662,
-    533
+    768,
+    46
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +123,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 544,
+  "EjMessageId": 252,
   "Ticket": null,
-  "CreatedAt": "2015-05-26T03:45:24.1391839+02:00",
+  "CreatedAt": "2003-06-03T03:46:55.550729+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "laboriosam",
-  "TimeSpent": 926,
-  "Body": "voluptatem",
-  "HtmlBody": "qui",
-  "EmailHeader": "heath.langosh@kunde.biz",
-  "DebugInfo": "quia",
-  "MailSorter": "qui",
+  "MessageId": "quibusdam",
+  "TimeSpent": 384,
+  "Body": "non",
+  "HtmlBody": "et",
+  "EmailHeader": "christopher@macejkovic.name",
+  "DebugInfo": "aut",
+  "MailSorter": "iusto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 111,
-      "Name": "Sporer, Shields and Davis",
-      "Value": "id",
+      "Id": 865,
+      "Name": "Spinka LLC",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +152,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 492
         }
       }
     }
   ],
   "Important": false,
-  "Language": "in",
-  "Sentiment": 386,
-  "SentimentConfidence": 173,
+  "Language": "aut",
+  "Sentiment": 983,
+  "SentimentConfidence": 471,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 339,
-      "Name": "Anderson, Mitchell and Leffler",
-      "ContentType": "eos",
-      "AttSize": 736,
+      "AttachmentId": 855,
+      "Name": "Lakin, Prosacco and Jones",
+      "ContentType": "aspernatur",
+      "AttSize": 699,
       "InlineImage": false,
-      "ContentId": "quis",
-      "AuthKey": "neque",
-      "IsSafeFileExtension": true,
+      "ContentId": "ut",
+      "AuthKey": "velit",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 885
+          "FieldLength": 130
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "nobis"
+    "CustomFields1": "vitae",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

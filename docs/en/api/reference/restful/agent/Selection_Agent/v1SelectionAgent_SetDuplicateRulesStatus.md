@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SetDuplicateRulesStatus
 uid: v1SelectionAgent_SetDuplicateRulesStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SetDuplicateRulesStatus
@@ -70,15 +71,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Adams Inc and Sons",
-      "DisplayName": "Sanford Inc and Sons",
-      "DisplayTooltip": "sequi",
+      "Name": "Osinski Inc and Sons",
+      "DisplayName": "Kohler, Stanton and Thompson",
+      "DisplayTooltip": "provident",
       "IsActive": false
     },
     {
-      "Name": "Adams Inc and Sons",
-      "DisplayName": "Sanford Inc and Sons",
-      "DisplayTooltip": "sequi",
+      "Name": "Osinski Inc and Sons",
+      "DisplayName": "Kohler, Stanton and Thompson",
+      "DisplayTooltip": "provident",
       "IsActive": false
     }
   ]

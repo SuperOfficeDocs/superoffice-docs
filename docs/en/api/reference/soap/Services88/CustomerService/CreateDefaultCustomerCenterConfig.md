@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CreateDefaultCustomerCenterConfig SOAP
 generated: true
 uid: Services88-CustomerService-CreateDefaultCustomerCenterConfig
+content_type: reference
 ---
 
 # Services88 CustomerService CreateDefaultCustomerCenterConfig
@@ -66,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
     <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
     <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-    <CustomerService:Registered xsi:type="xsd:dateTime">2025-06-26T01:43:23Z</CustomerService:Registered>
+    <CustomerService:Registered xsi:type="xsd:dateTime">2025-08-30T01:44:55Z</CustomerService:Registered>
     <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2025-06-26T01:43:23Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2025-08-30T01:44:55Z</CustomerService:Updated>
     <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
    </CustomerService:Response>
   </CustomerService:CreateDefaultCustomerCenterConfigResponse>

@@ -2,6 +2,7 @@
 title: PATCH TicketMessage/{id}
 uid: v1TicketMessageEntity_PatchTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH TicketMessage/{id}
@@ -139,12 +140,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "soluta",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "soluta",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -157,79 +158,79 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 16,
+  "EjMessageId": 214,
   "Ticket": null,
-  "CreatedAt": "1999-03-14T03:45:28.7796745+01:00",
+  "CreatedAt": "2004-09-04T03:47:00.3786828+02:00",
   "CreatedBy": null,
-  "Author": "ipsum",
+  "Author": "autem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 1001,
-  "Body": "dolore",
-  "HtmlBody": "qui",
-  "EmailHeader": "cristobal.gerhold@grimes.info",
-  "DebugInfo": "eos",
-  "MailSorter": "reprehenderit",
+  "MessageId": "sunt",
+  "TimeSpent": 696,
+  "Body": "rerum",
+  "HtmlBody": "omnis",
+  "EmailHeader": "jalen@mohr.com",
+  "DebugInfo": "tempore",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ab",
+  "SearchTitle": "in",
   "MessageHeaders": [
     {
-      "Id": 180,
-      "Name": "Emmerich-Jacobs",
-      "Value": "doloremque",
+      "Id": 924,
+      "Name": "Schamberger, Nikolaus and Hayes",
+      "Value": "aliquid",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 783
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 221,
-  "SentimentConfidence": 707,
+  "Language": "libero",
+  "Sentiment": 438,
+  "SentimentConfidence": 457,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 899,
-      "Name": "Hane, Hilpert and Herzog",
-      "ContentType": "corporis",
-      "AttSize": 608,
-      "InlineImage": false,
-      "ContentId": "ea",
-      "AuthKey": "accusantium",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 813,
+      "Name": "Wolf, Gutkowski and Zboncak",
+      "ContentType": "enim",
+      "AttSize": 723,
+      "InlineImage": true,
+      "ContentId": "a",
+      "AuthKey": "saepe",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 872
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "non"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "totam"
+    "CustomFields1": "quae",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: GET List/Country/Headings
 uid: v1CountryList_GetCountryHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Country/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 570,
-    "Name": "Bogan, Harvey and Mayer",
-    "Tooltip": "eos",
+    "HeadingId": 327,
+    "Name": "Huel-Heathcote",
+    "Tooltip": "animi",
     "Deleted": true,
-    "Rank": 552,
-    "UdListDefinitionId": 856,
+    "Rank": 27,
+    "UdListDefinitionId": 895,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 741
       }
     }
   }

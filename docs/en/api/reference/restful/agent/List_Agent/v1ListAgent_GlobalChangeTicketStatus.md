@@ -2,6 +2,7 @@
 title: POST Agents/List/GlobalChangeTicketStatus
 uid: v1ListAgent_GlobalChangeTicketStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GlobalChangeTicketStatus
@@ -71,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 575,
-  "ToTicketStatusId": 274
+  "FromTicketStatusId": 399,
+  "ToTicketStatusId": 43
 }
 ```
 

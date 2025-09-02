@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CheckIfCustomizedTemplates SOAP
 generated: true
 uid: Services88-CustomerService-CheckIfCustomizedTemplates
+content_type: reference
 ---
 
 # Services88 CustomerService CheckIfCustomizedTemplates

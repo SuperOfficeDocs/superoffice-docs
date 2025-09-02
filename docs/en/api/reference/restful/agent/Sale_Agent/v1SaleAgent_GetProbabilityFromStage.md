@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetProbabilityFromStage
 uid: v1SaleAgent_GetProbabilityFromStage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetProbabilityFromStage
@@ -72,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StageId": 12
+  "StageId": 643
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-985
+690
 ```

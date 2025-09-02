@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.CopySelectionMembers SOAP
 generated: true
 uid: Services88-Selection-CopySelectionMembers
+content_type: reference
 ---
 
 # Services88 Selection CopySelectionMembers

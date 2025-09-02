@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetProjectDocuments
 uid: v1DocumentAgent_GetProjectDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetProjectDocuments
@@ -97,14 +98,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 237,
-  "StartTime": "2015-02-26T03:45:23.2798335+01:00",
-  "EndTime": "2012-10-26T03:45:23.2798335+02:00",
-  "Count": 651
+  "ProjectId": 666,
+  "StartTime": "1998-05-06T03:46:54.6288867+02:00",
+  "EndTime": "2022-08-28T03:46:54.6288867+02:00",
+  "Count": 941
 }
 ```
 
@@ -116,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 924,
-    "Attention": "vel",
-    "Header": "quia",
-    "Name": "Kemmer-Muller",
-    "OurRef": "voluptates",
-    "YourRef": "dolores",
-    "Description": "Quality-focused composite forecast",
-    "DocumentTemplate": "necessitatibus",
+    "DocumentId": 185,
+    "Attention": "sapiente",
+    "Header": "nam",
+    "Name": "Runolfsdottir Group",
+    "OurRef": "possimus",
+    "YourRef": "ratione",
+    "Description": "Organic uniform time-frame",
+    "DocumentTemplate": "quam",
     "IsPublished": false,
-    "PersonId": 641,
-    "PersonFullName": "Abner Rempel",
-    "AssociateFullName": "Cole Hirthe MD",
-    "ContactId": 464,
-    "ContactName": "Cremin, Zieme and McClure",
-    "ProjectId": 896,
-    "ProjectName": "Toy, Leannon and Hackett",
-    "AssociateId": 913,
-    "Snum": 327,
-    "SaleId": 974,
-    "SaleName": "Willms-Weissnat",
+    "PersonId": 685,
+    "PersonFullName": "Mrs. Madilyn Howe",
+    "AssociateFullName": "Agnes Romaguera",
+    "ContactId": 187,
+    "ContactName": "Powlowski Group",
+    "ProjectId": 405,
+    "ProjectName": "Fritsch LLC",
+    "AssociateId": 202,
+    "Snum": 219,
+    "SaleId": 805,
+    "SaleName": "McKenzie-Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 785
       }
     }
   }

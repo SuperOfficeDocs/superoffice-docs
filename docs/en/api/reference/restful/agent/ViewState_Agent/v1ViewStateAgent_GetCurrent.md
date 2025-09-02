@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetCurrent
 uid: v1ViewStateAgent_GetCurrent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetCurrent
@@ -85,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hoppe LLC"
+  "HistoryName": "Bartell LLC"
 }
 ```
 
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 276,
-  "Id": 73,
-  "HistoryName": "Buckridge-Wolf",
-  "HistoryId": 379,
-  "AssociateId": 83,
-  "Name": "Ryan, Hansen and Harvey",
-  "ItemInfo": "molestias",
+  "Rank": 141,
+  "Id": 716,
+  "HistoryName": "Mante Group",
+  "HistoryId": 730,
+  "AssociateId": 858,
+  "Name": "Welch, Pollich and Nolan",
+  "ItemInfo": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 379
     }
   }
 }

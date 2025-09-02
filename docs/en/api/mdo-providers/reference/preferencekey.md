@@ -3,9 +3,9 @@ uid: preferencekey
 title: preferencekey
 keywords: mdoprovider mdo provider preferencekey
 description: MDO Provider that retrieves a list of preference keys corresponding to a given section
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "preferencekey" MDO List

@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory/Items/{id}/Headings
 uid: v1SelectionCategoryList_PutSelectionCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Funk, Hermann and Durgan",
-    "ToolTip": "Saepe distinctio nesciunt quasi.",
+    "Id": 457,
+    "Name": "Krajcik-Johns",
+    "ToolTip": "Cumque sapiente maiores.",
     "Deleted": true,
-    "Rank": 235,
-    "Type": "quis",
-    "ColorBlock": 130,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2015-11-11T03:45:29.2327869+01:00",
+    "Rank": 227,
+    "Type": "dignissimos",
+    "ColorBlock": 547,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2002-12-21T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "McLaughlin Group",
-        "ToolTip": "Eos quo saepe ut est libero accusamus debitis.",
-        "Deleted": true,
-        "Rank": 803,
-        "Type": "facilis",
-        "ColorBlock": 974,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2002-09-21T03:45:29.2327869+02:00",
+        "Id": 80,
+        "Name": "Bernhard LLC",
+        "ToolTip": "Expedita porro consequatur voluptatum impedit perferendis.",
+        "Deleted": false,
+        "Rank": 220,
+        "Type": "iusto",
+        "ColorBlock": 917,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2024-04-04T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "error",
-        "Hidden": true,
-        "FullName": "Karine Predovic MD"
+        "ExtraInfo": "optio",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Zander Paucek"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Sonia Ondricka"
+    "FullName": "Dr. Rozella Jeffry Medhurst DVM"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Schoen, Stroman and Fritsch",
-    "ToolTip": "Ducimus aperiam autem deserunt et sunt aliquam.",
+    "Id": 798,
+    "Name": "Kub, Powlowski and Schimmel",
+    "ToolTip": "Cumque dolore nostrum sequi.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "animi",
-    "ColorBlock": 460,
-    "IconHint": "aut",
+    "Rank": 765,
+    "Type": "amet",
+    "ColorBlock": 289,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2013-03-08T03:45:29.2327869+01:00",
+    "LastChanged": "2023-01-17T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Hermann-Quitzon",
-        "ToolTip": "Consectetur eaque animi non saepe optio sapiente.",
-        "Deleted": true,
-        "Rank": 679,
-        "Type": "non",
-        "ColorBlock": 776,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2002-02-13T03:45:29.2327869+01:00",
+        "Id": 456,
+        "Name": "McLaughlin-Goyette",
+        "ToolTip": "Velit sint.",
+        "Deleted": false,
+        "Rank": 73,
+        "Type": "aperiam",
+        "ColorBlock": 611,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2002-06-20T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "odit",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Idell Rodriguez",
+        "FullName": "Jerome Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 799
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nisi",
+    "ExtraInfo": "nihil",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Ahmed Crooks",
+    "FullName": "Llewellyn Hyatt PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 254
       }
     }
   }

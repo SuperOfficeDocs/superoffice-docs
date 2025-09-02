@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Items/{id}/Headings
 uid: v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Items/{id}/Headings
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Ernser-Conn",
-    "ToolTip": "Nam odio optio omnis.",
-    "Deleted": false,
-    "Rank": 393,
-    "Type": "id",
-    "ColorBlock": 864,
-    "IconHint": "non",
+    "Id": 187,
+    "Name": "Quigley-Mohr",
+    "ToolTip": "Doloribus occaecati doloribus.",
+    "Deleted": true,
+    "Rank": 565,
+    "Type": "et",
+    "ColorBlock": 610,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2000-01-19T03:45:29.0296674+01:00",
+    "LastChanged": "2024-12-30T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Gislason, Kohler and Sporer",
-        "ToolTip": "Dolor dignissimos et reiciendis nihil placeat.",
-        "Deleted": false,
-        "Rank": 217,
-        "Type": "possimus",
-        "ColorBlock": 184,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2017-01-01T03:45:29.0296674+01:00",
+        "Id": 616,
+        "Name": "Rutherford-Upton",
+        "ToolTip": "Eum ex.",
+        "Deleted": true,
+        "Rank": 385,
+        "Type": "alias",
+        "ColorBlock": 485,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2011-01-23T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Wilbert Cremin",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Nels Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldType": "System.Int32",
+            "FieldLength": 580
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "cum",
+    "ExtraInfo": "beatae",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Alexandria Sherwood Upton Jr.",
+    "FullName": "Sister Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 164
       }
     }
   }

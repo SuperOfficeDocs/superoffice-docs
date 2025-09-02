@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashTileHtml
 uid: v1DashAgent_GetDashTileHtml
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashTileHtml
@@ -75,12 +76,12 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 755,
-  "LanguageCode": "facilis"
+  "DashboardTileDefinitionId": 355,
+  "LanguageCode": "quibusdam"
 }
 ```
 
@@ -91,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "minus",
-  "Html": "qui",
+  "LanguageCode": "expedita",
+  "Html": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

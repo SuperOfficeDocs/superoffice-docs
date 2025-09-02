@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetContactDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetContactDocumentsByTemplateTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateTypes
@@ -98,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 88,
-  "StartTime": "2024-06-03T03:45:23.2798335+02:00",
-  "EndTime": "2015-04-19T03:45:23.2798335+02:00",
-  "Count": 561,
+  "ContactId": 208,
+  "StartTime": "1998-06-08T03:46:54.707009+02:00",
+  "EndTime": "2016-05-30T03:46:54.707009+02:00",
+  "Count": 198,
   "DocumentTemplateIds": [
-    331,
-    747
+    590,
+    8
   ]
 }
 ```
@@ -121,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 94,
-    "Attention": "et",
-    "Header": "ex",
-    "Name": "Murray, Bednar and Brakus",
-    "OurRef": "autem",
-    "YourRef": "quia",
-    "Description": "Future-proofed optimizing collaboration",
-    "DocumentTemplate": "minus",
-    "IsPublished": true,
-    "PersonId": 286,
-    "PersonFullName": "Owen Barbara Nolan III",
-    "AssociateFullName": "Prof. Marcus Emard",
-    "ContactId": 339,
-    "ContactName": "Bednar-DuBuque",
-    "ProjectId": 683,
-    "ProjectName": "Brown Group",
-    "AssociateId": 365,
-    "Snum": 837,
-    "SaleId": 352,
-    "SaleName": "Macejkovic-Altenwerth",
+    "DocumentId": 430,
+    "Attention": "temporibus",
+    "Header": "quae",
+    "Name": "Gleichner LLC",
+    "OurRef": "accusamus",
+    "YourRef": "architecto",
+    "Description": "Optional scalable contingency",
+    "DocumentTemplate": "quo",
+    "IsPublished": false,
+    "PersonId": 229,
+    "PersonFullName": "Abbigail Summer Cummings DVM",
+    "AssociateFullName": "Magnus Larkin",
+    "ContactId": 591,
+    "ContactName": "Windler, Hilll and Lubowitz",
+    "ProjectId": 418,
+    "ProjectName": "Haag-Wisoky",
+    "AssociateId": 389,
+    "Snum": 349,
+    "SaleId": 916,
+    "SaleName": "Kovacek-Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 682
       }
     }
   }

@@ -2,6 +2,7 @@
 title: DEL List/UserGroup/Headings
 uid: v1UserGroupList_DeleteUserGroupHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/UserGroup/Headings

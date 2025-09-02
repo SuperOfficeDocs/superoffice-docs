@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Preference
 title: Services88.PreferenceAgent WSDL
+content_type: reference
 ---
 
 # Services88.PreferenceAgent WSDL

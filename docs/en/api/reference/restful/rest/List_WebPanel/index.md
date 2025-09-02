@@ -1,6 +1,8 @@
 ---
+uid: tag-List_WebPanel
 title: List_WebPanel
 generated: true
+content_type: reference
 ---
 
 ```http

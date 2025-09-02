@@ -2,6 +2,7 @@
 title: PUT ChatTopic/{id}
 uid: v1ChatTopicEntity_PutChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # PUT ChatTopic/{id}
@@ -139,25 +140,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 250,
-  "Name": "Halvorson Inc and Sons",
-  "Description": "Digitized didactic local area network",
-  "WelcomeMessage": "libero",
+  "ChatTopicId": 39,
+  "Name": "Kemmer, Gaylord and Thompson",
+  "Description": "Cloned cohesive data-warehouse",
+  "WelcomeMessage": "itaque",
   "Language": null,
-  "LastAccept": "2020-07-22T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 755,
-  "AlertRecipient": "architecto",
+  "LastAccept": "2022-08-20T03:46:59.8005718+02:00",
+  "SecondsPrAccept": 70,
+  "AlertRecipient": "quod",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
+  "BadgeHeader": "voluptatem",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "id",
-  "WarnNewChatMinutes": 724,
-  "WarnManagerNewChatMinutes": 634,
+  "CustomQueueText": "sit",
+  "WarnNewChatMinutes": 574,
+  "WarnManagerNewChatMinutes": 577,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,14 +167,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 467,
-  "WarnManagerChatMessageMinutes": 463,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 879,
+  "WarnManagerChatMessageMinutes": 288,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 742,
-  "OfflineFormQueueLength": 601,
+  "OfflineFormTimeLimit": 490,
+  "OfflineFormQueueLength": 676,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "velit"
+  "WidgetRatingText": "et"
 }
 ```
 
@@ -184,43 +185,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 311,
-  "Name": "Gibson-Homenick",
-  "Description": "Persistent well-modulated contingency",
-  "WelcomeMessage": "dolorum",
+  "ChatTopicId": 64,
+  "Name": "Nikolaus, Berge and Bayer",
+  "Description": "Reverse-engineered national implementation",
+  "WelcomeMessage": "eligendi",
   "Language": null,
-  "LastAccept": "2020-10-22T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 781,
-  "AlertRecipient": "ut",
+  "LastAccept": "2010-11-14T03:46:59.8005718+01:00",
+  "SecondsPrAccept": 852,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sunt",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "in",
-  "WarnNewChatMinutes": 794,
-  "WarnManagerNewChatMinutes": 756,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dolor",
+  "WarnNewChatMinutes": 273,
+  "WarnManagerNewChatMinutes": 501,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 90,
-  "WarnManagerChatMessageMinutes": 412,
+  "WarnChatMessageMinutes": 983,
+  "WarnManagerChatMessageMinutes": 325,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 530,
-  "OfflineFormQueueLength": 595,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "autem",
+  "OfflineFormTimeLimit": 422,
+  "OfflineFormQueueLength": 750,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 841
     }
   },
   "_Links": {

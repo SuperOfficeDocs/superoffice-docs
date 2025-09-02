@@ -2,6 +2,7 @@
 title: POST Agents/Archive/SetChosenColumns
 uid: v1ArchiveAgent_SetChosenColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/SetChosenColumns
@@ -72,11 +73,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rath, Mraz and Wilderman",
-  "ProviderName": "Waelchi-Johnston",
+  "GuiName": "Schumm-Howell",
+  "ProviderName": "Schmeler Group",
   "ChosenColumns": [
-    "odit",
-    "laborum"
+    "nesciunt",
+    "quia"
   ]
 }
 ```

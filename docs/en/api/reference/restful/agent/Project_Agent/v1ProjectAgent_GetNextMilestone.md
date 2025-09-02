@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetNextMilestone
 uid: v1ProjectAgent_GetNextMilestone
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetNextMilestone
@@ -112,6 +113,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -126,11 +128,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 272
+  "ProjectId": 570
 }
 ```
 
@@ -141,66 +143,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 687,
-  "StartDate": "2003-12-23T03:45:23.7798203+01:00",
-  "EndDate": "2018-02-21T03:45:23.7798203+01:00",
+  "AppointmentId": 777,
+  "StartDate": "2003-12-04T03:46:55.1601179+01:00",
+  "EndDate": "2010-11-07T03:46:55.1601179+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quo",
-  "AssociateFullName": "Prof. Mariano Icie Casper MD",
-  "ContactName": "Will-Crooks",
-  "Description": "Inverse grid-enabled project",
-  "PersonFullName": "Noble Hansen",
-  "PersonId": 358,
-  "ContactId": 748,
-  "ProjectId": 748,
-  "ProjectName": "Raynor, Lueilwitz and Altenwerth",
-  "IsPublished": false,
-  "AssociateId": 31,
-  "ColorIndex": 134,
+  "Task": "et",
+  "AssociateFullName": "Nannie Corwin III",
+  "ContactName": "Torphy, Crist and Kohler",
+  "Description": "Reverse-engineered non-volatile middleware",
+  "PersonFullName": "Tara Reinger",
+  "PersonId": 404,
+  "ContactId": 520,
+  "ProjectId": 901,
+  "ProjectName": "Schmitt LLC",
+  "IsPublished": true,
+  "AssociateId": 980,
+  "ColorIndex": 861,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 791,
-  "PriorityName": "Kihn, Dibbert and Spinka",
+  "PriorityId": 370,
+  "PriorityName": "Jaskolski, Rodriguez and Sipes",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2009-07-31T03:45:23.7798203+02:00",
+  "IsBooking": true,
+  "ActiveDate": "2001-09-10T03:46:55.1601179+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-09-01T03:45:23.7798203+02:00",
-  "RecurringEndDate": "2010-04-06T03:45:23.7798203+02:00",
-  "MotherId": 379,
-  "AssignedBy": 197,
-  "AssignedByFullName": "Lindsay Marvin",
+  "RecurringStartDate": "2008-09-16T03:46:55.1601179+02:00",
+  "RecurringEndDate": "2011-12-31T03:46:55.1601179+01:00",
+  "MotherId": 47,
+  "AssignedBy": 555,
+  "AssignedByFullName": "Prof. Colin Deshawn Baumbach",
   "RejectReason": "",
-  "Location": "qui",
+  "Location": "deserunt",
   "AlarmLeadTime": "cumque",
-  "SaleId": 411,
-  "SaleName": "Bogan, VonRueden and Collins",
-  "AssociateName": "Ziemann LLC",
-  "CreatedDate": "2012-07-15T03:45:23.7798203+02:00",
-  "CreatedBy": "veritatis",
-  "CreatedByFullName": "Alexis Ferry MD",
-  "CreatedByAssociateId": 634,
+  "SaleId": 48,
+  "SaleName": "Koch, Lowe and Jerde",
+  "AssociateName": "Crist, Osinski and Gaylord",
+  "CreatedDate": "2021-07-05T03:46:55.1601179+02:00",
+  "CreatedBy": "sint",
+  "CreatedByFullName": "Mrs. Jovany Alan Kuvalis V",
+  "CreatedByAssociateId": 914,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 559,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 834,
-  "Title": "excepturi",
-  "Agenda": "dolor",
-  "InternalNotes": "voluptas",
+  "PreferredTZLocation": 85,
+  "Title": "in",
+  "Agenda": "quo",
+  "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 952
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/SetHeadingsForListItem
 uid: v1ListAgent_SetHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetHeadingsForListItem
@@ -67,17 +68,17 @@ No Content
 POST /api/v1/Agents/List/SetHeadingsForListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 824,
-  "ListItemId": 518,
+  "UdListDefinitionId": 177,
+  "ListItemId": 409,
   "HeadingIds": [
-    45,
-    335
+    201,
+    226
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

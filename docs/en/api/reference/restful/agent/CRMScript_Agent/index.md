@@ -1,6 +1,8 @@
 ---
+uid: tag-CRMScript_Agent
 title: CRMScript_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,23 +12,17 @@ generated: true
 
 
 
-* [POST Agents/CRMScript/CreateDefaultCRMScriptEntity](v1CRMScriptAgent_CreateDefaultCRMScriptEntity.md)
-
-* [POST Agents/CRMScript/SaveCRMScriptEntity](v1CRMScriptAgent_SaveCRMScriptEntity.md)
-
-* [POST Agents/CRMScript/DeleteCRMScriptEntity](v1CRMScriptAgent_DeleteCRMScriptEntity.md)
-
-* [POST Agents/CRMScript/CreateDefaultTriggerScriptEntity](v1CRMScriptAgent_CreateDefaultTriggerScriptEntity.md)
-
-* [POST Agents/CRMScript/SaveTriggerScriptEntity](v1CRMScriptAgent_SaveTriggerScriptEntity.md)
-
-* [POST Agents/CRMScript/DeleteTriggerScriptEntity](v1CRMScriptAgent_DeleteTriggerScriptEntity.md)
-
 * [POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier](v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier.md)
 
 * [POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier](v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier.md)
 
 * [POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier](v1CRMScriptAgent_DeleteCRMScriptByUniqueIdentifier.md)
+
+* [POST Agents/CRMScript/CreateDefaultCRMScriptEntity](v1CRMScriptAgent_CreateDefaultCRMScriptEntity.md)
+
+* [POST Agents/CRMScript/SaveCRMScriptEntity](v1CRMScriptAgent_SaveCRMScriptEntity.md)
+
+* [POST Agents/CRMScript/DeleteCRMScriptEntity](v1CRMScriptAgent_DeleteCRMScriptEntity.md)
 
 * [POST Agents/CRMScript/GetCRMScriptEntity](v1CRMScriptAgent_GetCRMScriptEntity.md)
 
@@ -53,6 +49,12 @@ generated: true
 * [POST Agents/CRMScript/ValidateScriptByString](v1CRMScriptAgent_ValidateScriptByString.md)
 
 * [POST Agents/CRMScript/ResolveIncludes](v1CRMScriptAgent_ResolveIncludes.md)
+
+* [POST Agents/CRMScript/CreateDefaultTriggerScriptEntity](v1CRMScriptAgent_CreateDefaultTriggerScriptEntity.md)
+
+* [POST Agents/CRMScript/SaveTriggerScriptEntity](v1CRMScriptAgent_SaveTriggerScriptEntity.md)
+
+* [POST Agents/CRMScript/DeleteTriggerScriptEntity](v1CRMScriptAgent_DeleteTriggerScriptEntity.md)
 
 * [POST Agents/CRMScript/GetTriggerScriptEntity](v1CRMScriptAgent_GetTriggerScriptEntity.md)
 

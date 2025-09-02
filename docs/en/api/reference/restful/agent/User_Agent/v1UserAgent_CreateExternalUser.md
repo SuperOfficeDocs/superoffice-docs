@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateExternalUser
 uid: v1UserAgent_CreateExternalUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateExternalUser
@@ -78,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 690,
-  "UserName": "Hilll Inc and Sons",
-  "Password": "quo",
-  "RoleId": 764,
+  "PersonId": 187,
+  "UserName": "Beier Group",
+  "Password": "quod",
+  "RoleId": 924,
   "IsActive": false
 }
 ```
@@ -92,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-609
+214
 ```

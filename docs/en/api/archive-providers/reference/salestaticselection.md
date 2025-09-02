@@ -3,9 +3,9 @@ uid: SaleStaticSelection
 title: SaleStaticSelection
 description: Static archive Provider for the Selection sale archive.
 keywords: SaleStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleStaticSelection"
@@ -1330,7 +1330,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/email/emailBounceCount,document/associate/contactId,saleStakeholder/person/correspondingAssociate/contactFullName,saleStakeholder/contact/streetAddress/formattedMultiLineAddress,saleStakeholder/contact/contactAssociate/userName
+GET /api/v1/archive/SaleStaticSelection?$select=getAllRows,icon,saleTypeId,soldReason,person/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

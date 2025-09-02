@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent SOAP
 uid: Services88-ViewState-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 ViewState SOAP

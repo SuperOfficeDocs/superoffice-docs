@@ -2,6 +2,7 @@
 title: PUT List/ProductType
 uid: v1ProductTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Rempel-Volkman",
-  "Tooltip": "optio",
+  "Id": 94,
+  "Name": "Swaniawski, Pfeffer and Berge",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 629,
+  "Rank": 98,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
+  "ListType": "magnam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Keeling Inc and Sons",
-  "Tooltip": "facilis",
+  "Id": 376,
+  "Name": "Schmeler LLC",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 116,
-  "IsCustomList": true,
+  "Rank": 937,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "ListType": "harum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/SaveTaskListItem
 uid: v1AppointmentAgent_SaveTaskListItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/SaveTaskListItem
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 ```
 
-Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
+Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TaskListItem or creates a new TaskListItem if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: taskListItem 
 
-The TaskListItem to be saved. 
+The TaskListItem that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,15 +92,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 910,
-  "Value": "in",
+  "TaskListItemId": 472,
+  "Value": "ea",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "reiciendis",
+  "Tooltip": "odit",
   "Deleted": false,
-  "IntentId": 595,
-  "Rank": 802,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 354,
+  "Rank": 920,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -114,17 +115,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 898,
-  "Value": "fugiat",
+  "TaskListItemId": 699,
+  "Value": "temporibus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "IntentId": 739,
-  "Rank": 703,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "laborum",
+  "Deleted": false,
+  "IntentId": 938,
+  "Rank": 917,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
@@ -132,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 557
     }
   }
 }

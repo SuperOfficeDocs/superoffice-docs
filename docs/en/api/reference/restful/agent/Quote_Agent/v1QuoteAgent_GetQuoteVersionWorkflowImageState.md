@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteVersionWorkflowImageState
 uid: v1QuoteAgent_GetQuoteVersionWorkflowImageState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowImageState
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 239
+  "QuoteVersionId": 107
 }
 ```
 
@@ -93,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "rerum",
-  "DisplayText": "sint",
-  "TooltipText": "placeat",
-  "Enabled": true,
+  "ImageHint": "impedit",
+  "DisplayText": "expedita",
+  "TooltipText": "et",
+  "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 588
     }
   }
 }

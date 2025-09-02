@@ -2,6 +2,7 @@
 title: GET Person/{id}/Tickets
 uid: v1PersonEntity_Tickets
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Tickets
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Tickets?$select=name,department,category/id
 GET /api/v1/Person/{id}/Tickets?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Tickets?$orderBy=name asc
-GET /api/v1/Person/{id}/Tickets?$entities=dignissimos
-GET /api/v1/Person/{id}/Tickets?$top=825
-GET /api/v1/Person/{id}/Tickets?$skip=350
+GET /api/v1/Person/{id}/Tickets?$entities=dolor
+GET /api/v1/Person/{id}/Tickets?$top=454
+GET /api/v1/Person/{id}/Tickets?$skip=92
 GET /api/v1/Person/{id}/Tickets?$mode=Full
 GET /api/v1/Person/{id}/Tickets?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Tickets?$context=explicabo
+GET /api/v1/Person/{id}/Tickets?$context=esse
 GET /api/v1/Person/{id}/Tickets?$format=JSON
-GET /api/v1/Person/{id}/Tickets?$jsonSafe=False
+GET /api/v1/Person/{id}/Tickets?$jsonSafe=True
 GET /api/v1/Person/{id}/Tickets?$output=Display
 ```
 
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Person/{id}/Tickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "dolores",
   "value": [
     {
-      "PrimaryKey": 3573,
-      "EntityName": "person",
-      "personId": 3573,
-      "fullName": "Gia Breitenberg"
+      "PrimaryKey": 8013,
+      "EntityName": "sale",
+      "saleId": 8013,
+      "contactId": 4860,
+      "name": "Crist-Runolfsdottir"
     },
     {
-      "PrimaryKey": 4354,
-      "EntityName": "person",
-      "personId": 4354,
-      "fullName": "Mrs. Edwina Bella Powlowski"
+      "PrimaryKey": 6926,
+      "EntityName": "sale",
+      "saleId": 6926,
+      "contactId": 2600,
+      "name": "Powlowski, Bernier and Kreiger"
     }
   ]
 }

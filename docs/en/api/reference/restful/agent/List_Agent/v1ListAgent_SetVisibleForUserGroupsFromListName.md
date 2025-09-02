@@ -2,6 +2,7 @@
 title: POST Agents/List/SetVisibleForUserGroupsFromListName
 uid: v1ListAgent_SetVisibleForUserGroupsFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetVisibleForUserGroupsFromListName
@@ -89,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Swift-Pagac",
-  "ListItemId": 925,
+  "UdListDefinitionName": "Runolfsson Group",
+  "ListItemId": 110,
   "UserGroups": [
     {
-      "Id": 754,
-      "Name": "Jacobs Inc and Sons",
-      "ToolTip": "Officia sunt doloribus temporibus accusantium laboriosam.",
+      "Id": 933,
+      "Name": "Ferry-Roob",
+      "ToolTip": "Quod veniam adipisci.",
       "Deleted": true,
-      "Rank": 639,
-      "Type": "at",
-      "ColorBlock": 585,
-      "IconHint": "illo",
+      "Rank": 344,
+      "Type": "eos",
+      "ColorBlock": 155,
+      "IconHint": "ducimus",
       "Selected": true,
-      "LastChanged": "2023-02-12T03:45:23.5298295+01:00",
+      "LastChanged": "2015-09-07T03:46:54.9569999+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "autem",
+      "ExtraInfo": "ut",
+      "StyleHint": "nihil",
       "Hidden": true,
-      "FullName": "Krystal Yost"
+      "FullName": "Christophe Cummings"
     }
   ]
 }
@@ -128,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Heathcote Inc and Sons",
-    "ToolTip": "Consequatur aliquam rerum nostrum quas nam.",
+    "Id": 814,
+    "Name": "Anderson LLC",
+    "ToolTip": "Quia eaque quas cumque aliquam similique.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "molestiae",
-    "ColorBlock": 372,
-    "IconHint": "aspernatur",
+    "Rank": 559,
+    "Type": "eum",
+    "ColorBlock": 114,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2018-09-21T03:45:23.5298295+02:00",
+    "LastChanged": "2020-10-07T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Kunde, Ebert and Klein",
-        "ToolTip": "Voluptatem natus animi omnis aliquid.",
-        "Deleted": false,
-        "Rank": 936,
-        "Type": "quis",
-        "ColorBlock": 765,
-        "IconHint": "qui",
+        "Id": 355,
+        "Name": "Bernier, Jacobson and Tillman",
+        "ToolTip": "Rerum et sint.",
+        "Deleted": true,
+        "Rank": 223,
+        "Type": "aut",
+        "ColorBlock": 158,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "2000-12-11T03:45:23.5298295+01:00",
+        "LastChanged": "1999-07-11T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Kaleigh Sibyl Kemmer Sr.",
+        "ExtraInfo": "et",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Isidro Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 932
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "et",
+    "ExtraInfo": "amet",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Prof. Thea Kristy Reilly",
+    "FullName": "Jules Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldLength": 75
       }
     }
   }

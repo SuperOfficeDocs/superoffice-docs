@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveUntrustedCredentialsForAssociate
 uid: v1UserAgent_SaveUntrustedCredentialsForAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveUntrustedCredentialsForAssociate
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/User/SaveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 347,
-  "Type": "eaque",
+  "AssociateId": 664,
+  "Type": "maiores",
   "Credentials": null
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.UpdateConnectionFields SOAP
 generated: true
 uid: Services88-ErpSync-UpdateConnectionFields
+content_type: reference
 ---
 
 # Services88 ErpSync UpdateConnectionFields

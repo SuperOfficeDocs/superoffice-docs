@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.ToggleSubscription SOAP
 generated: true
 uid: Services88-EMail-ToggleSubscription
+content_type: reference
 ---
 
 # Services88 EMail ToggleSubscription

@@ -2,6 +2,7 @@
 title: Services88.FavouriteAgent.AddTicketsToFavouritesByProvider SOAP
 generated: true
 uid: Services88-Favourite-AddTicketsToFavouritesByProvider
+content_type: reference
 ---
 
 # Services88 Favourite AddTicketsToFavouritesByProvider

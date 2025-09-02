@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/MigrateDocumentToNewDocPlugin
 uid: v1DocumentMigrationAgent_MigrateDocumentToNewDocPlugin
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/MigrateDocumentToNewDocPlugin
@@ -71,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 401,
-  "DocumentPluginId": 41
+  "DocumentId": 366,
+  "DocumentPluginId": 879
 }
 ```
 

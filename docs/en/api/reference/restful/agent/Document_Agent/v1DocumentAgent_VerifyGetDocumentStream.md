@@ -2,6 +2,7 @@
 title: POST Agents/Document/VerifyGetDocumentStream
 uid: v1DocumentAgent_VerifyGetDocumentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/VerifyGetDocumentStream
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 302
+  "DocumentId": 913
 }
 ```
 

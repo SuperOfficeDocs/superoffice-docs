@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.Upsert SOAP
 generated: true
 uid: Services88-DatabaseTable-Upsert
+content_type: reference
 ---
 
 # Services88 DatabaseTable Upsert

@@ -2,6 +2,7 @@
 title: GET Appointment/{id}/ForeignKey
 uid: v1AppointmentEntity_GetAllForeignKeysOnEntity
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/{id}/ForeignKey
@@ -55,7 +56,7 @@ OK
 GET /api/v1/Appointment/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "natus",
-  "2": "esse"
+  "1": "debitis",
+  "2": "aliquid"
 }
 ```

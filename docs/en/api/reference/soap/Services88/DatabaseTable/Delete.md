@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.Delete SOAP
 generated: true
 uid: Services88-DatabaseTable-Delete
+content_type: reference
 ---
 
 # Services88 DatabaseTable Delete

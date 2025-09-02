@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 uid: v1EMailAgent_GetUnsanitizedEMailFromAttachmentId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMailFromAttachmentId
@@ -105,14 +106,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 596,
+  "EmailId": 442,
   "AttachmentIds": [
-    "quo",
-    "aut"
+    "impedit",
+    "vel"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +128,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 376,
-      "ContactName": "Keeling-Nader",
-      "PersonId": 400,
-      "PersonName": "Hansen LLC",
-      "AssociateId": 240,
-      "Address": "sunt",
-      "EmailId": 943,
+      "ContactId": 83,
+      "ContactName": "Littel Inc and Sons",
+      "PersonId": 331,
+      "PersonName": "Dach Group",
+      "AssociateId": 181,
+      "Address": "iste",
+      "EmailId": 236,
       "DuplicatePersonIds": [
-        236,
-        83
+        698,
+        288
       ],
-      "Name": "McClure, Hoppe and Conn",
+      "Name": "Littel Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 290,
-      "ContactName": "Thiel, Parisian and Nikolaus",
-      "PersonId": 898,
-      "PersonName": "Roob-Schinner",
-      "AssociateId": 178,
-      "Address": "rem",
-      "EmailId": 220,
+      "ContactId": 60,
+      "ContactName": "Turcotte-Russel",
+      "PersonId": 1002,
+      "PersonName": "Bosco Inc and Sons",
+      "AssociateId": 391,
+      "Address": "asperiores",
+      "EmailId": 384,
       "DuplicatePersonIds": [
-        172,
-        809
+        6,
+        782
       ],
-      "Name": "McKenzie, Gislason and O'Keefe",
+      "Name": "Cruickshank-Boyle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldLength": 193
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 719,
-      "ContactName": "Hagenes-Rohan",
-      "PersonId": 795,
-      "PersonName": "Feeney, Williamson and Mueller",
-      "AssociateId": 540,
-      "Address": "consequuntur",
-      "EmailId": 491,
+      "ContactId": 716,
+      "ContactName": "Lebsack, Lynch and Nolan",
+      "PersonId": 216,
+      "PersonName": "Wolf, O'Kon and Schaden",
+      "AssociateId": 141,
+      "Address": "qui",
+      "EmailId": 462,
       "DuplicatePersonIds": [
-        733,
-        558
+        154,
+        872
       ],
-      "Name": "Mertz, Deckow and DuBuque",
+      "Name": "Maggio, Ratke and Kilback",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldLength": 780
         }
       }
     }
   ],
-  "Subject": "hic",
-  "HTMLBody": "est",
+  "Subject": "nam",
+  "HTMLBody": "laborum",
   "From": null,
-  "Sent": "2016-10-31T03:45:23.4360809+01:00",
-  "Size": 143,
+  "Sent": "2019-08-02T03:46:54.785131+02:00",
+  "Size": 902,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolore",
-  "PlainBody": "impedit",
-  "IsSent": true,
+  "MessageID": "veniam",
+  "PlainBody": "voluptatum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 13,
+  "ServerId": 764,
   "Attachments": [
     {
-      "Description": "Re-engineered human-resource portal",
-      "Filename": "vel",
-      "Size": 730,
-      "Type": "minima",
-      "Encoding": "culpa",
-      "Id": "laudantium",
-      "Disposition": "voluptates",
+      "Description": "Synchronised asynchronous Graphical User Interface",
+      "Filename": "qui",
+      "Size": 50,
+      "Type": "voluptate",
+      "Encoding": "voluptatum",
+      "Id": "consequatur",
+      "Disposition": "non",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Murazik-Hickle",
+      "Name": "Johns-Jacobi",
       "Values": [
-        "magni",
-        "mollitia"
+        "veniam",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     },
     {
-      "Name": "Murazik-Hickle",
+      "Name": "Johns-Jacobi",
       "Values": [
-        "magni",
-        "mollitia"
+        "veniam",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     }
   ],
-  "FolderName": "Upton Group",
-  "EmailItemId": 294,
-  "AccountId": 790,
-  "ReceivedAt": "2012-08-08T03:45:23.4360809+02:00",
+  "FolderName": "Cummings-Kshlerin",
+  "EmailItemId": 332,
+  "AccountId": 272,
+  "ReceivedAt": "1999-03-07T03:46:54.785131+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-05-23T03:45:23.4360809+02:00",
+  "RepliedAt": "2005-02-09T03:46:54.785131+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 313
     }
   }
 }

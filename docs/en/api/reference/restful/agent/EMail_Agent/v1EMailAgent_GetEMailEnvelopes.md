@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailEnvelopes
 uid: v1EMailAgent_GetEMailEnvelopes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailEnvelopes
@@ -85,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    901,
-    495
+    65,
+    697
   ]
 }
 ```
@@ -105,45 +106,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 515,
-    "MessageId": "eius",
-    "Subject": "et",
+    "ServerId": 355,
+    "MessageId": "rerum",
+    "Subject": "doloremque",
     "From": null,
     "To": [
       {
-        "ContactId": 730,
-        "ContactName": "Mertz, Marvin and Kulas",
-        "PersonId": 80,
-        "PersonName": "Jones-Jakubowski",
-        "AssociateId": 113,
-        "Address": "repellendus",
-        "EmailId": 812,
+        "ContactId": 451,
+        "ContactName": "Lynch-Schroeder",
+        "PersonId": 437,
+        "PersonName": "Terry Inc and Sons",
+        "AssociateId": 429,
+        "Address": "officia",
+        "EmailId": 412,
         "DuplicatePersonIds": [
-          90,
-          447
+          470,
+          180
         ],
-        "Name": "Zieme LLC",
+        "Name": "Vandervort Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 178
           }
         }
       }
     ],
-    "Sent": "2001-01-31T03:45:23.4360809+01:00",
+    "Sent": "2006-05-10T03:46:54.785131+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 987,
+    "Size": 644,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 176
       }
     }
   }

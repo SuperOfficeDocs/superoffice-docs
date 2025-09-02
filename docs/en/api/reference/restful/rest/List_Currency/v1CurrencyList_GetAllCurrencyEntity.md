@@ -2,6 +2,7 @@
 title: GET List/Currency/Items
 uid: v1CurrencyList_GetAllCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Items
@@ -84,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 999,
-    "Name": "Lakin-Rutherford",
-    "Tooltip": "fuga",
-    "Rank": 776,
-    "Rate": 29074.118,
-    "Units": 676.944,
+    "CurrencyId": 851,
+    "Name": "Fay, Crooks and Volkman",
+    "Tooltip": "ullam",
+    "Rank": 455,
+    "Rate": 27889.466,
+    "Units": 19998.054,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 251
       }
     }
   }

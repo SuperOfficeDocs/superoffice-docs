@@ -2,6 +2,7 @@
 title: POST Agents/User/DecryptAndSaveExternalTokens
 uid: v1UserAgent_DecryptAndSaveExternalTokens
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/DecryptAndSaveExternalTokens
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/User/DecryptAndSaveExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"pariatur"
+"consequatur"
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 uid: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 45,
-  "PrefValue": "ipsam"
+  "PrefDescId": 809,
+  "PrefValue": "vitae"
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 703,
-  "PrefDescId": 215,
-  "PrefValue": "est",
-  "PrefShowValue": "dolorum",
-  "Description": "Customizable transitional projection",
+  "PrefDescLineId": 226,
+  "PrefDescId": 900,
+  "PrefValue": "qui",
+  "PrefShowValue": "vero",
+  "Description": "Intuitive multimedia moderator",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

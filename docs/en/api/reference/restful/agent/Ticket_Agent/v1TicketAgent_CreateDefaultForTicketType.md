@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CreateDefaultForTicketType
 uid: v1TicketAgent_CreateDefaultForTicketType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CreateDefaultForTicketType
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultForTicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 57
+  "TicketTypeId": 907
 }
 ```
 
@@ -145,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 152,
-  "Title": "quae",
-  "CreatedAt": "2001-11-26T03:45:24.1079333+01:00",
-  "LastChanged": "2021-10-16T03:45:24.1079333+02:00",
-  "ReadByOwner": "2014-07-21T03:45:24.1079333+02:00",
-  "ReadByCustomer": "2003-10-14T03:45:24.1079333+02:00",
-  "FirstReadByOwner": "2010-12-22T03:45:24.1079333+01:00",
-  "FirstReadByUser": "2019-05-08T03:45:24.1079333+02:00",
-  "Activate": "2016-07-01T03:45:24.1079333+02:00",
-  "ClosedAt": "2014-05-10T03:45:24.1079333+02:00",
-  "RepliedAt": "2022-04-15T03:45:24.1079333+02:00",
-  "AlertTimeout": "2003-06-01T03:45:24.1079333+02:00",
-  "Deadline": "2014-11-08T03:45:24.1079333+01:00",
+  "TicketId": 52,
+  "Title": "consequatur",
+  "CreatedAt": "2020-07-27T03:46:55.51948+02:00",
+  "LastChanged": "2021-10-15T03:46:55.51948+02:00",
+  "ReadByOwner": "2002-09-25T03:46:55.51948+02:00",
+  "ReadByCustomer": "2017-06-18T03:46:55.51948+02:00",
+  "FirstReadByOwner": "2010-11-12T03:46:55.51948+01:00",
+  "FirstReadByUser": "2007-02-20T03:46:55.51948+01:00",
+  "Activate": "2019-01-23T03:46:55.51948+01:00",
+  "ClosedAt": "2015-11-19T03:46:55.51948+01:00",
+  "RepliedAt": "2011-08-22T03:46:55.51948+02:00",
+  "AlertTimeout": "2008-12-28T03:46:55.51948+01:00",
+  "Deadline": "2010-07-04T03:46:55.51948+02:00",
   "CreatedBy": null,
-  "Author": "error",
+  "Author": "modi",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,163 +171,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "neque",
-      "PersonId": 552,
-      "Mrmrs": "labore",
-      "Firstname": "Hilbert",
-      "Lastname": "Baumbach",
-      "MiddleName": "Fahey-Volkman",
-      "Title": "ut",
-      "Description": "Multi-tiered actuating extranet",
-      "Email": "jimmy_ortiz@quigley.info",
-      "FullName": "Mr. Yessenia Emmy Feest II",
-      "DirectPhone": "1-799-110-0348 x9990",
-      "FormalName": "Spencer LLC",
-      "CountryId": 792,
-      "ContactId": 400,
-      "ContactName": "Douglas LLC",
-      "Retired": 609,
-      "Rank": 786,
-      "ActiveInterests": 879,
-      "ContactDepartment": "deliver scalable functionalities",
-      "ContactCountryId": 224,
-      "ContactOrgNr": "846992",
-      "FaxPhone": "(343)633-2630 x061",
-      "MobilePhone": "325-902-9063",
-      "ContactPhone": "976-598-9032",
-      "AssociateName": "Schaefer Group",
-      "AssociateId": 541,
+      "Position": "in",
+      "PersonId": 270,
+      "Mrmrs": "modi",
+      "Firstname": "Raymond",
+      "Lastname": "Luettgen",
+      "MiddleName": "Walsh, Corkery and Gorczany",
+      "Title": "enim",
+      "Description": "Right-sized fresh-thinking middleware",
+      "Email": "marta@langoshmcclure.info",
+      "FullName": "Edison Mante",
+      "DirectPhone": "525-570-6195",
+      "FormalName": "Schulist-Prosacco",
+      "CountryId": 637,
+      "ContactId": 835,
+      "ContactName": "Padberg-Dickens",
+      "Retired": 890,
+      "Rank": 142,
+      "ActiveInterests": 831,
+      "ContactDepartment": "",
+      "ContactCountryId": 95,
+      "ContactOrgNr": "1427602",
+      "FaxPhone": "(448)496-0642 x1067",
+      "MobilePhone": "983-026-5951 x71826",
+      "ContactPhone": "1-357-276-5731 x5493",
+      "AssociateName": "Effertz Group",
+      "AssociateId": 968,
       "UsePersonAddress": false,
-      "ContactFax": "amet",
-      "Kanafname": "autem",
-      "Kanalname": "quod",
-      "Post1": "doloribus",
-      "Post2": "rerum",
-      "Post3": "commodi",
-      "EmailName": "candido@klingrosenbaum.us",
-      "ContactFullName": "Rosalee Lindgren",
-      "ActiveErpLinks": 432,
-      "TicketPriorityId": 295,
-      "SupportLanguageId": 575,
-      "SupportAssociateId": 906,
+      "ContactFax": "odio",
+      "Kanafname": "laborum",
+      "Kanalname": "quia",
+      "Post1": "doloremque",
+      "Post2": "id",
+      "Post3": "explicabo",
+      "EmailName": "esta@bashirianmcdermott.info",
+      "ContactFullName": "Miss Hadley Eudora Stokes",
+      "ActiveErpLinks": 350,
+      "TicketPriorityId": 174,
+      "SupportLanguageId": 126,
+      "SupportAssociateId": 715,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "477734",
+      "PersonNumber": "871733",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 830
         }
       }
     }
   ],
-  "AlertLevel": 378,
-  "ConnectId": 796,
+  "AlertLevel": 643,
+  "ConnectId": 63,
   "ReadStatus": "Green",
-  "TimeToReply": 289,
-  "RealTimeToReply": 924,
-  "TimeToClose": 247,
-  "RealTimeToClose": 530,
-  "TimeSpentInternally": 1002,
-  "TimeSpentExternally": 167,
-  "TimeSpentQueue": 915,
-  "RealTimeSpentInternally": 956,
-  "RealTimeSpentExternally": 43,
-  "RealTimeSpentQueue": 865,
-  "TimeSpent": 258,
-  "HasAttachment": true,
-  "NumReplies": 717,
-  "NumMessages": 118,
-  "FromAddress": "quidem",
+  "TimeToReply": 323,
+  "RealTimeToReply": 233,
+  "TimeToClose": 212,
+  "RealTimeToClose": 431,
+  "TimeSpentInternally": 765,
+  "TimeSpentExternally": 682,
+  "TimeSpentQueue": 894,
+  "RealTimeSpentInternally": 100,
+  "RealTimeSpentExternally": 889,
+  "RealTimeSpentQueue": 856,
+  "TimeSpent": 990,
+  "HasAttachment": false,
+  "NumReplies": 647,
+  "NumMessages": 10,
+  "FromAddress": "vel",
   "Messages": [
     {
-      "TicketMessageId": 255,
-      "CreatedAt": "2024-06-01T03:45:24.1235597+02:00",
+      "TicketMessageId": 560,
+      "CreatedAt": "2023-03-01T03:46:55.5351045+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "nisi",
-      "PersonId": 367,
-      "PersonFullName": "Ms. Esmeralda Langosh DVM",
-      "ContactId": 667,
-      "ContactName": "O'Keefe-Wilkinson",
+      "Important": true,
+      "Author": "alias",
+      "PersonId": 911,
+      "PersonFullName": "Annamae Herman",
+      "ContactId": 165,
+      "ContactName": "Fisher Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 739,
-      "EmailHeader": "roxane.hoeger@stanton.info",
+      "NumAttachments": 25,
+      "EmailHeader": "ladarius.marks@nicolas.com",
       "MessageHeaders": [
         {},
         {}
       ],
       "Language": "aut",
-      "Sentiment": 974,
-      "SentimentConfidence": 928,
-      "CreatedBy": 52,
-      "ChangedAt": "2005-01-17T03:45:24.1235597+01:00",
+      "Sentiment": 12,
+      "SentimentConfidence": 504,
+      "CreatedBy": 799,
+      "ChangedAt": "2007-04-06T03:46:55.5351045+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 922
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 198,
-      "Name": "Lemke, Kessler and D'Amore",
-      "ToolTip": "Ea tempora adipisci dolores dolores tempore et dicta.",
+      "Id": 779,
+      "Name": "Swift-Conn",
+      "ToolTip": "Consequatur magni eos.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 644
         }
       }
     },
     {
-      "Id": 198,
-      "Name": "Lemke, Kessler and D'Amore",
-      "ToolTip": "Ea tempora adipisci dolores dolores tempore et dicta.",
+      "Id": 779,
+      "Name": "Swift-Conn",
+      "ToolTip": "Consequatur magni eos.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 644
         }
       }
     }
   ],
-  "Language": "iusto",
-  "Sentiment": 445,
-  "SentimentConfidence": 946,
-  "SuggestedCategoryId": 217,
+  "Language": "fuga",
+  "Sentiment": 817,
+  "SentimentConfidence": 284,
+  "SuggestedCategoryId": 18,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 394,
-  "IconHint": "voluptatem",
+  "OrigHumanCategoryId": 999,
+  "IconHint": "ut",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 758,
+  "ActiveStatusMonitorId": 929,
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "ipsam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 597
     }
   }
 }

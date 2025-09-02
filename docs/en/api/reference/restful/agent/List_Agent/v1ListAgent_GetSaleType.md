@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSaleType
 uid: v1ListAgent_GetSaleType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSaleType
@@ -22,11 +23,11 @@ Gets a SaleType object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleTypeId | int32 | **Required** The primary key. |
+| saleTypeId | int32 | **Required** The identifier of the SaleType object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleType?saleTypeId=831
+POST /api/v1/Agents/List/GetSaleType?saleTypeId=164
 POST /api/v1/Agents/List/GetSaleType?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Value": "aut",
-  "Tooltip": "qui",
+  "Id": 307,
+  "Value": "adipisci",
+  "Tooltip": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 638
     }
   }
 }

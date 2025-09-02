@@ -1,6 +1,8 @@
 ---
+uid: tag-CRMScript
 title: CRMScript
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetReadySyncEmailAccounts SOAP
 generated: true
 uid: Services88-EMail-GetReadySyncEmailAccounts
+content_type: reference
 ---
 
 # Services88 EMail GetReadySyncEmailAccounts

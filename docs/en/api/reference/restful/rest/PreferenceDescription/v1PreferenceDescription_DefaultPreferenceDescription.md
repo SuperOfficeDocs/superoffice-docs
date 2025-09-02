@@ -2,6 +2,7 @@
 title: GET PreferenceDescription/default
 uid: v1PreferenceDescription_DefaultPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescription/default
@@ -74,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 637,
-  "Section": "fugiat",
-  "Key": "velit",
-  "Name": "Rice Group",
+  "PrefDescId": 695,
+  "Section": "expedita",
+  "Key": "aut",
+  "Name": "Von Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused cohesive forecast",
+  "Description": "Decentralized global synergy",
   "IsBuiltin": true,
-  "TableName": "Schulist, McDermott and Turcotte",
-  "UserDefinedListId": 124,
-  "Rank": 28,
-  "SubGroup": "facilis",
-  "MinLevel": 134,
-  "MaxValue": 817,
-  "MinValue": 5,
-  "RequiredLicense": "enim",
+  "TableName": "O'Kon Inc and Sons",
+  "UserDefinedListId": 927,
+  "Rank": 740,
+  "SubGroup": "rem",
+  "MinLevel": 731,
+  "MaxValue": 630,
+  "MinValue": 337,
+  "RequiredLicense": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

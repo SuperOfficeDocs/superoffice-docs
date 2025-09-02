@@ -3,9 +3,9 @@ uid: diaryowner
 title: diaryowner
 keywords: mdoprovider mdo provider diaryowner
 description: List provider that returns diary owners, i.e., our own employees plus resources
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "diaryowner" MDO List

@@ -3,9 +3,9 @@ uid: combinedcontactpersonsearch
 title: combinedcontactpersonsearch
 keywords: mdoprovider mdo provider combinedcontactpersonsearch
 description: Consider using the ContactAndPersonListFreetextSearchProvider/"contact_and_person_freetextsearch" MDO list instead of this one. Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider will return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact ID is always in the extraInfo.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "combinedcontactpersonsearch" MDO List

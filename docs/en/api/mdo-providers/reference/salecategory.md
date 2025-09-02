@@ -3,9 +3,9 @@ uid: salecategory
 title: salecategory
 keywords: mdoprovider mdo provider salecategory
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "salecategory" MDO List

@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/SaveShipmentMessageEntity
 uid: v1MarketingAgent_SaveShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/SaveShipmentMessageEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 ```
 
-Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty
+Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: shipmentMessageEntity 
 
-The ShipmentMessageEntity to be saved. 
+The ShipmentMessageEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,31 +104,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 5,
-  "PlainMessage": "quia",
-  "HtmlMessage": "assumenda",
-  "SmsMessage": "corrupti",
-  "Description": "Customer-focused motivating access",
-  "Subject": "consequatur",
-  "FolderId": 500,
-  "HeaderField": "quis",
-  "Design": "aliquid",
+  "ShipmentMessageId": 12,
+  "PlainMessage": "aperiam",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "quia",
+  "Description": "Enhanced content-based knowledge base",
+  "Subject": "quod",
+  "FolderId": 525,
+  "HeaderField": "molestiae",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Cloned encompassing approach",
-  "AccessKey": "pariatur",
-  "DocumentMessage": 230,
-  "Registered": "2023-12-06T03:45:23.6235756+01:00",
-  "RegisteredAssociateId": 560,
-  "Updated": "2008-05-09T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 761,
-  "UpdatedCount": 867
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Robust radical hub",
+  "AccessKey": "fugit",
+  "DocumentMessage": 110,
+  "Registered": "1999-09-06T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 256,
+  "Updated": "2013-08-11T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 137,
+  "UpdatedCount": 258
 }
 ```
 
@@ -138,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 784,
-  "PlainMessage": "dolore",
-  "HtmlMessage": "laboriosam",
-  "SmsMessage": "et",
-  "Description": "Triple-buffered actuating matrices",
-  "Subject": "mollitia",
-  "FolderId": 144,
-  "HeaderField": "nulla",
-  "Design": "laborum",
+  "ShipmentMessageId": 721,
+  "PlainMessage": "aut",
+  "HtmlMessage": "dolore",
+  "SmsMessage": "facilis",
+  "Description": "Versatile hybrid architecture",
+  "Subject": "numquam",
+  "FolderId": 559,
+  "HeaderField": "occaecati",
+  "Design": "placeat",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Upgradable transitional process improvement",
-  "AccessKey": "iusto",
-  "DocumentMessage": 7,
-  "Registered": "2007-10-07T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2011-07-30T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 726,
-  "UpdatedCount": 922,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Enhanced client-server initiative",
+  "AccessKey": "quia",
+  "DocumentMessage": 974,
+  "Registered": "2019-03-29T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 575,
+  "Updated": "2000-06-29T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 647,
+  "UpdatedCount": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

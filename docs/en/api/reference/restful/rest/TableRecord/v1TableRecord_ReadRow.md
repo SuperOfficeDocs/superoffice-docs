@@ -2,6 +2,7 @@
 title: GET Table/{tableName}/{id}
 uid: v1TableRecord_ReadRow
 generated: true
+content_type: reference
 ---
 
 # GET Table/{tableName}/{id}
@@ -72,15 +73,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "assumenda",
-    "Values2": "eum"
+    "Values1": "eveniet",
+    "Values2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

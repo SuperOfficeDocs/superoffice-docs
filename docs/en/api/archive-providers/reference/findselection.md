@@ -3,9 +3,9 @@ uid: FindSelection
 title: FindSelection
 description: 
 keywords: FindSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FindSelection"

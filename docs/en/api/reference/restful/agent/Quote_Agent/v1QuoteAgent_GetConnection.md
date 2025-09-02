@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetConnection
 uid: v1QuoteAgent_GetConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetConnection
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 261
+  "QuoteConnectionId": 930
 }
 ```
 
@@ -102,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 504,
-  "ERPName": "Haag, Hudson and Gleichner",
-  "DisplayName": "Roberts-Lowe",
-  "DisplayDescription": "Face to face secondary database",
-  "Rank": 600,
-  "ConnectorName": "Schoen-Monahan",
-  "ErpConnectionId": 42,
-  "ExtraData": "minus",
+  "QuoteConnectionId": 922,
+  "ERPName": "Hagenes Inc and Sons",
+  "DisplayName": "Cronin, Cartwright and Kuvalis",
+  "DisplayDescription": "Intuitive regional application",
+  "Rank": 743,
+  "ConnectorName": "Huels LLC",
+  "ErpConnectionId": 625,
+  "ExtraData": "cum",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 953,
-      "ERPPriceListKey": "quaerat",
-      "QuoteConnectionId": 562,
-      "Name": "Bechtelar, Yost and Bartoletti",
-      "Description": "Front-line scalable hub",
-      "Currency": "vel",
-      "CurrencyName": "Keebler Inc and Sons",
-      "ValidFrom": "2005-07-23T03:45:23.8266945+02:00",
-      "ValidTo": "2001-06-17T03:45:23.8266945+02:00",
-      "IsActive": false,
+      "PriceListId": 642,
+      "ERPPriceListKey": "beatae",
+      "QuoteConnectionId": 907,
+      "Name": "Marquardt Group",
+      "Description": "Proactive modular product",
+      "Currency": "numquam",
+      "CurrencyName": "Rau LLC",
+      "ValidFrom": "2010-04-26T03:46:55.2226157+02:00",
+      "ValidTo": "2014-02-07T03:46:55.2226157+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    950,
-    674
+    97,
+    86
   ],
   "AssociateAccessIds": [
-    181,
-    796
+    867,
+    21
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 634
     }
   }
 }

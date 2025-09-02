@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/ReportSessionActive
 uid: v1CustomerServiceAgent_ReportSessionActive
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/ReportSessionActive
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SessionKey": "cupiditate"
+  "SessionKey": "veritatis"
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-804
+468
 ```

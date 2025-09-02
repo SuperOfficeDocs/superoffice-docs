@@ -1,6 +1,8 @@
 ---
+uid: tag-PreferenceDescription
 title: PreferenceDescription
 generated: true
+content_type: reference
 ---
 
 ```http

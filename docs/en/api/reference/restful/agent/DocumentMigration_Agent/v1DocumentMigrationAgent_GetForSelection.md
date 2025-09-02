@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/GetForSelection
 uid: v1DocumentMigrationAgent_GetForSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/GetForSelection
@@ -82,9 +83,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 631,
-  "SelectionId": 908,
-  "IncludeEmails": false
+  "DocumentPluginId": 17,
+  "SelectionId": 835,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 849,
-  "NumDocumentsAlreadyMigrated": 881,
+  "NumDocumentsOmitted": 503,
+  "NumDocumentsAlreadyMigrated": 103,
   "Documents": [
     {
-      "DocumentId": 328,
-      "ContactId": 656,
-      "PersonId": 597,
-      "SaleId": 113,
-      "ProjectId": 642,
-      "DocTmplId": 901,
-      "AssociateId": 583,
-      "UserGroupId": 676,
-      "VisibleForId": 849
+      "DocumentId": 395,
+      "ContactId": 398,
+      "PersonId": 827,
+      "SaleId": 59,
+      "ProjectId": 423,
+      "DocTmplId": 166,
+      "AssociateId": 358,
+      "UserGroupId": 354,
+      "VisibleForId": 439
     }
   ],
   "Associates": [
     {
-      "AssociateId": 864,
-      "EmailAddress": "annabell_howe@simonisdooley.uk"
+      "AssociateId": 490,
+      "EmailAddress": "cordelia@bernierhalvorson.ca"
     },
     {
-      "AssociateId": 864,
-      "EmailAddress": "annabell_howe@simonisdooley.uk"
+      "AssociateId": 490,
+      "EmailAddress": "cordelia@bernierhalvorson.ca"
     }
   ]
 }

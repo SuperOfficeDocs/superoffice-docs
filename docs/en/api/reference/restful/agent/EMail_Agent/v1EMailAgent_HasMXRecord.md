@@ -2,6 +2,7 @@
 title: POST Agents/EMail/HasMXRecord
 uid: v1EMailAgent_HasMXRecord
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/HasMXRecord
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/EMail/HasMXRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "non"
+  "MailDomain": "omnis"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

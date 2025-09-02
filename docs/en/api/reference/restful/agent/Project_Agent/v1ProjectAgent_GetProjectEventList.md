@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectEventList
 uid: v1ProjectAgent_GetProjectEventList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectEventList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category
 
 ## Request Body: projectEventIds 
 
-The primary keys. 
+The identifiers of the ProjectEvent object 
 
 
 ## Response:array
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Prof. Rachael Piper McClure I",
-    "Description": "Customer-focused intermediate instruction set",
-    "ProjectId": 963,
-    "EventName": "Stark, Rosenbaum and Cormier",
-    "AssociateId": 227,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "iure",
-    "SignOffText": "commodi",
-    "SignOnConfirmationText": "praesentium",
-    "SignOnText": "modi",
-    "EventDate": "2003-01-15T03:45:23.7798203+01:00",
-    "Enabled": false,
+    "AssociateFullName": "Madisen Yundt DVM",
+    "Description": "Universal system-worthy extranet",
+    "ProjectId": 853,
+    "EventName": "Lueilwitz-Wiza",
+    "AssociateId": 680,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quia",
+    "SignOffText": "libero",
+    "SignOnConfirmationText": "perspiciatis",
+    "SignOnText": "consequatur",
+    "EventDate": "2024-02-09T03:46:55.1757421+01:00",
+    "Enabled": true,
     "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
+    "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 235,
-    "SignOnTaskId": 396,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 675,
-    "SignOffPersonId": 107,
+    "SignOffTaskId": 432,
+    "SignOnTaskId": 80,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 128,
+    "SignOffPersonId": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 623
       }
     }
   }

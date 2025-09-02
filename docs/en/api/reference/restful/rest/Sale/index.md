@@ -1,6 +1,8 @@
 ---
+uid: tag-Sale
 title: Sale
 generated: true
+content_type: reference
 ---
 
 ```http

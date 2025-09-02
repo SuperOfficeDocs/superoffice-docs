@@ -3,9 +3,9 @@ uid: saintsalestatus
 title: saintsalestatus
 keywords: mdoprovider mdo provider saintsalestatus
 description: This SoList provider generates the sale status list for the Saint criteria. This is a simple, hard-coded list corresponding to the status field of the <see cref="!:SuperOffice.CRM.Rows.Sale" /> table.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saintsalestatus" MDO List

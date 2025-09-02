@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultRoleEntity
 uid: v1UserAgent_CreateDefaultRoleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultRoleEntity
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 ```
 
-Set default values into a new RoleEntity.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new RoleEntity.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -71,7 +69,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 356,
-  "Name": "Mosciski, Borer and Abbott",
-  "Tooltip": "nihil",
+  "RoleId": 488,
+  "Name": "Wisozk LLC",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 126,
-  "Rank": 933,
-  "Created": "1999-12-05T03:45:24.1548097+01:00",
-  "UseCategories": 958,
+  "Deleted": 2,
+  "Rank": 73,
+  "Created": "2009-03-11T03:46:55.5663534+01:00",
+  "UseCategories": 618,
   "CreatedBy": null,
-  "Updated": "2023-01-03T03:45:24.1548097+01:00",
+  "Updated": "2016-09-08T03:46:55.5663534+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldLength": 614
     }
   }
 }

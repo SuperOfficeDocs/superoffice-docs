@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GenerateQuoteDocuments SOAP
 generated: true
 uid: Services88-Quote-GenerateQuoteDocuments
+content_type: reference
 ---
 
 # Services88 Quote GenerateQuoteDocuments

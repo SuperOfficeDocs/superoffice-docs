@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 uid: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -95,14 +96,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel Group",
+  "Name": "Cruickshank Group",
   "AssociateIds": [
-    120,
-    977
+    690,
+    533
   ]
 }
 ```
@@ -115,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Cronin-Kuhn",
-    "AssociateId": 463,
-    "DetailsTable": 683,
-    "DetailsRecord": 845,
-    "IsSystemTask": true,
+    "Id": 774,
+    "Name": "Carter Inc and Sons",
+    "AssociateId": 114,
+    "DetailsTable": 33,
+    "DetailsRecord": 296,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "minus"
     },
-    "LastStarted": "2009-05-21T03:45:22.9829669+02:00",
-    "Created": "2018-07-01T03:45:22.9829669+02:00",
-    "StartCount": 843,
-    "DatabaseSerialNumber": "1538476",
-    "Context": "sed",
-    "Result": "officiis",
+    "LastStarted": "1998-12-17T03:46:54.3007673+01:00",
+    "Created": "2019-08-28T03:46:54.3007673+02:00",
+    "StartCount": 353,
+    "DatabaseSerialNumber": "1063292",
+    "Context": "qui",
+    "Result": "numquam",
     "State": "All",
-    "Description": "Networked 5th generation collaboration",
-    "Response": "corporis",
-    "Request": "reiciendis",
-    "ProgressDescription": "Intuitive impactful model",
-    "ProgressPercent": 790,
-    "FileName": "Mosciski LLC",
+    "Description": "Advanced scalable middleware",
+    "Response": "ullam",
+    "Request": "repellendus",
+    "ProgressDescription": "Secured client-server paradigm",
+    "ProgressPercent": 383,
+    "FileName": "Rice-Turner",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 370
       }
     }
   }

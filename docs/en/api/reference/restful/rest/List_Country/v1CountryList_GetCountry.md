@@ -2,6 +2,7 @@
 title: GET List/Country/Items/{id}
 uid: v1CountryList_GetCountry
 generated: true
+content_type: reference
 ---
 
 # GET List/Country/Items/{id}
@@ -89,30 +90,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 91,
-  "Name": "Russel-Gibson",
-  "CurrencyId": 464,
-  "EnglishName": "Conroy LLC",
+  "CountryId": 337,
+  "Name": "Shanahan, Bradtke and Bernhard",
+  "CurrencyId": 20,
+  "EnglishName": "Schiller Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-channelled bi-directional secured line",
-  "OrgNrText": "269040",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "possimus",
-  "ZipPrefix": "odio",
-  "DomainName": "Huels-Durgan",
-  "AddressLayoutId": 170,
-  "DomesticAddressLayoutId": 165,
-  "ForeignAddressLayoutId": 653,
-  "Rank": 18,
-  "Tooltip": "corrupti",
-  "Deleted": false,
+  "ImageDescription": "Future-proofed eco-centric knowledge user",
+  "OrgNrText": "924361",
+  "InterAreaPrefix": "officia",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "repudiandae",
+  "DomainName": "Klocko, Murazik and Aufderhar",
+  "AddressLayoutId": 64,
+  "DomesticAddressLayoutId": 81,
+  "ForeignAddressLayoutId": 567,
+  "Rank": 951,
+  "Tooltip": "iure",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

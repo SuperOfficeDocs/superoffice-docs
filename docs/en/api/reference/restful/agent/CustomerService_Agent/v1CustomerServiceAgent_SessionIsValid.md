@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/SessionIsValid
 uid: v1CustomerServiceAgent_SessionIsValid
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/SessionIsValid
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "omnis"
+  "CsSessionKey": "voluptatum"
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

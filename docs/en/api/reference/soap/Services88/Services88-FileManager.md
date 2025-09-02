@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-FileManager
 title: Services88.FileManagerAgent WSDL
+content_type: reference
 ---
 
 # Services88.FileManagerAgent WSDL

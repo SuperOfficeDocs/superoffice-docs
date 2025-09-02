@@ -2,10 +2,10 @@
 uid: table-udsalelarge
 title: udsalelarge table
 description: User-defined fields
-so.generated: true
+generated: true
 keywords: database table udsalelarge
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # udsalelarge Table (159)

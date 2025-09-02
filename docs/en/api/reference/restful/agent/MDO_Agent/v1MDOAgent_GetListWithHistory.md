@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetListWithHistory
 uid: v1MDOAgent_GetListWithHistory
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetListWithHistory
@@ -92,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hauck Inc and Sons",
+  "Name": "Kihn, Towne and Reinger",
   "ForceFlatList": true,
-  "AdditionalInfo": "dicta",
+  "AdditionalInfo": "eligendi",
   "HistoryItems": [
-    295,
-    704
+    856,
+    300
   ],
   "OnlyHistory": false
 }
@@ -111,50 +112,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Zieme Inc and Sons",
-    "ToolTip": "Quibusdam consequuntur eius officiis veritatis cum et minus.",
+    "Id": 798,
+    "Name": "Pouros-Bogan",
+    "ToolTip": "Ipsa incidunt.",
     "Deleted": false,
-    "Rank": 140,
-    "Type": "hic",
+    "Rank": 23,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Reilly, Baumbach and Mosciski",
-        "ToolTip": "Libero voluptas beatae tempore animi id possimus cum.",
+        "Id": 614,
+        "Name": "Mueller, Rath and Huel",
+        "ToolTip": "Repudiandae animi aperiam et sit odio fuga occaecati.",
         "Deleted": false,
-        "Rank": 195,
-        "Type": "optio",
+        "Rank": 51,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 3,
-        "ExtraInfo": "nihil",
-        "StyleHint": "omnis",
-        "FullName": "Forrest Rosalia Rempel I",
+        "IconHint": "magnam",
+        "ColorBlock": 230,
+        "ExtraInfo": "non",
+        "StyleHint": "dolorem",
+        "FullName": "Dr. Violette Tremblay MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldLength": 530
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 760,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "nobis",
-    "FullName": "Gia Weissnat",
+    "IconHint": "suscipit",
+    "ColorBlock": 601,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "voluptas",
+    "FullName": "Mr. Benny Goodwin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldLength": 955
       }
     }
   }

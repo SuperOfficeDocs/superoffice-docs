@@ -2,6 +2,7 @@
 title: PUT List/ProductType/Items/{id}
 uid: v1ProductTypeList_PutProductType
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Hills-Moen",
-  "Tooltip": "dolorum",
+  "Id": 758,
+  "Name": "Yost, Welch and Kuphal",
+  "Tooltip": "harum",
   "Deleted": false,
-  "UdListDefinitionId": 285,
-  "Rank": 68
+  "UdListDefinitionId": 939,
+  "Rank": 810
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Grady Group",
-  "Tooltip": "voluptatum",
+  "Id": 708,
+  "Name": "O'Kon, Wunsch and Nader",
+  "Tooltip": "animi",
   "Deleted": false,
-  "UdListDefinitionId": 632,
-  "Rank": 223,
+  "UdListDefinitionId": 968,
+  "Rank": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 268
     }
   }
 }

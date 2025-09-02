@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetProviderNames
 uid: v1ArchiveAgent_GetProviderNames
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetProviderNames
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Archive/GetProviderNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ut",
-  "debitis"
+  "velit",
+  "a"
 ]
 ```

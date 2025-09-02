@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/Items/{id}/Headings
 uid: v1ConsentSourceList_GetConsentSourceHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Kunze LLC",
-    "ToolTip": "Cumque unde sint animi quia sunt qui eum.",
+    "Id": 761,
+    "Name": "Blanda-Rogahn",
+    "ToolTip": "Voluptas sint qui voluptas sequi commodi est quidem.",
     "Deleted": true,
-    "Rank": 313,
-    "Type": "officiis",
-    "ColorBlock": 714,
-    "IconHint": "incidunt",
+    "Rank": 663,
+    "Type": "optio",
+    "ColorBlock": 151,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2007-03-12T03:45:28.9984183+01:00",
+    "LastChanged": "2001-05-06T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 607,
-        "Name": "Jast-Crona",
-        "ToolTip": "Id dicta.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "ut",
-        "ColorBlock": 130,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2003-09-10T03:45:28.9984183+02:00",
+        "Id": 885,
+        "Name": "Treutel, Wintheiser and Barton",
+        "ToolTip": "Ex sit neque dolorum sunt.",
+        "Deleted": true,
+        "Rank": 54,
+        "Type": "quaerat",
+        "ColorBlock": 178,
+        "IconHint": "optio",
+        "Selected": false,
+        "LastChanged": "2011-10-21T03:47:00.6130405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "error",
+        "ExtraInfo": "placeat",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Katheryn Adriana Ullrich V",
+        "FullName": "Mr. Vickie Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quis",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Nichole Wilkinson",
+    "FullName": "Leo Kohler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldType": "System.String",
+        "FieldLength": 124
       }
     }
   }

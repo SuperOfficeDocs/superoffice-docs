@@ -2,6 +2,7 @@
 title: DEL List/ReasonStalled/Items
 uid: v1ReasonStalledList_DeleteAllReasonStalled
 generated: true
+content_type: reference
 ---
 
 # DEL List/ReasonStalled/Items

@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold/Headings
 uid: v1ReasonSoldList_PutReasonSoldHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 333,
-    "Name": "Cremin, Predovic and Bayer",
-    "Tooltip": "et",
+    "HeadingId": 431,
+    "Name": "Schroeder-Hyatt",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 314,
-    "UdListDefinitionId": 703
+    "Rank": 168,
+    "UdListDefinitionId": 804
   },
   {
-    "HeadingId": 333,
-    "Name": "Cremin, Predovic and Bayer",
-    "Tooltip": "et",
+    "HeadingId": 431,
+    "Name": "Schroeder-Hyatt",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 314,
-    "UdListDefinitionId": 703
+    "Rank": 168,
+    "UdListDefinitionId": 804
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Ledner LLC",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "Rank": 642,
-    "UdListDefinitionId": 902,
+    "HeadingId": 607,
+    "Name": "Funk-Hettinger",
+    "Tooltip": "voluptate",
+    "Deleted": false,
+    "Rank": 492,
+    "UdListDefinitionId": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 967
       }
     }
   }

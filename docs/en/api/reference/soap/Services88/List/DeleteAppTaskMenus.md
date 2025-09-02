@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteAppTaskMenus SOAP
 generated: true
 uid: Services88-List-DeleteAppTaskMenus
+content_type: reference
 ---
 
 # Services88 List DeleteAppTaskMenus

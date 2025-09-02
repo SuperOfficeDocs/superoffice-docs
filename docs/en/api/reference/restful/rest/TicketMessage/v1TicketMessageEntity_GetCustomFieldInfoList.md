@@ -2,6 +2,7 @@
 title: GET TicketMessage/CustomField
 uid: v1TicketMessageEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Fritsch, Robel and Rolfson",
-    "DisplayName": "Runte LLC",
-    "Description": "Decentralized stable alliance",
-    "ShortLabel": "quasi",
+    "FieldName": "Runolfsson, Waters and Goldner",
+    "DisplayName": "Hahn, Bosco and Kuhlman",
+    "Description": "Future-proofed real-time projection",
+    "ShortLabel": "illum",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 321,
-    "TemplateVariableName": "Goyette, Mann and O'Connell"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 331,
+    "TemplateVariableName": "Mraz, Lehner and Leuschke"
   }
 ]
 ```

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAppWebPanels SOAP
 generated: true
 uid: Services88-List-GetAppWebPanels
+content_type: reference
 ---
 
 # Services88 List GetAppWebPanels

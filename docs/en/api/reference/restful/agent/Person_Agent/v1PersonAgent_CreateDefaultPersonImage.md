@@ -2,6 +2,7 @@
 title: POST Agents/Person/CreateDefaultPersonImage
 uid: v1PersonAgent_CreateDefaultPersonImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/CreateDefaultPersonImage
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Person/CreateDefaultPersonImage
 ```
 
-Set default values into a new PersonImage.
+Loading default values into a new PersonImage.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -56,7 +55,7 @@ OK
 POST /api/v1/Agents/Person/CreateDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -66,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 601,
+  "PersonId": 183,
   "ImageData": "GIF89....File contents as raw bytes..."
 }
 ```

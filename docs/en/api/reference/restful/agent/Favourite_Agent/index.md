@@ -1,6 +1,8 @@
 ---
+uid: tag-Favourite_Agent
 title: Favourite_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

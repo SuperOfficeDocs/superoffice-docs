@@ -2,10 +2,10 @@
 uid: enum-dashtiletype
 title: Enum values for DashTileType
 description: Lists the enum values for DashTileType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DashTileType Enum
@@ -27,6 +27,7 @@ Dashboard tile type
 |WebPanel|10|WebPanel|
 |HTML|11|HTML|
 |Gauge|12|Gauge|
+|Funnel|13|Funnel|
 
 ## Usage
 

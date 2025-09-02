@@ -2,6 +2,7 @@
 title: POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
 uid: v1DocumentAgent_SubstituteMergeDocumentTemplateVariables2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SubstituteMergeDocumentTemplateVariables2
@@ -76,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 90,
-  "AssociateId": 192,
+  "DocumentId": 873,
+  "AssociateId": 969,
   "CustomTags": {
-    "CustomTags1": "laborum",
-    "CustomTags2": "molestiae"
+    "CustomTags1": "molestiae",
+    "CustomTags2": "aut"
   }
 }
 ```

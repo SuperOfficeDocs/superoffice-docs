@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteTicketCategoryEntity
 uid: v1ListAgent_DeleteTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteTicketCategoryEntity
@@ -22,10 +23,10 @@ Deletes the TicketCategoryEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TicketCategoryEntityId | int32 | **Required** The id of the TicketCategoryEntity to be deleted. |
+| ticketCategoryEntityId | int32 | **Required** The identity of the TicketCategoryEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity?TicketCategoryEntityId=360
+POST /api/v1/Agents/List/DeleteTicketCategoryEntity?ticketCategoryEntityId=80
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

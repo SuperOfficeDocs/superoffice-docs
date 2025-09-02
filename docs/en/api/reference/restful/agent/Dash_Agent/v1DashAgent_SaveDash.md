@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDash
 uid: v1DashAgent_SaveDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDash
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Dash/SaveDash
 ```
 
-Updates the existing Dash or creates a new Dash if the id parameter is empty
+Updates the existing Dash or creates a new Dash if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing Dash or creates a new Dash if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: dash 
 
-The Dash to be saved. 
+The Dash that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,34 +88,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 924,
-  "UniqueId": "sed",
-  "Name": "Bins-Swift",
-  "Description": "Face to face even-keeled matrix",
-  "AssociateId": 570,
-  "Columns": 833,
+  "DashboardId": 620,
+  "UniqueId": "tempora",
+  "Name": "Bartoletti-Glover",
+  "Description": "Versatile interactive access",
+  "AssociateId": 177,
+  "Columns": 172,
   "Theme": null,
-  "VisibleForAll": 449,
+  "VisibleForAll": 969,
   "VisibleForAssociates": [
-    487,
-    786
+    666,
+    422
   ],
   "VisibleForGroups": [
-    676,
-    691
+    181,
+    345
   ],
-  "PinForAll": 529,
+  "PinForAll": 670,
   "PinForAssociates": [
-    633,
-    591
+    272,
+    860
   ],
   "PinForGroups": [
-    815,
-    655
+    82,
+    656
   ]
 }
 ```
@@ -126,37 +127,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 4,
-  "UniqueId": "in",
-  "Name": "Hodkiewicz-Rogahn",
-  "Description": "Front-line dedicated collaboration",
-  "AssociateId": 31,
-  "Columns": 863,
+  "DashboardId": 805,
+  "UniqueId": "neque",
+  "Name": "Ryan LLC",
+  "Description": "Mandatory zero defect attitude",
+  "AssociateId": 448,
+  "Columns": 650,
   "Theme": null,
-  "VisibleForAll": 905,
+  "VisibleForAll": 527,
   "VisibleForAssociates": [
-    930,
-    330
+    699,
+    228
   ],
   "VisibleForGroups": [
-    933,
-    513
+    656,
+    589
   ],
-  "PinForAll": 342,
+  "PinForAll": 220,
   "PinForAssociates": [
-    342,
-    410
+    721,
+    630
   ],
   "PinForGroups": [
-    685,
-    916
+    552,
+    498
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 509
     }
   }
 }

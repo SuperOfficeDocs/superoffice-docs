@@ -2,6 +2,7 @@
 title: POST List/LegalBase/Items
 uid: v1LegalBaseList_PostLegalBase
 generated: true
+content_type: reference
 ---
 
 # POST List/LegalBase/Items
@@ -75,15 +76,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 215,
-  "Name": "Green Inc and Sons",
-  "Tooltip": "voluptas",
-  "Rank": 590,
-  "Key": "officia",
+  "LegalBaseId": 686,
+  "Name": "Beer LLC",
+  "Tooltip": "laboriosam",
+  "Rank": 871,
+  "Key": "cumque",
   "Deleted": false
 }
 ```
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 52,
-  "Name": "Kautzer-Brekke",
-  "Tooltip": "nihil",
-  "Rank": 976,
-  "Key": "eveniet",
-  "Deleted": false,
+  "LegalBaseId": 199,
+  "Name": "Howell LLC",
+  "Tooltip": "vitae",
+  "Rank": 279,
+  "Key": "voluptatum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 476
     }
   }
 }

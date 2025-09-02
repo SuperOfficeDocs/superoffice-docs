@@ -2,6 +2,7 @@
 title: POST Agents/Previews/GetPreview
 uid: v1PreviewsAgent_GetPreview
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Previews/GetPreview
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreviewHint": "incidunt"
+  "PreviewHint": "hic"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"eum"
 ```

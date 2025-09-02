@@ -2,6 +2,7 @@
 title: POST Agents/User/FindCredentialUsers
 uid: v1UserAgent_FindCredentialUsers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/FindCredentialUsers
@@ -77,12 +78,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "perspiciatis",
-  "SearchString": "qui"
+  "Type": "id",
+  "SearchString": "inventore"
 }
 ```
 
@@ -94,16 +95,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "laboriosam",
-    "voluptatem"
+    "sit",
+    "amet"
   ],
   "Users": [
     {
       "Value": "et",
-      "DisplayValue": "quae",
+      "DisplayValue": "voluptas",
       "Columns": [
-        "nesciunt",
-        "qui"
+        "officiis",
+        "eveniet"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
@@ -111,16 +112,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 538
         }
       }
     },
     {
       "Value": "et",
-      "DisplayValue": "quae",
+      "DisplayValue": "voluptas",
       "Columns": [
-        "nesciunt",
-        "qui"
+        "officiis",
+        "eveniet"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
@@ -128,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 538
         }
       }
     }
@@ -138,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 356
     }
   }
 }

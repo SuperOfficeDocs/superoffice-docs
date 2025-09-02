@@ -2,6 +2,7 @@
 title: GET Project/Duplicates/{name}
 uid: v1ProjectEntity_GetDuplicates
 generated: true
+content_type: reference
 ---
 
 # GET Project/Duplicates/{name}
@@ -63,7 +64,7 @@ OK
 GET /api/v1/Project/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Steuber Inc and Sons",
-    "SoPrimaryKey": 740,
-    "EntryName": "Gleichner, Nitzsche and Emmerich",
-    "EntryIdentifier": "incidunt",
-    "RuleDisplayName": "Herzog-Runolfsson",
+    "RuleName": "Steuber, Goldner and Lockman",
+    "SoPrimaryKey": 79,
+    "EntryName": "Crist, Schaden and Will",
+    "EntryIdentifier": "vel",
+    "RuleDisplayName": "Hahn, Labadie and Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldLength": 146
       }
     }
   }

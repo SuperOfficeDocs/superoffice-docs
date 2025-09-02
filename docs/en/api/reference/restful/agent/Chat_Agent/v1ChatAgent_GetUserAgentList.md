@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetUserAgentList
 uid: v1ChatAgent_GetUserAgentList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetUserAgentList
@@ -91,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": true
+  "Flat": false,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Ortiz Group",
-    "ToolTip": "Ut quibusdam soluta.",
-    "Deleted": true,
-    "Rank": 699,
-    "Type": "et",
+    "Id": 94,
+    "Name": "Eichmann, Cremin and Yundt",
+    "ToolTip": "Illum est.",
+    "Deleted": false,
+    "Rank": 500,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Fisher-Keeling",
-        "ToolTip": "Voluptas enim aut.",
-        "Deleted": true,
-        "Rank": 160,
-        "Type": "maxime",
+        "Id": 909,
+        "Name": "Zemlak, Kulas and Considine",
+        "ToolTip": "Sunt tempora et in veritatis.",
+        "Deleted": false,
+        "Rank": 509,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 886,
-        "ExtraInfo": "eveniet",
-        "StyleHint": "vitae",
-        "FullName": "Keven Barton",
+        "IconHint": "porro",
+        "ColorBlock": 617,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "repellendus",
+        "FullName": "Aileen Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 186
+            "FieldLength": 237
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 116,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "reprehenderit",
-    "FullName": "Dr. Terrill Hirthe",
+    "IconHint": "dolor",
+    "ColorBlock": 179,
+    "ExtraInfo": "qui",
+    "StyleHint": "dolorem",
+    "FullName": "Retta DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 396
       }
     }
   }

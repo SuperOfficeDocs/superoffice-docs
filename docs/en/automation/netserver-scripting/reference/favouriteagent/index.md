@@ -2,14 +2,10 @@
 uid: favouriteagent-script-events
 title: FavouriteAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # FavouriteAgent method listing
@@ -27,3 +23,4 @@ Service methods defined on <see cref='T:IFavouriteAgent'>FavouriteAgent</see> th
 * [RemoveFavouritesByIdAsync](removefavouritesbyidasync.md)
 * [RemoveTicketsFromFavouritesByProviderAsync](removeticketsfromfavouritesbyproviderasync.md)
 * [ToggleFavouriteAsync](togglefavouriteasync.md)
+

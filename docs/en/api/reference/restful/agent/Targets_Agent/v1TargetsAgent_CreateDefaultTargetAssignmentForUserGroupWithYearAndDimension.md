@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 956,
-  "Year": 482,
-  "TargetDimensionId": 707
+  "UserGroupId": 538,
+  "Year": 34,
+  "TargetDimensionId": 417
 }
 ```
 
@@ -101,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 40,
+    "TargetAssignmentInfoId": 724,
     "Values": [
-      926,
-      885
+      798,
+      747
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 134,
-    "DimensionListItemDisplayName": "Schowalter LLC",
+    "DimensionListItem": 747,
+    "DimensionListItemDisplayName": "Wisoky, Dickens and Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 358
       }
     }
   }

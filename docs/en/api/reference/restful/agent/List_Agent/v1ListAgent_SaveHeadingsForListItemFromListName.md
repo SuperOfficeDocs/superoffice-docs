@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingsForListItemFromListName
 uid: v1ListAgent_SaveHeadingsForListItemFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingsForListItemFromListName
@@ -89,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hoeger, Friesen and Reichert",
-  "ListItemId": 563,
+  "UdListDefinitionName": "Langosh, Walker and Hirthe",
+  "ListItemId": 775,
   "Headings": [
     {
-      "Id": 460,
-      "Name": "McLaughlin, Mann and Nicolas",
-      "ToolTip": "Occaecati magni.",
-      "Deleted": false,
-      "Rank": 537,
-      "Type": "minus",
-      "ColorBlock": 748,
-      "IconHint": "accusamus",
-      "Selected": false,
-      "LastChanged": "2011-03-13T03:45:23.5927257+01:00",
+      "Id": 58,
+      "Name": "Lind-Steuber",
+      "ToolTip": "Veritatis aspernatur officia vero.",
+      "Deleted": true,
+      "Rank": 249,
+      "Type": "aliquam",
+      "ColorBlock": 936,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2012-12-24T03:46:54.9569999+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "natus",
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "explicabo",
       "Hidden": false,
-      "FullName": "Miss Gaetano Greenfelder"
+      "FullName": "Valentina Isidro Murazik II"
     }
   ]
 }
@@ -128,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Heidenreich, Deckow and Mraz",
-    "ToolTip": "Aperiam dicta ut.",
+    "Id": 43,
+    "Name": "Considine Group",
+    "ToolTip": "Expedita veritatis incidunt.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "ipsum",
-    "ColorBlock": 348,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "1998-11-15T03:45:23.5927257+01:00",
+    "Rank": 251,
+    "Type": "dolores",
+    "ColorBlock": 804,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2014-11-24T03:46:54.9569999+01:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Orn Group",
-        "ToolTip": "Quis aut nemo neque eaque animi sit quo.",
+        "Id": 727,
+        "Name": "Hintz Inc and Sons",
+        "ToolTip": "Animi qui culpa.",
         "Deleted": true,
-        "Rank": 751,
-        "Type": "molestiae",
-        "ColorBlock": 286,
-        "IconHint": "quia",
+        "Rank": 734,
+        "Type": "amet",
+        "ColorBlock": 214,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2013-07-06T03:45:23.5927257+02:00",
+        "LastChanged": "2008-04-17T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "ad",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Era Torphy",
+        "FullName": "Dr. Alysa Kianna Hane PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 841
+            "FieldLength": 49
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Miss Carolanne Arch Reichert",
+    "FullName": "Prof. Alisha Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 330
       }
     }
   }

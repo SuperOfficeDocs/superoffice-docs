@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.RestoreConnection SOAP
 generated: true
 uid: Services88-Quote-RestoreConnection
+content_type: reference
 ---
 
 # Services88 Quote RestoreConnection

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLegalBase
 uid: v1ListAgent_GetLegalBase
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLegalBase
@@ -22,11 +23,11 @@ Gets a LegalBase object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| legalBaseId | int32 | **Required** The primary key. |
+| legalBaseId | int32 | **Required** The identifier of the LegalBase object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=258
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=301
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 235,
-  "Name": "Dietrich LLC",
-  "Tooltip": "tenetur",
-  "Rank": 698,
-  "Key": "harum",
-  "Deleted": true,
+  "LegalBaseId": 822,
+  "Name": "Osinski, Bergnaum and Douglas",
+  "Tooltip": "et",
+  "Rank": 577,
+  "Key": "sed",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 637
     }
   }
 }

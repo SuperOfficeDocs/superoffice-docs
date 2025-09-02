@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictions2
 uid: v1FindAgent_FindFromRestrictions2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictions2
@@ -163,14 +164,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "exercitationem",
-  "ProviderName": "Pfeffer, Barton and Heathcote",
-  "PageSize": 260,
-  "PageNumber": 546
+  "Restrictions": "vitae",
+  "ProviderName": "Douglas Group",
+  "PageSize": 232,
+  "PageNumber": 977
 }
 ```
 
@@ -183,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Durgan-Morar",
-      "DisplayTooltip": "iusto",
-      "DisplayType": "alias",
+      "DisplayName": "Schaden Group",
+      "DisplayTooltip": "consectetur",
+      "DisplayType": "modi",
       "CanOrderBy": false,
-      "Name": "Baumbach Inc and Sons",
+      "Name": "Swift Group",
       "CanRestrictBy": false,
-      "RestrictionType": "recusandae",
-      "RestrictionListName": "Grady-Cole",
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Abernathy-Greenfelder",
       "IsVisible": true,
-      "ExtraInfo": "consequatur",
-      "Width": "quia",
-      "IconHint": "debitis",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "voluptatem",
+      "Width": "natus",
+      "IconHint": "ducimus",
+      "HeadingIconHint": "velit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pacocha, Kreiger and Beier",
-      "PrimaryKey": 421,
+      "EntityName": "Boyer LLC",
+      "PrimaryKey": 222,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolore",
-          "TooltipHint": "non",
-          "LinkHint": "similique"
+          "DisplayValue": "qui",
+          "TooltipHint": "hic",
+          "LinkHint": "nesciunt"
         }
       },
-      "LinkHint": "nihil",
-      "StyleHint": "quam",
+      "LinkHint": "voluptatem",
+      "StyleHint": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 311
         }
       }
     }
   ],
-  "RowCount": 855,
+  "RowCount": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

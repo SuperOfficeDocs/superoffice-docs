@@ -2,6 +2,7 @@
 title: GET ForeignApp/default
 uid: v1ForeignAppEntity_DefaultForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/default
@@ -63,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,32 +72,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Sep 2005 03:45:28 G9T
+Last-Modified: Tue, 06 May 2003 03:47:00 G5T
 
 {
-  "ForeignAppId": 703,
-  "Name": "Kautzer-Bechtelar",
-  "CreatedDate": "2019-11-29T03:45:28.3578119+01:00",
-  "UpdatedDate": "2005-09-17T03:45:28.3578119+02:00",
+  "ForeignAppId": 942,
+  "Name": "Fadel, Mayert and Howe",
+  "CreatedDate": "2025-04-07T03:47:00.0193121+02:00",
+  "UpdatedDate": "2003-05-06T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 434,
-      "Name": "Wehner, Erdman and McClure",
-      "CreatedDate": "2023-03-24T03:45:28.3578119+01:00",
-      "UpdatedDate": "2005-08-03T03:45:28.3578119+02:00",
-      "AssociateFullName": "Mr. Max Moen",
-      "CreatedBy": "autem",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 946,
+      "ForeignDeviceId": 937,
+      "Name": "Hartmann Group",
+      "CreatedDate": "2007-07-24T03:47:00.0193121+02:00",
+      "UpdatedDate": "2013-11-15T03:47:00.0193121+01:00",
+      "AssociateFullName": "Eric Reichert",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "voluptatum",
+      "DeviceIdentifier": "id",
+      "ForeignAppId": 437,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 742
         }
       }
     }
@@ -106,7 +107,7 @@ Last-Modified: Sat, 17 Sep 2005 03:45:28 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 842
     }
   }
 }

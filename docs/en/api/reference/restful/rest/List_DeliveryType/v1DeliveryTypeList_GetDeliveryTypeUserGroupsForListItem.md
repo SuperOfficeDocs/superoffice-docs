@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Items/{id}/UserGroups
 uid: v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Yundt, Mayert and Durgan",
-    "ToolTip": "Maxime perspiciatis mollitia voluptas reiciendis ipsa harum.",
+    "Id": 882,
+    "Name": "Sanford, Rosenbaum and Schultz",
+    "ToolTip": "Fuga praesentium.",
     "Deleted": true,
-    "Rank": 110,
-    "Type": "possimus",
-    "ColorBlock": 91,
-    "IconHint": "quod",
+    "Rank": 558,
+    "Type": "doloribus",
+    "ColorBlock": 103,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2007-02-24T03:45:29.0296674+01:00",
+    "LastChanged": "2007-12-02T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Stoltenberg-Sipes",
-        "ToolTip": "Deserunt sint culpa quia.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "ab",
-        "ColorBlock": 676,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "1998-11-26T03:45:29.0296674+01:00",
+        "Id": 727,
+        "Name": "Frami LLC",
+        "ToolTip": "Molestias modi adipisci dolor.",
+        "Deleted": false,
+        "Rank": 31,
+        "Type": "aut",
+        "ColorBlock": 821,
+        "IconHint": "accusamus",
+        "Selected": false,
+        "LastChanged": "2015-10-05T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sed",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Sibyl Metz",
+        "FullName": "Ms. Athena Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 281
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "dolores",
+    "ExtraInfo": "error",
+    "StyleHint": "inventore",
     "Hidden": true,
-    "FullName": "Katherine Torp",
+    "FullName": "Dr. Dominique Goodwin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 373
       }
     }
   }

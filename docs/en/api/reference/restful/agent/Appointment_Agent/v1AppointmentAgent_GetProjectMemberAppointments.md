@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectMemberAppointments
 uid: v1AppointmentAgent_GetProjectMemberAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointments
@@ -117,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +133,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 657,
-  "StartTime": "2007-10-12T03:45:22.6704778+02:00",
-  "EndTime": "2018-01-18T03:45:22.6704778+01:00",
-  "Count": 452
+  "PersonId": 537,
+  "StartTime": "2020-07-01T03:46:53.9726601+02:00",
+  "EndTime": "2015-05-15T03:46:53.9726601+02:00",
+  "Count": 640
 }
 ```
 
@@ -150,66 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 473,
-    "StartDate": "2014-01-26T03:45:22.6704778+01:00",
-    "EndDate": "2002-02-11T03:45:22.6704778+01:00",
+    "AppointmentId": 24,
+    "StartDate": "2011-01-18T03:46:53.9726601+01:00",
+    "EndDate": "2018-02-14T03:46:53.9726601+01:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Mason Violette Schuster DDS",
-    "ContactName": "Pacocha Group",
-    "Description": "Networked attitude-oriented neural-net",
-    "PersonFullName": "Odell Kertzmann Sr.",
-    "PersonId": 951,
-    "ContactId": 207,
-    "ProjectId": 829,
-    "ProjectName": "Tillman-McCullough",
-    "IsPublished": false,
-    "AssociateId": 862,
-    "ColorIndex": 122,
-    "IsFree": true,
+    "Task": "consectetur",
+    "AssociateFullName": "Susana Ullrich",
+    "ContactName": "Schultz-Rodriguez",
+    "Description": "Persevering systemic alliance",
+    "PersonFullName": "Garland Durgan",
+    "PersonId": 73,
+    "ContactId": 1001,
+    "ProjectId": 902,
+    "ProjectName": "Sporer LLC",
+    "IsPublished": true,
+    "AssociateId": 430,
+    "ColorIndex": 121,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 92,
-    "PriorityName": "Breitenberg-Sanford",
+    "PriorityId": 653,
+    "PriorityName": "Swaniawski Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2019-08-13T03:45:22.6704778+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2006-09-20T03:46:53.9726601+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-07-03T03:45:22.6704778+02:00",
-    "RecurringEndDate": "2001-10-02T03:45:22.6704778+02:00",
-    "MotherId": 20,
-    "AssignedBy": 113,
-    "AssignedByFullName": "Liliana Dicki",
+    "RecurringStartDate": "2004-09-14T03:46:53.9726601+02:00",
+    "RecurringEndDate": "2001-01-10T03:46:53.9726601+01:00",
+    "MotherId": 348,
+    "AssignedBy": 676,
+    "AssignedByFullName": "Prof. Franco Gutmann Sr.",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "quam",
-    "SaleId": 752,
-    "SaleName": "Hansen-Kilback",
-    "AssociateName": "Bins, McDermott and McCullough",
-    "CreatedDate": "2011-09-21T03:45:22.6704778+02:00",
-    "CreatedBy": "tenetur",
-    "CreatedByFullName": "Sunny Armstrong DDS",
-    "CreatedByAssociateId": 133,
+    "Location": "omnis",
+    "AlarmLeadTime": "dignissimos",
+    "SaleId": 849,
+    "SaleName": "Cartwright, Koss and Eichmann",
+    "AssociateName": "Wisozk-Hermann",
+    "CreatedDate": "2004-01-27T03:46:53.9726601+01:00",
+    "CreatedBy": "maiores",
+    "CreatedByFullName": "Name Kacey Lang V",
+    "CreatedByAssociateId": 1002,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 437,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 464,
-    "Title": "est",
-    "Agenda": "vero",
-    "InternalNotes": "reiciendis",
+    "PreferredTZLocation": 122,
+    "Title": "ea",
+    "Agenda": "architecto",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CreateTicketFromMailData SOAP
 generated: true
 uid: Services88-CustomerService-CreateTicketFromMailData
+content_type: reference
 ---
 
 # Services88 CustomerService CreateTicketFromMailData

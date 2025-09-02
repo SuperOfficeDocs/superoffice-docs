@@ -2,6 +2,7 @@
 title: POST Agents/Associate/GetAssociateList
 uid: v1AssociateAgent_GetAssociateList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Associate/GetAssociateList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Associate/GetAssociateList?$select=name,department,category/
 
 ## Request Body: associateIds 
 
-The primary keys. 
+The identifiers of the Associate object 
 
 
 ## Response:array
@@ -72,6 +73,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
+| ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.Associate.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.Associate.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,7 +84,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,24 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 19,
-    "Name": "Lockman LLC",
-    "PersonId": 665,
-    "Rank": 298,
-    "Tooltip": "deleniti",
+    "AssociateId": 780,
+    "Name": "Braun LLC",
+    "PersonId": 215,
+    "Rank": 763,
+    "Tooltip": "esse",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 913,
-    "FullName": "Dr. Alisa Turner",
-    "FormalName": "Sauer-Gorczany",
+    "GroupIdx": 252,
+    "FullName": "Dr. Eleanora Kelton Legros",
+    "FormalName": "Grady Inc and Sons",
     "Deleted": false,
-    "EjUserId": 844,
-    "UserName": "Stokes-Heathcote",
+    "EjUserId": 51,
+    "UserName": "Jacobson-Hane",
+    "ExtraFields": {
+      "ExtraFields1": "saepe",
+      "ExtraFields2": "omnis"
+    },
+    "CustomFields": {
+      "CustomFields1": "suscipit",
+      "CustomFields2": "rerum"
+    },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 5
       }
     }
   }

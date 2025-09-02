@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetCriteriaInformationWithContext
 uid: v1FindAgent_GetCriteriaInformationWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetCriteriaInformationWithContext
@@ -82,18 +83,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Heaney-Monahan",
-  "StorageKey": "reiciendis",
+  "StorageType": "adipisci",
+  "ProviderName": "Beier, Powlowski and Nikolaus",
+  "StorageKey": "voluptas",
   "StaticColumns": [
-    "vel",
-    "officiis"
+    "omnis",
+    "enim"
   ],
-  "Context": "consectetur"
+  "Context": "consequatur"
 }
 ```
 
@@ -106,15 +107,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wiza Inc and Sons",
-      "Operator": "non",
+      "Name": "Feeney-Dare",
+      "Operator": "illum",
       "Values": [
-        "aut",
-        "magni"
+        "ipsam",
+        "alias"
       ],
       "DisplayValues": [
-        "accusamus",
-        "veniam"
+        "consequuntur",
+        "architecto"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +123,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 556,
+      "InterParenthesis": 922,
       "InterOperator": "And",
-      "UniqueHash": 729
+      "UniqueHash": 557
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lakin LLC",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "molestiae",
+      "DisplayName": "Grant LLC",
+      "DisplayTooltip": "qui",
+      "DisplayType": "minus",
       "CanOrderBy": false,
-      "Name": "Koch Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Pollich LLC",
-      "IsVisible": true,
-      "ExtraInfo": "provident",
-      "Width": "necessitatibus",
-      "IconHint": "aut",
-      "HeadingIconHint": "veniam"
+      "Name": "Bauch-Thompson",
+      "CanRestrictBy": false,
+      "RestrictionType": "itaque",
+      "RestrictionListName": "Emmerich, Deckow and Mertz",
+      "IsVisible": false,
+      "ExtraInfo": "assumenda",
+      "Width": "vel",
+      "IconHint": "fugiat",
+      "HeadingIconHint": "quo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Terry-Yundt",
-      "PrimaryKey": 403,
+      "EntityName": "Harris, Bernier and Herman",
+      "PrimaryKey": 998,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rerum",
-          "TooltipHint": "quas",
-          "LinkHint": "nostrum"
+          "DisplayValue": "ad",
+          "TooltipHint": "optio",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "voluptatem",
+      "LinkHint": "sint",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jacobson LLC",
-      "Description": "Synergistic executive implementation",
-      "Rank": 168,
+      "Name": "Stehr-Wolff",
+      "Description": "Polarised 3rd generation alliance",
+      "Rank": 413,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jacobson LLC",
-      "Description": "Synergistic executive implementation",
-      "Rank": 168,
+      "Name": "Stehr-Wolff",
+      "Description": "Polarised 3rd generation alliance",
+      "Rank": 413,
       "Restrictions": [
         {},
         {}
@@ -191,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

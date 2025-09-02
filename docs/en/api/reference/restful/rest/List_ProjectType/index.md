@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ProjectType
 title: List_ProjectType
 generated: true
+content_type: reference
 ---
 
 ```http

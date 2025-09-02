@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SaveActorTypeMapping SOAP
 generated: true
 uid: Services88-ErpSync-SaveActorTypeMapping
+content_type: reference
 ---
 
 # Services88 ErpSync SaveActorTypeMapping

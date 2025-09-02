@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateDefaultPriceList
 uid: v1QuoteAgent_CreateDefaultPriceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateDefaultPriceList
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 ```
 
-Set default values into a new PriceList.
+Loading default values into a new PriceList.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -66,7 +65,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 878,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 286,
-  "Name": "Reynolds LLC",
-  "Description": "Secured modular capability",
-  "Currency": "voluptas",
-  "CurrencyName": "Hansen-Denesik",
-  "ValidFrom": "2019-09-05T03:45:23.8110701+02:00",
-  "ValidTo": "2007-01-05T03:45:23.8110701+01:00",
-  "IsActive": true,
+  "PriceListId": 986,
+  "ERPPriceListKey": "quos",
+  "QuoteConnectionId": 533,
+  "Name": "Quigley Group",
+  "Description": "User-friendly composite protocol",
+  "Currency": "maiores",
+  "CurrencyName": "Marks, Steuber and Roob",
+  "ValidFrom": "2024-01-11T03:46:55.2069913+01:00",
+  "ValidTo": "2015-06-06T03:46:55.2069913+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   }
 }

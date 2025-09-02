@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllTicketPriorities
 uid: v1ListAgent_GetAllTicketPriorities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllTicketPriorities
@@ -100,7 +101,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +117,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 164,
-    "Name": "Pacocha Group",
+    "TicketPriorityId": 735,
+    "Name": "Padberg, O'Conner and Bosco",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 37,
+    "SortOrder": 843,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 461,
-    "MonStart": "2002-09-08T03:45:23.5142048+02:00",
-    "MonStop": "2008-05-17T03:45:23.5142048+02:00",
-    "TueStart": "2012-10-22T03:45:23.5142048+02:00",
-    "TueStop": "2013-08-24T03:45:23.5142048+02:00",
-    "WedStart": "2018-10-18T03:45:23.5142048+02:00",
-    "WedStop": "2020-01-13T03:45:23.5142048+01:00",
-    "ThuStart": "2018-02-07T03:45:23.5142048+01:00",
-    "ThuStop": "2013-10-12T03:45:23.5142048+02:00",
-    "FriStart": "2022-08-11T03:45:23.5142048+02:00",
-    "FriStop": "2015-09-05T03:45:23.5142048+02:00",
-    "SatStart": "2018-10-20T03:45:23.5142048+02:00",
-    "SatStop": "2014-04-09T03:45:23.5142048+02:00",
-    "SunStart": "2007-08-31T03:45:23.5142048+02:00",
-    "SunStop": "2022-12-24T03:45:23.5142048+01:00",
+    "Deadline": 286,
+    "MonStart": "2022-07-29T03:46:54.9257675+02:00",
+    "MonStop": "2000-09-05T03:46:54.9257675+02:00",
+    "TueStart": "2005-04-21T03:46:54.9257675+02:00",
+    "TueStop": "2013-12-27T03:46:54.9257675+01:00",
+    "WedStart": "2017-05-01T03:46:54.9257675+02:00",
+    "WedStop": "2006-11-07T03:46:54.9257675+01:00",
+    "ThuStart": "2002-12-26T03:46:54.9257675+01:00",
+    "ThuStop": "1999-05-17T03:46:54.9257675+02:00",
+    "FriStart": "1998-08-27T03:46:54.9257675+02:00",
+    "FriStop": "2006-12-17T03:46:54.9257675+01:00",
+    "SatStart": "2013-03-31T03:46:54.9257675+02:00",
+    "SatStop": "2023-10-11T03:46:54.9257675+02:00",
+    "SunStart": "2002-07-20T03:46:54.9257675+02:00",
+    "SunStop": "2009-01-24T03:46:54.9257675+01:00",
     "NonDates": [
-      "consectetur",
-      "sit"
+      "eum",
+      "nemo"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 208,
-        "AlertLevel": 615,
-        "AlertTimeout": 214,
-        "Action": 140,
-        "DelegateTo": 258,
-        "ScriptId": 594,
-        "EmailTo": "naomie@kuhic.us",
-        "SmsTo": "illo",
-        "ReplyTemplateIdCustomer": 11,
-        "ReplyTemplateIdUser": 423,
-        "ReplyTemplateIdCatmast": 268,
-        "ReplyTemplateIdEmail": 369,
-        "RtiCustomerSms": 585,
-        "ReplyTemplateIdUserSms": 210,
-        "ReplyTemplateIdCatmastSms": 833,
-        "ReplyTemplateIdSms": 317,
+        "TicketAlertId": 788,
+        "AlertLevel": 264,
+        "AlertTimeout": 578,
+        "Action": 870,
+        "DelegateTo": 332,
+        "ScriptId": 261,
+        "EmailTo": "ottis_senger@buckridge.uk",
+        "SmsTo": "ipsam",
+        "ReplyTemplateIdCustomer": 847,
+        "ReplyTemplateIdUser": 949,
+        "ReplyTemplateIdCatmast": 761,
+        "ReplyTemplateIdEmail": 38,
+        "RtiCustomerSms": 903,
+        "ReplyTemplateIdUserSms": 600,
+        "ReplyTemplateIdCatmastSms": 758,
+        "ReplyTemplateIdSms": 434,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 752
+            "FieldType": "System.String",
+            "FieldLength": 351
           }
         }
       }
@@ -179,7 +180,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldLength": 309
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/SetStatusOnWorkflow
 uid: v1WorkflowAgent_SetStatusOnWorkflow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/SetStatusOnWorkflow
@@ -73,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 268,
+  "EmailFlowId": 923,
   "Status": "None"
 }
 ```

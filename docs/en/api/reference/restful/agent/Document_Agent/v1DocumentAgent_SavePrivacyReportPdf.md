@@ -2,6 +2,7 @@
 title: POST Agents/Document/SavePrivacyReportPdf
 uid: v1DocumentAgent_SavePrivacyReportPdf
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SavePrivacyReportPdf
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Document/SavePrivacyReportPdf
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stream": "GIF89....File contents as raw bytes...",
-  "Title": "fugit",
-  "PersonId": 997
+  "Title": "itaque",
+  "PersonId": 160
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-858
+191
 ```

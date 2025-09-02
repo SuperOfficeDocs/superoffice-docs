@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetPreviewDocumentStream SOAP
 generated: true
 uid: Services88-Document-GetPreviewDocumentStream
+content_type: reference
 ---
 
 # Services88 Document GetPreviewDocumentStream

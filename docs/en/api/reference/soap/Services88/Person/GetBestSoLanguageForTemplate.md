@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetBestSoLanguageForTemplate SOAP
 generated: true
 uid: Services88-Person-GetBestSoLanguageForTemplate
+content_type: reference
 ---
 
 # Services88 Person GetBestSoLanguageForTemplate

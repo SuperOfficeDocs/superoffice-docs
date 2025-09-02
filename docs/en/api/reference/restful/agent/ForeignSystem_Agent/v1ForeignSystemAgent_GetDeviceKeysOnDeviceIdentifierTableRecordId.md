@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
@@ -88,11 +89,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mayert, Hoeger and Davis",
-  "DeviceName": "Dooley-Dare",
-  "DeviceIdentifier": "laborum",
-  "TableName": "Goldner-Rolfson",
-  "RecordId": 690
+  "ApplicationName": "Kuvalis, Goyette and Gutkowski",
+  "DeviceName": "Cummings-Bechtelar",
+  "DeviceIdentifier": "vero",
+  "TableName": "Herman, Crona and Schaefer",
+  "RecordId": 812
 }
 ```
 
@@ -104,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aut",
-    "Value": "sunt",
-    "RecordId": 859,
-    "CreatedDate": "2013-10-14T03:45:23.498579+02:00",
-    "UpdatedDate": "1998-04-16T03:45:23.498579+02:00",
-    "UpdatedBy": "omnis",
-    "CreatedBy": "dolorem",
-    "TableName": "Gibson, Donnelly and Barrows",
+    "Key": "vitae",
+    "Value": "omnis",
+    "RecordId": 459,
+    "CreatedDate": "2014-12-06T03:46:54.9107593+01:00",
+    "UpdatedDate": "2017-12-03T03:46:54.9107593+01:00",
+    "UpdatedBy": "tenetur",
+    "CreatedBy": "omnis",
+    "TableName": "Haley Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

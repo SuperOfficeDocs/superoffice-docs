@@ -2,6 +2,7 @@
 title: POST Pricelist
 uid: v1PriceList_PostPriceList
 generated: true
+content_type: reference
 ---
 
 # POST Pricelist
@@ -94,20 +95,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 418,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 767,
-  "Name": "Koss Group",
-  "Description": "Enhanced foreground core",
-  "Currency": "eos",
-  "CurrencyName": "Cummings LLC",
-  "ValidFrom": "2023-03-04T03:45:29.0765432+01:00",
-  "ValidTo": "2010-04-24T03:45:29.0765432+02:00",
-  "IsActive": true
+  "PriceListId": 373,
+  "ERPPriceListKey": "in",
+  "QuoteConnectionId": 405,
+  "Name": "Fay, Kiehn and Satterfield",
+  "Description": "Business-focused web-enabled attitude",
+  "Currency": "modi",
+  "CurrencyName": "Kohler LLC",
+  "ValidFrom": "2006-06-04T03:47:00.7067961+02:00",
+  "ValidTo": "2014-06-22T03:47:00.7067961+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 342,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 68,
-  "Name": "Wiza-Swift",
-  "Description": "Optional secondary function",
-  "Currency": "quaerat",
-  "CurrencyName": "Zemlak-Schuppe",
-  "ValidFrom": "2004-10-16T03:45:29.0921677+02:00",
-  "ValidTo": "2004-11-27T03:45:29.0921677+01:00",
+  "PriceListId": 774,
+  "ERPPriceListKey": "dolores",
+  "QuoteConnectionId": 665,
+  "Name": "Wisoky-Homenick",
+  "Description": "Integrated neutral moderator",
+  "Currency": "magnam",
+  "CurrencyName": "Smith, Hamill and Crooks",
+  "ValidFrom": "2003-11-04T03:47:00.7067961+01:00",
+  "ValidTo": "2013-04-22T03:47:00.7067961+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 267
     }
   },
   "_Links": {

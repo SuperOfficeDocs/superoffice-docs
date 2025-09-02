@@ -2,6 +2,7 @@
 title: Services88.FileManagerAgent.ReadFile SOAP
 generated: true
 uid: Services88-FileManager-ReadFile
+content_type: reference
 ---
 
 # Services88 FileManager ReadFile

@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/SendPushNotification
 uid: v1PocketAgent_SendPushNotification
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/SendPushNotification
@@ -65,13 +66,13 @@ No Content
 POST /api/v1/Agents/Pocket/SendPushNotification
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    107,
-    592
+    343,
+    202
   ],
   "Message": null
 }

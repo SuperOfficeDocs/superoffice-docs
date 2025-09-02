@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.GetChatTranscript SOAP
 generated: true
 uid: Services88-Chat-GetChatTranscript
+content_type: reference
 ---
 
 # Services88 Chat GetChatTranscript

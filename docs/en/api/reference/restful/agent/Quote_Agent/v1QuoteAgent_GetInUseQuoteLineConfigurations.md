@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetInUseQuoteLineConfigurations
 uid: v1QuoteAgent_GetInUseQuoteLineConfigurations
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetInUseQuoteLineConfigurations
@@ -84,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 483,
-    "FieldName": "Sporer-Kuhic",
-    "Label": "eveniet",
-    "Tooltip": "consequatur",
+    "QuoteLineConfigurationId": 34,
+    "FieldName": "Parker, Stracke and Goodwin",
+    "Label": "vel",
+    "Tooltip": "ut",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 541,
+    "Mandatory": false,
+    "Rank": 944,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 421
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

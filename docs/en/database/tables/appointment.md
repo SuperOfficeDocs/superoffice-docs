@@ -2,10 +2,10 @@
 uid: table-appointment
 title: appointment table
 description: Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
-so.generated: true
+generated: true
 keywords: database table appointment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # appointment Table (9)

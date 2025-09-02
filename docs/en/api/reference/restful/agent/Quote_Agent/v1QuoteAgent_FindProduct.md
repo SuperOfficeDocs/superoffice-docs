@@ -2,6 +2,7 @@
 title: POST Agents/Quote/FindProduct
 uid: v1QuoteAgent_FindProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/FindProduct
@@ -108,13 +109,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 233,
-  "UserInput": "recusandae",
-  "PriceListKey": "aut"
+  "QuoteAlternativeId": 398,
+  "UserInput": "occaecati",
+  "PriceListKey": "labore"
 }
 ```
 
@@ -126,35 +127,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 952,
-    "ERPProductKey": "aut",
-    "ERPPriceListKey": "quo",
-    "Name": "Bashirian-Cartwright",
-    "Description": "Up-sized reciprocal time-frame",
-    "Code": "odio",
-    "PriceUnit": "aspernatur",
-    "QuantityUnit": "iste",
+    "ProductId": 232,
+    "ERPProductKey": "dolorem",
+    "ERPPriceListKey": "illum",
+    "Name": "Raynor, Hilpert and Reichert",
+    "Description": "Exclusive asynchronous moratorium",
+    "Code": "velit",
+    "PriceUnit": "sint",
+    "QuantityUnit": "voluptatem",
     "IsSubscription": false,
-    "SubscriptionUnit": "quia",
-    "DefaultSubscriptionQuantity": 9054.126,
-    "ItemNumber": "1245639",
+    "SubscriptionUnit": "non",
+    "DefaultSubscriptionQuantity": 10523.972,
+    "ItemNumber": "365677",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "magnam",
-    "ProductTypeKey": "non",
-    "VAT": 15140.354,
-    "VATInfo": "corrupti",
-    "UnitCost": 2093.5119999999997,
-    "UnitMinimumPrice": 6308.742,
-    "UnitListPrice": 19258.43,
+    "ProductFamilyKey": "eveniet",
+    "ProductTypeKey": "temporibus",
+    "VAT": 8493.14,
+    "VATInfo": "rerum",
+    "UnitCost": 9010.25,
+    "UnitMinimumPrice": 24730.394,
+    "UnitListPrice": 733.356,
     "InAssortment": false,
-    "Supplier": "rerum",
-    "SupplierCode": "non",
-    "Rights": "quia",
-    "Rule": "hic",
+    "Supplier": "quibusdam",
+    "SupplierCode": "et",
+    "Rights": "expedita",
+    "Rule": "voluptates",
     "ExtraInfo": [
       {
-        "Name": "Leuschke-Boyle",
+        "Name": "Hand Inc and Sons",
         "Value": "eius",
         "Type": "Image",
         "TableRight": null,
@@ -162,12 +163,12 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldLength": 45
           }
         }
       },
       {
-        "Name": "Leuschke-Boyle",
+        "Name": "Hand Inc and Sons",
         "Value": "eius",
         "Type": "Image",
         "TableRight": null,
@@ -175,24 +176,24 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldLength": 45
           }
         }
       }
     ],
     "RawExtraInfo": "est",
-    "ExtraField1": "voluptas",
-    "ExtraField2": "autem",
-    "ExtraField3": "suscipit",
-    "ExtraField4": "sunt",
-    "ExtraField5": "non",
-    "InStock": 16889.126,
+    "ExtraField1": "et",
+    "ExtraField2": "accusamus",
+    "ExtraField3": "facere",
+    "ExtraField4": "minima",
+    "ExtraField5": "quos",
+    "InStock": 13419.788,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 72
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Headings
 uid: v1DeliveryTypeList_GetDeliveryTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 298,
-    "Name": "Kshlerin, McDermott and Bins",
-    "Tooltip": "accusantium",
+    "HeadingId": 324,
+    "Name": "Morar, Herzog and Mueller",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 12,
+    "Rank": 711,
+    "UdListDefinitionId": 552,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 621
       }
     }
   }

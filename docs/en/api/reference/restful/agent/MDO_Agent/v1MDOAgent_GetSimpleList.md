@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetSimpleList
 uid: v1MDOAgent_GetSimpleList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetSimpleList
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bauch, Pfeffer and Roberts"
+  "Name": "Kreiger Inc and Sons"
 }
 ```
 
@@ -100,50 +101,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Kiehn, Jones and Block",
-    "ToolTip": "Ut facilis aliquam quo delectus corporis quidem adipisci.",
+    "Id": 154,
+    "Name": "Feeney, Runolfsson and Stoltenberg",
+    "ToolTip": "Voluptates totam eum.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "quis",
+    "Rank": 181,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Spencer, Ryan and Trantow",
-        "ToolTip": "Voluptatem nulla voluptates et molestiae consequatur et.",
-        "Deleted": true,
-        "Rank": 666,
-        "Type": "nisi",
+        "Id": 160,
+        "Name": "Yost Inc and Sons",
+        "ToolTip": "Optio eos.",
+        "Deleted": false,
+        "Rank": 746,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 48,
-        "ExtraInfo": "omnis",
-        "StyleHint": "animi",
-        "FullName": "Lucienne Bins",
+        "IconHint": "eos",
+        "ColorBlock": 821,
+        "ExtraInfo": "sequi",
+        "StyleHint": "et",
+        "FullName": "Naomi Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 264
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 425,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "in",
-    "FullName": "Mercedes Green",
+    "IconHint": "sunt",
+    "ColorBlock": 732,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "nam",
+    "FullName": "Prof. Vergie Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 651
       }
     }
   }

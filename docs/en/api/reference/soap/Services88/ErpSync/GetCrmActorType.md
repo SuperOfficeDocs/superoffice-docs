@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetCrmActorType SOAP
 generated: true
 uid: Services88-ErpSync-GetCrmActorType
+content_type: reference
 ---
 
 # Services88 ErpSync GetCrmActorType

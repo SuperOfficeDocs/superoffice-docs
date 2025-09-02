@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent SOAP
 uid: Services88-CRMScript-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 CRMScript SOAP

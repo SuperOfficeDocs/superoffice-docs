@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetParentCombinedSelections SOAP
 generated: true
 uid: Services88-Selection-GetParentCombinedSelections
+content_type: reference
 ---
 
 # Services88 Selection GetParentCombinedSelections

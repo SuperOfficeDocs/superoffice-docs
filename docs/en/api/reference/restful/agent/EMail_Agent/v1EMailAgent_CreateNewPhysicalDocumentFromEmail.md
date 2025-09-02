@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateNewPhysicalDocumentFromEmail
 uid: v1EMailAgent_CreateNewPhysicalDocumentFromEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateNewPhysicalDocumentFromEmail
@@ -109,12 +110,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 337,
-  "EmailItemId": 573
+  "DocumentId": 676,
+  "EmailItemId": 711
 }
 ```
 
@@ -125,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 694,
+  "DocumentId": 841,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolorem",
-  "Header": "porro",
-  "Name": "Hills Inc and Sons",
-  "OurRef": "magni",
-  "YourRef": "quis",
-  "CreatedDate": "2002-07-14T03:45:23.389207+02:00",
-  "UpdatedDate": "2024-04-13T03:45:23.389207+02:00",
-  "Description": "Face to face leading edge portal",
+  "Attention": "debitis",
+  "Header": "praesentium",
+  "Name": "Kemmer-Langosh",
+  "OurRef": "consequatur",
+  "YourRef": "tempora",
+  "CreatedDate": "2009-06-17T03:46:54.7382579+02:00",
+  "UpdatedDate": "2002-09-13T03:46:54.7382579+02:00",
+  "Description": "Secured empowering project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-04-30T03:45:23.389207+02:00",
-  "ExternalRef": "culpa",
+  "Date": "2009-06-14T03:46:54.7382579+02:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 129,
+  "ActiveLinks": 162,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ernser Group",
-      "Id": 396,
-      "Description": "Implemented neutral groupware",
-      "ExtraInfo": "amet",
-      "LinkId": 643,
+      "EntityName": "Sawayn LLC",
+      "Id": 575,
+      "Description": "Seamless zero tolerance protocol",
+      "ExtraInfo": "quaerat",
+      "LinkId": 364,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 553
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 545,
-  "Snum": 932,
+  "SuggestedDocumentId": 722,
+  "Snum": 774,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Viviane Mohr"
+    "SuperOffice:1": "Carter Fred Emmerich DVM",
+    "SuperOffice:2": "Prof. Grant Sebastian Carter"
   },
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "et"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "commodi"
+    "CustomFields1": "nobis",
+    "CustomFields2": "illo"
   },
-  "PublishEventDate": "2010-08-24T03:45:23.389207+02:00",
-  "PublishTo": "2006-07-29T03:45:23.389207+02:00",
-  "PublishFrom": "2008-05-03T03:45:23.389207+02:00",
+  "PublishEventDate": "2005-11-16T03:46:54.7382579+01:00",
+  "PublishTo": "2024-10-24T03:46:54.7382579+02:00",
+  "PublishFrom": "2008-11-07T03:46:54.7382579+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 365,
+      "VisibleId": 544,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 592
         }
       }
     },
     {
-      "VisibleId": 365,
+      "VisibleId": 544,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 592
         }
       }
     }
@@ -216,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 999
     }
   }
 }

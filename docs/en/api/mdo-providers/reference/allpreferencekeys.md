@@ -3,9 +3,9 @@ uid: allpreferencekeys
 title: allpreferencekeys
 keywords: mdoprovider mdo provider allpreferencekeys
 description: MDO Provider that retrieves all preference keys
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "allpreferencekeys" MDO List
@@ -45,12 +45,13 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1000106|Use academic title||[SR_PD_Functions_NAME]|
-|1000522|Enable sounds|bold|[SR_PD_Visual_NAME]|
+|1000524|Enable sounds|bold|[SR_PD_Visual_NAME]|
 |1000161|Address separator|bold|[SR_PD_Mail_NAME]|
 |1000081|Alarm on follow-up||[SR_PD_DiaryView_NAME]|
 |1000068|All-day end time|bold|[SR_PD_DiaryView_NAME]|
 |1000069|All-day start time|bold|[SR_PD_DiaryView_NAME]|
-|1000548|Allow Copilot access to the web.||[SR_PD_Copilot_NAME]|
+|1000550|Allow Copilot access to the web.||[SR_PD_Copilot_NAME]|
+|1000446|Anonymise users on reply||[SR_PD_serviceSettings_NAME]|
 |1000162|Archive sent follow-ups||[SR_PD_Mail_NAME]|
 |1000163|Archive sent documents||[SR_PD_Mail_NAME]|
 |1000164|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
@@ -61,10 +62,9 @@ foreach (var item in listProvider.RootItems) {
 |1000168|Archive e-mail to associates||[SR_PD_Mail_NAME]|
 |1000108|Ask to edit or read||[SR_PD_Functions_NAME]|
 |1000169|Use iCalendar attachment||[SR_PD_Mail_NAME]|
-|1000387|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
-|1000442|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
-|1000550|Automatically generate reply to a message||[SR_PD_Copilot_NAME]|
-|1000109|Limit for auto-loading||[SR_PD_Functions_NAME]|
+|1000388|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
+|1000443|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
+|1000552|Automatically generate reply to a message||[SR_PD_Copilot_NAME]|
 
 
 ## Related MDO Lists

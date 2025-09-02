@@ -2,6 +2,7 @@
 title: POST Agents/AI/TrainCategoryGuesser
 uid: v1AIAgent_TrainCategoryGuesser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/TrainCategoryGuesser
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/TrainCategoryGuesser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 487,
-  "MaxItems": 722,
-  "MaxTextLength": 194
+  "SelectionId": 22,
+  "MaxItems": 568,
+  "MaxTextLength": 21
 }
 ```
 

@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.SaveMailboxEntity SOAP
 generated: true
 uid: Services88-CustomerService-SaveMailboxEntity
+content_type: reference
 ---
 
 # Services88 CustomerService SaveMailboxEntity

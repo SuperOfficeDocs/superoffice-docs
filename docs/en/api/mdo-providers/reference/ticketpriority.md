@@ -3,9 +3,9 @@ uid: ticketpriority
 title: ticketpriority
 keywords: mdoprovider mdo provider ticketpriority
 description: MDO list provider for ticket priorities.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ticketpriority" MDO List

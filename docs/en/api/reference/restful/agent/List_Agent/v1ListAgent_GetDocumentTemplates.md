@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplates
 uid: v1ListAgent_GetDocumentTemplates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplates
@@ -86,23 +87,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 224,
-    "Name": "Walsh, Prohaska and Hammes",
-    "Tooltip": "dolorem",
-    "SaveInDb": 392,
-    "Filename": "cum",
-    "DefaultOref": "possimus",
+    "DocumentTemplateId": 866,
+    "Name": "Ruecker LLC",
+    "Tooltip": "iusto",
+    "SaveInDb": 58,
+    "Filename": "necessitatibus",
+    "DefaultOref": "quas",
     "RecordType": "Appointment",
-    "Deleted": 90,
+    "Deleted": 994,
     "Direction": "Incoming",
-    "AutoeventId": 984,
+    "AutoeventId": 391,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 407
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET Contact/UdefLayout
 uid: v1ContactEntity_GetUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Contact/UdefLayout
@@ -101,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 913,
-    "ColumnId": 756,
-    "FieldDefault": "aut",
-    "FieldHeight": 257,
-    "FieldLabel": "ipsam",
-    "FieldLeft": 465,
-    "FieldTop": 257,
+    "UDefFieldId": 739,
+    "ColumnId": 177,
+    "FieldDefault": "amet",
+    "FieldHeight": 985,
+    "FieldLabel": "rerum",
+    "FieldLeft": 931,
+    "FieldTop": 216,
     "FieldType": "Checkbox",
-    "FieldWidth": 751,
-    "FormatMask": "rem",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 888,
-    "LabelLeft": 809,
-    "LabelTop": 936,
-    "LabelWidth": 530,
-    "LastVersionId": 753,
-    "ListTableId": 21,
+    "FieldWidth": 941,
+    "FormatMask": "qui",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 106,
+    "LabelLeft": 159,
+    "LabelTop": 845,
+    "LabelWidth": 110,
+    "LastVersionId": 340,
+    "ListTableId": 462,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 850,
-    "ProgId": "iusto",
-    "IsReadOnly": false,
-    "ShortLabel": "dolores",
-    "TabOrder": 438,
-    "TextLength": 66,
-    "Tooltip": "nihil",
-    "UdefIdentity": 392,
-    "UDListDefinitionId": 173,
+    "Page1LineNo": 948,
+    "ProgId": "sapiente",
+    "IsReadOnly": true,
+    "ShortLabel": "nobis",
+    "TabOrder": 983,
+    "TextLength": 268,
+    "Tooltip": "impedit",
+    "UdefIdentity": 187,
+    "UDListDefinitionId": 549,
     "Justification": "Center",
-    "Version": 662,
-    "TemplateVariableName": "Schneider, Kuhn and Turcotte",
+    "Version": 344,
+    "TemplateVariableName": "O'Hara-Jast",
     "HasBeenPublished": false,
-    "MdoListName": "Gislason Group",
+    "MdoListName": "Anderson-Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   }

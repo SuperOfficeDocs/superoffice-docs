@@ -2,6 +2,7 @@
 title: PUT List/MrMrs/Items/{id}/UserGroups
 uid: v1MrMrsList_PutMrMrsUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Breitenberg LLC",
-    "ToolTip": "Dolorum aut voluptates eum officiis nemo.",
-    "Deleted": true,
-    "Rank": 346,
-    "Type": "sed",
-    "ColorBlock": 632,
-    "IconHint": "quia",
+    "Id": 811,
+    "Name": "Goodwin, Marquardt and Schmidt",
+    "ToolTip": "Aut ut veritatis deserunt non ratione animi in.",
+    "Deleted": false,
+    "Rank": 341,
+    "Type": "necessitatibus",
+    "ColorBlock": 807,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-07-25T03:45:29.060917+02:00",
+    "LastChanged": "2009-08-06T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Casper, Lowe and Raynor",
-        "ToolTip": "Mollitia et est sit.",
+        "Id": 218,
+        "Name": "Hane, Schultz and Lowe",
+        "ToolTip": "Autem explicabo illo hic officia voluptatem et.",
         "Deleted": true,
-        "Rank": 609,
-        "Type": "quibusdam",
-        "ColorBlock": 986,
-        "IconHint": "voluptatem",
+        "Rank": 264,
+        "Type": "et",
+        "ColorBlock": 467,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2003-11-04T03:45:29.060917+01:00",
+        "LastChanged": "2006-12-26T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Javier King"
+        "ExtraInfo": "voluptates",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Adah Emmerich"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "illo",
+    "ExtraInfo": "saepe",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Mr. Sherman Charity Bergnaum"
+    "FullName": "Ms. Tod Rohan"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Stehr-Waelchi",
-    "ToolTip": "Nihil repellendus quo et et.",
-    "Deleted": false,
-    "Rank": 32,
-    "Type": "quia",
-    "ColorBlock": 189,
-    "IconHint": "architecto",
+    "Id": 340,
+    "Name": "Goldner LLC",
+    "ToolTip": "Laboriosam ipsam illo dolore rerum velit.",
+    "Deleted": true,
+    "Rank": 978,
+    "Type": "quisquam",
+    "ColorBlock": 759,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "1998-03-06T03:45:29.060917+01:00",
+    "LastChanged": "2020-02-15T03:47:00.6755475+01:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Lind-Gorczany",
-        "ToolTip": "Nisi eum id.",
-        "Deleted": false,
-        "Rank": 776,
-        "Type": "sed",
-        "ColorBlock": 811,
-        "IconHint": "sed",
+        "Id": 901,
+        "Name": "Ledner, Erdman and Bernier",
+        "ToolTip": "Cumque veritatis ipsa expedita non accusantium est repellendus.",
+        "Deleted": true,
+        "Rank": 465,
+        "Type": "nostrum",
+        "ColorBlock": 586,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2020-03-28T03:45:29.060917+01:00",
+        "LastChanged": "2025-02-09T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "eos",
+        "ExtraInfo": "nam",
+        "StyleHint": "possimus",
         "Hidden": true,
-        "FullName": "Willard Carissa Sipes IV",
+        "FullName": "Marilou Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Lester Okuneva",
+    "ExtraInfo": "quas",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Prof. Valerie Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 933
       }
     }
   }

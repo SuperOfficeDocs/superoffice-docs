@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.ExecuteBySelectionId SOAP
 generated: true
 uid: Services88-BulkUpdate-ExecuteBySelectionId
+content_type: reference
 ---
 
 # Services88 BulkUpdate ExecuteBySelectionId

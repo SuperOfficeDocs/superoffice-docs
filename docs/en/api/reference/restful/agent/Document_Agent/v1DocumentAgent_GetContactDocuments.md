@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetContactDocuments
 uid: v1DocumentAgent_GetContactDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetContactDocuments
@@ -97,14 +98,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 36,
-  "StartTime": "2017-09-26T03:45:23.2798335+02:00",
-  "EndTime": "2023-03-07T03:45:23.2798335+01:00",
-  "Count": 459
+  "ContactId": 907,
+  "StartTime": "2023-08-25T03:46:54.6132622+02:00",
+  "EndTime": "2021-12-31T03:46:54.6132622+01:00",
+  "Count": 177
 }
 ```
 
@@ -116,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 353,
-    "Attention": "eum",
-    "Header": "quam",
-    "Name": "Gorczany Group",
-    "OurRef": "assumenda",
-    "YourRef": "id",
-    "Description": "Extended multi-tasking firmware",
-    "DocumentTemplate": "minus",
+    "DocumentId": 18,
+    "Attention": "animi",
+    "Header": "voluptatem",
+    "Name": "Powlowski-Feeney",
+    "OurRef": "temporibus",
+    "YourRef": "cumque",
+    "Description": "Business-focused user-facing extranet",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 783,
-    "PersonFullName": "Gilda Helene Rath DVM",
-    "AssociateFullName": "Brooke Medhurst",
-    "ContactId": 690,
-    "ContactName": "Leffler Inc and Sons",
-    "ProjectId": 777,
-    "ProjectName": "Mann-Predovic",
-    "AssociateId": 277,
-    "Snum": 912,
-    "SaleId": 172,
-    "SaleName": "Boyer-Graham",
+    "PersonId": 101,
+    "PersonFullName": "Devonte Davis",
+    "AssociateFullName": "Hyman Ariane Beer V",
+    "ContactId": 719,
+    "ContactName": "Harvey, Glover and Hermann",
+    "ProjectId": 511,
+    "ProjectName": "Daniel-Boyer",
+    "AssociateId": 252,
+    "Snum": 415,
+    "SaleId": 970,
+    "SaleName": "Dare Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 924
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET List/{udListDefinitionName}/Items/{id}
 uid: v1ListItemEntity_GetFromListName
 generated: true
+content_type: reference
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Rippin LLC",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 820,
-  "Rank": 294,
+  "Id": 587,
+  "Name": "Pacocha-Wilderman",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 808,
+  "Rank": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

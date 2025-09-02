@@ -2,6 +2,7 @@
 title: POST Agents/User/GetAllUserGroups
 uid: v1UserAgent_GetAllUserGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetAllUserGroups
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "iste",
-    "Tooltip": "praesentium",
-    "Id": 627,
-    "Rank": 527,
+    "Value": "quo",
+    "Tooltip": "iusto",
+    "Id": 342,
+    "Rank": 117,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

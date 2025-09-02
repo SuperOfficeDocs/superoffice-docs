@@ -2,6 +2,7 @@
 title: GET List/ProductFamily
 uid: v1ProductFamilyList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Rice LLC",
-  "Tooltip": "quaerat",
+  "Id": 322,
+  "Name": "Kessler, Bartoletti and Kshlerin",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 43,
+  "Rank": 899,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 959
     }
   },
   "_Links": {

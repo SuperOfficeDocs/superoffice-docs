@@ -2,6 +2,7 @@
 title: PATCH Dash/{id}
 uid: v1Dash_PatchDash
 generated: true
+content_type: reference
 ---
 
 # PATCH Dash/{id}
@@ -120,18 +121,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "eaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "eaque",
     "value": {}
   }
 ]
@@ -144,37 +145,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 309,
-  "UniqueId": "quis",
-  "Name": "Runolfsdottir Inc and Sons",
-  "Description": "Reactive composite challenge",
-  "AssociateId": 750,
-  "Columns": 767,
+  "DashboardId": 548,
+  "UniqueId": "sit",
+  "Name": "Brekke Inc and Sons",
+  "Description": "Distributed cohesive circuit",
+  "AssociateId": 475,
+  "Columns": 362,
   "Theme": null,
-  "VisibleForAll": 252,
+  "VisibleForAll": 623,
   "VisibleForAssociates": [
-    417,
-    458
+    356,
+    846
   ],
   "VisibleForGroups": [
-    748,
-    618
+    970,
+    89
   ],
-  "PinForAll": 787,
+  "PinForAll": 371,
   "PinForAssociates": [
-    996,
-    9
+    440,
+    819
   ],
   "PinForGroups": [
-    175,
-    742
+    181,
+    58
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 976
     }
   },
   "_Links": {

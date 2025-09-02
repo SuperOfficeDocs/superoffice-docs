@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
@@ -109,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "dicta",
+  "FieldLabel": "veniam",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 866,
-  "ColumnId": 650,
-  "FieldDefault": "rerum",
-  "FieldHeight": 78,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 36,
-  "FieldTop": 636,
+  "UDefFieldId": 152,
+  "ColumnId": 381,
+  "FieldDefault": "sapiente",
+  "FieldHeight": 579,
+  "FieldLabel": "nisi",
+  "FieldLeft": 483,
+  "FieldTop": 59,
   "FieldType": "Checkbox",
-  "FieldWidth": 353,
-  "FormatMask": "corrupti",
-  "HideLabel": true,
+  "FieldWidth": 78,
+  "FormatMask": "est",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 788,
-  "LabelLeft": 325,
-  "LabelTop": 433,
-  "LabelWidth": 707,
-  "LastVersionId": 769,
-  "ListTableId": 716,
+  "LabelHeight": 354,
+  "LabelLeft": 503,
+  "LabelTop": 68,
+  "LabelWidth": 758,
+  "LastVersionId": 581,
+  "ListTableId": 842,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 764,
-  "ProgId": "quia",
+  "Page1LineNo": 26,
+  "ProgId": "dolor",
   "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 669,
-  "TextLength": 770,
-  "Tooltip": "ad",
-  "UdefIdentity": 118,
-  "UDListDefinitionId": 143,
+  "ShortLabel": "temporibus",
+  "TabOrder": 342,
+  "TextLength": 91,
+  "Tooltip": "ullam",
+  "UdefIdentity": 855,
+  "UDListDefinitionId": 817,
   "Justification": "Center",
-  "Version": 628,
-  "TemplateVariableName": "D'Amore, Hamill and Schoen",
-  "HasBeenPublished": false,
-  "MdoListName": "Daniel Inc and Sons",
+  "Version": 372,
+  "TemplateVariableName": "Gottlieb-Veum",
+  "HasBeenPublished": true,
+  "MdoListName": "Stark Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 952
     }
   }
 }

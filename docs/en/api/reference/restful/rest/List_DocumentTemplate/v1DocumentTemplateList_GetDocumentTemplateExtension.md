@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Extension
 uid: v1DocumentTemplateList_GetDocumentTemplateExtension
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Extension
@@ -63,5 +64,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"exercitationem"
+"sequi"
 ```

@@ -2,6 +2,7 @@
 title: PUT List/Reason/Headings
 uid: v1ReasonList_PutReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 210,
-    "Name": "Quigley, Thompson and Mayer",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 294,
-    "UdListDefinitionId": 469
+    "HeadingId": 242,
+    "Name": "Treutel LLC",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "Rank": 199,
+    "UdListDefinitionId": 77
   },
   {
-    "HeadingId": 210,
-    "Name": "Quigley, Thompson and Mayer",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 294,
-    "UdListDefinitionId": 469
+    "HeadingId": 242,
+    "Name": "Treutel LLC",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "Rank": 199,
+    "UdListDefinitionId": 77
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 412,
-    "Name": "Williamson-Schmidt",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 377,
+    "HeadingId": 637,
+    "Name": "Roberts, Littel and Streich",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 672,
+    "UdListDefinitionId": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 615
       }
     }
   }

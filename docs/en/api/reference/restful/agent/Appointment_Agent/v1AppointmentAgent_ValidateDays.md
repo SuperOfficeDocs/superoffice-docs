@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/ValidateDays
 uid: v1AppointmentAgent_ValidateDays
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/ValidateDays
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "autem",
-    "numquam"
+    "inventore",
+    "soluta"
   ]
 }
 ```
@@ -96,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2014-06-15T03:45:22.842344+02:00",
+    "Date": "2012-12-31T03:46:54.1445302+01:00",
     "IsConflict": false,
-    "Description": "Optimized even-keeled methodology",
-    "DescriptionStyleHint": "Future-proofed static service-desk",
-    "Tooltip": "nobis"
+    "Description": "Customizable solution-oriented groupware",
+    "DescriptionStyleHint": "Synergized optimal matrix",
+    "Tooltip": "quasi"
   },
   {
-    "Date": "2014-06-15T03:45:22.842344+02:00",
+    "Date": "2012-12-31T03:46:54.1445302+01:00",
     "IsConflict": false,
-    "Description": "Optimized even-keeled methodology",
-    "DescriptionStyleHint": "Future-proofed static service-desk",
-    "Tooltip": "nobis"
+    "Description": "Customizable solution-oriented groupware",
+    "DescriptionStyleHint": "Synergized optimal matrix",
+    "Tooltip": "quasi"
   }
 ]
 ```

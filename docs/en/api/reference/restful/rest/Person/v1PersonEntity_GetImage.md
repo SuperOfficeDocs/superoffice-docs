@@ -2,6 +2,7 @@
 title: GET Person/{id}/Image
 uid: v1PersonEntity_GetImage
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Image
@@ -35,9 +36,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Person/{personId}/Image?w=607
-GET /api/v1/Person/{personId}/Image?h=208
-GET /api/v1/Person/{personId}/Image?type=minima
+GET /api/v1/Person/{personId}/Image?w=250
+GET /api/v1/Person/{personId}/Image?h=133
+GET /api/v1/Person/{personId}/Image?type=tempora
 GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 ```
 

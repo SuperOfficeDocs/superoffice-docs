@@ -2,6 +2,7 @@
 title: POST Agents/Person/AddBounceWithDetails
 uid: v1PersonAgent_AddBounceWithDetails
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/AddBounceWithDetails
@@ -71,9 +72,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "sim@rosenbaumsatterfield.ca",
-  "Counts": 803,
-  "Code": 925,
+  "EmailAddress": "elissa.blanda@raynor.uk",
+  "Counts": 54,
+  "Code": 899,
   "Reason": ""
 }
 ```

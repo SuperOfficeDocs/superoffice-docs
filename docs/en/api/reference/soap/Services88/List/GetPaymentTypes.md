@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetPaymentTypes SOAP
 generated: true
 uid: Services88-List-GetPaymentTypes
+content_type: reference
 ---
 
 # Services88 List GetPaymentTypes

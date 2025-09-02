@@ -2,6 +2,7 @@
 title: POST Agents/Contact/EnrichContactEntity
 uid: v1ContactAgent_EnrichContactEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/EnrichContactEntity
@@ -107,6 +108,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
+| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -119,12 +121,12 @@ OK
 POST /api/v1/Agents/Contact/EnrichContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactEntity": null,
-  "EnrichId": "saepe"
+  "EnrichId": "non"
 }
 ```
 
@@ -135,157 +137,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 470,
-  "Name": "Muller, Volkman and McGlynn",
+  "ContactId": 999,
+  "Name": "Brown-Conroy",
   "Department": "",
-  "OrgNr": "1440449",
-  "Number1": "1253564",
-  "Number2": "517806",
-  "UpdatedDate": "2005-09-24T03:45:23.2329582+02:00",
-  "CreatedDate": "2019-04-29T03:45:23.2329582+02:00",
+  "OrgNr": "251925",
+  "Number1": "1375510",
+  "Number2": "788382",
+  "UpdatedDate": "2003-11-08T03:46:54.5507645+01:00",
+  "CreatedDate": "2014-02-25T03:46:54.5507645+01:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "at",
-      "Description": "Upgradable optimizing matrices",
+      "Value": "debitis",
+      "StrippedValue": "exercitationem",
+      "Description": "Cross-platform mobile frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 255
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "at",
-      "Description": "Upgradable optimizing matrices",
+      "Value": "debitis",
+      "StrippedValue": "exercitationem",
+      "Description": "Cross-platform mobile frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 255
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 1001,
-      "Name": "Rodriguez LLC",
-      "ToolTip": "Alias tenetur ut quis.",
+      "Id": 74,
+      "Name": "Boyle-Robel",
+      "ToolTip": "Aliquam maxime rerum ullam dolores modi impedit quas.",
       "Deleted": false,
-      "Rank": 955,
-      "Type": "saepe",
-      "ColorBlock": 734,
-      "IconHint": "omnis",
+      "Rank": 178,
+      "Type": "cum",
+      "ColorBlock": 710,
+      "IconHint": "officia",
       "Selected": false,
-      "LastChanged": "2023-01-03T03:45:23.2329582+01:00",
+      "LastChanged": "2025-06-06T03:46:54.5507645+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "ullam",
+      "ExtraInfo": "quaerat",
+      "StyleHint": "laboriosam",
       "Hidden": false,
-      "FullName": "Tavares Gislason",
+      "FullName": "Mireya Sawayn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "recusandae",
-      "Description": "Profound bandwidth-monitored utilisation",
+      "Value": "neque",
+      "StrippedValue": "ipsam",
+      "Description": "Grass-roots system-worthy archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 518
         }
       }
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "recusandae",
-      "Description": "Profound bandwidth-monitored utilisation",
+      "Value": "neque",
+      "StrippedValue": "ipsam",
+      "Description": "Grass-roots system-worthy archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 518
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "sequi",
-      "StrippedValue": "omnis",
-      "Description": "Automated assymetric capability",
+      "Value": "eius",
+      "StrippedValue": "est",
+      "Description": "Proactive human-resource superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldLength": 106
         }
       }
     },
     {
-      "Value": "sequi",
-      "StrippedValue": "omnis",
-      "Description": "Automated assymetric capability",
+      "Value": "eius",
+      "StrippedValue": "est",
+      "Description": "Proactive human-resource superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldLength": 106
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "omnis",
-      "StrippedValue": "modi",
-      "Description": "Configurable 5th generation firmware",
+      "Value": "adipisci",
+      "StrippedValue": "voluptatem",
+      "Description": "Pre-emptive actuating capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 77
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "modi",
-      "Description": "Configurable 5th generation firmware",
+      "Value": "adipisci",
+      "StrippedValue": "voluptatem",
+      "Description": "Pre-emptive actuating capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 77
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Description": "Quality-focused value-added artificial intelligence",
+  "Description": "Implemented asynchronous service-desk",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -294,101 +296,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "dolor",
-      "PersonId": 727,
-      "Mrmrs": "tempora",
-      "Firstname": "Antoinette",
-      "Lastname": "Harris",
-      "MiddleName": "O'Reilly, Price and Vandervort",
-      "Title": "quam",
-      "Description": "Streamlined reciprocal database",
-      "Email": "jorge.gaylord@padberg.com",
-      "FullName": "Marco Mayert",
-      "DirectPhone": "(541)436-4910",
-      "FormalName": "Cummings, Schoen and Roob",
-      "CountryId": 497,
-      "ContactId": 475,
-      "ContactName": "Hane-Schmeler",
-      "Retired": 357,
-      "Rank": 584,
-      "ActiveInterests": 378,
+      "Position": "neque",
+      "PersonId": 3,
+      "Mrmrs": "consequatur",
+      "Firstname": "Keaton",
+      "Lastname": "Keeling",
+      "MiddleName": "Feest, Collier and Botsford",
+      "Title": "repellendus",
+      "Description": "Open-architected methodical task-force",
+      "Email": "alivia@runolfsson.name",
+      "FullName": "Mr. Frederik Ondricka",
+      "DirectPhone": "(172)522-4988 x432",
+      "FormalName": "Stracke Group",
+      "CountryId": 492,
+      "ContactId": 833,
+      "ContactName": "Bruen-Raynor",
+      "Retired": 506,
+      "Rank": 139,
+      "ActiveInterests": 296,
       "ContactDepartment": "",
-      "ContactCountryId": 442,
-      "ContactOrgNr": "859517",
-      "FaxPhone": "(443)870-7544",
-      "MobilePhone": "922-959-0261 x67173",
-      "ContactPhone": "1-271-160-6785",
-      "AssociateName": "Roob Inc and Sons",
-      "AssociateId": 416,
-      "UsePersonAddress": false,
-      "ContactFax": "esse",
-      "Kanafname": "est",
-      "Kanalname": "rerum",
-      "Post1": "iste",
-      "Post2": "fuga",
-      "Post3": "expedita",
-      "EmailName": "jake_sipes@terryhaag.info",
-      "ContactFullName": "Gust Gerhold Jr.",
-      "ActiveErpLinks": 516,
-      "TicketPriorityId": 495,
-      "SupportLanguageId": 153,
-      "SupportAssociateId": 881,
+      "ContactCountryId": 245,
+      "ContactOrgNr": "650352",
+      "FaxPhone": "1-725-402-4610",
+      "MobilePhone": "(455)601-5166",
+      "ContactPhone": "(515)633-2508 x60375",
+      "AssociateName": "Kutch LLC",
+      "AssociateId": 600,
+      "UsePersonAddress": true,
+      "ContactFax": "sed",
+      "Kanafname": "iste",
+      "Kanalname": "vitae",
+      "Post1": "qui",
+      "Post2": "corporis",
+      "Post3": "consequuntur",
+      "EmailName": "andreane@kreiger.name",
+      "ContactFullName": "Miss Paige Mariela Johns V",
+      "ActiveErpLinks": 160,
+      "TicketPriorityId": 14,
+      "SupportLanguageId": 88,
+      "SupportAssociateId": 536,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "846199",
+      "PersonNumber": "1093870",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 578
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "officiis",
+  "Kananame": "quia",
   "Xstop": false,
-  "ActiveInterests": 93,
-  "GroupId": 951,
-  "ActiveStatusMonitorId": 107,
+  "ActiveInterests": 558,
+  "GroupId": 493,
+  "ActiveStatusMonitorId": 573,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 453,
-  "DbiAgentId": 987,
-  "DbiLastSyncronized": "2023-05-20T03:45:23.2329582+02:00",
-  "DbiKey": "nobis",
-  "DbiLastModified": "2016-07-20T03:45:23.2329582+02:00",
+  "Deleted": 620,
+  "DbiAgentId": 972,
+  "DbiLastSyncronized": "2007-07-13T03:46:54.5663888+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2004-06-30T03:46:54.5663888+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 40,
-  "ActiveErpLinks": 367,
+  "Source": 352,
+  "ActiveErpLinks": 893,
   "BounceEmails": [
-    "fritz@brown.com",
-    "tyrel_wisoky@bashirianfisher.ca"
+    "vinnie_leuschke@larkin.co.uk",
+    "garnett@wisozkmetz.uk"
   ],
   "Domains": [
-    "voluptas",
-    "sint"
+    "libero",
+    "quisquam"
   ],
+  "InitialUtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Freeda Granville Erdman MD",
-    "SuperOffice:2": "443976245"
+    "SuperOffice:1": "Mrs. Joy Connelly V",
+    "SuperOffice:2": "Miss Roselyn Leola Torphy"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "ab"
+    "CustomFields1": "eaque",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 619
     }
   }
 }

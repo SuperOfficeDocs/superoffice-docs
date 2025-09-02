@@ -2,6 +2,7 @@
 title: DEL Contact/UdefLayout/{progidOrLabel}
 uid: v1ContactEntity_DeleteUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # DEL Contact/UdefLayout/{progidOrLabel}

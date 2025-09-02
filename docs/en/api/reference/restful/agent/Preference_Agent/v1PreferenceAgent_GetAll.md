@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetAll
 uid: v1PreferenceAgent_GetAll
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetAll
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 729,
-    "Section": "sequi",
-    "Key": "esse",
-    "Name": "Howell LLC",
+    "PrefDescId": 890,
+    "Section": "ab",
+    "Key": "aut",
+    "Name": "Quitzon-Schimmel",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Business-focused logistical support",
+    "Description": "Focused content-based collaboration",
     "IsBuiltin": false,
-    "TableName": "Pollich, Schuppe and Douglas",
-    "UserDefinedListId": 573,
-    "Rank": 411,
-    "SubGroup": "iste",
-    "MinLevel": 715,
-    "MaxValue": 470,
-    "MinValue": 539,
-    "RequiredLicense": "voluptas",
+    "TableName": "Turcotte LLC",
+    "UserDefinedListId": 955,
+    "Rank": 441,
+    "SubGroup": "expedita",
+    "MinLevel": 661,
+    "MaxValue": 391,
+    "MinValue": 336,
+    "RequiredLicense": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 285
       }
     }
   }

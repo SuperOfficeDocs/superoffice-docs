@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/RemoveExpiredSystemMessages
 uid: v1DiagnosticsAgent_RemoveExpiredSystemMessages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/RemoveExpiredSystemMessages
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveExpiredSystemMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

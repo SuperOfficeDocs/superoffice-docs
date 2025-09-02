@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateAndSaveQuote
 uid: v1QuoteAgent_CreateAndSaveQuote
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateAndSaveQuote
@@ -87,13 +88,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 68,
-  "ConnectionId": 783,
-  "FirstAlternativeName": "Bosco-Cruickshank"
+  "SaleId": 501,
+  "ConnectionId": 829,
+  "FirstAlternativeName": "Cartwright-Batz"
 }
 ```
 
@@ -104,58 +105,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 69,
-  "SaleId": 144,
-  "QuoteConnectionId": 394,
-  "ERPQuoteKey": "velit",
-  "ERPOrderKey": "expedita",
-  "ActiveQuoteVersionId": 693,
-  "AcceptedQuoteAlternativeId": 780,
-  "UseValuesFromQuote": 406,
-  "DocumentId": 675,
-  "PoNumber": "920328",
-  "OrderComment": "quasi",
-  "PreferredEmailCulture": "christiana@mullerlarkin.biz",
+  "QuoteId": 782,
+  "SaleId": 764,
+  "QuoteConnectionId": 544,
+  "ERPQuoteKey": "recusandae",
+  "ERPOrderKey": "rem",
+  "ActiveQuoteVersionId": 784,
+  "AcceptedQuoteAlternativeId": 716,
+  "UseValuesFromQuote": 356,
+  "DocumentId": 624,
+  "PoNumber": "1426661",
+  "OrderComment": "corporis",
+  "PreferredEmailCulture": "lincoln@heidenreich.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 752,
-      "ERPQuoteVersionKey": "reprehenderit",
-      "QuoteId": 283,
-      "Description": "Managed fresh-thinking orchestration",
-      "Number": "1253524",
+      "QuoteVersionId": 137,
+      "ERPQuoteVersionKey": "aut",
+      "QuoteId": 308,
+      "Description": "Realigned exuding orchestration",
+      "Number": "1297568",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 714,
-      "SentDate": "2011-02-20T03:45:23.8266945+01:00",
-      "FollowupId": 291,
-      "ExpirationDate": "2004-11-04T03:45:23.8266945+01:00",
-      "DeliveryCountryId": 384,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 926,
+      "LikelyQuoteAlternativeId": 777,
+      "SentDate": "2004-05-23T03:46:55.2226157+02:00",
+      "FollowupId": 931,
+      "ExpirationDate": "2024-03-24T03:46:55.2226157+01:00",
+      "DeliveryCountryId": 526,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 134,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "neque",
-      "ERPPaymentTypeKey": "quibusdam",
-      "ERPDeliveryTermsKey": "est",
-      "ERPDeliveryTypeKey": "enim",
-      "Rank": 689,
-      "ApprovedBy": 464,
-      "ApprovedText": "sed",
-      "ApprovedRegisteredBy": 404,
-      "ApprovedRegisteredDate": "2018-10-15T03:45:23.8266945+02:00",
-      "ExtraField1": "earum",
-      "ExtraField2": "eveniet",
-      "ExtraField3": "beatae",
-      "ExtraField4": "esse",
-      "ExtraField5": "fugit",
-      "LastRecalculated": "2023-02-11T03:45:23.8266945+01:00",
-      "Updated": "2019-07-27T03:45:23.8266945+02:00",
-      "UpdatedAssociateId": 251,
-      "Registered": "2004-03-20T03:45:23.8266945+01:00",
-      "RegisteredAssociateId": 534,
-      "RequestAssociateId": 54,
-      "RequestComment": "est",
+      "ERPPaymentTermsKey": "cumque",
+      "ERPPaymentTypeKey": "fugiat",
+      "ERPDeliveryTermsKey": "excepturi",
+      "ERPDeliveryTypeKey": "ut",
+      "Rank": 852,
+      "ApprovedBy": 580,
+      "ApprovedText": "perspiciatis",
+      "ApprovedRegisteredBy": 129,
+      "ApprovedRegisteredDate": "2015-03-24T03:46:55.2226157+01:00",
+      "ExtraField1": "saepe",
+      "ExtraField2": "velit",
+      "ExtraField3": "autem",
+      "ExtraField4": "asperiores",
+      "ExtraField5": "esse",
+      "LastRecalculated": "2007-11-03T03:46:55.2226157+01:00",
+      "Updated": "1999-02-18T03:46:55.2226157+01:00",
+      "UpdatedAssociateId": 145,
+      "Registered": "2011-06-01T03:46:55.2226157+02:00",
+      "RegisteredAssociateId": 206,
+      "RequestAssociateId": 853,
+      "RequestComment": "exercitationem",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 680
         }
       }
     }
@@ -174,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId SOAP
 generated: true
 uid: Services88-EMail-GetUnsanitizedPreviewAttachmentFromDocId
+content_type: reference
 ---
 
 # Services88 EMail GetUnsanitizedPreviewAttachmentFromDocId

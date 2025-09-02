@@ -2,6 +2,7 @@
 title: PUT List/MrMrs
 uid: v1MrMrsList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Ryan Group",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "Rank": 266,
+  "Id": 151,
+  "Name": "Beahan Group",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 826,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true
+  "ListType": "praesentium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 552,
-  "Name": "Mertz LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 25,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 966,
+  "Name": "Bartoletti, Wiza and Botsford",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 110,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 76
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT Product/{id}
 uid: v1Product_PutProduct
 generated: true
+content_type: reference
 ---
 
 # PUT Product/{id}
@@ -144,55 +145,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 456,
-  "ERPProductKey": "esse",
-  "ERPPriceListKey": "hic",
-  "Name": "West-Harber",
-  "Description": "Seamless needs-based customer loyalty",
-  "Code": "voluptates",
-  "PriceUnit": "sit",
-  "QuantityUnit": "vel",
-  "IsSubscription": true,
+  "ProductId": 630,
+  "ERPProductKey": "itaque",
+  "ERPPriceListKey": "consequatur",
+  "Name": "Beer, Rau and Abernathy",
+  "Description": "Stand-alone static synergy",
+  "Code": "sequi",
+  "PriceUnit": "ullam",
+  "QuantityUnit": "nihil",
+  "IsSubscription": false,
   "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 12094.106,
-  "ItemNumber": "1202276",
+  "DefaultSubscriptionQuantity": 26319.332,
+  "ItemNumber": "1059772",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "consequatur",
-  "VAT": 6324.4119999999994,
-  "VATInfo": "rerum",
-  "UnitCost": 8126.4619999999995,
-  "UnitMinimumPrice": 18164.664,
-  "UnitListPrice": 20856.77,
-  "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "dolor",
-  "Rights": "et",
-  "Rule": "ab",
+  "ProductFamilyKey": "repellendus",
+  "ProductTypeKey": "unde",
+  "VAT": 21724.888,
+  "VATInfo": "eum",
+  "UnitCost": 27604.272,
+  "UnitMinimumPrice": 21.938,
+  "UnitListPrice": 10288.922,
+  "InAssortment": true,
+  "Supplier": "ducimus",
+  "SupplierCode": "ut",
+  "Rights": "qui",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Schiller, Beer and Emmerich",
-      "Value": "placeat",
+      "Name": "Weissnat-Baumbach",
+      "Value": "aspernatur",
       "Type": "Image"
     },
     {
-      "Name": "Schiller, Beer and Emmerich",
-      "Value": "placeat",
+      "Name": "Weissnat-Baumbach",
+      "Value": "aspernatur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "adipisci",
-  "ExtraField1": "nihil",
-  "ExtraField2": "modi",
-  "ExtraField3": "libero",
-  "ExtraField4": "ut",
-  "ExtraField5": "iusto",
-  "InStock": 11113.163999999999
+  "RawExtraInfo": "minus",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "doloribus",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "laboriosam",
+  "InStock": 20606.05
 }
 ```
 
@@ -203,73 +204,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 456,
-  "ERPProductKey": "eos",
-  "ERPPriceListKey": "praesentium",
-  "Name": "Goodwin LLC",
-  "Description": "Fundamental motivating definition",
-  "Code": "sunt",
-  "PriceUnit": "pariatur",
-  "QuantityUnit": "voluptatem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "illum",
-  "DefaultSubscriptionQuantity": 21016.604,
-  "ItemNumber": "825818",
+  "ProductId": 772,
+  "ERPProductKey": "voluptatum",
+  "ERPPriceListKey": "distinctio",
+  "Name": "Kling Inc and Sons",
+  "Description": "Exclusive incremental neural-net",
+  "Code": "aliquid",
+  "PriceUnit": "optio",
+  "QuantityUnit": "quidem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "assumenda",
+  "DefaultSubscriptionQuantity": 28782.656,
+  "ItemNumber": "1395242",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "ad",
-  "VAT": 2704.642,
-  "VATInfo": "adipisci",
-  "UnitCost": 29879.556,
-  "UnitMinimumPrice": 19810.014,
-  "UnitListPrice": 3102.66,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "nihil",
+  "VAT": 13736.322,
+  "VATInfo": "velit",
+  "UnitCost": 25582.842,
+  "UnitMinimumPrice": 20490.092,
+  "UnitListPrice": 3159.072,
   "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "tempore",
-  "Rights": "eius",
-  "Rule": "odit",
+  "Supplier": "quas",
+  "SupplierCode": "corporis",
+  "Rights": "corporis",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Lehner, Dare and Rolfson",
-      "Value": "iure",
+      "Name": "Wintheiser-Leffler",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     },
     {
-      "Name": "Lehner, Dare and Rolfson",
-      "Value": "iure",
+      "Name": "Wintheiser-Leffler",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "in",
-  "ExtraField2": "suscipit",
-  "ExtraField3": "nulla",
-  "ExtraField4": "fugit",
-  "ExtraField5": "voluptas",
-  "InStock": 15717.01,
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "laudantium",
+  "ExtraField2": "assumenda",
+  "ExtraField3": "enim",
+  "ExtraField4": "molestias",
+  "ExtraField5": "adipisci",
+  "InStock": 14435.204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 808
     }
   }
 }

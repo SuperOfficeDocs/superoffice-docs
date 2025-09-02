@@ -2,6 +2,7 @@
 title: GET Person/{id}/Documents
 uid: v1PersonEntity_Documents
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Documents
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Person/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Documents?$orderBy=name asc
-GET /api/v1/Person/{id}/Documents?$entities=omnis
-GET /api/v1/Person/{id}/Documents?$top=243
-GET /api/v1/Person/{id}/Documents?$skip=745
+GET /api/v1/Person/{id}/Documents?$entities=eos
+GET /api/v1/Person/{id}/Documents?$top=297
+GET /api/v1/Person/{id}/Documents?$skip=817
 GET /api/v1/Person/{id}/Documents?$mode=Full
 GET /api/v1/Person/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Documents?$context=et
+GET /api/v1/Person/{id}/Documents?$context=ut
 GET /api/v1/Person/{id}/Documents?$format=JSON
-GET /api/v1/Person/{id}/Documents?$jsonSafe=True
+GET /api/v1/Person/{id}/Documents?$jsonSafe=False
 GET /api/v1/Person/{id}/Documents?$output=Display
 ```
 
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Person/{id}/Documents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nobis",
+  "odata.nextLink": "incidunt",
   "value": [
     {
-      "PrimaryKey": 2161,
-      "EntityName": "person",
-      "personId": 2161,
-      "fullName": "Juliana Maria Kuphal V"
+      "PrimaryKey": 7348,
+      "EntityName": "sale",
+      "saleId": 7348,
+      "contactId": 6712,
+      "name": "Schulist, Witting and Huel"
     },
     {
-      "PrimaryKey": 7716,
-      "EntityName": "person",
-      "personId": 7716,
-      "fullName": "Mrs. Javon Chelsie Paucek"
+      "PrimaryKey": 216,
+      "EntityName": "sale",
+      "saleId": 216,
+      "contactId": 4395,
+      "name": "Mann, Barton and Goldner"
     }
   ]
 }

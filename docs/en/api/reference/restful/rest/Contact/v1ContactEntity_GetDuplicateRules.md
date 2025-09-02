@@ -2,6 +2,7 @@
 title: GET Contact/DuplicateRules
 uid: v1ContactEntity_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # GET Contact/DuplicateRules
@@ -58,7 +59,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Miller Group",
-    "DisplayName": "Cormier Inc and Sons",
-    "DisplayTooltip": "atque",
-    "IsActive": true,
+    "Name": "Schroeder, Kohler and Donnelly",
+    "DisplayName": "Ruecker LLC",
+    "DisplayTooltip": "error",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 549
       }
     }
   },
   {
-    "Name": "Miller Group",
-    "DisplayName": "Cormier Inc and Sons",
-    "DisplayTooltip": "atque",
-    "IsActive": true,
+    "Name": "Schroeder, Kohler and Donnelly",
+    "DisplayName": "Ruecker LLC",
+    "DisplayTooltip": "error",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 549
       }
     }
   }

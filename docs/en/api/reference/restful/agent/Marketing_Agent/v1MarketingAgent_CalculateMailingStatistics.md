@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/CalculateMailingStatistics
 uid: v1MarketingAgent_CalculateMailingStatistics
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/CalculateMailingStatistics
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Marketing/CalculateMailingStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 5
+  "ShipmentId": 599
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-432
+554
 ```

@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.CalculateMailingStatistics SOAP
 generated: true
 uid: Services88-Marketing-CalculateMailingStatistics
+content_type: reference
 ---
 
 # Services88 Marketing CalculateMailingStatistics

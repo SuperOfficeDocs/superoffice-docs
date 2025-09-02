@@ -2,6 +2,7 @@
 title: PUT SystemEvent/{id}
 uid: v1SystemEventEntity_PutSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # PUT SystemEvent/{id}
@@ -101,15 +102,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 790,
+  "SystemEventId": 375,
   "Scope": "Database",
-  "Eta": "2003-07-29T03:45:28.6546813+02:00",
-  "Eventkey": "natus",
-  "Eventmess": "sint",
-  "ExtraInfo": 617,
-  "Owner": 116,
-  "UpdatedCount": 167,
-  "Registered": "2011-08-23T03:45:28.6546813+02:00",
+  "Eta": "2009-01-06T03:47:00.3005605+01:00",
+  "Eventkey": "omnis",
+  "Eventmess": "omnis",
+  "ExtraInfo": 405,
+  "Owner": 404,
+  "UpdatedCount": 602,
+  "Registered": "2025-01-26T03:47:00.3005605+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +122,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 23,
+  "SystemEventId": 835,
   "Scope": "Database",
-  "Eta": "2020-12-02T03:45:28.6546813+01:00",
-  "Eventkey": "quasi",
-  "Eventmess": "accusamus",
-  "ExtraInfo": 1000,
-  "Owner": 161,
-  "UpdatedCount": 224,
-  "Registered": "2007-08-02T03:45:28.6546813+02:00",
+  "Eta": "2025-08-11T03:47:00.3005605+02:00",
+  "Eventkey": "voluptatem",
+  "Eventmess": "vel",
+  "ExtraInfo": 659,
+  "Owner": 478,
+  "UpdatedCount": 176,
+  "Registered": "2010-03-01T03:47:00.3005605+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 518
     }
   },
   "_Links": {

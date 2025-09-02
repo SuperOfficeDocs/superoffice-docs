@@ -2,6 +2,7 @@
 title: GET ChatTopic/default
 uid: v1ChatTopicEntity_DefaultChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/default
@@ -97,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 871,
-  "Name": "Nicolas Inc and Sons",
-  "Description": "Customizable solution-oriented throughput",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 898,
+  "Name": "Toy-Lind",
+  "Description": "Future-proofed cohesive strategy",
+  "WelcomeMessage": "assumenda",
   "Language": null,
-  "LastAccept": "1999-03-30T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 784,
-  "AlertRecipient": "dolor",
+  "LastAccept": "2011-05-28T03:46:59.8005718+02:00",
+  "SecondsPrAccept": 218,
+  "AlertRecipient": "aspernatur",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "qui",
+  "CollectConsent": true,
+  "BadgeHeader": "pariatur",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 726,
-  "WarnManagerNewChatMinutes": 827,
-  "TicketEnabled": true,
+  "CustomQueueText": "accusamus",
+  "WarnNewChatMinutes": 491,
+  "WarnManagerNewChatMinutes": 918,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 920,
-  "WarnManagerChatMessageMinutes": 155,
+  "WarnChatMessageMinutes": 485,
+  "WarnManagerChatMessageMinutes": 748,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 839,
-  "OfflineFormQueueLength": 314,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "et",
+  "OfflineFormTimeLimit": 695,
+  "OfflineFormQueueLength": 4,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 385
     }
   }
 }

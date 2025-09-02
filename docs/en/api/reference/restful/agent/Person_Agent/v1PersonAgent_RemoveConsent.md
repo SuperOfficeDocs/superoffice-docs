@@ -2,6 +2,7 @@
 title: POST Agents/Person/RemoveConsent
 uid: v1PersonAgent_RemoveConsent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/RemoveConsent
@@ -69,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 866,
-  "Purpose": "dignissimos"
+  "PersonId": 207,
+  "Purpose": "sint"
 }
 ```
 

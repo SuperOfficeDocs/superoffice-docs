@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveRelationDefinitionEntity SOAP
 generated: true
 uid: Services88-List-SaveRelationDefinitionEntity
+content_type: reference
 ---
 
 # Services88 List SaveRelationDefinitionEntity

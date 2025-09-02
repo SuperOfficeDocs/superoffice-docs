@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntityFromSaleSuggestion
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
@@ -135,14 +136,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 450,
-  "SaleId": 229,
+  "SuggestedAppointmentId": 239,
+  "SaleId": 261,
   "CreateNow": false,
-  "OwnerId": 749
+  "OwnerId": 817
 }
 ```
 
@@ -157,121 +158,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-11-22T03:45:22.9048421+01:00",
-  "AppointmentId": 816,
-  "Description": "Persistent 24 hour internet solution",
-  "Title": "soluta",
-  "Agenda": "rem",
-  "InternalNotes": "quae",
-  "StartDate": "2018-02-21T03:45:22.9048421+01:00",
-  "EndDate": "2002-02-05T03:45:22.9048421+01:00",
+  "CreatedDate": "2011-03-05T03:46:54.2070265+01:00",
+  "AppointmentId": 473,
+  "Description": "Operative 24 hour project",
+  "Title": "corporis",
+  "Agenda": "quo",
+  "InternalNotes": "repellat",
+  "StartDate": "2019-07-11T03:46:54.2070265+02:00",
+  "EndDate": "1999-11-06T03:46:54.2070265+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 591,
+  "MotherId": 721,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-06-25T03:45:22.9048421+02:00",
+  "UpdatedDate": "2011-06-20T03:46:54.2070265+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 559,
+  "ActiveLinks": 633,
   "Links": [
     {
-      "EntityName": "Schiller LLC",
-      "Id": 853,
-      "Description": "Future-proofed even-keeled Graphical User Interface",
-      "ExtraInfo": "distinctio",
-      "LinkId": 634,
+      "EntityName": "Grimes LLC",
+      "Id": 856,
+      "Description": "Pre-emptive 5th generation paradigm",
+      "ExtraInfo": "maxime",
+      "LinkId": 385,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldLength": 542
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 25,
+  "AlarmLeadTime": "rerum",
+  "HasAlarm": true,
+  "ColorIndex": 746,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "non",
-  "LeadTime": "et",
-  "Location": "eligendi",
-  "RejectCounter": 273,
+  "IsAlldayEvent": false,
+  "LagTime": "deleniti",
+  "LeadTime": "aspernatur",
+  "Location": "aperiam",
+  "RejectCounter": 835,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 232,
-      "PersonId": 253,
-      "ContactId": 650,
-      "EmailId": 369,
+      "AssociateId": 942,
+      "PersonId": 224,
+      "ContactId": 949,
+      "EmailId": 556,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "brandi_okuneva@bechtelar.info",
-      "Description": "Ergonomic well-modulated interface"
+      "EmailAddress": "marcel@davis.uk",
+      "Description": "Managed 6th generation artificial intelligence"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-02-18T03:45:22.9048421+01:00",
+  "ActiveDate": "2009-02-02T03:46:54.2070265+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 252,
+  "PreferredTZLocation": 348,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 848,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 894,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsam",
+  "CentralserviceVideomeetId": "nesciunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Haven Elody Zemlak"
+    "SuperOffice:1": "1535657700",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "a"
+    "CustomFields1": "nihil",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2019-08-06T03:45:22.9048421+02:00",
-  "PublishTo": "2003-09-23T03:45:22.9048421+02:00",
-  "PublishFrom": "2018-05-09T03:45:22.9048421+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-05-23T03:46:54.2070265+02:00",
+  "PublishTo": "2010-02-15T03:46:54.2070265+01:00",
+  "PublishFrom": "2022-02-14T03:46:54.2070265+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 366,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 60
         }
       }
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 366,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 60
         }
       }
     }
@@ -281,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 702
     }
   }
 }

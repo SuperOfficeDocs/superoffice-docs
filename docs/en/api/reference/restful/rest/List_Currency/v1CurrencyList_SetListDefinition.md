@@ -2,6 +2,7 @@
 title: PUT List/Currency
 uid: v1CurrencyList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Currency
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Rosenbaum, Kihn and Breitenberg",
-  "Tooltip": "quidem",
+  "Id": 18,
+  "Name": "Hansen-Miller",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 590,
-  "IsCustomList": false,
+  "Rank": 673,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Yundt-Wolf",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 275,
+  "Id": 829,
+  "Name": "Renner-Stehr",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 729,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldLength": 358
     }
   }
 }

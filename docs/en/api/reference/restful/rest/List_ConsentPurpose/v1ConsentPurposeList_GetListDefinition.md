@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose
 uid: v1ConsentPurposeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Bins LLC",
-  "Tooltip": "omnis",
+  "Id": 317,
+  "Name": "Wiza, Rowe and Larson",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 429,
-  "IsCustomList": true,
+  "Rank": 252,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eligendi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 619
     }
   },
   "_Links": {

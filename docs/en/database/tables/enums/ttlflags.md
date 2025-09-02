@@ -2,10 +2,10 @@
 uid: enum-ttlflags
 title: Enum values for TtlFlags
 description: Lists the enum values for TtlFlags.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TtlFlags Enum

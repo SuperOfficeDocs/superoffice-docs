@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -22,11 +23,11 @@ Gets a UserDefinedFieldInfo object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| userDefinedFieldInfoId | int32 | **Required** The primary key. |
+| userDefinedFieldInfoId | int32 | **Required** The identifier of the UserDefinedFieldInfo object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=440
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=354
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +111,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 919,
-  "ColumnId": 874,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 989,
-  "FieldLabel": "magnam",
-  "FieldLeft": 329,
-  "FieldTop": 235,
+  "UDefFieldId": 233,
+  "ColumnId": 757,
+  "FieldDefault": "delectus",
+  "FieldHeight": 890,
+  "FieldLabel": "dignissimos",
+  "FieldLeft": 568,
+  "FieldTop": 842,
   "FieldType": "Checkbox",
-  "FieldWidth": 172,
-  "FormatMask": "quia",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 725,
-  "LabelLeft": 138,
-  "LabelTop": 624,
-  "LabelWidth": 964,
-  "LastVersionId": 268,
-  "ListTableId": 796,
-  "IsMandatory": true,
+  "FieldWidth": 486,
+  "FormatMask": "vel",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 563,
+  "LabelLeft": 7,
+  "LabelTop": 286,
+  "LabelWidth": 166,
+  "LastVersionId": 927,
+  "ListTableId": 187,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 722,
-  "ProgId": "aspernatur",
+  "Page1LineNo": 841,
+  "ProgId": "doloremque",
   "IsReadOnly": false,
-  "ShortLabel": "perspiciatis",
-  "TabOrder": 189,
-  "TextLength": 725,
-  "Tooltip": "eveniet",
-  "UdefIdentity": 712,
-  "UDListDefinitionId": 869,
+  "ShortLabel": "officia",
+  "TabOrder": 623,
+  "TextLength": 168,
+  "Tooltip": "tempora",
+  "UdefIdentity": 774,
+  "UDListDefinitionId": 843,
   "Justification": "Center",
-  "Version": 590,
-  "TemplateVariableName": "Mante Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Rohan, Thompson and Reichert",
+  "Version": 800,
+  "TemplateVariableName": "Rutherford-Hahn",
+  "HasBeenPublished": false,
+  "MdoListName": "Koch, Glover and Kling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

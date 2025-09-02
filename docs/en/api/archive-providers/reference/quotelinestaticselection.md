@@ -3,9 +3,9 @@ uid: QuoteLineStaticSelection
 title: QuoteLineStaticSelection
 description: Static archive Provider for the Selection quoteline archive.
 keywords: QuoteLineStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteLineStaticSelection"
@@ -770,7 +770,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelection?$select=targetRecordId,alternative/version/quoteVersionId,alternative/version/extraField5,alternative/version/quote/sale/type,alternative/version/quote/sale/updatedBy
+GET /api/v1/archive/QuoteLineStaticSelection?$select=quoteAlternativeId,alternative/erpDiscountAmount,alternative/version/approvedDate,alternative/version/quote/sale/text,alternative/version/quote/sale/person/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

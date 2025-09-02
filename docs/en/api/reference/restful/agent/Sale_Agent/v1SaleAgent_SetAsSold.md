@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SetAsSold
 uid: v1SaleAgent_SetAsSold
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SetAsSold
@@ -71,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    148,
-    90
+    46,
+    70
   ]
 }
 ```

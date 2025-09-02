@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEmailAppointment
 uid: v1EMailAgent_GetEmailAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEmailAppointment
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 667
+  "MailItemId": 31
 }
 ```
 
@@ -100,20 +101,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "aut",
-    "non"
+    "quia",
+    "reiciendis"
   ],
-  "Comment": "blanditiis",
-  "Sequence": 784,
-  "DtStart": "1999-08-17T03:45:23.4048314+02:00",
-  "DtEnd": "2020-02-01T03:45:23.4048314+01:00",
+  "Comment": "adipisci",
+  "Sequence": 355,
+  "DtStart": "2014-11-07T03:46:54.7382579+01:00",
+  "DtEnd": "2017-12-24T03:46:54.7382579+01:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

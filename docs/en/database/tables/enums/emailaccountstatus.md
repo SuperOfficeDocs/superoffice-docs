@@ -2,10 +2,10 @@
 uid: enum-emailaccountstatus
 title: Enum values for EmailAccountStatus
 description: Lists the enum values for EmailAccountStatus.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # EmailAccountStatus Enum

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllTicketPriorities SOAP
 generated: true
 uid: Services88-List-GetAllTicketPriorities
+content_type: reference
 ---
 
 # Services88 List GetAllTicketPriorities
@@ -76,22 +77,22 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:TicketChangedPriority xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketChangedPriority>
      <List:TicketNew xsi:type="List:TicketPriorityEscalateEvent">None</List:TicketNew>
      <List:Deadline xsi:type="xsd:int">0</List:Deadline>
-     <List:MonStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:MonStart>
-     <List:MonStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:MonStop>
-     <List:TueStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:TueStart>
-     <List:TueStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:TueStop>
-     <List:WedStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:WedStart>
-     <List:WedStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:WedStop>
-     <List:ThuStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:ThuStart>
-     <List:ThuStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:ThuStop>
-     <List:FriStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:FriStart>
-     <List:FriStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:FriStop>
-     <List:SatStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:SatStart>
-     <List:SatStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:SatStop>
-     <List:SunStart xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:SunStart>
-     <List:SunStop xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:SunStop>
+     <List:MonStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:MonStart>
+     <List:MonStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:MonStop>
+     <List:TueStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:TueStart>
+     <List:TueStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:TueStop>
+     <List:WedStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:WedStart>
+     <List:WedStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:WedStop>
+     <List:ThuStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:ThuStart>
+     <List:ThuStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:ThuStop>
+     <List:FriStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:FriStart>
+     <List:FriStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:FriStop>
+     <List:SatStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:SatStart>
+     <List:SatStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:SatStop>
+     <List:SunStart xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:SunStart>
+     <List:SunStop xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:SunStop>
      <List:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</NetServerServices882:dateTime>
+      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</NetServerServices882:dateTime>
      </List:NonDates>
      <List:EscalationLevels xsi:type="List:ArrayOfTicketPriorityEscalationLevelEntity">
       <List:TicketPriorityEscalationLevelEntity xsi:type="List:TicketPriorityEscalationLevelEntity">

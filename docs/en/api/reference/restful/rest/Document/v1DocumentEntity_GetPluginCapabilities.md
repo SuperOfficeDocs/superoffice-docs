@@ -2,6 +2,7 @@
 title: GET Document/Plugin/{id}
 uid: v1DocumentEntity_GetPluginCapabilities
 generated: true
+content_type: reference
 ---
 
 # GET Document/Plugin/{id}
@@ -66,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "assumenda"
+  "1": "nostrum",
+  "2": "voluptas"
 }
 ```

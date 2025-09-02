@@ -2,6 +2,7 @@
 title: GET List/Currency/MDOItems
 uid: v1CurrencyList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=impedit
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=et
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Funk, Dooley and Gulgowski",
-    "ToolTip": "Alias minima qui porro.",
-    "Deleted": true,
-    "Rank": 80,
-    "Type": "velit",
+    "Id": 37,
+    "Name": "Cremin Group",
+    "ToolTip": "Illum totam sint iure laborum voluptates.",
+    "Deleted": false,
+    "Rank": 457,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Hayes Group",
-        "ToolTip": "Necessitatibus expedita quod itaque veritatis nulla ea velit.",
+        "Id": 937,
+        "Name": "Hirthe, Jacobs and Kutch",
+        "ToolTip": "Odio accusamus incidunt omnis ut qui.",
         "Deleted": false,
-        "Rank": 987,
-        "Type": "natus",
+        "Rank": 218,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 659,
-        "ExtraInfo": "aut",
-        "StyleHint": "aspernatur",
-        "FullName": "Marquis Block",
+        "IconHint": "ea",
+        "ColorBlock": 269,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quaerat",
+        "FullName": "Morris Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 921
+            "FieldType": "System.String",
+            "FieldLength": 240
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 506,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "quo",
-    "FullName": "Mrs. Leta Bethel Lindgren",
+    "IconHint": "aut",
+    "ColorBlock": 62,
+    "ExtraInfo": "est",
+    "StyleHint": "animi",
+    "FullName": "Clovis Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldLength": 409
       }
     }
   }

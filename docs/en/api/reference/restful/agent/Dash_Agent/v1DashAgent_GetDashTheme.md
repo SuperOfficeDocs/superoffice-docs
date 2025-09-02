@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashTheme
 uid: v1DashAgent_GetDashTheme
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashTheme
@@ -22,11 +23,11 @@ Gets a DashTheme object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| dashThemeId | int32 | **Required** The primary key. |
+| dashThemeId | int32 | **Required** The identifier of the DashTheme object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=321
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=800
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 864,
-  "Name": "Kemmer, Maggio and Stark",
-  "Config": "blanditiis",
-  "Rank": 11,
-  "Client": "quia",
-  "Style": "ratione",
+  "DashboardThemeId": 257,
+  "Name": "Grant-Beier",
+  "Config": "quibusdam",
+  "Rank": 623,
+  "Client": "doloremque",
+  "Style": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 144
     }
   }
 }

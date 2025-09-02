@@ -2,10 +2,10 @@
 uid: table-message_id
 title: message_id table
 description: This table links an email message id to an eJournal item
-so.generated: true
+generated: true
 keywords: database table message_id
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # message\_id Table (386)

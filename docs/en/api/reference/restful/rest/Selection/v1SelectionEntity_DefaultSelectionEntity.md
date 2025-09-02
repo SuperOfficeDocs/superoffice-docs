@@ -2,6 +2,7 @@
 title: GET Selection/default
 uid: v1SelectionEntity_DefaultSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # GET Selection/default
@@ -105,73 +106,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Aug 2020 03:45:28 G8T
+Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
 
 {
-  "Description": "Synchronised asynchronous application",
-  "Postit": "in",
+  "Description": "Fully-configurable multimedia encryption",
+  "Postit": "voluptatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 454,
-  "IncludePerson": 826,
+  "GroupIdx": 688,
+  "IncludePerson": 776,
   "MemberCount": 99.99,
-  "Name": "Casper, Dibbert and Durgan",
-  "PostitTextId": 200,
-  "CreatedDate": "2003-01-22T03:45:28.6390567+01:00",
-  "SelectionId": 294,
-  "SoundEx": "voluptas",
-  "Source": 897,
-  "TextId": 713,
-  "UpdatedDate": "2020-08-21T03:45:28.6390567+02:00",
-  "UpdatedCount": 652,
-  "Visibility": 238,
+  "Name": "Huels, Ondricka and Farrell",
+  "PostitTextId": 838,
+  "CreatedDate": "2001-08-30T03:47:00.2849361+02:00",
+  "SelectionId": 147,
+  "SoundEx": "quam",
+  "Source": 724,
+  "TextId": 171,
+  "UpdatedDate": "2000-01-21T03:47:00.2849361+01:00",
+  "UpdatedCount": 120,
+  "Visibility": 208,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 716,
-  "TargetTableName": "Bergstrom-Gottlieb",
+  "CompanyUnique": true,
+  "TargetTableNumber": 121,
+  "TargetTableName": "Leuschke, Hauck and Batz",
   "Completed": false,
-  "LeftSelectionId": 533,
-  "RightSelectionId": 134,
+  "LeftSelectionId": 560,
+  "RightSelectionId": 212,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schroeder LLC",
-  "ShadowProviderName": "Barton LLC",
-  "ChartKey": "repellendus",
-  "LastLoaded": "2015-02-05T03:45:28.6390567+01:00",
-  "LastLoadedBy": 200,
+  "MainProviderName": "O'Reilly Group",
+  "ShadowProviderName": "Graham, Roob and Swaniawski",
+  "ChartKey": "illo",
+  "LastLoaded": "2019-08-27T03:47:00.2849361+02:00",
+  "LastLoadedBy": 918,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-10-20T03:45:28.6390567+02:00",
-  "LastMembershipChangeBy": 844,
+  "LastMembershipChange": "1999-03-22T03:47:00.2849361+01:00",
+  "LastMembershipChangeBy": 194,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "Morissette-Glover",
-  "DashboardTileDefinitionId": 692,
+  "MainHeading": "rerum",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Tremblay-Pfannerstill",
+  "DashboardTileDefinitionId": 905,
   "VisibleFor": [
     {
-      "VisibleId": 81,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 569
         }
       }
     },
     {
-      "VisibleId": 81,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 569
         }
       }
     }
@@ -181,7 +182,7 @@ Last-Modified: Fri, 21 Aug 2020 03:45:28 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 876
     }
   }
 }

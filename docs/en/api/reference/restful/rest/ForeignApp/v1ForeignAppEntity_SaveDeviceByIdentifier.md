@@ -2,6 +2,7 @@
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_SaveDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -85,19 +86,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 796,
-  "Name": "Heathcote Inc and Sons",
-  "CreatedDate": "2005-07-22T03:45:28.3578119+02:00",
-  "UpdatedDate": "2021-02-14T03:45:28.3578119+01:00",
-  "AssociateFullName": "Mrs. Keely Brown II",
-  "CreatedBy": "corporis",
-  "UpdatedBy": "dolor",
-  "DeviceIdentifier": "occaecati",
-  "ForeignAppId": 277
+  "ForeignDeviceId": 348,
+  "Name": "Boyer, Kiehn and Bradtke",
+  "CreatedDate": "2004-08-15T03:47:00.0349452+02:00",
+  "UpdatedDate": "2001-05-18T03:47:00.0349452+02:00",
+  "AssociateFullName": "Rosalyn Luettgen",
+  "CreatedBy": "qui",
+  "UpdatedBy": "laborum",
+  "DeviceIdentifier": "praesentium",
+  "ForeignAppId": 814
 }
 ```
 
@@ -108,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 481,
-  "Name": "Volkman, Kulas and Powlowski",
-  "CreatedDate": "2021-03-16T03:45:28.3578119+01:00",
-  "UpdatedDate": "2003-12-12T03:45:28.3578119+01:00",
-  "AssociateFullName": "Mr. Reese Thiel III",
+  "ForeignDeviceId": 673,
+  "Name": "Bednar, Stokes and Monahan",
+  "CreatedDate": "2002-01-07T03:47:00.0349452+01:00",
+  "UpdatedDate": "2014-03-27T03:47:00.0349452+01:00",
+  "AssociateFullName": "Karson Camylle Deckow Sr.",
   "CreatedBy": "rerum",
-  "UpdatedBy": "velit",
-  "DeviceIdentifier": "facilis",
-  "ForeignAppId": 398,
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "in",
+  "ForeignAppId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   }
 }

@@ -3,9 +3,9 @@ uid: SaleShadowDynamicSelection
 title: SaleShadowDynamicSelection
 description: Shadow contact provider for the dynamic sale provider.
 keywords: SaleShadowDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleShadowDynamicSelection"
@@ -1327,7 +1327,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/personAddress/line3,contact/updatedByFullName,associate/ejStatus,saleUdef/SuperOffice:4,document/userGroup
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=earningPercent,person/ticketPriority,person/personPager/description,person/personUrl/URLAddress,contact/contactExtra/x_contact_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

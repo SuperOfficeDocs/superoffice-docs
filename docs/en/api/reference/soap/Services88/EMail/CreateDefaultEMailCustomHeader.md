@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateDefaultEMailCustomHeader SOAP
 generated: true
 uid: Services88-EMail-CreateDefaultEMailCustomHeader
+content_type: reference
 ---
 
 # Services88 EMail CreateDefaultEMailCustomHeader

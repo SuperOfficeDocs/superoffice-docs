@@ -2,6 +2,7 @@
 title: GET License/User/{id}
 uid: v1License_GetUserLicenses
 generated: true
+content_type: reference
 ---
 
 # GET License/User/{id}
@@ -73,56 +74,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rogahn-Breitenberg",
-    "Description": "Pre-emptive foreground initiative",
+    "Name": "Schroeder, Veum and Gibson",
+    "Description": "Streamlined well-modulated core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 865,
-        "Tooltip": "ut",
+        "Total": 818,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 162,
-        "InUse": 467,
+        "Free": 762,
+        "InUse": 657,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 746,
-        "Name": "Marvin, Emard and Goodwin",
-        "Description": "Ergonomic stable moratorium",
-        "PrerequisiteModuleName": "Monahan, Legros and Fay",
-        "SortOrder": 945,
-        "ExtraFlags": 346,
+        "ModuleLicenseId": 296,
+        "Name": "Quitzon, Yost and Witting",
+        "Description": "Re-contextualized intangible strategy",
+        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
+        "SortOrder": 892,
+        "ExtraFlags": 46,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 622
+            "FieldType": "System.String",
+            "FieldLength": 38
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 331,
-        "Tooltip": "quos",
+        "Unrestricted": false,
+        "Total": 931,
+        "Tooltip": "voluptatum",
         "CanAssign": true,
-        "Free": 992,
-        "InUse": 704,
+        "Free": 271,
+        "InUse": 573,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 159,
-        "Name": "Crist, Sawayn and Medhurst",
-        "Description": "Focused secondary software",
-        "PrerequisiteModuleName": "Nitzsche, Barton and Marvin",
-        "SortOrder": 802,
-        "ExtraFlags": 383,
+        "ModuleLicenseId": 837,
+        "Name": "Macejkovic-Greenfelder",
+        "Description": "Customizable background firmware",
+        "PrerequisiteModuleName": "Grimes-Sawayn",
+        "SortOrder": 162,
+        "ExtraFlags": 847,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 973
           }
         }
       }
@@ -132,61 +133,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 572
       }
     }
   },
   {
-    "Name": "Rogahn-Breitenberg",
-    "Description": "Pre-emptive foreground initiative",
+    "Name": "Schroeder, Veum and Gibson",
+    "Description": "Streamlined well-modulated core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 865,
-        "Tooltip": "ut",
+        "Total": 818,
+        "Tooltip": "excepturi",
         "CanAssign": false,
-        "Free": 162,
-        "InUse": 467,
+        "Free": 762,
+        "InUse": 657,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 746,
-        "Name": "Marvin, Emard and Goodwin",
-        "Description": "Ergonomic stable moratorium",
-        "PrerequisiteModuleName": "Monahan, Legros and Fay",
-        "SortOrder": 945,
-        "ExtraFlags": 346,
+        "ModuleLicenseId": 296,
+        "Name": "Quitzon, Yost and Witting",
+        "Description": "Re-contextualized intangible strategy",
+        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
+        "SortOrder": 892,
+        "ExtraFlags": 46,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 622
+            "FieldType": "System.String",
+            "FieldLength": 38
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 331,
-        "Tooltip": "quos",
+        "Unrestricted": false,
+        "Total": 931,
+        "Tooltip": "voluptatum",
         "CanAssign": true,
-        "Free": 992,
-        "InUse": 704,
+        "Free": 271,
+        "InUse": 573,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 159,
-        "Name": "Crist, Sawayn and Medhurst",
-        "Description": "Focused secondary software",
-        "PrerequisiteModuleName": "Nitzsche, Barton and Marvin",
-        "SortOrder": 802,
-        "ExtraFlags": 383,
+        "ModuleLicenseId": 837,
+        "Name": "Macejkovic-Greenfelder",
+        "Description": "Customizable background firmware",
+        "PrerequisiteModuleName": "Grimes-Sawayn",
+        "SortOrder": 162,
+        "ExtraFlags": 847,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 973
           }
         }
       }
@@ -196,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 572
       }
     }
   }

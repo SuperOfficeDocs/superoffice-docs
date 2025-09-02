@@ -1,6 +1,8 @@
 ---
+uid: tag-ViewState_Agent
 title: ViewState_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

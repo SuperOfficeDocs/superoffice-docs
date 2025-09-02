@@ -2,6 +2,7 @@
 title: Services88.UserAgent.DecryptAndSaveExternalTokens SOAP
 generated: true
 uid: Services88-User-DecryptAndSaveExternalTokens
+content_type: reference
 ---
 
 # Services88 User DecryptAndSaveExternalTokens

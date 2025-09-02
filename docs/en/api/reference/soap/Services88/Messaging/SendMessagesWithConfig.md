@@ -2,6 +2,7 @@
 title: Services88.MessagingAgent.SendMessagesWithConfig SOAP
 generated: true
 uid: Services88-Messaging-SendMessagesWithConfig
+content_type: reference
 ---
 
 # Services88 Messaging SendMessagesWithConfig

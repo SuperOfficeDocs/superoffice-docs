@@ -2,6 +2,7 @@
 title: POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
 uid: v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/CreateDefaultPreferenceDescriptionLine
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 ```
 
-Set default values into a new PreferenceDescriptionLine.
+Loading default values into a new PreferenceDescriptionLine.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 133,
-  "PrefDescId": 581,
-  "PrefValue": "repudiandae",
-  "PrefShowValue": "ut",
-  "Description": "Exclusive intangible time-frame",
-  "IsBuiltin": false,
+  "PrefDescLineId": 362,
+  "PrefDescId": 924,
+  "PrefValue": "eos",
+  "PrefShowValue": "qui",
+  "Description": "De-engineered uniform hub",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 927
     }
   }
 }

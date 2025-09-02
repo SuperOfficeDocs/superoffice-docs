@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext2
@@ -167,18 +168,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jones-Greenholt",
-  "Columns": "ea",
-  "SortOrder": "velit",
-  "Restriction": "omnis",
-  "Entities": "maxime",
-  "Page": 159,
-  "PageSize": 497,
-  "Context": "voluptas"
+  "ProviderName": "Heathcote-Terry",
+  "Columns": "quibusdam",
+  "SortOrder": "est",
+  "Restriction": "esse",
+  "Entities": "ipsam",
+  "Page": 506,
+  "PageSize": 978,
+  "Context": "laudantium"
 }
 ```
 
@@ -190,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hansen, Haley and Hauck",
-    "PrimaryKey": 112,
+    "EntityName": "Grant-Lang",
+    "PrimaryKey": 876,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aspernatur",
-        "TooltipHint": "est",
-        "LinkHint": "voluptas"
+        "DisplayValue": "tenetur",
+        "TooltipHint": "aut",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "nihil",
-    "StyleHint": "velit",
+    "LinkHint": "molestiae",
+    "StyleHint": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 222
       }
     }
   }

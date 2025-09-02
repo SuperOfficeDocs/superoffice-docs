@@ -2,6 +2,7 @@
 title: GET List/SaleType/Items/Default
 uid: v1SaleTypeList_CreateDefaultSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Items/Default
@@ -86,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 463,
-  "Name": "Sanford-Armstrong",
-  "Tooltip": "sed",
-  "Rank": 554,
+  "SaleTypeId": 140,
+  "Name": "Daniel Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Rank": 754,
   "DurationUnit": "Century",
-  "SaleDuration": 571,
-  "SaleTypeCatId": 63,
-  "Deleted": false,
+  "SaleDuration": 171,
+  "SaleTypeCatId": 588,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 288,
-  "QuoteLinesTemplate": 100,
-  "ConfirmationLinesTemplate": 263,
+  "DefaultQuoteValidity": 383,
+  "QuoteLinesTemplate": 339,
+  "ConfirmationLinesTemplate": 757,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 753,
-  "MinEarningPercent": 226,
-  "GroupQuoteLinesBy": 834,
-  "SortGroupLinesBy": 894,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 540,
+  "MinEarningPercent": 175,
+  "GroupQuoteLinesBy": 11,
+  "SortGroupLinesBy": 883,
   "Stages": [
     {
-      "Id": 212,
-      "Name": "Feil-Buckridge",
-      "ToolTip": "Voluptas corporis.",
+      "Id": 7,
+      "Name": "Effertz, Ankunding and Ferry",
+      "ToolTip": "Nihil laborum commodi temporibus nemo voluptatem et.",
       "Deleted": false,
-      "Rank": 983,
-      "Type": "nulla",
-      "ColorBlock": 417,
-      "IconHint": "cum",
+      "Rank": 879,
+      "Type": "dolorem",
+      "ColorBlock": 251,
+      "IconHint": "veritatis",
       "Selected": true,
-      "LastChanged": "2018-08-07T03:45:29.2171623+02:00",
+      "LastChanged": "2016-08-31T03:47:00.8005429+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "et",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Ms. Rebecca Bechtelar V",
+      "FullName": "Santiago Steuber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
@@ -142,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 786
     }
   }
 }

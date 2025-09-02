@@ -4,6 +4,10 @@ items:
 - name: AIAgent
   href: aiagent/index.md
   items:
+  - name: AnalyzeBizCardImageAsync
+    href: aiagent/analyzebizcardimageasync.md
+  - name: AnalyzeBizCardTextAsync
+    href: aiagent/analyzebizcardtextasync.md
   - name: AnswerAcceptedAsync
     href: aiagent/answeracceptedasync.md
   - name: AnswerAsync
@@ -1683,6 +1687,8 @@ items:
     href: listagent/changecurrencyasync.md
   - name: CreateDefaultAmountClassEntityAsync
     href: listagent/createdefaultamountclassentityasync.md
+  - name: CreateDefaultCategoryEntityAsync
+    href: listagent/createdefaultcategoryentityasync.md
   - name: CreateDefaultCountryAsync
     href: listagent/createdefaultcountryasync.md
   - name: CreateDefaultCurrencyEntityAsync
@@ -1821,6 +1827,8 @@ items:
     href: listagent/getcategoriesasync.md
   - name: GetCategoryAsync
     href: listagent/getcategoryasync.md
+  - name: GetCategoryEntityAsync
+    href: listagent/getcategoryentityasync.md
   - name: GetCategoryListAsync
     href: listagent/getcategorylistasync.md
   - name: GetCompetitorAsync
@@ -2155,6 +2163,8 @@ items:
     href: listagent/saveallfromlistnameasync.md
   - name: SaveAmountClassEntityAsync
     href: listagent/saveamountclassentityasync.md
+  - name: SaveCategoryEntityAsync
+    href: listagent/savecategoryentityasync.md
   - name: SaveConsentPurposeAsync
     href: listagent/saveconsentpurposeasync.md
   - name: SaveConsentSourceAsync
@@ -2451,6 +2461,8 @@ items:
     href: personagent/getsalesrepasync.md
   - name: GetUserCandidateByPersonAsync
     href: personagent/getusercandidatebypersonasync.md
+  - name: GetUtmParametersAsync
+    href: personagent/getutmparametersasync.md
   - name: HasConsentAsync
     href: personagent/hasconsentasync.md
   - name: IsNumberValidAsync
@@ -2713,6 +2725,8 @@ items:
     href: projectagent/saveprojectmemberasync.md
   - name: SaveProjectMembersFunctionAndCommentAsync
     href: projectagent/saveprojectmembersfunctionandcommentasync.md
+  - name: SetCompletedAsync
+    href: projectagent/setcompletedasync.md
   - name: SetDuplicateRulesStatusAsync
     href: projectagent/setduplicaterulesstatusasync.md
   - name: SetProjectImageAsync
@@ -3096,6 +3110,8 @@ items:
     href: selectionagent/createcontactselectionfromselectionasync.md
   - name: CreateContactSelectionFromShadowSelectionAsync
     href: selectionagent/createcontactselectionfromshadowselectionasync.md
+  - name: CreateDefaultBoardViewSettingsFromEntityTypeAsync
+    href: selectionagent/createdefaultboardviewsettingsfromentitytypeasync.md
   - name: CreateDefaultSelectionEntityAsync
     href: selectionagent/createdefaultselectionentityasync.md
   - name: CreateNewEntryAsync
@@ -3112,6 +3128,8 @@ items:
     href: selectionagent/createtemporarycontactselectionfromselectionmemberidsasync.md
   - name: CreateTemporarySelectionFromIdsAsync
     href: selectionagent/createtemporaryselectionfromidsasync.md
+  - name: DeleteBoardViewSettingsAsync
+    href: selectionagent/deleteboardviewsettingsasync.md
   - name: DeleteContactsAsync
     href: selectionagent/deletecontactsasync.md
   - name: DeleteEntitiesAsync
@@ -3128,6 +3146,10 @@ items:
     href: selectionagent/exportselectionmemberswithorderbyasync.md
   - name: GenerateFollowUpsAsync
     href: selectionagent/generatefollowupsasync.md
+  - name: GetBoardViewSettingsAsync
+    href: selectionagent/getboardviewsettingsasync.md
+  - name: GetBoardViewSettingsForSelectionAsync
+    href: selectionagent/getboardviewsettingsforselectionasync.md
   - name: GetDuplicateRulesAsync
     href: selectionagent/getduplicaterulesasync.md
   - name: GetDuplicatesAsync
@@ -3166,6 +3188,8 @@ items:
     href: selectionagent/removeselectionmembersbyidasync.md
   - name: RemoveSelectionMembersFromSearchAsync
     href: selectionagent/removeselectionmembersfromsearchasync.md
+  - name: SaveBoardViewSettingsAsync
+    href: selectionagent/saveboardviewsettingsasync.md
   - name: SaveSelectionEntityAsync
     href: selectionagent/saveselectionentityasync.md
   - name: SetDuplicateRulesStatusAsync

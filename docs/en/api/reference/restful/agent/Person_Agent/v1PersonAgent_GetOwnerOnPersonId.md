@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetOwnerOnPersonId
 uid: v1PersonAgent_GetOwnerOnPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetOwnerOnPersonId
@@ -113,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 757
+  "PersonId": 265
 }
 ```
 
@@ -128,53 +129,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "accusamus",
-  "PersonId": 123,
-  "Mrmrs": "consequatur",
-  "Firstname": "Liam",
-  "Lastname": "Abbott",
-  "MiddleName": "Smitham-Willms",
-  "Title": "illo",
-  "Description": "Team-oriented dynamic throughput",
-  "Email": "kevon_hane@rice.com",
-  "FullName": "Miss Eloise Carlee Kuhlman",
-  "DirectPhone": "1-917-763-6069",
-  "FormalName": "Hermiston-Vandervort",
-  "CountryId": 810,
-  "ContactId": 184,
-  "ContactName": "Little LLC",
-  "Retired": 585,
-  "Rank": 870,
-  "ActiveInterests": 451,
+  "Position": "consequatur",
+  "PersonId": 468,
+  "Mrmrs": "molestiae",
+  "Firstname": "Syble",
+  "Lastname": "Kuhic",
+  "MiddleName": "Prosacco, Predovic and Spencer",
+  "Title": "sed",
+  "Description": "Re-contextualized 24 hour firmware",
+  "Email": "marjory@wiza.com",
+  "FullName": "Triston Kreiger",
+  "DirectPhone": "1-327-819-9406 x98754",
+  "FormalName": "Willms, Mayert and Swift",
+  "CountryId": 945,
+  "ContactId": 342,
+  "ContactName": "Blanda LLC",
+  "Retired": 460,
+  "Rank": 225,
+  "ActiveInterests": 586,
   "ContactDepartment": "",
-  "ContactCountryId": 185,
-  "ContactOrgNr": "1077648",
-  "FaxPhone": "937-476-3546 x07583",
-  "MobilePhone": "108-881-9627 x7394",
-  "ContactPhone": "122-646-5211",
-  "AssociateName": "Huel, Lynch and Block",
-  "AssociateId": 896,
+  "ContactCountryId": 440,
+  "ContactOrgNr": "1251970",
+  "FaxPhone": "1-226-592-7881 x63528",
+  "MobilePhone": "(030)487-7742 x380",
+  "ContactPhone": "(059)142-2197",
+  "AssociateName": "Reichert LLC",
+  "AssociateId": 649,
   "UsePersonAddress": true,
-  "ContactFax": "sint",
-  "Kanafname": "accusantium",
-  "Kanalname": "nihil",
-  "Post1": "aut",
-  "Post2": "eius",
-  "Post3": "delectus",
-  "EmailName": "rossie_goyette@lindgren.ca",
-  "ContactFullName": "Brett Ryley Price Sr.",
-  "ActiveErpLinks": 173,
-  "TicketPriorityId": 885,
-  "SupportLanguageId": 406,
-  "SupportAssociateId": 42,
+  "ContactFax": "nemo",
+  "Kanafname": "provident",
+  "Kanalname": "autem",
+  "Post1": "voluptatem",
+  "Post2": "fugiat",
+  "Post3": "illum",
+  "EmailName": "deontae.leannon@volkman.co.uk",
+  "ContactFullName": "Frida Hills",
+  "ActiveErpLinks": 130,
+  "TicketPriorityId": 686,
+  "SupportLanguageId": 351,
+  "SupportAssociateId": 976,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1500475",
+  "PersonNumber": "1079811",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 771
     }
   }
 }

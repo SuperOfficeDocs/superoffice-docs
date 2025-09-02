@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteLine
 uid: v1QuoteAgent_GetQuoteLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteLine
@@ -121,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 221
+  "QuoteLineId": 989
 }
 ```
 
@@ -136,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 300,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 951,
-  "ERPProductKey": "omnis",
+  "QuoteLineId": 267,
+  "ERPQuoteLineKey": "non",
+  "QuoteAlternativeId": 459,
+  "ERPProductKey": "aliquam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22997.291999999998,
-  "DeliveredQuantity": 22539.728,
-  "Rank": 325,
-  "Name": "Swaniawski Inc and Sons",
-  "Description": "Phased well-modulated approach",
-  "Code": "sit",
-  "QuantityUnit": "repudiandae",
-  "PriceUnit": "possimus",
-  "ItemNumber": "1303465",
+  "Quantity": 17982.892,
+  "DeliveredQuantity": 30669.324,
+  "Rank": 211,
+  "Name": "Brown-Morissette",
+  "Description": "Cross-group dedicated complexity",
+  "Code": "ducimus",
+  "QuantityUnit": "et",
+  "PriceUnit": "ut",
+  "ItemNumber": "648032",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatibus",
-  "ProductTypeKey": "quia",
-  "Supplier": "nostrum",
-  "SupplierCode": "dicta",
-  "Thumbnail": "expedita",
-  "VATInfo": "illum",
-  "VAT": 23363.969999999998,
-  "UnitCost": 11326.276,
-  "UnitMinimumPrice": 25037.525999999998,
-  "UnitListPrice": 26093.683999999997,
+  "ProductFamilyKey": "totam",
+  "ProductTypeKey": "rerum",
+  "Supplier": "sit",
+  "SupplierCode": "iusto",
+  "Thumbnail": "quibusdam",
+  "VATInfo": "officia",
+  "VAT": 20170.424,
+  "UnitCost": 31289.856,
+  "UnitMinimumPrice": 8035.576,
+  "UnitListPrice": 30280.708,
   "ExtraInfo": [
     {
-      "Name": "Medhurst, Welch and Botsford",
-      "Value": "id",
+      "Name": "Erdman, Konopelski and Monahan",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldLength": 233
         }
       }
     },
     {
-      "Name": "Medhurst, Welch and Botsford",
-      "Value": "id",
+      "Name": "Erdman, Konopelski and Monahan",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldLength": 233
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatibus",
+  "RawExtraInfo": "dolorem",
   "IsSubscription": false,
-  "SubscriptionUnit": "atque",
-  "SubscriptionQuantity": 19468.408,
-  "SubscriptionStart": "2017-08-09T03:45:23.8266945+02:00",
-  "ERPDiscountPercent": 17888.872,
-  "ERPDiscountAmount": 17086.568,
-  "DiscountPercent": 20700.07,
-  "DiscountAmount": 16296.8,
+  "SubscriptionUnit": "tempora",
+  "SubscriptionQuantity": 31023.466,
+  "SubscriptionStart": "2014-12-14T03:46:55.2226157+01:00",
+  "ERPDiscountPercent": 31217.773999999998,
+  "ERPDiscountAmount": 19026.514,
+  "DiscountPercent": 6346.3499999999995,
+  "DiscountAmount": 3604.1,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16581.994,
-  "EarningAmount": 10238.778,
-  "SubTotal": 14366.256,
-  "TotalPrice": 10686.94,
-  "Rights": "cupiditate",
-  "Rule": "dolores",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "velit",
-  "ExtraField3": "asperiores",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "soluta",
+  "EarningPercent": 11749.366,
+  "EarningAmount": 8389.7179999999989,
+  "SubTotal": 7502.7959999999994,
+  "TotalPrice": 18656.702,
+  "Rights": "quas",
+  "Rule": "fugiat",
+  "ExtraField1": "sapiente",
+  "ExtraField2": "quia",
+  "ExtraField3": "at",
+  "ExtraField4": "omnis",
+  "ExtraField5": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 593
     }
   }
 }

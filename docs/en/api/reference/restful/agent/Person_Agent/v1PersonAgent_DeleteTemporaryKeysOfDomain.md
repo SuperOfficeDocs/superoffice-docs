@@ -2,6 +2,7 @@
 title: POST Agents/Person/DeleteTemporaryKeysOfDomain
 uid: v1PersonAgent_DeleteTemporaryKeysOfDomain
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/DeleteTemporaryKeysOfDomain
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "PersonId": 886
+  "PersonId": 457
 }
 ```
 

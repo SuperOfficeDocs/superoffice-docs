@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteAppTaskMenus
 uid: v1ListAgent_DeleteAppTaskMenus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteAppTaskMenus
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

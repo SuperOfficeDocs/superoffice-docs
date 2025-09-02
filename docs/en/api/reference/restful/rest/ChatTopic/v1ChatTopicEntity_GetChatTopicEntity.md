@@ -2,6 +2,7 @@
 title: GET ChatTopic/{id}
 uid: v1ChatTopicEntity_GetChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/{id}
@@ -103,7 +104,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +114,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 494,
-  "Name": "Keebler LLC",
-  "Description": "Customizable bi-directional benchmark",
-  "WelcomeMessage": "perspiciatis",
+  "ChatTopicId": 663,
+  "Name": "Block-Strosin",
+  "Description": "Organic analyzing challenge",
+  "WelcomeMessage": "amet",
   "Language": null,
-  "LastAccept": "1998-04-19T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 859,
-  "AlertRecipient": "laborum",
+  "LastAccept": "2001-01-07T03:46:59.8005718+01:00",
+  "SecondsPrAccept": 444,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "architecto",
+  "BadgeHeader": "praesentium",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rem",
-  "WarnNewChatMinutes": 159,
-  "WarnManagerNewChatMinutes": 31,
+  "CustomQueueText": "quis",
+  "WarnNewChatMinutes": 110,
+  "WarnManagerNewChatMinutes": 484,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 23,
-  "WarnManagerChatMessageMinutes": 933,
+  "WarnChatMessageMinutes": 73,
+  "WarnManagerChatMessageMinutes": 404,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 840,
-  "OfflineFormQueueLength": 517,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "debitis",
+  "OfflineFormTimeLimit": 243,
+  "OfflineFormQueueLength": 802,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   },
   "_Links": {

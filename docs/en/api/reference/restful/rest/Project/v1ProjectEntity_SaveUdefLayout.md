@@ -2,6 +2,7 @@
 title: PUT Project/UdefLayout
 uid: v1ProjectEntity_SaveUdefLayout
 generated: true
+content_type: reference
 ---
 
 # PUT Project/UdefLayout
@@ -129,45 +130,45 @@ OK
 PUT /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 808,
-    "ColumnId": 167,
-    "FieldDefault": "hic",
-    "FieldHeight": 684,
-    "FieldLabel": "minima",
-    "FieldLeft": 185,
-    "FieldTop": 535,
+    "UDefFieldId": 205,
+    "ColumnId": 354,
+    "FieldDefault": "ea",
+    "FieldHeight": 875,
+    "FieldLabel": "dolor",
+    "FieldLeft": 212,
+    "FieldTop": 779,
     "FieldType": "Checkbox",
-    "FieldWidth": 697,
-    "FormatMask": "perferendis",
+    "FieldWidth": 228,
+    "FormatMask": "soluta",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 228,
-    "LabelLeft": 729,
-    "LabelTop": 360,
-    "LabelWidth": 308,
-    "LastVersionId": 980,
-    "ListTableId": 125,
-    "IsMandatory": true,
+    "LabelHeight": 875,
+    "LabelLeft": 249,
+    "LabelTop": 958,
+    "LabelWidth": 686,
+    "LastVersionId": 840,
+    "ListTableId": 436,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 207,
-    "ProgId": "quae",
+    "Page1LineNo": 106,
+    "ProgId": "magnam",
     "IsReadOnly": true,
-    "ShortLabel": "eos",
-    "TabOrder": 826,
-    "TextLength": 277,
-    "Tooltip": "soluta",
-    "UdefIdentity": 861,
-    "UDListDefinitionId": 906,
+    "ShortLabel": "itaque",
+    "TabOrder": 552,
+    "TextLength": 827,
+    "Tooltip": "maxime",
+    "UdefIdentity": 10,
+    "UDListDefinitionId": 746,
     "Justification": "Center",
-    "Version": 632,
-    "TemplateVariableName": "Pacocha Inc and Sons",
+    "Version": 721,
+    "TemplateVariableName": "Schoen-Reilly",
     "HasBeenPublished": false,
-    "MdoListName": "Sporer, Nicolas and Pacocha"
+    "MdoListName": "Wiegand, Boehm and Olson"
   }
 ]
 ```
@@ -180,46 +181,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 197,
-    "ColumnId": 180,
-    "FieldDefault": "autem",
-    "FieldHeight": 569,
-    "FieldLabel": "non",
-    "FieldLeft": 870,
-    "FieldTop": 386,
+    "UDefFieldId": 439,
+    "ColumnId": 301,
+    "FieldDefault": "qui",
+    "FieldHeight": 218,
+    "FieldLabel": "ea",
+    "FieldLeft": 391,
+    "FieldTop": 653,
     "FieldType": "Checkbox",
-    "FieldWidth": 506,
-    "FormatMask": "aliquid",
+    "FieldWidth": 381,
+    "FormatMask": "perspiciatis",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 88,
-    "LabelLeft": 528,
-    "LabelTop": 953,
-    "LabelWidth": 259,
-    "LastVersionId": 648,
-    "ListTableId": 843,
+    "IsIndexed": false,
+    "LabelHeight": 25,
+    "LabelLeft": 91,
+    "LabelTop": 414,
+    "LabelWidth": 445,
+    "LastVersionId": 393,
+    "ListTableId": 813,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 695,
-    "ProgId": "quibusdam",
-    "IsReadOnly": true,
-    "ShortLabel": "cum",
-    "TabOrder": 878,
-    "TextLength": 879,
-    "Tooltip": "et",
-    "UdefIdentity": 988,
-    "UDListDefinitionId": 433,
+    "Page1LineNo": 765,
+    "ProgId": "eos",
+    "IsReadOnly": false,
+    "ShortLabel": "inventore",
+    "TabOrder": 911,
+    "TextLength": 922,
+    "Tooltip": "necessitatibus",
+    "UdefIdentity": 527,
+    "UDListDefinitionId": 492,
     "Justification": "Center",
-    "Version": 429,
-    "TemplateVariableName": "Jerde, Walter and Lubowitz",
-    "HasBeenPublished": true,
-    "MdoListName": "D'Amore Inc and Sons",
+    "Version": 191,
+    "TemplateVariableName": "Schowalter-Feest",
+    "HasBeenPublished": false,
+    "MdoListName": "Mraz-Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

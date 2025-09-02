@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetRecipientStatistics SOAP
 generated: true
 uid: Services88-Selection-GetRecipientStatistics
+content_type: reference
 ---
 
 # Services88 Selection GetRecipientStatistics

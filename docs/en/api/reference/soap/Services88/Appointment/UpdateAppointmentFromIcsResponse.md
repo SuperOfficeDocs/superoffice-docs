@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.UpdateAppointmentFromIcsResponse SOAP
 generated: true
 uid: Services88-Appointment-UpdateAppointmentFromIcsResponse
+content_type: reference
 ---
 
 # Services88 Appointment UpdateAppointmentFromIcsResponse

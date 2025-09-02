@@ -2,6 +2,7 @@
 title: POST Agents/License/GetShopUrl
 uid: v1LicenseAgent_GetShopUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetShopUrl
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schoen Inc and Sons"
+  "OwnerName": "Hilll Inc and Sons"
 }
 ```
 

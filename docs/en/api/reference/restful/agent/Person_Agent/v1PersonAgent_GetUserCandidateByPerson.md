@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetUserCandidateByPerson
 uid: v1PersonAgent_GetUserCandidateByPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetUserCandidateByPerson
@@ -80,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 41
+  "PersonId": 119
 }
 ```
 
@@ -91,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 660,
-  "PersonId": 386,
-  "SecretKey": "culpa",
-  "SecretValue": "et",
+  "UserCandidateId": 277,
+  "PersonId": 760,
+  "SecretKey": "ratione",
+  "SecretValue": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 325
     }
   }
 }

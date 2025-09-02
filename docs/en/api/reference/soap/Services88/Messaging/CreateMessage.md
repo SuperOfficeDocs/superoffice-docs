@@ -2,6 +2,7 @@
 title: Services88.MessagingAgent.CreateMessage SOAP
 generated: true
 uid: Services88-Messaging-CreateMessage
+content_type: reference
 ---
 
 # Services88 Messaging CreateMessage

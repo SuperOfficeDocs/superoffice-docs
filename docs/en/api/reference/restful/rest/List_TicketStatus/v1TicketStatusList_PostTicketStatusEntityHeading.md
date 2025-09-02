@@ -2,6 +2,7 @@
 title: POST List/TicketStatus/Headings
 uid: v1TicketStatusList_PostTicketStatusEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketStatus/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 574,
-  "Name": "Marquardt-Kuvalis",
-  "Tooltip": "eos",
+  "HeadingId": 761,
+  "Name": "Legros, Mueller and Doyle",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 180,
-  "UdListDefinitionId": 514
+  "Rank": 78,
+  "UdListDefinitionId": 874
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 341,
-  "Name": "Hermiston, Hoppe and Hegmann",
-  "Tooltip": "in",
+  "HeadingId": 966,
+  "Name": "Lakin Group",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 436,
-  "UdListDefinitionId": 372,
+  "Rank": 86,
+  "UdListDefinitionId": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAppTaskMenus
 uid: v1ListAgent_GetAppTaskMenus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAppTaskMenus
@@ -89,26 +90,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 422,
-    "Name": "Heaney-Donnelly",
-    "Tooltip": "laborum",
-    "TableName": "Kling Inc and Sons",
-    "Area": "error",
+    "TaskMenuId": 781,
+    "Name": "Halvorson, Halvorson and Parker",
+    "Tooltip": "doloribus",
+    "TableName": "Kassulke, Marvin and Raynor",
+    "Area": "consequatur",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 853,
+    "CrmScriptId": 136,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 155,
+    "Rank": 906,
     "Encoding": "ANSI",
-    "ProgId": "quis",
-    "Deleted": true,
+    "ProgId": "quam",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 247
       }
     }
   }

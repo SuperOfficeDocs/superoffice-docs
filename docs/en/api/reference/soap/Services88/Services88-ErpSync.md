@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-ErpSync
 title: Services88.ErpSyncAgent WSDL
+content_type: reference
 ---
 
 # Services88.ErpSyncAgent WSDL

@@ -2,6 +2,7 @@
 title: GET Selection/{id}/Criteria
 uid: v1SelectionEntity_GetDynamicSelectionCriteria
 generated: true
+content_type: reference
 ---
 
 # GET Selection/{id}/Criteria
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,44 +78,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hahn-Spinka",
-    "Operator": "commodi",
+    "Name": "Sipes Inc and Sons",
+    "Operator": "est",
     "Values": [
-      "ad",
-      "porro"
+      "qui",
+      "illum"
     ],
     "DisplayValues": [
-      "ut",
-      "excepturi"
+      "occaecati",
+      "doloremque"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Jacobson, Heathcote and Price",
-        "Operator": "facilis",
+        "Name": "Stiedemann Inc and Sons",
+        "Operator": "dolorum",
         "Values": [
-          "numquam",
-          "minus"
+          "qui",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "cumque",
-          "est"
+          "numquam",
+          "reiciendis"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 148,
+        "InterParenthesis": 12,
         "InterOperator": "And",
-        "UniqueHash": 693
+        "UniqueHash": 480
       }
     ],
-    "InterParenthesis": 897,
+    "InterParenthesis": 674,
     "InterOperator": "And",
-    "UniqueHash": 940
+    "UniqueHash": 196
   }
 ]
 ```

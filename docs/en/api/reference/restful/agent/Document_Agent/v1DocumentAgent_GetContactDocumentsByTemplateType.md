@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetContactDocumentsByTemplateType
 uid: v1DocumentAgent_GetContactDocumentsByTemplateType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateType
@@ -98,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 318,
-  "StartTime": "2017-11-16T03:45:23.2798335+01:00",
-  "EndTime": "2010-05-08T03:45:23.2798335+02:00",
-  "Count": 870,
-  "DocumentTemplateId": 571
+  "ContactId": 527,
+  "StartTime": "2025-03-31T03:46:54.6132622+02:00",
+  "EndTime": "2023-10-04T03:46:54.6132622+02:00",
+  "Count": 129,
+  "DocumentTemplateId": 117
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 436,
-    "Attention": "in",
-    "Header": "quos",
-    "Name": "Schmidt-Hessel",
-    "OurRef": "perspiciatis",
-    "YourRef": "expedita",
-    "Description": "Up-sized well-modulated frame",
-    "DocumentTemplate": "expedita",
-    "IsPublished": true,
-    "PersonId": 430,
-    "PersonFullName": "Margret Lindgren",
-    "AssociateFullName": "Mr. Kenny Eudora Altenwerth IV",
-    "ContactId": 960,
-    "ContactName": "Bauch-Ward",
-    "ProjectId": 329,
-    "ProjectName": "Walker, Casper and Orn",
-    "AssociateId": 970,
-    "Snum": 409,
-    "SaleId": 991,
-    "SaleName": "Zieme, Altenwerth and Fadel",
+    "DocumentId": 597,
+    "Attention": "quo",
+    "Header": "incidunt",
+    "Name": "Jast, Altenwerth and Keeling",
+    "OurRef": "eos",
+    "YourRef": "quis",
+    "Description": "Fundamental modular pricing structure",
+    "DocumentTemplate": "quidem",
+    "IsPublished": false,
+    "PersonId": 145,
+    "PersonFullName": "Justice Gottlieb",
+    "AssociateFullName": "Prof. Lyla Edd VonRueden DDS",
+    "ContactId": 28,
+    "ContactName": "Abshire Group",
+    "ProjectId": 650,
+    "ProjectName": "Von Inc and Sons",
+    "AssociateId": 446,
+    "Snum": 29,
+    "SaleId": 614,
+    "SaleName": "Grimes, Rutherford and Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 323
       }
     }
   }

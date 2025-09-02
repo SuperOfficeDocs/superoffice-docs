@@ -2,10 +2,10 @@
 uid: table-ReasonGroupLink
 title: ReasonGroupLink table
 description: User group link table for Reason, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table ReasonGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ReasonGroupLink Table (104)

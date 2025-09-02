@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GenerateQuoteDocuments
 uid: v1QuoteAgent_GenerateQuoteDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GenerateQuoteDocuments
@@ -91,12 +92,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 437,
-  "EmailBodyTemplateId": 344,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 785,
+  "QuoteVersionId": 286,
+  "EmailBodyTemplateId": 33,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 556,
   "IncludeAttachments": false,
-  "RawMailSubject": "quaerat"
+  "RawMailSubject": "labore"
 }
 ```
 
@@ -107,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 208,
-  "QuotedProductsId": 791,
+  "QuoteDocumentId": 592,
+  "QuotedProductsId": 487,
   "QuoteAttachmentIds": [
-    467,
-    34
+    586,
+    541
   ],
-  "MailBody": "voluptatum",
-  "MailSubject": "molestiae",
-  "ToEmail": "vincenzo@hettinger.info",
-  "ToFullName": "Mertie Connelly",
-  "ErrorMessage": "natus",
+  "MailBody": "est",
+  "MailSubject": "et",
+  "ToEmail": "hazel_tillman@rempelcummerata.info",
+  "ToFullName": "Alexandro Kautzer",
+  "ErrorMessage": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

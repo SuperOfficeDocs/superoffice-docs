@@ -3,9 +3,9 @@ uid: Mail
 title: Mail
 description: Provides populated mail envelope rows as an archive based on a query string
 keywords: Mail archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Mail"
@@ -42,7 +42,7 @@ the string in either subject, sender, recipient or date are returned
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail?$select=to,size
+GET /api/v1/archive/Mail?$select=size,to,size
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

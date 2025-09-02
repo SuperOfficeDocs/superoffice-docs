@@ -2,6 +2,7 @@
 title: GET Sale/CustomField
 uid: v1SaleEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Sale/CustomField
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kunze Group",
-    "DisplayName": "Runolfsson-Mitchell",
-    "Description": "Multi-channelled discrete open architecture",
-    "ShortLabel": "animi",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Schmitt Group",
+    "DisplayName": "Johnson-Ruecker",
+    "Description": "Re-engineered zero administration extranet",
+    "ShortLabel": "esse",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 284,
-    "TemplateVariableName": "Schaefer, Johns and Gleason"
+    "Rank": 497,
+    "TemplateVariableName": "Wolff-Senger"
   }
 ]
 ```

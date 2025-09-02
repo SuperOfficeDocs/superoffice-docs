@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/UpdateFeatureToggles
 uid: v1CustomerServiceAgent_UpdateFeatureToggles
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/UpdateFeatureToggles
@@ -64,17 +65,17 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Okuneva, Hessel and Marks",
+      "Name": "Shanahan-Heidenreich",
       "State": true
     },
     {
-      "Name": "Okuneva, Hessel and Marks",
+      "Name": "Shanahan-Heidenreich",
       "State": true
     }
   ]

@@ -3,9 +3,9 @@ uid: recordtype
 title: recordtype
 keywords: mdoprovider mdo provider recordtype
 description: A complete and generic mapping of record types to resource strings. This is a simple, hard-coded list corresponding to Task table <see cref="!:SuperOffice.CRM.Data.Task" /> record_type column which is defined by a typed field <see cref="T:SuperOffice.Data.SQL.TaskTypeFieldInfo" /> using the TaskType enum AN.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "recordtype" MDO List

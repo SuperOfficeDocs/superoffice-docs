@@ -2,6 +2,7 @@
 title: GET List/Position/Headings
 uid: v1PositionList_GetPositionHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 219,
-    "Name": "Gutmann-Hirthe",
-    "Tooltip": "eveniet",
-    "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 737,
+    "HeadingId": 67,
+    "Name": "Moore-Schulist",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 447,
+    "UdListDefinitionId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

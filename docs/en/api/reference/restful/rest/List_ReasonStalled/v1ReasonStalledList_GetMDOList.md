@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/MDOItems
 uid: v1ReasonStalledList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonStalled/MDOItems?flat=True
-GET /api/v1/List/ReasonStalled/MDOItems?query=et
+GET /api/v1/List/ReasonStalled/MDOItems?flat=False
+GET /api/v1/List/ReasonStalled/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/ReasonStalled/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Rice-Mayert",
-    "ToolTip": "Voluptas sed delectus occaecati rem nemo cupiditate.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "quisquam",
+    "Id": 89,
+    "Name": "Erdman-Sipes",
+    "ToolTip": "Qui quidem non ut ratione molestiae.",
+    "Deleted": true,
+    "Rank": 130,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Kunze, Oberbrunner and Abernathy",
-        "ToolTip": "Et soluta sed repellat tempore dicta.",
-        "Deleted": false,
-        "Rank": 126,
-        "Type": "dolorem",
+        "Id": 627,
+        "Name": "McLaughlin LLC",
+        "ToolTip": "Aliquid voluptas ipsa nostrum dignissimos a qui.",
+        "Deleted": true,
+        "Rank": 313,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 730,
-        "ExtraInfo": "nihil",
-        "StyleHint": "deserunt",
-        "FullName": "Ms. Zackary Ernest Sawayn PhD",
+        "IconHint": "ab",
+        "ColorBlock": 968,
+        "ExtraInfo": "dolor",
+        "StyleHint": "est",
+        "FullName": "Miss Haylee Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 64
+            "FieldLength": 674
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 293,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "autem",
-    "FullName": "Melvina Funk",
+    "IconHint": "rerum",
+    "ColorBlock": 48,
+    "ExtraInfo": "rerum",
+    "StyleHint": "rerum",
+    "FullName": "Ms. Elliott Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 457
       }
     }
   }

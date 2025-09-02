@@ -2,6 +2,7 @@
 title: POST Agents/Quote/DeletePriceList
 uid: v1QuoteAgent_DeletePriceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/DeletePriceList
@@ -22,10 +23,10 @@ Deletes the PriceList
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| PriceListId | int32 | **Required** The id of the PriceList to be deleted. |
+| priceListId | int32 | **Required** The identity of the PriceList |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?PriceListId=918
+POST /api/v1/Agents/Quote/DeletePriceList?priceListId=315
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Quote/DeletePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

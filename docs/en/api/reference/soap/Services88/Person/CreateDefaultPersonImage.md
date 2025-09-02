@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.CreateDefaultPersonImage SOAP
 generated: true
 uid: Services88-Person-CreateDefaultPersonImage
+content_type: reference
 ---
 
 # Services88 Person CreateDefaultPersonImage

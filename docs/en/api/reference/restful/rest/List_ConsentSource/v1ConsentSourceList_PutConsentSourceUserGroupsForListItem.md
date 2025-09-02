@@ -2,6 +2,7 @@
 title: PUT List/ConsentSource/Items/{id}/UserGroups
 uid: v1ConsentSourceList_PutConsentSourceUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentSource/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Boehm, Steuber and Russel",
-    "ToolTip": "Et quaerat qui nesciunt hic sit adipisci.",
+    "Id": 448,
+    "Name": "Schaefer-Ondricka",
+    "ToolTip": "Alias similique velit.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "dignissimos",
-    "ColorBlock": 663,
-    "IconHint": "consequuntur",
+    "Rank": 311,
+    "Type": "eius",
+    "ColorBlock": 676,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2023-02-09T03:45:28.9984183+01:00",
+    "LastChanged": "1998-06-16T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Harris-Considine",
-        "ToolTip": "Labore sed laboriosam provident sit tempore vitae.",
+        "Id": 968,
+        "Name": "Schoen LLC",
+        "ToolTip": "Saepe consequatur vel qui.",
         "Deleted": false,
-        "Rank": 398,
-        "Type": "unde",
-        "ColorBlock": 112,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2023-02-11T03:45:28.9984183+01:00",
+        "Rank": 635,
+        "Type": "aut",
+        "ColorBlock": 126,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2000-11-05T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "earum",
+        "ExtraInfo": "dolores",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Hadley Jewess"
+        "FullName": "Ana Wehner"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Ms. Alexa Kemmer"
+    "ExtraInfo": "fugit",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Dr. Helene Bo Olson"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Koch, Johns and Feil",
-    "ToolTip": "Ut magnam nesciunt itaque repudiandae aperiam.",
-    "Deleted": false,
-    "Rank": 38,
-    "Type": "doloribus",
-    "ColorBlock": 724,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2016-07-03T03:45:28.9984183+02:00",
+    "Id": 221,
+    "Name": "Donnelly LLC",
+    "ToolTip": "Aut alias suscipit corrupti doloribus porro.",
+    "Deleted": true,
+    "Rank": 588,
+    "Type": "et",
+    "ColorBlock": 251,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2000-03-20T03:47:00.6130405+01:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Cummerata-Dickinson",
-        "ToolTip": "Blanditiis quibusdam dolore.",
+        "Id": 344,
+        "Name": "Watsica-Cummings",
+        "ToolTip": "Praesentium quo qui aliquam voluptate.",
         "Deleted": false,
-        "Rank": 200,
-        "Type": "nesciunt",
-        "ColorBlock": 302,
-        "IconHint": "aut",
+        "Rank": 904,
+        "Type": "perferendis",
+        "ColorBlock": 77,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "1999-07-28T03:45:28.9984183+02:00",
+        "LastChanged": "2014-01-25T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "non",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Garret Franecki",
+        "FullName": "Kathryn Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 217
+            "FieldType": "System.Int32",
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "amet",
+    "ExtraInfo": "tempora",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Arlo Collins",
+    "FullName": "Marco Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 443
       }
     }
   }

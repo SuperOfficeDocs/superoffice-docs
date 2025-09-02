@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CalculateDays
 uid: v1AppointmentAgent_CalculateDays
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CalculateDays
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 960,
-  "StartDate": "2000-06-15T03:45:22.842344+02:00",
-  "EndDate": "2002-11-01T03:45:22.842344+01:00",
-  "RecurrenceCounter": 238,
+  "RecurrenceId": 553,
+  "StartDate": "2005-11-16T03:46:54.1445302+01:00",
+  "EndDate": "2005-09-20T03:46:54.1445302+02:00",
+  "RecurrenceCounter": 451,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +112,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2018-11-18T03:45:22.842344+01:00",
-      "IsConflict": false,
-      "Description": "Cloned next generation knowledge base",
-      "DescriptionStyleHint": "Realigned coherent support",
-      "Tooltip": "dolore"
+      "Date": "2010-09-24T03:46:54.1445302+02:00",
+      "IsConflict": true,
+      "Description": "Down-sized dynamic function",
+      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
+      "Tooltip": "distinctio"
     },
     {
-      "Date": "2018-11-18T03:45:22.842344+01:00",
-      "IsConflict": false,
-      "Description": "Cloned next generation knowledge base",
-      "DescriptionStyleHint": "Realigned coherent support",
-      "Tooltip": "dolore"
+      "Date": "2010-09-24T03:46:54.1445302+02:00",
+      "IsConflict": true,
+      "Description": "Down-sized dynamic function",
+      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
+      "Tooltip": "distinctio"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

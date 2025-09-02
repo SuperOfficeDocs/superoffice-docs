@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/WillSendEmail
 uid: v1AppointmentAgent_WillSendEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/WillSendEmail
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Appointment/WillSendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {

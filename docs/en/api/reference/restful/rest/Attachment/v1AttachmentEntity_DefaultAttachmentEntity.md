@@ -2,6 +2,7 @@
 title: GET Attachment/default
 uid: v1AttachmentEntity_DefaultAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Attachment/default
@@ -64,7 +65,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 297,
-  "Name": "Bednar, Parisian and Lockman",
-  "ContentType": "et",
-  "AttSize": 50,
+  "AttachmentId": 839,
+  "Name": "Mitchell Inc and Sons",
+  "ContentType": "neque",
+  "AttSize": 317,
   "InlineImage": true,
-  "ContentId": "doloremque",
-  "AuthKey": "facilis",
+  "ContentId": "id",
+  "AuthKey": "debitis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 41
     }
   }
 }

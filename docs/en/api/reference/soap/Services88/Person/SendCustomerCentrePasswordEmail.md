@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SendCustomerCentrePasswordEmail SOAP
 generated: true
 uid: Services88-Person-SendCustomerCentrePasswordEmail
+content_type: reference
 ---
 
 # Services88 Person SendCustomerCentrePasswordEmail

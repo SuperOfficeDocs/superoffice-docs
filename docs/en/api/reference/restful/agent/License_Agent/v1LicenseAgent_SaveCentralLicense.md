@@ -2,6 +2,7 @@
 title: POST Agents/License/SaveCentralLicense
 uid: v1LicenseAgent_SaveCentralLicense
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/SaveCentralLicense
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/License/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Funk, Reilly and Smitham",
-      "Description": "Fundamental reciprocal info-mediaries",
+      "Name": "Hand, Roob and Haley",
+      "Description": "Customizable 5th generation extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -94,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Funk, Reilly and Smitham",
-      "Description": "Fundamental reciprocal info-mediaries",
+      "Name": "Hand, Roob and Haley",
+      "Description": "Customizable 5th generation extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -117,30 +118,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmidt, Gleichner and Kerluke",
-    "Description": "Advanced bottom-line software",
+    "Name": "Mitchell-Hintz",
+    "Description": "Total reciprocal frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 644,
-        "Tooltip": "ad",
+        "Total": 714,
+        "Tooltip": "delectus",
         "CanAssign": false,
-        "Free": 40,
-        "InUse": 415,
-        "IsHidden": true,
+        "Free": 748,
+        "InUse": 170,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Turcotte-Dickinson",
-        "Description": "Front-line asynchronous secured line",
-        "PrerequisiteModuleName": "Crist-Bogisich",
-        "SortOrder": 131,
-        "ExtraFlags": 875,
+        "ModuleLicenseId": 225,
+        "Name": "Simonis, Hessel and Torphy",
+        "Description": "Profit-focused client-server capacity",
+        "PrerequisiteModuleName": "Walsh LLC",
+        "SortOrder": 349,
+        "ExtraFlags": 145,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldType": "System.String",
+            "FieldLength": 940
           }
         }
       }
@@ -148,25 +149,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "ducimus",
-        "CanAssign": false,
-        "Free": 948,
-        "InUse": 134,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 101,
-        "Name": "Quitzon-Corkery",
-        "Description": "Multi-lateral zero tolerance knowledge base",
-        "PrerequisiteModuleName": "Abshire, Hintz and Bartell",
-        "SortOrder": 641,
-        "ExtraFlags": 624,
+        "Total": 955,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 86,
+        "InUse": 749,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 769,
+        "Name": "O'Reilly, Bartoletti and Zemlak",
+        "Description": "Ameliorated neutral framework",
+        "PrerequisiteModuleName": "Kuhn Group",
+        "SortOrder": 482,
+        "ExtraFlags": 7,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldType": "System.String",
+            "FieldLength": 684
           }
         }
       }
@@ -176,35 +177,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldLength": 29
       }
     }
   },
   {
-    "Name": "Schmidt, Gleichner and Kerluke",
-    "Description": "Advanced bottom-line software",
+    "Name": "Mitchell-Hintz",
+    "Description": "Total reciprocal frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 644,
-        "Tooltip": "ad",
+        "Total": 714,
+        "Tooltip": "delectus",
         "CanAssign": false,
-        "Free": 40,
-        "InUse": 415,
-        "IsHidden": true,
+        "Free": 748,
+        "InUse": 170,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Turcotte-Dickinson",
-        "Description": "Front-line asynchronous secured line",
-        "PrerequisiteModuleName": "Crist-Bogisich",
-        "SortOrder": 131,
-        "ExtraFlags": 875,
+        "ModuleLicenseId": 225,
+        "Name": "Simonis, Hessel and Torphy",
+        "Description": "Profit-focused client-server capacity",
+        "PrerequisiteModuleName": "Walsh LLC",
+        "SortOrder": 349,
+        "ExtraFlags": 145,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldType": "System.String",
+            "FieldLength": 940
           }
         }
       }
@@ -212,25 +213,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "ducimus",
-        "CanAssign": false,
-        "Free": 948,
-        "InUse": 134,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 101,
-        "Name": "Quitzon-Corkery",
-        "Description": "Multi-lateral zero tolerance knowledge base",
-        "PrerequisiteModuleName": "Abshire, Hintz and Bartell",
-        "SortOrder": 641,
-        "ExtraFlags": 624,
+        "Total": 955,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 86,
+        "InUse": 749,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 769,
+        "Name": "O'Reilly, Bartoletti and Zemlak",
+        "Description": "Ameliorated neutral framework",
+        "PrerequisiteModuleName": "Kuhn Group",
+        "SortOrder": 482,
+        "ExtraFlags": 7,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldType": "System.String",
+            "FieldLength": 684
           }
         }
       }
@@ -240,7 +241,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldLength": 29
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultCountry SOAP
 generated: true
 uid: Services88-List-CreateDefaultCountry
+content_type: reference
 ---
 
 # Services88 List CreateDefaultCountry

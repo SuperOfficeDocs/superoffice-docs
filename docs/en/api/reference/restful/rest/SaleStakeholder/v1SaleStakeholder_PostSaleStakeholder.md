@@ -2,6 +2,7 @@
 title: POST SaleStakeholder
 uid: v1SaleStakeholder_PostSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # POST SaleStakeholder
@@ -112,29 +113,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hackett-McGlynn",
-  "Comment": "dolore",
-  "StakeholderRoleId": 10,
-  "CountryId": 288,
-  "PersonId": 506,
-  "EmailDescription": "velva_zulauf@rutherford.uk",
-  "EmailId": 696,
-  "EmailAddress": "bernhard@renner.name",
-  "PhoneId": 294,
-  "ContactName": "O'Keefe Inc and Sons",
-  "ContactId": 455,
-  "SaleId": 432,
-  "Mrmrs": "id",
-  "Firstname": "Jody",
-  "MiddleName": "Rice, Prosacco and Conroy",
-  "Lastname": "Kulas",
-  "SaleStakeholderId": 867,
-  "Rank": 856,
-  "Phone": "1-407-248-4941 x736"
+  "StakeholderRoleName": "Prohaska, Volkman and Kuhn",
+  "Comment": "et",
+  "StakeholderRoleId": 156,
+  "CountryId": 291,
+  "PersonId": 840,
+  "EmailDescription": "kaitlin_hyatt@wisoky.name",
+  "EmailId": 410,
+  "EmailAddress": "robb_stokes@conroyledner.name",
+  "PhoneId": 646,
+  "ContactName": "Sanford, Barton and Hettinger",
+  "ContactId": 199,
+  "SaleId": 992,
+  "Mrmrs": "quia",
+  "Firstname": "Landen",
+  "MiddleName": "Wiza LLC",
+  "Lastname": "Huels",
+  "SaleStakeholderId": 256,
+  "Rank": 496,
+  "Phone": "775-418-8405 x845"
 }
 ```
 
@@ -145,36 +146,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Little-Wiza",
-  "Comment": "assumenda",
-  "StakeholderRoleId": 935,
-  "CountryId": 477,
-  "PersonId": 674,
-  "EmailDescription": "thad_labadie@johnston.com",
-  "EmailId": 903,
-  "EmailAddress": "minnie@ornhettinger.ca",
-  "PhoneId": 154,
-  "ContactName": "Durgan, Herzog and Auer",
-  "ContactId": 453,
-  "SaleId": 230,
-  "Mrmrs": "fugiat",
-  "Firstname": "Bridie",
-  "MiddleName": "Fay-Rodriguez",
-  "Lastname": "Sawayn",
-  "SaleStakeholderId": 318,
-  "Rank": 794,
-  "Phone": "1-507-648-2862",
+  "StakeholderRoleName": "Wehner Inc and Sons",
+  "Comment": "sint",
+  "StakeholderRoleId": 139,
+  "CountryId": 914,
+  "PersonId": 798,
+  "EmailDescription": "elisa.armstrong@hessel.info",
+  "EmailId": 895,
+  "EmailAddress": "linnea_mccullough@beckerbahringer.name",
+  "PhoneId": 696,
+  "ContactName": "Schulist, Jacobson and Sanford",
+  "ContactId": 123,
+  "SaleId": 237,
+  "Mrmrs": "quam",
+  "Firstname": "Paris",
+  "MiddleName": "Wehner-Rogahn",
+  "Lastname": "Stanton",
+  "SaleStakeholderId": 919,
+  "Rank": 933,
+  "Phone": "731.921.0676 x435",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

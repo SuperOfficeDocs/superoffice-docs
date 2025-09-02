@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Headings
 uid: v1ReasonSoldList_GetReasonSoldHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Littel Group",
-    "Tooltip": "suscipit",
+    "HeadingId": 210,
+    "Name": "Koss Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 571,
-    "UdListDefinitionId": 460,
+    "Rank": 537,
+    "UdListDefinitionId": 507,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 561
       }
     }
   }

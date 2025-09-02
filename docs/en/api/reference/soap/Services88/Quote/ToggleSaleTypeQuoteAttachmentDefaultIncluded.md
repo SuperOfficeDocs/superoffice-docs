@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded SOAP
 generated: true
 uid: Services88-Quote-ToggleSaleTypeQuoteAttachmentDefaultIncluded
+content_type: reference
 ---
 
 # Services88 Quote ToggleSaleTypeQuoteAttachmentDefaultIncluded

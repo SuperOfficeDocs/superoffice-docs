@@ -2,6 +2,7 @@
 title: Services88.ResourceAgent SOAP
 uid: Services88-Resource-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Resource SOAP

@@ -2,6 +2,7 @@
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_AddDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -69,7 +70,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,21 +80,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 482,
-  "Name": "Reilly, Feil and Moen",
-  "CreatedDate": "2011-12-11T03:45:28.3578119+01:00",
-  "UpdatedDate": "2001-07-17T03:45:28.3578119+02:00",
-  "AssociateFullName": "Dillan Franecki",
-  "CreatedBy": "occaecati",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "temporibus",
-  "ForeignAppId": 663,
+  "ForeignDeviceId": 564,
+  "Name": "Boyle Group",
+  "CreatedDate": "2013-04-26T03:47:00.0349452+02:00",
+  "UpdatedDate": "2010-10-24T03:47:00.0349452+02:00",
+  "AssociateFullName": "Adonis Weimann",
+  "CreatedBy": "rem",
+  "UpdatedBy": "enim",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 659,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

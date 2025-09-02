@@ -2,6 +2,7 @@
 title: GET List/SaleType/Items
 uid: v1SaleTypeList_GetAllSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Items
@@ -88,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 248,
-    "Name": "DuBuque Inc and Sons",
-    "Tooltip": "enim",
-    "Rank": 218,
+    "SaleTypeId": 690,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "autem",
+    "Rank": 286,
     "DurationUnit": "Century",
-    "SaleDuration": 662,
-    "SaleTypeCatId": 575,
+    "SaleDuration": 992,
+    "SaleTypeCatId": 776,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "HasStakeholders": false,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 222,
-    "QuoteLinesTemplate": 649,
-    "ConfirmationLinesTemplate": 100,
+    "DefaultQuoteValidity": 324,
+    "QuoteLinesTemplate": 806,
+    "ConfirmationLinesTemplate": 17,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 4,
-    "MinEarningPercent": 795,
-    "GroupQuoteLinesBy": 158,
-    "SortGroupLinesBy": 261,
+    "MaxDiscountPercent": 664,
+    "MinEarningPercent": 210,
+    "GroupQuoteLinesBy": 176,
+    "SortGroupLinesBy": 159,
     "Stages": [
       {
-        "Id": 775,
-        "Name": "Anderson Inc and Sons",
-        "ToolTip": "Maiores dolor ut inventore nesciunt.",
-        "Deleted": false,
-        "Rank": 635,
-        "Type": "ad",
-        "ColorBlock": 881,
-        "IconHint": "eum",
+        "Id": 1001,
+        "Name": "Towne Inc and Sons",
+        "ToolTip": "Vitae neque quia sunt aut.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "quisquam",
+        "ColorBlock": 496,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2018-11-22T03:45:29.2171623+01:00",
+        "LastChanged": "2024-10-28T03:47:00.8005429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Doyle Balistreri",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Loy Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldLength": 542
           }
         }
       }
@@ -154,8 +155,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

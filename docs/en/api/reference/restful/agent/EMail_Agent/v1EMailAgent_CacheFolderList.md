@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CacheFolderList
 uid: v1EMailAgent_CacheFolderList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CacheFolderList
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haley-Considine",
-    "Delimiter": "itaque",
-    "Flags": "quae",
-    "TotalItems": 675,
-    "UnreadItems": 931,
-    "Subscribed": true,
-    "EmailFolderId": 770,
+    "Name": "Langworth LLC",
+    "Delimiter": "repellat",
+    "Flags": "quod",
+    "TotalItems": 666,
+    "UnreadItems": 888,
+    "Subscribed": false,
+    "EmailFolderId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 821
       }
     }
   }

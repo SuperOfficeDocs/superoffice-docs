@@ -2,6 +2,7 @@
 title: POST Agents/List/ChangeCurrency
 uid: v1ListAgent_ChangeCurrency
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/ChangeCurrency
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 9101.136,
-  "FromCurrency": "quas",
-  "ToCurrency": "quidem"
+  "Amount": 26429.022,
+  "FromCurrency": "et",
+  "ToCurrency": "quia"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-14187.618
+11598.934
 ```

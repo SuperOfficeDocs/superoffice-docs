@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.ChangeLogSettings SOAP
 generated: true
 uid: Services88-Diagnostics-ChangeLogSettings
+content_type: reference
 ---
 
 # Services88 Diagnostics ChangeLogSettings

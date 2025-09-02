@@ -2,6 +2,7 @@
 title: DEL ForeignApp/{id}
 uid: v1ForeignAppEntity_DeleteForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # DEL ForeignApp/{id}

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetCurrentAccount
 uid: v1EMailAgent_GetCurrentAccount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetCurrentAccount
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 152,
-  "EMailAddress": "nemo",
-  "AssociateId": 727,
+  "EMailAccountId": 165,
+  "EMailAddress": "nostrum",
+  "AssociateId": 252,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 637,
-  "ErrorCount": 410,
+  "AccountStatus": 710,
+  "ErrorCount": 445,
   "ErrorReason": "",
-  "InboxFolder": "possimus",
-  "SentFolder": "illum",
-  "SimpleMode": 912,
-  "LastFetch": "2024-07-01T03:45:23.4048314+02:00",
+  "InboxFolder": "ut",
+  "SentFolder": "ut",
+  "SimpleMode": 513,
+  "LastFetch": "2008-11-02T03:46:54.7538824+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 904
     }
   }
 }

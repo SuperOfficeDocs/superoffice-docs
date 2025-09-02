@@ -2,6 +2,7 @@
 title: GET List/LegalBase/MDOItems
 uid: v1LegalBaseList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=voluptates
+GET /api/v1/List/LegalBase/MDOItems?flat=False
+GET /api/v1/List/LegalBase/MDOItems?query=ipsam
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 930,
-    "Name": "Hessel, Schmitt and Kub",
-    "ToolTip": "Ut rerum sapiente ut quaerat totam.",
-    "Deleted": false,
-    "Rank": 897,
-    "Type": "ipsam",
+    "Id": 994,
+    "Name": "Abbott LLC",
+    "ToolTip": "Dolores perspiciatis.",
+    "Deleted": true,
+    "Rank": 962,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Witting, Macejkovic and Reilly",
-        "ToolTip": "Est quis magni dolor culpa alias.",
-        "Deleted": false,
-        "Rank": 890,
-        "Type": "expedita",
+        "Id": 97,
+        "Name": "Corwin Inc and Sons",
+        "ToolTip": "Qui ea praesentium id et omnis suscipit.",
+        "Deleted": true,
+        "Rank": 982,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 642,
-        "ExtraInfo": "et",
-        "StyleHint": "velit",
-        "FullName": "Daniella Strosin",
+        "IconHint": "perspiciatis",
+        "ColorBlock": 601,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "inventore",
+        "FullName": "Jamil Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 366
+            "FieldType": "System.Int32",
+            "FieldLength": 688
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 528,
-    "ExtraInfo": "natus",
-    "StyleHint": "laboriosam",
-    "FullName": "Mr. Brant Price MD",
+    "IconHint": "vero",
+    "ColorBlock": 470,
+    "ExtraInfo": "quis",
+    "StyleHint": "temporibus",
+    "FullName": "Favian White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 619
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT PreferenceDescription/{id}
 uid: v1PreferenceDescription_PutPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # PUT PreferenceDescription/{id}
@@ -113,28 +114,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 633,
-  "Section": "fugiat",
-  "Key": "rem",
-  "Name": "Altenwerth-Zboncak",
+  "PrefDescId": 380,
+  "Section": "dicta",
+  "Key": "fugit",
+  "Name": "Robel, Emard and Stoltenberg",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source next generation encoding",
+  "Description": "Innovative uniform info-mediaries",
   "IsBuiltin": false,
-  "TableName": "Denesik LLC",
-  "UserDefinedListId": 393,
-  "Rank": 603,
-  "SubGroup": "dignissimos",
-  "MinLevel": 165,
-  "MaxValue": 423,
-  "MinValue": 835,
-  "RequiredLicense": "tempore"
+  "TableName": "Gutmann-Frami",
+  "UserDefinedListId": 129,
+  "Rank": 363,
+  "SubGroup": "architecto",
+  "MinLevel": 149,
+  "MaxValue": 540,
+  "MinValue": 829,
+  "RequiredLicense": "voluptate"
 }
 ```
 
@@ -145,30 +146,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 366,
-  "Section": "perferendis",
-  "Key": "qui",
-  "Name": "Adams Group",
+  "PrefDescId": 47,
+  "Section": "accusantium",
+  "Key": "at",
+  "Name": "Koelpin-Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fully-configurable content-based time-frame",
+  "Description": "Down-sized solution-oriented moderator",
   "IsBuiltin": true,
-  "TableName": "Barton-Bahringer",
-  "UserDefinedListId": 180,
-  "Rank": 591,
-  "SubGroup": "enim",
-  "MinLevel": 187,
-  "MaxValue": 218,
-  "MinValue": 545,
-  "RequiredLicense": "omnis",
+  "TableName": "Zulauf LLC",
+  "UserDefinedListId": 721,
+  "Rank": 47,
+  "SubGroup": "cumque",
+  "MinLevel": 661,
+  "MaxValue": 622,
+  "MinValue": 865,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 440
     }
   },
   "_Links": {

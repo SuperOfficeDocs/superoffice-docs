@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.PerformTasksAfterUpgrade SOAP
 generated: true
 uid: Services88-Diagnostics-PerformTasksAfterUpgrade
+content_type: reference
 ---
 
 # Services88 Diagnostics PerformTasksAfterUpgrade

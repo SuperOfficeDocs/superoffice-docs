@@ -2,6 +2,7 @@
 title: GET Preference/{section}
 uid: v1Preference_GetKeysInSection
 generated: true
+content_type: reference
 ---
 
 # GET Preference/{section}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,50 +84,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Abernathy-Jacobson",
-    "ToolTip": "Aut sunt autem aut aut qui.",
-    "Deleted": false,
-    "Rank": 382,
-    "Type": "explicabo",
+    "Id": 589,
+    "Name": "Herman Group",
+    "ToolTip": "Possimus quibusdam illum.",
+    "Deleted": true,
+    "Rank": 999,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Lynch-Koss",
-        "ToolTip": "Omnis iste rerum soluta corrupti.",
-        "Deleted": true,
-        "Rank": 387,
-        "Type": "quos",
+        "Id": 991,
+        "Name": "Predovic, Kiehn and Harris",
+        "ToolTip": "Ullam aut unde qui rem ducimus.",
+        "Deleted": false,
+        "Rank": 174,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 612,
-        "ExtraInfo": "optio",
-        "StyleHint": "et",
-        "FullName": "Percival Johnathan Hamill IV",
+        "IconHint": "minima",
+        "ColorBlock": 186,
+        "ExtraInfo": "rerum",
+        "StyleHint": "magni",
+        "FullName": "Prof. Kristian Amari Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldLength": 698
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 647,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "itaque",
-    "FullName": "Dr. Raegan Adams II",
+    "IconHint": "repellat",
+    "ColorBlock": 663,
+    "ExtraInfo": "officia",
+    "StyleHint": "aut",
+    "FullName": "Prof. Stanley Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 615
       }
     }
   }

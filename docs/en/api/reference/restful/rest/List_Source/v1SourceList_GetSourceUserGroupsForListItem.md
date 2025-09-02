@@ -2,6 +2,7 @@
 title: GET List/Source/Items/{id}/UserGroups
 uid: v1SourceList_GetSourceUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Hahn LLC",
-    "ToolTip": "Eum esse enim dolore.",
-    "Deleted": true,
-    "Rank": 470,
-    "Type": "laboriosam",
-    "ColorBlock": 837,
-    "IconHint": "impedit",
+    "Id": 768,
+    "Name": "Lind, Abbott and Crona",
+    "ToolTip": "Consectetur sequi est ut.",
+    "Deleted": false,
+    "Rank": 222,
+    "Type": "placeat",
+    "ColorBlock": 282,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2023-01-25T03:45:29.2327869+01:00",
+    "LastChanged": "2017-04-19T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Jerde-Thompson",
-        "ToolTip": "Accusantium odio aliquid odit eveniet.",
+        "Id": 149,
+        "Name": "Rempel Group",
+        "ToolTip": "Porro laudantium nihil vero in non.",
         "Deleted": false,
-        "Rank": 496,
-        "Type": "adipisci",
-        "ColorBlock": 808,
-        "IconHint": "et",
+        "Rank": 280,
+        "Type": "non",
+        "ColorBlock": 113,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2002-05-17T03:45:29.2327869+02:00",
+        "LastChanged": "2013-09-03T03:47:00.8317917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Antonietta Champlin",
+        "ExtraInfo": "repellat",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Marcos Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldType": "System.Int32",
+            "FieldLength": 696
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Jaylin Cremin",
+    "FullName": "Krystal Seth Witting IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 429
       }
     }
   }

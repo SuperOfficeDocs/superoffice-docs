@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetUnsanitizedPreviewDocumentStream
 uid: v1DocumentAgent_GetUnsanitizedPreviewDocumentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetUnsanitizedPreviewDocumentStream
@@ -82,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 890
+  "DocumentId": 37
 }
 ```
 
@@ -93,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kessler-Balistreri",
-  "Type": "impedit",
-  "Size": 31,
+  "Name": "Hahn-Pfeffer",
+  "Type": "aliquam",
+  "Size": 845,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 698
     }
   }
 }

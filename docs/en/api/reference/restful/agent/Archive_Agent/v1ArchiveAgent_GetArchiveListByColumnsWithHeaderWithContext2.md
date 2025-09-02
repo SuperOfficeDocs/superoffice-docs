@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
@@ -171,15 +172,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Russel Group",
-  "Columns": "sit",
-  "SortOrder": "dicta",
-  "Restriction": "minus",
-  "Entities": "voluptatum",
-  "Page": 788,
-  "PageSize": 439,
-  "Options": "ad",
-  "Context": "sunt"
+  "ProviderName": "Brown Inc and Sons",
+  "Columns": "illo",
+  "SortOrder": "consequuntur",
+  "Restriction": "et",
+  "Entities": "in",
+  "Page": 103,
+  "PageSize": 493,
+  "Options": "ratione",
+  "Context": "nihil"
 }
 ```
 
@@ -190,26 +191,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 301,
+  "RowCount": 304,
   "Rows": [
     {
-      "EntityName": "Lindgren-Grady",
-      "PrimaryKey": 940,
+      "EntityName": "Kris Group",
+      "PrimaryKey": 72,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "excepturi",
-          "TooltipHint": "aut",
-          "LinkHint": "illum"
+          "DisplayValue": "laudantium",
+          "TooltipHint": "tempore",
+          "LinkHint": "officia"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "quod",
+      "LinkHint": "eos",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 977
         }
       }
     }
@@ -219,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 983
     }
   }
 }

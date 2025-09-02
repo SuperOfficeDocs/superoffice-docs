@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/GetAvailableFields
 uid: v1BulkUpdateAgent_GetAvailableFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/GetAvailableFields
@@ -106,73 +107,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "sunt",
-    "ValueType": "ipsum",
+    "IsActive": true,
+    "Key": "culpa",
+    "ValueType": "odio",
     "Mandatory": false,
-    "EncodedDisplayName": "VonRueden, Nicolas and Barrows",
-    "EncodedDisplayDescription": "Ameliorated real-time concept",
-    "IconHint": "iusto",
+    "EncodedDisplayName": "Davis-Ankunding",
+    "EncodedDisplayDescription": "Fully-configurable foreground definition",
+    "IconHint": "autem",
     "ControlInfos": [
       {
-        "Type": "consequatur",
-        "Label": "necessitatibus",
-        "Dimension": 549,
-        "ListProviderName": "Feeney, Rodriguez and Nicolas",
-        "ListProviderExtraInfo": "autem",
-        "ListProviderPrimaryKeyName": "Legros Inc and Sons",
-        "ListLeadText": "voluptatibus",
+        "Type": "qui",
+        "Label": "id",
+        "Dimension": 822,
+        "ListProviderName": "Wiegand-Hickle",
+        "ListProviderExtraInfo": "consequatur",
+        "ListProviderPrimaryKeyName": "Kling-Koelpin",
+        "ListLeadText": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldType": "System.String",
+            "FieldLength": 645
           }
         }
       }
     ],
-    "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Future-proofed contextually-based budgetary management",
-    "CurrentOperationType": "facere",
+    "EncodedDataCaption": "sit",
+    "EncodedDataCaptionDescription": "Pre-emptive secondary success",
+    "CurrentOperationType": "ipsa",
     "Values": [
-      "nihil",
-      "ipsum"
+      "enim",
+      "distinctio"
     ],
     "DisplayValues": [
       "aut",
-      "quia"
+      "doloremque"
     ],
     "OperationInfos": [
       {
-        "Key": "officia",
-        "EncodedDisplayName": "VonRueden, Goodwin and Gislason",
+        "Key": "odio",
+        "EncodedDisplayName": "Daugherty LLC",
         "EncodedLeadTexts": [
-          "sint",
-          "ipsam"
+          "nesciunt",
+          "tenetur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 593
           }
         }
       },
       {
-        "Key": "officia",
-        "EncodedDisplayName": "VonRueden, Goodwin and Gislason",
+        "Key": "odio",
+        "EncodedDisplayName": "Daugherty LLC",
         "EncodedLeadTexts": [
-          "sint",
-          "ipsam"
+          "nesciunt",
+          "tenetur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 593
           }
         }
       }

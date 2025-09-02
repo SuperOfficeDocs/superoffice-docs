@@ -2,6 +2,7 @@
 title: POST Agents/User/GetDataRight
 uid: v1UserAgent_GetDataRight
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetDataRight
@@ -75,12 +76,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 803,
-  "TableName": "Yost LLC",
+  "RoleId": 328,
+  "TableName": "Marquardt-Kling",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"similique"
+"repellat"
 ```

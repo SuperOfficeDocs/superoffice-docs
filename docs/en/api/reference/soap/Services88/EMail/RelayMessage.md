@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.RelayMessage SOAP
 generated: true
 uid: Services88-EMail-RelayMessage
+content_type: reference
 ---
 
 # Services88 EMail RelayMessage

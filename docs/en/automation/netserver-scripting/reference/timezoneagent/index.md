@@ -2,14 +2,10 @@
 uid: timezoneagent-script-events
 title: TimeZoneAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # TimeZoneAgent method listing
@@ -28,3 +24,4 @@ Service methods defined on <see cref='T:ITimeZoneAgent'>TimeZoneAgent</see> that
 * [TimeOfLastTimeZoneUpdateAsync](timeoflasttimezoneupdateasync.md)
 * [ToggleActiveTimeZoneRowAsync](toggleactivetimezonerowasync.md)
 * [UpdateTimeZoneDataAsync](updatetimezonedataasync.md)
+

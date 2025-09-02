@@ -2,6 +2,7 @@
 title: PATCH ProjectMember/{id}
 uid: v1ProjectMember_PatchProjectMember
 generated: true
+content_type: reference
 ---
 
 # PATCH ProjectMember/{id}
@@ -128,18 +129,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "hic",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "hic",
     "value": {}
   }
 ]
@@ -152,38 +153,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 122,
-  "ContactId": 311,
-  "ProjectId": 50,
-  "ContactName": "Reynolds-Osinski",
+  "ProjectmemberId": 455,
+  "ContactId": 285,
+  "ProjectId": 173,
+  "ContactName": "Bins-Walter",
   "ContactDepartment": "",
-  "ProjectName": "Raynor, Schmidt and Kohler",
-  "EmailId": 787,
-  "EmailAddress": "myles.yost@lednerruecker.us",
-  "CountryId": 573,
-  "Firstname": "Tanner",
-  "MiddleName": "Cummings, Heaney and Windler",
-  "Lastname": "Schimmel",
-  "PersonId": 294,
-  "Mrmrs": "repellat",
-  "ProjectMemberTypeName": "Altenwerth, Rowe and Russel",
-  "Phone": "1-294-147-2448 x3251",
-  "PhoneId": 336,
-  "ProjectMemberTypeId": 924,
-  "EmailAddressName": "leonora.dicki@bayerkertzmann.com",
-  "Comment": "est",
-  "FullName": "Juwan Casper Sr.",
+  "ProjectName": "Reichert Inc and Sons",
+  "EmailId": 25,
+  "EmailAddress": "earl@corkery.name",
+  "CountryId": 919,
+  "Firstname": "Nathen",
+  "MiddleName": "Hoppe Inc and Sons",
+  "Lastname": "Metz",
+  "PersonId": 166,
+  "Mrmrs": "nesciunt",
+  "ProjectMemberTypeName": "Hayes LLC",
+  "Phone": "551-966-2810",
+  "PhoneId": 415,
+  "ProjectMemberTypeId": 469,
+  "EmailAddressName": "brooklyn@stehrzemlak.name",
+  "Comment": "qui",
+  "FullName": "Dr. Lauryn Mills",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 922
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

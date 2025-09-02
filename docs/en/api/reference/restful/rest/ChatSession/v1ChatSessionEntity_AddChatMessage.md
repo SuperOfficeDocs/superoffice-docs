@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/Messages
 uid: v1ChatSessionEntity_AddChatMessage
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/Messages
@@ -81,19 +82,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 269,
-  "ChatSessionId": 512,
+  "ChatMessageId": 730,
+  "ChatSessionId": 129,
   "Type": "Invalid",
-  "Message": "laudantium",
-  "Author": "adipisci",
-  "ReadByCustomer": 123,
+  "Message": "odio",
+  "Author": "ipsa",
+  "ReadByCustomer": 737,
   "SpecialType": "Block",
-  "SpecialParam": "eos",
-  "WhenPosted": "2006-11-25T03:45:28.1546963+01:00"
+  "SpecialParam": "natus",
+  "WhenPosted": "2012-09-06T03:46:59.8005718+02:00"
 }
 ```
 
@@ -104,14 +105,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 592,
-  "ChatSessionId": 118,
+  "ChatMessageId": 391,
+  "ChatSessionId": 523,
   "Type": "Invalid",
-  "Message": "eius",
-  "Author": "eveniet",
-  "ReadByCustomer": 916,
+  "Message": "ea",
+  "Author": "provident",
+  "ReadByCustomer": 727,
   "SpecialType": "Block",
-  "SpecialParam": "dolor",
-  "WhenPosted": "2003-06-16T03:45:28.1546963+02:00"
+  "SpecialParam": "delectus",
+  "WhenPosted": "2010-06-09T03:46:59.8005718+02:00"
 }
 ```

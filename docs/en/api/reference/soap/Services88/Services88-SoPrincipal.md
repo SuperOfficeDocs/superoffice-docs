@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-SoPrincipal
 title: Services88.SoPrincipalAgent WSDL
+content_type: reference
 ---
 
 # Services88.SoPrincipalAgent WSDL

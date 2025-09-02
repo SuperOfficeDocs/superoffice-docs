@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectsFromContact
 uid: v1ProjectAgent_GetProjectsFromContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectsFromContact
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 803
+  "ContactId": 125
 }
 ```
 
@@ -106,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 904,
-    "Name": "Williamson-Reilly",
-    "Description": "Robust 4th generation standardization",
+    "ProjectId": 800,
+    "Name": "Kovacek-Jacobson",
+    "Description": "Organic solution-oriented system engine",
     "URL": "http://www.example.com/",
-    "Type": "dolorem",
-    "AssociateId": 46,
-    "AssociateFullName": "June Dudley Leuschke V",
-    "TypeId": 174,
-    "Updated": "2009-05-22T03:45:23.7798203+02:00",
-    "StatusId": 995,
-    "Status": "amet",
-    "TextId": 467,
-    "PublishTo": "2000-01-10T03:45:23.7798203+01:00",
-    "PublishFrom": "2013-04-20T03:45:23.7798203+02:00",
-    "IsPublished": true,
+    "Type": "saepe",
+    "AssociateId": 711,
+    "AssociateFullName": "Mr. May Dina Abbott V",
+    "TypeId": 492,
+    "Updated": "2012-05-11T03:46:55.1757421+02:00",
+    "StatusId": 219,
+    "Status": "cupiditate",
+    "TextId": 321,
+    "PublishTo": "2007-02-06T03:46:55.1757421+01:00",
+    "PublishFrom": "1998-07-03T03:46:55.1757421+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "933082",
-    "ActiveErpLinks": 531,
+    "ProjectNumber": "518424",
+    "ActiveErpLinks": 930,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 143
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST List/DeliveryType/Headings
 uid: v1DeliveryTypeList_PostDeliveryTypeHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/DeliveryType/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 940,
-  "Name": "Moore-Walker",
-  "Tooltip": "non",
+  "HeadingId": 188,
+  "Name": "Stiedemann-Christiansen",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 186
+  "Rank": 106,
+  "UdListDefinitionId": 113
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 732,
-  "Name": "Gislason-Schneider",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 807,
-  "UdListDefinitionId": 379,
+  "HeadingId": 520,
+  "Name": "Beier, Stiedemann and Schowalter",
+  "Tooltip": "aliquam",
+  "Deleted": true,
+  "Rank": 178,
+  "UdListDefinitionId": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

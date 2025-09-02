@@ -2,6 +2,7 @@
 title: Services88.UserAgent.CheckAccessGatewayRegistration SOAP
 generated: true
 uid: Services88-User-CheckAccessGatewayRegistration
+content_type: reference
 ---
 
 # Services88 User CheckAccessGatewayRegistration

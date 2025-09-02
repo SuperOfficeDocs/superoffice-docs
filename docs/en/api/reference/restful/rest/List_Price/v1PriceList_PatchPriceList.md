@@ -2,6 +2,7 @@
 title: PATCH Pricelist/{id}
 uid: v1PriceList_PatchPriceList
 generated: true
+content_type: reference
 ---
 
 # PATCH Pricelist/{id}
@@ -123,12 +124,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "et",
     "value": {}
   }
 ]
@@ -141,27 +142,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 126,
-  "ERPPriceListKey": "laborum",
-  "QuoteConnectionId": 929,
-  "Name": "Rath, Olson and Hilll",
-  "Description": "Business-focused background encryption",
-  "Currency": "exercitationem",
-  "CurrencyName": "Herman LLC",
-  "ValidFrom": "2015-05-08T03:45:29.0921677+02:00",
-  "ValidTo": "2011-08-11T03:45:29.0921677+02:00",
+  "PriceListId": 804,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 708,
+  "Name": "Borer, Torp and Koss",
+  "Description": "User-centric 6th generation system engine",
+  "Currency": "ratione",
+  "CurrencyName": "Tillman-Sauer",
+  "ValidFrom": "2014-06-16T03:47:00.7067961+02:00",
+  "ValidTo": "2000-02-11T03:47:00.7067961+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 542
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

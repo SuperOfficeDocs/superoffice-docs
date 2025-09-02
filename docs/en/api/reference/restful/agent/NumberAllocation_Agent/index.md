@@ -1,6 +1,8 @@
 ---
+uid: tag-NumberAllocation_Agent
 title: NumberAllocation_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

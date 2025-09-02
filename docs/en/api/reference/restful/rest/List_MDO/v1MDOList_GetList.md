@@ -2,6 +2,7 @@
 title: GET MDOList/{listname}
 uid: v1MDOList_GetList
 generated: true
+content_type: reference
 ---
 
 # GET MDOList/{listname}
@@ -32,8 +33,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=maxime
-GET /api/v1/MDOList/{listname}?query=cum
+GET /api/v1/MDOList/{listname}?additional=ut
+GET /api/v1/MDOList/{listname}?query=eveniet
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Ward, Padberg and Abernathy",
-    "ToolTip": "Alias qui.",
+    "Id": 928,
+    "Name": "Conroy, Schaden and Rice",
+    "ToolTip": "Eos id.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "molestiae",
+    "Rank": 321,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Ondricka LLC",
-        "ToolTip": "Et repellendus placeat.",
+        "Id": 905,
+        "Name": "Conn LLC",
+        "ToolTip": "Repellendus aut maiores pariatur maiores voluptas aliquid dolores.",
         "Deleted": false,
-        "Rank": 730,
-        "Type": "porro",
+        "Rank": 197,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 92,
-        "ExtraInfo": "sequi",
-        "StyleHint": "est",
-        "FullName": "Prof. Kiana Hegmann",
+        "IconHint": "est",
+        "ColorBlock": 559,
+        "ExtraInfo": "fuga",
+        "StyleHint": "occaecati",
+        "FullName": "Timmothy Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldType": "System.String",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 685,
-    "ExtraInfo": "vel",
-    "StyleHint": "molestias",
-    "FullName": "Dr. Kaleigh Orville Quitzon MD",
+    "IconHint": "ut",
+    "ColorBlock": 691,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "id",
+    "FullName": "Lavina Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 908
       }
     }
   }

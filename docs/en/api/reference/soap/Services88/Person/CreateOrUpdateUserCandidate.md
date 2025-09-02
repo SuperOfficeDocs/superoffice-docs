@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.CreateOrUpdateUserCandidate SOAP
 generated: true
 uid: Services88-Person-CreateOrUpdateUserCandidate
+content_type: reference
 ---
 
 # Services88 Person CreateOrUpdateUserCandidate

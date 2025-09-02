@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Dash
 title: Services88.DashAgent WSDL
+content_type: reference
 ---
 
 # Services88.DashAgent WSDL
@@ -401,6 +402,7 @@ title: Services88.DashAgent WSDL
           <xs:enumeration value="WebPanel" />
           <xs:enumeration value="HTML" />
           <xs:enumeration value="Gauge" />
+          <xs:enumeration value="Funnel" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="DashTileType" nillable="true" type="tns:DashTileType" />

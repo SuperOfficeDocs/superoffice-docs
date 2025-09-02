@@ -2,6 +2,7 @@
 title: POST Agents/AI/AnswerAccepted
 uid: v1AIAgent_AnswerAccepted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/AnswerAccepted
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "nihil"
+  "TrackingId": "rem"
 }
 ```
 

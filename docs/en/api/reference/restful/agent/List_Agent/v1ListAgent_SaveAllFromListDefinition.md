@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveAllFromListDefinition
 uid: v1ListAgent_SaveAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveAllFromListDefinition
@@ -79,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 544,
+  "UdListDefinitionId": 754,
   "Items": [
     {
-      "Id": 254,
-      "Name": "Hilpert-Sipes",
-      "Tooltip": "tempore",
+      "Id": 406,
+      "Name": "Kozey LLC",
+      "Tooltip": "aspernatur",
       "Deleted": false,
-      "UdListDefinitionId": 872,
-      "Rank": 389
+      "UdListDefinitionId": 46,
+      "Rank": 697
     },
     {
-      "Id": 254,
-      "Name": "Hilpert-Sipes",
-      "Tooltip": "tempore",
+      "Id": 406,
+      "Name": "Kozey LLC",
+      "Tooltip": "aspernatur",
       "Deleted": false,
-      "UdListDefinitionId": 872,
-      "Rank": 389
+      "UdListDefinitionId": 46,
+      "Rank": 697
     }
   ]
 }
@@ -113,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Homenick Group",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "UdListDefinitionId": 842,
-    "Rank": 35,
+    "Id": 774,
+    "Name": "Shanahan Group",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "UdListDefinitionId": 414,
+    "Rank": 774,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 703
       }
     }
   }

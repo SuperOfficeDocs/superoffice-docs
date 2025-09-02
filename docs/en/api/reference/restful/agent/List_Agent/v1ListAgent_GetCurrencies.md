@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCurrencies
 uid: v1ListAgent_GetCurrencies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCurrencies
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Value": "autem",
-    "Tooltip": "iste",
+    "Id": 742,
+    "Value": "porro",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   },
   {
-    "Id": 354,
-    "Value": "autem",
-    "Tooltip": "iste",
+    "Id": 742,
+    "Value": "porro",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

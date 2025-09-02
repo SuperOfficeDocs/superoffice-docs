@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceDescriptionLine
 uid: v1PreferenceAgent_GetPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLine
@@ -22,11 +23,11 @@ Gets a PreferenceDescriptionLine object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| preferenceDescriptionLineId | int32 | **Required** The primary key. |
+| preferenceDescriptionLineId | int32 | **Required** The identifier of the PreferenceDescriptionLine object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=60
+POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=386
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 787,
-  "PrefDescId": 146,
-  "PrefValue": "dolore",
-  "PrefShowValue": "vel",
-  "Description": "Advanced empowering orchestration",
+  "PrefDescLineId": 27,
+  "PrefDescId": 499,
+  "PrefValue": "esse",
+  "PrefShowValue": "dignissimos",
+  "Description": "Enhanced 24 hour methodology",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

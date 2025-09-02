@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/UndeleteByIds
 uid: v1TicketAgent_UndeleteByIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/UndeleteByIds
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/Ticket/UndeleteByIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    530,
-    559
+    573,
+    250
   ]
 }
 ```

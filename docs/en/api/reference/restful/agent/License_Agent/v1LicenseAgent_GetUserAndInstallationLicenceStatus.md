@@ -2,6 +2,7 @@
 title: POST Agents/License/GetUserAndInstallationLicenceStatus
 uid: v1LicenseAgent_GetUserAndInstallationLicenceStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetUserAndInstallationLicenceStatus
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 200
+  "AssociateId": 72
 }
 ```
 
@@ -91,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2005-08-25T03:45:23.498579+02:00",
-  "ExpiryDate": "1999-12-05T03:45:23.498579+01:00",
-  "GraceDate": "2003-12-09T03:45:23.498579+01:00",
-  "CompanyName": "Batz Group",
+  "AdminWarningDate": "2022-09-16T03:46:54.9107593+02:00",
+  "ExpiryDate": "2017-02-17T03:46:54.9107593+01:00",
+  "GraceDate": "2010-08-24T03:46:54.9107593+02:00",
+  "CompanyName": "Boehm, Hahn and Hand",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "atque",
-    "iure"
+    "doloremque",
+    "dolor"
   ]
 }
 ```

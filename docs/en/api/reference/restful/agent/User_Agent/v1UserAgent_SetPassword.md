@@ -2,6 +2,7 @@
 title: POST Agents/User/SetPassword
 uid: v1UserAgent_SetPassword
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SetPassword
@@ -75,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 697,
-  "Password": "nulla"
+  "AssociateId": 89,
+  "Password": "saepe"
 }
 ```
 

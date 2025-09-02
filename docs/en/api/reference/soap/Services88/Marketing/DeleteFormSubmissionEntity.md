@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.DeleteFormSubmissionEntity SOAP
 generated: true
 uid: Services88-Marketing-DeleteFormSubmissionEntity
+content_type: reference
 ---
 
 # Services88 Marketing DeleteFormSubmissionEntity

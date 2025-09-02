@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.DeleteConnection SOAP
 generated: true
 uid: Services88-ErpSync-DeleteConnection
+content_type: reference
 ---
 
 # Services88 ErpSync DeleteConnection

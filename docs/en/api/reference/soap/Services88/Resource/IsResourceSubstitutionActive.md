@@ -2,6 +2,7 @@
 title: Services88.ResourceAgent.IsResourceSubstitutionActive SOAP
 generated: true
 uid: Services88-Resource-IsResourceSubstitutionActive
+content_type: reference
 ---
 
 # Services88 Resource IsResourceSubstitutionActive

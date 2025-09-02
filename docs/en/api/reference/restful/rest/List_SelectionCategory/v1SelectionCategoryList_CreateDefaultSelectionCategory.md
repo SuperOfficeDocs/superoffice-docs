@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Items/Default
 uid: v1SelectionCategoryList_CreateDefaultSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Skiles-Adams",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 917,
-  "Rank": 768,
+  "Id": 708,
+  "Name": "Wisozk-Murray",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "UdListDefinitionId": 389,
+  "Rank": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

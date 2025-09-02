@@ -1,6 +1,8 @@
 ---
+uid: tag-Person
 title: Person
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -51,6 +53,8 @@ generated: true
 * [GET Person/{id}/Summary](v1PersonEntity_GetPersonSummary.md)
 
 * [POST Person/Validate](v1PersonEntity_ValidatePersonEntity.md)
+
+* [GET Person/{id}/UtmParameters](v1PersonEntity_GetUtmParameters.md)
 
 * [GET Person/{id}/Simple](v1PersonEntity_Simple.md)
 

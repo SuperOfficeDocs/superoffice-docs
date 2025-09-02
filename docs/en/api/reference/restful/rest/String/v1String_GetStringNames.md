@@ -2,6 +2,7 @@
 title: GET String
 uid: v1String_GetStringNames
 generated: true
+content_type: reference
 ---
 
 # GET String
@@ -28,8 +29,8 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=nesciunt
-GET /api/v1/String?isoLangCode=reprehenderit
+GET /api/v1/String?q=ut
+GET /api/v1/String?isoLangCode=possimus
 ```
 
 
@@ -74,7 +75,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "quibusdam"
+  "repellat",
+  "consequuntur"
 ]
 ```

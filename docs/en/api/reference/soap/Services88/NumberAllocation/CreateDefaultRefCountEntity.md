@@ -2,6 +2,7 @@
 title: Services88.NumberAllocationAgent.CreateDefaultRefCountEntity SOAP
 generated: true
 uid: Services88-NumberAllocation-CreateDefaultRefCountEntity
+content_type: reference
 ---
 
 # Services88 NumberAllocation CreateDefaultRefCountEntity

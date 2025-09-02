@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteAlternative
 uid: v1QuoteAgent_GetQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteAlternative
@@ -22,11 +23,11 @@ Gets a QuoteAlternative object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| quoteAlternativeId | int32 | **Required** The primary key. |
+| quoteAlternativeId | int32 | **Required** The identifier of the QuoteAlternative object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=144
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=516
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -99,35 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 642,
-  "ERPQuoteAlternativeKey": "optio",
-  "QuoteVersionId": 843,
-  "Name": "Hansen Inc and Sons",
-  "Description": "Down-sized bi-directional algorithm",
+  "QuoteAlternativeId": 465,
+  "ERPQuoteAlternativeKey": "molestiae",
+  "QuoteVersionId": 394,
+  "Name": "Tremblay, Armstrong and Bosco",
+  "Description": "Advanced 24 hour instruction set",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22194.987999999998,
-  "ERPDiscountAmount": 4368.796,
-  "DiscountPercent": 29431.394,
-  "DiscountAmount": 9160.6819999999989,
+  "ERPDiscountPercent": 24348.046,
+  "ERPDiscountAmount": 29014.572,
+  "DiscountPercent": 8552.686,
+  "DiscountAmount": 30772.746,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "modi",
-  "VAT": 29547.352,
-  "EarningPercent": 6352.6179999999995,
-  "EarningAmount": 31224.041999999998,
-  "SubTotal": 6684.822,
-  "TotalPrice": 6133.2379999999994,
-  "ExtraField1": "in",
+  "VATInfo": "excepturi",
+  "VAT": 13122.057999999999,
+  "EarningPercent": 3870.49,
+  "EarningAmount": 22348.554,
+  "SubTotal": 18227.344,
+  "TotalPrice": 16757.498,
+  "ExtraField1": "provident",
   "ExtraField2": "earum",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "nobis",
-  "ExtraField5": "tempore",
+  "ExtraField3": "iste",
+  "ExtraField4": "eos",
+  "ExtraField5": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 246
     }
   }
 }

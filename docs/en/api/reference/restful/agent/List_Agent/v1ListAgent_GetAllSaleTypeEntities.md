@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllSaleTypeEntities
 uid: v1ListAgent_GetAllSaleTypeEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllSaleTypeEntities
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +111,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 57,
-    "Name": "Kertzmann, Gibson and Maggio",
-    "Tooltip": "nobis",
-    "Rank": 703,
+    "SaleTypeId": 709,
+    "Name": "Lemke LLC",
+    "Tooltip": "quia",
+    "Rank": 51,
     "DurationUnit": "Century",
-    "SaleDuration": 693,
-    "SaleTypeCatId": 769,
+    "SaleDuration": 893,
+    "SaleTypeCatId": 150,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 616,
-    "QuoteLinesTemplate": 380,
-    "ConfirmationLinesTemplate": 911,
+    "HasStakeholders": true,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 165,
+    "QuoteLinesTemplate": 880,
+    "ConfirmationLinesTemplate": 936,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 740,
-    "MinEarningPercent": 869,
-    "GroupQuoteLinesBy": 91,
-    "SortGroupLinesBy": 159,
+    "MaxDiscountPercent": 833,
+    "MinEarningPercent": 573,
+    "GroupQuoteLinesBy": 876,
+    "SortGroupLinesBy": 110,
     "Stages": [
       {
-        "Id": 715,
-        "Name": "Lang-Barton",
-        "ToolTip": "Sed autem et ex veritatis in vero et.",
-        "Deleted": false,
-        "Rank": 882,
-        "Type": "veritatis",
-        "ColorBlock": 739,
-        "IconHint": "voluptatem",
+        "Id": 165,
+        "Name": "O'Connell, VonRueden and Parisian",
+        "ToolTip": "Nihil est quidem sit aut.",
+        "Deleted": true,
+        "Rank": 582,
+        "Type": "omnis",
+        "ColorBlock": 74,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2006-11-23T03:45:23.5142048+01:00",
+        "LastChanged": "2012-03-02T03:46:54.9413809+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Dejon Braun",
+        "ExtraInfo": "ad",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Sylvan Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 841
+            "FieldLength": 816
           }
         }
       }
@@ -166,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 677
       }
     }
   }

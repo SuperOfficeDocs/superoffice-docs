@@ -2,6 +2,7 @@
 title: Services88.ReportAgent.CreateDefaultReportLabelLayoutEntity SOAP
 generated: true
 uid: Services88-Report-CreateDefaultReportLabelLayoutEntity
+content_type: reference
 ---
 
 # Services88 Report CreateDefaultReportLabelLayoutEntity

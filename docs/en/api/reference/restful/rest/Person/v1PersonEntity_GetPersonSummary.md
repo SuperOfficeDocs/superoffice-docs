@@ -2,6 +2,7 @@
 title: GET Person/{id}/Summary
 uid: v1PersonEntity_GetPersonSummary
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Summary
@@ -29,7 +30,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=401
+GET /api/v1/Person/{personId}/Summary?limit=126
 ```
 
 
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,79 +86,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 57,
-      "TicketStatus": 105,
-      "Title": "et",
-      "Registered": "2020-06-07T03:45:28.4828085+02:00",
-      "IconHint": "omnis"
+      "TicketId": 664,
+      "TicketStatus": 723,
+      "Title": "sint",
+      "Registered": "2002-03-18T03:47:00.1443174+01:00",
+      "IconHint": "aut"
     },
     {
-      "TicketId": 57,
-      "TicketStatus": 105,
-      "Title": "et",
-      "Registered": "2020-06-07T03:45:28.4828085+02:00",
-      "IconHint": "omnis"
+      "TicketId": 664,
+      "TicketStatus": 723,
+      "Title": "sint",
+      "Registered": "2002-03-18T03:47:00.1443174+01:00",
+      "IconHint": "aut"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 989,
-      "DocumentId": 829,
-      "Date": "2023-02-24T03:45:28.4828085+01:00",
-      "Description": "Sharable hybrid focus group",
+      "AppointmentId": 534,
+      "DocumentId": 751,
+      "Date": "2006-11-25T03:47:00.1443174+01:00",
+      "Description": "Balanced scalable throughput",
       "Completed": "Completed",
-      "Registered": "2015-05-11T03:45:28.4828085+02:00"
+      "Registered": "2009-10-01T03:47:00.1443174+02:00"
     },
     {
-      "AppointmentId": 989,
-      "DocumentId": 829,
-      "Date": "2023-02-24T03:45:28.4828085+01:00",
-      "Description": "Sharable hybrid focus group",
+      "AppointmentId": 534,
+      "DocumentId": 751,
+      "Date": "2006-11-25T03:47:00.1443174+01:00",
+      "Description": "Balanced scalable throughput",
       "Completed": "Completed",
-      "Registered": "2015-05-11T03:45:28.4828085+02:00"
+      "Registered": "2009-10-01T03:47:00.1443174+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 401,
-      "DocumentId": 150,
-      "Date": "2020-04-19T03:45:28.4828085+02:00",
-      "Description": "Open-architected interactive instruction set",
+      "AppointmentId": 570,
+      "DocumentId": 977,
+      "Date": "2016-12-27T03:47:00.1443174+01:00",
+      "Description": "Persevering even-keeled framework",
       "Completed": "Completed",
-      "Registered": "1999-10-14T03:45:28.4828085+02:00"
+      "Registered": "2014-07-28T03:47:00.1443174+02:00"
     },
     {
-      "AppointmentId": 401,
-      "DocumentId": 150,
-      "Date": "2020-04-19T03:45:28.4828085+02:00",
-      "Description": "Open-architected interactive instruction set",
+      "AppointmentId": 570,
+      "DocumentId": 977,
+      "Date": "2016-12-27T03:47:00.1443174+01:00",
+      "Description": "Persevering even-keeled framework",
       "Completed": "Completed",
-      "Registered": "1999-10-14T03:45:28.4828085+02:00"
+      "Registered": "2014-07-28T03:47:00.1443174+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 54,
-      "SaleDate": "2024-10-23T03:45:28.4828085+02:00",
-      "Probability": 512,
-      "Heading": "repellat",
-      "Amount": 11884.127999999999,
-      "Currency": "qui",
-      "AmountInBaseCurrency": 27532.19,
+      "SaleId": 365,
+      "SaleDate": "2011-10-13T03:47:00.1443174+02:00",
+      "Probability": 352,
+      "Heading": "perferendis",
+      "Amount": 7546.672,
+      "Currency": "praesentium",
+      "AmountInBaseCurrency": 20038.796,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2003-03-24T03:45:28.4828085+01:00"
+      "Registered": "2008-08-20T03:47:00.1443174+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 684,
-      "Name": "Bahringer LLC",
-      "CompanyName": "Cruickshank, Schamberger and Frami",
-      "FirstMessage": "aut",
-      "LastMessage": "ipsum",
-      "WhenRequested": "2024-07-19T03:45:28.4828085+02:00",
-      "WhenEnded": "2007-10-06T03:45:28.4828085+02:00"
+      "ChatSessionId": 507,
+      "Name": "Lubowitz Group",
+      "CompanyName": "Nienow, Waters and Block",
+      "FirstMessage": "ipsa",
+      "LastMessage": "consequatur",
+      "WhenRequested": "2000-07-10T03:47:00.1443174+02:00",
+      "WhenEnded": "2022-07-04T03:47:00.1443174+02:00"
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: Services88.TicketAgent SOAP
 uid: Services88-Ticket-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Ticket SOAP

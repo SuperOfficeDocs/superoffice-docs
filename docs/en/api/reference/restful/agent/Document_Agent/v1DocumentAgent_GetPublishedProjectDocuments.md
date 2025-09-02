@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPublishedProjectDocuments
 uid: v1DocumentAgent_GetPublishedProjectDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPublishedProjectDocuments
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 257
+  "ProjectId": 424
 }
 ```
 
@@ -108,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 154,
-    "Attention": "optio",
-    "Header": "a",
-    "Name": "O'Connell-McKenzie",
-    "OurRef": "quia",
-    "YourRef": "animi",
-    "Description": "Integrated logistical toolset",
-    "DocumentTemplate": "tempore",
+    "DocumentId": 133,
+    "Attention": "suscipit",
+    "Header": "id",
+    "Name": "Waelchi, Keebler and Berge",
+    "OurRef": "et",
+    "YourRef": "voluptatem",
+    "Description": "Decentralized zero defect definition",
+    "DocumentTemplate": "quia",
     "IsPublished": false,
-    "PersonId": 214,
-    "PersonFullName": "Lauretta Ortiz",
-    "AssociateFullName": "Vaughn Tillman",
-    "ContactId": 995,
-    "ContactName": "Welch LLC",
-    "ProjectId": 72,
-    "ProjectName": "Kohler Group",
-    "AssociateId": 787,
-    "Snum": 726,
-    "SaleId": 611,
-    "SaleName": "Gleichner, Koelpin and Feest",
+    "PersonId": 938,
+    "PersonFullName": "Pat Labadie III",
+    "AssociateFullName": "Ms. Johnnie Logan Kuhic",
+    "ContactId": 663,
+    "ContactName": "Schmitt-Ferry",
+    "ProjectId": 921,
+    "ProjectName": "Deckow-Skiles",
+    "AssociateId": 579,
+    "Snum": 270,
+    "SaleId": 953,
+    "SaleName": "Rau Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 572
       }
     }
   }

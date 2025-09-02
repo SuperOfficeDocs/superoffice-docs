@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DeleteDash
 uid: v1DashAgent_DeleteDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DeleteDash
@@ -22,10 +23,10 @@ Deletes the Dash
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| DashId | int32 | **Required** The id of the Dash to be deleted. |
+| dashId | int32 | **Required** The identity of the Dash |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?DashId=538
+POST /api/v1/Agents/Dash/DeleteDash?dashId=209
 ```
 
 

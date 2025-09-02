@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Items/{id}/UserGroups
 uid: v1ReasonSoldList_GetReasonSoldUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Schoen-Tromp",
-    "ToolTip": "Id repudiandae perferendis magnam quam quia odio explicabo.",
+    "Id": 552,
+    "Name": "Veum LLC",
+    "ToolTip": "Tempora ut excepturi.",
     "Deleted": false,
-    "Rank": 553,
-    "Type": "eaque",
-    "ColorBlock": 132,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2018-01-07T03:45:29.2015441+01:00",
+    "Rank": 74,
+    "Type": "dolor",
+    "ColorBlock": 63,
+    "IconHint": "animi",
+    "Selected": true,
+    "LastChanged": "2024-12-06T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Breitenberg-Osinski",
-        "ToolTip": "Eveniet at omnis.",
+        "Id": 416,
+        "Name": "Schaden-Beier",
+        "ToolTip": "Deserunt vel ex atque quibusdam expedita.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "aperiam",
-        "ColorBlock": 525,
-        "IconHint": "dolor",
+        "Rank": 336,
+        "Type": "nesciunt",
+        "ColorBlock": 58,
+        "IconHint": "eligendi",
         "Selected": true,
-        "LastChanged": "2015-03-12T03:45:29.2015441+01:00",
+        "LastChanged": "2011-12-22T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "dolor",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Audra Lindgren V",
+        "FullName": "Fatima Thiel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 505
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "architecto",
+    "ExtraInfo": "et",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Ms. Alyson Rodriguez",
+    "FullName": "Kendrick Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldLength": 311
       }
     }
   }

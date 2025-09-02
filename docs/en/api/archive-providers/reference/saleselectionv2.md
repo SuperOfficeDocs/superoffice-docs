@@ -3,9 +3,9 @@ uid: SaleSelectionV2
 title: SaleSelectionV2
 description: This is the archive Provider for the Selection sale archive.
 keywords: SaleSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleSelectionV2"
@@ -1330,7 +1330,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=person/rank,contact/NumberOfNotCompletedSalesInPeriod,associate/simultaneousEjUser,appointment/updatedBy,appointment/associate/usergroup
+GET /api/v1/archive/SaleSelectionV2?$select=person/birthDay,person/updatedByWorkflow,person/personAddress/city,person/personUdef/SuperOffice:10,person/personExtra/y_rental/x_start
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

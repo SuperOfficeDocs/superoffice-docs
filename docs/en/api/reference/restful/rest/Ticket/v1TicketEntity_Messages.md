@@ -2,6 +2,7 @@
 title: GET Ticket/{id}/Messages
 uid: v1TicketEntity_Messages
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/{id}/Messages
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket/{id}/Messages?$select=name,department,category/id
 GET /api/v1/Ticket/{id}/Messages?$filter=name begins 'S'
 GET /api/v1/Ticket/{id}/Messages?$orderBy=name asc
-GET /api/v1/Ticket/{id}/Messages?$entities=eos
-GET /api/v1/Ticket/{id}/Messages?$top=672
-GET /api/v1/Ticket/{id}/Messages?$skip=15
+GET /api/v1/Ticket/{id}/Messages?$entities=sint
+GET /api/v1/Ticket/{id}/Messages?$top=539
+GET /api/v1/Ticket/{id}/Messages?$skip=871
 GET /api/v1/Ticket/{id}/Messages?$mode=Full
 GET /api/v1/Ticket/{id}/Messages?$options=GrandTotal=true
-GET /api/v1/Ticket/{id}/Messages?$context=sunt
+GET /api/v1/Ticket/{id}/Messages?$context=et
 GET /api/v1/Ticket/{id}/Messages?$format=JSON
-GET /api/v1/Ticket/{id}/Messages?$jsonSafe=False
+GET /api/v1/Ticket/{id}/Messages?$jsonSafe=True
 GET /api/v1/Ticket/{id}/Messages?$output=Display
 ```
 
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Ticket/{id}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eos",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 1666,
-      "EntityName": "person",
-      "personId": 1666,
-      "fullName": "Meggie Nolan"
+      "PrimaryKey": 7715,
+      "EntityName": "sale",
+      "saleId": 7715,
+      "contactId": 4768,
+      "name": "Rowe LLC"
     },
     {
-      "PrimaryKey": 8023,
-      "EntityName": "person",
-      "personId": 8023,
-      "fullName": "Lavina Walter"
+      "PrimaryKey": 3531,
+      "EntityName": "sale",
+      "saleId": 3531,
+      "contactId": 8745,
+      "name": "Koelpin-Kiehn"
     }
   ]
 }

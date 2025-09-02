@@ -2,6 +2,7 @@
 title: PATCH DashTheme/{id}
 uid: v1DashTheme_PatchDashTheme
 generated: true
+content_type: reference
 ---
 
 # PATCH DashTheme/{id}
@@ -119,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "quod",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "quod",
     "value": {}
   }
 ]
@@ -137,23 +138,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 102,
-  "Name": "McLaughlin Inc and Sons",
-  "Config": "architecto",
-  "Rank": 735,
-  "Client": "vitae",
-  "Style": "soluta",
+  "DashboardThemeId": 571,
+  "Name": "Lindgren-Schmitt",
+  "Config": "itaque",
+  "Rank": 906,
+  "Client": "repudiandae",
+  "Style": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

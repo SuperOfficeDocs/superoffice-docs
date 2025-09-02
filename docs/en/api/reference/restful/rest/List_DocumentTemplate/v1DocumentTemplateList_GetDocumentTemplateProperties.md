@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Property
 uid: v1DocumentTemplateList_GetDocumentTemplateProperties
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Property
@@ -74,7 +75,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "velit",
-  "2": "velit"
+  "1": "cumque",
+  "2": "quis"
 }
 ```

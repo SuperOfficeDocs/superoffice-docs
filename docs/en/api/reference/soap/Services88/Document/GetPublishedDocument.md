@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetPublishedDocument SOAP
 generated: true
 uid: Services88-Document-GetPublishedDocument
+content_type: reference
 ---
 
 # Services88 Document GetPublishedDocument

@@ -3,9 +3,9 @@ uid: formsubmissionstatusprovider
 title: formsubmissionstatusprovider
 keywords: mdoprovider mdo provider formsubmissionstatusprovider
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formsubmissionstatusprovider" MDO List

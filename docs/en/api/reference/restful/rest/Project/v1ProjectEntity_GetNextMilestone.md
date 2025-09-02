@@ -2,6 +2,7 @@
 title: GET Project/{id}/NextMilestone
 uid: v1ProjectEntity_GetNextMilestone
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/NextMilestone
@@ -98,6 +99,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -112,7 +114,7 @@ OK
 GET /api/v1/Project/{projectId}/NextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,66 +124,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 251,
-  "StartDate": "2011-09-18T03:45:28.5140572+02:00",
-  "EndDate": "2000-01-09T03:45:28.5140572+01:00",
+  "AppointmentId": 938,
+  "StartDate": "2024-01-24T03:47:00.1911895+01:00",
+  "EndDate": "1999-12-28T03:47:00.1911895+01:00",
   "Type": "BookingForChecklist",
-  "Task": "explicabo",
-  "AssociateFullName": "Demario Gibson PhD",
-  "ContactName": "Swaniawski, Windler and Gislason",
-  "Description": "Managed foreground interface",
-  "PersonFullName": "Silas Keeling DDS",
-  "PersonId": 461,
-  "ContactId": 155,
-  "ProjectId": 578,
-  "ProjectName": "Hodkiewicz LLC",
+  "Task": "quia",
+  "AssociateFullName": "Jaden Weissnat",
+  "ContactName": "Mayer Group",
+  "Description": "Assimilated value-added algorithm",
+  "PersonFullName": "Ismael Parisian",
+  "PersonId": 918,
+  "ContactId": 755,
+  "ProjectId": 997,
+  "ProjectName": "Maggio, Lang and Hilpert",
   "IsPublished": false,
-  "AssociateId": 517,
-  "ColorIndex": 47,
-  "IsFree": true,
+  "AssociateId": 69,
+  "ColorIndex": 68,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 794,
-  "PriorityName": "Weissnat LLC",
+  "PriorityId": 216,
+  "PriorityName": "Heller-Pfeffer",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2012-05-30T03:45:28.5140572+02:00",
+  "IsBookingMain": true,
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2003-06-15T03:47:00.1911895+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2014-04-29T03:45:28.5140572+02:00",
-  "RecurringEndDate": "2012-08-16T03:45:28.5140572+02:00",
-  "MotherId": 593,
-  "AssignedBy": 822,
-  "AssignedByFullName": "Mrs. Coty Sage Robel",
+  "RecurringStartDate": "2011-07-17T03:47:00.1911895+02:00",
+  "RecurringEndDate": "2015-02-18T03:47:00.1911895+01:00",
+  "MotherId": 727,
+  "AssignedBy": 32,
+  "AssignedByFullName": "Winfield Domenico Rippin III",
   "RejectReason": "",
-  "Location": "quam",
-  "AlarmLeadTime": "id",
-  "SaleId": 563,
-  "SaleName": "Hilpert-Homenick",
-  "AssociateName": "Reinger LLC",
-  "CreatedDate": "2006-06-22T03:45:28.5296817+02:00",
-  "CreatedBy": "dignissimos",
-  "CreatedByFullName": "Cody Moore",
-  "CreatedByAssociateId": 129,
+  "Location": "sed",
+  "AlarmLeadTime": "et",
+  "SaleId": 516,
+  "SaleName": "Lueilwitz Group",
+  "AssociateName": "Zieme LLC",
+  "CreatedDate": "2000-06-05T03:47:00.1911895+02:00",
+  "CreatedBy": "sint",
+  "CreatedByFullName": "Enos Turcotte",
+  "CreatedByAssociateId": 289,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 289,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 69,
-  "Title": "facilis",
-  "Agenda": "temporibus",
-  "InternalNotes": "vitae",
+  "PreferredTZLocation": 761,
+  "Title": "id",
+  "Agenda": "blanditiis",
+  "InternalNotes": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 950
     }
   }
 }

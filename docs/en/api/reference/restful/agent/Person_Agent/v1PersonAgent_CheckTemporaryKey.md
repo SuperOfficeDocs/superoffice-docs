@@ -2,6 +2,7 @@
 title: POST Agents/Person/CheckTemporaryKey
 uid: v1PersonAgent_CheckTemporaryKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/CheckTemporaryKey
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "quidem"
+  "TemporaryKey": "nostrum"
 }
 ```
 
@@ -93,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 119,
-  "PersonId": 108,
-  "IsExpired": false,
-  "Payload": "qui",
+  "TargetId": 976,
+  "PersonId": 198,
+  "IsExpired": true,
+  "Payload": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 79
     }
   }
 }

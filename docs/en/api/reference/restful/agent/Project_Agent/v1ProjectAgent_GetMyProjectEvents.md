@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetMyProjectEvents
 uid: v1ProjectAgent_GetMyProjectEvents
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetMyProjectEvents
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,34 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Miss Laron Gene Paucek DVM",
-    "Description": "Progressive 3rd generation implementation",
-    "ProjectId": 611,
-    "EventName": "Willms, Ankunding and Olson",
-    "AssociateId": 861,
+    "AssociateFullName": "Corrine Considine",
+    "Description": "Assimilated intermediate open architecture",
+    "ProjectId": 316,
+    "EventName": "Tromp-McKenzie",
+    "AssociateId": 318,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "quaerat",
-    "SignOffText": "totam",
-    "SignOnConfirmationText": "natus",
-    "SignOnText": "quas",
-    "EventDate": "2003-10-20T03:45:23.7798203+02:00",
-    "Enabled": true,
+    "SignOffConfirmationText": "aut",
+    "SignOffText": "nobis",
+    "SignOnConfirmationText": "sequi",
+    "SignOnText": "qui",
+    "EventDate": "2014-09-15T03:46:55.1757421+02:00",
+    "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 6,
-    "SignOnTaskId": 422,
-    "SignOffTriggersAssign": true,
+    "SignOffTaskEnable": true,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 452,
+    "SignOnTaskId": 106,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 745,
-    "SignOffPersonId": 706,
+    "SignOnPersonId": 604,
+    "SignOffPersonId": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   }

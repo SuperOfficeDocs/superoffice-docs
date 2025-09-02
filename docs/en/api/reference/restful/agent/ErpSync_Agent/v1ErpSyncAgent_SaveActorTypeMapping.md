@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/SaveActorTypeMapping
 uid: v1ErpSyncAgent_SaveActorTypeMapping
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/SaveActorTypeMapping
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 617,
-  "IsActive": true,
+  "ErpConnectionId": 840,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 934,
-      "CrmFieldKey": "eos",
-      "CrmDisplayName": "Brown Inc and Sons",
-      "CrmDisplayTooltip": "quasi",
-      "ErpFieldKey": "excepturi",
+      "ErpFieldId": 713,
+      "CrmFieldKey": "quis",
+      "CrmDisplayName": "Becker Group",
+      "CrmDisplayTooltip": "porro",
+      "ErpFieldKey": "commodi",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Johns-Denesik",
-      "ErpDisplayTooltip": "quisquam",
-      "SyncToCrm": true,
-      "SyncToErp": false,
+      "ErpDisplayName": "Kuvalis Group",
+      "ErpDisplayTooltip": "expedita",
+      "SyncToCrm": false,
+      "SyncToErp": true,
       "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "magni",
+      "ListReference": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 354
+          "FieldType": "System.Int32",
+          "FieldLength": 701
         }
       }
     }
@@ -131,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

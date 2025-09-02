@@ -2,6 +2,7 @@
 title: GET List/Source/Items/{id}/Headings
 uid: v1SourceList_GetSourceHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Hilpert Inc and Sons",
-    "ToolTip": "Ullam nesciunt praesentium dolorem eos nesciunt cumque.",
+    "Id": 589,
+    "Name": "Veum, Zemlak and Grady",
+    "ToolTip": "Ut explicabo nostrum praesentium velit.",
     "Deleted": false,
-    "Rank": 955,
-    "Type": "nemo",
-    "ColorBlock": 35,
-    "IconHint": "repudiandae",
+    "Rank": 26,
+    "Type": "velit",
+    "ColorBlock": 239,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2010-10-22T03:45:29.2327869+02:00",
+    "LastChanged": "2006-07-23T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Trantow Group",
-        "ToolTip": "Facilis eaque quo.",
+        "Id": 64,
+        "Name": "Kutch, Stark and Moore",
+        "ToolTip": "Adipisci blanditiis velit expedita.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "et",
-        "ColorBlock": 867,
-        "IconHint": "ex",
+        "Rank": 486,
+        "Type": "nisi",
+        "ColorBlock": 761,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2007-11-12T03:45:29.2327869+01:00",
+        "LastChanged": "2008-11-27T03:47:00.8317917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "aut",
+        "ExtraInfo": "est",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mrs. Alexie Fisher III",
+        "FullName": "Prof. Hildegard Davin Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldType": "System.String",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "fuga",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Hazle Gerhold",
+    "FullName": "Estell McGlynn DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

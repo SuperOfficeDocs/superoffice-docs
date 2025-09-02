@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictionGroup
 uid: v1FindAgent_SaveRestrictionGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictionGroup
@@ -68,15 +69,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "VonRueden-Stehr",
-  "StorageKey": "dolores",
+  "StorageType": "cum",
+  "ProviderName": "Cole, Keebler and Oberbrunner",
+  "StorageKey": "dolore",
   "RestrictionGroup": null,
-  "Context": "nihil"
+  "Context": "vitae"
 }
 ```
 

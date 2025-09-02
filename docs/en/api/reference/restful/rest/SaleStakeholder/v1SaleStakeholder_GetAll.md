@@ -2,6 +2,7 @@
 title: GET SaleStakeholder
 uid: v1SaleStakeholder_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET SaleStakeholder
@@ -70,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=eius
-GET /api/v1/SaleStakeholder?$top=170
-GET /api/v1/SaleStakeholder?$skip=593
+GET /api/v1/SaleStakeholder?$entities=rem
+GET /api/v1/SaleStakeholder?$top=390
+GET /api/v1/SaleStakeholder?$skip=154
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=quam
+GET /api/v1/SaleStakeholder?$context=optio
 GET /api/v1/SaleStakeholder?$format=JSON
-GET /api/v1/SaleStakeholder?$jsonSafe=False
+GET /api/v1/SaleStakeholder?$jsonSafe=True
 GET /api/v1/SaleStakeholder?$output=Display
 ```
 
@@ -118,7 +119,7 @@ OK
 GET /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "possimus",
   "value": [
     {
-      "PrimaryKey": 1623,
-      "EntityName": "person",
-      "personId": 1623,
-      "fullName": "Ms. Jerod Frederic Bernier MD"
+      "PrimaryKey": 3490,
+      "EntityName": "sale",
+      "saleId": 3490,
+      "contactId": 5138,
+      "name": "Wiza LLC"
     },
     {
-      "PrimaryKey": 4816,
-      "EntityName": "person",
-      "personId": 4816,
-      "fullName": "Mr. Emmett Allison Steuber III"
+      "PrimaryKey": 8916,
+      "EntityName": "sale",
+      "saleId": 8916,
+      "contactId": 4611,
+      "name": "Brekke, Krajcik and McKenzie"
     }
   ]
 }

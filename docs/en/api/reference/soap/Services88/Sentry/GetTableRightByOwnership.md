@@ -2,6 +2,7 @@
 title: Services88.SentryAgent.GetTableRightByOwnership SOAP
 generated: true
 uid: Services88-Sentry-GetTableRightByOwnership
+content_type: reference
 ---
 
 # Services88 Sentry GetTableRightByOwnership

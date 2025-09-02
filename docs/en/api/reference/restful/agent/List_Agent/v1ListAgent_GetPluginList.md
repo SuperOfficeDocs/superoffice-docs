@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPluginList
 uid: v1ListAgent_GetPluginList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPluginList
@@ -71,6 +72,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "minus",
-  "2": "provident"
+  "2": "nulla"
 }
 ```

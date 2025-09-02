@@ -2,6 +2,7 @@
 title: POST Agents/Find/PopulateRestrictionValues
 uid: v1FindAgent_PopulateRestrictionValues
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/PopulateRestrictionValues
@@ -82,21 +83,21 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Funk-Lueilwitz",
-      "Operator": "quia",
+      "Name": "Schuster, Parker and Rippin",
+      "Operator": "est",
       "Values": [
-        "inventore",
-        "dignissimos"
+        "quo",
+        "harum"
       ],
       "DisplayValues": [
-        "et",
-        "consequatur"
+        "ex",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 380,
+      "InterParenthesis": 721,
       "InterOperator": "And",
-      "UniqueHash": 368
+      "UniqueHash": 403
     }
   ]
 }
@@ -120,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hyatt LLC",
-    "Operator": "praesentium",
+    "Name": "Lang, Oberbrunner and Hettinger",
+    "Operator": "ex",
     "Values": [
-      "culpa",
-      "quia"
+      "qui",
+      "iste"
     ],
     "DisplayValues": [
-      "ullam",
-      "consectetur"
+      "hic",
+      "qui"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Gutmann, Bahringer and Metz",
-        "Operator": "maxime",
+        "Name": "Schuster-Langworth",
+        "Operator": "quibusdam",
         "Values": [
-          "tempore",
-          "quasi"
+          "in",
+          "ad"
         ],
         "DisplayValues": [
-          "eius",
-          "est"
+          "aut",
+          "exercitationem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 625,
+        "InterParenthesis": 106,
         "InterOperator": "And",
-        "UniqueHash": 910
+        "UniqueHash": 457
       }
     ],
-    "InterParenthesis": 494,
+    "InterParenthesis": 972,
     "InterOperator": "And",
-    "UniqueHash": 868
+    "UniqueHash": 550
   }
 ]
 ```

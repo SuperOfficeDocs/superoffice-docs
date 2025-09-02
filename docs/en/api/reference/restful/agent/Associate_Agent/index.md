@@ -1,6 +1,8 @@
 ---
+uid: tag-Associate_Agent
 title: Associate_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

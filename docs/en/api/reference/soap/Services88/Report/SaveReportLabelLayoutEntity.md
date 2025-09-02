@@ -2,6 +2,7 @@
 title: Services88.ReportAgent.SaveReportLabelLayoutEntity SOAP
 generated: true
 uid: Services88-Report-SaveReportLabelLayoutEntity
+content_type: reference
 ---
 
 # Services88 Report SaveReportLabelLayoutEntity

@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.SaveCentralLicense SOAP
 generated: true
 uid: Services88-License-SaveCentralLicense
+content_type: reference
 ---
 
 # Services88 License SaveCentralLicense

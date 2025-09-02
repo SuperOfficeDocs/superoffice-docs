@@ -2,6 +2,7 @@
 title: POST Agents/AI/Translate
 uid: v1AIAgent_Translate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/Translate
@@ -75,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "amet",
-  "TargetLanguage": "consequatur"
+  "Text": "est",
+  "TargetLanguage": "placeat"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vel"
+"rerum"
 ```

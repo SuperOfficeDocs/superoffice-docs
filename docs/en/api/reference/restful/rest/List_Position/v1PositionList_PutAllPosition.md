@@ -2,6 +2,7 @@
 title: PUT List/Position/Items
 uid: v1PositionList_PutAllPosition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Schuppe, Bode and Kassulke",
-    "Tooltip": "aspernatur",
-    "Deleted": true,
-    "UdListDefinitionId": 796,
-    "Rank": 87
+    "Id": 35,
+    "Name": "Murray, Hoppe and Dooley",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "UdListDefinitionId": 514,
+    "Rank": 833
   },
   {
-    "Id": 526,
-    "Name": "Schuppe, Bode and Kassulke",
-    "Tooltip": "aspernatur",
-    "Deleted": true,
-    "UdListDefinitionId": 796,
-    "Rank": 87
+    "Id": 35,
+    "Name": "Murray, Hoppe and Dooley",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "UdListDefinitionId": 514,
+    "Rank": 833
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Grady Group",
-    "Tooltip": "omnis",
+    "Id": 465,
+    "Name": "Pacocha LLC",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 989,
-    "Rank": 965,
+    "UdListDefinitionId": 631,
+    "Rank": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

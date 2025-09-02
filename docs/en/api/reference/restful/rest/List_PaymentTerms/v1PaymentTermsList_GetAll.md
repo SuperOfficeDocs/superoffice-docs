@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/Items
 uid: v1PaymentTermsList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Hermiston Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 917,
-    "Rank": 491,
+    "Id": 323,
+    "Name": "Rodriguez LLC",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "UdListDefinitionId": 776,
+    "Rank": 856,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 431
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectEventEntityFromProjectId
 uid: v1ProjectAgent_GetProjectEventEntityFromProjectId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectEventEntityFromProjectId
@@ -102,11 +103,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 899
+  "ProjectId": 266
 }
 ```
 
@@ -117,94 +118,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "doloremque",
-  "SignOffText": "corporis",
-  "SignOnConfirmationText": "laboriosam",
-  "SignOnText": "ut",
-  "EventDate": "1998-04-19T03:45:23.7798203+02:00",
+  "SignOffConfirmationText": "quaerat",
+  "SignOffText": "et",
+  "SignOnConfirmationText": "quis",
+  "SignOnText": "fuga",
+  "EventDate": "2024-02-29T03:46:55.1757421+01:00",
   "Enabled": false,
-  "CreatedDate": "2012-02-06T03:45:23.7798203+01:00",
+  "CreatedDate": "2015-03-31T03:46:55.1757421+02:00",
   "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 653,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 328,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 42,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2017-08-04T03:45:23.7798203+02:00",
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 412,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2021-03-18T03:46:55.1757421+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 386,
-  "Id": 34,
-  "PublishFrom": "2011-07-09T03:45:23.7798203+02:00",
+  "ProjectId": 742,
+  "Id": 581,
+  "PublishFrom": "2008-09-26T03:46:55.1757421+02:00",
   "PublishType": "External",
-  "PublishTo": "2006-11-28T03:45:23.7798203+01:00",
+  "PublishTo": "2012-09-17T03:46:55.1757421+02:00",
   "VisibleForCategories": [
     {
-      "Id": 998,
-      "Name": "King, Mante and Dietrich",
-      "ToolTip": "Mollitia iure illum sit sint at.",
+      "Id": 915,
+      "Name": "Williamson Group",
+      "ToolTip": "Eius dolorum libero.",
       "Deleted": true,
-      "Rank": 128,
-      "Type": "in",
+      "Rank": 86,
+      "Type": "dolores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "expedita",
-      "ColorBlock": 326,
-      "ExtraInfo": "est",
-      "StyleHint": "quasi",
-      "FullName": "Emelie Corkery I",
+      "IconHint": "enim",
+      "ColorBlock": 695,
+      "ExtraInfo": "expedita",
+      "StyleHint": "magni",
+      "FullName": "Anastasia Gutmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 261,
-      "Name": "Windler, Murazik and Bode",
-      "ToolTip": "Corporis repudiandae sapiente.",
-      "Deleted": false,
-      "Rank": 48,
-      "Type": "et",
+      "Id": 521,
+      "Name": "Kihn, Roberts and Labadie",
+      "ToolTip": "Fugiat qui.",
+      "Deleted": true,
+      "Rank": 70,
+      "Type": "natus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vel",
-      "ColorBlock": 851,
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "voluptatem",
-      "FullName": "Chauncey Legros",
+      "IconHint": "rem",
+      "ColorBlock": 574,
+      "ExtraInfo": "nihil",
+      "StyleHint": "et",
+      "FullName": "Miss Darren Cummerata Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 897,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

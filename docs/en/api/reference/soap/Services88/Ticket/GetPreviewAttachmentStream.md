@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetPreviewAttachmentStream SOAP
 generated: true
 uid: Services88-Ticket-GetPreviewAttachmentStream
+content_type: reference
 ---
 
 # Services88 Ticket GetPreviewAttachmentStream

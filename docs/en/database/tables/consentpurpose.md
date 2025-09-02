@@ -2,10 +2,10 @@
 uid: table-ConsentPurpose
 title: ConsentPurpose table
 description: GDPR purpose alternatives
-so.generated: true
+generated: true
 keywords: database table ConsentPurpose
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ConsentPurpose Table (469)

@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetForeignDevice
 uid: v1ForeignSystemAgent_GetForeignDevice
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetForeignDevice
@@ -22,11 +23,11 @@ Gets a ForeignDevice object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| foreignDeviceId | int32 | **Required** The primary key. |
+| foreignDeviceId | int32 | **Required** The identifier of the ForeignDevice object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=667
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=833
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +86,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 556,
-  "Name": "Gorczany Group",
-  "CreatedDate": "2010-12-05T03:45:23.498579+01:00",
-  "UpdatedDate": "2003-03-12T03:45:23.498579+01:00",
-  "AssociateFullName": "Graham Graham",
-  "CreatedBy": "velit",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "saepe",
-  "ForeignAppId": 519,
+  "ForeignDeviceId": 886,
+  "Name": "Rosenbaum Inc and Sons",
+  "CreatedDate": "2006-10-30T03:46:54.9107593+01:00",
+  "UpdatedDate": "2005-12-21T03:46:54.9107593+01:00",
+  "AssociateFullName": "Garland Zboncak PhD",
+  "CreatedBy": "inventore",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "quaerat",
+  "ForeignAppId": 852,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

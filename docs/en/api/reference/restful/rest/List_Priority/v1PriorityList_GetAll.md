@@ -2,6 +2,7 @@
 title: GET List/Priority/Items
 uid: v1PriorityList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Items
@@ -25,7 +26,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=False
+GET /api/v1/List/Priority/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Roberts, Becker and Purdy",
-    "Tooltip": "assumenda",
+    "Id": 402,
+    "Name": "Wolf-Kirlin",
+    "Tooltip": "iure",
     "Deleted": false,
-    "UdListDefinitionId": 532,
-    "Rank": 416,
+    "UdListDefinitionId": 517,
+    "Rank": 859,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 266
       }
     }
   }

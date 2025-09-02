@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteTicketTypeEntity SOAP
 generated: true
 uid: Services88-List-DeleteTicketTypeEntity
+content_type: reference
 ---
 
 # Services88 List DeleteTicketTypeEntity

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplate
 uid: v1ListAgent_GetDocumentTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplate
@@ -22,11 +23,11 @@ Gets a DocumentTemplate object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| documentTemplateId | int32 | **Required** The primary key. |
+| documentTemplateId | int32 | **Required** The identifier of the DocumentTemplate object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=59
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=536
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -87,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 817,
-  "Name": "Bins, Armstrong and McGlynn",
-  "Tooltip": "ut",
-  "SaveInDb": 733,
-  "Filename": "et",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 134,
+  "Name": "Hills, Cremin and Paucek",
+  "Tooltip": "qui",
+  "SaveInDb": 574,
+  "Filename": "deserunt",
+  "DefaultOref": "quis",
   "RecordType": "Appointment",
-  "Deleted": 740,
+  "Deleted": 646,
   "Direction": "Incoming",
-  "AutoeventId": 826,
+  "AutoeventId": 340,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Document/UdefLayout
 uid: v1DocumentEntity_GetUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Document/UdefLayout
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 445,
-    "ColumnId": 70,
-    "FieldDefault": "ea",
-    "FieldHeight": 968,
-    "FieldLabel": "hic",
-    "FieldLeft": 646,
-    "FieldTop": 112,
+    "UDefFieldId": 361,
+    "ColumnId": 392,
+    "FieldDefault": "qui",
+    "FieldHeight": 395,
+    "FieldLabel": "nemo",
+    "FieldLeft": 836,
+    "FieldTop": 784,
     "FieldType": "Checkbox",
-    "FieldWidth": 272,
-    "FormatMask": "maiores",
+    "FieldWidth": 107,
+    "FormatMask": "aut",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 36,
-    "LabelLeft": 938,
-    "LabelTop": 129,
-    "LabelWidth": 916,
-    "LastVersionId": 758,
-    "ListTableId": 98,
-    "IsMandatory": false,
+    "LabelHeight": 305,
+    "LabelLeft": 554,
+    "LabelTop": 989,
+    "LabelWidth": 91,
+    "LastVersionId": 420,
+    "ListTableId": 69,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 805,
-    "ProgId": "dolores",
+    "Page1LineNo": 803,
+    "ProgId": "enim",
     "IsReadOnly": true,
-    "ShortLabel": "omnis",
-    "TabOrder": 862,
-    "TextLength": 784,
-    "Tooltip": "exercitationem",
-    "UdefIdentity": 183,
-    "UDListDefinitionId": 359,
+    "ShortLabel": "harum",
+    "TabOrder": 188,
+    "TextLength": 756,
+    "Tooltip": "error",
+    "UdefIdentity": 69,
+    "UDListDefinitionId": 88,
     "Justification": "Center",
-    "Version": 232,
-    "TemplateVariableName": "Hartmann Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Hyatt LLC",
+    "Version": 275,
+    "TemplateVariableName": "Konopelski, Runolfsdottir and Borer",
+    "HasBeenPublished": true,
+    "MdoListName": "Dibbert-Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 715
       }
     }
   }

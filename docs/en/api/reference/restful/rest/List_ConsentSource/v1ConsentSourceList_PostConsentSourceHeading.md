@@ -2,6 +2,7 @@
 title: POST List/ConsentSource/Headings
 uid: v1ConsentSourceList_PostConsentSourceHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ConsentSource/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 920,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 870,
-  "UdListDefinitionId": 303
+  "HeadingId": 72,
+  "Name": "O'Reilly Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 717,
+  "UdListDefinitionId": 994
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 988,
-  "Name": "Bayer-Doyle",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 381,
-  "UdListDefinitionId": 229,
+  "HeadingId": 250,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 913,
+  "UdListDefinitionId": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldLength": 192
     }
   }
 }

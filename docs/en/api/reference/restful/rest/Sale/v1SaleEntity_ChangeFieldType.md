@@ -2,6 +2,7 @@
 title: POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1SaleEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -104,7 +105,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +115,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 815,
-  "ColumnId": 966,
-  "FieldDefault": "eveniet",
-  "FieldHeight": 67,
-  "FieldLabel": "id",
-  "FieldLeft": 735,
-  "FieldTop": 847,
+  "UDefFieldId": 922,
+  "ColumnId": 543,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 640,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 56,
+  "FieldTop": 561,
   "FieldType": "Checkbox",
-  "FieldWidth": 275,
-  "FormatMask": "accusantium",
+  "FieldWidth": 225,
+  "FormatMask": "quo",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 220,
-  "LabelLeft": 942,
-  "LabelTop": 378,
-  "LabelWidth": 254,
-  "LastVersionId": 722,
-  "ListTableId": 469,
+  "LabelHeight": 746,
+  "LabelLeft": 588,
+  "LabelTop": 697,
+  "LabelWidth": 302,
+  "LastVersionId": 427,
+  "ListTableId": 853,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 462,
-  "ProgId": "ex",
+  "Page1LineNo": 308,
+  "ProgId": "voluptate",
   "IsReadOnly": false,
-  "ShortLabel": "magni",
-  "TabOrder": 949,
-  "TextLength": 917,
-  "Tooltip": "earum",
-  "UdefIdentity": 12,
-  "UDListDefinitionId": 917,
+  "ShortLabel": "iusto",
+  "TabOrder": 547,
+  "TextLength": 689,
+  "Tooltip": "reiciendis",
+  "UdefIdentity": 607,
+  "UDListDefinitionId": 108,
   "Justification": "Center",
-  "Version": 102,
-  "TemplateVariableName": "Hackett, Stiedemann and O'Keefe",
+  "Version": 43,
+  "TemplateVariableName": "Schroeder-Abernathy",
   "HasBeenPublished": true,
-  "MdoListName": "Abernathy, Ondricka and Hartmann",
+  "MdoListName": "Hegmann-Kohler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 437
     }
   }
 }

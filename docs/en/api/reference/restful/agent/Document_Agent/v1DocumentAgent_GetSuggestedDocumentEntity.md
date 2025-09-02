@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetSuggestedDocumentEntity
 uid: v1DocumentAgent_GetSuggestedDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetSuggestedDocumentEntity
@@ -22,11 +23,11 @@ Gets a SuggestedDocumentEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| suggestedDocumentEntityId | int32 | **Required** The primary key. |
+| suggestedDocumentEntityId | int32 | **Required** The identifier of the SuggestedDocumentEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=642
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=184
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,14 +88,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 131,
-  "Name": "Murphy-Braun",
-  "Tooltip": "consequatur",
-  "Rank": 604,
-  "DoctmplId": 435,
-  "Header": "laborum",
-  "OurRef": "quo",
-  "Deleted": false,
+  "SuggestedDocumentId": 175,
+  "Name": "Treutel, Boehm and Jaskolski",
+  "Tooltip": "voluptas",
+  "Rank": 126,
+  "DoctmplId": 514,
+  "Header": "quasi",
+  "OurRef": "esse",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -103,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 404
     }
   }
 }

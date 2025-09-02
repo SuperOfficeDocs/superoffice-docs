@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserGroupList
 uid: v1UserAgent_GetUserGroupList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserGroupList
@@ -47,7 +48,7 @@ POST /api/v1/Agents/User/GetUserGroupList?$select=name,department,category/id
 
 ## Request Body: userGroupIds 
 
-The primary keys. 
+The identifiers of the UserGroup object 
 
 
 ## Response:array
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroupList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,17 +88,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "voluptatem",
-    "Tooltip": "et",
-    "Id": 649,
-    "Rank": 800,
-    "Deleted": false,
+    "Value": "a",
+    "Tooltip": "omnis",
+    "Id": 536,
+    "Rank": 692,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldLength": 264
       }
     }
   }

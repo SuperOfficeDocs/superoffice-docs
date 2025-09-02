@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.SetActivityStatus SOAP
 generated: true
 uid: Services88-Appointment-SetActivityStatus
+content_type: reference
 ---
 
 # Services88 Appointment SetActivityStatus

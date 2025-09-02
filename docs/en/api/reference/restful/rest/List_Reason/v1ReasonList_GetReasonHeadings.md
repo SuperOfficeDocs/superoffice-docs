@@ -2,6 +2,7 @@
 title: GET List/Reason/Headings
 uid: v1ReasonList_GetReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 823,
-    "Name": "Mante-Bruen",
-    "Tooltip": "nostrum",
+    "HeadingId": 749,
+    "Name": "Kirlin Group",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 27,
-    "UdListDefinitionId": 971,
+    "Rank": 714,
+    "UdListDefinitionId": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 386
       }
     }
   }

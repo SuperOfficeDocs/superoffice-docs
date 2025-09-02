@@ -2,6 +2,7 @@
 title: POST List/DeliveryType/Items
 uid: v1DeliveryTypeList_PostDeliveryType
 generated: true
+content_type: reference
 ---
 
 # POST List/DeliveryType/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 420,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "UdListDefinitionId": 853,
-  "Rank": 668
+  "Id": 724,
+  "Name": "Rosenbaum, Torphy and Yundt",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 420,
+  "Rank": 212
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Moore LLC",
-  "Tooltip": "sequi",
+  "Id": 871,
+  "Name": "Lakin Inc and Sons",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 318,
-  "Rank": 426,
+  "UdListDefinitionId": 36,
+  "Rank": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   }
 }

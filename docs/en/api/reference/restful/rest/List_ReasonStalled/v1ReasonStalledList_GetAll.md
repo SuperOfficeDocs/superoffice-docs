@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/Items
 uid: v1ReasonStalledList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Trantow-Goldner",
-    "Tooltip": "ea",
+    "Id": 1002,
+    "Name": "Hills-Rau",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "UdListDefinitionId": 151,
-    "Rank": 192,
+    "UdListDefinitionId": 476,
+    "Rank": 120,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 19
       }
     }
   }

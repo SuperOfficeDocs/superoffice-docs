@@ -2,6 +2,7 @@
 title: POST Agents/List/GetVisibleForUserGroupsFromListName
 uid: v1ListAgent_GetVisibleForUserGroupsFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetVisibleForUserGroupsFromListName
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bernier Group",
-  "ListItemId": 722
+  "UdListDefinitionName": "Turcotte-Treutel",
+  "ListItemId": 813
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Johnston-Cronin",
-    "ToolTip": "Quis eos architecto quo sed vel nihil quia.",
+    "Id": 371,
+    "Name": "Jacobs Inc and Sons",
+    "ToolTip": "At et impedit sequi sed perferendis porro.",
     "Deleted": false,
-    "Rank": 109,
-    "Type": "tempore",
-    "ColorBlock": 623,
-    "IconHint": "quisquam",
-    "Selected": false,
-    "LastChanged": "2018-11-03T03:45:23.5298295+01:00",
+    "Rank": 668,
+    "Type": "rerum",
+    "ColorBlock": 466,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2012-08-07T03:46:54.9882491+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Haag, Bartell and Moore",
-        "ToolTip": "Aut harum id dolorem ad nisi.",
-        "Deleted": true,
-        "Rank": 510,
-        "Type": "vitae",
-        "ColorBlock": 472,
-        "IconHint": "laudantium",
+        "Id": 953,
+        "Name": "Halvorson-Block",
+        "ToolTip": "Nostrum aliquam odio neque exercitationem.",
+        "Deleted": false,
+        "Rank": 615,
+        "Type": "illo",
+        "ColorBlock": 527,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "1998-11-18T03:45:23.5298295+01:00",
+        "LastChanged": "2018-10-28T03:46:54.9882491+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "inventore",
+        "ExtraInfo": "tempora",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Judge Abshire",
+        "FullName": "Rylee Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldType": "System.String",
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "error",
+    "ExtraInfo": "nulla",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Katrina Aglae Padberg PhD",
+    "FullName": "Macy Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

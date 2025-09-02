@@ -2,6 +2,7 @@
 title: POST List/ReasonStalled/Headings
 uid: v1ReasonStalledList_PostReasonStalledHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ReasonStalled/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 310,
-  "Name": "Ullrich, Eichmann and Hills",
-  "Tooltip": "alias",
+  "HeadingId": 32,
+  "Name": "Lubowitz-Wunsch",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 276,
-  "UdListDefinitionId": 147
+  "Rank": 362,
+  "UdListDefinitionId": 218
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 576,
-  "Name": "Ritchie-Pollich",
-  "Tooltip": "consequatur",
+  "HeadingId": 527,
+  "Name": "Schimmel, Stanton and Erdman",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 278,
-  "UdListDefinitionId": 192,
+  "Rank": 195,
+  "UdListDefinitionId": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 412
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetVisibleForUserGroup SOAP
 generated: true
 uid: Services88-List-SetVisibleForUserGroup
+content_type: reference
 ---
 
 # Services88 List SetVisibleForUserGroup

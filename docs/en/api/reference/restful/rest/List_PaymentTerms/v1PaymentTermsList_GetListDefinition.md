@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm
 uid: v1PaymentTermsList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Hammes LLC",
-  "Tooltip": "voluptate",
+  "Id": 922,
+  "Name": "Klein, Bailey and Pfannerstill",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 307,
-  "IsCustomList": true,
+  "Rank": 921,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "praesentium",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 683
     }
   },
   "_Links": {

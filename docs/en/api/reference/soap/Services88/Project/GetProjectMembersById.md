@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.GetProjectMembersById SOAP
 generated: true
 uid: Services88-Project-GetProjectMembersById
+content_type: reference
 ---
 
 # Services88 Project GetProjectMembersById

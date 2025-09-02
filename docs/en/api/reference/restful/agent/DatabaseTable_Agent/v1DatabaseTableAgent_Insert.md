@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/Insert
 uid: v1DatabaseTableAgent_Insert
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/Insert
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hagenes-Gorczany",
+  "TableName": "Steuber Inc and Sons",
   "Columns": [
-    "facere",
-    "ut"
+    "voluptatibus",
+    "possimus"
   ],
   "Data": [
     [
@@ -109,41 +110,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "dolor",
-  "Inserts": 79,
-  "Updates": 883,
-  "Deletes": 978,
+  "Success": true,
+  "Message": "aut",
+  "Inserts": 130,
+  "Updates": 700,
+  "Deletes": 958,
   "RowStatus": [
     {
-      "PrimaryKey": 759,
+      "PrimaryKey": 523,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "odit",
-        "repudiandae"
+        "est",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 696
         }
       }
     },
     {
-      "PrimaryKey": 759,
+      "PrimaryKey": 523,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "odit",
-        "repudiandae"
+        "est",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 696
         }
       }
     }
@@ -153,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 24
     }
   }
 }

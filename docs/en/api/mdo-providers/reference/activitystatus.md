@@ -3,9 +3,9 @@ uid: activitystatus
 title: activitystatus
 keywords: mdoprovider mdo provider activitystatus
 description: MDO provider for the ActivityStatus enum - NotStarted, Started, Completed
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "activitystatus" MDO List

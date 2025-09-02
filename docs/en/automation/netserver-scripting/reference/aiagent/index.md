@@ -2,20 +2,18 @@
 uid: aiagent-script-events
 title: AIAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # AIAgent method listing
 
 Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger server-side event scripts.
 
+* [AnalyzeBizCardImageAsync](analyzebizcardimageasync.md)
+* [AnalyzeBizCardTextAsync](analyzebizcardtextasync.md)
 * [AnswerAcceptedAsync](answeracceptedasync.md)
 * [AnswerAsync](answerasync.md)
 * [AnswerFeedbackAsync](answerfeedbackasync.md)
@@ -42,3 +40,4 @@ Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger
 * [TrainCategoryGuesserAsync](traincategoryguesserasync.md)
 * [TranslateAsync](translateasync.md)
 * [TranslateEntityAsync](translateentityasync.md)
+

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetLink SOAP
 generated: true
 uid: Services88-List-GetLink
+content_type: reference
 ---
 
 # Services88 List GetLink

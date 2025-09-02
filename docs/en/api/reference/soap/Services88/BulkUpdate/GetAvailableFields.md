@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.GetAvailableFields SOAP
 generated: true
 uid: Services88-BulkUpdate-GetAvailableFields
+content_type: reference
 ---
 
 # Services88 BulkUpdate GetAvailableFields

@@ -2,6 +2,7 @@
 title: Services88.ImportAgent.SaveImport SOAP
 generated: true
 uid: Services88-Import-SaveImport
+content_type: reference
 ---
 
 # Services88 Import SaveImport

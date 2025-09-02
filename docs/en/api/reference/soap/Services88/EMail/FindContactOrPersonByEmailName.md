@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.FindContactOrPersonByEmailName SOAP
 generated: true
 uid: Services88-EMail-FindContactOrPersonByEmailName
+content_type: reference
 ---
 
 # Services88 EMail FindContactOrPersonByEmailName

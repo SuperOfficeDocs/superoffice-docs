@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/WebAppUsageExistsInPeriod
 uid: v1DiagnosticsAgent_WebAppUsageExistsInPeriod
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/WebAppUsageExistsInPeriod
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 658,
-  "ViewState": "enim",
-  "FromDate": "2008-02-21T03:45:23.2798335+01:00"
+  "AssociateId": 751,
+  "ViewState": "sit",
+  "FromDate": "2002-03-23T03:46:54.6132622+01:00"
 }
 ```
 

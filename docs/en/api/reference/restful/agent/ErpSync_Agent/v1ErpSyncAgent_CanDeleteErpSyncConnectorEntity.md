@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 uid: v1ErpSyncAgent_CanDeleteErpSyncConnectorEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/CanDeleteErpSyncConnectorEntity
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectorId": 487
+  "ErpSyncConnectorId": 562
 }
 ```
 

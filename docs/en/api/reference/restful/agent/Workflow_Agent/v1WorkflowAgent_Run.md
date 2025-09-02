@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/Run
 uid: v1WorkflowAgent_Run
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/Run
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/Run
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2009-04-09T03:45:24.2173078+02:00"
+"2018-09-14T03:46:55.6601001+02:00"
 ```

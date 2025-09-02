@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ForceSyncAll SOAP
 generated: true
 uid: Services88-ErpSync-ForceSyncAll
+content_type: reference
 ---
 
 # Services88 ErpSync ForceSyncAll

@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent SOAP
 uid: Services88-License-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 License SOAP

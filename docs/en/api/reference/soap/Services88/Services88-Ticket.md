@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Ticket
 title: Services88.TicketAgent WSDL
+content_type: reference
 ---
 
 # Services88.TicketAgent WSDL
@@ -321,6 +322,8 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -337,6 +340,24 @@ title: Services88.TicketAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:complexType name="TicketCategoryEntity">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -509,24 +530,6 @@ title: Services88.TicketAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="TicketStatusTimeCounter" nillable="true" type="tns:TicketStatusTimeCounter" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:simpleType name="TicketSecurityLevel">
         <xs:annotation>
           <xs:appinfo>
@@ -1776,7 +1779,8 @@ title: Services88.TicketAgent WSDL
               <xs:enumeration value="ChatSessionTransfered" />
               <xs:enumeration value="Hotlist" />
               <xs:enumeration value="Custom" />
-              <xs:enumeration value="UndefinedValue2048" />
+              <xs:enumeration value="ContactAssignment" />
+              <xs:enumeration value="UndefinedValue4096" />
             </xs:restriction>
           </xs:simpleType>
         </xs:list>

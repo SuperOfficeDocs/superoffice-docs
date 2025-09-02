@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetWindowPosSize SOAP
 generated: true
 uid: Services88-Configuration-GetWindowPosSize
+content_type: reference
 ---
 
 # Services88 Configuration GetWindowPosSize

@@ -3,9 +3,9 @@ uid: targettypes
 title: targettypes
 keywords: mdoprovider mdo provider targettypes
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "targettypes" MDO List

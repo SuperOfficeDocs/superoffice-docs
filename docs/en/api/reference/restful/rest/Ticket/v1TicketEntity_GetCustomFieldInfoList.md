@@ -2,6 +2,7 @@
 title: GET Ticket/CustomField
 uid: v1TicketEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Koelpin-Cronin",
-    "DisplayName": "Swift, Gutmann and Lubowitz",
-    "Description": "Expanded impactful synergy",
-    "ShortLabel": "quo",
+    "FieldName": "Runolfsson, Barton and Ullrich",
+    "DisplayName": "Johns LLC",
+    "Description": "Front-line interactive moderator",
+    "ShortLabel": "adipisci",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 263,
-    "TemplateVariableName": "Mayer, Stokes and Kutch"
+    "IsDisplayField": true,
+    "Rank": 8,
+    "TemplateVariableName": "Witting LLC"
   }
 ]
 ```

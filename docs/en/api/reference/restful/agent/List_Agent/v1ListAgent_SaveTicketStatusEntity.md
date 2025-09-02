@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveTicketStatusEntity
 uid: v1ListAgent_SaveTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveTicketStatusEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 ```
 
-Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is empty
+Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: ticketStatusEntity 
 
-The TicketStatusEntity to be saved. 
+The TicketStatusEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,17 +76,17 @@ OK
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 890,
-  "Name": "Senger-Smitham",
+  "TicketStatusId": 920,
+  "Name": "Gislason-Kovacek",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": false
+  "UsedInQueue": true
 }
 ```
 
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 129,
-  "Name": "Denesik, Bode and Runolfsdottir",
+  "TicketStatusId": 520,
+  "Name": "Murphy, Ward and Johnston",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldLength": 981
     }
   }
 }

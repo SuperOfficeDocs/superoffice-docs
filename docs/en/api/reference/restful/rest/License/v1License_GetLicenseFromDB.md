@@ -2,6 +2,7 @@
 title: GET License/{ownerName}
 uid: v1License_GetLicenseFromDB
 generated: true
+content_type: reference
 ---
 
 # GET License/{ownerName}
@@ -73,21 +74,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 864,
-      "NumberOfLicensesFree": 232,
-      "NumberOfLicensesAdded": 853,
-      "NumberOfLicensesNewTotal": 788,
-      "NumberOfLicensesNewFree": 316,
-      "NumberOfLicensesTotal": 286
+      "NumberOfLicensesInUse": 883,
+      "NumberOfLicensesFree": 821,
+      "NumberOfLicensesAdded": 583,
+      "NumberOfLicensesNewTotal": 600,
+      "NumberOfLicensesNewFree": 501,
+      "NumberOfLicensesTotal": 428
     }
   ],
-  "AccumulatedNextCheckDate": "2001-07-15T03:45:28.8109239+02:00"
+  "AccumulatedNextCheckDate": "2009-11-01T03:47:00.4099317+01:00"
 }
 ```

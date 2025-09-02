@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserGroup
 uid: v1UserAgent_GetUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserGroup
@@ -24,11 +25,11 @@ Gets a UserGroup object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| userGroupId | int32 | **Required** The primary key. |
+| userGroupId | int32 | **Required** The identifier of the UserGroup object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=413
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=215
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,17 +84,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ut",
-  "Tooltip": "repellendus",
-  "Id": 861,
-  "Rank": 875,
+  "Value": "omnis",
+  "Tooltip": "eveniet",
+  "Id": 615,
+  "Rank": 566,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 289
     }
   }
 }

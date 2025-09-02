@@ -2,6 +2,7 @@
 title: POST PreferenceDescription
 uid: v1PreferenceDescription_PostPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # POST PreferenceDescription
@@ -110,28 +111,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 77,
-  "Section": "aut",
-  "Key": "sunt",
-  "Name": "Walter, Terry and Douglas",
+  "PrefDescId": 90,
+  "Section": "ipsum",
+  "Key": "non",
+  "Name": "Abbott, Grady and Zemlak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line multi-tasking policy",
+  "Description": "Diverse interactive extranet",
   "IsBuiltin": false,
-  "TableName": "Bins-Raynor",
-  "UserDefinedListId": 162,
-  "Rank": 859,
-  "SubGroup": "qui",
-  "MinLevel": 641,
-  "MaxValue": 922,
-  "MinValue": 363,
-  "RequiredLicense": "accusamus"
+  "TableName": "Schultz, Crist and McDermott",
+  "UserDefinedListId": 392,
+  "Rank": 627,
+  "SubGroup": "dolores",
+  "MinLevel": 287,
+  "MaxValue": 225,
+  "MinValue": 369,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -142,30 +143,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 77,
-  "Section": "qui",
-  "Key": "dolores",
-  "Name": "Lueilwitz-Shanahan",
+  "PrefDescId": 485,
+  "Section": "unde",
+  "Key": "reiciendis",
+  "Name": "Beier, Buckridge and Schumm",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust user-facing hierarchy",
+  "Description": "Profit-focused stable time-frame",
   "IsBuiltin": false,
-  "TableName": "Hauck Inc and Sons",
-  "UserDefinedListId": 681,
-  "Rank": 379,
-  "SubGroup": "quos",
-  "MinLevel": 152,
-  "MaxValue": 433,
-  "MinValue": 340,
-  "RequiredLicense": "est",
+  "TableName": "Cremin LLC",
+  "UserDefinedListId": 94,
+  "Rank": 227,
+  "SubGroup": "ab",
+  "MinLevel": 927,
+  "MaxValue": 602,
+  "MinValue": 558,
+  "RequiredLicense": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldLength": 772
     }
   },
   "_Links": {

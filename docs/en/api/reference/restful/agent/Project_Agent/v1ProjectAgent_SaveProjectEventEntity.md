@@ -2,6 +2,7 @@
 title: POST Agents/Project/SaveProjectEventEntity
 uid: v1ProjectAgent_SaveProjectEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/SaveProjectEventEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 ```
 
-Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
+Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: projectEventEntity 
 
-The ProjectEventEntity to be saved. 
+The ProjectEventEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -121,76 +122,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "occaecati",
-  "SignOffText": "explicabo",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "enim",
-  "EventDate": "2008-12-13T03:45:23.7641958+01:00",
+  "SignOffConfirmationText": "repudiandae",
+  "SignOffText": "ut",
+  "SignOnConfirmationText": "corrupti",
+  "SignOnText": "id",
+  "EventDate": "2013-10-18T03:46:55.1601179+02:00",
   "Enabled": false,
-  "CreatedDate": "2001-11-22T03:45:23.7641958+01:00",
-  "SignOff": false,
+  "CreatedDate": "2023-10-10T03:46:55.1601179+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 721,
-  "SignOffTriggersAssign": true,
+  "SignOffTaskId": 938,
+  "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 127,
+  "SignOnTaskId": 81,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2016-10-03T03:45:23.7641958+02:00",
+  "UpdatedDate": "2002-05-13T03:46:55.1601179+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 692,
-  "Id": 63,
-  "PublishFrom": "1999-10-24T03:45:23.7641958+02:00",
+  "ProjectId": 588,
+  "Id": 92,
+  "PublishFrom": "2001-10-15T03:46:55.1601179+02:00",
   "PublishType": "External",
-  "PublishTo": "2000-03-05T03:45:23.7641958+01:00",
+  "PublishTo": "2007-03-18T03:46:55.1601179+01:00",
   "VisibleForCategories": [
     {
-      "Id": 684,
-      "Name": "Douglas, Schneider and Kilback",
-      "ToolTip": "Eos qui et et.",
-      "Deleted": true,
-      "Rank": 379,
-      "Type": "rerum",
+      "Id": 202,
+      "Name": "Jakubowski LLC",
+      "ToolTip": "Enim et.",
+      "Deleted": false,
+      "Rank": 121,
+      "Type": "beatae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 868,
-      "ExtraInfo": "quia",
-      "StyleHint": "vitae",
-      "FullName": "Marcia Dickinson"
+      "IconHint": "amet",
+      "ColorBlock": 675,
+      "ExtraInfo": "omnis",
+      "StyleHint": "quaerat",
+      "FullName": "Kale Simonis"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 714,
-      "Name": "McLaughlin Group",
-      "ToolTip": "Commodi officiis nobis quis libero nemo iure sapiente.",
+      "Id": 172,
+      "Name": "Connelly, Nitzsche and Sipes",
+      "ToolTip": "Dolorem omnis consequatur.",
       "Deleted": false,
-      "Rank": 618,
-      "Type": "consequatur",
+      "Rank": 279,
+      "Type": "dolore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 382,
+      "IconHint": "et",
+      "ColorBlock": 114,
       "ExtraInfo": "et",
-      "StyleHint": "distinctio",
-      "FullName": "Chanelle Parker"
+      "StyleHint": "amet",
+      "FullName": "Abdiel Kreiger"
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 626
+  "ProjectEventId": 47
 }
 ```
 
@@ -201,94 +202,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "dolorem",
-  "SignOffText": "possimus",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "magnam",
-  "EventDate": "2025-01-21T03:45:23.7641958+01:00",
-  "Enabled": false,
-  "CreatedDate": "2007-10-27T03:45:23.7641958+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 402,
+  "SignOffConfirmationText": "rerum",
+  "SignOffText": "perferendis",
+  "SignOnConfirmationText": "est",
+  "SignOnText": "cupiditate",
+  "EventDate": "2010-04-29T03:46:55.1601179+02:00",
+  "Enabled": true,
+  "CreatedDate": "2005-09-03T03:46:55.1601179+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 384,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 841,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2020-12-13T03:45:23.7641958+01:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 702,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2014-07-06T03:46:55.1601179+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 535,
-  "Id": 60,
-  "PublishFrom": "1998-11-16T03:45:23.7641958+01:00",
+  "ProjectId": 349,
+  "Id": 514,
+  "PublishFrom": "2007-09-25T03:46:55.1601179+02:00",
   "PublishType": "External",
-  "PublishTo": "2007-06-10T03:45:23.7641958+02:00",
+  "PublishTo": "2023-07-12T03:46:55.1601179+02:00",
   "VisibleForCategories": [
     {
-      "Id": 400,
-      "Name": "Hintz-Lang",
-      "ToolTip": "Perspiciatis sed velit voluptatum ipsam.",
-      "Deleted": false,
-      "Rank": 938,
-      "Type": "aliquam",
+      "Id": 719,
+      "Name": "Weber, VonRueden and Brekke",
+      "ToolTip": "Velit deleniti.",
+      "Deleted": true,
+      "Rank": 619,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rerum",
-      "ColorBlock": 164,
-      "ExtraInfo": "ut",
-      "StyleHint": "eius",
-      "FullName": "Mrs. Lorenzo Clare O'Connell",
+      "IconHint": "aliquam",
+      "ColorBlock": 699,
+      "ExtraInfo": "sit",
+      "StyleHint": "velit",
+      "FullName": "Mr. Veronica Elise Zboncak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 410
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 95,
-      "Name": "Rempel-Gaylord",
-      "ToolTip": "Pariatur cumque ipsa molestias reprehenderit.",
+      "Id": 942,
+      "Name": "Denesik-Kautzer",
+      "ToolTip": "Nihil odio laudantium et reprehenderit aut eaque.",
       "Deleted": true,
-      "Rank": 625,
-      "Type": "autem",
+      "Rank": 325,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 361,
-      "ExtraInfo": "velit",
-      "StyleHint": "quae",
-      "FullName": "Cali Fritsch",
+      "IconHint": "vel",
+      "ColorBlock": 333,
+      "ExtraInfo": "sit",
+      "StyleHint": "sit",
+      "FullName": "Mrs. Cathy Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldType": "System.Int32",
+          "FieldLength": 814
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 163,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 905
     }
   }
 }

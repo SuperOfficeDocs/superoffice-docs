@@ -2,6 +2,7 @@
 title: PUT List/Business
 uid: v1BusinessList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Shields Inc and Sons",
-  "Tooltip": "distinctio",
+  "Id": 997,
+  "Name": "Sipes, Labadie and Crona",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 469,
-  "IsCustomList": false,
+  "Rank": 598,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": false
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Fay LLC",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 771,
+  "Id": 231,
+  "Name": "Hauck-Kunze",
+  "Tooltip": "dolorum",
+  "Deleted": false,
+  "Rank": 419,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 659
     }
   }
 }

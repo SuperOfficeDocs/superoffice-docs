@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent SOAP
 uid: Services88-TimeZone-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 TimeZone SOAP

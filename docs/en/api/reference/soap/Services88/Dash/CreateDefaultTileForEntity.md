@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDefaultTileForEntity SOAP
 generated: true
 uid: Services88-Dash-CreateDefaultTileForEntity
+content_type: reference
 ---
 
 # Services88 Dash CreateDefaultTileForEntity

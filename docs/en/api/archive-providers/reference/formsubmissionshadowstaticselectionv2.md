@@ -3,9 +3,9 @@ uid: FormSubmissionShadowStaticSelectionV2
 title: FormSubmissionShadowStaticSelectionV2
 description: Shadow contact provider for the static FormSubmission provider.
 keywords: FormSubmissionShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionShadowStaticSelectionV2"
@@ -485,7 +485,7 @@ Shadow contact provider for the static FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowStaticSelectionV2?$select=associate/usergroupId,person/personExtra/x_person_integer,person/personAssociate/isLocation,contact/stop,contact/restrictionAddress/line2
+GET /api/v1/archive/FormSubmissionShadowStaticSelectionV2?$select=person/restrictionAddress/state,person/correspondingAssociate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

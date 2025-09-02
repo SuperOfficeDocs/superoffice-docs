@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteAllFromListDefinition SOAP
 generated: true
 uid: Services88-List-DeleteAllFromListDefinition
+content_type: reference
 ---
 
 # Services88 List DeleteAllFromListDefinition

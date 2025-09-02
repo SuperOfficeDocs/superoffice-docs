@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetSystemMessages
 uid: v1DiagnosticsAgent_GetSystemMessages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetSystemMessages
@@ -83,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 368
+  "AssociateId": 629
 }
 ```
 
@@ -95,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MessageId": 270,
-    "AssociateId": 202,
-    "OnlineappId": 633,
-    "SystemMessageId": "nihil",
-    "MarkdownMessage": "eum",
-    "Expire": "2023-09-21T03:45:23.2798335+02:00",
+    "MessageId": 977,
+    "AssociateId": 247,
+    "OnlineappId": 774,
+    "SystemMessageId": "quia",
+    "MarkdownMessage": "aut",
+    "Expire": "2013-11-20T03:46:54.6132622+01:00",
     "Type": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

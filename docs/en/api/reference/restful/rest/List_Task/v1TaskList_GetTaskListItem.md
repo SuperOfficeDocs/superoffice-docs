@@ -2,6 +2,7 @@
 title: GET List/Task/Items/{id}
 uid: v1TaskList_GetTaskListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Items/{id}
@@ -84,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 948,
-  "Value": "quia",
+  "TaskListItemId": 844,
+  "Value": "atque",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "IntentId": 808,
-  "Rank": 392,
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "IntentId": 424,
+  "Rank": 581,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
@@ -102,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 188
     }
   }
 }

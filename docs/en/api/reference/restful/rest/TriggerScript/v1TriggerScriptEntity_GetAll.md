@@ -2,6 +2,7 @@
 title: GET TriggerScript
 uid: v1TriggerScriptEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET TriggerScript
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=perferendis
-GET /api/v1/TriggerScript?$top=56
-GET /api/v1/TriggerScript?$skip=207
+GET /api/v1/TriggerScript?$entities=sint
+GET /api/v1/TriggerScript?$top=765
+GET /api/v1/TriggerScript?$skip=196
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=voluptas
+GET /api/v1/TriggerScript?$context=reiciendis
 GET /api/v1/TriggerScript?$format=JSON
 GET /api/v1/TriggerScript?$jsonSafe=True
 GET /api/v1/TriggerScript?$output=Display
@@ -118,7 +119,7 @@ OK
 GET /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maiores",
+  "odata.nextLink": "pariatur",
   "value": [
     {
-      "PrimaryKey": 7961,
-      "EntityName": "person",
-      "personId": 7961,
-      "fullName": "Mr. Giovani Maybell Tremblay III"
+      "PrimaryKey": 4160,
+      "EntityName": "sale",
+      "saleId": 4160,
+      "contactId": 7214,
+      "name": "Schmeler-Conn"
     },
     {
-      "PrimaryKey": 8893,
-      "EntityName": "person",
-      "personId": 8893,
-      "fullName": "Ms. Hipolito Oran Satterfield"
+      "PrimaryKey": 8420,
+      "EntityName": "sale",
+      "saleId": 8420,
+      "contactId": 980,
+      "name": "Moore Group"
     }
   ]
 }

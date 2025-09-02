@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultTaskListItem
 uid: v1AppointmentAgent_CreateDefaultTaskListItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultTaskListItem
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 ```
 
-Set default values into a new TaskListItem.
+Loading default values into a new TaskListItem.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -79,16 +78,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 345,
-  "Value": "adipisci",
+  "TaskListItemId": 45,
+  "Value": "dicta",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nostrum",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "IntentId": 560,
-  "Rank": 156,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IntentId": 934,
+  "Rank": 252,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -96,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

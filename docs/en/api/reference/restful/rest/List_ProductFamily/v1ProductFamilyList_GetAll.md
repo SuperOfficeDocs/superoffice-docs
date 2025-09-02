@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Items
 uid: v1ProductFamilyList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Items
@@ -25,7 +26,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Russel Inc and Sons",
-    "Tooltip": "in",
+    "Id": 230,
+    "Name": "Harris-Bashirian",
+    "Tooltip": "libero",
     "Deleted": false,
-    "UdListDefinitionId": 540,
-    "Rank": 333,
+    "UdListDefinitionId": 922,
+    "Rank": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 949
       }
     }
   }

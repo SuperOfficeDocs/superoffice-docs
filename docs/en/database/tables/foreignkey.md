@@ -2,10 +2,10 @@
 uid: table-foreignkey
 title: foreignkey table
 description: Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables.
-so.generated: true
+generated: true
 keywords: database table foreignkey
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # foreignkey Table (183)

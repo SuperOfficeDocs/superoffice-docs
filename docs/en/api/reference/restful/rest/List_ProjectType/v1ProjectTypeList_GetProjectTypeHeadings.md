@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Headings
 uid: v1ProjectTypeList_GetProjectTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Mann-Herzog",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "Rank": 660,
-    "UdListDefinitionId": 286,
+    "HeadingId": 467,
+    "Name": "Haag, Kuphal and Hermann",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "Rank": 863,
+    "UdListDefinitionId": 452,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 359
       }
     }
   }

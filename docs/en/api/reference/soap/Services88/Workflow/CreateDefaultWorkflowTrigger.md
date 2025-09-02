@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CreateDefaultWorkflowTrigger SOAP
 generated: true
 uid: Services88-Workflow-CreateDefaultWorkflowTrigger
+content_type: reference
 ---
 
 # Services88 Workflow CreateDefaultWorkflowTrigger

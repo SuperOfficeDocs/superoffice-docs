@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetConnectionsAndDisplayFields
 uid: v1ErpSyncAgent_GetConnectionsAndDisplayFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetConnectionsAndDisplayFields
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 196
+  "EntityId": 733
 }
 ```
 
@@ -99,19 +100,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 233,
-    "ConnectionName": "Christiansen, Block and Christiansen",
+    "ErpConnectionId": 210,
+    "ConnectionName": "Jast LLC",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "ex",
-        "Rank": 163,
-        "DisplayName": "Hand-Oberbrunner",
-        "DisplayDescription": "Automated scalable projection",
+        "FieldKey": "non",
+        "Rank": 12,
+        "DisplayName": "Considine-Kuhn",
+        "DisplayDescription": "Extended background system engine",
         "FieldType": "Checkbox",
-        "ListName": "VonRueden Inc and Sons",
-        "DefaultValue": "hic",
-        "MaxLength": 853,
+        "ListName": "Terry LLC",
+        "DefaultValue": "numquam",
+        "MaxLength": 101,
         "Access": "Mandatory",
         "ShowInSearch": true,
         "TableRight": null,
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 485
+            "FieldLength": 803
           }
         }
       }
@@ -127,15 +128,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "et",
-      "vitae"
+      "sed",
+      "doloribus"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 401
       }
     }
   }

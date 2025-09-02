@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.DeclineInvitationFromEmailItem SOAP
 generated: true
 uid: Services88-Appointment-DeclineInvitationFromEmailItem
+content_type: reference
 ---
 
 # Services88 Appointment DeclineInvitationFromEmailItem

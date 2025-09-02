@@ -2,6 +2,7 @@
 title: GET Selection/{id}/Members
 uid: v1SelectionEntity_GetSelectionMembersArchiveRows
 generated: true
+content_type: reference
 ---
 
 # GET Selection/{id}/Members
@@ -86,19 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quas",
+  "odata.nextLink": "repellat",
   "value": [
     {
-      "PrimaryKey": 3400,
-      "EntityName": "person",
-      "personId": 3400,
-      "fullName": "Sylvia Morar"
+      "PrimaryKey": 5683,
+      "EntityName": "sale",
+      "saleId": 5683,
+      "contactId": 5230,
+      "name": "Blick-Runolfsson"
     },
     {
-      "PrimaryKey": 9676,
-      "EntityName": "person",
-      "personId": 9676,
-      "fullName": "Jasmin Collier IV"
+      "PrimaryKey": 3796,
+      "EntityName": "sale",
+      "saleId": 3796,
+      "contactId": 8750,
+      "name": "Lowe, Brown and Oberbrunner"
     }
   ]
 }

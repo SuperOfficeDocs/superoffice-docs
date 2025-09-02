@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllSaleType
 uid: v1ListAgent_GetAllSaleType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllSaleType
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Value": "nihil",
-    "Tooltip": "ut",
+    "Id": 161,
+    "Value": "aliquam",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 980
       }
     }
   },
   {
-    "Id": 675,
-    "Value": "nihil",
-    "Tooltip": "ut",
+    "Id": 161,
+    "Value": "aliquam",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 980
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentProperties SOAP
 generated: true
 uid: Services88-Document-GetDocumentProperties
+content_type: reference
 ---
 
 # Services88 Document GetDocumentProperties

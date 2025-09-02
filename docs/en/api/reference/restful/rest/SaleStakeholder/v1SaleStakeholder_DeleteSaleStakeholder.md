@@ -2,6 +2,7 @@
 title: DEL SaleStakeholder/{id}
 uid: v1SaleStakeholder_DeleteSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # DEL SaleStakeholder/{id}

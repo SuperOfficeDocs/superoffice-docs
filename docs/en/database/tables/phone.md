@@ -2,10 +2,10 @@
 uid: table-phone
 title: phone table
 description: Contact and Person phonenumbers (+fax)
-so.generated: true
+generated: true
 keywords: database table phone
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # phone Table (8)

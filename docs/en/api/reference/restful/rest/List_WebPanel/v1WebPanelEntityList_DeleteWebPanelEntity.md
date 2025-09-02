@@ -2,6 +2,7 @@
 title: DEL List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_DeleteWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/WebPanel/Items/{id}

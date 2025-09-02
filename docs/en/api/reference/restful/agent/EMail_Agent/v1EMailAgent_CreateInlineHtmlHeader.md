@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateInlineHtmlHeader
 uid: v1EMailAgent_CreateInlineHtmlHeader
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateInlineHtmlHeader
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"vel"
 ```

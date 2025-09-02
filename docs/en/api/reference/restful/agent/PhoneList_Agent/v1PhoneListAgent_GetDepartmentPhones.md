@@ -2,6 +2,7 @@
 title: POST Agents/PhoneList/GetDepartmentPhones
 uid: v1PhoneListAgent_GetDepartmentPhones
 generated: true
+content_type: reference
 ---
 
 # POST Agents/PhoneList/GetDepartmentPhones
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 737
+  "DepartmentId": 864
 }
 ```
 
@@ -100,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(042)861-7229 x11092",
-    "PersonCellPhone": "1-137-875-3928 x765",
-    "PersonPrivatePhone": "(092)588-5836",
-    "PersonFaxNumber": "356321",
-    "PersonPagerNumber": "1314854",
-    "PersonEmail": "santa.gutkowski@kessler.info",
-    "Id": 873,
-    "Name": "Little-Nitzsche",
-    "Tooltip": "natus",
-    "UniqueId": "dolor",
+    "PersonDirectPhone": "1-028-253-8280 x2430",
+    "PersonCellPhone": "1-257-737-8496",
+    "PersonPrivatePhone": "(404)825-4615 x7826",
+    "PersonFaxNumber": "1427227",
+    "PersonPagerNumber": "1134951",
+    "PersonEmail": "lenore_rempel@dietrichzboncak.biz",
+    "Id": 580,
+    "Name": "Bosco, Brakus and Sporer",
+    "Tooltip": "saepe",
+    "UniqueId": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 501
       }
     }
   }

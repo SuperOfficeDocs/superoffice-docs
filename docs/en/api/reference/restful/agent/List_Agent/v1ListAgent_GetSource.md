@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSource
 uid: v1ListAgent_GetSource
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSource
@@ -22,11 +23,11 @@ Gets a Source object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| sourceId | int32 | **Required** The primary key. |
+| sourceId | int32 | **Required** The identifier of the Source object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSource?sourceId=693
+POST /api/v1/Agents/List/GetSource?sourceId=924
 POST /api/v1/Agents/List/GetSource?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
+  "Id": 832,
   "Value": "ea",
-  "Tooltip": "reiciendis",
+  "Tooltip": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

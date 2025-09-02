@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.ResolveTicketId SOAP
 generated: true
 uid: Services88-Ticket-ResolveTicketId
+content_type: reference
 ---
 
 # Services88 Ticket ResolveTicketId

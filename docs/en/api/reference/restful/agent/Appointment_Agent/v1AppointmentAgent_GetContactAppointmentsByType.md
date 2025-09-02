@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetContactAppointmentsByType
 uid: v1AppointmentAgent_GetContactAppointmentsByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByType
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,10 +138,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 694,
-  "StartTime": "2022-05-07T03:45:22.6704778+02:00",
-  "EndTime": "2004-04-28T03:45:22.6704778+02:00",
-  "Count": 732,
+  "ContactId": 816,
+  "StartTime": "2009-07-07T03:46:53.9726601+02:00",
+  "EndTime": "2021-07-07T03:46:53.9726601+02:00",
+  "Count": 237,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 724,
-    "StartDate": "2021-01-22T03:45:22.6704778+01:00",
-    "EndDate": "2003-09-19T03:45:22.6704778+02:00",
+    "AppointmentId": 366,
+    "StartDate": "2011-02-03T03:46:53.9726601+01:00",
+    "EndDate": "2001-12-02T03:46:53.9726601+01:00",
     "Type": "BookingForChecklist",
-    "Task": "cupiditate",
-    "AssociateFullName": "Mr. Alyce Grayce Steuber DVM",
-    "ContactName": "Schamberger-Glover",
-    "Description": "Balanced didactic functionalities",
-    "PersonFullName": "Mr. Eldon Satterfield Sr.",
-    "PersonId": 728,
-    "ContactId": 217,
-    "ProjectId": 929,
-    "ProjectName": "Denesik, Larkin and Bosco",
-    "IsPublished": true,
-    "AssociateId": 197,
-    "ColorIndex": 165,
+    "Task": "voluptate",
+    "AssociateFullName": "Cheyanne Macejkovic",
+    "ContactName": "Senger Group",
+    "Description": "Re-engineered real-time structure",
+    "PersonFullName": "Melvina Homenick",
+    "PersonId": 663,
+    "ContactId": 268,
+    "ProjectId": 430,
+    "ProjectName": "Gislason LLC",
+    "IsPublished": false,
+    "AssociateId": 441,
+    "ColorIndex": 366,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 728,
-    "PriorityName": "Dibbert-Cartwright",
+    "PriorityId": 675,
+    "PriorityName": "Lindgren, Blanda and Kuphal",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-04-28T03:45:22.6704778+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2016-08-20T03:46:53.9726601+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2025-04-07T03:45:22.6704778+02:00",
-    "RecurringEndDate": "2023-09-28T03:45:22.6704778+02:00",
-    "MotherId": 639,
-    "AssignedBy": 923,
-    "AssignedByFullName": "Aurelie Leffler",
+    "RecurringStartDate": "2011-07-24T03:46:53.9726601+02:00",
+    "RecurringEndDate": "2023-11-22T03:46:53.9726601+01:00",
+    "MotherId": 965,
+    "AssignedBy": 368,
+    "AssignedByFullName": "Heather Hauck MD",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "quisquam",
-    "SaleId": 138,
-    "SaleName": "Will Group",
-    "AssociateName": "Hahn, Ernser and Gaylord",
-    "CreatedDate": "2023-07-29T03:45:22.6704778+02:00",
-    "CreatedBy": "aspernatur",
-    "CreatedByFullName": "Ms. Zackery Purdy Jr.",
-    "CreatedByAssociateId": 180,
+    "Location": "possimus",
+    "AlarmLeadTime": "doloribus",
+    "SaleId": 270,
+    "SaleName": "Schaefer-Boyle",
+    "AssociateName": "Lebsack-Sawayn",
+    "CreatedDate": "2003-05-24T03:46:53.9726601+02:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Willie Koss",
+    "CreatedByAssociateId": 678,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 290,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 829,
-    "Title": "fugit",
-    "Agenda": "eos",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 843,
+    "Title": "qui",
+    "Agenda": "ut",
+    "InternalNotes": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldType": "System.String",
+        "FieldLength": 941
       }
     }
   }

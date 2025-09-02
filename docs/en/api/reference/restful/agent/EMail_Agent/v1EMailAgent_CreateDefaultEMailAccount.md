@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailAccount
 uid: v1EMailAgent_CreateDefaultEMailAccount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAccount
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 ```
 
-Set default values into a new EMailAccount.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailAccount.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -81,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 655,
-  "EMailAddress": "cum",
-  "AssociateId": 568,
+  "EMailAccountId": 549,
+  "EMailAddress": "expedita",
+  "AssociateId": 458,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 668,
-  "ErrorCount": 589,
+  "AccountStatus": 366,
+  "ErrorCount": 762,
   "ErrorReason": "",
-  "InboxFolder": "est",
-  "SentFolder": "a",
-  "SimpleMode": 765,
-  "LastFetch": "2018-08-06T03:45:23.4048314+02:00",
+  "InboxFolder": "aut",
+  "SentFolder": "voluptatum",
+  "SimpleMode": 154,
+  "LastFetch": "2010-05-22T03:46:54.7538824+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 791
     }
   }
 }

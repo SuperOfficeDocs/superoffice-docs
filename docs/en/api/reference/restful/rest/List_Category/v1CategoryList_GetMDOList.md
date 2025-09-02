@@ -2,6 +2,7 @@
 title: GET List/Category/MDOItems
 uid: v1CategoryList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=totam
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=nostrum
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Rolfson-Corkery",
-    "ToolTip": "Omnis ab tempora adipisci consequatur et qui.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "recusandae",
+    "Id": 897,
+    "Name": "Wilkinson-Prosacco",
+    "ToolTip": "Rerum beatae qui voluptas adipisci.",
+    "Deleted": false,
+    "Rank": 64,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Nicolas, Kassulke and Carter",
-        "ToolTip": "Saepe laudantium nostrum.",
+        "Id": 685,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "Quaerat amet velit.",
         "Deleted": false,
-        "Rank": 793,
-        "Type": "fugit",
+        "Rank": 37,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 907,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "quo",
-        "FullName": "Mr. Dave Durgan MD",
+        "IconHint": "quidem",
+        "ColorBlock": 658,
+        "ExtraInfo": "ut",
+        "StyleHint": "consequatur",
+        "FullName": "Velva Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 373
+            "FieldType": "System.Int32",
+            "FieldLength": 485
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 828,
-    "ExtraInfo": "natus",
-    "StyleHint": "id",
-    "FullName": "Kirk Monahan",
+    "IconHint": "nihil",
+    "ColorBlock": 113,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "facilis",
+    "FullName": "Rhett Schuppe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldType": "System.String",
+        "FieldLength": 863
       }
     }
   }

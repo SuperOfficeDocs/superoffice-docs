@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent SOAP
 uid: Services88-Appointment-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Appointment SOAP

@@ -2,6 +2,7 @@
 title: GET List/Currency/Items/{id}
 uid: v1CurrencyList_GetCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Items/{id}
@@ -68,7 +69,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 283,
-  "Name": "Nikolaus Group",
-  "Tooltip": "quidem",
-  "Rank": 726,
-  "Rate": 18625.362,
-  "Units": 7728.4439999999995,
+  "CurrencyId": 271,
+  "Name": "Bednar Group",
+  "Tooltip": "non",
+  "Rank": 10,
+  "Rate": 27917.672,
+  "Units": 3886.16,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

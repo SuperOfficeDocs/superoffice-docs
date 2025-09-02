@@ -2,6 +2,7 @@
 title: Services88.NumberAllocationAgent.SaveDefaultNumbering SOAP
 generated: true
 uid: Services88-NumberAllocation-SaveDefaultNumbering
+content_type: reference
 ---
 
 # Services88 NumberAllocation SaveDefaultNumbering

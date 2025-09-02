@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily/Items/{id}/UserGroups
 uid: v1ProductFamilyList_PutProductFamilyUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Wuckert Group",
-    "ToolTip": "Autem iure.",
+    "Id": 515,
+    "Name": "Dibbert, Bartoletti and Goyette",
+    "ToolTip": "Velit quia impedit laudantium dolorum rerum.",
     "Deleted": false,
-    "Rank": 394,
-    "Type": "dicta",
-    "ColorBlock": 207,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2006-08-19T03:45:29.1549343+02:00",
+    "Rank": 849,
+    "Type": "et",
+    "ColorBlock": 4,
+    "IconHint": "voluptate",
+    "Selected": true,
+    "LastChanged": "2023-03-21T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Kerluke Group",
-        "ToolTip": "In omnis eius.",
+        "Id": 142,
+        "Name": "Hilll-Effertz",
+        "ToolTip": "Architecto et.",
         "Deleted": true,
-        "Rank": 977,
-        "Type": "consectetur",
-        "ColorBlock": 247,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2006-08-29T03:45:29.1549343+02:00",
+        "Rank": 568,
+        "Type": "modi",
+        "ColorBlock": 502,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2018-07-14T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Opal Keebler"
+        "ExtraInfo": "non",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Mr. Sierra Heaney"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "qui",
+    "ExtraInfo": "sit",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Pietro Upton"
+    "FullName": "Brianne Sawayn"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 518,
-    "Name": "White, Schneider and Ziemann",
-    "ToolTip": "Consectetur ea id nostrum consequatur non culpa.",
-    "Deleted": false,
-    "Rank": 486,
-    "Type": "et",
-    "ColorBlock": 151,
-    "IconHint": "sed",
+    "Id": 829,
+    "Name": "Oberbrunner, Quigley and O'Keefe",
+    "ToolTip": "Magni ipsa totam molestias eaque autem qui.",
+    "Deleted": true,
+    "Rank": 911,
+    "Type": "est",
+    "ColorBlock": 466,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2017-10-21T03:45:29.1549343+02:00",
+    "LastChanged": "2006-10-26T03:47:00.7224209+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Daniel, Abshire and Gerlach",
-        "ToolTip": "Debitis ut officiis.",
-        "Deleted": true,
-        "Rank": 766,
-        "Type": "velit",
-        "ColorBlock": 632,
-        "IconHint": "consequatur",
+        "Id": 307,
+        "Name": "Littel Group",
+        "ToolTip": "Et qui illum amet.",
+        "Deleted": false,
+        "Rank": 796,
+        "Type": "laborum",
+        "ColorBlock": 996,
+        "IconHint": "mollitia",
         "Selected": true,
-        "LastChanged": "1999-11-09T03:45:29.1549343+01:00",
+        "LastChanged": "2008-12-22T03:47:00.7224209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Annabell Frances Ullrich MD",
+        "ExtraInfo": "enim",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Reggie Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldType": "System.String",
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mrs. Alfred Moore DVM",
+    "ExtraInfo": "est",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mr. Flossie Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 608
       }
     }
   }

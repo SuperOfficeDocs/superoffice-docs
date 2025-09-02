@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Items/{id}/Headings
 uid: v1ProjectStatusList_GetProjectStatusHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Bogan-Schmeler",
-    "ToolTip": "Ut aut sint et quis.",
+    "Id": 499,
+    "Name": "Johns-Murphy",
+    "ToolTip": "Molestiae facilis iste soluta ipsa assumenda est delectus.",
     "Deleted": true,
-    "Rank": 177,
-    "Type": "est",
-    "ColorBlock": 19,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2020-07-07T03:45:29.1703077+02:00",
+    "Rank": 285,
+    "Type": "non",
+    "ColorBlock": 225,
+    "IconHint": "inventore",
+    "Selected": false,
+    "LastChanged": "2010-01-22T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Durgan, Toy and Kuvalis",
-        "ToolTip": "Porro blanditiis tenetur aut dolores.",
+        "Id": 677,
+        "Name": "Wolf-Swaniawski",
+        "ToolTip": "Laborum ut cupiditate saepe ut distinctio.",
         "Deleted": true,
-        "Rank": 34,
-        "Type": "beatae",
-        "ColorBlock": 154,
-        "IconHint": "sint",
+        "Rank": 750,
+        "Type": "et",
+        "ColorBlock": 679,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2017-08-23T03:45:29.1703077+02:00",
+        "LastChanged": "2010-04-23T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Garnett Vesta Feil Sr.",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Yasmin Nasir Lubowitz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 118
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Ms. Fredy Grace Pollich V",
+    "ExtraInfo": "sit",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Miss Lexi Borer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 578
       }
     }
   }

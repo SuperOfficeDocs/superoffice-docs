@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetCanInsertForAssociates
 uid: v1AppointmentAgent_GetCanInsertForAssociates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetCanInsertForAssociates
@@ -68,13 +69,13 @@ OK
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    955,
-    118
+    247,
+    320
   ]
 }
 ```

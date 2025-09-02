@@ -2,13 +2,13 @@
 uid: table-workflow_root_step_link
 title: workflow_root_step_link table
 description: Link root steps to the workflow
-so.generated: true
+generated: true
 keywords: database table workflow_root_step_link
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# workflow\_root\_step\_link Table (521)
+# workflow\_root\_step\_link Table (522)
 
 Link root steps to the workflow
 

@@ -2,6 +2,7 @@
 title: DEL List/Priority/Items/{id}
 uid: v1PriorityList_DeletePriority
 generated: true
+content_type: reference
 ---
 
 # DEL List/Priority/Items/{id}

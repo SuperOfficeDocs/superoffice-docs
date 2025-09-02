@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentPurpose
 uid: v1ListAgent_GetConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentPurpose
@@ -22,11 +23,11 @@ Gets a ConsentPurpose object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| consentPurposeId | int32 | **Required** The primary key. |
+| consentPurposeId | int32 | **Required** The identifier of the ConsentPurpose object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=799
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=971
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -89,25 +90,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 623,
-  "Name": "Mraz Inc and Sons",
-  "ConsentText": "explicabo",
-  "FormText": "temporibus",
-  "Key": "voluptas",
-  "Tooltip": "ut",
-  "Active": 766,
-  "UpdatedDate": "2017-09-20T03:45:23.6235756+02:00",
+  "ConsentPurposeId": 45,
+  "Name": "Lehner Group",
+  "ConsentText": "facere",
+  "FormText": "atque",
+  "Key": "perferendis",
+  "Tooltip": "nulla",
+  "Active": 304,
+  "UpdatedDate": "2005-07-23T03:46:54.9882491+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 531,
-  "PrivacyStatementDesc": "ipsum",
+  "Rank": 966,
+  "PrivacyStatementDesc": "asperiores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

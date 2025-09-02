@@ -2,6 +2,7 @@
 title: Services88.SaleAgent SOAP
 uid: Services88-Sale-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Sale SOAP

@@ -1,6 +1,8 @@
 ---
+uid: tag-AI_Agent
 title: AI_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -17,6 +19,10 @@ generated: true
 * [POST Agents/AI/RephraseText](v1AIAgent_RephraseText.md)
 
 * [POST Agents/AI/CreateTextForAppointment](v1AIAgent_CreateTextForAppointment.md)
+
+* [POST Agents/AI/AnalyzeBizCardImage](v1AIAgent_AnalyzeBizCardImage.md)
+
+* [POST Agents/AI/AnalyzeBizCardText](v1AIAgent_AnalyzeBizCardText.md)
 
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 

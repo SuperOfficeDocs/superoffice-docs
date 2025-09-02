@@ -2,6 +2,7 @@
 title: POST List/ProductFamily/Items
 uid: v1ProductFamilyList_PostProductFamily
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductFamily/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Shields, Schamberger and Erdman",
-  "Tooltip": "enim",
+  "Id": 801,
+  "Name": "Herman-Crooks",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 672,
-  "Rank": 308
+  "UdListDefinitionId": 53,
+  "Rank": 907
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 249,
-  "Name": "McCullough Group",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "UdListDefinitionId": 794,
-  "Rank": 354,
+  "Id": 395,
+  "Name": "Bradtke LLC",
+  "Tooltip": "eius",
+  "Deleted": false,
+  "UdListDefinitionId": 171,
+  "Rank": 660,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

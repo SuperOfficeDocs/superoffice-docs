@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDepartments
 uid: v1ListAgent_GetDepartments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDepartments
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetDepartments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Value": "quisquam",
-    "Tooltip": "veniam",
+    "Id": 180,
+    "Value": "dignissimos",
+    "Tooltip": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 536
       }
     }
   },
   {
-    "Id": 419,
-    "Value": "quisquam",
-    "Tooltip": "veniam",
+    "Id": 180,
+    "Value": "dignissimos",
+    "Tooltip": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 536
       }
     }
   }

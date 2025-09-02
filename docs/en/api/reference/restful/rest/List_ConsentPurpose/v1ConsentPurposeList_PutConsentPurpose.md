@@ -2,6 +2,7 @@
 title: PUT List/ConsentPurpose/Items/{id}
 uid: v1ConsentPurposeList_PutConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentPurpose/Items/{id}
@@ -98,18 +99,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 861,
-  "Name": "Denesik LLC",
-  "ConsentText": "sit",
-  "FormText": "sint",
-  "Key": "quos",
-  "Tooltip": "totam",
-  "Active": 301,
-  "UpdatedDate": "2023-09-01T03:45:28.9827939+02:00",
+  "ConsentPurposeId": 272,
+  "Name": "Dickinson Inc and Sons",
+  "ConsentText": "ut",
+  "FormText": "debitis",
+  "Key": "quo",
+  "Tooltip": "maiores",
+  "Active": 228,
+  "UpdatedDate": "2024-05-16T03:47:00.5974251+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 717,
-  "PrivacyStatementDesc": "minima",
+  "Rank": 412,
+  "PrivacyStatementDesc": "debitis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +122,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 795,
-  "Name": "Cormier, Kunze and Dare",
-  "ConsentText": "occaecati",
-  "FormText": "qui",
-  "Key": "et",
-  "Tooltip": "et",
-  "Active": 252,
-  "UpdatedDate": "2022-07-09T03:45:28.9827939+02:00",
+  "ConsentPurposeId": 407,
+  "Name": "Lemke, Gaylord and Hodkiewicz",
+  "ConsentText": "necessitatibus",
+  "FormText": "facilis",
+  "Key": "voluptatum",
+  "Tooltip": "dicta",
+  "Active": 764,
+  "UpdatedDate": "2003-09-04T03:47:00.5974251+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 412,
-  "PrivacyStatementDesc": "ab",
+  "Rank": 968,
+  "PrivacyStatementDesc": "enim",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 938
     }
   }
 }

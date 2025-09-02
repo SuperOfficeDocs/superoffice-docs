@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetCheckoutState SOAP
 generated: true
 uid: Services88-Document-GetCheckoutState
+content_type: reference
 ---
 
 # Services88 Document GetCheckoutState

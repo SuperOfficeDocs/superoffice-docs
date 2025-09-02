@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveCurrencyEntity
 uid: v1ListAgent_SaveCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveCurrencyEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveCurrencyEntity
 ```
 
-Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty
+Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: currencyEntity 
 
-The CurrencyEntity to be saved. 
+The CurrencyEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 974,
-  "Name": "Will, Reichel and Greenfelder",
-  "Tooltip": "ut",
-  "Rank": 266,
-  "Rate": 17537.863999999998,
-  "Units": 13686.178,
+  "CurrencyId": 903,
+  "Name": "Legros, Greenfelder and Bogisich",
+  "Tooltip": "quam",
+  "Rank": 160,
+  "Rate": 19192.615999999998,
+  "Units": 15278.25,
   "Deleted": false
 }
 ```
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 312,
-  "Name": "Kerluke Group",
-  "Tooltip": "asperiores",
-  "Rank": 88,
-  "Rate": 23163.394,
-  "Units": 23150.858,
+  "CurrencyId": 232,
+  "Name": "Boyer, Braun and Bashirian",
+  "Tooltip": "atque",
+  "Rank": 740,
+  "Rate": 203.70999999999998,
+  "Units": 21718.62,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 397
     }
   }
 }

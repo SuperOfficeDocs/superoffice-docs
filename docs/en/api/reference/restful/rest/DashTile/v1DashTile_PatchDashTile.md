@@ -2,6 +2,7 @@
 title: PATCH DashTile/{id}
 uid: v1DashTile_PatchDashTile
 generated: true
+content_type: reference
 ---
 
 # PATCH DashTile/{id}
@@ -113,18 +114,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -137,18 +138,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 616,
-  "DashboardId": 555,
-  "Height": 693,
-  "Width": 596,
-  "Rank": 346,
+  "DashboardTileId": 123,
+  "DashboardId": 313,
+  "Height": 132,
+  "Width": 940,
+  "Rank": 787,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 508
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/RebuildTaskMenuDeltas
 uid: v1ConfigurationAgent_RebuildTaskMenuDeltas
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/RebuildTaskMenuDeltas
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Configuration/RebuildTaskMenuDeltas
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

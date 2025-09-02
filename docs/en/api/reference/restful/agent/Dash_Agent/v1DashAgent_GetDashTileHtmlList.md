@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashTileHtmlList
 uid: v1DashAgent_GetDashTileHtmlList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashTileHtmlList
@@ -80,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 744
+  "DashboardTileDefinitionId": 491
 }
 ```
 
@@ -92,26 +93,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "iure",
-    "Html": "quasi",
+    "LanguageCode": "animi",
+    "Html": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   },
   {
-    "LanguageCode": "iure",
-    "Html": "quasi",
+    "LanguageCode": "animi",
+    "Html": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

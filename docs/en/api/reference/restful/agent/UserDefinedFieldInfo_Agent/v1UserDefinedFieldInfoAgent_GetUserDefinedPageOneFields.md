@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 607
+  "UserGroupId": 118
 }
 ```
 
@@ -124,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 16,
-    "ColumnId": 111,
-    "FieldDefault": "nostrum",
-    "FieldHeight": 555,
-    "FieldLabel": "commodi",
-    "FieldLeft": 664,
-    "FieldTop": 797,
+    "UDefFieldId": 161,
+    "ColumnId": 751,
+    "FieldDefault": "enim",
+    "FieldHeight": 613,
+    "FieldLabel": "et",
+    "FieldLeft": 320,
+    "FieldTop": 835,
     "FieldType": "Checkbox",
-    "FieldWidth": 956,
-    "FormatMask": "ut",
-    "HideLabel": false,
+    "FieldWidth": 660,
+    "FormatMask": "doloremque",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 286,
-    "LabelLeft": 931,
-    "LabelTop": 133,
-    "LabelWidth": 579,
-    "LastVersionId": 633,
-    "ListTableId": 204,
+    "LabelHeight": 332,
+    "LabelLeft": 898,
+    "LabelTop": 567,
+    "LabelWidth": 425,
+    "LastVersionId": 115,
+    "ListTableId": 82,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 132,
-    "ProgId": "quasi",
+    "Page1LineNo": 860,
+    "ProgId": "minus",
     "IsReadOnly": false,
-    "ShortLabel": "officiis",
-    "TabOrder": 419,
-    "TextLength": 900,
-    "Tooltip": "quo",
-    "UdefIdentity": 516,
-    "UDListDefinitionId": 769,
+    "ShortLabel": "rem",
+    "TabOrder": 739,
+    "TextLength": 297,
+    "Tooltip": "dolorum",
+    "UdefIdentity": 236,
+    "UDListDefinitionId": 353,
     "Justification": "Center",
-    "Version": 947,
-    "TemplateVariableName": "Keebler-Rohan",
+    "Version": 846,
+    "TemplateVariableName": "Labadie-Schmeler",
     "HasBeenPublished": false,
-    "MdoListName": "Lemke-Schoen",
+    "MdoListName": "Rempel-Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 917
       }
     }
   }

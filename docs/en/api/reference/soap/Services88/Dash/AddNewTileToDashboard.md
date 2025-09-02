@@ -2,6 +2,7 @@
 title: Services88.DashAgent.AddNewTileToDashboard SOAP
 generated: true
 uid: Services88-Dash-AddNewTileToDashboard
+content_type: reference
 ---
 
 # Services88 Dash AddNewTileToDashboard

@@ -2,6 +2,7 @@
 title: GET DashTheme/default
 uid: v1DashTheme_DefaultDashTheme
 generated: true
+content_type: reference
 ---
 
 # GET DashTheme/default
@@ -62,7 +63,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 128,
-  "Name": "Wuckert, Kuhn and Schroeder",
-  "Config": "reprehenderit",
-  "Rank": 693,
-  "Client": "eaque",
-  "Style": "enim",
+  "DashboardThemeId": 77,
+  "Name": "Konopelski-Emmerich",
+  "Config": "porro",
+  "Rank": 843,
+  "Client": "cum",
+  "Style": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 425
     }
   }
 }

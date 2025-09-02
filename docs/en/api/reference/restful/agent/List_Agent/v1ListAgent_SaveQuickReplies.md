@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveQuickReplies
 uid: v1ListAgent_SaveQuickReplies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveQuickReplies
@@ -64,20 +65,20 @@ No Content
 POST /api/v1/Agents/List/SaveQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 491,
-      "Name": "Batz, Pacocha and Leffler",
-      "HtmlBody": "minima"
+      "QuickReplyId": 409,
+      "Name": "Ritchie-Reichert",
+      "HtmlBody": "non"
     },
     {
-      "QuickReplyId": 491,
-      "Name": "Batz, Pacocha and Leffler",
-      "HtmlBody": "minima"
+      "QuickReplyId": 409,
+      "Name": "Ritchie-Reichert",
+      "HtmlBody": "non"
     }
   ]
 }

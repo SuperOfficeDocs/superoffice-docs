@@ -2,6 +2,7 @@
 title: PUT List/ProjectStatus/Items
 uid: v1ProjectStatusList_PutAllProjectStatus
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectStatus/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Renner, Flatley and White",
-    "Tooltip": "ut",
+    "Id": 708,
+    "Name": "Zboncak, Shanahan and Terry",
+    "Tooltip": "quidem",
     "Deleted": true,
-    "UdListDefinitionId": 919,
-    "Rank": 143
+    "UdListDefinitionId": 591,
+    "Rank": 719
   },
   {
-    "Id": 386,
-    "Name": "Renner, Flatley and White",
-    "Tooltip": "ut",
+    "Id": 708,
+    "Name": "Zboncak, Shanahan and Terry",
+    "Tooltip": "quidem",
     "Deleted": true,
-    "UdListDefinitionId": 919,
-    "Rank": 143
+    "UdListDefinitionId": 591,
+    "Rank": 719
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Lind-Towne",
-    "Tooltip": "dolorem",
+    "Id": 108,
+    "Name": "Hudson, Harris and Kutch",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "UdListDefinitionId": 507,
-    "Rank": 684,
+    "UdListDefinitionId": 188,
+    "Rank": 426,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldLength": 298
       }
     }
   }

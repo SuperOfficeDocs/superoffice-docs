@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/GetNumberEachTemplate
 uid: v1NumberAllocationAgent_GetNumberEachTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/GetNumberEachTemplate
@@ -69,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

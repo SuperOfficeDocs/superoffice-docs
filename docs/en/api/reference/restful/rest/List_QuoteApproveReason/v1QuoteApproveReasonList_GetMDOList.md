@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/MDOItems
 uid: v1QuoteApproveReasonList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=qui
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=sint
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Leannon Inc and Sons",
-    "ToolTip": "Ab et.",
+    "Id": 702,
+    "Name": "Treutel, O'Kon and Prohaska",
+    "ToolTip": "Commodi est et.",
     "Deleted": false,
-    "Rank": 713,
-    "Type": "rerum",
+    "Rank": 751,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Bergnaum LLC",
-        "ToolTip": "Voluptatem repellendus.",
+        "Id": 818,
+        "Name": "Batz-Stiedemann",
+        "ToolTip": "Commodi nisi.",
         "Deleted": false,
-        "Rank": 582,
-        "Type": "et",
+        "Rank": 467,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 732,
-        "ExtraInfo": "iusto",
-        "StyleHint": "sit",
-        "FullName": "Dr. Maryam Corkery",
+        "IconHint": "maiores",
+        "ColorBlock": 230,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "ab",
+        "FullName": "Prof. Brennan Garfield Ondricka Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 598
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 339,
-    "ExtraInfo": "quam",
-    "StyleHint": "consectetur",
-    "FullName": "Mr. Narciso Harry Bartoletti DDS",
+    "IconHint": "eaque",
+    "ColorBlock": 792,
+    "ExtraInfo": "ut",
+    "StyleHint": "distinctio",
+    "FullName": "Royal Jo Konopelski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 908
       }
     }
   }

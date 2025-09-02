@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteWebPanel SOAP
 generated: true
 uid: Services88-List-DeleteWebPanel
+content_type: reference
 ---
 
 # Services88 List DeleteWebPanel

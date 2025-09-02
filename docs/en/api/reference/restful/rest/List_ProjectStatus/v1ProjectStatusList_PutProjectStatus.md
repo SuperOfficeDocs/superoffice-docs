@@ -2,6 +2,7 @@
 title: PUT List/ProjectStatus/Items/{id}
 uid: v1ProjectStatusList_PutProjectStatus
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectStatus/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "Name": "Durgan Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 612,
-  "Rank": 273
+  "Id": 475,
+  "Name": "Eichmann LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 572,
+  "Rank": 851
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Osinski, Gusikowski and Larkin",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 86,
-  "Rank": 920,
+  "Id": 305,
+  "Name": "Becker LLC",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "UdListDefinitionId": 612,
+  "Rank": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 203
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Items
 uid: v1PaymentTypeList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Wiegand Group",
-    "Tooltip": "ut",
+    "Id": 673,
+    "Name": "Kunde, Runolfsson and Gottlieb",
+    "Tooltip": "minima",
     "Deleted": false,
-    "UdListDefinitionId": 930,
-    "Rank": 58,
+    "UdListDefinitionId": 324,
+    "Rank": 351,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 770
       }
     }
   }

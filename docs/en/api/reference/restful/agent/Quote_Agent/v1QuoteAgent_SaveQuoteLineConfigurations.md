@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteLineConfigurations
 uid: v1QuoteAgent_SaveQuoteLineConfigurations
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfigurations
@@ -89,14 +90,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 101,
-      "FieldName": "Mertz, Ledner and Heidenreich",
-      "Label": "corrupti",
-      "Tooltip": "aliquid",
+      "QuoteLineConfigurationId": 816,
+      "FieldName": "Dooley-Von",
+      "Label": "modi",
+      "Tooltip": "quis",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 774,
+      "Rank": 648,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +112,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 458,
-    "FieldName": "Hoeger, Cummings and Lueilwitz",
-    "Label": "nihil",
-    "Tooltip": "in",
+    "QuoteLineConfigurationId": 700,
+    "FieldName": "Johnson, Quigley and Jewess",
+    "Label": "voluptatibus",
+    "Tooltip": "facere",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 449,
+    "Rank": 552,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldType": "System.String",
+        "FieldLength": 936
       }
     }
   }

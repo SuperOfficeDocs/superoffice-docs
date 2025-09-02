@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory
 uid: v1SelectionCategoryList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Wolff, Funk and Schiller",
-  "Tooltip": "reiciendis",
+  "Id": 281,
+  "Name": "Mann, Lesch and Kris",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 373,
+  "Rank": 677,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "D'Amore, Bosco and Bartell",
-  "Tooltip": "vel",
+  "Id": 941,
+  "Name": "Wilkinson, Hackett and Gislason",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 470,
+  "Rank": 871,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

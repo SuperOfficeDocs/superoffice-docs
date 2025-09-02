@@ -2,6 +2,7 @@
 title: POST Agents/Saint/CreateDefaultStatusMonitor
 uid: v1SaintAgent_CreateDefaultStatusMonitor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitor
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 ```
 
-Set default values into a new StatusMonitor.
+Loading default values into a new StatusMonitor.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -71,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 911,
-  "Rank": 944,
-  "DefaultTask": 462,
-  "DefaultTaskText": "porro",
+  "OwnerTable": 148,
+  "Rank": 130,
+  "DefaultTask": 583,
+  "DefaultTaskText": "qui",
   "IsVisual": false,
-  "LastGenerated": "2002-04-15T03:45:23.8423206+02:00",
-  "Description": "Stand-alone systemic approach",
-  "Name": "Leannon Group",
-  "StatusMonitorId": 845,
-  "PictureId": 213,
-  "NeedsUpdate": false,
+  "LastGenerated": "1999-07-19T03:46:55.2382402+02:00",
+  "Description": "Customizable attitude-oriented definition",
+  "Name": "Herman, Wyman and Wolf",
+  "StatusMonitorId": 982,
+  "PictureId": 996,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 702,
-  "NumNeedUpdate": 607,
-  "GenerationStart": "2002-12-31T03:45:23.8423206+01:00",
+  "NumMatches": 806,
+  "NumNeedUpdate": 940,
+  "GenerationStart": "2000-07-06T03:46:55.2382402+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

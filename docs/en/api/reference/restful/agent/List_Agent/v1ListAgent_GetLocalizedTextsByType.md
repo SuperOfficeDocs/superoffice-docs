@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLocalizedTextsByType
 uid: v1ListAgent_GetLocalizedTextsByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLocalizedTextsByType
@@ -78,13 +79,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "et",
-    "non"
+    "reprehenderit",
+    "blanditiis"
   ]
 }
 ```
@@ -97,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 408,
-    "ResourceId": 839,
-    "Text": "eum",
+    "LanguageId": 74,
+    "ResourceId": 716,
+    "Text": "et",
     "Type": "Column",
-    "LocalizedTextId": 501,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 631,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldType": "System.String",
+        "FieldLength": 164
       }
     }
   }

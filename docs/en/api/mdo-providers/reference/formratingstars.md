@@ -3,9 +3,9 @@ uid: formratingstars
 title: formratingstars
 keywords: mdoprovider mdo provider formratingstars
 description: MDO provider for the Ratings as used in forms
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formratingstars" MDO List

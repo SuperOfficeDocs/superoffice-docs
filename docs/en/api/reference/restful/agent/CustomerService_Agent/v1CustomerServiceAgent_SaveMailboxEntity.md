@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/SaveMailboxEntity
 uid: v1CustomerServiceAgent_SaveMailboxEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/SaveMailboxEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 ```
 
-Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
+Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: mailboxEntity 
 
-The MailboxEntity to be saved. 
+The MailboxEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,13 +80,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 695,
+  "MailInFilterId": 531,
   "ServerType": "Facebook",
-  "Address": "quo",
-  "Username": "aut",
-  "Password": "est",
-  "Server": "dolor",
-  "Port": 219
+  "Address": "fuga",
+  "Username": "laborum",
+  "Password": "at",
+  "Server": "laboriosam",
+  "Port": 818
 }
 ```
 
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 429,
+  "MailInFilterId": 838,
   "ServerType": "Facebook",
-  "Address": "quis",
-  "Username": "vitae",
-  "Password": "dolor",
-  "Server": "sapiente",
-  "Port": 262,
+  "Address": "ipsa",
+  "Username": "quod",
+  "Password": "minima",
+  "Server": "nulla",
+  "Port": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

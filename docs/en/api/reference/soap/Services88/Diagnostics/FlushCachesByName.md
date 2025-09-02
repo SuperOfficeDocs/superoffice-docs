@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.FlushCachesByName SOAP
 generated: true
 uid: Services88-Diagnostics-FlushCachesByName
+content_type: reference
 ---
 
 # Services88 Diagnostics FlushCachesByName

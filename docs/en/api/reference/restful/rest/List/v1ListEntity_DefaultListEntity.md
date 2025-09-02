@@ -2,6 +2,7 @@
 title: GET List/default
 uid: v1ListEntity_DefaultListEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/default
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Eichmann, Stark and Bernier",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "Rank": 430,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "Id": 633,
+  "Name": "Schroeder-Reinger",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 753,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 435
     }
   }
 }

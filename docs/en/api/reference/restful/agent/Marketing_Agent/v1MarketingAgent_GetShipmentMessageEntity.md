@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetShipmentMessageEntity
 uid: v1MarketingAgent_GetShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetShipmentMessageEntity
@@ -22,11 +23,11 @@ Gets a ShipmentMessageEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| shipmentMessageEntityId | int32 | **Required** The primary key. |
+| shipmentMessageEntityId | int32 | **Required** The identifier of the ShipmentMessageEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=31
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=911
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 21,
-  "PlainMessage": "alias",
-  "HtmlMessage": "dolorem",
-  "SmsMessage": "nihil",
-  "Description": "Seamless motivating database",
-  "Subject": "velit",
-  "FolderId": 760,
-  "HeaderField": "dolor",
-  "Design": "omnis",
+  "ShipmentMessageId": 226,
+  "PlainMessage": "omnis",
+  "HtmlMessage": "et",
+  "SmsMessage": "omnis",
+  "Description": "Fully-configurable discrete service-desk",
+  "Subject": "minima",
+  "FolderId": 378,
+  "HeaderField": "voluptatem",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Switchable zero defect toolset",
-  "AccessKey": "alias",
-  "DocumentMessage": 204,
-  "Registered": "2021-11-12T03:45:23.6391999+01:00",
-  "RegisteredAssociateId": 853,
-  "Updated": "2012-06-24T03:45:23.6391999+02:00",
-  "UpdatedAssociateId": 983,
-  "UpdatedCount": 839,
+  "LongDescription": "Advanced scalable process improvement",
+  "AccessKey": "eos",
+  "DocumentMessage": 880,
+  "Registered": "2012-12-10T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 680,
+  "Updated": "1999-02-02T03:46:55.0038735+01:00",
+  "UpdatedAssociateId": 925,
+  "UpdatedCount": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 67
     }
   }
 }

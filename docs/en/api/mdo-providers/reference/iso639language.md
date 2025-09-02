@@ -3,9 +3,9 @@ uid: iso639language
 title: iso639language
 keywords: mdoprovider mdo provider iso639language
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "iso639language" MDO List

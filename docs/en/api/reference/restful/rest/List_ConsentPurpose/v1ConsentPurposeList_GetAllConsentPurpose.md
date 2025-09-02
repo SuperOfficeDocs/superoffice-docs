@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/Items
 uid: v1ConsentPurposeList_GetAllConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/Items
@@ -69,7 +70,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +81,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 877,
-    "Name": "Krajcik-Pagac",
-    "ConsentText": "in",
-    "FormText": "excepturi",
-    "Key": "ex",
-    "Tooltip": "occaecati",
-    "Active": 25,
-    "UpdatedDate": "2002-03-28T03:45:28.9827939+01:00",
+    "ConsentPurposeId": 163,
+    "Name": "Keebler Inc and Sons",
+    "ConsentText": "praesentium",
+    "FormText": "pariatur",
+    "Key": "dicta",
+    "Tooltip": "vel",
+    "Active": 73,
+    "UpdatedDate": "2002-12-08T03:47:00.5974251+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 121,
-    "PrivacyStatementDesc": "hic",
+    "Deleted": false,
+    "Rank": 313,
+    "PrivacyStatementDesc": "aut",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 627
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST List/Country/Items
 uid: v1CountryList_PostCountry
 generated: true
+content_type: reference
 ---
 
 # POST List/Country/Items
@@ -103,24 +104,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 727,
-  "Name": "Hayes, Deckow and Dach",
-  "CurrencyId": 523,
-  "EnglishName": "Moore Group",
+  "CountryId": 818,
+  "Name": "Glover, Dickens and Gerhold",
+  "CurrencyId": 420,
+  "EnglishName": "Collier Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-channelled holistic knowledge base",
-  "OrgNrText": "482245",
-  "InterAreaPrefix": "consequuntur",
-  "DialInPrefix": "rerum",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Kris Group",
-  "AddressLayoutId": 956,
-  "DomesticAddressLayoutId": 652,
-  "ForeignAddressLayoutId": 994,
-  "Rank": 584,
-  "Tooltip": "et",
-  "Deleted": true
+  "ImageDescription": "Innovative multi-state internet solution",
+  "OrgNrText": "636140",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "eaque",
+  "ZipPrefix": "neque",
+  "DomainName": "Bergstrom LLC",
+  "AddressLayoutId": 743,
+  "DomesticAddressLayoutId": 447,
+  "ForeignAddressLayoutId": 231,
+  "Rank": 145,
+  "Tooltip": "nobis",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 719,
-  "Name": "Zboncak-Bergstrom",
-  "CurrencyId": 898,
-  "EnglishName": "VonRueden-Roob",
+  "CountryId": 660,
+  "Name": "Strosin, Hagenes and Leuschke",
+  "CurrencyId": 106,
+  "EnglishName": "Smith, Dickens and Hane",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Focused zero tolerance secured line",
-  "OrgNrText": "1005049",
-  "InterAreaPrefix": "qui",
-  "DialInPrefix": "et",
-  "ZipPrefix": "vitae",
-  "DomainName": "Smith Group",
-  "AddressLayoutId": 535,
-  "DomesticAddressLayoutId": 926,
-  "ForeignAddressLayoutId": 269,
-  "Rank": 933,
-  "Tooltip": "quasi",
+  "ImageDescription": "Streamlined modular access",
+  "OrgNrText": "991162",
+  "InterAreaPrefix": "dicta",
+  "DialInPrefix": "harum",
+  "ZipPrefix": "molestiae",
+  "DomainName": "Leuschke Inc and Sons",
+  "AddressLayoutId": 853,
+  "DomesticAddressLayoutId": 188,
+  "ForeignAddressLayoutId": 531,
+  "Rank": 561,
+  "Tooltip": "quia",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST TriggerScript
 uid: v1TriggerScriptEntity_PostTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST TriggerScript
@@ -97,20 +98,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 108,
-  "Name": "Bartoletti, Greenfelder and Mayer",
+  "ScreenChooserId": 246,
+  "Name": "Murphy Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quaerat",
-  "Source": "nihil",
-  "Registered": "2011-11-07T03:45:28.7952992+01:00",
-  "RegisteredAssociateId": 96,
-  "Updated": "2007-08-06T03:45:28.7952992+02:00",
-  "UpdatedAssociateId": 910
+  "Enabled": false,
+  "UniqueIdentifier": "mollitia",
+  "Source": "aspernatur",
+  "Registered": "2001-03-19T03:47:00.3943072+01:00",
+  "RegisteredAssociateId": 453,
+  "Updated": "2003-02-03T03:47:00.3943072+01:00",
+  "UpdatedAssociateId": 718
 }
 ```
 
@@ -121,22 +122,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 780,
-  "Name": "Brown, Corwin and Kuhic",
+  "ScreenChooserId": 392,
+  "Name": "Paucek LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sit",
-  "Source": "fuga",
-  "Registered": "2011-12-18T03:45:28.7952992+01:00",
-  "RegisteredAssociateId": 448,
-  "Updated": "2001-06-25T03:45:28.7952992+02:00",
-  "UpdatedAssociateId": 644,
+  "UniqueIdentifier": "non",
+  "Source": "nihil",
+  "Registered": "2015-04-07T03:47:00.3943072+02:00",
+  "RegisteredAssociateId": 949,
+  "Updated": "2013-09-11T03:47:00.3943072+02:00",
+  "UpdatedAssociateId": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 911
     }
   },
   "_Links": {

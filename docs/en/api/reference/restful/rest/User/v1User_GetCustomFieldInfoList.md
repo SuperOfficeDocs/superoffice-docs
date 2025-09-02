@@ -2,6 +2,7 @@
 title: GET User/CustomField
 uid: v1User_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET User/CustomField
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hane-Hansen",
-    "DisplayName": "Mayer-Abbott",
-    "Description": "Reduced modular structure",
-    "ShortLabel": "ullam",
-    "HideLabel": true,
+    "FieldName": "Labadie, Dooley and Miller",
+    "DisplayName": "Feest LLC",
+    "Description": "Focused discrete firmware",
+    "ShortLabel": "libero",
+    "HideLabel": false,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 635,
-    "TemplateVariableName": "King, Batz and Kerluke"
+    "IsDisplayField": true,
+    "Rank": 320,
+    "TemplateVariableName": "Torphy-Rempel"
   }
 ]
 ```

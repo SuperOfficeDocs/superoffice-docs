@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.CreateVideoMeetingReservation SOAP
 generated: true
 uid: Services88-Appointment-CreateVideoMeetingReservation
+content_type: reference
 ---
 
 # Services88 Appointment CreateVideoMeetingReservation

@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetAllConnections
 uid: v1ErpSyncAgent_GetAllConnections
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetAllConnections
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +106,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 803,
-    "ErpConnectorId": 925,
-    "DisplayName": "Lueilwitz Inc and Sons",
-    "DisplayDescription": "Optimized multimedia superstructure",
-    "Active": true,
-    "ConnectionId": "ipsa",
-    "MostRecentTimestamp": "voluptatem",
+    "ErpConnectionId": 70,
+    "ErpConnectorId": 858,
+    "DisplayName": "Kuhlman-Upton",
+    "DisplayDescription": "Balanced heuristic model",
+    "Active": false,
+    "ConnectionId": "pariatur",
+    "MostRecentTimestamp": "dolorem",
     "ConfigFields": {
-      "ConfigFields1": "sapiente",
-      "ConfigFields2": "numquam"
+      "ConfigFields1": "tenetur",
+      "ConfigFields2": "voluptate"
     },
     "Deleted": true,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      765,
-      167
+      544,
+      534
     ],
     "AssociateAccessIds": [
-      932,
-      72
+      495,
+      837
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 206
       }
     }
   }

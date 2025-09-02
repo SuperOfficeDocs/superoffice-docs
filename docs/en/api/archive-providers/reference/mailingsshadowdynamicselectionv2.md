@@ -3,9 +3,9 @@ uid: MailingsShadowDynamicSelectionV2
 title: MailingsShadowDynamicSelectionV2
 description: Mailings shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: MailingsShadowDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowDynamicSelectionV2"
@@ -664,7 +664,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/registeredBy,mailingAddr/contact/contactAssociate/personEmail,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod,mailingAddr/contact/LastTicket,mailingAddr/person/email/emailProtocol
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/person/personDirectPhone/description,mailingAddr/person/email/emailHasBounced,mailingAddr/person/restrictionAddress/line2,associate/assocName,emailFlow/workflowAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

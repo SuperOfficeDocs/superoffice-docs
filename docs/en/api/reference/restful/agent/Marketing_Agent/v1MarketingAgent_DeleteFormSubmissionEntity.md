@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/DeleteFormSubmissionEntity
 uid: v1MarketingAgent_DeleteFormSubmissionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/DeleteFormSubmissionEntity
@@ -22,10 +23,10 @@ Deletes the FormSubmissionEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| FormSubmissionEntityId | int32 | **Required** The id of the FormSubmissionEntity to be deleted. |
+| formSubmissionEntityId | int32 | **Required** The identity of the FormSubmissionEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?FormSubmissionEntityId=66
+POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?formSubmissionEntityId=639
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

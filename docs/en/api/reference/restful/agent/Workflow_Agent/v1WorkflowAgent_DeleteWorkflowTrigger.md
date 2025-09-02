@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/DeleteWorkflowTrigger
 uid: v1WorkflowAgent_DeleteWorkflowTrigger
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/DeleteWorkflowTrigger
@@ -22,10 +23,10 @@ Deletes the WorkflowTrigger
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| WorkflowTriggerId | int32 | **Required** The id of the WorkflowTrigger to be deleted. |
+| workflowTriggerId | int32 | **Required** The identity of the WorkflowTrigger |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?WorkflowTriggerId=289
+POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?workflowTriggerId=163
 ```
 
 

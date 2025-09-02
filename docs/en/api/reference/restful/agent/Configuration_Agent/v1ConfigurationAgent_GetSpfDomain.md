@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetSpfDomain
 uid: v1ConfigurationAgent_GetSpfDomain
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetSpfDomain
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSpfDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"enim"
+"aliquam"
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 uid: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cormier Inc and Sons",
-  "Context": "culpa"
+  "TableName": "VonRueden Inc and Sons",
+  "Context": "sapiente"
 }
 ```
 
@@ -105,76 +106,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "explicabo",
-    "ValueType": "aliquam",
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "enim",
+    "ValueType": "omnis",
     "Mandatory": false,
-    "EncodedDisplayName": "Windler, Cole and Murphy",
-    "EncodedDisplayDescription": "Open-source 6th generation application",
-    "IconHint": "id",
+    "EncodedDisplayName": "Tremblay-Swaniawski",
+    "EncodedDisplayDescription": "Down-sized mission-critical matrix",
+    "IconHint": "consequatur",
     "ControlInfos": [
       {
-        "Type": "amet",
-        "Label": "voluptatibus",
-        "Dimension": 652,
-        "ListProviderName": "Blick LLC",
-        "ListProviderExtraInfo": "illum",
-        "ListProviderPrimaryKeyName": "Conn-McGlynn",
-        "ListLeadText": "omnis",
+        "Type": "sunt",
+        "Label": "omnis",
+        "Dimension": 774,
+        "ListProviderName": "Towne Inc and Sons",
+        "ListProviderExtraInfo": "nesciunt",
+        "ListProviderPrimaryKeyName": "Turner-Roberts",
+        "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 963
+            "FieldType": "System.Int32",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "EncodedDataCaption": "natus",
-    "EncodedDataCaptionDescription": "Future-proofed impactful encryption",
-    "CurrentOperationType": "inventore",
+    "EncodedDataCaption": "eos",
+    "EncodedDataCaptionDescription": "Customer-focused dynamic support",
+    "CurrentOperationType": "quisquam",
     "Values": [
-      "aut",
-      "laboriosam"
+      "modi",
+      "neque"
     ],
     "DisplayValues": [
-      "magnam",
-      "dolore"
+      "animi",
+      "impedit"
     ],
     "OperationInfos": [
       {
-        "Key": "aut",
-        "EncodedDisplayName": "Mayert, Mraz and Stoltenberg",
+        "Key": "nobis",
+        "EncodedDisplayName": "McCullough Inc and Sons",
         "EncodedLeadTexts": [
-          "dolores",
-          "placeat"
+          "totam",
+          "cum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 421
+            "FieldLength": 933
           }
         }
       },
       {
-        "Key": "aut",
-        "EncodedDisplayName": "Mayert, Mraz and Stoltenberg",
+        "Key": "nobis",
+        "EncodedDisplayName": "McCullough Inc and Sons",
         "EncodedLeadTexts": [
-          "dolores",
-          "placeat"
+          "totam",
+          "cum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 421
+            "FieldLength": 933
           }
         }
       }

@@ -3,9 +3,9 @@ uid: CategoryMembers
 title: CategoryMembers
 description: Archive of CategoryMember - used by the web api.
 keywords: CategoryMembers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "CategoryMembers"

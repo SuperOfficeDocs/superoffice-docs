@@ -3,9 +3,9 @@ uid: FindErpProduct
 title: FindErpProduct
 description: Find products through a Quote Connector, either through the standard interface or by dispatching to a custom provider, if one is supplied.
 keywords: FindErpProduct archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FindErpProduct"

@@ -3,9 +3,9 @@ uid: quoteversionstate
 title: quoteversionstate
 keywords: mdoprovider mdo provider quoteversionstate
 description: List provider for the <see cref="T:SuperOffice.Data.QuoteVersionState" /> enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quoteversionstate" MDO List

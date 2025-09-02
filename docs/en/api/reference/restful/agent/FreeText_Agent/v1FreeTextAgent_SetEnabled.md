@@ -2,6 +2,7 @@
 title: POST Agents/FreeText/SetEnabled
 uid: v1FreeTextAgent_SetEnabled
 generated: true
+content_type: reference
 ---
 
 # POST Agents/FreeText/SetEnabled

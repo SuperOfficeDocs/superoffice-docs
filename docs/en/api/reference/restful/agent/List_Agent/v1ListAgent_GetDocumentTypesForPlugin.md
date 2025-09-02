@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTypesForPlugin
 uid: v1ListAgent_GetDocumentTypesForPlugin
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTypesForPlugin
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTypesForPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 948
+  "PluginId": 172
 }
 ```
 
@@ -85,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "a"
+  "1": "hic",
+  "2": "illum"
 }
 ```

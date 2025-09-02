@@ -2,6 +2,7 @@
 title: POST Agents/Selection/DeleteSelectionEntity
 uid: v1SelectionAgent_DeleteSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/DeleteSelectionEntity
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionEntityId": 212
+  "SelectionEntityId": 980
 }
 ```
 

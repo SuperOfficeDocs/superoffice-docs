@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetParsedTemplate
 uid: v1CustomerServiceAgent_GetParsedTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetParsedTemplate
@@ -80,14 +81,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 538,
-  "LanguageId": 182,
-  "PersonId": 998,
-  "TicketId": 451
+  "ReplyTemplateId": 485,
+  "LanguageId": 25,
+  "PersonId": 920,
+  "TicketId": 818
 }
 ```
 
@@ -98,36 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 886,
-  "PlainParsed": "aut",
-  "HtmlParsed": "qui",
+  "ReplyTemplateId": 439,
+  "PlainParsed": "eos",
+  "HtmlParsed": "enim",
   "Attachments": [
     {
-      "AttachmentId": 256,
-      "Name": "Klein Group",
-      "ContentType": "at",
-      "AttSize": 874,
+      "AttachmentId": 981,
+      "Name": "Cremin-Heller",
+      "ContentType": "veniam",
+      "AttSize": 51,
       "InlineImage": false,
-      "ContentId": "asperiores",
-      "AuthKey": "sed",
+      "ContentId": "at",
+      "AuthKey": "harum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 977
         }
       }
     }
   ],
-  "Subject": "eius",
+  "Subject": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 910
     }
   }
 }

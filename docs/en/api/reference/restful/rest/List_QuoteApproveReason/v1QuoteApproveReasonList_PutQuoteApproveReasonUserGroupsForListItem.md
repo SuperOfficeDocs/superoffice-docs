@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason/Items/{id}/UserGroups
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Pollich, Schroeder and Haag",
-    "ToolTip": "Vel dicta enim deleniti est ut.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "quia",
-    "ColorBlock": 411,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2011-03-28T03:45:29.1859346+02:00",
+    "Id": 749,
+    "Name": "Hammes-Grant",
+    "ToolTip": "Laboriosam molestias et accusantium.",
+    "Deleted": true,
+    "Rank": 984,
+    "Type": "et",
+    "ColorBlock": 856,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "1999-05-10T03:47:00.7536695+02:00",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Champlin-Herzog",
-        "ToolTip": "Commodi maxime totam rerum eos.",
+        "Id": 828,
+        "Name": "Cole Group",
+        "ToolTip": "Voluptatem provident rerum ab natus.",
         "Deleted": true,
-        "Rank": 745,
-        "Type": "incidunt",
-        "ColorBlock": 908,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2023-06-09T03:45:29.1859346+02:00",
+        "Rank": 31,
+        "Type": "doloribus",
+        "ColorBlock": 648,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2004-06-30T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "nihil",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Ms. Bernita Muller DDS"
+        "FullName": "Ms. Antonina Eve Bergstrom DVM"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Aubrey Wiza"
+    "FullName": "Lessie Dannie Murazik V"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "McCullough Group",
-    "ToolTip": "Sed porro sit aut asperiores repudiandae omnis nihil.",
-    "Deleted": true,
-    "Rank": 765,
-    "Type": "odit",
-    "ColorBlock": 45,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2018-08-14T03:45:29.1859346+02:00",
+    "Id": 86,
+    "Name": "O'Reilly, Koch and Hills",
+    "ToolTip": "Autem eligendi atque fuga libero minus praesentium mollitia.",
+    "Deleted": false,
+    "Rank": 726,
+    "Type": "fugiat",
+    "ColorBlock": 262,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2006-11-13T03:47:00.7692942+01:00",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Durgan, Dibbert and Howe",
-        "ToolTip": "Voluptas repellendus nesciunt.",
-        "Deleted": false,
-        "Rank": 959,
-        "Type": "expedita",
-        "ColorBlock": 663,
-        "IconHint": "corporis",
+        "Id": 602,
+        "Name": "Boyer-Nader",
+        "ToolTip": "Ut laudantium deleniti eius incidunt fugiat.",
+        "Deleted": true,
+        "Rank": 490,
+        "Type": "fugiat",
+        "ColorBlock": 677,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2016-03-25T03:45:29.1859346+01:00",
+        "LastChanged": "2003-06-20T03:47:00.7692942+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Rosalind Fritsch",
+        "ExtraInfo": "impedit",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Monique Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 942
+            "FieldType": "System.String",
+            "FieldLength": 636
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "et",
+    "ExtraInfo": "minima",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Keegan Steuber",
+    "FullName": "Prof. Shany Rath Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

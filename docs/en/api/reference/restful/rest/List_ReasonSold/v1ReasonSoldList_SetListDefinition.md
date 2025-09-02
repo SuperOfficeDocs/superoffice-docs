@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold
 uid: v1ReasonSoldList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold
@@ -88,16 +89,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "O'Kon Inc and Sons",
-  "Tooltip": "aperiam",
+  "Id": 997,
+  "Name": "Stroman, Spencer and Medhurst",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "Rank": 696,
+  "Rank": 615,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ducimus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Larkin, Hermann and Kling",
-  "Tooltip": "ad",
+  "Id": 794,
+  "Name": "Kovacek, Pollich and Gleason",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 171,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 916,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 552
     }
   }
 }

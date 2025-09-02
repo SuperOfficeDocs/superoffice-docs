@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.TestConnection SOAP
 generated: true
 uid: Services88-Quote-TestConnection
+content_type: reference
 ---
 
 # Services88 Quote TestConnection

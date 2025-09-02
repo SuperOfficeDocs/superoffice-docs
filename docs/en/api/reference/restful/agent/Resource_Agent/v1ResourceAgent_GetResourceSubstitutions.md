@@ -2,6 +2,7 @@
 title: POST Agents/Resource/GetResourceSubstitutions
 uid: v1ResourceAgent_GetResourceSubstitutions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Resource/GetResourceSubstitutions
@@ -83,10 +84,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Trantow, Ondricka and Braun",
-    "Abernathy, Ernser and Schmidt"
+    "Von, Kozey and Rowe",
+    "Gaylord LLC"
   ],
-  "Culture": "animi",
+  "Culture": "aliquam",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +100,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Will Group",
-    "ResourceValue": "voluptatem",
-    "Culture": "quod",
+    "ResourceName": "Koepp, Anderson and Waelchi",
+    "ResourceValue": "et",
+    "Culture": "repellendus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 556
       }
     }
   },
   {
-    "ResourceName": "Will Group",
-    "ResourceValue": "voluptatem",
-    "Culture": "quod",
+    "ResourceName": "Koepp, Anderson and Waelchi",
+    "ResourceValue": "et",
+    "Culture": "repellendus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 556
       }
     }
   }

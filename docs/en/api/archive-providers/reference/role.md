@@ -3,9 +3,9 @@ uid: Role
 title: Role
 description: Archive of Roles  - used by the web api.
 keywords: Role archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Role"

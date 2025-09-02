@@ -2,6 +2,7 @@
 title: POST Agents/EMail/SaveEMailAccount
 uid: v1EMailAgent_SaveEMailAccount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/SaveEMailAccount
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/SaveEMailAccount
 ```
 
-Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
+Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is 0.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -35,9 +36,9 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: eMailAccount 
 
-The EMailAccount to be saved. 
+The EMailAccount that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,22 +88,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 662,
-  "EMailAddress": "accusamus",
-  "AssociateId": 528,
+  "EMailAccountId": 661,
+  "EMailAddress": "odit",
+  "AssociateId": 621,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 292,
-  "ErrorCount": 373,
+  "AccountStatus": 832,
+  "ErrorCount": 278,
   "ErrorReason": "",
-  "InboxFolder": "et",
-  "SentFolder": "fugit",
-  "SimpleMode": 883,
-  "LastFetch": "2015-08-03T03:45:23.4048314+02:00"
+  "InboxFolder": "unde",
+  "SentFolder": "ratione",
+  "SimpleMode": 452,
+  "LastFetch": "2019-03-28T03:46:54.7538824+01:00"
 }
 ```
 
@@ -113,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 608,
-  "EMailAddress": "in",
-  "AssociateId": 897,
+  "EMailAccountId": 430,
+  "EMailAddress": "alias",
+  "AssociateId": 453,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 344,
-  "ErrorCount": 677,
-  "ErrorReason": "implement open-source models",
-  "InboxFolder": "veritatis",
-  "SentFolder": "earum",
-  "SimpleMode": 52,
-  "LastFetch": "2008-03-01T03:45:23.4048314+01:00",
+  "AccountStatus": 400,
+  "ErrorCount": 308,
+  "ErrorReason": "evolve integrated users",
+  "InboxFolder": "similique",
+  "SentFolder": "sit",
+  "SimpleMode": 977,
+  "LastFetch": "2003-03-16T03:46:54.7538824+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT ForeignApp/{appName}
 uid: v1ForeignAppEntity_PostForeignApp_PUT
 generated: true
+content_type: reference
 ---
 
 # PUT ForeignApp/{appName}
@@ -67,7 +68,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 202,
-  "Name": "Anderson, Beatty and Reilly",
-  "CreatedDate": "2005-09-26T03:45:28.3578119+02:00",
-  "UpdatedDate": "2008-12-21T03:45:28.3578119+01:00",
+  "ForeignAppId": 972,
+  "Name": "Abbott-Hickle",
+  "CreatedDate": "2016-05-17T03:47:00.0193121+02:00",
+  "UpdatedDate": "2008-09-01T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 971,
-      "Name": "Mraz, Stokes and Klocko",
-      "CreatedDate": "2010-01-31T03:45:28.3578119+01:00",
-      "UpdatedDate": "2025-01-19T03:45:28.3578119+01:00",
-      "AssociateFullName": "Dimitri Beer",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "minus",
-      "DeviceIdentifier": "labore",
-      "ForeignAppId": 820,
+      "ForeignDeviceId": 929,
+      "Name": "Olson, Harvey and Batz",
+      "CreatedDate": "1999-02-04T03:47:00.0193121+01:00",
+      "UpdatedDate": "2012-09-13T03:47:00.0193121+02:00",
+      "AssociateFullName": "Ms. Karen Jevon Stroman",
+      "CreatedBy": "a",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "possimus",
+      "ForeignAppId": 244,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 430
         }
       }
     }
@@ -109,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldLength": 321
     }
   }
 }

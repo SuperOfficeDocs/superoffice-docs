@@ -2,6 +2,7 @@
 title: PUT Role/{id}
 uid: v1RoleEntity_PutRoleEntity
 generated: true
+content_type: reference
 ---
 
 # PUT Role/{id}
@@ -107,16 +108,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 992,
-  "Name": "Brekke LLC",
-  "Tooltip": "quis",
+  "RoleId": 36,
+  "Name": "Rohan LLC",
+  "Tooltip": "iusto",
   "RoleType": "Anonymous",
-  "Deleted": 70,
-  "Rank": 597,
-  "Created": "2015-03-25T03:45:28.5296817+01:00",
-  "UseCategories": 617,
+  "Deleted": 483,
+  "Rank": 858,
+  "Created": "2014-08-26T03:47:00.2068137+02:00",
+  "UseCategories": 107,
   "CreatedBy": null,
-  "Updated": "2025-03-05T03:45:28.5296817+01:00",
+  "Updated": "2018-07-06T03:47:00.2068137+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +130,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 969,
-  "Name": "Rempel, Veum and Zulauf",
-  "Tooltip": "fuga",
+  "RoleId": 880,
+  "Name": "Sporer-Lakin",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 37,
-  "Rank": 190,
-  "Created": "2022-04-07T03:45:28.5296817+02:00",
-  "UseCategories": 185,
+  "Deleted": 364,
+  "Rank": 59,
+  "Created": "2012-05-24T03:47:00.2068137+02:00",
+  "UseCategories": 555,
   "CreatedBy": null,
-  "Updated": "2010-08-04T03:45:28.5296817+02:00",
+  "Updated": "2014-11-21T03:47:00.2068137+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +147,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 280
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

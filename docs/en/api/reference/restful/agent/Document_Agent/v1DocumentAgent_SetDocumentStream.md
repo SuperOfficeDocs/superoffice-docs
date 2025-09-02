@@ -2,6 +2,7 @@
 title: POST Agents/Document/SetDocumentStream
 uid: v1DocumentAgent_SetDocumentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SetDocumentStream
@@ -116,7 +117,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -127,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 584,
+  "DocumentId": 98,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "velit",
-  "Header": "pariatur",
-  "Name": "Kuvalis Inc and Sons",
-  "OurRef": "deserunt",
-  "YourRef": "facere",
-  "CreatedDate": "2008-03-06T03:45:23.3110832+01:00",
-  "UpdatedDate": "2009-12-22T03:45:23.3110832+01:00",
-  "Description": "Robust web-enabled challenge",
+  "Attention": "voluptatibus",
+  "Header": "vel",
+  "Name": "Rempel LLC",
+  "OurRef": "dolorum",
+  "YourRef": "dolores",
+  "CreatedDate": "2013-02-27T03:46:54.6601354+01:00",
+  "UpdatedDate": "2025-04-20T03:46:54.6601354+02:00",
+  "Description": "Reactive multimedia forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-21T03:45:23.3110832+02:00",
-  "ExternalRef": "eum",
+  "Date": "2012-09-02T03:46:54.6601354+02:00",
+  "ExternalRef": "ducimus",
   "Completed": "Completed",
-  "ActiveLinks": 51,
+  "ActiveLinks": 803,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lakin-Spinka",
-      "Id": 980,
-      "Description": "Open-architected holistic matrices",
-      "ExtraInfo": "ducimus",
-      "LinkId": 185,
+      "EntityName": "Marvin Group",
+      "Id": 543,
+      "Description": "Function-based non-volatile interface",
+      "ExtraInfo": "natus",
+      "LinkId": 237,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldType": "System.String",
+          "FieldLength": 631
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 325,
-  "Snum": 30,
+  "SuggestedDocumentId": 439,
+  "Snum": 53,
   "UserDefinedFields": {
-    "SuperOffice:1": "1712289055",
-    "SuperOffice:2": "Prof. Matteo Herman V"
+    "SuperOffice:1": "Mozell Cummerata",
+    "SuperOffice:2": "Ms. Gregoria Jodie Luettgen MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "sit"
+    "CustomFields1": "rerum",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2020-08-02T03:45:23.3267081+02:00",
-  "PublishTo": "2005-09-27T03:45:23.3267081+02:00",
-  "PublishFrom": "2018-03-14T03:45:23.3267081+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-11-12T03:46:54.6601354+01:00",
+  "PublishTo": "2002-05-14T03:46:54.6601354+02:00",
+  "PublishFrom": "2022-05-22T03:46:54.6601354+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 14,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 986
         }
       }
     },
     {
-      "VisibleId": 14,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 986
         }
       }
     }
@@ -218,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 642
     }
   }
 }

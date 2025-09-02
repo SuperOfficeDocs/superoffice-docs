@@ -2,6 +2,7 @@
 title: PUT List/ProjectStatus/Items/{id}/UserGroups
 uid: v1ProjectStatusList_PutProjectStatusUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectStatus/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Shanahan LLC",
-    "ToolTip": "Animi omnis odit distinctio repellendus quis enim modi.",
+    "Id": 314,
+    "Name": "Rowe LLC",
+    "ToolTip": "Ut eos qui blanditiis laborum repellat voluptatem.",
     "Deleted": true,
-    "Rank": 313,
-    "Type": "et",
-    "ColorBlock": 321,
-    "IconHint": "minus",
+    "Rank": 355,
+    "Type": "iusto",
+    "ColorBlock": 605,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2005-11-09T03:45:29.1703077+01:00",
+    "LastChanged": "2004-08-30T03:47:00.7380451+02:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Krajcik, Dietrich and Marquardt",
-        "ToolTip": "Velit ullam occaecati quo necessitatibus.",
-        "Deleted": true,
-        "Rank": 846,
-        "Type": "quasi",
-        "ColorBlock": 267,
-        "IconHint": "inventore",
+        "Id": 575,
+        "Name": "Yost, Donnelly and Leannon",
+        "ToolTip": "Nam porro.",
+        "Deleted": false,
+        "Rank": 678,
+        "Type": "ex",
+        "ColorBlock": 584,
+        "IconHint": "libero",
         "Selected": true,
-        "LastChanged": "2010-07-04T03:45:29.1703077+02:00",
+        "LastChanged": "2014-01-31T03:47:00.7380451+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "optio",
+        "ExtraInfo": "at",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Theresia Hegmann"
+        "FullName": "Prof. Norbert Collin Nolan PhD"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "sint",
+    "ExtraInfo": "eum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Litzy Kerluke"
+    "FullName": "Titus Franecki"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Hackett, Cruickshank and Padberg",
-    "ToolTip": "Et libero non doloremque debitis et ratione deserunt.",
-    "Deleted": false,
-    "Rank": 503,
-    "Type": "consequuntur",
-    "ColorBlock": 604,
-    "IconHint": "odio",
+    "Id": 283,
+    "Name": "Hane Group",
+    "ToolTip": "Aut dolorum deserunt ratione minus veritatis est eaque.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "minima",
+    "ColorBlock": 198,
+    "IconHint": "natus",
     "Selected": true,
-    "LastChanged": "2012-04-21T03:45:29.1703077+02:00",
+    "LastChanged": "2001-02-13T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Baumbach Group",
-        "ToolTip": "Omnis quam.",
-        "Deleted": false,
-        "Rank": 691,
-        "Type": "eum",
-        "ColorBlock": 491,
-        "IconHint": "reiciendis",
+        "Id": 989,
+        "Name": "Kozey, Sauer and DuBuque",
+        "ToolTip": "Quo eos vel nobis dolores repellendus.",
+        "Deleted": true,
+        "Rank": 665,
+        "Type": "labore",
+        "ColorBlock": 117,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2015-08-05T03:45:29.1703077+02:00",
+        "LastChanged": "2007-05-04T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Abel Mosciski",
+        "FullName": "Miracle Considine Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 479
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Vance Koch",
+    "ExtraInfo": "et",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Eli Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 454
       }
     }
   }

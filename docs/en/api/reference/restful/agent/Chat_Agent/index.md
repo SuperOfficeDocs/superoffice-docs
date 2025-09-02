@@ -1,6 +1,8 @@
 ---
+uid: tag-Chat_Agent
 title: Chat_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,23 +12,15 @@ generated: true
 
 
 
+* [POST Agents/Chat/GetChatPresence](v1ChatAgent_GetChatPresence.md)
+
+* [POST Agents/Chat/SaveChatPresence](v1ChatAgent_SaveChatPresence.md)
+
 * [POST Agents/Chat/CreateDefaultChatSessionEntity](v1ChatAgent_CreateDefaultChatSessionEntity.md)
 
 * [POST Agents/Chat/SaveChatSessionEntity](v1ChatAgent_SaveChatSessionEntity.md)
 
 * [POST Agents/Chat/DeleteChatSessionEntity](v1ChatAgent_DeleteChatSessionEntity.md)
-
-* [POST Agents/Chat/CreateDefaultChatTopicAgent](v1ChatAgent_CreateDefaultChatTopicAgent.md)
-
-* [POST Agents/Chat/CreateDefaultChatTopicEntity](v1ChatAgent_CreateDefaultChatTopicEntity.md)
-
-* [POST Agents/Chat/SaveChatTopicEntity](v1ChatAgent_SaveChatTopicEntity.md)
-
-* [POST Agents/Chat/DeleteChatTopicEntity](v1ChatAgent_DeleteChatTopicEntity.md)
-
-* [POST Agents/Chat/GetChatPresence](v1ChatAgent_GetChatPresence.md)
-
-* [POST Agents/Chat/SaveChatPresence](v1ChatAgent_SaveChatPresence.md)
 
 * [POST Agents/Chat/GetChatSessionEntity](v1ChatAgent_GetChatSessionEntity.md)
 
@@ -49,6 +43,14 @@ generated: true
 * [POST Agents/Chat/GetChatMessages](v1ChatAgent_GetChatMessages.md)
 
 * [POST Agents/Chat/AddChatMessage](v1ChatAgent_AddChatMessage.md)
+
+* [POST Agents/Chat/CreateDefaultChatTopicAgent](v1ChatAgent_CreateDefaultChatTopicAgent.md)
+
+* [POST Agents/Chat/CreateDefaultChatTopicEntity](v1ChatAgent_CreateDefaultChatTopicEntity.md)
+
+* [POST Agents/Chat/SaveChatTopicEntity](v1ChatAgent_SaveChatTopicEntity.md)
+
+* [POST Agents/Chat/DeleteChatTopicEntity](v1ChatAgent_DeleteChatTopicEntity.md)
 
 * [POST Agents/Chat/GetChatTopicEntity](v1ChatAgent_GetChatTopicEntity.md)
 

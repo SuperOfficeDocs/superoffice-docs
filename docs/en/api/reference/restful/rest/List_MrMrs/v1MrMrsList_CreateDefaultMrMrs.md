@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Items/Default
 uid: v1MrMrsList_CreateDefaultMrMrs
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "voluptatibus",
+  "Id": 949,
+  "Name": "Flatley, Hessel and Nolan",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 74,
-  "Rank": 359,
+  "UdListDefinitionId": 285,
+  "Rank": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

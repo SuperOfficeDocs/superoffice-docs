@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.CreateDefaultArchiveListResult SOAP
 generated: true
 uid: Services88-Archive-CreateDefaultArchiveListResult
+content_type: reference
 ---
 
 # Services88 Archive CreateDefaultArchiveListResult

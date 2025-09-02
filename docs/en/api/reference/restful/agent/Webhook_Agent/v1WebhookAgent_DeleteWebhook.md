@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/DeleteWebhook
 uid: v1WebhookAgent_DeleteWebhook
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/DeleteWebhook
@@ -24,10 +25,10 @@ Deletes the Webhook
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| WebhookId | int32 | **Required** The id of the Webhook to be deleted. |
+| webhookId | int32 | **Required** The identity of the Webhook |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?WebhookId=637
+POST /api/v1/Agents/Webhook/DeleteWebhook?webhookId=564
 ```
 
 
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/Webhook/DeleteWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

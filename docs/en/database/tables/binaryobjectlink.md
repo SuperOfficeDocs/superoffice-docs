@@ -2,10 +2,10 @@
 uid: table-BinaryObjectLink
 title: BinaryObjectLink table
 description: Link table, connects a BinaryObject with one or more owners
-so.generated: true
+generated: true
 keywords: database table BinaryObjectLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # BinaryObjectLink Table (206)

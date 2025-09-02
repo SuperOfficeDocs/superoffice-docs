@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetTicketMessage SOAP
 generated: true
 uid: Services88-Ticket-GetTicketMessage
+content_type: reference
 ---
 
 # Services88 Ticket GetTicketMessage
@@ -64,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-06-26T01:45:00Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
     <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -88,7 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
     <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
     <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
-    <Ticket:ChangedAt xsi:type="xsd:dateTime">2025-06-26T01:45:00Z</Ticket:ChangedAt>
+    <Ticket:ChangedAt xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</Ticket:ChangedAt>
     <Ticket:Badge xsi:type="Ticket:BadgeType">Unknown</Ticket:Badge>
    </Ticket:Response>
   </Ticket:GetTicketMessageResponse>

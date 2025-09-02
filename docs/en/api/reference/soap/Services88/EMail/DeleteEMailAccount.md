@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.DeleteEMailAccount SOAP
 generated: true
 uid: Services88-EMail-DeleteEMailAccount
+content_type: reference
 ---
 
 # Services88 EMail DeleteEMailAccount

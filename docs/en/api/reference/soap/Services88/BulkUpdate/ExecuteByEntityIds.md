@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.ExecuteByEntityIds SOAP
 generated: true
 uid: Services88-BulkUpdate-ExecuteByEntityIds
+content_type: reference
 ---
 
 # Services88 BulkUpdate ExecuteByEntityIds

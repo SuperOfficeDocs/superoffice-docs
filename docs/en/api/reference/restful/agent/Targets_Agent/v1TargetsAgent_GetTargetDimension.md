@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetDimension
 uid: v1TargetsAgent_GetTargetDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetDimension
@@ -22,11 +23,11 @@ Gets a TargetDimension object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| targetDimensionId | int32 | **Required** The primary key. |
+| targetDimensionId | int32 | **Required** The identifier of the TargetDimension object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=88
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=11
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 160,
+  "TargetDimensionId": 116,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "accusamus",
-  "DimensionListName": "Schmitt-Kris",
-  "DimensionListId": 22,
-  "DimensionListLabel": "qui",
+  "DimensionListField": "quia",
+  "DimensionListName": "Goodwin-Hodkiewicz",
+  "DimensionListId": 714,
+  "DimensionListLabel": "ratione",
   "SelectedDimensions": [
-    265,
-    573
+    10,
+    782
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

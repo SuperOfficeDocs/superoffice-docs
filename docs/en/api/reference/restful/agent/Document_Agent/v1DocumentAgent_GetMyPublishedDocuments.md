@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetMyPublishedDocuments
 uid: v1DocumentAgent_GetMyPublishedDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetMyPublishedDocuments
@@ -95,32 +96,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 557,
-    "Attention": "voluptas",
-    "Header": "dolor",
-    "Name": "Shanahan, Tremblay and Sporer",
-    "OurRef": "ut",
-    "YourRef": "similique",
-    "Description": "Phased 4th generation interface",
-    "DocumentTemplate": "numquam",
+    "DocumentId": 167,
+    "Attention": "vitae",
+    "Header": "sit",
+    "Name": "Rempel LLC",
+    "OurRef": "nulla",
+    "YourRef": "ut",
+    "Description": "Re-contextualized mobile portal",
+    "DocumentTemplate": "accusamus",
     "IsPublished": true,
-    "PersonId": 804,
-    "PersonFullName": "Elwin Strosin",
-    "AssociateFullName": "Dr. Elda Wyman",
-    "ContactId": 118,
-    "ContactName": "Harris LLC",
-    "ProjectId": 669,
-    "ProjectName": "Eichmann-Kreiger",
-    "AssociateId": 641,
-    "Snum": 540,
-    "SaleId": 799,
-    "SaleName": "Predovic, O'Reilly and White",
+    "PersonId": 282,
+    "PersonFullName": "Mr. Devante Bode MD",
+    "AssociateFullName": "Joel Armstrong",
+    "ContactId": 115,
+    "ContactName": "Schoen Inc and Sons",
+    "ProjectId": 953,
+    "ProjectName": "Schaden Group",
+    "AssociateId": 776,
+    "Snum": 581,
+    "SaleId": 420,
+    "SaleName": "Rippin-Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

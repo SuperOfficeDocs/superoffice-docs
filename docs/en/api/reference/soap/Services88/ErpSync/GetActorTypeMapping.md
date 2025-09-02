@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetActorTypeMapping SOAP
 generated: true
 uid: Services88-ErpSync-GetActorTypeMapping
+content_type: reference
 ---
 
 # Services88 ErpSync GetActorTypeMapping

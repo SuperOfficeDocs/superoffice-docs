@@ -3,9 +3,9 @@ uid: PersonRelation
 title: PersonRelation
 description: Data provider class for the 'Relation' archive under the person card. This class combines output from
 keywords: PersonRelation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "PersonRelation"
@@ -562,7 +562,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/position,target/contactUdef/SuperOffice:9,target/restrictionAddress/line2
+GET /api/v1/archive/PersonRelation?$select=source/contactId,source/kanaLastName,target/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

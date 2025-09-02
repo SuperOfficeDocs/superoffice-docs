@@ -2,6 +2,7 @@
 title: GET List/ProjectType/MDOItems
 uid: v1ProjectTypeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=quia
+GET /api/v1/List/ProjectType/MDOItems?query=porro
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Cummings, Weber and Jaskolski",
-    "ToolTip": "Id nesciunt molestiae quod ea eum.",
-    "Deleted": false,
-    "Rank": 11,
-    "Type": "minus",
+    "Id": 838,
+    "Name": "Bernier Inc and Sons",
+    "ToolTip": "Quaerat sunt neque praesentium animi.",
+    "Deleted": true,
+    "Rank": 407,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Doyle, Ward and Rau",
-        "ToolTip": "Tenetur iste veritatis.",
+        "Id": 132,
+        "Name": "Roob-Stark",
+        "ToolTip": "Aliquid sunt molestiae quia.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "odio",
+        "Rank": 141,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 56,
-        "ExtraInfo": "modi",
+        "IconHint": "voluptatum",
+        "ColorBlock": 947,
+        "ExtraInfo": "officia",
         "StyleHint": "et",
-        "FullName": "Dwight Osinski",
+        "FullName": "Lucious Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 824
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 234,
-    "ExtraInfo": "et",
-    "StyleHint": "eveniet",
-    "FullName": "Brooke Roscoe Ondricka III",
+    "IconHint": "optio",
+    "ColorBlock": 749,
+    "ExtraInfo": "praesentium",
+    "StyleHint": "voluptate",
+    "FullName": "Estefania Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

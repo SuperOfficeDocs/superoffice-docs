@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetCRMUrl
 uid: v1ConfigurationAgent_GetCRMUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetCRMUrl
@@ -70,12 +71,12 @@ OK
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "voluptatum",
-  "Currents": "recusandae",
+  "SoProtocol": "nostrum",
+  "Currents": "quia",
   "Frameless": false
 }
 ```

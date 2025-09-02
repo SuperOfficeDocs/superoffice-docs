@@ -2,6 +2,7 @@
 title: DEL ChatTopic/{id}/UserAgent/{username}
 uid: v1ChatTopicEntity_DeleteChatTopicUserAgent
 generated: true
+content_type: reference
 ---
 
 # DEL ChatTopic/{id}/UserAgent/{username}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

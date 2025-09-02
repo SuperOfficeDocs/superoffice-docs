@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.SaveWorkflowGoal SOAP
 generated: true
 uid: Services88-Workflow-SaveWorkflowGoal
+content_type: reference
 ---
 
 # Services88 Workflow SaveWorkflowGoal

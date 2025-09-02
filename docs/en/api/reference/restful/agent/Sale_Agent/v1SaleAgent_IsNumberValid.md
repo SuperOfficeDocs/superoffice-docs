@@ -2,6 +2,7 @@
 title: POST Agents/Sale/IsNumberValid
 uid: v1SaleAgent_IsNumberValid
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/IsNumberValid
@@ -75,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 962,
-  "Number": "558954"
+  "ContactId": 755,
+  "Number": "194110"
 }
 ```
 

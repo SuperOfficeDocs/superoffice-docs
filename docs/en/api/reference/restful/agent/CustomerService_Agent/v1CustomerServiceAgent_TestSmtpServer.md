@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/TestSmtpServer
 uid: v1CustomerServiceAgent_TestSmtpServer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/TestSmtpServer
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "et",
-  "From": "est",
+  "SmtpUri": "vel",
+  "From": "tempore",
   "UseStoredPassword": false
 }
 ```
@@ -95,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "ErrorMessage": "debitis",
+  "Success": true,
+  "ErrorMessage": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

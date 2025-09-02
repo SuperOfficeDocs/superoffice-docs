@@ -2,6 +2,7 @@
 title: Services88.ListAgent.AddFromListName SOAP
 generated: true
 uid: Services88-List-AddFromListName
+content_type: reference
 ---
 
 # Services88 List AddFromListName

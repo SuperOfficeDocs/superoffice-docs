@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/CreateDefaultShipmentMessageEntity
 uid: v1MarketingAgent_CreateDefaultShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/CreateDefaultShipmentMessageEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 ```
 
-Set default values into a new ShipmentMessageEntity.
+Loading default values into a new ShipmentMessageEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -87,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 513,
-  "PlainMessage": "ea",
-  "HtmlMessage": "laboriosam",
-  "SmsMessage": "accusantium",
-  "Description": "Switchable holistic challenge",
-  "Subject": "voluptatum",
-  "FolderId": 915,
-  "HeaderField": "officiis",
-  "Design": "exercitationem",
+  "ShipmentMessageId": 298,
+  "PlainMessage": "nemo",
+  "HtmlMessage": "eaque",
+  "SmsMessage": "repellendus",
+  "Description": "Cross-platform background extranet",
+  "Subject": "sed",
+  "FolderId": 918,
+  "HeaderField": "fuga",
+  "Design": "debitis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Stand-alone global throughput",
-  "AccessKey": "autem",
-  "DocumentMessage": 78,
-  "Registered": "2020-09-11T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2004-10-28T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 635,
-  "UpdatedCount": 274,
+  "LongDescription": "Intuitive regional contingency",
+  "AccessKey": "est",
+  "DocumentMessage": 734,
+  "Registered": "2010-09-20T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 498,
+  "Updated": "2007-08-03T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 441,
+  "UpdatedCount": 71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 820
     }
   }
 }

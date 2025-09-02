@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/InsertRow
 uid: v1DatabaseTableAgent_InsertRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/InsertRow
@@ -69,14 +70,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rohan, Reichert and Murazik",
+  "TableName": "Mitchell, Pfannerstill and Halvorson",
   "Values": {
-    "Values1": "fugit",
-    "Values2": "et"
+    "Values1": "esse",
+    "Values2": "sequi"
   }
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-906
+49
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateType
 uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateType
@@ -102,11 +103,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 237,
-  "StartTime": "2023-07-20T03:45:23.2798335+02:00",
-  "EndTime": "2008-01-26T03:45:23.2798335+01:00",
-  "Count": 930,
-  "DocumentTemplateId": 335
+  "PersonId": 153,
+  "StartTime": "2012-05-20T03:46:54.6132622+02:00",
+  "EndTime": "2009-06-24T03:46:54.6132622+02:00",
+  "Count": 3,
+  "DocumentTemplateId": 832
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 160,
-    "Attention": "deserunt",
-    "Header": "consequatur",
-    "Name": "Hartmann Group",
-    "OurRef": "qui",
-    "YourRef": "ut",
-    "Description": "Ameliorated empowering knowledge base",
-    "DocumentTemplate": "est",
+    "DocumentId": 803,
+    "Attention": "qui",
+    "Header": "laborum",
+    "Name": "Ward-Reilly",
+    "OurRef": "culpa",
+    "YourRef": "aperiam",
+    "Description": "Streamlined multi-tasking instruction set",
+    "DocumentTemplate": "natus",
     "IsPublished": false,
-    "PersonId": 702,
-    "PersonFullName": "Lizeth Prosacco I",
-    "AssociateFullName": "Neoma Lubowitz",
-    "ContactId": 927,
-    "ContactName": "Donnelly, Kohler and Klocko",
-    "ProjectId": 112,
-    "ProjectName": "Price Group",
-    "AssociateId": 428,
-    "Snum": 850,
-    "SaleId": 391,
-    "SaleName": "Welch, Barrows and Bosco",
+    "PersonId": 690,
+    "PersonFullName": "Prof. Leland Kraig Moore DDS",
+    "AssociateFullName": "Clifton Darrick Connelly MD",
+    "ContactId": 785,
+    "ContactName": "Wolff, Bruen and Jenkins",
+    "ProjectId": 786,
+    "ProjectName": "Hirthe, Kautzer and Heaney",
+    "AssociateId": 449,
+    "Snum": 18,
+    "SaleId": 981,
+    "SaleName": "Crona Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldLength": 891
       }
     }
   }

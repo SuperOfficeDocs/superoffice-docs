@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetCustomerCentrePasswordReplyTemplate
 uid: v1PersonAgent_GetCustomerCentrePasswordReplyTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetCustomerCentrePasswordReplyTemplate
@@ -81,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 536
+  "PersonId": 590
 }
 ```
 
@@ -92,36 +93,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 527,
-  "PlainParsed": "cupiditate",
-  "HtmlParsed": "nulla",
+  "ReplyTemplateId": 210,
+  "PlainParsed": "qui",
+  "HtmlParsed": "dolor",
   "Attachments": [
     {
-      "AttachmentId": 600,
-      "Name": "O'Connell-Nader",
-      "ContentType": "ea",
-      "AttSize": 74,
-      "InlineImage": true,
-      "ContentId": "quos",
-      "AuthKey": "nisi",
+      "AttachmentId": 867,
+      "Name": "Reynolds, Corkery and Kulas",
+      "ContentType": "id",
+      "AttSize": 627,
+      "InlineImage": false,
+      "ContentId": "sed",
+      "AuthKey": "deleniti",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldType": "System.Int32",
+          "FieldLength": 779
         }
       }
     }
   ],
-  "Subject": "ipsa",
+  "Subject": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 39
     }
   }
 }

@@ -3,9 +3,9 @@ uid: Person
 title: Person
 description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
 keywords: Person archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Person"
@@ -595,6 +595,12 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -638,16 +644,16 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLDescription|string|Description| x |
 |projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -742,16 +748,16 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
 |personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
 |personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
@@ -822,7 +828,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personAddress/zip,restrictionAddress/addressId,correspondingAssociate/ejDisplayName,correspondingAssociate/userName,request/ticketStatusName
+GET /api/v1/archive/Person?$select=personSourceRelation/birthYear,personSourceRelation/supportAssociateFullName,personSourceRelation/isProjectMember,personSourceRelation/isStakeholder,personTargetRelation/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

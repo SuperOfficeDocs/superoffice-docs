@@ -2,10 +2,10 @@
 uid: table-ProbHeadingLink
 title: ProbHeadingLink table
 description: Heading link table for Prob, for MDO headers
-so.generated: true
+generated: true
 keywords: database table ProbHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ProbHeadingLink Table (84)

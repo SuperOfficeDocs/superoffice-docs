@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictionGroups
 uid: v1FindAgent_SaveRestrictionGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictionGroups
@@ -82,30 +83,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maxime",
-  "ProviderName": "Gorczany-Cummerata",
-  "StorageKey": "sit",
+  "StorageType": "molestiae",
+  "ProviderName": "McCullough-Torphy",
+  "StorageKey": "qui",
   "RestrictionGroups": [
     {
-      "Name": "Yost, Rolfson and Kuvalis",
-      "Description": "Realigned neutral Graphic Interface",
-      "Rank": 199,
+      "Name": "Homenick Inc and Sons",
+      "Description": "Future-proofed upward-trending benchmark",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Yost, Rolfson and Kuvalis",
-      "Description": "Realigned neutral Graphic Interface",
-      "Rank": 199,
+      "Name": "Homenick Inc and Sons",
+      "Description": "Future-proofed upward-trending benchmark",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "in"
+  "Context": "omnis"
 }
 ```
 
@@ -117,19 +118,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kutch Inc and Sons",
-    "Description": "Exclusive zero administration analyzer",
-    "Rank": 155,
+    "Name": "Smitham, Wiegand and Kessler",
+    "Description": "Progressive fault-tolerant portal",
+    "Rank": 591,
     "Restrictions": [
       {
-        "Name": "Olson LLC",
-        "Operator": "enim",
+        "Name": "Wilderman, Reynolds and Boyer",
+        "Operator": "illo",
         "Values": [
-          "officia",
-          "ipsum"
+          "alias",
+          "voluptatum"
         ],
         "DisplayValues": [
-          "nisi",
+          "officia",
           "qui"
         ],
         "ColumnInfo": null,
@@ -138,26 +139,26 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 213,
+        "InterParenthesis": 884,
         "InterOperator": "And",
-        "UniqueHash": 838
+        "UniqueHash": 439
       }
     ]
   },
   {
-    "Name": "Kutch Inc and Sons",
-    "Description": "Exclusive zero administration analyzer",
-    "Rank": 155,
+    "Name": "Smitham, Wiegand and Kessler",
+    "Description": "Progressive fault-tolerant portal",
+    "Rank": 591,
     "Restrictions": [
       {
-        "Name": "Olson LLC",
-        "Operator": "enim",
+        "Name": "Wilderman, Reynolds and Boyer",
+        "Operator": "illo",
         "Values": [
-          "officia",
-          "ipsum"
+          "alias",
+          "voluptatum"
         ],
         "DisplayValues": [
-          "nisi",
+          "officia",
           "qui"
         ],
         "ColumnInfo": null,
@@ -166,9 +167,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 213,
+        "InterParenthesis": 884,
         "InterOperator": "And",
-        "UniqueHash": 838
+        "UniqueHash": 439
       }
     ]
   }

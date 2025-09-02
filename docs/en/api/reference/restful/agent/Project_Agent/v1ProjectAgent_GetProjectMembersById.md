@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectMembersById
 uid: v1ProjectAgent_GetProjectMembersById
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectMembersById
@@ -93,13 +94,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    146,
-    1000
+    110,
+    300
   ]
 }
 ```
@@ -112,33 +113,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 764,
-    "ContactId": 796,
-    "ProjectId": 532,
-    "ContactName": "Volkman-Waelchi",
+    "ProjectmemberId": 965,
+    "ContactId": 417,
+    "ProjectId": 185,
+    "ContactName": "Schamberger, Ullrich and Kassulke",
     "ContactDepartment": "",
-    "ProjectName": "Bosco, Boyer and Altenwerth",
-    "EmailId": 172,
-    "EmailAddress": "alisha@balistreri.biz",
-    "CountryId": 417,
-    "Firstname": "Deon",
-    "MiddleName": "Abernathy-Ondricka",
-    "Lastname": "Cummings",
-    "PersonId": 266,
-    "Mrmrs": "quos",
-    "ProjectMemberTypeName": "Rohan LLC",
-    "Phone": "(302)918-8274 x459",
-    "PhoneId": 548,
-    "ProjectMemberTypeId": 666,
-    "EmailAddressName": "ozella@conroy.ca",
-    "Comment": "voluptatum",
-    "FullName": "Bertha Bartell",
+    "ProjectName": "Senger, Lang and Nicolas",
+    "EmailId": 815,
+    "EmailAddress": "timmothy@trantow.info",
+    "CountryId": 371,
+    "Firstname": "Jaydon",
+    "MiddleName": "Kovacek-Torphy",
+    "Lastname": "Tillman",
+    "PersonId": 424,
+    "Mrmrs": "amet",
+    "ProjectMemberTypeName": "Boyer, Bogisich and Boyer",
+    "Phone": "187-212-0118 x938",
+    "PhoneId": 216,
+    "ProjectMemberTypeId": 547,
+    "EmailAddressName": "tomas.tremblay@donnelly.ca",
+    "Comment": "quo",
+    "FullName": "Jonatan Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldLength": 131
       }
     }
   }

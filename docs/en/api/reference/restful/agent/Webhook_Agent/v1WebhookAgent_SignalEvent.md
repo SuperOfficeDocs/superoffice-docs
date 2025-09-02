@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/SignalEvent
 uid: v1WebhookAgent_SignalEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/SignalEvent
@@ -71,12 +72,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Zieme, Bergnaum and Huels",
-  "PrimaryKey": 635,
+  "EventName": "Collins-White",
+  "PrimaryKey": 49,
   "Data": {
     "fieldName": {}
   }

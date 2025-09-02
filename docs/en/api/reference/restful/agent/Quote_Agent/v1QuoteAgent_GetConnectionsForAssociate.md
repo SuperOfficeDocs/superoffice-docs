@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetConnectionsForAssociate
 uid: v1QuoteAgent_GetConnectionsForAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetConnectionsForAssociate
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 999
+  "AssociateId": 691
 }
 ```
 
@@ -103,54 +104,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 486,
-    "ERPName": "Ebert LLC",
-    "DisplayName": "Willms, Franecki and Hermann",
-    "DisplayDescription": "Self-enabling optimizing productivity",
-    "Rank": 400,
-    "ConnectorName": "Kshlerin-Hilpert",
-    "ErpConnectionId": 431,
-    "ExtraData": "modi",
+    "QuoteConnectionId": 50,
+    "ERPName": "Langworth-Nikolaus",
+    "DisplayName": "Barrows Inc and Sons",
+    "DisplayDescription": "Grass-roots value-added pricing structure",
+    "Rank": 102,
+    "ConnectorName": "Herman-Torphy",
+    "ErpConnectionId": 708,
+    "ExtraData": "neque",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 954,
-        "ERPPriceListKey": "amet",
-        "QuoteConnectionId": 501,
-        "Name": "Maggio-Schaefer",
-        "Description": "Inverse mission-critical circuit",
-        "Currency": "enim",
-        "CurrencyName": "Padberg, Effertz and Heidenreich",
-        "ValidFrom": "2011-01-24T03:45:23.8266945+01:00",
-        "ValidTo": "2006-04-15T03:45:23.8266945+02:00",
+        "PriceListId": 252,
+        "ERPPriceListKey": "fuga",
+        "QuoteConnectionId": 549,
+        "Name": "Effertz, Farrell and Spinka",
+        "Description": "Expanded user-facing hub",
+        "Currency": "optio",
+        "CurrencyName": "Schumm-Parker",
+        "ValidFrom": "2012-04-22T03:46:55.2226157+02:00",
+        "ValidTo": "2020-08-19T03:46:55.2226157+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 157
+            "FieldType": "System.Int32",
+            "FieldLength": 793
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      461,
-      162
+      466,
+      302
     ],
     "AssociateAccessIds": [
-      989,
-      500
+      808,
+      171
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 821
       }
     }
   }

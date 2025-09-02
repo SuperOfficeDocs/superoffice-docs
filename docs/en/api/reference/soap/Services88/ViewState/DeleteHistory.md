@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.DeleteHistory SOAP
 generated: true
 uid: Services88-ViewState-DeleteHistory
+content_type: reference
 ---
 
 # Services88 ViewState DeleteHistory

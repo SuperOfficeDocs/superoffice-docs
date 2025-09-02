@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetSuggestedAppointmentEntity
 uid: v1AppointmentAgent_GetSuggestedAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointmentEntity
@@ -22,11 +23,11 @@ Gets a SuggestedAppointmentEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| suggestedAppointmentEntityId | int32 | **Required** The primary key. |
+| suggestedAppointmentEntityId | int32 | **Required** The identifier of the SuggestedAppointmentEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=802
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=414
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -90,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 924,
-  "Name": "Miller-McKenzie",
-  "Tooltip": "est",
-  "Rank": 79,
+  "SuggestedAppointmentId": 535,
+  "Name": "Homenick, Stanton and Gusikowski",
+  "Tooltip": "molestias",
+  "Rank": 874,
   "Deleted": false,
-  "DaysFuture": 432,
-  "Duration": "occaecati",
+  "DaysFuture": 460,
+  "Duration": "delectus",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "vitae",
+  "Text": "rerum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -108,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailFromTemp
 uid: v1EMailAgent_GetEMailFromTemp
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailFromTemp
@@ -100,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Herman, Satterfield and Hirthe"
+  "FileName": "Johns-Turcotte"
 }
 ```
 
@@ -117,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 233,
-      "ContactName": "Roob Group",
-      "PersonId": 442,
-      "PersonName": "Jones-Carroll",
-      "AssociateId": 12,
-      "Address": "adipisci",
-      "EmailId": 215,
+      "ContactId": 919,
+      "ContactName": "Lakin-Harvey",
+      "PersonId": 146,
+      "PersonName": "Funk Group",
+      "AssociateId": 665,
+      "Address": "eaque",
+      "EmailId": 259,
       "DuplicatePersonIds": [
-        820,
-        219
+        970,
+        631
       ],
-      "Name": "Jakubowski LLC",
+      "Name": "Kemmer-Bednar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 327
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 169,
-      "ContactName": "McClure, Ferry and Leannon",
-      "PersonId": 143,
-      "PersonName": "Schmitt-Price",
-      "AssociateId": 772,
-      "Address": "vero",
-      "EmailId": 467,
+      "ContactId": 345,
+      "ContactName": "McCullough-Hills",
+      "PersonId": 563,
+      "PersonName": "Jakubowski, Moore and Zulauf",
+      "AssociateId": 494,
+      "Address": "earum",
+      "EmailId": 323,
       "DuplicatePersonIds": [
-        343,
-        3
+        959,
+        395
       ],
-      "Name": "Crist-Feest",
+      "Name": "Douglas, Franecki and Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 87
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 958,
-      "ContactName": "Klein Inc and Sons",
-      "PersonId": 722,
-      "PersonName": "Rowe, Cruickshank and Langworth",
-      "AssociateId": 863,
-      "Address": "culpa",
-      "EmailId": 361,
+      "ContactId": 561,
+      "ContactName": "Monahan-Morar",
+      "PersonId": 421,
+      "PersonName": "Schaden-Larson",
+      "AssociateId": 309,
+      "Address": "excepturi",
+      "EmailId": 963,
       "DuplicatePersonIds": [
-        152,
-        439
+        829,
+        695
       ],
-      "Name": "Jacobson, Kessler and Schultz",
+      "Name": "Glover, Becker and Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "et",
+  "Subject": "earum",
+  "HTMLBody": "culpa",
   "From": null,
-  "Sent": "2011-05-11T03:45:23.4360809+02:00",
-  "Size": 190,
+  "Sent": "2001-06-03T03:46:54.785131+02:00",
+  "Size": 718,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quae",
-  "PlainBody": "dolores",
+  "MessageID": "iusto",
+  "PlainBody": "ut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 364,
+  "ServerId": 920,
   "Attachments": [
     {
-      "Description": "Synergized client-driven matrices",
-      "Filename": "iusto",
-      "Size": 55,
-      "Type": "enim",
-      "Encoding": "qui",
-      "Id": "consequatur",
-      "Disposition": "rerum",
+      "Description": "Devolved mission-critical core",
+      "Filename": "modi",
+      "Size": 965,
+      "Type": "sint",
+      "Encoding": "est",
+      "Id": "ut",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Abbott LLC",
+      "Name": "Boyle, Douglas and Larson",
       "Values": [
-        "id",
-        "numquam"
+        "et",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 468
         }
       }
     },
     {
-      "Name": "Abbott LLC",
+      "Name": "Boyle, Douglas and Larson",
       "Values": [
-        "id",
-        "numquam"
+        "et",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 468
         }
       }
     }
   ],
-  "FolderName": "Parker-Runolfsson",
-  "EmailItemId": 786,
-  "AccountId": 364,
-  "ReceivedAt": "2017-06-08T03:45:23.4360809+02:00",
+  "FolderName": "Ward LLC",
+  "EmailItemId": 350,
+  "AccountId": 588,
+  "ReceivedAt": "2022-05-03T03:46:54.785131+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-03-01T03:45:23.4360809+01:00",
+  "RepliedAt": "2013-09-03T03:46:54.785131+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   }
 }

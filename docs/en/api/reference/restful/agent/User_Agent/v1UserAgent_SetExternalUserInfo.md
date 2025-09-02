@@ -2,6 +2,7 @@
 title: POST Agents/User/SetExternalUserInfo
 uid: v1UserAgent_SetExternalUserInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SetExternalUserInfo
@@ -74,15 +75,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 381,
-  "UserName": "Fay-Trantow",
-  "Password": "minus",
+  "AssociateId": 134,
+  "UserName": "Beier-Torp",
+  "Password": "quia",
   "IsActive": true,
-  "RoleId": 460,
+  "RoleId": 259,
   "ExternalUserInfoModification": "Active"
 }
 ```

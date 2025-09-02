@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetDocument
 uid: v1DocumentAgent_GetDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetDocument
@@ -22,11 +23,11 @@ Gets a Document object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| documentId | int32 | **Required** The primary key. |
+| documentId | int32 | **Required** The identifier of the Document object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=181
+POST /api/v1/Agents/Document/GetDocument?documentId=348
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +97,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 258,
-  "Attention": "maiores",
-  "Header": "alias",
-  "Name": "Murphy Inc and Sons",
-  "OurRef": "molestias",
-  "YourRef": "incidunt",
-  "Description": "Exclusive bottom-line matrices",
-  "DocumentTemplate": "voluptatem",
+  "DocumentId": 447,
+  "Attention": "dolorum",
+  "Header": "fuga",
+  "Name": "Jerde, Lemke and Thiel",
+  "OurRef": "ut",
+  "YourRef": "at",
+  "Description": "Extended next generation strategy",
+  "DocumentTemplate": "quia",
   "IsPublished": false,
-  "PersonId": 118,
-  "PersonFullName": "Gaston Kutch",
-  "AssociateFullName": "Eino Terry",
-  "ContactId": 246,
-  "ContactName": "Crooks Inc and Sons",
-  "ProjectId": 167,
-  "ProjectName": "Harris, Flatley and Aufderhar",
-  "AssociateId": 341,
-  "Snum": 507,
-  "SaleId": 489,
-  "SaleName": "Erdman, Cruickshank and Fay",
+  "PersonId": 291,
+  "PersonFullName": "Erin Strosin",
+  "AssociateFullName": "Eduardo Schultz",
+  "ContactId": 344,
+  "ContactName": "Mills Group",
+  "ProjectId": 955,
+  "ProjectName": "King Inc and Sons",
+  "AssociateId": 42,
+  "Snum": 427,
+  "SaleId": 106,
+  "SaleName": "Brakus, Daugherty and Kessler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldLength": 874
     }
   }
 }

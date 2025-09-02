@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetNextProjectStatus
 uid: v1ProjectAgent_GetNextProjectStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetNextProjectStatus
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Project/GetNextProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 836
+  "ProjectId": 869
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-521
+400
 ```

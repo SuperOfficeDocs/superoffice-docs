@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.CreateErpActorFromCrm SOAP
 generated: true
 uid: Services88-ErpSync-CreateErpActorFromCrm
+content_type: reference
 ---
 
 # Services88 ErpSync CreateErpActorFromCrm

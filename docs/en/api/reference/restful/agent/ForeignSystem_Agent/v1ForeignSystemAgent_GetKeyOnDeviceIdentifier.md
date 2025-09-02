@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 uid: v1ForeignSystemAgent_GetKeyOnDeviceIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
@@ -87,16 +88,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ebert-Funk",
-  "DeviceName": "Metz-Sipes",
-  "DeviceIdentifier": "impedit",
-  "KeyName": "Aufderhar-Ryan",
-  "TableName": "Schiller, Kulas and Purdy",
-  "RecordId": 349
+  "ApplicationName": "Hayes, Kohler and Tremblay",
+  "DeviceName": "Hyatt, Hartmann and Hansen",
+  "DeviceIdentifier": "vel",
+  "KeyName": "Champlin-Watsica",
+  "TableName": "Murphy, Kozey and Predovic",
+  "RecordId": 544
 }
 ```
 
@@ -107,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nam",
-  "Value": "ad",
-  "RecordId": 438,
-  "CreatedDate": "2006-08-28T03:45:23.4829546+02:00",
-  "UpdatedDate": "2017-05-29T03:45:23.4829546+02:00",
-  "UpdatedBy": "eum",
-  "CreatedBy": "quae",
-  "TableName": "Armstrong, Crist and Kling",
+  "Key": "rerum",
+  "Value": "qui",
+  "RecordId": 171,
+  "CreatedDate": "2012-01-10T03:46:54.9107593+01:00",
+  "UpdatedDate": "2021-08-10T03:46:54.9107593+02:00",
+  "UpdatedBy": "commodi",
+  "CreatedBy": "cum",
+  "TableName": "Hills LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

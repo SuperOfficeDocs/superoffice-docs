@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 uid: v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
@@ -114,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 357,
+  "SelectionId": 326,
   "SelectionMemberIds": [
-    330,
-    34
+    941,
+    222
   ]
 }
 ```
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless content-based attitude",
-  "Postit": "aspernatur",
+  "Description": "Optional content-based algorithm",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 731,
-  "IncludePerson": 159,
+  "GroupIdx": 963,
+  "IncludePerson": 379,
   "MemberCount": 99.99,
-  "Name": "Bayer, Littel and Haley",
-  "PostitTextId": 381,
-  "CreatedDate": "2009-12-04T03:45:23.9048172+01:00",
-  "SelectionId": 774,
-  "SoundEx": "saepe",
-  "Source": 305,
-  "TextId": 236,
-  "UpdatedDate": "2011-04-27T03:45:23.9048172+02:00",
-  "UpdatedCount": 417,
-  "Visibility": 95,
+  "Name": "Hermiston Group",
+  "PostitTextId": 711,
+  "CreatedDate": "2000-03-29T03:46:55.3788724+02:00",
+  "SelectionId": 558,
+  "SoundEx": "facere",
+  "Source": 761,
+  "TextId": 681,
+  "UpdatedDate": "2002-07-29T03:46:55.3788724+02:00",
+  "UpdatedCount": 991,
+  "Visibility": 25,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 819,
-  "TargetTableName": "Ernser, Borer and Miller",
+  "CompanyUnique": true,
+  "TargetTableNumber": 903,
+  "TargetTableName": "Kub, Hudson and Kilback",
   "Completed": false,
-  "LeftSelectionId": 232,
-  "RightSelectionId": 253,
+  "LeftSelectionId": 772,
+  "RightSelectionId": 74,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gutkowski-Grady",
-  "ShadowProviderName": "Schinner Inc and Sons",
-  "ChartKey": "alias",
-  "LastLoaded": "2000-03-03T03:45:23.9048172+01:00",
-  "LastLoadedBy": 134,
+  "MainProviderName": "Mraz, Hilll and Hamill",
+  "ShadowProviderName": "Rath LLC",
+  "ChartKey": "quia",
+  "LastLoaded": "2013-09-17T03:46:55.3788724+02:00",
+  "LastLoadedBy": 707,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-08-18T03:45:23.9048172+02:00",
-  "LastMembershipChangeBy": 527,
+  "LastMembershipChange": "2024-06-19T03:46:55.3788724+02:00",
+  "LastMembershipChangeBy": 941,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tenetur",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Feeney LLC",
-  "DashboardTileDefinitionId": 413,
+  "MainHeading": "inventore",
+  "MemberTabHeading": "corrupti",
+  "MailingsProviderName": "Haag, Lueilwitz and Thiel",
+  "DashboardTileDefinitionId": 55,
   "VisibleFor": [
     {
-      "VisibleId": 74,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldType": "System.String",
+          "FieldLength": 448
         }
       }
     },
     {
-      "VisibleId": 74,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldType": "System.String",
+          "FieldLength": 448
         }
       }
     }
@@ -206,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldLength": 907
     }
   }
 }

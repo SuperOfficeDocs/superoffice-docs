@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ValidateArchiveColumnConfig SOAP
 generated: true
 uid: Services88-ErpSync-ValidateArchiveColumnConfig
+content_type: reference
 ---
 
 # Services88 ErpSync ValidateArchiveColumnConfig

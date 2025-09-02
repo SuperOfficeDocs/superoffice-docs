@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.SetAppliesToKey SOAP
 generated: true
 uid: Services88-Configuration-SetAppliesToKey
+content_type: reference
 ---
 
 # Services88 Configuration SetAppliesToKey

@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetGroupAssociateIds
 uid: v1ArchiveAgent_GetGroupAssociateIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetGroupAssociateIds
@@ -73,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    532,
-    28
+    229,
+    670
   ]
 }
 ```
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  244,
-  408
+  34,
+  2
 ]
 ```

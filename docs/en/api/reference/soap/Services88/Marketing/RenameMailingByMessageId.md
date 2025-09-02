@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.RenameMailingByMessageId SOAP
 generated: true
 uid: Services88-Marketing-RenameMailingByMessageId
+content_type: reference
 ---
 
 # Services88 Marketing RenameMailingByMessageId

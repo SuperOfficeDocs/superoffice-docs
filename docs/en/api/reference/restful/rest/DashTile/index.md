@@ -1,6 +1,8 @@
 ---
+uid: tag-DashTile
 title: DashTile
 generated: true
+content_type: reference
 ---
 
 ```http

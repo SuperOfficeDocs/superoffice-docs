@@ -2,6 +2,7 @@
 title: POST Agents/List/MoveListItem
 uid: v1ListAgent_MoveListItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/MoveListItem
@@ -70,9 +71,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 447,
-  "ListItemId": 93,
-  "Direction": 508
+  "UdListDefinitionId": 713,
+  "ListItemId": 215,
+  "Direction": 618
 }
 ```
 

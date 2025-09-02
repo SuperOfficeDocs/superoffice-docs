@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Items/{id}/UserGroups
 uid: v1ProjectStatusList_GetProjectStatusUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Hodkiewicz, Lehner and Bogan",
-    "ToolTip": "Praesentium distinctio vero.",
-    "Deleted": true,
-    "Rank": 932,
-    "Type": "quia",
-    "ColorBlock": 459,
-    "IconHint": "cupiditate",
-    "Selected": false,
-    "LastChanged": "2017-10-13T03:45:29.1703077+02:00",
+    "Id": 159,
+    "Name": "Mitchell Inc and Sons",
+    "ToolTip": "Aut illo id aspernatur.",
+    "Deleted": false,
+    "Rank": 163,
+    "Type": "recusandae",
+    "ColorBlock": 751,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2011-12-14T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Kunze, Sauer and Boyer",
-        "ToolTip": "Qui iusto consequatur modi praesentium voluptatum impedit.",
-        "Deleted": false,
-        "Rank": 680,
-        "Type": "dolor",
-        "ColorBlock": 336,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2018-05-04T03:45:29.1703077+02:00",
+        "Id": 584,
+        "Name": "Bechtelar LLC",
+        "ToolTip": "Rerum ut nisi.",
+        "Deleted": true,
+        "Rank": 336,
+        "Type": "libero",
+        "ColorBlock": 151,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2023-12-17T03:47:00.7380451+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Rowena Ebert",
+        "ExtraInfo": "qui",
+        "StyleHint": "maiores",
+        "Hidden": false,
+        "FullName": "Leonor Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 827
           }
         }
       }
     ],
     "ExtraInfo": "in",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Terrill Bechtelar",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Crystel Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 445
       }
     }
   }

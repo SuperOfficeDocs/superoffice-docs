@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCategoryList SOAP
 generated: true
 uid: Services88-List-GetCategoryList
+content_type: reference
 ---
 
 # Services88 List GetCategoryList

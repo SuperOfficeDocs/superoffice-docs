@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/Items/{id}/UserGroups
 uid: v1ConsentSourceList_GetConsentSourceUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Ratke-Kihn",
-    "ToolTip": "Repudiandae id omnis nihil in eveniet qui.",
-    "Deleted": false,
-    "Rank": 526,
-    "Type": "quis",
-    "ColorBlock": 842,
-    "IconHint": "reiciendis",
+    "Id": 798,
+    "Name": "Fritsch-Carter",
+    "ToolTip": "Id architecto recusandae qui quis.",
+    "Deleted": true,
+    "Rank": 458,
+    "Type": "recusandae",
+    "ColorBlock": 826,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "1998-09-10T03:45:28.9984183+02:00",
+    "LastChanged": "2016-10-11T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Green-Cartwright",
-        "ToolTip": "Voluptatibus sit soluta rerum vel.",
+        "Id": 557,
+        "Name": "Kuphal Group",
+        "ToolTip": "Incidunt aut eaque doloribus.",
         "Deleted": false,
-        "Rank": 160,
-        "Type": "odio",
-        "ColorBlock": 154,
-        "IconHint": "quia",
+        "Rank": 141,
+        "Type": "asperiores",
+        "ColorBlock": 570,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2008-04-04T03:45:28.9984183+02:00",
+        "LastChanged": "2016-12-31T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Kenneth Wyman",
+        "ExtraInfo": "nulla",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Dion Howell V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldType": "System.Int32",
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Lysanne Kshlerin",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Mr. Claudine Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 578
       }
     }
   }

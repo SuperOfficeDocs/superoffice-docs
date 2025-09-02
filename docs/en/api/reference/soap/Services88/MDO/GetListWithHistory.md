@@ -2,6 +2,7 @@
 title: Services88.MDOAgent.GetListWithHistory SOAP
 generated: true
 uid: Services88-MDO-GetListWithHistory
+content_type: reference
 ---
 
 # Services88 MDO GetListWithHistory

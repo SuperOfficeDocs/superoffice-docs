@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/AddFavourite
 uid: v1FavouriteAgent_AddFavourite
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/AddFavourite
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hartmann LLC",
-  "RecordId": 161,
-  "AssociateId": 133,
-  "ExtraInfo": "animi"
+  "TableName": "Jaskolski Inc and Sons",
+  "RecordId": 919,
+  "AssociateId": 466,
+  "ExtraInfo": "quaerat"
 }
 ```
 

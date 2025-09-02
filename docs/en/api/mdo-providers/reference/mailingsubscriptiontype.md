@@ -3,9 +3,9 @@ uid: mailingsubscriptiontype
 title: mailingsubscriptiontype
 keywords: mdoprovider mdo provider mailingsubscriptiontype
 description: Mailing subscription types; Invitations, news, etc
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mailingsubscriptiontype" MDO List

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.RemoveConsent SOAP
 generated: true
 uid: Services88-Person-RemoveConsent
+content_type: reference
 ---
 
 # Services88 Person RemoveConsent

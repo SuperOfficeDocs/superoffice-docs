@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.RemoveProduct SOAP
 generated: true
 uid: Services88-Quote-RemoveProduct
+content_type: reference
 ---
 
 # Services88 Quote RemoveProduct

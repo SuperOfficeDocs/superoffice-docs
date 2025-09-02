@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonAppointmentsByType
 uid: v1AppointmentAgent_GetPersonAppointmentsByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByType
@@ -119,6 +120,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 326,
+  "PersonId": 343,
   "IncludeProjectAppointments": false,
-  "StartTime": "2001-08-15T03:45:22.6704778+02:00",
-  "EndTime": "2015-10-14T03:45:22.6704778+02:00",
-  "Count": 691,
+  "StartTime": "2004-02-19T03:46:54.2695244+01:00",
+  "EndTime": "2006-07-04T03:46:54.2695244+02:00",
+  "Count": 574,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,66 +156,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 466,
-    "StartDate": "2004-03-25T03:45:22.6704778+01:00",
-    "EndDate": "2018-05-07T03:45:22.6704778+02:00",
+    "AppointmentId": 874,
+    "StartDate": "2008-03-14T03:46:54.2695244+01:00",
+    "EndDate": "2003-07-07T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "id",
-    "AssociateFullName": "Cecelia Devon O'Reilly II",
-    "ContactName": "Sauer Inc and Sons",
-    "Description": "Profit-focused client-server time-frame",
-    "PersonFullName": "Miss Paul Bayer IV",
-    "PersonId": 965,
-    "ContactId": 749,
-    "ProjectId": 184,
-    "ProjectName": "Jaskolski Group",
-    "IsPublished": false,
-    "AssociateId": 401,
-    "ColorIndex": 834,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "rem",
+    "AssociateFullName": "Mrs. Godfrey Will",
+    "ContactName": "Hudson-Bradtke",
+    "Description": "User-friendly demand-driven website",
+    "PersonFullName": "Ms. Joy O'Connell",
+    "PersonId": 377,
+    "ContactId": 838,
+    "ProjectId": 960,
+    "ProjectName": "Hayes Group",
+    "IsPublished": true,
+    "AssociateId": 329,
+    "ColorIndex": 745,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 386,
-    "PriorityName": "Nicolas, Von and Borer",
+    "PriorityId": 815,
+    "PriorityName": "Denesik Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-04-25T03:45:22.6704778+02:00",
+    "ActiveDate": "2019-11-20T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-11-05T03:45:22.6704778+01:00",
-    "RecurringEndDate": "2020-02-19T03:45:22.6704778+01:00",
-    "MotherId": 66,
-    "AssignedBy": 383,
-    "AssignedByFullName": "Asa Konopelski",
+    "RecurringStartDate": "2015-12-27T03:46:54.2695244+01:00",
+    "RecurringEndDate": "2007-07-11T03:46:54.2695244+02:00",
+    "MotherId": 340,
+    "AssignedBy": 373,
+    "AssignedByFullName": "Maryam Goldner",
     "RejectReason": "",
-    "Location": "iusto",
-    "AlarmLeadTime": "quis",
-    "SaleId": 41,
-    "SaleName": "Fisher Inc and Sons",
-    "AssociateName": "Hilpert, Bins and Lebsack",
-    "CreatedDate": "2024-05-17T03:45:22.6704778+02:00",
-    "CreatedBy": "porro",
-    "CreatedByFullName": "Mr. Garfield Schaden DDS",
-    "CreatedByAssociateId": 979,
+    "Location": "quia",
+    "AlarmLeadTime": "ut",
+    "SaleId": 793,
+    "SaleName": "Osinski-Crooks",
+    "AssociateName": "Kub-Lemke",
+    "CreatedDate": "2019-06-23T03:46:54.2695244+02:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Kimberly Kuhn",
+    "CreatedByAssociateId": 521,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 1000,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 956,
-    "Title": "ut",
-    "Agenda": "nostrum",
-    "InternalNotes": "esse",
+    "PreferredTZLocation": 5,
+    "Title": "dolorem",
+    "Agenda": "cumque",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 480
       }
     }
   }

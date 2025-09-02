@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetSelectableSimpleList
 uid: v1MDOAgent_GetSelectableSimpleList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetSelectableSimpleList
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum-Wiegand"
+  "Name": "Schamberger, Hermann and Torp"
 }
 ```
 
@@ -103,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Hauck, Upton and Kuhic",
-    "ToolTip": "Neque qui modi ratione.",
-    "Deleted": false,
-    "Rank": 381,
-    "Type": "veritatis",
-    "ColorBlock": 438,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "1999-05-24T03:45:23.6391999+02:00",
+    "Id": 521,
+    "Name": "Paucek, Gulgowski and Pagac",
+    "ToolTip": "Iusto veritatis mollitia voluptas saepe velit aut.",
+    "Deleted": true,
+    "Rank": 56,
+    "Type": "soluta",
+    "ColorBlock": 279,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2014-04-21T03:46:55.0038735+02:00",
     "ChildItems": [
       {
-        "Id": 352,
-        "Name": "Padberg LLC",
-        "ToolTip": "Odio rerum et explicabo consequatur iste.",
-        "Deleted": false,
-        "Rank": 924,
-        "Type": "esse",
-        "ColorBlock": 75,
-        "IconHint": "ex",
+        "Id": 454,
+        "Name": "Considine-Hills",
+        "ToolTip": "Ea qui facilis.",
+        "Deleted": true,
+        "Rank": 195,
+        "Type": "explicabo",
+        "ColorBlock": 449,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2000-02-28T03:45:23.6391999+01:00",
+        "LastChanged": "2011-12-05T03:46:55.0038735+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "dolore",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Miss Arvel Marks Sr.",
+        "FullName": "Madelyn Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 807
+            "FieldLength": 18
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Arely Reynolds",
+    "ExtraInfo": "odio",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Marge Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldType": "System.Int32",
+        "FieldLength": 627
       }
     }
   }

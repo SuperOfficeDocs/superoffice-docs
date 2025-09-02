@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCSAuthUrl SOAP
 generated: true
 uid: Services88-Configuration-GetCSAuthUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetCSAuthUrl

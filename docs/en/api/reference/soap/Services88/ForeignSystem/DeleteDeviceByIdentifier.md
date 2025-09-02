@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.DeleteDeviceByIdentifier SOAP
 generated: true
 uid: Services88-ForeignSystem-DeleteDeviceByIdentifier
+content_type: reference
 ---
 
 # Services88 ForeignSystem DeleteDeviceByIdentifier

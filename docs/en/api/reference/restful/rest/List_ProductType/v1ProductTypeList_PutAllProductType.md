@@ -2,6 +2,7 @@
 title: PUT List/ProductType/Items
 uid: v1ProductTypeList_PutAllProductType
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Kutch, Hills and Spinka",
-    "Tooltip": "voluptatibus",
+    "Id": 402,
+    "Name": "Windler-Kuvalis",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 72,
-    "Rank": 83
+    "UdListDefinitionId": 160,
+    "Rank": 806
   },
   {
-    "Id": 924,
-    "Name": "Kutch, Hills and Spinka",
-    "Tooltip": "voluptatibus",
+    "Id": 402,
+    "Name": "Windler-Kuvalis",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 72,
-    "Rank": 83
+    "UdListDefinitionId": 160,
+    "Rank": 806
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Ortiz-Kris",
-    "Tooltip": "fuga",
-    "Deleted": false,
-    "UdListDefinitionId": 719,
-    "Rank": 771,
+    "Id": 541,
+    "Name": "Crist Group",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 103,
+    "Rank": 862,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 977
       }
     }
   }

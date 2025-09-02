@@ -2,6 +2,7 @@
 title: GET Person/UdefLayout/{progidOrLabel}
 uid: v1PersonEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Person/UdefLayout/{progidOrLabel}
@@ -103,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 556,
-  "ColumnId": 436,
-  "FieldDefault": "placeat",
-  "FieldHeight": 415,
-  "FieldLabel": "porro",
-  "FieldLeft": 166,
-  "FieldTop": 25,
+  "UDefFieldId": 180,
+  "ColumnId": 149,
+  "FieldDefault": "similique",
+  "FieldHeight": 496,
+  "FieldLabel": "architecto",
+  "FieldLeft": 985,
+  "FieldTop": 447,
   "FieldType": "Checkbox",
-  "FieldWidth": 265,
-  "FormatMask": "vel",
-  "HideLabel": true,
+  "FieldWidth": 590,
+  "FormatMask": "sit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 901,
-  "LabelLeft": 887,
-  "LabelTop": 613,
-  "LabelWidth": 375,
-  "LastVersionId": 859,
-  "ListTableId": 105,
-  "IsMandatory": false,
+  "LabelHeight": 368,
+  "LabelLeft": 297,
+  "LabelTop": 972,
+  "LabelWidth": 357,
+  "LastVersionId": 643,
+  "ListTableId": 79,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 57,
-  "ProgId": "ut",
+  "Page1LineNo": 112,
+  "ProgId": "labore",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 192,
-  "TextLength": 161,
-  "Tooltip": "blanditiis",
-  "UdefIdentity": 726,
-  "UDListDefinitionId": 358,
+  "ShortLabel": "distinctio",
+  "TabOrder": 672,
+  "TextLength": 588,
+  "Tooltip": "omnis",
+  "UdefIdentity": 81,
+  "UDListDefinitionId": 804,
   "Justification": "Center",
-  "Version": 922,
-  "TemplateVariableName": "Abbott, O'Kon and Gutmann",
-  "HasBeenPublished": false,
-  "MdoListName": "Cruickshank, VonRueden and Lind",
+  "Version": 732,
+  "TemplateVariableName": "Wilderman, Kozey and Nicolas",
+  "HasBeenPublished": true,
+  "MdoListName": "Crona-Prosacco",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

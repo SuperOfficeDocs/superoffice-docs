@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetPreviewMailing
 uid: v1MarketingAgent_GetPreviewMailing
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetPreviewMailing
@@ -88,11 +89,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 474
+  "ShipmentAddrId": 17
 }
 ```
 
@@ -103,28 +104,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2010-08-19T03:45:23.6391999+02:00",
+  "SendingTime": "2023-01-25T03:46:55.0038735+01:00",
   "Status": "Blocked",
-  "ShipmentId": 914,
-  "ShipmentDescription": "Persistent static benchmark",
-  "FromAddress": "sed",
-  "Configuration": 716,
-  "ContactId": 739,
-  "ContactName": "Littel, Walter and Collier",
-  "PersonId": 351,
-  "PersonFullName": "Luigi Bergstrom",
-  "ShipmentType": "cupiditate",
-  "MessageId": 345,
-  "MessageSubject": "sit",
-  "DocumentMessageId": 614,
-  "Opened": "1999-10-16T03:45:23.6391999+02:00",
-  "LinkClicks": 590,
+  "ShipmentId": 679,
+  "ShipmentDescription": "Optimized explicit service-desk",
+  "FromAddress": "aut",
+  "Configuration": 640,
+  "ContactId": 477,
+  "ContactName": "Reynolds, Mann and Maggio",
+  "PersonId": 769,
+  "PersonFullName": "Malcolm Grady",
+  "ShipmentType": "sit",
+  "MessageId": 9,
+  "MessageSubject": "repudiandae",
+  "DocumentMessageId": 279,
+  "Opened": "2022-03-11T03:46:55.0038735+01:00",
+  "LinkClicks": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 513
     }
   }
 }

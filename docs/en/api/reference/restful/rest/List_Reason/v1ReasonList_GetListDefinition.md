@@ -2,6 +2,7 @@
 title: GET List/Reason
 uid: v1ReasonList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Steuber, Mertz and Murphy",
-  "Tooltip": "optio",
+  "Id": 726,
+  "Name": "Hettinger-Quitzon",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 210,
+  "Rank": 517,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 110
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

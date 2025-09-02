@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/RemoveMessageAttachments
 uid: v1TicketAgent_RemoveMessageAttachments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/RemoveMessageAttachments
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Ticket/RemoveMessageAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 990,
+  "TicketMessageEntityId": 274,
   "AttachmentIds": [
-    73,
-    864
+    904,
+    16
   ]
 }
 ```

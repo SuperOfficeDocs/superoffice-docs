@@ -2,6 +2,7 @@
 title: POST Agents/Document/CopyDocumentToCsAttachment
 uid: v1DocumentAgent_CopyDocumentToCsAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CopyDocumentToCsAttachment
@@ -74,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 452
+  "DocumentId": 982
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-702
+698
 ```

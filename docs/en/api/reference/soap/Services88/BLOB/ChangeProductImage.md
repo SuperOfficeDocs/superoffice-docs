@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.ChangeProductImage SOAP
 generated: true
 uid: Services88-BLOB-ChangeProductImage
+content_type: reference
 ---
 
 # Services88 BLOB ChangeProductImage

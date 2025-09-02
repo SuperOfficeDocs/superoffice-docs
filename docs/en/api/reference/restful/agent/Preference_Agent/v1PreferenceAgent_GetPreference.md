@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreference
 uid: v1PreferenceAgent_GetPreference
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreference
@@ -87,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651
+  "Id": 320
 }
 ```
 
@@ -99,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "asperiores",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "assumenda",
-  "DisplayTooltip": "nostrum",
+  "DisplayValue": "et",
+  "DisplayTooltip": "fuga",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 658,
-  "PrefDescId": 558,
-  "TableName": "Sipes-Homenick",
-  "UserPreferenceId": 725,
+  "TargetId": 872,
+  "PrefDescId": 589,
+  "TableName": "Miller-Dare",
+  "UserPreferenceId": 944,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 419
     }
   }
 }

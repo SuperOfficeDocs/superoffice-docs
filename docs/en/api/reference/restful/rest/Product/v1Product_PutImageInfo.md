@@ -2,6 +2,7 @@
 title: PUT Product/{id}/ImageInfo
 uid: v1Product_PutImageInfo
 generated: true
+content_type: reference
 ---
 
 # PUT Product/{id}/ImageInfo
@@ -97,19 +98,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 797,
-  "BlobSize": 578,
-  "Description": "Integrated 5th generation contingency",
-  "ExtraInfo": "aut",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "libero",
-  "OriginalSize": 173,
-  "CreatedDate": "2016-05-07T03:45:28.8265489+02:00",
-  "UpdatedDate": "2018-06-08T03:45:28.8265489+02:00",
+  "BlobId": 538,
+  "BlobSize": 249,
+  "Description": "Horizontal incremental access",
+  "ExtraInfo": "perferendis",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "praesentium",
+  "OriginalSize": 113,
+  "CreatedDate": "2019-07-14T03:47:00.4255562+02:00",
+  "UpdatedDate": "2000-12-26T03:47:00.4255562+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat"
+  "ConceptualType": "consequuntur"
 }
 ```
 
@@ -120,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 305,
-  "BlobSize": 151,
-  "Description": "Organized upward-trending benchmark",
-  "ExtraInfo": "iusto",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "molestias",
-  "OriginalSize": 740,
-  "CreatedDate": "2004-10-14T03:45:28.8265489+02:00",
-  "UpdatedDate": "2016-07-01T03:45:28.8265489+02:00",
+  "BlobId": 128,
+  "BlobSize": 345,
+  "Description": "User-centric eco-centric success",
+  "ExtraInfo": "magni",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "distinctio",
+  "OriginalSize": 241,
+  "CreatedDate": "2006-12-18T03:47:00.4255562+01:00",
+  "UpdatedDate": "2012-05-26T03:47:00.4255562+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "harum",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

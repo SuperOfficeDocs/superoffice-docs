@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Headings
 uid: v1ProductFamilyList_GetProductFamilyHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Sanford, Block and Hintz",
-    "Tooltip": "fugit",
-    "Deleted": false,
-    "Rank": 717,
-    "UdListDefinitionId": 529,
+    "HeadingId": 424,
+    "Name": "Marks, Schmeler and Satterfield",
+    "Tooltip": "occaecati",
+    "Deleted": true,
+    "Rank": 253,
+    "UdListDefinitionId": 66,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 223
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST List/Business/Headings
 uid: v1BusinessList_PostBusinessHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Business/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 622,
-  "Name": "Barton-Marks",
-  "Tooltip": "qui",
+  "HeadingId": 737,
+  "Name": "Gaylord, Roob and Harvey",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 617,
-  "UdListDefinitionId": 185
+  "Rank": 872,
+  "UdListDefinitionId": 317
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 520,
-  "Name": "Jaskolski-Rempel",
-  "Tooltip": "iste",
+  "HeadingId": 581,
+  "Name": "Conroy, Tromp and Crooks",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 676,
-  "UdListDefinitionId": 724,
+  "Rank": 834,
+  "UdListDefinitionId": 771,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   }
 }

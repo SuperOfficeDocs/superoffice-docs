@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictions
 uid: v1FindAgent_FindFromRestrictions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictions
@@ -105,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gusikowski Group",
-      "Operator": "in",
+      "Name": "Schmitt, Pagac and Baumbach",
+      "Operator": "laboriosam",
       "Values": [
-        "voluptas",
-        "molestias"
+        "qui",
+        "nemo"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "est"
+        "architecto",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,14 +122,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 667,
+      "InterParenthesis": 496,
       "InterOperator": "And",
-      "UniqueHash": 288
+      "UniqueHash": 910
     }
   ],
-  "ProviderName": "Harber, Klocko and Zboncak",
-  "PageSize": 468,
-  "PageNumber": 190
+  "ProviderName": "Dickens, Zieme and Fadel",
+  "PageSize": 481,
+  "PageNumber": 991
 }
 ```
 
@@ -141,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Heathcote-Murazik",
-      "DisplayTooltip": "dicta",
-      "DisplayType": "reiciendis",
+      "DisplayName": "Sporer, Volkman and Lueilwitz",
+      "DisplayTooltip": "eligendi",
+      "DisplayType": "velit",
       "CanOrderBy": false,
-      "Name": "Ryan LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "quibusdam",
-      "RestrictionListName": "Spencer-Rau",
-      "IsVisible": false,
-      "ExtraInfo": "delectus",
-      "Width": "eum",
-      "IconHint": "velit",
-      "HeadingIconHint": "quasi"
+      "Name": "Lowe Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "accusamus",
+      "RestrictionListName": "Leffler LLC",
+      "IsVisible": true,
+      "ExtraInfo": "id",
+      "Width": "nihil",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kreiger Inc and Sons",
-      "PrimaryKey": 904,
+      "EntityName": "Kuhic, Anderson and Walker",
+      "PrimaryKey": 884,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloribus",
-          "TooltipHint": "rerum",
-          "LinkHint": "quis"
+          "DisplayValue": "quam",
+          "TooltipHint": "sunt",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "fugit",
+      "LinkHint": "rerum",
+      "StyleHint": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 268
         }
       }
     }
   ],
-  "RowCount": 902,
+  "RowCount": 776,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 551
     }
   }
 }

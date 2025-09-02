@@ -2,6 +2,7 @@
 title: GET PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_GetPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescriptionLine/{id}
@@ -78,7 +79,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,18 +89,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 179,
-  "PrefDescId": 354,
-  "PrefValue": "voluptatibus",
-  "PrefShowValue": "nostrum",
-  "Description": "Future-proofed bottom-line support",
+  "PrefDescLineId": 361,
+  "PrefDescId": 270,
+  "PrefValue": "quasi",
+  "PrefShowValue": "assumenda",
+  "Description": "Enhanced content-based emulation",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 276
     }
   },
   "_Links": {

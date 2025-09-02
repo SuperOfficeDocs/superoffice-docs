@@ -2,6 +2,7 @@
 title: GET List/Priority/MDOItems
 uid: v1PriorityList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=corporis
+GET /api/v1/List/Priority/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Jaskolski, Wisozk and McLaughlin",
-    "ToolTip": "Accusantium vel libero eius ipsum.",
+    "Id": 973,
+    "Name": "Padberg Inc and Sons",
+    "ToolTip": "Dolorem facere.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "beatae",
+    "Rank": 169,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Herman, Rempel and Armstrong",
-        "ToolTip": "Eius ea tempore tempore.",
+        "Id": 448,
+        "Name": "Howell Group",
+        "ToolTip": "Voluptatem sit reprehenderit ab alias qui dicta error.",
         "Deleted": false,
-        "Rank": 596,
-        "Type": "voluptas",
+        "Rank": 488,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 667,
-        "ExtraInfo": "aperiam",
-        "StyleHint": "rem",
-        "FullName": "Gerhard Grady",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 584,
+        "ExtraInfo": "iure",
+        "StyleHint": "ratione",
+        "FullName": "Ms. Franz Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 848
           }
         }
       }
     ],
-    "IconHint": "porro",
-    "ColorBlock": 76,
-    "ExtraInfo": "sed",
-    "StyleHint": "dolorem",
-    "FullName": "Owen Schuster",
+    "IconHint": "sed",
+    "ColorBlock": 779,
+    "ExtraInfo": "nemo",
+    "StyleHint": "ut",
+    "FullName": "Harrison Swift I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 409
       }
     }
   }

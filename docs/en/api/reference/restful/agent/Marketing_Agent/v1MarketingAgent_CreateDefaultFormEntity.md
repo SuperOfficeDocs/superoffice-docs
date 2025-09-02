@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/CreateDefaultFormEntity
 uid: v1MarketingAgent_CreateDefaultFormEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/CreateDefaultFormEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 ```
 
-Set default values into a new FormEntity.
+Loading default values into a new FormEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -79,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 104,
-  "FormKey": "consequatur",
-  "Name": "Oberbrunner-Moen",
-  "Description": "Quality-focused clear-thinking service-desk",
-  "Config": "perspiciatis",
-  "FolderId": 146,
-  "ScriptId": 431,
-  "ResponseShipmentId": 215,
-  "Active": true,
-  "Expires": "2025-03-18T03:45:23.6235756+01:00",
-  "MaxSubmits": 620,
+  "FormId": 447,
+  "FormKey": "nisi",
+  "Name": "Becker-Douglas",
+  "Description": "Networked 3rd generation algorithm",
+  "Config": "incidunt",
+  "FolderId": 75,
+  "ScriptId": 134,
+  "ResponseShipmentId": 713,
+  "Active": false,
+  "Expires": "2011-10-17T03:46:55.0038735+02:00",
+  "MaxSubmits": 689,
   "Type": "Normal",
-  "Recipe": "exercitationem",
-  "GroupId": 350,
-  "NewTicket": true,
+  "Recipe": "provident",
+  "GroupId": 248,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2008-05-20T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 510,
-  "Updated": "2013-12-30T03:45:23.6235756+01:00",
-  "UpdatedAssociateId": 335,
-  "UpdatedCount": 693,
+  "Registered": "2025-04-14T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 971,
+  "Updated": "2016-06-07T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 294,
+  "UpdatedCount": 838,
   "EmailFlows": [
-    728,
-    183
+    348,
+    529
   ],
-  "FolderName": "Conn-Tromp",
+  "FolderName": "Hilpert-Schmitt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 695
     }
   }
 }

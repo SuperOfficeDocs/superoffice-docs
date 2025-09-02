@@ -2,6 +2,7 @@
 title: GET List/Position/Items/{id}/Headings
 uid: v1PositionList_GetPositionHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Grant, Farrell and Kuphal",
-    "ToolTip": "Qui similique.",
-    "Deleted": false,
-    "Rank": 679,
-    "Type": "a",
-    "ColorBlock": 474,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2015-03-15T03:45:29.0765432+01:00",
+    "Id": 922,
+    "Name": "Volkman, Wiza and Swaniawski",
+    "ToolTip": "Rerum inventore ipsa perferendis accusamus.",
+    "Deleted": true,
+    "Rank": 413,
+    "Type": "dignissimos",
+    "ColorBlock": 875,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2011-12-12T03:47:00.7067961+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Grady, O'Conner and Kihn",
-        "ToolTip": "Enim et veritatis culpa.",
+        "Id": 532,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Veritatis qui.",
         "Deleted": true,
-        "Rank": 875,
-        "Type": "accusantium",
-        "ColorBlock": 320,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2018-07-13T03:45:29.0765432+02:00",
+        "Rank": 34,
+        "Type": "quos",
+        "ColorBlock": 910,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2021-02-11T03:47:00.7067961+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "eius",
-        "Hidden": true,
-        "FullName": "Lucio Veum",
+        "ExtraInfo": "est",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Prof. Halle Alena Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 681
+            "FieldLength": 623
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "minima",
+    "ExtraInfo": "quos",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Kaya Harvey",
+    "FullName": "Miss Billy Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 385
       }
     }
   }

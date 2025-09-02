@@ -2,6 +2,7 @@
 title: GET ChatSession/{id}
 uid: v1ChatSessionEntity_GetChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # GET ChatSession/{id}
@@ -113,43 +114,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 187,
-  "TopicId": 320,
+  "ChatSessionId": 951,
+  "TopicId": 411,
   "User": null,
   "Person": null,
-  "CustomerAlias": "possimus",
-  "CustomerHost": "commodi",
-  "CustomerName": "Ferry-Auer",
-  "CustomerEmail": "lucious.oconner@brownnader.ca",
-  "CustomerPhone": "1-917-129-6967",
+  "CustomerAlias": "est",
+  "CustomerHost": "beatae",
+  "CustomerName": "Rowe-Klein",
+  "CustomerEmail": "matilde@greenfelder.name",
+  "CustomerPhone": "023-221-4292 x2928",
   "CustomerConsented": false,
-  "CustomerCompanyName": "O'Reilly-Effertz",
+  "CustomerCompanyName": "Davis Group",
   "Status": "Closed",
-  "FirstMessage": "sequi",
-  "LastMessage": "reprehenderit",
-  "WhenRequested": "2024-11-21T03:45:28.1078228+01:00",
-  "WhenStarted": "1998-12-18T03:45:28.1078228+01:00",
-  "WhenEnded": "2022-01-08T03:45:28.1078228+01:00",
-  "WhenIdle": "2007-06-19T03:45:28.1078228+02:00",
-  "WhenFetched": "2010-06-20T03:45:28.1078228+02:00",
-  "SessionKey": "voluptatum",
-  "InitialQueuePos": 469,
-  "AlertLevel": 559,
-  "Rank": 212,
+  "FirstMessage": "ab",
+  "LastMessage": "debitis",
+  "WhenRequested": "1999-03-05T03:46:59.7380732+01:00",
+  "WhenStarted": "2017-11-03T03:46:59.7380732+01:00",
+  "WhenEnded": "2008-11-11T03:46:59.7380732+01:00",
+  "WhenIdle": "2014-05-25T03:46:59.7380732+02:00",
+  "WhenFetched": "2000-07-09T03:46:59.7380732+02:00",
+  "SessionKey": "pariatur",
+  "InitialQueuePos": 754,
+  "AlertLevel": 731,
+  "Rank": 217,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 148,
+  "ChatbotIsActive": true,
+  "Rating": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   },
   "_Links": {

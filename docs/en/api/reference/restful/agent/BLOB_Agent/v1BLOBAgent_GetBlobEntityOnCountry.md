@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetBlobEntityOnCountry
 uid: v1BLOBAgent_GetBlobEntityOnCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnCountry
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 934
+  "CountryId": 624
 }
 ```
 
@@ -100,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 872,
-  "BlobSize": 225,
-  "Description": "Synergized object-oriented toolset",
-  "ExtraInfo": "minima",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quo",
-  "OriginalSize": 941,
-  "CreatedDate": "2019-11-09T03:45:22.9985914+01:00",
-  "UpdatedDate": "2002-12-20T03:45:22.9985914+01:00",
+  "BlobId": 627,
+  "BlobSize": 369,
+  "Description": "Open-source holistic service-desk",
+  "ExtraInfo": "modi",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "saepe",
+  "OriginalSize": 995,
+  "CreatedDate": "2000-01-16T03:46:54.3163903+01:00",
+  "UpdatedDate": "2019-08-26T03:46:54.3163903+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "temporibus",
+  "ConceptualType": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 179
     }
   }
 }

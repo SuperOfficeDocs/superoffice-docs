@@ -2,6 +2,7 @@
 title: GET Relation/default
 uid: v1ContactRelationEntity_DefaultContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # GET Relation/default
@@ -82,33 +83,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Dec 2010 03:45:28 G12T
+Last-Modified: Tue, 12 Apr 2005 03:46:59 G4T
 
 {
-  "SourceContactId": 681,
-  "SourcePersonId": 882,
-  "DestinationContactId": 98,
-  "DestinationPersonId": 742,
-  "RelationId": 34,
-  "Comment": "molestiae",
-  "RelationDefinitionId": 202,
-  "Reversed": 686,
-  "UpdatedDate": "2010-12-02T03:45:28.2171945+01:00",
-  "CreatedDate": "1998-12-04T03:45:28.2171945+01:00",
+  "SourceContactId": 675,
+  "SourcePersonId": 167,
+  "DestinationContactId": 446,
+  "DestinationPersonId": 360,
+  "RelationId": 75,
+  "Comment": "voluptatem",
+  "RelationDefinitionId": 995,
+  "Reversed": 524,
+  "UpdatedDate": "2005-04-12T03:46:59.8786923+02:00",
+  "CreatedDate": "2009-09-22T03:46:59.8786923+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kozey, Spencer and Kessler",
-  "SourcePersonName": "Abernathy Inc and Sons",
-  "DestinationContactName": "Buckridge, Torphy and Grady",
-  "DestinationPersonName": "Steuber, Grimes and Metz",
-  "ActiveText": "quisquam",
-  "PassiveText": "et",
+  "SourceContactName": "Kovacek Inc and Sons",
+  "SourcePersonName": "Daniel-Marks",
+  "DestinationContactName": "Monahan, D'Amore and Jast",
+  "DestinationPersonName": "Crona, Konopelski and Leuschke",
+  "ActiveText": "quia",
+  "PassiveText": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetAddress
 uid: v1ContactAgent_GetAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetAddress
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 873
+  "ContactId": 273
 }
 ```
 
@@ -93,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 19819.416,
-  "Wgs84Longitude": 22292.142,
+  "Wgs84Latitude": 20117.146,
+  "Wgs84Longitude": 24768.002,
   "LocalizedAddress": [
     [
       {
-        "Name": "Conroy, Larson and Koss",
-        "Value": "sint",
-        "Tooltip": "et",
-        "Label": "illo",
-        "ValueLength": 629,
-        "AddressType": "eos",
+        "Name": "Deckow, Boyle and Friesen",
+        "Value": "corporis",
+        "Tooltip": "porro",
+        "Label": "perspiciatis",
+        "ValueLength": 624,
+        "AddressType": "molestiae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 225
           }
         }
       }
     ],
     [
       {
-        "Name": "Wolf LLC",
-        "Value": "esse",
-        "Tooltip": "veniam",
-        "Label": "labore",
-        "ValueLength": 796,
-        "AddressType": "eum",
+        "Name": "Breitenberg, Hammes and Quitzon",
+        "Value": "inventore",
+        "Tooltip": "ut",
+        "Label": "dolor",
+        "ValueLength": 912,
+        "AddressType": "voluptas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 410
           }
         }
       }
@@ -135,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "tempore",
+  "Formatted": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   }
 }

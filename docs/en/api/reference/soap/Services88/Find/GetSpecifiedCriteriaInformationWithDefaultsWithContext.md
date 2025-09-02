@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext SOAP
 generated: true
 uid: Services88-Find-GetSpecifiedCriteriaInformationWithDefaultsWithContext
+content_type: reference
 ---
 
 # Services88 Find GetSpecifiedCriteriaInformationWithDefaultsWithContext

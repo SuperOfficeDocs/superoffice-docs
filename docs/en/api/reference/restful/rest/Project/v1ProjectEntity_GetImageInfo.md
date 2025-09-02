@@ -2,6 +2,7 @@
 title: GET Project/{id}/Imageinfo
 uid: v1ProjectEntity_GetImageInfo
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/Imageinfo
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 17 Aug 1998 03:45:28 G8T
+Last-Modified: Sat, 22 Jan 2022 03:47:00 G1T
 
 {
-  "BlobId": 544,
-  "BlobSize": 33,
-  "Description": "Seamless homogeneous emulation",
-  "ExtraInfo": "quaerat",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "quis",
-  "OriginalSize": 622,
-  "CreatedDate": "2019-08-14T03:45:28.5296817+02:00",
-  "UpdatedDate": "1998-08-17T03:45:28.5296817+02:00",
+  "BlobId": 690,
+  "BlobSize": 588,
+  "Description": "Horizontal context-sensitive task-force",
+  "ExtraInfo": "repellendus",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 358,
+  "CreatedDate": "2005-07-17T03:47:00.2068137+02:00",
+  "UpdatedDate": "2022-01-22T03:47:00.2068137+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 277
     }
   }
 }

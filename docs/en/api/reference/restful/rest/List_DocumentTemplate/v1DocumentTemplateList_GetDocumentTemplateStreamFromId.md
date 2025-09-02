@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_GetDocumentTemplateStreamFromId
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -55,7 +56,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Document/UndoCheckoutDocument
 uid: v1DocumentAgent_UndoCheckoutDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/UndoCheckoutDocument
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/UndoCheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 302,
+  "DocumentId": 569,
   "AllowedReturnTypes": [
-    "debitis",
-    "provident"
+    "culpa",
+    "animi"
   ]
 }
 ```
@@ -96,11 +97,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "magnam",
-  "VersionId": "asperiores",
-  "Success": true,
+  "ExternalReference": "optio",
+  "VersionId": "accusantium",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "deserunt",
-  "AdditionalInfo": "dolor"
+  "Value": "iste",
+  "AdditionalInfo": "sint"
 }
 ```

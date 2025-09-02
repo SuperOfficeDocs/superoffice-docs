@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.DeleteTargetDimension SOAP
 generated: true
 uid: Services88-Targets-DeleteTargetDimension
+content_type: reference
 ---
 
 # Services88 Targets DeleteTargetDimension

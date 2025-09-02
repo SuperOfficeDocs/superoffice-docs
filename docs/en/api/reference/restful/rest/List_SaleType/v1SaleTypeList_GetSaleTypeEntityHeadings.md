@@ -2,6 +2,7 @@
 title: GET List/SaleType/Headings
 uid: v1SaleTypeList_GetSaleTypeEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Bosco Inc and Sons",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "Rank": 125,
-    "UdListDefinitionId": 722,
+    "HeadingId": 796,
+    "Name": "Huel Group",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "Rank": 950,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 241
       }
     }
   }

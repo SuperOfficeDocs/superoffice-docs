@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetProjectImageWithSize SOAP
 generated: true
 uid: Services88-BLOB-GetProjectImageWithSize
+content_type: reference
 ---
 
 # Services88 BLOB GetProjectImageWithSize

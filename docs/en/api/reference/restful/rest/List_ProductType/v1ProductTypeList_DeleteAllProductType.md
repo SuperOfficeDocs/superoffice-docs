@@ -2,6 +2,7 @@
 title: DEL List/ProductType/Items
 uid: v1ProductTypeList_DeleteAllProductType
 generated: true
+content_type: reference
 ---
 
 # DEL List/ProductType/Items
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashCollection
 uid: v1DashAgent_GetDashCollection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashCollection
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +80,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 175,
-      "UniqueId": "provident",
-      "Name": "Jakubowski, Towne and Turner",
-      "Description": "Switchable scalable workforce",
-      "AssociateId": 145,
-      "Columns": 907,
+      "DashboardId": 974,
+      "UniqueId": "modi",
+      "Name": "Hessel LLC",
+      "Description": "Streamlined incremental database",
+      "AssociateId": 408,
+      "Columns": 959,
       "Theme": null,
-      "VisibleForAll": 328,
+      "VisibleForAll": 620,
       "VisibleForAssociates": [
-        122,
-        373
+        379,
+        151
       ],
       "VisibleForGroups": [
-        463,
-        244
+        557,
+        416
       ],
-      "PinForAll": 115,
+      "PinForAll": 381,
       "PinForAssociates": [
-        188,
-        825
+        376,
+        520
       ],
       "PinForGroups": [
-        930,
-        923
+        691,
+        735
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 958
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 308,
-      "UniqueId": "provident",
-      "Name": "Schulist, Bartoletti and Stiedemann",
-      "Description": "Decentralized discrete interface",
-      "AssociateId": 593,
-      "Columns": 237,
+      "DashboardId": 799,
+      "UniqueId": "dolores",
+      "Name": "Goodwin Group",
+      "Description": "Business-focused attitude-oriented knowledge user",
+      "AssociateId": 69,
+      "Columns": 834,
       "Theme": null,
-      "VisibleForAll": 585,
+      "VisibleForAll": 772,
       "VisibleForAssociates": [
-        372,
-        49
+        30,
+        28
       ],
       "VisibleForGroups": [
-        159,
-        809
+        984,
+        731
       ],
-      "PinForAll": 827,
+      "PinForAll": 558,
       "PinForAssociates": [
-        741,
-        450
+        944,
+        726
       ],
       "PinForGroups": [
-        338,
-        570
+        978,
+        542
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldLength": 84
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 716,
-      "UniqueId": "repellendus",
-      "Name": "Hyatt-Carroll",
-      "Description": "Object-based leading edge installation",
-      "AssociateId": 608,
-      "Columns": 113,
+      "DashboardId": 285,
+      "UniqueId": "modi",
+      "Name": "Price, McGlynn and Spencer",
+      "Description": "User-friendly coherent website",
+      "AssociateId": 675,
+      "Columns": 81,
       "Theme": null,
-      "VisibleForAll": 312,
+      "VisibleForAll": 349,
       "VisibleForAssociates": [
-        572,
-        520
+        245,
+        458
       ],
       "VisibleForGroups": [
-        280,
-        535
+        867,
+        75
       ],
-      "PinForAll": 624,
+      "PinForAll": 723,
       "PinForAssociates": [
-        972,
-        839
+        677,
+        44
       ],
       "PinForGroups": [
-        439,
-        945
+        520,
+        997
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldLength": 377
         }
       }
     }
@@ -192,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

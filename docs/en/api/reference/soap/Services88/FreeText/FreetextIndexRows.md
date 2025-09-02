@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent.FreetextIndexRows SOAP
 generated: true
 uid: Services88-FreeText-FreetextIndexRows
+content_type: reference
 ---
 
 # Services88 FreeText FreetextIndexRows

@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.DeletePreferenceDescriptionLine SOAP
 generated: true
 uid: Services88-Preference-DeletePreferenceDescriptionLine
+content_type: reference
 ---
 
 # Services88 Preference DeletePreferenceDescriptionLine

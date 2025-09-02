@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateVideoMeetingReservation
 uid: v1AppointmentAgent_CreateVideoMeetingReservation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateVideoMeetingReservation
@@ -78,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "VideoMeetingId": "nihil",
+  "VideoMeetingId": "eos",
   "VideoMeetingUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 855
     }
   }
 }

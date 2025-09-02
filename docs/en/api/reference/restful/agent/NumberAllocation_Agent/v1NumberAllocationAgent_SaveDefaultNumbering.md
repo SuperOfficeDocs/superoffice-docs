@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/SaveDefaultNumbering
 uid: v1NumberAllocationAgent_SaveDefaultNumbering
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/SaveDefaultNumbering
@@ -64,7 +65,7 @@ No Content
 POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

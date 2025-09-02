@@ -3,9 +3,9 @@ uid: selection_freetextsearch
 title: selection_freetextsearch
 keywords: mdoprovider mdo provider selection_freetextsearch
 description: Provider for selecting a Selection. Does keyword matching and scoring across multiple string fields. Checks name, description, soundex fields.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "selection_freetextsearch" MDO List

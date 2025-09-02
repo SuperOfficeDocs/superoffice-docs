@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetConnectionsAndDisplayFields SOAP
 generated: true
 uid: Services88-ErpSync-GetConnectionsAndDisplayFields
+content_type: reference
 ---
 
 # Services88 ErpSync GetConnectionsAndDisplayFields

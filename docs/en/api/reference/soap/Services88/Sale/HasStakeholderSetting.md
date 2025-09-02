@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.HasStakeholderSetting SOAP
 generated: true
 uid: Services88-Sale-HasStakeholderSetting
+content_type: reference
 ---
 
 # Services88 Sale HasStakeholderSetting

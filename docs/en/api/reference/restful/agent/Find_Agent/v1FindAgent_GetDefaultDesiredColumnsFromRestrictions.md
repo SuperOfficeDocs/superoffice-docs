@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 uid: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
@@ -86,32 +87,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Grady, Koelpin and Becker",
+  "ProviderName": "Gorczany-D'Amore",
   "Restrictions": [
     {
-      "Name": "Bayer Inc and Sons",
-      "Operator": "totam",
+      "Name": "Anderson-Walter",
+      "Operator": "natus",
       "Values": [
-        "itaque",
-        "quia"
+        "inventore",
+        "occaecati"
       ],
       "DisplayValues": [
-        "dolor",
-        "perferendis"
+        "eos",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 895,
+      "InterParenthesis": 906,
       "InterOperator": "And",
-      "UniqueHash": 518
+      "UniqueHash": 993
     }
   ]
 }
@@ -125,19 +126,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Rice Inc and Sons",
-    "DisplayTooltip": "exercitationem",
-    "DisplayType": "est",
-    "CanOrderBy": true,
-    "Name": "Ankunding, Jenkins and Feeney",
-    "CanRestrictBy": false,
-    "RestrictionType": "qui",
+    "DisplayName": "Gerhold, Sawayn and Gusikowski",
+    "DisplayTooltip": "amet",
+    "DisplayType": "assumenda",
+    "CanOrderBy": false,
+    "Name": "Collier, Stiedemann and Kutch",
+    "CanRestrictBy": true,
+    "RestrictionType": "aliquid",
     "RestrictionListName": "Effertz Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "ex",
-    "Width": "repellendus",
-    "IconHint": "pariatur",
-    "HeadingIconHint": "reiciendis"
+    "ExtraInfo": "modi",
+    "Width": "repellat",
+    "IconHint": "minus",
+    "HeadingIconHint": "minima"
   }
 ]
 ```

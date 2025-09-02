@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetAssignmentForYear
 uid: v1TargetsAgent_GetTargetAssignmentForYear
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetAssignmentForYear
@@ -88,10 +89,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 318,
+  "TargetYear": 667,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 957
+  "Id": 929
 }
 ```
 
@@ -102,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 276,
+  "TargetAssignmentInfoId": 367,
   "Values": [
-    599,
-    934
+    17,
+    900
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 424,
-  "DimensionListItemDisplayName": "Bogisich-Dooley",
+  "DimensionListItem": 296,
+  "DimensionListItemDisplayName": "Herzog, Bednar and Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldLength": 220
     }
   }
 }

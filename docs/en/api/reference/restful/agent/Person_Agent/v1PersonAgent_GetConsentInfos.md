@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetConsentInfos
 uid: v1PersonAgent_GetConsentInfos
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetConsentInfos
@@ -89,11 +90,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 571
+  "PersonId": 636
 }
 ```
 
@@ -105,27 +106,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 6,
-    "Comment": "ducimus",
-    "Registered": "1998-10-19T03:45:23.7173227+02:00",
-    "RegisteredAssociateId": 820,
-    "Updated": "1998-03-19T03:45:23.7173227+01:00",
-    "UpdatedAssociateId": 252,
-    "LegalBaseId": 513,
-    "LegalBaseKey": "necessitatibus",
-    "LegalBaseName": "Raynor LLC",
-    "ConsentPurposeId": 131,
-    "ConsentPurposeKey": "nulla",
-    "ConsentPurposeName": "Jast LLC",
-    "ConsentSourceId": 186,
-    "ConsentSourceKey": "eius",
-    "ConsentSourceName": "Deckow, Hoppe and Berge",
+    "ConsentPersonId": 23,
+    "Comment": "omnis",
+    "Registered": "2017-07-10T03:46:55.0976201+02:00",
+    "RegisteredAssociateId": 710,
+    "Updated": "2003-05-01T03:46:55.0976201+02:00",
+    "UpdatedAssociateId": 896,
+    "LegalBaseId": 853,
+    "LegalBaseKey": "qui",
+    "LegalBaseName": "Lesch Inc and Sons",
+    "ConsentPurposeId": 886,
+    "ConsentPurposeKey": "facere",
+    "ConsentPurposeName": "Kutch Inc and Sons",
+    "ConsentSourceId": 139,
+    "ConsentSourceKey": "nostrum",
+    "ConsentSourceName": "King Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 957
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/WebPanel/Headings
 uid: v1WebPanelEntityList_PutWebPanelEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/WebPanel/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 408,
-    "Name": "Langosh-Bechtelar",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "Rank": 380,
-    "UdListDefinitionId": 842
+    "HeadingId": 46,
+    "Name": "Dickens-Simonis",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 698
   },
   {
-    "HeadingId": 408,
-    "Name": "Langosh-Bechtelar",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "Rank": 380,
-    "UdListDefinitionId": 842
+    "HeadingId": 46,
+    "Name": "Dickens-Simonis",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 698
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Casper Group",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 843,
+    "HeadingId": 277,
+    "Name": "Muller-Moore",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "Rank": 815,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 259
       }
     }
   }

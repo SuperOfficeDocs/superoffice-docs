@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetArchiveList2 SOAP
 generated: true
 uid: Services88-Archive-GetArchiveList2
+content_type: reference
 ---
 
 # Services88 Archive GetArchiveList2

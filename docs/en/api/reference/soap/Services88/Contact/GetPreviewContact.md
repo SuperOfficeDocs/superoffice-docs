@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetPreviewContact SOAP
 generated: true
 uid: Services88-Contact-GetPreviewContact
+content_type: reference
 ---
 
 # Services88 Contact GetPreviewContact

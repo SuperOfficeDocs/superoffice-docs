@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Plugin/{id}/DocumentTypes
 uid: v1DocumentTemplateList_GetDocumentTypesForPlugin
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Plugin/{id}/DocumentTypes
@@ -56,7 +57,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sed",
-  "2": "recusandae"
+  "1": "alias",
+  "2": "laborum"
 }
 ```

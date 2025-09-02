@@ -2,6 +2,7 @@
 title: PUT List/{id}/Items
 uid: v1ListItemEntity_SaveAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/{id}/Items
@@ -82,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Little-Roob",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "UdListDefinitionId": 572,
-    "Rank": 364
+    "Id": 513,
+    "Name": "Wilderman-Paucek",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "UdListDefinitionId": 835,
+    "Rank": 480
   },
   {
-    "Id": 251,
-    "Name": "Little-Roob",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "UdListDefinitionId": 572,
-    "Rank": 364
+    "Id": 513,
+    "Name": "Wilderman-Paucek",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "UdListDefinitionId": 835,
+    "Rank": 480
   }
 ]
 ```
@@ -108,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Schulist-Yost",
-    "Tooltip": "aperiam",
+    "Id": 488,
+    "Name": "Crist, Dicki and Ernser",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 816,
-    "Rank": 420,
+    "UdListDefinitionId": 972,
+    "Rank": 510,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

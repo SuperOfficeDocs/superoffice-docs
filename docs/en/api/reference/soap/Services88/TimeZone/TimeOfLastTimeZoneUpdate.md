@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.TimeOfLastTimeZoneUpdate SOAP
 generated: true
 uid: Services88-TimeZone-TimeOfLastTimeZoneUpdate
+content_type: reference
 ---
 
 # Services88 TimeZone TimeOfLastTimeZoneUpdate
@@ -59,7 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:TimeZone="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <TimeZone:TimeOfLastTimeZoneUpdateResponse>
-   <TimeZone:Response xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</TimeZone:Response>
+   <TimeZone:Response xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</TimeZone:Response>
   </TimeZone:TimeOfLastTimeZoneUpdateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

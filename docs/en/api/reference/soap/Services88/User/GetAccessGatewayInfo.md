@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetAccessGatewayInfo SOAP
 generated: true
 uid: Services88-User-GetAccessGatewayInfo
+content_type: reference
 ---
 
 # Services88 User GetAccessGatewayInfo

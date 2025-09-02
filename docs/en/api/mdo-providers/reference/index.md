@@ -2,10 +2,10 @@
 uid: mdo-provider-listing
 title: MDO List Provider names
 description: Valid list of provider names
-so.generated: true
+generated: true
 keywords: mdoprovider mdo provider
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # MDO List Providers
@@ -89,6 +89,7 @@ so.envir: onsite, online
 | [attachment](attachment.md) ||
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
+| [categorygroup](categorygroup.md) |MDO provider for the WorkflowGoalType enum|
 | [chartselection](chartselection.md) ||
 | [chatbot](chatbot.md) |List of all script folders that contain a script named like "%bot%register%"|
 | [chatchannel](chatchannel.md) ||
@@ -123,6 +124,7 @@ so.envir: onsite, online
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
 | [currentudeffields](currentudeffields.md) |Get a list of udef fields for a given type. Pass the type as AdditionalInfo|
 | [customerlanguage](customerlanguage.md) |Customer Languages list. From the CustLang table.|
+| [customobjectfavourite](customobjectfavourite.md) ||
 | [customobjectlist](customobjectlist.md) |<see cref="T:SuperOffice.CRM.Lists.CustomObjectListProvider" /> creates tree list of the custom objects|
 | [customobjectrelation](customobjectrelation.md) |MDO list provider for custom object relation|
 | [dashboard](dashboard.md) |MDO list provider for Dashboard, can be used by Navigator.|

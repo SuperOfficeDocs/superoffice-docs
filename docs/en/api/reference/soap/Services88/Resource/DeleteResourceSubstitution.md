@@ -2,6 +2,7 @@
 title: Services88.ResourceAgent.DeleteResourceSubstitution SOAP
 generated: true
 uid: Services88-Resource-DeleteResourceSubstitution
+content_type: reference
 ---
 
 # Services88 Resource DeleteResourceSubstitution

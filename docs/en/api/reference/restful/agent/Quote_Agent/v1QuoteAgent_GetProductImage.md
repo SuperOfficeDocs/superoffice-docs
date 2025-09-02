@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetProductImage
 uid: v1QuoteAgent_GetProductImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetProductImage
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Quote/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 945,
-  "ERPProductKey": "recusandae",
-  "Rank": 499
+  "QuoteConnectionId": 795,
+  "ERPProductKey": "ad",
+  "Rank": 979
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nihil"
+"perferendis"
 ```

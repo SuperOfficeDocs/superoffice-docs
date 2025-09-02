@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.RemoveLicenseFromDB SOAP
 generated: true
 uid: Services88-License-RemoveLicenseFromDB
+content_type: reference
 ---
 
 # Services88 License RemoveLicenseFromDB

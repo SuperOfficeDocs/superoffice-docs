@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
 uid: v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CreateDefaultCustomerCenterConfig
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 ```
 
-Set default values into a new CustomerCenterConfig.
+Loading default values into a new CustomerCenterConfig.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -64,7 +63,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 841,
+  "CustConfigId": 999,
   "Type": "Options",
-  "Config": "et",
-  "CustLangId": 784,
-  "Registered": "2023-05-08T03:45:23.2485827+02:00",
-  "RegisteredAssociateId": 388,
-  "Updated": "1998-03-26T03:45:23.2485827+01:00",
-  "UpdatedAssociateId": 893,
+  "Config": "numquam",
+  "CustLangId": 618,
+  "Registered": "2017-02-28T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 13,
+  "Updated": "2021-11-11T03:46:54.5820132+01:00",
+  "UpdatedAssociateId": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 646
     }
   }
 }

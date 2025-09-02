@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ExecuteScriptByString
 uid: v1CRMScriptAgent_ExecuteScriptByString
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ExecuteScriptByString
@@ -85,14 +86,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "dolor",
+  "Script": "excepturi",
   "Parameters": {
-    "Parameters1": "quo",
-    "Parameters2": "ratione"
+    "Parameters1": "quasi",
+    "Parameters2": "aut"
   },
   "EventData": null
 }
@@ -105,27 +106,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "est",
+  "Output": "laborum",
   "Parameters": {
-    "Parameters1": "reiciendis",
-    "Parameters2": "dolore"
+    "Parameters1": "quos",
+    "Parameters2": "sint"
   },
   "TraceRun": null,
   "Eventdata": null,
   "Success": false,
   "ErrorInformation": null,
-  "StatusCode": 931,
-  "StatusMessage": "aut",
+  "StatusCode": 901,
+  "StatusMessage": "iste",
   "Headers": {
-    "Headers1": "officiis",
-    "Headers2": "recusandae"
+    "Headers1": "quo",
+    "Headers2": "officia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 186
     }
   }
 }

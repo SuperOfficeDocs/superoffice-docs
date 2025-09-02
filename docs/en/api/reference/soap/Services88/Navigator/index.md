@@ -2,6 +2,7 @@
 title: Services88.NavigatorAgent SOAP
 uid: Services88-Navigator-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Navigator SOAP

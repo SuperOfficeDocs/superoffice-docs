@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceByName
 uid: v1ForeignSystemAgent_GetDeviceByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceByName
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wunsch, Mosciski and Keebler",
-  "DeviceName": "Zulauf Group"
+  "ApplicationName": "Goldner-Corkery",
+  "DeviceName": "Hermann, Ankunding and Pollich"
 }
 ```
 
@@ -98,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 268,
-  "Name": "Kunde, Kuhic and Goyette",
-  "CreatedDate": "2003-02-06T03:45:23.4829546+01:00",
-  "UpdatedDate": "2011-09-19T03:45:23.4829546+02:00",
-  "AssociateFullName": "Heber Houston Mertz PhD",
-  "CreatedBy": "aliquam",
-  "UpdatedBy": "molestiae",
-  "DeviceIdentifier": "sint",
-  "ForeignAppId": 364,
+  "ForeignDeviceId": 186,
+  "Name": "Ratke Inc and Sons",
+  "CreatedDate": "1998-09-01T03:46:54.847629+02:00",
+  "UpdatedDate": "2022-06-03T03:46:54.847629+02:00",
+  "AssociateFullName": "Brigitte Williamson",
+  "CreatedBy": "rem",
+  "UpdatedBy": "laudantium",
+  "DeviceIdentifier": "expedita",
+  "ForeignAppId": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

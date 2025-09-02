@@ -2,6 +2,7 @@
 title: Services88.PhoneListAgent.GetFavoritesPhones SOAP
 generated: true
 uid: Services88-PhoneList-GetFavoritesPhones
+content_type: reference
 ---
 
 # Services88 PhoneList GetFavoritesPhones

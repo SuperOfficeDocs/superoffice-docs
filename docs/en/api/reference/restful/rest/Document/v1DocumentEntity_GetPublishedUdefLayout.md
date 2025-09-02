@@ -2,6 +2,7 @@
 title: GET Document/UdefLayout/Published
 uid: v1DocumentEntity_GetPublishedUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Document/UdefLayout/Published
@@ -99,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 384,
-    "ColumnId": 545,
-    "FieldDefault": "et",
-    "FieldHeight": 70,
-    "FieldLabel": "ut",
-    "FieldLeft": 759,
-    "FieldTop": 615,
+    "UDefFieldId": 517,
+    "ColumnId": 158,
+    "FieldDefault": "dolore",
+    "FieldHeight": 426,
+    "FieldLabel": "necessitatibus",
+    "FieldLeft": 549,
+    "FieldTop": 931,
     "FieldType": "Checkbox",
-    "FieldWidth": 139,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 514,
-    "LabelLeft": 722,
-    "LabelTop": 753,
-    "LabelWidth": 45,
-    "LastVersionId": 821,
-    "ListTableId": 497,
-    "IsMandatory": true,
+    "FieldWidth": 561,
+    "FormatMask": "provident",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 214,
+    "LabelLeft": 503,
+    "LabelTop": 554,
+    "LabelWidth": 818,
+    "LastVersionId": 137,
+    "ListTableId": 530,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 884,
-    "ProgId": "repudiandae",
+    "Page1LineNo": 484,
+    "ProgId": "amet",
     "IsReadOnly": false,
-    "ShortLabel": "cupiditate",
-    "TabOrder": 3,
-    "TextLength": 422,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 201,
-    "UDListDefinitionId": 886,
+    "ShortLabel": "repellendus",
+    "TabOrder": 552,
+    "TextLength": 841,
+    "Tooltip": "consequuntur",
+    "UdefIdentity": 632,
+    "UDListDefinitionId": 426,
     "Justification": "Center",
-    "Version": 558,
-    "TemplateVariableName": "Pfeffer-Hammes",
+    "Version": 116,
+    "TemplateVariableName": "Boyer, Sporer and Rosenbaum",
     "HasBeenPublished": false,
-    "MdoListName": "Kozey, Yost and Von",
+    "MdoListName": "Muller, Lowe and Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 551
       }
     }
   }

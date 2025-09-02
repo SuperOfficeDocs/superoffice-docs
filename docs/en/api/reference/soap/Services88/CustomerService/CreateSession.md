@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CreateSession SOAP
 generated: true
 uid: Services88-CustomerService-CreateSession
+content_type: reference
 ---
 
 # Services88 CustomerService CreateSession

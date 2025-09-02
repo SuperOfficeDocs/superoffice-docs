@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DuplicateDashboard
 uid: v1DashAgent_DuplicateDashboard
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DuplicateDashboard
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 164,
-  "Name": "Brakus-Schumm"
+  "DashboardId": 378,
+  "Name": "Muller-Beer"
 }
 ```
 
@@ -102,37 +103,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 930,
-  "UniqueId": "odio",
-  "Name": "Hills, Schuster and Streich",
-  "Description": "Upgradable homogeneous conglomeration",
-  "AssociateId": 61,
-  "Columns": 531,
+  "DashboardId": 220,
+  "UniqueId": "eos",
+  "Name": "Stark, Treutel and Shanahan",
+  "Description": "Realigned 24/7 capability",
+  "AssociateId": 94,
+  "Columns": 333,
   "Theme": null,
-  "VisibleForAll": 495,
+  "VisibleForAll": 933,
   "VisibleForAssociates": [
-    415,
-    869
+    689,
+    679
   ],
   "VisibleForGroups": [
-    629,
-    413
+    767,
+    455
   ],
-  "PinForAll": 324,
+  "PinForAll": 353,
   "PinForAssociates": [
-    835,
-    717
+    763,
+    978
   ],
   "PinForGroups": [
-    138,
-    507
+    241,
+    176
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 796
     }
   }
 }

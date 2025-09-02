@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictions
 uid: v1FindAgent_SaveRestrictions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictions
@@ -67,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Crona Inc and Sons",
-  "StorageKey": "nemo",
+  "StorageType": "adipisci",
+  "ProviderName": "Funk Group",
+  "StorageKey": "numquam",
   "Restrictions": [
     {
-      "Name": "Lang Group",
-      "Operator": "nam",
+      "Name": "Hackett Inc and Sons",
+      "Operator": "beatae",
       "Values": [
-        "qui",
-        "sunt"
+        "iure",
+        "hic"
       ],
       "DisplayValues": [
-        "assumenda",
-        "quo"
+        "rerum",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 628,
+      "InterParenthesis": 857,
       "InterOperator": "And",
-      "UniqueHash": 870
+      "UniqueHash": 173
     }
   ]
 }

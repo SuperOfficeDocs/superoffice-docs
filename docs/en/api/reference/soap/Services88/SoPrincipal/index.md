@@ -2,6 +2,7 @@
 title: Services88.SoPrincipalAgent SOAP
 uid: Services88-SoPrincipal-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 SoPrincipal SOAP

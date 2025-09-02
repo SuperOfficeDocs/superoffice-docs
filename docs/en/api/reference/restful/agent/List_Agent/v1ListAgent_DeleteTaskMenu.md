@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteTaskMenu
 uid: v1ListAgent_DeleteTaskMenu
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteTaskMenu
@@ -22,10 +23,10 @@ Deletes the TaskMenu
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TaskMenuId | int32 | **Required** The id of the TaskMenu to be deleted. |
+| taskMenuId | int32 | **Required** The identity of the TaskMenu |
 
 ```http
-POST /api/v1/Agents/List/DeleteTaskMenu?TaskMenuId=255
+POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=981
 ```
 
 

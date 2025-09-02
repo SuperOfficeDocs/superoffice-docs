@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveUserFromName
 uid: v1UserAgent_SaveUserFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveUserFromName
@@ -104,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Satterfield Group",
+  "UserName": "Jenkins, Hodkiewicz and Stokes",
   "User": null
 }
 ```
@@ -116,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 127,
-  "Name": "Blanda-Kerluke",
-  "Rank": 765,
-  "Tooltip": "qui",
+  "AssociateId": 812,
+  "Name": "Reichel, Effertz and Hodkiewicz",
+  "Rank": 88,
+  "Tooltip": "praesentium",
   "LicenseOwners": [
     {
-      "Name": "Grimes Inc and Sons",
-      "Description": "Virtual multi-state analyzer",
+      "Name": "Nicolas, Mills and Raynor",
+      "Description": "Inverse 6th generation utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 857
         }
       }
     },
     {
-      "Name": "Grimes Inc and Sons",
-      "Description": "Virtual multi-state analyzer",
+      "Name": "Nicolas, Mills and Raynor",
+      "Description": "Inverse 6th generation utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 857
         }
       }
     }
@@ -166,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eos",
-      "Tooltip": "omnis",
-      "Id": 645,
-      "Rank": 304,
-      "Deleted": true,
+      "Value": "impedit",
+      "Tooltip": "magni",
+      "Id": 728,
+      "Rank": 367,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2016-01-02T03:45:24.1860585+01:00",
-  "Lastlogout": "2013-08-08T03:45:24.1860585+02:00",
-  "EjUserId": 602,
-  "RequestSignature": "eos",
+  "Lastlogin": "2006-12-06T03:46:55.6132266+01:00",
+  "Lastlogout": "2008-03-17T03:46:55.6132266+01:00",
+  "EjUserId": 179,
+  "RequestSignature": "ex",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "blanditiis",
-      "DisplayValue": "placeat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 264
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "blanditiis",
-      "DisplayValue": "placeat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 264
-        }
-      }
-    }
-  ],
-  "UserName": "Crona Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 368,
-      "Name": "Doyle-Stark",
-      "ToolTip": "Quis voluptatem dolores a quo eaque et impedit.",
-      "Deleted": false,
-      "Rank": 827,
-      "Type": "architecto",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nesciunt",
-      "ColorBlock": 99,
-      "ExtraInfo": "ut",
-      "StyleHint": "deserunt",
-      "FullName": "Colten McGlynn",
+      "Value": "voluptatem",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldLength": 634
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "voluptatem",
+      "DisplayValue": "consequatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     }
   ],
-  "NickName": "Volkman Group",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "voluptatem"
-  },
-  "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "voluptas"
-  },
-  "PostSaveCommands": [
+  "UserName": "Runte-Hills",
+  "TicketCategories": [
     {
-      "Name": "Satterfield Inc and Sons",
-      "DisplayName": "Baumbach LLC",
-      "Description": "Re-engineered interactive definition",
-      "ToolTip": "Totam vel voluptas est vero repudiandae recusandae omnis.",
-      "Actions": "Implicit",
-      "ActionData": "aspernatur",
+      "Id": 594,
+      "Name": "Botsford Group",
+      "ToolTip": "Ullam maiores rerum repellendus eveniet ut.",
+      "Deleted": true,
+      "Rank": 935,
+      "Type": "aut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "rem",
+      "ColorBlock": 807,
+      "ExtraInfo": "rerum",
+      "StyleHint": "sed",
+      "FullName": "Dr. Misty Balistreri III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 51
+        }
+      }
+    }
+  ],
+  "NickName": "Hoeger Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "velit",
+    "ExtraFields2": "magnam"
+  },
+  "CustomFields": {
+    "CustomFields1": "saepe",
+    "CustomFields2": "ut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cremin Group",
+      "DisplayName": "Herzog-Walker",
+      "Description": "Triple-buffered dynamic forecast",
+      "ToolTip": "Ea non labore amet modi rerum tenetur sit.",
+      "Actions": "Implicit",
+      "ActionData": "ipsa",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 204
         }
       }
     }
@@ -278,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

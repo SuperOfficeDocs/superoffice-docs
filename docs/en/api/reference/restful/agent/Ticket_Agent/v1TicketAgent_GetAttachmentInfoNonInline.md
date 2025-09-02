@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetAttachmentInfoNonInline
 uid: v1TicketAgent_GetAttachmentInfoNonInline
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetAttachmentInfoNonInline
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 153
+  "TicketMessageEntityId": 429
 }
 ```
 
@@ -96,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 424,
-    "Name": "Kerluke-Rath",
-    "ContentType": "eius",
-    "AttSize": 773,
+    "AttachmentId": 980,
+    "Name": "Nienow Group",
+    "ContentType": "neque",
+    "AttSize": 845,
     "InlineImage": false,
-    "ContentId": "deserunt",
-    "AuthKey": "architecto",
-    "IsSafeFileExtension": false,
+    "ContentId": "et",
+    "AuthKey": "inventore",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 387
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/{udListDefinitionName}/Items/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingsForListItemFromListName
 generated: true
+content_type: reference
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/Headings
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Parisian-Beatty",
-    "ToolTip": "Molestiae voluptas ea occaecati aut adipisci.",
-    "Deleted": false,
-    "Rank": 540,
-    "Type": "accusamus",
-    "ColorBlock": 139,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2001-11-15T03:45:28.9517993+01:00",
+    "Id": 860,
+    "Name": "Wiegand, Langworth and Kirlin",
+    "ToolTip": "Consequuntur a.",
+    "Deleted": true,
+    "Rank": 764,
+    "Type": "et",
+    "ColorBlock": 734,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2011-11-08T03:47:00.5661762+01:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "Luettgen Inc and Sons",
-        "ToolTip": "Consequuntur expedita aut dolor optio iusto occaecati at.",
+        "Id": 15,
+        "Name": "Champlin, Stehr and Schulist",
+        "ToolTip": "Consectetur quae ut nemo quae.",
         "Deleted": false,
-        "Rank": 758,
-        "Type": "non",
-        "ColorBlock": 915,
-        "IconHint": "animi",
+        "Rank": 262,
+        "Type": "aliquid",
+        "ColorBlock": 38,
+        "IconHint": "eligendi",
         "Selected": true,
-        "LastChanged": "2011-12-03T03:45:28.9517993+01:00",
+        "LastChanged": "2025-03-25T03:47:00.5661762+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "neque",
+        "ExtraInfo": "aut",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Dr. Ashton Denesik Sr."
+        "FullName": "Mrs. Lavada Rene Emmerich III"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Aniya Miller"
+    "ExtraInfo": "ducimus",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Alexandrine Glover"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "VonRueden-Braun",
-    "ToolTip": "Et sint ut eveniet nesciunt maiores aut neque.",
-    "Deleted": true,
-    "Rank": 852,
-    "Type": "quam",
-    "ColorBlock": 909,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "2012-05-26T03:45:28.9517993+02:00",
+    "Id": 485,
+    "Name": "Buckridge-Daugherty",
+    "ToolTip": "Voluptatum totam quasi.",
+    "Deleted": false,
+    "Rank": 100,
+    "Type": "sed",
+    "ColorBlock": 766,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2011-04-20T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Farrell Group",
-        "ToolTip": "Ut quasi nulla.",
-        "Deleted": true,
-        "Rank": 485,
-        "Type": "quia",
-        "ColorBlock": 544,
-        "IconHint": "iusto",
+        "Id": 401,
+        "Name": "Conroy Group",
+        "ToolTip": "Et molestiae ut est accusantium corrupti vitae.",
+        "Deleted": false,
+        "Rank": 649,
+        "Type": "dolor",
+        "ColorBlock": 512,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "1998-10-10T03:45:28.9517993+02:00",
+        "LastChanged": "2010-04-13T03:47:00.5661762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Ed Rusty Price MD",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "vero",
+        "Hidden": true,
+        "FullName": "Shana Marian Wilkinson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Orin Bailey IV",
+    "FullName": "Ms. Lilly Velda Kertzmann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 321
       }
     }
   }

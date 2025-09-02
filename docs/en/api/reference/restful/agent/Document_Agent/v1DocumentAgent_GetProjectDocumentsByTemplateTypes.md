@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetProjectDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateTypes
@@ -98,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 276,
-  "StartTime": "2014-02-11T03:45:23.2798335+01:00",
-  "EndTime": "2018-04-22T03:45:23.2798335+02:00",
-  "Count": 840,
+  "ProjectId": 480,
+  "StartTime": "2022-03-05T03:46:54.6132622+01:00",
+  "EndTime": "2019-08-01T03:46:54.6132622+02:00",
+  "Count": 234,
   "DocumentTemplateIds": [
-    361,
-    343
+    503,
+    957
   ]
 }
 ```
@@ -121,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 946,
+    "DocumentId": 865,
     "Attention": "exercitationem",
-    "Header": "omnis",
-    "Name": "Altenwerth, Moore and Kertzmann",
-    "OurRef": "veritatis",
-    "YourRef": "dicta",
-    "Description": "Optional discrete methodology",
-    "DocumentTemplate": "mollitia",
-    "IsPublished": false,
-    "PersonId": 695,
-    "PersonFullName": "Pablo Hills III",
-    "AssociateFullName": "Mr. Danny Heathcote Sr.",
-    "ContactId": 589,
-    "ContactName": "Stark, Ratke and Klocko",
-    "ProjectId": 72,
-    "ProjectName": "Larson-Bechtelar",
-    "AssociateId": 158,
-    "Snum": 67,
-    "SaleId": 399,
-    "SaleName": "Ankunding, Zulauf and Kuhn",
+    "Header": "ea",
+    "Name": "Hayes-Kuhlman",
+    "OurRef": "voluptates",
+    "YourRef": "magnam",
+    "Description": "Distributed directional knowledge base",
+    "DocumentTemplate": "vel",
+    "IsPublished": true,
+    "PersonId": 163,
+    "PersonFullName": "Catharine Konopelski DDS",
+    "AssociateFullName": "Ms. Javonte Deonte Bauch PhD",
+    "ContactId": 710,
+    "ContactName": "Okuneva-Stanton",
+    "ProjectId": 388,
+    "ProjectName": "Kassulke, Lind and Wyman",
+    "AssociateId": 771,
+    "Snum": 553,
+    "SaleId": 478,
+    "SaleName": "Windler-Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 657
       }
     }
   }

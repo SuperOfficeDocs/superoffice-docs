@@ -3,9 +3,9 @@ uid: ticketfavourites
 title: ticketfavourites
 description: 
 keywords: ticketfavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ticketfavourites"
@@ -148,6 +148,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/personEmail|string|Owner - E-mail| x |
 |ownedBy/locationAddress|string|Owner - Location: Location| x |
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -168,7 +174,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=closedAt,content,createdBy/firstName
+GET /api/v1/archive/ticketfavourites?$select=slevel,createdBy/isActive,content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

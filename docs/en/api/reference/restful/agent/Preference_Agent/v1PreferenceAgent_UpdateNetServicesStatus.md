@@ -2,6 +2,7 @@
 title: POST Agents/Preference/UpdateNetServicesStatus
 uid: v1PreferenceAgent_UpdateNetServicesStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/UpdateNetServicesStatus
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Preference/UpdateNetServicesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "XmlOrJson": "adipisci"
+  "XmlOrJson": "fuga"
 }
 ```
 

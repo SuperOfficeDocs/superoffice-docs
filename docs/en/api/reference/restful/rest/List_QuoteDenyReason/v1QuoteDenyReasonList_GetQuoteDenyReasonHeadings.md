@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 341,
-    "Name": "Jakubowski LLC",
-    "Tooltip": "nihil",
+    "HeadingId": 914,
+    "Name": "Robel Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 126,
+    "Rank": 263,
+    "UdListDefinitionId": 423,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 217
       }
     }
   }

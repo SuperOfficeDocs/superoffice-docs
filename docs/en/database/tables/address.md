@@ -2,10 +2,10 @@
 uid: table-address
 title: address table
 description: Contact and Person addresses
-so.generated: true
+generated: true
 keywords: database table address
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # address Table (7)

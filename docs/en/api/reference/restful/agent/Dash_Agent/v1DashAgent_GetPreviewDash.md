@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetPreviewDash
 uid: v1DashAgent_GetPreviewDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetPreviewDash
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 51
+  "DashboardId": 589
 }
 ```
 
@@ -93,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 214,
-  "Name": "Waters, Hegmann and Goyette",
-  "Description": "Advanced content-based collaboration",
-  "OwnedByFullName": "Vidal Ross Stokes I",
-  "Registered": "1999-06-17T03:45:23.264209+02:00",
+  "DashboardId": 418,
+  "Name": "Hermiston-Oberbrunner",
+  "Description": "Virtual optimal help-desk",
+  "OwnedByFullName": "Emmitt Rice",
+  "Registered": "2019-10-28T03:46:54.6132622+01:00",
   "Tiles": [
     {
-      "Name": "Wilderman, Walker and Simonis",
+      "Name": "Krajcik, Block and McCullough",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Wilderman, Walker and Simonis",
+      "Name": "Krajcik, Block and McCullough",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 561
         }
       }
     }
@@ -129,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 495
     }
   }
 }

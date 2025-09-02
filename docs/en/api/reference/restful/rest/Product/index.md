@@ -1,6 +1,8 @@
 ---
+uid: tag-Product
 title: Product
 generated: true
+content_type: reference
 ---
 
 ```http

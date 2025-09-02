@@ -2,10 +2,10 @@
 uid: table-SuggestedDocument
 title: SuggestedDocument table
 description: Unique owner of a set of licensed modules
-so.generated: true
+generated: true
 keywords: database table SuggestedDocument
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SuggestedDocument Table (126)

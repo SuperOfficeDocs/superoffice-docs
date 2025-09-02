@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/SaveConfigurableScreenDelta
 uid: v1ConfigurationAgent_SaveConfigurableScreenDelta
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/SaveConfigurableScreenDelta
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 ```
 
-Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty
+Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: configurableScreenDelta 
 
-The ConfigurableScreenDelta to be saved. 
+The ConfigurableScreenDelta that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,26 +88,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 545,
-  "Name": "Heidenreich-Rempel",
-  "Description": "Advanced maximized contingency",
-  "DeltaJson": "aut",
+  "ConfigurableScreenDeltaId": 251,
+  "Name": "Connelly-Marquardt",
+  "Description": "Reactive directional utilisation",
+  "DeltaJson": "ipsam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "recusandae",
-  "UpdatedDate": "2008-07-14T03:45:23.0767156+02:00",
-  "CreatedDate": "2004-11-09T03:45:23.0767156+01:00",
+  "RecipeId": "ipsum",
+  "UpdatedDate": "2004-03-31T03:46:54.4570178+02:00",
+  "CreatedDate": "2023-01-30T03:46:54.4570178+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    388,
-    202
+    836,
+    677
   ],
-  "AppliesToKey": "hic"
+  "AppliesToKey": "quo"
 }
 ```
 
@@ -117,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 270,
-  "Name": "Nader, Rippin and Christiansen",
-  "Description": "Centralized intermediate toolset",
-  "DeltaJson": "voluptatibus",
+  "ConfigurableScreenDeltaId": 863,
+  "Name": "Ebert, Johnston and Harvey",
+  "Description": "Quality-focused directional extranet",
+  "DeltaJson": "optio",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "mollitia",
-  "UpdatedDate": "2015-09-17T03:45:23.0767156+02:00",
-  "CreatedDate": "2009-02-07T03:45:23.0767156+01:00",
+  "RecipeId": "eos",
+  "UpdatedDate": "2002-12-24T03:46:54.4570178+01:00",
+  "CreatedDate": "2010-08-28T03:46:54.4570178+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    543,
-    607
+    676,
+    804
   ],
-  "AppliesToKey": "est",
+  "AppliesToKey": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 336
     }
   }
 }

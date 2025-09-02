@@ -2,10 +2,10 @@
 uid: table-CurrencyHeadingLink
 title: CurrencyHeadingLink table
 description: Heading link table for Currency, for MDO headers
-so.generated: true
+generated: true
 keywords: database table CurrencyHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # CurrencyHeadingLink Table (114)

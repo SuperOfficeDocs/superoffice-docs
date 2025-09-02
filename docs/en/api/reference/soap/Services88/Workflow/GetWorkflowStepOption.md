@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.GetWorkflowStepOption SOAP
 generated: true
 uid: Services88-Workflow-GetWorkflowStepOption
+content_type: reference
 ---
 
 # Services88 Workflow GetWorkflowStepOption

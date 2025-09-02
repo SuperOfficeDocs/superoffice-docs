@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Items/{id}
 uid: v1ProductFamilyList_GetProductFamily
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Torphy LLC",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 36,
-  "Rank": 890,
+  "Id": 44,
+  "Name": "Mohr, Kuhic and Rohan",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "UdListDefinitionId": 9,
+  "Rank": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 660
     }
   }
 }

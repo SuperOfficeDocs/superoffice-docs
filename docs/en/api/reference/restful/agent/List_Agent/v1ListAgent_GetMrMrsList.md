@@ -2,6 +2,7 @@
 title: POST Agents/List/GetMrMrsList
 uid: v1ListAgent_GetMrMrsList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetMrMrsList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetMrMrsList?$select=name,department,category/id
 
 ## Request Body: mrMrsIds 
 
-The primary keys. 
+The identifiers of the MrMrs object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Value": "ut",
-    "Tooltip": "et",
+    "Id": 186,
+    "Value": "rerum",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   },
   {
-    "Id": 885,
-    "Value": "ut",
-    "Tooltip": "et",
+    "Id": 186,
+    "Value": "rerum",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

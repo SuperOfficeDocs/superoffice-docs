@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteAllFromListName
 uid: v1ListAgent_DeleteAllFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteAllFromListName
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Harber-Baumbach"
+  "UdListDefinitionName": "Yost, Feil and Smith"
 }
 ```
 

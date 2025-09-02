@@ -2,6 +2,7 @@
 title: PUT List/ProductCategory/Items/{id}/UserGroups
 uid: v1ProductCategoryList_PutProductCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductCategory/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Hintz Inc and Sons",
-    "ToolTip": "Temporibus rem.",
-    "Deleted": true,
-    "Rank": 414,
-    "Type": "eius",
-    "ColorBlock": 205,
-    "IconHint": "iusto",
+    "Id": 825,
+    "Name": "Tillman Inc and Sons",
+    "ToolTip": "Illum iusto.",
+    "Deleted": false,
+    "Rank": 978,
+    "Type": "dolor",
+    "ColorBlock": 483,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2005-09-19T03:45:29.1549343+02:00",
+    "LastChanged": "2016-01-13T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Ruecker-Kuhn",
-        "ToolTip": "Omnis beatae commodi cupiditate dignissimos consequatur.",
-        "Deleted": true,
-        "Rank": 983,
-        "Type": "eligendi",
-        "ColorBlock": 302,
-        "IconHint": "sint",
+        "Id": 854,
+        "Name": "Lubowitz LLC",
+        "ToolTip": "Veritatis voluptatem omnis consequatur velit.",
+        "Deleted": false,
+        "Rank": 830,
+        "Type": "voluptas",
+        "ColorBlock": 268,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2022-07-24T03:45:29.1549343+02:00",
+        "LastChanged": "2024-05-31T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "enim",
+        "ExtraInfo": "numquam",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Annetta Ritchie"
+        "FullName": "Keshaun Murray"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Hector Rogahn"
+    "ExtraInfo": "excepturi",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Jammie Monahan"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Ryan-Parisian",
-    "ToolTip": "Labore expedita ab asperiores et velit.",
-    "Deleted": false,
-    "Rank": 959,
-    "Type": "quibusdam",
-    "ColorBlock": 821,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2016-02-23T03:45:29.1549343+01:00",
+    "Id": 431,
+    "Name": "Pacocha-Prohaska",
+    "ToolTip": "Laborum beatae blanditiis.",
+    "Deleted": true,
+    "Rank": 269,
+    "Type": "fugiat",
+    "ColorBlock": 18,
+    "IconHint": "delectus",
+    "Selected": true,
+    "LastChanged": "2017-12-23T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Senger, Lang and Jewess",
-        "ToolTip": "Reprehenderit non dolorem id exercitationem quia blanditiis voluptas.",
+        "Id": 931,
+        "Name": "Ryan-Funk",
+        "ToolTip": "Et at qui.",
         "Deleted": true,
-        "Rank": 830,
-        "Type": "quas",
-        "ColorBlock": 120,
-        "IconHint": "et",
+        "Rank": 816,
+        "Type": "vitae",
+        "ColorBlock": 51,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2017-10-25T03:45:29.1549343+02:00",
+        "LastChanged": "2013-11-17T03:47:00.7224209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Max Boyer",
+        "ExtraInfo": "molestias",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Jayde Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Ron Ullrich",
+    "FullName": "Ms. Lyric Veda Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 66
       }
     }
   }

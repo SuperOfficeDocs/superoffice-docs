@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultTileForEntity
 uid: v1DashAgent_CreateDefaultTileForEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultTileForEntity
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bruen Inc and Sons"
+  "EntityName": "Frami-Wiegand"
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 490,
-  "DashboardId": 700,
-  "Height": 244,
-  "Width": 209,
-  "Rank": 483,
+  "DashboardTileId": 584,
+  "DashboardId": 159,
+  "Height": 119,
+  "Width": 197,
+  "Rank": 212,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

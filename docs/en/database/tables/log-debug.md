@@ -2,10 +2,10 @@
 uid: table-log_debug
 title: log_debug table
 description: A log used for debugging, especially useful for bLogic/ejscript
-so.generated: true
+generated: true
 keywords: database table log_debug
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # log\_debug Table (365)

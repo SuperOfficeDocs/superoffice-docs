@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetListNames
 uid: v1MDOAgent_GetListNames
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetListNames
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/MDO/GetListNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "eum",
-  "eos"
+  "vel",
+  "error"
 ]
 ```

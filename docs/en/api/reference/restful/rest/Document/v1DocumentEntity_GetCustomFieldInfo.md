@@ -2,6 +2,7 @@
 title: GET Document/CustomField/{fieldName}
 uid: v1DocumentEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Document/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hilpert, McClure and Connelly",
-  "DisplayName": "Smitham, Pouros and Nader",
-  "Description": "Secured eco-centric encryption",
-  "ShortLabel": "doloremque",
+  "FieldName": "Bednar, Erdman and Connelly",
+  "DisplayName": "Pouros LLC",
+  "Description": "Re-engineered upward-trending website",
+  "ShortLabel": "error",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 194,
-  "TemplateVariableName": "Bernier, Glover and Kilback"
+  "IsDisplayField": true,
+  "Rank": 617,
+  "TemplateVariableName": "Quigley Inc and Sons"
 }
 ```

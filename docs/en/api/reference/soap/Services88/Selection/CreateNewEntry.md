@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.CreateNewEntry SOAP
 generated: true
 uid: Services88-Selection-CreateNewEntry
+content_type: reference
 ---
 
 # Services88 Selection CreateNewEntry

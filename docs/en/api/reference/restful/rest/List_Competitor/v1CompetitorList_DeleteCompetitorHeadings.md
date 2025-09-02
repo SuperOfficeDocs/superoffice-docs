@@ -2,6 +2,7 @@
 title: DEL List/Competitor/Headings
 uid: v1CompetitorList_DeleteCompetitorHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Competitor/Headings

@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.DeleteExpired SOAP
 generated: true
 uid: Services88-Contact-DeleteExpired
+content_type: reference
 ---
 
 # Services88 Contact DeleteExpired

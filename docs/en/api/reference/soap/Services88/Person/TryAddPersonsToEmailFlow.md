@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.TryAddPersonsToEmailFlow SOAP
 generated: true
 uid: Services88-Person-TryAddPersonsToEmailFlow
+content_type: reference
 ---
 
 # Services88 Person TryAddPersonsToEmailFlow

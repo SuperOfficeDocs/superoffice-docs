@@ -2,6 +2,7 @@
 title: Services88.AIAgent.TrainCategoryGuesser SOAP
 generated: true
 uid: Services88-AI-TrainCategoryGuesser
+content_type: reference
 ---
 
 # Services88 AI TrainCategoryGuesser

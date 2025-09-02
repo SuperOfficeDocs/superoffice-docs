@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/CollectDataAdditions
 uid: v1DiagnosticsAgent_CollectDataAdditions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/CollectDataAdditions

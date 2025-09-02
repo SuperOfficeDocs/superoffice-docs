@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetExternalTokens SOAP
 generated: true
 uid: Services88-User-GetExternalTokens
+content_type: reference
 ---
 
 # Services88 User GetExternalTokens

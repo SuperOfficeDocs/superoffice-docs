@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumns2
 uid: v1ArchiveAgent_GetArchiveListByColumns2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumns2
@@ -170,13 +171,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kling-Heathcote",
-  "Columns": "autem",
-  "SortOrder": "deleniti",
-  "Restrictions": "ut",
-  "Entities": "aut",
-  "Page": 630,
-  "PageSize": 871
+  "ProviderName": "Kihn-Beier",
+  "Columns": "quis",
+  "SortOrder": "aperiam",
+  "Restrictions": "delectus",
+  "Entities": "delectus",
+  "Page": 770,
+  "PageSize": 835
 }
 ```
 
@@ -188,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Graham-Collier",
-    "PrimaryKey": 620,
+    "EntityName": "Kohler-Berge",
+    "PrimaryKey": 6,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nesciunt",
-        "TooltipHint": "voluptates",
-        "LinkHint": "iure"
+        "DisplayValue": "praesentium",
+        "TooltipHint": "eos",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "omnis",
-    "StyleHint": "rerum",
+    "LinkHint": "ullam",
+    "StyleHint": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 88
       }
     }
   }

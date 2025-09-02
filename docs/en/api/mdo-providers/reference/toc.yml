@@ -53,6 +53,8 @@ items:
   href: Business.md
 - name: Category
   href: Category.md
+- name: Categorygroup
+  href: categorygroup.md
 - name: Chartselection
   href: chartselection.md
 - name: Chatbot
@@ -125,6 +127,8 @@ items:
   href: currentudeffields.md
 - name: Customerlanguage
   href: customerlanguage.md
+- name: Customobjectfavourite
+  href: customobjectfavourite.md
 - name: Customobjectlist
   href: customobjectlist.md
 - name: Customobjectrelation

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/RecalculateQuoteLine
 uid: v1QuoteAgent_RecalculateQuoteLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/RecalculateQuoteLine
@@ -130,8 +131,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "quod",
-    "ipsa"
+    "commodi",
+    "consequatur"
   ]
 }
 ```
@@ -143,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 886,
-  "ERPQuoteLineKey": "debitis",
-  "QuoteAlternativeId": 602,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 81,
+  "ERPQuoteLineKey": "eos",
+  "QuoteAlternativeId": 503,
+  "ERPProductKey": "aliquam",
   "Status": "Error",
-  "Reason": "visualize seamless platforms",
-  "Quantity": 6719.2959999999994,
-  "DeliveredQuantity": 19308.574,
-  "Rank": 500,
-  "Name": "Trantow Group",
-  "Description": "Implemented 24 hour policy",
-  "Code": "autem",
-  "QuantityUnit": "odio",
-  "PriceUnit": "deleniti",
-  "ItemNumber": "1327908",
+  "Reason": "",
+  "Quantity": 13231.748,
+  "DeliveredQuantity": 10956.464,
+  "Rank": 886,
+  "Name": "Ortiz LLC",
+  "Description": "Cloned multi-tasking alliance",
+  "Code": "modi",
+  "QuantityUnit": "laudantium",
+  "PriceUnit": "ut",
+  "ItemNumber": "942909",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "asperiores",
-  "ProductTypeKey": "maxime",
-  "Supplier": "aliquam",
-  "SupplierCode": "explicabo",
-  "Thumbnail": "adipisci",
-  "VATInfo": "aspernatur",
-  "VAT": 27243.861999999997,
-  "UnitCost": 8016.772,
-  "UnitMinimumPrice": 30214.894,
-  "UnitListPrice": 18139.592,
+  "ProductFamilyKey": "repudiandae",
+  "ProductTypeKey": "voluptates",
+  "Supplier": "expedita",
+  "SupplierCode": "vel",
+  "Thumbnail": "saepe",
+  "VATInfo": "dolorem",
+  "VAT": 30462.48,
+  "UnitCost": 30042.523999999998,
+  "UnitMinimumPrice": 19311.708,
+  "UnitListPrice": 3459.9359999999997,
   "ExtraInfo": [
     {
-      "Name": "Murphy, Weimann and Cartwright",
-      "Value": "facere",
+      "Name": "Aufderhar, Kessler and Witting",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 747
+          "FieldType": "System.Int32",
+          "FieldLength": 586
         }
       }
     },
     {
-      "Name": "Murphy, Weimann and Cartwright",
-      "Value": "facere",
+      "Name": "Aufderhar, Kessler and Witting",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 747
+          "FieldType": "System.Int32",
+          "FieldLength": 586
         }
       }
     }
   ],
-  "RawExtraInfo": "quas",
-  "IsSubscription": false,
-  "SubscriptionUnit": "tenetur",
-  "SubscriptionQuantity": 23454.856,
-  "SubscriptionStart": "2009-11-24T03:45:23.7954455+01:00",
-  "ERPDiscountPercent": 16531.85,
-  "ERPDiscountAmount": 22840.592,
-  "DiscountPercent": 19089.194,
-  "DiscountAmount": 11786.974,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "veritatis",
+  "SubscriptionQuantity": 14159.412,
+  "SubscriptionStart": "2010-02-08T03:46:55.1913666+01:00",
+  "ERPDiscountPercent": 18283.755999999998,
+  "ERPDiscountAmount": 26676.608,
+  "DiscountPercent": 8057.514,
+  "DiscountAmount": 31.34,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 507.70799999999997,
-  "EarningAmount": 8405.387999999999,
-  "SubTotal": 8029.308,
-  "TotalPrice": 14977.385999999999,
-  "Rights": "incidunt",
-  "Rule": "qui",
+  "EarningPercent": 24489.076,
+  "EarningAmount": 10304.592,
+  "SubTotal": 18064.376,
+  "TotalPrice": 19600.036,
+  "Rights": "praesentium",
+  "Rule": "laudantium",
   "ExtraField1": "et",
   "ExtraField2": "aut",
-  "ExtraField3": "vel",
-  "ExtraField4": "omnis",
-  "ExtraField5": "dolorum",
+  "ExtraField3": "a",
+  "ExtraField4": "laborum",
+  "ExtraField5": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   }
 }

@@ -2,6 +2,7 @@
 title: DEL Hierarchy/{id}
 uid: v1HierarchyEntity_DeleteHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Hierarchy/{id}

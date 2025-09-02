@@ -3,9 +3,9 @@ uid: SubPersonContactDynamicSelectionSingleCriteriaGroup
 title: SubPersonContactDynamicSelectionSingleCriteriaGroup
 description: Person + Contact selection archive using the selectionId as criterionmapping.
 keywords: SubPersonContactDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SubPersonContactDynamicSelectionSingleCriteriaGroup"
@@ -696,6 +696,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -739,16 +745,16 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLDescription|string|Description| x |
 |projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -843,16 +849,16 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
 |personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
 |personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
@@ -947,16 +953,16 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |sale/heading|stringorPK|Sale: The name of the sale| x |
 |sale/amount|decimal|Amount: The gross sales total| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
@@ -1051,16 +1057,16 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
 |sale/quote/version/alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |sale/quote/version/alternative/name|string|Name: Name of the quote alternative| x |
 |sale/quote/version/alternative/description|string|Description: Description of the quote alternative| x |
 |sale/quote/version/alternative/status|listAny|Quote status: Status field showing the status of each line.| x |
 |sale/quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
 |sale/quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
 |sale/quote/version/alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
@@ -1126,7 +1132,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personAddress/wgs84longitude,personUdef/SuperOffice:9,personSourceRelation/birthYear,personSourceRelation/birthMonth,correspondingAssociate/title
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/personDeletedDate,contactAssociate/ejDisplayName,workflowInstance/emailFlow/mediumThumbnail,sale/amountWeightedInBaseCurrency,sale/associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUntrustedCredentials
 uid: v1UserAgent_GetUntrustedCredentials
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUntrustedCredentials
@@ -84,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sint"
+  "Type": "corrupti"
 }
 ```
 
@@ -96,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2007-08-22T03:45:24.1860585+02:00",
-    "ValidTo": "2006-10-23T03:45:24.1860585+02:00",
-    "Comment": "id",
-    "SecretValue": "repellat",
-    "PublicValue": "illum",
+    "ValidFrom": "2004-06-04T03:46:55.6132266+02:00",
+    "ValidTo": "2016-06-07T03:46:55.6132266+02:00",
+    "Comment": "adipisci",
+    "SecretValue": "minima",
+    "PublicValue": "ipsam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldType": "System.Int32",
+        "FieldLength": 88
       }
     }
   }

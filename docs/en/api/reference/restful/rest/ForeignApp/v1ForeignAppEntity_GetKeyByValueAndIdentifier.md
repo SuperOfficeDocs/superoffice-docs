@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 uid: v1ForeignAppEntity_GetKeyByValueAndIdentifier
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
@@ -88,23 +89,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Jun 2011 03:45:28 G6T
+Last-Modified: Fri, 18 Apr 2014 03:47:00 G4T
 
 {
-  "Key": "tempore",
-  "Value": "sunt",
-  "RecordId": 13,
-  "CreatedDate": "2014-01-04T03:45:28.3734363+01:00",
-  "UpdatedDate": "2011-06-19T03:45:28.3734363+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "et",
-  "TableName": "Jakubowski-Crona",
+  "Key": "ut",
+  "Value": "exercitationem",
+  "RecordId": 242,
+  "CreatedDate": "2025-02-11T03:47:00.0349452+01:00",
+  "UpdatedDate": "2014-04-18T03:47:00.0349452+02:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "consequatur",
+  "TableName": "Ratke Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   }
 }

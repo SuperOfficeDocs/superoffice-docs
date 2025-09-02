@@ -3,9 +3,9 @@ uid: OtherUsers
 title: OtherUsers
 description: Concrete provider for 'Other' Users - System and Anonymous user accounts. See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords: OtherUsers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "OtherUsers"
@@ -50,7 +50,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=role,assocType
+GET /api/v1/archive/OtherUsers?$select=credentialDisplayValue,role,assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/SaveErpSyncConnectorEntity
 uid: v1ErpSyncAgent_SaveErpSyncConnectorEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/SaveErpSyncConnectorEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 ```
 
-Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
+Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -35,9 +36,9 @@ Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: erpSyncConnectorEntity 
 
-The ErpSyncConnectorEntity to be saved. 
+The ErpSyncConnectorEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 460,
-  "DisplayName": "Haley-Tremblay",
+  "ErpConnectorId": 709,
+  "DisplayName": "Ullrich, Connelly and Stoltenberg",
   "URL": "http://www.example.com/",
-  "Deleted": true
+  "Deleted": false
 }
 ```
 
@@ -89,8 +90,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 25,
-  "DisplayName": "Zboncak, Hilpert and White",
+  "ErpConnectorId": 800,
+  "DisplayName": "Runte, Kohler and Hickle",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
@@ -98,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 488
     }
   }
 }

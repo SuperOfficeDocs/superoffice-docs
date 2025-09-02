@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_GetProductCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Swaniawski, Larkin and Tromp",
-  "Tooltip": "dolorem",
+  "Id": 969,
+  "Name": "Funk Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 484,
-  "Rank": 908,
+  "UdListDefinitionId": 163,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 448
     }
   }
 }

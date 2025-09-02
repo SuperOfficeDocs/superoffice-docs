@@ -2,6 +2,7 @@
 title: POST Sale/UdefLayout
 uid: v1SaleEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Sale/UdefLayout
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 284,
-  "ColumnId": 787,
-  "FieldDefault": "non",
-  "FieldHeight": 181,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 507,
-  "FieldTop": 128,
+  "UDefFieldId": 109,
+  "ColumnId": 397,
+  "FieldDefault": "aut",
+  "FieldHeight": 733,
+  "FieldLabel": "ut",
+  "FieldLeft": 769,
+  "FieldTop": 58,
   "FieldType": "Checkbox",
-  "FieldWidth": 666,
-  "FormatMask": "accusantium",
+  "FieldWidth": 995,
+  "FormatMask": "ad",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 44,
-  "LabelLeft": 676,
-  "LabelTop": 77,
-  "LabelWidth": 872,
-  "LastVersionId": 726,
-  "ListTableId": 856,
-  "IsMandatory": true,
+  "LabelHeight": 479,
+  "LabelLeft": 746,
+  "LabelTop": 321,
+  "LabelWidth": 710,
+  "LastVersionId": 301,
+  "ListTableId": 611,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 149,
-  "ProgId": "enim",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptates",
-  "TabOrder": 954,
-  "TextLength": 892,
-  "Tooltip": "nesciunt",
-  "UdefIdentity": 618,
-  "UDListDefinitionId": 476,
+  "Page1LineNo": 807,
+  "ProgId": "aspernatur",
+  "IsReadOnly": false,
+  "ShortLabel": "laudantium",
+  "TabOrder": 511,
+  "TextLength": 906,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 224,
+  "UDListDefinitionId": 926,
   "Justification": "Center",
-  "Version": 671,
-  "TemplateVariableName": "Kovacek, Crona and Cummings",
+  "Version": 556,
+  "TemplateVariableName": "Schaden Group",
   "HasBeenPublished": false,
-  "MdoListName": "Cruickshank, Smith and Barton",
+  "MdoListName": "Rau, Yundt and Jast",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

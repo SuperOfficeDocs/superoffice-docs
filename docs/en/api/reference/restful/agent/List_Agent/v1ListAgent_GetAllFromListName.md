@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllFromListName
 uid: v1ListAgent_GetAllFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllFromListName
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Williamson-Ward",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Jerde, Ward and Mraz",
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "McKenzie LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 369,
-    "Rank": 154,
+    "Id": 776,
+    "Name": "Wolff Group",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 670,
+    "Rank": 336,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

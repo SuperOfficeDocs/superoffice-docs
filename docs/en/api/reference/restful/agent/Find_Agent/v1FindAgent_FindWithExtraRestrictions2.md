@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindWithExtraRestrictions2
 uid: v1FindAgent_FindWithExtraRestrictions2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindWithExtraRestrictions2
@@ -167,18 +168,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolores",
-  "ProviderName": "Armstrong-Kovacek",
-  "StorageKey": "dolor",
-  "ExtraRestrictions": "in",
-  "OrderBy": "natus",
-  "DesiredColumns": "ex",
-  "PageSize": 971,
-  "PageNumber": 900
+  "StorageType": "non",
+  "ProviderName": "Murazik, Pfeffer and Stamm",
+  "StorageKey": "qui",
+  "ExtraRestrictions": "quos",
+  "OrderBy": "rerum",
+  "DesiredColumns": "rerum",
+  "PageSize": 955,
+  "PageNumber": 780
 }
 ```
 
@@ -191,51 +192,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Prosacco, Mosciski and Vandervort",
-      "DisplayTooltip": "debitis",
-      "DisplayType": "sit",
+      "DisplayName": "Metz, Rempel and Barrows",
+      "DisplayTooltip": "sapiente",
+      "DisplayType": "autem",
       "CanOrderBy": false,
-      "Name": "Fahey, Klocko and Reilly",
+      "Name": "Batz-Gulgowski",
       "CanRestrictBy": true,
-      "RestrictionType": "perferendis",
-      "RestrictionListName": "Vandervort Inc and Sons",
+      "RestrictionType": "voluptates",
+      "RestrictionListName": "Schamberger, Willms and Champlin",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "rem",
-      "IconHint": "labore",
-      "HeadingIconHint": "repellendus"
+      "ExtraInfo": "voluptas",
+      "Width": "a",
+      "IconHint": "qui",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Greenholt, Ankunding and Terry",
-      "PrimaryKey": 567,
+      "EntityName": "Runolfsson-Stroman",
+      "PrimaryKey": 426,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "beatae",
-          "LinkHint": "tempora"
+          "DisplayValue": "cupiditate",
+          "TooltipHint": "cum",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "alias",
+      "LinkHint": "aperiam",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 279
         }
       }
     }
   ],
-  "RowCount": 844,
+  "RowCount": 872,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldLength": 270
     }
   }
 }

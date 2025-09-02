@@ -2,6 +2,7 @@
 title: GET Sale/UdefLayout/{progidOrLabel}
 uid: v1SaleEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Sale/UdefLayout/{progidOrLabel}
@@ -93,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 314,
-  "ColumnId": 951,
-  "FieldDefault": "ut",
-  "FieldHeight": 283,
-  "FieldLabel": "cupiditate",
-  "FieldLeft": 551,
-  "FieldTop": 121,
+  "UDefFieldId": 674,
+  "ColumnId": 675,
+  "FieldDefault": "ea",
+  "FieldHeight": 17,
+  "FieldLabel": "ab",
+  "FieldLeft": 826,
+  "FieldTop": 199,
   "FieldType": "Checkbox",
-  "FieldWidth": 180,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 49,
+  "FormatMask": "iusto",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 32,
-  "LabelLeft": 294,
-  "LabelTop": 372,
-  "LabelWidth": 145,
-  "LastVersionId": 893,
-  "ListTableId": 464,
+  "LabelHeight": 880,
+  "LabelLeft": 39,
+  "LabelTop": 180,
+  "LabelWidth": 37,
+  "LastVersionId": 814,
+  "ListTableId": 816,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 718,
-  "ProgId": "voluptatum",
+  "Page1LineNo": 197,
+  "ProgId": "sit",
   "IsReadOnly": false,
-  "ShortLabel": "nostrum",
-  "TabOrder": 470,
-  "TextLength": 765,
-  "Tooltip": "quaerat",
-  "UdefIdentity": 836,
-  "UDListDefinitionId": 805,
+  "ShortLabel": "neque",
+  "TabOrder": 47,
+  "TextLength": 946,
+  "Tooltip": "beatae",
+  "UdefIdentity": 765,
+  "UDListDefinitionId": 19,
   "Justification": "Center",
-  "Version": 817,
-  "TemplateVariableName": "Kling, Gerhold and O'Reilly",
+  "Version": 5,
+  "TemplateVariableName": "Dare, Hilll and Kohler",
   "HasBeenPublished": false,
-  "MdoListName": "Altenwerth, Christiansen and Howell",
+  "MdoListName": "Carroll, Doyle and Blick",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldLength": 235
     }
   }
 }

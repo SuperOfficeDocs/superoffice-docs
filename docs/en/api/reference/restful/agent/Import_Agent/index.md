@@ -1,6 +1,8 @@
 ---
+uid: tag-Import_Agent
 title: Import_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily/Items/{id}
 uid: v1ProductFamilyList_PutProductFamily
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Hilll, Rippin and VonRueden",
-  "Tooltip": "nihil",
+  "Id": 364,
+  "Name": "Hoppe-Brakus",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "UdListDefinitionId": 545,
-  "Rank": 611
+  "UdListDefinitionId": 468,
+  "Rank": 213
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Legros Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 402,
+  "Name": "Franecki, Rosenbaum and Hagenes",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "UdListDefinitionId": 220,
-  "Rank": 600,
+  "UdListDefinitionId": 164,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldLength": 138
     }
   }
 }

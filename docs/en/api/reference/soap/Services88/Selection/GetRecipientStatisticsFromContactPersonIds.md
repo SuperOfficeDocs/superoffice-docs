@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetRecipientStatisticsFromContactPersonIds SOAP
 generated: true
 uid: Services88-Selection-GetRecipientStatisticsFromContactPersonIds
+content_type: reference
 ---
 
 # Services88 Selection GetRecipientStatisticsFromContactPersonIds

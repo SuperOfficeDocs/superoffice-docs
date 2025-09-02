@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.UpdateTicketsReadStatusByProvider SOAP
 generated: true
 uid: Services88-Ticket-UpdateTicketsReadStatusByProvider
+content_type: reference
 ---
 
 # Services88 Ticket UpdateTicketsReadStatusByProvider

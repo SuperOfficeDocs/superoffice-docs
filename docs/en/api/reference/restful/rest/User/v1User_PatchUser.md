@@ -2,6 +2,7 @@
 title: PATCH User/{id}
 uid: v1User_PatchUser
 generated: true
+content_type: reference
 ---
 
 # PATCH User/{id}
@@ -135,18 +136,18 @@ User  updated.
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -159,14 +160,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 698,
-  "Name": "Vandervort, Ondricka and Jast",
-  "Rank": 563,
-  "Tooltip": "aut",
+  "AssociateId": 525,
+  "Name": "Kirlin-Bins",
+  "Rank": 333,
+  "Tooltip": "minima",
   "LicenseOwners": [
     {
-      "Name": "Grant LLC",
-      "Description": "Business-focused impactful website",
+      "Name": "Senger LLC",
+      "Description": "Cloned clear-thinking archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -180,13 +181,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 611
         }
       }
     },
     {
-      "Name": "Grant LLC",
-      "Description": "Business-focused impactful website",
+      "Name": "Senger LLC",
+      "Description": "Cloned clear-thinking archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -200,7 +201,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 611
         }
       }
     }
@@ -209,110 +210,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ipsa",
-      "Tooltip": "magnam",
-      "Id": 759,
-      "Rank": 502,
+      "Value": "deleniti",
+      "Tooltip": "dolores",
+      "Id": 916,
+      "Rank": 781,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldLength": 430
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-08-20T03:45:28.8577995+02:00",
-  "Lastlogout": "2021-12-01T03:45:28.8577995+01:00",
-  "EjUserId": 178,
-  "RequestSignature": "quos",
+  "Deleted": true,
+  "Lastlogin": "2019-04-02T03:47:00.5193028+02:00",
+  "Lastlogout": "2000-10-03T03:47:00.5193028+02:00",
+  "EjUserId": 791,
+  "RequestSignature": "corporis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "vero",
+      "Value": "deserunt",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 863
         }
       }
     },
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "vero",
+      "Value": "deserunt",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 863
         }
       }
     }
   ],
-  "UserName": "Harvey-Miller",
+  "UserName": "Mayert, Kreiger and Schaden",
   "TicketCategories": [
     {
-      "Id": 660,
-      "Name": "Pollich Group",
-      "ToolTip": "Minus accusamus dolores consequatur fugit molestiae debitis.",
-      "Deleted": false,
-      "Rank": 70,
-      "Type": "nulla",
+      "Id": 707,
+      "Name": "Howe, Beahan and Rowe",
+      "ToolTip": "Et fuga doloremque praesentium ut.",
+      "Deleted": true,
+      "Rank": 330,
+      "Type": "facilis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 956,
-      "ExtraInfo": "dolore",
-      "StyleHint": "tenetur",
-      "FullName": "Rachel Erdman",
+      "IconHint": "magnam",
+      "ColorBlock": 412,
+      "ExtraInfo": "sapiente",
+      "StyleHint": "beatae",
+      "FullName": "Vicente Wisoky",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     }
   ],
-  "NickName": "Marks-McGlynn",
-  "WaitingForApproval": false,
+  "NickName": "Mraz, Boyle and Roob",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "et",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "quidem"
+    "CustomFields1": "aut",
+    "CustomFields2": "praesentium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Fisher-Harber",
-      "DisplayName": "Hessel-Davis",
-      "Description": "Programmable foreground alliance",
-      "ToolTip": "Quo ab dolorem ad amet aliquid eveniet ea.",
+      "Name": "Bogan, Frami and Nicolas",
+      "DisplayName": "Dickinson-Ullrich",
+      "Description": "Horizontal heuristic portal",
+      "ToolTip": "Culpa id amet.",
       "Actions": "Implicit",
-      "ActionData": "sint",
+      "ActionData": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 627
         }
       }
     }
@@ -322,12 +323,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldLength": 517
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

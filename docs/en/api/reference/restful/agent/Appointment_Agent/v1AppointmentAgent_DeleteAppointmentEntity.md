@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/DeleteAppointmentEntity
 uid: v1AppointmentAgent_DeleteAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/DeleteAppointmentEntity
@@ -22,10 +23,10 @@ Deletes the AppointmentEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
+| appointmentEntityId | int32 | **Required** The identity of the AppointmentEntity |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=343
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=800
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

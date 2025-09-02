@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/MDOItems
 uid: v1ProjectStatusList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=excepturi
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=tempora
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Boehm Group",
-    "ToolTip": "Corporis fugit nihil reiciendis quas consequatur recusandae in.",
+    "Id": 122,
+    "Name": "Schulist-Kunde",
+    "ToolTip": "Unde consequatur non ad adipisci non.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "similique",
+    "Rank": 545,
+    "Type": "ipsa",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Homenick, Zboncak and Rohan",
-        "ToolTip": "Est consequatur sunt.",
-        "Deleted": false,
-        "Rank": 202,
-        "Type": "sapiente",
+        "Id": 131,
+        "Name": "Dietrich, Swift and Hauck",
+        "ToolTip": "Quia ad et.",
+        "Deleted": true,
+        "Rank": 469,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 728,
-        "ExtraInfo": "iusto",
-        "StyleHint": "et",
-        "FullName": "Darron Cruickshank PhD",
+        "IconHint": "eligendi",
+        "ColorBlock": 374,
+        "ExtraInfo": "quae",
+        "StyleHint": "cumque",
+        "FullName": "Sandrine Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 740,
-    "ExtraInfo": "et",
-    "StyleHint": "totam",
-    "FullName": "Mrs. Ricky Lubowitz III",
+    "IconHint": "quisquam",
+    "ColorBlock": 796,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "asperiores",
+    "FullName": "Frederique Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   }

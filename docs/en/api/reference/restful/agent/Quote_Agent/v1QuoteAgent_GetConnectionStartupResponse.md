@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetConnectionStartupResponse
 uid: v1QuoteAgent_GetConnectionStartupResponse
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetConnectionStartupResponse
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 708
+  "QuoteConnectionId": 454
 }
 ```
 
@@ -96,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "qui",
-  "TechExplanation": "et",
-  "ErrorCode": "et",
+  "UserExplanation": "rem",
+  "TechExplanation": "explicabo",
+  "ErrorCode": "sint",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 465
     }
   }
 }

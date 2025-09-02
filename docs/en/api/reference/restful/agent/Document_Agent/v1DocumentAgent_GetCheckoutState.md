@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetCheckoutState
 uid: v1DocumentAgent_GetCheckoutState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetCheckoutState
@@ -77,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 525
+  "DocumentId": 350
 }
 ```
 
@@ -89,7 +90,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 233,
-  "Name": "Kiehn, Toy and Cassin"
+  "AssociateId": 944,
+  "Name": "Sipes-Block"
 }
 ```

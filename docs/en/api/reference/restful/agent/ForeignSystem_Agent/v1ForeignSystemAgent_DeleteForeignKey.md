@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/DeleteForeignKey
 uid: v1ForeignSystemAgent_DeleteForeignKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/DeleteForeignKey
@@ -76,11 +77,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Swaniawski Inc and Sons",
-  "DeviceName": "Koelpin LLC",
-  "DeviceIdentifier": "molestiae",
-  "TableName": "Pfeffer-Wiza",
-  "RecordId": 852
+  "ApplicationName": "Hackett-Mante",
+  "DeviceName": "Kling, Price and Conroy",
+  "DeviceIdentifier": "inventore",
+  "TableName": "Beier-Weissnat",
+  "RecordId": 38
 }
 ```
 

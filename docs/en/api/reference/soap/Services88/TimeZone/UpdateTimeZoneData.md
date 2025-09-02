@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.UpdateTimeZoneData SOAP
 generated: true
 uid: Services88-TimeZone-UpdateTimeZoneData
+content_type: reference
 ---
 
 # Services88 TimeZone UpdateTimeZoneData

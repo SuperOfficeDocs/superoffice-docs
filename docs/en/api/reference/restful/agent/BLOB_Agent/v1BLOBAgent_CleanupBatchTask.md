@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/CleanupBatchTask
 uid: v1BLOBAgent_CleanupBatchTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/CleanupBatchTask
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 873
+  "BatchTaskId": 409
 }
 ```
 

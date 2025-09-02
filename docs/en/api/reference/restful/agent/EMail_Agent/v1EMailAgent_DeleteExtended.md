@@ -2,6 +2,7 @@
 title: POST Agents/EMail/DeleteExtended
 uid: v1EMailAgent_DeleteExtended
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/DeleteExtended
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/EMail/DeleteExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "dolore",
-    "voluptatibus"
+    "enim",
+    "sit"
   ]
 }
 ```

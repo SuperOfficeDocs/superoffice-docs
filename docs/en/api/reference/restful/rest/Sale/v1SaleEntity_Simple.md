@@ -2,6 +2,7 @@
 title: GET Sale/{id}/Simple
 uid: v1SaleEntity_Simple
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/Simple
@@ -96,37 +97,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Schmitt LLC",
-  "SaleDate": "2013-09-12T03:45:28.6390567+02:00",
-  "SaleId": 251,
-  "Probability": 92,
-  "Title": "sit",
-  "Amount": 22248.266,
-  "Currency": "ut",
-  "ProjectName": "Macejkovic-Douglas",
-  "AssociateFullName": "Maya Marquardt",
-  "Description": "Open-architected user-facing local area network",
+  "ContactName": "Runte, Koelpin and McGlynn",
+  "SaleDate": "2011-03-23T03:47:00.2693116+01:00",
+  "SaleId": 455,
+  "Probability": 807,
+  "Title": "consequatur",
+  "Amount": 9881.502,
+  "Currency": "nihil",
+  "ProjectName": "Rodriguez, Mitchell and Hackett",
+  "AssociateFullName": "Kari Schoen",
+  "Description": "Fully-configurable human-resource framework",
   "Status": "Lost",
-  "WeightedAmount": 10182.366,
-  "ProjectId": 265,
-  "EarningPercent": 14059.124,
-  "Earning": 23144.59,
-  "ContactId": 682,
-  "AssociateId": 154,
-  "PersonId": 53,
-  "SaleTypeId": 559,
-  "SaleTypeName": "Nienow LLC",
-  "PersonFullName": "Katheryn Kub",
+  "WeightedAmount": 26695.412,
+  "ProjectId": 104,
+  "EarningPercent": 15328.394,
+  "Earning": 27591.736,
+  "ContactId": 962,
+  "AssociateId": 447,
+  "PersonId": 16,
+  "SaleTypeId": 136,
+  "SaleTypeName": "Von-Ernser",
+  "PersonFullName": "Miss Nedra Shad Treutel IV",
   "Completed": "Completed",
-  "ActiveErpLinks": 162,
-  "NextDueDate": "2002-08-18T03:45:28.6390567+02:00",
-  "Number": "1067311",
+  "ActiveErpLinks": 847,
+  "NextDueDate": "2013-02-10T03:47:00.2693116+01:00",
+  "Number": "1243028",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldLength": 151
     }
   }
 }

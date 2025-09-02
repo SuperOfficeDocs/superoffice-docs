@@ -2,6 +2,7 @@
 title: DEL List/ProjectStatus/Headings
 uid: v1ProjectStatusList_DeleteProjectStatusHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/ProjectStatus/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

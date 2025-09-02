@@ -2,6 +2,7 @@
 title: GET Ticket/CustomField/{fieldName}
 uid: v1TicketEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "O'Kon-Smith",
-  "DisplayName": "Boehm Group",
-  "Description": "Up-sized global hardware",
-  "ShortLabel": "vel",
+  "FieldName": "Schmitt-Gutkowski",
+  "DisplayName": "Schoen, Wuckert and Ortiz",
+  "Description": "Front-line fault-tolerant methodology",
+  "ShortLabel": "non",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "IsDisplayField": false,
-  "Rank": 853,
-  "TemplateVariableName": "Wiza-Gerhold"
+  "IsDisplayField": true,
+  "Rank": 489,
+  "TemplateVariableName": "Moen-Wiza"
 }
 ```

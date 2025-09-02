@@ -2,6 +2,7 @@
 title: POST Agents/List/GetReasonList
 uid: v1ListAgent_GetReasonList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetReasonList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetReasonList?$select=name,department,category/id
 
 ## Request Body: reasonIds 
 
-The primary keys. 
+The identifiers of the Reason object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Value": "vero",
-    "Tooltip": "expedita",
+    "Id": 440,
+    "Value": "culpa",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 852
       }
     }
   },
   {
-    "Id": 860,
-    "Value": "vero",
-    "Tooltip": "expedita",
+    "Id": 440,
+    "Value": "culpa",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 852
       }
     }
   }

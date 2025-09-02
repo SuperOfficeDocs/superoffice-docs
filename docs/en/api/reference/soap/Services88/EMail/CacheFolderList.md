@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CacheFolderList SOAP
 generated: true
 uid: Services88-EMail-CacheFolderList
+content_type: reference
 ---
 
 # Services88 EMail CacheFolderList

@@ -2,6 +2,7 @@
 title: PUT List/Reason
 uid: v1ReasonList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Quitzon, Gutkowski and Kub",
-  "Tooltip": "ex",
+  "Id": 593,
+  "Name": "Hintz-Labadie",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 504,
-  "IsCustomList": false,
+  "Rank": 467,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": false
+  "ListType": "eius",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Schuppe-Koelpin",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 34,
+  "Id": 645,
+  "Name": "Sipes Inc and Sons",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 769,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

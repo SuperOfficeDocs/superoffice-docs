@@ -2,6 +2,7 @@
 title: GET Document/UdefLayout/Publish
 uid: v1DocumentEntity_IsPublishUdefLayoutActive
 generated: true
+content_type: reference
 ---
 
 # GET Document/UdefLayout/Publish
@@ -52,7 +53,7 @@ OK
 GET /api/v1/Document/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

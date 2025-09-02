@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetEntityCountsForAllUsers
 uid: v1DiagnosticsAgent_GetEntityCountsForAllUsers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetEntityCountsForAllUsers
@@ -77,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bednar Group",
-    "Records": 525,
+    "EntityName": "Schaefer Group",
+    "Records": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   },
   {
-    "EntityName": "Bednar Group",
-    "Records": 525,
+    "EntityName": "Schaefer Group",
+    "Records": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

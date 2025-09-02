@@ -3,9 +3,9 @@ uid: ForeignKeys
 title: ForeignKeys
 description: Archive of Foreign Keys - used by the web api and partners.
 keywords: ForeignKeys archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ForeignKeys"

@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 uid: v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
@@ -96,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "molestias",
+  "CRMScriptUniqueId": "asperiores",
   "EventData": null
 }
 ```
@@ -110,42 +111,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aliquam",
-    "InputValues2": "quaerat"
+    "InputValues1": "deserunt",
+    "InputValues2": "ea"
   },
-  "BlockExecution": true,
-  "NavigateTo": "in",
-  "Message": "quas",
-  "ShowDialog": "sit",
+  "BlockExecution": false,
+  "NavigateTo": "voluptatem",
+  "Message": "molestiae",
+  "ShowDialog": "vel",
   "OutputValues": {
-    "OutputValues1": "quidem",
-    "OutputValues2": "aliquam"
+    "OutputValues1": "laudantium",
+    "OutputValues2": "fuga"
   },
   "StateValues": {
-    "StateValues1": "debitis",
-    "StateValues2": "vitae"
+    "StateValues1": "assumenda",
+    "StateValues2": "est"
   },
-  "Exception": "provident",
+  "Exception": "unde",
   "ParserValues": {
-    "ParserValues1": "nisi",
-    "ParserValues2": "aspernatur"
+    "ParserValues1": "soluta",
+    "ParserValues2": "repudiandae"
   },
   "CgiVariables": {
-    "CgiVariables1": "consequatur",
-    "CgiVariables2": "repellat"
+    "CgiVariables1": "et",
+    "CgiVariables2": "rerum"
   },
-  "CgiContent": "sunt",
+  "CgiContent": "rerum",
   "Headers": {
-    "Headers1": "minus",
-    "Headers2": "eum"
+    "Headers1": "nostrum",
+    "Headers2": "illo"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 963
     }
   }
 }

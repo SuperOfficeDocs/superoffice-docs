@@ -2,6 +2,7 @@
 title: GET TimeZone/base
 uid: v1TimeZone_GetBaseTimeZone
 generated: true
+content_type: reference
 ---
 
 # GET TimeZone/base
@@ -61,7 +62,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 481,
-  "Name": "Beier-Kulas",
-  "TZLocationCode": "eaque",
-  "TZLocationCities": "omnis",
-  "IsoNumber": 927,
+  "TZLocationID": 253,
+  "Name": "Kilback-Boyle",
+  "TZLocationCode": "sit",
+  "TZLocationCities": "sed",
+  "IsoNumber": 238,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 691,
-      "StartMonth": 490,
-      "EndDay": 987,
-      "EndMonth": 936,
-      "TZOffset": 806,
-      "StartRulePattern": "aut",
-      "EndRulePattern": "repudiandae"
+      "StartDay": 913,
+      "StartMonth": 130,
+      "EndDay": 345,
+      "EndMonth": 488,
+      "TZOffset": 294,
+      "StartRulePattern": "deserunt",
+      "EndRulePattern": "cum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 874,
-      "StartMonth": 663,
-      "EndDay": 344,
-      "EndMonth": 460,
-      "TZOffset": 605,
-      "StartRulePattern": "et",
-      "EndRulePattern": "consequatur"
+      "StartDay": 905,
+      "StartMonth": 336,
+      "EndDay": 846,
+      "EndMonth": 423,
+      "TZOffset": 793,
+      "StartRulePattern": "ipsum",
+      "EndRulePattern": "sequi"
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST List/TicketPriority/Headings
 uid: v1TicketPriorityList_PostTicketPriorityEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketPriority/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 333,
-  "Name": "Bogan, Schiller and Connelly",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "Rank": 155,
-  "UdListDefinitionId": 843
+  "HeadingId": 996,
+  "Name": "Bashirian, Walsh and Ziemann",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 914,
+  "UdListDefinitionId": 375
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 872,
-  "Name": "Rolfson Group",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 766,
+  "Name": "Krajcik LLC",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 782,
-  "UdListDefinitionId": 68,
+  "Rank": 716,
+  "UdListDefinitionId": 980,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

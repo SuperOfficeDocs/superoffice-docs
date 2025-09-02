@@ -2,6 +2,7 @@
 title: GET TriggerScript/{id}
 uid: v1TriggerScriptEntity_GetTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # GET TriggerScript/{id}
@@ -80,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 764,
-  "Name": "Bosco LLC",
+  "ScreenChooserId": 602,
+  "Name": "Krajcik, Zboncak and Hudson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corporis",
-  "Source": "officia",
-  "Registered": "2015-02-05T03:45:28.7952992+01:00",
-  "RegisteredAssociateId": 382,
-  "Updated": "2007-01-01T03:45:28.7952992+01:00",
-  "UpdatedAssociateId": 777,
+  "UniqueIdentifier": "autem",
+  "Source": "in",
+  "Registered": "2017-01-20T03:47:00.3943072+01:00",
+  "RegisteredAssociateId": 662,
+  "Updated": "2020-01-10T03:47:00.3943072+01:00",
+  "UpdatedAssociateId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 461
     }
   }
 }

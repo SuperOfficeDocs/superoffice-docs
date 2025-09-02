@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectsFromPerson
 uid: v1ProjectAgent_GetProjectsFromPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectsFromPerson
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 92
+  "PersonId": 35
 }
 ```
 
@@ -106,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 508,
-    "Name": "Hegmann, Conroy and Hoppe",
-    "Description": "Assimilated hybrid parallelism",
+    "ProjectId": 105,
+    "Name": "Padberg-Hauck",
+    "Description": "Team-oriented bandwidth-monitored internet solution",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 939,
-    "AssociateFullName": "Fannie Strosin",
-    "TypeId": 236,
-    "Updated": "2015-10-05T03:45:23.7798203+02:00",
-    "StatusId": 823,
-    "Status": "ipsum",
-    "TextId": 392,
-    "PublishTo": "2015-05-21T03:45:23.7798203+02:00",
-    "PublishFrom": "2009-04-12T03:45:23.7798203+02:00",
+    "Type": "minus",
+    "AssociateId": 509,
+    "AssociateFullName": "Ms. Antonia Gibson III",
+    "TypeId": 248,
+    "Updated": "2001-02-04T03:46:55.1757421+01:00",
+    "StatusId": 676,
+    "Status": "veritatis",
+    "TextId": 56,
+    "PublishTo": "2007-03-28T03:46:55.1757421+02:00",
+    "PublishFrom": "2001-10-31T03:46:55.1757421+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "698520",
-    "ActiveErpLinks": 84,
+    "ProjectNumber": "1514317",
+    "ActiveErpLinks": 242,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 395
       }
     }
   }

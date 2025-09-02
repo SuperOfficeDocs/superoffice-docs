@@ -2,6 +2,7 @@
 title: DEL Appointment/{id}
 uid: v1AppointmentEntity_DeleteAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Appointment/{id}

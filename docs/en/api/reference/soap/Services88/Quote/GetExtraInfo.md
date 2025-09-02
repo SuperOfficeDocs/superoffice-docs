@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetExtraInfo SOAP
 generated: true
 uid: Services88-Quote-GetExtraInfo
+content_type: reference
 ---
 
 # Services88 Quote GetExtraInfo

@@ -2,6 +2,7 @@
 title: GET BatchTask/{state}
 uid: v1Batch_GetBatchTaskInfosByState
 generated: true
+content_type: reference
 ---
 
 # GET BatchTask/{state}
@@ -80,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Towne, Steuber and Ernser",
-    "AssociateId": 831,
-    "DetailsTable": 378,
-    "DetailsRecord": 57,
+    "Id": 788,
+    "Name": "Russel-Beahan",
+    "AssociateId": 631,
+    "DetailsTable": 279,
+    "DetailsRecord": 483,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "maiores",
-      "ParameterObject2": "odio"
+      "ParameterObject1": "incidunt",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "1998-04-05T03:45:28.7952992+02:00",
-    "Created": "2025-01-24T03:45:28.7952992+01:00",
-    "StartCount": 24,
-    "DatabaseSerialNumber": "812005",
-    "Context": "blanditiis",
-    "Result": "ex",
+    "LastStarted": "2009-12-24T03:47:00.3943072+01:00",
+    "Created": "1998-07-16T03:47:00.3943072+02:00",
+    "StartCount": 581,
+    "DatabaseSerialNumber": "575285",
+    "Context": "est",
+    "Result": "quasi",
     "State": "All",
-    "Description": "Robust coherent ability",
-    "Response": "quae",
-    "Request": "eos",
-    "ProgressDescription": "Cross-platform systematic flexibility",
-    "ProgressPercent": 818,
-    "FileName": "Lakin LLC",
+    "Description": "Fully-configurable value-added concept",
+    "Response": "qui",
+    "Request": "autem",
+    "ProgressDescription": "Centralized full-range knowledge user",
+    "ProgressPercent": 450,
+    "FileName": "Kunze, Johns and Glover",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {

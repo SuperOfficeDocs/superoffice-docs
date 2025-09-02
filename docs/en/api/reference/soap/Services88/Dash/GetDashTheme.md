@@ -2,6 +2,7 @@
 title: Services88.DashAgent.GetDashTheme SOAP
 generated: true
 uid: Services88-Dash-GetDashTheme
+content_type: reference
 ---
 
 # Services88 Dash GetDashTheme

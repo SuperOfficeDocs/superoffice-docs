@@ -2,6 +2,7 @@
 title: PUT Selection/{id}
 uid: v1SelectionEntity_PutSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # PUT Selection/{id}
@@ -160,60 +161,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal disintermediate flexibility",
-  "Postit": "autem",
+  "Description": "Robust content-based database",
+  "Postit": "ab",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 821,
-  "IncludePerson": 284,
+  "GroupIdx": 560,
+  "IncludePerson": 954,
   "MemberCount": 99.99,
-  "Name": "Klocko, Schinner and Hodkiewicz",
-  "PostitTextId": 912,
-  "CreatedDate": "2019-12-15T03:45:28.6546813+01:00",
-  "SelectionId": 225,
-  "SoundEx": "velit",
-  "Source": 446,
-  "TextId": 70,
-  "UpdatedDate": "2015-09-07T03:45:28.6546813+02:00",
-  "UpdatedCount": 737,
-  "Visibility": 295,
+  "Name": "Nolan, Schroeder and Crona",
+  "PostitTextId": 967,
+  "CreatedDate": "2010-10-22T03:47:00.2849361+02:00",
+  "SelectionId": 703,
+  "SoundEx": "nisi",
+  "Source": 358,
+  "TextId": 917,
+  "UpdatedDate": "1999-02-17T03:47:00.2849361+01:00",
+  "UpdatedCount": 177,
+  "Visibility": 583,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 487,
-  "TargetTableName": "Koepp Inc and Sons",
+  "TargetTableNumber": 743,
+  "TargetTableName": "Jacobi LLC",
   "Completed": false,
-  "LeftSelectionId": 616,
-  "RightSelectionId": 976,
+  "LeftSelectionId": 816,
+  "RightSelectionId": 735,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Champlin-Bode",
-  "ShadowProviderName": "Gerlach-Turner",
-  "ChartKey": "vel",
-  "LastLoaded": "2010-03-06T03:45:28.6546813+01:00",
-  "LastLoadedBy": 192,
+  "MainProviderName": "Lynch LLC",
+  "ShadowProviderName": "Koss LLC",
+  "ChartKey": "eaque",
+  "LastLoaded": "2012-08-27T03:47:00.2849361+02:00",
+  "LastLoadedBy": 750,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-10T03:45:28.6546813+02:00",
-  "LastMembershipChangeBy": 831,
+  "LastMembershipChange": "2000-07-12T03:47:00.2849361+02:00",
+  "LastMembershipChangeBy": 730,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugit",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Stamm, Balistreri and Morissette",
-  "DashboardTileDefinitionId": 548,
+  "MainHeading": "officiis",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "VonRueden LLC",
+  "DashboardTileDefinitionId": 500,
   "VisibleFor": [
     {
-      "VisibleId": 517,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "recusandae"
+      "DisplayValue": "enim"
     },
     {
-      "VisibleId": 517,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "recusandae"
+      "DisplayValue": "enim"
     }
   ]
 }
@@ -226,70 +227,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned next generation concept",
-  "Postit": "consectetur",
+  "Description": "Secured intangible algorithm",
+  "Postit": "aperiam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 467,
-  "IncludePerson": 24,
+  "GroupIdx": 35,
+  "IncludePerson": 241,
   "MemberCount": 99.99,
-  "Name": "Miller, Goyette and Waelchi",
-  "PostitTextId": 304,
-  "CreatedDate": "2012-06-18T03:45:28.6546813+02:00",
-  "SelectionId": 621,
-  "SoundEx": "modi",
-  "Source": 143,
-  "TextId": 309,
-  "UpdatedDate": "2004-12-25T03:45:28.6546813+01:00",
-  "UpdatedCount": 50,
-  "Visibility": 490,
+  "Name": "Williamson-Shields",
+  "PostitTextId": 821,
+  "CreatedDate": "2019-11-15T03:47:00.2849361+01:00",
+  "SelectionId": 824,
+  "SoundEx": "nesciunt",
+  "Source": 142,
+  "TextId": 833,
+  "UpdatedDate": "2003-03-25T03:47:00.2849361+01:00",
+  "UpdatedCount": 548,
+  "Visibility": 170,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 210,
-  "TargetTableName": "Renner, Greenfelder and Daugherty",
+  "TargetTableNumber": 474,
+  "TargetTableName": "Powlowski-Collier",
   "Completed": false,
-  "LeftSelectionId": 902,
-  "RightSelectionId": 823,
+  "LeftSelectionId": 66,
+  "RightSelectionId": 337,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Daniel, Crooks and Parker",
-  "ShadowProviderName": "Wiegand LLC",
-  "ChartKey": "autem",
-  "LastLoaded": "2008-08-15T03:45:28.6546813+02:00",
-  "LastLoadedBy": 48,
+  "MainProviderName": "Stanton, Marks and Daugherty",
+  "ShadowProviderName": "Sipes Inc and Sons",
+  "ChartKey": "a",
+  "LastLoaded": "2016-09-23T03:47:00.2849361+02:00",
+  "LastLoadedBy": 972,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-11-25T03:45:28.6546813+01:00",
-  "LastMembershipChangeBy": 971,
+  "LastMembershipChange": "2004-03-05T03:47:00.2849361+01:00",
+  "LastMembershipChangeBy": 160,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Streich-Kirlin",
-  "DashboardTileDefinitionId": 596,
+  "MainHeading": "quos",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Schulist Group",
+  "DashboardTileDefinitionId": 127,
   "VisibleFor": [
     {
-      "VisibleId": 381,
+      "VisibleId": 878,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 271
         }
       }
     },
     {
-      "VisibleId": 381,
+      "VisibleId": 878,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 271
         }
       }
     }
@@ -298,8 +299,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 455
     }
   },
   "_Links": {

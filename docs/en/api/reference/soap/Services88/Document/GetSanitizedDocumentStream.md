@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetSanitizedDocumentStream SOAP
 generated: true
 uid: Services88-Document-GetSanitizedDocumentStream
+content_type: reference
 ---
 
 # Services88 Document GetSanitizedDocumentStream

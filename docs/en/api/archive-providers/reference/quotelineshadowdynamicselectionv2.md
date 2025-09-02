@@ -3,9 +3,9 @@ uid: QuoteLineShadowDynamicSelectionV2
 title: QuoteLineShadowDynamicSelectionV2
 description: QuoteLine shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.QuoteLineShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: QuoteLineShadowDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteLineShadowDynamicSelectionV2"
@@ -765,7 +765,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=PriceUnitSubscriptionUnit,alternative/version/approvedBy,alternative/version/quote/sale/contact/streetAddress/county,alternative/version/quote/sale/project/text,alternative/version/quote/connection/erpConnection/connector/registeredBy
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/version/approvedBy,alternative/version/quote/sale/person/fullName,alternative/version/quote/sale/person/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

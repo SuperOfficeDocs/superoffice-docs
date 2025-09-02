@@ -1,6 +1,8 @@
 ---
+uid: tag-Role
 title: Role
 generated: true
+content_type: reference
 ---
 
 ```http

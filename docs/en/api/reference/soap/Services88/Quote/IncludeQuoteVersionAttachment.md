@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.IncludeQuoteVersionAttachment SOAP
 generated: true
 uid: Services88-Quote-IncludeQuoteVersionAttachment
+content_type: reference
 ---
 
 # Services88 Quote IncludeQuoteVersionAttachment

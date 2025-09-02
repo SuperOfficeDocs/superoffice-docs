@@ -2,10 +2,10 @@
 uid: table-ext_field
 title: ext_field table
 description: This table contains entries mapping an external field to an internal field. Used for database integration.
-so.generated: true
+generated: true
 keywords: database table ext_field
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ext\_field Table (319)

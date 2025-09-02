@@ -2,6 +2,7 @@
 title: GET Sale/{id}/Links
 uid: v1SaleEntity_Links
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/Links
@@ -74,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=adipisci
-GET /api/v1/Sale/{id}/Links?$top=639
-GET /api/v1/Sale/{id}/Links?$skip=686
+GET /api/v1/Sale/{id}/Links?$entities=aut
+GET /api/v1/Sale/{id}/Links?$top=274
+GET /api/v1/Sale/{id}/Links?$skip=231
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Links?$context=totam
+GET /api/v1/Sale/{id}/Links?$context=dignissimos
 GET /api/v1/Sale/{id}/Links?$format=JSON
 GET /api/v1/Sale/{id}/Links?$jsonSafe=False
 GET /api/v1/Sale/{id}/Links?$output=Display
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Sale/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "voluptates",
   "value": [
     {
-      "PrimaryKey": 2184,
-      "EntityName": "person",
-      "personId": 2184,
-      "fullName": "Arthur DuBuque"
+      "PrimaryKey": 80,
+      "EntityName": "sale",
+      "saleId": 80,
+      "contactId": 209,
+      "name": "Macejkovic Inc and Sons"
     },
     {
-      "PrimaryKey": 5271,
-      "EntityName": "person",
-      "personId": 5271,
-      "fullName": "Prof. Conner Wyman Wunsch IV"
+      "PrimaryKey": 5184,
+      "EntityName": "sale",
+      "saleId": 5184,
+      "contactId": 9400,
+      "name": "Walsh-Grant"
     }
   ]
 }

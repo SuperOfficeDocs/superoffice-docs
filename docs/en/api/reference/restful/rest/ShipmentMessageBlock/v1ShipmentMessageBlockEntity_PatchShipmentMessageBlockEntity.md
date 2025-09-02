@@ -2,6 +2,7 @@
 title: PATCH ShipmentMessageBlock/{id}
 uid: v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH ShipmentMessageBlock/{id}
@@ -115,18 +116,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "atque",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "atque",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -139,25 +140,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 587,
-  "AssociateId": 240,
-  "Block": "ab",
-  "Registered": "2015-11-30T03:45:28.6546813+01:00",
-  "RegisteredAssociateId": 341,
-  "Updated": "1998-09-10T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 673,
-  "UpdatedCount": 896,
+  "ShipmentMessageBlockId": 540,
+  "AssociateId": 464,
+  "Block": "voluptatum",
+  "Registered": "2002-04-15T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 292,
+  "Updated": "2021-09-22T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 618,
+  "UpdatedCount": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 779
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultPreviewDash
 uid: v1DashAgent_CreateDefaultPreviewDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultPreviewDash
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 ```
 
-Set default values into a new PreviewDash.
+Loading default values into a new PreviewDash.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,33 +71,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 594,
-  "Name": "Emmerich, Stamm and Ratke",
-  "Description": "Organic exuding customer loyalty",
-  "OwnedByFullName": "Marina Stephon Legros MD",
-  "Registered": "2019-02-05T03:45:23.264209+01:00",
+  "DashboardId": 605,
+  "Name": "Kunze, Lowe and O'Keefe",
+  "Description": "Future-proofed incremental adapter",
+  "OwnedByFullName": "Miss Erna Kaia Kulas Sr.",
+  "Registered": "2014-12-03T03:46:54.6132622+01:00",
   "Tiles": [
     {
-      "Name": "Kautzer-Denesik",
+      "Name": "Keeling Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 297
         }
       }
     },
     {
-      "Name": "Kautzer-Denesik",
+      "Name": "Keeling Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 297
         }
       }
     }
@@ -108,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 588
     }
   }
 }

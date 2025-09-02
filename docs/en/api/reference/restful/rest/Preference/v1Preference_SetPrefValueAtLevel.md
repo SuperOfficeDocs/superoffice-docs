@@ -2,6 +2,7 @@
 title: PUT Preference/{section}/{key}/{prefLevel}
 uid: v1Preference_SetPrefValueAtLevel
 generated: true
+content_type: reference
 ---
 
 # PUT Preference/{section}/{key}/{prefLevel}
@@ -33,7 +34,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=cum
+PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=fugit
 ```
 
 
@@ -64,7 +65,7 @@ No Content
 PUT /api/v1/Preference/{section}/{key}/{prefLevel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

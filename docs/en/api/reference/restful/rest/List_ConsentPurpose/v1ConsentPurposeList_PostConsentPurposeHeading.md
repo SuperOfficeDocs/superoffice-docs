@@ -2,6 +2,7 @@
 title: POST List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_PostConsentPurposeHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ConsentPurpose/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 93,
-  "Name": "Morissette, Schumm and Quigley",
-  "Tooltip": "iusto",
+  "HeadingId": 523,
+  "Name": "Tillman LLC",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 262,
-  "UdListDefinitionId": 854
+  "Rank": 310,
+  "UdListDefinitionId": 562
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 239,
-  "Name": "Mitchell, Koelpin and Franecki",
-  "Tooltip": "facere",
+  "HeadingId": 937,
+  "Name": "Swaniawski, Schmidt and Emard",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 311,
-  "UdListDefinitionId": 850,
+  "Rank": 418,
+  "UdListDefinitionId": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 401
     }
   }
 }

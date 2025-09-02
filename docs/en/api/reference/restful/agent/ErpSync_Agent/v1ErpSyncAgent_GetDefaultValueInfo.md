@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetDefaultValueInfo
 uid: v1ErpSyncAgent_GetDefaultValueInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetDefaultValueInfo
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 98
+  "ErpFieldId": 935
 }
 ```
 
@@ -99,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 529,
-  "DefaultValue": "unde",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "itaque",
+  "ErpFieldId": 950,
+  "DefaultValue": "expedita",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "voluptas",
   "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "et",
+  "ErpFieldKey": "dolorem",
   "FieldType": "Checkbox",
-  "ListName": "Runte Inc and Sons",
+  "ListName": "Murphy, Ullrich and McGlynn",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

@@ -2,6 +2,7 @@
 title: DEL List/MrMrs/Items/{id}
 uid: v1MrMrsList_DeleteMrMrs
 generated: true
+content_type: reference
 ---
 
 # DEL List/MrMrs/Items/{id}

@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetOpenSalesForContact
 uid: v1SaleAgent_GetOpenSalesForContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetOpenSalesForContact
@@ -97,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 152
+  "ContactId": 256
 }
 ```
 
@@ -113,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Powlowski Group",
-    "SaleDate": "2025-01-02T03:45:23.8735682+01:00",
-    "SaleId": 80,
-    "Probability": 85,
-    "Title": "minus",
-    "Amount": 15986.534,
-    "Currency": "sed",
-    "ProjectName": "Ziemann, Roberts and Mueller",
-    "AssociateFullName": "Austen Vandervort",
-    "Description": "Mandatory eco-centric moderator",
+    "ContactName": "Miller Group",
+    "SaleDate": "2005-08-14T03:46:55.2694888+02:00",
+    "SaleId": 636,
+    "Probability": 470,
+    "Title": "blanditiis",
+    "Amount": 22310.946,
+    "Currency": "earum",
+    "ProjectName": "Schneider-Rowe",
+    "AssociateFullName": "Mr. Rodrick Carolyne Romaguera IV",
+    "Description": "Enterprise-wide holistic function",
     "Status": "Lost",
-    "WeightedAmount": 9157.5479999999989,
-    "ProjectId": 339,
-    "EarningPercent": 15538.372,
-    "Earning": 6324.4119999999994,
-    "ContactId": 331,
-    "AssociateId": 478,
-    "PersonId": 101,
-    "SaleTypeId": 214,
-    "SaleTypeName": "Abernathy, Wilderman and Hessel",
-    "PersonFullName": "Prof. Elise Bryon Lindgren",
+    "WeightedAmount": 2663.9,
+    "ProjectId": 541,
+    "EarningPercent": 11357.616,
+    "Earning": 22875.066,
+    "ContactId": 263,
+    "AssociateId": 238,
+    "PersonId": 987,
+    "SaleTypeId": 411,
+    "SaleTypeName": "Osinski Group",
+    "PersonFullName": "Dr. Mariane Bartell",
     "Completed": "Completed",
-    "ActiveErpLinks": 104,
-    "NextDueDate": "2000-12-15T03:45:23.8735682+01:00",
-    "Number": "919067",
+    "ActiveErpLinks": 643,
+    "NextDueDate": "2012-09-25T03:46:55.2694888+02:00",
+    "Number": "1597160",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 226
       }
     }
   }

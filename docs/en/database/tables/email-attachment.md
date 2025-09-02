@@ -2,10 +2,10 @@
 uid: table-email_attachment
 title: email_attachment table
 description: Attachment info related to an email_item
-so.generated: true
+generated: true
 keywords: database table email_attachment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # email\_attachment Table (490)

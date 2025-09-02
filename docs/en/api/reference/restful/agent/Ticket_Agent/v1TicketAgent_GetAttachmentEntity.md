@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetAttachmentEntity
 uid: v1TicketAgent_GetAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetAttachmentEntity
@@ -22,11 +23,11 @@ Gets a AttachmentEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| attachmentEntityId | int32 | **Required** The primary key. |
+| attachmentEntityId | int32 | **Required** The identifier of the AttachmentEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=512
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=675
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 551,
-  "Name": "Moen, Nicolas and Brekke",
-  "ContentType": "est",
-  "AttSize": 577,
-  "InlineImage": true,
-  "ContentId": "eos",
-  "AuthKey": "odio",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 20,
+  "Name": "Stracke-Collier",
+  "ContentType": "ut",
+  "AttSize": 688,
+  "InlineImage": false,
+  "ContentId": "dolore",
+  "AuthKey": "sed",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetChatbotPromptSuggestions
 uid: v1AIAgent_GetChatbotPromptSuggestions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetChatbotPromptSuggestions
@@ -78,13 +79,13 @@ OK
 POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "nihil",
-  "SoProtocol": "accusantium",
-  "CurrentId": 679
+  "IsoLangCode": "perspiciatis",
+  "SoProtocol": "nulla",
+  "CurrentId": 672
 }
 ```
 
@@ -95,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2016-11-14T03:45:22.6548535+01:00",
-  "UserPrompt": "laboriosam",
-  "UserDisplayText": "nisi",
-  "BotResponse": "debitis",
+  "Timestamp": "2009-10-14T03:46:53.9726601+02:00",
+  "UserPrompt": "velit",
+  "UserDisplayText": "quis",
+  "BotResponse": "iusto",
   "BotActions": {
-    "BotActions1": "pariatur",
-    "BotActions2": "veritatis"
+    "BotActions1": "ad",
+    "BotActions2": "rerum"
   },
   "Attachments": [
-    "quis",
-    "error"
+    "amet",
+    "non"
   ]
 }
 ```

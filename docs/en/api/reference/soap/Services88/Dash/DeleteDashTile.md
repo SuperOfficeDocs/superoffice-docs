@@ -2,6 +2,7 @@
 title: Services88.DashAgent.DeleteDashTile SOAP
 generated: true
 uid: Services88-Dash-DeleteDashTile
+content_type: reference
 ---
 
 # Services88 Dash DeleteDashTile

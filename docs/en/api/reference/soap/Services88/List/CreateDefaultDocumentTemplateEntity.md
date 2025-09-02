@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultDocumentTemplateEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultDocumentTemplateEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultDocumentTemplateEntity

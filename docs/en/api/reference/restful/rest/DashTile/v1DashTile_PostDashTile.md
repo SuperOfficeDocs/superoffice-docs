@@ -2,6 +2,7 @@
 title: POST DashTile
 uid: v1DashTile_PostDashTile
 generated: true
+content_type: reference
 ---
 
 # POST DashTile
@@ -86,15 +87,15 @@ OK
 POST /api/v1/DashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 7,
-  "DashboardId": 112,
-  "Height": 334,
-  "Width": 524,
-  "Rank": 740,
+  "DashboardTileId": 75,
+  "DashboardId": 234,
+  "Height": 104,
+  "Width": 292,
+  "Rank": 398,
   "DashTileDefinition": null
 }
 ```
@@ -106,18 +107,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 335,
-  "DashboardId": 315,
-  "Height": 799,
-  "Width": 551,
-  "Rank": 126,
+  "DashboardTileId": 57,
+  "DashboardId": 254,
+  "Height": 842,
+  "Width": 621,
+  "Rank": 567,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   },
   "_Links": {

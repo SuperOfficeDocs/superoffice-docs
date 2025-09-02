@@ -2,6 +2,7 @@
 title: GET List/SaleType/Items/{id}/UserGroups
 uid: v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Stanton-Gorczany",
-    "ToolTip": "Adipisci non magni id.",
-    "Deleted": true,
-    "Rank": 746,
-    "Type": "non",
-    "ColorBlock": 628,
-    "IconHint": "iure",
+    "Id": 295,
+    "Name": "Flatley, Schneider and Brakus",
+    "ToolTip": "Et consequatur voluptas illo laboriosam architecto molestias sit.",
+    "Deleted": false,
+    "Rank": 116,
+    "Type": "numquam",
+    "ColorBlock": 480,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2000-11-08T03:45:29.2171623+01:00",
+    "LastChanged": "2009-05-29T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Kling-Beatty",
-        "ToolTip": "Atque itaque aut quod quis libero quidem.",
+        "Id": 146,
+        "Name": "Balistreri-Keebler",
+        "ToolTip": "Laboriosam dolorum nesciunt in odio.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "et",
-        "ColorBlock": 823,
-        "IconHint": "aut",
+        "Rank": 709,
+        "Type": "quae",
+        "ColorBlock": 200,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2021-12-25T03:45:29.2171623+01:00",
+        "LastChanged": "2018-08-23T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "dolor",
+        "ExtraInfo": "animi",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mr. Tyler Steuber",
+        "FullName": "Perry Louvenia Frami Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldType": "System.String",
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Delores Magnus Grimes PhD",
+    "FullName": "Mckenna Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

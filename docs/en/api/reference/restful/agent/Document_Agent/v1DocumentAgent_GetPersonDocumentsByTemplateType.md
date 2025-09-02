@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPersonDocumentsByTemplateType
 uid: v1DocumentAgent_GetPersonDocumentsByTemplateType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateType
@@ -103,12 +104,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 382,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2015-01-16T03:45:23.2798335+01:00",
-  "EndTime": "2010-07-06T03:45:23.2798335+02:00",
-  "Count": 180,
-  "DocumentTemplateId": 292
+  "PersonId": 61,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2024-01-08T03:46:54.6288867+01:00",
+  "EndTime": "2002-07-24T03:46:54.6288867+02:00",
+  "Count": 51,
+  "DocumentTemplateId": 617
 }
 ```
 
@@ -120,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 343,
-    "Attention": "alias",
-    "Header": "aliquid",
-    "Name": "Ondricka, Pfannerstill and Weissnat",
-    "OurRef": "rerum",
-    "YourRef": "consequuntur",
-    "Description": "Future-proofed holistic application",
-    "DocumentTemplate": "ad",
+    "DocumentId": 120,
+    "Attention": "aliquam",
+    "Header": "voluptatibus",
+    "Name": "Grimes Group",
+    "OurRef": "assumenda",
+    "YourRef": "molestiae",
+    "Description": "Compatible optimizing synergy",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 518,
-    "PersonFullName": "Dr. Margarete Lonie Kautzer",
-    "AssociateFullName": "Mrs. Adolf O'Hara DVM",
-    "ContactId": 385,
-    "ContactName": "Satterfield Inc and Sons",
-    "ProjectId": 243,
-    "ProjectName": "Pfeffer, Thompson and Nikolaus",
-    "AssociateId": 434,
-    "Snum": 340,
-    "SaleId": 452,
-    "SaleName": "Jewess-Hyatt",
+    "PersonId": 774,
+    "PersonFullName": "Mrs. Bobby Langworth",
+    "AssociateFullName": "Miss Grayce Jaleel Aufderhar DDS",
+    "ContactId": 239,
+    "ContactName": "Jast, Schoen and Ernser",
+    "ProjectId": 253,
+    "ProjectName": "Pollich, Kshlerin and Murray",
+    "AssociateId": 867,
+    "Snum": 953,
+    "SaleId": 50,
+    "SaleName": "Shanahan Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplate
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplate
@@ -119,14 +120,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 50,
-  "PersonId": 235,
-  "AppointmentId": 430,
-  "DocumentId": 972,
-  "SaleId": 782,
-  "SelectionId": 808,
-  "ProjectId": 164,
-  "UiCulture": "assumenda"
+  "ContactId": 664,
+  "PersonId": 518,
+  "AppointmentId": 76,
+  "DocumentId": 344,
+  "SaleId": 46,
+  "SelectionId": 561,
+  "ProjectId": 820,
+  "UiCulture": "voluptatem"
 }
 ```
 
@@ -137,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 172,
+  "DocumentId": 791,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "quasi",
-  "Name": "Osinski-Macejkovic",
-  "OurRef": "veniam",
-  "YourRef": "culpa",
-  "CreatedDate": "2015-09-27T03:45:23.3423327+02:00",
-  "UpdatedDate": "2004-02-23T03:45:23.3423327+01:00",
-  "Description": "Managed human-resource application",
+  "Attention": "doloremque",
+  "Header": "quo",
+  "Name": "Renner Group",
+  "OurRef": "cupiditate",
+  "YourRef": "et",
+  "CreatedDate": "2016-09-04T03:46:54.67576+02:00",
+  "UpdatedDate": "2001-01-29T03:46:54.67576+01:00",
+  "Description": "Customer-focused holistic encoding",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-05-13T03:45:23.3423327+02:00",
-  "ExternalRef": "nemo",
+  "Date": "2025-05-25T03:46:54.6913844+02:00",
+  "ExternalRef": "libero",
   "Completed": "Completed",
-  "ActiveLinks": 26,
+  "ActiveLinks": 705,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Boyer-Barrows",
-      "Id": 744,
-      "Description": "Automated context-sensitive Graphic Interface",
-      "ExtraInfo": "tempora",
-      "LinkId": 836,
+      "EntityName": "Maggio, Ward and Cruickshank",
+      "Id": 256,
+      "Description": "Enhanced executive monitoring",
+      "ExtraInfo": "harum",
+      "LinkId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 158
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 22,
-  "Snum": 373,
+  "SuggestedDocumentId": 103,
+  "Snum": 905,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "236367177"
+    "SuperOffice:2": "Ms. Ed Aryanna Thompson"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
     "CustomFields1": "eum",
-    "CustomFields2": "saepe"
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2018-05-15T03:45:23.3423327+02:00",
-  "PublishTo": "2023-10-07T03:45:23.3423327+02:00",
-  "PublishFrom": "2002-01-14T03:45:23.3423327+01:00",
+  "PublishEventDate": "2011-06-12T03:46:54.6913844+02:00",
+  "PublishTo": "2004-04-18T03:46:54.6913844+02:00",
+  "PublishFrom": "2004-06-22T03:46:54.6913844+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 348,
+      "VisibleId": 233,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 295
         }
       }
     },
     {
-      "VisibleId": 348,
+      "VisibleId": 233,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 295
         }
       }
     }
@@ -228,7 +229,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 924
     }
   }
 }

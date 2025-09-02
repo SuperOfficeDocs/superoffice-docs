@@ -1,6 +1,8 @@
 ---
+uid: tag-Contact_Agent
 title: Contact_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,17 +12,15 @@ generated: true
 
 
 
+* [POST Agents/Contact/GetContact](v1ContactAgent_GetContact.md)
+
+* [POST Agents/Contact/GetMyActiveContacts](v1ContactAgent_GetMyActiveContacts.md)
+
 * [POST Agents/Contact/CreateDefaultContactEntity](v1ContactAgent_CreateDefaultContactEntity.md)
 
 * [POST Agents/Contact/SaveContactEntity](v1ContactAgent_SaveContactEntity.md)
 
 * [POST Agents/Contact/DeleteContactEntity](v1ContactAgent_DeleteContactEntity.md)
-
-* [POST Agents/Contact/CreateDefaultPreviewContact](v1ContactAgent_CreateDefaultPreviewContact.md)
-
-* [POST Agents/Contact/GetContact](v1ContactAgent_GetContact.md)
-
-* [POST Agents/Contact/GetMyActiveContacts](v1ContactAgent_GetMyActiveContacts.md)
 
 * [POST Agents/Contact/GetContactEntity](v1ContactAgent_GetContactEntity.md)
 
@@ -77,6 +77,8 @@ generated: true
 * [POST Agents/Contact/GetMyContacts](v1ContactAgent_GetMyContacts.md)
 
 * [POST Agents/Contact/GetMyRecentContacts](v1ContactAgent_GetMyRecentContacts.md)
+
+* [POST Agents/Contact/CreateDefaultPreviewContact](v1ContactAgent_CreateDefaultPreviewContact.md)
 
 * [POST Agents/Contact/GetPreviewContact](v1ContactAgent_GetPreviewContact.md)
 

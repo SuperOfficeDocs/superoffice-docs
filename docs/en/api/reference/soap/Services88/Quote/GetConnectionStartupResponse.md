@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetConnectionStartupResponse SOAP
 generated: true
 uid: Services88-Quote-GetConnectionStartupResponse
+content_type: reference
 ---
 
 # Services88 Quote GetConnectionStartupResponse

@@ -2,6 +2,7 @@
 title: GET List/TicketPriority/Items/Default
 uid: v1TicketPriorityList_CreateDefaultTicketPriorityEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketPriority/Items/Default
@@ -82,7 +83,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 91,
-  "Name": "Schaefer, Prohaska and Abbott",
+  "TicketPriorityId": 136,
+  "Name": "Rice, Roob and White",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 912,
+  "SortOrder": 757,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 463,
-  "MonStart": "2025-01-17T03:45:29.2484114+01:00",
-  "MonStop": "1999-03-03T03:45:29.2484114+01:00",
-  "TueStart": "2010-09-09T03:45:29.2484114+02:00",
-  "TueStop": "2022-11-13T03:45:29.2484114+01:00",
-  "WedStart": "2009-07-08T03:45:29.2484114+02:00",
-  "WedStop": "2022-10-09T03:45:29.2484114+02:00",
-  "ThuStart": "2004-03-08T03:45:29.2484114+01:00",
-  "ThuStop": "2018-03-29T03:45:29.2484114+02:00",
-  "FriStart": "2023-11-27T03:45:29.2484114+01:00",
-  "FriStop": "2023-04-05T03:45:29.2484114+02:00",
-  "SatStart": "2019-11-03T03:45:29.2484114+01:00",
-  "SatStop": "2007-05-17T03:45:29.2484114+02:00",
-  "SunStart": "2020-04-09T03:45:29.2484114+02:00",
-  "SunStop": "2009-07-13T03:45:29.2484114+02:00",
+  "Deadline": 974,
+  "MonStart": "2025-04-05T03:47:00.9099142+02:00",
+  "MonStop": "2001-11-13T03:47:00.9099142+01:00",
+  "TueStart": "2023-04-03T03:47:00.9099142+02:00",
+  "TueStop": "2005-09-30T03:47:00.9099142+02:00",
+  "WedStart": "2007-06-01T03:47:00.9099142+02:00",
+  "WedStop": "2006-07-29T03:47:00.9099142+02:00",
+  "ThuStart": "2017-10-19T03:47:00.9099142+02:00",
+  "ThuStop": "2001-06-22T03:47:00.9099142+02:00",
+  "FriStart": "2000-11-05T03:47:00.9099142+01:00",
+  "FriStop": "2011-03-03T03:47:00.9099142+01:00",
+  "SatStart": "2006-12-15T03:47:00.9099142+01:00",
+  "SatStop": "2017-01-24T03:47:00.9099142+01:00",
+  "SunStart": "2017-01-10T03:47:00.9099142+01:00",
+  "SunStop": "2007-02-01T03:47:00.9099142+01:00",
   "NonDates": [
-    "pariatur",
-    "consequatur"
+    "ducimus",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 827,
-      "AlertLevel": 925,
-      "AlertTimeout": 847,
-      "Action": 936,
-      "DelegateTo": 325,
-      "ScriptId": 336,
-      "EmailTo": "jamey.bednar@murphy.biz",
-      "SmsTo": "vel",
-      "ReplyTemplateIdCustomer": 505,
-      "ReplyTemplateIdUser": 194,
-      "ReplyTemplateIdCatmast": 545,
-      "ReplyTemplateIdEmail": 281,
-      "RtiCustomerSms": 879,
-      "ReplyTemplateIdUserSms": 567,
-      "ReplyTemplateIdCatmastSms": 168,
-      "ReplyTemplateIdSms": 469,
+      "TicketAlertId": 344,
+      "AlertLevel": 162,
+      "AlertTimeout": 611,
+      "Action": 652,
+      "DelegateTo": 583,
+      "ScriptId": 14,
+      "EmailTo": "derick@cummingskoepp.us",
+      "SmsTo": "qui",
+      "ReplyTemplateIdCustomer": 433,
+      "ReplyTemplateIdUser": 484,
+      "ReplyTemplateIdCatmast": 534,
+      "ReplyTemplateIdEmail": 410,
+      "RtiCustomerSms": 57,
+      "ReplyTemplateIdUserSms": 424,
+      "ReplyTemplateIdCatmastSms": 722,
+      "ReplyTemplateIdSms": 768,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 559
         }
       }
     }
@@ -155,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 565
     }
   }
 }

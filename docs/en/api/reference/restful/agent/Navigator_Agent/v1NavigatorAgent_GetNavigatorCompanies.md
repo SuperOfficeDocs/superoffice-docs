@@ -2,6 +2,7 @@
 title: POST Agents/Navigator/GetNavigatorCompanies
 uid: v1NavigatorAgent_GetNavigatorCompanies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanies
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beier, Grimes and Waters"
+  "Name": "Durgan LLC"
 }
 ```
 
@@ -91,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Value": "placeat",
-    "Tooltip": "aliquid",
+    "Id": 204,
+    "Value": "numquam",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   },
   {
-    "Id": 758,
-    "Value": "placeat",
-    "Tooltip": "aliquid",
+    "Id": 204,
+    "Value": "numquam",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/Country
 uid: v1CountryList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Country
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Little, Gibson and Lebsack",
-  "Tooltip": "tempore",
+  "Id": 767,
+  "Name": "Rowe, Turcotte and Bode",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 599,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "Rank": 297,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Jones LLC",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 253,
+  "Id": 622,
+  "Name": "Quigley, Breitenberg and O'Connell",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "Rank": 44,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 844
     }
   }
 }

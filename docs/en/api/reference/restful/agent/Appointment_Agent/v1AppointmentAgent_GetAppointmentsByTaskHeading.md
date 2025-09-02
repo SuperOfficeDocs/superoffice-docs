@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetAppointmentsByTaskHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentsByTaskHeading
@@ -114,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 233
+  "TaskHeadingId": 521
 }
 ```
 
@@ -144,66 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 16,
-    "StartDate": "2018-04-13T03:45:22.7017267+02:00",
-    "EndDate": "2008-10-25T03:45:22.7017267+02:00",
+    "AppointmentId": 233,
+    "StartDate": "2019-05-15T03:46:54.0039095+02:00",
+    "EndDate": "2024-06-13T03:46:54.0039095+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Ms. Delpha Denesik",
-    "ContactName": "Schmeler, Franecki and Fritsch",
-    "Description": "Versatile upward-trending groupware",
-    "PersonFullName": "Emilio Mireya Wyman DVM",
-    "PersonId": 839,
-    "ContactId": 558,
-    "ProjectId": 311,
-    "ProjectName": "Green Group",
-    "IsPublished": false,
-    "AssociateId": 632,
-    "ColorIndex": 809,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "consequatur",
+    "AssociateFullName": "Ora Considine",
+    "ContactName": "Ruecker Group",
+    "Description": "Programmable interactive algorithm",
+    "PersonFullName": "Colt Rath",
+    "PersonId": 318,
+    "ContactId": 815,
+    "ProjectId": 811,
+    "ProjectName": "Bergnaum-Borer",
+    "IsPublished": true,
+    "AssociateId": 629,
+    "ColorIndex": 1002,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 659,
-    "PriorityName": "Cruickshank, Lakin and Denesik",
+    "PriorityId": 938,
+    "PriorityName": "Jenkins-Stehr",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-07-16T03:45:22.7017267+02:00",
+    "ActiveDate": "2022-02-12T03:46:54.0039095+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-11-03T03:45:22.7017267+01:00",
-    "RecurringEndDate": "2014-11-20T03:45:22.7017267+01:00",
-    "MotherId": 881,
-    "AssignedBy": 479,
-    "AssignedByFullName": "Ms. Lazaro Hammes DVM",
-    "RejectReason": "syndicate efficient platforms",
-    "Location": "et",
-    "AlarmLeadTime": "vero",
-    "SaleId": 202,
-    "SaleName": "Blanda, Hirthe and Conn",
-    "AssociateName": "Rutherford-Lynch",
-    "CreatedDate": "2017-08-03T03:45:22.7017267+02:00",
-    "CreatedBy": "consectetur",
-    "CreatedByFullName": "Sylvester Corkery",
-    "CreatedByAssociateId": 212,
+    "RecurringStartDate": "1998-12-06T03:46:54.0039095+01:00",
+    "RecurringEndDate": "2003-05-27T03:46:54.0039095+02:00",
+    "MotherId": 797,
+    "AssignedBy": 294,
+    "AssignedByFullName": "Ottis Leuschke",
+    "RejectReason": "",
+    "Location": "perferendis",
+    "AlarmLeadTime": "voluptatum",
+    "SaleId": 971,
+    "SaleName": "Wilderman LLC",
+    "AssociateName": "VonRueden, Williamson and McGlynn",
+    "CreatedDate": "2010-04-05T03:46:54.0039095+02:00",
+    "CreatedBy": "doloremque",
+    "CreatedByFullName": "Miss Tracey Lind",
+    "CreatedByAssociateId": 515,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 404,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 786,
-    "Title": "quaerat",
-    "Agenda": "repellat",
-    "InternalNotes": "unde",
+    "PreferredTZLocation": 295,
+    "Title": "veritatis",
+    "Agenda": "fugiat",
+    "InternalNotes": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

@@ -3,9 +3,9 @@ uid: customobjectrelation
 title: customobjectrelation
 keywords: mdoprovider mdo provider customobjectrelation
 description: MDO list provider for custom object relations Custom object's name is passed as additionalInfo parameter
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "customobjectrelation" MDO List

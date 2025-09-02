@@ -2,6 +2,7 @@
 title: GET Ticket/{id}/Attachments
 uid: v1TicketEntity_GetTicketAttachments
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/{id}/Attachments
@@ -66,7 +67,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 683,
-    "Name": "Metz, Abbott and Treutel",
-    "ContentType": "omnis",
-    "AttSize": 51,
-    "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "saepe",
+    "AttachmentId": 342,
+    "Name": "Walter Group",
+    "ContentType": "tenetur",
+    "AttSize": 448,
+    "InlineImage": true,
+    "ContentId": "magni",
+    "AuthKey": "ipsa",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 268
       }
     }
   }

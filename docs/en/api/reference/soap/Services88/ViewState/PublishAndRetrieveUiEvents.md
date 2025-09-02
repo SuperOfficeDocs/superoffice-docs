@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.PublishAndRetrieveUiEvents SOAP
 generated: true
 uid: Services88-ViewState-PublishAndRetrieveUiEvents
+content_type: reference
 ---
 
 # Services88 ViewState PublishAndRetrieveUiEvents
@@ -48,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
       <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
       <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-      <ViewState:EventDateTime xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</ViewState:EventDateTime>
+      <ViewState:EventDateTime xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</ViewState:EventDateTime>
      </ViewState:UiEvent>
     </ViewState:PublishEvents>
     <ViewState:Metrics xsi:type="ViewState:ArrayOfMetricPair">
@@ -87,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
      <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
      <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-     <ViewState:EventDateTime xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</ViewState:EventDateTime>
+     <ViewState:EventDateTime xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</ViewState:EventDateTime>
     </ViewState:UiEvent>
    </ViewState:Response>
   </ViewState:PublishAndRetrieveUiEventsResponse>

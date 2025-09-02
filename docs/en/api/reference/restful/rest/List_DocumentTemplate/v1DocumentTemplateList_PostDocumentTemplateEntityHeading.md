@@ -2,6 +2,7 @@
 title: POST List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_PostDocumentTemplateEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/DocumentTemplate/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 810,
-  "Name": "Wuckert-Thiel",
-  "Tooltip": "similique",
+  "HeadingId": 511,
+  "Name": "Pollich-Schmeler",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 970,
-  "UdListDefinitionId": 802
+  "Rank": 14,
+  "UdListDefinitionId": 533
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 17,
-  "Name": "Wilderman, White and Labadie",
-  "Tooltip": "fugit",
+  "HeadingId": 108,
+  "Name": "Leuschke LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 664,
-  "UdListDefinitionId": 770,
+  "Rank": 845,
+  "UdListDefinitionId": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 872
     }
   }
 }

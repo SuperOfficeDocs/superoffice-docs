@@ -2,6 +2,7 @@
 title: POST List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_PostQuoteDenyReasonHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/QuoteDenyReason/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 336,
-  "Name": "Lueilwitz-Daugherty",
-  "Tooltip": "sequi",
+  "HeadingId": 246,
+  "Name": "Dooley LLC",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 597,
-  "UdListDefinitionId": 35
+  "Rank": 768,
+  "UdListDefinitionId": 573
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Veum-Willms",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 305,
-  "UdListDefinitionId": 153,
+  "HeadingId": 186,
+  "Name": "McLaughlin Group",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 696,
+  "UdListDefinitionId": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldLength": 234
     }
   }
 }

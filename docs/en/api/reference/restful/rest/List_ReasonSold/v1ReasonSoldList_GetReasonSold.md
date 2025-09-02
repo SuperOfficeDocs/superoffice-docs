@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Items/{id}
 uid: v1ReasonSoldList_GetReasonSold
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Items/{id}
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Walsh Inc and Sons",
-  "Tooltip": "tempora",
+  "Id": 650,
+  "Name": "Simonis-Kunze",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 184,
-  "Rank": 421,
+  "UdListDefinitionId": 129,
+  "Rank": 639,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

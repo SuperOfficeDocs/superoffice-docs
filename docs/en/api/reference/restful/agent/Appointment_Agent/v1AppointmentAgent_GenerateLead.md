@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GenerateLead
 uid: v1AppointmentAgent_GenerateLead
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GenerateLead
@@ -88,22 +89,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 870,
-  "LeadDescription": "Extended mobile orchestration",
-  "Relation": "iste",
-  "RelationId": 329,
-  "LeadContact": "debitis",
-  "LeadPersonFirstname": "Bailey",
-  "LeadPersonLastname": "Ebert",
-  "LeadPersonEmail": "shaylee_price@stiedemann.uk",
-  "LeadPhoneNumber": "895659",
-  "CreatorsContact": "alias",
-  "CreatorsFirstname": "Mose",
-  "CreatorsLastname": "Harris"
+  "AssociateIdForNewContact": 524,
+  "LeadDescription": "Team-oriented demand-driven policy",
+  "Relation": "sit",
+  "RelationId": 61,
+  "LeadContact": "et",
+  "LeadPersonFirstname": "Reese",
+  "LeadPersonLastname": "Schmitt",
+  "LeadPersonEmail": "jayden.rowe@emmerich.uk",
+  "LeadPhoneNumber": "568461",
+  "CreatorsContact": "non",
+  "CreatorsFirstname": "Ahmed",
+  "CreatorsLastname": "Kautzer"
 }
 ```
 
@@ -116,36 +117,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 531,
-      "Name": "Emmerich-Simonis",
-      "OrgNr": "576756",
+      "ContactId": 366,
+      "Name": "Herzog Inc and Sons",
+      "OrgNr": "1169258",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "fugiat",
-      "DirectPhone": "1-628-556-7694 x22740",
-      "AssociateId": 35,
-      "CountryId": 695,
-      "EmailAddress": "wanda@thompson.us",
-      "Kananame": "et",
-      "EmailAddressName": "vergie@cummerata.name",
+      "City": "ullam",
+      "DirectPhone": "(079)275-9150 x12904",
+      "AssociateId": 317,
+      "CountryId": 890,
+      "EmailAddress": "salvatore.mante@kuhic.co.uk",
+      "Kananame": "dicta",
+      "EmailAddressName": "wilford_ward@kulas.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Miss Florine Brown Bednar",
+      "AssociateFullName": "Daniela Becker",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "corrupti",
-      "FullName": "Earl Block",
+      "FormattedAddress": "reiciendis",
+      "FullName": "Euna Conroy",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 787,
-      "Number1": "1106251",
-      "Number2": "297149",
+      "ActiveErpLinks": 854,
+      "Number1": "814642",
+      "Number2": "1241474",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 291
         }
       }
     }
@@ -156,8 +157,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

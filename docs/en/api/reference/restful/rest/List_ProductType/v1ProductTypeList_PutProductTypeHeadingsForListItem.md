@@ -2,6 +2,7 @@
 title: PUT List/ProductType/Items/{id}/Headings
 uid: v1ProductTypeList_PutProductTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType/Items/{id}/Headings
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Kshlerin-Dare",
-    "ToolTip": "Maiores est distinctio quia vero id omnis.",
+    "Id": 966,
+    "Name": "Hessel-Feeney",
+    "ToolTip": "Nihil qui repellat consequatur quis.",
     "Deleted": true,
-    "Rank": 63,
-    "Type": "beatae",
-    "ColorBlock": 53,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "2001-04-07T03:45:29.1703077+02:00",
+    "Rank": 838,
+    "Type": "nulla",
+    "ColorBlock": 636,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2014-05-07T03:47:00.7380451+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Okuneva-Jaskolski",
-        "ToolTip": "Pariatur quia.",
-        "Deleted": true,
-        "Rank": 403,
-        "Type": "necessitatibus",
-        "ColorBlock": 753,
-        "IconHint": "id",
+        "Id": 78,
+        "Name": "Douglas Inc and Sons",
+        "ToolTip": "Vitae et asperiores.",
+        "Deleted": false,
+        "Rank": 291,
+        "Type": "animi",
+        "ColorBlock": 123,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2010-12-09T03:45:29.1703077+01:00",
+        "LastChanged": "2005-07-22T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolor",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Syble Altenwerth"
+        "FullName": "Mrs. Karli Hilll"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "eos",
+    "ExtraInfo": "non",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Chadd Cremin"
+    "FullName": "Vicenta Langosh"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Tillman-Osinski",
-    "ToolTip": "Quia iusto.",
-    "Deleted": true,
-    "Rank": 488,
-    "Type": "et",
-    "ColorBlock": 717,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2009-04-26T03:45:29.1703077+02:00",
+    "Id": 753,
+    "Name": "Cronin Inc and Sons",
+    "ToolTip": "Voluptatem qui molestiae quod sed sit dolores.",
+    "Deleted": false,
+    "Rank": 714,
+    "Type": "modi",
+    "ColorBlock": 129,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "2007-11-30T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Smith-Rolfson",
-        "ToolTip": "Quis sit accusamus dolor omnis occaecati.",
+        "Id": 962,
+        "Name": "Deckow, D'Amore and Jacobson",
+        "ToolTip": "Quisquam libero aut est incidunt ut.",
         "Deleted": false,
-        "Rank": 613,
-        "Type": "quo",
-        "ColorBlock": 166,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2012-12-22T03:45:29.1703077+01:00",
+        "Rank": 82,
+        "Type": "pariatur",
+        "ColorBlock": 463,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2015-06-24T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Justyn Celia Rodriguez V",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Juanita Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 951
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Prof. Emilie Jaylin Beatty",
+    "ExtraInfo": "et",
+    "StyleHint": "reiciendis",
+    "Hidden": false,
+    "FullName": "Virginie Marvin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 131
+        "FieldLength": 210
       }
     }
   }

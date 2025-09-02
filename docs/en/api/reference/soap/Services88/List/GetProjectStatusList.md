@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetProjectStatusList SOAP
 generated: true
 uid: Services88-List-GetProjectStatusList
+content_type: reference
 ---
 
 # Services88 List GetProjectStatusList

@@ -2,6 +2,7 @@
 title: PUT List/QuoteDenyReason/Items/{id}/UserGroups
 uid: v1QuoteDenyReasonList_PutQuoteDenyReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteDenyReason/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Prohaska LLC",
-    "ToolTip": "Et quos.",
-    "Deleted": true,
-    "Rank": 931,
-    "Type": "illo",
-    "ColorBlock": 17,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2013-10-14T03:45:29.1859346+02:00",
+    "Id": 167,
+    "Name": "Schmitt-Beahan",
+    "ToolTip": "Minima quos et sit.",
+    "Deleted": false,
+    "Rank": 179,
+    "Type": "nemo",
+    "ColorBlock": 131,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2013-09-22T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Bogisich LLC",
-        "ToolTip": "Hic dolore molestias consequatur qui.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "consequuntur",
-        "ColorBlock": 324,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2016-01-14T03:45:29.1859346+01:00",
+        "Id": 723,
+        "Name": "Witting, Thiel and Hermann",
+        "ToolTip": "Magnam explicabo deserunt quis sit iste tenetur suscipit.",
+        "Deleted": true,
+        "Rank": 554,
+        "Type": "beatae",
+        "ColorBlock": 511,
+        "IconHint": "expedita",
+        "Selected": false,
+        "LastChanged": "2010-04-01T03:47:00.7692942+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Katrina McLaughlin"
+        "ExtraInfo": "illum",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Ike Ankunding"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Astrid Miller"
+    "ExtraInfo": "harum",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Toy Robel"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Bayer, Thompson and Howell",
-    "ToolTip": "Quo occaecati.",
+    "Id": 137,
+    "Name": "Stanton LLC",
+    "ToolTip": "Adipisci temporibus quia.",
     "Deleted": false,
-    "Rank": 968,
-    "Type": "doloribus",
-    "ColorBlock": 14,
-    "IconHint": "aliquam",
+    "Rank": 175,
+    "Type": "quia",
+    "ColorBlock": 509,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "1998-05-24T03:45:29.1859346+02:00",
+    "LastChanged": "2005-06-03T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Turner Group",
-        "ToolTip": "Similique ducimus esse dolor facilis ratione.",
-        "Deleted": false,
-        "Rank": 389,
-        "Type": "illo",
-        "ColorBlock": 627,
-        "IconHint": "ab",
+        "Id": 69,
+        "Name": "Jenkins, Bailey and Graham",
+        "ToolTip": "Accusamus aut expedita harum ab.",
+        "Deleted": true,
+        "Rank": 770,
+        "Type": "aliquid",
+        "ColorBlock": 543,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2011-08-20T03:45:29.1859346+02:00",
+        "LastChanged": "1998-06-07T03:47:00.7692942+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
+        "ExtraInfo": "facilis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Immanuel Cole King Jr.",
+        "FullName": "Karina Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldType": "System.String",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "minima",
-    "Hidden": false,
-    "FullName": "Mr. Torrey Hamill",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Velda Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 612
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/SaveForeignKey
 uid: v1ForeignSystemAgent_SaveForeignKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/SaveForeignKey
@@ -83,14 +84,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "O'Hara, Roob and Rogahn",
-  "DeviceName": "Smith, Hagenes and Morissette",
-  "DeviceIdentifier": "quas"
+  "ApplicationName": "Wiegand-Kris",
+  "DeviceName": "Fisher-Gutmann",
+  "DeviceIdentifier": "laboriosam"
 }
 ```
 
@@ -101,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "soluta",
-  "Value": "et",
-  "RecordId": 483,
-  "CreatedDate": "2002-01-15T03:45:23.4829546+01:00",
-  "UpdatedDate": "2021-05-31T03:45:23.4829546+02:00",
-  "UpdatedBy": "itaque",
-  "CreatedBy": "distinctio",
-  "TableName": "Kulas, Kilback and Bins",
+  "Key": "repellat",
+  "Value": "at",
+  "RecordId": 906,
+  "CreatedDate": "2025-08-16T03:46:54.9107593+02:00",
+  "UpdatedDate": "2022-07-21T03:46:54.9107593+02:00",
+  "UpdatedBy": "hic",
+  "CreatedBy": "rerum",
+  "TableName": "Langosh-Bode",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 64
     }
   }
 }

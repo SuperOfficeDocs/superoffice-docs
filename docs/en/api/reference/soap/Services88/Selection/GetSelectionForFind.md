@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetSelectionForFind SOAP
 generated: true
 uid: Services88-Selection-GetSelectionForFind
+content_type: reference
 ---
 
 # Services88 Selection GetSelectionForFind

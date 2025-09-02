@@ -3,9 +3,9 @@ uid: Numbers
 title: Numbers
 description: Archive provider for the list of numbers, for the number allocation system. Not be confused with table sequence numbers.
 keywords: Numbers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Numbers"
@@ -77,7 +77,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=field,updated_associate/title
+GET /api/v1/archive/Numbers?$select=readonly,field,updated_associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

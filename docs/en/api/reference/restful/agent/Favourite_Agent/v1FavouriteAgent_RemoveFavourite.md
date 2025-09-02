@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/RemoveFavourite
 uid: v1FavouriteAgent_RemoveFavourite
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/RemoveFavourite
@@ -70,9 +71,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ebert Group",
-  "RecordId": 817,
-  "AssociateId": 778
+  "TableName": "Predovic-Pfeffer",
+  "RecordId": 378,
+  "AssociateId": 936
 }
 ```
 

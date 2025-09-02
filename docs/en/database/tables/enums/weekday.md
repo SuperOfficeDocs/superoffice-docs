@@ -2,10 +2,10 @@
 uid: enum-weekday
 title: Enum values for Weekday
 description: Lists the enum values for Weekday.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Weekday Enum

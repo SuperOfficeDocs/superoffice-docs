@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllTasks SOAP
 generated: true
 uid: Services88-List-GetAllTasks
+content_type: reference
 ---
 
 # Services88 List GetAllTasks

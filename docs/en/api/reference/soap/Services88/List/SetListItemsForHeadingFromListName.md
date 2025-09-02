@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetListItemsForHeadingFromListName SOAP
 generated: true
 uid: Services88-List-SetListItemsForHeadingFromListName
+content_type: reference
 ---
 
 # Services88 List SetListItemsForHeadingFromListName

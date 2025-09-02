@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetSummarizeContactPrompt
 uid: v1AIAgent_GetSummarizeContactPrompt
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetSummarizeContactPrompt
@@ -81,14 +82,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeContactPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 633,
-  "NumSentences": 24,
-  "Summary": "iure",
-  "IsoLangCode": "enim"
+  "ContactId": 777,
+  "NumSentences": 442,
+  "Summary": "molestiae",
+  "IsoLangCode": "ipsam"
 }
 ```
 
@@ -99,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2023-03-30T03:45:22.6704778+02:00",
-  "UserPrompt": "voluptate",
-  "UserDisplayText": "tempora",
-  "BotResponse": "saepe",
+  "Timestamp": "2018-06-02T03:46:53.9726601+02:00",
+  "UserPrompt": "voluptas",
+  "UserDisplayText": "aut",
+  "BotResponse": "velit",
   "BotActions": {
-    "BotActions1": "natus",
-    "BotActions2": "aut"
+    "BotActions1": "libero",
+    "BotActions2": "officiis"
   },
   "Attachments": [
-    "harum",
-    "animi"
+    "repudiandae",
+    "non"
   ]
 }
 ```

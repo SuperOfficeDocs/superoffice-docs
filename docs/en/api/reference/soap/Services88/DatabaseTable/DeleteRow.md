@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.DeleteRow SOAP
 generated: true
 uid: Services88-DatabaseTable-DeleteRow
+content_type: reference
 ---
 
 # Services88 DatabaseTable DeleteRow

@@ -2,6 +2,7 @@
 title: POST License
 uid: v1License_AddLicenseFromFile
 generated: true
+content_type: reference
 ---
 
 # POST License
@@ -63,7 +64,7 @@ OK
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,21 +75,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 224,
-      "NumberOfLicensesFree": 329,
-      "NumberOfLicensesAdded": 36,
-      "NumberOfLicensesNewTotal": 605,
-      "NumberOfLicensesNewFree": 643,
-      "NumberOfLicensesTotal": 122
+      "NumberOfLicensesInUse": 612,
+      "NumberOfLicensesFree": 407,
+      "NumberOfLicensesAdded": 105,
+      "NumberOfLicensesNewTotal": 958,
+      "NumberOfLicensesNewFree": 141,
+      "NumberOfLicensesTotal": 592
     }
   ],
-  "AccumulatedNextCheckDate": "2013-12-09T03:45:28.8109239+01:00"
+  "AccumulatedNextCheckDate": "2005-03-26T03:47:00.4099317+01:00"
 }
 ```

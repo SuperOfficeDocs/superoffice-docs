@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason
 uid: v1QuoteApproveReasonList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Jewess, Ebert and Harris",
-  "Tooltip": "natus",
+  "Id": 284,
+  "Name": "Kuphal-Stanton",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 66,
-  "IsCustomList": true,
+  "Rank": 941,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": true
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Friesen-Harber",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 213,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 301,
+  "Name": "Russel-Haag",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 478,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "mollitia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 601
     }
   }
 }

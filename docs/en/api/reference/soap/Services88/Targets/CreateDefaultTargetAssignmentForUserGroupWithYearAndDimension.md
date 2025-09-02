@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension SOAP
 generated: true
 uid: Services88-Targets-CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+content_type: reference
 ---
 
 # Services88 Targets CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
@@ -84,6 +85,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Targets:Deleted xsi:type="xsd:boolean">false</Targets:Deleted>
       <Targets:EjUserId xsi:type="xsd:int">0</Targets:EjUserId>
       <Targets:UserName xsi:type="xsd:string"></Targets:UserName>
+      <Targets:ExtraFields xsi:type="Targets:StringDictionary">
+       <Targets:StringKeyValuePair>
+        <Targets:Key xsi:type="xsd:string"></Targets:Key>
+        <Targets:Value xsi:type="xsd:string"></Targets:Value>
+       </Targets:StringKeyValuePair>
+      </Targets:ExtraFields>
+      <Targets:CustomFields xsi:type="Targets:StringDictionary">
+       <Targets:StringKeyValuePair>
+        <Targets:Key xsi:type="xsd:string"></Targets:Key>
+        <Targets:Value xsi:type="xsd:string"></Targets:Value>
+       </Targets:StringKeyValuePair>
+      </Targets:CustomFields>
      </Targets:TargetAssociate>
      <Targets:TargetContact xsi:type="Targets:Contact">
       <Targets:ContactId xsi:type="xsd:int">0</Targets:ContactId>

@@ -2,6 +2,7 @@
 title: Services88.AIAgent.AnswerFeedback SOAP
 generated: true
 uid: Services88-AI-AnswerFeedback
+content_type: reference
 ---
 
 # Services88 AI AnswerFeedback

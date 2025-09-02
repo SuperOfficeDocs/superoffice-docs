@@ -2,6 +2,7 @@
 title: PUT List/SaleType
 uid: v1SaleTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/SaleType
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Beatty-Botsford",
-  "Tooltip": "fuga",
+  "Id": 743,
+  "Name": "Barrows, Kutch and Keebler",
+  "Tooltip": "veritatis",
   "Deleted": true,
-  "Rank": 939,
+  "Rank": 220,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Collins-Littel",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 294,
+  "Id": 558,
+  "Name": "Hane-Schmitt",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 839,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

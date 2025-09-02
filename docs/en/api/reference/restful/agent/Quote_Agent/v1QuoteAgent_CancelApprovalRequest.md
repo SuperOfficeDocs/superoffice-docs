@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CancelApprovalRequest
 uid: v1QuoteAgent_CancelApprovalRequest
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CancelApprovalRequest
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 261
+  "QuoteVersionId": 148
 }
 ```
 
@@ -94,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "molestias",
-  "TechExplanation": "voluptatem",
-  "ErrorCode": "ut",
+  "UserExplanation": "id",
+  "TechExplanation": "unde",
+  "ErrorCode": "reiciendis",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

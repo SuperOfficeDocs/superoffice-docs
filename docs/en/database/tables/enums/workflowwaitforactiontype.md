@@ -2,10 +2,10 @@
 uid: enum-workflowwaitforactiontype
 title: Enum values for WorkflowWaitForActionType
 description: Lists the enum values for WorkflowWaitForActionType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WorkflowWaitForActionType Enum

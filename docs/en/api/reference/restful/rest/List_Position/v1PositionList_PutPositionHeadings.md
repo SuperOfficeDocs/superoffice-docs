@@ -2,6 +2,7 @@
 title: PUT List/Position/Headings
 uid: v1PositionList_PutPositionHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 593,
-    "Name": "Swaniawski, Howe and Kuvalis",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 864,
-    "UdListDefinitionId": 892
+    "HeadingId": 798,
+    "Name": "Hegmann-McGlynn",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 946,
+    "UdListDefinitionId": 820
   },
   {
-    "HeadingId": 593,
-    "Name": "Swaniawski, Howe and Kuvalis",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 864,
-    "UdListDefinitionId": 892
+    "HeadingId": 798,
+    "Name": "Hegmann-McGlynn",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 946,
+    "UdListDefinitionId": 820
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 606,
-    "Name": "Wintheiser, Veum and Bosco",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 616,
-    "UdListDefinitionId": 677,
+    "HeadingId": 833,
+    "Name": "Graham, Pouros and Stoltenberg",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 23,
+    "UdListDefinitionId": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

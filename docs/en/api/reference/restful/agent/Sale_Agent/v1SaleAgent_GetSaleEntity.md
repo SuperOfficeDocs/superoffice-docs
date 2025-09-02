@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleEntity
 uid: v1SaleAgent_GetSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleEntity
@@ -22,11 +23,11 @@ Gets a SaleEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleEntityId | int32 | **Required** The primary key. |
+| saleEntityId | int32 | **Required** The identifier of the SaleEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=225
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=753
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +127,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "blanditiis",
+  "SaleText": "maxime",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +136,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-01-19T03:45:23.8735682+01:00",
-  "Amount": 5647.468,
-  "SaleId": 888,
-  "Earning": 5663.138,
-  "EarningPercent": 16002.204,
-  "Heading": "pariatur",
-  "Number": "1559146",
-  "Probability": 774,
-  "CreatedDate": "2020-12-01T03:45:23.8735682+01:00",
-  "UpdatedDate": "2019-09-03T03:45:23.8735682+02:00",
+  "Saledate": "1999-01-28T03:46:55.2694888+01:00",
+  "Amount": 18782.061999999998,
+  "SaleId": 125,
+  "Earning": 14582.502,
+  "EarningPercent": 4641.454,
+  "Heading": "consequatur",
+  "Number": "647732",
+  "Probability": 976,
+  "CreatedDate": "2001-01-02T03:46:55.2694888+01:00",
+  "UpdatedDate": "1999-06-09T03:46:55.2694888+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 551,
+  "ActiveLinks": 52,
   "Links": [
     {
-      "EntityName": "Botsford-Bogan",
-      "Id": 351,
-      "Description": "Realigned bottom-line system engine",
-      "ExtraInfo": "totam",
-      "LinkId": 683,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2003-06-07T03:45:23.8735682+02:00",
-  "Postit": "aperiam",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2001-10-17T03:45:23.8735682+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Murazik-O'Hara",
-      "Comment": "vero",
-      "StakeholderRoleId": 457,
-      "CountryId": 11,
-      "PersonId": 636,
-      "EmailDescription": "ubaldo@walkerboehm.uk",
-      "EmailId": 286,
-      "EmailAddress": "yvonne@pollich.info",
-      "PhoneId": 193,
-      "ContactName": "Hoppe Inc and Sons",
-      "ContactId": 31,
-      "SaleId": 630,
-      "Mrmrs": "harum",
-      "Firstname": "Harmony",
-      "MiddleName": "Beatty Inc and Sons",
-      "Lastname": "Gibson",
-      "SaleStakeholderId": 252,
-      "Rank": 586,
-      "Phone": "(395)356-8438 x11963",
+      "EntityName": "Crooks Group",
+      "Id": 677,
+      "Description": "Polarised actuating data-warehouse",
+      "ExtraInfo": "enim",
+      "LinkId": 591,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldLength": 909
         }
       }
     }
   ],
-  "ActiveErpLinks": 182,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Anderson Kulas",
-    "SuperOffice:2": "Estefania O'Kon"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "facilis"
-  },
-  "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "maiores"
-  },
-  "PublishEventDate": "2016-08-03T03:45:23.8735682+02:00",
-  "PublishTo": "2004-08-23T03:45:23.8735682+02:00",
-  "PublishFrom": "2018-05-18T03:45:23.8735682+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2018-11-29T03:46:55.2694888+01:00",
+  "Postit": "modi",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2011-08-15T03:46:55.2694888+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 147,
-      "Visibility": "All",
-      "DisplayValue": "dolore",
+      "StakeholderRoleName": "Schinner-Rau",
+      "Comment": "aut",
+      "StakeholderRoleId": 273,
+      "CountryId": 607,
+      "PersonId": 549,
+      "EmailDescription": "sydnie@konopelski.uk",
+      "EmailId": 733,
+      "EmailAddress": "maria@hauck.uk",
+      "PhoneId": 15,
+      "ContactName": "Fahey, Turner and Veum",
+      "ContactId": 157,
+      "SaleId": 217,
+      "Mrmrs": "qui",
+      "Firstname": "Rosario",
+      "MiddleName": "Gislason, Wehner and Goldner",
+      "Lastname": "McKenzie",
+      "SaleStakeholderId": 251,
+      "Rank": 414,
+      "Phone": "146.573.2757",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 317
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 147,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Lexi Rempel IV",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "consectetur"
+  },
+  "CustomFields": {
+    "CustomFields1": "accusantium",
+    "CustomFields2": "cumque"
+  },
+  "PublishEventDate": "2015-01-24T03:46:55.2694888+01:00",
+  "PublishTo": "2017-05-30T03:46:55.2694888+02:00",
+  "PublishFrom": "2001-08-02T03:46:55.2694888+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 658,
+      "Visibility": "All",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 403
         }
       }
     },
     {
-      "VisibleId": 147,
+      "VisibleId": 658,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 403
         }
       }
     }
@@ -250,8 +251,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

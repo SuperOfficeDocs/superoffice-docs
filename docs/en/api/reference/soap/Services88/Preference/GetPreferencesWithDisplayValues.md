@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.GetPreferencesWithDisplayValues SOAP
 generated: true
 uid: Services88-Preference-GetPreferencesWithDisplayValues
+content_type: reference
 ---
 
 # Services88 Preference GetPreferencesWithDisplayValues

@@ -2,6 +2,7 @@
 title: DEL List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_DeleteAllQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # DEL List/QuoteDenyReason/Items
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

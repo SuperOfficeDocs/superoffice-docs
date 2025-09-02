@@ -2,6 +2,7 @@
 title: POST Agents/Document/CheckinDocument
 uid: v1DocumentAgent_CheckinDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CheckinDocument
@@ -79,19 +80,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 929,
+  "DocumentId": 310,
   "AllowedReturnTypes": [
-    "consectetur",
-    "enim"
+    "veniam",
+    "molestiae"
   ],
-  "VersionDescription": "Function-based disintermediate artificial intelligence",
+  "VersionDescription": "Virtual mission-critical function",
   "VersionExtraFields": [
-    "est",
-    "qui"
+    "ipsam",
+    "deserunt"
   ]
 }
 ```
@@ -103,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "autem",
-  "VersionId": "quo",
-  "Success": false,
+  "ExternalReference": "inventore",
+  "VersionId": "laboriosam",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "quod",
-  "AdditionalInfo": "molestiae"
+  "Value": "ipsa",
+  "AdditionalInfo": "consequuntur"
 }
 ```

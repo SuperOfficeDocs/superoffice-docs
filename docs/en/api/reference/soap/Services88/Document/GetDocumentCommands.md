@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentCommands SOAP
 generated: true
 uid: Services88-Document-GetDocumentCommands
+content_type: reference
 ---
 
 # Services88 Document GetDocumentCommands

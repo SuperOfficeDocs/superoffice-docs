@@ -2,10 +2,10 @@
 uid: table-relationdefinition
 title: relationdefinition table
 description: Definition of a relation. This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = &quot;Owns&quot; and passive text = &quot;Is owned by&quot;.
-so.generated: true
+generated: true
 keywords: database table relationdefinition
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # relationdefinition Table (48)

@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetKey
 uid: v1ForeignSystemAgent_GetKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetKey
@@ -86,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hagenes Group",
-  "DeviceName": "Wyman-Mitchell",
-  "KeyName": "Yost LLC",
-  "TableName": "Cormier, Ortiz and Blick",
-  "RecordId": 290
+  "ApplicationName": "Heller Group",
+  "DeviceName": "Koch, Rutherford and Walter",
+  "KeyName": "Auer, Gaylord and Klein",
+  "TableName": "Stracke Group",
+  "RecordId": 847
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magni",
+  "Key": "ratione",
   "Value": "et",
-  "RecordId": 56,
-  "CreatedDate": "2021-09-18T03:45:23.4829546+02:00",
-  "UpdatedDate": "2020-07-16T03:45:23.4829546+02:00",
-  "UpdatedBy": "ipsa",
-  "CreatedBy": "quisquam",
-  "TableName": "Wiegand Group",
+  "RecordId": 626,
+  "CreatedDate": "2001-02-11T03:46:54.9107593+01:00",
+  "UpdatedDate": "2023-07-01T03:46:54.9107593+02:00",
+  "UpdatedBy": "voluptates",
+  "CreatedBy": "nesciunt",
+  "TableName": "Mann, Rice and Rutherford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldLength": 150
     }
   }
 }

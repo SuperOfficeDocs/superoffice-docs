@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ReasonStalled
 title: List_ReasonStalled
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: PATCH TicketType/{id}
 uid: v1TicketTypeEntity_PatchTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH TicketType/{id}
@@ -132,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "tempore",
+    "path": "cumque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempore",
+    "path": "cumque",
     "value": {}
   }
 ]
@@ -150,40 +151,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 816,
-  "Name": "Doyle-Stiedemann",
-  "Rank": 881,
-  "Tooltip": "neque",
-  "Icon": "dolore",
-  "DefaultTicketStatus": 449,
+  "TicketTypeId": 501,
+  "Name": "Legros, Sauer and Fay",
+  "Rank": 148,
+  "Tooltip": "aut",
+  "Icon": "occaecati",
+  "DefaultTicketStatus": 666,
   "TicketStatuses": [
-    127,
-    370
+    931,
+    832
   ],
-  "DefaultTicketPriority": 862,
+  "DefaultTicketPriority": 574,
   "TicketPriorities": [
-    234,
-    762
+    542,
+    66
   ],
-  "ReplyTemplate": 387,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 488,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    311,
-    984
+    526,
+    551
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   },
   "_Links": {

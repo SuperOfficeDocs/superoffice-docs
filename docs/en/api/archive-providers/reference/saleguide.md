@@ -3,9 +3,9 @@ uid: SaleGuide
 title: SaleGuide
 description: Provider for the Sale Guide, common to both Appointment and Document guide items and instances
 keywords: SaleGuide archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleGuide"
@@ -1454,7 +1454,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/person/birthMonth,appointmentInstance/person/email/emailDescription,appointmentInstance/person/personAddress/line2,appointmentInstance/person/personAddress/state,appointmentInstance/person/personUdef/SuperOffice:2
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/contact/contactDeleted,appointmentInstance/contact/restrictionAddress/city,appointmentInstance/contact/contactUdef/SuperOffice:7,appointmentInstance/person/correspondingAssociate/ejStatus,appointmentInstance/sale/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

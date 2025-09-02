@@ -2,6 +2,7 @@
 title: POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 uid: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -89,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ruecker Inc and Sons",
-  "EmailAddress": "elody.hilll@simonisschulist.info",
-  "NumberOfContacts": 877,
-  "NumberOfPersons": 474
+  "Name": "Ferry, Legros and Haley",
+  "EmailAddress": "isabell@littlevon.us",
+  "NumberOfContacts": 681,
+  "NumberOfPersons": 258
 }
 ```
 
@@ -104,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 597,
-    "FullName": "Katrine Schneider",
-    "EmailAddress": "viola_robel@lindwaelchi.name",
-    "ContactId": 523,
-    "ContactName": "Gulgowski-Medhurst",
-    "ContactDepartment": "",
+    "PersonId": 873,
+    "FullName": "Dillon Schuster",
+    "EmailAddress": "gloria.mills@ferry.us",
+    "ContactId": 63,
+    "ContactName": "Smith-Nicolas",
+    "ContactDepartment": "iterate B2B synergies",
     "ContactCategory": "VIP Customer",
-    "SortName": "Abernathy Group",
+    "SortName": "Kris, Runolfsdottir and Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

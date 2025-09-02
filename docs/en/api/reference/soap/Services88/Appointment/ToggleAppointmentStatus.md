@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.ToggleAppointmentStatus SOAP
 generated: true
 uid: Services88-Appointment-ToggleAppointmentStatus
+content_type: reference
 ---
 
 # Services88 Appointment ToggleAppointmentStatus

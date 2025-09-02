@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.GetCurrent SOAP
 generated: true
 uid: Services88-ViewState-GetCurrent
+content_type: reference
 ---
 
 # Services88 ViewState GetCurrent

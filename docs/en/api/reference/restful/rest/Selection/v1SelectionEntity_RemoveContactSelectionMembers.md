@@ -2,6 +2,7 @@
 title: POST Selection/{id}/Members/RemovePerson
 uid: v1SelectionEntity_RemoveContactSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Selection/{id}/Members/RemovePerson
@@ -59,17 +60,17 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/RemovePerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 977,
-    "ContactId": 408
+    "PersonId": 679,
+    "ContactId": 314
   },
   {
-    "PersonId": 977,
-    "ContactId": 408
+    "PersonId": 679,
+    "ContactId": 314
   }
 ]
 ```

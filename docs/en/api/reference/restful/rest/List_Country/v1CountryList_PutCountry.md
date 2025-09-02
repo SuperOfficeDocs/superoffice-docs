@@ -2,6 +2,7 @@
 title: PUT List/Country/Items/{id}
 uid: v1CountryList_PutCountry
 generated: true
+content_type: reference
 ---
 
 # PUT List/Country/Items/{id}
@@ -104,28 +105,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 559,
-  "Name": "Huels Inc and Sons",
-  "CurrencyId": 623,
-  "EnglishName": "Braun LLC",
+  "CountryId": 833,
+  "Name": "Gleason, Nikolaus and Grady",
+  "CurrencyId": 429,
+  "EnglishName": "Wolff, Senger and Ritchie",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Managed multi-state customer loyalty",
-  "OrgNrText": "841305",
-  "InterAreaPrefix": "veniam",
-  "DialInPrefix": "consectetur",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Lowe, Wolff and Klocko",
-  "AddressLayoutId": 50,
-  "DomesticAddressLayoutId": 148,
-  "ForeignAddressLayoutId": 584,
-  "Rank": 160,
-  "Tooltip": "similique",
-  "Deleted": false
+  "ImageDescription": "Synergized next generation monitoring",
+  "OrgNrText": "1521601",
+  "InterAreaPrefix": "dolorem",
+  "DialInPrefix": "velit",
+  "ZipPrefix": "facilis",
+  "DomainName": "Schiller LLC",
+  "AddressLayoutId": 683,
+  "DomesticAddressLayoutId": 424,
+  "ForeignAddressLayoutId": 949,
+  "Rank": 303,
+  "Tooltip": "repudiandae",
+  "Deleted": true
 }
 ```
 
@@ -136,30 +137,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 111,
-  "Name": "Tromp-White",
-  "CurrencyId": 74,
-  "EnglishName": "Torphy, McKenzie and O'Kon",
+  "CountryId": 1002,
+  "Name": "Gerhold-Schneider",
+  "CurrencyId": 231,
+  "EnglishName": "Pouros, Paucek and Friesen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Sharable value-added open architecture",
-  "OrgNrText": "984807",
-  "InterAreaPrefix": "perspiciatis",
-  "DialInPrefix": "et",
-  "ZipPrefix": "nisi",
-  "DomainName": "Hills, Parisian and Green",
-  "AddressLayoutId": 169,
-  "DomesticAddressLayoutId": 163,
-  "ForeignAddressLayoutId": 543,
-  "Rank": 385,
-  "Tooltip": "qui",
+  "ImageDescription": "Multi-channelled bi-directional leverage",
+  "OrgNrText": "508371",
+  "InterAreaPrefix": "quae",
+  "DialInPrefix": "facilis",
+  "ZipPrefix": "vel",
+  "DomainName": "Brown, Robel and VonRueden",
+  "AddressLayoutId": 724,
+  "DomesticAddressLayoutId": 879,
+  "ForeignAddressLayoutId": 225,
+  "Rank": 703,
+  "Tooltip": "voluptatum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   }
 }

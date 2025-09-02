@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CreateEmailFlowContent SOAP
 generated: true
 uid: Services88-Workflow-CreateEmailFlowContent
+content_type: reference
 ---
 
 # Services88 Workflow CreateEmailFlowContent

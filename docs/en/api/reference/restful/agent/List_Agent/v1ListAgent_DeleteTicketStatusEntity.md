@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteTicketStatusEntity
 uid: v1ListAgent_DeleteTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteTicketStatusEntity
@@ -22,10 +23,10 @@ Deletes the TicketStatusEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TicketStatusEntityId | int32 | **Required** The id of the TicketStatusEntity to be deleted. |
+| ticketStatusEntityId | int32 | **Required** The identity of the TicketStatusEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketStatusEntity?TicketStatusEntityId=373
+POST /api/v1/Agents/List/DeleteTicketStatusEntity?ticketStatusEntityId=58
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

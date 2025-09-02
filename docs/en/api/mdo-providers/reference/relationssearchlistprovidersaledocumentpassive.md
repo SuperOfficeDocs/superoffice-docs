@@ -3,9 +3,9 @@ uid: relationssearchlistprovidersaledocumentpassive
 title: relationssearchlistprovidersaledocumentpassive
 keywords: mdoprovider mdo provider relationssearchlistprovidersaledocumentpassive
 description: Serve the active and passive texts of relations, with a given table as source (active) or destination (passive).
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "relationssearchlistprovidersaledocumentpassive" MDO List

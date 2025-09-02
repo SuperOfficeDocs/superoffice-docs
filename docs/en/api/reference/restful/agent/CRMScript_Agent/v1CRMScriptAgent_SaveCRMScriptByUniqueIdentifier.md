@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 uid: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
@@ -76,6 +77,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -85,11 +87,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem",
+  "UniqueIdentifier": "possimus",
   "Crmscript": null
 }
 ```
@@ -101,22 +103,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eum",
-  "Name": "Bogan-O'Connell",
-  "Description": "Customizable homogeneous challenge",
-  "IncludeId": "maxime",
-  "Source": "ipsam",
-  "Registered": "2010-08-05T03:45:23.2329582+02:00",
-  "RegisteredBy": "veritatis",
-  "Updated": "2023-03-09T03:45:23.2329582+01:00",
-  "UpdatedBy": "odio",
-  "Path": "dolorum",
+  "UniqueIdentifier": "est",
+  "Name": "Stanton, Runolfsdottir and Kuhn",
+  "Description": "Total bifurcated forecast",
+  "IncludeId": "excepturi",
+  "Source": "voluptatem",
+  "Registered": "1998-06-07T03:46:54.5663888+02:00",
+  "RegisteredBy": "voluptatem",
+  "Updated": "2005-04-05T03:46:54.5663888+02:00",
+  "UpdatedBy": "unde",
+  "Path": "vitae",
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 980
     }
   }
 }

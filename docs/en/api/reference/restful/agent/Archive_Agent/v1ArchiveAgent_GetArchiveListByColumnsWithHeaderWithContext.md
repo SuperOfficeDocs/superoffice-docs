@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
@@ -107,52 +108,52 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Buckridge Inc and Sons",
+  "ProviderName": "Bradtke-Torphy",
   "Columns": [
-    "ut",
-    "tenetur"
+    "et",
+    "ipsa"
   ],
   "SortOrder": [
     {
-      "Name": "Bayer-Nitzsche",
+      "Name": "Collier Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Bayer-Nitzsche",
+      "Name": "Collier Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Auer Group",
-      "Operator": "velit",
+      "Name": "Flatley Group",
+      "Operator": "numquam",
       "Values": [
-        "earum",
-        "nesciunt"
+        "voluptatibus",
+        "sed"
       ],
       "DisplayValues": [
-        "distinctio",
-        "nulla"
+        "esse",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 607,
+      "InterParenthesis": 167,
       "InterOperator": "And",
-      "UniqueHash": 503
+      "UniqueHash": 398
     }
   ],
   "Entities": [
-    "accusamus",
-    "qui"
+    "quas",
+    "voluptatibus"
   ],
-  "Page": 868,
-  "PageSize": 868,
-  "Options": "sapiente",
-  "Context": "neque"
+  "Page": 250,
+  "PageSize": 417,
+  "Options": "qui",
+  "Context": "aspernatur"
 }
 ```
 
@@ -163,26 +164,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 172,
+  "RowCount": 752,
   "Rows": [
     {
-      "EntityName": "Bergstrom-Williamson",
-      "PrimaryKey": 940,
+      "EntityName": "Mante-Fahey",
+      "PrimaryKey": 714,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "beatae",
-          "LinkHint": "inventore"
+          "DisplayValue": "qui",
+          "TooltipHint": "aliquam",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "at",
-      "StyleHint": "sit",
+      "LinkHint": "earum",
+      "StyleHint": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 909
         }
       }
     }
@@ -191,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

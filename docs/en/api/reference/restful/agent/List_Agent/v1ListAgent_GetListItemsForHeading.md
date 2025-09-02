@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListItemsForHeading
 uid: v1ListAgent_GetListItemsForHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListItemsForHeading
@@ -92,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 352,
-  "HeadingId": 442
+  "UdListDefinitionId": 82,
+  "HeadingId": 866
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Windler, Franecki and Schimmel",
-    "ToolTip": "Quis hic commodi rem doloribus.",
+    "Id": 656,
+    "Name": "Bailey, Goyette and Christiansen",
+    "ToolTip": "Natus sequi reiciendis a veniam ut qui nihil.",
     "Deleted": false,
-    "Rank": 769,
-    "Type": "sed",
-    "ColorBlock": 355,
-    "IconHint": "in",
+    "Rank": 972,
+    "Type": "quis",
+    "ColorBlock": 549,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2019-03-23T03:45:23.5927257+01:00",
+    "LastChanged": "2025-05-07T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Toy, Tromp and Becker",
-        "ToolTip": "Libero eos fuga consectetur et provident velit similique.",
+        "Id": 504,
+        "Name": "Bosco-Runolfsdottir",
+        "ToolTip": "Voluptas quis expedita fugit harum ea ut.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "esse",
-        "ColorBlock": 573,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2018-06-25T03:45:23.5927257+02:00",
+        "Rank": 833,
+        "Type": "sunt",
+        "ColorBlock": 240,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2010-12-28T03:46:54.9569999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Mrs. Audrey Morissette MD",
+        "ExtraInfo": "facere",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Dr. Keyshawn Dino Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
+    "ExtraInfo": "culpa",
     "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Mr. Freda Cora Breitenberg DDS",
+    "Hidden": false,
+    "FullName": "Miss Lexi Marilyne Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

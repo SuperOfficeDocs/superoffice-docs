@@ -2,10 +2,10 @@
 uid: table-Prob
 title: Prob table
 description: Prob list table. Probability, used in  sales .
-so.generated: true
+generated: true
 keywords: database table Prob
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Prob Table (82)

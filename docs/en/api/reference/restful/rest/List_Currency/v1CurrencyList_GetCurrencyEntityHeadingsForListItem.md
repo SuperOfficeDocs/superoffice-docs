@@ -2,6 +2,7 @@
 title: GET List/Currency/Items/{id}/Headings
 uid: v1CurrencyList_GetCurrencyEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Cassin, Little and Kub",
-    "ToolTip": "Praesentium aut.",
-    "Deleted": true,
-    "Rank": 735,
-    "Type": "dolor",
-    "ColorBlock": 567,
-    "IconHint": "aut",
+    "Id": 124,
+    "Name": "Rippin Group",
+    "ToolTip": "Excepturi eaque in.",
+    "Deleted": false,
+    "Rank": 583,
+    "Type": "impedit",
+    "ColorBlock": 709,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2008-01-15T03:45:29.014043+01:00",
+    "LastChanged": "1999-09-21T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Steuber Group",
-        "ToolTip": "Recusandae aliquam minima.",
-        "Deleted": false,
-        "Rank": 199,
-        "Type": "ipsa",
-        "ColorBlock": 116,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2024-12-31T03:45:29.014043+01:00",
+        "Id": 346,
+        "Name": "Kunde Inc and Sons",
+        "ToolTip": "Nesciunt sed.",
+        "Deleted": true,
+        "Rank": 607,
+        "Type": "ipsam",
+        "ColorBlock": 984,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2009-12-03T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "enim",
+        "ExtraInfo": "in",
+        "StyleHint": "molestias",
         "Hidden": true,
-        "FullName": "Ms. Alicia Elfrieda Shields",
+        "FullName": "Alisha Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 532
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "sint",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Natalie Bashirian",
+    "FullName": "Ms. Eddie Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 763
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.CanDeleteErpSyncConnectorEntity SOAP
 generated: true
 uid: Services88-ErpSync-CanDeleteErpSyncConnectorEntity
+content_type: reference
 ---
 
 # Services88 ErpSync CanDeleteErpSyncConnectorEntity

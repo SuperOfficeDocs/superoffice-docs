@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType/Items/{id}/UserGroups
 uid: v1DeliveryTypeList_PutDeliveryTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Johnston Group",
-    "ToolTip": "Quaerat quos laborum et facilis nostrum eligendi nemo.",
-    "Deleted": true,
-    "Rank": 658,
-    "Type": "quasi",
-    "ColorBlock": 712,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2019-05-03T03:45:29.0296674+02:00",
+    "Id": 22,
+    "Name": "Parisian, Reinger and Kunde",
+    "ToolTip": "Voluptas expedita dolores eos.",
+    "Deleted": false,
+    "Rank": 946,
+    "Type": "natus",
+    "ColorBlock": 693,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2006-01-17T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Weimann-O'Connell",
-        "ToolTip": "Fuga esse nisi quis architecto.",
-        "Deleted": false,
-        "Rank": 902,
-        "Type": "consequatur",
-        "ColorBlock": 508,
-        "IconHint": "ea",
+        "Id": 323,
+        "Name": "Schuppe Group",
+        "ToolTip": "Aut exercitationem sapiente ut aut qui nulla distinctio.",
+        "Deleted": true,
+        "Rank": 764,
+        "Type": "nisi",
+        "ColorBlock": 232,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "2020-07-23T03:45:29.0296674+02:00",
+        "LastChanged": "2014-11-08T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Jessica O'Connell"
+        "ExtraInfo": "fuga",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Electa Gusikowski"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Andreane Bins"
+    "ExtraInfo": "in",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Joel Herzog"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Monahan-Jones",
-    "ToolTip": "Eaque nostrum accusantium ipsa.",
-    "Deleted": true,
-    "Rank": 579,
-    "Type": "rem",
-    "ColorBlock": 750,
-    "IconHint": "dignissimos",
+    "Id": 918,
+    "Name": "Goyette LLC",
+    "ToolTip": "Ut tempore.",
+    "Deleted": false,
+    "Rank": 979,
+    "Type": "et",
+    "ColorBlock": 665,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2005-12-17T03:45:29.0296674+01:00",
+    "LastChanged": "2017-09-03T03:47:00.6442984+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "McClure-Hudson",
-        "ToolTip": "Et blanditiis dolorem delectus ab voluptas et quisquam.",
-        "Deleted": true,
-        "Rank": 526,
-        "Type": "pariatur",
-        "ColorBlock": 634,
-        "IconHint": "aliquam",
+        "Id": 693,
+        "Name": "Nienow-DuBuque",
+        "ToolTip": "Iste est odit et sed.",
+        "Deleted": false,
+        "Rank": 528,
+        "Type": "eligendi",
+        "ColorBlock": 520,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2017-12-23T03:45:29.0296674+01:00",
+        "LastChanged": "2005-03-02T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "culpa",
-        "Hidden": false,
-        "FullName": "Blaise Smitham",
+        "ExtraInfo": "eum",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Gunner Schneider V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 963
+            "FieldType": "System.Int32",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Isobel Steuber",
+    "ExtraInfo": "ad",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Melisa Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

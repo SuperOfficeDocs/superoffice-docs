@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetMyOwner
 uid: v1PersonAgent_GetMyOwner
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetMyOwner
@@ -105,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,53 +116,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ut",
-  "PersonId": 916,
-  "Mrmrs": "dolore",
-  "Firstname": "Noemie",
-  "Lastname": "O'Keefe",
-  "MiddleName": "Hudson-Schmeler",
+  "Position": "non",
+  "PersonId": 830,
+  "Mrmrs": "commodi",
+  "Firstname": "Harley",
+  "Lastname": "Murphy",
+  "MiddleName": "Green LLC",
   "Title": "nesciunt",
-  "Description": "User-friendly responsive groupware",
-  "Email": "vito.lockman@glovergreen.co.uk",
-  "FullName": "Mr. Rhianna Kathleen Gaylord Jr.",
-  "DirectPhone": "(815)386-6119 x863",
-  "FormalName": "Zieme, Torp and Little",
-  "CountryId": 66,
-  "ContactId": 695,
-  "ContactName": "Gorczany-Kulas",
-  "Retired": 676,
-  "Rank": 177,
-  "ActiveInterests": 601,
+  "Description": "Grass-roots holistic ability",
+  "Email": "bria_reinger@rogahn.us",
+  "FullName": "Calista Gleason",
+  "DirectPhone": "181.544.1423 x66162",
+  "FormalName": "Rau LLC",
+  "CountryId": 707,
+  "ContactId": 303,
+  "ContactName": "Medhurst-Zieme",
+  "Retired": 84,
+  "Rank": 614,
+  "ActiveInterests": 818,
   "ContactDepartment": "",
-  "ContactCountryId": 973,
-  "ContactOrgNr": "761392",
-  "FaxPhone": "275.249.4204",
-  "MobilePhone": "(036)703-2411 x58339",
-  "ContactPhone": "517-789-2567 x9185",
-  "AssociateName": "Kuhic-Olson",
-  "AssociateId": 41,
+  "ContactCountryId": 987,
+  "ContactOrgNr": "820954",
+  "FaxPhone": "912-723-6311 x58228",
+  "MobilePhone": "074.872.8243 x163",
+  "ContactPhone": "1-662-685-0667 x6224",
+  "AssociateName": "Cormier LLC",
+  "AssociateId": 76,
   "UsePersonAddress": false,
-  "ContactFax": "dolore",
-  "Kanafname": "aut",
-  "Kanalname": "qui",
-  "Post1": "totam",
-  "Post2": "aut",
-  "Post3": "et",
-  "EmailName": "quinton.bosco@heaneyschaden.uk",
-  "ContactFullName": "Ms. Evangeline Howell V",
-  "ActiveErpLinks": 325,
-  "TicketPriorityId": 324,
-  "SupportLanguageId": 734,
-  "SupportAssociateId": 633,
+  "ContactFax": "beatae",
+  "Kanafname": "corrupti",
+  "Kanalname": "impedit",
+  "Post1": "praesentium",
+  "Post2": "dolores",
+  "Post3": "veniam",
+  "EmailName": "lora@douglasohara.biz",
+  "ContactFullName": "King Oberbrunner",
+  "ActiveErpLinks": 444,
+  "TicketPriorityId": 339,
+  "SupportLanguageId": 970,
+  "SupportAssociateId": 662,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "757081",
+  "PersonNumber": "1481613",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

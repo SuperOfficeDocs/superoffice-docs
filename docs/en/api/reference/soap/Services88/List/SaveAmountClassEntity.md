@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveAmountClassEntity SOAP
 generated: true
 uid: Services88-List-SaveAmountClassEntity
+content_type: reference
 ---
 
 # Services88 List SaveAmountClassEntity

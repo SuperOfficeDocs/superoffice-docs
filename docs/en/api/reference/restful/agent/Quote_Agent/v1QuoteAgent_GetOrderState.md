@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetOrderState
 uid: v1QuoteAgent_GetOrderState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetOrderState
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Quote/GetOrderState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 219
+  "QuoteVersionId": 47
 }
 ```
 
@@ -96,10 +97,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "aut",
-  "TechExplanation": "temporibus",
-  "ErrorCode": "facere",
+  "IsOk": true,
+  "UserExplanation": "vitae",
+  "TechExplanation": "doloribus",
+  "ErrorCode": "non",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -108,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldLength": 801
     }
   }
 }

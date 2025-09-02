@@ -2,6 +2,7 @@
 title: GET List/Business/Headings
 uid: v1BusinessList_GetBusinessHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 936,
-    "Name": "Fahey LLC",
-    "Tooltip": "saepe",
+    "HeadingId": 395,
+    "Name": "Stracke, Streich and Moore",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 50,
-    "UdListDefinitionId": 290,
+    "Rank": 508,
+    "UdListDefinitionId": 690,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 754
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateLanguages
 uid: v1ListAgent_GetDocumentTemplateLanguages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateLanguages
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 973
+  "DocumentTemplateId": 236
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "architecto",
-  "enim"
+  "tempore",
+  "aut"
 ]
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetHierarchyEntity
 uid: v1ListAgent_GetHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetHierarchyEntity
@@ -22,11 +23,11 @@ Gets a HierarchyEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| hierarchyEntityId | int32 | **Required** The primary key. |
+| hierarchyEntityId | int32 | **Required** The identifier of the HierarchyEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=796
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=149
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,46 +87,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 899,
+  "HierarchyId": 117,
   "Domain": "Dashboards",
-  "Name": "Bednar-Batz",
-  "Fullname": "dolorem",
-  "ParentId": 510,
+  "Name": "Kulas-Botsford",
+  "Fullname": "et",
+  "ParentId": 938,
   "Children": [
     {
-      "HierarchyId": 837,
+      "HierarchyId": 687,
       "Domain": "Dashboards",
-      "Name": "Schoen LLC",
-      "Fullname": "sint",
-      "ParentId": 955,
+      "Name": "Hand, Ward and Hagenes",
+      "Fullname": "sit",
+      "ParentId": 520,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-12-30T03:45:23.6079553+01:00",
-      "RegisteredAssociateId": 141,
-      "Updated": "2010-04-21T03:45:23.6079553+02:00",
-      "UpdatedAssociateId": 913,
+      "Registered": "2012-02-07T03:46:54.9726245+01:00",
+      "RegisteredAssociateId": 312,
+      "Updated": "2003-10-28T03:46:54.9726245+01:00",
+      "UpdatedAssociateId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 757
         }
       }
     }
   ],
-  "Registered": "2023-07-04T03:45:23.6079553+02:00",
-  "RegisteredAssociateId": 448,
-  "Updated": "2002-08-24T03:45:23.6079553+02:00",
-  "UpdatedAssociateId": 149,
+  "Registered": "2009-03-15T03:46:54.9726245+01:00",
+  "RegisteredAssociateId": 933,
+  "Updated": "2002-04-07T03:46:54.9726245+02:00",
+  "UpdatedAssociateId": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 475
     }
   }
 }

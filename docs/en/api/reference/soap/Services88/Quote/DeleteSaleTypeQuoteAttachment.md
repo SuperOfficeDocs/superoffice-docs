@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.DeleteSaleTypeQuoteAttachment SOAP
 generated: true
 uid: Services88-Quote-DeleteSaleTypeQuoteAttachment
+content_type: reference
 ---
 
 # Services88 Quote DeleteSaleTypeQuoteAttachment

@@ -2,6 +2,7 @@
 title: POST ChatSession/Pickup
 uid: v1ChatSessionEntity_PickUpFirstChatSession
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/Pickup
@@ -87,7 +88,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 235,
-  "TopicId": 792,
+  "ChatSessionId": 145,
+  "TopicId": 359,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "corporis",
-  "CustomerName": "Ward-Nienow",
-  "CustomerEmail": "kaia.hilll@huels.name",
-  "CustomerPhone": "895.217.3168",
+  "CustomerAlias": "dolore",
+  "CustomerHost": "hic",
+  "CustomerName": "Mante, Ebert and Haley",
+  "CustomerEmail": "franco.muller@boyer.biz",
+  "CustomerPhone": "(477)388-8459 x463",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rice-Gleichner",
+  "CustomerCompanyName": "Cormier Group",
   "Status": "Closed",
-  "FirstMessage": "architecto",
-  "LastMessage": "consequatur",
-  "WhenRequested": "2022-12-01T03:45:28.1390717+01:00",
-  "WhenStarted": "2016-02-04T03:45:28.1390717+01:00",
-  "WhenEnded": "2017-11-14T03:45:28.1390717+01:00",
-  "WhenIdle": "2002-02-07T03:45:28.1390717+01:00",
-  "WhenFetched": "2025-05-13T03:45:28.1390717+02:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 963,
-  "AlertLevel": 633,
-  "Rank": 533,
+  "FirstMessage": "et",
+  "LastMessage": "sit",
+  "WhenRequested": "2024-01-08T03:46:59.7849459+01:00",
+  "WhenStarted": "2015-03-27T03:46:59.7849459+01:00",
+  "WhenEnded": "2017-06-28T03:46:59.7849459+02:00",
+  "WhenIdle": "2004-08-24T03:46:59.7849459+02:00",
+  "WhenFetched": "2011-12-23T03:46:59.7849459+01:00",
+  "SessionKey": "incidunt",
+  "InitialQueuePos": 949,
+  "AlertLevel": 496,
+  "Rank": 204,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 589,
+  "ChatbotIsActive": true,
+  "Rating": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

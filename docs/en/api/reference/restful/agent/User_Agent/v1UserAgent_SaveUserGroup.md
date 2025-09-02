@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveUserGroup
 uid: v1UserAgent_SaveUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveUserGroup
@@ -97,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "fugiat",
-  "Tooltip": "voluptatem",
-  "Id": 818,
-  "Rank": 903,
+  "Value": "similique",
+  "Tooltip": "veritatis",
+  "Id": 526,
+  "Rank": 515,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

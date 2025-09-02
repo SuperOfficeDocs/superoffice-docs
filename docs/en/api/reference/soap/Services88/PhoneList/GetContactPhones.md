@@ -2,6 +2,7 @@
 title: Services88.PhoneListAgent.GetContactPhones SOAP
 generated: true
 uid: Services88-PhoneList-GetContactPhones
+content_type: reference
 ---
 
 # Services88 PhoneList GetContactPhones

@@ -2,10 +2,10 @@
 uid: table-SORFCT
 title: SORFCT table
 description: SuperOffice reporter data
-so.generated: true
+generated: true
 keywords: database table SORFCT
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SORFCT Table (178)

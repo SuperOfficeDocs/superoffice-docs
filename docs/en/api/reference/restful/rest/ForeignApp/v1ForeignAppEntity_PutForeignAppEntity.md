@@ -2,6 +2,7 @@
 title: PUT ForeignApp/{id}
 uid: v1ForeignAppEntity_PutForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # PUT ForeignApp/{id}
@@ -92,27 +93,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 554,
-  "Name": "Harber-Koch",
-  "CreatedDate": "2004-12-21T03:45:28.3578119+01:00",
-  "UpdatedDate": "2013-10-02T03:45:28.3578119+02:00",
+  "ForeignAppId": 333,
+  "Name": "Crist Group",
+  "CreatedDate": "2005-09-03T03:47:00.0193121+02:00",
+  "UpdatedDate": "2025-06-11T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 460,
-      "Name": "Lemke LLC",
-      "CreatedDate": "2001-11-22T03:45:28.3578119+01:00",
-      "UpdatedDate": "2012-09-19T03:45:28.3578119+02:00",
-      "AssociateFullName": "Alda Williamson",
-      "CreatedBy": "sint",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 997
+      "ForeignDeviceId": 79,
+      "Name": "Halvorson-Block",
+      "CreatedDate": "2005-04-26T03:47:00.0193121+02:00",
+      "UpdatedDate": "2025-04-26T03:47:00.0193121+02:00",
+      "AssociateFullName": "Jalen Colton Larkin Jr.",
+      "CreatedBy": "est",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 486
     }
   ]
 }
@@ -125,29 +126,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 982,
-  "Name": "Gulgowski-Conroy",
-  "CreatedDate": "2005-09-11T03:45:28.3578119+02:00",
-  "UpdatedDate": "2003-05-15T03:45:28.3578119+02:00",
+  "ForeignAppId": 314,
+  "Name": "Boyer-Konopelski",
+  "CreatedDate": "2011-09-24T03:47:00.0193121+02:00",
+  "UpdatedDate": "2007-12-05T03:47:00.0193121+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 738,
-      "Name": "Stanton-Crooks",
-      "CreatedDate": "2024-07-13T03:45:28.3578119+02:00",
-      "UpdatedDate": "2023-08-01T03:45:28.3578119+02:00",
-      "AssociateFullName": "Dr. Quinten Kreiger",
-      "CreatedBy": "consequuntur",
-      "UpdatedBy": "placeat",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 193,
+      "ForeignDeviceId": 463,
+      "Name": "Klein-Hansen",
+      "CreatedDate": "2006-04-11T03:47:00.0193121+02:00",
+      "UpdatedDate": "2008-10-12T03:47:00.0193121+02:00",
+      "AssociateFullName": "Marcelino Glover IV",
+      "CreatedBy": "laboriosam",
+      "UpdatedBy": "nihil",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 152,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 819
         }
       }
     }
@@ -157,12 +158,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 964
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

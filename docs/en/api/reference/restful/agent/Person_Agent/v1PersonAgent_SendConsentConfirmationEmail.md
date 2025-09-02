@@ -2,6 +2,7 @@
 title: POST Agents/Person/SendConsentConfirmationEmail
 uid: v1PersonAgent_SendConsentConfirmationEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SendConsentConfirmationEmail
@@ -68,15 +69,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 134,
-  "EmailAddress": "rupert_daugherty@blanda.us",
-  "EmailTemplateId": 66,
-  "CultureLcidId": 493,
-  "Subject": "sequi"
+  "PersonId": 911,
+  "EmailAddress": "dalton@lynch.biz",
+  "EmailTemplateId": 201,
+  "CultureLcidId": 745,
+  "Subject": "animi"
 }
 ```
 

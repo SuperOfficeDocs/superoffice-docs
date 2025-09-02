@@ -3,9 +3,9 @@ uid: ChatConversationStaticSelectionV2
 title: ChatConversationStaticSelectionV2
 description: 
 keywords: ChatConversationStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ChatConversationStaticSelectionV2"
@@ -490,7 +490,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=chatTopic/description,person/portraitThumbnail,person/personExtra/x_person_shorttext_list,person/personAssociate/locationAddress,person/legalBaseStore
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=getAllRows,person/phone/formattedNumber,person/personAddress/line1,contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

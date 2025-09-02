@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.CreateDefaultFormEntity SOAP
 generated: true
 uid: Services88-Marketing-CreateDefaultFormEntity
+content_type: reference
 ---
 
 # Services88 Marketing CreateDefaultFormEntity
@@ -71,16 +72,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ScriptId xsi:type="xsd:int">0</Marketing:ScriptId>
     <Marketing:ResponseShipmentId xsi:type="xsd:int">0</Marketing:ResponseShipmentId>
     <Marketing:Active xsi:type="xsd:boolean">false</Marketing:Active>
-    <Marketing:Expires xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Expires>
+    <Marketing:Expires xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Expires>
     <Marketing:MaxSubmits xsi:type="xsd:int">0</Marketing:MaxSubmits>
     <Marketing:Type xsi:type="Marketing:FormType">Normal</Marketing:Type>
     <Marketing:Recipe xsi:type="xsd:string"></Marketing:Recipe>
     <Marketing:GroupId xsi:type="xsd:int">0</Marketing:GroupId>
     <Marketing:NewTicket xsi:type="xsd:boolean">false</Marketing:NewTicket>
     <Marketing:RecaptchaMode xsi:type="Marketing:FormsRecaptchaMode">NotAvailable</Marketing:RecaptchaMode>
-    <Marketing:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     <Marketing:EmailFlows xsi:type="NetServerServices882:ArrayOfint">

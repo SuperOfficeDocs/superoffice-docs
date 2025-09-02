@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetDimension
 uid: v1TargetsAgent_CreateDefaultTargetDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetDimension
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 ```
 
-Set default values into a new TargetDimension.
+Loading default values into a new TargetDimension.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -65,7 +64,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 705,
+  "TargetDimensionId": 235,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "cupiditate",
-  "DimensionListName": "Conroy-Hegmann",
-  "DimensionListId": 257,
-  "DimensionListLabel": "aliquam",
+  "DimensionListField": "nobis",
+  "DimensionListName": "Simonis-Schaefer",
+  "DimensionListId": 411,
+  "DimensionListLabel": "ab",
   "SelectedDimensions": [
-    940,
-    769
+    253,
+    633
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldLength": 141
     }
   }
 }

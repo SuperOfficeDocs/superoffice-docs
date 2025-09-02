@@ -2,6 +2,7 @@
 title: PUT List/ConsentSource/Headings
 uid: v1ConsentSourceList_PutConsentSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentSource/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 363,
-    "Name": "Krajcik, Gerhold and Bayer",
-    "Tooltip": "aut",
+    "HeadingId": 10,
+    "Name": "Emmerich, Borer and Jast",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "Rank": 356,
-    "UdListDefinitionId": 359
+    "Rank": 748,
+    "UdListDefinitionId": 249
   },
   {
-    "HeadingId": 363,
-    "Name": "Krajcik, Gerhold and Bayer",
-    "Tooltip": "aut",
+    "HeadingId": 10,
+    "Name": "Emmerich, Borer and Jast",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "Rank": 356,
-    "UdListDefinitionId": 359
+    "Rank": 748,
+    "UdListDefinitionId": 249
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 87,
-    "Name": "Daugherty Group",
-    "Tooltip": "eaque",
+    "HeadingId": 407,
+    "Name": "Crona LLC",
+    "Tooltip": "pariatur",
     "Deleted": true,
-    "Rank": 176,
-    "UdListDefinitionId": 853,
+    "Rank": 249,
+    "UdListDefinitionId": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 690
       }
     }
   }

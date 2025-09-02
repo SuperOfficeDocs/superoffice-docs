@@ -2,10 +2,10 @@
 uid: enum-doctmplinvitationtype
 title: Enum values for DocTmplInvitationType
 description: Lists the enum values for DocTmplInvitationType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DocTmplInvitationType Enum

@@ -2,6 +2,7 @@
 title: GET Ticket/{id}/ForeignKey
 uid: v1TicketEntity_GetAllForeignKeysOnEntity
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/{id}/ForeignKey
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "molestiae",
-  "2": "illum"
+  "1": "quis",
+  "2": "eos"
 }
 ```

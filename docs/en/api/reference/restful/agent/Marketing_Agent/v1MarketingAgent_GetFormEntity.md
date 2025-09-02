@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetFormEntity
 uid: v1MarketingAgent_GetFormEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetFormEntity
@@ -22,11 +23,11 @@ Gets a FormEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| formEntityId | int32 | **Required** The primary key. |
+| formEntityId | int32 | **Required** The identifier of the FormEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=309
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=104
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +100,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 128,
-  "FormKey": "ratione",
-  "Name": "Frami-Murazik",
-  "Description": "Expanded holistic help-desk",
-  "Config": "quibusdam",
-  "FolderId": 844,
-  "ScriptId": 580,
-  "ResponseShipmentId": 711,
+  "FormId": 775,
+  "FormKey": "enim",
+  "Name": "Walsh LLC",
+  "Description": "Implemented human-resource infrastructure",
+  "Config": "provident",
+  "FolderId": 712,
+  "ScriptId": 401,
+  "ResponseShipmentId": 547,
   "Active": false,
-  "Expires": "2018-10-26T03:45:23.6235756+02:00",
-  "MaxSubmits": 266,
+  "Expires": "2024-03-03T03:46:55.0038735+01:00",
+  "MaxSubmits": 428,
   "Type": "Normal",
-  "Recipe": "nostrum",
-  "GroupId": 710,
-  "NewTicket": true,
+  "Recipe": "ipsam",
+  "GroupId": 892,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2003-10-28T03:45:23.6235756+01:00",
-  "RegisteredAssociateId": 953,
-  "Updated": "2018-02-07T03:45:23.6235756+01:00",
-  "UpdatedAssociateId": 471,
-  "UpdatedCount": 356,
+  "Registered": "2005-07-14T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 367,
+  "Updated": "2010-12-01T03:46:55.0038735+01:00",
+  "UpdatedAssociateId": 878,
+  "UpdatedCount": 797,
   "EmailFlows": [
-    1000,
-    403
+    271,
+    325
   ],
-  "FolderName": "Abshire, Rodriguez and Cole",
+  "FolderName": "Rowe-Donnelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 241
     }
   }
 }

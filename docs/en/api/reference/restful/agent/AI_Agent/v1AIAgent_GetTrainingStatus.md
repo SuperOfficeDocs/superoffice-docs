@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetTrainingStatus
 uid: v1AIAgent_GetTrainingStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetTrainingStatus
@@ -78,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "rem",
-  "Status": "ducimus",
+  "ContextIdentifier": "dolores",
+  "Status": "commodi",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

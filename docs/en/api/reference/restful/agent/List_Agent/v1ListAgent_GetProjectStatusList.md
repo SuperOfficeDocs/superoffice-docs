@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProjectStatusList
 uid: v1ListAgent_GetProjectStatusList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProjectStatusList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetProjectStatusList?$select=name,department,category/i
 
 ## Request Body: projectStatusIds 
 
-The primary keys. 
+The identifiers of the ProjectStatus object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetProjectStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Value": "non",
-    "Tooltip": "voluptatem",
+    "Id": 617,
+    "Value": "itaque",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 940
       }
     }
   },
   {
-    "Id": 514,
-    "Value": "non",
-    "Tooltip": "voluptatem",
+    "Id": 617,
+    "Value": "itaque",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 940
       }
     }
   }

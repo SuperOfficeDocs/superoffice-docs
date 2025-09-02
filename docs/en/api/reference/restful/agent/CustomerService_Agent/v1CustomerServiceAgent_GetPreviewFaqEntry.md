@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetPreviewFaqEntry
 uid: v1CustomerServiceAgent_GetPreviewFaqEntry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetPreviewFaqEntry
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 729
+  "KbEntryId": 32
 }
 ```
 
@@ -92,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "odio",
-  "RegisteredByFullName": "Odie Kris DVM",
-  "Updated": "2022-11-29T03:45:23.2485827+01:00",
-  "Question": "sed",
-  "Answer": "perspiciatis",
+  "Title": "debitis",
+  "RegisteredByFullName": "Kristopher Pagac",
+  "Updated": "2009-06-05T03:46:54.5976376+02:00",
+  "Question": "magnam",
+  "Answer": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldLength": 889
     }
   }
 }

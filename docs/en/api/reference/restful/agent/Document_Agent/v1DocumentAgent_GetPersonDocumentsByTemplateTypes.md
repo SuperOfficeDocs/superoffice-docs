@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPersonDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -103,14 +104,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 564,
+  "PersonId": 884,
   "IncludeProjectDocuments": false,
-  "StartTime": "2012-12-06T03:45:23.2798335+01:00",
-  "EndTime": "2012-07-26T03:45:23.2798335+02:00",
-  "Count": 421,
+  "StartTime": "2003-03-27T03:46:54.6288867+01:00",
+  "EndTime": "2012-11-19T03:46:54.6288867+01:00",
+  "Count": 145,
   "DocumentTemplateIds": [
-    118,
-    679
+    955,
+    767
   ]
 }
 ```
@@ -123,32 +124,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 915,
-    "Attention": "sit",
-    "Header": "provident",
-    "Name": "Zulauf-Predovic",
-    "OurRef": "vel",
-    "YourRef": "quia",
-    "Description": "Inverse even-keeled orchestration",
-    "DocumentTemplate": "dolorem",
-    "IsPublished": false,
-    "PersonId": 466,
-    "PersonFullName": "Dr. Addison Nitzsche IV",
-    "AssociateFullName": "Camryn Stark",
-    "ContactId": 937,
-    "ContactName": "Okuneva-Gerhold",
-    "ProjectId": 311,
-    "ProjectName": "Russel-Brakus",
-    "AssociateId": 14,
-    "Snum": 491,
-    "SaleId": 824,
-    "SaleName": "Jones-Lowe",
+    "DocumentId": 20,
+    "Attention": "pariatur",
+    "Header": "laborum",
+    "Name": "Morar, Huels and Roob",
+    "OurRef": "alias",
+    "YourRef": "pariatur",
+    "Description": "Fully-configurable executive circuit",
+    "DocumentTemplate": "est",
+    "IsPublished": true,
+    "PersonId": 863,
+    "PersonFullName": "Stuart Gleason",
+    "AssociateFullName": "Lucienne Wolf",
+    "ContactId": 635,
+    "ContactName": "West-Huel",
+    "ProjectId": 665,
+    "ProjectName": "Kunze-Spinka",
+    "AssociateId": 450,
+    "Snum": 888,
+    "SaleId": 504,
+    "SaleName": "Sipes-Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 393
       }
     }
   }

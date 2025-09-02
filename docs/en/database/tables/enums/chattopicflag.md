@@ -2,10 +2,10 @@
 uid: enum-chattopicflag
 title: Enum values for ChatTopicFlag
 description: Lists the enum values for ChatTopicFlag.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ChatTopicFlag Enum

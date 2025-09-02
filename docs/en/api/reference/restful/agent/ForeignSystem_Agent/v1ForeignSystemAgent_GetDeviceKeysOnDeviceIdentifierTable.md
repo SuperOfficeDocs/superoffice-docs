@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -83,14 +84,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Torphy, Ferry and D'Amore",
-  "DeviceName": "McLaughlin, Fay and Zboncak",
-  "DeviceIdentifier": "fuga",
-  "TableName": "Simonis Inc and Sons"
+  "ApplicationName": "Koepp Group",
+  "DeviceName": "Langosh-Auer",
+  "DeviceIdentifier": "qui",
+  "TableName": "Lind-Kemmer"
 }
 ```
 
@@ -102,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quo",
-    "Value": "quia",
-    "RecordId": 239,
-    "CreatedDate": "2003-07-30T03:45:23.498579+02:00",
-    "UpdatedDate": "2000-06-27T03:45:23.498579+02:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "iusto",
-    "TableName": "Koepp, Grady and Huel",
+    "Key": "expedita",
+    "Value": "omnis",
+    "RecordId": 483,
+    "CreatedDate": "2013-09-17T03:46:54.9107593+02:00",
+    "UpdatedDate": "2010-09-10T03:46:54.9107593+02:00",
+    "UpdatedBy": "enim",
+    "CreatedBy": "facere",
+    "TableName": "Gottlieb-Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldType": "System.Int32",
+        "FieldLength": 389
       }
     }
   }

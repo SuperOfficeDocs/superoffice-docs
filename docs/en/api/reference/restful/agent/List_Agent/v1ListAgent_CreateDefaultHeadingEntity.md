@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultHeadingEntity
 uid: v1ListAgent_CreateDefaultHeadingEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultHeadingEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 ```
 
-Set default values into a new HeadingEntity.
+Loading default values into a new HeadingEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 993,
-  "Name": "Kihn, Watsica and Cummings",
-  "Tooltip": "ut",
+  "HeadingId": 613,
+  "Name": "Reichert-Cronin",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 236,
-  "UdListDefinitionId": 842,
+  "Rank": 644,
+  "UdListDefinitionId": 279,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldLength": 764
     }
   }
 }

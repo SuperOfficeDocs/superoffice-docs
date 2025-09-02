@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetPublishedProject
 uid: v1ProjectAgent_GetPublishedProject
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetPublishedProject
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 176
+  "ProjectId": 276
 }
 ```
 
@@ -105,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 823,
-  "Name": "Rodriguez Group",
-  "Description": "Robust holistic paradigm",
+  "ProjectId": 857,
+  "Name": "Ziemann Group",
+  "Description": "Enterprise-wide global capacity",
   "URL": "http://www.example.com/",
-  "Type": "occaecati",
-  "AssociateId": 266,
-  "AssociateFullName": "Korey Huels",
-  "TypeId": 501,
-  "Updated": "2016-08-06T03:45:23.7798203+02:00",
-  "StatusId": 231,
-  "Status": "assumenda",
-  "TextId": 144,
-  "PublishTo": "2016-06-21T03:45:23.7798203+02:00",
-  "PublishFrom": "2001-09-08T03:45:23.7798203+02:00",
+  "Type": "cumque",
+  "AssociateId": 303,
+  "AssociateFullName": "April Schoen",
+  "TypeId": 417,
+  "Updated": "2025-03-29T03:46:55.1757421+01:00",
+  "StatusId": 56,
+  "Status": "dolor",
+  "TextId": 539,
+  "PublishTo": "2022-01-08T03:46:55.1757421+01:00",
+  "PublishFrom": "2022-08-07T03:46:55.1757421+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "194658",
-  "ActiveErpLinks": 241,
+  "ProjectNumber": "820617",
+  "ActiveErpLinks": 350,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 646
     }
   }
 }

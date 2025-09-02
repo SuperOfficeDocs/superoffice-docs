@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType
 uid: v1DeliveryTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Dicki LLC",
-  "Tooltip": "beatae",
+  "Id": 188,
+  "Name": "White-Corwin",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 318,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 767,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
-  "InUseByUserDefinedFields": false
+  "ListType": "facilis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327,
-  "Name": "Huel-Davis",
-  "Tooltip": "incidunt",
+  "Id": 197,
+  "Name": "Tremblay-Abshire",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 563,
-  "IsCustomList": true,
+  "Rank": 408,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "UseGroupsAndHeadings": true,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 985
     }
   }
 }

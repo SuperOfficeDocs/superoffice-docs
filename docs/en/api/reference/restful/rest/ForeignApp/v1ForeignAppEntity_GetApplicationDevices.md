@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/Devices
 uid: v1ForeignAppEntity_GetApplicationDevices
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/Devices
@@ -67,7 +68,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +76,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 16 Jun 2017 03:45:28 G6T
+Last-Modified: Fri, 29 Jan 2016 03:47:00 G1T
 
 [
   {
-    "ForeignDeviceId": 434,
-    "Name": "Bayer Inc and Sons",
-    "CreatedDate": "2015-05-27T03:45:28.3578119+02:00",
-    "UpdatedDate": "2017-06-16T03:45:28.3578119+02:00",
-    "AssociateFullName": "Miss Nettie Ashlynn Larkin DVM",
-    "CreatedBy": "ipsam",
-    "UpdatedBy": "minima",
-    "DeviceIdentifier": "quam",
-    "ForeignAppId": 817,
+    "ForeignDeviceId": 621,
+    "Name": "Gorczany LLC",
+    "CreatedDate": "2022-06-12T03:47:00.0349452+02:00",
+    "UpdatedDate": "2016-01-29T03:47:00.0349452+01:00",
+    "AssociateFullName": "Ms. Leta Macejkovic DDS",
+    "CreatedBy": "et",
+    "UpdatedBy": "suscipit",
+    "DeviceIdentifier": "cumque",
+    "ForeignAppId": 76,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 501
       }
     }
   }

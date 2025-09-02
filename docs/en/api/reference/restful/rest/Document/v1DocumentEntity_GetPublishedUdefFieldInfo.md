@@ -2,6 +2,7 @@
 title: GET Document/UdefLayout/Published/{progidOrLabel}
 uid: v1DocumentEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Document/UdefLayout/Published/{progidOrLabel}
@@ -103,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 766,
-  "ColumnId": 66,
-  "FieldDefault": "impedit",
-  "FieldHeight": 784,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 336,
-  "FieldTop": 900,
+  "UDefFieldId": 268,
+  "ColumnId": 639,
+  "FieldDefault": "error",
+  "FieldHeight": 152,
+  "FieldLabel": "sint",
+  "FieldLeft": 103,
+  "FieldTop": 651,
   "FieldType": "Checkbox",
-  "FieldWidth": 525,
-  "FormatMask": "iusto",
+  "FieldWidth": 305,
+  "FormatMask": "id",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 798,
-  "LabelLeft": 77,
-  "LabelTop": 504,
-  "LabelWidth": 333,
-  "LastVersionId": 694,
-  "ListTableId": 236,
+  "IsIndexed": false,
+  "LabelHeight": 351,
+  "LabelLeft": 220,
+  "LabelTop": 339,
+  "LabelWidth": 853,
+  "LastVersionId": 960,
+  "ListTableId": 589,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 801,
-  "ProgId": "perferendis",
+  "Page1LineNo": 275,
+  "ProgId": "consectetur",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 836,
-  "TextLength": 613,
-  "Tooltip": "quis",
-  "UdefIdentity": 846,
-  "UDListDefinitionId": 273,
+  "ShortLabel": "aliquam",
+  "TabOrder": 131,
+  "TextLength": 618,
+  "Tooltip": "quae",
+  "UdefIdentity": 269,
+  "UDListDefinitionId": 760,
   "Justification": "Center",
-  "Version": 840,
-  "TemplateVariableName": "Ratke-Smith",
-  "HasBeenPublished": true,
-  "MdoListName": "Lueilwitz-Wolff",
+  "Version": 921,
+  "TemplateVariableName": "Ledner, Beahan and Hoeger",
+  "HasBeenPublished": false,
+  "MdoListName": "Osinski, Klein and Sipes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 780
     }
   }
 }

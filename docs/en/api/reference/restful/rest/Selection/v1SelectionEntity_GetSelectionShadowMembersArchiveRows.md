@@ -2,6 +2,7 @@
 title: GET Selection/{id}/ShadowMembers
 uid: v1SelectionEntity_GetSelectionShadowMembersArchiveRows
 generated: true
+content_type: reference
 ---
 
 # GET Selection/{id}/ShadowMembers
@@ -75,7 +76,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,19 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "distinctio",
+  "odata.nextLink": "atque",
   "value": [
     {
-      "PrimaryKey": 3144,
-      "EntityName": "person",
-      "personId": 3144,
-      "fullName": "Lance Ebert"
+      "PrimaryKey": 6541,
+      "EntityName": "sale",
+      "saleId": 6541,
+      "contactId": 4740,
+      "name": "Vandervort-Johns"
     },
     {
-      "PrimaryKey": 5311,
-      "EntityName": "person",
-      "personId": 5311,
-      "fullName": "Aylin Little"
+      "PrimaryKey": 6833,
+      "EntityName": "sale",
+      "saleId": 6833,
+      "contactId": 1684,
+      "name": "Gerlach, Mills and Williamson"
     }
   ]
 }

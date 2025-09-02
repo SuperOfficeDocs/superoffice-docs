@@ -2,6 +2,7 @@
 title: PUT List/MrMrs/Items/{id}
 uid: v1MrMrsList_PutMrMrs
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs/Items/{id}
@@ -82,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 217,
-  "Name": "Reichel LLC",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 582,
-  "Rank": 404
+  "Id": 443,
+  "Name": "Feil, Sauer and Bayer",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "UdListDefinitionId": 367,
+  "Rank": 96
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "Name": "Eichmann, Nader and Johnson",
-  "Tooltip": "aspernatur",
-  "Deleted": true,
-  "UdListDefinitionId": 951,
-  "Rank": 919,
+  "Id": 897,
+  "Name": "Hoeger, Kirlin and Heaney",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 542,
+  "Rank": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

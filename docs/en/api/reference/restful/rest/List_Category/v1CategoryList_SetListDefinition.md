@@ -2,6 +2,7 @@
 title: PUT List/Category
 uid: v1CategoryList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Gibson-Brakus",
-  "Tooltip": "unde",
+  "Id": 822,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 851,
-  "IsCustomList": false,
+  "Rank": 817,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Braun Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 850,
+  "Name": "Ullrich, Yundt and Schroeder",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 72,
+  "Rank": 706,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Sentry/CanCreateAppointmentInAllDiaries
 uid: v1SentryAgent_CanCreateAppointmentInAllDiaries
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sentry/CanCreateAppointmentInAllDiaries

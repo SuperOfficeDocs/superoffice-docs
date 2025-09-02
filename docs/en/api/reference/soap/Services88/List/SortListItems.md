@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SortListItems SOAP
 generated: true
 uid: Services88-List-SortListItems
+content_type: reference
 ---
 
 # Services88 List SortListItems

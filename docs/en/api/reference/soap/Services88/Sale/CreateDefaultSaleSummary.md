@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.CreateDefaultSaleSummary SOAP
 generated: true
 uid: Services88-Sale-CreateDefaultSaleSummary
+content_type: reference
 ---
 
 # Services88 Sale CreateDefaultSaleSummary

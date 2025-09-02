@@ -2,6 +2,7 @@
 title: GET Role/{id}/DataRight/{tableName}/{relationToOwner}
 uid: v1RoleEntity_GetDataRight
 generated: true
+content_type: reference
 ---
 
 # GET Role/{id}/DataRight/{tableName}/{relationToOwner}
@@ -26,7 +27,7 @@ An exception will be thrown if non existing position is specified.
 |-----------|------|-------------|
 | roleId | int32 | The role id to set the data right for **Required** |
 | tableName | string | The name of the entity/table **Required** |
-| relationToOwner | Enum: MyOwn, PrimaryGroup, OtherAssociates, OtherGroups, ExternalUser, Anonymous, MyCompany, SameProject | The id of the relation to owner **Required** |
+| relationToOwner | Enum: MyOwn, PrimaryGroup, OtherAssociates, OtherGroups, ExternalUser, Anonymous, MyCompany, SameProject, CustomObjects | The id of the relation to owner **Required** |
 
 
 
@@ -70,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"asperiores"
+"eum"
 ```

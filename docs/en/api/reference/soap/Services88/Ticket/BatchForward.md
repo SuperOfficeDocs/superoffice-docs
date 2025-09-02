@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.BatchForward SOAP
 generated: true
 uid: Services88-Ticket-BatchForward
+content_type: reference
 ---
 
 # Services88 Ticket BatchForward

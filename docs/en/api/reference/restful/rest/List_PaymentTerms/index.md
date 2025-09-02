@@ -1,6 +1,8 @@
 ---
+uid: tag-List_PaymentTerms
 title: List_PaymentTerms
 generated: true
+content_type: reference
 ---
 
 ```http

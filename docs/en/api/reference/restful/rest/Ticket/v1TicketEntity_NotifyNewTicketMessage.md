@@ -2,6 +2,7 @@
 title: POST Ticket/{id}/NotifyNewMessage
 uid: v1TicketEntity_NotifyNewTicketMessage
 generated: true
+content_type: reference
 ---
 
 # POST Ticket/{id}/NotifyNewMessage
@@ -50,7 +51,7 @@ No Content
 POST /api/v1/Ticket/{ticketEntityId}/NotifyNewMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

@@ -2,14 +2,10 @@
 uid: projectagent-script-events
 title: ProjectAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # ProjectAgent method listing
@@ -62,8 +58,10 @@ Service methods defined on <see cref='T:IProjectAgent'>ProjectAgent</see> that c
 * [SaveProjectEventEntityAsync](saveprojectevententityasync.md)
 * [SaveProjectMemberAsync](saveprojectmemberasync.md)
 * [SaveProjectMembersFunctionAndCommentAsync](saveprojectmembersfunctionandcommentasync.md)
+* [SetCompletedAsync](setcompletedasync.md)
 * [SetDuplicateRulesStatusAsync](setduplicaterulesstatusasync.md)
 * [SetProjectImageAsync](setprojectimageasync.md)
 * [UpdateProjectMemberAsync](updateprojectmemberasync.md)
 * [UpdateProjectMembersAsync](updateprojectmembersasync.md)
 * [ValidateProjectEntityAsync](validateprojectentityasync.md)
+

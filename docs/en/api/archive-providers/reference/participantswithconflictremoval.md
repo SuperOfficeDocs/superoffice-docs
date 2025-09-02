@@ -3,9 +3,9 @@ uid: ParticipantsWithConflictRemoval
 title: ParticipantsWithConflictRemoval
 description: Archive provider that wraps the <see cref="T -SuperOffice.CRM.ArchiveLists.ParticipantsProvider" />, and adds a pseudo entity used to hide associates with conflicts.
 keywords: ParticipantsWithConflictRemoval archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ParticipantsWithConflictRemoval"
@@ -193,7 +193,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personAssociateFullName,isStakeholder,isLocation
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personSource,isLocation,personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

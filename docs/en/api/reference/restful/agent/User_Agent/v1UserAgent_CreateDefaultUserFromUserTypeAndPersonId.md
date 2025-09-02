@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 uid: v1UserAgent_CreateDefaultUserFromUserTypeAndPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultUserFromUserTypeAndPersonId
@@ -108,7 +109,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 120
+  "PersonId": 934
 }
 ```
 
@@ -119,14 +120,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 349,
-  "Name": "Lowe-Schimmel",
-  "Rank": 631,
-  "Tooltip": "qui",
+  "AssociateId": 451,
+  "Name": "Jacobi Inc and Sons",
+  "Rank": 778,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Schmitt-Beatty",
-      "Description": "Self-enabling global task-force",
+      "Name": "Bergnaum, Wolf and Dibbert",
+      "Description": "Devolved even-keeled encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 683
+          "FieldLength": 345
         }
       }
     },
     {
-      "Name": "Schmitt-Beatty",
-      "Description": "Self-enabling global task-force",
+      "Name": "Bergnaum, Wolf and Dibbert",
+      "Description": "Devolved even-keeled encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 683
+          "FieldLength": 345
         }
       }
     }
@@ -169,110 +170,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eius",
-      "Tooltip": "dolore",
-      "Id": 404,
-      "Rank": 336,
+      "Value": "animi",
+      "Tooltip": "facilis",
+      "Id": 560,
+      "Rank": 893,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 709
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2002-06-17T03:45:24.1860585+02:00",
-  "Lastlogout": "2008-10-25T03:45:24.1860585+02:00",
-  "EjUserId": 537,
-  "RequestSignature": "quia",
+  "Lastlogin": "2011-10-24T03:46:55.6132266+02:00",
+  "Lastlogout": "2021-06-29T03:46:55.6132266+02:00",
+  "EjUserId": 541,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "autem",
-      "DisplayValue": "repellat",
+      "Value": "et",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 296
         }
       }
     },
     {
       "Type": null,
-      "Value": "autem",
-      "DisplayValue": "repellat",
+      "Value": "et",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 296
         }
       }
     }
   ],
-  "UserName": "Gerhold Inc and Sons",
+  "UserName": "Kunze-Bosco",
   "TicketCategories": [
     {
-      "Id": 576,
-      "Name": "Klein, Dare and Kohler",
-      "ToolTip": "Id dolores ipsa in sit nobis rerum.",
+      "Id": 353,
+      "Name": "Skiles-Hilll",
+      "ToolTip": "Iste nostrum aliquam possimus.",
       "Deleted": false,
-      "Rank": 496,
-      "Type": "rerum",
+      "Rank": 393,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "unde",
-      "ColorBlock": 264,
-      "ExtraInfo": "autem",
-      "StyleHint": "illo",
-      "FullName": "Pearline Monique Shanahan DVM",
+      "IconHint": "odio",
+      "ColorBlock": 693,
+      "ExtraInfo": "omnis",
+      "StyleHint": "repellat",
+      "FullName": "Stephanie Kuvalis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 423
+          "FieldLength": 704
         }
       }
     }
   ],
-  "NickName": "McLaughlin, Brakus and Funk",
+  "NickName": "Ullrich, Kautzer and Hilpert",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "at",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "iste",
+    "CustomFields2": "voluptatem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Effertz, Kub and Ledner",
-      "DisplayName": "Will-Frami",
-      "Description": "Triple-buffered multi-state capability",
-      "ToolTip": "Quis quae.",
+      "Name": "Carroll, Berge and Weissnat",
+      "DisplayName": "Kessler, Mayer and Dicki",
+      "Description": "Optional zero administration moratorium",
+      "ToolTip": "Debitis accusamus expedita dolores tempore nihil quia.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
@@ -282,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldLength": 822
     }
   }
 }

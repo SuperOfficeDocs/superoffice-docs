@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/AcceptRejected
 uid: v1AppointmentAgent_AcceptRejected
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/AcceptRejected
@@ -133,11 +134,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 263,
+  "AppointmentId": 498,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-08-22T03:45:22.8892174+02:00",
-  "AppointmentId": 198,
-  "Description": "Face to face web-enabled migration",
-  "Title": "et",
-  "Agenda": "facilis",
-  "InternalNotes": "delectus",
-  "StartDate": "2016-10-11T03:45:22.8892174+02:00",
-  "EndDate": "1998-09-25T03:45:22.8892174+02:00",
+  "CreatedDate": "2011-10-05T03:46:54.1914032+02:00",
+  "AppointmentId": 904,
+  "Description": "Proactive bifurcated structure",
+  "Title": "velit",
+  "Agenda": "qui",
+  "InternalNotes": "voluptas",
+  "StartDate": "2024-10-30T03:46:54.1914032+01:00",
+  "EndDate": "2018-10-19T03:46:54.1914032+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 953,
+  "MotherId": 577,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-05-24T03:45:22.8892174+02:00",
+  "UpdatedDate": "2024-01-05T03:46:54.1914032+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 560,
+  "ActiveLinks": 371,
   "Links": [
     {
-      "EntityName": "Reinger, Hirthe and Walsh",
-      "Id": 758,
-      "Description": "User-centric 4th generation encoding",
-      "ExtraInfo": "eaque",
-      "LinkId": 740,
+      "EntityName": "Wisozk Group",
+      "Id": 892,
+      "Description": "Reactive homogeneous matrices",
+      "ExtraInfo": "optio",
+      "LinkId": 195,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 718
         }
       }
     }
   ],
-  "AlarmLeadTime": "soluta",
-  "HasAlarm": true,
-  "ColorIndex": 694,
+  "AlarmLeadTime": "doloremque",
+  "HasAlarm": false,
+  "ColorIndex": 250,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "fugit",
-  "LeadTime": "in",
-  "Location": "voluptatum",
-  "RejectCounter": 927,
+  "LagTime": "perferendis",
+  "LeadTime": "officiis",
+  "Location": "rerum",
+  "RejectCounter": 841,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 538,
-      "PersonId": 221,
-      "ContactId": 942,
-      "EmailId": 869,
-      "SendEmail": false,
+      "AssociateId": 432,
+      "PersonId": 920,
+      "ContactId": 260,
+      "EmailId": 969,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "ivah_koepp@schaefer.ca",
-      "Description": "Compatible systematic core"
+      "EmailAddress": "johnny@christiansen.co.uk",
+      "Description": "Synergized bottom-line knowledge base"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-03-09T03:45:22.8892174+01:00",
+  "ActiveDate": "1999-10-29T03:46:54.1914032+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 736,
+  "PreferredTZLocation": 613,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 457,
+  "SuggestedAppointmentId": 324,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "cupiditate",
+  "CentralserviceVideomeetId": "perferendis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Monica Abbott",
-    "SuperOffice:2": "Benton Wunsch"
+    "SuperOffice:1": "2058921235",
+    "SuperOffice:2": "Megane Rohan"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "est"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "commodi",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2017-11-15T03:45:22.8892174+01:00",
-  "PublishTo": "2021-12-13T03:45:22.8892174+01:00",
-  "PublishFrom": "2011-01-16T03:45:22.8892174+01:00",
+  "PublishEventDate": "2004-08-30T03:46:54.1914032+02:00",
+  "PublishTo": "2000-01-03T03:46:54.1914032+01:00",
+  "PublishFrom": "2013-04-24T03:46:54.1914032+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 739,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 142
         }
       }
     },
     {
-      "VisibleId": 739,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 142
         }
       }
     }
@@ -277,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 104
     }
   }
 }

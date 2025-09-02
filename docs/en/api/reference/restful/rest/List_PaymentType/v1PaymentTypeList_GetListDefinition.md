@@ -2,6 +2,7 @@
 title: GET List/PaymentType
 uid: v1PaymentTypeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Cole-Miller",
-  "Tooltip": "quam",
+  "Id": 56,
+  "Name": "Halvorson, Jerde and Hane",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 399,
+  "Rank": 694,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   },
   "_Links": {

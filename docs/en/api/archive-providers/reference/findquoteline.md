@@ -3,9 +3,9 @@ uid: FindQuoteLine
 title: FindQuoteLine
 description: QuoteLine provider for Find
 keywords: FindQuoteLine archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FindQuoteLine"
@@ -763,7 +763,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=getAllRows,alternative/version/quote/sale/person/personAssociate/contactFullName,alternative/version/quote/sale/person/personAssociate/ejDisplayName,alternative/version/quote/sale/person/correspondingAssociate/contactName,alternative/version/quote/sale/person/correspondingAssociate/ejUserId
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/person/personAssociate/personId,alternative/version/quote/sale/associate/contactDepartment,alternative/version/quote/sale/project/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

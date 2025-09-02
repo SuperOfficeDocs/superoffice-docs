@@ -2,6 +2,7 @@
 title: GET List/Task/MDOItems
 uid: v1TaskList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=quae
+GET /api/v1/List/Task/MDOItems?query=qui
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Sawayn, Flatley and Grimes",
-    "ToolTip": "Non inventore est minima assumenda dolore labore impedit.",
-    "Deleted": true,
-    "Rank": 652,
-    "Type": "est",
+    "Id": 628,
+    "Name": "O'Keefe Inc and Sons",
+    "ToolTip": "Quia ex porro incidunt eaque corrupti.",
+    "Deleted": false,
+    "Rank": 152,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Osinski Group",
-        "ToolTip": "Tempore exercitationem earum molestiae.",
-        "Deleted": false,
-        "Rank": 771,
-        "Type": "quo",
+        "Id": 41,
+        "Name": "Haag-Howe",
+        "ToolTip": "Necessitatibus autem.",
+        "Deleted": true,
+        "Rank": 533,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 464,
-        "ExtraInfo": "et",
-        "StyleHint": "repellendus",
-        "FullName": "Annetta O'Hara",
+        "IconHint": "vero",
+        "ColorBlock": 395,
+        "ExtraInfo": "dolores",
+        "StyleHint": "quidem",
+        "FullName": "Tyson Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "IconHint": "exercitationem",
-    "ColorBlock": 350,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "molestias",
-    "FullName": "Mr. Russell Randy Rice",
+    "IconHint": "dolorum",
+    "ColorBlock": 64,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "dolorum",
+    "FullName": "Miss Kaci Esmeralda Hodkiewicz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 173
       }
     }
   }

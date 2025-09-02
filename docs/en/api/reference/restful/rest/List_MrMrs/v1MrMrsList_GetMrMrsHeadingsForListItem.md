@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Items/{id}/Headings
 uid: v1MrMrsList_GetMrMrsHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Feil-Crona",
-    "ToolTip": "Iste perferendis.",
+    "Id": 936,
+    "Name": "Mueller Group",
+    "ToolTip": "Iure veniam.",
     "Deleted": false,
-    "Rank": 646,
-    "Type": "dicta",
-    "ColorBlock": 216,
-    "IconHint": "consequuntur",
+    "Rank": 884,
+    "Type": "consequatur",
+    "ColorBlock": 187,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2018-10-10T03:45:29.060917+02:00",
+    "LastChanged": "2011-09-15T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Stanton LLC",
-        "ToolTip": "Quaerat numquam molestiae eius at cupiditate.",
-        "Deleted": false,
-        "Rank": 592,
-        "Type": "laudantium",
-        "ColorBlock": 535,
-        "IconHint": "sapiente",
-        "Selected": true,
-        "LastChanged": "2002-11-12T03:45:29.060917+01:00",
+        "Id": 455,
+        "Name": "Gutkowski, Emard and Stoltenberg",
+        "ToolTip": "Ullam accusamus error ea dolorum.",
+        "Deleted": true,
+        "Rank": 369,
+        "Type": "animi",
+        "ColorBlock": 44,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2019-12-03T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Weston Torphy",
+        "ExtraInfo": "id",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Ms. Keely Retha Toy III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldType": "System.String",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ab",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Wilhelmine Nicolas",
+    "FullName": "Bella Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 431
       }
     }
   }

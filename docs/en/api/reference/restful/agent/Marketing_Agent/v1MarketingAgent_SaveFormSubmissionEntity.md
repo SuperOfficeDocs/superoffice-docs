@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/SaveFormSubmissionEntity
 uid: v1MarketingAgent_SaveFormSubmissionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/SaveFormSubmissionEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 ```
 
-Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
+Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: formSubmissionEntity 
 
-The FormSubmissionEntity to be saved. 
+The FormSubmissionEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,20 +82,20 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 72,
-  "FormId": 115,
-  "WhenSubmitted": "2014-07-03T03:45:23.6235756+02:00",
-  "ContactId": 74,
-  "PersonId": 562,
-  "EmailAddress": "colin.schuster@kuphal.ca",
-  "ResponseShipmentAddrId": 388,
-  "Response": "cupiditate",
+  "FormSubmissionId": 738,
+  "FormId": 132,
+  "WhenSubmitted": "2007-12-23T03:46:55.0038735+01:00",
+  "ContactId": 358,
+  "PersonId": 449,
+  "EmailAddress": "stevie_kuhn@botsfordherman.name",
+  "ResponseShipmentAddrId": 168,
+  "Response": "quaerat",
   "Status": "EmailVerification",
-  "ProcessingLog": "recusandae"
+  "ProcessingLog": "aut"
 }
 ```
 
@@ -105,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 963,
-  "FormId": 362,
-  "WhenSubmitted": "2022-05-24T03:45:23.6235756+02:00",
-  "ContactId": 399,
-  "PersonId": 581,
-  "EmailAddress": "jerrod@trantowchristiansen.com",
-  "ResponseShipmentAddrId": 636,
-  "Response": "quasi",
+  "FormSubmissionId": 486,
+  "FormId": 396,
+  "WhenSubmitted": "2008-03-07T03:46:55.0038735+01:00",
+  "ContactId": 74,
+  "PersonId": 999,
+  "EmailAddress": "cole@wehner.com",
+  "ResponseShipmentAddrId": 2,
+  "Response": "et",
   "Status": "EmailVerification",
-  "ProcessingLog": "officiis",
+  "ProcessingLog": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

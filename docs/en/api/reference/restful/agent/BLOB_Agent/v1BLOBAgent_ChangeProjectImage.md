@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/ChangeProjectImage
 uid: v1BLOBAgent_ChangeProjectImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/ChangeProjectImage
@@ -71,8 +72,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 437,
-  "BlobId": 66
+  "ProjectId": 191,
+  "BlobId": 701
 }
 ```
 

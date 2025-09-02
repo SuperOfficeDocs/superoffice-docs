@@ -2,6 +2,7 @@
 title: POST Agents/User/GetExternalTokens
 uid: v1UserAgent_GetExternalTokens
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetExternalTokens
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nemo"
+  "Key": "blanditiis"
 }
 ```
 
@@ -92,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "illo",
-  "AccessToken": "in",
-  "RefreshToken": "harum",
+  "Provider": "fugiat",
+  "AccessToken": "officiis",
+  "RefreshToken": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 779
     }
   }
 }

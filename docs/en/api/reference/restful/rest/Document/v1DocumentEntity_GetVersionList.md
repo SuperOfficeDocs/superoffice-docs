@@ -2,6 +2,7 @@
 title: GET Document/{id}/Version
 uid: v1DocumentEntity_GetVersionList
 generated: true
+content_type: reference
 ---
 
 # GET Document/{id}/Version
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +77,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ipsam",
-    "DocumentId": 441,
-    "VersionId": "inventore",
-    "CheckedInDate": "2005-10-10T03:45:28.3421873+02:00",
-    "CheckedInByName": "Stracke-Swaniawski",
-    "CheckedInByAssociateId": 575,
-    "Description": "Inverse bifurcated workforce",
-    "DisplayText": "totam",
+    "ExternalReference": "consequatur",
+    "DocumentId": 209,
+    "VersionId": "voluptatem",
+    "CheckedInDate": "2015-03-14T03:47:00.005716+01:00",
+    "CheckedInByName": "Larson Group",
+    "CheckedInByAssociateId": 291,
+    "Description": "Robust neutral artificial intelligence",
+    "DisplayText": "aut",
     "ExtraFields": [
-      "quos",
-      "debitis"
+      "sit",
+      "esse"
     ]
   }
 ]

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuoteApproveReason
 uid: v1ListAgent_GetQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuoteApproveReason
@@ -22,11 +23,11 @@ Gets a QuoteApproveReason object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| quoteApproveReasonId | int32 | **Required** The primary key. |
+| quoteApproveReasonId | int32 | **Required** The identifier of the QuoteApproveReason object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=786
+POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=678
 POST /api/v1/Agents/List/GetQuoteApproveReason?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Value": "magnam",
-  "Tooltip": "non",
+  "Id": 93,
+  "Value": "est",
+  "Tooltip": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldType": "System.Int32",
+      "FieldLength": 568
     }
   }
 }

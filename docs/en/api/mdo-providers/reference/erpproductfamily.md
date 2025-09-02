@@ -3,9 +3,9 @@ uid: erpproductfamily
 title: erpproductfamily
 keywords: mdoprovider mdo provider erpproductfamily
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "erpproductfamily" MDO List

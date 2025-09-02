@@ -2,6 +2,7 @@
 title: GET List/TicketStatus/Items/Default
 uid: v1TicketStatusList_CreateDefaultTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketStatus/Items/Default
@@ -71,8 +72,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 279,
-  "Name": "Murazik, Cormier and Price",
+  "TicketStatusId": 265,
+  "Name": "Bayer, Wilkinson and Brown",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -83,7 +84,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 500
     }
   }
 }

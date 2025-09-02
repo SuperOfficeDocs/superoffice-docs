@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/ConnectEmailFlowContent
 uid: v1WorkflowAgent_ConnectEmailFlowContent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/ConnectEmailFlowContent
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/Workflow/ConnectEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 637,
-  "MessageId": 218
+  "EmailFlowId": 250,
+  "MessageId": 264
 }
 ```
 

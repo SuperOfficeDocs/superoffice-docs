@@ -2,6 +2,7 @@
 title: Services88.DashAgent.DuplicateTile SOAP
 generated: true
 uid: Services88-Dash-DuplicateTile
+content_type: reference
 ---
 
 # Services88 Dash DuplicateTile

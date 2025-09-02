@@ -2,10 +2,10 @@
 uid: table-s_list_shipment
 title: s_list_shipment table
 description: A connector between shipment and list so that one shipment can have many lists, and one list can have many shipments
-so.generated: true
+generated: true
 keywords: database table s_list_shipment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_list\_shipment Table (348)

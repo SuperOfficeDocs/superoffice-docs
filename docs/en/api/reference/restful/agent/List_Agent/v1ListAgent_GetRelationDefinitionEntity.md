@@ -2,6 +2,7 @@
 title: POST Agents/List/GetRelationDefinitionEntity
 uid: v1ListAgent_GetRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetRelationDefinitionEntity
@@ -22,11 +23,11 @@ Gets a RelationDefinitionEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| relationDefinitionEntityId | int32 | **Required** The primary key. |
+| relationDefinitionEntityId | int32 | **Required** The identifier of the RelationDefinitionEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=670
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=148
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -84,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 675,
-  "Name": "Collier-Gutmann",
-  "Tooltip": "debitis",
-  "PassiveText": "nam",
-  "Deleted": true,
-  "Rank": 163,
+  "ReldefId": 932,
+  "Name": "Stamm LLC",
+  "Tooltip": "blanditiis",
+  "PassiveText": "alias",
+  "Deleted": false,
+  "Rank": 959,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 699
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   }
 }

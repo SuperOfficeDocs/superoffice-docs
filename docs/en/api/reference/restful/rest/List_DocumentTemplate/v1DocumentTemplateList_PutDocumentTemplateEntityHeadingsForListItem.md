@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate/Items/{id}/Headings
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Murray-Kuhic",
-    "ToolTip": "Aut et.",
-    "Deleted": false,
-    "Rank": 324,
-    "Type": "qui",
-    "ColorBlock": 996,
-    "IconHint": "eos",
+    "Id": 658,
+    "Name": "Bode, Howe and Johns",
+    "ToolTip": "Quam hic vitae itaque ratione.",
+    "Deleted": true,
+    "Rank": 87,
+    "Type": "eos",
+    "ColorBlock": 352,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2006-04-22T03:45:29.0452922+02:00",
+    "LastChanged": "2011-07-25T03:47:00.6599229+02:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Beer-Ziemann",
-        "ToolTip": "Eos et dolorem velit nam.",
+        "Id": 387,
+        "Name": "Haag-Toy",
+        "ToolTip": "Nihil neque animi est.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "sapiente",
-        "ColorBlock": 44,
-        "IconHint": "et",
+        "Rank": 367,
+        "Type": "aspernatur",
+        "ColorBlock": 447,
+        "IconHint": "necessitatibus",
         "Selected": true,
-        "LastChanged": "2005-07-21T03:45:29.0452922+02:00",
+        "LastChanged": "2002-01-24T03:47:00.6599229+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "quas",
-        "StyleHint": "sed",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Kristina Vandervort"
+        "FullName": "Jarvis Wuckert PhD"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Wyatt Mosciski"
+    "ExtraInfo": "inventore",
+    "StyleHint": "suscipit",
+    "Hidden": false,
+    "FullName": "Duncan Grimes DDS"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Fritsch Group",
-    "ToolTip": "Culpa nesciunt nisi ipsam officia enim a corporis.",
-    "Deleted": true,
-    "Rank": 160,
-    "Type": "voluptas",
-    "ColorBlock": 62,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2019-07-22T03:45:29.0452922+02:00",
+    "Id": 652,
+    "Name": "Hansen, Dooley and Wisozk",
+    "ToolTip": "Est et ut in doloribus voluptatibus.",
+    "Deleted": false,
+    "Rank": 793,
+    "Type": "cumque",
+    "ColorBlock": 112,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2003-04-22T03:47:00.6599229+02:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Zboncak-Champlin",
-        "ToolTip": "Aut assumenda porro.",
+        "Id": 167,
+        "Name": "Padberg-McKenzie",
+        "ToolTip": "Placeat minus dolore ratione enim vitae.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "cupiditate",
-        "ColorBlock": 632,
-        "IconHint": "minima",
+        "Rank": 698,
+        "Type": "sed",
+        "ColorBlock": 904,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2012-08-16T03:45:29.0452922+02:00",
+        "LastChanged": "2019-02-17T03:47:00.6599229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "iusto",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Prof. Jarod Luettgen PhD",
+        "FullName": "Mae Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Garrison Marvin Bins II",
+    "ExtraInfo": "non",
+    "StyleHint": "reprehenderit",
+    "Hidden": true,
+    "FullName": "Greg Kassulke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 886
       }
     }
   }

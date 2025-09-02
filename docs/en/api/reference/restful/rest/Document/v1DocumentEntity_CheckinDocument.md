@@ -2,6 +2,7 @@
 title: PUT Document/{id}/Lock
 uid: v1DocumentEntity_CheckinDocument
 generated: true
+content_type: reference
 ---
 
 # PUT Document/{id}/Lock
@@ -32,8 +33,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Stand-alone didactic support
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=natus,et
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Customer-focused even-keeled matrices
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=quae,dolorum
 ```
 
 
@@ -76,7 +77,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,11 +87,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "eum",
-  "VersionId": "aut",
-  "Success": false,
+  "ExternalReference": "est",
+  "VersionId": "eos",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "dolore",
-  "AdditionalInfo": "quo"
+  "Value": "error",
+  "AdditionalInfo": "omnis"
 }
 ```

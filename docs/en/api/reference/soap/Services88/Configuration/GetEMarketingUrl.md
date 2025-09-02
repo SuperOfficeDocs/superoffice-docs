@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetEMarketingUrl SOAP
 generated: true
 uid: Services88-Configuration-GetEMarketingUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetEMarketingUrl

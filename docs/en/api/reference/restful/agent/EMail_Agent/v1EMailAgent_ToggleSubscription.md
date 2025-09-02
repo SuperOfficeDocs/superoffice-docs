@@ -2,6 +2,7 @@
 title: POST Agents/EMail/ToggleSubscription
 uid: v1EMailAgent_ToggleSubscription
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/ToggleSubscription
@@ -71,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 293,
+  "FolderId": 994,
   "SubscriptionStatus": false
 }
 ```

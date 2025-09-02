@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveConnectionConfigFields
 uid: v1QuoteAgent_SaveConnectionConfigFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveConnectionConfigFields
@@ -69,14 +70,14 @@ OK
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 320,
+  "QuoteConnectionId": 188,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "fugit",
-    "ConnectionConfigFields2": "maiores"
+    "ConnectionConfigFields1": "quasi",
+    "ConnectionConfigFields2": "asperiores"
   }
 }
 ```
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aperiam",
-  "2": "eum"
+  "1": "deserunt",
+  "2": "aperiam"
 }
 ```

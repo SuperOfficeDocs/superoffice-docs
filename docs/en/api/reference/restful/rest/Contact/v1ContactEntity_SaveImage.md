@@ -2,6 +2,7 @@
 title: PUT Contact/{id}/Image
 uid: v1ContactEntity_SaveImage
 generated: true
+content_type: reference
 ---
 
 # PUT Contact/{id}/Image
@@ -62,7 +63,7 @@ The blob id for the image
 PUT /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-506
+15
 ```

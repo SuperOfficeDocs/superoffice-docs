@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindWithExtraRestrictions
 uid: v1FindAgent_FindWithExtraRestrictions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindWithExtraRestrictions
@@ -84,24 +85,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Brekke-Stiedemann",
-  "StorageKey": "laborum",
+  "StorageType": "officia",
+  "ProviderName": "Schulist-Leannon",
+  "StorageKey": "perspiciatis",
   "ExtraRestrictions": [
     {
-      "Name": "Gerlach Inc and Sons",
-      "Operator": "deserunt",
+      "Name": "Jenkins-Lockman",
+      "Operator": "sit",
       "Values": [
-        "omnis",
-        "recusandae"
+        "in",
+        "repellendus"
       ],
       "DisplayValues": [
-        "qui",
-        "modi"
+        "doloribus",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +110,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 590,
+      "InterParenthesis": 335,
       "InterOperator": "And",
-      "UniqueHash": 107
+      "UniqueHash": 308
     }
   ],
   "OrderBy": [
     {
-      "Name": "Brakus, Gislason and Hermann",
+      "Name": "Cummerata-Romaguera",
       "Direction": "ASC"
     },
     {
-      "Name": "Brakus, Gislason and Hermann",
+      "Name": "Cummerata-Romaguera",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "earum",
-    "laudantium"
+    "et",
+    "sunt"
   ],
-  "PageSize": 351,
-  "PageNumber": 705
+  "PageSize": 442,
+  "PageNumber": 454
 }
 ```
 
@@ -142,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rohan Inc and Sons",
+      "DisplayName": "Gleason-Haley",
       "DisplayTooltip": "et",
-      "DisplayType": "molestiae",
-      "CanOrderBy": true,
-      "Name": "Mueller-Crist",
-      "CanRestrictBy": true,
-      "RestrictionType": "reprehenderit",
-      "RestrictionListName": "Wiegand, Schultz and Brown",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Kutch-Hodkiewicz",
+      "CanRestrictBy": false,
+      "RestrictionType": "quis",
+      "RestrictionListName": "Kuphal-Abbott",
       "IsVisible": true,
-      "ExtraInfo": "eos",
-      "Width": "nam",
-      "IconHint": "magnam",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "vel",
+      "Width": "est",
+      "IconHint": "officia",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Connell-Schultz",
-      "PrimaryKey": 332,
+      "EntityName": "Prosacco Inc and Sons",
+      "PrimaryKey": 725,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "animi",
-          "TooltipHint": "dicta",
-          "LinkHint": "sunt"
+          "DisplayValue": "maiores",
+          "TooltipHint": "magni",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "fugit",
+      "LinkHint": "sed",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 945
         }
       }
     }
   ],
-  "RowCount": 630,
+  "RowCount": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 417
     }
   }
 }

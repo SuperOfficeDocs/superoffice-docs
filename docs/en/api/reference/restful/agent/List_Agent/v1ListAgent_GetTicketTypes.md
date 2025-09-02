@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketTypes
 uid: v1ListAgent_GetTicketTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketTypes
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,31 +95,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 89,
-    "Name": "Wiegand Group",
-    "Rank": 20,
-    "Tooltip": "eveniet",
-    "Icon": "occaecati",
-    "DefaultTicketStatus": 282,
+    "TicketTypeId": 804,
+    "Name": "Gibson Group",
+    "Rank": 222,
+    "Tooltip": "laborum",
+    "Icon": "voluptatum",
+    "DefaultTicketStatus": 353,
     "TicketStatuses": [
-      352,
-      701
+      46,
+      258
     ],
-    "DefaultTicketPriority": 133,
+    "DefaultTicketPriority": 966,
     "TicketPriorities": [
-      760,
-      307
+      524,
+      261
     ],
-    "ReplyTemplate": 260,
+    "ReplyTemplate": 144,
     "IsExternalVisible": false,
     "IsDefault": false,
     "ShowInNew": true,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      259,
-      66
+      518,
+      932
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": true,
@@ -126,8 +127,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

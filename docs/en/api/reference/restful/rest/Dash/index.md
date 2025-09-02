@@ -1,6 +1,8 @@
 ---
+uid: tag-Dash
 title: Dash
 generated: true
+content_type: reference
 ---
 
 ```http

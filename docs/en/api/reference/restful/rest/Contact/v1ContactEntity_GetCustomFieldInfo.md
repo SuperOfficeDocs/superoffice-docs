@@ -2,6 +2,7 @@
 title: GET Contact/CustomField/{fieldName}
 uid: v1ContactEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Contact/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Will Group",
-  "DisplayName": "Wiegand Inc and Sons",
-  "Description": "Expanded bottom-line Graphical User Interface",
-  "ShortLabel": "omnis",
+  "FieldName": "Pfannerstill, Purdy and Prohaska",
+  "DisplayName": "Swaniawski-Murphy",
+  "Description": "Versatile client-driven implementation",
+  "ShortLabel": "labore",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 975,
-  "TemplateVariableName": "Lindgren, Grady and Ziemann"
+  "IsDisplayField": true,
+  "Rank": 330,
+  "TemplateVariableName": "Gorczany Group"
 }
 ```

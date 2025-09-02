@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetGroup
 uid: v1TargetsAgent_CreateDefaultTargetGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetGroup
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 ```
 
-Set default values into a new TargetGroup.
+Loading default values into a new TargetGroup.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,30 +71,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 642,
-  "Year": 16,
+  "TargetGroupId": 838,
+  "Year": 701,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 582,
+      "TargetAssignmentInfoId": 890,
       "Values": [
-        962,
-        798
+        156,
+        889
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 181,
-      "DimensionListItemDisplayName": "Kub, Feeney and Langosh",
+      "DimensionListItem": 234,
+      "DimensionListItemDisplayName": "Schuster-Baumbach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 534
         }
       }
     }
@@ -106,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 661
     }
   }
 }

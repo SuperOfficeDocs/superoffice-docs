@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDashTileSelectionFromEntity SOAP
 generated: true
 uid: Services88-Dash-CreateDashTileSelectionFromEntity
+content_type: reference
 ---
 
 # Services88 Dash CreateDashTileSelectionFromEntity

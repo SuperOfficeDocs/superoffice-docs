@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent.SetEnabled SOAP
 generated: true
 uid: Services88-FreeText-SetEnabled
+content_type: reference
 ---
 
 # Services88 FreeText SetEnabled

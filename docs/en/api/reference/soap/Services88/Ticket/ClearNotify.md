@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.ClearNotify SOAP
 generated: true
 uid: Services88-Ticket-ClearNotify
+content_type: reference
 ---
 
 # Services88 Ticket ClearNotify

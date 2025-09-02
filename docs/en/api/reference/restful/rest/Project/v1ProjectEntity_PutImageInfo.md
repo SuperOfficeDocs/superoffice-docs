@@ -2,6 +2,7 @@
 title: PUT Project/{id}/ImageInfo
 uid: v1ProjectEntity_PutImageInfo
 generated: true
+content_type: reference
 ---
 
 # PUT Project/{id}/ImageInfo
@@ -31,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=481
+PUT /api/v1/Project/{id}/ImageInfo?projectId=918
 ```
 
 
@@ -104,23 +105,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 13,
-  "BlobSize": 921,
-  "Description": "Virtual local orchestration",
-  "ExtraInfo": "et",
+  "BlobId": 619,
+  "BlobSize": 793,
+  "Description": "Diverse reciprocal archive",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "earum",
-  "OriginalSize": 196,
-  "CreatedDate": "2000-10-04T03:45:28.5296817+02:00",
-  "UpdatedDate": "2021-03-23T03:45:28.5296817+01:00",
+  "MimeType": "architecto",
+  "OriginalSize": 975,
+  "CreatedDate": "1999-11-25T03:47:00.2068137+01:00",
+  "UpdatedDate": "2013-08-29T03:47:00.2068137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "amet"
+  "ConceptualType": "excepturi"
 }
 ```
 
@@ -131,25 +132,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 354,
-  "BlobSize": 766,
-  "Description": "Diverse multi-state parallelism",
-  "ExtraInfo": "eius",
-  "IsEncrypted": true,
+  "BlobId": 887,
+  "BlobSize": 244,
+  "Description": "Operative secondary matrix",
+  "ExtraInfo": "iusto",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "in",
-  "OriginalSize": 798,
-  "CreatedDate": "2008-11-15T03:45:28.5296817+01:00",
-  "UpdatedDate": "1998-12-03T03:45:28.5296817+01:00",
+  "MimeType": "excepturi",
+  "OriginalSize": 503,
+  "CreatedDate": "2002-08-21T03:47:00.2068137+02:00",
+  "UpdatedDate": "2022-08-05T03:47:00.2068137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "a",
+  "ConceptualType": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 382
     }
   }
 }

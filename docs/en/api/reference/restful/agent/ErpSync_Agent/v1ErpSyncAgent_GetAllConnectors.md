@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetAllConnectors
 uid: v1ErpSyncAgent_GetAllConnectors
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetAllConnectors
@@ -81,14 +82,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Renner, Hand and Williamson",
-    "ToolTip": "Sunt harum accusamus aut sint."
+    "Id": 135,
+    "Name": "Little, Rolfson and Jakubowski",
+    "ToolTip": "Quibusdam esse."
   },
   {
-    "Id": 239,
-    "Name": "Renner, Hand and Williamson",
-    "ToolTip": "Sunt harum accusamus aut sint."
+    "Id": 135,
+    "Name": "Little, Rolfson and Jakubowski",
+    "ToolTip": "Quibusdam esse."
   }
 ]
 ```

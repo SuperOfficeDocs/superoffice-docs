@@ -4,7 +4,7 @@ title: NetServer template variables
 description: List of all template variables defined in NetServer.
 generated: true
 keywords: template variables
-topic: reference
+content_type: reference
 envir: onsite
 ---
 

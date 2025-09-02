@@ -2,10 +2,10 @@
 uid: table-extra_tables_entry
 title: extra_tables_entry table
 description: Hits/entries in result set of executed search in ejournal extra tables
-so.generated: true
+generated: true
 keywords: database table extra_tables_entry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # extra\_tables\_entry Table (309)

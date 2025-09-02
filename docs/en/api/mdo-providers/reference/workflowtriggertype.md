@@ -3,9 +3,9 @@ uid: workflowtriggertype
 title: workflowtriggertype
 keywords: mdoprovider mdo provider workflowtriggertype
 description: MDO provider for the WorkflowTriggerType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "workflowtriggertype" MDO List

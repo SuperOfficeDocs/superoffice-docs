@@ -3,9 +3,9 @@ uid: formratingthumbs
 title: formratingthumbs
 keywords: mdoprovider mdo provider formratingthumbs
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formratingthumbs" MDO List

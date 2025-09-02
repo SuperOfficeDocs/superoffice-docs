@@ -2,6 +2,7 @@
 title: PUT List/ConsentSource
 uid: v1ConsentSourceList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentSource
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Sanford-Turcotte",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "Rank": 383,
+  "Id": 100,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 203,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
   "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Langworth, Kemmer and Homenick",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 500,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 859,
+  "Name": "Metz, Greenholt and Kemmer",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 927,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldLength": 478
     }
   }
 }

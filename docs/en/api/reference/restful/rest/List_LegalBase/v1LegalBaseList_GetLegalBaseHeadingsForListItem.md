@@ -2,6 +2,7 @@
 title: GET List/LegalBase/Items/{id}/Headings
 uid: v1LegalBaseList_GetLegalBaseHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Kutch-Ankunding",
-    "ToolTip": "Ut ipsam eum ipsam dignissimos sed.",
-    "Deleted": true,
-    "Rank": 575,
-    "Type": "corporis",
-    "ColorBlock": 264,
-    "IconHint": "harum",
+    "Id": 677,
+    "Name": "Baumbach, Nitzsche and Turner",
+    "ToolTip": "Cupiditate mollitia laudantium modi vel perferendis rem iure.",
+    "Deleted": false,
+    "Rank": 973,
+    "Type": "sint",
+    "ColorBlock": 512,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1999-11-17T03:45:29.0452922+01:00",
+    "LastChanged": "2008-11-16T03:47:00.6755475+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Larkin-Zboncak",
-        "ToolTip": "Voluptatem molestias qui.",
+        "Id": 674,
+        "Name": "Huels-Reilly",
+        "ToolTip": "Eaque maxime qui consequatur consequatur.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "iste",
-        "ColorBlock": 258,
-        "IconHint": "non",
+        "Rank": 145,
+        "Type": "aliquid",
+        "ColorBlock": 460,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2019-03-08T03:45:29.0452922+01:00",
+        "LastChanged": "2002-12-06T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "facilis",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Janae Nienow",
+        "FullName": "Ms. Jaylin Muller III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 196
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Clark Bradtke",
+    "ExtraInfo": "eos",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Rashad Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 768
       }
     }
   }

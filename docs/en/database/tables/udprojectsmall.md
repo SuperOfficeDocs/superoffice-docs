@@ -2,10 +2,10 @@
 uid: table-udprojectSmall
 title: udprojectSmall table
 description: User-defined fields
-so.generated: true
+generated: true
 keywords: database table udprojectSmall
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # udprojectSmall Table (142)

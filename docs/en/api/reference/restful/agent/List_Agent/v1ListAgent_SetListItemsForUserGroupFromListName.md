@@ -2,6 +2,7 @@
 title: POST Agents/List/SetListItemsForUserGroupFromListName
 uid: v1ListAgent_SetListItemsForUserGroupFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetListItemsForUserGroupFromListName
@@ -67,17 +68,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runolfsdottir-Huels",
-  "UsergroupId": 407,
+  "UdListDefinitionName": "Conroy, Metz and Bogisich",
+  "UsergroupId": 527,
   "ListItemsID": [
-    815,
-    342
+    585,
+    934
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

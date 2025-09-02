@@ -2,6 +2,7 @@
 title: PUT List/Rating
 uid: v1RatingList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Rating
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Swaniawski Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 108,
-  "IsCustomList": false,
+  "Id": 752,
+  "Name": "Reichert Group",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "Rank": 602,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Cassin LLC",
-  "Tooltip": "aperiam",
+  "Id": 232,
+  "Name": "Hagenes Group",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 428,
+  "Rank": 598,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "facere",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

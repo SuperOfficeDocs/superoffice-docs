@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUntrustedCredentialsForAssociate
 uid: v1UserAgent_GetUntrustedCredentialsForAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUntrustedCredentialsForAssociate
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 89,
-  "Type": "voluptatem"
+  "AssociateId": 542,
+  "Type": "et"
 }
 ```
 
@@ -101,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2008-08-06T03:45:24.1860585+02:00",
-    "ValidTo": "2025-05-20T03:45:24.1860585+02:00",
-    "Comment": "rerum",
-    "SecretValue": "sint",
-    "PublicValue": "qui",
-    "IsActive": false,
+    "ValidFrom": "2006-08-03T03:46:55.6132266+02:00",
+    "ValidTo": "2017-09-18T03:46:55.6132266+02:00",
+    "Comment": "non",
+    "SecretValue": "sed",
+    "PublicValue": "minima",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 784
       }
     }
   }

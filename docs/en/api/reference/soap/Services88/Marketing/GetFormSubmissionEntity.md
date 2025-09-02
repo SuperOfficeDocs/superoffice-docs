@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.GetFormSubmissionEntity SOAP
 generated: true
 uid: Services88-Marketing-GetFormSubmissionEntity
+content_type: reference
 ---
 
 # Services88 Marketing GetFormSubmissionEntity
@@ -65,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Marketing:Response xsi:type="Marketing:FormSubmissionEntity">
     <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
     <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:WhenSubmitted>
+    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:WhenSubmitted>
     <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
     <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>

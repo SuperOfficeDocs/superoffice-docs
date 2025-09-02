@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultTicketCategoryEntity
 uid: v1ListAgent_CreateDefaultTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultTicketCategoryEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 ```
 
-Set default values into a new TicketCategoryEntity.
+Loading default values into a new TicketCategoryEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -74,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 143,
-  "ParentId": 154,
-  "Name": "Stiedemann, Ward and Gottlieb",
-  "Fullname": "et",
-  "CategoryMaster": 227,
+  "TicketCategoryId": 433,
+  "ParentId": 53,
+  "Name": "Jakubowski-Auer",
+  "Fullname": "vero",
+  "CategoryMaster": 425,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Feeney, Cartwright and Stamm",
+  "ExternalName": "Rowe Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 83,
-  "ReplyTemplate": 339,
-  "NotificationEmail": "jazmyn@hegmann.uk",
+  "AssignmentLag": 155,
+  "ReplyTemplate": 304,
+  "NotificationEmail": "dillan@kuphalprice.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 27,
+  "EffectiveReplyTemplateId": 224,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "et"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "atque",
+    "CustomFields2": "tempora"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 34
     }
   }
 }

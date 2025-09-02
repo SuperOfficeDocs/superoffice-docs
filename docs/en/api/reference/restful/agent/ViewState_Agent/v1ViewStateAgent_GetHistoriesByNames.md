@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetHistoriesByNames
 uid: v1ViewStateAgent_GetHistoriesByNames
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetHistoriesByNames
@@ -79,13 +80,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Howe, Tromp and Dickens",
-    "Mosciski-Hegmann"
+    "Becker, Mraz and Jast",
+    "Luettgen Group"
   ]
 }
 ```
@@ -98,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 701,
-    "Id": 496,
-    "HistoryName": "Bernhard-Nolan",
-    "HistoryId": 783,
-    "AssociateId": 65,
-    "Name": "Renner, Morissette and Schmidt",
-    "ItemInfo": "ea",
+    "Rank": 75,
+    "Id": 851,
+    "HistoryName": "Reichert Group",
+    "HistoryId": 478,
+    "AssociateId": 570,
+    "Name": "Paucek Group",
+    "ItemInfo": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

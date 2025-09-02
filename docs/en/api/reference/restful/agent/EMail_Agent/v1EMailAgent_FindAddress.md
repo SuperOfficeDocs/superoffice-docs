@@ -2,6 +2,7 @@
 title: POST Agents/EMail/FindAddress
 uid: v1EMailAgent_FindAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/FindAddress
@@ -87,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "fugit"
+  "Address": "rerum"
 }
 ```
 
@@ -99,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 613,
-    "ContactName": "Leffler, Kessler and Bartell",
-    "PersonId": 146,
-    "PersonName": "Christiansen Group",
-    "AssociateId": 560,
-    "Address": "qui",
-    "EmailId": 848,
+    "ContactId": 665,
+    "ContactName": "Cruickshank, Ortiz and King",
+    "PersonId": 345,
+    "PersonName": "Bradtke, Koss and Herzog",
+    "AssociateId": 84,
+    "Address": "et",
+    "EmailId": 182,
     "DuplicatePersonIds": [
-      703,
-      376
+      276,
+      588
     ],
-    "Name": "Larkin LLC",
+    "Name": "Bradtke Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 994
       }
     }
   }

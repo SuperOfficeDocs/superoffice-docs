@@ -2,6 +2,7 @@
 title: POST Contact/UdefLayout
 uid: v1ContactEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Contact/UdefLayout
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 808,
-  "ColumnId": 564,
-  "FieldDefault": "nisi",
-  "FieldHeight": 100,
-  "FieldLabel": "sapiente",
-  "FieldLeft": 319,
-  "FieldTop": 147,
+  "UDefFieldId": 919,
+  "ColumnId": 954,
+  "FieldDefault": "porro",
+  "FieldHeight": 242,
+  "FieldLabel": "inventore",
+  "FieldLeft": 300,
+  "FieldTop": 314,
   "FieldType": "Checkbox",
-  "FieldWidth": 23,
-  "FormatMask": "est",
+  "FieldWidth": 466,
+  "FormatMask": "sit",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 828,
-  "LabelLeft": 683,
-  "LabelTop": 303,
-  "LabelWidth": 465,
-  "LastVersionId": 173,
-  "ListTableId": 765,
-  "IsMandatory": false,
+  "LabelHeight": 602,
+  "LabelLeft": 502,
+  "LabelTop": 800,
+  "LabelWidth": 62,
+  "LastVersionId": 463,
+  "ListTableId": 258,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 928,
-  "ProgId": "quam",
-  "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 724,
-  "TextLength": 168,
-  "Tooltip": "illum",
-  "UdefIdentity": 414,
-  "UDListDefinitionId": 907,
+  "Page1LineNo": 786,
+  "ProgId": "iure",
+  "IsReadOnly": true,
+  "ShortLabel": "sapiente",
+  "TabOrder": 719,
+  "TextLength": 192,
+  "Tooltip": "harum",
+  "UdefIdentity": 827,
+  "UDListDefinitionId": 471,
   "Justification": "Center",
-  "Version": 250,
-  "TemplateVariableName": "Grady-Fahey",
-  "HasBeenPublished": true,
-  "MdoListName": "Rolfson-O'Reilly",
+  "Version": 745,
+  "TemplateVariableName": "Heller Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Carter-Welch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 907
     }
   }
 }

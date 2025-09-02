@@ -2,6 +2,7 @@
 title: POST Agents/Sentry/GetNewTableRight
 uid: v1SentryAgent_GetNewTableRight
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sentry/GetNewTableRight
@@ -76,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schmeler-Corkery"
+  "TableName": "Kihn Group"
 }
 ```
 
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "Delete",
+  "Mask": "nihil",
   "Reason": ""
 }
 ```

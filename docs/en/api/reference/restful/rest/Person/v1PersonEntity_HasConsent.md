@@ -2,6 +2,7 @@
 title: GET Person/{id}/Consent/{purpose}
 uid: v1PersonEntity_HasConsent
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Consent/{purpose}
@@ -57,7 +58,7 @@ OK
 GET /api/v1/Person/{personId}/Consent/{purpose}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,5 +67,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleStakeholderById
 uid: v1SaleAgent_GetSaleStakeholderById
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleStakeholderById
@@ -96,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    278,
-    78
+    353,
+    612
   ]
 }
 ```
@@ -110,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Orn, Funk and Lebsack",
-    "Comment": "iusto",
-    "StakeholderRoleId": 351,
-    "CountryId": 701,
-    "PersonId": 703,
-    "EmailDescription": "kelley@russel.info",
-    "EmailId": 482,
-    "EmailAddress": "esteban.fay@bechtelargrimes.ca",
-    "PhoneId": 176,
-    "ContactName": "Ullrich, Koch and Hayes",
-    "ContactId": 337,
-    "SaleId": 905,
-    "Mrmrs": "exercitationem",
-    "Firstname": "Werner",
-    "MiddleName": "Rosenbaum Inc and Sons",
-    "Lastname": "Langworth",
-    "SaleStakeholderId": 233,
-    "Rank": 422,
-    "Phone": "566-596-8589 x19032",
+    "StakeholderRoleName": "Morissette-Ruecker",
+    "Comment": "qui",
+    "StakeholderRoleId": 697,
+    "CountryId": 81,
+    "PersonId": 286,
+    "EmailDescription": "alaina_will@schmitt.info",
+    "EmailId": 862,
+    "EmailAddress": "camryn@runtewolf.uk",
+    "PhoneId": 302,
+    "ContactName": "Zulauf, Hackett and Romaguera",
+    "ContactId": 352,
+    "SaleId": 595,
+    "Mrmrs": "aut",
+    "Firstname": "Oda",
+    "MiddleName": "Gutkowski Group",
+    "Lastname": "Thiel",
+    "SaleStakeholderId": 816,
+    "Rank": 102,
+    "Phone": "1-553-482-8464",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 447
       }
     }
   }

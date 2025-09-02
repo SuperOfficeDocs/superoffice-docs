@@ -2,6 +2,7 @@
 title: POST Agents/Targets/SaveTargetGroup
 uid: v1TargetsAgent_SaveTargetGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/SaveTargetGroup
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Targets/SaveTargetGroup
 ```
 
-Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty
+Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TargetGroup or creates a new TargetGroup if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: targetGroup 
 
-The TargetGroup to be saved. 
+The TargetGroup that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,24 +78,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 668,
-  "Year": 66,
+  "TargetGroupId": 50,
+  "Year": 56,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 49,
+      "TargetAssignmentInfoId": 395,
       "Values": [
-        86,
-        761
+        576,
+        406
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 23,
-      "DimensionListItemDisplayName": "Russel, Altenwerth and Smith"
+      "DimensionListItem": 773,
+      "DimensionListItemDisplayName": "Medhurst LLC"
     }
   ],
   "TargetDimension": null
@@ -108,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 398,
-  "Year": 301,
+  "TargetGroupId": 486,
+  "Year": 475,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 639,
+      "TargetAssignmentInfoId": 885,
       "Values": [
-        559,
-        393
+        678,
+        242
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 226,
-      "DimensionListItemDisplayName": "Williamson-Kuhic",
+      "DimensionListItem": 907,
+      "DimensionListItemDisplayName": "Ernser, Weber and Douglas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 914
         }
       }
     }
@@ -141,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

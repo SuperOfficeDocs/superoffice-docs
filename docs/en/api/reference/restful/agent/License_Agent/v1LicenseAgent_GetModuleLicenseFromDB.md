@@ -2,6 +2,7 @@
 title: POST Agents/License/GetModuleLicenseFromDB
 uid: v1LicenseAgent_GetModuleLicenseFromDB
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetModuleLicenseFromDB
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Balistreri, King and Greenfelder",
-  "ModuleName": "Pacocha LLC"
+  "OwnerName": "Altenwerth, Stiedemann and Renner",
+  "ModuleName": "Turcotte-Koss"
 }
 ```
 
@@ -102,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hane, Senger and Williamson",
-  "ModuleName": "Goodwin, Mann and Fisher",
-  "ModuleDescription": "Optional cohesive portal",
-  "ModuleTooltip": "incidunt",
-  "ModuleVersion": "mollitia",
+  "OwnerName": "Wuckert Group",
+  "ModuleName": "Rohan, Frami and Heathcote",
+  "ModuleDescription": "Down-sized coherent benchmark",
+  "ModuleTooltip": "et",
+  "ModuleVersion": "veritatis",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 930,
-  "ExtraFlags": 170,
-  "ExtraInfo": "exercitationem",
-  "SortOrder": 119,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Bauch LLC",
-  "Signature": "enim"
+  "NumberOfLicenses": 566,
+  "ExtraFlags": 578,
+  "ExtraInfo": "et",
+  "SortOrder": 18,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Hilll, Beer and Kertzmann",
+  "Signature": "sit"
 }
 ```

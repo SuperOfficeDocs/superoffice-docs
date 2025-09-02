@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/GetRegisteredDevices
 uid: v1PocketAgent_GetRegisteredDevices
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/GetRegisteredDevices
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 593
+  "AssociateId": 541
 }
 ```
 
@@ -94,14 +95,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Shields-Marvin",
-    "DeviceIdentifier": "in",
-    "PocketVersion": "delectus",
-    "Language": "provident",
-    "PNSHandle": "et",
+    "DeviceName": "Yundt, Graham and Walker",
+    "DeviceIdentifier": "ut",
+    "PocketVersion": "voluptatem",
+    "Language": "nesciunt",
+    "PNSHandle": "aliquam",
     "Platform": "Apple",
-    "OSVersion": "quisquam",
-    "TimeZoneId": 525
+    "OSVersion": "assumenda",
+    "TimeZoneId": 513
   }
 ]
 ```

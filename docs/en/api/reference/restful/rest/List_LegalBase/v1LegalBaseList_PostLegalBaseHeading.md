@@ -2,6 +2,7 @@
 title: POST List/LegalBase/Headings
 uid: v1LegalBaseList_PostLegalBaseHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/LegalBase/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 113,
-  "Name": "Feil, Effertz and O'Kon",
-  "Tooltip": "cumque",
+  "HeadingId": 36,
+  "Name": "Sporer LLC",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 501,
-  "UdListDefinitionId": 57
+  "Rank": 925,
+  "UdListDefinitionId": 770
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 405,
-  "Name": "Kreiger-Witting",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "Rank": 507,
-  "UdListDefinitionId": 989,
+  "HeadingId": 894,
+  "Name": "Kutch-Gislason",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 717,
+  "UdListDefinitionId": 169,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldLength": 90
     }
   }
 }

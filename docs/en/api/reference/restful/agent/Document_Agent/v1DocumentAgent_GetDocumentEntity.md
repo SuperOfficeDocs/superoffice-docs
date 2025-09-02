@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetDocumentEntity
 uid: v1DocumentAgent_GetDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetDocumentEntity
@@ -22,11 +23,11 @@ Gets a DocumentEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| documentEntityId | int32 | **Required** The primary key. |
+| documentEntityId | int32 | **Required** The identifier of the DocumentEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=480
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=736
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +101,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +111,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 514,
+  "DocumentId": 950,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repellendus",
-  "Header": "consequatur",
-  "Name": "Satterfield, Raynor and Fadel",
-  "OurRef": "consequatur",
-  "YourRef": "aut",
-  "CreatedDate": "2014-01-09T03:45:23.3110832+01:00",
-  "UpdatedDate": "2000-05-03T03:45:23.3110832+02:00",
-  "Description": "Operative explicit methodology",
+  "Attention": "adipisci",
+  "Header": "saepe",
+  "Name": "Vandervort Group",
+  "OurRef": "doloremque",
+  "YourRef": "totam",
+  "CreatedDate": "2021-10-08T03:46:54.6445112+02:00",
+  "UpdatedDate": "2013-04-11T03:46:54.6445112+02:00",
+  "Description": "Implemented object-oriented moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-03-20T03:45:23.3110832+01:00",
-  "ExternalRef": "rerum",
+  "Date": "2022-04-09T03:46:54.6445112+02:00",
+  "ExternalRef": "consequuntur",
   "Completed": "Completed",
-  "ActiveLinks": 177,
+  "ActiveLinks": 426,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Paucek, Cremin and Grady",
-      "Id": 252,
-      "Description": "Organized disintermediate toolset",
-      "ExtraInfo": "at",
-      "LinkId": 498,
+      "EntityName": "Ferry, Bernhard and Treutel",
+      "Id": 30,
+      "Description": "Business-focused value-added productivity",
+      "ExtraInfo": "quo",
+      "LinkId": 558,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 782
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 163,
-  "Snum": 62,
+  "SuggestedDocumentId": 119,
+  "Snum": 317,
   "UserDefinedFields": {
-    "SuperOffice:1": "2041671485",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Maryjane Jeff Jast III",
+    "SuperOffice:2": "Vincenza Cleve Walker III"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "quas",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "et"
+    "CustomFields1": "amet",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2019-11-11T03:45:23.3110832+01:00",
-  "PublishTo": "2008-05-26T03:45:23.3110832+02:00",
-  "PublishFrom": "2002-10-25T03:45:23.3110832+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-01-05T03:46:54.6445112+01:00",
+  "PublishTo": "2009-04-05T03:46:54.6445112+02:00",
+  "PublishFrom": "2004-05-18T03:46:54.6445112+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 832,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 272
         }
       }
     },
     {
-      "VisibleId": 832,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 272
         }
       }
     }
@@ -201,7 +202,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 389
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.GetEntityCountsForCurrentUser SOAP
 generated: true
 uid: Services88-Diagnostics-GetEntityCountsForCurrentUser
+content_type: reference
 ---
 
 # Services88 Diagnostics GetEntityCountsForCurrentUser

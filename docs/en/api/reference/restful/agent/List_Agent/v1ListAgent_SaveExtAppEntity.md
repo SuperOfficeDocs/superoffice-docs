@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveExtAppEntity
 uid: v1ListAgent_SaveExtAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveExtAppEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveExtAppEntity
 ```
 
-Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty
+Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: extAppEntity 
 
-The ExtAppEntity to be saved. 
+The ExtAppEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,32 +106,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 637,
-  "Name": "Denesik, Metz and Brakus",
-  "Tooltip": "culpa",
+  "ExtAppId": 216,
+  "Name": "Ratke, Hane and Kris",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 81,
-  "Filename": "dolorem",
-  "Parameters": "nesciunt",
-  "Workdir": "harum",
+  "Rank": 724,
+  "Filename": "corrupti",
+  "Parameters": "blanditiis",
+  "Workdir": "occaecati",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 4,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 326,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "recusandae"
+  "Path": "non"
 }
 ```
 
@@ -141,34 +142,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 51,
-  "Name": "Wuckert-Farrell",
-  "Tooltip": "mollitia",
+  "ExtAppId": 534,
+  "Name": "Gorczany-Macejkovic",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 12,
-  "Filename": "voluptatem",
-  "Parameters": "aliquam",
-  "Workdir": "voluptates",
+  "Rank": 555,
+  "Filename": "ut",
+  "Parameters": "sed",
+  "Workdir": "qui",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 386,
-  "WaitToFinish": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "Icon": 344,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sed",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 852
     }
   }
 }

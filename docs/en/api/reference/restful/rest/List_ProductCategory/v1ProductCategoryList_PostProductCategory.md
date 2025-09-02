@@ -2,6 +2,7 @@
 title: POST List/ProductCategory/Items
 uid: v1ProductCategoryList_PostProductCategory
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductCategory/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Name": "Franecki LLC",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "UdListDefinitionId": 934,
-  "Rank": 977
+  "Id": 189,
+  "Name": "Blick, Conn and Rempel",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "UdListDefinitionId": 147,
+  "Rank": 893
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Hartmann LLC",
-  "Tooltip": "nesciunt",
+  "Id": 989,
+  "Name": "Quigley, Stoltenberg and Hessel",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 342,
-  "Rank": 455,
+  "UdListDefinitionId": 122,
+  "Rank": 368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET User/currentPrincipal
 uid: v1User_GetCurrentPrincipal
 generated: true
+content_type: reference
 ---
 
 # GET User/currentPrincipal
@@ -81,7 +82,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,76 +93,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quia",
-  "AssociateId": 135,
+  "Associate": "rem",
+  "AssociateId": 281,
   "IsPerson": false,
-  "PersonId": 635,
-  "CountryId": 155,
-  "HomeCountryId": 41,
-  "ContactId": 995,
-  "GroupId": 436,
-  "BusinessId": 73,
-  "CategoryId": 579,
-  "ContactOwner": 723,
-  "RoleId": 253,
-  "RoleName": "Mraz, Bartell and Bergnaum",
-  "RoleDescription": "Streamlined explicit parallelism",
+  "PersonId": 936,
+  "CountryId": 314,
+  "HomeCountryId": 492,
+  "ContactId": 796,
+  "GroupId": 561,
+  "BusinessId": 465,
+  "CategoryId": 220,
+  "ContactOwner": 130,
+  "RoleId": 564,
+  "RoleName": "Hand, Konopelski and Haag",
+  "RoleDescription": "Cloned bottom-line time-frame",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 182,
-      "OwnerName": "Breitenberg-Connelly",
-      "OwnerDescription": "Phased didactic framework",
-      "ModuleId": 467,
-      "Name": "Emard-Carter",
-      "Description": "Front-line global solution",
-      "Version": "harum",
+      "OwnerId": 161,
+      "OwnerName": "Lemke-Roberts",
+      "OwnerDescription": "Persevering clear-thinking info-mediaries",
+      "ModuleId": 311,
+      "Name": "Bradtke-Leuschke",
+      "Description": "Sharable incremental workforce",
+      "Version": "rerum",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 578,
-      "ExtraInfo": "velit",
-      "SortOrder": 534,
-      "LicenseNumber": 127,
-      "IsHidden": false,
+      "ExtraFlags": 435,
+      "ExtraInfo": "quasi",
+      "SortOrder": 628,
+      "LicenseNumber": 54,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "1998-09-30T03:45:28.8734254+02:00",
+      "ExpiryDate": "2009-11-21T03:47:00.5349272+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 121
         }
       }
     }
   ],
-  "FullName": "Issac Kub",
-  "EMailAddress": "et",
+  "FullName": "Crawford Kris",
+  "EMailAddress": "consequatur",
   "FunctionRights": [
-    "perspiciatis",
-    "cum"
+    "quam",
+    "quisquam"
   ],
-  "EjUserId": 764,
-  "EjAccessLevel": 827,
+  "EjUserId": 470,
+  "EjAccessLevel": 942,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "minus",
-      "SearchName": "Windler, Skiles and Quitzon",
-      "DisplayName": "Wolf LLC",
-      "CredentialId": 122
+      "Type": "deleniti",
+      "SearchName": "Dickens-Blick",
+      "DisplayName": "Schowalter-Thiel",
+      "CredentialId": 508
     },
     {
-      "Type": "minus",
-      "SearchName": "Windler, Skiles and Quitzon",
-      "DisplayName": "Wolf LLC",
-      "CredentialId": 122
+      "Type": "deleniti",
+      "SearchName": "Dickens-Blick",
+      "DisplayName": "Schowalter-Thiel",
+      "CredentialId": 508
     }
   ],
   "SecondaryGroups": [
-    673,
-    182
+    654,
+    492
   ],
-  "DatabaseContextIdentifier": "itaque",
-  "UserName": "Hilll-Goodwin"
+  "DatabaseContextIdentifier": "est",
+  "UserName": "Greenfelder-Schneider"
 }
 ```

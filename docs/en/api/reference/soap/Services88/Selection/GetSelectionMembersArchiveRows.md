@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetSelectionMembersArchiveRows SOAP
 generated: true
 uid: Services88-Selection-GetSelectionMembersArchiveRows
+content_type: reference
 ---
 
 # Services88 Selection GetSelectionMembersArchiveRows

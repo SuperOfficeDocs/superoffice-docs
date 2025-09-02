@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCategoryList
 uid: v1ListAgent_GetCategoryList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCategoryList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCategoryList?$select=name,department,category/id
 
 ## Request Body: categoryIds 
 
-The primary keys. 
+The identifiers of the Category object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Value": "quisquam",
-    "Tooltip": "maxime",
+    "Id": 720,
+    "Value": "id",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   },
   {
-    "Id": 342,
-    "Value": "quisquam",
-    "Tooltip": "maxime",
+    "Id": 720,
+    "Value": "id",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   }

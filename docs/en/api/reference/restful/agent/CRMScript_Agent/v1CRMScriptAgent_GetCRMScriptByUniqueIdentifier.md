@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 uid: v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
@@ -75,6 +76,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ratione"
+  "UniqueIdentifier": "inventore"
 }
 ```
 
@@ -99,22 +101,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ullam",
-  "Name": "Zieme LLC",
-  "Description": "Extended discrete moderator",
-  "IncludeId": "aut",
-  "Source": "quisquam",
-  "Registered": "2015-02-21T03:45:23.2329582+01:00",
-  "RegisteredBy": "natus",
-  "Updated": "2012-08-14T03:45:23.2329582+02:00",
-  "UpdatedBy": "sed",
-  "Path": "quis",
+  "UniqueIdentifier": "omnis",
+  "Name": "Steuber-Kris",
+  "Description": "Mandatory system-worthy installation",
+  "IncludeId": "ducimus",
+  "Source": "aut",
+  "Registered": "2020-09-28T03:46:54.5663888+02:00",
+  "RegisteredBy": "quasi",
+  "Updated": "2019-03-30T03:46:54.5663888+01:00",
+  "UpdatedBy": "tempora",
+  "Path": "cumque",
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 592
     }
   }
 }

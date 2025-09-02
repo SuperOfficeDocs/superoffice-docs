@@ -2,6 +2,7 @@
 title: POST List/ProductFamily/Headings
 uid: v1ProductFamilyList_PostProductFamilyHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductFamily/Headings
@@ -79,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 709,
-  "Name": "Hackett-Sanford",
-  "Tooltip": "accusamus",
+  "HeadingId": 71,
+  "Name": "West Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 9,
-  "UdListDefinitionId": 899
+  "Rank": 596,
+  "UdListDefinitionId": 771
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 662,
-  "Name": "Koch-Gottlieb",
-  "Tooltip": "in",
+  "HeadingId": 893,
+  "Name": "Weber-Shields",
+  "Tooltip": "mollitia",
   "Deleted": true,
-  "Rank": 14,
-  "UdListDefinitionId": 97,
+  "Rank": 279,
+  "UdListDefinitionId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 677
     }
   }
 }

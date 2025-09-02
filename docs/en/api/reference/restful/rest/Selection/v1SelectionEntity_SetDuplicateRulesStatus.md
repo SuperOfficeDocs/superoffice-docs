@@ -2,6 +2,7 @@
 title: PUT Selection/DuplicateRules
 uid: v1SelectionEntity_SetDuplicateRulesStatus
 generated: true
+content_type: reference
 ---
 
 # PUT Selection/DuplicateRules
@@ -62,16 +63,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Waelchi-Ebert",
-    "DisplayName": "Murazik, O'Reilly and Mann",
-    "DisplayTooltip": "sit",
-    "IsActive": false
+    "Name": "Stamm-Ortiz",
+    "DisplayName": "Schaden Group",
+    "DisplayTooltip": "sed",
+    "IsActive": true
   },
   {
-    "Name": "Waelchi-Ebert",
-    "DisplayName": "Murazik, O'Reilly and Mann",
-    "DisplayTooltip": "sit",
-    "IsActive": false
+    "Name": "Stamm-Ortiz",
+    "DisplayName": "Schaden Group",
+    "DisplayTooltip": "sed",
+    "IsActive": true
   }
 ]
 ```

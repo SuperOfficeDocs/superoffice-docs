@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.RemoveContactSelectionMembersFromSearch SOAP
 generated: true
 uid: Services88-Selection-RemoveContactSelectionMembersFromSearch
+content_type: reference
 ---
 
 # Services88 Selection RemoveContactSelectionMembersFromSearch

@@ -2,10 +2,10 @@
 uid: enum-formtype
 title: Enum values for FormType
 description: Lists the enum values for FormType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # FormType Enum

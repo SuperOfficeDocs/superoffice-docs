@@ -2,6 +2,7 @@
 title: POST Agents/List/UpdateCategoryMemberships
 uid: v1ListAgent_UpdateCategoryMemberships
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/UpdateCategoryMemberships
@@ -67,39 +68,39 @@ No Content
 POST /api/v1/Agents/List/UpdateCategoryMemberships
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 947,
+  "TicketCategoryId": 753,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 48
+      "Weight": 494
     },
     {
       "User": null,
-      "Weight": 48
+      "Weight": 494
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 321
+      "Weight": 324
     },
     {
       "User": null,
-      "Weight": 321
+      "Weight": 324
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 995
+      "Weight": 529
     },
     {
       "User": null,
-      "Weight": 995
+      "Weight": 529
     }
   ]
 }

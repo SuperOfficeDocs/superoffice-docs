@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.ClearConfigurationCache SOAP
 generated: true
 uid: Services88-Configuration-ClearConfigurationCache
+content_type: reference
 ---
 
 # Services88 Configuration ClearConfigurationCache

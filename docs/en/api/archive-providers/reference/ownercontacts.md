@@ -3,9 +3,9 @@ uid: OwnerContacts
 title: OwnerContacts
 description: Archive provider for the list of own contacts in SoAdmin
 keywords: OwnerContacts archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "OwnerContacts"
@@ -361,7 +361,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=email/emailDescription,contactAssociate/usergroup,contactSupportAssociate/isLocation
+GET /api/v1/archive/OwnerContacts?$select=business,restrictionPostalAddress/zip,contactSupportAssociate/isLocation,contactSupportPerson/personExtra/x_person_date,contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

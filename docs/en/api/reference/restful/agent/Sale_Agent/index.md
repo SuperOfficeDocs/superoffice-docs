@@ -1,6 +1,8 @@
 ---
+uid: tag-Sale_Agent
 title: Sale_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,21 +12,13 @@ generated: true
 
 
 
+* [POST Agents/Sale/GetSale](v1SaleAgent_GetSale.md)
+
 * [POST Agents/Sale/CreateDefaultSaleEntity](v1SaleAgent_CreateDefaultSaleEntity.md)
 
 * [POST Agents/Sale/SaveSaleEntity](v1SaleAgent_SaveSaleEntity.md)
 
 * [POST Agents/Sale/DeleteSaleEntity](v1SaleAgent_DeleteSaleEntity.md)
-
-* [POST Agents/Sale/CreateDefaultSaleStakeholder](v1SaleAgent_CreateDefaultSaleStakeholder.md)
-
-* [POST Agents/Sale/SaveSaleStakeholder](v1SaleAgent_SaveSaleStakeholder.md)
-
-* [POST Agents/Sale/DeleteSaleStakeholder](v1SaleAgent_DeleteSaleStakeholder.md)
-
-* [POST Agents/Sale/CreateDefaultSaleSummary](v1SaleAgent_CreateDefaultSaleSummary.md)
-
-* [POST Agents/Sale/GetSale](v1SaleAgent_GetSale.md)
 
 * [POST Agents/Sale/GetSaleEntity](v1SaleAgent_GetSaleEntity.md)
 
@@ -78,6 +72,12 @@ generated: true
 
 * [POST Agents/Sale/GetSalesFromPerson](v1SaleAgent_GetSalesFromPerson.md)
 
+* [POST Agents/Sale/CreateDefaultSaleStakeholder](v1SaleAgent_CreateDefaultSaleStakeholder.md)
+
+* [POST Agents/Sale/SaveSaleStakeholder](v1SaleAgent_SaveSaleStakeholder.md)
+
+* [POST Agents/Sale/DeleteSaleStakeholder](v1SaleAgent_DeleteSaleStakeholder.md)
+
 * [POST Agents/Sale/GetSaleStakeholder](v1SaleAgent_GetSaleStakeholder.md)
 
 * [POST Agents/Sale/GetSaleStakeholderList](v1SaleAgent_GetSaleStakeholderList.md)
@@ -87,6 +87,8 @@ generated: true
 * [POST Agents/Sale/UpdateSaleStakeholders](v1SaleAgent_UpdateSaleStakeholders.md)
 
 * [POST Agents/Sale/GetSaleStakeholderById](v1SaleAgent_GetSaleStakeholderById.md)
+
+* [POST Agents/Sale/CreateDefaultSaleSummary](v1SaleAgent_CreateDefaultSaleSummary.md)
 
 * [POST Agents/Sale/GetSummaryByAssociate](v1SaleAgent_GetSummaryByAssociate.md)
 

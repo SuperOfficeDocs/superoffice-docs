@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLinkList
 uid: v1ListAgent_GetLinkList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLinkList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 
 ## Request Body: linkIds 
 
-The primary keys. 
+The identifiers of the Link object 
 
 
 ## Response:array
@@ -85,17 +86,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nitzsche Group",
-    "Id": 383,
-    "Description": "Mandatory object-oriented toolset",
-    "ExtraInfo": "voluptatem",
-    "LinkId": 49,
+    "EntityName": "Haley LLC",
+    "Id": 796,
+    "Description": "Centralized systemic intranet",
+    "ExtraInfo": "ad",
+    "LinkId": 263,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 181
       }
     }
   }

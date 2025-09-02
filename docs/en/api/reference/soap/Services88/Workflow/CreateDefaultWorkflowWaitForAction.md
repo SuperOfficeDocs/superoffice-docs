@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CreateDefaultWorkflowWaitForAction SOAP
 generated: true
 uid: Services88-Workflow-CreateDefaultWorkflowWaitForAction
+content_type: reference
 ---
 
 # Services88 Workflow CreateDefaultWorkflowWaitForAction

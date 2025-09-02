@@ -3,9 +3,9 @@ uid: QuoteConnector
 title: QuoteConnector
 description: 
 keywords: QuoteConnector archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteConnector"

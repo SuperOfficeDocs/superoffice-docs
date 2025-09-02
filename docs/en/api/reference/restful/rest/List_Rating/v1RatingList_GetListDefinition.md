@@ -2,6 +2,7 @@
 title: GET List/Rating
 uid: v1RatingList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 445,
+  "Id": 826,
+  "Name": "Moore, Feest and Berge",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 616,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

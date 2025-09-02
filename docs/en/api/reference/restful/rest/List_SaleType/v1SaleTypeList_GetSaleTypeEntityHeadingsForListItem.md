@@ -2,6 +2,7 @@
 title: GET List/SaleType/Items/{id}/Headings
 uid: v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/Items/{id}/Headings
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Kozey-Huel",
-    "ToolTip": "Laborum et.",
-    "Deleted": true,
-    "Rank": 857,
-    "Type": "et",
-    "ColorBlock": 342,
-    "IconHint": "nostrum",
+    "Id": 298,
+    "Name": "Hane-Wisozk",
+    "ToolTip": "Non dolorum quos facere expedita voluptas.",
+    "Deleted": false,
+    "Rank": 345,
+    "Type": "facere",
+    "ColorBlock": 650,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2022-07-05T03:45:29.2171623+02:00",
+    "LastChanged": "2005-04-15T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Price-Dach",
-        "ToolTip": "Id excepturi est corporis qui sit.",
+        "Id": 990,
+        "Name": "Zulauf Inc and Sons",
+        "ToolTip": "Quaerat et.",
         "Deleted": true,
-        "Rank": 576,
-        "Type": "non",
-        "ColorBlock": 19,
-        "IconHint": "deleniti",
+        "Rank": 238,
+        "Type": "quibusdam",
+        "ColorBlock": 142,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2000-02-20T03:45:29.2171623+01:00",
+        "LastChanged": "1999-12-25T03:47:00.8161673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Myriam Jed Greenfelder DDS",
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Danyka Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 85
+            "FieldType": "System.Int32",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Mr. Mia McClure III",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Aditya Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 645
       }
     }
   }

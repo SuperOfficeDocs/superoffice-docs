@@ -2,10 +2,10 @@
 uid: table-ms_trashbin
 title: ms_trashbin table
 description: This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import.
-so.generated: true
+generated: true
 keywords: database table ms_trashbin
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ms\_trashbin Table (312)

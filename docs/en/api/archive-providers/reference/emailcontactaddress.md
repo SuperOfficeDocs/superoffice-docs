@@ -3,9 +3,9 @@ uid: emailcontactaddress
 title: emailcontactaddress
 description: Contact subchannel for special purpose archive provider used to search for email addresses.
 keywords: emailcontactaddress archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailcontactaddress"
@@ -376,7 +376,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=restrictionAddress/line2,url/URLAddress,contactSupportPerson/personExtra/x_person_boolean,LastCompletedActivity
+GET /api/v1/archive/emailcontactaddress?$select=contactSupportPerson/associateType,contactSupportPerson/personActiveErpLinks,contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

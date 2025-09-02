@@ -2,6 +2,7 @@
 title: GET Selection
 uid: v1SelectionEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET Selection
@@ -70,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=aspernatur
-GET /api/v1/Selection?$top=585
-GET /api/v1/Selection?$skip=223
+GET /api/v1/Selection?$entities=incidunt
+GET /api/v1/Selection?$top=339
+GET /api/v1/Selection?$skip=630
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=vel
+GET /api/v1/Selection?$context=ut
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=True
+GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -118,7 +119,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolores",
+  "odata.nextLink": "laborum",
   "value": [
     {
-      "PrimaryKey": 3934,
-      "EntityName": "person",
-      "personId": 3934,
-      "fullName": "Curt Fay"
+      "PrimaryKey": 9111,
+      "EntityName": "sale",
+      "saleId": 9111,
+      "contactId": 3772,
+      "name": "Rogahn Inc and Sons"
     },
     {
-      "PrimaryKey": 2904,
-      "EntityName": "person",
-      "personId": 2904,
-      "fullName": "Camron Deckow"
+      "PrimaryKey": 1317,
+      "EntityName": "sale",
+      "saleId": 1317,
+      "contactId": 2553,
+      "name": "Simonis, Johnston and Ziemann"
     }
   ]
 }

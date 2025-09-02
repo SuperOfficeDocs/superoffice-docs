@@ -2,6 +2,7 @@
 title: GET List/MrMrs/MDOItems
 uid: v1MrMrsList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=fuga
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=vero
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Collins, Carter and Langosh",
-    "ToolTip": "Eos aut.",
-    "Deleted": true,
-    "Rank": 498,
-    "Type": "dolore",
+    "Id": 65,
+    "Name": "Bernhard-Herzog",
+    "ToolTip": "Harum dignissimos voluptas perspiciatis cupiditate rerum soluta rerum.",
+    "Deleted": false,
+    "Rank": 363,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Delectus non laborum.",
-        "Deleted": true,
-        "Rank": 88,
-        "Type": "qui",
+        "Id": 872,
+        "Name": "Botsford-Pollich",
+        "ToolTip": "Et fuga rem harum.",
+        "Deleted": false,
+        "Rank": 730,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 930,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "est",
-        "FullName": "Alicia Ankunding",
+        "IconHint": "qui",
+        "ColorBlock": 244,
+        "ExtraInfo": "earum",
+        "StyleHint": "amet",
+        "FullName": "Velma Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 927
           }
         }
       }
     ],
-    "IconHint": "corrupti",
-    "ColorBlock": 708,
-    "ExtraInfo": "tempore",
-    "StyleHint": "et",
-    "FullName": "Dion Roob",
+    "IconHint": "officia",
+    "ColorBlock": 441,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "ut",
+    "FullName": "Macie Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

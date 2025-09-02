@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Business
 title: List_Business
 generated: true
+content_type: reference
 ---
 
 ```http

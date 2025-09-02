@@ -3,9 +3,9 @@ uid: ChatConversationShadowSelectionCombinedV2
 title: ChatConversationShadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: ChatConversationShadowSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ChatConversationShadowSelectionCombinedV2"
@@ -492,7 +492,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=chatTopic/name,contact/restrictionAddress/wgs84longitude,contact/LastCompletedSale
+GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=whenRequested,duration,person/middleName,person/personExtra/x_person_user_relation,person/correspondingAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

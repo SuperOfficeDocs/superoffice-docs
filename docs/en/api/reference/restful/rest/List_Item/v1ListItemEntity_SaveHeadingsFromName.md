@@ -2,6 +2,7 @@
 title: PUT List/{name}/Headings
 uid: v1ListItemEntity_SaveHeadingsFromName
 generated: true
+content_type: reference
 ---
 
 # PUT List/{name}/Headings
@@ -77,25 +78,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 668,
-    "Name": "Orn-Bechtelar",
-    "Tooltip": "dolor",
+    "HeadingId": 264,
+    "Name": "Rodriguez-Medhurst",
+    "Tooltip": "natus",
     "Deleted": true,
-    "Rank": 79,
-    "UdListDefinitionId": 879
+    "Rank": 940,
+    "UdListDefinitionId": 951
   },
   {
-    "HeadingId": 668,
-    "Name": "Orn-Bechtelar",
-    "Tooltip": "dolor",
+    "HeadingId": 264,
+    "Name": "Rodriguez-Medhurst",
+    "Tooltip": "natus",
     "Deleted": true,
-    "Rank": 79,
-    "UdListDefinitionId": 879
+    "Rank": 940,
+    "UdListDefinitionId": 951
   }
 ]
 ```
@@ -108,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 689,
-    "Name": "Hudson LLC",
-    "Tooltip": "voluptas",
+    "HeadingId": 794,
+    "Name": "Weber Group",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 508,
+    "Rank": 580,
+    "UdListDefinitionId": 68,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 196
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetUIDFromAppointmentId SOAP
 generated: true
 uid: Services88-Appointment-GetUIDFromAppointmentId
+content_type: reference
 ---
 
 # Services88 Appointment GetUIDFromAppointmentId

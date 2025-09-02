@@ -3,9 +3,9 @@ uid: emailreplytotype
 title: emailreplytotype
 keywords: mdoprovider mdo provider emailreplytotype
 description: MDO provider for the EmailReplyToType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailreplytotype" MDO List

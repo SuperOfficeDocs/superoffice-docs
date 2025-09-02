@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/Publish
 uid: v1UserDefinedFieldInfoAgent_Publish
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/Publish
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-513
+771
 ```

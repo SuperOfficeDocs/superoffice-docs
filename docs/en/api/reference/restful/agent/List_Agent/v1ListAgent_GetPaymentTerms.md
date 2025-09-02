@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPaymentTerms
 uid: v1ListAgent_GetPaymentTerms
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPaymentTerms
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Value": "debitis",
-    "Tooltip": "et",
+    "Id": 620,
+    "Value": "nam",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 472
       }
     }
   },
   {
-    "Id": 78,
-    "Value": "debitis",
-    "Tooltip": "et",
+    "Id": 620,
+    "Value": "nam",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 472
       }
     }
   }

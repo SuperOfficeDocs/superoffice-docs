@@ -2,6 +2,7 @@
 title: POST Agents/List/SetTicketCategoriesForUserGroup
 uid: v1ListAgent_SetTicketCategoriesForUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetTicketCategoriesForUserGroup
@@ -69,10 +70,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 872,
+  "UserGroupId": 219,
   "CategoryIds": [
-    797,
-    817
+    137,
+    402
   ]
 }
 ```

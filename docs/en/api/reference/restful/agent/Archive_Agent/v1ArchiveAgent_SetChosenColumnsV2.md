@@ -2,6 +2,7 @@
 title: POST Agents/Archive/SetChosenColumnsV2
 uid: v1ArchiveAgent_SetChosenColumnsV2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/SetChosenColumnsV2
@@ -74,13 +75,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Johnston-Romaguera",
-  "ProviderName": "Sauer-Hartmann",
-  "Context": "dignissimos",
-  "OwnerKeys": "maiores",
+  "GuiName": "Kiehn-Reichel",
+  "ProviderName": "Gibson, Tillman and Wolf",
+  "Context": "sapiente",
+  "OwnerKeys": "est",
   "ChosenColumns": [
-    "consequatur",
-    "saepe"
+    "quis",
+    "praesentium"
   ]
 }
 ```

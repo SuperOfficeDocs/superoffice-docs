@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.CreateDefaultForeignAppEntity SOAP
 generated: true
 uid: Services88-ForeignSystem-CreateDefaultForeignAppEntity
+content_type: reference
 ---
 
 # Services88 ForeignSystem CreateDefaultForeignAppEntity
@@ -62,8 +63,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignAppEntity">
     <ForeignSystem:ForeignAppId xsi:type="xsd:int">0</ForeignSystem:ForeignAppId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:59Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:59Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:31Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:31Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:CreatedBy xsi:type="ForeignSystem:Associate">
      <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
@@ -77,6 +78,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Deleted xsi:type="xsd:boolean">false</ForeignSystem:Deleted>
      <ForeignSystem:EjUserId xsi:type="xsd:int">0</ForeignSystem:EjUserId>
      <ForeignSystem:UserName xsi:type="xsd:string"></ForeignSystem:UserName>
+     <ForeignSystem:ExtraFields xsi:type="ForeignSystem:StringDictionary">
+      <ForeignSystem:StringKeyValuePair>
+       <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
+       <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
+      </ForeignSystem:StringKeyValuePair>
+     </ForeignSystem:ExtraFields>
+     <ForeignSystem:CustomFields xsi:type="ForeignSystem:StringDictionary">
+      <ForeignSystem:StringKeyValuePair>
+       <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
+       <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
+      </ForeignSystem:StringKeyValuePair>
+     </ForeignSystem:CustomFields>
     </ForeignSystem:CreatedBy>
     <ForeignSystem:UpdatedBy xsi:type="ForeignSystem:Associate">
      <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
@@ -91,13 +104,25 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Deleted xsi:type="xsd:boolean">false</ForeignSystem:Deleted>
      <ForeignSystem:EjUserId xsi:type="xsd:int">0</ForeignSystem:EjUserId>
      <ForeignSystem:UserName xsi:type="xsd:string"></ForeignSystem:UserName>
+     <ForeignSystem:ExtraFields xsi:type="ForeignSystem:StringDictionary">
+      <ForeignSystem:StringKeyValuePair>
+       <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
+       <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
+      </ForeignSystem:StringKeyValuePair>
+     </ForeignSystem:ExtraFields>
+     <ForeignSystem:CustomFields xsi:type="ForeignSystem:StringDictionary">
+      <ForeignSystem:StringKeyValuePair>
+       <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
+       <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
+      </ForeignSystem:StringKeyValuePair>
+     </ForeignSystem:CustomFields>
     </ForeignSystem:UpdatedBy>
     <ForeignSystem:Devices xsi:type="ForeignSystem:ArrayOfForeignDevice">
      <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
       <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
       <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:59Z</ForeignSystem:CreatedDate>
-      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:59Z</ForeignSystem:UpdatedDate>
+      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:31Z</ForeignSystem:CreatedDate>
+      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:31Z</ForeignSystem:UpdatedDate>
       <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
       <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
       <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

@@ -2,6 +2,7 @@
 title: GET List/Priority/Headings
 uid: v1PriorityList_GetPriorityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Kiehn, Bartoletti and Moore",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 25,
+    "HeadingId": 949,
+    "Name": "Murphy Inc and Sons",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 969,
+    "UdListDefinitionId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

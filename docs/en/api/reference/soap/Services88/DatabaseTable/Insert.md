@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.Insert SOAP
 generated: true
 uid: Services88-DatabaseTable-Insert
+content_type: reference
 ---
 
 # Services88 DatabaseTable Insert

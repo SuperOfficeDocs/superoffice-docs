@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProductFamilies
 uid: v1ListAgent_GetProductFamilies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProductFamilies
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetProductFamilies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Value": "qui",
-    "Tooltip": "et",
+    "Id": 882,
+    "Value": "perspiciatis",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 78
       }
     }
   },
   {
-    "Id": 468,
-    "Value": "qui",
-    "Tooltip": "et",
+    "Id": 882,
+    "Value": "perspiciatis",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 78
       }
     }
   }

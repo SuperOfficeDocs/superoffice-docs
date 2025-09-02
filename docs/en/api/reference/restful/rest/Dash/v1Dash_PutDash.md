@@ -2,6 +2,7 @@
 title: PUT Dash/{id}
 uid: v1Dash_PutDash
 generated: true
+content_type: reference
 ---
 
 # PUT Dash/{id}
@@ -103,34 +104,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 982,
-  "UniqueId": "temporibus",
-  "Name": "O'Kon Group",
-  "Description": "Cross-platform hybrid support",
-  "AssociateId": 40,
-  "Columns": 194,
+  "DashboardId": 740,
+  "UniqueId": "cum",
+  "Name": "Hilpert, Ondricka and Pollich",
+  "Description": "Implemented foreground open architecture",
+  "AssociateId": 536,
+  "Columns": 753,
   "Theme": null,
-  "VisibleForAll": 160,
+  "VisibleForAll": 322,
   "VisibleForAssociates": [
-    686,
-    954
+    517,
+    941
   ],
   "VisibleForGroups": [
-    291,
-    50
+    759,
+    684
   ],
-  "PinForAll": 796,
+  "PinForAll": 733,
   "PinForAssociates": [
-    740,
-    324
+    464,
+    932
   ],
   "PinForGroups": [
-    224,
-    988
+    508,
+    685
   ]
 }
 ```
@@ -142,37 +143,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 456,
-  "UniqueId": "sed",
-  "Name": "Schuster Group",
-  "Description": "Inverse bi-directional productivity",
-  "AssociateId": 649,
-  "Columns": 925,
+  "DashboardId": 266,
+  "UniqueId": "id",
+  "Name": "Considine-Jacobi",
+  "Description": "Adaptive object-oriented budgetary management",
+  "AssociateId": 197,
+  "Columns": 84,
   "Theme": null,
-  "VisibleForAll": 874,
+  "VisibleForAll": 361,
   "VisibleForAssociates": [
-    165,
-    469
+    613,
+    597
   ],
   "VisibleForGroups": [
-    602,
-    258
+    961,
+    394
   ],
-  "PinForAll": 773,
+  "PinForAll": 634,
   "PinForAssociates": [
-    96,
-    253
+    757,
+    552
   ],
   "PinForGroups": [
-    116,
-    332
+    66,
+    695
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 328
     }
   },
   "_Links": {

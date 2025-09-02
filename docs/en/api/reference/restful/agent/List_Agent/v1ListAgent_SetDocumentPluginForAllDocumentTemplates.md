@@ -2,6 +2,7 @@
 title: POST Agents/List/SetDocumentPluginForAllDocumentTemplates
 uid: v1ListAgent_SetDocumentPluginForAllDocumentTemplates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetDocumentPluginForAllDocumentTemplates
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/List/SetDocumentPluginForAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 653
+  "DocumentPluginId": 264
 }
 ```
 

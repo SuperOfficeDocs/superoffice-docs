@@ -2,6 +2,7 @@
 title: Services88.EMailAgent SOAP
 uid: Services88-EMail-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 EMail SOAP

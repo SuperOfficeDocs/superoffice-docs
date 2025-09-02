@@ -2,6 +2,7 @@
 title: GET Role/default
 uid: v1RoleEntity_DefaultRoleEntity
 generated: true
+content_type: reference
 ---
 
 # GET Role/default
@@ -81,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 508,
-  "Name": "Mitchell Group",
-  "Tooltip": "porro",
+  "RoleId": 571,
+  "Name": "Wolf-Grant",
+  "Tooltip": "eum",
   "RoleType": "Anonymous",
-  "Deleted": 978,
-  "Rank": 647,
-  "Created": "2006-07-12T03:45:28.5296817+02:00",
-  "UseCategories": 973,
+  "Deleted": 231,
+  "Rank": 946,
+  "Created": "2000-01-16T03:47:00.2068137+01:00",
+  "UseCategories": 691,
   "CreatedBy": null,
-  "Updated": "2024-09-19T03:45:28.5296817+02:00",
+  "Updated": "2003-10-20T03:47:00.2068137+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 182
     }
   }
 }

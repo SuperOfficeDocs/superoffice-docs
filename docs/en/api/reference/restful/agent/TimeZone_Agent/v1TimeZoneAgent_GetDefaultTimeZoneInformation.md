@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/GetDefaultTimeZoneInformation
 uid: v1TimeZoneAgent_GetDefaultTimeZoneInformation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/GetDefaultTimeZoneInformation
@@ -80,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 322,
-  "TZLocationId": 216,
-  "LocationCode": "qui",
-  "Description": "Inverse interactive methodology",
+  "PreferenceId": 764,
+  "TZLocationId": 862,
+  "LocationCode": "aut",
+  "Description": "Optimized actuating ability",
   "Country": "Sokovia",
-  "Bias": 960
+  "Bias": 749
 }
 ```

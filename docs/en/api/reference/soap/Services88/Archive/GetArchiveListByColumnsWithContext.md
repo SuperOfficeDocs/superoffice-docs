@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetArchiveListByColumnsWithContext SOAP
 generated: true
 uid: Services88-Archive-GetArchiveListByColumnsWithContext
+content_type: reference
 ---
 
 # Services88 Archive GetArchiveListByColumnsWithContext

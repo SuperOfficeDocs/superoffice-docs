@@ -2,6 +2,7 @@
 title: GET ChatSession/ForCurrentUser
 uid: v1ChatSessionEntity_ChatSessionsForUser
 generated: true
+content_type: reference
 ---
 
 # GET ChatSession/ForCurrentUser
@@ -87,7 +88,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 135,
-    "TopicId": 114,
+    "ChatSessionId": 594,
+    "TopicId": 569,
     "User": null,
     "Person": null,
-    "CustomerAlias": "nihil",
-    "CustomerHost": "reprehenderit",
-    "CustomerName": "Dietrich, Treutel and Legros",
-    "CustomerEmail": "larissa_schroeder@nikolaus.info",
-    "CustomerPhone": "(165)870-3968 x879",
+    "CustomerAlias": "saepe",
+    "CustomerHost": "quis",
+    "CustomerName": "Hegmann Group",
+    "CustomerEmail": "heaven.king@hesselmuller.uk",
+    "CustomerPhone": "510.116.8947 x33173",
     "CustomerConsented": true,
-    "CustomerCompanyName": "Reynolds, Blick and Stoltenberg",
+    "CustomerCompanyName": "West Inc and Sons",
     "Status": "Closed",
-    "FirstMessage": "aut",
-    "LastMessage": "enim",
-    "WhenRequested": "2022-04-07T03:45:28.1234472+02:00",
-    "WhenStarted": "2002-01-14T03:45:28.1234472+01:00",
-    "WhenEnded": "2019-02-04T03:45:28.1234472+01:00",
-    "WhenIdle": "2005-09-25T03:45:28.1234472+02:00",
-    "WhenFetched": "2011-07-26T03:45:28.1234472+02:00",
-    "SessionKey": "doloremque",
-    "InitialQueuePos": 251,
-    "AlertLevel": 476,
-    "Rank": 242,
+    "FirstMessage": "quas",
+    "LastMessage": "facere",
+    "WhenRequested": "2010-07-27T03:46:59.7536971+02:00",
+    "WhenStarted": "2011-06-26T03:46:59.7536971+02:00",
+    "WhenEnded": "2018-08-03T03:46:59.7536971+02:00",
+    "WhenIdle": "2006-11-03T03:46:59.7536971+01:00",
+    "WhenFetched": "2002-10-12T03:46:59.7536971+02:00",
+    "SessionKey": "corrupti",
+    "InitialQueuePos": 276,
+    "AlertLevel": 113,
+    "Rank": 799,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,13 +129,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 123,
+    "Rating": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 573
       }
     }
   }

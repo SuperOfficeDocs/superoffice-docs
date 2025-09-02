@@ -2,10 +2,10 @@
 uid: table-ej_message
 title: ej_message table
 description: This table contains the messages listed under tickets.
-so.generated: true
+generated: true
 keywords: database table ej_message
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ej\_message Table (258)

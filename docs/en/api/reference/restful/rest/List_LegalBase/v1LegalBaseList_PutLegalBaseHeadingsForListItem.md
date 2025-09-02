@@ -2,6 +2,7 @@
 title: PUT List/LegalBase/Items/{id}/Headings
 uid: v1LegalBaseList_PutLegalBaseHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/LegalBase/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Cremin-Kutch",
-    "ToolTip": "Iure assumenda sequi distinctio eos quia omnis tempora.",
-    "Deleted": false,
-    "Rank": 968,
-    "Type": "quo",
-    "ColorBlock": 576,
-    "IconHint": "suscipit",
+    "Id": 93,
+    "Name": "Bergstrom Group",
+    "ToolTip": "Beatae eligendi et.",
+    "Deleted": true,
+    "Rank": 71,
+    "Type": "facere",
+    "ColorBlock": 465,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2013-08-16T03:45:29.0452922+02:00",
+    "LastChanged": "2022-07-15T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Bayer Inc and Sons",
-        "ToolTip": "Nostrum dolor corporis sed omnis debitis eaque.",
-        "Deleted": false,
-        "Rank": 253,
-        "Type": "eius",
-        "ColorBlock": 683,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2020-06-24T03:45:29.0452922+02:00",
+        "Id": 274,
+        "Name": "Torphy-Johnson",
+        "ToolTip": "Velit nesciunt fugiat possimus non.",
+        "Deleted": true,
+        "Rank": 438,
+        "Type": "ut",
+        "ColorBlock": 823,
+        "IconHint": "similique",
+        "Selected": true,
+        "LastChanged": "2022-11-26T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Bianka Thompson"
+        "ExtraInfo": "iste",
+        "StyleHint": "impedit",
+        "Hidden": false,
+        "FullName": "Rollin O'Conner"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Blanche Olson"
+    "ExtraInfo": "molestias",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Raphaelle Kertzmann"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Yost Group",
-    "ToolTip": "Possimus ad error fugiat.",
+    "Id": 34,
+    "Name": "Jacobs, Schneider and Krajcik",
+    "ToolTip": "Omnis inventore id reprehenderit perferendis reprehenderit a.",
     "Deleted": true,
-    "Rank": 385,
-    "Type": "et",
-    "ColorBlock": 254,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2017-10-02T03:45:29.0452922+02:00",
+    "Rank": 670,
+    "Type": "vel",
+    "ColorBlock": 94,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2009-05-03T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Kulas, Beer and Orn",
-        "ToolTip": "Cumque ducimus quae dolor.",
-        "Deleted": true,
-        "Rank": 373,
-        "Type": "ut",
-        "ColorBlock": 139,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2009-11-16T03:45:29.0452922+01:00",
+        "Id": 876,
+        "Name": "Harvey-Schuppe",
+        "ToolTip": "Consequuntur quisquam laudantium cumque beatae doloremque recusandae et.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "consequatur",
+        "ColorBlock": 435,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2004-06-06T03:47:00.6755475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "unde",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Betty Barton",
+        "FullName": "Lyric Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 159
+            "FieldType": "System.Int32",
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Eden Hartmann",
+    "ExtraInfo": "quo",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Eugenia Blanda V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_MDO
 title: List_MDO
 generated: true
+content_type: reference
 ---
 
 ```http

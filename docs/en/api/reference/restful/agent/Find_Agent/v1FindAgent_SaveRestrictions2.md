@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictions2
 uid: v1FindAgent_SaveRestrictions2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictions2
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Conroy Inc and Sons",
-  "StorageKey": "quod",
-  "Restrictions": "culpa"
+  "StorageType": "rem",
+  "ProviderName": "Abernathy, Marquardt and Batz",
+  "StorageKey": "non",
+  "Restrictions": "sed"
 }
 ```
 

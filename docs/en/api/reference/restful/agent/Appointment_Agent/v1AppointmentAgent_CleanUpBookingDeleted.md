@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CleanUpBookingDeleted
 uid: v1AppointmentAgent_CleanUpBookingDeleted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CleanUpBookingDeleted
@@ -73,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    1002,
-    427
+    233,
+    301
   ]
 }
 ```
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-720
+680
 ```

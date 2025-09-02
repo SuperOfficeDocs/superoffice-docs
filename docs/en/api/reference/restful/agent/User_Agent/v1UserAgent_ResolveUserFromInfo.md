@@ -2,6 +2,7 @@
 title: POST Agents/User/ResolveUserFromInfo
 uid: v1UserAgent_ResolveUserFromInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/ResolveUserFromInfo
@@ -88,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 639,
-  "PersonName": "Okuneva, Feil and Rutherford",
+  "ContactId": 246,
+  "PersonName": "Macejkovic-Barrows",
   "PhoneNumbers": [
-    "319921",
-    "1254649"
+    "1090586",
+    "501084"
   ],
   "Emails": [
-    "mertie@ferrypadberg.ca",
-    "bernhard@lockman.ca"
+    "vivien_kunde@beerosinski.com",
+    "roxane_white@mclaughlin.ca"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 471
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetPublishedUserDefinedFieldFromFieldLabel
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel

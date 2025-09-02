@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetMailboxes SOAP
 generated: true
 uid: Services88-CustomerService-GetMailboxes
+content_type: reference
 ---
 
 # Services88 CustomerService GetMailboxes

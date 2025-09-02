@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentSource
 uid: v1ListAgent_GetConsentSource
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentSource
@@ -22,11 +23,11 @@ Gets a ConsentSource object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| consentSourceId | int32 | **Required** The primary key. |
+| consentSourceId | int32 | **Required** The identifier of the ConsentSource object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentSource?consentSourceId=272
+POST /api/v1/Agents/List/GetConsentSource?consentSourceId=768
 POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 392,
-  "Name": "Schroeder, Leannon and Schiller",
-  "Tooltip": "omnis",
-  "Rank": 667,
-  "Key": "voluptatibus",
-  "MailTemplateId": 223,
-  "Deleted": true,
+  "ConsentSourceId": 902,
+  "Name": "Kemmer, Haag and Oberbrunner",
+  "Tooltip": "harum",
+  "Rank": 51,
+  "Key": "quas",
+  "MailTemplateId": 336,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/ProjectType/Items
 uid: v1ProjectTypeList_PutAllProjectType
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType/Items
@@ -78,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Gerhold Inc and Sons",
-    "Tooltip": "harum",
+    "Id": 953,
+    "Name": "Zulauf-Crist",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 261,
-    "Rank": 531
+    "UdListDefinitionId": 125,
+    "Rank": 668
   },
   {
-    "Id": 429,
-    "Name": "Gerhold Inc and Sons",
-    "Tooltip": "harum",
+    "Id": 953,
+    "Name": "Zulauf-Crist",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 261,
-    "Rank": 531
+    "UdListDefinitionId": 125,
+    "Rank": 668
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Moore-Langosh",
-    "Tooltip": "aut",
+    "Id": 608,
+    "Name": "Altenwerth Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 422,
-    "Rank": 302,
+    "UdListDefinitionId": 158,
+    "Rank": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 876
       }
     }
   }

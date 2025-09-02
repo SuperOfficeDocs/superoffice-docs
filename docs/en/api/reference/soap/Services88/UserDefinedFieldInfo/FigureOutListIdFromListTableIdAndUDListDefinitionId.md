@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-FigureOutListIdFromListTableIdAndUDListDefinitionId
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo FigureOutListIdFromListTableIdAndUDListDefinitionId

@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetDuplicates SOAP
 generated: true
 uid: Services88-Selection-GetDuplicates
+content_type: reference
 ---
 
 # Services88 Selection GetDuplicates

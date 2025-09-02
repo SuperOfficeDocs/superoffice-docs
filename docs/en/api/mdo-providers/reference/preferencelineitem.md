@@ -3,9 +3,9 @@ uid: preferencelineitem
 title: preferencelineitem
 keywords: mdoprovider mdo provider preferencelineitem
 description: MDO Provider for preferences that have a list of possible values in the database
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "preferencelineitem" MDO List

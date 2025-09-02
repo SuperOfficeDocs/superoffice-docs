@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailFromDocumentId
 uid: v1EMailAgent_GetEMailFromDocumentId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailFromDocumentId
@@ -100,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 129
+  "DocumentId": 981
 }
 ```
 
@@ -117,156 +118,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 547,
-      "ContactName": "Shanahan-Kulas",
-      "PersonId": 597,
-      "PersonName": "Murazik-Bauch",
-      "AssociateId": 525,
-      "Address": "rerum",
-      "EmailId": 396,
+      "ContactId": 350,
+      "ContactName": "Jerde, Schultz and Treutel",
+      "PersonId": 962,
+      "PersonName": "Lebsack, Tromp and Schimmel",
+      "AssociateId": 89,
+      "Address": "debitis",
+      "EmailId": 733,
       "DuplicatePersonIds": [
-        243,
-        750
+        665,
+        233
       ],
-      "Name": "Schulist LLC",
+      "Name": "Bergnaum Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 991
+          "FieldType": "System.Int32",
+          "FieldLength": 615
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 238,
-      "ContactName": "Feest-Tillman",
-      "PersonId": 115,
-      "PersonName": "Gleason-Little",
-      "AssociateId": 695,
-      "Address": "ipsum",
-      "EmailId": 712,
+      "ContactId": 582,
+      "ContactName": "Kulas, Lehner and Leffler",
+      "PersonId": 308,
+      "PersonName": "Tillman, Greenholt and Beatty",
+      "AssociateId": 112,
+      "Address": "ut",
+      "EmailId": 473,
       "DuplicatePersonIds": [
-        16,
-        511
+        949,
+        638
       ],
-      "Name": "Macejkovic Group",
+      "Name": "Mosciski, Wilkinson and Bednar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 225,
-      "ContactName": "Stracke-Lesch",
-      "PersonId": 464,
-      "PersonName": "Schaefer-Reinger",
-      "AssociateId": 669,
-      "Address": "quaerat",
-      "EmailId": 469,
+      "ContactId": 675,
+      "ContactName": "Denesik, Kunze and Hand",
+      "PersonId": 671,
+      "PersonName": "Parker-Gerhold",
+      "AssociateId": 100,
+      "Address": "nulla",
+      "EmailId": 193,
       "DuplicatePersonIds": [
-        688,
-        835
+        419,
+        74
       ],
-      "Name": "Mosciski, Blick and Kassulke",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 456
-        }
-      }
-    }
-  ],
-  "Subject": "reprehenderit",
-  "HTMLBody": "vero",
-  "From": null,
-  "Sent": "2019-01-05T03:45:23.4360809+01:00",
-  "Size": 460,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "qui",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 391,
-  "Attachments": [
-    {
-      "Description": "Pre-emptive explicit product",
-      "Filename": "quis",
-      "Size": 5,
-      "Type": "eligendi",
-      "Encoding": "pariatur",
-      "Id": "illo",
-      "Disposition": "et",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Lowe-Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 379
+        }
+      }
+    }
+  ],
+  "Subject": "amet",
+  "HTMLBody": "explicabo",
+  "From": null,
+  "Sent": "2020-06-06T03:46:54.7695066+02:00",
+  "Size": 143,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "doloribus",
+  "PlainBody": "voluptatem",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 906,
+  "Attachments": [
+    {
+      "Description": "Mandatory exuding analyzer",
+      "Filename": "voluptas",
+      "Size": 97,
+      "Type": "enim",
+      "Encoding": "excepturi",
+      "Id": "doloribus",
+      "Disposition": "qui",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 984
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ryan, Moen and Gusikowski",
+      "Name": "Mraz, McLaughlin and Armstrong",
       "Values": [
-        "exercitationem",
-        "voluptatum"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 449
+          "FieldLength": 444
         }
       }
     },
     {
-      "Name": "Ryan, Moen and Gusikowski",
+      "Name": "Mraz, McLaughlin and Armstrong",
       "Values": [
-        "exercitationem",
-        "voluptatum"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 449
+          "FieldLength": 444
         }
       }
     }
   ],
-  "FolderName": "Graham LLC",
-  "EmailItemId": 1002,
-  "AccountId": 213,
-  "ReceivedAt": "2004-08-04T03:45:23.4360809+02:00",
+  "FolderName": "Mosciski, Skiles and Huel",
+  "EmailItemId": 54,
+  "AccountId": 505,
+  "ReceivedAt": "2022-10-14T03:46:54.7695066+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-04-06T03:45:23.4360809+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-08-31T03:46:54.7695066+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 162
     }
   }
 }

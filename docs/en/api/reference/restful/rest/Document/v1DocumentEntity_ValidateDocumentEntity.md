@@ -2,6 +2,7 @@
 title: POST Document/Validate
 uid: v1DocumentEntity_ValidateDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Document/Validate
@@ -91,77 +92,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 989,
+  "DocumentId": 459,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "doloribus",
-  "Header": "omnis",
-  "Name": "Littel LLC",
-  "OurRef": "rerum",
-  "YourRef": "fuga",
-  "CreatedDate": "2005-10-12T03:45:28.3421873+02:00",
-  "UpdatedDate": "2020-09-10T03:45:28.3421873+02:00",
-  "Description": "Exclusive holistic software",
+  "Attention": "veniam",
+  "Header": "ratione",
+  "Name": "Mertz LLC",
+  "OurRef": "illo",
+  "YourRef": "vero",
+  "CreatedDate": "2010-09-25T03:47:00.005716+02:00",
+  "UpdatedDate": "2013-04-14T03:47:00.005716+02:00",
+  "Description": "Operative user-facing website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-08-07T03:45:28.3421873+02:00",
-  "ExternalRef": "aliquam",
+  "Date": "2019-05-23T03:47:00.005716+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 497,
+  "ActiveLinks": 536,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Metz, Powlowski and Daugherty",
-      "Id": 992,
-      "Description": "Seamless bandwidth-monitored function",
-      "ExtraInfo": "assumenda",
-      "LinkId": 915
+      "EntityName": "Rice-Berge",
+      "Id": 549,
+      "Description": "Enterprise-wide executive toolset",
+      "ExtraInfo": "impedit",
+      "LinkId": 930
     },
     {
-      "EntityName": "Metz, Powlowski and Daugherty",
-      "Id": 992,
-      "Description": "Seamless bandwidth-monitored function",
-      "ExtraInfo": "assumenda",
-      "LinkId": 915
+      "EntityName": "Rice-Berge",
+      "Id": 549,
+      "Description": "Enterprise-wide executive toolset",
+      "ExtraInfo": "impedit",
+      "LinkId": 930
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 802,
-  "Snum": 832,
+  "SuggestedDocumentId": 649,
+  "Snum": 672,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rowan Ziemann",
-    "SuperOffice:2": "Kiarra Kiehn"
+    "SuperOffice:1": "Sallie Herman",
+    "SuperOffice:2": "86956468"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "a"
+    "CustomFields1": "est",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2001-03-22T03:45:28.3421873+01:00",
-  "PublishTo": "2000-09-29T03:45:28.3421873+02:00",
-  "PublishFrom": "2006-10-11T03:45:28.3421873+02:00",
+  "PublishEventDate": "2016-10-13T03:47:00.005716+02:00",
+  "PublishTo": "2016-10-15T03:47:00.005716+02:00",
+  "PublishFrom": "2012-11-28T03:47:00.005716+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 373,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis"
+      "DisplayValue": "officia"
     },
     {
-      "VisibleId": 373,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis"
+      "DisplayValue": "officia"
     }
   ]
 }
@@ -174,7 +175,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "magnam",
-  "2": "amet"
+  "1": "tenetur",
+  "2": "nihil"
 }
 ```

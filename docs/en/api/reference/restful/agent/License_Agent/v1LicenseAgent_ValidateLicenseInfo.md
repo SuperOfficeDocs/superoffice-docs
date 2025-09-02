@@ -2,6 +2,7 @@
 title: POST Agents/License/ValidateLicenseInfo
 uid: v1LicenseAgent_ValidateLicenseInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/ValidateLicenseInfo
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/License/ValidateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

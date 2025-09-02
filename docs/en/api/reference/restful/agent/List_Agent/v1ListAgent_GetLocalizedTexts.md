@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLocalizedTexts
 uid: v1ListAgent_GetLocalizedTexts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLocalizedTexts
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 915,
-    "ResourceId": 789,
-    "Text": "fugit",
+    "LanguageId": 416,
+    "ResourceId": 888,
+    "Text": "sapiente",
     "Type": "Column",
-    "LocalizedTextId": 240,
+    "LocalizedTextId": 733,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 210
       }
     }
   }

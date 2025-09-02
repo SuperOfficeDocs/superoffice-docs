@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ChangeEngineStatus SOAP
 generated: true
 uid: Services88-ErpSync-ChangeEngineStatus
+content_type: reference
 ---
 
 # Services88 ErpSync ChangeEngineStatus

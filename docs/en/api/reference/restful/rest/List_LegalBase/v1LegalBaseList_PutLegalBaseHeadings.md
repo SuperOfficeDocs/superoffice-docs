@@ -2,6 +2,7 @@
 title: PUT List/LegalBase/Headings
 uid: v1LegalBaseList_PutLegalBaseHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/LegalBase/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 487,
-    "Name": "Deckow-Christiansen",
-    "Tooltip": "a",
+    "HeadingId": 229,
+    "Name": "Koch Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 404,
-    "UdListDefinitionId": 375
+    "Rank": 585,
+    "UdListDefinitionId": 208
   },
   {
-    "HeadingId": 487,
-    "Name": "Deckow-Christiansen",
-    "Tooltip": "a",
+    "HeadingId": 229,
+    "Name": "Koch Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 404,
-    "UdListDefinitionId": 375
+    "Rank": 585,
+    "UdListDefinitionId": 208
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 931,
-    "Name": "Sauer-Koch",
-    "Tooltip": "optio",
+    "HeadingId": 336,
+    "Name": "Corkery Group",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 92,
-    "UdListDefinitionId": 575,
+    "Rank": 326,
+    "UdListDefinitionId": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

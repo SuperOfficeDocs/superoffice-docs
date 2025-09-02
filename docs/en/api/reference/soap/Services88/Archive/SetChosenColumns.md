@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.SetChosenColumns SOAP
 generated: true
 uid: Services88-Archive-SetChosenColumns
+content_type: reference
 ---
 
 # Services88 Archive SetChosenColumns

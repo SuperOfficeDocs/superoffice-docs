@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDashTile
 uid: v1DashAgent_SaveDashTile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDashTile
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Dash/SaveDashTile
 ```
 
-Updates the existing DashTile or creates a new DashTile if the id parameter is empty
+Updates the existing DashTile or creates a new DashTile if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: dashTile 
 
-The DashTile to be saved. 
+The DashTile that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,15 +74,15 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 507,
-  "DashboardId": 358,
-  "Height": 396,
-  "Width": 995,
-  "Rank": 612,
+  "DashboardTileId": 939,
+  "DashboardId": 52,
+  "Height": 382,
+  "Width": 761,
+  "Rank": 787,
   "DashTileDefinition": null
 }
 ```
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 771,
-  "DashboardId": 32,
-  "Height": 61,
-  "Width": 555,
-  "Rank": 695,
+  "DashboardTileId": 239,
+  "DashboardId": 787,
+  "Height": 281,
+  "Width": 178,
+  "Rank": 807,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 836
     }
   }
 }

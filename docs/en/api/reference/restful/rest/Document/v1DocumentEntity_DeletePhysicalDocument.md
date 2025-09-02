@@ -2,6 +2,7 @@
 title: DEL Document/{id}/Content
 uid: v1DocumentEntity_DeletePhysicalDocument
 generated: true
+content_type: reference
 ---
 
 # DEL Document/{id}/Content
@@ -68,7 +69,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,11 +79,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "hic",
-  "VersionId": "repudiandae",
-  "Success": false,
+  "ExternalReference": "quaerat",
+  "VersionId": "dolores",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "pariatur",
-  "AdditionalInfo": "nobis"
+  "Value": "similique",
+  "AdditionalInfo": "numquam"
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveList
 uid: v1ArchiveAgent_GetArchiveList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveList
@@ -104,51 +105,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Reilly-Abernathy",
-  "ProviderName": "Cassin-Fadel",
+  "GuiName": "Nader-Kutch",
+  "ProviderName": "Jenkins, Gleason and Gutkowski",
   "SortOrder": [
     {
-      "Name": "Hand-Reinger",
+      "Name": "Ortiz-Goyette",
       "Direction": "ASC"
     },
     {
-      "Name": "Hand-Reinger",
+      "Name": "Ortiz-Goyette",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Grimes-Beahan",
-      "Operator": "dolor",
+      "Name": "Shanahan, Quitzon and Kertzmann",
+      "Operator": "qui",
       "Values": [
-        "omnis",
-        "quaerat"
+        "rerum",
+        "sit"
       ],
       "DisplayValues": [
-        "facere",
-        "vel"
+        "officia",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 874,
+      "InterParenthesis": 647,
       "InterOperator": "And",
-      "UniqueHash": 637
+      "UniqueHash": 22
     }
   ],
   "Entities": [
-    "laudantium",
-    "repellendus"
+    "et",
+    "praesentium"
   ],
-  "Page": 329,
-  "PageSize": 475
+  "Page": 336,
+  "PageSize": 562
 }
 ```
 
@@ -160,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Senger Group",
-    "PrimaryKey": 884,
+    "EntityName": "Fritsch, Kihn and Hoeger",
+    "PrimaryKey": 395,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolorem",
-        "TooltipHint": "vel",
-        "LinkHint": "nam"
+        "DisplayValue": "ut",
+        "TooltipHint": "repellat",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "nobis",
-    "StyleHint": "consequatur",
+    "LinkHint": "ipsam",
+    "StyleHint": "repellendus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 577
       }
     }
   }

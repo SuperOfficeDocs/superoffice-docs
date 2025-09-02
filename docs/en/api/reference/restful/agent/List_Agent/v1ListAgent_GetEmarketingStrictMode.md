@@ -2,6 +2,7 @@
 title: POST Agents/List/GetEmarketingStrictMode
 uid: v1ListAgent_GetEmarketingStrictMode
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetEmarketingStrictMode
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/List/GetEmarketingStrictMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

@@ -3,9 +3,9 @@ uid: FreetextDocument
 title: FreetextDocument
 description: Archive provider for freetext search on the Document entity (any kind of document).
 keywords: FreetextDocument archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FreetextDocument"
@@ -734,7 +734,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextDocument?$select=getNoRows,documentId,ourref,person/personUdef/SuperOffice:1,person/personExtra/y_rental/y_equipment/x_name
+GET /api/v1/archive/FreetextDocument?$select=person/personAddress/wgs84latitude,contact/hasInfoText,contact/contactAssociate/credentialDisplayValue,contact/saintActivityType,sale/amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

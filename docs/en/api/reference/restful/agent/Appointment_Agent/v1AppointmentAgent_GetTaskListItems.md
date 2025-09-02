@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetTaskListItems
 uid: v1AppointmentAgent_GetTaskListItems
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetTaskListItems
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -101,16 +102,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 551,
-    "Value": "iure",
+    "TaskListItemId": 782,
+    "Value": "laboriosam",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "repellat",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "IntentId": 800,
-    "Rank": 936,
+    "IntentId": 954,
+    "Rank": 687,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 529
       }
     }
   }

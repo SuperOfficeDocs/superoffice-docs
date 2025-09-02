@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.CreateDefaultProjectEventEntity SOAP
 generated: true
 uid: Services88-Project-CreateDefaultProjectEventEntity
+content_type: reference
 ---
 
 # Services88 Project CreateDefaultProjectEventEntity
@@ -66,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2025-06-26T01:44:30Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2025-08-30T01:46:02Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
-    <Project:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:30Z</Project:CreatedDate>
+    <Project:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:02Z</Project:CreatedDate>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
     <Project:SignOffTaskId xsi:type="xsd:int">0</Project:SignOffTaskId>
@@ -77,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOnTaskEnable xsi:type="xsd:boolean">false</Project:SignOnTaskEnable>
     <Project:SignOnTaskId xsi:type="xsd:int">0</Project:SignOnTaskId>
     <Project:SignOnTriggersAssign xsi:type="xsd:boolean">false</Project:SignOnTriggersAssign>
-    <Project:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:30Z</Project:UpdatedDate>
+    <Project:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:02Z</Project:UpdatedDate>
     <Project:CreatedBy xsi:type="Project:Associate">
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:Name xsi:type="xsd:string"></Project:Name>
@@ -91,6 +92,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:Deleted xsi:type="xsd:boolean">false</Project:Deleted>
      <Project:EjUserId xsi:type="xsd:int">0</Project:EjUserId>
      <Project:UserName xsi:type="xsd:string"></Project:UserName>
+     <Project:ExtraFields xsi:type="Project:StringDictionary">
+      <Project:StringKeyValuePair>
+       <Project:Key xsi:type="xsd:string"></Project:Key>
+       <Project:Value xsi:type="xsd:string"></Project:Value>
+      </Project:StringKeyValuePair>
+     </Project:ExtraFields>
+     <Project:CustomFields xsi:type="Project:StringDictionary">
+      <Project:StringKeyValuePair>
+       <Project:Key xsi:type="xsd:string"></Project:Key>
+       <Project:Value xsi:type="xsd:string"></Project:Value>
+      </Project:StringKeyValuePair>
+     </Project:CustomFields>
     </Project:CreatedBy>
     <Project:UpdatedBy xsi:type="Project:Associate">
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
@@ -105,12 +118,24 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:Deleted xsi:type="xsd:boolean">false</Project:Deleted>
      <Project:EjUserId xsi:type="xsd:int">0</Project:EjUserId>
      <Project:UserName xsi:type="xsd:string"></Project:UserName>
+     <Project:ExtraFields xsi:type="Project:StringDictionary">
+      <Project:StringKeyValuePair>
+       <Project:Key xsi:type="xsd:string"></Project:Key>
+       <Project:Value xsi:type="xsd:string"></Project:Value>
+      </Project:StringKeyValuePair>
+     </Project:ExtraFields>
+     <Project:CustomFields xsi:type="Project:StringDictionary">
+      <Project:StringKeyValuePair>
+       <Project:Key xsi:type="xsd:string"></Project:Key>
+       <Project:Value xsi:type="xsd:string"></Project:Value>
+      </Project:StringKeyValuePair>
+     </Project:CustomFields>
     </Project:UpdatedBy>
     <Project:ProjectId xsi:type="xsd:int">0</Project:ProjectId>
     <Project:Id xsi:type="xsd:int">0</Project:Id>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2025-06-26T01:44:30Z</Project:PublishFrom>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2025-08-30T01:46:02Z</Project:PublishFrom>
     <Project:PublishType xsi:type="Project:PublishType">Undefined</Project:PublishType>
-    <Project:PublishTo xsi:type="xsd:dateTime">2025-06-26T01:44:30Z</Project:PublishTo>
+    <Project:PublishTo xsi:type="xsd:dateTime">2025-08-30T01:46:02Z</Project:PublishTo>
     <Project:VisibleForCategories xsi:type="Project:ArrayOfMDOListItem">
      <Project:MDOListItem xsi:type="Project:MDOListItem">
       <Project:Id xsi:type="xsd:int">0</Project:Id>

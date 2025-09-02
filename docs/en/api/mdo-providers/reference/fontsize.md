@@ -3,9 +3,9 @@ uid: fontsize
 title: fontsize
 keywords: mdoprovider mdo provider fontsize
 description: List of font types
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "fontsize" MDO List

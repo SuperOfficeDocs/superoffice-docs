@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetPersonsFromEmailAddress
 uid: v1EMailAgent_GetPersonsFromEmailAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetPersonsFromEmailAddress
@@ -115,11 +116,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "donny_balistreri@zulauf.name"
+  "EmailAddress": "emmitt@ohara.com"
 }
 ```
 
@@ -131,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "et",
-    "PersonId": 418,
-    "Mrmrs": "aliquid",
-    "Firstname": "Ettie",
-    "Lastname": "Harber",
-    "MiddleName": "Schinner, Goyette and Bauch",
-    "Title": "nihil",
-    "Description": "Synchronised zero tolerance superstructure",
-    "Email": "javonte@hermiston.ca",
-    "FullName": "Bethany Jones",
-    "DirectPhone": "(924)554-4966",
-    "FormalName": "Bergstrom, Huel and Will",
-    "CountryId": 631,
-    "ContactId": 968,
-    "ContactName": "Senger, Pacocha and Deckow",
-    "Retired": 152,
-    "Rank": 624,
-    "ActiveInterests": 635,
-    "ContactDepartment": "",
-    "ContactCountryId": 560,
-    "ContactOrgNr": "899976",
-    "FaxPhone": "779-637-2027 x85737",
-    "MobilePhone": "131.991.3225 x3316",
-    "ContactPhone": "544-790-8738 x6890",
-    "AssociateName": "Kautzer-Wuckert",
-    "AssociateId": 994,
-    "UsePersonAddress": true,
-    "ContactFax": "molestias",
-    "Kanafname": "rem",
-    "Kanalname": "eum",
-    "Post1": "accusantium",
-    "Post2": "cum",
-    "Post3": "ducimus",
-    "EmailName": "guy_bashirian@gislason.ca",
-    "ContactFullName": "Miss Elisha Orn Jr.",
-    "ActiveErpLinks": 445,
-    "TicketPriorityId": 780,
-    "SupportLanguageId": 639,
-    "SupportAssociateId": 191,
+    "Position": "beatae",
+    "PersonId": 157,
+    "Mrmrs": "enim",
+    "Firstname": "Alvis",
+    "Lastname": "Ullrich",
+    "MiddleName": "Gulgowski-Towne",
+    "Title": "dicta",
+    "Description": "Optional grid-enabled parallelism",
+    "Email": "quincy@connjohnston.info",
+    "FullName": "Marilyne Ruecker",
+    "DirectPhone": "417-805-8777 x7186",
+    "FormalName": "Haag Group",
+    "CountryId": 781,
+    "ContactId": 522,
+    "ContactName": "Heller, Macejkovic and Upton",
+    "Retired": 160,
+    "Rank": 472,
+    "ActiveInterests": 387,
+    "ContactDepartment": "evolve out-of-the-box supply-chains",
+    "ContactCountryId": 467,
+    "ContactOrgNr": "650923",
+    "FaxPhone": "384-971-5534 x602",
+    "MobilePhone": "487.268.5775",
+    "ContactPhone": "995-933-7431 x53054",
+    "AssociateName": "Oberbrunner LLC",
+    "AssociateId": 138,
+    "UsePersonAddress": false,
+    "ContactFax": "consequatur",
+    "Kanafname": "quia",
+    "Kanalname": "quae",
+    "Post1": "aut",
+    "Post2": "impedit",
+    "Post3": "mollitia",
+    "EmailName": "myrl@damore.biz",
+    "ContactFullName": "Evans Connelly",
+    "ActiveErpLinks": 346,
+    "TicketPriorityId": 740,
+    "SupportLanguageId": 708,
+    "SupportAssociateId": 239,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1074622",
+    "PersonNumber": "1111522",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

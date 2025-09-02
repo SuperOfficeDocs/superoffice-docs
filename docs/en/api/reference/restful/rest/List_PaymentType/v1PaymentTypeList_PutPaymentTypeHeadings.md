@@ -2,6 +2,7 @@
 title: PUT List/PaymentType/Headings
 uid: v1PaymentTypeList_PutPaymentTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 792,
-    "Name": "O'Kon-Ortiz",
-    "Tooltip": "id",
+    "HeadingId": 98,
+    "Name": "Brakus-Hane",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 959,
-    "UdListDefinitionId": 520
+    "Rank": 766,
+    "UdListDefinitionId": 453
   },
   {
-    "HeadingId": 792,
-    "Name": "O'Kon-Ortiz",
-    "Tooltip": "id",
+    "HeadingId": 98,
+    "Name": "Brakus-Hane",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 959,
-    "UdListDefinitionId": 520
+    "Rank": 766,
+    "UdListDefinitionId": 453
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 925,
-    "Name": "Emard Group",
-    "Tooltip": "ea",
+    "HeadingId": 799,
+    "Name": "Schuster LLC",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 733,
-    "UdListDefinitionId": 166,
+    "Rank": 830,
+    "UdListDefinitionId": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 251
       }
     }
   }

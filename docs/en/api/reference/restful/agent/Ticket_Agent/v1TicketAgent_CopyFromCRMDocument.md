@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CopyFromCRMDocument
 uid: v1TicketAgent_CopyFromCRMDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CopyFromCRMDocument
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 530
+  "DocumentId": 501
 }
 ```
 
@@ -95,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 318,
-  "Name": "Pagac LLC",
-  "ContentType": "nihil",
-  "AttSize": 273,
-  "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "omnis",
+  "AttachmentId": 531,
+  "Name": "Shields, Botsford and Heaney",
+  "ContentType": "voluptates",
+  "AttSize": 888,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "enim",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 662
     }
   }
 }

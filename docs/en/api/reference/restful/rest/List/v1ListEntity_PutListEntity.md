@@ -2,6 +2,7 @@
 title: PUT List/{id}
 uid: v1ListEntity_PutListEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/{id}
@@ -97,20 +98,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 974,
-  "Name": "Wisozk-Schaden",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 835,
+  "Id": 611,
+  "Name": "Murray, Heaney and Romaguera",
+  "Tooltip": "dolore",
+  "Deleted": false,
+  "Rank": 922,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -121,22 +122,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Stroman, Senger and Leannon",
-  "Tooltip": "sapiente",
+  "Id": 608,
+  "Name": "Schaefer, Corkery and White",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 97,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "a",
+  "Rank": 297,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 78
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: GET Person/{id}/Activities
 uid: v1PersonEntity_Activities
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Activities
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Person/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Activities?$orderBy=name asc
-GET /api/v1/Person/{id}/Activities?$entities=nihil
-GET /api/v1/Person/{id}/Activities?$top=620
-GET /api/v1/Person/{id}/Activities?$skip=795
+GET /api/v1/Person/{id}/Activities?$entities=nam
+GET /api/v1/Person/{id}/Activities?$top=729
+GET /api/v1/Person/{id}/Activities?$skip=219
 GET /api/v1/Person/{id}/Activities?$mode=Full
 GET /api/v1/Person/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Activities?$context=aut
+GET /api/v1/Person/{id}/Activities?$context=labore
 GET /api/v1/Person/{id}/Activities?$format=JSON
-GET /api/v1/Person/{id}/Activities?$jsonSafe=False
+GET /api/v1/Person/{id}/Activities?$jsonSafe=True
 GET /api/v1/Person/{id}/Activities?$output=Display
 ```
 
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "incidunt",
+  "odata.nextLink": "consequuntur",
   "value": [
     {
-      "PrimaryKey": 1464,
-      "EntityName": "person",
-      "personId": 1464,
-      "fullName": "Lamar Hane"
+      "PrimaryKey": 2030,
+      "EntityName": "sale",
+      "saleId": 2030,
+      "contactId": 1207,
+      "name": "Morar-Romaguera"
     },
     {
-      "PrimaryKey": 9049,
-      "EntityName": "person",
-      "personId": 9049,
-      "fullName": "Dr. Vada Natalia Emard"
+      "PrimaryKey": 7651,
+      "EntityName": "sale",
+      "saleId": 7651,
+      "contactId": 1463,
+      "name": "Roob-Denesik"
     }
   ]
 }

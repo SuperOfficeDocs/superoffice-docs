@@ -2,6 +2,7 @@
 title: POST Agents/User/ChangeOwnPassword
 uid: v1UserAgent_ChangeOwnPassword
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/ChangeOwnPassword
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/User/ChangeOwnPassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "qui",
-  "NewPassword": "voluptas"
+  "OldPassword": "quisquam",
+  "NewPassword": "itaque"
 }
 ```
 

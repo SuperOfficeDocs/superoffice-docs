@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetAttachmentFromId SOAP
 generated: true
 uid: Services88-EMail-GetAttachmentFromId
+content_type: reference
 ---
 
 # Services88 EMail GetAttachmentFromId

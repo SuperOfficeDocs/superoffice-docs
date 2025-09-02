@@ -3,9 +3,9 @@ uid: QuoteConnection
 title: QuoteConnection
 description: This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 keywords: QuoteConnection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteConnection"

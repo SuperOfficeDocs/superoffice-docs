@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/DeleteForeignAppEntity
 uid: v1ForeignSystemAgent_DeleteForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/DeleteForeignAppEntity
@@ -22,10 +23,10 @@ Deletes the ForeignAppEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignAppEntityId | int32 | **Required** The id of the ForeignAppEntity to be deleted. |
+| foreignAppEntityId | int32 | **Required** The identity of the ForeignAppEntity |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?ForeignAppEntityId=1000
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=767
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

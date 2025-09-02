@@ -2,6 +2,7 @@
 title: PUT List/Rating/Headings
 uid: v1RatingList_PutSaleStageEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Rating/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 89,
-    "Name": "Prosacco, Kertzmann and Toy",
-    "Tooltip": "sed",
+    "HeadingId": 757,
+    "Name": "Stracke, Miller and Batz",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "Rank": 678,
-    "UdListDefinitionId": 267
+    "Rank": 257,
+    "UdListDefinitionId": 932
   },
   {
-    "HeadingId": 89,
-    "Name": "Prosacco, Kertzmann and Toy",
-    "Tooltip": "sed",
+    "HeadingId": 757,
+    "Name": "Stracke, Miller and Batz",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "Rank": 678,
-    "UdListDefinitionId": 267
+    "Rank": 257,
+    "UdListDefinitionId": 932
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 218,
-    "Name": "D'Amore, Bechtelar and Bradtke",
-    "Tooltip": "omnis",
+    "HeadingId": 702,
+    "Name": "Hessel-Johnson",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 304,
+    "Rank": 41,
+    "UdListDefinitionId": 984,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

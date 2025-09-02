@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveConsentSource
 uid: v1ListAgent_SaveConsentSource
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveConsentSource
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 294,
-  "Name": "Kozey-Marquardt",
-  "Tooltip": "eum",
-  "Rank": 719,
-  "Key": "quia",
-  "MailTemplateId": 478,
-  "Deleted": true,
+  "ConsentSourceId": 224,
+  "Name": "O'Conner, Hilpert and Windler",
+  "Tooltip": "molestias",
+  "Rank": 2,
+  "Key": "aut",
+  "MailTemplateId": 814,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 663
     }
   }
 }

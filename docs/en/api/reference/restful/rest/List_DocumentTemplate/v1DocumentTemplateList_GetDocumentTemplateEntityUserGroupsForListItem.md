@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/UserGroups
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Ledner-Bahringer",
-    "ToolTip": "Eum dolores sequi.",
-    "Deleted": true,
-    "Rank": 767,
-    "Type": "consequuntur",
-    "ColorBlock": 64,
-    "IconHint": "nostrum",
+    "Id": 659,
+    "Name": "Russel Inc and Sons",
+    "ToolTip": "Assumenda et consequatur magnam ea magnam veritatis suscipit.",
+    "Deleted": false,
+    "Rank": 72,
+    "Type": "quo",
+    "ColorBlock": 100,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1999-06-06T03:45:29.0452922+02:00",
+    "LastChanged": "2021-01-23T03:47:00.6599229+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Leannon-Runolfsdottir",
-        "ToolTip": "Nemo assumenda porro illum et modi id.",
+        "Id": 718,
+        "Name": "Marks, Strosin and Kunze",
+        "ToolTip": "Similique incidunt deserunt ex est.",
         "Deleted": true,
-        "Rank": 977,
-        "Type": "neque",
-        "ColorBlock": 60,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2018-08-01T03:45:29.0452922+02:00",
+        "Rank": 242,
+        "Type": "sed",
+        "ColorBlock": 943,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2008-03-05T03:47:00.6599229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Dr. Ulises Dario Kutch",
+        "ExtraInfo": "qui",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Mrs. Chadd Kreiger MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 716
+            "FieldType": "System.Int32",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
+    "ExtraInfo": "modi",
     "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Dr. Elissa Swift MD",
+    "FullName": "Cathrine Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

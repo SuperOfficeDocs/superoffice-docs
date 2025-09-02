@@ -2,6 +2,7 @@
 title: GET User/CustomField/{fieldName}
 uid: v1User_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET User/CustomField/{fieldName}
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hintz-Ferry",
-  "DisplayName": "Dooley, Rogahn and Zulauf",
-  "Description": "Re-engineered zero tolerance access",
-  "ShortLabel": "eligendi",
+  "FieldName": "Bins LLC",
+  "DisplayName": "Willms-Krajcik",
+  "Description": "Multi-channelled solution-oriented structure",
+  "ShortLabel": "qui",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 968,
-  "TemplateVariableName": "Wolff, Schmitt and Hoeger"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "IsDisplayField": true,
+  "Rank": 783,
+  "TemplateVariableName": "Carroll-Mraz"
 }
 ```

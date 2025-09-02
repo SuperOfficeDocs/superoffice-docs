@@ -2,6 +2,7 @@
 title: PATCH ChatTopic/{id}
 uid: v1ChatTopicEntity_PatchChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH ChatTopic/{id}
@@ -138,18 +139,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -162,48 +163,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 609,
-  "Name": "Adams-Beahan",
-  "Description": "Fundamental tangible system engine",
-  "WelcomeMessage": "consectetur",
+  "ChatTopicId": 916,
+  "Name": "Schaden, Volkman and Dare",
+  "Description": "Ameliorated tangible portal",
+  "WelcomeMessage": "voluptatem",
   "Language": null,
-  "LastAccept": "2013-03-26T03:45:28.1546963+01:00",
-  "SecondsPrAccept": 376,
-  "AlertRecipient": "quisquam",
+  "LastAccept": "2007-06-24T03:46:59.8005718+02:00",
+  "SecondsPrAccept": 112,
+  "AlertRecipient": "sint",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "optio",
+  "CollectConsent": true,
+  "BadgeHeader": "quos",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eum",
-  "WarnNewChatMinutes": 978,
-  "WarnManagerNewChatMinutes": 153,
+  "CustomQueueText": "eligendi",
+  "WarnNewChatMinutes": 679,
+  "WarnManagerNewChatMinutes": 296,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 108,
-  "WarnManagerChatMessageMinutes": 868,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 156,
-  "OfflineFormQueueLength": 50,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 4,
+  "WarnManagerChatMessageMinutes": 276,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 122,
+  "OfflineFormQueueLength": 106,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "doloribus",
+  "WidgetRatingText": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 157
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

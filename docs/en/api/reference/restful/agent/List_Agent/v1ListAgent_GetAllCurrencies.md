@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllCurrencies
 uid: v1ListAgent_GetAllCurrencies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllCurrencies
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 502,
-    "Name": "Reilly-Franecki",
-    "Tooltip": "et",
-    "Rank": 264,
-    "Rate": 6750.6359999999995,
-    "Units": 13046.841999999999,
+    "CurrencyId": 379,
+    "Name": "Klocko Inc and Sons",
+    "Tooltip": "inventore",
+    "Rank": 152,
+    "Rate": 3550.8219999999997,
+    "Units": 24203.881999999998,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldType": "System.String",
+        "FieldLength": 656
       }
     }
   }

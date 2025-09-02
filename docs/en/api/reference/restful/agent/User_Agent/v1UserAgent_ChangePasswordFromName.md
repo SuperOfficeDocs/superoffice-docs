@@ -2,6 +2,7 @@
 title: POST Agents/User/ChangePasswordFromName
 uid: v1UserAgent_ChangePasswordFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/ChangePasswordFromName
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/User/ChangePasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Schumm Inc and Sons",
-  "OldPassword": "possimus",
-  "NewPassword": "at"
+  "AssociateName": "Wisoky-Blanda",
+  "OldPassword": "et",
+  "NewPassword": "blanditiis"
 }
 ```
 

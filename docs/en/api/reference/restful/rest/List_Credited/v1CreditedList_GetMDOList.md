@@ -2,6 +2,7 @@
 title: GET List/Credited/MDOItems
 uid: v1CreditedList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=laborum
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=a
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Emard, Koelpin and Huel",
-    "ToolTip": "Excepturi occaecati quod adipisci consectetur est.",
+    "Id": 468,
+    "Name": "Orn Inc and Sons",
+    "ToolTip": "In illo iure doloremque et ratione numquam aut.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "molestias",
+    "Rank": 415,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Lindgren, Okuneva and Bradtke",
-        "ToolTip": "Itaque ipsum libero aperiam voluptatem nostrum maiores.",
-        "Deleted": false,
-        "Rank": 743,
-        "Type": "voluptatum",
+        "Id": 924,
+        "Name": "Hartmann-Glover",
+        "ToolTip": "Commodi atque aut unde nemo molestias recusandae.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 789,
-        "ExtraInfo": "nulla",
-        "StyleHint": "fuga",
-        "FullName": "Mr. Reid Nelson Ritchie",
+        "IconHint": "sed",
+        "ColorBlock": 371,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "molestiae",
+        "FullName": "Destin Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 81
+            "FieldLength": 618
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 128,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "iusto",
-    "FullName": "Kayleigh Mckayla Tillman III",
+    "IconHint": "eveniet",
+    "ColorBlock": 277,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sequi",
+    "FullName": "Dr. Carrie Kub V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

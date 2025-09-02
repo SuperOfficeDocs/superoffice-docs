@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/DeleteRefCountEntity
 uid: v1NumberAllocationAgent_DeleteRefCountEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/DeleteRefCountEntity
@@ -22,10 +23,10 @@ Deletes the RefCountEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| RefCountEntityId | int32 | **Required** The id of the RefCountEntity to be deleted. |
+| refCountEntityId | int32 | **Required** The identity of the RefCountEntity |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?RefCountEntityId=466
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=727
 ```
 
 

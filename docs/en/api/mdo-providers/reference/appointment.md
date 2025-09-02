@@ -3,9 +3,9 @@ uid: appointment
 title: appointment
 keywords: mdoprovider mdo provider appointment
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "appointment" MDO List

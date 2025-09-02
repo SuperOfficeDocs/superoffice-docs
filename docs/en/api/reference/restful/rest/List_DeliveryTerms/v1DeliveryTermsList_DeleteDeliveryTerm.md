@@ -2,6 +2,7 @@
 title: DEL List/DeliveryTerm/Items/{id}
 uid: v1DeliveryTermsList_DeleteDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # DEL List/DeliveryTerm/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

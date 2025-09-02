@@ -2,6 +2,7 @@
 title: PUT List/SaleType/Items/{id}/UserGroups
 uid: v1SaleTypeList_PutSaleTypeEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/SaleType/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Wilderman-Davis",
-    "ToolTip": "Ipsam placeat.",
-    "Deleted": true,
-    "Rank": 479,
-    "Type": "vero",
-    "ColorBlock": 921,
-    "IconHint": "ut",
+    "Id": 351,
+    "Name": "Altenwerth, Altenwerth and Herzog",
+    "ToolTip": "Quas ipsa.",
+    "Deleted": false,
+    "Rank": 330,
+    "Type": "aspernatur",
+    "ColorBlock": 28,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2002-07-15T03:45:29.2171623+02:00",
+    "LastChanged": "2019-01-30T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Gutkowski-Stamm",
-        "ToolTip": "Fugiat quasi ut accusantium modi.",
-        "Deleted": true,
-        "Rank": 602,
-        "Type": "qui",
-        "ColorBlock": 323,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2017-09-02T03:45:29.2171623+02:00",
+        "Id": 458,
+        "Name": "Deckow, Hudson and Watsica",
+        "ToolTip": "Nisi suscipit ducimus voluptas possimus odio voluptatem.",
+        "Deleted": false,
+        "Rank": 1002,
+        "Type": "aut",
+        "ColorBlock": 76,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2010-08-15T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "in",
+        "ExtraInfo": "fugit",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Mr. Devan Natalie Lebsack"
+        "FullName": "Madisyn Bechtelar IV"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "ut",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Jerrod McClure"
+    "FullName": "Dr. Tyler Favian Mills PhD"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Lehner LLC",
-    "ToolTip": "Rerum quod consequatur asperiores nesciunt quos quam.",
-    "Deleted": true,
-    "Rank": 525,
-    "Type": "dolor",
-    "ColorBlock": 103,
-    "IconHint": "nihil",
+    "Id": 808,
+    "Name": "Ruecker LLC",
+    "ToolTip": "Alias ut voluptate vel.",
+    "Deleted": false,
+    "Rank": 110,
+    "Type": "rerum",
+    "ColorBlock": 350,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2019-02-07T03:45:29.2171623+01:00",
+    "LastChanged": "2003-04-02T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Howe, Franecki and Lindgren",
-        "ToolTip": "Dolorem quae aut.",
-        "Deleted": false,
-        "Rank": 910,
-        "Type": "nihil",
-        "ColorBlock": 46,
-        "IconHint": "temporibus",
-        "Selected": false,
-        "LastChanged": "2025-01-11T03:45:29.2171623+01:00",
+        "Id": 666,
+        "Name": "Reynolds-Hettinger",
+        "ToolTip": "Voluptatem ut perspiciatis minima.",
+        "Deleted": true,
+        "Rank": 73,
+        "Type": "rem",
+        "ColorBlock": 35,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2022-12-29T03:47:00.8161673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "amet",
+        "ExtraInfo": "aut",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Monica Haleigh Swift Sr.",
+        "FullName": "Dessie Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 901
+            "FieldType": "System.Int32",
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "qui",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Rebeca Hand",
+    "FullName": "Anya Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

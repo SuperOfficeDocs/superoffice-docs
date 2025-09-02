@@ -2,6 +2,7 @@
 title: PUT List/ReasonStalled/Items
 uid: v1ReasonStalledList_PutAllReasonStalled
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonStalled/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Feil-Terry",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "UdListDefinitionId": 252,
-    "Rank": 115
+    "Id": 978,
+    "Name": "Tromp-Jast",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "UdListDefinitionId": 735,
+    "Rank": 112
   },
   {
-    "Id": 823,
-    "Name": "Feil-Terry",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "UdListDefinitionId": 252,
-    "Rank": 115
+    "Id": 978,
+    "Name": "Tromp-Jast",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "UdListDefinitionId": 735,
+    "Rank": 112
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Kulas Group",
-    "Tooltip": "exercitationem",
+    "Id": 847,
+    "Name": "Mayer Group",
+    "Tooltip": "eum",
     "Deleted": true,
-    "UdListDefinitionId": 491,
-    "Rank": 680,
+    "UdListDefinitionId": 468,
+    "Rank": 518,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 911
       }
     }
   }

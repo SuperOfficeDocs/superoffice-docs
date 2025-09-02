@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetAddress
 uid: v1PersonAgent_GetAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetAddress
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 125
+  "PersonId": 477
 }
 ```
 
@@ -93,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 423.09,
-  "Wgs84Longitude": 25504.492,
+  "Wgs84Latitude": 9665.256,
+  "Wgs84Longitude": 5522.108,
   "LocalizedAddress": [
     [
       {
-        "Name": "Runolfsson, Littel and Farrell",
-        "Value": "quia",
-        "Tooltip": "aperiam",
-        "Label": "est",
-        "ValueLength": 467,
-        "AddressType": "recusandae",
+        "Name": "Russel, Powlowski and O'Reilly",
+        "Value": "ut",
+        "Tooltip": "consequuntur",
+        "Label": "aliquam",
+        "ValueLength": 902,
+        "AddressType": "sapiente",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 985
           }
         }
       }
     ],
     [
       {
-        "Name": "Runolfsson Group",
-        "Value": "alias",
-        "Tooltip": "ea",
-        "Label": "ea",
-        "ValueLength": 197,
-        "AddressType": "nulla",
+        "Name": "Ritchie Inc and Sons",
+        "Value": "aspernatur",
+        "Tooltip": "animi",
+        "Label": "adipisci",
+        "ValueLength": 658,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldType": "System.String",
+            "FieldLength": 965
           }
         }
       }
@@ -140,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

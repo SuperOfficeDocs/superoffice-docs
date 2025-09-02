@@ -2,6 +2,7 @@
 title: Services88.SaintAgent.SetRankOnStatusMonitors SOAP
 generated: true
 uid: Services88-Saint-SetRankOnStatusMonitors
+content_type: reference
 ---
 
 # Services88 Saint SetRankOnStatusMonitors

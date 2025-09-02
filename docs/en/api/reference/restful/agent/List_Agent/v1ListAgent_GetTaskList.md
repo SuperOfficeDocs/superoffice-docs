@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTaskList
 uid: v1ListAgent_GetTaskList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTaskList
@@ -43,9 +44,9 @@ POST /api/v1/Agents/List/GetTaskList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: taskIds 
+## Request Body: soTaskIds 
 
- 
+The identifiers of the SoTask object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Value": "atque",
-    "Tooltip": "cum",
+    "Id": 686,
+    "Value": "voluptatem",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   },
   {
-    "Id": 646,
-    "Value": "atque",
-    "Tooltip": "cum",
+    "Id": 686,
+    "Value": "voluptatem",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   }

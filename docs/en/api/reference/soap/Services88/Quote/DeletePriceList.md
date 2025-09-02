@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.DeletePriceList SOAP
 generated: true
 uid: Services88-Quote-DeletePriceList
+content_type: reference
 ---
 
 # Services88 Quote DeletePriceList

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonAppointmentsByTask
 uid: v1AppointmentAgent_GetPersonAppointmentsByTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTask
@@ -119,6 +120,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,16 +135,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 49,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2023-12-23T03:45:22.6861022+01:00",
-  "EndTime": "2007-03-21T03:45:22.6861022+01:00",
-  "Count": 862,
-  "TaskId": 873
+  "PersonId": 702,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2018-03-08T03:46:53.9726601+01:00",
+  "EndTime": "2009-01-22T03:46:53.9726601+01:00",
+  "Count": 468,
+  "TaskId": 123
 }
 ```
 
@@ -154,66 +156,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 514,
-    "StartDate": "2019-06-05T03:45:22.6861022+02:00",
-    "EndDate": "2005-06-02T03:45:22.6861022+02:00",
+    "AppointmentId": 970,
+    "StartDate": "2004-11-29T03:46:53.9726601+01:00",
+    "EndDate": "2002-06-19T03:46:53.9726601+02:00",
     "Type": "BookingForChecklist",
-    "Task": "labore",
-    "AssociateFullName": "Norris Beahan",
-    "ContactName": "Erdman, Orn and Halvorson",
-    "Description": "Synergistic 24 hour orchestration",
-    "PersonFullName": "Madyson Russel",
-    "PersonId": 285,
-    "ContactId": 715,
-    "ProjectId": 367,
-    "ProjectName": "Leannon Group",
+    "Task": "saepe",
+    "AssociateFullName": "Ms. Calista Santos Parker",
+    "ContactName": "Kshlerin-Haag",
+    "Description": "Compatible directional conglomeration",
+    "PersonFullName": "Mr. Beryl Konopelski",
+    "PersonId": 471,
+    "ContactId": 10,
+    "ProjectId": 833,
+    "ProjectName": "Effertz Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 301,
-    "ColorIndex": 566,
-    "IsFree": true,
+    "AssociateId": 806,
+    "ColorIndex": 396,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 477,
-    "PriorityName": "Orn-Tremblay",
+    "PriorityId": 519,
+    "PriorityName": "Schuster Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2006-03-21T03:45:22.6861022+01:00",
+    "ActiveDate": "1998-08-25T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-08-25T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2002-08-30T03:45:22.6861022+02:00",
-    "MotherId": 179,
-    "AssignedBy": 806,
-    "AssignedByFullName": "Ms. Shanie Schimmel V",
+    "RecurringStartDate": "2000-11-23T03:46:53.9882851+01:00",
+    "RecurringEndDate": "2016-05-17T03:46:53.9882851+02:00",
+    "MotherId": 694,
+    "AssignedBy": 249,
+    "AssignedByFullName": "Stewart Bosco",
     "RejectReason": "",
-    "Location": "provident",
-    "AlarmLeadTime": "excepturi",
-    "SaleId": 663,
-    "SaleName": "Hilll Group",
-    "AssociateName": "Crooks Group",
-    "CreatedDate": "2024-11-10T03:45:22.6861022+01:00",
-    "CreatedBy": "quis",
-    "CreatedByFullName": "Miss Merle Boehm I",
-    "CreatedByAssociateId": 390,
+    "Location": "ut",
+    "AlarmLeadTime": "culpa",
+    "SaleId": 586,
+    "SaleName": "Kiehn Group",
+    "AssociateName": "Hilpert-Rath",
+    "CreatedDate": "2013-05-13T03:46:53.9882851+02:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Kelly Wuckert",
+    "CreatedByAssociateId": 456,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 383,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 19,
-    "Title": "consequatur",
-    "Agenda": "non",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 819,
+    "Title": "laborum",
+    "Agenda": "ut",
+    "InternalNotes": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 958
       }
     }
   }

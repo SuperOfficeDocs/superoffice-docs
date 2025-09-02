@@ -2,6 +2,7 @@
 title: POST Agents/User/SetPasswordFromName
 uid: v1UserAgent_SetPasswordFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SetPasswordFromName
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Wisoky LLC",
-  "Password": "non"
+  "AssociateName": "Ullrich, Hoeger and Fadel",
+  "Password": "autem"
 }
 ```
 

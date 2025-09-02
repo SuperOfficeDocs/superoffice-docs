@@ -2,6 +2,7 @@
 title: GET SaleStakeholder/default
 uid: v1SaleStakeholder_DefaultSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # GET SaleStakeholder/default
@@ -75,7 +76,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Corwin Group",
-  "Comment": "voluptas",
-  "StakeholderRoleId": 155,
-  "CountryId": 189,
-  "PersonId": 247,
-  "EmailDescription": "morgan_reichert@davis.biz",
-  "EmailId": 699,
-  "EmailAddress": "frida@schamberger.ca",
-  "PhoneId": 522,
-  "ContactName": "Friesen LLC",
-  "ContactId": 491,
-  "SaleId": 920,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Gage",
-  "MiddleName": "Koss-Balistreri",
-  "Lastname": "Carroll",
-  "SaleStakeholderId": 223,
-  "Rank": 70,
-  "Phone": "697-617-9239 x73130",
+  "StakeholderRoleName": "Lemke LLC",
+  "Comment": "ab",
+  "StakeholderRoleId": 685,
+  "CountryId": 603,
+  "PersonId": 912,
+  "EmailDescription": "sterling_zboncak@langlind.biz",
+  "EmailId": 700,
+  "EmailAddress": "connor.carter@ankunding.biz",
+  "PhoneId": 899,
+  "ContactName": "Brekke-Jerde",
+  "ContactId": 3,
+  "SaleId": 415,
+  "Mrmrs": "optio",
+  "Firstname": "Ines",
+  "MiddleName": "Sipes Inc and Sons",
+  "Lastname": "Predovic",
+  "SaleStakeholderId": 970,
+  "Rank": 593,
+  "Phone": "(775)785-4224 x2030",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 211
     }
   }
 }

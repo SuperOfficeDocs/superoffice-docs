@@ -2,10 +2,10 @@
 uid: table-extra_tables
 title: extra_tables table
 description: This table contains entries for the extra tables in the system.
-so.generated: true
+generated: true
 keywords: database table extra_tables
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # extra\_tables Table (305)
@@ -34,6 +34,7 @@ This table contains entries for the extra tables in the system.
 |screen\_chooser\_edit|The screen chooser to use for this extra table when editing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
 |description|Optional description of what this table is used for|String(2047)|&#x25CF;|
 |icon\_id|The id of the binary object entry|FK [BinaryObject](binaryobject.md)|&#x25CF;|
+|table\_number|Number of the table|UShort|&#x25CF;|
 
 
 ![extra_tables table relationship diagram](./media/extra_tables.png)

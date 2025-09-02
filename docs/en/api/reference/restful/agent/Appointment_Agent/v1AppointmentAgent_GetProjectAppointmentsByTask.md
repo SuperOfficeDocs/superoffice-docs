@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectAppointmentsByTask
 uid: v1AppointmentAgent_GetProjectAppointmentsByTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTask
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,15 +134,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 99,
-  "StartTime": "1998-07-01T03:45:22.6861022+02:00",
-  "EndTime": "2001-01-31T03:45:22.6861022+01:00",
-  "Count": 142,
-  "TaskId": 512
+  "ProjectId": 777,
+  "StartTime": "2006-07-05T03:46:53.9882851+02:00",
+  "EndTime": "2013-01-20T03:46:53.9882851+01:00",
+  "Count": 73,
+  "TaskId": 401
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 493,
-    "StartDate": "2012-07-07T03:45:22.6861022+02:00",
-    "EndDate": "2017-10-04T03:45:22.6861022+02:00",
+    "AppointmentId": 422,
+    "StartDate": "2004-03-06T03:46:53.9882851+01:00",
+    "EndDate": "2006-11-20T03:46:53.9882851+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ducimus",
-    "AssociateFullName": "Jolie Pouros",
-    "ContactName": "Bogisich LLC",
-    "Description": "Secured didactic superstructure",
-    "PersonFullName": "Ray Crona",
-    "PersonId": 372,
-    "ContactId": 734,
-    "ProjectId": 715,
-    "ProjectName": "Johns-Feest",
-    "IsPublished": false,
-    "AssociateId": 448,
-    "ColorIndex": 203,
+    "Task": "omnis",
+    "AssociateFullName": "Mervin Abernathy",
+    "ContactName": "Rice Inc and Sons",
+    "Description": "Versatile reciprocal ability",
+    "PersonFullName": "Mr. Destiney VonRueden Jr.",
+    "PersonId": 14,
+    "ContactId": 509,
+    "ProjectId": 678,
+    "ProjectName": "Goodwin LLC",
+    "IsPublished": true,
+    "AssociateId": 316,
+    "ColorIndex": 591,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 457,
-    "PriorityName": "Jewess Group",
+    "PriorityId": 428,
+    "PriorityName": "Cruickshank, Yost and White",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-05-15T03:45:22.6861022+02:00",
+    "ActiveDate": "2011-08-09T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-14T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2000-12-07T03:45:22.6861022+01:00",
-    "MotherId": 656,
-    "AssignedBy": 406,
-    "AssignedByFullName": "Mathew Boyer",
+    "RecurringStartDate": "1998-04-19T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2006-12-20T03:46:53.9882851+01:00",
+    "MotherId": 977,
+    "AssignedBy": 23,
+    "AssignedByFullName": "Dr. Ena Trent Cruickshank",
     "RejectReason": "",
-    "Location": "rem",
-    "AlarmLeadTime": "magni",
-    "SaleId": 949,
-    "SaleName": "Medhurst Inc and Sons",
-    "AssociateName": "Terry, Schimmel and Ferry",
-    "CreatedDate": "2003-10-10T03:45:22.6861022+02:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Morris Mosciski",
-    "CreatedByAssociateId": 691,
+    "Location": "eos",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 771,
+    "SaleName": "Streich, Schoen and Thiel",
+    "AssociateName": "Homenick, Adams and Raynor",
+    "CreatedDate": "1999-07-24T03:46:53.9882851+02:00",
+    "CreatedBy": "pariatur",
+    "CreatedByFullName": "Tess Vandervort",
+    "CreatedByAssociateId": 545,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 322,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 216,
-    "Title": "vero",
-    "Agenda": "quis",
-    "InternalNotes": "ipsum",
+    "PreferredTZLocation": 755,
+    "Title": "doloremque",
+    "Agenda": "id",
+    "InternalNotes": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 117
       }
     }
   }

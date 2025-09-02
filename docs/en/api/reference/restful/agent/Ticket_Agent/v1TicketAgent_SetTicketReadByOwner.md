@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SetTicketReadByOwner
 uid: v1TicketAgent_SetTicketReadByOwner
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SetTicketReadByOwner
@@ -134,11 +135,11 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 800,
+  "TicketEntityId": 924,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -151,21 +152,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 200,
-  "Title": "cumque",
-  "CreatedAt": "2013-03-27T03:45:24.0610592+01:00",
-  "LastChanged": "2014-07-14T03:45:24.0610592+02:00",
-  "ReadByOwner": "2004-03-21T03:45:24.0610592+01:00",
-  "ReadByCustomer": "2006-08-13T03:45:24.0610592+02:00",
-  "FirstReadByOwner": "1999-10-10T03:45:24.0610592+02:00",
-  "FirstReadByUser": "2017-03-03T03:45:24.0610592+01:00",
-  "Activate": "2021-08-21T03:45:24.0610592+02:00",
-  "ClosedAt": "2019-05-01T03:45:24.0610592+02:00",
-  "RepliedAt": "2021-03-08T03:45:24.0610592+01:00",
-  "AlertTimeout": "2012-03-12T03:45:24.0610592+01:00",
-  "Deadline": "2006-09-24T03:45:24.0610592+02:00",
+  "TicketId": 68,
+  "Title": "voluptas",
+  "CreatedAt": "2013-07-19T03:46:55.472607+02:00",
+  "LastChanged": "2015-06-11T03:46:55.472607+02:00",
+  "ReadByOwner": "2018-09-16T03:46:55.472607+02:00",
+  "ReadByCustomer": "2021-06-07T03:46:55.472607+02:00",
+  "FirstReadByOwner": "2019-02-05T03:46:55.472607+01:00",
+  "FirstReadByUser": "2000-03-28T03:46:55.472607+02:00",
+  "Activate": "2017-05-16T03:46:55.472607+02:00",
+  "ClosedAt": "2024-03-07T03:46:55.472607+01:00",
+  "RepliedAt": "2004-09-23T03:46:55.472607+02:00",
+  "AlertTimeout": "2012-11-15T03:46:55.472607+01:00",
+  "Deadline": "1999-11-22T03:46:55.472607+01:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "sed",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -176,163 +177,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "qui",
-      "PersonId": 513,
-      "Mrmrs": "tempora",
-      "Firstname": "Juliet",
-      "Lastname": "Reynolds",
-      "MiddleName": "Schmidt LLC",
-      "Title": "quia",
-      "Description": "Synergistic logistical info-mediaries",
-      "Email": "mortimer_armstrong@morar.com",
-      "FullName": "Eldon Wyman Bahringer V",
-      "DirectPhone": "651.984.9768 x5166",
-      "FormalName": "O'Reilly LLC",
-      "CountryId": 661,
-      "ContactId": 452,
-      "ContactName": "Raynor Inc and Sons",
-      "Retired": 546,
-      "Rank": 904,
-      "ActiveInterests": 855,
-      "ContactDepartment": "",
-      "ContactCountryId": 375,
-      "ContactOrgNr": "1545297",
-      "FaxPhone": "980-894-2901",
-      "MobilePhone": "(952)749-9143 x918",
-      "ContactPhone": "828-060-9028 x64208",
-      "AssociateName": "Sipes, Quitzon and Schinner",
-      "AssociateId": 459,
-      "UsePersonAddress": true,
-      "ContactFax": "facilis",
-      "Kanafname": "placeat",
-      "Kanalname": "harum",
-      "Post1": "vel",
-      "Post2": "iste",
-      "Post3": "doloremque",
-      "EmailName": "kristofer_rodriguez@dooley.biz",
-      "ContactFullName": "Owen Romaguera",
-      "ActiveErpLinks": 149,
-      "TicketPriorityId": 492,
-      "SupportLanguageId": 646,
-      "SupportAssociateId": 57,
+      "Position": "explicabo",
+      "PersonId": 290,
+      "Mrmrs": "quia",
+      "Firstname": "Magdalena",
+      "Lastname": "Marvin",
+      "MiddleName": "Turcotte Group",
+      "Title": "veritatis",
+      "Description": "Centralized radical budgetary management",
+      "Email": "eugenia@gerholdlemke.ca",
+      "FullName": "Morgan Rogahn",
+      "DirectPhone": "1-168-323-1710",
+      "FormalName": "Feil LLC",
+      "CountryId": 607,
+      "ContactId": 881,
+      "ContactName": "Goldner Inc and Sons",
+      "Retired": 529,
+      "Rank": 562,
+      "ActiveInterests": 470,
+      "ContactDepartment": "aggregate ubiquitous eyeballs",
+      "ContactCountryId": 615,
+      "ContactOrgNr": "787967",
+      "FaxPhone": "1-108-249-3997",
+      "MobilePhone": "954-765-7287 x80677",
+      "ContactPhone": "(237)290-3443",
+      "AssociateName": "Sporer, Jacobi and Klein",
+      "AssociateId": 127,
+      "UsePersonAddress": false,
+      "ContactFax": "hic",
+      "Kanafname": "accusantium",
+      "Kanalname": "et",
+      "Post1": "eius",
+      "Post2": "ut",
+      "Post3": "dolorum",
+      "EmailName": "harmony_larkin@fritschadams.co.uk",
+      "ContactFullName": "Cathryn Connelly MD",
+      "ActiveErpLinks": 975,
+      "TicketPriorityId": 502,
+      "SupportLanguageId": 614,
+      "SupportAssociateId": 432,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "676937",
+      "PersonNumber": "477687",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldType": "System.String",
+          "FieldLength": 321
         }
       }
     }
   ],
-  "AlertLevel": 739,
-  "ConnectId": 489,
+  "AlertLevel": 4,
+  "ConnectId": 601,
   "ReadStatus": "Green",
-  "TimeToReply": 780,
-  "RealTimeToReply": 745,
-  "TimeToClose": 993,
-  "RealTimeToClose": 529,
-  "TimeSpentInternally": 586,
-  "TimeSpentExternally": 89,
-  "TimeSpentQueue": 359,
-  "RealTimeSpentInternally": 947,
-  "RealTimeSpentExternally": 937,
-  "RealTimeSpentQueue": 601,
-  "TimeSpent": 642,
+  "TimeToReply": 891,
+  "RealTimeToReply": 904,
+  "TimeToClose": 451,
+  "RealTimeToClose": 208,
+  "TimeSpentInternally": 263,
+  "TimeSpentExternally": 806,
+  "TimeSpentQueue": 15,
+  "RealTimeSpentInternally": 448,
+  "RealTimeSpentExternally": 727,
+  "RealTimeSpentQueue": 151,
+  "TimeSpent": 537,
   "HasAttachment": false,
-  "NumReplies": 404,
-  "NumMessages": 773,
-  "FromAddress": "sit",
+  "NumReplies": 379,
+  "NumMessages": 7,
+  "FromAddress": "officiis",
   "Messages": [
     {
-      "TicketMessageId": 925,
-      "CreatedAt": "2018-05-30T03:45:24.0610592+02:00",
+      "TicketMessageId": 176,
+      "CreatedAt": "2015-04-04T03:46:55.472607+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "magni",
-      "PersonId": 755,
-      "PersonFullName": "Mrs. Fernando Franz Lebsack",
-      "ContactId": 183,
-      "ContactName": "Hackett, Rau and Maggio",
+      "Important": false,
+      "Author": "accusamus",
+      "PersonId": 441,
+      "PersonFullName": "Mr. Carley Stanton Harvey Jr.",
+      "ContactId": 765,
+      "ContactName": "Kerluke-Hills",
       "ContactDepartment": "",
-      "NumAttachments": 830,
-      "EmailHeader": "liza@hauck.biz",
+      "NumAttachments": 659,
+      "EmailHeader": "rahsaan.white@muellermuller.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "minus",
-      "Sentiment": 423,
-      "SentimentConfidence": 667,
-      "CreatedBy": 195,
-      "ChangedAt": "2001-07-06T03:45:24.0610592+02:00",
+      "Language": "necessitatibus",
+      "Sentiment": 987,
+      "SentimentConfidence": 655,
+      "CreatedBy": 27,
+      "ChangedAt": "2014-04-30T03:46:55.472607+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 387
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 920,
-      "Name": "Bosco Inc and Sons",
-      "ToolTip": "Et sapiente iste libero explicabo qui aut.",
+      "Id": 235,
+      "Name": "Rippin, Weissnat and Morar",
+      "ToolTip": "Tenetur voluptatum aliquid sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 459
         }
       }
     },
     {
-      "Id": 920,
-      "Name": "Bosco Inc and Sons",
-      "ToolTip": "Et sapiente iste libero explicabo qui aut.",
+      "Id": 235,
+      "Name": "Rippin, Weissnat and Morar",
+      "ToolTip": "Tenetur voluptatum aliquid sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 459
         }
       }
     }
   ],
-  "Language": "consequatur",
-  "Sentiment": 831,
-  "SentimentConfidence": 35,
-  "SuggestedCategoryId": 181,
+  "Language": "asperiores",
+  "Sentiment": 538,
+  "SentimentConfidence": 109,
+  "SuggestedCategoryId": 883,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 576,
-  "IconHint": "esse",
+  "OrigHumanCategoryId": 237,
+  "IconHint": "sapiente",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 750,
+  "ActiveStatusMonitorId": 831,
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "eaque"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

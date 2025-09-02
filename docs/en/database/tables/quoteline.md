@@ -2,10 +2,10 @@
 uid: table-QuoteLine
 title: QuoteLine table
 description: One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.
-so.generated: true
+generated: true
 keywords: database table QuoteLine
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # QuoteLine Table (127)

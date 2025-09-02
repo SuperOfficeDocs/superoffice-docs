@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.GetCacheInvalidationGenerations SOAP
 generated: true
 uid: Services88-Diagnostics-GetCacheInvalidationGenerations
+content_type: reference
 ---
 
 # Services88 Diagnostics GetCacheInvalidationGenerations

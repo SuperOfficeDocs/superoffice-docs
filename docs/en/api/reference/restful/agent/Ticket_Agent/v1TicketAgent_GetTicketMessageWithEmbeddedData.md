@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketMessageWithEmbeddedData
 uid: v1TicketAgent_GetTicketMessageWithEmbeddedData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketMessageWithEmbeddedData
@@ -105,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
+  "Id": 86,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +118,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 587,
+  "EjMessageId": 436,
   "Ticket": null,
-  "CreatedAt": "2020-08-28T03:45:24.0141935+02:00",
+  "CreatedAt": "2023-03-05T03:46:55.4257333+01:00",
   "CreatedBy": null,
-  "Author": "quos",
+  "Author": "inventore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "unde",
-  "TimeSpent": 741,
-  "Body": "rerum",
-  "HtmlBody": "iure",
-  "EmailHeader": "jadyn.toy@schulistsipes.ca",
-  "DebugInfo": "impedit",
-  "MailSorter": "et",
+  "MessageId": "et",
+  "TimeSpent": 534,
+  "Body": "dolor",
+  "HtmlBody": "officiis",
+  "EmailHeader": "matilda@okonkunze.co.uk",
+  "DebugInfo": "laboriosam",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 518,
-      "Name": "Wisozk-Jakubowski",
-      "Value": "culpa",
+      "Id": 514,
+      "Name": "Jerde, Becker and O'Kon",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 672
         }
       }
     }
   ],
   "Important": true,
-  "Language": "nulla",
-  "Sentiment": 890,
-  "SentimentConfidence": 120,
+  "Language": "laboriosam",
+  "Sentiment": 781,
+  "SentimentConfidence": 686,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 436,
-      "Name": "Hilpert-Leffler",
-      "ContentType": "est",
-      "AttSize": 296,
+      "AttachmentId": 154,
+      "Name": "Grimes Group",
+      "ContentType": "quas",
+      "AttSize": 438,
       "InlineImage": false,
-      "ContentId": "assumenda",
-      "AuthKey": "et",
+      "ContentId": "nisi",
+      "AuthKey": "nisi",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 608
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "qui",
+    "CustomFields2": "illum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 830
     }
   }
 }

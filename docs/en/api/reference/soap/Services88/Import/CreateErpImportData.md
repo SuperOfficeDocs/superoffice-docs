@@ -2,6 +2,7 @@
 title: Services88.ImportAgent.CreateErpImportData SOAP
 generated: true
 uid: Services88-Import-CreateErpImportData
+content_type: reference
 ---
 
 # Services88 Import CreateErpImportData

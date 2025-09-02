@@ -2,6 +2,7 @@
 title: GET List
 uid: v1ListEntity_GetListDefinitions
 generated: true
+content_type: reference
 ---
 
 # GET List
@@ -85,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Turcotte, Schoen and Wunsch",
-    "Tooltip": "voluptas",
+    "Id": 920,
+    "Name": "Dickens-Wilderman",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 408,
-    "IsCustomList": false,
+    "Rank": 604,
+    "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "ut",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": false,
+    "ListType": "consequatur",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

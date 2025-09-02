@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/RebuildWebpanelDeltas
 uid: v1ConfigurationAgent_RebuildWebpanelDeltas
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/RebuildWebpanelDeltas

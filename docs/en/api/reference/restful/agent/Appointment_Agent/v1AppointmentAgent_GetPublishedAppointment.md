@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPublishedAppointment
 uid: v1AppointmentAgent_GetPublishedAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPublishedAppointment
@@ -112,6 +113,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,7 +132,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 990
+  "AppointmentId": 841
 }
 ```
 
@@ -141,66 +143,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 446,
-  "StartDate": "2010-08-22T03:45:22.7017267+02:00",
-  "EndDate": "2012-07-29T03:45:22.7017267+02:00",
+  "AppointmentId": 490,
+  "StartDate": "2000-11-08T03:46:54.0039095+01:00",
+  "EndDate": "2012-03-05T03:46:54.0039095+01:00",
   "Type": "BookingForChecklist",
-  "Task": "magnam",
-  "AssociateFullName": "Wendell Kling",
-  "ContactName": "Kiehn Group",
-  "Description": "Ergonomic homogeneous process improvement",
-  "PersonFullName": "Mariane Stamm",
-  "PersonId": 536,
-  "ContactId": 773,
-  "ProjectId": 214,
-  "ProjectName": "Sanford LLC",
-  "IsPublished": false,
-  "AssociateId": 261,
-  "ColorIndex": 48,
-  "IsFree": true,
+  "Task": "in",
+  "AssociateFullName": "Zora Yundt",
+  "ContactName": "Erdman, Stehr and Gaylord",
+  "Description": "De-engineered reciprocal parallelism",
+  "PersonFullName": "Sophia Spinka",
+  "PersonId": 518,
+  "ContactId": 107,
+  "ProjectId": 146,
+  "ProjectName": "Quigley LLC",
+  "IsPublished": true,
+  "AssociateId": 667,
+  "ColorIndex": 607,
+  "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 169,
-  "PriorityName": "Zboncak, Hodkiewicz and Jenkins",
+  "PriorityId": 326,
+  "PriorityName": "Krajcik-Erdman",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2010-02-01T03:45:22.7017267+01:00",
+  "IsRecurrence": false,
+  "IsBooking": false,
+  "ActiveDate": "2003-03-12T03:46:54.0039095+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2012-01-21T03:45:22.7017267+01:00",
-  "RecurringEndDate": "2015-04-20T03:45:22.7017267+02:00",
-  "MotherId": 639,
-  "AssignedBy": 963,
-  "AssignedByFullName": "Dr. Jefferey Bechtelar",
+  "RecurringStartDate": "2012-05-01T03:46:54.0039095+02:00",
+  "RecurringEndDate": "2015-08-30T03:46:54.0039095+02:00",
+  "MotherId": 567,
+  "AssignedBy": 958,
+  "AssignedByFullName": "Moshe Nader IV",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "consequuntur",
-  "SaleId": 482,
-  "SaleName": "Mann-Oberbrunner",
-  "AssociateName": "Koelpin-Batz",
-  "CreatedDate": "2008-12-07T03:45:22.7017267+01:00",
-  "CreatedBy": "molestiae",
-  "CreatedByFullName": "Judah Gusikowski MD",
-  "CreatedByAssociateId": 533,
+  "Location": "aut",
+  "AlarmLeadTime": "eos",
+  "SaleId": 172,
+  "SaleName": "Fritsch LLC",
+  "AssociateName": "Torphy-Russel",
+  "CreatedDate": "2010-01-25T03:46:54.0039095+01:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Bruce Herzog PhD",
+  "CreatedByAssociateId": 209,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 253,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 202,
-  "Title": "rerum",
-  "Agenda": "numquam",
-  "InternalNotes": "impedit",
+  "PreferredTZLocation": 644,
+  "Title": "ut",
+  "Agenda": "consequuntur",
+  "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

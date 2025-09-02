@@ -2,6 +2,7 @@
 title: GET List/Business/MDOItems
 uid: v1BusinessList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=molestias
+GET /api/v1/List/Business/MDOItems?query=laboriosam
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Waters, Medhurst and Price",
-    "ToolTip": "Expedita et.",
-    "Deleted": true,
-    "Rank": 491,
-    "Type": "fugiat",
+    "Id": 672,
+    "Name": "Fadel Group",
+    "ToolTip": "Et consequatur.",
+    "Deleted": false,
+    "Rank": 890,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Fritsch, Harris and Cormier",
-        "ToolTip": "Hic ullam ut.",
-        "Deleted": true,
-        "Rank": 549,
-        "Type": "sapiente",
+        "Id": 921,
+        "Name": "Stehr, Nitzsche and Schneider",
+        "ToolTip": "Magnam qui debitis.",
+        "Deleted": false,
+        "Rank": 116,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 24,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "omnis",
-        "FullName": "Oral Kautzer",
+        "IconHint": "quidem",
+        "ColorBlock": 784,
+        "ExtraInfo": "nihil",
+        "StyleHint": "laborum",
+        "FullName": "Karina Arvid Mante Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 94
+            "FieldLength": 107
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 579,
-    "ExtraInfo": "minima",
-    "StyleHint": "voluptas",
-    "FullName": "Teagan Price V",
+    "IconHint": "rerum",
+    "ColorBlock": 991,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "autem",
+    "FullName": "Ms. Crystal Rebeka Ruecker DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 24
       }
     }
   }

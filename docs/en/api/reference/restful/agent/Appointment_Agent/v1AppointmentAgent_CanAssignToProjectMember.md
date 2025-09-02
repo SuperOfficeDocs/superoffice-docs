@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CanAssignToProjectMember
 uid: v1AppointmentAgent_CanAssignToProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CanAssignToProjectMember
@@ -73,8 +74,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 160,
-  "SuggestedAppointmentId": 471
+  "ProjectId": 161,
+  "SuggestedAppointmentId": 871
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -2,6 +2,7 @@
 title: PUT List/ProjectType/Headings
 uid: v1ProjectTypeList_PutProjectTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 52,
-    "Name": "Crooks, Hegmann and Mante",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 405,
-    "UdListDefinitionId": 407
+    "HeadingId": 650,
+    "Name": "Cartwright-Franecki",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 767,
+    "UdListDefinitionId": 481
   },
   {
-    "HeadingId": 52,
-    "Name": "Crooks, Hegmann and Mante",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 405,
-    "UdListDefinitionId": 407
+    "HeadingId": 650,
+    "Name": "Cartwright-Franecki",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 767,
+    "UdListDefinitionId": 481
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 834,
-    "Name": "Jacobs-Beer",
-    "Tooltip": "itaque",
+    "HeadingId": 973,
+    "Name": "Beatty, Williamson and Ratke",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 173,
-    "UdListDefinitionId": 233,
+    "Rank": 61,
+    "UdListDefinitionId": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 894
       }
     }
   }

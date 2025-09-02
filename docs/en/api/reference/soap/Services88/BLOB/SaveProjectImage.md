@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SaveProjectImage SOAP
 generated: true
 uid: Services88-BLOB-SaveProjectImage
+content_type: reference
 ---
 
 # Services88 BLOB SaveProjectImage

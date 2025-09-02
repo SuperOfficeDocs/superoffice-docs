@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailSOInfo
 uid: v1EMailAgent_CreateDefaultEMailSOInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailSOInfo
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 ```
 
-Set default values into a new EMailSOInfo.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailSOInfo.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -67,7 +65,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 692,
-  "AppointmentId": 862,
-  "ProjectId": 531,
-  "SaleId": 297,
-  "Archived": true,
-  "ArchivedAt": "2022-10-25T03:45:23.4048314+02:00",
-  "ArchivedBy": 333,
-  "ArchivedDisplayName": "Cummerata-O'Keefe",
+  "DocumentId": 758,
+  "AppointmentId": 691,
+  "ProjectId": 730,
+  "SaleId": 704,
+  "Archived": false,
+  "ArchivedAt": "2014-12-09T03:46:54.7538824+01:00",
+  "ArchivedBy": 346,
+  "ArchivedDisplayName": "Strosin-Wuckert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 674
     }
   }
 }

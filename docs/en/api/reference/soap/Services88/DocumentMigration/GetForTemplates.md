@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.GetForTemplates SOAP
 generated: true
 uid: Services88-DocumentMigration-GetForTemplates
+content_type: reference
 ---
 
 # Services88 DocumentMigration GetForTemplates

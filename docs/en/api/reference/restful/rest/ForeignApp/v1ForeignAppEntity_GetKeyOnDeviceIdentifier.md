@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
 uid: v1ForeignAppEntity_GetKeyOnDeviceIdentifier
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
@@ -73,7 +74,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +82,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 22 Sep 2019 03:45:28 G9T
+Last-Modified: Mon, 16 Feb 2009 03:47:00 G2T
 
 {
-  "Key": "non",
-  "Value": "minus",
-  "RecordId": 529,
-  "CreatedDate": "2019-10-26T03:45:28.3578119+02:00",
-  "UpdatedDate": "2019-09-22T03:45:28.3578119+02:00",
-  "UpdatedBy": "odit",
-  "CreatedBy": "molestiae",
-  "TableName": "Kulas-Mann",
+  "Key": "aut",
+  "Value": "aut",
+  "RecordId": 199,
+  "CreatedDate": "2021-01-12T03:47:00.0349452+01:00",
+  "UpdatedDate": "2009-02-16T03:47:00.0349452+01:00",
+  "UpdatedBy": "corrupti",
+  "CreatedBy": "aliquid",
+  "TableName": "Borer-Satterfield",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 438
     }
   }
 }

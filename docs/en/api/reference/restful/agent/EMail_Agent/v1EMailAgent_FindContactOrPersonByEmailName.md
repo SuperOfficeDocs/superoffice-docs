@@ -2,6 +2,7 @@
 title: POST Agents/EMail/FindContactOrPersonByEmailName
 uid: v1EMailAgent_FindContactOrPersonByEmailName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailName
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisoky-Mertz",
-  "EmailAddress": "gillian.vandervort@hauckmuller.co.uk"
+  "Name": "Yundt LLC",
+  "EmailAddress": "myriam_kshlerin@bauch.us"
 }
 ```
 
@@ -100,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 673,
-    "FullName": "Octavia Boyer",
-    "EmailAddress": "casimer@stamm.co.uk",
-    "ContactId": 74,
-    "ContactName": "Farrell LLC",
+    "PersonId": 395,
+    "FullName": "Karley Ruben Fahey DDS",
+    "EmailAddress": "kenyatta@hauck.com",
+    "ContactId": 769,
+    "ContactName": "Harris Group",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Medhurst Group",
+    "SortName": "Treutel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 488
       }
     }
   }

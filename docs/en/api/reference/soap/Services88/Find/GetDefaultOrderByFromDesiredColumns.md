@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetDefaultOrderByFromDesiredColumns SOAP
 generated: true
 uid: Services88-Find-GetDefaultOrderByFromDesiredColumns
+content_type: reference
 ---
 
 # Services88 Find GetDefaultOrderByFromDesiredColumns

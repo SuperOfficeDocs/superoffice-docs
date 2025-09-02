@@ -2,6 +2,7 @@
 title: GET CRMScript/{id}
 uid: v1CRMScriptEntity_GetCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # GET CRMScript/{id}
@@ -83,6 +84,7 @@ CRMScriptEntity found.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -93,7 +95,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,52 +105,53 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 992,
-  "UniqueIdentifier": "nulla",
-  "Name": "Block Group",
-  "Description": "Universal 24 hour protocol",
-  "IncludeId": "perspiciatis",
-  "AccessKey": "praesentium",
-  "HierarchyId": 157,
-  "Source": "voluptatem",
-  "SourceCode": "quod",
+  "EjscriptId": 34,
+  "UniqueIdentifier": "ut",
+  "Name": "Feest-Conroy",
+  "Description": "Polarised incremental open system",
+  "IncludeId": "expedita",
+  "AccessKey": "consectetur",
+  "HierarchyId": 395,
+  "Source": "necessitatibus",
+  "SourceCode": "officia",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 98,
+  "HtmlOutput": 641,
   "Includes": [
-    961,
-    554
+    681,
+    58
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 681,
-      "LineNumberTo": 804,
-      "Delta": 906,
-      "IncludeId": "totam",
+      "LineNumberFrom": 970,
+      "LineNumberTo": 612,
+      "Delta": 995,
+      "IncludeId": "dolor",
       "IncludedFrom": [
-        "molestiae",
-        "libero"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 108
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2010-08-14T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 680,
-  "Updated": "2017-10-27T03:45:28.2955692+02:00",
-  "UpdatedAssociateId": 274,
+  "Registered": "2012-02-03T03:46:59.8943184+01:00",
+  "RegisteredAssociateId": 405,
+  "Updated": "2023-08-26T03:46:59.8943184+02:00",
+  "UpdatedAssociateId": 311,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 508
     }
   },
   "_Links": {

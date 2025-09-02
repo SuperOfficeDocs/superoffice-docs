@@ -2,6 +2,7 @@
 title: POST Agents/Person/CreateDefaultConsentPerson
 uid: v1PersonAgent_CreateDefaultConsentPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/CreateDefaultConsentPerson
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 ```
 
-Set default values into a new ConsentPerson.
+Loading default values into a new ConsentPerson.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 673,
+  "ConsentPersonId": 605,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 845,
+  "PersonId": 1001,
   "ConsentPurpose": null,
-  "Comment": "fugit",
+  "Comment": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 269
     }
   }
 }

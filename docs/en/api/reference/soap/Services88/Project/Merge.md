@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.Merge SOAP
 generated: true
 uid: Services88-Project-Merge
+content_type: reference
 ---
 
 # Services88 Project Merge

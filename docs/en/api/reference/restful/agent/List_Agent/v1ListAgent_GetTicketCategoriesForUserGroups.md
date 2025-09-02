@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketCategoriesForUserGroups
 uid: v1ListAgent_GetTicketCategoriesForUserGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketCategoriesForUserGroups
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    450,
-    16
+    985,
+    289
   ]
 }
 ```
@@ -103,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Frami-Klocko",
-    "ToolTip": "Quis assumenda.",
+    "Id": 196,
+    "Name": "Witting, Auer and Hand",
+    "ToolTip": "Omnis inventore quae aut voluptas ducimus error eveniet.",
     "Deleted": false,
-    "Rank": 675,
-    "Type": "eligendi",
+    "Rank": 74,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Lynch Inc and Sons",
-        "ToolTip": "Vero aut.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "voluptatem",
+        "Id": 725,
+        "Name": "Kohler-Bogisich",
+        "ToolTip": "Sed sit et.",
+        "Deleted": false,
+        "Rank": 583,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 54,
-        "ExtraInfo": "omnis",
-        "StyleHint": "rerum",
-        "FullName": "Angel Jalen Satterfield V",
+        "IconHint": "inventore",
+        "ColorBlock": 632,
+        "ExtraInfo": "et",
+        "StyleHint": "adipisci",
+        "FullName": "Woodrow Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 760
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 493,
-    "ExtraInfo": "quo",
-    "StyleHint": "minima",
-    "FullName": "Prof. Ernesto Mills PhD",
+    "IconHint": "qui",
+    "ColorBlock": 66,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "vel",
+    "FullName": "Mrs. Velma Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 840
       }
     }
   }

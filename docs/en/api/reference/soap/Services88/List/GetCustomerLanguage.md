@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCustomerLanguage SOAP
 generated: true
 uid: Services88-List-GetCustomerLanguage
+content_type: reference
 ---
 
 # Services88 List GetCustomerLanguage

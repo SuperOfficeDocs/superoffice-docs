@@ -2,10 +2,10 @@
 uid: enum-ticketorigin
 title: Enum values for TicketOrigin
 description: Lists the enum values for TicketOrigin.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TicketOrigin Enum

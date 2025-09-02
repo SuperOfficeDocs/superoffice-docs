@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetAllBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetAllBatchTaskInfosByNameAndState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetAllBatchTaskInfosByNameAndState
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Gutkowski, Parker and Pfannerstill",
+  "TaskName": "Bayer Group",
   "State": "All"
 }
 ```
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 425,
-    "Name": "Aufderhar-McCullough",
-    "AssociateId": 479,
-    "DetailsTable": 552,
-    "DetailsRecord": 124,
-    "IsSystemTask": true,
+    "Id": 842,
+    "Name": "Hilpert LLC",
+    "AssociateId": 630,
+    "DetailsTable": 673,
+    "DetailsRecord": 832,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "rem"
+      "ParameterObject1": "quam",
+      "ParameterObject2": "magni"
     },
-    "LastStarted": "2024-01-23T03:45:22.9829669+01:00",
-    "Created": "2019-01-23T03:45:22.9829669+01:00",
-    "StartCount": 389,
-    "DatabaseSerialNumber": "859378",
-    "Context": "eius",
-    "Result": "quis",
+    "LastStarted": "2023-11-29T03:46:54.3007673+01:00",
+    "Created": "2014-09-11T03:46:54.3007673+02:00",
+    "StartCount": 705,
+    "DatabaseSerialNumber": "943115",
+    "Context": "ad",
+    "Result": "harum",
     "State": "All",
-    "Description": "Quality-focused zero tolerance installation",
-    "Response": "necessitatibus",
-    "Request": "ipsam",
-    "ProgressDescription": "User-centric methodical toolset",
-    "ProgressPercent": 231,
-    "FileName": "Monahan, Pouros and Bogan",
+    "Description": "Reduced eco-centric paradigm",
+    "Response": "dolores",
+    "Request": "eius",
+    "ProgressDescription": "Open-source foreground infrastructure",
+    "ProgressPercent": 585,
+    "FileName": "Kilback, Rutherford and Rempel",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldType": "System.Int32",
+        "FieldLength": 84
       }
     }
   }

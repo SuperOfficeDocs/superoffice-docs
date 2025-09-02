@@ -2,6 +2,7 @@
 title: PATCH SystemEvent/{id}
 uid: v1SystemEventEntity_PatchSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH SystemEvent/{id}
@@ -117,18 +118,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "totam",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "totam",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -141,27 +142,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 96,
+  "SystemEventId": 264,
   "Scope": "Database",
-  "Eta": "2002-06-06T03:45:28.670306+02:00",
-  "Eventkey": "earum",
-  "Eventmess": "id",
-  "ExtraInfo": 613,
-  "Owner": 568,
-  "UpdatedCount": 621,
-  "Registered": "2021-11-16T03:45:28.670306+01:00",
+  "Eta": "2019-09-08T03:47:00.3005605+02:00",
+  "Eventkey": "accusantium",
+  "Eventmess": "asperiores",
+  "ExtraInfo": 363,
+  "Owner": 92,
+  "UpdatedCount": 478,
+  "Registered": "2006-12-15T03:47:00.3005605+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 328
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

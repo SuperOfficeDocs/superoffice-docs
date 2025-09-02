@@ -2,6 +2,7 @@
 title: GET Role/WithFunctionRight/{functionalRightName}
 uid: v1RoleEntity_FindRolesWithFunctionalRight
 generated: true
+content_type: reference
 ---
 
 # GET Role/WithFunctionRight/{functionalRightName}
@@ -86,50 +87,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Ledner-Mann",
-    "ToolTip": "Atque accusamus.",
+    "Id": 332,
+    "Name": "Tromp-Goldner",
+    "ToolTip": "Error beatae molestiae in.",
     "Deleted": false,
-    "Rank": 511,
-    "Type": "eaque",
+    "Rank": 524,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Jewess Group",
-        "ToolTip": "Voluptatem voluptatem.",
-        "Deleted": true,
-        "Rank": 676,
-        "Type": "laudantium",
+        "Id": 793,
+        "Name": "McDermott-Prohaska",
+        "ToolTip": "Deleniti deleniti quae ratione et sed sint.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 159,
-        "ExtraInfo": "velit",
-        "StyleHint": "voluptates",
-        "FullName": "Ms. Austen Dane Fadel V",
+        "IconHint": "minima",
+        "ColorBlock": 607,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "error",
+        "FullName": "Marco Borer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 714
+            "FieldType": "System.Int32",
+            "FieldLength": 254
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 280,
-    "ExtraInfo": "sunt",
-    "StyleHint": "ut",
-    "FullName": "Miss Dean Boyle V",
+    "IconHint": "aut",
+    "ColorBlock": 226,
+    "ExtraInfo": "quae",
+    "StyleHint": "nihil",
+    "FullName": "Jedediah Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 544
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetBaseCurrency SOAP
 generated: true
 uid: Services88-List-GetBaseCurrency
+content_type: reference
 ---
 
 # Services88 List GetBaseCurrency

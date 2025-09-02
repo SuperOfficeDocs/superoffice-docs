@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SaveSelectionEntity
 uid: v1SelectionAgent_SaveSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SaveSelectionEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 ```
 
-Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
+Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SelectionEntity or creates a new SelectionEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: selectionEntity 
 
-The SelectionEntity to be saved. 
+The SelectionEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -147,56 +148,56 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured upward-trending local area network",
-  "Postit": "vel",
+  "Description": "Diverse value-added solution",
+  "Postit": "nam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 733,
-  "IncludePerson": 37,
+  "GroupIdx": 203,
+  "IncludePerson": 482,
   "MemberCount": 99.99,
-  "Name": "Goyette, Waelchi and Will",
-  "PostitTextId": 558,
-  "CreatedDate": "2001-10-04T03:45:23.8891939+02:00",
-  "SelectionId": 490,
-  "SoundEx": "reprehenderit",
-  "Source": 739,
-  "TextId": 556,
-  "UpdatedDate": "2013-02-05T03:45:23.8891939+01:00",
-  "UpdatedCount": 706,
-  "Visibility": 867,
+  "Name": "Renner LLC",
+  "PostitTextId": 106,
+  "CreatedDate": "2012-06-28T03:46:55.3007553+02:00",
+  "SelectionId": 906,
+  "SoundEx": "commodi",
+  "Source": 777,
+  "TextId": 525,
+  "UpdatedDate": "2000-03-10T03:46:55.3007553+01:00",
+  "UpdatedCount": 869,
+  "Visibility": 452,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 586,
-  "TargetTableName": "Nicolas, Heller and Vandervort",
+  "TargetTableNumber": 704,
+  "TargetTableName": "Champlin, Strosin and Baumbach",
   "Completed": false,
-  "LeftSelectionId": 296,
-  "RightSelectionId": 77,
+  "LeftSelectionId": 557,
+  "RightSelectionId": 684,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bogan-Considine",
-  "ShadowProviderName": "Kunde-Labadie",
-  "ChartKey": "voluptates",
-  "LastLoaded": "1999-01-07T03:45:23.8891939+01:00",
-  "LastLoadedBy": 146,
+  "MainProviderName": "Zemlak, Schmidt and Runte",
+  "ShadowProviderName": "Kerluke-Heller",
+  "ChartKey": "expedita",
+  "LastLoaded": "2003-11-17T03:46:55.3007553+01:00",
+  "LastLoadedBy": 84,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-11-10T03:45:23.8891939+01:00",
-  "LastMembershipChangeBy": 981,
+  "LastMembershipChange": "2024-02-12T03:46:55.3007553+01:00",
+  "LastMembershipChangeBy": 654,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "hic",
-  "MailingsProviderName": "Tromp Inc and Sons",
-  "DashboardTileDefinitionId": 20,
+  "MainHeading": "natus",
+  "MemberTabHeading": "tempore",
+  "MailingsProviderName": "Heathcote Group",
+  "DashboardTileDefinitionId": 164,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "voluptates"
+      "DisplayValue": "quaerat"
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "voluptates"
+      "DisplayValue": "quaerat"
     }
   ]
 }
@@ -209,70 +210,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive reciprocal initiative",
-  "Postit": "minima",
+  "Description": "Ameliorated dynamic extranet",
+  "Postit": "sequi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 182,
-  "IncludePerson": 579,
+  "GroupIdx": 502,
+  "IncludePerson": 129,
   "MemberCount": 99.99,
-  "Name": "O'Reilly-Sawayn",
-  "PostitTextId": 753,
-  "CreatedDate": "2022-11-17T03:45:23.8891939+01:00",
-  "SelectionId": 773,
-  "SoundEx": "incidunt",
-  "Source": 72,
-  "TextId": 919,
-  "UpdatedDate": "2023-08-21T03:45:23.8891939+02:00",
-  "UpdatedCount": 387,
-  "Visibility": 54,
+  "Name": "Hammes-Kertzmann",
+  "PostitTextId": 627,
+  "CreatedDate": "2001-02-15T03:46:55.3007553+01:00",
+  "SelectionId": 56,
+  "SoundEx": "est",
+  "Source": 388,
+  "TextId": 845,
+  "UpdatedDate": "2013-01-15T03:46:55.3007553+01:00",
+  "UpdatedCount": 836,
+  "Visibility": 13,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 96,
-  "TargetTableName": "Doyle, Larson and Beatty",
+  "CompanyUnique": true,
+  "TargetTableNumber": 699,
+  "TargetTableName": "Hane Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 291,
-  "RightSelectionId": 467,
+  "LeftSelectionId": 732,
+  "RightSelectionId": 617,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Anderson Inc and Sons",
-  "ShadowProviderName": "Cartwright-Larkin",
-  "ChartKey": "asperiores",
-  "LastLoaded": "2016-07-25T03:45:23.8891939+02:00",
-  "LastLoadedBy": 692,
+  "MainProviderName": "Leuschke-Ondricka",
+  "ShadowProviderName": "Cole-Hahn",
+  "ChartKey": "possimus",
+  "LastLoaded": "2020-06-16T03:46:55.3007553+02:00",
+  "LastLoadedBy": 127,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-11-10T03:45:23.8891939+01:00",
-  "LastMembershipChangeBy": 276,
+  "LastMembershipChange": "2006-04-20T03:46:55.3007553+02:00",
+  "LastMembershipChangeBy": 220,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "id",
-  "MemberTabHeading": "a",
-  "MailingsProviderName": "Farrell Group",
-  "DashboardTileDefinitionId": 267,
+  "MainHeading": "asperiores",
+  "MemberTabHeading": "vitae",
+  "MailingsProviderName": "Parker Inc and Sons",
+  "DashboardTileDefinitionId": 535,
   "VisibleFor": [
     {
-      "VisibleId": 441,
+      "VisibleId": 815,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 675
         }
       }
     },
     {
-      "VisibleId": 441,
+      "VisibleId": 815,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 675
         }
       }
     }
@@ -282,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 170
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailFromId
 uid: v1EMailAgent_GetEMailFromId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailFromId
@@ -109,10 +110,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 968,
-  "LookupAddresses": false,
+  "MessageServerId": 180,
+  "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,147 +126,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 53,
-      "ContactName": "Cartwright Group",
-      "PersonId": 339,
-      "PersonName": "Aufderhar-Leannon",
-      "AssociateId": 427,
-      "Address": "repellat",
-      "EmailId": 545,
+      "ContactId": 494,
+      "ContactName": "Jast, Keebler and Cummings",
+      "PersonId": 523,
+      "PersonName": "Wisoky Inc and Sons",
+      "AssociateId": 254,
+      "Address": "eveniet",
+      "EmailId": 573,
       "DuplicatePersonIds": [
-        825,
-        589
+        808,
+        564
       ],
-      "Name": "Legros-Casper",
+      "Name": "Nitzsche Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 479,
-      "ContactName": "Ferry-Reilly",
-      "PersonId": 145,
-      "PersonName": "Feil, Ruecker and Haley",
-      "AssociateId": 867,
-      "Address": "cum",
-      "EmailId": 586,
+      "ContactId": 66,
+      "ContactName": "Johns, Ryan and Bartell",
+      "PersonId": 781,
+      "PersonName": "Heller-Carter",
+      "AssociateId": 490,
+      "Address": "recusandae",
+      "EmailId": 783,
       "DuplicatePersonIds": [
-        460,
-        555
+        157,
+        377
       ],
-      "Name": "Crist-Dibbert",
+      "Name": "Herzog Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 473
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 115,
-      "ContactName": "Kuphal, Douglas and Klocko",
-      "PersonId": 585,
-      "PersonName": "Denesik-Russel",
-      "AssociateId": 411,
-      "Address": "expedita",
-      "EmailId": 915,
+      "ContactId": 735,
+      "ContactName": "Beatty, Pfeffer and Hahn",
+      "PersonId": 805,
+      "PersonName": "Crist, Mertz and Bernhard",
+      "AssociateId": 880,
+      "Address": "earum",
+      "EmailId": 542,
       "DuplicatePersonIds": [
-        734,
-        788
+        614,
+        450
       ],
-      "Name": "O'Connell LLC",
+      "Name": "Pfannerstill LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 821
         }
       }
     }
   ],
-  "Subject": "enim",
-  "HTMLBody": "dolor",
+  "Subject": "molestiae",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "1998-12-12T03:45:23.4204561+01:00",
-  "Size": 568,
+  "Sent": "2017-04-06T03:46:54.7695066+02:00",
+  "Size": 444,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "voluptate",
+  "MessageID": "aut",
+  "PlainBody": "nihil",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 294,
+  "ServerId": 964,
   "Attachments": [
     {
-      "Description": "Persistent tertiary process improvement",
-      "Filename": "accusamus",
-      "Size": 518,
-      "Type": "eveniet",
-      "Encoding": "omnis",
-      "Id": "blanditiis",
-      "Disposition": "corporis",
-      "IsSafeFileExtension": true,
+      "Description": "Business-focused content-based paradigm",
+      "Filename": "laboriosam",
+      "Size": 808,
+      "Type": "sed",
+      "Encoding": "sed",
+      "Id": "dolor",
+      "Disposition": "veniam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Towne-Heaney",
+      "Name": "Jaskolski-Graham",
       "Values": [
-        "ut",
-        "sequi"
+        "expedita",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 725
         }
       }
     },
     {
-      "Name": "Towne-Heaney",
+      "Name": "Jaskolski-Graham",
       "Values": [
-        "ut",
-        "sequi"
+        "expedita",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 725
         }
       }
     }
   ],
-  "FolderName": "Walker, Stehr and Leuschke",
-  "EmailItemId": 799,
-  "AccountId": 618,
-  "ReceivedAt": "2019-03-12T03:45:23.4204561+01:00",
+  "FolderName": "Crist-McKenzie",
+  "EmailItemId": 191,
+  "AccountId": 768,
+  "ReceivedAt": "2012-10-18T03:46:54.7695066+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-08-24T03:45:23.4204561+02:00",
+  "RepliedAt": "2019-09-04T03:46:54.7695066+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

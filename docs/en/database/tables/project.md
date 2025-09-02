@@ -2,10 +2,10 @@
 uid: table-project
 title: project table
 description: Projects
-so.generated: true
+generated: true
 keywords: database table project
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # project Table (11)

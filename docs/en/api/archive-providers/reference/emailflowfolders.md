@@ -3,9 +3,9 @@ uid: EmailFlowFolders
 title: EmailFlowFolders
 description: Archive of Email flow folders.
 keywords: EmailFlowFolders archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailFlowFolders"
@@ -35,7 +35,7 @@ Lists all email flow folders
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFolders?$select=hierarchyId,hierarchyName
+GET /api/v1/archive/EmailFlowFolders?$select=hierarchyId,hierarchyId,hierarchyName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

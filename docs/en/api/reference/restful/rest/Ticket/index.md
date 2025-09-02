@@ -1,6 +1,8 @@
 ---
+uid: tag-Ticket
 title: Ticket
 generated: true
+content_type: reference
 ---
 
 ```http

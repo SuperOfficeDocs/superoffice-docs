@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.Merge SOAP
 generated: true
 uid: Services88-Contact-Merge
+content_type: reference
 ---
 
 # Services88 Contact Merge

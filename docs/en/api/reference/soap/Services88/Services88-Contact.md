@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Contact
 title: Services88.ContactAgent WSDL
+content_type: reference
 ---
 
 # Services88.ContactAgent WSDL
@@ -86,6 +87,7 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Domains" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -261,6 +263,8 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -277,6 +281,24 @@ title: Services88.ContactAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:complexType name="Business">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -498,24 +520,22 @@ title: Services88.ContactAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="AddressType" nillable="true" type="tns:AddressType" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
+      <xs:complexType name="InitalUtmParameters">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FormName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ReferrerDomain" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
       </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
+      <xs:element name="InitalUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -926,6 +946,7 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
+              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />

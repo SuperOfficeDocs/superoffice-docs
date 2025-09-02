@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.CreateDefaultAttachmentEntity SOAP
 generated: true
 uid: Services88-Ticket-CreateDefaultAttachmentEntity
+content_type: reference
 ---
 
 # Services88 Ticket CreateDefaultAttachmentEntity

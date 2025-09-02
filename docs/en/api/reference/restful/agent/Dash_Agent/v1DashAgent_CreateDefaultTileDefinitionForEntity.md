@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultTileDefinitionForEntity
 uid: v1DashAgent_CreateDefaultTileDefinitionForEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultTileDefinitionForEntity
@@ -95,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "McClure, Willms and Will"
+  "EntityName": "McClure-Borer"
 }
 ```
 
@@ -106,31 +107,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 352,
-  "Name": "Becker, Metz and Kuphal",
-  "Description": "Decentralized neutral internet solution",
-  "DefaultHeight": 455,
-  "DefaultWidth": 230,
+  "DashboardTileDefinitionId": 722,
+  "Name": "Stamm-Rowe",
+  "Description": "Secured 3rd generation moderator",
+  "DefaultHeight": 353,
+  "DefaultWidth": 689,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gulgowski-Wintheiser",
-  "SelectionId": 720,
+  "EntityName": "Carter Inc and Sons",
+  "SelectionId": 363,
   "CurrencyMode": "Base",
-  "CurrencyCode": "recusandae",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "facere",
-  "LayoutConfig": "eos",
-  "SecondarySelectionId": 694,
-  "MeasureByField": "incidunt",
+  "MeasureField": "saepe",
+  "SortBy": "eos",
+  "LayoutConfig": "commodi",
+  "SecondarySelectionId": 780,
+  "MeasureByField": "ad",
   "Usage": "Dashboard",
-  "ProviderName": "Hilll-Senger",
+  "ProviderName": "Schmidt Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   }
 }

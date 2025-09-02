@@ -2,6 +2,7 @@
 title: Services88.FindAgent.FindFromRestrictionsColumnsOrderBy SOAP
 generated: true
 uid: Services88-Find-FindFromRestrictionsColumnsOrderBy
+content_type: reference
 ---
 
 # Services88 Find FindFromRestrictionsColumnsOrderBy

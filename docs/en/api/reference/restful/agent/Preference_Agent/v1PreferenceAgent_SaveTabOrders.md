@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SaveTabOrders
 uid: v1PreferenceAgent_SaveTabOrders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SaveTabOrders
@@ -70,16 +71,16 @@ Content-Type: application/json; charset=utf-8
 {
   "TabOrders": [
     {
-      "TabOrderId": 204,
-      "TabName": "Larkin, Hahn and McLaughlin",
-      "Order": "et",
-      "AssociateId": 15
+      "TabOrderId": 29,
+      "TabName": "Roberts, King and Johns",
+      "Order": "tempore",
+      "AssociateId": 747
     },
     {
-      "TabOrderId": 204,
-      "TabName": "Larkin, Hahn and McLaughlin",
-      "Order": "et",
-      "AssociateId": 15
+      "TabOrderId": 29,
+      "TabName": "Roberts, King and Johns",
+      "Order": "tempore",
+      "AssociateId": 747
     }
   ]
 }

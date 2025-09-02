@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SupportsAdvancedSearch SOAP
 generated: true
 uid: Services88-ErpSync-SupportsAdvancedSearch
+content_type: reference
 ---
 
 # Services88 ErpSync SupportsAdvancedSearch

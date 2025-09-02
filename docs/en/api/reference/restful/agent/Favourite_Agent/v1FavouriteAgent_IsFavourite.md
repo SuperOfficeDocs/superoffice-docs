@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/IsFavourite
 uid: v1FavouriteAgent_IsFavourite
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/IsFavourite
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bednar LLC",
-  "RecordId": 273,
-  "AssociateId": 588
+  "TableName": "Kessler, Friesen and Spencer",
+  "RecordId": 447,
+  "AssociateId": 764
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

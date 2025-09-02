@@ -2,6 +2,7 @@
 title: GET Selection/DuplicateRules
 uid: v1SelectionEntity_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # GET Selection/DuplicateRules
@@ -69,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fahey-Lockman",
-    "DisplayName": "Schoen-Murazik",
-    "DisplayTooltip": "voluptas",
-    "IsActive": false,
+    "Name": "Gusikowski, Ruecker and Stamm",
+    "DisplayName": "Lang Group",
+    "DisplayTooltip": "dolores",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldLength": 55
       }
     }
   },
   {
-    "Name": "Fahey-Lockman",
-    "DisplayName": "Schoen-Murazik",
-    "DisplayTooltip": "voluptas",
-    "IsActive": false,
+    "Name": "Gusikowski, Ruecker and Stamm",
+    "DisplayName": "Lang Group",
+    "DisplayTooltip": "dolores",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldLength": 55
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT Relation/{id}
 uid: v1ContactRelationEntity_PutContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # PUT Relation/{id}
@@ -114,28 +115,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 659,
-  "SourcePersonId": 909,
-  "DestinationContactId": 97,
-  "DestinationPersonId": 68,
-  "RelationId": 298,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 688,
-  "Reversed": 839,
-  "UpdatedDate": "2010-10-03T03:45:28.2328189+02:00",
-  "CreatedDate": "2000-10-21T03:45:28.2328189+02:00",
+  "SourceContactId": 13,
+  "SourcePersonId": 46,
+  "DestinationContactId": 838,
+  "DestinationPersonId": 534,
+  "RelationId": 555,
+  "Comment": "inventore",
+  "RelationDefinitionId": 107,
+  "Reversed": 401,
+  "UpdatedDate": "2016-03-28T03:46:59.8943184+02:00",
+  "CreatedDate": "2022-09-10T03:46:59.8943184+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Quitzon LLC",
-  "SourcePersonName": "Block Inc and Sons",
-  "DestinationContactName": "O'Conner LLC",
-  "DestinationPersonName": "Berge, Effertz and Hintz",
-  "ActiveText": "earum",
-  "PassiveText": "voluptate"
+  "SourceContactName": "Flatley-Zulauf",
+  "SourcePersonName": "Fadel LLC",
+  "DestinationContactName": "Bashirian Inc and Sons",
+  "DestinationPersonName": "Jakubowski-Veum",
+  "ActiveText": "accusamus",
+  "PassiveText": "hic"
 }
 ```
 
@@ -146,35 +147,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 513,
-  "SourcePersonId": 315,
-  "DestinationContactId": 725,
-  "DestinationPersonId": 403,
-  "RelationId": 773,
-  "Comment": "maiores",
-  "RelationDefinitionId": 533,
-  "Reversed": 293,
-  "UpdatedDate": "2013-03-19T03:45:28.2328189+01:00",
-  "CreatedDate": "2002-04-21T03:45:28.2328189+02:00",
+  "SourceContactId": 317,
+  "SourcePersonId": 538,
+  "DestinationContactId": 498,
+  "DestinationPersonId": 609,
+  "RelationId": 980,
+  "Comment": "mollitia",
+  "RelationDefinitionId": 267,
+  "Reversed": 987,
+  "UpdatedDate": "2015-02-13T03:46:59.8943184+01:00",
+  "CreatedDate": "2022-07-02T03:46:59.8943184+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schaefer Group",
-  "SourcePersonName": "Johnson-Douglas",
-  "DestinationContactName": "O'Keefe-Metz",
-  "DestinationPersonName": "Langosh LLC",
-  "ActiveText": "sed",
-  "PassiveText": "explicabo",
+  "SourceContactName": "Blick-Murphy",
+  "SourcePersonName": "Moore, Mueller and Larson",
+  "DestinationContactName": "Cassin-Bayer",
+  "DestinationPersonName": "Kub-D'Amore",
+  "ActiveText": "laboriosam",
+  "PassiveText": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

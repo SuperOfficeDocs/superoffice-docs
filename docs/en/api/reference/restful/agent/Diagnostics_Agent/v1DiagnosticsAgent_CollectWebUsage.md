@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/CollectWebUsage
 uid: v1DiagnosticsAgent_CollectWebUsage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/CollectWebUsage
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/CollectWebUsage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

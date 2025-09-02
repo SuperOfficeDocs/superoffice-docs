@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Items
@@ -25,7 +26,7 @@ Gets all the QuoteApproveReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Osinski, Hartmann and Raynor",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "UdListDefinitionId": 704,
-    "Rank": 182,
+    "Id": 212,
+    "Name": "Koch-Jast",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "UdListDefinitionId": 750,
+    "Rank": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_GetRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # GET RelationDefinition/{id}
@@ -80,7 +81,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,12 +91,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 861,
-  "Name": "Howell Inc and Sons",
-  "Tooltip": "voluptatem",
-  "PassiveText": "ut",
-  "Deleted": false,
-  "Rank": 336,
+  "ReldefId": 449,
+  "Name": "Tremblay Inc and Sons",
+  "Tooltip": "repudiandae",
+  "PassiveText": "voluptatem",
+  "Deleted": true,
+  "Rank": 777,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 995
     }
   },
   "_Links": {

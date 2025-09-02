@@ -1,6 +1,8 @@
 ---
+uid: tag-FieldInfoBase
 title: FieldInfoBase
 generated: true
+content_type: reference
 ---
 
 ```http

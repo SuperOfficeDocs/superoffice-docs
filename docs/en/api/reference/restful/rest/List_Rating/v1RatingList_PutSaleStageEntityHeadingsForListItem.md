@@ -2,6 +2,7 @@
 title: PUT List/Rating/Items/{id}/Headings
 uid: v1RatingList_PutSaleStageEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Rating/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Weimann, Hessel and Bogisich",
-    "ToolTip": "Deserunt error.",
+    "Id": 329,
+    "Name": "Torphy Group",
+    "ToolTip": "Culpa ut est totam consequatur voluptates.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "quia",
-    "ColorBlock": 17,
-    "IconHint": "est",
+    "Rank": 492,
+    "Type": "pariatur",
+    "ColorBlock": 112,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2013-10-04T03:45:29.2015441+02:00",
+    "LastChanged": "2023-04-29T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Douglas, O'Hara and Schulist",
-        "ToolTip": "Itaque at inventore quod.",
+        "Id": 705,
+        "Name": "Daniel-Rau",
+        "ToolTip": "Aspernatur tenetur aut.",
         "Deleted": true,
-        "Rank": 755,
-        "Type": "temporibus",
-        "ColorBlock": 213,
-        "IconHint": "eos",
+        "Rank": 761,
+        "Type": "deserunt",
+        "ColorBlock": 93,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2000-12-20T03:45:29.2015441+01:00",
+        "LastChanged": "2002-12-07T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Reynold Leffler"
+        "ExtraInfo": "saepe",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Ayden Reilly"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Jon Little III"
+    "ExtraInfo": "ad",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Daryl Watsica"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Parker Group",
-    "ToolTip": "Autem harum perferendis.",
-    "Deleted": false,
-    "Rank": 776,
-    "Type": "aut",
-    "ColorBlock": 170,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2016-11-23T03:45:29.2015441+01:00",
+    "Id": 165,
+    "Name": "Sanford-Stroman",
+    "ToolTip": "Sequi inventore expedita aliquam.",
+    "Deleted": true,
+    "Rank": 802,
+    "Type": "laborum",
+    "ColorBlock": 18,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2022-05-30T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Von, Bauch and Ledner",
-        "ToolTip": "Ut asperiores illo cum officiis qui dolores et.",
-        "Deleted": false,
-        "Rank": 999,
-        "Type": "cupiditate",
-        "ColorBlock": 935,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2005-04-29T03:45:29.2015441+02:00",
+        "Id": 27,
+        "Name": "Stracke-Corkery",
+        "ToolTip": "Et provident quod explicabo sapiente sit sed.",
+        "Deleted": true,
+        "Rank": 691,
+        "Type": "laborum",
+        "ColorBlock": 196,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2018-05-31T03:47:00.7849183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Prof. Lexus Nona Lehner",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Frederic Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldLength": 685
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ad",
+    "ExtraInfo": "autem",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Irving Krajcik",
+    "FullName": "Mr. Jaleel Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

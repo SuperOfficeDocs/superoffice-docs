@@ -2,6 +2,7 @@
 title: POST Agents/Chat/UpdateChatTopicUserAgents
 uid: v1ChatAgent_UpdateChatTopicUserAgents
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/UpdateChatTopicUserAgents
@@ -81,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 167,
+  "ChatTopicId": 580,
   "Useragents": [
     {
-      "TopicId": 285,
+      "TopicId": 665,
       "User": null,
-      "CanListen": false,
-      "CanRespond": false,
-      "CanManage": true,
-      "CanNotify": true
+      "CanListen": true,
+      "CanRespond": true,
+      "CanManage": false,
+      "CanNotify": false
     },
     {
-      "TopicId": 285,
+      "TopicId": 665,
       "User": null,
-      "CanListen": false,
-      "CanRespond": false,
-      "CanManage": true,
-      "CanNotify": true
+      "CanListen": true,
+      "CanRespond": true,
+      "CanManage": false,
+      "CanNotify": false
     }
   ]
 }
@@ -111,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 522,
+    "TopicId": 886,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   },
   {
-    "TopicId": 522,
+    "TopicId": 886,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   }
 ]
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/UpdateQuoteVersionPrices
 uid: v1QuoteAgent_UpdateQuoteVersionPrices
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/UpdateQuoteVersionPrices
@@ -85,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 291
+  "QuoteVersionId": 407
 }
 ```
 
@@ -97,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sed",
-  "TechExplanation": "occaecati",
-  "ErrorCode": "voluptas",
+  "UserExplanation": "sint",
+  "TechExplanation": "voluptatum",
+  "ErrorCode": "nihil",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     },
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
@@ -136,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

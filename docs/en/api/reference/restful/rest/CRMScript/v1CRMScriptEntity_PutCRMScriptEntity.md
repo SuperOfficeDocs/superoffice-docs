@@ -2,6 +2,7 @@
 title: PUT CRMScript/{id}
 uid: v1CRMScriptEntity_PutCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # PUT CRMScript/{id}
@@ -73,6 +74,7 @@ The CRMScriptEntity to be saved.
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociateId | Integer | Last updated by whom |
+| BlockedVerbs | String | The verbs that are blocked when calling a ejscript over HTTP |
 
 ## Response:
 
@@ -105,6 +107,7 @@ CRMScriptEntity updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -115,52 +118,53 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 127,
-  "UniqueIdentifier": "labore",
-  "Name": "Yost, Boehm and Dare",
-  "Description": "Optional discrete solution",
-  "IncludeId": "labore",
-  "AccessKey": "natus",
-  "HierarchyId": 724,
-  "Source": "ut",
-  "SourceCode": "illo",
+  "EjscriptId": 804,
+  "UniqueIdentifier": "suscipit",
+  "Name": "Mitchell, Reinger and Stiedemann",
+  "Description": "Enterprise-wide discrete toolset",
+  "IncludeId": "commodi",
+  "AccessKey": "voluptatibus",
+  "HierarchyId": 741,
+  "Source": "assumenda",
+  "SourceCode": "eius",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 398,
+  "HtmlOutput": 592,
   "Includes": [
-    135,
-    195
+    103,
+    551
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 124,
-      "LineNumberTo": 552,
-      "Delta": 649,
-      "IncludeId": "doloribus",
+      "LineNumberFrom": 764,
+      "LineNumberTo": 113,
+      "Delta": 47,
+      "IncludeId": "consequatur",
       "IncludedFrom": [
-        "beatae",
-        "cupiditate"
+        "fuga",
+        "eum"
       ]
     },
     {
-      "LineNumberFrom": 124,
-      "LineNumberTo": 552,
-      "Delta": 649,
-      "IncludeId": "doloribus",
+      "LineNumberFrom": 764,
+      "LineNumberTo": 113,
+      "Delta": 47,
+      "IncludeId": "consequatur",
       "IncludedFrom": [
-        "beatae",
-        "cupiditate"
+        "fuga",
+        "eum"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-09-30T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 747,
-  "Updated": "2002-01-25T03:45:28.2955692+01:00",
-  "UpdatedAssociateId": 393
+  "Registered": "2021-07-10T03:46:59.8943184+02:00",
+  "RegisteredAssociateId": 681,
+  "Updated": "2009-03-03T03:46:59.8943184+01:00",
+  "UpdatedAssociateId": 942,
+  "BlockedVerbs": "BlockAll"
 }
 ```
 
@@ -171,57 +175,58 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 771,
-  "UniqueIdentifier": "nam",
-  "Name": "Legros-Bashirian",
-  "Description": "Enterprise-wide holistic portal",
-  "IncludeId": "non",
-  "AccessKey": "eos",
-  "HierarchyId": 362,
-  "Source": "ullam",
-  "SourceCode": "vel",
+  "EjscriptId": 624,
+  "UniqueIdentifier": "aliquam",
+  "Name": "Powlowski, Dicki and Keeling",
+  "Description": "Business-focused bandwidth-monitored emulation",
+  "IncludeId": "velit",
+  "AccessKey": "fugiat",
+  "HierarchyId": 779,
+  "Source": "fugit",
+  "SourceCode": "sit",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 134,
+  "HtmlOutput": 175,
   "Includes": [
-    397,
-    357
+    365,
+    827
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 43,
-      "LineNumberTo": 722,
-      "Delta": 686,
-      "IncludeId": "ad",
+      "LineNumberFrom": 814,
+      "LineNumberTo": 28,
+      "Delta": 526,
+      "IncludeId": "dolorum",
       "IncludedFrom": [
-        "voluptas",
-        "vel"
+        "et",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 148
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-08-18T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 229,
-  "Updated": "2022-02-02T03:45:28.2955692+01:00",
-  "UpdatedAssociateId": 104,
+  "Registered": "2004-03-25T03:46:59.8943184+01:00",
+  "RegisteredAssociateId": 322,
+  "Updated": "2005-08-31T03:46:59.8943184+02:00",
+  "UpdatedAssociateId": 189,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

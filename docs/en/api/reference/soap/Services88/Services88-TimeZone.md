@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-TimeZone
 title: Services88.TimeZoneAgent WSDL
+content_type: reference
 ---
 
 # Services88.TimeZoneAgent WSDL

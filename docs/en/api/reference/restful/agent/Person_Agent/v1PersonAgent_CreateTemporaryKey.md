@@ -2,6 +2,7 @@
 title: POST Agents/Person/CreateTemporaryKey
 uid: v1PersonAgent_CreateTemporaryKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/CreateTemporaryKey
@@ -73,14 +74,14 @@ OK
 POST /api/v1/Agents/Person/CreateTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 255,
-  "PersonId": 125,
-  "Expires": "2009-09-28T03:45:23.7173227+02:00"
+  "TargetId": 219,
+  "PersonId": 685,
+  "Expires": "2004-02-01T03:46:55.0976201+01:00"
 }
 ```
 
@@ -90,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rem"
+"fuga"
 ```

@@ -2,6 +2,7 @@
 title: Services88.SaintAgent SOAP
 uid: Services88-Saint-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Saint SOAP

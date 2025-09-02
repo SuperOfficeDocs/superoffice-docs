@@ -2,14 +2,10 @@
 uid: customerserviceagent-script-events
 title: CustomerServiceAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # CustomerServiceAgent method listing
@@ -56,3 +52,4 @@ Service methods defined on <see cref='T:ICustomerServiceAgent'>CustomerServiceAg
 * [SessionIsValidAsync](sessionisvalidasync.md)
 * [TestSmtpServerAsync](testsmtpserverasync.md)
 * [UpdateFeatureTogglesAsync](updatefeaturetogglesasync.md)
+

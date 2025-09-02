@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateUsedInSalesStage
 uid: v1ListAgent_GetDocumentTemplateUsedInSalesStage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateUsedInSalesStage
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 176
+  "DocumentTemplateId": 149
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "reprehenderit",
-  "recusandae"
+  "asperiores",
+  "numquam"
 ]
 ```

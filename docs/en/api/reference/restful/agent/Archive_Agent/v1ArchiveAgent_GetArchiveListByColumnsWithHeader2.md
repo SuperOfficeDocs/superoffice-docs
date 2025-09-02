@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeader2
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeader2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeader2
@@ -166,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hettinger, Von and Dach",
-  "Columns": "rerum",
-  "SortOrder": "aut",
-  "Restriction": "numquam",
-  "Entities": "eum",
-  "Page": 904,
-  "PageSize": 309,
-  "Options": "maiores"
+  "ProviderName": "Waelchi-Eichmann",
+  "Columns": "exercitationem",
+  "SortOrder": "eveniet",
+  "Restriction": "modi",
+  "Entities": "sunt",
+  "Page": 809,
+  "PageSize": 635,
+  "Options": "vel"
 }
 ```
 
@@ -188,26 +189,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 599,
+  "RowCount": 727,
   "Rows": [
     {
-      "EntityName": "Homenick Inc and Sons",
-      "PrimaryKey": 812,
+      "EntityName": "Wiegand, Weimann and Pacocha",
+      "PrimaryKey": 851,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "reprehenderit",
-          "TooltipHint": "magnam",
-          "LinkHint": "dicta"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "aspernatur",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "qui",
+      "LinkHint": "voluptas",
       "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 632
         }
       }
     }
@@ -217,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 757
     }
   }
 }

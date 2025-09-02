@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 uid: v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 324
+  "PrefDescId": 961
 }
 ```
 
@@ -94,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 424,
-    "PrefDescId": 616,
-    "PrefValue": "aut",
-    "PrefShowValue": "delectus",
-    "Description": "Team-oriented neutral model",
+    "PrefDescLineId": 575,
+    "PrefDescId": 760,
+    "PrefValue": "dolor",
+    "PrefShowValue": "qui",
+    "Description": "Switchable homogeneous superstructure",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 782
       }
     }
   }

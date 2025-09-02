@@ -3,9 +3,9 @@ uid: SimpleInvitation
 title: SimpleInvitation
 description: This is the query provider for invitations, of subtype 'Simple'
 keywords: SimpleInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SimpleInvitation"
@@ -743,7 +743,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=alarm,appointmentPublish/publishedTo,contact/contactAssociate/isActiveText,contact/contactUdef/SuperOffice:10,contact/contactExtra/x_contact_dropdown
+GET /api/v1/archive/SimpleInvitation?$select=contact/contactAssociate/isActive,contact/contactExtra/x_contact_datetime,person/personExtra/x_person_shorttext,person/personExtra/x_person_request_relation,project/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

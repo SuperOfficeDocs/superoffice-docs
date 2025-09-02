@@ -2,6 +2,7 @@
 title: POST Agents/Preference/CreateDefaultPreference
 uid: v1PreferenceAgent_CreateDefaultPreference
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/CreateDefaultPreference
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 ```
 
-Set default values into a new Preference.
+Loading default values into a new Preference.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -67,7 +66,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "voluptatem",
-  "DisplayTooltip": "alias",
+  "DisplayValue": "et",
+  "DisplayTooltip": "iste",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 15,
-  "PrefDescId": 175,
-  "TableName": "Zieme, Ebert and Hilpert",
-  "UserPreferenceId": 643,
+  "TargetId": 415,
+  "PrefDescId": 339,
+  "TableName": "Denesik-VonRueden",
+  "UserPreferenceId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 668
     }
   }
 }

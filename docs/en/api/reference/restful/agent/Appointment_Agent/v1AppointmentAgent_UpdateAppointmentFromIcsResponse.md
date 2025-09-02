@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/UpdateAppointmentFromIcsResponse
 uid: v1AppointmentAgent_UpdateAppointmentFromIcsResponse
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/UpdateAppointmentFromIcsResponse
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "reuben.gutkowski@becker.biz",
+  "EmailAddress": "ansley.franecki@blickhilll.name",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

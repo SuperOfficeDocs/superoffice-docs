@@ -2,6 +2,7 @@
 title: POST Agents/AI/ExpandText
 uid: v1AIAgent_ExpandText
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/ExpandText
@@ -74,9 +75,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "est",
-  "PercentBigger": 409,
-  "IsoLangCode": "aut"
+  "Text": "eos",
+  "PercentBigger": 506,
+  "IsoLangCode": "tempore"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"possimus"
+"est"
 ```

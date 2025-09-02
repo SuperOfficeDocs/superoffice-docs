@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SendTicketMessage
 uid: v1TicketAgent_SendTicketMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SendTicketMessage
@@ -74,22 +75,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 288,
+  "TicketMessageEntityId": 402,
   "To": [
-    "amet",
-    "cum"
+    "quia",
+    "cumque"
   ],
   "Cc": [
-    "adipisci",
-    "neque"
+    "minima",
+    "quaerat"
   ],
   "Bcc": [
-    "quis",
-    "impedit"
+    "voluptas",
+    "quidem"
   ],
-  "Subject": "et",
-  "ReplyTemplateId": 380,
-  "GdprSource": "sed"
+  "Subject": "ab",
+  "ReplyTemplateId": 957,
+  "GdprSource": "veritatis"
 }
 ```
 

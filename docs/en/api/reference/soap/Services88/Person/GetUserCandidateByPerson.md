@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetUserCandidateByPerson SOAP
 generated: true
 uid: Services88-Person-GetUserCandidateByPerson
+content_type: reference
 ---
 
 # Services88 Person GetUserCandidateByPerson

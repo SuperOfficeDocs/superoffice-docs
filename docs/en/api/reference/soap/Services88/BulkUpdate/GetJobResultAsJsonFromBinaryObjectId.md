@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId SOAP
 generated: true
 uid: Services88-BulkUpdate-GetJobResultAsJsonFromBinaryObjectId
+content_type: reference
 ---
 
 # Services88 BulkUpdate GetJobResultAsJsonFromBinaryObjectId

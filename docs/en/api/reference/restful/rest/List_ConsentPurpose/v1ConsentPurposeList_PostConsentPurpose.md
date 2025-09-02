@@ -2,6 +2,7 @@
 title: POST List/ConsentPurpose/Items
 uid: v1ConsentPurposeList_PostConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # POST List/ConsentPurpose/Items
@@ -89,22 +90,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 916,
-  "Name": "Bayer, Bradtke and Marquardt",
-  "ConsentText": "sapiente",
-  "FormText": "eveniet",
-  "Key": "et",
-  "Tooltip": "quam",
-  "Active": 560,
-  "UpdatedDate": "1999-11-10T03:45:28.9827939+01:00",
+  "ConsentPurposeId": 292,
+  "Name": "Bradtke LLC",
+  "ConsentText": "quis",
+  "FormText": "doloremque",
+  "Key": "maiores",
+  "Tooltip": "aut",
+  "Active": 268,
+  "UpdatedDate": "2004-08-12T03:47:00.5974251+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 66,
-  "PrivacyStatementDesc": "error",
+  "Deleted": true,
+  "Rank": 157,
+  "PrivacyStatementDesc": "cupiditate",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 810,
-  "Name": "Lang-Lesch",
-  "ConsentText": "qui",
-  "FormText": "eos",
-  "Key": "inventore",
-  "Tooltip": "sunt",
-  "Active": 747,
-  "UpdatedDate": "2017-01-23T03:45:28.9827939+01:00",
+  "ConsentPurposeId": 3,
+  "Name": "Auer, Tromp and Beier",
+  "ConsentText": "nihil",
+  "FormText": "et",
+  "Key": "enim",
+  "Tooltip": "error",
+  "Active": 443,
+  "UpdatedDate": "2003-01-21T03:47:00.5974251+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 167,
-  "PrivacyStatementDesc": "quaerat",
+  "Rank": 783,
+  "PrivacyStatementDesc": "accusantium",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

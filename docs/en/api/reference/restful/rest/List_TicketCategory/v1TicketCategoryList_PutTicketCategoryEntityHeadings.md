@@ -2,6 +2,7 @@
 title: PUT List/TicketCategory/Headings
 uid: v1TicketCategoryList_PutTicketCategoryEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketCategory/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Gorczany Group",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 817,
-    "UdListDefinitionId": 35
+    "HeadingId": 531,
+    "Name": "Berge-Fisher",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 467,
+    "UdListDefinitionId": 91
   },
   {
-    "HeadingId": 577,
-    "Name": "Gorczany Group",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 817,
-    "UdListDefinitionId": 35
+    "HeadingId": 531,
+    "Name": "Berge-Fisher",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 467,
+    "UdListDefinitionId": 91
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 5,
-    "Name": "Gerlach, Willms and Hills",
-    "Tooltip": "nam",
-    "Deleted": true,
-    "Rank": 608,
-    "UdListDefinitionId": 595,
+    "HeadingId": 849,
+    "Name": "Crooks-Bergstrom",
+    "Tooltip": "dicta",
+    "Deleted": false,
+    "Rank": 824,
+    "UdListDefinitionId": 546,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 642
       }
     }
   }

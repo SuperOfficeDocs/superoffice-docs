@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveListEntityByName
 uid: v1ListAgent_SaveListEntityByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveListEntityByName
@@ -87,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Murazik, Kerluke and Wisozk",
+  "Name": "Willms Group",
   "ListEntity": null
 }
 ```
@@ -99,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Schultz, Keebler and Dickinson",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "Rank": 644,
+  "Id": 908,
+  "Name": "Barrows LLC",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "Rank": 277,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "pariatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 270
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.ChangePersonImage SOAP
 generated: true
 uid: Services88-BLOB-ChangePersonImage
+content_type: reference
 ---
 
 # Services88 BLOB ChangePersonImage

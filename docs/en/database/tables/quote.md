@@ -2,10 +2,10 @@
 uid: table-Quote
 title: Quote table
 description: Quote root level, at most one per Sale, always connected to one Sale
-so.generated: true
+generated: true
 keywords: database table Quote
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Quote Table (34)

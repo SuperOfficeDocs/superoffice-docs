@@ -2,6 +2,7 @@
 title: POST Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1AppointmentEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -104,7 +105,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +115,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 849,
-  "FieldDefault": "qui",
-  "FieldHeight": 492,
-  "FieldLabel": "possimus",
-  "FieldLeft": 448,
-  "FieldTop": 213,
+  "UDefFieldId": 442,
+  "ColumnId": 36,
+  "FieldDefault": "aliquid",
+  "FieldHeight": 934,
+  "FieldLabel": "facilis",
+  "FieldLeft": 414,
+  "FieldTop": 983,
   "FieldType": "Checkbox",
-  "FieldWidth": 180,
-  "FormatMask": "ipsum",
+  "FieldWidth": 308,
+  "FormatMask": "qui",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 983,
-  "LabelLeft": 186,
-  "LabelTop": 448,
-  "LabelWidth": 952,
-  "LastVersionId": 275,
-  "ListTableId": 914,
+  "IsIndexed": true,
+  "LabelHeight": 690,
+  "LabelLeft": 29,
+  "LabelTop": 654,
+  "LabelWidth": 74,
+  "LastVersionId": 510,
+  "ListTableId": 799,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 362,
-  "ProgId": "quo",
+  "Page1LineNo": 319,
+  "ProgId": "maxime",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 327,
-  "TextLength": 252,
-  "Tooltip": "ut",
-  "UdefIdentity": 794,
-  "UDListDefinitionId": 100,
+  "ShortLabel": "ad",
+  "TabOrder": 114,
+  "TextLength": 590,
+  "Tooltip": "voluptatum",
+  "UdefIdentity": 526,
+  "UDListDefinitionId": 159,
   "Justification": "Center",
-  "Version": 856,
-  "TemplateVariableName": "Spinka LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Marks Inc and Sons",
+  "Version": 626,
+  "TemplateVariableName": "Legros, Ratke and Thompson",
+  "HasBeenPublished": true,
+  "MdoListName": "Walsh, Grady and Hartmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

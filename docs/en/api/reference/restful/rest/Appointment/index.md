@@ -1,6 +1,8 @@
 ---
+uid: tag-Appointment
 title: Appointment
 generated: true
+content_type: reference
 ---
 
 ```http

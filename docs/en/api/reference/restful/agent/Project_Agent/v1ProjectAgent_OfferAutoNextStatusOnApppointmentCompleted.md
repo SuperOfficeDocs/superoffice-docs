@@ -2,6 +2,7 @@
 title: POST Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 uid: v1ProjectAgent_OfferAutoNextStatusOnApppointmentCompleted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
@@ -72,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 21
+  "AppointmentId": 799
 }
 ```
 

@@ -2,6 +2,7 @@
 title: PUT List/DeliveryTerm/Items/{id}/Headings
 uid: v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "McCullough, Torp and Kuhic",
-    "ToolTip": "Molestias consequatur.",
+    "Id": 569,
+    "Name": "Torp, Hane and Denesik",
+    "ToolTip": "Non officiis laudantium fugiat.",
     "Deleted": false,
-    "Rank": 366,
-    "Type": "pariatur",
-    "ColorBlock": 416,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2013-04-21T03:45:29.0296674+02:00",
+    "Rank": 455,
+    "Type": "eaque",
+    "ColorBlock": 418,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "1999-04-06T03:47:00.6442984+02:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Hettinger, Kemmer and Rowe",
-        "ToolTip": "Ipsam at esse et voluptas molestiae blanditiis sequi.",
+        "Id": 777,
+        "Name": "Sanford, Witting and Balistreri",
+        "ToolTip": "Sed esse.",
         "Deleted": false,
-        "Rank": 549,
-        "Type": "soluta",
-        "ColorBlock": 674,
-        "IconHint": "qui",
+        "Rank": 166,
+        "Type": "vitae",
+        "ColorBlock": 203,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2000-12-11T03:45:29.0296674+01:00",
+        "LastChanged": "2007-02-22T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "enim",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Yazmin Cartwright"
+        "FullName": "Prof. Aliza Branson Stiedemann"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "in",
+    "ExtraInfo": "sint",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mrs. Wilber Hessel DVM"
+    "FullName": "Mason Ratke"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Becker, Torp and Pagac",
-    "ToolTip": "Rerum sed suscipit voluptas aliquid molestiae illo quia.",
-    "Deleted": false,
-    "Rank": 463,
-    "Type": "animi",
-    "ColorBlock": 436,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2001-06-15T03:45:29.0296674+02:00",
+    "Id": 685,
+    "Name": "Vandervort, Boyer and Turcotte",
+    "ToolTip": "Tempora nihil quis id.",
+    "Deleted": true,
+    "Rank": 366,
+    "Type": "quis",
+    "ColorBlock": 807,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2004-03-27T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Bode-Shields",
-        "ToolTip": "Eos adipisci quia.",
-        "Deleted": true,
-        "Rank": 755,
-        "Type": "consequatur",
-        "ColorBlock": 343,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2003-03-04T03:45:29.0296674+01:00",
+        "Id": 106,
+        "Name": "Kiehn-Wuckert",
+        "ToolTip": "Soluta non veritatis ut deserunt vel.",
+        "Deleted": false,
+        "Rank": 20,
+        "Type": "non",
+        "ColorBlock": 962,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2007-01-24T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Prof. Bailey Lubowitz",
+        "FullName": "Aracely Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 214
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "vero",
+    "ExtraInfo": "illo",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Dr. Rafaela Edward Morissette",
+    "FullName": "Mrs. Mathew Isaiah Medhurst V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 905
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Project/UdefLayout
 uid: v1ProjectEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Project/UdefLayout
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 276,
-  "ColumnId": 46,
-  "FieldDefault": "iure",
-  "FieldHeight": 553,
-  "FieldLabel": "sit",
-  "FieldLeft": 667,
-  "FieldTop": 842,
+  "UDefFieldId": 399,
+  "ColumnId": 725,
+  "FieldDefault": "eum",
+  "FieldHeight": 755,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 485,
+  "FieldTop": 441,
   "FieldType": "Checkbox",
-  "FieldWidth": 361,
-  "FormatMask": "id",
+  "FieldWidth": 203,
+  "FormatMask": "magni",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 769,
-  "LabelLeft": 420,
-  "LabelTop": 984,
-  "LabelWidth": 317,
-  "LastVersionId": 725,
-  "ListTableId": 581,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 341,
+  "LabelLeft": 92,
+  "LabelTop": 640,
+  "LabelWidth": 311,
+  "LastVersionId": 791,
+  "ListTableId": 962,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 533,
-  "ProgId": "ratione",
+  "Page1LineNo": 715,
+  "ProgId": "consequatur",
   "IsReadOnly": false,
-  "ShortLabel": "possimus",
-  "TabOrder": 814,
-  "TextLength": 916,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 76,
-  "UDListDefinitionId": 68,
+  "ShortLabel": "et",
+  "TabOrder": 251,
+  "TextLength": 948,
+  "Tooltip": "commodi",
+  "UdefIdentity": 102,
+  "UDListDefinitionId": 922,
   "Justification": "Center",
-  "Version": 325,
-  "TemplateVariableName": "Kunde-Adams",
+  "Version": 239,
+  "TemplateVariableName": "Trantow Group",
   "HasBeenPublished": false,
-  "MdoListName": "Conn, Cole and Jaskolski",
+  "MdoListName": "Williamson, Treutel and Kilback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

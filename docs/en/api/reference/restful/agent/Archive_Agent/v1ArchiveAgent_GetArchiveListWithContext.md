@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListWithContext
 uid: v1ArchiveAgent_GetArchiveListWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListWithContext
@@ -109,29 +110,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schoen-Abernathy",
-  "ProviderName": "Kohler-Schoen",
+  "GuiName": "Larkin Group",
+  "ProviderName": "Stark, Schaden and Tillman",
   "SortOrder": [
     {
-      "Name": "Hettinger-Moore",
+      "Name": "Veum, Koch and Halvorson",
       "Direction": "ASC"
     },
     {
-      "Name": "Hettinger-Moore",
+      "Name": "Veum, Koch and Halvorson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rolfson Inc and Sons",
-      "Operator": "ut",
+      "Name": "Hilpert-Abshire",
+      "Operator": "et",
       "Values": [
-        "aperiam",
-        "ipsum"
+        "quibusdam",
+        "incidunt"
       ],
       "DisplayValues": [
-        "non",
-        "animi"
+        "id",
+        "odio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +140,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 757,
+      "InterParenthesis": 311,
       "InterOperator": "And",
-      "UniqueHash": 874
+      "UniqueHash": 532
     }
   ],
   "Entities": [
-    "enim",
-    "explicabo"
+    "alias",
+    "commodi"
   ],
-  "Page": 403,
-  "PageSize": 490,
-  "Context": "iusto"
+  "Page": 982,
+  "PageSize": 687,
+  "Context": "officia"
 }
 ```
 
@@ -162,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dibbert, Lowe and Walsh",
-    "PrimaryKey": 690,
+    "EntityName": "Batz LLC",
+    "PrimaryKey": 956,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolores",
-        "TooltipHint": "dolorum",
-        "LinkHint": "voluptatem"
+        "DisplayValue": "eos",
+        "TooltipHint": "omnis",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "cumque",
-    "StyleHint": "reprehenderit",
+    "LinkHint": "aut",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

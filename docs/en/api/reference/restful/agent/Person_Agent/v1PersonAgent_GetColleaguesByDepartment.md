@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetColleaguesByDepartment
 uid: v1PersonAgent_GetColleaguesByDepartment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetColleaguesByDepartment
@@ -115,11 +116,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 339
+  "DepartmentId": 126
 }
 ```
 
@@ -131,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "maxime",
-    "PersonId": 505,
-    "Mrmrs": "magnam",
-    "Firstname": "Madelyn",
-    "Lastname": "Stark",
-    "MiddleName": "Eichmann, Fisher and Robel",
+    "Position": "quaerat",
+    "PersonId": 599,
+    "Mrmrs": "totam",
+    "Firstname": "Alphonso",
+    "Lastname": "Cassin",
+    "MiddleName": "Grady Group",
     "Title": "nihil",
-    "Description": "Upgradable zero tolerance focus group",
-    "Email": "morris.gutkowski@effertz.biz",
-    "FullName": "Anthony Lang",
-    "DirectPhone": "514.782.1411",
-    "FormalName": "Schmeler, Conn and Lueilwitz",
-    "CountryId": 149,
-    "ContactId": 556,
-    "ContactName": "Ruecker-Schamberger",
-    "Retired": 942,
-    "Rank": 254,
-    "ActiveInterests": 62,
+    "Description": "Business-focused dynamic firmware",
+    "Email": "emmalee_mann@gutmann.com",
+    "FullName": "Queen Pacocha",
+    "DirectPhone": "666.180.9556 x867",
+    "FormalName": "DuBuque LLC",
+    "CountryId": 592,
+    "ContactId": 27,
+    "ContactName": "Ledner-Daniel",
+    "Retired": 215,
+    "Rank": 709,
+    "ActiveInterests": 846,
     "ContactDepartment": "",
-    "ContactCountryId": 316,
-    "ContactOrgNr": "960863",
-    "FaxPhone": "(001)466-4951 x466",
-    "MobilePhone": "097.619.8835",
-    "ContactPhone": "(625)237-3545 x6049",
-    "AssociateName": "Brakus, Wintheiser and Kiehn",
-    "AssociateId": 844,
+    "ContactCountryId": 960,
+    "ContactOrgNr": "1191682",
+    "FaxPhone": "759-369-7447",
+    "MobilePhone": "811-713-3895 x623",
+    "ContactPhone": "276-932-1397 x914",
+    "AssociateName": "Thompson, Volkman and Sipes",
+    "AssociateId": 641,
     "UsePersonAddress": false,
-    "ContactFax": "aut",
-    "Kanafname": "voluptatem",
-    "Kanalname": "vel",
-    "Post1": "dolores",
-    "Post2": "iste",
-    "Post3": "deleniti",
-    "EmailName": "alexandro_bergnaum@schoenfadel.co.uk",
-    "ContactFullName": "Miss Eugene Leannon",
-    "ActiveErpLinks": 266,
-    "TicketPriorityId": 503,
-    "SupportLanguageId": 170,
-    "SupportAssociateId": 579,
+    "ContactFax": "eveniet",
+    "Kanafname": "enim",
+    "Kanalname": "iusto",
+    "Post1": "sit",
+    "Post2": "veritatis",
+    "Post3": "minus",
+    "EmailName": "jocelyn_nienow@kiehn.ca",
+    "ContactFullName": "Ms. Wyatt Prosacco",
+    "ActiveErpLinks": 190,
+    "TicketPriorityId": 42,
+    "SupportLanguageId": 345,
+    "SupportAssociateId": 149,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1627044",
+    "PersonNumber": "1455199",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 873
       }
     }
   }

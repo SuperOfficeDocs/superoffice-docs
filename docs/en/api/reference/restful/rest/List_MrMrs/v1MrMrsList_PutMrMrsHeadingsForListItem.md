@@ -2,6 +2,7 @@
 title: PUT List/MrMrs/Items/{id}/Headings
 uid: v1MrMrsList_PutMrMrsHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs/Items/{id}/Headings
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Schuster, Altenwerth and Reilly",
-    "ToolTip": "Rerum eos.",
-    "Deleted": false,
-    "Rank": 393,
-    "Type": "magni",
-    "ColorBlock": 312,
-    "IconHint": "aut",
+    "Id": 116,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Reiciendis odit quia sunt.",
+    "Deleted": true,
+    "Rank": 731,
+    "Type": "deserunt",
+    "ColorBlock": 356,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2004-11-05T03:45:29.060917+01:00",
+    "LastChanged": "2008-04-05T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Walsh-Cormier",
-        "ToolTip": "Aperiam iure dolorem iure exercitationem eum sit inventore.",
+        "Id": 518,
+        "Name": "Corkery Inc and Sons",
+        "ToolTip": "Et rem autem tenetur reprehenderit est odit.",
         "Deleted": false,
-        "Rank": 691,
-        "Type": "consequatur",
-        "ColorBlock": 362,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2017-01-23T03:45:29.060917+01:00",
+        "Rank": 196,
+        "Type": "et",
+        "ColorBlock": 330,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2008-04-30T03:47:00.6755475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Prof. Ronny Lilla Leuschke"
+        "ExtraInfo": "ex",
+        "StyleHint": "facere",
+        "Hidden": false,
+        "FullName": "Barney Lesch PhD"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "magni",
+    "ExtraInfo": "velit",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Abbigail Stracke"
+    "FullName": "Jedidiah Fahey"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Turcotte, Medhurst and Marks",
-    "ToolTip": "Eaque ab dolores culpa ea aliquam consequuntur.",
-    "Deleted": true,
-    "Rank": 714,
-    "Type": "ipsam",
-    "ColorBlock": 735,
-    "IconHint": "odit",
+    "Id": 13,
+    "Name": "Hackett-Harris",
+    "ToolTip": "Delectus corrupti voluptas ipsam.",
+    "Deleted": false,
+    "Rank": 858,
+    "Type": "velit",
+    "ColorBlock": 583,
+    "IconHint": "libero",
     "Selected": true,
-    "LastChanged": "2018-07-18T03:45:29.060917+02:00",
+    "LastChanged": "2015-04-02T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Hilpert, Crooks and Haley",
-        "ToolTip": "Sunt velit omnis sint omnis dolore est.",
+        "Id": 457,
+        "Name": "Hamill, Predovic and Prohaska",
+        "ToolTip": "Laborum sunt dolorem.",
         "Deleted": false,
-        "Rank": 985,
-        "Type": "non",
-        "ColorBlock": 100,
-        "IconHint": "non",
+        "Rank": 173,
+        "Type": "illum",
+        "ColorBlock": 934,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2023-06-03T03:45:29.060917+02:00",
+        "LastChanged": "2019-09-11T03:47:00.6755475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Bonnie Kerluke",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "minima",
+        "Hidden": false,
+        "FullName": "Blaise Carlie Bernhard Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldLength": 645
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Mr. Elias Marian Klocko V",
+    "ExtraInfo": "ut",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Miss Aiyana Fritsch Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 819
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetChatMessages
 uid: v1ChatAgent_GetChatMessages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetChatMessages
@@ -84,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 235,
-  "After": 183
+  "ChatSessionId": 380,
+  "After": 593
 }
 ```
 
@@ -97,15 +98,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 184,
-    "ChatSessionId": 348,
+    "ChatMessageId": 28,
+    "ChatSessionId": 690,
     "Type": "Invalid",
-    "Message": "fugit",
-    "Author": "assumenda",
-    "ReadByCustomer": 263,
+    "Message": "vero",
+    "Author": "quia",
+    "ReadByCustomer": 814,
     "SpecialType": "Block",
-    "SpecialParam": "a",
-    "WhenPosted": "2020-12-22T03:45:23.0610908+01:00"
+    "SpecialParam": "est",
+    "WhenPosted": "2000-12-22T03:46:54.3788954+01:00"
   }
 ]
 ```

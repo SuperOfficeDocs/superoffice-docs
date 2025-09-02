@@ -2,6 +2,7 @@
 title: POST Agents/User/GetAllRoles
 uid: v1UserAgent_GetAllRoles
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetAllRoles
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Bruen, Stracke and Nolan",
-    "ToolTip": "Eveniet quod et est voluptas.",
+    "Id": 300,
+    "Name": "Vandervort Inc and Sons",
+    "ToolTip": "Sit praesentium aut officiis.",
     "Deleted": false,
-    "Rank": 80,
-    "Type": "est",
-    "ColorBlock": 411,
-    "IconHint": "ad",
-    "Selected": true,
-    "LastChanged": "2000-04-28T03:45:24.1704335+02:00",
+    "Rank": 666,
+    "Type": "dolor",
+    "ColorBlock": 236,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2023-10-20T03:46:55.581978+02:00",
     "ChildItems": [
       {
-        "Id": 239,
-        "Name": "Thompson Group",
-        "ToolTip": "Sequi distinctio sit minima molestiae.",
-        "Deleted": false,
-        "Rank": 724,
-        "Type": "asperiores",
-        "ColorBlock": 44,
-        "IconHint": "quo",
+        "Id": 934,
+        "Name": "Runolfsson-Thiel",
+        "ToolTip": "In quia sint accusantium qui consequuntur.",
+        "Deleted": true,
+        "Rank": 298,
+        "Type": "sit",
+        "ColorBlock": 689,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2019-10-14T03:45:24.1704335+02:00",
+        "LastChanged": "2003-05-01T03:46:55.581978+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "nihil",
+        "ExtraInfo": "eaque",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Rodger Hoeger",
+        "FullName": "Miss Lacy Mara Trantow V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 347
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "expedita",
+    "ExtraInfo": "ad",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Ms. Breanna Conrad Labadie DVM",
+    "FullName": "Einar O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

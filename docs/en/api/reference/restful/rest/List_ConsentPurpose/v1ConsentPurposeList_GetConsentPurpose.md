@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/Items/{id}
 uid: v1ConsentPurposeList_GetConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/Items/{id}
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 461,
-  "Name": "Funk-Moore",
-  "ConsentText": "necessitatibus",
-  "FormText": "accusantium",
-  "Key": "beatae",
-  "Tooltip": "est",
-  "Active": 25,
-  "UpdatedDate": "2014-02-01T03:45:28.9827939+01:00",
+  "ConsentPurposeId": 792,
+  "Name": "Wisozk-Wilderman",
+  "ConsentText": "id",
+  "FormText": "reprehenderit",
+  "Key": "omnis",
+  "Tooltip": "vero",
+  "Active": 950,
+  "UpdatedDate": "2025-08-23T03:47:00.5974251+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 425,
-  "PrivacyStatementDesc": "nemo",
+  "Deleted": false,
+  "Rank": 515,
+  "PrivacyStatementDesc": "harum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 140
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Attachment/{id}
 uid: v1AttachmentEntity_GetAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Attachment/{id}
@@ -90,20 +91,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 87,
-  "Name": "Hintz-Schmitt",
-  "ContentType": "unde",
-  "AttSize": 370,
+  "AttachmentId": 430,
+  "Name": "Brakus LLC",
+  "ContentType": "officia",
+  "AttSize": 968,
   "InlineImage": true,
-  "ContentId": "aliquid",
-  "AuthKey": "ipsam",
-  "IsSafeFileExtension": false,
+  "ContentId": "doloribus",
+  "AuthKey": "sunt",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 801
     }
   },
   "_Links": {

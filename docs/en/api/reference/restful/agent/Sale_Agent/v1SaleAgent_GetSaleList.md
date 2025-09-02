@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleList
 uid: v1SaleAgent_GetSaleList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 
 ## Request Body: saleIds 
 
-The primary keys. 
+The identifiers of the Sale object 
 
 
 ## Response:array
@@ -94,7 +95,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +106,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cronin Group",
-    "SaleDate": "2013-03-29T03:45:23.8735682+01:00",
-    "SaleId": 383,
-    "Probability": 215,
-    "Title": "placeat",
-    "Amount": 18769.525999999998,
-    "Currency": "neque",
-    "ProjectName": "Luettgen, Murazik and Mann",
-    "AssociateFullName": "Ms. Brannon Hane",
-    "Description": "De-engineered web-enabled secured line",
+    "ContactName": "McDermott LLC",
+    "SaleDate": "2017-05-31T03:46:55.2694888+02:00",
+    "SaleId": 925,
+    "Probability": 82,
+    "Title": "quaerat",
+    "Amount": 11655.346,
+    "Currency": "voluptas",
+    "ProjectName": "Hartmann-Rohan",
+    "AssociateFullName": "Prof. Jacinthe Eliane Mosciski Jr.",
+    "Description": "Managed leading edge frame",
     "Status": "Lost",
-    "WeightedAmount": 5672.54,
-    "ProjectId": 817,
-    "EarningPercent": 23627.226,
-    "Earning": 17083.434,
-    "ContactId": 771,
-    "AssociateId": 303,
-    "PersonId": 25,
-    "SaleTypeId": 458,
-    "SaleTypeName": "O'Keefe-Olson",
-    "PersonFullName": "Magnolia Jewess",
+    "WeightedAmount": 24454.602,
+    "ProjectId": 534,
+    "EarningPercent": 20537.102,
+    "Earning": 26419.62,
+    "ContactId": 215,
+    "AssociateId": 901,
+    "PersonId": 319,
+    "SaleTypeId": 848,
+    "SaleTypeName": "Cartwright, Lind and Thiel",
+    "PersonFullName": "Hailie Hilpert III",
     "Completed": "Completed",
-    "ActiveErpLinks": 371,
-    "NextDueDate": "2015-04-06T03:45:23.8735682+02:00",
-    "Number": "41982",
+    "ActiveErpLinks": 439,
+    "NextDueDate": "2022-10-13T03:46:55.2694888+02:00",
+    "Number": "900100",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 874
       }
     }
   }

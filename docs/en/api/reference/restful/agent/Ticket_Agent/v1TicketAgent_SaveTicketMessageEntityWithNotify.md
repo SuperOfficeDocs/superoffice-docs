@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SaveTicketMessageEntityWithNotify
 uid: v1TicketAgent_SaveTicketMessageEntityWithNotify
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntityWithNotify
@@ -99,12 +100,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 24,
+  "EjMessageId": 943,
   "Ticket": null,
-  "CreatedAt": "2000-02-23T03:45:24.1235597+01:00",
+  "CreatedAt": "2001-11-16T03:46:55.550729+01:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "commodi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "reiciendis",
-  "TimeSpent": 871,
-  "Body": "rerum",
-  "HtmlBody": "id",
-  "EmailHeader": "palma@bartell.biz",
-  "DebugInfo": "sit",
-  "MailSorter": "autem",
+  "MessageId": "maxime",
+  "TimeSpent": 620,
+  "Body": "dicta",
+  "HtmlBody": "corrupti",
+  "EmailHeader": "cecile@walker.name",
+  "DebugInfo": "provident",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ea",
+  "SearchTitle": "dolor",
   "MessageHeaders": [
     {
-      "Id": 154,
-      "Name": "Corkery Inc and Sons",
-      "Value": "cumque",
+      "Id": 259,
+      "Name": "Hudson-Turcotte",
+      "Value": "harum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +145,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 122
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eveniet",
-  "Sentiment": 175,
-  "SentimentConfidence": 826,
+  "Language": "similique",
+  "Sentiment": 286,
+  "SentimentConfidence": 255,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 113,
-      "Name": "Jones-Hand",
-      "ContentType": "voluptatem",
-      "AttSize": 971,
+      "AttachmentId": 801,
+      "Name": "Beatty-Osinski",
+      "ContentType": "optio",
+      "AttSize": 230,
       "InlineImage": false,
-      "ContentId": "provident",
-      "AuthKey": "natus",
+      "ContentId": "vero",
+      "AuthKey": "quos",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 482
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "nam"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 450
     }
   }
 }

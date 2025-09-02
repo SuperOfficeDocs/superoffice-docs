@@ -3,9 +3,9 @@ uid: MailingsShadowStaticSelectionV2
 title: MailingsShadowStaticSelectionV2
 description: Shadow contact provider for the static Mailings provider.
 keywords: MailingsShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowStaticSelectionV2"
@@ -667,7 +667,7 @@ Shadow contact provider for the static Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingReplyTo,mailingAddr/contact/business,mailingAddr/contact/contactAssociate/lastName,mailingAddr/contact/contactExtra/x_contact_shorttext,mailingAddr/person/restrictionAddress/line3
+GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/streetAddress/addressId,mailingAddr/contact/contactAssociate/ejDisplayName,mailingAddr/person/correspondingAssociate/isLocation,associate/userName,emailFlow/startOnlyOnce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

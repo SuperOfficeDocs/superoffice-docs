@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.ToggleProductInAssortment SOAP
 generated: true
 uid: Services88-Quote-ToggleProductInAssortment
+content_type: reference
 ---
 
 # Services88 Quote ToggleProductInAssortment

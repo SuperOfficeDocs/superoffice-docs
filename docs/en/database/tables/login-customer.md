@@ -2,10 +2,10 @@
 uid: table-login_customer
 title: login_customer table
 description: This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins
-so.generated: true
+generated: true
 keywords: database table login_customer
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # login\_customer Table (298)

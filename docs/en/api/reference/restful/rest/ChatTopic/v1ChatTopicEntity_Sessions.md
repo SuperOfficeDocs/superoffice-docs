@@ -2,6 +2,7 @@
 title: GET ChatTopic/{id}/Sessions
 uid: v1ChatTopicEntity_Sessions
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/{id}/Sessions
@@ -74,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=deserunt
-GET /api/v1/ChatTopic/{id}/Sessions?$top=793
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=180
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=est
+GET /api/v1/ChatTopic/{id}/Sessions?$top=491
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=557
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=necessitatibus
+GET /api/v1/ChatTopic/{id}/Sessions?$context=debitis
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
 GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "molestiae",
+  "odata.nextLink": "quasi",
   "value": [
     {
-      "PrimaryKey": 4176,
-      "EntityName": "person",
-      "personId": 4176,
-      "fullName": "Demetris Casper"
+      "PrimaryKey": 840,
+      "EntityName": "sale",
+      "saleId": 840,
+      "contactId": 2269,
+      "name": "Rowe, Grimes and Huel"
     },
     {
-      "PrimaryKey": 7026,
-      "EntityName": "person",
-      "personId": 7026,
-      "fullName": "Humberto Adams"
+      "PrimaryKey": 1767,
+      "EntityName": "sale",
+      "saleId": 1767,
+      "contactId": 3500,
+      "name": "Pacocha LLC"
     }
   ]
 }

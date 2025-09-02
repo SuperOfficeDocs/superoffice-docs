@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/Items/Default
 uid: v1ReasonStalledList_CreateDefaultReasonStalled
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Wehner Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 717,
-  "Rank": 80,
+  "Id": 252,
+  "Name": "Fisher-Towne",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 37,
+  "Rank": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 975
     }
   }
 }

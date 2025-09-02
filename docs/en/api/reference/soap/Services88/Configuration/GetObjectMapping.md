@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetObjectMapping SOAP
 generated: true
 uid: Services88-Configuration-GetObjectMapping
+content_type: reference
 ---
 
 # Services88 Configuration GetObjectMapping

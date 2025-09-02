@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetDuplicates
 uid: v1ContactAgent_GetDuplicates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetDuplicates
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wilderman Group"
+  "Name": "Volkman-Keebler"
 }
 ```
 
@@ -93,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "D'Amore, Mayert and Dibbert",
-    "SoPrimaryKey": 9,
-    "EntryName": "Jacobi LLC",
-    "EntryIdentifier": "nesciunt",
-    "RuleDisplayName": "Carter, Mosciski and Upton",
+    "RuleName": "O'Connell, Boyle and Ferry",
+    "SoPrimaryKey": 248,
+    "EntryName": "Mayert Inc and Sons",
+    "EntryIdentifier": "molestiae",
+    "RuleDisplayName": "Kling-Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldLength": 780
       }
     }
   }

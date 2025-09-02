@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetAllPriceListsByCurrencyId
 uid: v1QuoteAgent_GetAllPriceListsByCurrencyId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetAllPriceListsByCurrencyId
@@ -89,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 287,
-  "CurrencyId": 571
+  "QuoteConnectionId": 603,
+  "CurrencyId": 644
 }
 ```
 
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 385,
-    "ERPPriceListKey": "consequatur",
-    "QuoteConnectionId": 483,
-    "Name": "Kemmer, Armstrong and Sawayn",
-    "Description": "Public-key global contingency",
-    "Currency": "nesciunt",
-    "CurrencyName": "Towne, Runolfsdottir and West",
-    "ValidFrom": "2023-02-22T03:45:23.8266945+01:00",
-    "ValidTo": "2021-06-27T03:45:23.8266945+02:00",
+    "PriceListId": 66,
+    "ERPPriceListKey": "quos",
+    "QuoteConnectionId": 822,
+    "Name": "Rath-Yundt",
+    "Description": "Synergistic static database",
+    "Currency": "perferendis",
+    "CurrencyName": "Morissette-Cartwright",
+    "ValidFrom": "2008-11-07T03:46:55.2226157+01:00",
+    "ValidTo": "2017-08-29T03:46:55.2226157+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 127
       }
     }
   }

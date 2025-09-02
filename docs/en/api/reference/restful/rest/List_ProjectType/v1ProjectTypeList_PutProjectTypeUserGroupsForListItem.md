@@ -2,6 +2,7 @@
 title: PUT List/ProjectType/Items/{id}/UserGroups
 uid: v1ProjectTypeList_PutProjectTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Grady-Yundt",
-    "ToolTip": "Quis deleniti iure officia soluta dolor est accusantium.",
-    "Deleted": true,
-    "Rank": 343,
-    "Type": "cupiditate",
-    "ColorBlock": 553,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2012-10-10T03:45:29.1703077+02:00",
+    "Id": 118,
+    "Name": "Lebsack, Hessel and Witting",
+    "ToolTip": "Dicta praesentium.",
+    "Deleted": false,
+    "Rank": 830,
+    "Type": "magnam",
+    "ColorBlock": 45,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2025-07-02T03:47:00.7536695+02:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Pacocha-Ortiz",
-        "ToolTip": "Dolor aliquam cum vitae.",
+        "Id": 730,
+        "Name": "Kertzmann-Kreiger",
+        "ToolTip": "Corrupti repellat nesciunt in sed quia at.",
         "Deleted": false,
-        "Rank": 21,
-        "Type": "et",
-        "ColorBlock": 299,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2011-09-01T03:45:29.1703077+02:00",
+        "Rank": 364,
+        "Type": "adipisci",
+        "ColorBlock": 62,
+        "IconHint": "odit",
+        "Selected": true,
+        "LastChanged": "2013-08-26T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "repellat",
-        "StyleHint": "quis",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Dock Carroll"
+        "FullName": "Mrs. Robbie Lemke Jr."
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Miss Sabrina Tremblay"
+    "ExtraInfo": "et",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Hadley Lynch"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Runte-Morar",
-    "ToolTip": "Aut voluptatem.",
+    "Id": 112,
+    "Name": "Halvorson-Will",
+    "ToolTip": "Corrupti neque assumenda doloribus hic.",
     "Deleted": false,
-    "Rank": 216,
-    "Type": "qui",
-    "ColorBlock": 892,
-    "IconHint": "qui",
+    "Rank": 662,
+    "Type": "et",
+    "ColorBlock": 644,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2023-03-08T03:45:29.1703077+01:00",
+    "LastChanged": "2012-04-14T03:47:00.7536695+02:00",
     "ChildItems": [
       {
-        "Id": 489,
-        "Name": "Halvorson, Roberts and Sipes",
-        "ToolTip": "Et temporibus itaque.",
-        "Deleted": false,
-        "Rank": 22,
-        "Type": "molestiae",
-        "ColorBlock": 197,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2021-07-28T03:45:29.1703077+02:00",
+        "Id": 541,
+        "Name": "Barrows-Padberg",
+        "ToolTip": "Nostrum et voluptas ab.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "aut",
+        "ColorBlock": 642,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2002-09-13T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Lizeth Krajcik",
+        "ExtraInfo": "et",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Darren Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldType": "System.String",
+            "FieldLength": 900
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Marcos Crist",
+    "FullName": "Ava White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

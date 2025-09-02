@@ -2,6 +2,7 @@
 title: GET List/Position/MDOItems
 uid: v1PositionList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=ad
+GET /api/v1/List/Position/MDOItems?query=nihil
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Kunde, Gerhold and Rath",
-    "ToolTip": "Nam cumque non iste itaque ducimus voluptatem quis.",
+    "Id": 204,
+    "Name": "Rutherford LLC",
+    "ToolTip": "Nihil architecto amet perferendis suscipit dolores.",
     "Deleted": false,
-    "Rank": 9,
-    "Type": "id",
+    "Rank": 616,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Id occaecati ea aut est corrupti tempore.",
-        "Deleted": true,
-        "Rank": 392,
-        "Type": "omnis",
+        "Id": 932,
+        "Name": "Leuschke-Bode",
+        "ToolTip": "Dolores dolores deserunt ut officiis.",
+        "Deleted": false,
+        "Rank": 788,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 86,
-        "ExtraInfo": "qui",
-        "StyleHint": "soluta",
-        "FullName": "Tiana Becker",
+        "IconHint": "nulla",
+        "ColorBlock": 55,
+        "ExtraInfo": "error",
+        "StyleHint": "optio",
+        "FullName": "Janick Waldo Williamson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 755
+            "FieldLength": 662
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 557,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "eos",
-    "FullName": "Russel VonRueden",
+    "IconHint": "blanditiis",
+    "ColorBlock": 618,
+    "ExtraInfo": "est",
+    "StyleHint": "vero",
+    "FullName": "Kasandra Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

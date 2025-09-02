@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate
 uid: v1DocumentTemplateList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Fahey, Murray and Bechtelar",
-  "Tooltip": "nesciunt",
+  "Id": 391,
+  "Name": "Sanford-Bergnaum",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 412,
-  "IsCustomList": true,
+  "Rank": 616,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": true
+  "ListType": "ad",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "Kiehn-Shanahan",
+  "Id": 156,
+  "Name": "Hermann-Franecki",
   "Tooltip": "ratione",
   "Deleted": true,
-  "Rank": 235,
+  "Rank": 8,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 211
     }
   }
 }

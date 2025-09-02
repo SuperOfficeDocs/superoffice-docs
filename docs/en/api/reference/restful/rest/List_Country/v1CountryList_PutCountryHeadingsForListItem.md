@@ -2,6 +2,7 @@
 title: PUT List/Country/Items/{id}/Headings
 uid: v1CountryList_PutCountryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Country/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Howe-Steuber",
-    "ToolTip": "Optio laborum temporibus placeat in quia.",
+    "Id": 803,
+    "Name": "Mills Group",
+    "ToolTip": "Molestiae ut quis quod ullam.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "vel",
-    "ColorBlock": 461,
+    "Rank": 540,
+    "Type": "debitis",
+    "ColorBlock": 557,
     "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2006-05-21T03:45:29.014043+02:00",
+    "Selected": true,
+    "LastChanged": "2012-12-08T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Nitzsche-Rau",
-        "ToolTip": "Repellat fugit.",
-        "Deleted": true,
-        "Rank": 283,
-        "Type": "quis",
-        "ColorBlock": 509,
-        "IconHint": "architecto",
+        "Id": 759,
+        "Name": "Aufderhar-Wilderman",
+        "ToolTip": "Ducimus consequuntur est.",
+        "Deleted": false,
+        "Rank": 152,
+        "Type": "distinctio",
+        "ColorBlock": 972,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2013-07-19T03:45:29.014043+02:00",
+        "LastChanged": "2009-02-05T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "id",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Frederique Carter"
+        "FullName": "Miss Adrianna King Jr."
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Mr. Triston Beaulah Altenwerth MD"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Dr. Beaulah Ayana Howe"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Stanton-Kshlerin",
-    "ToolTip": "Magni voluptatibus accusamus nisi est.",
+    "Id": 425,
+    "Name": "Brown LLC",
+    "ToolTip": "Esse quia.",
     "Deleted": false,
-    "Rank": 551,
-    "Type": "aperiam",
-    "ColorBlock": 293,
-    "IconHint": "est",
+    "Rank": 219,
+    "Type": "minus",
+    "ColorBlock": 483,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2018-05-09T03:45:29.014043+02:00",
+    "LastChanged": "2008-01-07T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Witting LLC",
-        "ToolTip": "Sunt non cum cupiditate tempore.",
+        "Id": 935,
+        "Name": "Kerluke, Orn and Sporer",
+        "ToolTip": "Iusto sit nesciunt.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "doloremque",
-        "ColorBlock": 726,
-        "IconHint": "sit",
+        "Rank": 563,
+        "Type": "harum",
+        "ColorBlock": 373,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2018-04-21T03:45:29.014043+02:00",
+        "LastChanged": "2002-02-13T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "German Ziemann",
+        "ExtraInfo": "possimus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Brady Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 671
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mrs. Florence Laurel Breitenberg",
+    "FullName": "Reggie Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldLength": 839
       }
     }
   }

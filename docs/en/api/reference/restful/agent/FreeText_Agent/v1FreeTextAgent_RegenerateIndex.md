@@ -2,6 +2,7 @@
 title: POST Agents/FreeText/RegenerateIndex
 uid: v1FreeTextAgent_RegenerateIndex
 generated: true
+content_type: reference
 ---
 
 # POST Agents/FreeText/RegenerateIndex
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Stoltenberg-Nicolas",
-  "AssociateId": 911,
-  "DetailsTable": 145,
-  "DetailsRecord": 999,
-  "IsSystemTask": true,
+  "Id": 314,
+  "Name": "Nikolaus Group",
+  "AssociateId": 84,
+  "DetailsTable": 723,
+  "DetailsRecord": 873,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "temporibus",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2010-01-25T03:45:23.498579+01:00",
-  "Created": "2008-10-20T03:45:23.498579+02:00",
-  "StartCount": 992,
-  "DatabaseSerialNumber": "1518702",
-  "Context": "tenetur",
-  "Result": "dolorem",
+  "LastStarted": "2021-05-13T03:46:54.9107593+02:00",
+  "Created": "2023-06-16T03:46:54.9107593+02:00",
+  "StartCount": 427,
+  "DatabaseSerialNumber": "421900",
+  "Context": "incidunt",
+  "Result": "delectus",
   "State": "All",
-  "Description": "Innovative motivating knowledge base",
-  "Response": "dolor",
-  "Request": "repellendus",
-  "ProgressDescription": "Ergonomic empowering task-force",
-  "ProgressPercent": 455,
-  "FileName": "Ebert Inc and Sons",
+  "Description": "Managed homogeneous benchmark",
+  "Response": "unde",
+  "Request": "deleniti",
+  "ProgressDescription": "Decentralized encompassing capacity",
+  "ProgressPercent": 291,
+  "FileName": "Cummerata, Koelpin and Abbott",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 28
     }
   }
 }

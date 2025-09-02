@@ -2,6 +2,7 @@
 title: POST Person/UdefLayout
 uid: v1PersonEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Person/UdefLayout
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 832,
-  "ColumnId": 155,
-  "FieldDefault": "enim",
-  "FieldHeight": 637,
-  "FieldLabel": "nobis",
-  "FieldLeft": 207,
-  "FieldTop": 559,
+  "UDefFieldId": 195,
+  "ColumnId": 258,
+  "FieldDefault": "consequatur",
+  "FieldHeight": 551,
+  "FieldLabel": "ea",
+  "FieldLeft": 370,
+  "FieldTop": 321,
   "FieldType": "Checkbox",
-  "FieldWidth": 484,
-  "FormatMask": "et",
+  "FieldWidth": 380,
+  "FormatMask": "assumenda",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 793,
-  "LabelLeft": 278,
-  "LabelTop": 219,
-  "LabelWidth": 30,
-  "LastVersionId": 258,
-  "ListTableId": 959,
-  "IsMandatory": false,
+  "LabelHeight": 163,
+  "LabelLeft": 464,
+  "LabelTop": 542,
+  "LabelWidth": 937,
+  "LastVersionId": 507,
+  "ListTableId": 565,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 759,
-  "ProgId": "a",
+  "Page1LineNo": 131,
+  "ProgId": "reprehenderit",
   "IsReadOnly": true,
-  "ShortLabel": "eum",
-  "TabOrder": 99,
-  "TextLength": 240,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 392,
-  "UDListDefinitionId": 468,
+  "ShortLabel": "aliquam",
+  "TabOrder": 399,
+  "TextLength": 833,
+  "Tooltip": "sit",
+  "UdefIdentity": 663,
+  "UDListDefinitionId": 918,
   "Justification": "Center",
-  "Version": 55,
-  "TemplateVariableName": "Corkery LLC",
+  "Version": 304,
+  "TemplateVariableName": "Connelly, Kilback and Schoen",
   "HasBeenPublished": true,
-  "MdoListName": "Klocko-Romaguera",
+  "MdoListName": "Smith Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 964
     }
   }
 }

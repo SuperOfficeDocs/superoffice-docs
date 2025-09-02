@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_DeleteTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/DeleteTriggerScriptByUniqueId
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ea"
+  "TriggerScriptUniqueId": "qui"
 }
 ```
 

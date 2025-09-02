@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.GetAllForeignKeysOnEntity SOAP
 generated: true
 uid: Services88-ForeignSystem-GetAllForeignKeysOnEntity
+content_type: reference
 ---
 
 # Services88 ForeignSystem GetAllForeignKeysOnEntity

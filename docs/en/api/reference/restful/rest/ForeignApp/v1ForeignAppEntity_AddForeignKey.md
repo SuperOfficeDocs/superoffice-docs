@@ -2,6 +2,7 @@
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 uid: v1ForeignAppEntity_AddForeignKey
 generated: true
+content_type: reference
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -83,18 +84,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolores",
-  "Value": "maiores",
-  "RecordId": 271,
-  "CreatedDate": "2016-10-13T03:45:28.3578119+02:00",
-  "UpdatedDate": "2001-11-07T03:45:28.3578119+01:00",
-  "UpdatedBy": "quod",
-  "CreatedBy": "est",
-  "TableName": "Spencer-Farrell"
+  "Key": "omnis",
+  "Value": "dolores",
+  "RecordId": 323,
+  "CreatedDate": "2009-07-13T03:47:00.0349452+02:00",
+  "UpdatedDate": "2018-01-26T03:47:00.0349452+01:00",
+  "UpdatedBy": "eligendi",
+  "CreatedBy": "fugiat",
+  "TableName": "Gutkowski-Ryan"
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "neque",
-  "RecordId": 998,
-  "CreatedDate": "2003-03-23T03:45:28.3578119+01:00",
-  "UpdatedDate": "2012-11-18T03:45:28.3578119+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "ex",
-  "TableName": "Shields-Wilkinson",
+  "Key": "voluptatibus",
+  "Value": "ratione",
+  "RecordId": 42,
+  "CreatedDate": "1999-01-24T03:47:00.0349452+01:00",
+  "UpdatedDate": "2011-01-25T03:47:00.0349452+01:00",
+  "UpdatedBy": "quasi",
+  "CreatedBy": "molestiae",
+  "TableName": "Weimann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 160
     }
   }
 }

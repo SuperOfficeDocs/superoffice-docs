@@ -2,6 +2,7 @@
 title: POST Agents/Quote/PlaceOrder
 uid: v1QuoteAgent_PlaceOrder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/PlaceOrder
@@ -83,15 +84,15 @@ OK
 POST /api/v1/Agents/Quote/PlaceOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 53,
-  "MarkSaleAsSold": true,
-  "PoNumber": "1072446",
-  "OrderComment": "ab",
-  "Culture": "voluptate"
+  "QuoteAlternativeId": 969,
+  "MarkSaleAsSold": false,
+  "PoNumber": "967664",
+  "OrderComment": "sit",
+  "Culture": "assumenda"
 }
 ```
 
@@ -102,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "voluptates",
-  "TechExplanation": "culpa",
-  "ErrorCode": "nemo",
+  "IsOk": true,
+  "UserExplanation": "distinctio",
+  "TechExplanation": "rerum",
+  "ErrorCode": "et",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -114,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 289
     }
   }
 }

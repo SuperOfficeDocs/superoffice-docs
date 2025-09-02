@@ -3,9 +3,9 @@ uid: allpersonsearch
 title: allpersonsearch
 keywords: mdoprovider mdo provider allpersonsearch
 description: Provider for selecting a Person, including search on contacts that match as well as persons. This provider will return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact ID is always in the extraInfo. Uses freetext to perform a speedy search on the contact and person tables. Does not include sub-tables, like userdefined fields, text records etc.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "allpersonsearch" MDO List

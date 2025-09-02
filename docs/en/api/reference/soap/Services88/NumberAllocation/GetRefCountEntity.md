@@ -2,6 +2,7 @@
 title: Services88.NumberAllocationAgent.GetRefCountEntity SOAP
 generated: true
 uid: Services88-NumberAllocation-GetRefCountEntity
+content_type: reference
 ---
 
 # Services88 NumberAllocation GetRefCountEntity

@@ -2,6 +2,7 @@
 title: GET TicketMessage/default
 uid: v1TicketMessageEntity_DefaultTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/default
@@ -82,7 +83,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +93,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 730,
+  "EjMessageId": 695,
   "Ticket": null,
-  "CreatedAt": "1998-10-15T03:45:28.7640528+02:00",
+  "CreatedAt": "2010-08-09T03:47:00.3630582+02:00",
   "CreatedBy": null,
-  "Author": "aspernatur",
+  "Author": "voluptas",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "delectus",
-  "TimeSpent": 809,
-  "Body": "dolore",
-  "HtmlBody": "facere",
-  "EmailHeader": "sanford@hand.name",
-  "DebugInfo": "quam",
-  "MailSorter": "quia",
+  "MessageId": "in",
+  "TimeSpent": 224,
+  "Body": "veritatis",
+  "HtmlBody": "nihil",
+  "EmailHeader": "ludie@goyette.com",
+  "DebugInfo": "velit",
+  "MailSorter": "placeat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "placeat",
+  "SearchTitle": "molestias",
   "MessageHeaders": [
     {
-      "Id": 274,
-      "Name": "Pfeffer, Mosciski and Hoeger",
-      "Value": "consectetur",
+      "Id": 426,
+      "Name": "Block LLC",
+      "Value": "delectus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,42 +122,42 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 613
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 259,
-  "SentimentConfidence": 631,
+  "Language": "quam",
+  "Sentiment": 562,
+  "SentimentConfidence": 678,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 720,
-      "Name": "Kerluke-Barrows",
-      "ContentType": "illum",
-      "AttSize": 461,
+      "AttachmentId": 108,
+      "Name": "Mraz, McCullough and Hirthe",
+      "ContentType": "rerum",
+      "AttSize": 57,
       "InlineImage": false,
-      "ContentId": "voluptatem",
-      "AuthKey": "debitis",
+      "ContentId": "neque",
+      "AuthKey": "aliquam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 409
+          "FieldType": "System.Int32",
+          "FieldLength": 87
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "at",
+    "CustomFields1": "et",
     "CustomFields2": "quia"
   },
   "TableRight": null,
@@ -164,7 +165,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 799
     }
   }
 }

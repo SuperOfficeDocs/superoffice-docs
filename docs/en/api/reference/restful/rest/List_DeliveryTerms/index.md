@@ -1,6 +1,8 @@
 ---
+uid: tag-List_DeliveryTerms
 title: List_DeliveryTerms
 generated: true
+content_type: reference
 ---
 
 ```http

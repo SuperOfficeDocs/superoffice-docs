@@ -2,10 +2,10 @@
 uid: table-ContInt
 title: ContInt table
 description: ContInt list table. List-text of all valid contact interest types.
-so.generated: true
+generated: true
 keywords: database table ContInt
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ContInt Table (70)

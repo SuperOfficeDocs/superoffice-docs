@@ -2,10 +2,10 @@
 uid: table-SearchCat
 title: SearchCat table
 description: SearchCat list table
-so.generated: true
+generated: true
 keywords: database table SearchCat
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SearchCat Table (106)

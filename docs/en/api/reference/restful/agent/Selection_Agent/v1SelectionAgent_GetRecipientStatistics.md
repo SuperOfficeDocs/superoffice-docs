@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetRecipientStatistics
 uid: v1SelectionAgent_GetRecipientStatistics
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetRecipientStatistics
@@ -82,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 652
+  "SelectionId": 234
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 800,
-  "ValidPostalAddresses": 637,
-  "ValidEmailAddresses": 145,
-  "ValidFaxNumbers": 116,
-  "NoAddresses": 821,
-  "NoFaxOrEmails": 13,
+  "Total": 683,
+  "ValidPostalAddresses": 661,
+  "ValidEmailAddresses": 712,
+  "ValidFaxNumbers": 340,
+  "NoAddresses": 412,
+  "NoFaxOrEmails": 728,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

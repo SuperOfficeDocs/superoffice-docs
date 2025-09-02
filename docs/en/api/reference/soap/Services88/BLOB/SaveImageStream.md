@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SaveImageStream SOAP
 generated: true
 uid: Services88-BLOB-SaveImageStream
+content_type: reference
 ---
 
 # Services88 BLOB SaveImageStream

@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetChatbotResponse
 uid: v1AIAgent_GetChatbotResponse
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetChatbotResponse
@@ -87,37 +88,37 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "tempora",
-  "IsoLangCode": "omnis",
-  "UserPrompt": "facere",
-  "DisplayValue": "ipsa",
+  "ChatId": "commodi",
+  "IsoLangCode": "dolorem",
+  "UserPrompt": "velit",
+  "DisplayValue": "deleniti",
   "PreviousTurns": [
     {
-      "Timestamp": "2015-01-24T03:45:22.6548535+01:00",
-      "UserPrompt": "sed",
-      "UserDisplayText": "ratione",
-      "BotResponse": "assumenda",
+      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
+      "UserPrompt": "exercitationem",
+      "UserDisplayText": "sit",
+      "BotResponse": "magnam",
       "BotActions": {
-        "BotActions1": "sint",
-        "BotActions2": "sunt"
+        "BotActions1": "dolor",
+        "BotActions2": "aliquam"
       },
       "Attachments": [
-        "itaque",
-        "delectus"
+        "qui",
+        "earum"
       ]
     },
     {
-      "Timestamp": "2015-01-24T03:45:22.6548535+01:00",
-      "UserPrompt": "sed",
-      "UserDisplayText": "ratione",
-      "BotResponse": "assumenda",
+      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
+      "UserPrompt": "exercitationem",
+      "UserDisplayText": "sit",
+      "BotResponse": "magnam",
       "BotActions": {
-        "BotActions1": "sint",
-        "BotActions2": "sunt"
+        "BotActions1": "dolor",
+        "BotActions2": "aliquam"
       },
       "Attachments": [
-        "itaque",
-        "delectus"
+        "qui",
+        "earum"
       ]
     }
   ],
@@ -132,17 +133,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2006-10-15T03:45:22.6548535+02:00",
-  "UserPrompt": "quia",
-  "UserDisplayText": "nam",
-  "BotResponse": "odit",
+  "Timestamp": "2023-08-07T03:46:53.9726601+02:00",
+  "UserPrompt": "delectus",
+  "UserDisplayText": "repellendus",
+  "BotResponse": "dolores",
   "BotActions": {
-    "BotActions1": "perspiciatis",
-    "BotActions2": "illo"
+    "BotActions1": "repellat",
+    "BotActions2": "harum"
   },
   "Attachments": [
-    "error",
-    "et"
+    "libero",
+    "eum"
   ]
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetPreviousCurrent
 uid: v1ViewStateAgent_GetPreviousCurrent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetPreviousCurrent
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Zemlak, Herman and Gottlieb",
-  "Id": 212
+  "HistoryName": "Daniel, Dickens and Stamm",
+  "Id": 221
 }
 ```
 
@@ -98,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 846,
-  "Id": 280,
-  "HistoryName": "Carter LLC",
-  "HistoryId": 137,
-  "AssociateId": 837,
-  "Name": "Hilpert, McGlynn and Hettinger",
-  "ItemInfo": "aliquam",
+  "Rank": 689,
+  "Id": 466,
+  "HistoryName": "Sporer Inc and Sons",
+  "HistoryId": 90,
+  "AssociateId": 313,
+  "Name": "Oberbrunner-Schumm",
+  "ItemInfo": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 184
     }
   }
 }

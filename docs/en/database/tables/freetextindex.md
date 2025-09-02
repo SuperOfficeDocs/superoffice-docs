@@ -2,10 +2,10 @@
 uid: table-freetextindex
 title: freetextindex table
 description: This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale). 
-so.generated: true
+generated: true
 keywords: database table freetextindex
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # freetextindex Table (46)

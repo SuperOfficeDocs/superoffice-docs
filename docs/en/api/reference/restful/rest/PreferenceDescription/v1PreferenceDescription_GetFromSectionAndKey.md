@@ -2,6 +2,7 @@
 title: GET PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_GetFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescription/{section}/{key}
@@ -77,7 +78,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 117,
-  "Section": "rerum",
-  "Key": "et",
-  "Name": "Jacobi-Leannon",
+  "PrefDescId": 212,
+  "Section": "unde",
+  "Key": "nobis",
+  "Name": "Kessler, Conn and Anderson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused intermediate attitude",
+  "Description": "Right-sized value-added architecture",
   "IsBuiltin": false,
-  "TableName": "Cassin LLC",
-  "UserDefinedListId": 761,
-  "Rank": 867,
-  "SubGroup": "sed",
-  "MinLevel": 870,
-  "MaxValue": 281,
-  "MinValue": 33,
-  "RequiredLicense": "libero",
+  "TableName": "Schmidt, Russel and Moore",
+  "UserDefinedListId": 768,
+  "Rank": 271,
+  "SubGroup": "recusandae",
+  "MinLevel": 357,
+  "MaxValue": 870,
+  "MinValue": 268,
+  "RequiredLicense": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 369
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.PhoneListAgent.SetPreferences SOAP
 generated: true
 uid: Services88-PhoneList-SetPreferences
+content_type: reference
 ---
 
 # Services88 PhoneList SetPreferences

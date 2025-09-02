@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent SOAP
 uid: Services88-ForeignSystem-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 ForeignSystem SOAP

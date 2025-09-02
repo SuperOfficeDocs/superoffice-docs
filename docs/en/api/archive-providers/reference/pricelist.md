@@ -3,9 +3,9 @@ uid: PriceList
 title: PriceList
 description: Archive of Pricelists - used by the web api.
 keywords: PriceList archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "PriceList"

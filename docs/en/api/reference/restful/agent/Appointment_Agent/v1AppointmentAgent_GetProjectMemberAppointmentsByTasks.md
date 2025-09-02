@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,17 +134,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 44,
-  "StartTime": "2003-08-02T03:45:22.6861022+02:00",
-  "EndTime": "2015-11-14T03:45:22.6861022+01:00",
-  "Count": 422,
+  "PersonId": 490,
+  "StartTime": "2016-09-24T03:46:53.9882851+02:00",
+  "EndTime": "2017-06-20T03:46:53.9882851+02:00",
+  "Count": 881,
   "TaskIds": [
-    13,
-    98
+    656,
+    418
   ]
 }
 ```
@@ -155,66 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 352,
-    "StartDate": "2005-04-08T03:45:22.6861022+02:00",
-    "EndDate": "2015-07-04T03:45:22.6861022+02:00",
+    "AppointmentId": 488,
+    "StartDate": "1998-09-25T03:46:53.9882851+02:00",
+    "EndDate": "2002-07-08T03:46:53.9882851+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quae",
-    "AssociateFullName": "Neoma O'Keefe",
-    "ContactName": "Roob-Huels",
-    "Description": "Robust attitude-oriented software",
-    "PersonFullName": "Dr. Maida Kerluke",
-    "PersonId": 701,
-    "ContactId": 1001,
-    "ProjectId": 42,
-    "ProjectName": "Bayer-Kunze",
-    "IsPublished": false,
-    "AssociateId": 232,
-    "ColorIndex": 773,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "neque",
+    "AssociateFullName": "Prof. Piper Brooke Towne",
+    "ContactName": "Wolf LLC",
+    "Description": "Streamlined global intranet",
+    "PersonFullName": "Prof. Oda Bernhard DVM",
+    "PersonId": 816,
+    "ContactId": 165,
+    "ProjectId": 623,
+    "ProjectName": "Hermann-West",
+    "IsPublished": true,
+    "AssociateId": 507,
+    "ColorIndex": 881,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 469,
-    "PriorityName": "Mills Group",
+    "PriorityId": 653,
+    "PriorityName": "O'Reilly Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2005-01-31T03:45:22.6861022+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2022-03-12T03:46:53.9882851+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-07-26T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2012-11-30T03:45:22.6861022+01:00",
-    "MotherId": 872,
-    "AssignedBy": 986,
-    "AssignedByFullName": "Caesar Schiller",
+    "RecurringStartDate": "2010-08-26T03:46:53.9882851+02:00",
+    "RecurringEndDate": "1998-07-24T03:46:53.9882851+02:00",
+    "MotherId": 468,
+    "AssignedBy": 410,
+    "AssignedByFullName": "Mr. Gisselle Gussie O'Reilly PhD",
     "RejectReason": "",
-    "Location": "delectus",
-    "AlarmLeadTime": "deserunt",
-    "SaleId": 968,
-    "SaleName": "Turcotte, Luettgen and Torp",
-    "AssociateName": "Graham LLC",
-    "CreatedDate": "2012-12-22T03:45:22.6861022+01:00",
-    "CreatedBy": "nihil",
-    "CreatedByFullName": "Sarah Nader",
-    "CreatedByAssociateId": 989,
+    "Location": "consequatur",
+    "AlarmLeadTime": "non",
+    "SaleId": 201,
+    "SaleName": "Beier-Johns",
+    "AssociateName": "Goyette Group",
+    "CreatedDate": "2000-09-09T03:46:53.9882851+02:00",
+    "CreatedBy": "quae",
+    "CreatedByFullName": "Blake Dickinson",
+    "CreatedByAssociateId": 790,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 566,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 943,
-    "Title": "officiis",
-    "Agenda": "qui",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 933,
+    "Title": "tempore",
+    "Agenda": "atque",
+    "InternalNotes": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

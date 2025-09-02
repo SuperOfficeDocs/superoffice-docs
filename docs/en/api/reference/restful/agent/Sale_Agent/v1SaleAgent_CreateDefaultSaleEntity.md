@@ -2,6 +2,7 @@
 title: POST Agents/Sale/CreateDefaultSaleEntity
 uid: v1SaleAgent_CreateDefaultSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/CreateDefaultSaleEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 ```
 
-Set default values into a new SaleEntity.
+Loading default values into a new SaleEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -116,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolores",
+  "SaleText": "recusandae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-12-09T03:45:23.8423206+01:00",
-  "Amount": 11661.614,
-  "SaleId": 355,
-  "Earning": 12037.694,
-  "EarningPercent": 6609.606,
-  "Heading": "recusandae",
-  "Number": "1821719",
-  "Probability": 313,
-  "CreatedDate": "2008-02-28T03:45:23.8423206+01:00",
-  "UpdatedDate": "2006-09-14T03:45:23.8423206+02:00",
+  "Saledate": "2000-03-31T03:46:55.2538645+02:00",
+  "Amount": 20627.987999999998,
+  "SaleId": 514,
+  "Earning": 27262.665999999997,
+  "EarningPercent": 11865.323999999999,
+  "Heading": "pariatur",
+  "Number": "1697344",
+  "Probability": 793,
+  "CreatedDate": "2015-08-16T03:46:55.2538645+02:00",
+  "UpdatedDate": "2019-06-29T03:46:55.2538645+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 87,
+  "ActiveLinks": 620,
   "Links": [
     {
-      "EntityName": "Hauck Group",
-      "Id": 697,
-      "Description": "Synchronised client-server knowledge base",
-      "ExtraInfo": "numquam",
-      "LinkId": 859,
+      "EntityName": "Quitzon Inc and Sons",
+      "Id": 91,
+      "Description": "Synergized context-sensitive functionalities",
+      "ExtraInfo": "eos",
+      "LinkId": 231,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 341
         }
       }
     }
   ],
-  "NextDueDate": "2016-03-27T03:45:23.8423206+02:00",
-  "Postit": "cumque",
+  "NextDueDate": "2011-10-28T03:46:55.2538645+02:00",
+  "Postit": "voluptatibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2013-06-19T03:45:23.8423206+02:00",
+  "ReopenDate": "2006-07-02T03:46:55.2538645+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Skiles, Marks and Zboncak",
-      "Comment": "dolorum",
-      "StakeholderRoleId": 812,
-      "CountryId": 969,
-      "PersonId": 289,
-      "EmailDescription": "hazle_bruen@aufderhardare.name",
-      "EmailId": 199,
-      "EmailAddress": "ernesto_kuhlman@crist.uk",
-      "PhoneId": 294,
-      "ContactName": "Kling-Bauch",
-      "ContactId": 853,
-      "SaleId": 919,
-      "Mrmrs": "voluptas",
-      "Firstname": "Saige",
-      "MiddleName": "Abbott-Parker",
-      "Lastname": "Corwin",
-      "SaleStakeholderId": 300,
-      "Rank": 937,
-      "Phone": "(321)782-0300",
+      "StakeholderRoleName": "Johns Inc and Sons",
+      "Comment": "a",
+      "StakeholderRoleId": 76,
+      "CountryId": 862,
+      "PersonId": 351,
+      "EmailDescription": "peyton@langosh.ca",
+      "EmailId": 364,
+      "EmailAddress": "florian@durgan.com",
+      "PhoneId": 601,
+      "ContactName": "Simonis-Berge",
+      "ContactId": 888,
+      "SaleId": 629,
+      "Mrmrs": "consequatur",
+      "Firstname": "Liana",
+      "MiddleName": "Kuvalis-Leffler",
+      "Lastname": "Becker",
+      "SaleStakeholderId": 818,
+      "Rank": 955,
+      "Phone": "449.449.0296 x802",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 491
         }
       }
     }
   ],
-  "ActiveErpLinks": 143,
+  "ActiveErpLinks": 573,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Marilyne O'Kon IV",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Ms. Edmund Josue Abshire",
+    "SuperOffice:2": "Manley Heller I"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "sint",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2004-01-07T03:45:23.8423206+01:00",
-  "PublishTo": "2022-06-28T03:45:23.8423206+02:00",
-  "PublishFrom": "2005-10-27T03:45:23.8423206+02:00",
+  "PublishEventDate": "2012-03-14T03:46:55.2538645+01:00",
+  "PublishTo": "2019-03-02T03:46:55.2538645+01:00",
+  "PublishFrom": "2000-01-14T03:46:55.2538645+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 364,
+      "VisibleId": 568,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldLength": 428
         }
       }
     },
     {
-      "VisibleId": 364,
+      "VisibleId": 568,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldLength": 428
         }
       }
     }
@@ -241,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 503
     }
   }
 }

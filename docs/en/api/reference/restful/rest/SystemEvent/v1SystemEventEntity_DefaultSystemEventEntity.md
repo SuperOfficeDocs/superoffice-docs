@@ -2,6 +2,7 @@
 title: GET SystemEvent/default
 uid: v1SystemEventEntity_DefaultSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # GET SystemEvent/default
@@ -66,7 +67,7 @@ OK
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 29,
+  "SystemEventId": 325,
   "Scope": "Database",
-  "Eta": "2001-08-30T03:45:28.6546813+02:00",
-  "Eventkey": "atque",
-  "Eventmess": "enim",
-  "ExtraInfo": 410,
-  "Owner": 95,
-  "UpdatedCount": 96,
-  "Registered": "2013-09-05T03:45:28.6546813+02:00",
+  "Eta": "2019-10-07T03:47:00.3005605+02:00",
+  "Eventkey": "cumque",
+  "Eventmess": "qui",
+  "ExtraInfo": 589,
+  "Owner": 406,
+  "UpdatedCount": 804,
+  "Registered": "2014-12-03T03:47:00.3005605+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 788
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SaveSaleStakeholder SOAP
 generated: true
 uid: Services88-Sale-SaveSaleStakeholder
+content_type: reference
 ---
 
 # Services88 Sale SaveSaleStakeholder

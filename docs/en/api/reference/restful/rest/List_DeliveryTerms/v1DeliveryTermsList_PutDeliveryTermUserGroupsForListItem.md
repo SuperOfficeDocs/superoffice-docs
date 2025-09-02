@@ -2,6 +2,7 @@
 title: PUT List/DeliveryTerm/Items/{id}/UserGroups
 uid: v1DeliveryTermsList_PutDeliveryTermUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Simonis-Weissnat",
-    "ToolTip": "Ipsa tenetur voluptatem delectus.",
+    "Id": 699,
+    "Name": "Runte-Romaguera",
+    "ToolTip": "Ut a.",
     "Deleted": false,
-    "Rank": 860,
-    "Type": "accusamus",
-    "ColorBlock": 142,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "2008-06-08T03:45:29.0296674+02:00",
+    "Rank": 287,
+    "Type": "minus",
+    "ColorBlock": 906,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "1999-08-16T03:47:00.6442984+02:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Borer-Stamm",
-        "ToolTip": "Nobis est itaque voluptatem deserunt.",
+        "Id": 252,
+        "Name": "Hermiston-Wisozk",
+        "ToolTip": "Dolorem est.",
         "Deleted": true,
-        "Rank": 858,
-        "Type": "placeat",
-        "ColorBlock": 19,
-        "IconHint": "excepturi",
+        "Rank": 172,
+        "Type": "et",
+        "ColorBlock": 843,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "1998-12-22T03:45:29.0296674+01:00",
+        "LastChanged": "2020-12-11T03:47:00.6442984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "commodi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prudence Russel"
+        "FullName": "Miss Stanton Savion Hamill PhD"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Dr. Freeman Lebsack"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Douglas Conroy IV"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Schroeder-VonRueden",
-    "ToolTip": "Tempora qui.",
+    "Id": 778,
+    "Name": "Trantow-Toy",
+    "ToolTip": "Velit at est officiis temporibus tempora et.",
     "Deleted": false,
-    "Rank": 592,
-    "Type": "consequatur",
-    "ColorBlock": 688,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2005-04-07T03:45:29.0296674+02:00",
+    "Rank": 451,
+    "Type": "vel",
+    "ColorBlock": 324,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "1999-02-22T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 282,
-        "Name": "Kunde-Wehner",
-        "ToolTip": "Dolores maiores ut fugit sit autem laudantium.",
+        "Id": 346,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Sequi illum et.",
         "Deleted": true,
-        "Rank": 677,
-        "Type": "amet",
-        "ColorBlock": 339,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2004-10-29T03:45:29.0296674+02:00",
+        "Rank": 221,
+        "Type": "ipsam",
+        "ColorBlock": 191,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2017-07-02T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "veniam",
+        "ExtraInfo": "natus",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Mrs. Reese Scotty Kulas II",
+        "FullName": "Johnathon Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 805
+            "FieldLength": 335
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Cleora Cartwright",
+    "ExtraInfo": "illum",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Nathan Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 499
       }
     }
   }

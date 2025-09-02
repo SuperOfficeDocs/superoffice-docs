@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus
 uid: v1ProjectStatusList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Casper-Crooks",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 282,
+  "Id": 532,
+  "Name": "Adams Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 609,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "optio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 938
     }
   },
   "_Links": {

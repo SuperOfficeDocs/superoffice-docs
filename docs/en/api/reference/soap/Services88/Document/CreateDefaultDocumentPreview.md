@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CreateDefaultDocumentPreview SOAP
 generated: true
 uid: Services88-Document-CreateDefaultDocumentPreview
+content_type: reference
 ---
 
 # Services88 Document CreateDefaultDocumentPreview

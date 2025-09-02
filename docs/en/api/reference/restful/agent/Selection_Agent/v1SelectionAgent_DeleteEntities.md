@@ -2,6 +2,7 @@
 title: POST Agents/Selection/DeleteEntities
 uid: v1SelectionAgent_DeleteEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/DeleteEntities
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Selection/DeleteEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 776
+  "SelectionId": 645
 }
 ```
 

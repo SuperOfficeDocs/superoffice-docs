@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteAllHeadingsFromListDefinition SOAP
 generated: true
 uid: Services88-List-DeleteAllHeadingsFromListDefinition
+content_type: reference
 ---
 
 # Services88 List DeleteAllHeadingsFromListDefinition

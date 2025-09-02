@@ -2,6 +2,7 @@
 title: PUT List/Country/Items/{id}/UserGroups
 uid: v1CountryList_PutCountryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Country/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "McKenzie, Stanton and Walsh",
-    "ToolTip": "Qui voluptatem est quidem autem omnis quam corrupti.",
+    "Id": 212,
+    "Name": "Kunde Group",
+    "ToolTip": "Aut omnis at consequatur aspernatur.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "cum",
-    "ColorBlock": 306,
-    "IconHint": "molestiae",
+    "Rank": 566,
+    "Type": "quia",
+    "ColorBlock": 927,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2020-12-13T03:45:28.9984183+01:00",
+    "LastChanged": "2010-09-15T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Mertz Inc and Sons",
-        "ToolTip": "Aliquid aut recusandae deserunt qui.",
+        "Id": 409,
+        "Name": "Zulauf, Heller and Ernser",
+        "ToolTip": "Ipsa esse velit iure non.",
         "Deleted": false,
-        "Rank": 943,
-        "Type": "molestias",
-        "ColorBlock": 311,
-        "IconHint": "porro",
+        "Rank": 837,
+        "Type": "eius",
+        "ColorBlock": 809,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2023-11-27T03:45:28.9984183+01:00",
+        "LastChanged": "2006-12-05T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "sit",
+        "ExtraInfo": "sunt",
+        "StyleHint": "officiis",
         "Hidden": true,
-        "FullName": "Prof. Mercedes Kuhn"
+        "FullName": "Ada Willms I"
       }
     ],
-    "ExtraInfo": "laboriosam",
+    "ExtraInfo": "optio",
     "StyleHint": "eius",
     "Hidden": false,
-    "FullName": "Braeden Carroll MD"
+    "FullName": "Cleora Anna Beahan DVM"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Leuschke, Stokes and Heidenreich",
-    "ToolTip": "Itaque sunt qui exercitationem tempore ea quibusdam.",
+    "Id": 604,
+    "Name": "Ernser, Ward and Lockman",
+    "ToolTip": "Et quia.",
     "Deleted": false,
-    "Rank": 824,
-    "Type": "doloremque",
-    "ColorBlock": 161,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2006-05-06T03:45:29.014043+02:00",
+    "Rank": 780,
+    "Type": "nobis",
+    "ColorBlock": 839,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2025-08-03T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Grimes-Bergnaum",
-        "ToolTip": "Libero repudiandae.",
+        "Id": 399,
+        "Name": "Lueilwitz, Oberbrunner and Erdman",
+        "ToolTip": "Voluptatum et laudantium ut sit.",
         "Deleted": false,
-        "Rank": 129,
-        "Type": "rerum",
-        "ColorBlock": 402,
+        "Rank": 98,
+        "Type": "aut",
+        "ColorBlock": 979,
         "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2019-09-15T03:45:29.014043+02:00",
+        "LastChanged": "2001-07-27T03:47:00.6130405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "sed",
+        "ExtraInfo": "ea",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Una Gulgowski",
+        "FullName": "Mrs. Allison DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 138
+            "FieldLength": 512
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "earum",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Prof. Deborah Cornelius Crooks",
+    "FullName": "Tracey Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 731
       }
     }
   }

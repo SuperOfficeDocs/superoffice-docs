@@ -2,6 +2,7 @@
 title: POST Agents/Person/HasConsent
 uid: v1PersonAgent_HasConsent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/HasConsent
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/Person/HasConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 830,
-  "Purpose": "ab"
+  "PersonId": 3,
+  "Purpose": "eos"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

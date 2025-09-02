@@ -2,6 +2,7 @@
 title: GET ChatTopic/ForCurrentUser
 uid: v1ChatTopicEntity_ChatTopicsForUser
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/ForCurrentUser
@@ -87,7 +88,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,21 +99,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 836,
-    "Name": "Olson-Kerluke",
-    "Description": "Ameliorated discrete capacity",
-    "WelcomeMessage": "velit",
+    "ChatTopicId": 334,
+    "Name": "Mitchell-Schuppe",
+    "Description": "Function-based upward-trending interface",
+    "WelcomeMessage": "odio",
     "Language": null,
-    "LastAccept": "2024-01-13T03:45:28.1546963+01:00",
-    "SecondsPrAccept": 618,
-    "AlertRecipient": "quo",
+    "LastAccept": "2003-02-13T03:46:59.8005718+01:00",
+    "SecondsPrAccept": 339,
+    "AlertRecipient": "ex",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "maxime",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "quasi",
-    "WarnNewChatMinutes": 306,
-    "WarnManagerNewChatMinutes": 753,
+    "CollectConsent": true,
+    "BadgeHeader": "repudiandae",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "quaerat",
+    "WarnNewChatMinutes": 907,
+    "WarnManagerNewChatMinutes": 848,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -122,19 +123,19 @@ Content-Type: application/json; charset=utf-8
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 234,
-    "WarnManagerChatMessageMinutes": 81,
+    "WarnChatMessageMinutes": 553,
+    "WarnManagerChatMessageMinutes": 754,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 703,
-    "OfflineFormQueueLength": 799,
+    "OfflineFormTimeLimit": 12,
+    "OfflineFormQueueLength": 802,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "sed",
+    "WidgetRatingText": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

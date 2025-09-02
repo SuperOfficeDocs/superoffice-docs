@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindOrderBy
 uid: v1FindAgent_FindOrderBy
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindOrderBy
@@ -82,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Schmeler, Schinner and Bauch",
-  "StorageKey": "ex",
-  "PageSize": 489,
-  "PageNumber": 945,
+  "StorageType": "enim",
+  "ProviderName": "Zboncak, Schmitt and Jakubowski",
+  "StorageKey": "eum",
+  "PageSize": 71,
+  "PageNumber": 681,
   "OrderBy": [
     {
-      "Name": "Reichert, Hackett and McKenzie",
+      "Name": "Hilll Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Reichert, Hackett and McKenzie",
+      "Name": "Hilll Group",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +114,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Walker Group",
-      "DisplayTooltip": "doloribus",
-      "DisplayType": "cupiditate",
-      "CanOrderBy": true,
-      "Name": "Hayes Inc and Sons",
+      "DisplayName": "Beatty-Murphy",
+      "DisplayTooltip": "suscipit",
+      "DisplayType": "tenetur",
+      "CanOrderBy": false,
+      "Name": "Yost Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "non",
-      "RestrictionListName": "Block-Volkman",
+      "RestrictionType": "explicabo",
+      "RestrictionListName": "Sanford LLC",
       "IsVisible": true,
-      "ExtraInfo": "reprehenderit",
+      "ExtraInfo": "fugiat",
       "Width": "in",
-      "IconHint": "quis",
-      "HeadingIconHint": "itaque"
+      "IconHint": "rerum",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schamberger-Pacocha",
-      "PrimaryKey": 113,
+      "EntityName": "Grant LLC",
+      "PrimaryKey": 702,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "earum",
-          "LinkHint": "quos"
+          "DisplayValue": "qui",
+          "TooltipHint": "enim",
+          "LinkHint": "unde"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "et",
+      "LinkHint": "voluptas",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "RowCount": 759,
+  "RowCount": 625,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 52
     }
   }
 }

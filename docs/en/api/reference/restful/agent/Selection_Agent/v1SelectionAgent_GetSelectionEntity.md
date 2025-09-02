@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetSelectionEntity
 uid: v1SelectionAgent_GetSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetSelectionEntity
@@ -22,11 +23,11 @@ Gets a SelectionEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| selectionEntityId | int32 | **Required** The primary key. |
+| selectionEntityId | int32 | **Required** The identifier of the SelectionEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=37
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=329
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +108,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,70 +118,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive multi-tasking frame",
-  "Postit": "dolores",
+  "Description": "Profit-focused solution-oriented success",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 359,
-  "IncludePerson": 268,
+  "GroupIdx": 176,
+  "IncludePerson": 739,
   "MemberCount": 99.99,
-  "Name": "Luettgen LLC",
-  "PostitTextId": 511,
-  "CreatedDate": "2023-02-27T03:45:23.8891939+01:00",
-  "SelectionId": 763,
-  "SoundEx": "ea",
-  "Source": 786,
-  "TextId": 260,
-  "UpdatedDate": "2005-02-11T03:45:23.8891939+01:00",
-  "UpdatedCount": 408,
-  "Visibility": 334,
+  "Name": "Boyle-Hudson",
+  "PostitTextId": 883,
+  "CreatedDate": "2007-07-14T03:46:55.3007553+02:00",
+  "SelectionId": 451,
+  "SoundEx": "magnam",
+  "Source": 815,
+  "TextId": 867,
+  "UpdatedDate": "2006-12-22T03:46:55.3007553+01:00",
+  "UpdatedCount": 943,
+  "Visibility": 908,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 805,
-  "TargetTableName": "Sporer, Schumm and McLaughlin",
+  "TargetTableNumber": 285,
+  "TargetTableName": "Cassin Group",
   "Completed": false,
-  "LeftSelectionId": 536,
-  "RightSelectionId": 880,
+  "LeftSelectionId": 237,
+  "RightSelectionId": 221,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Donnelly Group",
-  "ShadowProviderName": "Hyatt, Hackett and Hintz",
-  "ChartKey": "possimus",
-  "LastLoaded": "2022-01-09T03:45:23.8891939+01:00",
-  "LastLoadedBy": 192,
+  "MainProviderName": "Spencer, Corwin and Gleason",
+  "ShadowProviderName": "Daniel Group",
+  "ChartKey": "impedit",
+  "LastLoaded": "2000-09-07T03:46:55.3007553+02:00",
+  "LastLoadedBy": 134,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-09-17T03:45:23.8891939+02:00",
-  "LastMembershipChangeBy": 804,
+  "LastMembershipChange": "2003-11-26T03:46:55.3007553+01:00",
+  "LastMembershipChangeBy": 446,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "veritatis",
-  "MemberTabHeading": "consectetur",
-  "MailingsProviderName": "Shanahan, Gleason and Metz",
-  "DashboardTileDefinitionId": 687,
+  "MainHeading": "sed",
+  "MemberTabHeading": "dolorum",
+  "MailingsProviderName": "Greenfelder Inc and Sons",
+  "DashboardTileDefinitionId": 501,
   "VisibleFor": [
     {
-      "VisibleId": 863,
+      "VisibleId": 209,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     },
     {
-      "VisibleId": 863,
+      "VisibleId": 209,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     }
@@ -189,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 251
+      "FieldType": "System.Int32",
+      "FieldLength": 705
     }
   }
 }

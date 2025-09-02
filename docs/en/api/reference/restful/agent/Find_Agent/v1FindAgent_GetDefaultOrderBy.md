@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetDefaultOrderBy
 uid: v1FindAgent_GetDefaultOrderBy
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetDefaultOrderBy
@@ -80,9 +81,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Murphy Group",
-  "StorageKey": "provident"
+  "StorageType": "quis",
+  "ProviderName": "Wolff-Kirlin",
+  "StorageKey": "nesciunt"
 }
 ```
 
@@ -94,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ankunding Inc and Sons",
+    "Name": "Rohan-Gutkowski",
     "Direction": "ASC"
   },
   {
-    "Name": "Ankunding Inc and Sons",
+    "Name": "Rohan-Gutkowski",
     "Direction": "ASC"
   }
 ]

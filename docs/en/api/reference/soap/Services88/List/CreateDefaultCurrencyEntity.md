@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultCurrencyEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultCurrencyEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultCurrencyEntity

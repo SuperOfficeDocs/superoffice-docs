@@ -2,6 +2,7 @@
 title: Services88.AIAgent.Search SOAP
 generated: true
 uid: Services88-AI-Search
+content_type: reference
 ---
 
 # Services88 AI Search

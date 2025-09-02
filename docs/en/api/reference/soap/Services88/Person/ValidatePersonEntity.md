@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.ValidatePersonEntity SOAP
 generated: true
 uid: Services88-Person-ValidatePersonEntity
+content_type: reference
 ---
 
 # Services88 Person ValidatePersonEntity
@@ -46,9 +47,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Lastname xsi:type="xsd:string"></Person:Lastname>
      <Person:Mrmrs xsi:type="xsd:string"></Person:Mrmrs>
      <Person:Title xsi:type="xsd:string"></Person:Title>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:UpdatedDate>
-     <Person:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:CreatedDate>
-     <Person:BirthDate xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:BirthDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:UpdatedDate>
+     <Person:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:CreatedDate>
+     <Person:BirthDate xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:BirthDate>
      <Person:CreatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>
@@ -62,6 +63,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:CreatedBy>
      <Person:Emails xsi:type="Person:ArrayOfEntityElement">
       <Person:EntityElement xsi:type="Person:EntityElement">
@@ -125,6 +138,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:UpdatedBy>
      <Person:Contact xsi:type="Person:Contact">
       <Person:ContactId xsi:type="xsd:int">0</Person:ContactId>
@@ -221,7 +246,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Person:ColorBlock xsi:type="xsd:int">0</Person:ColorBlock>
        <Person:IconHint xsi:type="xsd:string"></Person:IconHint>
        <Person:Selected xsi:type="xsd:boolean">false</Person:Selected>
-       <Person:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:LastChanged>
+       <Person:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:LastChanged>
        <Person:ChildItems xsi:type="Person:ArrayOfSelectableMDOListItem">
         <Person:SelectableMDOListItem xsi:type="Person:SelectableMDOListItem">
          <Person:Id xsi:type="xsd:int">0</Person:Id>
@@ -233,7 +258,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Person:ColorBlock xsi:type="xsd:int">0</Person:ColorBlock>
          <Person:IconHint xsi:type="xsd:string"></Person:IconHint>
          <Person:Selected xsi:type="xsd:boolean">false</Person:Selected>
-         <Person:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:LastChanged>
+         <Person:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:LastChanged>
          <Person:ChildItems xsi:type="Person:ArrayOfSelectableMDOListItem">
           <Person:SelectableMDOListItem xsi:nil="true"></Person:SelectableMDOListItem>
          </Person:ChildItems>
@@ -319,6 +344,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:CorrespondingAssociate>
      <Person:Category xsi:type="Person:Category">
       <Person:Id xsi:type="xsd:int">0</Person:Id>
@@ -343,6 +380,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:Associate>
      <Person:Salutation xsi:type="xsd:string"></Person:Salutation>
      <Person:ActiveInterests xsi:type="xsd:int">0</Person:ActiveInterests>
@@ -359,6 +408,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:SupportAssociate>
      <Person:TicketPriority xsi:type="Person:TicketPriority">
       <Person:Id xsi:type="xsd:int">0</Person:Id>
@@ -372,8 +433,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Person:CustomerLanguage>
      <Person:DbiAgentId xsi:type="xsd:int">0</Person:DbiAgentId>
      <Person:DbiKey xsi:type="xsd:string"></Person:DbiKey>
-     <Person:DbiLastModified xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:DbiLastModified>
-     <Person:DbiLastSyncronized xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:DbiLastSyncronized>
+     <Person:DbiLastModified xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:DbiLastModified>
+     <Person:DbiLastSyncronized xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:DbiLastSyncronized>
      <Person:SentInfo xsi:type="xsd:short">0</Person:SentInfo>
      <Person:ShowContactTickets xsi:type="xsd:short">0</Person:ShowContactTickets>
      <Person:UserInfo xsi:type="Person:UserInfo">
@@ -422,7 +483,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Person:ColorBlock xsi:type="xsd:int">0</Person:ColorBlock>
        <Person:IconHint xsi:type="xsd:string"></Person:IconHint>
        <Person:Selected xsi:type="xsd:boolean">false</Person:Selected>
-       <Person:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:LastChanged>
+       <Person:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:LastChanged>
        <Person:ChildItems xsi:type="Person:ArrayOfSelectableMDOListItem">
         <Person:SelectableMDOListItem xsi:type="Person:SelectableMDOListItem">
          <Person:Id xsi:type="xsd:int">0</Person:Id>
@@ -434,7 +495,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Person:ColorBlock xsi:type="xsd:int">0</Person:ColorBlock>
          <Person:IconHint xsi:type="xsd:string"></Person:IconHint>
          <Person:Selected xsi:type="xsd:boolean">false</Person:Selected>
-         <Person:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:LastChanged>
+         <Person:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:LastChanged>
          <Person:ChildItems xsi:type="Person:ArrayOfSelectableMDOListItem">
           <Person:SelectableMDOListItem xsi:nil="true"></Person:SelectableMDOListItem>
          </Person:ChildItems>
@@ -454,9 +515,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:ConsentInfo xsi:type="Person:ConsentInfo">
        <Person:ConsentPersonId xsi:type="xsd:int">0</Person:ConsentPersonId>
        <Person:Comment xsi:type="xsd:string"></Person:Comment>
-       <Person:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:Registered>
+       <Person:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:Registered>
        <Person:RegisteredAssociateId xsi:type="xsd:int">0</Person:RegisteredAssociateId>
-       <Person:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:Updated>
+       <Person:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:Updated>
        <Person:UpdatedAssociateId xsi:type="xsd:int">0</Person:UpdatedAssociateId>
        <Person:LegalBaseId xsi:type="xsd:int">0</Person:LegalBaseId>
        <Person:LegalBaseKey xsi:type="xsd:string"></Person:LegalBaseKey>
@@ -474,6 +535,15 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Person:BounceEmails>
      <Person:ActiveStatusMonitorId xsi:type="xsd:int">0</Person:ActiveStatusMonitorId>
      <Person:CreatedByFormId xsi:type="xsd:int">0</Person:CreatedByFormId>
+     <Person:InitialUtmParameters xsi:type="Person:InitalUtmParameters">
+      <Person:FormName xsi:type="xsd:string"></Person:FormName>
+      <Person:Source xsi:type="xsd:string"></Person:Source>
+      <Person:Medium xsi:type="xsd:string"></Person:Medium>
+      <Person:Campaign xsi:type="xsd:string"></Person:Campaign>
+      <Person:Term xsi:type="xsd:string"></Person:Term>
+      <Person:Content xsi:type="xsd:string"></Person:Content>
+      <Person:ReferrerDomain xsi:type="xsd:string"></Person:ReferrerDomain>
+     </Person:InitialUtmParameters>
      <Person:UserDefinedFields xsi:type="Person:StringDictionary">
       <Person:StringKeyValuePair>
        <Person:Key xsi:type="xsd:string"></Person:Key>

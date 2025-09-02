@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ForceResyncBatchTask
 uid: v1ErpSyncAgent_ForceResyncBatchTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ForceResyncBatchTask
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 946,
+  "ErpConnectionId": 277,
   "InternalKeyIds": [
-    309,
-    382
+    30,
+    891
   ]
 }
 ```

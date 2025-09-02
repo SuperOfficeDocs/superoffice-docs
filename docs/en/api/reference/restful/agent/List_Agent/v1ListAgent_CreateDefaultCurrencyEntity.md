@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultCurrencyEntity
 uid: v1ListAgent_CreateDefaultCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultCurrencyEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 ```
 
-Set default values into a new CurrencyEntity.
+Loading default values into a new CurrencyEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -73,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 467,
-  "Name": "Sauer LLC",
-  "Tooltip": "asperiores",
-  "Rank": 569,
-  "Rate": 4208.9619999999995,
-  "Units": 9850.162,
+  "CurrencyId": 715,
+  "Name": "O'Reilly-Pacocha",
+  "Tooltip": "non",
+  "Rank": 189,
+  "Rate": 12034.56,
+  "Units": 1375.826,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 844
     }
   }
 }

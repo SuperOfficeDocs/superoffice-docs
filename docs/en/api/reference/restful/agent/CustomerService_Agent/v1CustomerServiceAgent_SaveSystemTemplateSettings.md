@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/SaveSystemTemplateSettings
 uid: v1CustomerServiceAgent_SaveSystemTemplateSettings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/SaveSystemTemplateSettings
@@ -110,33 +111,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 529,
-  "CustomerCustomerReplyTemplateId": 388,
-  "CustomerPasswordTemplateId": 450,
-  "CustomerConfirmEmailTemplateId": 880,
-  "CustomerChatLogTemplateId": 214,
-  "NewLinkTemplateId": 873,
-  "HotlistNewMessageTemplateId": 979,
-  "HotlistTicketActivatedTemplateId": 578,
-  "UserTicketAlarmTemplateId": 315,
-  "HotlistTicketTakenOverTemplateId": 902,
-  "UserActiveTicketsTemplateId": 321,
-  "UserNewMessageTemplateId": 496,
-  "UserTicketActivatedTemplateId": 97,
-  "UserNewTicketTemplateId": 237,
-  "PublishKbQuestionTemplateId": 748,
-  "PublishKbAnswerTemplateId": 68,
-  "UserTicketTakenOverTemplateId": 529,
-  "PrintTicketTemplateId": 299,
-  "WeekStatTemplateId": 58,
-  "TicketAlarmHotlistTemplateId": 308,
-  "EmailAddresses": "alena@hanebreitenberg.us",
+  "CustomerNewCustomerTemplateId": 620,
+  "CustomerCustomerReplyTemplateId": 427,
+  "CustomerPasswordTemplateId": 224,
+  "CustomerConfirmEmailTemplateId": 17,
+  "CustomerChatLogTemplateId": 16,
+  "NewLinkTemplateId": 45,
+  "HotlistNewMessageTemplateId": 621,
+  "HotlistTicketActivatedTemplateId": 358,
+  "UserTicketAlarmTemplateId": 791,
+  "HotlistTicketTakenOverTemplateId": 434,
+  "UserActiveTicketsTemplateId": 717,
+  "UserNewMessageTemplateId": 692,
+  "UserTicketActivatedTemplateId": 601,
+  "UserNewTicketTemplateId": 311,
+  "PublishKbQuestionTemplateId": 585,
+  "PublishKbAnswerTemplateId": 981,
+  "UserTicketTakenOverTemplateId": 781,
+  "PrintTicketTemplateId": 292,
+  "WeekStatTemplateId": 64,
+  "TicketAlarmHotlistTemplateId": 354,
+  "EmailAddresses": "derrick.bins@moore.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 371
     }
   }
 }

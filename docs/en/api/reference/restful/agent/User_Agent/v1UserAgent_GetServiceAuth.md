@@ -2,6 +2,7 @@
 title: POST Agents/User/GetServiceAuth
 uid: v1UserAgent_GetServiceAuth
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetServiceAuth
@@ -24,11 +25,11 @@ Gets a ServiceAuth object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| serviceAuthId | int32 | **Required** The primary key. |
+| serviceAuthId | int32 | **Required** The identifier of the ServiceAuth object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=775
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=359
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/User/GetServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 412,
-  "Server": "ipsum",
-  "Port": 767,
-  "AuthType": "cupiditate",
-  "Username": "dolores",
-  "Password": "voluptas",
+  "ServiceAuthId": 879,
+  "Server": "enim",
+  "Port": 958,
+  "AuthType": "et",
+  "Username": "vitae",
+  "Password": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 924
     }
   }
 }

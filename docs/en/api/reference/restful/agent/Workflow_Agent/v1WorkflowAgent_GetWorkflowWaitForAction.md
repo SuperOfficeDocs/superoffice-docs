@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/GetWorkflowWaitForAction
 uid: v1WorkflowAgent_GetWorkflowWaitForAction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/GetWorkflowWaitForAction
@@ -22,11 +23,11 @@ Gets a WorkflowWaitForAction object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| workflowWaitForActionId | int32 | **Required** The primary key. |
+| workflowWaitForActionId | int32 | **Required** The identifier of the WorkflowWaitForAction object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=16
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=112
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 47,
-  "WorkflowStepId": 986,
-  "WorkflowId": 489,
-  "Rank": 671,
+  "WorkflowWaitForActionId": 301,
+  "WorkflowStepId": 106,
+  "WorkflowId": 279,
+  "Rank": 160,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Schaden LLC",
-      "Description": "Visionary bottom-line migration",
-      "Rank": 405,
+      "Name": "Kling Inc and Sons",
+      "Description": "Sharable uniform monitoring",
+      "Rank": 564,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden LLC",
-      "Description": "Visionary bottom-line migration",
-      "Rank": 405,
+      "Name": "Kling Inc and Sons",
+      "Description": "Sharable uniform monitoring",
+      "Rank": 564,
       "Restrictions": [
         {},
         {}
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 396
     }
   }
 }

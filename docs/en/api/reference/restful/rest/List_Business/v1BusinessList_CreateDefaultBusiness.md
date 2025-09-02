@@ -2,6 +2,7 @@
 title: GET List/Business/Items/Default
 uid: v1BusinessList_CreateDefaultBusiness
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
-  "Name": "Kulas, Feest and Kuhn",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 854,
-  "Rank": 250,
+  "Id": 129,
+  "Name": "Fahey-McKenzie",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 775,
+  "Rank": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 270
     }
   }
 }

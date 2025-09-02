@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.NotificationsHandled SOAP
 generated: true
 uid: Services88-Pocket-NotificationsHandled
+content_type: reference
 ---
 
 # Services88 Pocket NotificationsHandled

@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveResourceEntity
 uid: v1ListAgent_SaveResourceEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveResourceEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveResourceEntity
 ```
 
-Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is empty
+Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ResourceEntity or creates a new ResourceEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: resourceEntity 
 
-The ResourceEntity to be saved. 
+The ResourceEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,17 +76,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 635,
-  "Name": "Murphy-Grimes",
-  "Rank": 30,
-  "Tooltip": "accusamus",
+  "ResourceId": 672,
+  "Name": "Ortiz, Wisozk and Wiza",
+  "Rank": 577,
+  "Tooltip": "quod",
   "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "nostrum"
+  "IsLocation": false,
+  "LocationAddress": "reiciendis"
 }
 ```
 
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 630,
-  "Name": "Lowe, Lind and Kuhic",
-  "Rank": 811,
-  "Tooltip": "officiis",
+  "ResourceId": 735,
+  "Name": "Goyette Inc and Sons",
+  "Rank": 33,
+  "Tooltip": "at",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "quidem",
+  "IsLocation": false,
+  "LocationAddress": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 286
     }
   }
 }

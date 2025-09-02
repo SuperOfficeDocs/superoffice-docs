@@ -2,10 +2,10 @@
 uid: table-projectmember
 title: projectmember table
 description: Project members. Link-table between person and project
-so.generated: true
+generated: true
 keywords: database table projectmember
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # projectmember Table (12)

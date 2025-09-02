@@ -2,6 +2,7 @@
 title: GET SystemEvent/{id}
 uid: v1SystemEventEntity_GetSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # GET SystemEvent/{id}
@@ -92,22 +93,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 264,
+  "SystemEventId": 859,
   "Scope": "Database",
-  "Eta": "2018-05-02T03:45:28.6546813+02:00",
-  "Eventkey": "suscipit",
-  "Eventmess": "ut",
-  "ExtraInfo": 234,
-  "Owner": 436,
-  "UpdatedCount": 570,
-  "Registered": "2010-07-06T03:45:28.6546813+02:00",
+  "Eta": "2000-01-10T03:47:00.3005605+01:00",
+  "Eventkey": "et",
+  "Eventmess": "porro",
+  "ExtraInfo": 80,
+  "Owner": 337,
+  "UpdatedCount": 473,
+  "Registered": "1999-04-17T03:47:00.3005605+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 952
     }
   },
   "_Links": {

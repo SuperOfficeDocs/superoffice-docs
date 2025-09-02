@@ -2,6 +2,7 @@
 title: GET CRMScript/default
 uid: v1CRMScriptEntity_DefaultCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # GET CRMScript/default
@@ -68,6 +69,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -77,7 +79,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,29 +89,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 229,
-  "UniqueIdentifier": "amet",
-  "Name": "Glover-Mertz",
-  "Description": "Phased impactful complexity",
-  "IncludeId": "quod",
-  "AccessKey": "dolorum",
-  "HierarchyId": 161,
-  "Source": "voluptatem",
-  "SourceCode": "quaerat",
+  "EjscriptId": 838,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Grant-Hauck",
+  "Description": "Networked directional moratorium",
+  "IncludeId": "sed",
+  "AccessKey": "assumenda",
+  "HierarchyId": 423,
+  "Source": "ut",
+  "SourceCode": "porro",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 21,
+  "HtmlOutput": 908,
   "Includes": [
-    315,
-    279
+    127,
+    120
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 193,
-      "LineNumberTo": 742,
-      "Delta": 763,
-      "IncludeId": "dolores",
+      "LineNumberFrom": 41,
+      "LineNumberTo": 546,
+      "Delta": 261,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "ratione",
+        "id",
         "ipsa"
       ],
       "TableRight": null,
@@ -117,22 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 847
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-09-05T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 753,
-  "Updated": "2011-01-19T03:45:28.2955692+01:00",
-  "UpdatedAssociateId": 387,
+  "Registered": "2023-05-11T03:46:59.8943184+02:00",
+  "RegisteredAssociateId": 807,
+  "Updated": "2010-11-11T03:46:59.8943184+01:00",
+  "UpdatedAssociateId": 750,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

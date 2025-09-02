@@ -2,6 +2,7 @@
 title: POST Agents/Targets/SaveTargetDimension
 uid: v1TargetsAgent_SaveTargetDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/SaveTargetDimension
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Targets/SaveTargetDimension
 ```
 
-Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty
+Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TargetDimension or creates a new TargetDimension if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: targetDimension 
 
-The TargetDimension to be saved. 
+The TargetDimension that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,17 +84,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 517,
+  "TargetDimensionId": 781,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "omnis",
-  "DimensionListName": "Becker Inc and Sons",
-  "DimensionListId": 718,
-  "DimensionListLabel": "temporibus",
+  "DimensionListField": "adipisci",
+  "DimensionListName": "Effertz, Mante and Buckridge",
+  "DimensionListId": 645,
+  "DimensionListLabel": "porro",
   "SelectedDimensions": [
-    447,
-    649
+    657,
+    75
   ]
 }
 ```
@@ -105,24 +106,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 888,
+  "TargetDimensionId": 221,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "doloremque",
-  "DimensionListName": "Rodriguez, Willms and Collins",
-  "DimensionListId": 686,
-  "DimensionListLabel": "nam",
+  "DimensionListField": "ipsam",
+  "DimensionListName": "Beier-Morissette",
+  "DimensionListId": 742,
+  "DimensionListLabel": "quibusdam",
   "SelectedDimensions": [
-    792,
-    790
+    800,
+    417
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldLength": 812
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetBusinessList
 uid: v1ListAgent_GetBusinessList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetBusinessList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetBusinessList?$select=name,department,category/id
 
 ## Request Body: businessIds 
 
-The primary keys. 
+The identifiers of the Business object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Value": "fugit",
-    "Tooltip": "architecto",
+    "Id": 704,
+    "Value": "voluptas",
+    "Tooltip": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 488
       }
     }
   },
   {
-    "Id": 389,
-    "Value": "fugit",
-    "Tooltip": "architecto",
+    "Id": 704,
+    "Value": "voluptas",
+    "Tooltip": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 488
       }
     }
   }

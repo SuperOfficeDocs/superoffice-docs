@@ -3,9 +3,9 @@ uid: mailingtype
 title: mailingtype
 keywords: mdoprovider mdo provider mailingtype
 description: Mailing types - Html mail, SMS, Word Document
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mailingtype" MDO List

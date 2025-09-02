@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.ReportSessionActive SOAP
 generated: true
 uid: Services88-CustomerService-ReportSessionActive
+content_type: reference
 ---
 
 # Services88 CustomerService ReportSessionActive

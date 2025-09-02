@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/SetNumberEachTemplate
 uid: v1NumberAllocationAgent_SetNumberEachTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/SetNumberEachTemplate
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SetValue": false
+  "SetValue": true
 }
 ```
 

@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CreateDefaultWorkflowFilter SOAP
 generated: true
 uid: Services88-Workflow-CreateDefaultWorkflowFilter
+content_type: reference
 ---
 
 # Services88 Workflow CreateDefaultWorkflowFilter

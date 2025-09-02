@@ -2,6 +2,7 @@
 title: POST List/{id}/Items
 uid: v1ListItemEntity_AddFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST List/{id}/Items
@@ -77,16 +78,16 @@ OK
 POST /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Quitzon, Skiles and Nader",
-  "Tooltip": "similique",
+  "Id": 623,
+  "Name": "Roob Group",
+  "Tooltip": "illum",
   "Deleted": false,
-  "UdListDefinitionId": 767,
-  "Rank": 1002
+  "UdListDefinitionId": 703,
+  "Rank": 455
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Rutherford LLC",
-  "Tooltip": "est",
+  "Id": 799,
+  "Name": "Klocko, Hirthe and Zboncak",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "UdListDefinitionId": 434,
-  "Rank": 98,
+  "UdListDefinitionId": 820,
+  "Rank": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   }
 }

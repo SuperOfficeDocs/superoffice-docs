@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DuplicateTile
 uid: v1DashAgent_DuplicateTile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DuplicateTile
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 27,
-  "Name": "Murray LLC"
+  "DashTileId": 424,
+  "Name": "Wisoky, Green and Jones"
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 395,
-  "DashboardId": 965,
-  "Height": 752,
-  "Width": 644,
-  "Rank": 600,
+  "DashboardTileId": 111,
+  "DashboardId": 141,
+  "Height": 416,
+  "Width": 14,
+  "Rank": 589,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

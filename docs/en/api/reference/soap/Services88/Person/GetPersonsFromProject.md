@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetPersonsFromProject SOAP
 generated: true
 uid: Services88-Person-GetPersonsFromProject
+content_type: reference
 ---
 
 # Services88 Person GetPersonsFromProject

@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetDimensionsForEntityType
 uid: v1TargetsAgent_GetTargetDimensionsForEntityType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetDimensionsForEntityType
@@ -97,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 330,
+    "TargetDimensionId": 881,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "perspiciatis",
-    "DimensionListName": "Fay, Rempel and Jacobson",
-    "DimensionListId": 613,
-    "DimensionListLabel": "molestiae",
+    "DimensionListField": "accusantium",
+    "DimensionListName": "Lesch LLC",
+    "DimensionListId": 431,
+    "DimensionListLabel": "neque",
     "SelectedDimensions": [
-      121,
-      664
+      185,
+      192
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

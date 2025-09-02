@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/TryConnectActor
 uid: v1ErpSyncAgent_TryConnectActor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/TryConnectActor
@@ -75,31 +76,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 312,
-  "CrmRecordId": 756,
+  "ErpConnectionId": 588,
+  "CrmRecordId": 207,
   "CrmActorType": "Contact",
-  "ErpKey": "voluptates",
+  "ErpKey": "alias",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Cruickshank, Simonis and Lakin",
-      "CrmFieldKey": "placeat",
-      "Value": "repellat",
-      "DisplayValue": "omnis",
+      "DisplayName": "Hoppe, Purdy and Fadel",
+      "CrmFieldKey": "sint",
+      "Value": "velit",
+      "DisplayValue": "tenetur",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Cruickshank, Simonis and Lakin",
-      "CrmFieldKey": "placeat",
-      "Value": "repellat",
-      "DisplayValue": "omnis",
+      "DisplayName": "Hoppe, Purdy and Fadel",
+      "CrmFieldKey": "sint",
+      "Value": "velit",
+      "DisplayValue": "tenetur",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }
@@ -111,5 +112,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

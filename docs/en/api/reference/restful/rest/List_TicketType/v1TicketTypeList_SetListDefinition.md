@@ -2,6 +2,7 @@
 title: PUT List/TicketType
 uid: v1TicketTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketType
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Weissnat LLC",
+  "Id": 195,
+  "Name": "Bernier Group",
   "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 824,
+  "Deleted": true,
+  "Rank": 674,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Goldner LLC",
-  "Tooltip": "accusamus",
+  "Id": 682,
+  "Name": "Hane, Haley and Boyle",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 503,
-  "IsCustomList": false,
+  "Rank": 833,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": false,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 244
     }
   }
 }

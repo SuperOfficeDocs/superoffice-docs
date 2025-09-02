@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetProductImage SOAP
 generated: true
 uid: Services88-Quote-GetProductImage
+content_type: reference
 ---
 
 # Services88 Quote GetProductImage

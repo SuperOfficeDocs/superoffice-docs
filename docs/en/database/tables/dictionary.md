@@ -2,10 +2,10 @@
 uid: table-dictionary
 title: dictionary table
 description: User added dictionary words
-so.generated: true
+generated: true
 keywords: database table dictionary
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # dictionary Table (358)

@@ -2,6 +2,7 @@
 title: DEL List/Country/Headings
 uid: v1CountryList_DeleteCountryHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Country/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

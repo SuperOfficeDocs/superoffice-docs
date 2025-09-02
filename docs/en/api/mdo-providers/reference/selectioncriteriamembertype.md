@@ -3,9 +3,9 @@ uid: selectioncriteriamembertype
 title: selectioncriteriamembertype
 keywords: mdoprovider mdo provider selectioncriteriamembertype
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "selectioncriteriamembertype" MDO List

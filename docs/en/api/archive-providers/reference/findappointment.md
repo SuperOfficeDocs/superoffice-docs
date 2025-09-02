@@ -3,9 +3,9 @@ uid: FindAppointment
 title: FindAppointment
 description: Find appointment provider
 keywords: FindAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FindAppointment"
@@ -738,7 +738,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=contact/code,contact/restrictionAddress/formattedMultiLineAddress,contact/contactAssociate/assocTooltip,person/personAssociate/title,person/correspondingAssociate/contactFullName
+GET /api/v1/archive/FindAppointment?$select=contact/restrictionAddress/line1,person/restrictionAddress/formattedAddress,project/endDate,associate/simultaneousEjUser,associate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

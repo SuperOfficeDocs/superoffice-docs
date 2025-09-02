@@ -2,6 +2,7 @@
 title: GET List/{id}/Items/{id}/Headings
 uid: v1ListItemEntity_GetHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Bins, Mayer and Bahringer",
-    "ToolTip": "Quis ipsam voluptate.",
+    "Id": 799,
+    "Name": "Purdy-Cummings",
+    "ToolTip": "Exercitationem dolorem et iste ex sed.",
     "Deleted": false,
-    "Rank": 425,
-    "Type": "esse",
-    "ColorBlock": 424,
-    "IconHint": "voluptatum",
+    "Rank": 467,
+    "Type": "aliquam",
+    "ColorBlock": 128,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2006-03-14T03:45:28.9517993+01:00",
+    "LastChanged": "2011-09-14T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Kassulke, Koelpin and Durgan",
-        "ToolTip": "Voluptatem exercitationem.",
-        "Deleted": false,
-        "Rank": 658,
-        "Type": "et",
-        "ColorBlock": 865,
-        "IconHint": "dolore",
+        "Id": 411,
+        "Name": "Kris Group",
+        "ToolTip": "Odio architecto aut qui molestiae.",
+        "Deleted": true,
+        "Rank": 765,
+        "Type": "similique",
+        "ColorBlock": 206,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2005-04-26T03:45:28.9517993+02:00",
+        "LastChanged": "2005-06-01T03:47:00.5661762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "maiores",
+        "ExtraInfo": "dolores",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Amira Farrell",
+        "FullName": "Tristin O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 382
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Ms. Bryana Florida Luettgen",
+    "ExtraInfo": "ut",
+    "StyleHint": "animi",
+    "Hidden": false,
+    "FullName": "Mr. Lucio Amalia Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

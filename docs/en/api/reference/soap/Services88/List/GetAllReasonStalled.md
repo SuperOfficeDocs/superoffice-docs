@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllReasonStalled SOAP
 generated: true
 uid: Services88-List-GetAllReasonStalled
+content_type: reference
 ---
 
 # Services88 List GetAllReasonStalled

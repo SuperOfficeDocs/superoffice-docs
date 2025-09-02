@@ -2,6 +2,7 @@
 title: POST Agents/Chat/ChatTopicsForUser
 uid: v1ChatAgent_ChatTopicsForUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/ChatTopicsForUser
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +109,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 129,
-    "Name": "McKenzie, Gleason and Ondricka",
-    "Description": "Re-engineered well-modulated functionalities",
-    "WelcomeMessage": "velit",
+    "ChatTopicId": 78,
+    "Name": "Jacobi LLC",
+    "Description": "Reverse-engineered zero administration open system",
+    "WelcomeMessage": "rerum",
     "Language": null,
-    "LastAccept": "2003-04-05T03:45:23.0610908+02:00",
-    "SecondsPrAccept": 74,
-    "AlertRecipient": "ex",
+    "LastAccept": "2005-02-02T03:46:54.3945199+01:00",
+    "SecondsPrAccept": 862,
+    "AlertRecipient": "similique",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "necessitatibus",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "veritatis",
-    "WarnNewChatMinutes": 101,
-    "WarnManagerNewChatMinutes": 544,
-    "TicketEnabled": true,
+    "CollectConsent": false,
+    "BadgeHeader": "nam",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "distinctio",
+    "WarnNewChatMinutes": 309,
+    "WarnManagerNewChatMinutes": 427,
+    "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 110,
-    "WarnManagerChatMessageMinutes": 822,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 57,
-    "OfflineFormQueueLength": 229,
+    "WarnChatMessageMinutes": 576,
+    "WarnManagerChatMessageMinutes": 386,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 871,
+    "OfflineFormQueueLength": 912,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "quos",
+    "WidgetRatingText": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 646
       }
     }
   }

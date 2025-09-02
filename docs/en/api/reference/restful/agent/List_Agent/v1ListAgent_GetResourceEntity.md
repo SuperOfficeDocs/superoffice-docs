@@ -2,6 +2,7 @@
 title: POST Agents/List/GetResourceEntity
 uid: v1ListAgent_GetResourceEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetResourceEntity
@@ -22,11 +23,11 @@ Gets a ResourceEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| resourceEntityId | int32 | **Required** The primary key. |
+| resourceEntityId | int32 | **Required** The identifier of the ResourceEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=703
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=532
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 748,
-  "Name": "Grady-Ondricka",
-  "Rank": 234,
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "aut",
+  "ResourceId": 122,
+  "Name": "Robel Inc and Sons",
+  "Rank": 881,
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

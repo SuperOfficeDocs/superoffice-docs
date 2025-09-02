@@ -2,6 +2,7 @@
 title: POST Contact/UdefLayout/Publish
 uid: v1ContactEntity_PublishUdefLayout
 generated: true
+content_type: reference
 ---
 
 # POST Contact/UdefLayout/Publish
@@ -52,7 +53,7 @@ OK
 POST /api/v1/Contact/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -61,5 +62,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-721
+540
 ```

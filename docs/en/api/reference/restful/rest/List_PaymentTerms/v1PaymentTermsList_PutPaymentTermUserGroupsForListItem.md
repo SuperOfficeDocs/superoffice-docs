@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm/Items/{id}/UserGroups
 uid: v1PaymentTermsList_PutPaymentTermUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Windler Inc and Sons",
-    "ToolTip": "Ducimus et quos aut autem.",
+    "Id": 24,
+    "Name": "Stracke-Shanahan",
+    "ToolTip": "Autem voluptates ut labore.",
     "Deleted": true,
-    "Rank": 918,
+    "Rank": 841,
     "Type": "est",
-    "ColorBlock": 705,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2005-07-31T03:45:29.060917+02:00",
+    "ColorBlock": 387,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "2024-07-10T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Monahan, Huel and Kirlin",
-        "ToolTip": "Sit consequatur aperiam molestiae.",
-        "Deleted": true,
-        "Rank": 566,
-        "Type": "placeat",
-        "ColorBlock": 781,
-        "IconHint": "voluptate",
+        "Id": 51,
+        "Name": "Towne-Lind",
+        "ToolTip": "Beatae magnam voluptatem esse.",
+        "Deleted": false,
+        "Rank": 727,
+        "Type": "et",
+        "ColorBlock": 948,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2013-04-16T03:45:29.060917+02:00",
+        "LastChanged": "2017-03-15T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sit",
+        "ExtraInfo": "amet",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Maeve Schulist"
+        "FullName": "Sasha Simonis"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Mr. Alexandro Candace Bahringer I"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Antonina Cronin"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Bartoletti, Stokes and Kessler",
-    "ToolTip": "Vero ex accusamus ea sit iure ut vel.",
+    "Id": 660,
+    "Name": "Smith LLC",
+    "ToolTip": "Harum aut est veniam veniam nostrum.",
     "Deleted": false,
-    "Rank": 309,
-    "Type": "eius",
-    "ColorBlock": 245,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2016-09-18T03:45:29.060917+02:00",
+    "Rank": 359,
+    "Type": "voluptas",
+    "ColorBlock": 279,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2003-07-27T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Zieme LLC",
-        "ToolTip": "Molestias nulla aperiam accusantium ipsum optio quidem.",
+        "Id": 655,
+        "Name": "Mills-Mohr",
+        "ToolTip": "Sed nemo qui.",
         "Deleted": false,
-        "Rank": 683,
-        "Type": "rem",
-        "ColorBlock": 333,
-        "IconHint": "dolores",
+        "Rank": 514,
+        "Type": "et",
+        "ColorBlock": 404,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2023-02-03T03:45:29.060917+01:00",
+        "LastChanged": "2014-02-15T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "et",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Paula Schmeler",
+        "FullName": "Susan Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 980
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Orin Miller",
+    "FullName": "Mariela D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 266
       }
     }
   }

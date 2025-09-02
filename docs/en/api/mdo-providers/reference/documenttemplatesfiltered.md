@@ -3,9 +3,9 @@ uid: documenttemplatesfiltered
 title: documenttemplatesfiltered
 keywords: mdoprovider mdo provider documenttemplatesfiltered
 description: MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "documenttemplatesfiltered" MDO List

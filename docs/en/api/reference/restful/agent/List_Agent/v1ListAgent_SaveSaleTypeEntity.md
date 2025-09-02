@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveSaleTypeEntity
 uid: v1ListAgent_SaveSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveSaleTypeEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 ```
 
-Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
+Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: saleTypeEntity 
 
-The SaleTypeEntity to be saved. 
+The SaleTypeEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,51 +106,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 150,
-  "Name": "Lind-Macejkovic",
-  "Tooltip": "mollitia",
-  "Rank": 956,
+  "SaleTypeId": 24,
+  "Name": "Roob Group",
+  "Tooltip": "quia",
+  "Rank": 390,
   "DurationUnit": "Century",
-  "SaleDuration": 473,
-  "SaleTypeCatId": 515,
+  "SaleDuration": 181,
+  "SaleTypeCatId": 232,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 704,
-  "QuoteLinesTemplate": 651,
-  "ConfirmationLinesTemplate": 951,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 500,
+  "QuoteLinesTemplate": 45,
+  "ConfirmationLinesTemplate": 23,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 857,
-  "MinEarningPercent": 23,
-  "GroupQuoteLinesBy": 166,
-  "SortGroupLinesBy": 955,
+  "MaxDiscountPercent": 664,
+  "MinEarningPercent": 674,
+  "GroupQuoteLinesBy": 236,
+  "SortGroupLinesBy": 552,
   "Stages": [
     {
-      "Id": 973,
-      "Name": "Haag Group",
-      "ToolTip": "Omnis ipsum.",
-      "Deleted": false,
-      "Rank": 693,
-      "Type": "et",
-      "ColorBlock": 324,
-      "IconHint": "blanditiis",
+      "Id": 741,
+      "Name": "Streich-Grimes",
+      "ToolTip": "Perferendis quia est officiis dicta eos eligendi labore.",
+      "Deleted": true,
+      "Rank": 7,
+      "Type": "natus",
+      "ColorBlock": 70,
+      "IconHint": "soluta",
       "Selected": false,
-      "LastChanged": "2018-08-05T03:45:23.6235756+02:00",
+      "LastChanged": "2010-03-20T03:46:54.9413809+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "reprehenderit",
+      "ExtraInfo": "delectus",
+      "StyleHint": "voluptatem",
       "Hidden": false,
-      "FullName": "Flossie Hipolito Auer III"
+      "FullName": "Kathryn Tillman PhD"
     }
   ]
 }
@@ -162,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 120,
-  "Name": "Doyle-Howell",
-  "Tooltip": "nemo",
-  "Rank": 441,
+  "SaleTypeId": 239,
+  "Name": "Ryan Inc and Sons",
+  "Tooltip": "tempore",
+  "Rank": 145,
   "DurationUnit": "Century",
-  "SaleDuration": 816,
-  "SaleTypeCatId": 75,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 549,
-  "QuoteLinesTemplate": 351,
-  "ConfirmationLinesTemplate": 109,
+  "SaleDuration": 498,
+  "SaleTypeCatId": 859,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 4,
+  "QuoteLinesTemplate": 909,
+  "ConfirmationLinesTemplate": 121,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 129,
-  "MinEarningPercent": 331,
-  "GroupQuoteLinesBy": 552,
-  "SortGroupLinesBy": 866,
+  "MaxDiscountPercent": 59,
+  "MinEarningPercent": 751,
+  "GroupQuoteLinesBy": 71,
+  "SortGroupLinesBy": 730,
   "Stages": [
     {
-      "Id": 457,
-      "Name": "Weimann, Roob and Kohler",
-      "ToolTip": "Voluptas quia iure impedit a fugiat illum.",
+      "Id": 499,
+      "Name": "Runte, Bogisich and Rodriguez",
+      "ToolTip": "Perspiciatis rerum earum reiciendis voluptatum voluptatibus eos.",
       "Deleted": true,
-      "Rank": 492,
-      "Type": "atque",
-      "ColorBlock": 751,
-      "IconHint": "a",
+      "Rank": 803,
+      "Type": "occaecati",
+      "ColorBlock": 531,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "1998-12-20T03:45:23.6235756+01:00",
+      "LastChanged": "2019-11-08T03:46:54.9413809+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "architecto",
-      "Hidden": true,
-      "FullName": "Miss Dena Garett Ruecker",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "doloremque",
+      "Hidden": false,
+      "FullName": "Jarrett Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
@@ -218,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 280
     }
   }
 }

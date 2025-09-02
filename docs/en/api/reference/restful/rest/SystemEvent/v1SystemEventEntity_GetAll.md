@@ -2,6 +2,7 @@
 title: GET SystemEvent
 uid: v1SystemEventEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET SystemEvent
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=et
-GET /api/v1/SystemEvent?$top=173
-GET /api/v1/SystemEvent?$skip=889
+GET /api/v1/SystemEvent?$entities=pariatur
+GET /api/v1/SystemEvent?$top=702
+GET /api/v1/SystemEvent?$skip=629
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=corporis
+GET /api/v1/SystemEvent?$context=mollitia
 GET /api/v1/SystemEvent?$format=JSON
 GET /api/v1/SystemEvent?$jsonSafe=False
 GET /api/v1/SystemEvent?$output=Display
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ad",
+  "odata.nextLink": "minima",
   "value": [
     {
-      "PrimaryKey": 4219,
-      "EntityName": "person",
-      "personId": 4219,
-      "fullName": "Jaeden Homenick Jr."
+      "PrimaryKey": 2087,
+      "EntityName": "sale",
+      "saleId": 2087,
+      "contactId": 3354,
+      "name": "Harvey Group"
     },
     {
-      "PrimaryKey": 4023,
-      "EntityName": "person",
-      "personId": 4023,
-      "fullName": "Dr. Cory Orrin Carter"
+      "PrimaryKey": 5544,
+      "EntityName": "sale",
+      "saleId": 5544,
+      "contactId": 2666,
+      "name": "Kirlin, Keebler and Schmeler"
     }
   ]
 }

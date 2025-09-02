@@ -2,6 +2,7 @@
 title: Services88.AIAgent.TranslateEntity SOAP
 generated: true
 uid: Services88-AI-TranslateEntity
+content_type: reference
 ---
 
 # Services88 AI TranslateEntity

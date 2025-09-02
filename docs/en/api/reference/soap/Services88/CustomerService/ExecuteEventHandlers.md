@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.ExecuteEventHandlers SOAP
 generated: true
 uid: Services88-CustomerService-ExecuteEventHandlers
+content_type: reference
 ---
 
 # Services88 CustomerService ExecuteEventHandlers

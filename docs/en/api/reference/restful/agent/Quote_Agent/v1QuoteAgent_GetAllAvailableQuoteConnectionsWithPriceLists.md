@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 uid: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,54 +93,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 216,
-    "ERPName": "Wunsch, Bruen and Willms",
-    "DisplayName": "Abernathy, Bartell and Feest",
-    "DisplayDescription": "Intuitive holistic Graphical User Interface",
-    "Rank": 791,
-    "ConnectorName": "McClure Group",
-    "ErpConnectionId": 832,
-    "ExtraData": "rerum",
+    "QuoteConnectionId": 494,
+    "ERPName": "Herzog Inc and Sons",
+    "DisplayName": "Bergnaum Group",
+    "DisplayDescription": "Future-proofed dedicated approach",
+    "Rank": 525,
+    "ConnectorName": "Moore Group",
+    "ErpConnectionId": 116,
+    "ExtraData": "earum",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 864,
-        "ERPPriceListKey": "blanditiis",
-        "QuoteConnectionId": 420,
-        "Name": "Koelpin, Howe and Cummings",
-        "Description": "Mandatory impactful product",
-        "Currency": "harum",
-        "CurrencyName": "Smitham, Cole and McGlynn",
-        "ValidFrom": "2001-05-14T03:45:23.8266945+02:00",
-        "ValidTo": "2020-09-23T03:45:23.8266945+02:00",
+        "PriceListId": 125,
+        "ERPPriceListKey": "veritatis",
+        "QuoteConnectionId": 47,
+        "Name": "McGlynn Inc and Sons",
+        "Description": "Automated heuristic superstructure",
+        "Currency": "repudiandae",
+        "CurrencyName": "Schinner-Morar",
+        "ValidFrom": "2013-03-06T03:46:55.2069913+01:00",
+        "ValidTo": "2013-09-27T03:46:55.2069913+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 19
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": false,
+    "AllAccess": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      226,
-      609
+      177,
+      23
     ],
     "AssociateAccessIds": [
-      243,
-      282
+      701,
+      613
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 112
       }
     }
   }

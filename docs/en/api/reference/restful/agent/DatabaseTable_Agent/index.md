@@ -1,6 +1,8 @@
 ---
+uid: tag-DatabaseTable_Agent
 title: DatabaseTable_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

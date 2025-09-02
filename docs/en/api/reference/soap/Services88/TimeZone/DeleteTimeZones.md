@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.DeleteTimeZones SOAP
 generated: true
 uid: Services88-TimeZone-DeleteTimeZones
+content_type: reference
 ---
 
 # Services88 TimeZone DeleteTimeZones

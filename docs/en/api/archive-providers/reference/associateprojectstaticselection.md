@@ -3,9 +3,9 @@ uid: AssociateProjectStaticSelection
 title: AssociateProjectStaticSelection
 description: 
 keywords: AssociateProjectStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AssociateProjectStaticSelection"
@@ -91,7 +91,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectStaticSelection?$select=projectAssociate/isActiveText,targetTableNumber,endDate
+GET /api/v1/archive/AssociateProjectStaticSelection?$select=endDate,projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

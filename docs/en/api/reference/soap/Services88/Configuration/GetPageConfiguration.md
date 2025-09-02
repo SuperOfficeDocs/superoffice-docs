@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetPageConfiguration SOAP
 generated: true
 uid: Services88-Configuration-GetPageConfiguration
+content_type: reference
 ---
 
 # Services88 Configuration GetPageConfiguration

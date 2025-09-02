@@ -2,6 +2,7 @@
 title: POST Agents/EMail/MoveEmailsToTrash
 uid: v1EMailAgent_MoveEmailsToTrash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/MoveEmailsToTrash
@@ -71,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    574,
-    727
+    581,
+    536
   ]
 }
 ```

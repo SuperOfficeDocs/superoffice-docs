@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/Upsert
 uid: v1DatabaseTableAgent_Upsert
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/Upsert
@@ -85,18 +86,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Swaniawski-Keebler",
+  "TableName": "Streich LLC",
   "Columns": [
-    "quisquam",
-    "nisi"
+    "molestiae",
+    "eos"
   ],
   "Keys": [
-    "aut",
-    "incidunt"
+    "debitis",
+    "consequuntur"
   ],
   "Data": [
     [
@@ -118,41 +119,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "provident",
-  "Inserts": 606,
-  "Updates": 507,
-  "Deletes": 878,
+  "Success": true,
+  "Message": "adipisci",
+  "Inserts": 924,
+  "Updates": 492,
+  "Deletes": 370,
   "RowStatus": [
     {
-      "PrimaryKey": 993,
+      "PrimaryKey": 358,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "id",
-        "incidunt"
+        "consequatur",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 734
         }
       }
     },
     {
-      "PrimaryKey": 993,
+      "PrimaryKey": 358,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "id",
-        "incidunt"
+        "consequatur",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 734
         }
       }
     }
@@ -162,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldLength": 478
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-scheduled_task
 title: scheduled_task table
 description: A scheduled entry executing a script at certain times
-so.generated: true
+generated: true
 keywords: database table scheduled_task
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # scheduled\_task Table (376)

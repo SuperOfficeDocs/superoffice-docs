@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateTemporaryContactSelection
 uid: v1SelectionAgent_CreateTemporaryContactSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelection
@@ -115,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced solution-oriented pricing structure",
-  "Postit": "autem",
+  "Description": "Virtual zero tolerance circuit",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 527,
-  "IncludePerson": 260,
+  "GroupIdx": 677,
+  "IncludePerson": 639,
   "MemberCount": 99.99,
-  "Name": "Schulist-Balistreri",
-  "PostitTextId": 725,
-  "CreatedDate": "2022-03-04T03:45:23.9048172+01:00",
-  "SelectionId": 615,
-  "SoundEx": "provident",
-  "Source": 35,
-  "TextId": 225,
-  "UpdatedDate": "2005-10-27T03:45:23.9048172+02:00",
-  "UpdatedCount": 528,
-  "Visibility": 285,
+  "Name": "Gleichner-Wilderman",
+  "PostitTextId": 379,
+  "CreatedDate": "2002-01-03T03:46:55.3788724+01:00",
+  "SelectionId": 335,
+  "SoundEx": "molestiae",
+  "Source": 312,
+  "TextId": 330,
+  "UpdatedDate": "2004-08-17T03:46:55.3788724+02:00",
+  "UpdatedCount": 776,
+  "Visibility": 128,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 169,
-  "TargetTableName": "Kuphal, Witting and Torp",
+  "CompanyUnique": false,
+  "TargetTableNumber": 298,
+  "TargetTableName": "Smitham, O'Kon and Rogahn",
   "Completed": false,
-  "LeftSelectionId": 325,
-  "RightSelectionId": 662,
+  "LeftSelectionId": 669,
+  "RightSelectionId": 717,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ernser, Gibson and Bednar",
-  "ShadowProviderName": "Klocko-Lind",
-  "ChartKey": "velit",
-  "LastLoaded": "2005-05-07T03:45:23.9048172+02:00",
-  "LastLoadedBy": 327,
+  "MainProviderName": "Goyette, Witting and Grimes",
+  "ShadowProviderName": "Stroman Group",
+  "ChartKey": "et",
+  "LastLoaded": "2005-08-29T03:46:55.3788724+02:00",
+  "LastLoadedBy": 121,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-02-04T03:45:23.9048172+01:00",
-  "LastMembershipChangeBy": 972,
+  "LastMembershipChange": "2016-03-28T03:46:55.3788724+02:00",
+  "LastMembershipChangeBy": 271,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Mitchell-Dicki",
-  "DashboardTileDefinitionId": 105,
+  "MainHeading": "recusandae",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Schultz Group",
+  "DashboardTileDefinitionId": 241,
   "VisibleFor": [
     {
-      "VisibleId": 522,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 895
         }
       }
     },
     {
-      "VisibleId": 522,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 895
         }
       }
     }
@@ -188,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 172
     }
   }
 }

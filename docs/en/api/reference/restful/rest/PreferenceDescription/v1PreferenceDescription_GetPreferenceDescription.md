@@ -2,6 +2,7 @@
 title: GET PreferenceDescription/{id}
 uid: v1PreferenceDescription_GetPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescription/{id}
@@ -90,7 +91,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,30 +101,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 790,
-  "Section": "nostrum",
-  "Key": "vel",
-  "Name": "Wisoky, Hodkiewicz and Shanahan",
+  "PrefDescId": 228,
+  "Section": "est",
+  "Key": "non",
+  "Name": "Dibbert Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced secondary process improvement",
-  "IsBuiltin": true,
-  "TableName": "Hackett Inc and Sons",
-  "UserDefinedListId": 381,
-  "Rank": 98,
-  "SubGroup": "quam",
-  "MinLevel": 90,
-  "MaxValue": 579,
-  "MinValue": 844,
-  "RequiredLicense": "nam",
+  "Description": "Versatile intangible leverage",
+  "IsBuiltin": false,
+  "TableName": "Brekke, Bednar and Wolff",
+  "UserDefinedListId": 648,
+  "Rank": 795,
+  "SubGroup": "et",
+  "MinLevel": 389,
+  "MaxValue": 24,
+  "MinValue": 919,
+  "RequiredLicense": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 441
     }
   },
   "_Links": {

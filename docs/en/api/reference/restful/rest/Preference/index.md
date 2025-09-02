@@ -1,6 +1,8 @@
 ---
+uid: tag-Preference
 title: Preference
 generated: true
+content_type: reference
 ---
 
 ```http

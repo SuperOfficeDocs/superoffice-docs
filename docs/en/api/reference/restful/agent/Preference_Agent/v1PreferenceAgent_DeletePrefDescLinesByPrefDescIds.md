@@ -2,6 +2,7 @@
 title: POST Agents/Preference/DeletePrefDescLinesByPrefDescIds
 uid: v1PreferenceAgent_DeletePrefDescLinesByPrefDescIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/DeletePrefDescLinesByPrefDescIds
@@ -69,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescIds": [
-    28,
-    91
+    53,
+    917
   ]
 }
 ```

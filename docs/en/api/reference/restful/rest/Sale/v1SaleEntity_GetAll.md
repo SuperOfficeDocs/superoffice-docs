@@ -2,6 +2,7 @@
 title: GET Sale
 uid: v1SaleEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET Sale
@@ -70,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=repellat
-GET /api/v1/Sale?$top=920
-GET /api/v1/Sale?$skip=532
+GET /api/v1/Sale?$entities=natus
+GET /api/v1/Sale?$top=598
+GET /api/v1/Sale?$skip=600
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=dolorem
+GET /api/v1/Sale?$context=et
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=True
+GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -118,7 +119,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "asperiores",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 8531,
-      "EntityName": "person",
-      "personId": 8531,
-      "fullName": "Gina Mraz"
+      "PrimaryKey": 8567,
+      "EntityName": "sale",
+      "saleId": 8567,
+      "contactId": 6374,
+      "name": "Herman-Johnston"
     },
     {
-      "PrimaryKey": 7403,
-      "EntityName": "person",
-      "personId": 7403,
-      "fullName": "Miss Maiya Maci Mraz MD"
+      "PrimaryKey": 5328,
+      "EntityName": "sale",
+      "saleId": 5328,
+      "contactId": 3782,
+      "name": "Corwin-Aufderhar"
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent SOAP
 uid: Services88-Archive-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Archive SOAP

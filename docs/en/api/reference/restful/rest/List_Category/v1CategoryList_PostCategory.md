@@ -2,6 +2,7 @@
 title: POST List/Category/Items
 uid: v1CategoryList_PostCategory
 generated: true
+content_type: reference
 ---
 
 # POST List/Category/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 539,
-  "Name": "Koelpin-Larson",
-  "Tooltip": "magnam",
+  "Id": 436,
+  "Name": "Metz, Ernser and Koch",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 453,
-  "Rank": 16
+  "UdListDefinitionId": 470,
+  "Rank": 438
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "nemo",
+  "Id": 338,
+  "Name": "Towne, Cole and Hartmann",
+  "Tooltip": "quas",
   "Deleted": false,
-  "UdListDefinitionId": 705,
-  "Rank": 312,
+  "UdListDefinitionId": 200,
+  "Rank": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

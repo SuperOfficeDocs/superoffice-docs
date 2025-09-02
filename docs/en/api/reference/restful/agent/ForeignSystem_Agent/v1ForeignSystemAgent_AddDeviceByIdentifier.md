@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/AddDeviceByIdentifier
 uid: v1ForeignSystemAgent_AddDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/AddDeviceByIdentifier
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collins, Hilll and Okuneva",
-  "DeviceName": "Reichert, Langosh and McLaughlin",
-  "DeviceIdentifier": "excepturi"
+  "ApplicationName": "Effertz, Jacobson and Labadie",
+  "DeviceName": "Durgan-Roob",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 353,
-  "Name": "Gutmann Inc and Sons",
-  "CreatedDate": "2012-11-09T03:45:23.4829546+01:00",
-  "UpdatedDate": "2000-01-31T03:45:23.4829546+01:00",
-  "AssociateFullName": "Mr. Leilani Noemy Daniel II",
-  "CreatedBy": "at",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "culpa",
-  "ForeignAppId": 336,
+  "ForeignDeviceId": 763,
+  "Name": "Rath Group",
+  "CreatedDate": "2004-11-27T03:46:54.8788782+01:00",
+  "UpdatedDate": "2016-12-02T03:46:54.8788782+01:00",
+  "AssociateFullName": "Emie Hilll",
+  "CreatedBy": "nihil",
+  "UpdatedBy": "doloribus",
+  "DeviceIdentifier": "nesciunt",
+  "ForeignAppId": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 676
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.CreateDefaultProjectMember SOAP
 generated: true
 uid: Services88-Project-CreateDefaultProjectMember
+content_type: reference
 ---
 
 # Services88 Project CreateDefaultProjectMember

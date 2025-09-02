@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/PerformTasksAfterUpgrade
 uid: v1DiagnosticsAgent_PerformTasksAfterUpgrade
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/PerformTasksAfterUpgrade
@@ -71,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"voluptatem"
 ```

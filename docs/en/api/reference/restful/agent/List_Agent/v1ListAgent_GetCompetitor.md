@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCompetitor
 uid: v1ListAgent_GetCompetitor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCompetitor
@@ -22,11 +23,11 @@ Gets a Competitor object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| competitorId | int32 | **Required** The primary key. |
+| competitorId | int32 | **Required** The identifier of the Competitor object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCompetitor?competitorId=778
+POST /api/v1/Agents/List/GetCompetitor?competitorId=799
 POST /api/v1/Agents/List/GetCompetitor?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCompetitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Value": "consequatur",
-  "Tooltip": "est",
+  "Id": 723,
+  "Value": "veritatis",
+  "Tooltip": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 723
     }
   }
 }

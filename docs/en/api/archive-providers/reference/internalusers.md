@@ -3,9 +3,9 @@ uid: InternalUsers
 title: InternalUsers
 description: Concrete provider for Internal Users - our own employees. See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords: InternalUsers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "InternalUsers"
@@ -92,7 +92,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=userplan,superoffice_ten-marketing,firstName
+GET /api/v1/archive/InternalUsers?$select=firstName,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

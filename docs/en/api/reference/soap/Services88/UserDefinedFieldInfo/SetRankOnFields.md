@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SetRankOnFields SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SetRankOnFields
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SetRankOnFields

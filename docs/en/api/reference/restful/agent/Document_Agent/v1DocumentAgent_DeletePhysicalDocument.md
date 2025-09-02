@@ -2,6 +2,7 @@
 title: POST Agents/Document/DeletePhysicalDocument
 uid: v1DocumentAgent_DeletePhysicalDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/DeletePhysicalDocument
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 623,
+  "DocumentId": 168,
   "AllowedReturnType": [
-    "iure",
-    "ut"
+    "ab",
+    "amet"
   ]
 }
 ```
@@ -96,11 +97,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nihil",
-  "VersionId": "corrupti",
-  "Success": false,
+  "ExternalReference": "qui",
+  "VersionId": "provident",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "harum",
-  "AdditionalInfo": "harum"
+  "Value": "nihil",
+  "AdditionalInfo": "cum"
 }
 ```

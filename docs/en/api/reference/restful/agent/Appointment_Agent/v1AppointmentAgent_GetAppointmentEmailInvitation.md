@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentEmailInvitation
 uid: v1AppointmentAgent_GetAppointmentEmailInvitation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentEmailInvitation
@@ -100,13 +101,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Emard-Rempel",
-  "Language": "distinctio"
+  "TemplateName": "Turner-Schultz",
+  "Language": "et"
 }
 ```
 
@@ -119,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 410,
-      "ContactName": "Predovic-Rau",
-      "PersonId": 103,
-      "PersonName": "Windler, Adams and Sauer",
-      "AssociateId": 111,
-      "Address": "repudiandae",
-      "EmailId": 864,
+      "ContactId": 933,
+      "ContactName": "Kuvalis Group",
+      "PersonId": 854,
+      "PersonName": "Hane LLC",
+      "AssociateId": 703,
+      "Address": "autem",
+      "EmailId": 341,
       "DuplicatePersonIds": [
-        479,
-        336
+        165,
+        717
       ],
-      "Name": "Robel Group",
+      "Name": "Rath, Lynch and Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 766
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 84,
-      "ContactName": "Jenkins, Bernier and McClure",
-      "PersonId": 446,
-      "PersonName": "Lubowitz-Bailey",
-      "AssociateId": 578,
-      "Address": "sed",
-      "EmailId": 186,
+      "ContactId": 290,
+      "ContactName": "Mann Group",
+      "PersonId": 44,
+      "PersonName": "Wyman LLC",
+      "AssociateId": 538,
+      "Address": "praesentium",
+      "EmailId": 472,
       "DuplicatePersonIds": [
-        135,
-        682
+        897,
+        315
       ],
-      "Name": "Mraz Group",
+      "Name": "Leuschke Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 258,
-      "ContactName": "Nikolaus-Kling",
-      "PersonId": 511,
-      "PersonName": "Purdy, Dare and Strosin",
-      "AssociateId": 930,
-      "Address": "aut",
-      "EmailId": 189,
+      "ContactId": 295,
+      "ContactName": "McLaughlin Group",
+      "PersonId": 431,
+      "PersonName": "Rutherford Inc and Sons",
+      "AssociateId": 174,
+      "Address": "tenetur",
+      "EmailId": 703,
       "DuplicatePersonIds": [
-        703,
-        227
+        28,
+        859
       ],
-      "Name": "O'Hara, Heidenreich and Pfeffer",
+      "Name": "Grant, Wiegand and Cronin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldType": "System.Int32",
+          "FieldLength": 681
         }
       }
     }
   ],
-  "Subject": "perferendis",
-  "HTMLBody": "praesentium",
+  "Subject": "dolores",
+  "HTMLBody": "magnam",
   "From": null,
-  "Sent": "2011-01-14T03:45:22.9517163+01:00",
-  "Size": 635,
+  "Sent": "2006-11-07T03:46:54.2539+01:00",
+  "Size": 836,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "quia",
+  "PlainBody": "soluta",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 561,
+  "ServerId": 899,
   "Attachments": [
     {
-      "Description": "Enhanced fresh-thinking utilisation",
-      "Filename": "quasi",
-      "Size": 167,
-      "Type": "deleniti",
-      "Encoding": "facere",
-      "Id": "saepe",
-      "Disposition": "laborum",
+      "Description": "Organized web-enabled interface",
+      "Filename": "quis",
+      "Size": 178,
+      "Type": "facere",
+      "Encoding": "voluptatibus",
+      "Id": "neque",
+      "Disposition": "dolores",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +218,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 149
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McKenzie, Botsford and Okuneva",
+      "Name": "Kshlerin-Dibbert",
       "Values": [
-        "magni",
-        "at"
+        "qui",
+        "consectetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 223
         }
       }
     },
     {
-      "Name": "McKenzie, Botsford and Okuneva",
+      "Name": "Kshlerin-Dibbert",
       "Values": [
-        "magni",
-        "at"
+        "qui",
+        "consectetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 223
         }
       }
     }
   ],
-  "FolderName": "Runte LLC",
-  "EmailItemId": 842,
-  "AccountId": 412,
-  "ReceivedAt": "2020-03-21T03:45:22.9517163+01:00",
+  "FolderName": "Brekke-Davis",
+  "EmailItemId": 300,
+  "AccountId": 173,
+  "ReceivedAt": "2004-01-28T03:46:54.2539+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-01-26T03:45:22.9517163+01:00",
+  "RepliedAt": "2005-07-17T03:46:54.2539+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

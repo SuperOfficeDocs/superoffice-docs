@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetWindowPosSize
 uid: v1ConfigurationAgent_GetWindowPosSize
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetWindowPosSize
@@ -22,11 +23,11 @@ Gets a WindowPosSize object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| windowPosSizeId | int32 | **Required** The primary key. |
+| windowPosSizeId | int32 | **Required** The identifier of the WindowPosSize object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=879
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=22
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "debitis",
-  "PersonId": 539,
-  "AssociateId": 265,
-  "ExtraId": 991,
-  "ExtraInfo": "impedit",
-  "Height": 565,
-  "LeftX": 240,
+  "OwnerWindow": "aut",
+  "PersonId": 978,
+  "AssociateId": 956,
+  "ExtraId": 132,
+  "ExtraInfo": "est",
+  "Height": 433,
+  "LeftX": 838,
   "State": "Maximized",
-  "UpperY": 327,
-  "Width": 971,
-  "WindowPosSizeId": 571,
+  "UpperY": 624,
+  "Width": 88,
+  "WindowPosSizeId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   }
 }

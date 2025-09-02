@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateFolder SOAP
 generated: true
 uid: Services88-EMail-CreateFolder
+content_type: reference
 ---
 
 # Services88 EMail CreateFolder

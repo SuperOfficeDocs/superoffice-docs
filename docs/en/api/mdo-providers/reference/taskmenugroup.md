@@ -3,9 +3,9 @@ uid: taskmenugroup
 title: taskmenugroup
 keywords: mdoprovider mdo provider taskmenugroup
 description: List of TaskMenus with visible for groups as commaseperated ids in extrainfo field. This list only makes sence if the setting use groups and heading are turned on for
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "taskmenugroup" MDO List

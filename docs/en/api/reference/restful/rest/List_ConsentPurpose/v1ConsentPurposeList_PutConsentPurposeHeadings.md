@@ -2,6 +2,7 @@
 title: PUT List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_PutConsentPurposeHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentPurpose/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 210,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "cumque",
+    "HeadingId": 596,
+    "Name": "Kessler, Kub and Barton",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 678,
-    "UdListDefinitionId": 301
+    "Rank": 269,
+    "UdListDefinitionId": 602
   },
   {
-    "HeadingId": 210,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "cumque",
+    "HeadingId": 596,
+    "Name": "Kessler, Kub and Barton",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 678,
-    "UdListDefinitionId": 301
+    "Rank": 269,
+    "UdListDefinitionId": 602
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 241,
-    "Name": "Lemke LLC",
-    "Tooltip": "est",
+    "HeadingId": 727,
+    "Name": "Langosh, Mann and Emard",
+    "Tooltip": "ipsum",
     "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 631,
+    "Rank": 346,
+    "UdListDefinitionId": 471,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 105
       }
     }
   }

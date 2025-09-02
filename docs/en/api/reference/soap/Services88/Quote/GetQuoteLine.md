@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetQuoteLine SOAP
 generated: true
 uid: Services88-Quote-GetQuoteLine
+content_type: reference
 ---
 
 # Services88 Quote GetQuoteLine
@@ -101,7 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:IsSubscription xsi:type="xsd:boolean">false</Quote:IsSubscription>
     <Quote:SubscriptionUnit xsi:type="xsd:string"></Quote:SubscriptionUnit>
     <Quote:SubscriptionQuantity xsi:type="xsd:double">0.0</Quote:SubscriptionQuantity>
-    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Quote:SubscriptionStart>
+    <Quote:SubscriptionStart xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Quote:SubscriptionStart>
     <Quote:ERPDiscountPercent xsi:type="xsd:double">0.0</Quote:ERPDiscountPercent>
     <Quote:ERPDiscountAmount xsi:type="xsd:double">0.0</Quote:ERPDiscountAmount>
     <Quote:DiscountPercent xsi:type="xsd:double">0.0</Quote:DiscountPercent>

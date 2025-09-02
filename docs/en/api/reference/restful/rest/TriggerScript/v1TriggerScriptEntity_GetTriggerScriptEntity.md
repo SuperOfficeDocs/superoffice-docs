@@ -2,6 +2,7 @@
 title: GET TriggerScript/{id}
 uid: v1TriggerScriptEntity_GetTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # GET TriggerScript/{id}
@@ -85,7 +86,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +96,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 104,
-  "Name": "Huel LLC",
+  "ScreenChooserId": 358,
+  "Name": "Rempel-Frami",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptatibus",
-  "Source": "architecto",
-  "Registered": "2013-07-23T03:45:28.7952992+02:00",
-  "RegisteredAssociateId": 828,
-  "Updated": "2016-01-01T03:45:28.7952992+01:00",
-  "UpdatedAssociateId": 759,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptatum",
+  "Source": "harum",
+  "Registered": "2020-05-17T03:47:00.3943072+02:00",
+  "RegisteredAssociateId": 14,
+  "Updated": "2015-10-29T03:47:00.3943072+01:00",
+  "UpdatedAssociateId": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 318
     }
   },
   "_Links": {

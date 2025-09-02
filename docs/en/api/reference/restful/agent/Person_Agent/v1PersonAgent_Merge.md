@@ -2,6 +2,7 @@
 title: POST Agents/Person/Merge
 uid: v1PersonAgent_Merge
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/Merge
@@ -70,13 +71,13 @@ No Content
 POST /api/v1/Agents/Person/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 462,
-  "DestinationPersonId": 456,
-  "MoveAfterDate": "2000-09-06T03:45:23.7016984+02:00",
+  "SourcePersonId": 22,
+  "DestinationPersonId": 365,
+  "MoveAfterDate": "2017-03-24T03:46:55.0819959+01:00",
   "DeleteSource": false,
   "ReplaceEmptyFieldsOnDestination": true
 }

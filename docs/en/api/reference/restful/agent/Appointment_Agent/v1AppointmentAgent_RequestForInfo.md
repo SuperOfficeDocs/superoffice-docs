@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/RequestForInfo
 uid: v1AppointmentAgent_RequestForInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/RequestForInfo
@@ -88,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 465,
-  "Channel": "dolore",
-  "Regarding": "veritatis",
-  "ContactName": "Nicolas, Anderson and Weissnat",
-  "PersonFirstname": "Chaz",
-  "PersonLastname": "Yundt",
-  "EmailAddress": "erich.crist@klockowalsh.co.uk",
-  "PhoneNumber": "1598242"
+  "AssociateIdForNewContact": 5,
+  "Channel": "et",
+  "Regarding": "voluptatum",
+  "ContactName": "Leffler LLC",
+  "PersonFirstname": "Charity",
+  "PersonLastname": "Haley",
+  "EmailAddress": "marisol_jakubowski@hintz.co.uk",
+  "PhoneNumber": "830568"
 }
 ```
 
@@ -108,36 +109,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 318,
-      "Name": "Feeney, Mayer and Gulgowski",
-      "OrgNr": "609331",
+      "ContactId": 611,
+      "Name": "Smith, Connelly and Kris",
+      "OrgNr": "601005",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "aut",
-      "DirectPhone": "619-924-9292 x1761",
-      "AssociateId": 175,
-      "CountryId": 756,
-      "EmailAddress": "lacey@gleichnerbauch.com",
-      "Kananame": "sed",
-      "EmailAddressName": "magnus@steuber.us",
+      "City": "est",
+      "DirectPhone": "1-288-642-6881 x837",
+      "AssociateId": 542,
+      "CountryId": 438,
+      "EmailAddress": "sheila.collier@boganjohns.co.uk",
+      "Kananame": "architecto",
+      "EmailAddressName": "ona@paucek.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Otto Hansen II",
+      "AssociateFullName": "Diamond Nikolaus",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "voluptatem",
-      "FullName": "Miss Liam Melvin McKenzie",
+      "FormattedAddress": "in",
+      "FullName": "Dillon Sauer",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 820,
-      "Number1": "1006895",
-      "Number2": "376423",
+      "ActiveErpLinks": 926,
+      "Number1": "1131064",
+      "Number2": "904984",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 885
         }
       }
     }
@@ -148,8 +149,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

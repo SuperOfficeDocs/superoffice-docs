@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultExtAppEntity
 uid: v1ListAgent_CreateDefaultExtAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultExtAppEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 ```
 
-Set default values into a new ExtAppEntity.
+Loading default values into a new ExtAppEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -88,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 590,
-  "Name": "Crona, Lakin and Spencer",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 407,
-  "Filename": "est",
-  "Parameters": "accusamus",
-  "Workdir": "nam",
+  "ExtAppId": 854,
+  "Name": "Will Group",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 74,
+  "Filename": "error",
+  "Parameters": "adipisci",
+  "Workdir": "reprehenderit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 636,
-  "WaitToFinish": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 653,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quis",
+  "Path": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

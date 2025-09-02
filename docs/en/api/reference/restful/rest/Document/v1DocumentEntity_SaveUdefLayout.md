@@ -2,6 +2,7 @@
 title: PUT Document/UdefLayout
 uid: v1DocumentEntity_SaveUdefLayout
 generated: true
+content_type: reference
 ---
 
 # PUT Document/UdefLayout
@@ -129,45 +130,45 @@ OK
 PUT /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 225,
-    "ColumnId": 530,
-    "FieldDefault": "quasi",
-    "FieldHeight": 628,
-    "FieldLabel": "sint",
-    "FieldLeft": 600,
-    "FieldTop": 175,
+    "UDefFieldId": 455,
+    "ColumnId": 868,
+    "FieldDefault": "porro",
+    "FieldHeight": 665,
+    "FieldLabel": "enim",
+    "FieldLeft": 151,
+    "FieldTop": 963,
     "FieldType": "Checkbox",
-    "FieldWidth": 388,
-    "FormatMask": "eveniet",
+    "FieldWidth": 82,
+    "FormatMask": "eos",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 126,
-    "LabelLeft": 627,
-    "LabelTop": 304,
-    "LabelWidth": 973,
-    "LastVersionId": 630,
-    "ListTableId": 223,
+    "IsIndexed": false,
+    "LabelHeight": 108,
+    "LabelLeft": 52,
+    "LabelTop": 894,
+    "LabelWidth": 517,
+    "LastVersionId": 794,
+    "ListTableId": 537,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 670,
-    "ProgId": "perspiciatis",
+    "Page1LineNo": 909,
+    "ProgId": "accusamus",
     "IsReadOnly": false,
-    "ShortLabel": "laudantium",
-    "TabOrder": 924,
-    "TextLength": 576,
-    "Tooltip": "cupiditate",
-    "UdefIdentity": 836,
-    "UDListDefinitionId": 252,
+    "ShortLabel": "fugit",
+    "TabOrder": 693,
+    "TextLength": 508,
+    "Tooltip": "ipsum",
+    "UdefIdentity": 275,
+    "UDListDefinitionId": 353,
     "Justification": "Center",
-    "Version": 839,
-    "TemplateVariableName": "Gislason-Bosco",
+    "Version": 422,
+    "TemplateVariableName": "Bechtelar, Cruickshank and Klocko",
     "HasBeenPublished": true,
-    "MdoListName": "DuBuque LLC"
+    "MdoListName": "Effertz, Schroeder and Howe"
   }
 ]
 ```
@@ -180,46 +181,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 26,
-    "ColumnId": 824,
-    "FieldDefault": "mollitia",
-    "FieldHeight": 955,
-    "FieldLabel": "repellat",
-    "FieldLeft": 341,
-    "FieldTop": 579,
+    "UDefFieldId": 854,
+    "ColumnId": 506,
+    "FieldDefault": "autem",
+    "FieldHeight": 475,
+    "FieldLabel": "aperiam",
+    "FieldLeft": 576,
+    "FieldTop": 642,
     "FieldType": "Checkbox",
-    "FieldWidth": 382,
-    "FormatMask": "ipsa",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 62,
-    "LabelLeft": 243,
-    "LabelTop": 294,
-    "LabelWidth": 349,
-    "LastVersionId": 890,
-    "ListTableId": 520,
+    "FieldWidth": 339,
+    "FormatMask": "perferendis",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 509,
+    "LabelLeft": 353,
+    "LabelTop": 662,
+    "LabelWidth": 325,
+    "LastVersionId": 482,
+    "ListTableId": 782,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 990,
-    "ProgId": "voluptatem",
-    "IsReadOnly": true,
-    "ShortLabel": "autem",
-    "TabOrder": 420,
-    "TextLength": 197,
-    "Tooltip": "omnis",
-    "UdefIdentity": 166,
-    "UDListDefinitionId": 764,
+    "Page1LineNo": 504,
+    "ProgId": "pariatur",
+    "IsReadOnly": false,
+    "ShortLabel": "sint",
+    "TabOrder": 327,
+    "TextLength": 279,
+    "Tooltip": "nihil",
+    "UdefIdentity": 181,
+    "UDListDefinitionId": 312,
     "Justification": "Center",
-    "Version": 198,
-    "TemplateVariableName": "Ortiz Group",
+    "Version": 308,
+    "TemplateVariableName": "Effertz-Vandervort",
     "HasBeenPublished": false,
-    "MdoListName": "Stehr LLC",
+    "MdoListName": "Greenholt LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 567
       }
     }
   }

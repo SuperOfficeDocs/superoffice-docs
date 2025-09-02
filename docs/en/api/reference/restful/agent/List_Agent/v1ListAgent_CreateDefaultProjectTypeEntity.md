@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultProjectTypeEntity
 uid: v1ListAgent_CreateDefaultProjectTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultProjectTypeEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 ```
 
-Set default values into a new ProjectTypeEntity.
+Loading default values into a new ProjectTypeEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -66,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 593,
-  "Name": "Nicolas, Kautzer and D'Amore",
-  "Tooltip": "amet",
-  "Rank": 899,
+  "ProjTypeId": 811,
+  "Name": "Kuvalis-Towne",
+  "Tooltip": "unde",
+  "Rank": 192,
   "DurationUnit": "Century",
-  "ProjectDuration": 535,
+  "ProjectDuration": 703,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 898,
-      "Name": "Hilll Inc and Sons",
-      "ToolTip": "Dolores libero consectetur deleniti voluptas.",
-      "Deleted": false,
-      "Rank": 847,
-      "Type": "in",
-      "ColorBlock": 930,
-      "IconHint": "repellat",
-      "Selected": true,
-      "LastChanged": "2000-03-08T03:45:23.6079553+01:00",
+      "Id": 63,
+      "Name": "Dach LLC",
+      "ToolTip": "Dolorum facilis dolorum architecto excepturi qui nesciunt molestias.",
+      "Deleted": true,
+      "Rank": 73,
+      "Type": "necessitatibus",
+      "ColorBlock": 528,
+      "IconHint": "sit",
+      "Selected": false,
+      "LastChanged": "2024-05-14T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "odit",
-      "Hidden": true,
-      "FullName": "Ms. Jeanie Legros",
+      "ExtraInfo": "asperiores",
+      "StyleHint": "corporis",
+      "Hidden": false,
+      "FullName": "Faustino Feest",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 860
         }
       }
     }
@@ -120,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 467
     }
   }
 }

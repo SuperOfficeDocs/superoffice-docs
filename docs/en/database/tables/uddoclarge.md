@@ -2,10 +2,10 @@
 uid: table-uddoclarge
 title: uddoclarge table
 description: User-defined fields
-so.generated: true
+generated: true
 keywords: database table uddoclarge
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # uddoclarge Table (231)

@@ -2,13 +2,13 @@
 uid: table-workflow_instance
 title: workflow_instance table
 description: A set of properties related to the workflow instance of one participant going through the flow
-so.generated: true
+generated: true
 keywords: database table workflow_instance
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# workflow\_instance Table (512)
+# workflow\_instance Table (513)
 
 A set of properties related to the workflow instance of one participant going through the flow
 

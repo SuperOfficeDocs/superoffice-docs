@@ -2,6 +2,7 @@
 title: PUT List/Competitor
 uid: v1CompetitorList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Paucek-Ledner",
-  "Tooltip": "et",
+  "Id": 117,
+  "Name": "Smith Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 550,
+  "Rank": 320,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
-  "Name": "Treutel LLC",
-  "Tooltip": "pariatur",
+  "Id": 440,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 961,
+  "Rank": 324,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vitae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

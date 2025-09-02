@@ -2,6 +2,7 @@
 title: POST Agents/Chat/SaveChatTopicEntity
 uid: v1ChatAgent_SaveChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/SaveChatTopicEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 ```
 
-Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty
+Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: chatTopicEntity 
 
-The ChatTopicEntity to be saved. 
+The ChatTopicEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -127,21 +128,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 890,
-  "Name": "Mann, Dooley and Gleason",
-  "Description": "Cross-platform neutral benchmark",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 565,
+  "Name": "Davis, Nolan and Hirthe",
+  "Description": "Balanced leading edge artificial intelligence",
+  "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "2019-01-29T03:45:23.0142166+01:00",
-  "SecondsPrAccept": 281,
-  "AlertRecipient": "vel",
+  "LastAccept": "2010-12-27T03:46:54.3788954+01:00",
+  "SecondsPrAccept": 856,
+  "AlertRecipient": "magnam",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "corrupti",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "error",
-  "WarnNewChatMinutes": 937,
-  "WarnManagerNewChatMinutes": 438,
+  "CollectConsent": false,
+  "BadgeHeader": "harum",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "fuga",
+  "WarnNewChatMinutes": 963,
+  "WarnManagerNewChatMinutes": 46,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 350,
-  "WarnManagerChatMessageMinutes": 524,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 322,
-  "OfflineFormQueueLength": 847,
+  "WarnChatMessageMinutes": 581,
+  "WarnManagerChatMessageMinutes": 605,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 900,
+  "OfflineFormQueueLength": 3,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sunt"
+  "WidgetRatingText": "exercitationem"
 }
 ```
 
@@ -168,43 +169,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 747,
-  "Name": "Bergnaum-Hudson",
-  "Description": "Horizontal well-modulated budgetary management",
-  "WelcomeMessage": "laborum",
+  "ChatTopicId": 50,
+  "Name": "Spinka, Zboncak and Reichel",
+  "Description": "Optional dedicated hierarchy",
+  "WelcomeMessage": "nam",
   "Language": null,
-  "LastAccept": "1999-01-01T03:45:23.0142166+01:00",
-  "SecondsPrAccept": 504,
-  "AlertRecipient": "cupiditate",
+  "LastAccept": "1998-06-01T03:46:54.3945199+02:00",
+  "SecondsPrAccept": 666,
+  "AlertRecipient": "unde",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "itaque",
+  "CollectConsent": true,
+  "BadgeHeader": "quo",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "fuga",
-  "WarnNewChatMinutes": 585,
-  "WarnManagerNewChatMinutes": 307,
+  "CustomQueueText": "eius",
+  "WarnNewChatMinutes": 496,
+  "WarnManagerNewChatMinutes": 755,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 114,
-  "WarnManagerChatMessageMinutes": 355,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 140,
+  "WarnManagerChatMessageMinutes": 152,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 769,
-  "OfflineFormQueueLength": 520,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "est",
+  "OfflineFormTimeLimit": 115,
+  "OfflineFormQueueLength": 366,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

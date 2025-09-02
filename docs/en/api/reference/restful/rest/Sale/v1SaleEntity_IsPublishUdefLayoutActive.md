@@ -2,6 +2,7 @@
 title: GET Sale/UdefLayout/Publish
 uid: v1SaleEntity_IsPublishUdefLayoutActive
 generated: true
+content_type: reference
 ---
 
 # GET Sale/UdefLayout/Publish
@@ -52,7 +53,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

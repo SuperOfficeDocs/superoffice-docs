@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/DeleteHistory
 uid: v1ViewStateAgent_DeleteHistory
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/DeleteHistory
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lynch, Barton and Wilderman",
-  "Id": 945
+  "HistoryName": "Lowe LLC",
+  "Id": 744
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteFromListDefinition
 uid: v1ListAgent_DeleteFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteFromListDefinition
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "UdListDefinitionId": 456
+  "Id": 942,
+  "UdListDefinitionId": 116
 }
 ```
 

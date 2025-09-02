@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetRefreshedPageConfiguration
 uid: v1ConfigurationAgent_GetRefreshedPageConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetRefreshedPageConfiguration
@@ -76,9 +77,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "fuga",
-  "Instance": "aut",
-  "Page": "quis"
+  "Application": "eum",
+  "Instance": "iste",
+  "Page": "voluptatem"
 }
 ```
 
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"rerum"
 ```

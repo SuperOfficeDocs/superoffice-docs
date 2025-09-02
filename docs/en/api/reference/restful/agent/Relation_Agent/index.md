@@ -1,6 +1,8 @@
 ---
+uid: tag-Relation_Agent
 title: Relation_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

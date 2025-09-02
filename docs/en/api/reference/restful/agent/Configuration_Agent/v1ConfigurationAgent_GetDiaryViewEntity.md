@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetDiaryViewEntity
 uid: v1ConfigurationAgent_GetDiaryViewEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetDiaryViewEntity
@@ -22,11 +23,11 @@ Gets a DiaryViewEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| diaryViewEntityId | int32 | **Required** The primary key. |
+| diaryViewEntityId | int32 | **Required** The identifier of the DiaryViewEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=344
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=619
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,49 +85,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 529,
-  "Name": "Abbott-Fay",
-  "Tooltip": "nesciunt",
-  "VisibleColumns": 688,
-  "Rank": 342,
-  "AssocId": 268,
+  "DiaryViewId": 765,
+  "Name": "McClure LLC",
+  "Tooltip": "optio",
+  "VisibleColumns": 226,
+  "Rank": 63,
+  "AssocId": 451,
   "AssociateList": [
     {
-      "Id": 503,
-      "Name": "Heller-Pfeffer",
-      "ToolTip": "Nam eum.",
-      "Deleted": false,
-      "Rank": 178,
-      "Type": "saepe",
-      "ColorBlock": 312,
-      "IconHint": "ullam",
+      "Id": 962,
+      "Name": "Sanford Group",
+      "ToolTip": "Et totam consectetur quasi.",
+      "Deleted": true,
+      "Rank": 477,
+      "Type": "id",
+      "ColorBlock": 840,
+      "IconHint": "ad",
       "Selected": true,
-      "LastChanged": "2017-02-18T03:45:23.0923404+01:00",
+      "LastChanged": "2004-12-19T03:46:54.4570178+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "consequuntur",
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Sid General Strosin II",
+      "FullName": "Ms. Olin Adah Donnelly V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldLength": 57
         }
       }
     }
   ],
-  "TzLocationId": 649,
+  "TzLocationId": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultTicketTypeEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultTicketTypeEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultTicketTypeEntity

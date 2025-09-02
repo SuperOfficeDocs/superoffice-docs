@@ -2,6 +2,7 @@
 title: DEL PreferenceDescription/{id}
 uid: v1PreferenceDescription_DeletePreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # DEL PreferenceDescription/{id}
@@ -52,7 +53,7 @@ PreferenceDescription deleted.
 DELETE /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

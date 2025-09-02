@@ -2,6 +2,7 @@
 title: POST Agents/Targets/ExportTargetGroupToExcel
 uid: v1TargetsAgent_ExportTargetGroupToExcel
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/ExportTargetGroupToExcel
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 646
+  "TargetGroupId": 329
 }
 ```
 
@@ -90,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 628,
-  "FileName": "Purdy-Hand",
-  "Message": "veritatis",
+  "BatchTaskId": 717,
+  "FileName": "Gibson-Murphy",
+  "Message": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldLength": 125
     }
   }
 }

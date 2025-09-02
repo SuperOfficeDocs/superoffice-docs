@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 uid: v1CRMScriptAgent_SaveCRMScriptEntityWithoutCompile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
@@ -83,6 +84,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,7 +94,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +109,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 767,
-  "UniqueIdentifier": "inventore",
-  "Name": "Yundt-Keeling",
-  "Description": "User-friendly even-keeled Graphic Interface",
-  "IncludeId": "consequatur",
-  "AccessKey": "non",
-  "HierarchyId": 518,
-  "Source": "quae",
-  "SourceCode": "harum",
+  "EjscriptId": 790,
+  "UniqueIdentifier": "perferendis",
+  "Name": "Yundt, Ondricka and Kilback",
+  "Description": "Mandatory foreground parallelism",
+  "IncludeId": "dolorem",
+  "AccessKey": "doloremque",
+  "HierarchyId": 256,
+  "Source": "dicta",
+  "SourceCode": "dolorem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 439,
+  "HtmlOutput": 812,
   "Includes": [
-    960,
-    519
+    771,
+    190
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 97,
-      "LineNumberTo": 266,
-      "Delta": 316,
-      "IncludeId": "ratione",
+      "LineNumberFrom": 615,
+      "LineNumberTo": 613,
+      "Delta": 295,
+      "IncludeId": "consectetur",
       "IncludedFrom": [
-        "expedita",
-        "sint"
+        "autem",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldLength": 718
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-12-28T03:45:23.2485827+01:00",
-  "RegisteredAssociateId": 364,
-  "Updated": "2018-02-28T03:45:23.2485827+01:00",
-  "UpdatedAssociateId": 504,
+  "Registered": "2025-04-30T03:46:54.5820132+02:00",
+  "RegisteredAssociateId": 863,
+  "Updated": "2013-07-25T03:46:54.5820132+02:00",
+  "UpdatedAssociateId": 304,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

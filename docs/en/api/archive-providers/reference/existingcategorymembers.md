@@ -3,9 +3,9 @@ uid: ExistingCategoryMembers
 title: ExistingCategoryMembers
 description: Archive of ExistingCategoryMembers - used by the web api.
 keywords: ExistingCategoryMembers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ExistingCategoryMembers"
@@ -68,7 +68,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=personId,usergroupId
+GET /api/v1/archive/ExistingCategoryMembers?$select=userName,personId,usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

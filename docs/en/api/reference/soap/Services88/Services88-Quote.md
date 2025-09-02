@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Quote
 title: Services88.QuoteAgent WSDL
+content_type: reference
 ---
 
 # Services88.QuoteAgent WSDL

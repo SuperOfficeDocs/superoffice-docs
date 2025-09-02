@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetAllQuoteLineConfigurations SOAP
 generated: true
 uid: Services88-Quote-GetAllQuoteLineConfigurations
+content_type: reference
 ---
 
 # Services88 Quote GetAllQuoteLineConfigurations

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetObjectMapping
 uid: v1ConfigurationAgent_GetObjectMapping
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetObjectMapping
@@ -75,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "deserunt",
-  "Instance": "mollitia"
+  "Application": "explicabo",
+  "Instance": "in"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laudantium"
+"facilis"
 ```

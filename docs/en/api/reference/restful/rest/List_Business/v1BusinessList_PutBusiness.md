@@ -2,6 +2,7 @@
 title: PUT List/Business/Items/{id}
 uid: v1BusinessList_PutBusiness
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Rogahn-Prosacco",
-  "Tooltip": "molestiae",
+  "Id": 350,
+  "Name": "Bruen Inc and Sons",
+  "Tooltip": "libero",
   "Deleted": false,
-  "UdListDefinitionId": 938,
-  "Rank": 995
+  "UdListDefinitionId": 62,
+  "Rank": 223
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Schinner-Howe",
-  "Tooltip": "accusamus",
+  "Id": 338,
+  "Name": "Stracke Inc and Sons",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 265,
-  "Rank": 44,
+  "UdListDefinitionId": 510,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 721
     }
   }
 }

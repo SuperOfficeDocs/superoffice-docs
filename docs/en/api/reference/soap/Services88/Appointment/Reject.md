@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.Reject SOAP
 generated: true
 uid: Services88-Appointment-Reject
+content_type: reference
 ---
 
 # Services88 Appointment Reject

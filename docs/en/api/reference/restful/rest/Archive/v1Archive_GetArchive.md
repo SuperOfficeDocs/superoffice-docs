@@ -2,6 +2,7 @@
 title: GET Archive
 uid: v1Archive_GetArchive
 generated: true
+content_type: reference
 ---
 
 # GET Archive
@@ -52,7 +53,7 @@ OK
 GET /api/v1/Archive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -62,7 +63,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "blanditiis",
-  "2": "ad"
+  "1": "architecto",
+  "2": "iusto"
 }
 ```

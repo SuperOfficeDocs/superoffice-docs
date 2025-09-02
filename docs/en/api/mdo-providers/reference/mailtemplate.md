@@ -3,9 +3,9 @@ uid: mailtemplate
 title: mailtemplate
 keywords: mdoprovider mdo provider mailtemplate
 description: List provider for the Mailtemplates.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mailtemplate" MDO List

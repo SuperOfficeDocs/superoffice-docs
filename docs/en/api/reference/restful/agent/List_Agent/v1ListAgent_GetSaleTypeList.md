@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSaleTypeList
 uid: v1ListAgent_GetSaleTypeList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSaleTypeList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetSaleTypeList?$select=name,department,category/id
 
 ## Request Body: saleTypeIds 
 
-The primary keys. 
+The identifiers of the SaleType object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Value": "vel",
-    "Tooltip": "sunt",
+    "Id": 142,
+    "Value": "quo",
+    "Tooltip": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 36
       }
     }
   },
   {
-    "Id": 767,
-    "Value": "vel",
-    "Tooltip": "sunt",
+    "Id": 142,
+    "Value": "quo",
+    "Tooltip": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 36
       }
     }
   }

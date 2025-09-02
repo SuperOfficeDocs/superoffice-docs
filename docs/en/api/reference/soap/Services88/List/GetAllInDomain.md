@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllInDomain SOAP
 generated: true
 uid: Services88-List-GetAllInDomain
+content_type: reference
 ---
 
 # Services88 List GetAllInDomain
@@ -87,21 +88,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <List:Children xsi:type="List:ArrayOfHierarchyEntity">
           <List:HierarchyEntity xsi:nil="true"></List:HierarchyEntity>
          </List:Children>
-         <List:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Registered>
+         <List:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Registered>
          <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-         <List:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Updated>
+         <List:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Updated>
          <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
         </List:HierarchyEntity>
        </List:Children>
-       <List:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Registered>
+       <List:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Registered>
        <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-       <List:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Updated>
+       <List:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Updated>
        <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
       </List:HierarchyEntity>
      </List:Children>
-     <List:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Registered>
+     <List:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Registered>
      <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-     <List:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:Updated>
+     <List:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:Updated>
      <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
     </List:HierarchyEntity>
    </List:Response>

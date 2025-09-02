@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetLegalBases SOAP
 generated: true
 uid: Services88-List-GetLegalBases
+content_type: reference
 ---
 
 # Services88 List GetLegalBases

@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold/Items/{id}/Headings
 uid: v1ReasonSoldList_PutReasonSoldHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Vandervort, Predovic and Daugherty",
-    "ToolTip": "Autem maiores.",
-    "Deleted": true,
-    "Rank": 498,
-    "Type": "saepe",
-    "ColorBlock": 781,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2002-02-09T03:45:29.2015441+01:00",
+    "Id": 549,
+    "Name": "Cassin-Gutkowski",
+    "ToolTip": "Quidem temporibus in quaerat et cupiditate unde.",
+    "Deleted": false,
+    "Rank": 910,
+    "Type": "numquam",
+    "ColorBlock": 824,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2007-10-16T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Keeling-Feest",
-        "ToolTip": "Alias optio ad officiis.",
-        "Deleted": true,
-        "Rank": 748,
-        "Type": "tempora",
-        "ColorBlock": 678,
-        "IconHint": "itaque",
+        "Id": 969,
+        "Name": "Schuster-Hoeger",
+        "ToolTip": "Tenetur voluptate.",
+        "Deleted": false,
+        "Rank": 429,
+        "Type": "est",
+        "ColorBlock": 897,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2023-12-02T03:45:29.2015441+01:00",
+        "LastChanged": "2008-06-18T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Mrs. Audie Miller II"
+        "ExtraInfo": "rerum",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Jeromy Schmidt"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Mrs. Cloyd Kuhic II"
+    "ExtraInfo": "ad",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Vickie Collier"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Johnson Inc and Sons",
-    "ToolTip": "Veritatis laudantium tempore in eos error.",
+    "Id": 308,
+    "Name": "Bahringer, Witting and Lindgren",
+    "ToolTip": "Velit rerum maiores iusto reiciendis eum.",
     "Deleted": false,
-    "Rank": 196,
-    "Type": "sint",
-    "ColorBlock": 278,
-    "IconHint": "hic",
+    "Rank": 346,
+    "Type": "et",
+    "ColorBlock": 610,
+    "IconHint": "vero",
     "Selected": true,
-    "LastChanged": "2008-02-17T03:45:29.2015441+01:00",
+    "LastChanged": "2001-06-24T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Kuphal-Gusikowski",
-        "ToolTip": "Molestias deserunt nemo dolore quis et magnam tenetur.",
+        "Id": 9,
+        "Name": "Nitzsche Inc and Sons",
+        "ToolTip": "Excepturi provident nisi et veniam iure.",
         "Deleted": false,
-        "Rank": 135,
-        "Type": "necessitatibus",
-        "ColorBlock": 556,
-        "IconHint": "suscipit",
+        "Rank": 994,
+        "Type": "est",
+        "ColorBlock": 760,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2023-10-20T03:45:29.2015441+02:00",
+        "LastChanged": "2025-06-26T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Madisen Wehner",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Ocie Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 617
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "earum",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Perry Tremblay",
+    "FullName": "Miss Derek Baumbach DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 362
       }
     }
   }

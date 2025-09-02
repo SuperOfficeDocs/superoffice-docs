@@ -2,6 +2,7 @@
 title: PUT Contact/UdefLayout
 uid: v1ContactEntity_SaveUdefLayout
 generated: true
+content_type: reference
 ---
 
 # PUT Contact/UdefLayout
@@ -129,45 +130,45 @@ OK
 PUT /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 14,
-    "ColumnId": 138,
-    "FieldDefault": "quos",
-    "FieldHeight": 981,
-    "FieldLabel": "at",
-    "FieldLeft": 248,
-    "FieldTop": 132,
+    "UDefFieldId": 661,
+    "ColumnId": 637,
+    "FieldDefault": "sint",
+    "FieldHeight": 956,
+    "FieldLabel": "laborum",
+    "FieldLeft": 679,
+    "FieldTop": 220,
     "FieldType": "Checkbox",
-    "FieldWidth": 423,
-    "FormatMask": "quam",
-    "HideLabel": true,
+    "FieldWidth": 918,
+    "FormatMask": "aliquid",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 385,
-    "LabelLeft": 311,
-    "LabelTop": 444,
-    "LabelWidth": 719,
-    "LastVersionId": 155,
-    "ListTableId": 269,
+    "LabelHeight": 707,
+    "LabelLeft": 480,
+    "LabelTop": 521,
+    "LabelWidth": 816,
+    "LastVersionId": 331,
+    "ListTableId": 199,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 381,
-    "ProgId": "quas",
-    "IsReadOnly": false,
-    "ShortLabel": "eos",
-    "TabOrder": 823,
-    "TextLength": 453,
-    "Tooltip": "officia",
-    "UdefIdentity": 437,
-    "UDListDefinitionId": 190,
+    "Page1LineNo": 938,
+    "ProgId": "est",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 58,
+    "TextLength": 522,
+    "Tooltip": "qui",
+    "UdefIdentity": 449,
+    "UDListDefinitionId": 980,
     "Justification": "Center",
-    "Version": 115,
-    "TemplateVariableName": "O'Keefe, Feest and Gibson",
-    "HasBeenPublished": false,
-    "MdoListName": "Sauer-Ratke"
+    "Version": 809,
+    "TemplateVariableName": "Fay Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Gislason, Dickens and Cruickshank"
   }
 ]
 ```
@@ -180,46 +181,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 986,
-    "ColumnId": 642,
-    "FieldDefault": "corporis",
-    "FieldHeight": 632,
-    "FieldLabel": "minima",
-    "FieldLeft": 715,
-    "FieldTop": 170,
+    "UDefFieldId": 298,
+    "ColumnId": 302,
+    "FieldDefault": "cumque",
+    "FieldHeight": 478,
+    "FieldLabel": "earum",
+    "FieldLeft": 958,
+    "FieldTop": 669,
     "FieldType": "Checkbox",
-    "FieldWidth": 728,
-    "FormatMask": "nisi",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 73,
-    "LabelLeft": 886,
-    "LabelTop": 916,
-    "LabelWidth": 912,
-    "LastVersionId": 819,
-    "ListTableId": 930,
-    "IsMandatory": true,
+    "FieldWidth": 526,
+    "FormatMask": "impedit",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 942,
+    "LabelLeft": 722,
+    "LabelTop": 156,
+    "LabelWidth": 88,
+    "LastVersionId": 437,
+    "ListTableId": 50,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 857,
-    "ProgId": "ea",
+    "Page1LineNo": 37,
+    "ProgId": "ullam",
     "IsReadOnly": true,
-    "ShortLabel": "temporibus",
-    "TabOrder": 450,
-    "TextLength": 32,
-    "Tooltip": "officia",
-    "UdefIdentity": 205,
-    "UDListDefinitionId": 824,
+    "ShortLabel": "tempore",
+    "TabOrder": 658,
+    "TextLength": 364,
+    "Tooltip": "dolores",
+    "UdefIdentity": 452,
+    "UDListDefinitionId": 951,
     "Justification": "Center",
-    "Version": 316,
-    "TemplateVariableName": "Weber Inc and Sons",
+    "Version": 748,
+    "TemplateVariableName": "Durgan-Beer",
     "HasBeenPublished": true,
-    "MdoListName": "Collier, Klocko and Kirlin",
+    "MdoListName": "Prohaska LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 59
       }
     }
   }

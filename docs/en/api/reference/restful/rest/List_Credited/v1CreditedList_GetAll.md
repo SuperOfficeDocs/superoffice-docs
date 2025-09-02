@@ -2,6 +2,7 @@
 title: GET List/Credited/Items
 uid: v1CreditedList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Konopelski, Will and Smitham",
-    "Tooltip": "perspiciatis",
+    "Id": 493,
+    "Name": "Considine-Wintheiser",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 527,
-    "Rank": 526,
+    "UdListDefinitionId": 887,
+    "Rank": 999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldLength": 915
       }
     }
   }

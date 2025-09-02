@@ -2,6 +2,7 @@
 title: POST Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1PersonEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -30,7 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +105,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +115,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 818,
-  "ColumnId": 813,
-  "FieldDefault": "ea",
-  "FieldHeight": 619,
-  "FieldLabel": "a",
-  "FieldLeft": 853,
-  "FieldTop": 482,
+  "UDefFieldId": 200,
+  "ColumnId": 241,
+  "FieldDefault": "veritatis",
+  "FieldHeight": 935,
+  "FieldLabel": "sint",
+  "FieldLeft": 535,
+  "FieldTop": 497,
   "FieldType": "Checkbox",
-  "FieldWidth": 297,
-  "FormatMask": "at",
+  "FieldWidth": 912,
+  "FormatMask": "laboriosam",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 640,
-  "LabelLeft": 756,
-  "LabelTop": 104,
-  "LabelWidth": 482,
-  "LastVersionId": 35,
-  "ListTableId": 383,
+  "IsIndexed": true,
+  "LabelHeight": 772,
+  "LabelLeft": 956,
+  "LabelTop": 393,
+  "LabelWidth": 334,
+  "LastVersionId": 412,
+  "ListTableId": 252,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 170,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "pariatur",
-  "TabOrder": 522,
-  "TextLength": 813,
-  "Tooltip": "totam",
-  "UdefIdentity": 843,
-  "UDListDefinitionId": 115,
+  "Page1LineNo": 677,
+  "ProgId": "repellat",
+  "IsReadOnly": false,
+  "ShortLabel": "dignissimos",
+  "TabOrder": 850,
+  "TextLength": 449,
+  "Tooltip": "omnis",
+  "UdefIdentity": 648,
+  "UDListDefinitionId": 52,
   "Justification": "Center",
-  "Version": 714,
-  "TemplateVariableName": "Kerluke, Rempel and Rohan",
-  "HasBeenPublished": false,
-  "MdoListName": "Williamson, Yost and Cormier",
+  "Version": 182,
+  "TemplateVariableName": "Fisher Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Bosco Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

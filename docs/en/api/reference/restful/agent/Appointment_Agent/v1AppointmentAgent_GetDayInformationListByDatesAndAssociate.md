@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
 uid: v1AppointmentAgent_GetDayInformationListByDatesAndAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
@@ -83,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-12-19T03:45:22.7173512+01:00",
-  "EndDate": "2004-10-27T03:45:22.7173512+02:00",
-  "AssociateId": 172
+  "StartDate": "2000-10-24T03:46:54.0195335+02:00",
+  "EndDate": "2014-12-12T03:46:54.0195335+01:00",
+  "AssociateId": 866
 }
 ```
 
@@ -99,26 +100,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2009-10-01T03:45:22.7173512+02:00",
+    "Date": "2021-03-06T03:46:54.0195335+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2009-10-01T03:45:22.7173512+02:00",
+    "Date": "2021-03-06T03:46:54.0195335+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

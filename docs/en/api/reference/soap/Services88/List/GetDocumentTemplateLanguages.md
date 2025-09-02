@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateLanguages SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateLanguages
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateLanguages

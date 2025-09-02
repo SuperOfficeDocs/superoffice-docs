@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.MoveEmailsToFolder SOAP
 generated: true
 uid: Services88-EMail-MoveEmailsToFolder
+content_type: reference
 ---
 
 # Services88 EMail MoveEmailsToFolder

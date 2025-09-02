@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteAppWebPanels
 uid: v1ListAgent_DeleteAppWebPanels
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteAppWebPanels

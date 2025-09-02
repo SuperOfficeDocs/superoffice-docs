@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketCategories
 uid: v1ListAgent_GetTicketCategories
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketCategories
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,36 +94,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 430,
-    "ParentId": 946,
-    "Name": "Kuhic Group",
-    "Fullname": "est",
-    "CategoryMaster": 643,
+    "TicketCategoryId": 808,
+    "ParentId": 277,
+    "Name": "Bernhard LLC",
+    "Fullname": "qui",
+    "CategoryMaster": 235,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Lockman Group",
+    "ExternalName": "Swaniawski, Kirlin and Feeney",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 141,
-    "ReplyTemplate": 948,
-    "NotificationEmail": "antwan.purdy@walsh.info",
+    "AssignmentLag": 640,
+    "ReplyTemplate": 132,
+    "NotificationEmail": "gayle@considineschuster.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 610,
+    "EffectiveReplyTemplateId": 369,
     "ExtraFields": {
-      "ExtraFields1": "illum",
-      "ExtraFields2": "mollitia"
+      "ExtraFields1": "sed",
+      "ExtraFields2": "eligendi"
     },
     "CustomFields": {
-      "CustomFields1": "praesentium",
-      "CustomFields2": "similique"
+      "CustomFields1": "ea",
+      "CustomFields2": "corporis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 682
       }
     }
   }

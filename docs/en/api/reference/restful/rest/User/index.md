@@ -1,6 +1,8 @@
 ---
+uid: tag-User
 title: User
 generated: true
+content_type: reference
 ---
 
 ```http

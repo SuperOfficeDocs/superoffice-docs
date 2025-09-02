@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GenerateNewPasswordForExternalUser SOAP
 generated: true
 uid: Services88-User-GenerateNewPasswordForExternalUser
+content_type: reference
 ---
 
 # Services88 User GenerateNewPasswordForExternalUser

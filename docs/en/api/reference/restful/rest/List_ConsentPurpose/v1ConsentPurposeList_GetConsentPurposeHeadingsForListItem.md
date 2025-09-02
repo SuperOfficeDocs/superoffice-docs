@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/Items/{id}/Headings
 uid: v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Harvey, Fahey and Senger",
-    "ToolTip": "Sed est saepe voluptatem autem ipsum ipsum.",
-    "Deleted": false,
-    "Rank": 828,
-    "Type": "sunt",
-    "ColorBlock": 445,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "1998-08-10T03:45:28.9984183+02:00",
+    "Id": 796,
+    "Name": "Pfannerstill-Stiedemann",
+    "ToolTip": "Velit dignissimos aut omnis.",
+    "Deleted": true,
+    "Rank": 682,
+    "Type": "odit",
+    "ColorBlock": 796,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2023-12-03T03:47:00.6130405+01:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Mills Group",
-        "ToolTip": "Excepturi corporis mollitia ipsa.",
+        "Id": 40,
+        "Name": "Roob, Boyer and Bechtelar",
+        "ToolTip": "Nostrum enim maxime quo architecto non repellat nisi.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "quo",
-        "ColorBlock": 206,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2017-09-24T03:45:28.9984183+02:00",
+        "Rank": 338,
+        "Type": "corporis",
+        "ColorBlock": 1002,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2020-06-19T03:47:00.6130405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "officiis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Glenda Upton",
+        "FullName": "Vincent Wolf Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldLength": 681
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Vernon Christiansen",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Quincy Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 17
       }
     }
   }

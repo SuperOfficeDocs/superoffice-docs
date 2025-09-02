@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent.CreateDefaultCRMScriptEntity SOAP
 generated: true
 uid: Services88-CRMScript-CreateDefaultCRMScriptEntity
+content_type: reference
 ---
 
 # Services88 CRMScript CreateDefaultCRMScriptEntity
@@ -113,10 +114,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CRMScript:CRMScriptSourceMap>
      </CRMScript:SourceMaps>
     </CRMScript:ValidationResult>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2025-06-26T01:43:18Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2025-08-30T01:44:50Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2025-06-26T01:43:18Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2025-08-30T01:44:50Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
+    <CRMScript:BlockedVerbs xsi:type="CRMScript:EjScriptVerb">BlockGET</CRMScript:BlockedVerbs>
    </CRMScript:Response>
   </CRMScript:CreateDefaultCRMScriptEntityResponse>
  </SOAP-ENV:Body>

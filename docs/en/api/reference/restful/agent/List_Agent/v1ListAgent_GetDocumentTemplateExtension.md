@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateExtension
 uid: v1ListAgent_GetDocumentTemplateExtension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateExtension
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 739
+  "DocumentTemplateId": 249
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fuga"
+"provident"
 ```

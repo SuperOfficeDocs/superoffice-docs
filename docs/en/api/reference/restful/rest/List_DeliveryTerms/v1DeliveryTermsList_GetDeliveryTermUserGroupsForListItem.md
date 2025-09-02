@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm/Items/{id}/UserGroups
 uid: v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Turner-Herman",
-    "ToolTip": "Accusantium ut ut temporibus ut.",
+    "Id": 150,
+    "Name": "McKenzie Group",
+    "ToolTip": "Omnis nisi rerum et aperiam atque dolorem temporibus.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "itaque",
-    "ColorBlock": 524,
-    "IconHint": "qui",
+    "Rank": 678,
+    "Type": "consequatur",
+    "ColorBlock": 864,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2005-06-27T03:45:29.0296674+02:00",
+    "LastChanged": "2009-08-04T03:47:00.6442984+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Cruickshank Group",
-        "ToolTip": "Est distinctio inventore.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "qui",
-        "ColorBlock": 818,
-        "IconHint": "non",
+        "Id": 853,
+        "Name": "Marquardt, Gulgowski and Becker",
+        "ToolTip": "Modi temporibus.",
+        "Deleted": false,
+        "Rank": 519,
+        "Type": "ex",
+        "ColorBlock": 962,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2024-04-18T03:45:29.0296674+02:00",
+        "LastChanged": "2007-09-07T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Niko Champlin",
+        "ExtraInfo": "sunt",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Ms. Conrad Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Johnny Goyette",
+    "ExtraInfo": "totam",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Miss Madalyn O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

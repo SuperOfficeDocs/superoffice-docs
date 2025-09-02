@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetMailFromInReplyTo
 uid: v1EMailAgent_GetMailFromInReplyTo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetMailFromInReplyTo
@@ -100,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "voluptatem"
+  "MessageId": "ipsam"
 }
 ```
 
@@ -117,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 752,
-      "ContactName": "Waters-Lubowitz",
-      "PersonId": 293,
-      "PersonName": "Haag-Schmitt",
-      "AssociateId": 511,
-      "Address": "molestiae",
-      "EmailId": 695,
+      "ContactId": 609,
+      "ContactName": "Friesen, Legros and Corkery",
+      "PersonId": 613,
+      "PersonName": "Koelpin Inc and Sons",
+      "AssociateId": 436,
+      "Address": "necessitatibus",
+      "EmailId": 852,
       "DuplicatePersonIds": [
-        578,
-        41
+        914,
+        253
       ],
-      "Name": "Grady LLC",
+      "Name": "White, Blick and Schultz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 987
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 684,
-      "ContactName": "Stiedemann, Franecki and McGlynn",
-      "PersonId": 472,
-      "PersonName": "Wyman Inc and Sons",
-      "AssociateId": 587,
-      "Address": "rerum",
-      "EmailId": 698,
+      "ContactId": 697,
+      "ContactName": "Sipes Group",
+      "PersonId": 729,
+      "PersonName": "Block LLC",
+      "AssociateId": 80,
+      "Address": "inventore",
+      "EmailId": 772,
       "DuplicatePersonIds": [
-        440,
-        953
+        514,
+        297
       ],
-      "Name": "Friesen-Wehner",
+      "Name": "Ondricka LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 9
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 217,
-      "ContactName": "Stokes, Douglas and Willms",
-      "PersonId": 562,
-      "PersonName": "Ankunding-Terry",
-      "AssociateId": 390,
-      "Address": "enim",
-      "EmailId": 214,
+      "ContactId": 992,
+      "ContactName": "Gottlieb LLC",
+      "PersonId": 403,
+      "PersonName": "Rosenbaum Group",
+      "AssociateId": 515,
+      "Address": "amet",
+      "EmailId": 971,
       "DuplicatePersonIds": [
-        471,
-        718
+        993,
+        396
       ],
-      "Name": "Conroy-Funk",
+      "Name": "Feeney-Bahringer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     }
   ],
-  "Subject": "modi",
-  "HTMLBody": "et",
+  "Subject": "delectus",
+  "HTMLBody": "pariatur",
   "From": null,
-  "Sent": "2003-06-26T03:45:23.373582+02:00",
-  "Size": 812,
+  "Sent": "2001-08-29T03:46:54.7226337+02:00",
+  "Size": 898,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "asperiores",
+  "MessageID": "dolorem",
+  "PlainBody": "eos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 867,
+  "ServerId": 626,
   "Attachments": [
     {
-      "Description": "Multi-tiered stable forecast",
-      "Filename": "nam",
-      "Size": 160,
-      "Type": "ut",
-      "Encoding": "quibusdam",
-      "Id": "qui",
-      "Disposition": "quisquam",
-      "IsSafeFileExtension": false,
+      "Description": "Down-sized next generation collaboration",
+      "Filename": "incidunt",
+      "Size": 166,
+      "Type": "dolor",
+      "Encoding": "veritatis",
+      "Id": "et",
+      "Disposition": "sit",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldLength": 857
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Conroy, Larkin and Kihn",
+      "Name": "Nienow-Wintheiser",
       "Values": [
-        "deserunt",
-        "amet"
+        "a",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldLength": 722
         }
       }
     },
     {
-      "Name": "Conroy, Larkin and Kihn",
+      "Name": "Nienow-Wintheiser",
       "Values": [
-        "deserunt",
-        "amet"
+        "a",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldLength": 722
         }
       }
     }
   ],
-  "FolderName": "Franecki Group",
-  "EmailItemId": 196,
-  "AccountId": 281,
-  "ReceivedAt": "2012-08-03T03:45:23.373582+02:00",
+  "FolderName": "Bogisich, Hilpert and Greenholt",
+  "EmailItemId": 90,
+  "AccountId": 193,
+  "ReceivedAt": "2016-01-17T03:46:54.7226337+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-12-04T03:45:23.373582+01:00",
+  "RepliedAt": "2024-01-24T03:46:54.7226337+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 217
     }
   }
 }

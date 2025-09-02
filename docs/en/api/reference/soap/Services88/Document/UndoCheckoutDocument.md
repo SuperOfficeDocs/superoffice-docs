@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.UndoCheckoutDocument SOAP
 generated: true
 uid: Services88-Document-UndoCheckoutDocument
+content_type: reference
 ---
 
 # Services88 Document UndoCheckoutDocument

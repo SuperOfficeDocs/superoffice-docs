@@ -2,6 +2,7 @@
 title: GET List/Task/Items/{id}/Headings
 uid: v1TaskList_GetTaskListItemHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Gerhold-Rutherford",
-    "ToolTip": "Labore quos soluta nobis.",
+    "Id": 9,
+    "Name": "Schamberger LLC",
+    "ToolTip": "Ratione quaerat architecto.",
     "Deleted": false,
-    "Rank": 531,
-    "Type": "fugiat",
-    "ColorBlock": 282,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2007-06-21T03:45:29.2484114+02:00",
+    "Rank": 683,
+    "Type": "placeat",
+    "ColorBlock": 758,
+    "IconHint": "doloremque",
+    "Selected": false,
+    "LastChanged": "1998-09-15T03:47:00.8942898+02:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Wiza Inc and Sons",
-        "ToolTip": "Aut nobis.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "inventore",
-        "ColorBlock": 8,
-        "IconHint": "quos",
+        "Id": 128,
+        "Name": "Harber Inc and Sons",
+        "ToolTip": "Non consectetur et.",
+        "Deleted": false,
+        "Rank": 773,
+        "Type": "eveniet",
+        "ColorBlock": 582,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2025-01-22T03:45:29.2484114+01:00",
+        "LastChanged": "1998-09-19T03:47:00.8942898+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "et",
+        "ExtraInfo": "debitis",
+        "StyleHint": "eveniet",
         "Hidden": true,
-        "FullName": "Mr. Rudolph Eulalia Hegmann",
+        "FullName": "Micheal Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 686
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
+    "ExtraInfo": "tempore",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Anita Grady",
+    "FullName": "Prof. Tavares Adrienne Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldLength": 753
       }
     }
   }

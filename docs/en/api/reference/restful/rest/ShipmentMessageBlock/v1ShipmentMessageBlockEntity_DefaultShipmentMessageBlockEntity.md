@@ -2,6 +2,7 @@
 title: GET ShipmentMessageBlock/default
 uid: v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # GET ShipmentMessageBlock/default
@@ -64,7 +65,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 126,
-  "AssociateId": 546,
-  "Block": "eum",
-  "Registered": "2013-05-25T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 645,
-  "Updated": "2007-06-02T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 971,
-  "UpdatedCount": 249,
+  "ShipmentMessageBlockId": 732,
+  "AssociateId": 805,
+  "Block": "et",
+  "Registered": "2005-04-13T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 198,
+  "Updated": "2016-12-31T03:47:00.3005605+01:00",
+  "UpdatedAssociateId": 286,
+  "UpdatedCount": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

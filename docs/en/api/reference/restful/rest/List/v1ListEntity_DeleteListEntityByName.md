@@ -2,6 +2,7 @@
 title: DEL List/{name}
 uid: v1ListEntity_DeleteListEntityByName
 generated: true
+content_type: reference
 ---
 
 # DEL List/{name}

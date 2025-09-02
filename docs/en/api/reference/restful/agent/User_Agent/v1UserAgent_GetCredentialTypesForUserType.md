@@ -2,6 +2,7 @@
 title: POST Agents/User/GetCredentialTypesForUserType
 uid: v1UserAgent_GetCredentialTypesForUserType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetCredentialTypesForUserType
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +97,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "modi",
-    "Type": "sed",
-    "Description": "Automated web-enabled local area network",
+    "DisplayType": "aperiam",
+    "Type": "cum",
+    "Description": "Streamlined real-time system engine",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -106,8 +107,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

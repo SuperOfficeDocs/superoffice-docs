@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailAddress
 uid: v1EMailAgent_CreateDefaultEMailAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAddress
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 ```
 
-Set default values into a new EMailAddress.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailAddress.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -68,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 752,
-  "ContactName": "Langosh-DuBuque",
-  "PersonId": 659,
-  "PersonName": "Schaefer Inc and Sons",
-  "AssociateId": 638,
-  "Address": "unde",
-  "EmailId": 26,
+  "ContactId": 571,
+  "ContactName": "Jacobs, Hauck and Kohler",
+  "PersonId": 209,
+  "PersonName": "Cummings Group",
+  "AssociateId": 436,
+  "Address": "ad",
+  "EmailId": 909,
   "DuplicatePersonIds": [
-    206,
-    632
+    926,
+    310
   ],
-  "Name": "Frami-McClure",
+  "Name": "Hamill, Hettinger and Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 738
     }
   }
 }

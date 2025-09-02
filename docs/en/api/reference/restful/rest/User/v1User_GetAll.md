@@ -2,6 +2,7 @@
 title: GET User
 uid: v1User_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET User
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=eligendi
-GET /api/v1/User?$top=372
-GET /api/v1/User?$skip=932
+GET /api/v1/User?$entities=nobis
+GET /api/v1/User?$top=478
+GET /api/v1/User?$skip=425
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=perspiciatis
+GET /api/v1/User?$context=rerum
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "perferendis",
   "value": [
     {
-      "PrimaryKey": 8576,
-      "EntityName": "person",
-      "personId": 8576,
-      "fullName": "Prof. Bryce Gideon Sipes"
+      "PrimaryKey": 6190,
+      "EntityName": "sale",
+      "saleId": 6190,
+      "contactId": 8832,
+      "name": "Lockman-Schuppe"
     },
     {
-      "PrimaryKey": 4310,
-      "EntityName": "person",
-      "personId": 4310,
-      "fullName": "Elenora Reichel"
+      "PrimaryKey": 3573,
+      "EntityName": "sale",
+      "saleId": 3573,
+      "contactId": 535,
+      "name": "Rutherford, Rosenbaum and Marvin"
     }
   ]
 }

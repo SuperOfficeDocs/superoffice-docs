@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetColleagues
 uid: v1PersonAgent_GetColleagues
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetColleagues
@@ -105,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,53 +117,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "molestias",
-    "PersonId": 354,
-    "Mrmrs": "deserunt",
-    "Firstname": "Freddy",
-    "Lastname": "Hyatt",
-    "MiddleName": "Walker-Larson",
-    "Title": "qui",
-    "Description": "Grass-roots actuating groupware",
-    "Email": "charley@okonbuckridge.us",
-    "FullName": "Caleigh Predovic",
-    "DirectPhone": "763-063-1564",
-    "FormalName": "Mann, O'Keefe and Nikolaus",
-    "CountryId": 887,
-    "ContactId": 158,
-    "ContactName": "Hane-Pfannerstill",
-    "Retired": 58,
-    "Rank": 533,
-    "ActiveInterests": 425,
+    "Position": "dolore",
+    "PersonId": 694,
+    "Mrmrs": "facere",
+    "Firstname": "Omari",
+    "Lastname": "Haag",
+    "MiddleName": "Shields Inc and Sons",
+    "Title": "fugiat",
+    "Description": "Expanded modular firmware",
+    "Email": "esteban_sauer@waters.us",
+    "FullName": "Edgar Mraz",
+    "DirectPhone": "1-435-398-5473",
+    "FormalName": "Marks, Turcotte and Zulauf",
+    "CountryId": 268,
+    "ContactId": 88,
+    "ContactName": "Nitzsche-D'Amore",
+    "Retired": 17,
+    "Rank": 148,
+    "ActiveInterests": 761,
     "ContactDepartment": "",
-    "ContactCountryId": 309,
-    "ContactOrgNr": "544551",
-    "FaxPhone": "314-107-1452 x02660",
-    "MobilePhone": "1-352-151-3508 x0781",
-    "ContactPhone": "(899)819-2200",
-    "AssociateName": "Rutherford, Christiansen and Romaguera",
-    "AssociateId": 6,
-    "UsePersonAddress": false,
-    "ContactFax": "doloribus",
-    "Kanafname": "pariatur",
-    "Kanalname": "saepe",
-    "Post1": "architecto",
-    "Post2": "ipsam",
-    "Post3": "corrupti",
-    "EmailName": "jamey.swift@orn.uk",
-    "ContactFullName": "Prof. Ona Leanna Rolfson PhD",
-    "ActiveErpLinks": 886,
-    "TicketPriorityId": 434,
-    "SupportLanguageId": 960,
-    "SupportAssociateId": 120,
+    "ContactCountryId": 190,
+    "ContactOrgNr": "499539",
+    "FaxPhone": "209-262-2078",
+    "MobilePhone": "1-694-577-9876 x428",
+    "ContactPhone": "450-363-4479 x3389",
+    "AssociateName": "Hudson-Flatley",
+    "AssociateId": 772,
+    "UsePersonAddress": true,
+    "ContactFax": "error",
+    "Kanafname": "cum",
+    "Kanalname": "at",
+    "Post1": "quis",
+    "Post2": "ab",
+    "Post3": "ullam",
+    "EmailName": "annamarie@heaneycartwright.biz",
+    "ContactFullName": "Carmella Becker",
+    "ActiveErpLinks": 57,
+    "TicketPriorityId": 534,
+    "SupportLanguageId": 56,
+    "SupportAssociateId": 408,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1388617",
+    "PersonNumber": "1169548",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

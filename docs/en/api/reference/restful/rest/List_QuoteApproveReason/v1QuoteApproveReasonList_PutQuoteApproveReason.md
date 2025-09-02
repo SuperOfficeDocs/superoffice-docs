@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason/Items/{id}
 uid: v1QuoteApproveReasonList_PutQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Grady, Lynch and Balistreri",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 766
+  "Id": 254,
+  "Name": "O'Hara-Ziemann",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "UdListDefinitionId": 596,
+  "Rank": 63
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Mertz-Harber",
-  "Tooltip": "ut",
+  "Id": 431,
+  "Name": "Ziemann-Tillman",
+  "Tooltip": "eos",
   "Deleted": true,
-  "UdListDefinitionId": 893,
-  "Rank": 810,
+  "UdListDefinitionId": 303,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 720
     }
   }
 }

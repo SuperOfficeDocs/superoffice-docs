@@ -2,6 +2,7 @@
 title: POST List/Rating/Headings
 uid: v1RatingList_PostSaleStageEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Rating/Headings
@@ -79,12 +80,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 49,
-  "Name": "Bashirian LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 450,
-  "UdListDefinitionId": 289
+  "HeadingId": 391,
+  "Name": "Walsh Group",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "Rank": 165,
+  "UdListDefinitionId": 577
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 840,
-  "Name": "Donnelly LLC",
-  "Tooltip": "provident",
+  "HeadingId": 949,
+  "Name": "King Inc and Sons",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 491,
-  "UdListDefinitionId": 431,
+  "Rank": 483,
+  "UdListDefinitionId": 44,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

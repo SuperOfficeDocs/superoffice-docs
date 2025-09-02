@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignment
 uid: v1TargetsAgent_CreateDefaultTargetAssignment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignment
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 ```
 
-Set default values into a new TargetAssignment.
+Loading default values into a new TargetAssignment.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -65,7 +64,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 407,
+  "TargetAssignmentInfoId": 608,
   "Values": [
-    938,
-    831
+    943,
+    914
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 795,
-  "DimensionListItemDisplayName": "Streich Group",
+  "DimensionListItem": 469,
+  "DimensionListItemDisplayName": "Ankunding-Kassulke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 599
     }
   }
 }

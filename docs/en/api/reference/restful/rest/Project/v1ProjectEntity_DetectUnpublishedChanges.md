@@ -2,6 +2,7 @@
 title: GET Project/UdefLayout/Changed
 uid: v1ProjectEntity_DetectUnpublishedChanges
 generated: true
+content_type: reference
 ---
 
 # GET Project/UdefLayout/Changed
@@ -27,7 +28,7 @@ True if the ProjectEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=False
+GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=True
 ```
 
 
@@ -62,7 +63,7 @@ OK
 GET /api/v1/Project/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,5 +72,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetMyRecentContacts
 uid: v1ContactAgent_GetMyRecentContacts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetMyRecentContacts
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 11,
-    "Name": "Gibson-McKenzie",
-    "OrgNr": "207043",
-    "Department": "",
+    "ContactId": 904,
+    "Name": "O'Kon LLC",
+    "OrgNr": "1052720",
+    "Department": "brand revolutionary eyeballs",
     "URL": "http://www.example.com/",
-    "City": "similique",
-    "DirectPhone": "990-738-0707",
-    "AssociateId": 986,
-    "CountryId": 794,
-    "EmailAddress": "federico.gorczany@satterfield.ca",
-    "Kananame": "tenetur",
-    "EmailAddressName": "tommie@kautzer.com",
+    "City": "ut",
+    "DirectPhone": "1-430-448-0253",
+    "AssociateId": 213,
+    "CountryId": 172,
+    "EmailAddress": "stefan@shanahanrau.us",
+    "Kananame": "soluta",
+    "EmailAddressName": "estevan@nolan.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Celine Leannon",
+    "AssociateFullName": "Ima Schuster",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "sequi",
-    "FullName": "Alysa Smitham",
+    "FormattedAddress": "libero",
+    "FullName": "Minnie Nikolaus",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 641,
-    "Number1": "1436577",
-    "Number2": "1489607",
+    "ActiveErpLinks": 931,
+    "Number1": "819861",
+    "Number2": "1289355",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 622
       }
     }
   }

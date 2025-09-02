@@ -2,6 +2,7 @@
 title: Services88.WebhookAgent.SaveWebhook SOAP
 generated: true
 uid: Services88-Webhook-SaveWebhook
+content_type: reference
 ---
 
 # Services88 Webhook SaveWebhook
@@ -61,7 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
       </Webhook:StringObjectKeyValuePair>
      </Webhook:Properties>
-     <Webhook:Registered xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</Webhook:Registered>
+     <Webhook:Registered xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</Webhook:Registered>
      <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -75,8 +76,20 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
       <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
       <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
+      <Webhook:ExtraFields xsi:type="Webhook:StringDictionary">
+       <Webhook:StringKeyValuePair>
+        <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+        <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+       </Webhook:StringKeyValuePair>
+      </Webhook:ExtraFields>
+      <Webhook:CustomFields xsi:type="Webhook:StringDictionary">
+       <Webhook:StringKeyValuePair>
+        <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+        <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+       </Webhook:StringKeyValuePair>
+      </Webhook:CustomFields>
      </Webhook:RegisteredAssociate>
-     <Webhook:Updated xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</Webhook:Updated>
+     <Webhook:Updated xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</Webhook:Updated>
      <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -90,6 +103,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
       <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
       <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
+      <Webhook:ExtraFields xsi:type="Webhook:StringDictionary">
+       <Webhook:StringKeyValuePair>
+        <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+        <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+       </Webhook:StringKeyValuePair>
+      </Webhook:ExtraFields>
+      <Webhook:CustomFields xsi:type="Webhook:StringDictionary">
+       <Webhook:StringKeyValuePair>
+        <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+        <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+       </Webhook:StringKeyValuePair>
+      </Webhook:CustomFields>
      </Webhook:UpdatedAssociate>
      <Webhook:ErrorsEmail xsi:type="xsd:string"></Webhook:ErrorsEmail>
     </Webhook:Webhook>
@@ -137,7 +162,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -151,8 +176,20 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
+     <Webhook:ExtraFields xsi:type="Webhook:StringDictionary">
+      <Webhook:StringKeyValuePair>
+       <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+       <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+      </Webhook:StringKeyValuePair>
+     </Webhook:ExtraFields>
+     <Webhook:CustomFields xsi:type="Webhook:StringDictionary">
+      <Webhook:StringKeyValuePair>
+       <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+       <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+      </Webhook:StringKeyValuePair>
+     </Webhook:CustomFields>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2025-06-26T01:45:11Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2025-08-30T01:46:43Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -166,6 +203,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
+     <Webhook:ExtraFields xsi:type="Webhook:StringDictionary">
+      <Webhook:StringKeyValuePair>
+       <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+       <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+      </Webhook:StringKeyValuePair>
+     </Webhook:ExtraFields>
+     <Webhook:CustomFields xsi:type="Webhook:StringDictionary">
+      <Webhook:StringKeyValuePair>
+       <Webhook:Key xsi:type="xsd:string"></Webhook:Key>
+       <Webhook:Value xsi:type="xsd:string"></Webhook:Value>
+      </Webhook:StringKeyValuePair>
+     </Webhook:CustomFields>
     </Webhook:UpdatedAssociate>
     <Webhook:ErrorsEmail xsi:type="xsd:string"></Webhook:ErrorsEmail>
    </Webhook:Response>

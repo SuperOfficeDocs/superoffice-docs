@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/ClearCaches
 uid: v1UserDefinedFieldInfoAgent_ClearCaches
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/ClearCaches

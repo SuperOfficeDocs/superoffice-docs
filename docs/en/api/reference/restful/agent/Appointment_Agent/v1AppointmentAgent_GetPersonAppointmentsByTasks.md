@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonAppointmentsByTasks
 uid: v1AppointmentAgent_GetPersonAppointmentsByTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTasks
@@ -119,6 +120,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,18 +135,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 565,
+  "PersonId": 75,
   "IncludeProjectAppointments": false,
-  "StartTime": "2010-05-02T03:45:22.6861022+02:00",
-  "EndTime": "2020-12-31T03:45:22.6861022+01:00",
-  "Count": 126,
+  "StartTime": "2016-01-17T03:46:53.9882851+01:00",
+  "EndTime": "2015-02-08T03:46:53.9882851+01:00",
+  "Count": 624,
   "TaskIds": [
-    934,
-    571
+    652,
+    380
   ]
 }
 ```
@@ -157,66 +159,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 897,
-    "StartDate": "2009-12-28T03:45:22.6861022+01:00",
-    "EndDate": "2004-11-07T03:45:22.6861022+01:00",
+    "AppointmentId": 679,
+    "StartDate": "2021-03-14T03:46:53.9882851+01:00",
+    "EndDate": "2002-03-10T03:46:53.9882851+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Finn Bogan",
-    "ContactName": "Gaylord Group",
-    "Description": "Open-architected fault-tolerant capability",
-    "PersonFullName": "Dr. Herman McCullough Sr.",
-    "PersonId": 452,
-    "ContactId": 353,
-    "ProjectId": 256,
-    "ProjectName": "Graham-Grady",
-    "IsPublished": false,
-    "AssociateId": 999,
-    "ColorIndex": 3,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "debitis",
+    "AssociateFullName": "Katrine Weimann",
+    "ContactName": "Okuneva, Jacobi and Kuhlman",
+    "Description": "Optimized intermediate knowledge base",
+    "PersonFullName": "Mrs. Elise Stroman",
+    "PersonId": 307,
+    "ContactId": 921,
+    "ProjectId": 287,
+    "ProjectName": "Cormier, McClure and Quitzon",
+    "IsPublished": true,
+    "AssociateId": 276,
+    "ColorIndex": 886,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 425,
-    "PriorityName": "Mante-Ondricka",
+    "PriorityId": 406,
+    "PriorityName": "Shanahan, Ernser and Rempel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2006-03-27T03:45:22.6861022+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2007-06-19T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-12T03:45:22.6861022+02:00",
-    "RecurringEndDate": "1998-02-16T03:45:22.6861022+01:00",
-    "MotherId": 358,
-    "AssignedBy": 890,
-    "AssignedByFullName": "Prof. Furman Olson",
-    "RejectReason": "",
-    "Location": "quasi",
-    "AlarmLeadTime": "ut",
-    "SaleId": 55,
-    "SaleName": "Schiller Inc and Sons",
-    "AssociateName": "Reinger, Russel and Ullrich",
-    "CreatedDate": "2024-09-22T03:45:22.6861022+02:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Prof. Keagan Mertz",
-    "CreatedByAssociateId": 476,
+    "RecurringStartDate": "2013-05-19T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2021-04-07T03:46:53.9882851+02:00",
+    "MotherId": 515,
+    "AssignedBy": 371,
+    "AssignedByFullName": "Lila Geovanni Blanda I",
+    "RejectReason": "enhance killer e-commerce",
+    "Location": "rem",
+    "AlarmLeadTime": "aut",
+    "SaleId": 946,
+    "SaleName": "Brekke LLC",
+    "AssociateName": "Hintz, Armstrong and Rath",
+    "CreatedDate": "2001-10-08T03:46:53.9882851+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Sarah Wiza",
+    "CreatedByAssociateId": 962,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 378,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 298,
-    "Title": "dolore",
-    "Agenda": "voluptatem",
-    "InternalNotes": "id",
+    "PreferredTZLocation": 797,
+    "Title": "incidunt",
+    "Agenda": "consequatur",
+    "InternalNotes": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 196
       }
     }
   }

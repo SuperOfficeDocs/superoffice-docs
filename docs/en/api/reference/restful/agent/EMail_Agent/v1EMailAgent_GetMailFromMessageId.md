@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetMailFromMessageId
 uid: v1EMailAgent_GetMailFromMessageId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetMailFromMessageId
@@ -100,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ipsa"
+  "MessageId": "maiores"
 }
 ```
 
@@ -117,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 259,
-      "ContactName": "Tillman, Sporer and Herzog",
-      "PersonId": 906,
-      "PersonName": "Bahringer Group",
-      "AssociateId": 28,
-      "Address": "omnis",
-      "EmailId": 426,
+      "ContactId": 75,
+      "ContactName": "Bahringer LLC",
+      "PersonId": 396,
+      "PersonName": "Skiles-Waelchi",
+      "AssociateId": 115,
+      "Address": "ut",
+      "EmailId": 132,
       "DuplicatePersonIds": [
-        967,
+        629,
         780
       ],
-      "Name": "Schinner-O'Conner",
+      "Name": "Hagenes-Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 332
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Torp-Hyatt",
-      "PersonId": 618,
-      "PersonName": "Schaden LLC",
-      "AssociateId": 123,
-      "Address": "exercitationem",
-      "EmailId": 578,
+      "ContactId": 735,
+      "ContactName": "Jewess Group",
+      "PersonId": 421,
+      "PersonName": "Schinner, Bauch and Ebert",
+      "AssociateId": 133,
+      "Address": "maxime",
+      "EmailId": 434,
       "DuplicatePersonIds": [
-        218,
-        343
+        385,
+        674
       ],
-      "Name": "Schroeder, Muller and Robel",
+      "Name": "Heathcote Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 258
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 207,
-      "ContactName": "Daniel, Stamm and Watsica",
-      "PersonId": 418,
-      "PersonName": "Kiehn-Bernier",
-      "AssociateId": 166,
-      "Address": "sed",
-      "EmailId": 94,
+      "ContactId": 813,
+      "ContactName": "Murphy-Zboncak",
+      "PersonId": 90,
+      "PersonName": "Nader, Ward and Smitham",
+      "AssociateId": 716,
+      "Address": "molestias",
+      "EmailId": 434,
       "DuplicatePersonIds": [
-        145,
-        803
+        509,
+        832
       ],
-      "Name": "Conroy, Johnston and Hagenes",
+      "Name": "Morar-O'Connell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 856
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "et",
+  "Subject": "reprehenderit",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2008-05-03T03:45:23.373582+02:00",
-  "Size": 961,
+  "Sent": "2018-08-20T03:46:54.7226337+02:00",
+  "Size": 897,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "molestias",
+  "MessageID": "ea",
+  "PlainBody": "in",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 192,
+  "ServerId": 966,
   "Attachments": [
     {
-      "Description": "Pre-emptive systemic productivity",
-      "Filename": "atque",
-      "Size": 726,
-      "Type": "suscipit",
-      "Encoding": "et",
-      "Id": "nemo",
-      "Disposition": "omnis",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-layered scalable function",
+      "Filename": "voluptas",
+      "Size": 518,
+      "Type": "ullam",
+      "Encoding": "sunt",
+      "Id": "qui",
+      "Disposition": "iste",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 763
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gleichner-Senger",
+      "Name": "Kozey-Funk",
       "Values": [
-        "fuga",
-        "nostrum"
+        "adipisci",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 794
         }
       }
     },
     {
-      "Name": "Gleichner-Senger",
+      "Name": "Kozey-Funk",
       "Values": [
-        "fuga",
-        "nostrum"
+        "adipisci",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 794
         }
       }
     }
   ],
-  "FolderName": "Schumm-Harber",
-  "EmailItemId": 867,
-  "AccountId": 371,
-  "ReceivedAt": "2009-12-05T03:45:23.373582+01:00",
+  "FolderName": "Purdy, Fadel and Ryan",
+  "EmailItemId": 154,
+  "AccountId": 850,
+  "ReceivedAt": "2011-04-05T03:46:54.7226337+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2025-03-20T03:45:23.373582+01:00",
+  "RepliedAt": "2017-05-25T03:46:54.7226337+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

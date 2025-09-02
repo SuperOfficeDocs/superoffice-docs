@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCsProgramUrl SOAP
 generated: true
 uid: Services88-Configuration-GetCsProgramUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetCsProgramUrl

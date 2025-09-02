@@ -2,6 +2,7 @@
 title: POST Agents/Quote/ToggleProductInAssortment
 uid: v1QuoteAgent_ToggleProductInAssortment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/ToggleProductInAssortment
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 663
+  "ProductId": 935
 }
 ```
 

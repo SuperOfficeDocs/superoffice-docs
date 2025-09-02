@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetSanitizedTemplateStream
 uid: v1DocumentAgent_GetSanitizedTemplateStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetSanitizedTemplateStream
@@ -38,7 +39,7 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStream?$select=name,department,
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
-| Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `image/jpeg`, `image/jpg`, `image/png`, `image/gif`, `image/bmp`, `image/tiff`, `application/octet-stream`, `application/msword`, `application/rtf`, `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, `application/vnd.ms-excel`, `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`, `application/vnd.ms-powerpoint`, `application/vnd.openxmlformats-officedocument.presentationml.presentation`, `application/json-patch+json`, `application/merge-patch+json`, `application/pdf`, `text/html`, `text/plain`, `multipart/related` |
+| Accept         | Content-type(s) you would like the response in: `application/octet-stream`, `application/pdf`, `text/plain`, `text/html`, `multipart/related` |
 | Accept-Language | Convert string references and multi-language values into a specified language (iso2) code. |
 | SO-Language | Convert string references and multi-language values into a specified language (iso2) code. Overrides Accept-Language value. |
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
@@ -55,7 +56,7 @@ TemplateName, AllowPersonal, UiCulture
 | AllowPersonal | Boolean |  |
 | UiCulture | String |  |
 
-## Response:byte
+## Response:binary
 
 OK
 
@@ -63,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: byte
+### Response body: binary
 
 
 ## Sample request
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Williamson-Emmerich",
+  "TemplateName": "Kovacek, Rosenbaum and Schultz",
   "AllowPersonal": true,
-  "UiCulture": "nobis"
+  "UiCulture": "excepturi"
 }
 ```
 
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"GIF89....File contents as raw bytes..."
+99.99
 ```

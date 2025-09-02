@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Headings
 uid: v1ProjectStatusList_GetProjectStatusHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 697,
-    "Name": "Purdy Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 29,
-    "UdListDefinitionId": 751,
+    "HeadingId": 291,
+    "Name": "Cartwright, Mueller and Schowalter",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 119,
+    "UdListDefinitionId": 960,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 798
       }
     }
   }

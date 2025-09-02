@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetWindowPosSizeList
 uid: v1ConfigurationAgent_GetWindowPosSizeList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetWindowPosSizeList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,c
 
 ## Request Body: windowPosSizeIds 
 
-The primary keys. 
+The identifiers of the WindowPosSize object 
 
 
 ## Response:array
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,23 +92,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "temporibus",
-    "PersonId": 293,
-    "AssociateId": 573,
-    "ExtraId": 196,
-    "ExtraInfo": "autem",
-    "Height": 725,
-    "LeftX": 332,
+    "OwnerWindow": "pariatur",
+    "PersonId": 574,
+    "AssociateId": 282,
+    "ExtraId": 784,
+    "ExtraInfo": "cupiditate",
+    "Height": 331,
+    "LeftX": 36,
     "State": "Maximized",
-    "UpperY": 511,
-    "Width": 705,
-    "WindowPosSizeId": 410,
+    "UpperY": 638,
+    "Width": 548,
+    "WindowPosSizeId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: table-ProjStatus
 title: ProjStatus table
 description: ProjStatus list table. Project status
-so.generated: true
+generated: true
 keywords: database table ProjStatus
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ProjStatus Table (88)

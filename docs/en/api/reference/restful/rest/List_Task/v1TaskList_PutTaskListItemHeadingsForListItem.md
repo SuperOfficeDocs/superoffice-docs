@@ -2,6 +2,7 @@
 title: PUT List/Task/Items/{id}/Headings
 uid: v1TaskList_PutTaskListItemHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Task/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Welch LLC",
-    "ToolTip": "Perspiciatis assumenda aut ratione.",
+    "Id": 25,
+    "Name": "Pfeffer-Hilll",
+    "ToolTip": "Magnam iste rerum sit consequatur pariatur unde dignissimos.",
     "Deleted": false,
-    "Rank": 857,
-    "Type": "voluptate",
-    "ColorBlock": 177,
-    "IconHint": "at",
+    "Rank": 383,
+    "Type": "odit",
+    "ColorBlock": 997,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2013-08-17T03:45:29.2484114+02:00",
+    "LastChanged": "2012-11-18T03:47:00.8942898+01:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Towne-Skiles",
-        "ToolTip": "Eum sint.",
+        "Id": 747,
+        "Name": "Mraz Group",
+        "ToolTip": "Iure doloremque excepturi eum rerum quia.",
         "Deleted": false,
-        "Rank": 449,
-        "Type": "qui",
-        "ColorBlock": 479,
-        "IconHint": "blanditiis",
-        "Selected": true,
-        "LastChanged": "2017-04-22T03:45:29.2484114+02:00",
+        "Rank": 71,
+        "Type": "et",
+        "ColorBlock": 140,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2001-11-19T03:47:00.8942898+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Madie Freddy Von V"
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Elouise Gusikowski"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Lilian Kaya Waelchi Jr."
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Cathy Hessel III"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Shields-Reichert",
-    "ToolTip": "Aperiam enim asperiores praesentium nihil doloremque.",
-    "Deleted": true,
-    "Rank": 112,
-    "Type": "consectetur",
-    "ColorBlock": 135,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2017-08-27T03:45:29.2484114+02:00",
+    "Id": 868,
+    "Name": "Reichel, Vandervort and Lockman",
+    "ToolTip": "Animi nisi ducimus.",
+    "Deleted": false,
+    "Rank": 614,
+    "Type": "quam",
+    "ColorBlock": 187,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2020-12-02T03:47:00.8942898+01:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Stoltenberg, Mitchell and Miller",
-        "ToolTip": "Placeat earum voluptatem libero aut cupiditate a sit.",
-        "Deleted": true,
-        "Rank": 24,
-        "Type": "quia",
-        "ColorBlock": 398,
-        "IconHint": "in",
+        "Id": 806,
+        "Name": "Kutch, Reichert and Jerde",
+        "ToolTip": "Quae ut maxime est.",
+        "Deleted": false,
+        "Rank": 229,
+        "Type": "deserunt",
+        "ColorBlock": 804,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2008-12-31T03:45:29.2484114+01:00",
+        "LastChanged": "2017-10-02T03:47:00.8942898+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ratione",
-        "Hidden": true,
-        "FullName": "Brett Olga Hilpert II",
+        "ExtraInfo": "nemo",
+        "StyleHint": "quaerat",
+        "Hidden": false,
+        "FullName": "Dr. Kirsten Zieme MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "tenetur",
-    "Hidden": false,
-    "FullName": "Ashley Quigley",
+    "ExtraInfo": "cumque",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Tobin Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 946
       }
     }
   }

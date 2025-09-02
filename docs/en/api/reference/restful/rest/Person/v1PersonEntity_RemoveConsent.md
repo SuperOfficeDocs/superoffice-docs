@@ -2,6 +2,7 @@
 title: DEL Person/{id}/Consent/{purpose}
 uid: v1PersonEntity_RemoveConsent
 generated: true
+content_type: reference
 ---
 
 # DEL Person/{id}/Consent/{purpose}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/Person/{personId}/Consent/{purpose}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

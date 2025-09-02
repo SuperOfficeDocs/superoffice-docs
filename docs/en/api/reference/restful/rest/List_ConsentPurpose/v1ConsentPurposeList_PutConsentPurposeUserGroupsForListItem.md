@@ -2,6 +2,7 @@
 title: PUT List/ConsentPurpose/Items/{id}/UserGroups
 uid: v1ConsentPurposeList_PutConsentPurposeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Kulas-Wolf",
-    "ToolTip": "Et optio et nihil aut qui.",
+    "Id": 364,
+    "Name": "Hagenes, Dickens and Medhurst",
+    "ToolTip": "Sunt rerum ex aspernatur laboriosam sed aperiam.",
     "Deleted": false,
-    "Rank": 748,
-    "Type": "molestiae",
-    "ColorBlock": 415,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2023-05-15T03:45:28.9984183+02:00",
+    "Rank": 675,
+    "Type": "qui",
+    "ColorBlock": 38,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2022-01-22T03:47:00.5974251+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Lueilwitz Inc and Sons",
-        "ToolTip": "Tempore voluptatem itaque qui.",
-        "Deleted": true,
-        "Rank": 273,
-        "Type": "quibusdam",
-        "ColorBlock": 362,
-        "IconHint": "iste",
+        "Id": 799,
+        "Name": "Schuppe Group",
+        "ToolTip": "Fugit commodi et qui non eum est.",
+        "Deleted": false,
+        "Rank": 286,
+        "Type": "unde",
+        "ColorBlock": 18,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2019-04-12T03:45:28.9984183+02:00",
+        "LastChanged": "2002-11-15T03:47:00.5974251+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "consequatur",
-        "StyleHint": "voluptatem",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Ms. Makenna Shyanne Batz DVM"
+        "FullName": "Elva Farrell"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "ea",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Gust Bailey"
+    "FullName": "Wava Beer"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Zulauf-Ebert",
-    "ToolTip": "Est mollitia.",
+    "Id": 92,
+    "Name": "Wuckert, Berge and Bradtke",
+    "ToolTip": "Voluptatibus expedita nesciunt veniam aliquid quas esse provident.",
     "Deleted": true,
-    "Rank": 298,
-    "Type": "voluptatem",
-    "ColorBlock": 66,
-    "IconHint": "qui",
+    "Rank": 29,
+    "Type": "necessitatibus",
+    "ColorBlock": 476,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2014-03-07T03:45:28.9984183+01:00",
+    "LastChanged": "2002-07-23T03:47:00.5974251+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Considine-VonRueden",
-        "ToolTip": "Aperiam numquam non qui omnis.",
-        "Deleted": false,
-        "Rank": 297,
-        "Type": "possimus",
-        "ColorBlock": 418,
-        "IconHint": "et",
+        "Id": 952,
+        "Name": "Leannon, Turcotte and Champlin",
+        "ToolTip": "Dolorum et.",
+        "Deleted": true,
+        "Rank": 946,
+        "Type": "et",
+        "ColorBlock": 202,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2001-01-10T03:45:28.9984183+01:00",
+        "LastChanged": "2007-04-08T03:47:00.5974251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "at",
-        "Hidden": true,
-        "FullName": "Jillian Abshire V",
+        "ExtraInfo": "cum",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Mason Erdman I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 519
+            "FieldLength": 180
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Miss Astrid Sim Schinner DDS",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Angie Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldType": "System.String",
+        "FieldLength": 22
       }
     }
   }

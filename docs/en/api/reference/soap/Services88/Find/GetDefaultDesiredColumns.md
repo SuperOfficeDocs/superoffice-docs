@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetDefaultDesiredColumns SOAP
 generated: true
 uid: Services88-Find-GetDefaultDesiredColumns
+content_type: reference
 ---
 
 # Services88 Find GetDefaultDesiredColumns

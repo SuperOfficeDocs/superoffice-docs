@@ -2,10 +2,10 @@
 uid: enum-crmactortype
 title: Enum values for CrmActorType
 description: Lists the enum values for CrmActorType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # CrmActorType Enum

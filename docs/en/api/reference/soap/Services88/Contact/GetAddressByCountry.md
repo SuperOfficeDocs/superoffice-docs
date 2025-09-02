@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetAddressByCountry SOAP
 generated: true
 uid: Services88-Contact-GetAddressByCountry
+content_type: reference
 ---
 
 # Services88 Contact GetAddressByCountry

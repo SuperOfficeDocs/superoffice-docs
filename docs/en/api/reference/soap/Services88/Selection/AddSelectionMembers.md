@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.AddSelectionMembers SOAP
 generated: true
 uid: Services88-Selection-AddSelectionMembers
+content_type: reference
 ---
 
 # Services88 Selection AddSelectionMembers

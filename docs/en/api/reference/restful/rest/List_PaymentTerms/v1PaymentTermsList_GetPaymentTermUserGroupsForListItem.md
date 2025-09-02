@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/Items/{id}/UserGroups
 uid: v1PaymentTermsList_GetPaymentTermUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "McLaughlin-Luettgen",
-    "ToolTip": "Minima qui quia qui harum veritatis.",
+    "Id": 803,
+    "Name": "Watsica, Gutkowski and Tremblay",
+    "ToolTip": "Deserunt et eos non ut eos quia enim.",
     "Deleted": false,
-    "Rank": 544,
-    "Type": "illum",
-    "ColorBlock": 958,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2021-03-27T03:45:29.060917+01:00",
+    "Rank": 840,
+    "Type": "explicabo",
+    "ColorBlock": 430,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2022-01-05T03:47:00.6911718+01:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Murazik-Donnelly",
-        "ToolTip": "Ea architecto omnis non dolores impedit.",
+        "Id": 944,
+        "Name": "Kertzmann, Koelpin and Collins",
+        "ToolTip": "Voluptas aspernatur eum ea iste ut.",
         "Deleted": true,
-        "Rank": 129,
-        "Type": "voluptatem",
-        "ColorBlock": 33,
-        "IconHint": "blanditiis",
-        "Selected": false,
-        "LastChanged": "2005-11-19T03:45:29.060917+01:00",
+        "Rank": 213,
+        "Type": "eveniet",
+        "ColorBlock": 210,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2000-01-05T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "ut",
+        "ExtraInfo": "illum",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Prof. Anabel Carter",
+        "FullName": "Enola Maryse Hirthe I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 302
+            "FieldType": "System.Int32",
+            "FieldLength": 366
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Miss Kian Eveline Boehm",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dignissimos",
+    "Hidden": true,
+    "FullName": "Maia Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 558
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllCurrencies SOAP
 generated: true
 uid: Services88-List-GetAllCurrencies
+content_type: reference
 ---
 
 # Services88 List GetAllCurrencies

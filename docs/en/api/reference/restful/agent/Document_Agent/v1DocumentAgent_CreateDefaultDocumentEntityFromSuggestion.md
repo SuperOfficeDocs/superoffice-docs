@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 uid: v1DocumentAgent_CreateDefaultDocumentEntityFromSuggestion
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateDefaultDocumentEntityFromSuggestion
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 996
+  "SuggestedDocumentId": 567
 }
 ```
 
@@ -121,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 793,
+  "DocumentId": 862,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "saepe",
-  "Header": "nisi",
-  "Name": "Fay-Crist",
-  "OurRef": "alias",
-  "YourRef": "nobis",
-  "CreatedDate": "2002-05-09T03:45:23.3579573+02:00",
-  "UpdatedDate": "2001-04-06T03:45:23.3579573+02:00",
-  "Description": "Implemented asynchronous methodology",
+  "Attention": "omnis",
+  "Header": "omnis",
+  "Name": "Greenfelder-Dickinson",
+  "OurRef": "dolores",
+  "YourRef": "velit",
+  "CreatedDate": "2018-05-22T03:46:54.6913844+02:00",
+  "UpdatedDate": "1998-06-21T03:46:54.6913844+02:00",
+  "Description": "Front-line transitional pricing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-11-01T03:45:23.3579573+01:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2005-01-09T03:46:54.6913844+01:00",
+  "ExternalRef": "mollitia",
   "Completed": "Completed",
-  "ActiveLinks": 75,
+  "ActiveLinks": 682,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ritchie, Luettgen and Mante",
-      "Id": 237,
-      "Description": "Phased dynamic protocol",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 234,
+      "EntityName": "Jacobs Group",
+      "Id": 290,
+      "Description": "Diverse reciprocal monitoring",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 721,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 532
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 859,
-  "Snum": 856,
+  "SuggestedDocumentId": 522,
+  "Snum": 628,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Nash Ulices Tromp",
-    "SuperOffice:2": "Wade Cartwright"
+    "SuperOffice:1": "Thomas Johns",
+    "SuperOffice:2": "795172046"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "nobis"
+    "CustomFields1": "quia",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "2010-09-18T03:45:23.3579573+02:00",
-  "PublishTo": "2013-04-19T03:45:23.3579573+02:00",
-  "PublishFrom": "2005-04-03T03:45:23.3579573+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-01-03T03:46:54.6913844+01:00",
+  "PublishTo": "2020-02-16T03:46:54.6913844+01:00",
+  "PublishFrom": "2023-11-20T03:46:54.6913844+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 618,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldLength": 353
         }
       }
     },
     {
-      "VisibleId": 618,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldLength": 353
         }
       }
     }
@@ -211,8 +212,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

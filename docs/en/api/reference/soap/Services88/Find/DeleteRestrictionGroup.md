@@ -2,6 +2,7 @@
 title: Services88.FindAgent.DeleteRestrictionGroup SOAP
 generated: true
 uid: Services88-Find-DeleteRestrictionGroup
+content_type: reference
 ---
 
 # Services88 Find DeleteRestrictionGroup

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailEnvelope
 uid: v1EMailAgent_CreateDefaultEMailEnvelope
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEnvelope
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 ```
 
-Set default values into a new EMailEnvelope.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailEnvelope.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -69,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +77,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 40,
-  "MessageId": "odio",
-  "Subject": "ut",
+  "ServerId": 795,
+  "MessageId": "error",
+  "Subject": "consequatur",
   "From": null,
   "To": [
     {
-      "ContactId": 722,
-      "ContactName": "Hagenes Group",
-      "PersonId": 481,
-      "PersonName": "Mitchell LLC",
-      "AssociateId": 368,
-      "Address": "impedit",
-      "EmailId": 761,
+      "ContactId": 842,
+      "ContactName": "Haag-Pollich",
+      "PersonId": 176,
+      "PersonName": "Boyle Inc and Sons",
+      "AssociateId": 205,
+      "Address": "nobis",
+      "EmailId": 141,
       "DuplicatePersonIds": [
-        415,
-        698
+        999,
+        633
       ],
-      "Name": "Boyer-Auer",
+      "Name": "Hartmann, Spinka and Gerhold",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 870
         }
       }
     }
   ],
-  "Sent": "2010-12-30T03:45:23.4048314+01:00",
+  "Sent": "2004-04-26T03:46:54.7538824+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 495,
+  "Size": 816,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 36
     }
   }
 }

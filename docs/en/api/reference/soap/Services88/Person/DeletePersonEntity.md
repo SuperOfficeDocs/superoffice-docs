@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.DeletePersonEntity SOAP
 generated: true
 uid: Services88-Person-DeletePersonEntity
+content_type: reference
 ---
 
 # Services88 Person DeletePersonEntity

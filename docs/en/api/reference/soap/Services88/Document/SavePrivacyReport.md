@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.SavePrivacyReport SOAP
 generated: true
 uid: Services88-Document-SavePrivacyReport
+content_type: reference
 ---
 
 # Services88 Document SavePrivacyReport

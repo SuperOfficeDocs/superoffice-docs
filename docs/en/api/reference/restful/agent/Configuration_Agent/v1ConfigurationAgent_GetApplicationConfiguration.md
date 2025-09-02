@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetApplicationConfiguration
 uid: v1ConfigurationAgent_GetApplicationConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetApplicationConfiguration
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "doloribus",
-  "Instance": "et"
+  "Application": "architecto",
+  "Instance": "doloribus"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"animi"
 ```

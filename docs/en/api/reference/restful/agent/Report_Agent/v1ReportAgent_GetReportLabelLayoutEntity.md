@@ -2,6 +2,7 @@
 title: POST Agents/Report/GetReportLabelLayoutEntity
 uid: v1ReportAgent_GetReportLabelLayoutEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Report/GetReportLabelLayoutEntity
@@ -22,11 +23,11 @@ Gets a ReportLabelLayoutEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| reportLabelLayoutEntityId | int32 | **Required** The primary key. |
+| reportLabelLayoutEntityId | int32 | **Required** The identifier of the ReportLabelLayoutEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=503
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=340
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 540,
-  "Name": "Osinski-Hickle",
-  "Description": "Re-contextualized discrete matrices",
+  "ReportLabelLayoutId": 971,
+  "Name": "Gutmann-Kuphal",
+  "Description": "Multi-lateral foreground approach",
   "Orientation": "Landscape",
-  "PaperWidth": 764,
-  "PaperHeight": 271,
-  "LeftMargin": 519,
-  "RightMargin": 681,
-  "TopMargin": 633,
-  "BottomMargin": 663,
-  "CountColumns": 20,
-  "CountRows": 772,
+  "PaperWidth": 832,
+  "PaperHeight": 33,
+  "LeftMargin": 582,
+  "RightMargin": 640,
+  "TopMargin": 521,
+  "BottomMargin": 41,
+  "CountColumns": 409,
+  "CountRows": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

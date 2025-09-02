@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.UpdateRow SOAP
 generated: true
 uid: Services88-DatabaseTable-UpdateRow
+content_type: reference
 ---
 
 # Services88 DatabaseTable UpdateRow

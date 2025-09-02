@@ -2,6 +2,7 @@
 title: POST Agents/Person/NormalizeRanks
 uid: v1PersonAgent_NormalizeRanks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/NormalizeRanks
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 302
+  "ContactId": 863
 }
 ```
 

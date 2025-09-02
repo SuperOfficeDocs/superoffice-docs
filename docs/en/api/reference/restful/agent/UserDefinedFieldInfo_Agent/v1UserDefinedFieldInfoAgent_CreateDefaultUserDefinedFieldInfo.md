@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 ```
 
-Set default values into a new UserDefinedFieldInfo.
+Loading default values into a new UserDefinedFieldInfo.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -90,7 +89,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +99,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 266,
-  "ColumnId": 601,
-  "FieldDefault": "quis",
-  "FieldHeight": 383,
-  "FieldLabel": "itaque",
-  "FieldLeft": 159,
-  "FieldTop": 317,
+  "UDefFieldId": 376,
+  "ColumnId": 711,
+  "FieldDefault": "dicta",
+  "FieldHeight": 219,
+  "FieldLabel": "officiis",
+  "FieldLeft": 692,
+  "FieldTop": 125,
   "FieldType": "Checkbox",
-  "FieldWidth": 467,
+  "FieldWidth": 317,
   "FormatMask": "voluptatem",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 194,
-  "LabelLeft": 402,
-  "LabelTop": 127,
-  "LabelWidth": 952,
-  "LastVersionId": 263,
-  "ListTableId": 996,
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 53,
+  "LabelLeft": 644,
+  "LabelTop": 894,
+  "LabelWidth": 372,
+  "LastVersionId": 648,
+  "ListTableId": 2,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "repellat",
+  "Page1LineNo": 90,
+  "ProgId": "nemo",
   "IsReadOnly": false,
-  "ShortLabel": "ullam",
-  "TabOrder": 515,
-  "TextLength": 67,
+  "ShortLabel": "dignissimos",
+  "TabOrder": 786,
+  "TextLength": 832,
   "Tooltip": "dolorem",
-  "UdefIdentity": 546,
-  "UDListDefinitionId": 170,
+  "UdefIdentity": 978,
+  "UDListDefinitionId": 182,
   "Justification": "Center",
-  "Version": 155,
-  "TemplateVariableName": "Lockman-Murphy",
+  "Version": 118,
+  "TemplateVariableName": "Ward, Kuhlman and Witting",
   "HasBeenPublished": false,
-  "MdoListName": "Effertz Group",
+  "MdoListName": "Hintz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

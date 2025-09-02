@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Items/Default
 uid: v1ReasonSoldList_CreateDefaultReasonSold
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Eichmann Inc and Sons",
-  "Tooltip": "impedit",
+  "Id": 115,
+  "Name": "Terry LLC",
+  "Tooltip": "hic",
   "Deleted": true,
-  "UdListDefinitionId": 488,
-  "Rank": 724,
+  "UdListDefinitionId": 995,
+  "Rank": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

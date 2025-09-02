@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.LatestItemIdByFolder SOAP
 generated: true
 uid: Services88-EMail-LatestItemIdByFolder
+content_type: reference
 ---
 
 # Services88 EMail LatestItemIdByFolder

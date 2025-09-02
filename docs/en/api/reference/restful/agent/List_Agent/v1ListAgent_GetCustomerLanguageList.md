@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCustomerLanguageList
 uid: v1ListAgent_GetCustomerLanguageList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCustomerLanguageList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCustomerLanguageList?$select=name,department,categor
 
 ## Request Body: customerLanguageIds 
 
-The primary keys. 
+The identifiers of the CustomerLanguage object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Value": "ut",
-    "Tooltip": "quos",
+    "Id": 168,
+    "Value": "consequuntur",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   },
   {
-    "Id": 37,
-    "Value": "ut",
-    "Tooltip": "quos",
+    "Id": 168,
+    "Value": "consequuntur",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

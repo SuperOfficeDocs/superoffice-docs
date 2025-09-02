@@ -2,10 +2,10 @@
 uid: table-ReasonSold
 title: ReasonSold table
 description: Why was the sale marked as sold (why did we succeed)
-so.generated: true
+generated: true
 keywords: database table ReasonSold
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ReasonSold Table (115)

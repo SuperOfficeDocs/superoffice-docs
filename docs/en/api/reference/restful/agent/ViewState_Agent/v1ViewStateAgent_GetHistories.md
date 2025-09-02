@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetHistories
 uid: v1ViewStateAgent_GetHistories
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetHistories
@@ -82,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 584,
-    "Id": 21,
-    "HistoryName": "O'Conner Inc and Sons",
-    "HistoryId": 86,
-    "AssociateId": 530,
-    "Name": "Kreiger Inc and Sons",
-    "ItemInfo": "ullam",
+    "Rank": 434,
+    "Id": 217,
+    "HistoryName": "Mohr LLC",
+    "HistoryId": 348,
+    "AssociateId": 691,
+    "Name": "Kemmer Inc and Sons",
+    "ItemInfo": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

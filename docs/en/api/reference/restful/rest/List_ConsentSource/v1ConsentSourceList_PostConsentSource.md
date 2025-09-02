@@ -2,6 +2,7 @@
 title: POST List/ConsentSource/Items
 uid: v1ConsentSourceList_PostConsentSource
 generated: true
+content_type: reference
 ---
 
 # POST List/ConsentSource/Items
@@ -77,16 +78,16 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 961,
-  "Name": "Rolfson-Deckow",
-  "Tooltip": "nulla",
-  "Rank": 732,
-  "Key": "laboriosam",
-  "MailTemplateId": 823,
+  "ConsentSourceId": 676,
+  "Name": "Turner Group",
+  "Tooltip": "eius",
+  "Rank": 26,
+  "Key": "harum",
+  "MailTemplateId": 655,
   "Deleted": false
 }
 ```
@@ -98,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 588,
-  "Name": "Von, Murazik and Torp",
-  "Tooltip": "itaque",
-  "Rank": 509,
-  "Key": "earum",
-  "MailTemplateId": 14,
+  "ConsentSourceId": 192,
+  "Name": "Hartmann-Parker",
+  "Tooltip": "dolor",
+  "Rank": 795,
+  "Key": "tenetur",
+  "MailTemplateId": 187,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

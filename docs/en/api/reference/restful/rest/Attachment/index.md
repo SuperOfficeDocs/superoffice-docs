@@ -1,6 +1,8 @@
 ---
+uid: tag-Attachment
 title: Attachment
 generated: true
+content_type: reference
 ---
 
 ```http

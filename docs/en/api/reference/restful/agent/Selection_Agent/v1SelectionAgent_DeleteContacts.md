@@ -2,6 +2,7 @@
 title: POST Agents/Selection/DeleteContacts
 uid: v1SelectionAgent_DeleteContacts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/DeleteContacts
@@ -70,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 751
+  "SelectionId": 420
 }
 ```
 

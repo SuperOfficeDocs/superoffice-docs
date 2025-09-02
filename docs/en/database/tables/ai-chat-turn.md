@@ -2,10 +2,10 @@
 uid: table-ai_chat_turn
 title: ai_chat_turn table
 description: Contains AI Chatbot history - contains whole chat, not just what is sent to the chatbot. History is ready ordered by timestamp
-so.generated: true
+generated: true
 keywords: database table ai_chat_turn
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ai\_chat\_turn Table (462)

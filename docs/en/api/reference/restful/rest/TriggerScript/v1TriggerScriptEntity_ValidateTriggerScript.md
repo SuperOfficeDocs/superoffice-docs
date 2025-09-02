@@ -2,6 +2,7 @@
 title: GET TriggerScript/{id}/Validate
 uid: v1TriggerScriptEntity_ValidateTriggerScript
 generated: true
+content_type: reference
 ---
 
 # GET TriggerScript/{id}/Validate
@@ -70,7 +71,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "laboriosam",
-  "LineNumber": 803,
+  "ErrorMessage": "rerum",
+  "LineNumber": 383,
   "ErrorInformation": null,
-  "Transpiled": "et",
+  "Transpiled": "incidunt",
   "Includes": [
-    978,
-    206
+    531,
+    174
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 414,
-      "LineNumberTo": 201,
-      "Delta": 294,
-      "IncludeId": "sunt",
+      "LineNumberFrom": 479,
+      "LineNumberTo": 140,
+      "Delta": 405,
+      "IncludeId": "possimus",
       "IncludedFrom": [
-        "explicabo",
-        "consequuntur"
+        "accusamus",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 891
         }
       }
     }
@@ -114,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 531
     }
   }
 }

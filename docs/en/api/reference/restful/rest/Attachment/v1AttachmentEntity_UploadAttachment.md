@@ -2,6 +2,7 @@
 title: POST Attachment/{id}/Content
 uid: v1AttachmentEntity_UploadAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Attachment/{id}/Content
@@ -55,7 +56,7 @@ No Content
 POST /api/v1/Attachment/{attachmentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Person/AddEmailAddressToPerson
 uid: v1PersonAgent_AddEmailAddressToPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/AddEmailAddressToPerson
@@ -70,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 168,
-  "EmailAddress": "lulu@kerluke.com",
+  "PersonId": 455,
+  "EmailAddress": "dominic@douglas.co.uk",
   "SetAsPrimaryEmail": false
 }
 ```

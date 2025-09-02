@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/DeleteRow
 uid: v1DatabaseTableAgent_DeleteRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/DeleteRow
@@ -69,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ebert-Feeney",
-  "Id": 771
+  "TableName": "Aufderhar Inc and Sons",
+  "Id": 598
 }
 ```
 

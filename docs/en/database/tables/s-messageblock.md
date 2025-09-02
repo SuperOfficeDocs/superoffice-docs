@@ -2,10 +2,10 @@
 uid: table-s_messageblock
 title: s_messageblock table
 description: Contains a block of a mailing message, that can be reused in a mailing
-so.generated: true
+generated: true
 keywords: database table s_messageblock
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_messageblock Table (492)

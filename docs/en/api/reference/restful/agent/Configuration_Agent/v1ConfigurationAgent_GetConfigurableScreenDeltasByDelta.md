@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
 uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
@@ -101,28 +102,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 762,
-    "Name": "Mueller-Kreiger",
-    "Description": "Object-based mission-critical moratorium",
-    "DeltaJson": "ut",
+    "ConfigurableScreenDeltaId": 535,
+    "Name": "Barton Inc and Sons",
+    "Description": "Multi-lateral bandwidth-monitored synergy",
+    "DeltaJson": "non",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quae",
-    "UpdatedDate": "2015-07-31T03:45:23.0767156+02:00",
-    "CreatedDate": "2018-12-21T03:45:23.0767156+01:00",
+    "RecipeId": "molestiae",
+    "UpdatedDate": "2000-03-24T03:46:54.4570178+01:00",
+    "CreatedDate": "2022-04-08T03:46:54.4570178+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      902,
-      831
+      966,
+      943
     ],
-    "AppliesToKey": "est",
+    "AppliesToKey": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldLength": 776
       }
     }
   }

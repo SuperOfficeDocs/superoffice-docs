@@ -2,6 +2,7 @@
 title: POST Agents/PhoneList/GetContactPhones
 uid: v1PhoneListAgent_GetContactPhones
 generated: true
+content_type: reference
 ---
 
 # POST Agents/PhoneList/GetContactPhones
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 729
+  "ContactId": 950
 }
 ```
 
@@ -100,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-951-564-5925 x0357",
-    "PersonCellPhone": "(371)481-7371 x20358",
-    "PersonPrivatePhone": "894.327.8090 x40301",
-    "PersonFaxNumber": "1314667",
-    "PersonPagerNumber": "397426",
-    "PersonEmail": "brain_ledner@jacobson.info",
-    "Id": 731,
-    "Name": "Ortiz-Nienow",
-    "Tooltip": "eum",
-    "UniqueId": "amet",
+    "PersonDirectPhone": "138-842-7789",
+    "PersonCellPhone": "690.482.7980 x9085",
+    "PersonPrivatePhone": "378.839.5942",
+    "PersonFaxNumber": "359964",
+    "PersonPagerNumber": "846944",
+    "PersonEmail": "adrienne_toy@whiteupton.name",
+    "Id": 918,
+    "Name": "Schuster-Eichmann",
+    "Tooltip": "recusandae",
+    "UniqueId": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 855
       }
     }
   }

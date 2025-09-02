@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/SaveWorkflowTrigger
 uid: v1WorkflowAgent_SaveWorkflowTrigger
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/SaveWorkflowTrigger
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 ```
 
-Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is empty
+Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: workflowTrigger 
 
-The WorkflowTrigger to be saved. 
+The WorkflowTrigger that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,23 +74,23 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 224,
-  "WorkflowId": 226,
+  "WorkflowTriggerId": 785,
+  "WorkflowId": 117,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kuhic-Balistreri",
-      "Description": "Switchable fresh-thinking strategy",
-      "Rank": 354,
+      "Name": "Walker, Gerhold and Wolf",
+      "Description": "Down-sized context-sensitive synergy",
+      "Rank": 76,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kuhic-Balistreri",
-      "Description": "Switchable fresh-thinking strategy",
-      "Rank": 354,
+      "Name": "Walker, Gerhold and Wolf",
+      "Description": "Down-sized context-sensitive synergy",
+      "Rank": 76,
       "Restrictions": [
         {},
         {}
@@ -106,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 101,
-  "WorkflowId": 687,
+  "WorkflowTriggerId": 676,
+  "WorkflowId": 123,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Lueilwitz Inc and Sons",
-      "Description": "User-centric fault-tolerant definition",
-      "Rank": 171,
+      "Name": "Jones-Turner",
+      "Description": "Extended even-keeled installation",
+      "Rank": 940,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lueilwitz Inc and Sons",
-      "Description": "User-centric fault-tolerant definition",
-      "Rank": 171,
+      "Name": "Jones-Turner",
+      "Description": "Extended even-keeled installation",
+      "Rank": 940,
       "Restrictions": [
         {},
         {}
@@ -133,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

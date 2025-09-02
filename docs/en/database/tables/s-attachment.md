@@ -2,10 +2,10 @@
 uid: table-s_attachment
 title: s_attachment table
 description: A connector between a message and attachments. One message can contain many attachments.
-so.generated: true
+generated: true
 keywords: database table s_attachment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_attachment Table (349)

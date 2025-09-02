@@ -2,6 +2,7 @@
 title: GET Sale/{id}/IsNumberValid/{number}
 uid: v1SaleEntity_IsNumberValid
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/IsNumberValid/{number}
@@ -57,7 +58,7 @@ OK
 GET /api/v1/Sale/{contactId}/IsNumberValid/{number}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,5 +67,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

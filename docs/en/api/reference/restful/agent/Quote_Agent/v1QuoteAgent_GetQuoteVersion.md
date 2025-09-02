@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteVersion
 uid: v1QuoteAgent_GetQuoteVersion
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteVersion
@@ -111,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 36
+  "QuoteVersionId": 572
 }
 ```
 
@@ -126,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 33,
-  "ERPQuoteVersionKey": "dolor",
-  "QuoteId": 714,
-  "Description": "Sharable intangible archive",
-  "Number": "1578745",
+  "QuoteVersionId": 129,
+  "ERPQuoteVersionKey": "sed",
+  "QuoteId": 605,
+  "Description": "Open-architected cohesive customer loyalty",
+  "Number": "1872320",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 689,
-  "SentDate": "2012-03-06T03:45:23.7954455+01:00",
-  "FollowupId": 818,
-  "ExpirationDate": "2000-06-18T03:45:23.7954455+02:00",
-  "DeliveryCountryId": 299,
+  "LikelyQuoteAlternativeId": 979,
+  "SentDate": "2000-03-03T03:46:55.1913666+01:00",
+  "FollowupId": 53,
+  "ExpirationDate": "2022-07-04T03:46:55.1913666+02:00",
+  "DeliveryCountryId": 955,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 330,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "aspernatur",
-  "ERPPaymentTypeKey": "distinctio",
-  "ERPDeliveryTermsKey": "vel",
-  "ERPDeliveryTypeKey": "eos",
-  "Rank": 377,
-  "ApprovedBy": 388,
-  "ApprovedText": "accusamus",
-  "ApprovedRegisteredBy": 730,
-  "ApprovedRegisteredDate": "2013-11-04T03:45:23.7954455+01:00",
-  "ExtraField1": "saepe",
-  "ExtraField2": "corporis",
-  "ExtraField3": "optio",
-  "ExtraField4": "quo",
-  "ExtraField5": "iusto",
-  "LastRecalculated": "2002-02-07T03:45:23.7954455+01:00",
-  "Updated": "2016-10-21T03:45:23.7954455+02:00",
-  "UpdatedAssociateId": 998,
-  "Registered": "2014-01-07T03:45:23.7954455+01:00",
-  "RegisteredAssociateId": 122,
-  "RequestAssociateId": 728,
-  "RequestComment": "consectetur",
+  "InvoiceCountryId": 874,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "cupiditate",
+  "ERPPaymentTypeKey": "rerum",
+  "ERPDeliveryTermsKey": "qui",
+  "ERPDeliveryTypeKey": "fugiat",
+  "Rank": 289,
+  "ApprovedBy": 961,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 37,
+  "ApprovedRegisteredDate": "2004-10-04T03:46:55.1913666+02:00",
+  "ExtraField1": "sit",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "repellendus",
+  "ExtraField4": "aperiam",
+  "ExtraField5": "quam",
+  "LastRecalculated": "2002-07-15T03:46:55.1913666+02:00",
+  "Updated": "2014-03-16T03:46:55.1913666+01:00",
+  "UpdatedAssociateId": 529,
+  "Registered": "2012-08-03T03:46:55.1913666+02:00",
+  "RegisteredAssociateId": 897,
+  "RequestAssociateId": 747,
+  "RequestComment": "quia",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 141,
-      "ERPQuoteAlternativeKey": "harum",
-      "QuoteVersionId": 437,
-      "Name": "Deckow, Dietrich and Sanford",
-      "Description": "Down-sized executive policy",
+      "QuoteAlternativeId": 643,
+      "ERPQuoteAlternativeKey": "provident",
+      "QuoteVersionId": 109,
+      "Name": "Dare-Gutkowski",
+      "Description": "Operative object-oriented challenge",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 24648.91,
-      "ERPDiscountAmount": 3657.3779999999997,
-      "DiscountPercent": 28622.822,
-      "DiscountAmount": 29751.061999999998,
+      "ERPDiscountPercent": 16168.305999999999,
+      "ERPDiscountAmount": 13447.993999999999,
+      "DiscountPercent": 1551.33,
+      "DiscountAmount": 11793.242,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "reiciendis",
-      "VAT": 15883.112,
-      "EarningPercent": 680.078,
-      "EarningAmount": 20615.452,
-      "SubTotal": 27876.93,
-      "TotalPrice": 15394.207999999999,
-      "ExtraField1": "fuga",
-      "ExtraField2": "ut",
-      "ExtraField3": "impedit",
-      "ExtraField4": "autem",
-      "ExtraField5": "et",
+      "VATInfo": "ut",
+      "VAT": 15494.496,
+      "EarningPercent": 27268.933999999997,
+      "EarningAmount": 9333.052,
+      "SubTotal": 7650.094,
+      "TotalPrice": 10549.044,
+      "ExtraField1": "debitis",
+      "ExtraField2": "temporibus",
+      "ExtraField3": "quos",
+      "ExtraField4": "laborum",
+      "ExtraField5": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 685
         }
       }
     }
@@ -203,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

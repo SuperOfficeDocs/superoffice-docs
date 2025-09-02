@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLanguageInfoList
 uid: v1ListAgent_GetLanguageInfoList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLanguageInfoList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetLanguageInfoList?$select=name,department,category/id
 
 ## Request Body: languageInfoIds 
 
-The primary keys. 
+The identifiers of the LanguageInfo object 
 
 
 ## Response:array
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 754,
-    "LCID": 266,
-    "EnglishName": "Huel Inc and Sons",
-    "NativeName": "Blanda Inc and Sons",
-    "ThreeLetterISOLanguageName": "Botsford LLC",
-    "TwoLetterISOLanguageName": "Koelpin LLC",
+    "LanguageInfoId": 918,
+    "LCID": 168,
+    "EnglishName": "Jacobi, Hamill and Marks",
+    "NativeName": "Kilback-Oberbrunner",
+    "ThreeLetterISOLanguageName": "Herzog, Tremblay and Skiles",
+    "TwoLetterISOLanguageName": "Jerde-Hettinger",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.AddSaleTypeQuoteAttachment SOAP
 generated: true
 uid: Services88-Quote-AddSaleTypeQuoteAttachment
+content_type: reference
 ---
 
 # Services88 Quote AddSaleTypeQuoteAttachment

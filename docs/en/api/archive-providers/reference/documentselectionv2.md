@@ -3,9 +3,9 @@ uid: DocumentSelectionV2
 title: DocumentSelectionV2
 description: This is the archive Provider for the Selection document archive.
 keywords: DocumentSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "DocumentSelectionV2"
@@ -725,7 +725,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=person/ticketPriority,contact/email/emailProtocol,contact/streetAddress/line1,contact/streetAddress/zip,contact/contactAssociate/title
+GET /api/v1/archive/DocumentSelectionV2?$select=person/personDirectPhone/description,person/personMobilePhone/description,person/correspondingAssociate/middleName,contact/code,contact/postAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

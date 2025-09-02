@@ -2,6 +2,7 @@
 title: POST Agents/EMail/LatestItemIdByFolder
 uid: v1EMailAgent_LatestItemIdByFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/LatestItemIdByFolder
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/EMail/LatestItemIdByFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 985
+  "FolderId": 475
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-661
+747
 ```

@@ -2,6 +2,7 @@
 title: PUT List/DeliveryTerm
 uid: v1DeliveryTermsList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryTerm
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Ratke Inc and Sons",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 237,
+  "Id": 442,
+  "Name": "Hettinger-McDermott",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "Rank": 963,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "harum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 49,
-  "Name": "Bailey-Heaney",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 566,
-  "IsCustomList": false,
+  "Id": 272,
+  "Name": "Cummings Group",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 288,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "impedit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 381
     }
   }
 }

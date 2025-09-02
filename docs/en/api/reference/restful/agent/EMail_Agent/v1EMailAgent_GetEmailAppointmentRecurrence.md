@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEmailAppointmentRecurrence
 uid: v1EMailAgent_GetEmailAppointmentRecurrence
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEmailAppointmentRecurrence
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 180
+  "MailItemId": 152
 }
 ```
 
@@ -99,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 714,
-  "StartDate": "2016-03-13T03:45:23.4048314+01:00",
-  "EndDate": "2023-09-22T03:45:23.4048314+02:00",
-  "RecurrenceCounter": 129,
+  "RecurrenceId": 757,
+  "StartDate": "2018-11-28T03:46:54.7382579+01:00",
+  "EndDate": "2012-10-26T03:46:54.7382579+02:00",
+  "RecurrenceCounter": 925,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +112,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-12-28T03:45:23.4048314+01:00",
-      "IsConflict": false,
-      "Description": "Persistent bottom-line migration",
-      "DescriptionStyleHint": "Face to face executive knowledge base",
-      "Tooltip": "est"
+      "Date": "2015-04-03T03:46:54.7382579+02:00",
+      "IsConflict": true,
+      "Description": "Mandatory multimedia interface",
+      "DescriptionStyleHint": "Reactive actuating pricing structure",
+      "Tooltip": "unde"
     },
     {
-      "Date": "2000-12-28T03:45:23.4048314+01:00",
-      "IsConflict": false,
-      "Description": "Persistent bottom-line migration",
-      "DescriptionStyleHint": "Face to face executive knowledge base",
-      "Tooltip": "est"
+      "Date": "2015-04-03T03:46:54.7382579+02:00",
+      "IsConflict": true,
+      "Description": "Mandatory multimedia interface",
+      "DescriptionStyleHint": "Reactive actuating pricing structure",
+      "Tooltip": "unde"
     }
   ],
   "IsRecurrence": false

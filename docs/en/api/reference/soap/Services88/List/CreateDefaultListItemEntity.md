@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultListItemEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultListItemEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultListItemEntity

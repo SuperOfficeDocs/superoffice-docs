@@ -2,6 +2,7 @@
 title: POST Agents/User/MakeRetired
 uid: v1UserAgent_MakeRetired
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/MakeRetired
@@ -70,12 +71,12 @@ No Content
 POST /api/v1/Agents/User/MakeRetired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 246,
-  "Retired": false
+  "AssociateId": 242,
+  "Retired": true
 }
 ```
 

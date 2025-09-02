@@ -2,6 +2,7 @@
 title: POST Agents/FreeText/FreetextIndexRows
 uid: v1FreeTextAgent_FreetextIndexRows
 generated: true
+content_type: reference
 ---
 
 # POST Agents/FreeText/FreetextIndexRows
@@ -69,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jewess LLC",
+  "TableName": "Ryan Inc and Sons",
   "IDs": [
-    521,
-    241
+    58,
+    344
   ]
 }
 ```

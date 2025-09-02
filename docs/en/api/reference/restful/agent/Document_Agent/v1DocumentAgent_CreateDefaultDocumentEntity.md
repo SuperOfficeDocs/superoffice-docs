@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateDefaultDocumentEntity
 uid: v1DocumentAgent_CreateDefaultDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateDefaultDocumentEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 ```
 
-Set default values into a new DocumentEntity.
+Loading default values into a new DocumentEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -90,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 435,
+  "DocumentId": 74,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dignissimos",
-  "Header": "voluptate",
-  "Name": "Ratke-Mertz",
-  "OurRef": "vel",
-  "YourRef": "aperiam",
-  "CreatedDate": "2025-03-07T03:45:23.2954586+01:00",
-  "UpdatedDate": "2023-12-30T03:45:23.2954586+01:00",
-  "Description": "De-engineered didactic framework",
+  "Attention": "ut",
+  "Header": "non",
+  "Name": "Pfeffer-Grant",
+  "OurRef": "quisquam",
+  "YourRef": "qui",
+  "CreatedDate": "2010-05-07T03:46:54.6288867+02:00",
+  "UpdatedDate": "1999-11-11T03:46:54.6288867+01:00",
+  "Description": "Multi-channelled foreground emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-12-10T03:45:23.2954586+01:00",
-  "ExternalRef": "earum",
+  "Date": "2024-10-23T03:46:54.6445112+02:00",
+  "ExternalRef": "culpa",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 443,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ebert-Bauch",
-      "Id": 159,
-      "Description": "Persistent logistical budgetary management",
-      "ExtraInfo": "enim",
-      "LinkId": 114,
+      "EntityName": "Pacocha Group",
+      "Id": 230,
+      "Description": "Versatile assymetric parallelism",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 650,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldLength": 369
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 742,
-  "Snum": 636,
+  "SuggestedDocumentId": 375,
+  "Snum": 902,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Hershel Hand",
+    "SuperOffice:2": "Duane Bernier"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "aut",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "1998-05-21T03:45:23.2954586+02:00",
-  "PublishTo": "2000-05-22T03:45:23.2954586+02:00",
-  "PublishFrom": "1998-10-27T03:45:23.2954586+01:00",
+  "PublishEventDate": "2019-01-25T03:46:54.6445112+01:00",
+  "PublishTo": "2013-03-31T03:46:54.6445112+02:00",
+  "PublishFrom": "2004-03-15T03:46:54.6445112+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 120,
+      "VisibleId": 782,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 640
         }
       }
     },
     {
-      "VisibleId": 120,
+      "VisibleId": 782,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 640
         }
       }
     }
@@ -191,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldLength": 498
     }
   }
 }

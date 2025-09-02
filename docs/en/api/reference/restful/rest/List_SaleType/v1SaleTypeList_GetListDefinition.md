@@ -2,6 +2,7 @@
 title: GET List/SaleType
 uid: v1SaleTypeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Schamberger, Hoppe and Weimann",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 698,
+  "Id": 968,
+  "Name": "Hilpert-Rowe",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "Rank": 999,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   },
   "_Links": {

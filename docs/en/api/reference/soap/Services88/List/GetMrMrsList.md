@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetMrMrsList SOAP
 generated: true
 uid: Services88-List-GetMrMrsList
+content_type: reference
 ---
 
 # Services88 List GetMrMrsList

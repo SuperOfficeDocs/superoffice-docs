@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetActivityFilter
 uid: v1ArchiveAgent_GetActivityFilter
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetActivityFilter
@@ -79,91 +80,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-01-25T03:45:22.967341+01:00",
-  "ToDate": "2018-04-06T03:45:22.967341+02:00",
+  "FromDate": "2024-11-23T03:46:54.2851489+01:00",
+  "ToDate": "2022-10-20T03:46:54.2851489+02:00",
   "AssociateList": [
     {
-      "Id": 555,
-      "Name": "Prosacco, Runolfsdottir and Block",
-      "ToolTip": "Rerum doloremque aut voluptatem atque.",
+      "Id": 410,
+      "Name": "Donnelly-O'Hara",
+      "ToolTip": "Quia ut nesciunt quo voluptatem aut.",
       "Deleted": true,
-      "Rank": 166,
-      "Type": "consequuntur",
-      "ColorBlock": 313,
-      "IconHint": "ut",
-      "Selected": false,
-      "LastChanged": "2019-10-19T03:45:22.967341+02:00",
+      "Rank": 717,
+      "Type": "ullam",
+      "ColorBlock": 422,
+      "IconHint": "cupiditate",
+      "Selected": true,
+      "LastChanged": "2015-04-18T03:46:54.2851489+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "tempora",
-      "Hidden": false,
-      "FullName": "Bernardo Sipes",
+      "ExtraInfo": "error",
+      "StyleHint": "animi",
+      "Hidden": true,
+      "FullName": "Emerald Aufderhar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 59,
-      "Name": "Oberbrunner, Kovacek and Gutmann",
-      "ToolTip": "Molestiae dolorem nulla aliquid assumenda.",
-      "Deleted": false,
-      "Rank": 550,
-      "Type": "eum",
-      "ColorBlock": 890,
-      "IconHint": "vel",
-      "Selected": false,
-      "LastChanged": "1999-08-30T03:45:22.967341+02:00",
+      "Id": 164,
+      "Name": "Stehr Group",
+      "ToolTip": "Explicabo vel laboriosam et dolores.",
+      "Deleted": true,
+      "Rank": 133,
+      "Type": "et",
+      "ColorBlock": 68,
+      "IconHint": "odio",
+      "Selected": true,
+      "LastChanged": "2009-05-23T03:46:54.2851489+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "velit",
-      "Hidden": true,
-      "FullName": "Sonny Leuschke",
+      "ExtraInfo": "maxime",
+      "StyleHint": "rem",
+      "Hidden": false,
+      "FullName": "Dr. Price Padberg I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldType": "System.String",
+          "FieldLength": 708
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 250,
-      "Name": "Kulas-Kling",
-      "ToolTip": "Labore omnis ad.",
+      "Id": 705,
+      "Name": "Harber-Trantow",
+      "ToolTip": "Sed dolorem laboriosam et repellat et.",
       "Deleted": false,
-      "Rank": 179,
-      "Type": "optio",
+      "Rank": 562,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 991,
-      "ExtraInfo": "beatae",
-      "StyleHint": "molestiae",
-      "FullName": "Arlene Volkman",
+      "IconHint": "rem",
+      "ColorBlock": 284,
+      "ExtraInfo": "qui",
+      "StyleHint": "consequatur",
+      "FullName": "Michelle Sawayn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -172,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

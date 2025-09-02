@@ -2,6 +2,7 @@
 title: Services88.AIAgent.GuessCategory SOAP
 generated: true
 uid: Services88-AI-GuessCategory
+content_type: reference
 ---
 
 # Services88 AI GuessCategory

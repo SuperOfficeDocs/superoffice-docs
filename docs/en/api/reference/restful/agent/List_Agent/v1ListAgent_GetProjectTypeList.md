@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProjectTypeList
 uid: v1ListAgent_GetProjectTypeList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProjectTypeList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetProjectTypeList?$select=name,department,category/id
 
 ## Request Body: projectTypeIds 
 
-The primary keys. 
+The identifiers of the ProjectType object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Value": "ut",
-    "Tooltip": "labore",
+    "Id": 160,
+    "Value": "beatae",
+    "Tooltip": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   },
   {
-    "Id": 157,
-    "Value": "ut",
-    "Tooltip": "labore",
+    "Id": 160,
+    "Value": "beatae",
+    "Tooltip": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

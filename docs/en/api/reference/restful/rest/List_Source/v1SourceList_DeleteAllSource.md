@@ -2,6 +2,7 @@
 title: DEL List/Source/Items
 uid: v1SourceList_DeleteAllSource
 generated: true
+content_type: reference
 ---
 
 # DEL List/Source/Items

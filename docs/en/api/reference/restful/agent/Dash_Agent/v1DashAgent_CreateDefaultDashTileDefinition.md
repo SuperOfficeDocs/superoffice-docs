@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultDashTileDefinition
 uid: v1DashAgent_CreateDefaultDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultDashTileDefinition
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 ```
 
-Set default values into a new DashTileDefinition.
+Loading default values into a new DashTileDefinition.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -75,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 333,
-  "Name": "Blick LLC",
-  "Description": "Quality-focused didactic process improvement",
-  "DefaultHeight": 220,
-  "DefaultWidth": 765,
+  "DashboardTileDefinitionId": 684,
+  "Name": "Kozey LLC",
+  "Description": "Diverse cohesive circuit",
+  "DefaultHeight": 150,
+  "DefaultWidth": 985,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Predovic-Quitzon",
-  "SelectionId": 123,
+  "EntityName": "Metz, Johnson and Larson",
+  "SelectionId": 335,
   "CurrencyMode": "Base",
-  "CurrencyCode": "tenetur",
+  "CurrencyCode": "natus",
   "Measure": "Average",
-  "MeasureField": "doloremque",
-  "SortBy": "veritatis",
-  "LayoutConfig": "consectetur",
-  "SecondarySelectionId": 883,
-  "MeasureByField": "quis",
+  "MeasureField": "quia",
+  "SortBy": "ex",
+  "LayoutConfig": "temporibus",
+  "SecondarySelectionId": 260,
+  "MeasureByField": "unde",
   "Usage": "Dashboard",
-  "ProviderName": "Waters, Greenholt and Rath",
+  "ProviderName": "Schinner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 58
     }
   }
 }

@@ -3,9 +3,9 @@ uid: dashboardcurrency
 title: dashboardcurrency
 keywords: mdoprovider mdo provider dashboardcurrency
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "dashboardcurrency" MDO List

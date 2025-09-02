@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.RebuildCustomObjectArchivePanelDeltas SOAP
 generated: true
 uid: Services88-Configuration-RebuildCustomObjectArchivePanelDeltas
+content_type: reference
 ---
 
 # Services88 Configuration RebuildCustomObjectArchivePanelDeltas

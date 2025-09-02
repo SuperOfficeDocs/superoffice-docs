@@ -2,10 +2,10 @@
 uid: enum-badgetype
 title: Enum values for BadgeType
 description: Lists the enum values for BadgeType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # BadgeType Enum

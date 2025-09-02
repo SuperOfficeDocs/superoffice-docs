@@ -2,6 +2,7 @@
 title: PUT ChatTopic/{id}/UserAgent
 uid: v1ChatTopicEntity_UpdateChatTopicUserAgents
 generated: true
+content_type: reference
 ---
 
 # PUT ChatTopic/{id}/UserAgent
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 52,
+    "TopicId": 503,
     "User": null,
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
+    "CanManage": true,
+    "CanNotify": false
   },
   {
-    "TopicId": 52,
+    "TopicId": 503,
     "User": null,
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
+    "CanManage": true,
+    "CanNotify": false
   }
 ]
 ```
@@ -106,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 317,
+    "TopicId": 276,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
-    "CanManage": false,
+    "CanRespond": true,
+    "CanManage": true,
     "CanNotify": false
   },
   {
-    "TopicId": 317,
+    "TopicId": 276,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
-    "CanManage": false,
+    "CanRespond": true,
+    "CanManage": true,
     "CanNotify": false
   }
 ]

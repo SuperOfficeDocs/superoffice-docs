@@ -2,6 +2,7 @@
 title: POST List/DeliveryTerm/Headings
 uid: v1DeliveryTermsList_PostDeliveryTermHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/DeliveryTerm/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 5,
-  "Name": "Kunde Inc and Sons",
-  "Tooltip": "dolores",
+  "HeadingId": 827,
+  "Name": "Rice, Lebsack and Heller",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 529,
-  "UdListDefinitionId": 27
+  "Rank": 444,
+  "UdListDefinitionId": 62
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 439,
-  "Name": "Lynch LLC",
-  "Tooltip": "facilis",
+  "HeadingId": 428,
+  "Name": "Luettgen-Sawayn",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 455,
-  "UdListDefinitionId": 336,
+  "Rank": 590,
+  "UdListDefinitionId": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 169
     }
   }
 }

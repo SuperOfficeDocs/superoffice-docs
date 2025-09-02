@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -87,18 +88,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Franecki LLC",
-  "StorageKey": "dolorum",
+  "StorageType": "quam",
+  "ProviderName": "Mosciski-Heathcote",
+  "StorageKey": "architecto",
   "DesiredColumnNames": [
-    "Kertzmann Group",
-    "Kreiger-Casper"
+    "McKenzie-Jerde",
+    "Howell, Moen and Raynor"
   ],
   "StaticColumns": [
-    "nisi",
-    "magni"
+    "eum",
+    "nisi"
   ],
-  "Context": "aliquid"
+  "Context": "cum"
 }
 ```
 
@@ -111,81 +112,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dibbert, Murray and Parker",
-      "Operator": "ullam",
+      "Name": "Beer-Roberts",
+      "Operator": "ea",
       "Values": [
-        "ipsum",
-        "perferendis"
+        "ut",
+        "quia"
       ],
       "DisplayValues": [
-        "voluptate",
-        "maiores"
+        "quo",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 374,
+      "InterParenthesis": 964,
       "InterOperator": "And",
-      "UniqueHash": 440
+      "UniqueHash": 564
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Smith-Cassin",
-      "DisplayTooltip": "optio",
-      "DisplayType": "facere",
-      "CanOrderBy": true,
-      "Name": "Ziemann LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "quam",
-      "RestrictionListName": "Hintz, Simonis and Schaden",
+      "DisplayName": "Kunde Group",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "reiciendis",
+      "CanOrderBy": false,
+      "Name": "Lubowitz-Jaskolski",
+      "CanRestrictBy": false,
+      "RestrictionType": "laudantium",
+      "RestrictionListName": "Zboncak Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "autem",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "placeat",
+      "Width": "quisquam",
+      "IconHint": "quo",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "King, Larson and Marvin",
-      "PrimaryKey": 866,
+      "EntityName": "Denesik Group",
+      "PrimaryKey": 119,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "occaecati",
-          "TooltipHint": "magni",
-          "LinkHint": "rem"
+          "DisplayValue": "est",
+          "TooltipHint": "tempore",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "ut",
+      "LinkHint": "minus",
+      "StyleHint": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 778
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cormier-Schamberger",
-      "Description": "Versatile background definition",
-      "Rank": 839,
+      "Name": "Schumm-Schiller",
+      "Description": "Multi-channelled well-modulated hardware",
+      "Rank": 885,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cormier-Schamberger",
-      "Description": "Versatile background definition",
-      "Rank": 839,
+      "Name": "Schumm-Schiller",
+      "Description": "Multi-channelled well-modulated hardware",
+      "Rank": 885,
       "Restrictions": [
         {},
         {}
@@ -197,7 +198,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 832
     }
   }
 }

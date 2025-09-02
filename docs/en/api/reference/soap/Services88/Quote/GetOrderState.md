@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetOrderState SOAP
 generated: true
 uid: Services88-Quote-GetOrderState
+content_type: reference
 ---
 
 # Services88 Quote GetOrderState

@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetParentCombinedSelections
 uid: v1SelectionAgent_GetParentCombinedSelections
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetParentCombinedSelections
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 320
+  "SelectionId": 650
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  481,
-  564
+  901,
+  99
 ]
 ```

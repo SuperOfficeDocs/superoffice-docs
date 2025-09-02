@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetConfigurationFields SOAP
 generated: true
 uid: Services88-Quote-GetConfigurationFields
+content_type: reference
 ---
 
 # Services88 Quote GetConfigurationFields

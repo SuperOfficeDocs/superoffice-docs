@@ -2,6 +2,7 @@
 title: PUT List/Category/Items
 uid: v1CategoryList_PutAllCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Kassulke, Tillman and Schinner",
-    "Tooltip": "laboriosam",
+    "Id": 111,
+    "Name": "Bosco, Graham and Kulas",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 385
+    "UdListDefinitionId": 547,
+    "Rank": 48
   },
   {
-    "Id": 55,
-    "Name": "Kassulke, Tillman and Schinner",
-    "Tooltip": "laboriosam",
+    "Id": 111,
+    "Name": "Bosco, Graham and Kulas",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 385
+    "UdListDefinitionId": 547,
+    "Rank": 48
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Bogisich Group",
-    "Tooltip": "itaque",
+    "Id": 967,
+    "Name": "Mraz Group",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "UdListDefinitionId": 810,
-    "Rank": 208,
+    "UdListDefinitionId": 290,
+    "Rank": 216,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

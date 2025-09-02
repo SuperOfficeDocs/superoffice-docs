@@ -2,14 +2,10 @@
 uid: pocketagent-script-events
 title: PocketAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # PocketAgent method listing
@@ -29,3 +25,4 @@ Service methods defined on <see cref='T:IPocketAgent'>PocketAgent</see> that can
 * [SendPushNotificationAsync](sendpushnotificationasync.md)
 * [SetPushNotificationTagsForDeviceAsync](setpushnotificationtagsfordeviceasync.md)
 * [SetPushNotificationTagsForUserAsync](setpushnotificationtagsforuserasync.md)
+

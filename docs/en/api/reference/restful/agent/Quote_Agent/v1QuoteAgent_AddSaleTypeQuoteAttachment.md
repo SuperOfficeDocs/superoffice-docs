@@ -2,6 +2,7 @@
 title: POST Agents/Quote/AddSaleTypeQuoteAttachment
 uid: v1QuoteAgent_AddSaleTypeQuoteAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/AddSaleTypeQuoteAttachment
@@ -73,8 +74,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 939,
-  "DocumentId": 705
+  "SaleTypeId": 383,
+  "DocumentId": 297
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-486
+299
 ```

@@ -2,6 +2,7 @@
 title: Services88.DatabaseAgent.GetStepsInDatabase SOAP
 generated: true
 uid: Services88-Database-GetStepsInDatabase
+content_type: reference
 ---
 
 # Services88 Database GetStepsInDatabase

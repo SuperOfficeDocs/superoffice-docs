@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/ResyncUsers
 uid: v1DiagnosticsAgent_ResyncUsers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/ResyncUsers

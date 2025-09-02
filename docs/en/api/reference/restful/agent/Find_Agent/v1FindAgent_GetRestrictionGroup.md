@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetRestrictionGroup
 uid: v1FindAgent_GetRestrictionGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetRestrictionGroup
@@ -82,11 +83,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aspernatur",
-  "ProviderName": "Dicki-Willms",
-  "StorageKey": "quo",
-  "Rank": 134,
-  "Context": "ea"
+  "StorageType": "illum",
+  "ProviderName": "Mosciski, Friesen and Wisozk",
+  "StorageKey": "ut",
+  "Rank": 293,
+  "Context": "aut"
 }
 ```
 
@@ -97,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lang Group",
-  "Description": "Expanded interactive installation",
-  "Rank": 509,
+  "Name": "Dare Group",
+  "Description": "User-friendly analyzing intranet",
+  "Rank": 162,
   "Restrictions": [
     {
-      "Name": "Leannon, Conroy and Price",
-      "Operator": "saepe",
+      "Name": "Ortiz-Walter",
+      "Operator": "rerum",
       "Values": [
-        "eius",
-        "harum"
+        "temporibus",
+        "non"
       ],
       "DisplayValues": [
-        "consequatur",
-        "facere"
+        "rerum",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -118,9 +119,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 310,
+      "InterParenthesis": 447,
       "InterOperator": "And",
-      "UniqueHash": 445
+      "UniqueHash": 677
     }
   ]
 }

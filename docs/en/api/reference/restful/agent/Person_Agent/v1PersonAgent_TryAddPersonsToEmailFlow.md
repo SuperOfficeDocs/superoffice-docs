@@ -2,6 +2,7 @@
 title: POST Agents/Person/TryAddPersonsToEmailFlow
 uid: v1PersonAgent_TryAddPersonsToEmailFlow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/TryAddPersonsToEmailFlow
@@ -69,14 +70,14 @@ OK
 POST /api/v1/Agents/Person/TryAddPersonsToEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 408,
+  "EmailFlowId": 798,
   "PersonIds": [
-    607,
-    563
+    17,
+    140
   ]
 }
 ```

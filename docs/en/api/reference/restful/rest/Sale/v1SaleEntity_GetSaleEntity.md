@@ -2,6 +2,7 @@
 title: GET Sale/{id}
 uid: v1SaleEntity_GetSaleEntity
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}
@@ -127,7 +128,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Jul 2001 03:45:28 G7T
+Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
 
 {
   "Appointment": null,
@@ -136,7 +137,7 @@ Last-Modified: Sun, 29 Jul 2001 03:45:28 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vel",
+  "SaleText": "vitae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +146,113 @@ Last-Modified: Sun, 29 Jul 2001 03:45:28 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-03-02T03:45:28.6081575+01:00",
-  "Amount": 31283.588,
-  "SaleId": 365,
-  "Earning": 17694.564,
-  "EarningPercent": 25291.379999999997,
-  "Heading": "id",
-  "Number": "439773",
-  "Probability": 113,
-  "CreatedDate": "2006-07-22T03:45:28.6081575+02:00",
-  "UpdatedDate": "2001-07-29T03:45:28.6081575+02:00",
+  "Saledate": "2005-04-02T03:47:00.2536872+02:00",
+  "Amount": 122.226,
+  "SaleId": 473,
+  "Earning": 13830.341999999999,
+  "EarningPercent": 24391.922,
+  "Heading": "consequatur",
+  "Number": "406527",
+  "Probability": 785,
+  "CreatedDate": "2006-05-16T03:47:00.2536872+02:00",
+  "UpdatedDate": "2014-04-04T03:47:00.2536872+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 309,
+  "ActiveLinks": 548,
   "Links": [
     {
-      "EntityName": "O'Conner Group",
-      "Id": 663,
-      "Description": "Polarised optimizing initiative",
-      "ExtraInfo": "quam",
-      "LinkId": 716,
+      "EntityName": "Emmerich-Wiegand",
+      "Id": 708,
+      "Description": "Function-based context-sensitive methodology",
+      "ExtraInfo": "sit",
+      "LinkId": 24,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldType": "System.Int32",
+          "FieldLength": 82
         }
       }
     }
   ],
-  "NextDueDate": "2018-05-23T03:45:28.6081575+02:00",
-  "Postit": "aut",
+  "NextDueDate": "2012-11-08T03:47:00.2536872+01:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-06-16T03:45:28.6081575+02:00",
+  "ReopenDate": "2003-12-18T03:47:00.2536872+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Luettgen Inc and Sons",
-      "Comment": "repellat",
-      "StakeholderRoleId": 400,
-      "CountryId": 529,
-      "PersonId": 749,
-      "EmailDescription": "jeff.johnson@blandaanderson.co.uk",
-      "EmailId": 981,
-      "EmailAddress": "lillian@considineschiller.us",
-      "PhoneId": 858,
-      "ContactName": "Howell LLC",
-      "ContactId": 538,
-      "SaleId": 776,
-      "Mrmrs": "dicta",
-      "Firstname": "Eliane",
-      "MiddleName": "Dooley-Reichel",
-      "Lastname": "Mosciski",
-      "SaleStakeholderId": 728,
-      "Rank": 62,
-      "Phone": "1-666-156-5210",
+      "StakeholderRoleName": "Little Group",
+      "Comment": "consequuntur",
+      "StakeholderRoleId": 439,
+      "CountryId": 411,
+      "PersonId": 591,
+      "EmailDescription": "thad_klocko@blick.co.uk",
+      "EmailId": 544,
+      "EmailAddress": "dereck@ziemannconsidine.com",
+      "PhoneId": 753,
+      "ContactName": "Langworth Group",
+      "ContactId": 434,
+      "SaleId": 887,
+      "Mrmrs": "sit",
+      "Firstname": "Maryam",
+      "MiddleName": "Moen LLC",
+      "Lastname": "Becker",
+      "SaleStakeholderId": 558,
+      "Rank": 93,
+      "Phone": "145-664-3084",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 247
         }
       }
     }
   ],
-  "ActiveErpLinks": 991,
+  "ActiveErpLinks": 930,
   "UserDefinedFields": {
-    "SuperOffice:1": "Karen Howe",
-    "SuperOffice:2": "1024536590"
+    "SuperOffice:1": "Prof. Jessyca Becker IV",
+    "SuperOffice:2": "1588955661"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "esse"
+    "CustomFields1": "est",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2000-08-01T03:45:28.6081575+02:00",
-  "PublishTo": "2011-05-30T03:45:28.6081575+02:00",
-  "PublishFrom": "2002-04-08T03:45:28.6081575+02:00",
+  "PublishEventDate": "2004-11-10T03:47:00.2536872+01:00",
+  "PublishTo": "2010-04-10T03:47:00.2536872+02:00",
+  "PublishFrom": "2024-11-01T03:47:00.2536872+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 813,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldLength": 917
         }
       }
     },
     {
-      "VisibleId": 813,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldLength": 917
         }
       }
     }
@@ -261,12 +262,12 @@ Last-Modified: Sun, 29 Jul 2001 03:45:28 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 365
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

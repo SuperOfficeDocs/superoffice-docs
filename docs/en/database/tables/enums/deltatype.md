@@ -2,10 +2,10 @@
 uid: enum-deltatype
 title: Enum values for DeltaType
 description: Lists the enum values for DeltaType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DeltaType Enum

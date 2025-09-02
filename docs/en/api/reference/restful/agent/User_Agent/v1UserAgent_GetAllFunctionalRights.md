@@ -2,6 +2,7 @@
 title: POST Agents/User/GetAllFunctionalRights
 uid: v1UserAgent_GetAllFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetAllFunctionalRights
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "In doloremque excepturi error sunt quisquam occaecati.",
-    "Deleted": true,
-    "Rank": 445,
-    "Type": "consequatur",
-    "ColorBlock": 92,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2003-06-18T03:45:24.1704335+02:00",
+    "Id": 99,
+    "Name": "Rosenbaum Inc and Sons",
+    "ToolTip": "Qui earum.",
+    "Deleted": false,
+    "Rank": 355,
+    "Type": "sapiente",
+    "ColorBlock": 9,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "1999-01-24T03:46:55.581978+01:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Moen-Kuvalis",
-        "ToolTip": "Quae repellendus id ipsum similique.",
+        "Id": 802,
+        "Name": "Wolf, Kuhlman and Lang",
+        "ToolTip": "Adipisci officiis fugiat iure sed est deleniti.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "amet",
-        "ColorBlock": 714,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2001-06-14T03:45:24.1704335+02:00",
+        "Rank": 703,
+        "Type": "qui",
+        "ColorBlock": 578,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2005-10-27T03:46:55.581978+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Elissa Berge",
+        "ExtraInfo": "itaque",
+        "StyleHint": "maxime",
+        "Hidden": true,
+        "FullName": "Mr. Joan Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Ms. Layla Serena Krajcik",
+    "ExtraInfo": "facilis",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Myriam White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 972
       }
     }
   }

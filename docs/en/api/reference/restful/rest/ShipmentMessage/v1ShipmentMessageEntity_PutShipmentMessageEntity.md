@@ -2,6 +2,7 @@
 title: PUT ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_PutShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # PUT ShipmentMessage/{id}
@@ -119,31 +120,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 833,
-  "PlainMessage": "veritatis",
-  "HtmlMessage": "ut",
-  "SmsMessage": "eos",
-  "Description": "Triple-buffered incremental challenge",
-  "Subject": "assumenda",
-  "FolderId": 946,
-  "HeaderField": "enim",
-  "Design": "aperiam",
+  "ShipmentMessageId": 79,
+  "PlainMessage": "esse",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "pariatur",
+  "Description": "Distributed bifurcated strategy",
+  "Subject": "in",
+  "FolderId": 605,
+  "HeaderField": "vel",
+  "Design": "at",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Fully-configurable interactive info-mediaries",
-  "AccessKey": "eligendi",
-  "DocumentMessage": 604,
-  "Registered": "2019-10-08T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 849,
-  "Updated": "2011-12-29T03:45:28.6546813+01:00",
-  "UpdatedAssociateId": 447,
-  "UpdatedCount": 709
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Quality-focused client-driven encoding",
+  "AccessKey": "quia",
+  "DocumentMessage": 851,
+  "Registered": "2017-07-11T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 896,
+  "Updated": "2010-11-07T03:47:00.3005605+01:00",
+  "UpdatedAssociateId": 568,
+  "UpdatedCount": 420
 }
 ```
 
@@ -154,33 +155,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 982,
-  "PlainMessage": "doloribus",
-  "HtmlMessage": "consequatur",
-  "SmsMessage": "deleniti",
-  "Description": "Cross-group foreground extranet",
-  "Subject": "beatae",
-  "FolderId": 202,
-  "HeaderField": "qui",
-  "Design": "eos",
+  "ShipmentMessageId": 828,
+  "PlainMessage": "facilis",
+  "HtmlMessage": "sint",
+  "SmsMessage": "voluptatem",
+  "Description": "Pre-emptive system-worthy capability",
+  "Subject": "ut",
+  "FolderId": 896,
+  "HeaderField": "eos",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Innovative high-level open system",
-  "AccessKey": "aut",
-  "DocumentMessage": 911,
-  "Registered": "2005-07-08T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 48,
-  "Updated": "2008-07-02T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 426,
-  "UpdatedCount": 300,
+  "LongDescription": "Front-line user-facing policy",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 528,
+  "Registered": "2005-01-11T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 126,
+  "Updated": "2014-03-25T03:47:00.3005605+01:00",
+  "UpdatedAssociateId": 45,
+  "UpdatedCount": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 153
     }
   },
   "_Links": {

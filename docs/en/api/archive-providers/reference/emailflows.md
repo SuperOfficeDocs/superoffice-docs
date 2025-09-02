@@ -3,9 +3,9 @@ uid: EmailFlows
 title: EmailFlows
 description: Archive of Email flows.
 keywords: EmailFlows archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailFlows"
@@ -89,7 +89,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=workflowDescription,updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlows?$select=workflowDefinitionStatusId,workflowAssociate/credentialType,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

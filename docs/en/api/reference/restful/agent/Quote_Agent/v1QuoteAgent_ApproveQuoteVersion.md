@@ -2,6 +2,7 @@
 title: POST Agents/Quote/ApproveQuoteVersion
 uid: v1QuoteAgent_ApproveQuoteVersion
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/ApproveQuoteVersion
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 305,
-  "ApprovedByText": "doloremque",
-  "ApprovedByAssociateId": 766,
-  "ApprovalText": "rerum"
+  "QuoteVersionId": 4,
+  "ApprovedByText": "et",
+  "ApprovedByAssociateId": 865,
+  "ApprovalText": "temporibus"
 }
 ```
 
@@ -96,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 290,
+  "CreatedAppointmentId": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

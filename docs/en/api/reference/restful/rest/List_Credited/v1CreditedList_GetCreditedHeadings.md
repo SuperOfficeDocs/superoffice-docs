@@ -2,6 +2,7 @@
 title: GET List/Credited/Headings
 uid: v1CreditedList_GetCreditedHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 639,
-    "Name": "Towne, Rice and Labadie",
-    "Tooltip": "nihil",
+    "HeadingId": 672,
+    "Name": "Crona Inc and Sons",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 924,
-    "UdListDefinitionId": 574,
+    "Rank": 262,
+    "UdListDefinitionId": 540,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

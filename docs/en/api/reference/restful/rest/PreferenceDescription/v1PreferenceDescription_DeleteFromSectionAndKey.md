@@ -2,6 +2,7 @@
 title: DEL PreferenceDescription/{section}/{key}
 uid: v1PreferenceDescription_DeleteFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # DEL PreferenceDescription/{section}/{key}

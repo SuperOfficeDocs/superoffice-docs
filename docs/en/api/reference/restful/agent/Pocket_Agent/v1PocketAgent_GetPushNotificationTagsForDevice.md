@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/GetPushNotificationTagsForDevice
 uid: v1PocketAgent_GetPushNotificationTagsForDevice
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/GetPushNotificationTagsForDevice
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "accusantium"
+  "DeviceIdentifier": "libero"
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"non"
 ```

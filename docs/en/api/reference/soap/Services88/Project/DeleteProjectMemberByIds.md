@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.DeleteProjectMemberByIds SOAP
 generated: true
 uid: Services88-Project-DeleteProjectMemberByIds
+content_type: reference
 ---
 
 # Services88 Project DeleteProjectMemberByIds

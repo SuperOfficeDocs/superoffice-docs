@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.HasChatNotify SOAP
 generated: true
 uid: Services88-CustomerService-HasChatNotify
+content_type: reference
 ---
 
 # Services88 CustomerService HasChatNotify

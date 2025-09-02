@@ -2,6 +2,7 @@
 title: Services88.WebhookAgent.GetLastError SOAP
 generated: true
 uid: Services88-Webhook-GetLastError
+content_type: reference
 ---
 
 # Services88 Webhook GetLastError

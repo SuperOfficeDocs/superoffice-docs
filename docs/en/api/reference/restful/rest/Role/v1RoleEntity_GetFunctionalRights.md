@@ -2,6 +2,7 @@
 title: GET Role/{id}/FunctionRight
 uid: v1RoleEntity_GetFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # GET Role/{id}/FunctionRight
@@ -78,7 +79,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Altenwerth, Wisozk and Deckow",
-    "ToolTip": "Qui aut qui et aliquid.",
-    "Deleted": true,
-    "Rank": 959,
-    "Type": "rerum",
-    "ColorBlock": 184,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2004-11-25T03:45:28.5453063+01:00",
+    "Id": 667,
+    "Name": "Grimes-Kerluke",
+    "ToolTip": "Delectus similique illo.",
+    "Deleted": false,
+    "Rank": 945,
+    "Type": "consectetur",
+    "ColorBlock": 992,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2016-06-08T03:47:00.2224384+02:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Powlowski, McCullough and Swaniawski",
-        "ToolTip": "Nihil suscipit similique eius molestias officia hic.",
+        "Id": 207,
+        "Name": "Abshire, Gleichner and Littel",
+        "ToolTip": "Cupiditate doloribus est qui sequi earum aut doloremque.",
         "Deleted": true,
-        "Rank": 206,
-        "Type": "omnis",
-        "ColorBlock": 447,
-        "IconHint": "sint",
+        "Rank": 424,
+        "Type": "ducimus",
+        "ColorBlock": 943,
+        "IconHint": "fugiat",
         "Selected": true,
-        "LastChanged": "2016-08-26T03:45:28.5453063+02:00",
+        "LastChanged": "1999-05-26T03:47:00.2224384+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "saepe",
+        "ExtraInfo": "odio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Grayce Steuber DDS",
+        "FullName": "Lucious Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldType": "System.String",
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Cortney Ritchie Jr.",
+    "ExtraInfo": "quas",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Eloy Zboncak DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

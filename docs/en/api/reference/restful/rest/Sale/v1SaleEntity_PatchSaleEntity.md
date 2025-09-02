@@ -2,6 +2,7 @@
 title: PATCH Sale/{id}
 uid: v1SaleEntity_PatchSaleEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Sale/{id}
@@ -151,18 +152,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -181,7 +182,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "sint",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +191,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-04-23T03:45:28.6234387+02:00",
-  "Amount": 26056.076,
-  "SaleId": 532,
-  "Earning": 29879.556,
-  "EarningPercent": 5857.446,
-  "Heading": "velit",
-  "Number": "103315",
-  "Probability": 162,
-  "CreatedDate": "2001-12-24T03:45:28.6234387+01:00",
-  "UpdatedDate": "2020-12-06T03:45:28.6234387+01:00",
+  "Saledate": "2025-07-02T03:47:00.2693116+02:00",
+  "Amount": 25736.408,
+  "SaleId": 198,
+  "Earning": 5233.78,
+  "EarningPercent": 28193.464,
+  "Heading": "provident",
+  "Number": "1299457",
+  "Probability": 375,
+  "CreatedDate": "2000-12-14T03:47:00.2693116+01:00",
+  "UpdatedDate": "2012-04-21T03:47:00.2693116+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 112,
+  "ActiveLinks": 505,
   "Links": [
     {
-      "EntityName": "Mitchell-Conn",
-      "Id": 346,
-      "Description": "Fundamental content-based installation",
-      "ExtraInfo": "est",
-      "LinkId": 621,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 762
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-01-27T03:45:28.6234387+01:00",
-  "Postit": "earum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-06-29T03:45:28.6234387+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Champlin-Adams",
-      "Comment": "laborum",
-      "StakeholderRoleId": 627,
-      "CountryId": 49,
-      "PersonId": 719,
-      "EmailDescription": "estell@skiles.biz",
-      "EmailId": 15,
-      "EmailAddress": "nicola_collins@jakubowski.co.uk",
-      "PhoneId": 295,
-      "ContactName": "Hudson-Kassulke",
-      "ContactId": 36,
-      "SaleId": 36,
-      "Mrmrs": "maiores",
-      "Firstname": "Myah",
-      "MiddleName": "Stehr, Witting and Bednar",
-      "Lastname": "Nikolaus",
-      "SaleStakeholderId": 527,
-      "Rank": 543,
-      "Phone": "(818)199-1192",
+      "EntityName": "Kuhic, Gottlieb and Ratke",
+      "Id": 87,
+      "Description": "Managed discrete capacity",
+      "ExtraInfo": "nemo",
+      "LinkId": 341,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 620
         }
       }
     }
   ],
-  "ActiveErpLinks": 851,
-  "UserDefinedFields": {
-    "SuperOffice:1": "329320347",
-    "SuperOffice:2": "2110678891"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "ad"
-  },
-  "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "eos"
-  },
-  "PublishEventDate": "2001-03-24T03:45:28.6234387+01:00",
-  "PublishTo": "2003-09-17T03:45:28.6234387+02:00",
-  "PublishFrom": "2019-10-22T03:45:28.6234387+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2012-04-26T03:47:00.2693116+02:00",
+  "Postit": "ut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2001-03-18T03:47:00.2693116+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 49,
-      "Visibility": "All",
-      "DisplayValue": "velit",
+      "StakeholderRoleName": "Anderson Group",
+      "Comment": "rerum",
+      "StakeholderRoleId": 968,
+      "CountryId": 107,
+      "PersonId": 789,
+      "EmailDescription": "bradley@schaefer.us",
+      "EmailId": 136,
+      "EmailAddress": "edgardo_heathcote@mcdermottdooley.uk",
+      "PhoneId": 333,
+      "ContactName": "Ankunding Inc and Sons",
+      "ContactId": 483,
+      "SaleId": 353,
+      "Mrmrs": "voluptatibus",
+      "Firstname": "Violet",
+      "MiddleName": "Kunde LLC",
+      "Lastname": "Emmerich",
+      "SaleStakeholderId": 616,
+      "Rank": 529,
+      "Phone": "005-217-8993 x6387",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldType": "System.Int32",
+          "FieldLength": 819
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 716,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Kira Roob",
+    "SuperOffice:2": "1706238604"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "iure",
+    "ExtraFields2": "reiciendis"
+  },
+  "CustomFields": {
+    "CustomFields1": "odit",
+    "CustomFields2": "autem"
+  },
+  "PublishEventDate": "2002-12-28T03:47:00.2693116+01:00",
+  "PublishTo": "2019-09-26T03:47:00.2693116+02:00",
+  "PublishFrom": "2021-03-27T03:47:00.2693116+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 583,
+      "Visibility": "All",
+      "DisplayValue": "corrupti",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 518
         }
       }
     },
     {
-      "VisibleId": 49,
+      "VisibleId": 583,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldType": "System.Int32",
+          "FieldLength": 518
         }
       }
     }
@@ -306,7 +307,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 870
     }
   },
   "_Links": {

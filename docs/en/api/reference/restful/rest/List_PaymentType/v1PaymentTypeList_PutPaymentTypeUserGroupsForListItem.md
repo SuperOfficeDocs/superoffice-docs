@@ -2,6 +2,7 @@
 title: PUT List/PaymentType/Items/{id}/UserGroups
 uid: v1PaymentTypeList_PutPaymentTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Wilderman-Lehner",
-    "ToolTip": "Perferendis nihil vel.",
+    "Id": 808,
+    "Name": "Haley Inc and Sons",
+    "ToolTip": "Voluptatum totam rerum vel provident.",
     "Deleted": false,
-    "Rank": 853,
-    "Type": "qui",
-    "ColorBlock": 786,
-    "IconHint": "inventore",
-    "Selected": true,
-    "LastChanged": "2009-09-30T03:45:29.0765432+02:00",
+    "Rank": 775,
+    "Type": "et",
+    "ColorBlock": 232,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2010-01-31T03:47:00.6911718+01:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Cassin Group",
-        "ToolTip": "Quae ut dolor sequi quis.",
-        "Deleted": false,
-        "Rank": 702,
-        "Type": "ut",
-        "ColorBlock": 563,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2023-04-23T03:45:29.0765432+02:00",
+        "Id": 320,
+        "Name": "Mann-Gislason",
+        "ToolTip": "Rem voluptatibus.",
+        "Deleted": true,
+        "Rank": 794,
+        "Type": "inventore",
+        "ColorBlock": 943,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2021-01-09T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "culpa",
+        "ExtraInfo": "maiores",
+        "StyleHint": "accusamus",
         "Hidden": true,
-        "FullName": "Deontae Weissnat"
+        "FullName": "Mr. Daisha Farrell PhD"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Lloyd Schmitt"
+    "ExtraInfo": "assumenda",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Freeda Deckow"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Cassin Group",
-    "ToolTip": "Omnis quisquam.",
+    "Id": 743,
+    "Name": "Kozey-Hauck",
+    "ToolTip": "Architecto eaque est est nesciunt modi.",
     "Deleted": false,
-    "Rank": 90,
-    "Type": "repellendus",
-    "ColorBlock": 334,
-    "IconHint": "eveniet",
+    "Rank": 423,
+    "Type": "voluptatem",
+    "ColorBlock": 374,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-07-14T03:45:29.0765432+02:00",
+    "LastChanged": "2011-06-09T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Schmeler, Jakubowski and Tromp",
-        "ToolTip": "Praesentium possimus officiis.",
-        "Deleted": true,
-        "Rank": 128,
-        "Type": "consequuntur",
-        "ColorBlock": 867,
-        "IconHint": "neque",
-        "Selected": false,
-        "LastChanged": "2013-04-21T03:45:29.0765432+02:00",
+        "Id": 848,
+        "Name": "Douglas-Huels",
+        "ToolTip": "Et quisquam velit distinctio.",
+        "Deleted": false,
+        "Rank": 197,
+        "Type": "similique",
+        "ColorBlock": 324,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2002-10-24T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "itaque",
+        "ExtraInfo": "eaque",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Nestor Jewess",
+        "FullName": "Kurt Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 737
+            "FieldLength": 201
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "facilis",
+    "ExtraInfo": "possimus",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mrs. Arlene Annabelle Hudson Sr.",
+    "FullName": "Dr. Lambert Hane II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 973
       }
     }
   }

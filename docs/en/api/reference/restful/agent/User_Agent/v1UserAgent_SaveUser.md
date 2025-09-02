@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveUser
 uid: v1UserAgent_SaveUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveUser
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/User/SaveUser
 ```
 
-Updates the existing User or creates a new User if the id parameter is empty
+Updates the existing User or creates a new User if the id parameter is 0.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -35,9 +36,9 @@ Updates the existing User or creates a new User if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: user 
 
-The User to be saved. 
+The User that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,18 +114,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 682,
-  "Name": "Hills LLC",
-  "Rank": 8,
-  "Tooltip": "beatae",
+  "AssociateId": 739,
+  "Name": "Lebsack-Konopelski",
+  "Rank": 633,
+  "Tooltip": "maxime",
   "LicenseOwners": [
     {
-      "Name": "Langworth, Vandervort and Legros",
-      "Description": "Synchronised methodical migration",
+      "Name": "VonRueden, Predovic and Boyle",
+      "Description": "Extended value-added database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +136,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Langworth, Vandervort and Legros",
-      "Description": "Synchronised methodical migration",
+      "Name": "VonRueden, Predovic and Boyle",
+      "Description": "Extended value-added database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,87 +152,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eius",
-      "Tooltip": "fugiat",
-      "Id": 609,
-      "Rank": 458,
+      "Value": "sit",
+      "Tooltip": "voluptatem",
+      "Id": 600,
+      "Rank": 892,
       "Deleted": false
     },
     {
-      "Value": "eius",
-      "Tooltip": "fugiat",
-      "Id": 609,
-      "Rank": 458,
+      "Value": "sit",
+      "Tooltip": "voluptatem",
+      "Id": 600,
+      "Rank": 892,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-08-08T03:45:24.1548097+02:00",
-  "Lastlogout": "2018-11-15T03:45:24.1548097+01:00",
-  "EjUserId": 460,
-  "RequestSignature": "sit",
+  "Deleted": true,
+  "Lastlogin": "2022-11-18T03:46:55.581978+01:00",
+  "Lastlogout": "2013-10-01T03:46:55.581978+02:00",
+  "EjUserId": 981,
+  "RequestSignature": "quo",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "excepturi"
+      "Value": "nihil",
+      "DisplayValue": "veritatis"
     },
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "excepturi"
+      "Value": "nihil",
+      "DisplayValue": "veritatis"
     }
   ],
-  "UserName": "Lowe, McLaughlin and Rice",
+  "UserName": "Klein, West and Hills",
   "TicketCategories": [
     {
-      "Id": 882,
-      "Name": "Harvey-Cremin",
-      "ToolTip": "Est cupiditate aspernatur qui eaque molestias.",
+      "Id": 534,
+      "Name": "Lind, Schuster and Gusikowski",
+      "ToolTip": "Assumenda consequatur magnam unde dolor qui quo dolores.",
       "Deleted": true,
-      "Rank": 910,
-      "Type": "facere",
+      "Rank": 55,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illo",
-      "ColorBlock": 33,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "dolorem",
-      "FullName": "Dameon Barry Block V"
+      "IconHint": "aperiam",
+      "ColorBlock": 852,
+      "ExtraInfo": "est",
+      "StyleHint": "corrupti",
+      "FullName": "Tessie Considine"
     }
   ],
-  "NickName": "Skiles Group",
+  "NickName": "Balistreri, Kemmer and Shields",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "eaque"
+    "CustomFields1": "omnis",
+    "CustomFields2": "quibusdam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Robel Inc and Sons",
-      "DisplayName": "Kuphal-Jenkins",
-      "Description": "Programmable maximized framework",
-      "ToolTip": "Eum nihil.",
+      "Name": "Kemmer-Ward",
+      "DisplayName": "Ortiz-Mitchell",
+      "Description": "Triple-buffered non-volatile local area network",
+      "ToolTip": "Quia et possimus fugiat voluptatibus repellat.",
       "Actions": "Implicit",
-      "ActionData": "autem"
+      "ActionData": "perspiciatis"
     },
     {
-      "Name": "Robel Inc and Sons",
-      "DisplayName": "Kuphal-Jenkins",
-      "Description": "Programmable maximized framework",
-      "ToolTip": "Eum nihil.",
+      "Name": "Kemmer-Ward",
+      "DisplayName": "Ortiz-Mitchell",
+      "Description": "Triple-buffered non-volatile local area network",
+      "ToolTip": "Quia et possimus fugiat voluptatibus repellat.",
       "Actions": "Implicit",
-      "ActionData": "autem"
+      "ActionData": "perspiciatis"
     }
   ]
 }
@@ -244,14 +245,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 858,
-  "Name": "Doyle, Reinger and Leuschke",
-  "Rank": 71,
-  "Tooltip": "est",
+  "AssociateId": 956,
+  "Name": "Breitenberg-Ernser",
+  "Rank": 277,
+  "Tooltip": "ipsa",
   "LicenseOwners": [
     {
-      "Name": "Bednar, Casper and Kshlerin",
-      "Description": "Managed static collaboration",
+      "Name": "Sipes Group",
+      "Description": "Upgradable methodical toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -265,13 +266,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 616
         }
       }
     },
     {
-      "Name": "Bednar, Casper and Kshlerin",
-      "Description": "Managed static collaboration",
+      "Name": "Sipes Group",
+      "Description": "Upgradable methodical toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -285,7 +286,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 616
         }
       }
     }
@@ -294,110 +295,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sit",
-      "Tooltip": "nemo",
-      "Id": 941,
-      "Rank": 106,
-      "Deleted": false,
+      "Value": "aut",
+      "Tooltip": "enim",
+      "Id": 353,
+      "Rank": 744,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-10-23T03:45:24.1548097+02:00",
-  "Lastlogout": "2015-09-27T03:45:24.1548097+02:00",
-  "EjUserId": 805,
-  "RequestSignature": "reiciendis",
+  "Deleted": true,
+  "Lastlogin": "2007-11-14T03:46:55.5976024+01:00",
+  "Lastlogout": "2008-08-27T03:46:55.5976024+02:00",
+  "EjUserId": 603,
+  "RequestSignature": "alias",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "fuga",
-      "DisplayValue": "dolores",
+      "Value": "mollitia",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 54
         }
       }
     },
     {
       "Type": null,
-      "Value": "fuga",
-      "DisplayValue": "dolores",
+      "Value": "mollitia",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 54
         }
       }
     }
   ],
-  "UserName": "Marvin, Crist and Pouros",
+  "UserName": "Pouros Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 198,
-      "Name": "Welch-Effertz",
-      "ToolTip": "Ipsam quidem.",
-      "Deleted": true,
-      "Rank": 948,
-      "Type": "voluptatem",
+      "Id": 12,
+      "Name": "Murazik Group",
+      "ToolTip": "Omnis suscipit id.",
+      "Deleted": false,
+      "Rank": 626,
+      "Type": "quidem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 128,
-      "ExtraInfo": "officia",
-      "StyleHint": "porro",
-      "FullName": "Arianna Lynch",
+      "IconHint": "sed",
+      "ColorBlock": 918,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "facere",
+      "FullName": "Dante Bosco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 277
         }
       }
     }
   ],
-  "NickName": "Rice, Homenick and Jast",
+  "NickName": "Corkery, Brown and Jerde",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quasi"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "corporis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Legros, VonRueden and Grant",
-      "DisplayName": "Walker-Kuvalis",
-      "Description": "Multi-channelled empowering open system",
-      "ToolTip": "Dolor quibusdam rerum dolorum.",
+      "Name": "Wiegand Group",
+      "DisplayName": "Hane-Ward",
+      "Description": "Face to face human-resource standardization",
+      "ToolTip": "Enim eveniet mollitia labore.",
       "Actions": "Implicit",
-      "ActionData": "ut",
+      "ActionData": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 485
         }
       }
     }
@@ -407,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 702
     }
   }
 }

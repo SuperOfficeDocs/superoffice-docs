@@ -2,6 +2,7 @@
 title: PUT List/Business/Items
 uid: v1BusinessList_PutAllBusiness
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Beahan-Larkin",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 847,
-    "Rank": 417
+    "Id": 166,
+    "Name": "Kertzmann Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 873,
+    "Rank": 590
   },
   {
-    "Id": 950,
-    "Name": "Beahan-Larkin",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 847,
-    "Rank": 417
+    "Id": 166,
+    "Name": "Kertzmann Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 873,
+    "Rank": 590
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Maggio-Padberg",
-    "Tooltip": "architecto",
+    "Id": 895,
+    "Name": "Hauck Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 628,
-    "Rank": 26,
+    "UdListDefinitionId": 675,
+    "Rank": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 894
       }
     }
   }

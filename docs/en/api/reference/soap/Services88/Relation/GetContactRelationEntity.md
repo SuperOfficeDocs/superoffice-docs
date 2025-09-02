@@ -2,6 +2,7 @@
 title: Services88.RelationAgent.GetContactRelationEntity SOAP
 generated: true
 uid: Services88-Relation-GetContactRelationEntity
+content_type: reference
 ---
 
 # Services88 Relation GetContactRelationEntity
@@ -69,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
     <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
     <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-    <Relation:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Relation:UpdatedDate>
-    <Relation:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Relation:CreatedDate>
+    <Relation:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Relation:UpdatedDate>
+    <Relation:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Relation:CreatedDate>
     <Relation:CreatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
      <Relation:Name xsi:type="xsd:string"></Relation:Name>
@@ -84,6 +85,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Relation:Deleted xsi:type="xsd:boolean">false</Relation:Deleted>
      <Relation:EjUserId xsi:type="xsd:int">0</Relation:EjUserId>
      <Relation:UserName xsi:type="xsd:string"></Relation:UserName>
+     <Relation:ExtraFields xsi:type="Relation:StringDictionary">
+      <Relation:StringKeyValuePair>
+       <Relation:Key xsi:type="xsd:string"></Relation:Key>
+       <Relation:Value xsi:type="xsd:string"></Relation:Value>
+      </Relation:StringKeyValuePair>
+     </Relation:ExtraFields>
+     <Relation:CustomFields xsi:type="Relation:StringDictionary">
+      <Relation:StringKeyValuePair>
+       <Relation:Key xsi:type="xsd:string"></Relation:Key>
+       <Relation:Value xsi:type="xsd:string"></Relation:Value>
+      </Relation:StringKeyValuePair>
+     </Relation:CustomFields>
     </Relation:CreatedBy>
     <Relation:UpdatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
@@ -98,6 +111,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Relation:Deleted xsi:type="xsd:boolean">false</Relation:Deleted>
      <Relation:EjUserId xsi:type="xsd:int">0</Relation:EjUserId>
      <Relation:UserName xsi:type="xsd:string"></Relation:UserName>
+     <Relation:ExtraFields xsi:type="Relation:StringDictionary">
+      <Relation:StringKeyValuePair>
+       <Relation:Key xsi:type="xsd:string"></Relation:Key>
+       <Relation:Value xsi:type="xsd:string"></Relation:Value>
+      </Relation:StringKeyValuePair>
+     </Relation:ExtraFields>
+     <Relation:CustomFields xsi:type="Relation:StringDictionary">
+      <Relation:StringKeyValuePair>
+       <Relation:Key xsi:type="xsd:string"></Relation:Key>
+       <Relation:Value xsi:type="xsd:string"></Relation:Value>
+      </Relation:StringKeyValuePair>
+     </Relation:CustomFields>
     </Relation:UpdatedBy>
     <Relation:SourceContactName xsi:type="xsd:string"></Relation:SourceContactName>
     <Relation:SourcePersonName xsi:type="xsd:string"></Relation:SourcePersonName>

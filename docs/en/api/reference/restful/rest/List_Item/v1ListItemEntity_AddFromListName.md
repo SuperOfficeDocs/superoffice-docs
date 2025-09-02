@@ -2,6 +2,7 @@
 title: POST List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_AddFromListName
 generated: true
+content_type: reference
 ---
 
 # POST List/{udListDefinitionName}/Items
@@ -77,16 +78,16 @@ OK
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Muller-Rowe",
-  "Tooltip": "est",
+  "Id": 393,
+  "Name": "Langosh-Lubowitz",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 655
+  "UdListDefinitionId": 193,
+  "Rank": 264
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Raynor, Christiansen and Aufderhar",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 309,
-  "Rank": 591,
+  "Id": 280,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 730,
+  "Rank": 313,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

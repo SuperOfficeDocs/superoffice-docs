@@ -2,10 +2,10 @@
 uid: table-invoice_entry
 title: invoice_entry table
 description: This table contain all invoices, connected to a message
-so.generated: true
+generated: true
 keywords: database table invoice_entry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # invoice\_entry Table (360)

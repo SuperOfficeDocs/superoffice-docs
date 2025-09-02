@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SetBlobStream SOAP
 generated: true
 uid: Services88-BLOB-SetBlobStream
+content_type: reference
 ---
 
 # Services88 BLOB SetBlobStream

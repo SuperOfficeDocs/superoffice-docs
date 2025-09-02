@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 uid: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
@@ -95,13 +96,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    513,
-    956
+    356,
+    137
   ],
   "State": "All"
 }
@@ -115,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Huels, Mosciski and Corwin",
-    "AssociateId": 496,
-    "DetailsTable": 76,
-    "DetailsRecord": 369,
+    "Id": 699,
+    "Name": "Heidenreich, Grimes and Tremblay",
+    "AssociateId": 623,
+    "DetailsTable": 14,
+    "DetailsRecord": 604,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nesciunt",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "earum",
+      "ParameterObject2": "omnis"
     },
-    "LastStarted": "2020-09-25T03:45:22.9829669+02:00",
-    "Created": "2008-05-04T03:45:22.9829669+02:00",
-    "StartCount": 453,
-    "DatabaseSerialNumber": "632325",
-    "Context": "eaque",
-    "Result": "quo",
+    "LastStarted": "2014-05-24T03:46:54.3007673+02:00",
+    "Created": "1999-02-14T03:46:54.3007673+01:00",
+    "StartCount": 169,
+    "DatabaseSerialNumber": "1743961",
+    "Context": "repudiandae",
+    "Result": "voluptates",
     "State": "All",
-    "Description": "Exclusive national complexity",
-    "Response": "aut",
-    "Request": "eos",
-    "ProgressDescription": "Multi-tiered radical instruction set",
-    "ProgressPercent": 589,
-    "FileName": "Herman-Herman",
+    "Description": "Re-contextualized contextually-based function",
+    "Response": "ut",
+    "Request": "accusantium",
+    "ProgressDescription": "Reduced responsive interface",
+    "ProgressPercent": 156,
+    "FileName": "Bashirian, Bernier and Gulgowski",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 691
       }
     }
   }

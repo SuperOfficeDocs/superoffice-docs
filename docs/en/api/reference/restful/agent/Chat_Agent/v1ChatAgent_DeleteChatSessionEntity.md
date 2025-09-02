@@ -2,6 +2,7 @@
 title: POST Agents/Chat/DeleteChatSessionEntity
 uid: v1ChatAgent_DeleteChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/DeleteChatSessionEntity
@@ -22,10 +23,10 @@ Deletes the ChatSessionEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ChatSessionEntityId | int32 | **Required** The id of the ChatSessionEntity to be deleted. |
+| chatSessionEntityId | int32 | **Required** The identity of the ChatSessionEntity |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatSessionEntity?ChatSessionEntityId=324
+POST /api/v1/Agents/Chat/DeleteChatSessionEntity?chatSessionEntityId=705
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

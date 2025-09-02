@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.VerifyGetDocumentStream SOAP
 generated: true
 uid: Services88-Document-VerifyGetDocumentStream
+content_type: reference
 ---
 
 # Services88 Document VerifyGetDocumentStream

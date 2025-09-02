@@ -2,6 +2,7 @@
 title: POST Agents/Sale/UpdateSaleStakeholders
 uid: v1SaleAgent_UpdateSaleStakeholders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/UpdateSaleStakeholders
@@ -91,31 +92,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Smith LLC",
-      "Comment": "veritatis",
-      "StakeholderRoleId": 569,
-      "CountryId": 376,
-      "PersonId": 420,
-      "EmailDescription": "wayne_emard@heaney.uk",
-      "EmailId": 256,
-      "EmailAddress": "marietta_dooley@reynoldsschowalter.uk",
-      "PhoneId": 969,
-      "ContactName": "Barton, Altenwerth and Hilll",
-      "ContactId": 449,
-      "SaleId": 387,
-      "Mrmrs": "modi",
-      "Firstname": "Timothy",
-      "MiddleName": "Littel-Buckridge",
-      "Lastname": "West",
-      "SaleStakeholderId": 40,
-      "Rank": 869,
-      "Phone": "581.212.8706 x1183"
+      "StakeholderRoleName": "Hahn, Becker and Upton",
+      "Comment": "possimus",
+      "StakeholderRoleId": 197,
+      "CountryId": 593,
+      "PersonId": 820,
+      "EmailDescription": "hiram@crist.com",
+      "EmailId": 235,
+      "EmailAddress": "heath_emmerich@buckridgechristiansen.name",
+      "PhoneId": 936,
+      "ContactName": "Morissette Inc and Sons",
+      "ContactId": 177,
+      "SaleId": 592,
+      "Mrmrs": "est",
+      "Firstname": "Jolie",
+      "MiddleName": "Bartell Group",
+      "Lastname": "Conn",
+      "SaleStakeholderId": 89,
+      "Rank": 994,
+      "Phone": "(161)459-4393"
     }
   ]
 }
@@ -129,31 +130,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Konopelski, O'Reilly and Lesch",
-    "Comment": "eos",
-    "StakeholderRoleId": 614,
-    "CountryId": 342,
-    "PersonId": 576,
-    "EmailDescription": "lyda.king@lehnergislason.co.uk",
-    "EmailId": 442,
-    "EmailAddress": "lysanne.renner@olson.uk",
-    "PhoneId": 590,
-    "ContactName": "Kshlerin-Cronin",
-    "ContactId": 900,
-    "SaleId": 918,
-    "Mrmrs": "vel",
-    "Firstname": "Shany",
-    "MiddleName": "Kuphal Group",
-    "Lastname": "Powlowski",
-    "SaleStakeholderId": 614,
-    "Rank": 273,
-    "Phone": "(359)115-8417 x732",
+    "StakeholderRoleName": "Blanda LLC",
+    "Comment": "sapiente",
+    "StakeholderRoleId": 558,
+    "CountryId": 212,
+    "PersonId": 256,
+    "EmailDescription": "anita@johnston.info",
+    "EmailId": 754,
+    "EmailAddress": "donny@bergstrom.uk",
+    "PhoneId": 912,
+    "ContactName": "Dietrich, Bernhard and Armstrong",
+    "ContactId": 554,
+    "SaleId": 445,
+    "Mrmrs": "dignissimos",
+    "Firstname": "Landen",
+    "MiddleName": "Sipes Group",
+    "Lastname": "Koss",
+    "SaleStakeholderId": 76,
+    "Rank": 823,
+    "Phone": "(483)038-8383",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 955
       }
     }
   }

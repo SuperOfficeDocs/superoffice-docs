@@ -2,6 +2,7 @@
 title: GET List/Category/Items/Default
 uid: v1CategoryList_CreateDefaultCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Items/Default
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Lynch Inc and Sons",
-  "Tooltip": "ex",
+  "Id": 89,
+  "Name": "Jakubowski-Ward",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 596,
-  "Rank": 836,
+  "UdListDefinitionId": 776,
+  "Rank": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

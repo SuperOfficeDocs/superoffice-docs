@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPerson
 uid: v1PersonAgent_GetPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPerson
@@ -22,11 +23,11 @@ Gets a Person object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| personId | int32 | **Required** The primary key. |
+| personId | int32 | **Required** The identifier of the Person object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=223
+POST /api/v1/Agents/Person/GetPerson?personId=14
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +118,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "est",
-  "PersonId": 774,
-  "Mrmrs": "in",
-  "Firstname": "Luna",
-  "Lastname": "Blick",
-  "MiddleName": "Eichmann-Lebsack",
-  "Title": "odio",
-  "Description": "Horizontal cohesive methodology",
-  "Email": "orval_hoeger@hessel.name",
-  "FullName": "Prof. Katelin Cruickshank MD",
-  "DirectPhone": "091.402.1597",
-  "FormalName": "Skiles LLC",
-  "CountryId": 332,
-  "ContactId": 636,
-  "ContactName": "Hilll Inc and Sons",
-  "Retired": 142,
-  "Rank": 511,
-  "ActiveInterests": 884,
+  "Position": "nulla",
+  "PersonId": 585,
+  "Mrmrs": "eum",
+  "Firstname": "Luciano",
+  "Lastname": "Huels",
+  "MiddleName": "Murphy-Collins",
+  "Title": "unde",
+  "Description": "Future-proofed optimal analyzer",
+  "Email": "furman@weimanngreen.uk",
+  "FullName": "Joanny Berge",
+  "DirectPhone": "823.032.6633 x74222",
+  "FormalName": "Ledner-O'Connell",
+  "CountryId": 261,
+  "ContactId": 551,
+  "ContactName": "Kulas, Pfeffer and Johnston",
+  "Retired": 289,
+  "Rank": 247,
+  "ActiveInterests": 160,
   "ContactDepartment": "",
-  "ContactCountryId": 506,
-  "ContactOrgNr": "878198",
-  "FaxPhone": "1-593-557-3103",
-  "MobilePhone": "298.563.8731 x553",
-  "ContactPhone": "1-115-199-1111 x728",
-  "AssociateName": "Pouros LLC",
-  "AssociateId": 862,
+  "ContactCountryId": 842,
+  "ContactOrgNr": "1048308",
+  "FaxPhone": "1-570-435-2094 x9035",
+  "MobilePhone": "231-164-0647 x936",
+  "ContactPhone": "1-073-417-8213 x58268",
+  "AssociateName": "Gislason, Schiller and Altenwerth",
+  "AssociateId": 985,
   "UsePersonAddress": true,
-  "ContactFax": "itaque",
-  "Kanafname": "inventore",
-  "Kanalname": "esse",
-  "Post1": "voluptatem",
-  "Post2": "in",
-  "Post3": "quo",
-  "EmailName": "ernest.schaden@lebsack.com",
-  "ContactFullName": "Prof. Alba Rosenbaum PhD",
-  "ActiveErpLinks": 754,
-  "TicketPriorityId": 157,
-  "SupportLanguageId": 108,
-  "SupportAssociateId": 319,
+  "ContactFax": "necessitatibus",
+  "Kanafname": "soluta",
+  "Kanalname": "enim",
+  "Post1": "incidunt",
+  "Post2": "qui",
+  "Post3": "natus",
+  "EmailName": "travis@trompswaniawski.info",
+  "ContactFullName": "Cleo Emard",
+  "ActiveErpLinks": 665,
+  "TicketPriorityId": 276,
+  "SupportLanguageId": 104,
+  "SupportAssociateId": 408,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1704933",
+  "PersonNumber": "242617",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldLength": 764
     }
   }
 }

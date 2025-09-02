@@ -3,9 +3,9 @@ uid: DiaryActivity
 title: DiaryActivity
 description: Activity archive provider for the Diary (checklist)
 keywords: DiaryActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "DiaryActivity"
@@ -770,7 +770,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=type,documentPublish/publishedBy,person/personAddress/city,person/correspondingAssociate/usergroupId,contact/searchPhone/description
+GET /api/v1/archive/DiaryActivity?$select=person/personAddress/city,person/restrictionAddress/line1,person/personAssociate/credentialType,person/correspondingAssociate/fullName,contact/SaintStatus2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

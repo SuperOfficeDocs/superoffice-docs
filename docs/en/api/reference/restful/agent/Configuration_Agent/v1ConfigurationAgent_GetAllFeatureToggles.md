@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetAllFeatureToggles
 uid: v1ConfigurationAgent_GetAllFeatureToggles
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetAllFeatureToggles
@@ -71,6 +72,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": true,
-  "2": true
+  "2": false
 }
 ```

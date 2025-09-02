@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ReasonSold
 title: List_ReasonSold
 generated: true
+content_type: reference
 ---
 
 ```http

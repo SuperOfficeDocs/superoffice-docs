@@ -3,9 +3,9 @@ uid: DocumentStaticSelection
 title: DocumentStaticSelection
 description: 
 keywords: DocumentStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "DocumentStaticSelection"
@@ -723,7 +723,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentStaticSelection?$select=documentPublish/isPublished,person/personCategory,person/email/emailBounceCount,contact/phone/formattedNumber,contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/DocumentStaticSelection?$select=getNoRows,person/personAddress/wgs84longitude,person/personExtra/x_person_timespan,project/completed,sale/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

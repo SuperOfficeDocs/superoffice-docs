@@ -2,6 +2,7 @@
 title: GET License/{moduleOwner}/{id}
 uid: v1License_GetThirdPartyLicenseAssignments
 generated: true
+content_type: reference
 ---
 
 # GET License/{moduleOwner}/{id}
@@ -85,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 630,
-    "Tooltip": "voluptatibus",
+    "Total": 347,
+    "Tooltip": "molestiae",
     "CanAssign": false,
-    "Free": 274,
-    "InUse": 435,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 710,
-    "Name": "Bechtelar-Kub",
-    "Description": "Enterprise-wide zero administration support",
-    "PrerequisiteModuleName": "Kunde, Baumbach and Fay",
-    "SortOrder": 383,
-    "ExtraFlags": 714,
+    "Free": 538,
+    "InUse": 245,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 969,
+    "Name": "Green-Farrell",
+    "Description": "Triple-buffered high-level ability",
+    "PrerequisiteModuleName": "Thompson Inc and Sons",
+    "SortOrder": 391,
+    "ExtraFlags": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 721
       }
     }
   }

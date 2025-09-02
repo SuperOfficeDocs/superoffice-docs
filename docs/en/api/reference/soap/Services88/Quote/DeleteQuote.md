@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.DeleteQuote SOAP
 generated: true
 uid: Services88-Quote-DeleteQuote
+content_type: reference
 ---
 
 # Services88 Quote DeleteQuote

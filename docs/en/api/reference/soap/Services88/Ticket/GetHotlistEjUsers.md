@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetHotlistEjUsers SOAP
 generated: true
 uid: Services88-Ticket-GetHotlistEjUsers
+content_type: reference
 ---
 
 # Services88 Ticket GetHotlistEjUsers

@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/GetRefCountEntity
 uid: v1NumberAllocationAgent_GetRefCountEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/GetRefCountEntity
@@ -22,11 +23,11 @@ Gets a RefCountEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| refCountEntityId | int32 | **Required** The primary key. |
+| refCountEntityId | int32 | **Required** The identifier of the RefCountEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=866
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=129
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,49 +88,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 680,
-  "Field": "quas",
-  "RecordId": 24,
+  "RefCountsId": 636,
+  "Field": "dolorem",
+  "RecordId": 864,
   "SuggestedRecords": [
     {
-      "Id": 31,
-      "Name": "Blick-Gislason",
-      "ToolTip": "Est provident quo.",
-      "Deleted": false,
-      "Rank": 93,
-      "Type": "aspernatur",
+      "Id": 144,
+      "Name": "Von, Fisher and Stokes",
+      "ToolTip": "Dolor laboriosam aut.",
+      "Deleted": true,
+      "Rank": 675,
+      "Type": "aliquid",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 452,
-      "ExtraInfo": "tempore",
-      "StyleHint": "non",
-      "FullName": "Prof. Clovis VonRueden",
+      "IconHint": "itaque",
+      "ColorBlock": 781,
+      "ExtraInfo": "vitae",
+      "StyleHint": "eligendi",
+      "FullName": "Tia Crooks",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     }
   ],
-  "CurrentValue": 976,
-  "TravelPrefix": 817,
-  "SatPrefix": 69,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 938,
+  "TravelPrefix": 535,
+  "SatPrefix": 565,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

@@ -3,9 +3,9 @@ uid: form
 title: form
 keywords: mdoprovider mdo provider form
 description: Get all forms with folder hierarchy. Set ExtraInfo "onlyActive=true" if you only want to get active forms and "onlyNewTicket=true" if only forms that create tickets. Set extrainfo "onlyForms=true" if you do not want form templates.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "form" MDO List

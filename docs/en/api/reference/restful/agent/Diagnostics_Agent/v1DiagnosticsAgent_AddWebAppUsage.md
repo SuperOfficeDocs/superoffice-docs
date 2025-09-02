@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/AddWebAppUsage
 uid: v1DiagnosticsAgent_AddWebAppUsage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/AddWebAppUsage
@@ -64,19 +65,19 @@ No Content
 POST /api/v1/Agents/Diagnostics/AddWebAppUsage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 8,
-      "AssocId": 127,
-      "Timestamp": "2020-11-21T03:45:23.2798335+01:00",
-      "ViewState": "facilis",
-      "AggregateCount": 552,
-      "AggregateBin": 4,
-      "Version": 346
+      "WebAppUsageId": 151,
+      "AssocId": 388,
+      "Timestamp": "1999-11-26T03:46:54.6132622+01:00",
+      "ViewState": "molestias",
+      "AggregateCount": 43,
+      "AggregateBin": 722,
+      "Version": 45
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: Services88.AIAgent.SummarizeSale SOAP
 generated: true
 uid: Services88-AI-SummarizeSale
+content_type: reference
 ---
 
 # Services88 AI SummarizeSale

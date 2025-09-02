@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.SendEvent SOAP
 generated: true
 uid: Services88-Workflow-SendEvent
+content_type: reference
 ---
 
 # Services88 Workflow SendEvent

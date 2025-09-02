@@ -2,6 +2,7 @@
 title: GET Person/CustomField/{fieldName}
 uid: v1PersonEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Person/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Vandervort, D'Amore and Beahan",
-  "DisplayName": "Ratke LLC",
-  "Description": "Distributed heuristic concept",
-  "ShortLabel": "nobis",
+  "FieldName": "Paucek, Breitenberg and Koepp",
+  "DisplayName": "Weber-Orn",
+  "Description": "Front-line reciprocal attitude",
+  "ShortLabel": "et",
   "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 208,
-  "TemplateVariableName": "Roob-Gulgowski"
+  "IsReadOnly": false,
+  "IsExternal": true,
+  "IsDisplayField": false,
+  "Rank": 385,
+  "TemplateVariableName": "Mayert Inc and Sons"
 }
 ```

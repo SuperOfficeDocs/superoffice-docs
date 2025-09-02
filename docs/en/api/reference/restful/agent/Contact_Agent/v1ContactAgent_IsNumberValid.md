@@ -2,6 +2,7 @@
 title: POST Agents/Contact/IsNumberValid
 uid: v1ContactAgent_IsNumberValid
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/IsNumberValid
@@ -75,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 656,
-  "Number": "695516"
+  "ContactId": 376,
+  "Number": "506791"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentLength SOAP
 generated: true
 uid: Services88-Document-GetDocumentLength
+content_type: reference
 ---
 
 # Services88 Document GetDocumentLength

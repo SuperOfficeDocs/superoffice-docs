@@ -3,9 +3,9 @@ uid: project_new
 title: project_new
 keywords: mdoprovider mdo provider project_new
 description: Provider for selecting a project. Returns search results in rank order Supports searching across project text fields. Respects the Project.SkipCompletedProjects user preference.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "project_new" MDO List

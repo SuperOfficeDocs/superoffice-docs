@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 uid: v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 55
+  "SelectedListId": 829
 }
 ```
 
@@ -123,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 600,
-  "ColumnId": 159,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 311,
-  "FieldLabel": "qui",
-  "FieldLeft": 306,
-  "FieldTop": 539,
+  "UDefFieldId": 752,
+  "ColumnId": 602,
+  "FieldDefault": "perspiciatis",
+  "FieldHeight": 487,
+  "FieldLabel": "nulla",
+  "FieldLeft": 764,
+  "FieldTop": 62,
   "FieldType": "Checkbox",
-  "FieldWidth": 891,
-  "FormatMask": "nobis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 302,
-  "LabelLeft": 615,
-  "LabelTop": 990,
-  "LabelWidth": 267,
-  "LastVersionId": 779,
-  "ListTableId": 449,
+  "FieldWidth": 676,
+  "FormatMask": "sint",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 229,
+  "LabelLeft": 455,
+  "LabelTop": 140,
+  "LabelWidth": 288,
+  "LastVersionId": 426,
+  "ListTableId": 214,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 414,
-  "ProgId": "debitis",
-  "IsReadOnly": true,
-  "ShortLabel": "tempora",
-  "TabOrder": 923,
-  "TextLength": 691,
-  "Tooltip": "ea",
-  "UdefIdentity": 857,
-  "UDListDefinitionId": 142,
+  "Page1LineNo": 708,
+  "ProgId": "rerum",
+  "IsReadOnly": false,
+  "ShortLabel": "porro",
+  "TabOrder": 411,
+  "TextLength": 204,
+  "Tooltip": "nulla",
+  "UdefIdentity": 797,
+  "UDListDefinitionId": 867,
   "Justification": "Center",
-  "Version": 922,
-  "TemplateVariableName": "Robel, Boehm and Halvorson",
+  "Version": 482,
+  "TemplateVariableName": "Klein Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski-Wintheiser",
+  "MdoListName": "Osinski, Connelly and Hyatt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldLength": 838
     }
   }
 }

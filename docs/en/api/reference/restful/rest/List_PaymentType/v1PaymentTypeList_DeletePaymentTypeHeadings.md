@@ -2,6 +2,7 @@
 title: DEL List/PaymentType/Headings
 uid: v1PaymentTypeList_DeletePaymentTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/PaymentType/Headings

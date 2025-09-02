@@ -2,6 +2,7 @@
 title: POST Agents/List/GetWebPanelByProgId
 uid: v1ListAgent_GetWebPanelByProgId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetWebPanelByProgId
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "autem"
+  "ProgId": "et"
 }
 ```
 
@@ -109,26 +110,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 457,
-  "Name": "Armstrong-Kovacek",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 437,
+  "WebPanelId": 283,
+  "Name": "Kuhlman, Block and Hettinger",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 919,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Schmeler Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Thiel, Gislason and Wyman",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 658,
+  "ProgId": "adipisci",
+  "Icon": 449,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -136,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldLength": 572
     }
   }
 }

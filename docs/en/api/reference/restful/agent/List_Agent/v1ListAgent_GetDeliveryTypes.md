@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDeliveryTypes
 uid: v1ListAgent_GetDeliveryTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDeliveryTypes
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Value": "dolor",
-    "Tooltip": "assumenda",
+    "Id": 676,
+    "Value": "aut",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   },
   {
-    "Id": 77,
-    "Value": "dolor",
-    "Tooltip": "assumenda",
+    "Id": 676,
+    "Value": "aut",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

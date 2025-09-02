@@ -2,10 +2,10 @@
 uid: enum-targetperiodtype
 title: Enum values for TargetPeriodType
 description: Lists the enum values for TargetPeriodType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TargetPeriodType Enum

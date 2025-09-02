@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.Html2Text SOAP
 generated: true
 uid: Services88-Ticket-Html2Text
+content_type: reference
 ---
 
 # Services88 Ticket Html2Text

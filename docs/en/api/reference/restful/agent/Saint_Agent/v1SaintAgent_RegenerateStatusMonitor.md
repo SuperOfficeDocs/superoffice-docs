@@ -2,6 +2,7 @@
 title: POST Agents/Saint/RegenerateStatusMonitor
 uid: v1SaintAgent_RegenerateStatusMonitor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/RegenerateStatusMonitor
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Saint/RegenerateStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StatusMonitorId": 713
+  "StatusMonitorId": 14
 }
 ```
 

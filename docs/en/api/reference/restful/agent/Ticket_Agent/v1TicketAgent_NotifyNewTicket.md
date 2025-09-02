@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/NotifyNewTicket
 uid: v1TicketAgent_NotifyNewTicket
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/NotifyNewTicket
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 460
+  "TicketEntityId": 52
 }
 ```
 

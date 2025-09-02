@@ -2,6 +2,7 @@
 title: POST Agents/Relation/GetContactRelationEntity
 uid: v1RelationAgent_GetContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Relation/GetContactRelationEntity
@@ -22,11 +23,11 @@ Gets a ContactRelationEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| contactRelationEntityId | int32 | **Required** The primary key. |
+| contactRelationEntityId | int32 | **Required** The identifier of the ContactRelationEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=228
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=422
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 794,
-  "SourcePersonId": 420,
-  "DestinationContactId": 254,
-  "DestinationPersonId": 497,
-  "RelationId": 32,
-  "Comment": "et",
-  "RelationDefinitionId": 70,
-  "Reversed": 693,
-  "UpdatedDate": "2004-02-15T03:45:23.8423206+01:00",
-  "CreatedDate": "2013-06-17T03:45:23.8423206+02:00",
+  "SourceContactId": 993,
+  "SourcePersonId": 342,
+  "DestinationContactId": 228,
+  "DestinationPersonId": 319,
+  "RelationId": 681,
+  "Comment": "eum",
+  "RelationDefinitionId": 89,
+  "Reversed": 849,
+  "UpdatedDate": "2009-01-06T03:46:55.2382402+01:00",
+  "CreatedDate": "2014-11-25T03:46:55.2382402+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beahan, Schumm and Schroeder",
-  "SourcePersonName": "Nicolas LLC",
-  "DestinationContactName": "Bauch Group",
-  "DestinationPersonName": "Deckow Group",
+  "SourceContactName": "Jewess, Zboncak and Swift",
+  "SourcePersonName": "Conroy, Swift and Gottlieb",
+  "DestinationContactName": "Schumm, Grady and Gerhold",
+  "DestinationPersonName": "Hamill-Schimmel",
   "ActiveText": "et",
-  "PassiveText": "non",
+  "PassiveText": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

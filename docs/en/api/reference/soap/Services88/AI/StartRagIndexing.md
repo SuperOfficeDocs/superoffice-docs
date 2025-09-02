@@ -2,6 +2,7 @@
 title: Services88.AIAgent.StartRagIndexing SOAP
 generated: true
 uid: Services88-AI-StartRagIndexing
+content_type: reference
 ---
 
 # Services88 AI StartRagIndexing

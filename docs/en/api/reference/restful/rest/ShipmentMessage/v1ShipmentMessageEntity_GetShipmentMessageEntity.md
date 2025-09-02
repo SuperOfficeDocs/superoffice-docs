@@ -2,6 +2,7 @@
 title: GET ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_GetShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # GET ShipmentMessage/{id}
@@ -93,7 +94,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,33 +104,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 412,
-  "PlainMessage": "sunt",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "soluta",
-  "Description": "Ameliorated tangible leverage",
-  "Subject": "eum",
-  "FolderId": 962,
-  "HeaderField": "debitis",
-  "Design": "voluptatum",
+  "ShipmentMessageId": 436,
+  "PlainMessage": "delectus",
+  "HtmlMessage": "deleniti",
+  "SmsMessage": "aliquid",
+  "Description": "Automated discrete adapter",
+  "Subject": "itaque",
+  "FolderId": 298,
+  "HeaderField": "cupiditate",
+  "Design": "adipisci",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Devolved next generation success",
-  "AccessKey": "ea",
-  "DocumentMessage": 208,
-  "Registered": "1998-11-26T03:45:28.6546813+01:00",
-  "RegisteredAssociateId": 88,
-  "Updated": "2012-08-21T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 519,
-  "UpdatedCount": 871,
+  "LongDescription": "Vision-oriented 24/7 protocol",
+  "AccessKey": "maiores",
+  "DocumentMessage": 27,
+  "Registered": "2009-06-20T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 824,
+  "Updated": "2003-07-19T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 527,
+  "UpdatedCount": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   },
   "_Links": {

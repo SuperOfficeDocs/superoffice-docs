@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailEntity
 uid: v1EMailAgent_CreateDefaultEMailEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEntity
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 ```
 
-Set default values into a new EMailEntity.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailEntity.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -85,7 +83,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,148 +95,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 955,
-      "ContactName": "Spinka-Hessel",
-      "PersonId": 76,
-      "PersonName": "Hodkiewicz-Shields",
-      "AssociateId": 695,
-      "Address": "iure",
-      "EmailId": 20,
+      "ContactId": 539,
+      "ContactName": "Bogisich LLC",
+      "PersonId": 477,
+      "PersonName": "Rodriguez, Connelly and Morissette",
+      "AssociateId": 420,
+      "Address": "qui",
+      "EmailId": 169,
       "DuplicatePersonIds": [
-        516,
-        639
+        75,
+        312
       ],
-      "Name": "Marquardt LLC",
+      "Name": "McDermott, Bode and Swift",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 591
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 476,
-      "ContactName": "Lueilwitz Inc and Sons",
-      "PersonId": 121,
-      "PersonName": "Flatley-Hintz",
-      "AssociateId": 23,
-      "Address": "dicta",
-      "EmailId": 592,
+      "ContactId": 727,
+      "ContactName": "DuBuque LLC",
+      "PersonId": 493,
+      "PersonName": "Reynolds Group",
+      "AssociateId": 66,
+      "Address": "voluptatum",
+      "EmailId": 2,
       "DuplicatePersonIds": [
-        839,
-        268
+        20,
+        981
       ],
-      "Name": "Jewess-Batz",
+      "Name": "Lesch, Heidenreich and Prohaska",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldLength": 222
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 534,
-      "ContactName": "Bradtke, Ferry and Upton",
-      "PersonId": 453,
-      "PersonName": "Crist LLC",
-      "AssociateId": 957,
-      "Address": "labore",
-      "EmailId": 180,
+      "ContactId": 409,
+      "ContactName": "Crist LLC",
+      "PersonId": 779,
+      "PersonName": "Runte-Runolfsson",
+      "AssociateId": 906,
+      "Address": "qui",
+      "EmailId": 561,
       "DuplicatePersonIds": [
-        517,
-        786
+        162,
+        638
       ],
-      "Name": "Kessler-Hammes",
+      "Name": "Auer-Koch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 88
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "corrupti",
+  "Subject": "eligendi",
+  "HTMLBody": "quisquam",
   "From": null,
-  "Sent": "2023-02-02T03:45:23.4048314+01:00",
-  "Size": 526,
+  "Sent": "2010-12-02T03:46:54.7695066+01:00",
+  "Size": 201,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eaque",
-  "PlainBody": "eum",
+  "MessageID": "quis",
+  "PlainBody": "aspernatur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 325,
+  "ServerId": 483,
   "Attachments": [
     {
-      "Description": "Future-proofed composite support",
-      "Filename": "voluptatem",
-      "Size": 484,
-      "Type": "quis",
-      "Encoding": "quasi",
-      "Id": "iure",
-      "Disposition": "provident",
-      "IsSafeFileExtension": true,
+      "Description": "Visionary bandwidth-monitored leverage",
+      "Filename": "ut",
+      "Size": 646,
+      "Type": "est",
+      "Encoding": "eveniet",
+      "Id": "laboriosam",
+      "Disposition": "rem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 502
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "King, Douglas and Rath",
+      "Name": "Stracke Group",
       "Values": [
-        "et",
-        "aut"
+        "quia",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 368
         }
       }
     },
     {
-      "Name": "King, Douglas and Rath",
+      "Name": "Stracke Group",
       "Values": [
-        "et",
-        "aut"
+        "quia",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 368
         }
       }
     }
   ],
-  "FolderName": "Waters-Morissette",
-  "EmailItemId": 203,
-  "AccountId": 811,
-  "ReceivedAt": "2024-01-11T03:45:23.4048314+01:00",
+  "FolderName": "Kutch-Lowe",
+  "EmailItemId": 509,
+  "AccountId": 660,
+  "ReceivedAt": "2023-08-27T03:46:54.7695066+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-04-07T03:45:23.4048314+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-04-19T03:46:54.7695066+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 990
     }
   }
 }

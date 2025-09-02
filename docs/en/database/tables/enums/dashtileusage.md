@@ -2,10 +2,10 @@
 uid: enum-dashtileusage
 title: Enum values for DashTileUsage
 description: Lists the enum values for DashTileUsage.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DashTileUsage Enum

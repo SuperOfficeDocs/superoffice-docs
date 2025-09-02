@@ -2,6 +2,7 @@
 title: DEL List/TicketCategory/Items/{id}
 uid: v1TicketCategoryList_DeleteTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/TicketCategory/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

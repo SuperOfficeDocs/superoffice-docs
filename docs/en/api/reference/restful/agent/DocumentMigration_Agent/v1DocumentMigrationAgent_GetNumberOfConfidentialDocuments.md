@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/GetNumberOfConfidentialDocuments
 uid: v1DocumentMigrationAgent_GetNumberOfConfidentialDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/GetNumberOfConfidentialDocuments
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetNumberOfConfidentialDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,5 +72,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-401
+809
 ```

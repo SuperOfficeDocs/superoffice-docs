@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
 uid: v1SelectionAgent_GetRecipientStatisticsFromProjectMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 443
+  "ProjectId": 203
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 192,
-  "ValidPostalAddresses": 482,
-  "ValidEmailAddresses": 474,
-  "ValidFaxNumbers": 613,
-  "NoAddresses": 534,
-  "NoFaxOrEmails": 423,
+  "Total": 484,
+  "ValidPostalAddresses": 803,
+  "ValidEmailAddresses": 505,
+  "ValidFaxNumbers": 192,
+  "NoAddresses": 326,
+  "NoFaxOrEmails": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 47
     }
   }
 }

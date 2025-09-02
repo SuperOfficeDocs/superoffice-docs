@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.UndeleteByIds SOAP
 generated: true
 uid: Services88-Ticket-UndeleteByIds
+content_type: reference
 ---
 
 # Services88 Ticket UndeleteByIds

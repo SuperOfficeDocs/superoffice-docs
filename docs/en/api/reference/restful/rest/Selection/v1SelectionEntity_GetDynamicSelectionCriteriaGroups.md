@@ -2,6 +2,7 @@
 title: GET Selection/{id}/CriteriaGroups
 uid: v1SelectionEntity_GetDynamicSelectionCriteriaGroups
 generated: true
+content_type: reference
 ---
 
 # GET Selection/{id}/CriteriaGroups
@@ -62,7 +63,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +74,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir, Kub and Conn",
-    "Description": "Focused disintermediate standardization",
-    "Rank": 811,
+    "Name": "Jerde Group",
+    "Description": "Customer-focused web-enabled utilisation",
+    "Rank": 133,
     "Restrictions": [
       {
-        "Name": "Kassulke Inc and Sons",
-        "Operator": "odit",
+        "Name": "Raynor, Mueller and Hagenes",
+        "Operator": "doloremque",
         "Values": [
-          "quaerat",
-          "laborum"
+          "libero",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "sint"
+          "officia",
+          "cumque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +95,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 636,
+        "InterParenthesis": 580,
         "InterOperator": "And",
-        "UniqueHash": 883
+        "UniqueHash": 6
       }
     ]
   },
   {
-    "Name": "Runolfsdottir, Kub and Conn",
-    "Description": "Focused disintermediate standardization",
-    "Rank": 811,
+    "Name": "Jerde Group",
+    "Description": "Customer-focused web-enabled utilisation",
+    "Rank": 133,
     "Restrictions": [
       {
-        "Name": "Kassulke Inc and Sons",
-        "Operator": "odit",
+        "Name": "Raynor, Mueller and Hagenes",
+        "Operator": "doloremque",
         "Values": [
-          "quaerat",
-          "laborum"
+          "libero",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "sint"
+          "officia",
+          "cumque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +123,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 636,
+        "InterParenthesis": 580,
         "InterOperator": "And",
-        "UniqueHash": 883
+        "UniqueHash": 6
       }
     ]
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetHelpDispatcherUrl
 uid: v1ConfigurationAgent_GetHelpDispatcherUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetHelpDispatcherUrl

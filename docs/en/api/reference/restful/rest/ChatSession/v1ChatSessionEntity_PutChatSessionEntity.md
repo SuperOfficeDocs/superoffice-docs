@@ -2,6 +2,7 @@
 title: PUT ChatSession/{id}
 uid: v1ChatSessionEntity_PutChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # PUT ChatSession/{id}
@@ -139,41 +140,41 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 936,
-  "TopicId": 362,
+  "ChatSessionId": 199,
+  "TopicId": 972,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "tempore",
-  "CustomerName": "Weber, Donnelly and Jaskolski",
-  "CustomerEmail": "terrell@bruen.name",
-  "CustomerPhone": "272-990-5676",
+  "CustomerAlias": "sed",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Kilback LLC",
+  "CustomerEmail": "salma_heathcote@emard.info",
+  "CustomerPhone": "029.748.2758 x6185",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Tremblay-Pagac",
+  "CustomerCompanyName": "Lynch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "fugiat",
-  "LastMessage": "maxime",
-  "WhenRequested": "2009-08-03T03:45:28.1078228+02:00",
-  "WhenStarted": "2013-07-29T03:45:28.1078228+02:00",
-  "WhenEnded": "2021-03-09T03:45:28.1078228+01:00",
-  "WhenIdle": "2015-07-06T03:45:28.1078228+02:00",
-  "WhenFetched": "2008-08-17T03:45:28.1078228+02:00",
-  "SessionKey": "illo",
-  "InitialQueuePos": 692,
-  "AlertLevel": 318,
-  "Rank": 636,
+  "FirstMessage": "tempora",
+  "LastMessage": "numquam",
+  "WhenRequested": "2017-07-04T03:46:59.7380732+02:00",
+  "WhenStarted": "2023-10-09T03:46:59.7380732+02:00",
+  "WhenEnded": "2023-11-17T03:46:59.7380732+01:00",
+  "WhenIdle": "2002-09-12T03:46:59.7380732+02:00",
+  "WhenFetched": "2014-09-22T03:46:59.7380732+02:00",
+  "SessionKey": "ipsam",
+  "InitialQueuePos": 82,
+  "AlertLevel": 437,
+  "Rank": 917,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 244
+  "ChatbotIsActive": false,
+  "Rating": 277
 }
 ```
 
@@ -184,29 +185,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 222,
-  "TopicId": 536,
+  "ChatSessionId": 692,
+  "TopicId": 700,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "impedit",
-  "CustomerName": "Funk Inc and Sons",
-  "CustomerEmail": "chadrick.fahey@paucekmedhurst.name",
-  "CustomerPhone": "204-701-7712",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hodkiewicz LLC",
+  "CustomerAlias": "est",
+  "CustomerHost": "inventore",
+  "CustomerName": "Howe, Kuvalis and Kuhn",
+  "CustomerEmail": "nora@champlin.com",
+  "CustomerPhone": "(539)385-4237 x56137",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Borer-Greenfelder",
   "Status": "Closed",
-  "FirstMessage": "eligendi",
-  "LastMessage": "aut",
-  "WhenRequested": "2020-12-20T03:45:28.1078228+01:00",
-  "WhenStarted": "2009-12-07T03:45:28.1078228+01:00",
-  "WhenEnded": "2020-11-24T03:45:28.1078228+01:00",
-  "WhenIdle": "2007-01-31T03:45:28.1078228+01:00",
-  "WhenFetched": "2021-08-15T03:45:28.1078228+02:00",
-  "SessionKey": "quibusdam",
-  "InitialQueuePos": 279,
-  "AlertLevel": 974,
-  "Rank": 471,
+  "FirstMessage": "minus",
+  "LastMessage": "et",
+  "WhenRequested": "2001-07-16T03:46:59.7536971+02:00",
+  "WhenStarted": "2000-12-30T03:46:59.7536971+01:00",
+  "WhenEnded": "2008-03-30T03:46:59.7536971+02:00",
+  "WhenIdle": "2023-04-28T03:46:59.7536971+02:00",
+  "WhenFetched": "2019-08-28T03:46:59.7536971+02:00",
+  "SessionKey": "sunt",
+  "InitialQueuePos": 843,
+  "AlertLevel": 882,
+  "Rank": 694,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,13 +215,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 403,
+  "Rating": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   },
   "_Links": {

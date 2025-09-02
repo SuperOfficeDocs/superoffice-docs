@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetTicketTypes SOAP
 generated: true
 uid: Services88-List-GetTicketTypes
+content_type: reference
 ---
 
 # Services88 List GetTicketTypes

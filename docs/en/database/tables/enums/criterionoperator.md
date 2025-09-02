@@ -2,10 +2,10 @@
 uid: enum-criterionoperator
 title: Enum values for CriterionOperator
 description: Lists the enum values for CriterionOperator.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # CriterionOperator Enum

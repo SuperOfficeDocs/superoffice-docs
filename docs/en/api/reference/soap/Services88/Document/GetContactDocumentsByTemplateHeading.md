@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetContactDocumentsByTemplateHeading SOAP
 generated: true
 uid: Services88-Document-GetContactDocumentsByTemplateHeading
+content_type: reference
 ---
 
 # Services88 Document GetContactDocumentsByTemplateHeading
@@ -40,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocumentsByTemplateHeading>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2025-06-26T01:43:43Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2025-06-26T01:43:43Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2025-08-30T01:45:16Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2025-08-30T01:45:16Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:TemplateHeadingId xsi:type="xsd:int">0</Document:TemplateHeadingId>
    </Document:GetContactDocumentsByTemplateHeading>

@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
 uid: v1TimeZoneAgent_TimeOfLastTimeZoneUpdate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2021-02-16T03:45:24.1391839+01:00"
+"2005-05-15T03:46:55.550729+02:00"
 ```

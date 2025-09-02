@@ -2,6 +2,7 @@
 title: DEL List/Rating/Headings
 uid: v1RatingList_DeleteSaleStageEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Rating/Headings

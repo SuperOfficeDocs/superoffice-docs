@@ -2,10 +2,10 @@
 uid: table-udtempSmall
 title: udtempSmall table
 description: User-defined fields. During conversion of user defined fields the data is stored in this table.
-so.generated: true
+generated: true
 keywords: database table udtempSmall
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # udtempSmall Table (144)

@@ -2,6 +2,7 @@
 title: POST Agents/User/GetFunctionalRights
 uid: v1UserAgent_GetFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetFunctionalRights
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 337
+  "RoleId": 354
 }
 ```
 
@@ -108,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Miller, Murazik and Schultz",
-    "ToolTip": "Velit cumque molestias vitae.",
+    "Id": 719,
+    "Name": "Bogan Group",
+    "ToolTip": "Possimus cum illo in quia delectus rerum iure.",
     "Deleted": false,
-    "Rank": 413,
-    "Type": "rerum",
-    "ColorBlock": 560,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "2024-11-20T03:45:24.1704335+01:00",
+    "Rank": 391,
+    "Type": "perferendis",
+    "ColorBlock": 234,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2017-03-26T03:46:55.581978+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Jerde-Hilll",
-        "ToolTip": "Expedita dolores omnis aliquam architecto sequi id voluptas.",
+        "Id": 916,
+        "Name": "Corkery, Hettinger and Satterfield",
+        "ToolTip": "Nostrum ex saepe expedita aliquid.",
         "Deleted": false,
-        "Rank": 273,
-        "Type": "nesciunt",
-        "ColorBlock": 148,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2007-12-15T03:45:24.1704335+01:00",
+        "Rank": 745,
+        "Type": "maxime",
+        "ColorBlock": 3,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2006-09-22T03:46:55.581978+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "illum",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Ransom Keebler",
+        "FullName": "Prof. Audie Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 551
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "molestias",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Ena Fritsch II",
+    "FullName": "Abagail Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 747
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

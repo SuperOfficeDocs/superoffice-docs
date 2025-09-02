@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SetXsrfPaths SOAP
 generated: true
 uid: Services88-Preference-SetXsrfPaths
+content_type: reference
 ---
 
 # Services88 Preference SetXsrfPaths

@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.SaveWorkflowTrigger SOAP
 generated: true
 uid: Services88-Workflow-SaveWorkflowTrigger
+content_type: reference
 ---
 
 # Services88 Workflow SaveWorkflowTrigger

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuoteDenyReasons
 uid: v1ListAgent_GetQuoteDenyReasons
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuoteDenyReasons
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Value": "eos",
-    "Tooltip": "suscipit",
+    "Id": 113,
+    "Value": "qui",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   },
   {
-    "Id": 921,
-    "Value": "eos",
-    "Tooltip": "suscipit",
+    "Id": 113,
+    "Value": "qui",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

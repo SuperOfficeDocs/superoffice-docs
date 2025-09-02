@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Items
 uid: v1ProductCategoryList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Items
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Graham-Littel",
-    "Tooltip": "minima",
+    "Id": 49,
+    "Name": "Hoeger LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 453,
-    "Rank": 500,
+    "UdListDefinitionId": 624,
+    "Rank": 654,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldLength": 718
       }
     }
   }

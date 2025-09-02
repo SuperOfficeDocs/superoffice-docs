@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteAllFromListDefinition
 uid: v1ListAgent_DeleteAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteAllFromListDefinition
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 734
+  "UdListDefinitionId": 627
 }
 ```
 

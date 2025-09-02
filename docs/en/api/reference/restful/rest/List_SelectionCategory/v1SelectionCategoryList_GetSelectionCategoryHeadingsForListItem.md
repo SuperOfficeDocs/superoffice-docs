@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Items/{id}/Headings
 uid: v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Items/{id}/Headings
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Huel, O'Reilly and Steuber",
-    "ToolTip": "Dolores voluptatem facere.",
-    "Deleted": false,
-    "Rank": 354,
-    "Type": "quia",
-    "ColorBlock": 141,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2002-08-07T03:45:29.2327869+02:00",
+    "Id": 532,
+    "Name": "Conroy LLC",
+    "ToolTip": "Voluptates reprehenderit reprehenderit modi.",
+    "Deleted": true,
+    "Rank": 763,
+    "Type": "aliquam",
+    "ColorBlock": 32,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2006-05-26T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Harvey, Casper and Brown",
-        "ToolTip": "Aliquam neque odio voluptatem porro hic ipsa quibusdam.",
+        "Id": 523,
+        "Name": "Kilback, Kuvalis and Leannon",
+        "ToolTip": "Eligendi laboriosam culpa.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "expedita",
-        "ColorBlock": 392,
-        "IconHint": "nesciunt",
+        "Rank": 309,
+        "Type": "non",
+        "ColorBlock": 180,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2001-07-26T03:45:29.2327869+02:00",
+        "LastChanged": "2017-08-16T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Ernestina Wolff",
+        "ExtraInfo": "est",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Dr. Thurman Marco Kemmer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 355
+            "FieldType": "System.Int32",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "velit",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Elyse Lebsack",
+    "FullName": "Savanna Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldLength": 97
       }
     }
   }

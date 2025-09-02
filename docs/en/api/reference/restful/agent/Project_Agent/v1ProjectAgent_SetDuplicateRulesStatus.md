@@ -2,6 +2,7 @@
 title: POST Agents/Project/SetDuplicateRulesStatus
 uid: v1ProjectAgent_SetDuplicateRulesStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/SetDuplicateRulesStatus
@@ -70,16 +71,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Mertz, Hammes and Ward",
-      "DisplayName": "Hermiston-Kemmer",
-      "DisplayTooltip": "exercitationem",
-      "IsActive": false
+      "Name": "Sanford Inc and Sons",
+      "DisplayName": "Hilll, Kassulke and Cormier",
+      "DisplayTooltip": "nostrum",
+      "IsActive": true
     },
     {
-      "Name": "Mertz, Hammes and Ward",
-      "DisplayName": "Hermiston-Kemmer",
-      "DisplayTooltip": "exercitationem",
-      "IsActive": false
+      "Name": "Sanford Inc and Sons",
+      "DisplayName": "Hilll, Kassulke and Cormier",
+      "DisplayTooltip": "nostrum",
+      "IsActive": true
     }
   ]
 }

@@ -1,6 +1,8 @@
 ---
+uid: tag-License_Agent
 title: License_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

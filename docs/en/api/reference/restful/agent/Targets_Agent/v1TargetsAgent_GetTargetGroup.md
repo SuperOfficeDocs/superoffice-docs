@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetGroup
 uid: v1TargetsAgent_GetTargetGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetGroup
@@ -22,11 +23,11 @@ Gets a TargetGroup object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| targetGroupId | int32 | **Required** The primary key. |
+| targetGroupId | int32 | **Required** The identifier of the TargetGroup object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=774
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=171
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 443,
-  "Year": 754,
+  "TargetGroupId": 906,
+  "Year": 230,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 272,
+      "TargetAssignmentInfoId": 760,
       "Values": [
-        272,
-        365
+        990,
+        355
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 478,
-      "DimensionListItemDisplayName": "Hand, Gutkowski and West",
+      "DimensionListItem": 438,
+      "DimensionListItemDisplayName": "Sanford Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldLength": 428
         }
       }
     }
@@ -116,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 431
     }
   }
 }

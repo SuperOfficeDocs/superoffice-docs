@@ -3,9 +3,9 @@ uid: timezone
 title: timezone
 keywords: mdoprovider mdo provider timezone
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "timezone" MDO List

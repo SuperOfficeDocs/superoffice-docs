@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetScreenConfigurationDelta SOAP
 generated: true
 uid: Services88-Configuration-GetScreenConfigurationDelta
+content_type: reference
 ---
 
 # Services88 Configuration GetScreenConfigurationDelta

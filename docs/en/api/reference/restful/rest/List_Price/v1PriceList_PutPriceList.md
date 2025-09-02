@@ -2,6 +2,7 @@
 title: PUT Pricelist/{id}
 uid: v1PriceList_PutPriceList
 generated: true
+content_type: reference
 ---
 
 # PUT Pricelist/{id}
@@ -97,20 +98,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 202,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 314,
-  "Name": "Crooks Group",
-  "Description": "Business-focused encompassing infrastructure",
-  "Currency": "assumenda",
-  "CurrencyName": "Crist Group",
-  "ValidFrom": "2020-11-09T03:45:29.0921677+01:00",
-  "ValidTo": "2013-04-15T03:45:29.0921677+02:00",
-  "IsActive": false
+  "PriceListId": 429,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 599,
+  "Name": "Predovic-Jast",
+  "Description": "Vision-oriented explicit success",
+  "Currency": "esse",
+  "CurrencyName": "Gerhold Group",
+  "ValidFrom": "2018-11-07T03:47:00.7067961+01:00",
+  "ValidTo": "2017-04-08T03:47:00.7067961+02:00",
+  "IsActive": true
 }
 ```
 
@@ -121,27 +122,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 478,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 232,
-  "Name": "Marks-Reynolds",
-  "Description": "Mandatory assymetric infrastructure",
-  "Currency": "et",
-  "CurrencyName": "Sawayn LLC",
-  "ValidFrom": "2000-09-24T03:45:29.0921677+02:00",
-  "ValidTo": "2002-10-19T03:45:29.0921677+02:00",
-  "IsActive": false,
+  "PriceListId": 156,
+  "ERPPriceListKey": "possimus",
+  "QuoteConnectionId": 613,
+  "Name": "Altenwerth, Lehner and Wunsch",
+  "Description": "Adaptive global project",
+  "Currency": "modi",
+  "CurrencyName": "Prohaska, Stiedemann and Jast",
+  "ValidFrom": "2003-11-03T03:47:00.7067961+01:00",
+  "ValidTo": "2024-10-05T03:47:00.7067961+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

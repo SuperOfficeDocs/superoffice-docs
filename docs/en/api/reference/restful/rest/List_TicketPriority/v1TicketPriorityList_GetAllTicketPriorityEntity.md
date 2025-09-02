@@ -2,6 +2,7 @@
 title: GET List/TicketPriority/Items
 uid: v1TicketPriorityList_GetAllTicketPriorityEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketPriority/Items
@@ -27,7 +28,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -94,7 +95,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 393,
-    "Name": "Carroll LLC",
+    "TicketPriorityId": 632,
+    "Name": "Bechtelar-Jast",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 308,
+    "SortOrder": 888,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 59,
-    "MonStart": "2002-02-17T03:45:29.2484114+01:00",
-    "MonStop": "2021-02-24T03:45:29.2484114+01:00",
-    "TueStart": "2025-05-31T03:45:29.2484114+02:00",
-    "TueStop": "2006-05-30T03:45:29.2484114+02:00",
-    "WedStart": "2008-07-28T03:45:29.2484114+02:00",
-    "WedStop": "2007-03-29T03:45:29.2484114+02:00",
-    "ThuStart": "2024-04-08T03:45:29.2484114+02:00",
-    "ThuStop": "2009-06-25T03:45:29.2484114+02:00",
-    "FriStart": "2008-01-05T03:45:29.2484114+01:00",
-    "FriStop": "2025-02-02T03:45:29.2484114+01:00",
-    "SatStart": "2018-03-08T03:45:29.2484114+01:00",
-    "SatStop": "2013-05-22T03:45:29.2484114+02:00",
-    "SunStart": "2011-11-08T03:45:29.2484114+01:00",
-    "SunStop": "2013-04-23T03:45:29.2484114+02:00",
+    "Deadline": 469,
+    "MonStart": "2016-03-03T03:47:00.8942898+01:00",
+    "MonStop": "2017-12-12T03:47:00.8942898+01:00",
+    "TueStart": "2005-03-06T03:47:00.8942898+01:00",
+    "TueStop": "2009-02-24T03:47:00.8942898+01:00",
+    "WedStart": "1998-05-22T03:47:00.8942898+02:00",
+    "WedStop": "2006-08-11T03:47:00.8942898+02:00",
+    "ThuStart": "2012-09-10T03:47:00.8942898+02:00",
+    "ThuStop": "2005-03-10T03:47:00.8942898+01:00",
+    "FriStart": "2015-06-09T03:47:00.8942898+02:00",
+    "FriStop": "2000-06-13T03:47:00.8942898+02:00",
+    "SatStart": "2018-01-03T03:47:00.8942898+01:00",
+    "SatStop": "2001-08-26T03:47:00.8942898+02:00",
+    "SunStart": "1999-05-04T03:47:00.8942898+02:00",
+    "SunStop": "2016-10-12T03:47:00.8942898+02:00",
     "NonDates": [
-      "labore",
-      "corporis"
+      "error",
+      "facilis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 905,
-        "AlertLevel": 549,
-        "AlertTimeout": 729,
-        "Action": 9,
-        "DelegateTo": 112,
-        "ScriptId": 341,
-        "EmailTo": "adrianna@corwin.uk",
-        "SmsTo": "sit",
-        "ReplyTemplateIdCustomer": 774,
-        "ReplyTemplateIdUser": 614,
-        "ReplyTemplateIdCatmast": 463,
-        "ReplyTemplateIdEmail": 538,
-        "RtiCustomerSms": 338,
-        "ReplyTemplateIdUserSms": 211,
-        "ReplyTemplateIdCatmastSms": 46,
-        "ReplyTemplateIdSms": 695,
+        "TicketAlertId": 339,
+        "AlertLevel": 747,
+        "AlertTimeout": 521,
+        "Action": 116,
+        "DelegateTo": 716,
+        "ScriptId": 889,
+        "EmailTo": "aletha_block@quigley.uk",
+        "SmsTo": "sunt",
+        "ReplyTemplateIdCustomer": 877,
+        "ReplyTemplateIdUser": 505,
+        "ReplyTemplateIdCatmast": 341,
+        "ReplyTemplateIdEmail": 66,
+        "RtiCustomerSms": 286,
+        "ReplyTemplateIdUserSms": 343,
+        "ReplyTemplateIdCatmastSms": 121,
+        "ReplyTemplateIdSms": 712,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldLength": 407
           }
         }
       }
@@ -168,7 +169,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldLength": 600
       }
     }
   }

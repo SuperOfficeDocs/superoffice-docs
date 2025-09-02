@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SetAsLost
 uid: v1SaleAgent_SetAsLost
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SetAsLost
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLost
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    130,
-    370
+    850,
+    248
   ]
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateStreamFromId SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateStreamFromId
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateStreamFromId

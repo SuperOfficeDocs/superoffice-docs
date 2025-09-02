@@ -2,6 +2,7 @@
 title: GET TicketType/default
 uid: v1TicketTypeEntity_DefaultTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET TicketType/default
@@ -85,40 +86,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 648,
-  "Name": "Auer LLC",
-  "Rank": 185,
-  "Tooltip": "facere",
-  "Icon": "enim",
-  "DefaultTicketStatus": 220,
+  "TicketTypeId": 479,
+  "Name": "Miller Inc and Sons",
+  "Rank": 162,
+  "Tooltip": "nihil",
+  "Icon": "aut",
+  "DefaultTicketStatus": 320,
   "TicketStatuses": [
-    406,
-    253
+    890,
+    835
   ],
-  "DefaultTicketPriority": 679,
+  "DefaultTicketPriority": 190,
   "TicketPriorities": [
-    168,
-    938
+    997,
+    510
   ],
-  "ReplyTemplate": 298,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 966,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    263,
-    436
+    931,
+    434
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 454
     }
   }
 }

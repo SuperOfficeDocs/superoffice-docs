@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetSystemTemplateSettings
 uid: v1CustomerServiceAgent_GetSystemTemplateSettings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetSystemTemplateSettings
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 421,
-  "CustomerCustomerReplyTemplateId": 52,
-  "CustomerPasswordTemplateId": 448,
-  "CustomerConfirmEmailTemplateId": 276,
-  "CustomerChatLogTemplateId": 848,
-  "NewLinkTemplateId": 908,
-  "HotlistNewMessageTemplateId": 553,
-  "HotlistTicketActivatedTemplateId": 466,
-  "UserTicketAlarmTemplateId": 658,
-  "HotlistTicketTakenOverTemplateId": 811,
-  "UserActiveTicketsTemplateId": 606,
-  "UserNewMessageTemplateId": 873,
-  "UserTicketActivatedTemplateId": 931,
-  "UserNewTicketTemplateId": 603,
-  "PublishKbQuestionTemplateId": 138,
-  "PublishKbAnswerTemplateId": 352,
-  "UserTicketTakenOverTemplateId": 558,
-  "PrintTicketTemplateId": 200,
-  "WeekStatTemplateId": 807,
-  "TicketAlarmHotlistTemplateId": 751,
-  "EmailAddresses": "rosetta_kling@hahnhamill.co.uk",
+  "CustomerNewCustomerTemplateId": 970,
+  "CustomerCustomerReplyTemplateId": 189,
+  "CustomerPasswordTemplateId": 724,
+  "CustomerConfirmEmailTemplateId": 982,
+  "CustomerChatLogTemplateId": 696,
+  "NewLinkTemplateId": 690,
+  "HotlistNewMessageTemplateId": 186,
+  "HotlistTicketActivatedTemplateId": 376,
+  "UserTicketAlarmTemplateId": 188,
+  "HotlistTicketTakenOverTemplateId": 672,
+  "UserActiveTicketsTemplateId": 101,
+  "UserNewMessageTemplateId": 694,
+  "UserTicketActivatedTemplateId": 534,
+  "UserNewTicketTemplateId": 394,
+  "PublishKbQuestionTemplateId": 278,
+  "PublishKbAnswerTemplateId": 42,
+  "UserTicketTakenOverTemplateId": 668,
+  "PrintTicketTemplateId": 856,
+  "WeekStatTemplateId": 95,
+  "TicketAlarmHotlistTemplateId": 131,
+  "EmailAddresses": "alivia@schiller.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 738
     }
   }
 }

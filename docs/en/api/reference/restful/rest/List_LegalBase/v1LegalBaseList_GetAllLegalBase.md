@@ -2,6 +2,7 @@
 title: GET List/LegalBase/Items
 uid: v1LegalBaseList_GetAllLegalBase
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/Items
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 571,
-    "Name": "Murray-Nitzsche",
-    "Tooltip": "ullam",
-    "Rank": 231,
-    "Key": "quas",
+    "LegalBaseId": 438,
+    "Name": "Purdy-Ullrich",
+    "Tooltip": "neque",
+    "Rank": 355,
+    "Key": "aut",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 308
       }
     }
   }

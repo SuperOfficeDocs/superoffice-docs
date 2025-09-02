@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteTicketTypeEntity
 uid: v1ListAgent_DeleteTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteTicketTypeEntity
@@ -22,10 +23,10 @@ Deletes the TicketTypeEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TicketTypeEntityId | int32 | **Required** The id of the TicketTypeEntity to be deleted. |
+| ticketTypeEntityId | int32 | **Required** The identity of the TicketTypeEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketTypeEntity?TicketTypeEntityId=37
+POST /api/v1/Agents/List/DeleteTicketTypeEntity?ticketTypeEntityId=308
 ```
 
 

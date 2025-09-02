@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/Items/{id}/Headings
 uid: v1PaymentTermsList_GetPaymentTermHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/Items/{id}/Headings
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Quis eos et neque saepe.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "tenetur",
-    "ColorBlock": 673,
-    "IconHint": "repudiandae",
+    "Id": 563,
+    "Name": "Altenwerth LLC",
+    "ToolTip": "Qui veniam officiis id ratione.",
+    "Deleted": false,
+    "Rank": 488,
+    "Type": "non",
+    "ColorBlock": 272,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2018-02-16T03:45:29.060917+01:00",
+    "LastChanged": "2001-04-06T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Wuckert Inc and Sons",
-        "ToolTip": "Dolor nisi laudantium sed nam et.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "ea",
-        "ColorBlock": 81,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2009-08-31T03:45:29.060917+02:00",
+        "Id": 187,
+        "Name": "Kohler Group",
+        "ToolTip": "Architecto eos quaerat quos officiis voluptatibus qui sed.",
+        "Deleted": true,
+        "Rank": 257,
+        "Type": "in",
+        "ColorBlock": 21,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2004-06-12T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "error",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Prof. Kelvin Maggio",
+        "FullName": "Irma Elwyn McCullough I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 967
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "vero",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mr. Lewis Rosenbaum I",
+    "FullName": "Mr. Jeremie Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 567
       }
     }
   }

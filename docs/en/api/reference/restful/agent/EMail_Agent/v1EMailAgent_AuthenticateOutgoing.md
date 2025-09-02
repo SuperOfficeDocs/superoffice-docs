@@ -2,6 +2,7 @@
 title: POST Agents/EMail/AuthenticateOutgoing
 uid: v1EMailAgent_AuthenticateOutgoing
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/AuthenticateOutgoing

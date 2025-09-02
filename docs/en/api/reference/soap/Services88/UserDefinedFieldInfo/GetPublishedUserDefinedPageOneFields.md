@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetPublishedUserDefinedPageOneFields
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetPublishedUserDefinedPageOneFields

@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetContactEntity SOAP
 generated: true
 uid: Services88-Contact-GetContactEntity
+content_type: reference
 ---
 
 # Services88 Contact GetContactEntity
@@ -69,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Contact:OrgNr xsi:type="xsd:string"></Contact:OrgNr>
     <Contact:Number1 xsi:type="xsd:string"></Contact:Number1>
     <Contact:Number2 xsi:type="xsd:string"></Contact:Number2>
-    <Contact:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:UpdatedDate>
-    <Contact:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:CreatedDate>
+    <Contact:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:UpdatedDate>
+    <Contact:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:CreatedDate>
     <Contact:Emails xsi:type="Contact:ArrayOfEntityElement">
      <Contact:EntityElement xsi:type="Contact:EntityElement">
       <Contact:Value xsi:type="xsd:string"></Contact:Value>
@@ -89,7 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
       <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
       <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-      <Contact:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:LastChanged>
+      <Contact:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:LastChanged>
       <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
        <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
         <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -101,7 +102,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Contact:ColorBlock xsi:type="xsd:int">0</Contact:ColorBlock>
         <Contact:IconHint xsi:type="xsd:string"></Contact:IconHint>
         <Contact:Selected xsi:type="xsd:boolean">false</Contact:Selected>
-        <Contact:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:LastChanged>
+        <Contact:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:LastChanged>
         <Contact:ChildItems xsi:type="Contact:ArrayOfSelectableMDOListItem">
          <Contact:SelectableMDOListItem xsi:type="Contact:SelectableMDOListItem">
           <Contact:Id xsi:nil="true"></Contact:Id>
@@ -168,6 +169,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:Deleted xsi:type="xsd:boolean">false</Contact:Deleted>
      <Contact:EjUserId xsi:type="xsd:int">0</Contact:EjUserId>
      <Contact:UserName xsi:type="xsd:string"></Contact:UserName>
+     <Contact:ExtraFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:ExtraFields>
+     <Contact:CustomFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:CustomFields>
     </Contact:UpdatedBy>
     <Contact:CreatedBy xsi:type="Contact:Associate">
      <Contact:AssociateId xsi:type="xsd:int">0</Contact:AssociateId>
@@ -182,6 +195,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:Deleted xsi:type="xsd:boolean">false</Contact:Deleted>
      <Contact:EjUserId xsi:type="xsd:int">0</Contact:EjUserId>
      <Contact:UserName xsi:type="xsd:string"></Contact:UserName>
+     <Contact:ExtraFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:ExtraFields>
+     <Contact:CustomFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:CustomFields>
     </Contact:CreatedBy>
     <Contact:Associate xsi:type="Contact:Associate">
      <Contact:AssociateId xsi:type="xsd:int">0</Contact:AssociateId>
@@ -196,6 +221,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:Deleted xsi:type="xsd:boolean">false</Contact:Deleted>
      <Contact:EjUserId xsi:type="xsd:int">0</Contact:EjUserId>
      <Contact:UserName xsi:type="xsd:string"></Contact:UserName>
+     <Contact:ExtraFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:ExtraFields>
+     <Contact:CustomFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:CustomFields>
     </Contact:Associate>
     <Contact:Business xsi:type="Contact:Business">
      <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -291,6 +328,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:Deleted xsi:type="xsd:boolean">false</Contact:Deleted>
      <Contact:EjUserId xsi:type="xsd:int">0</Contact:EjUserId>
      <Contact:UserName xsi:type="xsd:string"></Contact:UserName>
+     <Contact:ExtraFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:ExtraFields>
+     <Contact:CustomFields xsi:type="Contact:StringDictionary">
+      <Contact:StringKeyValuePair>
+       <Contact:Key xsi:type="xsd:string"></Contact:Key>
+       <Contact:Value xsi:type="xsd:string"></Contact:Value>
+      </Contact:StringKeyValuePair>
+     </Contact:CustomFields>
     </Contact:SupportAssociate>
     <Contact:TicketPriority xsi:type="Contact:TicketPriority">
      <Contact:Id xsi:type="xsd:int">0</Contact:Id>
@@ -304,9 +353,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Contact:CustomerLanguage>
     <Contact:Deleted xsi:type="xsd:short">0</Contact:Deleted>
     <Contact:DbiAgentId xsi:type="xsd:int">0</Contact:DbiAgentId>
-    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:DbiLastSyncronized>
+    <Contact:DbiLastSyncronized xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:DbiLastSyncronized>
     <Contact:DbiKey xsi:type="xsd:string"></Contact:DbiKey>
-    <Contact:DbiLastModified xsi:type="xsd:dateTime">2025-06-26T01:43:13Z</Contact:DbiLastModified>
+    <Contact:DbiLastModified xsi:type="xsd:dateTime">2025-08-30T01:44:45Z</Contact:DbiLastModified>
     <Contact:SupportPerson xsi:type="Contact:Person">
      <Contact:Position xsi:type="xsd:string"></Contact:Position>
      <Contact:PersonId xsi:type="xsd:int">0</Contact:PersonId>
@@ -397,6 +446,15 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Contact:Domains xsi:type="NetServerServices882:ArrayOfstring">
      <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
     </Contact:Domains>
+    <Contact:InitialUtmParameters xsi:type="Contact:InitalUtmParameters">
+     <Contact:FormName xsi:type="xsd:string"></Contact:FormName>
+     <Contact:Source xsi:type="xsd:string"></Contact:Source>
+     <Contact:Medium xsi:type="xsd:string"></Contact:Medium>
+     <Contact:Campaign xsi:type="xsd:string"></Contact:Campaign>
+     <Contact:Term xsi:type="xsd:string"></Contact:Term>
+     <Contact:Content xsi:type="xsd:string"></Contact:Content>
+     <Contact:ReferrerDomain xsi:type="xsd:string"></Contact:ReferrerDomain>
+    </Contact:InitialUtmParameters>
     <Contact:UserDefinedFields xsi:type="Contact:StringDictionary">
      <Contact:StringKeyValuePair>
       <Contact:Key xsi:type="xsd:string"></Contact:Key>

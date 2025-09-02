@@ -2,6 +2,7 @@
 title: POST User/Validate
 uid: v1User_ValidateUser
 generated: true
+content_type: reference
 ---
 
 # POST User/Validate
@@ -84,18 +85,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 402,
-  "Name": "Skiles LLC",
-  "Rank": 999,
-  "Tooltip": "quis",
+  "AssociateId": 219,
+  "Name": "Koch Inc and Sons",
+  "Rank": 741,
+  "Tooltip": "officiis",
   "LicenseOwners": [
     {
-      "Name": "Larson Group",
-      "Description": "Adaptive object-oriented matrix",
+      "Name": "Kozey Inc and Sons",
+      "Description": "Reverse-engineered tangible knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +107,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Larson Group",
-      "Description": "Adaptive object-oriented matrix",
+      "Name": "Kozey Inc and Sons",
+      "Description": "Reverse-engineered tangible knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +123,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolorem",
-      "Tooltip": "nam",
-      "Id": 646,
-      "Rank": 355,
-      "Deleted": false
+      "Value": "qui",
+      "Tooltip": "et",
+      "Id": 419,
+      "Rank": 361,
+      "Deleted": true
     },
     {
-      "Value": "dolorem",
-      "Tooltip": "nam",
-      "Id": 646,
-      "Rank": 355,
-      "Deleted": false
+      "Value": "qui",
+      "Tooltip": "et",
+      "Id": 419,
+      "Rank": 361,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2020-03-11T03:45:28.8734254+01:00",
-  "Lastlogout": "2025-03-26T03:45:28.8734254+01:00",
-  "EjUserId": 935,
-  "RequestSignature": "eveniet",
+  "Lastlogin": "1999-06-23T03:47:00.5349272+02:00",
+  "Lastlogout": "2016-01-12T03:47:00.5349272+01:00",
+  "EjUserId": 791,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "eos"
+      "Value": "reiciendis",
+      "DisplayValue": "temporibus"
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "eos"
+      "Value": "reiciendis",
+      "DisplayValue": "temporibus"
     }
   ],
-  "UserName": "Purdy Inc and Sons",
+  "UserName": "Smitham-Kessler",
   "TicketCategories": [
     {
-      "Id": 872,
-      "Name": "Connelly Group",
-      "ToolTip": "Tempora delectus natus nobis quis.",
+      "Id": 470,
+      "Name": "Turner-Kuhic",
+      "ToolTip": "Quae numquam et sit quia reiciendis.",
       "Deleted": false,
-      "Rank": 214,
-      "Type": "officiis",
+      "Rank": 101,
+      "Type": "error",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "facilis",
-      "ColorBlock": 797,
-      "ExtraInfo": "ea",
-      "StyleHint": "sit",
-      "FullName": "Emily Bosco"
+      "IconHint": "quo",
+      "ColorBlock": 736,
+      "ExtraInfo": "ullam",
+      "StyleHint": "impedit",
+      "FullName": "Jude Fahey"
     }
   ],
-  "NickName": "Gislason-Kutch",
-  "WaitingForApproval": true,
+  "NickName": "Kilback-Maggio",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "tempora",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "quia"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "quas"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kling, Ankunding and Mante",
-      "DisplayName": "Collier-Muller",
-      "Description": "Virtual hybrid forecast",
-      "ToolTip": "Voluptas neque placeat.",
+      "Name": "Harris LLC",
+      "DisplayName": "Morar Inc and Sons",
+      "Description": "Adaptive encompassing policy",
+      "ToolTip": "Eum earum qui odit itaque.",
       "Actions": "Implicit",
-      "ActionData": "dolores"
+      "ActionData": "dignissimos"
     },
     {
-      "Name": "Kling, Ankunding and Mante",
-      "DisplayName": "Collier-Muller",
-      "Description": "Virtual hybrid forecast",
-      "ToolTip": "Voluptas neque placeat.",
+      "Name": "Harris LLC",
+      "DisplayName": "Morar Inc and Sons",
+      "Description": "Adaptive encompassing policy",
+      "ToolTip": "Eum earum qui odit itaque.",
       "Actions": "Implicit",
-      "ActionData": "dolores"
+      "ActionData": "dignissimos"
     }
   ]
 }
@@ -215,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "rerum",
-  "2": "cumque"
+  "1": "dolorum",
+  "2": "ipsam"
 }
 ```

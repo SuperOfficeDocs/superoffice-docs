@@ -3,9 +3,9 @@ uid: ProjectGuide
 title: ProjectGuide
 description: Provider for the Project Guide, common to both Appointment and Document guide items and instances
 keywords: ProjectGuide archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjectGuide"
@@ -1457,7 +1457,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/postAddress/state,appointmentInstance/person/middleName,appointmentInstance/person/email/emailBounceCount,appointmentInstance/person/personAssociate/personId,appointmentInstance/person/correspondingAssociate/contactFullName
+GET /api/v1/archive/ProjectGuide?$select=instanceItemText,appointmentInstance/updatedBy,appointmentInstance/rawStatus,appointmentInstance/contact/streetAddress/state,appointmentInstance/person/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

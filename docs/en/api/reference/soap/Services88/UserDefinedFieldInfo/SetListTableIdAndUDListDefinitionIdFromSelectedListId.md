@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SetListTableIdAndUDListDefinitionIdFromSelectedListId
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId

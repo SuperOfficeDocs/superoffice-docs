@@ -2,6 +2,7 @@
 title: GET Product/{id}/ImageInfo
 uid: v1Product_GetImageInfo
 generated: true
+content_type: reference
 ---
 
 # GET Product/{id}/ImageInfo
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Aug 2010 03:45:28 G8T
+Last-Modified: Mon, 03 Oct 2011 03:47:00 G10T
 
 {
-  "BlobId": 803,
-  "BlobSize": 667,
-  "Description": "Multi-layered methodical productivity",
-  "ExtraInfo": "voluptate",
-  "IsEncrypted": false,
+  "BlobId": 869,
+  "BlobSize": 983,
+  "Description": "Optional eco-centric model",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 102,
-  "CreatedDate": "2019-11-13T03:45:28.8265489+01:00",
-  "UpdatedDate": "2010-08-14T03:45:28.8265489+02:00",
+  "MimeType": "dolorem",
+  "OriginalSize": 278,
+  "CreatedDate": "2000-05-09T03:47:00.4255562+02:00",
+  "UpdatedDate": "2011-10-03T03:47:00.4255562+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 874
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Sale/default
 uid: v1SaleEntity_DefaultSaleEntity
 generated: true
+content_type: reference
 ---
 
 # GET Sale/default
@@ -108,7 +109,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 06 Dec 2012 03:45:28 G12T
+Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
 
 {
   "Appointment": null,
@@ -117,7 +118,7 @@ Last-Modified: Thu, 06 Dec 2012 03:45:28 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "repudiandae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +127,113 @@ Last-Modified: Thu, 06 Dec 2012 03:45:28 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-06-24T03:45:28.5453063+02:00",
-  "Amount": 19650.18,
-  "SaleId": 385,
-  "Earning": 5728.952,
-  "EarningPercent": 7759.784,
-  "Heading": "est",
-  "Number": "1338889",
-  "Probability": 742,
-  "CreatedDate": "1999-07-08T03:45:28.5453063+02:00",
-  "UpdatedDate": "2012-12-06T03:45:28.5453063+01:00",
+  "Saledate": "2017-03-21T03:47:00.2224384+01:00",
+  "Amount": 27416.232,
+  "SaleId": 511,
+  "Earning": 31073.61,
+  "EarningPercent": 9166.9499999999989,
+  "Heading": "nam",
+  "Number": "1007291",
+  "Probability": 447,
+  "CreatedDate": "2002-01-24T03:47:00.2224384+01:00",
+  "UpdatedDate": "2003-12-16T03:47:00.2224384+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 907,
+  "ActiveLinks": 243,
   "Links": [
     {
-      "EntityName": "Daugherty, Hyatt and Monahan",
-      "Id": 974,
-      "Description": "Upgradable clear-thinking infrastructure",
-      "ExtraInfo": "modi",
-      "LinkId": 115,
+      "EntityName": "Kshlerin, Bins and Bogan",
+      "Id": 257,
+      "Description": "Organic intermediate concept",
+      "ExtraInfo": "nulla",
+      "LinkId": 817,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 995
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2025-02-20T03:47:00.2224384+01:00",
+  "Postit": "impedit",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2006-01-11T03:47:00.2224384+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Beier, Kiehn and Jacobs",
+      "Comment": "maxime",
+      "StakeholderRoleId": 416,
+      "CountryId": 840,
+      "PersonId": 901,
+      "EmailDescription": "kristian_watsica@sporer.us",
+      "EmailId": 427,
+      "EmailAddress": "tyrell_schiller@spencerruecker.com",
+      "PhoneId": 839,
+      "ContactName": "Wilkinson LLC",
+      "ContactId": 318,
+      "SaleId": 321,
+      "Mrmrs": "sed",
+      "Firstname": "Jacey",
+      "MiddleName": "Block-Erdman",
+      "Lastname": "Gislason",
+      "SaleStakeholderId": 243,
+      "Rank": 972,
+      "Phone": "165-886-4659",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 964
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 25,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mr. Jalon Jerry Christiansen",
+    "SuperOffice:2": "Dr. Emmanuel Trent Hettinger"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "consequuntur"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolor",
+    "CustomFields2": "sit"
+  },
+  "PublishEventDate": "2002-11-25T03:47:00.2224384+01:00",
+  "PublishTo": "2011-03-09T03:47:00.2224384+01:00",
+  "PublishFrom": "2018-01-10T03:47:00.2224384+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 45,
+      "Visibility": "All",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 295
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2009-06-01T03:45:28.5453063+02:00",
-  "Postit": "earum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2005-01-25T03:45:28.5453063+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Johns, Kihn and Mitchell",
-      "Comment": "beatae",
-      "StakeholderRoleId": 753,
-      "CountryId": 615,
-      "PersonId": 245,
-      "EmailDescription": "cody.hermiston@collier.co.uk",
-      "EmailId": 218,
-      "EmailAddress": "arch@okeefe.uk",
-      "PhoneId": 143,
-      "ContactName": "Wolff Inc and Sons",
-      "ContactId": 672,
-      "SaleId": 489,
-      "Mrmrs": "iusto",
-      "Firstname": "Emerald",
-      "MiddleName": "Yundt LLC",
-      "Lastname": "Baumbach",
-      "SaleStakeholderId": 903,
-      "Rank": 547,
-      "Phone": "1-724-206-0510",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 152,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Darius Zulauf",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "numquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "tempora"
-  },
-  "PublishEventDate": "2010-02-23T03:45:28.5453063+01:00",
-  "PublishTo": "2002-06-14T03:45:28.5453063+02:00",
-  "PublishFrom": "2009-12-20T03:45:28.5453063+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 684,
-      "Visibility": "All",
-      "DisplayValue": "ea",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 491
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
@@ -242,7 +243,7 @@ Last-Modified: Thu, 06 Dec 2012 03:45:28 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 775
     }
   }
 }

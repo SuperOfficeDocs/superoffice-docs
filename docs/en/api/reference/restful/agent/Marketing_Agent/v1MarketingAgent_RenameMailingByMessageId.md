@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/RenameMailingByMessageId
 uid: v1MarketingAgent_RenameMailingByMessageId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/RenameMailingByMessageId
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 542,
-  "Name": "Terry, Stroman and Crona"
+  "MessageId": 348,
+  "Name": "Skiles LLC"
 }
 ```
 

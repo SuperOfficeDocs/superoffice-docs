@@ -2,10 +2,10 @@
 uid: table-ms_filter_mail
 title: ms_filter_mail table
 description: This table connects mail filters (ms_filter) to mailboxes (mail_in_filter).
-so.generated: true
+generated: true
 keywords: database table ms_filter_mail
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ms\_filter\_mail Table (311)

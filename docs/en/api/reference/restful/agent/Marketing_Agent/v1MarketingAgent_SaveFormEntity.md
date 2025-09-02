@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/SaveFormEntity
 uid: v1MarketingAgent_SaveFormEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/SaveFormEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Marketing/SaveFormEntity
 ```
 
-Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty
+Updates the existing FormEntity or creates a new FormEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing FormEntity or creates a new FormEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: formEntity 
 
-The FormEntity to be saved. 
+The FormEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,36 +108,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 270,
-  "FormKey": "aut",
-  "Name": "Hagenes, Heathcote and Rempel",
-  "Description": "Team-oriented cohesive focus group",
-  "Config": "hic",
-  "FolderId": 765,
-  "ScriptId": 746,
-  "ResponseShipmentId": 153,
+  "FormId": 412,
+  "FormKey": "est",
+  "Name": "Bradtke-Watsica",
+  "Description": "Intuitive demand-driven framework",
+  "Config": "dolores",
+  "FolderId": 863,
+  "ScriptId": 175,
+  "ResponseShipmentId": 285,
   "Active": false,
-  "Expires": "2001-06-11T03:45:23.6235756+02:00",
-  "MaxSubmits": 156,
+  "Expires": "2000-01-16T03:46:55.0038735+01:00",
+  "MaxSubmits": 850,
   "Type": "Normal",
-  "Recipe": "beatae",
-  "GroupId": 370,
-  "NewTicket": false,
+  "Recipe": "magnam",
+  "GroupId": 576,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-05-22T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 12,
-  "Updated": "2022-05-04T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 633,
-  "UpdatedCount": 502,
+  "Registered": "2022-02-09T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 858,
+  "Updated": "2020-09-30T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 989,
+  "UpdatedCount": 805,
   "EmailFlows": [
-    46,
-    790
+    47,
+    685
   ],
-  "FolderName": "Toy Group"
+  "FolderName": "Welch, Flatley and Stark"
 }
 ```
 
@@ -147,38 +148,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 10,
-  "FormKey": "quo",
-  "Name": "Schmeler LLC",
-  "Description": "Intuitive executive local area network",
-  "Config": "ad",
-  "FolderId": 858,
-  "ScriptId": 421,
-  "ResponseShipmentId": 406,
-  "Active": true,
-  "Expires": "2018-03-16T03:45:23.6235756+01:00",
-  "MaxSubmits": 27,
+  "FormId": 953,
+  "FormKey": "et",
+  "Name": "Brekke, Turner and Hessel",
+  "Description": "Right-sized mission-critical archive",
+  "Config": "sunt",
+  "FolderId": 149,
+  "ScriptId": 585,
+  "ResponseShipmentId": 56,
+  "Active": false,
+  "Expires": "1999-05-16T03:46:55.0038735+02:00",
+  "MaxSubmits": 553,
   "Type": "Normal",
-  "Recipe": "eligendi",
-  "GroupId": 336,
+  "Recipe": "possimus",
+  "GroupId": 338,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2016-02-05T03:45:23.6235756+01:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2013-03-22T03:45:23.6235756+01:00",
-  "UpdatedAssociateId": 877,
-  "UpdatedCount": 686,
+  "Registered": "2011-12-26T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 819,
+  "Updated": "2020-12-24T03:46:55.0038735+01:00",
+  "UpdatedAssociateId": 160,
+  "UpdatedCount": 622,
   "EmailFlows": [
-    859,
-    525
+    355,
+    920
   ],
-  "FolderName": "Okuneva-Dare",
+  "FolderName": "Gutmann-Murray",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

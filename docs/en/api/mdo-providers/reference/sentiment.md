@@ -3,9 +3,9 @@ uid: sentiment
 title: sentiment
 keywords: mdoprovider mdo provider sentiment
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "sentiment" MDO List

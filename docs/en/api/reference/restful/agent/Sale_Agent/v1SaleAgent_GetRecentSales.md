@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetRecentSales
 uid: v1SaleAgent_GetRecentSales
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetRecentSales
@@ -104,8 +105,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 102,
-  "Count": 276
+  "AmountLimit": 250,
+  "Count": 571
 }
 ```
 
@@ -117,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Prohaska, Ebert and Hartmann",
-    "SaleDate": "2008-12-08T03:45:23.8735682+01:00",
-    "SaleId": 813,
-    "Probability": 382,
-    "Title": "officia",
-    "Amount": 4929.782,
-    "Currency": "qui",
-    "ProjectName": "Denesik LLC",
-    "AssociateFullName": "Ladarius Klein",
-    "Description": "Automated logistical flexibility",
+    "ContactName": "Borer Inc and Sons",
+    "SaleDate": "2004-10-15T03:46:55.2694888+02:00",
+    "SaleId": 312,
+    "Probability": 913,
+    "Title": "enim",
+    "Amount": 3810.944,
+    "Currency": "repudiandae",
+    "ProjectName": "Wolf-Reinger",
+    "AssociateFullName": "Joshuah Tillman II",
+    "Description": "Secured value-added info-mediaries",
     "Status": "Lost",
-    "WeightedAmount": 275.792,
-    "ProjectId": 293,
-    "EarningPercent": 18656.702,
-    "Earning": 22470.78,
-    "ContactId": 304,
-    "AssociateId": 606,
-    "PersonId": 200,
-    "SaleTypeId": 418,
-    "SaleTypeName": "Tremblay LLC",
-    "PersonFullName": "Lora Wyman",
+    "WeightedAmount": 30854.23,
+    "ProjectId": 51,
+    "EarningPercent": 5697.612,
+    "Earning": 21333.138,
+    "ContactId": 295,
+    "AssociateId": 840,
+    "PersonId": 423,
+    "SaleTypeId": 776,
+    "SaleTypeName": "Walsh Inc and Sons",
+    "PersonFullName": "Amaya Hoeger",
     "Completed": "Completed",
-    "ActiveErpLinks": 319,
-    "NextDueDate": "2005-03-08T03:45:23.8735682+01:00",
-    "Number": "1223381",
+    "ActiveErpLinks": 296,
+    "NextDueDate": "2019-02-19T03:46:55.2694888+01:00",
+    "Number": "770645",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 240
       }
     }
   }

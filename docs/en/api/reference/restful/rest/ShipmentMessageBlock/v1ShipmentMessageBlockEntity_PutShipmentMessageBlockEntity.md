@@ -2,6 +2,7 @@
 title: PUT ShipmentMessageBlock/{id}
 uid: v1ShipmentMessageBlockEntity_PutShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # PUT ShipmentMessageBlock/{id}
@@ -93,18 +94,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 277,
-  "AssociateId": 292,
-  "Block": "eum",
-  "Registered": "2005-09-27T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2003-12-31T03:45:28.6546813+01:00",
-  "UpdatedAssociateId": 937,
-  "UpdatedCount": 33
+  "ShipmentMessageBlockId": 826,
+  "AssociateId": 419,
+  "Block": "dolorem",
+  "Registered": "2012-02-17T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 269,
+  "Updated": "2001-07-29T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 944,
+  "UpdatedCount": 29
 }
 ```
 
@@ -115,25 +116,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 475,
-  "AssociateId": 227,
-  "Block": "fugit",
-  "Registered": "2010-10-22T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 523,
-  "Updated": "2007-05-26T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 648,
-  "UpdatedCount": 740,
+  "ShipmentMessageBlockId": 896,
+  "AssociateId": 8,
+  "Block": "ut",
+  "Registered": "2021-06-04T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 374,
+  "Updated": "2005-06-10T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 491,
+  "UpdatedCount": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.DeletePhysicalDocument SOAP
 generated: true
 uid: Services88-Document-DeletePhysicalDocument
+content_type: reference
 ---
 
 # Services88 Document DeletePhysicalDocument

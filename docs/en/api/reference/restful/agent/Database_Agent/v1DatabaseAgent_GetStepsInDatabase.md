@@ -2,6 +2,7 @@
 title: POST Agents/Database/GetStepsInDatabase
 uid: v1DatabaseAgent_GetStepsInDatabase
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Database/GetStepsInDatabase
@@ -77,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Williamson-Grimes",
-    "StepNumber": 471,
+    "Name": "Moen, Anderson and Crist",
+    "StepNumber": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 611
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   },
   {
-    "Name": "Williamson-Grimes",
-    "StepNumber": 471,
+    "Name": "Moen, Anderson and Crist",
+    "StepNumber": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 611
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

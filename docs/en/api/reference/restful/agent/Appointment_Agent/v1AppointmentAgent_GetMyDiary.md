@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetMyDiary
 uid: v1AppointmentAgent_GetMyDiary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetMyDiary
@@ -116,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -134,9 +136,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2008-04-30T03:45:22.967341+02:00",
-  "EndTime": "2008-02-06T03:45:22.967341+01:00",
-  "Count": 226
+  "StartTime": "2011-04-29T03:46:54.2695244+02:00",
+  "EndTime": "2009-10-10T03:46:54.2695244+02:00",
+  "Count": 175
 }
 ```
 
@@ -148,66 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 496,
-    "StartDate": "2011-08-23T03:45:22.967341+02:00",
-    "EndDate": "2024-08-20T03:45:22.967341+02:00",
+    "AppointmentId": 116,
+    "StartDate": "2004-01-05T03:46:54.2695244+01:00",
+    "EndDate": "2011-04-08T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Demarcus Kreiger",
-    "ContactName": "Stehr, Ullrich and Greenfelder",
-    "Description": "Customer-focused multi-state orchestration",
-    "PersonFullName": "Yadira Bruen",
-    "PersonId": 504,
-    "ContactId": 679,
-    "ProjectId": 75,
-    "ProjectName": "Yost Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 20,
-    "ColorIndex": 761,
+    "Task": "ad",
+    "AssociateFullName": "Wilhelm Deshaun Fadel V",
+    "ContactName": "Herzog-Schoen",
+    "Description": "Optional multi-tasking solution",
+    "PersonFullName": "Destinee Mills",
+    "PersonId": 456,
+    "ContactId": 842,
+    "ProjectId": 809,
+    "ProjectName": "O'Hara-Bode",
+    "IsPublished": false,
+    "AssociateId": 200,
+    "ColorIndex": 839,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 586,
-    "PriorityName": "Carter Group",
+    "PriorityId": 757,
+    "PriorityName": "McDermott Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2004-06-13T03:45:22.967341+02:00",
+    "ActiveDate": "2006-09-28T03:46:54.2695244+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2024-04-11T03:45:22.967341+02:00",
-    "RecurringEndDate": "2003-05-08T03:45:22.967341+02:00",
-    "MotherId": 226,
-    "AssignedBy": 819,
-    "AssignedByFullName": "Tyson Wisoky",
-    "RejectReason": "envisioneer holistic functionalities",
-    "Location": "dicta",
-    "AlarmLeadTime": "et",
-    "SaleId": 371,
-    "SaleName": "Mosciski-King",
-    "AssociateName": "Donnelly Group",
-    "CreatedDate": "2001-06-01T03:45:22.967341+02:00",
-    "CreatedBy": "expedita",
-    "CreatedByFullName": "Miss Vickie Bethany Aufderhar",
-    "CreatedByAssociateId": 736,
+    "RecurringStartDate": "2015-09-05T03:46:54.2695244+02:00",
+    "RecurringEndDate": "1999-06-04T03:46:54.2695244+02:00",
+    "MotherId": 691,
+    "AssignedBy": 439,
+    "AssignedByFullName": "Dr. Mohammed Bert Reichert PhD",
+    "RejectReason": "",
+    "Location": "ut",
+    "AlarmLeadTime": "est",
+    "SaleId": 674,
+    "SaleName": "Okuneva Group",
+    "AssociateName": "Daugherty Group",
+    "CreatedDate": "2009-05-08T03:46:54.2695244+02:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Marlin Cartwright",
+    "CreatedByAssociateId": 244,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 778,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 460,
-    "Title": "aut",
-    "Agenda": "reprehenderit",
-    "InternalNotes": "nisi",
+    "PreferredTZLocation": 979,
+    "Title": "ut",
+    "Agenda": "cupiditate",
+    "InternalNotes": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 40
+        "FieldLength": 734
       }
     }
   }

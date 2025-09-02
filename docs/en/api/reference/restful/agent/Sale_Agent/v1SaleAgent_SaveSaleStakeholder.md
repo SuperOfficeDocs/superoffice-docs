@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SaveSaleStakeholder
 uid: v1SaleAgent_SaveSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SaveSaleStakeholder
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 ```
 
-Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty
+Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: saleStakeholder 
 
-The SaleStakeholder to be saved. 
+The SaleStakeholder that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,25 +104,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ferry, Treutel and Russel",
-  "Comment": "ad",
-  "StakeholderRoleId": 700,
-  "CountryId": 80,
-  "PersonId": 26,
-  "EmailDescription": "lucious@haag.com",
-  "EmailId": 104,
-  "EmailAddress": "gisselle_schaden@rolfson.biz",
-  "PhoneId": 701,
-  "ContactName": "Bruen, Casper and Bosco",
-  "ContactId": 540,
-  "SaleId": 710,
-  "Mrmrs": "ratione",
-  "Firstname": "Randy",
-  "MiddleName": "Gottlieb, Corkery and Lynch",
-  "Lastname": "Krajcik",
-  "SaleStakeholderId": 133,
-  "Rank": 242,
-  "Phone": "(142)747-4519 x33863"
+  "StakeholderRoleName": "Weber, Hegmann and Kuvalis",
+  "Comment": "et",
+  "StakeholderRoleId": 37,
+  "CountryId": 135,
+  "PersonId": 289,
+  "EmailDescription": "jordane.spinka@okon.info",
+  "EmailId": 4,
+  "EmailAddress": "marcellus.wisozk@kulas.uk",
+  "PhoneId": 970,
+  "ContactName": "Weimann-Raynor",
+  "ContactId": 304,
+  "SaleId": 365,
+  "Mrmrs": "odit",
+  "Firstname": "Annie",
+  "MiddleName": "McClure-Kunde",
+  "Lastname": "Blanda",
+  "SaleStakeholderId": 604,
+  "Rank": 940,
+  "Phone": "1-114-399-2575 x18476"
 }
 ```
 
@@ -132,31 +133,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Abbott, Lindgren and Paucek",
-  "Comment": "corporis",
-  "StakeholderRoleId": 581,
-  "CountryId": 259,
-  "PersonId": 675,
-  "EmailDescription": "mack.rogahn@spencer.biz",
-  "EmailId": 909,
-  "EmailAddress": "roselyn_harvey@sawayn.biz",
-  "PhoneId": 706,
-  "ContactName": "Will-Lueilwitz",
-  "ContactId": 180,
-  "SaleId": 864,
-  "Mrmrs": "ut",
-  "Firstname": "Alexandra",
-  "MiddleName": "Lemke-Kris",
-  "Lastname": "Von",
-  "SaleStakeholderId": 901,
-  "Rank": 308,
-  "Phone": "1-289-722-9498 x48728",
+  "StakeholderRoleName": "Tillman LLC",
+  "Comment": "quas",
+  "StakeholderRoleId": 881,
+  "CountryId": 386,
+  "PersonId": 335,
+  "EmailDescription": "deshaun@rice.biz",
+  "EmailId": 186,
+  "EmailAddress": "lavern_kiehn@lindgren.ca",
+  "PhoneId": 427,
+  "ContactName": "Schinner Group",
+  "ContactId": 575,
+  "SaleId": 878,
+  "Mrmrs": "expedita",
+  "Firstname": "Beverly",
+  "MiddleName": "Bogan, Larkin and Wilkinson",
+  "Lastname": "Hammes",
+  "SaleStakeholderId": 989,
+  "Rank": 620,
+  "Phone": "1-781-749-3934",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

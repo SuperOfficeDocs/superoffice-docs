@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.RemoveSession SOAP
 generated: true
 uid: Services88-CustomerService-RemoveSession
+content_type: reference
 ---
 
 # Services88 CustomerService RemoveSession

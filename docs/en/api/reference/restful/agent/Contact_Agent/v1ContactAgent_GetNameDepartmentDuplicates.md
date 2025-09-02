@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetNameDepartmentDuplicates
 uid: v1ContactAgent_GetNameDepartmentDuplicates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetNameDepartmentDuplicates
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jones Group",
+  "Name": "Champlin, McDermott and Schuster",
   "Department": ""
 }
 ```
@@ -95,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hills-Price",
-    "SoPrimaryKey": 871,
-    "EntryName": "Cormier, Kulas and Kozey",
-    "EntryIdentifier": "atque",
-    "RuleDisplayName": "Terry Inc and Sons",
+    "RuleName": "Reilly, Cruickshank and Marks",
+    "SoPrimaryKey": 603,
+    "EntryName": "Ankunding LLC",
+    "EntryIdentifier": "dolorem",
+    "RuleDisplayName": "Hettinger-Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 896
       }
     }
   }

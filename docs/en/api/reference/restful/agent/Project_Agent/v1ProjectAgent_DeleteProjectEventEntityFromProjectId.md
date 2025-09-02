@@ -2,6 +2,7 @@
 title: POST Agents/Project/DeleteProjectEventEntityFromProjectId
 uid: v1ProjectAgent_DeleteProjectEventEntityFromProjectId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/DeleteProjectEventEntityFromProjectId
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 574
+  "ProjectId": 646
 }
 ```
 

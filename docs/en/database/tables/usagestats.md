@@ -2,10 +2,10 @@
 uid: table-UsageStats
 title: UsageStats table
 description: Usage statistics
-so.generated: true
+generated: true
 keywords: database table UsageStats
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # UsageStats Table (190)

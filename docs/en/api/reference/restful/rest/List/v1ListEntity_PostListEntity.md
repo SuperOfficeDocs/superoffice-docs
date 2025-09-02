@@ -2,6 +2,7 @@
 title: POST List
 uid: v1ListEntity_PostListEntity
 generated: true
+content_type: reference
 ---
 
 # POST List
@@ -94,19 +95,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Streich, Schaefer and Nienow",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 669,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nesciunt",
+  "Id": 226,
+  "Name": "Rau, Roob and Welch",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 802,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Christiansen-Harvey",
-  "Tooltip": "corporis",
+  "Id": 199,
+  "Name": "Kulas Group",
+  "Tooltip": "quibusdam",
   "Deleted": true,
-  "Rank": 97,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 983,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
-  "InUseByUserDefinedFields": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 338
     }
   },
   "_Links": {

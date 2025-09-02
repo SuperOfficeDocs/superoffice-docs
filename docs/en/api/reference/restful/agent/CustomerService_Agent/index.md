@@ -1,6 +1,8 @@
 ---
+uid: tag-CustomerService_Agent
 title: CustomerService_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -9,16 +11,6 @@ generated: true
 
 
 
-
-* [POST Agents/CustomerService/CreateDefaultCustomerCenterConfig](v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)
-
-* [POST Agents/CustomerService/SaveCustomerCenterConfig](v1CustomerServiceAgent_SaveCustomerCenterConfig.md)
-
-* [POST Agents/CustomerService/DeleteCustomerCenterConfig](v1CustomerServiceAgent_DeleteCustomerCenterConfig.md)
-
-* [POST Agents/CustomerService/CreateDefaultMailboxEntity](v1CustomerServiceAgent_CreateDefaultMailboxEntity.md)
-
-* [POST Agents/CustomerService/SaveMailboxEntity](v1CustomerServiceAgent_SaveMailboxEntity.md)
 
 * [POST Agents/CustomerService/UpdateFeatureToggles](v1CustomerServiceAgent_UpdateFeatureToggles.md)
 
@@ -37,6 +29,12 @@ generated: true
 * [POST Agents/CustomerService/CheckSymmetricEncryption](v1CustomerServiceAgent_CheckSymmetricEncryption.md)
 
 * [POST Agents/CustomerService/ReportSessionActive](v1CustomerServiceAgent_ReportSessionActive.md)
+
+* [POST Agents/CustomerService/CreateDefaultCustomerCenterConfig](v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)
+
+* [POST Agents/CustomerService/SaveCustomerCenterConfig](v1CustomerServiceAgent_SaveCustomerCenterConfig.md)
+
+* [POST Agents/CustomerService/DeleteCustomerCenterConfig](v1CustomerServiceAgent_DeleteCustomerCenterConfig.md)
 
 * [POST Agents/CustomerService/GetCustomerCenterConfig](v1CustomerServiceAgent_GetCustomerCenterConfig.md)
 
@@ -57,6 +55,10 @@ generated: true
 * [POST Agents/CustomerService/ExecuteEventHandlers](v1CustomerServiceAgent_ExecuteEventHandlers.md)
 
 * [POST Agents/CustomerService/GetMailboxes](v1CustomerServiceAgent_GetMailboxes.md)
+
+* [POST Agents/CustomerService/CreateDefaultMailboxEntity](v1CustomerServiceAgent_CreateDefaultMailboxEntity.md)
+
+* [POST Agents/CustomerService/SaveMailboxEntity](v1CustomerServiceAgent_SaveMailboxEntity.md)
 
 * [POST Agents/CustomerService/GetMailboxEntity](v1CustomerServiceAgent_GetMailboxEntity.md)
 

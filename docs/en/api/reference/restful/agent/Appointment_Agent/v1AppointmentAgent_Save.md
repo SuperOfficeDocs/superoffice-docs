@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/Save
 uid: v1AppointmentAgent_Save
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/Save
@@ -136,13 +137,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -159,121 +160,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-05-01T03:45:22.842344+02:00",
-  "AppointmentId": 685,
-  "Description": "Customizable clear-thinking collaboration",
-  "Title": "voluptas",
-  "Agenda": "et",
-  "InternalNotes": "nisi",
-  "StartDate": "1998-07-21T03:45:22.842344+02:00",
-  "EndDate": "2013-08-28T03:45:22.842344+02:00",
+  "CreatedDate": "2025-08-21T03:46:54.1445302+02:00",
+  "AppointmentId": 491,
+  "Description": "Synchronised maximized installation",
+  "Title": "quia",
+  "Agenda": "ea",
+  "InternalNotes": "et",
+  "StartDate": "2020-11-13T03:46:54.1445302+01:00",
+  "EndDate": "2003-03-29T03:46:54.1445302+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 183,
+  "MotherId": 851,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-06-16T03:45:22.842344+02:00",
+  "UpdatedDate": "1999-09-17T03:46:54.1445302+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 116,
+  "ActiveLinks": 990,
   "Links": [
     {
-      "EntityName": "Swaniawski-Little",
-      "Id": 507,
-      "Description": "Programmable needs-based parallelism",
-      "ExtraInfo": "ut",
-      "LinkId": 61,
+      "EntityName": "Cole LLC",
+      "Id": 311,
+      "Description": "Synergized value-added analyzer",
+      "ExtraInfo": "rem",
+      "LinkId": 819,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 349
         }
       }
     }
   ],
-  "AlarmLeadTime": "itaque",
+  "AlarmLeadTime": "quis",
   "HasAlarm": true,
-  "ColorIndex": 111,
-  "IsFree": true,
+  "ColorIndex": 249,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "qui",
-  "LeadTime": "soluta",
-  "Location": "laborum",
-  "RejectCounter": 527,
+  "LagTime": "optio",
+  "LeadTime": "ut",
+  "Location": "aut",
+  "RejectCounter": 485,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 903,
-      "PersonId": 460,
-      "ContactId": 487,
-      "EmailId": 275,
-      "SendEmail": false,
+      "AssociateId": 750,
+      "PersonId": 195,
+      "ContactId": 308,
+      "EmailId": 686,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "norris@stanton.ca",
-      "Description": "Inverse actuating neural-net"
+      "EmailAddress": "colten.kuhic@hudson.us",
+      "Description": "Centralized full-range collaboration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-10-24T03:45:22.842344+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2024-05-24T03:46:54.1445302+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 982,
+  "PreferredTZLocation": 484,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 658,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 394,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "omnis",
+  "CentralserviceVideomeetId": "cumque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Verdie Rippin Jr.",
-    "SuperOffice:2": "Miss Mable Gay Will MD"
+    "SuperOffice:1": "Yasmin Hamill",
+    "SuperOffice:2": "2081557638"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "beatae",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2018-12-23T03:45:22.842344+01:00",
-  "PublishTo": "2024-12-16T03:45:22.842344+01:00",
-  "PublishFrom": "2000-01-30T03:45:22.842344+01:00",
+  "PublishEventDate": "2021-03-02T03:46:54.1445302+01:00",
+  "PublishTo": "2024-02-24T03:46:54.1445302+01:00",
+  "PublishFrom": "2021-01-06T03:46:54.1445302+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 854,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldType": "System.Int32",
+          "FieldLength": 704
         }
       }
     },
     {
-      "VisibleId": 854,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldType": "System.Int32",
+          "FieldLength": 704
         }
       }
     }
@@ -283,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 988
     }
   }
 }

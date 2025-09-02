@@ -3,9 +3,9 @@ uid: quoteversion
 title: quoteversion
 keywords: mdoprovider mdo provider quoteversion
 description: Quote version selector for one Quote. Send QuoteId=&lt;id&gt; in ExtraInfo to specify quote id
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quoteversion" MDO List

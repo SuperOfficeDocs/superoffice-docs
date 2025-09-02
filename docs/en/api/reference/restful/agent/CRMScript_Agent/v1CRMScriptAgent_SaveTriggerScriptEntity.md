@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/SaveTriggerScriptEntity
 uid: v1CRMScriptAgent_SaveTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 ```
 
-Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
+Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is 0.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -35,9 +36,9 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: triggerScriptEntity 
 
-The TriggerScriptEntity to be saved. 
+The TriggerScriptEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 918,
-  "Name": "Luettgen Group",
+  "ScreenChooserId": 86,
+  "Name": "Marvin Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quod",
-  "Source": "id",
-  "Registered": "2015-05-11T03:45:23.2329582+02:00",
-  "RegisteredAssociateId": 195,
-  "Updated": "2008-01-05T03:45:23.2329582+01:00",
-  "UpdatedAssociateId": 543
+  "UniqueIdentifier": "blanditiis",
+  "Source": "reiciendis",
+  "Registered": "2008-10-07T03:46:54.5820132+02:00",
+  "RegisteredAssociateId": 951,
+  "Updated": "2019-11-01T03:46:54.5820132+01:00",
+  "UpdatedAssociateId": 110
 }
 ```
 
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 456,
-  "Name": "Fisher, Corwin and Upton",
+  "ScreenChooserId": 934,
+  "Name": "Senger Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "architecto",
-  "Registered": "2003-08-11T03:45:23.2329582+02:00",
-  "RegisteredAssociateId": 1001,
-  "Updated": "2020-02-12T03:45:23.2329582+01:00",
-  "UpdatedAssociateId": 864,
+  "UniqueIdentifier": "aliquam",
+  "Source": "voluptates",
+  "Registered": "2021-03-18T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 825,
+  "Updated": "1999-07-22T03:46:54.5820132+02:00",
+  "UpdatedAssociateId": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

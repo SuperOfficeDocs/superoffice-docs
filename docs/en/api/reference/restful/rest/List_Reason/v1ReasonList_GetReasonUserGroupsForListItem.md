@@ -2,6 +2,7 @@
 title: GET List/Reason/Items/{id}/UserGroups
 uid: v1ReasonList_GetReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Bayer, Ryan and Witting",
-    "ToolTip": "Ut facere rerum enim sit adipisci magni.",
+    "Id": 824,
+    "Name": "Fritsch Group",
+    "ToolTip": "Placeat esse.",
     "Deleted": true,
-    "Rank": 939,
-    "Type": "dolorem",
-    "ColorBlock": 284,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2018-03-18T03:45:29.2015441+01:00",
+    "Rank": 335,
+    "Type": "doloribus",
+    "ColorBlock": 141,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2021-03-06T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Grimes-Kunde",
-        "ToolTip": "Eligendi dolor ab earum ratione.",
-        "Deleted": true,
-        "Rank": 93,
-        "Type": "neque",
-        "ColorBlock": 690,
-        "IconHint": "magni",
+        "Id": 709,
+        "Name": "Beer, Auer and Bergstrom",
+        "ToolTip": "Perspiciatis laborum consequatur molestiae repudiandae perferendis.",
+        "Deleted": false,
+        "Rank": 52,
+        "Type": "explicabo",
+        "ColorBlock": 345,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2021-02-07T03:45:29.2015441+01:00",
+        "LastChanged": "2022-03-18T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
+        "ExtraInfo": "doloribus",
         "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Shaun Parker Bednar I",
+        "Hidden": true,
+        "FullName": "Neha Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldType": "System.String",
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
+    "ExtraInfo": "quis",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Mr. Lacey Orie Homenick",
+    "FullName": "Nickolas Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 101
       }
     }
   }

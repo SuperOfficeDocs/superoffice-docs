@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Category
 title: List_Category
 generated: true
+content_type: reference
 ---
 
 ```http

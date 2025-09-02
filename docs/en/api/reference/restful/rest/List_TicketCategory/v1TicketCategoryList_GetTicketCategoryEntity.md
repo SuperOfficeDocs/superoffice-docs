@@ -2,6 +2,7 @@
 title: GET List/TicketCategory/Items/{id}
 uid: v1TicketCategoryList_GetTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketCategory/Items/{id}
@@ -79,7 +80,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,36 +90,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 905,
-  "ParentId": 49,
-  "Name": "Predovic Group",
-  "Fullname": "voluptas",
-  "CategoryMaster": 58,
+  "TicketCategoryId": 72,
+  "ParentId": 567,
+  "Name": "Kutch, Robel and Skiles",
+  "Fullname": "odit",
+  "CategoryMaster": 700,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schneider, Cole and Kerluke",
+  "ExternalName": "Daniel, McLaughlin and Schneider",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 754,
-  "ReplyTemplate": 252,
-  "NotificationEmail": "francisco@hills.co.uk",
+  "AssignmentLag": 174,
+  "ReplyTemplate": 991,
+  "NotificationEmail": "carlotta_cummings@tillman.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 25,
+  "EffectiveReplyTemplateId": 47,
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "at"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldLength": 554
     }
   }
 }

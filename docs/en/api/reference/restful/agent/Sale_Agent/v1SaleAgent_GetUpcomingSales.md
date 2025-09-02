@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetUpcomingSales
 uid: v1SaleAgent_GetUpcomingSales
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetUpcomingSales
@@ -104,8 +105,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 279,
-  "Count": 79
+  "WeightedAmountLimit": 654,
+  "Count": 833
 }
 ```
 
@@ -117,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lesch Inc and Sons",
-    "SaleDate": "2014-01-17T03:45:23.8735682+01:00",
-    "SaleId": 247,
-    "Probability": 829,
-    "Title": "fugiat",
-    "Amount": 15754.617999999999,
-    "Currency": "aliquid",
-    "ProjectName": "Glover, Franecki and Gulgowski",
-    "AssociateFullName": "Eden Jacobi V",
-    "Description": "Reduced even-keeled focus group",
+    "ContactName": "Daniel-Lynch",
+    "SaleDate": "1998-12-29T03:46:55.2694888+01:00",
+    "SaleId": 647,
+    "Probability": 692,
+    "Title": "sequi",
+    "Amount": 22527.192,
+    "Currency": "sint",
+    "ProjectName": "Schulist LLC",
+    "AssociateFullName": "Olen Gulgowski",
+    "Description": "Seamless solution-oriented monitoring",
     "Status": "Lost",
-    "WeightedAmount": 7446.384,
-    "ProjectId": 781,
-    "EarningPercent": 19822.55,
-    "Earning": 20436.814,
-    "ContactId": 4,
-    "AssociateId": 587,
-    "PersonId": 855,
-    "SaleTypeId": 793,
-    "SaleTypeName": "Klocko, Zulauf and Koelpin",
-    "PersonFullName": "Stacey Mohr",
+    "WeightedAmount": 5446.892,
+    "ProjectId": 826,
+    "EarningPercent": 29876.422,
+    "Earning": 18775.793999999998,
+    "ContactId": 750,
+    "AssociateId": 103,
+    "PersonId": 309,
+    "SaleTypeId": 62,
+    "SaleTypeName": "Bauch, Keebler and Schmitt",
+    "PersonFullName": "Earnestine Thompson",
     "Completed": "Completed",
-    "ActiveErpLinks": 152,
-    "NextDueDate": "2023-04-10T03:45:23.8735682+02:00",
-    "Number": "290118",
+    "ActiveErpLinks": 507,
+    "NextDueDate": "2010-06-12T03:46:55.2694888+02:00",
+    "Number": "531691",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 55
       }
     }
   }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_QuoteApproveReason
 title: List_QuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 ```http

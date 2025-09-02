@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.GetSummaryByContact SOAP
 generated: true
 uid: Services88-Sale-GetSummaryByContact
+content_type: reference
 ---
 
 # Services88 Sale GetSummaryByContact
@@ -40,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByContact>
     <Sale:ContactId xsi:type="xsd:int">0</Sale:ContactId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2025-06-26T01:44:45Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2025-06-26T01:44:45Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2025-08-30T01:46:17Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2025-08-30T01:46:17Z</Sale:ToDate>
    </Sale:GetSummaryByContact>
 
  </SOAP-ENV:Body>

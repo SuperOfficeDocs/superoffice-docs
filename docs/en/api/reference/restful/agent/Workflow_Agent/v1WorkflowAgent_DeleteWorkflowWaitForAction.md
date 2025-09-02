@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/DeleteWorkflowWaitForAction
 uid: v1WorkflowAgent_DeleteWorkflowWaitForAction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/DeleteWorkflowWaitForAction
@@ -22,10 +23,10 @@ Deletes the WorkflowWaitForAction
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| WorkflowWaitForActionId | int32 | **Required** The id of the WorkflowWaitForAction to be deleted. |
+| workflowWaitForActionId | int32 | **Required** The identity of the WorkflowWaitForAction |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?WorkflowWaitForActionId=36
+POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=329
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

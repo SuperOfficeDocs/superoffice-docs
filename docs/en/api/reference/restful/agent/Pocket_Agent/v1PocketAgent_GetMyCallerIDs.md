@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/GetMyCallerIDs
 uid: v1PocketAgent_GetMyCallerIDs
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/GetMyCallerIDs
@@ -74,13 +75,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "magnam",
-  "MinDate": "2000-10-31T03:45:23.7485708+01:00",
-  "MaxDate": "2001-08-02T03:45:23.7485708+02:00"
+  "LastHash": "minima",
+  "MinDate": "2017-10-20T03:46:55.1288689+02:00",
+  "MaxDate": "2015-11-15T03:46:55.1288689+01:00"
 }
 ```
 
@@ -91,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "voluptatem",
+  "CallerIDHash": "ut",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 546,
-      "PersonId": 676,
-      "PersonName": "Langosh-Goyette",
-      "Mrmrs": "quas",
-      "ContactId": 975,
-      "ContactName": "Sanford, Lind and Glover"
+      "DialInPrefix": 856,
+      "PersonId": 54,
+      "PersonName": "Schmidt, Heidenreich and Harris",
+      "Mrmrs": "facere",
+      "ContactId": 782,
+      "ContactName": "Beatty-Moen"
     }
   ]
 }

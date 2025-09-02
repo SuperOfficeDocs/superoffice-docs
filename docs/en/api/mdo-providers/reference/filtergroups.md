@@ -3,9 +3,9 @@ uid: filtergroups
 title: filtergroups
 keywords: mdoprovider mdo provider filtergroups
 description: User groups, filtered according to the usergroups selected in the filter dialog.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "filtergroups" MDO List

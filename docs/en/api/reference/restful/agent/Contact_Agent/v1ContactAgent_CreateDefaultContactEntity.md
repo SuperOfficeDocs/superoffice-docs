@@ -2,6 +2,7 @@
 title: POST Agents/Contact/CreateDefaultContactEntity
 uid: v1ContactAgent_CreateDefaultContactEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/CreateDefaultContactEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 ```
 
-Set default values into a new ContactEntity.
+Loading default values into a new ContactEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -88,6 +87,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
+| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 59,
-  "Name": "Lemke-Stehr",
+  "ContactId": 954,
+  "Name": "Dare-Ullrich",
   "Department": "",
-  "OrgNr": "1592854",
-  "Number1": "1241317",
-  "Number2": "1688997",
-  "UpdatedDate": "2022-02-21T03:45:23.1550919+01:00",
-  "CreatedDate": "2006-04-21T03:45:23.1550919+02:00",
+  "OrgNr": "849935",
+  "Number1": "246479",
+  "Number2": "515830",
+  "UpdatedDate": "1999-10-17T03:46:54.4726424+02:00",
+  "CreatedDate": "2000-10-20T03:46:54.4726424+02:00",
   "Emails": [
     {
-      "Value": "aliquid",
-      "StrippedValue": "est",
-      "Description": "Switchable bi-directional forecast",
+      "Value": "et",
+      "StrippedValue": "aspernatur",
+      "Description": "Centralized needs-based emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 673
         }
       }
     },
     {
-      "Value": "aliquid",
-      "StrippedValue": "est",
-      "Description": "Switchable bi-directional forecast",
+      "Value": "et",
+      "StrippedValue": "aspernatur",
+      "Description": "Centralized needs-based emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 673
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 706,
-      "Name": "Parker LLC",
-      "ToolTip": "Nulla sit suscipit possimus voluptate.",
+      "Id": 87,
+      "Name": "Carter LLC",
+      "ToolTip": "Consequatur praesentium rerum expedita voluptatem.",
       "Deleted": true,
-      "Rank": 659,
-      "Type": "exercitationem",
-      "ColorBlock": 509,
-      "IconHint": "occaecati",
-      "Selected": false,
-      "LastChanged": "2012-04-05T03:45:23.1550919+02:00",
+      "Rank": 164,
+      "Type": "repellat",
+      "ColorBlock": 943,
+      "IconHint": "odit",
+      "Selected": true,
+      "LastChanged": "2025-04-02T03:46:54.4726424+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odio",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Ms. Verner Nelson Wintheiser II",
+      "ExtraInfo": "et",
+      "StyleHint": "sit",
+      "Hidden": false,
+      "FullName": "Miss Sienna Fisher",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 818
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "praesentium",
-      "StrippedValue": "iste",
-      "Description": "Visionary responsive support",
+      "Value": "eius",
+      "StrippedValue": "est",
+      "Description": "Triple-buffered system-worthy frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 344
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     },
     {
-      "Value": "praesentium",
-      "StrippedValue": "iste",
-      "Description": "Visionary responsive support",
+      "Value": "eius",
+      "StrippedValue": "est",
+      "Description": "Triple-buffered system-worthy frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 344
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "illum",
-      "Description": "Re-contextualized motivating data-warehouse",
+      "Value": "reiciendis",
+      "StrippedValue": "id",
+      "Description": "Intuitive tertiary flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 449
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "illum",
-      "Description": "Re-contextualized motivating data-warehouse",
+      "Value": "reiciendis",
+      "StrippedValue": "id",
+      "Description": "Intuitive tertiary flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 449
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "error",
-      "Description": "Quality-focused 4th generation forecast",
+      "Value": "velit",
+      "StrippedValue": "deserunt",
+      "Description": "Optional object-oriented workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 230
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "error",
-      "Description": "Quality-focused 4th generation forecast",
+      "Value": "velit",
+      "StrippedValue": "deserunt",
+      "Description": "Optional object-oriented workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 230
         }
       }
     }
   ],
-  "Description": "Re-engineered actuating support",
+  "Description": "Integrated 5th generation adapter",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,101 +269,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ut",
-      "PersonId": 753,
-      "Mrmrs": "fugiat",
-      "Firstname": "Reanna",
-      "Lastname": "Doyle",
-      "MiddleName": "Considine Group",
-      "Title": "velit",
-      "Description": "Face to face 6th generation collaboration",
-      "Email": "yadira@casper.info",
-      "FullName": "Cecelia Yundt I",
-      "DirectPhone": "490.577.8101 x20290",
-      "FormalName": "Stroman-Willms",
-      "CountryId": 526,
-      "ContactId": 528,
-      "ContactName": "Gerhold, Larson and Senger",
-      "Retired": 428,
-      "Rank": 445,
-      "ActiveInterests": 727,
+      "Position": "optio",
+      "PersonId": 718,
+      "Mrmrs": "est",
+      "Firstname": "Alia",
+      "Lastname": "Larkin",
+      "MiddleName": "Abernathy-DuBuque",
+      "Title": "odit",
+      "Description": "Automated holistic customer loyalty",
+      "Email": "candace.monahan@hanehyatt.info",
+      "FullName": "Katlyn Rice",
+      "DirectPhone": "1-558-374-3894 x82915",
+      "FormalName": "Herman, Marvin and Toy",
+      "CountryId": 700,
+      "ContactId": 323,
+      "ContactName": "Luettgen-Gerhold",
+      "Retired": 82,
+      "Rank": 11,
+      "ActiveInterests": 772,
       "ContactDepartment": "",
-      "ContactCountryId": 666,
-      "ContactOrgNr": "1154424",
-      "FaxPhone": "486-932-8971",
-      "MobilePhone": "779.446.0611 x128",
-      "ContactPhone": "1-084-394-6399",
-      "AssociateName": "Lehner-Oberbrunner",
-      "AssociateId": 411,
+      "ContactCountryId": 408,
+      "ContactOrgNr": "999491",
+      "FaxPhone": "1-391-668-0307",
+      "MobilePhone": "(693)256-6700 x4699",
+      "ContactPhone": "836-301-9565 x923",
+      "AssociateName": "Wiegand, Murazik and Schowalter",
+      "AssociateId": 115,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "deleniti",
-      "Kanalname": "harum",
-      "Post1": "neque",
-      "Post2": "rem",
-      "Post3": "amet",
-      "EmailName": "blanche_cartwright@schowalter.name",
-      "ContactFullName": "Cleveland Larson",
-      "ActiveErpLinks": 388,
-      "TicketPriorityId": 65,
-      "SupportLanguageId": 684,
-      "SupportAssociateId": 615,
+      "ContactFax": "distinctio",
+      "Kanafname": "iure",
+      "Kanalname": "et",
+      "Post1": "quod",
+      "Post2": "voluptatem",
+      "Post3": "nesciunt",
+      "EmailName": "quentin@rathgerlach.biz",
+      "ContactFullName": "Harmon Denesik",
+      "ActiveErpLinks": 961,
+      "TicketPriorityId": 138,
+      "SupportLanguageId": 669,
+      "SupportAssociateId": 550,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "943095",
+      "PersonNumber": "286535",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 382
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "est",
-  "Xstop": false,
-  "ActiveInterests": 354,
-  "GroupId": 659,
-  "ActiveStatusMonitorId": 388,
+  "Kananame": "non",
+  "Xstop": true,
+  "ActiveInterests": 804,
+  "GroupId": 863,
+  "ActiveStatusMonitorId": 322,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 390,
-  "DbiAgentId": 427,
-  "DbiLastSyncronized": "2008-07-09T03:45:23.1550919+02:00",
-  "DbiKey": "praesentium",
-  "DbiLastModified": "2022-11-15T03:45:23.1550919+01:00",
+  "Deleted": 385,
+  "DbiAgentId": 239,
+  "DbiLastSyncronized": "2003-02-23T03:46:54.4726424+01:00",
+  "DbiKey": "esse",
+  "DbiLastModified": "2009-10-02T03:46:54.4726424+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 513,
-  "ActiveErpLinks": 809,
+  "Source": 975,
+  "ActiveErpLinks": 609,
   "BounceEmails": [
-    "nora@marquardtstoltenberg.name",
-    "cara_hodkiewicz@mitchell.info"
+    "maudie_lind@frami.ca",
+    "jamey@mueller.us"
   ],
   "Domains": [
-    "temporibus",
-    "voluptatum"
+    "sequi",
+    "libero"
   ],
+  "InitialUtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "1865491041",
-    "SuperOffice:2": "793870326"
+    "SuperOffice:1": "Prof. Elsa Zackery O'Hara IV",
+    "SuperOffice:2": "1195584085"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "non"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 515
     }
   }
 }

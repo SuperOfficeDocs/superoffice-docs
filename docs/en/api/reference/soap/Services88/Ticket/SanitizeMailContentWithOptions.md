@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.SanitizeMailContentWithOptions SOAP
 generated: true
 uid: Services88-Ticket-SanitizeMailContentWithOptions
+content_type: reference
 ---
 
 # Services88 Ticket SanitizeMailContentWithOptions

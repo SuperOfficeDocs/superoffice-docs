@@ -2,6 +2,7 @@
 title: POST List/Position/Headings
 uid: v1PositionList_PostPositionHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Position/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 929,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "rem",
+  "HeadingId": 968,
+  "Name": "Littel, Gleason and Cronin",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 634,
-  "UdListDefinitionId": 243
+  "Rank": 468,
+  "UdListDefinitionId": 92
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 511,
-  "Name": "Toy, Borer and Hammes",
-  "Tooltip": "illum",
+  "HeadingId": 500,
+  "Name": "Hegmann LLC",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 726,
-  "UdListDefinitionId": 66,
+  "Rank": 906,
+  "UdListDefinitionId": 568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 798
     }
   }
 }

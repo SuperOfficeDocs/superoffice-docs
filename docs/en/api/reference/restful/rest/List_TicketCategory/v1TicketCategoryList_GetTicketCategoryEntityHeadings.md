@@ -2,6 +2,7 @@
 title: GET List/TicketCategory/Headings
 uid: v1TicketCategoryList_GetTicketCategoryEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketCategory/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Maggio, Hills and Dietrich",
-    "Tooltip": "rerum",
+    "HeadingId": 789,
+    "Name": "Feil-Schuppe",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 725,
-    "UdListDefinitionId": 672,
+    "Rank": 47,
+    "UdListDefinitionId": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 233
       }
     }
   }

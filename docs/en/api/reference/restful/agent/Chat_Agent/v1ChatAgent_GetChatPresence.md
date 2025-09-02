@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetChatPresence
 uid: v1ChatAgent_GetChatPresence
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetChatPresence
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 995,
-    "DisplayName": "Christiansen, Bogan and Torphy",
-    "OngoingChats": 444,
+    "UserId": 902,
+    "DisplayName": "Steuber-Swaniawski",
+    "OngoingChats": 658,
     "Present": false,
     "ChatTopics": [
-      133,
-      326
+      701,
+      770
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 871
       }
     }
   }

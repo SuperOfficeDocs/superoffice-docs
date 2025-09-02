@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.CreateActorLink SOAP
 generated: true
 uid: Services88-ErpSync-CreateActorLink
+content_type: reference
 ---
 
 # Services88 ErpSync CreateActorLink

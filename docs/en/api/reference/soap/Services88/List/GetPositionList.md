@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetPositionList SOAP
 generated: true
 uid: Services88-List-GetPositionList
+content_type: reference
 ---
 
 # Services88 List GetPositionList

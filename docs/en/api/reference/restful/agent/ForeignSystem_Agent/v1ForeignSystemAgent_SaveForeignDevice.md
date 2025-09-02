@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/SaveForeignDevice
 uid: v1ForeignSystemAgent_SaveForeignDevice
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/SaveForeignDevice
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Schulist-Hansen"
+  "ApplicationName": "Kulas LLC"
 }
 ```
 
@@ -98,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 511,
-  "Name": "Schimmel LLC",
-  "CreatedDate": "2023-08-24T03:45:23.498579+02:00",
-  "UpdatedDate": "2000-12-07T03:45:23.498579+01:00",
-  "AssociateFullName": "Mr. Octavia Juliana Schamberger I",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "sunt",
-  "DeviceIdentifier": "pariatur",
-  "ForeignAppId": 611,
+  "ForeignDeviceId": 866,
+  "Name": "Kiehn Inc and Sons",
+  "CreatedDate": "2003-04-17T03:46:54.9107593+02:00",
+  "UpdatedDate": "2013-06-24T03:46:54.9107593+02:00",
+  "AssociateFullName": "Trycia Conn",
+  "CreatedBy": "natus",
+  "UpdatedBy": "sed",
+  "DeviceIdentifier": "quasi",
+  "ForeignAppId": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 541
     }
   }
 }

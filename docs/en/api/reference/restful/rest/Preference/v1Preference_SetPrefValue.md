@@ -2,6 +2,7 @@
 title: PUT Preference/{section}/{key}
 uid: v1Preference_SetPrefValue
 generated: true
+content_type: reference
 ---
 
 # PUT Preference/{section}/{key}
@@ -71,21 +72,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatem",
+  "RawValue": "minus",
   "Specification": null,
-  "DisplayValue": "officia",
-  "DisplayTooltip": "earum",
+  "DisplayValue": "est",
+  "DisplayTooltip": "reiciendis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 11,
-  "PrefDescId": 522,
-  "TableName": "Hermann Inc and Sons",
-  "UserPreferenceId": 158
+  "TargetId": 521,
+  "PrefDescId": 748,
+  "TableName": "Brown-Haag",
+  "UserPreferenceId": 839
 }
 ```
 

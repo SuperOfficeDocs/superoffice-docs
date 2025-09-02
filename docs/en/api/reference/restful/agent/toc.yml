@@ -4,6 +4,10 @@ items:
 - name: AI
   href: AI_Agent/index.md
   items:
+  - name: AnalyzeBizCardImage
+    href: AI_Agent/v1AIAgent_AnalyzeBizCardImage.md
+  - name: AnalyzeBizCardText
+    href: AI_Agent/v1AIAgent_AnalyzeBizCardText.md
   - name: Answer
     href: AI_Agent/v1AIAgent_Answer.md
   - name: AnswerAccepted
@@ -1788,6 +1792,8 @@ items:
     href: List_Agent/v1ListAgent_ChangeCurrency.md
   - name: CreateDefaultAmountClassEntity
     href: List_Agent/v1ListAgent_CreateDefaultAmountClassEntity.md
+  - name: CreateDefaultCategoryEntity
+    href: List_Agent/v1ListAgent_CreateDefaultCategoryEntity.md
   - name: CreateDefaultCountry
     href: List_Agent/v1ListAgent_CreateDefaultCountry.md
   - name: CreateDefaultCurrencyEntity
@@ -1874,6 +1880,8 @@ items:
     href: List_Agent/v1ListAgent_DeleteWebPanel.md
   - name: GenerateNavigationUrl
     href: List_Agent/v1ListAgent_GenerateNavigationUrl.md
+  - name: GetAllConsentSource
+    href: List_Agent/v1ListAgent_GetAllConsentSource.md
   - name: GetAllCountries
     href: List_Agent/v1ListAgent_GetAllCountries.md
   - name: GetAllCurrencies
@@ -1888,12 +1896,20 @@ items:
     href: List_Agent/v1ListAgent_GetAllFromListName.md
   - name: GetAllInDomain
     href: List_Agent/v1ListAgent_GetAllInDomain.md
+  - name: GetAllLegalBase
+    href: List_Agent/v1ListAgent_GetAllLegalBase.md
+  - name: GetAllReasonSold
+    href: List_Agent/v1ListAgent_GetAllReasonSold.md
+  - name: GetAllReasonStalled
+    href: List_Agent/v1ListAgent_GetAllReasonStalled.md
   - name: GetAllSaleStages
     href: List_Agent/v1ListAgent_GetAllSaleStages.md
   - name: GetAllSaleType
     href: List_Agent/v1ListAgent_GetAllSaleType.md
   - name: GetAllSaleTypeEntities
     href: List_Agent/v1ListAgent_GetAllSaleTypeEntities.md
+  - name: GetAllSelectionCategory
+    href: List_Agent/v1ListAgent_GetAllSelectionCategory.md
   - name: GetAllTasks
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
@@ -1916,6 +1932,8 @@ items:
     href: List_Agent/v1ListAgent_GetCategories.md
   - name: GetCategory
     href: List_Agent/v1ListAgent_GetCategory.md
+  - name: GetCategoryEntity
+    href: List_Agent/v1ListAgent_GetCategoryEntity.md
   - name: GetCategoryList
     href: List_Agent/v1ListAgent_GetCategoryList.md
   - name: GetCompetitor
@@ -2250,6 +2268,8 @@ items:
     href: List_Agent/v1ListAgent_SaveAllFromListName.md
   - name: SaveAmountClassEntity
     href: List_Agent/v1ListAgent_SaveAmountClassEntity.md
+  - name: SaveCategoryEntity
+    href: List_Agent/v1ListAgent_SaveCategoryEntity.md
   - name: SaveConsentPurpose
     href: List_Agent/v1ListAgent_SaveConsentPurpose.md
   - name: SaveConsentSource
@@ -2445,6 +2465,8 @@ items:
 - name: Navigator
   href: Navigator_Agent/index.md
   items:
+  - name: GetAllNavigatorCompany
+    href: Navigator_Agent/v1NavigatorAgent_GetAllNavigatorCompany.md
   - name: GetNavigatorCompanies
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanies.md
   - name: GetNavigatorCompanyList
@@ -2553,6 +2575,8 @@ items:
     href: Person_Agent/v1PersonAgent_GetSalesRep.md
   - name: GetUserCandidateByPerson
     href: Person_Agent/v1PersonAgent_GetUserCandidateByPerson.md
+  - name: GetUtmParameters
+    href: Person_Agent/v1PersonAgent_GetUtmParameters.md
   - name: HasConsent
     href: Person_Agent/v1PersonAgent_HasConsent.md
   - name: IsNumberValid
@@ -2820,6 +2844,8 @@ items:
     href: Project_Agent/v1ProjectAgent_SaveProjectMember.md
   - name: SaveProjectMembersFunctionAndComment
     href: Project_Agent/v1ProjectAgent_SaveProjectMembersFunctionAndComment.md
+  - name: SetCompleted
+    href: Project_Agent/v1ProjectAgent_SetCompleted.md
   - name: SetDuplicateRulesStatus
     href: Project_Agent/v1ProjectAgent_SetDuplicateRulesStatus.md
   - name: SetProjectImage
@@ -3203,6 +3229,8 @@ items:
     href: Selection_Agent/v1SelectionAgent_CreateContactSelectionFromSelection.md
   - name: CreateContactSelectionFromShadowSelection
     href: Selection_Agent/v1SelectionAgent_CreateContactSelectionFromShadowSelection.md
+  - name: CreateDefaultBoardViewSettingsFromEntityType
+    href: Selection_Agent/v1SelectionAgent_CreateDefaultBoardViewSettingsFromEntityType.md
   - name: CreateDefaultSelectionEntity
     href: Selection_Agent/v1SelectionAgent_CreateDefaultSelectionEntity.md
   - name: CreateNewEntry
@@ -3219,6 +3247,8 @@ items:
     href: Selection_Agent/v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds.md
   - name: CreateTemporarySelectionFromIds
     href: Selection_Agent/v1SelectionAgent_CreateTemporarySelectionFromIds.md
+  - name: DeleteBoardViewSettings
+    href: Selection_Agent/v1SelectionAgent_DeleteBoardViewSettings.md
   - name: DeleteContacts
     href: Selection_Agent/v1SelectionAgent_DeleteContacts.md
   - name: DeleteEntities
@@ -3235,6 +3265,10 @@ items:
     href: Selection_Agent/v1SelectionAgent_ExportSelectionMembersWithOrderBy.md
   - name: GenerateFollowUps
     href: Selection_Agent/v1SelectionAgent_GenerateFollowUps.md
+  - name: GetBoardViewSettings
+    href: Selection_Agent/v1SelectionAgent_GetBoardViewSettings.md
+  - name: GetBoardViewSettingsForSelection
+    href: Selection_Agent/v1SelectionAgent_GetBoardViewSettingsForSelection.md
   - name: GetDuplicateRules
     href: Selection_Agent/v1SelectionAgent_GetDuplicateRules.md
   - name: GetDuplicates
@@ -3273,6 +3307,8 @@ items:
     href: Selection_Agent/v1SelectionAgent_RemoveSelectionMembersById.md
   - name: RemoveSelectionMembersFromSearch
     href: Selection_Agent/v1SelectionAgent_RemoveSelectionMembersFromSearch.md
+  - name: SaveBoardViewSettings
+    href: Selection_Agent/v1SelectionAgent_SaveBoardViewSettings.md
   - name: SaveSelectionEntity
     href: Selection_Agent/v1SelectionAgent_SaveSelectionEntity.md
   - name: SetDuplicateRulesStatus
@@ -3581,8 +3617,8 @@ items:
     href: User_Agent/v1UserAgent_DeleteUserFromName.md
   - name: DeleteUserGroup
     href: User_Agent/v1UserAgent_DeleteUserGroup.md
-  - name: ExecuteUserCommandAsync
-    href: User_Agent/v1UserAgent_ExecuteUserCommandAsync.md
+  - name: ExecuteUserCommand
+    href: User_Agent/v1UserAgent_ExecuteUserCommand.md
   - name: FindCredentialsGroups
     href: User_Agent/v1UserAgent_FindCredentialsGroups.md
   - name: FindCredentialUsers
@@ -3637,8 +3673,8 @@ items:
     href: User_Agent/v1UserAgent_GetUntrustedCredentialsForAssociate.md
   - name: GetUser
     href: User_Agent/v1UserAgent_GetUser.md
-  - name: GetUserCommandsAsync
-    href: User_Agent/v1UserAgent_GetUserCommandsAsync.md
+  - name: GetUserCommands
+    href: User_Agent/v1UserAgent_GetUserCommands.md
   - name: GetUserFromEjUserId
     href: User_Agent/v1UserAgent_GetUserFromEjUserId.md
   - name: GetUserFromName

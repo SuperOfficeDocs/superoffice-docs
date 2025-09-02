@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPositions
 uid: v1ListAgent_GetPositions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPositions
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Value": "minus",
-    "Tooltip": "exercitationem",
+    "Id": 774,
+    "Value": "soluta",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   },
   {
-    "Id": 531,
-    "Value": "minus",
-    "Tooltip": "exercitationem",
+    "Id": 774,
+    "Value": "soluta",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   }

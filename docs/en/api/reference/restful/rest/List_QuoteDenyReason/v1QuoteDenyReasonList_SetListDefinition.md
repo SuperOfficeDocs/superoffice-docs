@@ -2,6 +2,7 @@
 title: PUT List/QuoteDenyReason
 uid: v1QuoteDenyReasonList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteDenyReason
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Beatty-Labadie",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 347,
+  "Id": 77,
+  "Name": "Pfeffer-Stamm",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 420,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Wuckert, Treutel and McGlynn",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 811,
+  "Id": 599,
+  "Name": "Hauck, Hand and Gleason",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 731,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldLength": 84
     }
   }
 }

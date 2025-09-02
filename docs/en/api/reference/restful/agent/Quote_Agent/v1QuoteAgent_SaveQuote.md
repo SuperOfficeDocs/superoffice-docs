@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuote
 uid: v1QuoteAgent_SaveQuote
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuote
@@ -101,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 793,
-  "SaleId": 696,
-  "QuoteConnectionId": 168,
-  "ERPQuoteKey": "veritatis",
-  "ERPOrderKey": "unde",
+  "QuoteId": 496,
+  "SaleId": 461,
+  "QuoteConnectionId": 543,
+  "ERPQuoteKey": "esse",
+  "ERPOrderKey": "enim",
   "ActiveQuoteVersionId": 658,
-  "AcceptedQuoteAlternativeId": 949,
-  "UseValuesFromQuote": 514,
-  "DocumentId": 289,
-  "PoNumber": "1640567",
-  "OrderComment": "quae",
-  "PreferredEmailCulture": "michael@dubuque.name",
+  "AcceptedQuoteAlternativeId": 676,
+  "UseValuesFromQuote": 440,
+  "DocumentId": 744,
+  "PoNumber": "1045251",
+  "OrderComment": "non",
+  "PreferredEmailCulture": "nyasia_bartoletti@rolfson.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

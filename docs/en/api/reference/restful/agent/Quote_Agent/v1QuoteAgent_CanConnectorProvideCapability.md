@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CanConnectorProvideCapability
 uid: v1QuoteAgent_CanConnectorProvideCapability
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CanConnectorProvideCapability
@@ -69,12 +70,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 591,
-  "CapabilityName": "Bins-Gislason"
+  "QuoteConnectionId": 54,
+  "CapabilityName": "Schroeder, Ortiz and Lynch"
 }
 ```
 

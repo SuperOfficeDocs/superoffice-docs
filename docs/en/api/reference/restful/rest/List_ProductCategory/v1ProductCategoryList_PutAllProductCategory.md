@@ -2,6 +2,7 @@
 title: PUT List/ProductCategory/Items
 uid: v1ProductCategoryList_PutAllProductCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductCategory/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Cassin Inc and Sons",
-    "Tooltip": "vel",
+    "Id": 828,
+    "Name": "Huels, Schumm and Powlowski",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 553,
-    "Rank": 167
+    "UdListDefinitionId": 252,
+    "Rank": 395
   },
   {
-    "Id": 225,
-    "Name": "Cassin Inc and Sons",
-    "Tooltip": "vel",
+    "Id": 828,
+    "Name": "Huels, Schumm and Powlowski",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 553,
-    "Rank": 167
+    "UdListDefinitionId": 252,
+    "Rank": 395
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Vandervort LLC",
-    "Tooltip": "aliquid",
-    "Deleted": true,
-    "UdListDefinitionId": 25,
-    "Rank": 587,
+    "Id": 577,
+    "Name": "Walter, Green and Beahan",
+    "Tooltip": "pariatur",
+    "Deleted": false,
+    "UdListDefinitionId": 521,
+    "Rank": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 536
       }
     }
   }

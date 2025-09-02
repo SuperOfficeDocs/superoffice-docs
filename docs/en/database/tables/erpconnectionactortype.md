@@ -2,10 +2,10 @@
 uid: table-ErpConnectionActorType
 title: ErpConnectionActorType table
 description: Data about the configuration of one Erp Actor on one ErpConnection
-so.generated: true
+generated: true
 keywords: database table ErpConnectionActorType
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ErpConnectionActorType Table (419)

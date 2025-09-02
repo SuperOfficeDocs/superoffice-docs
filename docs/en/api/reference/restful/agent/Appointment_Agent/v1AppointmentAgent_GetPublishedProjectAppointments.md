@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPublishedProjectAppointments
 uid: v1AppointmentAgent_GetPublishedProjectAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPublishedProjectAppointments
@@ -112,6 +113,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -126,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 719
+  "ProjectId": 984
 }
 ```
 
@@ -142,66 +144,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 624,
-    "StartDate": "2007-12-02T03:45:22.7017267+01:00",
-    "EndDate": "2004-01-13T03:45:22.7017267+01:00",
+    "AppointmentId": 949,
+    "StartDate": "2020-03-19T03:46:54.0039095+01:00",
+    "EndDate": "2003-11-01T03:46:54.0039095+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nihil",
-    "AssociateFullName": "Mrs. Agnes Stevie Heaney V",
-    "ContactName": "Rath-Simonis",
-    "Description": "Object-based actuating concept",
-    "PersonFullName": "Robert Tyreek Upton MD",
-    "PersonId": 158,
-    "ContactId": 23,
-    "ProjectId": 360,
-    "ProjectName": "Waters, Kuhlman and Denesik",
-    "IsPublished": false,
-    "AssociateId": 174,
-    "ColorIndex": 750,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "voluptatum",
+    "AssociateFullName": "River Weber",
+    "ContactName": "Stamm, Nader and Hane",
+    "Description": "Multi-lateral bandwidth-monitored orchestration",
+    "PersonFullName": "Mrs. Ryann Romaguera Sr.",
+    "PersonId": 937,
+    "ContactId": 797,
+    "ProjectId": 77,
+    "ProjectName": "O'Connell Group",
+    "IsPublished": true,
+    "AssociateId": 842,
+    "ColorIndex": 13,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 153,
-    "PriorityName": "Casper Inc and Sons",
+    "PriorityId": 904,
+    "PriorityName": "Abernathy LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-11-19T03:45:22.7017267+01:00",
+    "ActiveDate": "2024-05-18T03:46:54.0039095+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-08-04T03:45:22.7017267+02:00",
-    "RecurringEndDate": "2016-09-20T03:45:22.7017267+02:00",
-    "MotherId": 450,
-    "AssignedBy": 821,
-    "AssignedByFullName": "Prof. Candido Macejkovic DDS",
+    "RecurringStartDate": "2007-06-09T03:46:54.0039095+02:00",
+    "RecurringEndDate": "2024-09-01T03:46:54.0039095+02:00",
+    "MotherId": 90,
+    "AssignedBy": 349,
+    "AssignedByFullName": "Lexus Langosh",
     "RejectReason": "",
-    "Location": "placeat",
-    "AlarmLeadTime": "id",
-    "SaleId": 720,
-    "SaleName": "Rogahn Group",
-    "AssociateName": "Kiehn-Labadie",
-    "CreatedDate": "2005-11-09T03:45:22.7017267+01:00",
-    "CreatedBy": "ipsa",
-    "CreatedByFullName": "Dr. Genesis Koss DDS",
-    "CreatedByAssociateId": 864,
+    "Location": "est",
+    "AlarmLeadTime": "tenetur",
+    "SaleId": 213,
+    "SaleName": "Lakin Group",
+    "AssociateName": "Rosenbaum-Stroman",
+    "CreatedDate": "2000-06-26T03:46:54.0039095+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Kyla Renner",
+    "CreatedByAssociateId": 992,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 923,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 413,
-    "Title": "et",
-    "Agenda": "dicta",
-    "InternalNotes": "cum",
+    "PreferredTZLocation": 557,
+    "Title": "porro",
+    "Agenda": "suscipit",
+    "InternalNotes": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

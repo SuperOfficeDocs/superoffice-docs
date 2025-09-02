@@ -2,6 +2,7 @@
 title: GET Ticket/default
 uid: v1TicketEntity_DefaultTicketEntity
 generated: true
+content_type: reference
 ---
 
 # GET Ticket/default
@@ -114,7 +115,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -124,21 +125,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 428,
-  "Title": "et",
-  "CreatedAt": "2007-02-25T03:45:28.670306+01:00",
-  "LastChanged": "2009-07-03T03:45:28.670306+02:00",
-  "ReadByOwner": "2014-10-10T03:45:28.670306+02:00",
-  "ReadByCustomer": "2003-07-02T03:45:28.670306+02:00",
-  "FirstReadByOwner": "2017-01-31T03:45:28.670306+01:00",
-  "FirstReadByUser": "2004-03-16T03:45:28.670306+01:00",
-  "Activate": "2014-05-12T03:45:28.670306+02:00",
-  "ClosedAt": "2009-06-08T03:45:28.670306+02:00",
-  "RepliedAt": "2002-10-20T03:45:28.670306+02:00",
-  "AlertTimeout": "1999-05-02T03:45:28.670306+02:00",
-  "Deadline": "1999-01-25T03:45:28.670306+01:00",
+  "TicketId": 40,
+  "Title": "eaque",
+  "CreatedAt": "2007-11-04T03:47:00.316185+01:00",
+  "LastChanged": "2024-01-13T03:47:00.316185+01:00",
+  "ReadByOwner": "2021-04-12T03:47:00.316185+02:00",
+  "ReadByCustomer": "2002-06-15T03:47:00.316185+02:00",
+  "FirstReadByOwner": "2019-09-15T03:47:00.316185+02:00",
+  "FirstReadByUser": "2019-04-26T03:47:00.316185+02:00",
+  "Activate": "2010-02-04T03:47:00.316185+01:00",
+  "ClosedAt": "2003-12-01T03:47:00.316185+01:00",
+  "RepliedAt": "2004-10-11T03:47:00.316185+02:00",
+  "AlertTimeout": "2004-08-01T03:47:00.316185+02:00",
+  "Deadline": "2018-12-15T03:47:00.316185+01:00",
   "CreatedBy": null,
-  "Author": "ratione",
+  "Author": "voluptates",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,163 +150,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "laborum",
-      "PersonId": 552,
-      "Mrmrs": "nihil",
-      "Firstname": "Kailee",
-      "Lastname": "Herzog",
-      "MiddleName": "Olson Inc and Sons",
-      "Title": "eum",
-      "Description": "Managed composite time-frame",
-      "Email": "samson@romaguera.us",
-      "FullName": "Meaghan Hickle",
-      "DirectPhone": "754-804-2662 x5967",
-      "FormalName": "Anderson LLC",
-      "CountryId": 862,
-      "ContactId": 298,
-      "ContactName": "Spencer-Koepp",
-      "Retired": 137,
-      "Rank": 101,
-      "ActiveInterests": 384,
-      "ContactDepartment": "",
-      "ContactCountryId": 190,
-      "ContactOrgNr": "1874912",
-      "FaxPhone": "(236)691-3103 x435",
-      "MobilePhone": "(032)184-4172 x5318",
-      "ContactPhone": "783.643.7932 x25673",
-      "AssociateName": "Wunsch-Kohler",
-      "AssociateId": 592,
-      "UsePersonAddress": true,
-      "ContactFax": "corporis",
-      "Kanafname": "autem",
-      "Kanalname": "itaque",
-      "Post1": "odit",
-      "Post2": "est",
-      "Post3": "alias",
-      "EmailName": "damian@mosciski.com",
-      "ContactFullName": "Gianni Sanford I",
-      "ActiveErpLinks": 409,
-      "TicketPriorityId": 594,
-      "SupportLanguageId": 174,
-      "SupportAssociateId": 375,
+      "Position": "laboriosam",
+      "PersonId": 752,
+      "Mrmrs": "enim",
+      "Firstname": "Lempi",
+      "Lastname": "Little",
+      "MiddleName": "Ebert Group",
+      "Title": "ut",
+      "Description": "Profound static database",
+      "Email": "polly@hagenesbogan.com",
+      "FullName": "Jessika Volkman I",
+      "DirectPhone": "(543)223-3080",
+      "FormalName": "Keebler, Dooley and Crooks",
+      "CountryId": 235,
+      "ContactId": 354,
+      "ContactName": "Schaefer, Hudson and Koepp",
+      "Retired": 289,
+      "Rank": 511,
+      "ActiveInterests": 415,
+      "ContactDepartment": "envisioneer dot-com e-services",
+      "ContactCountryId": 87,
+      "ContactOrgNr": "1550863",
+      "FaxPhone": "362.944.3988 x1614",
+      "MobilePhone": "1-862-969-8558 x452",
+      "ContactPhone": "(657)672-5310 x9912",
+      "AssociateName": "Johnston, Willms and Bradtke",
+      "AssociateId": 709,
+      "UsePersonAddress": false,
+      "ContactFax": "ipsum",
+      "Kanafname": "est",
+      "Kanalname": "corporis",
+      "Post1": "expedita",
+      "Post2": "reprehenderit",
+      "Post3": "ipsum",
+      "EmailName": "felicia.schinner@pfeffer.ca",
+      "ContactFullName": "Ms. Claudia Mabelle Medhurst",
+      "ActiveErpLinks": 633,
+      "TicketPriorityId": 596,
+      "SupportLanguageId": 56,
+      "SupportAssociateId": 108,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "397658",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
-        }
-      }
-    }
-  ],
-  "AlertLevel": 341,
-  "ConnectId": 807,
-  "ReadStatus": "Green",
-  "TimeToReply": 780,
-  "RealTimeToReply": 874,
-  "TimeToClose": 425,
-  "RealTimeToClose": 390,
-  "TimeSpentInternally": 434,
-  "TimeSpentExternally": 307,
-  "TimeSpentQueue": 919,
-  "RealTimeSpentInternally": 810,
-  "RealTimeSpentExternally": 742,
-  "RealTimeSpentQueue": 437,
-  "TimeSpent": 293,
-  "HasAttachment": false,
-  "NumReplies": 121,
-  "NumMessages": 227,
-  "FromAddress": "repellendus",
-  "Messages": [
-    {
-      "TicketMessageId": 415,
-      "CreatedAt": "2010-03-27T03:45:28.670306+01:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "consequatur",
-      "PersonId": 69,
-      "PersonFullName": "Jermain Franecki",
-      "ContactId": 746,
-      "ContactName": "Pfannerstill, Spinka and Friesen",
-      "ContactDepartment": "",
-      "NumAttachments": 154,
-      "EmailHeader": "tyshawn_bartoletti@marksraynor.us",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "enim",
-      "Sentiment": 902,
-      "SentimentConfidence": 338,
-      "CreatedBy": 91,
-      "ChangedAt": "2000-11-27T03:45:28.670306+01:00",
-      "Badge": "Comment",
+      "PersonNumber": "1437624",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldLength": 455
+        }
+      }
+    }
+  ],
+  "AlertLevel": 535,
+  "ConnectId": 156,
+  "ReadStatus": "Green",
+  "TimeToReply": 226,
+  "RealTimeToReply": 409,
+  "TimeToClose": 973,
+  "RealTimeToClose": 627,
+  "TimeSpentInternally": 965,
+  "TimeSpentExternally": 470,
+  "TimeSpentQueue": 522,
+  "RealTimeSpentInternally": 928,
+  "RealTimeSpentExternally": 442,
+  "RealTimeSpentQueue": 700,
+  "TimeSpent": 297,
+  "HasAttachment": true,
+  "NumReplies": 524,
+  "NumMessages": 131,
+  "FromAddress": "officiis",
+  "Messages": [
+    {
+      "TicketMessageId": 388,
+      "CreatedAt": "2001-12-09T03:47:00.316185+01:00",
+      "Slevel": "External",
+      "Important": false,
+      "Author": "laudantium",
+      "PersonId": 199,
+      "PersonFullName": "Gordon Effertz",
+      "ContactId": 160,
+      "ContactName": "Cole, Bednar and Ullrich",
+      "ContactDepartment": "",
+      "NumAttachments": 719,
+      "EmailHeader": "armand@cartergislason.info",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "eaque",
+      "Sentiment": 780,
+      "SentimentConfidence": 115,
+      "CreatedBy": 685,
+      "ChangedAt": "2019-02-27T03:47:00.316185+01:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 143
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 864,
-      "Name": "Schaefer, Barton and Leffler",
-      "ToolTip": "Repudiandae molestiae est vitae illo nostrum repellendus.",
+      "Id": 442,
+      "Name": "Heidenreich LLC",
+      "ToolTip": "Unde dolorum unde voluptatem et iusto et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     },
     {
-      "Id": 864,
-      "Name": "Schaefer, Barton and Leffler",
-      "ToolTip": "Repudiandae molestiae est vitae illo nostrum repellendus.",
+      "Id": 442,
+      "Name": "Heidenreich LLC",
+      "ToolTip": "Unde dolorum unde voluptatem et iusto et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
   ],
-  "Language": "qui",
-  "Sentiment": 448,
-  "SentimentConfidence": 281,
-  "SuggestedCategoryId": 891,
+  "Language": "dolorem",
+  "Sentiment": 187,
+  "SentimentConfidence": 613,
+  "SuggestedCategoryId": 1001,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 571,
-  "IconHint": "rerum",
+  "OrigHumanCategoryId": 356,
+  "IconHint": "consectetur",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 852,
+  "ActiveStatusMonitorId": 528,
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "tempora"
+    "CustomFields1": "et",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 439
     }
   }
 }

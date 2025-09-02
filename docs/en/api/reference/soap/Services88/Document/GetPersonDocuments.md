@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetPersonDocuments SOAP
 generated: true
 uid: Services88-Document-GetPersonDocuments
+content_type: reference
 ---
 
 # Services88 Document GetPersonDocuments

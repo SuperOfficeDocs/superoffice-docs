@@ -3,9 +3,9 @@ uid: quotedocumentgroupfields
 title: quotedocumentgroupfields
 keywords: mdoprovider mdo provider quotedocumentgroupfields
 description: Possible choices for fields that you can GROUP BY in quote detail documents.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quotedocumentgroupfields" MDO List

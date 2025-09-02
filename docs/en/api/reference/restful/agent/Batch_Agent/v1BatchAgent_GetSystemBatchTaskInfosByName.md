@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetSystemBatchTaskInfosByName
 uid: v1BatchAgent_GetSystemBatchTaskInfosByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetSystemBatchTaskInfosByName
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Pacocha, Kling and Marks"
+  "TaskName": "Ferry, Leannon and Ward"
 }
 ```
 
@@ -110,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Greenholt, Hudson and Thiel",
-    "AssociateId": 579,
-    "DetailsTable": 415,
-    "DetailsRecord": 576,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 201,
+    "Name": "Feil-Bogisich",
+    "AssociateId": 338,
+    "DetailsTable": 561,
+    "DetailsRecord": 133,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "exercitationem",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "explicabo",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2007-09-12T03:45:22.9829669+02:00",
-    "Created": "2007-02-09T03:45:22.9829669+01:00",
-    "StartCount": 553,
-    "DatabaseSerialNumber": "486816",
-    "Context": "deserunt",
-    "Result": "harum",
+    "LastStarted": "2003-11-10T03:46:54.3007673+01:00",
+    "Created": "2002-04-28T03:46:54.3007673+02:00",
+    "StartCount": 479,
+    "DatabaseSerialNumber": "937510",
+    "Context": "consequatur",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Pre-emptive tangible contingency",
-    "Response": "error",
-    "Request": "deserunt",
-    "ProgressDescription": "User-friendly assymetric function",
-    "ProgressPercent": 979,
-    "FileName": "Hodkiewicz LLC",
+    "Description": "Focused tangible migration",
+    "Response": "et",
+    "Request": "eum",
+    "ProgressDescription": "Cross-group assymetric secured line",
+    "ProgressPercent": 276,
+    "FileName": "Reichel, Cummings and Kub",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 7
       }
     }
   }

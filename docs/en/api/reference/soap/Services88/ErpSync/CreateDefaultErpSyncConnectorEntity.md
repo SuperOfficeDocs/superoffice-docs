@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.CreateDefaultErpSyncConnectorEntity SOAP
 generated: true
 uid: Services88-ErpSync-CreateDefaultErpSyncConnectorEntity
+content_type: reference
 ---
 
 # Services88 ErpSync CreateDefaultErpSyncConnectorEntity

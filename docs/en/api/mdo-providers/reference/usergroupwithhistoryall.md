@@ -3,9 +3,9 @@ uid: usergroupwithhistoryall
 title: usergroupwithhistoryall
 keywords: mdoprovider mdo provider usergroupwithhistoryall
 description: List provider for the UserGroup table. While this table looks like an MDO table, it lacks the standardized grouplink and headinglink companion tables (for good reason, since it is the group table itself). This provider includes the 'History' and 'All' choices, with id's -1 and -2. The <see cref="T:SuperOffice.CRM.ArchiveLists.ParticipantsProvider" /> (actually, the <see cref="T:SuperOffice.CRM.ArchiveLists.ExplicitParticipantsAssociateProvider" /> subchannel), used in the Assign To dialog, has a groupRestrictionId restriction that correctly decodes these special values.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "usergroupwithhistoryall" MDO List

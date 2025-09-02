@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.GetStoredFields SOAP
 generated: true
 uid: Services88-BulkUpdate-GetStoredFields
+content_type: reference
 ---
 
 # Services88 BulkUpdate GetStoredFields

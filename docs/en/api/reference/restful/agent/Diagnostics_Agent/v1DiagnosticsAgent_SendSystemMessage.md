@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/SendSystemMessage
 uid: v1DiagnosticsAgent_SendSystemMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/SendSystemMessage
@@ -68,14 +69,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "est",
-  "AssociateId": 931,
-  "MarkdownMessage": "voluptas",
-  "Expire": "2006-09-01T03:45:23.2798335+02:00",
+  "SystemMessageId": "exercitationem",
+  "AssociateId": 89,
+  "MarkdownMessage": "officiis",
+  "Expire": "2019-11-12T03:46:54.6132622+01:00",
   "Type": "Error"
 }
 ```

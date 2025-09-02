@@ -2,6 +2,7 @@
 title: POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 uid: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 382
+  "QuoteVersionAttachmentId": 419
 }
 ```
 

@@ -1,6 +1,8 @@
 ---
+uid: tag-ShipmentMessageBlock
 title: ShipmentMessageBlock
 generated: true
+content_type: reference
 ---
 
 ```http

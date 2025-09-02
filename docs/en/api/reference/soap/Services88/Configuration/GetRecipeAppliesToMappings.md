@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetRecipeAppliesToMappings SOAP
 generated: true
 uid: Services88-Configuration-GetRecipeAppliesToMappings
+content_type: reference
 ---
 
 # Services88 Configuration GetRecipeAppliesToMappings

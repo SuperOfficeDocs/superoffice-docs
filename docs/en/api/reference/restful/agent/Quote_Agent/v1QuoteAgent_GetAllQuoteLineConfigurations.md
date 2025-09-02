@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetAllQuoteLineConfigurations
 uid: v1QuoteAgent_GetAllQuoteLineConfigurations
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetAllQuoteLineConfigurations
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 69,
-    "FieldName": "Hessel Inc and Sons",
-    "Label": "distinctio",
-    "Tooltip": "aut",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 710,
+    "FieldName": "Schroeder, Roberts and Ledner",
+    "Label": "voluptas",
+    "Tooltip": "nam",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 810,
-    "RestrictEdit": true,
+    "Rank": 836,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 382
       }
     }
   }

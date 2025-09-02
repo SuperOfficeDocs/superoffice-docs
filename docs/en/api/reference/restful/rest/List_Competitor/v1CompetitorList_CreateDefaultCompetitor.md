@@ -2,6 +2,7 @@
 title: GET List/Competitor/Items/Default
 uid: v1CompetitorList_CreateDefaultCompetitor
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Items/Default
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Gleichner LLC",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 59,
+  "Id": 558,
+  "Name": "Rosenbaum-Fahey",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 91,
+  "Rank": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldLength": 828
     }
   }
 }

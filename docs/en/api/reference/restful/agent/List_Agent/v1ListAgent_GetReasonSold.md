@@ -2,6 +2,7 @@
 title: POST Agents/List/GetReasonSold
 uid: v1ListAgent_GetReasonSold
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetReasonSold
@@ -22,11 +23,11 @@ Gets a ReasonSold object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| reasonSoldId | int32 | **Required** The primary key. |
+| reasonSoldId | int32 | **Required** The identifier of the ReasonSold object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=85
+POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=984
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Value": "dolor",
-  "Tooltip": "reprehenderit",
+  "Id": 694,
+  "Value": "exercitationem",
+  "Tooltip": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 194
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCompetitorList
 uid: v1ListAgent_GetCompetitorList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCompetitorList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCompetitorList?$select=name,department,category/id
 
 ## Request Body: competitorIds 
 
-The primary keys. 
+The identifiers of the Competitor object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Value": "necessitatibus",
-    "Tooltip": "quo",
+    "Id": 614,
+    "Value": "consequatur",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 95
       }
     }
   },
   {
-    "Id": 430,
-    "Value": "necessitatibus",
-    "Tooltip": "quo",
+    "Id": 614,
+    "Value": "consequatur",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 95
       }
     }
   }

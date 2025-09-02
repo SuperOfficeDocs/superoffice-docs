@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetRole SOAP
 generated: true
 uid: Services88-User-GetRole
+content_type: reference
 ---
 
 # Services88 User GetRole

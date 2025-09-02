@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateDefaultQuoteAlternative
 uid: v1QuoteAgent_CreateDefaultQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateDefaultQuoteAlternative
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 ```
 
-Set default values into a new QuoteAlternative.
+Loading default values into a new QuoteAlternative.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -89,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 133,
-  "ERPQuoteAlternativeKey": "omnis",
-  "QuoteVersionId": 81,
-  "Name": "Gleason, Wiegand and Goldner",
-  "Description": "Ameliorated heuristic knowledge base",
+  "QuoteAlternativeId": 981,
+  "ERPQuoteAlternativeKey": "reiciendis",
+  "QuoteVersionId": 703,
+  "Name": "Huel-Kovacek",
+  "Description": "Versatile exuding analyzer",
   "Status": "Error",
-  "Reason": "cultivate integrated ROI",
-  "ERPDiscountPercent": 2460.19,
-  "ERPDiscountAmount": 23432.917999999998,
-  "DiscountPercent": 28472.39,
-  "DiscountAmount": 4901.576,
+  "Reason": "",
+  "ERPDiscountPercent": 30462.48,
+  "ERPDiscountAmount": 5794.766,
+  "DiscountPercent": 24532.951999999997,
+  "DiscountAmount": 16666.612,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "itaque",
-  "VAT": 28948.757999999998,
-  "EarningPercent": 8916.23,
-  "EarningAmount": 10511.436,
-  "SubTotal": 12006.354,
-  "TotalPrice": 11072.422,
-  "ExtraField1": "id",
-  "ExtraField2": "pariatur",
-  "ExtraField3": "omnis",
-  "ExtraField4": "earum",
-  "ExtraField5": "quod",
+  "VATInfo": "placeat",
+  "VAT": 13413.52,
+  "EarningPercent": 23003.559999999998,
+  "EarningAmount": 13379.046,
+  "SubTotal": 17443.844,
+  "TotalPrice": 990.34399999999994,
+  "ExtraField1": "non",
+  "ExtraField2": "et",
+  "ExtraField3": "architecto",
+  "ExtraField4": "rerum",
+  "ExtraField5": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 795
     }
   }
 }

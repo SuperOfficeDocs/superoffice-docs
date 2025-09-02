@@ -2,6 +2,7 @@
 title: POST Agents/Selection/AddContactSelectionMembersFromSearch
 uid: v1SelectionAgent_AddContactSelectionMembersFromSearch
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/AddContactSelectionMembersFromSearch
@@ -73,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 12,
-  "StorageKey": "laborum"
+  "SelectionId": 999,
+  "StorageKey": "cum"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-760
+730
 ```

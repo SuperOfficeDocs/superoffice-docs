@@ -3,9 +3,9 @@ uid: faqreplytemplatefavourite
 title: faqreplytemplatefavourite
 keywords: mdoprovider mdo provider faqreplytemplatefavourite
 description: MDO list provider for Favourites
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "faqreplytemplatefavourite" MDO List

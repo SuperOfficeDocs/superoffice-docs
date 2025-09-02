@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveTaskMenu
 uid: v1ListAgent_SaveTaskMenu
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveTaskMenu
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveTaskMenu
 ```
 
-Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is empty
+Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: taskMenu 
 
-The TaskMenu to be saved. 
+The TaskMenu that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,19 +94,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 807,
-  "Name": "Hoppe, Terry and Brakus",
-  "Tooltip": "est",
-  "TableName": "Frami LLC",
-  "Area": "similique",
+  "TaskMenuId": 851,
+  "Name": "Rempel Inc and Sons",
+  "Tooltip": "dolore",
+  "TableName": "Shanahan-Dietrich",
+  "Area": "sapiente",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 546,
+  "CrmScriptId": 458,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 159,
+  "Rank": 302,
   "Encoding": "ANSI",
-  "ProgId": "debitis",
+  "ProgId": "reiciendis",
   "Deleted": true
 }
 ```
@@ -117,26 +118,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 711,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "voluptas",
-  "TableName": "Gorczany Group",
-  "Area": "quaerat",
+  "TaskMenuId": 826,
+  "Name": "Ferry-Davis",
+  "Tooltip": "ea",
+  "TableName": "Klein-Dickens",
+  "Area": "ea",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 793,
+  "CrmScriptId": 298,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 852,
+  "Rank": 384,
   "Encoding": "ANSI",
-  "ProgId": "id",
+  "ProgId": "ut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 973
     }
   }
 }

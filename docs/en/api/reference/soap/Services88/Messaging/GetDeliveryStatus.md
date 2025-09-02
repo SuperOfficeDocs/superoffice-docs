@@ -2,6 +2,7 @@
 title: Services88.MessagingAgent.GetDeliveryStatus SOAP
 generated: true
 uid: Services88-Messaging-GetDeliveryStatus
+content_type: reference
 ---
 
 # Services88 Messaging GetDeliveryStatus

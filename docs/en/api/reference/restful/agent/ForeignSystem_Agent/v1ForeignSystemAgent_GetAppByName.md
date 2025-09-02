@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetAppByName
 uid: v1ForeignSystemAgent_GetAppByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetAppByName
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Langworth, Yost and Nicolas"
+  "ApplicationName": "Reynolds LLC"
 }
 ```
 
@@ -94,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 569,
-  "Name": "Treutel Inc and Sons",
-  "CreatedDate": "2011-01-05T03:45:23.4829546+01:00",
-  "UpdatedDate": "2008-04-08T03:45:23.4829546+02:00",
+  "ForeignAppId": 289,
+  "Name": "Dickens, Jacobs and Gusikowski",
+  "CreatedDate": "2005-09-28T03:46:54.847629+02:00",
+  "UpdatedDate": "2016-02-23T03:46:54.847629+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 127,
-      "Name": "Abernathy-Harber",
-      "CreatedDate": "1998-12-26T03:45:23.4829546+01:00",
-      "UpdatedDate": "2024-05-28T03:45:23.4829546+02:00",
-      "AssociateFullName": "Dorian McGlynn",
-      "CreatedBy": "dolores",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 623,
+      "ForeignDeviceId": 404,
+      "Name": "Kub-Hirthe",
+      "CreatedDate": "2012-09-15T03:46:54.847629+02:00",
+      "UpdatedDate": "2023-03-03T03:46:54.847629+01:00",
+      "AssociateFullName": "Miss Wyatt Keebler",
+      "CreatedBy": "quia",
+      "UpdatedBy": "cupiditate",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 567,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 204
         }
       }
     }
@@ -126,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 868
     }
   }
 }

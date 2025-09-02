@@ -2,6 +2,7 @@
 title: POST List/ProductCategory/Headings
 uid: v1ProductCategoryList_PostProductCategoryHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductCategory/Headings
@@ -79,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 601,
-  "Name": "Osinski, Streich and Muller",
-  "Tooltip": "vel",
+  "HeadingId": 484,
+  "Name": "Johnson, O'Reilly and Crist",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 116,
-  "UdListDefinitionId": 551
+  "Rank": 950,
+  "UdListDefinitionId": 297
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 615,
-  "Name": "Roob, Wisoky and Fisher",
-  "Tooltip": "enim",
+  "HeadingId": 682,
+  "Name": "Parker Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 883,
-  "UdListDefinitionId": 158,
+  "Rank": 401,
+  "UdListDefinitionId": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 249
     }
   }
 }

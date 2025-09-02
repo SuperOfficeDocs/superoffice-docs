@@ -2,6 +2,7 @@
 title: GET List/TicketCategory/Items
 uid: v1TicketCategoryList_GetAllTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketCategory/Items
@@ -85,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 61,
-    "ParentId": 195,
-    "Name": "Osinski, Glover and DuBuque",
-    "Fullname": "deserunt",
-    "CategoryMaster": 254,
+    "TicketCategoryId": 852,
+    "ParentId": 242,
+    "Name": "Greenfelder-Crooks",
+    "Fullname": "quia",
+    "CategoryMaster": 392,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Feil-Swift",
+    "ExternalName": "Koch, Raynor and Fadel",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 761,
-    "ReplyTemplate": 321,
-    "NotificationEmail": "harvey.eichmann@bailey.com",
+    "AssignmentLag": 827,
+    "ReplyTemplate": 88,
+    "NotificationEmail": "cedrick_stanton@goyette.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 321,
+    "EffectiveReplyTemplateId": 678,
     "ExtraFields": {
-      "ExtraFields1": "facere",
-      "ExtraFields2": "cupiditate"
+      "ExtraFields1": "quis",
+      "ExtraFields2": "repellendus"
     },
     "CustomFields": {
-      "CustomFields1": "veniam",
-      "CustomFields2": "laudantium"
+      "CustomFields1": "rerum",
+      "CustomFields2": "itaque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
@@ -106,13 +107,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    213,
-    149
+    831,
+    388
   ]
 }
 ```
@@ -125,46 +126,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 600,
-    "ColumnId": 862,
-    "FieldDefault": "in",
-    "FieldHeight": 810,
-    "FieldLabel": "id",
-    "FieldLeft": 335,
-    "FieldTop": 545,
+    "UDefFieldId": 955,
+    "ColumnId": 612,
+    "FieldDefault": "est",
+    "FieldHeight": 985,
+    "FieldLabel": "rerum",
+    "FieldLeft": 717,
+    "FieldTop": 717,
     "FieldType": "Checkbox",
-    "FieldWidth": 257,
-    "FormatMask": "amet",
-    "HideLabel": false,
+    "FieldWidth": 459,
+    "FormatMask": "quas",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 161,
-    "LabelLeft": 98,
-    "LabelTop": 384,
-    "LabelWidth": 263,
-    "LastVersionId": 497,
-    "ListTableId": 777,
+    "LabelHeight": 29,
+    "LabelLeft": 383,
+    "LabelTop": 581,
+    "LabelWidth": 114,
+    "LastVersionId": 327,
+    "ListTableId": 978,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 603,
-    "ProgId": "minus",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 472,
-    "TextLength": 201,
-    "Tooltip": "at",
-    "UdefIdentity": 588,
-    "UDListDefinitionId": 504,
+    "Page1LineNo": 880,
+    "ProgId": "numquam",
+    "IsReadOnly": false,
+    "ShortLabel": "unde",
+    "TabOrder": 443,
+    "TextLength": 986,
+    "Tooltip": "aut",
+    "UdefIdentity": 721,
+    "UDListDefinitionId": 164,
     "Justification": "Center",
-    "Version": 748,
-    "TemplateVariableName": "McClure-Stiedemann",
-    "HasBeenPublished": true,
-    "MdoListName": "Wilderman-Cummings",
+    "Version": 987,
+    "TemplateVariableName": "Flatley, Mills and Braun",
+    "HasBeenPublished": false,
+    "MdoListName": "Paucek LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 723
       }
     }
   }

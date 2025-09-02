@@ -2,6 +2,7 @@
 title: DEL ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_DeleteShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # DEL ShipmentMessage/{id}
@@ -52,7 +53,7 @@ ShipmentMessageEntity deleted.
 DELETE /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

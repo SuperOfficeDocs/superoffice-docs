@@ -2,6 +2,7 @@
 title: GET List/TicketCategory
 uid: v1TicketCategoryList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketCategory
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Dach Group",
-  "Tooltip": "explicabo",
+  "Id": 594,
+  "Name": "Osinski Inc and Sons",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 962,
+  "Rank": 646,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 631
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: Services88.SaintAgent.RegenerateCounters SOAP
 generated: true
 uid: Services88-Saint-RegenerateCounters
+content_type: reference
 ---
 
 # Services88 Saint RegenerateCounters
@@ -76,8 +77,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>

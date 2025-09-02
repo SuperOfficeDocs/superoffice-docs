@@ -3,9 +3,9 @@ uid: QuoteApproval
 title: QuoteApproval
 description: Retrieves pending sale quotes for current associate with state approved, denied, approval needed or approval requested
 keywords: QuoteApproval archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteApproval"
@@ -54,7 +54,7 @@ Retrieves pending sale quotes for current associate with state approved, denied,
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteApproval?$select=getAllRows,quoteVersionState,amount
+GET /api/v1/archive/QuoteApproval?$select=quoteVersionState,amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

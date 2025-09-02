@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDepartment
 uid: v1ListAgent_GetDepartment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDepartment
@@ -22,11 +23,11 @@ Gets a Department object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| departmentId | int32 | **Required** The primary key. |
+| departmentId | int32 | **Required** The identifier of the Department object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDepartment?departmentId=848
+POST /api/v1/Agents/List/GetDepartment?departmentId=535
 POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Value": "laudantium",
-  "Tooltip": "possimus",
+  "Id": 599,
+  "Value": "et",
+  "Tooltip": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 749
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST ProjectMember
 uid: v1ProjectMember_PostProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST ProjectMember
@@ -116,31 +117,31 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 588,
-  "ContactId": 952,
-  "ProjectId": 391,
-  "ContactName": "Collier, Smitham and Schneider",
+  "ProjectmemberId": 969,
+  "ContactId": 666,
+  "ProjectId": 639,
+  "ContactName": "Lueilwitz-Muller",
   "ContactDepartment": "",
-  "ProjectName": "Frami Group",
-  "EmailId": 938,
-  "EmailAddress": "jany@cole.biz",
-  "CountryId": 712,
-  "Firstname": "Troy",
-  "MiddleName": "Tillman-Abshire",
-  "Lastname": "Russel",
-  "PersonId": 685,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Stiedemann, Beahan and Raynor",
-  "Phone": "(567)119-0029 x303",
-  "PhoneId": 979,
-  "ProjectMemberTypeId": 595,
-  "EmailAddressName": "gabrielle.ortiz@westpaucek.ca",
-  "Comment": "non",
-  "FullName": "Mittie Juliana Ruecker II"
+  "ProjectName": "Stokes, Wisozk and Hilll",
+  "EmailId": 960,
+  "EmailAddress": "osbaldo@hyatthaag.info",
+  "CountryId": 591,
+  "Firstname": "Harrison",
+  "MiddleName": "Jacobi LLC",
+  "Lastname": "Pacocha",
+  "PersonId": 809,
+  "Mrmrs": "quidem",
+  "ProjectMemberTypeName": "Abernathy LLC",
+  "Phone": "(429)884-9750 x99705",
+  "PhoneId": 935,
+  "ProjectMemberTypeId": 285,
+  "EmailAddressName": "euna_denesik@howe.co.uk",
+  "Comment": "necessitatibus",
+  "FullName": "Jarrett Greenfelder"
 }
 ```
 
@@ -151,33 +152,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 395,
-  "ContactId": 302,
-  "ProjectId": 870,
-  "ContactName": "Crona-Christiansen",
-  "ContactDepartment": "reinvent cross-platform initiatives",
-  "ProjectName": "Farrell-Frami",
-  "EmailId": 475,
-  "EmailAddress": "trinity_reynolds@ornschmidt.co.uk",
-  "CountryId": 338,
-  "Firstname": "Rico",
-  "MiddleName": "Medhurst Group",
-  "Lastname": "DuBuque",
-  "PersonId": 615,
-  "Mrmrs": "in",
-  "ProjectMemberTypeName": "Beier, Wisoky and Rosenbaum",
-  "Phone": "(447)061-6655 x825",
-  "PhoneId": 304,
-  "ProjectMemberTypeId": 229,
-  "EmailAddressName": "eriberto@hudson.uk",
-  "Comment": "consequatur",
-  "FullName": "Virginia Mills",
+  "ProjectmemberId": 376,
+  "ContactId": 515,
+  "ProjectId": 296,
+  "ContactName": "Simonis-Gutkowski",
+  "ContactDepartment": "target e-business eyeballs",
+  "ProjectName": "Collier-Gusikowski",
+  "EmailId": 511,
+  "EmailAddress": "vincenza@abernathycasper.ca",
+  "CountryId": 652,
+  "Firstname": "Kasandra",
+  "MiddleName": "Mosciski-Ankunding",
+  "Lastname": "Harber",
+  "PersonId": 170,
+  "Mrmrs": "minima",
+  "ProjectMemberTypeName": "Kemmer-Larson",
+  "Phone": "393.112.8205 x654",
+  "PhoneId": 775,
+  "ProjectMemberTypeId": 373,
+  "EmailAddressName": "erling@quitzonsauer.name",
+  "Comment": "id",
+  "FullName": "Dr. Carolanne Legros IV",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   },
   "_Links": {

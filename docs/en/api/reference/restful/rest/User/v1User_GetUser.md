@@ -2,6 +2,7 @@
 title: GET User/{id}
 uid: v1User_GetUser
 generated: true
+content_type: reference
 ---
 
 # GET User/{id}
@@ -102,7 +103,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,14 +113,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 213,
-  "Name": "Lynch, Morissette and Sanford",
-  "Rank": 372,
-  "Tooltip": "iusto",
+  "AssociateId": 150,
+  "Name": "Terry-Volkman",
+  "Rank": 227,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "Blanda, Hegmann and Purdy",
-      "Description": "Configurable multi-tasking installation",
+      "Name": "Kohler, Sipes and Bosco",
+      "Description": "Visionary dynamic hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     },
     {
-      "Name": "Blanda, Hegmann and Purdy",
-      "Description": "Configurable multi-tasking installation",
+      "Name": "Kohler, Sipes and Bosco",
+      "Description": "Visionary dynamic hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
@@ -162,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "praesentium",
-      "Tooltip": "dolorem",
-      "Id": 631,
-      "Rank": 106,
+      "Value": "deleniti",
+      "Tooltip": "distinctio",
+      "Id": 271,
+      "Rank": 92,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-04-14T03:45:28.8577995+02:00",
-  "Lastlogout": "2023-10-23T03:45:28.8577995+02:00",
-  "EjUserId": 867,
-  "RequestSignature": "ut",
+  "Lastlogin": "1999-12-24T03:47:00.5193028+01:00",
+  "Lastlogout": "2006-08-17T03:47:00.5193028+02:00",
+  "EjUserId": 677,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolorem",
-      "DisplayValue": "beatae",
+      "Value": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 297
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolorem",
-      "DisplayValue": "beatae",
+      "Value": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 297
         }
       }
     }
   ],
-  "UserName": "DuBuque-Baumbach",
+  "UserName": "Kutch Group",
   "TicketCategories": [
     {
-      "Id": 91,
-      "Name": "Lehner Group",
-      "ToolTip": "Velit beatae cum nesciunt officiis.",
+      "Id": 531,
+      "Name": "King-Stracke",
+      "ToolTip": "Officiis esse ut illo in quos quis quod.",
       "Deleted": false,
-      "Rank": 512,
-      "Type": "repellendus",
+      "Rank": 109,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perferendis",
-      "ColorBlock": 248,
-      "ExtraInfo": "et",
-      "StyleHint": "nihil",
-      "FullName": "Berry Schamberger",
+      "IconHint": "eum",
+      "ColorBlock": 287,
+      "ExtraInfo": "provident",
+      "StyleHint": "reprehenderit",
+      "FullName": "Miss Fletcher Rowan Bahringer Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 520
         }
       }
     }
   ],
-  "NickName": "Lind, Nienow and McGlynn",
-  "WaitingForApproval": true,
+  "NickName": "Daniel LLC",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "placeat"
+    "CustomFields1": "quia",
+    "CustomFields2": "quibusdam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rolfson, McKenzie and Hayes",
-      "DisplayName": "O'Connell, Hartmann and Hettinger",
-      "Description": "Triple-buffered systematic capability",
-      "ToolTip": "Perferendis quisquam.",
+      "Name": "Haley-Botsford",
+      "DisplayName": "Prosacco Group",
+      "Description": "Balanced analyzing customer loyalty",
+      "ToolTip": "Qui dolorem nemo.",
       "Actions": "Implicit",
-      "ActionData": "possimus",
+      "ActionData": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 244
         }
       }
     }
@@ -274,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   },
   "_Links": {

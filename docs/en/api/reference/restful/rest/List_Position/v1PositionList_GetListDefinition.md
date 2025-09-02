@@ -2,6 +2,7 @@
 title: GET List/Position
 uid: v1PositionList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Position
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Haag-Gleason",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 436,
+  "Id": 351,
+  "Name": "Goyette-Rempel",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 484,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "quod",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 336
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

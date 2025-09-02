@@ -2,6 +2,7 @@
 title: Services88.PreviewsAgent.GetPreview SOAP
 generated: true
 uid: Services88-Previews-GetPreview
+content_type: reference
 ---
 
 # Services88 Previews GetPreview

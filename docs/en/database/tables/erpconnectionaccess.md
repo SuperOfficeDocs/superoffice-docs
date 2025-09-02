@@ -2,10 +2,10 @@
 uid: table-ErpConnectionAccess
 title: ErpConnectionAccess table
 description: Access control for Erp Connections
-so.generated: true
+generated: true
 keywords: database table ErpConnectionAccess
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ErpConnectionAccess Table (420)

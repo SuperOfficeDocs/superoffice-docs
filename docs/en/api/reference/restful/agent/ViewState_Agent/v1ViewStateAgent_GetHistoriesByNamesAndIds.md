@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetHistoriesByNamesAndIds
 uid: v1ViewStateAgent_GetHistoriesByNamesAndIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetHistoriesByNamesAndIds
@@ -87,13 +88,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Schuppe-Erdman",
-      "EntityOrParentId": 702,
+      "EntityName": "Kautzer, Mayert and Medhurst",
+      "EntityOrParentId": 683,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Schuppe-Erdman",
-      "EntityOrParentId": 702,
+      "EntityName": "Kautzer, Mayert and Medhurst",
+      "EntityOrParentId": 683,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 593,
-    "Id": 468,
-    "HistoryName": "Breitenberg LLC",
-    "HistoryId": 737,
-    "AssociateId": 918,
-    "Name": "Thiel Group",
-    "ItemInfo": "aut",
+    "Rank": 197,
+    "Id": 856,
+    "HistoryName": "Reichert, Considine and Cremin",
+    "HistoryId": 681,
+    "AssociateId": 259,
+    "Name": "Davis-Jaskolski",
+    "ItemInfo": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 287
       }
     }
   }

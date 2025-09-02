@@ -3,9 +3,9 @@ uid: visibleforassociate
 title: visibleforassociate
 keywords: mdoprovider mdo provider visibleforassociate
 description: List provider that returns a list suitable for VisibleFor and PinTo (with groups and possibly some other special items like All).
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "visibleforassociate" MDO List

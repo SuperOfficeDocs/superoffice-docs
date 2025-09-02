@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent.GetStatus SOAP
 generated: true
 uid: Services88-FreeText-GetStatus
+content_type: reference
 ---
 
 # Services88 FreeText GetStatus
@@ -67,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <FreeText:MultiWordOperator xsi:type="FreeText:FreeTextOperator">Contains</FreeText:MultiWordOperator>
     <FreeText:CountWords xsi:type="xsd:int">0</FreeText:CountWords>
     <FreeText:Occurrences xsi:type="xsd:int">0</FreeText:Occurrences>
-    <FreeText:LastGenerated xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</FreeText:LastGenerated>
+    <FreeText:LastGenerated xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</FreeText:LastGenerated>
     <FreeText:AutoEnableTravelAreas xsi:type="xsd:boolean">false</FreeText:AutoEnableTravelAreas>
    </FreeText:Response>
   </FreeText:GetStatusResponse>

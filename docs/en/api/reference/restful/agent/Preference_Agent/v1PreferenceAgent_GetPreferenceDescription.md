@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceDescription
 uid: v1PreferenceAgent_GetPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceDescription
@@ -22,11 +23,11 @@ Gets a PreferenceDescription object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| preferenceDescriptionId | int32 | **Required** The primary key. |
+| preferenceDescriptionId | int32 | **Required** The identifier of the PreferenceDescription object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=792
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=781
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 69,
-  "Section": "ipsam",
-  "Key": "aut",
-  "Name": "Ward, Grady and Brakus",
+  "PrefDescId": 362,
+  "Section": "et",
+  "Key": "quis",
+  "Name": "Baumbach, McCullough and Schowalter",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked object-oriented parallelism",
+  "Description": "Advanced user-facing attitude",
   "IsBuiltin": false,
-  "TableName": "Reichert Group",
-  "UserDefinedListId": 494,
-  "Rank": 301,
-  "SubGroup": "voluptas",
-  "MinLevel": 814,
-  "MaxValue": 286,
-  "MinValue": 371,
-  "RequiredLicense": "beatae",
+  "TableName": "Jewess, Hammes and Hammes",
+  "UserDefinedListId": 389,
+  "Rank": 585,
+  "SubGroup": "nihil",
+  "MinLevel": 258,
+  "MaxValue": 638,
+  "MinValue": 7,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

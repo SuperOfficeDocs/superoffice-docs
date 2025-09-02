@@ -2,6 +2,7 @@
 title: Services88.UserAgent.RemoveUntrustedCredentialsForAssociate SOAP
 generated: true
 uid: Services88-User-RemoveUntrustedCredentialsForAssociate
+content_type: reference
 ---
 
 # Services88 User RemoveUntrustedCredentialsForAssociate

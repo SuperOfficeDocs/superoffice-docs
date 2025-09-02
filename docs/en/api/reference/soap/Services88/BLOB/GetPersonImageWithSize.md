@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetPersonImageWithSize SOAP
 generated: true
 uid: Services88-BLOB-GetPersonImageWithSize
+content_type: reference
 ---
 
 # Services88 BLOB GetPersonImageWithSize

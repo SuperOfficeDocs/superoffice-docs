@@ -2,6 +2,7 @@
 title: POST List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_PostDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # POST List/DeliveryTerm/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 426,
-  "Name": "Considine LLC",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 156,
-  "Rank": 191
+  "Id": 770,
+  "Name": "Walker Group",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "UdListDefinitionId": 357,
+  "Rank": 720
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "Luettgen, Lehner and Effertz",
-  "Tooltip": "blanditiis",
+  "Id": 844,
+  "Name": "Daugherty-Gleason",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 914,
-  "Rank": 78,
+  "UdListDefinitionId": 748,
+  "Rank": 618,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

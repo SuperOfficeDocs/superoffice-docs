@@ -2,6 +2,7 @@
 title: Services88.MDOAgent.GetListWithRestriction SOAP
 generated: true
 uid: Services88-MDO-GetListWithRestriction
+content_type: reference
 ---
 
 # Services88 MDO GetListWithRestriction

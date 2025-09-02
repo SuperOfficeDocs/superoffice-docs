@@ -2,6 +2,7 @@
 title: DEL PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_DeletePreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # DEL PreferenceDescriptionLine/{id}

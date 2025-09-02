@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/Headings
 uid: v1ConsentSourceList_GetConsentSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Daugherty-Langosh",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 894,
-    "UdListDefinitionId": 326,
+    "HeadingId": 250,
+    "Name": "Pfeffer LLC",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "Rank": 647,
+    "UdListDefinitionId": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 590
       }
     }
   }

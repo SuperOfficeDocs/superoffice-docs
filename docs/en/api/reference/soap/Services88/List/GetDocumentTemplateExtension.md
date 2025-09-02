@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateExtension SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateExtension
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateExtension

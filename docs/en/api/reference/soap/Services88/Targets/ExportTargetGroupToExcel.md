@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.ExportTargetGroupToExcel SOAP
 generated: true
 uid: Services88-Targets-ExportTargetGroupToExcel
+content_type: reference
 ---
 
 # Services88 Targets ExportTargetGroupToExcel

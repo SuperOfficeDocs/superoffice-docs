@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectAppointmentsByTasks
 uid: v1AppointmentAgent_GetProjectAppointmentsByTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTasks
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,17 +134,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 738,
-  "StartTime": "2005-01-13T03:45:22.6861022+01:00",
-  "EndTime": "2017-01-11T03:45:22.6861022+01:00",
-  "Count": 86,
+  "ProjectId": 614,
+  "StartTime": "2014-06-21T03:46:53.9882851+02:00",
+  "EndTime": "2001-04-08T03:46:53.9882851+02:00",
+  "Count": 671,
   "TaskIds": [
-    852,
-    103
+    933,
+    61
   ]
 }
 ```
@@ -155,66 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 383,
-    "StartDate": "2015-03-06T03:45:22.6861022+01:00",
-    "EndDate": "2008-07-22T03:45:22.6861022+02:00",
+    "AppointmentId": 663,
+    "StartDate": "2010-06-16T03:46:53.9882851+02:00",
+    "EndDate": "2008-09-06T03:46:53.9882851+02:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Mrs. Dudley Danika Stroman IV",
-    "ContactName": "Bode, Graham and Dickinson",
-    "Description": "Multi-lateral 5th generation capability",
-    "PersonFullName": "Darius Thiel",
-    "PersonId": 250,
-    "ContactId": 109,
-    "ProjectId": 788,
-    "ProjectName": "Murphy LLC",
+    "Task": "aliquid",
+    "AssociateFullName": "Torrey Miller",
+    "ContactName": "Donnelly-Kulas",
+    "Description": "Synchronised 6th generation hub",
+    "PersonFullName": "Prof. Ben Koelpin",
+    "PersonId": 387,
+    "ContactId": 188,
+    "ProjectId": 441,
+    "ProjectName": "Will, Zulauf and Franecki",
     "IsPublished": false,
-    "AssociateId": 424,
-    "ColorIndex": 203,
+    "AssociateId": 997,
+    "ColorIndex": 502,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 336,
-    "PriorityName": "Zemlak, Torphy and Hansen",
+    "PriorityId": 674,
+    "PriorityName": "Deckow-Miller",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2024-03-31T03:45:22.6861022+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2013-06-25T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-06-13T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2019-04-10T03:45:22.6861022+02:00",
-    "MotherId": 167,
-    "AssignedBy": 708,
-    "AssignedByFullName": "Ms. Junius Reilly",
+    "RecurringStartDate": "2009-04-27T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2001-04-25T03:46:53.9882851+02:00",
+    "MotherId": 995,
+    "AssignedBy": 407,
+    "AssignedByFullName": "Savannah Elroy Conroy IV",
     "RejectReason": "",
-    "Location": "corrupti",
-    "AlarmLeadTime": "et",
-    "SaleId": 30,
-    "SaleName": "Goyette, Davis and Hagenes",
-    "AssociateName": "Welch, Brekke and Kovacek",
-    "CreatedDate": "2010-08-13T03:45:22.6861022+02:00",
-    "CreatedBy": "laborum",
-    "CreatedByFullName": "Mr. Ludwig Itzel Borer II",
-    "CreatedByAssociateId": 651,
+    "Location": "qui",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 9,
+    "SaleName": "VonRueden, Funk and Connelly",
+    "AssociateName": "Moen, Bogan and Gorczany",
+    "CreatedDate": "2001-10-23T03:46:53.9882851+02:00",
+    "CreatedBy": "hic",
+    "CreatedByFullName": "Concepcion Schowalter",
+    "CreatedByAssociateId": 334,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 1001,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 556,
-    "Title": "doloribus",
-    "Agenda": "sunt",
-    "InternalNotes": "facere",
+    "PreferredTZLocation": 849,
+    "Title": "non",
+    "Agenda": "alias",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 299
       }
     }
   }

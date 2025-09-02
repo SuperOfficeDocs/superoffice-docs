@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetConsentPerson
 uid: v1PersonAgent_GetConsentPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetConsentPerson
@@ -22,11 +23,11 @@ Gets a ConsentPerson object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| consentPersonId | int32 | **Required** The primary key. |
+| consentPersonId | int32 | **Required** The identifier of the ConsentPerson object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=172
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=891
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
 
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 772,
+  "ConsentPersonId": 946,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 354,
+  "PersonId": 293,
   "ConsentPurpose": null,
-  "Comment": "adipisci",
+  "Comment": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 288
     }
   }
 }

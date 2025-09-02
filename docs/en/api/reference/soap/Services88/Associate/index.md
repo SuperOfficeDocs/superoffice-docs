@@ -2,6 +2,7 @@
 title: Services88.AssociateAgent SOAP
 uid: Services88-Associate-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Associate SOAP

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentSourceList
 uid: v1ListAgent_GetConsentSourceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentSourceList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/i
 
 ## Request Body: consentSourceIds 
 
-The primary keys. 
+The identifiers of the ConsentSource object 
 
 
 ## Response:array
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 5,
-    "Name": "Streich Inc and Sons",
-    "Tooltip": "qui",
-    "Rank": 419,
-    "Key": "ut",
-    "MailTemplateId": 11,
+    "ConsentSourceId": 530,
+    "Name": "Mann-Mraz",
+    "Tooltip": "sequi",
+    "Rank": 939,
+    "Key": "est",
+    "MailTemplateId": 644,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

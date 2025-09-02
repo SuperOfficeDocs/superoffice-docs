@@ -2,6 +2,7 @@
 title: POST ChatSession
 uid: v1ChatSessionEntity_PostChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession
@@ -136,33 +137,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 690,
-  "TopicId": 493,
+  "ChatSessionId": 233,
+  "TopicId": 47,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "deleniti",
-  "CustomerName": "Feest-Dickens",
-  "CustomerEmail": "rudy_brakus@stehrortiz.ca",
-  "CustomerPhone": "762.617.5730 x2087",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Rippin LLC",
+  "CustomerAlias": "in",
+  "CustomerHost": "ut",
+  "CustomerName": "Kub Group",
+  "CustomerEmail": "adah@gleichner.uk",
+  "CustomerPhone": "1-796-225-2002 x32234",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hand, Paucek and Towne",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "impedit",
-  "WhenRequested": "2011-09-16T03:45:28.0921979+02:00",
-  "WhenStarted": "1998-08-05T03:45:28.0921979+02:00",
-  "WhenEnded": "1999-03-02T03:45:28.0921979+01:00",
-  "WhenIdle": "2002-10-19T03:45:28.0921979+02:00",
-  "WhenFetched": "2008-01-15T03:45:28.0921979+01:00",
-  "SessionKey": "perspiciatis",
-  "InitialQueuePos": 817,
-  "AlertLevel": 890,
-  "Rank": 638,
+  "FirstMessage": "placeat",
+  "LastMessage": "aut",
+  "WhenRequested": "2003-10-24T03:46:59.7224496+02:00",
+  "WhenStarted": "2024-07-06T03:46:59.7224496+02:00",
+  "WhenEnded": "2021-12-02T03:46:59.7224496+01:00",
+  "WhenIdle": "2001-10-20T03:46:59.7224496+02:00",
+  "WhenFetched": "2020-11-06T03:46:59.7224496+01:00",
+  "SessionKey": "placeat",
+  "InitialQueuePos": 721,
+  "AlertLevel": 829,
+  "Rank": 664,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +171,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 599
+  "Rating": 699
 }
 ```
 
@@ -181,43 +182,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 83,
-  "TopicId": 212,
+  "ChatSessionId": 112,
+  "TopicId": 980,
   "User": null,
   "Person": null,
-  "CustomerAlias": "veniam",
-  "CustomerHost": "placeat",
-  "CustomerName": "Reichert-Wintheiser",
-  "CustomerEmail": "trevion.friesen@trantow.name",
-  "CustomerPhone": "(347)430-7280 x1818",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Stehr Group",
+  "CustomerAlias": "labore",
+  "CustomerHost": "officiis",
+  "CustomerName": "Daniel, O'Keefe and Langosh",
+  "CustomerEmail": "warren.schowalter@gibson.us",
+  "CustomerPhone": "455.204.0152 x5045",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Herzog Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "veniam",
-  "LastMessage": "architecto",
-  "WhenRequested": "2003-11-29T03:45:28.0921979+01:00",
-  "WhenStarted": "2022-04-25T03:45:28.0921979+02:00",
-  "WhenEnded": "2025-05-21T03:45:28.0921979+02:00",
-  "WhenIdle": "2014-10-28T03:45:28.0921979+01:00",
-  "WhenFetched": "2020-03-25T03:45:28.0921979+01:00",
-  "SessionKey": "ipsam",
-  "InitialQueuePos": 430,
-  "AlertLevel": 299,
-  "Rank": 774,
+  "FirstMessage": "consequatur",
+  "LastMessage": "rem",
+  "WhenRequested": "2025-02-28T03:46:59.7380732+01:00",
+  "WhenStarted": "2010-11-17T03:46:59.7380732+01:00",
+  "WhenEnded": "2008-01-24T03:46:59.7380732+01:00",
+  "WhenIdle": "2007-12-15T03:46:59.7380732+01:00",
+  "WhenFetched": "2010-05-28T03:46:59.7380732+02:00",
+  "SessionKey": "commodi",
+  "InitialQueuePos": 694,
+  "AlertLevel": 89,
+  "Rank": 482,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 653,
+  "ChatbotIsActive": false,
+  "Rating": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 230
     }
   },
   "_Links": {

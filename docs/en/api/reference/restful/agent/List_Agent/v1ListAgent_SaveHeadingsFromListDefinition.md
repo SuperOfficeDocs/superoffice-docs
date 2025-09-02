@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingsFromListDefinition
 uid: v1ListAgent_SaveHeadingsFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingsFromListDefinition
@@ -79,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
+  "Id": 733,
   "Entities": [
     {
-      "HeadingId": 961,
-      "Name": "Franecki-Reynolds",
-      "Tooltip": "et",
-      "Deleted": false,
-      "Rank": 794,
-      "UdListDefinitionId": 660
+      "HeadingId": 51,
+      "Name": "Medhurst Inc and Sons",
+      "Tooltip": "illo",
+      "Deleted": true,
+      "Rank": 994,
+      "UdListDefinitionId": 172
     },
     {
-      "HeadingId": 961,
-      "Name": "Franecki-Reynolds",
-      "Tooltip": "et",
-      "Deleted": false,
-      "Rank": 794,
-      "UdListDefinitionId": 660
+      "HeadingId": 51,
+      "Name": "Medhurst Inc and Sons",
+      "Tooltip": "illo",
+      "Deleted": true,
+      "Rank": 994,
+      "UdListDefinitionId": 172
     }
   ]
 }
@@ -113,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 742,
-    "Name": "Wintheiser, Johnson and Miller",
-    "Tooltip": "nemo",
+    "HeadingId": 785,
+    "Name": "Little Group",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 797,
-    "UdListDefinitionId": 451,
+    "Rank": 147,
+    "UdListDefinitionId": 350,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 530
       }
     }
   }

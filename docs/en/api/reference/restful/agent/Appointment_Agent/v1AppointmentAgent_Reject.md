@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/Reject
 uid: v1AppointmentAgent_Reject
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/Reject
@@ -70,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 585,
-  "RejectReason": "utilize killer portals",
+  "AppointmentId": 582,
+  "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }
 ```

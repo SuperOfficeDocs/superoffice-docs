@@ -2,10 +2,10 @@
 uid: enum-doctmplprivacytype
 title: Enum values for DocTmplPrivacyType
 description: Lists the enum values for DocTmplPrivacyType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DocTmplPrivacyType Enum

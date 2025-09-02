@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.UpdateFeatureToggles SOAP
 generated: true
 uid: Services88-CustomerService-UpdateFeatureToggles
+content_type: reference
 ---
 
 # Services88 CustomerService UpdateFeatureToggles

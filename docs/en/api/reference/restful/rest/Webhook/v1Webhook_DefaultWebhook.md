@@ -2,6 +2,7 @@
 title: GET Webhook/default
 uid: v1Webhook_DefaultWebhook
 generated: true
+content_type: reference
 ---
 
 # GET Webhook/default
@@ -81,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 309,
-  "Name": "Koelpin, Lueilwitz and Haley",
+  "WebhookId": 996,
+  "Name": "Conn Inc and Sons",
   "Events": [
-    "possimus",
-    "consequatur"
+    "laborum",
+    "sequi"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "error",
+  "Type": "voluptas",
   "Headers": {
-    "Headers1": "eius",
-    "Headers2": "corporis"
+    "Headers1": "reiciendis",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-12-30T03:45:28.8734254+01:00",
+  "Registered": "2015-04-10T03:47:00.5505518+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-04-17T03:45:28.8734254+02:00",
+  "Updated": "1998-06-02T03:47:00.5505518+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cedrick.lindgren@ernser.uk"
+  "ErrorsEmail": "josianne.moore@farrell.info"
 }
 ```

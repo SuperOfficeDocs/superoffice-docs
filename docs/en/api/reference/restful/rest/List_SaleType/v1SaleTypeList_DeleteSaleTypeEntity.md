@@ -2,6 +2,7 @@
 title: DEL List/SaleType/Items/{id}
 uid: v1SaleTypeList_DeleteSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/SaleType/Items/{id}

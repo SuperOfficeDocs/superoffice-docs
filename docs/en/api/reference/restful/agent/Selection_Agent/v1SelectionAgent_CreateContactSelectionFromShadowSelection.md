@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateContactSelectionFromShadowSelection
 uid: v1SelectionAgent_CreateContactSelectionFromShadowSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateContactSelectionFromShadowSelection
@@ -116,12 +117,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 689,
-  "Name": "Jacobson Group"
+  "SelectionId": 876,
+  "Name": "Goodwin, Cormier and Kreiger"
 }
 ```
 
@@ -132,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group user-facing parallelism",
-  "Postit": "odit",
+  "Description": "Secured systemic help-desk",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 934,
-  "IncludePerson": 855,
+  "GroupIdx": 321,
+  "IncludePerson": 305,
   "MemberCount": 99.99,
-  "Name": "Dare-Kozey",
-  "PostitTextId": 88,
-  "CreatedDate": "2011-03-10T03:45:23.9204418+01:00",
-  "SelectionId": 967,
-  "SoundEx": "omnis",
-  "Source": 451,
-  "TextId": 943,
-  "UpdatedDate": "2015-08-17T03:45:23.9204418+02:00",
-  "UpdatedCount": 137,
-  "Visibility": 202,
+  "Name": "Rath-Gulgowski",
+  "PostitTextId": 865,
+  "CreatedDate": "2008-04-15T03:46:55.3944846+02:00",
+  "SelectionId": 267,
+  "SoundEx": "modi",
+  "Source": 620,
+  "TextId": 34,
+  "UpdatedDate": "2015-02-10T03:46:55.3944846+01:00",
+  "UpdatedCount": 571,
+  "Visibility": 107,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 693,
-  "TargetTableName": "Shanahan-Hessel",
-  "Completed": true,
-  "LeftSelectionId": 130,
-  "RightSelectionId": 886,
+  "TargetTableNumber": 275,
+  "TargetTableName": "Hackett, Friesen and Tillman",
+  "Completed": false,
+  "LeftSelectionId": 43,
+  "RightSelectionId": 744,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lindgren-Marks",
-  "ShadowProviderName": "Gerhold, Armstrong and Armstrong",
-  "ChartKey": "adipisci",
-  "LastLoaded": "2020-01-30T03:45:23.9204418+01:00",
-  "LastLoadedBy": 971,
+  "MainProviderName": "Wolf, Macejkovic and West",
+  "ShadowProviderName": "Kirlin, Stark and Hermiston",
+  "ChartKey": "eos",
+  "LastLoaded": "2009-05-09T03:46:55.3944846+02:00",
+  "LastLoadedBy": 216,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-07-15T03:45:23.9204418+02:00",
-  "LastMembershipChangeBy": 652,
+  "LastMembershipChange": "2002-10-06T03:46:55.3944846+02:00",
+  "LastMembershipChangeBy": 171,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "voluptate",
-  "MailingsProviderName": "Friesen Group",
-  "DashboardTileDefinitionId": 31,
+  "MainHeading": "at",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Dicki-Bergnaum",
+  "DashboardTileDefinitionId": 470,
   "VisibleFor": [
     {
-      "VisibleId": 370,
+      "VisibleId": 549,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 985
+          "FieldLength": 106
         }
       }
     },
     {
-      "VisibleId": 370,
+      "VisibleId": 549,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 985
+          "FieldLength": 106
         }
       }
     }
@@ -204,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldType": "System.String",
+      "FieldLength": 524
     }
   }
 }

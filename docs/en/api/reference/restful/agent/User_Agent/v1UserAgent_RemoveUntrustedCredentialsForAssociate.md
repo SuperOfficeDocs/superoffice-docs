@@ -2,6 +2,7 @@
 title: POST Agents/User/RemoveUntrustedCredentialsForAssociate
 uid: v1UserAgent_RemoveUntrustedCredentialsForAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/RemoveUntrustedCredentialsForAssociate
@@ -68,13 +69,13 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 157,
-  "Type": "autem",
-  "PublicValue": "natus"
+  "AssociateId": 855,
+  "Type": "alias",
+  "PublicValue": "doloribus"
 }
 ```
 

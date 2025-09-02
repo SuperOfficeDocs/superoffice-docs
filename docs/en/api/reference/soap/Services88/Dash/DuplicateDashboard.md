@@ -2,6 +2,7 @@
 title: Services88.DashAgent.DuplicateDashboard SOAP
 generated: true
 uid: Services88-Dash-DuplicateDashboard
+content_type: reference
 ---
 
 # Services88 Dash DuplicateDashboard

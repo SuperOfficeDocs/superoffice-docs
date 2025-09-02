@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCountry
 uid: v1ListAgent_GetCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCountry
@@ -22,11 +23,11 @@ Gets a Country object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| countryId | int32 | **Required** The primary key. |
+| countryId | int32 | **Required** The identifier of the Country object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=670
+POST /api/v1/Agents/List/GetCountry?countryId=788
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -94,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 877,
-  "Name": "Skiles, Torphy and Ratke",
-  "CurrencyId": 569,
-  "EnglishName": "Schimmel Group",
+  "CountryId": 13,
+  "Name": "Rohan LLC",
+  "CurrencyId": 24,
+  "EnglishName": "Rohan, Upton and Johns",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Monitored zero tolerance leverage",
-  "OrgNrText": "843037",
-  "InterAreaPrefix": "ducimus",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "rerum",
-  "DomainName": "Marquardt LLC",
-  "AddressLayoutId": 359,
-  "DomesticAddressLayoutId": 561,
-  "ForeignAddressLayoutId": 691,
-  "Rank": 482,
-  "Tooltip": "corrupti",
-  "Deleted": true,
+  "ImageDescription": "Devolved demand-driven product",
+  "OrgNrText": "1188870",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "fugiat",
+  "ZipPrefix": "voluptates",
+  "DomainName": "Rippin-Spencer",
+  "AddressLayoutId": 276,
+  "DomesticAddressLayoutId": 986,
+  "ForeignAddressLayoutId": 135,
+  "Rank": 179,
+  "Tooltip": "voluptas",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

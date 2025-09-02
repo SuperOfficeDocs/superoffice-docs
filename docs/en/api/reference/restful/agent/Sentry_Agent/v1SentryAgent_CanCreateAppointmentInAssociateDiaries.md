@@ -2,6 +2,7 @@
 title: POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 uid: v1SentryAgent_CanCreateAppointmentInAssociateDiaries
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    77,
-    75
+    377,
+    39
   ]
 }
 ```

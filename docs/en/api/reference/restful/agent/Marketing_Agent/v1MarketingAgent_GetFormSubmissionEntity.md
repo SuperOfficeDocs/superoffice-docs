@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetFormSubmissionEntity
 uid: v1MarketingAgent_GetFormSubmissionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetFormSubmissionEntity
@@ -22,11 +23,11 @@ Gets a FormSubmissionEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| formSubmissionEntityId | int32 | **Required** The primary key. |
+| formSubmissionEntityId | int32 | **Required** The identifier of the FormSubmissionEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=100
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=410
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 675,
-  "FormId": 878,
-  "WhenSubmitted": "2014-08-19T03:45:23.6235756+02:00",
-  "ContactId": 269,
-  "PersonId": 40,
-  "EmailAddress": "eloisa.greenholt@turnerabshire.ca",
-  "ResponseShipmentAddrId": 750,
-  "Response": "eveniet",
+  "FormSubmissionId": 474,
+  "FormId": 772,
+  "WhenSubmitted": "1999-09-17T03:46:55.0038735+02:00",
+  "ContactId": 879,
+  "PersonId": 467,
+  "EmailAddress": "burdette_gaylord@kiehnvolkman.uk",
+  "ResponseShipmentAddrId": 420,
+  "Response": "esse",
   "Status": "EmailVerification",
-  "ProcessingLog": "aliquam",
+  "ProcessingLog": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

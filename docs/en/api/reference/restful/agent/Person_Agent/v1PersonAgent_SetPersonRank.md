@@ -2,6 +2,7 @@
 title: POST Agents/Person/SetPersonRank
 uid: v1PersonAgent_SetPersonRank
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SetPersonRank
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/Person/SetPersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 97,
-  "DesiredRank": 615
+  "PersonId": 732,
+  "DesiredRank": 692
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Berge-Casper",
+  "TableName": "Kub Group",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lowe-Kassulke",
-    "DisplayName": "Doyle-Ankunding",
-    "Description": "Synergized actuating solution",
-    "ShortLabel": "et",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Kuphal, Wolff and Dietrich",
+    "DisplayName": "Bruen LLC",
+    "Description": "Phased static archive",
+    "ShortLabel": "libero",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 187,
-    "TemplateVariableName": "Goyette-Mosciski"
+    "IsDisplayField": false,
+    "Rank": 410,
+    "TemplateVariableName": "Purdy-Gislason"
   }
 ]
 ```

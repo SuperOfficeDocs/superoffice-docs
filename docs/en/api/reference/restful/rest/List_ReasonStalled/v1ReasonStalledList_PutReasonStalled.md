@@ -2,6 +2,7 @@
 title: PUT List/ReasonStalled/Items/{id}
 uid: v1ReasonStalledList_PutReasonStalled
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonStalled/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "Little, Roob and Langosh",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 386,
-  "Rank": 45
+  "Id": 962,
+  "Name": "McClure Inc and Sons",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "UdListDefinitionId": 858,
+  "Rank": 296
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Dibbert Inc and Sons",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "UdListDefinitionId": 706,
-  "Rank": 480,
+  "Id": 173,
+  "Name": "VonRueden-Abshire",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "UdListDefinitionId": 332,
+  "Rank": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

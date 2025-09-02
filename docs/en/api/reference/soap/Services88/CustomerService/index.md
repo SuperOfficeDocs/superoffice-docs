@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent SOAP
 uid: Services88-CustomerService-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 CustomerService SOAP

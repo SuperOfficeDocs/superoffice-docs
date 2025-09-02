@@ -2,6 +2,7 @@
 title: Services88.SentryAgent.GetFunctionRights SOAP
 generated: true
 uid: Services88-Sentry-GetFunctionRights
+content_type: reference
 ---
 
 # Services88 Sentry GetFunctionRights

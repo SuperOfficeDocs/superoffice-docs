@@ -3,9 +3,9 @@ uid: shipmentaddrstatusprovider
 title: shipmentaddrstatusprovider
 keywords: mdoprovider mdo provider shipmentaddrstatusprovider
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "shipmentaddrstatusprovider" MDO List

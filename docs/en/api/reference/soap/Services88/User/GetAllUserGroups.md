@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetAllUserGroups SOAP
 generated: true
 uid: Services88-User-GetAllUserGroups
+content_type: reference
 ---
 
 # Services88 User GetAllUserGroups

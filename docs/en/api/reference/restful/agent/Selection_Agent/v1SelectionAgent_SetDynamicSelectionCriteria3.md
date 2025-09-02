@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SetDynamicSelectionCriteria3
 uid: v1SelectionAgent_SetDynamicSelectionCriteria3
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria3
@@ -88,18 +89,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 832,
+  "SelectionId": 740,
   "Criteria": [
     {
-      "Name": "Johnston-Prohaska",
-      "Operator": "impedit",
+      "Name": "Little, Howell and Prosacco",
+      "Operator": "temporibus",
       "Values": [
-        "doloribus",
-        "et"
+        "vel",
+        "accusamus"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "a"
+        "expedita",
+        "vel"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +108,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 304,
+      "InterParenthesis": 818,
       "InterOperator": "And",
-      "UniqueHash": 496
+      "UniqueHash": 120
     }
   ],
-  "Filter": "occaecati"
+  "Filter": "consectetur"
 }
 ```
 
@@ -124,44 +125,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hegmann-Streich",
-    "Operator": "quo",
+    "Name": "Hessel-Witting",
+    "Operator": "nostrum",
     "Values": [
-      "ad",
-      "quo"
+      "doloremque",
+      "repellendus"
     ],
     "DisplayValues": [
-      "fugiat",
-      "modi"
+      "minus",
+      "cumque"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Sporer Inc and Sons",
-        "Operator": "error",
+        "Name": "Cassin, Goyette and Eichmann",
+        "Operator": "voluptas",
         "Values": [
-          "reiciendis",
-          "qui"
+          "dolores",
+          "ut"
         ],
         "DisplayValues": [
-          "eos",
-          "harum"
+          "harum",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 444,
+        "InterParenthesis": 95,
         "InterOperator": "And",
-        "UniqueHash": 264
+        "UniqueHash": 251
       }
     ],
-    "InterParenthesis": 479,
+    "InterParenthesis": 866,
     "InterOperator": "And",
-    "UniqueHash": 543
+    "UniqueHash": 401
   }
 ]
 ```

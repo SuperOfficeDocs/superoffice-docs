@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.BatchUpdateNextDueDate SOAP
 generated: true
 uid: Services88-Sale-BatchUpdateNextDueDate
+content_type: reference
 ---
 
 # Services88 Sale BatchUpdateNextDueDate

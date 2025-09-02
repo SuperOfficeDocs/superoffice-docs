@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCredited
 uid: v1ListAgent_GetCredited
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCredited
@@ -22,11 +23,11 @@ Gets a Credited object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| creditedId | int32 | **Required** The primary key. |
+| creditedId | int32 | **Required** The identifier of the Credited object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCredited?creditedId=995
+POST /api/v1/Agents/List/GetCredited?creditedId=140
 POST /api/v1/Agents/List/GetCredited?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCredited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Value": "vero",
-  "Tooltip": "et",
+  "Id": 335,
+  "Value": "voluptas",
+  "Tooltip": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

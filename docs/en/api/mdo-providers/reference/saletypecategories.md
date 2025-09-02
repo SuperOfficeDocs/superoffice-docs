@@ -3,9 +3,9 @@ uid: saletypecategories
 title: saletypecategories
 keywords: mdoprovider mdo provider saletypecategories
 description: SaleTypeCategories creates a MDO list of sale type categories in the database.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saletypecategories" MDO List

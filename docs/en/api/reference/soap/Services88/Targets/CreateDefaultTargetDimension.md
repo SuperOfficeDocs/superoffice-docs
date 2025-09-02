@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.CreateDefaultTargetDimension SOAP
 generated: true
 uid: Services88-Targets-CreateDefaultTargetDimension
+content_type: reference
 ---
 
 # Services88 Targets CreateDefaultTargetDimension

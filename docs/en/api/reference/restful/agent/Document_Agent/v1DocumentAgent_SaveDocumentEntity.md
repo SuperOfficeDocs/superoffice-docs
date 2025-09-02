@@ -2,6 +2,7 @@
 title: POST Agents/Document/SaveDocumentEntity
 uid: v1DocumentAgent_SaveDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SaveDocumentEntity
@@ -10,8 +11,10 @@ generated: true
 POST /api/v1/Agents/Document/SaveDocumentEntity
 ```
 
-Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty
+Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is 0.
 
+
+Save the document entity. If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
 
 
 
@@ -33,9 +36,9 @@ Updates the existing DocumentEntity or creates a new DocumentEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: documentEntity 
 
-The DocumentEntity to be saved. 
+The DocumentEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -133,73 +136,73 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 760,
+  "DocumentId": 411,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nemo",
-  "Header": "ipsum",
-  "Name": "Hodkiewicz LLC",
-  "OurRef": "excepturi",
-  "YourRef": "nemo",
-  "CreatedDate": "2018-11-20T03:45:23.2954586+01:00",
-  "UpdatedDate": "2012-08-07T03:45:23.2954586+02:00",
-  "Description": "Visionary bi-directional parallelism",
+  "Attention": "quia",
+  "Header": "non",
+  "Name": "Mills-Green",
+  "OurRef": "qui",
+  "YourRef": "magnam",
+  "CreatedDate": "1999-08-21T03:46:54.6445112+02:00",
+  "UpdatedDate": "2008-10-02T03:46:54.6445112+02:00",
+  "Description": "Innovative background Graphical User Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-01-30T03:45:23.2954586+01:00",
-  "ExternalRef": "quae",
+  "Date": "2011-09-01T03:46:54.6445112+02:00",
+  "ExternalRef": "exercitationem",
   "Completed": "Completed",
-  "ActiveLinks": 741,
+  "ActiveLinks": 503,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Labadie-Heller",
-      "Id": 545,
-      "Description": "Enhanced modular matrix",
-      "ExtraInfo": "et",
-      "LinkId": 906
+      "EntityName": "Schneider-Hartmann",
+      "Id": 497,
+      "Description": "Realigned 5th generation encryption",
+      "ExtraInfo": "harum",
+      "LinkId": 95
     },
     {
-      "EntityName": "Labadie-Heller",
-      "Id": 545,
-      "Description": "Enhanced modular matrix",
-      "ExtraInfo": "et",
-      "LinkId": 906
+      "EntityName": "Schneider-Hartmann",
+      "Id": 497,
+      "Description": "Realigned 5th generation encryption",
+      "ExtraInfo": "harum",
+      "LinkId": 95
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 470,
-  "Snum": 357,
+  "SuggestedDocumentId": 761,
+  "Snum": 858,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ernest Baumbach",
-    "SuperOffice:2": "871878898"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1808639473"
   },
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "illum"
+    "CustomFields1": "tempore",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2012-08-08T03:45:23.2954586+02:00",
-  "PublishTo": "2010-06-12T03:45:23.2954586+02:00",
-  "PublishFrom": "2009-09-30T03:45:23.2954586+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2003-05-13T03:46:54.6445112+02:00",
+  "PublishTo": "2004-11-13T03:46:54.6445112+01:00",
+  "PublishFrom": "2004-08-21T03:46:54.6445112+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 68,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "officiis"
     },
     {
-      "VisibleId": 68,
+      "VisibleId": 974,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "officiis"
     }
   ]
 }
@@ -212,88 +215,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 75,
+  "DocumentId": 971,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "beatae",
-  "Name": "Stracke-Schulist",
-  "OurRef": "qui",
-  "YourRef": "pariatur",
-  "CreatedDate": "2001-12-07T03:45:23.2954586+01:00",
-  "UpdatedDate": "2023-04-27T03:45:23.2954586+02:00",
-  "Description": "Proactive mobile product",
+  "Attention": "rerum",
+  "Header": "ut",
+  "Name": "Nicolas Inc and Sons",
+  "OurRef": "rerum",
+  "YourRef": "est",
+  "CreatedDate": "2019-08-09T03:46:54.6445112+02:00",
+  "UpdatedDate": "2022-08-30T03:46:54.6445112+02:00",
+  "Description": "Re-engineered hybrid project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-06-30T03:45:23.3110832+02:00",
-  "ExternalRef": "ratione",
+  "Date": "2000-08-25T03:46:54.6445112+02:00",
+  "ExternalRef": "temporibus",
   "Completed": "Completed",
-  "ActiveLinks": 302,
+  "ActiveLinks": 477,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Considine, Rath and Kuhlman",
-      "Id": 951,
-      "Description": "Synergistic dedicated knowledge base",
-      "ExtraInfo": "quod",
-      "LinkId": 562,
+      "EntityName": "Dickens-Leuschke",
+      "Id": 293,
+      "Description": "Managed bifurcated forecast",
+      "ExtraInfo": "temporibus",
+      "LinkId": 873,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldLength": 655
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 803,
-  "Snum": 210,
+  "SuggestedDocumentId": 644,
+  "Snum": 392,
   "UserDefinedFields": {
-    "SuperOffice:1": "1155298881",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "303190292"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "ad"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "non",
+    "CustomFields2": "amet"
   },
-  "PublishEventDate": "2002-11-11T03:45:23.3110832+01:00",
-  "PublishTo": "2009-09-05T03:45:23.3110832+02:00",
-  "PublishFrom": "2013-11-24T03:45:23.3110832+01:00",
+  "PublishEventDate": "2004-11-27T03:46:54.6445112+01:00",
+  "PublishTo": "2002-11-26T03:46:54.6445112+01:00",
+  "PublishFrom": "2010-09-29T03:46:54.6445112+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 952,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldLength": 755
         }
       }
     },
     {
-      "VisibleId": 952,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldLength": 755
         }
       }
     }
@@ -303,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 776
     }
   }
 }

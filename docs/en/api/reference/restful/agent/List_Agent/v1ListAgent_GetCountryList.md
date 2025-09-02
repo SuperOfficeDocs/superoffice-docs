@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCountryList
 uid: v1ListAgent_GetCountryList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCountryList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 
 ## Request Body: countryIds 
 
-The primary keys. 
+The identifiers of the Country object 
 
 
 ## Response:array
@@ -98,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 848,
-    "Name": "Stoltenberg-Hills",
-    "CurrencyId": 877,
-    "EnglishName": "Leuschke-Nolan",
+    "CountryId": 971,
+    "Name": "Wuckert-West",
+    "CurrencyId": 69,
+    "EnglishName": "Reichel, Purdy and Langworth",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Distributed disintermediate hardware",
-    "OrgNrText": "735302",
-    "InterAreaPrefix": "qui",
-    "DialInPrefix": "voluptas",
-    "ZipPrefix": "quos",
-    "DomainName": "Carter-Kling",
-    "AddressLayoutId": 824,
-    "DomesticAddressLayoutId": 870,
-    "ForeignAddressLayoutId": 257,
-    "Rank": 484,
-    "Tooltip": "sit",
-    "Deleted": true,
+    "ImageDescription": "Self-enabling global utilisation",
+    "OrgNrText": "1491288",
+    "InterAreaPrefix": "neque",
+    "DialInPrefix": "aliquam",
+    "ZipPrefix": "rerum",
+    "DomainName": "Pouros, Pfannerstill and Morar",
+    "AddressLayoutId": 435,
+    "DomesticAddressLayoutId": 520,
+    "ForeignAddressLayoutId": 920,
+    "Rank": 909,
+    "Tooltip": "ut",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET License/Site/{id}
 uid: v1License_GetSatelliteLicenses
 generated: true
+content_type: reference
 ---
 
 # GET License/Site/{id}
@@ -62,7 +63,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,56 +74,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Skiles Inc and Sons",
-    "Description": "Polarised encompassing framework",
+    "Name": "Murray-Goldner",
+    "Description": "Exclusive multimedia customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 802,
-        "Tooltip": "maxime",
-        "CanAssign": false,
-        "Free": 749,
-        "InUse": 608,
+        "Total": 119,
+        "Tooltip": "odio",
+        "CanAssign": true,
+        "Free": 642,
+        "InUse": 420,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 988,
-        "Name": "Hackett Group",
-        "Description": "Total maximized moratorium",
-        "PrerequisiteModuleName": "Olson LLC",
-        "SortOrder": 569,
-        "ExtraFlags": 578,
+        "Assigned": false,
+        "ModuleLicenseId": 730,
+        "Name": "Russel, Conroy and Marquardt",
+        "Description": "Persistent high-level initiative",
+        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
+        "SortOrder": 570,
+        "ExtraFlags": 473,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldLength": 77
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 385,
-        "Tooltip": "rem",
-        "CanAssign": true,
-        "Free": 253,
-        "InUse": 445,
+        "Unrestricted": false,
+        "Total": 639,
+        "Tooltip": "quis",
+        "CanAssign": false,
+        "Free": 218,
+        "InUse": 76,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 784,
-        "Name": "Cruickshank, Grady and Denesik",
-        "Description": "Customer-focused object-oriented local area network",
-        "PrerequisiteModuleName": "Anderson-Rowe",
-        "SortOrder": 604,
-        "ExtraFlags": 985,
+        "Assigned": true,
+        "ModuleLicenseId": 760,
+        "Name": "Ullrich-Wisozk",
+        "Description": "Self-enabling high-level monitoring",
+        "PrerequisiteModuleName": "Schmidt Group",
+        "SortOrder": 438,
+        "ExtraFlags": 565,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 490
           }
         }
       }
@@ -132,61 +133,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 531
       }
     }
   },
   {
-    "Name": "Skiles Inc and Sons",
-    "Description": "Polarised encompassing framework",
+    "Name": "Murray-Goldner",
+    "Description": "Exclusive multimedia customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 802,
-        "Tooltip": "maxime",
-        "CanAssign": false,
-        "Free": 749,
-        "InUse": 608,
+        "Total": 119,
+        "Tooltip": "odio",
+        "CanAssign": true,
+        "Free": 642,
+        "InUse": 420,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 988,
-        "Name": "Hackett Group",
-        "Description": "Total maximized moratorium",
-        "PrerequisiteModuleName": "Olson LLC",
-        "SortOrder": 569,
-        "ExtraFlags": 578,
+        "Assigned": false,
+        "ModuleLicenseId": 730,
+        "Name": "Russel, Conroy and Marquardt",
+        "Description": "Persistent high-level initiative",
+        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
+        "SortOrder": 570,
+        "ExtraFlags": 473,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldLength": 77
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 385,
-        "Tooltip": "rem",
-        "CanAssign": true,
-        "Free": 253,
-        "InUse": 445,
+        "Unrestricted": false,
+        "Total": 639,
+        "Tooltip": "quis",
+        "CanAssign": false,
+        "Free": 218,
+        "InUse": 76,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 784,
-        "Name": "Cruickshank, Grady and Denesik",
-        "Description": "Customer-focused object-oriented local area network",
-        "PrerequisiteModuleName": "Anderson-Rowe",
-        "SortOrder": 604,
-        "ExtraFlags": 985,
+        "Assigned": true,
+        "ModuleLicenseId": 760,
+        "Name": "Ullrich-Wisozk",
+        "Description": "Self-enabling high-level monitoring",
+        "PrerequisiteModuleName": "Schmidt Group",
+        "SortOrder": 438,
+        "ExtraFlags": 565,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 490
           }
         }
       }
@@ -196,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 531
       }
     }
   }

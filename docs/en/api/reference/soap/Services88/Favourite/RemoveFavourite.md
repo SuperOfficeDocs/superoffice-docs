@@ -2,6 +2,7 @@
 title: Services88.FavouriteAgent.RemoveFavourite SOAP
 generated: true
 uid: Services88-Favourite-RemoveFavourite
+content_type: reference
 ---
 
 # Services88 Favourite RemoveFavourite

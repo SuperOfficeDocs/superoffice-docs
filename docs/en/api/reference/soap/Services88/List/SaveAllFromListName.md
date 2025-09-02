@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveAllFromListName SOAP
 generated: true
 uid: Services88-List-SaveAllFromListName
+content_type: reference
 ---
 
 # Services88 List SaveAllFromListName

@@ -2,6 +2,7 @@
 title: GET List/Country
 uid: v1CountryList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Country
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Kohler-Luettgen",
-  "Tooltip": "enim",
+  "Id": 503,
+  "Name": "Heathcote, Simonis and Botsford",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 944,
+  "Rank": 623,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   },
   "_Links": {

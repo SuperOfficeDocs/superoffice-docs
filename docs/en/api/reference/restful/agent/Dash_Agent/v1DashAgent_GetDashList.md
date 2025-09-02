@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashList
 uid: v1DashAgent_GetDashList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashList
@@ -85,13 +86,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    108,
-    954
+    575,
+    751
   ]
 }
 ```
@@ -104,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 500,
-    "UniqueId": "exercitationem",
-    "Name": "Pacocha, Pollich and O'Kon",
-    "Description": "Decentralized local budgetary management",
-    "AssociateId": 841,
-    "Columns": 540,
+    "DashboardId": 278,
+    "UniqueId": "velit",
+    "Name": "Roob-Bailey",
+    "Description": "Innovative tertiary moratorium",
+    "AssociateId": 482,
+    "Columns": 434,
     "Theme": null,
-    "VisibleForAll": 80,
+    "VisibleForAll": 243,
     "VisibleForAssociates": [
-      275,
-      585
+      240,
+      213
     ],
     "VisibleForGroups": [
-      687,
-      788
+      234,
+      682
     ],
-    "PinForAll": 493,
+    "PinForAll": 851,
     "PinForAssociates": [
-      413,
-      144
+      390,
+      148
     ],
     "PinForGroups": [
-      518,
-      504
+      628,
+      302
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 448
       }
     }
   }

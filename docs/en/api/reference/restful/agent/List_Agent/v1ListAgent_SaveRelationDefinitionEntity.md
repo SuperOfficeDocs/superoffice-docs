@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveRelationDefinitionEntity
 uid: v1ListAgent_SaveRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveRelationDefinitionEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 ```
 
-Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty
+Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing RelationDefinitionEntity or creates a new RelationDefinitio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: relationDefinitionEntity 
 
-The RelationDefinitionEntity to be saved. 
+The RelationDefinitionEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,16 +78,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 525,
-  "Name": "Brakus Group",
-  "Tooltip": "ratione",
-  "PassiveText": "distinctio",
+  "ReldefId": 122,
+  "Name": "Hoppe Group",
+  "Tooltip": "vel",
+  "PassiveText": "est",
   "Deleted": false,
-  "Rank": 747,
+  "Rank": 325,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 643,
-  "Name": "Skiles Inc and Sons",
-  "Tooltip": "sapiente",
-  "PassiveText": "consectetur",
+  "ReldefId": 725,
+  "Name": "Keebler, Adams and Ernser",
+  "Tooltip": "nihil",
+  "PassiveText": "ex",
   "Deleted": false,
-  "Rank": 866,
+  "Rank": 26,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 208
     }
   }
 }

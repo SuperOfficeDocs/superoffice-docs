@@ -2,6 +2,7 @@
 title: GET List/MrMrs
 uid: v1MrMrsList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Kiehn LLC",
-  "Tooltip": "dolor",
+  "Id": 703,
+  "Name": "Rohan, Legros and Wolff",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 152,
-  "IsCustomList": false,
+  "Rank": 586,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 2
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

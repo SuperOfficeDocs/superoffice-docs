@@ -2,6 +2,7 @@
 title: GET List/Reason/Items/{id}
 uid: v1ReasonList_GetReason
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Quigley-Luettgen",
-  "Tooltip": "inventore",
+  "Id": 90,
+  "Name": "Nader, Bergnaum and Fadel",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 671,
-  "Rank": 292,
+  "UdListDefinitionId": 560,
+  "Rank": 730,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldType": "System.Int32",
+      "FieldLength": 632
     }
   }
 }

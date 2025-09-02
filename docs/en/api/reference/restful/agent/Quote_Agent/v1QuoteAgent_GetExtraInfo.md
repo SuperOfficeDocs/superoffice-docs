@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetExtraInfo
 uid: v1QuoteAgent_GetExtraInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetExtraInfo
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "voluptas"
+  "QuoteLineExtraData": "non"
 }
 ```
 
@@ -91,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Krajcik Inc and Sons",
-    "Value": "placeat",
+    "Name": "Mosciski-Wisozk",
+    "Value": "voluptate",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 766
       }
     }
   },
   {
-    "Name": "Krajcik Inc and Sons",
-    "Value": "placeat",
+    "Name": "Mosciski-Wisozk",
+    "Value": "voluptate",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 766
       }
     }
   }

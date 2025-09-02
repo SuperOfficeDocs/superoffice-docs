@@ -2,6 +2,7 @@
 title: GET Project/UdefLayout/{progidOrLabel}
 uid: v1ProjectEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Project/UdefLayout/{progidOrLabel}
@@ -103,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 891,
-  "ColumnId": 865,
-  "FieldDefault": "nam",
-  "FieldHeight": 593,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 846,
-  "FieldTop": 470,
+  "UDefFieldId": 968,
+  "ColumnId": 380,
+  "FieldDefault": "libero",
+  "FieldHeight": 941,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 795,
+  "FieldTop": 907,
   "FieldType": "Checkbox",
-  "FieldWidth": 906,
-  "FormatMask": "possimus",
+  "FieldWidth": 524,
+  "FormatMask": "reprehenderit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 659,
-  "LabelLeft": 950,
-  "LabelTop": 656,
-  "LabelWidth": 244,
-  "LastVersionId": 1002,
-  "ListTableId": 154,
+  "LabelHeight": 195,
+  "LabelLeft": 21,
+  "LabelTop": 822,
+  "LabelWidth": 171,
+  "LastVersionId": 561,
+  "ListTableId": 285,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "et",
+  "Page1LineNo": 255,
+  "ProgId": "ad",
   "IsReadOnly": false,
-  "ShortLabel": "corrupti",
-  "TabOrder": 558,
-  "TextLength": 835,
-  "Tooltip": "velit",
-  "UdefIdentity": 592,
-  "UDListDefinitionId": 239,
+  "ShortLabel": "sit",
+  "TabOrder": 300,
+  "TextLength": 461,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 951,
+  "UDListDefinitionId": 308,
   "Justification": "Center",
-  "Version": 878,
-  "TemplateVariableName": "Wilderman Inc and Sons",
+  "Version": 903,
+  "TemplateVariableName": "Carroll, Kertzmann and Hirthe",
   "HasBeenPublished": false,
-  "MdoListName": "Leannon-Schinner",
+  "MdoListName": "Keebler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 216
     }
   }
 }

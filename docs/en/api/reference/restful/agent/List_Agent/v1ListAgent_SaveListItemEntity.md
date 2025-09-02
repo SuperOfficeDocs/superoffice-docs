@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveListItemEntity
 uid: v1ListAgent_SaveListItemEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveListItemEntity
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "Name": "Waelchi LLC",
-  "Tooltip": "quod",
+  "Id": 469,
+  "Name": "Pfannerstill-Dare",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 617,
-  "Rank": 385,
+  "UdListDefinitionId": 300,
+  "Rank": 395,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 763
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferences
 uid: v1PreferenceAgent_GetPreferences
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferences
@@ -85,18 +86,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "velit",
-      "Key": "ipsa"
+      "Section": "quia",
+      "Key": "illo"
     },
     {
-      "Section": "velit",
-      "Key": "ipsa"
+      "Section": "quia",
+      "Key": "illo"
     }
   ]
 }
@@ -113,20 +114,20 @@ Content-Type: application/json; charset=utf-8
     "Level": "Database",
     "RawValue": "tempore",
     "Specification": null,
-    "DisplayValue": "sed",
-    "DisplayTooltip": "occaecati",
+    "DisplayValue": "vero",
+    "DisplayTooltip": "voluptas",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 774,
-    "PrefDescId": 720,
-    "TableName": "Witting-Hintz",
-    "UserPreferenceId": 969,
+    "TargetId": 121,
+    "PrefDescId": 909,
+    "TableName": "Dach LLC",
+    "UserPreferenceId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 634
       }
     }
   }

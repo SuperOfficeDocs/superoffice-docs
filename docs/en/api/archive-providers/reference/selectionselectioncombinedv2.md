@@ -3,9 +3,9 @@ uid: SelectionSelectionCombinedV2
 title: SelectionSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: SelectionSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SelectionSelectionCombinedV2"

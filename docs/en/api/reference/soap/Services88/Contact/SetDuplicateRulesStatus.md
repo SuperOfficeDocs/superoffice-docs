@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.SetDuplicateRulesStatus SOAP
 generated: true
 uid: Services88-Contact-SetDuplicateRulesStatus
+content_type: reference
 ---
 
 # Services88 Contact SetDuplicateRulesStatus

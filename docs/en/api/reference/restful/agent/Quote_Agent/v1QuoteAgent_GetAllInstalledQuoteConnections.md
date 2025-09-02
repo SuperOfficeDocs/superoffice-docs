@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetAllInstalledQuoteConnections
 uid: v1QuoteAgent_GetAllInstalledQuoteConnections
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetAllInstalledQuoteConnections
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,54 +93,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 942,
-    "ERPName": "Towne, Hudson and Wiegand",
-    "DisplayName": "Anderson-Conroy",
-    "DisplayDescription": "Seamless bifurcated software",
-    "Rank": 767,
-    "ConnectorName": "Haley-Ortiz",
-    "ErpConnectionId": 400,
-    "ExtraData": "delectus",
+    "QuoteConnectionId": 382,
+    "ERPName": "Durgan, Littel and Lang",
+    "DisplayName": "Satterfield-Bayer",
+    "DisplayDescription": "Balanced cohesive solution",
+    "Rank": 929,
+    "ConnectorName": "Rutherford-Gulgowski",
+    "ErpConnectionId": 805,
+    "ExtraData": "placeat",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 465,
-        "ERPPriceListKey": "dolor",
-        "QuoteConnectionId": 695,
-        "Name": "Hamill Inc and Sons",
-        "Description": "Automated tangible pricing structure",
-        "Currency": "sed",
-        "CurrencyName": "Dietrich-Nader",
-        "ValidFrom": "2006-03-17T03:45:23.8266945+01:00",
-        "ValidTo": "2013-08-09T03:45:23.8266945+02:00",
-        "IsActive": false,
+        "PriceListId": 988,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 352,
+        "Name": "VonRueden, Bradtke and Terry",
+        "Description": "Cloned exuding hub",
+        "Currency": "deserunt",
+        "CurrencyName": "Crooks Group",
+        "ValidFrom": "2021-12-17T03:46:55.2069913+01:00",
+        "ValidTo": "2009-11-10T03:46:55.2069913+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldLength": 500
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      63,
-      232
+      15,
+      519
     ],
     "AssociateAccessIds": [
-      283,
-      961
+      456,
+      156
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 649
       }
     }
   }

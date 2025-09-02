@@ -2,6 +2,7 @@
 title: PUT List/Country/Headings
 uid: v1CountryList_PutCountryHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Country/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 178,
-    "Name": "Krajcik Group",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 611,
-    "UdListDefinitionId": 551
+    "HeadingId": 172,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 831,
+    "UdListDefinitionId": 901
   },
   {
-    "HeadingId": 178,
-    "Name": "Krajcik Group",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 611,
-    "UdListDefinitionId": 551
+    "HeadingId": 172,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 831,
+    "UdListDefinitionId": 901
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 65,
-    "Name": "Strosin Group",
-    "Tooltip": "illum",
+    "HeadingId": 375,
+    "Name": "Fisher LLC",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 417,
+    "Rank": 408,
+    "UdListDefinitionId": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 65
       }
     }
   }

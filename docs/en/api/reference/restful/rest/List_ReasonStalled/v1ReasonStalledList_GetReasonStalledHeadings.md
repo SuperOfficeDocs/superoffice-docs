@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/Headings
 uid: v1ReasonStalledList_GetReasonStalledHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 185,
-    "Name": "Quitzon, Ferry and Rogahn",
-    "Tooltip": "voluptatem",
+    "HeadingId": 629,
+    "Name": "Hickle, Nikolaus and Morar",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 970,
-    "UdListDefinitionId": 878,
+    "Rank": 664,
+    "UdListDefinitionId": 536,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 713
       }
     }
   }

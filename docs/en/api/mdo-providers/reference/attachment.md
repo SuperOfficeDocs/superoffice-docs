@@ -3,9 +3,9 @@ uid: attachment
 title: attachment
 keywords: mdoprovider mdo provider attachment
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "attachment" MDO List

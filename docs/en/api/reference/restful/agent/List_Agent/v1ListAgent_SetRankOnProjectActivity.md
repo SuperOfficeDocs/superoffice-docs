@@ -2,6 +2,7 @@
 title: POST Agents/List/SetRankOnProjectActivity
 uid: v1ListAgent_SetRankOnProjectActivity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetRankOnProjectActivity
@@ -65,14 +66,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnProjectActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 160,
+  "ProjectTypeStatusLinkId": 293,
   "ItemsIds": [
-    252,
-    977
+    175,
+    828
   ]
 }
 ```

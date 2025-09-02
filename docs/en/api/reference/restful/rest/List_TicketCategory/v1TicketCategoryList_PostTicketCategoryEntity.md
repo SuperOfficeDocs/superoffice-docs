@@ -2,6 +2,7 @@
 title: POST List/TicketCategory/Items
 uid: v1TicketCategoryList_PostTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketCategory/Items
@@ -99,33 +100,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 22,
-  "ParentId": 636,
-  "Name": "Boyle-Volkman",
-  "Fullname": "consequatur",
-  "CategoryMaster": 980,
+  "TicketCategoryId": 470,
+  "ParentId": 367,
+  "Name": "Kertzmann LLC",
+  "Fullname": "distinctio",
+  "CategoryMaster": 621,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gleason-Lehner",
+  "ExternalName": "Mitchell-Douglas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 594,
-  "ReplyTemplate": 158,
-  "NotificationEmail": "joe_turcotte@effertz.com",
+  "AssignmentLag": 181,
+  "ReplyTemplate": 768,
+  "NotificationEmail": "elsie.lueilwitz@grady.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 982,
+  "EffectiveReplyTemplateId": 210,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "modi"
   }
 }
 ```
@@ -137,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 131,
-  "ParentId": 459,
-  "Name": "Fadel Inc and Sons",
-  "Fullname": "odio",
-  "CategoryMaster": 577,
+  "TicketCategoryId": 407,
+  "ParentId": 306,
+  "Name": "Armstrong, Keeling and Schuster",
+  "Fullname": "sapiente",
+  "CategoryMaster": 715,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hermann, Greenfelder and Koch",
+  "ExternalName": "Ward LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 252,
-  "ReplyTemplate": 128,
-  "NotificationEmail": "molly.hayes@daniel.com",
+  "AssignmentLag": 629,
+  "ReplyTemplate": 624,
+  "NotificationEmail": "sarah_grady@upton.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 545,
+  "EffectiveReplyTemplateId": 616,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "autem",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 957
     }
   }
 }

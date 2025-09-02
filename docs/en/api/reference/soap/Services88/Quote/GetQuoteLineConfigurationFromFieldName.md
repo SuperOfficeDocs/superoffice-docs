@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetQuoteLineConfigurationFromFieldName SOAP
 generated: true
 uid: Services88-Quote-GetQuoteLineConfigurationFromFieldName
+content_type: reference
 ---
 
 # Services88 Quote GetQuoteLineConfigurationFromFieldName

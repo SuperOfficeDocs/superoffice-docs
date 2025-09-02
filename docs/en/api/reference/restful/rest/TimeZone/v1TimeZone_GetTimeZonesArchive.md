@@ -2,6 +2,7 @@
 title: GET TimeZone
 uid: v1TimeZone_GetTimeZonesArchive
 generated: true
+content_type: reference
 ---
 
 # GET TimeZone
@@ -39,12 +40,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=tempora
-GET /api/v1/TimeZone?$top=349
-GET /api/v1/TimeZone?$skip=812
+GET /api/v1/TimeZone?$entities=pariatur
+GET /api/v1/TimeZone?$top=445
+GET /api/v1/TimeZone?$skip=495
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=minus
+GET /api/v1/TimeZone?$context=rerum
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,19 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nihil",
+  "odata.nextLink": "vel",
   "value": [
     {
-      "PrimaryKey": 1253,
-      "EntityName": "person",
-      "personId": 1253,
-      "fullName": "Alisa Haley"
+      "PrimaryKey": 1842,
+      "EntityName": "sale",
+      "saleId": 1842,
+      "contactId": 370,
+      "name": "Feeney Inc and Sons"
     },
     {
-      "PrimaryKey": 7789,
-      "EntityName": "person",
-      "personId": 7789,
-      "fullName": "Angie Keebler"
+      "PrimaryKey": 5565,
+      "EntityName": "sale",
+      "saleId": 5565,
+      "contactId": 3261,
+      "name": "Strosin Inc and Sons"
     }
   ]
 }

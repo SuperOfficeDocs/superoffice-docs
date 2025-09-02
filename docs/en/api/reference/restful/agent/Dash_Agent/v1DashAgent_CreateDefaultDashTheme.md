@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultDashTheme
 uid: v1DashAgent_CreateDefaultDashTheme
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultDashTheme
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 ```
 
-Set default values into a new DashTheme.
+Loading default values into a new DashTheme.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -62,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 970,
-  "Name": "Hintz-Marquardt",
-  "Config": "consectetur",
-  "Rank": 829,
-  "Client": "veniam",
-  "Style": "similique",
+  "DashboardThemeId": 181,
+  "Name": "Tromp, Emard and Schaden",
+  "Config": "accusantium",
+  "Rank": 488,
+  "Client": "explicabo",
+  "Style": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 604
     }
   }
 }

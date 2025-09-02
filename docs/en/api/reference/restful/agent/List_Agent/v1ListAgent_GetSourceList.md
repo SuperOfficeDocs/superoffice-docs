@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSourceList
 uid: v1ListAgent_GetSourceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSourceList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetSourceList?$select=name,department,category/id
 
 ## Request Body: sourceIds 
 
-The primary keys. 
+The identifiers of the Source object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Value": "repellendus",
-    "Tooltip": "cum",
+    "Id": 448,
+    "Value": "dolorum",
+    "Tooltip": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 281
       }
     }
   },
   {
-    "Id": 858,
-    "Value": "repellendus",
-    "Tooltip": "cum",
+    "Id": 448,
+    "Value": "dolorum",
+    "Tooltip": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 281
       }
     }
   }

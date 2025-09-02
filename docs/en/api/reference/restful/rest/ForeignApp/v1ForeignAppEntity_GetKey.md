@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}
 uid: v1ForeignAppEntity_GetKey
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{id}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 07 Sep 2015 03:45:28 G9T
+Last-Modified: Mon, 15 Jul 2024 03:47:00 G7T
 
 {
-  "Key": "voluptas",
-  "Value": "fuga",
-  "RecordId": 881,
-  "CreatedDate": "2023-11-17T03:45:28.3578119+01:00",
-  "UpdatedDate": "2015-09-07T03:45:28.3578119+02:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "voluptatum",
-  "TableName": "Abbott-Christiansen",
+  "Key": "sint",
+  "Value": "corporis",
+  "RecordId": 285,
+  "CreatedDate": "2016-02-25T03:47:00.0349452+01:00",
+  "UpdatedDate": "2024-07-15T03:47:00.0349452+02:00",
+  "UpdatedBy": "repellat",
+  "CreatedBy": "cupiditate",
+  "TableName": "Rath, Schmidt and Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

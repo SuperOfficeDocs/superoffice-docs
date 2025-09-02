@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketPriorities
 uid: v1ListAgent_GetTicketPriorities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketPriorities
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Value": "iure",
-    "Tooltip": "aliquam",
+    "Id": 758,
+    "Value": "rem",
+    "Tooltip": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 519
       }
     }
   },
   {
-    "Id": 761,
-    "Value": "iure",
-    "Tooltip": "aliquam",
+    "Id": 758,
+    "Value": "rem",
+    "Tooltip": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 519
       }
     }
   }

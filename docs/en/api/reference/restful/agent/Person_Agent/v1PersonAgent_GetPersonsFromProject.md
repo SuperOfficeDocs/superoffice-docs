@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPersonsFromProject
 uid: v1PersonAgent_GetPersonsFromProject
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPersonsFromProject
@@ -113,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 464
+  "ProjectId": 17
 }
 ```
 
@@ -129,53 +130,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "iste",
-    "PersonId": 550,
-    "Mrmrs": "et",
-    "Firstname": "Abby",
-    "Lastname": "Nitzsche",
-    "MiddleName": "Beier, Schmitt and McCullough",
-    "Title": "ratione",
-    "Description": "Intuitive 4th generation architecture",
-    "Email": "vickie@kassulke.com",
-    "FullName": "Mrs. Jaquelin Alexanne Willms DVM",
-    "DirectPhone": "(982)149-8164",
-    "FormalName": "Littel, Stehr and Anderson",
-    "CountryId": 158,
-    "ContactId": 961,
-    "ContactName": "Haley LLC",
-    "Retired": 457,
-    "Rank": 614,
-    "ActiveInterests": 117,
+    "Position": "veniam",
+    "PersonId": 164,
+    "Mrmrs": "qui",
+    "Firstname": "Blake",
+    "Lastname": "Purdy",
+    "MiddleName": "Mohr-Buckridge",
+    "Title": "reiciendis",
+    "Description": "Front-line assymetric parallelism",
+    "Email": "oran@brakus.name",
+    "FullName": "Cleveland Rice",
+    "DirectPhone": "(789)468-0178",
+    "FormalName": "Koelpin, Lakin and Lubowitz",
+    "CountryId": 862,
+    "ContactId": 504,
+    "ContactName": "Mueller-Borer",
+    "Retired": 454,
+    "Rank": 487,
+    "ActiveInterests": 373,
     "ContactDepartment": "",
-    "ContactCountryId": 236,
-    "ContactOrgNr": "1396411",
-    "FaxPhone": "609-643-4022",
-    "MobilePhone": "(511)931-6635",
-    "ContactPhone": "(071)425-6629 x8397",
-    "AssociateName": "Parker Inc and Sons",
-    "AssociateId": 654,
-    "UsePersonAddress": true,
-    "ContactFax": "dignissimos",
-    "Kanafname": "voluptatem",
-    "Kanalname": "labore",
-    "Post1": "vel",
-    "Post2": "omnis",
-    "Post3": "rem",
-    "EmailName": "xavier@wunsch.info",
-    "ContactFullName": "Miss Olaf Jordon Weissnat Sr.",
-    "ActiveErpLinks": 454,
-    "TicketPriorityId": 219,
-    "SupportLanguageId": 456,
-    "SupportAssociateId": 117,
+    "ContactCountryId": 86,
+    "ContactOrgNr": "851608",
+    "FaxPhone": "1-164-154-8598",
+    "MobilePhone": "(269)186-9541",
+    "ContactPhone": "1-245-669-7472 x097",
+    "AssociateName": "Ebert-Lehner",
+    "AssociateId": 185,
+    "UsePersonAddress": false,
+    "ContactFax": "itaque",
+    "Kanafname": "veritatis",
+    "Kanalname": "velit",
+    "Post1": "error",
+    "Post2": "error",
+    "Post3": "tenetur",
+    "EmailName": "jalon@gorczany.uk",
+    "ContactFullName": "Ms. Marlon Viva Lakin Sr.",
+    "ActiveErpLinks": 863,
+    "TicketPriorityId": 760,
+    "SupportLanguageId": 344,
+    "SupportAssociateId": 929,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "225022",
+    "PersonNumber": "1171750",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 14
       }
     }
   }

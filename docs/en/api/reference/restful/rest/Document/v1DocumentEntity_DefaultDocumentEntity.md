@@ -2,6 +2,7 @@
 title: GET Document/default
 uid: v1DocumentEntity_DefaultDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Document/default
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,91 +99,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Nov 2009 03:45:28 G11T
+Last-Modified: Fri, 18 Feb 2011 03:46:59 G2T
 
 {
-  "DocumentId": 926,
+  "DocumentId": 74,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veritatis",
-  "Header": "id",
-  "Name": "Homenick, Mayert and Nienow",
-  "OurRef": "quod",
-  "YourRef": "odit",
-  "CreatedDate": "2016-05-13T03:45:28.3109477+02:00",
-  "UpdatedDate": "2009-11-09T03:45:28.3109477+01:00",
-  "Description": "Virtual user-facing definition",
+  "Attention": "et",
+  "Header": "tenetur",
+  "Name": "Goldner-Lynch",
+  "OurRef": "corporis",
+  "YourRef": "eum",
+  "CreatedDate": "2010-12-06T03:46:59.8943184+01:00",
+  "UpdatedDate": "2011-02-18T03:46:59.8943184+01:00",
+  "Description": "Automated radical encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2025-04-06T03:45:28.3109477+02:00",
-  "ExternalRef": "aut",
+  "Date": "2008-01-01T03:46:59.9099453+01:00",
+  "ExternalRef": "dignissimos",
   "Completed": "Completed",
-  "ActiveLinks": 236,
+  "ActiveLinks": 187,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ferry-Reichel",
-      "Id": 131,
-      "Description": "Switchable optimal core",
-      "ExtraInfo": "ducimus",
-      "LinkId": 894,
+      "EntityName": "Legros LLC",
+      "Id": 114,
+      "Description": "Future-proofed local open architecture",
+      "ExtraInfo": "esse",
+      "LinkId": 352,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 344
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 287,
-  "Snum": 124,
+  "SuggestedDocumentId": 244,
+  "Snum": 340,
   "UserDefinedFields": {
-    "SuperOffice:1": "207168786",
-    "SuperOffice:2": "134185092"
+    "SuperOffice:1": "1517870266",
+    "SuperOffice:2": "Maggie Elias Wiza PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "velit"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "similique"
   },
-  "PublishEventDate": "2009-06-10T03:45:28.3109477+02:00",
-  "PublishTo": "2021-02-14T03:45:28.3109477+01:00",
-  "PublishFrom": "2017-05-06T03:45:28.3109477+02:00",
+  "PublishEventDate": "2001-12-19T03:46:59.9099453+01:00",
+  "PublishTo": "2014-03-20T03:46:59.9099453+01:00",
+  "PublishFrom": "2015-03-04T03:46:59.9099453+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 785,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 785,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     }
@@ -191,8 +192,8 @@ Last-Modified: Mon, 09 Nov 2009 03:45:28 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   }
 }

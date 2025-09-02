@@ -3,9 +3,9 @@ uid: formratingnps
 title: formratingnps
 keywords: mdoprovider mdo provider formratingnps
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formratingnps" MDO List

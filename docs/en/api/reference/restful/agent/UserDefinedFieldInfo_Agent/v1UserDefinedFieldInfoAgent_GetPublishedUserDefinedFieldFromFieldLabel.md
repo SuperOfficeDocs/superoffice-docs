@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
@@ -109,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "omnis",
+  "FieldLabel": "consequatur",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 874,
-  "ColumnId": 220,
-  "FieldDefault": "eius",
-  "FieldHeight": 310,
-  "FieldLabel": "officia",
-  "FieldLeft": 279,
-  "FieldTop": 262,
+  "UDefFieldId": 34,
+  "ColumnId": 759,
+  "FieldDefault": "corrupti",
+  "FieldHeight": 67,
+  "FieldLabel": "quam",
+  "FieldLeft": 102,
+  "FieldTop": 905,
   "FieldType": "Checkbox",
-  "FieldWidth": 977,
-  "FormatMask": "earum",
+  "FieldWidth": 575,
+  "FormatMask": "quam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 733,
-  "LabelLeft": 65,
-  "LabelTop": 146,
-  "LabelWidth": 253,
-  "LastVersionId": 558,
-  "ListTableId": 854,
+  "LabelHeight": 112,
+  "LabelLeft": 474,
+  "LabelTop": 670,
+  "LabelWidth": 176,
+  "LastVersionId": 256,
+  "ListTableId": 839,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 966,
-  "ProgId": "beatae",
+  "Page1LineNo": 621,
+  "ProgId": "tempore",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 138,
-  "TextLength": 389,
-  "Tooltip": "ut",
-  "UdefIdentity": 415,
-  "UDListDefinitionId": 77,
+  "ShortLabel": "veritatis",
+  "TabOrder": 732,
+  "TextLength": 216,
+  "Tooltip": "quia",
+  "UdefIdentity": 744,
+  "UDListDefinitionId": 455,
   "Justification": "Center",
-  "Version": 705,
-  "TemplateVariableName": "Ratke-Gleason",
+  "Version": 910,
+  "TemplateVariableName": "Roberts, Rogahn and Williamson",
   "HasBeenPublished": false,
-  "MdoListName": "Kunze, Schmeler and Fadel",
+  "MdoListName": "Mills Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 778
     }
   }
 }

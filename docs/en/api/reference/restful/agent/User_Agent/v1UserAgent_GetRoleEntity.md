@@ -2,6 +2,7 @@
 title: POST Agents/User/GetRoleEntity
 uid: v1UserAgent_GetRoleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetRoleEntity
@@ -24,11 +25,11 @@ Gets a RoleEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| roleEntityId | int32 | **Required** The primary key. |
+| roleEntityId | int32 | **Required** The identifier of the RoleEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=223
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=218
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,24 +91,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 197,
-  "Name": "Bednar Group",
+  "RoleId": 442,
+  "Name": "Trantow-Purdy",
   "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 213,
-  "Rank": 802,
-  "Created": "2014-03-19T03:45:24.1704335+01:00",
-  "UseCategories": 810,
+  "Deleted": 601,
+  "Rank": 759,
+  "Created": "2008-11-19T03:46:55.581978+01:00",
+  "UseCategories": 811,
   "CreatedBy": null,
-  "Updated": "2016-08-07T03:45:24.1704335+02:00",
+  "Updated": "1999-07-20T03:46:55.581978+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

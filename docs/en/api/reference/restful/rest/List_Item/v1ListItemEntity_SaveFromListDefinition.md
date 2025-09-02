@@ -2,6 +2,7 @@
 title: PUT List/{id}/Items/{id}
 uid: v1ListItemEntity_SaveFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/{id}/Items/{id}
@@ -79,16 +80,16 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Boyle LLC",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "UdListDefinitionId": 109,
-  "Rank": 254
+  "Id": 294,
+  "Name": "Volkman-Herzog",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "UdListDefinitionId": 473,
+  "Rank": 66
 }
 ```
 
@@ -99,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Roberts-Schuppe",
-  "Tooltip": "occaecati",
+  "Id": 461,
+  "Name": "Hegmann-Tillman",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 26,
-  "Rank": 344,
+  "UdListDefinitionId": 594,
+  "Rank": 916,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldLength": 61
     }
   }
 }

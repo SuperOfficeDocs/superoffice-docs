@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteEntityFromSaleId
 uid: v1QuoteAgent_GetQuoteEntityFromSaleId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteEntityFromSaleId
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 676
+  "SaleId": 399
 }
 ```
 
@@ -100,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 387,
-  "SaleId": 968,
-  "QuoteConnectionId": 178,
+  "QuoteId": 375,
+  "SaleId": 169,
+  "QuoteConnectionId": 205,
   "ERPQuoteKey": "quia",
-  "ERPOrderKey": "maiores",
-  "ActiveQuoteVersionId": 614,
-  "AcceptedQuoteAlternativeId": 971,
-  "UseValuesFromQuote": 372,
-  "DocumentId": 746,
-  "PoNumber": "1103354",
-  "OrderComment": "adipisci",
-  "PreferredEmailCulture": "ahmad_crist@weber.name",
+  "ERPOrderKey": "sint",
+  "ActiveQuoteVersionId": 909,
+  "AcceptedQuoteAlternativeId": 984,
+  "UseValuesFromQuote": 195,
+  "DocumentId": 895,
+  "PoNumber": "606655",
+  "OrderComment": "incidunt",
+  "PreferredEmailCulture": "lysanne@hickleokuneva.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 254,
-      "ERPQuoteVersionKey": "vero",
-      "QuoteId": 907,
-      "Description": "Stand-alone exuding internet solution",
-      "Number": "1488572",
+      "QuoteVersionId": 190,
+      "ERPQuoteVersionKey": "officia",
+      "QuoteId": 896,
+      "Description": "Horizontal background middleware",
+      "Number": "826460",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 685,
-      "SentDate": "2005-01-01T03:45:23.8266945+01:00",
-      "FollowupId": 367,
-      "ExpirationDate": "2011-06-21T03:45:23.8266945+02:00",
-      "DeliveryCountryId": 565,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 669,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "omnis",
-      "ERPPaymentTypeKey": "ex",
-      "ERPDeliveryTermsKey": "quibusdam",
-      "ERPDeliveryTypeKey": "officiis",
-      "Rank": 893,
-      "ApprovedBy": 46,
-      "ApprovedText": "est",
-      "ApprovedRegisteredBy": 15,
-      "ApprovedRegisteredDate": "2001-01-24T03:45:23.8266945+01:00",
-      "ExtraField1": "natus",
-      "ExtraField2": "in",
-      "ExtraField3": "eos",
-      "ExtraField4": "enim",
-      "ExtraField5": "alias",
-      "LastRecalculated": "2007-05-26T03:45:23.8266945+02:00",
-      "Updated": "1998-03-29T03:45:23.8266945+02:00",
-      "UpdatedAssociateId": 950,
-      "Registered": "2024-09-17T03:45:23.8266945+02:00",
-      "RegisteredAssociateId": 848,
-      "RequestAssociateId": 965,
-      "RequestComment": "doloremque",
+      "LikelyQuoteAlternativeId": 195,
+      "SentDate": "2023-08-14T03:46:55.2226157+02:00",
+      "FollowupId": 513,
+      "ExpirationDate": "2016-08-11T03:46:55.2226157+02:00",
+      "DeliveryCountryId": 726,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 350,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "eum",
+      "ERPPaymentTypeKey": "dolores",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "voluptas",
+      "Rank": 269,
+      "ApprovedBy": 911,
+      "ApprovedText": "consectetur",
+      "ApprovedRegisteredBy": 985,
+      "ApprovedRegisteredDate": "2008-11-20T03:46:55.2226157+01:00",
+      "ExtraField1": "praesentium",
+      "ExtraField2": "nesciunt",
+      "ExtraField3": "et",
+      "ExtraField4": "et",
+      "ExtraField5": "qui",
+      "LastRecalculated": "2006-01-18T03:46:55.2226157+01:00",
+      "Updated": "2025-06-25T03:46:55.2226157+02:00",
+      "UpdatedAssociateId": 647,
+      "Registered": "2013-10-22T03:46:55.2226157+02:00",
+      "RegisteredAssociateId": 88,
+      "RequestAssociateId": 947,
+      "RequestComment": "aliquam",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,7 +161,7 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 434
         }
       }
@@ -170,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

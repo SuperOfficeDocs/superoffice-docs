@@ -2,6 +2,7 @@
 title: GET TicketMessage/{id}/Attachment
 uid: v1TicketMessageEntity_GetAttachmentInfo
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/{id}/Attachment
@@ -66,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 403,
-    "Name": "Jacobson, Romaguera and Russel",
-    "ContentType": "cupiditate",
-    "AttSize": 329,
+    "AttachmentId": 31,
+    "Name": "Kulas LLC",
+    "ContentType": "voluptatum",
+    "AttSize": 647,
     "InlineImage": false,
-    "ContentId": "nihil",
-    "AuthKey": "aut",
+    "ContentId": "esse",
+    "AuthKey": "velit",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 904
       }
     }
   }

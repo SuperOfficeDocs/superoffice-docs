@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/ChangeContactImage
 uid: v1BLOBAgent_ChangeContactImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/ChangeContactImage
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 844,
-  "BlobId": 841
+  "ContactId": 976,
+  "BlobId": 919
 }
 ```
 

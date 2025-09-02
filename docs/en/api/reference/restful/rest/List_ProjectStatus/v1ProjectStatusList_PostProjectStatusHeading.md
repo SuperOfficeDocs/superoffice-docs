@@ -2,6 +2,7 @@
 title: POST List/ProjectStatus/Headings
 uid: v1ProjectStatusList_PostProjectStatusHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ProjectStatus/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 679,
-  "Name": "Renner, Bernhard and Olson",
-  "Tooltip": "soluta",
+  "HeadingId": 261,
+  "Name": "Ernser, Sawayn and Graham",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 505,
-  "UdListDefinitionId": 207
+  "Rank": 369,
+  "UdListDefinitionId": 211
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 236,
-  "Name": "Quitzon LLC",
-  "Tooltip": "velit",
+  "HeadingId": 650,
+  "Name": "Upton, Wunsch and Monahan",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 252,
-  "UdListDefinitionId": 718,
+  "Rank": 500,
+  "UdListDefinitionId": 937,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 625
     }
   }
 }

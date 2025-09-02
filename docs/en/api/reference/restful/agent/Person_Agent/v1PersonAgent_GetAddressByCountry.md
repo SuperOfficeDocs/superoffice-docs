@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetAddressByCountry
 uid: v1PersonAgent_GetAddressByCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetAddressByCountry
@@ -83,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 346,
-  "CountryId": 529
+  "PersonId": 548,
+  "CountryId": 150
 }
 ```
 
@@ -95,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 28914.284,
-  "Wgs84Longitude": 1454.176,
+  "Wgs84Latitude": 28597.75,
+  "Wgs84Longitude": 3209.216,
   "LocalizedAddress": [
     [
       {
-        "Name": "Rath-Cole",
-        "Value": "ea",
-        "Tooltip": "vitae",
-        "Label": "voluptatibus",
-        "ValueLength": 804,
-        "AddressType": "quia",
+        "Name": "Kutch Inc and Sons",
+        "Value": "reiciendis",
+        "Tooltip": "et",
+        "Label": "delectus",
+        "ValueLength": 175,
+        "AddressType": "nihil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldLength": 796
           }
         }
       }
     ],
     [
       {
-        "Name": "Carroll, Mante and Pfannerstill",
-        "Value": "facilis",
-        "Tooltip": "molestiae",
-        "Label": "dolores",
-        "ValueLength": 423,
-        "AddressType": "et",
+        "Name": "Runolfsdottir Group",
+        "Value": "eos",
+        "Tooltip": "ex",
+        "Label": "molestiae",
+        "ValueLength": 12,
+        "AddressType": "iure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 861
           }
         }
       }
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "et",
+  "Formatted": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

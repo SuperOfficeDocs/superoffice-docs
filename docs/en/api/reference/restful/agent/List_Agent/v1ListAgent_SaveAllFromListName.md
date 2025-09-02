@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveAllFromListName
 uid: v1ListAgent_SaveAllFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveAllFromListName
@@ -79,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hudson, Breitenberg and Swaniawski",
+  "UdListDefinitionName": "Flatley-Nicolas",
   "Items": [
     {
-      "Id": 689,
-      "Name": "Konopelski Group",
-      "Tooltip": "qui",
+      "Id": 139,
+      "Name": "Pollich, Emard and Franecki",
+      "Tooltip": "deserunt",
       "Deleted": false,
-      "UdListDefinitionId": 664,
-      "Rank": 167
+      "UdListDefinitionId": 632,
+      "Rank": 600
     },
     {
-      "Id": 689,
-      "Name": "Konopelski Group",
-      "Tooltip": "qui",
+      "Id": 139,
+      "Name": "Pollich, Emard and Franecki",
+      "Tooltip": "deserunt",
       "Deleted": false,
-      "UdListDefinitionId": 664,
-      "Rank": 167
+      "UdListDefinitionId": 632,
+      "Rank": 600
     }
   ]
 }
@@ -113,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Kulas Group",
-    "Tooltip": "cumque",
+    "Id": 328,
+    "Name": "Kovacek-Corkery",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "UdListDefinitionId": 806,
-    "Rank": 425,
+    "UdListDefinitionId": 84,
+    "Rank": 768,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 854
       }
     }
   }

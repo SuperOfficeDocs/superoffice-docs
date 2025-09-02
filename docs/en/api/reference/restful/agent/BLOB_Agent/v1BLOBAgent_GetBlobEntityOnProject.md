@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetBlobEntityOnProject
 uid: v1BLOBAgent_GetBlobEntityOnProject
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnProject
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 557
+  "ProjectId": 752
 }
 ```
 
@@ -100,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 296,
-  "BlobSize": 536,
-  "Description": "Compatible client-server time-frame",
-  "ExtraInfo": "cupiditate",
-  "IsEncrypted": false,
+  "BlobId": 205,
+  "BlobSize": 959,
+  "Description": "Fundamental 4th generation data-warehouse",
+  "ExtraInfo": "sed",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "modi",
-  "OriginalSize": 174,
-  "CreatedDate": "2022-04-29T03:45:22.9829669+02:00",
-  "UpdatedDate": "2013-08-17T03:45:22.9829669+02:00",
+  "MimeType": "aut",
+  "OriginalSize": 783,
+  "CreatedDate": "2006-08-15T03:46:54.3163903+02:00",
+  "UpdatedDate": "2002-05-05T03:46:54.3163903+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

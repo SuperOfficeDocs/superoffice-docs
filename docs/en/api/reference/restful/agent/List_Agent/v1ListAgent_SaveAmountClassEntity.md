@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveAmountClassEntity
 uid: v1ListAgent_SaveAmountClassEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveAmountClassEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveAmountClassEntity
 ```
 
-Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty
+Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing AmountClassEntity or creates a new AmountClassEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: amountClassEntity 
 
-The AmountClassEntity to be saved. 
+The AmountClassEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,18 +78,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 667,
-  "Name": "Koch, Hilpert and Huel",
-  "Tooltip": "non",
-  "Rank": 481,
-  "AmountFrom": 2996.104,
-  "AmountTo": 119.092,
+  "AmountClassId": 464,
+  "Name": "Corwin Inc and Sons",
+  "Tooltip": "laudantium",
+  "Rank": 55,
+  "AmountFrom": 7311.6219999999994,
+  "AmountTo": 16716.756,
   "Deleted": false,
-  "CurrencyId": 67
+  "CurrencyId": 807
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 535,
-  "Name": "Kessler, Mills and Abshire",
-  "Tooltip": "et",
-  "Rank": 756,
-  "AmountFrom": 13639.168,
-  "AmountTo": 9348.722,
+  "AmountClassId": 33,
+  "Name": "Hahn-Sipes",
+  "Tooltip": "repellat",
+  "Rank": 2,
+  "AmountFrom": 26535.577999999998,
+  "AmountTo": 2018.2959999999998,
   "Deleted": false,
-  "CurrencyId": 402,
+  "CurrencyId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 2
     }
   }
 }

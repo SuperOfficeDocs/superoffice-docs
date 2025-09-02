@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.GetAllFromSection SOAP
 generated: true
 uid: Services88-Preference-GetAllFromSection
+content_type: reference
 ---
 
 # Services88 Preference GetAllFromSection

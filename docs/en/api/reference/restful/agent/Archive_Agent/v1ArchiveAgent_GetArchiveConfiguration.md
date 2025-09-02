@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveConfiguration
 uid: v1ArchiveAgent_GetArchiveConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveConfiguration
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kessler Group",
-  "ProviderName": "Lemke, Leannon and Sipes"
+  "GuiName": "Cartwright, Hessel and Dooley",
+  "ProviderName": "Barrows LLC"
 }
 ```
 
@@ -97,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Shields, Stamm and Roberts",
-      "DisplayTooltip": "vel",
-      "DisplayType": "autem",
-      "CanOrderBy": true,
-      "Name": "Macejkovic-Feeney",
+      "DisplayName": "Hodkiewicz, Erdman and Hodkiewicz",
+      "DisplayTooltip": "est",
+      "DisplayType": "illum",
+      "CanOrderBy": false,
+      "Name": "Howe Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "distinctio",
-      "RestrictionListName": "Stroman-Hirthe",
+      "RestrictionType": "facere",
+      "RestrictionListName": "Price, Rutherford and Crona",
       "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "quae",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "accusantium"
+      "ExtraInfo": "dolorem",
+      "Width": "iure",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "enim"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 793,
-      "Name": "Stamm-Lind",
-      "ToolTip": "Dignissimos eaque possimus.",
-      "Deleted": true,
-      "Rank": 860,
-      "Type": "deleniti",
-      "ColorBlock": 851,
-      "IconHint": "illum",
+      "Id": 995,
+      "Name": "Purdy LLC",
+      "ToolTip": "Minus officiis dolores.",
+      "Deleted": false,
+      "Rank": 370,
+      "Type": "et",
+      "ColorBlock": 504,
+      "IconHint": "fugiat",
       "Selected": true,
-      "LastChanged": "2006-03-30T03:45:22.967341+02:00",
+      "LastChanged": "2000-05-23T03:46:54.2851489+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "facilis",
+      "ExtraInfo": "non",
+      "StyleHint": "quos",
       "Hidden": false,
-      "FullName": "Tillman Waelchi",
+      "FullName": "Ms. Callie Dovie Nitzsche II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 137
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Dooley, Emard and Hoppe",
+      "Name": "Green Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Dooley, Emard and Hoppe",
+      "Name": "Green Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "iusto",
+  "OwnerKeys": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

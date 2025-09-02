@@ -2,6 +2,7 @@
 title: PATCH Webhook/{id}
 uid: v1Webhook_PatchWebhook
 generated: true
+content_type: reference
 ---
 
 # PATCH Webhook/{id}
@@ -122,18 +123,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "itaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "itaque",
     "value": {}
   }
 ]
@@ -146,31 +147,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 967,
-  "Name": "Hermiston Group",
+  "WebhookId": 710,
+  "Name": "Kilback-Rolfson",
   "Events": [
-    "iusto",
-    "est"
+    "eum",
+    "architecto"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quisquam",
+  "Secret": "animi",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "eaque",
   "Headers": {
-    "Headers1": "impedit",
-    "Headers2": "quo"
+    "Headers1": "et",
+    "Headers2": "debitis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-03-14T03:45:28.8890492+01:00",
+  "Registered": "2004-11-14T03:47:00.5505518+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-10-18T03:45:28.8890492+02:00",
+  "Updated": "2006-05-06T03:47:00.5505518+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jacynthe_borer@hessel.biz",
+  "ErrorsEmail": "micah@satterfield.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

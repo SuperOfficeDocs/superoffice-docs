@@ -2,10 +2,10 @@
 uid: enum-travelencryptionchild
 title: Enum values for TravelEncryptionChild
 description: Lists the enum values for TravelEncryptionChild.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TravelEncryptionChild Enum

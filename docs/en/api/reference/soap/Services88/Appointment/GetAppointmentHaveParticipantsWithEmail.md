@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetAppointmentHaveParticipantsWithEmail SOAP
 generated: true
 uid: Services88-Appointment-GetAppointmentHaveParticipantsWithEmail
+content_type: reference
 ---
 
 # Services88 Appointment GetAppointmentHaveParticipantsWithEmail

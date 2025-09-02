@@ -2,6 +2,7 @@
 title: DEL Appointment/UdefLayout/{progidOrLabel}
 uid: v1AppointmentEntity_DeleteUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # DEL Appointment/UdefLayout/{progidOrLabel}

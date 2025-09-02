@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetAvailableRestrictionColumns SOAP
 generated: true
 uid: Services88-Find-GetAvailableRestrictionColumns
+content_type: reference
 ---
 
 # Services88 Find GetAvailableRestrictionColumns

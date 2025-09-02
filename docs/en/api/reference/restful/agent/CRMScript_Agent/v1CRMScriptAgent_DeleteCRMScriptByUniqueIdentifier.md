@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
 uid: v1CRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quidem"
+  "UniqueIdentifier": "unde"
 }
 ```
 

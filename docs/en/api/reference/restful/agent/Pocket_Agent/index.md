@@ -1,6 +1,8 @@
 ---
+uid: tag-Pocket_Agent
 title: Pocket_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Items/{id}/UserGroups
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Casper-Hermann",
-    "ToolTip": "Nam est delectus debitis qui rerum enim.",
+    "Id": 745,
+    "Name": "Kub-Sipes",
+    "ToolTip": "Expedita repellendus neque.",
     "Deleted": false,
-    "Rank": 564,
-    "Type": "et",
-    "ColorBlock": 893,
-    "IconHint": "qui",
+    "Rank": 763,
+    "Type": "delectus",
+    "ColorBlock": 626,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2025-01-26T03:45:29.1859346+01:00",
+    "LastChanged": "2003-05-13T03:47:00.7536695+02:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Gleichner-Emard",
-        "ToolTip": "Veritatis ipsum.",
-        "Deleted": false,
-        "Rank": 128,
-        "Type": "rerum",
-        "ColorBlock": 300,
-        "IconHint": "culpa",
+        "Id": 524,
+        "Name": "Kiehn-Shields",
+        "ToolTip": "Consequuntur quia voluptas.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "temporibus",
+        "ColorBlock": 57,
+        "IconHint": "animi",
         "Selected": true,
-        "LastChanged": "1998-11-18T03:45:29.1859346+01:00",
+        "LastChanged": "2022-12-26T03:47:00.7536695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
+        "ExtraInfo": "fugit",
         "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Luisa Nikolaus",
+        "FullName": "Tyrell Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quidem",
+    "ExtraInfo": "est",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Miss Dillon Friesen DDS",
+    "FullName": "Miguel O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 318
       }
     }
   }

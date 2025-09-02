@@ -2,14 +2,10 @@
 uid: selectionagent-script-events
 title: SelectionAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # SelectionAgent method listing
@@ -25,6 +21,7 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [CopySelectionMembersAsync](copyselectionmembersasync.md)
 * [CreateContactSelectionFromSelectionAsync](createcontactselectionfromselectionasync.md)
 * [CreateContactSelectionFromShadowSelectionAsync](createcontactselectionfromshadowselectionasync.md)
+* [CreateDefaultBoardViewSettingsFromEntityTypeAsync](createdefaultboardviewsettingsfromentitytypeasync.md)
 * [CreateDefaultSelectionEntityAsync](createdefaultselectionentityasync.md)
 * [CreateNewEntryAsync](createnewentryasync.md)
 * [CreateSelectionEntityAsync](createselectionentityasync.md)
@@ -33,6 +30,7 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [CreateTemporaryContactSelectionFromContactPersonIdsAsync](createtemporarycontactselectionfromcontactpersonidsasync.md)
 * [CreateTemporaryContactSelectionFromSelectionMemberIdsAsync](createtemporarycontactselectionfromselectionmemberidsasync.md)
 * [CreateTemporarySelectionFromIdsAsync](createtemporaryselectionfromidsasync.md)
+* [DeleteBoardViewSettingsAsync](deleteboardviewsettingsasync.md)
 * [DeleteContactsAsync](deletecontactsasync.md)
 * [DeleteEntitiesAsync](deleteentitiesasync.md)
 * [DeletePersonsAsync](deletepersonsasync.md)
@@ -41,6 +39,8 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [ExportSelectionMembersAsync](exportselectionmembersasync.md)
 * [ExportSelectionMembersWithOrderByAsync](exportselectionmemberswithorderbyasync.md)
 * [GenerateFollowUpsAsync](generatefollowupsasync.md)
+* [GetBoardViewSettingsAsync](getboardviewsettingsasync.md)
+* [GetBoardViewSettingsForSelectionAsync](getboardviewsettingsforselectionasync.md)
 * [GetDuplicateRulesAsync](getduplicaterulesasync.md)
 * [GetDuplicatesAsync](getduplicatesasync.md)
 * [GetDynamicSelectionCriteriaAsync](getdynamicselectioncriteriaasync.md)
@@ -60,6 +60,7 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [RemoveSelectionMembersAsync](removeselectionmembersasync.md)
 * [RemoveSelectionMembersByIdAsync](removeselectionmembersbyidasync.md)
 * [RemoveSelectionMembersFromSearchAsync](removeselectionmembersfromsearchasync.md)
+* [SaveBoardViewSettingsAsync](saveboardviewsettingsasync.md)
 * [SaveSelectionEntityAsync](saveselectionentityasync.md)
 * [SetDuplicateRulesStatusAsync](setduplicaterulesstatusasync.md)
 * [SetDynamicSelectionCriteria2Async](setdynamicselectioncriteria2async.md)
@@ -67,3 +68,4 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [SetDynamicSelectionCriteriaAsync](setdynamicselectioncriteriaasync.md)
 * [SetDynamicSelectionCriteriaGroupsAsync](setdynamicselectioncriteriagroupsasync.md)
 * [UpdateTypicalSearchAsync](updatetypicalsearchasync.md)
+

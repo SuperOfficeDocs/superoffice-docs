@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetVersionList
 uid: v1DocumentAgent_GetVersionList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetVersionList
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 729
+  "DocumentId": 294
 }
 ```
 
@@ -95,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "autem",
-    "DocumentId": 156,
-    "VersionId": "ab",
-    "CheckedInDate": "2001-05-11T03:45:23.3423327+02:00",
-    "CheckedInByName": "Gleichner, Weber and Halvorson",
-    "CheckedInByAssociateId": 213,
-    "Description": "Focused regional success",
-    "DisplayText": "voluptates",
+    "ExternalReference": "aut",
+    "DocumentId": 964,
+    "VersionId": "laborum",
+    "CheckedInDate": "2014-10-10T03:46:54.6913844+02:00",
+    "CheckedInByName": "Mills-Wiegand",
+    "CheckedInByAssociateId": 936,
+    "Description": "Reactive client-driven database",
+    "DisplayText": "et",
     "ExtraFields": [
-      "enim",
-      "qui"
+      "et",
+      "laborum"
     ]
   }
 ]

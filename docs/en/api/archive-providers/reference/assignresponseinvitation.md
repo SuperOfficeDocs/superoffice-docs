@@ -3,9 +3,9 @@ uid: AssignResponseInvitation
 title: AssignResponseInvitation
 description: This is the query provider for invitations, of subtype 'Response'
 keywords: AssignResponseInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AssignResponseInvitation"
@@ -744,7 +744,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssignResponseInvitation?$select=contact/registeredDate,contact/contactUdef/SuperOffice:8,contact/contactExtra/x_contact_boolean,person/personRegisteredDate,person/personPager/description
+GET /api/v1/archive/AssignResponseInvitation?$select=contact/contactPhone/description,contact/email/emailAddress,person/personId,person/email/emailAddress,person/personExtra/x_person_category_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

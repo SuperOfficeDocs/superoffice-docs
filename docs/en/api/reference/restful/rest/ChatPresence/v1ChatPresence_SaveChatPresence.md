@@ -2,6 +2,7 @@
 title: POST Presence/SaveAll
 uid: v1ChatPresence_SaveChatPresence
 generated: true
+content_type: reference
 ---
 
 # POST Presence/SaveAll
@@ -58,28 +59,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 542,
-    "DisplayName": "Bauch LLC",
-    "OngoingChats": 506,
-    "Present": false,
+    "UserId": 762,
+    "DisplayName": "Heller-Herzog",
+    "OngoingChats": 240,
+    "Present": true,
     "ChatTopics": [
-      197,
-      57
+      467,
+      848
     ]
   },
   {
-    "UserId": 542,
-    "DisplayName": "Bauch LLC",
-    "OngoingChats": 506,
-    "Present": false,
+    "UserId": 762,
+    "DisplayName": "Heller-Herzog",
+    "OngoingChats": 240,
+    "Present": true,
     "ChatTopics": [
-      197,
-      57
+      467,
+      848
     ]
   }
 ]

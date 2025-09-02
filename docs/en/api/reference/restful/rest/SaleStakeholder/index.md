@@ -1,6 +1,8 @@
 ---
+uid: tag-SaleStakeholder
 title: SaleStakeholder
 generated: true
+content_type: reference
 ---
 
 ```http

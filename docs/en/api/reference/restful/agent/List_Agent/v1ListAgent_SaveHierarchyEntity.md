@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHierarchyEntity
 uid: v1ListAgent_SaveHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHierarchyEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveHierarchyEntity
 ```
 
-Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id parameter is empty
+Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: hierarchyEntity 
 
-The HierarchyEntity to be saved. 
+The HierarchyEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,32 +86,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 639,
+  "HierarchyId": 268,
   "Domain": "Dashboards",
-  "Name": "Heidenreich-Klein",
-  "Fullname": "omnis",
-  "ParentId": 394,
+  "Name": "Moore Inc and Sons",
+  "Fullname": "et",
+  "ParentId": 4,
   "Children": [
     {
-      "HierarchyId": 647,
+      "HierarchyId": 486,
       "Domain": "Dashboards",
-      "Name": "Carter, Skiles and Lynch",
-      "Fullname": "omnis",
-      "ParentId": 578,
+      "Name": "Lubowitz-Jast",
+      "Fullname": "vel",
+      "ParentId": 378,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2025-06-13T03:45:23.6079553+02:00",
-      "RegisteredAssociateId": 919,
-      "Updated": "2017-07-16T03:45:23.6079553+02:00",
-      "UpdatedAssociateId": 190
+      "Registered": "2008-02-04T03:46:54.9726245+01:00",
+      "RegisteredAssociateId": 237,
+      "Updated": "2020-01-16T03:46:54.9726245+01:00",
+      "UpdatedAssociateId": 361
     }
   ],
-  "Registered": "2009-02-26T03:45:23.6079553+01:00",
-  "RegisteredAssociateId": 234,
-  "Updated": "2010-11-01T03:45:23.6079553+01:00",
-  "UpdatedAssociateId": 562
+  "Registered": "2001-01-17T03:46:54.9726245+01:00",
+  "RegisteredAssociateId": 847,
+  "Updated": "2011-09-06T03:46:54.9726245+02:00",
+  "UpdatedAssociateId": 894
 }
 ```
 
@@ -121,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 187,
+  "HierarchyId": 162,
   "Domain": "Dashboards",
-  "Name": "Prohaska-Bins",
-  "Fullname": "id",
-  "ParentId": 633,
+  "Name": "Hodkiewicz, Johnson and Kerluke",
+  "Fullname": "ducimus",
+  "ParentId": 713,
   "Children": [
     {
-      "HierarchyId": 737,
+      "HierarchyId": 311,
       "Domain": "Dashboards",
-      "Name": "Herman Group",
-      "Fullname": "asperiores",
-      "ParentId": 50,
+      "Name": "Collins, Mayer and Feeney",
+      "Fullname": "necessitatibus",
+      "ParentId": 386,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-09-16T03:45:23.6079553+02:00",
-      "RegisteredAssociateId": 980,
-      "Updated": "2020-01-29T03:45:23.6079553+01:00",
-      "UpdatedAssociateId": 532,
+      "Registered": "2003-02-06T03:46:54.9726245+01:00",
+      "RegisteredAssociateId": 357,
+      "Updated": "2024-07-30T03:46:54.9726245+02:00",
+      "UpdatedAssociateId": 734,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldType": "System.String",
+          "FieldLength": 100
         }
       }
     }
   ],
-  "Registered": "2010-09-03T03:45:23.6079553+02:00",
-  "RegisteredAssociateId": 869,
-  "Updated": "2004-11-09T03:45:23.6079553+01:00",
-  "UpdatedAssociateId": 920,
+  "Registered": "2008-11-23T03:46:54.9726245+01:00",
+  "RegisteredAssociateId": 480,
+  "Updated": "2007-04-12T03:46:54.9726245+02:00",
+  "UpdatedAssociateId": 439,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 292
     }
   }
 }

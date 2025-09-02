@@ -2,6 +2,7 @@
 title: DEL List/Business/Items
 uid: v1BusinessList_DeleteAllBusiness
 generated: true
+content_type: reference
 ---
 
 # DEL List/Business/Items

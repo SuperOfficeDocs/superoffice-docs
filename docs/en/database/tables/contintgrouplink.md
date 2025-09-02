@@ -2,10 +2,10 @@
 uid: table-ContIntGroupLink
 title: ContIntGroupLink table
 description: User group link table for ContInt, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table ContIntGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ContIntGroupLink Table (71)

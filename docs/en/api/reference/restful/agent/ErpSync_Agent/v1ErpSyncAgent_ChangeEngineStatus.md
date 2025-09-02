@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ChangeEngineStatus
 uid: v1ErpSyncAgent_ChangeEngineStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ChangeEngineStatus
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": false
+  "Run": true
 }
 ```
 
@@ -92,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": false,
-  "StatusMessage": "tempora",
-  "Interval": "tempore",
+  "IsRunning": true,
+  "StatusMessage": "voluptatibus",
+  "Interval": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Sale/{id}/ForeignKey
 uid: v1SaleEntity_GetAllForeignKeysOnEntity
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/ForeignKey
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "unde",
-  "2": "odio"
+  "1": "vel",
+  "2": "qui"
 }
 ```

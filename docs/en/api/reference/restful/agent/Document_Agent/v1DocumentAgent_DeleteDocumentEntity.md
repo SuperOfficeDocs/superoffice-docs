@@ -2,6 +2,7 @@
 title: POST Agents/Document/DeleteDocumentEntity
 uid: v1DocumentAgent_DeleteDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/DeleteDocumentEntity
@@ -22,10 +23,10 @@ Deletes the DocumentEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentEntityId | int32 | **Required** The id of the DocumentEntity to be deleted. |
+| documentEntityId | int32 | **Required** The identity of the DocumentEntity |
 
 ```http
-POST /api/v1/Agents/Document/DeleteDocumentEntity?DocumentEntityId=304
+POST /api/v1/Agents/Document/DeleteDocumentEntity?documentEntityId=315
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Document/DeleteDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

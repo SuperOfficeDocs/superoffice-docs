@@ -2,6 +2,7 @@
 title: DEL Product/{id}/Image
 uid: v1Product_DeleteImageContent
 generated: true
+content_type: reference
 ---
 
 # DEL Product/{id}/Image

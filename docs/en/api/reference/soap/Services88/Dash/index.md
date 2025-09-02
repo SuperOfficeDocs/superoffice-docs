@@ -2,6 +2,7 @@
 title: Services88.DashAgent SOAP
 uid: Services88-Dash-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Dash SOAP

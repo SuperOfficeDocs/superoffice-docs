@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByType
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByType
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,10 +138,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 197,
-  "StartTime": "2018-02-14T03:45:22.6861022+01:00",
-  "EndTime": "2011-08-12T03:45:22.6861022+02:00",
-  "Count": 541,
+  "PersonId": 588,
+  "StartTime": "2000-04-06T03:46:53.9726601+02:00",
+  "EndTime": "1998-07-14T03:46:53.9726601+02:00",
+  "Count": 173,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 802,
-    "StartDate": "2020-10-17T03:45:22.6861022+02:00",
-    "EndDate": "2001-09-12T03:45:22.6861022+02:00",
+    "AppointmentId": 778,
+    "StartDate": "2023-04-15T03:46:53.9726601+02:00",
+    "EndDate": "1999-03-05T03:46:53.9726601+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Adrian Reilly",
-    "ContactName": "Stracke Inc and Sons",
-    "Description": "Team-oriented bottom-line solution",
-    "PersonFullName": "Khalil Franecki",
-    "PersonId": 889,
-    "ContactId": 850,
-    "ProjectId": 474,
-    "ProjectName": "Deckow LLC",
+    "Task": "laudantium",
+    "AssociateFullName": "Marietta Beier",
+    "ContactName": "Treutel-Gislason",
+    "Description": "Universal scalable help-desk",
+    "PersonFullName": "Ford Schmidt",
+    "PersonId": 912,
+    "ContactId": 229,
+    "ProjectId": 308,
+    "ProjectName": "Beahan LLC",
     "IsPublished": false,
-    "AssociateId": 608,
-    "ColorIndex": 988,
+    "AssociateId": 979,
+    "ColorIndex": 821,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 469,
-    "PriorityName": "Kovacek Inc and Sons",
+    "PriorityId": 15,
+    "PriorityName": "Macejkovic LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2006-02-07T03:45:22.6861022+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2019-09-02T03:46:53.9726601+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-09-18T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2012-01-17T03:45:22.6861022+01:00",
-    "MotherId": 446,
-    "AssignedBy": 919,
-    "AssignedByFullName": "Fred D'Amore",
+    "RecurringStartDate": "2005-12-24T03:46:53.9726601+01:00",
+    "RecurringEndDate": "2010-06-28T03:46:53.9726601+02:00",
+    "MotherId": 677,
+    "AssignedBy": 807,
+    "AssignedByFullName": "Aric Murazik",
     "RejectReason": "",
-    "Location": "vero",
-    "AlarmLeadTime": "ut",
-    "SaleId": 823,
-    "SaleName": "Emmerich Group",
-    "AssociateName": "Hirthe-Marquardt",
-    "CreatedDate": "2004-02-09T03:45:22.6861022+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Rosalee Nitzsche II",
-    "CreatedByAssociateId": 328,
+    "Location": "quia",
+    "AlarmLeadTime": "voluptatibus",
+    "SaleId": 469,
+    "SaleName": "Champlin, Lebsack and Mills",
+    "AssociateName": "VonRueden Inc and Sons",
+    "CreatedDate": "2003-05-06T03:46:53.9726601+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Prof. Earlene Bayer Sr.",
+    "CreatedByAssociateId": 43,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 418,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 528,
-    "Title": "fuga",
-    "Agenda": "blanditiis",
-    "InternalNotes": "facere",
+    "PreferredTZLocation": 348,
+    "Title": "temporibus",
+    "Agenda": "consequuntur",
+    "InternalNotes": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 150
       }
     }
   }

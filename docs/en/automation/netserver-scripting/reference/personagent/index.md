@@ -2,14 +2,10 @@
 uid: personagent-script-events
 title: PersonAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # PersonAgent method listing
@@ -58,6 +54,7 @@ Service methods defined on <see cref='T:IPersonAgent'>PersonAgent</see> that can
 * [GetPhonesAsync](getphonesasync.md)
 * [GetSalesRepAsync](getsalesrepasync.md)
 * [GetUserCandidateByPersonAsync](getusercandidatebypersonasync.md)
+* [GetUtmParametersAsync](getutmparametersasync.md)
 * [HasConsentAsync](hasconsentasync.md)
 * [IsNumberValidAsync](isnumbervalidasync.md)
 * [MergeAsync](mergeasync.md)
@@ -77,3 +74,4 @@ Service methods defined on <see cref='T:IPersonAgent'>PersonAgent</see> that can
 * [TryAddPersonsToEmailFlowAsync](tryaddpersonstoemailflowasync.md)
 * [UndeleteAsync](undeleteasync.md)
 * [ValidatePersonEntityAsync](validatepersonentityasync.md)
+

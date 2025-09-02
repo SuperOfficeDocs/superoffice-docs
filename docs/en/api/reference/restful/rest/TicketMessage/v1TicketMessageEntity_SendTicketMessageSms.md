@@ -2,6 +2,7 @@
 title: POST TicketMessage/{id}/SendSms
 uid: v1TicketMessageEntity_SendTicketMessageSms
 generated: true
+content_type: reference
 ---
 
 # POST TicketMessage/{id}/SendSms
@@ -30,8 +31,8 @@ Send a message to recipients by sms
 | replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=molestiae,mollitia
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=924
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=consequatur,voluptatem
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=507
 ```
 
 
@@ -62,7 +63,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

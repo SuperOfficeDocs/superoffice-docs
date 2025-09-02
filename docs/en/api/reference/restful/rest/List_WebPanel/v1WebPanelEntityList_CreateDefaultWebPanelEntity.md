@@ -2,6 +2,7 @@
 title: GET List/WebPanel/Items/Default
 uid: v1WebPanelEntityList_CreateDefaultWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/WebPanel/Items/Default
@@ -76,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,26 +87,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 770,
-  "Name": "Doyle-Hills",
-  "Tooltip": "veritatis",
+  "WebPanelId": 808,
+  "Name": "Cruickshank, Kuvalis and Rogahn",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 889,
+  "Rank": 351,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hyatt-Murazik",
+  "WindowName": "Bergstrom Group",
   "Url": "http://www.example.com/",
-  "ProgId": "sit",
-  "Icon": 179,
+  "ProgId": "rerum",
+  "Icon": 185,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -113,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 163
     }
   }
 }

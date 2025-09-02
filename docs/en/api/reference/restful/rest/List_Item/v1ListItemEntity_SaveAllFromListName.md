@@ -2,6 +2,7 @@
 title: PUT List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_SaveAllFromListName
 generated: true
+content_type: reference
 ---
 
 # PUT List/{udListDefinitionName}/Items
@@ -77,25 +78,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Lemke, Davis and Torp",
-    "Tooltip": "id",
+    "Id": 287,
+    "Name": "Sanford LLC",
+    "Tooltip": "temporibus",
     "Deleted": true,
-    "UdListDefinitionId": 855,
-    "Rank": 261
+    "UdListDefinitionId": 594,
+    "Rank": 756
   },
   {
-    "Id": 47,
-    "Name": "Lemke, Davis and Torp",
-    "Tooltip": "id",
+    "Id": 287,
+    "Name": "Sanford LLC",
+    "Tooltip": "temporibus",
     "Deleted": true,
-    "UdListDefinitionId": 855,
-    "Rank": 261
+    "UdListDefinitionId": 594,
+    "Rank": 756
   }
 ]
 ```
@@ -108,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Bins-Harris",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 605,
-    "Rank": 365,
+    "Id": 409,
+    "Name": "Schowalter-Zulauf",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 987,
+    "Rank": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldType": "System.String",
+        "FieldLength": 886
       }
     }
   }

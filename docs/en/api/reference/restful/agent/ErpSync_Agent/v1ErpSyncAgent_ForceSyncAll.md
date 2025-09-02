@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ForceSyncAll
 uid: v1ErpSyncAgent_ForceSyncAll
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ForceSyncAll
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/ErpSync/ForceSyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "quis",
-  "TechExplanation": "eum",
-  "ErrorCode": "facere",
+  "IsOk": false,
+  "UserExplanation": "beatae",
+  "TechExplanation": "distinctio",
+  "ErrorCode": "consequatur",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

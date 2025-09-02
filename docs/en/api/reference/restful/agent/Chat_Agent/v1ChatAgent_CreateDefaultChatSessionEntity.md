@@ -2,6 +2,7 @@
 title: POST Agents/Chat/CreateDefaultChatSessionEntity
 uid: v1ChatAgent_CreateDefaultChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/CreateDefaultChatSessionEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 ```
 
-Set default values into a new ChatSessionEntity.
+Loading default values into a new ChatSessionEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -87,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 875,
-  "TopicId": 395,
+  "ChatSessionId": 701,
+  "TopicId": 473,
   "User": null,
   "Person": null,
   "CustomerAlias": "molestiae",
-  "CustomerHost": "suscipit",
-  "CustomerName": "Durgan-Morissette",
-  "CustomerEmail": "boris_cummerata@ondrickareilly.biz",
-  "CustomerPhone": "(985)242-1980 x71621",
+  "CustomerHost": "et",
+  "CustomerName": "Buckridge, Bernhard and Murazik",
+  "CustomerEmail": "yoshiko@ernsercorkery.info",
+  "CustomerPhone": "(827)587-8793",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Haag LLC",
+  "CustomerCompanyName": "Leffler-Cummings",
   "Status": "Closed",
-  "FirstMessage": "nam",
-  "LastMessage": "beatae",
-  "WhenRequested": "2011-01-31T03:45:22.9985914+01:00",
-  "WhenStarted": "2008-01-24T03:45:22.9985914+01:00",
-  "WhenEnded": "2017-01-29T03:45:22.9985914+01:00",
-  "WhenIdle": "1998-04-09T03:45:22.9985914+02:00",
-  "WhenFetched": "2013-06-04T03:45:22.9985914+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 723,
-  "AlertLevel": 384,
-  "Rank": 578,
+  "FirstMessage": "magnam",
+  "LastMessage": "sed",
+  "WhenRequested": "2004-09-11T03:46:54.3163903+02:00",
+  "WhenStarted": "2021-11-25T03:46:54.3163903+01:00",
+  "WhenEnded": "1998-09-22T03:46:54.3163903+02:00",
+  "WhenIdle": "2024-08-10T03:46:54.3163903+02:00",
+  "WhenFetched": "1998-08-03T03:46:54.3163903+02:00",
+  "SessionKey": "corrupti",
+  "InitialQueuePos": 221,
+  "AlertLevel": 590,
+  "Rank": 583,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 850,
+  "ChatbotIsActive": true,
+  "Rating": 721,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldLength": 747
     }
   }
 }

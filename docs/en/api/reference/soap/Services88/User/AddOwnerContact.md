@@ -2,6 +2,7 @@
 title: Services88.UserAgent.AddOwnerContact SOAP
 generated: true
 uid: Services88-User-AddOwnerContact
+content_type: reference
 ---
 
 # Services88 User AddOwnerContact

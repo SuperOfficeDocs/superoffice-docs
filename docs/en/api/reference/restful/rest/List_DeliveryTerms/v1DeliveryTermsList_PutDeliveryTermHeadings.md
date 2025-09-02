@@ -2,6 +2,7 @@
 title: PUT List/DeliveryTerm/Headings
 uid: v1DeliveryTermsList_PutDeliveryTermHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryTerm/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 160,
-    "Name": "Fadel, Prohaska and Stamm",
-    "Tooltip": "exercitationem",
+    "HeadingId": 124,
+    "Name": "Corkery, Hoppe and Walker",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 631,
-    "UdListDefinitionId": 515
+    "Rank": 633,
+    "UdListDefinitionId": 385
   },
   {
-    "HeadingId": 160,
-    "Name": "Fadel, Prohaska and Stamm",
-    "Tooltip": "exercitationem",
+    "HeadingId": 124,
+    "Name": "Corkery, Hoppe and Walker",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 631,
-    "UdListDefinitionId": 515
+    "Rank": 633,
+    "UdListDefinitionId": 385
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 588,
-    "Name": "Metz, Grady and McLaughlin",
-    "Tooltip": "porro",
+    "HeadingId": 763,
+    "Name": "Stamm-Moen",
+    "Tooltip": "architecto",
     "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 884,
+    "Rank": 821,
+    "UdListDefinitionId": 918,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 52
       }
     }
   }

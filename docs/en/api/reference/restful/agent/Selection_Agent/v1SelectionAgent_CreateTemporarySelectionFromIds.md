@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateTemporarySelectionFromIds
 uid: v1SelectionAgent_CreateTemporarySelectionFromIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateTemporarySelectionFromIds
@@ -114,15 +115,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    191,
-    432
+    354,
+    147
   ],
-  "TargetTableNumber": 476
+  "TargetTableNumber": 1000
 }
 ```
 
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-engineered zero administration software",
-  "Postit": "voluptates",
+  "Description": "De-engineered executive encoding",
+  "Postit": "quam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 60,
-  "IncludePerson": 858,
+  "GroupIdx": 176,
+  "IncludePerson": 686,
   "MemberCount": 99.99,
-  "Name": "Legros-Quigley",
-  "PostitTextId": 994,
-  "CreatedDate": "2001-08-14T03:45:23.9048172+02:00",
-  "SelectionId": 258,
-  "SoundEx": "quis",
-  "Source": 993,
-  "TextId": 148,
-  "UpdatedDate": "2013-12-23T03:45:23.9048172+01:00",
-  "UpdatedCount": 797,
-  "Visibility": 870,
+  "Name": "Stiedemann-Hilpert",
+  "PostitTextId": 693,
+  "CreatedDate": "2009-03-17T03:46:55.3788724+01:00",
+  "SelectionId": 699,
+  "SoundEx": "temporibus",
+  "Source": 267,
+  "TextId": 848,
+  "UpdatedDate": "2021-12-06T03:46:55.3788724+01:00",
+  "UpdatedCount": 743,
+  "Visibility": 378,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 264,
-  "TargetTableName": "Jones LLC",
+  "TargetTableNumber": 183,
+  "TargetTableName": "Conn-Ratke",
   "Completed": false,
-  "LeftSelectionId": 291,
-  "RightSelectionId": 705,
+  "LeftSelectionId": 779,
+  "RightSelectionId": 105,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kertzmann-Langosh",
-  "ShadowProviderName": "Greenfelder, Steuber and Batz",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2009-06-14T03:45:23.9048172+02:00",
-  "LastLoadedBy": 946,
+  "MainProviderName": "Cremin-Metz",
+  "ShadowProviderName": "Hoppe, Klein and Fadel",
+  "ChartKey": "natus",
+  "LastLoaded": "2005-09-04T03:46:55.3788724+02:00",
+  "LastLoadedBy": 53,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-12-18T03:45:23.9048172+01:00",
-  "LastMembershipChangeBy": 288,
+  "LastMembershipChange": "2010-12-06T03:46:55.3788724+01:00",
+  "LastMembershipChangeBy": 998,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Crist Group",
-  "DashboardTileDefinitionId": 387,
+  "MainHeading": "modi",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Kautzer, Langosh and Maggio",
+  "DashboardTileDefinitionId": 177,
   "VisibleFor": [
     {
-      "VisibleId": 843,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 61
         }
       }
     },
     {
-      "VisibleId": 843,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 61
         }
       }
     }
@@ -206,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 40
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceByNameAndId
 uid: v1PreferenceAgent_GetPreferenceByNameAndId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceByNameAndId
@@ -86,14 +87,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "non",
-  "PrefKey": "molestiae",
+  "PrefSection": "consequatur",
+  "PrefKey": "laborum",
   "PrefLevel": "Database",
-  "OwnerId": 596
+  "OwnerId": 643
 }
 ```
 
@@ -105,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "autem",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "dolorem",
-  "DisplayTooltip": "voluptates",
+  "DisplayValue": "error",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 454,
-  "PrefDescId": 821,
-  "TableName": "Runte-Dicki",
-  "UserPreferenceId": 181,
+  "TargetId": 630,
+  "PrefDescId": 508,
+  "TableName": "Hudson, Jenkins and Buckridge",
+  "UserPreferenceId": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

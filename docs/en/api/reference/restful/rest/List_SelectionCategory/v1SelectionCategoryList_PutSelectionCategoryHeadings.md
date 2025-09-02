@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_PutSelectionCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 717,
-    "Name": "Turner-Bashirian",
-    "Tooltip": "omnis",
+    "HeadingId": 114,
+    "Name": "Yundt-Walker",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 788,
-    "UdListDefinitionId": 832
+    "Rank": 217,
+    "UdListDefinitionId": 576
   },
   {
-    "HeadingId": 717,
-    "Name": "Turner-Bashirian",
-    "Tooltip": "omnis",
+    "HeadingId": 114,
+    "Name": "Yundt-Walker",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 788,
-    "UdListDefinitionId": 832
+    "Rank": 217,
+    "UdListDefinitionId": 576
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 6,
-    "Name": "Grady Inc and Sons",
-    "Tooltip": "quibusdam",
+    "HeadingId": 690,
+    "Name": "Langworth-Kassulke",
+    "Tooltip": "et",
     "Deleted": false,
     "Rank": 297,
-    "UdListDefinitionId": 823,
+    "UdListDefinitionId": 391,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 530
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT Person/{id}/Image
 uid: v1PersonEntity_SaveImage
 generated: true
+content_type: reference
 ---
 
 # PUT Person/{id}/Image
@@ -71,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-582
+493
 ```

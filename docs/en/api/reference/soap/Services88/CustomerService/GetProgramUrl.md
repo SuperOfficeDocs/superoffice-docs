@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetProgramUrl SOAP
 generated: true
 uid: Services88-CustomerService-GetProgramUrl
+content_type: reference
 ---
 
 # Services88 CustomerService GetProgramUrl

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetRecipeAppliesToMappings
 uid: v1ConfigurationAgent_GetRecipeAppliesToMappings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetRecipeAppliesToMappings
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "corporis",
-  "2": "beatae"
+  "1": "possimus",
+  "2": "totam"
 }
 ```

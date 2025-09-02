@@ -3,9 +3,9 @@ uid: EmailFlowInstances
 title: EmailFlowInstances
 description: Archive of Email flow Instances.
 keywords: EmailFlowInstances archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailFlowInstances"
@@ -505,7 +505,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=contact/streetAddress/line2,contact/contactUdef/SuperOffice:4,person/personAddress/line2
+GET /api/v1/archive/EmailFlowInstances?$select=workflowInstanceLastCommunicationStatus,emailFlow/workflowAssociate/associateDbId,person/email/emailId,person/email/emailLastSent,person/correspondingAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

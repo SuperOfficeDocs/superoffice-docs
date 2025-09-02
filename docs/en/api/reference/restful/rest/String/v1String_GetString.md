@@ -2,6 +2,7 @@
 title: GET String/{sr_id}/{isoLangCode}
 uid: v1String_GetString
 generated: true
+content_type: reference
 ---
 
 # GET String/{sr_id}/{isoLangCode}
@@ -30,7 +31,7 @@ Gets the value of the string with a given name in a given language
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=False
+GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=True
 ```
 
 
@@ -74,5 +75,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cumque"
+"eveniet"
 ```

@@ -2,6 +2,7 @@
 title: Services88.FileManagerAgent.CreateFile SOAP
 generated: true
 uid: Services88-FileManager-CreateFile
+content_type: reference
 ---
 
 # Services88 FileManager CreateFile

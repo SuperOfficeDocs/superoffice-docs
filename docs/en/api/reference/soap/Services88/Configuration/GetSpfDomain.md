@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetSpfDomain SOAP
 generated: true
 uid: Services88-Configuration-GetSpfDomain
+content_type: reference
 ---
 
 # Services88 Configuration GetSpfDomain

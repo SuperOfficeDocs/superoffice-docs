@@ -2,6 +2,7 @@
 title: POST Agents/Chat/RejectChatSessionTransfer
 uid: v1ChatAgent_RejectChatSessionTransfer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/RejectChatSessionTransfer
@@ -105,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 651
+  "ChatSessionId": 872
 }
 ```
 
@@ -120,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 522,
-  "TopicId": 747,
+  "ChatSessionId": 538,
+  "TopicId": 253,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "alias",
-  "CustomerName": "Oberbrunner, Krajcik and Emard",
-  "CustomerEmail": "bethel@oreillyarmstrong.uk",
-  "CustomerPhone": "1-448-887-9627 x5784",
+  "CustomerAlias": "voluptatum",
+  "CustomerHost": "pariatur",
+  "CustomerName": "Hand Inc and Sons",
+  "CustomerEmail": "hester@hills.us",
+  "CustomerPhone": "1-441-726-7768 x924",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Emmerich-Klocko",
+  "CustomerCompanyName": "Welch-McClure",
   "Status": "Closed",
-  "FirstMessage": "debitis",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2024-02-01T03:45:23.0454661+01:00",
-  "WhenStarted": "2000-11-23T03:45:23.0454661+01:00",
-  "WhenEnded": "2004-11-26T03:45:23.0454661+01:00",
-  "WhenIdle": "2019-02-18T03:45:23.0454661+01:00",
-  "WhenFetched": "2018-10-26T03:45:23.0454661+02:00",
-  "SessionKey": "illo",
-  "InitialQueuePos": 364,
-  "AlertLevel": 964,
-  "Rank": 149,
+  "FirstMessage": "cumque",
+  "LastMessage": "atque",
+  "WhenRequested": "2019-05-19T03:46:54.3632712+02:00",
+  "WhenStarted": "2016-03-17T03:46:54.3632712+01:00",
+  "WhenEnded": "2008-04-26T03:46:54.3632712+02:00",
+  "WhenIdle": "2017-01-11T03:46:54.3632712+01:00",
+  "WhenFetched": "2018-03-08T03:46:54.3632712+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 710,
+  "AlertLevel": 631,
+  "Rank": 544,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 820,
+  "Rating": 926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/LegalBase/Items/{id}
 uid: v1LegalBaseList_GetLegalBase
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/Items/{id}
@@ -77,18 +78,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 123,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "sint",
-  "Rank": 228,
-  "Key": "et",
+  "LegalBaseId": 30,
+  "Name": "Mraz-Kemmer",
+  "Tooltip": "error",
+  "Rank": 72,
+  "Key": "ullam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   }
 }

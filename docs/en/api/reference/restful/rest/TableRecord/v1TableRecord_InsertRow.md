@@ -2,6 +2,7 @@
 title: POST Table/{tableName}
 uid: v1TableRecord_InsertRow
 generated: true
+content_type: reference
 ---
 
 # POST Table/{tableName}
@@ -59,7 +60,7 @@ OK
 POST /api/v1/Table/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,5 +69,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-330
+407
 ```

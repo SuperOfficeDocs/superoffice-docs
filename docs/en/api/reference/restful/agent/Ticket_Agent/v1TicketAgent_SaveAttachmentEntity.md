@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SaveAttachmentEntity
 uid: v1TicketAgent_SaveAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SaveAttachmentEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 ```
 
-Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty
+Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing AttachmentEntity or creates a new AttachmentEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: attachmentEntity 
 
-The AttachmentEntity to be saved. 
+The AttachmentEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,17 +78,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 93,
-  "Name": "Nolan-Rau",
-  "ContentType": "delectus",
-  "AttSize": 209,
+  "AttachmentId": 592,
+  "Name": "Heller Inc and Sons",
+  "ContentType": "sit",
+  "AttSize": 425,
   "InlineImage": false,
-  "ContentId": "consequatur",
-  "AuthKey": "itaque",
+  "ContentId": "est",
+  "AuthKey": "voluptate",
   "IsSafeFileExtension": true
 }
 ```
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 520,
-  "Name": "Wisoky-Strosin",
-  "ContentType": "inventore",
-  "AttSize": 923,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "voluptates",
+  "AttachmentId": 527,
+  "Name": "Bahringer-Williamson",
+  "ContentType": "consequuntur",
+  "AttSize": 385,
+  "InlineImage": false,
+  "ContentId": "illum",
+  "AuthKey": "sed",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldLength": 243
     }
   }
 }

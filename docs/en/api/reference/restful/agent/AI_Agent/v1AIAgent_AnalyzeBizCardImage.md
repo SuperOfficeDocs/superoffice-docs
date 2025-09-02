@@ -1,24 +1,35 @@
 ---
-title: POST Agents/User/GetUserCommandsAsync
-uid: v1UserAgent_GetUserCommandsAsync
+title: POST Agents/AI/AnalyzeBizCardImage
+uid: v1AIAgent_AnalyzeBizCardImage
 generated: true
+content_type: reference
 ---
 
-# POST Agents/User/GetUserCommandsAsync
+# POST Agents/AI/AnalyzeBizCardImage
 
 ```http
-POST /api/v1/Agents/User/GetUserCommandsAsync
+POST /api/v1/Agents/AI/AnalyzeBizCardImage
 ```
 
-Get registered custom commands for User
+Returns contact and person information from an image.
 
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+Merges results with matching database records if merge = true
 
 
 
 
 
+
+## Query String Parameters
+
+| Parameter Name | Type |  Description |
+|----------------|------|--------------|
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
+
+```http
+POST /api/v1/Agents/AI/AnalyzeBizCardImage?$select=name,department,category/id
+```
 
 
 ## Request Headers
@@ -37,13 +48,14 @@ Get registered custom commands for User
 
 ## Request Body: request 
 
-The User entity. 
+Image, MergeWithDatabase 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Image | String |  |
+| MergeWithDatabase | Boolean |  |
 
-## Response:array
+## Response:
 
 OK
 
@@ -51,30 +63,27 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: array
+### Response body: BizCard
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string | Unique name of the command |
-| DisplayName | string | The name to show in GUI |
-| Description | string | Description of the command. |
-| ToolTip | string | Tooltip to be used in the GUI |
-| Actions | string | The actions to call when invoked |
-| ActionData | string | The data to be used when the command is invoked |
-| TableRight | TableRight | The carrier's table right |
-| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
+| Contact | ContactEntity | The contact information. |
+| Person | PersonEntity | The person information. |
+| LogoImage | string | Base64 encoded company logo image, if available. |
+| PhotoImage | string | Base64 encoded person photo image, if available. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/User/GetUserCommandsAsync
+POST /api/v1/Agents/AI/AnalyzeBizCardImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": null
+  "Image": "GIF89....File contents as raw bytes...",
+  "MergeWithDatabase": false
 }
 ```
 
@@ -84,22 +93,10 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-[
-  {
-    "Name": "Fritsch-Goyette",
-    "DisplayName": "Luettgen, Reichert and Cremin",
-    "Description": "Organized dedicated protocol",
-    "ToolTip": "Illum quaerat saepe aut.",
-    "Actions": "Implicit",
-    "ActionData": "dolore",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
-      }
-    }
-  }
-]
+{
+  "Contact": null,
+  "Person": null,
+  "LogoImage": "ea",
+  "PhotoImage": "mollitia"
+}
 ```

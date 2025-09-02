@@ -2,10 +2,10 @@
 uid: table-UserGroup
 title: UserGroup table
 description: Secondary user groups
-so.generated: true
+generated: true
 keywords: database table UserGroup
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # UserGroup Table (59)

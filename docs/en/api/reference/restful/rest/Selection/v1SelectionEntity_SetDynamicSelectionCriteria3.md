@@ -2,6 +2,7 @@
 title: PUT Selection/{id}/Criteria
 uid: v1SelectionEntity_SetDynamicSelectionCriteria3
 generated: true
+content_type: reference
 ---
 
 # PUT Selection/{id}/Criteria
@@ -95,49 +96,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bechtelar Group",
-    "Operator": "sit",
+    "Name": "Rice Group",
+    "Operator": "quia",
     "Values": [
-      "aut",
-      "et"
+      "repellat",
+      "quia"
     ],
     "DisplayValues": [
-      "veritatis",
-      "id"
+      "commodi",
+      "iusto"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Windler Group",
-        "Operator": "ipsum",
+        "Name": "Monahan Group",
+        "Operator": "dicta",
         "Values": [
-          "dolores",
-          "et"
+          "minima",
+          "quasi"
         ],
         "DisplayValues": [
-          "alias",
-          "ut"
+          "assumenda",
+          "neque"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 391,
+        "InterParenthesis": 423,
         "InterOperator": "And",
-        "UniqueHash": 849
+        "UniqueHash": 909
       }
     ],
-    "InterParenthesis": 676,
+    "InterParenthesis": 101,
     "InterOperator": "And",
-    "UniqueHash": 555
+    "UniqueHash": 329
   }
 ]
 ```
@@ -150,44 +151,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sawayn-Franecki",
-    "Operator": "inventore",
+    "Name": "Kuhic, Donnelly and Mills",
+    "Operator": "ad",
     "Values": [
-      "voluptatibus",
-      "natus"
+      "laborum",
+      "officiis"
     ],
     "DisplayValues": [
-      "cumque",
-      "voluptas"
+      "neque",
+      "quis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Leannon, Beier and Padberg",
-        "Operator": "sunt",
+        "Name": "Robel Inc and Sons",
+        "Operator": "itaque",
         "Values": [
-          "exercitationem",
-          "et"
+          "voluptas",
+          "esse"
         ],
         "DisplayValues": [
-          "nihil",
-          "nostrum"
+          "dolor",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 97,
+        "InterParenthesis": 384,
         "InterOperator": "And",
-        "UniqueHash": 585
+        "UniqueHash": 119
       }
     ],
-    "InterParenthesis": 412,
+    "InterParenthesis": 762,
     "InterOperator": "And",
-    "UniqueHash": 13
+    "UniqueHash": 567
   }
 ]
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPriorityList
 uid: v1ListAgent_GetPriorityList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPriorityList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetPriorityList?$select=name,department,category/id
 
 ## Request Body: priorityIds 
 
-The primary keys. 
+The identifiers of the Priority object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Value": "quis",
-    "Tooltip": "accusamus",
+    "Id": 594,
+    "Value": "doloribus",
+    "Tooltip": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 483
       }
     }
   },
   {
-    "Id": 372,
-    "Value": "quis",
-    "Tooltip": "accusamus",
+    "Id": 594,
+    "Value": "doloribus",
+    "Tooltip": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 483
       }
     }
   }

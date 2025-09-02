@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/SaveWindowPosSizes
 uid: v1ConfigurationAgent_SaveWindowPosSizes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/SaveWindowPosSizes
@@ -83,23 +84,23 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "occaecati",
-      "PersonId": 743,
-      "AssociateId": 439,
-      "ExtraId": 576,
-      "ExtraInfo": "ut",
-      "Height": 839,
-      "LeftX": 781,
+      "OwnerWindow": "a",
+      "PersonId": 621,
+      "AssociateId": 998,
+      "ExtraId": 759,
+      "ExtraInfo": "eaque",
+      "Height": 396,
+      "LeftX": 614,
       "State": "Maximized",
-      "UpperY": 785,
-      "Width": 438,
-      "WindowPosSizeId": 222
+      "UpperY": 54,
+      "Width": 456,
+      "WindowPosSizeId": 322
     }
   ]
 }
@@ -113,23 +114,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "fugit",
-    "PersonId": 627,
-    "AssociateId": 674,
-    "ExtraId": 3,
-    "ExtraInfo": "ut",
-    "Height": 508,
-    "LeftX": 142,
+    "OwnerWindow": "quia",
+    "PersonId": 971,
+    "AssociateId": 61,
+    "ExtraId": 309,
+    "ExtraInfo": "accusamus",
+    "Height": 557,
+    "LeftX": 189,
     "State": "Maximized",
-    "UpperY": 610,
-    "Width": 792,
-    "WindowPosSizeId": 688,
+    "UpperY": 979,
+    "Width": 954,
+    "WindowPosSizeId": 94,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetDocumentCommands
 uid: v1DocumentAgent_GetDocumentCommands
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetDocumentCommands
@@ -78,14 +79,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 776,
+  "DocumentId": 516,
   "AllowedReturnTypes": [
-    "nemo",
-    "ipsam"
+    "rem",
+    "facilis"
   ]
 }
 ```
@@ -98,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schowalter, Lueilwitz and Blanda",
-    "DisplayName": "Kautzer, Wolff and Robel",
-    "DisplayTooltip": "optio",
-    "IconHint": "ab",
+    "Name": "Quitzon, Cassin and Koss",
+    "DisplayName": "Roberts Group",
+    "DisplayTooltip": "saepe",
+    "IconHint": "ea",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Schowalter, Lueilwitz and Blanda",
-    "DisplayName": "Kautzer, Wolff and Robel",
-    "DisplayTooltip": "optio",
-    "IconHint": "ab",
+    "Name": "Quitzon, Cassin and Koss",
+    "DisplayName": "Roberts Group",
+    "DisplayTooltip": "saepe",
+    "IconHint": "ea",
     "ReturnType": "CustomGui"
   }
 ]

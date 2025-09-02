@@ -1,6 +1,8 @@
 ---
+uid: tag-DocumentMigration_Agent
 title: DocumentMigration_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -11,8 +13,6 @@ generated: true
 
 
 * [POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList](v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList.md)
-
-* [POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList](v1DocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationList.md)
 
 * [POST Agents/DocumentMigration/GetForAllDocuments](v1DocumentMigrationAgent_GetForAllDocuments.md)
 
@@ -25,6 +25,8 @@ generated: true
 * [POST Agents/DocumentMigration/HasDocumentsToMigrate](v1DocumentMigrationAgent_HasDocumentsToMigrate.md)
 
 * [POST Agents/DocumentMigration/GetNumberOfConfidentialDocuments](v1DocumentMigrationAgent_GetNumberOfConfidentialDocuments.md)
+
+* [POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList](v1DocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationList.md)
 
 * [POST Agents/DocumentMigration/GetForTemplates](v1DocumentMigrationAgent_GetForTemplates.md)
 

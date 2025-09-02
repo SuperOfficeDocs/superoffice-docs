@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetDocumentLength
 uid: v1DocumentAgent_GetDocumentLength
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetDocumentLength
@@ -73,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 17,
-  "VersionId": "nihil"
+  "DocumentId": 951,
+  "VersionId": "voluptatem"
 }
 ```
 

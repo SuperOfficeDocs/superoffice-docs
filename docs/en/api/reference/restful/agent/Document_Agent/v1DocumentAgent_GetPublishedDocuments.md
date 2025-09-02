@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPublishedDocuments
 uid: v1DocumentAgent_GetPublishedDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPublishedDocuments
@@ -92,13 +93,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    550,
-    850
+    965,
+    596
   ]
 }
 ```
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 799,
-    "Attention": "quis",
-    "Header": "pariatur",
-    "Name": "Considine-Grant",
-    "OurRef": "et",
-    "YourRef": "et",
-    "Description": "Compatible grid-enabled hardware",
-    "DocumentTemplate": "eos",
+    "DocumentId": 673,
+    "Attention": "qui",
+    "Header": "vel",
+    "Name": "Stiedemann LLC",
+    "OurRef": "repudiandae",
+    "YourRef": "consequatur",
+    "Description": "Business-focused systemic flexibility",
+    "DocumentTemplate": "cumque",
     "IsPublished": false,
-    "PersonId": 884,
-    "PersonFullName": "Dr. Claudie Nolan",
-    "AssociateFullName": "Jayce Nikolaus",
-    "ContactId": 653,
-    "ContactName": "Thompson Group",
-    "ProjectId": 77,
-    "ProjectName": "Oberbrunner Group",
-    "AssociateId": 206,
-    "Snum": 122,
-    "SaleId": 17,
-    "SaleName": "Gutmann, Erdman and Rutherford",
+    "PersonId": 693,
+    "PersonFullName": "Bell Cremin",
+    "AssociateFullName": "Walker Nienow",
+    "ContactId": 344,
+    "ContactName": "Thiel Group",
+    "ProjectId": 186,
+    "ProjectName": "Lang Group",
+    "AssociateId": 181,
+    "Snum": 622,
+    "SaleId": 828,
+    "SaleName": "Bauch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 767
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: table-Category
 title: Category table
 description: Category list table
-so.generated: true
+generated: true
 keywords: database table Category
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Category Table (64)
@@ -28,6 +28,8 @@ Category list table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |CategoryFamily\_id|Optional link to family, for grouping things like multiple kinds of customer category under family &apos;customer&apos;|FK [CategoryFamily](categoryfamily.md)|&#x25CF;|
+|category\_group|Category group|Enum [CategoryGroup](enums/categorygroup.md)|&#x25CF;|
+|enable\_lead\_status|Enable lead status qualification for categorygroup potential customers|Bool|&#x25CF;|
 
 
 ![Category table relationship diagram](./media/Category.png)

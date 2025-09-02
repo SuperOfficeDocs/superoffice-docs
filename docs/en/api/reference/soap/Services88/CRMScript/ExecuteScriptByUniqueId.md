@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent.ExecuteScriptByUniqueId SOAP
 generated: true
 uid: Services88-CRMScript-ExecuteScriptByUniqueId
+content_type: reference
 ---
 
 # Services88 CRMScript ExecuteScriptByUniqueId

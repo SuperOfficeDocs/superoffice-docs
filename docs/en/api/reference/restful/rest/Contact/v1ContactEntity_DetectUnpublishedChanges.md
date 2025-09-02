@@ -2,6 +2,7 @@
 title: GET Contact/UdefLayout/Changed
 uid: v1ContactEntity_DetectUnpublishedChanges
 generated: true
+content_type: reference
 ---
 
 # GET Contact/UdefLayout/Changed

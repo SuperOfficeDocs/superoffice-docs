@@ -2,6 +2,7 @@
 title: PUT ProjectMember/{id}
 uid: v1ProjectMember_PutProjectMember
 generated: true
+content_type: reference
 ---
 
 # PUT ProjectMember/{id}
@@ -119,31 +120,31 @@ ProjectMember updated.
 PUT /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 800,
-  "ContactId": 858,
-  "ProjectId": 219,
-  "ContactName": "Mertz, Cole and Homenick",
+  "ProjectmemberId": 501,
+  "ContactId": 569,
+  "ProjectId": 943,
+  "ContactName": "Larson, Koss and Braun",
   "ContactDepartment": "",
-  "ProjectName": "Considine LLC",
-  "EmailId": 104,
-  "EmailAddress": "gussie.fisher@okonfranecki.name",
-  "CountryId": 293,
-  "Firstname": "Peggie",
-  "MiddleName": "Beer Group",
-  "Lastname": "Brown",
-  "PersonId": 970,
-  "Mrmrs": "quo",
-  "ProjectMemberTypeName": "Hoppe-Lubowitz",
-  "Phone": "038.199.2907",
-  "PhoneId": 118,
-  "ProjectMemberTypeId": 772,
-  "EmailAddressName": "kameron.champlin@tillmandickinson.us",
-  "Comment": "qui",
-  "FullName": "Miss Caroline Towne"
+  "ProjectName": "Hermann Inc and Sons",
+  "EmailId": 27,
+  "EmailAddress": "keira@creminbarrows.uk",
+  "CountryId": 267,
+  "Firstname": "Madilyn",
+  "MiddleName": "Graham-Homenick",
+  "Lastname": "Nolan",
+  "PersonId": 296,
+  "Mrmrs": "repudiandae",
+  "ProjectMemberTypeName": "Lemke, Marvin and Wilderman",
+  "Phone": "930.336.2116 x0578",
+  "PhoneId": 730,
+  "ProjectMemberTypeId": 888,
+  "EmailAddressName": "mitchell_romaguera@nitzsche.uk",
+  "Comment": "quidem",
+  "FullName": "Terence Gleason"
 }
 ```
 
@@ -154,33 +155,33 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 853,
-  "ContactId": 71,
-  "ProjectId": 139,
-  "ContactName": "Mueller, Adams and Jakubowski",
+  "ProjectmemberId": 130,
+  "ContactId": 683,
+  "ProjectId": 552,
+  "ContactName": "Dickinson, Bechtelar and Bartell",
   "ContactDepartment": "",
-  "ProjectName": "Wehner Inc and Sons",
-  "EmailId": 416,
-  "EmailAddress": "lucio.lubowitz@doyle.info",
-  "CountryId": 37,
-  "Firstname": "Brenda",
-  "MiddleName": "Kreiger LLC",
-  "Lastname": "Gorczany",
-  "PersonId": 333,
-  "Mrmrs": "pariatur",
-  "ProjectMemberTypeName": "Jones Group",
-  "Phone": "220.731.7982 x98437",
-  "PhoneId": 139,
-  "ProjectMemberTypeId": 750,
-  "EmailAddressName": "palma.schaden@flatleylangosh.uk",
-  "Comment": "amet",
-  "FullName": "Donnell Schroeder",
+  "ProjectName": "Kirlin, Emard and Hane",
+  "EmailId": 149,
+  "EmailAddress": "madilyn.pollich@weberpouros.name",
+  "CountryId": 105,
+  "Firstname": "Delphine",
+  "MiddleName": "Ruecker-Cummerata",
+  "Lastname": "Dare",
+  "PersonId": 538,
+  "Mrmrs": "illo",
+  "ProjectMemberTypeName": "Waters-Lowe",
+  "Phone": "017-933-7282 x8667",
+  "PhoneId": 994,
+  "ProjectMemberTypeId": 796,
+  "EmailAddressName": "margarett_leannon@reichert.ca",
+  "Comment": "ut",
+  "FullName": "Shaylee Strosin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 192
     }
   },
   "_Links": {

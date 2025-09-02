@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/ToggleActivities
 uid: v1AppointmentAgent_ToggleActivities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/ToggleActivities
@@ -68,13 +69,13 @@ OK
 POST /api/v1/Agents/Appointment/ToggleActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "aut",
-    "et"
+    "ut",
+    "dolore"
   ]
 }
 ```

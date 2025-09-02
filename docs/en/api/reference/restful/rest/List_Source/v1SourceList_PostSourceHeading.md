@@ -2,6 +2,7 @@
 title: POST List/Source/Headings
 uid: v1SourceList_PostSourceHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Source/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 745,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "nostrum",
+  "HeadingId": 342,
+  "Name": "Grimes Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 275,
-  "UdListDefinitionId": 651
+  "Rank": 660,
+  "UdListDefinitionId": 14
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 655,
-  "Name": "Paucek, Stehr and Carter",
-  "Tooltip": "illum",
+  "HeadingId": 364,
+  "Name": "Pagac LLC",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 360,
-  "UdListDefinitionId": 258,
+  "Rank": 717,
+  "UdListDefinitionId": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 444
     }
   }
 }

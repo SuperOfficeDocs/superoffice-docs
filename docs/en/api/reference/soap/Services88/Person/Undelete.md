@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.Undelete SOAP
 generated: true
 uid: Services88-Person-Undelete
+content_type: reference
 ---
 
 # Services88 Person Undelete

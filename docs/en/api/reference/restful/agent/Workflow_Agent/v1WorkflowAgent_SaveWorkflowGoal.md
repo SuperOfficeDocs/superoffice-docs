@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/SaveWorkflowGoal
 uid: v1WorkflowAgent_SaveWorkflowGoal
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/SaveWorkflowGoal
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 ```
 
-Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is empty
+Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: workflowGoal 
 
-The WorkflowGoal to be saved. 
+The WorkflowGoal that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,27 +70,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 97,
-  "WorkflowId": 824,
+  "WorkflowGoalId": 125,
+  "WorkflowId": 486,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Windler LLC",
-      "Description": "Down-sized executive time-frame",
-      "Rank": 336,
+      "Name": "Ferry, Powlowski and Schamberger",
+      "Description": "Quality-focused local parallelism",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Windler LLC",
-      "Description": "Down-sized executive time-frame",
-      "Rank": 336,
+      "Name": "Ferry, Powlowski and Schamberger",
+      "Description": "Quality-focused local parallelism",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
@@ -106,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 377,
-  "WorkflowId": 552,
+  "WorkflowGoalId": 592,
+  "WorkflowId": 453,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Marvin, Reinger and Sawayn",
-      "Description": "Synergized coherent flexibility",
-      "Rank": 129,
+      "Name": "Dicki Inc and Sons",
+      "Description": "Cloned zero defect service-desk",
+      "Rank": 143,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Marvin, Reinger and Sawayn",
-      "Description": "Synergized coherent flexibility",
-      "Rank": 129,
+      "Name": "Dicki Inc and Sons",
+      "Description": "Cloned zero defect service-desk",
+      "Rank": 143,
       "Restrictions": [
         {},
         {}
@@ -133,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   }
 }

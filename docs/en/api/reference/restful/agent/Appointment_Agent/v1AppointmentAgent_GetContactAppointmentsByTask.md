@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetContactAppointmentsByTask
 uid: v1AppointmentAgent_GetContactAppointmentsByTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTask
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,11 +138,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 483,
-  "StartTime": "2021-06-07T03:45:22.6861022+02:00",
-  "EndTime": "2006-05-18T03:45:22.6861022+02:00",
-  "Count": 733,
-  "TaskId": 409
+  "ContactId": 639,
+  "StartTime": "2018-01-17T03:46:53.9882851+01:00",
+  "EndTime": "2013-09-16T03:46:53.9882851+02:00",
+  "Count": 741,
+  "TaskId": 118
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 651,
-    "StartDate": "2024-01-12T03:45:22.6861022+01:00",
-    "EndDate": "2004-04-09T03:45:22.6861022+02:00",
+    "AppointmentId": 389,
+    "StartDate": "1999-02-24T03:46:53.9882851+01:00",
+    "EndDate": "2007-09-22T03:46:53.9882851+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ullam",
-    "AssociateFullName": "Chyna Dicki IV",
-    "ContactName": "Hane-O'Kon",
-    "Description": "Switchable analyzing definition",
-    "PersonFullName": "Otilia Langworth",
-    "PersonId": 587,
-    "ContactId": 896,
-    "ProjectId": 27,
-    "ProjectName": "Howell, Beahan and Carter",
-    "IsPublished": true,
-    "AssociateId": 311,
-    "ColorIndex": 425,
+    "Task": "blanditiis",
+    "AssociateFullName": "Randi Strosin",
+    "ContactName": "Dare-Donnelly",
+    "Description": "User-centric multimedia Graphic Interface",
+    "PersonFullName": "Dr. Emma Benny Strosin IV",
+    "PersonId": 409,
+    "ContactId": 737,
+    "ProjectId": 874,
+    "ProjectName": "Bins, Hintz and Rolfson",
+    "IsPublished": false,
+    "AssociateId": 156,
+    "ColorIndex": 20,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 841,
-    "PriorityName": "Fahey LLC",
+    "PriorityId": 406,
+    "PriorityName": "Towne, Dietrich and Miller",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-10-10T03:45:22.6861022+02:00",
+    "ActiveDate": "2013-05-31T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-09-28T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2016-03-17T03:45:22.6861022+01:00",
-    "MotherId": 584,
-    "AssignedBy": 580,
-    "AssignedByFullName": "Gonzalo Hand",
+    "RecurringStartDate": "2005-07-31T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2004-06-11T03:46:53.9882851+02:00",
+    "MotherId": 137,
+    "AssignedBy": 143,
+    "AssignedByFullName": "Mr. Tianna Kelvin Aufderhar",
     "RejectReason": "",
-    "Location": "doloremque",
-    "AlarmLeadTime": "dignissimos",
-    "SaleId": 343,
-    "SaleName": "Mitchell Inc and Sons",
-    "AssociateName": "Donnelly, Wintheiser and Gibson",
-    "CreatedDate": "2021-01-19T03:45:22.6861022+01:00",
-    "CreatedBy": "optio",
-    "CreatedByFullName": "Miss Lisa Daugherty Jr.",
-    "CreatedByAssociateId": 279,
+    "Location": "aspernatur",
+    "AlarmLeadTime": "velit",
+    "SaleId": 910,
+    "SaleName": "Considine-Osinski",
+    "AssociateName": "Sipes-Schumm",
+    "CreatedDate": "2007-10-02T03:46:53.9882851+02:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Bryon Sauer",
+    "CreatedByAssociateId": 732,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 975,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 871,
-    "Title": "reiciendis",
-    "Agenda": "aut",
-    "InternalNotes": "impedit",
+    "PreferredTZLocation": 37,
+    "Title": "voluptas",
+    "Agenda": "sint",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Currency
 title: List_Currency
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: GET Appointment/CustomField/{fieldName}
 uid: v1AppointmentEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jaskolski, Grady and Howe",
-  "DisplayName": "Tromp Inc and Sons",
-  "Description": "Innovative content-based protocol",
-  "ShortLabel": "sed",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
+  "FieldName": "Heidenreich LLC",
+  "DisplayName": "Harris, Hilll and Stokes",
+  "Description": "Robust non-volatile solution",
+  "ShortLabel": "quibusdam",
+  "HideLabel": true,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 103,
-  "TemplateVariableName": "Gleichner-Kuphal"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "IsDisplayField": true,
+  "Rank": 377,
+  "TemplateVariableName": "Kuphal-Cummings"
 }
 ```

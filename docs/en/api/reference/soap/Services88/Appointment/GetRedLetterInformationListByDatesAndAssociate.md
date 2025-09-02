@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetRedLetterInformationListByDatesAndAssociate SOAP
 generated: true
 uid: Services88-Appointment-GetRedLetterInformationListByDatesAndAssociate
+content_type: reference
 ---
 
 # Services88 Appointment GetRedLetterInformationListByDatesAndAssociate
@@ -39,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetRedLetterInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2025-06-26T01:42:52Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2025-06-26T01:42:52Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2025-08-30T01:44:25Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2025-08-30T01:44:25Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetRedLetterInformationListByDatesAndAssociate>
 
@@ -66,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetRedLetterInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfRedLetterInformationListItem">
     <Appointment:RedLetterInformationListItem xsi:type="Appointment:RedLetterInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2025-06-26T01:42:52Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2025-08-30T01:44:25Z</Appointment:Date>
      <Appointment:RedLetterInformation xsi:type="Appointment:RedLetterSummary">
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>

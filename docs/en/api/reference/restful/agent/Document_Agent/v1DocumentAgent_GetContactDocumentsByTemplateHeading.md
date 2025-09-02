@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetContactDocumentsByTemplateHeading
 uid: v1DocumentAgent_GetContactDocumentsByTemplateHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateHeading
@@ -98,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 69,
-  "StartTime": "2025-01-02T03:45:23.2798335+01:00",
-  "EndTime": "2008-01-06T03:45:23.2798335+01:00",
-  "Count": 713,
-  "TemplateHeadingId": 994
+  "ContactId": 146,
+  "StartTime": "2010-03-08T03:46:54.6132622+01:00",
+  "EndTime": "2006-03-01T03:46:54.6132622+01:00",
+  "Count": 195,
+  "TemplateHeadingId": 884
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 69,
-    "Attention": "tempore",
-    "Header": "vitae",
-    "Name": "Kautzer Inc and Sons",
-    "OurRef": "eius",
-    "YourRef": "laborum",
-    "Description": "Grass-roots fault-tolerant project",
+    "DocumentId": 315,
+    "Attention": "quisquam",
+    "Header": "qui",
+    "Name": "Rosenbaum, King and Brown",
+    "OurRef": "accusamus",
+    "YourRef": "officiis",
+    "Description": "Adaptive scalable moderator",
     "DocumentTemplate": "voluptatum",
-    "IsPublished": true,
-    "PersonId": 801,
-    "PersonFullName": "Ladarius Jast V",
-    "AssociateFullName": "Dr. Jaylan Wolf",
-    "ContactId": 576,
-    "ContactName": "Boehm-Schimmel",
-    "ProjectId": 632,
-    "ProjectName": "Beahan, Thiel and Koelpin",
-    "AssociateId": 383,
-    "Snum": 209,
-    "SaleId": 617,
-    "SaleName": "Gutkowski-Olson",
+    "IsPublished": false,
+    "PersonId": 328,
+    "PersonFullName": "Adelle Towne",
+    "AssociateFullName": "Gillian Moises Padberg I",
+    "ContactId": 378,
+    "ContactName": "Hilpert, Mann and Volkman",
+    "ProjectId": 759,
+    "ProjectName": "Mann Inc and Sons",
+    "AssociateId": 695,
+    "Snum": 857,
+    "SaleId": 642,
+    "SaleName": "Anderson, Yost and Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 713
       }
     }
   }

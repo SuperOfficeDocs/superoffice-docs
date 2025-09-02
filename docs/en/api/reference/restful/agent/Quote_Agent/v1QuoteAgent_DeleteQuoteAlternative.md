@@ -2,6 +2,7 @@
 title: POST Agents/Quote/DeleteQuoteAlternative
 uid: v1QuoteAgent_DeleteQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/DeleteQuoteAlternative
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 845
+  "QuoteAlternativeId": 240
 }
 ```
 

@@ -2,10 +2,10 @@
 uid: table-ext_table
 title: ext_table table
 description: This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration.
-so.generated: true
+generated: true
 keywords: database table ext_table
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ext\_table Table (318)

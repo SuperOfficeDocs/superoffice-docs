@@ -2,6 +2,7 @@
 title: POST Agents/Chat/IsWithinOpeningHours
 uid: v1ChatAgent_IsWithinOpeningHours
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/IsWithinOpeningHours
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/Chat/IsWithinOpeningHours
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 37
+  "ChatTopicId": 619
 }
 ```
 

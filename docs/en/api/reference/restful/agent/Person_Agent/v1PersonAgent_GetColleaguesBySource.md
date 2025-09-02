@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetColleaguesBySource
 uid: v1PersonAgent_GetColleaguesBySource
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetColleaguesBySource
@@ -116,12 +117,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 766
+  "Count": 649
 }
 ```
 
@@ -133,53 +134,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "non",
-    "PersonId": 309,
-    "Mrmrs": "fugiat",
-    "Firstname": "Blanca",
-    "Lastname": "Dickens",
-    "MiddleName": "Feeney, McLaughlin and Heaney",
-    "Title": "voluptate",
-    "Description": "Diverse high-level neural-net",
-    "Email": "lavina@ortiz.info",
-    "FullName": "Leonora Rutherford",
-    "DirectPhone": "1-619-068-1241 x045",
-    "FormalName": "Medhurst LLC",
-    "CountryId": 514,
-    "ContactId": 527,
-    "ContactName": "Abernathy, Stroman and Abshire",
-    "Retired": 83,
-    "Rank": 584,
-    "ActiveInterests": 833,
+    "Position": "nisi",
+    "PersonId": 609,
+    "Mrmrs": "qui",
+    "Firstname": "Alessandro",
+    "Lastname": "Senger",
+    "MiddleName": "Klocko-Schuster",
+    "Title": "vel",
+    "Description": "Focused actuating structure",
+    "Email": "zakary.morissette@zboncak.biz",
+    "FullName": "Dr. Rosetta Jada Leuschke PhD",
+    "DirectPhone": "(287)852-3219 x79321",
+    "FormalName": "Blanda-Kreiger",
+    "CountryId": 856,
+    "ContactId": 493,
+    "ContactName": "Halvorson Group",
+    "Retired": 799,
+    "Rank": 632,
+    "ActiveInterests": 216,
     "ContactDepartment": "",
-    "ContactCountryId": 345,
-    "ContactOrgNr": "773629",
-    "FaxPhone": "610-128-0011 x45477",
-    "MobilePhone": "769.556.4102 x6056",
-    "ContactPhone": "(857)769-3595",
-    "AssociateName": "Hamill-Weissnat",
-    "AssociateId": 329,
+    "ContactCountryId": 120,
+    "ContactOrgNr": "1327057",
+    "FaxPhone": "851.619.2773 x965",
+    "MobilePhone": "(754)498-2691",
+    "ContactPhone": "(136)030-5199",
+    "AssociateName": "Barton, Braun and Wintheiser",
+    "AssociateId": 505,
     "UsePersonAddress": true,
-    "ContactFax": "doloribus",
-    "Kanafname": "laborum",
-    "Kanalname": "consectetur",
-    "Post1": "sunt",
-    "Post2": "velit",
-    "Post3": "provident",
-    "EmailName": "ned_bode@altenwerthaufderhar.biz",
-    "ContactFullName": "Doyle Emard",
-    "ActiveErpLinks": 569,
-    "TicketPriorityId": 364,
-    "SupportLanguageId": 938,
-    "SupportAssociateId": 992,
+    "ContactFax": "et",
+    "Kanafname": "possimus",
+    "Kanalname": "ex",
+    "Post1": "amet",
+    "Post2": "sequi",
+    "Post3": "aperiam",
+    "EmailName": "dewayne@lakin.name",
+    "ContactFullName": "Pablo Leif Dickens Sr.",
+    "ActiveErpLinks": 749,
+    "TicketPriorityId": 839,
+    "SupportLanguageId": 20,
+    "SupportAssociateId": 804,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1361357",
+    "PersonNumber": "1800876",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 712
       }
     }
   }

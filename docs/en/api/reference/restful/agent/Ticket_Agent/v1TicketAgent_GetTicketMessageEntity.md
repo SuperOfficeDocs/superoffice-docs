@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketMessageEntity
 uid: v1TicketAgent_GetTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketMessageEntity
@@ -22,11 +23,11 @@ Gets a TicketMessageEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ticketMessageEntityId | int32 | **Required** The primary key. |
+| ticketMessageEntityId | int32 | **Required** The identifier of the TicketMessageEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=270
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=684
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,79 +103,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 472,
+  "EjMessageId": 355,
   "Ticket": null,
-  "CreatedAt": "2013-04-12T03:45:24.1235597+02:00",
+  "CreatedAt": "1998-11-25T03:46:55.5351045+01:00",
   "CreatedBy": null,
-  "Author": "deserunt",
+  "Author": "iusto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "architecto",
-  "TimeSpent": 719,
-  "Body": "dolore",
-  "HtmlBody": "harum",
-  "EmailHeader": "connie@kreiger.com",
-  "DebugInfo": "ducimus",
-  "MailSorter": "dolorem",
+  "MessageId": "quia",
+  "TimeSpent": 510,
+  "Body": "nobis",
+  "HtmlBody": "unde",
+  "EmailHeader": "alexandrine@mitchell.info",
+  "DebugInfo": "dignissimos",
+  "MailSorter": "nostrum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "tenetur",
   "MessageHeaders": [
     {
-      "Id": 57,
-      "Name": "Dickinson, Gibson and Hermiston",
-      "Value": "ea",
+      "Id": 596,
+      "Name": "Nienow Group",
+      "Value": "quam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 758
+          "FieldType": "System.String",
+          "FieldLength": 464
         }
       }
     }
   ],
   "Important": false,
-  "Language": "porro",
-  "Sentiment": 308,
-  "SentimentConfidence": 292,
+  "Language": "perspiciatis",
+  "Sentiment": 999,
+  "SentimentConfidence": 782,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 671,
-      "Name": "Jast, Koss and Bashirian",
-      "ContentType": "voluptatum",
-      "AttSize": 356,
+      "AttachmentId": 724,
+      "Name": "Luettgen, Cruickshank and Hudson",
+      "ContentType": "sed",
+      "AttSize": 612,
       "InlineImage": false,
-      "ContentId": "nihil",
-      "AuthKey": "cum",
-      "IsSafeFileExtension": false,
+      "ContentId": "et",
+      "AuthKey": "iste",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 201
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
+    "ExtraFields1": "voluptates",
     "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "omnis",
+    "CustomFields2": "impedit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 497
     }
   }
 }

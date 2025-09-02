@@ -2,6 +2,7 @@
 title: GET ChatSession/default
 uid: v1ChatSessionEntity_DefaultChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # GET ChatSession/default
@@ -97,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 871,
-  "TopicId": 457,
+  "ChatSessionId": 555,
+  "TopicId": 59,
   "User": null,
   "Person": null,
-  "CustomerAlias": "natus",
-  "CustomerHost": "ullam",
-  "CustomerName": "Parker, Jacobi and Emmerich",
-  "CustomerEmail": "emilie_jenkins@cremin.uk",
-  "CustomerPhone": "(298)301-8455",
+  "CustomerAlias": "ducimus",
+  "CustomerHost": "aut",
+  "CustomerName": "Nitzsche, Watsica and Kuhic",
+  "CustomerEmail": "raheem.schuppe@thielrunolfsdottir.com",
+  "CustomerPhone": "1-864-091-1865",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Turner-Ferry",
+  "CustomerCompanyName": "Fritsch LLC",
   "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "doloremque",
-  "WhenRequested": "2015-10-05T03:45:28.0921979+02:00",
-  "WhenStarted": "1998-02-11T03:45:28.0921979+01:00",
-  "WhenEnded": "2013-09-27T03:45:28.0921979+02:00",
-  "WhenIdle": "2002-01-30T03:45:28.0921979+01:00",
-  "WhenFetched": "1998-03-06T03:45:28.0921979+01:00",
-  "SessionKey": "saepe",
-  "InitialQueuePos": 680,
-  "AlertLevel": 723,
-  "Rank": 782,
+  "FirstMessage": "quis",
+  "LastMessage": "laudantium",
+  "WhenRequested": "1998-09-29T03:46:59.7224496+02:00",
+  "WhenStarted": "2020-04-15T03:46:59.7224496+02:00",
+  "WhenEnded": "2021-12-23T03:46:59.7224496+01:00",
+  "WhenIdle": "2004-03-12T03:46:59.7224496+01:00",
+  "WhenFetched": "2008-06-19T03:46:59.7224496+02:00",
+  "SessionKey": "officiis",
+  "InitialQueuePos": 731,
+  "AlertLevel": 11,
+  "Rank": 166,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 462,
+  "ChatbotIsActive": true,
+  "Rating": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 505
     }
   }
 }

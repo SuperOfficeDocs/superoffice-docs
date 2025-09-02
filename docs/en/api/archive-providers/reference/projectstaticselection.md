@@ -3,9 +3,9 @@ uid: ProjectStaticSelection
 title: ProjectStaticSelection
 description: 
 keywords: ProjectStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjectStaticSelection"
@@ -806,7 +806,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelection?$select=saintTicketStatus,sale/saleTypeCategory,document/recordType,projectMember/hasInfoText,projectMember/personBusiness
+GET /api/v1/archive/ProjectStaticSelection?$select=sale/currency,appointment/appointmentUdef/SuperOffice:7,document/contactId,projectMember/personExtra/x_person_integer,projectMember/personExtra/x_person_contact_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

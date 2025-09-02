@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketStatusList
 uid: v1ListAgent_GetTicketStatusList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketStatusList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetTicketStatusList?$select=name,department,category/id
 
 ## Request Body: ticketStatusEntityIds 
 
-The primary keys. 
+The identifiers of the TicketStatusEntity object 
 
 
 ## Response:array
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 640,
-    "Name": "Schuppe-Mann",
+    "TicketStatusId": 305,
+    "Name": "Gutmann LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
-    "IsDefault": true,
+    "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 34
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAppWebPanels
 uid: v1ListAgent_GetAppWebPanels
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAppWebPanels
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 563,
-    "Name": "Williamson, Keeling and Kris",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 758,
+    "WebPanelId": 811,
+    "Name": "Blick-Kertzmann",
+    "Tooltip": "a",
+    "Deleted": true,
+    "Rank": 863,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Bode, Ryan and Collins",
+    "ShowInStatusBar": false,
+    "WindowName": "Runolfsson, Russel and Lubowitz",
     "Url": "http://www.example.com/",
-    "ProgId": "ut",
-    "Icon": 747,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "vel",
+    "Icon": 350,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldType": "System.String",
+        "FieldLength": 320
       }
     }
   }

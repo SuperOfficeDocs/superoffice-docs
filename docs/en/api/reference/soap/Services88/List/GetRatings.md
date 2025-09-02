@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetRatings SOAP
 generated: true
 uid: Services88-List-GetRatings
+content_type: reference
 ---
 
 # Services88 List GetRatings

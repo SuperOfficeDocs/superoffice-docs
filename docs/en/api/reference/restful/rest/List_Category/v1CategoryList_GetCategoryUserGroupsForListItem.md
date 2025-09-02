@@ -2,6 +2,7 @@
 title: GET List/Category/Items/{id}/UserGroups
 uid: v1CategoryList_GetCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Hilpert Inc and Sons",
-    "ToolTip": "Soluta voluptas beatae dolores.",
-    "Deleted": true,
-    "Rank": 612,
-    "Type": "voluptas",
-    "ColorBlock": 890,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2011-12-08T03:45:28.9827939+01:00",
+    "Id": 985,
+    "Name": "Murazik, Gleason and Tromp",
+    "ToolTip": "Culpa rerum.",
+    "Deleted": false,
+    "Rank": 509,
+    "Type": "soluta",
+    "ColorBlock": 74,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2022-05-09T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 642,
-        "Name": "Stark LLC",
-        "ToolTip": "Voluptatibus maiores repellat.",
-        "Deleted": false,
-        "Rank": 207,
-        "Type": "ex",
-        "ColorBlock": 972,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2012-11-22T03:45:28.9827939+01:00",
+        "Id": 86,
+        "Name": "McClure Group",
+        "ToolTip": "Eum laboriosam tempora provident dolore aperiam.",
+        "Deleted": true,
+        "Rank": 412,
+        "Type": "aut",
+        "ColorBlock": 526,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "2013-09-25T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "eum",
+        "ExtraInfo": "minus",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Stephany Muller Jr.",
+        "FullName": "Ms. Lura Brayan Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "in",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mabel Kessler",
+    "FullName": "Lorenza Stamm DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 859
       }
     }
   }

@@ -3,9 +3,9 @@ uid: ProjectMemberAssociate
 title: ProjectMemberAssociate
 description: 
 keywords: ProjectMemberAssociate archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjectMemberAssociate"

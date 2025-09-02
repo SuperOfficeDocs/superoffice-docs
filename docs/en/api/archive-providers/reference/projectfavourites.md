@@ -3,9 +3,9 @@ uid: projectfavourites
 title: projectfavourites
 description: 
 keywords: projectfavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "projectfavourites"

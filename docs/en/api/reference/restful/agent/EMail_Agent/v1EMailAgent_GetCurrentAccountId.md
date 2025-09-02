@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetCurrentAccountId
 uid: v1EMailAgent_GetCurrentAccountId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetCurrentAccountId
@@ -71,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-509
+79
 ```

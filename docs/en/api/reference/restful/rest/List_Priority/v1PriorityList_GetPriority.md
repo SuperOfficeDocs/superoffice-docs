@@ -2,6 +2,7 @@
 title: GET List/Priority/Items/{id}
 uid: v1PriorityList_GetPriority
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "Schuppe, Altenwerth and Goyette",
-  "Tooltip": "rerum",
+  "Id": 253,
+  "Name": "Walter-Ritchie",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 22,
-  "Rank": 635,
+  "UdListDefinitionId": 741,
+  "Rank": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 780
     }
   }
 }

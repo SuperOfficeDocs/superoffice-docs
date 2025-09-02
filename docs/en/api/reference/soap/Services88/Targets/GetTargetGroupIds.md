@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.GetTargetGroupIds SOAP
 generated: true
 uid: Services88-Targets-GetTargetGroupIds
+content_type: reference
 ---
 
 # Services88 Targets GetTargetGroupIds

@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.AuthenticateOutgoing SOAP
 generated: true
 uid: Services88-EMail-AuthenticateOutgoing
+content_type: reference
 ---
 
 # Services88 EMail AuthenticateOutgoing

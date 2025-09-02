@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserFromEjUserId
 uid: v1UserAgent_GetUserFromEjUserId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserFromEjUserId
@@ -99,11 +100,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 602
+  "EjUserId": 303
 }
 ```
 
@@ -115,14 +116,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 170,
-    "Name": "Grant, Cartwright and Simonis",
-    "Rank": 658,
-    "Tooltip": "quia",
+    "AssociateId": 986,
+    "Name": "Nitzsche Inc and Sons",
+    "Rank": 313,
+    "Tooltip": "et",
     "LicenseOwners": [
       {
-        "Name": "Kassulke-Hansen",
-        "Description": "Cross-group executive system engine",
+        "Name": "Gutmann-Torphy",
+        "Description": "Phased logistical hierarchy",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +137,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldLength": 537
           }
         }
       },
       {
-        "Name": "Kassulke-Hansen",
-        "Description": "Cross-group executive system engine",
+        "Name": "Gutmann-Torphy",
+        "Description": "Phased logistical hierarchy",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +157,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldLength": 537
           }
         }
       }
@@ -165,110 +166,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "consectetur",
-        "Tooltip": "aut",
-        "Id": 693,
-        "Rank": 674,
+        "Value": "consequuntur",
+        "Tooltip": "sunt",
+        "Id": 302,
+        "Rank": 362,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldType": "System.String",
+            "FieldLength": 883
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2004-05-22T03:45:24.2016834+02:00",
-    "Lastlogout": "2001-04-23T03:45:24.2016834+02:00",
-    "EjUserId": 531,
-    "RequestSignature": "perferendis",
+    "Deleted": false,
+    "Lastlogin": "2014-03-26T03:46:55.628852+01:00",
+    "Lastlogout": "2007-07-10T03:46:55.628852+02:00",
+    "EjUserId": 177,
+    "RequestSignature": "minima",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
+    "IsPersonRetired": true,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "aliquid",
-        "DisplayValue": "quia",
+        "Value": "laborum",
+        "DisplayValue": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 112
+            "FieldLength": 406
           }
         }
       },
       {
         "Type": null,
-        "Value": "aliquid",
-        "DisplayValue": "quia",
+        "Value": "laborum",
+        "DisplayValue": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 112
+            "FieldLength": 406
           }
         }
       }
     ],
-    "UserName": "Deckow LLC",
+    "UserName": "Bartoletti Group",
     "TicketCategories": [
       {
-        "Id": 766,
-        "Name": "Bechtelar LLC",
-        "ToolTip": "Libero hic.",
+        "Id": 190,
+        "Name": "Shields, Beier and Wintheiser",
+        "ToolTip": "Tenetur iure dolorem nulla at enim reprehenderit.",
         "Deleted": true,
-        "Rank": 678,
-        "Type": "suscipit",
+        "Rank": 622,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 626,
-        "ExtraInfo": "ut",
-        "StyleHint": "ea",
-        "FullName": "Ms. Dina Hills",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 619
-          }
-        }
-      }
-    ],
-    "NickName": "Ortiz, Doyle and O'Conner",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "commodi",
-      "ExtraFields2": "inventore"
-    },
-    "CustomFields": {
-      "CustomFields1": "laudantium",
-      "CustomFields2": "fugit"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Shanahan LLC",
-        "DisplayName": "Spinka-Waters",
-        "Description": "Compatible 4th generation core",
-        "ToolTip": "Est ab eum ab mollitia provident voluptatibus.",
-        "Actions": "Implicit",
-        "ActionData": "non",
+        "IconHint": "possimus",
+        "ColorBlock": 72,
+        "ExtraInfo": "neque",
+        "StyleHint": "aliquam",
+        "FullName": "Dr. Alfonso Dietrich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 387
+            "FieldLength": 95
+          }
+        }
+      }
+    ],
+    "NickName": "Adams-Shields",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "rerum",
+      "ExtraFields2": "fugit"
+    },
+    "CustomFields": {
+      "CustomFields1": "perspiciatis",
+      "CustomFields2": "eos"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Ondricka-Reichert",
+        "DisplayName": "Wilkinson, Schimmel and Kunde",
+        "Description": "Multi-tiered 24 hour pricing structure",
+        "ToolTip": "Nesciunt tenetur.",
+        "Actions": "Implicit",
+        "ActionData": "doloribus",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 806
           }
         }
       }
@@ -277,8 +278,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldType": "System.Int32",
+        "FieldLength": 257
       }
     }
   }

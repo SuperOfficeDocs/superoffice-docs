@@ -2,6 +2,7 @@
 title: POST Agents/List/SetRankOnProjectDocument
 uid: v1ListAgent_SetRankOnProjectDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetRankOnProjectDocument
@@ -69,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 532,
+  "ProjectTypeStatusLinkId": 271,
   "ItemsIds": [
-    386,
-    778
+    484,
+    487
   ]
 }
 ```

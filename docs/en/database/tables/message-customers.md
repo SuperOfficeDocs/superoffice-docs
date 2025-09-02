@@ -2,10 +2,10 @@
 uid: table-message_customers
 title: message_customers table
 description: This table contains all cutomers who are involved in a message
-so.generated: true
+generated: true
 keywords: database table message_customers
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # message\_customers Table (260)

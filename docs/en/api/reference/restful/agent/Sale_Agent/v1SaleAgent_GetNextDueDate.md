@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetNextDueDate
 uid: v1SaleAgent_GetNextDueDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetNextDueDate
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 747
+  "SaleId": 682
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2004-03-31T03:45:23.8735682+02:00"
+"2015-10-30T03:46:55.2694888+01:00"
 ```

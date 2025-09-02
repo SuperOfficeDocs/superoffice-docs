@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/LogViewState
 uid: v1DiagnosticsAgent_LogViewState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/LogViewState
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Diagnostics/LogViewState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ViewState": "in"
+  "ViewState": "sint"
 }
 ```
 

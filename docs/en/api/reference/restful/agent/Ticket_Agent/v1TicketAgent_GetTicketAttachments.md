@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketAttachments
 uid: v1TicketAgent_GetTicketAttachments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketAttachments
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 346
+  "TicketEntityId": 561
 }
 ```
 
@@ -96,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 487,
-    "Name": "Wyman LLC",
-    "ContentType": "quia",
-    "AttSize": 981,
+    "AttachmentId": 681,
+    "Name": "Hessel-Johnson",
+    "ContentType": "earum",
+    "AttSize": 750,
     "InlineImage": true,
-    "ContentId": "consequuntur",
-    "AuthKey": "qui",
-    "IsSafeFileExtension": true,
+    "ContentId": "quas",
+    "AuthKey": "optio",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

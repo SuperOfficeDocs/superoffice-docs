@@ -2,6 +2,7 @@
 title: DEL Project/UdefLayout/{progidOrLabel}
 uid: v1ProjectEntity_DeleteUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # DEL Project/UdefLayout/{progidOrLabel}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

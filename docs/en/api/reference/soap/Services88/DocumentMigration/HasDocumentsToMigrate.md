@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.HasDocumentsToMigrate SOAP
 generated: true
 uid: Services88-DocumentMigration-HasDocumentsToMigrate
+content_type: reference
 ---
 
 # Services88 DocumentMigration HasDocumentsToMigrate

@@ -2,10 +2,10 @@
 uid: table-StatusValue
 title: StatusValue table
 description: Values for statuses
-so.generated: true
+generated: true
 keywords: database table StatusValue
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # StatusValue Table (199)

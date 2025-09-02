@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.InitializeTimeZoneData SOAP
 generated: true
 uid: Services88-TimeZone-InitializeTimeZoneData
+content_type: reference
 ---
 
 # Services88 TimeZone InitializeTimeZoneData

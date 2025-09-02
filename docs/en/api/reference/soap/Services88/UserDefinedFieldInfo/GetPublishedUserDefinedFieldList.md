@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetPublishedUserDefinedFieldList
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetPublishedUserDefinedFieldList

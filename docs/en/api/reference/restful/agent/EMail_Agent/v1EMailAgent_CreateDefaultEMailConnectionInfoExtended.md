@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 uid: v1EMailAgent_CreateDefaultEMailConnectionInfoExtended
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 ```
 
-Set default values into a new EMailConnectionInfoExtended.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailConnectionInfoExtended.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -66,7 +64,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 958,
-  "ServerName": "McLaughlin-Rohan",
-  "Protocol": "sit",
-  "UserName": "Towne, Braun and Schowalter",
-  "Password": "doloremque",
-  "UseSSL": true,
+  "Port": 970,
+  "ServerName": "Luettgen Inc and Sons",
+  "Protocol": "dolores",
+  "UserName": "Steuber, Goyette and Ryan",
+  "Password": "dolor",
+  "UseSSL": false,
   "Folder": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

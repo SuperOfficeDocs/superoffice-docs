@@ -2,14 +2,10 @@
 uid: targetsagent-script-events
 title: TargetsAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # TargetsAgent method listing
@@ -41,3 +37,4 @@ Service methods defined on <see cref='T:ITargetsAgent'>TargetsAgent</see> that c
 * [GetTargetRevisionHistoryAsync](gettargetrevisionhistoryasync.md)
 * [SaveTargetDimensionAsync](savetargetdimensionasync.md)
 * [SaveTargetGroupAsync](savetargetgroupasync.md)
+

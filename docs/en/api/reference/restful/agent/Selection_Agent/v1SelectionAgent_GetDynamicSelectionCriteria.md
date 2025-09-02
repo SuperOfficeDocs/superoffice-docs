@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetDynamicSelectionCriteria
 uid: v1SelectionAgent_GetDynamicSelectionCriteria
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteria
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 325
+  "SelectionId": 72
 }
 ```
 
@@ -96,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huels Group",
-    "Operator": "modi",
+    "Name": "Wuckert Inc and Sons",
+    "Operator": "ut",
     "Values": [
-      "sit",
-      "et"
+      "aut",
+      "nisi"
     ],
     "DisplayValues": [
-      "perspiciatis",
-      "et"
+      "est",
+      "dignissimos"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Schulist Group",
-        "Operator": "sit",
+        "Name": "Tremblay, Gutmann and Kreiger",
+        "Operator": "sapiente",
         "Values": [
-          "voluptas",
-          "laborum"
+          "voluptatem",
+          "iure"
         ],
         "DisplayValues": [
-          "qui",
-          "veniam"
+          "at",
+          "facere"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +127,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 594,
+        "InterParenthesis": 788,
         "InterOperator": "And",
-        "UniqueHash": 382
+        "UniqueHash": 310
       }
     ],
-    "InterParenthesis": 310,
+    "InterParenthesis": 753,
     "InterOperator": "And",
-    "UniqueHash": 519
+    "UniqueHash": 279
   }
 ]
 ```

@@ -2,10 +2,10 @@
 uid: table-legal_html_tags
 title: legal_html_tags table
 description: This table is used as a list of all legal HTML tags. HTML tags not in this list                  will be ignored when viewing html versions of messages
-so.generated: true
+generated: true
 keywords: database table legal_html_tags
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # legal\_html\_tags Table (353)

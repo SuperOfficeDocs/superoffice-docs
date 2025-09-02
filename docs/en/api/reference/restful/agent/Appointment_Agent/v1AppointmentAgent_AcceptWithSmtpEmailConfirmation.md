@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/AcceptWithSmtpEmailConfirmation
 uid: v1AppointmentAgent_AcceptWithSmtpEmailConfirmation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/AcceptWithSmtpEmailConfirmation
@@ -70,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 587,
+  "AppointmentId": 417,
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

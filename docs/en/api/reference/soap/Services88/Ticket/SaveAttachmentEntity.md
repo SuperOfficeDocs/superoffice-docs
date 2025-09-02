@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.SaveAttachmentEntity SOAP
 generated: true
 uid: Services88-Ticket-SaveAttachmentEntity
+content_type: reference
 ---
 
 # Services88 Ticket SaveAttachmentEntity

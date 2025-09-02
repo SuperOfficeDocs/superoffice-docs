@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Imageinfo
 uid: v1ContactEntity_GetImageInfo
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Imageinfo
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 29 Nov 2003 03:45:28 G11T
+Last-Modified: Sat, 05 Jan 2002 03:46:59 G1T
 
 {
-  "BlobId": 703,
-  "BlobSize": 680,
-  "Description": "Future-proofed multimedia orchestration",
-  "ExtraInfo": "dolorem",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "accusamus",
-  "OriginalSize": 215,
-  "CreatedDate": "2024-02-15T03:45:28.1703207+01:00",
-  "UpdatedDate": "2003-11-29T03:45:28.1703207+01:00",
+  "BlobId": 352,
+  "BlobSize": 276,
+  "Description": "Robust asynchronous frame",
+  "ExtraInfo": "vel",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "quae",
+  "OriginalSize": 748,
+  "CreatedDate": "2000-02-17T03:46:59.8161962+01:00",
+  "UpdatedDate": "2002-01-05T03:46:59.8161962+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita",
+  "ConceptualType": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 666
     }
   }
 }

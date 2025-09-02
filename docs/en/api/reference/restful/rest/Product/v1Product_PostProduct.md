@@ -2,6 +2,7 @@
 title: POST Product
 uid: v1Product_PostProduct
 generated: true
+content_type: reference
 ---
 
 # POST Product
@@ -145,51 +146,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 911,
-  "ERPProductKey": "ad",
-  "ERPPriceListKey": "eos",
-  "Name": "Ward, Blanda and Kirlin",
-  "Description": "Open-architected foreground middleware",
-  "Code": "quasi",
-  "PriceUnit": "modi",
-  "QuantityUnit": "ipsa",
+  "ProductId": 27,
+  "ERPProductKey": "reiciendis",
+  "ERPPriceListKey": "nemo",
+  "Name": "Hegmann LLC",
+  "Description": "Face to face well-modulated throughput",
+  "Code": "omnis",
+  "PriceUnit": "voluptate",
+  "QuantityUnit": "aut",
   "IsSubscription": true,
-  "SubscriptionUnit": "voluptas",
-  "DefaultSubscriptionQuantity": 18180.334,
-  "ItemNumber": "1413532",
+  "SubscriptionUnit": "distinctio",
+  "DefaultSubscriptionQuantity": 17754.11,
+  "ItemNumber": "1712753",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "quasi",
-  "VAT": 7615.62,
-  "VATInfo": "enim",
-  "UnitCost": 9489.752,
-  "UnitMinimumPrice": 18311.962,
-  "UnitListPrice": 12401.238,
-  "InAssortment": false,
-  "Supplier": "necessitatibus",
-  "SupplierCode": "ratione",
-  "Rights": "animi",
-  "Rule": "reprehenderit",
+  "ProductFamilyKey": "atque",
+  "ProductTypeKey": "sint",
+  "VAT": 16835.847999999998,
+  "VATInfo": "quaerat",
+  "UnitCost": 8580.892,
+  "UnitMinimumPrice": 10201.17,
+  "UnitListPrice": 8756.3959999999988,
+  "InAssortment": true,
+  "Supplier": "facere",
+  "SupplierCode": "natus",
+  "Rights": "quia",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Herman-Gerhold",
-      "Value": "praesentium",
+      "Name": "Okuneva, Durgan and Luettgen",
+      "Value": "totam",
       "Type": "Image"
     },
     {
-      "Name": "Herman-Gerhold",
-      "Value": "praesentium",
+      "Name": "Okuneva, Durgan and Luettgen",
+      "Value": "totam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "esse",
-  "ExtraField2": "omnis",
-  "ExtraField3": "aut",
-  "ExtraField4": "facere",
-  "ExtraField5": "omnis",
-  "InStock": 25792.82
+  "RawExtraInfo": "sit",
+  "ExtraField1": "deleniti",
+  "ExtraField2": "aut",
+  "ExtraField3": "iste",
+  "ExtraField4": "odio",
+  "ExtraField5": "culpa",
+  "InStock": 17443.844
 }
 ```
 
@@ -200,73 +201,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 551,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "placeat",
-  "Name": "Dietrich LLC",
-  "Description": "Switchable well-modulated ability",
-  "Code": "impedit",
-  "PriceUnit": "ut",
-  "QuantityUnit": "magnam",
+  "ProductId": 668,
+  "ERPProductKey": "sequi",
+  "ERPPriceListKey": "quisquam",
+  "Name": "Wolf Inc and Sons",
+  "Description": "Grass-roots executive algorithm",
+  "Code": "facere",
+  "PriceUnit": "tempora",
+  "QuantityUnit": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "nihil",
-  "DefaultSubscriptionQuantity": 26629.597999999998,
-  "ItemNumber": "832571",
+  "SubscriptionUnit": "sunt",
+  "DefaultSubscriptionQuantity": 16152.635999999999,
+  "ItemNumber": "227290",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "quam",
-  "VAT": 30493.82,
-  "VATInfo": "voluptatibus",
-  "UnitCost": 12463.918,
-  "UnitMinimumPrice": 24263.428,
-  "UnitListPrice": 14946.046,
+  "ProductFamilyKey": "excepturi",
+  "ProductTypeKey": "magni",
+  "VAT": 12119.178,
+  "VATInfo": "laborum",
+  "UnitCost": 17224.464,
+  "UnitMinimumPrice": 8643.572,
+  "UnitListPrice": 25488.822,
   "InAssortment": true,
-  "Supplier": "omnis",
-  "SupplierCode": "distinctio",
-  "Rights": "quod",
-  "Rule": "officiis",
+  "Supplier": "soluta",
+  "SupplierCode": "quo",
+  "Rights": "reprehenderit",
+  "Rule": "libero",
   "ExtraInfo": [
     {
-      "Name": "Rolfson-Lehner",
-      "Value": "aspernatur",
+      "Name": "Feil Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 529
         }
       }
     },
     {
-      "Name": "Rolfson-Lehner",
-      "Value": "aspernatur",
+      "Name": "Feil Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 529
         }
       }
     }
   ],
-  "RawExtraInfo": "asperiores",
-  "ExtraField1": "eos",
-  "ExtraField2": "eligendi",
-  "ExtraField3": "et",
+  "RawExtraInfo": "cum",
+  "ExtraField1": "et",
+  "ExtraField2": "eos",
+  "ExtraField3": "aliquam",
   "ExtraField4": "sapiente",
-  "ExtraField5": "aperiam",
-  "InStock": 31167.629999999997,
+  "ExtraField5": "cumque",
+  "InStock": 1068.694,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 9
     }
   }
 }

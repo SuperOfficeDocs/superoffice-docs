@@ -2,6 +2,7 @@
 title: POST ShipmentMessageBlock
 uid: v1ShipmentMessageBlockEntity_PostShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # POST ShipmentMessageBlock
@@ -90,18 +91,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 388,
-  "AssociateId": 45,
-  "Block": "et",
-  "Registered": "1999-08-10T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 325,
-  "Updated": "2017-01-18T03:45:28.6546813+01:00",
-  "UpdatedAssociateId": 309,
-  "UpdatedCount": 179
+  "ShipmentMessageBlockId": 934,
+  "AssociateId": 290,
+  "Block": "ea",
+  "Registered": "2013-12-21T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 649,
+  "Updated": "2003-05-25T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 762,
+  "UpdatedCount": 340
 }
 ```
 
@@ -112,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 775,
-  "AssociateId": 766,
-  "Block": "minima",
-  "Registered": "2000-02-19T03:45:28.6546813+01:00",
-  "RegisteredAssociateId": 964,
-  "Updated": "2015-01-11T03:45:28.6546813+01:00",
-  "UpdatedAssociateId": 820,
-  "UpdatedCount": 134,
+  "ShipmentMessageBlockId": 688,
+  "AssociateId": 595,
+  "Block": "iusto",
+  "Registered": "2010-04-10T03:47:00.3005605+02:00",
+  "RegisteredAssociateId": 731,
+  "Updated": "1999-05-30T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 556,
+  "UpdatedCount": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

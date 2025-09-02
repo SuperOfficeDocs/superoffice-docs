@@ -2,10 +2,10 @@
 uid: table-autosave
 title: autosave table
 description: Autosaved text clobs from ejscript and emarketeer messages
-so.generated: true
+generated: true
 keywords: database table autosave
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # autosave Table (402)

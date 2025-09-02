@@ -2,6 +2,7 @@
 title: PUT SaleStakeholder/{id}
 uid: v1SaleStakeholder_PutSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # PUT SaleStakeholder/{id}
@@ -115,29 +116,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Cummerata-Champlin",
-  "Comment": "enim",
-  "StakeholderRoleId": 946,
-  "CountryId": 770,
-  "PersonId": 605,
-  "EmailDescription": "mose_mitchell@goodwinmurphy.co.uk",
-  "EmailId": 12,
-  "EmailAddress": "samantha_buckridge@berge.ca",
-  "PhoneId": 283,
-  "ContactName": "Aufderhar, Price and Maggio",
-  "ContactId": 500,
-  "SaleId": 948,
-  "Mrmrs": "eos",
-  "Firstname": "Brandon",
-  "MiddleName": "Boehm, Monahan and Moen",
-  "Lastname": "Trantow",
-  "SaleStakeholderId": 219,
-  "Rank": 529,
-  "Phone": "650.804.6981 x0335"
+  "StakeholderRoleName": "Dibbert-Lakin",
+  "Comment": "aperiam",
+  "StakeholderRoleId": 100,
+  "CountryId": 43,
+  "PersonId": 528,
+  "EmailDescription": "liam_kuhlman@bradtkestokes.us",
+  "EmailId": 865,
+  "EmailAddress": "velda@mcglynn.name",
+  "PhoneId": 859,
+  "ContactName": "Considine Group",
+  "ContactId": 408,
+  "SaleId": 883,
+  "Mrmrs": "incidunt",
+  "Firstname": "Alfred",
+  "MiddleName": "Willms Group",
+  "Lastname": "Stanton",
+  "SaleStakeholderId": 271,
+  "Rank": 218,
+  "Phone": "(311)483-2732 x68094"
 }
 ```
 
@@ -148,36 +149,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Watsica, Strosin and Armstrong",
-  "Comment": "quia",
-  "StakeholderRoleId": 481,
-  "CountryId": 64,
-  "PersonId": 189,
-  "EmailDescription": "edwina.streich@ondricka.uk",
-  "EmailId": 645,
-  "EmailAddress": "adalberto_green@erdman.co.uk",
-  "PhoneId": 602,
-  "ContactName": "Bergstrom, Rempel and Anderson",
-  "ContactId": 837,
-  "SaleId": 512,
-  "Mrmrs": "a",
-  "Firstname": "Derek",
-  "MiddleName": "Goodwin, Conn and Altenwerth",
-  "Lastname": "Goldner",
-  "SaleStakeholderId": 251,
-  "Rank": 291,
-  "Phone": "433-097-2614",
+  "StakeholderRoleName": "Renner-Heller",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 457,
+  "CountryId": 798,
+  "PersonId": 562,
+  "EmailDescription": "lora_lockman@auerfisher.com",
+  "EmailId": 103,
+  "EmailAddress": "julio@wunsch.uk",
+  "PhoneId": 33,
+  "ContactName": "McDermott-Torphy",
+  "ContactId": 965,
+  "SaleId": 710,
+  "Mrmrs": "pariatur",
+  "Firstname": "Gerson",
+  "MiddleName": "McKenzie Group",
+  "Lastname": "Fisher",
+  "SaleStakeholderId": 282,
+  "Rank": 63,
+  "Phone": "121.176.1315 x228",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 783
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

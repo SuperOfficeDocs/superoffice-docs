@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CreateTicketFromMailData
 uid: v1CustomerServiceAgent_CreateTicketFromMailData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CreateTicketFromMailData
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 99,
-  "Data": "exercitationem"
+  "MailboxId": 37,
+  "Data": "consectetur"
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 980,
-  "Title": "vel",
-  "OwnerName": "Murray, Doyle and Halvorson",
+  "TicketId": 410,
+  "Title": "incidunt",
+  "OwnerName": "Wuckert, Boyle and Kovacek",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Hermiston Inc and Sons",
+  "PriorityName": "Jacobs Group",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Bednar, Gutkowski and Rohan",
-  "ContactName": "Hudson Group",
+  "PersonName": "Haag Inc and Sons",
+  "ContactName": "Flatley-Windler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 654
     }
   }
 }

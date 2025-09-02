@@ -2,6 +2,7 @@
 title: GET Hierarchy/{domain}
 uid: v1HierarchyEntity_GetAllInDomain
 generated: true
+content_type: reference
 ---
 
 # GET Hierarchy/{domain}
@@ -29,7 +30,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,46 +90,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 608,
+    "HierarchyId": 661,
     "Domain": "Dashboards",
-    "Name": "Johnston-Jakubowski",
-    "Fullname": "voluptatem",
-    "ParentId": 122,
+    "Name": "Barton-O'Connell",
+    "Fullname": "animi",
+    "ParentId": 334,
     "Children": [
       {
-        "HierarchyId": 672,
+        "HierarchyId": 391,
         "Domain": "Dashboards",
-        "Name": "Wolf-Breitenberg",
-        "Fullname": "est",
-        "ParentId": 687,
+        "Name": "D'Amore-Collins",
+        "Fullname": "ut",
+        "ParentId": 757,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2009-06-11T03:45:28.3734363+02:00",
-        "RegisteredAssociateId": 959,
-        "Updated": "1998-02-16T03:45:28.3734363+01:00",
-        "UpdatedAssociateId": 51,
+        "Registered": "2008-08-27T03:47:00.0349452+02:00",
+        "RegisteredAssociateId": 708,
+        "Updated": "2024-12-31T03:47:00.0349452+01:00",
+        "UpdatedAssociateId": 336,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 835
           }
         }
       }
     ],
-    "Registered": "2014-11-26T03:45:28.3734363+01:00",
-    "RegisteredAssociateId": 873,
-    "Updated": "2003-08-27T03:45:28.3734363+02:00",
-    "UpdatedAssociateId": 650,
+    "Registered": "2022-01-29T03:47:00.0349452+01:00",
+    "RegisteredAssociateId": 139,
+    "Updated": "2006-12-20T03:47:00.0349452+01:00",
+    "UpdatedAssociateId": 968,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldLength": 706
       }
     }
   }

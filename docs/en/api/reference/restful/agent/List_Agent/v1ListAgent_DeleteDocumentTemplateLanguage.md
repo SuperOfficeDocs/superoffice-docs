@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteDocumentTemplateLanguage
 uid: v1ListAgent_DeleteDocumentTemplateLanguage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteDocumentTemplateLanguage
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 920,
-  "LanguageCode": "laudantium"
+  "DocumentTemplateId": 438,
+  "LanguageCode": "veniam"
 }
 ```
 

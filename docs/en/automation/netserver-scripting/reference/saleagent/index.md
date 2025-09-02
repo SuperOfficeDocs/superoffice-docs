@@ -2,14 +2,10 @@
 uid: saleagent-script-events
 title: SaleAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # SaleAgent method listing
@@ -58,3 +54,4 @@ Service methods defined on <see cref='T:ISaleAgent'>SaleAgent</see> that can tri
 * [SetAsSoldWithReasonAsync](setassoldwithreasonasync.md)
 * [UpdateSaleStakeholdersAsync](updatesalestakeholdersasync.md)
 * [ValidateSaleEntityAsync](validatesaleentityasync.md)
+

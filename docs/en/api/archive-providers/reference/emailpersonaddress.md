@@ -3,9 +3,9 @@ uid: emailpersonaddress
 title: emailpersonaddress
 description: Person subchannel for special purpose archive provider used to search for email addresses.
 keywords: emailpersonaddress archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailpersonaddress"
@@ -189,7 +189,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=emailHasBounced,supportAssociateFullName,personAddress/line2
+GET /api/v1/archive/emailpersonaddress?$select=personContact/contactPhone/formattedNumber,supportAssociateFullName,personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

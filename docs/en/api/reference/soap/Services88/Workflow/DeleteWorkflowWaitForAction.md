@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.DeleteWorkflowWaitForAction SOAP
 generated: true
 uid: Services88-Workflow-DeleteWorkflowWaitForAction
+content_type: reference
 ---
 
 # Services88 Workflow DeleteWorkflowWaitForAction

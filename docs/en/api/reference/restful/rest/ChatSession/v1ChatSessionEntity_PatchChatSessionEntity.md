@@ -2,6 +2,7 @@
 title: PATCH ChatSession/{id}
 uid: v1ChatSessionEntity_PatchChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH ChatSession/{id}
@@ -144,12 +145,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quam",
+    "path": "recusandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quam",
+    "path": "recusandae",
     "value": {}
   }
 ]
@@ -162,29 +163,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 540,
-  "TopicId": 355,
+  "ChatSessionId": 754,
+  "TopicId": 776,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ducimus",
-  "CustomerHost": "quia",
-  "CustomerName": "Turner Group",
-  "CustomerEmail": "kane@conn.com",
-  "CustomerPhone": "864.662.9543",
+  "CustomerAlias": "non",
+  "CustomerHost": "molestiae",
+  "CustomerName": "Kautzer-Mann",
+  "CustomerEmail": "roma@reichelstreich.biz",
+  "CustomerPhone": "294.359.5769 x8910",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Huels, Mante and Pfannerstill",
+  "CustomerCompanyName": "Littel-Kovacek",
   "Status": "Closed",
-  "FirstMessage": "minus",
-  "LastMessage": "iste",
-  "WhenRequested": "2008-09-24T03:45:28.1078228+02:00",
-  "WhenStarted": "2001-10-14T03:45:28.1078228+02:00",
-  "WhenEnded": "2009-09-25T03:45:28.1078228+02:00",
-  "WhenIdle": "2005-06-19T03:45:28.1078228+02:00",
-  "WhenFetched": "2007-03-05T03:45:28.1078228+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 129,
-  "AlertLevel": 294,
-  "Rank": 459,
+  "FirstMessage": "sint",
+  "LastMessage": "sint",
+  "WhenRequested": "2012-12-05T03:46:59.7536971+01:00",
+  "WhenStarted": "2021-12-12T03:46:59.7536971+01:00",
+  "WhenEnded": "2020-12-30T03:46:59.7536971+01:00",
+  "WhenIdle": "2008-01-01T03:46:59.7536971+01:00",
+  "WhenFetched": "1998-06-06T03:46:59.7536971+02:00",
+  "SessionKey": "facere",
+  "InitialQueuePos": 915,
+  "AlertLevel": 135,
+  "Rank": 32,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +193,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 376,
+  "Rating": 891,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   },
   "_Links": {

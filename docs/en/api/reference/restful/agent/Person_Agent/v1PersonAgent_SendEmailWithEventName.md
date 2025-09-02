@@ -2,6 +2,7 @@
 title: POST Agents/Person/SendEmailWithEventName
 uid: v1PersonAgent_SendEmailWithEventName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SendEmailWithEventName
@@ -74,16 +75,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "et",
-  "To": "animi",
-  "Subject": "et",
-  "PlainBody": "voluptatem",
-  "HtmlBody": "aut",
+  "From": "deserunt",
+  "To": "perferendis",
+  "Subject": "ipsum",
+  "PlainBody": "saepe",
+  "HtmlBody": "porro",
   "AttachmentIds": [
-    810,
-    709
+    977,
+    341
   ],
-  "EventName": "Strosin-Gerlach"
+  "EventName": "Auer-Kuvalis"
 }
 ```
 

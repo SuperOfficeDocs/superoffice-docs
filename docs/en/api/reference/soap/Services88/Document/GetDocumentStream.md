@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentStream SOAP
 generated: true
 uid: Services88-Document-GetDocumentStream
+content_type: reference
 ---
 
 # Services88 Document GetDocumentStream

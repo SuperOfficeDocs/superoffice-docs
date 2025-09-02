@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetSaleDocuments SOAP
 generated: true
 uid: Services88-Document-GetSaleDocuments
+content_type: reference
 ---
 
 # Services88 Document GetSaleDocuments

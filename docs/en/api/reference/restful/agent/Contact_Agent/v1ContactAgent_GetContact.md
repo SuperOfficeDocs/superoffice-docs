@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetContact
 uid: v1ContactAgent_GetContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetContact
@@ -22,11 +23,11 @@ Gets a Contact object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| contactId | int32 | **Required** The primary key. |
+| contactId | int32 | **Required** The identifier of the Contact object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=346
+POST /api/v1/Agents/Contact/GetContact?contactId=353
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +101,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 851,
-  "Name": "Hilll Inc and Sons",
-  "OrgNr": "977913",
+  "ContactId": 328,
+  "Name": "Osinski Inc and Sons",
+  "OrgNr": "804229",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "eaque",
-  "DirectPhone": "357.723.6193",
-  "AssociateId": 104,
-  "CountryId": 328,
-  "EmailAddress": "hassie@kassulkekling.us",
-  "Kananame": "fuga",
-  "EmailAddressName": "may.rippin@ullrich.info",
+  "City": "sit",
+  "DirectPhone": "925-857-4342",
+  "AssociateId": 21,
+  "CountryId": 265,
+  "EmailAddress": "howell@haag.uk",
+  "Kananame": "sapiente",
+  "EmailAddressName": "valerie@robelritchie.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Eve Schuppe",
+  "AssociateFullName": "Jaquan Altenwerth",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "voluptas",
-  "FullName": "Preston Kautzer",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 495,
-  "Number1": "980570",
-  "Number2": "1577067",
+  "FormattedAddress": "sit",
+  "FullName": "Virginia Kozey",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 582,
+  "Number1": "640905",
+  "Number2": "1022473",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 591
     }
   }
 }

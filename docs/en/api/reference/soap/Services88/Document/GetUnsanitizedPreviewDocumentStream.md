@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetUnsanitizedPreviewDocumentStream SOAP
 generated: true
 uid: Services88-Document-GetUnsanitizedPreviewDocumentStream
+content_type: reference
 ---
 
 # Services88 Document GetUnsanitizedPreviewDocumentStream

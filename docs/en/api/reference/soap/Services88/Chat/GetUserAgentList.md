@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.GetUserAgentList SOAP
 generated: true
 uid: Services88-Chat-GetUserAgentList
+content_type: reference
 ---
 
 # Services88 Chat GetUserAgentList

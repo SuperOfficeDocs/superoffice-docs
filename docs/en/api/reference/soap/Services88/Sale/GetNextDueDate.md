@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.GetNextDueDate SOAP
 generated: true
 uid: Services88-Sale-GetNextDueDate
+content_type: reference
 ---
 
 # Services88 Sale GetNextDueDate
@@ -62,7 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Sale="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <Sale:GetNextDueDateResponse>
-   <Sale:Response xsi:type="xsd:dateTime">2025-06-26T01:44:40Z</Sale:Response>
+   <Sale:Response xsi:type="xsd:dateTime">2025-08-30T01:46:12Z</Sale:Response>
   </Sale:GetNextDueDateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

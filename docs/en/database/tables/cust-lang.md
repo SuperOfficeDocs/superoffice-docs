@@ -2,10 +2,10 @@
 uid: table-cust_lang
 title: cust_lang table
 description: This table contains entries for customer languages.
-so.generated: true
+generated: true
 keywords: database table cust_lang
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # cust\_lang Table (320)

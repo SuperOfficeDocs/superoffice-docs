@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.GetNetServicesStatusUrl SOAP
 generated: true
 uid: Services88-Preference-GetNetServicesStatusUrl
+content_type: reference
 ---
 
 # Services88 Preference GetNetServicesStatusUrl

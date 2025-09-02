@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/DeleteWindowPosSize
 uid: v1ConfigurationAgent_DeleteWindowPosSize
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/DeleteWindowPosSize
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WindowPosSizeId": 267
+  "WindowPosSizeId": 700
 }
 ```
 

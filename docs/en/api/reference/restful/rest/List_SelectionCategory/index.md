@@ -1,6 +1,8 @@
 ---
+uid: tag-List_SelectionCategory
 title: List_SelectionCategory
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: PUT List/Competitor/Items/{id}/UserGroups
 uid: v1CompetitorList_PutCompetitorUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Zieme-Lockman",
-    "ToolTip": "Maiores ad est nihil.",
+    "Id": 69,
+    "Name": "Heathcote-Bartoletti",
+    "ToolTip": "Fuga vero molestiae et animi aliquam.",
     "Deleted": true,
-    "Rank": 862,
-    "Type": "dolore",
-    "ColorBlock": 123,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2004-04-08T03:45:28.9827939+02:00",
+    "Rank": 66,
+    "Type": "quod",
+    "ColorBlock": 583,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2013-12-31T03:47:00.5974251+01:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Rolfson, Emard and Boehm",
-        "ToolTip": "Ducimus porro reprehenderit eveniet pariatur.",
+        "Id": 371,
+        "Name": "Cormier, Monahan and Towne",
+        "ToolTip": "Et molestias est porro qui quidem nulla.",
         "Deleted": true,
-        "Rank": 182,
-        "Type": "voluptatem",
-        "ColorBlock": 589,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2001-03-30T03:45:28.9827939+02:00",
+        "Rank": 209,
+        "Type": "laudantium",
+        "ColorBlock": 796,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2008-06-30T03:47:00.5974251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "numquam",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Miss Don Cassandre Paucek"
+        "FullName": "Juana Gutkowski"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "maxime",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Prof. Lavina Bartoletti"
+    "FullName": "Jeanie Hahn"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Heathcote-Blanda",
-    "ToolTip": "Et et in qui qui.",
+    "Id": 638,
+    "Name": "Roob-Ferry",
+    "ToolTip": "Voluptas aut repellat qui amet iure deserunt.",
     "Deleted": false,
-    "Rank": 572,
-    "Type": "asperiores",
-    "ColorBlock": 620,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2016-02-23T03:45:28.9827939+01:00",
+    "Rank": 995,
+    "Type": "cupiditate",
+    "ColorBlock": 960,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2007-06-07T03:47:00.5974251+02:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Hermann Inc and Sons",
-        "ToolTip": "Aut omnis consequuntur dolores.",
+        "Id": 966,
+        "Name": "Stark, Okuneva and Schiller",
+        "ToolTip": "Earum nobis consequatur quia distinctio et.",
         "Deleted": false,
-        "Rank": 245,
-        "Type": "consequatur",
-        "ColorBlock": 480,
-        "IconHint": "voluptas",
+        "Rank": 731,
+        "Type": "recusandae",
+        "ColorBlock": 862,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2012-05-07T03:45:28.9827939+02:00",
+        "LastChanged": "2007-12-17T03:47:00.5974251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Matilda Joey Schuppe PhD",
+        "FullName": "Amelia Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldLength": 564
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "porro",
-    "Hidden": true,
-    "FullName": "Miss Rosalinda Sanford Jr.",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Keegan Keenan Grady DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldType": "System.String",
+        "FieldLength": 173
       }
     }
   }

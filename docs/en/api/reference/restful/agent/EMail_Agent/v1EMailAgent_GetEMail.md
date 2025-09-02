@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMail
 uid: v1EMailAgent_GetEMail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMail
@@ -101,11 +102,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
+  "Id": 301,
   "IncludeAttachments": true
 }
 ```
@@ -119,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 598,
-      "ContactName": "Kassulke LLC",
-      "PersonId": 682,
-      "PersonName": "Gottlieb, Anderson and Hane",
-      "AssociateId": 317,
-      "Address": "ex",
-      "EmailId": 90,
+      "ContactId": 209,
+      "ContactName": "Berge Inc and Sons",
+      "PersonId": 179,
+      "PersonName": "Koch-Hermann",
+      "AssociateId": 118,
+      "Address": "nemo",
+      "EmailId": 11,
       "DuplicatePersonIds": [
-        895,
-        243
+        398,
+        542
       ],
-      "Name": "Volkman, Gottlieb and Bergnaum",
+      "Name": "Gislason-Donnelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 929
+          "FieldLength": 389
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 946,
-      "ContactName": "Walsh-Jacobs",
-      "PersonId": 335,
-      "PersonName": "Boehm, Kassulke and Miller",
-      "AssociateId": 859,
-      "Address": "omnis",
-      "EmailId": 594,
+      "ContactId": 347,
+      "ContactName": "Beier Group",
+      "PersonId": 448,
+      "PersonName": "Witting, Bashirian and Rogahn",
+      "AssociateId": 510,
+      "Address": "velit",
+      "EmailId": 979,
       "DuplicatePersonIds": [
-        30,
-        662
+        991,
+        259
       ],
-      "Name": "Stehr, Jacobs and Ullrich",
+      "Name": "Cremin, Rohan and Luettgen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 959
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 836,
-      "ContactName": "Hand Group",
-      "PersonId": 153,
-      "PersonName": "Bergnaum-Jewess",
-      "AssociateId": 400,
-      "Address": "qui",
-      "EmailId": 855,
+      "ContactId": 720,
+      "ContactName": "Schaden Group",
+      "PersonId": 131,
+      "PersonName": "Rath-Bogan",
+      "AssociateId": 414,
+      "Address": "id",
+      "EmailId": 489,
       "DuplicatePersonIds": [
-        353,
-        826
+        166,
+        120
       ],
-      "Name": "Stroman LLC",
+      "Name": "Kozey-Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 735
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "dolor",
+  "Subject": "possimus",
+  "HTMLBody": "facere",
   "From": null,
-  "Sent": "2010-08-12T03:45:23.4517052+02:00",
-  "Size": 981,
+  "Sent": "2013-06-26T03:46:54.8007556+02:00",
+  "Size": 350,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "praesentium",
-  "PlainBody": "et",
-  "IsSent": false,
+  "MessageID": "beatae",
+  "PlainBody": "vel",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 984,
+  "ServerId": 910,
   "Attachments": [
     {
-      "Description": "Re-contextualized encompassing implementation",
-      "Filename": "nemo",
-      "Size": 289,
-      "Type": "accusantium",
-      "Encoding": "asperiores",
-      "Id": "esse",
-      "Disposition": "mollitia",
-      "IsSafeFileExtension": true,
+      "Description": "Right-sized bottom-line ability",
+      "Filename": "optio",
+      "Size": 217,
+      "Type": "voluptatem",
+      "Encoding": "ipsa",
+      "Id": "porro",
+      "Disposition": "ducimus",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 883
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hirthe Inc and Sons",
+      "Name": "Weissnat, Schultz and Bosco",
       "Values": [
-        "ut",
-        "dolor"
+        "ab",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 891
         }
       }
     },
     {
-      "Name": "Hirthe Inc and Sons",
+      "Name": "Weissnat, Schultz and Bosco",
       "Values": [
-        "ut",
-        "dolor"
+        "ab",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 891
         }
       }
     }
   ],
-  "FolderName": "Marks, Ledner and Bogan",
-  "EmailItemId": 136,
-  "AccountId": 448,
-  "ReceivedAt": "2011-01-08T03:45:23.4517052+01:00",
+  "FolderName": "Witting Group",
+  "EmailItemId": 224,
+  "AccountId": 355,
+  "ReceivedAt": "2005-01-20T03:46:54.8007556+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-05-08T03:45:23.4517052+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-10-19T03:46:54.8007556+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

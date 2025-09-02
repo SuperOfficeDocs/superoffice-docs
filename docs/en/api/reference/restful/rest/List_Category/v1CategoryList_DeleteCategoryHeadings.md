@@ -2,6 +2,7 @@
 title: DEL List/Category/Headings
 uid: v1CategoryList_DeleteCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Category/Headings

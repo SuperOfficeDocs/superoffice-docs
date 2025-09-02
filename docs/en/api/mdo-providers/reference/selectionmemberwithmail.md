@@ -3,9 +3,9 @@ uid: selectionmemberwithmail
 title: selectionmemberwithmail
 keywords: mdoprovider mdo provider selectionmemberwithmail
 description: List of selection members fetched based on provided criteria Output is in format - "[ContactName, Department/PersonFullName] &lt;registered@email.com&gt;" Ex - "Contact, Department &lt;registered@email.com&gt;" "Person Name &lt;registered@email.com&gt;"
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "selectionmemberwithmail" MDO List

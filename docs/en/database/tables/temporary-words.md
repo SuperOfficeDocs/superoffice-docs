@@ -2,10 +2,10 @@
 uid: table-temporary_words
 title: temporary_words table
 description: This table is used as a temporary table, containing the words we want                  to search for in the FAQs
-so.generated: true
+generated: true
 keywords: database table temporary_words
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # temporary\_words Table (356)

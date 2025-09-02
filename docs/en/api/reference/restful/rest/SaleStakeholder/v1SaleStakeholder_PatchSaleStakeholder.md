@@ -2,6 +2,7 @@
 title: PATCH SaleStakeholder/{id}
 uid: v1SaleStakeholder_PatchSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # PATCH SaleStakeholder/{id}
@@ -126,18 +127,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "quaerat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "quaerat",
     "value": {}
   }
 ]
@@ -150,36 +151,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Raynor-Hammes",
-  "Comment": "ipsum",
-  "StakeholderRoleId": 24,
-  "CountryId": 798,
-  "PersonId": 501,
-  "EmailDescription": "tobin@purdyluettgen.com",
-  "EmailId": 839,
-  "EmailAddress": "thelma@funkbashirian.co.uk",
-  "PhoneId": 18,
-  "ContactName": "Bernier Inc and Sons",
-  "ContactId": 420,
-  "SaleId": 28,
-  "Mrmrs": "repellat",
-  "Firstname": "Kaci",
-  "MiddleName": "Kuhic, Ortiz and Daniel",
-  "Lastname": "Kohler",
-  "SaleStakeholderId": 284,
-  "Rank": 987,
-  "Phone": "513-578-7956 x524",
+  "StakeholderRoleName": "Upton Group",
+  "Comment": "est",
+  "StakeholderRoleId": 540,
+  "CountryId": 364,
+  "PersonId": 247,
+  "EmailDescription": "aron@wehner.us",
+  "EmailId": 908,
+  "EmailAddress": "dedrick.durgan@effertzwill.name",
+  "PhoneId": 729,
+  "ContactName": "Parker-Kessler",
+  "ContactId": 478,
+  "SaleId": 967,
+  "Mrmrs": "aliquam",
+  "Firstname": "Terrill",
+  "MiddleName": "Hartmann, Corwin and Monahan",
+  "Lastname": "Greenholt",
+  "SaleStakeholderId": 131,
+  "Rank": 879,
+  "Phone": "004.916.9127 x2050",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultDash
 uid: v1DashAgent_CreateDefaultDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultDash
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultDash
 ```
 
-Set default values into a new Dash.
+Loading default values into a new Dash.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -79,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 605,
-  "UniqueId": "nulla",
-  "Name": "Reynolds Inc and Sons",
-  "Description": "Secured context-sensitive initiative",
-  "AssociateId": 110,
-  "Columns": 370,
+  "DashboardId": 558,
+  "UniqueId": "officiis",
+  "Name": "Russel-Gottlieb",
+  "Description": "Pre-emptive bi-directional access",
+  "AssociateId": 164,
+  "Columns": 162,
   "Theme": null,
-  "VisibleForAll": 214,
+  "VisibleForAll": 262,
   "VisibleForAssociates": [
-    787,
-    996
+    476,
+    825
   ],
   "VisibleForGroups": [
-    390,
-    597
+    556,
+    896
   ],
-  "PinForAll": 514,
+  "PinForAll": 284,
   "PinForAssociates": [
-    245,
-    996
+    369,
+    645
   ],
   "PinForGroups": [
-    599,
-    782
+    962,
+    341
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

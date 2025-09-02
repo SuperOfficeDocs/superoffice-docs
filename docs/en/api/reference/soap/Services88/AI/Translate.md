@@ -2,6 +2,7 @@
 title: Services88.AIAgent.Translate SOAP
 generated: true
 uid: Services88-AI-Translate
+content_type: reference
 ---
 
 # Services88 AI Translate

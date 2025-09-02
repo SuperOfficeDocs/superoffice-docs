@@ -2,6 +2,7 @@
 title: PUT List/Reason/Items
 uid: v1ReasonList_PutAllReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Hammes LLC",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 870,
-    "Rank": 580
+    "Id": 404,
+    "Name": "Eichmann LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 733,
+    "Rank": 97
   },
   {
-    "Id": 320,
-    "Name": "Hammes LLC",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 870,
-    "Rank": 580
+    "Id": 404,
+    "Name": "Eichmann LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 733,
+    "Rank": 97
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Trantow-Bruen",
-    "Tooltip": "ratione",
+    "Id": 210,
+    "Name": "Bogisich, O'Connell and Kris",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 44,
-    "Rank": 660,
+    "UdListDefinitionId": 240,
+    "Rank": 335,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldType": "System.String",
+        "FieldLength": 276
       }
     }
   }

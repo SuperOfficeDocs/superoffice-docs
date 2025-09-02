@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Tickets
 uid: v1ContactEntity_Tickets
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Tickets
@@ -74,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Tickets?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Tickets?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Tickets?$orderBy=name asc
-GET /api/v1/Contact/{id}/Tickets?$entities=reprehenderit
-GET /api/v1/Contact/{id}/Tickets?$top=494
-GET /api/v1/Contact/{id}/Tickets?$skip=623
+GET /api/v1/Contact/{id}/Tickets?$entities=velit
+GET /api/v1/Contact/{id}/Tickets?$top=155
+GET /api/v1/Contact/{id}/Tickets?$skip=492
 GET /api/v1/Contact/{id}/Tickets?$mode=Full
 GET /api/v1/Contact/{id}/Tickets?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Tickets?$context=in
+GET /api/v1/Contact/{id}/Tickets?$context=commodi
 GET /api/v1/Contact/{id}/Tickets?$format=JSON
 GET /api/v1/Contact/{id}/Tickets?$jsonSafe=False
 GET /api/v1/Contact/{id}/Tickets?$output=Display
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Contact/{id}/Tickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugit",
+  "odata.nextLink": "vel",
   "value": [
     {
-      "PrimaryKey": 4869,
-      "EntityName": "person",
-      "personId": 4869,
-      "fullName": "Marion Kutch"
+      "PrimaryKey": 7201,
+      "EntityName": "sale",
+      "saleId": 7201,
+      "contactId": 7926,
+      "name": "Jast Inc and Sons"
     },
     {
-      "PrimaryKey": 8779,
-      "EntityName": "person",
-      "personId": 8779,
-      "fullName": "Cynthia Jewess"
+      "PrimaryKey": 3405,
+      "EntityName": "sale",
+      "saleId": 3405,
+      "contactId": 6445,
+      "name": "Crooks-O'Keefe"
     }
   ]
 }

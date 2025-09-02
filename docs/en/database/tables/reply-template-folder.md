@@ -2,10 +2,10 @@
 uid: table-reply_template_folder
 title: reply_template_folder table
 description: This table contains entries for folders for reply templates.
-so.generated: true
+generated: true
 keywords: database table reply_template_folder
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # reply\_template\_folder Table (276)

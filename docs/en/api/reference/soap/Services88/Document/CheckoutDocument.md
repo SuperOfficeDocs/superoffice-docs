@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CheckoutDocument SOAP
 generated: true
 uid: Services88-Document-CheckoutDocument
+content_type: reference
 ---
 
 # Services88 Document CheckoutDocument

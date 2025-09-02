@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/EventHandlerExists
 uid: v1CustomerServiceAgent_EventHandlerExists
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/EventHandlerExists

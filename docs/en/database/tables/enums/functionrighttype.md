@@ -2,10 +2,10 @@
 uid: enum-functionrighttype
 title: Enum values for FunctionRightType
 description: Lists the enum values for FunctionRightType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # FunctionRightType Enum

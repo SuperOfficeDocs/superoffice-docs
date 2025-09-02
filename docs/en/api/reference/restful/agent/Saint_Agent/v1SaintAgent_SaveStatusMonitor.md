@@ -2,6 +2,7 @@
 title: POST Agents/Saint/SaveStatusMonitor
 uid: v1SaintAgent_SaveStatusMonitor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/SaveStatusMonitor
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 ```
 
-Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
+Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing StatusMonitor or creates a new StatusMonitor if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: statusMonitor 
 
-The StatusMonitor to be saved. 
+The StatusMonitor that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,21 +96,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 34,
-  "Rank": 167,
-  "DefaultTask": 472,
-  "DefaultTaskText": "earum",
+  "OwnerTable": 270,
+  "Rank": 508,
+  "DefaultTask": 930,
+  "DefaultTaskText": "et",
   "IsVisual": false,
-  "LastGenerated": "2014-12-16T03:45:23.8423206+01:00",
-  "Description": "Robust upward-trending firmware",
-  "Name": "Bailey, Kiehn and Green",
-  "StatusMonitorId": 108,
-  "PictureId": 874,
-  "NeedsUpdate": false,
+  "LastGenerated": "2017-09-11T03:46:55.2382402+02:00",
+  "Description": "Versatile composite process improvement",
+  "Name": "Simonis-Kuhn",
+  "StatusMonitorId": 839,
+  "PictureId": 121,
+  "NeedsUpdate": true,
   "Deleted": true,
-  "NumMatches": 999,
-  "NumNeedUpdate": 295,
-  "GenerationStart": "2003-01-24T03:45:23.8423206+01:00"
+  "NumMatches": 507,
+  "NumNeedUpdate": 324,
+  "GenerationStart": "2007-08-04T03:46:55.2382402+02:00"
 }
 ```
 
@@ -120,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 41,
-  "Rank": 904,
-  "DefaultTask": 702,
-  "DefaultTaskText": "aut",
-  "IsVisual": true,
-  "LastGenerated": "2016-11-05T03:45:23.8423206+01:00",
-  "Description": "Inverse assymetric workforce",
-  "Name": "Champlin-Barton",
-  "StatusMonitorId": 966,
-  "PictureId": 542,
+  "OwnerTable": 545,
+  "Rank": 965,
+  "DefaultTask": 141,
+  "DefaultTaskText": "qui",
+  "IsVisual": false,
+  "LastGenerated": "2005-01-09T03:46:55.2382402+01:00",
+  "Description": "Synergistic zero defect firmware",
+  "Name": "Russel Group",
+  "StatusMonitorId": 956,
+  "PictureId": 817,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 914,
-  "NumNeedUpdate": 991,
-  "GenerationStart": "2020-09-01T03:45:23.8423206+02:00",
+  "NumMatches": 718,
+  "NumNeedUpdate": 367,
+  "GenerationStart": "2023-02-22T03:46:55.2382402+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldLength": 612
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST ChatTopic
 uid: v1ChatTopicEntity_PostChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # POST ChatTopic
@@ -140,37 +141,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 734,
-  "Name": "Koch Inc and Sons",
-  "Description": "Focused actuating infrastructure",
-  "WelcomeMessage": "possimus",
+  "ChatTopicId": 428,
+  "Name": "Lesch-Kulas",
+  "Description": "Ameliorated secondary middleware",
+  "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "2008-09-15T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 524,
-  "AlertRecipient": "quo",
+  "LastAccept": "1999-05-22T03:46:59.8005718+02:00",
+  "SecondsPrAccept": 821,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "est",
+  "CollectConsent": true,
+  "BadgeHeader": "architecto",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "repellendus",
-  "WarnNewChatMinutes": 757,
-  "WarnManagerNewChatMinutes": 875,
+  "CustomQueueText": "ipsa",
+  "WarnNewChatMinutes": 164,
+  "WarnManagerNewChatMinutes": 590,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 820,
-  "WarnManagerChatMessageMinutes": 423,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 429,
+  "WarnManagerChatMessageMinutes": 378,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 442,
-  "OfflineFormQueueLength": 658,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "minima"
+  "OfflineFormTimeLimit": 861,
+  "OfflineFormQueueLength": 836,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "sit"
 }
 ```
 
@@ -181,43 +182,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 76,
-  "Name": "Smitham-Fay",
-  "Description": "Implemented multi-tasking service-desk",
-  "WelcomeMessage": "id",
+  "ChatTopicId": 706,
+  "Name": "Farrell-Hermann",
+  "Description": "Exclusive content-based pricing structure",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2012-09-01T03:45:28.1546963+02:00",
-  "SecondsPrAccept": 92,
-  "AlertRecipient": "doloribus",
+  "LastAccept": "2020-05-26T03:46:59.8005718+02:00",
+  "SecondsPrAccept": 545,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "quidem",
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "libero",
-  "WarnNewChatMinutes": 552,
-  "WarnManagerNewChatMinutes": 923,
-  "TicketEnabled": false,
+  "CustomQueueText": "ipsam",
+  "WarnNewChatMinutes": 732,
+  "WarnManagerNewChatMinutes": 28,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 502,
-  "WarnManagerChatMessageMinutes": 426,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 853,
+  "WarnManagerChatMessageMinutes": 878,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 800,
-  "OfflineFormQueueLength": 147,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "consequuntur",
+  "OfflineFormTimeLimit": 534,
+  "OfflineFormQueueLength": 550,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   },
   "_Links": {

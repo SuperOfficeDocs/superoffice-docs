@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/GetCRMScriptEntity
 uid: v1CRMScriptAgent_GetCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/GetCRMScriptEntity
@@ -24,11 +25,11 @@ Gets a CRMScriptEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| cRMScriptEntityId | int32 | **Required** The primary key. |
+| cRMScriptEntityId | int32 | **Required** The identifier of the CRMScriptEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=963
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=523
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -77,6 +78,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,52 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 845,
-  "UniqueIdentifier": "itaque",
-  "Name": "Marvin, Kertzmann and Smitham",
-  "Description": "Diverse mobile time-frame",
-  "IncludeId": "nihil",
-  "AccessKey": "et",
-  "HierarchyId": 431,
-  "Source": "illo",
-  "SourceCode": "qui",
+  "EjscriptId": 82,
+  "UniqueIdentifier": "est",
+  "Name": "Rath Inc and Sons",
+  "Description": "Upgradable bi-directional groupware",
+  "IncludeId": "consectetur",
+  "AccessKey": "earum",
+  "HierarchyId": 246,
+  "Source": "qui",
+  "SourceCode": "quibusdam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 18,
+  "HtmlOutput": 779,
   "Includes": [
-    210,
-    367
+    589,
+    114
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 979,
-      "LineNumberTo": 319,
-      "Delta": 438,
-      "IncludeId": "maiores",
+      "LineNumberFrom": 691,
+      "LineNumberTo": 536,
+      "Delta": 103,
+      "IncludeId": "ipsum",
       "IncludedFrom": [
-        "blanditiis",
-        "id"
+        "voluptates",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 428
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-01-13T03:45:23.2329582+01:00",
-  "RegisteredAssociateId": 744,
-  "Updated": "2011-09-02T03:45:23.2329582+02:00",
-  "UpdatedAssociateId": 50,
+  "Registered": "2005-04-14T03:46:54.5820132+02:00",
+  "RegisteredAssociateId": 244,
+  "Updated": "2010-05-02T03:46:54.5820132+02:00",
+  "UpdatedAssociateId": 339,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 116
     }
   }
 }

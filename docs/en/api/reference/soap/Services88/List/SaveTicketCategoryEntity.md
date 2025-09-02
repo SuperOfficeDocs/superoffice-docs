@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveTicketCategoryEntity SOAP
 generated: true
 uid: Services88-List-SaveTicketCategoryEntity
+content_type: reference
 ---
 
 # Services88 List SaveTicketCategoryEntity

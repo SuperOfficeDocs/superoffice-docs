@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.SaveCurrents SOAP
 generated: true
 uid: Services88-ViewState-SaveCurrents
+content_type: reference
 ---
 
 # Services88 ViewState SaveCurrents

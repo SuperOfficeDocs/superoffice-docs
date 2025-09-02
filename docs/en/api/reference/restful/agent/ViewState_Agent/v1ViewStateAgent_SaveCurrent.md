@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/SaveCurrent
 uid: v1ViewStateAgent_SaveCurrent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/SaveCurrent
@@ -81,7 +82,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 268,
-  "Id": 318,
-  "HistoryName": "Hoppe-Cummings",
-  "HistoryId": 110,
-  "AssociateId": 986,
-  "Name": "Yundt-Monahan",
-  "ItemInfo": "et",
+  "Rank": 414,
+  "Id": 561,
+  "HistoryName": "Brekke-Keeling",
+  "HistoryId": 949,
+  "AssociateId": 357,
+  "Name": "Reinger, Spinka and Dach",
+  "ItemInfo": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 104
     }
   }
 }

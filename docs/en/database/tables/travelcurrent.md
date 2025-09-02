@@ -2,10 +2,10 @@
 uid: table-travelcurrent
 title: travelcurrent table
 description: Information about this database and its place in the hierarchy
-so.generated: true
+generated: true
 keywords: database table travelcurrent
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # travelcurrent Table (32)

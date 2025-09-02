@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.Revert SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-Revert
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo Revert

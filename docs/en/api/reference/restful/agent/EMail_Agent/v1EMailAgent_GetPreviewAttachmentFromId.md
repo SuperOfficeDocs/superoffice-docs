@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetPreviewAttachmentFromId
 uid: v1EMailAgent_GetPreviewAttachmentFromId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromId
@@ -89,14 +90,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 979,
-  "AttachmentId": "dolorem",
-  "AttachmentType": "at",
-  "AttachmentFilename": "consequuntur"
+  "MailItemId": 163,
+  "AttachmentId": "illum",
+  "AttachmentType": "tenetur",
+  "AttachmentFilename": "quas"
 }
 ```
 
@@ -107,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized demand-driven emulation",
-  "Filename": "vel",
-  "Size": 489,
-  "Type": "qui",
-  "Encoding": "illo",
-  "Id": "fugiat",
-  "Disposition": "optio",
+  "Description": "Persevering neutral standardization",
+  "Filename": "totam",
+  "Size": 504,
+  "Type": "corrupti",
+  "Encoding": "quam",
+  "Id": "rem",
+  "Disposition": "dolore",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 283
     }
   }
 }

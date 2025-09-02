@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.RebuildUdefDeltas SOAP
 generated: true
 uid: Services88-Configuration-RebuildUdefDeltas
+content_type: reference
 ---
 
 # Services88 Configuration RebuildUdefDeltas

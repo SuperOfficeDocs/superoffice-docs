@@ -2,6 +2,7 @@
 title: POST Agents/AI/StartRagIndexing
 uid: v1AIAgent_StartRagIndexing
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/StartRagIndexing
@@ -73,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Greenfelder LLC",
-  "SourceId": "animi"
+  "NamespaceName": "Boyle-Parker",
+  "SourceId": "beatae"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-827
+831
 ```

@@ -2,6 +2,7 @@
 title: Services88.AIAgent.DetectLanguage SOAP
 generated: true
 uid: Services88-AI-DetectLanguage
+content_type: reference
 ---
 
 # Services88 AI DetectLanguage

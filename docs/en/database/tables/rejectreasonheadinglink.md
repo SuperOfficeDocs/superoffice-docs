@@ -2,10 +2,10 @@
 uid: table-RejectReasonHeadingLink
 title: RejectReasonHeadingLink table
 description: Heading link table for RejectReason, for MDO headers
-so.generated: true
+generated: true
 keywords: database table RejectReasonHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # RejectReasonHeadingLink Table (224)

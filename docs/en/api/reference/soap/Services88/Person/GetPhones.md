@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetPhones SOAP
 generated: true
 uid: Services88-Person-GetPhones
+content_type: reference
 ---
 
 # Services88 Person GetPhones

@@ -3,9 +3,9 @@ uid: CancelledInvitation
 title: CancelledInvitation
 description: This is the query provider for invitations, of subtype 'Cancelled'
 keywords: CancelledInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "CancelledInvitation"
@@ -743,7 +743,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/CancelledInvitation?$select=contact/name,contact/hasInfoText,person/personExtra/y_car/id,project/updatedDate,project/projectAssociate/ejUserId
+GET /api/v1/archive/CancelledInvitation?$select=contact/contactExtra/x_contact_timespan,person/personExtra/x_person_request_relation,person/correspondingAssociate/userName,project/projectUdef/SuperOffice:1,associate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

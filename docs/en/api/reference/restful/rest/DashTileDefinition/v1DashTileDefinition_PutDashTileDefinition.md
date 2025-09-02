@@ -2,6 +2,7 @@
 title: PUT DashTileDefinition/{id}
 uid: v1DashTileDefinition_PutDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT DashTileDefinition/{id}
@@ -119,25 +120,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 631,
-  "Name": "Larson, Kertzmann and Spinka",
-  "Description": "Monitored analyzing encryption",
-  "DefaultHeight": 741,
-  "DefaultWidth": 753,
+  "DashboardTileDefinitionId": 530,
+  "Name": "Ullrich-Thompson",
+  "Description": "Total high-level system engine",
+  "DefaultHeight": 444,
+  "DefaultWidth": 748,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Quitzon LLC",
-  "SelectionId": 849,
+  "EntityName": "Hoeger Inc and Sons",
+  "SelectionId": 116,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "voluptate",
   "Measure": "Average",
-  "MeasureField": "qui",
-  "SortBy": "velit",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 163,
-  "MeasureByField": "totam",
+  "MeasureField": "reprehenderit",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "laboriosam",
+  "SecondarySelectionId": 398,
+  "MeasureByField": "distinctio",
   "Usage": "Dashboard",
-  "ProviderName": "McGlynn, Huel and Christiansen"
+  "ProviderName": "Rodriguez LLC"
 }
 ```
 
@@ -148,36 +149,36 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 725,
-  "Name": "Gislason, Mohr and King",
-  "Description": "Persistent explicit time-frame",
-  "DefaultHeight": 517,
-  "DefaultWidth": 725,
+  "DashboardTileDefinitionId": 593,
+  "Name": "Hegmann LLC",
+  "Description": "Robust uniform initiative",
+  "DefaultHeight": 546,
+  "DefaultWidth": 701,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Renner Group",
-  "SelectionId": 730,
+  "EntityName": "Mante LLC",
+  "SelectionId": 572,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nihil",
+  "CurrencyCode": "deleniti",
   "Measure": "Average",
-  "MeasureField": "quisquam",
-  "SortBy": "voluptatibus",
-  "LayoutConfig": "occaecati",
-  "SecondarySelectionId": 220,
-  "MeasureByField": "dolores",
+  "MeasureField": "iusto",
+  "SortBy": "laboriosam",
+  "LayoutConfig": "quaerat",
+  "SecondarySelectionId": 895,
+  "MeasureByField": "sapiente",
   "Usage": "Dashboard",
-  "ProviderName": "Cassin LLC",
+  "ProviderName": "Durgan-Heathcote",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 122
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ValidateArchiveColumnConfig
 uid: v1ErpSyncAgent_ValidateArchiveColumnConfig
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ValidateArchiveColumnConfig
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "vero",
-  "ErpConnectionId": 570
+  "ListOwner": "consequuntur",
+  "ErpConnectionId": 331
 }
 ```
 

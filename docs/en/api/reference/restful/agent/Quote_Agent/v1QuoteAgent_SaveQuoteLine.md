@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteLine
 uid: v1QuoteAgent_SaveQuoteLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteLine
@@ -136,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 726,
-  "ERPQuoteLineKey": "vel",
-  "QuoteAlternativeId": 49,
-  "ERPProductKey": "necessitatibus",
+  "QuoteLineId": 280,
+  "ERPQuoteLineKey": "temporibus",
+  "QuoteAlternativeId": 70,
+  "ERPProductKey": "facere",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15861.173999999999,
-  "DeliveredQuantity": 20671.863999999998,
-  "Rank": 320,
-  "Name": "Gislason LLC",
-  "Description": "Pre-emptive stable pricing structure",
-  "Code": "adipisci",
-  "QuantityUnit": "ab",
-  "PriceUnit": "voluptatem",
-  "ItemNumber": "1613378",
+  "Quantity": 13893.021999999999,
+  "DeliveredQuantity": 18496.868,
+  "Rank": 862,
+  "Name": "King Inc and Sons",
+  "Description": "Distributed stable moderator",
+  "Code": "iusto",
+  "QuantityUnit": "praesentium",
+  "PriceUnit": "doloribus",
+  "ItemNumber": "1084014",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "dolores",
-  "Supplier": "omnis",
-  "SupplierCode": "recusandae",
-  "Thumbnail": "nemo",
-  "VATInfo": "tempora",
-  "VAT": 8421.0579999999991,
-  "UnitCost": 22552.264,
-  "UnitMinimumPrice": 24357.448,
-  "UnitListPrice": 15212.436,
+  "ProductFamilyKey": "id",
+  "ProductTypeKey": "voluptas",
+  "Supplier": "quia",
+  "SupplierCode": "est",
+  "Thumbnail": "reprehenderit",
+  "VATInfo": "asperiores",
+  "VAT": 9129.342,
+  "UnitCost": 27118.502,
+  "UnitMinimumPrice": 29666.444,
+  "UnitListPrice": 9054.126,
   "ExtraInfo": [
     {
-      "Name": "Olson-Reichel",
-      "Value": "odit",
+      "Name": "Barton, Kozey and Deckow",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 739
         }
       }
     },
     {
-      "Name": "Olson-Reichel",
-      "Value": "odit",
+      "Name": "Barton, Kozey and Deckow",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 739
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "IsSubscription": true,
-  "SubscriptionUnit": "expedita",
-  "SubscriptionQuantity": 30932.579999999998,
-  "SubscriptionStart": "2011-12-26T03:45:23.8266945+01:00",
-  "ERPDiscountPercent": 30876.167999999998,
-  "ERPDiscountAmount": 16817.043999999998,
-  "DiscountPercent": 17374.896,
-  "DiscountAmount": 8568.356,
+  "RawExtraInfo": "qui",
+  "IsSubscription": false,
+  "SubscriptionUnit": "consectetur",
+  "SubscriptionQuantity": 18678.64,
+  "SubscriptionStart": "2015-05-28T03:46:55.2226157+02:00",
+  "ERPDiscountPercent": 30211.76,
+  "ERPDiscountAmount": 19737.932,
+  "DiscountPercent": 7283.416,
+  "DiscountAmount": 14720.398,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24153.737999999998,
-  "EarningAmount": 10555.312,
-  "SubTotal": 25745.809999999998,
-  "TotalPrice": 1494.918,
-  "Rights": "ea",
-  "Rule": "quae",
-  "ExtraField1": "qui",
-  "ExtraField2": "ea",
-  "ExtraField3": "eos",
-  "ExtraField4": "molestias",
-  "ExtraField5": "quis",
+  "EarningPercent": 16876.59,
+  "EarningAmount": 5707.014,
+  "SubTotal": 5895.054,
+  "TotalPrice": 13153.398,
+  "Rights": "assumenda",
+  "Rule": "est",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "officia",
+  "ExtraField4": "fugit",
+  "ExtraField5": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 560
     }
   }
 }

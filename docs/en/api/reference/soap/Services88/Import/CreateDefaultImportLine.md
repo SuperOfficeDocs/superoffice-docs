@@ -2,6 +2,7 @@
 title: Services88.ImportAgent.CreateDefaultImportLine SOAP
 generated: true
 uid: Services88-Import-CreateDefaultImportLine
+content_type: reference
 ---
 
 # Services88 Import CreateDefaultImportLine

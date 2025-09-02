@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetPluginList SOAP
 generated: true
 uid: Services88-Document-GetPluginList
+content_type: reference
 ---
 
 # Services88 Document GetPluginList

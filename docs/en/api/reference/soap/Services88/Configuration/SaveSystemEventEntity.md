@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.SaveSystemEventEntity SOAP
 generated: true
 uid: Services88-Configuration-SaveSystemEventEntity
+content_type: reference
 ---
 
 # Services88 Configuration SaveSystemEventEntity
@@ -42,13 +43,13 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Configuration:SystemEventEntity xsi:type="Configuration:SystemEventEntity">
      <Configuration:SystemEventId xsi:type="xsd:int">0</Configuration:SystemEventId>
      <Configuration:Scope xsi:type="Configuration:SystemEventScope">Undefined</Configuration:Scope>
-     <Configuration:Eta xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:Eta>
+     <Configuration:Eta xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:Eta>
      <Configuration:Eventkey xsi:type="xsd:string"></Configuration:Eventkey>
      <Configuration:Eventmess xsi:type="xsd:string"></Configuration:Eventmess>
      <Configuration:ExtraInfo xsi:type="xsd:int">0</Configuration:ExtraInfo>
      <Configuration:Owner xsi:type="xsd:int">0</Configuration:Owner>
      <Configuration:UpdatedCount xsi:type="xsd:short">0</Configuration:UpdatedCount>
-     <Configuration:Registered xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:Registered>
+     <Configuration:Registered xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:Registered>
      <Configuration:ActivatedBy xsi:type="Configuration:Associate">
       <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
       <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -62,6 +63,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:Deleted xsi:type="xsd:boolean">false</Configuration:Deleted>
       <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
       <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
+      <Configuration:ExtraFields xsi:type="Configuration:StringDictionary">
+       <Configuration:StringKeyValuePair>
+        <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+        <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+       </Configuration:StringKeyValuePair>
+      </Configuration:ExtraFields>
+      <Configuration:CustomFields xsi:type="Configuration:StringDictionary">
+       <Configuration:StringKeyValuePair>
+        <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+        <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+       </Configuration:StringKeyValuePair>
+      </Configuration:CustomFields>
      </Configuration:ActivatedBy>
     </Configuration:SystemEventEntity>
    </Configuration:SaveSystemEventEntity>
@@ -89,13 +102,13 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Configuration:Response xsi:type="Configuration:SystemEventEntity">
     <Configuration:SystemEventId xsi:type="xsd:int">0</Configuration:SystemEventId>
     <Configuration:Scope xsi:type="Configuration:SystemEventScope">Undefined</Configuration:Scope>
-    <Configuration:Eta xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:Eta>
+    <Configuration:Eta xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:Eta>
     <Configuration:Eventkey xsi:type="xsd:string"></Configuration:Eventkey>
     <Configuration:Eventmess xsi:type="xsd:string"></Configuration:Eventmess>
     <Configuration:ExtraInfo xsi:type="xsd:int">0</Configuration:ExtraInfo>
     <Configuration:Owner xsi:type="xsd:int">0</Configuration:Owner>
     <Configuration:UpdatedCount xsi:type="xsd:short">0</Configuration:UpdatedCount>
-    <Configuration:Registered xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:Registered>
+    <Configuration:Registered xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:Registered>
     <Configuration:ActivatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -109,6 +122,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:Deleted xsi:type="xsd:boolean">false</Configuration:Deleted>
      <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
      <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
+     <Configuration:ExtraFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:ExtraFields>
+     <Configuration:CustomFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:CustomFields>
     </Configuration:ActivatedBy>
    </Configuration:Response>
   </Configuration:SaveSystemEventEntityResponse>

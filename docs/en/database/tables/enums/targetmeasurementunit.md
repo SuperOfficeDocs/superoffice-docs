@@ -2,10 +2,10 @@
 uid: enum-targetmeasurementunit
 title: Enum values for TargetMeasurementUnit
 description: Lists the enum values for TargetMeasurementUnit.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TargetMeasurementUnit Enum

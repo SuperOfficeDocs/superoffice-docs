@@ -2,10 +2,10 @@
 uid: table-FunctionRight
 title: FunctionRight table
 description: Functional right definition
-so.generated: true
+generated: true
 keywords: database table FunctionRight
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # FunctionRight Table (193)

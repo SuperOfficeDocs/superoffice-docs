@@ -2,6 +2,7 @@
 title: PUT List/ProjectStatus/Items/{id}/Headings
 uid: v1ProjectStatusList_PutProjectStatusHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectStatus/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Moore Group",
-    "ToolTip": "Adipisci ab aut laudantium.",
-    "Deleted": true,
-    "Rank": 677,
-    "Type": "eligendi",
-    "ColorBlock": 711,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "1999-04-18T03:45:29.1703077+02:00",
+    "Id": 773,
+    "Name": "Adams, Wintheiser and Pollich",
+    "ToolTip": "Et aut dignissimos.",
+    "Deleted": false,
+    "Rank": 193,
+    "Type": "totam",
+    "ColorBlock": 207,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2019-09-21T03:47:00.7536695+02:00",
     "ChildItems": [
       {
         "Id": 30,
-        "Name": "Nader Group",
-        "ToolTip": "Quis modi.",
+        "Name": "Cummings-Pouros",
+        "ToolTip": "Accusamus temporibus.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "sint",
-        "ColorBlock": 466,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2001-10-26T03:45:29.1703077+02:00",
+        "Rank": 400,
+        "Type": "aut",
+        "ColorBlock": 438,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "1998-10-19T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Ms. Roberto Murphy"
+        "FullName": "Mr. Nathaniel Kshlerin"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "quidem",
+    "ExtraInfo": "sunt",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Sean Mosciski"
+    "FullName": "Stan Jast"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Eichmann Inc and Sons",
-    "ToolTip": "Aspernatur sunt qui quia facilis sed.",
-    "Deleted": true,
-    "Rank": 611,
-    "Type": "ipsum",
-    "ColorBlock": 890,
-    "IconHint": "magnam",
+    "Id": 710,
+    "Name": "Heathcote, Lakin and Kris",
+    "ToolTip": "Rerum illo consequatur eius.",
+    "Deleted": false,
+    "Rank": 114,
+    "Type": "ea",
+    "ColorBlock": 467,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "1998-10-25T03:45:29.1703077+01:00",
+    "LastChanged": "2017-04-01T03:47:00.7536695+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Simonis-Graham",
-        "ToolTip": "Autem minus.",
-        "Deleted": true,
-        "Rank": 361,
-        "Type": "animi",
-        "ColorBlock": 195,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2014-12-06T03:45:29.1703077+01:00",
+        "Id": 269,
+        "Name": "Schaefer, Price and Hudson",
+        "ToolTip": "Iure ullam mollitia repudiandae nulla omnis.",
+        "Deleted": false,
+        "Rank": 863,
+        "Type": "tenetur",
+        "ColorBlock": 859,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2012-07-25T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Lauren Eleonore Nienow III",
+        "ExtraInfo": "sunt",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Katherine O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Robin Beatrice Hilpert DVM",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Carmine Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

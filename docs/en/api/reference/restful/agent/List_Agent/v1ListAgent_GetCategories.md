@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCategories
 uid: v1ListAgent_GetCategories
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCategories
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Value": "debitis",
-    "Tooltip": "ipsa",
+    "Id": 597,
+    "Value": "deleniti",
+    "Tooltip": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 52
       }
     }
   },
   {
-    "Id": 639,
-    "Value": "debitis",
-    "Tooltip": "ipsa",
+    "Id": 597,
+    "Value": "deleniti",
+    "Tooltip": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 52
       }
     }
   }

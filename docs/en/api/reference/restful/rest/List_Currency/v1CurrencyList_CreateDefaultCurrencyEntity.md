@@ -2,6 +2,7 @@
 title: GET List/Currency/Items/Default
 uid: v1CurrencyList_CreateDefaultCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Items/Default
@@ -61,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 619,
-  "Name": "Hyatt, Kohler and Cruickshank",
-  "Tooltip": "aspernatur",
-  "Rank": 692,
-  "Rate": 13726.92,
-  "Units": 9260.97,
-  "Deleted": true,
+  "CurrencyId": 530,
+  "Name": "Mann-Ankunding",
+  "Tooltip": "sed",
+  "Rank": 282,
+  "Rate": 21417.755999999998,
+  "Units": 23840.338,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

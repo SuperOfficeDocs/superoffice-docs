@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllDomains SOAP
 generated: true
 uid: Services88-List-GetAllDomains
+content_type: reference
 ---
 
 # Services88 List GetAllDomains

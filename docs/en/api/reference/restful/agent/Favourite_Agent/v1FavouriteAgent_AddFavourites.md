@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/AddFavourites
 uid: v1FavouriteAgent_AddFavourites
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/AddFavourites
@@ -67,17 +68,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Romaguera, Tremblay and Cruickshank",
+  "TableName": "Nienow, Boyer and Torp",
   "RecordIds": [
-    659,
-    11
+    413,
+    824
   ],
-  "AssociateId": 191,
-  "ExtraInfo": "quasi"
+  "AssociateId": 448,
+  "ExtraInfo": "dolorem"
 }
 ```
 

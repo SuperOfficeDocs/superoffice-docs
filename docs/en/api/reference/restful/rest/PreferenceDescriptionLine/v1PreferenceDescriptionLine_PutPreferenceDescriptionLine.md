@@ -2,6 +2,7 @@
 title: PUT PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_PutPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # PUT PreferenceDescriptionLine/{id}
@@ -89,15 +90,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 968,
-  "PrefDescId": 985,
-  "PrefValue": "enim",
-  "PrefShowValue": "debitis",
-  "Description": "Fully-configurable maximized instruction set",
+  "PrefDescLineId": 605,
+  "PrefDescId": 240,
+  "PrefValue": "qui",
+  "PrefShowValue": "recusandae",
+  "Description": "Open-source actuating encoding",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +110,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 909,
-  "PrefDescId": 888,
-  "PrefValue": "et",
-  "PrefShowValue": "incidunt",
-  "Description": "Multi-layered empowering challenge",
+  "PrefDescLineId": 72,
+  "PrefDescId": 32,
+  "PrefValue": "aliquid",
+  "PrefShowValue": "in",
+  "Description": "Cross-platform object-oriented extranet",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   },
   "_Links": {

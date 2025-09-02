@@ -1,6 +1,8 @@
 ---
+uid: tag-Batch_Agent
 title: Batch_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

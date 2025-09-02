@@ -2,6 +2,7 @@
 title: DEL List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_DeleteAllFromListName
 generated: true
+content_type: reference
 ---
 
 # DEL List/{udListDefinitionName}/Items
@@ -50,7 +51,7 @@ No Content
 DELETE /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

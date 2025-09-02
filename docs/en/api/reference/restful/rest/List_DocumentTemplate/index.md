@@ -1,6 +1,8 @@
 ---
+uid: tag-List_DocumentTemplate
 title: List_DocumentTemplate
 generated: true
+content_type: reference
 ---
 
 ```http

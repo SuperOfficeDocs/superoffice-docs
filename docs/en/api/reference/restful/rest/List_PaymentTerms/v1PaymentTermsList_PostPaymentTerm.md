@@ -2,6 +2,7 @@
 title: POST List/PaymentTerm/Items
 uid: v1PaymentTermsList_PostPaymentTerm
 generated: true
+content_type: reference
 ---
 
 # POST List/PaymentTerm/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Rippin-Rohan",
-  "Tooltip": "et",
+  "Id": 465,
+  "Name": "Brekke-Runolfsdottir",
+  "Tooltip": "nostrum",
   "Deleted": true,
-  "UdListDefinitionId": 333,
-  "Rank": 744
+  "UdListDefinitionId": 659,
+  "Rank": 289
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 718,
-  "Rank": 176,
+  "Id": 16,
+  "Name": "Zemlak-Rice",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 400,
+  "Rank": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 446
     }
   }
 }

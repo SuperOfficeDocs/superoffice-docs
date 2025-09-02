@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Items
 uid: v1ProjectStatusList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Items
@@ -25,7 +26,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Bergnaum-Flatley",
-    "Tooltip": "accusamus",
+    "Id": 353,
+    "Name": "Hoppe LLC",
+    "Tooltip": "quod",
     "Deleted": false,
-    "UdListDefinitionId": 654,
-    "Rank": 283,
+    "UdListDefinitionId": 498,
+    "Rank": 428,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   }

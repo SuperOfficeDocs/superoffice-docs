@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetOrderConfirmation SOAP
 generated: true
 uid: Services88-Quote-GetOrderConfirmation
+content_type: reference
 ---
 
 # Services88 Quote GetOrderConfirmation

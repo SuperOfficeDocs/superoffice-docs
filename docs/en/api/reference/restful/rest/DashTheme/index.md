@@ -1,6 +1,8 @@
 ---
+uid: tag-DashTheme
 title: DashTheme
 generated: true
+content_type: reference
 ---
 
 ```http

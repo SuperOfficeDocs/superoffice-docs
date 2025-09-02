@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/ChangeProductImage
 uid: v1BLOBAgent_ChangeProductImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/ChangeProductImage
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 937,
-  "BlobId": 934
+  "ProductId": 56,
+  "BlobId": 369
 }
 ```
 

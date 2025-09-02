@@ -2,6 +2,7 @@
 title: DEL List/LegalBase/Headings
 uid: v1LegalBaseList_DeleteLegalBaseHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/LegalBase/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

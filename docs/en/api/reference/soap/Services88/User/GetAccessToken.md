@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetAccessToken SOAP
 generated: true
 uid: Services88-User-GetAccessToken
+content_type: reference
 ---
 
 # Services88 User GetAccessToken

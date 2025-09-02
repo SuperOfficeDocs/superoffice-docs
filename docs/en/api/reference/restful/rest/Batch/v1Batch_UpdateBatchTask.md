@@ -2,6 +2,7 @@
 title: PUT BatchTask/{Id}
 uid: v1Batch_UpdateBatchTask
 generated: true
+content_type: reference
 ---
 
 # PUT BatchTask/{Id}
@@ -111,34 +112,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Lind, Cartwright and Lemke",
-  "AssociateId": 140,
-  "DetailsTable": 128,
-  "DetailsRecord": 317,
+  "Id": 981,
+  "Name": "Hyatt-Kuhic",
+  "AssociateId": 688,
+  "DetailsTable": 699,
+  "DetailsRecord": 15,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "dolore",
-    "ParameterObject2": "neque"
+    "ParameterObject1": "inventore",
+    "ParameterObject2": "exercitationem"
   },
-  "LastStarted": "2014-03-11T03:45:28.7952992+01:00",
-  "Created": "1999-04-23T03:45:28.7952992+02:00",
-  "StartCount": 428,
-  "DatabaseSerialNumber": "1332604",
-  "Context": "ullam",
-  "Result": "quos",
+  "LastStarted": "2006-08-14T03:47:00.3943072+02:00",
+  "Created": "2013-11-27T03:47:00.3943072+01:00",
+  "StartCount": 603,
+  "DatabaseSerialNumber": "918108",
+  "Context": "voluptatibus",
+  "Result": "quam",
   "State": "All",
-  "Description": "Managed explicit architecture",
-  "Response": "itaque",
-  "Request": "ducimus",
-  "ProgressDescription": "Reactive object-oriented budgetary management",
-  "ProgressPercent": 568,
-  "FileName": "Gerhold-Feil",
+  "Description": "Digitized radical forecast",
+  "Response": "velit",
+  "Request": "deleniti",
+  "ProgressDescription": "Up-sized context-sensitive support",
+  "ProgressPercent": 692,
+  "FileName": "Schmeler, Maggio and Gleason",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Kerluke-Goyette",
-  "AssociateId": 493,
-  "DetailsTable": 982,
-  "DetailsRecord": 340,
+  "Id": 654,
+  "Name": "Spinka-Reilly",
+  "AssociateId": 180,
+  "DetailsTable": 766,
+  "DetailsRecord": 572,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aliquid",
-    "ParameterObject2": "est"
+    "ParameterObject1": "et",
+    "ParameterObject2": "molestiae"
   },
-  "LastStarted": "2005-06-20T03:45:28.7952992+02:00",
-  "Created": "2023-04-28T03:45:28.7952992+02:00",
-  "StartCount": 3,
-  "DatabaseSerialNumber": "527947",
-  "Context": "magni",
-  "Result": "omnis",
+  "LastStarted": "2009-04-22T03:47:00.3943072+02:00",
+  "Created": "1998-05-13T03:47:00.3943072+02:00",
+  "StartCount": 867,
+  "DatabaseSerialNumber": "1186878",
+  "Context": "sit",
+  "Result": "hic",
   "State": "All",
-  "Description": "Customer-focused next generation contingency",
-  "Response": "ut",
-  "Request": "sed",
-  "ProgressDescription": "Business-focused multi-state access",
-  "ProgressPercent": 398,
-  "FileName": "Kshlerin Group",
+  "Description": "Fundamental holistic infrastructure",
+  "Response": "officia",
+  "Request": "nihil",
+  "ProgressDescription": "Organic bandwidth-monitored extranet",
+  "ProgressPercent": 873,
+  "FileName": "Schimmel Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 845
     }
   }
 }

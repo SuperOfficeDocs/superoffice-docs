@@ -2,6 +2,7 @@
 title: GET List/Source/Items
 uid: v1SourceList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Items
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Satterfield Group",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "UdListDefinitionId": 717,
-    "Rank": 480,
+    "Id": 501,
+    "Name": "Rath-Corkery",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 534,
+    "Rank": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

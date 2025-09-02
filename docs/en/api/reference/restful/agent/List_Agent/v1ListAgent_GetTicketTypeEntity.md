@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketTypeEntity
 uid: v1ListAgent_GetTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketTypeEntity
@@ -22,11 +23,11 @@ Gets a TicketTypeEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ticketTypeEntityId | int32 | **Required** The primary key. |
+| ticketTypeEntityId | int32 | **Required** The identifier of the TicketTypeEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=393
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=424
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 464,
-  "Name": "Harber, Beer and Schroeder",
-  "Rank": 966,
-  "Tooltip": "nulla",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 976,
+  "TicketTypeId": 60,
+  "Name": "Muller, Runte and Prohaska",
+  "Rank": 158,
+  "Tooltip": "perferendis",
+  "Icon": "modi",
+  "DefaultTicketStatus": 309,
   "TicketStatuses": [
-    961,
-    219
+    125,
+    370
   ],
-  "DefaultTicketPriority": 774,
+  "DefaultTicketPriority": 885,
   "TicketPriorities": [
-    76,
-    884
+    13,
+    303
   ],
-  "ReplyTemplate": 873,
+  "ReplyTemplate": 856,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    126,
-    949
+    929,
+    252
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
@@ -127,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

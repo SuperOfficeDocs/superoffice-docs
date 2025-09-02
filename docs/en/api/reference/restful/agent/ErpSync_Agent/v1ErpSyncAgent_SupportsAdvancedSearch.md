@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/SupportsAdvancedSearch
 uid: v1ErpSyncAgent_SupportsAdvancedSearch
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/SupportsAdvancedSearch
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 615,
+  "ErpConnectionId": 597,
   "ErpActorType": "Customer"
 }
 ```

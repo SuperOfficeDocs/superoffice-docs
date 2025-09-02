@@ -2,6 +2,7 @@
 title: DEL Contact/{id}
 uid: v1ContactEntity_DeleteContactEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Contact/{id}

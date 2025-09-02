@@ -2,6 +2,7 @@
 title: GET Sale/{id}/Guide
 uid: v1SaleEntity_Guide
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/Guide
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
-GET /api/v1/Sale/{id}/Guide?$entities=nesciunt
-GET /api/v1/Sale/{id}/Guide?$top=279
-GET /api/v1/Sale/{id}/Guide?$skip=270
+GET /api/v1/Sale/{id}/Guide?$entities=repellendus
+GET /api/v1/Sale/{id}/Guide?$top=62
+GET /api/v1/Sale/{id}/Guide?$skip=137
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=doloremque
+GET /api/v1/Sale/{id}/Guide?$context=atque
 GET /api/v1/Sale/{id}/Guide?$format=JSON
-GET /api/v1/Sale/{id}/Guide?$jsonSafe=False
+GET /api/v1/Sale/{id}/Guide?$jsonSafe=True
 GET /api/v1/Sale/{id}/Guide?$output=Display
 ```
 
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Sale/{id}/Guide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 8032,
-      "EntityName": "person",
-      "personId": 8032,
-      "fullName": "Angelina Hane"
+      "PrimaryKey": 5721,
+      "EntityName": "sale",
+      "saleId": 5721,
+      "contactId": 3162,
+      "name": "Schimmel, Stark and Nicolas"
     },
     {
-      "PrimaryKey": 9444,
-      "EntityName": "person",
-      "personId": 9444,
-      "fullName": "Arne Feeney"
+      "PrimaryKey": 6904,
+      "EntityName": "sale",
+      "saleId": 6904,
+      "contactId": 9053,
+      "name": "Upton Group"
     }
   ]
 }

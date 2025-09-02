@@ -2,6 +2,7 @@
 title: POST Agents/EMail/SyncEmailAccounts
 uid: v1EMailAgent_SyncEmailAccounts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/SyncEmailAccounts
@@ -69,20 +70,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 264,
-      "AssociateName": "Mante, Shanahan and Feil",
-      "AssociateId": 515
+      "AccountId": 58,
+      "AssociateName": "Kautzer, Gorczany and Mertz",
+      "AssociateId": 465
     },
     {
-      "AccountId": 264,
-      "AssociateName": "Mante, Shanahan and Feil",
-      "AssociateId": 515
+      "AccountId": 58,
+      "AssociateName": "Kautzer, Gorczany and Mertz",
+      "AssociateId": 465
     }
   ]
 }

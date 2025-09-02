@@ -2,6 +2,7 @@
 title: Services88.BlobManagerAgent.WriteBlob SOAP
 generated: true
 uid: Services88-BlobManager-WriteBlob
+content_type: reference
 ---
 
 # Services88 BlobManager WriteBlob

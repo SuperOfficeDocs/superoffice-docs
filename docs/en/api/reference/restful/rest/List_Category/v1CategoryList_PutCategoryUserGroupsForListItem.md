@@ -2,6 +2,7 @@
 title: PUT List/Category/Items/{id}/UserGroups
 uid: v1CategoryList_PutCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Repudiandae quisquam.",
+    "Id": 306,
+    "Name": "Schaden-Greenfelder",
+    "ToolTip": "Molestiae reiciendis sed repellendus aspernatur sapiente.",
     "Deleted": false,
-    "Rank": 854,
-    "Type": "neque",
-    "ColorBlock": 81,
-    "IconHint": "omnis",
+    "Rank": 367,
+    "Type": "perspiciatis",
+    "ColorBlock": 584,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2016-12-01T03:45:28.9827939+01:00",
+    "LastChanged": "2003-06-05T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Weber, Hayes and Welch",
-        "ToolTip": "Porro nihil sed.",
+        "Id": 871,
+        "Name": "Ebert Inc and Sons",
+        "ToolTip": "Temporibus omnis consequatur velit enim repellat voluptatibus.",
         "Deleted": true,
-        "Rank": 340,
-        "Type": "delectus",
-        "ColorBlock": 132,
-        "IconHint": "repellat",
+        "Rank": 324,
+        "Type": "accusantium",
+        "ColorBlock": 3,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2022-11-12T03:45:28.9827939+01:00",
+        "LastChanged": "1998-06-26T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "nemo",
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Pauline Lang PhD"
+        "FullName": "Boris Williamson"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "beatae",
+    "ExtraInfo": "autem",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Zoila O'Hara"
+    "FullName": "Kelly Schuster"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Waelchi, Orn and Boehm",
-    "ToolTip": "Est temporibus sed pariatur molestias sequi.",
-    "Deleted": true,
-    "Rank": 11,
-    "Type": "voluptatum",
-    "ColorBlock": 449,
-    "IconHint": "et",
+    "Id": 121,
+    "Name": "Balistreri Inc and Sons",
+    "ToolTip": "Illum harum sunt aliquam enim nesciunt libero.",
+    "Deleted": false,
+    "Rank": 661,
+    "Type": "eius",
+    "ColorBlock": 960,
+    "IconHint": "accusamus",
     "Selected": true,
-    "LastChanged": "2009-04-28T03:45:28.9827939+02:00",
+    "LastChanged": "2019-08-16T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Moen Group",
-        "ToolTip": "Autem enim eum corporis.",
+        "Id": 763,
+        "Name": "Johnston, Walker and Hoppe",
+        "ToolTip": "Excepturi eligendi et dolor non ut.",
         "Deleted": false,
-        "Rank": 430,
-        "Type": "consequatur",
-        "ColorBlock": 152,
-        "IconHint": "hic",
+        "Rank": 159,
+        "Type": "cumque",
+        "ColorBlock": 449,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2015-03-18T03:45:28.9827939+01:00",
+        "LastChanged": "2016-04-20T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Florian Shyann Cronin V",
+        "ExtraInfo": "repellat",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Muhammad Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "non",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Willy Wuckert",
+    "FullName": "Mozell Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 646
       }
     }
   }

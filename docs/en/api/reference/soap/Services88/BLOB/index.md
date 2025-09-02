@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent SOAP
 uid: Services88-BLOB-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 BLOB SOAP

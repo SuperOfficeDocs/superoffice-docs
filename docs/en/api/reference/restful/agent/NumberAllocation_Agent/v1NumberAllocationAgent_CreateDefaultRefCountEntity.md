@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/CreateDefaultRefCountEntity
 uid: v1NumberAllocationAgent_CreateDefaultRefCountEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/CreateDefaultRefCountEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 ```
 
-Set default values into a new RefCountEntity.
+Loading default values into a new RefCountEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -77,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 955,
-  "Field": "voluptatem",
-  "RecordId": 125,
+  "RefCountsId": 729,
+  "Field": "id",
+  "RecordId": 968,
   "SuggestedRecords": [
     {
-      "Id": 366,
-      "Name": "Price Group",
-      "ToolTip": "Voluptatem ducimus quia consequatur sit.",
+      "Id": 832,
+      "Name": "Schiller Inc and Sons",
+      "ToolTip": "Soluta voluptatum et.",
       "Deleted": false,
-      "Rank": 527,
-      "Type": "non",
+      "Rank": 390,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 746,
-      "ExtraInfo": "possimus",
-      "StyleHint": "repudiandae",
-      "FullName": "Mrs. Ryder Bergnaum",
+      "IconHint": "totam",
+      "ColorBlock": 372,
+      "ExtraInfo": "dolores",
+      "StyleHint": "tempore",
+      "FullName": "Nicklaus Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 63
         }
       }
     }
   ],
-  "CurrentValue": 769,
-  "TravelPrefix": 108,
-  "SatPrefix": 418,
+  "CurrentValue": 745,
+  "TravelPrefix": 156,
+  "SatPrefix": 773,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 626
     }
   }
 }

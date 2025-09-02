@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserInfo
 uid: v1UserAgent_GetUserInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserInfo
@@ -24,11 +25,11 @@ Gets a UserInfo object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| userInfoId | int32 | **Required** The primary key. |
+| userInfoId | int32 | **Required** The identifier of the UserInfo object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=806
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=108
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 879,
-  "UserName": "Rau, Hirthe and Klocko",
-  "PersonId": 314,
-  "Rank": 81,
-  "Tooltip": "culpa",
-  "UserGroupId": 679,
-  "EjUserId": 525,
+  "UserInfoId": 607,
+  "UserName": "Russel-Vandervort",
+  "PersonId": 810,
+  "Rank": 605,
+  "Tooltip": "sint",
+  "UserGroupId": 935,
+  "EjUserId": 270,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "vitae",
-    "recusandae"
+    "alias",
+    "earum"
   ],
   "CanLogon": false,
-  "RoleName": "Emard Group",
-  "RoleTooltip": "iure",
-  "UserGroupName": "Donnelly Inc and Sons",
-  "UserGroupTooltip": "eligendi",
+  "RoleName": "Bradtke, Harris and Swift",
+  "RoleTooltip": "sunt",
+  "UserGroupName": "Wunsch, Wyman and Hermann",
+  "UserGroupTooltip": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 605
     }
   }
 }

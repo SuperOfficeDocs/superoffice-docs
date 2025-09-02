@@ -2,6 +2,7 @@
 title: POST Agents/AI/SummarizeContact
 uid: v1AIAgent_SummarizeContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/SummarizeContact
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 965,
-  "NumSentences": 690,
-  "IsoLangCode": "rem"
+  "ContactId": 982,
+  "NumSentences": 245,
+  "IsoLangCode": "eum"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aperiam"
+"vitae"
 ```

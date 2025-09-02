@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Webhook
 title: Services88.WebhookAgent WSDL
+content_type: reference
 ---
 
 # Services88.WebhookAgent WSDL
@@ -126,6 +127,8 @@ title: Services88.WebhookAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

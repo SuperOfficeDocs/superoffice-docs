@@ -2,10 +2,10 @@
 uid: table-s_list_customer
 title: s_list_customer table
 description: Elements in a customer list.
-so.generated: true
+generated: true
 keywords: database table s_list_customer
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_list\_customer Table (346)

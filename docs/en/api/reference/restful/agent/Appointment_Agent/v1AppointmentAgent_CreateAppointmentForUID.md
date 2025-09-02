@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateAppointmentForUID
 uid: v1AppointmentAgent_CreateAppointmentForUID
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateAppointmentForUID
@@ -133,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "consequatur"
+  "UID": "voluptatem"
 }
 ```
 
@@ -153,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-07-19T03:45:22.9360912+02:00",
-  "AppointmentId": 645,
-  "Description": "Vision-oriented 3rd generation knowledge user",
-  "Title": "deleniti",
-  "Agenda": "et",
-  "InternalNotes": "est",
-  "StartDate": "2005-05-22T03:45:22.9360912+02:00",
-  "EndDate": "2024-03-04T03:45:22.9360912+01:00",
+  "CreatedDate": "2011-02-17T03:46:54.2382763+01:00",
+  "AppointmentId": 660,
+  "Description": "Reverse-engineered background approach",
+  "Title": "aperiam",
+  "Agenda": "tenetur",
+  "InternalNotes": "quia",
+  "StartDate": "2019-03-04T03:46:54.2382763+01:00",
+  "EndDate": "2012-12-05T03:46:54.2382763+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 514,
+  "MotherId": 982,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-11-09T03:45:22.9360912+01:00",
+  "UpdatedDate": "2024-06-13T03:46:54.2382763+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 949,
+  "ActiveLinks": 369,
   "Links": [
     {
-      "EntityName": "Heathcote LLC",
-      "Id": 720,
-      "Description": "Multi-layered demand-driven open system",
-      "ExtraInfo": "minima",
-      "LinkId": 193,
+      "EntityName": "Mante, Bashirian and Stehr",
+      "Id": 368,
+      "Description": "Innovative disintermediate architecture",
+      "ExtraInfo": "aut",
+      "LinkId": 984,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "explicabo",
   "HasAlarm": false,
-  "ColorIndex": 6,
+  "ColorIndex": 551,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "voluptas",
-  "Location": "officiis",
-  "RejectCounter": 339,
+  "LagTime": "earum",
+  "LeadTime": "vel",
+  "Location": "dicta",
+  "RejectCounter": 991,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 840,
-      "PersonId": 417,
-      "ContactId": 99,
-      "EmailId": 289,
-      "SendEmail": true,
+      "AssociateId": 529,
+      "PersonId": 686,
+      "ContactId": 651,
+      "EmailId": 645,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "arielle@mueller.ca",
-      "Description": "Quality-focused grid-enabled policy"
+      "EmailAddress": "velma_hoeger@sauer.co.uk",
+      "Description": "Cloned global access"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-05-02T03:45:22.9360912+02:00",
+  "ActiveDate": "2010-01-01T03:46:54.2382763+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 917,
+  "PreferredTZLocation": 768,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 816,
+  "SuggestedAppointmentId": 813,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nisi",
+  "CentralserviceVideomeetId": "sunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "968413165",
-    "SuperOffice:2": "752809555"
+    "SuperOffice:1": "1594208523",
+    "SuperOffice:2": "1738573626"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "et"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "est"
+    "CustomFields1": "beatae",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2013-01-14T03:45:22.9360912+01:00",
-  "PublishTo": "2000-06-29T03:45:22.9360912+02:00",
-  "PublishFrom": "2011-05-14T03:45:22.9360912+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-03-24T03:46:54.2382763+01:00",
+  "PublishTo": "2009-12-05T03:46:54.2382763+01:00",
+  "PublishFrom": "2013-11-16T03:46:54.2382763+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 863,
+      "VisibleId": 207,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 242
         }
       }
     },
     {
-      "VisibleId": 863,
+      "VisibleId": 207,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 242
         }
       }
     }
@@ -276,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

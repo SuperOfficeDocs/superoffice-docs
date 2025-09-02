@@ -2,6 +2,7 @@
 title: GET Product/default
 uid: v1Product_DefaultProduct
 generated: true
+content_type: reference
 ---
 
 # GET Product/default
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 843,
-  "ERPProductKey": "tempore",
-  "ERPPriceListKey": "assumenda",
-  "Name": "O'Reilly-Grimes",
-  "Description": "Horizontal bottom-line local area network",
-  "Code": "et",
-  "PriceUnit": "sapiente",
-  "QuantityUnit": "doloribus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 9994.326,
-  "ItemNumber": "891443",
+  "ProductId": 601,
+  "ERPProductKey": "pariatur",
+  "ERPPriceListKey": "eos",
+  "Name": "Kozey Inc and Sons",
+  "Description": "Balanced motivating archive",
+  "Code": "architecto",
+  "PriceUnit": "ut",
+  "QuantityUnit": "culpa",
+  "IsSubscription": true,
+  "SubscriptionUnit": "repellendus",
+  "DefaultSubscriptionQuantity": 19929.106,
+  "ItemNumber": "1035505",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "perspiciatis",
-  "VAT": 10329.663999999999,
-  "VATInfo": "dolor",
-  "UnitCost": 21176.438,
-  "UnitMinimumPrice": 5951.4659999999994,
-  "UnitListPrice": 2557.344,
+  "ProductFamilyKey": "cum",
+  "ProductTypeKey": "officiis",
+  "VAT": 1009.1479999999999,
+  "VATInfo": "placeat",
+  "UnitCost": 21088.685999999998,
+  "UnitMinimumPrice": 23771.39,
+  "UnitListPrice": 22818.654,
   "InAssortment": false,
-  "Supplier": "illo",
-  "SupplierCode": "quo",
-  "Rights": "ut",
-  "Rule": "sint",
+  "Supplier": "nihil",
+  "SupplierCode": "distinctio",
+  "Rights": "rem",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Dibbert, Kihn and Wintheiser",
-      "Value": "beatae",
+      "Name": "Emmerich Inc and Sons",
+      "Value": "rem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 398
         }
       }
     },
     {
-      "Name": "Dibbert, Kihn and Wintheiser",
-      "Value": "beatae",
+      "Name": "Emmerich Inc and Sons",
+      "Value": "rem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 398
         }
       }
     }
   ],
-  "RawExtraInfo": "repudiandae",
-  "ExtraField1": "atque",
-  "ExtraField2": "eaque",
-  "ExtraField3": "error",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "quos",
-  "InStock": 9022.786,
+  "RawExtraInfo": "dicta",
+  "ExtraField1": "corporis",
+  "ExtraField2": "dolores",
+  "ExtraField3": "maiores",
+  "ExtraField4": "autem",
+  "ExtraField5": "impedit",
+  "InStock": 24673.982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 366
     }
   }
 }

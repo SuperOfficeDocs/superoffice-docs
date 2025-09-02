@@ -2,6 +2,7 @@
 title: DEL Dash/{id}
 uid: v1Dash_DeleteDash
 generated: true
+content_type: reference
 ---
 
 # DEL Dash/{id}

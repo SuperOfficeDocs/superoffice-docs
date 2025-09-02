@@ -2,6 +2,7 @@
 title: Services88.ChatAgent SOAP
 uid: Services88-Chat-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Chat SOAP

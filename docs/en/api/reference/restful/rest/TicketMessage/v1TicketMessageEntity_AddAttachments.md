@@ -2,6 +2,7 @@
 title: POST TicketMessage/{id}/Attachment
 uid: v1TicketMessageEntity_AddAttachments
 generated: true
+content_type: reference
 ---
 
 # POST TicketMessage/{id}/Attachment
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

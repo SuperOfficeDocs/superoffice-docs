@@ -3,9 +3,9 @@ uid: Contact
 title: Contact
 description: Contact provider for general use
 keywords: Contact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Contact"
@@ -359,7 +359,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=contactSupportPerson/personExtra/y_car/id,NumberOfTicketsInPeriod,contactAssociate/contactFullName
+GET /api/v1/archive/Contact?$select=contactAssociate/ejDisplayName,contactAssociate/contactFullName,contactSupportPerson/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

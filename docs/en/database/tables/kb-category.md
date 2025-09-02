@@ -2,10 +2,10 @@
 uid: table-kb_category
 title: kb_category table
 description: Knowledge base folder hierarchy
-so.generated: true
+generated: true
 keywords: database table kb_category
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # kb\_category Table (283)

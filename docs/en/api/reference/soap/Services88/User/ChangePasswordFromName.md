@@ -2,6 +2,7 @@
 title: Services88.UserAgent.ChangePasswordFromName SOAP
 generated: true
 uid: Services88-User-ChangePasswordFromName
+content_type: reference
 ---
 
 # Services88 User ChangePasswordFromName

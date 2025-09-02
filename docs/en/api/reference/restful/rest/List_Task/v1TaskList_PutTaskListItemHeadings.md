@@ -2,6 +2,7 @@
 title: PUT List/Task/Headings
 uid: v1TaskList_PutTaskListItemHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Task/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 418,
-    "Name": "Oberbrunner-Emmerich",
-    "Tooltip": "quia",
+    "HeadingId": 870,
+    "Name": "Stehr, Ankunding and Spencer",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 651
+    "Rank": 391,
+    "UdListDefinitionId": 817
   },
   {
-    "HeadingId": 418,
-    "Name": "Oberbrunner-Emmerich",
-    "Tooltip": "quia",
+    "HeadingId": 870,
+    "Name": "Stehr, Ankunding and Spencer",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 651
+    "Rank": 391,
+    "UdListDefinitionId": 817
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 811,
-    "Name": "Borer, Conn and Volkman",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "Rank": 363,
-    "UdListDefinitionId": 675,
+    "HeadingId": 247,
+    "Name": "Gutkowski, Gislason and Stokes",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "Rank": 348,
+    "UdListDefinitionId": 749,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

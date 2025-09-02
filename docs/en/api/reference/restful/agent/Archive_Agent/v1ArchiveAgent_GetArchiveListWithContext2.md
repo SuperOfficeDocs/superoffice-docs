@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListWithContext2
 uid: v1ArchiveAgent_GetArchiveListWithContext2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListWithContext2
@@ -173,14 +174,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Treutel Group",
-  "ProviderName": "McGlynn Group",
-  "SortOrder": "itaque",
-  "Restriction": "sit",
-  "Entities": "et",
-  "Page": 855,
-  "PageSize": 493,
-  "Context": "harum"
+  "GuiName": "Waelchi, Tremblay and Kub",
+  "ProviderName": "Stokes-Schultz",
+  "SortOrder": "excepturi",
+  "Restriction": "nam",
+  "Entities": "modi",
+  "Page": 987,
+  "PageSize": 966,
+  "Context": "et"
 }
 ```
 
@@ -192,23 +193,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Hara-Balistreri",
-    "PrimaryKey": 293,
+    "EntityName": "Schumm LLC",
+    "PrimaryKey": 591,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatibus",
-        "TooltipHint": "dignissimos",
-        "LinkHint": "omnis"
+        "DisplayValue": "dolore",
+        "TooltipHint": "assumenda",
+        "LinkHint": "aliquid"
       }
     },
-    "LinkHint": "sequi",
-    "StyleHint": "dolor",
+    "LinkHint": "magni",
+    "StyleHint": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

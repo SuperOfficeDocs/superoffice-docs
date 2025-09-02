@@ -2,6 +2,7 @@
 title: POST List/ReasonSold/Headings
 uid: v1ReasonSoldList_PostReasonSoldHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ReasonSold/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 656,
-  "Name": "Romaguera-Grimes",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 612,
-  "UdListDefinitionId": 184
+  "HeadingId": 573,
+  "Name": "Armstrong, Lehner and Champlin",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 593,
+  "UdListDefinitionId": 935
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 666,
-  "Name": "Spinka Group",
-  "Tooltip": "molestiae",
+  "HeadingId": 993,
+  "Name": "Witting, Cremin and Dibbert",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 313,
-  "UdListDefinitionId": 951,
+  "Rank": 884,
+  "UdListDefinitionId": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 977
     }
   }
 }

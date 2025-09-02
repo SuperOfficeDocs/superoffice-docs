@@ -2,6 +2,7 @@
 title: POST List/Rating/Items
 uid: v1RatingList_PostSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/Rating/Items
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 229,
-  "Value": "eaque",
-  "Tooltip": "ut",
-  "Probability": 106,
+  "SaleStageId": 559,
+  "Value": "qui",
+  "Tooltip": "incidunt",
+  "Probability": 480,
   "Deleted": false,
-  "Rank": 722
+  "Rank": 301
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 898,
-  "Value": "ea",
-  "Tooltip": "mollitia",
-  "Probability": 145,
-  "Deleted": true,
-  "Rank": 198,
+  "SaleStageId": 283,
+  "Value": "modi",
+  "Tooltip": "quibusdam",
+  "Probability": 796,
+  "Deleted": false,
+  "Rank": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

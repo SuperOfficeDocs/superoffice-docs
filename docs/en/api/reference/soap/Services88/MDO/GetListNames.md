@@ -2,6 +2,7 @@
 title: Services88.MDOAgent.GetListNames SOAP
 generated: true
 uid: Services88-MDO-GetListNames
+content_type: reference
 ---
 
 # Services88 MDO GetListNames

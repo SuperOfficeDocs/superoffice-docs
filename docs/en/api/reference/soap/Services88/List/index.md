@@ -2,6 +2,7 @@
 title: Services88.ListAgent SOAP
 uid: Services88-List-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 List SOAP
@@ -19,6 +20,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [AddHierarchyToPath](AddHierarchyToPath.md)
 * [ChangeCurrency](ChangeCurrency.md)
 * [CreateDefaultAmountClassEntity](CreateDefaultAmountClassEntity.md)
+* [CreateDefaultCategoryEntity](CreateDefaultCategoryEntity.md)
 * [CreateDefaultCountry](CreateDefaultCountry.md)
 * [CreateDefaultCurrencyEntity](CreateDefaultCurrencyEntity.md)
 * [CreateDefaultDocumentTemplateEntity](CreateDefaultDocumentTemplateEntity.md)
@@ -88,6 +90,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [GetBusinessList](GetBusinessList.md)
 * [GetCategories](GetCategories.md)
 * [GetCategory](GetCategory.md)
+* [GetCategoryEntity](GetCategoryEntity.md)
 * [GetCategoryList](GetCategoryList.md)
 * [GetCompetitor](GetCompetitor.md)
 * [GetCompetitorList](GetCompetitorList.md)
@@ -255,6 +258,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SaveAllFromListDefinition](SaveAllFromListDefinition.md)
 * [SaveAllFromListName](SaveAllFromListName.md)
 * [SaveAmountClassEntity](SaveAmountClassEntity.md)
+* [SaveCategoryEntity](SaveCategoryEntity.md)
 * [SaveConsentPurpose](SaveConsentPurpose.md)
 * [SaveConsentSource](SaveConsentSource.md)
 * [SaveCountry](SaveCountry.md)

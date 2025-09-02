@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SaleHasQuote
 uid: v1SaleAgent_SaleHasQuote
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SaleHasQuote
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Sale/SaleHasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 505
+  "SaleId": 884
 }
 ```
 

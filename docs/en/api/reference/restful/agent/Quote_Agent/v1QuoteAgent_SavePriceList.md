@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SavePriceList
 uid: v1QuoteAgent_SavePriceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SavePriceList
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Quote/SavePriceList
 ```
 
-Updates the existing PriceList or creates a new PriceList if the id parameter is empty
+Updates the existing PriceList or creates a new PriceList if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing PriceList or creates a new PriceList if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: priceList 
 
-The PriceList to be saved. 
+The PriceList that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,15 +86,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 875,
-  "ERPPriceListKey": "sequi",
-  "QuoteConnectionId": 680,
-  "Name": "Skiles, Reilly and Beer",
-  "Description": "Up-sized uniform emulation",
-  "Currency": "fugiat",
-  "CurrencyName": "Kuhic, Jerde and Donnelly",
-  "ValidFrom": "2008-01-03T03:45:23.8110701+01:00",
-  "ValidTo": "2001-01-25T03:45:23.8110701+01:00",
+  "PriceListId": 314,
+  "ERPPriceListKey": "voluptate",
+  "QuoteConnectionId": 908,
+  "Name": "Monahan Group",
+  "Description": "Extended intermediate website",
+  "Currency": "atque",
+  "CurrencyName": "Abernathy Group",
+  "ValidFrom": "2004-10-16T03:46:55.2069913+02:00",
+  "ValidTo": "2018-12-22T03:46:55.2069913+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 328,
-  "ERPPriceListKey": "fuga",
-  "QuoteConnectionId": 501,
-  "Name": "Kutch-Kub",
-  "Description": "Vision-oriented mission-critical infrastructure",
-  "Currency": "quia",
-  "CurrencyName": "DuBuque-Stehr",
-  "ValidFrom": "2018-12-05T03:45:23.8110701+01:00",
-  "ValidTo": "2015-07-04T03:45:23.8110701+02:00",
+  "PriceListId": 673,
+  "ERPPriceListKey": "error",
+  "QuoteConnectionId": 952,
+  "Name": "Dickinson Inc and Sons",
+  "Description": "Profit-focused encompassing implementation",
+  "Currency": "voluptas",
+  "CurrencyName": "Trantow Inc and Sons",
+  "ValidFrom": "2014-06-26T03:46:55.2069913+02:00",
+  "ValidTo": "2015-11-17T03:46:55.2069913+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 744
     }
   }
 }

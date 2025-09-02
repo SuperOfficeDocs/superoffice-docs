@@ -2,10 +2,10 @@
 uid: table-ms_substitute
 title: ms_substitute table
 description: Regexp for extracting info from emails when they enter they system
-so.generated: true
+generated: true
 keywords: database table ms_substitute
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ms\_substitute Table (313)

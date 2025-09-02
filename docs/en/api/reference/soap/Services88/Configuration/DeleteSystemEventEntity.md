@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.DeleteSystemEventEntity SOAP
 generated: true
 uid: Services88-Configuration-DeleteSystemEventEntity
+content_type: reference
 ---
 
 # Services88 Configuration DeleteSystemEventEntity

@@ -2,6 +2,7 @@
 title: GET List/{id}/Items
 uid: v1ListItemEntity_GetAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}/Items
@@ -85,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Von Group",
-    "Tooltip": "culpa",
+    "Id": 533,
+    "Name": "Ernser LLC",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 720,
-    "Rank": 341,
+    "UdListDefinitionId": 885,
+    "Rank": 485,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 990
       }
     }
   }

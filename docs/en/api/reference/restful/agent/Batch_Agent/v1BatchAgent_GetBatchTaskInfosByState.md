@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfosByState
 uid: v1BatchAgent_GetBatchTaskInfosByState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByState
@@ -110,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Jones-Wilkinson",
-    "AssociateId": 423,
-    "DetailsTable": 279,
-    "DetailsRecord": 961,
+    "Id": 863,
+    "Name": "Jacobi-Oberbrunner",
+    "AssociateId": 727,
+    "DetailsTable": 227,
+    "DetailsRecord": 30,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "molestias",
-      "ParameterObject2": "consequuntur"
+      "ParameterObject1": "est",
+      "ParameterObject2": "rerum"
     },
-    "LastStarted": "2010-11-04T03:45:22.9829669+01:00",
-    "Created": "2009-04-27T03:45:22.9829669+02:00",
-    "StartCount": 744,
-    "DatabaseSerialNumber": "971702",
-    "Context": "est",
-    "Result": "aut",
+    "LastStarted": "2012-09-17T03:46:54.3007673+02:00",
+    "Created": "2014-05-02T03:46:54.3007673+02:00",
+    "StartCount": 160,
+    "DatabaseSerialNumber": "1643260",
+    "Context": "dolore",
+    "Result": "minima",
     "State": "All",
-    "Description": "Programmable homogeneous throughput",
-    "Response": "asperiores",
+    "Description": "Seamless multi-state orchestration",
+    "Response": "porro",
     "Request": "maxime",
-    "ProgressDescription": "Organic value-added archive",
-    "ProgressPercent": 719,
-    "FileName": "D'Amore Group",
+    "ProgressDescription": "Cloned systemic help-desk",
+    "ProgressPercent": 272,
+    "FileName": "Bernhard, Parker and Kunze",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 553
       }
     }
   }

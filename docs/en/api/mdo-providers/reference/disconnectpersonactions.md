@@ -3,9 +3,9 @@ uid: disconnectpersonactions
 title: disconnectpersonactions
 keywords: mdoprovider mdo provider disconnectpersonactions
 description: List of actions to perform when disconnecting a contact from a company
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "disconnectpersonactions" MDO List

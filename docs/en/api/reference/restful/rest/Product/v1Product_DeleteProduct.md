@@ -2,6 +2,7 @@
 title: DEL Product/{id}
 uid: v1Product_DeleteProduct
 generated: true
+content_type: reference
 ---
 
 # DEL Product/{id}

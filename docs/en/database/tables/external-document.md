@@ -2,10 +2,10 @@
 uid: table-external_document
 title: external_document table
 description: This table stores documents which can be viewed externaly, through the customer module
-so.generated: true
+generated: true
 keywords: database table external_document
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # external\_document Table (401)

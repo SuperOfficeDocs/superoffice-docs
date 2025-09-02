@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllFromListDefinition
 uid: v1ListAgent_GetAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllFromListDefinition
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 254,
+  "UdListDefinitionId": 542,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Predovic LLC",
-    "Tooltip": "aut",
+    "Id": 581,
+    "Name": "Willms, Stanton and Kemmer",
+    "Tooltip": "quo",
     "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 200,
+    "UdListDefinitionId": 115,
+    "Rank": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

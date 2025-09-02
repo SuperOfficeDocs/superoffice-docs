@@ -2,6 +2,7 @@
 title: POST Agents/Chat/ChatSessionsForUser
 uid: v1ChatAgent_ChatSessionsForUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/ChatSessionsForUser
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,43 +109,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 800,
-    "TopicId": 338,
+    "ChatSessionId": 75,
+    "TopicId": 249,
     "User": null,
     "Person": null,
-    "CustomerAlias": "error",
-    "CustomerHost": "inventore",
-    "CustomerName": "Price LLC",
-    "CustomerEmail": "vernice@watsica.com",
-    "CustomerPhone": "(195)088-7809 x10199",
-    "CustomerConsented": false,
-    "CustomerCompanyName": "Hickle-Kunze",
+    "CustomerAlias": "nemo",
+    "CustomerHost": "consequatur",
+    "CustomerName": "Murray Group",
+    "CustomerEmail": "garrison_moen@cronin.us",
+    "CustomerPhone": "135.859.5095",
+    "CustomerConsented": true,
+    "CustomerCompanyName": "Bergnaum-Greenholt",
     "Status": "Closed",
-    "FirstMessage": "eveniet",
-    "LastMessage": "et",
-    "WhenRequested": "2010-04-15T03:45:23.0298416+02:00",
-    "WhenStarted": "2007-12-02T03:45:23.0298416+01:00",
-    "WhenEnded": "2010-11-20T03:45:23.0298416+01:00",
-    "WhenIdle": "2001-03-27T03:45:23.0298416+02:00",
-    "WhenFetched": "2009-03-01T03:45:23.0298416+01:00",
-    "SessionKey": "quisquam",
-    "InitialQueuePos": 431,
-    "AlertLevel": 130,
-    "Rank": 27,
+    "FirstMessage": "sit",
+    "LastMessage": "atque",
+    "WhenRequested": "2003-07-17T03:46:54.3476466+02:00",
+    "WhenStarted": "2004-12-30T03:46:54.3476466+01:00",
+    "WhenEnded": "2007-07-16T03:46:54.3476466+02:00",
+    "WhenIdle": "2000-09-20T03:46:54.3476466+02:00",
+    "WhenFetched": "2000-02-24T03:46:54.3476466+01:00",
+    "SessionKey": "possimus",
+    "InitialQueuePos": 20,
+    "AlertLevel": 706,
+    "Rank": 981,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
     "Sale": null,
     "Ticket": null,
     "TransferTo": null,
-    "ChatbotIsActive": true,
-    "Rating": 614,
+    "ChatbotIsActive": false,
+    "Rating": 496,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

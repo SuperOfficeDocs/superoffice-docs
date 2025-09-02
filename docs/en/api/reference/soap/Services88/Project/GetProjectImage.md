@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.GetProjectImage SOAP
 generated: true
 uid: Services88-Project-GetProjectImage
+content_type: reference
 ---
 
 # Services88 Project GetProjectImage

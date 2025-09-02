@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Items/{id}/Headings
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Littel Group",
-    "ToolTip": "Soluta dolore nobis velit.",
+    "Id": 252,
+    "Name": "Armstrong Inc and Sons",
+    "ToolTip": "Sit eos ut dolorum aperiam culpa.",
     "Deleted": true,
-    "Rank": 189,
-    "Type": "quia",
-    "ColorBlock": 945,
-    "IconHint": "dolores",
+    "Rank": 73,
+    "Type": "sunt",
+    "ColorBlock": 405,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2002-09-10T03:45:29.1859346+02:00",
+    "LastChanged": "2010-08-17T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Leannon LLC",
-        "ToolTip": "Quas a dignissimos.",
-        "Deleted": false,
-        "Rank": 594,
-        "Type": "quis",
-        "ColorBlock": 354,
-        "IconHint": "soluta",
+        "Id": 990,
+        "Name": "Hettinger-Hegmann",
+        "ToolTip": "Officiis reiciendis quibusdam explicabo aliquid quia laborum ut.",
+        "Deleted": true,
+        "Rank": 501,
+        "Type": "voluptatibus",
+        "ColorBlock": 356,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2024-02-24T03:45:29.1859346+01:00",
+        "LastChanged": "2005-09-15T03:47:00.7692942+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Linda Wisoky",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Miss Adam Lue Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Ashly McClure",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Everette McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 63
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   }

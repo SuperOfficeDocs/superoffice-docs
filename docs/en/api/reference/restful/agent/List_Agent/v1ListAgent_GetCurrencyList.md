@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCurrencyList
 uid: v1ListAgent_GetCurrencyList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCurrencyList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCurrencyList?$select=name,department,category/id
 
 ## Request Body: currencyIds 
 
-The primary keys. 
+The identifiers of the Currency object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Value": "pariatur",
-    "Tooltip": "fugiat",
+    "Id": 785,
+    "Value": "qui",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   },
   {
-    "Id": 76,
-    "Value": "pariatur",
-    "Tooltip": "fugiat",
+    "Id": 785,
+    "Value": "qui",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

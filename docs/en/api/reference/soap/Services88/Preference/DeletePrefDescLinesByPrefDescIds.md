@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.DeletePrefDescLinesByPrefDescIds SOAP
 generated: true
 uid: Services88-Preference-DeletePrefDescLinesByPrefDescIds
+content_type: reference
 ---
 
 # Services88 Preference DeletePrefDescLinesByPrefDescIds

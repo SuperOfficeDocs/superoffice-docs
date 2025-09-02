@@ -2,6 +2,7 @@
 title: POST Agents/Associate/GetEncryptionKey
 uid: v1AssociateAgent_GetEncryptionKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Associate/GetEncryptionKey
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Associate/GetEncryptionKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"et"
 ```

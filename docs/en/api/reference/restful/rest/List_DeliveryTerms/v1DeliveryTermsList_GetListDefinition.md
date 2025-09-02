@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm
 uid: v1DeliveryTermsList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 304,
-  "Name": "Bartoletti-Becker",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 589,
+  "Id": 677,
+  "Name": "O'Keefe-Balistreri",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 118,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldLength": 964
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCRMUrl SOAP
 generated: true
 uid: Services88-Configuration-GetCRMUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetCRMUrl

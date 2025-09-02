@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetDomainDuplicates SOAP
 generated: true
 uid: Services88-Contact-GetDomainDuplicates
+content_type: reference
 ---
 
 # Services88 Contact GetDomainDuplicates

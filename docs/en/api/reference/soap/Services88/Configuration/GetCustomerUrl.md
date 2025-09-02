@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCustomerUrl SOAP
 generated: true
 uid: Services88-Configuration-GetCustomerUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetCustomerUrl

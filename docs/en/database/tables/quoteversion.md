@@ -2,10 +2,10 @@
 uid: table-QuoteVersion
 title: QuoteVersion table
 description: There may be multiple Versions of a Quote, with one of them active
-so.generated: true
+generated: true
 keywords: database table QuoteVersion
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # QuoteVersion Table (39)

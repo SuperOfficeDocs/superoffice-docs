@@ -2,6 +2,7 @@
 title: POST Agents/Resource/ActivateResourceSubstitution
 uid: v1ResourceAgent_ActivateResourceSubstitution
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Resource/ActivateResourceSubstitution
@@ -66,12 +67,12 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Keebler, Morissette and Reilly",
-  "Culture": "autem",
+  "ResourceName": "McClure, Gerlach and Farrell",
+  "Culture": "maxime",
   "IsActive": false
 }
 ```

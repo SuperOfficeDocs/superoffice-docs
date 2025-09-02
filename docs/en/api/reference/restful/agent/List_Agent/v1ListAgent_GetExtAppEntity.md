@@ -2,6 +2,7 @@
 title: POST Agents/List/GetExtAppEntity
 uid: v1ListAgent_GetExtAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetExtAppEntity
@@ -22,11 +23,11 @@ Gets a ExtAppEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| extAppEntityId | int32 | **Required** The primary key. |
+| extAppEntityId | int32 | **Required** The identifier of the ExtAppEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=250
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=238
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +99,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 112,
-  "Name": "Mertz Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 994,
-  "Filename": "odit",
-  "Parameters": "placeat",
-  "Workdir": "sit",
+  "ExtAppId": 814,
+  "Name": "Mayert-Zemlak",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 502,
+  "Filename": "id",
+  "Parameters": "ut",
+  "Workdir": "omnis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 735,
+  "Icon": 13,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sed",
+  "Path": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 960
     }
   }
 }

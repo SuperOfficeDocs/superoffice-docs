@@ -2,6 +2,7 @@
 title: POST Agents/User/FindCredentialsGroups
 uid: v1UserAgent_FindCredentialsGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/FindCredentialsGroups
@@ -84,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "excepturi",
-  "SearchString": "vel"
+  "Type": "voluptas",
+  "SearchString": "veniam"
 }
 ```
 
@@ -97,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaden LLC",
-    "DisplayName": "Satterfield LLC",
+    "Name": "Rolfson Inc and Sons",
+    "DisplayName": "Leffler, Heaney and Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldLength": 866
       }
     }
   },
   {
-    "Name": "Schaden LLC",
-    "DisplayName": "Satterfield LLC",
+    "Name": "Rolfson Inc and Sons",
+    "DisplayName": "Leffler, Heaney and Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldLength": 866
       }
     }
   }

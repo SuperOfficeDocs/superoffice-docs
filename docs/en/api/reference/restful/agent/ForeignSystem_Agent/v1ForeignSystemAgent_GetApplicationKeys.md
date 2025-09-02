@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetApplicationKeys
 uid: v1ForeignSystemAgent_GetApplicationKeys
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetApplicationKeys
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lubowitz, Casper and Stehr"
+  "ApplicationName": "Graham Group"
 }
 ```
 
@@ -96,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
+    "Key": "pariatur",
     "Value": "qui",
-    "RecordId": 202,
-    "CreatedDate": "2018-07-01T03:45:23.498579+02:00",
-    "UpdatedDate": "2004-10-15T03:45:23.498579+02:00",
-    "UpdatedBy": "qui",
-    "CreatedBy": "molestiae",
-    "TableName": "Wilkinson, Feil and Douglas",
+    "RecordId": 809,
+    "CreatedDate": "2015-02-06T03:46:54.9107593+01:00",
+    "UpdatedDate": "2015-05-05T03:46:54.9107593+02:00",
+    "UpdatedBy": "atque",
+    "CreatedBy": "eum",
+    "TableName": "Wunsch, Effertz and Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 882
       }
     }
   }

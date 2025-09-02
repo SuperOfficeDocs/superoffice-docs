@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteListEntity SOAP
 generated: true
 uid: Services88-List-DeleteListEntity
+content_type: reference
 ---
 
 # Services88 List DeleteListEntity

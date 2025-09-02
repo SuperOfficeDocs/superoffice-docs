@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ValidateScriptByUniqueId
 uid: v1CRMScriptAgent_ValidateScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ValidateScriptByUniqueId
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,30 +101,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "tenetur",
-  "LineNumber": 695,
+  "ErrorMessage": "iure",
+  "LineNumber": 359,
   "ErrorInformation": null,
-  "Transpiled": "nihil",
+  "Transpiled": "officia",
   "Includes": [
-    75,
-    512
+    350,
+    358
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 998,
-      "LineNumberTo": 806,
-      "Delta": 494,
-      "IncludeId": "quisquam",
+      "LineNumberFrom": 958,
+      "LineNumberTo": 99,
+      "Delta": 107,
+      "IncludeId": "quaerat",
       "IncludedFrom": [
-        "consequuntur",
-        "cum"
+        "aliquam",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 369
         }
       }
     }
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 135
     }
   }
 }

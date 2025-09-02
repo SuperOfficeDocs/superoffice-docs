@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/MDOItems
 uid: v1DocumentTemplateList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=reiciendis
+GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Senger, Deckow and Aufderhar",
-    "ToolTip": "Earum odio numquam eveniet quo.",
-    "Deleted": true,
-    "Rank": 775,
-    "Type": "unde",
+    "Id": 821,
+    "Name": "Hodkiewicz, Wiza and O'Kon",
+    "ToolTip": "Est expedita consequuntur nostrum dicta est nihil a.",
+    "Deleted": false,
+    "Rank": 716,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Jerde, Hoeger and Collier",
-        "ToolTip": "Distinctio consequatur voluptates error est quos distinctio molestiae.",
+        "Id": 420,
+        "Name": "Padberg Group",
+        "ToolTip": "Exercitationem maiores iure explicabo praesentium officia nam.",
         "Deleted": true,
-        "Rank": 772,
-        "Type": "in",
+        "Rank": 293,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 729,
-        "ExtraInfo": "quas",
-        "StyleHint": "aspernatur",
-        "FullName": "Dorthy Brekke",
+        "IconHint": "exercitationem",
+        "ColorBlock": 318,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "rerum",
+        "FullName": "Jeff Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 171
           }
         }
       }
     ],
-    "IconHint": "nulla",
-    "ColorBlock": 144,
-    "ExtraInfo": "officiis",
-    "StyleHint": "ea",
-    "FullName": "Libby Von",
+    "IconHint": "consequatur",
+    "ColorBlock": 442,
+    "ExtraInfo": "rem",
+    "StyleHint": "quam",
+    "FullName": "Mr. Noemie Margarett Schaefer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 904
       }
     }
   }

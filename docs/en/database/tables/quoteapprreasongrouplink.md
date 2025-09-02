@@ -2,13 +2,13 @@
 uid: table-QuoteApprReasonGroupLink
 title: QuoteApprReasonGroupLink table
 description: User group link table for QuoteApprReason, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table QuoteApprReasonGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# QuoteApprReasonGroupLink Table (526)
+# QuoteApprReasonGroupLink Table (527)
 
 User group link table for QuoteApprReason, for MDO item hiding
 

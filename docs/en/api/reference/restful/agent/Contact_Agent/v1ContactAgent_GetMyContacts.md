@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetMyContacts
 uid: v1ContactAgent_GetMyContacts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetMyContacts
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,36 +100,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 629,
-    "Name": "Murray Inc and Sons",
-    "OrgNr": "977230",
-    "Department": "",
+    "ContactId": 786,
+    "Name": "Ruecker, Hansen and Barrows",
+    "OrgNr": "1279435",
+    "Department": "reinvent customized niches",
     "URL": "http://www.example.com/",
-    "City": "sed",
-    "DirectPhone": "671.173.8406",
-    "AssociateId": 812,
-    "CountryId": 855,
-    "EmailAddress": "broderick@rodriguez.uk",
-    "Kananame": "placeat",
-    "EmailAddressName": "corene_zboncak@bernhard.uk",
+    "City": "iure",
+    "DirectPhone": "1-321-676-2216",
+    "AssociateId": 636,
+    "CountryId": 993,
+    "EmailAddress": "amira_rutherford@sipesmurray.biz",
+    "Kananame": "rem",
+    "EmailAddressName": "sylvan.fahey@bartoncarter.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Adrianna Lubowitz",
+    "AssociateFullName": "Ms. Austen Gibson IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dignissimos",
-    "FullName": "Quinn Yundt",
+    "FormattedAddress": "dolorem",
+    "FullName": "Kurt Green",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 917,
-    "Number1": "1486917",
-    "Number2": "829881",
+    "ActiveErpLinks": 902,
+    "Number1": "516090",
+    "Number2": "962212",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldType": "System.Int32",
+        "FieldLength": 872
       }
     }
   }

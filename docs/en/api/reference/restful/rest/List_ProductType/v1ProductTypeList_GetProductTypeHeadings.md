@@ -2,6 +2,7 @@
 title: GET List/ProductType/Headings
 uid: v1ProductTypeList_GetProductTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "Dicki, Barrows and Oberbrunner",
-    "Tooltip": "voluptas",
+    "HeadingId": 694,
+    "Name": "Schiller, Trantow and Bednar",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 618,
-    "UdListDefinitionId": 240,
+    "Rank": 121,
+    "UdListDefinitionId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 683
       }
     }
   }

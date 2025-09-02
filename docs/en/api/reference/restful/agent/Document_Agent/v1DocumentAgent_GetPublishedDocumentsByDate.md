@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPublishedDocumentsByDate
 uid: v1DocumentAgent_GetPublishedDocumentsByDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPublishedDocumentsByDate
@@ -98,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 266,
+  "PersonId": 38,
   "IncludeProjectDocuments": true,
-  "StartTime": "2017-03-13T03:45:23.2798335+01:00",
-  "EndTime": "2008-03-30T03:45:23.2798335+02:00",
-  "Count": 719
+  "StartTime": "2002-07-03T03:46:54.707009+02:00",
+  "EndTime": "2015-10-04T03:46:54.707009+02:00",
+  "Count": 988
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 31,
-    "Attention": "consequatur",
-    "Header": "harum",
-    "Name": "Hilll, Abbott and Cormier",
-    "OurRef": "odit",
-    "YourRef": "ratione",
-    "Description": "Reverse-engineered coherent matrices",
-    "DocumentTemplate": "laborum",
-    "IsPublished": false,
-    "PersonId": 192,
-    "PersonFullName": "Mrs. Carlos Koelpin",
-    "AssociateFullName": "Stanley Waelchi",
-    "ContactId": 792,
-    "ContactName": "Rice-Kreiger",
-    "ProjectId": 407,
-    "ProjectName": "Lebsack-Larson",
-    "AssociateId": 943,
-    "Snum": 78,
-    "SaleId": 184,
-    "SaleName": "Monahan-Little",
+    "DocumentId": 701,
+    "Attention": "eveniet",
+    "Header": "non",
+    "Name": "Goyette-Klocko",
+    "OurRef": "repudiandae",
+    "YourRef": "quis",
+    "Description": "Virtual didactic matrices",
+    "DocumentTemplate": "voluptates",
+    "IsPublished": true,
+    "PersonId": 693,
+    "PersonFullName": "Mrs. Abbigail Cecelia Hickle I",
+    "AssociateFullName": "Waino Dach",
+    "ContactId": 545,
+    "ContactName": "Greenfelder-Kiehn",
+    "ProjectId": 330,
+    "ProjectName": "Lebsack-Feest",
+    "AssociateId": 404,
+    "Snum": 566,
+    "SaleId": 244,
+    "SaleName": "Bogan, Luettgen and Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 320
       }
     }
   }

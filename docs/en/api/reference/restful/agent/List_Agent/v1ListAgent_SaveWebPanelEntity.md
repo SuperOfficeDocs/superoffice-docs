@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveWebPanelEntity
 uid: v1ListAgent_SaveWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveWebPanelEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveWebPanelEntity
 ```
 
-Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty
+Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: webPanelEntity 
 
-The WebPanelEntity to be saved. 
+The WebPanelEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,30 +106,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 133,
-  "Name": "Beer-Runolfsdottir",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 442,
+  "WebPanelId": 968,
+  "Name": "Kirlin-Larkin",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 748,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Crona, Crona and O'Kon",
+  "ShowInStatusBar": true,
+  "WindowName": "Jenkins-Hansen",
   "Url": "http://www.example.com/",
-  "ProgId": "nemo",
-  "Icon": 188,
+  "ProgId": "asperiores",
+  "Icon": 320,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -141,34 +142,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 520,
-  "Name": "Nitzsche Group",
-  "Tooltip": "perferendis",
+  "WebPanelId": 349,
+  "Name": "Beer LLC",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 165,
+  "Rank": 613,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Hartmann, Wunsch and Connelly",
+  "WindowName": "Cassin LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "excepturi",
-  "Icon": 645,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "est",
+  "Icon": 103,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

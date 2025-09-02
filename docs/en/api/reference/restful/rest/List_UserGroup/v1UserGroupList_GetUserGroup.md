@@ -2,6 +2,7 @@
 title: GET List/UserGroup/Items/{id}
 uid: v1UserGroupList_GetUserGroup
 generated: true
+content_type: reference
 ---
 
 # GET List/UserGroup/Items/{id}
@@ -76,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "odit",
-  "Tooltip": "adipisci",
-  "Id": 333,
-  "Rank": 685,
-  "Deleted": true,
+  "Value": "et",
+  "Tooltip": "ut",
+  "Id": 292,
+  "Rank": 997,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 276
     }
   }
 }

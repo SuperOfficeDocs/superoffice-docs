@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetPriorityList SOAP
 generated: true
 uid: Services88-List-GetPriorityList
+content_type: reference
 ---
 
 # Services88 List GetPriorityList

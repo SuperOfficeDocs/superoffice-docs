@@ -2,6 +2,7 @@
 title: GET List/Credited/Items/{id}/UserGroups
 uid: v1CreditedList_GetCreditedUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Ortiz Inc and Sons",
-    "ToolTip": "Eum dignissimos.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "totam",
-    "ColorBlock": 317,
-    "IconHint": "sunt",
+    "Id": 522,
+    "Name": "Ratke, Lowe and Hartmann",
+    "ToolTip": "Delectus id.",
+    "Deleted": false,
+    "Rank": 670,
+    "Type": "accusamus",
+    "ColorBlock": 27,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2010-04-08T03:45:29.014043+02:00",
+    "LastChanged": "2025-02-26T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Collier Inc and Sons",
-        "ToolTip": "Et ut.",
-        "Deleted": true,
-        "Rank": 684,
-        "Type": "iste",
-        "ColorBlock": 787,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2008-11-14T03:45:29.014043+01:00",
+        "Id": 557,
+        "Name": "Ortiz, Balistreri and Blick",
+        "ToolTip": "Fugit officiis.",
+        "Deleted": false,
+        "Rank": 960,
+        "Type": "eum",
+        "ColorBlock": 879,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2004-06-23T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quis",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Lacy Stamm",
+        "FullName": "Harold Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldLength": 597
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Charity Dibbert",
+    "ExtraInfo": "facilis",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Miss Dariana Evans Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Agent
 title: List_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,19 +12,13 @@ generated: true
 
 
 
-* [POST Agents/List/GetTask](v1ListAgent_GetSoTask.md)
-
-* [POST Agents/List/GetDocumentTemplateTask](v1ListAgent_GetDocumentTemplateTask.md)
-
-* [POST Agents/List/GetTaskList](v1ListAgent_GetTaskList.md)
-
-* [POST Agents/List/GetTasks](v1ListAgent_GetTasks.md)
-
-* [POST Agents/List/GetDocumentTemplatesTasks](v1ListAgent_GetDocumentTemplatesTasks.md)
-
-* [POST Agents/List/GetAllTasks](v1ListAgent_GetAllTasks.md)
-
 * [POST Agents/List/GetTicketCategory](v1ListAgent_GetTicketCategory.md)
+
+* [POST Agents/List/CreateDefaultTicketCategoryEntity](v1ListAgent_CreateDefaultTicketCategoryEntity.md)
+
+* [POST Agents/List/SaveTicketCategoryEntity](v1ListAgent_SaveTicketCategoryEntity.md)
+
+* [POST Agents/List/DeleteTicketCategoryEntity](v1ListAgent_DeleteTicketCategoryEntity.md)
 
 * [POST Agents/List/GetTicketCategoryEntity](v1ListAgent_GetTicketCategoryEntity.md)
 
@@ -42,6 +38,12 @@ generated: true
 
 * [POST Agents/List/GetTicketPriority](v1ListAgent_GetTicketPriority.md)
 
+* [POST Agents/List/CreateDefaultTicketPriorityEntity](v1ListAgent_CreateDefaultTicketPriorityEntity.md)
+
+* [POST Agents/List/SaveTicketPriorityEntity](v1ListAgent_SaveTicketPriorityEntity.md)
+
+* [POST Agents/List/DeleteTicketPriorityEntity](v1ListAgent_DeleteTicketPriorityEntity.md)
+
 * [POST Agents/List/GetTicketPriorityEntity](v1ListAgent_GetTicketPriorityEntity.md)
 
 * [POST Agents/List/SetTicketPrioritySortOrder](v1ListAgent_SetTicketPrioritySortOrder.md)
@@ -51,6 +53,12 @@ generated: true
 * [POST Agents/List/GetTicketPriorities](v1ListAgent_GetTicketPriorities.md)
 
 * [POST Agents/List/GetAllTicketPriorities](v1ListAgent_GetAllTicketPriorities.md)
+
+* [POST Agents/List/CreateDefaultTicketStatusEntity](v1ListAgent_CreateDefaultTicketStatusEntity.md)
+
+* [POST Agents/List/SaveTicketStatusEntity](v1ListAgent_SaveTicketStatusEntity.md)
+
+* [POST Agents/List/DeleteTicketStatusEntity](v1ListAgent_DeleteTicketStatusEntity.md)
 
 * [POST Agents/List/GetTicketStatusEntity](v1ListAgent_GetTicketStatusEntity.md)
 
@@ -62,6 +70,12 @@ generated: true
 
 * [POST Agents/List/GetTicketStatuses](v1ListAgent_GetTicketStatuses.md)
 
+* [POST Agents/List/CreateDefaultTicketTypeEntity](v1ListAgent_CreateDefaultTicketTypeEntity.md)
+
+* [POST Agents/List/SaveTicketTypeEntity](v1ListAgent_SaveTicketTypeEntity.md)
+
+* [POST Agents/List/DeleteTicketTypeEntity](v1ListAgent_DeleteTicketTypeEntity.md)
+
 * [POST Agents/List/GetTicketTypeEntity](v1ListAgent_GetTicketTypeEntity.md)
 
 * [POST Agents/List/GlobalChangeTicketType](v1ListAgent_GlobalChangeTicketType.md)
@@ -71,6 +85,10 @@ generated: true
 * [POST Agents/List/GetTicketTypeList](v1ListAgent_GetTicketTypeList.md)
 
 * [POST Agents/List/GetTicketTypes](v1ListAgent_GetTicketTypes.md)
+
+* [POST Agents/List/CreateDefaultWebPanelEntity](v1ListAgent_CreateDefaultWebPanelEntity.md)
+
+* [POST Agents/List/SaveWebPanelEntity](v1ListAgent_SaveWebPanelEntity.md)
 
 * [POST Agents/List/GetWebPanelEntity](v1ListAgent_GetWebPanelEntity.md)
 
@@ -85,46 +103,6 @@ generated: true
 * [POST Agents/List/DeleteAppWebPanels](v1ListAgent_DeleteAppWebPanels.md)
 
 * [POST Agents/List/GetWebPanelByProgId](v1ListAgent_GetWebPanelByProgId.md)
-
-* [POST Agents/List/GetLocalizedTextByType](v1ListAgent_GetLocalizedTextByType.md)
-
-* [POST Agents/List/GetLocalizedTextList](v1ListAgent_GetLocalizedTextList.md)
-
-* [POST Agents/List/GetLocalizedTexts](v1ListAgent_GetLocalizedTexts.md)
-
-* [POST Agents/List/GetLocalizedTextsByLanguageId](v1ListAgent_GetLocalizedTextsByLanguageId.md)
-
-* [POST Agents/List/GetLocalizedTextsByType](v1ListAgent_GetLocalizedTextsByType.md)
-
-* [POST Agents/List/GetMrMrs](v1ListAgent_GetMrMrs.md)
-
-* [POST Agents/List/GetMrMrsList](v1ListAgent_GetMrMrsList.md)
-
-* [POST Agents/List/GetMrMrses](v1ListAgent_GetMrMrses.md)
-
-* [POST Agents/List/GetPaymentTerm](v1ListAgent_GetPaymentTerm.md)
-
-* [POST Agents/List/GetPaymentTerms](v1ListAgent_GetPaymentTerms.md)
-
-* [POST Agents/List/GetPaymentType](v1ListAgent_GetPaymentType.md)
-
-* [POST Agents/List/GetPaymentTypes](v1ListAgent_GetPaymentTypes.md)
-
-* [POST Agents/List/GetPosition](v1ListAgent_GetPosition.md)
-
-* [POST Agents/List/GetPositionList](v1ListAgent_GetPositionList.md)
-
-* [POST Agents/List/GetPositions](v1ListAgent_GetPositions.md)
-
-* [POST Agents/List/GetPriority](v1ListAgent_GetPriority.md)
-
-* [POST Agents/List/GetPriorityList](v1ListAgent_GetPriorityList.md)
-
-* [POST Agents/List/GetPriorities](v1ListAgent_GetPriorities.md)
-
-* [POST Agents/List/GetProductCategory](v1ListAgent_GetProductCategory.md)
-
-* [POST Agents/List/GetProductCategories](v1ListAgent_GetProductCategories.md)
 
 * [POST Agents/List/GetProductFamily](v1ListAgent_GetProductFamily.md)
 
@@ -143,6 +121,10 @@ generated: true
 * [POST Agents/List/GetProjectStatuses](v1ListAgent_GetProjectStatuses.md)
 
 * [POST Agents/List/GetProjectType](v1ListAgent_GetProjectType.md)
+
+* [POST Agents/List/CreateDefaultProjectTypeEntity](v1ListAgent_CreateDefaultProjectTypeEntity.md)
+
+* [POST Agents/List/SaveProjectTypeEntity](v1ListAgent_SaveProjectTypeEntity.md)
 
 * [POST Agents/List/GetProjectTypeEntity](v1ListAgent_GetProjectTypeEntity.md)
 
@@ -184,17 +166,39 @@ generated: true
 
 * [POST Agents/List/GetReasonSoldList](v1ListAgent_GetReasonSoldList.md)
 
+* [POST Agents/List/GetAllReasonSold](v1ListAgent_GetAllReasonSold.md)
+
 * [POST Agents/List/GetReasonStalled](v1ListAgent_GetReasonStalled.md)
 
 * [POST Agents/List/GetReasonStalledList](v1ListAgent_GetReasonStalledList.md)
 
+* [POST Agents/List/GetAllReasonStalled](v1ListAgent_GetAllReasonStalled.md)
+
+* [POST Agents/List/CreateDefaultRelationDefinitionEntity](v1ListAgent_CreateDefaultRelationDefinitionEntity.md)
+
+* [POST Agents/List/SaveRelationDefinitionEntity](v1ListAgent_SaveRelationDefinitionEntity.md)
+
 * [POST Agents/List/GetRelationDefinitionEntity](v1ListAgent_GetRelationDefinitionEntity.md)
 
+* [POST Agents/List/CreateDefaultResourceEntity](v1ListAgent_CreateDefaultResourceEntity.md)
+
+* [POST Agents/List/SaveResourceEntity](v1ListAgent_SaveResourceEntity.md)
+
+* [POST Agents/List/DeleteResourceEntity](v1ListAgent_DeleteResourceEntity.md)
+
 * [POST Agents/List/GetResourceEntity](v1ListAgent_GetResourceEntity.md)
+
+* [POST Agents/List/CreateDefaultSaleStageEntity](v1ListAgent_CreateDefaultSaleStageEntity.md)
+
+* [POST Agents/List/SaveSaleStageEntity](v1ListAgent_SaveSaleStageEntity.md)
 
 * [POST Agents/List/GetSaleStageEntity](v1ListAgent_GetSaleStageEntity.md)
 
 * [POST Agents/List/GetSaleType](v1ListAgent_GetSaleType.md)
+
+* [POST Agents/List/CreateDefaultSaleTypeEntity](v1ListAgent_CreateDefaultSaleTypeEntity.md)
+
+* [POST Agents/List/SaveSaleTypeEntity](v1ListAgent_SaveSaleTypeEntity.md)
 
 * [POST Agents/List/GetSaleTypeEntity](v1ListAgent_GetSaleTypeEntity.md)
 
@@ -208,51 +212,25 @@ generated: true
 
 * [POST Agents/List/GetSelectionCategoryList](v1ListAgent_GetSelectionCategoryList.md)
 
+* [POST Agents/List/GetAllSelectionCategory](v1ListAgent_GetAllSelectionCategory.md)
+
 * [POST Agents/List/GetSource](v1ListAgent_GetSource.md)
 
 * [POST Agents/List/GetSourceList](v1ListAgent_GetSourceList.md)
 
 * [POST Agents/List/GetSources](v1ListAgent_GetSources.md)
 
-* [POST Agents/List/DeleteHierarchyFromPath](v1ListAgent_DeleteHierarchyFromPath.md)
+* [POST Agents/List/GetTask](v1ListAgent_GetSoTask.md)
 
-* [POST Agents/List/GetLanguageInfo](v1ListAgent_GetLanguageInfo.md)
+* [POST Agents/List/GetDocumentTemplateTask](v1ListAgent_GetDocumentTemplateTask.md)
 
-* [POST Agents/List/GetLanguageInfoList](v1ListAgent_GetLanguageInfoList.md)
+* [POST Agents/List/GetTaskList](v1ListAgent_GetTaskList.md)
 
-* [POST Agents/List/GetInstalledLanguages](v1ListAgent_GetInstalledLanguages.md)
+* [POST Agents/List/GetTasks](v1ListAgent_GetTasks.md)
 
-* [POST Agents/List/GetLegalBase](v1ListAgent_GetLegalBase.md)
+* [POST Agents/List/GetDocumentTemplatesTasks](v1ListAgent_GetDocumentTemplatesTasks.md)
 
-* [POST Agents/List/SaveLegalBase](v1ListAgent_SaveLegalBase.md)
-
-* [POST Agents/List/GetLegalBaseList](v1ListAgent_GetLegalBaseList.md)
-
-* [POST Agents/List/GetLegalBases](v1ListAgent_GetLegalBases.md)
-
-* [POST Agents/List/GetLink](v1ListAgent_GetLink.md)
-
-* [POST Agents/List/GetLinkList](v1ListAgent_GetLinkList.md)
-
-* [POST Agents/List/GetListEntity](v1ListAgent_GetListEntity.md)
-
-* [POST Agents/List/GetListDefinitions](v1ListAgent_GetListDefinitions.md)
-
-* [POST Agents/List/GetListEntityByName](v1ListAgent_GetListEntityByName.md)
-
-* [POST Agents/List/SaveListEntityByName](v1ListAgent_SaveListEntityByName.md)
-
-* [POST Agents/List/DeleteListEntityByName](v1ListAgent_DeleteListEntityByName.md)
-
-* [POST Agents/List/SaveListItemEntity](v1ListAgent_SaveListItemEntity.md)
-
-* [POST Agents/List/SortListItems](v1ListAgent_SortListItems.md)
-
-* [POST Agents/List/MoveListItem](v1ListAgent_MoveListItem.md)
-
-* [POST Agents/List/GetVisibleForUserGroups](v1ListAgent_GetVisibleForUserGroups.md)
-
-* [POST Agents/List/GetVisibleForUserGroupsFromListName](v1ListAgent_GetVisibleForUserGroupsFromListName.md)
+* [POST Agents/List/GetAllTasks](v1ListAgent_GetAllTasks.md)
 
 * [POST Agents/List/SetVisibleForUserGroups](v1ListAgent_SetVisibleForUserGroups.md)
 
@@ -342,75 +320,51 @@ generated: true
 
 * [POST Agents/List/GetLocalizedText](v1ListAgent_GetLocalizedText.md)
 
-* [POST Agents/List/GetConsentPurposeList](v1ListAgent_GetConsentPurposeList.md)
+* [POST Agents/List/GetLocalizedTextByType](v1ListAgent_GetLocalizedTextByType.md)
 
-* [POST Agents/List/GetConsentPurposes](v1ListAgent_GetConsentPurposes.md)
+* [POST Agents/List/GetLocalizedTextList](v1ListAgent_GetLocalizedTextList.md)
 
-* [POST Agents/List/GetConsentSource](v1ListAgent_GetConsentSource.md)
+* [POST Agents/List/GetLocalizedTexts](v1ListAgent_GetLocalizedTexts.md)
 
-* [POST Agents/List/SaveConsentSource](v1ListAgent_SaveConsentSource.md)
+* [POST Agents/List/GetLocalizedTextsByLanguageId](v1ListAgent_GetLocalizedTextsByLanguageId.md)
 
-* [POST Agents/List/GetConsentSourceList](v1ListAgent_GetConsentSourceList.md)
+* [POST Agents/List/GetLocalizedTextsByType](v1ListAgent_GetLocalizedTextsByType.md)
 
-* [POST Agents/List/GetConsentSources](v1ListAgent_GetConsentSources.md)
+* [POST Agents/List/GetMrMrs](v1ListAgent_GetMrMrs.md)
 
-* [POST Agents/List/GetCountry](v1ListAgent_GetCountry.md)
+* [POST Agents/List/GetMrMrsList](v1ListAgent_GetMrMrsList.md)
 
-* [POST Agents/List/SaveCountry](v1ListAgent_SaveCountry.md)
+* [POST Agents/List/GetMrMrses](v1ListAgent_GetMrMrses.md)
 
-* [POST Agents/List/CreateDefaultCountry](v1ListAgent_CreateDefaultCountry.md)
+* [POST Agents/List/GetPaymentTerm](v1ListAgent_GetPaymentTerm.md)
 
-* [POST Agents/List/GetCountryList](v1ListAgent_GetCountryList.md)
+* [POST Agents/List/GetPaymentTerms](v1ListAgent_GetPaymentTerms.md)
 
-* [POST Agents/List/GetCountries](v1ListAgent_GetCountries.md)
+* [POST Agents/List/GetPaymentType](v1ListAgent_GetPaymentType.md)
 
-* [POST Agents/List/GetAllCountries](v1ListAgent_GetAllCountries.md)
+* [POST Agents/List/GetPaymentTypes](v1ListAgent_GetPaymentTypes.md)
 
-* [POST Agents/List/GetCredited](v1ListAgent_GetCredited.md)
+* [POST Agents/List/GetPosition](v1ListAgent_GetPosition.md)
 
-* [POST Agents/List/GetCreditedList](v1ListAgent_GetCreditedList.md)
+* [POST Agents/List/GetPositionList](v1ListAgent_GetPositionList.md)
 
-* [POST Agents/List/GetCrediteds](v1ListAgent_GetCrediteds.md)
+* [POST Agents/List/GetPositions](v1ListAgent_GetPositions.md)
 
-* [POST Agents/List/GetCurrency](v1ListAgent_GetCurrency.md)
+* [POST Agents/List/GetPriority](v1ListAgent_GetPriority.md)
 
-* [POST Agents/List/GetOurCurrency](v1ListAgent_GetOurCurrency.md)
+* [POST Agents/List/GetPriorityList](v1ListAgent_GetPriorityList.md)
 
-* [POST Agents/List/ChangeCurrency](v1ListAgent_ChangeCurrency.md)
+* [POST Agents/List/GetPriorities](v1ListAgent_GetPriorities.md)
 
-* [POST Agents/List/GetOwnerCompanysCurrency](v1ListAgent_GetOwnerCompanysCurrency.md)
+* [POST Agents/List/GetProductCategory](v1ListAgent_GetProductCategory.md)
 
-* [POST Agents/List/GetCurrencyEntity](v1ListAgent_GetCurrencyEntity.md)
-
-* [POST Agents/List/GetBaseCurrency](v1ListAgent_GetBaseCurrency.md)
-
-* [POST Agents/List/GetCurrencyList](v1ListAgent_GetCurrencyList.md)
-
-* [POST Agents/List/GetCurrencies](v1ListAgent_GetCurrencies.md)
-
-* [POST Agents/List/GetAllCurrencies](v1ListAgent_GetAllCurrencies.md)
-
-* [POST Agents/List/GetCustomerLanguage](v1ListAgent_GetCustomerLanguage.md)
-
-* [POST Agents/List/GetCustomerLanguageList](v1ListAgent_GetCustomerLanguageList.md)
-
-* [POST Agents/List/GetCustomerLanguages](v1ListAgent_GetCustomerLanguages.md)
-
-* [POST Agents/List/GetDeliveryTerm](v1ListAgent_GetDeliveryTerm.md)
-
-* [POST Agents/List/GetDeliveryTerms](v1ListAgent_GetDeliveryTerms.md)
-
-* [POST Agents/List/GetDeliveryType](v1ListAgent_GetDeliveryType.md)
-
-* [POST Agents/List/GetDeliveryTypes](v1ListAgent_GetDeliveryTypes.md)
-
-* [POST Agents/List/GetDepartment](v1ListAgent_GetDepartment.md)
-
-* [POST Agents/List/GetDepartmentList](v1ListAgent_GetDepartmentList.md)
-
-* [POST Agents/List/GetDepartments](v1ListAgent_GetDepartments.md)
+* [POST Agents/List/GetProductCategories](v1ListAgent_GetProductCategories.md)
 
 * [POST Agents/List/GetDocumentTemplate](v1ListAgent_GetDocumentTemplate.md)
+
+* [POST Agents/List/CreateDefaultDocumentTemplateEntity](v1ListAgent_CreateDefaultDocumentTemplateEntity.md)
+
+* [POST Agents/List/SaveDocumentTemplateEntity](v1ListAgent_SaveDocumentTemplateEntity.md)
 
 * [POST Agents/List/GetDocumentTemplateEntity](v1ListAgent_GetDocumentTemplateEntity.md)
 
@@ -452,11 +406,25 @@ generated: true
 
 * [POST Agents/List/SetDocumentPluginForAllDocumentTemplates](v1ListAgent_SetDocumentPluginForAllDocumentTemplates.md)
 
+* [POST Agents/List/CreateDefaultExtAppEntity](v1ListAgent_CreateDefaultExtAppEntity.md)
+
+* [POST Agents/List/SaveExtAppEntity](v1ListAgent_SaveExtAppEntity.md)
+
 * [POST Agents/List/GetExtAppEntity](v1ListAgent_GetExtAppEntity.md)
+
+* [POST Agents/List/CreateDefaultHeadingEntity](v1ListAgent_CreateDefaultHeadingEntity.md)
+
+* [POST Agents/List/SaveHeadingEntity](v1ListAgent_SaveHeadingEntity.md)
 
 * [POST Agents/List/GetHeadingEntity](v1ListAgent_GetHeadingEntity.md)
 
 * [POST Agents/List/CreateDefaultHeadingFromListDefinition](v1ListAgent_CreateDefaultHeadingFromListDefinition.md)
+
+* [POST Agents/List/CreateDefaultHierarchyEntity](v1ListAgent_CreateDefaultHierarchyEntity.md)
+
+* [POST Agents/List/SaveHierarchyEntity](v1ListAgent_SaveHierarchyEntity.md)
+
+* [POST Agents/List/DeleteHierarchyEntity](v1ListAgent_DeleteHierarchyEntity.md)
 
 * [POST Agents/List/GetHierarchyEntity](v1ListAgent_GetHierarchyEntity.md)
 
@@ -470,37 +438,27 @@ generated: true
 
 * [POST Agents/List/UpdateHierarchyFromPath](v1ListAgent_UpdateHierarchyFromPath.md)
 
-* [POST Agents/List/CreateDefaultAmountClassEntity](v1ListAgent_CreateDefaultAmountClassEntity.md)
+* [POST Agents/List/DeleteHierarchyFromPath](v1ListAgent_DeleteHierarchyFromPath.md)
 
-* [POST Agents/List/SaveAmountClassEntity](v1ListAgent_SaveAmountClassEntity.md)
+* [POST Agents/List/GetLanguageInfo](v1ListAgent_GetLanguageInfo.md)
 
-* [POST Agents/List/CreateDefaultTaskMenu](v1ListAgent_CreateDefaultTaskMenu.md)
+* [POST Agents/List/GetLanguageInfoList](v1ListAgent_GetLanguageInfoList.md)
 
-* [POST Agents/List/SaveTaskMenu](v1ListAgent_SaveTaskMenu.md)
+* [POST Agents/List/GetInstalledLanguages](v1ListAgent_GetInstalledLanguages.md)
 
-* [POST Agents/List/DeleteTaskMenu](v1ListAgent_DeleteTaskMenu.md)
+* [POST Agents/List/GetLegalBase](v1ListAgent_GetLegalBase.md)
 
-* [POST Agents/List/CreateDefaultCurrencyEntity](v1ListAgent_CreateDefaultCurrencyEntity.md)
+* [POST Agents/List/SaveLegalBase](v1ListAgent_SaveLegalBase.md)
 
-* [POST Agents/List/SaveCurrencyEntity](v1ListAgent_SaveCurrencyEntity.md)
+* [POST Agents/List/GetLegalBaseList](v1ListAgent_GetLegalBaseList.md)
 
-* [POST Agents/List/CreateDefaultDocumentTemplateEntity](v1ListAgent_CreateDefaultDocumentTemplateEntity.md)
+* [POST Agents/List/GetAllLegalBase](v1ListAgent_GetAllLegalBase.md)
 
-* [POST Agents/List/SaveDocumentTemplateEntity](v1ListAgent_SaveDocumentTemplateEntity.md)
+* [POST Agents/List/GetLegalBases](v1ListAgent_GetLegalBases.md)
 
-* [POST Agents/List/CreateDefaultExtAppEntity](v1ListAgent_CreateDefaultExtAppEntity.md)
+* [POST Agents/List/GetLink](v1ListAgent_GetLink.md)
 
-* [POST Agents/List/SaveExtAppEntity](v1ListAgent_SaveExtAppEntity.md)
-
-* [POST Agents/List/CreateDefaultHeadingEntity](v1ListAgent_CreateDefaultHeadingEntity.md)
-
-* [POST Agents/List/SaveHeadingEntity](v1ListAgent_SaveHeadingEntity.md)
-
-* [POST Agents/List/CreateDefaultHierarchyEntity](v1ListAgent_CreateDefaultHierarchyEntity.md)
-
-* [POST Agents/List/SaveHierarchyEntity](v1ListAgent_SaveHierarchyEntity.md)
-
-* [POST Agents/List/DeleteHierarchyEntity](v1ListAgent_DeleteHierarchyEntity.md)
+* [POST Agents/List/GetLinkList](v1ListAgent_GetLinkList.md)
 
 * [POST Agents/List/CreateDefaultListEntity](v1ListAgent_CreateDefaultListEntity.md)
 
@@ -508,57 +466,31 @@ generated: true
 
 * [POST Agents/List/DeleteListEntity](v1ListAgent_DeleteListEntity.md)
 
+* [POST Agents/List/GetListEntity](v1ListAgent_GetListEntity.md)
+
+* [POST Agents/List/GetListDefinitions](v1ListAgent_GetListDefinitions.md)
+
+* [POST Agents/List/GetListEntityByName](v1ListAgent_GetListEntityByName.md)
+
+* [POST Agents/List/SaveListEntityByName](v1ListAgent_SaveListEntityByName.md)
+
+* [POST Agents/List/DeleteListEntityByName](v1ListAgent_DeleteListEntityByName.md)
+
 * [POST Agents/List/CreateDefaultListItemEntity](v1ListAgent_CreateDefaultListItemEntity.md)
 
-* [POST Agents/List/CreateDefaultProjectTypeEntity](v1ListAgent_CreateDefaultProjectTypeEntity.md)
+* [POST Agents/List/SaveListItemEntity](v1ListAgent_SaveListItemEntity.md)
 
-* [POST Agents/List/SaveProjectTypeEntity](v1ListAgent_SaveProjectTypeEntity.md)
+* [POST Agents/List/SortListItems](v1ListAgent_SortListItems.md)
 
-* [POST Agents/List/CreateDefaultRelationDefinitionEntity](v1ListAgent_CreateDefaultRelationDefinitionEntity.md)
+* [POST Agents/List/MoveListItem](v1ListAgent_MoveListItem.md)
 
-* [POST Agents/List/SaveRelationDefinitionEntity](v1ListAgent_SaveRelationDefinitionEntity.md)
+* [POST Agents/List/GetVisibleForUserGroups](v1ListAgent_GetVisibleForUserGroups.md)
 
-* [POST Agents/List/CreateDefaultResourceEntity](v1ListAgent_CreateDefaultResourceEntity.md)
+* [POST Agents/List/GetVisibleForUserGroupsFromListName](v1ListAgent_GetVisibleForUserGroupsFromListName.md)
 
-* [POST Agents/List/SaveResourceEntity](v1ListAgent_SaveResourceEntity.md)
+* [POST Agents/List/CreateDefaultAmountClassEntity](v1ListAgent_CreateDefaultAmountClassEntity.md)
 
-* [POST Agents/List/DeleteResourceEntity](v1ListAgent_DeleteResourceEntity.md)
-
-* [POST Agents/List/CreateDefaultSaleStageEntity](v1ListAgent_CreateDefaultSaleStageEntity.md)
-
-* [POST Agents/List/SaveSaleStageEntity](v1ListAgent_SaveSaleStageEntity.md)
-
-* [POST Agents/List/CreateDefaultSaleTypeEntity](v1ListAgent_CreateDefaultSaleTypeEntity.md)
-
-* [POST Agents/List/SaveSaleTypeEntity](v1ListAgent_SaveSaleTypeEntity.md)
-
-* [POST Agents/List/CreateDefaultTicketCategoryEntity](v1ListAgent_CreateDefaultTicketCategoryEntity.md)
-
-* [POST Agents/List/SaveTicketCategoryEntity](v1ListAgent_SaveTicketCategoryEntity.md)
-
-* [POST Agents/List/DeleteTicketCategoryEntity](v1ListAgent_DeleteTicketCategoryEntity.md)
-
-* [POST Agents/List/CreateDefaultTicketPriorityEntity](v1ListAgent_CreateDefaultTicketPriorityEntity.md)
-
-* [POST Agents/List/SaveTicketPriorityEntity](v1ListAgent_SaveTicketPriorityEntity.md)
-
-* [POST Agents/List/DeleteTicketPriorityEntity](v1ListAgent_DeleteTicketPriorityEntity.md)
-
-* [POST Agents/List/CreateDefaultTicketStatusEntity](v1ListAgent_CreateDefaultTicketStatusEntity.md)
-
-* [POST Agents/List/SaveTicketStatusEntity](v1ListAgent_SaveTicketStatusEntity.md)
-
-* [POST Agents/List/DeleteTicketStatusEntity](v1ListAgent_DeleteTicketStatusEntity.md)
-
-* [POST Agents/List/CreateDefaultTicketTypeEntity](v1ListAgent_CreateDefaultTicketTypeEntity.md)
-
-* [POST Agents/List/SaveTicketTypeEntity](v1ListAgent_SaveTicketTypeEntity.md)
-
-* [POST Agents/List/DeleteTicketTypeEntity](v1ListAgent_DeleteTicketTypeEntity.md)
-
-* [POST Agents/List/CreateDefaultWebPanelEntity](v1ListAgent_CreateDefaultWebPanelEntity.md)
-
-* [POST Agents/List/SaveWebPanelEntity](v1ListAgent_SaveWebPanelEntity.md)
+* [POST Agents/List/SaveAmountClassEntity](v1ListAgent_SaveAmountClassEntity.md)
 
 * [POST Agents/List/GetAmountClassEntity](v1ListAgent_GetAmountClassEntity.md)
 
@@ -570,6 +502,12 @@ generated: true
 
 * [POST Agents/List/GetCategory](v1ListAgent_GetCategory.md)
 
+* [POST Agents/List/CreateDefaultCategoryEntity](v1ListAgent_CreateDefaultCategoryEntity.md)
+
+* [POST Agents/List/SaveCategoryEntity](v1ListAgent_SaveCategoryEntity.md)
+
+* [POST Agents/List/GetCategoryEntity](v1ListAgent_GetCategoryEntity.md)
+
 * [POST Agents/List/GetCategoryList](v1ListAgent_GetCategoryList.md)
 
 * [POST Agents/List/GetCategories](v1ListAgent_GetCategories.md)
@@ -579,6 +517,12 @@ generated: true
 * [POST Agents/List/GetCompetitorList](v1ListAgent_GetCompetitorList.md)
 
 * [POST Agents/List/GetCompetitors](v1ListAgent_GetCompetitors.md)
+
+* [POST Agents/List/CreateDefaultTaskMenu](v1ListAgent_CreateDefaultTaskMenu.md)
+
+* [POST Agents/List/SaveTaskMenu](v1ListAgent_SaveTaskMenu.md)
+
+* [POST Agents/List/DeleteTaskMenu](v1ListAgent_DeleteTaskMenu.md)
 
 * [POST Agents/List/GetTaskMenu](v1ListAgent_GetTaskMenu.md)
 
@@ -595,3 +539,77 @@ generated: true
 * [POST Agents/List/SetEmarketingStrictMode](v1ListAgent_SetEmarketingStrictMode.md)
 
 * [POST Agents/List/GetEmarketingStrictMode](v1ListAgent_GetEmarketingStrictMode.md)
+
+* [POST Agents/List/GetConsentPurposeList](v1ListAgent_GetConsentPurposeList.md)
+
+* [POST Agents/List/GetConsentPurposes](v1ListAgent_GetConsentPurposes.md)
+
+* [POST Agents/List/GetConsentSource](v1ListAgent_GetConsentSource.md)
+
+* [POST Agents/List/SaveConsentSource](v1ListAgent_SaveConsentSource.md)
+
+* [POST Agents/List/GetConsentSourceList](v1ListAgent_GetConsentSourceList.md)
+
+* [POST Agents/List/GetAllConsentSource](v1ListAgent_GetAllConsentSource.md)
+
+* [POST Agents/List/GetConsentSources](v1ListAgent_GetConsentSources.md)
+
+* [POST Agents/List/GetCountry](v1ListAgent_GetCountry.md)
+
+* [POST Agents/List/SaveCountry](v1ListAgent_SaveCountry.md)
+
+* [POST Agents/List/CreateDefaultCountry](v1ListAgent_CreateDefaultCountry.md)
+
+* [POST Agents/List/GetCountryList](v1ListAgent_GetCountryList.md)
+
+* [POST Agents/List/GetCountries](v1ListAgent_GetCountries.md)
+
+* [POST Agents/List/GetAllCountries](v1ListAgent_GetAllCountries.md)
+
+* [POST Agents/List/GetCredited](v1ListAgent_GetCredited.md)
+
+* [POST Agents/List/GetCreditedList](v1ListAgent_GetCreditedList.md)
+
+* [POST Agents/List/GetCrediteds](v1ListAgent_GetCrediteds.md)
+
+* [POST Agents/List/GetCurrency](v1ListAgent_GetCurrency.md)
+
+* [POST Agents/List/GetOurCurrency](v1ListAgent_GetOurCurrency.md)
+
+* [POST Agents/List/ChangeCurrency](v1ListAgent_ChangeCurrency.md)
+
+* [POST Agents/List/GetOwnerCompanysCurrency](v1ListAgent_GetOwnerCompanysCurrency.md)
+
+* [POST Agents/List/CreateDefaultCurrencyEntity](v1ListAgent_CreateDefaultCurrencyEntity.md)
+
+* [POST Agents/List/SaveCurrencyEntity](v1ListAgent_SaveCurrencyEntity.md)
+
+* [POST Agents/List/GetCurrencyEntity](v1ListAgent_GetCurrencyEntity.md)
+
+* [POST Agents/List/GetBaseCurrency](v1ListAgent_GetBaseCurrency.md)
+
+* [POST Agents/List/GetCurrencyList](v1ListAgent_GetCurrencyList.md)
+
+* [POST Agents/List/GetCurrencies](v1ListAgent_GetCurrencies.md)
+
+* [POST Agents/List/GetAllCurrencies](v1ListAgent_GetAllCurrencies.md)
+
+* [POST Agents/List/GetCustomerLanguage](v1ListAgent_GetCustomerLanguage.md)
+
+* [POST Agents/List/GetCustomerLanguageList](v1ListAgent_GetCustomerLanguageList.md)
+
+* [POST Agents/List/GetCustomerLanguages](v1ListAgent_GetCustomerLanguages.md)
+
+* [POST Agents/List/GetDeliveryTerm](v1ListAgent_GetDeliveryTerm.md)
+
+* [POST Agents/List/GetDeliveryTerms](v1ListAgent_GetDeliveryTerms.md)
+
+* [POST Agents/List/GetDeliveryType](v1ListAgent_GetDeliveryType.md)
+
+* [POST Agents/List/GetDeliveryTypes](v1ListAgent_GetDeliveryTypes.md)
+
+* [POST Agents/List/GetDepartment](v1ListAgent_GetDepartment.md)
+
+* [POST Agents/List/GetDepartmentList](v1ListAgent_GetDepartmentList.md)
+
+* [POST Agents/List/GetDepartments](v1ListAgent_GetDepartments.md)

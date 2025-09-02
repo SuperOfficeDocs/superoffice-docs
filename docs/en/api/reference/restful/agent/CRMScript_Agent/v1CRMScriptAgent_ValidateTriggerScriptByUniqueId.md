@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "laboriosam"
+  "TriggerScriptUniqueId": "voluptatem"
 }
 ```
 
@@ -100,30 +101,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "voluptas",
-  "LineNumber": 179,
+  "ErrorMessage": "maiores",
+  "LineNumber": 431,
   "ErrorInformation": null,
-  "Transpiled": "illum",
+  "Transpiled": "temporibus",
   "Includes": [
-    764,
-    471
+    215,
+    122
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 940,
-      "LineNumberTo": 369,
-      "Delta": 574,
-      "IncludeId": "necessitatibus",
+      "LineNumberFrom": 595,
+      "LineNumberTo": 842,
+      "Delta": 987,
+      "IncludeId": "sit",
       "IncludedFrom": [
-        "rerum",
-        "reprehenderit"
+        "quo",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 459
         }
       }
     }
@@ -132,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

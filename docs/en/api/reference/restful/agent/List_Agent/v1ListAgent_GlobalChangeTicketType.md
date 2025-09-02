@@ -2,6 +2,7 @@
 title: POST Agents/List/GlobalChangeTicketType
 uid: v1ListAgent_GlobalChangeTicketType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GlobalChangeTicketType
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/GlobalChangeTicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketTypeId": 668,
-  "ToTicketTypeId": 635
+  "FromTicketTypeId": 712,
+  "ToTicketTypeId": 446
 }
 ```
 

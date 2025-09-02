@@ -2,6 +2,7 @@
 title: POST Agents/List/GetRating
 uid: v1ListAgent_GetRating
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetRating
@@ -22,11 +23,11 @@ Gets a Rating object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ratingId | int32 | **Required** The primary key. |
+| ratingId | int32 | **Required** The identifier of the Rating object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRating?ratingId=403
+POST /api/v1/Agents/List/GetRating?ratingId=351
 POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetRating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Value": "fuga",
-  "Tooltip": "est",
+  "Id": 614,
+  "Value": "et",
+  "Tooltip": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldLength": 178
     }
   }
 }

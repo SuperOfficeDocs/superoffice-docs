@@ -2,6 +2,7 @@
 title: GET SaleStakeholder/{id}
 uid: v1SaleStakeholder_GetSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # GET SaleStakeholder/{id}
@@ -91,7 +92,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +102,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Durgan Inc and Sons",
-  "Comment": "quibusdam",
-  "StakeholderRoleId": 58,
-  "CountryId": 13,
-  "PersonId": 911,
-  "EmailDescription": "margarette.thiel@hills.com",
-  "EmailId": 780,
-  "EmailAddress": "henry@moore.com",
-  "PhoneId": 131,
-  "ContactName": "Schultz LLC",
-  "ContactId": 732,
-  "SaleId": 943,
-  "Mrmrs": "reiciendis",
-  "Firstname": "Pablo",
-  "MiddleName": "Nader, Weber and Rogahn",
-  "Lastname": "Goyette",
-  "SaleStakeholderId": 454,
-  "Rank": 733,
-  "Phone": "1-042-551-6330 x16241",
+  "StakeholderRoleName": "Kris, Lueilwitz and Mertz",
+  "Comment": "dignissimos",
+  "StakeholderRoleId": 761,
+  "CountryId": 784,
+  "PersonId": 947,
+  "EmailDescription": "hollie@dicki.biz",
+  "EmailId": 211,
+  "EmailAddress": "edward.lockman@jones.ca",
+  "PhoneId": 426,
+  "ContactName": "Stracke-Braun",
+  "ContactId": 588,
+  "SaleId": 590,
+  "Mrmrs": "est",
+  "Firstname": "Helena",
+  "MiddleName": "West LLC",
+  "Lastname": "Harber",
+  "SaleStakeholderId": 309,
+  "Rank": 364,
+  "Phone": "1-346-105-1411",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   },
   "_Links": {

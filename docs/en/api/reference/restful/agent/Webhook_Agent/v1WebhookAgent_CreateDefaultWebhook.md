@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/CreateDefaultWebhook
 uid: v1WebhookAgent_CreateDefaultWebhook
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/CreateDefaultWebhook
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 ```
 
-Set default values into a new Webhook.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new Webhook.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -71,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +79,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 89,
-  "Name": "Schroeder-McDermott",
+  "WebhookId": 767,
+  "Name": "Langosh LLC",
   "Events": [
-    "eveniet",
-    "sequi"
+    "fuga",
+    "ad"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iure",
+  "Secret": "et",
   "State": "Active",
-  "Type": "atque",
+  "Type": "quis",
   "Headers": {
-    "Headers1": "inventore",
-    "Headers2": "mollitia"
+    "Headers1": "voluptatem",
+    "Headers2": "labore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-10-25T03:45:24.2016834+01:00",
+  "Registered": "1998-04-25T03:46:55.6444757+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-02T03:45:24.2016834+02:00",
+  "Updated": "2013-06-21T03:46:55.6444757+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "alexandro_rohan@herzogadams.info"
+  "ErrorsEmail": "carolanne.ebert@brown.name"
 }
 ```

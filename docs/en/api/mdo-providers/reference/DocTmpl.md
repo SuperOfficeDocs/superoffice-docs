@@ -3,9 +3,9 @@ uid: doctmpl
 title: doctmpl
 keywords: mdoprovider mdo provider doctmpl
 description: GenericMDOProvider reads MDO lists with default settings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "doctmpl" MDO List

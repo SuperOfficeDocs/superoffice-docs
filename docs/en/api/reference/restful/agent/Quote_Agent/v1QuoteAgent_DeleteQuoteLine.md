@@ -2,6 +2,7 @@
 title: POST Agents/Quote/DeleteQuoteLine
 uid: v1QuoteAgent_DeleteQuoteLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/DeleteQuoteLine
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 605
+  "QuoteLineId": 397
 }
 ```
 

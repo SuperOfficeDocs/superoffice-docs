@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetActorTypeMapping
 uid: v1ErpSyncAgent_GetActorTypeMapping
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetActorTypeMapping
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 286,
+  "ErpConnectionId": 514,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 792,
+  "ErpConnectionId": 206,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 584,
-      "CrmFieldKey": "pariatur",
-      "CrmDisplayName": "Emmerich-Kilback",
-      "CrmDisplayTooltip": "dolorem",
-      "ErpFieldKey": "delectus",
+      "ErpFieldId": 969,
+      "CrmFieldKey": "cum",
+      "CrmDisplayName": "Hodkiewicz-Davis",
+      "CrmDisplayTooltip": "in",
+      "ErpFieldKey": "quaerat",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Nader-O'Conner",
-      "ErpDisplayTooltip": "eaque",
+      "ErpDisplayName": "Heller, Torp and Cremin",
+      "ErpDisplayTooltip": "omnis",
       "SyncToCrm": false,
       "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
+      "AlreadyMapped": false,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "pariatur",
+      "ListReference": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldLength": 120
         }
       }
     }
@@ -134,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 120
     }
   }
 }

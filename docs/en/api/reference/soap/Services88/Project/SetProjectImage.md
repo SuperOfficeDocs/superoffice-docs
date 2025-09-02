@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.SetProjectImage SOAP
 generated: true
 uid: Services88-Project-SetProjectImage
+content_type: reference
 ---
 
 # Services88 Project SetProjectImage

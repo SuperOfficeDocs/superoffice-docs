@@ -2,6 +2,7 @@
 title: POST Agents/Selection/AddContactSelectionMembers
 uid: v1SelectionAgent_AddContactSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/AddContactSelectionMembers
@@ -65,19 +66,19 @@ No Content
 POST /api/v1/Agents/Selection/AddContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 811,
+  "SelectionId": 944,
   "ContactPersonIds": [
     {
-      "PersonId": 131,
-      "ContactId": 839
+      "PersonId": 20,
+      "ContactId": 668
     },
     {
-      "PersonId": 131,
-      "ContactId": 839
+      "PersonId": 20,
+      "ContactId": 668
     }
   ]
 }

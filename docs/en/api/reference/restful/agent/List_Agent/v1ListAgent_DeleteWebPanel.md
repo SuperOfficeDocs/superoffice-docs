@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteWebPanel
 uid: v1ListAgent_DeleteWebPanel
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteWebPanel
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/List/DeleteWebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289
+  "Id": 462
 }
 ```
 

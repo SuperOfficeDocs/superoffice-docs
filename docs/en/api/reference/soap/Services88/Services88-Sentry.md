@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Sentry
 title: Services88.SentryAgent WSDL
+content_type: reference
 ---
 
 # Services88.SentryAgent WSDL

@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.DetectColumnIdChanges SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-DetectColumnIdChanges
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo DetectColumnIdChanges

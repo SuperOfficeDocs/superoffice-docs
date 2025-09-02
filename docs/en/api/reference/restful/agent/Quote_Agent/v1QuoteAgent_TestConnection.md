@@ -2,6 +2,7 @@
 title: POST Agents/Quote/TestConnection
 uid: v1QuoteAgent_TestConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/TestConnection
@@ -81,14 +82,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Hand LLC",
+  "ConnectorName": "Keeling, Kunde and Hilpert",
   "ConnectionData": {
-    "ConnectionData1": "ipsum",
-    "ConnectionData2": "possimus"
+    "ConnectionData1": "et",
+    "ConnectionData2": "aut"
   }
 }
 ```
@@ -100,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "velit",
-  "TechExplanation": "laudantium",
-  "ErrorCode": "esse",
+  "IsOk": false,
+  "UserExplanation": "asperiores",
+  "TechExplanation": "et",
+  "ErrorCode": "aut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

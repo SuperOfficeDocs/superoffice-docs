@@ -2,6 +2,7 @@
 title: Services88.PocketAgent SOAP
 uid: Services88-Pocket-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Pocket SOAP

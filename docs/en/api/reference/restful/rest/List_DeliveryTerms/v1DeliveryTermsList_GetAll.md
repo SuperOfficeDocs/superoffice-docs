@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm/Items
@@ -25,7 +26,7 @@ Gets all the DeliveryTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items?includeDeleted=False
+GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Orn LLC",
-    "Tooltip": "iusto",
+    "Id": 817,
+    "Name": "Tillman, Ullrich and Botsford",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 732,
-    "Rank": 318,
+    "UdListDefinitionId": 906,
+    "Rank": 487,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

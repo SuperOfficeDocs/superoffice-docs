@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.UpdateFormSubmissions SOAP
 generated: true
 uid: Services88-Workflow-UpdateFormSubmissions
+content_type: reference
 ---
 
 # Services88 Workflow UpdateFormSubmissions

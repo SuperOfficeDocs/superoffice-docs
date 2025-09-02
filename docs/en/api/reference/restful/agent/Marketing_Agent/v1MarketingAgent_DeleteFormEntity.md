@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/DeleteFormEntity
 uid: v1MarketingAgent_DeleteFormEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/DeleteFormEntity
@@ -22,10 +23,10 @@ Deletes the FormEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| FormEntityId | int32 | **Required** The id of the FormEntity to be deleted. |
+| formEntityId | int32 | **Required** The identity of the FormEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormEntity?FormEntityId=30
+POST /api/v1/Agents/Marketing/DeleteFormEntity?formEntityId=386
 ```
 
 

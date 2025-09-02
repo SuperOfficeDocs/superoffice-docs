@@ -2,6 +2,7 @@
 title: PUT List/TicketCategory
 uid: v1TicketCategoryList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketCategory
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Greenholt Inc and Sons",
-  "Tooltip": "et",
+  "Id": 324,
+  "Name": "Jacobson-Ward",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 332,
+  "Rank": 89,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Bailey-Jenkins",
-  "Tooltip": "a",
+  "Id": 609,
+  "Name": "Dare LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 262,
-  "IsCustomList": false,
+  "Rank": 959,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "iusto",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 682
     }
   }
 }

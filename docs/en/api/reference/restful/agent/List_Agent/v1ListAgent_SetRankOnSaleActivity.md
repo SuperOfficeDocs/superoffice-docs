@@ -2,6 +2,7 @@
 title: POST Agents/List/SetRankOnSaleActivity
 uid: v1ListAgent_SetRankOnSaleActivity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetRankOnSaleActivity
@@ -65,14 +66,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnSaleActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 605,
+  "SaleTypeStageLinkId": 657,
   "ItemsIds": [
-    163,
-    922
+    187,
+    263
   ]
 }
 ```

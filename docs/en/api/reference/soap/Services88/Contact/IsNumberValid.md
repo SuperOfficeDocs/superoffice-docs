@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.IsNumberValid SOAP
 generated: true
 uid: Services88-Contact-IsNumberValid
+content_type: reference
 ---
 
 # Services88 Contact IsNumberValid

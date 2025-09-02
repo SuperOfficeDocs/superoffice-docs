@@ -2,6 +2,7 @@
 title: Services88.SentryAgent SOAP
 uid: Services88-Sentry-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Sentry SOAP

@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
 uid: v1DocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
 ```
 
-Set default values into a new DocumentTemplateMigrationList.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new DocumentTemplateMigrationList.
 
 
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
@@ -70,11 +68,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 5,
-  "NumTemplatesAlreadyMigrated": 357,
+  "NumTemplatesOmitted": 720,
+  "NumTemplatesAlreadyMigrated": 325,
   "TemplateIds": [
-    383,
-    800
+    350,
+    540
   ]
 }
 ```

@@ -3,9 +3,9 @@ uid: Sale
 title: Sale
 description: Archive provider for Sale type activities. This provider can be used on its own, or can form part of the
 keywords: Sale archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Sale"
@@ -1139,7 +1139,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=person/personUpdatedBy,saleStakeholder/person/title,saleStakeholder/person/birthdate,saleStakeholder/person/isProjectMember,saleStakeholder/person/personExtra/x_person_longtext
+GET /api/v1/archive/Sale?$select=hasGuide,person/personUrl/URLDescription,person/correspondingAssociate/firstName,person/correspondingAssociate/usergroup,contact/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

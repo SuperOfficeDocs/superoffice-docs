@@ -2,6 +2,7 @@
 title: POST Agents/Chat/PickUpFirstChatSession
 uid: v1ChatAgent_PickUpFirstChatSession
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/PickUpFirstChatSession
@@ -107,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 856,
-  "TopicId": 208,
+  "ChatSessionId": 694,
+  "TopicId": 824,
   "User": null,
   "Person": null,
   "CustomerAlias": "qui",
-  "CustomerHost": "quis",
-  "CustomerName": "Kris, Simonis and Thiel",
-  "CustomerEmail": "rollin@emard.name",
-  "CustomerPhone": "1-555-569-0520 x5109",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Volkman-Schamberger",
+  "CustomerHost": "sunt",
+  "CustomerName": "Gerlach, Conroy and Morar",
+  "CustomerEmail": "roel@doylehoppe.ca",
+  "CustomerPhone": "1-023-590-6955 x4839",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Schaden-Beier",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2023-11-14T03:45:23.0454661+01:00",
-  "WhenStarted": "2012-03-03T03:45:23.0454661+01:00",
-  "WhenEnded": "2016-06-19T03:45:23.0454661+02:00",
-  "WhenIdle": "2015-03-30T03:45:23.0454661+02:00",
-  "WhenFetched": "2020-03-13T03:45:23.0454661+01:00",
-  "SessionKey": "nisi",
-  "InitialQueuePos": 283,
-  "AlertLevel": 884,
-  "Rank": 260,
+  "FirstMessage": "nemo",
+  "LastMessage": "culpa",
+  "WhenRequested": "2016-09-05T03:46:54.3788954+02:00",
+  "WhenStarted": "2016-04-12T03:46:54.3788954+02:00",
+  "WhenEnded": "1999-05-13T03:46:54.3788954+02:00",
+  "WhenIdle": "2012-07-18T03:46:54.3788954+02:00",
+  "WhenFetched": "2008-04-07T03:46:54.3788954+02:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 441,
+  "AlertLevel": 819,
+  "Rank": 866,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 332,
+  "Rating": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 633
     }
   }
 }

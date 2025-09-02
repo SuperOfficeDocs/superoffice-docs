@@ -2,6 +2,7 @@
 title: POST Agents/Batch/StartBatchJob
 uid: v1BatchAgent_StartBatchJob
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/StartBatchJob
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Batch/StartBatchJob
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-597
+672
 ```

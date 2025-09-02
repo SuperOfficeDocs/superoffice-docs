@@ -3,9 +3,9 @@ uid: Document
 title: Document
 description: Archive provider for Document type activities. This provider can be used on its own, or can form part of the
 keywords: Document archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Document"
@@ -721,7 +721,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=isReport,person/title,person/personUdef/SuperOffice:8,person/personAssociate/isActiveText,contact/streetAddress/city
+GET /api/v1/archive/Document?$select=person/personUdef/SuperOffice:2,person/personAssociate/credentialDisplayValue,person/correspondingAssociate/ejStatus,project/imageThumbnail,project/projectUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

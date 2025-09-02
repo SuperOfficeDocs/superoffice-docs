@@ -2,6 +2,7 @@
 title: PATCH Contact/{id}
 uid: v1ContactEntity_PatchContactEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Contact/{id}
@@ -138,6 +139,7 @@ ContactEntity  updated.
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
+| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -151,18 +153,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -175,157 +177,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 938,
-  "Name": "Mills LLC",
+  "ContactId": 728,
+  "Name": "Wyman-Hackett",
   "Department": "",
-  "OrgNr": "982741",
-  "Number1": "1096013",
-  "Number2": "665858",
-  "UpdatedDate": "1999-09-16T03:45:28.2015694+02:00",
-  "CreatedDate": "2004-02-12T03:45:28.2015694+01:00",
+  "OrgNr": "1292843",
+  "Number1": "776872",
+  "Number2": "1261462",
+  "UpdatedDate": "2013-04-25T03:46:59.863068+02:00",
+  "CreatedDate": "2004-11-06T03:46:59.863068+01:00",
   "Emails": [
     {
-      "Value": "quia",
-      "StrippedValue": "rerum",
-      "Description": "Team-oriented fault-tolerant framework",
+      "Value": "tempora",
+      "StrippedValue": "in",
+      "Description": "Streamlined zero tolerance Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldLength": 858
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "rerum",
-      "Description": "Team-oriented fault-tolerant framework",
+      "Value": "tempora",
+      "StrippedValue": "in",
+      "Description": "Streamlined zero tolerance Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 274
+          "FieldLength": 858
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 331,
-      "Name": "Schoen-Becker",
-      "ToolTip": "Minima voluptate.",
+      "Id": 564,
+      "Name": "Batz LLC",
+      "ToolTip": "Quis ipsa.",
       "Deleted": false,
-      "Rank": 542,
-      "Type": "non",
-      "ColorBlock": 719,
-      "IconHint": "odio",
+      "Rank": 395,
+      "Type": "quasi",
+      "ColorBlock": 580,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2004-05-04T03:45:28.2015694+02:00",
+      "LastChanged": "2023-06-24T03:46:59.863068+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vero",
-      "StyleHint": "maxime",
+      "ExtraInfo": "dolor",
+      "StyleHint": "error",
       "Hidden": true,
-      "FullName": "Vivien Kub I",
+      "FullName": "Carson Bahringer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "labore",
-      "StrippedValue": "commodi",
-      "Description": "Universal incremental knowledge user",
+      "Value": "non",
+      "StrippedValue": "sit",
+      "Description": "Distributed cohesive throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     },
     {
-      "Value": "labore",
-      "StrippedValue": "commodi",
-      "Description": "Universal incremental knowledge user",
+      "Value": "non",
+      "StrippedValue": "sit",
+      "Description": "Distributed cohesive throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "cum",
-      "StrippedValue": "occaecati",
-      "Description": "Synergistic regional structure",
+      "Value": "sint",
+      "StrippedValue": "excepturi",
+      "Description": "Self-enabling stable challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldLength": 676
         }
       }
     },
     {
-      "Value": "cum",
-      "StrippedValue": "occaecati",
-      "Description": "Synergistic regional structure",
+      "Value": "sint",
+      "StrippedValue": "excepturi",
+      "Description": "Self-enabling stable challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldLength": 676
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "non",
-      "StrippedValue": "velit",
-      "Description": "Extended even-keeled middleware",
+      "Value": "voluptatem",
+      "StrippedValue": "mollitia",
+      "Description": "Organized 6th generation knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 305
         }
       }
     },
     {
-      "Value": "non",
-      "StrippedValue": "velit",
-      "Description": "Extended even-keeled middleware",
+      "Value": "voluptatem",
+      "StrippedValue": "mollitia",
+      "Description": "Organized 6th generation knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 305
         }
       }
     }
   ],
-  "Description": "Cross-platform zero administration moratorium",
+  "Description": "Persevering methodical toolset",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -334,106 +336,107 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 244,
-      "Mrmrs": "qui",
-      "Firstname": "Keaton",
-      "Lastname": "Schultz",
-      "MiddleName": "Kuhn, Russel and Bogisich",
-      "Title": "numquam",
-      "Description": "Enterprise-wide multi-tasking neural-net",
-      "Email": "dortha.lemke@ziemeheller.us",
-      "FullName": "Brett Heaney",
-      "DirectPhone": "332-024-9029",
-      "FormalName": "Sauer, Nienow and King",
-      "CountryId": 854,
-      "ContactId": 384,
-      "ContactName": "Ullrich, Fay and Herman",
-      "Retired": 85,
-      "Rank": 814,
-      "ActiveInterests": 351,
+      "Position": "magni",
+      "PersonId": 346,
+      "Mrmrs": "recusandae",
+      "Firstname": "Layne",
+      "Lastname": "Fisher",
+      "MiddleName": "Wehner, Smith and Torp",
+      "Title": "ducimus",
+      "Description": "Front-line non-volatile hierarchy",
+      "Email": "michael_hammes@breitenberg.name",
+      "FullName": "Estel Feest MD",
+      "DirectPhone": "(582)133-7713 x23720",
+      "FormalName": "Schmidt Group",
+      "CountryId": 4,
+      "ContactId": 262,
+      "ContactName": "Casper, Howell and Rempel",
+      "Retired": 627,
+      "Rank": 497,
+      "ActiveInterests": 558,
       "ContactDepartment": "",
-      "ContactCountryId": 472,
-      "ContactOrgNr": "783744",
-      "FaxPhone": "972.478.0627",
-      "MobilePhone": "951.987.5946 x146",
-      "ContactPhone": "747.025.3987 x78133",
-      "AssociateName": "Adams, Balistreri and Weissnat",
-      "AssociateId": 863,
-      "UsePersonAddress": true,
-      "ContactFax": "et",
-      "Kanafname": "velit",
-      "Kanalname": "rem",
-      "Post1": "aliquid",
-      "Post2": "dolores",
-      "Post3": "consequuntur",
-      "EmailName": "dock@morar.ca",
-      "ContactFullName": "Fiona Chaya Collins Sr.",
-      "ActiveErpLinks": 895,
-      "TicketPriorityId": 559,
-      "SupportLanguageId": 502,
-      "SupportAssociateId": 68,
+      "ContactCountryId": 622,
+      "ContactOrgNr": "1348350",
+      "FaxPhone": "1-969-176-1648 x12312",
+      "MobilePhone": "150.089.0456 x824",
+      "ContactPhone": "1-941-352-0081 x32469",
+      "AssociateName": "Mayert, Hoppe and Sipes",
+      "AssociateId": 455,
+      "UsePersonAddress": false,
+      "ContactFax": "impedit",
+      "Kanafname": "non",
+      "Kanalname": "beatae",
+      "Post1": "asperiores",
+      "Post2": "quidem",
+      "Post3": "minus",
+      "EmailName": "everette@labadie.us",
+      "ContactFullName": "Lester Hamill",
+      "ActiveErpLinks": 348,
+      "TicketPriorityId": 423,
+      "SupportLanguageId": 398,
+      "SupportAssociateId": 52,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1477617",
+      "PersonNumber": "818163",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "consectetur",
+  "Kananame": "minima",
   "Xstop": false,
-  "ActiveInterests": 455,
-  "GroupId": 251,
-  "ActiveStatusMonitorId": 118,
+  "ActiveInterests": 73,
+  "GroupId": 425,
+  "ActiveStatusMonitorId": 583,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 176,
-  "DbiAgentId": 851,
-  "DbiLastSyncronized": "2012-08-30T03:45:28.2015694+02:00",
-  "DbiKey": "maxime",
-  "DbiLastModified": "2018-10-01T03:45:28.2015694+02:00",
+  "Deleted": 52,
+  "DbiAgentId": 19,
+  "DbiLastSyncronized": "1999-12-11T03:46:59.863068+01:00",
+  "DbiKey": "voluptates",
+  "DbiLastModified": "2001-03-22T03:46:59.863068+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 171,
-  "ActiveErpLinks": 396,
+  "Source": 187,
+  "ActiveErpLinks": 127,
   "BounceEmails": [
-    "abdul@gibson.ca",
-    "johan_ratke@runolfsdottirheaney.uk"
+    "zelda@heidenreich.name",
+    "rae@schuppe.biz"
   ],
   "Domains": [
-    "reprehenderit",
-    "aperiam"
+    "velit",
+    "id"
   ],
+  "InitialUtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jovani Schimmel",
-    "SuperOffice:2": "Cecelia Schuster"
+    "SuperOffice:1": "131640371",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "totam"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

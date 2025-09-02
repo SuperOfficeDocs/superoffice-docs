@@ -3,9 +3,9 @@ uid: SaleFiltered
 title: SaleFiltered
 description: Sale archive provider for the Contact/Project card
 keywords: SaleFiltered archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleFiltered"
@@ -1138,7 +1138,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/birthdate,person/useAsMailingAddress,person/kanaLastName,person/personPager/formattedNumber,person/personAssociate/assocName
+GET /api/v1/archive/SaleFiltered?$select=registeredByFullName,project/projectAssociate/fullName,project/projectAssociate/associateDbId,project/projectAssociate/assocType,saleStakeholder/person/retired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

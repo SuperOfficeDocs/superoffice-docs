@@ -2,6 +2,7 @@
 title: POST List/WebPanel/Items
 uid: v1WebPanelEntityList_PostWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/WebPanel/Items
@@ -107,32 +108,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 849,
-  "Name": "Braun Inc and Sons",
-  "Tooltip": "autem",
+  "WebPanelId": 890,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 818,
+  "Rank": 907,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Goldner-Robel",
+  "ShowInStatusBar": false,
+  "WindowName": "Walter, Gutkowski and Wolf",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 942,
+  "ProgId": "adipisci",
+  "Icon": 286,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 316,
-  "Name": "Kohler-Luettgen",
-  "Tooltip": "suscipit",
+  "WebPanelId": 243,
+  "Name": "Thompson LLC",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 533,
+  "Rank": 987,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Schowalter, Jaskolski and Mann",
+  "WindowName": "Littel LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "a",
-  "Icon": 353,
+  "ProgId": "provident",
+  "Icon": 366,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 612
     }
   }
 }

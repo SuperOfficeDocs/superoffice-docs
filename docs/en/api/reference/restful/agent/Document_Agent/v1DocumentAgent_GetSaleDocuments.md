@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetSaleDocuments
 uid: v1DocumentAgent_GetSaleDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetSaleDocuments
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 604
+  "SaleId": 752
 }
 ```
 
@@ -110,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 457,
-    "Attention": "magni",
-    "Header": "eum",
-    "Name": "Luettgen-Herzog",
-    "OurRef": "incidunt",
-    "YourRef": "aliquam",
-    "Description": "Fully-configurable reciprocal customer loyalty",
-    "DocumentTemplate": "architecto",
-    "IsPublished": false,
-    "PersonId": 860,
-    "PersonFullName": "Jerald Huel",
-    "AssociateFullName": "Lulu Florine Nitzsche Sr.",
-    "ContactId": 705,
-    "ContactName": "Hyatt LLC",
-    "ProjectId": 801,
-    "ProjectName": "Kuphal-Veum",
-    "AssociateId": 782,
-    "Snum": 379,
-    "SaleId": 770,
-    "SaleName": "Larkin-Dare",
+    "DocumentId": 6,
+    "Attention": "eligendi",
+    "Header": "nulla",
+    "Name": "Hegmann, Schuppe and Ziemann",
+    "OurRef": "perspiciatis",
+    "YourRef": "laborum",
+    "Description": "Fundamental background focus group",
+    "DocumentTemplate": "recusandae",
+    "IsPublished": true,
+    "PersonId": 527,
+    "PersonFullName": "Mr. Noemie Cristal Hagenes",
+    "AssociateFullName": "Alivia Sanford",
+    "ContactId": 185,
+    "ContactName": "Langosh, Fadel and Brakus",
+    "ProjectId": 983,
+    "ProjectName": "Rippin, Kunze and Considine",
+    "AssociateId": 749,
+    "Snum": 318,
+    "SaleId": 363,
+    "SaleName": "Roberts Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldLength": 393
       }
     }
   }

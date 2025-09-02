@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultUserFromUserType
 uid: v1UserAgent_CreateDefaultUserFromUserType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultUserFromUserType
@@ -102,7 +103,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 50,
-  "Name": "Pollich, Kling and McGlynn",
-  "Rank": 375,
-  "Tooltip": "consequatur",
+  "AssociateId": 469,
+  "Name": "Stroman Group",
+  "Rank": 127,
+  "Tooltip": "culpa",
   "LicenseOwners": [
     {
-      "Name": "Bahringer Inc and Sons",
-      "Description": "Reduced regional approach",
+      "Name": "Considine LLC",
+      "Description": "Inverse full-range portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +139,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 749
         }
       }
     },
     {
-      "Name": "Bahringer Inc and Sons",
-      "Description": "Reduced regional approach",
+      "Name": "Considine LLC",
+      "Description": "Inverse full-range portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 749
         }
       }
     }
@@ -167,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "odio",
-      "Tooltip": "sint",
-      "Id": 954,
-      "Rank": 489,
+      "Value": "asperiores",
+      "Tooltip": "doloremque",
+      "Id": 636,
+      "Rank": 375,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 470
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-05-31T03:45:24.1860585+02:00",
-  "Lastlogout": "2009-04-06T03:45:24.1860585+02:00",
-  "EjUserId": 408,
-  "RequestSignature": "natus",
+  "Lastlogin": "2023-11-12T03:46:55.6132266+01:00",
+  "Lastlogout": "2007-01-21T03:46:55.6132266+01:00",
+  "EjUserId": 74,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "tenetur",
+      "Value": "quisquam",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 351
         }
       }
     },
     {
       "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "tenetur",
+      "Value": "quisquam",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 351
         }
       }
     }
   ],
-  "UserName": "Ratke LLC",
+  "UserName": "Gibson, Hammes and Sipes",
   "TicketCategories": [
     {
-      "Id": 308,
-      "Name": "Mertz-Kuphal",
-      "ToolTip": "Ut sunt architecto ex.",
+      "Id": 435,
+      "Name": "Ledner LLC",
+      "ToolTip": "Voluptatum quis dolorem eum sed sed ullam.",
       "Deleted": false,
-      "Rank": 939,
-      "Type": "ad",
+      "Rank": 823,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quaerat",
-      "ColorBlock": 363,
-      "ExtraInfo": "harum",
-      "StyleHint": "magni",
-      "FullName": "Ms. Antonina Alfredo Beatty",
+      "IconHint": "voluptate",
+      "ColorBlock": 130,
+      "ExtraInfo": "omnis",
+      "StyleHint": "necessitatibus",
+      "FullName": "Dr. Mayra Favian Mosciski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     }
   ],
-  "NickName": "Reilly Inc and Sons",
-  "WaitingForApproval": false,
+  "NickName": "Hane, Roob and Hermiston",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "quis"
+    "CustomFields1": "inventore",
+    "CustomFields2": "voluptatem"
   },
   "PostSaveCommands": [
     {
-      "Name": "D'Amore, Wilkinson and Cronin",
-      "DisplayName": "McClure, Orn and Kirlin",
-      "Description": "Stand-alone bi-directional knowledge user",
-      "ToolTip": "Reprehenderit inventore nulla aperiam ab est.",
+      "Name": "Gorczany, Senger and Lynch",
+      "DisplayName": "Keebler, Streich and Nolan",
+      "Description": "Cross-platform interactive complexity",
+      "ToolTip": "Ullam quibusdam recusandae eum dicta vero sint.",
       "Actions": "Implicit",
-      "ActionData": "assumenda",
+      "ActionData": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 301
         }
       }
     }
@@ -280,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 783
     }
   }
 }

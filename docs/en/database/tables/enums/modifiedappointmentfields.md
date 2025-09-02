@@ -2,10 +2,10 @@
 uid: enum-modifiedappointmentfields
 title: Enum values for ModifiedAppointmentFields
 description: Lists the enum values for ModifiedAppointmentFields.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ModifiedAppointmentFields Enum

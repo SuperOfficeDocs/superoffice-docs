@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.DeleteExtended SOAP
 generated: true
 uid: Services88-EMail-DeleteExtended
+content_type: reference
 ---
 
 # Services88 EMail DeleteExtended

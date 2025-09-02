@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetUserLicenses SOAP
 generated: true
 uid: Services88-License-GetUserLicenses
+content_type: reference
 ---
 
 # Services88 License GetUserLicenses

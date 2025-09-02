@@ -2,6 +2,7 @@
 title: GET Person/UdefLayout
 uid: v1PersonEntity_GetUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Person/UdefLayout
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 878,
-    "ColumnId": 517,
-    "FieldDefault": "occaecati",
-    "FieldHeight": 724,
-    "FieldLabel": "quia",
-    "FieldLeft": 660,
-    "FieldTop": 44,
+    "UDefFieldId": 925,
+    "ColumnId": 116,
+    "FieldDefault": "dolorum",
+    "FieldHeight": 859,
+    "FieldLabel": "necessitatibus",
+    "FieldLeft": 246,
+    "FieldTop": 400,
     "FieldType": "Checkbox",
-    "FieldWidth": 216,
-    "FormatMask": "enim",
+    "FieldWidth": 494,
+    "FormatMask": "voluptate",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 125,
-    "LabelLeft": 997,
-    "LabelTop": 88,
-    "LabelWidth": 602,
-    "LastVersionId": 438,
-    "ListTableId": 347,
+    "LabelHeight": 84,
+    "LabelLeft": 554,
+    "LabelTop": 569,
+    "LabelWidth": 140,
+    "LastVersionId": 230,
+    "ListTableId": 823,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 588,
-    "ProgId": "molestiae",
+    "Page1LineNo": 824,
+    "ProgId": "eum",
     "IsReadOnly": false,
-    "ShortLabel": "aspernatur",
-    "TabOrder": 394,
-    "TextLength": 763,
-    "Tooltip": "laborum",
-    "UdefIdentity": 603,
-    "UDListDefinitionId": 479,
+    "ShortLabel": "repellat",
+    "TabOrder": 233,
+    "TextLength": 155,
+    "Tooltip": "et",
+    "UdefIdentity": 802,
+    "UDListDefinitionId": 53,
     "Justification": "Center",
-    "Version": 358,
-    "TemplateVariableName": "Reilly-Batz",
+    "Version": 91,
+    "TemplateVariableName": "Mohr, O'Kon and Terry",
     "HasBeenPublished": false,
-    "MdoListName": "Orn, Heidenreich and Smitham",
+    "MdoListName": "Williamson, Bradtke and Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 553
       }
     }
   }

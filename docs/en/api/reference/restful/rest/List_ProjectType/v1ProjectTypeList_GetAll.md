@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Items
 uid: v1ProjectTypeList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "White Inc and Sons",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "UdListDefinitionId": 1000,
-    "Rank": 373,
+    "Id": 314,
+    "Name": "Witting Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 992,
+    "Rank": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldLength": 556
       }
     }
   }

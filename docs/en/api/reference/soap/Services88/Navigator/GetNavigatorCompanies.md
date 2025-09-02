@@ -2,6 +2,7 @@
 title: Services88.NavigatorAgent.GetNavigatorCompanies SOAP
 generated: true
 uid: Services88-Navigator-GetNavigatorCompanies
+content_type: reference
 ---
 
 # Services88 Navigator GetNavigatorCompanies

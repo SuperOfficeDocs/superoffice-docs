@@ -3,9 +3,9 @@ uid: AggregationWrapper2
 title: AggregationWrapper2
 description: This is the main aggregation engine for the Archive Provider system - version 2,
 keywords: AggregationWrapper2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AggregationWrapper2"

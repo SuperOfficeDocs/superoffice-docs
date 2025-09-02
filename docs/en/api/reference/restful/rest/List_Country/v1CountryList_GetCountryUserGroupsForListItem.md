@@ -2,6 +2,7 @@
 title: GET List/Country/Items/{id}/UserGroups
 uid: v1CountryList_GetCountryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Country/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Wilderman, Mayert and Runolfsdottir",
-    "ToolTip": "Doloribus ipsa et voluptas et et mollitia omnis.",
+    "Id": 216,
+    "Name": "Larson Group",
+    "ToolTip": "Similique tenetur non voluptas quo sed.",
     "Deleted": true,
-    "Rank": 436,
-    "Type": "corporis",
-    "ColorBlock": 683,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2019-09-23T03:45:28.9984183+02:00",
+    "Rank": 447,
+    "Type": "maiores",
+    "ColorBlock": 630,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2012-09-15T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Greenfelder-Kunze",
-        "ToolTip": "Ullam qui neque nulla ut.",
+        "Id": 843,
+        "Name": "Koepp, Weimann and Muller",
+        "ToolTip": "Odit aut rerum aut nemo sed.",
         "Deleted": false,
-        "Rank": 460,
-        "Type": "tenetur",
-        "ColorBlock": 194,
-        "IconHint": "quaerat",
+        "Rank": 986,
+        "Type": "blanditiis",
+        "ColorBlock": 122,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2007-11-20T03:45:28.9984183+01:00",
+        "LastChanged": "2000-03-11T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Carroll Quigley",
+        "ExtraInfo": "labore",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Prof. Bertha Derrick Mayer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mrs. Augusta Blaise Goldner",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Janiya Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

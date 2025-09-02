@@ -2,6 +2,7 @@
 title: GET Person/UdefLayout/Published
 uid: v1PersonEntity_GetPublishedUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Person/UdefLayout/Published
@@ -88,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 6,
-    "ColumnId": 854,
-    "FieldDefault": "suscipit",
-    "FieldHeight": 505,
-    "FieldLabel": "et",
-    "FieldLeft": 463,
-    "FieldTop": 234,
+    "UDefFieldId": 602,
+    "ColumnId": 961,
+    "FieldDefault": "repellat",
+    "FieldHeight": 465,
+    "FieldLabel": "cumque",
+    "FieldLeft": 868,
+    "FieldTop": 832,
     "FieldType": "Checkbox",
-    "FieldWidth": 735,
-    "FormatMask": "et",
+    "FieldWidth": 49,
+    "FormatMask": "optio",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 315,
-    "LabelLeft": 224,
-    "LabelTop": 934,
-    "LabelWidth": 153,
-    "LastVersionId": 262,
-    "ListTableId": 591,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 61,
+    "LabelLeft": 137,
+    "LabelTop": 754,
+    "LabelWidth": 489,
+    "LastVersionId": 825,
+    "ListTableId": 616,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 227,
-    "ProgId": "sed",
+    "Page1LineNo": 904,
+    "ProgId": "tenetur",
     "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 811,
-    "TextLength": 580,
-    "Tooltip": "debitis",
-    "UdefIdentity": 177,
-    "UDListDefinitionId": 400,
+    "ShortLabel": "a",
+    "TabOrder": 44,
+    "TextLength": 90,
+    "Tooltip": "cum",
+    "UdefIdentity": 850,
+    "UDListDefinitionId": 898,
     "Justification": "Center",
-    "Version": 182,
-    "TemplateVariableName": "Jacobs-Erdman",
-    "HasBeenPublished": false,
-    "MdoListName": "Nitzsche-Kessler",
+    "Version": 780,
+    "TemplateVariableName": "Heaney Group",
+    "HasBeenPublished": true,
+    "MdoListName": "McLaughlin-Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 270
+        "FieldLength": 234
       }
     }
   }

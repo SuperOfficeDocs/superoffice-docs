@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetMyBizCard
 uid: v1ContactAgent_GetMyBizCard
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetMyBizCard
@@ -98,6 +99,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
+| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -120,157 +122,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 776,
-  "Name": "Lebsack Group",
-  "Department": "",
-  "OrgNr": "525053",
-  "Number1": "496776",
-  "Number2": "888786",
-  "UpdatedDate": "2016-12-08T03:45:23.2017113+01:00",
-  "CreatedDate": "1999-01-12T03:45:23.2017113+01:00",
+  "ContactId": 383,
+  "Name": "Baumbach, Hackett and Hansen",
+  "Department": "implement granular channels",
+  "OrgNr": "987072",
+  "Number1": "805417",
+  "Number2": "1638503",
+  "UpdatedDate": "2006-12-24T03:46:54.5195154+01:00",
+  "CreatedDate": "2007-09-01T03:46:54.5195154+02:00",
   "Emails": [
     {
-      "Value": "vel",
-      "StrippedValue": "est",
-      "Description": "Robust transitional task-force",
+      "Value": "eligendi",
+      "StrippedValue": "non",
+      "Description": "Programmable solution-oriented challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     },
     {
-      "Value": "vel",
-      "StrippedValue": "est",
-      "Description": "Robust transitional task-force",
+      "Value": "eligendi",
+      "StrippedValue": "non",
+      "Description": "Programmable solution-oriented challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 308,
-      "Name": "Schulist, McGlynn and Feeney",
-      "ToolTip": "Sit ex excepturi molestiae qui possimus.",
+      "Id": 782,
+      "Name": "Pouros, Hilll and Treutel",
+      "ToolTip": "Voluptas velit aut ut voluptatem eum.",
       "Deleted": false,
-      "Rank": 789,
-      "Type": "magni",
-      "ColorBlock": 192,
-      "IconHint": "laudantium",
+      "Rank": 85,
+      "Type": "cumque",
+      "ColorBlock": 125,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2004-12-07T03:45:23.2017113+01:00",
+      "LastChanged": "2019-11-23T03:46:54.5195154+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "ipsa",
+      "ExtraInfo": "provident",
+      "StyleHint": "a",
       "Hidden": false,
-      "FullName": "Mariana Kuvalis",
+      "FullName": "Rose Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 88
+          "FieldLength": 38
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quod",
-      "Description": "Multi-tiered hybrid superstructure",
+      "Value": "quo",
+      "StrippedValue": "facilis",
+      "Description": "Persevering coherent access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 1002
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quod",
-      "Description": "Multi-tiered hybrid superstructure",
+      "Value": "quo",
+      "StrippedValue": "facilis",
+      "Description": "Persevering coherent access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 1002
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "esse",
-      "StrippedValue": "unde",
-      "Description": "Implemented disintermediate service-desk",
+      "Value": "aliquid",
+      "StrippedValue": "rerum",
+      "Description": "Networked object-oriented project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 259
         }
       }
     },
     {
-      "Value": "esse",
-      "StrippedValue": "unde",
-      "Description": "Implemented disintermediate service-desk",
+      "Value": "aliquid",
+      "StrippedValue": "rerum",
+      "Description": "Networked object-oriented project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 259
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "dolores",
-      "StrippedValue": "mollitia",
-      "Description": "Profound 24 hour Graphic Interface",
+      "Value": "ullam",
+      "StrippedValue": "placeat",
+      "Description": "Pre-emptive global array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 206
         }
       }
     },
     {
-      "Value": "dolores",
-      "StrippedValue": "mollitia",
-      "Description": "Profound 24 hour Graphic Interface",
+      "Value": "ullam",
+      "StrippedValue": "placeat",
+      "Description": "Pre-emptive global array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 206
         }
       }
     }
   ],
-  "Description": "Implemented multi-tasking matrix",
+  "Description": "Secured intermediate analyzer",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +281,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "corrupti",
-      "PersonId": 442,
-      "Mrmrs": "molestiae",
-      "Firstname": "Jammie",
-      "Lastname": "Yundt",
-      "MiddleName": "Hartmann-Mante",
-      "Title": "iusto",
-      "Description": "Integrated composite orchestration",
-      "Email": "deonte@leuschkebrakus.biz",
-      "FullName": "Mrs. Garfield Terrence Pollich",
-      "DirectPhone": "034.830.6585",
-      "FormalName": "Cummerata Inc and Sons",
-      "CountryId": 355,
-      "ContactId": 142,
-      "ContactName": "Ziemann-Haag",
-      "Retired": 393,
-      "Rank": 339,
-      "ActiveInterests": 37,
+      "Position": "aliquid",
+      "PersonId": 932,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Quinten",
+      "Lastname": "Schmidt",
+      "MiddleName": "Beatty-Treutel",
+      "Title": "qui",
+      "Description": "Versatile static hardware",
+      "Email": "suzanne.fadel@gorczanycruickshank.us",
+      "FullName": "Crawford Volkman",
+      "DirectPhone": "037.945.5927",
+      "FormalName": "Walsh Inc and Sons",
+      "CountryId": 409,
+      "ContactId": 843,
+      "ContactName": "Herzog-Sanford",
+      "Retired": 335,
+      "Rank": 85,
+      "ActiveInterests": 663,
       "ContactDepartment": "",
-      "ContactCountryId": 756,
-      "ContactOrgNr": "1487990",
-      "FaxPhone": "976.668.6568 x51830",
-      "MobilePhone": "506.546.8637 x021",
-      "ContactPhone": "1-045-214-8965 x095",
-      "AssociateName": "Schaden Inc and Sons",
-      "AssociateId": 88,
-      "UsePersonAddress": false,
-      "ContactFax": "necessitatibus",
-      "Kanafname": "error",
-      "Kanalname": "omnis",
-      "Post1": "est",
-      "Post2": "fugiat",
-      "Post3": "occaecati",
-      "EmailName": "layla.braun@stiedemannschaden.info",
-      "ContactFullName": "Hanna Wilderman V",
-      "ActiveErpLinks": 431,
-      "TicketPriorityId": 55,
-      "SupportLanguageId": 830,
-      "SupportAssociateId": 774,
+      "ContactCountryId": 849,
+      "ContactOrgNr": "776257",
+      "FaxPhone": "(917)340-9136 x064",
+      "MobilePhone": "1-317-565-5666",
+      "ContactPhone": "1-465-212-8963 x42058",
+      "AssociateName": "Sawayn, Stiedemann and Bauch",
+      "AssociateId": 723,
+      "UsePersonAddress": true,
+      "ContactFax": "placeat",
+      "Kanafname": "corrupti",
+      "Kanalname": "repellendus",
+      "Post1": "dolorem",
+      "Post2": "quia",
+      "Post3": "earum",
+      "EmailName": "evan_wuckert@welchrippin.uk",
+      "ContactFullName": "Miss Josue Kirlin",
+      "ActiveErpLinks": 327,
+      "TicketPriorityId": 905,
+      "SupportLanguageId": 405,
+      "SupportAssociateId": 68,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1011331",
+      "PersonNumber": "1392234",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "perferendis",
+  "Kananame": "laudantium",
   "Xstop": false,
-  "ActiveInterests": 976,
-  "GroupId": 507,
-  "ActiveStatusMonitorId": 930,
+  "ActiveInterests": 790,
+  "GroupId": 993,
+  "ActiveStatusMonitorId": 759,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 188,
-  "DbiAgentId": 622,
-  "DbiLastSyncronized": "2007-05-30T03:45:23.2017113+02:00",
-  "DbiKey": "cum",
-  "DbiLastModified": "2025-01-05T03:45:23.2017113+01:00",
+  "Deleted": 139,
+  "DbiAgentId": 873,
+  "DbiLastSyncronized": "2007-08-16T03:46:54.5195154+02:00",
+  "DbiKey": "sapiente",
+  "DbiLastModified": "2005-10-14T03:46:54.5195154+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 850,
-  "ActiveErpLinks": 623,
+  "Source": 690,
+  "ActiveErpLinks": 53,
   "BounceEmails": [
-    "kaylee@mueller.info",
-    "emiliano@heathcote.name"
+    "karelle@waelchi.us",
+    "loraine.williamson@rath.name"
   ],
   "Domains": [
-    "est",
-    "esse"
+    "nam",
+    "et"
   ],
+  "InitialUtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "1882244587",
-    "SuperOffice:2": "Leone Weissnat"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Zoe Moore"
   },
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "at"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "magnam"
+    "CustomFields1": "quo",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

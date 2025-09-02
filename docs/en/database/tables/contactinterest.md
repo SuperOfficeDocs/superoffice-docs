@@ -2,10 +2,10 @@
 uid: table-contactinterest
 title: contactinterest table
 description: Link-table between contact and interests in ContInt
-so.generated: true
+generated: true
 keywords: database table contactinterest
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # contactinterest Table (14)

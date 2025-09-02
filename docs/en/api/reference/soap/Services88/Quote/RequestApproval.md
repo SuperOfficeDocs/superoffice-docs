@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.RequestApproval SOAP
 generated: true
 uid: Services88-Quote-RequestApproval
+content_type: reference
 ---
 
 # Services88 Quote RequestApproval

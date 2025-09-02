@@ -2,6 +2,7 @@
 title: PUT List/ReasonStalled
 uid: v1ReasonStalledList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonStalled
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Haag-Thiel",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 381,
+  "Id": 541,
+  "Name": "Beahan, Zboncak and Hilpert",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "Rank": 759,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "reprehenderit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "West-Gibson",
-  "Tooltip": "enim",
+  "Id": 908,
+  "Name": "Crona LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": true,
+  "Rank": 943,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 874
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetActivePriceListsByCurrencyId
 uid: v1QuoteAgent_GetActivePriceListsByCurrencyId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetActivePriceListsByCurrencyId
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 670,
-  "CurrencyId": 249
+  "QuoteConnectionId": 348,
+  "CurrencyId": 925
 }
 ```
 
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 233,
-    "ERPPriceListKey": "illo",
-    "QuoteConnectionId": 38,
-    "Name": "Wuckert, Larkin and Marvin",
-    "Description": "Operative mission-critical contingency",
-    "Currency": "quaerat",
-    "CurrencyName": "Hahn-Jacobs",
-    "ValidFrom": "2015-04-09T03:45:23.8266945+02:00",
-    "ValidTo": "2016-12-03T03:45:23.8266945+01:00",
+    "PriceListId": 489,
+    "ERPPriceListKey": "harum",
+    "QuoteConnectionId": 946,
+    "Name": "Rogahn Group",
+    "Description": "Multi-tiered next generation functionalities",
+    "Currency": "est",
+    "CurrencyName": "Zboncak LLC",
+    "ValidFrom": "2019-09-18T03:46:55.2226157+02:00",
+    "ValidTo": "2017-06-07T03:46:55.2226157+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 136
       }
     }
   }

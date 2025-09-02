@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetFieldsForNewErpActor
 uid: v1ErpSyncAgent_GetFieldsForNewErpActor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetFieldsForNewErpActor
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 898,
+  "ErpConnectionId": 61,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +103,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "id",
-    "Rank": 168,
-    "DisplayName": "Zieme, Boyer and Ondricka",
-    "DisplayDescription": "Programmable bifurcated policy",
+    "FieldKey": "et",
+    "Rank": 471,
+    "DisplayName": "McCullough, Hilll and Kreiger",
+    "DisplayDescription": "Secured high-level solution",
     "FieldType": "Checkbox",
-    "ListName": "Sanford Group",
-    "DefaultValue": "nesciunt",
-    "MaxLength": 233,
+    "ListName": "Cronin-Kohler",
+    "DefaultValue": "eligendi",
+    "MaxLength": 53,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +118,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldLength": 495
       }
     }
   }

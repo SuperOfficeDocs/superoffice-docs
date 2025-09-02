@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetDuplicateRules
 uid: v1ProjectAgent_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetDuplicateRules
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Project/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski LLC",
-    "DisplayName": "Brakus LLC",
-    "DisplayTooltip": "at",
-    "IsActive": true,
+    "Name": "Nolan Inc and Sons",
+    "DisplayName": "Dietrich LLC",
+    "DisplayTooltip": "voluptatem",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   },
   {
-    "Name": "Osinski LLC",
-    "DisplayName": "Brakus LLC",
-    "DisplayTooltip": "at",
-    "IsActive": true,
+    "Name": "Nolan Inc and Sons",
+    "DisplayName": "Dietrich LLC",
+    "DisplayTooltip": "voluptatem",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   }

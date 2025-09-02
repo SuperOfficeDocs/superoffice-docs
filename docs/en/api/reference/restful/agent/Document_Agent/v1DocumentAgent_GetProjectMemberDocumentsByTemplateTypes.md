@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateTypes
@@ -98,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 488,
-  "StartTime": "2000-06-02T03:45:23.2798335+02:00",
-  "EndTime": "2005-11-15T03:45:23.2798335+01:00",
-  "Count": 78,
+  "PersonId": 501,
+  "StartTime": "2011-07-06T03:46:54.6132622+02:00",
+  "EndTime": "2022-09-21T03:46:54.6132622+02:00",
+  "Count": 940,
   "DocumentTemplateIds": [
-    679,
-    47
+    190,
+    244
   ]
 }
 ```
@@ -121,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 788,
-    "Attention": "doloremque",
-    "Header": "vel",
-    "Name": "Koch-Stiedemann",
-    "OurRef": "est",
-    "YourRef": "tempora",
-    "Description": "Synergized executive internet solution",
-    "DocumentTemplate": "accusamus",
+    "DocumentId": 37,
+    "Attention": "dolorum",
+    "Header": "est",
+    "Name": "Lakin LLC",
+    "OurRef": "dicta",
+    "YourRef": "sint",
+    "Description": "Visionary neutral knowledge base",
+    "DocumentTemplate": "molestias",
     "IsPublished": false,
-    "PersonId": 179,
-    "PersonFullName": "Caitlyn Witting",
-    "AssociateFullName": "Anabelle Lowe PhD",
-    "ContactId": 24,
-    "ContactName": "Wolff-Christiansen",
-    "ProjectId": 67,
-    "ProjectName": "Klocko, Rath and Schoen",
-    "AssociateId": 140,
-    "Snum": 775,
-    "SaleId": 543,
-    "SaleName": "Hansen Inc and Sons",
+    "PersonId": 381,
+    "PersonFullName": "Lilian Huels",
+    "AssociateFullName": "Hanna Alta Jakubowski Jr.",
+    "ContactId": 803,
+    "ContactName": "O'Kon Inc and Sons",
+    "ProjectId": 392,
+    "ProjectName": "Turner-Daniel",
+    "AssociateId": 124,
+    "Snum": 654,
+    "SaleId": 140,
+    "SaleName": "Herman, Gerhold and Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 271
       }
     }
   }

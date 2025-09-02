@@ -2,6 +2,7 @@
 title: Services88.ImportAgent.PreviewImport SOAP
 generated: true
 uid: Services88-Import-PreviewImport
+content_type: reference
 ---
 
 # Services88 Import PreviewImport

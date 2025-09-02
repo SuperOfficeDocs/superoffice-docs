@@ -2,6 +2,7 @@
 title: GET Selection/{id}
 uid: v1SelectionEntity_GetSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # GET Selection/{id}
@@ -114,7 +115,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +123,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 31 Mar 2016 03:45:28 G3T
+Last-Modified: Tue, 13 May 2014 03:47:00 G5T
 
 {
-  "Description": "Secured dynamic Graphic Interface",
-  "Postit": "asperiores",
+  "Description": "Multi-channelled client-server encoding",
+  "Postit": "impedit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 709,
-  "IncludePerson": 857,
+  "GroupIdx": 954,
+  "IncludePerson": 649,
   "MemberCount": 99.99,
-  "Name": "Rowe-Russel",
-  "PostitTextId": 398,
-  "CreatedDate": "2000-07-02T03:45:28.6546813+02:00",
-  "SelectionId": 403,
-  "SoundEx": "aut",
-  "Source": 523,
-  "TextId": 572,
-  "UpdatedDate": "2016-03-31T03:45:28.6546813+02:00",
-  "UpdatedCount": 726,
-  "Visibility": 114,
+  "Name": "Goodwin-Bogan",
+  "PostitTextId": 220,
+  "CreatedDate": "2015-03-10T03:47:00.2849361+01:00",
+  "SelectionId": 333,
+  "SoundEx": "non",
+  "Source": 431,
+  "TextId": 899,
+  "UpdatedDate": "2014-05-13T03:47:00.2849361+02:00",
+  "UpdatedCount": 981,
+  "Visibility": 125,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 64,
-  "TargetTableName": "Zemlak, Marquardt and Okuneva",
-  "Completed": false,
-  "LeftSelectionId": 594,
-  "RightSelectionId": 889,
+  "TargetTableNumber": 729,
+  "TargetTableName": "Spencer-Stark",
+  "Completed": true,
+  "LeftSelectionId": 815,
+  "RightSelectionId": 665,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kling-Crooks",
-  "ShadowProviderName": "Block, Schoen and Zieme",
-  "ChartKey": "velit",
-  "LastLoaded": "2016-06-27T03:45:28.6546813+02:00",
-  "LastLoadedBy": 325,
+  "MainProviderName": "Sauer, Spinka and Johns",
+  "ShadowProviderName": "Stokes-Torp",
+  "ChartKey": "explicabo",
+  "LastLoaded": "2001-09-03T03:47:00.2849361+02:00",
+  "LastLoadedBy": 984,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-02-04T03:45:28.6546813+01:00",
-  "LastMembershipChangeBy": 651,
+  "LastMembershipChange": "2005-10-19T03:47:00.2849361+02:00",
+  "LastMembershipChangeBy": 946,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Haag LLC",
-  "DashboardTileDefinitionId": 851,
+  "MainHeading": "quasi",
+  "MemberTabHeading": "facilis",
+  "MailingsProviderName": "Rath-Bode",
+  "DashboardTileDefinitionId": 653,
   "VisibleFor": [
     {
-      "VisibleId": 795,
+      "VisibleId": 859,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     },
     {
-      "VisibleId": 795,
+      "VisibleId": 859,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     }
@@ -197,8 +198,8 @@ Last-Modified: Thu, 31 Mar 2016 03:45:28 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   },
   "_Links": {

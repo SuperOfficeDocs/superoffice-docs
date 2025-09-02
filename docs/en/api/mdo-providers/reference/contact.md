@@ -3,9 +3,9 @@ uid: contact
 title: contact
 keywords: mdoprovider mdo provider contact
 description: Provider for selecting a Contact - without person search
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "contact" MDO List

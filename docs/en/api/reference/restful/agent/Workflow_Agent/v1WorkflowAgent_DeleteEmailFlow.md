@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/DeleteEmailFlow
 uid: v1WorkflowAgent_DeleteEmailFlow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/DeleteEmailFlow
@@ -22,10 +23,10 @@ Deletes the EmailFlow
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| EmailFlowId | int32 | **Required** The id of the EmailFlow to be deleted. |
+| emailFlowId | int32 | **Required** The identity of the EmailFlow |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteEmailFlow?EmailFlowId=544
+POST /api/v1/Agents/Workflow/DeleteEmailFlow?emailFlowId=529
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

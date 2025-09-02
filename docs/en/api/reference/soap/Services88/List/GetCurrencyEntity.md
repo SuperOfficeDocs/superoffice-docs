@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCurrencyEntity SOAP
 generated: true
 uid: Services88-List-GetCurrencyEntity
+content_type: reference
 ---
 
 # Services88 List GetCurrencyEntity

@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold/Items/{id}/UserGroups
 uid: v1ReasonSoldList_PutReasonSoldUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Reinger Group",
-    "ToolTip": "Labore magni similique.",
-    "Deleted": true,
-    "Rank": 147,
-    "Type": "sint",
-    "ColorBlock": 460,
-    "IconHint": "vero",
+    "Id": 692,
+    "Name": "Wolf-Doyle",
+    "ToolTip": "Molestiae animi est sint a sit pariatur.",
+    "Deleted": false,
+    "Rank": 376,
+    "Type": "laboriosam",
+    "ColorBlock": 652,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "1998-08-11T03:45:29.2015441+02:00",
+    "LastChanged": "2015-06-06T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "King-Kub",
-        "ToolTip": "Hic similique pariatur porro itaque iste qui porro.",
+        "Id": 443,
+        "Name": "Bergnaum, Price and Sipes",
+        "ToolTip": "A tempora voluptates fuga eum qui.",
         "Deleted": true,
-        "Rank": 728,
-        "Type": "qui",
-        "ColorBlock": 206,
-        "IconHint": "dignissimos",
+        "Rank": 258,
+        "Type": "ullam",
+        "ColorBlock": 841,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2006-10-09T03:45:29.2015441+02:00",
+        "LastChanged": "2015-01-22T03:47:00.8005429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Cathrine Langosh"
+        "ExtraInfo": "minima",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Rosella Yundt"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Ms. Makenna Wunsch"
+    "FullName": "Dr. Rosina Era Emmerich III"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Franecki-Wisoky",
-    "ToolTip": "Id qui occaecati ut qui et et eum.",
+    "Id": 967,
+    "Name": "Kreiger-Kiehn",
+    "ToolTip": "Omnis placeat nihil numquam.",
     "Deleted": false,
-    "Rank": 424,
-    "Type": "cum",
-    "ColorBlock": 449,
-    "IconHint": "aut",
+    "Rank": 645,
+    "Type": "illo",
+    "ColorBlock": 374,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2010-05-18T03:45:29.2015441+02:00",
+    "LastChanged": "2012-03-22T03:47:00.8005429+01:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Thiel, Carter and Rohan",
-        "ToolTip": "Unde non dicta.",
+        "Id": 668,
+        "Name": "Jaskolski Inc and Sons",
+        "ToolTip": "Assumenda ullam est itaque dolore dolor et.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "excepturi",
-        "ColorBlock": 289,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2008-01-26T03:45:29.2015441+01:00",
+        "Rank": 142,
+        "Type": "nemo",
+        "ColorBlock": 610,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2023-01-22T03:47:00.8005429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "quae",
+        "ExtraInfo": "iste",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Sibyl Bode",
+        "FullName": "Jefferey Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 458
+            "FieldLength": 462
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "ut",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Mozelle Grady",
+    "FullName": "Saige McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 17
       }
     }
   }

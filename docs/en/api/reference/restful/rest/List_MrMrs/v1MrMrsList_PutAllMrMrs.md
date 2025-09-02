@@ -2,6 +2,7 @@
 title: PUT List/MrMrs/Items
 uid: v1MrMrsList_PutAllMrMrs
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Gleichner-Runte",
+    "Id": 9,
+    "Name": "Haley-Lemke",
     "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 412,
-    "Rank": 1001
+    "UdListDefinitionId": 760,
+    "Rank": 247
   },
   {
-    "Id": 467,
-    "Name": "Gleichner-Runte",
+    "Id": 9,
+    "Name": "Haley-Lemke",
     "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 412,
-    "Rank": 1001
+    "UdListDefinitionId": 760,
+    "Rank": 247
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Lubowitz-Dooley",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 254,
-    "Rank": 859,
+    "Id": 229,
+    "Name": "Pacocha LLC",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 452,
+    "Rank": 415,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldLength": 961
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET List/TicketType/Items/Default
 uid: v1TicketTypeList_CreateDefaultTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketType/Items/Default
@@ -73,7 +74,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 931,
-  "Name": "Grimes-Okuneva",
-  "Rank": 75,
-  "Tooltip": "nam",
-  "Icon": "amet",
-  "DefaultTicketStatus": 434,
+  "TicketTypeId": 966,
+  "Name": "Nader Inc and Sons",
+  "Rank": 136,
+  "Tooltip": "quasi",
+  "Icon": "soluta",
+  "DefaultTicketStatus": 765,
   "TicketStatuses": [
-    598,
-    66
+    841,
+    693
   ],
-  "DefaultTicketPriority": 848,
+  "DefaultTicketPriority": 751,
   "TicketPriorities": [
-    848,
-    48
+    878,
+    987
   ],
-  "ReplyTemplate": 692,
+  "ReplyTemplate": 732,
   "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    667,
-    1002
+    258,
+    478
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -115,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-PrefDesc
 title: PrefDesc table
 description: Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http;//techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
-so.generated: true
+generated: true
 keywords: database table PrefDesc
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PrefDesc Table (184)

@@ -2,6 +2,7 @@
 title: POST Document/UdefLayout
 uid: v1DocumentEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Document/UdefLayout
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 888,
-  "ColumnId": 549,
-  "FieldDefault": "quidem",
-  "FieldHeight": 223,
-  "FieldLabel": "sequi",
-  "FieldLeft": 554,
-  "FieldTop": 343,
+  "UDefFieldId": 30,
+  "ColumnId": 607,
+  "FieldDefault": "facilis",
+  "FieldHeight": 177,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 390,
+  "FieldTop": 353,
   "FieldType": "Checkbox",
-  "FieldWidth": 568,
-  "FormatMask": "quidem",
+  "FieldWidth": 900,
+  "FormatMask": "iste",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 787,
-  "LabelLeft": 276,
-  "LabelTop": 970,
-  "LabelWidth": 474,
-  "LastVersionId": 922,
-  "ListTableId": 751,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 378,
+  "LabelLeft": 932,
+  "LabelTop": 521,
+  "LabelWidth": 800,
+  "LastVersionId": 227,
+  "ListTableId": 73,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 917,
-  "ProgId": "ab",
-  "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 111,
-  "TextLength": 758,
-  "Tooltip": "dolor",
-  "UdefIdentity": 434,
-  "UDListDefinitionId": 784,
+  "Page1LineNo": 370,
+  "ProgId": "consequatur",
+  "IsReadOnly": false,
+  "ShortLabel": "et",
+  "TabOrder": 596,
+  "TextLength": 540,
+  "Tooltip": "ipsum",
+  "UdefIdentity": 386,
+  "UDListDefinitionId": 31,
   "Justification": "Center",
-  "Version": 771,
-  "TemplateVariableName": "Feest LLC",
+  "Version": 746,
+  "TemplateVariableName": "Jakubowski-West",
   "HasBeenPublished": false,
-  "MdoListName": "Auer, Ward and Johnson",
+  "MdoListName": "Altenwerth, McCullough and Prohaska",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldLength": 233
     }
   }
 }

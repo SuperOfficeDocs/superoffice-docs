@@ -2,6 +2,7 @@
 title: POST DashTheme
 uid: v1DashTheme_PostDashTheme
 generated: true
+content_type: reference
 ---
 
 # POST DashTheme
@@ -86,16 +87,16 @@ OK
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 849,
-  "Name": "Yundt Group",
-  "Config": "esse",
-  "Rank": 706,
-  "Client": "ut",
-  "Style": "rem"
+  "DashboardThemeId": 814,
+  "Name": "Batz-Ryan",
+  "Config": "est",
+  "Rank": 15,
+  "Client": "maiores",
+  "Style": "ut"
 }
 ```
 
@@ -106,18 +107,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 446,
-  "Name": "Littel-Leannon",
-  "Config": "id",
-  "Rank": 370,
-  "Client": "quis",
-  "Style": "voluptatum",
+  "DashboardThemeId": 500,
+  "Name": "Spinka LLC",
+  "Config": "omnis",
+  "Rank": 619,
+  "Client": "quia",
+  "Style": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldType": "System.String",
+      "FieldLength": 60
     }
   },
   "_Links": {

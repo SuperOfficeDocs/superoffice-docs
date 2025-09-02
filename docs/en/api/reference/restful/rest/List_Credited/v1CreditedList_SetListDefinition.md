@@ -2,6 +2,7 @@
 title: PUT List/Credited
 uid: v1CreditedList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Weber, Wisoky and Bayer",
-  "Tooltip": "quia",
+  "Id": 14,
+  "Name": "Bednar, Hahn and Sporer",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 534,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 443,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Tremblay LLC",
-  "Tooltip": "et",
+  "Id": 363,
+  "Name": "Will Group",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 320,
+  "Rank": 22,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

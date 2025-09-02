@@ -2,6 +2,7 @@
 title: GET Contact/UdefLayout/Published/{progidOrLabel}
 uid: v1ContactEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Contact/UdefLayout/Published/{progidOrLabel}
@@ -103,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 829,
-  "ColumnId": 311,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 638,
-  "FieldLabel": "similique",
-  "FieldLeft": 142,
-  "FieldTop": 700,
+  "UDefFieldId": 986,
+  "ColumnId": 407,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 377,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 139,
+  "FieldTop": 48,
   "FieldType": "Checkbox",
-  "FieldWidth": 265,
-  "FormatMask": "possimus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 269,
-  "LabelLeft": 35,
-  "LabelTop": 504,
-  "LabelWidth": 491,
-  "LastVersionId": 361,
-  "ListTableId": 480,
+  "FieldWidth": 734,
+  "FormatMask": "qui",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 500,
+  "LabelLeft": 875,
+  "LabelTop": 608,
+  "LabelWidth": 147,
+  "LastVersionId": 783,
+  "ListTableId": 703,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 864,
-  "ProgId": "corporis",
-  "IsReadOnly": true,
-  "ShortLabel": "temporibus",
-  "TabOrder": 620,
-  "TextLength": 697,
-  "Tooltip": "illum",
-  "UdefIdentity": 731,
-  "UDListDefinitionId": 342,
+  "Page1LineNo": 537,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "id",
+  "TabOrder": 889,
+  "TextLength": 776,
+  "Tooltip": "enim",
+  "UdefIdentity": 27,
+  "UDListDefinitionId": 291,
   "Justification": "Center",
-  "Version": 941,
-  "TemplateVariableName": "Bergstrom-Leuschke",
+  "Version": 277,
+  "TemplateVariableName": "Wintheiser-Bailey",
   "HasBeenPublished": false,
-  "MdoListName": "Hamill LLC",
+  "MdoListName": "Breitenberg Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

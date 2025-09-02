@@ -2,6 +2,7 @@
 title: POST List/Credited/Items
 uid: v1CreditedList_PostCredited
 generated: true
+content_type: reference
 ---
 
 # POST List/Credited/Items
@@ -77,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Luettgen, Kautzer and Kiehn",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "UdListDefinitionId": 382,
-  "Rank": 624
+  "Id": 547,
+  "Name": "Bogisich-McCullough",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "UdListDefinitionId": 654,
+  "Rank": 731
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Lockman LLC",
-  "Tooltip": "velit",
+  "Id": 137,
+  "Name": "Lowe-Dickens",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 16,
-  "Rank": 637,
+  "UdListDefinitionId": 47,
+  "Rank": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 531
     }
   }
 }

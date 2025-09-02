@@ -2,6 +2,7 @@
 title: POST Agents/Sale/BatchUpdateNextDueDate
 uid: v1SaleAgent_BatchUpdateNextDueDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/BatchUpdateNextDueDate
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Sale/BatchUpdateNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

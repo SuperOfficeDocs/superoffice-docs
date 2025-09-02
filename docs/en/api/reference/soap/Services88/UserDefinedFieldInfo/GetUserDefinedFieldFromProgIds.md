@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetUserDefinedFieldFromProgIds
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetUserDefinedFieldFromProgIds

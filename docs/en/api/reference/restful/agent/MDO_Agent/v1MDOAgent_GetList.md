@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetList
 uid: v1MDOAgent_GetList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetList
@@ -87,14 +88,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hansen LLC",
+  "Name": "Erdman LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "enim",
-  "OnlyHistory": false
+  "AdditionalInfo": "consequuntur",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Jerde LLC",
-    "ToolTip": "Occaecati assumenda similique provident unde eos commodi ut.",
-    "Deleted": true,
-    "Rank": 466,
-    "Type": "iusto",
+    "Id": 647,
+    "Name": "Smith-Homenick",
+    "ToolTip": "Quaerat distinctio.",
+    "Deleted": false,
+    "Rank": 38,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Kuhn Inc and Sons",
-        "ToolTip": "Occaecati voluptatem autem.",
-        "Deleted": false,
-        "Rank": 98,
-        "Type": "accusamus",
+        "Id": 21,
+        "Name": "Kertzmann LLC",
+        "ToolTip": "Nisi qui inventore rem praesentium.",
+        "Deleted": true,
+        "Rank": 65,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 644,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "odit",
-        "FullName": "Prof. Donato Jedidiah Erdman DDS",
+        "IconHint": "eveniet",
+        "ColorBlock": 874,
+        "ExtraInfo": "id",
+        "StyleHint": "impedit",
+        "FullName": "Mrs. Dominic Adela Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 241
+            "FieldType": "System.Int32",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "IconHint": "dolore",
-    "ColorBlock": 39,
-    "ExtraInfo": "ex",
-    "StyleHint": "dolor",
-    "FullName": "Anahi Lesch",
+    "IconHint": "et",
+    "ColorBlock": 329,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quam",
+    "FullName": "Eryn Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

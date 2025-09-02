@@ -2,6 +2,7 @@
 title: PUT Person/{id}/ImageInfo
 uid: v1PersonEntity_PutImageInfo
 generated: true
+content_type: reference
 ---
 
 # PUT Person/{id}/ImageInfo
@@ -93,23 +94,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 893,
-  "BlobSize": 693,
-  "Description": "Managed value-added emulation",
-  "ExtraInfo": "nostrum",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 109,
-  "CreatedDate": "2008-12-26T03:45:28.4984325+01:00",
-  "UpdatedDate": "2009-09-15T03:45:28.4984325+02:00",
+  "BlobId": 319,
+  "BlobSize": 255,
+  "Description": "Optimized content-based website",
+  "ExtraInfo": "sed",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "commodi",
+  "OriginalSize": 153,
+  "CreatedDate": "2004-06-07T03:47:00.1599324+02:00",
+  "UpdatedDate": "2023-06-28T03:47:00.1599324+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque"
+  "ConceptualType": "nesciunt"
 }
 ```
 
@@ -120,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 514,
-  "BlobSize": 383,
-  "Description": "Up-sized dedicated solution",
-  "ExtraInfo": "aut",
+  "BlobId": 686,
+  "BlobSize": 276,
+  "Description": "Synergized non-volatile system engine",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 512,
-  "CreatedDate": "2012-07-11T03:45:28.4984325+02:00",
-  "UpdatedDate": "2015-01-30T03:45:28.4984325+01:00",
+  "IsZipped": true,
+  "MimeType": "maxime",
+  "OriginalSize": 181,
+  "CreatedDate": "2013-12-27T03:47:00.1599324+01:00",
+  "UpdatedDate": "2020-03-15T03:47:00.1599324+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 458
     }
   }
 }

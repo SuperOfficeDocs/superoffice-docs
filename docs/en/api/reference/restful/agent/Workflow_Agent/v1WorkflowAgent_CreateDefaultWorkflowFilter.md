@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowFilter
 uid: v1WorkflowAgent_CreateDefaultWorkflowFilter
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowFilter
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 ```
 
-Set default values into a new WorkflowFilter.
+Loading default values into a new WorkflowFilter.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -57,7 +56,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +68,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Powlowski Group",
-      "Description": "Organic 4th generation local area network",
-      "Rank": 45,
+      "Name": "Ondricka-Smith",
+      "Description": "Sharable actuating firmware",
+      "Rank": 559,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Powlowski Group",
-      "Description": "Organic 4th generation local area network",
-      "Rank": 45,
+      "Name": "Ondricka-Smith",
+      "Description": "Sharable actuating firmware",
+      "Rank": 559,
       "Restrictions": [
         {},
         {}
@@ -92,7 +91,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 127
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailCustomHeader
 uid: v1EMailAgent_CreateDefaultEMailCustomHeader
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailCustomHeader
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 ```
 
-Set default values into a new EMailCustomHeader.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailCustomHeader.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -61,7 +59,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,17 +69,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Miller-Sanford",
+  "Name": "Senger LLC",
   "Values": [
-    "blanditiis",
-    "consectetur"
+    "magni",
+    "quis"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 874
+      "FieldType": "System.Int32",
+      "FieldLength": 801
     }
   }
 }

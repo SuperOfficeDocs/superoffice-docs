@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.DeleteCustomerCenterConfig SOAP
 generated: true
 uid: Services88-CustomerService-DeleteCustomerCenterConfig
+content_type: reference
 ---
 
 # Services88 CustomerService DeleteCustomerCenterConfig

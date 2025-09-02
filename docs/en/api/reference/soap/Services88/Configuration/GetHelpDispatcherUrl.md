@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetHelpDispatcherUrl SOAP
 generated: true
 uid: Services88-Configuration-GetHelpDispatcherUrl
+content_type: reference
 ---
 
 # Services88 Configuration GetHelpDispatcherUrl

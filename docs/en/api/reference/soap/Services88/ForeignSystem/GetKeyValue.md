@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.GetKeyValue SOAP
 generated: true
 uid: Services88-ForeignSystem-GetKeyValue
+content_type: reference
 ---
 
 # Services88 ForeignSystem GetKeyValue

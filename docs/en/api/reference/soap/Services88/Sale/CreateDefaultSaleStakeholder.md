@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.CreateDefaultSaleStakeholder SOAP
 generated: true
 uid: Services88-Sale-CreateDefaultSaleStakeholder
+content_type: reference
 ---
 
 # Services88 Sale CreateDefaultSaleStakeholder

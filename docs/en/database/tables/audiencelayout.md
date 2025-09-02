@@ -2,10 +2,10 @@
 uid: table-AudienceLayout
 title: AudienceLayout table
 description: One layout (of webparts and other stuff) for an audience instance
-so.generated: true
+generated: true
 keywords: database table AudienceLayout
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # AudienceLayout Table (234)

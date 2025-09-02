@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.SetColumnWidths SOAP
 generated: true
 uid: Services88-Archive-SetColumnWidths
+content_type: reference
 ---
 
 # Services88 Archive SetColumnWidths

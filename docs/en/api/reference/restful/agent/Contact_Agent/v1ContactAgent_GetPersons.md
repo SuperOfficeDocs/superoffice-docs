@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetPersons
 uid: v1ContactAgent_GetPersons
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetPersons
@@ -113,11 +114,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 967
+  "ContactId": 846
 }
 ```
 
@@ -129,53 +130,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sint",
-    "PersonId": 145,
-    "Mrmrs": "deserunt",
-    "Firstname": "Adolf",
-    "Lastname": "Reilly",
-    "MiddleName": "Heaney Inc and Sons",
-    "Title": "accusamus",
-    "Description": "Networked client-driven data-warehouse",
-    "Email": "barney@hellerweimann.co.uk",
-    "FullName": "Francisca Lowe",
-    "DirectPhone": "183-958-3429 x93110",
-    "FormalName": "Glover, Bartoletti and Swaniawski",
-    "CountryId": 359,
-    "ContactId": 1002,
-    "ContactName": "Dach LLC",
-    "Retired": 134,
-    "Rank": 725,
-    "ActiveInterests": 569,
+    "Position": "ullam",
+    "PersonId": 212,
+    "Mrmrs": "architecto",
+    "Firstname": "Gaston",
+    "Lastname": "Ratke",
+    "MiddleName": "Hermann, Collier and Nader",
+    "Title": "aperiam",
+    "Description": "Profit-focused fresh-thinking project",
+    "Email": "emmy@gorczany.ca",
+    "FullName": "Kendrick Pfannerstill",
+    "DirectPhone": "821-591-7649",
+    "FormalName": "Quitzon Inc and Sons",
+    "CountryId": 774,
+    "ContactId": 914,
+    "ContactName": "Fritsch Group",
+    "Retired": 138,
+    "Rank": 155,
+    "ActiveInterests": 652,
     "ContactDepartment": "",
-    "ContactCountryId": 515,
-    "ContactOrgNr": "1262643",
-    "FaxPhone": "(979)159-1530",
-    "MobilePhone": "800-977-4081 x1255",
-    "ContactPhone": "202-772-7429 x7073",
-    "AssociateName": "Hahn-Daugherty",
-    "AssociateId": 404,
-    "UsePersonAddress": true,
-    "ContactFax": "aut",
-    "Kanafname": "natus",
-    "Kanalname": "aliquam",
-    "Post1": "aperiam",
-    "Post2": "deleniti",
-    "Post3": "rerum",
-    "EmailName": "rowena_eichmann@gleasonorn.us",
-    "ContactFullName": "Lou McClure",
-    "ActiveErpLinks": 799,
-    "TicketPriorityId": 247,
-    "SupportLanguageId": 541,
-    "SupportAssociateId": 551,
+    "ContactCountryId": 689,
+    "ContactOrgNr": "1392234",
+    "FaxPhone": "1-234-941-3514 x6847",
+    "MobilePhone": "(240)367-7258 x631",
+    "ContactPhone": "(326)101-2867",
+    "AssociateName": "Hansen-Klein",
+    "AssociateId": 357,
+    "UsePersonAddress": false,
+    "ContactFax": "qui",
+    "Kanafname": "nostrum",
+    "Kanalname": "ipsum",
+    "Post1": "voluptatem",
+    "Post2": "sit",
+    "Post3": "a",
+    "EmailName": "danyka_nolan@mohr.com",
+    "ContactFullName": "Ms. Lizeth Flatley",
+    "ActiveErpLinks": 926,
+    "TicketPriorityId": 816,
+    "SupportLanguageId": 264,
+    "SupportAssociateId": 62,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "378103",
+    "PersonNumber": "1488577",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/DeleteBlobEntity
 uid: v1BLOBAgent_DeleteBlobEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/DeleteBlobEntity
@@ -22,10 +23,10 @@ Deletes the BlobEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| BlobEntityId | int32 | **Required** The id of the BlobEntity to be deleted. |
+| blobEntityId | int32 | **Required** The identity of the BlobEntity |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=195
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=589
 ```
 
 

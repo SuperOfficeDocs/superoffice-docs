@@ -2,6 +2,7 @@
 title: GET Contact/CustomField
 uid: v1ContactEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Contact/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Dach Group",
-    "DisplayName": "Wisozk Inc and Sons",
-    "Description": "Multi-tiered exuding circuit",
-    "ShortLabel": "enim",
+    "FieldName": "Crona-Cremin",
+    "DisplayName": "Howell-Blick",
+    "Description": "Business-focused high-level infrastructure",
+    "ShortLabel": "tempora",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 55,
-    "TemplateVariableName": "Bashirian Inc and Sons"
+    "IsDisplayField": true,
+    "Rank": 870,
+    "TemplateVariableName": "Block, Buckridge and Gorczany"
   }
 ]
 ```

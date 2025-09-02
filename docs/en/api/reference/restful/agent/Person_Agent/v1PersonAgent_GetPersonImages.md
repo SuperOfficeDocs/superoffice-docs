@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPersonImages
 uid: v1PersonAgent_GetPersonImages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPersonImages
@@ -81,11 +82,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PersonIds": [
-    581,
-    436
+    414,
+    995
   ],
-  "ScaledWidth": 162,
-  "ScaledHeight": 176
+  "ScaledWidth": 619,
+  "ScaledHeight": 190
 }
 ```
 
@@ -97,11 +98,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 438,
+    "PersonId": 196,
     "ImageData": "GIF89....File contents as raw bytes..."
   },
   {
-    "PersonId": 438,
+    "PersonId": 196,
     "ImageData": "GIF89....File contents as raw bytes..."
   }
 ]

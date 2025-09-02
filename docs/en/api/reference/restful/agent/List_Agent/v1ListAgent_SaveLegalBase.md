@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveLegalBase
 uid: v1ListAgent_SaveLegalBase
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveLegalBase
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 543,
-  "Name": "Reichert, Kilback and Green",
-  "Tooltip": "qui",
-  "Rank": 651,
-  "Key": "consequatur",
-  "Deleted": false,
+  "LegalBaseId": 222,
+  "Name": "Doyle-Marquardt",
+  "Tooltip": "culpa",
+  "Rank": 887,
+  "Key": "rerum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 802
     }
   }
 }

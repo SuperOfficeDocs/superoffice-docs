@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.MarkEmailsAsRead SOAP
 generated: true
 uid: Services88-EMail-MarkEmailsAsRead
+content_type: reference
 ---
 
 # Services88 EMail MarkEmailsAsRead

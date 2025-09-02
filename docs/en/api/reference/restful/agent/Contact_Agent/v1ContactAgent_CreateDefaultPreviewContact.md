@@ -2,6 +2,7 @@
 title: POST Agents/Contact/CreateDefaultPreviewContact
 uid: v1ContactAgent_CreateDefaultPreviewContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/CreateDefaultPreviewContact
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Contact/CreateDefaultPreviewContact
 ```
 
-Set default values into a new PreviewContact.
+Loading default values into a new PreviewContact.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -76,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 197,
-  "Name": "Bartoletti-Rowe",
+  "ContactId": 623,
+  "Name": "Mann-Ondricka",
   "Department": "",
-  "CountryId": 234,
-  "Number2": "1693392",
-  "DirectPhone": "978-504-7532 x50929",
+  "CountryId": 362,
+  "Number2": "614957",
+  "DirectPhone": "1-430-932-9107 x72696",
   "URL": "http://www.example.com/",
-  "EmailAddress": "cecil@bruen.ca",
+  "EmailAddress": "annabell_carter@durgangottlieb.uk",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Dr. Timmothy Efrain Reilly",
+  "AssociateFullName": "Dasia Trantow",
   "Address": null
 }
 ```

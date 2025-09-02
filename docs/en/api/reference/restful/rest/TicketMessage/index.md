@@ -1,6 +1,8 @@
 ---
+uid: tag-TicketMessage
 title: TicketMessage
 generated: true
+content_type: reference
 ---
 
 ```http

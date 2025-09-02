@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveFromListName
 uid: v1ListAgent_SaveFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveFromListName
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "UdListDefinitionName": "Wiegand Inc and Sons",
+  "Id": 47,
+  "UdListDefinitionName": "Wolff-D'Amore",
   "Item": null
 }
 ```
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Kuhlman, Hyatt and Franecki",
-  "Tooltip": "expedita",
+  "Id": 959,
+  "Name": "Koepp-Hamill",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 401,
+  "UdListDefinitionId": 503,
+  "Rank": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 390
     }
   }
 }

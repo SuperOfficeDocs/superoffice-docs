@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.SaveChatPresence SOAP
 generated: true
 uid: Services88-Chat-SaveChatPresence
+content_type: reference
 ---
 
 # Services88 Chat SaveChatPresence

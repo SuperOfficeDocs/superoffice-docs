@@ -2,6 +2,7 @@
 title: POST Agents/AI/SummarizeTicket
 uid: v1AIAgent_SummarizeTicket
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/SummarizeTicket
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 90,
-  "NumSentences": 727,
-  "IsoLangCode": "facere"
+  "TicketId": 206,
+  "NumSentences": 94,
+  "IsoLangCode": "maiores"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"velit"
+"aliquam"
 ```

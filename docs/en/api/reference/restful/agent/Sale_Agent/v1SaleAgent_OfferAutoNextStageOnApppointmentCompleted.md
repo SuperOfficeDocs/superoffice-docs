@@ -2,6 +2,7 @@
 title: POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 uid: v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 478
+  "AppointmentId": 365
 }
 ```
 

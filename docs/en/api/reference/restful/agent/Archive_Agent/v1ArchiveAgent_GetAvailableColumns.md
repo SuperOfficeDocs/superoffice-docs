@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetAvailableColumns
 uid: v1ArchiveAgent_GetAvailableColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetAvailableColumns
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Smith-Yost",
-  "Context": "tenetur"
+  "ProviderName": "Kohler-Schroeder",
+  "Context": "error"
 }
 ```
 
@@ -103,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McClure Inc and Sons",
-    "DisplayTooltip": "est",
-    "DisplayType": "explicabo",
-    "CanOrderBy": true,
-    "Name": "Fisher, Collier and Dare",
-    "CanRestrictBy": true,
-    "RestrictionType": "commodi",
-    "RestrictionListName": "Altenwerth Inc and Sons",
-    "IsVisible": true,
-    "ExtraInfo": "qui",
-    "Width": "tempora",
-    "IconHint": "praesentium",
-    "HeadingIconHint": "nisi"
+    "DisplayName": "Nader-Greenfelder",
+    "DisplayTooltip": "nisi",
+    "DisplayType": "qui",
+    "CanOrderBy": false,
+    "Name": "Orn-Ward",
+    "CanRestrictBy": false,
+    "RestrictionType": "quibusdam",
+    "RestrictionListName": "Murazik Inc and Sons",
+    "IsVisible": false,
+    "ExtraInfo": "omnis",
+    "Width": "nesciunt",
+    "IconHint": "impedit",
+    "HeadingIconHint": "laudantium"
   }
 ]
 ```

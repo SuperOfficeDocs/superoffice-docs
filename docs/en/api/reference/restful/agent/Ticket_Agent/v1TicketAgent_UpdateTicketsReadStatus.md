@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/UpdateTicketsReadStatus
 uid: v1TicketAgent_UpdateTicketsReadStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/UpdateTicketsReadStatus
@@ -74,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    757,
-    377
+    433,
+    568
   ],
   "NewStatus": "Green"
 }
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  438,
-  120
+  577,
+  199
 ]
 ```

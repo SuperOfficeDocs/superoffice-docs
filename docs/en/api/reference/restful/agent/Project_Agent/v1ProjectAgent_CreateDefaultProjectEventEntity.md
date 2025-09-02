@@ -2,6 +2,7 @@
 title: POST Agents/Project/CreateDefaultProjectEventEntity
 uid: v1ProjectAgent_CreateDefaultProjectEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/CreateDefaultProjectEventEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 ```
 
-Set default values into a new ProjectEventEntity.
+Loading default values into a new ProjectEventEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -96,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "laudantium",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quidem",
-  "SignOnText": "eligendi",
-  "EventDate": "2003-06-24T03:45:23.7641958+02:00",
+  "SignOffConfirmationText": "dignissimos",
+  "SignOffText": "ratione",
+  "SignOnConfirmationText": "modi",
+  "SignOnText": "odit",
+  "EventDate": "2000-02-18T03:46:55.1601179+01:00",
   "Enabled": false,
-  "CreatedDate": "2019-06-06T03:45:23.7641958+02:00",
-  "SignOff": false,
+  "CreatedDate": "2025-06-05T03:46:55.1601179+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 239,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 499,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 641,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2006-07-24T03:45:23.7641958+02:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 34,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "1999-05-23T03:46:55.1601179+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 949,
-  "Id": 475,
-  "PublishFrom": "2009-08-20T03:45:23.7641958+02:00",
+  "ProjectId": 286,
+  "Id": 684,
+  "PublishFrom": "2021-10-23T03:46:55.1601179+02:00",
   "PublishType": "External",
-  "PublishTo": "2013-03-05T03:45:23.7641958+01:00",
+  "PublishTo": "2002-03-22T03:46:55.1601179+01:00",
   "VisibleForCategories": [
     {
-      "Id": 406,
-      "Name": "King, Wolf and Crona",
-      "ToolTip": "Possimus a dignissimos pariatur animi sit.",
-      "Deleted": false,
-      "Rank": 97,
-      "Type": "fugit",
+      "Id": 52,
+      "Name": "Kris, Ebert and Durgan",
+      "ToolTip": "Voluptatem corporis voluptate vel inventore est quia tenetur.",
+      "Deleted": true,
+      "Rank": 206,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 436,
-      "ExtraInfo": "deserunt",
-      "StyleHint": "maiores",
-      "FullName": "Emelie Stark Jr.",
+      "IconHint": "et",
+      "ColorBlock": 237,
+      "ExtraInfo": "quo",
+      "StyleHint": "debitis",
+      "FullName": "Elmer Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldLength": 180
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 641,
-      "Name": "Cummerata-Adams",
-      "ToolTip": "Iusto itaque asperiores non.",
+      "Id": 93,
+      "Name": "Stroman LLC",
+      "ToolTip": "Mollitia veritatis accusamus ducimus consectetur.",
       "Deleted": false,
-      "Rank": 612,
-      "Type": "non",
+      "Rank": 751,
+      "Type": "adipisci",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 465,
-      "ExtraInfo": "modi",
-      "StyleHint": "est",
-      "FullName": "Ms. Wilfrid Gibson Sr.",
+      "IconHint": "aperiam",
+      "ColorBlock": 210,
+      "ExtraInfo": "sint",
+      "StyleHint": "provident",
+      "FullName": "Mrs. Kitty Cristal Thompson PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 593
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 845,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 849
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/SaveTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -88,11 +89,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "dolorem",
+  "TriggerScriptUniqueId": "amet",
   "Entity": null
 }
 ```
@@ -104,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 482,
-  "Name": "Renner Inc and Sons",
+  "ScreenChooserId": 953,
+  "Name": "Rosenbaum, Barrows and McDermott",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "similique",
-  "Source": "vero",
-  "Registered": "2009-09-11T03:45:23.2485827+02:00",
-  "RegisteredAssociateId": 224,
-  "Updated": "2025-02-26T03:45:23.2485827+01:00",
-  "UpdatedAssociateId": 376,
+  "Enabled": false,
+  "UniqueIdentifier": "labore",
+  "Source": "facere",
+  "Registered": "2004-11-30T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 163,
+  "Updated": "2000-11-24T03:46:54.5820132+01:00",
+  "UpdatedAssociateId": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldType": "System.String",
+      "FieldLength": 261
     }
   }
 }

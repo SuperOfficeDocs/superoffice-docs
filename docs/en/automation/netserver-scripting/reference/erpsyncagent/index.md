@@ -2,14 +2,10 @@
 uid: erpsyncagent-script-events
 title: ErpSyncAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # ErpSyncAgent method listing
@@ -65,3 +61,4 @@ Service methods defined on <see cref='T:IErpSyncAgent'>ErpSyncAgent</see> that c
 * [TryConnectActorAsync](tryconnectactorasync.md)
 * [UpdateConnectionFieldsAsync](updateconnectionfieldsasync.md)
 * [ValidateArchiveColumnConfigAsync](validatearchivecolumnconfigasync.md)
+

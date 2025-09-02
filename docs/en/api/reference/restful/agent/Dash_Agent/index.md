@@ -1,6 +1,8 @@
 ---
+uid: tag-Dash_Agent
 title: Dash_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -16,30 +18,6 @@ generated: true
 
 * [POST Agents/Dash/DeleteDash](v1DashAgent_DeleteDash.md)
 
-* [POST Agents/Dash/CreateDefaultDashCollection](v1DashAgent_CreateDefaultDashCollection.md)
-
-* [POST Agents/Dash/CreateDefaultDashTheme](v1DashAgent_CreateDefaultDashTheme.md)
-
-* [POST Agents/Dash/SaveDashTheme](v1DashAgent_SaveDashTheme.md)
-
-* [POST Agents/Dash/DeleteDashTheme](v1DashAgent_DeleteDashTheme.md)
-
-* [POST Agents/Dash/CreateDefaultDashTile](v1DashAgent_CreateDefaultDashTile.md)
-
-* [POST Agents/Dash/SaveDashTile](v1DashAgent_SaveDashTile.md)
-
-* [POST Agents/Dash/DeleteDashTile](v1DashAgent_DeleteDashTile.md)
-
-* [POST Agents/Dash/CreateDefaultDashTileDefinition](v1DashAgent_CreateDefaultDashTileDefinition.md)
-
-* [POST Agents/Dash/SaveDashTileDefinition](v1DashAgent_SaveDashTileDefinition.md)
-
-* [POST Agents/Dash/DeleteDashTileDefinition](v1DashAgent_DeleteDashTileDefinition.md)
-
-* [POST Agents/Dash/CreateDefaultPreviewDash](v1DashAgent_CreateDefaultPreviewDash.md)
-
-* [POST Agents/Dash/CreateDefaultPreviewDashTile](v1DashAgent_CreateDefaultPreviewDashTile.md)
-
 * [POST Agents/Dash/GetDash](v1DashAgent_GetDash.md)
 
 * [POST Agents/Dash/AddTileToDashboard](v1DashAgent_AddTileToDashboard.md)
@@ -50,9 +28,23 @@ generated: true
 
 * [POST Agents/Dash/GetDashList](v1DashAgent_GetDashList.md)
 
+* [POST Agents/Dash/CreateDefaultDashCollection](v1DashAgent_CreateDefaultDashCollection.md)
+
 * [POST Agents/Dash/GetDashCollection](v1DashAgent_GetDashCollection.md)
 
+* [POST Agents/Dash/CreateDefaultDashTheme](v1DashAgent_CreateDefaultDashTheme.md)
+
+* [POST Agents/Dash/SaveDashTheme](v1DashAgent_SaveDashTheme.md)
+
+* [POST Agents/Dash/DeleteDashTheme](v1DashAgent_DeleteDashTheme.md)
+
 * [POST Agents/Dash/GetDashTheme](v1DashAgent_GetDashTheme.md)
+
+* [POST Agents/Dash/CreateDefaultDashTile](v1DashAgent_CreateDefaultDashTile.md)
+
+* [POST Agents/Dash/SaveDashTile](v1DashAgent_SaveDashTile.md)
+
+* [POST Agents/Dash/DeleteDashTile](v1DashAgent_DeleteDashTile.md)
 
 * [POST Agents/Dash/GetDashTile](v1DashAgent_GetDashTile.md)
 
@@ -72,6 +64,12 @@ generated: true
 
 * [POST Agents/Dash/DuplicateTile](v1DashAgent_DuplicateTile.md)
 
+* [POST Agents/Dash/CreateDefaultDashTileDefinition](v1DashAgent_CreateDefaultDashTileDefinition.md)
+
+* [POST Agents/Dash/SaveDashTileDefinition](v1DashAgent_SaveDashTileDefinition.md)
+
+* [POST Agents/Dash/DeleteDashTileDefinition](v1DashAgent_DeleteDashTileDefinition.md)
+
 * [POST Agents/Dash/GetDashTileDefinition](v1DashAgent_GetDashTileDefinition.md)
 
 * [POST Agents/Dash/CreateDefaultTileDefinitionForEntity](v1DashAgent_CreateDefaultTileDefinitionForEntity.md)
@@ -82,4 +80,8 @@ generated: true
 
 * [POST Agents/Dash/SaveDashTileHtmlList](v1DashAgent_SaveDashTileHtmlList.md)
 
+* [POST Agents/Dash/CreateDefaultPreviewDash](v1DashAgent_CreateDefaultPreviewDash.md)
+
 * [POST Agents/Dash/GetPreviewDash](v1DashAgent_GetPreviewDash.md)
+
+* [POST Agents/Dash/CreateDefaultPreviewDashTile](v1DashAgent_CreateDefaultPreviewDashTile.md)

@@ -2,10 +2,10 @@
 uid: table-ExtAppGroupLink
 title: ExtAppGroupLink table
 description: User group link table for ExtApp, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table ExtAppGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ExtAppGroupLink Table (134)

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentPurposes
 uid: v1ListAgent_GetConsentPurposes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentPurposes
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 522,
-    "Name": "Wunsch Inc and Sons",
-    "ConsentText": "consequatur",
-    "FormText": "sequi",
-    "Key": "est",
-    "Tooltip": "voluptatem",
-    "Active": 802,
-    "UpdatedDate": "2019-06-15T03:45:23.5927257+02:00",
+    "ConsentPurposeId": 779,
+    "Name": "Koch Inc and Sons",
+    "ConsentText": "rem",
+    "FormText": "ad",
+    "Key": "dignissimos",
+    "Tooltip": "ut",
+    "Active": 163,
+    "UpdatedDate": "2014-06-01T03:46:54.9882491+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 579,
-    "PrivacyStatementDesc": "autem",
+    "Rank": 33,
+    "PrivacyStatementDesc": "ex",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 41
       }
     }
   }

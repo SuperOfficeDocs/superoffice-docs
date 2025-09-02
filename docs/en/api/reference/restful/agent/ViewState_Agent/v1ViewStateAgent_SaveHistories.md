@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/SaveHistories
 uid: v1ViewStateAgent_SaveHistories
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/SaveHistories
@@ -82,20 +83,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Braun, Nicolas and Rogahn",
+  "HistoryName": "Kuhic, Frami and Waters",
   "History": [
     {
-      "Rank": 682,
-      "Id": 26,
-      "HistoryName": "Hauck Inc and Sons",
-      "HistoryId": 737,
-      "AssociateId": 561,
-      "Name": "Miller-McKenzie",
-      "ItemInfo": "ducimus"
+      "Rank": 370,
+      "Id": 354,
+      "HistoryName": "Howe, Pouros and Goldner",
+      "HistoryId": 171,
+      "AssociateId": 851,
+      "Name": "Kiehn Group",
+      "ItemInfo": "explicabo"
     }
   ]
 }
@@ -109,19 +110,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 553,
-    "Id": 138,
-    "HistoryName": "Beahan Inc and Sons",
-    "HistoryId": 639,
-    "AssociateId": 437,
-    "Name": "Hermann Inc and Sons",
-    "ItemInfo": "et",
+    "Rank": 740,
+    "Id": 101,
+    "HistoryName": "Gutmann-Hoeger",
+    "HistoryId": 330,
+    "AssociateId": 617,
+    "Name": "D'Amore, Farrell and Renner",
+    "ItemInfo": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

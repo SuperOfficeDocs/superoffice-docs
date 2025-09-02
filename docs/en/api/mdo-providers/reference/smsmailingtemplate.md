@@ -3,9 +3,9 @@ uid: smsmailingtemplate
 title: smsmailingtemplate
 keywords: mdoprovider mdo provider smsmailingtemplate
 description: SMS Mailing templates
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "smsmailingtemplate" MDO List

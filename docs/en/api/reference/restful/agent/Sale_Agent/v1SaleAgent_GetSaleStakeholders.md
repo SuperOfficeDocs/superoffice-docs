@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleStakeholders
 uid: v1SaleAgent_GetSaleStakeholders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleStakeholders
@@ -95,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 995
+  "SaleId": 809
 }
 ```
 
@@ -107,31 +108,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Medhurst-Dare",
-    "Comment": "distinctio",
-    "StakeholderRoleId": 211,
-    "CountryId": 82,
-    "PersonId": 515,
-    "EmailDescription": "pablo.rosenbaum@swaniawski.uk",
-    "EmailId": 401,
-    "EmailAddress": "blake@rohan.uk",
-    "PhoneId": 265,
-    "ContactName": "Weber Inc and Sons",
-    "ContactId": 826,
-    "SaleId": 674,
-    "Mrmrs": "recusandae",
-    "Firstname": "Heidi",
-    "MiddleName": "Sipes, Rolfson and Tremblay",
-    "Lastname": "Gottlieb",
-    "SaleStakeholderId": 373,
-    "Rank": 796,
-    "Phone": "034.338.8805 x3325",
+    "StakeholderRoleName": "Weber LLC",
+    "Comment": "perspiciatis",
+    "StakeholderRoleId": 541,
+    "CountryId": 865,
+    "PersonId": 528,
+    "EmailDescription": "winnifred.anderson@west.biz",
+    "EmailId": 101,
+    "EmailAddress": "imani@beatty.name",
+    "PhoneId": 887,
+    "ContactName": "Pacocha, Cremin and Corwin",
+    "ContactId": 610,
+    "SaleId": 690,
+    "Mrmrs": "et",
+    "Firstname": "Jess",
+    "MiddleName": "Toy, Daugherty and Witting",
+    "Lastname": "Walker",
+    "SaleStakeholderId": 294,
+    "Rank": 423,
+    "Phone": "614-525-3108",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 954
       }
     }
   }

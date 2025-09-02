@@ -2,6 +2,7 @@
 title: GET Project/{id}/Simple
 uid: v1ProjectEntity_Simple
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/Simple
@@ -79,7 +80,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +90,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 112,
-  "Name": "Keebler-Gibson",
-  "Description": "Sharable dynamic approach",
+  "ProjectId": 915,
+  "Name": "Hintz-Waelchi",
+  "Description": "Proactive hybrid framework",
   "URL": "http://www.example.com/",
-  "Type": "corrupti",
-  "AssociateId": 65,
-  "AssociateFullName": "Nikki Willms",
-  "TypeId": 21,
-  "Updated": "2007-09-06T03:45:28.5296817+02:00",
-  "StatusId": 422,
-  "Status": "consequatur",
-  "TextId": 262,
-  "PublishTo": "2023-01-07T03:45:28.5296817+01:00",
-  "PublishFrom": "2016-07-21T03:45:28.5296817+02:00",
+  "Type": "excepturi",
+  "AssociateId": 484,
+  "AssociateFullName": "Dustin Magdalen Schumm MD",
+  "TypeId": 223,
+  "Updated": "2004-10-31T03:47:00.1911895+01:00",
+  "StatusId": 525,
+  "Status": "laboriosam",
+  "TextId": 524,
+  "PublishTo": "2020-03-03T03:47:00.1911895+01:00",
+  "PublishFrom": "2020-08-30T03:47:00.1911895+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1443718",
-  "ActiveErpLinks": 411,
+  "ProjectNumber": "1811871",
+  "ActiveErpLinks": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 604
     }
   }
 }

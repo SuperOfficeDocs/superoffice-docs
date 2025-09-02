@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Task
 title: List_Task
 generated: true
+content_type: reference
 ---
 
 ```http

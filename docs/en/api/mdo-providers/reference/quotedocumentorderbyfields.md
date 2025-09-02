@@ -3,9 +3,9 @@ uid: quotedocumentorderbyfields
 title: quotedocumentorderbyfields
 keywords: mdoprovider mdo provider quotedocumentorderbyfields
 description: Possible choices for fields you can ORDER BY, within a group (or without grouping)
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quotedocumentorderbyfields" MDO List

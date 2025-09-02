@@ -3,9 +3,9 @@ uid: direction
 title: direction
 keywords: mdoprovider mdo provider direction
 description: Document and Task directions - TaskDirection.Incoming, Outgoing
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "direction" MDO List

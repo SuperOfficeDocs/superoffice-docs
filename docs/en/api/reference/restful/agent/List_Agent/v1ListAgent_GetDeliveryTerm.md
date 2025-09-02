@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDeliveryTerm
 uid: v1ListAgent_GetDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDeliveryTerm
@@ -22,11 +23,11 @@ Gets a DeliveryTerm object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| deliveryTermId | int32 | **Required** The primary key. |
+| deliveryTermId | int32 | **Required** The identifier of the DeliveryTerm object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=236
+POST /api/v1/Agents/List/GetDeliveryTerm?deliveryTermId=996
 POST /api/v1/Agents/List/GetDeliveryTerm?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Value": "numquam",
-  "Tooltip": "non",
+  "Id": 40,
+  "Value": "et",
+  "Tooltip": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

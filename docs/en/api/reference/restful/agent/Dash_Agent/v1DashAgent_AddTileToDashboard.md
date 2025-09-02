@@ -2,6 +2,7 @@
 title: POST Agents/Dash/AddTileToDashboard
 uid: v1DashAgent_AddTileToDashboard
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/AddTileToDashboard
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Dash/AddTileToDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 849,
-  "DashTileDefinitionId": 234
+  "DashboardId": 141,
+  "DashTileDefinitionId": 215
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 395,
-  "DashboardId": 309,
-  "Height": 164,
-  "Width": 228,
-  "Rank": 510,
+  "DashboardTileId": 178,
+  "DashboardId": 888,
+  "Height": 265,
+  "Width": 980,
+  "Rank": 666,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 790
     }
   }
 }

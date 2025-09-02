@@ -2,6 +2,7 @@
 title: POST Agents/User/GetDataRights
 uid: v1UserAgent_GetDataRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetDataRights
@@ -78,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 540,
-  "TableName": "Grimes, Balistreri and Williamson"
+  "RoleId": 973,
+  "TableName": "O'Keefe-Jaskolski"
 }
 ```
 
@@ -90,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
-  "2": "molestiae"
+  "1": "deserunt",
+  "2": "similique"
 }
 ```

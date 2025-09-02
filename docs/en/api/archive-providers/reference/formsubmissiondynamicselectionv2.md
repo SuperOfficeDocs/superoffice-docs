@@ -3,9 +3,9 @@ uid: FormSubmissionDynamicSelectionV2
 title: FormSubmissionDynamicSelectionV2
 description: FormSubmission selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: FormSubmissionDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionDynamicSelectionV2"
@@ -482,7 +482,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/personAssociate/contactName,person/personAssociate/credentialType,person/consentSourceStore
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/correspondingAssociate/ejUserId,contact/saintDirection,person/restrictionAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

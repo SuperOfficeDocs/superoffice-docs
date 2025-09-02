@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultReOpenAppointment
 uid: v1AppointmentAgent_CreateDefaultReOpenAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultReOpenAppointment
@@ -136,7 +137,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 568
+  "SaleId": 650
 }
 ```
 
@@ -151,121 +152,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-12-02T03:45:22.9204667+01:00",
-  "AppointmentId": 417,
-  "Description": "Compatible analyzing architecture",
-  "Title": "ducimus",
-  "Agenda": "impedit",
-  "InternalNotes": "quasi",
-  "StartDate": "2012-01-30T03:45:22.9204667+01:00",
-  "EndDate": "2013-02-03T03:45:22.9204667+01:00",
+  "CreatedDate": "2024-04-27T03:46:54.2226522+02:00",
+  "AppointmentId": 68,
+  "Description": "Stand-alone methodical structure",
+  "Title": "quam",
+  "Agenda": "sint",
+  "InternalNotes": "quia",
+  "StartDate": "2004-10-16T03:46:54.2226522+02:00",
+  "EndDate": "2018-06-24T03:46:54.2226522+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 974,
+  "MotherId": 294,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-08-21T03:45:22.9204667+02:00",
+  "UpdatedDate": "2011-07-25T03:46:54.2226522+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 563,
+  "ActiveLinks": 14,
   "Links": [
     {
-      "EntityName": "Kemmer-Kovacek",
-      "Id": 871,
-      "Description": "Focused multimedia service-desk",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 123,
+      "EntityName": "Lynch, Thiel and Hagenes",
+      "Id": 27,
+      "Description": "Team-oriented 6th generation synergy",
+      "ExtraInfo": "ipsam",
+      "LinkId": 496,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 611
+          "FieldType": "System.Int32",
+          "FieldLength": 980
         }
       }
     }
   ],
-  "AlarmLeadTime": "fugiat",
-  "HasAlarm": true,
-  "ColorIndex": 906,
+  "AlarmLeadTime": "ullam",
+  "HasAlarm": false,
+  "ColorIndex": 577,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ratione",
-  "LeadTime": "sit",
-  "Location": "possimus",
-  "RejectCounter": 508,
+  "IsAlldayEvent": true,
+  "LagTime": "ea",
+  "LeadTime": "molestias",
+  "Location": "ut",
+  "RejectCounter": 82,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 734,
-      "PersonId": 689,
-      "ContactId": 881,
-      "EmailId": 183,
+      "AssociateId": 40,
+      "PersonId": 563,
+      "ContactId": 982,
+      "EmailId": 338,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mercedes.gutkowski@hagenes.us",
-      "Description": "Fundamental disintermediate solution"
+      "EmailAddress": "josiah.heidenreich@schuster.info",
+      "Description": "Devolved mission-critical moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-03-25T03:45:22.9204667+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2012-09-15T03:46:54.2226522+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 407,
+  "PreferredTZLocation": 911,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 423,
+  "SuggestedAppointmentId": 557,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quam",
+  "CentralserviceVideomeetId": "quaerat",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Rubye Wisozk I"
+    "SuperOffice:1": "Raphael Kerluke",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "omnis",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2015-12-03T03:45:22.9204667+01:00",
-  "PublishTo": "2016-08-03T03:45:22.9204667+02:00",
-  "PublishFrom": "2020-01-21T03:45:22.9204667+01:00",
+  "PublishEventDate": "2004-04-24T03:46:54.2226522+02:00",
+  "PublishTo": "2011-11-05T03:46:54.2226522+01:00",
+  "PublishFrom": "2006-02-24T03:46:54.2226522+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 356,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 487
         }
       }
     },
     {
-      "VisibleId": 356,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 487
         }
       }
     }
@@ -274,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 355
     }
   }
 }

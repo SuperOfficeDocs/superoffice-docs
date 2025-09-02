@@ -2,13 +2,13 @@
 uid: table-workflow
 title: workflow table
 description: SuperOffice specific info about a workflow
-so.generated: true
+generated: true
 keywords: database table workflow
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# workflow Table (510)
+# workflow Table (511)
 
 SuperOffice specific info about a workflow
 

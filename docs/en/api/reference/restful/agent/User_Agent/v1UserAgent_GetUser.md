@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUser
 uid: v1UserAgent_GetUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUser
@@ -24,11 +25,11 @@ Gets a User object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| userId | int32 | **Required** The primary key. |
+| userId | int32 | **Required** The identifier of the User object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=754
+POST /api/v1/Agents/User/GetUser?userId=940
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -103,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 534,
-  "Name": "McDermott LLC",
-  "Rank": 459,
-  "Tooltip": "sit",
+  "AssociateId": 933,
+  "Name": "Wolff-Greenholt",
+  "Rank": 986,
+  "Tooltip": "minima",
   "LicenseOwners": [
     {
-      "Name": "Skiles-Armstrong",
-      "Description": "Inverse systemic customer loyalty",
+      "Name": "Schoen, Murray and Barrows",
+      "Description": "Organic even-keeled utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +124,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 663
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     },
     {
-      "Name": "Skiles-Armstrong",
-      "Description": "Inverse systemic customer loyalty",
+      "Name": "Schoen, Murray and Barrows",
+      "Description": "Organic even-keeled utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +144,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 663
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     }
@@ -153,110 +154,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quia",
-      "Tooltip": "officiis",
-      "Id": 906,
-      "Rank": 129,
+      "Value": "aut",
+      "Tooltip": "asperiores",
+      "Id": 975,
+      "Rank": 361,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldLength": 238
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2011-06-14T03:45:24.1704335+02:00",
-  "Lastlogout": "2000-04-28T03:45:24.1704335+02:00",
-  "EjUserId": 360,
-  "RequestSignature": "aut",
+  "Lastlogin": "2019-04-20T03:46:55.5976024+02:00",
+  "Lastlogout": "2010-08-01T03:46:55.5976024+02:00",
+  "EjUserId": 666,
+  "RequestSignature": "aspernatur",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
+      "Value": "molestiae",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     },
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
+      "Value": "molestiae",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
   ],
-  "UserName": "Hirthe-Wiza",
+  "UserName": "Ullrich-Fisher",
   "TicketCategories": [
     {
-      "Id": 561,
-      "Name": "McClure, Howe and Goodwin",
-      "ToolTip": "Adipisci alias voluptates fugit exercitationem veritatis aut reprehenderit.",
+      "Id": 615,
+      "Name": "Ward, Crona and Volkman",
+      "ToolTip": "Rerum nisi sapiente velit aut quae ut odio.",
       "Deleted": false,
-      "Rank": 974,
-      "Type": "aliquid",
+      "Rank": 753,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ab",
-      "ColorBlock": 824,
-      "ExtraInfo": "repellendus",
-      "StyleHint": "ut",
-      "FullName": "Mr. Maynard Beier DDS",
+      "IconHint": "inventore",
+      "ColorBlock": 312,
+      "ExtraInfo": "tenetur",
+      "StyleHint": "atque",
+      "FullName": "Zachary Ebert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldType": "System.Int32",
+          "FieldLength": 376
         }
       }
     }
   ],
-  "NickName": "Stiedemann LLC",
-  "WaitingForApproval": true,
+  "NickName": "King-Harris",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "esse",
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Leannon, Dickinson and Kirlin",
-      "DisplayName": "Schulist LLC",
-      "Description": "Robust methodical installation",
-      "ToolTip": "Accusantium vero eum maiores voluptatem.",
+      "Name": "Buckridge, Rolfson and Cartwright",
+      "DisplayName": "Runolfsdottir-Orn",
+      "Description": "Monitored coherent array",
+      "ToolTip": "Dolor et libero nobis.",
       "Actions": "Implicit",
-      "ActionData": "quam",
+      "ActionData": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 76
+          "FieldType": "System.Int32",
+          "FieldLength": 839
         }
       }
     }
@@ -265,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

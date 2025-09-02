@@ -2,6 +2,7 @@
 title: Services88.NumberAllocationAgent.DeleteRefCountEntity SOAP
 generated: true
 uid: Services88-NumberAllocation-DeleteRefCountEntity
+content_type: reference
 ---
 
 # Services88 NumberAllocation DeleteRefCountEntity

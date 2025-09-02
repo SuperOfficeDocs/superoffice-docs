@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDeliveryType SOAP
 generated: true
 uid: Services88-List-GetDeliveryType
+content_type: reference
 ---
 
 # Services88 List GetDeliveryType

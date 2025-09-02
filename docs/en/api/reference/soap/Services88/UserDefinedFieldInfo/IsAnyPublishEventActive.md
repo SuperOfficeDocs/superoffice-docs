@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.IsAnyPublishEventActive SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-IsAnyPublishEventActive
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo IsAnyPublishEventActive

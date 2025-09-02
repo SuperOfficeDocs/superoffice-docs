@@ -2,6 +2,7 @@
 title: DEL List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_DeleteSelectionCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/SelectionCategory/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

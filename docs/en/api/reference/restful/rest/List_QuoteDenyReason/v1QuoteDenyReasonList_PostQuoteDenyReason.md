@@ -2,6 +2,7 @@
 title: POST List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_PostQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # POST List/QuoteDenyReason/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Kassulke-Rippin",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 420,
-  "Rank": 485
+  "Id": 707,
+  "Name": "Jacobson Group",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "UdListDefinitionId": 439,
+  "Rank": 499
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 872,
-  "Name": "Fisher Group",
+  "Id": 421,
+  "Name": "Franecki Group",
   "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 102,
-  "Rank": 936,
+  "Deleted": false,
+  "UdListDefinitionId": 615,
+  "Rank": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 605
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetUserAndInstallationLicenceStatus SOAP
 generated: true
 uid: Services88-License-GetUserAndInstallationLicenceStatus
+content_type: reference
 ---
 
 # Services88 License GetUserAndInstallationLicenceStatus
@@ -65,9 +66,9 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <License:GetUserAndInstallationLicenceStatusResponse>
    <License:Response xsi:type="License:UserAndInstallationLicenceStatus">
-    <License:AdminWarningDate xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:AdminWarningDate>
-    <License:ExpiryDate xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:ExpiryDate>
-    <License:GraceDate xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:GraceDate>
+    <License:AdminWarningDate xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:AdminWarningDate>
+    <License:ExpiryDate xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:ExpiryDate>
+    <License:GraceDate xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:GraceDate>
     <License:CompanyName xsi:type="xsd:string"></License:CompanyName>
     <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
     <License:UserLicenses xsi:type="NetServerServices883:ArrayOfstring">

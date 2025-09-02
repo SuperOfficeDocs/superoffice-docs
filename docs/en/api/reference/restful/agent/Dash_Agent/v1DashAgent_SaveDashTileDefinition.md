@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDashTileDefinition
 uid: v1DashAgent_SaveDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDashTileDefinition
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 ```
 
-Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
+Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: dashTileDefinition 
 
-The DashTileDefinition to be saved. 
+The DashTileDefinition that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,25 +104,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 154,
-  "Name": "Ullrich Inc and Sons",
-  "Description": "Robust reciprocal support",
-  "DefaultHeight": 888,
-  "DefaultWidth": 674,
+  "DashboardTileDefinitionId": 722,
+  "Name": "Pouros-Schulist",
+  "Description": "Virtual contextually-based middleware",
+  "DefaultHeight": 555,
+  "DefaultWidth": 351,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Morissette-Simonis",
-  "SelectionId": 109,
+  "EntityName": "Stamm-Konopelski",
+  "SelectionId": 70,
   "CurrencyMode": "Base",
-  "CurrencyCode": "in",
+  "CurrencyCode": "cum",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "ut",
-  "LayoutConfig": "tempora",
-  "SecondarySelectionId": 950,
-  "MeasureByField": "qui",
+  "MeasureField": "similique",
+  "SortBy": "sunt",
+  "LayoutConfig": "incidunt",
+  "SecondarySelectionId": 515,
+  "MeasureByField": "perspiciatis",
   "Usage": "Dashboard",
-  "ProviderName": "Walter Inc and Sons"
+  "ProviderName": "Hauck LLC"
 }
 ```
 
@@ -132,31 +133,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 475,
-  "Name": "Terry-Streich",
-  "Description": "Vision-oriented needs-based portal",
-  "DefaultHeight": 780,
-  "DefaultWidth": 58,
+  "DashboardTileDefinitionId": 81,
+  "Name": "Bartoletti LLC",
+  "Description": "User-friendly scalable productivity",
+  "DefaultHeight": 321,
+  "DefaultWidth": 182,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kutch Inc and Sons",
-  "SelectionId": 635,
+  "EntityName": "Bernhard Group",
+  "SelectionId": 665,
   "CurrencyMode": "Base",
-  "CurrencyCode": "similique",
+  "CurrencyCode": "laborum",
   "Measure": "Average",
-  "MeasureField": "eos",
-  "SortBy": "dicta",
-  "LayoutConfig": "dolores",
-  "SecondarySelectionId": 60,
-  "MeasureByField": "debitis",
+  "MeasureField": "dolorem",
+  "SortBy": "ut",
+  "LayoutConfig": "molestiae",
+  "SecondarySelectionId": 761,
+  "MeasureByField": "error",
   "Usage": "Dashboard",
-  "ProviderName": "Pacocha, Legros and Schultz",
+  "ProviderName": "Casper-Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.DatabaseAgent SOAP
 uid: Services88-Database-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Database SOAP

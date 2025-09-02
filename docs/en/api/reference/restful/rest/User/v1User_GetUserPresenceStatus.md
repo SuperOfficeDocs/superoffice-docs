@@ -2,6 +2,7 @@
 title: GET User/{id}/UserPresenceStatus
 uid: v1User_GetUserPresenceStatus
 generated: true
+content_type: reference
 ---
 
 # GET User/{id}/UserPresenceStatus
@@ -71,6 +72,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "qui"
+  "Message": "asperiores"
 }
 ```

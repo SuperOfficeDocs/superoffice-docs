@@ -2,6 +2,7 @@
 title: GET Role/{type}/Default
 uid: v1RoleEntity_CreateDefaultRoleEntityFromType
 generated: true
+content_type: reference
 ---
 
 # GET Role/{type}/Default
@@ -85,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 689,
-  "Name": "Schmidt-Parisian",
-  "Tooltip": "qui",
+  "RoleId": 146,
+  "Name": "Torp, Padberg and Bruen",
+  "Tooltip": "repellendus",
   "RoleType": "Anonymous",
-  "Deleted": 864,
-  "Rank": 893,
-  "Created": "2024-12-07T03:45:28.5453063+01:00",
-  "UseCategories": 218,
+  "Deleted": 307,
+  "Rank": 628,
+  "Created": "2007-12-18T03:47:00.2224384+01:00",
+  "UseCategories": 824,
   "CreatedBy": null,
-  "Updated": "2011-05-16T03:45:28.5453063+02:00",
+  "Updated": "2003-06-27T03:47:00.2224384+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

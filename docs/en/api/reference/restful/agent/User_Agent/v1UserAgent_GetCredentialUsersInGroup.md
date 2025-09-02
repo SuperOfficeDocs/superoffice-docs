@@ -2,6 +2,7 @@
 title: POST Agents/User/GetCredentialUsersInGroup
 uid: v1UserAgent_GetCredentialUsersInGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetCredentialUsersInGroup
@@ -77,12 +78,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "a",
-  "GroupName": "Cruickshank Group"
+  "Type": "ut",
+  "GroupName": "Emmerich-Kertzmann"
 }
 ```
 
@@ -94,16 +95,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "esse",
-    "nulla"
+    "est",
+    "voluptatibus"
   ],
   "Users": [
     {
-      "Value": "explicabo",
-      "DisplayValue": "non",
+      "Value": "aliquid",
+      "DisplayValue": "minus",
       "Columns": [
-        "in",
-        "aliquam"
+        "sequi",
+        "illum"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -111,16 +112,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 704
         }
       }
     },
     {
-      "Value": "explicabo",
-      "DisplayValue": "non",
+      "Value": "aliquid",
+      "DisplayValue": "minus",
       "Columns": [
-        "in",
-        "aliquam"
+        "sequi",
+        "illum"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -128,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 704
         }
       }
     }
@@ -137,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

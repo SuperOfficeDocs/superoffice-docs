@@ -2,6 +2,7 @@
 title: POST Agents/List/GetHeadingsFromName
 uid: v1ListAgent_GetHeadingsFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetHeadingsFromName
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dach-Kiehn"
+  "Name": "VonRueden-Wintheiser"
 }
 ```
 
@@ -94,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Hoppe-Ledner",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "Rank": 513,
-    "UdListDefinitionId": 15,
+    "HeadingId": 351,
+    "Name": "Dach Inc and Sons",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "Rank": 371,
+    "UdListDefinitionId": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldLength": 304
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_PutWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/WebPanel/Items/{id}
@@ -112,31 +113,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 347,
-  "Name": "Kris Inc and Sons",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 174,
+  "WebPanelId": 24,
+  "Name": "Legros-Dickinson",
+  "Tooltip": "necessitatibus",
+  "Deleted": false,
+  "Rank": 834,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Wiegand-Smith",
+  "ShowInStatusBar": false,
+  "WindowName": "Leuschke, Parisian and Schiller",
   "Url": "http://www.example.com/",
-  "ProgId": "in",
-  "Icon": 610,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "velit",
+  "Icon": 841,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true
 }
 ```
@@ -148,34 +149,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 795,
-  "Name": "Stoltenberg Group",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 57,
+  "WebPanelId": 374,
+  "Name": "Zulauf Inc and Sons",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "Rank": 868,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Jakubowski-Kozey",
+  "WindowName": "Murphy, Wolf and Hoeger",
   "Url": "http://www.example.com/",
-  "ProgId": "delectus",
-  "Icon": 79,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "exercitationem",
+  "Icon": 619,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 591
     }
   }
 }

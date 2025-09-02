@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetSystemEventEntity
 uid: v1ConfigurationAgent_GetSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetSystemEventEntity
@@ -22,11 +23,11 @@ Gets a SystemEventEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| systemEventEntityId | int32 | **Required** The primary key. |
+| systemEventEntityId | int32 | **Required** The identifier of the SystemEventEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=684
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=551
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 807,
+  "SystemEventId": 836,
   "Scope": "Database",
-  "Eta": "2002-07-21T03:45:23.0923404+02:00",
-  "Eventkey": "perspiciatis",
-  "Eventmess": "delectus",
-  "ExtraInfo": 463,
-  "Owner": 381,
-  "UpdatedCount": 996,
-  "Registered": "2016-07-23T03:45:23.0923404+02:00",
+  "Eta": "2000-12-27T03:46:54.4726424+01:00",
+  "Eventkey": "odit",
+  "Eventmess": "dolorem",
+  "ExtraInfo": 548,
+  "Owner": 508,
+  "UpdatedCount": 73,
+  "Registered": "2009-02-23T03:46:54.4726424+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 393
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetSourceList SOAP
 generated: true
 uid: Services88-List-GetSourceList
+content_type: reference
 ---
 
 # Services88 List GetSourceList

@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SetDynamicSelectionCriteria2
 uid: v1SelectionAgent_SetDynamicSelectionCriteria2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria2
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 953,
-  "Filter": "aut"
+  "SelectionId": 810,
+  "Filter": "velit"
 }
 ```
 
@@ -100,29 +101,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dibbert-Douglas",
-    "Operator": "at",
+    "Name": "Trantow, Ortiz and Volkman",
+    "Operator": "consectetur",
     "Values": [
-      "esse",
-      "earum"
+      "sapiente",
+      "rerum"
     ],
     "DisplayValues": [
-      "iure",
-      "qui"
+      "qui",
+      "dolores"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Pagac, Kihn and Effertz",
-        "Operator": "et",
+        "Name": "Pagac Group",
+        "Operator": "qui",
         "Values": [
-          "cum",
-          "quam"
+          "facere",
+          "ab"
         ],
         "DisplayValues": [
-          "odit",
-          "officiis"
+          "non",
+          "eveniet"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +131,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 50,
+        "InterParenthesis": 732,
         "InterOperator": "And",
-        "UniqueHash": 570
+        "UniqueHash": 105
       }
     ],
-    "InterParenthesis": 871,
+    "InterParenthesis": 884,
     "InterOperator": "And",
-    "UniqueHash": 545
+    "UniqueHash": 175
   }
 ]
 ```

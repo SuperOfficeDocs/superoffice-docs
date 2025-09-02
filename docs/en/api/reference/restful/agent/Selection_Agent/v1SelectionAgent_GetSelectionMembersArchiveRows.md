@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetSelectionMembersArchiveRows
 uid: v1SelectionAgent_GetSelectionMembersArchiveRows
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetSelectionMembersArchiveRows
@@ -84,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 611,
-  "Select": "occaecati"
+  "SelectionId": 693,
+  "Select": "non"
 }
 ```
 
@@ -97,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Witting, Aufderhar and Wilkinson",
-    "PrimaryKey": 911,
+    "EntityName": "Jones, Funk and Wuckert",
+    "PrimaryKey": 466,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sit",
-        "TooltipHint": "dolorem",
-        "LinkHint": "sit"
+        "DisplayValue": "voluptatem",
+        "TooltipHint": "cupiditate",
+        "LinkHint": "maiores"
       }
     },
-    "LinkHint": "modi",
-    "StyleHint": "occaecati",
+    "LinkHint": "magnam",
+    "StyleHint": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

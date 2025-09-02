@@ -2,10 +2,10 @@
 uid: table-notify
 title: notify table
 description: This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
-so.generated: true
+generated: true
 keywords: database table notify
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # notify Table (301)
@@ -28,6 +28,8 @@ This table contains the pop-up messages displayed for users for various events, 
 |chat\_nick\_name|Chat customer nick name in this notification|String(255)|&#x25CF;|
 |ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket-alert.md)|&#x25CF;|
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
+|contact\_id|Id of the assigned contact|FK [contact](contact.md)|&#x25CF;|
+|person\_id|Id of the assigned person|FK [person](person.md)|&#x25CF;|
 |custom\_url|An URL which can be set with custom notification messages|String(2048)|&#x25CF;|
 |registered|Registered when|UtcDateTime|&#x25CF;|
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)|&#x25CF;|
@@ -49,6 +51,8 @@ This table contains the pop-up messages displayed for users for various events, 
 |category\_id |FK |Index |
 |chat\_topic\_id |FK |Index |
 |ticket\_alert\_id |FK |Index |
+|contact\_id |FK |Index |
+|person\_id |FK |Index |
 
 ## Relationships
 
@@ -56,8 +60,10 @@ This table contains the pop-up messages displayed for users for various events, 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 

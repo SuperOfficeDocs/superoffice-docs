@@ -2,6 +2,7 @@
 title: POST Agents/Person/Undelete
 uid: v1PersonAgent_Undelete
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/Undelete
@@ -70,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636
+  "Id": 176
 }
 ```
 

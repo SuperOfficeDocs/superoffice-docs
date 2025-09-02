@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProjectStatuses
 uid: v1ListAgent_GetProjectStatuses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProjectStatuses
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetProjectStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Value": "voluptas",
-    "Tooltip": "harum",
+    "Id": 189,
+    "Value": "consequatur",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   },
   {
-    "Id": 625,
-    "Value": "voluptas",
-    "Tooltip": "harum",
+    "Id": 189,
+    "Value": "consequatur",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

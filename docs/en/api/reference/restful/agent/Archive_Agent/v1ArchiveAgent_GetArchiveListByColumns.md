@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumns
 uid: v1ArchiveAgent_GetArchiveListByColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumns
@@ -107,32 +108,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "White LLC",
+  "ProviderName": "Paucek, Pacocha and Johnston",
   "Columns": [
-    "incidunt",
-    "ut"
+    "magnam",
+    "aperiam"
   ],
   "SortOrder": [
     {
-      "Name": "Balistreri LLC",
+      "Name": "Langosh, Smith and Bashirian",
       "Direction": "ASC"
     },
     {
-      "Name": "Balistreri LLC",
+      "Name": "Langosh, Smith and Bashirian",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kovacek Inc and Sons",
-      "Operator": "et",
+      "Name": "Weber-Kerluke",
+      "Operator": "eveniet",
       "Values": [
-        "dolorem",
-        "sunt"
+        "nostrum",
+        "fuga"
       ],
       "DisplayValues": [
-        "ut",
-        "perferendis"
+        "fuga",
+        "error"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +141,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 550,
+      "InterParenthesis": 903,
       "InterOperator": "And",
-      "UniqueHash": 486
+      "UniqueHash": 261
     }
   ],
   "Entities": [
-    "magnam",
-    "laboriosam"
+    "id",
+    "alias"
   ],
-  "Page": 822,
-  "PageSize": 525
+  "Page": 607,
+  "PageSize": 565
 }
 ```
 
@@ -162,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Quigley-Stroman",
-    "PrimaryKey": 347,
+    "EntityName": "Bayer, Beatty and Lynch",
+    "PrimaryKey": 724,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "saepe",
-        "TooltipHint": "et",
-        "LinkHint": "velit"
+        "DisplayValue": "dolor",
+        "TooltipHint": "aut",
+        "LinkHint": "doloremque"
       }
     },
-    "LinkHint": "tempora",
-    "StyleHint": "explicabo",
+    "LinkHint": "optio",
+    "StyleHint": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

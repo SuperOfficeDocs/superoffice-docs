@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.GetPublishedProjectsOnPersonId SOAP
 generated: true
 uid: Services88-Project-GetPublishedProjectsOnPersonId
+content_type: reference
 ---
 
 # Services88 Project GetPublishedProjectsOnPersonId
@@ -72,12 +73,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
      <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-     <Project:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:35Z</Project:Updated>
+     <Project:Updated xsi:type="xsd:dateTime">2025-08-30T01:46:07Z</Project:Updated>
      <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
      <Project:Status xsi:type="xsd:string"></Project:Status>
      <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-     <Project:PublishTo xsi:type="xsd:dateTime">2025-06-26T01:44:35Z</Project:PublishTo>
-     <Project:PublishFrom xsi:type="xsd:dateTime">2025-06-26T01:44:35Z</Project:PublishFrom>
+     <Project:PublishTo xsi:type="xsd:dateTime">2025-08-30T01:46:07Z</Project:PublishTo>
+     <Project:PublishFrom xsi:type="xsd:dateTime">2025-08-30T01:46:07Z</Project:PublishFrom>
      <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
      <Project:URLName xsi:type="xsd:string"></Project:URLName>
      <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>

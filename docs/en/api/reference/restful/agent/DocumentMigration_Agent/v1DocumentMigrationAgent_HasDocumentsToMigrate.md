@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/HasDocumentsToMigrate
 uid: v1DocumentMigrationAgent_HasDocumentsToMigrate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/HasDocumentsToMigrate
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/HasDocumentsToMigrate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

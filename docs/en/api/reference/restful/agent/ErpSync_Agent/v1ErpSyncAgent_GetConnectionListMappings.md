@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetConnectionListMappings
 uid: v1ErpSyncAgent_GetConnectionListMappings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetConnectionListMappings
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 120
+  "ErpConnectionId": 372
 }
 ```
 
@@ -95,31 +96,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Rolfson, Schimmel and Jakubowski",
+      "ErpListName": "Lakin-Langworth",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Buckridge, Kessler and Cole",
-      "ErpFieldId": 618,
+      "ErpActorTypeName": "Witting-Becker",
+      "ErpFieldId": 102,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     }
   ],
-  "ErpConnectionId": 341,
-  "ErpConnectionName": "Gulgowski, Koch and Jenkins",
+  "ErpConnectionId": 23,
+  "ErpConnectionName": "Luettgen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 236
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/SaleType/Items/{id}
 uid: v1SaleTypeList_PutSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/SaleType/Items/{id}
@@ -112,51 +113,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 528,
-  "Name": "Fadel-Jacobs",
-  "Tooltip": "harum",
-  "Rank": 931,
+  "SaleTypeId": 259,
+  "Name": "Kunde LLC",
+  "Tooltip": "ea",
+  "Rank": 683,
   "DurationUnit": "Century",
-  "SaleDuration": 135,
-  "SaleTypeCatId": 748,
-  "Deleted": false,
+  "SaleDuration": 630,
+  "SaleTypeCatId": 616,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 26,
-  "QuoteLinesTemplate": 525,
-  "ConfirmationLinesTemplate": 208,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 794,
+  "QuoteLinesTemplate": 419,
+  "ConfirmationLinesTemplate": 50,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 588,
-  "MinEarningPercent": 46,
-  "GroupQuoteLinesBy": 463,
-  "SortGroupLinesBy": 267,
+  "MaxDiscountPercent": 450,
+  "MinEarningPercent": 747,
+  "GroupQuoteLinesBy": 782,
+  "SortGroupLinesBy": 58,
   "Stages": [
     {
-      "Id": 710,
-      "Name": "Fadel Group",
-      "ToolTip": "Adipisci quis iure.",
-      "Deleted": false,
-      "Rank": 738,
-      "Type": "velit",
-      "ColorBlock": 158,
-      "IconHint": "laborum",
+      "Id": 405,
+      "Name": "Schuppe, Fritsch and Thompson",
+      "ToolTip": "Quidem facilis omnis voluptatem illo et.",
+      "Deleted": true,
+      "Rank": 241,
+      "Type": "consectetur",
+      "ColorBlock": 639,
+      "IconHint": "harum",
       "Selected": false,
-      "LastChanged": "2022-07-22T03:45:29.2171623+02:00",
+      "LastChanged": "2017-04-01T03:47:00.8005429+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "delectus",
+      "ExtraInfo": "ratione",
+      "StyleHint": "odio",
       "Hidden": false,
-      "FullName": "Mrs. Eulalia Walter DVM"
+      "FullName": "Zane Watsica"
     }
   ]
 }
@@ -169,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 751,
-  "Name": "Wuckert, Wiegand and Klein",
-  "Tooltip": "architecto",
-  "Rank": 5,
+  "SaleTypeId": 648,
+  "Name": "Krajcik-Rodriguez",
+  "Tooltip": "non",
+  "Rank": 353,
   "DurationUnit": "Century",
-  "SaleDuration": 16,
-  "SaleTypeCatId": 868,
-  "Deleted": true,
+  "SaleDuration": 368,
+  "SaleTypeCatId": 570,
+  "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 955,
-  "QuoteLinesTemplate": 717,
-  "ConfirmationLinesTemplate": 546,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 632,
+  "QuoteLinesTemplate": 235,
+  "ConfirmationLinesTemplate": 700,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 72,
-  "MinEarningPercent": 575,
-  "GroupQuoteLinesBy": 176,
-  "SortGroupLinesBy": 977,
+  "MaxDiscountPercent": 412,
+  "MinEarningPercent": 163,
+  "GroupQuoteLinesBy": 413,
+  "SortGroupLinesBy": 986,
   "Stages": [
     {
-      "Id": 434,
-      "Name": "Rogahn Inc and Sons",
-      "ToolTip": "Rerum dicta quis.",
+      "Id": 12,
+      "Name": "Labadie Group",
+      "ToolTip": "Eos quo.",
       "Deleted": false,
-      "Rank": 198,
-      "Type": "quia",
-      "ColorBlock": 363,
-      "IconHint": "qui",
-      "Selected": true,
-      "LastChanged": "2010-01-12T03:45:29.2171623+01:00",
+      "Rank": 566,
+      "Type": "voluptatum",
+      "ColorBlock": 219,
+      "IconHint": "reiciendis",
+      "Selected": false,
+      "LastChanged": "2009-11-11T03:47:00.8161673+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vitae",
-      "StyleHint": "at",
+      "ExtraInfo": "modi",
+      "StyleHint": "accusantium",
       "Hidden": false,
-      "FullName": "Carley Gorczany V",
+      "FullName": "Heloise Therese Feeney MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 267
+          "FieldLength": 243
         }
       }
     }
@@ -225,7 +226,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 908
     }
   }
 }

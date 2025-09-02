@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetProduct
 uid: v1QuoteAgent_GetProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetProduct
@@ -111,8 +112,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 869,
-  "ERPProductKey": "explicabo"
+  "QuoteConnectionId": 840,
+  "ERPProductKey": "quasi"
 }
 ```
 
@@ -123,73 +124,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 899,
-  "ERPProductKey": "iure",
-  "ERPPriceListKey": "ut",
-  "Name": "Tromp Inc and Sons",
-  "Description": "Diverse mission-critical productivity",
-  "Code": "nobis",
-  "PriceUnit": "corrupti",
-  "QuantityUnit": "doloribus",
+  "ProductId": 377,
+  "ERPProductKey": "suscipit",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Kutch, Kessler and Fadel",
+  "Description": "Fully-configurable responsive software",
+  "Code": "iste",
+  "PriceUnit": "ut",
+  "QuantityUnit": "occaecati",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 23849.739999999998,
-  "ItemNumber": "1428321",
+  "SubscriptionUnit": "quia",
+  "DefaultSubscriptionQuantity": 4481.62,
+  "ItemNumber": "1124968",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "facere",
-  "VAT": 24065.986,
-  "VATInfo": "odit",
-  "UnitCost": 15854.905999999999,
-  "UnitMinimumPrice": 5224.378,
-  "UnitListPrice": 29284.095999999998,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "quia",
+  "VAT": 14410.132,
+  "VATInfo": "enim",
+  "UnitCost": 19092.327999999998,
+  "UnitMinimumPrice": 23254.28,
+  "UnitListPrice": 20747.079999999998,
   "InAssortment": true,
-  "Supplier": "rerum",
-  "SupplierCode": "et",
-  "Rights": "dignissimos",
-  "Rule": "veniam",
+  "Supplier": "nostrum",
+  "SupplierCode": "repellendus",
+  "Rights": "beatae",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Prohaska-Greenholt",
-      "Value": "quisquam",
+      "Name": "Huels, Becker and Lynch",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     },
     {
-      "Name": "Prohaska-Greenholt",
-      "Value": "quisquam",
+      "Name": "Huels, Becker and Lynch",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
   ],
-  "RawExtraInfo": "maiores",
-  "ExtraField1": "error",
-  "ExtraField2": "quo",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "dolor",
-  "ExtraField5": "tempore",
-  "InStock": 17412.504,
+  "RawExtraInfo": "voluptas",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "placeat",
+  "ExtraField3": "possimus",
+  "ExtraField4": "nostrum",
+  "ExtraField5": "numquam",
+  "InStock": 12426.31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 137
     }
   }
 }

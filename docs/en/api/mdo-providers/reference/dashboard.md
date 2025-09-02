@@ -3,9 +3,9 @@ uid: dashboard
 title: dashboard
 keywords: mdoprovider mdo provider dashboard
 description: MDO list provider for Dashboard, can be used by Navigator.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "dashboard" MDO List

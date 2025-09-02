@@ -2,6 +2,7 @@
 title: PATCH TriggerScript/{id}
 uid: v1TriggerScriptEntity_PatchTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH TriggerScript/{id}
@@ -120,18 +121,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "unde",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "unde",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -144,27 +145,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 179,
-  "Name": "Bashirian, Nienow and Grimes",
+  "ScreenChooserId": 140,
+  "Name": "Corwin, Tremblay and Jewess",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "autem",
-  "Source": "officia",
-  "Registered": "2014-08-29T03:45:28.7952992+02:00",
-  "RegisteredAssociateId": 338,
-  "Updated": "2024-12-26T03:45:28.7952992+01:00",
-  "UpdatedAssociateId": 126,
+  "UniqueIdentifier": "omnis",
+  "Source": "fuga",
+  "Registered": "2008-11-18T03:47:00.3943072+01:00",
+  "RegisteredAssociateId": 701,
+  "Updated": "2008-12-25T03:47:00.3943072+01:00",
+  "UpdatedAssociateId": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 276
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

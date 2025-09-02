@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetActivePriceLists
 uid: v1QuoteAgent_GetActivePriceLists
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetActivePriceLists
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 296,
-  "Currency": "praesentium"
+  "QuoteConnectionId": 995,
+  "Currency": "nam"
 }
 ```
 
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 387,
-    "ERPPriceListKey": "expedita",
-    "QuoteConnectionId": 273,
-    "Name": "Leffler-Wolf",
-    "Description": "Inverse local policy",
-    "Currency": "quasi",
-    "CurrencyName": "Bailey Inc and Sons",
-    "ValidFrom": "2012-10-16T03:45:23.8266945+02:00",
-    "ValidTo": "2020-08-07T03:45:23.8266945+02:00",
+    "PriceListId": 931,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 56,
+    "Name": "Cole-Jacobson",
+    "Description": "Re-contextualized uniform monitoring",
+    "Currency": "ab",
+    "CurrencyName": "Mann, Ryan and Streich",
+    "ValidFrom": "2000-06-27T03:46:55.2226157+02:00",
+    "ValidTo": "2016-02-29T03:46:55.2226157+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

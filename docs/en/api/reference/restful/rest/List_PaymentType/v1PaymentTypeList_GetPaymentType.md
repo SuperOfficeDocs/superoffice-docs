@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Items/{id}
 uid: v1PaymentTypeList_GetPaymentType
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Name": "Kirlin-Hoeger",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 705,
-  "Rank": 934,
+  "Id": 29,
+  "Name": "Glover Inc and Sons",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 370,
+  "Rank": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

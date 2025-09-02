@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetMyPublishedAppointments
 uid: v1AppointmentAgent_GetMyPublishedAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetMyPublishedAppointments
@@ -104,6 +105,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -118,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,66 +131,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 771,
-    "StartDate": "2018-10-09T03:45:22.7017267+02:00",
-    "EndDate": "2011-01-13T03:45:22.7017267+01:00",
+    "AppointmentId": 378,
+    "StartDate": "2014-02-22T03:46:54.0039095+01:00",
+    "EndDate": "2001-04-02T03:46:54.0039095+02:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Pinkie Langosh",
-    "ContactName": "Spencer, Sporer and Lynch",
-    "Description": "Function-based hybrid workforce",
-    "PersonFullName": "Mitchel Larkin",
-    "PersonId": 168,
-    "ContactId": 556,
-    "ProjectId": 568,
-    "ProjectName": "Fritsch Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 809,
-    "ColorIndex": 297,
+    "Task": "beatae",
+    "AssociateFullName": "Dr. Antonio Cornell Hammes",
+    "ContactName": "Haag LLC",
+    "Description": "Persistent next generation initiative",
+    "PersonFullName": "Damian Orn MD",
+    "PersonId": 879,
+    "ContactId": 796,
+    "ProjectId": 734,
+    "ProjectName": "Welch, Erdman and Brown",
+    "IsPublished": false,
+    "AssociateId": 312,
+    "ColorIndex": 691,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 148,
-    "PriorityName": "Brown-Mante",
+    "PriorityId": 416,
+    "PriorityName": "Pouros-Kuvalis",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-03-07T03:45:22.7017267+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2002-04-17T03:46:54.0039095+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-06-10T03:45:22.7017267+02:00",
-    "RecurringEndDate": "2008-02-22T03:45:22.7017267+01:00",
-    "MotherId": 933,
-    "AssignedBy": 610,
-    "AssignedByFullName": "Fausto Koch",
+    "RecurringStartDate": "2001-02-14T03:46:54.0039095+01:00",
+    "RecurringEndDate": "2012-10-01T03:46:54.0039095+02:00",
+    "MotherId": 445,
+    "AssignedBy": 17,
+    "AssignedByFullName": "Mr. Isabella Steuber Jr.",
     "RejectReason": "",
-    "Location": "sequi",
-    "AlarmLeadTime": "et",
-    "SaleId": 629,
-    "SaleName": "Miller, Daugherty and Feeney",
-    "AssociateName": "Keeling Inc and Sons",
-    "CreatedDate": "2025-03-19T03:45:22.7017267+01:00",
-    "CreatedBy": "recusandae",
-    "CreatedByFullName": "Rocio Hessel",
-    "CreatedByAssociateId": 800,
+    "Location": "dolorem",
+    "AlarmLeadTime": "commodi",
+    "SaleId": 279,
+    "SaleName": "White Inc and Sons",
+    "AssociateName": "Larson-Bailey",
+    "CreatedDate": "2023-01-19T03:46:54.0039095+01:00",
+    "CreatedBy": "aperiam",
+    "CreatedByFullName": "Hyman Frami",
+    "CreatedByAssociateId": 980,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 433,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 961,
-    "Title": "corrupti",
-    "Agenda": "eius",
-    "InternalNotes": "amet",
+    "PreferredTZLocation": 723,
+    "Title": "blanditiis",
+    "Agenda": "laboriosam",
+    "InternalNotes": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 728
       }
     }
   }

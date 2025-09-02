@@ -2,6 +2,7 @@
 title: GET Project/{id}/Image
 uid: v1ProjectEntity_GetImage
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/Image
@@ -35,9 +36,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Project/{projectId}/Image?w=768
-GET /api/v1/Project/{projectId}/Image?h=152
-GET /api/v1/Project/{projectId}/Image?type=dolorem
+GET /api/v1/Project/{projectId}/Image?w=172
+GET /api/v1/Project/{projectId}/Image?h=972
+GET /api/v1/Project/{projectId}/Image?type=recusandae
 GET /api/v1/Project/{projectId}/Image?ifBlank=ClearPixel
 ```
 

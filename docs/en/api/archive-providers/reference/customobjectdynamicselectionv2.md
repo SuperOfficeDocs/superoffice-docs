@@ -3,9 +3,9 @@ uid: CustomObjectDynamicSelectionV2
 title: CustomObjectDynamicSelectionV2
 description: CustomObject selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: CustomObjectDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "CustomObjectDynamicSelectionV2"

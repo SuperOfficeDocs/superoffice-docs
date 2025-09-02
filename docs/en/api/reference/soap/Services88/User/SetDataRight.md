@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SetDataRight SOAP
 generated: true
 uid: Services88-User-SetDataRight
+content_type: reference
 ---
 
 # Services88 User SetDataRight

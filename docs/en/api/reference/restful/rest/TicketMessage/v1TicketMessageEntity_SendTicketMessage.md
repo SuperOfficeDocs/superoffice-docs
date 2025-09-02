@@ -2,6 +2,7 @@
 title: POST TicketMessage/{id}/Send
 uid: v1TicketMessageEntity_SendTicketMessage
 generated: true
+content_type: reference
 ---
 
 # POST TicketMessage/{id}/Send
@@ -34,12 +35,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=qui,unde
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=odio,veritatis
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=nulla,ut
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=asperiores
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=282
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=possimus
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=rerum,dolor
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=sit,illum
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=ut,ratione
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=sit
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=243
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=sint
 ```
 
 
@@ -70,7 +71,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

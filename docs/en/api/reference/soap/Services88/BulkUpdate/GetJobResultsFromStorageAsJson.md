@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.GetJobResultsFromStorageAsJson SOAP
 generated: true
 uid: Services88-BulkUpdate-GetJobResultsFromStorageAsJson
+content_type: reference
 ---
 
 # Services88 BulkUpdate GetJobResultsFromStorageAsJson

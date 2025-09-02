@@ -1,6 +1,8 @@
 ---
+uid: tag-TimeZone_Agent
 title: TimeZone_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -3,9 +3,9 @@ uid: AppointmenthadowSelectionCombined
 title: AppointmenthadowSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: AppointmenthadowSelectionCombined archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AppointmenthadowSelectionCombined"
@@ -742,7 +742,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=contact/restrictionAddress/line1,contact/contactExtra/x_contact_time,contact/NumberOfNotCompletedTicketsInPeriod,person/email/emailProtocol,person/correspondingAssociate/isActive
+GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=joinVideomeetUrl,contact/restrictionAddress/line2,person/birthDay,person/kanaLastName,person/personInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

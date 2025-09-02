@@ -2,6 +2,7 @@
 title: Services88.FindAgent SOAP
 uid: Services88-Find-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Find SOAP

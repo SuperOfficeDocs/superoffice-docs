@@ -3,9 +3,9 @@ uid: selectionmembertype
 title: selectionmembertype
 keywords: mdoprovider mdo provider selectionmembertype
 description: MDO provider for the selection archive providers types. The items will be added by scanning ArchiveProviderFactory.KnownArchiveProviders for this pattern; [TableName]Selection. If the prefix is a known table, the tablename will be added to list with the TableNumber as the ID.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "selectionmembertype" MDO List

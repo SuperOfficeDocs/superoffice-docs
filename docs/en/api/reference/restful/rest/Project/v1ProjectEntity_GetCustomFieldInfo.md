@@ -2,6 +2,7 @@
 title: GET Project/CustomField/{fieldName}
 uid: v1ProjectEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Project/CustomField/{fieldName}
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Schmidt Inc and Sons",
-  "DisplayName": "Lueilwitz Inc and Sons",
-  "Description": "Reactive incremental workforce",
-  "ShortLabel": "aut",
-  "HideLabel": true,
+  "FieldName": "Kuphal-Gutmann",
+  "DisplayName": "Heller Group",
+  "Description": "Customer-focused zero tolerance moratorium",
+  "ShortLabel": "amet",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 404,
-  "TemplateVariableName": "Streich Inc and Sons"
+  "IsDisplayField": true,
+  "Rank": 337,
+  "TemplateVariableName": "Hayes-Pouros"
 }
 ```
