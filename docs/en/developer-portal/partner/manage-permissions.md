@@ -25,12 +25,14 @@ This task requires **User management** permission.
 
 1. In the Developer Portal, go to your partner page.
 2. Select **Users** from the left menu.
-3. Locate the user in the list and click **Edit item**.
-4. To grant a permission, tic the corresponding checkbox. To remove a permission, uncheck it.
+3. Locate the user in the list and click the **Edit pen icon**. The **Edit user roles** dialog appears.
+4. To grant a permission, tick the corresponding checkbox. To remove a permission, uncheck it.
 
     ![Edit permissions -screenshot][img1]
 
-5. Click **Update**.
+    ![Edit user roles -screenshot][img2]
+
+5. Click **Save**.
 
 <!-- markdownlint-disable-file DOCSMD007 -->
 > [!TIP]
@@ -44,3 +46,4 @@ This task requires **User management** permission.
 
 <!-- Referenced images -->
 [img1]: media/edit-permissions.png
+[img2]: media/edit-user-roles.png
