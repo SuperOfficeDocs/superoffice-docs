@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 09.01.2025
 version: 10.5
 content_type: howto
+category: privacy
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl

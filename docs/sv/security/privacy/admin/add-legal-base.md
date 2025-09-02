@@ -5,7 +5,10 @@ description: Den här guiden beskriver hur du ändrar integritetslistorna.
 keywords: Integritet rättslig grund lista, Lägg till rättslig grund
 author: SuperOffice Product and Engineering
 date: 09.02.2025
+version: 10.3
 content_type: howto
+functional_right: list administrator, general administrator
+category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

@@ -2,11 +2,16 @@
 uid: help-en-generate-personal-data-report
 title: Generate personal data report
 description: Generate personal data report
-author: SuperOffice RnD
+keywords: personal data report, privacy report
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: company
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Generate personal data report

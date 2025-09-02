@@ -2,11 +2,16 @@
 uid: help-en-send-privacy-confirmation-email
 title: Send privacy confirmation email
 description: Send privacy confirmation email
-author: SuperOffice RnD
+keywords: privacy confirmation email, email confirmations
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: GDPR, consent, email, privacy
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Send privacy confirmation email

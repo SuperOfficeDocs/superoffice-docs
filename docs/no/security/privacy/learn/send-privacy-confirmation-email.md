@@ -2,11 +2,16 @@
 uid: help-no-send-privacy-confirmation-email
 title: Send e-postbekreftelse for personvern
 description: Send e-postbekreftelse for personvern
-author: SuperOffice RnD
+keywords: e-postbekreftelse, personvern
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: GDPR, samtykke, e-post, personvern
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Send e-postbekreftelse for personvern

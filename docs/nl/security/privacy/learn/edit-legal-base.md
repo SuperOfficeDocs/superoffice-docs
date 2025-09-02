@@ -1,22 +1,21 @@
 ---
-uid: help-nl-edit-TeTelkens wanneer een persoon wordt geregistreerd in uw SuperOffice CRM-database, wordt ook de toestemming die ze hebben gegeven om hun gegevens op te slaan geregistreerd. Hierdoor kunt u te allen tijde beheren en bijhouden van welke persoon u precies welke toestemming hebt ontvangen.
-
-## Definities wanneer een persoon wordt geregistreerd in uw SuperOffice CRM-database, wordt ook de toestemming die ze hebben gegeven om hun gegevens op te slaan geregistreerd. Hierdoor kunt u te allen tijde beheren en bijhouden van welke persoon u precies welke toestemming hebt ontvangen.
-
-## Definities-base
-title: Rechtsgrondslag bewerken
+uid: help-nl-edit-legal-base
+title: Rechtsgrondslag voor een persoon bewerken
 description: Deze gids gaat over de AVG-functies in SuperOffice Marketing die u helpen ervoor te zorgen dat uw marketinginspanningen voldoen aan de AVG.
-keywords: privacy, toestemming, Rechtsgrondslag
-author: SuperOffice RnD
+keywords: Privacy-instellingen bewerken, rechtsgrondslag bewerken
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
-# Privacy-instellingen voor een persoon bewerken
+# Rechtsgrondslag voor een persoon bewerken
 
 > [!NOTE]
 > Deze functie vereist functionele rechten. Zonder de juiste functionele rechten, kunt u alleen **E-marketing** in- of uitschakelen.

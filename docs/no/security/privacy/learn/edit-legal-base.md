@@ -1,17 +1,18 @@
 ---
-uid: help-no-edit-Hver gang en person blir registrert i SuperOffice CRM-databasen din, blir også samtykket vedkommende ga for å lagre detaljene deres registrert. Dette gjør at du kan administrere og spore nøyaktig hvilket samtykke du har mottatt fra hvilken person, til enhver tid.
-
-## Definisjoner-base
-title: Rediger juridisk grunnlag
+uid: help-no-edit-legal-base
+title: Rediger rettslig grunnlag for en person
 description: I denne veiledningen lærer du om GDPR-funksjonene i SuperOffice Marketing som hjelper deg med å sørge for at markedsføringstiltakene dine er GDPR-kompatible.
-keywords: personvern, samtykke, hjemmel
-author: SuperOffice RnD
+keywords: redigere personverninnstilling, redigere rettslig grunnlag, rediger hjemmel
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Rediger personverninnstillinger for en person

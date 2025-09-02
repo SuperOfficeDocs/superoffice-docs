@@ -2,11 +2,17 @@
 uid: help-nl-generate-personal-data-report
 title: Rapport met persoonlijke gegevens genereren
 description: Rapport met persoonlijke gegevens genereren
-author: SuperOffice RnD
+keywords: Rapport met persoonlijke gegevens, privacyrapport
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: bedrijf
+version: 10.3
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
 # Rapport met persoonlijke gegevens genereren

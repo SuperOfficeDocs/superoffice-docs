@@ -2,14 +2,16 @@
 uid: help-nl-mass-delete
 title: Massaverwijdering records (permanent)
 description: In overeenstemming met de AVG-vereisten moet u een wettelijke basis hebben voor het opslaan van de gegevens van al uw contacten. En wanneer u niet langer een wettelijke basis hebt hiervoor, moet u hun gegevens uit al uw systemen verwijderen.
-keywords: selectie, GDPR
+keywords: Massaverwijdering, persoonlijke gegevens verwijderen
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 redirect_from: /nl/search-options/selection/learn/howto/mass-delete
 ---
 

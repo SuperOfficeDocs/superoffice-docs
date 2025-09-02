@@ -5,7 +5,10 @@ description: Bruk denne veiledningen til å finne ut hvordan du endrer personver
 keywords: Personvern hjemmel liste, Legg til hjemmel
 author: SuperOffice Product and Engineering
 date: 09.02.2025
+version: 10.3
 content_type: howto
+functional_right: list administrator, general administrator
+category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no

@@ -2,14 +2,16 @@
 uid: help-sv-mass-delete
 title: Ta bort flera poster (permanent)
 description: I enlighet med GDPR-kraven måste du ha en rättslig grund för att lagra uppgifter för alla dina kontakter. Och när du inte längre har en rättslig grund för att göra detta, måste du ta bort deras uppgifter från alla dina system.
-keywords: selection, GDPR
+keywords: ta bort flera poster, radera personuppgifter
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 redirect_from: /sv/search-options/selection/learn/howto/mass-delete
 ---
 

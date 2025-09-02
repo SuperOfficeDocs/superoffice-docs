@@ -7,6 +7,8 @@ author: Bergfrid Dias
 date: 12.19.2024
 version: 10
 content_type: howto
+functional_right: list administrator, general administrator
+category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

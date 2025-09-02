@@ -2,11 +2,16 @@
 uid: help-da-send-privacy-confirmation-email
 title: Send e-mail med bekræftelse om personbeskyttelse
 description: Send e-mail med bekræftelse om personbeskyttelse
-author: SuperOffice RnD
+keywords: e-mailbekræftelse, personbeskyttelse
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: GDPR, samtykke, e-mail, personbeskyttelse
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
 # Send e-mail med bekræftelse om personbeskyttelse

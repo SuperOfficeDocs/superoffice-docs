@@ -1,18 +1,21 @@
 ---
 uid: help-en-edit-legal-base
-title: Edit legal base
+title: Edit legal base for a contact
 description: In this how-to guide, you will learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
-keywords: privacy, consent, legal basis, GDPR
-author: SuperOffice RnD
+keywords: edit privacy settings, edit legal base
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
-# Edit privacy settings for a contact
+# Edit legal base for a contact
 
 > [!NOTE]
 > This feature requires functional rights. Without the proper functional rights, you can only set **E-marketing** to on or off.

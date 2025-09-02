@@ -1,12 +1,17 @@
 ---
 uid: help-de-privacy
 title: Datenschutz
-description: Datenschutz
-author: SuperOffice RnD
+description: Die Funktion Datenschutz in SuperOffice hilft Ihnen, die Daten Ihrer Kunden zu schützen und die Datenschutz-Grundverordnung (DSGVO) der EU einzuhalten.
+keywords: Datenschutz, DSGVO, E-Marketing, Einwilligung, Rechtsgrundlage
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: Datenschutz, DSGVO, E-Marketing, Einwilligung
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # Datenschutz <i class="ph ph-shield" aria-label="Shield icon"></i>

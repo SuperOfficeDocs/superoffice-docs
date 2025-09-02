@@ -2,14 +2,16 @@
 uid: help-de-mass-delete
 title: Massenlöschung von Datensätzen (unwiederbringlich)
 description: Gemäß den Anforderungen der DSGVO müssen Sie eine Rechtsgrundlage für die Speicherung der Daten aller Ihrer Personen haben. Und wenn Sie keine Rechtsgrundlage mehr dafür haben, müssen Sie ihre Daten aus allen Ihren Systemen entfernen.
-keywords: Selektion, DSGVO
+keywords: Massenlöschung, personenbezogene Daten löschen
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+index: true
 redirect_from: /de/search-options/selection/learn/howto/mass-delete
 ---
 

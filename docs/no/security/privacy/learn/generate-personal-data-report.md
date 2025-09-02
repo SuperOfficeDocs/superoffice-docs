@@ -2,11 +2,16 @@
 uid: help-no-generate-personal-data-report
 title: Generer persondatarapport
 description: Generer persondatarapport
-author: SuperOffice RnD
+keywords: persondatarapport, personvernrapport
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: firma
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Generer persondatarapport

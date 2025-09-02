@@ -2,11 +2,17 @@
 uid: help-sv-generate-personal-data-report
 title: Generera personuppgiftsrapport
 description: Generera personuppgiftsrapport
-author: SuperOffice RnD
+keywords: personuppgiftsrapport, integritetsrapport
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: företag
+version: 10.3
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Generera personuppgiftsrapport

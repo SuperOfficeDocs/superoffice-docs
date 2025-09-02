@@ -5,7 +5,9 @@ description: Innan du börjar konfigurera din SuperOffice CRM-databas för att b
 keywords: GDPR, samtycke, integritetsinställning
 author: Bergfrid Dias
 date: 02.21.2023
+version: 10.3
 content_type: concept
+category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

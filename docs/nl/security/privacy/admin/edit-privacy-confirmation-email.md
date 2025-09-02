@@ -4,6 +4,7 @@ title: E-mail met privacybevestiging bewerken
 description: In deze gids staat u hoe u de e-mail met de privacybevestiging kunt bewerken.
 keywords: E-mail met privacybevestiging, e-mail sjabloon
 content_type: howto
+category: privacy
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10

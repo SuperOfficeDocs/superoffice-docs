@@ -5,7 +5,10 @@ description: Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ände
 keywords: Datenschutz Rechtsgrundlage Liste, Rechtsgrundlage hinzufügen
 author: SuperOffice Product and Engineering
 date: 09.02.2025
+version: 10.3
 content_type: howto
+functional_right: list administrator, general administrator
+category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

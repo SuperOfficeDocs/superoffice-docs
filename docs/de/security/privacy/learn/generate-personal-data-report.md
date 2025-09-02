@@ -2,11 +2,17 @@
 uid: help-de-generate-personal-data-report
 title: Bericht zu personenbezogenen Daten generieren
 description: Bericht zu personenbezogenen Daten generieren
-author: SuperOffice RnD
+keywords: Bericht zu personenbezogenen Daten, Datenschutzbericht
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: Firma
+version: 10.3
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # Bericht zu personenbezogenen Daten generieren
