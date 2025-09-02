@@ -1,6 +1,6 @@
 ---
-title: Address formats
 uid: globalization-address
+title: Address formats
 description: Localization, address formats
 author: Tony Yates
 date: 02.16.2022

@@ -3,7 +3,7 @@ uid: ai-categorization
 title: SuperOffice AI Services - categorization
 description: SuperOffice AI Services - categorization
 keywords: AI, machine learning
-author: AnthonyYates
+author: Anthony Yates
 date: 06.25.2024
 content_type: concept
 deployment: online

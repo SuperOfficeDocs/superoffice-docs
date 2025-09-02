@@ -3,7 +3,7 @@ uid: ai-categorization-setup
 title: How to set up and configure Categorization AI Service
 description: How to setup and configure Categorization AI Service
 keywords: AI
-author: AnthonyYates
+author: Anthony Yates
 date: 08.25.2025
 content_type: tutorial
 deployment: online
