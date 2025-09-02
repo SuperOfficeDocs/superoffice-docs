@@ -1,0 +1,11 @@
+items:
+- name: Veiledning for implementering
+  href: index.md
+- name: Legge til samtykkeformål
+  href: add-purpose.md
+- name: Legge til juridisk grunnlag
+  href: add-legal-base.md
+- name: Legge til personvernkilde
+  href: add-source.md
+- name: Rediger e-post med personvernbekreftelse
+  href: edit-privacy-confirmation-email.md

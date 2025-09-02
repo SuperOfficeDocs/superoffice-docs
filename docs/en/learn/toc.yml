@@ -56,6 +56,10 @@ items:
     href: ../knowledge-base/learn/toc.yml
     topicHref: ../knowledge-base/learn/index.md
 
+  - name: Privacy settings and GDPR
+    href: ../security/privacy/learn/toc.yml
+    topicHref: ../security/privacy/learn/index.md
+
   - name: SAINT (Sales intelligence)
     href: ../saint/learn/toc.yml
     topicHref: ../saint/learn/index.md
@@ -74,9 +78,6 @@ items:
     - name: Preferences
       href: ../admin/preferences/learn/toc.yml
       topicHref: ../admin/preferences/learn/index.md
-    - name: Privacy
-      href: ../security/privacy/learn/admin/toc.yml
-      topicHref: ../security/privacy/learn/implementation-guide.md
 
     - name: Custom objects
       href: ../custom-objects/learn/toc.yml

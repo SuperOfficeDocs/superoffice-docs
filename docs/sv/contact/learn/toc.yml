@@ -15,6 +15,3 @@ items:
   href: send-email.md
 - name: Ringa till kontakter
   href: dial.md
-- name: Integritetsinställningar och GDPR
-  href: ../../security/privacy/learn/toc.yml
-  topicHref: ../../security/privacy/learn/index.md

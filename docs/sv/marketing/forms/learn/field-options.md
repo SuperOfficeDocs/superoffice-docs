@@ -91,4 +91,4 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 [1]: recaptcha.md
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
-[4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
+[4]: ../../../security/privacy/admin/add-purpose.md

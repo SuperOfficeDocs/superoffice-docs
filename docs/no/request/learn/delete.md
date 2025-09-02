@@ -42,6 +42,6 @@ Generelt anbefales det ikke å slette en sak. Det kan imidlertid være nødvendi
 [1]: index.md
 [2]: create.md
 [3]: ../../learn/basics/deleting-elements.md
-[4]: ../../security/privacy/learn/implementation-guide.md
+[4]: ../../security/privacy/admin/index.md
 [5]: reply.md
 [6]: edit-message.md

@@ -1,0 +1,11 @@
+items:
+- name: Implementation guide
+  href: index.md
+- name: Add consent purpose
+  href: add-purpose.md
+- name: Add legal base
+  href: add-legal-base.md
+- name: Add privacy source
+  href: add-source.md
+- name: Edit privacy confirmation email
+  href: edit-privacy-confirmation-email.md

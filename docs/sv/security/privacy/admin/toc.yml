@@ -1,0 +1,11 @@
+items:
+- name: Implementeringsguide
+  href: index.md
+- name: Lägga till samtyckessyfte
+  href: add-purpose.md
+- name: Lägga till rättslig grund
+  href: add-legal-base.md
+- name: Lägga till integritetskälla
+  href: add-source.md
+- name: Redigera e-postbekräftelse om personskydd
+  href: edit-privacy-confirmation-email.md

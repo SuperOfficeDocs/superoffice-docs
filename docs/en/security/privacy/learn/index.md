@@ -1,19 +1,27 @@
 ---
 uid: help-en-privacy
 title: Privacy
-description: privacy
-author: SuperOffice RnD
+description: The Privacy feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU's General Data Protection Regulation (GDPR).
+keywords: privacy, GDPR, e-marketing, consent, legal basis
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: privacy, GDPR, e-marketing, consent
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Privacy <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 The **Privacy** feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU's General Data Protection Regulation (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+You must have the consent (permission) of a person to (among other things)
+
+* Store and process their data (to sell to and/or provide services to a person)
+* Send them e-marketing material
 
 These are two different purposes for obtaining a person's consent. In SuperOffice, these purposes are called **Sales and service** and **E-marketing**. There may also be other purposes relevant for you business.
 
@@ -57,14 +65,14 @@ If you select this option, only persons who have given their explicit consent to
 
 If you do *not* select this option, only persons with **E-marketing** set to **OFF** and legal basis set to **Withdrawn** will be filtered out of the recipients list. This works the same way as **No mailings**.
 
-## What do you want to do now?
+## Related content
 
 * [Add items to the Privacy - Legal basis list][3]
 * [Add items to the Privacy - Source list][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[2]: ../admin/add-purpose.md
+[3]: ../admin/add-legal-base.md
+[4]: ../admin/add-source.md
 
 <!-- Referenced images -->

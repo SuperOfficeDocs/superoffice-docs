@@ -1,15 +1,18 @@
 ---
 uid: help-no-edit-legal-base
-title: Rediger juridisk grunnlag
+title: Rediger rettslig grunnlag for en person
 description: I denne veiledningen lærer du om GDPR-funksjonene i SuperOffice Marketing som hjelper deg med å sørge for at markedsføringstiltakene dine er GDPR-kompatible.
-keywords: personvern, samtykke, hjemmel
-author: SuperOffice RnD
+keywords: redigere personverninnstilling, redigere rettslig grunnlag, rediger hjemmel
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Rediger personverninnstillinger for en person
@@ -22,8 +25,6 @@ Som firma samler du inn, lagrer og håndterer folks personopplysninger. I henhol
 SuperOffice CRM har en funksjon som heter Samtykkehåndtering, den er utviklet for å hjelpe deg med å dokumentere når, hvordan og hvorfor du vil registrere visse personopplysninger i CRM-løsningen.
 
 Hver gang en person registreres i SuperOffice CRM-databasen din, registreres også samtykket vedkommende ga til lagring av disse opplysningene. På denne måten kan du administrere og spore nøyaktig hvilket samtykke du har mottatt fra hvilken person, til enhver tid.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definisjoner
 

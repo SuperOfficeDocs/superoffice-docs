@@ -9,3 +9,6 @@ items:
     href: generate-personal-data-report.md
   - name: Datensätze unwiederbringlich löschen
     href: mass-delete.md
+  - name: Für Administratoren
+    href: ../admin/toc.yml
+    topicHref: ../admin/index.md

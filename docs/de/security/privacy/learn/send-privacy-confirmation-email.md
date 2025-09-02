@@ -2,11 +2,16 @@
 uid: help-de-send-privacy-confirmation-email
 title: E-Mail zur Datenschutzbestätigung senden
 description: E-Mail zur Datenschutzbestätigung senden
-author: SuperOffice RnD
+keywords: Datenschutzbestätigung, E-Mail-Bestätigung
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: DSGVO, Einwilligung, E-Mail, Datenschutz
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
 # E-Mail zur Datenschutzbestätigung senden
@@ -62,12 +67,12 @@ Die E-Mail zur Datenschutzbestätigung informiert die Person normalerweise über
 
 Die E-Mail kann auch einen Link zu einem Kundenzentrum enthalten, wo die Person Abonnements und Einwilligung verwalten kann. Der Link ist standardmäßig 21 Tage gültig.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Bearbeiten Sie die E-Mail der Datenschutzbestätigung unter Einstellungen und Verwaltung][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

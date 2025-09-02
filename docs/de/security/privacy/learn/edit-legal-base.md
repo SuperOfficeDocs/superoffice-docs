@@ -1,18 +1,21 @@
 ---
 uid: help-de-edit-legal-base
-title: Rechtsgrundlage bearbeiten
+title: Rechtsgrundlage für eine Person bearbeiten
 description: In dieser Anleitung erfahren Sie mehr über die DSGVO-Funktionen in SuperOffice-Marketing, mit denen Sie sicherstellen können, dass Ihre Marketingaktivitäten konform nach der DSGVO sind.
-keywords: Datenschutz, Einwilligung, Rechtsgrundlage
-author: SuperOffice RnD
+keywords: Datenschutzeinstellungen bearbeiten, Rechtsgrundlage bearbeiten
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+index: true
 ---
 
-# Datenschutzeinstellungen für eine Person bearbeiten
+# Rechtsgrundlage für eine Person bearbeiten
 
 > [!NOTE]
 > Für diese Funktion sind funktionelle Rechte erforderlich. Ohne die geeigneten funktionellen Rechte können Sie lediglich **E-Marketing** aktivieren oder deaktivieren.
@@ -22,8 +25,6 @@ Als Firma erheben, speichern und verarbeiten Sie personenbezogene Daten von Pers
 SuperOffice CRM verfügt über eine Funktion namens Einwilligungsmanagement, mit der Sie dokumentieren können, wann, wie und warum Sie bestimmte personenbezogene Daten in Ihrer CRM-Lösung erfassen möchten.
 
 Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wird auch die erteilte Einwilligung zur Speicherung ihrer Details registriert. So können Sie jederzeit genau verwalten und nachvollziehen, welche Einwilligung Sie von welcher Person erhalten haben.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definitionen
 

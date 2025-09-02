@@ -2,11 +2,16 @@
 uid: help-en-send-privacy-confirmation-email
 title: Send privacy confirmation email
 description: Send privacy confirmation email
-author: SuperOffice RnD
+keywords: privacy confirmation email, email confirmations
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: GDPR, consent, email, privacy
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Send privacy confirmation email
@@ -62,12 +67,12 @@ The privacy confirmation email will normally inform the contact of the following
 
 The email can also contain a link to a customer centre where the contact can manage subscriptions and consent. The link is valid for 21 days by default.
 
-## Related
+## Related content
 
 * [Edit the privacy confirmation email in Settings and maintenance][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

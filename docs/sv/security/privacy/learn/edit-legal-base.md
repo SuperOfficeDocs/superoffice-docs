@@ -1,18 +1,21 @@
 ---
 uid: help-sv-edit-legal-base
-title: Redigera rättslig grund
+title: Redigera rättslig grund för en kontakt
 description: I den här guiden får du lära dig mer om GDPR-funktionerna i SuperOffice Marketing som hjälper dig att säkerställa att dina marknadsföringsåtgärder är GDPR-kompatibla.
-keywords: integritet, samtycke, rättslig grund
-author: SuperOffice RnD
+keywords: redigera integritetsinställning, Rättslig grund
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
-# Redigera integritetsinställningar för en kontakt
+# Redigera rättslig grund för en kontakt
 
 > [!NOTE]
 > Den här funktionen kräver funktionella behörigheter. Utan korrekta funktionella behörigheter kan du endast ange **E-marknadsföring** som på eller av.
@@ -22,8 +25,6 @@ Som företag samlar ni in, lagrar och hanterar människors personuppgifter. Enli
 SuperOffice CRM har en funktion som kallas samtyckeshantering, vilken är utformad för att hjälpa dig att dokumentera när, hur och varför du vill registrera vissa personuppgifter i din CRM-lösning.
 
 Varje gång en person registreras i din SuperOffice CRM-databas, registreras även det samtycke de gav för att deras uppgifter skulle lagras. Detta gör att du alltid kan hantera och spåra exakt vilket samtycke du har fått från vilken person.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definitioner
 
